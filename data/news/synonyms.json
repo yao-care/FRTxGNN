@@ -1,0 +1,22 @@
+{
+  "description": "Disease and drug synonyms in French",
+  "generated": "2026-03-29",
+  "indication_synonyms": {
+    "diabetes mellitus": ["diabète", "diabète de type 2", "diabète sucré", "glycémie"],
+    "hypertension": ["hypertension", "hypertension artérielle", "tension artérielle élevée"],
+    "cancer": ["cancer", "tumeur", "néoplasie", "carcinome", "oncologie"],
+    "heart disease": ["maladie cardiaque", "cardiopathie", "insuffisance cardiaque"],
+    "asthma": ["asthme", "asthme bronchique"],
+    "depression": ["dépression", "trouble dépressif", "dépression majeure"],
+    "arthritis": ["arthrite", "polyarthrite rhumatoïde", "arthrose"],
+    "stroke": ["accident vasculaire cérébral", "AVC", "attaque cérébrale"],
+    "obesity": ["obésité", "surpoids", "syndrome métabolique"],
+    "alzheimer disease": ["Alzheimer", "maladie d'Alzheimer", "démence"]
+  },
+  "drug_synonyms": {
+    "metformin": ["metformine", "Glucophage", "Stagid"],
+    "aspirin": ["aspirine", "acide acétylsalicylique"],
+    "ibuprofen": ["ibuprofène", "Advil", "Nurofen"],
+    "acetaminophen": ["paracétamol", "Doliprane", "Efferalgan", "Dafalgan"]
+  }
+}

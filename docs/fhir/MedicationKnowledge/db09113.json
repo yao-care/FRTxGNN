@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db09113",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://frtxgnn.yao.care/drugs",
+        "code": "db09113",
+        "display": "DB09113"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "FR",
+          "display": "France"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://frtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

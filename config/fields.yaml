@@ -1,0 +1,33 @@
+# France ANSM/BDPM Field Mapping Configuration
+
+country_code: "FR"
+language: "fr"
+regulatory_agency: "ANSM"
+
+data_source:
+  name: "Base de données publique des médicaments (BDPM)"
+  url: "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/"
+  format: CSV
+  encoding: latin-1
+  delimiter: "\t"
+
+field_mapping:
+  license_id: "CIS"
+  brand_name_local: "Dénomination"
+  brand_name_en: "Substance active"
+  ingredients: "Substance active"
+  indication: ""
+  dosage_form: "Forme pharmaceutique"
+  manufacturer: "Titulaire"
+  approval_date: "Date d'AMM"
+  status: "Statut administratif de l'AMM"
+
+withdrawn_statuses:
+  - "Abrogée"
+  - "Retirée"
+  - "Suspendue"
+  - "Caduque"
+
+ingredient_separator: ";"
+date_format: "%d/%m/%Y"
+encoding: "latin-1"
