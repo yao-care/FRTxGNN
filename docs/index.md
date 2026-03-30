@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Drug Repurposing Predictions
+title: Prédictions de Repositionnement de Médicaments
 nav_order: 1
 description: "AI-powered drug repurposing predictions for France. Evidence-based analysis of approved medicines for potential new therapeutic indications."
 permalink: /
 ---
 
-# Drug Repurposing Predictions — France
+# Prédictions de Repositionnement de Médicaments — France
 
-This project uses the TxGNN knowledge graph to predict potential new therapeutic uses for medicines approved in France.
+Ce projet utilise le graphe de connaissances TxGNN pour prédire de nouvelles utilisations thérapeutiques potentielles pour les médicaments approuvés en France.
 
-**Disclaimer**: This content is for research purposes only and does not constitute medical advice. All drug repurposing predictions require clinical validation before application.
+**Avertissement** : Ce contenu est uniquement à des fins de recherche et ne constitue pas un avis médical. Toutes les prédictions de repositionnement de médicaments nécessitent une validation clinique avant application.
