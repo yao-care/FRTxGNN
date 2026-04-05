@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-05T09:49:57.561637+00:00",
+  "fetched_at": "2026-04-05T10:45:03.607607+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "1a842e28a163",
-      "title": "Lentilles, insuline... la logistique pharmaceutique fait face aux crises - France 24",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZW5Jekcwc2JoLVg3R0d4M29aT0VYd28xYUlkMXRTYWJxZFZuZHRKZUlqd0ZZY0RyYW54TU5BMkMzeVp1NXdOVHpvMms5aE95RGs5bVRaWGswcDI4MFBHTmxQYm4zb2liNkxPbEoydkZKVjJ0Z2l6WWNLalZjcWFWVWNkVEYyTjRyVzZWaFh6V1l4d3dhN25FSVJFVEdEZGU1anR2ejZVTTRwU3ZJWHFnY1cyWVFqTFo2OTdFeUd3?oc=5",
-      "published": "2026-04-05T08:03:21+00:00",
-      "source": {
-        "name": "France 24",
-        "url": "https://www.france24.com"
-      }
-    },
-    {
       "id": "e57c3c989c10",
       "title": "Médicaments : comment les nanoparticules de Nanobiotix veulent doper les traitements du futur - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTTJyYjN3bHhTNEFxWGRHTkw1RVNRV3EzdUNHSUZycnZFOTNjWHMwS3VJaUFNUXBMSUlUSjAxY3FrRkVUbEVxenZ4bnJTYWhFbS1VcnJ6dTN5dUJfZ2tNX3hNbWEzQjhfeHlpOEM2ak5EV2ZvT014MEtYOVVKQVJTRjU1MWJ5MnNTdHI4N1JhVzhZNTh6eV9KRWNOdWFELUF6b0plVWR2bDdNaHJPeUQ2LUk1RUdxdTdDVy16ZXJGRUJVT2J1SXRQdUVTN3F0bUhPSTlUSUFPLVJBNjJYWENMakU5WVppSUlkcGJ4cmNvRQ?oc=5",
@@ -44,13 +34,13 @@
       }
     },
     {
-      "id": "2a3b8b289695",
-      "title": "Alzheimer : ce médicament pourrait stopper la maladie avant les premiers symptômes - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTGk5YVp6UWdjVnI2QnNLOUlBZWNZeFgyU3lvUGxMWllTZmE1TDVrdjV0S2VGYk9CaVgtYmJTdlhXZVFpQmJ5WldhN1FRTFlfYmR2NkxjN3BTRGRTU1FyanFhQkpocHhqaWtPUlRBQTgwM0lLRnZ4bVRmMkdUSmJMdkJJRTJCLTRWZzBJN2pYaDRBdjZ0RGozRnVfYk5SOUtEYzlMZU9IcTZIOTI4em9Qbjk1QjVJQlAwNExwYVZ1ODcwd0c1MmR3enN0Y3NXQkVTNk9zdEdjUVh4SE4wTC1hbGsxUFEzRDRJ?oc=5",
-      "published": "2026-04-04T16:00:00+00:00",
+      "id": "1a842e28a163",
+      "title": "Lentilles, insuline... la logistique pharmaceutique fait face aux crises - France 24",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZW5Jekcwc2JoLVg3R0d4M29aT0VYd28xYUlkMXRTYWJxZFZuZHRKZUlqd0ZZY0RyYW54TU5BMkMzeVp1NXdOVHpvMms5aE95RGs5bVRaWGswcDI4MFBHTmxQYm4zb2liNkxPbEoydkZKVjJ0Z2l6WWNLalZjcWFWVWNkVEYyTjRyVzZWaFh6V1l4d3dhN25FSVJFVEdEZGU1anR2ejZVTTRwU3ZJWHFnY1cyWVFqTFo2OTdFeUd3?oc=5",
+      "published": "2026-04-05T08:03:21+00:00",
       "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
+        "name": "France 24",
+        "url": "https://www.france24.com"
       }
     },
     {
@@ -61,6 +51,16 @@
       "source": {
         "name": "Contexte",
         "url": "https://www.contexte.com"
+      }
+    },
+    {
+      "id": "2a3b8b289695",
+      "title": "Alzheimer : ce médicament pourrait stopper la maladie avant les premiers symptômes - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTGk5YVp6UWdjVnI2QnNLOUlBZWNZeFgyU3lvUGxMWllTZmE1TDVrdjV0S2VGYk9CaVgtYmJTdlhXZVFpQmJ5WldhN1FRTFlfYmR2NkxjN3BTRGRTU1FyanFhQkpocHhqaWtPUlRBQTgwM0lLRnZ4bVRmMkdUSmJMdkJJRTJCLTRWZzBJN2pYaDRBdjZ0RGozRnVfYk5SOUtEYzlMZU9IcTZIOTI4em9Qbjk1QjVJQlAwNExwYVZ1ODcwd0c1MmR3enN0Y3NXQkVTNk9zdEdjUVh4SE4wTC1hbGsxUFEzRDRJ?oc=5",
+      "published": "2026-04-04T16:00:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -84,12 +84,12 @@
       }
     },
     {
-      "id": "2810651dcb9a",
-      "title": "Une application pour le traitement de l'asthme pédiatrique pourrait devenir la première thérapie numérique remboursée par la Sécu - Whatsupdoc-lemag.fr",
+      "id": "edf140bdc4d1",
+      "title": "Une application pour le traitement de l'asthme pédiatrique pourrait devenir la première thérapie numérique remboursée par la Sécu - whatsupdoc-lemag.fr",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQkF5NFRTRUlxWjVSV3c3MHR6b0l2cmNHeVpSR2JFUkVVbVhUcWg0UVZ3U0RxMW5kSUxkQnpfeU1RZUVsLWdZVVpZMlcyeUJFNDctcU9PQ2hjZ0JoLV9MRTFfVDMyVEJ6U3gwMFc2XzVZY1hQN3RZbkpreTZmdmlFRnpjMjhleVhKbXZQVnhVOGJJUWJuNU0tdFJick5abTZZZHhIRUxqRkFMdDROcUdLbVRjc2xQQV82d1VRdHZkOUxmRGVv?oc=5",
       "published": "2026-04-02T11:04:00+00:00",
       "source": {
-        "name": "Whatsupdoc-lemag.fr",
+        "name": "whatsupdoc-lemag.fr",
         "url": "https://www.whatsupdoc-lemag.fr"
       }
     },
@@ -154,12 +154,12 @@
       }
     },
     {
-      "id": "30e8b5f43285",
-      "title": "Cannabis médical : Après plusieurs reports, un calendrier qui se précise - Le Moniteur des pharmacies",
+      "id": "0fd0233cbee3",
+      "title": "Cannabis médical : Après plusieurs reports, un calendrier qui se précise - lemoniteurdespharmacies.fr",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVGhDTk9kTTQteTdzY1BxemlWcWRpLXhEcUJENnUteVpVckNUVlhRU1NmazBmM3FLRW9EQUxxX1ZPeVJGZFFSLThOSVR3amItOE82SWVzQnVmYmNLV0NPMTMwbm1SbnhiWUV2aElEZzEwWmJYZ2QyOVV3QS1JWkMxdDA1VTRMZTU3WFY5ODNPRWVfUVpkMmtXQzVIRWVWS2tvWW0tX3M5N2J5cW1QNVkwc0RteXh2Q2FiTk9xY2o2SHh6b0dLejhMT1dkZ0QtQQ?oc=5",
       "published": "2026-04-02T15:03:06+00:00",
       "source": {
-        "name": "Le Moniteur des pharmacies",
+        "name": "lemoniteurdespharmacies.fr",
         "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
@@ -184,13 +184,13 @@
       }
     },
     {
-      "id": "b81546983b7c",
-      "title": "\"Les antihistaminiques ne faisaient plus rien pour l'allergie au pollen de mon mari, voici vers quoi il s'est tourné\" - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOdkxPWmwyeDdNRkJSSWhLUWYzNjQ3bklJZnRtaTRHR2xIdXJENWx5OVl0UnRMci1CUmRxOE5ucVZFTjFoMzFJb0NNVEdCRjhnVEdwT0JJVk04enl0Z254MF9oQTNlc2pyVXg3WnVaWEdZUTM2MHgzT1lIQVR2UHdnczhrTVMxdE11MWppTWlVaTRJeGM0MjUwVDNTdEZvVHZaQUFFRWs4S0g4S2hlZndDaVhyeDdTNUd4V0R5ckwxU3RmcFpCWE5iVVdqOWZkNzZRMUJNUm5YUTVTMFlvZmVsR1hvVHJsX3B4cFU1cGVZZWVfUzFDbklhWVo0cVZFREtMb1U4c2dtVjlVNE9ZSGVB?oc=5",
-      "published": "2026-04-04T19:56:51+00:00",
+      "id": "e0fb0072496a",
+      "title": "Médicaments essentiels - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
+      "published": "2026-01-26T08:00:00+00:00",
       "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -204,6 +204,26 @@
       }
     },
     {
+      "id": "b81546983b7c",
+      "title": "\"Les antihistaminiques ne faisaient plus rien pour l'allergie au pollen de mon mari, voici vers quoi il s'est tourné\" - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOdkxPWmwyeDdNRkJSSWhLUWYzNjQ3bklJZnRtaTRHR2xIdXJENWx5OVl0UnRMci1CUmRxOE5ucVZFTjFoMzFJb0NNVEdCRjhnVEdwT0JJVk04enl0Z254MF9oQTNlc2pyVXg3WnVaWEdZUTM2MHgzT1lIQVR2UHdnczhrTVMxdE11MWppTWlVaTRJeGM0MjUwVDNTdEZvVHZaQUFFRWs4S0g4S2hlZndDaVhyeDdTNUd4V0R5ckwxU3RmcFpCWE5iVVdqOWZkNzZRMUJNUm5YUTVTMFlvZmVsR1hvVHJsX3B4cFU1cGVZZWVfUzFDbklhWVo0cVZFREtMb1U4c2dtVjlVNE9ZSGVB?oc=5",
+      "published": "2026-04-04T19:56:51+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
+      }
+    },
+    {
+      "id": "4760bf201c78",
+      "title": "Journée nationale de la santé, le 7 avril : les médecins retournent dans les villages pour assurer la santé de la communauté. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3J4Ny1oX1pIdGNDcXg2eUpKTmxtQk5CWkJpUFdwMmQ5Y3AyUFNYMTVSbXFTUm9CWGM5ZWxNczZhTjlQd21seTFpVzI3OTQ2ZlI3dkFGLWEzU1R6X25CSlk0RW5UT1Qyd2VjTkhjUWx3a29ueUl6aGtQV2RWN0lwLU00UUJvQ19seFFRVkhjVnZpMWp3ZmVJYXBIVGYyMTQ?oc=5",
+      "published": "2026-04-05T07:17:26+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "7350d6c850b7",
       "title": "De quelle façon la guerre en Iran pourrait affecter les fournitures médicales - Noovo Info",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSEN0V1hOckc5ZmxFNkUtZkpnRVNqbUZreGNyd2x2VS1tTlZjcUx0NzFQV1R2ZGp5REVYemYtYWpSaHJDdU5sMzRSMVRKOC0tNENoSEVmeFh2MmJkWnNjeFFMY1R3Z2lHakkyUkdZcnhKQW56NExRMVRnWjdVLXUwZUZLUVlSb1FLQVN6aUVjTXpGVmxSWUc3Z0MwbENzcWs0RHJZcThqVG9UXy1YMXE5MXZaMktsMmZZX0Y5cTliM1BnR3c?oc=5",
@@ -211,36 +231,6 @@
       "source": {
         "name": "Noovo Info",
         "url": "https://www.noovo.info"
-      }
-    },
-    {
-      "id": "e0fb0072496a",
-      "title": "Médicaments essentiels - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
-      "published": "2026-01-26T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "dfbc53a4ae1a",
-      "title": "Journée nationale de la santé, le 7 avril : les médecins retournent dans les villages pour assurer la santé de la communauté. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3J4Ny1oX1pIdGNDcXg2eUpKTmxtQk5CWkJpUFdwMmQ5Y3AyUFNYMTVSbXFTUm9CWGM5ZWxNczZhTjlQd21seTFpVzI3OTQ2ZlI3dkFGLWEzU1R6X25CSlk0RW5UT1Qyd2VjTkhjUWx3a29ueUl6aGtQV2RWN0lwLU00UUJvQ19seFFRVkhjVnZpMWp3ZmVJYXBIVGYyMTQ?oc=5",
-      "published": "2026-04-05T07:17:26+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "8b5730991a5b",
-      "title": "Traitements anti-obésité : des carences nutritionnelles sous surveillance - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWTZCQktNakpmdlFvN081RVdOM05oWXhjNkQ3ejdGaGNZcVpRR09SM0g2UTVsWWdtYXVfcVJGbEpEVTkxUE0tZm1LRE5uRTJsck1kV0RIWTdKRUtDdXJSQ1JrbzBjSkNtQTBrVlF4VUU0X0VtS1BOV0gzd0Ezc0Eyb2JEazFCckVOR0xteVIyZ3JDS2lPZFJ4azJJa0J5MzdyaWtXOWVqM2RsNDQzRzR5T21nOHEwemdaYkRIbWJKZFdDeE10RDlLX3BDSk12NUZMNkxOeHBoOTdqbWx6VEFxdlJNRQ?oc=5",
-      "published": "2026-04-03T05:02:35+00:00",
-      "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
     {
@@ -664,12 +654,12 @@
       }
     },
     {
-      "id": "0722d73174ab",
-      "title": "Santé, médicaments, caisses sociales : un expert en sécurité sociale alerte sur l’urgence des réformes [Vidéo] - Tunisie numerique",
+      "id": "48d09664420c",
+      "title": "Santé, médicaments, caisses sociales : un expert en sécurité sociale alerte sur l’urgence des réformes [Vidéo] - tunisienumerique.com",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaDFlelI3ckJPVDZONE9uWmktY1pPTW9vcHJSdUhsdWVzc3pfQVpSbHpvRTFHS2NVSGszLWZrX01RYXF1TEVKVVhMN0RlWmNXc19YOUVaUmphd1ZZRUpPenlCVVRhNHV5cnRVMTVtR0d2bm42c2JXdzRUMkxmQ2JMRE9MQ05yQ1BLaFhkZ3hZNG1uVTMtNlphczg0Q3V1RWVtU0RELXYxd19aZHlxckQzdFVCWWU3X0FuWXZyckVFT2ttanlFVV9DYmttZ2Rtd0ZfeDhV?oc=5",
       "published": "2026-03-31T20:30:00+00:00",
       "source": {
-        "name": "Tunisie numerique",
+        "name": "tunisienumerique.com",
         "url": "https://www.tunisienumerique.com"
       }
     },
@@ -704,12 +694,12 @@
       }
     },
     {
-      "id": "8acbab9e1d45",
-      "title": "Des examens médicaux et des médicaments gratuits ont été fournis à plus de 300 habitants de la commune de Nam Khanh Vinh. - Vietnam.vn",
+      "id": "74f7185a79b4",
+      "title": "Des examens médicaux et des médicaments gratuits ont été fournis à plus de 300 habitants de la commune de Nam Khanh Vinh. - vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORF90NTZKMDZ6ckpyX1lUQVgtRktXeFhxaTBJaU5sbGtqWXhtUkJnVnExOGd0OWJ5WFg2aW5lVEpvcU9zaVpsWG4xbU5kbUprclJOUXFOS3NwRFpDY04zSGpERWIxcE5qUHV1S0tXQnJsRXBwa05HQ29WaXQxNE5aN0dCclJVQ2dBMUlIRWtubHljWFR6Ylh4aXRVZw?oc=5",
       "published": "2026-04-04T06:31:34+00:00",
       "source": {
-        "name": "Vietnam.vn",
+        "name": "vietnam.vn",
         "url": "https://www.vietnam.vn"
       }
     },
@@ -854,12 +844,12 @@
       }
     },
     {
-      "id": "336f28694e73",
-      "title": "MOOC « aide à la prise des médicaments en EHPAD » - ARS Pays de la Loire",
+      "id": "906dbd4c1f95",
+      "title": "MOOC « aide à la prise des médicaments en EHPAD » - pays-de-la-loire.ars.sante.fr",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVDRtNjhzdFBVZjEzMVpnVWRTd0tpaFYxREtKTlE2MTJWYmN2dlBZTkJzV19pT0dTeEpDTkFkaGF2U3JSSm1IMUFHUW5rNGZXWkZ1SUNXRUhRSXBMRm5ueEw0akZ4dXZWRW1Ddk9tamRsNWhkUjk3X1NmT054M002TFdVWVl2eTRSdHY0dW5iOXdXZVdtcWVKVEFhcw?oc=5",
       "published": "2025-09-22T07:00:00+00:00",
       "source": {
-        "name": "ARS Pays de la Loire",
+        "name": "pays-de-la-loire.ars.sante.fr",
         "url": "https://www.pays-de-la-loire.ars.sante.fr"
       }
     },
@@ -994,13 +984,23 @@
       }
     },
     {
-      "id": "1ab91c6bedc6",
-      "title": "Alzheimer : six questions sur le refus d’accès précoce au Lecanemab par la Haute Autorité de santé - Salle de presse de l'Inserm",
+      "id": "06ceb38a8a1a",
+      "title": "Alzheimer : six questions sur le refus d’accès précoce au Lecanemab par la Haute Autorité de santé - presse.inserm.fr",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZEtxa2lkeDNsNjZMR0JTb1FQcEk5NWtodUtVLVh0OU1iemJieGc2YWNUNGNCdjc5MFVKX2MxbHRRdVM3ZU1WYXlWVE5FUUpvYVZ4R21neWJMcDM2Vk9YN0t1SGNuT3V4YjN0Z05iSi15Ujdod2VLZF8yTmxHLWhwZVFPejRkLUg1V0NXazVBSkIwbW5keDI4T2RMcXhTMDh4UVNKV3BZckN6NDZ6YVAxckpBMDVTSDd4Qjk0TUVjOWxHX2podGxMckZnQzRzZw?oc=5",
       "published": "2025-10-06T07:00:00+00:00",
       "source": {
-        "name": "Salle de presse de l'Inserm",
+        "name": "presse.inserm.fr",
         "url": "https://presse.inserm.fr"
+      }
+    },
+    {
+      "id": "760f9444e6b2",
+      "title": "Médicaments en ligne : entre bonnes affaires et et contrefaçon - France Info",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQk5tcGk4ZlpGOU5KYXJkbG5Nc3p1QlJFa2pkc2FQZUFsQnZ1bG11RXlVUjR5QWItOS1MQlNEXzBuLTFnZFlRSGdvNTY1Sm9weEQxYVVzNFN6ZjNNNUlMMGxXNERrcG9QbG5qb1hiaE03Sy0wUkkzZC1QeW9Pd2QtRjdJU1BKbUhqempjMktBUl9Ja093RTh2UzRFUy02NFZxNy04SkNqNkg?oc=5",
+      "published": "2025-09-28T07:00:00+00:00",
+      "source": {
+        "name": "France Info",
+        "url": "https://www.franceinfo.fr"
       }
     }
   ]
