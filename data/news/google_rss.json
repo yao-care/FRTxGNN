@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-04-05T14:43:06.259305+00:00",
+  "fetched_at": "2026-04-05T15:41:08.333446+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "8e12416d2518",
-      "title": "Du simple au quadruple : Strepsils, Donormyl… Pourquoi les prix des médicaments sans ordonnance varient autant - Le Parisien",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPXzYtRUV6MXdhN3lsa3VqTHBHSDlvUUR1c1N0bEpTSFhVWHRReEQydk5DTTdjc29ibzVUUDExeFJDaE1IQXBHS3FyQVo5Z2VjMUNlSGlwMWVxTnl5amgxckI3V05aYnhESWZlTW1YU2t5VGFYaEpNWHBXb1FDbVVON0tmRVdEMGVsU080WlBHd3hXZnloYjVvdXI0djFjWW1OYk1hUkZoazVHNVRtUWhMSWVPOWpvc2xZdWZEV1V4Q1Nyb3JFUnJpT2d0OXR3b01zOGFHVVpQaXlWRHhMTlRLOVBrU1ZXLUpsdUoydnhveGRic2xtSm9WTUw5c1VkbWo4VW9ZMHRHdTY5Um9IeGp3T2hTZ1lZQlU?oc=5",
-      "published": "2026-04-03T08:47:00+00:00",
-      "source": {
-        "name": "Le Parisien",
-        "url": "https://www.leparisien.fr"
-      }
-    },
     {
       "id": "da4c598d8bdb",
       "title": "Pénuries de médicaments en Europe: la réponse de l’UE | Thèmes | Parlement européen - European Parliament",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "8e12416d2518",
+      "title": "Du simple au quadruple : Strepsils, Donormyl… Pourquoi les prix des médicaments sans ordonnance varient autant - Le Parisien",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPXzYtRUV6MXdhN3lsa3VqTHBHSDlvUUR1c1N0bEpTSFhVWHRReEQydk5DTTdjc29ibzVUUDExeFJDaE1IQXBHS3FyQVo5Z2VjMUNlSGlwMWVxTnl5amgxckI3V05aYnhESWZlTW1YU2t5VGFYaEpNWHBXb1FDbVVON0tmRVdEMGVsU080WlBHd3hXZnloYjVvdXI0djFjWW1OYk1hUkZoazVHNVRtUWhMSWVPOWpvc2xZdWZEV1V4Q1Nyb3JFUnJpT2d0OXR3b01zOGFHVVpQaXlWRHhMTlRLOVBrU1ZXLUpsdUoydnhveGRic2xtSm9WTUw5c1VkbWo4VW9ZMHRHdTY5Um9IeGp3T2hTZ1lZQlU?oc=5",
+      "published": "2026-04-03T08:47:00+00:00",
+      "source": {
+        "name": "Le Parisien",
+        "url": "https://www.leparisien.fr"
       }
     },
     {
@@ -54,22 +54,12 @@
       }
     },
     {
-      "id": "2a3b8b289695",
-      "title": "Alzheimer : ce médicament pourrait stopper la maladie avant les premiers symptômes - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTGk5YVp6UWdjVnI2QnNLOUlBZWNZeFgyU3lvUGxMWllTZmE1TDVrdjV0S2VGYk9CaVgtYmJTdlhXZVFpQmJ5WldhN1FRTFlfYmR2NkxjN3BTRGRTU1FyanFhQkpocHhqaWtPUlRBQTgwM0lLRnZ4bVRmMkdUSmJMdkJJRTJCLTRWZzBJN2pYaDRBdjZ0RGozRnVfYk5SOUtEYzlMZU9IcTZIOTI4em9Qbjk1QjVJQlAwNExwYVZ1ODcwd0c1MmR3enN0Y3NXQkVTNk9zdEdjUVh4SE4wTC1hbGsxUFEzRDRJ?oc=5",
-      "published": "2026-04-04T16:00:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
-      "id": "4c792c5ec4dc",
-      "title": "Antibiotiques pendant la grossesse : quels effets sur la santé mentale de la mère ? - Pourquoi Docteur",
+      "id": "fe22771ab0fb",
+      "title": "Antibiotiques pendant la grossesse : quels effets sur la santé mentale de la mère ? - pourquoidocteur.fr",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQUlhWjBVbDhwMlhabUVQR3BYdWpEMVRmTjB3bG5TUzRvb0piYy1zMWloTmdpZ3k3TjdINXhGeFRVM0oxLUI5OUMyNGxSOUZIUHowVGg4bWZIM2lTUHVfUFZjM09vR2Y2V2pfb0VqWllyZnRZUXpmS29Fa1luakFFVjF5eFlmRE5BN1dYQ2tjSWNZRFJ2ZUJMMnBMNUNTbzRnTjZMcWJNWQ?oc=5",
       "published": "2026-04-02T12:25:00+00:00",
       "source": {
-        "name": "Pourquoi Docteur",
+        "name": "pourquoidocteur.fr",
         "url": "https://www.pourquoidocteur.fr"
       }
     },
@@ -84,13 +74,13 @@
       }
     },
     {
-      "id": "71e69680a244",
-      "title": "La FDA donne son feu vert à une pilule minceur utilisable à toute heure de la journée - 24matins",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRVFLLXp3QUdoQXE3WDUtb2s4d2xFNkNEcy1SVnNIdE1WLWdaczJHaWpqb0pUNzV2QUVicnZtSGV2bVZiM3lRSUJtNXBZcjQwaEh5WGxBZ0ZYUF96eEs2clBtcHFtM1NGRjFlLTFJTWY4b0lfck16alVfcVFEXzBVVG5fSDcwcWI1bkVaWlIyd1ZfTl96NHhMbjYtNU9pbVpYZkoxZ1J4aUtVcU1JMFpyNHo3Sng5Rjcw?oc=5",
-      "published": "2026-04-05T07:00:00+00:00",
+      "id": "2a3b8b289695",
+      "title": "Alzheimer : ce médicament pourrait stopper la maladie avant les premiers symptômes - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTGk5YVp6UWdjVnI2QnNLOUlBZWNZeFgyU3lvUGxMWllTZmE1TDVrdjV0S2VGYk9CaVgtYmJTdlhXZVFpQmJ5WldhN1FRTFlfYmR2NkxjN3BTRGRTU1FyanFhQkpocHhqaWtPUlRBQTgwM0lLRnZ4bVRmMkdUSmJMdkJJRTJCLTRWZzBJN2pYaDRBdjZ0RGozRnVfYk5SOUtEYzlMZU9IcTZIOTI4em9Qbjk1QjVJQlAwNExwYVZ1ODcwd0c1MmR3enN0Y3NXQkVTNk9zdEdjUVh4SE4wTC1hbGsxUFEzRDRJ?oc=5",
+      "published": "2026-04-04T16:00:00+00:00",
       "source": {
-        "name": "24matins",
-        "url": "https://www.24matins.fr"
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -101,6 +91,16 @@
       "source": {
         "name": "francebleu.fr",
         "url": "https://www.francebleu.fr"
+      }
+    },
+    {
+      "id": "71e69680a244",
+      "title": "La FDA donne son feu vert à une pilule minceur utilisable à toute heure de la journée - 24matins",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRVFLLXp3QUdoQXE3WDUtb2s4d2xFNkNEcy1SVnNIdE1WLWdaczJHaWpqb0pUNzV2QUVicnZtSGV2bVZiM3lRSUJtNXBZcjQwaEh5WGxBZ0ZYUF96eEs2clBtcHFtM1NGRjFlLTFJTWY4b0lfck16alVfcVFEXzBVVG5fSDcwcWI1bkVaWlIyd1ZfTl96NHhMbjYtNU9pbVpYZkoxZ1J4aUtVcU1JMFpyNHo3Sng5Rjcw?oc=5",
+      "published": "2026-04-05T07:00:00+00:00",
+      "source": {
+        "name": "24matins",
+        "url": "https://www.24matins.fr"
       }
     },
     {
@@ -134,12 +134,12 @@
       }
     },
     {
-      "id": "5080f30b5299",
-      "title": "Santé : le champion français des principes actifs Euroapi pilonné par la concurrence asiatique - lefigaro.fr",
+      "id": "8660e7263ebd",
+      "title": "Santé : le champion français des principes actifs Euroapi pilonné par la concurrence asiatique - Le Figaro",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTDJzQVF0WXNWNjZESFNZYXdHbFNlSWdGSDl5VzFNaDdhTm55S29zQkJNQVB5cHNwMm9nUlVpQlY5RjM5dC1VbHF4LWJWRm5fdlF0Rzh3QVVaWlRaMFBTSlFhZzFHbGVhdUpuRjBVemVBLTA0QjFoUmpYeHNTWmRlLWhPaklCZFJkX0U5aXR6Zk1qc19TbG81eG52X2tuNXhxQWV3bDlnMC1QdmVWNTFDUkN3Vjh1Z05oMHJubFVQVnJ5Rk90OXBIb2FNMHhhSEk?oc=5",
       "published": "2026-04-02T13:30:06+00:00",
       "source": {
-        "name": "lefigaro.fr",
+        "name": "Le Figaro",
         "url": "https://www.lefigaro.fr"
       }
     },
@@ -204,12 +204,12 @@
       }
     },
     {
-      "id": "610a63f95be6",
-      "title": "Douleur : ce nouveau médicament limite le risque d'addiction - Pourquoi Docteur",
+      "id": "d436f808fdd8",
+      "title": "Douleur : ce nouveau médicament limite le risque d'addiction - pourquoidocteur.fr",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONVo0NHRtbzhzRDFhREF4Q09kWnhUMWZJNzRjYUFDTUNsUC1DOGdVbDhsUUJaWkxKallTc1FGV1ZIb0xHa05Fc0tRcnNnVTBRSy01THFTcElyajBhcXZFUklaSVptQUdFMXlhLS1hUmZ6eG9oQm4ySVJPMUlOOTczb0lEeXdhYWZUNXlhVXlPM3pzT3VkbjBWeFkxMGpPYk1QaWN3?oc=5",
       "published": "2026-04-02T09:55:00+00:00",
       "source": {
-        "name": "Pourquoi Docteur",
+        "name": "pourquoidocteur.fr",
         "url": "https://www.pourquoidocteur.fr"
       }
     },
@@ -344,12 +344,12 @@
       }
     },
     {
-      "id": "5a89ce78236d",
-      "title": "Les médicaments onéreux creusent la dépense - Fédération nationale de la Mutualité Française",
+      "id": "237687784e00",
+      "title": "Les médicaments onéreux creusent la dépense - mutualite.fr",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVRyM2ZrNnF6QVVnOEhkZnlUTl9aTEdMVjZMdnF1YWJhUlcyOHBLZ3JhcUQzSUhjc1lWYUtPMDZ6WFlsYXlvcHlUM3A4QUJBUWZLSTE4dWtvWEJibWUxVjAyenl2SFNfdFVYaXpwdjUxZUR2aDBVWHM5X2JrNjBzZTd5V1Rsc3M?oc=5",
       "published": "2026-02-10T08:00:00+00:00",
       "source": {
-        "name": "Fédération nationale de la Mutualité Française",
+        "name": "mutualite.fr",
         "url": "https://www.mutualite.fr"
       }
     },
@@ -414,12 +414,12 @@
       }
     },
     {
-      "id": "5b9beaf8982e",
-      "title": "Regeneron anticipe une exemption des nouveaux tarifs douaniers américains sur la santé - Zonebourse",
+      "id": "5a0e05d2cd6c",
+      "title": "Regeneron anticipe une exemption des nouveaux tarifs douaniers américains sur la santé - zonebourse.com",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS3F1SjNPYkQzVFJoTTY1QWhjb0k2dm1EXzJlVTVnWDgzcThMU1U5ZU9lcmxkS2l5M3RYNWRUbk1RWEhuaFN4VXpwR3FLRG5RYVFwYUthUDVkUjlDTFpNWi1DN083MjFOMnpqMzR2Slowc2ZGeGloa25TSGFkQld2cjU1Q0Nid1FURDhCbVN1b203akZxcHVUSERFaVhOVDhmMHczVFBIelFVc1RvaGVQRGx1S0did1BNUlJDVTBvOWpUWFpaQ1ZUWENHa0pFajFJRFNjdS1SYTVtaVlOYll5Yw?oc=5",
       "published": "2026-04-02T18:25:14+00:00",
       "source": {
-        "name": "Zonebourse",
+        "name": "zonebourse.com",
         "url": "https://www.zonebourse.com"
       }
     },
@@ -464,12 +464,12 @@
       }
     },
     {
-      "id": "e779772697aa",
-      "title": "Comment l'Europe entend lutter contre les pénuries de médicaments critiques - Santé Magazine",
+      "id": "2a4fd90e8183",
+      "title": "Comment l'Europe entend lutter contre les pénuries de médicaments critiques - santemagazine.fr",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWEFfQkhya2I1QTQ5X001eWVCTzU2NFhKOHdMR3dDZ19DS3pLLWNGbjFpaGRtYmFpbGdDMmpLOG1BWjhnWVhzYXNNOWV3U3NMVlFSOUNVVXFwaVM1Y3dEeWREWDBwYjRsTmp2TUhJWG1kbmwwTVBHaTZ2Q2x6am1FRl9HMDBHVmlMVklVMXVacHpjMko1cEVwN05KZ0xRa3c3SVhTalpVMFVxanEyOTdnY2ZOeUVJQTlBbF81WFlnZ2F5cnYteHI1WFlaOHZDdDlkakEzX2oxaWtkYThFb1JJVw?oc=5",
       "published": "2026-01-21T08:00:00+00:00",
       "source": {
-        "name": "Santé Magazine",
+        "name": "santemagazine.fr",
         "url": "https://www.santemagazine.fr"
       }
     },
@@ -624,12 +624,12 @@
       }
     },
     {
-      "id": "6fd3aca7b836",
-      "title": "Peut-on prévenir ou soigner des maladies sans médicaments ? - Harmonie Santé",
+      "id": "23bc7420e3d5",
+      "title": "Peut-on prévenir ou soigner des maladies sans médicaments ? - harmonie-sante.fr",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdmtWVWs5RXpoX3ZWaDNvT2ZrWHVSNGdTc2d2NUNzTTMyallneUhiclVtSEJhU0gzZXFMRTRrbndMeEY3RkdWYkRMZkdVa29TN19CdG5ILXd0aUZ0SVBJSVl0dnZQLWNJWW1WUVJRQm1ObDIzdFdCbzc3NFR0OERab3JmWVlESVFMeWFfVXRVSXRoel83enplbVphcU50VmVlZGc?oc=5",
       "published": "2025-11-04T08:00:00+00:00",
       "source": {
-        "name": "Harmonie Santé",
+        "name": "harmonie-sante.fr",
         "url": "https://www.harmonie-sante.fr"
       }
     },
