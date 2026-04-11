@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-11T10:45:22.254800+00:00",
+  "fetched_at": "2026-04-11T11:38:31.856954+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "89c20aa6f0fe",
-      "title": "Santé Canada met en garde contre des médicaments injectables non homologués - Index Santé",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemNObWUxWnJxN1J5ZGdOR2FVdS1Jclpvd3JqX1prVzhRUURycEJYY2lVM0cxM1ZkbVBrZGFSQks2VTZNTGcwdlhzWnk0RF94em5US1hSLU5KMGlVNm1DWE9jc2lObVB1amtTcXFUMV9HSTFrN19iUF9xSUFYbWV5R3NGR3JuWnVtYktKejhFMm1mb0dMUFpHNg?oc=5",
-      "published": "2026-04-10T14:38:34+00:00",
-      "source": {
-        "name": "Index Santé",
-        "url": "https://www.indexsante.ca"
-      }
-    },
-    {
       "id": "563dff8730b1",
       "title": "Santé. Sprays, gels, savons… Certains antibactériens pourraient favoriser la résistance antimicrobienne - Le Dauphiné Libéré",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUENSQnBsNlBtcGlxR1ctOHVJbTgxVy04aEV5OXo4Mnd0WGw5QWxuU294TDBmejB2TWFXN1Fzc016WkVSQ2h2Wnd1Z3VXVTVscmdLU1hfWGh4cnFUU3ZRSC1yZkJidnRhblNiSWZKQlFEcWxTTE5RZzJHWXRoZDlwbGRRbUdEZjBBY3B3ZmZHMmtZQ2JUX3BrQVNWSW5ZckRybDZZX2xCek5tNFNpb0dVRl9RVnVqN1ZGbEt1eVhpNjBJUlVXdFB4bF9MbFRKSnRkcnNOZXVxeFNlWDZLRFBB?oc=5",
@@ -454,6 +444,16 @@
       }
     },
     {
+      "id": "cd785a490542",
+      "title": "Le Centre médical universitaire de Hô Chi Minh-Ville a offert des examens médicaux et des médicaments gratuits aux habitants de la commune de Tay Khanh Son. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUEYzd2NYSi1ScW1hU25IRHdSTHdNbUxscG9aSWkyejdMTGM3OUVTTXJnM0VCWUNUdmYtUGk5TFo3OWdCaFRVcXc0TVlJNldERXdnYlJsS2FjWWZ4QzBQOEZqSHhMbzU2S0dIeDNJV0YwY3l5QzFBSnFtNFdRU0l5ejNHN01ZRDJCbEx0VWZSN3kyWFVYWDhfMll6MFB6SlJOTkZVVV9kemY2QlFPM1hJbWJNTDl2eno0RnkzVUVrOURDb3RU?oc=5",
+      "published": "2026-04-11T11:16:08+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "e0fb0072496a",
       "title": "Médicaments essentiels - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
@@ -461,6 +461,26 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "89c20aa6f0fe",
+      "title": "Santé Canada met en garde contre des médicaments injectables non homologués - Index Santé",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemNObWUxWnJxN1J5ZGdOR2FVdS1Jclpvd3JqX1prVzhRUURycEJYY2lVM0cxM1ZkbVBrZGFSQks2VTZNTGcwdlhzWnk0RF94em5US1hSLU5KMGlVNm1DWE9jc2lObVB1amtTcXFUMV9HSTFrN19iUF9xSUFYbWV5R3NGR3JuWnVtYktKejhFMm1mb0dMUFpHNg?oc=5",
+      "published": "2026-04-10T14:38:34+00:00",
+      "source": {
+        "name": "Index Santé",
+        "url": "https://www.indexsante.ca"
+      }
+    },
+    {
+      "id": "250ce4fa3abc",
+      "title": "Addiction au jeu, achats compulsifs, sexualité déréglée : certains médicaments contre Parkinson ont des effets secondaires bizarres - La Voix du Nord",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPODB3bmtEb0oxMHJsR2cwbkwzaWdoc1c2cjRiZG8zVmRjR292d2xHVTVfbXBoOVE0cUJWSUsySDhhdkgwTm1OeGQxaTU1Sm8wdVY1bG15ODlpMXRUTDl4WXZOQjZnd3h0TTBCSFd6azVvWXJWSW1TOEc0Vy1hVnFQYWdJRlZLdFZtd1BYRTRrVDFfSXpKcTh0NkZpb1k4b1c1VGcyYVNrMXZYQS0wWlZDZy0xV2RVelU0cGxmTlhSSmtUUkpMWGRaNQ?oc=5",
+      "published": "2026-04-09T13:15:16+00:00",
+      "source": {
+        "name": "La Voix du Nord",
+        "url": "https://www.lavoixdunord.fr"
       }
     },
     {
@@ -481,16 +501,6 @@
       "source": {
         "name": "Doctissimo",
         "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
-      "id": "250ce4fa3abc",
-      "title": "Addiction au jeu, achats compulsifs, sexualité déréglée : certains médicaments contre Parkinson ont des effets secondaires bizarres - La Voix du Nord",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPODB3bmtEb0oxMHJsR2cwbkwzaWdoc1c2cjRiZG8zVmRjR292d2xHVTVfbXBoOVE0cUJWSUsySDhhdkgwTm1OeGQxaTU1Sm8wdVY1bG15ODlpMXRUTDl4WXZOQjZnd3h0TTBCSFd6azVvWXJWSW1TOEc0Vy1hVnFQYWdJRlZLdFZtd1BYRTRrVDFfSXpKcTh0NkZpb1k4b1c1VGcyYVNrMXZYQS0wWlZDZy0xV2RVelU0cGxmTlhSSmtUUkpMWGRaNQ?oc=5",
-      "published": "2026-04-09T13:15:16+00:00",
-      "source": {
-        "name": "La Voix du Nord",
-        "url": "https://www.lavoixdunord.fr"
       }
     },
     {
@@ -624,13 +634,13 @@
       }
     },
     {
-      "id": "31b89a628a55",
-      "title": "France: les patrons pourront signaler les faux malades en un clic - Artsenkrant",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd0FBaG1XRVlwMVgwMGdSQnB1WjVDampBTUVQc2hWZTZNYlNMU0dIZmtUTGFnNjl2d0JrYnltYTduSXZJNUdEN0ExajBrWTFTSEYyR3JreVBMb3BlOGp2OWJrcU1IeklsZUsya3I3UkJzZnV4SWJqeGxOYnQ1LVAyTHNR?oc=5",
-      "published": "2026-04-10T14:42:35+00:00",
+      "id": "3ff92afb7346",
+      "title": "Médicaments critiques : les députés européens durcissent le ton face à Trump et à la Chine - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcnowYW1pd1k0b0F4Vi1pN2UwVlZNbHd1YUotN3pBd0RtQWV6Y3BFeUZUTUpnSWNUWWt6WU8zS2tQQVpIT2cyWURkMEo0LTZyVHlBX1N3dElsYi1aQ05GYjFzZHF3SGJjYnNST09Fc0VkbGQ0dzZnN3ZaU25RNmV4ZVhqZlBMNm5HbldmeHBMNTQ3cTJDUkFrYUQ4RjBUd0JBX29sdUJTc19WMnh1Mjh0ZEdGT0FpVkxubzdTZUZFeXpXU2xmNEh1Q04wZ3pUS1dYTlNfUklIb3JsVUFBLXZybFdtTnZjWVlQc01r?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
       "source": {
-        "name": "Artsenkrant",
-        "url": "https://lejournaldumedecin.pmg.be"
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -641,16 +651,6 @@
       "source": {
         "name": "Newswire Canada",
         "url": "https://www.newswire.ca"
-      }
-    },
-    {
-      "id": "3ff92afb7346",
-      "title": "Médicaments critiques : les députés européens durcissent le ton face à Trump et à la Chine - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcnowYW1pd1k0b0F4Vi1pN2UwVlZNbHd1YUotN3pBd0RtQWV6Y3BFeUZUTUpnSWNUWWt6WU8zS2tQQVpIT2cyWURkMEo0LTZyVHlBX1N3dElsYi1aQ05GYjFzZHF3SGJjYnNST09Fc0VkbGQ0dzZnN3ZaU25RNmV4ZVhqZlBMNm5HbldmeHBMNTQ3cTJDUkFrYUQ4RjBUd0JBX29sdUJTc19WMnh1Mjh0ZEdGT0FpVkxubzdTZUZFeXpXU2xmNEh1Q04wZ3pUS1dYTlNfUklIb3JsVUFBLXZybFdtTnZjWVlQc01r?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -684,13 +684,13 @@
       }
     },
     {
-      "id": "10f460305026",
-      "title": "200 médicaments manquent sur le marché tunisien ! - La Presse de Tunisie",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNFplRVh5TTJ1QUozYTVPbEFHeU9sQ01JNkRnWUdjWkw3SkRrRnAwakU1OVlSRm8tTVhrV0pfcXlkYW51Y29MTnZRNERxRnV4ajdBQUlxcnYtOFFNZTFuZkR0LWpaNHFCbjkyQTZqLS11UGVOeHBYMHN5UDJyYUoxMTBLWWFTLVFnLXBv?oc=5",
-      "published": "2026-04-10T15:48:00+00:00",
+      "id": "31b89a628a55",
+      "title": "France: les patrons pourront signaler les faux malades en un clic - Artsenkrant",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd0FBaG1XRVlwMVgwMGdSQnB1WjVDampBTUVQc2hWZTZNYlNMU0dIZmtUTGFnNjl2d0JrYnltYTduSXZJNUdEN0ExajBrWTFTSEYyR3JreVBMb3BlOGp2OWJrcU1IeklsZUsya3I3UkJzZnV4SWJqeGxOYnQ1LVAyTHNR?oc=5",
+      "published": "2026-04-10T14:42:35+00:00",
       "source": {
-        "name": "La Presse de Tunisie",
-        "url": "https://www.lapresse.tn"
+        "name": "Artsenkrant",
+        "url": "https://lejournaldumedecin.pmg.be"
       }
     },
     {
@@ -714,16 +714,6 @@
       }
     },
     {
-      "id": "71acb17f1145",
-      "title": "Lettre ouverte aux décideurs pour une politique ambitieuse en faveur de l'automédication - Artsenkrant",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQazM3dFd3UHJFcEZ2UDFJdklrZkotNkZGN1dXMDNuQXh6Slh4cTNRcGRFMDkyLWdMNm05N0lscG05N3dCbG5aUUZRRDBhUGdfdWx0em5YN195TmNpWDBKODgxblBlSWk4MlZsal9kNEs1NlY5eTZzSzQxRU83LVpQLW13?oc=5",
-      "published": "2026-04-10T14:42:27+00:00",
-      "source": {
-        "name": "Artsenkrant",
-        "url": "https://lejournaldumedecin.pmg.be"
-      }
-    },
-    {
       "id": "366f6d5a056e",
       "title": "Des examens médicaux et des médicaments gratuits ont été fournis à plus de 800 personnes. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOTg1ekhsN1RFMjctMjBmUkphMU5IZTFDZno2ZTFIcHV3d1Z2b1JjNWxUdkNFXzFKRlZlMEFKdmNCX1JQZkVMV1Jleld0anpiMXRUSnRJMmNkcDZhOGNoM0NZOG95NTZlanRrdGxWNGIyWkJMYS1wMFBIMk4xZnpHRFNzRU8wR3o4b0NVSA?oc=5",
@@ -741,6 +731,36 @@
       "source": {
         "name": "Santé.fr",
         "url": "https://www.sante.fr"
+      }
+    },
+    {
+      "id": "10f460305026",
+      "title": "200 médicaments manquent sur le marché tunisien ! - La Presse de Tunisie",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNFplRVh5TTJ1QUozYTVPbEFHeU9sQ01JNkRnWUdjWkw3SkRrRnAwakU1OVlSRm8tTVhrV0pfcXlkYW51Y29MTnZRNERxRnV4ajdBQUlxcnYtOFFNZTFuZkR0LWpaNHFCbjkyQTZqLS11UGVOeHBYMHN5UDJyYUoxMTBLWWFTLVFnLXBv?oc=5",
+      "published": "2026-04-10T15:48:00+00:00",
+      "source": {
+        "name": "La Presse de Tunisie",
+        "url": "https://www.lapresse.tn"
+      }
+    },
+    {
+      "id": "4edc6e7eed85",
+      "title": "Ouverture du capital des pharmacies : les professionnels appellent à revoir les priorités de la réforme - Le Matin.ma",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZy1aejM2cEN6YktvT3Jod0UwQnFKa0JnaHIwYTkyT1JLOHdsQldtd3lRR3BOWVA4ZEV6SzI1V0lMWEx5TWZ0dEx3Um1HV3c5U05UbU16MjItdEhpUUQ0dEZmX2IyWjBwajFPX3FtUHZabTYzTXVIb0FRdXIzaERIMVdHellSNzlNVHNkaHFWdUdNSE5UeThpaHpMNXFrd9IBowFBVV95cUxNZ1NTUUZEb2dNN1I3emJhWEo0cElnZW53R1hOd1J0QzZUcGxXN0tKV1UxQkd1S05OQkxUdXl4OVF5LWdJb2htWktqSWVfV1lmbUpzUDlQenl2eFZNOVR1NHRPMzBqYWdBZFZueFpEeVd0SktFdi1zV2l4T2wzbEFrbUFnamhUNHlld0NNbzdjbFNHT3A0TUhyeTJ2TFB4RVlCX0JJ?oc=5",
+      "published": "2026-04-10T17:57:00+00:00",
+      "source": {
+        "name": "Le Matin.ma",
+        "url": "https://lematin.ma"
+      }
+    },
+    {
+      "id": "71acb17f1145",
+      "title": "Lettre ouverte aux décideurs pour une politique ambitieuse en faveur de l'automédication - Artsenkrant",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQazM3dFd3UHJFcEZ2UDFJdklrZkotNkZGN1dXMDNuQXh6Slh4cTNRcGRFMDkyLWdMNm05N0lscG05N3dCbG5aUUZRRDBhUGdfdWx0em5YN195TmNpWDBKODgxblBlSWk4MlZsal9kNEs1NlY5eTZzSzQxRU83LVpQLW13?oc=5",
+      "published": "2026-04-10T14:42:27+00:00",
+      "source": {
+        "name": "Artsenkrant",
+        "url": "https://lejournaldumedecin.pmg.be"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Nature",
         "url": "https://www.nature.com"
-      }
-    },
-    {
-      "id": "8d87db05dae9",
-      "title": "Santé. Médicaments : l'Europe en quête de sa \"souveraineté sanitaire\" - lamanchelibre.fr",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWGk1WHBSOHhfeWhOckNBRmZNTVNfT20zUjV0Wl9XdlVONUtFT0l5bl8ybHFpV2hZM0RyLXJ2T3MtV3gzUGp6bm9TZko1eHpaMHpFajRhMWFfTHhvOElQVmpTc3dvUTZDOVdvOEhKYUd4dEl6b3RyX09nY0RxTVhMd1R3aklObW9vX2RQQlNIMkNsVXdHZlU4a0R4clpISkVfcF85bnk0TmNUV3N1THFiTg?oc=5",
-      "published": "2025-12-22T08:00:00+00:00",
-      "source": {
-        "name": "lamanchelibre.fr",
-        "url": "https://www.lamanchelibre.fr"
-      }
-    },
-    {
-      "id": "4021f3f937a8",
-      "title": "Santé. Médicaments dangereux : quels sont les nouveaux inscrits sur la liste noire ? - Le Dauphiné Libéré",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY09MTzVIcTd3dEtJTENUU2lRN09idlhXQTBCZDFia1l2ajNnanFmaFNQd1RQMkd5MkJzNWdxUnllMmIweTE3Y2VqYTlfS040emxHTkNVeW5hNzhRQlFmUDVOTDgwN1B0Wm1nQWhHWkZhYmtTWWUyN1Npb1dnaDF1a0dObkw1TlFic3JGVkc0TmdSdjNSeFBqTU9XQVp5bUhGbHluazA3aXNKZkF3akVzYWc3SzNiQzcz?oc=5",
-      "published": "2025-12-05T08:00:00+00:00",
-      "source": {
-        "name": "Le Dauphiné Libéré",
-        "url": "https://www.ledauphine.com"
       }
     }
   ]
