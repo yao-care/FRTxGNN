@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-13T21:55:28.495108+00:00",
+  "fetched_at": "2026-04-13T22:54:19.656965+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -17,10 +17,20 @@
       "id": "ba5ac014407d",
       "title": "Médicaments : la Haute autorité de santé dénonce les «pressions excessives» des industriels pour favoriser les remboursements - Libération",
       "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQWVlScTMwdTQ1aVJjQ2Q4NkFBT0JHWDRveDdvY044Yl90MG93aHBhYmRTUTl4ZlhRMS1Od1hFaHRPRFZRT1I2MTZsUHctTzg0SEpSM2dQYU5uSGVuanJGbFB0ZnV0dV9nU0FYWTM1bDI1dnhDck1rSHN3ZUg0clh1RXhiQ2tuZjVQblNmLW1xUW4yU1dranFoeUNLWElSSWdMUUI3U1cwc3NlMFZDa1pObDR1eGF3TDFIeFI4eV9Dak9Oc0kyVWZia2dhSU04bmk1ckdXUEhLU1ZlN2lOclAtdXVJUjBWMVRiR2R3MThKT2tGczdCZ3Rfb3UxRjV4WXNIaElSeEl5NUZYczY5eGpqV3NKX01NXzlGOGl6YWR1MG9CeDh5?oc=5",
-      "published": "2026-04-13T20:34:00+00:00",
+      "published": "2026-04-13T20:35:49+00:00",
       "source": {
         "name": "Libération",
         "url": "https://www.liberation.fr"
+      }
+    },
+    {
+      "id": "9161835beaaa",
+      "title": "Cancer de l'ovaire : ces deux médicaments montrent de bons résultats face à des formes difficiles à traiter - TF1 Info",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaTJNUzdTMHAtTE5WTG4tbGg4MnVPdG1md2xha2dUdFpUNDNjNDRaazljRERwdmpSUE5CR054TkdMNkhwMDltV01MY1lYTjNtTEtEN2VneDRndUFnUlczRkZYcl94T1pZNFFfeXZnd2ZnMmNOSW5rMVZSeWNCQlhmenVBa2NPbHhXQjNIT0hCTk9LUVNXeWtNdWVwbUpDSTNiVzMtQmx4TlBIU0VpYjI2enJHT2w5aFJtWk9mT3l5ZmFzS0dZOE1iNGJNM3otdHNST001M3ZOVTBKWTllNEp2cg?oc=5",
+      "published": "2026-04-13T16:21:13+00:00",
+      "source": {
+        "name": "TF1 Info",
+        "url": "https://www.tf1info.fr"
       }
     },
     {
@@ -104,16 +114,6 @@
       }
     },
     {
-      "id": "9161835beaaa",
-      "title": "Cancer de l'ovaire : ces deux médicaments montrent de bons résultats face à des formes difficiles à traiter - TF1 Info",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaTJNUzdTMHAtTE5WTG4tbGg4MnVPdG1md2xha2dUdFpUNDNjNDRaazljRERwdmpSUE5CR054TkdMNkhwMDltV01MY1lYTjNtTEtEN2VneDRndUFnUlczRkZYcl94T1pZNFFfeXZnd2ZnMmNOSW5rMVZSeWNCQlhmenVBa2NPbHhXQjNIT0hCTk9LUVNXeWtNdWVwbUpDSTNiVzMtQmx4TlBIU0VpYjI2enJHT2w5aFJtWk9mT3l5ZmFzS0dZOE1iNGJNM3otdHNST001M3ZOVTBKWTllNEp2cg?oc=5",
-      "published": "2026-04-13T16:21:13+00:00",
-      "source": {
-        "name": "TF1 Info",
-        "url": "https://www.tf1info.fr"
-      }
-    },
-    {
       "id": "35b3d09007b9",
       "title": "Économie officinale : y a-t-il une géographie des médicaments chers ? - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa0JPRk1QMzQ2OFBuQlF2UmRCaG1xTXBrRWdDMi1nR19oam9uckYwa2NMUDh4UEJrblVXOEdwWWUwdllOTDJoLWh5LURydERpQ3gwcUl3VWFtblI5Vnc2Vm5rdjBCQzZNWnJJVTBZT2l1Rk10eUprVU1qMGlMSURQeVhTOWY0NnQ0OXVxYk55UldKSklmanptQUM2LWJFZFloa2ZRQjdDVG9UR2NmWGhIRjZXamFPc2hsZHVBejAtZmNRdEI0blJoQ1VFSXdQMFo4bVBybUFtZHRuU3c?oc=5",
@@ -194,6 +194,16 @@
       }
     },
     {
+      "id": "e36fc12709ee",
+      "title": "Keytruda: les dessous d’un médicament star aux marges hors norme - Le Temps",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdzdaNkQ3QUhDWE01R3BpTXk3ZzdOV3JzUlV2M0liVDlxZXhoNnkyc2Z2cnRhY2x1eEx5cnVSdnExbjRIem00NVVPUl9qSFR2bVdxeE9ldDBmVXlWTmUwWjFEdHdUMkJMOThLdS1mWEszQ0NlcHhrZ2V4SHBzdzNIcDZGWk1lS1hnZWR6dEZkZ3RJclZjdndLNw?oc=5",
+      "published": "2026-04-13T06:04:00+00:00",
+      "source": {
+        "name": "Le Temps",
+        "url": "https://www.letemps.ch"
+      }
+    },
+    {
       "id": "32c034a5b063",
       "title": "Cancer du pancréas : une biotech réussit à doubler la durée de survie - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalM3dWJRc3h1U2tDT094bFMtTTc5SEV2RU43b0F5eGMzZVdjMG9ibGE3RXRzVXR3emZJTzRlNTJsV0RVN1pwdDU0MGhvWF9NMXozd0FYYjQwYXVjNTZweTV0X1JHZDgwV1R2bThab2U5YmVFY2d0RTZDRUVuTVZUTjl3eklZbmd1Q3p3OS16YnlLOTZTRUFsZzBENkZYR3Iyc2ZEcUdaTEVpQnNnbmhpS0g1aGdsVlZQcmwtcU02cTFTLTBpbVNuUkUteUhSVk0?oc=5",
@@ -214,16 +224,6 @@
       }
     },
     {
-      "id": "5a54b784f502",
-      "title": "Jaguar Health prévoit d’utiliser l’IA pour développer un médicament contre une maladie rare - Investing.com France",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcW9od1RJR24yWldvd0FCR3BsNHQ0aFJkYXltTHhjZ0VBSEwyQXJMc1FBSWVPV3R2Y0g0STJrbW40SmN3X3p2SzlwN3dpX3ZIVlRCQTFyYVNGQ0Fxb0t0V05ZWjIwTE9rQnJOVGoxSWpVcmFSNjczYnVJSi1LS2lhNnVZWU1veU5RWlNHRXRld0JSQjZvWmlNMXNNRl84OFpISVk3S3RBRjdBbWp6SDdWbHNvel9ET2pRWHpoV2NiR1FBSjliaW83SlRRelI1SEZVbk9odkJHa2NVTTdMRmc?oc=5",
-      "published": "2026-04-13T12:51:00+00:00",
-      "source": {
-        "name": "Investing.com France",
-        "url": "https://fr.investing.com"
-      }
-    },
-    {
       "id": "66b08350ceb0",
       "title": "Santé mentale : l’IA vous enverra-t-elle un jour directement votre ordonnance ? - Pourquoi Docteur",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV2VZZzJfWHhSZkp1b1Q1N0d3UExoaHJwUnE0OXkybHM1aUE4b0d0VHhaWkd5WEdpVU9YNFBHeF85OUJSUDJCWmJyWkVSZFRkc01YcTNWT20tZlp3YjFMM29XblZNbTRwUEpSeFdqc2pvVm1mTk1sVHFUX3ZXTnVuc1BTQ0t2RHlEWmNOQ25NT2d2a203aGVNVEdESmRRaVhxS1ZKdW1ic3R5eGdlYW1DY1R6Z1B5QlZnWjFYNTBJSng?oc=5",
@@ -231,6 +231,16 @@
       "source": {
         "name": "Pourquoi Docteur",
         "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
+      "id": "5a54b784f502",
+      "title": "Jaguar Health prévoit d’utiliser l’IA pour développer un médicament contre une maladie rare - Investing.com France",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcW9od1RJR24yWldvd0FCR3BsNHQ0aFJkYXltTHhjZ0VBSEwyQXJMc1FBSWVPV3R2Y0g0STJrbW40SmN3X3p2SzlwN3dpX3ZIVlRCQTFyYVNGQ0Fxb0t0V05ZWjIwTE9rQnJOVGoxSWpVcmFSNjczYnVJSi1LS2lhNnVZWU1veU5RWlNHRXRld0JSQjZvWmlNMXNNRl84OFpISVk3S3RBRjdBbWp6SDdWbHNvel9ET2pRWHpoV2NiR1FBSjliaW83SlRRelI1SEZVbk9odkJHa2NVTTdMRmc?oc=5",
+      "published": "2026-04-13T12:51:00+00:00",
+      "source": {
+        "name": "Investing.com France",
+        "url": "https://fr.investing.com"
       }
     },
     {
@@ -244,16 +254,6 @@
       }
     },
     {
-      "id": "74b244fc9ce8",
-      "title": "Une femme reçoit le mauvais médicament à la pharmacie - Radio-Canada",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1qV2FOa2VWbW0yWHNJWkhvaU12TlQ0MF8xdnFieUgzT1oyZG9GTUg5bmdIMWJjeEZ3cGJIM3hVbGppQ2REY3RiTTlORlJOeUFIR0hGOTlsd2Ffb1lSNlk1OXd1ZV9IcXgwcHdhNXJWSmtISUV4eXJXak40SGg?oc=5",
-      "published": "2026-04-13T18:14:57+00:00",
-      "source": {
-        "name": "Radio-Canada",
-        "url": "https://ici.radio-canada.ca"
-      }
-    },
-    {
       "id": "b205961a6e9b",
       "title": "Obésité : comment un comprimé et une nouvelle molécule comptent concurrencer l’Ozempic sur le marché des médicaments facilitant la perte de poids - ladepeche.fr",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOQXlUdnhJMDZzT1loSlNtSTRZSHNBcGRGR09yMlQ5bnNqeUdnR0RfWFhJcmJuR3hkOEQtcmV3YWlLTjBManpnRUlwMWhGcUp3YUxmbmY0bFhtazRHdjBZbTZqOXd0TlJrUzdZM0VMZ3JnQTYtLVU1MF8wMkNfYTBOUEw0dkJwWkd6SmJVSHkta0lrZ3YxTmVtdjNwQkZDd0pGc0dSbS0xeFRjeXpUNFY4alBPWVhwYlpycWdrNDdaV091TUU4OU9rdlhZVU40RHVTWXdvUkpIUlozejB4ejZ6cnp4UUNBMDM3UmhqTzc2T2U0dlVJMVFTajdkTFZub2xuMnNlcUdjQnpNb3ROd1phbHVzQ2wyanlKTEJ3?oc=5",
@@ -261,6 +261,16 @@
       "source": {
         "name": "ladepeche.fr",
         "url": "https://www.ladepeche.fr"
+      }
+    },
+    {
+      "id": "74b244fc9ce8",
+      "title": "Une femme reçoit le mauvais médicament à la pharmacie - Radio-Canada",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1qV2FOa2VWbW0yWHNJWkhvaU12TlQ0MF8xdnFieUgzT1oyZG9GTUg5bmdIMWJjeEZ3cGJIM3hVbGppQ2REY3RiTTlORlJOeUFIR0hGOTlsd2Ffb1lSNlk1OXd1ZV9IcXgwcHdhNXJWSmtISUV4eXJXak40SGg?oc=5",
+      "published": "2026-04-13T18:14:57+00:00",
+      "source": {
+        "name": "Radio-Canada",
+        "url": "https://ici.radio-canada.ca"
       }
     },
     {
@@ -314,6 +324,16 @@
       }
     },
     {
+      "id": "e466051398e4",
+      "title": "Lupus : ce nouveau traitement testé en France pourrait faire disparaître la maladie - Journal des Femmes Santé",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaUxnUkV0ZzgxSWV6aGw5aTZZNHVjZ1VQNEtzNkw2ZTh3VHI4WE1HaV83N3JWdzBNVm11QjhCQ0xERDQ3WncweDdZTmVGU3d4X0I5ZlM1MXg2MU1YZUxOYnZqY2JjazM5RnV6ZHBrVXhEVE4zQUY3UVVudFFkRkJWV0FranBLTTJ4a1liT3BwZXlSUmFVZVZnYTJqZUlyNFNCdUVKQjVyYjJDQ2U5d1JobFRhNndVT2x2bnVTV2twSGJ1LWw2Q19BSnVaZzEwd3lCYlJfQ09XdXBEdw?oc=5",
+      "published": "2026-04-10T09:00:21+00:00",
+      "source": {
+        "name": "Journal des Femmes Santé",
+        "url": "https://sante.journaldesfemmes.fr"
+      }
+    },
+    {
       "id": "bed77850345e",
       "title": "Mobilisation générale pour sauver la pharmacie : « Ce n’est pas qu’un lieu de délivrance de médicaments » - Le Dauphiné Libéré",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcF9TSmc0dWtJd0ZhTng3a1pfcWRDVEJiSi1qV1J2a3dJZGxiQmZjbGU3b1pGc3JTZzl2WFlxaW9OZjVUelBTSlN3WE13ell3SnNLV3kwTVFEcmlrdXNEYlRwUXRCLXBLeUZhaXEtdE5VODJaY1FNTXRYbWlxd1Q4S19mMWdQbzNzZzlTRTk0a1VSQnpTQzVwaGpJdF9pTkROWXphR29FZ3B4UHd3SkFBWjh3U19ubUJMaFFObjh5QUxOYTI4c0dBWGxiaDlpaGdxaEJwaGtXLVBmN041WGJRc19jSlZ5NWRnUDNMbGlmakV3emd4Nl85QmJPMDBRWHc?oc=5",
@@ -334,16 +354,6 @@
       }
     },
     {
-      "id": "c9a08b53d5c8",
-      "title": "« Chaque euro ne peut être dépensé qu’une seule fois » : le Keytruda, ce médicament anticancer qui met le budget belge sous pression - Le Soir",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHhCQS13WHZJM1IxM25jbTBwN2J0VWE5aGFDVmtvaElSMWJUZkVMUTJDclIzRk4tMGlWZ0hVM2NXUW9HNHI4VHBPeWRRMW9LT1prc1RYTTQtYUVtYjZlZFM5VE1nVG8yRm1mZmlKOG5xVWN0bm9Wd3laQ1Z4aTZ0VG1IREtYSkN1ZTR6VU9EQ0lUYU8xM2otMng0bE44bl9aV2ZUOGUxM0VYMGthSjRKRjJCSUZ6cC1mU0gzMjZJZ2s?oc=5",
-      "published": "2026-04-13T04:00:00+00:00",
-      "source": {
-        "name": "Le Soir",
-        "url": "https://www.lesoir.be"
-      }
-    },
-    {
       "id": "db430195a729",
       "title": "Actualité - Réduire l'impact environnemental des médicaments : la France est mobilisée aux côtés de l’Europe - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXNZQXpyaDFwRXFEdWkyQ2xQT2h6eDhCRG9Va3JpQkFjWE9rNTZzR1ZrbzZRRWJneS1WZFZfZDRqNFNsVkVrTUg0cEt4NWF1WlpoNjYwQ0V1dWhDS3Q2REZzendmRUJWbjdETXhYOTl3UF9qMkE3ZkV6X3ZHaDB5NjV0dmY2QVFoMVI4ek5ic3VzNjBMek9RQm9MQW1rMFdnWEtMb0ZvTHVVNTN0RE9iaFBORnFwMEhiNGN2Q1BmT1lJV3c?oc=5",
@@ -351,6 +361,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "c9a08b53d5c8",
+      "title": "« Chaque euro ne peut être dépensé qu’une seule fois » : le Keytruda, ce médicament anticancer qui met le budget belge sous pression - Le Soir",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHhCQS13WHZJM1IxM25jbTBwN2J0VWE5aGFDVmtvaElSMWJUZkVMUTJDclIzRk4tMGlWZ0hVM2NXUW9HNHI4VHBPeWRRMW9LT1prc1RYTTQtYUVtYjZlZFM5VE1nVG8yRm1mZmlKOG5xVWN0bm9Wd3laQ1Z4aTZ0VG1IREtYSkN1ZTR6VU9EQ0lUYU8xM2otMng0bE44bl9aV2ZUOGUxM0VYMGthSjRKRjJCSUZ6cC1mU0gzMjZJZ2s?oc=5",
+      "published": "2026-04-13T04:00:00+00:00",
+      "source": {
+        "name": "Le Soir",
+        "url": "https://www.lesoir.be"
       }
     },
     {
@@ -474,16 +494,6 @@
       }
     },
     {
-      "id": "aae5bdf4d861",
-      "title": "Solidaris réagit aux conclusions de l’enquête sur Keytruda : « Nous assistons à un transfert d’argent public - Le Soir",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb2FvZ3N2QTUwclg5XzB4RnBZR2p6QzZOR0hMR2hmY1oteXlIY0hyNXQ3dTJiUU1ZUDdLT2p3eUgyaVBqWWhMMENtWi04TkppZ3hJRy15OFZMVE1XZ2h6aGNzR2RMekxtRjVubndycmhFRzFXWjUzY21CVjhkUUJfYVBKMS1DOE52ZkFTMmJoODVtZnVuZzhVMmJGa240bm10V0VDNzM4SmdvWF9mT3lsOGd0ZDlJMkx0eEFKNkxqbEc?oc=5",
-      "published": "2026-04-13T14:05:41+00:00",
-      "source": {
-        "name": "Le Soir",
-        "url": "https://www.lesoir.be"
-      }
-    },
-    {
       "id": "5ae7c1a5250a",
       "title": "Les laboratoires poussent à un accès sans ordonnance aux médicaments du quotidien - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTE1PRUZfbDdFblBnUzZ3a19VVWpPR0pUeU9nLUtnYUtyVi10TXJ3OUVqOGcxd3Nsdy1zUE5NRWIwYzF6bXBaQkduRkgzbjUwWE9Cbng1eDBFNjYtYUJKdi1DTk4zOWFQTTVsOERVUWZvUEtxcVpmM2stZ3FsWldqS2Eyb0dkWmRJTTR1OGxaY25YZ2kyZ2UxSnBsbkZsZGFiZVAwc0tSMkNITUtuRXRJaVJGMWZoT2pISmxCY0VMM0MzUkhaSnZvTjdtTVBiUFFpbE12SzFDdGdBSE1kdk5OYW9B?oc=5",
@@ -491,6 +501,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "aae5bdf4d861",
+      "title": "Solidaris réagit aux conclusions de l’enquête sur Keytruda : « Nous assistons à un transfert d’argent public - Le Soir",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb2FvZ3N2QTUwclg5XzB4RnBZR2p6QzZOR0hMR2hmY1oteXlIY0hyNXQ3dTJiUU1ZUDdLT2p3eUgyaVBqWWhMMENtWi04TkppZ3hJRy15OFZMVE1XZ2h6aGNzR2RMekxtRjVubndycmhFRzFXWjUzY21CVjhkUUJfYVBKMS1DOE52ZkFTMmJoODVtZnVuZzhVMmJGa240bm10V0VDNzM4SmdvWF9mT3lsOGd0ZDlJMkx0eEFKNkxqbEc?oc=5",
+      "published": "2026-04-13T14:05:41+00:00",
+      "source": {
+        "name": "Le Soir",
+        "url": "https://www.lesoir.be"
       }
     },
     {
@@ -784,16 +804,6 @@
       }
     },
     {
-      "id": "fca46c3f0f91",
-      "title": "Examens médicaux gratuits, consultations de santé et distribution de médicaments pour les femmes membres. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc2oxZzZYblVGSVpnaHZQa0Raa0ZaSXVIa3Y0UWpRdjlRT1RROWVQbVdVaF9ZWEZCY0lQRlZ1TnJ4SmpDNWU5TEtvb1RfMEVJakVteG9CQ29ka3MyV0dybzdjZEZNRTAxbExmeG5KMXJoblF4UVhfTThiei1tU1kyVFBXREJ0Yl9IazRCOWdSMkFHNm10X2xHRGxYUQ?oc=5",
-      "published": "2026-04-11T06:34:26+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "bd883b1084dc",
       "title": "Maladies chroniques : des experts alertent sur le nombre de patients qui « décrochent » de leur traitement - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWGg4bzdtUmpaWDZady0tdFJJbV9MSmZYUEZSZGItZmRQWGN4d3NhcGxBSjF5RXBLa3NobS1IYndnOG5hMmxjTW5za24tajNFRjREUnNYdWxydFlkVkNxR1NvWWRQUngxRDh0TER2aFlnZVFuWHBTXzhpNmpFQ3ZTOWxFcWZTcFBiUS1feGVETnpYUmRrOEVqbEFxaGNQMUJrTklENU0xcVZScXF2bzBzSEhuUWluYzVlVUhPOV91SnJhOWtDdnRMWElZbi1aVmtiQ1FTZVR4LUQxaUkyQk93MGtsVUk5ZWFDTklv?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "webdo",
         "url": "https://www.webdo.tn"
-      }
-    },
-    {
-      "id": "b9a1da50311b",
-      "title": "Actualité : Hiver 2025-2026 : un nouveau plan pour la gestion des médicaments - Weblex.fr",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX1FKMlVFbG5JdHRydGI1SGpiaUVfWGlTS182b3VmVEtTSjRRVWtKYmRhVUgzWnc0ZVp2WVhsY0haTHRqVnRLeU85QXh1YURMR2FmdmM5ZDcwRVlWclVlMWNmU19PYWd0SnN0TUpuN29HN2Z3ampwTFB5anhyWGRRODdXeXdDYkVrekpXbUdYSEgyWnR4OVFGY2pDT0VrdGhyUEoyNA?oc=5",
-      "published": "2025-10-16T07:00:00+00:00",
-      "source": {
-        "name": "Weblex.fr",
-        "url": "https://www.weblex.fr"
       }
     }
   ]
