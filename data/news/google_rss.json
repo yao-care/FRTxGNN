@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-05-01T13:45:38.605610+00:00",
+  "fetched_at": "2026-05-01T15:03:59.498950+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "e22700327e05",
+      "title": "Drogues : de plus en plus d’étudiants se dopent à la Ritaline pour réussir leurs examens - ma-sante.news",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORHh2WENxNFdDa3VhemZFbGJNUk9UMU5PM3N1UXlFRk40Z1Jqa2NtcEUxbU9MY2w5MWNKcndBLWxTZUJXNEFSeXh3N1F1Z0pFNF9ja1h1cmJzNXZBdDJFMjgzOV83am1nRmRtUmhyNDlsT3EwQUtGX1pPRXdxNDVzRVR6djM5WEVySHVB?oc=5",
+      "published": "2026-04-28T09:19:40+00:00",
+      "source": {
+        "name": "ma-sante.news",
+        "url": "https://ma-sante.news"
+      }
+    },
     {
       "id": "f0ca5811277e",
       "title": "INFOGRAPHIES. Hospitalisations, médicaments… Que représentent les dépenses de la Sécurité sociale pour chaque patient ? - Ouest-France",
@@ -14,16 +24,6 @@
       }
     },
     {
-      "id": "759b868570a3",
-      "title": "Ce médicament contre la goutte réduirait aussi votre risque d’infarctus et d’AVC - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLVhxQXZpcWpabHI1YmhKNWtFUDF3aHdNN25hbG5nWERaTm9Pb1k4cHRBV3EwenBuVURuTllZOTE3T3hlODN2LXp2M2N6OGVLWklOdVlOMnJLZGRqd1JhczNaZk1iY3pYNFUtZlFMTmRSS1c5SjdPUjdXa0ZtWENMdEZqWU8ya1dnZnJLNkllU25oaFV0SFhJYVhKOE8zRVFsQl84OWo4eWJtSk83U2h0V2RhNmRDVkIxWlpQaF91WVVhcURQcXpnNFU1SWRMS1M5TU1jX1p3?oc=5",
-      "published": "2026-04-30T15:04:04+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
       "id": "7be4268a5ef3",
       "title": "Innovation, rentabilité, concurrence... La nouvelle boss de Sanofi dévoile sa stratégie - Whatsupdoc-lemag.fr",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ3g0djFLZnlqSk1xWFZEOERhV3lLS2NHc1VMV2pJb3prSldjcHBFZFBsRlRSSFc0TVA0RXpFb093Ykp1VDdOMGExbUpkUW9pWC1kaHpaNm9BUGZUaVV4WUk4MTF5SVpycTF6Z3VIMEF4aDlMUWJtMUdQd3RocV9yYjBIdnBQN0FqblV1QTJPOEk0Y2ozLVp4cC1SVFVtTXcxU1RVeHd5SDE0Q05MdTJhU01wWjZEaGFsTFBnSjZBaw?oc=5",
@@ -31,6 +31,16 @@
       "source": {
         "name": "Whatsupdoc-lemag.fr",
         "url": "https://www.whatsupdoc-lemag.fr"
+      }
+    },
+    {
+      "id": "759b868570a3",
+      "title": "Ce médicament contre la goutte réduirait aussi votre risque d’infarctus et d’AVC - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLVhxQXZpcWpabHI1YmhKNWtFUDF3aHdNN25hbG5nWERaTm9Pb1k4cHRBV3EwenBuVURuTllZOTE3T3hlODN2LXp2M2N6OGVLWklOdVlOMnJLZGRqd1JhczNaZk1iY3pYNFUtZlFMTmRSS1c5SjdPUjdXa0ZtWENMdEZqWU8ya1dnZnJLNkllU25oaFV0SFhJYVhKOE8zRVFsQl84OWo4eWJtSk83U2h0V2RhNmRDVkIxWlpQaF91WVVhcURQcXpnNFU1SWRMS1M5TU1jX1p3?oc=5",
+      "published": "2026-04-30T15:04:04+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
       }
     },
     {
@@ -51,16 +61,6 @@
       "source": {
         "name": "Doctissimo",
         "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
-      "id": "e22700327e05",
-      "title": "Drogues : de plus en plus d’étudiants se dopent à la Ritaline pour réussir leurs examens - ma-sante.news",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORHh2WENxNFdDa3VhemZFbGJNUk9UMU5PM3N1UXlFRk40Z1Jqa2NtcEUxbU9MY2w5MWNKcndBLWxTZUJXNEFSeXh3N1F1Z0pFNF9ja1h1cmJzNXZBdDJFMjgzOV83am1nRmRtUmhyNDlsT3EwQUtGX1pPRXdxNDVzRVR6djM5WEVySHVB?oc=5",
-      "published": "2026-04-28T09:19:40+00:00",
-      "source": {
-        "name": "ma-sante.news",
-        "url": "https://ma-sante.news"
       }
     },
     {
@@ -94,23 +94,13 @@
       }
     },
     {
-      "id": "959f6a191fa4",
-      "title": "Des médicaments moins chers ? Les industriels poussent vers le choix des génériques - Courrier picard",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbldDWmVyd1V4a1NleVU5Z2pJaW1yTVJqTDR1X3ZRQ280aG9MQ19ENW5vSTVOeWkzZDF2Y0dET0I4c0VWWE15V09qRmR3SF9uNzZSTEt2eExsYjNab1hha2JTN3ZLckZOMDY0UThMVXVoeWVFWW5BNTlBU29OclJnZjFyZjFOREJSMDFQaG1ucUFsV1FnWVY4c2lROWg0dmJDWEdIQkFLdVNUa0xwSUJSZGRqM2gyTnhJWFdoZHBmczN5cGxoWl9JVQ?oc=5",
-      "published": "2026-05-01T07:28:00+00:00",
+      "id": "38b4757e0b81",
+      "title": "Les médecins s’inquiètent pour les réfugiés concernant les paiements de santé - Noovo Info",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2hXejUwYnpNbjhGLVQzMUY3c25lMGF4Q19fVUItVjFHM1Q2RzU2d0ZvVE5raXotTHk1VWdoaTI3ek5aRXZGaUVpTi1FTmxxVmVsVTlkbURidUdIWnREN1FTeGsza0lha21oRGdlNk1Wd2xSbGJQRkxiZmZCMmQyQi1EN3dGUmNOVU5WM0pmUkJYWTUtZTBsQ2FkNlVEc09ZeDhlcHFGM0h1UWFPYWk2MVh5dlc0cWVGQUc4eEtWUlhYUQ?oc=5",
+      "published": "2026-05-01T09:23:35+00:00",
       "source": {
-        "name": "Courrier picard",
-        "url": "https://www.courrier-picard.fr"
-      }
-    },
-    {
-      "id": "9d086d084314",
-      "title": "Disponibilité des médicaments en ville et à l'hôpital (semaines 17 et 18) - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUWFhVW9tLTVoLXBlTmRNWFAxN1BfbU0tdUxpLXp2ZTVyOTFrcm16VU5LOEZPbW1lMm5FWEVaUER4cEh0Q3dFZEJVYjB0MjBkQlkzWjBNbmVGaWVoZUVuU25HTld1aDZsbWVHazBVMnhkcmI3RHZNS1MzSFEzZzRrQXR6R19EWUFCRF9lbDV0UUVwckdOY2dvck9OcDRyeEFrT0VxanRLMHRSbEdaNk44dkdJeEw?oc=5",
-      "published": "2026-04-30T14:06:34+00:00",
-      "source": {
-        "name": "vidal.fr",
-        "url": "https://www.vidal.fr"
+        "name": "Noovo Info",
+        "url": "https://www.noovo.info"
       }
     },
     {
@@ -124,6 +114,26 @@
       }
     },
     {
+      "id": "9d086d084314",
+      "title": "Disponibilité des médicaments en ville et à l'hôpital (semaines 17 et 18) - vidal.fr",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUWFhVW9tLTVoLXBlTmRNWFAxN1BfbU0tdUxpLXp2ZTVyOTFrcm16VU5LOEZPbW1lMm5FWEVaUER4cEh0Q3dFZEJVYjB0MjBkQlkzWjBNbmVGaWVoZUVuU25HTld1aDZsbWVHazBVMnhkcmI3RHZNS1MzSFEzZzRrQXR6R19EWUFCRF9lbDV0UUVwckdOY2dvck9OcDRyeEFrT0VxanRLMHRSbEdaNk44dkdJeEw?oc=5",
+      "published": "2026-04-30T14:06:34+00:00",
+      "source": {
+        "name": "vidal.fr",
+        "url": "https://www.vidal.fr"
+      }
+    },
+    {
+      "id": "959f6a191fa4",
+      "title": "Des médicaments moins chers ? Les industriels poussent vers le choix des génériques - Courrier picard",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbldDWmVyd1V4a1NleVU5Z2pJaW1yTVJqTDR1X3ZRQ280aG9MQ19ENW5vSTVOeWkzZDF2Y0dET0I4c0VWWE15V09qRmR3SF9uNzZSTEt2eExsYjNab1hha2JTN3ZLckZOMDY0UThMVXVoeWVFWW5BNTlBU29OclJnZjFyZjFOREJSMDFQaG1ucUFsV1FnWVY4c2lROWg0dmJDWEdIQkFLdVNUa0xwSUJSZGRqM2gyTnhJWFdoZHBmczN5cGxoWl9JVQ?oc=5",
+      "published": "2026-05-01T07:28:00+00:00",
+      "source": {
+        "name": "Courrier picard",
+        "url": "https://www.courrier-picard.fr"
+      }
+    },
+    {
       "id": "637cfc836879",
       "title": "Ce que les traitements contre l'obésité pourraient apporter à la lutte contre l'alcoolisme - L'Express",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbko0bVppcVd1VklTVXBhSW16U0lYMl9FRjhGZnRKQjNXMkF3aV9mSEF5QnVJS1hVZ05hdDZWTkxlQ2dYNFFRNTltaUt2cTlqYVVWUzdkMzlHMVljWmI0Z2djQ1FJRHRXa19relQ5VldGLVp0ZkNxNzBOWXQxTGRUVkNxU04wMVBwazlUUmZsV2pIV1FmenNid3ZlaTE1NXpTV3BNQzNLOXdPdGQ2QkNHQ3M5a09Zd09LbHpBb1ZtMWUzaEVvX08yR3lMdDNIay1wRU9jb1BwT1NiSjBSaUlIOXF4VGFVdTRJRXNB?oc=5",
@@ -131,16 +141,6 @@
       "source": {
         "name": "L'Express",
         "url": "https://www.lexpress.fr"
-      }
-    },
-    {
-      "id": "ec9962cacdc0",
-      "title": "Peut-on prendre du paracétamol et de l’ibuprofène en même temps ? La réponse du Dr Gérald Kierzek - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNHdGRF9pVG5CVjJ3RHZzc3JKS1RIajdNcFRvR2V0ckNTcWUwMXU2c1FqTW5YOTZNMUVwTlNGTUhVbXhJaFBCT3E0ZmUyZHhZWk1aZzEzdFIzYzh3eXowdUk0YnpBOHc2ajJwSnlpcEctVHpPTnhhcnJZTTJmbkY1ZWdBQ0RsdTFpUWZlbTNLZ2g3ZEtLWEYzVFBYd0MtR3BMTW1IT1lxWlFmSVh3RGRmc0c2a1VUWXNZZl9RWnBvMzBOOVMyR0gwb2E3WkllRDgxMkE4ZUNINUIwLW5JOG04d1kydVBLRkhudEh1Vlk5NDRSWFNRNkFwbDVJd0sxSHk4UU12WllveXNXU1dDTHRz?oc=5",
-      "published": "2026-05-01T08:30:43+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -161,16 +161,6 @@
       "source": {
         "name": "Univadis.fr",
         "url": "https://www.univadis.fr"
-      }
-    },
-    {
-      "id": "f13743f4bebc",
-      "title": "Les réfugiés doivent dorénavant payer une partie de leurs soins de santé et de leurs médicaments - Le Devoir",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRDEzQTRBOG5pZmtLQ2l4UlpxNHhuTFVhQ1JpNzJIWmdsRS1ialJ5eUdETU9MZE4xdmZDYUlkSjBlZGFBb1ZjT1dIWFE3ZTk3WXkxaXNCc1NoTFNpbzhKd0w5ZHZSalpNM21FVkNCc0JOclJGYWZ6QWM4LW5OX0V0dFBsOGlWS3JSaTZWU1pPMmZ1UUo2Zk50WlEwbG9nTmZEUmNjbDAzRjhYNldOTHExc3ZKZw?oc=5",
-      "published": "2026-05-01T10:47:46+00:00",
-      "source": {
-        "name": "Le Devoir",
-        "url": "https://www.ledevoir.com"
       }
     },
     {
@@ -204,6 +194,36 @@
       }
     },
     {
+      "id": "01d81fd1370c",
+      "title": "Fatigue : ce médicament courant au printemps peut nuire à votre vigilance. L'alerte du Dr Tesson, pharmacien - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPVl93V0ZwQTFiR1AwbEtqOHhLVW1IUUNDTUhOcmU5TTRfTW8xWjU0ckVKTDBnanNXaUFVRjFnRU5fUk95NXBsWEpFenNhX3c4eW5pOHZaeUNoRHVhejl6ZFJzNFlnY2FXTVdadjhCVFhkX2lUSi1CNUNRNFlrMWFuLV9EMjJDZEpxU0owMVh6YkROTkEzQ09KaXZ6Y2dIUEVOTU1EYlI0RFJHYzU4bmZ2ZW9OcEJvYU9MNV9KT2J0VTY4SVN3ZXVrLTgxbDVxblFhS1Exb185ci1qb2E2OHM3UUkwVTVaZDBQN1dQRnBKc1NYM1loT3NKdHJaVVFUUkoxTGltSVZWVFBLU3dOdDlUYmt0VWN4ejNKa3pjYno3d2l6OWswdU9DQl9SVS10M2tsem9kb1BR?oc=5",
+      "published": "2026-04-30T16:00:56+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
+      "id": "64fc99fd97ac",
+      "title": "Acheminement de médicaments essentiels vers 24 centres de santé - aps.dz",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQWM4d1huWFlvNzRMQVlFb3lSNzNFYlVlYkdRbGpsWHVCSmx1N3JCWEcxU1pLdWdmbWF2TjctWnNnS2ZMakN0STVBLWZTSXh2UlRzeDd4bjU1UUhzTmEwSXdTMEJfZEE1T2dMNE1RTFdKY3k4WkNYaVdDdWFLZXpoaVRxcUtFSzFyU0pRVUFQVy0weFdHN0RVLWxmd1RwSTBCQmVCeWhCZVJnQQ?oc=5",
+      "published": "2026-05-01T14:53:00+00:00",
+      "source": {
+        "name": "aps.dz",
+        "url": "https://www.aps.dz"
+      }
+    },
+    {
+      "id": "e1713d3467a4",
+      "title": "Tarification des médicaments: les pharmaciens interpellent le ministère sur la réforme - H24info",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BeVFQaUs1RVpCbE13YThnZ05vNEo3NDNBejFsbUp4TGVzSG43UVdHMk9YUnp4ZEhBeHdmMjA4VVpHZWVJQnI0dDBKbm5hcmFrc0MzLTBOa29xV0J5dXgzVnRvUVVzVzN3UklwTGE5T1h0WUR2X1dSeFV4Vm4?oc=5",
+      "published": "2026-05-01T08:35:11+00:00",
+      "source": {
+        "name": "H24info",
+        "url": "https://h24info.ma"
+      }
+    },
+    {
       "id": "821f45b163dc",
       "title": "L’Actu vue par Remaides : « États généraux de la bioéthique : « Repenser l’économie du médicament pour garantir l’accès aux traitements - Aides",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSTBldzVKNVh1TWQ3bExJR3RjX2ZZS3R1dzBDUDhPRXk3R3pfRUgyUkJnSGxPRlpScGZBTkNuLWFON2NNWjNIcnNBUnR3Sm5uYldjX2NjcHh4OEhHTjllV19BYk93N0RmMk91TGhvY2NoY3RiWmhsLVIzTDZFQUEwa0tLTk9ST2xTaG9UVjJzN3psRU1LckF4b0wxZGh2WHRnSmNn?oc=5",
@@ -211,26 +231,6 @@
       "source": {
         "name": "Aides",
         "url": "https://www.aides.org"
-      }
-    },
-    {
-      "id": "f1cbb10fa9d3",
-      "title": "Attention ! Ces 6 médicaments courants deviennent dangereux si vous buvez du café - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQdFN4TG56NUxTRXJqaUpES1cxUlk1WVZqQWl3NVc5QkZVWl80eDYxOUpNMjdrRmNvUllkMEluOUpXQm5Ka1JUeTZCN1V2WElaZUtLa0xNeWZNbnFNODBqU1Btamx2RUxtREUtbmhiZHJJdXkyZlJFc0xJOTh1QW9sSmJsY3JlWjJpV1JYUTNlcEoxOE5WRjBDNndJYThYd01hOUJ2WGtpQk0zb2pZM1NMY0U0bGliWDB5aXFzQkktdHo1NUFtN1hOSVRKZHdnUExhZkR4ZHlzXzRxeFRyTW9TUklyOFJvVzkybnJybk1lNldtMGlXTkJ1YU95RDF2RmlCdkdtSGpWMDNEc1Jzc3J5aE15SXloUWt2b0ZjVXIxbm9zOGE3MkNCZzJaUnRJb1VvZVA5RA?oc=5",
-      "published": "2026-05-01T04:30:16+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
-      "id": "5d453b8aaeb4",
-      "title": "Hôpital : état de disponibilité de plusieurs spécialités hospitalières (semaines 17 et 18) - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS1FrOG14dFQxaTZWdTU2ZE1VSDJsYkhJY2VRUkZRSzRELVlhWHlNQnVDZ1hVd2VtUUZOb0tUVWZaeHFYWmhRMjdPd01sQTdDTmFQeTlqVVdqM2lQYTIyUWJvVTg3ZlhQd1BoX25PRnFwOTVsOHVoa2lqQkVKRWtJTE1DbnNWa19Fb2FRUUl4XzNTVDV5N3E5ajRDY3BNUUpjVXRhVmx6MEwwMGg5ZHYxcGZmOEZFRFFjV2xYaVM5MHJTM1JieEF2cA?oc=5",
-      "published": "2026-04-30T14:11:34+00:00",
-      "source": {
-        "name": "vidal.fr",
-        "url": "https://www.vidal.fr"
       }
     },
     {
@@ -244,13 +244,13 @@
       }
     },
     {
-      "id": "01d81fd1370c",
-      "title": "Fatigue : ce médicament courant au printemps peut nuire à votre vigilance. L'alerte du Dr Tesson, pharmacien - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPVl93V0ZwQTFiR1AwbEtqOHhLVW1IUUNDTUhOcmU5TTRfTW8xWjU0ckVKTDBnanNXaUFVRjFnRU5fUk95NXBsWEpFenNhX3c4eW5pOHZaeUNoRHVhejl6ZFJzNFlnY2FXTVdadjhCVFhkX2lUSi1CNUNRNFlrMWFuLV9EMjJDZEpxU0owMVh6YkROTkEzQ09KaXZ6Y2dIUEVOTU1EYlI0RFJHYzU4bmZ2ZW9OcEJvYU9MNV9KT2J0VTY4SVN3ZXVrLTgxbDVxblFhS1Exb185ci1qb2E2OHM3UUkwVTVaZDBQN1dQRnBKc1NYM1loT3NKdHJaVVFUUkoxTGltSVZWVFBLU3dOdDlUYmt0VWN4ejNKa3pjYno3d2l6OWswdU9DQl9SVS10M2tsem9kb1BR?oc=5",
-      "published": "2026-04-30T16:00:56+00:00",
+      "id": "5d453b8aaeb4",
+      "title": "Hôpital : état de disponibilité de plusieurs spécialités hospitalières (semaines 17 et 18) - vidal.fr",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS1FrOG14dFQxaTZWdTU2ZE1VSDJsYkhJY2VRUkZRSzRELVlhWHlNQnVDZ1hVd2VtUUZOb0tUVWZaeHFYWmhRMjdPd01sQTdDTmFQeTlqVVdqM2lQYTIyUWJvVTg3ZlhQd1BoX25PRnFwOTVsOHVoa2lqQkVKRWtJTE1DbnNWa19Fb2FRUUl4XzNTVDV5N3E5ajRDY3BNUUpjVXRhVmx6MEwwMGg5ZHYxcGZmOEZFRFFjV2xYaVM5MHJTM1JieEF2cA?oc=5",
+      "published": "2026-04-30T14:11:34+00:00",
       "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
+        "name": "vidal.fr",
+        "url": "https://www.vidal.fr"
       }
     },
     {
@@ -294,16 +294,6 @@
       }
     },
     {
-      "id": "e1713d3467a4",
-      "title": "Tarification des médicaments: les pharmaciens interpellent le ministère sur la réforme - H24info",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BeVFQaUs1RVpCbE13YThnZ05vNEo3NDNBejFsbUp4TGVzSG43UVdHMk9YUnp4ZEhBeHdmMjA4VVpHZWVJQnI0dDBKbm5hcmFrc0MzLTBOa29xV0J5dXgzVnRvUVVzVzN3UklwTGE5T1h0WUR2X1dSeFV4Vm4?oc=5",
-      "published": "2026-05-01T08:35:11+00:00",
-      "source": {
-        "name": "H24info",
-        "url": "https://h24info.ma"
-      }
-    },
-    {
       "id": "f6c8e7ef6a37",
       "title": "Invité Afrique Midi - Les États-Unis veulent récupérer «des données cliniques et biologiques qui permettent de fabriquer des vaccins ou des médicaments» - RFI",
       "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOSkhFSkVyS2V2aVZBZVJJZmJpZzgxdkY0T1FZZE9qVk1vU0wwaDh3SGNrSnJYZWtzdUZLNnFSNnZubzZUTUstTERRMDRmS0gtOV9NN1ZCX1VuRTZSbXZPd1hsbVRIbno0b1pKbmdPcFN4am9sb0kzVVNZRHFKUjlNeFBrTEVEemtkXzF4cGx3MVVKbHpXY3lyb25BYkFtRGNZcGhDUmNySDNtTzJlNzVaUXV2cXNxeUxIb2JQV0xkaDhqSE96Sk1URWZCX1ZBenVhNWpVVlBjQlYzZkFtbDdXT3VkckRkTnExQUd6eE1Cd0h0WW1tNHMyNlA1SlNqaEdwcmxOcjFiTl9NNnRGLVdtX2ZNXzFSTzNYY1FTc2JEVWFHdVVuOTh5N1E1Y1dyMVJBWV9rdDhtdDNydUhLYzJz?oc=5",
@@ -324,16 +314,6 @@
       }
     },
     {
-      "id": "e16d556627de",
-      "title": "Les demandeurs d’asile et réfugiés désormais limités à 10 séances de psychothérapie par an - Le Devoir",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjk5aElQZGRhenl0SWlnYTBwT3ktd0ZXR184QUZmQ2dlUmVzMVdOdTE5UC1NWmUyWG1vUWVNNDRQenF0cTd0WVhYTkcxUlRSOUpOT19pWnRQbzVRTDU4RGcwSTYwVm9QaEZvSjBHb054ZmFrM1Ixd3lDaGowYXB0ajBVUndlanhEb0VUX0NxNlhpcnpCUDMwdVdZWjNRTDBkN05PRHhSOHI3RkowNWxsbkZqdTkwc28?oc=5",
-      "published": "2026-05-01T10:47:00+00:00",
-      "source": {
-        "name": "Le Devoir",
-        "url": "https://www.ledevoir.com"
-      }
-    },
-    {
       "id": "03fac25028f4",
       "title": "Les médicaments contre le cancer représentent 40% des produits en essais cliniques - Portail de l’assurance",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMVZIU1ltOGJQMGVXYUpLdnhWckJvVFZodFhLLXF6LWVBOFQ2ZXM0ZUxZcnRlbDFSd1VOWWFsYjh0czAwTXNZVzZON2t2UVhnQXc0dm96eUgzOFFyeGlnWGQzYU1mVDRucTVnWERxNmtlTzdFbzh0QWgwUFNSQm1VUWRtd2owRHRKNW5DQnF3OE15OUNsYlI0bTVkRUJXV0ZmQVYxdEZnYTNnYnpLdV9ZdFFUZWVtZlNLWUR3?oc=5",
@@ -341,6 +321,16 @@
       "source": {
         "name": "Portail de l’assurance",
         "url": "https://portail-assurance.ca"
+      }
+    },
+    {
+      "id": "e16d556627de",
+      "title": "Les demandeurs d’asile et réfugiés désormais limités à 10 séances de psychothérapie par an - Le Devoir",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjk5aElQZGRhenl0SWlnYTBwT3ktd0ZXR184QUZmQ2dlUmVzMVdOdTE5UC1NWmUyWG1vUWVNNDRQenF0cTd0WVhYTkcxUlRSOUpOT19pWnRQbzVRTDU4RGcwSTYwVm9QaEZvSjBHb054ZmFrM1Ixd3lDaGowYXB0ajBVUndlanhEb0VUX0NxNlhpcnpCUDMwdVdZWjNRTDBkN05PRHhSOHI3RkowNWxsbkZqdTkwc28?oc=5",
+      "published": "2026-05-01T10:47:00+00:00",
+      "source": {
+        "name": "Le Devoir",
+        "url": "https://www.ledevoir.com"
       }
     },
     {
@@ -394,16 +384,6 @@
       }
     },
     {
-      "id": "9ff10c8dab35",
-      "title": "Diabète : cette erreur avec l’horaire de vos médicaments peut tout gâcher, l’avertissement du Dr Kierzek - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRWgxM2w4b2hfRTFEWTRnLU5GMUlDYXdoS0htaERBWXNyOHdMbkRsVGZfUFl0T0pUeDNmVGstQmhDSXVrbWpEbTFzQmFBVUdCNDh0Zmtmamp3aXQzdnBIOWk1M0wzMkVwckNTZVpnemZHLW82QTcyUW5WMFZNanpFYmtWWW1VQVNLRW1iNWZoZHVfUXVzVWpuZWdCd0x2dUJDbUI5azgwYzdjNHFkeExhdHNaUVpKRjE2Qm45YVNGUzhhRGw3VXZZSmNiMGRRQmF2MC1nTmdkWEpQdC04V2JzZ3ZEX1gwSlRt?oc=5",
-      "published": "2026-04-28T06:08:53+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
       "id": "f0c1b924310b",
       "title": "L’ivermectine peut guérir la COVID, le cancer, l’Alzheimer et le Parkinson ? Faux - sciencepresse.qc.ca",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUVVIc2JzVU9nTEQwSkpQNkZOQkFVUENxa2dUQWViNzRBUFpNZy1xVFJlWjVBQnpoR3VGNjdOOEZRcjhKcUdKRm1jSXZwR3FSLTNfcjVpbklkUzlGSERFT1pOYzZXQVYtak0tcnUtQVBTMTBPUTRwQzgwM3dsam5wbkFXNjIxeEJEbU1hUDdaYkNNQngxTmQtdkx1enQ4WW9uVmZVajY1YkxmQWI4eW1Cb0czU1plbWFaZW45eXhrbw?oc=5",
@@ -434,16 +414,6 @@
       }
     },
     {
-      "id": "0e6533efa931",
-      "title": "Antibiotiques : l'erreur à ne plus commettre selon le Dr Gérald Kierzek pour préserver votre flore intestinale - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNWXMtUGZiWXQzdU1pNjhvaHJ6Rmt3S1lrejEwYlFEdWhheTRscDJEbHRZZlZfOXJOQ2xzY3lwVkkyQnB1bWxiZGh0RWZ2VkJUSHpKdnJLOUJXUl9uY1ZGT1ZPRzFtdFdIOEFHcFZ0aE0taVNZVGhIYVpXT2V0cGRiSWFnRE85THpuYW4wUHY4dUV0Y1o4Nm5tXzFPYTJPMVdpTDRIaG51aHJmZjNZZTM5cTE1NXR4d3J6TVhWZExHUkZoSkFlYkVDMDI2dGMtSDlQcmo4RnprcnRQVmVxbWVKdnZ6MHdSLXBOY0JSM3ktZjdHVlpfcUdCeHB0Q01hWEcydU1oc3NValRSMmgzQjFuOVdPYUp3SnZReWJuTWMwT1lnSWJNSmN0aXZ5TjJ0X1ZQYTA3Y3pzckhqNUw0WV9NeTNqdWFRQjNN?oc=5",
-      "published": "2026-04-30T17:02:30+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
       "id": "2f24847422b1",
       "title": "Médicaments : la bonne santé en trompe-l'oeil des génériqueurs - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTE4zbGZyMmd2TUJzemItWk4weTZLS1VfaDlqSEE1eHJ3N09CWEtyQTdieVdNblNOTjVjTDVpLVpmQ0dpY3RldjhRS2xjMjhBR2lORTJKUVdCa0VjRW5Ec3o3alVYaTdyRUVOX0tic2liV2tkYWtxemlGUzl5U3VHX1JlOXJHMnFNZy1obE5RWFU3T0NiMU1rRG5wTHh1VnlBS1ltaGhTdFZ6SXlkdm1TMy1IRFBLa3BjcmpkMnFVQkl4QTBK?oc=5",
@@ -461,6 +431,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "0e6533efa931",
+      "title": "Antibiotiques : l'erreur à ne plus commettre selon le Dr Gérald Kierzek pour préserver votre flore intestinale - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNWXMtUGZiWXQzdU1pNjhvaHJ6Rmt3S1lrejEwYlFEdWhheTRscDJEbHRZZlZfOXJOQ2xzY3lwVkkyQnB1bWxiZGh0RWZ2VkJUSHpKdnJLOUJXUl9uY1ZGT1ZPRzFtdFdIOEFHcFZ0aE0taVNZVGhIYVpXT2V0cGRiSWFnRE85THpuYW4wUHY4dUV0Y1o4Nm5tXzFPYTJPMVdpTDRIaG51aHJmZjNZZTM5cTE1NXR4d3J6TVhWZExHUkZoSkFlYkVDMDI2dGMtSDlQcmo4RnprcnRQVmVxbWVKdnZ6MHdSLXBOY0JSM3ktZjdHVlpfcUdCeHB0Q01hWEcydU1oc3NValRSMmgzQjFuOVdPYUp3SnZReWJuTWMwT1lnSWJNSmN0aXZ5TjJ0X1ZQYTA3Y3pzckhqNUw0WV9NeTNqdWFRQjNN?oc=5",
+      "published": "2026-04-30T17:02:30+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -531,16 +511,6 @@
       "source": {
         "name": "Ameli",
         "url": "https://www.ameli.fr"
-      }
-    },
-    {
-      "id": "3e459e0e5122",
-      "title": "La FDA veut durcir le ton concernant les médicaments contre le diabète et l’obésité - Les Affaires",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSEdJWXhvTDRoTFlpVkROUHJWWGpNcjhIR2w2SVdzcTQtZVdKeEpsdnRGV3o0QXJzWkhtY0lFY0xlaEFXOGNtSmpiWFpLT3JwTy1sNzZIekR0UlRrNVdyNGZBUFlJWkxDZ3lxdXh6RXo3OWRGVVMxWldSZlNQTm9EU0p0dmhLdmtKbFd2SkJLX1h5eDdaUTk4czY5NEZoXy1OQ2daQ3RVVjdvNXZiY2RDNEZoaEprUHRlMUJmcnpBVGtLaV9rdGc?oc=5",
-      "published": "2026-04-30T17:33:19+00:00",
-      "source": {
-        "name": "Les Affaires",
-        "url": "https://www.lesaffaires.com"
       }
     },
     {
@@ -624,6 +594,16 @@
       }
     },
     {
+      "id": "3e459e0e5122",
+      "title": "La FDA veut durcir le ton concernant les médicaments contre le diabète et l’obésité - Les Affaires",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSEdJWXhvTDRoTFlpVkROUHJWWGpNcjhIR2w2SVdzcTQtZVdKeEpsdnRGV3o0QXJzWkhtY0lFY0xlaEFXOGNtSmpiWFpLT3JwTy1sNzZIekR0UlRrNVdyNGZBUFlJWkxDZ3lxdXh6RXo3OWRGVVMxWldSZlNQTm9EU0p0dmhLdmtKbFd2SkJLX1h5eDdaUTk4czY5NEZoXy1OQ2daQ3RVVjdvNXZiY2RDNEZoaEprUHRlMUJmcnpBVGtLaV9rdGc?oc=5",
+      "published": "2026-04-30T17:33:19+00:00",
+      "source": {
+        "name": "Les Affaires",
+        "url": "https://www.lesaffaires.com"
+      }
+    },
+    {
       "id": "b0fa3bad639a",
       "title": "Jusqu'à 1,7 milliard d'euros de médicaments non consommés chaque année: la Cour des comptes favorable à la redistribution des produits de santé - BFM",
       "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPN1hSYnE4N1hBQ0V2a3RGaUxITlYtQkNPZUM5aGVMTUM0eldjWlQ2SlpSUzFPV0pjZEF2UXVVTGZXWVFOX2hzQ21xNGZUZ29PX3ZtZ1QzcHJMRE9FWVk0ZUZjTllDX2hzT0c3R1JPSmh3V3dHcDlfbUFoMmZlakpWdU5lNEZHS0cwcVg2cjhxdEdzaVk5WS0waVhnUWxpZnJPa002QUUybzhLMmJlVVByUHFJZFhsVDQxZlVuYXpZZG5RbENtUWZmbWh5WWhONzZXVnF3cTZPV3BIZ21jY3lKOEtkYXhzdm9yTlp1ZThhOGQteWdTcHFOdk5YU1lyVTZIUVVuQ3ltUTNqbUhweWdMakoyUXgzRFJVQktRWFlSWDJJTnZrNTFzV2NqZ3hwTTNXdi1aUw?oc=5",
@@ -644,16 +624,6 @@
       }
     },
     {
-      "id": "322ecdfc1b1d",
-      "title": "Surdité : cette thérapie génique révolutionnaire de Regeneron permet enfin à des enfants d'entendre à nouveau - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNMTVqM3cxUlhZd3RCaDlBaV9oa3FrTEt0ZVV5NmdaVzUyUk9Ia05XbWtvOVRlUW52N3Q5WkFpYWVkcEpMRF9lUG91TWtXZmJDcnU1blp2cGJZNVktckc1eGlJdzhzM0RfMGp4SmpYRDM0NlI4QUUtQ3pMcklnMTNSWmR3UER5Vi00eDBaeGduMkUxaFBOcFJQdTM3TklBNFZ4SGg3S2lNUlRwbWtJbTJ6cUI0N21wX2RPeTVDSi0yczYtc1Z5N2gyNkJxSGR5ME94OV9WbDJlQ0JvejBucEQtTlk0eUREOVE4QUthcGJxZGJuWG1YalZmNkd3U28xUllzTzFZbnBLWDlHaHR6RHNUc1RVeldlWk8tV0trQk1IVjJsdU9LbFE?oc=5",
-      "published": "2026-04-29T16:15:44+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
       "id": "23fb421b8aa0",
       "title": "Dossier thématique - E-notice : phase pilote - ANSM",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBRlNXdnVpWXlCNnZmOHZqNmVfNWxvR2t6T2FQOVl6aWJwOTRGMVdLNDZ5SC1Id0tSMW9IZVAxcUFUQmpsVnRPZjQxQk1VbmFZNzZUMElLYkxoMGVJZHA4dWEzeWlHc1A5VzFVSjIwSjZldw?oc=5",
@@ -671,16 +641,6 @@
       "source": {
         "name": "Drees",
         "url": "https://drees.solidarites-sante.gouv.fr"
-      }
-    },
-    {
-      "id": "01f0819fe4b2",
-      "title": "FemBloc : l’ANSM suspend ce dispositif de stérilisation sans chirurgie faute de données sur sa sécurité réelle - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZUF2ZUFYZlZNd3NPTHJjRmMtd0RleUZkNVJMSlJ1d3ktTVZ0cnh1MXRVQzFCNk1pTm9BeUp6LXd2QkE0S3ZGVmRfSXlObV95aWNBcXBRZDBmZ2ZBc3h6dmNXUkludTcxRThhSGJlV0V4bmNXMFlMMWRaVThGWkpsRmpfeUlQeVB0Y2wtamE2WFZ0T3dKQTJkQVFrZXEtWjFiRFVGOS04RDFwYjVucTkwSUxmbTA2WUhBdUVxWjV0STFRdGpneTlxNGtMZ2Q0eEp4OVJfWnFScE1zWmR3WDV5T2cwY25FTUxMQ2Nqa0NrUHlwaGFtb2g5UWlsODRrWDZaejlyaV9KT2NUUGlKWlVhV1NlWQ?oc=5",
-      "published": "2026-04-30T16:16:27+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -824,16 +784,6 @@
       }
     },
     {
-      "id": "a4f54f9f3bf3",
-      "title": "Les allergies printanières commencent plus tôt et durent plus longtemps : voici pourquoi et comment s’en protéger efficacement - Salut Bonjour",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYTVlSHltdE95b1FTcUVoSXkxMVhESnZkLUdJODl0UDAydm1oeGwwMEwtel9OcEJTdGJQT1J4SXlwTldBbW00dkdyZERlY2c4Q2VVT1MxLVRWd2RYdW8yWlI5SzFIWG94bldBUklqMnFJTFFiVm90SVBPSGQ3NGZTRmwxWHhuOW4yaWhybHFjSGVnc05PTXdIU2F0aE0zOEFSUVpLOG12Z2IyWmN4Z2NZY0xDUjM1dkpHT0lscTYtNFRDTjl1anNTM1NaTVIwUklQa0VsVDQ3QmFwM2VpUE1JaE1RMU8tQjVnc0xwWjhRdGpEb2xsdVE?oc=5",
-      "published": "2026-04-30T12:56:53+00:00",
-      "source": {
-        "name": "Salut Bonjour",
-        "url": "https://www.salutbonjour.ca"
-      }
-    },
-    {
       "id": "669b4e2bd93d",
       "title": "Paludisme - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2SUI2bU5DUVZSVzROckhWSE1zbFI3WGlYc19aMUZ1UUVmMHVOdzFNZjFWaTY4VmtqTkUzY0gzcmxWb0FGV0FUa2NaUHBHSkJiTHZBVHZ5VmFQdXZOejlaajcyNkFtaHdfWWNR?oc=5",
@@ -844,6 +794,16 @@
       }
     },
     {
+      "id": "a4f54f9f3bf3",
+      "title": "Les allergies printanières commencent plus tôt et durent plus longtemps : voici pourquoi et comment s’en protéger efficacement - Salut Bonjour",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYTVlSHltdE95b1FTcUVoSXkxMVhESnZkLUdJODl0UDAydm1oeGwwMEwtel9OcEJTdGJQT1J4SXlwTldBbW00dkdyZERlY2c4Q2VVT1MxLVRWd2RYdW8yWlI5SzFIWG94bldBUklqMnFJTFFiVm90SVBPSGQ3NGZTRmwxWHhuOW4yaWhybHFjSGVnc05PTXdIU2F0aE0zOEFSUVpLOG12Z2IyWmN4Z2NZY0xDUjM1dkpHT0lscTYtNFRDTjl1anNTM1NaTVIwUklQa0VsVDQ3QmFwM2VpUE1JaE1RMU8tQjVnc0xwWjhRdGpEb2xsdVE?oc=5",
+      "published": "2026-04-30T12:56:53+00:00",
+      "source": {
+        "name": "Salut Bonjour",
+        "url": "https://www.salutbonjour.ca"
+      }
+    },
+    {
       "id": "453d78b7ad7c",
       "title": "Peut-on prévenir ou soigner des maladies sans médicaments ? - Harmonie Santé",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdmtWVWs5RXpoX3ZWaDNvT2ZrWHVSNGdTc2d2NUNzTTMyallneUhiclVtSEJhU0gzZXFMRTRrbndMeEY3RkdWYkRMZkdVa29TN19CdG5ILXd0aUZ0SVBJSVl0dnZQLWNJWW1WUVJRQm1ObDIzdFdCbzc3NFR0OERab3JmWVlESVFMeWFfVXRVSXRoel83enplbVphcU50VmVlZGc?oc=5",
@@ -851,16 +811,6 @@
       "source": {
         "name": "Harmonie Santé",
         "url": "https://www.harmonie-sante.fr"
-      }
-    },
-    {
-      "id": "57970932675c",
-      "title": "Faux médicaments: Manaouda Malachie limite désormais les entrées de médicaments - Actu Cameroun",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa1FqWnpoTTNBQlh6RjBPQVIxVnA0dm5SYnJOU3hEYUNkR3dqMV9LMnRVaUM1MkZRckIyQU9qTDI5TG5vSHdLX1NfZWZQQ24wc3l0clkyNC1ueEFPdFlOX0NwNjJnVVpMZnpfZUsyQTF1U0p5LXhKWXhOa2xFdFEzSEZEYjhLNF83eFBKcUgxME5zTmZCRlJQcW8xZTNfRVFQd1pYbU0tSVQyVlZuV3dZMEZ3bjBJdw?oc=5",
-      "published": "2026-04-30T22:32:49+00:00",
-      "source": {
-        "name": "Actu Cameroun",
-        "url": "https://actucameroun.com"
       }
     },
     {
@@ -904,6 +854,16 @@
       }
     },
     {
+      "id": "57970932675c",
+      "title": "Faux médicaments: Manaouda Malachie limite désormais les entrées de médicaments - Actu Cameroun",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa1FqWnpoTTNBQlh6RjBPQVIxVnA0dm5SYnJOU3hEYUNkR3dqMV9LMnRVaUM1MkZRckIyQU9qTDI5TG5vSHdLX1NfZWZQQ24wc3l0clkyNC1ueEFPdFlOX0NwNjJnVVpMZnpfZUsyQTF1U0p5LXhKWXhOa2xFdFEzSEZEYjhLNF83eFBKcUgxME5zTmZCRlJQcW8xZTNfRVFQd1pYbU0tSVQyVlZuV3dZMEZ3bjBJdw?oc=5",
+      "published": "2026-04-30T22:32:49+00:00",
+      "source": {
+        "name": "Actu Cameroun",
+        "url": "https://actucameroun.com"
+      }
+    },
+    {
       "id": "ff684e7edfb2",
       "title": "Wegovy est-il désormais moins cher qu'Ozempic ? Testaankoop a fait le calcul ! - Testachats",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNEdac1NTS2g2WVZRZ1c3Y0JTaVFxVm1QbnRrU2RrSDdiZUFBdzlqV2g3Q0F0OFUybFhpV3JwQlR1N05STFlSZXNOZHpwSkFWS0lsRzVNbmVpOVc2d1ZxSmVsQWZzV2RWV24zUjFmdkdKLTJfZTZUOHFlR2EzUnpEZkJrLXptN3NZZUhTX3NPRWVUT1hSNWliWA?oc=5",
@@ -911,16 +871,6 @@
       "source": {
         "name": "Testachats",
         "url": "https://www.test-achats.be"
-      }
-    },
-    {
-      "id": "3b37dde85ae4",
-      "title": "Le Cameroun restreint l’entrée des médicaments pour lutter contre la contrefaçon - Actu Cameroun",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVlWOEFoNE9mZE9SYlFSQ0tzNk10bHVseGxYbFp0cU5VejVBVUxFaHdHa2hSdzhmU295TVFveVlwSFYxa1BIMXdmNXQtY2ZZdjJzQ20xZl9JZmdjYWF3LWpDRThYX0FTbkt6TFV5NUQwc2lQZjA2amFjWGdGb3d6YTlxWDRaZTN0b2Vsb2pCd0NPQnlQNjVOVG1NY1E3ZEt2NG9vVkgzS2FtSGNnVnVvNXJEU01kLWM?oc=5",
-      "published": "2026-04-30T21:28:49+00:00",
-      "source": {
-        "name": "Actu Cameroun",
-        "url": "https://actucameroun.com"
       }
     },
     {
@@ -1001,6 +951,56 @@
       "source": {
         "name": "Protégez-Vous",
         "url": "https://www.protegez-vous.ca"
+      }
+    },
+    {
+      "id": "3b37dde85ae4",
+      "title": "Le Cameroun restreint l’entrée des médicaments pour lutter contre la contrefaçon - Actu Cameroun",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVlWOEFoNE9mZE9SYlFSQ0tzNk10bHVseGxYbFp0cU5VejVBVUxFaHdHa2hSdzhmU295TVFveVlwSFYxa1BIMXdmNXQtY2ZZdjJzQ20xZl9JZmdjYWF3LWpDRThYX0FTbkt6TFV5NUQwc2lQZjA2amFjWGdGb3d6YTlxWDRaZTN0b2Vsb2pCd0NPQnlQNjVOVG1NY1E3ZEt2NG9vVkgzS2FtSGNnVnVvNXJEU01kLWM?oc=5",
+      "published": "2026-04-30T21:28:49+00:00",
+      "source": {
+        "name": "Actu Cameroun",
+        "url": "https://actucameroun.com"
+      }
+    },
+    {
+      "id": "ee603a919770",
+      "title": "L'Assurance maladie tire la sonnette d’alarme face à l’explosion des dépenses en médicaments innovants - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOUNIdXlTVk9zQXRLc1VRUUVzMGdTSzRhWU9iNk5pWnpvQTQtcjNQS1NjRkt6bEFwVVg3N2l4WllpYzlXaDczNE5mampwemdVUDVMVUpoSFV4ZzQ4WnhhdzE0LTBDWERTTmZKeklCZy1rcGhRQU5oMGVDRDdJME9EQjIzd05qdmhRYXBlUXRkc2FnRFZiQy1QYjlySUktYnZPTV8zS195c0NDSUFiSzNTak12QWdIbVp3N2hwdnBfQTM4eG1yMUVjOGppMG5GRjQ1ZkprZVJqdHhlaXRQN051U210VUdGOTVRd1VrUml3?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
+      }
+    },
+    {
+      "id": "d4642bf42578",
+      "title": "Perte de poids : pourquoi les médecins alerte sur les dangers des coupe-faim ? - PasseportSanté",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZnYxNFFMWlhQaVF3RERNOVhaSS1wSUUtZnd6M09FMVp4N2tYSGg0X0Z1OGp1Mm5CM0tYN0dSa093dzlfWjZGRHRWUXJ2N3piSnNtUWtUa1ZjRXNFVGQ0cE9XUllVMFUwaUZVUExRaVRvRnpCTVhwNnl0akFncFlhRUlobXZUalZBU1dvNmdITXFvU0FJ?oc=5",
+      "published": "2026-04-27T07:00:00+00:00",
+      "source": {
+        "name": "PasseportSanté",
+        "url": "https://www.passeportsante.net"
+      }
+    },
+    {
+      "id": "57815e6b1ead",
+      "title": "La FNSPM réclame du ministère de la santé une concertation approfondie sur le projet de décret relatif à la fixation des prix des médicaments - برلمان.كوم",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZHNiSmRBWHJZbUNtMVVZVmVKLTFEc3RRZ3pKQ2VVNkxZeWtWSmVLbWZVU1p3SV9PVWpSVUI5RzhYYzdGV2VRT0FwNGI5V1Y2eDhnNjhqOTVXdTdRaTJycEJFSWdtUmFSNTgxUURhaUk1V19yWlNQX3J5OGJJazZIVGxFWkRNTUJiVFc0cUFMMTRuNUIwMGNKQzB5SWhtdEZ5cUFYRzU0MzN0Y3ByR2J2SktEeGx4Q1BfMW1QdGx2M19sR1BlUThzWXY0bmJCQ3lvZU52OGRpVVFMZVhKRE9WVjkzTnEyOHVDNW9kOG94LVBKNEpmRTIwVl94NA?oc=5",
+      "published": "2026-04-30T12:10:00+00:00",
+      "source": {
+        "name": "برلمان.كوم",
+        "url": "https://barlamane.com"
+      }
+    },
+    {
+      "id": "0843b6740b50",
+      "title": "Alzheimer : six questions sur le refus d’accès précoce au Lecanemab par la Haute Autorité de santé - Inserm",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZEtxa2lkeDNsNjZMR0JTb1FQcEk5NWtodUtVLVh0OU1iemJieGc2YWNUNGNCdjc5MFVKX2MxbHRRdVM3ZU1WYXlWVE5FUUpvYVZ4R21neWJMcDM2Vk9YN0t1SGNuT3V4YjN0Z05iSi15Ujdod2VLZF8yTmxHLWhwZVFPejRkLUg1V0NXazVBSkIwbW5keDI4T2RMcXhTMDh4UVNKV3BZckN6NDZ6YVAxckpBMDVTSDd4Qjk0TUVjOWxHX2podGxMckZnQzRzZw?oc=5",
+      "published": "2025-10-06T07:00:00+00:00",
+      "source": {
+        "name": "Inserm",
+        "url": "https://presse.inserm.fr"
       }
     }
   ]
