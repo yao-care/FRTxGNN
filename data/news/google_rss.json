@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-05-04T19:50:39.315811+00:00",
+  "fetched_at": "2026-05-04T21:14:40.895854+00:00",
   "source": "Google News Health RSS",
-  "count": 100,
+  "count": 101,
   "articles": [
+    {
+      "id": "e7db871215dc",
+      "title": "Alzheimer : comment le déremboursement des médicaments accélère le déclin des patients - Le Point",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVklwenBBZi1SbFJRcE9ZbW9SSHg5SGtjZnhXZGp0Ym8zUXk1Z2d4bzZTNGcxbFJiNUw0X0hybm9uMzljX3Y5N1A1M3lOOS1uWC15dHBKUzVMMTRYajRrdFc4c1cxZU00bDM0Y0dyRVFuQ2tINklkOGlUblNNNUplb3h4OGVfeW9tdDhCWDIyTFlhZThDcVZNU0ZzMXJZS2RQS3Zqb00xSjJVNzZ5cGRXLWMyaFpIQWNucjZWdjk2bFhlV3RNUXBDNWhVX2hOaTV0TlhxMHZ1a0Q?oc=5",
+      "published": "2026-05-02T12:00:00+00:00",
+      "source": {
+        "name": "Le Point",
+        "url": "https://www.lepoint.fr"
+      }
+    },
     {
       "id": "bee66132975f",
       "title": "Traitements anti-obésité : les laboratoires Novo Nordisk et Eli Lilly sanctionnés en France pour publicité illégale par l’agence du médicament - Le Monde.fr",
@@ -31,26 +41,6 @@
       "source": {
         "name": "Midi Libre",
         "url": "https://www.midilibre.fr"
-      }
-    },
-    {
-      "id": "2c730b9e640b",
-      "title": "France: Pub pour des anti-obésité: près de 2 millions d'euros d'amende - Le Matin",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWFJNR2VUOGtLT2lmdzhZUmgzT2Qta3RfOGFVbVNZX1VlOU1GUVRzLWNfTlppeXEzbXZOZTZRdkVfa0lwMlpDU3U2eU4tX2VlVG5NV05lZVczZHB2Vi1fcGZIcDRxZ3FvSXkxcHkyc0Vxcl9rbTFjWWlycjI4M0VWbmlCXzhFVTdFWnVjQTlKemYtYkdMRk9wbElzRDduLXJjYk50aDVhdG4zZjQ?oc=5",
-      "published": "2026-05-04T15:15:57+00:00",
-      "source": {
-        "name": "Le Matin",
-        "url": "https://www.lematin.ch"
-      }
-    },
-    {
-      "id": "e7db871215dc",
-      "title": "Alzheimer : comment le déremboursement des médicaments accélère le déclin des patients - Le Point",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVklwenBBZi1SbFJRcE9ZbW9SSHg5SGtjZnhXZGp0Ym8zUXk1Z2d4bzZTNGcxbFJiNUw0X0hybm9uMzljX3Y5N1A1M3lOOS1uWC15dHBKUzVMMTRYajRrdFc4c1cxZU00bDM0Y0dyRVFuQ2tINklkOGlUblNNNUplb3h4OGVfeW9tdDhCWDIyTFlhZThDcVZNU0ZzMXJZS2RQS3Zqb00xSjJVNzZ5cGRXLWMyaFpIQWNucjZWdjk2bFhlV3RNUXBDNWhVX2hOaTV0TlhxMHZ1a0Q?oc=5",
-      "published": "2026-05-02T12:00:00+00:00",
-      "source": {
-        "name": "Le Point",
-        "url": "https://www.lepoint.fr"
       }
     },
     {
@@ -87,7 +77,7 @@
       "id": "ce3db86b607b",
       "title": "Vers une pénurie des médicaments ? Quelques pistes de solutions pour éviter le pire selon une chercheuse - RTBF",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeFVZVUxwQWVNbmRWVVMzNU1KUVlTanFJS1oyNFJBR3hWTWNhbmRHcE5oTTZVZ2k3bG1YQ2V2bi13Rzl1WmVmTGhXOHVkT20yUllZUWloUWE5X0lNcXVteFRIVU9UUllHcDFJRDllbXdTdGUzVTY4ZEZWNGx6VnRmZUZ4V09kb0h6TFY3czJ0S2dNdGJWYXJicjRFMlFYdmNELVNTWlZHLXFPU2pDcGx1WEJqbnpWRHByWnVzUVRSa3NTLURmcklxdWo4RWNuUThsMDR4clZn?oc=5",
-      "published": "2026-05-04T13:51:41+00:00",
+      "published": "2026-05-04T14:21:42+00:00",
       "source": {
         "name": "RTBF",
         "url": "https://www.rtbf.be"
@@ -101,6 +91,26 @@
       "source": {
         "name": "Doctissimo",
         "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
+      "id": "b03c019c85bb",
+      "title": "Après des publicités pour ces médicaments anti-obésité, deux laboratoires sanctionnés en France - Le HuffPost",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTmFYS2NKUEVEV0ZwaEdPV3ZyTjhIQkptdWZCNUxjSlNZNThMRlpSM3dhb0NxOTlQTjhBT2ZNMy1PVUp4VUJTdnozSGFabHZqMUJNRHJZdTM2U3A5dVZGTzZHS0plbjhtaVl2YllLSHJDcUNfZ1FFZk9yU3N1UHlqanduUmlrVDFhNm5mcmFHMG1mOHlYSzl4WXJWWDR2V2tLYi1jWk1UVDAzZFhsVE9oSno0cTg0UjZ6bHgteS1weUx2TGpVTHVwU2RWN1l5UjNkREVTa0FiaFFnNFNWM25MUkh4M0w?oc=5",
+      "published": "2026-05-04T19:56:44+00:00",
+      "source": {
+        "name": "Le HuffPost",
+        "url": "https://www.huffingtonpost.fr"
+      }
+    },
+    {
+      "id": "2c730b9e640b",
+      "title": "France: Pub pour des anti-obésité: près de 2 millions d'euros d'amende - Le Matin",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWFJNR2VUOGtLT2lmdzhZUmgzT2Qta3RfOGFVbVNZX1VlOU1GUVRzLWNfTlppeXEzbXZOZTZRdkVfa0lwMlpDU3U2eU4tX2VlVG5NV05lZVczZHB2Vi1fcGZIcDRxZ3FvSXkxcHkyc0Vxcl9rbTFjWWlycjI4M0VWbmlCXzhFVTdFWnVjQTlKemYtYkdMRk9wbElzRDduLXJjYk50aDVhdG4zZjQ?oc=5",
+      "published": "2026-05-04T15:15:57+00:00",
+      "source": {
+        "name": "Le Matin",
+        "url": "https://www.lematin.ch"
       }
     },
     {
@@ -121,16 +131,6 @@
       "source": {
         "name": "France 3 Régions",
         "url": "https://france3-regions.franceinfo.fr"
-      }
-    },
-    {
-      "id": "4039fb112302",
-      "title": "Santé. Les laboratoires Novo Nordisk et Eli Lilly mis à l'amende pour leurs publicités anti-obésité - Le Dauphiné Libéré",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZkRiVzQ0YjlIVGRXVTlITHZqVmpOS21PYmo4SzV1LTduNzlhZVJFaVMzd2hEUElRRTVyOEVrNHFSdXM5NjNDOW9sckp3cWRHMENCYUFQZm0wYzR3UEVsbFpSSE4tdmNjRXA5R3ZWUzl6Y0JwdngyYTFUbGdtRnkweGxkSkFrM2t5RmE1akFtcUU1aUEyRXNEcVBoMTdvMGVRS3JYVmNXSzIxRTJHQTE5dTNnS2p6STBsRkFjOVI1dlA1RmFFTV83dEFiQ21fVC1tWFE?oc=5",
-      "published": "2026-05-04T14:52:13+00:00",
-      "source": {
-        "name": "Le Dauphiné Libéré",
-        "url": "https://www.ledauphine.com"
       }
     },
     {
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "22274f913f1e",
-      "title": "15 établissements agréés pour la production locale de médicaments anticancéreux - horizons.dz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWNVM0NYYWN1azJ6NF83WnBLU3lJcWRqN1RFb2NSaUY2LXVvcm5GTDlVV0lsM3JVZm9RQ2xDNXN3bTEwcjU4cENBSll5RU5meVRLV3lObnAzeXg5U0NyZEp3Nld6Y2tCU2V5NGVjQkZBTGNTT2M5NGxSMGVwUDNVd0xLUXZLTGp6VUw3X05kUGJhdzdXWjhkQzdDTWpYQy1zWWViOV8xZDhvMmk5QzRMdFh3?oc=5",
-      "published": "2026-05-04T16:58:28+00:00",
-      "source": {
-        "name": "horizons.dz",
-        "url": "https://www.horizons.dz"
-      }
-    },
-    {
       "id": "8635f212aaa2",
       "title": "Contribuer à l'évaluation des médicaments en vue de leur remboursement ou d'une autorisation d'accès précoce - Haute Autorité de Santé - HAS",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWHZGYUNmOG5Yd3hDNUprZjJ1Ml9iQlhucWdyQV9xdDEtTkcxLTlGdlR1VmdKeTZfRUNjVzREM2ttaVlSN1hSVmQxWUNsZlh2MmlLQXNOeHR0SFc4RjQwV1kxRWtuTE1VTDdZWTNJNkZwdkswYVVxa3Z2c3BiTWF0cWM5Sjd4RGRXUk8zeFJLT3FFaWRwZ3NIcmdzeGViTjJQdVkxS0hIWUV6UUY1cnBhZ1FJLUtmNHBNTXU1aTVOcGxRVk5BTzdjZEd5MEhYTjRFR3h2MmVLemZtYklQaEIzVDJYeEtRZw?oc=5",
@@ -284,6 +274,16 @@
       }
     },
     {
+      "id": "22274f913f1e",
+      "title": "15 établissements agréés pour la production locale de médicaments anticancéreux - horizons.dz",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWNVM0NYYWN1azJ6NF83WnBLU3lJcWRqN1RFb2NSaUY2LXVvcm5GTDlVV0lsM3JVZm9RQ2xDNXN3bTEwcjU4cENBSll5RU5meVRLV3lObnAzeXg5U0NyZEp3Nld6Y2tCU2V5NGVjQkZBTGNTT2M5NGxSMGVwUDNVd0xLUXZLTGp6VUw3X05kUGJhdzdXWjhkQzdDTWpYQy1zWWViOV8xZDhvMmk5QzRMdFh3?oc=5",
+      "published": "2026-05-04T16:58:28+00:00",
+      "source": {
+        "name": "horizons.dz",
+        "url": "https://www.horizons.dz"
+      }
+    },
+    {
       "id": "dc591e11a548",
       "title": "Pénuries de médicaments : des laboratoires impunis - France Assos Santé",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYmtaLTU2djVYRFVMS1M3MGN3UERKdDM4ZVhZRUp2MjBFSGlkMVZZTzJSV3JKWFhMZzhsQjV3X1lFWnJ2cmVKMzV4QjY1TUdvTF9CYUcxN2ZIUTNBZUMzSldxWG1ial9Ua0d2aXM1OHE4bkp4M2VDWVE5VGVBa2Z5SS1IZGRVeWRvSERfNmJnSzJJaTg?oc=5",
@@ -291,6 +291,16 @@
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
+      }
+    },
+    {
+      "id": "44a2f8b062ee",
+      "title": "France: les laboratoires Novo Nordisk et Eli Lilly sanctionnés pour publicité illégale sur l'obésité - RFI",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNamdjNjMxQmdHU01mSzRKbmtYMkcwcXNGOExnTFRXRmdZLXdLdXFzUHoxQmVrLXJUOFJReWVoVnRIVklJZVJMR0FCNjZuUS1UNlBwVzJpRXB3TDF2OWtrZWhfcUZJcWg1Y0dNcEg1d2gzSkY0dmh6ZjJKRkdTSDFYQ1A1YXBGcEwzNHE0ZU1mcndJbFlMV3I0ZWVBWGR3alRlTm5KQjhPX2c5a1JuVWtSQ0hIdF9ETUtscUdFUjl2eExzR3M3a2taUXJicXRxRzNiRzRPbUZMSndzTEtzelg1Y0JTenB6QlQzclB2b3pHNzlicC05?oc=5",
+      "published": "2026-05-04T17:55:44+00:00",
+      "source": {
+        "name": "RFI",
+        "url": "https://www.rfi.fr"
       }
     },
     {
@@ -334,26 +344,6 @@
       }
     },
     {
-      "id": "229db6a5d33d",
-      "title": "Alzheimer : des traitements autorisés mais jugés peu efficaces - Social Mag",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNWF6allYZ0NNRGluVjNPMjRhWGg4Y2J3Q2NfYTVaMlRPS0hrVXJ3SkgzZ3NQR3pETjBpVGU2UkNKdzRmNWhxX1BtUnBtd0RpQmN3U21VbjYzMlhRRVYxUVVKNUJQMEJYdVBFUEFoSDE1ZVVxVUpFVU5wYUE3SXV5em9hdkRBWVgwQkhrbA?oc=5",
-      "published": "2026-05-04T16:30:00+00:00",
-      "source": {
-        "name": "Social Mag",
-        "url": "https://www.socialmag.news"
-      }
-    },
-    {
-      "id": "045fe8d7beaf",
-      "title": "Aux États-Unis, la lutte contre le VIH déraille malgré des outils efficaces - Slate.fr",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNC03QS1VVWZoNVNGVnBZZW15c3gzd3NNMjhaVnJHM0FjaW9zbnFGNUVqTWNfVlZhYlZ0YlFOMTdqWTRVR3RvWEpSVk0zcEVZeExlcWF6bC1Ra3dwbkN3U280cXhJY1FYVHd1LWNGZWE2VkRsUG4tY3RidExyMGlaTFQ4bHhaS29HX1hBYTNQdDJsQ0swSy1Va3hocElQek1NVWFLYmhvSWxaaDJRem5hMy0xUVd4SmPSAbwBQVVfeXFMUG1OZlNERkVma1hBZFZSRG92WnlDSnNmdXNRVGEtWWVDazVYZ0MwU2UtQXdROTN2MzlrNjhoSjZYQWtheVpXN2lZRGlqQzMwYmRwTWIwTGFfbzJZSk82OTFjUU5USGNJamh0TWtwVWExc0ZUWHMzejBobjUtMFpGVUdLZjNhY0VIdFZaTVphYWpkcm1oX21GWnFYeFdkdU94QUJsSXV2c1FCSi0tR2YxeElXUzc1VklFaVQyWWs?oc=5",
-      "published": "2026-05-02T10:00:01+00:00",
-      "source": {
-        "name": "Slate.fr",
-        "url": "https://www.slate.fr"
-      }
-    },
-    {
       "id": "b763564a09d8",
       "title": "Pénuries de médicaments en Europe: la réponse de l’UE | Thèmes | Parlement européen - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDhZT2pqa2I5d0pkZ1loWVhrR3VLUkd4R0E1SGlCRS05cVQ3bXYyeTlpd2lFQWh2c1ZUWUhWeWw4YUlrYi03ekhkd0NRRFh6cFdpUGxHSFVtVklCZWZTWnQzeEVNY041T1lMTVp5X0pPWXFPVjhnZlNCUVJLcjJNUHVnVXFPLUxPVTVoZzA0UUFZVk10VEtYVllTNDcxV0Z1X1REcU1BWWx2bWdUT3lJQXZxRE9hNm9GSHc?oc=5",
@@ -364,13 +354,13 @@
       }
     },
     {
-      "id": "44a2f8b062ee",
-      "title": "France: les laboratoires Novo Nordisk et Eli Lilly sanctionnés pour publicité illégale sur l'obésité - RFI",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNamdjNjMxQmdHU01mSzRKbmtYMkcwcXNGOExnTFRXRmdZLXdLdXFzUHoxQmVrLXJUOFJReWVoVnRIVklJZVJMR0FCNjZuUS1UNlBwVzJpRXB3TDF2OWtrZWhfcUZJcWg1Y0dNcEg1d2gzSkY0dmh6ZjJKRkdTSDFYQ1A1YXBGcEwzNHE0ZU1mcndJbFlMV3I0ZWVBWGR3alRlTm5KQjhPX2c5a1JuVWtSQ0hIdF9ETUtscUdFUjl2eExzR3M3a2taUXJicXRxRzNiRzRPbUZMSndzTEtzelg1Y0JTenB6QlQzclB2b3pHNzlicC05?oc=5",
-      "published": "2026-05-04T17:55:44+00:00",
+      "id": "229db6a5d33d",
+      "title": "Alzheimer : des traitements autorisés mais jugés peu efficaces - Social Mag",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNWF6allYZ0NNRGluVjNPMjRhWGg4Y2J3Q2NfYTVaMlRPS0hrVXJ3SkgzZ3NQR3pETjBpVGU2UkNKdzRmNWhxX1BtUnBtd0RpQmN3U21VbjYzMlhRRVYxUVVKNUJQMEJYdVBFUEFoSDE1ZVVxVUpFVU5wYUE3SXV5em9hdkRBWVgwQkhrbA?oc=5",
+      "published": "2026-05-04T16:30:00+00:00",
       "source": {
-        "name": "RFI",
-        "url": "https://www.rfi.fr"
+        "name": "Social Mag",
+        "url": "https://www.socialmag.news"
       }
     },
     {
@@ -504,13 +494,13 @@
       }
     },
     {
-      "id": "fb45d735da29",
-      "title": "Ce virus du rhume pourrait empêcher le cancer du sein de se propager aux poumons : une piste médicale inédite - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQcmtwZ3FyeFdkczVOZjNZTHVKX3RfSnZFTGRhWS05amtFbkVuaF9HdGVqWEdycXpaRGR3ZDVFY2pQR1NPYlpDeE8yRmx1SlF0SVc1dFMtaUVwZ1F1UnhEMVBnNUwwRVRpSkJLdi1iSHhkMG9uazhOaHF3QmVkQ0pHaUt6Vk5hM2h1Z1lqNklCM0pLTWVvUUwza00yeGR1Q1hoWXkwa0lRMXFQNjNtNlhKUUVJT3N0ZGxwdU9iN3dHUGo3NW1oUWFkUm92NE1Yb3NOV3laZ1ZxUFFqYmR5VW5GTC14bk9ycnVBdkRyQVRTa25CM1NFVGg1MFlPNl9IMm5pZU9ETWFtOVNkbmN1UXQtU0lTc0tGZVZuQTB3QXlkT1VZOE9lWlduZEx3?oc=5",
-      "published": "2026-05-02T17:30:59+00:00",
+      "id": "7f565da41879",
+      "title": "Publicités pour des médicaments pour la perte de poids: Novo Nordisk et Eli Lilly mis à l'amende en France - Le Journal de Montréal",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMzJXRGJjbUxwbjNFSGgydzdGOTE5aGJGMHMyM2FJejRWU2UtYU1zZTZnWnlaODA3a3BGMjZ0a2ZhV3pqZEV2QS1zbS05Rzl2ZnJpazhQc24telBqUkRhSlRfaEdobDJzYWVSYU1VZC1UTVZPbThRaVRsYWd6RlIzT1NpWjNJbHR2b25Cem1RbFp3amNaUWVvc2JHMWlmeXJsNFVrTjEycmxCRDFSNmtfamZUMzZ2WjNLa04wMzdnUE81VTZGazUzMVhMa2xoeG1HVE1uUml3QWpsVWhaeklhLWlsQQ?oc=5",
+      "published": "2026-05-04T12:05:53+00:00",
       "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
+        "name": "Le Journal de Montréal",
+        "url": "https://www.journaldemontreal.com"
       }
     },
     {
@@ -524,6 +514,16 @@
       }
     },
     {
+      "id": "fb45d735da29",
+      "title": "Ce virus du rhume pourrait empêcher le cancer du sein de se propager aux poumons : une piste médicale inédite - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQcmtwZ3FyeFdkczVOZjNZTHVKX3RfSnZFTGRhWS05amtFbkVuaF9HdGVqWEdycXpaRGR3ZDVFY2pQR1NPYlpDeE8yRmx1SlF0SVc1dFMtaUVwZ1F1UnhEMVBnNUwwRVRpSkJLdi1iSHhkMG9uazhOaHF3QmVkQ0pHaUt6Vk5hM2h1Z1lqNklCM0pLTWVvUUwza00yeGR1Q1hoWXkwa0lRMXFQNjNtNlhKUUVJT3N0ZGxwdU9iN3dHUGo3NW1oUWFkUm92NE1Yb3NOV3laZ1ZxUFFqYmR5VW5GTC14bk9ycnVBdkRyQVRTa25CM1NFVGg1MFlPNl9IMm5pZU9ETWFtOVNkbmN1UXQtU0lTc0tGZVZuQTB3QXlkT1VZOE9lWlduZEx3?oc=5",
+      "published": "2026-05-02T17:30:59+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
       "id": "55578e641a0a",
       "title": "Médicament : 10 ans d’évolutions majeures et une prise en charge renforcée par l’Assurance Maladie - Ameli",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDQtcmFUa0tNXzI0OHBPRjB0ZnFFOFF3UGxrUEo0T2FoRzZDcGRyckpSU29qc3M3NUo0UHA5aVB4WmlFNHczclQ5M2tVaWV1YmtEempmLW5FZmd3aFJtOHVHWFdTcE5mNHU5bzlVTnBqYVdqVU16cGJfYnEzZk1SekM2dmM3VVZPalIxNFcxT3hYQzNSTGQ2NFBST2ZnV2Y1aDJrV25UX1g4RGVLaV9kSG5kaDVleWFuM1ViMkxlbHM3dmVTc0cxMnRwaGpUQ1Q4X0E?oc=5",
@@ -534,16 +534,6 @@
       }
     },
     {
-      "id": "4eaaae45fc3b",
-      "title": "L'aspirine réduirait les risques de cancer, c'est la science qui le dit - Slate.fr",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYU5rbG1YaloxSUJWR1ZYUS1QN2RoWEFIZy1ZNzlLaVR4OWx1TWJjMkNDYWR0ZWliWmpxOW1vZGZaWnhoNXhURnBaRzRjUHVQd2VQY0JvMF9LLUlnc2NhZWJkV2dQY2ltajJVdFZSd0c1MzVjQ3dVWnNEVVp3TVpvdXMzVDZ3cW81RDBvWjNaMS1ZQdIBlwFBVV95cUxNYkREcW1aaElBVFpiT0ktQUdBR25kZDFRcUxBMkFoM21UODEzWFZINy1tdE5SMmVnU2dJaXpGTVpFaElXbU14WlhYZkdtQ0IxdGMtT3VTNV9xSHNPR2JQUkhkU2w0RHV1blRyX1BmOUNzT0tPbGtDQXZDYmNEYUNiNU9Ca1Y2enlNRDlLanRMUXJlb2stR3pv?oc=5",
-      "published": "2026-05-03T08:00:00+00:00",
-      "source": {
-        "name": "Slate.fr",
-        "url": "https://www.slate.fr"
-      }
-    },
-    {
       "id": "31e90eb0d5a9",
       "title": "Médicaments critiques : les députés européens durcissent le ton face à Trump et à la Chine - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcnowYW1pd1k0b0F4Vi1pN2UwVlZNbHd1YUotN3pBd0RtQWV6Y3BFeUZUTUpnSWNUWWt6WU8zS2tQQVpIT2cyWURkMEo0LTZyVHlBX1N3dElsYi1aQ05GYjFzZHF3SGJjYnNST09Fc0VkbGQ0dzZnN3ZaU25RNmV4ZVhqZlBMNm5HbldmeHBMNTQ3cTJDUkFrYUQ4RjBUd0JBX29sdUJTc19WMnh1Mjh0ZEdGT0FpVkxubzdTZUZFeXpXU2xmNEh1Q04wZ3pUS1dYTlNfUklIb3JsVUFBLXZybFdtTnZjWVlQc01r?oc=5",
@@ -551,6 +541,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "4eaaae45fc3b",
+      "title": "L'aspirine réduirait les risques de cancer, c'est la science qui le dit - Slate.fr",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYU5rbG1YaloxSUJWR1ZYUS1QN2RoWEFIZy1ZNzlLaVR4OWx1TWJjMkNDYWR0ZWliWmpxOW1vZGZaWnhoNXhURnBaRzRjUHVQd2VQY0JvMF9LLUlnc2NhZWJkV2dQY2ltajJVdFZSd0c1MzVjQ3dVWnNEVVp3TVpvdXMzVDZ3cW81RDBvWjNaMS1ZQdIBlwFBVV95cUxNYkREcW1aaElBVFpiT0ktQUdBR25kZDFRcUxBMkFoM21UODEzWFZINy1tdE5SMmVnU2dJaXpGTVpFaElXbU14WlhYZkdtQ0IxdGMtT3VTNV9xSHNPR2JQUkhkU2w0RHV1blRyX1BmOUNzT0tPbGtDQXZDYmNEYUNiNU9Ca1Y2enlNRDlLanRMUXJlb2stR3pv?oc=5",
+      "published": "2026-05-03T08:00:00+00:00",
+      "source": {
+        "name": "Slate.fr",
+        "url": "https://www.slate.fr"
       }
     },
     {
@@ -591,16 +591,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "a99465d16fad",
-      "title": "L’OMS appelle à l’entrée de médicaments et de fournitures à Gaza pour reconstruire les services de santé - وكالة الانباء والمعلومات الفلسطينية - وفا",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yYW12MURMdS1DLVFHTjVIVk9RVlhBYy12WnpUM0M4Ynh6NkExcU5uTXFJQlRubnc3UFVLRngtUEpZN056NjQzS0gxUi1Jd2ZraVlWUFVn?oc=5",
-      "published": "2026-05-01T12:56:42+00:00",
-      "source": {
-        "name": "وكالة الانباء والمعلومات الفلسطينية - وفا",
-        "url": "https://french.wafa.ps"
       }
     },
     {
@@ -794,16 +784,6 @@
       }
     },
     {
-      "id": "17d16c6c983b",
-      "title": "L'OMS demande l'entrée de médicaments essentiels pour reconstruire les services de santé de Gaza - VOI.id",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5nSGNtbENNekt0V0JlZXNzekNBTkdfNVlwZHpXQnk2YjMycGRpeGhCVUd6TW0tNzBNV3RSTGVvNjJ1S3dac2fSAUJBVV95cUxQTWd6Z3FWekNodDd1aXdlTlRNcFBHSk9aUWlNZ0RGQ0EtdTlpbm9BV0ZVNjJFUGc1Tm1sRzVWdFVVRkE?oc=5",
-      "published": "2026-05-01T22:29:15+00:00",
-      "source": {
-        "name": "VOI.id",
-        "url": "https://voi.id"
-      }
-    },
-    {
       "id": "b0792b55f053",
       "title": "Stock de sécurité de médicaments : dernière opportunité d’agir pour les députés ! - France Assos Santé",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3ZORjBmMzY3WnZCRGN1c1hCT0hRUnRSMkR3UXcwU3R2M2FIdDhSTVhxY04zZ0FWcGZ6MnppZUduTGxER1Fnakp1eUx5YTB3V1JqbW4zblRsTHpkcXFqUkpEenkzaDZtb0lkS2NkSWFXZmhKZlI4aHNFa0YtWmUzVU82R3k3b21sczZfSm5kdFZxbmRWTmlfcFJuMW1jZjBzY0dxd09sbEJaazJmUlBmaks0NnJuS0Eyb3c?oc=5",
@@ -811,6 +791,16 @@
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
+      }
+    },
+    {
+      "id": "17d16c6c983b",
+      "title": "L'OMS demande l'entrée de médicaments essentiels pour reconstruire les services de santé de Gaza - VOI.id",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5nSGNtbENNekt0V0JlZXNzekNBTkdfNVlwZHpXQnk2YjMycGRpeGhCVUd6TW0tNzBNV3RSTGVvNjJ1S3dac2fSAUJBVV95cUxQTWd6Z3FWekNodDd1aXdlTlRNcFBHSk9aUWlNZ0RGQ0EtdTlpbm9BV0ZVNjJFUGc1Tm1sRzVWdFVVRkE?oc=5",
+      "published": "2026-05-01T22:29:15+00:00",
+      "source": {
+        "name": "VOI.id",
+        "url": "https://voi.id"
       }
     },
     {
@@ -854,26 +844,6 @@
       }
     },
     {
-      "id": "d4d286c21004",
-      "title": "Le Bureau de la Santé du Secrétariat de la Capitale lance un programme d'amélioration des services pharmaceutiques - saba.ye",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VMFk1V2dJa3NXSXQ0U05KZDRXc0ozSTZYT0RuR0hRVFRSelFjTlIwVUZjNGZZdnUyVkhoWEU0XzdkLWxtOURNcXRtaXNlajAtdGRienc2bXA?oc=5",
-      "published": "2026-05-04T06:16:32+00:00",
-      "source": {
-        "name": "saba.ye",
-        "url": "https://www.saba.ye"
-      }
-    },
-    {
-      "id": "38c3c72df71d",
-      "title": "Médicaments périmés: votre armoire à pharmacie a-t-elle aussi besoin d’un ménage du printemps? - Salut Bonjour",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcE9OUnRBRHpPNzZxc2d2cFRidFZfN3ZRbVlpTVpqYzQzY2h6WVEzd1J6Z0hqMFl2UDNWbGZWOEhsM0o4SUttMFgzc3FVUFdYLWh3R3llREZYTWdFRldZazhCcDNsc3d4QS1uc205SlROai1FdDlYMXkzNlB4a0xIb0oxaldmcEkwUkUxOVRZM3NfZldvcGFfenU3Yk1vd3BWc0JZaksxX2xnWUd6eHNVd3EyaGNucXUxR3BPM3ZvZ0xNMGxpS25KV21R?oc=5",
-      "published": "2026-04-27T23:00:00+00:00",
-      "source": {
-        "name": "Salut Bonjour",
-        "url": "https://www.salutbonjour.ca"
-      }
-    },
-    {
       "id": "669b4e2bd93d",
       "title": "Paludisme - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2SUI2bU5DUVZSVzROckhWSE1zbFI3WGlYc19aMUZ1UUVmMHVOdzFNZjFWaTY4VmtqTkUzY0gzcmxWb0FGV0FUa2NaUHBHSkJiTHZBVHZ5VmFQdXZOejlaajcyNkFtaHdfWWNR?oc=5",
@@ -904,13 +874,23 @@
       }
     },
     {
-      "id": "96e242401e85",
-      "title": "SKYRIZI® (risankizumab) est inscrit aux listes des médicaments remboursés de l'Ontario et de l'Alberta pour le traitement de la colite ulcéreuse - Newswire Canada",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQcVZ5eDF2Ul9PRlVKY09zdXY2VWhKYTRJQkdaRkZUS0RrUHVQTHdOQlRBNzRtZHRaTmI5eWtBN2lWdlJhWnVjY1E0cjRCYjdySHAzemxpVFlGUkJlNi14cTVMbEt5VnBNWEtLUFpmX3E0VFJ3aGJ1TTlhcUdaci1QS2hjeXpXX3d2VUhRU2pobnUxSXNEV19uUXQ4TTZnZGt3eVVtZm9HZ3NncW5LSXYzTTNGNmJXb1dudjkza00wYTI5TGRJbVZycW9naDVSeXpDQVg2TFczNC0yMHlmZldOUDRiZ2xCRzMzTWFQaDZWMGdGUDQtNE5kdkptUDdzT1JCclBCS0hQOXltSHpLclVVUWx5T0huUTdoaERuVm5vRjRzd3BsUGc?oc=5",
-      "published": "2026-05-04T11:01:00+00:00",
+      "id": "38c3c72df71d",
+      "title": "Médicaments périmés: votre armoire à pharmacie a-t-elle aussi besoin d’un ménage du printemps? - Salut Bonjour",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcE9OUnRBRHpPNzZxc2d2cFRidFZfN3ZRbVlpTVpqYzQzY2h6WVEzd1J6Z0hqMFl2UDNWbGZWOEhsM0o4SUttMFgzc3FVUFdYLWh3R3llREZYTWdFRldZazhCcDNsc3d4QS1uc205SlROai1FdDlYMXkzNlB4a0xIb0oxaldmcEkwUkUxOVRZM3NfZldvcGFfenU3Yk1vd3BWc0JZaksxX2xnWUd6eHNVd3EyaGNucXUxR3BPM3ZvZ0xNMGxpS25KV21R?oc=5",
+      "published": "2026-04-27T23:00:00+00:00",
       "source": {
-        "name": "Newswire Canada",
-        "url": "https://www.newswire.ca"
+        "name": "Salut Bonjour",
+        "url": "https://www.salutbonjour.ca"
+      }
+    },
+    {
+      "id": "d4d286c21004",
+      "title": "Le Bureau de la Santé du Secrétariat de la Capitale lance un programme d'amélioration des services pharmaceutiques - saba.ye",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VMFk1V2dJa3NXSXQ0U05KZDRXc0ozSTZYT0RuR0hRVFRSelFjTlIwVUZjNGZZdnUyVkhoWEU0XzdkLWxtOURNcXRtaXNlajAtdGRienc2bXA?oc=5",
+      "published": "2026-05-04T06:16:32+00:00",
+      "source": {
+        "name": "saba.ye",
+        "url": "https://www.saba.ye"
       }
     },
     {
@@ -964,6 +944,16 @@
       }
     },
     {
+      "id": "96e242401e85",
+      "title": "SKYRIZI® (risankizumab) est inscrit aux listes des médicaments remboursés de l'Ontario et de l'Alberta pour le traitement de la colite ulcéreuse - Newswire Canada",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQcVZ5eDF2Ul9PRlVKY09zdXY2VWhKYTRJQkdaRkZUS0RrUHVQTHdOQlRBNzRtZHRaTmI5eWtBN2lWdlJhWnVjY1E0cjRCYjdySHAzemxpVFlGUkJlNi14cTVMbEt5VnBNWEtLUFpmX3E0VFJ3aGJ1TTlhcUdaci1QS2hjeXpXX3d2VUhRU2pobnUxSXNEV19uUXQ4TTZnZGt3eVVtZm9HZ3NncW5LSXYzTTNGNmJXb1dudjkza00wYTI5TGRJbVZycW9naDVSeXpDQVg2TFczNC0yMHlmZldOUDRiZ2xCRzMzTWFQaDZWMGdGUDQtNE5kdkptUDdzT1JCclBCS0hQOXltSHpLclVVUWx5T0huUTdoaERuVm5vRjRzd3BsUGc?oc=5",
+      "published": "2026-05-04T11:01:00+00:00",
+      "source": {
+        "name": "Newswire Canada",
+        "url": "https://www.newswire.ca"
+      }
+    },
+    {
       "id": "46a7aefd6bd7",
       "title": "L’accès précoce aux médicaments innovants en France au cœur des tensions entre l’industrie pharmaceutique et la Haute Autorité de santé - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPaGNGck1Bc0lpcjY1azJXTlJsbV9lVHlUXzJHcXlkNzctdUQ5RUZ1Rkc5b1A4Sm5pTGZhMi1TVUNyMzUya3VsNm12MUttWGJCcGtVTzZjaTFlRjNWY01HLWNtb3NTblBjTURwYzdMWUhOSVJOZkxQZ1B5RHpmbGZuUHA3NmdkRXd0RVRMT29ST3ZpM3VSMGxDTDZhdVlnNW8zek95NVBEYkFnV0NmUHpVUXFObjI0R0h4MDJtTnNBcWJPeXBJVFN3dzBnV3dhZ2hub1BEbnRLaGdpZnFvRVVpay1YNWhmTGstMUxoNm93TXk3MXRLRW9yb0Z5NGNuOGltdTl1Y2RBTkZ1QmRKTUYweUhaVG9QVUdKV1ltSzhuaWZSNUVMSW45Z0dSaEU?oc=5",
@@ -1001,6 +991,26 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "a051be338731",
+      "title": "Actualité - Quétiapine 300 mg et 400 mg LP : conduites à tenir dans un contexte de fortes tensions d’approvisionnement au 05 août 2025 - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMjVXNUdzdm5EU0NGaHpRWFVXRVJYSDE2Q0l5R2p5RXVnODdsSno2TDI4NEc4OUM1U1puQ1Q1SXpHWnRRTWRZQXdYVzRWXzcyckJicm9rSnJjc1hFNEp4allnWDFxaktlSjdyNVM1M0hVSTl5LWkyV2NKYkpMRmxHM3lleExxbmRzejE3ZFJjTFZnZkYyRk8tVXp6WVRlelNrM3Rxc19jSG0xT2NJNnVLWmhnbUhzSWdjdll1cmh1bmMtWlhLSk5UZHQyd3dFSE5odEZZMlJsWVZRdnB3cTBQQ3FjRk55OGs?oc=5",
+      "published": "2025-08-05T07:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "64fc99fd97ac",
+      "title": "Acheminement de médicaments essentiels vers 24 centres de santé - aps.dz",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQWM4d1huWFlvNzRMQVlFb3lSNzNFYlVlYkdRbGpsWHVCSmx1N3JCWEcxU1pLdWdmbWF2TjctWnNnS2ZMakN0STVBLWZTSXh2UlRzeDd4bjU1UUhzTmEwSXdTMEJfZEE1T2dMNE1RTFdKY3k4WkNYaVdDdWFLZXpoaVRxcUtFSzFyU0pRVUFQVy0weFdHN0RVLWxmd1RwSTBCQmVCeWhCZVJnQQ?oc=5",
+      "published": "2026-05-01T14:53:00+00:00",
+      "source": {
+        "name": "aps.dz",
+        "url": "https://www.aps.dz"
       }
     }
   ]
