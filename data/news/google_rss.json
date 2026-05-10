@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T19:15:42.384996+00:00",
+  "fetched_at": "2026-05-10T20:57:52.081041+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "2724032aeac0",
-      "title": "Nouvelle réglementation sur la prescription et la délivrance des médicaments : traiter de multiples « maladies » - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXBCM3hsQkFlblFieWNKczRaeXdPZDZRV3RwTlZBNm9pT21NLXZxdURiVC1UVHZ1TWJPUmZweUpfc3p0WVRmb3gzWFRfSno4LWNLSUdhbUZwbEhyeERUZU11THFSeWVJNFpRWTVlYVZ4VEtIczczMVlscVc3dV9ERlQ2c3ZuaFRiMWc?oc=5",
-      "published": "2026-05-10T15:39:09+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "99ab47b542c6",
       "title": "Trafic de médicaments : une opération d’Interpol conduit à près de 270 arrestations dans 90 pays - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObEpzNmo2cks5NTdvSk55RVNPYTNLSWdNb2RqNVotN1RpYUc4ZkNncWpvVGVsd0dVUHI0djBRSDdKVkZjUlRVazRCdFNnX3ZVbk5WNE9ScDhuejQ2SXZnRG9sZlRWZGprdElVN1k4ZWZmRkxhLUZJUFFYalk2NVR4TVM1UU9WVVUtTEZFT3Y3RXdKNGhLQWxBa1loWGxEUEFIUFlTbk9hVHh1TG13RXpreUxHdVVQTlJ6UFJTVHJrajZxQU9tSVFWOTZSTUd2LVo4RnNMRlZXaTBXdDBsY2VRdnM4TQ?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Sud Ouest",
         "url": "https://www.sudouest.fr"
+      }
+    },
+    {
+      "id": "2724032aeac0",
+      "title": "Nouvelle réglementation sur la prescription et la délivrance des médicaments : traiter de multiples « maladies » - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXBCM3hsQkFlblFieWNKczRaeXdPZDZRV3RwTlZBNm9pT21NLXZxdURiVC1UVHZ1TWJPUmZweUpfc3p0WVRmb3gzWFRfSno4LWNLSUdhbUZwbEhyeERUZU11THFSeWVJNFpRWTVlYVZ4VEtIczczMVlscVc3dV9ERlQ2c3ZuaFRiMWc?oc=5",
+      "published": "2026-05-10T15:39:09+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "360854aef7a0",
-      "title": "Il administre les mauvais médicaments à un patient, il meurt quelques jours après - Actu.fr",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc0dncjZ4c04tTDVGT3ZQWmtySEV5QUc4YmF1VWptU3BjamFmdmtJMml1WFlTREVtTGtYRFBGZWE0YzZUMjJMMndXUE4wbjZhZE00QnlQM0ppemEwVFBGVFRMY21aMFJEZktwNFkxclpSdFVvN3VZbUZxdHFpeW5iT25fZkdQRnlibjhDWnUzYjE5X1RtRlJ0X2U3ZmlYMWFOdEsyYVUwWHZCYTRIRWZWQ0RzT1JaaG5ZZmVPVDgtWUJJTkFmeDA1SjE2Tk1RTXVxbUJwTjJGdUhpN0xYZnFZbURn?oc=5",
-      "published": "2026-05-10T04:20:01+00:00",
-      "source": {
-        "name": "Actu.fr",
-        "url": "https://actu.fr"
-      }
-    },
-    {
       "id": "dd1db2b92540",
       "title": "Trafic de médicaments : tout savoir sur l'opération «Pangea XVIII» qui a permis l'arrestation de 270 personnes dans 90 pays - CNews",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNazl4X1BZOXV2R1hWTVBnX2pmRnZiYVdFaU03MkpXQkxDd1YzY3NGbW9kNVRaVlVwZ3JkQnE5NGdCb3p5ZWxUN05sQ3MwNEpyTlY4ZTZTdFN1QnVPUkRLaWVYYmt2YkhOTnFHaklXa1MzVmhwYVRISWZSQ0FRRUZhekJxc2o3c2FnVVNxeENpZ3VNZGxZaUk0RThQdFVBcy11OER4VHo5UjRkZ2hmblRZ0gG0AUFVX3lxTE5RS1NQZ1gwbU04NWI1dEJNSU5nS0xqcnBuNnlzZE4xa3BnTUJveTA4dzdvd05NMkE0Nl92MkxGRlQ3eU1JenJMekxvLUNsX200ZlNLLUdScmllcUZWWXRXcEgtaGYxU0FfNTdBZm1PLXU3SURnd2RMVnpRUnZIZWFpM1czQVZlSW5GQU5ETW5SV0EyZVJNYURlblpSXzQxeGpXeVNhQVpGWGZsNWRnUXJyY1FlMA?oc=5",
@@ -144,13 +134,13 @@
       }
     },
     {
-      "id": "2982e1d27734",
-      "title": "Faux Viagra, antibiotiques défectueux… L’essor du trafic de faux médicaments - Le Vif",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQWJsUGpvRjM1a2l2RWxiTHhGZjZLbDV3Y3dyLU9KN2h5RzExckZUNE02WW9CUml3ZTRSaXZWVUI0eFhaNXlrS0RxcVRtUVZMNEN4MEh6VG9lUzRGeGNoNFU3TGhabE1vUmlNbWwxMnRxeHRxR0d0ME1mLUtxZ2VQTTNVQVRMNjV2aWp3TkpaTmRJd1dLWnd4SzNja29taV9yREs4U2hyeGRxSFFNZ0E?oc=5",
-      "published": "2026-05-10T10:29:02+00:00",
+      "id": "360854aef7a0",
+      "title": "Il administre les mauvais médicaments à un patient, il meurt quelques jours après - Actu.fr",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc0dncjZ4c04tTDVGT3ZQWmtySEV5QUc4YmF1VWptU3BjamFmdmtJMml1WFlTREVtTGtYRFBGZWE0YzZUMjJMMndXUE4wbjZhZE00QnlQM0ppemEwVFBGVFRMY21aMFJEZktwNFkxclpSdFVvN3VZbUZxdHFpeW5iT25fZkdQRnlibjhDWnUzYjE5X1RtRlJ0X2U3ZmlYMWFOdEsyYVUwWHZCYTRIRWZWQ0RzT1JaaG5ZZmVPVDgtWUJJTkFmeDA1SjE2Tk1RTXVxbUJwTjJGdUhpN0xYZnFZbURn?oc=5",
+      "published": "2026-05-10T04:20:01+00:00",
       "source": {
-        "name": "Le Vif",
-        "url": "https://www.levif.be"
+        "name": "Actu.fr",
+        "url": "https://actu.fr"
       }
     },
     {
@@ -161,6 +151,16 @@
       "source": {
         "name": "ma-sante.news",
         "url": "https://ma-sante.news"
+      }
+    },
+    {
+      "id": "2982e1d27734",
+      "title": "Faux Viagra, antibiotiques défectueux… L’essor du trafic de faux médicaments - Le Vif",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQWJsUGpvRjM1a2l2RWxiTHhGZjZLbDV3Y3dyLU9KN2h5RzExckZUNE02WW9CUml3ZTRSaXZWVUI0eFhaNXlrS0RxcVRtUVZMNEN4MEh6VG9lUzRGeGNoNFU3TGhabE1vUmlNbWwxMnRxeHRxR0d0ME1mLUtxZ2VQTTNVQVRMNjV2aWp3TkpaTmRJd1dLWnd4SzNja29taV9yREs4U2hyeGRxSFFNZ0E?oc=5",
+      "published": "2026-05-10T10:29:02+00:00",
+      "source": {
+        "name": "Le Vif",
+        "url": "https://www.levif.be"
       }
     },
     {
@@ -214,26 +214,6 @@
       }
     },
     {
-      "id": "bd958e240d20",
-      "title": "Cette IA pourrait accélérer la découverte de médicaments grâce à des molécules jamais vues ! - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNVZEUm40WGJJRFlXeTFOY0JCRjY0TlBFeE1vd1R6WTd5aU9rYzJkbkNRRXN1Qkl6NTlJUG1jdmR1X092R1ZZVEk2M29KVllXY3U1djhPdzIyX3dQQUo2M3VQcUh3TjMzLWZTUUhqcVBCVzJzR2t0R1EydEdJQlBxT0hXSjlfXzh2RWxMQTBydWhPRVlrUEtQdG9pa2dnQUhjbEprZXVwWTQtM2pLeVdhVTBONG5qVzY5TDdMREM1VFNOS3BCV1NGeVhYZm92VXI3UTBFYlVnVUN3ZXdC?oc=5",
-      "published": "2026-05-07T18:03:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
-      "id": "b03b99496a40",
-      "title": "Renforcer la réglementation et améliorer la qualité et la sécurité des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNW1NbkhmcDlqc3ppVHB4U3llTVdQME9ZcWNnbmtCSDdvZTRuaV9FUGFMSks0cnM0azRhYnBoaE9iUVFhTmFyZGdZS0o0X1MzQzBJRE04clk5cG5TR0djTGo2OGE1aWptd0VrYUk5N1piNjAzTHZSZ1RRVlBleFc1NUZMdlM?oc=5",
-      "published": "2026-05-10T00:22:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "8635f212aaa2",
       "title": "Contribuer à l'évaluation des médicaments en vue de leur remboursement ou d'une autorisation d'accès précoce - Haute Autorité de Santé - HAS",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWHZGYUNmOG5Yd3hDNUprZjJ1Ml9iQlhucWdyQV9xdDEtTkcxLTlGdlR1VmdKeTZfRUNjVzREM2ttaVlSN1hSVmQxWUNsZlh2MmlLQXNOeHR0SFc4RjQwV1kxRWtuTE1VTDdZWTNJNkZwdkswYVVxa3Z2c3BiTWF0cWM5Sjd4RGRXUk8zeFJLT3FFaWRwZ3NIcmdzeGViTjJQdVkxS0hIWUV6UUY1cnBhZ1FJLUtmNHBNTXU1aTVOcGxRVk5BTzdjZEd5MEhYTjRFR3h2MmVLemZtYklQaEIzVDJYeEtRZw?oc=5",
@@ -241,6 +221,16 @@
       "source": {
         "name": "Haute Autorité de Santé - HAS",
         "url": "https://www.has-sante.fr"
+      }
+    },
+    {
+      "id": "bd958e240d20",
+      "title": "Cette IA pourrait accélérer la découverte de médicaments grâce à des molécules jamais vues ! - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNVZEUm40WGJJRFlXeTFOY0JCRjY0TlBFeE1vd1R6WTd5aU9rYzJkbkNRRXN1Qkl6NTlJUG1jdmR1X092R1ZZVEk2M29KVllXY3U1djhPdzIyX3dQQUo2M3VQcUh3TjMzLWZTUUhqcVBCVzJzR2t0R1EydEdJQlBxT0hXSjlfXzh2RWxMQTBydWhPRVlrUEtQdG9pa2dnQUhjbEprZXVwWTQtM2pLeVdhVTBONG5qVzY5TDdMREM1VFNOS3BCV1NGeVhYZm92VXI3UTBFYlVnVUN3ZXdC?oc=5",
+      "published": "2026-05-07T18:03:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -261,6 +251,16 @@
       "source": {
         "name": "Sciences et Avenir",
         "url": "https://www.sciencesetavenir.fr"
+      }
+    },
+    {
+      "id": "b03b99496a40",
+      "title": "Renforcer la réglementation et améliorer la qualité et la sécurité des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNW1NbkhmcDlqc3ppVHB4U3llTVdQME9ZcWNnbmtCSDdvZTRuaV9FUGFMSks0cnM0azRhYnBoaE9iUVFhTmFyZGdZS0o0X1MzQzBJRE04clk5cG5TR0djTGo2OGE1aWptd0VrYUk5N1piNjAzTHZSZ1RRVlBleFc1NUZMdlM?oc=5",
+      "published": "2026-05-10T00:22:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -341,16 +341,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "c2eadfe81fb6",
-      "title": "Chaque étape est une « dose de médicament » : diffuser l'esprit d'une vie saine et de la prévention précoce des maladies. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVTNGazd6bFdsR2tFRVZNbTliSWd3cXc0RVBEZTR4ajE1VFJqSUw5RVhnT2RJNW1ueVgyaWVUX1FiU3pSQW5GWHgxNjFkTk0wUUczYXRHa2x2VS0tRk1FMERzaWZzUlZwaU1QZEF0aXdPS1Bxc3JUM2NnajZjbjdwUzljSnJZVHJ6eHNmWWhBYUMwdmx0V3JiN0l1OTVEWjFLNk1YWmln?oc=5",
-      "published": "2026-05-10T13:11:04+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -504,6 +494,16 @@
       }
     },
     {
+      "id": "c2eadfe81fb6",
+      "title": "Chaque étape est une « dose de médicament » : diffuser l'esprit d'une vie saine et de la prévention précoce des maladies. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVTNGazd6bFdsR2tFRVZNbTliSWd3cXc0RVBEZTR4ajE1VFJqSUw5RVhnT2RJNW1ueVgyaWVUX1FiU3pSQW5GWHgxNjFkTk0wUUczYXRHa2x2VS0tRk1FMERzaWZzUlZwaU1QZEF0aXdPS1Bxc3JUM2NnajZjbjdwUzljSnJZVHJ6eHNmWWhBYUMwdmx0V3JiN0l1OTVEWjFLNk1YWmln?oc=5",
+      "published": "2026-05-10T13:11:04+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "6c55bc5f6731",
       "title": "Tuberculose - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iLUtpTkxPS0R3OElzNlUxQlF2bEd1a3VYcDFicXNsM1NEa3NrRGh5VmNIdGZMajBXR3FQb01PUDRmbXNkX2R0U2l0eUhvSXJ1Q1JFUUI2NWptOEVjcVZfOXZqb2YwUUg5ZDJtUEE2aFB6dw?oc=5",
@@ -544,16 +544,6 @@
       }
     },
     {
-      "id": "7d54acc401b5",
-      "title": "Comment Swissmedic a sombré dans le fiasco - Blick",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNjl3QzctRTFBM0ZwZ3JnLWxNX1pWX1d2VjAyUmtCd1c0UEItMFJxb3hPbDA3THZGbEF1Und1b2FuSS1VNWxUNjVnbE1ENnRfN0hxWENMT1M0VEhKSVBULVZrNVlNa096M0ZPQzRVbVdDVy1tNWlsdnFfNXRpOC1pWkg1b3RKblU0SVJBRHFqLUMzX2VxT0ZhWGdxSVoyN09PLW40ajRzVQ?oc=5",
-      "published": "2026-05-10T09:55:16+00:00",
-      "source": {
-        "name": "Blick",
-        "url": "https://www.blick.ch"
-      }
-    },
-    {
       "id": "59af9801226a",
       "title": "L’Afrique dispose enfin de sa propre agence de réglementation des médicaments, qui pourrait transformer la santé sur le continent - Nature",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pYUV1X2VNUG5pbmZydEV4VVhqcG9XR3lnMWJRSmU0bno4UVRBMVBmZ2F6VDR5SmgxZzBxS21uXzRRWkZIbEJfSFhfWldhX20zZFhMZnRyTmxpempCeV80?oc=5",
@@ -571,16 +561,6 @@
       "source": {
         "name": "Drees",
         "url": "https://drees.solidarites-sante.gouv.fr"
-      }
-    },
-    {
-      "id": "716088721f59",
-      "title": "Les médecins qui prescrivent des médicaments inappropriés à l'état de santé d'un patient peuvent se voir infliger une amende pouvant atteindre 20 millions de VND. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY0JvTlM5a2llY2JPNHhjVWdscVJsOXpHUmNXTVJ5MHBHSGRPUjhuYkhnLWphTnNWdlVkWlBHMG1YcmdBclZsY3U0NmszcWVtZmZYWmRndlU4U1FRRFkyR1UzS0VmNmRQVlJZb0RYOXVlNVhKcEE4dkRxYlF1eG5CeUZSanFqUHNtaENHb0h6OWpGTmY4d2dHclNnV3JtQ0YzR0xxajhpNlhmMG5t?oc=5",
-      "published": "2026-05-07T02:46:01+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -604,13 +584,13 @@
       }
     },
     {
-      "id": "b60eab86fed2",
-      "title": "Réduire le gaspillage dans les soins de santé grâce à la technologie - Le Spécialiste",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSXZ2SkFSSWUySGpKNmpCOEdkWG83QjRrNWF2NGYtSlExTkdKMFE4NHhvcFljQ05aalZlWF9oZUctcVJEeUVZLVQ0bWZIVXJ3TGRsYmY5LXRCbXZVVFBDSHVGdk9iNFpSMG5WUkxSeW9xbVdSNzNVUDh0QkMxMEtiUnlfN1ZURThOUnFBYnVnWXc2TEdIcWtSRjQ5REgzdTl1SVRDaE1ZUVFxM0R2aUhDNzFBZGZQaE51azZXNmlQZGhkTG8?oc=5",
-      "published": "2026-05-08T17:34:17+00:00",
+      "id": "7d54acc401b5",
+      "title": "Comment Swissmedic a sombré dans le fiasco - Blick",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNjl3QzctRTFBM0ZwZ3JnLWxNX1pWX1d2VjAyUmtCd1c0UEItMFJxb3hPbDA3THZGbEF1Und1b2FuSS1VNWxUNjVnbE1ENnRfN0hxWENMT1M0VEhKSVBULVZrNVlNa096M0ZPQzRVbVdDVy1tNWlsdnFfNXRpOC1pWkg1b3RKblU0SVJBRHFqLUMzX2VxT0ZhWGdxSVoyN09PLW40ajRzVQ?oc=5",
+      "published": "2026-05-10T10:16:12+00:00",
       "source": {
-        "name": "Le Spécialiste",
-        "url": "https://www.lespecialiste.be"
+        "name": "Blick",
+        "url": "https://www.blick.ch"
       }
     },
     {
@@ -624,13 +604,13 @@
       }
     },
     {
-      "id": "a5938b47d0df",
-      "title": "La vente de médicaments sur ordonnance sans prescription médicale est passible d'une amende de 20 millions de VND. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWFFBcFlsZWVlQ1ZUamw1cXFPdEpzbHJHMHRHeVNIQmF3bEdTWEpFNmdwOWdPa3EtLXJnaGlQeWhLR0owX21BUDJ4VThXSDVPNHZaNkFPb21TZHEtOGJ6VEhJbEhjOVdhRDQ1T3JPbXNTd2U4QTRMM1pzWnFhekk0OUZFRWhPQnA2Z2VITF9CVQ?oc=5",
-      "published": "2026-05-10T16:41:48+00:00",
+      "id": "b60eab86fed2",
+      "title": "Réduire le gaspillage dans les soins de santé grâce à la technologie - Le Spécialiste",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSXZ2SkFSSWUySGpKNmpCOEdkWG83QjRrNWF2NGYtSlExTkdKMFE4NHhvcFljQ05aalZlWF9oZUctcVJEeUVZLVQ0bWZIVXJ3TGRsYmY5LXRCbXZVVFBDSHVGdk9iNFpSMG5WUkxSeW9xbVdSNzNVUDh0QkMxMEtiUnlfN1ZURThOUnFBYnVnWXc2TEdIcWtSRjQ5REgzdTl1SVRDaE1ZUVFxM0R2aUhDNzFBZGZQaE51azZXNmlQZGhkTG8?oc=5",
+      "published": "2026-05-08T17:34:17+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Le Spécialiste",
+        "url": "https://www.lespecialiste.be"
       }
     },
     {
@@ -694,6 +674,16 @@
       }
     },
     {
+      "id": "a5938b47d0df",
+      "title": "La vente de médicaments sur ordonnance sans prescription médicale est passible d'une amende de 20 millions de VND. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWFFBcFlsZWVlQ1ZUamw1cXFPdEpzbHJHMHRHeVNIQmF3bEdTWEpFNmdwOWdPa3EtLXJnaGlQeWhLR0owX21BUDJ4VThXSDVPNHZaNkFPb21TZHEtOGJ6VEhJbEhjOVdhRDQ1T3JPbXNTd2U4QTRMM1pzWnFhekk0OUZFRWhPQnA2Z2VITF9CVQ?oc=5",
+      "published": "2026-05-10T16:41:48+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "453d78b7ad7c",
       "title": "Peut-on prévenir ou soigner des maladies sans médicaments ? - Harmonie Santé",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdmtWVWs5RXpoX3ZWaDNvT2ZrWHVSNGdTc2d2NUNzTTMyallneUhiclVtSEJhU0gzZXFMRTRrbndMeEY3RkdWYkRMZkdVa29TN19CdG5ILXd0aUZ0SVBJSVl0dnZQLWNJWW1WUVJRQm1ObDIzdFdCbzc3NFR0OERab3JmWVlESVFMeWFfVXRVSXRoel83enplbVphcU50VmVlZGc?oc=5",
@@ -744,13 +734,13 @@
       }
     },
     {
-      "id": "570c1c5de3b8",
-      "title": "L’Ordre des pharmaciens engage une mission stratégique pour accompagner les réformes - H24info",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FTG9Nb2ZVS21xdHZaVWY2R3RRWVNDVXdVd3RGRWNQY24wTjNUWGdldU51ZzYyalFvNTNIdVdPSjVoMFNlVVozVmRrQ01aVWpieXJFT2t4cFZrRkhnVTZkdDVnaV9OQjZJODhxNFNNQTdDTWJDWTEyMi13T0w?oc=5",
-      "published": "2026-05-10T11:10:39+00:00",
+      "id": "5beae3f11d8d",
+      "title": "Santé : le vrai coût des médicaments bientôt révélé ? - Capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEhBdWdOR3JPZ3dzUVc5aE1iMmxXeHBlRDl2VzVYbUV5TV9BMVQwUl9xUlRQMTZQMVZhWnd3MHZXc0lVTUdaSXZHRG1mSWZOajF0VHB6anBHOURXbnBKb2EtVWx4a3RRNUY1a3psRDlrRDd0QjRMMVdXY0Y3Mk02VGxINW5lejd6ZmNNbDJNbVFMUzVrZjhiNWFldUNfYjZF?oc=5",
+      "published": "2025-11-12T08:00:00+00:00",
       "source": {
-        "name": "H24info",
-        "url": "https://h24info.ma"
+        "name": "Capital.fr",
+        "url": "https://www.capital.fr"
       }
     },
     {
@@ -761,16 +751,6 @@
       "source": {
         "name": "7sur7.be",
         "url": "https://www.7sur7.be"
-      }
-    },
-    {
-      "id": "5beae3f11d8d",
-      "title": "Santé : le vrai coût des médicaments bientôt révélé ? - Capital.fr",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEhBdWdOR3JPZ3dzUVc5aE1iMmxXeHBlRDl2VzVYbUV5TV9BMVQwUl9xUlRQMTZQMVZhWnd3MHZXc0lVTUdaSXZHRG1mSWZOajF0VHB6anBHOURXbnBKb2EtVWx4a3RRNUY1a3psRDlrRDd0QjRMMVdXY0Y3Mk02VGxINW5lejd6ZmNNbDJNbVFMUzVrZjhiNWFldUNfYjZF?oc=5",
-      "published": "2025-11-12T08:00:00+00:00",
-      "source": {
-        "name": "Capital.fr",
-        "url": "https://www.capital.fr"
       }
     },
     {
@@ -814,13 +794,13 @@
       }
     },
     {
-      "id": "bdd0e55605ee",
-      "title": "Pharma Expo BF 2026 : Des acteurs de santé et décideurs se concertent pour des médicaments de qualité accessibles à tous - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQeGM5d2xYMUR6c2g2b1FmTmVGTVhBMzVmNzEtYmxtbGJPUVowanIyeHhMSkJQc3pKRnJHbElPbHo3TWhHTjFVYWRUWF9BOHpHMzJOOFJLOTdYQUJ1TW5pOG41cUFrVmR5SFNqWVU0ZGhrazg2ZldnbXRpMnBfSk1RV3VObnpjSmRjeFNaN1VyZkVQTnNVQ1lPMjdPRUkxQnVUbnB3QXBScHNRRHV2eTZ5Qlo0VTg5WmVQS25WTHlEZE9IYW56OTRzRmN3WFVSRkhabERQMzV5ZzRsem5nZ0ozSGJWdU1KQ2s3dzdWT1J1cWxfZE5PZnpyUmNqZGpjTjhPY1dIUGNRSjE1TE43V2hic1BJY1BFT2Z1Mjduc1JTbmwtdUo3TXhzUFJXeU5sRkZaX01JU1hEckEwcFJOcXdXZk1VMDJUcEhwRW1UdXNwNFZ5SG9GaUpjWVRCOE1GN2lOR3o4dUFMcnI?oc=5",
-      "published": "2026-05-09T14:42:10+00:00",
+      "id": "570c1c5de3b8",
+      "title": "L’Ordre des pharmaciens engage une mission stratégique pour accompagner les réformes - H24info",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FTG9Nb2ZVS21xdHZaVWY2R3RRWVNDVXdVd3RGRWNQY24wTjNUWGdldU51ZzYyalFvNTNIdVdPSjVoMFNlVVozVmRrQ01aVWpieXJFT2t4cFZrRkhnVTZkdDVnaV9OQjZJODhxNFNNQTdDTWJDWTEyMi13T0w?oc=5",
+      "published": "2026-05-10T11:10:39+00:00",
       "source": {
-        "name": "MSN",
-        "url": "https://www.msn.com"
+        "name": "H24info",
+        "url": "https://h24info.ma"
       }
     },
     {
@@ -831,6 +811,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "bdd0e55605ee",
+      "title": "Pharma Expo BF 2026 : Des acteurs de santé et décideurs se concertent pour des médicaments de qualité accessibles à tous - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQeGM5d2xYMUR6c2g2b1FmTmVGTVhBMzVmNzEtYmxtbGJPUVowanIyeHhMSkJQc3pKRnJHbElPbHo3TWhHTjFVYWRUWF9BOHpHMzJOOFJLOTdYQUJ1TW5pOG41cUFrVmR5SFNqWVU0ZGhrazg2ZldnbXRpMnBfSk1RV3VObnpjSmRjeFNaN1VyZkVQTnNVQ1lPMjdPRUkxQnVUbnB3QXBScHNRRHV2eTZ5Qlo0VTg5WmVQS25WTHlEZE9IYW56OTRzRmN3WFVSRkhabERQMzV5ZzRsem5nZ0ozSGJWdU1KQ2s3dzdWT1J1cWxfZE5PZnpyUmNqZGpjTjhPY1dIUGNRSjE1TE43V2hic1BJY1BFT2Z1Mjduc1JTbmwtdUo3TXhzUFJXeU5sRkZaX01JU1hEckEwcFJOcXdXZk1VMDJUcEhwRW1UdXNwNFZ5SG9GaUpjWVRCOE1GN2lOR3o4dUFMcnI?oc=5",
+      "published": "2026-05-09T14:42:10+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     },
     {
@@ -894,13 +884,13 @@
       }
     },
     {
-      "id": "471c00c661ee",
-      "title": "Jeunes travailleurs: les antidépresseurs, faute de soins? - avantages.ca",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcnhycnlHUWRvS0Q5RzRnWER4dVR6TVBBMVRiREl3MlVVUU9uMUpVem9PLTBoYllhLWhRMFZhUTAxQlNZRlJ4UGcyNWQyaTM3OUpIUGtQelNVekpGd3ROeFRRQjgtcTNQTTJIWGdwV0xad1B2TDlOdllQbFpjUExTQzA5aUppT3h0WThwZ1cyWQ?oc=5",
-      "published": "2026-05-07T07:39:43+00:00",
+      "id": "5db9b6c1736c",
+      "title": "Médicaments en ligne : entre bonnes affaires et et contrefaçon - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQk5tcGk4ZlpGOU5KYXJkbG5Nc3p1QlJFa2pkc2FQZUFsQnZ1bG11RXlVUjR5QWItOS1MQlNEXzBuLTFnZFlRSGdvNTY1Sm9weEQxYVVzNFN6ZjNNNUlMMGxXNERrcG9QbG5qb1hiaE03Sy0wUkkzZC1QeW9Pd2QtRjdJU1BKbUhqempjMktBUl9Ja093RTh2UzRFUy02NFZxNy04SkNqNkg?oc=5",
+      "published": "2025-09-28T07:00:00+00:00",
       "source": {
-        "name": "avantages.ca",
-        "url": "https://www.avantages.ca"
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
       }
     },
     {
@@ -914,13 +904,13 @@
       }
     },
     {
-      "id": "5db9b6c1736c",
-      "title": "Médicaments en ligne : entre bonnes affaires et et contrefaçon - franceinfo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQk5tcGk4ZlpGOU5KYXJkbG5Nc3p1QlJFa2pkc2FQZUFsQnZ1bG11RXlVUjR5QWItOS1MQlNEXzBuLTFnZFlRSGdvNTY1Sm9weEQxYVVzNFN6ZjNNNUlMMGxXNERrcG9QbG5qb1hiaE03Sy0wUkkzZC1QeW9Pd2QtRjdJU1BKbUhqempjMktBUl9Ja093RTh2UzRFUy02NFZxNy04SkNqNkg?oc=5",
-      "published": "2025-09-28T07:00:00+00:00",
+      "id": "471c00c661ee",
+      "title": "Jeunes travailleurs: les antidépresseurs, faute de soins? - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcnhycnlHUWRvS0Q5RzRnWER4dVR6TVBBMVRiREl3MlVVUU9uMUpVem9PLTBoYllhLWhRMFZhUTAxQlNZRlJ4UGcyNWQyaTM3OUpIUGtQelNVekpGd3ROeFRRQjgtcTNQTTJIWGdwV0xad1B2TDlOdllQbFpjUExTQzA5aUppT3h0WThwZ1cyWQ?oc=5",
+      "published": "2026-05-07T07:39:43+00:00",
       "source": {
-        "name": "franceinfo",
-        "url": "https://www.franceinfo.fr"
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Sud Ouest",
         "url": "https://www.sudouest.fr"
+      }
+    },
+    {
+      "id": "a8f417748ec4",
+      "title": "Pourquoi les Français ont déboursé plus pour leur santé en 2024 - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTdsdW16YXNLVlBLWVE5VjY1SzNYWERWbjNSbmZ2MjlkWnBfOFFfSVJuNGY0TVdRazRpVlA3dVRVdGs4X2JoVW5zUmZxSU8yOENOc01WSkZtS2RtanBNZkxQWElyQURIVHIxSkdyZHROaS1zMnhCd3ZxVFM3d0d6SmFrZTl1QkhhcFoxME9PZUEybjVObW9FWlBsRGo1cUwxQ0FVWElZakwwMzNNVDhpMXdQZFk5bnEtdUE?oc=5",
+      "published": "2025-09-30T07:00:00+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     }
   ]
