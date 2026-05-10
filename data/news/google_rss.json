@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T20:57:52.081041+00:00",
+  "fetched_at": "2026-05-10T21:58:02.812296+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "d6e7dcdef3d9",
-      "title": "\"Des comportements compulsifs, difficiles à contrôler\" : jeux d'argent, hypersexualité... L'agence du médicament alerte sur les risques des traitements contre Parkinson - RTL.fr",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQYk9WTDJ0MklZeHJwTGZGSU9vZlV0YW93eVIwN09kQVY0RW9QTXFobkVHWGlHUzhZZm0tMFdBYjBDNFRPaEJ3eUkxWHZTWWRKZHhhT0YySDl2TFktdTlXVjJCM1VkSFpNT1NseVhBOUJIbDM2elVfNE1IREItVGtWSk4tWXRWQ2dSd2VLOXpvMDEyZVBCU2czOVI3dzFnNWExUzdqS3N2cGVHcnptQzEwVjY4cUJEbXdaOW9NcFh5Y18zaENHU2JkbDVJa1h2NDIxaE5HS05vcFQ4QlNITDgxNzNrU2pkZU1EVmluUjJEWVJ6RDd4Tk5XU1BkbVZoV3J0aE1OZjJ2Ym9GZGlxeG10OHoxX25YWE9Tai00Z19PM2tTUXRFTERR?oc=5",
-      "published": "2026-05-07T14:28:37+00:00",
-      "source": {
-        "name": "RTL.fr",
-        "url": "https://www.rtl.fr"
-      }
-    },
-    {
       "id": "5683ee15f249",
       "title": "Addiction aux jeux, hypersexualité, achats compulsifs : les traitements contre la maladie de Parkinson jugés à risques - parismatch.com",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeGhYOTJRQmJXR05jSkx4eVhFNmhzdHpwZFpiWVBHRnB5SWdrS3FsTXI4Qk5OOEd3Y2RXX08zYzUzbVJVQ1VqdFNZOFVHREs3bGxIaThvdzl0UDBtckJhUDhsZnVwY3k5SVFzaUZYeHp2dlNlVE43WW1nU2RPenk5LXBCNXktQkt3T2lVMUM3TkdpSXdwdVVpQmRDcDFtS1V1UTdwNVhpcXRGbDFPN2NvTUxLal9XTUVtN25mSTBRZVZhU1pjcWJ1ZkUwVE1BZHdaZGJQb0NUdEEzTEw2MWM4SDJyajBMdDI1TWRhRUhab0I?oc=5",
@@ -71,6 +61,16 @@
       "source": {
         "name": "parismatch.com",
         "url": "https://www.parismatch.com"
+      }
+    },
+    {
+      "id": "31d3dc01bb7b",
+      "title": "Jeux d'argent, hypersexualité : l'agence du médicament alerte sur les risques des traitements contre Parkinson - europe1.fr",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTmI4N0dmVHd0YmdPVnF4WExaV3Zwa3BKUkZhZkV2b1RUOFVEaTBBbHBYdF84Y3dtTmRubzFpVVhjTkJyNXVRNS1SRGVBdzFHMEd4TUtYOFJSRUlGeTdiWmllVDg1MVd4RjNZNUpROEZscFFObjQzSUNaRFBzX0tuSUtVOGtCOC1lb0ZHNEZaSm1HQXAxcXpGWjFMa2w1bm9Ea25aMk5HR1JKY19qTmpPZHZ2WGdlVEMxMEIzNDRLZXhwTGttMkoyQ1VfOFVZN1drMWgtMnFYSlbSAd4BQVVfeXFMTXgwS3BnVVEteWZXLXQyb1BjR1RKZUxaUFdIT2c3VGgyU2xOYUdJSHRfVWVvUFk2VUpNcHg3YkZRMzZRaHlzMlBacUxKTTg3TUU1MDV0dEJnSHBsaVc3bXhYemktVUduUzFwOGFPcC13TXRCLVpaS0EzeExna25Ic2RmYVBBYWtNcmMxYnVuWXphYWNJZW9LcXFXazA3aloxdlVldnEwd0FQb0ZtX25FUnlybGwyZEV3OHlROXFFZnZ0TWxEalZoTjFFSEM3bFdZcjRoYmpUcXBZYzVXaEhn?oc=5",
+      "published": "2026-05-07T13:46:58+00:00",
+      "source": {
+        "name": "europe1.fr",
+        "url": "https://www.europe1.fr"
       }
     },
     {
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "99ab47b542c6",
-      "title": "Trafic de médicaments : une opération d’Interpol conduit à près de 270 arrestations dans 90 pays - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObEpzNmo2cks5NTdvSk55RVNPYTNLSWdNb2RqNVotN1RpYUc4ZkNncWpvVGVsd0dVUHI0djBRSDdKVkZjUlRVazRCdFNnX3ZVbk5WNE9ScDhuejQ2SXZnRG9sZlRWZGprdElVN1k4ZWZmRkxhLUZJUFFYalk2NVR4TVM1UU9WVVUtTEZFT3Y3RXdKNGhLQWxBa1loWGxEUEFIUFlTbk9hVHh1TG13RXpreUxHdVVQTlJ6UFJTVHJrajZxQU9tSVFWOTZSTUd2LVo4RnNMRlZXaTBXdDBsY2VRdnM4TQ?oc=5",
-      "published": "2026-05-07T06:24:42+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
-      }
-    },
-    {
       "id": "2724032aeac0",
       "title": "Nouvelle réglementation sur la prescription et la délivrance des médicaments : traiter de multiples « maladies » - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXBCM3hsQkFlblFieWNKczRaeXdPZDZRV3RwTlZBNm9pT21NLXZxdURiVC1UVHZ1TWJPUmZweUpfc3p0WVRmb3gzWFRfSno4LWNLSUdhbUZwbEhyeERUZU11THFSeWVJNFpRWTVlYVZ4VEtIczczMVlscVc3dV9ERlQ2c3ZuaFRiMWc?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "99ab47b542c6",
+      "title": "Trafic de médicaments : une opération d’Interpol conduit à près de 270 arrestations dans 90 pays - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObEpzNmo2cks5NTdvSk55RVNPYTNLSWdNb2RqNVotN1RpYUc4ZkNncWpvVGVsd0dVUHI0djBRSDdKVkZjUlRVazRCdFNnX3ZVbk5WNE9ScDhuejQ2SXZnRG9sZlRWZGprdElVN1k4ZWZmRkxhLUZJUFFYalk2NVR4TVM1UU9WVVUtTEZFT3Y3RXdKNGhLQWxBa1loWGxEUEFIUFlTbk9hVHh1TG13RXpreUxHdVVQTlJ6UFJTVHJrajZxQU9tSVFWOTZSTUd2LVo4RnNMRlZXaTBXdDBsY2VRdnM4TQ?oc=5",
+      "published": "2026-05-07T06:24:42+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "b03b99496a40",
-      "title": "Renforcer la réglementation et améliorer la qualité et la sécurité des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNW1NbkhmcDlqc3ppVHB4U3llTVdQME9ZcWNnbmtCSDdvZTRuaV9FUGFMSks0cnM0azRhYnBoaE9iUVFhTmFyZGdZS0o0X1MzQzBJRE04clk5cG5TR0djTGo2OGE1aWptd0VrYUk5N1piNjAzTHZSZ1RRVlBleFc1NUZMdlM?oc=5",
-      "published": "2026-05-10T00:22:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "b763564a09d8",
       "title": "Pénuries de médicaments en Europe: la réponse de l’UE | Thèmes | Parlement européen - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDhZT2pqa2I5d0pkZ1loWVhrR3VLUkd4R0E1SGlCRS05cVQ3bXYyeTlpd2lFQWh2c1ZUWUhWeWw4YUlrYi03ekhkd0NRRFh6cFdpUGxHSFVtVklCZWZTWnQzeEVNY041T1lMTVp5X0pPWXFPVjhnZlNCUVJLcjJNUHVnVXFPLUxPVTVoZzA0UUFZVk10VEtYVllTNDcxV0Z1X1REcU1BWWx2bWdUT3lJQXZxRE9hNm9GSHc?oc=5",
@@ -271,6 +261,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "b03b99496a40",
+      "title": "Renforcer la réglementation et améliorer la qualité et la sécurité des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNW1NbkhmcDlqc3ppVHB4U3llTVdQME9ZcWNnbmtCSDdvZTRuaV9FUGFMSks0cnM0azRhYnBoaE9iUVFhTmFyZGdZS0o0X1MzQzBJRE04clk5cG5TR0djTGo2OGE1aWptd0VrYUk5N1piNjAzTHZSZ1RRVlBleFc1NUZMdlM?oc=5",
+      "published": "2026-05-10T00:22:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -324,20 +324,20 @@
       }
     },
     {
-      "id": "78cbbd18e2dc",
-      "title": "Actualité - Surveillance des aGLP-1 : l’ANSM confirme le rapport bénéfice/risque favorable lorsque ces médicaments sont utilisés conformément aux recommandations - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNT1hUM3A0a0FWbUJsWTI5YlVBMXhEZU5XT09FSGVfTktLREhuVFY4ckxCZ083dW5XdW4zakJ4TnpfQUFrV1JPcEpmamhPUUlHNHpMeVlIR1BEYnJ5SlhaeDB3ek5mUGZPQ1d6dk9yZFdnQkdtRFc3Qm5vTmdYTnIxZFpXRkRvcHdRaHhiRjEzSVl3M1gzc1RsRTZTRGVXZEhnMEFNeE9zTU1pSF9faVRIMWt1c2FXYndqQXFXVTFwd1NFVllSeXV3aVRYWnpBT1hQcW83TnR6dnA0dVVtNk1yYTFPaC1oZUZjQWw5MFZ2Qm01TGEtZTdlTkhBTmV5ekdBcEJRdkxSZTVwclU?oc=5",
-      "published": "2026-01-07T08:00:00+00:00",
+      "id": "974d43916b37",
+      "title": "Actualité - Réduire l'impact environnemental des médicaments : la France est mobilisée aux côtés de l’Europe - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXNZQXpyaDFwRXFEdWkyQ2xQT2h6eDhCRG9Va3JpQkFjWE9rNTZzR1ZrbzZRRWJneS1WZFZfZDRqNFNsVkVrTUg0cEt4NWF1WlpoNjYwQ0V1dWhDS3Q2REZzendmRUJWbjdETXhYOTl3UF9qMkE3ZkV6X3ZHaDB5NjV0dmY2QVFoMVI4ek5ic3VzNjBMek9RQm9MQW1rMFdnWEtMb0ZvTHVVNTN0RE9iaFBORnFwMEhiNGN2Q1BmT1lJV3c?oc=5",
+      "published": "2025-10-02T07:00:00+00:00",
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
       }
     },
     {
-      "id": "974d43916b37",
-      "title": "Actualité - Réduire l'impact environnemental des médicaments : la France est mobilisée aux côtés de l’Europe - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXNZQXpyaDFwRXFEdWkyQ2xQT2h6eDhCRG9Va3JpQkFjWE9rNTZzR1ZrbzZRRWJneS1WZFZfZDRqNFNsVkVrTUg0cEt4NWF1WlpoNjYwQ0V1dWhDS3Q2REZzendmRUJWbjdETXhYOTl3UF9qMkE3ZkV6X3ZHaDB5NjV0dmY2QVFoMVI4ek5ic3VzNjBMek9RQm9MQW1rMFdnWEtMb0ZvTHVVNTN0RE9iaFBORnFwMEhiNGN2Q1BmT1lJV3c?oc=5",
-      "published": "2025-10-02T07:00:00+00:00",
+      "id": "78cbbd18e2dc",
+      "title": "Actualité - Surveillance des aGLP-1 : l’ANSM confirme le rapport bénéfice/risque favorable lorsque ces médicaments sont utilisés conformément aux recommandations - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNT1hUM3A0a0FWbUJsWTI5YlVBMXhEZU5XT09FSGVfTktLREhuVFY4ckxCZ083dW5XdW4zakJ4TnpfQUFrV1JPcEpmamhPUUlHNHpMeVlIR1BEYnJ5SlhaeDB3ek5mUGZPQ1d6dk9yZFdnQkdtRFc3Qm5vTmdYTnIxZFpXRkRvcHdRaHhiRjEzSVl3M1gzc1RsRTZTRGVXZEhnMEFNeE9zTU1pSF9faVRIMWt1c2FXYndqQXFXVTFwd1NFVllSeXV3aVRYWnpBT1hQcW83TnR6dnA0dVVtNk1yYTFPaC1oZUZjQWw5MFZ2Qm01TGEtZTdlTkhBTmV5ekdBcEJRdkxSZTVwclU?oc=5",
+      "published": "2026-01-07T08:00:00+00:00",
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
@@ -351,6 +351,16 @@
       "source": {
         "name": "Les Numériques",
         "url": "https://www.lesnumeriques.com"
+      }
+    },
+    {
+      "id": "561446e091b8",
+      "title": "Actualité - Point de situation sur l’approvisionnement en médicaments psychotropes en France au 8 janvier 2026 - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUnRiNW9RdjBUY0xlS0FXUlRla2FYdVlZQTZqeW9kMFlKZDBLWTM1TXVkbDQ3M2hkaFZUMkdnb0RhRDFqLVFiams2RFhGTGJObl94bUozSExaa0tfdVV2bEpUWDF0SmtlUEZrOTlYdGJtUlM1VXRKUklCVmJkTFZyMUdrWTJEMXlhQU1yenpnMXpHSzU1aHhhRm1Yd1Z4SE8xclM0TTNZbzdIV3ZSdUNYakZLOTlSM08zcW1nSE1OTWs5OXEtbDZidFVn?oc=5",
+      "published": "2026-01-13T08:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     },
     {
@@ -404,16 +414,6 @@
       }
     },
     {
-      "id": "55578e641a0a",
-      "title": "Médicament : 10 ans d’évolutions majeures et une prise en charge renforcée par l’Assurance Maladie - Ameli",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDQtcmFUa0tNXzI0OHBPRjB0ZnFFOFF3UGxrUEo0T2FoRzZDcGRyckpSU29qc3M3NUo0UHA5aVB4WmlFNHczclQ5M2tVaWV1YmtEempmLW5FZmd3aFJtOHVHWFdTcE5mNHU5bzlVTnBqYVdqVU16cGJfYnEzZk1SekM2dmM3VVZPalIxNFcxT3hYQzNSTGQ2NFBST2ZnV2Y1aDJrV25UX1g4RGVLaV9kSG5kaDVleWFuM1ViMkxlbHM3dmVTc0cxMnRwaGpUQ1Q4X0E?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Ameli",
-        "url": "https://www.ameli.fr"
-      }
-    },
-    {
       "id": "7fd32182530b",
       "title": "Médicaments : les laboratoires préparent le terrain pour la présidentielle - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd0RTLTdVLUUyeUY4bjlETW92Z2pzVy1DMG51UXdGT0J4ZnpJWEJocDN0NnQ5MTZMbFUxc08xempWX0R2Tm9hcjZkcENCaFhvMEo0VERnejVnUkFUMEtiYkg3eHhQYUNpNHBqMk55X3BEallTWG5UZGhpN09xTDdPLUZXYk9uN192cENXT2xoS3NvbmxBS0REMmgwa2dNNVN0aE1VMmpEMVAzZFA0cGFvalR0bndvY2FIX3NfODJaSzdCeGZwMC1MbEx5NWhNc0xGTWxlQWJB?oc=5",
@@ -421,6 +421,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "55578e641a0a",
+      "title": "Médicament : 10 ans d’évolutions majeures et une prise en charge renforcée par l’Assurance Maladie - Ameli",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDQtcmFUa0tNXzI0OHBPRjB0ZnFFOFF3UGxrUEo0T2FoRzZDcGRyckpSU29qc3M3NUo0UHA5aVB4WmlFNHczclQ5M2tVaWV1YmtEempmLW5FZmd3aFJtOHVHWFdTcE5mNHU5bzlVTnBqYVdqVU16cGJfYnEzZk1SekM2dmM3VVZPalIxNFcxT3hYQzNSTGQ2NFBST2ZnV2Y1aDJrV25UX1g4RGVLaV9kSG5kaDVleWFuM1ViMkxlbHM3dmVTc0cxMnRwaGpUQ1Q4X0E?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Ameli",
+        "url": "https://www.ameli.fr"
       }
     },
     {
@@ -441,6 +451,16 @@
       "source": {
         "name": "Zonebourse",
         "url": "https://www.zonebourse.com"
+      }
+    },
+    {
+      "id": "74ae2ef658c2",
+      "title": "Dons aux populations privées de médicaments et de matériel médical : ce qu'il est possible de faire - Ordre National des Pharmaciens",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQnk4LTVodDRjWlZISmJvY0VLa1JJX2p3QmVwYTk0dzRUcTdZcWdFeWdiWGVaXzNFb1UzbTFnY2JaWUhjX3NhZDZxX1FIdjZ3Ty14R0xmQzV0TldvM2MxUDgwLU1MT0x1Z01wYWdwUm0tVWhmOVRxVUdaOU9HSFJRWWUweEh3aDBIYk5SUHFpTGM1MWZNV3lzUXkwVDdBc1ZKYTJTUTEtWWtyTnMwQkJjczh5VU85UTMxMy13d3Q0d09ybHptZHV4NUxCS1lHNXNMckZSbXladnRCX0hEajNjZUpvZ2QwLWo3blRiRVg0UkdYTVdrbkdzenlxak1IZUFEUEVj?oc=5",
+      "published": "2026-03-12T07:00:00+00:00",
+      "source": {
+        "name": "Ordre National des Pharmaciens",
+        "url": "https://www.ordre.pharmacien.fr"
       }
     },
     {
@@ -494,26 +514,6 @@
       }
     },
     {
-      "id": "c2eadfe81fb6",
-      "title": "Chaque étape est une « dose de médicament » : diffuser l'esprit d'une vie saine et de la prévention précoce des maladies. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVTNGazd6bFdsR2tFRVZNbTliSWd3cXc0RVBEZTR4ajE1VFJqSUw5RVhnT2RJNW1ueVgyaWVUX1FiU3pSQW5GWHgxNjFkTk0wUUczYXRHa2x2VS0tRk1FMERzaWZzUlZwaU1QZEF0aXdPS1Bxc3JUM2NnajZjbjdwUzljSnJZVHJ6eHNmWWhBYUMwdmx0V3JiN0l1OTVEWjFLNk1YWmln?oc=5",
-      "published": "2026-05-10T13:11:04+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "6c55bc5f6731",
-      "title": "Tuberculose - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iLUtpTkxPS0R3OElzNlUxQlF2bEd1a3VYcDFicXNsM1NEa3NrRGh5VmNIdGZMajBXR3FQb01PUDRmbXNkX2R0U2l0eUhvSXJ1Q1JFUUI2NWptOEVjcVZfOXZqb2YwUUg5ZDJtUEE2aFB6dw?oc=5",
-      "published": "2026-03-24T07:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "b0fa3bad639a",
       "title": "Jusqu'à 1,7 milliard d'euros de médicaments non consommés chaque année: la Cour des comptes favorable à la redistribution des produits de santé - BFM",
       "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPN1hSYnE4N1hBQ0V2a3RGaUxITlYtQkNPZUM5aGVMTUM0eldjWlQ2SlpSUzFPV0pjZEF2UXVVTGZXWVFOX2hzQ21xNGZUZ29PX3ZtZ1QzcHJMRE9FWVk0ZUZjTllDX2hzT0c3R1JPSmh3V3dHcDlfbUFoMmZlakpWdU5lNEZHS0cwcVg2cjhxdEdzaVk5WS0waVhnUWxpZnJPa002QUUybzhLMmJlVVByUHFJZFhsVDQxZlVuYXpZZG5RbENtUWZmbWh5WWhONzZXVnF3cTZPV3BIZ21jY3lKOEtkYXhzdm9yTlp1ZThhOGQteWdTcHFOdk5YU1lyVTZIUVVuQ3ltUTNqbUhweWdMakoyUXgzRFJVQktRWFlSWDJJTnZrNTFzV2NqZ3hwTTNXdi1aUw?oc=5",
@@ -541,6 +541,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "c2eadfe81fb6",
+      "title": "Chaque étape est une « dose de médicament » : diffuser l'esprit d'une vie saine et de la prévention précoce des maladies. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVTNGazd6bFdsR2tFRVZNbTliSWd3cXc0RVBEZTR4ajE1VFJqSUw5RVhnT2RJNW1ueVgyaWVUX1FiU3pSQW5GWHgxNjFkTk0wUUczYXRHa2x2VS0tRk1FMERzaWZzUlZwaU1QZEF0aXdPS1Bxc3JUM2NnajZjbjdwUzljSnJZVHJ6eHNmWWhBYUMwdmx0V3JiN0l1OTVEWjFLNk1YWmln?oc=5",
+      "published": "2026-05-10T13:11:04+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -584,13 +594,13 @@
       }
     },
     {
-      "id": "7d54acc401b5",
-      "title": "Comment Swissmedic a sombré dans le fiasco - Blick",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNjl3QzctRTFBM0ZwZ3JnLWxNX1pWX1d2VjAyUmtCd1c0UEItMFJxb3hPbDA3THZGbEF1Und1b2FuSS1VNWxUNjVnbE1ENnRfN0hxWENMT1M0VEhKSVBULVZrNVlNa096M0ZPQzRVbVdDVy1tNWlsdnFfNXRpOC1pWkg1b3RKblU0SVJBRHFqLUMzX2VxT0ZhWGdxSVoyN09PLW40ajRzVQ?oc=5",
-      "published": "2026-05-10T10:16:12+00:00",
+      "id": "716088721f59",
+      "title": "Les médecins qui prescrivent des médicaments inappropriés à l'état de santé d'un patient peuvent se voir infliger une amende pouvant atteindre 20 millions de VND. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY0JvTlM5a2llY2JPNHhjVWdscVJsOXpHUmNXTVJ5MHBHSGRPUjhuYkhnLWphTnNWdlVkWlBHMG1YcmdBclZsY3U0NmszcWVtZmZYWmRndlU4U1FRRFkyR1UzS0VmNmRQVlJZb0RYOXVlNVhKcEE4dkRxYlF1eG5CeUZSanFqUHNtaENHb0h6OWpGTmY4d2dHclNnV3JtQ0YzR0xxajhpNlhmMG5t?oc=5",
+      "published": "2026-05-07T02:46:01+00:00",
       "source": {
-        "name": "Blick",
-        "url": "https://www.blick.ch"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -634,6 +644,16 @@
       }
     },
     {
+      "id": "7d54acc401b5",
+      "title": "Comment Swissmedic a sombré dans le fiasco - Blick",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNjl3QzctRTFBM0ZwZ3JnLWxNX1pWX1d2VjAyUmtCd1c0UEItMFJxb3hPbDA3THZGbEF1Und1b2FuSS1VNWxUNjVnbE1ENnRfN0hxWENMT1M0VEhKSVBULVZrNVlNa096M0ZPQzRVbVdDVy1tNWlsdnFfNXRpOC1pWkg1b3RKblU0SVJBRHFqLUMzX2VxT0ZhWGdxSVoyN09PLW40ajRzVQ?oc=5",
+      "published": "2026-05-10T10:16:12+00:00",
+      "source": {
+        "name": "Blick",
+        "url": "https://www.blick.ch"
+      }
+    },
+    {
       "id": "267deffb6102",
       "title": "Médicaments anti-obésité : après l’arrêt des injections, la reprise de poids serait quatre fois plus rapide - Ouest-France",
       "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQQXFtMjF1ZUhKZGF0cXp5WGpON2YyUnU4V3JaRFgxQ2dNNHhWdHpHZ0c2S05YOHEwODZ1X1pIck91aF9jWm9hQ0t6eDI3enZIVXpOTHBKS2YyUVRtMjBRSnBFVVFCNlFUVXJuRVF4RUFLb2o4TEtyaHdRMUp6NWVNcjhiX3Q2dTNISUVkRGFqQzhCNFFsMU1RRkdMTk5WdDRvdFhZM3NTSHVSYzJXXy1EVDh0QmFCenVyMGtYbHdLUVBWM2h0MDI3RVZfZ0JBTE1zdkt6LUpVQk9aNExQdkRZWWVSaXlRaDF4ekRyX0RacjBQaHNOTmJtM250cXZpZnNOckhST3FGZk9hNE1fWlE?oc=5",
@@ -674,16 +694,6 @@
       }
     },
     {
-      "id": "a5938b47d0df",
-      "title": "La vente de médicaments sur ordonnance sans prescription médicale est passible d'une amende de 20 millions de VND. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWFFBcFlsZWVlQ1ZUamw1cXFPdEpzbHJHMHRHeVNIQmF3bEdTWEpFNmdwOWdPa3EtLXJnaGlQeWhLR0owX21BUDJ4VThXSDVPNHZaNkFPb21TZHEtOGJ6VEhJbEhjOVdhRDQ1T3JPbXNTd2U4QTRMM1pzWnFhekk0OUZFRWhPQnA2Z2VITF9CVQ?oc=5",
-      "published": "2026-05-10T16:41:48+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "453d78b7ad7c",
       "title": "Peut-on prévenir ou soigner des maladies sans médicaments ? - Harmonie Santé",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdmtWVWs5RXpoX3ZWaDNvT2ZrWHVSNGdTc2d2NUNzTTMyallneUhiclVtSEJhU0gzZXFMRTRrbndMeEY3RkdWYkRMZkdVa29TN19CdG5ILXd0aUZ0SVBJSVl0dnZQLWNJWW1WUVJRQm1ObDIzdFdCbzc3NFR0OERab3JmWVlESVFMeWFfVXRVSXRoel83enplbVphcU50VmVlZGc?oc=5",
@@ -701,6 +711,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "a5938b47d0df",
+      "title": "La vente de médicaments sur ordonnance sans prescription médicale est passible d'une amende de 20 millions de VND. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWFFBcFlsZWVlQ1ZUamw1cXFPdEpzbHJHMHRHeVNIQmF3bEdTWEpFNmdwOWdPa3EtLXJnaGlQeWhLR0owX21BUDJ4VThXSDVPNHZaNkFPb21TZHEtOGJ6VEhJbEhjOVdhRDQ1T3JPbXNTd2U4QTRMM1pzWnFhekk0OUZFRWhPQnA2Z2VITF9CVQ?oc=5",
+      "published": "2026-05-10T16:41:48+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -724,6 +744,16 @@
       }
     },
     {
+      "id": "51d2eb1bc86b",
+      "title": "Médicaments de thérapie innovante : l’AP-HP met en œuvre un plan d'action d'envergure - AP-HP Assistance publique - Hôpitaux de Paris",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTVkbFppdVlURkpueFdEQkhmOHdpWHl6YlQyX01TNWZNV095Rlp1RHJTNUhyZC1uVGYyWVVta1ZWV1VrU3VNV1hGaFR4a05BZWxOZlYwQXZmMVoxd2lIUEJvMTNqOUdiOTFwOWV0SEs2ZHEzMzJjdTVGcld0eEJzN1phaTViZVk4bEktWkRReENzaDZwLU1VQmhSaXlZX3RWa2pJR19hbHB3LXdiY0sxcVN3?oc=5",
+      "published": "2026-02-18T08:00:00+00:00",
+      "source": {
+        "name": "AP-HP Assistance publique - Hôpitaux de Paris",
+        "url": "https://www.aphp.fr"
+      }
+    },
+    {
       "id": "38c3c72df71d",
       "title": "Médicaments périmés: votre armoire à pharmacie a-t-elle aussi besoin d’un ménage du printemps? - Salut Bonjour",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcE9OUnRBRHpPNzZxc2d2cFRidFZfN3ZRbVlpTVpqYzQzY2h6WVEzd1J6Z0hqMFl2UDNWbGZWOEhsM0o4SUttMFgzc3FVUFdYLWh3R3llREZYTWdFRldZazhCcDNsc3d4QS1uc205SlROai1FdDlYMXkzNlB4a0xIb0oxaldmcEkwUkUxOVRZM3NfZldvcGFfenU3Yk1vd3BWc0JZaksxX2xnWUd6eHNVd3EyaGNucXUxR3BPM3ZvZ0xNMGxpS25KV21R?oc=5",
@@ -741,16 +771,6 @@
       "source": {
         "name": "Capital.fr",
         "url": "https://www.capital.fr"
-      }
-    },
-    {
-      "id": "74bb55d52730",
-      "title": "Ces quatre médicaments populaires augmentent-ils vraiment le risque de développer une démence? - 7sur7.be",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ3Z3a3pvLURERnFiU3lfNE1zUE40UUZxYm9URHdvYXEzRUs1THB1SWtqd1RhbWJaaVllTjd6UE1FVk1IZUl3S0tRM3BsTGF1Sl83NVdGcmZaSlhUMWZXNFpHazhqc2RBTFQ1OU9hTG5iWmJ4TW41NFVsYnk4ZnFVdTlfNlhkTG5MSjVISDUwVm9rbTNwbzhpbTlVbm9IbVQ3WHc0eEIwdTRxajNoZHZkNjBBWV9PeEFzdWRVTFRUOGdkalVab1pNc213?oc=5",
-      "published": "2026-05-09T00:00:00+00:00",
-      "source": {
-        "name": "7sur7.be",
-        "url": "https://www.7sur7.be"
       }
     },
     {
@@ -774,6 +794,16 @@
       }
     },
     {
+      "id": "74bb55d52730",
+      "title": "Ces quatre médicaments populaires augmentent-ils vraiment le risque de développer une démence? - 7sur7.be",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ3Z3a3pvLURERnFiU3lfNE1zUE40UUZxYm9URHdvYXEzRUs1THB1SWtqd1RhbWJaaVllTjd6UE1FVk1IZUl3S0tRM3BsTGF1Sl83NVdGcmZaSlhUMWZXNFpHazhqc2RBTFQ1OU9hTG5iWmJ4TW41NFVsYnk4ZnFVdTlfNlhkTG5MSjVISDUwVm9rbTNwbzhpbTlVbm9IbVQ3WHc0eEIwdTRxajNoZHZkNjBBWV9PeEFzdWRVTFRUOGdkalVab1pNc213?oc=5",
+      "published": "2026-05-09T00:00:00+00:00",
+      "source": {
+        "name": "7sur7.be",
+        "url": "https://www.7sur7.be"
+      }
+    },
+    {
       "id": "12cda8a0690f",
       "title": "Actualité - Lutte contre les pénuries de médicaments de l’hiver : le plan hivernal 2025-2026 est en préparation - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOC1VRXJmQ0ZPYjY0RGZtSTJjbGpSemlJWGNPTXR2OFZkU056ZUNfMks4VzMxall6dmVGTmdyRWp2QUdSaGY0UUt5V1hZNTFuMGIwZGgtNWp3bTBacUxOdmx2a3F4NUcwS0RGOXdQRlh5NTgtai0wVjZlaVR6WVhlOXBBakJVNDFlYTljUzlWVk5HamVPQkdaNDNIRGo5dVhvUTQ0eFktVUpkMl8tQTlVNnFQcDVGemJ1Ujd0M0F6c0FpeFI1UHhZaw?oc=5",
@@ -781,6 +811,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "9e044945b6dd",
+      "title": "L'industrie pharmaceutique suisse conclut un accord pour réduire le coût des médicaments aux États-Unis - Euractiv FR",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkxGa1JvandRVFdVNkdTQ2pWS3otSGx1bjhQZVVjZ0xzc2VCbk9ObGVsZDRFUkR6TGI0MGY2SG9lY2p3ZDBtaF9RTzlicDFsWHB2YTAtQU1TVEZSSTdyVjRxaDM4SENfNjRQY2prTjVocHIzbGs2Q2liMW0tdm00b3hiZWpmYVl5R08tcG1XbkpLOG5YaXh2dFhYYTNWczZMeVB6WmtTRnFlQ29iY3R5ckRvV0wybzl0cW9pU2lfVkRXMF9HYjdB?oc=5",
+      "published": "2025-12-23T08:00:00+00:00",
+      "source": {
+        "name": "Euractiv FR",
+        "url": "https://euractiv.fr"
       }
     },
     {
@@ -794,16 +834,6 @@
       }
     },
     {
-      "id": "570c1c5de3b8",
-      "title": "L’Ordre des pharmaciens engage une mission stratégique pour accompagner les réformes - H24info",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FTG9Nb2ZVS21xdHZaVWY2R3RRWVNDVXdVd3RGRWNQY24wTjNUWGdldU51ZzYyalFvNTNIdVdPSjVoMFNlVVozVmRrQ01aVWpieXJFT2t4cFZrRkhnVTZkdDVnaV9OQjZJODhxNFNNQTdDTWJDWTEyMi13T0w?oc=5",
-      "published": "2026-05-10T11:10:39+00:00",
-      "source": {
-        "name": "H24info",
-        "url": "https://h24info.ma"
-      }
-    },
-    {
       "id": "a051be338731",
       "title": "Actualité - Quétiapine 300 mg et 400 mg LP : conduites à tenir dans un contexte de fortes tensions d’approvisionnement au 05 août 2025 - ANSM",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMjVXNUdzdm5EU0NGaHpRWFVXRVJYSDE2Q0l5R2p5RXVnODdsSno2TDI4NEc4OUM1U1puQ1Q1SXpHWnRRTWRZQXdYVzRWXzcyckJicm9rSnJjc1hFNEp4allnWDFxaktlSjdyNVM1M0hVSTl5LWkyV2NKYkpMRmxHM3lleExxbmRzejE3ZFJjTFZnZkYyRk8tVXp6WVRlelNrM3Rxc19jSG0xT2NJNnVLWmhnbUhzSWdjdll1cmh1bmMtWlhLSk5UZHQyd3dFSE5odEZZMlJsWVZRdnB3cTBQQ3FjRk55OGs?oc=5",
@@ -811,6 +841,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "570c1c5de3b8",
+      "title": "L’Ordre des pharmaciens engage une mission stratégique pour accompagner les réformes - H24info",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FTG9Nb2ZVS21xdHZaVWY2R3RRWVNDVXdVd3RGRWNQY24wTjNUWGdldU51ZzYyalFvNTNIdVdPSjVoMFNlVVozVmRrQ01aVWpieXJFT2t4cFZrRkhnVTZkdDVnaV9OQjZJODhxNFNNQTdDTWJDWTEyMi13T0w?oc=5",
+      "published": "2026-05-10T11:10:39+00:00",
+      "source": {
+        "name": "H24info",
+        "url": "https://h24info.ma"
       }
     },
     {
@@ -831,16 +871,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "29a4e1def083",
-      "title": "Surconsommation de médicaments : l'Assurance Maladie appelle à la sobriété et au bon usage pour mieux prendre soin de sa santé - France 3 Régions",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOcUhMTENZNzFHRDk2RnpWRnZKYkJsY3lyR0JVVEZabVZHUGdhbHVRVTJNYklZX0NYV2pWNTB1WU4tWlhOdk1UNkNyeWRIWHBLYWRSUlp6OHc3UXV0bHZWZUh1RERnOWFvRzNGM280Q0JCUm5WSE5OaF9wLU1XaWRtRlI3WUFIWXpfZklQamlMMXZBZ2IycWx1S21DSHNzdnJnTWZLa3JJcGhRV2llWTJ1SVgzNjZDXzhtcmQ0WWNZbGRhREMxSlcyVUpxTmJ1c3JsdFVBbUpMN3I2anNvME5FTWF2ZVI4bEFXWFNNVEY2cVNHbkptaUxrUXZWU29qRndIaTRkOV9aLVlfbExPWXlhVTkzU2hKb01PSDAzVGJCQQ?oc=5",
-      "published": "2026-01-27T08:00:00+00:00",
-      "source": {
-        "name": "France 3 Régions",
-        "url": "https://france3-regions.franceinfo.fr"
       }
     },
     {
@@ -884,6 +914,16 @@
       }
     },
     {
+      "id": "d2d5cf1be662",
+      "title": "Nouvelles règles pour les médicaments critiques dans l'UE - consilium.europa.eu",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlUjk0aWVDdW1lSGlaRVpJOUtuS1dyR0JBQjRHcVFEeGxERExXQWxydUFheFhadklSdllrS2d4dFZTejJQUGQ5a3B0cVJhTVFJS1JPanZiUndmZjdJY2VneTdxVEJPak5QLThSSVlnWnhKYjVrb0E?oc=5",
+      "published": "2025-12-02T08:00:00+00:00",
+      "source": {
+        "name": "consilium.europa.eu",
+        "url": "https://www.consilium.europa.eu"
+      }
+    },
+    {
       "id": "5db9b6c1736c",
       "title": "Médicaments en ligne : entre bonnes affaires et et contrefaçon - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQk5tcGk4ZlpGOU5KYXJkbG5Nc3p1QlJFa2pkc2FQZUFsQnZ1bG11RXlVUjR5QWItOS1MQlNEXzBuLTFnZFlRSGdvNTY1Sm9weEQxYVVzNFN6ZjNNNUlMMGxXNERrcG9QbG5qb1hiaE03Sy0wUkkzZC1QeW9Pd2QtRjdJU1BKbUhqempjMktBUl9Ja093RTh2UzRFUy02NFZxNy04SkNqNkg?oc=5",
@@ -924,16 +964,6 @@
       }
     },
     {
-      "id": "95acf22beba4",
-      "title": "Médicaments génériques : les pharmaciens obtiennent une concession après leur mobilisation - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdW1lcFRfWi1jTENCbTczSTVLNWRoZ2p6S3h5RmdYTk81c09NaG10X3N6ZC1QRm93ZlhGcG5WNWZwV3JjX3JIZnU2ZTk0QTBYUThRZk1UWndlX0dKYVhTbmFfbGtSV2djU0ZMamlXLTJIU0duZFVoNTV5UURnZXpiLTRZVzhsa1FjeFZtajlYU0xtSzAxaUhtTHRfekpEY0FMMm5peFE1eGpsTnhqTlNvTlNuTWRPYXU1Q09JOGxtZTFmV0pJSTBHTkxGbElvNmYyQ2YzX09YNWI3NjA?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
-      }
-    },
-    {
       "id": "23a0c59a119d",
       "title": "Combler le fossé mondial en matière d’accès aux médicaments essentiels - ohchr",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZkYxbUl0VER1aFc5alcxMjNuRXdCV1NjeEtrNzZQTlZpelRrdUVMTUJCWkMwbFZFMUJWblc5MXFLVGdrekZUT29sWnJibWE3cXktR2ktM0w1OUczcENHZk5vUURYSFZocWNNR19ZUlA3Y0txZWowcTdRY0xhUW1icVV6UHctZlNNdllhWG51Nmg?oc=5",
@@ -971,36 +1001,6 @@
       "source": {
         "name": "Ouest-France",
         "url": "https://sante.ouest-france.fr"
-      }
-    },
-    {
-      "id": "6016e960d8cd",
-      "title": "Jusqu’à 1,7 milliard d’euros de médicaments ne sont pas consommés chaque année - Libération",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOS21EVUxYN1hiV0h5SlZQZ2hTYkpkdUJsLTBkM19UVXozOFYzOXV6NGFsM3oySklPZXZJZjhnd25Ob3NlY1VaQUwtT2VQM1ZaQ3E1Sjdwbjd2eV9yc0dKMXBoRDRCVTdVY0xtMVhqdnM1bDNPT2dzWUNOVU1ONWV2dUQ4aFRUUW9Ma2QxSUJLcGJualJ6S0o1dDhwOHpsZk9PbzNLN0dNTDBaWXdzNC1TeUlZTWprZHg1Y2s3Q296c2pzUkQ2c01XTE9LOXQwaVpUdDNwY2xmamFCZU05eXptTXNxSS1jM1E?oc=5",
-      "published": "2025-09-05T07:00:00+00:00",
-      "source": {
-        "name": "Libération",
-        "url": "https://www.liberation.fr"
-      }
-    },
-    {
-      "id": "ff8a7d08932e",
-      "title": "Médicaments : la pénurie de psychotropes se réduit, l’approvisionnement s’améliore mais des tensions persistent - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWlBaUVh0T1ljbGtycmhtWDFmc0N2bkVESkhHbWxzYWZHcHFQOFhuWUJETHVtYjZRQ3ZPbzFKMGpqUGpUX3VILXRGNlNFcUM0MW44VHRkak40ZWR3QkhpbUFRcU9Da0ltVXVqX0xhVjZDZWJuOVBLNmktNzFlUDg0ZGZqbjU3cUZ5Z2FESnZmN0prcTQ3cmJvOXZFRGlWSmh0QXB4Tml2UXdrNk1DQWM5Zk1rVDJsNlAxOTBtWFBxVnhRaTlyZllBOWJ6YVg3QlBzbWstcFQzS1Bsd3hwQkxfcVRvQ2Vndms3MFY5ZzZTU21NQUkyUWc?oc=5",
-      "published": "2026-02-11T08:00:00+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
-      }
-    },
-    {
-      "id": "a8f417748ec4",
-      "title": "Pourquoi les Français ont déboursé plus pour leur santé en 2024 - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTdsdW16YXNLVlBLWVE5VjY1SzNYWERWbjNSbmZ2MjlkWnBfOFFfSVJuNGY0TVdRazRpVlA3dVRVdGs4X2JoVW5zUmZxSU8yOENOc01WSkZtS2RtanBNZkxQWElyQURIVHIxSkdyZHROaS1zMnhCd3ZxVFM3d0d6SmFrZTl1QkhhcFoxME9PZUEybjVObW9FWlBsRGo1cUwxQ0FVWElZakwwMzNNVDhpMXdQZFk5bnEtdUE?oc=5",
-      "published": "2025-09-30T07:00:00+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
       }
     }
   ]
