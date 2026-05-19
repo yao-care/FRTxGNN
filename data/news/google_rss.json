@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T21:27:08.309498+00:00",
+  "fetched_at": "2026-05-19T23:12:26.329935+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,6 +24,16 @@
       }
     },
     {
+      "id": "2034a1499229",
+      "title": "Aux Etats-Unis, une IA pourra bientôt renouveler certains antidépresseurs - 20 Minutes",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVkhCajJSM095OGo1WjhyNURvTG4xTUxmUV9wV3F4WHE5YWluSUU2cFZOdGVHeEZBWV9ieUlpaTJSdUhDOUlUbnZZV1J1QnRENU1vd016b3BjX2JEVmhXeW9jNDhkb0JEaVBlZHpCNXFjV3dkQ0M1d3V3LWNtTFlFbVN6TlY3R0sxM01LbXUwOElyTUpINDJ0MDBZNUF3ZDBIN19HWUM5ZU9sQ0ozejJTblhYOFA3VkprdXNOMU1sbXVBeUhS?oc=5",
+      "published": "2026-05-19T15:32:00+00:00",
+      "source": {
+        "name": "20 Minutes",
+        "url": "https://www.20minutes.fr"
+      }
+    },
+    {
       "id": "6a82f4944fc6",
       "title": "Comment limiter la reprise de poids après l'arrêt de médicaments anti-obésité - rts.ch",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHFyZWxoWEpVbTZ5MW16TGlVa3g4bThfUmJvNUhHTWlCQk1vSXk2YUsxS1A1elU3V0pzOTJMS0N1SU5ZWXR6WVo4SmJ1TUVyRk1PT2hEYmRHdVlfbFFhc3NfSF9rWU9BZUpab3ZvYXJWNEpIMTI1bXlyNThLSGgwRkUtT2VBTjNfZUZrUkd1TWRwdG82dmF5RktabGh0dnUzVXVINURTQlhuY1NUQ2hwdlBnVUM0VnpLeUgwbTVicVFfLW1V?oc=5",
@@ -41,16 +51,6 @@
       "source": {
         "name": "La Montagne",
         "url": "https://www.lamontagne.fr"
-      }
-    },
-    {
-      "id": "2034a1499229",
-      "title": "Aux Etats-Unis, une IA pourra bientôt renouveler certains antidépresseurs - 20 Minutes",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVkhCajJSM095OGo1WjhyNURvTG4xTUxmUV9wV3F4WHE5YWluSUU2cFZOdGVHeEZBWV9ieUlpaTJSdUhDOUlUbnZZV1J1QnRENU1vd016b3BjX2JEVmhXeW9jNDhkb0JEaVBlZHpCNXFjV3dkQ0M1d3V3LWNtTFlFbVN6TlY3R0sxM01LbXUwOElyTUpINDJ0MDBZNUF3ZDBIN19HWUM5ZU9sQ0ozejJTblhYOFA3VkprdXNOMU1sbXVBeUhS?oc=5",
-      "published": "2026-05-19T15:32:00+00:00",
-      "source": {
-        "name": "20 Minutes",
-        "url": "https://www.20minutes.fr"
       }
     },
     {
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "997c1e054344",
-      "title": "Hypertension : ce minuscule implant souple de Penn State pourrait enfin traiter les cas les plus résistants - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOSnVkTVVld19tT1N5eHltNGlVbW1sT2t6OE1Cb3lRR3VtU0JfLURoQlhsXzdMVzFyNzFXTjEwV1V4VTFmT1RnUTJWRDBaT1d1UTF1RFhUMWpkY0JiQnMtS2lwOGIzSHk2NTRfcWxNYlN4RW5VS0hXaFJ6TE03SzlMYklTVy0zTUZjMUt3MmktTlVrTHpEQWhxdTZsazE0ams4QXNrUjdRS1FLVmdPZXZHT0w1bEtJSVI1ZHI4eERjSTdBMXFCSlhHNmRTZGpXSnRFLVR3TkNwVkhDMEt0NlhGX1BqczV0ajhLd3NGUW5UMlpLVU9ydWh0QlJsTjkyQ1VDc0cza2taRG1ZZGlSaWcxMTV6aExUZURmS3hGQ2pjckZEcDA?oc=5",
-      "published": "2026-05-19T14:26:58+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
       "id": "57f40b3db0d6",
       "title": "Bientôt un comprimé pour contrôler l'apnée obstructive du sommeil - Santé Magazine",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONm9fcXBRNVAwUGFKcGdXdE1KVnhNaWVIc1V1UnN3MXJDSGtSeldsS2VZZTY4dHBqYVJHd01BREZSS3B2UXRCdUF6S0JmWWFDd2VaR0NxVnpPZUsyak5YbzNPOXRadWRpdEh3Nkg2WGlJUFU4c0NNOERfSlZZR3JuNUI4NlN1X09CU0tzSFE5N1l4U0hPdnVObTNwb3l0ajRpb05QTzRTMGpFZkw3ZGk3c3NkdHZSM0g3V3VWUEVwSzJxX1ZXWUVJQ3V6Qk9USk0?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "Santé Magazine",
         "url": "https://www.santemagazine.fr"
+      }
+    },
+    {
+      "id": "997c1e054344",
+      "title": "Hypertension : ce minuscule implant souple de Penn State pourrait enfin traiter les cas les plus résistants - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOSnVkTVVld19tT1N5eHltNGlVbW1sT2t6OE1Cb3lRR3VtU0JfLURoQlhsXzdMVzFyNzFXTjEwV1V4VTFmT1RnUTJWRDBaT1d1UTF1RFhUMWpkY0JiQnMtS2lwOGIzSHk2NTRfcWxNYlN4RW5VS0hXaFJ6TE03SzlMYklTVy0zTUZjMUt3MmktTlVrTHpEQWhxdTZsazE0ams4QXNrUjdRS1FLVmdPZXZHT0w1bEtJSVI1ZHI4eERjSTdBMXFCSlhHNmRTZGpXSnRFLVR3TkNwVkhDMEt0NlhGX1BqczV0ajhLd3NGUW5UMlpLVU9ydWh0QlJsTjkyQ1VDc0cza2taRG1ZZGlSaWcxMTV6aExUZURmS3hGQ2pjckZEcDA?oc=5",
+      "published": "2026-05-19T14:26:58+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -244,16 +244,6 @@
       }
     },
     {
-      "id": "8bd960f67f3c",
-      "title": "Est-ce que tous les comprimés de médicaments peuvent être coupés ou écrasés? - Le Journal de Montréal",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOFRwQ0tTUXRpWGdHV2FCdEV3OUpVTWU3Mko5TTVzWF9HeEFjSE1XRlgtSEs1Rkt4S1lhX1UtWmdPOGx2d2tjWGstc0MzNzdpeTJqRW05MFg5bS1tRnhsUk85N1hfamNXX19UWHNicmk5elNIMDNsajVDZnhOS2JOejRMV3dfbHV4WENXOWNOaVJvV0FVQ045UDVfb2hTT0FNSjZwQ2hXRFZ5djBnWG51TjVXbXNxaGJYazlubw?oc=5",
-      "published": "2026-05-19T15:30:00+00:00",
-      "source": {
-        "name": "Le Journal de Montréal",
-        "url": "https://www.journaldemontreal.com"
-      }
-    },
-    {
       "id": "4a22357f1770",
       "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
@@ -261,6 +251,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "8bd960f67f3c",
+      "title": "Est-ce que tous les comprimés de médicaments peuvent être coupés ou écrasés? - Le Journal de Montréal",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOFRwQ0tTUXRpWGdHV2FCdEV3OUpVTWU3Mko5TTVzWF9HeEFjSE1XRlgtSEs1Rkt4S1lhX1UtWmdPOGx2d2tjWGstc0MzNzdpeTJqRW05MFg5bS1tRnhsUk85N1hfamNXX19UWHNicmk5elNIMDNsajVDZnhOS2JOejRMV3dfbHV4WENXOWNOaVJvV0FVQ045UDVfb2hTT0FNSjZwQ2hXRFZ5djBnWG51TjVXbXNxaGJYazlubw?oc=5",
+      "published": "2026-05-19T15:30:00+00:00",
+      "source": {
+        "name": "Le Journal de Montréal",
+        "url": "https://www.journaldemontreal.com"
       }
     },
     {
@@ -384,16 +384,6 @@
       }
     },
     {
-      "id": "323745733683",
-      "title": "Médicaments: le Luxembourg exposé aux failles de l’UE - Paperjam",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVDNrWklFNlFybS00d2tzaFFWaVFZRlFxVHZ3S3FMZm43QlJrZnNsTTg0NFpzdzBkbHBBU3phRWhscklZQ282dFNoYlhHZXBua2pLbFFkM2pIYXhjaWZZSTNtQzN5SVBlalVYR3hLSWVFc2U4NVFOSDV1amludUR5ajVacFhaZw?oc=5",
-      "published": "2026-05-19T04:01:10+00:00",
-      "source": {
-        "name": "Paperjam",
-        "url": "https://paperjam.lu"
-      }
-    },
-    {
       "id": "7e9a7fccd3d7",
       "title": "Les analogues du GLP-1 réduiraient aussi ce trouble respiratoire - Pourquoi Docteur",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYktBWld2bnVzWUdBMjlkQ2tITUp3cjM2bklzcm5hOGhhM0hUWDQ3QmdSWFB5b3NUMjFqWVg4R0NVR2V0N1NnS0ZZWloycGtNenJxVjZITGVUMkZRdTNQalVERjBsVVl0cGVxRE5rcjctSDV5VUJuZEVTRWpPVnRiNm5tbmFoeUc0bnhOZ2V5di1lNGdiTWdhZlVVVjVObjFSMWNWT1UxdHdSUmpfT2tvb1Q0VEo?oc=5",
@@ -414,6 +404,16 @@
       }
     },
     {
+      "id": "c837f2b0ee64",
+      "title": "Tunis et Pékin approfondissent leur partenariat dans la santé numérique, le médicament et l'innovation - Gnet news",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcmh5bFdNc1YxOWZwNGNmMkl4OGNUeU9UZ2ppUWpQeGRnMUxXY291d0V5aGNJT2tURk1vdGpJRDlHNld1TjExUWkyVDhPNDRSaHFYWUZ6OW4xZnA4Q1ZoN0p6Mm1hcG1JcmZXUWFTRTNyZ0k0UzlzUU11cy05Q3FpcFlESFlWWng3dS03U1JvX2EtMkRzMFZEYWhkeFhVYzJ5QzIxclVzMVJ0NUtPQWhFckNUb2J1bGVESlVqWWdOSQ?oc=5",
+      "published": "2026-05-19T09:34:16+00:00",
+      "source": {
+        "name": "Gnet news",
+        "url": "https://news.gnet.tn"
+      }
+    },
+    {
       "id": "7848b12407ac",
       "title": "« Certains acteurs cherchent à exercer des pressions » : La HAS défend son « indépendance scientifique » dans l'évaluation des médicaments - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMldxR1dlcUV2RWRnVlJURnRRSVcxQWpBRF9NR0UwNE03SS1KZlkwUm51d1F2dGZqdkJTMlFTZ0JqbklfZ2hOaHJhRjkwdEVqUWFhaTNBQ3dDM01MMjBIbHBISW02LUxqSEJsaDBzSzlORFM5d3FrTXJCV1MzaDV6N3otRktfNzJISVhGdWhUWDU3bzdmMGtMeGwwZDA1MEl3Mm1ZVldTMl9CRlkyd2tjUDhLUHJYRkZFeG5pZGRBN0lFel9uaklmMUNrZVdPeEdpZnU2QXFNVk9fU1lrRmU0N1g5OFNNb3QzYUtlZUdvMzViekVyVGtiYXN4V294eVRaYm12NDZhOE5WZkk?oc=5",
@@ -431,6 +431,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "323745733683",
+      "title": "Médicaments: le Luxembourg exposé aux failles de l’UE - Paperjam",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVDNrWklFNlFybS00d2tzaFFWaVFZRlFxVHZ3S3FMZm43QlJrZnNsTTg0NFpzdzBkbHBBU3phRWhscklZQ282dFNoYlhHZXBua2pLbFFkM2pIYXhjaWZZSTNtQzN5SVBlalVYR3hLSWVFc2U4NVFOSDV1amludUR5ajVacFhaZw?oc=5",
+      "published": "2026-05-19T04:01:10+00:00",
+      "source": {
+        "name": "Paperjam",
+        "url": "https://paperjam.lu"
       }
     },
     {
@@ -494,16 +504,6 @@
       }
     },
     {
-      "id": "a7b7dfcd4955",
-      "title": "«Il était trop tard»: une erreur de pilulier fatale pour une aînée à la santé de fer - Le Journal de Montréal",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWNLZEJ0TnBXSkRuRm92OG9lbU0zWUtKcDhvamRBOXZFNF8tdXNoc2NtREI1bTZacldUd1ZCX2NIbE1Oem5PWnJLSUp5dGQ0UlRCY3FmR1pNcDNFejlUUC0wS0h1dGlWNW9vWHplazZIbklTQWIySVFwaGVWeG45ZVJXWEIwOG05YXdqU1BCOUdoSFZSYTBWWHcwWklsRENPRmdESEpBdFJ3U3Rmc1ZlazF1OTZkdFlnNUp5RDNEalVIMFhOQnc?oc=5",
-      "published": "2026-05-19T04:00:00+00:00",
-      "source": {
-        "name": "Le Journal de Montréal",
-        "url": "https://www.journaldemontreal.com"
-      }
-    },
-    {
       "id": "5768dc09f0f6",
       "title": "Sobriété médicamenteuse : moins prescrire pour mieux soigner - Ameli",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQXNUSng4ZjRmOE4zbmZTVjREaEtHbnlFemRjSjExWlQwdFFGbjB2OUJEWkNxWWJQMG9BaGhTUEdCZUlTbXZvYkJnR3dqZU5ZTm5ib1d4Vm93NDdZSjlVc1hsLUNVLVVEVlZ3dDZraTJVVWlNanI0eTRqSzlUdVQxdGszcl83aXFBNEtWc0c5dUw5VHZjOVh1N1otWDhmSTBaTl9kUVJiMU92LUhkTzZwQ0hSLXE0TnVrMk14cUFtdklwWUtaeGQyOTdXZTBvSnRqeXIwZjRkUWRnR0JCZ0xsV1BSSlBKWHc?oc=5",
@@ -544,13 +544,13 @@
       }
     },
     {
-      "id": "815b30619d77",
-      "title": "Kubota Vision Inc. signe un accord d'approvisionnement et de licence avec les Laboratoires KÔL pour un médicament candidat dans la maladie de Stargardt sous Accès Compassionnel - Lelezard",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCVkVnYVVGNmY0d0lSWTl3c2R5V2hSQjBxYmlMRmVscmxwNWItZFJpUVpEZmVfV215eV8wajBIME9uRVp6UEFMNTN6ak1UNXJXT2swUVZ4S0NoSVo1R1E?oc=5",
-      "published": "2026-05-19T13:26:40+00:00",
+      "id": "a7b7dfcd4955",
+      "title": "«Il était trop tard»: une erreur de pilulier fatale pour une aînée à la santé de fer - Le Journal de Montréal",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWNLZEJ0TnBXSkRuRm92OG9lbU0zWUtKcDhvamRBOXZFNF8tdXNoc2NtREI1bTZacldUd1ZCX2NIbE1Oem5PWnJLSUp5dGQ0UlRCY3FmR1pNcDNFejlUUC0wS0h1dGlWNW9vWHplazZIbklTQWIySVFwaGVWeG45ZVJXWEIwOG05YXdqU1BCOUdoSFZSYTBWWHcwWklsRENPRmdESEpBdFJ3U3Rmc1ZlazF1OTZkdFlnNUp5RDNEalVIMFhOQnc?oc=5",
+      "published": "2026-05-19T04:00:00+00:00",
       "source": {
-        "name": "Lelezard",
-        "url": "https://www.lelezard.com"
+        "name": "Le Journal de Montréal",
+        "url": "https://www.journaldemontreal.com"
       }
     },
     {
@@ -561,16 +561,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "db6779eaf650",
-      "title": "Des examens médicaux et des médicaments gratuits ont été fournis à près de 200 habitants de la commune de Phong Quang. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUldFVHU1XzhvNWVQakFYWjZoaWZYWF9uSlVUaGlCUks2b1FVV1RfWTZCNWVrZFFpanhwbEdzREZqeHd6OGJjZ0dzNF9fRW9MYUlTTGpPdEJ6VXNQaUpzcTNibkZHU3JwLXFhRk0xUDVmcEk0SGdiMlp5VDFSMzNqYnlJdDh0cGc3WHlRY1M3QXdIa3JZUnc?oc=5",
-      "published": "2026-05-19T09:13:59+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -631,6 +621,26 @@
       "source": {
         "name": "ARS Pays de la Loire",
         "url": "https://www.pays-de-la-loire.ars.sante.fr"
+      }
+    },
+    {
+      "id": "815b30619d77",
+      "title": "Kubota Vision Inc. signe un accord d'approvisionnement et de licence avec les Laboratoires KÔL pour un médicament candidat dans la maladie de Stargardt sous Accès Compassionnel - Lelezard",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCVkVnYVVGNmY0d0lSWTl3c2R5V2hSQjBxYmlMRmVscmxwNWItZFJpUVpEZmVfV215eV8wajBIME9uRVp6UEFMNTN6ak1UNXJXT2swUVZ4S0NoSVo1R1E?oc=5",
+      "published": "2026-05-19T13:26:40+00:00",
+      "source": {
+        "name": "Lelezard",
+        "url": "https://www.lelezard.com"
+      }
+    },
+    {
+      "id": "db6779eaf650",
+      "title": "Des examens médicaux et des médicaments gratuits ont été fournis à près de 200 habitants de la commune de Phong Quang. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUldFVHU1XzhvNWVQakFYWjZoaWZYWF9uSlVUaGlCUks2b1FVV1RfWTZCNWVrZFFpanhwbEdzREZqeHd6OGJjZ0dzNF9fRW9MYUlTTGpPdEJ6VXNQaUpzcTNibkZHU3JwLXFhRk0xUDVmcEk0SGdiMlp5VDFSMzNqYnlJdDh0cGc3WHlRY1M3QXdIa3JZUnc?oc=5",
+      "published": "2026-05-19T09:13:59+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -734,16 +744,6 @@
       }
     },
     {
-      "id": "1cd98bd3e5fe",
-      "title": "BioSyent annonce l’approbation de Thyconvi(MD) par Santé Canada (solution orale de lévothyroxine) - Le Soleil",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPOU5XVnpWLV9JQXVibDBnd3NuVnFHVF95U21sT3lNQUNmeFFQQ1h3TW5TaG82cU5FdlY4OTY5M1JtVUVUQWdyaFgyT19CbUNqUWNhSnpraWFxQXhsSzhNOWFCTUlTNERqTnd4QWx2MzF6UGZKcWMzU2dOal95cWQ5SWlVTUhMbkdOU3Zmc2F6RUJ4NE5uSWJ1bXNDeEVtRDBQTkxqSmFpU2ZGR2kyeHQtVGFGaDVTTzJfTjdnMVpWdE56UkxCV0o3RGJ4b2dCbGcyenFIVVFkNmg5LXlCaVo5M1lZT3hvTGVVMWpNQk9uQTZ0dDNjcmx0M0dfVUlwbTlaVks5bUJmZUIydw?oc=5",
-      "published": "2026-05-19T13:55:12+00:00",
-      "source": {
-        "name": "Le Soleil",
-        "url": "https://www.lesoleil.com"
-      }
-    },
-    {
       "id": "9e044945b6dd",
       "title": "L'industrie pharmaceutique suisse conclut un accord pour réduire le coût des médicaments aux États-Unis - Euractiv FR",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkxGa1JvandRVFdVNkdTQ2pWS3otSGx1bjhQZVVjZ0xzc2VCbk9ObGVsZDRFUkR6TGI0MGY2SG9lY2p3ZDBtaF9RTzlicDFsWHB2YTAtQU1TVEZSSTdyVjRxaDM4SENfNjRQY2prTjVocHIzbGs2Q2liMW0tdm00b3hiZWpmYVl5R08tcG1XbkpLOG5YaXh2dFhYYTNWczZMeVB6WmtTRnFlQ29iY3R5ckRvV0wybzl0cW9pU2lfVkRXMF9HYjdB?oc=5",
@@ -774,6 +774,16 @@
       }
     },
     {
+      "id": "78b88af5ae64",
+      "title": "Santé: Mortel au Japon, ce médicament est autorisé en Suisse - Blick",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORzFpZm5RUW9zampqdDBSQllCSHpaZlhUMVdGNHR3TkVaZ0xROEJmcEtCOXQ5U19KZDRhRUl2SFR3TlJQZ0ZUczl0SDQwZkFMRHJ0Ti1YQkQwTVdDY1AtMkFzUDdYVG5HQ2dCbmtNQWZDUWFINmpVMkFQaHNtNUItX24tOG1MREdDbHh6YUJDZzY2anJ5dzJsR3lzSXBGQQ?oc=5",
+      "published": "2026-05-17T12:27:29+00:00",
+      "source": {
+        "name": "Blick",
+        "url": "https://www.blick.ch"
+      }
+    },
+    {
       "id": "a051be338731",
       "title": "Actualité - Quétiapine 300 mg et 400 mg LP : conduites à tenir dans un contexte de fortes tensions d’approvisionnement au 05 août 2025 - ANSM",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMjVXNUdzdm5EU0NGaHpRWFVXRVJYSDE2Q0l5R2p5RXVnODdsSno2TDI4NEc4OUM1U1puQ1Q1SXpHWnRRTWRZQXdYVzRWXzcyckJicm9rSnJjc1hFNEp4allnWDFxaktlSjdyNVM1M0hVSTl5LWkyV2NKYkpMRmxHM3lleExxbmRzejE3ZFJjTFZnZkYyRk8tVXp6WVRlelNrM3Rxc19jSG0xT2NJNnVLWmhnbUhzSWdjdll1cmh1bmMtWlhLSk5UZHQyd3dFSE5odEZZMlJsWVZRdnB3cTBQQ3FjRk55OGs?oc=5",
@@ -791,6 +801,16 @@
       "source": {
         "name": "Journal des seniors",
         "url": "https://journaldesseniors.20minutes.fr"
+      }
+    },
+    {
+      "id": "1cd98bd3e5fe",
+      "title": "BioSyent annonce l’approbation de Thyconvi(MD) par Santé Canada (solution orale de lévothyroxine) - Le Soleil",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPOU5XVnpWLV9JQXVibDBnd3NuVnFHVF95U21sT3lNQUNmeFFQQ1h3TW5TaG82cU5FdlY4OTY5M1JtVUVUQWdyaFgyT19CbUNqUWNhSnpraWFxQXhsSzhNOWFCTUlTNERqTnd4QWx2MzF6UGZKcWMzU2dOal95cWQ5SWlVTUhMbkdOU3Zmc2F6RUJ4NE5uSWJ1bXNDeEVtRDBQTkxqSmFpU2ZGR2kyeHQtVGFGaDVTTzJfTjdnMVpWdE56UkxCV0o3RGJ4b2dCbGcyenFIVVFkNmg5LXlCaVo5M1lZT3hvTGVVMWpNQk9uQTZ0dDNjcmx0M0dfVUlwbTlaVks5bUJmZUIydw?oc=5",
+      "published": "2026-05-19T13:55:12+00:00",
+      "source": {
+        "name": "Le Soleil",
+        "url": "https://www.lesoleil.com"
       }
     },
     {
@@ -844,26 +864,6 @@
       }
     },
     {
-      "id": "78b88af5ae64",
-      "title": "Santé: Mortel au Japon, ce médicament est autorisé en Suisse - Blick",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORzFpZm5RUW9zampqdDBSQllCSHpaZlhUMVdGNHR3TkVaZ0xROEJmcEtCOXQ5U19KZDRhRUl2SFR3TlJQZ0ZUczl0SDQwZkFMRHJ0Ti1YQkQwTVdDY1AtMkFzUDdYVG5HQ2dCbmtNQWZDUWFINmpVMkFQaHNtNUItX24tOG1MREdDbHh6YUJDZzY2anJ5dzJsR3lzSXBGQQ?oc=5",
-      "published": "2026-05-17T12:27:29+00:00",
-      "source": {
-        "name": "Blick",
-        "url": "https://www.blick.ch"
-      }
-    },
-    {
-      "id": "7da48d8a60a4",
-      "title": "Surdose «volontaire» de Benadryl: une tendance inquiétante chez les jeunes - TVA Nouvelles",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFNwXzJjR1Bab2E2eGd3dGtYN0Rva3FTSE1mYkpXbGJGVWNZTnIwOExUemlLQy1tbFl3YkRYSjBxS1BEaXZfUHVULUxXRjdTcVhLUVZEbUtuTVNtRzhDNzNZNDItZ25FdHN5R0Q3NWE0TzUyOHYtQm5PTEdBUkY3dWcyRFhSbXg5NzRnaDA0ZkNKSzBIek84NzUzZE5vTXVCUjBwNFQ5TUlZbjVZMkJJ?oc=5",
-      "published": "2026-05-19T14:36:50+00:00",
-      "source": {
-        "name": "TVA Nouvelles",
-        "url": "https://www.tvanouvelles.ca"
-      }
-    },
-    {
       "id": "8799b824d16d",
       "title": "Votre taux de cholestérol peut-il être trop bas ? - National Geographic",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYjFVcm5BT3U5SUV4dmdXVmZPRkRyeExka2JkN1VmZUsyUHVPeXlxVENJdU10d2JmX2RmYlNkcHNEcUhMZjk3U1BQRzNnSGdQc0lJc1BUVlAteXBZTzFmRV9BaW5FQVZGX3ZsNEp4YnNtRDMtck9RdFlCTThPVWotUk9xd0VJclQtN0NXM3BlV2ktcWtCczJVejB3Yjh0NmRiRFo5NEF4ek1NUVJULWtoUnl3RTgzQW9WNWpN?oc=5",
@@ -881,16 +881,6 @@
       "source": {
         "name": "ohchr",
         "url": "https://www.ohchr.org"
-      }
-    },
-    {
-      "id": "0e082f7cc038",
-      "title": "\"Injections amaigrissantes\" : avancée majeure ou supercherie ? - RTL Lëtzebuerg",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbHFiUzhDUEJLRllNRXNBQ0NPR1ZZT2pTbV9LdXpXdm52MVdWVWs2YnFKM3dIWUxyYmxBMzBmZXhfUHNxMXNrMl9wWWtGUHAzUTMwRXBaaXoxTkVLdTlpNXY2RkxIcjhfbTdtbTBPV1BuVHlIa1Z2cHJmTEF4bEdtS2tPcGIzOHQ4TnNMamstal8tMEZTMDQ2Tm9qalY3NlN4RC1DYTBGbmh0Q0E?oc=5",
-      "published": "2026-05-19T10:02:00+00:00",
-      "source": {
-        "name": "RTL Lëtzebuerg",
-        "url": "https://infos.rtl.lu"
       }
     },
     {
@@ -914,13 +904,23 @@
       }
     },
     {
-      "id": "3cee76e6abe9",
-      "title": "Prokarium annonce des résultats intermédiaires positifs de l'essai de phase 1/1b PARADIGM-1 évaluant ZH9 chez des patients atteints d'un cancer de la vessie non invasif sur le plan musculaire... - Lelezard",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BZTVyaDVIbEl4YldKU0hBQ0xHM05WX25RQmZNVWhnSE5kLVZlZjJNYnQycDFuN3F3RzR3am1YUGJpZ2xoUGdtX0s1UC1UVHZuRldOUlA0alRvcTlSN2c?oc=5",
-      "published": "2026-05-19T09:41:12+00:00",
+      "id": "0e082f7cc038",
+      "title": "\"Injections amaigrissantes\" : avancée majeure ou supercherie ? - RTL Lëtzebuerg",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbHFiUzhDUEJLRllNRXNBQ0NPR1ZZT2pTbV9LdXpXdm52MVdWVWs2YnFKM3dIWUxyYmxBMzBmZXhfUHNxMXNrMl9wWWtGUHAzUTMwRXBaaXoxTkVLdTlpNXY2RkxIcjhfbTdtbTBPV1BuVHlIa1Z2cHJmTEF4bEdtS2tPcGIzOHQ4TnNMamstal8tMEZTMDQ2Tm9qalY3NlN4RC1DYTBGbmh0Q0E?oc=5",
+      "published": "2026-05-19T10:02:00+00:00",
       "source": {
-        "name": "Lelezard",
-        "url": "https://www.lelezard.com"
+        "name": "RTL Lëtzebuerg",
+        "url": "https://infos.rtl.lu"
+      }
+    },
+    {
+      "id": "7da48d8a60a4",
+      "title": "Surdose «volontaire» de Benadryl: une tendance inquiétante chez les jeunes - TVA Nouvelles",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFNwXzJjR1Bab2E2eGd3dGtYN0Rva3FTSE1mYkpXbGJGVWNZTnIwOExUemlLQy1tbFl3YkRYSjBxS1BEaXZfUHVULUxXRjdTcVhLUVZEbUtuTVNtRzhDNzNZNDItZ25FdHN5R0Q3NWE0TzUyOHYtQm5PTEdBUkY3dWcyRFhSbXg5NzRnaDA0ZkNKSzBIek84NzUzZE5vTXVCUjBwNFQ5TUlZbjVZMkJJ?oc=5",
+      "published": "2026-05-19T14:36:50+00:00",
+      "source": {
+        "name": "TVA Nouvelles",
+        "url": "https://www.tvanouvelles.ca"
       }
     },
     {
