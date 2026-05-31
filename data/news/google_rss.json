@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-05-31T18:09:20.020793+00:00",
+  "fetched_at": "2026-05-31T20:17:31.859446+00:00",
   "source": "Google News Health RSS",
   "count": 99,
   "articles": [
-    {
-      "id": "1c7d93f33b61",
-      "title": "Médicaments anti-obésité : qui pourra bénéficier du remboursement par l’Assurance maladie ? - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakttZGVJWl90X1ZKQl9lZ19RcEFyVk8zbUQ1U2tDMGtyN2VDdXdPamkyRzFHY1RCTW0zUnpiallsMzJHaVdkMzlnWnNSQXpZbXhFcWdXNHRSNDRSS25mc3dydVhRZVJfXzJKTlFmVWlNWTY3aHMtSnFkMW1EZ0RPMkh0WEQ1cm5RbjZTLWFaN0paSWM4UkpJT1Y5OGlhdTlSZzFUWXZxQm41dHdtYmhDZGEwdE1SMzFpRkxpR0dLcmF0bVBfdWkwQzNQRjZULUFaZmhRbEdvZ2hCMmVKUUhGdXl3?oc=5",
-      "published": "2026-05-28T14:10:12+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
-      }
-    },
     {
       "id": "32e253f7ec64",
       "title": "5 trucs pour éviter les soins ou médicaments inutiles - Salut Bonjour",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Salut Bonjour",
         "url": "https://www.salutbonjour.ca"
+      }
+    },
+    {
+      "id": "1c7d93f33b61",
+      "title": "Médicaments anti-obésité : qui pourra bénéficier du remboursement par l’Assurance maladie ? - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakttZGVJWl90X1ZKQl9lZ19RcEFyVk8zbUQ1U2tDMGtyN2VDdXdPamkyRzFHY1RCTW0zUnpiallsMzJHaVdkMzlnWnNSQXpZbXhFcWdXNHRSNDRSS25mc3dydVhRZVJfXzJKTlFmVWlNWTY3aHMtSnFkMW1EZ0RPMkh0WEQ1cm5RbjZTLWFaN0paSWM4UkpJT1Y5OGlhdTlSZzFUWXZxQm41dHdtYmhDZGEwdE1SMzFpRkxpR0dLcmF0bVBfdWkwQzNQRjZULUFaZmhRbEdvZ2hCMmVKUUhGdXl3?oc=5",
+      "published": "2026-05-28T14:10:12+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "f8982688f7f2",
-      "title": "Comment une “idée folle” a permis une avancée majeure dans le traitement du cancer du pancréas - Courrier international",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTEltSHhEczFGU3hSNm5fMXdubUFJcC0zSDBTRTFpb0tlTjZWN1NuSFNNN3lnejhpa1NzTHhPTE5sR2djLWlWYl9BS0FMVzdjajBxUDMyaFIyWVJXM0hnV2NTQVNBNW4teDNKU3l4QWMtM05nTjI1TC1VQ1lQRzcxcXhEcUZEUEcxZm02ZldWXzEySDRuTENqR2QwMVQ2R3ZtZzJKcXc5WEtXblhydFhLSndpSThzZW5lUVFoRzEwY1UyeUR2WjE4b3VEalkwekhNcDdpUzJhWDhvNmFOZnpxRTRRSmtnUQ?oc=5",
-      "published": "2026-05-29T03:00:04+00:00",
-      "source": {
-        "name": "Courrier international",
-        "url": "https://www.courrierinternational.com"
-      }
-    },
-    {
       "id": "b8291dd1256f",
       "title": "Cancer : ce médicament contre l’asthme pourrait aider à détruire les tumeurs - ma-sante.news",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xTlZ1TmlabWJGZ1BKTzJKOEpFOUNkMHFYNThUcmIyTEZpTmlaNDNmMTlMc296ZzBja2FvRkJ2TWhrUEM0TmhfSkVjNlRMdEdnRXE4dkQ5cHVqOEpHeThET0ZqVG41VkRPY1lWb0xUdFpPQk1IRXc?oc=5",
@@ -71,6 +61,16 @@
       "source": {
         "name": "ma-sante.news",
         "url": "https://ma-sante.news"
+      }
+    },
+    {
+      "id": "f8982688f7f2",
+      "title": "Comment une “idée folle” a permis une avancée majeure dans le traitement du cancer du pancréas - Courrier international",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTEltSHhEczFGU3hSNm5fMXdubUFJcC0zSDBTRTFpb0tlTjZWN1NuSFNNN3lnejhpa1NzTHhPTE5sR2djLWlWYl9BS0FMVzdjajBxUDMyaFIyWVJXM0hnV2NTQVNBNW4teDNKU3l4QWMtM05nTjI1TC1VQ1lQRzcxcXhEcUZEUEcxZm02ZldWXzEySDRuTENqR2QwMVQ2R3ZtZzJKcXc5WEtXblhydFhLSndpSThzZW5lUVFoRzEwY1UyeUR2WjE4b3VEalkwekhNcDdpUzJhWDhvNmFOZnpxRTRRSmtnUQ?oc=5",
+      "published": "2026-05-29T03:00:04+00:00",
+      "source": {
+        "name": "Courrier international",
+        "url": "https://www.courrierinternational.com"
       }
     },
     {
@@ -154,13 +154,13 @@
       }
     },
     {
-      "id": "6d4ee0dbfb1b",
-      "title": "Un médicament offre un nouvel espoir dans la lutte contre le cancer du pancréas - Yahoo Actualités",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMmxQQWFuZ2U0RUVGQjhpLTNiZzkyNnBHZEpiN3FmWkRJLXEtc3hrVm5WdlFFVGx5elptM1M5OTRpUkFSN3N2RUc1QjJQQzdxSHBjenFfbTNRWkdEcmlZV0ttcGJfcFZQNHlqNzJwcklrM0wzdWZUNG1OVFBjeERwU2luWUdlVjZ5V3c?oc=5",
-      "published": "2026-05-31T15:58:58+00:00",
+      "id": "4593bc51923a",
+      "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro bientôt remboursés par la Sécurité sociale - L'Express",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdGlxYVNhU3VKSHhrR2dKelIzQU9vUU05ZkR5UkphZWp4RHZzOThiSDRQMnlvY3pUS1NCUkJva2ZhQjlFTmJmTmJHemJGRnRSTnlSd0lvVGphUGlDanFJa1NMN3YtYjRMTVdXMjdTUWxIU2FrUjZLeUxhY056bElodWt2ZjY4OXJKVG12Ml9oWlc3Z3FmOGY0elFJcXBWVjFnS2NmMXlrWXlib3pEZFlXVER4YVo3ZnRMdFhxRk5kUGhabjJDSFRqaGhBN1Rmd3d6NWpoYzIyUk80SE8xQ0M1eENzZGE3OG1IZmVlWV9nVVM4a21VSWJKZA?oc=5",
+      "published": "2026-05-28T10:34:07+00:00",
       "source": {
-        "name": "Yahoo Actualités",
-        "url": "https://fr.news.yahoo.com"
+        "name": "L'Express",
+        "url": "https://www.lexpress.fr"
       }
     },
     {
@@ -191,6 +191,16 @@
       "source": {
         "name": "Boursorama",
         "url": "https://www.boursorama.com"
+      }
+    },
+    {
+      "id": "6d4ee0dbfb1b",
+      "title": "Un médicament offre un nouvel espoir dans la lutte contre le cancer du pancréas - Yahoo Actualités",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMmxQQWFuZ2U0RUVGQjhpLTNiZzkyNnBHZEpiN3FmWkRJLXEtc3hrVm5WdlFFVGx5elptM1M5OTRpUkFSN3N2RUc1QjJQQzdxSHBjenFfbTNRWkdEcmlZV0ttcGJfcFZQNHlqNzJwcklrM0wzdWZUNG1OVFBjeERwU2luWUdlVjZ5V3c?oc=5",
+      "published": "2026-05-31T15:58:58+00:00",
+      "source": {
+        "name": "Yahoo Actualités",
+        "url": "https://fr.news.yahoo.com"
       }
     },
     {
@@ -334,6 +344,16 @@
       }
     },
     {
+      "id": "132704d43940",
+      "title": "Les effets anticancéreux des médicaments de type Ozempic suscitent l’intérêt - Courrier international",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN0cyRWtFWjZGUzBtRTdIZl9yUE9CY1J1ZkhYTUJnZVlQd1lLek9XRGVfNUdSaDE2VXROSnA4bEpaemRoWnlfYnNGOExuRFlMOTktOUFoQUQ5d05IeHlGVmVPXzU3ZWdpcHNrRFlKXzA2OVZqX08xalJzQzAxbFMybU0yTXcxTnBNNXhFS1lRTjZ0b084UjdnOTBJb1hlTmhRSWxYYTdvMTBJenhJcmNUdk9faDd1MDVwLTA3ZzZJaVAydU5VbnhGcUE3cGhWN21t?oc=5",
+      "published": "2026-05-28T16:05:14+00:00",
+      "source": {
+        "name": "Courrier international",
+        "url": "https://www.courrierinternational.com"
+      }
+    },
+    {
       "id": "f3c0923eea61",
       "title": "Médicaments anti-obésité : Wegovy et Mounjaro officiellement remboursés en France - Sciences et Avenir",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZWh4M1FyeEMtWm4zVzJoREd3aVRmbGlwbGxHMENMOUNkSzB2VFliU05FMk1vS3BoZEJZYzFlNmVqRS01UkJJTDJFaG9kRU9pc1pKZDF5OVU1bEx5dU04NW90SktRN3Y0N29WTTY4a1FwUFIycnVJQmV2NzhhZWxnaUpSaUp1bzdkVHYtbnV2dnhGVjdBY2x5Z0JmeVd6b2huQVF4YlJsWnRabVROTkVjbzRlNGl2bHUtejZqeHVoamJVVDN4UHBNZWlEMG9USVppeTdmbTI0NEw0NU5TX3RQWg?oc=5",
@@ -354,23 +374,13 @@
       }
     },
     {
-      "id": "e2fb92537f43",
-      "title": "Wegovy, Mounjaro : dans quels cas ces médicaments anti-obésité seront-ils remboursés ? - Le Point",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOXE3OEs4ZUZNbDhDdndJRjBpUU44NkdoRi1JczZ6akFMRUtDc21zeU56OTlOc0xMaW5KaUVYRXBhbEZwMnYwOUhNcjJWNHVNY1ZpRTNVc3BtUUk0MVRLLUpONEM2VHd2VG4zTG96WnpwYTBXNldoc2FLdVA4b1FJNmNnY0o4dmxWcHpSSS1NMkh1cFIxUElJWldvWjZiVUR4N0xIekQwRk1hUENXZHdRengwc1Jra09sYVdRMU1GbGF1QWszTHEyVXhGRzc1VlBrNFREMg?oc=5",
-      "published": "2026-05-29T07:30:00+00:00",
+      "id": "5eb7b8c91c45",
+      "title": "Plus qu'un médicament, un \"reset\" : comment le Bepirovirsen apprend à votre corps à terrasser le virus de l'hépatite B - Sciencepost",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM3lRUVNHbXh0SXBsT2FfNk5yaThSdlRiY3RvZ1dPbzFmcjZrbVBzSms4MFFWangycklaclNXN3RjOFBlYXJITHd6WjItZS04cFlnQ3NQY0NNLXhGblBFODF0TWtCc0EzNDFVSnFXZXRERmRWenlWcEVaYy1BTGM0LXlneUFMblBrWE1MZ1EtQ3JOeXVWUHpxTUVhMVBzQW5wbWo5RlZiZi1KY1A0OWh6anNFSWRlOXBWUUstLWsxbnVLeGlpdnU2MEQ4WlMtUjZC?oc=5",
+      "published": "2026-05-31T19:36:00+00:00",
       "source": {
-        "name": "Le Point",
-        "url": "https://www.lepoint.fr"
-      }
-    },
-    {
-      "id": "132704d43940",
-      "title": "Les effets anticancéreux des médicaments de type Ozempic suscitent l’intérêt - Courrier international",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN0cyRWtFWjZGUzBtRTdIZl9yUE9CY1J1ZkhYTUJnZVlQd1lLek9XRGVfNUdSaDE2VXROSnA4bEpaemRoWnlfYnNGOExuRFlMOTktOUFoQUQ5d05IeHlGVmVPXzU3ZWdpcHNrRFlKXzA2OVZqX08xalJzQzAxbFMybU0yTXcxTnBNNXhFS1lRTjZ0b084UjdnOTBJb1hlTmhRSWxYYTdvMTBJenhJcmNUdk9faDd1MDVwLTA3ZzZJaVAydU5VbnhGcUE3cGhWN21t?oc=5",
-      "published": "2026-05-28T16:05:14+00:00",
-      "source": {
-        "name": "Courrier international",
-        "url": "https://www.courrierinternational.com"
+        "name": "Sciencepost",
+        "url": "https://sciencepost.fr"
       }
     },
     {
@@ -464,16 +474,6 @@
       }
     },
     {
-      "id": "9ac38f6207ba",
-      "title": "Les médicaments phénomènes anti-obésité Wegovy et Mounjaro bientôt remboursés: le patron de Novo Nordisk salue la \"maturité\" du système de soins français - BFM",
-      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOV0xmV0NLbmJzY3RQWk5aZXozcUFRZFNUaEhfTUJDdjNBSmQ3YXEzR0tvLWc4SWdLOXFNdlVvZHRRRF9GVTRMMWEwZHZVUVdlMkZOcWVHY1B3OXo0b1JhamphR3RqT1pzSzVwVHp4ajZwY3ByeGVnSmdvRXVzVTFLRXJUcHVXa3BBWlhmX1g2UmxsYllZaHRxNlhsZEpyNWN1RHI1bGlvWFo0Q3FtYmVBdkFiTTNESGVsdkVOVEwwZkJxNkplc2l5UTl6UnRIY01IYVg1Q2hHY2FpZW9lSVc3MFlSblJxSGtMWVFyM0JYbXBrS2JJY2c2dUI0Y2tVOTAyVENkZjJkd21NcHVTbE9jNWNmQmZDRVBWeEs5MGFPTHBVMVZZdy1tU1lYTGZjc01nSzgzYWdOVl9sMXJZbG5TNXJhV3Ayck4tcEZqTw?oc=5",
-      "published": "2026-05-28T14:04:37+00:00",
-      "source": {
-        "name": "BFM",
-        "url": "https://www.bfmtv.com"
-      }
-    },
-    {
       "id": "50961a75956f",
       "title": "Canicule : ces 4 médicaments multiplient vos risques d’avoir un coup de chaleur - Top Santé",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLVNjY0NNWW4wcklaLWczRGFLZEFQNGMyWnJDS3JGZWZ1T1RUeENHbGt4Qm5NZjNXcVgwaTNRbGNtOWlHWjJXOWZCWExYajY0TkNOd1JYaXVCSjQzUUNsWkhyeXZKOWI5SVl3VXFZM3UyOVhhNm1uel9xN2plVE5ndERVY0hBLU5Ham5qSS1qUG1tQnpEbVFmaFhMMUhoZjBJTHNlTHpfb3pxQlJSVDAxWUx1VWdZbWlhVjdR?oc=5",
@@ -481,6 +481,16 @@
       "source": {
         "name": "Top Santé",
         "url": "https://www.topsante.com"
+      }
+    },
+    {
+      "id": "d03fb3d995f9",
+      "title": "Remboursement des médicaments contre l’obésité : état des lieux d’un mal qui s’aggrave en France - La Croix",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPclFiVmU4YmpERE8ybmx4WHYza1hhN19JcXRhM0gwa2ROZG1iQ2thbXRZbEg4ZXJwU3B2T2NjZkVYaFBNWXZmc05zR3p2LUR6Si1vaEk2X3g2Smt2NG5KejJ6MUE4VU9vNl80TDZjUTZvZlZMUXZ3cUxhV3JJTExaU0dINTNjWFJJV2J4bFhLQ21wQU5fYlQyVDdoZ0xhMnk4UXFDQTE0NGhuRDhjSnJDeGhkcW5JTVA4NDZ2a3ZOVzZfTTdKTlE5SDlFV08?oc=5",
+      "published": "2026-05-28T14:17:06+00:00",
+      "source": {
+        "name": "La Croix",
+        "url": "https://www.la-croix.com"
       }
     },
     {
@@ -494,13 +504,13 @@
       }
     },
     {
-      "id": "d03fb3d995f9",
-      "title": "Remboursement des médicaments contre l’obésité : état des lieux d’un mal qui s’aggrave en France - La Croix",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPclFiVmU4YmpERE8ybmx4WHYza1hhN19JcXRhM0gwa2ROZG1iQ2thbXRZbEg4ZXJwU3B2T2NjZkVYaFBNWXZmc05zR3p2LUR6Si1vaEk2X3g2Smt2NG5KejJ6MUE4VU9vNl80TDZjUTZvZlZMUXZ3cUxhV3JJTExaU0dINTNjWFJJV2J4bFhLQ21wQU5fYlQyVDdoZ0xhMnk4UXFDQTE0NGhuRDhjSnJDeGhkcW5JTVA4NDZ2a3ZOVzZfTTdKTlE5SDlFV08?oc=5",
-      "published": "2026-05-28T14:17:06+00:00",
+      "id": "9ac38f6207ba",
+      "title": "Les médicaments phénomènes anti-obésité Wegovy et Mounjaro bientôt remboursés: le patron de Novo Nordisk salue la \"maturité\" du système de soins français - BFM",
+      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOV0xmV0NLbmJzY3RQWk5aZXozcUFRZFNUaEhfTUJDdjNBSmQ3YXEzR0tvLWc4SWdLOXFNdlVvZHRRRF9GVTRMMWEwZHZVUVdlMkZOcWVHY1B3OXo0b1JhamphR3RqT1pzSzVwVHp4ajZwY3ByeGVnSmdvRXVzVTFLRXJUcHVXa3BBWlhmX1g2UmxsYllZaHRxNlhsZEpyNWN1RHI1bGlvWFo0Q3FtYmVBdkFiTTNESGVsdkVOVEwwZkJxNkplc2l5UTl6UnRIY01IYVg1Q2hHY2FpZW9lSVc3MFlSblJxSGtMWVFyM0JYbXBrS2JJY2c2dUI0Y2tVOTAyVENkZjJkd21NcHVTbE9jNWNmQmZDRVBWeEs5MGFPTHBVMVZZdy1tU1lYTGZjc01nSzgzYWdOVl9sMXJZbG5TNXJhV3Ayck4tcEZqTw?oc=5",
+      "published": "2026-05-28T14:04:37+00:00",
       "source": {
-        "name": "La Croix",
-        "url": "https://www.la-croix.com"
+        "name": "BFM",
+        "url": "https://www.bfmtv.com"
       }
     },
     {
@@ -584,16 +594,6 @@
       }
     },
     {
-      "id": "3c3c9624d89a",
-      "title": "Wegovy, Mounjaro : les médicaments anti-obésité bientôt remboursés par la Sécurité sociale, qui pourra en bénéficier - Capital.fr",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbllodzR5Y1JsUlliZFdQWEFyTy1FdVl5LTJxNjNpSm0weU9zam1GQV9PVV9MeFEwbXM1RlBXVXpKT3pQYnAtSFgzMUl6MWJ4ZGpYZ0ZFUVBRdVRkV1RPQUdCNlc5NURDenFNamRkcUNjV2duVXNMVUxFTWFleUxoenQtekVoZ0U4NjJHQWxZdnpsbFZyWmFkTHRzc21rcG5sUFp0dDljTUUtWkRQUnBCVVVHQS1KZnF3LXVYR1A0dHFUNzRnem1wdG9nQVp0RjVFb0FSN0hBWEtyeHlFeTVNU1JjY0hBZGYwVDhNYkpZYWkzWTY2?oc=5",
-      "published": "2026-05-28T07:25:48+00:00",
-      "source": {
-        "name": "Capital.fr",
-        "url": "https://www.capital.fr"
-      }
-    },
-    {
       "id": "53f0726df114",
       "title": "\"C'est une révolution\" : pourquoi le daraxonrasib, un nouveau traitement contre le cancer du pancréas, suscite de grands espoirs - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOMHh4M1ZVWU4xd0E1LVBrNVhFakFvUlR4cVhOUURHakJ4aU9CTkljNC1uaEhfYXhyQmRQODVDM0o0NkpfWlhlSlUzMi1sc2tMbmlqOEdacXZRenUtQ25jYlJQVmxmSWlQV0RKTWJibXJxVjdKVEFyR3pKUzFzSm9FSmJaOGlZQTBXS2YzNkxDWmhoVkZ0c1hmVkhMNVRmcUlVMjRQRlMxazdUQ2k1YS1ZVUlIekpiYkEwaHVWeUZNdkRpdllhdjIyMTMzWkJRNUxITzNiS3BPblF2enhQelpxdDEzdGk3MTd4Sk12NEIwUGd0bXpZTUIyNGd1NFdiR1VFNEpCSQ?oc=5",
@@ -604,23 +604,13 @@
       }
     },
     {
-      "id": "d36067bca7c4",
-      "title": "Pour des infractions similaires, plusieurs grandes entreprises pharmaceutiques ont été lourdement sanctionnées par le ministère de la Santé. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXRwN0RoNWlnR3BHUnJvcF9NRTlJVUUtZG5RYmpfdkF1LTFac0xqeGtfczBoQWRBUnkxLWNnbEp1SE5mbnZyTERDdjVQNDExQmlZaUZRT3pha0FkcTNoQV9DbVpTN2haV3l0dFpjV1Z1ZlBOSGNZSXdPTEJ0Z3N3T2R3cGdlU2pxNWI5WFI5NzRnNE5KWnozdg?oc=5",
-      "published": "2026-05-31T15:44:33+00:00",
+      "id": "3c3c9624d89a",
+      "title": "Wegovy, Mounjaro : les médicaments anti-obésité bientôt remboursés par la Sécurité sociale, qui pourra en bénéficier - Capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbllodzR5Y1JsUlliZFdQWEFyTy1FdVl5LTJxNjNpSm0weU9zam1GQV9PVV9MeFEwbXM1RlBXVXpKT3pQYnAtSFgzMUl6MWJ4ZGpYZ0ZFUVBRdVRkV1RPQUdCNlc5NURDenFNamRkcUNjV2duVXNMVUxFTWFleUxoenQtekVoZ0U4NjJHQWxZdnpsbFZyWmFkTHRzc21rcG5sUFp0dDljTUUtWkRQUnBCVVVHQS1KZnF3LXVYR1A0dHFUNzRnem1wdG9nQVp0RjVFb0FSN0hBWEtyeHlFeTVNU1JjY0hBZGYwVDhNYkpZYWkzWTY2?oc=5",
+      "published": "2026-05-28T07:25:48+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "6618b88a15d8",
-      "title": "Grossesse : l’IA pourrait enfin mieux évaluer les risques des médicaments - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNdjdZaGhWNEhqQ1dZaldGQ25yb20wV0tQQl9IaGNuUU85dlRKVHphYzJHTVhHV3VEZ2g5SFNuYm5DejladE5RTVhGTUxqR0pGYzRxUTdPZ0dSWEV2OHRGTnF1MFczcnNRNUNNS0t1Y3VCTE9MMUJZbG5vVDNKZ3c5dnZtbHdmOU5PR2RWelhaWHhfWkhmREtYck5wMEhUUjhTRzZiYnBqaGpfWVRDOEhwbV9hM041M3A3eXZCN2Y2a0JTQndWenhmX3dsMFR5VzJLd0w4ZmQ2VTZpekgwU2llZXBhR3Zncm14Unl0SUZpcnZGbkF6Zk9Tem5nUVloUGVZMWxrdFlRY2d3M3o1dFZmcGlkeUJ3WkhuZ0JJb2ZrcTR0SlBfUlFLQnY5ZDZwMXh6X1UwcEdwVGNETk1PbnZZ?oc=5",
-      "published": "2026-05-29T07:00:38+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
+        "name": "Capital.fr",
+        "url": "https://www.capital.fr"
       }
     },
     {
@@ -641,6 +631,16 @@
       "source": {
         "name": "Pourquoi Docteur",
         "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
+      "id": "d36067bca7c4",
+      "title": "Pour des infractions similaires, plusieurs grandes entreprises pharmaceutiques ont été lourdement sanctionnées par le ministère de la Santé. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXRwN0RoNWlnR3BHUnJvcF9NRTlJVUUtZG5RYmpfdkF1LTFac0xqeGtfczBoQWRBUnkxLWNnbEp1SE5mbnZyTERDdjVQNDExQmlZaUZRT3pha0FkcTNoQV9DbVpTN2haV3l0dFpjV1Z1ZlBOSGNZSXdPTEJ0Z3N3T2R3cGdlU2pxNWI5WFI5NzRnNE5KWnozdg?oc=5",
+      "published": "2026-05-31T15:44:33+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -704,16 +704,6 @@
       }
     },
     {
-      "id": "299cbbd66db4",
-      "title": "Aurait-on trouvé la parade à l’antibiorésistance ? - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbFRSNk13LXItYThaWFh2Mk00RXhTUXBtMDlhZUYwM0phT0ZGWUhhWmJZTDB4RnlIQ3dWa1ZPOGRHSlZSa21HN183eUtfZTBfaEk5RUdjNEdWakhGMWJNbVU0cU5ZOTdWMkduVDUtVUxfWkJjVzFIYlh3Nm1SNzZrMmpSTEJFdU15VnEwaUZsQnhuY3dWWEpJQ2c0OWRudkhZRjVWU3VqQXM?oc=5",
-      "published": "2026-05-30T14:45:00+00:00",
-      "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
-      }
-    },
-    {
       "id": "78cbbd18e2dc",
       "title": "Actualité - Surveillance des aGLP-1 : l’ANSM confirme le rapport bénéfice/risque favorable lorsque ces médicaments sont utilisés conformément aux recommandations - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNT1hUM3A0a0FWbUJsWTI5YlVBMXhEZU5XT09FSGVfTktLREhuVFY4ckxCZ083dW5XdW4zakJ4TnpfQUFrV1JPcEpmamhPUUlHNHpMeVlIR1BEYnJ5SlhaeDB3ek5mUGZPQ1d6dk9yZFdnQkdtRFc3Qm5vTmdYTnIxZFpXRkRvcHdRaHhiRjEzSVl3M1gzc1RsRTZTRGVXZEhnMEFNeE9zTU1pSF9faVRIMWt1c2FXYndqQXFXVTFwd1NFVllSeXV3aVRYWnpBT1hQcW83TnR6dnA0dVVtNk1yYTFPaC1oZUZjQWw5MFZ2Qm01TGEtZTdlTkhBTmV5ekdBcEJRdkxSZTVwclU?oc=5",
@@ -724,16 +714,6 @@
       }
     },
     {
-      "id": "3d9ef06646ea",
-      "title": "Canicule : ces médicaments peuvent devenir dangereux en cas de fortes chaleurs - Yahoo Life France",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaWFOOEwzd0E2UHpTallITWJwdVhyR2pQcFU0MndoRkFUQnVtUVhVRUFPbE1uNkQ1UjBsS1dDQ01rd01CVHg5bDVOMUVFcUUzQ21qMjZuWEpyOGZIMjIyQk5KWUhOdnBmUVpLWmZuM1J5dXFQM0lGZE9Wa3Q2TVBUczdOcTRwTFRUWWdsSzM2SWFJRmRXVmhMUA?oc=5",
-      "published": "2026-05-28T15:52:00+00:00",
-      "source": {
-        "name": "Yahoo Life France",
-        "url": "https://fr.style.yahoo.com"
-      }
-    },
-    {
       "id": "8678e2ed2cdf",
       "title": "Prequalification of medicines by WHO - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZE5sbXhvNmplX0djODVaN0M2dlBaMkNlSnZob2IxdzhORkhDSllyaEhkYTVUOTZrcWs3Zml4X2o4OXpwQ2VSQ2xpRGk1dzBPVnlkTGNWRTk3amxkR1R3b25iZ1RQS2x2Um9McEpzYWlZTVRvZTlLYjU4TUVpRmhsaTJzdUFQTW8xZlBXU1RpdUNxQQ?oc=5",
@@ -741,6 +721,26 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "299cbbd66db4",
+      "title": "Aurait-on trouvé la parade à l’antibiorésistance ? - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbFRSNk13LXItYThaWFh2Mk00RXhTUXBtMDlhZUYwM0phT0ZGWUhhWmJZTDB4RnlIQ3dWa1ZPOGRHSlZSa21HN183eUtfZTBfaEk5RUdjNEdWakhGMWJNbVU0cU5ZOTdWMkduVDUtVUxfWkJjVzFIYlh3Nm1SNzZrMmpSTEJFdU15VnEwaUZsQnhuY3dWWEpJQ2c0OWRudkhZRjVWU3VqQXM?oc=5",
+      "published": "2026-05-30T14:45:00+00:00",
+      "source": {
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
+      "id": "e1a645c69c01",
+      "title": "Faut-il vraiment éviter le pamplemousse lorsqu’on prend des médicaments ? - Santé.fr",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0lrWUZsUE8weWpjczhVa2ZVWXZjVS1yZXQ1b3M1Znc1OWFZVUJOLTREc0ZSVkpUbE43blVncWNqanZsU3JYUG5vLWo4Sm5UbmpOTVRVV0RMakVxbmt0SW10VGNYbmZ6UjNrWWFzWGYwa21tUmswcDhkeW8tZUs2NGVjTU1CSzBlZGdEUVpaakV4MzZyZ3RXT0NKLXFsTklKMGF6Nll3SF9XWU9oY0xUOEF1S1RfUQ?oc=5",
+      "published": "2026-01-12T08:00:00+00:00",
+      "source": {
+        "name": "Santé.fr",
+        "url": "https://www.sante.fr"
       }
     },
     {
@@ -761,16 +761,6 @@
       "source": {
         "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
-      "id": "e1a645c69c01",
-      "title": "Faut-il vraiment éviter le pamplemousse lorsqu’on prend des médicaments ? - Santé.fr",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0lrWUZsUE8weWpjczhVa2ZVWXZjVS1yZXQ1b3M1Znc1OWFZVUJOLTREc0ZSVkpUbE43blVncWNqanZsU3JYUG5vLWo4Sm5UbmpOTVRVV0RMakVxbmt0SW10VGNYbmZ6UjNrWWFzWGYwa21tUmswcDhkeW8tZUs2NGVjTU1CSzBlZGdEUVpaakV4MzZyZ3RXT0NKLXFsTklKMGF6Nll3SF9XWU9oY0xUOEF1S1RfUQ?oc=5",
-      "published": "2026-01-12T08:00:00+00:00",
-      "source": {
-        "name": "Santé.fr",
-        "url": "https://www.sante.fr"
       }
     },
     {
@@ -814,16 +804,6 @@
       }
     },
     {
-      "id": "dc591e11a548",
-      "title": "Pénuries de médicaments : des laboratoires impunis - France Assos Santé",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYmtaLTU2djVYRFVMS1M3MGN3UERKdDM4ZVhZRUp2MjBFSGlkMVZZTzJSV3JKWFhMZzhsQjV3X1lFWnJ2cmVKMzV4QjY1TUdvTF9CYUcxN2ZIUTNBZUMzSldxWG1ial9Ua0d2aXM1OHE4bkp4M2VDWVE5VGVBa2Z5SS1IZGRVeWRvSERfNmJnSzJJaTg?oc=5",
-      "published": "2026-04-17T07:00:00+00:00",
-      "source": {
-        "name": "France Assos Santé",
-        "url": "https://france-assos-sante.org"
-      }
-    },
-    {
       "id": "0cfc11671b4a",
       "title": "Allonger la durée de conservation des médicaments dans un objectif de réduction du gaspillage et de la pollution - ANSM",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTzFramwtTGVyRHN3VHlVV190U3VyOXJFdlNwdUM2blRzeC14WTBpME9BS2RqZXBSS2VuU2RJYnRtMjFKdEJwMl9jSlJBZ2Z1TEJOOFlyQVpIV2tvVlVEcTViRHc3UGl5YV84LWRGSEdUVUphY3JzUGZzWFZ1bVJuQUNMT0pmMlNMazJ4VFNsdjNIVzFYd2Y0ck9WTHNEVXFqU3ZBb3FYNHRWc0U2d0NGRmF1di16VFhoanQyLWxnUFNuWWJjeUFBdkZrc24zNEFkbWVFbjlQdUZqQnd1N2c?oc=5",
@@ -854,13 +834,13 @@
       }
     },
     {
-      "id": "bdb773293e4d",
-      "title": "Le CHMP recommande l'approbation de Braftovi, un médicament pour le traitement du cancer colorectal qui réduit le risque de décès de 51 %. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOend0aWJzekI4UkRkLVQ0RGdEV1E2bVZ6dHpuc3lXSkVtb183cDlJS19BalZDYzNxT3FtRVJua1ZyZXd4NHZWR0g0azNIbU1heFRCM09mYjJpYVhzSVhQSFllTkhUVHlmM0lpOERDQTRhczd5emhOZ1h6b09Ta0tlWWROdDdjTlhyc2hHb2ZuY1FQZ2YySmNfTmVjVUFZUWVNeW8tek5YZWhVeWI2cnpWNWhab0phUkloRF9mYV9pX3I?oc=5",
-      "published": "2026-05-31T15:51:39+00:00",
+      "id": "591a213fd81a",
+      "title": "Sa vie menacée par un cancer rare, il est en rémission grâce à un traitement évalué à plus de 600 000 - Le Journal de Montréal",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVFlGekFlaERuOVQwNmVDNUNlbnAyUldTdU1UbkE1dnVkTm94U2N4U0k0Z0JKZ1ZINENSdEVXQnhkUDY2VDlXR2dCUFdRcVNWamw3dGV1UDY0LWpTeVU4UWFKanZDcHFhWFNJWWpGWnJIc1pxRzhKMEhwcnR6ekZXVkVTbmpqUElQOHVDLTdNWEMtNlVFcjhjT3Q5d2hKdURfZzdrR3RValB4cEZ1RGVoNDBRRFVCTV9BLWVCa2NVdEZxYW96UU5qQjU5UTRDSUtFd2R2X1VkQ2MyN3F4cFE?oc=5",
+      "published": "2026-05-31T04:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Le Journal de Montréal",
+        "url": "https://www.journaldemontreal.com"
       }
     },
     {
@@ -874,16 +854,6 @@
       }
     },
     {
-      "id": "39a37dceccef",
-      "title": "Obésité : le remboursement du Wegovy enfin acté en juin ? - PasseportSanté",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbGVESHR0UzRnOVZsbUw4ZVl5QjBURjQ2ckhxc2FXNDFUUG9ZLWdzTDk5a0ZrNVRPVWxRc2x0YWhmUEV5NVpFN213OEZYVlhmMzN5d0hzWERoN0tFVWJGVEpURkI2UzAxemlobnY1NzdydVZlb1JQdExBM0FaQm56dEtzYjhxbEs4cEFUclJzc2xJQQ?oc=5",
-      "published": "2026-05-28T08:41:45+00:00",
-      "source": {
-        "name": "PasseportSanté",
-        "url": "https://www.passeportsante.net"
-      }
-    },
-    {
       "id": "2978ebfbf4f3",
       "title": "Les médicaments onéreux creusent la dépense - Fédération nationale de la Mutualité Française",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVRyM2ZrNnF6QVVnOEhkZnlUTl9aTEdMVjZMdnF1YWJhUlcyOHBLZ3JhcUQzSUhjc1lWYUtPMDZ6WFlsYXlvcHlUM3A4QUJBUWZLSTE4dWtvWEJibWUxVjAyenl2SFNfdFVYaXpwdjUxZUR2aDBVWHM5X2JrNjBzZTd5V1Rsc3M?oc=5",
@@ -891,6 +861,16 @@
       "source": {
         "name": "Fédération nationale de la Mutualité Française",
         "url": "https://www.mutualite.fr"
+      }
+    },
+    {
+      "id": "39a37dceccef",
+      "title": "Obésité : le remboursement du Wegovy enfin acté en juin ? - PasseportSanté",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbGVESHR0UzRnOVZsbUw4ZVl5QjBURjQ2ckhxc2FXNDFUUG9ZLWdzTDk5a0ZrNVRPVWxRc2x0YWhmUEV5NVpFN213OEZYVlhmMzN5d0hzWERoN0tFVWJGVEpURkI2UzAxemlobnY1NzdydVZlb1JQdExBM0FaQm56dEtzYjhxbEs4cEFUclJzc2xJQQ?oc=5",
+      "published": "2026-05-28T08:41:45+00:00",
+      "source": {
+        "name": "PasseportSanté",
+        "url": "https://www.passeportsante.net"
       }
     },
     {
@@ -914,6 +894,16 @@
       }
     },
     {
+      "id": "bdb773293e4d",
+      "title": "Le CHMP recommande l'approbation de Braftovi, un médicament pour le traitement du cancer colorectal qui réduit le risque de décès de 51 %. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOend0aWJzekI4UkRkLVQ0RGdEV1E2bVZ6dHpuc3lXSkVtb183cDlJS19BalZDYzNxT3FtRVJua1ZyZXd4NHZWR0g0azNIbU1heFRCM09mYjJpYVhzSVhQSFllTkhUVHlmM0lpOERDQTRhczd5emhOZ1h6b09Ta0tlWWROdDdjTlhyc2hHb2ZuY1FQZ2YySmNfTmVjVUFZUWVNeW8tek5YZWhVeWI2cnpWNWhab0phUkloRF9mYV9pX3I?oc=5",
+      "published": "2026-05-31T15:51:39+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "fc2e74375bff",
       "title": "Impression 3D : un implant en hydrogel pour traiter l’hypertension sans médicaments ! - Sciencepost",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTG92QWNvWUkxc1V1blZlaEFQc01jUVd0ZUJTY3otdmlsM0F6TVhZbUswNjRqTU1XOF9fLUl0NC1QUXpSbzBwOWgxUHZPS2N5MGRWVXVRemQyVzMwclJLdWVZN3hfVEh0U3pXcVBRNTlsVzlKbURhTjhzaTZjdmh3RHlGcC1GMmpzMGZlS3hXdHk4ZTl4OGd0a2gtVV95TVlkdEpZSzBubw?oc=5",
@@ -934,16 +924,6 @@
       }
     },
     {
-      "id": "5768dc09f0f6",
-      "title": "Sobriété médicamenteuse : moins prescrire pour mieux soigner - Ameli",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQXNUSng4ZjRmOE4zbmZTVjREaEtHbnlFemRjSjExWlQwdFFGbjB2OUJEWkNxWWJQMG9BaGhTUEdCZUlTbXZvYkJnR3dqZU5ZTm5ib1d4Vm93NDdZSjlVc1hsLUNVLVVEVlZ3dDZraTJVVWlNanI0eTRqSzlUdVQxdGszcl83aXFBNEtWc0c5dUw5VHZjOVh1N1otWDhmSTBaTl9kUVJiMU92LUhkTzZwQ0hSLXE0TnVrMk14cUFtdklwWUtaeGQyOTdXZTBvSnRqeXIwZjRkUWRnR0JCZ0xsV1BSSlBKWHc?oc=5",
-      "published": "2025-11-09T12:59:47+00:00",
-      "source": {
-        "name": "Ameli",
-        "url": "https://www.ameli.fr"
-      }
-    },
-    {
       "id": "ca6738689d6b",
       "title": "«Il va falloir que ça arrête»: le système public ne pourra pas toujours prendre en charge des médicaments plus chers - Le Journal de Montréal",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdFRBeUg5VVR3U0lEcW82dVFONWxvYW15eUVUcE5TSVd0LWhyclV6QnVISGJmUE9UMkxIYkVNRk9VazhTQlM4Vk9GNmhONjNlbDZvUURxMUtYZUNBTFRFQVZ2Qlpuc19JT1J5U1Z1WlhlNzlfMld2dWFENmJxMXZBMTVnd1RkbGlIb3hUYV90M1ZxMDJsMHNpSklFMDdMSFA3SzBMVS1CTVNNYU5oallKY1ZUdGhGcHR1Y1ZqN2UzNEpWVTcyY1l4N3hSRjRBeHRsVDJEMFhkM2s4WG56R1RWdnU2UE1XRFU?oc=5",
@@ -951,6 +931,16 @@
       "source": {
         "name": "Le Journal de Montréal",
         "url": "https://www.journaldemontreal.com"
+      }
+    },
+    {
+      "id": "5768dc09f0f6",
+      "title": "Sobriété médicamenteuse : moins prescrire pour mieux soigner - Ameli",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQXNUSng4ZjRmOE4zbmZTVjREaEtHbnlFemRjSjExWlQwdFFGbjB2OUJEWkNxWWJQMG9BaGhTUEdCZUlTbXZvYkJnR3dqZU5ZTm5ib1d4Vm93NDdZSjlVc1hsLUNVLVVEVlZ3dDZraTJVVWlNanI0eTRqSzlUdVQxdGszcl83aXFBNEtWc0c5dUw5VHZjOVh1N1otWDhmSTBaTl9kUVJiMU92LUhkTzZwQ0hSLXE0TnVrMk14cUFtdklwWUtaeGQyOTdXZTBvSnRqeXIwZjRkUWRnR0JCZ0xsV1BSSlBKWHc?oc=5",
+      "published": "2025-11-09T12:59:47+00:00",
+      "source": {
+        "name": "Ameli",
+        "url": "https://www.ameli.fr"
       }
     },
     {
@@ -974,6 +964,16 @@
       }
     },
     {
+      "id": "288519ae0926",
+      "title": "Actualité - Phase pilote de la e-notice : davantage d’outils d’information pour les patients et les professionnels de santé - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTUp5RkhnSUtNQ1dzcnlLbmRTaXRJSzQyVk4wU1AwWWRPLUVTN25mbUIwUXN5VFRQNTJleHE0RUNmR1BkcG9GMHhOZEppQmNjRE8wMWZzOGRnZm1QeVhySXFNNV9ELVVpOVkyNjJWV0VNeGY2N1VoZjdPeWhzcFh4OGNyeF9NeU5qSXB2M3RvS2JKMEtVSHRlMnBBeDZYMlozMlhEY0VBMGREc3BoMEkyUTZsYXdVV2pzVnZnb3RHYUdvNmwtYkJWc3JnOUQwOHRldVBoMkUwUQ?oc=5",
+      "published": "2025-11-19T08:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
+      }
+    },
+    {
       "id": "f31344e15392",
       "title": "Actualité - Rupture d’approvisionnement d’Emend 125 mg (aprépitant) buvable : quelles solutions pour les patients - ANSM",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1YxVURrNXZzdnd0UGlHUzhCZzBvakJZZmc3MEtES3o0TTBNY2c0Y080TDRfUzcxUF8xSGdhU3hyX05nSk56YkdDUjFEM2JLUlhnVXRtSUZ0SWhlNm0yNUlBRnZsWFN3WEszamZqdy1JMjNWdUNjcnBicThVSGZMRlJsTGxFWjJaa19qRG5maVRTSUJiRHkzRzFOcEFJYzd1Zk85czVZeXRMZWh2b3psT0NqUU5EMm1aUk1BTlVZN2NINXYtRFdR?oc=5",
@@ -984,13 +984,13 @@
       }
     },
     {
-      "id": "88d8498df9ac",
-      "title": "Les laboratoires poussent à un accès sans ordonnance aux médicaments du quotidien - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTE1PRUZfbDdFblBnUzZ3a19VVWpPR0pUeU9nLUtnYUtyVi10TXJ3OUVqOGcxd3Nsdy1zUE5NRWIwYzF6bXBaQkduRkgzbjUwWE9Cbng1eDBFNjYtYUJKdi1DTk4zOWFQTTVsOERVUWZvUEtxcVpmM2stZ3FsWldqS2Eyb0dkWmRJTTR1OGxaY25YZ2kyZ2UxSnBsbkZsZGFiZVAwc0tSMkNITUtuRXRJaVJGMWZoT2pISmxCY0VMM0MzUkhaSnZvTjdtTVBiUFFpbE12SzFDdGdBSE1kdk5OYW9B?oc=5",
-      "published": "2026-02-02T08:00:00+00:00",
+      "id": "dedf62237353",
+      "title": "Actualité - Finastéride et risque d’idées suicidaires : nouvelles mesures - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU2p4T0Y3NDBlQmp0TjUxR3dnY0ZpY3dPdWRna0NxS1piSGNOS0dLZmpEcTJ0eUIzeENjUGZfTG5kUkNoa21KcHEzWnlUMWZRdGJ3VGFzTS1zWHQyRmFGM0tjdzA2SVVyZnNkZmFwaXlPVmVKVFNrSEpCY2t0cFlySGlwaE9nNi10dVlLY1J0Y1Azc0VsdkE?oc=5",
+      "published": "2025-09-25T07:00:00+00:00",
       "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     }
   ]
