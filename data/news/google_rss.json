@@ -1,26 +1,16 @@
 {
-  "fetched_at": "2026-06-15T21:15:48.946485+00:00",
+  "fetched_at": "2026-06-15T23:52:54.575356+00:00",
   "source": "Google News Health RSS",
-  "count": 99,
+  "count": 98,
   "articles": [
     {
-      "id": "87645307c4c3",
-      "title": "Wegovy, Mounjaro… Les médicaments anti-obésité désormais remboursés : «Ce traitement a changé ma vie - Libération",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQQzg2aVpRWEFGb1BfS081X1BIWFhsSmx3b1NodlRvRFVtX3Jfa2wwUlBHOC1hYzFMclBXNVNsd1Rnajl1enhxVmlkU0c3SnN3VlFJSzFhVHlvdjZkTm5WcURRdmh5N09MejZ3eURuckd1UGlMT2h3RklOQ0lxN1hEblE5a0YtRm1feUdqUXBWZy1Wd3EzYzFUb21fZHNlQ1RuaHp6c1A3d3pnOGpTWGo1MlZRdlNwQWlhUkFCMUM1LVRMbTZJWDRXZlNpRFZEVVFiZFEzNzZjQk5fYVFaejFTOHRwWWlDcno5d1dvV2ZjRjJfQzJfNDlrTndxRTc3dE5VSFE?oc=5",
-      "published": "2026-06-15T03:02:07+00:00",
+      "id": "bb4df25bcb44",
+      "title": "Désormais remboursés, les médicaments anti-obésité Wegovy et Mounjaro sont-ils un \"remède miracle\" ? Le témoignage d'une patiente sur RTL - RTL.fr",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVEgzUEdOYWR6VURmeG1WbFFaR1pWMmRvSUljbFhvZEw4eGs2VFdUa0FWdGxpM3dKdHZDVGEta2JCU0xzTUlUaWtfdTJVM3ltdmJTYk5WVVdHODVpb2RhTmJ3Y0ExWlJyV2ltbjdBVWV5Nlhnb0wzc1BBLWZKenFVWU9wSEhpbDA2a3pEZ0liUVdwcDVhRlpURU9tdE5GUkk0YldsaG9rdVJIOWY3cHlkWnBxdF9mTEptTml2Nm5mdzFsT3YtX1pKbjFtYkRqNzlidEd2Z0lpWXZhbWxiQ3VpVWNpa3RZVmtlWGhnZW1oVkN0anJod2tTXw?oc=5",
+      "published": "2026-06-15T18:54:00+00:00",
       "source": {
-        "name": "Libération",
-        "url": "https://www.liberation.fr"
-      }
-    },
-    {
-      "id": "da66d2c8917a",
-      "title": "Santé. Les médicaments anti-obésité Wegovy et Mounjaro sont remboursés à partir de lundi : qui y a droit ? - Le Progrès",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLU03QnJsX2JwT1I5TFFqSlZaTVVWLWk4MkdjZGFwbmVhZXRGM2xKc0JvQjNDVlFsU3VwbXRJQ2MyT2pnNFFaTHg0R0pWbFVDTjJBTjJTS3ZKNm10clpiMTNHRm5MSlFzTnhTWl84YzdkRWhna1RjU1Jha1Q5V2NVYmxZZWtkcTFaUjhfNWRfVF9fUzJNa2hGdW4yR3RSY2FLYVE1NW9yOXl3anBsV0pZSHNUbHFjTnhlTWE1WlhuSlhrOHBqdWxNQl9FTHZ1MW8za0hZNy1pcw?oc=5",
-      "published": "2026-06-14T07:21:15+00:00",
-      "source": {
-        "name": "Le Progrès",
-        "url": "https://www.leprogres.fr"
+        "name": "RTL.fr",
+        "url": "https://www.rtl.fr"
       }
     },
     {
@@ -41,6 +31,16 @@
       "source": {
         "name": "Santé Magazine",
         "url": "https://www.santemagazine.fr"
+      }
+    },
+    {
+      "id": "87645307c4c3",
+      "title": "Wegovy, Mounjaro… Les médicaments anti-obésité désormais remboursés : «Ce traitement a changé ma vie - Libération",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQQzg2aVpRWEFGb1BfS081X1BIWFhsSmx3b1NodlRvRFVtX3Jfa2wwUlBHOC1hYzFMclBXNVNsd1Rnajl1enhxVmlkU0c3SnN3VlFJSzFhVHlvdjZkTm5WcURRdmh5N09MejZ3eURuckd1UGlMT2h3RklOQ0lxN1hEblE5a0YtRm1feUdqUXBWZy1Wd3EzYzFUb21fZHNlQ1RuaHp6c1A3d3pnOGpTWGo1MlZRdlNwQWlhUkFCMUM1LVRMbTZJWDRXZlNpRFZEVVFiZFEzNzZjQk5fYVFaejFTOHRwWWlDcno5d1dvV2ZjRjJfQzJfNDlrTndxRTc3dE5VSFE?oc=5",
+      "published": "2026-06-15T03:02:07+00:00",
+      "source": {
+        "name": "Libération",
+        "url": "https://www.liberation.fr"
       }
     },
     {
@@ -144,6 +144,16 @@
       }
     },
     {
+      "id": "354b7c6a1f1f",
+      "title": "Santé. Les médicaments anti-obésité Wegovy et Mounjaro sont remboursés à partir de lundi : qui y a le droit ? - Le Dauphiné Libéré",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM0hGNlROVEdsOVloZXhVaXBmX0c1N2JuYkk4dDlyd1BZZ2RuQkFPUk9nUWhjUldmcnFRMVp6Mi1xd0ZWWGFLVTJGcmg4OVJEQzNFWGUza2lqWThuandjX1Y0bDJoRm54ckxCSmFHVE0xZW5HcndkeW1QYk5fMDhRVnlYOC0yU3ZNMVBwNW9hVjNmaTFrc3FkUHlhUk15WUFuVURuelpxbUtNWU92cGZzaWItTURtSjg3Ym5HZWs3MW42Wm1vTi1MOWtOalR1MUtJT19aSGhwYjhTUQ?oc=5",
+      "published": "2026-06-14T07:21:45+00:00",
+      "source": {
+        "name": "Le Dauphiné Libéré",
+        "url": "https://www.ledauphine.com"
+      }
+    },
+    {
       "id": "1281d3c03153",
       "title": "Le remboursement des traitements anti-obésité Wegovy et Mounjaro, une équation complexe pour l’Assurance-maladie - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcG5JYVFLaWgyb0RtcGtJb1d0czlWbWtYeXNHQkRFd1FWc2hqWk9iZXA5eHpQUFpveTQ2UTZ5a1FaRF8taE55YV8zTk9FeFF4M1VnSVpHSnJkYmVnUF9YOThpUHY4ZzN5LUJVT1QwOFc3N2k1eWZHT3JsYjNFU2RELTlNYXlfc0VJRDVsSVB0MHB6bTlRbFJDdlRfNVVHMU5POGVXdFh3cGNqdVRCNG9JWFF1d2Fobi1GU3hBYmc4dWdNaWY5Z19fdWdxcVVBQzdxUUQ4Tng2Skl0ODJtRFVWOW9lU1BIVDFnUE44TmVmajNWeEE?oc=5",
@@ -151,16 +161,6 @@
       "source": {
         "name": "Le Monde.fr",
         "url": "https://www.lemonde.fr"
-      }
-    },
-    {
-      "id": "9b61c20bb3a4",
-      "title": "Le pharmacien a parlé médicaments - JHM",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvbDJRYXBUNmdBNWJSblNzNUZybjdfeWdIOUJROVJBTVlKWFdVOVVHWjlqRXJYbElXMDg2WVhJWjZZSXJzSXB6V3Iwc3BxLWtCVzdUb1NTTVJxZlBGOFE?oc=5",
-      "published": "2026-06-15T15:31:00+00:00",
-      "source": {
-        "name": "JHM",
-        "url": "https://jhm.fr"
       }
     },
     {
@@ -184,16 +184,6 @@
       }
     },
     {
-      "id": "354b7c6a1f1f",
-      "title": "Santé. Les médicaments anti-obésité Wegovy et Mounjaro sont remboursés à partir de lundi : qui y a le droit ? - Le Dauphiné Libéré",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM0hGNlROVEdsOVloZXhVaXBmX0c1N2JuYkk4dDlyd1BZZ2RuQkFPUk9nUWhjUldmcnFRMVp6Mi1xd0ZWWGFLVTJGcmg4OVJEQzNFWGUza2lqWThuandjX1Y0bDJoRm54ckxCSmFHVE0xZW5HcndkeW1QYk5fMDhRVnlYOC0yU3ZNMVBwNW9hVjNmaTFrc3FkUHlhUk15WUFuVURuelpxbUtNWU92cGZzaWItTURtSjg3Ym5HZWs3MW42Wm1vTi1MOWtOalR1MUtJT19aSGhwYjhTUQ?oc=5",
-      "published": "2026-06-14T07:21:45+00:00",
-      "source": {
-        "name": "Le Dauphiné Libéré",
-        "url": "https://www.ledauphine.com"
-      }
-    },
-    {
       "id": "30b890abd940",
       "title": "Calvitie: ces médicaments nécessitent une attestation obligatoire à cause d'effets secondaires - BFM",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVndlQ2ZFXzE0TDluRUl4VVZYdFQ2eWZUZ21NT3kwMXpJLUc3OGdLNVlXS1ZFU0Q4UkxGUU1sOTFsM19CUGpsRzdQZm4tRHVJTktFY01vRFROYkh3WmxtRTJqSzVwa3FSMGxLeW1RdDJNajNRTXdXN2phMWx3ZWw1djR6Y2trOTVnS3Eyai1fdWhyMzQwUTFKQWRDR0RvMWJfNUVHU1h0dUZXNHdmeFVCTWtzTU9PWlBka1pNMVpTb2Y3ZmVBRGpLRVVGNElaNTdKSjB1UElqdlkyTmI5dld2Mmln?oc=5",
@@ -204,6 +194,16 @@
       }
     },
     {
+      "id": "b6402f58b260",
+      "title": "Le docteur Hervé Javelot a parlé médicaments aux futurs infirmiers chaumontais - JHM",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3VwQVZFV0hYR1lKYmVUcDNUbktQQThSNko1MlZ2MWJEMFB6Qng3MVYwTlRvd0dNMGMwSHVWN1VIMmw2YzlRYlBGeF81bW1VY09xbUs0Tklvb1JsSU9HeGFlY1lrZ0l4SkZxQzlTVFNJTzZCenNKNE9rS2cwZzBZNEJyQmVETVp0Q3BmTmM4WTdfQUdJLVdGQ19R?oc=5",
+      "published": "2026-06-15T15:31:00+00:00",
+      "source": {
+        "name": "JHM",
+        "url": "https://jhm.fr"
+      }
+    },
+    {
       "id": "0878ec58cf25",
       "title": "\"Une prise en charge jusqu'à hauteur de 65% par l'Assurance maladie\" : voici les patients éligibles au remboursement des médicaments anti-obésité - TF1 Info",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQU3doR2xoS1J1RERCMzVaVl9RUU9EU3hQV3RVSXZDWUFwX2t2cnE4U25nTmc4cV9zZFk3emJyenVYbjRqRzRHUTlqV2F1X0o1X1NLY3BxY2JqemFydHViU2J4ZXN6RzR6XzRCZDg2dXgwaGZ5VENZdy1Oek5oQWdCclhJTzR0QlptenRocDk4eWVGNWdsdldoRGZybDRLNFB5TXJnU2RveVRqV0lpVWNUYkdwVGlINzNjLTRIekQ4QWQtdl9zU3JXTDc0TWdtUTNkRlJXbnB3Wk53Tk9WeG04TUpjSmZ4WEVaNFhZRHJOdTlZT2J3emR0ODRsX1ZJdy11UTRyeUd0ZmJHcHJmem8w?oc=5",
@@ -211,6 +211,16 @@
       "source": {
         "name": "TF1 Info",
         "url": "https://www.tf1info.fr"
+      }
+    },
+    {
+      "id": "119ddefceb2a",
+      "title": "Obésité : qui pourra bénéficier du remboursement des médicaments Wegovy et Mounjaro ? - La Croix",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT0RkVjV5alJ1eVliVTVyQ0d5di1MMEFoQlhoUUFSYTRLYTdCVmVqR2RacUdRTHF3TnRnb1FINFU0RlJSSS1qbXB6VmZUa3R5aEw2YWJ2ekctdWxEYVBVWl9mVGdzQ3cwMGlMTUotaWVScU9GajVDcWZlaTFoUHcxeEpNOHpyZnN3OFVYTFVSV3pZV1JNOV9yXzJGczhBOFhmUlRyV2NBXzUxbElXQVlVY0gxWGlDbDRNbFFUNFZB?oc=5",
+      "published": "2026-06-15T04:40:07+00:00",
+      "source": {
+        "name": "La Croix",
+        "url": "https://www.la-croix.com"
       }
     },
     {
@@ -244,13 +254,13 @@
       }
     },
     {
-      "id": "119ddefceb2a",
-      "title": "Obésité : qui pourra bénéficier du remboursement des médicaments Wegovy et Mounjaro ? - La Croix",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT0RkVjV5alJ1eVliVTVyQ0d5di1MMEFoQlhoUUFSYTRLYTdCVmVqR2RacUdRTHF3TnRnb1FINFU0RlJSSS1qbXB6VmZUa3R5aEw2YWJ2ekctdWxEYVBVWl9mVGdzQ3cwMGlMTUotaWVScU9GajVDcWZlaTFoUHcxeEpNOHpyZnN3OFVYTFVSV3pZV1JNOV9yXzJGczhBOFhmUlRyV2NBXzUxbElXQVlVY0gxWGlDbDRNbFFUNFZB?oc=5",
-      "published": "2026-06-15T04:40:07+00:00",
+      "id": "29bfdb4388f3",
+      "title": "Ozempic, Mounjaro, Wegovy... à partir d'aujourd'hui, qui peut être remboursé? - RMC",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX0RsZTdFOXVCYXBxQ1ZpdVBIUGtyTXVtRzMwODZPQ0FjaE1aZFhQOUFnNVpQdEQ3UzIwWmpSSzN6dWN6NWNxcm9odF92VS1YTmZyQVJ1X01CUVJhaGl0eHMwMnQ0NVVlbzRQM1pmcVpjd1lNN05uN2pFU2FIZThiaGZKaWNuT1daMklvUDI1RWZGN3lYSS1UVDMzdWx6R29VNXFEa0hYWUFBSXROdzZVMjVSb3QzbF95RmxSZFdFb2pvdkstMFNUYUpEYi05anRYMHY5bw?oc=5",
+      "published": "2026-06-15T15:42:02+00:00",
       "source": {
-        "name": "La Croix",
-        "url": "https://www.la-croix.com"
+        "name": "RMC",
+        "url": "https://rmc.bfmtv.com"
       }
     },
     {
@@ -264,26 +274,6 @@
       }
     },
     {
-      "id": "29bfdb4388f3",
-      "title": "Ozempic, Mounjaro, Wegovy... à partir d'aujourd'hui, qui peut être remboursé? - RMC",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX0RsZTdFOXVCYXBxQ1ZpdVBIUGtyTXVtRzMwODZPQ0FjaE1aZFhQOUFnNVpQdEQ3UzIwWmpSSzN6dWN6NWNxcm9odF92VS1YTmZyQVJ1X01CUVJhaGl0eHMwMnQ0NVVlbzRQM1pmcVpjd1lNN05uN2pFU2FIZThiaGZKaWNuT1daMklvUDI1RWZGN3lYSS1UVDMzdWx6R29VNXFEa0hYWUFBSXROdzZVMjVSb3QzbF95RmxSZFdFb2pvdkstMFNUYUpEYi05anRYMHY5bw?oc=5",
-      "published": "2026-06-15T15:42:02+00:00",
-      "source": {
-        "name": "RMC",
-        "url": "https://rmc.bfmtv.com"
-      }
-    },
-    {
-      "id": "5839bfa8a9a0",
-      "title": "Pourquoi les neuroleptiques peuvent-ils provoquer une constipation sévère ? - La Provence",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNkw0bFBqVl81dHFZNy1VM2MwUUpueG9UdHE3bF9JRjE3bTRQTlUzMEZmc3Y3MVF2bUdRemlPVmlDRlhaZ2JMM2F4UEppS19DYV8wQW4wZnF4MlpSZWFHMTBPTEF2MGMyeG1ZS1lGSm5aMzdfOWs0Y0JrWmR0V3ZyeVVWWHZEWlN3UGFhaFpfdFpvQU1yTmtEd2RYc1NNMERRb1JWeFUyQXpNdTZ6NHN0MGR5NzVkX0hnUWJ5LTJqV0x0N2ZQVExoYg?oc=5",
-      "published": "2026-06-15T15:00:16+00:00",
-      "source": {
-        "name": "La Provence",
-        "url": "https://www.laprovence.com"
-      }
-    },
-    {
       "id": "573896c5f953",
       "title": "Remontée des stocks : deux visions irréconciliables de la lutte contre les pénuries - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONGgwdXJndXZSU2pUNWFoOHdaZ21kRjY3ZnBaUVRhd0dCQS1Ob3JTN2VqVmtINjVyUTVUZEpFNldtbkpkNFhsRzlEYWhXczFmU3Vab0JaTnVkMUhsUjdrOF9vaVBaZEdibDY0VXBKUXVaYW9iTE9vcE9zd0NIZlhreVpDT0VMeDMzQVV2WWlaY29yelg4NTZTZ3BRZ2c4QjVGSjM0bWZCWWo4ZHcwY3drcE9JSlJGak5tcjRnV2lTQWcyRXFwekRLX1VPMUwwYmV6UUJrOWlzLUxtY1ZmS3lWR2pyNVM5dw?oc=5",
@@ -294,23 +284,13 @@
       }
     },
     {
-      "id": "57779eeb4ca8",
-      "title": "Remboursement des médicaments antiobésité Wegovy et Mounjaro : les centres spécialisés se préparent à accueillir une vague de nouveaux patients - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNV2M4RkY3MDVBSUEyZXgwdjdLM3d3VzRSUGVZaUF3YnJaby1neXZzLWFKUzhGTnZxd2VJd3RWb1dHdjd6M0FxT19Eajk1dDg4TXQ3YkMyR2haWFVwSWNhMUVtMi0waHlxZGpJRktlM0RSM29Fa1FNZTdCQ09uUWR0M05GT002VlNSLXBhVnJaaVpvbGxhanhnRGllNnRNOFVzcUF4ZEJ4NTlVMnpSaXVZQ1FQQzZYNTFQZzZfYmJERGk0dGQtbG5xMkpCRHo0bFlXOVc3aFoydTBUV0pQeGcxT1JqV2tERHdGd0F3R3JBbm5LMnJGNUk3VVpDdWxUNFJaTTdjeGtrbnlpUGtDLVpiMlVUMm1Edw?oc=5",
-      "published": "2026-06-15T03:00:06+00:00",
+      "id": "5839bfa8a9a0",
+      "title": "Pourquoi les neuroleptiques peuvent-ils provoquer une constipation sévère ? - La Provence",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNkw0bFBqVl81dHFZNy1VM2MwUUpueG9UdHE3bF9JRjE3bTRQTlUzMEZmc3Y3MVF2bUdRemlPVmlDRlhaZ2JMM2F4UEppS19DYV8wQW4wZnF4MlpSZWFHMTBPTEF2MGMyeG1ZS1lGSm5aMzdfOWs0Y0JrWmR0V3ZyeVVWWHZEWlN3UGFhaFpfdFpvQU1yTmtEd2RYc1NNMERRb1JWeFUyQXpNdTZ6NHN0MGR5NzVkX0hnUWJ5LTJqV0x0N2ZQVExoYg?oc=5",
+      "published": "2026-06-15T15:00:16+00:00",
       "source": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
-      }
-    },
-    {
-      "id": "0d3e12a593e9",
-      "title": "Le remboursement des médicaments anti-obésité Wegovy et Mounjaro débute lundi en France - franceinfo",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNEc0amVXQlBleVZtNnQ5d2ZyN3U1SlBjaVF3cndwSE1QMzFzeWlLMmYzUDhZZWUydnYzbEd1cFlHdHYxajFYTUswaVZ2QVAxN19xemJDZkN6Tk5RWjk4QWNBZG9sQ3lZUm9Kc3E3NUtyQ3gtMC0zUW5JTlZPb2pxSjQyQnN4T1pjM0xmanlEcHdoSEh3dEg2OHktaXpKX0pFaUZJYm9XYkd6d2NRZGZ5LWdRSWRQZGxOZ0I0eW5LMU1yYnkxelRqVDRzcVg?oc=5",
-      "published": "2026-06-14T14:17:37+00:00",
-      "source": {
-        "name": "franceinfo",
-        "url": "https://www.franceinfo.fr"
+        "name": "La Provence",
+        "url": "https://www.laprovence.com"
       }
     },
     {
@@ -334,6 +314,16 @@
       }
     },
     {
+      "id": "57779eeb4ca8",
+      "title": "Remboursement des médicaments antiobésité Wegovy et Mounjaro : les centres spécialisés se préparent à accueillir une vague de nouveaux patients - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNV2M4RkY3MDVBSUEyZXgwdjdLM3d3VzRSUGVZaUF3YnJaby1neXZzLWFKUzhGTnZxd2VJd3RWb1dHdjd6M0FxT19Eajk1dDg4TXQ3YkMyR2haWFVwSWNhMUVtMi0waHlxZGpJRktlM0RSM29Fa1FNZTdCQ09uUWR0M05GT002VlNSLXBhVnJaaVpvbGxhanhnRGllNnRNOFVzcUF4ZEJ4NTlVMnpSaXVZQ1FQQzZYNTFQZzZfYmJERGk0dGQtbG5xMkpCRHo0bFlXOVc3aFoydTBUV0pQeGcxT1JqV2tERHdGd0F3R3JBbm5LMnJGNUk3VVpDdWxUNFJaTTdjeGtrbnlpUGtDLVpiMlVUMm1Edw?oc=5",
+      "published": "2026-06-15T03:00:06+00:00",
+      "source": {
+        "name": "Le Monde.fr",
+        "url": "https://www.lemonde.fr"
+      }
+    },
+    {
       "id": "06391c386f06",
       "title": "Face à une menace mondiale : ce médicament contre le cancer pourrait devenir une arme contre les bactéries résistantes - Futura, le média qui explore le monde",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSVpZdVJkb2lsRXl2Mk1LOXlDNXU4RmhhdGJnV09SRWNQNUpCMnZiZGQwRlJGb2dtNE5tM3NrLUhEQXZuX2FjVktMWUh1NHNuNnhBVl9ERUE1cTA3S0FxVGdrbzB2TVNxXzlTRjlkOTFMeVNXRjBoREhqaWw0WlgzdVBhOFA2WDFXTTctTnJwSEluc0dTSGRWVGt4Rnp0Y2NGNXZrbk9JNDBJWTdLUUpxd0ZYcTRqZWZDTE5KV1ZKUWlpem5qQVp2V0l2VEJWNlA5bFNwVWpYSWx6Z0V2UTFrZmppNjMtdk9HQUF4a3l2NHpNdw?oc=5",
@@ -341,26 +331,6 @@
       "source": {
         "name": "Futura, le média qui explore le monde",
         "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
-      "id": "13054af4ed57",
-      "title": "Allô le doc : Médicaments anti-obésité, comment ça marche ? - TF1 Info",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTlN5VjhBMFdJblFjR29WTkVPeUY5VHpYb1dsLVNDSU54TzkyVTRwbVFSMmx4TXNRb0d6S0Y5dGx6YkNuLVIyRVF0TXFBVHVMTXpjTXFLM0g5ank2aFBjWThuNTRIZFFjb0tRemNnTjg4MVZVV0IycWNsamZ0YTloa0VFaV9iNENGMzlwSEJZaWFqUWZOMUIzRENpZ1V3NndLTkw5ckxlMFVNVnFPUGV1SHNFbw?oc=5",
-      "published": "2026-06-15T04:54:53+00:00",
-      "source": {
-        "name": "TF1 Info",
-        "url": "https://www.tf1info.fr"
-      }
-    },
-    {
-      "id": "2d82b722b738",
-      "title": "Wegovy, Mounjaro : la reprise de poids est-elle inévitable ? L'alerte du Dr Arnaud Cocaul - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQm9VRmk5dHBpTlltRDF6QjBLekdpUGhqWFpWWEJETTAyS2p0a0tJc0pncThuc3JSRGIxN3JiUUNqdXp3bTBPMWg5MGtSUnliLU1aSjZhLWV1M3BCOW96bmVHSEJkc1RtTFVBVmVIc1dzMS1pR3l4WEdMd196cmJXcVo4VTZGUklOVzkzeHpCbXQwaEZIMVBtdDJmdnFwcnRvLTdpOVdUa1E3YWotMDdyMGQxdE5RNkNsMzYtYlhIYkEwNU5WeEF1ck9IQnNDR01EVmZDLUpMb1FKVm1WSlBiZnZUWmk0OXJFdWJZNjNDMHNwVkY3WnlHc1JFcTJ4eTRBNUNCTWZYZi0?oc=5",
-      "published": "2026-06-15T16:10:48+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -374,13 +344,23 @@
       }
     },
     {
-      "id": "9eeeeab99124",
-      "title": "Les traitements anti-obésité Wegovy et Mounjaro sont désormais remboursés en France… sous conditions. Voici pourquoi - Challenges",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNR09DY3Zmay1iZWdoVlNFTUMwbmJHZTFnTHFoRkxkbVE5OXIxR3JLWk9PME5QNS1Ud2VFb0JLbTZjMU41UlpBTzdLdUFoT3hpLUR6NVl4b0I4amNiOC1fX3diRmtNdG9OMG1VRkx3eXFpQ3hGbWx0UzNSUzhMYjdrRTJBdGVQekN6VE90V2lOeTVBYVpHWF9Yel9IR3F1a3dfZE52Yk5iVlZjRWdPQ0tUVGJWZHhmcmdGMm5SRlYzZFJjOTFXcE9tWVFRSzVOS3pDbjZhZ3d6c05fT1lwRUJsVUhQa1JHejFGejJKRUItTDh4b3B3LV9r?oc=5",
-      "published": "2026-06-15T16:15:00+00:00",
+      "id": "85985f3b911f",
+      "title": "« Financer l’innovation en déremboursant les médicaments essent iels : une menace pour l’équité d’accès aux soins des patients et la souveraineté sanitaire » - La Tribune",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOQWJ5aDlmUVNpeHM2TkZISE5ZcDBhQjJaOWVqYm5ES0w4VVVBdG12LXdSbXZCaHlTZkEtaFVLSE9TZUdXTTNmM2VHWE9ZYVJVMmpiWTRTVDFCODVlckdWc042aTJDanhsaGdqNmtSR2pucDN2bU81Sk9IM1lnUnJMZ240Ym5SWGpBSmZqN2pGam1rNmxiRUJGMzZIOGNOWE9uUm53TTNwOFpkMkl2a2pRdTM1SDVfRWk0WWxKdzlob1BmdWd2V2RJS29VR1RPLUkwRGpCUVJiN2Z1RVZKTnQwdlA0MjVJR2xjdVh0azBSdHlCRW1ibWxFanh5SEZuejNzeDFjNnF3cEpxdUVvUmZxTDhNS1RBb0F0aG90ZFRPdzVWWnp5WXJrcmNCOEFMOUFmb2ctaGlVUzZOYWs?oc=5",
+      "published": "2026-06-14T07:35:01+00:00",
       "source": {
-        "name": "Challenges",
-        "url": "https://www.challenges.fr"
+        "name": "La Tribune",
+        "url": "https://www.latribune.fr"
+      }
+    },
+    {
+      "id": "13054af4ed57",
+      "title": "Allô le doc : Médicaments anti-obésité, comment ça marche ? - TF1 Info",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTlN5VjhBMFdJblFjR29WTkVPeUY5VHpYb1dsLVNDSU54TzkyVTRwbVFSMmx4TXNRb0d6S0Y5dGx6YkNuLVIyRVF0TXFBVHVMTXpjTXFLM0g5ank2aFBjWThuNTRIZFFjb0tRemNnTjg4MVZVV0IycWNsamZ0YTloa0VFaV9iNENGMzlwSEJZaWFqUWZOMUIzRENpZ1V3NndLTkw5ckxlMFVNVnFPUGV1SHNFbw?oc=5",
+      "published": "2026-06-15T04:54:53+00:00",
+      "source": {
+        "name": "TF1 Info",
+        "url": "https://www.tf1info.fr"
       }
     },
     {
@@ -394,23 +374,23 @@
       }
     },
     {
-      "id": "1d36315c50fa",
-      "title": "La caisse d'assurance maladie ne couvre pas les médicaments fournis gratuitement par les entreprises. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbGJEdUUza1hvNElpYnFuYlFoWVFVM0FSZ3ZFanJFRHJacmxCQ3diNHdRaTJyVjNwUlc2SG5SeFdxT2h4MVZ4VTc1am93Q3hfQVNWdGZQdG9YTTByZUhNYjR3dWVad1pqSGhwOEVlSk9uN0VtNGpFYkhVNmV2Qi0zXzNrTmVpdHMtb1IwZ3BXZmM3TW1UTktDR1A4ckQwRmd5SlE?oc=5",
-      "published": "2026-06-15T15:50:56+00:00",
+      "id": "2d82b722b738",
+      "title": "Wegovy, Mounjaro : la reprise de poids est-elle inévitable ? L'alerte du Dr Arnaud Cocaul - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQm9VRmk5dHBpTlltRDF6QjBLekdpUGhqWFpWWEJETTAyS2p0a0tJc0pncThuc3JSRGIxN3JiUUNqdXp3bTBPMWg5MGtSUnliLU1aSjZhLWV1M3BCOW96bmVHSEJkc1RtTFVBVmVIc1dzMS1pR3l4WEdMd196cmJXcVo4VTZGUklOVzkzeHpCbXQwaEZIMVBtdDJmdnFwcnRvLTdpOVdUa1E3YWotMDdyMGQxdE5RNkNsMzYtYlhIYkEwNU5WeEF1ck9IQnNDR01EVmZDLUpMb1FKVm1WSlBiZnZUWmk0OXJFdWJZNjNDMHNwVkY3WnlHc1JFcTJ4eTRBNUNCTWZYZi0?oc=5",
+      "published": "2026-06-15T16:10:48+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
-      "id": "85985f3b911f",
-      "title": "« Financer l’innovation en déremboursant les médicaments essent iels : une menace pour l’équité d’accès aux soins des patients et la souveraineté sanitaire » - La Tribune",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOQWJ5aDlmUVNpeHM2TkZISE5ZcDBhQjJaOWVqYm5ES0w4VVVBdG12LXdSbXZCaHlTZkEtaFVLSE9TZUdXTTNmM2VHWE9ZYVJVMmpiWTRTVDFCODVlckdWc042aTJDanhsaGdqNmtSR2pucDN2bU81Sk9IM1lnUnJMZ240Ym5SWGpBSmZqN2pGam1rNmxiRUJGMzZIOGNOWE9uUm53TTNwOFpkMkl2a2pRdTM1SDVfRWk0WWxKdzlob1BmdWd2V2RJS29VR1RPLUkwRGpCUVJiN2Z1RVZKTnQwdlA0MjVJR2xjdVh0azBSdHlCRW1ibWxFanh5SEZuejNzeDFjNnF3cEpxdUVvUmZxTDhNS1RBb0F0aG90ZFRPdzVWWnp5WXJrcmNCOEFMOUFmb2ctaGlVUzZOYWs?oc=5",
-      "published": "2026-06-14T07:35:01+00:00",
+      "id": "9eeeeab99124",
+      "title": "Les traitements anti-obésité Wegovy et Mounjaro sont désormais remboursés en France… sous conditions. Voici pourquoi - Challenges",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNR09DY3Zmay1iZWdoVlNFTUMwbmJHZTFnTHFoRkxkbVE5OXIxR3JLWk9PME5QNS1Ud2VFb0JLbTZjMU41UlpBTzdLdUFoT3hpLUR6NVl4b0I4amNiOC1fX3diRmtNdG9OMG1VRkx3eXFpQ3hGbWx0UzNSUzhMYjdrRTJBdGVQekN6VE90V2lOeTVBYVpHWF9Yel9IR3F1a3dfZE52Yk5iVlZjRWdPQ0tUVGJWZHhmcmdGMm5SRlYzZFJjOTFXcE9tWVFRSzVOS3pDbjZhZ3d6c05fT1lwRUJsVUhQa1JHejFGejJKRUItTDh4b3B3LV9r?oc=5",
+      "published": "2026-06-15T16:15:00+00:00",
       "source": {
-        "name": "La Tribune",
-        "url": "https://www.latribune.fr"
+        "name": "Challenges",
+        "url": "https://www.challenges.fr"
       }
     },
     {
@@ -421,6 +401,16 @@
       "source": {
         "name": "PasseportSanté",
         "url": "https://www.passeportsante.net"
+      }
+    },
+    {
+      "id": "1d36315c50fa",
+      "title": "La caisse d'assurance maladie ne couvre pas les médicaments fournis gratuitement par les entreprises. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbGJEdUUza1hvNElpYnFuYlFoWVFVM0FSZ3ZFanJFRHJacmxCQ3diNHdRaTJyVjNwUlc2SG5SeFdxT2h4MVZ4VTc1am93Q3hfQVNWdGZQdG9YTTByZUhNYjR3dWVad1pqSGhwOEVlSk9uN0VtNGpFYkhVNmV2Qi0zXzNrTmVpdHMtb1IwZ3BXZmM3TW1UTktDR1A4ckQwRmd5SlE?oc=5",
+      "published": "2026-06-15T15:50:56+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -441,26 +431,6 @@
       "source": {
         "name": "24 Heures",
         "url": "https://www.24heures.ch"
-      }
-    },
-    {
-      "id": "57044aa93657",
-      "title": "Nouvelle réglementation sur la prise en charge gratuite des médicaments pour les patients, applicable à compter du 10 juillet. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNnpJcXE5NU43alFIaGVHb1hxSjBLNHkxY1NCRjlJdmNhMmtqS2ZtRF94SlJ2NjRoQjZUUGlqMDRpU3BiOVdNQnVOSXRQYk9iVjVUcnRScmZvQXluX2g1TFk4bGpmYTU3d2hwSDFIYThuNWI5c3lnYlNOdDU2T0p2eEJLOFQwYl9TUEs5NXgtNA?oc=5",
-      "published": "2026-06-15T14:06:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "3aa62821dd6b",
-      "title": "Médicaments GLP-1: ils pourraient améliorer la fertilité des hommes - Le Journal de Montréal",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHhTc0tFSHkxVm5hTDFVeHVTNlJ3RTdVTEdtMzUxQksyT1U2TkRSWC16a1EwZldfR0RoRm9GQno3Z0dNa3pRaDBCVzRRd2ZYcS1kalNPdFNWTF9SUGdoTHdNWXk1dlMwRG4ydFVDbHBJQmNXZXpkU1JhRGt0cEhMTHl6UWhhNnRMa2drd1FJRlRJVUNJZVZWdkdlWUFJeHFvaGVQRWhfQ3d2cjJRcnlTRQ?oc=5",
-      "published": "2026-06-15T14:51:16+00:00",
-      "source": {
-        "name": "Le Journal de Montréal",
-        "url": "https://www.journaldemontreal.com"
       }
     },
     {
@@ -494,6 +464,26 @@
       }
     },
     {
+      "id": "90710ece6082",
+      "title": "Ces deux médicaments contre l’obésité sont désormais remboursés en France - 20 Minutes",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU19jeGJ3ZVlPX1poWWk0WmxGbE5taVFwY3NjSUdEc18wSUIzOFF3WndVdG9zSzhTTk5XODJpdmc4ZnBLaW9ZMTBmQXhsUUEwd3JESGFDaENYZVlENmd1Rnd2UHdFbVRRRlEzQ2o4TXkyb05MOFRjeTNRT1ZsMmJKN2xVQWppYmVFb0tuVUF6N256MGpxakdFMmpyWjJ0eC1MbEpSV1FlTTE1Ymc?oc=5",
+      "published": "2026-06-14T07:56:00+00:00",
+      "source": {
+        "name": "20 Minutes",
+        "url": "https://www.20minutes.fr"
+      }
+    },
+    {
+      "id": "3aa62821dd6b",
+      "title": "Médicaments GLP-1: ils pourraient améliorer la fertilité des hommes - Le Journal de Montréal",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHhTc0tFSHkxVm5hTDFVeHVTNlJ3RTdVTEdtMzUxQksyT1U2TkRSWC16a1EwZldfR0RoRm9GQno3Z0dNa3pRaDBCVzRRd2ZYcS1kalNPdFNWTF9SUGdoTHdNWXk1dlMwRG4ydFVDbHBJQmNXZXpkU1JhRGt0cEhMTHl6UWhhNnRMa2drd1FJRlRJVUNJZVZWdkdlWUFJeHFvaGVQRWhfQ3d2cjJRcnlTRQ?oc=5",
+      "published": "2026-06-15T14:51:16+00:00",
+      "source": {
+        "name": "Le Journal de Montréal",
+        "url": "https://www.journaldemontreal.com"
+      }
+    },
+    {
       "id": "8522cb0fed00",
       "title": "Fabrication de médicaments, souveraineté nationale, des anticorps protecteurs... Pourquoi donner son plasma - Le Pays Roannais",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeGZOTkowZVV5TjhKQzBmbVFaeFZydGtxQXlkYklJeElYUTlXalgxb0ExQVVsdW1mOVh1M2lBajBsZFZVOUl6eHhpY05JQjB6Z1RZdFZuaWhlVjFpZ29zLTJqc2tDb0R0Zk5rUkdxT0V0T1drTDdUWjBoWlVNbC1PZ2pGckN5Y3BuRnBkZkE1SXkyZFdEcXpLNFQ5OEt5Wm1VMkZLNEhScW8xdGQ3ck9VNW5CclpUYTVMb0xPc1NOZUdMNXFDQ05DTHo5b1ZONmFhWVhDMFZuc1pLQU1XZTZrWTZQSlFTZUhtUHhGckRUS3E?oc=5",
@@ -504,13 +494,33 @@
       }
     },
     {
-      "id": "312a00934900",
-      "title": "Le ministère de la Santé met en œuvre la réglementation relative au programme de soutien à la gratuité des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3FKZTNkd3NIT1FkcUpqV0JhbGEzNXNFMk1qaGs1aDk1RmF2MWtNY290MDRDaXR3MEEzeENjdG5MZ3Y5SEwtYmsyeHkxSW12ZGZzc3BJN2xma1ZlaGV2MFIyNUNBcXNHcDhaR2JkYU9NekVIRlNoQlR3Qk9hUGQ5Q2w2cFNwWHhXOWlRWVB6Y2pLZjV3QS11cHJJRQ?oc=5",
-      "published": "2026-06-15T07:53:52+00:00",
+      "id": "57044aa93657",
+      "title": "Nouvelle réglementation sur la prise en charge gratuite des médicaments pour les patients, applicable à compter du 10 juillet. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNnpJcXE5NU43alFIaGVHb1hxSjBLNHkxY1NCRjlJdmNhMmtqS2ZtRF94SlJ2NjRoQjZUUGlqMDRpU3BiOVdNQnVOSXRQYk9iVjVUcnRScmZvQXluX2g1TFk4bGpmYTU3d2hwSDFIYThuNWI5c3lnYlNOdDU2T0p2eEJLOFQwYl9TUEs5NXgtNA?oc=5",
+      "published": "2026-06-15T14:06:08+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "4d651ecd8ab5",
+      "title": "Wegovy, Mounjaro... Les traitements contre l'obésité remboursés en France à partir de ce lundi, sous quelles conditions? - BFM",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQ0p4emVEazNoNm5tQXFub2xzVEY0aEtVZkdJdlRlQngtUXF6MmI0WnJBNmJwWVZfR0NrSl94T2t4V2d6R1d2OFUxV1R6V01UOS02VUFWd2NpeVNOZHc2OFpyMFFOdXg3aHBCU0xGN3VGUHg4Y3A2MEQzVzhQYzFtYVlhNW9lSkxtbjQwUkRrMW9qLUcyejZfTGFMN05QNF9XYXc3UXdmb3BIcTZ6Q0JSNkIxWEU4aXowLUprRUg0eXFscGZqb1lOS1hDazByZ0g5N3lLWGJPQ0dVLXZlck1UbXdpOEdsQUZTTVhJTFg3YV9iaVVkdUE?oc=5",
+      "published": "2026-06-15T06:31:53+00:00",
+      "source": {
+        "name": "BFM",
+        "url": "https://www.bfmtv.com"
+      }
+    },
+    {
+      "id": "9ad9edcae367",
+      "title": "Arthur Arlaud est nommé délégué général de la CSRP - DECIDEURS MAGAZINE",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU0x4bDU1U1NTb1phVVk0YjdfTG1NQWdfOFhZdlM1VUI1a19xRnJDS09KcFRjODIwQWZESE0yZThaYUQ4Z0RSU3ZpaTFFVnUzQ2Vhd09ZdjZvVjMyQmZ1d1JxcHpyYnhlZ0tKRS1kS2RfdHFpa3hYYWJ5aGc0aDUtZXRiN2xULVhLLTFqZEJMOVhFUWJ4T2gxM0lldERzOHFOQm41SlU0dms0aTBmMS04QWdEcw?oc=5",
+      "published": "2026-06-15T07:36:05+00:00",
+      "source": {
+        "name": "DECIDEURS MAGAZINE",
+        "url": "https://www.decideurs-magazine.com"
       }
     },
     {
@@ -524,13 +534,13 @@
       }
     },
     {
-      "id": "75158a7662bb",
-      "title": "Le ministère de la Santé publie de nouvelles réglementations concernant le programme de soutien à la gratuité des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUtRWXRIb2pCYlUxeFdfOHVtTmFMNUVaNEIyX1EtYm9QcDJwV0RZTjE1blN2N0IzX19FLXV4Q0lYcmVUQzJ5ODN2VkpaLVFmVTRqYjUydWNNRkZYWE54eFZob0dwazlYZXYtTXVLYlRhMFpObXJIS1FmSEM3TjNRVVAxaE5pdlRNRVNpVWdPYmE?oc=5",
-      "published": "2026-06-15T08:55:45+00:00",
+      "id": "0a09e0f04c92",
+      "title": "Les liquides que vous prenez avec vos médicaments ont un impact sur ceux-ci - Le Journal de Montréal",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOEN1M2dkTS12UEhuR0tBbzdZSWdCZENWc1dsb042RzhfcWltREQ3QWxyYjVGenNmZU0wTkZzQVU1SEY3c04zYzRjX2ZBQ2VhaEd0YXZYb1BITWlVakxYQWdFZWp3Y0JVbEpGd1VRbHI2Q2pSRjJZR0lBa1FqbGJNeG1OR2tYWnBDR2ZkUHB3QWljZnlUdzB3SGZCRkY5YVVHbV9ja3Izdm5iSkc3N08xcjRlWXpHeXRoS1pNM25laDhTODJ1eDUzM2VB?oc=5",
+      "published": "2026-06-15T15:02:30+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Le Journal de Montréal",
+        "url": "https://www.journaldemontreal.com"
       }
     },
     {
@@ -541,6 +551,36 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "312a00934900",
+      "title": "Le ministère de la Santé met en œuvre la réglementation relative au programme de soutien à la gratuité des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3FKZTNkd3NIT1FkcUpqV0JhbGEzNXNFMk1qaGs1aDk1RmF2MWtNY290MDRDaXR3MEEzeENjdG5MZ3Y5SEwtYmsyeHkxSW12ZGZzc3BJN2xma1ZlaGV2MFIyNUNBcXNHcDhaR2JkYU9NekVIRlNoQlR3Qk9hUGQ5Q2w2cFNwWHhXOWlRWVB6Y2pLZjV3QS11cHJJRQ?oc=5",
+      "published": "2026-06-15T07:53:52+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "75158a7662bb",
+      "title": "Le ministère de la Santé publie de nouvelles réglementations concernant le programme de soutien à la gratuité des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUtRWXRIb2pCYlUxeFdfOHVtTmFMNUVaNEIyX1EtYm9QcDJwV0RZTjE1blN2N0IzX19FLXV4Q0lYcmVUQzJ5ODN2VkpaLVFmVTRqYjUydWNNRkZYWE54eFZob0dwazlYZXYtTXVLYlRhMFpObXJIS1FmSEM3TjNRVVAxaE5pdlRNRVNpVWdPYmE?oc=5",
+      "published": "2026-06-15T08:55:45+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "e6a7762edca6",
+      "title": "Actualité - Téralithe et quétiapine : point sur la disponibilité et l’évolution des mesures d’accompagnement - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3lIcUIxZFRjR3RJNjAycWd6dE5TRDN4TmxselotUmFJamFPZEstWmFuY3AzVVZvcnl1Vjh4TDRZZDdUUkVEOHpnNzd1UWtBRHhZNDFTRm51dTh4SmFMS2ZWak0ybmtFbHV2M2RqLUtMVm5tN2hlVU5acGpNc3hWeFA1Nk1fdGtZTG5FdjBVUkFNSzd2MEQ4TWo4WG9tdGdPVmhyeW90bGR6ZTRrT0s3cG94QWtJZlNBQjJDY2xWMUFYQ28?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     },
     {
@@ -561,26 +601,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "7f97fd82a63c",
-      "title": "Les liquides que vous prenez avec vos médicaments ont un impact sur ceux-ci - TVA Nouvelles",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWU5U0d1Z2RGbGpOR3VqZl9udzhNbWtzUURINFpBcnl2OFZHYmtFQ1ZnTWhyRzEyVk5TS0pEbkkxcEV4SFhGbThGYzBQRDM1UHVkRnhkeV80U3ZlcHdhQUtXVzZiYzVfMzRLVlc0eTY0V1NiLW1LVmdHaVZYUWduRE9WRHAtQXhYN3AtalpLQXJnaC1LU1k5MkVBbFQyelA2bVd4bkgyWDRnU3FsNTBDRFN1cWIwNGhFdXB0OWdnS2o4dw?oc=5",
-      "published": "2026-06-15T15:02:30+00:00",
-      "source": {
-        "name": "TVA Nouvelles",
-        "url": "https://www.tvanouvelles.ca"
-      }
-    },
-    {
-      "id": "e6a7762edca6",
-      "title": "Actualité - Téralithe et quétiapine : point sur la disponibilité et l’évolution des mesures d’accompagnement - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3lIcUIxZFRjR3RJNjAycWd6dE5TRDN4TmxselotUmFJamFPZEstWmFuY3AzVVZvcnl1Vjh4TDRZZDdUUkVEOHpnNzd1UWtBRHhZNDFTRm51dTh4SmFMS2ZWak0ybmtFbHV2M2RqLUtMVm5tN2hlVU5acGpNc3hWeFA1Nk1fdGtZTG5FdjBVUkFNSzd2MEQ4TWo4WG9tdGdPVmhyeW90bGR6ZTRrT0s3cG94QWtJZlNBQjJDY2xWMUFYQ28?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
       }
     },
     {
@@ -624,16 +644,6 @@
       }
     },
     {
-      "id": "47d23b231108",
-      "title": "Signature d'un mémorandum d'entente algéro-égyptien pour développer la coopération dans les domaines des médicaments et des dispositifs médicaux - aps.dz",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQa0lSTmc3Q3JrcFlzNEV5MTRjTlFDRnZ3NWlsTG1Ic0lFeVktbWZWYmEzTnRzX3A1WXQ4dFhvZ0kyWDRkNldCN0FkWGxpc1p4RUZxU3V1MUtyWUwxLWRoUGtGeXE3TVoyMVN1bWRsUFR0enlDTTYtYXZuZDZlRnV4cmxJcENsZ21Ua0ZPWW9tQkl6bkJ6VFgyaGRhLU9WbVh5amdGOGQ2NDl1NndrQjh5NE5PaERKU1BGakkxaFJ1YlRzd0Z5ZUZWMER4QlVsMGNWRlZnM3lHSGdQOUtvZVJkVi04bWd6NHBPSDZyYzNMeVNHTTYySE90Qk0wV2VscjNleXNoVFJzV2E0ZVVkR3NYR1o3UV83WHhqbGd5WVlOd3dYQ1JPU1Z0OG5qSHlqYk0?oc=5",
-      "published": "2026-06-15T16:24:00+00:00",
-      "source": {
-        "name": "aps.dz",
-        "url": "https://www.aps.dz"
-      }
-    },
-    {
       "id": "859adc4d3eb6",
       "title": "Actualité - Propranolol 40 mg : nouvelle dégradation de la disponibilité, nous maintenons notre recommandation - ANSM",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSmJRWFhDbmVhTmZaQ1ZEVWNPYV95MzVKd2V0QktwdjYtNmxHZzY0UWxPNTJiNjhSR1lHUEJpdTVES3F3eUF5VDBXaXV6RzJvYmZkM1dKdlM2cVhiS3pMM0xLX1V6RTZadUpDU2NySTBrdzZTTkEzMjU3UjR0TGdlVm9yYks0LXlBaWozdXVsck9pbkluZFBOYWl2N3lBa1Y1X3VoOGRXZjlIN0F6WHBnUDUzZEtYaHJXUFFGYS1jMDBEZWkyMDZZ?oc=5",
@@ -641,16 +651,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "3950deeea3e3",
-      "title": "Wegovy et Mounjaro bientôt remboursé : ces traitements contre l'obésité peuvent-ils aussi changer notre rapport au plaisir - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPMV83NERNcEc1cjZZcDZIUHVsU1ZhVGxGVy1RN0tvR1ZOc1pjSC1tMWpiVXRiWGo1ZGcyX3Y5RnZMdDVuQl9EVkU5RlhDVVpyRW5nWThia0F6ODRuYV95SWM3SThqWTk1ckhWSWtobjNzWkNmQnFsdFFVdzUxX2c4ZVZocnFsUTgwdHJWOVJzNnUtZFZFNER3NTFfYnZtc2piT2E3c2l2ZFJwQzNaRzdlNklqU3BHcW04Ymg2NU1wcEl1a09xY0twUFNSNmVOOGtkakZGRUNWYnYwOHRBMkxZakpzTzJjRFZfRjJkbnEyZWdydnd3cXlSZC1iSWVfZDJKalBmU0lQQy1TRUs3c3NkTGxNTU5Ddw?oc=5",
-      "published": "2026-06-15T11:02:59+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -664,6 +664,16 @@
       }
     },
     {
+      "id": "47d23b231108",
+      "title": "Signature d'un mémorandum d'entente algéro-égyptien pour développer la coopération dans les domaines des médicaments et des dispositifs médicaux - aps.dz",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQa0lSTmc3Q3JrcFlzNEV5MTRjTlFDRnZ3NWlsTG1Ic0lFeVktbWZWYmEzTnRzX3A1WXQ4dFhvZ0kyWDRkNldCN0FkWGxpc1p4RUZxU3V1MUtyWUwxLWRoUGtGeXE3TVoyMVN1bWRsUFR0enlDTTYtYXZuZDZlRnV4cmxJcENsZ21Ua0ZPWW9tQkl6bkJ6VFgyaGRhLU9WbVh5amdGOGQ2NDl1NndrQjh5NE5PaERKU1BGakkxaFJ1YlRzd0Z5ZUZWMER4QlVsMGNWRlZnM3lHSGdQOUtvZVJkVi04bWd6NHBPSDZyYzNMeVNHTTYySE90Qk0wV2VscjNleXNoVFJzV2E0ZVVkR3NYR1o3UV83WHhqbGd5WVlOd3dYQ1JPU1Z0OG5qSHlqYk0?oc=5",
+      "published": "2026-06-15T16:24:00+00:00",
+      "source": {
+        "name": "aps.dz",
+        "url": "https://www.aps.dz"
+      }
+    },
+    {
       "id": "6948290ac4b6",
       "title": "Mounjaro, Wegovy… Le phénomène des médicaments antiobésité s’installe en France - Le Figaro",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1dBYmFJdnFzZDFSbTRDeUJXeU5CYWZGR2dIQzJKS0dGYjZXby14YkR3aG5WUjE4RjBoMFN6d3VqOU9nenFFbWM2WVZKeGZaVkVYUmpscDd1Z1o4dVZGNEFVVzhzaTR4eUo2eUlkZU1tRHpUYmMwcVZ5SWtUVEdZVEVzbnpETHc1M1BBaW5ubm90MEowcEpSdWh5eG9ISmstTXY0LVlmZ2I3ZlI3NHJveEI1Q0ZJZmZ1eWVB?oc=5",
@@ -671,6 +681,16 @@
       "source": {
         "name": "Le Figaro",
         "url": "https://www.lefigaro.fr"
+      }
+    },
+    {
+      "id": "3950deeea3e3",
+      "title": "Wegovy et Mounjaro bientôt remboursé : ces traitements contre l'obésité peuvent-ils aussi changer notre rapport au plaisir - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPMV83NERNcEc1cjZZcDZIUHVsU1ZhVGxGVy1RN0tvR1ZOc1pjSC1tMWpiVXRiWGo1ZGcyX3Y5RnZMdDVuQl9EVkU5RlhDVVpyRW5nWThia0F6ODRuYV95SWM3SThqWTk1ckhWSWtobjNzWkNmQnFsdFFVdzUxX2c4ZVZocnFsUTgwdHJWOVJzNnUtZFZFNER3NTFfYnZtc2piT2E3c2l2ZFJwQzNaRzdlNklqU3BHcW04Ymg2NU1wcEl1a09xY0twUFNSNmVOOGtkakZGRUNWYnYwOHRBMkxZakpzTzJjRFZfRjJkbnEyZWdydnd3cXlSZC1iSWVfZDJKalBmU0lQQy1TRUs3c3NkTGxNTU5Ddw?oc=5",
+      "published": "2026-06-15T11:02:59+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -684,13 +704,13 @@
       }
     },
     {
-      "id": "af4811836585",
-      "title": "Produits CeraVe accusés d’être dangereux : ce que révèle vraiment un pharmacien sur cet ingrédient controversé - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWkRPZkpWWWVhN2FYb3R1ZVcyUVBXSUI0ZFREdVpnQUtmS0RKVEFTamZEWHdLZS1FTjFZMDlnalpxZTJIdkp1MnlqZDhVQzBiMFVqZ1pVR1lZUGkzM0xISnhwUFBKcWVPLU1IX3c4dmM3RUpCci1JelVlZ3BOOENpMmZvdDdOUndiTDVkTFIwM3htbGpKNGE1Q2xfNEFyYzI3YTZKUnFEVWlHRk1KU3U2c0JydWVRZkVPT2F6cmd3bHdRcG16R3ozaVc3a0hoVG5YMXJxMFJIdHZTV1Z1N1Iyek9hSGlPazM1VEdTeUo2NGFqX1M3Q003VXRscjVMUzN0Q3RaOHRsQVRtazBlZTN0eDFn?oc=5",
-      "published": "2026-06-15T19:02:47+00:00",
+      "id": "4a22357f1770",
+      "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
+      "published": "2025-12-15T08:00:00+00:00",
       "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     },
     {
@@ -704,16 +724,6 @@
       }
     },
     {
-      "id": "4a22357f1770",
-      "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
-      "published": "2025-12-15T08:00:00+00:00",
-      "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
-      }
-    },
-    {
       "id": "78cbbd18e2dc",
       "title": "Actualité - Surveillance des aGLP-1 : l’ANSM confirme le rapport bénéfice/risque favorable lorsque ces médicaments sont utilisés conformément aux recommandations - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNT1hUM3A0a0FWbUJsWTI5YlVBMXhEZU5XT09FSGVfTktLREhuVFY4ckxCZ083dW5XdW4zakJ4TnpfQUFrV1JPcEpmamhPUUlHNHpMeVlIR1BEYnJ5SlhaeDB3ek5mUGZPQ1d6dk9yZFdnQkdtRFc3Qm5vTmdYTnIxZFpXRkRvcHdRaHhiRjEzSVl3M1gzc1RsRTZTRGVXZEhnMEFNeE9zTU1pSF9faVRIMWt1c2FXYndqQXFXVTFwd1NFVllSeXV3aVRYWnpBT1hQcW83TnR6dnA0dVVtNk1yYTFPaC1oZUZjQWw5MFZ2Qm01TGEtZTdlTkhBTmV5ekdBcEJRdkxSZTVwclU?oc=5",
@@ -721,16 +731,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "56294d052476",
-      "title": "Le ministère de la Santé bloque le risque de transformer le soutien aux médicaments en outil marketing. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZUlnd25oVXp0NVk0eWcxeW5mSUpXTy1TdFdmZUREUHYxbzdTT1MxQnpYVlB5MjJQUTNmYVpCOUN4bFVMZElEYk4wRnhfWGxmTS0tMS0weGlHazFUOXRFNF8zVS1SV2dQbVp1ZEtGaVFnR0R0YkZNVkNPSjZKeU52TVlHWEZ1YVVlWDRTWmt3MGw?oc=5",
-      "published": "2026-06-15T10:23:36+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -744,16 +744,6 @@
       }
     },
     {
-      "id": "eb2e87355a3b",
-      "title": "Finaliser le cadre juridique du programme de soutien à la gratuité des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNXhhZGJSTGoxekN4dVNnQ3djY0ZOSDVBdm14RXp6M0txdnAxVGVsTFNOR2toNEhCVXBHYl9FRExUa3hfUEIzYXVLVWJVckdYVHJOa1dWczlNY09sSU5rNmg4aDljaVJ1enZqSWtCUnZQaDhzWk5ZamxhTzBLX28waFVYeVVTRVAyM3BoS0lXeUtQRWM?oc=5",
-      "published": "2026-06-15T13:52:00+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "4593bc51923a",
       "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro bientôt remboursés par la Sécurité sociale - L'Express",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdGlxYVNhU3VKSHhrR2dKelIzQU9vUU05ZkR5UkphZWp4RHZzOThiSDRQMnlvY3pUS1NCUkJva2ZhQjlFTmJmTmJHemJGRnRSTnlSd0lvVGphUGlDanFJa1NMN3YtYjRMTVdXMjdTUWxIU2FrUjZLeUxhY056bElodWt2ZjY4OXJKVG12Ml9oWlc3Z3FmOGY0elFJcXBWVjFnS2NmMXlrWXlib3pEZFlXVER4YVo3ZnRMdFhxRk5kUGhabjJDSFRqaGhBN1Rmd3d6NWpoYzIyUk80SE8xQ0M1eENzZGE3OG1IZmVlWV9nVVM4a21VSWJKZA?oc=5",
@@ -761,6 +751,16 @@
       "source": {
         "name": "L'Express",
         "url": "https://www.lexpress.fr"
+      }
+    },
+    {
+      "id": "af4811836585",
+      "title": "Produits CeraVe accusés d’être dangereux : ce que révèle vraiment un pharmacien sur cet ingrédient controversé - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWkRPZkpWWWVhN2FYb3R1ZVcyUVBXSUI0ZFREdVpnQUtmS0RKVEFTamZEWHdLZS1FTjFZMDlnalpxZTJIdkp1MnlqZDhVQzBiMFVqZ1pVR1lZUGkzM0xISnhwUFBKcWVPLU1IX3c4dmM3RUpCci1JelVlZ3BOOENpMmZvdDdOUndiTDVkTFIwM3htbGpKNGE1Q2xfNEFyYzI3YTZKUnFEVWlHRk1KU3U2c0JydWVRZkVPT2F6cmd3bHdRcG16R3ozaVc3a0hoVG5YMXJxMFJIdHZTV1Z1N1Iyek9hSGlPazM1VEdTeUo2NGFqX1M3Q003VXRscjVMUzN0Q3RaOHRsQVRtazBlZTN0eDFn?oc=5",
+      "published": "2026-06-15T19:02:47+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -781,6 +781,16 @@
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
+      }
+    },
+    {
+      "id": "56294d052476",
+      "title": "Le ministère de la Santé bloque le risque de transformer le soutien aux médicaments en outil marketing. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZUlnd25oVXp0NVk0eWcxeW5mSUpXTy1TdFdmZUREUHYxbzdTT1MxQnpYVlB5MjJQUTNmYVpCOUN4bFVMZElEYk4wRnhfWGxmTS0tMS0weGlHazFUOXRFNF8zVS1SV2dQbVp1ZEtGaVFnR0R0YkZNVkNPSjZKeU52TVlHWEZ1YVVlWDRTWmt3MGw?oc=5",
+      "published": "2026-06-15T10:23:36+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -824,6 +834,16 @@
       }
     },
     {
+      "id": "eb2e87355a3b",
+      "title": "Finaliser le cadre juridique du programme de soutien à la gratuité des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNXhhZGJSTGoxekN4dVNnQ3djY0ZOSDVBdm14RXp6M0txdnAxVGVsTFNOR2toNEhCVXBHYl9FRExUa3hfUEIzYXVLVWJVckdYVHJOa1dWczlNY09sSU5rNmg4aDljaVJ1enZqSWtCUnZQaDhzWk5ZamxhTzBLX28waFVYeVVTRVAyM3BoS0lXeUtQRWM?oc=5",
+      "published": "2026-06-15T13:52:00+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "e7870144977a",
       "title": "Alzheimer : les Suisses découvrent un médicament qui relance l'espoir de freiner la maladie - Top Santé",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQYVVzRkZnUVhvcjhPakY2MkY5VFhSR0JhdF9lRDZPREREYmgzZkhhcmc1SmJFWjFwTElUanQ0dmUxdnFmc1ZiaEc1ZGRPRWduTDhCb096ZElfZDBYczBMY3JoZTFISjk0d3pKbDBDendXR18zRXFpajZ0Q0gycVQ5TFpFTlRYV1RwTzMzNTcxd1JuMm1fRHlXbEpQOXF0a3paWGJDLTRiU0g0eTBadEt0b1NSbHdfUTNvZlJoNXk0M3FwVTNfMm12UXBnVmR3eFczaUQ3c3pfbm5Kd3o2WnNmLW9rTjhhLW5vMFBiVy1XZUNHdXVr?oc=5",
@@ -831,16 +851,6 @@
       "source": {
         "name": "Top Santé",
         "url": "https://www.topsante.com"
-      }
-    },
-    {
-      "id": "da6e1e05f7b8",
-      "title": "Mise en œuvre d'un programme de soutien gratuit pour les médicaments : - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKRmlSSC1QV0RFT3daWjc4VUNNSnlocnJyTWxfbUNVaHJmdDhxSHpDUmFGTTNsYXNxWl90WTV1eWNJZlRYZEw3MFNCVkJLQ1JUVnp3UENqcGlpRDJoNWcyY2lzY1J0MEs1QkRxNE5HR0dkUWpGV3M4dWY2bw?oc=5",
-      "published": "2026-06-15T09:39:59+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -874,16 +884,6 @@
       }
     },
     {
-      "id": "2f34a905947a",
-      "title": "Leqembi : l’espoir contrarié des patients Alzheimer - Le Soir",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFRFc1Z5Yldia2dNZmZZVEFrQml2Q1pJbERZT3R6ekFSN1Q4UGNtTVU4NjRZWF9TeUg2WkU2aTlmNjNVVkhGSGhtWXM2RUtrejA3SzJKc1ZodWVhek5DaXE1SWk1T2RxWkxZQjJPdnlJZUh3NEttN05OQ1I4U1I3aWcyQjczeGtlbllxOWRfWnUtWkI4WkYwOTl0RTk?oc=5",
-      "published": "2026-06-15T04:00:00+00:00",
-      "source": {
-        "name": "Le Soir",
-        "url": "https://www.lesoir.be"
-      }
-    },
-    {
       "id": "1c7d93f33b61",
       "title": "Médicaments anti-obésité : qui pourra bénéficier du remboursement par l’Assurance maladie ? - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakttZGVJWl90X1ZKQl9lZ19RcEFyVk8zbUQ1U2tDMGtyN2VDdXdPamkyRzFHY1RCTW0zUnpiallsMzJHaVdkMzlnWnNSQXpZbXhFcWdXNHRSNDRSS25mc3dydVhRZVJfXzJKTlFmVWlNWTY3aHMtSnFkMW1EZ0RPMkh0WEQ1cm5RbjZTLWFaN0paSWM4UkpJT1Y5OGlhdTlSZzFUWXZxQm41dHdtYmhDZGEwdE1SMzFpRkxpR0dLcmF0bVBfdWkwQzNQRjZULUFaZmhRbEdvZ2hCMmVKUUhGdXl3?oc=5",
@@ -901,16 +901,6 @@
       "source": {
         "name": "Sud Ouest",
         "url": "https://www.sudouest.fr"
-      }
-    },
-    {
-      "id": "e53223f2d781",
-      "title": "Deux nouveaux médicaments anticancéreux ont été introduits au Vietnam. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQai1oczBHeUdwc2REbDJQa2VqYzZjUmpkZkpaTjR6RmF0cGxNazZzM0dVNVBxQ2poUzltcWdncnFTQkZpakJ5azZ3VkFKaURIeEQzQnRPWXVQS3lyZksyQVQwMVZZU3pGZUNhQmlRRUFOOEROS1J5QU1xRVJBR2w5aA?oc=5",
-      "published": "2026-06-15T13:08:55+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -954,16 +944,6 @@
       }
     },
     {
-      "id": "7fd32182530b",
-      "title": "Médicaments : les laboratoires préparent le terrain pour la présidentielle - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd0RTLTdVLUUyeUY4bjlETW92Z2pzVy1DMG51UXdGT0J4ZnpJWEJocDN0NnQ5MTZMbFUxc08xempWX0R2Tm9hcjZkcENCaFhvMEo0VERnejVnUkFUMEtiYkg3eHhQYUNpNHBqMk55X3BEallTWG5UZGhpN09xTDdPLUZXYk9uN192cENXT2xoS3NvbmxBS0REMmgwa2dNNVN0aE1VMmpEMVAzZFA0cGFvalR0bndvY2FIX3NfODJaSzdCeGZwMC1MbEx5NWhNc0xGTWxlQWJB?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
-      }
-    },
-    {
       "id": "12d9aaa54f70",
       "title": "Des mesures pour remédier aux erreurs liées aux médicaments - Blick",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ2lEaHB5R0NRZWk5dlU5VGMyVy1NbHkxN1d5N3BST0dPWDRWLUpDLVgxWWUxZC1DdjhYcnRjQm5EVzNrRnVrR2pBRVA2NkYtaTk4ZmJhSFUxRHlZaW5GZFRDNVBZdDhObFJWMlBiVS0yaGZzUkVzU0tUTUFSRTlibWVObk5FM0t5SkRJeE5qLVdUcnY2VTloNi1NdE1BQXVLZDhMRlNOZDdWQQ?oc=5",
@@ -974,6 +954,26 @@
       }
     },
     {
+      "id": "7fd32182530b",
+      "title": "Médicaments : les laboratoires préparent le terrain pour la présidentielle - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd0RTLTdVLUUyeUY4bjlETW92Z2pzVy1DMG51UXdGT0J4ZnpJWEJocDN0NnQ5MTZMbFUxc08xempWX0R2Tm9hcjZkcENCaFhvMEo0VERnejVnUkFUMEtiYkg3eHhQYUNpNHBqMk55X3BEallTWG5UZGhpN09xTDdPLUZXYk9uN192cENXT2xoS3NvbmxBS0REMmgwa2dNNVN0aE1VMmpEMVAzZFA0cGFvalR0bndvY2FIX3NfODJaSzdCeGZwMC1MbEx5NWhNc0xGTWxlQWJB?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "da6e1e05f7b8",
+      "title": "Mise en œuvre d'un programme de soutien gratuit pour les médicaments : - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKRmlSSC1QV0RFT3daWjc4VUNNSnlocnJyTWxfbUNVaHJmdDhxSHpDUmFGTTNsYXNxWl90WTV1eWNJZlRYZEw3MFNCVkJLQ1JUVnp3UENqcGlpRDJoNWcyY2lzY1J0MEs1QkRxNE5HR0dkUWpGV3M4dWY2bw?oc=5",
+      "published": "2026-06-15T09:39:59+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "74ae2ef658c2",
       "title": "Dons aux populations privées de médicaments et de matériel médical : ce qu'il est possible de faire - Ordre National des Pharmaciens",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQnk4LTVodDRjWlZISmJvY0VLa1JJX2p3QmVwYTk0dzRUcTdZcWdFeWdiWGVaXzNFb1UzbTFnY2JaWUhjX3NhZDZxX1FIdjZ3Ty14R0xmQzV0TldvM2MxUDgwLU1MT0x1Z01wYWdwUm0tVWhmOVRxVUdaOU9HSFJRWWUweEh3aDBIYk5SUHFpTGM1MWZNV3lzUXkwVDdBc1ZKYTJTUTEtWWtyTnMwQkJjczh5VU85UTMxMy13d3Q0d09ybHptZHV4NUxCS1lHNXNMckZSbXladnRCX0hEajNjZUpvZ2QwLWo3blRiRVg0UkdYTVdrbkdzenlxak1IZUFEUEVj?oc=5",
@@ -981,16 +981,6 @@
       "source": {
         "name": "Ordre National des Pharmaciens",
         "url": "https://www.ordre.pharmacien.fr"
-      }
-    },
-    {
-      "id": "32d31915a2f7",
-      "title": "Dépenses de santé : la France pourrait économiser 800 millions d'euros par an en augmentant le recours aux méd - Boursorama",
-      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOODFzeThkR3JjM00wc013V3NRa0pEZ3hhZmVadlhWSGlzQTZZQTBwc0FvZmp0c1FhRjFyYks1b1BMc0dZMUtGY2hSWGNkZFc5bzNuZXJlQjh5eUtIaTloMW5tOElndXBJanJNTUpfcndNODEwN1c5R1lHSVNfbXNtVG1ySEpZODU0cGRLQ3NHTHlkZHItZTZqUVN0blktNnFuaWljeGpvTEl3WUhiZDZoSGFpUjdzZkRRMHppTDhwWUUyYkZCelBlRzRwYW9meWJrMkI5N1ZQQ3RTN3F5S2htNm9ESTdLeDl0VWR6YmlRN2piVEl3cFMwYXB2M0pjNG9MMGdVX2oweVdPcVo4UExOaTFiamcwWWFiU0l1bW51bHEzblJnbTkyUnI4TXB0OFZVUmZRdVZvUGlUM0tzNlJKSNIBxgJBVV95cUxPVS1KWjZqekNRQVpJR0NTeEdWbllTZGJZaDFnQ1lwZWFGdGlZR3hlajNQNEtFcU5ad3hmdmNyMU9hU0paOV92a0YxMGltU01tVUtqQll4RVBhcEFSVE10eXdrcmpiMkpweDhfR0c1dzdaYk5mR1JfaENmZENaQThYa3JNQ3VnY1FXX19YNnFnSHpHSUREZTBXWGkzamI2RVpycE9jaEk5bEZ0emV3QTJ6aU8yM2hyVnJQcGRBYXQtcllST3Z5YlU0OE9ndDVSUEFtQktMNlNYTzdGTmlxeEp0SjBSSXNsUTl3Vkw1VWhMSjNORElKWWVhcVZYRlo4X2ItRk5MMnZIaGZIVy05cjl4aUlPSnpwajVWb1c3VVhZTFFYQUFWbEZsTmt5eVBUV3NhYWdjcWZfNUFBREN5OTE1LVdHY3dRQQ?oc=5",
-      "published": "2026-04-15T07:00:00+00:00",
-      "source": {
-        "name": "Boursorama",
-        "url": "https://www.boursorama.com"
       }
     }
   ]
