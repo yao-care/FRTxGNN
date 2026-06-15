@@ -2,7 +2,7 @@
 layout: default
 title: Misoprostol
 parent: 僅模型預測 (L5)
-nav_order: 57
+nav_order: 174
 evidence_level: L5
 indication_count: 2
 ---

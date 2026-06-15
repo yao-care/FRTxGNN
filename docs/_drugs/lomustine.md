@@ -2,7 +2,7 @@
 layout: default
 title: Lomustine
 parent: 僅模型預測 (L5)
-nav_order: 33
+nav_order: 150
 evidence_level: L5
 indication_count: 10
 ---
