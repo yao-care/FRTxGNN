@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-06-21T18:22:48.518912+00:00",
+  "fetched_at": "2026-06-21T20:42:30.608754+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "5c5cbbcfba1f",
+      "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
+      "published": "2026-06-20T08:07:59+00:00",
+      "source": {
+        "name": "Le Monde.fr",
+        "url": "https://www.lemonde.fr"
+      }
+    },
     {
       "id": "817b12ba186b",
       "title": "Consultations, transports sanitaires, médicaments… Le gouvernement veut baisser le remboursement de la Sécu sur des actes médicaux dès cet été - Libération",
@@ -14,13 +24,23 @@
       }
     },
     {
-      "id": "ddd864f7a526",
-      "title": "Ces médicaments qui n'aiment pas la chaleur - DHnet",
+      "id": "b789e5a9e1f1",
+      "title": "Ces médicaments qui n'aiment pas la chaleur - La DH/Les Sports+ - DHnet",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ2xvVWM1RThCZ1VGV05Za0FXcGpZYVVEX0xlVndKM1p0RmFxUG1SQUN1NU9lYkgzTWQ3N2ZPQ0JDbFU5SXVoVFVzdVBuWmhQYWM0Y2dVSXBfN01VOTI4SU9jSmZ4aFRrcWMzTHN3WFdFU2o0Z2RiLTBtaXBhbzBBUUZ3dEdfRlRucTdTZmNWT29RekQ2a2Vtb2c0TEtKQ1BIRFBqaFpfeG81d3RuWW1FcWhMYw?oc=5",
       "published": "2026-06-20T04:58:00+00:00",
       "source": {
         "name": "DHnet",
         "url": "https://www.dhnet.be"
+      }
+    },
+    {
+      "id": "3294c9df6765",
+      "title": "Cette eau que vous buvez pourrait altérer l’efficacité des médicaments - Le Figaro Santé",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQWJ1bmZ2dmlLUFRIbTBCWUtXWUxJTEx2WU9pVjlaeXItWHlibGtPUWg1Q2ZSNG9ROWw0aTVHR09BZ2g3dmZtSHVjRG1FNXBsT3JlemRwcnZDT2hINTJRcXBCbi03SldtQXR2aHFYT2hWQ3VtOV9KVHdTMGNaQVZvVEhwQWJ6ZWNXeWd4aTBaVFVyNUUxdVU4Mi1rcUI3b3prOHZkaFhKTkthUFByTUQ3Smp5dXVLbkVMV3g4MnhQNm5BcWcw?oc=5",
+      "published": "2026-06-18T09:44:22+00:00",
+      "source": {
+        "name": "Le Figaro Santé",
+        "url": "https://sante.lefigaro.fr"
       }
     },
     {
@@ -44,16 +64,6 @@
       }
     },
     {
-      "id": "3294c9df6765",
-      "title": "Cette eau que vous buvez pourrait altérer l’efficacité des médicaments - Le Figaro Santé",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQWJ1bmZ2dmlLUFRIbTBCWUtXWUxJTEx2WU9pVjlaeXItWHlibGtPUWg1Q2ZSNG9ROWw0aTVHR09BZ2g3dmZtSHVjRG1FNXBsT3JlemRwcnZDT2hINTJRcXBCbi03SldtQXR2aHFYT2hWQ3VtOV9KVHdTMGNaQVZvVEhwQWJ6ZWNXeWd4aTBaVFVyNUUxdVU4Mi1rcUI3b3prOHZkaFhKTkthUFByTUQ3Smp5dXVLbkVMV3g4MnhQNm5BcWcw?oc=5",
-      "published": "2026-06-18T09:44:22+00:00",
-      "source": {
-        "name": "Le Figaro Santé",
-        "url": "https://sante.lefigaro.fr"
-      }
-    },
-    {
       "id": "2199b85d00c3",
       "title": "Déremboursements des médicaments : la Fédération des Institutions Paritaires de la Protection sociale alerte sur les «conséquences désastreuses» sur le pouvoir d’achat - L'Argus de l'assurance",
       "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNYmtkWEhrUjBZNEF0Qnk2cmZLWGNDNk9xSHU4Q2Y4Y0JqOS10Y3oxUThUOEZ4UVdROG5tb2VjM2FNX1hmZ0ltbmozMzRfRU1McFZPeVZad1NGR0FabHRyNU9MbmJFUkFPNHBxenVjc2p1X3g0R00ydXplVEVJRVo0OGp6LVZ6YjVfSW54YW5sQWJFWjFONThOWExOXzBtanpUNDZJRTVyX0hneTJwMU1PRzJQSW9TTXdVNVVvNmFZMW0wTWpMNHZkV0VZWFdjZUlZcTAwVlpOV0tYcGpLZkdMRXlVcXBJMU1KUDM4MXhxSWplOWd6aWEzWDNjQTduUVV1a1o5eXRnTHhMeDNpYXBkaXVCcWh1SDBRY0laQTZseHFaTnNFOHkwbDF3dndYbE9DSVJoLXNMM3NERTdBdlBPMnVObFRPUFVVMFAwRW94WnRGMXQ2WDBZZTlJSUctbWJndzFmTVBZU1RVY3c?oc=5",
@@ -71,16 +81,6 @@
       "source": {
         "name": "Corse Matin",
         "url": "https://www.corsematin.com"
-      }
-    },
-    {
-      "id": "5958ae068584",
-      "title": "Canicule : attention à ces médicaments qui peuvent aggraver les risques pour votre santé pendant les fortes chaleurs - Midi Libre",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMFJPWnA1V2hoYlE2NHBhWXQxUFFzdUU5cF93Q0swcWp5d1U5cXVOTmVySFFQMGFuRFFaZnJPWld0UDg4UEJhNi1sSVJmUTZGdzh0SXo5SG1VaWNtNE1nSk5RTjBIX1MyN2s0amlLanMzSVR1Zndudmt3NEZCTUp1cGp2MFppXzg1NDdhMlkwa2N0ekVDYUZiWDducnlBR0IyOHhpZ2tDaFVaNDh3aVpqTHctMTNsR1dVS0dob2VibWRGdm5LTmdSNHdHaDRuYmd6NGtvMGxWS3NZR214OUx0ZG1ZVUs1UV96WUFmcGhMVFFiOTlwbEE?oc=5",
-      "published": "2026-06-18T08:36:00+00:00",
-      "source": {
-        "name": "Midi Libre",
-        "url": "https://www.midilibre.fr"
       }
     },
     {
@@ -104,13 +104,13 @@
       }
     },
     {
-      "id": "5c5cbbcfba1f",
-      "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
-      "published": "2026-06-20T08:07:59+00:00",
+      "id": "f44c588c600b",
+      "title": "Santé : le gouvernement prêt à frapper fort avec de nouveaux déremboursements - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaHRDR3dyT1IxTzJuSUFhamJ6VGxjY3dzMUFOWllLRGVxR3RCVHZIS3N0UXdZWWdQMTNjTnMtanlWNjRvTFBmVTFHQlF3eTZYWm5nTDZaSkNzZzF6dndMMXBVU2pTeFVDOG9fekFiODBDMGg4SUlZbXBfYzQyUllHaXREQThfSHdwSGVjSGN1QVRBTU43UUNqMjVnYl81akd5WUwxUU41M1liclY1c0RJaHg3MGx5YWtvY2lXZ0t0WlVXWTlqdHE0UmljMEVxZnJTYmNoc3pYSlN4Zw?oc=5",
+      "published": "2026-06-19T06:40:51+00:00",
       "source": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -124,13 +124,13 @@
       }
     },
     {
-      "id": "f44c588c600b",
-      "title": "Santé : le gouvernement prêt à frapper fort avec de nouveaux déremboursements - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaHRDR3dyT1IxTzJuSUFhamJ6VGxjY3dzMUFOWllLRGVxR3RCVHZIS3N0UXdZWWdQMTNjTnMtanlWNjRvTFBmVTFHQlF3eTZYWm5nTDZaSkNzZzF6dndMMXBVU2pTeFVDOG9fekFiODBDMGg4SUlZbXBfYzQyUllHaXREQThfSHdwSGVjSGN1QVRBTU43UUNqMjVnYl81akd5WUwxUU41M1liclY1c0RJaHg3MGx5YWtvY2lXZ0t0WlVXWTlqdHE0UmljMEVxZnJTYmNoc3pYSlN4Zw?oc=5",
-      "published": "2026-06-19T06:40:51+00:00",
+      "id": "f3b9a1d62b3c",
+      "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
+      "published": "2026-06-01T13:26:58+00:00",
       "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
+        "name": "Service Public",
+        "url": "https://www.service-public.gouv.fr"
       }
     },
     {
@@ -144,13 +144,13 @@
       }
     },
     {
-      "id": "f3b9a1d62b3c",
-      "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
-      "published": "2026-06-01T13:26:58+00:00",
+      "id": "5958ae068584",
+      "title": "Canicule : attention à ces médicaments qui peuvent aggraver les risques pour votre santé pendant les fortes chaleurs - Midi Libre",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMFJPWnA1V2hoYlE2NHBhWXQxUFFzdUU5cF93Q0swcWp5d1U5cXVOTmVySFFQMGFuRFFaZnJPWld0UDg4UEJhNi1sSVJmUTZGdzh0SXo5SG1VaWNtNE1nSk5RTjBIX1MyN2s0amlLanMzSVR1Zndudmt3NEZCTUp1cGp2MFppXzg1NDdhMlkwa2N0ekVDYUZiWDducnlBR0IyOHhpZ2tDaFVaNDh3aVpqTHctMTNsR1dVS0dob2VibWRGdm5LTmdSNHdHaDRuYmd6NGtvMGxWS3NZR214OUx0ZG1ZVUs1UV96WUFmcGhMVFFiOTlwbEE?oc=5",
+      "published": "2026-06-18T08:36:00+00:00",
       "source": {
-        "name": "Service Public",
-        "url": "https://www.service-public.gouv.fr"
+        "name": "Midi Libre",
+        "url": "https://www.midilibre.fr"
       }
     },
     {
@@ -164,13 +164,13 @@
       }
     },
     {
-      "id": "36237c9ccee0",
-      "title": "Sclérose en plaques: un nouveau traitement révolutionnaire bientôt accessible en France? - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVmRPUmtRakVDWldwQ2RGbUZPZ3J4SUllc1hOVW84MEVyT2I4eWFIdjctdldKNzFBQm5JakU4cHFuYUNORFk0eDhVZGdoN2R6eEFDV3lmYkRuQXNNUFZJN0x0YjltN2h6SVpnZVAtNlF1cHZwaFk0a043akIyUzdJY0JyNGJfLV94UUY4YXN3dVZYZ3MzcVZPcUpTM0thU1IwbEsxdXg2VkdJdGdla1F6dnhOUFYyUzFMNFRjeFhYQ0FEb0NIR1R3MC1EaHloWTM2RW9EeV9wVXVBZlB3Mmc?oc=5",
-      "published": "2026-06-21T01:36:06+00:00",
+      "id": "6ef9b52f4b28",
+      "title": "Extension du monopole des médicaments divise les ministres de l’UE sur la loi Biotech - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTXVuQmp1alFSWFI4SVZGV2tIX3VDdkFyN3BreVp5ak10Y1pfaHlMSllFbUVWUFFSSUx4TnVFMUpDaUpvOUNXOWk2SjduMXVUeEpEYUdfZ3piREE1emtGLVNhMVZUanB5UDBCek5hUWJNS0hNMWx5UjFlaXdBTVlwRnN6TFpfXzFMWGZHTjZ6aDUtbzJkUUtOZXhnejFibm5WeWY4cXpRcUkyUmlWeTdfZ2VfSW43dlpSaG5IVUd0OVM2U2M?oc=5",
+      "published": "2026-06-17T14:33:28+00:00",
       "source": {
-        "name": "Notre Temps",
-        "url": "https://www.notretemps.com"
+        "name": "Euronews",
+        "url": "https://fr.euronews.com"
       }
     },
     {
@@ -184,6 +184,16 @@
       }
     },
     {
+      "id": "36237c9ccee0",
+      "title": "Sclérose en plaques: un nouveau traitement révolutionnaire bientôt accessible en France? - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVmRPUmtRakVDWldwQ2RGbUZPZ3J4SUllc1hOVW84MEVyT2I4eWFIdjctdldKNzFBQm5JakU4cHFuYUNORFk0eDhVZGdoN2R6eEFDV3lmYkRuQXNNUFZJN0x0YjltN2h6SVpnZVAtNlF1cHZwaFk0a043akIyUzdJY0JyNGJfLV94UUY4YXN3dVZYZ3MzcVZPcUpTM0thU1IwbEsxdXg2VkdJdGdla1F6dnhOUFYyUzFMNFRjeFhYQ0FEb0NIR1R3MC1EaHloWTM2RW9EeV9wVXVBZlB3Mmc?oc=5",
+      "published": "2026-06-21T01:36:06+00:00",
+      "source": {
+        "name": "Notre Temps",
+        "url": "https://www.notretemps.com"
+      }
+    },
+    {
       "id": "99cdd2fe99d7",
       "title": "Bras de fer entre les États-Unis et l'Allemagne sur les prix des médicaments - RFI",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTzVGb1BUUUNzWE1oTVRUOHFGTF9JcDdkSk1tLXc1NGVaWk1sWTZMMDdfdnZjU1JkZVRPMWV2RmhlaFJheTdydmxmR3BKVktHN2dNeWxveHRPRlNWSnBBQXJjXzJGc0g2R01xNkd1OE9oWUhOdlJMRDRTRTRwMlJvaUNsMmNnSEpocGZJZm5fYnA2aWRPZTNLRy0yRlU0MnROWWNCODIxTkw5TzJnWUdPUjB6SzlrSVRkbC1RemxHRDY5dk5rUUQwQXhTd1U?oc=5",
@@ -194,6 +204,16 @@
       }
     },
     {
+      "id": "294331f99df7",
+      "title": "L’exercice le plus efficace pour faire baisser la tension, selon les spécialistes - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMnVzaXFTblk1bmZ5NXFCRmdRUV9pTGMyeGlKVWdrdGxPZ0d6ODRPVUlSaW5fMDdYRUpYWFpxNE1TOEZRN1Qtc1ZIUVNwWnVQR21tZ3p6YVY2bWVvRndIWWM5YnN6TURZQ2VyRldIVlJqZC1yN2lvNEx4eGU4VXpDaFU2OXdfQ0E0dHYtSmxZdlhWUE9CdGoyUUZQc0NHMk4xdERmb2VfX0VKUHZsR1A0NW5odG42aFo1N0U0aWFpeUZiN3A3UDNzckVSSV9Zdw?oc=5",
+      "published": "2026-06-21T17:30:00+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
+      }
+    },
+    {
       "id": "5303c4b6a0c3",
       "title": "Mucoviscidose : feu vert pour un nouveau traitement - Handicap.fr",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0daSTVzdHc3bVJwb3Q0b0ZmSW5CWUFoSDJROC1nVnJGM21NdldrNm9aVmJDbVN5cW5CZFEzNHBhd2phVmJNbXNwUHJ0ZWZ1alVja2syZlVNTldZUU1XRUNNekFtSk4xTXdRc1djRkVsVDdCVnJPVURMZzJaekloMFBvY0FudFhsRGloZVVuUm9XcnVRVUUwdTJB?oc=5",
@@ -201,16 +221,6 @@
       "source": {
         "name": "Handicap.fr",
         "url": "https://informations.handicap.fr"
-      }
-    },
-    {
-      "id": "294331f99df7",
-      "title": "L’exercice le plus efficace pour faire baisser la tension, selon les spécialistes - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMnVzaXFTblk1bmZ5NXFCRmdRUV9pTGMyeGlKVWdrdGxPZ0d6ODRPVUlSaW5fMDdYRUpYWFpxNE1TOEZRN1Qtc1ZIUVNwWnVQR21tZ3p6YVY2bWVvRndIWWM5YnN6TURZQ2VyRldIVlJqZC1yN2lvNEx4eGU4VXpDaFU2OXdfQ0E0dHYtSmxZdlhWUE9CdGoyUUZQc0NHMk4xdERmb2VfX0VKUHZsR1A0NW5odG42aFo1N0U0aWFpeUZiN3A3UDNzckVSSV9Zdw?oc=5",
-      "published": "2026-06-21T16:26:03+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
       }
     },
     {
@@ -234,26 +244,6 @@
       }
     },
     {
-      "id": "19d62502a472",
-      "title": "Assurer de manière proactive l'approvisionnement en médicaments pour répondre aux épidémies et aux vagues de chaleur prolongées. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVXhXTUVHS2VacHBmaHYzbUlJNm9INEhtVW5jTWYwTWxqcDZvQkE2MHdhTW9sbzdWZlBNdU52TW1ieE42OU1NU2ZLMVFPR09ic2xlVm1wNFR2QldrZGt1OGRoN1hCTF9LajBjYVY4SFRJb2ZQYkwzZGZfZkQwS0ZmNUtPQ29qVHI1ejExdXV4dllYMzRVVzZTeDlMSi02OHc?oc=5",
-      "published": "2026-06-21T15:03:10+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "165f3195f193",
-      "title": "Constituez des stocks de médicaments pour faire face aux épidémies provoquées par les vagues de chaleur prolongées. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaFE0OFVPUTV6NVZKUjZJSjBISDFmeE43ZjRHeENZSERaM0l6N3UtNlFicmFfMnhfdHBmUEZ1LXI5MXBGYzRIU1ZIWWlUTXZsWV9oU0tEamo3Q0tHMzREekxkNFFxZkFuZzlhdUxxeUs5clFkSGc3Q2lERm9MR0ItbDVWTQ?oc=5",
-      "published": "2026-06-21T12:50:25+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "6d04ca2b57c9",
       "title": "Alerte canicule : ces médicaments nécessitent une vigilance particulière - E-Sante.fr",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcGFHRm5jRExILTk3WTZUSHIxeFZEVXBXcGtTbEt1NWVXNEh1SWdrcV9rTFJKWFVFT0NGbnZuaXBfcmtEZVRyZnFBNGthdGlxNkNJd29qNTN0Zk01eEVsTk5haEFraXlJb3dMaDBGR0dkcTRMUlgtX19yR2FoSk1VM1B1YU1lUEhqR01SdGxjeTVRMndjMVZ2Q2x0NkNnaG5GdS1uWDZrOFFCamZadVBF?oc=5",
@@ -261,16 +251,6 @@
       "source": {
         "name": "E-Sante.fr",
         "url": "https://www.e-sante.fr"
-      }
-    },
-    {
-      "id": "771261132620",
-      "title": "Constituez des stocks de médicaments par mesure de précaution afin de pouvoir réagir aux épidémies et aux vagues de chaleur prolongées. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcXJ4VXllb3p3TUlGU3BNQW9lMmZJZnV2SVRqNXZoZXBQeVRra3FBQW93aGZyR2Q0OGxETGVWN0VxMkxqQ1RRUDBheUxMdGphbTZpTDZlb1ZfaGd3M3dOTlFDWGd5VHBlejBWN0prODhXOEJNbE0wRThQcU9qTnNsNXVtaTRHNGFqandBMC13aw?oc=5",
-      "published": "2026-06-21T11:07:01+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -284,6 +264,16 @@
       }
     },
     {
+      "id": "19d62502a472",
+      "title": "Assurer de manière proactive l'approvisionnement en médicaments pour répondre aux épidémies et aux vagues de chaleur prolongées. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVXhXTUVHS2VacHBmaHYzbUlJNm9INEhtVW5jTWYwTWxqcDZvQkE2MHdhTW9sbzdWZlBNdU52TW1ieE42OU1NU2ZLMVFPR09ic2xlVm1wNFR2QldrZGt1OGRoN1hCTF9LajBjYVY4SFRJb2ZQYkwzZGZfZkQwS0ZmNUtPQ29qVHI1ejExdXV4dllYMzRVVzZTeDlMSi02OHc?oc=5",
+      "published": "2026-06-21T15:03:10+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "cdc63f34b472",
       "title": "Les sites habilités de vente en ligne de médicaments - Ordre National des Pharmaciens",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjJpSjd3T2lLZTEyeXpvTldOT0pDX3hPN0NVY0ZJdEo3Nl9WcmF6NG84WFNQblNHRURnaWRnY0trWDF0RkpkVEY2R2RieGFvZ1gtRExSTktYSzBmQnJybVlRZHpBcFBwM0taNm9vRmlJOTZCbXVfVkNrdl9fQVN0c1hGR0NtQW5zQlFYS3g4cGdBWXFSMkZ2dzA3NkY0el9Yek1COTlhZmNKbmVCT1Vub2RZbw?oc=5",
@@ -291,6 +281,16 @@
       "source": {
         "name": "Ordre National des Pharmaciens",
         "url": "https://www.ordre.pharmacien.fr"
+      }
+    },
+    {
+      "id": "165f3195f193",
+      "title": "Constituez des stocks de médicaments pour faire face aux épidémies provoquées par les vagues de chaleur prolongées. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaFE0OFVPUTV6NVZKUjZJSjBISDFmeE43ZjRHeENZSERaM0l6N3UtNlFicmFfMnhfdHBmUEZ1LXI5MXBGYzRIU1ZIWWlUTXZsWV9oU0tEamo3Q0tHMzREekxkNFFxZkFuZzlhdUxxeUs5clFkSGc3Q2lERm9MR0ItbDVWTQ?oc=5",
+      "published": "2026-06-21T12:50:25+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -304,6 +304,16 @@
       }
     },
     {
+      "id": "771261132620",
+      "title": "Constituez des stocks de médicaments par mesure de précaution afin de pouvoir réagir aux épidémies et aux vagues de chaleur prolongées. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcXJ4VXllb3p3TUlGU3BNQW9lMmZJZnV2SVRqNXZoZXBQeVRra3FBQW93aGZyR2Q0OGxETGVWN0VxMkxqQ1RRUDBheUxMdGphbTZpTDZlb1ZfaGd3M3dOTlFDWGd5VHBlejBWN0prODhXOEJNbE0wRThQcU9qTnNsNXVtaTRHNGFqandBMC13aw?oc=5",
+      "published": "2026-06-21T11:07:01+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "fee028f60619",
       "title": "\"Attention, ce n'est pas un médicament qui guérit\" : un nouveau traitement prometteur contre le cancer du pancréas - TF1 Info",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYnpzT2U0WWlzY190cVV6MTRCM1FmRWxwV2E2M2hEMEpQdFpNLWF6d3NfeFh5WC1UczJZbElKS2ZQR3ZpY2RFdDdIR3llU2p3NjRFQVhvY2xIVGFUSGJkMUJIWk41cVpRSjViaWRCUzFwbTRyYUw0YmVqMVZHOHdrOFZ6YkJ6d2w3WEpVRVVFZ1NhWUxtTkhlMWtpb1Y3SzQwOFdnVzctWThEUXhNLWF6dVYwWFlIZlI1WWlBbzJSQ00tbWRrYnBKazlsV2pLZFh5V2N0RXAtMEFLb3ItQXVObWRBSlpCbFp0VkFHYW5R?oc=5",
@@ -314,16 +324,6 @@
       }
     },
     {
-      "id": "52427c02de18",
-      "title": "Plus de 1 000 membres et femmes en situation difficile ont bénéficié d'examens médicaux et de médicaments gratuits. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbWVuZ0RPZGIwVGtaVHdBb1NfODRQVXFDbi03Y1dvWDZKS2VnOFBBTzlEU1JjNkVzWEd3RmZGMlNibTN6MkJpMHFOdjhfUWVYeGJlX0V2M2tycmxHZ3NwbWlTVldYd0hWZzhXT0tocUVIckVFSnc1QzAtU3ZhNG5tX2VWdGszMkVydFkxZEt5Z3ZodUwtT3JFNE5uVXlNeVotTVBkNDFSUQ?oc=5",
-      "published": "2026-06-21T04:26:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "e6a7762edca6",
       "title": "Actualité - Téralithe et quétiapine : point sur la disponibilité et l’évolution des mesures d’accompagnement - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3lIcUIxZFRjR3RJNjAycWd6dE5TRDN4TmxselotUmFJamFPZEstWmFuY3AzVVZvcnl1Vjh4TDRZZDdUUkVEOHpnNzd1UWtBRHhZNDFTRm51dTh4SmFMS2ZWak0ybmtFbHV2M2RqLUtMVm5tN2hlVU5acGpNc3hWeFA1Nk1fdGtZTG5FdjBVUkFNSzd2MEQ4TWo4WG9tdGdPVmhyeW90bGR6ZTRrT0s3cG94QWtJZlNBQjJDY2xWMUFYQ28?oc=5",
@@ -331,16 +331,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "564da548835b",
-      "title": "Le ministère de la Santé a demandé qu'il n'y ait pas de pénurie de médicaments pendant l'été. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2F0TUpJM1g4R1BzT2ZMSFRWd2tWeVRHdHNxZ2FzR2Jzb2Y4OHpYQjdtaHJ1ckNhVzBIb3pBbDBIQ01NSnh4b2x3S2VEWFRPSXlYZklWbkwtSzhaR2tFSlVMSzl1UDNtVFgybmY1QzhwNnVwcDNINXlMcWtOY1BlUUQ4YkhRaHpZTE1Kcg?oc=5",
-      "published": "2026-06-21T00:45:17+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -361,6 +351,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "52427c02de18",
+      "title": "Plus de 1 000 membres et femmes en situation difficile ont bénéficié d'examens médicaux et de médicaments gratuits. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbWVuZ0RPZGIwVGtaVHdBb1NfODRQVXFDbi03Y1dvWDZKS2VnOFBBTzlEU1JjNkVzWEd3RmZGMlNibTN6MkJpMHFOdjhfUWVYeGJlX0V2M2tycmxHZ3NwbWlTVldYd0hWZzhXT0tocUVIckVFSnc1QzAtU3ZhNG5tX2VWdGszMkVydFkxZEt5Z3ZodUwtT3JFNE5uVXlNeVotTVBkNDFSUQ?oc=5",
+      "published": "2026-06-21T04:26:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -404,6 +404,16 @@
       }
     },
     {
+      "id": "564da548835b",
+      "title": "Le ministère de la Santé a demandé qu'il n'y ait pas de pénurie de médicaments pendant l'été. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2F0TUpJM1g4R1BzT2ZMSFRWd2tWeVRHdHNxZ2FzR2Jzb2Y4OHpYQjdtaHJ1ckNhVzBIb3pBbDBIQ01NSnh4b2x3S2VEWFRPSXlYZklWbkwtSzhaR2tFSlVMSzl1UDNtVFgybmY1QzhwNnVwcDNINXlMcWtOY1BlUUQ4YkhRaHpZTE1Kcg?oc=5",
+      "published": "2026-06-21T00:45:17+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "b170818d0cc0",
       "title": "Médicaments anti-obésité : début du remboursement de Wegovy et Mounjaro en France mais les contraintes seront strictes - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb3ZaeEpzQXJFcERyZ1RTaXdmNmxHVEF6eGRJbUNxV19lUE5Pb3ZiSFY1WW10WXZVUlBBQklfcDNOQTZLZmx6a2xWdkZFbnI5MmZEeldUSUFqNFpwTTJFQlpYNHBOUTE1TTVIRjRjSXBMaXdkSTFGeTJrbldoS0JaNWU5bV9MMkstYzhqNTZXU1p6ZEh6YXNzSm1NT21nMGdUcW5aRDM0UVU0NDNTb2c4aGdEUG5oeTBSdHMzR0Fsb2p5d2hVTl9NOXlFMWI1ckQwdVpEZkZMZFdJVUtjWXlrWk9tTFExNGFTdWZsdFJ1OXM?oc=5",
@@ -424,16 +434,6 @@
       }
     },
     {
-      "id": "825ec5ce3de1",
-      "title": "Canicule : pourquoi le risque de déshydratation est accru si vous prenez du Wegovy ou de l’Ozempic - Marie Claire",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNam9sQkNwdEpfZUdBUUNBLTRDZkJYWl9ucndCLVZweHNPWVZVd3RMUmtpS0pILWZ3YWt1bVJRai14RmVLdk4xcjg2em8xbjJOUXlRLXE5TVljbkd1Y0lVbmFhME5yZ194Z196WV9QTTlZODluRG5KY0NQSHZZNlhTblJFaVk2LTBaamczWQ?oc=5",
-      "published": "2026-06-18T15:02:00+00:00",
-      "source": {
-        "name": "Marie Claire",
-        "url": "https://www.marieclaire.fr"
-      }
-    },
-    {
       "id": "b763564a09d8",
       "title": "Pénuries de médicaments en Europe: la réponse de l’UE | Thèmes | Parlement européen - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDhZT2pqa2I5d0pkZ1loWVhrR3VLUkd4R0E1SGlCRS05cVQ3bXYyeTlpd2lFQWh2c1ZUWUhWeWw4YUlrYi03ekhkd0NRRFh6cFdpUGxHSFVtVklCZWZTWnQzeEVNY041T1lMTVp5X0pPWXFPVjhnZlNCUVJLcjJNUHVnVXFPLUxPVTVoZzA0UUFZVk10VEtYVllTNDcxV0Z1X1REcU1BWWx2bWdUT3lJQXZxRE9hNm9GSHc?oc=5",
@@ -441,6 +441,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "825ec5ce3de1",
+      "title": "Canicule : pourquoi le risque de déshydratation est accru si vous prenez du Wegovy ou de l’Ozempic - Marie Claire",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNam9sQkNwdEpfZUdBUUNBLTRDZkJYWl9ucndCLVZweHNPWVZVd3RMUmtpS0pILWZ3YWt1bVJRai14RmVLdk4xcjg2em8xbjJOUXlRLXE5TVljbkd1Y0lVbmFhME5yZ194Z196WV9QTTlZODluRG5KY0NQSHZZNlhTblJFaVk2LTBaamczWQ?oc=5",
+      "published": "2026-06-18T15:02:00+00:00",
+      "source": {
+        "name": "Marie Claire",
+        "url": "https://www.marieclaire.fr"
       }
     },
     {
@@ -524,16 +534,6 @@
       }
     },
     {
-      "id": "4ea25c55528c",
-      "title": "Ozempic et Wegovy : une étude révèle une baisse de 62 % du risque de comportements violents ! - PasseportSanté",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOVdPWTV5TzNsd2hoNjk1ZloxU2pHLVRzWl9Pb1NJa1o3V29MMzBGUmdlaVZPWWVORG1sS3BWcVVqVDRYbkhjZFo4RjB6ODFDQ1FHM2FnRVowdE9DSnMyQk91TGwxRmczNUVma29YSVJoUmxFUnU2QngwY2x3OGpKQU1XTUtsYUNyVXBuOHdrczNyck9HSXBEcFplMmctcmhhdGlJ?oc=5",
-      "published": "2026-06-19T14:52:09+00:00",
-      "source": {
-        "name": "PasseportSanté",
-        "url": "https://www.passeportsante.net"
-      }
-    },
-    {
       "id": "f31344e15392",
       "title": "Actualité - Rupture d’approvisionnement d’Emend 125 mg (aprépitant) buvable : quelles solutions pour les patients - ANSM",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1YxVURrNXZzdnd0UGlHUzhCZzBvakJZZmc3MEtES3o0TTBNY2c0Y080TDRfUzcxUF8xSGdhU3hyX05nSk56YkdDUjFEM2JLUlhnVXRtSUZ0SWhlNm0yNUlBRnZsWFN3WEszamZqdy1JMjNWdUNjcnBicThVSGZMRlJsTGxFWjJaa19qRG5maVRTSUJiRHkzRzFOcEFJYzd1Zk85czVZeXRMZWh2b3psT0NqUU5EMm1aUk1BTlVZN2NINXYtRFdR?oc=5",
@@ -544,13 +544,13 @@
       }
     },
     {
-      "id": "3446e2371847",
-      "title": "Wegovy-Mounjaro : les consignes pour éviter les indus - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTnpQVWdhbVowREIwa2JDSWpjbE1BQTNHMllET3JIUENpeGtlczRrZF85eXRGY2lLZXdkTVR5ZXJQWFFEMFlsNllBQXQ1UFdYblRlYzh1S2J2bHZkTnBEajhIWXlwejNjcjFPSlhnd3ZNaVpoV2loaDd3bzVRZVNkbkotR0ZSdEdyQXF1MjRlSXlMZlVKcVRNRjhTSm9nYXQ3TEdfQmFwU29HNFpuRlNpR2ZhWjRfT0I4VldqRm9R?oc=5",
-      "published": "2026-06-19T15:50:44+00:00",
+      "id": "4ea25c55528c",
+      "title": "Ozempic et Wegovy : une étude révèle une baisse de 62 % du risque de comportements violents ! - PasseportSanté",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOVdPWTV5TzNsd2hoNjk1ZloxU2pHLVRzWl9Pb1NJa1o3V29MMzBGUmdlaVZPWWVORG1sS3BWcVVqVDRYbkhjZFo4RjB6ODFDQ1FHM2FnRVowdE9DSnMyQk91TGwxRmczNUVma29YSVJoUmxFUnU2QngwY2x3OGpKQU1XTUtsYUNyVXBuOHdrczNyck9HSXBEcFplMmctcmhhdGlJ?oc=5",
+      "published": "2026-06-19T14:52:09+00:00",
       "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
+        "name": "PasseportSanté",
+        "url": "https://www.passeportsante.net"
       }
     },
     {
@@ -561,6 +561,16 @@
       "source": {
         "name": "Ameli",
         "url": "https://www.ameli.fr"
+      }
+    },
+    {
+      "id": "3446e2371847",
+      "title": "Wegovy-Mounjaro : les consignes pour éviter les indus - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTnpQVWdhbVowREIwa2JDSWpjbE1BQTNHMllET3JIUENpeGtlczRrZF85eXRGY2lLZXdkTVR5ZXJQWFFEMFlsNllBQXQ1UFdYblRlYzh1S2J2bHZkTnBEajhIWXlwejNjcjFPSlhnd3ZNaVpoV2loaDd3bzVRZVNkbkotR0ZSdEdyQXF1MjRlSXlMZlVKcVRNRjhTSm9nYXQ3TEdfQmFwU29HNFpuRlNpR2ZhWjRfT0I4VldqRm9R?oc=5",
+      "published": "2026-06-19T15:50:44+00:00",
+      "source": {
+        "name": "Le Moniteur des pharmacies",
+        "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
     {
@@ -714,16 +724,6 @@
       }
     },
     {
-      "id": "132704d43940",
-      "title": "Les effets anticancéreux des médicaments de type Ozempic suscitent l’intérêt - Courrier international",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN0cyRWtFWjZGUzBtRTdIZl9yUE9CY1J1ZkhYTUJnZVlQd1lLek9XRGVfNUdSaDE2VXROSnA4bEpaemRoWnlfYnNGOExuRFlMOTktOUFoQUQ5d05IeHlGVmVPXzU3ZWdpcHNrRFlKXzA2OVZqX08xalJzQzAxbFMybU0yTXcxTnBNNXhFS1lRTjZ0b084UjdnOTBJb1hlTmhRSWxYYTdvMTBJenhJcmNUdk9faDd1MDVwLTA3ZzZJaVAydU5VbnhGcUE3cGhWN21t?oc=5",
-      "published": "2026-05-28T07:00:00+00:00",
-      "source": {
-        "name": "Courrier international",
-        "url": "https://www.courrierinternational.com"
-      }
-    },
-    {
       "id": "18b7faa700e6",
       "title": "« Health Data Hub » : le traitement automatisé des données de santé autorisé par la CNIL est conforme au RGPD - Conseil d'État",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWW9MaGtwVGVYX1hJVHgwaElmQ0VFUHNPVmZ3RlFyZllKTW1hVVhVenJ6SHE2NFF2MHY3VlUxdmxUOWtxOWJmNVFneDhNaHJTRU9jNE45UjZWSWNqems2YUNJUE5hTGtYM2RnbU5iWXlRdDhKR2pjbG1jaEhNVUYtcENITWR5UHlkVWdTdUozNDZDQnl1ZVo4bjg2OUhRX2tkYlZ2RDhCSzVsUmVrbFl4U0lhTklsOU9vMTJHMzNGWlhYdlB6bnZLVTNyOTdBazRYZHZGd0NxTENmQQ?oc=5",
@@ -731,6 +731,16 @@
       "source": {
         "name": "Conseil d'État",
         "url": "https://www.conseil-etat.fr"
+      }
+    },
+    {
+      "id": "132704d43940",
+      "title": "Les effets anticancéreux des médicaments de type Ozempic suscitent l’intérêt - Courrier international",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN0cyRWtFWjZGUzBtRTdIZl9yUE9CY1J1ZkhYTUJnZVlQd1lLek9XRGVfNUdSaDE2VXROSnA4bEpaemRoWnlfYnNGOExuRFlMOTktOUFoQUQ5d05IeHlGVmVPXzU3ZWdpcHNrRFlKXzA2OVZqX08xalJzQzAxbFMybU0yTXcxTnBNNXhFS1lRTjZ0b084UjdnOTBJb1hlTmhRSWxYYTdvMTBJenhJcmNUdk9faDd1MDVwLTA3ZzZJaVAydU5VbnhGcUE3cGhWN21t?oc=5",
+      "published": "2026-05-28T07:00:00+00:00",
+      "source": {
+        "name": "Courrier international",
+        "url": "https://www.courrierinternational.com"
       }
     },
     {
@@ -744,16 +754,6 @@
       }
     },
     {
-      "id": "29482c5cf8f9",
-      "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro seront remboursés à compter de la mi-juin - Libération",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTV9QaDZSQ2FzM281RnlHZktySC1VV3BOMHNuV0tacE9LaW9ZM2U0MERhNzgxM1FyVVRBdExieTJNMkxEMmtzRFBhS2txMFhTei0zYnlnR0xRWmtMdkF3RGJSU2haczJOQi1acUt3bmkzQmY3bEhUSTlhcDAwZ2tXRm5URmRWQkZZek1wSEVGZm03RUhielZvZUNJMXZOcHVzRl9DdjdsVmlSclIxRGFzb0RTUEhJVUpHQkVDVTFfUUpYRjZlX2lHd2FkbmtPNGNpMjZ2d0ZObnFQdzR3THRfcDFDVDhrbWc?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Libération",
-        "url": "https://www.liberation.fr"
-      }
-    },
-    {
       "id": "673a0be47099",
       "title": "Quand les médicaments du quotidien nous rendent malades : mésusages et effets indésirables - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeV9CMGZpX0ZmSUdUQ3hUX2twaVpNRWQ2ejI3MEZoWXZ6YnVCRm9tNWppMVdtYWt5MUVjMDkyV0lJbFdIV2lrMjlVRlhfMHE5NS1zMmxQS0FtM0tCMU1UeDJDQTVCUm1MdHpySkQ1V3I3bWtoVVk0Yzd6d1JjMmNieFF1U2JvejA5Z3dhUFBKb1NLM0tJczJkeWR1OFpfTWxCY19ucHNJZEFJbHFEeGo3emxiMEloMy1LcVNIdFRrMkE?oc=5",
@@ -764,13 +764,13 @@
       }
     },
     {
-      "id": "5338c804df6d",
-      "title": "7 conditions pour que l'assurance maladie couvre le coût des médicaments achetés à titre personnel. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnFJN2V3NXI1RzZDSl80TUVDRkNHdXFCeW5VTjZsRnVlSzI0bnRUS2cwdGZPNmhYQlVyUnRzem1OMng5UUxzRDd2OHN6cFhraURXNEI4T2dVTGp1d05lNGRhWW53T3Q1cU9BOGplNF92MEZTblNhek4tbGFoRVNlRHI3bHJnRGFjMkJCWjFCSXM?oc=5",
-      "published": "2026-06-20T00:23:01+00:00",
+      "id": "29482c5cf8f9",
+      "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro seront remboursés à compter de la mi-juin - Libération",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTV9QaDZSQ2FzM281RnlHZktySC1VV3BOMHNuV0tacE9LaW9ZM2U0MERhNzgxM1FyVVRBdExieTJNMkxEMmtzRFBhS2txMFhTei0zYnlnR0xRWmtMdkF3RGJSU2haczJOQi1acUt3bmkzQmY3bEhUSTlhcDAwZ2tXRm5URmRWQkZZek1wSEVGZm03RUhielZvZUNJMXZOcHVzRl9DdjdsVmlSclIxRGFzb0RTUEhJVUpHQkVDVTFfUUpYRjZlX2lHd2FkbmtPNGNpMjZ2d0ZObnFQdzR3THRfcDFDVDhrbWc?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Libération",
+        "url": "https://www.liberation.fr"
       }
     },
     {
@@ -791,6 +791,16 @@
       "source": {
         "name": "Bpifrance",
         "url": "https://bigmedia.bpifrance.fr"
+      }
+    },
+    {
+      "id": "5338c804df6d",
+      "title": "7 conditions pour que l'assurance maladie couvre le coût des médicaments achetés à titre personnel. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnFJN2V3NXI1RzZDSl80TUVDRkNHdXFCeW5VTjZsRnVlSzI0bnRUS2cwdGZPNmhYQlVyUnRzem1OMng5UUxzRDd2OHN6cFhraURXNEI4T2dVTGp1d05lNGRhWW53T3Q1cU9BOGplNF92MEZTblNhek4tbGFoRVNlRHI3bHJnRGFjMkJCWjFCSXM?oc=5",
+      "published": "2026-06-20T00:23:01+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "c5e4434c0e67",
-      "title": "RMC Santé - Les médicaments génériques sont-ils moins efficaces ? - RMC",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPekdNRzZGZy1mNlRTODFocGZHR01pSW9fRC1iLU44SnNkX2dSNmF1U2NxVnFiQWVwU1l3TFphOThBMWxvS1pSdm56Mm0zT0VhbDYwbnJYT2N1OVpZMUVIek14QlJGQllwUHh6T0ZFbFdmUVU0YnZjWFVWM2dzck9COE5CLXA3aDhCWF9SLUw5QUhrczJRaXg2Z2c5TDNQczFvQy1vMHhxYVRZc3U0bmJ4WVJXTGo4bDRTa0pnaWlNZWdTQ3J2M1VaMA?oc=5",
-      "published": "2026-05-13T07:00:00+00:00",
-      "source": {
-        "name": "RMC",
-        "url": "https://rmc.bfmtv.com"
       }
     }
   ]
