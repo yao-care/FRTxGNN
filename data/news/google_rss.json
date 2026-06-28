@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-28T18:11:11.833932+00:00",
+  "fetched_at": "2026-06-28T20:18:43.909171+00:00",
   "source": "Google News Health RSS",
-  "count": 100,
+  "count": 101,
   "articles": [
     {
       "id": "47a85971db58",
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "238881855adb",
-      "title": "« C’est du cynisme à l’état pur » : Bayer vend des produits cancérogènes... et des médicaments anticancéreux - Reporterre, le média de l'écologie",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYnZMZVVDR25zMXBfS0JnMlBvX3lVVVBtV2Y5YTFDRmdmMENoNEJub0oxZ2Q2U2daOTc4OWVITU5ySDhzeWdoZkNGWUFMTEtaSFR6TmExdG4zWXpKcWF3LXQzdkFDTTl1Q2Q3RzNjdGlaYWdScmpsVTMwSlJkdGxmZzlId085SkM5dGdsbFk4WWFaZnlkYmp0LWt0MUlKcjAwdHNqd3lYU3dZV2pLUWZr?oc=5",
-      "published": "2026-06-26T12:26:00+00:00",
-      "source": {
-        "name": "Reporterre, le média de l'écologie",
-        "url": "https://reporterre.net"
-      }
-    },
-    {
       "id": "e7cd2a943e79",
       "title": "« Pas avertie des risques par les médecins… » : en pleine canicule, les médicaments d’Océane accélèrent sa déshydratation - Le Parisien",
       "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdkNJXzRvRVoxSzJHQ0U1SlpIdkpsdXlyS2dxcFlrbnRPbWxXbHBvdlRWQjJ5NGE4YkRjR3g3ODROQWpnSVhoU3J4aTdDd25BRlkwcExsSXRibVE4RFpKbTZxNmpuUS0zVzR0N3hvTjlSdjJWVEFTT1llMV9DRUJvaE9KYkhteTljenR2dVBzbm81M0dHRGhGVjJSUnlURlJFNU1BZGYxa3Yxczg0cTJnYUpVMGlubW9fWE0tdzZwUVl1c1lUQUNsdVBRY2VzLUxZaXNlUHJKTkN5UUV2Z3prWkQzT0M5Y3M1T0pEb29mOVY1ZW5kTW1BNFpiMWV2WUw3al9fcTBaUDBURmRmM0RJa2hlWkZ5bWY3bUJ2dXhlVQ?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Le Parisien",
         "url": "https://www.leparisien.fr"
+      }
+    },
+    {
+      "id": "238881855adb",
+      "title": "« C’est du cynisme à l’état pur » : Bayer vend des produits cancérogènes... et des médicaments anticancéreux - Reporterre, le média de l'écologie",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYnZMZVVDR25zMXBfS0JnMlBvX3lVVVBtV2Y5YTFDRmdmMENoNEJub0oxZ2Q2U2daOTc4OWVITU5ySDhzeWdoZkNGWUFMTEtaSFR6TmExdG4zWXpKcWF3LXQzdkFDTTl1Q2Q3RzNjdGlaYWdScmpsVTMwSlJkdGxmZzlId085SkM5dGdsbFk4WWFaZnlkYmp0LWt0MUlKcjAwdHNqd3lYU3dZV2pLUWZr?oc=5",
+      "published": "2026-06-26T12:26:00+00:00",
+      "source": {
+        "name": "Reporterre, le média de l'écologie",
+        "url": "https://reporterre.net"
       }
     },
     {
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "ab49d24a5bd1",
-      "title": "\"L'un des premiers médicaments contre l'obésité est l'activité physique\", une matinée de sensibilisation à Pamandzi - Outre-mer La 1ère",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbXJkdGJFWU9JUVd0cU1sd3JORUt0OU5BRzBCMmNGWDhEMi1xVS1VV1ZWc2l5TG9rVTQ5NTRkT1VBcE5aeVZMcm9fbGN2cWtycnJCNFRjNlNNMDlGbXczQldTNUVCeTVMRFQ1LTdYMk5hbUhQVmJ3V0hpckQ2V2F0eEpSZk5BS0N0YktjYTNmbW9BVmJoTzFIc184bXlyRjJJamxoVjVIYkZmbHJLZHVZRW9TQkRLcjFQcURGOE8zTjd4SkEtUlN2U1FSUkpPRS1vWXo0TEVVb3o3X2ZabzN5cHhFRzkzSTBRWENhRDhhdFlRM0Vz?oc=5",
-      "published": "2026-06-28T03:00:01+00:00",
-      "source": {
-        "name": "Outre-mer La 1ère",
-        "url": "https://la1ere.franceinfo.fr"
-      }
-    },
-    {
       "id": "4ede25c87273",
       "title": "Médicaments matures : pourquoi ces traitements anciens et bon marché manquent alors qu'ils restent vitaux pour les patients - parlons-politique.fr",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOM0tBN1JycFBYZ2s1cGE4eUhHMktiUUZKSDBOV0U1QzM4S1p0VmpPMGxCVWN2N3ZSblIybWhKdnhxZ0otaUdYcGwxQkJEaTFXWTlGMV9WUnFQMlNIU1NOV19nTmpxbUJHWFZzbDFuREc2Y3ZCYXFzNGFHZEJqUFVja0RvdmV2SFAtUlJ1YnVGSldhUlAxOFNHMEhSZWU2WGg1ZktLcEVHRFlMUUpKQThkWkxQeEswREFmdDNEejJ1dDlNT2tEWFhxaEE0NnNsTERlYlMxeWZteVhWZVpEcHNNM3ZXbHlCaVRKSTdjTElxbEdFZnZIOTdsUDZRSjBBV21Fb045Yk5NQjJBRnZpa05hUw?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "parlons-politique.fr",
         "url": "https://www.parlons-politique.fr"
+      }
+    },
+    {
+      "id": "ab49d24a5bd1",
+      "title": "\"L'un des premiers médicaments contre l'obésité est l'activité physique\", une matinée de sensibilisation à Pamandzi - Outre-mer La 1ère",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbXJkdGJFWU9JUVd0cU1sd3JORUt0OU5BRzBCMmNGWDhEMi1xVS1VV1ZWc2l5TG9rVTQ5NTRkT1VBcE5aeVZMcm9fbGN2cWtycnJCNFRjNlNNMDlGbXczQldTNUVCeTVMRFQ1LTdYMk5hbUhQVmJ3V0hpckQ2V2F0eEpSZk5BS0N0YktjYTNmbW9BVmJoTzFIc184bXlyRjJJamxoVjVIYkZmbHJLZHVZRW9TQkRLcjFQcURGOE8zTjd4SkEtUlN2U1FSUkpPRS1vWXo0TEVVb3o3X2ZabzN5cHhFRzkzSTBRWENhRDhhdFlRM0Vz?oc=5",
+      "published": "2026-06-28T03:00:01+00:00",
+      "source": {
+        "name": "Outre-mer La 1ère",
+        "url": "https://la1ere.franceinfo.fr"
       }
     },
     {
@@ -174,16 +174,6 @@
       }
     },
     {
-      "id": "e1832b388f10",
-      "title": "« Mes funérailles sont déjà organisées » : le récit d’une femme vivant avec le VIH depuis 30 ans - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mQjV0dWFIakZlejd5b0pGYzRVdFBlNF92bnF6OWRYcGNWQVU5RjBSYk1LUGdsRUNhQ2tqck8wRzl4bE0tZk85bTl6NjZRc292VEctOXd1bTJFaVFJa3fSAWNBVV95cUxNaGxHeWdjYXp2bU81bmVQcjlDSUZLd09LUWxwZUZpYUY0cDBWeVlUYXF1WEgzZTBidHVkWHRmTzRTbjlrWDhDLVQ5TWNDLUx1V1J5a2dvdFVadFV2ZHhLWUs1czA?oc=5",
-      "published": "2026-06-28T09:23:44+00:00",
-      "source": {
-        "name": "BBC",
-        "url": "https://www.bbc.com"
-      }
-    },
-    {
       "id": "f8db60c0942c",
       "title": "Choose France : de gros investissements dans la santé - Univadis",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWkhYRVc3SUc0dTd6NW9SbDkyZGd5RzNkNTBDcVNfYlVVMmlUQmkzU2RvdG5URzJnR21Hbmp2WDd3bEgwX1BJMC1UUWVjZ21tdGdqWVhielpYX2drNzJ3ejQ2T0FRWWxqNkplZUVEQUdEektOVVNERVJTdnpRRzlCQklwbVhybXhsNFp1Y0RUa3lMQ0N2eVlaUExKZ3k4Wms2d1g1aHFaNmJjUVZmRnEwa1JTQUUwVkJUY3RTUzhjZzdkeDJzZUIzSXNPcWx2eGRaa09UWjY5RQ?oc=5",
@@ -194,13 +184,13 @@
       }
     },
     {
-      "id": "d0521a6f5f51",
-      "title": "Phytopharmacovigilance ou poudre aux yeux ? - Le Club de Mediapart",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQUlERWpjOTk4MTVJVkhFM3QyU1JQMmtyNExZX2Fxbk5JQ0tKMnkwSDROWmk2Uk43VG1Gcm9UbXFKWnQ1dF8tcV96ODJXczRMMmpmeGZUX0UzSTJGSFBlRjZxYWx2dDNaWHFCVDJuUGQyX0M5T3Z4aERkMk1jUElwdGZPVi1Cc3p6Q3oycWVVdVdwLUFZR1pYQWpB?oc=5",
-      "published": "2026-06-28T11:08:48+00:00",
+      "id": "e1832b388f10",
+      "title": "« Mes funérailles sont déjà organisées » : le récit d’une femme vivant avec le VIH depuis 30 ans - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mQjV0dWFIakZlejd5b0pGYzRVdFBlNF92bnF6OWRYcGNWQVU5RjBSYk1LUGdsRUNhQ2tqck8wRzl4bE0tZk85bTl6NjZRc292VEctOXd1bTJFaVFJa3fSAWNBVV95cUxNaGxHeWdjYXp2bU81bmVQcjlDSUZLd09LUWxwZUZpYUY0cDBWeVlUYXF1WEgzZTBidHVkWHRmTzRTbjlrWDhDLVQ5TWNDLUx1V1J5a2dvdFVadFV2ZHhLWUs1czA?oc=5",
+      "published": "2026-06-28T09:23:44+00:00",
       "source": {
-        "name": "Le Club de Mediapart",
-        "url": "https://blogs.mediapart.fr"
+        "name": "BBC",
+        "url": "https://www.bbc.com"
       }
     },
     {
@@ -221,6 +211,16 @@
       "source": {
         "name": "ma-sante.news",
         "url": "https://ma-sante.news"
+      }
+    },
+    {
+      "id": "d0521a6f5f51",
+      "title": "Phytopharmacovigilance ou poudre aux yeux ? - Le Club de Mediapart",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQUlERWpjOTk4MTVJVkhFM3QyU1JQMmtyNExZX2Fxbk5JQ0tKMnkwSDROWmk2Uk43VG1Gcm9UbXFKWnQ1dF8tcV96ODJXczRMMmpmeGZUX0UzSTJGSFBlRjZxYWx2dDNaWHFCVDJuUGQyX0M5T3Z4aERkMk1jUElwdGZPVi1Cc3p6Q3oycWVVdVdwLUFZR1pYQWpB?oc=5",
+      "published": "2026-06-28T11:08:48+00:00",
+      "source": {
+        "name": "Le Club de Mediapart",
+        "url": "https://blogs.mediapart.fr"
       }
     },
     {
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "b7652c0a2bd6",
-      "title": "\"Il n'y a aucune échappatoire\" : le calvaire des patients dont le traitement ne fait pas bon ménage avec la chaleur - TF1 Info",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEg0ZlROYVdvcGVsN05qU1BleE1lVWpoeFdTSi00VWFvb3ZETW00SmR6X1VMYzdSVG9haTFHakZmRVdWQXZFRklfQUY5ZGhUN01IamR5aGQtMV9aV2tqWWhVUkE2OHZjLXJOSTQtLWZPMVd5VlJzT3k5azRaQV9DdmJkM2xFOHB4Q21yRTR5Ujk4ZEh3UzdCV2J4VkhkRWJOWHEtekpnYzJQMDFCOFphMGZlaTBhbFk2bHROUFBqdWNfQlk0TUo2TEx0cTQwekVxbFV1RjloUlFoYl9VYWRiR0FzUEVlWUE?oc=5",
-      "published": "2026-06-27T06:00:00+00:00",
-      "source": {
-        "name": "TF1 Info",
-        "url": "https://www.tf1info.fr"
-      }
-    },
-    {
       "id": "32332d4ad93e",
       "title": "Actualité : Pénurie de médicaments : un assouplissement des règles - weblex.fr",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ0dhSmhraU5ibGxBRWdpNGlEa3E1ZkdQTkJPTEl3cTBaRFB5QWF4ZzhyMFdzYldDY3hVVktlVkNQQVlacXctYXdpcmJSdEhSMF85U0NsM3JGa0tSWFVfUTRpbjFMeFlSTXVWWkhfaWQ5NEVOYkdpQ09ZM21Rd2tWVlhuYlZuZGVaZWVJQ25ORzFLNmtzdGc?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "weblex.fr",
         "url": "https://www.weblex.fr"
+      }
+    },
+    {
+      "id": "b7652c0a2bd6",
+      "title": "\"Il n'y a aucune échappatoire\" : le calvaire des patients dont le traitement ne fait pas bon ménage avec la chaleur - TF1 Info",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEg0ZlROYVdvcGVsN05qU1BleE1lVWpoeFdTSi00VWFvb3ZETW00SmR6X1VMYzdSVG9haTFHakZmRVdWQXZFRklfQUY5ZGhUN01IamR5aGQtMV9aV2tqWWhVUkE2OHZjLXJOSTQtLWZPMVd5VlJzT3k5azRaQV9DdmJkM2xFOHB4Q21yRTR5Ujk4ZEh3UzdCV2J4VkhkRWJOWHEtekpnYzJQMDFCOFphMGZlaTBhbFk2bHROUFBqdWNfQlk0TUo2TEx0cTQwekVxbFV1RjloUlFoYl9VYWRiR0FzUEVlWUE?oc=5",
+      "published": "2026-06-27T06:00:00+00:00",
+      "source": {
+        "name": "TF1 Info",
+        "url": "https://www.tf1info.fr"
       }
     },
     {
@@ -404,16 +404,6 @@
       }
     },
     {
-      "id": "4442d6743a65",
-      "title": "Des consultations médicales et des médicaments gratuits sont offerts aux femmes défavorisées à l'occasion de la Journée de la famille vietnamienne. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOFV1aTA3cHhpUk9TRVA0bGRiaExuQVFlY2JUcWctZmc0cHJJT1hrUDlHMEZjZWV3SXI5REw5NWEzTTAzQmZuQlB5RnI1XzZrTGYtNFJuM1dNRkI2Y002cllqZmh1WGpmWF9YTU1rLXozSWQtdUZjS0VSblk2bFdpRVpqUHVuQnFtWm5nN0xLdlNOU29zLXhiNHZoelZySWNtcUExMA?oc=5",
-      "published": "2026-06-28T17:59:07+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "85d8e4d9cc39",
       "title": "Convention pharmaceutique : les 5 dates à retenir - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXFqYzJvWnEwSXBVVVhCbFNNYVNVdXh4SjFpQVNWUHZhaUptLS1wOFdWc2Q0OUFBdGMxNFdXYTN3ekVuUzVFSlNXUnpNQmdaa3dPdllhVzU3RHVUWkFLOGowMjdYQWxiTnV6eUQ1YUxhVFlHNGxDMy1aSGRKWmNGSEtqQnpuQkplRTFOeEh6aVVIbHZqS2laYXdZUnROaWQ4d3BmdlFLQ3paV1BKbENqYnoxWTdlMzYw?oc=5",
@@ -421,6 +411,16 @@
       "source": {
         "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
+      }
+    },
+    {
+      "id": "4442d6743a65",
+      "title": "Des consultations médicales et des médicaments gratuits sont offerts aux femmes défavorisées à l'occasion de la Journée de la famille vietnamienne. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOFV1aTA3cHhpUk9TRVA0bGRiaExuQVFlY2JUcWctZmc0cHJJT1hrUDlHMEZjZWV3SXI5REw5NWEzTTAzQmZuQlB5RnI1XzZrTGYtNFJuM1dNRkI2Y002cllqZmh1WGpmWF9YTU1rLXozSWQtdUZjS0VSblk2bFdpRVpqUHVuQnFtWm5nN0xLdlNOU29zLXhiNHZoelZySWNtcUExMA?oc=5",
+      "published": "2026-06-28T17:59:07+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "f44f0d6dd5d2",
-      "title": "Un seul patient au monde a eu le droit à ce traitement expérimental: est-ce Donald Trump? - Slate.fr",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2laZXg5UnlXR0pNSWlsWU54bklLSzdROXJvbVVJQTQxWHVJY3ppRFVlWHlBa3NITlp3QnFaSkIwSVoxLXJ2NDdXcGV6WWdPRlBlRkN4eGtVM0U5NGM5bWdrcFVRZDdxaXdDVEk1SWpHSXAybnRGQWdGNklvblN5N25wbE1oamtpcEdidWNocE5NbXZIY1BqcTdYVndyVVlUMG9NUjJnVXNibm5yRkFiMFEtRU1LczJt0gG-AUFVX3lxTE8zaU52TzJNVVJxMm92anZ1ZGJmTlRYandma1dOWGQ4NGFjckt5LWRQWmY2alFSSGRHdmZfWU1JTEV1RE45RHZWRVVCejVYTnFHeFdLWTh3a3l1aHROWkhFcXBMaEFYZjAwZXVlOVU4Zl9Da0M0MFY1U1RCLUZGWVVRVzBlZzBDTmp4Qi1uWTF0MkFSRjFkYkFwTWgybFBTYjVRTzI2OWh4Y19QZkgySzNQSUZLMzJLRmNpdXpHWGc?oc=5",
-      "published": "2026-06-25T18:55:02+00:00",
-      "source": {
-        "name": "Slate.fr",
-        "url": "https://www.slate.fr"
-      }
-    },
-    {
       "id": "7af89b5a24a6",
       "title": "Rôle et compétences du pharmacien : une profession au cœur du parcours de soins en Île-de-France - Agence régionale de santé Ile-de-France",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGI5eFMtZ204aGp1WjdMMDRLeEhvOUNLVG9GOGdEN0VPRnpPNzJHYk9QOGFPeHRKZEFsdnZxQXM0N05JeUdQb1NydEhZZmZxeGZmaFFRN25JMy1Vb1ROelJSdVRsVUVCZnh6bnRvT0pzZkpBWXdzTi10TXJvRlp1M1UzZ2ZmS0dIYU9LdHJUcVc0NXcxR3RCREl4RnpoVkVzclRNeHFUX3lYdHN4ak9ZT2JuSjN1bjFrMUZ1ckJycEw1Y2dxM0VBajJPRXo?oc=5",
@@ -454,13 +444,13 @@
       }
     },
     {
-      "id": "1ab4fa5a87de",
-      "title": "Un partenariat dans le domaine des soins de santé pour les travailleurs. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xZV8yZzZ4RXhDUzNDRnZ4SmxacEtsV2stY01UUUlxUmxXUzhKY08wRk11NWlvUjlaSURpc3gyM2tjSmdWNG9lazFOS0Q4eTU1UHQxWWh2R2RIaEZBeWY1S3FDUTJNdFpYTVV2YThpWVg0Q3hEUWVz?oc=5",
-      "published": "2026-06-28T17:54:51+00:00",
+      "id": "f44f0d6dd5d2",
+      "title": "Un seul patient au monde a eu le droit à ce traitement expérimental: est-ce Donald Trump? - Slate.fr",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2laZXg5UnlXR0pNSWlsWU54bklLSzdROXJvbVVJQTQxWHVJY3ppRFVlWHlBa3NITlp3QnFaSkIwSVoxLXJ2NDdXcGV6WWdPRlBlRkN4eGtVM0U5NGM5bWdrcFVRZDdxaXdDVEk1SWpHSXAybnRGQWdGNklvblN5N25wbE1oamtpcEdidWNocE5NbXZIY1BqcTdYVndyVVlUMG9NUjJnVXNibm5yRkFiMFEtRU1LczJt0gG-AUFVX3lxTE8zaU52TzJNVVJxMm92anZ1ZGJmTlRYandma1dOWGQ4NGFjckt5LWRQWmY2alFSSGRHdmZfWU1JTEV1RE45RHZWRVVCejVYTnFHeFdLWTh3a3l1aHROWkhFcXBMaEFYZjAwZXVlOVU4Zl9Da0M0MFY1U1RCLUZGWVVRVzBlZzBDTmp4Qi1uWTF0MkFSRjFkYkFwTWgybFBTYjVRTzI2OWh4Y19QZkgySzNQSUZLMzJLRmNpdXpHWGc?oc=5",
+      "published": "2026-06-25T18:55:02+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Slate.fr",
+        "url": "https://www.slate.fr"
       }
     },
     {
@@ -481,6 +471,16 @@
       "source": {
         "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
+      }
+    },
+    {
+      "id": "1ab4fa5a87de",
+      "title": "Un partenariat dans le domaine des soins de santé pour les travailleurs. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xZV8yZzZ4RXhDUzNDRnZ4SmxacEtsV2stY01UUUlxUmxXUzhKY08wRk11NWlvUjlaSURpc3gyM2tjSmdWNG9lazFOS0Q4eTU1UHQxWWh2R2RIaEZBeWY1S3FDUTJNdFpYTVV2YThpWVg0Q3hEUWVz?oc=5",
+      "published": "2026-06-28T17:54:51+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -524,26 +524,6 @@
       }
     },
     {
-      "id": "d276def6ccce",
-      "title": "Les jeunes de Ninh Binh offrent des examens médicaux gratuits et distribuent des médicaments gratuits à la population locale. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnVKUW9JYjRqeEgzcjVnWEpUY2prbEZSdXoxY2s0TkQwc19PU3FQbEdNM0tJaHkzd1VQWTRKd19VSUxVZXNvMGxZNkN3dGVEYmdZR0hsajM1SlVsUXJ2XzV6Y2dpVzlQcWlzMGJCVmhiTzJzU1VTYWYyS093bHRMYkpNYmlMN0NmYkV1LWpxTDlQSXF0RXRN?oc=5",
-      "published": "2026-06-28T17:42:01+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "376d9508c8db",
-      "title": "Les injections pour maigrir ont un nouvel effet surprenant (et plutôt bénéfique) sur le comportement - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZkdzd1lCM1VjYWxmYkdoc0ZDb1VDQTRPWG5RUW9uTFZBTm14Ml80Tm5mRGM5QnZzdUE3VmZ6NUh1cUQxaHRIVmRkR2h2Q3F2SE52U3hOay0ya3VWLUVNY1BDQmM4SW1aRHp1N2xodWZhUUxIS2xMNkNfUVBaeExzaTd3alg2aktmMWRrR01yN2VPd3c0dklIS1pPeXFKU0txUHBNWkFsVFNKMkUyaWgyeElnNFhUQk1BakdPR3g4cFl5RFV5TjlvdVAxSER4R3M4RzZIbTdsd2Q0YVo2UWctaTNtM1NCTGw2MEE?oc=5",
-      "published": "2026-06-27T19:04:50+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
       "id": "6c102db56b90",
       "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? - Public Sénat",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTNUZ0dQa3NtZHRBbDU2RGFySF93RkN1R1diempXQmpFNUUxaEMzRDRMeGZNNVpBcEpoWjVsNDJKLTVLN2NqaGpFUU1sZTRncm1JM0dxNThfMUkxbDNsSmtPRFRZWDlKZHdhOHpQdzhHcWpWTU5kc3otVVBPVUZ1dmpsclgzZjYwN3pYaUZ3UUd3VzZtVWVxcXAzbmdFa0h2dlhkeldvVXBiNEIxdlJlVFRsZmpwbXc?oc=5",
@@ -551,6 +531,16 @@
       "source": {
         "name": "Public Sénat",
         "url": "https://www.publicsenat.fr"
+      }
+    },
+    {
+      "id": "d276def6ccce",
+      "title": "Les jeunes de Ninh Binh offrent des examens médicaux gratuits et distribuent des médicaments gratuits à la population locale. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnVKUW9JYjRqeEgzcjVnWEpUY2prbEZSdXoxY2s0TkQwc19PU3FQbEdNM0tJaHkzd1VQWTRKd19VSUxVZXNvMGxZNkN3dGVEYmdZR0hsajM1SlVsUXJ2XzV6Y2dpVzlQcWlzMGJCVmhiTzJzU1VTYWYyS093bHRMYkpNYmlMN0NmYkV1LWpxTDlQSXF0RXRN?oc=5",
+      "published": "2026-06-28T17:42:01+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -574,13 +564,23 @@
       }
     },
     {
-      "id": "8e79819efb6e",
-      "title": "Traitement hormonal de la ménopause : une hausse des utilisations, comment expliquer ce rebond - Yahoo Life France",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYW5FRFVRWEdKVDFnalhLNWlHYlhTeU5SR3licE1MZjNzLWtHYS1ockU3a0txVlVBWnZJeWNZUzM3d0Fac3d6Tzdxd0VwajE0OHoxNXRFM0VoX2huOXBrdG14WXhZcnF4N0oyTkpzcHRQeWxjSWpFMlRiMU1CeUdPZGxpY0tFSWx4aTBDMGNpamFwa3FERGcwYkFSTFk?oc=5",
-      "published": "2026-06-25T22:45:00+00:00",
+      "id": "376d9508c8db",
+      "title": "Les injections pour maigrir ont un nouvel effet surprenant (et plutôt bénéfique) sur le comportement - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZkdzd1lCM1VjYWxmYkdoc0ZDb1VDQTRPWG5RUW9uTFZBTm14Ml80Tm5mRGM5QnZzdUE3VmZ6NUh1cUQxaHRIVmRkR2h2Q3F2SE52U3hOay0ya3VWLUVNY1BDQmM4SW1aRHp1N2xodWZhUUxIS2xMNkNfUVBaeExzaTd3alg2aktmMWRrR01yN2VPd3c0dklIS1pPeXFKU0txUHBNWkFsVFNKMkUyaWgyeElnNFhUQk1BakdPR3g4cFl5RFV5TjlvdVAxSER4R3M4RzZIbTdsd2Q0YVo2UWctaTNtM1NCTGw2MEE?oc=5",
+      "published": "2026-06-27T19:04:50+00:00",
       "source": {
-        "name": "Yahoo Life France",
-        "url": "https://fr.style.yahoo.com"
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
+      }
+    },
+    {
+      "id": "b170818d0cc0",
+      "title": "Médicaments anti-obésité : début du remboursement de Wegovy et Mounjaro en France mais les contraintes seront strictes - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb3ZaeEpzQXJFcERyZ1RTaXdmNmxHVEF6eGRJbUNxV19lUE5Pb3ZiSFY1WW10WXZVUlBBQklfcDNOQTZLZmx6a2xWdkZFbnI5MmZEeldUSUFqNFpwTTJFQlpYNHBOUTE1TTVIRjRjSXBMaXdkSTFGeTJrbldoS0JaNWU5bV9MMkstYzhqNTZXU1p6ZEh6YXNzSm1NT21nMGdUcW5aRDM0UVU0NDNTb2c4aGdEUG5oeTBSdHMzR0Fsb2p5d2hVTl9NOXlFMWI1ckQwdVpEZkZMZFdJVUtjWXlrWk9tTFExNGFTdWZsdFJ1OXM?oc=5",
+      "published": "2026-06-14T07:00:00+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -594,13 +594,13 @@
       }
     },
     {
-      "id": "b170818d0cc0",
-      "title": "Médicaments anti-obésité : début du remboursement de Wegovy et Mounjaro en France mais les contraintes seront strictes - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb3ZaeEpzQXJFcERyZ1RTaXdmNmxHVEF6eGRJbUNxV19lUE5Pb3ZiSFY1WW10WXZVUlBBQklfcDNOQTZLZmx6a2xWdkZFbnI5MmZEeldUSUFqNFpwTTJFQlpYNHBOUTE1TTVIRjRjSXBMaXdkSTFGeTJrbldoS0JaNWU5bV9MMkstYzhqNTZXU1p6ZEh6YXNzSm1NT21nMGdUcW5aRDM0UVU0NDNTb2c4aGdEUG5oeTBSdHMzR0Fsb2p5d2hVTl9NOXlFMWI1ckQwdVpEZkZMZFdJVUtjWXlrWk9tTFExNGFTdWZsdFJ1OXM?oc=5",
-      "published": "2026-06-14T07:00:00+00:00",
+      "id": "8e79819efb6e",
+      "title": "Traitement hormonal de la ménopause : une hausse des utilisations, comment expliquer ce rebond - Yahoo Life France",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYW5FRFVRWEdKVDFnalhLNWlHYlhTeU5SR3licE1MZjNzLWtHYS1ockU3a0txVlVBWnZJeWNZUzM3d0Fac3d6Tzdxd0VwajE0OHoxNXRFM0VoX2huOXBrdG14WXhZcnF4N0oyTkpzcHRQeWxjSWpFMlRiMU1CeUdPZGxpY0tFSWx4aTBDMGNpamFwa3FERGcwYkFSTFk?oc=5",
+      "published": "2026-06-25T22:45:00+00:00",
       "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
+        "name": "Yahoo Life France",
+        "url": "https://fr.style.yahoo.com"
       }
     },
     {
@@ -624,16 +624,6 @@
       }
     },
     {
-      "id": "6b98a84926f4",
-      "title": "Des examens médicaux et des médicaments gratuits ont été fournis à plus de 200 habitants de la commune de My Son. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSHpRU1hfazdFRXZXWXBHYkE0ZWFfclJBLVlKVm9RdE12SjBXejhRNHVhaFZVMjlURmhxNlZLdS01LXNyRC1uaUlSQ2pueGZCMDZfSVAySTlBSDdNTkhLUzEzWWE1WmJnQ2txbTlzZmJWR3otUml2Y2MzQjBMZndiS3NEYlJsb182Vkk1a0pwaHI?oc=5",
-      "published": "2026-06-28T02:08:32+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "21da724ba614",
       "title": "Maladies rares : la recherche avance à grands pas - Version Femina",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMlozRDFxcXdsanA3emQxNFB1cnNjOFl6OFJTUDFIT1BaVWpoTmY5SjIyLTRnUTFEd3Z0dXNzMHNnckFDOWJZZXVzaXVvT3NtWUJoZF9RZEtCSlMyaDJHZDctVUxmM01OZ05hdlByVGJSSnZpT1E4NWlkc3BZTkszN3ZvSQ?oc=5",
@@ -654,16 +644,6 @@
       }
     },
     {
-      "id": "4dc012894f88",
-      "title": "Selon une étude, l’Ozempic réduirait les comportements violents chez les patients impulsifs - Le Tribunal du Net",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVFVzd2M3cEU0azRPd3N4WTBfanJwUHN6TTRyeVI3MVZWZjFDYUpkWlZGdG1jZ3NDeHRmT2xZckpPMWFDdGc4cUdWOE9CUGJna2pSTmVadkwxSWlOZUJuV29aZE43enhWbW1GMndRRnRMd3JCMWF6cldfN3VJWHptMzhVVEtfaFFVQkdRQWVLTzVfeGhNaWd2aHRiRTF1aEYxaXc?oc=5",
-      "published": "2026-06-28T09:45:00+00:00",
-      "source": {
-        "name": "Le Tribunal du Net",
-        "url": "https://www.letribunaldunet.fr"
-      }
-    },
-    {
       "id": "7305fac84c3f",
       "title": "Actualité - Méthadone : l’ANSM rappelle le bon usage de ces médicaments pour réduire le risque de surdose et d’interactions médicamenteuses - ANSM",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUEFSa0EtY0VJN0ZzSVZDODZMVHkycVNKcHd5QlVHQ2J4bk9QajNndS0zNVVaLTh3bDVpVmV2UmpTY2ZIWjRhRVZnVENrdXdMUUw1RVQybk5vV0k5YjhSUXBSWTVLZjF6eGxYX2dGbVEzY2thVTVDem9SZHdFdzJTN0E1RE9KdzFZU0JSTzdUbXB0WVVRUGkwd2EteUJHeEdIbjZzdXRtNUF0NjAwajdnamIwQW81VFFFWDNDUVVucWJTTFVnWVUyaE5tTXo1VXJwTXNicEp0VWFOQ0JWcUEyNmVpUGVtVkNyX3Y2bw?oc=5",
@@ -671,6 +651,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "6b98a84926f4",
+      "title": "Des examens médicaux et des médicaments gratuits ont été fournis à plus de 200 habitants de la commune de My Son. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSHpRU1hfazdFRXZXWXBHYkE0ZWFfclJBLVlKVm9RdE12SjBXejhRNHVhaFZVMjlURmhxNlZLdS01LXNyRC1uaUlSQ2pueGZCMDZfSVAySTlBSDdNTkhLUzEzWWE1WmJnQ2txbTlzZmJWR3otUml2Y2MzQjBMZndiS3NEYlJsb182Vkk1a0pwaHI?oc=5",
+      "published": "2026-06-28T02:08:32+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -691,6 +681,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "4dc012894f88",
+      "title": "Selon une étude, l’Ozempic réduirait les comportements violents chez les patients impulsifs - Le Tribunal du Net",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVFVzd2M3cEU0azRPd3N4WTBfanJwUHN6TTRyeVI3MVZWZjFDYUpkWlZGdG1jZ3NDeHRmT2xZckpPMWFDdGc4cUdWOE9CUGJna2pSTmVadkwxSWlOZUJuV29aZE43enhWbW1GMndRRnRMd3JCMWF6cldfN3VJWHptMzhVVEtfaFFVQkdRQWVLTzVfeGhNaWd2aHRiRTF1aEYxaXc?oc=5",
+      "published": "2026-06-28T09:45:00+00:00",
+      "source": {
+        "name": "Le Tribunal du Net",
+        "url": "https://www.letribunaldunet.fr"
       }
     },
     {
@@ -1001,6 +1001,16 @@
       "source": {
         "name": "Conseil d'État",
         "url": "https://www.conseil-etat.fr"
+      }
+    },
+    {
+      "id": "c5e4434c0e67",
+      "title": "RMC Santé - Les médicaments génériques sont-ils moins efficaces ? - RMC",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPekdNRzZGZy1mNlRTODFocGZHR01pSW9fRC1iLU44SnNkX2dSNmF1U2NxVnFiQWVwU1l3TFphOThBMWxvS1pSdm56Mm0zT0VhbDYwbnJYT2N1OVpZMUVIek14QlJGQllwUHh6T0ZFbFdmUVU0YnZjWFVWM2dzck9COE5CLXA3aDhCWF9SLUw5QUhrczJRaXg2Z2c5TDNQczFvQy1vMHhxYVRZc3U0bmJ4WVJXTGo4bDRTa0pnaWlNZWdTQ3J2M1VaMA?oc=5",
+      "published": "2026-05-13T07:00:00+00:00",
+      "source": {
+        "name": "RMC",
+        "url": "https://rmc.bfmtv.com"
       }
     }
   ]
