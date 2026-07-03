@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T22:13:45.548047+00:00",
+  "fetched_at": "2026-07-03T00:14:08.000574+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,6 +44,16 @@
       }
     },
     {
+      "id": "e5f51579679f",
+      "title": "Découvrez l'outil qui prédit les effets secondaires des statines sur vos muscles - Santé Magazine",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOUVfNDVyNnZsM0VCU2pKSnBvZEpmcXh3ZjhNNlJqZkY1ZnpibVo4QmNUR2JIS3hoLXBuMHNGY3FwZEs3Y1p2anpQYy1BU2Jtdnd3M3Z4NW5WdmFhc3M4M2Fkc2JjT3lUMmMyVkJYTnExSDNJakVENEROMXJ5OXpsR0VVbkduS0g3TlpFWXQyek55TGhCc0Zld28teXUtVnVGelltMDZ5RVNDWVRMdXJncjhlaVIybDFabEY5NXBKSXRSNGVDMU9XQXRUZV83VEZkS0Q4UFl5aXN3ZDJhMkJROE50ay03TFJ1RF9VdUVwUWxxVXlSd1E?oc=5",
+      "published": "2026-06-30T11:45:00+00:00",
+      "source": {
+        "name": "Santé Magazine",
+        "url": "https://www.santemagazine.fr"
+      }
+    },
+    {
       "id": "cee9520d0f23",
       "title": "Vous n'arrivez pas à avaler vos médicaments ? Attention si vous les broyez : ce n'est pas sans risque - Actu.fr",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcVZDN0RUbU1YNUhkYmZfVjdXQzhoN1NDQzNPR0pVdWJuVjk2VHlHUGZMTEl6RUEtTXg4WnREcTVDRklrbXlhNjJ0WGw0aUZJb3poYWVyaDk4TlFFWEY2NU53RHVnNmhRaFROZGlSZ1Y3dmpBdEx6SmpjYWg0WlBVTDhVZ1NRWmFVWnRYdGUwd29YNlljdmw4UllyN2VVeHhPMm51SzIwTFJzNlNkTUR2QzRYLWkwTzRXS1k1SnZRelEwVzJqTFdXTDBtWGpnTHFm?oc=5",
@@ -61,16 +71,6 @@
       "source": {
         "name": "TF1 Info",
         "url": "https://www.tf1info.fr"
-      }
-    },
-    {
-      "id": "e5f51579679f",
-      "title": "Découvrez l'outil qui prédit les effets secondaires des statines sur vos muscles - Santé Magazine",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOUVfNDVyNnZsM0VCU2pKSnBvZEpmcXh3ZjhNNlJqZkY1ZnpibVo4QmNUR2JIS3hoLXBuMHNGY3FwZEs3Y1p2anpQYy1BU2Jtdnd3M3Z4NW5WdmFhc3M4M2Fkc2JjT3lUMmMyVkJYTnExSDNJakVENEROMXJ5OXpsR0VVbkduS0g3TlpFWXQyek55TGhCc0Zld28teXUtVnVGelltMDZ5RVNDWVRMdXJncjhlaVIybDFabEY5NXBKSXRSNGVDMU9XQXRUZV83VEZkS0Q4UFl5aXN3ZDJhMkJROE50ay03TFJ1RF9VdUVwUWxxVXlSd1E?oc=5",
-      "published": "2026-06-30T11:45:00+00:00",
-      "source": {
-        "name": "Santé Magazine",
-        "url": "https://www.santemagazine.fr"
       }
     },
     {
@@ -104,10 +104,10 @@
       }
     },
     {
-      "id": "6c41c1cfc6b0",
-      "title": "Disponibilité des médicaments en ville et à l'hôpital (semaines 26 et 27) - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNODRjWW1pYjRydUVfbXZiYjl2S2xzWEhUb1doY3F2YkktQ2pURkwzYUlZVXVGV2dsY244TlB2Uk9mTTVIMVJKZ2l4QVJPYTdoelRVQXdYQ3FyLThZRzkyTWRUWVZsYVNuRi1CZHdudmwzWUJPM3ZLQ3Y2cjVacDZYTWx3MU1vSTlIZDhhVFAydUN4VGdvWHNuNzRMX0lXMl9nZnFPV3lNZDd4WGliZFVRdDhIb20?oc=5",
-      "published": "2026-07-02T15:40:41+00:00",
+      "id": "c25c85a01c8a",
+      "title": "Perimed : une étude pour comprendre et agir sur le non-usage des médicaments - vidal.fr",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlpmTHBnR2YyY0JyMy1QQ3dBcXVheTBNZWE3eTdUY3pjQjc4S2RhVFQwenhIVkIwdjdkWkpud0NoV3dKU1ZIX2JFQlZncE1Rb1F3bmJYMXhNMV95V0Y4dTZQb1VwVjNLZy12QjJuZ2Z0UG5vZzRIMUlIY05LOVZBR1lMSDRCNzFIVURUSV93YmlkT1hjcTl4OG5iYUpoSXMwNXB3Q3UwaEpWc09WamlTS3pJNE9XQ2dY?oc=5",
+      "published": "2026-07-02T11:15:26+00:00",
       "source": {
         "name": "vidal.fr",
         "url": "https://www.vidal.fr"
@@ -121,16 +121,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "52bd82f1dc6f",
-      "title": "Roubaix : l'intelligence artificielle renforce la sécurité des préparations médicamenteuses - La Gazette France",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ2E4RnZaYkgyU0NBU21JV1lnVzNISzR6ZjRKMC1xVTlfTERRR0l5WGZhZUQ4R1gxcXZwRWdFakhzRXlITmx4amZHTGs1VzBjdjVkU3h6SVNrVnBTM1dKdlR0Sm4xVWd6a21xYnpyTllkRjNHTmlpS29sdGd6Sk9ENFRTb0MzaDVTanhhbEM4dGNHdjl2a0xacXp4RXRCN1JfR3EtMElJeTA5X2hycklYa1hneWhRbjJmdXNZYmtZQ3BKZ3l6MUFJ?oc=5",
-      "published": "2026-07-02T16:33:43+00:00",
-      "source": {
-        "name": "La Gazette France",
-        "url": "https://www.lagazettefrance.fr"
       }
     },
     {
@@ -174,16 +164,6 @@
       }
     },
     {
-      "id": "94d50ddbbda2",
-      "title": "Comment l’intelligence artificielle transforme-t-elle la recherche médicale et pharmaceutique - Harmonie Santé",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMHhRRFRRaFhoSWNfT0kzOWVfWU5TVWE5WUwtLXdEVzJEMGNzS0FWd2ZuMkNCME1MNC1Ia3dXQjZOQTZZR3lxV0JsWkxsaXM0T05CdzBNZVBFUjU1VVBDcmV4SjIydmVhY3FFNDRsN05uT3I5Yk5lSjNOMHU3NnFtRzAzdlFobG9mV2xkVzJ0QVRYanR3cmNjQ0RqUlRUM1duNVNacENWaWhhUjd1VnBaNTFqX1hLUDVrZFRCMjhDcnlVMWM?oc=5",
-      "published": "2026-07-02T07:00:00+00:00",
-      "source": {
-        "name": "Harmonie Santé",
-        "url": "https://www.harmonie-sante.fr"
-      }
-    },
-    {
       "id": "7b4ee8e99020",
       "title": "Prise de position sur les traitements médicamenteux de l'obésité du GCC-CSO - Cardio-online",
       "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNelNkUGNoSnF6cFNZMG9kNzVadmQzQXVfTDV3M3ZIdlFEYVVJZ201a3VmdHZzWFdjTVJUcnloUU03X2JGbmV6NnZmUjRxa2ZfTXR2N0dGN2hZWk9QaklOLTBmSFgxVHdacmg5LVpnNUlOeUtjWUk5bTBaVFdUT21lQkh2ejNXVE5WM2k0U1VVNVRMQlBCcERTd1RsRjBYM0xvSFF6Q1BQRHp3S05jOV9rTmo0LU9lUllCTGR0QlBZUTR1TVpqeW5aTHhoVWJma1dnZHNqOHRUMElGV0JGRmhQSzd3ejRJZS05cEc3QXdTcVc1aEx6X2piU29HVjlBbW9OUjVwZGhieVVGWmpIcVl5THBWMlMyMWltY18ySUdQQmY5MGFHemFxdVVSejg3WHV0YklJRERPTVhlczNZejlKVDM1MXk?oc=5",
@@ -191,6 +171,26 @@
       "source": {
         "name": "Cardio-online",
         "url": "https://www.cardio-online.fr"
+      }
+    },
+    {
+      "id": "53aa3653cec0",
+      "title": "Chaque euro investi dans de nouveaux médicaments génère 5,67 euros de bénéfices pour l’Europe - DECIDEURS MAGAZINE",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcko1eW5SXzVDci12WWJrVzZqSkpPX2NCaDlKQ1JDcmFYdVBXakx3bWtmdENReVFoMFgySTVQUlJXNzlvLUxoMDh4ZlZlLU5tR09idF90WjRqMkhYSGtGaDdIN2VpYkZVUlgzZlVnN0pLWTFnb2MyZHl4WWw4LVBxWTU5ZEpkbzM3OXl5SUh3ZGJfN1ZVWGlSazhNd3lpYUdLeGpTUEs1cktEaWg5VWVBWC1udjhNMmtsMUVtQnFuT3hOVjhfU1hZSGpxNG9oRzEyWHdzQjlfRDd4N3JwWVluWXY2S1JROUpvbzNueA?oc=5",
+      "published": "2026-06-30T14:11:49+00:00",
+      "source": {
+        "name": "DECIDEURS MAGAZINE",
+        "url": "https://www.decideurs-magazine.com"
+      }
+    },
+    {
+      "id": "94d50ddbbda2",
+      "title": "Comment l’intelligence artificielle transforme-t-elle la recherche médicale et pharmaceutique - Harmonie Santé",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMHhRRFRRaFhoSWNfT0kzOWVfWU5TVWE5WUwtLXdEVzJEMGNzS0FWd2ZuMkNCME1MNC1Ia3dXQjZOQTZZR3lxV0JsWkxsaXM0T05CdzBNZVBFUjU1VVBDcmV4SjIydmVhY3FFNDRsN05uT3I5Yk5lSjNOMHU3NnFtRzAzdlFobG9mV2xkVzJ0QVRYanR3cmNjQ0RqUlRUM1duNVNacENWaWhhUjd1VnBaNTFqX1hLUDVrZFRCMjhDcnlVMWM?oc=5",
+      "published": "2026-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Harmonie Santé",
+        "url": "https://www.harmonie-sante.fr"
       }
     },
     {
@@ -204,10 +204,10 @@
       }
     },
     {
-      "id": "c25c85a01c8a",
-      "title": "Perimed : une étude pour comprendre et agir sur le non-usage des médicaments - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlpmTHBnR2YyY0JyMy1QQ3dBcXVheTBNZWE3eTdUY3pjQjc4S2RhVFQwenhIVkIwdjdkWkpud0NoV3dKU1ZIX2JFQlZncE1Rb1F3bmJYMXhNMV95V0Y4dTZQb1VwVjNLZy12QjJuZ2Z0UG5vZzRIMUlIY05LOVZBR1lMSDRCNzFIVURUSV93YmlkT1hjcTl4OG5iYUpoSXMwNXB3Q3UwaEpWc09WamlTS3pJNE9XQ2dY?oc=5",
-      "published": "2026-07-02T11:15:26+00:00",
+      "id": "6c41c1cfc6b0",
+      "title": "Disponibilité des médicaments en ville et à l'hôpital (semaines 26 et 27) - vidal.fr",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNODRjWW1pYjRydUVfbXZiYjl2S2xzWEhUb1doY3F2YkktQ2pURkwzYUlZVXVGV2dsY244TlB2Uk9mTTVIMVJKZ2l4QVJPYTdoelRVQXdYQ3FyLThZRzkyTWRUWVZsYVNuRi1CZHdudmwzWUJPM3ZLQ3Y2cjVacDZYTWx3MU1vSTlIZDhhVFAydUN4VGdvWHNuNzRMX0lXMl9nZnFPV3lNZDd4WGliZFVRdDhIb20?oc=5",
+      "published": "2026-07-02T15:40:41+00:00",
       "source": {
         "name": "vidal.fr",
         "url": "https://www.vidal.fr"
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "53aa3653cec0",
-      "title": "Chaque euro investi dans de nouveaux médicaments génère 5,67 euros de bénéfices pour l’Europe - DECIDEURS MAGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcko1eW5SXzVDci12WWJrVzZqSkpPX2NCaDlKQ1JDcmFYdVBXakx3bWtmdENReVFoMFgySTVQUlJXNzlvLUxoMDh4ZlZlLU5tR09idF90WjRqMkhYSGtGaDdIN2VpYkZVUlgzZlVnN0pLWTFnb2MyZHl4WWw4LVBxWTU5ZEpkbzM3OXl5SUh3ZGJfN1ZVWGlSazhNd3lpYUdLeGpTUEs1cktEaWg5VWVBWC1udjhNMmtsMUVtQnFuT3hOVjhfU1hZSGpxNG9oRzEyWHdzQjlfRDd4N3JwWVluWXY2S1JROUpvbzNueA?oc=5",
-      "published": "2026-06-30T14:11:49+00:00",
-      "source": {
-        "name": "DECIDEURS MAGAZINE",
-        "url": "https://www.decideurs-magazine.com"
-      }
-    },
-    {
       "id": "defecf4fa81b",
       "title": "Besins Healthcare renforce ses capacités d’innovation avec l’acquisition d’UniD Manufacturing, spécialiste des technologies d’administration de médicaments à action prolongée - Yahoo Finance France",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc0MyTy04Mm5QSEVVd2g0dTk2NUUxaFF0eWpVNXVwRU1SV1VFd01ubjY3XzUzTDBKenNjeEphWVlNUExqZ0tnNXdFNkZ3T1ZpZm14RGRpZUtSNnMzeVdGOVVZWEJCY21JSnNLOVEyeHBFUjljTGdVSWtwNENYZ093ZjlRVV9vYTU2NmRCLVhuYmozeWJ5NXltTUZ2TElfV3c?oc=5",
@@ -284,16 +274,6 @@
       }
     },
     {
-      "id": "6cc12384965e",
-      "title": "\"Ne les utilisez pas\" : ces produits pour perdre du poids vendus en ligne sont dangereux, alerte l'ANSM - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOXzRtcTcySHRNSHRxOE1SdmZkdm9YRURZT09EUnI4RmJkeXNBTUFIczFfZmhRU3FoWVl3bVJzcy1HOFNEZ3ctblpWamFvNlFzZFlSdEgxTnc4WUlEMFNGSlVLRHd4WGZ6RjJKQkRtYk9XYV9fVFpZUzMxbk9wODJ4OHFmQlRlVlNsOXdpbFVpUlFGMzNuY1Bxck5XaTRXRjgwcHlOa19ERDZXM1pEck9US09GbWJaM3pBdEE5SW1QVGxDOHZhcEdEa0ZQUG9GNDc2UTFscjd0V2xEeHllQTJ4TU9fclpFZzQ?oc=5",
-      "published": "2026-07-02T13:38:35+00:00",
-      "source": {
-        "name": "Femme Actuelle",
-        "url": "https://www.femmeactuelle.fr"
-      }
-    },
-    {
       "id": "c7aa7b2aa5b1",
       "title": "« C’est dangereux et on commence à le voir » : N’achetez surtout pas de peptides sur internet, prévient l’agence du médicament - Le Télégramme",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQakdwc3AyZUYyUlVoR2xUVTl3YlgyQnh4a0JXbVVOQ3VheWdIWTRxREUyQ0xoMjhkYWpvN3YyZ2lkS1JYM2dxWUlaMWY1M3Vlb25ZbmVsNVZsSVRyOXhHcGZoTFZrZFdLOVNvdVJDNlh4NjZNUUR6VDNLeGpoSjRFRFpTcUJ6OU5KQXNoYlFyUmU4SkJWUDV2NjVkTTJyYVBSMlhBa2hpaDJ6Z2JWaUlzbXY5UVdfcTNkTUNBUUJ0M1IxaVRrd1dYMGFyWVdZNG1feUxYZHIzZktLQTNXbF9ya2FOSU5kUTdQTl9nRVFVdGM5aWdIVHc?oc=5",
@@ -301,6 +281,16 @@
       "source": {
         "name": "Le Télégramme",
         "url": "https://www.letelegramme.fr"
+      }
+    },
+    {
+      "id": "6cc12384965e",
+      "title": "\"Ne les utilisez pas\" : ces produits pour perdre du poids vendus en ligne sont dangereux, alerte l'ANSM - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOXzRtcTcySHRNSHRxOE1SdmZkdm9YRURZT09EUnI4RmJkeXNBTUFIczFfZmhRU3FoWVl3bVJzcy1HOFNEZ3ctblpWamFvNlFzZFlSdEgxTnc4WUlEMFNGSlVLRHd4WGZ6RjJKQkRtYk9XYV9fVFpZUzMxbk9wODJ4OHFmQlRlVlNsOXdpbFVpUlFGMzNuY1Bxck5XaTRXRjgwcHlOa19ERDZXM1pEck9US09GbWJaM3pBdEE5SW1QVGxDOHZhcEdEa0ZQUG9GNDc2UTFscjd0V2xEeHllQTJ4TU9fclpFZzQ?oc=5",
+      "published": "2026-07-02T13:38:35+00:00",
+      "source": {
+        "name": "Femme Actuelle",
+        "url": "https://www.femmeactuelle.fr"
       }
     },
     {
@@ -334,26 +324,6 @@
       }
     },
     {
-      "id": "387b2db6c69a",
-      "title": "Les troubles mentaux sont de plus en plus fréquents et leur traitement implique des médicaments et un soutien. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDl4ZFgwT25VeUszbXoyYkdBdnNweE10dk1ZWF80SDA2aEswM3gzUjJZRlV0RjlhVF9SS00wMHoxRjBZRUlpMWcwWmVaaDFyd0hUOUx4RTFDeGptaGc4R1ZwRTYwN0d4aENQbUJXMUdjSmRUVHdkU0JwT3BRcC1NdXRKTGdtX1BtT3VweTVyRmpnZ3I0NGdHajlUVi0wYlU?oc=5",
-      "published": "2026-07-02T16:23:25+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "3474d22f2f68",
-      "title": "Vos patients pourraient être tentés par l'achat de peptides, il faut les en dissuader - Whatsupdoc-lemag.fr",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT3FkWGxESE1BY2o0Y2R0T0FvcEtfZmJXRlNWRWxYWWtYekpRSkpfTzRGc19mTEkzVzJUWU9oTkRONzh4a0l3bWtMcEl3NzFWYkhmelc5NDM5QVlfcEtBSWtETmoxSEVvU2pHMm9uRU9wLWtGU3hHdWJSNVlaRDctVVMzdUc0ekZROTdZQ0hqbk1ESVZ5eXNXNzZLdXd1aGNiaWR6UGg0MndrcEFQT1ZQNW5OekVnUXJsenlEaTdDbWY?oc=5",
-      "published": "2026-07-02T15:00:00+00:00",
-      "source": {
-        "name": "Whatsupdoc-lemag.fr",
-        "url": "https://www.whatsupdoc-lemag.fr"
-      }
-    },
-    {
       "id": "80495c3723d3",
       "title": "Peptides : n’achetez surtout pas ces molécules sur internet, alerte l’agence du médicament - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcENGMURGRWNHZ3hWMEtwSDFOdEpaNzRaajNhMWhmcy1vdjE3VUZGTFF0LTdhcl9YYVhWUzE5V2JxaEpqQVBHRHIxWVhKSF9WTEtoTXJuZGIwdkxDbW1CNGs2WVV5UjNZVXV3Nmd2RjMwTnFHWHJLanVod0dxZ01sWWpzQUdWNVBOQ1lxYUItLWFMMVlXTjZBVkZuLWQ4Qm5xeWoxRmhhOFpXOFl3YmtRQTJrMjZpdG5EaU9KRHBHSklBdC1LYUY3aHBTRQ?oc=5",
@@ -384,13 +354,23 @@
       }
     },
     {
-      "id": "e06a6725fa58",
-      "title": "Plan stratégique pour le traitement des bactéries résistantes aux antibiotiques. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMWpqd25nUUVMYXRoX1B4MWx3NXVtNkw3aFhhTXRkWFd3c3Myb2twQlV5c3AtbVBqZ09vVGUtQW56ZVdHd2tkSjdLSzZEeXFYbnpWOGZaY0hqcHNhenlERWtTbUhfQ04yNUEzRmV5REJ1akhzaENWTGNQZUQ5bVpaYg?oc=5",
-      "published": "2026-07-02T13:59:54+00:00",
+      "id": "387b2db6c69a",
+      "title": "Les troubles mentaux sont de plus en plus fréquents et leur traitement implique des médicaments et un soutien. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeDl4ZFgwT25VeUszbXoyYkdBdnNweE10dk1ZWF80SDA2aEswM3gzUjJZRlV0RjlhVF9SS00wMHoxRjBZRUlpMWcwWmVaaDFyd0hUOUx4RTFDeGptaGc4R1ZwRTYwN0d4aENQbUJXMUdjSmRUVHdkU0JwT3BRcC1NdXRKTGdtX1BtT3VweTVyRmpnZ3I0NGdHajlUVi0wYlU?oc=5",
+      "published": "2026-07-02T16:23:25+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "3474d22f2f68",
+      "title": "Vos patients pourraient être tentés par l'achat de peptides, il faut les en dissuader - Whatsupdoc-lemag.fr",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT3FkWGxESE1BY2o0Y2R0T0FvcEtfZmJXRlNWRWxYWWtYekpRSkpfTzRGc19mTEkzVzJUWU9oTkRONzh4a0l3bWtMcEl3NzFWYkhmelc5NDM5QVlfcEtBSWtETmoxSEVvU2pHMm9uRU9wLWtGU3hHdWJSNVlaRDctVVMzdUc0ekZROTdZQ0hqbk1ESVZ5eXNXNzZLdXd1aGNiaWR6UGg0MndrcEFQT1ZQNW5OekVnUXJsenlEaTdDbWY?oc=5",
+      "published": "2026-07-02T15:00:00+00:00",
+      "source": {
+        "name": "Whatsupdoc-lemag.fr",
+        "url": "https://www.whatsupdoc-lemag.fr"
       }
     },
     {
@@ -414,6 +394,16 @@
       }
     },
     {
+      "id": "e06a6725fa58",
+      "title": "Plan stratégique pour le traitement des bactéries résistantes aux antibiotiques. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMWpqd25nUUVMYXRoX1B4MWx3NXVtNkw3aFhhTXRkWFd3c3Myb2twQlV5c3AtbVBqZ09vVGUtQW56ZVdHd2tkSjdLSzZEeXFYbnpWOGZaY0hqcHNhenlERWtTbUhfQ04yNUEzRmV5REJ1akhzaENWTGNQZUQ5bVpaYg?oc=5",
+      "published": "2026-07-02T13:59:54+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "e5c014748d9a",
       "title": "« Les tensions sur ces comprimés devraient perdurer au moins jusqu’à début 2027 », l’Agence nationale de sécurité du médicament annonce des difficultés d’approvisionnement sur certains comprimés d’aspirine - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPN0ZhamtaNXNPRTRJc2swbFdIanllY3pGQng0cFJNWi15QS1fSTM2eEVTY2hfSVJSWkYxUjdwaVJiQ2VJanJ3eUFTRG9jMjJHcFI2N0JqRmxXRW5rNTJKQVdoS2pjUU1TdkFaTTRfQTgtclZ4b0ZablQyTklnYzUxZjJBbHhVR1BZVFFKaWk0Uk5yakVkUHB3c1VHOGRPRzZCN0hnMHIwVjIyVHNpSUNjSzRkUnZqdl9aYzY1a0N4eE9aVHktX2J2aTIxTlVCQllUanpXajltLWdJc3FJRTR4VjVRNjRVeEJpOGJvSlVsZUJrMGdnRVZqQjZ3alRRVHRUdVV1aUthNmw1OUJYbVVkQmNncTdtX1hEbjlZVElyTEhUU0pZbDlxbXhQX293X1JISEI4VC1NaC1NM2JTWVRleHZRYnRUUGJBMnRkZ0JMSHdVMW5NYkdPdWhKQS1EUXJ2WEJBaU1DOFVwb1l0RWtVWQ?oc=5",
@@ -434,16 +424,6 @@
       }
     },
     {
-      "id": "9cb8c224cc2d",
-      "title": "Le ministère de la Santé fournit des informations sur les médicaments couverts par l'assurance maladie. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNEp5NnlObUtaVlVkaGhwdFNrVmhZS3pMRWxlY0JhNkhlenNIZ2I3YXE2akxDS1ZZV2dMNjVrQVVHN0JKT3dSRU96SVNIa2hOZC1ySTJLQm91S29vVEpDUTdUTU5uYXdiX0RtTklLWFYzeW9sSi1rQkxrYzlWYVhlMURGdFk2bFlTMkE?oc=5",
-      "published": "2026-07-02T06:33:23+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "82aa87863c60",
       "title": "Médicaments essentiels - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
@@ -451,16 +431,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "4ede25c87273",
-      "title": "Médicaments matures : pourquoi ces traitements anciens et bon marché manquent alors qu'ils restent vitaux pour les patients - parlons-politique.fr",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOM0tBN1JycFBYZ2s1cGE4eUhHMktiUUZKSDBOV0U1QzM4S1p0VmpPMGxCVWN2N3ZSblIybWhKdnhxZ0otaUdYcGwxQkJEaTFXWTlGMV9WUnFQMlNIU1NOV19nTmpxbUJHWFZzbDFuREc2Y3ZCYXFzNGFHZEJqUFVja0RvdmV2SFAtUlJ1YnVGSldhUlAxOFNHMEhSZWU2WGg1ZktLcEVHRFlMUUpKQThkWkxQeEswREFmdDNEejJ1dDlNT2tEWFhxaEE0NnNsTERlYlMxeWZteVhWZVpEcHNNM3ZXbHlCaVRKSTdjTElxbEdFZnZIOTdsUDZRSjBBV21Fb045Yk5NQjJBRnZpa05hUw?oc=5",
-      "published": "2026-06-28T08:41:05+00:00",
-      "source": {
-        "name": "parlons-politique.fr",
-        "url": "https://www.parlons-politique.fr"
       }
     },
     {
@@ -474,6 +444,16 @@
       }
     },
     {
+      "id": "4ede25c87273",
+      "title": "Médicaments matures : pourquoi ces traitements anciens et bon marché manquent alors qu'ils restent vitaux pour les patients - parlons-politique.fr",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOM0tBN1JycFBYZ2s1cGE4eUhHMktiUUZKSDBOV0U1QzM4S1p0VmpPMGxCVWN2N3ZSblIybWhKdnhxZ0otaUdYcGwxQkJEaTFXWTlGMV9WUnFQMlNIU1NOV19nTmpxbUJHWFZzbDFuREc2Y3ZCYXFzNGFHZEJqUFVja0RvdmV2SFAtUlJ1YnVGSldhUlAxOFNHMEhSZWU2WGg1ZktLcEVHRFlMUUpKQThkWkxQeEswREFmdDNEejJ1dDlNT2tEWFhxaEE0NnNsTERlYlMxeWZteVhWZVpEcHNNM3ZXbHlCaVRKSTdjTElxbEdFZnZIOTdsUDZRSjBBV21Fb045Yk5NQjJBRnZpa05hUw?oc=5",
+      "published": "2026-06-28T08:41:05+00:00",
+      "source": {
+        "name": "parlons-politique.fr",
+        "url": "https://www.parlons-politique.fr"
+      }
+    },
+    {
       "id": "c6a85b49b02d",
       "title": "Le Canada autorise une première version générique du sémaglutide destiné à la perte de poids - canada.ca",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWFZBQlBfbGlSWUgxR2VFcnBtd2p0ckVINEs5TGJaT05wdldnYlV3TTNfLXExeXpPQ2t3VnFyTmgxcEljdGJVZWxmME9mSUE2TkhQVXFzSDg5NnRTSk1vbTZONmF0ODduTF8xZjg5RUxGenpxUFVUOE54bnBrRWRMaHQxaVJib05fdUxoVmxPOWN3RFJEVmlEYURpZVZ6cUFkb1JOTjR3SUdYZmFzYi1vTmRQRWV6bGIxUTNZYkhMUDRSQjZWRkVVWU51UDhTZ2Vlby1aOTBVREJFMFRCSzlocktPRTNkYnU5?oc=5",
@@ -481,16 +461,6 @@
       "source": {
         "name": "canada.ca",
         "url": "https://www.canada.ca"
-      }
-    },
-    {
-      "id": "c5a0d5ce8be5",
-      "title": "Novartis décroche dans l'UE un feu vert pour un coûteux traitement - Leman bleu",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CWmwzZDlUSlFQNVJwMGtXZmFtNmF6NWltMEVnYW1jMERKbUlxYUljWUxid0dkbHBRWENueHJ3T0F1TUlNVkdOcEppclR0Wl9LbHl2WTdhT192UUdpNlBueXluQQ?oc=5",
-      "published": "2026-07-02T14:11:00+00:00",
-      "source": {
-        "name": "Leman bleu",
-        "url": "https://www.lemanbleu.ch"
       }
     },
     {
@@ -524,6 +494,16 @@
       }
     },
     {
+      "id": "c5a0d5ce8be5",
+      "title": "Novartis décroche dans l'UE un feu vert pour un coûteux traitement - Leman bleu",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CWmwzZDlUSlFQNVJwMGtXZmFtNmF6NWltMEVnYW1jMERKbUlxYUljWUxid0dkbHBRWENueHJ3T0F1TUlNVkdOcEppclR0Wl9LbHl2WTdhT192UUdpNlBueXluQQ?oc=5",
+      "published": "2026-07-02T14:11:00+00:00",
+      "source": {
+        "name": "Leman bleu",
+        "url": "https://www.lemanbleu.ch"
+      }
+    },
+    {
       "id": "a02ff41ae3af",
       "title": "500 000 femmes concernées en 2025 : après avoir été boudé pendant des années, le traitement hormonal de la ménopause séduit de plus en plus de femmes - Science et vie",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNa1hCZWVNNGJYZURPdzUtZ3ZISmZENDg0d2psNXNzMUt1SUJYVmNENDhibDFfcmt2X0hseVRJUXZDMTAwdG5MdHJuYzFwdmtQelFBelB3Z1czZ2w1dkNxSUFUc1VsaWpmWkppcVhsNC1SVE80TXh2akM4Vkd0Wlk2Wm1wcDVYVFpTMTJid3BaUjdQM294MjVwaTNaNlBacUxDV0JlNkR3a1dnVXdwWGtaeExrQUNWRkEzVllsaGVGbUJiSEtWUW1TV09xeUZCNnN3TG1pZVVuVnI5dm85anFfdEFyMlI4R0EzU3g1Y05UZ1BzZVN3RnhTXzFuM3hRQnlRaG90aG5JRWl1VHpxQ3NV?oc=5",
@@ -544,16 +524,6 @@
       }
     },
     {
-      "id": "a27970549467",
-      "title": "L'Actu vue par Remaides : « Prep injectable : les idées reçues qui freinent l'accès à Apretude (1) - Aides",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kU1JSNEtTYjNCcWtOTmlOZlVDYzBfV3JfQUJYT0ZkLXd4SFdsbnFKcWN0R0hQN0NXN2VTYzRKMUpBR0VEUFY3VFZ3a3k1RDVvYnhEMzdrZ1gxT09QUWZsN0pJTzhWV1Fvc3FVanRTeGVnTlZoLW12Q2hB?oc=5",
-      "published": "2026-06-30T04:02:19+00:00",
-      "source": {
-        "name": "Aides",
-        "url": "https://www.aides.org"
-      }
-    },
-    {
       "id": "c23842922d98",
       "title": "Actualité - Fortes chaleurs : prenez soin de vos médicaments et de vos dispositifs médicaux - ANSM",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGN4aHhSY1hPTFBtUGFFcmpseTJnNE9KZWtXaDdNN25WYkJHdWFZLUN1XzlZVUpyVWtPOXV5WUcxMDN3SXFTTHc2Qk1CX0lRM3JaYzF1Z2VJMjJwYlh5RkxRQ2NRVS1kTW5JNlhxQ2FRMDBnc1JfU3VNYjV4VTBxZmdCdlNMZ3lqc0YtVTZ2N0JHdldZVGxPMkMza3NCLTVvUF9iTTVoLV9fMVFXYnJ3?oc=5",
@@ -561,6 +531,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "a27970549467",
+      "title": "L'Actu vue par Remaides : « Prep injectable : les idées reçues qui freinent l'accès à Apretude (1) - Aides",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kU1JSNEtTYjNCcWtOTmlOZlVDYzBfV3JfQUJYT0ZkLXd4SFdsbnFKcWN0R0hQN0NXN2VTYzRKMUpBR0VEUFY3VFZ3a3k1RDVvYnhEMzdrZ1gxT09QUWZsN0pJTzhWV1Fvc3FVanRTeGVnTlZoLW12Q2hB?oc=5",
+      "published": "2026-06-30T04:02:19+00:00",
+      "source": {
+        "name": "Aides",
+        "url": "https://www.aides.org"
       }
     },
     {
@@ -654,16 +634,6 @@
       }
     },
     {
-      "id": "e8f2648931fe",
-      "title": "Il n'existe pas de traitement spécifique contre l'encéphalite japonaise ; le vaccin est la « protection » la plus efficace. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON2kzbDVxVzRsM0ZMaWh3djdsSWFwem5sRTVVMXFaOFFxZlBxbk5CcHJfNUxfS2lrSEFOWDdtNl9LN1FELTN1bk1nY3pzSEp6cmxoMXpIYU43c0tzSjVfY1U2OEVIOFJXSnhieGdLcE1JTWFfLU5SZWRGZWVoZ2pQUDVWakJYV3lrYnNRQllqVmstQTcwWEEtcUxoeXU3cFhRVEQyN1FKdXBNSms?oc=5",
-      "published": "2026-07-02T16:31:18+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "e6a7762edca6",
       "title": "Actualité - Téralithe et quétiapine : point sur la disponibilité et l’évolution des mesures d’accompagnement - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3lIcUIxZFRjR3RJNjAycWd6dE5TRDN4TmxselotUmFJamFPZEstWmFuY3AzVVZvcnl1Vjh4TDRZZDdUUkVEOHpnNzd1UWtBRHhZNDFTRm51dTh4SmFMS2ZWak0ybmtFbHV2M2RqLUtMVm5tN2hlVU5acGpNc3hWeFA1Nk1fdGtZTG5FdjBVUkFNSzd2MEQ4TWo4WG9tdGdPVmhyeW90bGR6ZTRrT0s3cG94QWtJZlNBQjJDY2xWMUFYQ28?oc=5",
@@ -744,16 +714,6 @@
       }
     },
     {
-      "id": "eb1a416481a9",
-      "title": "PARIS : Médicaments anti-obésité - La France au 7ème rang des hotspots mondiaux - Presse Agence",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOamRiWUNXSThCVFc2akhXc0Q5Zy1HWHh6bkpkQktiV0dMUE5QZDVYOTd2N0szMWh0UGxjaHAwa2liZGpWMG9YbnVjV1lHc2I2NU1Mb1d2TlUzN3JhUlAxOHB0Z2ZHSXhwQVVpVURfclprSUtVMGMya25MU0NFbkh0NzFjZTRNT2RaTXRUMm5EeWNiU2ZGQjExX2dVaHRqUXVUNnc?oc=5",
-      "published": "2026-07-01T02:00:00+00:00",
-      "source": {
-        "name": "Presse Agence",
-        "url": "https://presseagence.fr"
-      }
-    },
-    {
       "id": "132ebaaefa50",
       "title": "Les médicaments antiobésité Wegovy et Mounjaro seront remboursés en France à partir de lundi - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTE1KaGRrTzdadlR4VlRuVTR1TEhMNU1FbEI1R3d1R0RFa2NEVVdGZ2RNLTZ5U28xT1hOdUwxZW9WckJ1SkxiYW0zUnBKUDlWQW1fMGVTWUlCNGdFQkEybXdDMUt3eUZsdEtzVWQzNkV0M3hOZHJUQTJ3U0NjU0VIVkdXcGpnNm44QzVsZ3pacUQ0Zm4zdk53dS1pTlFLVDJhSURDS0FzWm1La0FsQVdaVnE2eVo3MG1VNGJqd0k4WEFjaEdQVUNyNHNCRWxiNjZYX2QzQnlYcHdKeks4WXRYcW1KT3lMWnp1NmRjdEQ2c2thVlk?oc=5",
@@ -761,6 +721,16 @@
       "source": {
         "name": "Le Monde.fr",
         "url": "https://www.lemonde.fr"
+      }
+    },
+    {
+      "id": "eb1a416481a9",
+      "title": "PARIS : Médicaments anti-obésité - La France au 7ème rang des hotspots mondiaux - Presse Agence",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOamRiWUNXSThCVFc2akhXc0Q5Zy1HWHh6bkpkQktiV0dMUE5QZDVYOTd2N0szMWh0UGxjaHAwa2liZGpWMG9YbnVjV1lHc2I2NU1Mb1d2TlUzN3JhUlAxOHB0Z2ZHSXhwQVVpVURfclprSUtVMGMya25MU0NFbkh0NzFjZTRNT2RaTXRUMm5EeWNiU2ZGQjExX2dVaHRqUXVUNnc?oc=5",
+      "published": "2026-07-01T02:00:00+00:00",
+      "source": {
+        "name": "Presse Agence",
+        "url": "https://presseagence.fr"
       }
     },
     {
@@ -774,6 +744,16 @@
       }
     },
     {
+      "id": "e8f2648931fe",
+      "title": "Il n'existe pas de traitement spécifique contre l'encéphalite japonaise ; le vaccin est la « protection » la plus efficace. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON2kzbDVxVzRsM0ZMaWh3djdsSWFwem5sRTVVMXFaOFFxZlBxbk5CcHJfNUxfS2lrSEFOWDdtNl9LN1FELTN1bk1nY3pzSEp6cmxoMXpIYU43c0tzSjVfY1U2OEVIOFJXSnhieGdLcE1JTWFfLU5SZWRGZWVoZ2pQUDVWakJYV3lrYnNRQllqVmstQTcwWEEtcUxoeXU3cFhRVEQyN1FKdXBNSms?oc=5",
+      "published": "2026-07-02T16:31:18+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "1d27150b15de",
       "title": "Zuckerberg dévoile un atlas d'un milliard de protéines pour accélérer les médicaments - Futura, le média qui explore le monde",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTFZ3T2FSMjZjYXozdHF6VWl5RjFRT2VpWFpaZldVUXFrN1NycTlhWmpiRGNOdUJWRGswdm1MRXRhNnN1V25VZndnNTRtSkJ6dEM5ams0dDVpVG8zM1NiM0tURjZfSm1yWEY1SDhSNEJEd1J4c1Z0OHp4ck9JWWptUGRsVkFFNWUxYXVvVFlrLW4ybUk2Mko2MWJFZW1sUDNPeC1Say1IU0VvQV9lb21kNFhjMHc2SGZhU1JuTkthN3NUQjVubVJqMFdEYw?oc=5",
@@ -784,16 +764,6 @@
       }
     },
     {
-      "id": "b94433fda0dd",
-      "title": "Le gros coup de pression des laboratoires pharmaceutiques face aux baisses de prix des médicaments en Europe - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZFdEbkd3UzVBcUN0eW83T0dYUWRjbHFESW96SXFKZmlTWTF0REQ0NkNYa0xWNkJPQzlyOHZfMHVEazBqUklDQmVodFJaX2h3R2dJUE9OMHh6X2dJUFc5VWJwZTBjRlRIZHVBOXhQc3Jjc2NidFZxWTJ5NTZhSm5zeFk2emlOeFJvVGNKZGtQQTFrLXlOdzZkeTBrZHVMb2VIRXo1ZGdISk5XalBKWjVYdWY5RWJNZ2tKQjlGeHhDM205NUwxVGd4VTVhU1loRXNJX1ByTVFLZ3Zteklvd2ptRWdJVW1kVXk4NWdGLTk2N1ozWU1DVUo0TEFaZmR5SGxHeUk3YWN3?oc=5",
-      "published": "2026-06-05T07:00:00+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
-      }
-    },
-    {
       "id": "83a0ce716eaf",
       "title": "Quand médicaments et canicule ne font pas bon ménage - Sciences et Avenir",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONDMyU2FkN2tpU0RFTUhjb0l0NXVDMG5mckJtT19wbHRFWDlSNU9ibWtOZGU0MUJhdF9OLXRodmdERWc4aENnZTBFOE54ei1wZUh1S0hnekNrano1WHBjRWhuYW82VjRCVmlrVXdKV2lXOVR0cTFmcUk3UGJIUzFuLXJDVmRpdmFRLTBPUXJtMFE0VXdOUkE0bHVKRnVSZw?oc=5",
@@ -801,6 +771,16 @@
       "source": {
         "name": "Sciences et Avenir",
         "url": "https://www.sciencesetavenir.fr"
+      }
+    },
+    {
+      "id": "b94433fda0dd",
+      "title": "Le gros coup de pression des laboratoires pharmaceutiques face aux baisses de prix des médicaments en Europe - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZFdEbkd3UzVBcUN0eW83T0dYUWRjbHFESW96SXFKZmlTWTF0REQ0NkNYa0xWNkJPQzlyOHZfMHVEazBqUklDQmVodFJaX2h3R2dJUE9OMHh6X2dJUFc5VWJwZTBjRlRIZHVBOXhQc3Jjc2NidFZxWTJ5NTZhSm5zeFk2emlOeFJvVGNKZGtQQTFrLXlOdzZkeTBrZHVMb2VIRXo1ZGdISk5XalBKWjVYdWY5RWJNZ2tKQjlGeHhDM205NUwxVGd4VTVhU1loRXNJX1ByTVFLZ3Zteklvd2ptRWdJVW1kVXk4NWdGLTk2N1ozWU1DVUo0TEFaZmR5SGxHeUk3YWN3?oc=5",
+      "published": "2026-06-05T07:00:00+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -854,16 +834,6 @@
       }
     },
     {
-      "id": "c06fae69423d",
-      "title": "Ménopause : après 20 ans de doutes, pourquoi le traitement hormonal fait-il son grand retour en France - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRnVQd2xrMFdEdkdEM3dhMUF0X0VBYVhjaHVCM1dCRm5qbmZnczBiaVAzSHBMaExYb2ZDdHZWR3JCdDFlTGZHVU4yVUhac0ptOFQ4eWhuMGRPUjNTRmlKTGppT3lUc3g5ZkVFZzFIZlhsZWFpMVpFbjRLaEtyRzBVTUVqSndjamp4MExMRWpya3pFOXBxZE5ObWpWZDRzbm5KdV9tc2tNckNGaExCQVRqZjZsX0RoYndabmRyTVNJS2VsQXpjRDdaYTFIMk1LMzhCaEF1NzRtcU1EWnByakpnWG9VS1p3RzdT?oc=5",
-      "published": "2026-06-30T08:01:49+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
       "id": "6c102db56b90",
       "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? - Public Sénat",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTNUZ0dQa3NtZHRBbDU2RGFySF93RkN1R1diempXQmpFNUUxaEMzRDRMeGZNNVpBcEpoWjVsNDJKLTVLN2NqaGpFUU1sZTRncm1JM0dxNThfMUkxbDNsSmtPRFRZWDlKZHdhOHpQdzhHcWpWTU5kc3otVVBPVUZ1dmpsclgzZjYwN3pYaUZ3UUd3VzZtVWVxcXAzbmdFa0h2dlhkeldvVXBiNEIxdlJlVFRsZmpwbXc?oc=5",
@@ -871,6 +841,16 @@
       "source": {
         "name": "Public Sénat",
         "url": "https://www.publicsenat.fr"
+      }
+    },
+    {
+      "id": "c06fae69423d",
+      "title": "Ménopause : après 20 ans de doutes, pourquoi le traitement hormonal fait-il son grand retour en France - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRnVQd2xrMFdEdkdEM3dhMUF0X0VBYVhjaHVCM1dCRm5qbmZnczBiaVAzSHBMaExYb2ZDdHZWR3JCdDFlTGZHVU4yVUhac0ptOFQ4eWhuMGRPUjNTRmlKTGppT3lUc3g5ZkVFZzFIZlhsZWFpMVpFbjRLaEtyRzBVTUVqSndjamp4MExMRWpya3pFOXBxZE5ObWpWZDRzbm5KdV9tc2tNckNGaExCQVRqZjZsX0RoYndabmRyTVNJS2VsQXpjRDdaYTFIMk1LMzhCaEF1NzRtcU1EWnByakpnWG9VS1p3RzdT?oc=5",
+      "published": "2026-06-30T08:01:49+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -934,16 +914,6 @@
       }
     },
     {
-      "id": "7245072131c0",
-      "title": "Ebola: l’OMS lance des tests cliniques en pleine épidémie en RDC - H24info",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORmVRelVaR1pmWE02ZkJBUzhiVDh5RU9hLW4wWkhYUTkzYVdmOUZBeXZZdTM0OERQSUJETEhfdmJBSlpiTjdYRTNPMkpfc3lUZU1maGxMdm52Y3JpYTRmWXlTaEQtWTBOYm40TTJhT2pWMk02a2V5ekZqR2QwLV9tTzdDeDRkTXgxMWxfTTJRY2t3RDlQb1lpaUV3?oc=5",
-      "published": "2026-07-02T14:22:44+00:00",
-      "source": {
-        "name": "H24info",
-        "url": "https://h24info.ma"
-      }
-    },
-    {
       "id": "b170818d0cc0",
       "title": "Médicaments anti-obésité : début du remboursement de Wegovy et Mounjaro en France mais les contraintes seront strictes - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb3ZaeEpzQXJFcERyZ1RTaXdmNmxHVEF6eGRJbUNxV19lUE5Pb3ZiSFY1WW10WXZVUlBBQklfcDNOQTZLZmx6a2xWdkZFbnI5MmZEeldUSUFqNFpwTTJFQlpYNHBOUTE1TTVIRjRjSXBMaXdkSTFGeTJrbldoS0JaNWU5bV9MMkstYzhqNTZXU1p6ZEh6YXNzSm1NT21nMGdUcW5aRDM0UVU0NDNTb2c4aGdEUG5oeTBSdHMzR0Fsb2p5d2hVTl9NOXlFMWI1ckQwdVpEZkZMZFdJVUtjWXlrWk9tTFExNGFTdWZsdFJ1OXM?oc=5",
@@ -994,6 +964,16 @@
       }
     },
     {
+      "id": "2ece536fc061",
+      "title": "Produits de santé -Médicaments : quelles sont les précautions à prendre pendant l'été - Service Public",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fSE9qY013Q29PUDFoMkdRTHJzcEJDZmFJMDZjSHhhSWVPU0lfU1lLSTZybWJyb3Bvb19LeU0yc0hTV1RMSnprZ29XMkRMay1TOW0xYXpiTVJ6SldTOFJvdmxOQWdGYXM1T0hTZXBSNTVRVUU?oc=5",
+      "published": "2025-10-01T02:57:04+00:00",
+      "source": {
+        "name": "Service Public",
+        "url": "https://www.service-public.gouv.fr"
+      }
+    },
+    {
       "id": "93543600a1a5",
       "title": "Un premier médicament approuvé sur la base d'une procédure rapide - Le Spécialiste",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0N3a0UzTmRwNEdHTGhwcmpJUGpRcjZUQVFsQXBBcEFuT3EtYmFYZ195LXNBNlZmVkotdEl2RUJQaEFVRnBUVGJZQVd6NDhZSFY0UDBIclBMNU9hQklZTDBDTHJ4alBsUkFOVll2WnFpV2Y3T3hkOWk4b1p0eDlodXZsTlhVdm5IaXFYSDlaQVVvaVFxQldfOWV1RUMtdlBwWlM4c3RicGs3UkdfUmY3cFZvVQ?oc=5",
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Le Spécialiste",
         "url": "https://www.lespecialiste.be"
+      }
+    },
+    {
+      "id": "fb8dc10d3afa",
+      "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? en replay - Et la santé, ça va - france.tv",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVGFIQWN4R3FrTWxmaWlPQVRLZjg2eGlaWWhRMk5Zc1pZLV9hbjBBZEZ5VHVRLXZzYnl0UmhIOExydXdRWkxaTWRJWC03LWtQbE1HcFdzakd0Z0tZS1lpWGdyM1hqU093UFl5SlJkV2RjV0ZKWmVRXzVCTU5taEVlbTVCNlpHRnpxakdzTnQwTVkwTkVCbDd4UmtUbEEzSFg0V3YzcW9WYllMaHVzZGR1WUR1aElYNV80eVVJWXdSTWUyZw?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
+      "source": {
+        "name": "france.tv",
+        "url": "https://www.france.tv"
+      }
+    },
+    {
+      "id": "7fd32182530b",
+      "title": "Médicaments : les laboratoires préparent le terrain pour la présidentielle - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd0RTLTdVLUUyeUY4bjlETW92Z2pzVy1DMG51UXdGT0J4ZnpJWEJocDN0NnQ5MTZMbFUxc08xempWX0R2Tm9hcjZkcENCaFhvMEo0VERnejVnUkFUMEtiYkg3eHhQYUNpNHBqMk55X3BEallTWG5UZGhpN09xTDdPLUZXYk9uN192cENXT2xoS3NvbmxBS0REMmgwa2dNNVN0aE1VMmpEMVAzZFA0cGFvalR0bndvY2FIX3NfODJaSzdCeGZwMC1MbEx5NWhNc0xGTWxlQWJB?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     }
   ]
