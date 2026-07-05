@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-05T17:20:32.654151+00:00",
+  "fetched_at": "2026-07-05T19:35:43.604947+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "308712cbfcc9",
-      "title": "Des médicaments fonctionnant comme un cheval de Troie pourraient révolutionner la lutte contre le cancer - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdnhwNVBOTmdGdU9UZzN4Q0ZOVklhT2NQUHFzWEE2dzdRZ2VaZjBIczFwYUZFZXNwMzM4NXVzNVhMcmFGLVlVUWIxX1Z1S25OTkZvTVdpa2pfWnZlWS14ODV3NzBta2I5R1Z0ZXBlMHZyem1SRk9SY0tJWlhTNVFYVllsREVSWWtVQkNiY0JQOXN0VWIzeENUbndaT1o0MmdvU0ZIbS1xRTJtV2Z1WF91YkUwYS1fa3FtQW4xRFJBc1hQOVdpYVlsWFlQN3ZvdnBSVW5fVkhiemJnM1AxV3BDLVpDZWU?oc=5",
-      "published": "2026-07-04T08:00:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
-      }
-    },
     {
       "id": "56884f650503",
       "title": "Actes et prescriptions réalisés par les infirmiers : un nouveau référentiel pour une autonomie élargie - vidal.fr",
@@ -21,6 +11,16 @@
       "source": {
         "name": "vidal.fr",
         "url": "https://www.vidal.fr"
+      }
+    },
+    {
+      "id": "308712cbfcc9",
+      "title": "Des médicaments fonctionnant comme un cheval de Troie pourraient révolutionner la lutte contre le cancer - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdnhwNVBOTmdGdU9UZzN4Q0ZOVklhT2NQUHFzWEE2dzdRZ2VaZjBIczFwYUZFZXNwMzM4NXVzNVhMcmFGLVlVUWIxX1Z1S25OTkZvTVdpa2pfWnZlWS14ODV3NzBta2I5R1Z0ZXBlMHZyem1SRk9SY0tJWlhTNVFYVllsREVSWWtVQkNiY0JQOXN0VWIzeENUbndaT1o0MmdvU0ZIbS1xRTJtV2Z1WF91YkUwYS1fa3FtQW4xRFJBc1hQOVdpYVlsWFlQN3ZvdnBSVW5fVkhiemJnM1AxV3BDLVpDZWU?oc=5",
+      "published": "2026-07-04T08:00:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "ca9c49be649b",
+      "title": "Peptides vendus en ligne : il ne faut surtout pas les utiliser - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNalVHdVZheERjNnF6bTJYLXF3NnB0MmpyOTIxek5VU1gyZkdnZUJEQTR0Z0RxTXFtZ05LTWk1a1A1a1JlUGxCeEdtVHl3ZGVpdGNSUVcxblFseWlGU3BWQkZUV0JqX1ozTnR6RzRSWUtCM0ZVQkF4SVdCRzNkdnladlVuMFpuWUozSjRzd0pFaDZjRkxUOFFtYzJkM3I0QQ?oc=5",
+      "published": "2026-07-03T13:55:00+00:00",
+      "source": {
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
       "id": "94d50ddbbda2",
       "title": "Comment l’intelligence artificielle transforme-t-elle la recherche médicale et pharmaceutique - Harmonie Santé",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMHhRRFRRaFhoSWNfT0kzOWVfWU5TVWE5WUwtLXdEVzJEMGNzS0FWd2ZuMkNCME1MNC1Ia3dXQjZOQTZZR3lxV0JsWkxsaXM0T05CdzBNZVBFUjU1VVBDcmV4SjIydmVhY3FFNDRsN05uT3I5Yk5lSjNOMHU3NnFtRzAzdlFobG9mV2xkVzJ0QVRYanR3cmNjQ0RqUlRUM1duNVNacENWaWhhUjd1VnBaNTFqX1hLUDVrZFRCMjhDcnlVMWM?oc=5",
@@ -184,16 +194,6 @@
       }
     },
     {
-      "id": "fd4aa7e63f93",
-      "title": "Cancer de la prostate : cette nouvelle génération de médicaments avance « masquée » et suscite l'espoir - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS2tnbUJROVBsVFFnRTVyTnlnYmJBZTVqY09ZRmNjT2VKanJFRmxydUliYVV0cWxMdWhiZERaRzlNUGo1bWh4TDdUazFzeXBUdlBIcjE3VlFBa0lFQzN2ZHBxc3BHTTFidGROdVBqam1KS3I5eGVWMzYwcUkwRHBiM3hGVmR1c3h0NWJ6aGR0OGpteWVhMElYbHdBb0x2UzN4R0xmNXpZaHluVEtPd3dHMm9VNjRuZFZBWXB6NXBUQ2ZQWkNPUVBJZXh2aERkRTR4RWdkaTh2VVdpWHdZVHBtMGNsRk1saW1EWWxzSg?oc=5",
-      "published": "2026-07-01T10:07:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
       "id": "8defea590882",
       "title": "Médicaments : est-ce une bonne idée de les broyer si on n’arrive pas à les avaler ? - ladepeche.fr",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV3BjdnNTZ0V2U3BuT1VPR1NDLWI2OXIweTl1N1pEdW1tZHdVTy1zbmx1UEZyeWxUSlhPUWVCa21fc3M1d3BWMmxXRkp6b2dDckphWExUaTNVYWtGb2RVVDU4YUFEdU4xSXp0ci12RmVTV3RTdVd0LUtsMjNWYWtJSUJjaDRtZHVTMEF4a1JJdWJDZEVKTHhvQ2laYjh5TjJwdmxqcTVfNHZ4MHJSYi0way1lTF9RdVRFX3RUSkRDaGhtM2dVWWc?oc=5",
@@ -214,13 +214,13 @@
       }
     },
     {
-      "id": "3b67688d41fe",
-      "title": "Peptides : l’ANSM alerte sur les risques pour la santé des produits vendus en ligne - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWktMM1lVdTJKT0dPMEFkQlNsRWxWUHZnLU8yTjhOdG1UUFlKYzVhWE9GZTZwOXd3YTh3bl9wRFJDWXQwMFdIZnBDN0Rvd1NiYmlKSDVfUEozRFVRTVdlWkg4VzBnV2ZjcjlOZjZFR3dxcGRVQk1YNzZHRi0yUEN0ZjJfa2JNaVdxeTBQUmtuXzJ1WlVNeERNd0VfUlpmTUh6SUpMdXRrMWQ4WDZEMnFuTTNqeTVick5CZnRiLWJEenJKQTJmSkZ4NjZmUmdld045ZWJrSGNfaEZfdw?oc=5",
-      "published": "2026-07-02T14:50:07+00:00",
+      "id": "fd4aa7e63f93",
+      "title": "Cancer de la prostate : cette nouvelle génération de médicaments avance « masquée » et suscite l'espoir - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS2tnbUJROVBsVFFnRTVyTnlnYmJBZTVqY09ZRmNjT2VKanJFRmxydUliYVV0cWxMdWhiZERaRzlNUGo1bWh4TDdUazFzeXBUdlBIcjE3VlFBa0lFQzN2ZHBxc3BHTTFidGROdVBqam1KS3I5eGVWMzYwcUkwRHBiM3hGVmR1c3h0NWJ6aGR0OGpteWVhMElYbHdBb0x2UzN4R0xmNXpZaHluVEtPd3dHMm9VNjRuZFZBWXB6NXBUQ2ZQWkNPUVBJZXh2aERkRTR4RWdkaTh2VVdpWHdZVHBtMGNsRk1saW1EWWxzSg?oc=5",
+      "published": "2026-07-01T10:07:00+00:00",
       "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -231,6 +231,16 @@
       "source": {
         "name": "Le Monde.fr",
         "url": "https://www.lemonde.fr"
+      }
+    },
+    {
+      "id": "c2363e520f7b",
+      "title": "Peptides : l’ANSM alerte sur les risques pour la santé des produits vendus en ligne - ladepeche.fr",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTmZsSHBRczgzRjR0RDNmZ3lSOUJzdElxeFdJLXRUWGlpRERNMHkxWGxaS3h6TTZVUlJISUNyeFdDR2p0WTBWWVZ4WDkyVkEtRHhMeE0zUm83cTVkbWMzYnBSaFVybC1YR2hQNm9rTTk3Z2xVTjRCTUtYX01CN0puU0dsVmhSSmY0aGp3QUlubDNJUlVqZVE1aEFEWlpRN1QtRUdqTVB6OFhFYkNZMFNNT1ZULW5nVm5MMHdMSEd2bDlzS1lROWw3dQ?oc=5",
+      "published": "2026-07-02T14:34:00+00:00",
+      "source": {
+        "name": "ladepeche.fr",
+        "url": "https://www.ladepeche.fr"
       }
     },
     {
@@ -274,16 +284,6 @@
       }
     },
     {
-      "id": "ca9c49be649b",
-      "title": "Peptides vendus en ligne : il ne faut surtout pas les utiliser - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNalVHdVZheERjNnF6bTJYLXF3NnB0MmpyOTIxek5VU1gyZkdnZUJEQTR0Z0RxTXFtZ05LTWk1a1A1a1JlUGxCeEdtVHl3ZGVpdGNSUVcxblFseWlGU3BWQkZUV0JqX1ozTnR6RzRSWUtCM0ZVQkF4SVdCRzNkdnladlVuMFpuWUozSjRzd0pFaDZjRkxUOFFtYzJkM3I0QQ?oc=5",
-      "published": "2026-07-03T13:55:00+00:00",
-      "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
-      }
-    },
-    {
       "id": "4c745d48e34b",
       "title": "Médicaments : la Haute autorité de santé dénonce les «pressions excessives» des industriels pour favoriser les remboursements - Libération",
       "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQWVlScTMwdTQ1aVJjQ2Q4NkFBT0JHWDRveDdvY044Yl90MG93aHBhYmRTUTl4ZlhRMS1Od1hFaHRPRFZRT1I2MTZsUHctTzg0SEpSM2dQYU5uSGVuanJGbFB0ZnV0dV9nU0FYWTM1bDI1dnhDck1rSHN3ZUg0clh1RXhiQ2tuZjVQblNmLW1xUW4yU1dranFoeUNLWElSSWdMUUI3U1cwc3NlMFZDa1pObDR1eGF3TDFIeFI4eV9Dak9Oc0kyVWZia2dhSU04bmk1ckdXUEhLU1ZlN2lOclAtdXVJUjBWMVRiR2R3MThKT2tGczdCZ3Rfb3UxRjV4WXNIaElSeEl5NUZYczY5eGpqV3NKX01NXzlGOGl6YWR1MG9CeDh5?oc=5",
@@ -321,16 +321,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "08dfec007f06",
-      "title": "Médicaments sur ordonnance : Réglementation plus stricte, application laxiste. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42QkNMN0ZTSnc4Qm9CUllFR2trcHhjUWs0NXJQZ292S29fNUxYQWpzR1dBMlJ1TnljTDN1Q1dydENBMHk0Y1pRX0tOY1I1bm5DNUxoZXJod1ZqM3FhTTlmNWxfTGZXZ3FLMko1eWdISQ?oc=5",
-      "published": "2026-07-05T09:45:11+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -374,6 +364,26 @@
       }
     },
     {
+      "id": "08dfec007f06",
+      "title": "Médicaments sur ordonnance : Réglementation plus stricte, application laxiste. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42QkNMN0ZTSnc4Qm9CUllFR2trcHhjUWs0NXJQZ292S29fNUxYQWpzR1dBMlJ1TnljTDN1Q1dydENBMHk0Y1pRX0tOY1I1bm5DNUxoZXJod1ZqM3FhTTlmNWxfTGZXZ3FLMko1eWdISQ?oc=5",
+      "published": "2026-07-05T09:45:11+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "e911a2d99aa6",
+      "title": "Dr Innocent Kpeto : « L’Afrique doit sécuriser son accès aux médicaments et investir dans la production locale » - 24 Heure Info",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMGZudG11WHVhWnk0al80TUVLbDVfXzB1dDB4ME5rSjE4T0lESEF0QnQ3V0h2cjlBTVd4SUxkSXRrck9WVjFidTFOaDJLRWFhNXhsVjYxSWJXLVBYcEdULVRIa1k1NGVwOS13Si1UazZsRXFiX0hKMFBxNmZaSlVQTGhTbUxFaHcxTDV5Q0FFalBhWXUtTkZQb1E1MC0zQWgzcUNscHpqY3BMSXZzaHNOcFRpekJ5d25sZENuTmRVM3BXS3diNC1ib1VQdk0wdEJpMEQxVA?oc=5",
+      "published": "2026-07-05T18:30:56+00:00",
+      "source": {
+        "name": "24 Heure Info",
+        "url": "https://24heureinfo.com"
+      }
+    },
+    {
       "id": "8df4c582ffbb",
       "title": "Souveraineté sanitaire : garantir l’accès aux soins et aux médicaments - Bpifrance",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUmxtUF94UXY2OHpHOXhwdC02V2hRR08xR1lfR0Y3NzBZSU9QX0VhQl81NGFFLTN3dXRsQ2l5MnZZSm5LUUU3enA1Ylk0X196R2tCMTZLLXdSUHhyMnhlUWxvTl9DenpXODlwV2l2dVBIYkJIeUxwbl9mZVVuVmQxdjctcjNWWDVWS0xqeTdtQU9nTVJ5ekNmY0o1Y0Y4MmlTVExmTkkxVS1CODVyVXhV?oc=5",
@@ -381,16 +391,6 @@
       "source": {
         "name": "Bpifrance",
         "url": "https://bigmedia.bpifrance.fr"
-      }
-    },
-    {
-      "id": "f0d9788068b1",
-      "title": "À 40 ans, prenant plus de 10 médicaments différents chaque jour, tout semble indiquer une maladie. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWXRPUjk1TE1NakVNYndLbC1CVTRwZmJzZWJkaFdXWVUwVkZlc204RkQ5Y0c5QXd5VFIxQThKNC02aTYzb3JFb2hHLTVaNzhoVjdRXzRBdV9pY1Vvb1VTWmhPWFJUSmxGY0J4dGFvYThTS2VhMDNXNGRKLU9kSFVYeHctZzVROFBmZGdha1N2LVI?oc=5",
-      "published": "2026-07-05T04:42:12+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -444,6 +444,16 @@
       }
     },
     {
+      "id": "f0d9788068b1",
+      "title": "À 40 ans, prenant plus de 10 médicaments différents chaque jour, tout semble indiquer une maladie. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWXRPUjk1TE1NakVNYndLbC1CVTRwZmJzZWJkaFdXWVUwVkZlc204RkQ5Y0c5QXd5VFIxQThKNC02aTYzb3JFb2hHLTVaNzhoVjdRXzRBdV9pY1Vvb1VTWmhPWFJUSmxGY0J4dGFvYThTS2VhMDNXNGRKLU9kSFVYeHctZzVROFBmZGdha1N2LVI?oc=5",
+      "published": "2026-07-05T04:42:12+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "b763564a09d8",
       "title": "Pénuries de médicaments en Europe: la réponse de l’UE | Thèmes | Parlement européen - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDhZT2pqa2I5d0pkZ1loWVhrR3VLUkd4R0E1SGlCRS05cVQ3bXYyeTlpd2lFQWh2c1ZUWUhWeWw4YUlrYi03ekhkd0NRRFh6cFdpUGxHSFVtVklCZWZTWnQzeEVNY041T1lMTVp5X0pPWXFPVjhnZlNCUVJLcjJNUHVnVXFPLUxPVTVoZzA0UUFZVk10VEtYVllTNDcxV0Z1X1REcU1BWWx2bWdUT3lJQXZxRE9hNm9GSHc?oc=5",
@@ -474,16 +484,6 @@
       }
     },
     {
-      "id": "80495c3723d3",
-      "title": "Peptides : n’achetez surtout pas ces molécules sur internet, alerte l’agence du médicament - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcENGMURGRWNHZ3hWMEtwSDFOdEpaNzRaajNhMWhmcy1vdjE3VUZGTFF0LTdhcl9YYVhWUzE5V2JxaEpqQVBHRHIxWVhKSF9WTEtoTXJuZGIwdkxDbW1CNGs2WVV5UjNZVXV3Nmd2RjMwTnFHWHJLanVod0dxZ01sWWpzQUdWNVBOQ1lxYUItLWFMMVlXTjZBVkZuLWQ4Qm5xeWoxRmhhOFpXOFl3YmtRQTJrMjZpdG5EaU9KRHBHSklBdC1LYUY3aHBTRQ?oc=5",
-      "published": "2026-07-02T12:58:40+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
-      }
-    },
-    {
       "id": "74ae2ef658c2",
       "title": "Dons aux populations privées de médicaments et de matériel médical : ce qu'il est possible de faire - Ordre National des Pharmaciens",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQnk4LTVodDRjWlZISmJvY0VLa1JJX2p3QmVwYTk0dzRUcTdZcWdFeWdiWGVaXzNFb1UzbTFnY2JaWUhjX3NhZDZxX1FIdjZ3Ty14R0xmQzV0TldvM2MxUDgwLU1MT0x1Z01wYWdwUm0tVWhmOVRxVUdaOU9HSFJRWWUweEh3aDBIYk5SUHFpTGM1MWZNV3lzUXkwVDdBc1ZKYTJTUTEtWWtyTnMwQkJjczh5VU85UTMxMy13d3Q0d09ybHptZHV4NUxCS1lHNXNMckZSbXladnRCX0hEajNjZUpvZ2QwLWo3blRiRVg0UkdYTVdrbkdzenlxak1IZUFEUEVj?oc=5",
@@ -491,6 +491,16 @@
       "source": {
         "name": "Ordre National des Pharmaciens",
         "url": "https://www.ordre.pharmacien.fr"
+      }
+    },
+    {
+      "id": "80495c3723d3",
+      "title": "Peptides : n’achetez surtout pas ces molécules sur internet, alerte l’agence du médicament - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcENGMURGRWNHZ3hWMEtwSDFOdEpaNzRaajNhMWhmcy1vdjE3VUZGTFF0LTdhcl9YYVhWUzE5V2JxaEpqQVBHRHIxWVhKSF9WTEtoTXJuZGIwdkxDbW1CNGs2WVV5UjNZVXV3Nmd2RjMwTnFHWHJLanVod0dxZ01sWWpzQUdWNVBOQ1lxYUItLWFMMVlXTjZBVkZuLWQ4Qm5xeWoxRmhhOFpXOFl3YmtRQTJrMjZpdG5EaU9KRHBHSklBdC1LYUY3aHBTRQ?oc=5",
+      "published": "2026-07-02T12:58:40+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -684,16 +694,6 @@
       }
     },
     {
-      "id": "4ede25c87273",
-      "title": "Médicaments matures : pourquoi ces traitements anciens et bon marché manquent alors qu'ils restent vitaux pour les patients - parlons-politique.fr",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOM0tBN1JycFBYZ2s1cGE4eUhHMktiUUZKSDBOV0U1QzM4S1p0VmpPMGxCVWN2N3ZSblIybWhKdnhxZ0otaUdYcGwxQkJEaTFXWTlGMV9WUnFQMlNIU1NOV19nTmpxbUJHWFZzbDFuREc2Y3ZCYXFzNGFHZEJqUFVja0RvdmV2SFAtUlJ1YnVGSldhUlAxOFNHMEhSZWU2WGg1ZktLcEVHRFlMUUpKQThkWkxQeEswREFmdDNEejJ1dDlNT2tEWFhxaEE0NnNsTERlYlMxeWZteVhWZVpEcHNNM3ZXbHlCaVRKSTdjTElxbEdFZnZIOTdsUDZRSjBBV21Fb045Yk5NQjJBRnZpa05hUw?oc=5",
-      "published": "2026-06-28T08:41:05+00:00",
-      "source": {
-        "name": "parlons-politique.fr",
-        "url": "https://www.parlons-politique.fr"
-      }
-    },
-    {
       "id": "88d8498df9ac",
       "title": "Les laboratoires poussent à un accès sans ordonnance aux médicaments du quotidien - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTE1PRUZfbDdFblBnUzZ3a19VVWpPR0pUeU9nLUtnYUtyVi10TXJ3OUVqOGcxd3Nsdy1zUE5NRWIwYzF6bXBaQkduRkgzbjUwWE9Cbng1eDBFNjYtYUJKdi1DTk4zOWFQTTVsOERVUWZvUEtxcVpmM2stZ3FsWldqS2Eyb0dkWmRJTTR1OGxaY25YZ2kyZ2UxSnBsbkZsZGFiZVAwc0tSMkNITUtuRXRJaVJGMWZoT2pISmxCY0VMM0MzUkhaSnZvTjdtTVBiUFFpbE12SzFDdGdBSE1kdk5OYW9B?oc=5",
@@ -701,6 +701,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "4ede25c87273",
+      "title": "Médicaments matures : pourquoi ces traitements anciens et bon marché manquent alors qu'ils restent vitaux pour les patients - parlons-politique.fr",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOM0tBN1JycFBYZ2s1cGE4eUhHMktiUUZKSDBOV0U1QzM4S1p0VmpPMGxCVWN2N3ZSblIybWhKdnhxZ0otaUdYcGwxQkJEaTFXWTlGMV9WUnFQMlNIU1NOV19nTmpxbUJHWFZzbDFuREc2Y3ZCYXFzNGFHZEJqUFVja0RvdmV2SFAtUlJ1YnVGSldhUlAxOFNHMEhSZWU2WGg1ZktLcEVHRFlMUUpKQThkWkxQeEswREFmdDNEejJ1dDlNT2tEWFhxaEE0NnNsTERlYlMxeWZteVhWZVpEcHNNM3ZXbHlCaVRKSTdjTElxbEdFZnZIOTdsUDZRSjBBV21Fb045Yk5NQjJBRnZpa05hUw?oc=5",
+      "published": "2026-06-28T08:41:05+00:00",
+      "source": {
+        "name": "parlons-politique.fr",
+        "url": "https://www.parlons-politique.fr"
       }
     },
     {
@@ -844,16 +854,6 @@
       }
     },
     {
-      "id": "e2eb4c1b2007",
-      "title": "Stupéfiants en établissements de santé : évolution des conditions de délivrance - Ordre National des Pharmaciens",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaFRGYWJOWDZ3aVlreTB0ZTZYRTNNdm54ekpsLTNyX3F2b2dWODZUTkdlZHZ0SlEtOGxtSWdMMUZvWURoM3RNdXExbmduUWVBaEVRMlRmdVBmYmlBWUhNZGx5SEVyS1RTeHVTMi05UWtveVpYaFBTVkxwQ2d3WUJlUEZhWl9kNDQ4Y29VUVpsU0k4VjY0Uk5ka2hzUnFiaVprUmtBQTZpNHZtczZCa3kzZ3VQd1YxS3VhVzkwNFpMVUtBRl95blN2TkNhQ2Y5UG40R1pXXzdiSVFseG5EdHZRMTFUbVlhXy1p?oc=5",
-      "published": "2026-03-19T07:00:00+00:00",
-      "source": {
-        "name": "Ordre National des Pharmaciens",
-        "url": "https://www.ordre.pharmacien.fr"
-      }
-    },
-    {
       "id": "5768dc09f0f6",
       "title": "Sobriété médicamenteuse : moins prescrire pour mieux soigner - Ameli",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQXNUSng4ZjRmOE4zbmZTVjREaEtHbnlFemRjSjExWlQwdFFGbjB2OUJEWkNxWWJQMG9BaGhTUEdCZUlTbXZvYkJnR3dqZU5ZTm5ib1d4Vm93NDdZSjlVc1hsLUNVLVVEVlZ3dDZraTJVVWlNanI0eTRqSzlUdVQxdGszcl83aXFBNEtWc0c5dUw5VHZjOVh1N1otWDhmSTBaTl9kUVJiMU92LUhkTzZwQ0hSLXE0TnVrMk14cUFtdklwWUtaeGQyOTdXZTBvSnRqeXIwZjRkUWRnR0JCZ0xsV1BSSlBKWHc?oc=5",
@@ -861,6 +861,16 @@
       "source": {
         "name": "Ameli",
         "url": "https://www.ameli.fr"
+      }
+    },
+    {
+      "id": "e2eb4c1b2007",
+      "title": "Stupéfiants en établissements de santé : évolution des conditions de délivrance - Ordre National des Pharmaciens",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaFRGYWJOWDZ3aVlreTB0ZTZYRTNNdm54ekpsLTNyX3F2b2dWODZUTkdlZHZ0SlEtOGxtSWdMMUZvWURoM3RNdXExbmduUWVBaEVRMlRmdVBmYmlBWUhNZGx5SEVyS1RTeHVTMi05UWtveVpYaFBTVkxwQ2d3WUJlUEZhWl9kNDQ4Y29VUVpsU0k4VjY0Uk5ka2hzUnFiaVprUmtBQTZpNHZtczZCa3kzZ3VQd1YxS3VhVzkwNFpMVUtBRl95blN2TkNhQ2Y5UG40R1pXXzdiSVFseG5EdHZRMTFUbVlhXy1p?oc=5",
+      "published": "2026-03-19T07:00:00+00:00",
+      "source": {
+        "name": "Ordre National des Pharmaciens",
+        "url": "https://www.ordre.pharmacien.fr"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "BFM",
         "url": "https://www.bfmtv.com"
-      }
-    },
-    {
-      "id": "1228545ae714",
-      "title": "Actualité - Plan hivernal 2025-2026 : garantir l’accès aux traitements essentiels - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQjJUYm9YSGNhcEtkQ0d4VW1QMFVGaUQyTjlMOU1KUVRBcDM2aWRvR0dGVF90eWhtWXpEWGtWWUZfQlZBN3BZZXJxVzZtWEY3cDcxdExOYXA3aUpHaGhVNHlMSlh1REVLc3NYNWg5N1NJZzVxZ0E0UUF2ZTVZcjNJZ1NBVldVemRFUm5VOC1sa3JrWGxPUF9MaHZVanBjWVdy?oc=5",
-      "published": "2025-10-09T07:00:00+00:00",
-      "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
       }
     }
   ]
