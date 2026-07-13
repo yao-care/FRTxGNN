@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-12T22:02:53.820224+00:00",
+  "fetched_at": "2026-07-13T00:01:43.752740+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "d7d93f2581f1",
-      "title": "Ces 5 médicaments courants rendent la chaleur difficile à supporter - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZzVwZ0VING41b3NvcFF0cktZNXR3Y1VmUWtUQnh1TXZqNXAtZEUxUUNqa09NMXlseHFCNXlidzhTclFrOG9rU0NjRFhQY0pzMHI4Sm1mbEhIX01udFoxMkllRE5XeDU2U3VwUVR2ZG5UNTdzU3VERGFaUTg1OXlCbTYzNjg3eHh5VHd6UmlNSmJ0dHRraEt1QVV0c2RRaFoxUWtzcHh1clQ0akxGcWtRTVBYTmZMR19lU3lTVU5R?oc=5",
-      "published": "2026-07-11T10:30:33+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
     {
       "id": "e4458040052d",
       "title": "Médicaments de l'obésité : 'On est vraiment surchargé de demandes' depuis leur remboursement - La Provence",
@@ -24,6 +14,16 @@
       }
     },
     {
+      "id": "d7d93f2581f1",
+      "title": "Ces 5 médicaments courants rendent la chaleur difficile à supporter - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZzVwZ0VING41b3NvcFF0cktZNXR3Y1VmUWtUQnh1TXZqNXAtZEUxUUNqa09NMXlseHFCNXlidzhTclFrOG9rU0NjRFhQY0pzMHI4Sm1mbEhIX01udFoxMkllRE5XeDU2U3VwUVR2ZG5UNTdzU3VERGFaUTg1OXlCbTYzNjg3eHh5VHd6UmlNSmJ0dHRraEt1QVV0c2RRaFoxUWtzcHh1clQ0akxGcWtRTVBYTmZMR19lU3lTVU5R?oc=5",
+      "published": "2026-07-11T10:30:33+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
       "id": "653ad42f92d5",
       "title": "Quels médicaments sont dangereux en période de canicule ? - La République des Pyrénées",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3NDNHNwTzljaVZnRTlObi1XTDJlNi1mQ1ZHc2hwaVlhNTZEVmxoWDVQUXRQdDJTaXFPMTdqQWhqUGptRGxFU00tb2x5SjRrTEtyTkZhOGw3c2d6dnNwX0tVU3YzUzRHak1aMUY5eXN1SDFtTVgwUW96ME5wbjdiQnVMVHVwdU1QN0d5b3FNamg3MEZTcVRFU3F5bkdMdFVXZGJXdEV5WDhsX2dyUElMS3Rfcw?oc=5",
@@ -31,16 +31,6 @@
       "source": {
         "name": "La République des Pyrénées",
         "url": "https://www.larepubliquedespyrenees.fr"
-      }
-    },
-    {
-      "id": "8b722b95432b",
-      "title": "Neurostimulation, kinésithérapie, hypnose : comment réussir à soulager la douleur sans médicaments ? - Le Figaro Santé",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYTZGemp3WnRWa2J4R3lyNmJKZ2dJNnlEUTFtaVVUZk5KZERFbzRfQXZtVzFjZFJRcGNOYmdDNnZfZ0pscF9EVkdrYUxUZldobkpvdTd3LWhIRVZPXzZyY1NOd3U2MWs3dEk3VlJUSDZQcUNyLUJhbHBVZkowNEIwYkxVdVJyS3pVMTZaYXhaUVF2cW8xM3RGN1dqZ3o3TngtbkgtakoyU094OGZSeUlHVzFubl9CX2tURlJaTjl5TUY2aWxoZjJDaA?oc=5",
-      "published": "2026-07-12T05:15:00+00:00",
-      "source": {
-        "name": "Le Figaro Santé",
-        "url": "https://sante.lefigaro.fr"
       }
     },
     {
@@ -94,6 +84,16 @@
       }
     },
     {
+      "id": "f4439870f8d8",
+      "title": "Coût, pénurie et gaspillage : une expérimentation française veut redistribuer certains médicaments anticancéreux non utilisés - Le Figaro Santé",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQXRRMzRCbjQ2S3otNDR6czVTWVNEOVNEZWNxSjJNenY1cjRTRDgwbE56bi1wV0czZWx2ZDRvQ2FwZUxBalhDdXdrc3hyclQwa0RGc3hBR1VzZ2c1SWtQQ01aNWdqTUhpTXBOc0lsUkhFWVM1U04wZ1otdHVXY1JMXzc4RUx5RWtLalJhMFZiYVhoSG1saThRS3pHTF9hX2psRzlBQUhPT3ZNMWc4a283Y2ZOT0RENnJlVEowc3JKQmRoQnRSTTZyQ1Y1YklOQXF1d0ZObXNoQkpIYUNNSjdQM25jaFJwTFNsOFA0XzNjdXRHaG5h?oc=5",
+      "published": "2026-07-09T17:00:07+00:00",
+      "source": {
+        "name": "Le Figaro Santé",
+        "url": "https://sante.lefigaro.fr"
+      }
+    },
+    {
       "id": "1c8c2f8d5ffd",
       "title": "Médicaments de l'obésité : troubles digestifs, carences nutritionnelles... le point sur les effets secondaires - La Provence",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQclJOUURxTHZXdFlNbGpFMHE4TXVHd1BrYVpfNzZxclRqSGE5UUR5bHhveXd2VGF2XzRUUzN4enZTMTlZeTlndWJOWkhubGZhWFNMSTJkel9qajM2MXFvdTZzQ0szNzF1alg0TWhmcUcxS2dUVmxfaHEtLTg4ZThmQ0xaR1FqTFVOa3FfdEVudGdBME9TTU9IaUZZV1VPSUtiRkRVNHV5UlNnQXY0SUVBSnZmSXRyQmJtLUlvYnVoMUZ2VVFfbWpoZllCcnBrZW1xWXh2M2xZMWRSUnJuenBZMU9vaXE4QnoyM0FaOGJZZGdWQklC?oc=5",
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "6eb2db5d4795",
-      "title": "Obésité : les traitements les plus efficaces sont ceux qui ont le plus d'effets indésirables - CNews",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUzdoUWlZcWdGUXh2UGVZODl1R1E5OWtwc3hlSHFLZ2FnVnQwakhhQmtFSXJjMnVoSndtVzVQb0hUT3ZRWjRaRnQ2aFNzbU81MExRekNFdVBfdWhwaXZOYndkeElwX1FLb284ajUyZ1N0anUyaXJiM1FPTzEzMlFsdVMzUXp3LUU4ZnN6TUhGMmNIOVU5NVdnTWN4NXpYYzdCdFVTSDc3Z0VSV0xGQ1lrYkQ4MDjSAboBQVVfeXFMTUE3dFdSdjZ2Z2VBSnZWUkxQNnpwZjlfbHpPQmpMelRaZVRTcU0zRUQ4Ymx5RzU4aFFDbDRLR3N6R0h6aEs3ZHR2WXk4alJtZC1rTXdzTWVkZ2FpYnFvSnYxb3BaOHBoMGpOR09fT0VhS2JPZnhfNldwNDkwZXB5X2JtRTRTcHZXR3E0NGRBcXRzQkluRTdleTV5cDlITzhHQjhaUktsal9ITVlveFNuSXFLbTBpcXlMcEZ3?oc=5",
-      "published": "2026-07-09T06:28:51+00:00",
-      "source": {
-        "name": "CNews",
-        "url": "https://www.cnews.fr"
-      }
-    },
-    {
       "id": "a3f02a9adb0b",
       "title": "Peptides vendus en ligne : danger ! avertit l’ANSM - Medscape",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY3dhVkNiSlRpV1U0YnJsVWxCVE5YZXpxQmJmTlJlMEpsN1pHM1RGdHhxVVBGLUNBeUlucTM2Q2lVUkZJZWZRdE82ZWtrbjhjc1JUdkRjdjQ3RmNraHFVbzk2Nm1yM1duUUxQZzFOeGdBa3QxSmk1UXVqU0c2U092MVEySG43TExFYU5abExKeGFsOTRkbDhXRWJBNlhhUQ?oc=5",
@@ -174,20 +164,10 @@
       }
     },
     {
-      "id": "f4439870f8d8",
-      "title": "Coût, pénurie et gaspillage : une expérimentation française veut redistribuer certains médicaments anticancéreux non utilisés - Le Figaro Santé",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQXRRMzRCbjQ2S3otNDR6czVTWVNEOVNEZWNxSjJNenY1cjRTRDgwbE56bi1wV0czZWx2ZDRvQ2FwZUxBalhDdXdrc3hyclQwa0RGc3hBR1VzZ2c1SWtQQ01aNWdqTUhpTXBOc0lsUkhFWVM1U04wZ1otdHVXY1JMXzc4RUx5RWtLalJhMFZiYVhoSG1saThRS3pHTF9hX2psRzlBQUhPT3ZNMWc4a283Y2ZOT0RENnJlVEowc3JKQmRoQnRSTTZyQ1Y1YklOQXF1d0ZObXNoQkpIYUNNSjdQM25jaFJwTFNsOFA0XzNjdXRHaG5h?oc=5",
-      "published": "2026-07-09T17:00:07+00:00",
-      "source": {
-        "name": "Le Figaro Santé",
-        "url": "https://sante.lefigaro.fr"
-      }
-    },
-    {
-      "id": "c1776a09c19a",
-      "title": "Un transfert d’officine pour mieux répondre aux besoins du territoire - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdl93c3JJNHBiOU9FX1d3YkNPYUNHTUF6YXAzcmdiaUlOOWZmLWk1YkJ3bWZna3BaUGl1WVQ4RG5wT3puTVZqc25zNDloMnBjdU5UejUwYXpxZzBuOW1ja1Z6djNITmRPT21tblBMSXhaMzBIZjFjYnNtcFdiUngyUUxYUVJaekYxclBrdmQ0S1dVeVNxOWUwNFItU0d6a19DY1p2Y0o5RUFMWnNPak15NVYyakwxdWdIMnVjenl0RHpQVlZGaVFPd2VMN2p4Q3V4ZkNoZmR6dzVWN0FjUC1r?oc=5",
-      "published": "2026-07-12T14:01:28+00:00",
+      "id": "b1e0545b7717",
+      "title": "3 887 alertes en 2025 : les médicaments essentiels toujours en proie aux pénuries - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRTNxS20zc0JqV2ctYVpHTkVMdkRDbjlMbE5IM2lJSG9Gb1ctQ2VJTDJqWENJZDVueDQ5bmFrSUZYWV9kOUJrRUYtNXZIaDZwS2t2cHRkREE1dm1fR0hISEJ5aThtRnVFcEVCYzVLRTBjNzdJOF92el9icUNrcWtMWWtEZ3FEZWVVdHRiZE1BN3JjNUNneWFwTkpCeHNINXYzSjJrLU43Y1Q1UkN0TlpIOTlKMEFScXd2UkhuUWNJMHZ6Umx4ZldEOEhUeGZiU0luM19GNHMwbWg?oc=5",
+      "published": "2026-07-09T14:15:43+00:00",
       "source": {
         "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
@@ -214,10 +194,20 @@
       }
     },
     {
-      "id": "b1e0545b7717",
-      "title": "3 887 alertes en 2025 : les médicaments essentiels toujours en proie aux pénuries - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRTNxS20zc0JqV2ctYVpHTkVMdkRDbjlMbE5IM2lJSG9Gb1ctQ2VJTDJqWENJZDVueDQ5bmFrSUZYWV9kOUJrRUYtNXZIaDZwS2t2cHRkREE1dm1fR0hISEJ5aThtRnVFcEVCYzVLRTBjNzdJOF92el9icUNrcWtMWWtEZ3FEZWVVdHRiZE1BN3JjNUNneWFwTkpCeHNINXYzSjJrLU43Y1Q1UkN0TlpIOTlKMEFScXd2UkhuUWNJMHZ6Umx4ZldEOEhUeGZiU0luM19GNHMwbWg?oc=5",
-      "published": "2026-07-09T14:15:43+00:00",
+      "id": "035b9a5e118c",
+      "title": "Médicaments anti-obésité : perdre du poids ne suffit pas (toujours) à mieux vivre - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPY2o3VGZiSDdPajVjU1dWZnU1NXg1YXZpWGF0NjkydGYwNExjUFczLUI5dm9wZHloOW9oWlZ6QkFuNG9rSV9MWDlBZ1ZJZDNaeDJFWUxKRGdFWll5RWFrQS0xbFc5UnM1cDJjYXRkRWJhczA1MzM0SlNxU01BMGRiZU1ybVVLdFJwM0o5YjFQRWpQaW5RdmNULURzbjF2dEdqVkRMd3ZBX2drdUZrYUhKa3NLRkF1MEJDZTFaejVacVRSWlJrR01KRmFzZw?oc=5",
+      "published": "2026-07-10T02:31:52+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
+      "id": "c1776a09c19a",
+      "title": "Un transfert d’officine pour mieux répondre aux besoins du territoire - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdl93c3JJNHBiOU9FX1d3YkNPYUNHTUF6YXAzcmdiaUlOOWZmLWk1YkJ3bWZna3BaUGl1WVQ4RG5wT3puTVZqc25zNDloMnBjdU5UejUwYXpxZzBuOW1ja1Z6djNITmRPT21tblBMSXhaMzBIZjFjYnNtcFdiUngyUUxYUVJaekYxclBrdmQ0S1dVeVNxOWUwNFItU0d6a19DY1p2Y0o5RUFMWnNPak15NVYyakwxdWdIMnVjenl0RHpQVlZGaVFPd2VMN2p4Q3V4ZkNoZmR6dzVWN0FjUC1r?oc=5",
+      "published": "2026-07-12T14:01:28+00:00",
       "source": {
         "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
@@ -294,16 +284,6 @@
       }
     },
     {
-      "id": "db5487d842a2",
-      "title": "Covid long : ces médicaments n’ont que peu d’effet sur la fatigue - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNl9pSTZwVWtxdUJkUF9zUUtnX1hTaUI2OGl1bEFlRDg3V3FWN0pLamhqY21GYWpEWERWWEhkOVAzWE92NDZuc2VGOVNSeW1WdXU0dVVYbGpSRzhPZXdXY0VzZDVJTjZtTC1BRXg2UVNMSHAtOGJzaERRamRxSHhQeDZrRFdldVlZOGVrbXcxYkM4ZUVKSnhHOA?oc=5",
-      "published": "2026-07-10T09:30:00+00:00",
-      "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
-      }
-    },
-    {
       "id": "5c5cbbcfba1f",
       "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
@@ -311,6 +291,16 @@
       "source": {
         "name": "Le Monde.fr",
         "url": "https://www.lemonde.fr"
+      }
+    },
+    {
+      "id": "db5487d842a2",
+      "title": "Covid long : ces médicaments n’ont que peu d’effet sur la fatigue - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNl9pSTZwVWtxdUJkUF9zUUtnX1hTaUI2OGl1bEFlRDg3V3FWN0pLamhqY21GYWpEWERWWEhkOVAzWE92NDZuc2VGOVNSeW1WdXU0dVVYbGpSRzhPZXdXY0VzZDVJTjZtTC1BRXg2UVNMSHAtOGJzaERRamRxSHhQeDZrRFdldVlZOGVrbXcxYkM4ZUVKSnhHOA?oc=5",
+      "published": "2026-07-10T09:30:00+00:00",
+      "source": {
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
       }
     },
     {
@@ -364,6 +354,16 @@
       }
     },
     {
+      "id": "7fb81eb51723",
+      "title": "Médicaments contre l’obésité: des effets limités - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYzI0S3JaVXhieHVRbENEa3RDSWN2MEFLUXVnck1NckNOQXNHaV9leVZJTlhRaWpyc0tKSkNvOXhpTzVtU0NFR0thZzdWQ2EwcGNXaGF1akR3dEIwa3ZCUlBNUFk0cDRIS3E4WlVfckg5ejBCa0hsQXI4OVQ0blVDRGE4Z3Y?oc=5",
+      "published": "2026-07-09T09:20:16+00:00",
+      "source": {
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
+      }
+    },
+    {
       "id": "7848b12407ac",
       "title": "« Certains acteurs cherchent à exercer des pressions » : La HAS défend son « indépendance scientifique » dans l'évaluation des médicaments - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMldxR1dlcUV2RWRnVlJURnRRSVcxQWpBRF9NR0UwNE03SS1KZlkwUm51d1F2dGZqdkJTMlFTZ0JqbklfZ2hOaHJhRjkwdEVqUWFhaTNBQ3dDM01MMjBIbHBISW02LUxqSEJsaDBzSzlORFM5d3FrTXJCV1MzaDV6N3otRktfNzJISVhGdWhUWDU3bzdmMGtMeGwwZDA1MEl3Mm1ZVldTMl9CRlkyd2tjUDhLUHJYRkZFeG5pZGRBN0lFel9uaklmMUNrZVdPeEdpZnU2QXFNVk9fU1lrRmU0N1g5OFNNb3QzYUtlZUdvMzViekVyVGtiYXN4V294eVRaYm12NDZhOE5WZkk?oc=5",
@@ -394,16 +394,6 @@
       }
     },
     {
-      "id": "0bedc7856288",
-      "title": "Les pharmacies de garde à connaître en juillet - ladepeche.fr",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTXQ4UVZEZk1wTFdELWdlWTd1dkxELWFEaWdoeVRKSzN1X3llOFdSVGcxX2dzYzlCa0lJWjc0bEs1Y01RbVlCWXBETnFzNzVrN2ZLbnY3eEx3YnNqN2hGbXZybk95VzNzbGF3bG1TaEpIQ1paclZjbU5id0V5d2VUWHY5eFo4a3FSY0FVc2dfNmFYbGUzUzNJV0tjTQ?oc=5",
-      "published": "2026-07-11T03:13:00+00:00",
-      "source": {
-        "name": "ladepeche.fr",
-        "url": "https://www.ladepeche.fr"
-      }
-    },
-    {
       "id": "4a22357f1770",
       "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
@@ -411,6 +401,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "0bedc7856288",
+      "title": "Les pharmacies de garde à connaître en juillet - ladepeche.fr",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTXQ4UVZEZk1wTFdELWdlWTd1dkxELWFEaWdoeVRKSzN1X3llOFdSVGcxX2dzYzlCa0lJWjc0bEs1Y01RbVlCWXBETnFzNzVrN2ZLbnY3eEx3YnNqN2hGbXZybk95VzNzbGF3bG1TaEpIQ1paclZjbU5id0V5d2VUWHY5eFo4a3FSY0FVc2dfNmFYbGUzUzNJV0tjTQ?oc=5",
+      "published": "2026-07-11T03:13:00+00:00",
+      "source": {
+        "name": "ladepeche.fr",
+        "url": "https://www.ladepeche.fr"
       }
     },
     {
@@ -504,16 +504,6 @@
       }
     },
     {
-      "id": "95a032017058",
-      "title": "Traitements anti-obésité : ils sont très efficaces mais... attention à leurs effets secondaires ! - PasseportSanté",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTGZXZWpwemwxNUNFbThUb2tDVk9ZMURnUFhNQnUwU3ZvR0tzTjhGMlMzeFZ6cVhYTXllZll5UlFJRnR0UFNzbUV4Q0JBeml0eTdTWDFUSGdfYWJ4dS1aVmE3NjhoYzR5NUtlTHB1M3VCdVduU0Z2aEFyd1F1YUVCb2RiTmtNNDNVRUVicW40SXozYXZTTDNwMHkxZUU3TUZkalk3THFFQQ?oc=5",
-      "published": "2026-07-10T07:59:46+00:00",
-      "source": {
-        "name": "PasseportSanté",
-        "url": "https://www.passeportsante.net"
-      }
-    },
-    {
       "id": "2ece536fc061",
       "title": "Produits de santé -Médicaments : quelles sont les précautions à prendre pendant l'été - Service Public",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fSE9qY013Q29PUDFoMkdRTHJzcEJDZmFJMDZjSHhhSWVPU0lfU1lLSTZybWJyb3Bvb19LeU0yc0hTV1RMSnprZ29XMkRMay1TOW0xYXpiTVJ6SldTOFJvdmxOQWdGYXM1T0hTZXBSNTVRVUU?oc=5",
@@ -521,6 +511,16 @@
       "source": {
         "name": "Service Public",
         "url": "https://www.service-public.gouv.fr"
+      }
+    },
+    {
+      "id": "95a032017058",
+      "title": "Traitements anti-obésité : ils sont très efficaces mais... attention à leurs effets secondaires ! - PasseportSanté",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTGZXZWpwemwxNUNFbThUb2tDVk9ZMURnUFhNQnUwU3ZvR0tzTjhGMlMzeFZ6cVhYTXllZll5UlFJRnR0UFNzbUV4Q0JBeml0eTdTWDFUSGdfYWJ4dS1aVmE3NjhoYzR5NUtlTHB1M3VCdVduU0Z2aEFyd1F1YUVCb2RiTmtNNDNVRUVicW40SXozYXZTTDNwMHkxZUU3TUZkalk3THFFQQ?oc=5",
+      "published": "2026-07-10T07:59:46+00:00",
+      "source": {
+        "name": "PasseportSanté",
+        "url": "https://www.passeportsante.net"
       }
     },
     {
@@ -631,16 +631,6 @@
       "source": {
         "name": "VOI.id",
         "url": "https://voi.id"
-      }
-    },
-    {
-      "id": "313875ad27aa",
-      "title": "Résistance aux antibiotiques : un avertissement concernant les mauvaises habitudes d’utilisation des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRHpwRjZTN1FrTW1KemlOX2JEQmQxM0ZUN0YxY3hwcThRQlhoeENQZnJhVkV2Nm1tSy1zMkkzd2tUTkNqN0E1VjVUVktkSk4yOXBaU3Q0eFVFX3hJNFJJMW1qdzY4eklYdjJBa3ZwOWxRX09uQ1JSczdSeXNrSjA1cDRWbmpUVHZTZ1BrV3p4bHFTNk9T?oc=5",
-      "published": "2026-07-12T03:22:39+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -804,16 +794,6 @@
       }
     },
     {
-      "id": "55578e641a0a",
-      "title": "Médicament : 10 ans d’évolutions majeures et une prise en charge renforcée par l’Assurance Maladie - Ameli",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDQtcmFUa0tNXzI0OHBPRjB0ZnFFOFF3UGxrUEo0T2FoRzZDcGRyckpSU29qc3M3NUo0UHA5aVB4WmlFNHczclQ5M2tVaWV1YmtEempmLW5FZmd3aFJtOHVHWFdTcE5mNHU5bzlVTnBqYVdqVU16cGJfYnEzZk1SekM2dmM3VVZPalIxNFcxT3hYQzNSTGQ2NFBST2ZnV2Y1aDJrV25UX1g4RGVLaV9kSG5kaDVleWFuM1ViMkxlbHM3dmVTc0cxMnRwaGpUQ1Q4X0E?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Ameli",
-        "url": "https://www.ameli.fr"
-      }
-    },
-    {
       "id": "feef5ce3049d",
       "title": "Santé - Les médicaments craignent-ils la chaleur ? - Extrait vidéo Télématin - France TV",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOclo5cXZwek1PeWxidHpDOW96ZHZBUEViNU9vR0lNNW1jLUZheS1BRFhWa21aTlZCWlRMal9HVTM3emVFWlNxLWdrdFQ3ZU9BQkxLZDZ0VGNNaGJWWS13TEs4SFdiUlVJN0RhWl8tUm9uU1RiVkFLZnJDeFV3OUhHUHljeG53ZWRxb3lMN2ZKMHZiM3FHZ2VDZXNRZWdmN2xGZEE?oc=5",
@@ -821,6 +801,26 @@
       "source": {
         "name": "France TV",
         "url": "https://www.france.tv"
+      }
+    },
+    {
+      "id": "313875ad27aa",
+      "title": "Résistance aux antibiotiques : un avertissement concernant les mauvaises habitudes d’utilisation des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRHpwRjZTN1FrTW1KemlOX2JEQmQxM0ZUN0YxY3hwcThRQlhoeENQZnJhVkV2Nm1tSy1zMkkzd2tUTkNqN0E1VjVUVktkSk4yOXBaU3Q0eFVFX3hJNFJJMW1qdzY4eklYdjJBa3ZwOWxRX09uQ1JSczdSeXNrSjA1cDRWbmpUVHZTZ1BrV3p4bHFTNk9T?oc=5",
+      "published": "2026-07-12T03:22:39+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "55578e641a0a",
+      "title": "Médicament : 10 ans d’évolutions majeures et une prise en charge renforcée par l’Assurance Maladie - Ameli",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDQtcmFUa0tNXzI0OHBPRjB0ZnFFOFF3UGxrUEo0T2FoRzZDcGRyckpSU29qc3M3NUo0UHA5aVB4WmlFNHczclQ5M2tVaWV1YmtEempmLW5FZmd3aFJtOHVHWFdTcE5mNHU5bzlVTnBqYVdqVU16cGJfYnEzZk1SekM2dmM3VVZPalIxNFcxT3hYQzNSTGQ2NFBST2ZnV2Y1aDJrV25UX1g4RGVLaV9kSG5kaDVleWFuM1ViMkxlbHM3dmVTc0cxMnRwaGpUQ1Q4X0E?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Ameli",
+        "url": "https://www.ameli.fr"
       }
     },
     {
@@ -834,16 +834,6 @@
       }
     },
     {
-      "id": "cff0aa3ca2c3",
-      "title": "Canicule : les médicaments à prescrire avec prudence en forte chaleur - WhatsUpDoc",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajN1VmVnWTIwb2lBRVQ3QVJkc05Dc2dKVVJvdDlRX1kwaFA2RVI0YWFxT25ybk90MTVZZEI5T0hTOWlrLXE4Q0FOVHNSS0dNX1VLRVY4cDRieFNIR2FYXzI2YjFOTWFKUmZsTGRlWXV1dWlWUXhnT1d3UlZLVmZzNzNwbjR1WVdzYXNEMHNUNHJYVXRPTnpsc19xTl9leDdXUHdjamtjMUg?oc=5",
-      "published": "2026-06-17T07:00:00+00:00",
-      "source": {
-        "name": "WhatsUpDoc",
-        "url": "https://www.whatsupdoc-lemag.fr"
-      }
-    },
-    {
       "id": "5f0b6003b185",
       "title": "« Health Data Hub » : le traitement automatisé des données de santé autorisé par la CNIL est conforme au RGPD - conseil-etat.fr",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWW9MaGtwVGVYX1hJVHgwaElmQ0VFUHNPVmZ3RlFyZllKTW1hVVhVenJ6SHE2NFF2MHY3VlUxdmxUOWtxOWJmNVFneDhNaHJTRU9jNE45UjZWSWNqems2YUNJUE5hTGtYM2RnbU5iWXlRdDhKR2pjbG1jaEhNVUYtcENITWR5UHlkVWdTdUozNDZDQnl1ZVo4bjg2OUhRX2tkYlZ2RDhCSzVsUmVrbFl4U0lhTklsOU9vMTJHMzNGWlhYdlB6bnZLVTNyOTdBazRYZHZGd0NxTENmQQ?oc=5",
@@ -851,16 +841,6 @@
       "source": {
         "name": "conseil-etat.fr",
         "url": "https://www.conseil-etat.fr"
-      }
-    },
-    {
-      "id": "c6d17862d618",
-      "title": "Guerre au Moyen-Orient - Livraison de médicaments, soutien aux centres de santé, soutien psychologique : Médecins du Monde renforce ses activités au Liban - Médecins du Monde",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOMjRhQWhpWE9ZX05GZGhzWTEyM01HWjdnUG9OMUM5aS1KSGZGSmFQTEd6LUlDNkVQUGhpVVFiRjJfQ2RLTGxRWU5JaGIzanBHaWVBVmQwVktnRURNaFJJT1BCbXc0bkMtd2tiMWhEU3UxNVZzUVducWRpaGN5NlZPanY5U1hsclV0TWMwZU1ieXI4Qy0zQWV0U0pZWDZ0ZGpMNFdleFZ3bjRSNkV6eUFrUmZ1LVVudGNOcXFsdXN2U25tRHRkMnhiWENXVlZTOTQyUG1ubmpOQjIza1RVOTVBZHRhSGh0aXR6M0xsOUxzZkhOX00yMzV6MmdWNUZEOHlsUl84NXEwTXpNa3A4WHhjam9nNlFVQTNfTXdPYURMcFQ?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
-      "source": {
-        "name": "Médecins du Monde",
-        "url": "https://www.medecinsdumonde.org"
       }
     },
     {
@@ -874,6 +854,26 @@
       }
     },
     {
+      "id": "c6d17862d618",
+      "title": "Guerre au Moyen-Orient - Livraison de médicaments, soutien aux centres de santé, soutien psychologique : Médecins du Monde renforce ses activités au Liban - Médecins du Monde",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOMjRhQWhpWE9ZX05GZGhzWTEyM01HWjdnUG9OMUM5aS1KSGZGSmFQTEd6LUlDNkVQUGhpVVFiRjJfQ2RLTGxRWU5JaGIzanBHaWVBVmQwVktnRURNaFJJT1BCbXc0bkMtd2tiMWhEU3UxNVZzUVducWRpaGN5NlZPanY5U1hsclV0TWMwZU1ieXI4Qy0zQWV0U0pZWDZ0ZGpMNFdleFZ3bjRSNkV6eUFrUmZ1LVVudGNOcXFsdXN2U25tRHRkMnhiWENXVlZTOTQyUG1ubmpOQjIza1RVOTVBZHRhSGh0aXR6M0xsOUxzZkhOX00yMzV6MmdWNUZEOHlsUl84NXEwTXpNa3A4WHhjam9nNlFVQTNfTXdPYURMcFQ?oc=5",
+      "published": "2026-03-30T07:00:00+00:00",
+      "source": {
+        "name": "Médecins du Monde",
+        "url": "https://www.medecinsdumonde.org"
+      }
+    },
+    {
+      "id": "cff0aa3ca2c3",
+      "title": "Canicule : les médicaments à prescrire avec prudence en forte chaleur - WhatsUpDoc",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajN1VmVnWTIwb2lBRVQ3QVJkc05Dc2dKVVJvdDlRX1kwaFA2RVI0YWFxT25ybk90MTVZZEI5T0hTOWlrLXE4Q0FOVHNSS0dNX1VLRVY4cDRieFNIR2FYXzI2YjFOTWFKUmZsTGRlWXV1dWlWUXhnT1d3UlZLVmZzNzNwbjR1WVdzYXNEMHNUNHJYVXRPTnpsc19xTl9leDdXUHdjamtjMUg?oc=5",
+      "published": "2026-06-17T07:00:00+00:00",
+      "source": {
+        "name": "WhatsUpDoc",
+        "url": "https://www.whatsupdoc-lemag.fr"
+      }
+    },
+    {
       "id": "e555c1496689",
       "title": "Clémence Marque et son livre \"Faire sans: les pénuries de médicaments qui menacent notre santé\". - planetesante.ch",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNM0lHX0stRUEtbU1ESmduNHR4ZUtpbmJjRHpuNlQ0TThsbjBvOURxOVdVdXhsS1J1TjljNTVpanlZMnVnZWdtcFFnX2RyS3BHRlJGb3E4dmFQZXd3NXd6di1ISnRCM0JqRGZ4ZGZPc2dmaFZYRW5hWmZqM2RoWVB2SURvX2ljbEd6T3l2eHp3MjI1YVhvY2VNaGxGYWpXdDVycWdnUDRZY0hFdmNrUjl2TEFLM0IzQ2U3RkJ4ajN1eURGVW84UTRfTTUtMmhnR19lY1Y2M1MxM1RyMXc4Q01veGdDUlptTVU4SHJ1N2Q1Z3htdUxOalNnSGNGVFdkSzhHaXF2VmhWLVZXQ0F0OUthV01CSUtESjZsN2c?oc=5",
@@ -881,6 +881,16 @@
       "source": {
         "name": "planetesante.ch",
         "url": "https://www.planetesante.ch"
+      }
+    },
+    {
+      "id": "31e90eb0d5a9",
+      "title": "Médicaments critiques : les députés européens durcissent le ton face à Trump et à la Chine - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcnowYW1pd1k0b0F4Vi1pN2UwVlZNbHd1YUotN3pBd0RtQWV6Y3BFeUZUTUpnSWNUWWt6WU8zS2tQQVpIT2cyWURkMEo0LTZyVHlBX1N3dElsYi1aQ05GYjFzZHF3SGJjYnNST09Fc0VkbGQ0dzZnN3ZaU25RNmV4ZVhqZlBMNm5HbldmeHBMNTQ3cTJDUkFrYUQ4RjBUd0JBX29sdUJTc19WMnh1Mjh0ZEdGT0FpVkxubzdTZUZFeXpXU2xmNEh1Q04wZ3pUS1dYTlNfUklIb3JsVUFBLXZybFdtTnZjWVlQc01r?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -901,16 +911,6 @@
       "source": {
         "name": "Sud Ouest",
         "url": "https://www.sudouest.fr"
-      }
-    },
-    {
-      "id": "31e90eb0d5a9",
-      "title": "Médicaments critiques : les députés européens durcissent le ton face à Trump et à la Chine - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcnowYW1pd1k0b0F4Vi1pN2UwVlZNbHd1YUotN3pBd0RtQWV6Y3BFeUZUTUpnSWNUWWt6WU8zS2tQQVpIT2cyWURkMEo0LTZyVHlBX1N3dElsYi1aQ05GYjFzZHF3SGJjYnNST09Fc0VkbGQ0dzZnN3ZaU25RNmV4ZVhqZlBMNm5HbldmeHBMNTQ3cTJDUkFrYUQ4RjBUd0JBX29sdUJTc19WMnh1Mjh0ZEdGT0FpVkxubzdTZUZFeXpXU2xmNEh1Q04wZ3pUS1dYTlNfUklIb3JsVUFBLXZybFdtTnZjWVlQc01r?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
       }
     },
     {
