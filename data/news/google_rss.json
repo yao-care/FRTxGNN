@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-18T22:00:30.875194+00:00",
+  "fetched_at": "2026-07-18T23:59:08.672790+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "7a7b2a382c6f",
+      "title": "Gel douche, médicaments, cosmétiques : ce qu’une chercheuse révèle sur ces substances omniprésentes - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWkNaQmZkdnkySEJtLWxyTVJYRHRScDNLbDlSM2NEQUpQNGlrMEhfd2l4d2U4QzliQlN2Wlg4NUxKMVdWWnBoTWcwcW1RUHdpMzlTdUctXzJadUpSWGhCQzdoN3N5MFV3dmN3cm9kN2xuTUVnekZKU0Q1TkFXN2hHR3ZaX01OVjlFVDRsOWlWYWtWWEs4UHBJU0dWdVFWMnZFN2ZzRHcwRWFJNVVDTTdjVFE4Ukk3WnJmUE5SM0VhaDVaTWF3U0tjcXVSRFA0Nk1IRklpaFdKRjVpTXdsUWxTWmtIVjlEbTNrbC1FclRnc2ZybnF3TXVBb1hxS2w?oc=5",
+      "published": "2026-07-17T04:03:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
+      }
+    },
     {
       "id": "c0ea87246d8d",
       "title": "Paracétamol : « Baisser son prix est incompatible avec la souveraineté sanitaire » selon celle qui produit le Doliprane - Ouest-France",
@@ -21,16 +31,6 @@
       "source": {
         "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
-      "id": "7a7b2a382c6f",
-      "title": "Gel douche, médicaments, cosmétiques : ce qu’une chercheuse révèle sur ces substances omniprésentes - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWkNaQmZkdnkySEJtLWxyTVJYRHRScDNLbDlSM2NEQUpQNGlrMEhfd2l4d2U4QzliQlN2Wlg4NUxKMVdWWnBoTWcwcW1RUHdpMzlTdUctXzJadUpSWGhCQzdoN3N5MFV3dmN3cm9kN2xuTUVnekZKU0Q1TkFXN2hHR3ZaX01OVjlFVDRsOWlWYWtWWEs4UHBJU0dWdVFWMnZFN2ZzRHcwRWFJNVVDTTdjVFE4Ukk3WnJmUE5SM0VhaDVaTWF3U0tjcXVSRFA0Nk1IRklpaFdKRjVpTXdsUWxTWmtIVjlEbTNrbC1FclRnc2ZybnF3TXVBb1hxS2w?oc=5",
-      "published": "2026-07-17T04:03:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "dc76de13198f",
-      "title": "\"Le propofol est de plus en plus utilisé parce que c'est très rapide\": quels produits pourraient être employés dans le cadre de l'aide à mourir? - BFM",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPbm5MaDF4ckVid09rWFNfMGNsTHZVLWJTTl9vR3dYR3YzaUZmS2xpT2stN2xJaGxBOFhwVFNZcng3RWNyQmtIaGtPeEdUZ1MxT2oyRXVMUG5KdGpKbVZQaXF3TUkwWXlsa0o0bmhaQmZhaHEtTnIxY3dqamlqOHVlQzV5ZTlWVFFEM2stX0w5dHQzTWNQb2NHR3Vlb0VFUEk0ek5UOXhFTGpZcUh1N0puRWwzOXVNdE5FUkx6LXM5dkZKWFdjb3N4U1FIWmx2RW5ERk9acjVraFhoSm5qOXdUTG9mVTg2VVA0Y3MxemxQRW1oVWgtMGNfUl9aNE8weHZGcV9HSDZPN3RybktSNTBncVZYdDA5b2ZN?oc=5",
-      "published": "2026-07-18T08:58:00+00:00",
-      "source": {
-        "name": "BFM",
-        "url": "https://www.bfmtv.com"
-      }
-    },
-    {
       "id": "8ee974395d17",
       "title": "La baisse envisagée du prix du paracétamol inquiète les industriels, au risque de fragiliser sa relocalisation - Ouest-France",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPRkpPd2tGWGdXeHlGaUZwOG9WNjExRV9mRDgwWnJTZWpVZzVCRXdIQVp4M01mUkJoZDlBR0NIeVpCQTg5NTR2TjdpMG96Vm9ObmRvY29abVQ0NXVjeVNVbTlNNEFRaXFZRDlIb0ZRdVp3MzAteTRpNS1NR2Z3NlBiRVIwYWt6NjNNLWhlMHpyTFdPLUE5TlFhanlYWGFjT2NtN2NlOTdyMXEyZWMxa21WXzM1dUZWYndsV0VsbzYyYVNoMG52V3BjTVVxYkJVWFI0alduRGFDSjA2M3ljRWNTREt2RlNjeXlJd3BwWDBteUVFSjZVMTBNemtNRjFZcmNHbGVWREFaSmQ4LXU5MjJEZA?oc=5",
@@ -174,6 +164,16 @@
       }
     },
     {
+      "id": "dc76de13198f",
+      "title": "\"Le propofol est de plus en plus utilisé parce que c'est très rapide\": quels produits pourraient être employés dans le cadre de l'aide à mourir? - BFM",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPbm5MaDF4ckVid09rWFNfMGNsTHZVLWJTTl9vR3dYR3YzaUZmS2xpT2stN2xJaGxBOFhwVFNZcng3RWNyQmtIaGtPeEdUZ1MxT2oyRXVMUG5KdGpKbVZQaXF3TUkwWXlsa0o0bmhaQmZhaHEtTnIxY3dqamlqOHVlQzV5ZTlWVFFEM2stX0w5dHQzTWNQb2NHR3Vlb0VFUEk0ek5UOXhFTGpZcUh1N0puRWwzOXVNdE5FUkx6LXM5dkZKWFdjb3N4U1FIWmx2RW5ERk9acjVraFhoSm5qOXdUTG9mVTg2VVA0Y3MxemxQRW1oVWgtMGNfUl9aNE8weHZGcV9HSDZPN3RybktSNTBncVZYdDA5b2ZN?oc=5",
+      "published": "2026-07-18T08:58:00+00:00",
+      "source": {
+        "name": "BFM",
+        "url": "https://www.bfmtv.com"
+      }
+    },
+    {
       "id": "223d9fda28a0",
       "title": "À Roscoff, SeaBeLife cherche comment repousser la mort des cellules - We Demain",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNYTN5NVF4MEhUb0tOSGVrUFJNV0pfcjk3WTUyVDI1N2I4ZDZRT3dvZU5sN3hYN2dYU09aQ2M5UXBTWVRZeUZRVmhCSkx6MjRDUGdFQmRnT2NfTXMyTlhLQlVoQXBQTWRnUm55THJDam01TDlWWGNTX0ZrS2NsZGpfRVRrZ3IxcVIxcVkzbTlrWVVFM0ZXUEYxenlHaU5IcHRzemFpR0RKRVpFN085TG5aTjdjenNIdm83TWVBRndFTkNiM0w1a3pEZDhPdURjVnI1UXp2ellZcFRUSFlOQWpsSkFpR2JmS2tuYVVIZzFCaDd1UnduZ1E?oc=5",
@@ -181,16 +181,6 @@
       "source": {
         "name": "We Demain",
         "url": "https://www.wedemain.fr"
-      }
-    },
-    {
-      "id": "bc82aee0e0ab",
-      "title": "L'hôpital militaire n°5 offre gratuitement à la population des examens médicaux, des consultations de santé et des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3RnMmNlbnduU1ktMExvZG5TNC05SmV4ZGV3d0lTX0xEcE9hejNROE9pcVU0MHFVcy0wRFhCdHpZU2xEMUZyQU5xa0wtMnR1N0pZaGRyaDNtYTZ5RjVwLTRuQkZVaG9PQlZBQVR3VWFpQWpOSFZLTzFmQ1ViZkJDWERjWEd6VEx3dk5VcjBhaG9TMG9BXzRWdXNENnRLSGpqZy1xd1lR?oc=5",
-      "published": "2026-07-18T07:03:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -204,33 +194,13 @@
       }
     },
     {
-      "id": "c971cc51a9ab",
-      "title": "La mélatonine ne servirait pas qu'à dormir, une étude révèle un autre effet inattendu - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQVWlsV0xaZWNzdWZKV1o3Q2dRM3hFQ2gxRVZWVkJ0XzlzajlXUFl0QXptWFcxX0JoVVhFOWQxYmp6Qm9sQzZfT1o5RFhsTHNySkRyb0lBeF82Vm1VcHR6cXh3WlllOV8zN1c3ZDcxeDV3MXh1Vk44akJsVW93YUVrVnVZcWFjWmRjaWV0eTl4VHNJaHEzT1E3TWdzazQ3Qmx5YlVIclVSdUExQUF4MW1hV1dsb0t2LUdYRVF4X21XNE9OMm1qQ3N5UFlqYkt3TFZaNDVqMnhDY3QyMzYxNjNLM091VHV5SG5ZN25NeXB5Y0JtRmNjd0h3bXFTMWk?oc=5",
-      "published": "2026-07-18T10:55:12+00:00",
+      "id": "bc82aee0e0ab",
+      "title": "L'hôpital militaire n°5 offre gratuitement à la population des examens médicaux, des consultations de santé et des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3RnMmNlbnduU1ktMExvZG5TNC05SmV4ZGV3d0lTX0xEcE9hejNROE9pcVU0MHFVcy0wRFhCdHpZU2xEMUZyQU5xa0wtMnR1N0pZaGRyaDNtYTZ5RjVwLTRuQkZVaG9PQlZBQVR3VWFpQWpOSFZLTzFmQ1ViZkJDWERjWEd6VEx3dk5VcjBhaG9TMG9BXzRWdXNENnRLSGpqZy1xd1lR?oc=5",
+      "published": "2026-07-18T07:03:08+00:00",
       "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
-      "id": "f986ed5d6e7a",
-      "title": "Actualisation de la liste des « médicaments essentiels » - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGFHTDJHaGxZczJGa1F3dzkxYWJtOUFUUGxGNndFcDNjQ0xjc2Q4bFI3VnFhQmdiR25WRFNweEFrYjZVelJBcXFzQ2g4NlVoUnJnX1cxNzIzMzN3U2NwN1JpT1BYTUdlX3VhaERZQjZIblJSSklIOFJPRG42VEZTcHdsR1pzN0pBSE1uVlgwNDlCMnFYQm5uT1NyVQ?oc=5",
-      "published": "2026-07-17T13:52:52+00:00",
-      "source": {
-        "name": "vidal.fr",
-        "url": "https://www.vidal.fr"
-      }
-    },
-    {
-      "id": "bef120b99357",
-      "title": "Médicaments non utilisés : quels leviers contre le gaspillage ? - santementale.fr",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1hsd1VUUkJhWkl2MG55c2Q0V05yU1dxbUFGTzI2SHVoZjJvcXFmc1NLUWhCS2pBc3BkRHl1M0wzOXpQZ0MyX3M3Q3Y3Rm1VdFJROXMwZ2FTZnJJX0ZLUHh4SmJvbWNsZFpUdF82bmpId1JQdmx0clRUUjBucHdZdW9zRnkxM29PQ2FtTnR1Qk9FR0FpRFJYTWlJLW0?oc=5",
-      "published": "2026-06-26T10:21:51+00:00",
-      "source": {
-        "name": "santementale.fr",
-        "url": "https://www.santementale.fr"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -244,13 +214,23 @@
       }
     },
     {
-      "id": "81700e6045d6",
-      "title": "Les pharmacies hospitalières passent de la garantie de l'approvisionnement en médicaments à la gestion de leur utilisation. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU3hjQ3hCV2VmRjZaaFFGdEl2MUpTMDRjMzVFZTZyQnNlS2NWdl94MDhhWFA5VkZNR2dfbG5zY1Y1LXNHcnFZVlA5ZFppMkl4Q296THhGZXdHa2VZTDl6aGVyVVhaMkJGOW1XV0VfWVpMcVAtM1NDbTVsVG5NZGR2WThxN3NmdERPQzhtY0t4NnhrTTdyT0p2RGpJWQ?oc=5",
-      "published": "2026-07-18T13:35:16+00:00",
+      "id": "f986ed5d6e7a",
+      "title": "Actualisation de la liste des « médicaments essentiels » - vidal.fr",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGFHTDJHaGxZczJGa1F3dzkxYWJtOUFUUGxGNndFcDNjQ0xjc2Q4bFI3VnFhQmdiR25WRFNweEFrYjZVelJBcXFzQ2g4NlVoUnJnX1cxNzIzMzN3U2NwN1JpT1BYTUdlX3VhaERZQjZIblJSSklIOFJPRG42VEZTcHdsR1pzN0pBSE1uVlgwNDlCMnFYQm5uT1NyVQ?oc=5",
+      "published": "2026-07-17T13:52:52+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "vidal.fr",
+        "url": "https://www.vidal.fr"
+      }
+    },
+    {
+      "id": "c971cc51a9ab",
+      "title": "La mélatonine ne servirait pas qu'à dormir, une étude révèle un autre effet inattendu - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQVWlsV0xaZWNzdWZKV1o3Q2dRM3hFQ2gxRVZWVkJ0XzlzajlXUFl0QXptWFcxX0JoVVhFOWQxYmp6Qm9sQzZfT1o5RFhsTHNySkRyb0lBeF82Vm1VcHR6cXh3WlllOV8zN1c3ZDcxeDV3MXh1Vk44akJsVW93YUVrVnVZcWFjWmRjaWV0eTl4VHNJaHEzT1E3TWdzazQ3Qmx5YlVIclVSdUExQUF4MW1hV1dsb0t2LUdYRVF4X21XNE9OMm1qQ3N5UFlqYkt3TFZaNDVqMnhDY3QyMzYxNjNLM091VHV5SG5ZN25NeXB5Y0JtRmNjd0h3bXFTMWk?oc=5",
+      "published": "2026-07-18T10:55:12+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
       }
     },
     {
@@ -264,10 +244,20 @@
       }
     },
     {
-      "id": "41975f248b10",
-      "title": "Quartier de Hong Gai : Examens médicaux et distribution de médicaments pour les anciens combattants et les proches des martyrs. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmIyQzlfdUtXbXJpS1MyM1hGZ0VUb3JVODNpLW1QcU1HZmdubjg2UjlVV2tqNDlIcktoRWM4NVV0TFN6Y2h6eS1GUld2THR6VWR6dFNCZndCeUtxU2dwRldVUnJ5OXlQOExWRENUT1ZocnZkb0R5SWppcFFsQjRDdTg2WUZUR0RMa05DTEdYSXI2ZGdhRXJIeFFjMjg3TG05QkdLUmt4bHQ4dGRHZUV0Q0JR?oc=5",
-      "published": "2026-07-18T15:15:05+00:00",
+      "id": "bef120b99357",
+      "title": "Médicaments non utilisés : quels leviers contre le gaspillage ? - santementale.fr",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1hsd1VUUkJhWkl2MG55c2Q0V05yU1dxbUFGTzI2SHVoZjJvcXFmc1NLUWhCS2pBc3BkRHl1M0wzOXpQZ0MyX3M3Q3Y3Rm1VdFJROXMwZ2FTZnJJX0ZLUHh4SmJvbWNsZFpUdF82bmpId1JQdmx0clRUUjBucHdZdW9zRnkxM29PQ2FtTnR1Qk9FR0FpRFJYTWlJLW0?oc=5",
+      "published": "2026-06-26T10:21:51+00:00",
+      "source": {
+        "name": "santementale.fr",
+        "url": "https://www.santementale.fr"
+      }
+    },
+    {
+      "id": "81700e6045d6",
+      "title": "Les pharmacies hospitalières passent de la garantie de l'approvisionnement en médicaments à la gestion de leur utilisation. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU3hjQ3hCV2VmRjZaaFFGdEl2MUpTMDRjMzVFZTZyQnNlS2NWdl94MDhhWFA5VkZNR2dfbG5zY1Y1LXNHcnFZVlA5ZFppMkl4Q296THhGZXdHa2VZTDl6aGVyVVhaMkJGOW1XV0VfWVpMcVAtM1NDbTVsVG5NZGR2WThxN3NmdERPQzhtY0t4NnhrTTdyT0p2RGpJWQ?oc=5",
+      "published": "2026-07-18T13:35:16+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
@@ -294,6 +284,16 @@
       }
     },
     {
+      "id": "41975f248b10",
+      "title": "Quartier de Hong Gai : Examens médicaux et distribution de médicaments pour les anciens combattants et les proches des martyrs. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmIyQzlfdUtXbXJpS1MyM1hGZ0VUb3JVODNpLW1QcU1HZmdubjg2UjlVV2tqNDlIcktoRWM4NVV0TFN6Y2h6eS1GUld2THR6VWR6dFNCZndCeUtxU2dwRldVUnJ5OXlQOExWRENUT1ZocnZkb0R5SWppcFFsQjRDdTg2WUZUR0RMa05DTEdYSXI2ZGdhRXJIeFFjMjg3TG05QkdLUmt4bHQ4dGRHZUV0Q0JR?oc=5",
+      "published": "2026-07-18T15:15:05+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "f3b9a1d62b3c",
       "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
@@ -301,16 +301,6 @@
       "source": {
         "name": "Service Public",
         "url": "https://www.service-public.gouv.fr"
-      }
-    },
-    {
-      "id": "8df78dbdbb2a",
-      "title": "Des examens médicaux et des médicaments gratuits sont offerts aux résidents de la commune de Vu Quang. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdk1JOXJnRDV5d2JoTzFDMHNRZWhONWYtMmVWUTZDci1YNWItWmhyTlA4RE9HbUJ4ajFOTXhLOUxXeXhSbnpDN0lsd3VEYzdoU095aGtaQi1tVnBxNmhabDZNeGxRQmxaRHlqRkRHTHRXdDRwUUJvWlUta3FZU01xUDhoTTdMZFdUbHA2SXk5RQ?oc=5",
-      "published": "2026-07-18T16:24:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -331,6 +321,16 @@
       "source": {
         "name": "vidal.fr",
         "url": "https://www.vidal.fr"
+      }
+    },
+    {
+      "id": "8df78dbdbb2a",
+      "title": "Des examens médicaux et des médicaments gratuits sont offerts aux résidents de la commune de Vu Quang. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdk1JOXJnRDV5d2JoTzFDMHNRZWhONWYtMmVWUTZDci1YNWItWmhyTlA4RE9HbUJ4ajFOTXhLOUxXeXhSbnpDN0lsd3VEYzdoU095aGtaQi1tVnBxNmhabDZNeGxRQmxaRHlqRkRHTHRXdDRwUUJvWlUta3FZU01xUDhoTTdMZFdUbHA2SXk5RQ?oc=5",
+      "published": "2026-07-18T16:24:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -374,26 +374,6 @@
       }
     },
     {
-      "id": "19a64ac5a989",
-      "title": "Pénuries de médicaments au Maroc : une crise sanitaire qui met des vies en danger - La patrie news",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaWhTampoYnZfeXAwMXRST0JydVU2QW8wcFFiem56NTRULVVndlNCbXozdjdmZGEyS3BjblhvYksyR2lRUTVhczFaX0hPangtUjNwX05JMXRTUGJGcHo0ZzBIZU05TzF6RmxiS3E0aTg2ajd2UVN3YVpnTEdMTlg1dWIwOFp5a3Jmd0VEalVvV19wR1BRX3JRYy1WUFV1eUhpeVJJOTY3MA?oc=5",
-      "published": "2026-07-18T18:12:47+00:00",
-      "source": {
-        "name": "La patrie news",
-        "url": "https://lapatrienews.dz"
-      }
-    },
-    {
-      "id": "4c880851f102",
-      "title": "Le vice-ministre Le Duc Luan : Finalisez d’urgence la circulaire relative aux appels d’offres pour l’approvisionnement en médicaments et assurez-vous de sa publication avant le 30 juillet. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMHhUbTZOMlRtdjh5SWh4UGsyR296YXNsTGt2b01qb1RyOGFfZVc4ZjBDeElUeXFEemhSV3I2MkZhYmUxUXhxT2hUMFJXUHJWemFKUGV4cDNWNFF4cnZEV2M2S3VzUDRYQnRZUVBLakd1NjI4cHlIbjhvbUZ0OVJVMkJzd1VTMUJUTGpOUk14TWNaTHBwRlRBSUM5QklGOWFyR1BjNzR6Z0dBNWhZT19GMm5vdFItRVBfZFJueU9ycC0?oc=5",
-      "published": "2026-07-18T01:07:30+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "f7168442edb8",
       "title": "Cet anti-inflammatoire très fréquent favorise les crampes : mangez des bananes - Journal des Femmes Santé",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRkROSnhGOFM1am53Znk3aEFLbHhRcHhQYzFQaGNYSDJTbXB2Z0VfUXlib3oxb19UaXRuNm14UVMtcE1lTUszLWNqTERFei1neTk3LWNzTEY4dUI0Nmo5RVg1RHJpNGJ4ek5kM0NvUV9JMzNYYkZ5Q0gyOTlZc0REUUNaUlJfSkU4ZkVWTUVLR0Q3ektfUzBka1MxT2RxcjNCaUtIQ2pxblBnanF0ZDFyTGliN0ozWk9VaVBNNjlB?oc=5",
@@ -404,16 +384,6 @@
       }
     },
     {
-      "id": "d8df68e28715",
-      "title": "Le gouvernement veut baisser le prix du paracétamol : les pharmaciens préviennent que l'usine française pourrait ne jamais voir le jour - Social Mag",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNR0lRb3J3aTM5c1VBaXZ6LUV6RXR4MldFVmxrUjJDQzQ0UjhaczBfalVOa2RZck9aLUtCdHBfaXd6ajRMbUNqeDJ5dkt6ajBNOG9tVU9acDhHT3pwT2tEN2did1BpVGk2QjFmV3otU19KNmt0aE40b1I2MzlQcV9EZjdVMTZVQWJaUE9BWUFJcS12YkZXZDd4TkhYTmlzT24zVVpTMmJCTklmQWtiMlpkdlpId0htQ2hmQk8xcm5Ldm5yY3JPb3J4TlpZZ2kwV1Q2N0w3OGk2bE44WXhqc25OTFdEUEdNMnJydVFXMlZRenBhOGhwazE5QU1oYWdwMGJT?oc=5",
-      "published": "2026-07-18T05:25:17+00:00",
-      "source": {
-        "name": "Social Mag",
-        "url": "https://www.socialmag.news"
-      }
-    },
-    {
       "id": "7848b12407ac",
       "title": "« Certains acteurs cherchent à exercer des pressions » : La HAS défend son « indépendance scientifique » dans l'évaluation des médicaments - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMldxR1dlcUV2RWRnVlJURnRRSVcxQWpBRF9NR0UwNE03SS1KZlkwUm51d1F2dGZqdkJTMlFTZ0JqbklfZ2hOaHJhRjkwdEVqUWFhaTNBQ3dDM01MMjBIbHBISW02LUxqSEJsaDBzSzlORFM5d3FrTXJCV1MzaDV6N3otRktfNzJISVhGdWhUWDU3bzdmMGtMeGwwZDA1MEl3Mm1ZVldTMl9CRlkyd2tjUDhLUHJYRkZFeG5pZGRBN0lFel9uaklmMUNrZVdPeEdpZnU2QXFNVk9fU1lrRmU0N1g5OFNNb3QzYUtlZUdvMzViekVyVGtiYXN4V294eVRaYm12NDZhOE5WZkk?oc=5",
@@ -421,16 +391,6 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
-      }
-    },
-    {
-      "id": "ee813fa3f981",
-      "title": "Rétatrutide: cette nouvelle injection amaigrissante est-elle vraiment beaucoup plus efficace qu'Ozempic? - Testachats",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUmc3c2VBY0laNVJ6S0tSSU9pUUpyeEprcFc2M2RyTUZiaS1VN0tZQlJHUVBlTG5qT1R3THFQbzUwc0F6VnFxTlJvbl9UbGtRVVBLblNWNmVlUlFCTVB4X1A0Skx3UWhRVTlYYm9rNjJmQmJOUnBHRGUxZmVnekw4U1otVEN5LWoxU1dlTUZ3?oc=5",
-      "published": "2026-07-18T08:46:00+00:00",
-      "source": {
-        "name": "Testachats",
-        "url": "https://www.test-achats.be"
       }
     },
     {
@@ -464,6 +424,16 @@
       }
     },
     {
+      "id": "19a64ac5a989",
+      "title": "Pénuries de médicaments au Maroc : une crise sanitaire qui met des vies en danger - La patrie news",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaWhTampoYnZfeXAwMXRST0JydVU2QW8wcFFiem56NTRULVVndlNCbXozdjdmZGEyS3BjblhvYksyR2lRUTVhczFaX0hPangtUjNwX05JMXRTUGJGcHo0ZzBIZU05TzF6RmxiS3E0aTg2ajd2UVN3YVpnTEdMTlg1dWIwOFp5a3Jmd0VEalVvV19wR1BRX3JRYy1WUFV1eUhpeVJJOTY3MA?oc=5",
+      "published": "2026-07-18T18:12:47+00:00",
+      "source": {
+        "name": "La patrie news",
+        "url": "https://lapatrienews.dz"
+      }
+    },
+    {
       "id": "4a22357f1770",
       "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
@@ -481,6 +451,26 @@
       "source": {
         "name": "guadeloupe.franceantilles.fr",
         "url": "https://www.guadeloupe.franceantilles.fr"
+      }
+    },
+    {
+      "id": "d8df68e28715",
+      "title": "Le gouvernement veut baisser le prix du paracétamol : les pharmaciens préviennent que l'usine française pourrait ne jamais voir le jour - Social Mag",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNR0lRb3J3aTM5c1VBaXZ6LUV6RXR4MldFVmxrUjJDQzQ0UjhaczBfalVOa2RZck9aLUtCdHBfaXd6ajRMbUNqeDJ5dkt6ajBNOG9tVU9acDhHT3pwT2tEN2did1BpVGk2QjFmV3otU19KNmt0aE40b1I2MzlQcV9EZjdVMTZVQWJaUE9BWUFJcS12YkZXZDd4TkhYTmlzT24zVVpTMmJCTklmQWtiMlpkdlpId0htQ2hmQk8xcm5Ldm5yY3JPb3J4TlpZZ2kwV1Q2N0w3OGk2bE44WXhqc25OTFdEUEdNMnJydVFXMlZRenBhOGhwazE5QU1oYWdwMGJT?oc=5",
+      "published": "2026-07-18T05:25:17+00:00",
+      "source": {
+        "name": "Social Mag",
+        "url": "https://www.socialmag.news"
+      }
+    },
+    {
+      "id": "ee813fa3f981",
+      "title": "Rétatrutide: cette nouvelle injection amaigrissante est-elle vraiment beaucoup plus efficace qu'Ozempic? - Testachats",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUmc3c2VBY0laNVJ6S0tSSU9pUUpyeEprcFc2M2RyTUZiaS1VN0tZQlJHUVBlTG5qT1R3THFQbzUwc0F6VnFxTlJvbl9UbGtRVVBLblNWNmVlUlFCTVB4X1A0Skx3UWhRVTlYYm9rNjJmQmJOUnBHRGUxZmVnekw4U1otVEN5LWoxU1dlTUZ3?oc=5",
+      "published": "2026-07-18T08:46:00+00:00",
+      "source": {
+        "name": "Testachats",
+        "url": "https://www.test-achats.be"
       }
     },
     {
@@ -534,13 +524,13 @@
       }
     },
     {
-      "id": "06cfe740c5d8",
-      "title": "Les traitements GLP-1 davantage couverts - avantages.ca",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jTU1hRjVCMEtZWUpRSHROOGVjbllUOHM3V1RzYkdFQUpNZ1RkY2ZZZDRXOXBqZ2hKM3B4aFQ4SGlSYS1UZ05wZE9ZNERQQ3BIZkpITmJWSWttV2EyeEVsaGlvZVlJdHZIRlpWYUhTbHJQMHFmYWhwRjRUdUQ?oc=5",
-      "published": "2026-07-16T08:18:36+00:00",
+      "id": "4c880851f102",
+      "title": "Le vice-ministre Le Duc Luan : Finalisez d’urgence la circulaire relative aux appels d’offres pour l’approvisionnement en médicaments et assurez-vous de sa publication avant le 30 juillet. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMHhUbTZOMlRtdjh5SWh4UGsyR296YXNsTGt2b01qb1RyOGFfZVc4ZjBDeElUeXFEemhSV3I2MkZhYmUxUXhxT2hUMFJXUHJWemFKUGV4cDNWNFF4cnZEV2M2S3VzUDRYQnRZUVBLakd1NjI4cHlIbjhvbUZ0OVJVMkJzd1VTMUJUTGpOUk14TWNaTHBwRlRBSUM5QklGOWFyR1BjNzR6Z0dBNWhZT19GMm5vdFItRVBfZFJueU9ycC0?oc=5",
+      "published": "2026-07-18T01:07:30+00:00",
       "source": {
-        "name": "avantages.ca",
-        "url": "https://www.avantages.ca"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -551,6 +541,16 @@
       "source": {
         "name": "Ordre National des Pharmaciens",
         "url": "https://www.ordre.pharmacien.fr"
+      }
+    },
+    {
+      "id": "06cfe740c5d8",
+      "title": "Les traitements GLP-1 davantage couverts - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jTU1hRjVCMEtZWUpRSHROOGVjbllUOHM3V1RzYkdFQUpNZ1RkY2ZZZDRXOXBqZ2hKM3B4aFQ4SGlSYS1UZ05wZE9ZNERQQ3BIZkpITmJWSWttV2EyeEVsaGlvZVlJdHZIRlpWYUhTbHJQMHFmYWhwRjRUdUQ?oc=5",
+      "published": "2026-07-16T08:18:36+00:00",
+      "source": {
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
       }
     },
     {
@@ -644,16 +644,6 @@
       }
     },
     {
-      "id": "6de47fb2c5e6",
-      "title": "Feu vert pour un traitement contre Alzheimer - avantages.ca",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVjFIOTBDUDNJWG5zS0xBdmdEam5HZXB6M3hDXy15aTdlYUxlVnFPdzBIUjZjQWpDOUFEd0VYd3VCeWpLV1oxZkg5LXIwb0dqaFlBVlJUNGxKUEJ2UkhUbWJXX2V0UlQzcVNjU1JCaUhfZkpabi01MUFlblo3ejFiY3J3?oc=5",
-      "published": "2026-07-17T09:04:44+00:00",
-      "source": {
-        "name": "avantages.ca",
-        "url": "https://www.avantages.ca"
-      }
-    },
-    {
       "id": "2f24847422b1",
       "title": "Médicaments : la bonne santé en trompe-l'oeil des génériqueurs - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTE4zbGZyMmd2TUJzemItWk4weTZLS1VfaDlqSEE1eHJ3N09CWEtyQTdieVdNblNOTjVjTDVpLVpmQ0dpY3RldjhRS2xjMjhBR2lORTJKUVdCa0VjRW5Ec3o3alVYaTdyRUVOX0tic2liV2tkYWtxemlGUzl5U3VHX1JlOXJHMnFNZy1obE5RWFU3T0NiMU1rRG5wTHh1VnlBS1ltaGhTdFZ6SXlkdm1TMy1IRFBLa3BjcmpkMnFVQkl4QTBK?oc=5",
@@ -661,6 +651,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "6de47fb2c5e6",
+      "title": "Feu vert pour un traitement contre Alzheimer - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVjFIOTBDUDNJWG5zS0xBdmdEam5HZXB6M3hDXy15aTdlYUxlVnFPdzBIUjZjQWpDOUFEd0VYd3VCeWpLV1oxZkg5LXIwb0dqaFlBVlJUNGxKUEJ2UkhUbWJXX2V0UlQzcVNjU1JCaUhfZkpabi01MUFlblo3ejFiY3J3?oc=5",
+      "published": "2026-07-17T09:04:44+00:00",
+      "source": {
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
       }
     },
     {
@@ -674,6 +674,16 @@
       }
     },
     {
+      "id": "4f5ed1e829e2",
+      "title": "Une pharmacie géante de 1000 m² débarque dans ce centre commercial à Marseille - Le Bonbon",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDJNaW1mdXhCdzQyLXc3N1pnRUdoa3c1bURZQTJVRjh5eWpMOWwwNkVHQS0xSEFxUDdMWEdQT21HbktkS0tIM1Fsd2c4T1lLeWhQTk9reXhyRXFUMzdPSXYwOHZkZk1pYmlfMmpYVGdQdUNtX2VlRFJoN18yNzlwcWhHSjU2VFJsNzNhdjZRSS05QjUyRlZsX01FcXAzRGlyRWhTdDdKOA?oc=5",
+      "published": "2026-07-17T17:03:44+00:00",
+      "source": {
+        "name": "Le Bonbon",
+        "url": "https://www.lebonbon.fr"
+      }
+    },
+    {
       "id": "de374127424d",
       "title": "Médicaments : entre tensions d'approvisionnement et quête de souveraineté pharmaceutique - Finances News Hebdo",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMXVGZUVGekRMeVQ1Wm1kSkNDek1ISGVyb29nUW9mcVpLN0hRbUxxY1ZTNDVxcmdfZlNXb1NFVHhOdzNPV2hjME8tc1BfenB4MzNFMFFjQjVla0k3dVVncHdSU01TeWhsNlFXMEVUS0Z2d1B5ZWtIY2EwT2pLRHpQeF9VQXItVzk2NlUyMVhmMTJ1NGNYVUprTVFOMEJxbHNCb0s1YmRWcnhHZnNSTFg4?oc=5",
@@ -681,16 +691,6 @@
       "source": {
         "name": "Finances News Hebdo",
         "url": "https://fnh.ma"
-      }
-    },
-    {
-      "id": "d51a245ac49f",
-      "title": "Allergies : ces innovations prometteuses pour les combattre efficacement - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYmJwdnFLbWpraDRjcXRLejhxZ0VYSW5QcGdORHZ1WVhMa21Qbnoya3ZxelA3bXhWa05FSTlSMzNoTkFEUm1JSHFyc2s2N1VpSWV2eEhYckRKak5CR2w1QnQxekVyNWh5NGFfLU5IbE84dkk5NGZldUZEWGhudmZUTUZTbFYzNkJCS0trcFJ1VUN3RldpM041clB4QUxCLVBTRHBBMmY5VUpTQmtLVFpOWDZiSXBXYlNqSFhsbjE5VW54dWNLTXc0?oc=5",
-      "published": "2026-07-18T08:18:00+00:00",
-      "source": {
-        "name": "Femme Actuelle",
-        "url": "https://www.femmeactuelle.fr"
       }
     },
     {
@@ -754,16 +754,6 @@
       }
     },
     {
-      "id": "4f5ed1e829e2",
-      "title": "Une pharmacie géante de 1000 m² débarque dans ce centre commercial à Marseille - Le Bonbon",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDJNaW1mdXhCdzQyLXc3N1pnRUdoa3c1bURZQTJVRjh5eWpMOWwwNkVHQS0xSEFxUDdMWEdQT21HbktkS0tIM1Fsd2c4T1lLeWhQTk9reXhyRXFUMzdPSXYwOHZkZk1pYmlfMmpYVGdQdUNtX2VlRFJoN18yNzlwcWhHSjU2VFJsNzNhdjZRSS05QjUyRlZsX01FcXAzRGlyRWhTdDdKOA?oc=5",
-      "published": "2026-07-17T17:03:44+00:00",
-      "source": {
-        "name": "Le Bonbon",
-        "url": "https://www.lebonbon.fr"
-      }
-    },
-    {
       "id": "cb2ce3d23fd2",
       "title": "Fusion HAS–ANSM : une fausse bonne idée pour l’accès aux médicaments - France Assos Santé",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZkVDM2FianIyN0dsaTFQVDlTYjRsdl9ua1dpSWd0SDlycW5IVTlHZ1VYZmhjUVFMY0kzUmN3RWJkNGVvMlFBeTNmaGZKQ3pVZ2NxVklnUFQ3VzFlLTNCeGV2bndoR2lqUXdUT3RSMDMyNVlBbjg3azk2Y1g5ZU5iem9vTHdNTnktNEJqUk5ZMTFKZ2RvWnRrVWtfQ3NvRGlqX3Q5ODhmb3JTZw?oc=5",
@@ -814,6 +804,16 @@
       }
     },
     {
+      "id": "d51a245ac49f",
+      "title": "Allergies : ces innovations prometteuses pour les combattre efficacement - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYmJwdnFLbWpraDRjcXRLejhxZ0VYSW5QcGdORHZ1WVhMa21Qbnoya3ZxelA3bXhWa05FSTlSMzNoTkFEUm1JSHFyc2s2N1VpSWV2eEhYckRKak5CR2w1QnQxekVyNWh5NGFfLU5IbE84dkk5NGZldUZEWGhudmZUTUZTbFYzNkJCS0trcFJ1VUN3RldpM041clB4QUxCLVBTRHBBMmY5VUpTQmtLVFpOWDZiSXBXYlNqSFhsbjE5VW54dWNLTXc0?oc=5",
+      "published": "2026-07-18T08:18:00+00:00",
+      "source": {
+        "name": "Femme Actuelle",
+        "url": "https://www.femmeactuelle.fr"
+      }
+    },
+    {
       "id": "c4f451a1db40",
       "title": "Santé - Bien prendre ses médicaments - Extrait vidéo Télématin - France TV",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSWFLd3BkemFhRlBRZFRuQS1ENHFqQ0ZsdW92WGNydTJzNUVKVVVnWlZYZTRIajhxV0tudGdRSmdKTzM3dm5OcTA3TjVmaUJCWDJudGV4TW81cV9WSWNGM183c3JTcTBYZDlFUmkzckRfaUtBek9jNFVLall1OHV6QnFtVUZ3a3liNlVpRW5ybHg1dw?oc=5",
@@ -844,16 +844,6 @@
       }
     },
     {
-      "id": "d0046eb564fe",
-      "title": "La direction de santé publique de Montréal lance une alerte aux surdoses - Noovo Info",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTlU5aG5teXBIY3FFbzRsMFB3bEcxR1F3YXRXbklPQTV1SVd2MnRlWDZScDB3Q1RFQUNiV0N5cEJZbHNybU5JWkpvS091eHA1bnZZUGJneUw4VlVzS1NPY1JjU0tuUWZneHQ1VldfX2lGSzY4NG1XSW5XZmVHLTE3b2FiRVFNNlJGWTR0azJiWWJJUmxheExGNEIyZlo1ekc1cUtlOVBGT1hVMDA2alo1cHA5aHQ0ZmFqSVo4VnBIRHNGbXJmcVVQUg?oc=5",
-      "published": "2026-07-16T16:00:03+00:00",
-      "source": {
-        "name": "Noovo Info",
-        "url": "https://www.noovo.info"
-      }
-    },
-    {
       "id": "abfa13564be3",
       "title": "Santé. Médicaments contre l’obésité : Wegovy et Mounjaro remboursés dès la mi-juin en France - Le Dauphiné Libéré",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3A4MXRPQktid0MxWU04YktJVUwya1FNcmZKQ0twd0wzS2NCREJ3NTUtellDdHAySWMzVk5PUzFHdUJPTmtISnFsRVdnMlp5TXU0ZUV1cnYyS3BPbHlNWkJoSXlQdkZWVlJFN0ZTWDJGNDJSSG5iSWdmTXc1M2tRb1ltR0NRaFJmYU96dkk1U01jdFZPemUzb2VocnQ5VTgtN1BFRnlicVZ2V0RiaDBPMGZwcUt6cUpjU1F4b0F6dGpKUHIweHc?oc=5",
@@ -861,6 +851,16 @@
       "source": {
         "name": "Le Dauphiné Libéré",
         "url": "https://www.ledauphine.com"
+      }
+    },
+    {
+      "id": "d0046eb564fe",
+      "title": "La direction de santé publique de Montréal lance une alerte aux surdoses - Noovo Info",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTlU5aG5teXBIY3FFbzRsMFB3bEcxR1F3YXRXbklPQTV1SVd2MnRlWDZScDB3Q1RFQUNiV0N5cEJZbHNybU5JWkpvS091eHA1bnZZUGJneUw4VlVzS1NPY1JjU0tuUWZneHQ1VldfX2lGSzY4NG1XSW5XZmVHLTE3b2FiRVFNNlJGWTR0azJiWWJJUmxheExGNEIyZlo1ekc1cUtlOVBGT1hVMDA2alo1cHA5aHQ0ZmFqSVo4VnBIRHNGbXJmcVVQUg?oc=5",
+      "published": "2026-07-16T16:00:03+00:00",
+      "source": {
+        "name": "Noovo Info",
+        "url": "https://www.noovo.info"
       }
     },
     {
@@ -934,13 +934,13 @@
       }
     },
     {
-      "id": "115451d1576a",
-      "title": "L'Institut médical naval a offert des examens médicaux et des médicaments gratuits à 140 anciens combattants. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUXRtWlhGN1BzZ0xSYXRhcVlHY25KWE5xV2h2N1pRZXYwbkNHalZlX3ItSUpPQTR4THRVenZ1NnZPTG5sYkQxMVFUU3c5N2REb0RlRnRjYm9HdS1Lc3BJZVVLb2d6cTJKelB4cjNIV1BWM3VRclF0cUc0OE41TmVZWDVFUzktZXZfd2ZqT0U0c05wOEpCS3c?oc=5",
-      "published": "2026-07-17T02:40:09+00:00",
+      "id": "7af89b5a24a6",
+      "title": "Rôle et compétences du pharmacien : une profession au cœur du parcours de soins en Île-de-France - Agence régionale de santé Ile-de-France",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGI5eFMtZ204aGp1WjdMMDRLeEhvOUNLVG9GOGdEN0VPRnpPNzJHYk9QOGFPeHRKZEFsdnZxQXM0N05JeUdQb1NydEhZZmZxeGZmaFFRN25JMy1Vb1ROelJSdVRsVUVCZnh6bnRvT0pzZkpBWXdzTi10TXJvRlp1M1UzZ2ZmS0dIYU9LdHJUcVc0NXcxR3RCREl4RnpoVkVzclRNeHFUX3lYdHN4ak9ZT2JuSjN1bjFrMUZ1ckJycEw1Y2dxM0VBajJPRXo?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Agence régionale de santé Ile-de-France",
+        "url": "https://www.iledefrance.ars.sante.fr"
       }
     },
     {
@@ -954,6 +954,16 @@
       }
     },
     {
+      "id": "115451d1576a",
+      "title": "L'Institut médical naval a offert des examens médicaux et des médicaments gratuits à 140 anciens combattants. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUXRtWlhGN1BzZ0xSYXRhcVlHY25KWE5xV2h2N1pRZXYwbkNHalZlX3ItSUpPQTR4THRVenZ1NnZPTG5sYkQxMVFUU3c5N2REb0RlRnRjYm9HdS1Lc3BJZVVLb2d6cTJKelB4cjNIV1BWM3VRclF0cUc0OE41TmVZWDVFUzktZXZfd2ZqT0U0c05wOEpCS3c?oc=5",
+      "published": "2026-07-17T02:40:09+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "974d43916b37",
       "title": "Actualité - Réduire l'impact environnemental des médicaments : la France est mobilisée aux côtés de l’Europe - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXNZQXpyaDFwRXFEdWkyQ2xQT2h6eDhCRG9Va3JpQkFjWE9rNTZzR1ZrbzZRRWJneS1WZFZfZDRqNFNsVkVrTUg0cEt4NWF1WlpoNjYwQ0V1dWhDS3Q2REZzendmRUJWbjdETXhYOTl3UF9qMkE3ZkV6X3ZHaDB5NjV0dmY2QVFoMVI4ek5ic3VzNjBMek9RQm9MQW1rMFdnWEtMb0ZvTHVVNTN0RE9iaFBORnFwMEhiNGN2Q1BmT1lJV3c?oc=5",
@@ -961,16 +971,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "7af89b5a24a6",
-      "title": "Rôle et compétences du pharmacien : une profession au cœur du parcours de soins en Île-de-France - Agence régionale de santé Ile-de-France",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGI5eFMtZ204aGp1WjdMMDRLeEhvOUNLVG9GOGdEN0VPRnpPNzJHYk9QOGFPeHRKZEFsdnZxQXM0N05JeUdQb1NydEhZZmZxeGZmaFFRN25JMy1Vb1ROelJSdVRsVUVCZnh6bnRvT0pzZkpBWXdzTi10TXJvRlp1M1UzZ2ZmS0dIYU9LdHJUcVc0NXcxR3RCREl4RnpoVkVzclRNeHFUX3lYdHN4ak9ZT2JuSjN1bjFrMUZ1ckJycEw1Y2dxM0VBajJPRXo?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Agence régionale de santé Ile-de-France",
-        "url": "https://www.iledefrance.ars.sante.fr"
       }
     },
     {
