@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-18T10:24:08.607757+00:00",
+  "fetched_at": "2026-07-18T11:57:36.003437+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "7c3c7fff8122",
-      "title": "Le casino des biotechs : les Etats-Unis ouvrent les paris sur les résultats d'essais des médicaments - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdXp3WEJHa0NEQUcwaE1lWE5ILTRmQUpPNUR2MTUzWmZLVG1tdmFmZHBnMUk4cjlHcF9JZ1B5cFV0OHJ3bzRjcFBmNXZIV2pCT3dBUlIwZmUtSVZ0Zmo1aGx6QnpYcS1nSnJqYjFPTk5wUG5iRlhtMlM1Zk1xeXktNXg5dXplLUZTZzNhdnZjNVlvLWNHYUI0dDhnalJYSVVRSlI0QnpPNUtYNVZ5VEV6Y3FHOGxNNEw0VTQ1NkFuenQwbWxsOHRMaG1tUldSdHllYk9kSVRUU2I4WmY5QUwtTE41Yi1qcEt5cFVKeXlPandVc3JPd2gw?oc=5",
-      "published": "2026-07-18T10:00:08+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
-      }
-    },
     {
       "id": "31a015145885",
       "title": "Médicaments : faut-il les vendre à l'unité, alors que 40% des produits jetés sont encore consommables - franceinfo",
@@ -34,13 +24,13 @@
       }
     },
     {
-      "id": "7a7b2a382c6f",
-      "title": "Gel douche, médicaments, cosmétiques : ce qu’une chercheuse révèle sur ces substances omniprésentes - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWkNaQmZkdnkySEJtLWxyTVJYRHRScDNLbDlSM2NEQUpQNGlrMEhfd2l4d2U4QzliQlN2Wlg4NUxKMVdWWnBoTWcwcW1RUHdpMzlTdUctXzJadUpSWGhCQzdoN3N5MFV3dmN3cm9kN2xuTUVnekZKU0Q1TkFXN2hHR3ZaX01OVjlFVDRsOWlWYWtWWEs4UHBJU0dWdVFWMnZFN2ZzRHcwRWFJNVVDTTdjVFE4Ukk3WnJmUE5SM0VhaDVaTWF3U0tjcXVSRFA0Nk1IRklpaFdKRjVpTXdsUWxTWmtIVjlEbTNrbC1FclRnc2ZybnF3TXVBb1hxS2w?oc=5",
-      "published": "2026-07-17T04:03:00+00:00",
+      "id": "7c3c7fff8122",
+      "title": "Le casino des biotechs : les Etats-Unis ouvrent les paris sur les résultats d'essais des médicaments - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdXp3WEJHa0NEQUcwaE1lWE5ILTRmQUpPNUR2MTUzWmZLVG1tdmFmZHBnMUk4cjlHcF9JZ1B5cFV0OHJ3bzRjcFBmNXZIV2pCT3dBUlIwZmUtSVZ0Zmo1aGx6QnpYcS1nSnJqYjFPTk5wUG5iRlhtMlM1Zk1xeXktNXg5dXplLUZTZzNhdnZjNVlvLWNHYUI0dDhnalJYSVVRSlI0QnpPNUtYNVZ5VEV6Y3FHOGxNNEw0VTQ1NkFuenQwbWxsOHRMaG1tUldSdHllYk9kSVRUU2I4WmY5QUwtTE41Yi1qcEt5cFVKeXlPandVc3JPd2gw?oc=5",
+      "published": "2026-07-18T10:00:08+00:00",
       "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -51,6 +41,16 @@
       "source": {
         "name": "Nice-Matin",
         "url": "https://www.nicematin.com"
+      }
+    },
+    {
+      "id": "7a7b2a382c6f",
+      "title": "Gel douche, médicaments, cosmétiques : ce qu’une chercheuse révèle sur ces substances omniprésentes - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWkNaQmZkdnkySEJtLWxyTVJYRHRScDNLbDlSM2NEQUpQNGlrMEhfd2l4d2U4QzliQlN2Wlg4NUxKMVdWWnBoTWcwcW1RUHdpMzlTdUctXzJadUpSWGhCQzdoN3N5MFV3dmN3cm9kN2xuTUVnekZKU0Q1TkFXN2hHR3ZaX01OVjlFVDRsOWlWYWtWWEs4UHBJU0dWdVFWMnZFN2ZzRHcwRWFJNVVDTTdjVFE4Ukk3WnJmUE5SM0VhaDVaTWF3U0tjcXVSRFA0Nk1IRklpaFdKRjVpTXdsUWxTWmtIVjlEbTNrbC1FclRnc2ZybnF3TXVBb1hxS2w?oc=5",
+      "published": "2026-07-17T04:03:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "e1226f52301b",
+      "title": "L'accès aux médicaments innovants : quelle est la place de la France sur la scène internationale ? - vidal.fr",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWk3ZDZfMVlMTXVJdXp5X0FpUTZMckZYcGpiQndWcTJsb1N5NkxfM2hTVlRzWnFTWFdHVi04ZGtrSzEwR0pJa3l3N1N5bDNqSjk1Y0hJSzg0MmhDRFZPLVJQdmhhbUlsUW40XzAyTmoxRjVsdzNZVlF4aUlXanVmQzB5U0poZHRzU2RSZnlVTEJsRVFWNjdsaFZOcnBTUGFlaUdmZnN4TlEyck5lbEpWLURqaXVyNzh4aVl1SnlUN2dFV01rREhZSDV2ZDhBb0w3T0tB?oc=5",
+      "published": "2026-07-17T10:16:27+00:00",
+      "source": {
+        "name": "vidal.fr",
+        "url": "https://www.vidal.fr"
+      }
+    },
+    {
       "id": "8ee974395d17",
       "title": "La baisse envisagée du prix du paracétamol inquiète les industriels, au risque de fragiliser sa relocalisation - Ouest-France",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPRkpPd2tGWGdXeHlGaUZwOG9WNjExRV9mRDgwWnJTZWpVZzVCRXdIQVp4M01mUkJoZDlBR0NIeVpCQTg5NTR2TjdpMG96Vm9ObmRvY29abVQ0NXVjeVNVbTlNNEFRaXFZRDlIb0ZRdVp3MzAteTRpNS1NR2Z3NlBiRVIwYWt6NjNNLWhlMHpyTFdPLUE5TlFhanlYWGFjT2NtN2NlOTdyMXEyZWMxa21WXzM1dUZWYndsV0VsbzYyYVNoMG52V3BjTVVxYkJVWFI0alduRGFDSjA2M3ljRWNTREt2RlNjeXlJd3BwWDBteUVFSjZVMTBNemtNRjFZcmNHbGVWREFaSmQ4LXU5MjJEZA?oc=5",
@@ -121,26 +131,6 @@
       "source": {
         "name": "Ouest-France",
         "url": "https://www.ouest-france.fr"
-      }
-    },
-    {
-      "id": "c971cc51a9ab",
-      "title": "La mélatonine ne servirait pas qu'à dormir, une étude révèle un autre effet inattendu - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQVWlsV0xaZWNzdWZKV1o3Q2dRM3hFQ2gxRVZWVkJ0XzlzajlXUFl0QXptWFcxX0JoVVhFOWQxYmp6Qm9sQzZfT1o5RFhsTHNySkRyb0lBeF82Vm1VcHR6cXh3WlllOV8zN1c3ZDcxeDV3MXh1Vk44akJsVW93YUVrVnVZcWFjWmRjaWV0eTl4VHNJaHEzT1E3TWdzazQ3Qmx5YlVIclVSdUExQUF4MW1hV1dsb0t2LUdYRVF4X21XNE9OMm1qQ3N5UFlqYkt3TFZaNDVqMnhDY3QyMzYxNjNLM091VHV5SG5ZN25NeXB5Y0JtRmNjd0h3bXFTMWk?oc=5",
-      "published": "2026-07-18T10:00:55+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
-      "id": "f986ed5d6e7a",
-      "title": "Actualisation de la liste des « médicaments essentiels » - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGFHTDJHaGxZczJGa1F3dzkxYWJtOUFUUGxGNndFcDNjQ0xjc2Q4bFI3VnFhQmdiR25WRFNweEFrYjZVelJBcXFzQ2g4NlVoUnJnX1cxNzIzMzN3U2NwN1JpT1BYTUdlX3VhaERZQjZIblJSSklIOFJPRG42VEZTcHdsR1pzN0pBSE1uVlgwNDlCMnFYQm5uT1NyVQ?oc=5",
-      "published": "2026-07-17T13:52:52+00:00",
-      "source": {
-        "name": "vidal.fr",
-        "url": "https://www.vidal.fr"
       }
     },
     {
@@ -174,16 +164,6 @@
       }
     },
     {
-      "id": "bc82aee0e0ab",
-      "title": "L'hôpital militaire n°5 offre gratuitement à la population des examens médicaux, des consultations de santé et des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3RnMmNlbnduU1ktMExvZG5TNC05SmV4ZGV3d0lTX0xEcE9hejNROE9pcVU0MHFVcy0wRFhCdHpZU2xEMUZyQU5xa0wtMnR1N0pZaGRyaDNtYTZ5RjVwLTRuQkZVaG9PQlZBQVR3VWFpQWpOSFZLTzFmQ1ViZkJDWERjWEd6VEx3dk5VcjBhaG9TMG9BXzRWdXNENnRLSGpqZy1xd1lR?oc=5",
-      "published": "2026-07-18T07:03:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "8e82254c2911",
       "title": "Déserts pharmaceutiques : quelles pistes de solution ? - France Assos Santé",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3pWZmZuZ2xaaXlLaWhSOXByNXp4cGotMGpTUmR4TmFLT09Fa2tENkFGOWJqcFJ3V2hUZDB6RTI1YVBQeWVqck52SVFlTUROZkVEdG5SSDkxWGg4QnFFVGtXZWYzOXRIeHN6OW9hYjF0Y1lWME1rbnBLSVR3dHBNMGlMd2ZGZ2xIb0NJelVzYUNFZ1dxcmt5bA?oc=5",
@@ -191,6 +171,16 @@
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
+      }
+    },
+    {
+      "id": "bc82aee0e0ab",
+      "title": "L'hôpital militaire n°5 offre gratuitement à la population des examens médicaux, des consultations de santé et des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3RnMmNlbnduU1ktMExvZG5TNC05SmV4ZGV3d0lTX0xEcE9hejNROE9pcVU0MHFVcy0wRFhCdHpZU2xEMUZyQU5xa0wtMnR1N0pZaGRyaDNtYTZ5RjVwLTRuQkZVaG9PQlZBQVR3VWFpQWpOSFZLTzFmQ1ViZkJDWERjWEd6VEx3dk5VcjBhaG9TMG9BXzRWdXNENnRLSGpqZy1xd1lR?oc=5",
+      "published": "2026-07-18T07:03:08+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -214,26 +204,6 @@
       }
     },
     {
-      "id": "e1226f52301b",
-      "title": "L'accès aux médicaments innovants : quelle est la place de la France sur la scène internationale ? - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWk3ZDZfMVlMTXVJdXp5X0FpUTZMckZYcGpiQndWcTJsb1N5NkxfM2hTVlRzWnFTWFdHVi04ZGtrSzEwR0pJa3l3N1N5bDNqSjk1Y0hJSzg0MmhDRFZPLVJQdmhhbUlsUW40XzAyTmoxRjVsdzNZVlF4aUlXanVmQzB5U0poZHRzU2RSZnlVTEJsRVFWNjdsaFZOcnBTUGFlaUdmZnN4TlEyck5lbEpWLURqaXVyNzh4aVl1SnlUN2dFV01rREhZSDV2ZDhBb0w3T0tB?oc=5",
-      "published": "2026-07-17T10:16:27+00:00",
-      "source": {
-        "name": "vidal.fr",
-        "url": "https://www.vidal.fr"
-      }
-    },
-    {
-      "id": "0096d001563c",
-      "title": "Pénuries : la DGS fait entrer les vaccins Covid et VRS parmi les médicaments essentiels - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVVFVLVEtSmJHWUtvM2RlYTl2Y0FLbEhvNHhaU0pMTUVZWHpWekVRU3Z6aW5CV1lNc2VMX2NZeTJVdTBsRkNfaWhfSXhKRHREcERGbEl2UkxrSGl0dkJ3MkV1T1dXSE9LSUYxSzByQmJ6VHRLbGs5aHUwNDhuZk82UTlPZjBFMHYxNGhSVUFZenFwOXdHNGdtMGRlV293c0VYZ01lbkM4eGxYbzJYMlBiUU9jNU5WLUVVNUlqSkZMYzl1ZGtEaVZ6d3pmUlBzOEdGUVhOaUZFZ0xWMUVxYVhnMXF3MA?oc=5",
-      "published": "2026-07-17T12:24:58+00:00",
-      "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
-      }
-    },
-    {
       "id": "a58d0cd3b9d4",
       "title": "Doliprane, antibiotiques… Le remède de l’Union européenne aux pénuries de médicaments - 20 Minutes",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOTgxN3dJWF80TENvdzVlWHRxWGdaLTRQOG1GY2xydU5jaUtOZFdic0djamQ0Z2pCTzRwaUJiLVRCVDBvWGVkblpGTktiU0NIRWJMUXlpa2dQaVRFcV9CbkxEaTlLVDJuSXFHOXpKNVFJTXMtREt2b01LM2hwUWJaOU4zOEJYLVpON2IzWEQzcTZDdFFqMGpHRFBXSW1QN25aNHRwc3dqRkxzSWlxZzRQdkhQS1pNUkU?oc=5",
@@ -244,13 +214,13 @@
       }
     },
     {
-      "id": "b70ea5c4b272",
-      "title": "Pilules contraceptives : l’Europe alerte sur un risque « faible mais réel » de tumeur au cerveau - guadeloupe.franceantilles.fr",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPVTRadWc4SkVTZmpwQTJNNEcxSjBLSFV3ZFhkby1QbTcxVUNHVVMtOXdiTE5uR3ZmdjJNQXRqOEM1UEJnQW9QMDBNZ053LWFKZTBPZVpvVGRpTjhCRFRVcDdtYmFINTl5WDlWcHQ2YmNRdjJRaTZ2Q3M5VUM0NUNTVE8zRTlYT2VXemdqNW92RWFnT1c1ZjlOejlIOWRDbEY1OERjZzBmM3lIdk5ZS1lQQVlEcjhCN2RxV0NhMEZ3MC1RSHRMMDZSNkdEd0lEeEVyNllPbklxOUhHTGIyM0NlRFloR29JT3h3d2liMjdIdw?oc=5",
-      "published": "2026-07-17T20:58:53+00:00",
+      "id": "f986ed5d6e7a",
+      "title": "Actualisation de la liste des « médicaments essentiels » - vidal.fr",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGFHTDJHaGxZczJGa1F3dzkxYWJtOUFUUGxGNndFcDNjQ0xjc2Q4bFI3VnFhQmdiR25WRFNweEFrYjZVelJBcXFzQ2g4NlVoUnJnX1cxNzIzMzN3U2NwN1JpT1BYTUdlX3VhaERZQjZIblJSSklIOFJPRG42VEZTcHdsR1pzN0pBSE1uVlgwNDlCMnFYQm5uT1NyVQ?oc=5",
+      "published": "2026-07-17T13:52:52+00:00",
       "source": {
-        "name": "guadeloupe.franceantilles.fr",
-        "url": "https://www.guadeloupe.franceantilles.fr"
+        "name": "vidal.fr",
+        "url": "https://www.vidal.fr"
       }
     },
     {
@@ -264,6 +234,16 @@
       }
     },
     {
+      "id": "b70ea5c4b272",
+      "title": "Pilules contraceptives : l’Europe alerte sur un risque « faible mais réel » de tumeur au cerveau - guadeloupe.franceantilles.fr",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPVTRadWc4SkVTZmpwQTJNNEcxSjBLSFV3ZFhkby1QbTcxVUNHVVMtOXdiTE5uR3ZmdjJNQXRqOEM1UEJnQW9QMDBNZ053LWFKZTBPZVpvVGRpTjhCRFRVcDdtYmFINTl5WDlWcHQ2YmNRdjJRaTZ2Q3M5VUM0NUNTVE8zRTlYT2VXemdqNW92RWFnT1c1ZjlOejlIOWRDbEY1OERjZzBmM3lIdk5ZS1lQQVlEcjhCN2RxV0NhMEZ3MC1RSHRMMDZSNkdEd0lEeEVyNllPbklxOUhHTGIyM0NlRFloR29JT3h3d2liMjdIdw?oc=5",
+      "published": "2026-07-17T20:58:53+00:00",
+      "source": {
+        "name": "guadeloupe.franceantilles.fr",
+        "url": "https://www.guadeloupe.franceantilles.fr"
+      }
+    },
+    {
       "id": "4b5ca60d067b",
       "title": "Eli Lilly vaut 1.000 milliards : le médicament des gens qui vont bien - Trends-Tendances",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaXk4ZG90MmRWblBrQUx2OGIzWmhWZU5ab0pySkVYYVVnOHhoWUNvdXQ1ZmhPUFN0LXRUanZIa1BDR010cWhzbGFvdDNBTmZGQzBja1ZrU1pXT3RCODVfaXRRM18yeFVmLTBGSFlMaEd6Ymg1RVFZeUR3bXowQVJ6VDFhTkNSSkU1?oc=5",
@@ -271,6 +251,16 @@
       "source": {
         "name": "Trends-Tendances",
         "url": "https://trends.levif.be"
+      }
+    },
+    {
+      "id": "0096d001563c",
+      "title": "Pénuries : la DGS fait entrer les vaccins Covid et VRS parmi les médicaments essentiels - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVVFVLVEtSmJHWUtvM2RlYTl2Y0FLbEhvNHhaU0pMTUVZWHpWekVRU3Z6aW5CV1lNc2VMX2NZeTJVdTBsRkNfaWhfSXhKRHREcERGbEl2UkxrSGl0dkJ3MkV1T1dXSE9LSUYxSzByQmJ6VHRLbGs5aHUwNDhuZk82UTlPZjBFMHYxNGhSVUFZenFwOXdHNGdtMGRlV293c0VYZ01lbkM4eGxYbzJYMlBiUU9jNU5WLUVVNUlqSkZMYzl1ZGtEaVZ6d3pmUlBzOEdGUVhOaUZFZ0xWMUVxYVhnMXF3MA?oc=5",
+      "published": "2026-07-17T12:24:58+00:00",
+      "source": {
+        "name": "Le Moniteur des pharmacies",
+        "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
     {
@@ -284,23 +274,13 @@
       }
     },
     {
-      "id": "d8df68e28715",
-      "title": "Le gouvernement veut baisser le prix du paracétamol : les pharmaciens préviennent que l'usine française pourrait ne jamais voir le jour - Social Mag",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNR0lRb3J3aTM5c1VBaXZ6LUV6RXR4MldFVmxrUjJDQzQ0UjhaczBfalVOa2RZck9aLUtCdHBfaXd6ajRMbUNqeDJ5dkt6ajBNOG9tVU9acDhHT3pwT2tEN2did1BpVGk2QjFmV3otU19KNmt0aE40b1I2MzlQcV9EZjdVMTZVQWJaUE9BWUFJcS12YkZXZDd4TkhYTmlzT24zVVpTMmJCTklmQWtiMlpkdlpId0htQ2hmQk8xcm5Ldm5yY3JPb3J4TlpZZ2kwV1Q2N0w3OGk2bE44WXhqc25OTFdEUEdNMnJydVFXMlZRenBhOGhwazE5QU1oYWdwMGJT?oc=5",
-      "published": "2026-07-18T05:25:17+00:00",
+      "id": "ee813fa3f981",
+      "title": "Rétatrutide: cette nouvelle injection amaigrissante est-elle vraiment beaucoup plus efficace qu'Ozempic? - Testachats",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUmc3c2VBY0laNVJ6S0tSSU9pUUpyeEprcFc2M2RyTUZiaS1VN0tZQlJHUVBlTG5qT1R3THFQbzUwc0F6VnFxTlJvbl9UbGtRVVBLblNWNmVlUlFCTVB4X1A0Skx3UWhRVTlYYm9rNjJmQmJOUnBHRGUxZmVnekw4U1otVEN5LWoxU1dlTUZ3?oc=5",
+      "published": "2026-07-18T08:46:00+00:00",
       "source": {
-        "name": "Social Mag",
-        "url": "https://www.socialmag.news"
-      }
-    },
-    {
-      "id": "77077f628759",
-      "title": "Une baisse du prix du paracétamol à l'étude, la production française pourrait en pâtir - Capital.fr",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWkNEYTF5YVZGeTBJTmFlNHJCNndzZ1ZRSHI4LWtCOHpGdXVuQ1dKaHNZSzRIX1NteGtyYVBaQ3BrT0ljN3RuU2FhQUNqTFFSRHRKRmNnbFZOMDNDR0ZfSm9xcUN3cTUwWFhQd1RSZFQ2Z0U2dGFsdEJIeFp3MjR0REh4bmRvbVRuYW9SaEVIM051YVNIdU1ZWmR4YjB5UDhCNkh2YWpzVHpQTGo3NEZQaWdpZm9RV3NMek83aXNaSU9xVTROaGkwcU9ZUlhVT2ta?oc=5",
-      "published": "2026-07-17T10:55:10+00:00",
-      "source": {
-        "name": "Capital.fr",
-        "url": "https://www.capital.fr"
+        "name": "Testachats",
+        "url": "https://www.test-achats.be"
       }
     },
     {
@@ -314,13 +294,13 @@
       }
     },
     {
-      "id": "2ada0b4f5caa",
-      "title": "Partager les recherches cliniques sur les cellules souches et leurs applications pratiques. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQkx3UUltMGhIdXBBLXkxVmNPRDR1VUFVUV9IRjdTZmlGanhGSjBIcWNNNGhQMWNxNTk5UXUzV2dIekFZb2NlTDdMbFpvZUJtYTJ2Qm14dHpVYndueXFDbndhZTdNejZfbnA2QWdVWlJLU2pCUHc3M0xoWWVDc2JTcEhJX0ptRTJnT3ZxTHFiNEZUVnFHLUwwb3VQanVPZ29Z?oc=5",
-      "published": "2026-07-18T07:34:53+00:00",
+      "id": "d8df68e28715",
+      "title": "Le gouvernement veut baisser le prix du paracétamol : les pharmaciens préviennent que l'usine française pourrait ne jamais voir le jour - Social Mag",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNR0lRb3J3aTM5c1VBaXZ6LUV6RXR4MldFVmxrUjJDQzQ0UjhaczBfalVOa2RZck9aLUtCdHBfaXd6ajRMbUNqeDJ5dkt6ajBNOG9tVU9acDhHT3pwT2tEN2did1BpVGk2QjFmV3otU19KNmt0aE40b1I2MzlQcV9EZjdVMTZVQWJaUE9BWUFJcS12YkZXZDd4TkhYTmlzT24zVVpTMmJCTklmQWtiMlpkdlpId0htQ2hmQk8xcm5Ldm5yY3JPb3J4TlpZZ2kwV1Q2N0w3OGk2bE44WXhqc25OTFdEUEdNMnJydVFXMlZRenBhOGhwazE5QU1oYWdwMGJT?oc=5",
+      "published": "2026-07-18T05:25:17+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Social Mag",
+        "url": "https://www.socialmag.news"
       }
     },
     {
@@ -334,13 +314,13 @@
       }
     },
     {
-      "id": "c86613082a08",
-      "title": "Le géant américain Eli Lilly investit dans les psychédéliques - Courrier international",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSmQwSXpsNlB1UHVKUDNYVkdCMHljaTNFMDVqRFFLTzZtTEFxRnRMVVNjeE1NZ004eHFDbzVNa2ZDNEVIRFY4cl9sNXlBZFV1SlJZMEcyeGZRTDhGaExRQzJ6eEM2X2twZTJOQjJxTTZSNGRTZW5qTVFpWEZ0OG9BSlhtQjZST3h6dmxfaXRNcHFLZW5ld0w5TFZmUnpsajlPdVQ2Z3EycTljNjMyMWoySFJYWGE3Q19PTEVYMkY4ZkdDbmY3MVNYZlJ5ZmFHVkdHTDNGVi1B?oc=5",
-      "published": "2026-07-17T15:20:41+00:00",
+      "id": "77077f628759",
+      "title": "Une baisse du prix du paracétamol à l'étude, la production française pourrait en pâtir - Capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWkNEYTF5YVZGeTBJTmFlNHJCNndzZ1ZRSHI4LWtCOHpGdXVuQ1dKaHNZSzRIX1NteGtyYVBaQ3BrT0ljN3RuU2FhQUNqTFFSRHRKRmNnbFZOMDNDR0ZfSm9xcUN3cTUwWFhQd1RSZFQ2Z0U2dGFsdEJIeFp3MjR0REh4bmRvbVRuYW9SaEVIM051YVNIdU1ZWmR4YjB5UDhCNkh2YWpzVHpQTGo3NEZQaWdpZm9RV3NMek83aXNaSU9xVTROaGkwcU9ZUlhVT2ta?oc=5",
+      "published": "2026-07-17T10:55:10+00:00",
       "source": {
-        "name": "Courrier international",
-        "url": "https://www.courrierinternational.com"
+        "name": "Capital.fr",
+        "url": "https://www.capital.fr"
       }
     },
     {
@@ -354,13 +334,13 @@
       }
     },
     {
-      "id": "7421200e9df2",
-      "title": "Crown Bioscience rejoint la NAMs Developer Coalition du C-Path afin de faire progresser des modèles pertinents pour l'humain dans le développement de médicaments - Lelezard",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IQlhnQmFicjh3Y0tZc0ZtOWl0dGEtNWJueWJJOGpYVDBYZDVzbUNLc1dzMDlIaDBGREFPOXdQVXE3WUYwUl9CaUEwaWgxZWpVT1FBOHAwV2RndE1oaVE?oc=5",
-      "published": "2026-07-17T19:23:38+00:00",
+      "id": "2ada0b4f5caa",
+      "title": "Partager les recherches cliniques sur les cellules souches et leurs applications pratiques. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQkx3UUltMGhIdXBBLXkxVmNPRDR1VUFVUV9IRjdTZmlGanhGSjBIcWNNNGhQMWNxNTk5UXUzV2dIekFZb2NlTDdMbFpvZUJtYTJ2Qm14dHpVYndueXFDbndhZTdNejZfbnA2QWdVWlJLU2pCUHc3M0xoWWVDc2JTcEhJX0ptRTJnT3ZxTHFiNEZUVnFHLUwwb3VQanVPZ29Z?oc=5",
+      "published": "2026-07-18T07:34:53+00:00",
       "source": {
-        "name": "Lelezard",
-        "url": "https://www.lelezard.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -371,6 +351,26 @@
       "source": {
         "name": "Medscape",
         "url": "https://francais.medscape.com"
+      }
+    },
+    {
+      "id": "7421200e9df2",
+      "title": "Crown Bioscience rejoint la NAMs Developer Coalition du C-Path afin de faire progresser des modèles pertinents pour l'humain dans le développement de médicaments - Lelezard",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IQlhnQmFicjh3Y0tZc0ZtOWl0dGEtNWJueWJJOGpYVDBYZDVzbUNLc1dzMDlIaDBGREFPOXdQVXE3WUYwUl9CaUEwaWgxZWpVT1FBOHAwV2RndE1oaVE?oc=5",
+      "published": "2026-07-17T19:23:38+00:00",
+      "source": {
+        "name": "Lelezard",
+        "url": "https://www.lelezard.com"
+      }
+    },
+    {
+      "id": "c86613082a08",
+      "title": "Le géant américain Eli Lilly investit dans les psychédéliques - Courrier international",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSmQwSXpsNlB1UHVKUDNYVkdCMHljaTNFMDVqRFFLTzZtTEFxRnRMVVNjeE1NZ004eHFDbzVNa2ZDNEVIRFY4cl9sNXlBZFV1SlJZMEcyeGZRTDhGaExRQzJ6eEM2X2twZTJOQjJxTTZSNGRTZW5qTVFpWEZ0OG9BSlhtQjZST3h6dmxfaXRNcHFLZW5ld0w5TFZmUnpsajlPdVQ2Z3EycTljNjMyMWoySFJYWGE3Q19PTEVYMkY4ZkdDbmY3MVNYZlJ5ZmFHVkdHTDNGVi1B?oc=5",
+      "published": "2026-07-17T15:20:41+00:00",
+      "source": {
+        "name": "Courrier international",
+        "url": "https://www.courrierinternational.com"
       }
     },
     {
@@ -394,16 +394,6 @@
       }
     },
     {
-      "id": "4f5ed1e829e2",
-      "title": "Une pharmacie géante de 1000 m² débarque dans ce centre commercial à Marseille - Le Bonbon",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDJNaW1mdXhCdzQyLXc3N1pnRUdoa3c1bURZQTJVRjh5eWpMOWwwNkVHQS0xSEFxUDdMWEdQT21HbktkS0tIM1Fsd2c4T1lLeWhQTk9reXhyRXFUMzdPSXYwOHZkZk1pYmlfMmpYVGdQdUNtX2VlRFJoN18yNzlwcWhHSjU2VFJsNzNhdjZRSS05QjUyRlZsX01FcXAzRGlyRWhTdDdKOA?oc=5",
-      "published": "2026-07-17T17:03:44+00:00",
-      "source": {
-        "name": "Le Bonbon",
-        "url": "https://www.lebonbon.fr"
-      }
-    },
-    {
       "id": "b478a70c9011",
       "title": "Santé : en Dordogne, on peut prescrire des bandes dessinées pour accompagner les patients souffrant de troubles mentaux ou psychiques - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcE5HYXIyMF8xSjhGbFgxRHFyanAzeU5CUXM5U0VTQ2dCa0dEcnYxUWZmVU8tdEQwLW5kc3ItY2RLYTRBNUdKQ2VGaHpJQ05zMVQzV0N0MmIwbzFRcTA1bG5qaV9iTUUtTjFpRDdjOF9raGxEN3lvaENIb2ttY0hYVVZodDRrODdtbHIydThYek1hVm93UndsM3dCSWZjRVVYR2psaUJzSWMwQmlienBydlRlMU5JLU9tOXNWS1hBczJUWnVjZVZqemVEeEMxaE50bEdqX19wdk90UWlvc0JobUV0bl81Y0Jt?oc=5",
@@ -411,6 +401,16 @@
       "source": {
         "name": "Sud Ouest",
         "url": "https://www.sudouest.fr"
+      }
+    },
+    {
+      "id": "4f5ed1e829e2",
+      "title": "Une pharmacie géante de 1000 m² débarque dans ce centre commercial à Marseille - Le Bonbon",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDJNaW1mdXhCdzQyLXc3N1pnRUdoa3c1bURZQTJVRjh5eWpMOWwwNkVHQS0xSEFxUDdMWEdQT21HbktkS0tIM1Fsd2c4T1lLeWhQTk9reXhyRXFUMzdPSXYwOHZkZk1pYmlfMmpYVGdQdUNtX2VlRFJoN18yNzlwcWhHSjU2VFJsNzNhdjZRSS05QjUyRlZsX01FcXAzRGlyRWhTdDdKOA?oc=5",
+      "published": "2026-07-17T17:03:44+00:00",
+      "source": {
+        "name": "Le Bonbon",
+        "url": "https://www.lebonbon.fr"
       }
     },
     {
@@ -424,16 +424,6 @@
       }
     },
     {
-      "id": "de374127424d",
-      "title": "Médicaments : entre tensions d'approvisionnement et quête de souveraineté pharmaceutique - Finances News Hebdo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMXVGZUVGekRMeVQ1Wm1kSkNDek1ISGVyb29nUW9mcVpLN0hRbUxxY1ZTNDVxcmdfZlNXb1NFVHhOdzNPV2hjME8tc1BfenB4MzNFMFFjQjVla0k3dVVncHdSU01TeWhsNlFXMEVUS0Z2d1B5ZWtIY2EwT2pLRHpQeF9VQXItVzk2NlUyMVhmMTJ1NGNYVUprTVFOMEJxbHNCb0s1YmRWcnhHZnNSTFg4?oc=5",
-      "published": "2026-07-17T15:01:53+00:00",
-      "source": {
-        "name": "Finances News Hebdo",
-        "url": "https://fnh.ma"
-      }
-    },
-    {
       "id": "ec0fd06d6293",
       "title": "Pourquoi la France rate 40% des médicaments approuvés selon le PDG de Moderna - Santé Magazine",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR2pHZnFlRVI0bWxob1dwY3pzQ0hGRGxPTEFtVEdtQUlTeDBUdms0aVFUZ2t5MElFV0xzRjl6NGpKeFNYaTJpeVRBYkd0LVlrZ3VUUDcxQ3RrZW5RTTV1anotcXQxRVRwbjQ1OWx4SjNvckR6Q3FBd0hvOEFNLWVzMTJPTzA0QnJTM3RwQy1mRkVnWUUtRnN5bTRzUjRmLWRITl9JOV9SZzRxU182OW4xLXNKNzFZX2dxaVNETzBrYVRTQ0N0QjltcG5KMFJZOE1GVWI3MA?oc=5",
@@ -444,13 +434,13 @@
       }
     },
     {
-      "id": "835624b7c850",
-      "title": "Rétatrutide: ce nouveau traitement amaigrissant injectable est-il plus efficace qu'Ozempic? - Testachats",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUmc3c2VBY0laNVJ6S0tSSU9pUUpyeEprcFc2M2RyTUZiaS1VN0tZQlJHUVBlTG5qT1R3THFQbzUwc0F6VnFxTlJvbl9UbGtRVVBLblNWNmVlUlFCTVB4X1A0Skx3UWhRVTlYYm9rNjJmQmJOUnBHRGUxZmVnekw4U1otVEN5LWoxU1dlTUZ3?oc=5",
-      "published": "2026-07-18T08:46:00+00:00",
+      "id": "de374127424d",
+      "title": "Médicaments : entre tensions d'approvisionnement et quête de souveraineté pharmaceutique - Finances News Hebdo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMXVGZUVGekRMeVQ1Wm1kSkNDek1ISGVyb29nUW9mcVpLN0hRbUxxY1ZTNDVxcmdfZlNXb1NFVHhOdzNPV2hjME8tc1BfenB4MzNFMFFjQjVla0k3dVVncHdSU01TeWhsNlFXMEVUS0Z2d1B5ZWtIY2EwT2pLRHpQeF9VQXItVzk2NlUyMVhmMTJ1NGNYVUprTVFOMEJxbHNCb0s1YmRWcnhHZnNSTFg4?oc=5",
+      "published": "2026-07-17T15:01:53+00:00",
       "source": {
-        "name": "Testachats",
-        "url": "https://www.test-achats.be"
+        "name": "Finances News Hebdo",
+        "url": "https://fnh.ma"
       }
     },
     {
@@ -534,16 +524,6 @@
       }
     },
     {
-      "id": "0e1860381cc2",
-      "title": "Psychiatrie : les ruptures de médicaments mettent les hôpitaux sous tension - Finances News Hebdo",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOXRJLWUxbDZ6VDJ4ZktEOGtRUDRJUFRIYUtCRXpJNWJPUm13WVhtcHNGQUNJRjFpRU8tYkI5VFdVQjgyQ040bG03MUFPbXBaNnRuSmIyMHMycThhRkl4cXJ1Nlp4dE5OTjlqVFpVWTlnbk9Oc1VuTnZUa1VYSFVkV0liLUR1N3lXRHM5OUZ4UmxTXzdBTGI2LVVrX0JlUWc?oc=5",
-      "published": "2026-07-17T13:03:37+00:00",
-      "source": {
-        "name": "Finances News Hebdo",
-        "url": "https://fnh.ma"
-      }
-    },
-    {
       "id": "631383875ede",
       "title": "Deux médicaments anti-obésité remboursés : prix, patients concernés... Les détails dévoilés sur TF1 par la ministre de la Santé - TF1 Info",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNam5OMkEyUXpjYVVVMFcwSDExZ2M3UWYxTGtrT2V1VEI3ZE1PVEE3QTNQekI5eHgtWTQ3Z3dMRkdoendNWklWU0tSNjZjaW1sbGl0Tm1VaWJvbWJZU29GcEw2Nk9fZUljeTh6aWVybDJYazc4RUFzWDdTd1BJb3F3bThfSnota2tPWl9lSGswQThXSHpodkprVVZWSnJqSzVfZEZ2dzJrWGczamdJZHFiR1AtaFQydlpJOVRiWUhmSmRXZEljUzRVblk3cTJvRWFSaXRpd1ZiQS1uZ2hrZnZDSVhoc2k3R0UxZWlPN1hUaHhRU01lNG8zcDNKbF9aOGR0Y0dVOGJ4bkZJWE0?oc=5",
@@ -561,16 +541,6 @@
       "source": {
         "name": "Haute Autorité de Santé",
         "url": "https://www.has-sante.fr"
-      }
-    },
-    {
-      "id": "39bcfb4ae7bf",
-      "title": "AMMPS : quelle stratégie pour diminuer les pénuries des médicaments essentiels ? - Finances News Hebdo",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0V1czR2SHBUNmloRDlKdGxhOUtIZFBXWGlMVVJPZEZ1ZnJ1dVVpN0d5bjRIVlE2RGQ4elNfSi01NWRRWVBQZHRzbC11YXVvYXBwQ2x1WWY3OFJoZTBkYXJ4anBhbnRzdE91cHZqYk9IQjFBUnE1MUdIdXRUYXlmT3VMZER4QzM3QUEySjItUQ?oc=5",
-      "published": "2026-07-17T19:04:37+00:00",
-      "source": {
-        "name": "Finances News Hebdo",
-        "url": "https://fnh.ma"
       }
     },
     {
@@ -624,13 +594,13 @@
       }
     },
     {
-      "id": "6de47fb2c5e6",
-      "title": "Feu vert pour un traitement contre Alzheimer - avantages.ca",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVjFIOTBDUDNJWG5zS0xBdmdEam5HZXB6M3hDXy15aTdlYUxlVnFPdzBIUjZjQWpDOUFEd0VYd3VCeWpLV1oxZkg5LXIwb0dqaFlBVlJUNGxKUEJ2UkhUbWJXX2V0UlQzcVNjU1JCaUhfZkpabi01MUFlblo3ejFiY3J3?oc=5",
-      "published": "2026-07-17T09:04:44+00:00",
+      "id": "39bcfb4ae7bf",
+      "title": "AMMPS : quelle stratégie pour diminuer les pénuries des médicaments essentiels ? - Finances News Hebdo",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0V1czR2SHBUNmloRDlKdGxhOUtIZFBXWGlMVVJPZEZ1ZnJ1dVVpN0d5bjRIVlE2RGQ4elNfSi01NWRRWVBQZHRzbC11YXVvYXBwQ2x1WWY3OFJoZTBkYXJ4anBhbnRzdE91cHZqYk9IQjFBUnE1MUdIdXRUYXlmT3VMZER4QzM3QUEySjItUQ?oc=5",
+      "published": "2026-07-17T19:04:37+00:00",
       "source": {
-        "name": "avantages.ca",
-        "url": "https://www.avantages.ca"
+        "name": "Finances News Hebdo",
+        "url": "https://fnh.ma"
       }
     },
     {
@@ -641,6 +611,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "6de47fb2c5e6",
+      "title": "Feu vert pour un traitement contre Alzheimer - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVjFIOTBDUDNJWG5zS0xBdmdEam5HZXB6M3hDXy15aTdlYUxlVnFPdzBIUjZjQWpDOUFEd0VYd3VCeWpLV1oxZkg5LXIwb0dqaFlBVlJUNGxKUEJ2UkhUbWJXX2V0UlQzcVNjU1JCaUhfZkpabi01MUFlblo3ejFiY3J3?oc=5",
+      "published": "2026-07-17T09:04:44+00:00",
+      "source": {
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
       }
     },
     {
@@ -661,6 +641,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "02ef002eafe8",
+      "title": "Professeur Nicolas Authier : «La douleur doit devenir une grande cause nationale» - Le Figaro Santé",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcHdkOV9zYWY4LUpTdF9rM00yejM1VFJONFdNSGFwZ09FLXdNX2Q1eTBqQjdLaXlDZHZUNFFmM0k1QlNBNXVlZkltSU4xRmtvLTQxSkNpeVVreDNBajJpMWxFQm1URUtXdXBHYWxLSm80SVRENHhQdDVsMTRsMEJtdlF0c1RoNEtBdWM2X0NieHE0SWJrZVZHWERHYWd5dE1WeF9YUU9DYTAxTklxaWNtaFRlek9JMkpHYmpFUFhKSy1MRGg1UkZNZEFPYVc1cjQ?oc=5",
+      "published": "2026-07-17T08:07:48+00:00",
+      "source": {
+        "name": "Le Figaro Santé",
+        "url": "https://sante.lefigaro.fr"
       }
     },
     {
@@ -694,10 +684,10 @@
       }
     },
     {
-      "id": "a96ae11cf27a",
-      "title": "Médicaments : «La fabrication locale constitue l'un des principaux socles de la souveraineté pharmaceutique» - Finances News Hebdo",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbHpoWkQ5WTVqM050d19FNzg3UXJuaHM5aUJHV0VWb1FRMEg2YTdQcUtVNHBvRGF3MzRWZFpXVUttWlF4MVJNZ0FIQVJDTEhaTWt4RkFmVTFvMEs1Z1lSVlZTSmpRWEdDVFN6UjVVRXVneXBVMnRORlNHZ2FHclZuWXVsSWNCN19mbTRZcXhXdFZlWUUxNEFpLXo2blY?oc=5",
-      "published": "2026-07-17T19:04:37+00:00",
+      "id": "0e1860381cc2",
+      "title": "Psychiatrie : les ruptures de médicaments mettent les hôpitaux sous tension - Finances News Hebdo",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOXRJLWUxbDZ6VDJ4ZktEOGtRUDRJUFRIYUtCRXpJNWJPUm13WVhtcHNGQUNJRjFpRU8tYkI5VFdVQjgyQ040bG03MUFPbXBaNnRuSmIyMHMycThhRkl4cXJ1Nlp4dE5OTjlqVFpVWTlnbk9Oc1VuTnZUa1VYSFVkV0liLUR1N3lXRHM5OUZ4UmxTXzdBTGI2LVVrX0JlUWc?oc=5",
+      "published": "2026-07-17T13:03:37+00:00",
       "source": {
         "name": "Finances News Hebdo",
         "url": "https://fnh.ma"
@@ -744,6 +734,16 @@
       }
     },
     {
+      "id": "a96ae11cf27a",
+      "title": "Médicaments : «La fabrication locale constitue l'un des principaux socles de la souveraineté pharmaceutique» - Finances News Hebdo",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbHpoWkQ5WTVqM050d19FNzg3UXJuaHM5aUJHV0VWb1FRMEg2YTdQcUtVNHBvRGF3MzRWZFpXVUttWlF4MVJNZ0FIQVJDTEhaTWt4RkFmVTFvMEs1Z1lSVlZTSmpRWEdDVFN6UjVVRXVneXBVMnRORlNHZ2FHclZuWXVsSWNCN19mbTRZcXhXdFZlWUUxNEFpLXo2blY?oc=5",
+      "published": "2026-07-17T19:04:37+00:00",
+      "source": {
+        "name": "Finances News Hebdo",
+        "url": "https://fnh.ma"
+      }
+    },
+    {
       "id": "587d7ca163ad",
       "title": "Actualité - Tensions en Emend 125 mg (aprépitant) buvable : l’ANSM prend des mesures pour assurer la continuité de traitement des enfants - ANSM",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQy1WSXdNbnlZTWdHMDNlQk5uRlFqd0J5anZLTERWLVFZZFBNdzhIRGZxSTMyaFpsd2FMazBYZ0NXSUs1azE5SGFQZlhIckVKaGdCQ2VnOFg1OEhsR0ZOd3FJaTRsYmloaWRwSnJadW1oTHJ4SktyUGlCR0xZelVaUE5JSV85VUZya2FYMWREVjBXN0FrMWozcFhSZk5CRlEtTGd3V183OXZoV0VUaHV1QkVSbVQtcUZoek9Vek1TM2ZBSTNwOUN4Wk1LV0tkLTBZNGVicVFLYlhuTkhGWFp6VHZWajhxTnFU?oc=5",
@@ -754,16 +754,6 @@
       }
     },
     {
-      "id": "fe020500bf36",
-      "title": "Certaines pilules contraceptives seraient à l'origine de tumeurs bénignes au cerveau - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQenhYUDJvcG51Sld2SkVuNnh6aWV2aUdWTzJHN1pKdHVHQUd4MHhSMTYyTURBOUhDUDFuNnZvWW01a3QxTXVaZFNQclFDamxQcEFoVEJJZmptU0NsaFVwOTJQY0Z4MS1paUFXeng0bFVUU01Oa1c3TkRjcmZpQjZwOEUtUmw1Q1BVdy1aVzU3UDFqTzhNZHgxWm9ZdG10SEhuVVYwR29pRjA5djBSNHZDYVltV3VqZXdpcENvOTNPdXVVSUt6SEJxdnNB?oc=5",
-      "published": "2026-07-17T05:00:00+00:00",
-      "source": {
-        "name": "Cosmopolitan.fr",
-        "url": "https://www.cosmopolitan.fr"
-      }
-    },
-    {
       "id": "b94433fda0dd",
       "title": "Le gros coup de pression des laboratoires pharmaceutiques face aux baisses de prix des médicaments en Europe - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZFdEbkd3UzVBcUN0eW83T0dYUWRjbHFESW96SXFKZmlTWTF0REQ0NkNYa0xWNkJPQzlyOHZfMHVEazBqUklDQmVodFJaX2h3R2dJUE9OMHh6X2dJUFc5VWJwZTBjRlRIZHVBOXhQc3Jjc2NidFZxWTJ5NTZhSm5zeFk2emlOeFJvVGNKZGtQQTFrLXlOdzZkeTBrZHVMb2VIRXo1ZGdISk5XalBKWjVYdWY5RWJNZ2tKQjlGeHhDM205NUwxVGd4VTVhU1loRXNJX1ByTVFLZ3Zteklvd2ptRWdJVW1kVXk4NWdGLTk2N1ozWU1DVUo0TEFaZmR5SGxHeUk3YWN3?oc=5",
@@ -771,6 +761,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "fe020500bf36",
+      "title": "Certaines pilules contraceptives seraient à l'origine de tumeurs bénignes au cerveau - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQenhYUDJvcG51Sld2SkVuNnh6aWV2aUdWTzJHN1pKdHVHQUd4MHhSMTYyTURBOUhDUDFuNnZvWW01a3QxTXVaZFNQclFDamxQcEFoVEJJZmptU0NsaFVwOTJQY0Z4MS1paUFXeng0bFVUU01Oa1c3TkRjcmZpQjZwOEUtUmw1Q1BVdy1aVzU3UDFqTzhNZHgxWm9ZdG10SEhuVVYwR29pRjA5djBSNHZDYVltV3VqZXdpcENvOTNPdXVVSUt6SEJxdnNB?oc=5",
+      "published": "2026-07-17T05:00:00+00:00",
+      "source": {
+        "name": "Cosmopolitan.fr",
+        "url": "https://www.cosmopolitan.fr"
       }
     },
     {
@@ -854,13 +854,13 @@
       }
     },
     {
-      "id": "115451d1576a",
-      "title": "L'Institut médical naval a offert des examens médicaux et des médicaments gratuits à 140 anciens combattants. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUXRtWlhGN1BzZ0xSYXRhcVlHY25KWE5xV2h2N1pRZXYwbkNHalZlX3ItSUpPQTR4THRVenZ1NnZPTG5sYkQxMVFUU3c5N2REb0RlRnRjYm9HdS1Lc3BJZVVLb2d6cTJKelB4cjNIV1BWM3VRclF0cUc0OE41TmVZWDVFUzktZXZfd2ZqT0U0c05wOEpCS3c?oc=5",
-      "published": "2026-07-17T02:40:09+00:00",
+      "id": "abfa13564be3",
+      "title": "Santé. Médicaments contre l’obésité : Wegovy et Mounjaro remboursés dès la mi-juin en France - Le Dauphiné Libéré",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3A4MXRPQktid0MxWU04YktJVUwya1FNcmZKQ0twd0wzS2NCREJ3NTUtellDdHAySWMzVk5PUzFHdUJPTmtISnFsRVdnMlp5TXU0ZUV1cnYyS3BPbHlNWkJoSXlQdkZWVlJFN0ZTWDJGNDJSSG5iSWdmTXc1M2tRb1ltR0NRaFJmYU96dkk1U01jdFZPemUzb2VocnQ5VTgtN1BFRnlicVZ2V0RiaDBPMGZwcUt6cUpjU1F4b0F6dGpKUHIweHc?oc=5",
+      "published": "2026-05-28T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Le Dauphiné Libéré",
+        "url": "https://www.ledauphine.com"
       }
     },
     {
@@ -874,13 +874,13 @@
       }
     },
     {
-      "id": "abfa13564be3",
-      "title": "Santé. Médicaments contre l’obésité : Wegovy et Mounjaro remboursés dès la mi-juin en France - Le Dauphiné Libéré",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3A4MXRPQktid0MxWU04YktJVUwya1FNcmZKQ0twd0wzS2NCREJ3NTUtellDdHAySWMzVk5PUzFHdUJPTmtISnFsRVdnMlp5TXU0ZUV1cnYyS3BPbHlNWkJoSXlQdkZWVlJFN0ZTWDJGNDJSSG5iSWdmTXc1M2tRb1ltR0NRaFJmYU96dkk1U01jdFZPemUzb2VocnQ5VTgtN1BFRnlicVZ2V0RiaDBPMGZwcUt6cUpjU1F4b0F6dGpKUHIweHc?oc=5",
-      "published": "2026-05-28T07:00:00+00:00",
+      "id": "115451d1576a",
+      "title": "L'Institut médical naval a offert des examens médicaux et des médicaments gratuits à 140 anciens combattants. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUXRtWlhGN1BzZ0xSYXRhcVlHY25KWE5xV2h2N1pRZXYwbkNHalZlX3ItSUpPQTR4THRVenZ1NnZPTG5sYkQxMVFUU3c5N2REb0RlRnRjYm9HdS1Lc3BJZVVLb2d6cTJKelB4cjNIV1BWM3VRclF0cUc0OE41TmVZWDVFUzktZXZfd2ZqT0U0c05wOEpCS3c?oc=5",
+      "published": "2026-07-17T02:40:09+00:00",
       "source": {
-        "name": "Le Dauphiné Libéré",
-        "url": "https://www.ledauphine.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
