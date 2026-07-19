@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T15:03:33.937627+00:00",
+  "fetched_at": "2026-07-19T17:06:30.131851+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,6 +94,16 @@
       }
     },
     {
+      "id": "b478a70c9011",
+      "title": "Santé : en Dordogne, on peut prescrire des bandes dessinées pour accompagner les patients souffrant de troubles mentaux ou psychiques - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcE5HYXIyMF8xSjhGbFgxRHFyanAzeU5CUXM5U0VTQ2dCa0dEcnYxUWZmVU8tdEQwLW5kc3ItY2RLYTRBNUdKQ2VGaHpJQ05zMVQzV0N0MmIwbzFRcTA1bG5qaV9iTUUtTjFpRDdjOF9raGxEN3lvaENIb2ttY0hYVVZodDRrODdtbHIydThYek1hVm93UndsM3dCSWZjRVVYR2psaUJzSWMwQmlienBydlRlMU5JLU9tOXNWS1hBczJUWnVjZVZqemVEeEMxaE50bEdqX19wdk90UWlvc0JobUV0bl81Y0Jt?oc=5",
+      "published": "2026-07-19T16:35:15+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
+      }
+    },
+    {
       "id": "e679ab4b12e6",
       "title": "Pourquoi le marché de la gestion de la douleur transforme-t-il les soins de santé par la médecine de précision, la thérapie numérique et l\\'innovation non opioïde - Spherical Insights",
       "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUHoxZjhjWTJhN08yZDhqMHJzUDFkSkJOOGstZ1Z2U0NwZmxGQnFuTVAyRC1PQ0Jwc3lqT2xnYjY5V2RCTmx1ZXpXVXFpS3k0eEJUSmZra1M0VUpISUUxY0plVW40QVEwbFphUVVLdXo2N0RUcWhtay01Q3F3NHJKa0pNSVgyX1gwVlJDTlFpMmFIWjczX0VBTUs3MlZsLS1ISXRCak5KZ2FWeW5uU1I0MlRlSzkwekVBRlg4VWNlQ0JCaG1oRV9pWGR5Z1czNmdobjVuVDU0eGEyTk1kb0xRdDV3cFpIM2ktUXhkX2t5VUZJQnNIblRxMlFSQnM0ZHlYQ1ZVMA?oc=5",
@@ -104,16 +114,6 @@
       }
     },
     {
-      "id": "f8c5e53184f0",
-      "title": "Gabapentine : cette étude met en lumière un risque encore peu connu du médicament - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZUoyRXFJcy0xYm1sQWQ0WHJsT19HcjlabUJrSnB4cU1Xd19RQzg4RlNzX0hrdlY5VTdqT1ZmQ05wbGhJUldJVzZRNkVNNWRZTkZST1dNZzJrck5nNFYtS2huWkhFczZURkt2bHlRY21BcEJ5M2FVY2NmUU1DdF81VE0wbzVJODkyRzRHeVIwa1lmMG96YWNscDJtcFNmaFdnd0xUQ09hdXBCbWJZZk9za0NfMFdMcnU1dVIyVVNYNTFTQmJZa3cwbTNocVI?oc=5",
-      "published": "2026-07-19T11:11:00+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
       "id": "e1226f52301b",
       "title": "L'accès aux médicaments innovants : quelle est la place de la France sur la scène internationale ? - vidal.fr",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWk3ZDZfMVlMTXVJdXp5X0FpUTZMckZYcGpiQndWcTJsb1N5NkxfM2hTVlRzWnFTWFdHVi04ZGtrSzEwR0pJa3l3N1N5bDNqSjk1Y0hJSzg0MmhDRFZPLVJQdmhhbUlsUW40XzAyTmoxRjVsdzNZVlF4aUlXanVmQzB5U0poZHRzU2RSZnlVTEJsRVFWNjdsaFZOcnBTUGFlaUdmZnN4TlEyck5lbEpWLURqaXVyNzh4aVl1SnlUN2dFV01rREhZSDV2ZDhBb0w3T0tB?oc=5",
@@ -121,6 +121,16 @@
       "source": {
         "name": "vidal.fr",
         "url": "https://www.vidal.fr"
+      }
+    },
+    {
+      "id": "f8c5e53184f0",
+      "title": "Gabapentine : cette étude met en lumière un risque encore peu connu du médicament - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZUoyRXFJcy0xYm1sQWQ0WHJsT19HcjlabUJrSnB4cU1Xd19RQzg4RlNzX0hrdlY5VTdqT1ZmQ05wbGhJUldJVzZRNkVNNWRZTkZST1dNZzJrck5nNFYtS2huWkhFczZURkt2bHlRY21BcEJ5M2FVY2NmUU1DdF81VE0wbzVJODkyRzRHeVIwa1lmMG96YWNscDJtcFNmaFdnd0xUQ09hdXBCbWJZZk9za0NfMFdMcnU1dVIyVVNYNTFTQmJZa3cwbTNocVI?oc=5",
+      "published": "2026-07-19T11:11:00+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
       }
     },
     {
@@ -154,16 +164,6 @@
       }
     },
     {
-      "id": "1ab542f8579d",
-      "title": "Examens médicaux et médicaments gratuits fournis à 208 victimes de l'Agent Orange/dioxine. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON19yU0REbFA0OXliOFdDN0gwNTVYdDF4U1h4Mlh3bVRaRWFBTzlEdHBzMVNMMUtpbWk2Ni1vSHY0VXA0OVFNb3MzWXhZMVZtMHR2cFRQM2UzM0lKSTZjdEpldG8xZkc5bU5oTjZEUWJwSTg2NFNUYVAzQUdwbDkyWXB5UTd2RWlOSHY2VW9UWEhLUEdLMmR3aHh3?oc=5",
-      "published": "2026-07-19T07:34:15+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "4c1c1c34bd07",
       "title": "Médicaments anti-obésité : ce qu'il faut savoir avant d'y penser pour soi ou un proche handicapé - Handinova",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOakk2ZmJCdFlRdFhQOWxIVFZDNFUybDNoU1ZoaDZhZWM5YUVhUlhUdk5oSHZTYnJKOExIZ3Riajh2ajdadG8wTlJZQlVfQnpKbTV2V3NtNVc0QU42d1diZ29XYVlhWWpBalZxTkh1WjhVR2J5Z3U4Si12RHRFWllhRkFTZzJadGVxWjYyeGI5c3BCX1F5a3F0NlY5RzAwU2sxU093eEl6T0htdUJ6YTVLeW9PQ2s?oc=5",
@@ -174,13 +174,13 @@
       }
     },
     {
-      "id": "5f9b2831a13a",
-      "title": "Médicaments jetés : l’État peut-il enfin contrôler ce qu’il rembourse ? - Politique Matin",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdi14dGtLNERESm5fa0RBQVhuTXhxMXZ6Q2thdy14UHpUckhaNC1CekRJbUxCb2pDVThNTmNucVZhaUtlcEE1VUpMM1NzQnpRYzBCMi1yb1hYMXpmTEphQmZlRU5OSTBNdUdZbnhscWxsa0dDa1JEdDRYclN4M19qRjU3MS1yUE1k?oc=5",
-      "published": "2026-07-19T09:05:09+00:00",
+      "id": "1ab542f8579d",
+      "title": "Examens médicaux et médicaments gratuits fournis à 208 victimes de l'Agent Orange/dioxine. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON19yU0REbFA0OXliOFdDN0gwNTVYdDF4U1h4Mlh3bVRaRWFBTzlEdHBzMVNMMUtpbWk2Ni1vSHY0VXA0OVFNb3MzWXhZMVZtMHR2cFRQM2UzM0lKSTZjdEpldG8xZkc5bU5oTjZEUWJwSTg2NFNUYVAzQUdwbDkyWXB5UTd2RWlOSHY2VW9UWEhLUEdLMmR3aHh3?oc=5",
+      "published": "2026-07-19T07:34:15+00:00",
       "source": {
-        "name": "Politique Matin",
-        "url": "https://www.politiquematin.fr"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -194,13 +194,13 @@
       }
     },
     {
-      "id": "82aa87863c60",
-      "title": "Médicaments essentiels - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
-      "published": "2026-01-26T08:00:00+00:00",
+      "id": "5f9b2831a13a",
+      "title": "Médicaments jetés : l’État peut-il enfin contrôler ce qu’il rembourse ? - Politique Matin",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdi14dGtLNERESm5fa0RBQVhuTXhxMXZ6Q2thdy14UHpUckhaNC1CekRJbUxCb2pDVThNTmNucVZhaUtlcEE1VUpMM1NzQnpRYzBCMi1yb1hYMXpmTEphQmZlRU5OSTBNdUdZbnhscWxsa0dDa1JEdDRYclN4M19qRjU3MS1yUE1k?oc=5",
+      "published": "2026-07-19T09:05:09+00:00",
       "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
+        "name": "Politique Matin",
+        "url": "https://www.politiquematin.fr"
       }
     },
     {
@@ -221,6 +221,16 @@
       "source": {
         "name": "Ouest-France",
         "url": "https://www.ouest-france.fr"
+      }
+    },
+    {
+      "id": "82aa87863c60",
+      "title": "Médicaments essentiels - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
+      "published": "2026-01-26T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -254,6 +264,16 @@
       }
     },
     {
+      "id": "7cd62e017f20",
+      "title": "Prix des médicaments : les dessous d’un report surprise - Medias24",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ0hPYmF6LWVpbTlhNXAxbDVsY3FDSi1sRl9yZVFnbDdIME9kRnBMMzU0NTJVS2c2a0lPMjBZbUtfbGNLTkh4ajFpaTBnZllZem5xc2JtbHBEU05Panh5THpLSXdDTkJRZ0tCQVBsNUxZc2VfZU91LTNjOFlFZHFESE5zUk9PWWxSWWRTSFd2YV9GLTNWMmlOWg?oc=5",
+      "published": "2026-07-19T07:10:00+00:00",
+      "source": {
+        "name": "Medias24",
+        "url": "https://medias24.com"
+      }
+    },
+    {
       "id": "77077f628759",
       "title": "Une baisse du prix du paracétamol à l'étude, la production française pourrait en pâtir - Capital.fr",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWkNEYTF5YVZGeTBJTmFlNHJCNndzZ1ZRSHI4LWtCOHpGdXVuQ1dKaHNZSzRIX1NteGtyYVBaQ3BrT0ljN3RuU2FhQUNqTFFSRHRKRmNnbFZOMDNDR0ZfSm9xcUN3cTUwWFhQd1RSZFQ2Z0U2dGFsdEJIeFp3MjR0REh4bmRvbVRuYW9SaEVIM051YVNIdU1ZWmR4YjB5UDhCNkh2YWpzVHpQTGo3NEZQaWdpZm9RV3NMek83aXNaSU9xVTROaGkwcU9ZUlhVT2ta?oc=5",
@@ -281,16 +301,6 @@
       "source": {
         "name": "adiac-congo.com",
         "url": "https://www.adiac-congo.com"
-      }
-    },
-    {
-      "id": "7cd62e017f20",
-      "title": "Prix des médicaments : les dessous d’un report surprise - Medias24",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ0hPYmF6LWVpbTlhNXAxbDVsY3FDSi1sRl9yZVFnbDdIME9kRnBMMzU0NTJVS2c2a0lPMjBZbUtfbGNLTkh4ajFpaTBnZllZem5xc2JtbHBEU05Panh5THpLSXdDTkJRZ0tCQVBsNUxZc2VfZU91LTNjOFlFZHFESE5zUk9PWWxSWWRTSFd2YV9GLTNWMmlOWg?oc=5",
-      "published": "2026-07-19T07:10:00+00:00",
-      "source": {
-        "name": "Medias24",
-        "url": "https://medias24.com"
       }
     },
     {
@@ -324,16 +334,6 @@
       }
     },
     {
-      "id": "bc82aee0e0ab",
-      "title": "L'hôpital militaire n°5 offre gratuitement à la population des examens médicaux, des consultations de santé et des médicaments. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3RnMmNlbnduU1ktMExvZG5TNC05SmV4ZGV3d0lTX0xEcE9hejNROE9pcVU0MHFVcy0wRFhCdHpZU2xEMUZyQU5xa0wtMnR1N0pZaGRyaDNtYTZ5RjVwLTRuQkZVaG9PQlZBQVR3VWFpQWpOSFZLTzFmQ1ViZkJDWERjWEd6VEx3dk5VcjBhaG9TMG9BXzRWdXNENnRLSGpqZy1xd1lR?oc=5",
-      "published": "2026-07-18T07:03:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "ec0fd06d6293",
       "title": "Pourquoi la France rate 40% des médicaments approuvés selon le PDG de Moderna - Santé Magazine",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR2pHZnFlRVI0bWxob1dwY3pzQ0hGRGxPTEFtVEdtQUlTeDBUdms0aVFUZ2t5MElFV0xzRjl6NGpKeFNYaTJpeVRBYkd0LVlrZ3VUUDcxQ3RrZW5RTTV1anotcXQxRVRwbjQ1OWx4SjNvckR6Q3FBd0hvOEFNLWVzMTJPTzA0QnJTM3RwQy1mRkVnWUUtRnN5bTRzUjRmLWRITl9JOV9SZzRxU182OW4xLXNKNzFZX2dxaVNETzBrYVRTQ0N0QjltcG5KMFJZOE1GVWI3MA?oc=5",
@@ -344,13 +344,13 @@
       }
     },
     {
-      "id": "f7168442edb8",
-      "title": "Cet anti-inflammatoire très fréquent favorise les crampes : mangez des bananes - Journal des Femmes Santé",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRkROSnhGOFM1am53Znk3aEFLbHhRcHhQYzFQaGNYSDJTbXB2Z0VfUXlib3oxb19UaXRuNm14UVMtcE1lTUszLWNqTERFei1neTk3LWNzTEY4dUI0Nmo5RVg1RHJpNGJ4ek5kM0NvUV9JMzNYYkZ5Q0gyOTlZc0REUUNaUlJfSkU4ZkVWTUVLR0Q3ektfUzBka1MxT2RxcjNCaUtIQ2pxblBnanF0ZDFyTGliN0ozWk9VaVBNNjlB?oc=5",
-      "published": "2026-07-17T06:45:06+00:00",
+      "id": "bc82aee0e0ab",
+      "title": "L'hôpital militaire n°5 offre gratuitement à la population des examens médicaux, des consultations de santé et des médicaments. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3RnMmNlbnduU1ktMExvZG5TNC05SmV4ZGV3d0lTX0xEcE9hejNROE9pcVU0MHFVcy0wRFhCdHpZU2xEMUZyQU5xa0wtMnR1N0pZaGRyaDNtYTZ5RjVwLTRuQkZVaG9PQlZBQVR3VWFpQWpOSFZLTzFmQ1ViZkJDWERjWEd6VEx3dk5VcjBhaG9TMG9BXzRWdXNENnRLSGpqZy1xd1lR?oc=5",
+      "published": "2026-07-18T07:03:08+00:00",
       "source": {
-        "name": "Journal des Femmes Santé",
-        "url": "https://sante.journaldesfemmes.fr"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -361,6 +361,16 @@
       "source": {
         "name": "Libération",
         "url": "https://www.liberation.fr"
+      }
+    },
+    {
+      "id": "f7168442edb8",
+      "title": "Cet anti-inflammatoire très fréquent favorise les crampes : mangez des bananes - Journal des Femmes Santé",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRkROSnhGOFM1am53Znk3aEFLbHhRcHhQYzFQaGNYSDJTbXB2Z0VfUXlib3oxb19UaXRuNm14UVMtcE1lTUszLWNqTERFei1neTk3LWNzTEY4dUI0Nmo5RVg1RHJpNGJ4ek5kM0NvUV9JMzNYYkZ5Q0gyOTlZc0REUUNaUlJfSkU4ZkVWTUVLR0Q3ektfUzBka1MxT2RxcjNCaUtIQ2pxblBnanF0ZDFyTGliN0ozWk9VaVBNNjlB?oc=5",
+      "published": "2026-07-17T06:45:06+00:00",
+      "source": {
+        "name": "Journal des Femmes Santé",
+        "url": "https://sante.journaldesfemmes.fr"
       }
     },
     {
@@ -424,16 +434,6 @@
       }
     },
     {
-      "id": "5c5cbbcfba1f",
-      "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
-      "published": "2026-06-20T07:00:00+00:00",
-      "source": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
-      }
-    },
-    {
       "id": "d973ede0f0e6",
       "title": "Collecte des médicaments non utilisés à l’officine : rappel de la réglementation - Ordre National des Pharmaciens",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYzBObGxJdTVIbFVUSTNqckoxX1ozbWg5WE1TU2UzMV9ramswOVJjVkZuTW5vNnhZd2hGcm9kdFIwMDJEUmxDNHdxRjEyZTRaY193YUdYZm1RTFhMM1VjZmFSSl9pTXA2TVp2a1hwTGZRODVucUkzSGZReGhIdzlucG9TS0RaSGlyQW4waDNNa2JfZVVHelVLWXNmQ3hpRHk4T3o4MmNqLXdEWHRzYTJ6X005Y1FRcmc2WGxMZnhSdUZ5bzdKV3hOeExvd21rekNIYngxS2dEQ0pVYmpwMmxteklmckFnRHU1eHc?oc=5",
@@ -441,6 +441,16 @@
       "source": {
         "name": "Ordre National des Pharmaciens",
         "url": "https://www.ordre.pharmacien.fr"
+      }
+    },
+    {
+      "id": "5c5cbbcfba1f",
+      "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
+      "published": "2026-06-20T07:00:00+00:00",
+      "source": {
+        "name": "Le Monde.fr",
+        "url": "https://www.lemonde.fr"
       }
     },
     {
@@ -604,16 +614,6 @@
       }
     },
     {
-      "id": "4c880851f102",
-      "title": "Le vice-ministre Le Duc Luan : Finalisez d’urgence la circulaire relative aux appels d’offres pour l’approvisionnement en médicaments et assurez-vous de sa publication avant le 30 juillet. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMHhUbTZOMlRtdjh5SWh4UGsyR296YXNsTGt2b01qb1RyOGFfZVc4ZjBDeElUeXFEemhSV3I2MkZhYmUxUXhxT2hUMFJXUHJWemFKUGV4cDNWNFF4cnZEV2M2S3VzUDRYQnRZUVBLakd1NjI4cHlIbjhvbUZ0OVJVMkJzd1VTMUJUTGpOUk14TWNaTHBwRlRBSUM5QklGOWFyR1BjNzR6Z0dBNWhZT19GMm5vdFItRVBfZFJueU9ycC0?oc=5",
-      "published": "2026-07-18T01:07:30+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "587d7ca163ad",
       "title": "Actualité - Tensions en Emend 125 mg (aprépitant) buvable : l’ANSM prend des mesures pour assurer la continuité de traitement des enfants - ANSM",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQy1WSXdNbnlZTWdHMDNlQk5uRlFqd0J5anZLTERWLVFZZFBNdzhIRGZxSTMyaFpsd2FMazBYZ0NXSUs1azE5SGFQZlhIckVKaGdCQ2VnOFg1OEhsR0ZOd3FJaTRsYmloaWRwSnJadW1oTHJ4SktyUGlCR0xZelVaUE5JSV85VUZya2FYMWREVjBXN0FrMWozcFhSZk5CRlEtTGd3V183OXZoV0VUaHV1QkVSbVQtcUZoek9Vek1TM2ZBSTNwOUN4Wk1LV0tkLTBZNGVicVFLYlhuTkhGWFp6VHZWajhxTnFU?oc=5",
@@ -624,6 +624,16 @@
       }
     },
     {
+      "id": "4c880851f102",
+      "title": "Le vice-ministre Le Duc Luan : Finalisez d’urgence la circulaire relative aux appels d’offres pour l’approvisionnement en médicaments et assurez-vous de sa publication avant le 30 juillet. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMHhUbTZOMlRtdjh5SWh4UGsyR296YXNsTGt2b01qb1RyOGFfZVc4ZjBDeElUeXFEemhSV3I2MkZhYmUxUXhxT2hUMFJXUHJWemFKUGV4cDNWNFF4cnZEV2M2S3VzUDRYQnRZUVBLakd1NjI4cHlIbjhvbUZ0OVJVMkJzd1VTMUJUTGpOUk14TWNaTHBwRlRBSUM5QklGOWFyR1BjNzR6Z0dBNWhZT19GMm5vdFItRVBfZFJueU9ycC0?oc=5",
+      "published": "2026-07-18T01:07:30+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "b94433fda0dd",
       "title": "Le gros coup de pression des laboratoires pharmaceutiques face aux baisses de prix des médicaments en Europe - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZFdEbkd3UzVBcUN0eW83T0dYUWRjbHFESW96SXFKZmlTWTF0REQ0NkNYa0xWNkJPQzlyOHZfMHVEazBqUklDQmVodFJaX2h3R2dJUE9OMHh6X2dJUFc5VWJwZTBjRlRIZHVBOXhQc3Jjc2NidFZxWTJ5NTZhSm5zeFk2emlOeFJvVGNKZGtQQTFrLXlOdzZkeTBrZHVMb2VIRXo1ZGdISk5XalBKWjVYdWY5RWJNZ2tKQjlGeHhDM205NUwxVGd4VTVhU1loRXNJX1ByTVFLZ3Zteklvd2ptRWdJVW1kVXk4NWdGLTk2N1ozWU1DVUo0TEFaZmR5SGxHeUk3YWN3?oc=5",
@@ -631,16 +641,6 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
-      }
-    },
-    {
-      "id": "de374127424d",
-      "title": "Médicaments : entre tensions d'approvisionnement et quête de souveraineté pharmaceutique - Finances News Hebdo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMXVGZUVGekRMeVQ1Wm1kSkNDek1ISGVyb29nUW9mcVpLN0hRbUxxY1ZTNDVxcmdfZlNXb1NFVHhOdzNPV2hjME8tc1BfenB4MzNFMFFjQjVla0k3dVVncHdSU01TeWhsNlFXMEVUS0Z2d1B5ZWtIY2EwT2pLRHpQeF9VQXItVzk2NlUyMVhmMTJ1NGNYVUprTVFOMEJxbHNCb0s1YmRWcnhHZnNSTFg4?oc=5",
-      "published": "2026-07-17T15:01:53+00:00",
-      "source": {
-        "name": "Finances News Hebdo",
-        "url": "https://fnh.ma"
       }
     },
     {
@@ -671,6 +671,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "de374127424d",
+      "title": "Médicaments : entre tensions d'approvisionnement et quête de souveraineté pharmaceutique - Finances News Hebdo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMXVGZUVGekRMeVQ1Wm1kSkNDek1ISGVyb29nUW9mcVpLN0hRbUxxY1ZTNDVxcmdfZlNXb1NFVHhOdzNPV2hjME8tc1BfenB4MzNFMFFjQjVla0k3dVVncHdSU01TeWhsNlFXMEVUS0Z2d1B5ZWtIY2EwT2pLRHpQeF9VQXItVzk2NlUyMVhmMTJ1NGNYVUprTVFOMEJxbHNCb0s1YmRWcnhHZnNSTFg4?oc=5",
+      "published": "2026-07-17T15:01:53+00:00",
+      "source": {
+        "name": "Finances News Hebdo",
+        "url": "https://fnh.ma"
       }
     },
     {
@@ -714,26 +724,6 @@
       }
     },
     {
-      "id": "7421200e9df2",
-      "title": "Crown Bioscience rejoint la NAMs Developer Coalition du C-Path afin de faire progresser des modèles pertinents pour l'humain dans le développement de médicaments - Lelezard",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IQlhnQmFicjh3Y0tZc0ZtOWl0dGEtNWJueWJJOGpYVDBYZDVzbUNLc1dzMDlIaDBGREFPOXdQVXE3WUYwUl9CaUEwaWgxZWpVT1FBOHAwV2RndE1oaVE?oc=5",
-      "published": "2026-07-17T19:23:38+00:00",
-      "source": {
-        "name": "Lelezard",
-        "url": "https://www.lelezard.com"
-      }
-    },
-    {
-      "id": "4f5ed1e829e2",
-      "title": "Une pharmacie géante de 1000 m² débarque dans ce centre commercial à Marseille - Le Bonbon",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDJNaW1mdXhCdzQyLXc3N1pnRUdoa3c1bURZQTJVRjh5eWpMOWwwNkVHQS0xSEFxUDdMWEdQT21HbktkS0tIM1Fsd2c4T1lLeWhQTk9reXhyRXFUMzdPSXYwOHZkZk1pYmlfMmpYVGdQdUNtX2VlRFJoN18yNzlwcWhHSjU2VFJsNzNhdjZRSS05QjUyRlZsX01FcXAzRGlyRWhTdDdKOA?oc=5",
-      "published": "2026-07-17T17:00:00+00:00",
-      "source": {
-        "name": "Le Bonbon",
-        "url": "https://www.lebonbon.fr"
-      }
-    },
-    {
       "id": "2978ebfbf4f3",
       "title": "Les médicaments onéreux creusent la dépense - Fédération nationale de la Mutualité Française",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVRyM2ZrNnF6QVVnOEhkZnlUTl9aTEdMVjZMdnF1YWJhUlcyOHBLZ3JhcUQzSUhjc1lWYUtPMDZ6WFlsYXlvcHlUM3A4QUJBUWZLSTE4dWtvWEJibWUxVjAyenl2SFNfdFVYaXpwdjUxZUR2aDBVWHM5X2JrNjBzZTd5V1Rsc3M?oc=5",
@@ -751,6 +741,26 @@
       "source": {
         "name": "L'Express",
         "url": "https://www.lexpress.fr"
+      }
+    },
+    {
+      "id": "7421200e9df2",
+      "title": "Crown Bioscience rejoint la NAMs Developer Coalition du C-Path afin de faire progresser des modèles pertinents pour l'humain dans le développement de médicaments - Lelezard",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IQlhnQmFicjh3Y0tZc0ZtOWl0dGEtNWJueWJJOGpYVDBYZDVzbUNLc1dzMDlIaDBGREFPOXdQVXE3WUYwUl9CaUEwaWgxZWpVT1FBOHAwV2RndE1oaVE?oc=5",
+      "published": "2026-07-17T19:23:38+00:00",
+      "source": {
+        "name": "Lelezard",
+        "url": "https://www.lelezard.com"
+      }
+    },
+    {
+      "id": "4f5ed1e829e2",
+      "title": "Une pharmacie géante de 1000 m² débarque dans ce centre commercial à Marseille - Le Bonbon",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDJNaW1mdXhCdzQyLXc3N1pnRUdoa3c1bURZQTJVRjh5eWpMOWwwNkVHQS0xSEFxUDdMWEdQT21HbktkS0tIM1Fsd2c4T1lLeWhQTk9reXhyRXFUMzdPSXYwOHZkZk1pYmlfMmpYVGdQdUNtX2VlRFJoN18yNzlwcWhHSjU2VFJsNzNhdjZRSS05QjUyRlZsX01FcXAzRGlyRWhTdDdKOA?oc=5",
+      "published": "2026-07-17T17:00:00+00:00",
+      "source": {
+        "name": "Le Bonbon",
+        "url": "https://www.lebonbon.fr"
       }
     },
     {
@@ -814,16 +824,6 @@
       }
     },
     {
-      "id": "0cfc11671b4a",
-      "title": "Allonger la durée de conservation des médicaments dans un objectif de réduction du gaspillage et de la pollution - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTzFramwtTGVyRHN3VHlVV190U3VyOXJFdlNwdUM2blRzeC14WTBpME9BS2RqZXBSS2VuU2RJYnRtMjFKdEJwMl9jSlJBZ2Z1TEJOOFlyQVpIV2tvVlVEcTViRHc3UGl5YV84LWRGSEdUVUphY3JzUGZzWFZ1bVJuQUNMT0pmMlNMazJ4VFNsdjNIVzFYd2Y0ck9WTHNEVXFqU3ZBb3FYNHRWc0U2d0NGRmF1di16VFhoanQyLWxnUFNuWWJjeUFBdkZrc24zNEFkbWVFbjlQdUZqQnd1N2c?oc=5",
-      "published": "2025-11-21T08:00:00+00:00",
-      "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
-      }
-    },
-    {
       "id": "7af89b5a24a6",
       "title": "Rôle et compétences du pharmacien : une profession au cœur du parcours de soins en Île-de-France - Agence régionale de santé Ile-de-France",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGI5eFMtZ204aGp1WjdMMDRLeEhvOUNLVG9GOGdEN0VPRnpPNzJHYk9QOGFPeHRKZEFsdnZxQXM0N05JeUdQb1NydEhZZmZxeGZmaFFRN25JMy1Vb1ROelJSdVRsVUVCZnh6bnRvT0pzZkpBWXdzTi10TXJvRlp1M1UzZ2ZmS0dIYU9LdHJUcVc0NXcxR3RCREl4RnpoVkVzclRNeHFUX3lYdHN4ak9ZT2JuSjN1bjFrMUZ1ckJycEw1Y2dxM0VBajJPRXo?oc=5",
@@ -831,6 +831,16 @@
       "source": {
         "name": "Agence régionale de santé Ile-de-France",
         "url": "https://www.iledefrance.ars.sante.fr"
+      }
+    },
+    {
+      "id": "0cfc11671b4a",
+      "title": "Allonger la durée de conservation des médicaments dans un objectif de réduction du gaspillage et de la pollution - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTzFramwtTGVyRHN3VHlVV190U3VyOXJFdlNwdUM2blRzeC14WTBpME9BS2RqZXBSS2VuU2RJYnRtMjFKdEJwMl9jSlJBZ2Z1TEJOOFlyQVpIV2tvVlVEcTViRHc3UGl5YV84LWRGSEdUVUphY3JzUGZzWFZ1bVJuQUNMT0pmMlNMazJ4VFNsdjNIVzFYd2Y0ck9WTHNEVXFqU3ZBb3FYNHRWc0U2d0NGRmF1di16VFhoanQyLWxnUFNuWWJjeUFBdkZrc24zNEFkbWVFbjlQdUZqQnd1N2c?oc=5",
+      "published": "2025-11-21T08:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     },
     {
@@ -854,30 +864,10 @@
       }
     },
     {
-      "id": "41975f248b10",
-      "title": "Quartier de Hong Gai : Examens médicaux et distribution de médicaments pour les anciens combattants et les proches des martyrs. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmIyQzlfdUtXbXJpS1MyM1hGZ0VUb3JVODNpLW1QcU1HZmdubjg2UjlVV2tqNDlIcktoRWM4NVV0TFN6Y2h6eS1GUld2THR6VWR6dFNCZndCeUtxU2dwRldVUnJ5OXlQOExWRENUT1ZocnZkb0R5SWppcFFsQjRDdTg2WUZUR0RMa05DTEdYSXI2ZGdhRXJIeFFjMjg3TG05QkdLUmt4bHQ4dGRHZUV0Q0JR?oc=5",
-      "published": "2026-07-18T15:15:05+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "b170818d0cc0",
       "title": "Médicaments anti-obésité : début du remboursement de Wegovy et Mounjaro en France mais les contraintes seront strictes - Sud Ouest",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb3ZaeEpzQXJFcERyZ1RTaXdmNmxHVEF6eGRJbUNxV19lUE5Pb3ZiSFY1WW10WXZVUlBBQklfcDNOQTZLZmx6a2xWdkZFbnI5MmZEeldUSUFqNFpwTTJFQlpYNHBOUTE1TTVIRjRjSXBMaXdkSTFGeTJrbldoS0JaNWU5bV9MMkstYzhqNTZXU1p6ZEh6YXNzSm1NT21nMGdUcW5aRDM0UVU0NDNTb2c4aGdEUG5oeTBSdHMzR0Fsb2p5d2hVTl9NOXlFMWI1ckQwdVpEZkZMZFdJVUtjWXlrWk9tTFExNGFTdWZsdFJ1OXM?oc=5",
       "published": "2026-06-14T07:00:00+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
-      }
-    },
-    {
-      "id": "7865e84fa606",
-      "title": "Santé : la fabrication d’un médicament « stratégique » contre la goutte va être relocalisée en France - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRENPMEZEWlBDbHhjbERVSloyQjdMUlVYeHR4czBFVHhiSV93bWt3MWhQS0pwWHFYNkhjRERyVTh6T2M1VnAtMTJZeHNzeVl1dDZDR3pPejlPM0hvMFJXMFRUT1p6ZjEwSEg0dGRpWUpYY3AxWkppMkFWVUw5UUxwTXdNcEs4M1huSjJUVkU3SlZDT3Myb3oyVEdfSl9VLWFTZDR2bUFISThDUDhPMzNXRGlJU0l0TGphUFc4c3Fma0U0NXlQb0VkVkZ4Y0p3bWx4SDM2YzA0UHI0NDV3WVZWcTc1eU1VQQ?oc=5",
-      "published": "2026-06-22T07:00:00+00:00",
       "source": {
         "name": "Sud Ouest",
         "url": "https://www.sudouest.fr"
@@ -904,13 +894,13 @@
       }
     },
     {
-      "id": "d0046eb564fe",
-      "title": "La direction de santé publique de Montréal lance une alerte aux surdoses - Noovo Info",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTlU5aG5teXBIY3FFbzRsMFB3bEcxR1F3YXRXbklPQTV1SVd2MnRlWDZScDB3Q1RFQUNiV0N5cEJZbHNybU5JWkpvS091eHA1bnZZUGJneUw4VlVzS1NPY1JjU0tuUWZneHQ1VldfX2lGSzY4NG1XSW5XZmVHLTE3b2FiRVFNNlJGWTR0azJiWWJJUmxheExGNEIyZlo1ekc1cUtlOVBGT1hVMDA2alo1cHA5aHQ0ZmFqSVo4VnBIRHNGbXJmcVVQUg?oc=5",
-      "published": "2026-07-16T16:00:03+00:00",
+      "id": "7865e84fa606",
+      "title": "Santé : la fabrication d’un médicament « stratégique » contre la goutte va être relocalisée en France - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRENPMEZEWlBDbHhjbERVSloyQjdMUlVYeHR4czBFVHhiSV93bWt3MWhQS0pwWHFYNkhjRERyVTh6T2M1VnAtMTJZeHNzeVl1dDZDR3pPejlPM0hvMFJXMFRUT1p6ZjEwSEg0dGRpWUpYY3AxWkppMkFWVUw5UUxwTXdNcEs4M1huSjJUVkU3SlZDT3Myb3oyVEdfSl9VLWFTZDR2bUFISThDUDhPMzNXRGlJU0l0TGphUFc4c3Fma0U0NXlQb0VkVkZ4Y0p3bWx4SDM2YzA0UHI0NDV3WVZWcTc1eU1VQQ?oc=5",
+      "published": "2026-06-22T07:00:00+00:00",
       "source": {
-        "name": "Noovo Info",
-        "url": "https://www.noovo.info"
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -934,16 +924,6 @@
       }
     },
     {
-      "id": "0e1860381cc2",
-      "title": "Psychiatrie : les ruptures de médicaments mettent les hôpitaux sous tension - Finances News Hebdo",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOXRJLWUxbDZ6VDJ4ZktEOGtRUDRJUFRIYUtCRXpJNWJPUm13WVhtcHNGQUNJRjFpRU8tYkI5VFdVQjgyQ040bG03MUFPbXBaNnRuSmIyMHMycThhRkl4cXJ1Nlp4dE5OTjlqVFpVWTlnbk9Oc1VuTnZUa1VYSFVkV0liLUR1N3lXRHM5OUZ4UmxTXzdBTGI2LVVrX0JlUWc?oc=5",
-      "published": "2026-07-17T13:03:37+00:00",
-      "source": {
-        "name": "Finances News Hebdo",
-        "url": "https://fnh.ma"
-      }
-    },
-    {
       "id": "18b7faa700e6",
       "title": "« Health Data Hub » : le traitement automatisé des données de santé autorisé par la CNIL est conforme au RGPD - Conseil d'État",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWW9MaGtwVGVYX1hJVHgwaElmQ0VFUHNPVmZ3RlFyZllKTW1hVVhVenJ6SHE2NFF2MHY3VlUxdmxUOWtxOWJmNVFneDhNaHJTRU9jNE45UjZWSWNqems2YUNJUE5hTGtYM2RnbU5iWXlRdDhKR2pjbG1jaEhNVUYtcENITWR5UHlkVWdTdUozNDZDQnl1ZVo4bjg2OUhRX2tkYlZ2RDhCSzVsUmVrbFl4U0lhTklsOU9vMTJHMzNGWlhYdlB6bnZLVTNyOTdBazRYZHZGd0NxTENmQQ?oc=5",
@@ -954,10 +934,30 @@
       }
     },
     {
-      "id": "e63c190eb259",
-      "title": "Examen médical gratuit et distribution de médicaments pour les bénéficiaires des politiques sociales de la commune de Hy Cuong. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2ltRUpIYUdUNmNvcTJFSkV1c2VVRHZEYkhpQm5naV9EZF92SW51SXZBcHVpTEdkNWlhMEtJWmJzUmdESG9UV0tmS3JZdXpDc0tWTlNpWkFhY0VpWjRqZEM3aHY5ajdQMWNXN0VMSGNGbGZUNzlrSnFjTi1QSEdUWlAzbjVtS21mRzRlLTE0c1NkX05IMTItdUhWajQwa2dpb3c?oc=5",
-      "published": "2026-07-18T15:47:19+00:00",
+      "id": "d0046eb564fe",
+      "title": "La direction de santé publique de Montréal lance une alerte aux surdoses - Noovo Info",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTlU5aG5teXBIY3FFbzRsMFB3bEcxR1F3YXRXbklPQTV1SVd2MnRlWDZScDB3Q1RFQUNiV0N5cEJZbHNybU5JWkpvS091eHA1bnZZUGJneUw4VlVzS1NPY1JjU0tuUWZneHQ1VldfX2lGSzY4NG1XSW5XZmVHLTE3b2FiRVFNNlJGWTR0azJiWWJJUmxheExGNEIyZlo1ekc1cUtlOVBGT1hVMDA2alo1cHA5aHQ0ZmFqSVo4VnBIRHNGbXJmcVVQUg?oc=5",
+      "published": "2026-07-16T16:00:03+00:00",
+      "source": {
+        "name": "Noovo Info",
+        "url": "https://www.noovo.info"
+      }
+    },
+    {
+      "id": "0e1860381cc2",
+      "title": "Psychiatrie : les ruptures de médicaments mettent les hôpitaux sous tension - Finances News Hebdo",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOXRJLWUxbDZ6VDJ4ZktEOGtRUDRJUFRIYUtCRXpJNWJPUm13WVhtcHNGQUNJRjFpRU8tYkI5VFdVQjgyQ040bG03MUFPbXBaNnRuSmIyMHMycThhRkl4cXJ1Nlp4dE5OTjlqVFpVWTlnbk9Oc1VuTnZUa1VYSFVkV0liLUR1N3lXRHM5OUZ4UmxTXzdBTGI2LVVrX0JlUWc?oc=5",
+      "published": "2026-07-17T13:03:37+00:00",
+      "source": {
+        "name": "Finances News Hebdo",
+        "url": "https://fnh.ma"
+      }
+    },
+    {
+      "id": "41975f248b10",
+      "title": "Quartier de Hong Gai : Examens médicaux et distribution de médicaments pour les anciens combattants et les proches des martyrs. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmIyQzlfdUtXbXJpS1MyM1hGZ0VUb3JVODNpLW1QcU1HZmdubjg2UjlVV2tqNDlIcktoRWM4NVV0TFN6Y2h6eS1GUld2THR6VWR6dFNCZndCeUtxU2dwRldVUnJ5OXlQOExWRENUT1ZocnZkb0R5SWppcFFsQjRDdTg2WUZUR0RMa05DTEdYSXI2ZGdhRXJIeFFjMjg3TG05QkdLUmt4bHQ4dGRHZUV0Q0JR?oc=5",
+      "published": "2026-07-18T15:15:05+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
@@ -984,16 +984,6 @@
       }
     },
     {
-      "id": "115451d1576a",
-      "title": "L'Institut médical naval a offert des examens médicaux et des médicaments gratuits à 140 anciens combattants. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUXRtWlhGN1BzZ0xSYXRhcVlHY25KWE5xV2h2N1pRZXYwbkNHalZlX3ItSUpPQTR4THRVenZ1NnZPTG5sYkQxMVFUU3c5N2REb0RlRnRjYm9HdS1Lc3BJZVVLb2d6cTJKelB4cjNIV1BWM3VRclF0cUc0OE41TmVZWDVFUzktZXZfd2ZqT0U0c05wOEpCS3c?oc=5",
-      "published": "2026-07-17T02:40:09+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "4aafbc27d43c",
       "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? en replay - Et la santé, ça va - France TV",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVGFIQWN4R3FrTWxmaWlPQVRLZjg2eGlaWWhRMk5Zc1pZLV9hbjBBZEZ5VHVRLXZzYnl0UmhIOExydXdRWkxaTWRJWC03LWtQbE1HcFdzakd0Z0tZS1lpWGdyM1hqU093UFl5SlJkV2RjV0ZKWmVRXzVCTU5taEVlbTVCNlpHRnpxakdzTnQwTVkwTkVCbDd4UmtUbEEzSFg0V3YzcW9WYllMaHVzZGR1WUR1aElYNV80eVVJWXdSTWUyZw?oc=5",
@@ -1001,6 +991,16 @@
       "source": {
         "name": "France TV",
         "url": "https://www.france.tv"
+      }
+    },
+    {
+      "id": "115451d1576a",
+      "title": "L'Institut médical naval a offert des examens médicaux et des médicaments gratuits à 140 anciens combattants. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUXRtWlhGN1BzZ0xSYXRhcVlHY25KWE5xV2h2N1pRZXYwbkNHalZlX3ItSUpPQTR4THRVenZ1NnZPTG5sYkQxMVFUU3c5N2REb0RlRnRjYm9HdS1Lc3BJZVVLb2d6cTJKelB4cjNIV1BWM3VRclF0cUc0OE41TmVZWDVFUzktZXZfd2ZqT0U0c05wOEpCS3c?oc=5",
+      "published": "2026-07-17T02:40:09+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     }
   ]
