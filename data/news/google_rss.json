@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-24T03:29:19.636886+00:00",
+  "fetched_at": "2026-07-24T06:33:31.716317+00:00",
   "source": "Google News Health RSS",
-  "count": 99,
+  "count": 98,
   "articles": [
     {
       "id": "c52a04970620",
@@ -14,43 +14,23 @@
       }
     },
     {
-      "id": "27857f2a6450",
-      "title": "Canicule et médicaments, un risque pour les plus vulnérables - La Vie.fr",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY3ZJSzNSc1RJdnBSUGxsZzJmZGdHRE93TGVZcTd0SmVWRWpMaDBNQ2prN2dWdW9VRlAtYWtmWk1OM0xwREVjN3lzMUxsODNTSFBNcWFkQ2xzdGFVdmhsRzZrOWRNdS1KYUtyOWdiSTdvWXpZcWNiOWJrWGRJUm5vWWk2QW5Jb2lmaV9zQkJITzlrOERJMlJoZThIUFBydk9qdmZWM0pvVVR0LVJnamxGLTZR?oc=5",
-      "published": "2026-07-22T15:13:00+00:00",
+      "id": "f387fa77f716",
+      "title": "Médicaments, dentistes, taxis : le gouvernement veut baisser tous azimuts les taux de remboursement de la Sécurité sociale - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVVcxbDNRZEJ4MmhYRHFOcjJlMFpoY2FwRFhIR2pfVkx0X0NuVWE0ei1ScUp5UGpCOXFtTUsya082OGVMcUdzMy1pV1BhMThmVG95Q3QweHpwN25FbWpZSjdCTWRwX2VLczZKX01PV1ZwaFhnOFVISHhOc2VrdTZROEQwSzlacUNZb19yUFhMcmZnSGo0S3ljczFmSWFjSkF1SjhKVUUtOGw1Sl9YZmIyQTBfSEx6aEtMblJ6eUY0VTB0UHlnOUlNYU82dnlaU01XbWlIcVdkZ2FCaFZJZVlRZzZBUFZDVjhtTk9QM1pDNUJNMTFaQUtYWEJXV3BqUHRnd3BB?oc=5",
+      "published": "2026-07-24T04:00:09+00:00",
       "source": {
-        "name": "La Vie.fr",
-        "url": "https://www.lavie.fr"
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
-      "id": "1f9e221eb3ef",
-      "title": "Franchises médicales et remboursement de médicaments : ce que pourraient rapporter les pistes d’économies explosives de Sébastien Lecornu - Le Figaro",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZExlY2VWYVRNakliejlvT005eWF4LXNyaU15VFJWR0FpT1FQOFloa1dmLW1Lby1URnFSRFFmSVJOSTlxNlRLcGtxeE4xb3k0dnBqeGx2UDVjMmJ2YUJ3ZFdhS0Q4bUZoOTVqTmpmMHZvbFRJeUo3aENNUGFzYjhvVUExcVFTdzJNdVo2d3dOQTRMNE5vanVCcnQwdER2MGRhRjJZYkNNdWhhMUtPeExJM195SEo5aTdDenFxR2VvOGdROGhHaFc3UnFBcFRsSHhpY0hFXzVrZy1nMlR1dzNmbmJwcDdJY3VJNmNnZEJEaXZOOEJXOFV0Mm5PS1Q2WlU2RHpRU1BZeWh5SmFk?oc=5",
-      "published": "2026-07-22T13:00:08+00:00",
+      "id": "7baee0a754f8",
+      "title": "Entreprises du médicament : « Le développement de traitements contre les cancers pédiatriques est plus complexe » - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNmROdnlvRVh2QWNIYXVxS2gyTk40QTFtaXhCZDdQem1QaUNfcWdfSFUxOVJmRUhCTV9DalNRNVEzT3ZBTHdra0R4ODZfTTdzN0ZTdmR4RnctM09FZVBBY0ZnZElOV1JCSzY0YmQwdUkxeEZ5TUpBTlI5S2xUZ2hPY2lHSDJDeFMwVzczZWk1RUJIYWtQSDQtLUV0TFZxdEpHWVZxaHJzdzZ6bXdfc1RDNnhxeU55Q0c4RXV5ay1lV2ozRTJTdWM0X3JZTmNjazV3elFJc0ctTEt4MkRhbVl1aURKQ3R3T3YyLTZTUGJn?oc=5",
+      "published": "2026-07-24T05:00:00+00:00",
       "source": {
-        "name": "Le Figaro",
-        "url": "https://www.lefigaro.fr"
-      }
-    },
-    {
-      "id": "d022aefd6b5a",
-      "title": "\"Ils vont nous ressortir les décrets sur les franchises médicales comme l'an dernier!\": pour dénoncer les abus, Lecornu n'a pas choisi par hasard les \"50 boîtes de médicament\" et \"25 passages chez le docteur\" - BFM",
-      "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxNYXhYRkxPekhiak92MmdQaUt5RGNxSTQ0a205RV9kUXRtbGtzaTJ6ei1zVUV3Ulp5OFUtV3B2WmtUWEhwd2I5X01sM1U1aVR4OF9wQU1jYi1lZGRDNkhMVURFeWRJZWg5VXdQd2E2bWtxdFNUNGl5U0lpM1FLbkQ2QXZhSDhlYlp3ZDRIcFhVOXp6b0xvOF91UTVLdXIydWdaV0dSZ0dtZVdUNU8wRjFYTS1lSkxZdHBMSC1OQjRqOEpSN0FWZFh0ckdXc1gtOEVaUGYzSWRORlZwRHh6clJQa05fRXNIY21rRFFUSUp3UlpER3pXejVHZXRlLUlPaWxWanM0dnVHMFdONks5dThZRHUxb3Z4eUxibGpiZ2F1ZzhqLXdhSm54T3hmRXVCcVJPalowZ2lBYmxsYjYxaXp0SWo4STFqNFFXM3BwOG8wOENORFpMQU9Sa0M4Nkdxa0MzSmpUZmZNRENsZWVjWmd4TTgwRVJVLXM0YnlwNnRSSlU?oc=5",
-      "published": "2026-07-23T04:00:15+00:00",
-      "source": {
-        "name": "BFM",
-        "url": "https://www.bfmtv.com"
-      }
-    },
-    {
-      "id": "325ed1239bb2",
-      "title": "\"On va faire payer les plus fragiles\" : faut-il moins rembourser les patients qui dépassent 50 boîtes de médicaments ou 25 consultations médicales par an ? - RTL",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNNmhPUmU5UmVjQjFMWERuWU92TDY2eG1LU3liYS1YNG9PZXplMGtkQlZrQVREa0UxY2pzNEFna2xsN0xaUXlMZnZxLThscXJTalQwSVNHR096N0ZvS2xKcUlqamExZmVVaG9oRVRTNjd0UndCbGh0VWJIMGgxWVhMakNkUGxaWEFvZnE1M0d5LUJXd0lyMkRfSHYyNjgzczBVMGdlT1h5ODhyN0xLNE9qYlpLWFpTT25iX19DRm9naV9kdVVaQ3NrOXlqOGFCNGJ4c2J2d09uR3NSNkFVVlE1QzE0VFRvUE92YkRubVNQaWRxeWZ2OF9Rd1hta0NDMnloWFZFb3ptNm9oaU1zVXhjOExCSHlfYXRSZVE?oc=5",
-      "published": "2026-07-22T16:50:04+00:00",
-      "source": {
-        "name": "RTL",
-        "url": "https://www.rtl.fr"
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -61,6 +41,16 @@
       "source": {
         "name": "TF1 Info",
         "url": "https://www.tf1info.fr"
+      }
+    },
+    {
+      "id": "27857f2a6450",
+      "title": "Canicule et médicaments, un risque pour les plus vulnérables - La Vie.fr",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY3ZJSzNSc1RJdnBSUGxsZzJmZGdHRE93TGVZcTd0SmVWRWpMaDBNQ2prN2dWdW9VRlAtYWtmWk1OM0xwREVjN3lzMUxsODNTSFBNcWFkQ2xzdGFVdmhsRzZrOWRNdS1KYUtyOWdiSTdvWXpZcWNiOWJrWGRJUm5vWWk2QW5Jb2lmaV9zQkJITzlrOERJMlJoZThIUFBydk9qdmZWM0pvVVR0LVJnamxGLTZR?oc=5",
+      "published": "2026-07-22T15:13:00+00:00",
+      "source": {
+        "name": "La Vie.fr",
+        "url": "https://www.lavie.fr"
       }
     },
     {
@@ -94,6 +84,16 @@
       }
     },
     {
+      "id": "40a83fbc45ca",
+      "title": "Pénurie de médicaments contre le cancer : \"Les choses vont mieux mais les problèmes persistent\", alerte la Ligue - midilibre.fr",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNc0RMMUtJUHlWTGhGNHgwRDdmX1Q5c3FRYmJva1JzQjBPZzd3N0VnVmh2d2hWbEhNVFF2R2dKTm84Q3FtWWFXUHVOWXphS0x5OWprX3lHUmdsMlRyZlRvT3B4MUlCUXZWQV9HX0FfRkM0MmV2S3NtcGlseHRoODBJU0ltV0JDTkNLQjhEcTJwY2otZ3BXZmo3VnExXzJVWDBhZjNlVm5wWTdRVENxZm1zOTZFS3ZDa1l0WVNhME9VX3lFR0UtOUY4bmhYU18xYTd2c2tzTzFaM1hsN3BfUlEtenRDeFEtSkNLVS1nTg?oc=5",
+      "published": "2026-07-24T06:23:00+00:00",
+      "source": {
+        "name": "midilibre.fr",
+        "url": "https://www.midilibre.fr"
+      }
+    },
+    {
       "id": "4d1a83141c0d",
       "title": "La concertation nationale pour l’avenir du médicament livre ses premières conclusions - Hospitalia.fr",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb0ZaVHotZTl6NW45WkVkaGpHTk1abXlOZC1qUDBQb3Z4YTVMN2JxWjlqZVEzQkZCUV9jMU1Ya1FBN3ZMOUdhNlhFMXJqZThTczRmbmZ4RGQ3aUFORURRQlA1ZVFmTXdBaDJMT0FLREpIaURndURSdy1TZV9xWmxHWmVQRkJNdy1CME9FVjBtTjVJbXRHckoxdkhYelIycV9neTJzX2lpM2NOS1h0RktoUTNlNE9DQmF5blpPOTNtVQ?oc=5",
@@ -101,26 +101,6 @@
       "source": {
         "name": "Hospitalia.fr",
         "url": "https://www.hospitalia.fr"
-      }
-    },
-    {
-      "id": "da492d8b9b89",
-      "title": "Médicaments contrefaits : repérer, éviter et signaler les dangers en ligne et à l’étranger - Atlantico",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaEo3Rkh4Y3lxWXM0Ynl2T0lERDlVZ0pPdHppWXRkeVMwYUxEVzB0OVNZeXkzanM4YjNkTWEyRlFBVzRBbU1xQmZtNzhhUXEyNkVoU0M5NVNlTF9KT2JIcC1QbzNaLWZPcE9NRThXb0dfemt1VUt4NnhVazliMER5SWFnV3VyM19Lbml5NkVrdXRkWS1rT1BSaHMxRks3Z2h5b2xJVnBXWTRLMW1oUHkyUU51Zzk2MzZfbGNXRGVWeTA?oc=5",
-      "published": "2026-07-23T09:15:13+00:00",
-      "source": {
-        "name": "Atlantico",
-        "url": "https://atlantico.fr"
-      }
-    },
-    {
-      "id": "4232335198a5",
-      "title": "Médicaments anti-obésité : guerre ouverte entre Novo Nordisk et Eli Lilly - WhatsUpDoc",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTG1ibEI5YlBXUW1hWGV4RURDN09XYnVyZW1wWlhsT0pkd0JtY3l4Q1VRRTR5cW0xWVN1TkMxNjQyam9TaGc3OTZ1ZlFvRllobWp0OFByVkQwdm5vUGNtNFhMT2hyRkF4SFZLYXN1ZEI5ZUNYdTRmalYyYUpyMGl1clFra1FNS0drLXF3ZlVBS25NTnRhMVpXbF9PbXhoTEVpMmc0VzBReWF5UlExRWJaMA?oc=5",
-      "published": "2026-07-21T17:05:00+00:00",
-      "source": {
-        "name": "WhatsUpDoc",
-        "url": "https://www.whatsupdoc-lemag.fr"
       }
     },
     {
@@ -134,6 +114,16 @@
       }
     },
     {
+      "id": "d01bc3490b64",
+      "title": "Pourquoi certains médicaments seront moins bien remboursés aux Français l’an prochain - Le Figaro",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYzd6RGV3aGRuMVlTYkoxemJSaWp4SlZPR1hPTzZ5d2RLUENuV0RoazhHUHF3UWdMemJqV0ExUkcydjN0cHFzTk5uemR3Vmh0alRvQTBoYThWRXdhM3JCbkFLeXdPdExFdUt5Vk9Wb010MkR2NkkyUEduUzVvUkdoOGNDR09NQWVTSWpWMDkxOExYYlpkLXFaR3I4WElNTFRQbE9QWGtmZjcxd2gxQmU5eExGa2ZOVXFINzRManlxSUhteGY3cUh3a2FB?oc=5",
+      "published": "2026-07-24T04:00:00+00:00",
+      "source": {
+        "name": "Le Figaro",
+        "url": "https://www.lefigaro.fr"
+      }
+    },
+    {
       "id": "a4d17831b98c",
       "title": "Disponibilités des médicaments en ville et à l'hôpital (semaine 30) - vidal.fr",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUWgycjhaaTNyODZsMG9wWlc5YXp5MjNkNDlzRUY1SGxFaXlTYUQ3QmZuVUxjR3BCd2ZiY0dIdlRidDdpWDNZT3QtajlPdkVHd2t2NjRXRmsxWVgyc3lHN2xRdDBaOFduX0ZIYVZ5S2xDZF80dlhpQWs1MVgzUVFOYUVpMEQ4cGJFU2lmU2k2bFRPNW91ZVFUWS1KM3F4bWJHQ2VKUGJaczJLREx5?oc=5",
@@ -141,26 +131,6 @@
       "source": {
         "name": "vidal.fr",
         "url": "https://www.vidal.fr"
-      }
-    },
-    {
-      "id": "bd3172947927",
-      "title": "Médicaments, consultations : le gouvernement annonce le doublement du plafond des franchises médicales - Le Figaro",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdlpteVJ0SkR3S2puenhSYlR5Z1doYzZ3MXVzbkV3VlFvNTlkNFByZmFHME1sQldmUUJ5UUxaczdzVXQ5aGN4UU5RWXNQT3R1Z2w1SWpHVmxVdl9UWmg0eU83NFk0UnJhUkZOTm9qcGhkeWxQSTBBQXY5Q0hOUE13VWhEaGxWWjktb0JqcUtuemhIcVdwMnVUMzdZR25XWkpQN2xuT2xSSWhWWTY4MHZBdWFnRi1XVTFmZVluV3NldXZ6X2sydnJ1TGZXSk9ob2xLdXctbXRn?oc=5",
-      "published": "2026-07-23T07:36:19+00:00",
-      "source": {
-        "name": "Le Figaro",
-        "url": "https://www.lefigaro.fr"
-      }
-    },
-    {
-      "id": "d2b801774928",
-      "title": "Plus de 25 consultations ou 50 boîtes de médicaments par an ? Ce que vous payez va doubler - Capital.fr",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdkRHS2c4QUJMOHZJb3U4UFVlMndqWEk5aG5WVW9Relg0dERZS1J3WXptRDNzcFloUHJPVUVfZWVCYkN4cE5nTE1oTVVHaURLR0hpa09BSWlleWtKbUhXSWVzZXl0YlRjR2V0ZThZNVI3R2w4dXBpeWFBLTc5RnVEeV9tVVVmUUE5eWV0Wmo1ak5VRXltWGIxUDdfZ3R1aXNTNmMxeE0tZEhsR2JHcGpzS0J4NC1LcjVKelU5Q3RTUjZpWkxEdzRraXNibmw5T2MxMGJERA?oc=5",
-      "published": "2026-07-23T09:30:53+00:00",
-      "source": {
-        "name": "Capital.fr",
-        "url": "https://www.capital.fr"
       }
     },
     {
@@ -174,13 +144,13 @@
       }
     },
     {
-      "id": "5b205c941ebb",
-      "title": "Dépasser « un certain nombre » de médicaments par an risque de vous coûter plus cher - Le HuffPost",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZS1UNW1uSldHbFdxSWJNXzFuZFBBQnpIZGdFZi1iZ1JlTFBuYnVMNHowTldORzdfdndUUTRvZDZadm95d0R3TF9OUFp2cHJDQy1vcXpRWFUyWjBLdkFBRm81RGdqb0REZDh4WUFISXZ0S1B3Rk5ESk1kajNoZ2Z5MDJ0aVBFbXdTS3k4NHNBaE9XWEJVNlZ0S2FPRWRDMW9CNVZ6QWlicHBZYVg5S256NUlINEE5dzZIZk5JT0lBZkZzbjRCN0FmWHRsY21Ca2l1a3JVSGtfZEl2bE9xNHNXMUJsS0VqeDM0a25nLXN3?oc=5",
-      "published": "2026-07-23T08:56:31+00:00",
+      "id": "d2b801774928",
+      "title": "Plus de 25 consultations ou 50 boîtes de médicaments par an ? Ce que vous payez va doubler - Capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdkRHS2c4QUJMOHZJb3U4UFVlMndqWEk5aG5WVW9Relg0dERZS1J3WXptRDNzcFloUHJPVUVfZWVCYkN4cE5nTE1oTVVHaURLR0hpa09BSWlleWtKbUhXSWVzZXl0YlRjR2V0ZThZNVI3R2w4dXBpeWFBLTc5RnVEeV9tVVVmUUE5eWV0Wmo1ak5VRXltWGIxUDdfZ3R1aXNTNmMxeE0tZEhsR2JHcGpzS0J4NC1LcjVKelU5Q3RTUjZpWkxEdzRraXNibmw5T2MxMGJERA?oc=5",
+      "published": "2026-07-23T09:30:53+00:00",
       "source": {
-        "name": "Le HuffPost",
-        "url": "https://www.huffingtonpost.fr"
+        "name": "Capital.fr",
+        "url": "https://www.capital.fr"
       }
     },
     {
@@ -194,33 +164,13 @@
       }
     },
     {
-      "id": "139c55bff9e3",
-      "title": "Actualité - Tensions en collyres : bien les prescrire pour préserver les stocks disponibles - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnRCcVltOXNsZ1ZESHphU0F3b3gzNVVxNlUzNnNNWHFXWV9laUZ6YjBPbG5RTExMd3NfUWhhNjRPRXRVTjhSNmg2Smp5SzdyZVVfVUFKd1hYOXM5NGJnOWtlRVZWVElvN2tjWUwwWWFkRmpJV3B1YW9IM1g2ZmJOek5MNVRpU3VZM3gyb0ltU3puQ2RkTHUtT0VDX25GdE00S3A4NlZ2OWJEQWRJSlJB?oc=5",
-      "published": "2026-07-23T08:05:52+00:00",
+      "id": "5b205c941ebb",
+      "title": "Dépasser « un certain nombre » de médicaments par an risque de vous coûter plus cher - Le HuffPost",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZS1UNW1uSldHbFdxSWJNXzFuZFBBQnpIZGdFZi1iZ1JlTFBuYnVMNHowTldORzdfdndUUTRvZDZadm95d0R3TF9OUFp2cHJDQy1vcXpRWFUyWjBLdkFBRm81RGdqb0REZDh4WUFISXZ0S1B3Rk5ESk1kajNoZ2Z5MDJ0aVBFbXdTS3k4NHNBaE9XWEJVNlZ0S2FPRWRDMW9CNVZ6QWlicHBZYVg5S256NUlINEE5dzZIZk5JT0lBZkZzbjRCN0FmWHRsY21Ca2l1a3JVSGtfZEl2bE9xNHNXMUJsS0VqeDM0a25nLXN3?oc=5",
+      "published": "2026-07-23T08:56:31+00:00",
       "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "c9773c2618b9",
-      "title": "Mauvaise nouvelle pour votre portefeuille : voici ce que va changer le doublement du plafond des franchises médicales - CNews",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnZuZXpMREJnU1RxZTBZMm50eUdaaHJmUlBjMXVCOTFDN0ZlY1NYYThsM09CaGw5Tml6RFRIdGl0RFowVGVVSjhqcnlMSXpZRXVSQWptRm51Mm5kalFxWnNjamh1dTJ3UGQxczdMX05obmU2NlVoeFFKV0hrSHRMeVdnZlI1a0JHdWwyOGhScHFtSDBRU3hjamxGdzEzYm9iYU9KRWMwZFJlOUdCWncwdjdXY1FWaU9sRDFVeNIBwgFBVV95cUxPdm1lb01oanc3VGQtX0ZkbUgxU19iSDZqZ0ItUmZ3VzdvZDlfaExVaUo2cDJUS0ZKSTRJaTJySGtKS0VNZDZYUUJvdkNXcjVlWGJGUi1rZ1JETzhsZV8zeVpFWGFQNkJ1UlB6eE9MaFg0T3BmU2NVUVVvMzYzT09PYXhrY0lSeVBNeUh4SDk3cUNCQktpYzNDVXJyejVHbjdwVjBOLUdEbzJtdHQwVXVyNGl2UkV4VGRFS1g2WGZPYnFPQQ?oc=5",
-      "published": "2026-07-23T09:27:00+00:00",
-      "source": {
-        "name": "CNews",
-        "url": "https://www.cnews.fr"
-      }
-    },
-    {
-      "id": "94e1ff4f62d2",
-      "title": "« On s’attendait à des sales coups » : le gouvernement annonce le doublement des plafonds des franchises médicales - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTml2OWtxMTNVWTNzNHpMN2QtTUV1QXJqdllGak5GTnJHR0lWWG5tZDEtRVhRSzQxMnhaajlFTFpUZDdnNWRoYVR2amtMTURhaFgyQlloNnNvYlNsUHNYdm5acUliQzZvcmpvUmZYdnh2eHRSSFE1S25aSVBOellLMEp0M3BrcHptVEVwWVU0eXY4czBhTUJhUVhUX0lDV2NYTDRlT1lFM0hid0xUVzB3WkxLSUNacUhLUWk5QnZEbjNlUTR4ZlRQRTdVZWFldGZMbzZKMk5ySV9NSG1IVVRBdXplbktHNUZUY21MbDBYUVpybkdvckRfbE03UXMzV2F0NjZhZE4ta1FLUQ?oc=5",
-      "published": "2026-07-23T12:21:08+00:00",
-      "source": {
-        "name": "Ouest-France",
-        "url": "https://www.ouest-france.fr"
+        "name": "Le HuffPost",
+        "url": "https://www.huffingtonpost.fr"
       }
     },
     {
@@ -244,13 +194,33 @@
       }
     },
     {
-      "id": "e948b8accb65",
-      "title": "TOUT COMPRENDRE. Ça va coûter jusqu'à 200 euros par an aux patients: c'est quoi ces plafonds de franchises médicales que le gouvernement va doubler et qu'est-ce que ça va changer concrètement? - BFM",
-      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMlQ1aC05UEZPd2dBSldSUlFfNklqY0Jic291VFpBbzkyMVlLRFVhRzZfSG5KTUVhTFVKVng0ZE5BdGJKa0VHU2VqRFlPeDBGVWN3SFFfbHlRZXRvTHdELURxMGVTVkdBd1NDWXdoMzNzbXNjc2ZQQVVtbEZNbTBZcU5yVnkyM2lVY2Fnd1NHVTVSYjVuTUhzWXRLNlk5YjdfQmUtZ1B0Y0ZISnI2eE10UVRKTHY4SzBTWmRHNnpSX3lJZXhjZXQweWxJajBKS01Wb3VrS0xlRENlOXQwYmctLUdJeFBybmF2Yko5N2VmV0J5QzBEU3dSb2NDS3V1aWJMQV9QWFN1YWxJQk51ZktfcXRseVFTblpKNHlmeFRpYlhOeHpiWUlzNlB2ZXBQSkVGM05MdXJ1X3oxdUFPMDdValZZRndiQW1NR2xyYm56b1NpRXUtaktTZHFWcnlRMGpseWJyRndqLVQ1ZDlmR3gwMmZqcw?oc=5",
-      "published": "2026-07-23T14:31:41+00:00",
+      "id": "bd3172947927",
+      "title": "Médicaments, consultations : le gouvernement annonce le doublement du plafond des franchises médicales - Le Figaro",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdlpteVJ0SkR3S2puenhSYlR5Z1doYzZ3MXVzbkV3VlFvNTlkNFByZmFHME1sQldmUUJ5UUxaczdzVXQ5aGN4UU5RWXNQT3R1Z2w1SWpHVmxVdl9UWmg0eU83NFk0UnJhUkZOTm9qcGhkeWxQSTBBQXY5Q0hOUE13VWhEaGxWWjktb0JqcUtuemhIcVdwMnVUMzdZR25XWkpQN2xuT2xSSWhWWTY4MHZBdWFnRi1XVTFmZVluV3NldXZ6X2sydnJ1TGZXSk9ob2xLdXctbXRn?oc=5",
+      "published": "2026-07-23T07:36:19+00:00",
+      "source": {
+        "name": "Le Figaro",
+        "url": "https://www.lefigaro.fr"
+      }
+    },
+    {
+      "id": "fc9b125a77f9",
+      "title": "\"Nous n'avons pas choisi d'être malades\": les associations de patients dénoncent la \"double peine\" de l’augmentation du plafond des franchises médicales - BFM",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPcFpuZENnak9jRVozNFNCVXFCMzFuVng0VmZXbTFfSHFsMnRMY0x6clpJSjRTMU9JN1F0TEJSRUVsdjl5bFNKQXBtaFluT09yQVRHZWhjWHp5UDJ2MVF0aWF2ekhVdnIyUE5vMk9YZ21BeXZ5bW9CV3pmLUZNbXQ4a3VCbWU4eXBuSnpURGhPQUFqOWRZYzdZWWJScVkyeXBJbHdETUVJa3gyMzVDTTBKUVZxbWVXb1BTOUVlODlBS2p2RjdXbXlSaTZSX05WQ2J5M1h0VDVmdFRmckdRdjd5Mml2OGZOaExaaGtDcmR1TTNFWlVqbUZsVFQ1T2NGUE5zZmc1eURrUEt2VnR4aGFoQldqVC05dGFCWncyR2lzMGlBQQ?oc=5",
+      "published": "2026-07-24T04:37:00+00:00",
       "source": {
         "name": "BFM",
         "url": "https://www.bfmtv.com"
+      }
+    },
+    {
+      "id": "3c1f3117a0b6",
+      "title": "Cancers pédiatriques : « On ne peut pas laisser mourir ces enfants » - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczRDbXBSZFVJbUlvQzgxUnZSYTNKaF8xcm5LRUd0M2JOSW5KMFhyUkU1ZGJIa2hNUG9oSjEtNk5FaGhQMU04SUd1amdIcWZTcFpldUhlLTUyVXRwbDlzcUgwRjhVOHVkZ0pnOUQzT3l0dTNuZVNDdUFrNnpnYmc0ODZmUnRFMkR5UXNiS3FKRXoxVGxKZkxRTDg2ZE5ycERJNjU4Z0pxYW04OU5FRkx3U0hn?oc=5",
+      "published": "2026-07-24T05:00:00+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -261,6 +231,26 @@
       "source": {
         "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
+      }
+    },
+    {
+      "id": "e948b8accb65",
+      "title": "TOUT COMPRENDRE. Ça va coûter jusqu'à 200 euros par an aux patients: c'est quoi ces plafonds de franchises médicales que le gouvernement va doubler et qu'est-ce que ça va changer concrètement? - BFM",
+      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMlQ1aC05UEZPd2dBSldSUlFfNklqY0Jic291VFpBbzkyMVlLRFVhRzZfSG5KTUVhTFVKVng0ZE5BdGJKa0VHU2VqRFlPeDBGVWN3SFFfbHlRZXRvTHdELURxMGVTVkdBd1NDWXdoMzNzbXNjc2ZQQVVtbEZNbTBZcU5yVnkyM2lVY2Fnd1NHVTVSYjVuTUhzWXRLNlk5YjdfQmUtZ1B0Y0ZISnI2eE10UVRKTHY4SzBTWmRHNnpSX3lJZXhjZXQweWxJajBKS01Wb3VrS0xlRENlOXQwYmctLUdJeFBybmF2Yko5N2VmV0J5QzBEU3dSb2NDS3V1aWJMQV9QWFN1YWxJQk51ZktfcXRseVFTblpKNHlmeFRpYlhOeHpiWUlzNlB2ZXBQSkVGM05MdXJ1X3oxdUFPMDdValZZRndiQW1NR2xyYm56b1NpRXUtaktTZHFWcnlRMGpseWJyRndqLVQ1ZDlmR3gwMmZqcw?oc=5",
+      "published": "2026-07-23T14:31:41+00:00",
+      "source": {
+        "name": "BFM",
+        "url": "https://www.bfmtv.com"
+      }
+    },
+    {
+      "id": "c9773c2618b9",
+      "title": "Mauvaise nouvelle pour votre portefeuille : voici ce que va changer le doublement du plafond des franchises médicales - CNews",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnZuZXpMREJnU1RxZTBZMm50eUdaaHJmUlBjMXVCOTFDN0ZlY1NYYThsM09CaGw5Tml6RFRIdGl0RFowVGVVSjhqcnlMSXpZRXVSQWptRm51Mm5kalFxWnNjamh1dTJ3UGQxczdMX05obmU2NlVoeFFKV0hrSHRMeVdnZlI1a0JHdWwyOGhScHFtSDBRU3hjamxGdzEzYm9iYU9KRWMwZFJlOUdCWncwdjdXY1FWaU9sRDFVeNIBwgFBVV95cUxPdm1lb01oanc3VGQtX0ZkbUgxU19iSDZqZ0ItUmZ3VzdvZDlfaExVaUo2cDJUS0ZKSTRJaTJySGtKS0VNZDZYUUJvdkNXcjVlWGJGUi1rZ1JETzhsZV8zeVpFWGFQNkJ1UlB6eE9MaFg0T3BmU2NVUVVvMzYzT09PYXhrY0lSeVBNeUh4SDk3cUNCQktpYzNDVXJyejVHbjdwVjBOLUdEbzJtdHQwVXVyNGl2UkV4VGRFS1g2WGZPYnFPQQ?oc=5",
+      "published": "2026-07-23T09:27:00+00:00",
+      "source": {
+        "name": "CNews",
+        "url": "https://www.cnews.fr"
       }
     },
     {
@@ -284,16 +274,6 @@
       }
     },
     {
-      "id": "6e268d2b2f23",
-      "title": "Franchises médicales : Le plafond du reste à charge pour les consultations et médicaments va doubler - 20 Minutes",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZW0yazZHVUFZN3FDRTNreHZoNjFnTHN5VFlhdHIza3RzWHJHU1BqelhTWmFUcnZ1U3k4eGV6bXVzdGxVLTFldlFIVzZHYmFrRWVjMlk1UWFjWkpRVlMwNmdQQmhfLWFWa3ZnM3pkQXQ3cjZQR2tSUVNxT1hoUnZVV3BSa3NDNzJXOUZRU3EyMVg4ZjNGV0twNGhsOGhNWHR6UHNkZHNMbW9GQWFtaWp5RllveXRnd0UzY2VBaGRNZlFYaGI0?oc=5",
-      "published": "2026-07-23T08:48:00+00:00",
-      "source": {
-        "name": "20 Minutes",
-        "url": "https://www.20minutes.fr"
-      }
-    },
-    {
       "id": "77cab0e6c4cd",
       "title": "Les franchises médicales de nouveau dans le viseur - Ouest-France",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcVZOM2hRTVl5RUtaWEpNMV9pVXRTM2Z3ZE1paXIwLTFGX1VNd0FBMjJBeXRZR2JlQVJqRzRpT001T21iRUFEdmpfV0MzR3FMcGNJX2VFMEg2c2J2VEt6SndVVldJSzZzek4yZG9FcFBfTWxBY1Jvd2YtRmxua0Fpbl9pYVVDN1d3akl2NVhQRUZJSXlpMDZnd0dMV1ZUUEZBdHRhZmtOc2VBWnJudFlpNVNRNTFYMUJZUlJ6N18yLTZoajlVSFVj?oc=5",
@@ -301,6 +281,16 @@
       "source": {
         "name": "Ouest-France",
         "url": "https://sante.ouest-france.fr"
+      }
+    },
+    {
+      "id": "94e1ff4f62d2",
+      "title": "« On s’attendait à des sales coups » : le gouvernement annonce le doublement des plafonds des franchises médicales - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTml2OWtxMTNVWTNzNHpMN2QtTUV1QXJqdllGak5GTnJHR0lWWG5tZDEtRVhRSzQxMnhaajlFTFpUZDdnNWRoYVR2amtMTURhaFgyQlloNnNvYlNsUHNYdm5acUliQzZvcmpvUmZYdnh2eHRSSFE1S25aSVBOellLMEp0M3BrcHptVEVwWVU0eXY4czBhTUJhUVhUX0lDV2NYTDRlT1lFM0hid0xUVzB3WkxLSUNacUhLUWk5QnZEbjNlUTR4ZlRQRTdVZWFldGZMbzZKMk5ySV9NSG1IVVRBdXplbktHNUZUY21MbDBYUVpybkdvckRfbE03UXMzV2F0NjZhZE4ta1FLUQ?oc=5",
+      "published": "2026-07-23T12:21:08+00:00",
+      "source": {
+        "name": "Ouest-France",
+        "url": "https://www.ouest-france.fr"
       }
     },
     {
@@ -314,26 +304,6 @@
       }
     },
     {
-      "id": "c71960ae938a",
-      "title": "Les médicaments amaigrissants GLP-1 liés à un risque faible mais réel de perte de cheveux - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSWh5TGo3WFpJeldrQlUtdkdmOVE2ZFpDc3AtWE9XaHNMU0J1azhtR0gxLTMweURVc29kSGotMkFJTmpxcGxWdy1ta2szbVVXYXNMZnE2SUNkWXNtTmwwOXdWdGdFQllHbF9HczJSd2YtT1BZc3NHQ1IzcERqd2VIS2xUbGVtTFBlcDhKZ2tIeUNDY2ZBM1RMWkc1LVF6aWZyRnRYNklVZmVpZU9wRHNZaWpqeUF0RUpSbnRFR1FablJudXVYaHZVUnJn?oc=5",
-      "published": "2026-07-23T12:17:05+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://fr.euronews.com"
-      }
-    },
-    {
-      "id": "5fd3fd7c45f5",
-      "title": "\"Ce plafond n'a pas évolué depuis 20 ans\": le gouvernement double le seuil des franchises médicales, jusqu'à 200 euros pourront rester à votre charge - BFM",
-      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNVFpMWDZ4QUlsdTRDRk82ZHlBUEM1SlJNeTdXRllBSkVYRnF5QjNmdXZ4NWdXR3J6VmxSNVRuWk9KTEpCUHBvenFLeGVycVotZE00V3E4TDFvY1R4dHRsUUloeGpSdDlVYUxCNi1xRFdodnpHWndXU050R0V0YXVWSl9TdFhrSDZHV3hGR1pRSjR0YjE1SWQxZ2F4amdsUS14WjJjTmV3UkV3b0VudkpHbDUzTkw4WVdORGhnSC1NUGVCUkNibVllbWxISHRQZ0RIZ2E5bldJeUg4VjBxX2RRS0wtUDhobm5jTk9rSnpyTXh6M0FjejR5bE96M19ENUdMdUtUT3pPMjNVVUx3Ujh5YU15R1BScmplWGVHbU5leFVXaXI0V3BIb1lWT3NoSGctUjVlSjk4NDM0VXR1c0tnOWtB?oc=5",
-      "published": "2026-07-23T07:49:57+00:00",
-      "source": {
-        "name": "BFM",
-        "url": "https://www.bfmtv.com"
-      }
-    },
-    {
       "id": "eea2b9096a72",
       "title": "Les médicaments reconditionnés conservent-ils leur stabilité ? - santementale.fr",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0lWWHNJVlhtblYydTkxc2hiM3ctcDJoOENabjRnT1JRSWIxU1l4VDMydkg0Q1Z1b1BRSW5iYkZ1eGQzZ002WjZDQmFMYXBWN2VaQjBPS3BGSVJNRUl2UHNyV0RuV0pzRllYVEVoZXFYajV6UFlMR1N0WHF3M1pvM2hYaXQtZnJuZE5zellsSWl1X0xWTkhFd3NZZ0h4dw?oc=5",
@@ -344,43 +314,13 @@
       }
     },
     {
-      "id": "4bc09e54b3e3",
-      "title": "Le plafond annuel des franchises médicales va doubler, annonce le gouvernement, passant de 100 à 200 € - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQNno4dGpOMW0wZmROa09OM1NYNFJCdVM2YVhfZmw2TFhzc0lCM212YlNDVkg2ZE9PRlFWb3JXYnd6V0ZSM2VvVDB2dF9VVDV6Rmw5X19uY1FiMFRaV2tmMVA0TXR3Sm1Qeks0SWhDQjlqOTlublBnWl9MNDVWZGwxVTdwTy1obnJGZl8yVDE1NVdZU0xlRlNoOFNVTTRuTFV4dEVPdjhQRTFNZEpYdEJuSDBqU2cwdFdCaG83TGQ2Z0s5RHpkM0R0SGNBdnB4ZDdHM3p5WF8tRzRreVZqeGtzQWR1Y0FLX0lOMzhjbEtqd001blVKSkZfUWZldm5HZHRXSUxGUy1n?oc=5",
-      "published": "2026-07-23T08:02:17+00:00",
+      "id": "325ed1239bb2",
+      "title": "\"On va faire payer les plus fragiles\" : faut-il moins rembourser les patients qui dépassent 50 boîtes de médicaments ou 25 consultations médicales par an ? - RTL",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNNmhPUmU5UmVjQjFMWERuWU92TDY2eG1LU3liYS1YNG9PZXplMGtkQlZrQVREa0UxY2pzNEFna2xsN0xaUXlMZnZxLThscXJTalQwSVNHR096N0ZvS2xKcUlqamExZmVVaG9oRVRTNjd0UndCbGh0VWJIMGgxWVhMakNkUGxaWEFvZnE1M0d5LUJXd0lyMkRfSHYyNjgzczBVMGdlT1h5ODhyN0xLNE9qYlpLWFpTT25iX19DRm9naV9kdVVaQ3NrOXlqOGFCNGJ4c2J2d09uR3NSNkFVVlE1QzE0VFRvUE92YkRubVNQaWRxeWZ2OF9Rd1hta0NDMnloWFZFb3ptNm9oaU1zVXhjOExCSHlfYXRSZVE?oc=5",
+      "published": "2026-07-22T16:50:04+00:00",
       "source": {
-        "name": "Ouest-France",
-        "url": "https://www.ouest-france.fr"
-      }
-    },
-    {
-      "id": "e9736de9ec3b",
-      "title": "Les collyres font face à des problèmes d’approvisionnement en France - 20 Minutes",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQckV2ajdDZ0pfWnpFbU9jc2hPOUJXYXYzbWdFZlBhRHh3a2hTZDdubkJaQXhYWllodUxjWnk3dnJaS1BNWDBhdjRkVjZUN19XZXZLSnlPNjFLMzJMc3RqTENaUXh5VkxpaFNnb0hqYUFJQlFwSWZYWlU3X1hsU1U4ZG91Zmt6WWFzT29HNmNlXzE0Q0UwWGpPZDljaEdSdVVyQ1hDZVJvVnRNMm9iRFJLWV9R?oc=5",
-      "published": "2026-07-23T12:24:00+00:00",
-      "source": {
-        "name": "20 Minutes",
-        "url": "https://www.20minutes.fr"
-      }
-    },
-    {
-      "id": "cfe7b0d614c6",
-      "title": "De 100 à 200 euros par an : le gouvernement annonce le doublement du plafond des franchises pour les consultations et les médicaments - CNews",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ3NZNjh0VG8yZjU2T0RJUC1zaEJLRUJFRTQyb1VjR1ExN244bUJJT3ZXQUZBa0RaRU9FNGljVlc5VkVyamc2LWNPUnIxZVRHRTd2YU9kd3RkanlDNTAxYXNnUi1XSmpVYjJ0YXo0M2hhWDRQQXFUTlhrR2F3d25LU1c3aXJPcEtQc08zOWNZbmxNU3hxSkdGblZ0aEdndkFfVzQxRVVmMHJQaVpvVWZkN1J30gG3AUFVX3lxTE5EUGdPdjh4RzZJNkJmN0dQY1BiTXFsd2VaVGNRWUgxeXFTZHhZNHgtUVA2NUljd3lkQUJhMUE0QzZxcU5iVjNEQ0JPYlp2VUtwQ0dLdWN3UXhFdzRNZDFKZFl0S0ZBNklfeUdnQkJTSk15TmRRNEwyOFNmNEVLampVQ05kckxpNlZEd1RWV0czOFoydXZVX2VTZ2VWLWNiLW9SY00xSHVPVU9WdEJuTkR5d0xzVW05NA?oc=5",
-      "published": "2026-07-23T07:23:00+00:00",
-      "source": {
-        "name": "CNews",
-        "url": "https://www.cnews.fr"
-      }
-    },
-    {
-      "id": "04db33626273",
-      "title": "Franchises médicales : le plafond annuel du reste à charge va doubler à 200 euros - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOFJPWnlnZ1R1VzZLT0ZEOFRQN2ctZG1URWZEem5NMFRZXzdHT0J1WkRBNXkyV1ZjUUhlVmlHeUZ5NklwdUpYMXhtNWlzYnh4d1ZRNUpEcnd4WXNTMDdaeElOZVdfby1xSjdMRjNvMmxYZTRYVGlKSlZ3bWxCajEyTGp2MU95WENtcEVyWkZRUmM1MnBVUVcyNTRXTGtta3VnVGlKRmNWVDhPN1hxdXBHYU1WUDV4ZFFjTWJFRmU2OGJmQUMtejRmRklHREg4ak1xb2JjQXhGYmJ6Um5OU2Nkd2xlcw?oc=5",
-      "published": "2026-07-23T13:50:38+00:00",
-      "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
+        "name": "RTL",
+        "url": "https://www.rtl.fr"
       }
     },
     {
@@ -394,13 +334,103 @@
       }
     },
     {
-      "id": "850c93b678d1",
+      "id": "c71960ae938a",
+      "title": "Les médicaments amaigrissants GLP-1 liés à un risque faible mais réel de perte de cheveux - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSWh5TGo3WFpJeldrQlUtdkdmOVE2ZFpDc3AtWE9XaHNMU0J1azhtR0gxLTMweURVc29kSGotMkFJTmpxcGxWdy1ta2szbVVXYXNMZnE2SUNkWXNtTmwwOXdWdGdFQllHbF9HczJSd2YtT1BZc3NHQ1IzcERqd2VIS2xUbGVtTFBlcDhKZ2tIeUNDY2ZBM1RMWkc1LVF6aWZyRnRYNklVZmVpZU9wRHNZaWpqeUF0RUpSbnRFR1FablJudXVYaHZVUnJn?oc=5",
+      "published": "2026-07-23T12:17:05+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://fr.euronews.com"
+      }
+    },
+    {
+      "id": "6e268d2b2f23",
       "title": "Franchises médicales : Le plafond du reste à charge pour les consultations et médicaments va doubler - 20 Minutes",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNYjF0X0lzYkpPMHdhSVNwZU5hajFGRldVNjVYaEpTMTYyMThjRXpLWjViZ2JvdVI5UTgyYWRXWG41WkpiOXA2VHNTNU1WaThSQWFuVHJycXlmWVNYNGRaR0FwRUF2VmpmcTR0ZTVjM3J1R1E3XzFGemdTVnhWNFpVTURGZHk2Vi1jbVd0cGtSVGYtSXlKSlhyaHZFd19LSWdVR1R1Q2xSa2hwdDJvNk1adGlRZlJMVkplZldfbFJFVUFHVlQwRnJWM0ZPRWRkb0lRelhHUVlFUkVpQmF0Q1A1X0RERG5Ua0xESnRBcHdQcWxSUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZW0yazZHVUFZN3FDRTNreHZoNjFnTHN5VFlhdHIza3RzWHJHU1BqelhTWmFUcnZ1U3k4eGV6bXVzdGxVLTFldlFIVzZHYmFrRWVjMlk1UWFjWkpRVlMwNmdQQmhfLWFWa3ZnM3pkQXQ3cjZQR2tSUVNxT1hoUnZVV3BSa3NDNzJXOUZRU3EyMVg4ZjNGV0twNGhsOGhNWHR6UHNkZHNMbW9GQWFtaWp5RllveXRnd0UzY2VBaGRNZlFYaGI0?oc=5",
       "published": "2026-07-23T08:48:00+00:00",
       "source": {
         "name": "20 Minutes",
         "url": "https://www.20minutes.fr"
+      }
+    },
+    {
+      "id": "139c55bff9e3",
+      "title": "Actualité - Tensions en collyres : bien les prescrire pour préserver les stocks disponibles - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnRCcVltOXNsZ1ZESHphU0F3b3gzNVVxNlUzNnNNWHFXWV9laUZ6YjBPbG5RTExMd3NfUWhhNjRPRXRVTjhSNmg2Smp5SzdyZVVfVUFKd1hYOXM5NGJnOWtlRVZWVElvN2tjWUwwWWFkRmpJV3B1YW9IM1g2ZmJOek5MNVRpU3VZM3gyb0ltU3puQ2RkTHUtT0VDX25GdE00S3A4NlZ2OWJEQWRJSlJB?oc=5",
+      "published": "2026-07-23T08:05:52+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "1f9e221eb3ef",
+      "title": "Franchises médicales et remboursement de médicaments : ce que pourraient rapporter les pistes d’économies explosives de Sébastien Lecornu - Le Figaro",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZExlY2VWYVRNakliejlvT005eWF4LXNyaU15VFJWR0FpT1FQOFloa1dmLW1Lby1URnFSRFFmSVJOSTlxNlRLcGtxeE4xb3k0dnBqeGx2UDVjMmJ2YUJ3ZFdhS0Q4bUZoOTVqTmpmMHZvbFRJeUo3aENNUGFzYjhvVUExcVFTdzJNdVo2d3dOQTRMNE5vanVCcnQwdER2MGRhRjJZYkNNdWhhMUtPeExJM195SEo5aTdDenFxR2VvOGdROGhHaFc3UnFBcFRsSHhpY0hFXzVrZy1nMlR1dzNmbmJwcDdJY3VJNmNnZEJEaXZOOEJXOFV0Mm5PS1Q2WlU2RHpRU1BZeWh5SmFk?oc=5",
+      "published": "2026-07-22T13:00:08+00:00",
+      "source": {
+        "name": "Le Figaro",
+        "url": "https://www.lefigaro.fr"
+      }
+    },
+    {
+      "id": "e9736de9ec3b",
+      "title": "Les collyres font face à des problèmes d’approvisionnement en France - 20 Minutes",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQckV2ajdDZ0pfWnpFbU9jc2hPOUJXYXYzbWdFZlBhRHh3a2hTZDdubkJaQXhYWllodUxjWnk3dnJaS1BNWDBhdjRkVjZUN19XZXZLSnlPNjFLMzJMc3RqTENaUXh5VkxpaFNnb0hqYUFJQlFwSWZYWlU3X1hsU1U4ZG91Zmt6WWFzT29HNmNlXzE0Q0UwWGpPZDljaEdSdVVyQ1hDZVJvVnRNMm9iRFJLWV9R?oc=5",
+      "published": "2026-07-23T12:24:00+00:00",
+      "source": {
+        "name": "20 Minutes",
+        "url": "https://www.20minutes.fr"
+      }
+    },
+    {
+      "id": "04db33626273",
+      "title": "Franchises médicales : le plafond annuel du reste à charge va doubler à 200 euros - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOFJPWnlnZ1R1VzZLT0ZEOFRQN2ctZG1URWZEem5NMFRZXzdHT0J1WkRBNXkyV1ZjUUhlVmlHeUZ5NklwdUpYMXhtNWlzYnh4d1ZRNUpEcnd4WXNTMDdaeElOZVdfby1xSjdMRjNvMmxYZTRYVGlKSlZ3bWxCajEyTGp2MU95WENtcEVyWkZRUmM1MnBVUVcyNTRXTGtta3VnVGlKRmNWVDhPN1hxdXBHYU1WUDV4ZFFjTWJFRmU2OGJmQUMtejRmRklHREg4ak1xb2JjQXhGYmJ6Um5OU2Nkd2xlcw?oc=5",
+      "published": "2026-07-23T13:50:38+00:00",
+      "source": {
+        "name": "Le Moniteur des pharmacies",
+        "url": "https://www.lemoniteurdespharmacies.fr"
+      }
+    },
+    {
+      "id": "d022aefd6b5a",
+      "title": "\"Ils vont nous ressortir les décrets sur les franchises médicales comme l'an dernier!\": pour dénoncer les abus, Lecornu n'a pas choisi par hasard les \"50 boîtes de médicament\" et \"25 passages chez le docteur\" - BFM",
+      "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxNYXhYRkxPekhiak92MmdQaUt5RGNxSTQ0a205RV9kUXRtbGtzaTJ6ei1zVUV3Ulp5OFUtV3B2WmtUWEhwd2I5X01sM1U1aVR4OF9wQU1jYi1lZGRDNkhMVURFeWRJZWg5VXdQd2E2bWtxdFNUNGl5U0lpM1FLbkQ2QXZhSDhlYlp3ZDRIcFhVOXp6b0xvOF91UTVLdXIydWdaV0dSZ0dtZVdUNU8wRjFYTS1lSkxZdHBMSC1OQjRqOEpSN0FWZFh0ckdXc1gtOEVaUGYzSWRORlZwRHh6clJQa05fRXNIY21rRFFUSUp3UlpER3pXejVHZXRlLUlPaWxWanM0dnVHMFdONks5dThZRHUxb3Z4eUxibGpiZ2F1ZzhqLXdhSm54T3hmRXVCcVJPalowZ2lBYmxsYjYxaXp0SWo4STFqNFFXM3BwOG8wOENORFpMQU9Sa0M4Nkdxa0MzSmpUZmZNRENsZWVjWmd4TTgwRVJVLXM0YnlwNnRSSlU?oc=5",
+      "published": "2026-07-23T04:00:15+00:00",
+      "source": {
+        "name": "BFM",
+        "url": "https://www.bfmtv.com"
+      }
+    },
+    {
+      "id": "1ef6bc38da2c",
+      "title": "Médicaments : doublement du plafond des franchises dès cet été, les malades chroniques pénalisés - Medisite.fr",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQkpqYzVvZllubEdRY1VjSktQTWU0ZXVIUHhpVzVKdER3a3poeEgyRTVoeTd1NGRmRXFJZGttZ0RpcTZ3elBuNjc4WndTcmozRG5oQ2hhVk1lT2Rrb3pnUjFkM3BjUE5yVzRSUEk1RWhFdk04d2NzLWxZRkxPTEtVWlJJOFUxOVhranJtOEMyX2J2WjY4VDZBQVpIUjI5MlBlZVYxbjNQSWtfOWFybGVQN3FQdHpEU3RVMHFqaTduVDByVFUwU1V6TkVLWThuOGpEaHM4QjZ0dDl6c1FpOXRz?oc=5",
+      "published": "2026-07-24T05:00:00+00:00",
+      "source": {
+        "name": "Medisite.fr",
+        "url": "https://www.medisite.fr"
+      }
+    },
+    {
+      "id": "da492d8b9b89",
+      "title": "Médicaments contrefaits : repérer, éviter et signaler les dangers en ligne et à l’étranger - Atlantico",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaEo3Rkh4Y3lxWXM0Ynl2T0lERDlVZ0pPdHppWXRkeVMwYUxEVzB0OVNZeXkzanM4YjNkTWEyRlFBVzRBbU1xQmZtNzhhUXEyNkVoU0M5NVNlTF9KT2JIcC1QbzNaLWZPcE9NRThXb0dfemt1VUt4NnhVazliMER5SWFnV3VyM19Lbml5NkVrdXRkWS1rT1BSaHMxRks3Z2h5b2xJVnBXWTRLMW1oUHkyUU51Zzk2MzZfbGNXRGVWeTA?oc=5",
+      "published": "2026-07-23T09:15:13+00:00",
+      "source": {
+        "name": "Atlantico",
+        "url": "https://atlantico.fr"
+      }
+    },
+    {
+      "id": "4bc09e54b3e3",
+      "title": "Le plafond annuel des franchises médicales va doubler, annonce le gouvernement, passant de 100 à 200 € - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQNno4dGpOMW0wZmROa09OM1NYNFJCdVM2YVhfZmw2TFhzc0lCM212YlNDVkg2ZE9PRlFWb3JXYnd6V0ZSM2VvVDB2dF9VVDV6Rmw5X19uY1FiMFRaV2tmMVA0TXR3Sm1Qeks0SWhDQjlqOTlublBnWl9MNDVWZGwxVTdwTy1obnJGZl8yVDE1NVdZU0xlRlNoOFNVTTRuTFV4dEVPdjhQRTFNZEpYdEJuSDBqU2cwdFdCaG83TGQ2Z0s5RHpkM0R0SGNBdnB4ZDdHM3p5WF8tRzRreVZqeGtzQWR1Y0FLX0lOMzhjbEtqd001blVKSkZfUWZldm5HZHRXSUxGUy1n?oc=5",
+      "published": "2026-07-23T08:02:17+00:00",
+      "source": {
+        "name": "Ouest-France",
+        "url": "https://www.ouest-france.fr"
       }
     },
     {
@@ -414,13 +444,23 @@
       }
     },
     {
-      "id": "064bdecca042",
-      "title": "Doublement du plafond des franchises médicales : « une erreur monumentale », déplore France Assos Santé - WhatsUpDoc",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOazVHVktMUXdtY2ZrOUpoNHo4TnFHQUtFc2dyMlE2V3JRNlFYNGtiUXI0ZGUzT3dRdkJQOGR0ZXF4dlRkUXhSYWdDSkZ3cmRvY1BXUUpfQ1Exc0xub244Wk14c2x0R3FDVnkxdHFEUnlleDhaYjVyUEt4dU5tY1hnbDU1c0hJQVFtazZ0c2liR19LOGhOMk5mc21zdE1wTjR6c0dYRVA4VTdDQVhPb3I3WnlORGdhSGhhdGdWT0FkX0xfcVFjS0FkWjFn?oc=5",
-      "published": "2026-07-23T15:06:00+00:00",
+      "id": "cfe7b0d614c6",
+      "title": "De 100 à 200 euros par an : le gouvernement annonce le doublement du plafond des franchises pour les consultations et les médicaments - CNews",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ3NZNjh0VG8yZjU2T0RJUC1zaEJLRUJFRTQyb1VjR1ExN244bUJJT3ZXQUZBa0RaRU9FNGljVlc5VkVyamc2LWNPUnIxZVRHRTd2YU9kd3RkanlDNTAxYXNnUi1XSmpVYjJ0YXo0M2hhWDRQQXFUTlhrR2F3d25LU1c3aXJPcEtQc08zOWNZbmxNU3hxSkdGblZ0aEdndkFfVzQxRVVmMHJQaVpvVWZkN1J30gG3AUFVX3lxTE5EUGdPdjh4RzZJNkJmN0dQY1BiTXFsd2VaVGNRWUgxeXFTZHhZNHgtUVA2NUljd3lkQUJhMUE0QzZxcU5iVjNEQ0JPYlp2VUtwQ0dLdWN3UXhFdzRNZDFKZFl0S0ZBNklfeUdnQkJTSk15TmRRNEwyOFNmNEVLampVQ05kckxpNlZEd1RWV0czOFoydXZVX2VTZ2VWLWNiLW9SY00xSHVPVU9WdEJuTkR5d0xzVW05NA?oc=5",
+      "published": "2026-07-23T07:23:00+00:00",
       "source": {
-        "name": "WhatsUpDoc",
-        "url": "https://www.whatsupdoc-lemag.fr"
+        "name": "CNews",
+        "url": "https://www.cnews.fr"
+      }
+    },
+    {
+      "id": "850c93b678d1",
+      "title": "Franchises médicales : Le plafond du reste à charge pour les consultations et médicaments va doubler - 20 Minutes",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNYjF0X0lzYkpPMHdhSVNwZU5hajFGRldVNjVYaEpTMTYyMThjRXpLWjViZ2JvdVI5UTgyYWRXWG41WkpiOXA2VHNTNU1WaThSQWFuVHJycXlmWVNYNGRaR0FwRUF2VmpmcTR0ZTVjM3J1R1E3XzFGemdTVnhWNFpVTURGZHk2Vi1jbVd0cGtSVGYtSXlKSlhyaHZFd19LSWdVR1R1Q2xSa2hwdDJvNk1adGlRZlJMVkplZldfbFJFVUFHVlQwRnJWM0ZPRWRkb0lRelhHUVlFUkVpQmF0Q1A1X0RERG5Ua0xESnRBcHdQcWxSUQ?oc=5",
+      "published": "2026-07-23T08:48:00+00:00",
+      "source": {
+        "name": "20 Minutes",
+        "url": "https://www.20minutes.fr"
       }
     },
     {
@@ -444,33 +484,33 @@
       }
     },
     {
-      "id": "308846efa98b",
-      "title": "Médicaments, consultations : le Premier ministre veut augmenter le reste à charge - ma-sante.news",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU0hnWFdPOGdETVdIS3d2SjFsMHBwNlBvZWVJZ2ZLNUtCRTBNY2JTSEw2Snh5TTVDTXZia0YtRHJ1NTYta0VWVGMzRnpfY2E5Nk8zR0xtRmlOQjQ1QU5nNUdfWGU2Qmd5THBsb0JlM3hhNE16enNTbThGQ2dGOU1NTDl4d3Z6dw?oc=5",
-      "published": "2026-07-23T11:41:12+00:00",
+      "id": "58f58ee93947",
+      "title": "Analogues du GLP-1 : un effet inattendu sur les cheveux ? - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdmlETG5ySXk0bjYySGFCWENqa1phOXU1bVZmYkdVOUNLZkpENXF6V0E5RnNycTZTaXFMeGxqMkt3bkQyVlJlZXh4M0lxd2QwYUxqTzJjekRsdjFMNHIzUFpHYnBEMUdxeml1b1NTcjR1T191a1AwemctRUNTcVRjblk4TDMtbmVDUmp2S3loWlREVV9hUjdrX0xpMA?oc=5",
+      "published": "2026-07-24T05:55:00+00:00",
       "source": {
-        "name": "ma-sante.news",
-        "url": "https://ma-sante.news"
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
       }
     },
     {
-      "id": "933129b8b6f5",
-      "title": "Santé : le gouvernement annonce doubler le plafond des franchises médicales - La Croix",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUVN0cVpjQUZUR0ZuS2tyTEk2cHNmMnViamdmQmNfMEt4TjBvcmdpczNlWENaVHp0cTNrMzdMUENhTWdVMlktNE9oZUFxcWhSVjlydnJJMjZLNVN6UXNNd2RSTmR6MUM2Mzd0UW1hVmdhS2xFbldTNl9kR3BOY09hUmVBSzRXX3JJTXZLajV1VVJMQUo4WFlxV24zQTR1RHJ3VGI0eWVSTE1vQ3RhWDFZcXc1VQ?oc=5",
-      "published": "2026-07-23T08:00:07+00:00",
+      "id": "4f0cd129b92b",
+      "title": "Santé. Franchises médicales : ce que va changer le doublement du plafond sur les médicaments et consultations - Le Dauphiné Libéré",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM1I5bmgxWEdDbXN6YUZTbGRNX0k1cmFmQndnYUNOYWpGVnlkanBBd1h5cTk3a0J0a3RfMUNDTXdPOG05cU9aU2hXWUgxYndzNXlobERCVDBuTzBkMm5Zc2lhRmFTOWVSQVN1V0N6QnZtX0FqWVRjWXVqNDBHSElZdjZHTkNxbWVsMFVaNm9YQ0E3cHhVM1d2cjJqLVM5RFhkUkE2T043T3FpWnFBM1AyVmlCNUhCSDVEVmVNalBPWnhIaDV4ZUo5WERGXzBCT1J0cjhEZnpISENXTnhB?oc=5",
+      "published": "2026-07-23T04:59:14+00:00",
       "source": {
-        "name": "La Croix",
-        "url": "https://www.la-croix.com"
+        "name": "Le Dauphiné Libéré",
+        "url": "https://www.ledauphine.com"
       }
     },
     {
-      "id": "c4b27178eb06",
-      "title": "Ophtalmologie : des tensions d’approvisionnement persistent sur les collyres en France - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMGpOMXp1QURUWVNfc1hPWWZsR2F5TXJUall5UlE1c3BLQ3EtMFN5Ym13bmZjT2pGTjBUZTdBQllKYzJhYjNvNXpFU29FaGctTm1ybmQwaVgxNUFwUjB0S1RjZ1BPSlZMOHNUSnFwY1ZYNUNkVHVvRWpDYTJZYWxtdV9URkM1WmlXUnpjVV8zc1F4WUJUTG9kb0JmSW5hMVEyc0VtN05QazI2Y0x2NTV2amkwUEdrU0k3VExNR21aSENDRDhrZjZr?oc=5",
-      "published": "2026-07-23T12:31:31+00:00",
+      "id": "064bdecca042",
+      "title": "Doublement du plafond des franchises médicales : « une erreur monumentale », déplore France Assos Santé - WhatsUpDoc",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOazVHVktMUXdtY2ZrOUpoNHo4TnFHQUtFc2dyMlE2V3JRNlFYNGtiUXI0ZGUzT3dRdkJQOGR0ZXF4dlRkUXhSYWdDSkZ3cmRvY1BXUUpfQ1Exc0xub244Wk14c2x0R3FDVnkxdHFEUnlleDhaYjVyUEt4dU5tY1hnbDU1c0hJQVFtazZ0c2liR19LOGhOMk5mc21zdE1wTjR6c0dYRVA4VTdDQVhPb3I3WnlORGdhSGhhdGdWT0FkX0xfcVFjS0FkWjFn?oc=5",
+      "published": "2026-07-23T15:06:00+00:00",
       "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
+        "name": "WhatsUpDoc",
+        "url": "https://www.whatsupdoc-lemag.fr"
       }
     },
     {
@@ -484,6 +524,36 @@
       }
     },
     {
+      "id": "308846efa98b",
+      "title": "Médicaments, consultations : le Premier ministre veut augmenter le reste à charge - ma-sante.news",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU0hnWFdPOGdETVdIS3d2SjFsMHBwNlBvZWVJZ2ZLNUtCRTBNY2JTSEw2Snh5TTVDTXZia0YtRHJ1NTYta0VWVGMzRnpfY2E5Nk8zR0xtRmlOQjQ1QU5nNUdfWGU2Qmd5THBsb0JlM3hhNE16enNTbThGQ2dGOU1NTDl4d3Z6dw?oc=5",
+      "published": "2026-07-23T11:41:12+00:00",
+      "source": {
+        "name": "ma-sante.news",
+        "url": "https://ma-sante.news"
+      }
+    },
+    {
+      "id": "c4b27178eb06",
+      "title": "Ophtalmologie : des tensions d’approvisionnement persistent sur les collyres en France - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMGpOMXp1QURUWVNfc1hPWWZsR2F5TXJUall5UlE1c3BLQ3EtMFN5Ym13bmZjT2pGTjBUZTdBQllKYzJhYjNvNXpFU29FaGctTm1ybmQwaVgxNUFwUjB0S1RjZ1BPSlZMOHNUSnFwY1ZYNUNkVHVvRWpDYTJZYWxtdV9URkM1WmlXUnpjVV8zc1F4WUJUTG9kb0JmSW5hMVEyc0VtN05QazI2Y0x2NTV2amkwUEdrU0k3VExNR21aSENDRDhrZjZr?oc=5",
+      "published": "2026-07-23T12:31:31+00:00",
+      "source": {
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
+      }
+    },
+    {
+      "id": "933129b8b6f5",
+      "title": "Santé : le gouvernement annonce doubler le plafond des franchises médicales - La Croix",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUVN0cVpjQUZUR0ZuS2tyTEk2cHNmMnViamdmQmNfMEt4TjBvcmdpczNlWENaVHp0cTNrMzdMUENhTWdVMlktNE9oZUFxcWhSVjlydnJJMjZLNVN6UXNNd2RSTmR6MUM2Mzd0UW1hVmdhS2xFbldTNl9kR3BOY09hUmVBSzRXX3JJTXZLajV1VVJMQUo4WFlxV24zQTR1RHJ3VGI0eWVSTE1vQ3RhWDFZcXc1VQ?oc=5",
+      "published": "2026-07-23T08:00:07+00:00",
+      "source": {
+        "name": "La Croix",
+        "url": "https://www.la-croix.com"
+      }
+    },
+    {
       "id": "25fea2382873",
       "title": "Les 20 principales entreprises du marché de l\\'acide tranexamique - Spherical Insights",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2V0WTZReExNM1c0cmJSU2NvdUt3MGlUSHhIdTBXSWdPa2FkQnFrREliWTgwY3FEMTVjRVJiVkFSWjJYejZnbFhuOWUyVUF6RmZFWlN5X2Flb1h0ZTItRWZOVGc4QnpraUNqVkx2bWE1WWwzazRUVWFDMnNucWFzM3ZjUkNUczBSVV9yYTFCMVFQYXI4d3hWSWh2dkZQWThtRkY1VnFmUTNJLW5LYTdNMVFYMWx4TDJaMXd3RmRCM3c5ZlRkMXFQcmRrNUFaMWM?oc=5",
@@ -491,76 +561,6 @@
       "source": {
         "name": "Spherical Insights",
         "url": "https://www.sphericalinsights.com"
-      }
-    },
-    {
-      "id": "4f0cd129b92b",
-      "title": "Santé. Franchises médicales : ce que va changer le doublement du plafond sur les médicaments et consultations - Le Dauphiné Libéré",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM1I5bmgxWEdDbXN6YUZTbGRNX0k1cmFmQndnYUNOYWpGVnlkanBBd1h5cTk3a0J0a3RfMUNDTXdPOG05cU9aU2hXWUgxYndzNXlobERCVDBuTzBkMm5Zc2lhRmFTOWVSQVN1V0N6QnZtX0FqWVRjWXVqNDBHSElZdjZHTkNxbWVsMFVaNm9YQ0E3cHhVM1d2cjJqLVM5RFhkUkE2T043T3FpWnFBM1AyVmlCNUhCSDVEVmVNalBPWnhIaDV4ZUo5WERGXzBCT1J0cjhEZnpISENXTnhB?oc=5",
-      "published": "2026-07-23T03:00:31+00:00",
-      "source": {
-        "name": "Le Dauphiné Libéré",
-        "url": "https://www.ledauphine.com"
-      }
-    },
-    {
-      "id": "c65f2a02df12",
-      "title": "TDAH : pourquoi les prescriptions de méthylphénidate ont fortement augmenté depuis 2021 - ladepeche.fr",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZHRlejhIeFBxNDZfR1dzaTJMbWdPV1RiYmlrdVZNYWJianh2N1NjYWdJaUxkVEtRR201ckliRHp1eksyd2xIRFFRYTVOaFBseDI2NERodTczZG5wMk9pV1o1bGVjeUJSX1pQUVpfRXMxRWhlbUZZSGxGdmRPbzQ5MDlYdnREcVR6LS1IcHpoSnVvYkpDaFJHNDd0Vm44VF9vOXNsM0dzQ2ZzejB6RGxjOUVHd0tvaFBRUFhRY3ZPS3FYVmVmaDlKV2xFa3FLcW8?oc=5",
-      "published": "2026-07-23T08:07:00+00:00",
-      "source": {
-        "name": "ladepeche.fr",
-        "url": "https://www.ladepeche.fr"
-      }
-    },
-    {
-      "id": "aec3a360afde",
-      "title": "Conseil de gouvernement : Pass jeune, santé, médicaments, numérique… l’Exécutif accélère les réformes - lopinion.ma",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMjc0T0hfalFVYjJEZWhDY1E3bXdiaVhFYTR5X1UyUUxKSEpyTXpFX0tBQ05aRDk0Z3VvVkd5bmpHUE5PZjBGbUF6TjhBMUo5RE54RFFycHpIODZNV1RCN1JzemNmMFJnZ3VianB2WlloTWhKbzBReG5EYnJ4V1hQOUcxRGJ3WlhuRWVvNVA5WUxpUk10cFZ4d2xZbE1SV0lweHU3Ym1XM2djeDc4QzcxY1cwT3pBTzRVeE5tVlVnQkFsdGpzbkloVUZkci1uZkllVGJnU2V6My0zWXc1MmZFbEw5Y0Q0WGdCVW9aSWczVEVUZDJRWVRRZXFxLTJqaFk?oc=5",
-      "published": "2026-07-23T16:34:27+00:00",
-      "source": {
-        "name": "lopinion.ma",
-        "url": "https://lopinion.ma"
-      }
-    },
-    {
-      "id": "f5cf2f1d94d0",
-      "title": "Gaza dénonce un manque historique de médicaments oncologiques dans l’enclave - سانا",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlOFFTMl9SaWR3YTBNNXVtM1YxV3E2dW5WVWxnM1VsQlN3eTdxd2cyYTZxYkNqVTlsdUZPMVluazFnWHdSdGtVOXJzeXI5dFN6?oc=5",
-      "published": "2026-07-23T14:13:28+00:00",
-      "source": {
-        "name": "سانا",
-        "url": "https://sana.sy"
-      }
-    },
-    {
-      "id": "b70293b5e2aa",
-      "title": "Acouphènes : la HAS dévoile un nouveau parcours de soins pour soulager enfin les millions de Français touchés - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRkUwZWY2NFRhOXNLaVBrMkczOFUzc1IzVzJqTFlvOEVBRVduUFVuZHpoVW9XdnNyTTVSOW5Dc3N1em1pV0ZpRXVSNEFTUUtxdG5QX3U4TkhzeWJNUkJRbXpqTVpwWDR5cFJmdHVHZnBwbnBrSjVISDkyZDRMSnFReDZzSmRWSlg0UjcxTm9FNWNVclQ5WXFJQXB6ZmEyZXJQa3hCc0dtaUQ5cFhCR1d0WmFvdEpiLWgtV3Bib1J4LVJxRTVDSmZRVi03UFBkUlR2QU50X2xabHEwTkM1dldFQzlZajVGa0tOX29PTm95b3psemc?oc=5",
-      "published": "2026-07-24T02:30:46+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
-      "id": "2dc7a6cd2fa2",
-      "title": "Santé : le gouvernement veut doubler le plafond des franchises médicales - Nord Littoral",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWU0Z2Q4MWdlcVNqOHF4V1U4QlhpaEdFaVJ6ZFBWaTdGRmZrZHZDZTcyN3lnTU51SC14MXNFQjFYRVFhaFZUWWdvaUNYc0Z3TG9OMUpEbE9EdkFBa3AtSDdreXotRmFGZTUxOFE4Q0c0OWdiWkV1clNja2MzTlc5bWxzbXFIOEJ0Y0RkY0gzYktobnpzUTZCSk83ZkxfS0owRjJUQ2dxYXUyaGRYdVBiSTFwOXNpdkRpQUY1d284VkdzQQ?oc=5",
-      "published": "2026-07-23T14:53:51+00:00",
-      "source": {
-        "name": "Nord Littoral",
-        "url": "https://www.nordlittoral.fr"
-      }
-    },
-    {
-      "id": "7835c959d487",
-      "title": "Ozempic : un biochimiste alerte sur une perte souvent méconnue au-delà de la graisse - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNemZ1b2ZSSDBnRU1fLVU3U1VGRk9laUFpTjBKdHBSMXB2MFc5VGk3WktvdjFZQ3pWYlFveEN3c2Zra1BLdU01UXczaXB4clVlWEpVZjB1SUJESHhCUVZzN0dQd0p0ZHJKcGxQand3WmhWT1ZJRmFUZjM5Q1hLOEdfbEFLVEpQSmhhTW1fa0FUZnpnZksxY1l4VWxVdEVkU0oxZWJ5dTRGUG11N3l6YW9heUdwak9VVE9BVTQ0MU8xTmdINXlOSVl5RmlHVVh5MGpP?oc=5",
-      "published": "2026-07-23T18:06:00+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
       }
     },
     {
@@ -574,13 +574,53 @@
       }
     },
     {
-      "id": "828789cc2eff",
-      "title": "Médicaments et chaleur : les risques à connaître pour éviter la déshydratation - ici.fr",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNmJIT3h1SXRISjM2M3pPMmM0TXNvZVliNUpRWldrelJHZ2U2VW92aWZPNlZUWjZUcWJFY0RBSzJxMmxYTmJ2dWlZYUhqODlrQ3FyTG4wLVBGa2tOYnZKT1lzWkpZdzhkWnRKbFJfYzB2dVJCRHAtMGVveFRzVElPNm5LR00xay1nWHpjTno1N3g1MV9pXzVVSVdsRzg4Y3ViY3J4TC04cVBEenh5TXpUclMtaVljRUtJcWdCczV2dmFqcEZFbVZKY05YTTFRWFB2VlBPVTdsOXRjNC1hdUE?oc=5",
-      "published": "2026-07-21T04:14:00+00:00",
+      "id": "4232335198a5",
+      "title": "Médicaments anti-obésité : guerre ouverte entre Novo Nordisk et Eli Lilly - WhatsUpDoc",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTG1ibEI5YlBXUW1hWGV4RURDN09XYnVyZW1wWlhsT0pkd0JtY3l4Q1VRRTR5cW0xWVN1TkMxNjQyam9TaGc3OTZ1ZlFvRllobWp0OFByVkQwdm5vUGNtNFhMT2hyRkF4SFZLYXN1ZEI5ZUNYdTRmalYyYUpyMGl1clFra1FNS0drLXF3ZlVBS25NTnRhMVpXbF9PbXhoTEVpMmc0VzBReWF5UlExRWJaMA?oc=5",
+      "published": "2026-07-21T17:05:00+00:00",
       "source": {
-        "name": "ici.fr",
-        "url": "https://www.ici.fr"
+        "name": "WhatsUpDoc",
+        "url": "https://www.whatsupdoc-lemag.fr"
+      }
+    },
+    {
+      "id": "aec3a360afde",
+      "title": "Conseil de gouvernement : Pass jeune, santé, médicaments, numérique… l’Exécutif accélère les réformes - lopinion.ma",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMjc0T0hfalFVYjJEZWhDY1E3bXdiaVhFYTR5X1UyUUxKSEpyTXpFX0tBQ05aRDk0Z3VvVkd5bmpHUE5PZjBGbUF6TjhBMUo5RE54RFFycHpIODZNV1RCN1JzemNmMFJnZ3VianB2WlloTWhKbzBReG5EYnJ4V1hQOUcxRGJ3WlhuRWVvNVA5WUxpUk10cFZ4d2xZbE1SV0lweHU3Ym1XM2djeDc4QzcxY1cwT3pBTzRVeE5tVlVnQkFsdGpzbkloVUZkci1uZkllVGJnU2V6My0zWXc1MmZFbEw5Y0Q0WGdCVW9aSWczVEVUZDJRWVRRZXFxLTJqaFk?oc=5",
+      "published": "2026-07-23T16:34:27+00:00",
+      "source": {
+        "name": "lopinion.ma",
+        "url": "https://lopinion.ma"
+      }
+    },
+    {
+      "id": "b70293b5e2aa",
+      "title": "Acouphènes : la HAS dévoile un nouveau parcours de soins pour soulager enfin les millions de Français touchés - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRkUwZWY2NFRhOXNLaVBrMkczOFUzc1IzVzJqTFlvOEVBRVduUFVuZHpoVW9XdnNyTTVSOW5Dc3N1em1pV0ZpRXVSNEFTUUtxdG5QX3U4TkhzeWJNUkJRbXpqTVpwWDR5cFJmdHVHZnBwbnBrSjVISDkyZDRMSnFReDZzSmRWSlg0UjcxTm9FNWNVclQ5WXFJQXB6ZmEyZXJQa3hCc0dtaUQ5cFhCR1d0WmFvdEpiLWgtV3Bib1J4LVJxRTVDSmZRVi03UFBkUlR2QU50X2xabHEwTkM1dldFQzlZajVGa0tOX29PTm95b3psemc?oc=5",
+      "published": "2026-07-24T02:30:46+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
+      "id": "f5cf2f1d94d0",
+      "title": "Gaza dénonce un manque historique de médicaments oncologiques dans l’enclave - سانا",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlOFFTMl9SaWR3YTBNNXVtM1YxV3E2dW5WVWxnM1VsQlN3eTdxd2cyYTZxYkNqVTlsdUZPMVluazFnWHdSdGtVOXJzeXI5dFN6?oc=5",
+      "published": "2026-07-23T14:13:28+00:00",
+      "source": {
+        "name": "سانا",
+        "url": "https://sana.sy"
+      }
+    },
+    {
+      "id": "2dc7a6cd2fa2",
+      "title": "Santé : le gouvernement veut doubler le plafond des franchises médicales - Nord Littoral",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWU0Z2Q4MWdlcVNqOHF4V1U4QlhpaEdFaVJ6ZFBWaTdGRmZrZHZDZTcyN3lnTU51SC14MXNFQjFYRVFhaFZUWWdvaUNYc0Z3TG9OMUpEbE9EdkFBa3AtSDdreXotRmFGZTUxOFE4Q0c0OWdiWkV1clNja2MzTlc5bWxzbXFIOEJ0Y0RkY0gzYktobnpzUTZCSk83ZkxfS0owRjJUQ2dxYXUyaGRYdVBiSTFwOXNpdkRpQUY1d284VkdzQQ?oc=5",
+      "published": "2026-07-23T14:53:51+00:00",
+      "source": {
+        "name": "Nord Littoral",
+        "url": "https://www.nordlittoral.fr"
       }
     },
     {
@@ -594,13 +634,33 @@
       }
     },
     {
-      "id": "bf5e7e5c5161",
-      "title": "En France, en 2024, 7.600 tonnes de médicaments non utilisés ont été récoltées; 40 % étaient encore consommables - BFM",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZWZLOGJ5ZXBwYU5hb09mWWZNS3J2d2QxSmg4LTl4Q29aQUxSamxKMlhkSU1RLWpoSnFqOEJZb25vWm8wWFVycmZ5TXRwTWFwUXlQd0QtNzQ1WDQtZ2VxTWZneWVOU2I4cEJ5allhTF9sMEd3OERyTkNQOTItV0NWNEdjdlJoZDdBNVU5bWVnX01pTmk0czhwT29IVmJsbUhxQ3dGZ2lDYU85RThWQ1FpanIwOEVLSlNVWnd3VXU3bnZSUVl6Ykk2T2hiT1FVX2swOEZ6WmZCeUZWNXN5WWZOUWdDRTVzdktpSHJKSEVaQlV6eXRI?oc=5",
-      "published": "2026-07-21T04:35:48+00:00",
+      "id": "7835c959d487",
+      "title": "Ozempic : un biochimiste alerte sur une perte souvent méconnue au-delà de la graisse - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNemZ1b2ZSSDBnRU1fLVU3U1VGRk9laUFpTjBKdHBSMXB2MFc5VGk3WktvdjFZQ3pWYlFveEN3c2Zra1BLdU01UXczaXB4clVlWEpVZjB1SUJESHhCUVZzN0dQd0p0ZHJKcGxQand3WmhWT1ZJRmFUZjM5Q1hLOEdfbEFLVEpQSmhhTW1fa0FUZnpnZksxY1l4VWxVdEVkU0oxZWJ5dTRGUG11N3l6YW9heUdwak9VVE9BVTQ0MU8xTmdINXlOSVl5RmlHVVh5MGpP?oc=5",
+      "published": "2026-07-23T18:06:00+00:00",
       "source": {
-        "name": "BFM",
-        "url": "https://www.bfmtv.com"
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
+      }
+    },
+    {
+      "id": "c65f2a02df12",
+      "title": "TDAH : pourquoi les prescriptions de méthylphénidate ont fortement augmenté depuis 2021 - ladepeche.fr",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZHRlejhIeFBxNDZfR1dzaTJMbWdPV1RiYmlrdVZNYWJianh2N1NjYWdJaUxkVEtRR201ckliRHp1eksyd2xIRFFRYTVOaFBseDI2NERodTczZG5wMk9pV1o1bGVjeUJSX1pQUVpfRXMxRWhlbUZZSGxGdmRPbzQ5MDlYdnREcVR6LS1IcHpoSnVvYkpDaFJHNDd0Vm44VF9vOXNsM0dzQ2ZzejB6RGxjOUVHd0tvaFBRUFhRY3ZPS3FYVmVmaDlKV2xFa3FLcW8?oc=5",
+      "published": "2026-07-23T08:07:00+00:00",
+      "source": {
+        "name": "ladepeche.fr",
+        "url": "https://www.ladepeche.fr"
+      }
+    },
+    {
+      "id": "06f289c44082",
+      "title": "Santé. Plusieurs collyres pour les yeux victimes de problèmes d'approvisionnement - Le Dauphiné Libéré",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcDl1bWR4eTY3LWk3YllZSlM3X3pPRC1Ic0ZIRkhjZ3Atb19IQzh4bVd1MThvVktnR3VGVWF0cEp0SFltdHNBazMxUTBMSEpOUjM2M0VRbUw5anNBRzh5T0pacEw3TnFRNmNGQ3ctUWltdE9yUzJsRnpqemVlS0xUVWtJd0xrbThxTTRoMURiWU5fRzdtYVVyM1EycUVPRFlOdjRGSDZ3cFk4YjhFd3pjLUFGdGtPNGV4LXc?oc=5",
+      "published": "2026-07-23T05:31:01+00:00",
+      "source": {
+        "name": "Le Dauphiné Libéré",
+        "url": "https://www.ledauphine.com"
       }
     },
     {
@@ -614,26 +674,6 @@
       }
     },
     {
-      "id": "6c49f611e0e6",
-      "title": "Les 15 principales entreprises du marché mondial de la gestion postopératoire de la douleur - Spherical Insights",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb29aR3h5UXZpVDdJR1B5RER6Sk4yTFhXSC15dllISDJzV3phWUd2Q280U3pSTGliT3ZtZXVfQlp1VmN4YnVNOFZiSjdEcTlITm84cVo2NnRoSDA2MEV0ODFONlJSOVQzZ3RNZ0JadFVxYUFEX09LV0o4MDQ1c040Qi1MMnFzaXBNQWYyMy0wdm9TX05VaExYcnVZZm1DRWJ2VkVfTENFdm9UbDBidjA5eS14WFZQWFlyOU9HcC1SVkFfQ1NNMjI4SFBweTJISjVuRWhndUpaOGNqNWZGeGdCbVMxYmZndGVid3Fkd0tnNjNlYnFfdWtJT3Rtbw?oc=5",
-      "published": "2026-07-23T09:54:29+00:00",
-      "source": {
-        "name": "Spherical Insights",
-        "url": "https://www.sphericalinsights.com"
-      }
-    },
-    {
-      "id": "8f992ea8b1f5",
-      "title": "Ces 5 médicaments très courants peuvent nuire à votre audition, selon des spécialistes - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWpFcmxlZnM1cjBWbWIwX3FISGplVENFV1BwSTA1YzBmbXJFdU9lQjdRNHIxZUcxOTNGdHVsQzE0cXdLWUFiRkZqejU4dGpKMGw0eHI5ZXJ1RFZqUFVGWldzUlI5QzlDMGstNkVJZ0hIR2hDYmFKNDFKLWxrWkUzVk5JTThoM0tRRlFKazBITEthaTBkNXdDRzV5VThDRzk4ek02N3B5b1gwQnJRZTM3WklVYnRzUnRYZ29xUzFpX1dNMk9WTWc5QkFyaDBwRFV1V2Fsdw?oc=5",
-      "published": "2026-07-22T18:08:00+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
       "id": "b85ee8e35f9d",
       "title": "Le tri des médicaments : un geste écocitoyen bien ancré - Harmonie Santé",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjBMaEF2RXNsUGFIQ18zQlVDTHhxSzBfVVZMZmdsSXdTYnIwclpIV2tRb3cyOWEwUHRjaTdVZEhscDhhQ2hkN2UtR0gwSTZrRkNEanNYS3dCenV4TFU0ME9uMUJVa3VWTnJqeWRNMGRqTFBPckxLR2tJOGwydUZtYVk1VXZnLVZ0VnBqMUZZUVhqbGVOR3Fmak5yQWphSTktcTIyZ1ZyU3hyNnJZMDctQ2dMNVM?oc=5",
@@ -644,33 +684,13 @@
       }
     },
     {
-      "id": "06f289c44082",
-      "title": "Santé. Plusieurs collyres pour les yeux victimes de problèmes d'approvisionnement - Le Dauphiné Libéré",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcDl1bWR4eTY3LWk3YllZSlM3X3pPRC1Ic0ZIRkhjZ3Atb19IQzh4bVd1MThvVktnR3VGVWF0cEp0SFltdHNBazMxUTBMSEpOUjM2M0VRbUw5anNBRzh5T0pacEw3TnFRNmNGQ3ctUWltdE9yUzJsRnpqemVlS0xUVWtJd0xrbThxTTRoMURiWU5fRzdtYVVyM1EycUVPRFlOdjRGSDZ3cFk4YjhFd3pjLUFGdGtPNGV4LXc?oc=5",
-      "published": "2026-07-22T23:27:18+00:00",
+      "id": "6c49f611e0e6",
+      "title": "Les 15 principales entreprises du marché mondial de la gestion postopératoire de la douleur - Spherical Insights",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb29aR3h5UXZpVDdJR1B5RER6Sk4yTFhXSC15dllISDJzV3phWUd2Q280U3pSTGliT3ZtZXVfQlp1VmN4YnVNOFZiSjdEcTlITm84cVo2NnRoSDA2MEV0ODFONlJSOVQzZ3RNZ0JadFVxYUFEX09LV0o4MDQ1c040Qi1MMnFzaXBNQWYyMy0wdm9TX05VaExYcnVZZm1DRWJ2VkVfTENFdm9UbDBidjA5eS14WFZQWFlyOU9HcC1SVkFfQ1NNMjI4SFBweTJISjVuRWhndUpaOGNqNWZGeGdCbVMxYmZndGVid3Fkd0tnNjNlYnFfdWtJT3Rtbw?oc=5",
+      "published": "2026-07-23T09:54:29+00:00",
       "source": {
-        "name": "Le Dauphiné Libéré",
-        "url": "https://www.ledauphine.com"
-      }
-    },
-    {
-      "id": "3e4775c24dcd",
-      "title": "Certains malades vont devoir payer plus : le gouvernement tranche la question des franchises médicales - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRVRvaTBIUldJNjFuaThfSTNQbGZxRW03QmRSRld6Ykp5ZGpnNjVwOEhEdzdlNFRXZTNvUXZpTklHVnJKRko4ajQ3dHViMUQta0h2Zk5YeDRSNE1oaExRdUNFbGZOcFZUaUlNd0ZaM1NTNGMxRzZicEZmOE1iSURDcVhNTDZXenZtUWt1bkdRaTZ4cGZUTFhhZ1REeU1kM0x1UG9LOEctaWRRcUxJOW4wWXVnLVp5M2M1enFNcTlMWUxmdmtsbHRRbW5ydW5lS3F1aVRjU1pZbm5GQTNtckI3VGhlY0d3NzlhWVRmWUZobw?oc=5",
-      "published": "2026-07-23T09:44:00+00:00",
-      "source": {
-        "name": "Linternaute.com",
-        "url": "https://www.linternaute.com"
-      }
-    },
-    {
-      "id": "009c89606bc9",
-      "title": "Un employé des hospices civils de Lyon contaminé par un médicament radioactif - Radio SCOOP",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcExkRE5HSUZwaHZoY2VsRGdDNUdYRkJJU295UU1Zc18wZmV2TzEtME9adGZvUGJoWDgyVlR6blBFN0c1UGJxZmg4VUJNQkphZjVpN1p3Vl9HOHdvWDdqU3d5U2l6VEVneVU2aS1hN0MtZ3V4aWRQLVA3aklmbnhRNUxYeU9MaXk4Z096NlR3VGJUN0pBSDc4bF82YnVhYzV3NnNXdl9FZ1BZaTlXTWVmVGxCbXkyN2N4?oc=5",
-      "published": "2026-07-23T07:15:00+00:00",
-      "source": {
-        "name": "Radio SCOOP",
-        "url": "https://www.radioscoop.com"
+        "name": "Spherical Insights",
+        "url": "https://www.sphericalinsights.com"
       }
     },
     {
@@ -684,13 +704,23 @@
       }
     },
     {
-      "id": "baa143c5ece2",
-      "title": "Médicaments hybrides et biosimilaires : qui devra avancer les frais dès le 1er septembre 2026 ? - Bulletin des Communes",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMHZYUFJyaDh6YUQ2bmR5Qmo0NGNNLUhJZkVIYTdaV0lOX0pqeXNfTUkxaV9oanVjMGN1b0F6TzFRMm85RzVPRHhyeW5mY05tUGl6YjFoV3NzV2U5ekZ5cXpPVC1VUjhhWW5JN2wyRW5YT0ZCOXl5TGg5VFJhZUZZZDBOd0p2NFpjcFNra3hNcDk3VFdvR01GVmVkdE5fX0d0QjNiVXI0ZDU4c2Vndkp5VG40MnU0dE9TV2JUM21Od3Z3QQ?oc=5",
-      "published": "2026-07-23T09:49:00+00:00",
+      "id": "9ac8c29c2eea",
+      "title": "Alzheimer : la recherche se trompe-t-elle de cible ? - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdzdiMENrOExWUkFleGNKZVRKRmU2Wlp2cDlTcm1waVQyQ0JnVmFIdWZrajlERXBXd2lWOGs4ekF6bXp1U1ZwWkFXVGNjQzZ3eGZyVHFTeTRvbGQtYXNTSDYyeEp3Smp4d0s4RFNxbDIxcktKV3hPRV9yajFVWS1jSXdfelV0bnVXdmxyTTIwYUJaaF9XVF8yN0pQZTVlX2xyVlljSW02V050dw?oc=5",
+      "published": "2026-07-22T08:27:26+00:00",
       "source": {
-        "name": "Bulletin des Communes",
-        "url": "https://bulletindescommunes.net"
+        "name": "Medscape",
+        "url": "https://francais.medscape.com"
+      }
+    },
+    {
+      "id": "3e4775c24dcd",
+      "title": "Certains malades vont devoir payer plus : le gouvernement tranche la question des franchises médicales - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRVRvaTBIUldJNjFuaThfSTNQbGZxRW03QmRSRld6Ykp5ZGpnNjVwOEhEdzdlNFRXZTNvUXZpTklHVnJKRko4ajQ3dHViMUQta0h2Zk5YeDRSNE1oaExRdUNFbGZOcFZUaUlNd0ZaM1NTNGMxRzZicEZmOE1iSURDcVhNTDZXenZtUWt1bkdRaTZ4cGZUTFhhZ1REeU1kM0x1UG9LOEctaWRRcUxJOW4wWXVnLVp5M2M1enFNcTlMWUxmdmtsbHRRbW5ydW5lS3F1aVRjU1pZbm5GQTNtckI3VGhlY0d3NzlhWVRmWUZobw?oc=5",
+      "published": "2026-07-23T09:44:00+00:00",
+      "source": {
+        "name": "Linternaute.com",
+        "url": "https://www.linternaute.com"
       }
     },
     {
@@ -714,33 +744,13 @@
       }
     },
     {
-      "id": "4b72df2d65b0",
-      "title": "Hôpital : état de disponibilité de spécialités hospitalières (semaines 29 et 30) - vidal.fr",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVkhRZmFJRFdXbXk3bFBfdlFtMlN3RWZWS3NvbmdpUDBXSHNzTUZLTy1kdVdHclFlNUcyTHFjT0ktckZLY1hObmJXWE5LaER6QW1MZVh2bXprc3BBYmRIeUhfdnB1YmUxalVSekUtaXFKeFRCWXkwVXU3SGFWU09GcFV6aDZLUWYydUxYczd6cXNfV2tLTFFZcTM1R2ltamlXLVY1YnNLS2t4SUVvSGxveE00Ri1uNFV2cWpN?oc=5",
-      "published": "2026-07-21T14:14:19+00:00",
+      "id": "009c89606bc9",
+      "title": "Un employé des hospices civils de Lyon contaminé par un médicament radioactif - Radio SCOOP",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcExkRE5HSUZwaHZoY2VsRGdDNUdYRkJJU295UU1Zc18wZmV2TzEtME9adGZvUGJoWDgyVlR6blBFN0c1UGJxZmg4VUJNQkphZjVpN1p3Vl9HOHdvWDdqU3d5U2l6VEVneVU2aS1hN0MtZ3V4aWRQLVA3aklmbnhRNUxYeU9MaXk4Z096NlR3VGJUN0pBSDc4bF82YnVhYzV3NnNXdl9FZ1BZaTlXTWVmVGxCbXkyN2N4?oc=5",
+      "published": "2026-07-23T07:15:00+00:00",
       "source": {
-        "name": "vidal.fr",
-        "url": "https://www.vidal.fr"
-      }
-    },
-    {
-      "id": "2bb6e660a94a",
-      "title": "Ozempic et autres traitements amaigrissants sous surveillance renforcée après des centaines de cas de pancréatite - Science et vie",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaHhWcjFybElzRE5ZWE5kSW1GcGwtQzF4NHZtT2RhMzVUVGhpbE9mTEc4Qjk3MEQ2aEZuQVU5RXgyU1I1S2M0UUJ2cmdWWHZVbndFWnRmX1dQUmdpQjRLX3ptUVFCTVBManRROTUwd2FoLUFaV0NTVTc1Ry1oZmJkbndMWmphSFVyODBjOHUzMXh5anJRamE5Nmt6M3dqRFRHaWJwTld5NHBHUzZGRUljMGg0eWY5OWVyR2F3cHdnSXpRYTFlMTJBRlBHT0RPQ1BsRE5yWEhOUEhud1hPMmdrcVJHdEtpMUNXNGlQc0RzZnVGMzdpNUcxZF9jNmNtWmdG?oc=5",
-      "published": "2026-07-22T15:00:44+00:00",
-      "source": {
-        "name": "Science et vie",
-        "url": "https://www.science-et-vie.com"
-      }
-    },
-    {
-      "id": "06cf961518d2",
-      "title": "Franchises médicales : le gouvernement annonce le doublement des plafonds - guadeloupe.franceantilles.fr",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXNfMklYUzNoSHZzWUY0M0RaNHV4VnE4bTZzaHVsZWxTVTN4NHlJTXVaTnBOVXpaUHpaU0lOVW1wRWlrUklST2E0Qi1EeXNQZExlQThFMktZUW5rN0FJQlhhX1I2QVJHaVp4S3VFOFpZNDVlQ2Jzam5MemJycXBMUklpbkREb3l3ajM3ZGVJTWNpWkJmTzhUb1RsV2ZpYXBSUENXSzNVSTN1YzhUX3NyblQ2Vno1cXRONWxuaHBGZDZtLXFGVDh3WG5JNVgxOGwwRWxGVjB0cw?oc=5",
-      "published": "2026-07-23T14:41:29+00:00",
-      "source": {
-        "name": "guadeloupe.franceantilles.fr",
-        "url": "https://www.guadeloupe.franceantilles.fr"
+        "name": "Radio SCOOP",
+        "url": "https://www.radioscoop.com"
       }
     },
     {
@@ -754,13 +764,23 @@
       }
     },
     {
-      "id": "a2c8d486a4a8",
-      "title": "Cancer du pancréas : les Français se mobilisent pour un accès au nouveau traitement - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWhDTTdFbUZBTV81SHhWY0d5aWUwRW5ZNkMtX1kxeVhLMlVxRW9iWlJUa29lcGZmQUxwMGdYUU5HUmI5ZlNmbUdEWjhhUzhPYW5JT3VkU3MzUWljM3FtcHhqMDBkb1lub0ZYc2RGaktzbEs1UG00TVJrNHFRaElBTi1VNHdRaGp6dkVFZWFfRXRLQUxwaXg0bXJSXzFxX2pNVVMwc0ZfaXVjTlVVSTRQU1VuSUdYcEt4T3RFVHh4aw?oc=5",
-      "published": "2026-07-23T05:55:00+00:00",
+      "id": "baa143c5ece2",
+      "title": "Médicaments hybrides et biosimilaires : qui devra avancer les frais dès le 1er septembre 2026 ? - Bulletin des Communes",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMHZYUFJyaDh6YUQ2bmR5Qmo0NGNNLUhJZkVIYTdaV0lOX0pqeXNfTUkxaV9oanVjMGN1b0F6TzFRMm85RzVPRHhyeW5mY05tUGl6YjFoV3NzV2U5ekZ5cXpPVC1VUjhhWW5JN2wyRW5YT0ZCOXl5TGg5VFJhZUZZZDBOd0p2NFpjcFNra3hNcDk3VFdvR01GVmVkdE5fX0d0QjNiVXI0ZDU4c2Vndkp5VG40MnU0dE9TV2JUM21Od3Z3QQ?oc=5",
+      "published": "2026-07-23T09:49:00+00:00",
       "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
+        "name": "Bulletin des Communes",
+        "url": "https://bulletindescommunes.net"
+      }
+    },
+    {
+      "id": "06cf961518d2",
+      "title": "Franchises médicales : le gouvernement annonce le doublement des plafonds - guadeloupe.franceantilles.fr",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXNfMklYUzNoSHZzWUY0M0RaNHV4VnE4bTZzaHVsZWxTVTN4NHlJTXVaTnBOVXpaUHpaU0lOVW1wRWlrUklST2E0Qi1EeXNQZExlQThFMktZUW5rN0FJQlhhX1I2QVJHaVp4S3VFOFpZNDVlQ2Jzam5MemJycXBMUklpbkREb3l3ajM3ZGVJTWNpWkJmTzhUb1RsV2ZpYXBSUENXSzNVSTN1YzhUX3NyblQ2Vno1cXRONWxuaHBGZDZtLXFGVDh3WG5JNVgxOGwwRWxGVjB0cw?oc=5",
+      "published": "2026-07-23T14:41:29+00:00",
+      "source": {
+        "name": "guadeloupe.franceantilles.fr",
+        "url": "https://www.guadeloupe.franceantilles.fr"
       }
     },
     {
@@ -794,6 +814,16 @@
       }
     },
     {
+      "id": "a2c8d486a4a8",
+      "title": "Cancer du pancréas : les Français se mobilisent pour un accès au nouveau traitement - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWhDTTdFbUZBTV81SHhWY0d5aWUwRW5ZNkMtX1kxeVhLMlVxRW9iWlJUa29lcGZmQUxwMGdYUU5HUmI5ZlNmbUdEWjhhUzhPYW5JT3VkU3MzUWljM3FtcHhqMDBkb1lub0ZYc2RGaktzbEs1UG00TVJrNHFRaElBTi1VNHdRaGp6dkVFZWFfRXRLQUxwaXg0bXJSXzFxX2pNVVMwc0ZfaXVjTlVVSTRQU1VuSUdYcEt4T3RFVHh4aw?oc=5",
+      "published": "2026-07-23T05:55:00+00:00",
+      "source": {
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
       "id": "5242ba3a2efb",
       "title": "Prix des médicaments : principales dispositions du décret final adopté en Conseil de gouvernement - Medias24",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU1cwYVUyUHczYVZVX0N5d2hQWVZ6blBHZjdoSy1RdTI5Sl9JSGJxWU1FRWJUdTU2U3lQM28yT2c3d0NqLXBDNzZMdXJJMTlSeTQ0cTV0bnZsSmd1OVpub1VQMmtScm5aUzZ2dlZhVnBrVlB0QkdSTHJwcE9QMTY4UUNaUUltMEZXRm1lWWI1SU1KTl9NQWlIdUtaQUZNUXpCLTFBb2tPaUp4ZGNrVzByZzNsSGRWLU5jVlloUFB0NEdVcDRBUV9HU0NlazRXVndLZFE?oc=5",
@@ -801,16 +831,6 @@
       "source": {
         "name": "Medias24",
         "url": "https://medias24.com"
-      }
-    },
-    {
-      "id": "c16f34f19f00",
-      "title": "Prix des médicaments : décryptage d’une réforme très attendue - H24info",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NdTI0cGwwLXYwQTZJOUxBQVBGTlc0RFZRdThic3daSmcxOWRUVEZwbGlnNFNWY2hBZzVGNlBmZVNjay1NalItUGU1ZmYwSFkyY05FT1lXbXJYUnlpcHVCUEdhNGl1WXRoZlktbkhn?oc=5",
-      "published": "2026-07-23T18:53:32+00:00",
-      "source": {
-        "name": "H24info",
-        "url": "https://h24info.ma"
       }
     },
     {
@@ -844,23 +864,13 @@
       }
     },
     {
-      "id": "1344c0b4e6c2",
-      "title": "Prix des médicaments : réforme adoptée en Conseil de gouvernement - Lebrief",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeU5KUkliQ2Q1eEVFMjIybmdvR212b3hOcEtTbm9aaW9QaFRfUENORS1IZ2pITHRGYmhDUzNSTEsyVEc3a2NZZWNQMVVSZVlRSkptelRUS0oyTnZ1MUJ3QlJuYVgxRGhxRlE5VEtNbmp0eEN3b0J3YllDNmdlbW5WWHZmYU5oUHFJ?oc=5",
-      "published": "2026-07-23T09:48:43+00:00",
+      "id": "c16f34f19f00",
+      "title": "Prix des médicaments : décryptage d’une réforme très attendue - H24info",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NdTI0cGwwLXYwQTZJOUxBQVBGTlc0RFZRdThic3daSmcxOWRUVEZwbGlnNFNWY2hBZzVGNlBmZVNjay1NalItUGU1ZmYwSFkyY05FT1lXbXJYUnlpcHVCUEdhNGl1WXRoZlktbkhn?oc=5",
+      "published": "2026-07-23T18:53:32+00:00",
       "source": {
-        "name": "Lebrief",
-        "url": "https://www.lebrief.ma"
-      }
-    },
-    {
-      "id": "ff6513e28899",
-      "title": "Prix des médicaments : une réforme pour alléger la facture des patients - Le Matin.ma",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMlh1TTJ6cm9VMmRNNnFHU3otRmFwaWY4NEREMU1Jd3BMb0NNcG9kN1ZJYWF0T0pXYWlPcmZNc0lzcm50RDBXcUdJVXZWbFUxTmpWN05UcDVqQmtYSmhiX1p2Mkt3dlZuX1Rycy1xcm1Vbkc0WXR5dHJ1eTU4YkRadFNLM3BpbnhMNi1HWWRHLVpsTUpQVFJYMTB2REhvLW1aN3BPaNIBqgFBVV95cUxPd0NJX0o1UXBqQS1QRHl0eThWdkx1VjZhWFFDNm94OHh0eFItR2hjWTA5YktoNVN6MVpRTHlNeGd2TnRka042NXVXZVRZSmlUZXVKWm9HVnpJaUdQY2FFaTdFekZRMy11alFZblQ4dU8yZlA1b3d1MGdXMWFTZmNiTWtEZnBqTFc1ZzRRbGQ3ZEZjUk5MbERBdWRQWkh5R0lLS2dKR21EOC00Zw?oc=5",
-      "published": "2026-07-23T09:08:00+00:00",
-      "source": {
-        "name": "Le Matin.ma",
-        "url": "https://lematin.ma"
+        "name": "H24info",
+        "url": "https://h24info.ma"
       }
     },
     {
@@ -874,43 +884,13 @@
       }
     },
     {
-      "id": "b7966ee41e76",
-      "title": "Nouvelles recherches sur les médicaments psychotropes pour le traitement des maladies mentales en Israël. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVjBENGZxOTBvdGZXOXRKcWphNlBnVTJZbXRyRlpQVjRWSXVhRjVxbWVTdHhITGxQbkdydlR3RGhhVEd3Q3Vod2JFVmRiTDgwMGtmNHJSZHV5VGwtbG1ON2JPMVpHbjlQVUZpQWV6Rkw0aEtIdTV2NkZ0Mk5tSkdZMmlzT0lBMXhxY0Q2ZW9IVWVYdVlYX3Z3a2RqVkdzUQ?oc=5",
-      "published": "2026-07-23T13:25:24+00:00",
+      "id": "ff6513e28899",
+      "title": "Prix des médicaments : une réforme pour alléger la facture des patients - Le Matin.ma",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMlh1TTJ6cm9VMmRNNnFHU3otRmFwaWY4NEREMU1Jd3BMb0NNcG9kN1ZJYWF0T0pXYWlPcmZNc0lzcm50RDBXcUdJVXZWbFUxTmpWN05UcDVqQmtYSmhiX1p2Mkt3dlZuX1Rycy1xcm1Vbkc0WXR5dHJ1eTU4YkRadFNLM3BpbnhMNi1HWWRHLVpsTUpQVFJYMTB2REhvLW1aN3BPaNIBqgFBVV95cUxPd0NJX0o1UXBqQS1QRHl0eThWdkx1VjZhWFFDNm94OHh0eFItR2hjWTA5YktoNVN6MVpRTHlNeGd2TnRka042NXVXZVRZSmlUZXVKWm9HVnpJaUdQY2FFaTdFekZRMy11alFZblQ4dU8yZlA1b3d1MGdXMWFTZmNiTWtEZnBqTFc1ZzRRbGQ3ZEZjUk5MbERBdWRQWkh5R0lLS2dKR21EOC00Zw?oc=5",
+      "published": "2026-07-23T09:08:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "c26467bb54c4",
-      "title": "Santé : ce qu’il faut savoir sur le misoprostol et les risques liés à sa mauvaise utilisation - Tchadinfos",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWGVuNjRZMkREclhVODYxWEJtQXNCalZPNk5GVGxTcWFZd3Z4TEYtVnpsby1kR0lmVmNDelNWNnNsemhkMlcydjBKUGRNb2lIODhvZEpRY3ZWamJ2WDNSdGxVZzJtRmNxWkU3SHVXMEk4Y0RDbTBrOFhvS1B1Tl8xUFc4YzFqY3RYdUxoMEZCOUxDRHhkR0c3cG1IN0VBT1hBR3U3dEhtNjR6QzZzSjJibVJvck0xYXh6RjRNbEE3NXFvRTg?oc=5",
-      "published": "2026-07-23T07:12:01+00:00",
-      "source": {
-        "name": "Tchadinfos",
-        "url": "https://tchadinfos.com"
-      }
-    },
-    {
-      "id": "1630614cd7d8",
-      "title": "Compléments alimentaires : l'adoption du nouveau projet de décret reportée - Medias24",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdUIxVy1fclAwdDZKNW05YUNmYmU1LUpmOUQ5XzhRYlRBR1lLaTJpWlNtRGJnQnNYQVFHUVFqZVRCSE1jRS1WTXZlR2xISTQ1OWFnRTFfbVZwNTRPRzhLRDRkSUJtYWRoYXdGUEl4WTNBdS1GVHBVZ3FxMUhOLWQycjhWN2F0RFlVTUs4dDdST1Rac202Z3FOMkNKSDhpSDJSd2J6QzNiTVFfWS1IRTlJWTh3?oc=5",
-      "published": "2026-07-23T11:16:00+00:00",
-      "source": {
-        "name": "Medias24",
-        "url": "https://medias24.com"
-      }
-    },
-    {
-      "id": "09ad3d6ff898",
-      "title": "Gia Lai : Examens médicaux et médicaments fournis à plus de 1 300 personnes dans les zones frontalières. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaDlIRWU1TnBkUEt6ellfQXVKZl9seURSSkF0Tklwd1UxNHJFb2R2NTJ1Ym1pMW9lNV9EdVd3dnhVYkFJaGpycS1kY0tzZG9TOE1xTWxfOXYxZEhzWm4xLTBTcXpKa0hGOHBDRjl2UFNQT29IalNiZ0cwVjBxZkh5U1RITk56aF9fSUEweUlLb0szYWxh?oc=5",
-      "published": "2026-07-23T11:32:11+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Le Matin.ma",
+        "url": "https://lematin.ma"
       }
     },
     {
@@ -931,6 +911,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "09ad3d6ff898",
+      "title": "Gia Lai : Examens médicaux et médicaments fournis à plus de 1 300 personnes dans les zones frontalières. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaDlIRWU1TnBkUEt6ellfQXVKZl9seURSSkF0Tklwd1UxNHJFb2R2NTJ1Ym1pMW9lNV9EdVd3dnhVYkFJaGpycS1kY0tzZG9TOE1xTWxfOXYxZEhzWm4xLTBTcXpKa0hGOHBDRjl2UFNQT29IalNiZ0cwVjBxZkh5U1RITk56aF9fSUEweUlLb0szYWxh?oc=5",
+      "published": "2026-07-23T11:32:11+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
