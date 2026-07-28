@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-28T06:33:30.256693+00:00",
+  "fetched_at": "2026-07-28T09:40:39.293978+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "5774d3d32588",
-      "title": "Accès à l’innovation thérapeutique en France : le Dialogue Santé citoyen - Sanofi",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM2ZzZ2xPTFFFbkFrbm1QYS1kVUpXSG1WUldDZl9oWGx5UUNuQU9lVGFUWTJnelNnRmVkSVp0c3dibEJ2dHloTXFPY0dXQ2t0U2JFTzhUOHo5NnM4VGhjbFNvbnpiRUdqQnpNRWU5bEtzbDI1YkI1SFY3aHo0OVlrRVd6dTdrQ05seWpibkxiVGszc2R1VWtRMmhvYnc3djdaem1iYl9IYzFrUFFaRFkxVVZ1ZVRWa05vMWpqcmFoa3pPT241dkpyQnJMNGZPMlFva2RYSFRPaDRacnVKSUE?oc=5",
-      "published": "2026-07-27T10:26:30+00:00",
-      "source": {
-        "name": "Sanofi",
-        "url": "https://www.sanofi.fr"
-      }
-    },
     {
       "id": "09a8a96d57df",
       "title": "Franchises médicales : un décret est en préparation pour passer de 100 à 200 euros le plafond sur les médicaments et les consultations, annonce la ministre de la Santé - Public Sénat",
@@ -34,6 +24,16 @@
       }
     },
     {
+      "id": "5774d3d32588",
+      "title": "Accès à l’innovation thérapeutique en France : le Dialogue Santé citoyen - Sanofi",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM2ZzZ2xPTFFFbkFrbm1QYS1kVUpXSG1WUldDZl9oWGx5UUNuQU9lVGFUWTJnelNnRmVkSVp0c3dibEJ2dHloTXFPY0dXQ2t0U2JFTzhUOHo5NnM4VGhjbFNvbnpiRUdqQnpNRWU5bEtzbDI1YkI1SFY3aHo0OVlrRVd6dTdrQ05seWpibkxiVGszc2R1VWtRMmhvYnc3djdaem1iYl9IYzFrUFFaRFkxVVZ1ZVRWa05vMWpqcmFoa3pPT241dkpyQnJMNGZPMlFva2RYSFRPaDRacnVKSUE?oc=5",
+      "published": "2026-07-27T10:26:30+00:00",
+      "source": {
+        "name": "Sanofi",
+        "url": "https://www.sanofi.fr"
+      }
+    },
+    {
       "id": "8ae820d46d2c",
       "title": "Certains médicaments ne seront plus remboursés par la Sécu qu'à 5%... Ce que prévoient les décrets que le gouvernement veut s'empresser de publier cet été - BFM",
       "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNS1FkaWZRSWQ1V3k4NEtHbk8zOW85eE05ZXJkRHEySTV6cnB6YVJFTk9QS0ZpN0lSV21rbEZrZGpza2VXU1NDTWJ6dktXV0NRZHp5OHVhN19FRVZpS2JBekRDUnFnZUVwdUxZdjNFaTAxaUxtSzMwUXJJUWYwa1Z2ckNRNEo3SGxaRk1oVjdrQVpKbU9TeHN4ZkRWY3RzUVRLcEJIY2N2MjRKZkE3SVFLRGtKRnY5cGduTGRnRDR2TG1EeXoyU21jVjFYOG9ZVFJQMzVQcDNuU0dWY2V1VnRodE9RTDJNR2dIU21Ecnd1Z1Fpdl9DS3c1b0VnTTJKSkJRMHdXbVVseTRPcDIydHJfMm8zdUpoVXFUSjdwQzhqVjNhUVFuaWF4SUpTeUNodzlDaEFzR2xpdGxOVFdiYlo0?oc=5",
@@ -41,26 +41,6 @@
       "source": {
         "name": "BFM",
         "url": "https://www.bfmtv.com"
-      }
-    },
-    {
-      "id": "9c02cf158a66",
-      "title": "Système de santé : ce que les Français en pensent - Egora",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaV82NEJ4aDJLZC1fNDVfbl9zb0lfaXdsTm5ydklJbVlPZHZLTS1XUEFiX1hHZXJZRG9LcTIxeWIwOWM4aGdIUDRlMmJsUEJmVHpNdGdYbGN3VWEyWmZBbFlLRzNzSlJXNFIzT3RYbk5ZbDQ3ZGN1Y0J4MDBwZF9DRTd5Z2dFNGxtWWd4WjVDeGU4dzljbHJv?oc=5",
-      "published": "2026-07-27T14:54:42+00:00",
-      "source": {
-        "name": "Egora",
-        "url": "https://www.egora.fr"
-      }
-    },
-    {
-      "id": "f387fa77f716",
-      "title": "Médicaments, dentistes, taxis : le gouvernement veut baisser tous azimuts les taux de remboursement de la Sécurité sociale - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVVcxbDNRZEJ4MmhYRHFOcjJlMFpoY2FwRFhIR2pfVkx0X0NuVWE0ei1ScUp5UGpCOXFtTUsya082OGVMcUdzMy1pV1BhMThmVG95Q3QweHpwN25FbWpZSjdCTWRwX2VLczZKX01PV1ZwaFhnOFVISHhOc2VrdTZROEQwSzlacUNZb19yUFhMcmZnSGo0S3ljczFmSWFjSkF1SjhKVUUtOGw1Sl9YZmIyQTBfSEx6aEtMblJ6eUY0VTB0UHlnOUlNYU82dnlaU01XbWlIcVdkZ2FCaFZJZVlRZzZBUFZDVjhtTk9QM1pDNUJNMTFaQUtYWEJXV3BqUHRnd3BB?oc=5",
-      "published": "2026-07-24T04:00:09+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -74,13 +54,13 @@
       }
     },
     {
-      "id": "590612d174b8",
-      "title": "Garantir la disponibilité des médicaments en Europe aura un coût - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelJDRW8wcklpRGZpT0M0NzNrREYyNlc5ZU5uOGZWcU1WSHZVZ3MzM0JSTGVuVlVFRElPdm01VlpCRGVTN3pPUy1PdVZOLS1BV2pHY0ZSMjR6OVRqMlJPcTV6TXhONUh6endpQ2Yzc3FOdEdHS29qTVB4MVRwZVhXU1NrOHJrQVJRMlhHYWdiVGYzWUt6TzJpRURkdUtGbjJY?oc=5",
-      "published": "2026-07-27T08:30:23+00:00",
+      "id": "1cad6b6a30c1",
+      "title": "Bipolarité : quand le traitement devient un tuteur de vie - E-Sante.fr",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVWhveGZ6ZUNadTRtbmVqWDFVYTdSSUlwem1mTDdKOTNfTHJqbVducTF0alJlVG5yeEJpQThfb2RJbHFwbDZudnhuU1lRZXExOFIya2J6VlYtT2ZGNkxvTDVHS0VlaFUwbWdoY0M1dmxBbGZDUWI5ZnRqZlVMY1NxNHNMcnBDNl9oWWNUSVdwV2FhWnJfOVVyWGxHNA?oc=5",
+      "published": "2026-07-28T07:15:30+00:00",
       "source": {
-        "name": "Medscape",
-        "url": "https://francais.medscape.com"
+        "name": "E-Sante.fr",
+        "url": "https://www.e-sante.fr"
       }
     },
     {
@@ -94,13 +74,13 @@
       }
     },
     {
-      "id": "d78d7ea3ceef",
-      "title": "Chirurgien-dentiste, transports, médicaments peu efficaces : le gouvernement souhaite modifier certains remboursements - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOVHAwaHp4R2J5NThxTXp1Tk1mYXdXemxnQTZsbVllbmNrSFJkM1hkR2pCZTJqUUh2c0FUdjR6dnBPQ3RuNmFpUHFUaktOcjRnMGd2UzJjelBkWVpBVUdWc2gwaXdUQW5CeW1qZ3pId2dsN2FIZjJVd3lraE1tWS1Jdjczbk5saXhyS09pbHhSeHQ5MjE1c0ZCM242MW9jNExqaVVubHEydFVFcktDYlNyam9QYk9rR0FSZ01GRDFiTFVqeUJqRVZUNTE5MGlyR1hRQVg1WGVJZEo3M2xRaDVSTlFYXzFyNlhtMzZ5Z1V1NjI5Ti1XbVlnRW1LcHJ5blQyQ195RUwwT0lNMTBTQWpleEV4clF6ejQwYzBKelR3a0MwMzMybVVpWkp3?oc=5",
-      "published": "2026-07-24T08:09:07+00:00",
+      "id": "9c02cf158a66",
+      "title": "Système de santé : ce que les Français en pensent - Egora",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaV82NEJ4aDJLZC1fNDVfbl9zb0lfaXdsTm5ydklJbVlPZHZLTS1XUEFiX1hHZXJZRG9LcTIxeWIwOWM4aGdIUDRlMmJsUEJmVHpNdGdYbGN3VWEyWmZBbFlLRzNzSlJXNFIzT3RYbk5ZbDQ3ZGN1Y0J4MDBwZF9DRTd5Z2dFNGxtWWd4WjVDeGU4dzljbHJv?oc=5",
+      "published": "2026-07-27T14:54:42+00:00",
       "source": {
-        "name": "Ouest-France",
-        "url": "https://www.ouest-france.fr"
+        "name": "Egora",
+        "url": "https://www.egora.fr"
       }
     },
     {
@@ -114,13 +94,33 @@
       }
     },
     {
-      "id": "f1442edc88cc",
-      "title": "AstraZeneca prospère, toujours porté par l'oncologie - WhatsUpDoc",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0pjSDN5WWRLem9hSklZUEVrVXcwZk9DZEppLXJoM3hOWVhidDY5LTgwWmhpQ29PQVg0MDJ2OGxaMlJNTXFleHdFaGprZ0JBazRjM1FJdExUTEF1RmRkOHV4VlpiMndFYzVkQmNwUUEyaEJycjJjdG5RQlRGVV82cUFTazZndEtsbXU1aDdnUlN2WHBr?oc=5",
-      "published": "2026-07-27T09:23:00+00:00",
+      "id": "590612d174b8",
+      "title": "Garantir la disponibilité des médicaments en Europe aura un coût - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelJDRW8wcklpRGZpT0M0NzNrREYyNlc5ZU5uOGZWcU1WSHZVZ3MzM0JSTGVuVlVFRElPdm01VlpCRGVTN3pPUy1PdVZOLS1BV2pHY0ZSMjR6OVRqMlJPcTV6TXhONUh6endpQ2Yzc3FOdEdHS29qTVB4MVRwZVhXU1NrOHJrQVJRMlhHYWdiVGYzWUt6TzJpRURkdUtGbjJY?oc=5",
+      "published": "2026-07-27T08:30:23+00:00",
       "source": {
-        "name": "WhatsUpDoc",
-        "url": "https://www.whatsupdoc-lemag.fr"
+        "name": "Medscape",
+        "url": "https://francais.medscape.com"
+      }
+    },
+    {
+      "id": "8954ebc3b547",
+      "title": "Pourquoi la France laisse mourir ses pharmacies ? - L'Essentiel de l'Éco",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSWZWMmZnRmV3anpCOGdRbkRYWU9EYmIyQTQzWHoxYkFNSk5uZW4zNTRiZzY5ZzJjT1l3a0RDS1FQajZrUmxEQXlEbWZlcXkwUFo4cU8wWDdtb21rLVctbXlnQ3VfbGc0X194QUllZUlmT18wc1d0T00tLUYtdDQyZ2tZWXMzc3RS?oc=5",
+      "published": "2026-07-28T05:06:00+00:00",
+      "source": {
+        "name": "L'Essentiel de l'Éco",
+        "url": "https://lessentieldeleco.fr"
+      }
+    },
+    {
+      "id": "f109f8f0ea36",
+      "title": "Innover en cardiologie, l'audacieux pari d'AstraZeneca - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYjV2bmdrT0tqSHFOTGxGNVJ0Vzl0Y3hkbktoWVBCSzFHM0ZIUm9IamhqcnBqVTJuWlNPOUhLSXpIV0ZwMDFkN2FmX2FFMTFteUJkalRBUVo2WVZaTzIyMW5KUkJGZVVlLWxPaVVkaDZUVERrNmszU051TzRRMkcwcWJ6NjduRDl3azl6RkRDQ2ZUaFl5ME5jME8xSG0wZGFyQTEwZ0I4bEtCZzJaRTgyaWY0NWZTUDBvRFE?oc=5",
+      "published": "2026-07-27T12:47:33+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -144,26 +144,6 @@
       }
     },
     {
-      "id": "2d9f37bc267b",
-      "title": "Dentiste, transports médicaux, médicaments peu efficaces... : de nouveaux transferts de remboursements vers les mutuelles annoncés - RTL",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLThGQ296dFJkd2xqNEFnc3F5c0s0c1Z3b0ZodFRmdm9oa1pKMFZjZXc3a19sNlNXTlRpYWxyUnZxMDd2ZTJ3VU91OGZ5TE5zNjI3NWh2SjVnSDRxTGZrZzhuaVl3RlhfMVotYWhKclR2MjExdTN2dVo4eWhod0d2emFkLU9ucGlMV3FOMzlYeFAzNFZiWGtOLUV0bWZSSVI2Mzc5Tjhha3lNYmJxVU1ERmdDZkZuRWFSWFRLN1FIQ0pNVDBHbG1mbTYwbGhwaXIzNEgteEwtMVJETjRyd3ZwSmdXcEdpVmo1Q29oYS1BM0FtZEN1YlRr?oc=5",
-      "published": "2026-07-24T09:18:16+00:00",
-      "source": {
-        "name": "RTL",
-        "url": "https://www.rtl.fr"
-      }
-    },
-    {
-      "id": "b26fcac40f00",
-      "title": "Pénurie de médicaments contre le cancer : \"Les choses vont mieux mais les problèmes persistent\", alerte la Ligue - Midi Libre",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNc0RMMUtJUHlWTGhGNHgwRDdmX1Q5c3FRYmJva1JzQjBPZzd3N0VnVmh2d2hWbEhNVFF2R2dKTm84Q3FtWWFXUHVOWXphS0x5OWprX3lHUmdsMlRyZlRvT3B4MUlCUXZWQV9HX0FfRkM0MmV2S3NtcGlseHRoODBJU0ltV0JDTkNLQjhEcTJwY2otZ3BXZmo3VnExXzJVWDBhZjNlVm5wWTdRVENxZm1zOTZFS3ZDa1l0WVNhME9VX3lFR0UtOUY4bmhYU18xYTd2c2tzTzFaM1hsN3BfUlEtenRDeFEtSkNLVS1nTg?oc=5",
-      "published": "2026-07-24T06:23:00+00:00",
-      "source": {
-        "name": "Midi Libre",
-        "url": "https://www.midilibre.fr"
-      }
-    },
-    {
       "id": "7fb48ea850fd",
       "title": "« Médicament : l’urgence de renouer avec une France qui innove et produit » - La Tribune",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaHY2bnA4UnloemZ3dXFDak42UkJzckFwRnJUYmdrM1dMekZGNmU4U28yWGpnZFk5eGVjSTZqblZ5eHVhQUQ0LXQ5ME1zTkFvWG9tZFhpemNKVDQtM1k0b3dCMVBYWmZIWGRyLWJCeUgxM2RZT2RrWUc2eUhEMjlnbEhSWERjUF9yLXF2dnF1OTA2QVlkSEdVZHNoZTlaVUxMNnRad1lfZTBhU3lYbUJnSFVKVllTbjFXd2ZET3luT0UzRGV6aDcxdm5jX1VNZw?oc=5",
@@ -181,26 +161,6 @@
       "source": {
         "name": "L'Express",
         "url": "https://www.lexpress.fr"
-      }
-    },
-    {
-      "id": "f109f8f0ea36",
-      "title": "Innover en cardiologie, l'audacieux pari d'AstraZeneca - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYjV2bmdrT0tqSHFOTGxGNVJ0Vzl0Y3hkbktoWVBCSzFHM0ZIUm9IamhqcnBqVTJuWlNPOUhLSXpIV0ZwMDFkN2FmX2FFMTFteUJkalRBUVo2WVZaTzIyMW5KUkJGZVVlLWxPaVVkaDZUVERrNmszU051TzRRMkcwcWJ6NjduRDl3azl6RkRDQ2ZUaFl5ME5jME8xSG0wZGFyQTEwZ0I4bEtCZzJaRTgyaWY0NWZTUDBvRFE?oc=5",
-      "published": "2026-07-27T12:47:33+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
-      }
-    },
-    {
-      "id": "7b6c2d066009",
-      "title": "Pourquoi des médicaments seront moins remboursés - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUzVuZUFWc0Y4bm5XRG1DLVdKcTdRak5EUmVvcTZ6a1RndS1nOUI2VUQtc3R1MURoOWlONE1ISHV2TmQzNDNRTllVeVkzdFpkSzNJSlI1Nm14M2RLNnNGNzhIRklvbDg2OGQ2Y29scmxwRlpoMWk3WDBHeDZTOXRNek1XRlZ0V3lodTlUOVBScmNrSmo1WTd4TFNZanU5eHlaR09oZVBBdUxmRGJUV2FBOTh4Q0EtQXJMRjJRMTA0UUxoUUxW?oc=5",
-      "published": "2026-07-24T15:04:18+00:00",
-      "source": {
-        "name": "Ouest-France",
-        "url": "https://sante.ouest-france.fr"
       }
     },
     {
@@ -224,53 +184,23 @@
       }
     },
     {
-      "id": "83489c6a4a29",
-      "title": "Remboursements santé : ce qui change pour le dentaire, les transports et les médicaments - L'Union",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUpGUll5NHU0M3NvbGRIdU9jaHhkTG5lS09yN2VWQ1ZPRUR3Z1dRY0wzZ3NMV3FXUktSR3FXTEFvOEZkd2hWWnZOd2RwcVpRR2ZFSldXb0VhSnpOalczTzJKTUVLUU9DSFE0akZmWWlUWDJDQ004ZzQ5cUMzT0Q1ZmlzaGZrS2VDQXJHU3A4OHpmdnE0am4zM201QkQ3Q2ZibHpjd3QwWGdWZFM4OGpiUGRTcWFwc2s0UWhjSGdWQm4?oc=5",
-      "published": "2026-07-24T11:16:00+00:00",
+      "id": "f1442edc88cc",
+      "title": "AstraZeneca prospère, toujours porté par l'oncologie - WhatsUpDoc",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0pjSDN5WWRLem9hSklZUEVrVXcwZk9DZEppLXJoM3hOWVhidDY5LTgwWmhpQ29PQVg0MDJ2OGxaMlJNTXFleHdFaGprZ0JBazRjM1FJdExUTEF1RmRkOHV4VlpiMndFYzVkQmNwUUEyaEJycjJjdG5RQlRGVV82cUFTazZndEtsbXU1aDdnUlN2WHBr?oc=5",
+      "published": "2026-07-27T09:23:00+00:00",
       "source": {
-        "name": "L'Union",
-        "url": "https://www.lunion.fr"
+        "name": "WhatsUpDoc",
+        "url": "https://www.whatsupdoc-lemag.fr"
       }
     },
     {
-      "id": "f819208e5bd3",
-      "title": "Franchises, médicaments, dentaire, transports : grandes manœuvres pour freiner les dépenses de la Sécu - Le Quotidien du Médecin",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUko1bXhpUWJST3lNNUQzcHZ4bmJyTTZkLW5JV1pJTXd5cV9TOFc4NTY2T2JLYWo1Vlgxa2ZFR3l0YXA0MVRMSGR4Zl9xbjJncXQ5TEtxUGxxM3Bjekhfc1VQOGlMVUtJbmdCSm5POS1FRWFHc3NKNnFOWjRrV3NXSjN6TGp6WFhlaUpYei1Jdk5wN25HX3lXWmljanFlM0U1Um03NUg3MTMzRXp0MWFnUDQ5eTRueGVlTXlLZS1ZaTQ0VzcyRlloekE0RFViS0V3SDhXX0ptQVVEVFFRLUZsTkd0WExLeFBJb2tROFRPTEhwLXZva3JtZ2V2MA?oc=5",
-      "published": "2026-07-24T14:57:57+00:00",
+      "id": "19bcaa53794a",
+      "title": "Actualité - Retour d’information sur le PRAC de juillet 2026 (6 – 9 juillet) - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZTTRXYVBJQ0pWQkRCa0tiRV91UVZhUDAxbzRUWlllYlJVdUFyQjJCckJXMEFhX0RTQ2hXRXJQVFR6bGFCRWxscVB6TkxBRGNySEhsREREcW5ZQWk2LXJGRGw5NnU0NUFpN2pRZnNSZVRBdw?oc=5",
+      "published": "2026-07-15T07:00:00+00:00",
       "source": {
-        "name": "Le Quotidien du Médecin",
-        "url": "https://www.lequotidiendumedecin.fr"
-      }
-    },
-    {
-      "id": "57baf89612c8",
-      "title": "Santé. Psoriasis : vers un traitement sur mesure grâce à une découverte génétique majeure - Le Progrès",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNczdfbVJsT0wyMGNoamFETGN5S1NvTVpXZld2V1I0WU41US1JSkZldml6Q0ZSTTMyMURUMzRXanFmVTZkbmdCel95NkF6ODhSUVI1eDZXYXR4OGRzS0g1RE1oNy1YejZKVGZ6V3lSUWxZbUFfTFJPZXZ1S1REQlRab29YVkVmQ2R0eWwzMEZhcU5fMjRfQUNuOXNxLWFsSmJ1Sm9kX3FrWW5obkhUT3hYN1hvNmZoVzFCVUFyRjVPNV9uUQ?oc=5",
-      "published": "2026-07-24T07:30:00+00:00",
-      "source": {
-        "name": "Le Progrès",
-        "url": "https://www.leprogres.fr"
-      }
-    },
-    {
-      "id": "b7016704868c",
-      "title": "Génériques : 9 groupes sur 12 épargnés par le CEPS - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ19tcGxFeVdmZTBnS1JqWFpJUXppSzRIQWVlb19RZVkyN2dZWG10RTVQS0FNNEFDX1poRFdpNHRtRklwWlhBRm95dnU0R2ZuOVlUWUEtN240YWdlaUFDeWRNWTF2ajM5eEVQVjdweU1YYlpiTUc0TXVob2M4Tm9mN0M1Y1kyT2dfeFpSdV9hUkFrM2VyS2QxNlE2eUxpb2g5M1ItSk5tVmg1cElMRjJEWXlZQ3RTVTZIdXc?oc=5",
-      "published": "2026-07-27T22:41:33+00:00",
-      "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
-      }
-    },
-    {
-      "id": "550ff816bb5c",
-      "title": "\"Consultations chez le dentiste, transports sanitaires, médicaments les moins efficaces\": le gouvernement va transférer certaines dépenses de l'Assurance maladie vers les mutuelles - BFM",
-      "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPQXpZWWprbDdPNU5VZEI4TW83LUMxb0FWbVZnT1k5RlNETmNqYk1XYkRSd0RxeU9hYzJ4TlIwZ2stekMxSkpiUFBUamY1X1BIN2kycmZjS1NJRGE2Q1ppaE9IX3VPM2RDeGRmY182RHIzOUtfRmVJNXozWkNWcm5senNKWkdnWi1jbW9PLXIySVVpaXlBd3c2TjB0Y1R1dHhpc1NxNC1IR2VXZ0hGMEJUN0NhelNMYUJPN0FheXpRUVBHcGVzNVhJaV90NWF6QWN1VjRUemhhN1FCWERTZWphcDNXRFpqWXpUNVd2NUJKYWx3MGFGazN6RWt2YzR5cEgtaXRMc0JEbm5sazdONG9XTlN3SmpTbVlWYURkbXJSeThyNTdtUG5UNlU4bEtzZ0RUZEthRGN4ekI4RzZLRWtPU0dHaDMxSXd4eDNKaV9qTnJ6bU8yRkxfWm5jYThjYktnNFNqOFJkTXRWdw?oc=5",
-      "published": "2026-07-24T08:20:25+00:00",
-      "source": {
-        "name": "BFM",
-        "url": "https://www.bfmtv.com"
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     },
     {
@@ -284,13 +214,13 @@
       }
     },
     {
-      "id": "ead449ee26d4",
-      "title": "Il va passer de 100 à 200 euros : le gouvernement annonce le doublement du plafond annuel de la franchise sur les médicaments - RTL",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaml5UHRHaFQ3dTJyRVh6RmY2T1JNSHIzaHhVN2wxUGJQaTNJSU51Rk9ZRFdCc29GdUJHT2lSaV80X21HMjc1aWZUOGRiYkNDVGQ2Tm51ZmdVVF9iQkQ1MjNhM3htQ0R6V3BFdlMzY3cwal8wTlhlR0xXVTVQQkZKREE1dE8wdENWV0R2S05WSE11Z0I1ZFdpZ3ZpR1I3UklneDdka3Ziem1fTGUtU1J4X2dQbFJwN1dVN1R2M1VuejFBcGhhT3ZCWm43a2ZpNVByanYtNk5zYi1QY1FMSHRRdlU3UWJfclhXX0JUdGRFREQ0QWpKRkdB?oc=5",
-      "published": "2026-07-23T08:54:54+00:00",
+      "id": "313f31c4d9dd",
+      "title": "Feuilles de figuier : quelles sont vraiment leurs vertus pour la santé ? - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRVQ1N1l0bkRjakwyMTJ6TFZyNDQ5d01YN3dCTHluamRneEdrWmtMSzdqNXlKT0ZmQlNXdGdPdkdySjFYb3k0b19HOTlZVHk3SXNpMWdqc2lyUVo3b2Vzb0JseG9nV1l1Qy12dllKUzVDT0lxMHpZeHZwYU9TYXZGV0g5elYwOWRjTFl0WXJJX2ZuZ0xaNXdad3Q2V2tzRkE0VXdXS2V3S0Jnak9kRE9ybzlGWTliS3dVTUIwM3o0Wjc3SEJTZVhiMm9mWQ?oc=5",
+      "published": "2026-07-28T08:40:58+00:00",
       "source": {
-        "name": "RTL",
-        "url": "https://www.rtl.fr"
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
       }
     },
     {
@@ -304,23 +234,23 @@
       }
     },
     {
-      "id": "8d824a8486e9",
-      "title": "Dans les pipelines : GSK, MSD, Gilead - L'Usine Nouvelle",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYlREbnlOZEgtQWlKenpWQ3FwRjRCenJLOTNrNlRTdWo5aVBad2lLRk5ZVUdHVGx1SWhaOHIxYjB0eC04T3dFaFZXQlZkMXlOaldNSXRBazRTVVZPeVBRZXN4VzhBbzNCM1ZfVnpRUklyY2ZTRlVVQzkzbXlleGlVODZXa25Qb2EzVHRjY1ZZTW9kWGlfbVdMRVhTbVhvbHFiM1pfR1pzUEpHQWNW?oc=5",
-      "published": "2026-07-27T14:40:39+00:00",
+      "id": "ead449ee26d4",
+      "title": "Il va passer de 100 à 200 euros : le gouvernement annonce le doublement du plafond annuel de la franchise sur les médicaments - RTL",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaml5UHRHaFQ3dTJyRVh6RmY2T1JNSHIzaHhVN2wxUGJQaTNJSU51Rk9ZRFdCc29GdUJHT2lSaV80X21HMjc1aWZUOGRiYkNDVGQ2Tm51ZmdVVF9iQkQ1MjNhM3htQ0R6V3BFdlMzY3cwal8wTlhlR0xXVTVQQkZKREE1dE8wdENWV0R2S05WSE11Z0I1ZFdpZ3ZpR1I3UklneDdka3Ziem1fTGUtU1J4X2dQbFJwN1dVN1R2M1VuejFBcGhhT3ZCWm43a2ZpNVByanYtNk5zYi1QY1FMSHRRdlU3UWJfclhXX0JUdGRFREQ0QWpKRkdB?oc=5",
+      "published": "2026-07-23T08:54:54+00:00",
       "source": {
-        "name": "L'Usine Nouvelle",
-        "url": "https://www.usinenouvelle.com"
+        "name": "RTL",
+        "url": "https://www.rtl.fr"
       }
     },
     {
-      "id": "01cf86d3c86c",
-      "title": "Franchises médicales : le doublement des plafonds annoncé, ce que cela change concrètement - Santé Magazine",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMzdWQV9sRlJ3NTVreVFxbG9yX0l3OENDSmtKb0JCZGkxZ0Q2dXN0alFqUjlNSDlXSDVFMFFzWEotdEdoSWxFZkFBNFJRMVlSQUdzejVkbVhrN05pNDM2WlZUQVk0SVVrQk51T0JQNjJuVFVfNy1JeHRfOGtLQV9wRkNSNG9zMjhtT2hMSFVuMmp2V2FHWnNqcnJvQU9HTnlkS0dsMjhxT1ZFNkNaYXloNFp6ZHpwbzJRS0dNZVZYUVpXaWFOOTFzV0hLbWNxeHM0LVBYNWVXcFBTM1JYN3RvZlQ0OUtuNzQ?oc=5",
-      "published": "2026-07-24T09:56:00+00:00",
+      "id": "b7016704868c",
+      "title": "Génériques : 9 groupes sur 12 épargnés par le CEPS - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ19tcGxFeVdmZTBnS1JqWFpJUXppSzRIQWVlb19RZVkyN2dZWG10RTVQS0FNNEFDX1poRFdpNHRtRklwWlhBRm95dnU0R2ZuOVlUWUEtN240YWdlaUFDeWRNWTF2ajM5eEVQVjdweU1YYlpiTUc0TXVob2M4Tm9mN0M1Y1kyT2dfeFpSdV9hUkFrM2VyS2QxNlE2eUxpb2g5M1ItSk5tVmg1cElMRjJEWXlZQ3RTVTZIdXc?oc=5",
+      "published": "2026-07-27T22:41:33+00:00",
       "source": {
-        "name": "Santé Magazine",
-        "url": "https://www.santemagazine.fr"
+        "name": "Le Moniteur des pharmacies",
+        "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
     {
@@ -334,23 +264,13 @@
       }
     },
     {
-      "id": "0525a9a38730",
-      "title": "Sécurité sanitaire: le Maroc durcit le contrôle du marché du médicament - Le360",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDRkZHNxLUtwc0x3SkNYbEdRNE02c0UzTzFfNERBb2tpM3B4UDBWbmpVLS1NcVoyS0NkQXlnVENreUkyOURlenR0YUx1NUF4QjN6bEh2UjEtOGRlNFY2RFFLTEY5Y1VkdmljcmtXamhqdWJEd0Q5dzhPSWhUVHczWGV6a2tmRlN3R1A0SmctaHBrMGZZbldUdi15bno5bjMzUV9JeWpheHZpV0kzTGg0ZU0tNGwwd2FZaWlUQ1JMZ1pDeVhk?oc=5",
-      "published": "2026-07-27T10:26:00+00:00",
+      "id": "8d824a8486e9",
+      "title": "Dans les pipelines : GSK, MSD, Gilead - L'Usine Nouvelle",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYlREbnlOZEgtQWlKenpWQ3FwRjRCenJLOTNrNlRTdWo5aVBad2lLRk5ZVUdHVGx1SWhaOHIxYjB0eC04T3dFaFZXQlZkMXlOaldNSXRBazRTVVZPeVBRZXN4VzhBbzNCM1ZfVnpRUklyY2ZTRlVVQzkzbXlleGlVODZXa25Qb2EzVHRjY1ZZTW9kWGlfbVdMRVhTbVhvbHFiM1pfR1pzUEpHQWNW?oc=5",
+      "published": "2026-07-27T14:40:39+00:00",
       "source": {
-        "name": "Le360",
-        "url": "https://fr.le360.ma"
-      }
-    },
-    {
-      "id": "1101b1e40164",
-      "title": "Soins dentaires, médicaments inefficaces, transport sanitaire… de nouveaux transferts de la Sécu vers les mutuelles - Libération",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQemxHc3BrNkZtT3RrbHp0cGlrREhEbVFwSjN5V3ZNTndsd2xxbkhmSkd6TU9xS2VzeVNaQ29hd092d1BDTndzaE5fMTFhb1JtdF9HNDdpWDItNmxzbVhGQ3M3czRSV3BOZFlyYkFpSzBzRTZJdkhzY3Fuc1YxbEUyU0paZlZVVlF6YURZSkcxb3k0bngzTmRCcC1zTzZCM1V1b3lkYkJsdFJGOWp0ak9ObVhCc0J4UWEwODlZX2JLenlFTDVrOHpSZGRvWkFLS241VTVoZzZRNXhMcTAxS21hNmxMdlRLcTQzY1IzNGdpRXR1MUMyczVnajF0bjdiSGNld3ZIZTBWR25pUzJRSXhqdVQzeVpXZXEz?oc=5",
-      "published": "2026-07-24T14:38:00+00:00",
-      "source": {
-        "name": "Libération",
-        "url": "https://www.liberation.fr"
+        "name": "L'Usine Nouvelle",
+        "url": "https://www.usinenouvelle.com"
       }
     },
     {
@@ -361,16 +281,6 @@
       "source": {
         "name": "MoneyVox",
         "url": "https://www.moneyvox.fr"
-      }
-    },
-    {
-      "id": "e9ff02a6000b",
-      "title": "Sanofi stoppe un traitement expérimental contre l'eczéma jugé insuffisamment efficace - WhatsUpDoc",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdXJnaGlnYXdVTGlJa243cFJYRjhnMHFTNXljSGF3aXliMXVuSDJXNDhjWW83RER6QVlxd3c0LV9qMTZ1NHAxaExxOGY5bWkzeTBkNTNQekJCNkV1akd2ZUtNVTFhQmRGX2NuV0pYb0JPNUY3aHdPTVZHQmVpcWlKTFctenJOazVfSjA5aDA2S2Nhc1NqSGxENHZzQ2RhNXRCUzR6R2RQTFF5ZlpxVjMxUkwzMHllYzNNN1N5RUZGcXk2dw?oc=5",
-      "published": "2026-07-24T11:11:00+00:00",
-      "source": {
-        "name": "WhatsUpDoc",
-        "url": "https://www.whatsupdoc-lemag.fr"
       }
     },
     {
@@ -404,13 +314,13 @@
       }
     },
     {
-      "id": "961eca5a796b",
-      "title": "Décret sur le prix des médicaments : la Confédération des syndicats des pharmaciens dénonce son adoption - Telquel.ma",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQN25XdHdsS2tOZS1CMXQzTnFIaHVzdFJrVkhoS0J3Q202am9EcE9OekNpNHBOTW5aMHE5NEdDUWpMS2tSSDdVVThWSU1SQlo4VmdRVzRvVnp0dm1lVXNfWVQ5dUdhbDBydGExb3BzRFpRVVhXeC1CQjVCdlhkT1lxTHZ5RzQwNlVqYlpSM29pSzBRU21naTlyalNLYW5ocm1wa2NhZE9tdjFLOS0yUHptSUxma0YwcVJxSmJtZmttYzc4VVNRYl94a1JKUFQ3bzFvWnFkcVpKX3ZYQ3lGYmM5LW5udDd0VDBUSHN6LVlDSQ?oc=5",
-      "published": "2026-07-27T11:18:32+00:00",
+      "id": "4f080bf1c35e",
+      "title": "Cholestérol : on sait désormais pourquoi ce traitement très prescrit crée des douleurs musculaires - Marie Claire",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQT3dyNlVINXlYV1BsUTZ0YjZWUG5Dcjl4NEl2d1dQTGdhOEdMTlpucms4dFJKV3VjNlB2TkRRbEp2b1ZIaTlJLW9SWDFFdmVPZjVtZFRBb1JsS2xSY21JaEdxd2JzMEZCUTFvZ0JmZ3lGNW9HNWk0dC1GdFNoVnd2X0RydkRVSjQ?oc=5",
+      "published": "2026-07-27T15:00:00+00:00",
       "source": {
-        "name": "Telquel.ma",
-        "url": "https://mobile.telquel.ma"
+        "name": "Marie Claire",
+        "url": "https://www.marieclaire.fr"
       }
     },
     {
@@ -424,23 +334,23 @@
       }
     },
     {
-      "id": "2c3424bf37b3",
-      "title": "Bulletin d'information santé du 27 juillet : Des centaines d'anciens combattants ont bénéficié d'examens médicaux, de médicaments et de cadeaux en signe de reconnaissance. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOFBXZzRHdGFpNU9rVDJod0tUa0lEMDl0LW1idmZLMm5WQlRiSWtKQlVXSzdyTUE1cUM2SVZEM3NqYXdxZmhmMW42VDRvVUVxdVRsaGlPTDQ1TDVZZDJlcHJaUHZfcHpVSHVid19oVHhtTnhWWE4xWExzYVNvd192Tm55c1F1Y0hZemRHQ1BvekRoMGpBaDIyS0FLQ24ySGJJX1lzN0l5R0oxOEt2c2lqbUU2TkN3bjA?oc=5",
-      "published": "2026-07-27T14:57:24+00:00",
+      "id": "0525a9a38730",
+      "title": "Sécurité sanitaire: le Maroc durcit le contrôle du marché du médicament - Le360",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDRkZHNxLUtwc0x3SkNYbEdRNE02c0UzTzFfNERBb2tpM3B4UDBWbmpVLS1NcVoyS0NkQXlnVENreUkyOURlenR0YUx1NUF4QjN6bEh2UjEtOGRlNFY2RFFLTEY5Y1VkdmljcmtXamhqdWJEd0Q5dzhPSWhUVHczWGV6a2tmRlN3R1A0SmctaHBrMGZZbldUdi15bno5bjMzUV9JeWpheHZpV0kzTGg0ZU0tNGwwd2FZaWlUQ1JMZ1pDeVhk?oc=5",
+      "published": "2026-07-27T10:26:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Le360",
+        "url": "https://fr.le360.ma"
       }
     },
     {
-      "id": "ab9eb1bd3932",
-      "title": "Soins plus chers? Ce que prévoit le gouvernement sur les franchises médicales - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTFRuYkhabXd5cnFQTFYtdTl2RWJIVmxlSnV6aWRBY2dyRlE1UG1OeW1vU3Y4RjhHaXExUlJEX2RhRGdEWDlPcDJCUkp5akJXSENhUU96dENxdTF1VXlJcGtLRU9KTnZEN19ZdzQyYVBIY1lmQnhpQVc1djZsS3NudGNZYjF0MWY3WGlwVXcxYmFGVVhCbXhYOVBibkxRWmZHNjVfZ1RDYzM2RTB5LUU5NDlpSWtRM01fTlBPMmhvT3JTLTdZS3luSXRrUEM1NGx0?oc=5",
-      "published": "2026-07-24T12:04:51+00:00",
+      "id": "f3b9a1d62b3c",
+      "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
+      "published": "2026-06-01T13:26:58+00:00",
       "source": {
-        "name": "Notre Temps",
-        "url": "https://www.notretemps.com"
+        "name": "Service Public",
+        "url": "https://www.service-public.gouv.fr"
       }
     },
     {
@@ -454,13 +364,23 @@
       }
     },
     {
-      "id": "f3b9a1d62b3c",
-      "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
-      "published": "2026-06-01T13:26:58+00:00",
+      "id": "961eca5a796b",
+      "title": "Décret sur le prix des médicaments : la Confédération des syndicats des pharmaciens dénonce son adoption - Telquel.ma",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQN25XdHdsS2tOZS1CMXQzTnFIaHVzdFJrVkhoS0J3Q202am9EcE9OekNpNHBOTW5aMHE5NEdDUWpMS2tSSDdVVThWSU1SQlo4VmdRVzRvVnp0dm1lVXNfWVQ5dUdhbDBydGExb3BzRFpRVVhXeC1CQjVCdlhkT1lxTHZ5RzQwNlVqYlpSM29pSzBRU21naTlyalNLYW5ocm1wa2NhZE9tdjFLOS0yUHptSUxma0YwcVJxSmJtZmttYzc4VVNRYl94a1JKUFQ3bzFvWnFkcVpKX3ZYQ3lGYmM5LW5udDd0VDBUSHN6LVlDSQ?oc=5",
+      "published": "2026-07-27T11:18:32+00:00",
       "source": {
-        "name": "Service Public",
-        "url": "https://www.service-public.gouv.fr"
+        "name": "Telquel.ma",
+        "url": "https://mobile.telquel.ma"
+      }
+    },
+    {
+      "id": "2c3424bf37b3",
+      "title": "Bulletin d'information santé du 27 juillet : Des centaines d'anciens combattants ont bénéficié d'examens médicaux, de médicaments et de cadeaux en signe de reconnaissance. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOFBXZzRHdGFpNU9rVDJod0tUa0lEMDl0LW1idmZLMm5WQlRiSWtKQlVXSzdyTUE1cUM2SVZEM3NqYXdxZmhmMW42VDRvVUVxdVRsaGlPTDQ1TDVZZDJlcHJaUHZfcHpVSHVid19oVHhtTnhWWE4xWExzYVNvd192Tm55c1F1Y0hZemRHQ1BvekRoMGpBaDIyS0FLQ24ySGJJX1lzN0l5R0oxOEt2c2lqbUU2TkN3bjA?oc=5",
+      "published": "2026-07-27T14:57:24+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -484,16 +404,6 @@
       }
     },
     {
-      "id": "e28bfa7ee623",
-      "title": "Prix des médicaments: l’équation délicate entre accessibilité et souveraineté sanitaire - Le360",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNT3JJd2NkWVBKbmQwUHRUQ1BsZ0Z1U21udDQ1TDZvQndXZWFYck40anB5MW5Wdk01OFhTVGs4aWZZTk9kUzMtajhlNF94bWJuYWMzMmJoTlRDTVctdXFoVlBWWkpvT29vdmJDRVhNZl9QLVpfb3U3aGdyc2tqX2FxdDRJQVpqMmxUZ3lyRmZaWGh3YW4xQ3dNYlpla3RqOWhCNjdlNnlodFZSQUhNWFZMSWZnUVRfa1VZYVpSa2JZNVNFMWR5bVRrOVd2N1BaSW1PV19LNDV4UnI3UQ?oc=5",
-      "published": "2026-07-27T11:39:00+00:00",
-      "source": {
-        "name": "Le360",
-        "url": "https://fr.le360.ma"
-      }
-    },
-    {
       "id": "25ddd00775c9",
       "title": "Santé Canada renforce le cadre de gestion des pénuries de médicaments et d’instruments médicaux - Fasken",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMWhldkJGN2l5WTZHZDRYRmhFdWpSWGQ3cURpaXlsMWc4alNhUVhMc2xpMVlscDlYVk53dm9IY1hITUtSSGVlNmRjVDNiMEZPOEFCd09ULV8wbXh5LTRmSDlHMFFDaW5FNlROZjRsVzBNUTUweTVsRTJScGJnQWZfUzRJZEh2UWxpQTFWYW96Ri16cVpoMzZPMmZkbWdvOGl6OXFYYjI3bDJETWdLUjNBaFpPNFRDZEU?oc=5",
@@ -511,16 +421,6 @@
       "source": {
         "name": "Futura, le média qui explore le monde",
         "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
-      "id": "cbd958403d6b",
-      "title": "Réforme des prix des médicaments: les pharmaciens haussent le ton après l’adoption du décret - H24info",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwbGdyZTYxMl9aelNoUnV3RXhGQnJjUEV4M1dUY1dVem5oNEdxaEV6WC1yTFJBMjYzamg2R29zVkRFaUphemE4UlZaZmUxRzJtcTduZWR3UnFwZmN3Q05zb3JNWVJId3FIMWI4amxPYklLZkhhRzRraGlB?oc=5",
-      "published": "2026-07-27T15:15:09+00:00",
-      "source": {
-        "name": "H24info",
-        "url": "https://h24info.ma"
       }
     },
     {
@@ -604,33 +504,13 @@
       }
     },
     {
-      "id": "c344f79aa56b",
-      "title": "Examen médical, distribution de médicaments et remise de cadeaux en signe de gratitude envers ceux qui ont rendu des services méritoires à la révolution dans le quartier de Son Nam. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVXE0RzFfX096YWo1aXUxd1R6S3hGWTJDT3VveVV2UVRZbENSMzhTd3lSRWp4UkljYm9pdzdxVk9ETzBZNThwTEpxM2RDRmVlZGNwQTBIdjhZazJNM25VMFRuTUc5c2ZITzFSWTVUNmt0MVpZWXkyRUR2bVFBYXVadFBieWxSVGhRUlZFZUJ1bk9zeWJsVUpMbVUxYXI3LWx4eHlmRU1Cb2hQMDNH?oc=5",
-      "published": "2026-07-25T09:24:50+00:00",
+      "id": "cbd958403d6b",
+      "title": "Réforme des prix des médicaments: les pharmaciens haussent le ton après l’adoption du décret - H24info",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwbGdyZTYxMl9aelNoUnV3RXhGQnJjUEV4M1dUY1dVem5oNEdxaEV6WC1yTFJBMjYzamg2R29zVkRFaUphemE4UlZaZmUxRzJtcTduZWR3UnFwZmN3Q05zb3JNWVJId3FIMWI4amxPYklLZkhhRzRraGlB?oc=5",
+      "published": "2026-07-27T15:15:09+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "2bbf660d43bf",
-      "title": "Ozempic, Wegovy : une étude sur 12 000 patients met en lumière un effet secondaire encore peu connu - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZ29xaHZGN1JpZFNIZ0N6LUhLUm5yS3lxUDV1UlEtMnpCOTJGaGJGVzdwRHc5YV9uUWFRY3NnVFRTWm0zN3BXcmRVZ0FIc0RGZ1dWaEdKWHBYTHRrdWROMktCSlhrS1hUWG95UThmaEtXWGw2eVpOamdEME50UUFwN3ZUUzREeUlZaXBvbnVLMlp6RklHSVlvRHl2OVh0V3JheFpGcm5BQVZoQWluXzZqYXJPa0ltVmhKT3NMMlJuN0hMM2NTSzAzQV9ETUducTFHZ2h1V3NiRmo4TVdnQXhteW4yVzk1SEU?oc=5",
-      "published": "2026-07-26T08:56:49+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
-      "id": "8f6baffaa9af",
-      "title": "Cancer du pancréas: un nouveau médicament prometteur - Salut Bonjour",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQlBHd3hrbjFRYlhGWWpjTUtVVUhIWDJ1cnRBZFhnQ3ZLaWQyREgwUUxfb1FNd1VwajdIRDBEclJhck1BcUlIamc5QmJmSE9hTWxjd1J4UFNlRUZUUEZGem94c1hRUDlCYl85VW93VXV0c2I3dHM3T09xVkZyM0FndEdOYkIyTTFRZTVjNGFKZ0RlQWYz?oc=5",
-      "published": "2026-07-25T04:00:00+00:00",
-      "source": {
-        "name": "Salut Bonjour",
-        "url": "https://www.salutbonjour.ca"
+        "name": "H24info",
+        "url": "https://h24info.ma"
       }
     },
     {
@@ -651,6 +531,26 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "8f6baffaa9af",
+      "title": "Cancer du pancréas: un nouveau médicament prometteur - Salut Bonjour",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQlBHd3hrbjFRYlhGWWpjTUtVVUhIWDJ1cnRBZFhnQ3ZLaWQyREgwUUxfb1FNd1VwajdIRDBEclJhck1BcUlIamc5QmJmSE9hTWxjd1J4UFNlRUZUUEZGem94c1hRUDlCYl85VW93VXV0c2I3dHM3T09xVkZyM0FndEdOYkIyTTFRZTVjNGFKZ0RlQWYz?oc=5",
+      "published": "2026-07-25T04:00:00+00:00",
+      "source": {
+        "name": "Salut Bonjour",
+        "url": "https://www.salutbonjour.ca"
+      }
+    },
+    {
+      "id": "e28bfa7ee623",
+      "title": "Prix des médicaments: l’équation délicate entre accessibilité et souveraineté sanitaire - Le360",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNT3JJd2NkWVBKbmQwUHRUQ1BsZ0Z1U21udDQ1TDZvQndXZWFYck40anB5MW5Wdk01OFhTVGs4aWZZTk9kUzMtajhlNF94bWJuYWMzMmJoTlRDTVctdXFoVlBWWkpvT29vdmJDRVhNZl9QLVpfb3U3aGdyc2tqX2FxdDRJQVpqMmxUZ3lyRmZaWGh3YW4xQ3dNYlpla3RqOWhCNjdlNnlodFZSQUhNWFZMSWZnUVRfa1VZYVpSa2JZNVNFMWR5bVRrOVd2N1BaSW1PV19LNDV4UnI3UQ?oc=5",
+      "published": "2026-07-27T11:39:00+00:00",
+      "source": {
+        "name": "Le360",
+        "url": "https://fr.le360.ma"
       }
     },
     {
@@ -694,16 +594,6 @@
       }
     },
     {
-      "id": "e6ba4456f9fb",
-      "title": "Mozambique : 350 000 dollars en médicaments détournés - APAnews - Agence de Presse Africaine",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTU5LVmE2U2plUTRZOVRvS0wyeVVsLVNnZ0NuVzdPQ3Q0MV9iOFFnUjc4MUsxbGN3RmkwSWFUTDViSUxpM3U2a0hVcXlJQUNLZHRNMU0xakxNcWtrSGo5VUFDZTE0elk2a045MkdGTWE0ZnZEcnJZZkF5aXpLUElyT25DM2pmUlpDMFE?oc=5",
-      "published": "2026-07-27T14:13:27+00:00",
-      "source": {
-        "name": "APAnews - Agence de Presse Africaine",
-        "url": "https://fr.apanews.net"
-      }
-    },
-    {
       "id": "5c5cbbcfba1f",
       "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
@@ -711,6 +601,16 @@
       "source": {
         "name": "Le Monde.fr",
         "url": "https://www.lemonde.fr"
+      }
+    },
+    {
+      "id": "aa90e50c5462",
+      "title": "Santé pharmaceutique : l’État va-t-il enfin sauver cette usine de fabrication de médicaments ? - Gabon Media Time",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeGo4cEM0Y2ZRWURCRWYzQ294RnQ4YXF0OFR6V1pWLUtUckRiaHp5bmRlYWk3Wm1uSlk1alJuM2lOSjJVdkREWVpJZGdvLXhUa1hTT3Bodlk3d0p3V3gtMXZ0VE1BQmpIU1d3Tld5RnY3bUxMM3gxanFqM2dTMDRpcVhlZmlZQ2lkX0lOcUJsSk1NejA4X3J0SXVUd3hyUHN2ZkNpYlBWZE51SWNmeFduemQzRjl3Qmls?oc=5",
+      "published": "2026-07-28T08:15:00+00:00",
+      "source": {
+        "name": "Gabon Media Time",
+        "url": "https://gabonmediatime.com"
       }
     },
     {
@@ -774,16 +674,6 @@
       }
     },
     {
-      "id": "aec3a360afde",
-      "title": "Conseil de gouvernement : Pass jeune, santé, médicaments, numérique… l’Exécutif accélère les réformes - lopinion.ma",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMjc0T0hfalFVYjJEZWhDY1E3bXdiaVhFYTR5X1UyUUxKSEpyTXpFX0tBQ05aRDk0Z3VvVkd5bmpHUE5PZjBGbUF6TjhBMUo5RE54RFFycHpIODZNV1RCN1JzemNmMFJnZ3VianB2WlloTWhKbzBReG5EYnJ4V1hQOUcxRGJ3WlhuRWVvNVA5WUxpUk10cFZ4d2xZbE1SV0lweHU3Ym1XM2djeDc4QzcxY1cwT3pBTzRVeE5tVlVnQkFsdGpzbkloVUZkci1uZkllVGJnU2V6My0zWXc1MmZFbEw5Y0Q0WGdCVW9aSWczVEVUZDJRWVRRZXFxLTJqaFk?oc=5",
-      "published": "2026-07-23T16:34:27+00:00",
-      "source": {
-        "name": "lopinion.ma",
-        "url": "https://lopinion.ma"
-      }
-    },
-    {
       "id": "b763564a09d8",
       "title": "Pénuries de médicaments en Europe: la réponse de l’UE | Thèmes | Parlement européen - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDhZT2pqa2I5d0pkZ1loWVhrR3VLUkd4R0E1SGlCRS05cVQ3bXYyeTlpd2lFQWh2c1ZUWUhWeWw4YUlrYi03ekhkd0NRRFh6cFdpUGxHSFVtVklCZWZTWnQzeEVNY041T1lMTVp5X0pPWXFPVjhnZlNCUVJLcjJNUHVnVXFPLUxPVTVoZzA0UUFZVk10VEtYVllTNDcxV0Z1X1REcU1BWWx2bWdUT3lJQXZxRE9hNm9GSHc?oc=5",
@@ -824,6 +714,16 @@
       }
     },
     {
+      "id": "aec3a360afde",
+      "title": "Conseil de gouvernement : Pass jeune, santé, médicaments, numérique… l’Exécutif accélère les réformes - lopinion.ma",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMjc0T0hfalFVYjJEZWhDY1E3bXdiaVhFYTR5X1UyUUxKSEpyTXpFX0tBQ05aRDk0Z3VvVkd5bmpHUE5PZjBGbUF6TjhBMUo5RE54RFFycHpIODZNV1RCN1JzemNmMFJnZ3VianB2WlloTWhKbzBReG5EYnJ4V1hQOUcxRGJ3WlhuRWVvNVA5WUxpUk10cFZ4d2xZbE1SV0lweHU3Ym1XM2djeDc4QzcxY1cwT3pBTzRVeE5tVlVnQkFsdGpzbkloVUZkci1uZkllVGJnU2V6My0zWXc1MmZFbEw5Y0Q0WGdCVW9aSWczVEVUZDJRWVRRZXFxLTJqaFk?oc=5",
+      "published": "2026-07-23T16:34:27+00:00",
+      "source": {
+        "name": "lopinion.ma",
+        "url": "https://lopinion.ma"
+      }
+    },
+    {
       "id": "f31344e15392",
       "title": "Actualité - Rupture d’approvisionnement d’Emend 125 mg (aprépitant) buvable : quelles solutions pour les patients - ANSM",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1YxVURrNXZzdnd0UGlHUzhCZzBvakJZZmc3MEtES3o0TTBNY2c0Y080TDRfUzcxUF8xSGdhU3hyX05nSk56YkdDUjFEM2JLUlhnVXRtSUZ0SWhlNm0yNUlBRnZsWFN3WEszamZqdy1JMjNWdUNjcnBicThVSGZMRlJsTGxFWjJaa19qRG5maVRTSUJiRHkzRzFOcEFJYzd1Zk85czVZeXRMZWh2b3psT0NqUU5EMm1aUk1BTlVZN2NINXYtRFdR?oc=5",
@@ -841,16 +741,6 @@
       "source": {
         "name": "Le Dauphiné Libéré",
         "url": "https://www.ledauphine.com"
-      }
-    },
-    {
-      "id": "50916a47ef53",
-      "title": "Cancer de l’ovaire : une campagne pour réclamer l’accès à un nouveau traitement - Radio-Canada",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa2JqcUNHeXhwYUxveDJIRzhQUzNma21LeUEzRWxUc1JSVlRhQ0I0cGdJTGVLQmpld0o0dXZLeFZicy1tNEJNMy14U2otd3F6RU1SX0g0RWpQcVBJVlBXNVgxa19abUNtYnM2cm5jVS1WWldvdXUtMDl0RlRQWFJ4UEdHcGxNdGlQSU5RTGVDNA?oc=5",
-      "published": "2026-07-27T18:47:15+00:00",
-      "source": {
-        "name": "Radio-Canada",
-        "url": "https://ici.radio-canada.ca"
       }
     },
     {
@@ -904,6 +794,26 @@
       }
     },
     {
+      "id": "32d31915a2f7",
+      "title": "Dépenses de santé : la France pourrait économiser 800 millions d'euros par an en augmentant le recours aux méd - Boursorama",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOODFzeThkR3JjM00wc013V3NRa0pEZ3hhZmVadlhWSGlzQTZZQTBwc0FvZmp0c1FhRjFyYks1b1BMc0dZMUtGY2hSWGNkZFc5bzNuZXJlQjh5eUtIaTloMW5tOElndXBJanJNTUpfcndNODEwN1c5R1lHSVNfbXNtVG1ySEpZODU0cGRLQ3NHTHlkZHItZTZqUVN0blktNnFuaWljeGpvTEl3WUhiZDZoSGFpUjdzZkRRMHppTDhwWUUyYkZCelBlRzRwYW9meWJrMkI5N1ZQQ3RTN3F5S2htNm9ESTdLeDl0VWR6YmlRN2piVEl3cFMwYXB2M0pjNG9MMGdVX2oweVdPcVo4UExOaTFiamcwWWFiU0l1bW51bHEzblJnbTkyUnI4TXB0OFZVUmZRdVZvUGlUM0tzNlJKSNIBxgJBVV95cUxPVS1KWjZqekNRQVpJR0NTeEdWbllTZGJZaDFnQ1lwZWFGdGlZR3hlajNQNEtFcU5ad3hmdmNyMU9hU0paOV92a0YxMGltU01tVUtqQll4RVBhcEFSVE10eXdrcmpiMkpweDhfR0c1dzdaYk5mR1JfaENmZENaQThYa3JNQ3VnY1FXX19YNnFnSHpHSUREZTBXWGkzamI2RVpycE9jaEk5bEZ0emV3QTJ6aU8yM2hyVnJQcGRBYXQtcllST3Z5YlU0OE9ndDVSUEFtQktMNlNYTzdGTmlxeEp0SjBSSXNsUTl3Vkw1VWhMSjNORElKWWVhcVZYRlo4X2ItRk5MMnZIaGZIVy05cjl4aUlPSnpwajVWb1c3VVhZTFFYQUFWbEZsTmt5eVBUV3NhYWdjcWZfNUFBREN5OTE1LVdHY3dRQQ?oc=5",
+      "published": "2026-04-15T07:00:00+00:00",
+      "source": {
+        "name": "Boursorama",
+        "url": "https://www.boursorama.com"
+      }
+    },
+    {
+      "id": "1e2fde76f0e9",
+      "title": "“Des gens meurent”: la lutte contre le sida en “danger” à cause de la chute des financements - 7sur7.be",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRzFKX3g5ekoxeVp1UmFiRUhldkNNZlJqMWRVYTFYNExrc2hMQnB2NjBSX1h5RzIzYlJxaFE0SzZSckFBalptQjdVRjFQb1cxUmd0SWJzUEY5eEdBLVRwQUZxQ1gwYlBIaUFJRnh5ZnVlLUlWU2U4WFBlWC1vcVZhV1BsTGc3VmZWS3FxUFF5MjV6RlZ1c0gxQXZMc01XQ2xIM2w2Qy0tUDBnd1NOdzU1emh3ZTNGR2Q0NE5tNVFOVUxoZw?oc=5",
+      "published": "2026-07-27T23:34:00+00:00",
+      "source": {
+        "name": "7sur7.be",
+        "url": "https://www.7sur7.be"
+      }
+    },
+    {
       "id": "b91393d7b9f4",
       "title": "Médicaments : comment les nanoparticules de Nanobiotix veulent doper les traitements du futur - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTTJyYjN3bHhTNEFxWGRHTkw1RVNRV3EzdUNHSUZycnZFOTNjWHMwS3VJaUFNUXBMSUlUSjAxY3FrRkVUbEVxenZ4bnJTYWhFbS1VcnJ6dTN5dUJfZ2tNX3hNbWEzQjhfeHlpOEM2ak5EV2ZvT014MEtYOVVKQVJTRjU1MWJ5MnNTdHI4N1JhVzhZNTh6eV9KRWNOdWFELUF6b0plVWR2bDdNaHJPeUQ2LUk1RUdxdTdDVy16ZXJGRUJVT2J1SXRQdUVTN3F0bUhPSTlUSUFPLVJBNjJYWENMakU5WVppSUlkcGJ4cmNvRQ?oc=5",
@@ -914,13 +824,13 @@
       }
     },
     {
-      "id": "2b029b898c09",
-      "title": "Médicaments : l'attractivité de la France décroche, selon les laboratoires pharmaceutiques - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxON2FhR3FCUTlnazFjWjBhZjh1NUQzRnVmSkdDWHRUYzJhLVhzQzEyLTlrZDkwLTBkWVJrT0Z6bkNSeHk5bENOVDJkN01pVVdxc1pOaWxRWHBhbkJrQUtUQk9zY3NjaUZGTUQ1T2hWcUJlSGM2bHNrMHA2R2JzeDlaT2ZxM21wNk5LdlZ1NG1mVkRpU1FaSFF1UkJvenFKMU1BNy10alVLQkZEMTFPWUwxMk5xekRGTi1RejRwcUd4VVN2ZlJuNGFRc0JfRmVFVjl1RkhUX1hkQ19PcVNocUJIeU5nXzdiOUpX?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
+      "id": "e6ba4456f9fb",
+      "title": "Mozambique : 350 000 dollars en médicaments détournés - APAnews - Agence de Presse Africaine",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTU5LVmE2U2plUTRZOVRvS0wyeVVsLVNnZ0NuVzdPQ3Q0MV9iOFFnUjc4MUsxbGN3RmkwSWFUTDViSUxpM3U2a0hVcXlJQUNLZHRNMU0xakxNcWtrSGo5VUFDZTE0elk2a045MkdGTWE0ZnZEcnJZZkF5aXpLUElyT25DM2pmUlpDMFE?oc=5",
+      "published": "2026-07-27T14:13:27+00:00",
       "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
+        "name": "APAnews - Agence de Presse Africaine",
+        "url": "https://fr.apanews.net"
       }
     },
     {
@@ -931,6 +841,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "2b029b898c09",
+      "title": "Médicaments : l'attractivité de la France décroche, selon les laboratoires pharmaceutiques - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxON2FhR3FCUTlnazFjWjBhZjh1NUQzRnVmSkdDWHRUYzJhLVhzQzEyLTlrZDkwLTBkWVJrT0Z6bkNSeHk5bENOVDJkN01pVVdxc1pOaWxRWHBhbkJrQUtUQk9zY3NjaUZGTUQ1T2hWcUJlSGM2bHNrMHA2R2JzeDlaT2ZxM21wNk5LdlZ1NG1mVkRpU1FaSFF1UkJvenFKMU1BNy10alVLQkZEMTFPWUwxMk5xekRGTi1RejRwcUd4VVN2ZlJuNGFRc0JfRmVFVjl1RkhUX1hkQ19PcVNocUJIeU5nXzdiOUpX?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -984,16 +904,6 @@
       }
     },
     {
-      "id": "32d31915a2f7",
-      "title": "Dépenses de santé : la France pourrait économiser 800 millions d'euros par an en augmentant le recours aux méd - Boursorama",
-      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOODFzeThkR3JjM00wc013V3NRa0pEZ3hhZmVadlhWSGlzQTZZQTBwc0FvZmp0c1FhRjFyYks1b1BMc0dZMUtGY2hSWGNkZFc5bzNuZXJlQjh5eUtIaTloMW5tOElndXBJanJNTUpfcndNODEwN1c5R1lHSVNfbXNtVG1ySEpZODU0cGRLQ3NHTHlkZHItZTZqUVN0blktNnFuaWljeGpvTEl3WUhiZDZoSGFpUjdzZkRRMHppTDhwWUUyYkZCelBlRzRwYW9meWJrMkI5N1ZQQ3RTN3F5S2htNm9ESTdLeDl0VWR6YmlRN2piVEl3cFMwYXB2M0pjNG9MMGdVX2oweVdPcVo4UExOaTFiamcwWWFiU0l1bW51bHEzblJnbTkyUnI4TXB0OFZVUmZRdVZvUGlUM0tzNlJKSNIBxgJBVV95cUxPVS1KWjZqekNRQVpJR0NTeEdWbllTZGJZaDFnQ1lwZWFGdGlZR3hlajNQNEtFcU5ad3hmdmNyMU9hU0paOV92a0YxMGltU01tVUtqQll4RVBhcEFSVE10eXdrcmpiMkpweDhfR0c1dzdaYk5mR1JfaENmZENaQThYa3JNQ3VnY1FXX19YNnFnSHpHSUREZTBXWGkzamI2RVpycE9jaEk5bEZ0emV3QTJ6aU8yM2hyVnJQcGRBYXQtcllST3Z5YlU0OE9ndDVSUEFtQktMNlNYTzdGTmlxeEp0SjBSSXNsUTl3Vkw1VWhMSjNORElKWWVhcVZYRlo4X2ItRk5MMnZIaGZIVy05cjl4aUlPSnpwajVWb1c3VVhZTFFYQUFWbEZsTmt5eVBUV3NhYWdjcWZfNUFBREN5OTE1LVdHY3dRQQ?oc=5",
-      "published": "2026-04-15T07:00:00+00:00",
-      "source": {
-        "name": "Boursorama",
-        "url": "https://www.boursorama.com"
-      }
-    },
-    {
       "id": "9644a8ecfc9c",
       "title": "Didier Véron [G5 Santé] : « La France a tout pour devenir leader européen du médicament » - Bpifrance",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTh5dmZYRlljb285RXdsb21jdzNuYU1hcWhCUUdsYTdMTFhzRXFLdWJ0b3FaR1I3dURCMWcwV3pydXprVE03NFl5THV6eGZqc2lCNldmT0pEQXZ4WUVTUjAtbW5wbHl3emdtQUQ0Z1NZRmotYnh3OTRZOWx3TkNYOGZIeHNwLTVUV0dDTjFKMW9iVGs2ZUlyWVdDMF9LUnh1U08wSkRsNnBBa0YzSjRYd1J0cGNrN05qS1NEVmVaTnV0TnJh?oc=5",
@@ -1001,6 +911,96 @@
       "source": {
         "name": "Bpifrance",
         "url": "https://bigmedia.bpifrance.fr"
+      }
+    },
+    {
+      "id": "8defea590882",
+      "title": "Médicaments : est-ce une bonne idée de les broyer si on n’arrive pas à les avaler ? - ladepeche.fr",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV3BjdnNTZ0V2U3BuT1VPR1NDLWI2OXIweTl1N1pEdW1tZHdVTy1zbmx1UEZyeWxUSlhPUWVCa21fc3M1d3BWMmxXRkp6b2dDckphWExUaTNVYWtGb2RVVDU4YUFEdU4xSXp0ci12RmVTV3RTdVd0LUtsMjNWYWtJSUJjaDRtZHVTMEF4a1JJdWJDZEVKTHhvQ2laYjh5TjJwdmxqcTVfNHZ4MHJSYi0way1lTF9RdVRFX3RUSkRDaGhtM2dVWWc?oc=5",
+      "published": "2026-06-22T07:00:00+00:00",
+      "source": {
+        "name": "ladepeche.fr",
+        "url": "https://www.ladepeche.fr"
+      }
+    },
+    {
+      "id": "32332d4ad93e",
+      "title": "Actualité : Pénurie de médicaments : un assouplissement des règles - weblex.fr",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ0dhSmhraU5ibGxBRWdpNGlEa3E1ZkdQTkJPTEl3cTBaRFB5QWF4ZzhyMFdzYldDY3hVVktlVkNQQVlacXctYXdpcmJSdEhSMF85U0NsM3JGa0tSWFVfUTRpbjFMeFlSTXVWWkhfaWQ5NEVOYkdpQ09ZM21Rd2tWVlhuYlZuZGVaZWVJQ25ORzFLNmtzdGc?oc=5",
+      "published": "2026-06-22T07:00:00+00:00",
+      "source": {
+        "name": "weblex.fr",
+        "url": "https://www.weblex.fr"
+      }
+    },
+    {
+      "id": "4b4eb7f49fa7",
+      "title": "Prévention santé -La PrEP injectable, traitement préventif contre le VIH, arrive en France - Service Public",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MalBXaXU4bF9sOF9DbnZjb1ZSVU9wVy1xb2ZEVVZ5Qk9MZkRwdURPejY1bmo0RW9kYnhxWXFhRWhMQmlkXzU3XzREdWhmVU1NYTcxaHVvWXpIOGNETGNCejZmMDdhSVd6OHA2Qjdfa0pBNmc?oc=5",
+      "published": "2026-03-25T08:55:33+00:00",
+      "source": {
+        "name": "Service Public",
+        "url": "https://www.service-public.gouv.fr"
+      }
+    },
+    {
+      "id": "55578e641a0a",
+      "title": "Médicament : 10 ans d’évolutions majeures et une prise en charge renforcée par l’Assurance Maladie - Ameli",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDQtcmFUa0tNXzI0OHBPRjB0ZnFFOFF3UGxrUEo0T2FoRzZDcGRyckpSU29qc3M3NUo0UHA5aVB4WmlFNHczclQ5M2tVaWV1YmtEempmLW5FZmd3aFJtOHVHWFdTcE5mNHU5bzlVTnBqYVdqVU16cGJfYnEzZk1SekM2dmM3VVZPalIxNFcxT3hYQzNSTGQ2NFBST2ZnV2Y1aDJrV25UX1g4RGVLaV9kSG5kaDVleWFuM1ViMkxlbHM3dmVTc0cxMnRwaGpUQ1Q4X0E?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Ameli",
+        "url": "https://www.ameli.fr"
+      }
+    },
+    {
+      "id": "7af89b5a24a6",
+      "title": "Rôle et compétences du pharmacien : une profession au cœur du parcours de soins en Île-de-France - Agence régionale de santé Ile-de-France",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGI5eFMtZ204aGp1WjdMMDRLeEhvOUNLVG9GOGdEN0VPRnpPNzJHYk9QOGFPeHRKZEFsdnZxQXM0N05JeUdQb1NydEhZZmZxeGZmaFFRN25JMy1Vb1ROelJSdVRsVUVCZnh6bnRvT0pzZkpBWXdzTi10TXJvRlp1M1UzZ2ZmS0dIYU9LdHJUcVc0NXcxR3RCREl4RnpoVkVzclRNeHFUX3lYdHN4ak9ZT2JuSjN1bjFrMUZ1ckJycEw1Y2dxM0VBajJPRXo?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Agence régionale de santé Ile-de-France",
+        "url": "https://www.iledefrance.ars.sante.fr"
+      }
+    },
+    {
+      "id": "feef5ce3049d",
+      "title": "Santé - Les médicaments craignent-ils la chaleur ? - Extrait vidéo Télématin - France TV",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOclo5cXZwek1PeWxidHpDOW96ZHZBUEViNU9vR0lNNW1jLUZheS1BRFhWa21aTlZCWlRMal9HVTM3emVFWlNxLWdrdFQ3ZU9BQkxLZDZ0VGNNaGJWWS13TEs4SFdiUlVJN0RhWl8tUm9uU1RiVkFLZnJDeFV3OUhHUHljeG53ZWRxb3lMN2ZKMHZiM3FHZ2VDZXNRZWdmN2xGZEE?oc=5",
+      "published": "2026-05-26T07:00:00+00:00",
+      "source": {
+        "name": "France TV",
+        "url": "https://www.france.tv"
+      }
+    },
+    {
+      "id": "0cfc11671b4a",
+      "title": "Allonger la durée de conservation des médicaments dans un objectif de réduction du gaspillage et de la pollution - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTzFramwtTGVyRHN3VHlVV190U3VyOXJFdlNwdUM2blRzeC14WTBpME9BS2RqZXBSS2VuU2RJYnRtMjFKdEJwMl9jSlJBZ2Z1TEJOOFlyQVpIV2tvVlVEcTViRHc3UGl5YV84LWRGSEdUVUphY3JzUGZzWFZ1bVJuQUNMT0pmMlNMazJ4VFNsdjNIVzFYd2Y0ck9WTHNEVXFqU3ZBb3FYNHRWc0U2d0NGRmF1di16VFhoanQyLWxnUFNuWWJjeUFBdkZrc24zNEFkbWVFbjlQdUZqQnd1N2c?oc=5",
+      "published": "2025-11-21T08:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "4aafbc27d43c",
+      "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? en replay - Et la santé, ça va - France TV",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVGFIQWN4R3FrTWxmaWlPQVRLZjg2eGlaWWhRMk5Zc1pZLV9hbjBBZEZ5VHVRLXZzYnl0UmhIOExydXdRWkxaTWRJWC03LWtQbE1HcFdzakd0Z0tZS1lpWGdyM1hqU093UFl5SlJkV2RjV0ZKWmVRXzVCTU5taEVlbTVCNlpHRnpxakdzTnQwTVkwTkVCbDd4UmtUbEEzSFg0V3YzcW9WYllMaHVzZGR1WUR1aElYNV80eVVJWXdSTWUyZw?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
+      "source": {
+        "name": "France TV",
+        "url": "https://www.france.tv"
+      }
+    },
+    {
+      "id": "a8eec4d704a1",
+      "title": "Médicaments : la HAS dénonce les pressions des industriels et défend son indépendance - La Croix",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ1E4T0RPNDV6cmktb1pnbVowOUFUd0prd3ZyTXE5UGtmdDcyd2ozc25YaVpRendGZ29MMnpvajQ2dkxpMzZnVEh6bnp3R1dKRGpfSm9JdGFOZmh2MXFWZldXVFNQS2U4SVY5Y2cwSUVzMERWM2FpTkwzZ1FFUFhwLWEzZTJ1VXdBRVlRajhZeGdBajNzZ1BSa2ZvN0ZJWGkwMWJKam9VMDVMQlBKSHVlOWRfYlhrY0dVRWJiTEhnUHI?oc=5",
+      "published": "2026-04-22T07:00:00+00:00",
+      "source": {
+        "name": "La Croix",
+        "url": "https://www.la-croix.com"
       }
     }
   ]
