@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-08-05T19:45:47.031885+00:00",
+  "fetched_at": "2026-08-05T21:19:21.060117+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "7fe60c5ca08d",
+      "title": "L’activité physique, ce véritable médicament vraiment pas assez prescrit - L'Express",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRDdqU1NzTmluNmtrVmptaGo0Ti0zYk1pbHZ5QUhMMFNWVW1TOWtoNkZoUjMyLTdGQnRtVi1lZXh3NWNCcy1MZTdMRDBkWFZ0dWd5Unp4ZDBmS1VDcFBFUm0xNHNFRm10a3BEaDJIOWZjWDFkSHVoNVlBbVUyMTFsLTV4Y2VVbVYyNnRjSWRKRV9aWDdwTHZ4RS1kZTBRVUdLRGw4N01HTll6Z3FwbXRmUEg1ckU5eWtMT3p5R2JQSG5CMzN0UzVRa0FYcTY2MDhkOGZNTXdjdnVuODA?oc=5",
+      "published": "2026-08-03T06:00:00+00:00",
+      "source": {
+        "name": "L'Express",
+        "url": "https://www.lexpress.fr"
+      }
+    },
     {
       "id": "f061a763f405",
       "title": "Aux États-Unis, un mouvement contre l’abus des médicaments en psychiatrie prend de l’ampleur - Courrier international",
@@ -54,16 +64,6 @@
       }
     },
     {
-      "id": "06c646fae802",
-      "title": "Pharmacie : AstraZeneca et Bristol Myers Squibb envisagent une fusion à 400 milliards de dollars - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNEJsVGtGOEJOS0d0dl9VOUM4SXFnSHZITndiZ29PcjBRaV80ckNXYzU1UUV4ZTNuLXFoMTA4Y3FjWkIwR0t5LUFYNkVERnpodm9pZ2YzVTZ5NkMzLTAzeWFWckE4RDR2bWY0blpabDYtYVNJNnNxN3FyS0dBaUR5UkUwT3ZERkRKaFNsV0NMbGZDUVdWMnVINlVlaE41MDI2TmtoUDdyRmtRRVRqa2h6QlJUYXZsRjJSLTExVVZGS2hxWjYybk1zTG9VbnJoS0c3a0pXc21EbW9adkYwTFZwMl9GZw?oc=5",
-      "published": "2026-08-03T08:59:18+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
-      }
-    },
-    {
       "id": "d83fc8be411b",
       "title": "Vous souhaitez tomber enceinte après avoir consommé de l’Ozempic ? Voici les nouvelles recommandations des experts - RTL Info",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQW4xSmtoSG5MM1NWQU1ONjFIZ1Z3ZzR6SGlFOHZ2N3RqRUlwNERrWnZfS2hvWEZSMzNaOGg0OVlFVm0xLWJKQ3lQQlVBWFNFQ0x2NDJMQXlrY0RRVE5aRG9XUHgwUEtBWFcwLV9qZk5jbmR0VzhVbmdpaUtWelJDdGY5SkM5azZ5Mng5SFhpNmQ0WHRjQTQ3WnVwOWF1YWdhUnljWXNPWnZlNVpFVW1ublBITjJ6SG1NQU9MazN5QWNsaVZPYzlDZDF6SVRQVERSTlFReA?oc=5",
@@ -74,33 +74,23 @@
       }
     },
     {
-      "id": "de6c802177af",
-      "title": "T-MEC : une vigilance accrue sur les médicaments innovants au Mexique - Team France Export",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT1dnNlh2czBzaS1zZ0ZEajVWQ3FqaGZkRVNPb2ZsazBJVmhsd29MU1ZUWGtBemZpZFhNQ2FTaEYzNkRPQ0Nkakt1ZU1aYS1fU0Fydm5ITlV6SG04U0ZlTGNVOUpqbmtmVXdKOEp3TV90YTE2SkVIbVVZTHVQWVZyLUctRFFEajFVWjViUFVqSElkZFBrOFRSSnJCVlBKVU1jZ3RlbUNab0JyUGRPM2FGU3FfZEZMa2ZZNXM2d2FpZmtrQ3F6LWpad3YwRQ?oc=5",
-      "published": "2026-08-05T12:31:52+00:00",
-      "source": {
-        "name": "Team France Export",
-        "url": "https://www.teamfrance-export.fr"
-      }
-    },
-    {
-      "id": "de9cd68af8e9",
-      "title": "Médicaments : l'Europe pourra-t-elle les conserver au frais par des températures supérieures à 40 °C ? - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWlVjSHNkQmlXUVJIeURKd0JVUkF3YjVkdmdfVXBMbkRUSEFWcjZQS3BHUldpY2E1dDIxRzlYMDg5OUgtTU1GMjY0clNnRjFyRWRrU3pvR3NzNDA2TW80VnZNeWRncEVfT202dGxXT1A4U0NhMUhqUEZ0MlFDaHZvZFZ6b0hLMXMtcU5qNjhZbjBGQnI4QzJzRUVvRHd0WTZFdUpVbjY5YTMteFd6bk9TZ1ln?oc=5",
-      "published": "2026-08-05T07:48:08+00:00",
-      "source": {
-        "name": "Medscape",
-        "url": "https://francais.medscape.com"
-      }
-    },
-    {
-      "id": "1ca4e805714c",
-      "title": "Eli Lilly relève ses objectifs annuels, les médicaments vedette contre l'obésité continuent à accélérer - investir.lesechos.fr",
+      "id": "55e1553ba471",
+      "title": "Eli Lilly relève ses objectifs annuels, les médicaments vedette contre l'obésité continuent à accélérer - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOdUoyUU1QMzZWT1VTLXNpVVc4cml4eWR0bEpHMnV4WWxYMjBKLXRiTDQwRDMxWjVxRFZwX2szR1FMbkRzTVlGMW02dWhwX2toLV9ZTWdULUUzRENmVUh0eXhWeVZqMzAwN2xNWXM4aXhVc0g4UzMzTjdxRXd3akhING1lenFkd3AyTFlxZkZOa0JaMDl0UzFDTVdSYmtaZHRJblBHSG9XZ2RtSGhFM252LVdjdEZBazJSd1NZWXNMY3IwbFN6S0pUNDZBdWZ3V3RmMGktcTdrMjhMMElnSENXZXBzcUVySFZVd3Nxbm12NnRMSVZiOVlvS0xTRm5Xc1NvNng2cg?oc=5",
       "published": "2026-08-05T14:54:28+00:00",
       "source": {
-        "name": "investir.lesechos.fr",
+        "name": "Les Echos",
         "url": "https://investir.lesechos.fr"
+      }
+    },
+    {
+      "id": "2911fceba4fa",
+      "title": "Médicaments : l'Europe pourra-t-elle les conserver au frais par des températures supérieures à 40 °C ? - francais.medscape.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWlVjSHNkQmlXUVJIeURKd0JVUkF3YjVkdmdfVXBMbkRUSEFWcjZQS3BHUldpY2E1dDIxRzlYMDg5OUgtTU1GMjY0clNnRjFyRWRrU3pvR3NzNDA2TW80VnZNeWRncEVfT202dGxXT1A4U0NhMUhqUEZ0MlFDaHZvZFZ6b0hLMXMtcU5qNjhZbjBGQnI4QzJzRUVvRHd0WTZFdUpVbjY5YTMteFd6bk9TZ1ln?oc=5",
+      "published": "2026-08-05T07:48:08+00:00",
+      "source": {
+        "name": "francais.medscape.com",
+        "url": "https://francais.medscape.com"
       }
     },
     {
@@ -114,12 +104,12 @@
       }
     },
     {
-      "id": "f2ec36ac8d47",
-      "title": "Omalizumab : l’ANSM ouvre la voie à la substitution en officine des biosimilaires - lemoniteurdespharmacies.fr",
+      "id": "057ad4e954c4",
+      "title": "Omalizumab : l’ANSM ouvre la voie à la substitution en officine des biosimilaires - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRWZzNThPVXAtODZhR1NVRTNLZ2ZMSjR4Y3RFV0ZQVG5fdUdGUUduemdTWFVyN3h3TDNiOHZxZGM4ck1LTWZmQmZ5TzNmNVg3YTF3QVZINHVlbEh2R1lDWms0dWZKN2N3S3hJQjRNS0pjUmY1MjVfNDVHZ0pUR0JYTHItOUdpMU5EOFYtN3lXb2tDSnVHODF0UmF3Mmx2dmdjRm4wa0R5THdsQXZhT0JQYmtmb05zZFY4dnZBTkdEX3hhcVByQ0lubXItb1d5dzVxNmdkU2tPM0lSY1VVb1E0Skd6bm9WSk51Z2NMMllydw?oc=5",
       "published": "2026-08-05T12:34:51+00:00",
       "source": {
-        "name": "lemoniteurdespharmacies.fr",
+        "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
@@ -154,13 +144,13 @@
       }
     },
     {
-      "id": "acf71bfa9bf7",
-      "title": "On s'obstine tous à emporter les mêmes médicaments en voyage : les urgentistes, eux, prennent tout autre chose - Sciencepost",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSS1laHVYZHEtdlZQTngzT0s4VjJBLVJWS2ZEQkJ5VllYSkw3eXNsSHNrakJoRjh2S29Nb2ZQYU1XQkNoSHhQaDExNG1aZ2VYbl9zMFh2QXNjTVJoRzI5XzhrTkNOVmZ2NzdpOE5XbDFRN3FkMHA1MVduU2pnWTZZZktUWUJsdzJOV0xPVGFtZUl3R0VzYkZPS09ocjY1cnpkbFdnRVZtM05SUDNNUWdWaGRaTjczMklCWjFtY3hWdnRzamFJbXYzXw?oc=5",
-      "published": "2026-08-05T12:30:00+00:00",
+      "id": "06c646fae802",
+      "title": "Pharmacie : AstraZeneca et Bristol Myers Squibb envisagent une fusion à 400 milliards de dollars - Sud Ouest",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNEJsVGtGOEJOS0d0dl9VOUM4SXFnSHZITndiZ29PcjBRaV80ckNXYzU1UUV4ZTNuLXFoMTA4Y3FjWkIwR0t5LUFYNkVERnpodm9pZ2YzVTZ5NkMzLTAzeWFWckE4RDR2bWY0blpabDYtYVNJNnNxN3FyS0dBaUR5UkUwT3ZERkRKaFNsV0NMbGZDUVdWMnVINlVlaE41MDI2TmtoUDdyRmtRRVRqa2h6QlJUYXZsRjJSLTExVVZGS2hxWjYybk1zTG9VbnJoS0c3a0pXc21EbW9adkYwTFZwMl9GZw?oc=5",
+      "published": "2026-08-03T08:59:18+00:00",
       "source": {
-        "name": "Sciencepost",
-        "url": "https://sciencepost.fr"
+        "name": "Sud Ouest",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -174,13 +164,13 @@
       }
     },
     {
-      "id": "7fe60c5ca08d",
-      "title": "L’activité physique, ce véritable médicament vraiment pas assez prescrit - L'Express",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRDdqU1NzTmluNmtrVmptaGo0Ti0zYk1pbHZ5QUhMMFNWVW1TOWtoNkZoUjMyLTdGQnRtVi1lZXh3NWNCcy1MZTdMRDBkWFZ0dWd5Unp4ZDBmS1VDcFBFUm0xNHNFRm10a3BEaDJIOWZjWDFkSHVoNVlBbVUyMTFsLTV4Y2VVbVYyNnRjSWRKRV9aWDdwTHZ4RS1kZTBRVUdLRGw4N01HTll6Z3FwbXRmUEg1ckU5eWtMT3p5R2JQSG5CMzN0UzVRa0FYcTY2MDhkOGZNTXdjdnVuODA?oc=5",
-      "published": "2026-08-03T06:00:00+00:00",
+      "id": "acf71bfa9bf7",
+      "title": "On s'obstine tous à emporter les mêmes médicaments en voyage : les urgentistes, eux, prennent tout autre chose - Sciencepost",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSS1laHVYZHEtdlZQTngzT0s4VjJBLVJWS2ZEQkJ5VllYSkw3eXNsSHNrakJoRjh2S29Nb2ZQYU1XQkNoSHhQaDExNG1aZ2VYbl9zMFh2QXNjTVJoRzI5XzhrTkNOVmZ2NzdpOE5XbDFRN3FkMHA1MVduU2pnWTZZZktUWUJsdzJOV0xPVGFtZUl3R0VzYkZPS09ocjY1cnpkbFdnRVZtM05SUDNNUWdWaGRaTjczMklCWjFtY3hWdnRzamFJbXYzXw?oc=5",
+      "published": "2026-08-05T12:30:00+00:00",
       "source": {
-        "name": "L'Express",
-        "url": "https://www.lexpress.fr"
+        "name": "Sciencepost",
+        "url": "https://sciencepost.fr"
       }
     },
     {
@@ -194,32 +184,52 @@
       }
     },
     {
-      "id": "3f94121242d9",
-      "title": "Novo Nordisk relève ses prévisions pour 2026 mais déçoit avec ses médicaments anti-obésité Wegovy et CagriSema - investir.lesechos.fr",
+      "id": "5736a43796be",
+      "title": "Le gouvernement va doubler le plafond annuel des franchises médicales sur les consultations et les médicaments, de 100 à 200 euros - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTldYVWpoeHhTUHFQN1ZlUUF1bE1rejhRTFg3ZW1RUjcxTlFzMHlIZUVtQ0s1OEw2TVg3S2tjcTFhS29VTnNKaTVVSGtoQWdGTG1NQnd0djNMMnI2Q3VkMUtjbUQ0dlRJUjJvTDVmZHNjN2NYSjBkc083WU05TERpaS05SkkwUVRVckloQ0xuMWxiU0NnT19OWFU2NTFmMzNDTnFNczVjU2dYSDFROWlWRTNTSTBfdGZKbE9ydkk4T1lpcGJCU080UGpyWGI0cHpBUFlhVjZYQUJqem5VWmxWODRRYWY5S0xiZFl2aTh6LWx1cDR4VW1HUTZhRWRIRW96Y2Jn?oc=5",
+      "published": "2026-07-23T07:00:00+00:00",
+      "source": {
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
+      }
+    },
+    {
+      "id": "980c9c51d642",
+      "title": "Novo Nordisk relève ses prévisions pour 2026 mais déçoit avec ses médicaments anti-obésité Wegovy et CagriSema - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNnN0SlVjSUxCd0dIVVl3VWdRaVA3VjZQdW1lUVNIMklPVnZTYkp3TUpnR2hydl8tUVB2NFNNNEpyT2lYYWxWNzhfNHp6SWh5QnVoODAxLWJnOXIwS0gtXy1seGw4dVI4MUFJLWtwalZFczFITTZ1TFZNc1NQeFZmeUhQajFHSWhoRlE1UjNvZGJUVXc3TDBEaVdFUHlzeWlHVmQwNlpLTmYzR2JDcXprVFVnVWhEaG1uNTdXR3pIT3R3SWdYTURkREthM0RUTF9Hd1cxQTJxVllBdDVUb3FZYm56cklMejV5YVVUSlZYVy1FNHgxQTZOdm02ajRNelV6RHVQTVczbDNFX0JlQWRiUg?oc=5",
       "published": "2026-08-05T08:04:49+00:00",
       "source": {
-        "name": "investir.lesechos.fr",
+        "name": "Les Echos",
         "url": "https://investir.lesechos.fr"
       }
     },
     {
-      "id": "98b64d2c2c6a",
-      "title": "Livraison de médicaments à domicile : les pharmaciens auront leur plateforme en octobre - lemoniteurdespharmacies.fr",
+      "id": "8112fb141dd3",
+      "title": "Prescrire de la nature : mode d’emploi - francais.medscape.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa21SZDZRUTUzYlcxV1JjaU9aSmNfS2k4VklGS2lEc0FCYjhUU2hSVmpRX2Z1d0VvRm9xT1VKYTNOTVNtekMxc0NXd19wcDh4WlFObHNGRmpUN3FZV2MyamJUb1JhZVNzODNraEtHajJaNnJoQTFwdzNqUTFuMVY4WTZsai1DY09YTmNxMQ?oc=5",
+      "published": "2026-08-05T07:48:08+00:00",
+      "source": {
+        "name": "francais.medscape.com",
+        "url": "https://francais.medscape.com"
+      }
+    },
+    {
+      "id": "5aa18bc3d694",
+      "title": "Livraison de médicaments à domicile : les pharmaciens auront leur plateforme en octobre - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZm9sN0NNS3pXWTBUMW45MGJkTXd5MzVyckJmQUNJSmdjVm55T1o4bkRVT0xOM2lmczAwNGkxakt6RDhPZUlKcEVRZm1fWEhxcnFJYllCN0daaW0xNVA2R2x2WlQ5OWF1TUhXWHU2YW5qSkctMXE0Vmx4TVVHaXUzX04zZEZlNFZxUFZkbW9vejlVejA0WDN3dnVoVzk2Zzh0TTdzNlEteGJaYXdEVU5QSUhzakd2T3Z5UEJEdmtoelZuZE5oWGJVVEdNSjdXMmZFMFE1NXc1c2FrVnRISjM0R1NXdUZUSldnRjNRag?oc=5",
       "published": "2026-08-05T09:10:53+00:00",
       "source": {
-        "name": "lemoniteurdespharmacies.fr",
+        "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
     {
-      "id": "4c9f3417e9b1",
-      "title": "Bicafres : les pharmaciens attendent le feu vert de l’ANSM pour les préparations magistrales - lemoniteurdespharmacies.fr",
+      "id": "4fc944e6efa8",
+      "title": "Bicafres : les pharmaciens attendent le feu vert de l’ANSM pour les préparations magistrales - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVi1XQTJyTmJnemZuRG5EUy1acTdDa1lUVlNkc3pERUhqbW9Kbkt3WW56cWdlSVU3akFqTGJ4UkNEWFQwWG81NTMwc1FsS3laQzNYUlg1VjZEcGNrX0luN2NCZ3l5Y3lvZm0wS1ZkMlE5VU1sbFlKU01lOTgtZ29WSlFNSTk3aFRTUmw3blZ6SmVxSnI4SGlYdElLZTdpWVRjQUc1a0ctTGdlVFk1aUhadDNfZG8xOWJjTkljVWU0el9qQ1BvalV6SFdqNkgyeVNkazNSNW83TnRvaVhSYnphTWNKMk1ES3NnSll6Z05iZlc?oc=5",
       "published": "2026-08-05T05:06:07+00:00",
       "source": {
-        "name": "lemoniteurdespharmacies.fr",
+        "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
@@ -234,20 +244,20 @@
       }
     },
     {
-      "id": "6193aaaf7f00",
-      "title": "Le gouvernement va doubler le plafond annuel des franchises médicales sur les consultations et les médicaments, de 100 à 200 euros - franceinfo.fr",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTldYVWpoeHhTUHFQN1ZlUUF1bE1rejhRTFg3ZW1RUjcxTlFzMHlIZUVtQ0s1OEw2TVg3S2tjcTFhS29VTnNKaTVVSGtoQWdGTG1NQnd0djNMMnI2Q3VkMUtjbUQ0dlRJUjJvTDVmZHNjN2NYSjBkc083WU05TERpaS05SkkwUVRVckloQ0xuMWxiU0NnT19OWFU2NTFmMzNDTnFNczVjU2dYSDFROWlWRTNTSTBfdGZKbE9ydkk4T1lpcGJCU080UGpyWGI0cHpBUFlhVjZYQUJqem5VWmxWODRRYWY5S0xiZFl2aTh6LWx1cDR4VW1HUTZhRWRIRW96Y2Jn?oc=5",
-      "published": "2026-07-23T07:00:00+00:00",
-      "source": {
-        "name": "franceinfo.fr",
-        "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
       "id": "17eb4a0cd33a",
       "title": "Et si votre médicament figurait sur la liste noire 2026 ? Voici les 89 traitements courants à éviter - Futura, le média qui explore le monde",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZUhkNzl3Z3U5Q0dwVV9kNUFuTXJleDRmZUJZVmtDdWVkNkM4d1dqMnN3czVjc0JVUjlTZDVUZW9KcUhfU1k0LUVnT2E1SmVNU3JfRXJFVHRnZW9jOGxwRzBGRWZyb2tqX0Y5MUJLUDdWc0tVdnBqYi04YVFzLVQ2MURUM2dXRW5SM1BHaGU5cVV1cktFNTBQX2dEWVExMlVzQXl6TU1ES056MEswTU1IamlTSmdvNzg4SEd1QnBSUC1UYzYwUHdLRFVndW92LXcyNlA3WkJpVW1GNW0wVGJ1MVBNRHNUd1FBN0lvZQ?oc=5",
       "published": "2026-08-01T16:00:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
+      }
+    },
+    {
+      "id": "d284635314ba",
+      "title": "Voici la découverte accidentelle de chercheurs britanniques qui pourrait transformer la fabrication des médicaments - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPamVfYlQycmVCeFVVYWR4ak5fUzZUOVQ4dkxuVldBMzU2ZkMzRTZnOUQ5VTZxRXhrcGlvRlRDOFpCX0xmN3JfQ2lKaEhFVFBVRjdpWm8zYmpLQlA1b2NFZjI0U25UOFlhZ1ZRd3B2czhXRkZ6NThVMU9LRkJETTFvWmMwM29rTnlxWU4tdkk4LW9YRlFoc0hmbFlqS2Z1ZlhHQjhZNlVZU3pxSEdCNFpIRFRfenpoWlBNeDdxcW8xSDlrUDRYbWJLUDNNSUN6bVdXSmIzd3B2R2VnVlVZSHE1MVdRUlRWRjItQ1E2WDZfeV93Z09qanVVQVVnSENEMUg2Y0E?oc=5",
+      "published": "2026-08-02T08:00:00+00:00",
       "source": {
         "name": "Futura, le média qui explore le monde",
         "url": "https://www.futura-sciences.com"
@@ -304,36 +314,6 @@
       }
     },
     {
-      "id": "3f9d0a80e33a",
-      "title": "Un nouveau médicament soumet les cellules cancéreuses à un stress métabolique extrême - ma-clinique.fr",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeG80d0FkcnZuZnZMQWhqM3hZMnI3M2xkQ2NKX0RvbWxHUmVHYzNHQUwwN054NmlFX3ppRTE1U2FabEFOUUxocnJRZU9wa04xUTBmR0xudEZLRGJFU09BUWFjUnlneGE1X3JVN0Frd05PN2kzdmxkOE9JdGFMcWdySjhXbEhnbG91T0RtcTdKX3ROUG01bjVsRllvdUo3bjZyU3BRSktMWGFrcTIy?oc=5",
-      "published": "2026-08-05T10:20:30+00:00",
-      "source": {
-        "name": "ma-clinique.fr",
-        "url": "https://ma-clinique.fr"
-      }
-    },
-    {
-      "id": "9c9f135479fd",
-      "title": "“Des signaux encourageants”: Ozempic ou Mounjaro peuvent-ils prévenir le cancer colorectal? - 7sur7.be",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc05GaTdJTXkzeE10ZlRlYkhFXzdIU3YwTzd2SC1rRWRfX2xqdDlkMmp5ZVNudGxNelpGR3NKN3hqRmlCTGVRMEVMQ1FOZUttWmJGZVk2Y0UwZUREZjE4b1JYMFdEczEweG9NTUtBYmxoNmxoazd5T0dKdGpYZEtYZ0FVN2Z1aFZqS05tRF90U2FabTJRZV9lUHVsRklMaUJwSVpKOUs2Q2JBV3RidzVpSzJhNUU5U2xKSVM2VGlhR1ExUQ?oc=5",
-      "published": "2026-08-05T15:20:59+00:00",
-      "source": {
-        "name": "7sur7.be",
-        "url": "https://www.7sur7.be"
-      }
-    },
-    {
-      "id": "d284635314ba",
-      "title": "Voici la découverte accidentelle de chercheurs britanniques qui pourrait transformer la fabrication des médicaments - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPamVfYlQycmVCeFVVYWR4ak5fUzZUOVQ4dkxuVldBMzU2ZkMzRTZnOUQ5VTZxRXhrcGlvRlRDOFpCX0xmN3JfQ2lKaEhFVFBVRjdpWm8zYmpLQlA1b2NFZjI0U25UOFlhZ1ZRd3B2czhXRkZ6NThVMU9LRkJETTFvWmMwM29rTnlxWU4tdkk4LW9YRlFoc0hmbFlqS2Z1ZlhHQjhZNlVZU3pxSEdCNFpIRFRfenpoWlBNeDdxcW8xSDlrUDRYbWJLUDNNSUN6bVdXSmIzd3B2R2VnVlVZSHE1MVdRUlRWRjItQ1E2WDZfeV93Z09qanVVQVVnSENEMUg2Y0E?oc=5",
-      "published": "2026-08-02T08:00:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
       "id": "b358496b3221",
       "title": "Vent de colère après l’annonce d’économies sur la santé - www.lamarseillaise.fr",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWDBWZDc3d21zTFpNSThkT1ZPNUUtZ0RuUnBMZm96d1c1ek5sb0hLQmptLU5xaDRsM2wxRTYxLThOVzZLMkk2a3pnV1RfUEFwd3hXNXQ5Q2dOTlJiZmtRT2ktck1jMGZqNHUtal9TWVFHLUktN3cxTWVIVm96cnBINjhJaUhvOXVaa2hqMDIxQXZLSVFLVnk1dzVLeld5MjFDWllqOGZ6Yw?oc=5",
@@ -364,13 +344,33 @@
       }
     },
     {
-      "id": "2e504b8ca278",
-      "title": "Médicaments : le gouvernement veut relever le plafond des franchises médicales - franceinfo.fr",
+      "id": "3f9d0a80e33a",
+      "title": "Un nouveau médicament soumet les cellules cancéreuses à un stress métabolique extrême - ma-clinique.fr",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeG80d0FkcnZuZnZMQWhqM3hZMnI3M2xkQ2NKX0RvbWxHUmVHYzNHQUwwN054NmlFX3ppRTE1U2FabEFOUUxocnJRZU9wa04xUTBmR0xudEZLRGJFU09BUWFjUnlneGE1X3JVN0Frd05PN2kzdmxkOE9JdGFMcWdySjhXbEhnbG91T0RtcTdKX3ROUG01bjVsRllvdUo3bjZyU3BRSktMWGFrcTIy?oc=5",
+      "published": "2026-08-05T10:20:30+00:00",
+      "source": {
+        "name": "ma-clinique.fr",
+        "url": "https://ma-clinique.fr"
+      }
+    },
+    {
+      "id": "0a5f6f5c9ac9",
+      "title": "Médicaments : le gouvernement veut relever le plafond des franchises médicales - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWS1GRHUzTXhKMENpZGwxdlBpM2hlR2ItRWFkWXVMYU5uVHFPSFdoLWlkcHlQX3dLZUFWaVR0aDAtNlVqYjdRTUxIbmREVDYwelBORm51bnA4TE1Za2tfTEtGd3hhdVZFYU1LNjNubHloaDl6Z0hsdnZVM282XzBhOUk4RFZXTlB1N1NubndqZ1A3STJPWllPQ3dQdXVidTBla1ItVDJPV3Z1bTVhNlVGdzRXcGxMTUM5LXBjSUJR?oc=5",
       "published": "2026-07-23T07:00:00+00:00",
       "source": {
-        "name": "franceinfo.fr",
+        "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
+      }
+    },
+    {
+      "id": "9c9f135479fd",
+      "title": "“Des signaux encourageants”: Ozempic ou Mounjaro peuvent-ils prévenir le cancer colorectal? - 7sur7.be",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc05GaTdJTXkzeE10ZlRlYkhFXzdIU3YwTzd2SC1rRWRfX2xqdDlkMmp5ZVNudGxNelpGR3NKN3hqRmlCTGVRMEVMQ1FOZUttWmJGZVk2Y0UwZUREZjE4b1JYMFdEczEweG9NTUtBYmxoNmxoazd5T0dKdGpYZEtYZ0FVN2Z1aFZqS05tRF90U2FabTJRZV9lUHVsRklMaUJwSVpKOUs2Q2JBV3RidzVpSzJhNUU5U2xKSVM2VGlhR1ExUQ?oc=5",
+      "published": "2026-08-05T15:20:59+00:00",
+      "source": {
+        "name": "7sur7.be",
+        "url": "https://www.7sur7.be"
       }
     },
     {
@@ -404,22 +404,22 @@
       }
     },
     {
-      "id": "a5353e269234",
-      "title": "Canicule et médicaments, un risque pour les plus vulnérables - lavie.fr",
+      "id": "27857f2a6450",
+      "title": "Canicule et médicaments, un risque pour les plus vulnérables - La Vie.fr",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY3ZJSzNSc1RJdnBSUGxsZzJmZGdHRE93TGVZcTd0SmVWRWpMaDBNQ2prN2dWdW9VRlAtYWtmWk1OM0xwREVjN3lzMUxsODNTSFBNcWFkQ2xzdGFVdmhsRzZrOWRNdS1KYUtyOWdiSTdvWXpZcWNiOWJrWGRJUm5vWWk2QW5Jb2lmaV9zQkJITzlrOERJMlJoZThIUFBydk9qdmZWM0pvVVR0LVJnamxGLTZR?oc=5",
       "published": "2026-07-22T07:00:00+00:00",
       "source": {
-        "name": "lavie.fr",
+        "name": "La Vie.fr",
         "url": "https://www.lavie.fr"
       }
     },
     {
-      "id": "b9ec75d289bb",
-      "title": "Vieillissement de la population : les 6 chiffres qui vont transformer l'exercice des pharmaciens - lemoniteurdespharmacies.fr",
+      "id": "b074f3bbe44d",
+      "title": "Vieillissement de la population : les 6 chiffres qui vont transformer l'exercice des pharmaciens - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNnN4bVFILXVXaVNjWk9KSjVpRHlpUDI4eUhjelFPRGFjdGRMeXlhOXpvTDczMHVqM0VWNjFmZmt2MDBBSE5MUXZuRV8wRmJsLV85cjNZLTVKZWdTSkg4Qk56QnFNb00tU3JCWndpVjg0MndIVlZQNm51aThHeUMzRnNkQXJ4THI2R0NhWWk3OWZqLVg3VHZKcUJDaGhjbFUwM0phYUhNSVcxMzZGb2JLejdBTDE4Q0lfMDRxdDNvSzVVRHFmUFVSTUtJNzVzN1lRckFiYjVvb0NsTk1BWXF0SktJUkxIeHNRZFMzTFBvTzBsNWN1UUE?oc=5",
       "published": "2026-08-04T11:51:02+00:00",
       "source": {
-        "name": "lemoniteurdespharmacies.fr",
+        "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
@@ -624,16 +624,6 @@
       }
     },
     {
-      "id": "dff6898cfc32",
-      "title": "TDAH : ce nouveau traitement approuvé aux États-Unis promet des résultats dès la première semaine - Marie Claire",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CcS1XM0ZoZXNSdjAyeWl4dmpMNFJJVGR1bHl3WmVuUXFUa1pKVnhQZmJIUTZuRFgzOWtHSTFCVFd0WS1zSEZXOXZsVGYteVNUQ1JRZXY1eUdUOW16Q2d3c0QzOHNMSTVRUi13WnZpX2drWXFWYVFwWEw0TQ?oc=5",
-      "published": "2026-08-04T11:00:00+00:00",
-      "source": {
-        "name": "Marie Claire",
-        "url": "https://www.marieclaire.fr"
-      }
-    },
-    {
       "id": "2e5c8a59d50c",
       "title": "Accès précoce à des médicaments présumés innovants : pour un pari mieux éclairé - Haute Autorité de Santé",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ2Zsejk0NVB1bGVpLTJiVi13b2xMM3hhVW5GXzVzSjlRT00tZjY3Zmp4eUZPS1RFLWNtWEIzMmRUWkJhQVdxR0tHdVFoYkxfbnhrc0RjUEZKLThUUDdKT194WWItNi1hal9aUFlCNjJCaHJoUGZZU1NJTDVEQ010cGVtbWZmTkFBRVdFNE10cE4tNjBHaWlKU19xS2dfWUo3SlRVV0FGNjh2WlhBLUQwNVJlRTJnbnFVbTNVdA?oc=5",
@@ -641,6 +631,16 @@
       "source": {
         "name": "Haute Autorité de Santé",
         "url": "https://www.has-sante.fr"
+      }
+    },
+    {
+      "id": "dff6898cfc32",
+      "title": "TDAH : ce nouveau traitement approuvé aux États-Unis promet des résultats dès la première semaine - Marie Claire",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CcS1XM0ZoZXNSdjAyeWl4dmpMNFJJVGR1bHl3WmVuUXFUa1pKVnhQZmJIUTZuRFgzOWtHSTFCVFd0WS1zSEZXOXZsVGYteVNUQ1JRZXY1eUdUOW16Q2d3c0QzOHNMSTVRUi13WnZpX2drWXFWYVFwWEw0TQ?oc=5",
+      "published": "2026-08-04T11:00:00+00:00",
+      "source": {
+        "name": "Marie Claire",
+        "url": "https://www.marieclaire.fr"
       }
     },
     {
@@ -784,12 +784,12 @@
       }
     },
     {
-      "id": "9205cd4601a6",
-      "title": "Le café déconseillé avec ces 3 antidouleurs, les plus vendus en France - medisite.fr",
+      "id": "2f2a051cf3a1",
+      "title": "Le café déconseillé avec ces 3 antidouleurs, les plus vendus en France - Medisite.fr",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU1EwR2otSXpKWXd5d0I4TGczWTFDUjRIS1JERENQU2NpRFhrQ0pfQm5CSVFWY0ZIVkpsVmwtR19YUnFmd2htbXNCYkJUTEVlY1BUWmxYSXJid3ZONE1xVGhjVFVid1hYSy1pUHExY2wzZG0zaVVXNjF5VVlUTThWN1VSbDBET2hQTGlvSjN1WEdvQ1cwdGJ6alF2VTJabXNkbWxrQmdLWG9SbTlLRWFpNFJSdHBzSWRzbTN4cUxmcU0zMVk?oc=5",
       "published": "2026-08-03T05:00:00+00:00",
       "source": {
-        "name": "medisite.fr",
+        "name": "Medisite.fr",
         "url": "https://www.medisite.fr"
       }
     },
@@ -954,16 +954,6 @@
       }
     },
     {
-      "id": "9047a37b9420",
-      "title": "Autorisation de mise sur le marché des médicaments : Ce qui va changer avec le nouveau décret - Aujourd'hui le Maroc",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY09mRUpVWTF1WFBfaHFnZ2c4NGJqYnh3eEU1M2gzQXdRTU5rakp0VEhpNDZYVUw3TGVZalVsaGtSRzN1Y1RvOG9QZUljQmRCSFdraUR4UDh4UmloQURHRVdGT2MzRDVRY2ZFSC1yN3ZQUXlSRUpDdG9rWUZSeXdWSS1hYnBoRnA4d3NiNjZURGR1THMxX2g2ZmJaOXl6dEx0dm5hV3pkS3Z1YmFPMkowb216cnVPX0NiT29pY2J3?oc=5",
-      "published": "2026-08-04T09:36:32+00:00",
-      "source": {
-        "name": "Aujourd'hui le Maroc",
-        "url": "https://aujourdhui.ma"
-      }
-    },
-    {
       "id": "8defea590882",
       "title": "Médicaments : est-ce une bonne idée de les broyer si on n’arrive pas à les avaler ? - ladepeche.fr",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV3BjdnNTZ0V2U3BuT1VPR1NDLWI2OXIweTl1N1pEdW1tZHdVTy1zbmx1UEZyeWxUSlhPUWVCa21fc3M1d3BWMmxXRkp6b2dDckphWExUaTNVYWtGb2RVVDU4YUFEdU4xSXp0ci12RmVTV3RTdVd0LUtsMjNWYWtJSUJjaDRtZHVTMEF4a1JJdWJDZEVKTHhvQ2laYjh5TjJwdmxqcTVfNHZ4MHJSYi0way1lTF9RdVRFX3RUSkRDaGhtM2dVWWc?oc=5",
@@ -971,6 +961,16 @@
       "source": {
         "name": "ladepeche.fr",
         "url": "https://www.ladepeche.fr"
+      }
+    },
+    {
+      "id": "9047a37b9420",
+      "title": "Autorisation de mise sur le marché des médicaments : Ce qui va changer avec le nouveau décret - Aujourd'hui le Maroc",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY09mRUpVWTF1WFBfaHFnZ2c4NGJqYnh3eEU1M2gzQXdRTU5rakp0VEhpNDZYVUw3TGVZalVsaGtSRzN1Y1RvOG9QZUljQmRCSFdraUR4UDh4UmloQURHRVdGT2MzRDVRY2ZFSC1yN3ZQUXlSRUpDdG9rWUZSeXdWSS1hYnBoRnA4d3NiNjZURGR1THMxX2g2ZmJaOXl6dEx0dm5hV3pkS3Z1YmFPMkowb216cnVPX0NiT29pY2J3?oc=5",
+      "published": "2026-08-04T09:36:32+00:00",
+      "source": {
+        "name": "Aujourd'hui le Maroc",
+        "url": "https://aujourdhui.ma"
       }
     },
     {
