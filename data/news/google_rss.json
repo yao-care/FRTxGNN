@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-08-09T16:43:58.813864+00:00",
+  "fetched_at": "2026-08-09T17:37:12.581557+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "8b139929525a",
-      "title": "Les médicaments anti-obésité sont désormais remboursés : quelles sont les conditions pour être bénéficiaire - franceinfo.fr",
+      "id": "27699d4c41b1",
+      "title": "Les médicaments anti-obésité sont désormais remboursés : quelles sont les conditions pour être bénéficiaire - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTDRHOWdmU1lVcDJ0Yi1na3otVzRfd09nTW9UcHdSb2l0XzhnOUZUSlE5LUxQV24yVDZ4XzZYRVBrbDJpWWZCbDlfRHNBMU5oUWhibU5zTXdMZm9NVEp2dzRBV3l4X29jMGxRMExSc2NHRkdlMVFYMzEySE9ReWRCZlZZWm8xMmgzY1pyYjFoWE5xdzZycl9jSDQtazI0clZOZkE4aGVfZGVXd05QMGpnSnZ1RjFXMnRYZ0ZWV2F5cERYQVo4cUFuT0V4RElVT3o0WTllbWRaRm1CTW9oc0ExeDlkYmo?oc=5",
       "published": "2026-08-06T14:37:52+00:00",
       "source": {
-        "name": "franceinfo.fr",
+        "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
       }
     },
@@ -84,13 +84,23 @@
       }
     },
     {
-      "id": "a7457a23d1d2",
-      "title": "Pénuries de médicaments, fermetures de cliniques, personnel non payé... En Cisjordanie, le système de santé au bord de la rupture - franceinfo.fr",
+      "id": "7555916d5c37",
+      "title": "Pénuries de médicaments, fermetures de cliniques, personnel non payé... En Cisjordanie, le système de santé au bord de la rupture - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbHZwYml5Wm91Ulo1MjB6VkxCQVNURDFMd0FRN0pUcUVzOEZTMnd0WFBteHFURTlSbWRjTVBZUXJwbGZtMlVSaXE2bGxPY0FnVzRPM0h5b0Q4LXRvTzBTdk9BMzlJRC0yOUp4Z2laRldoTUhDbEYzUzU4S3JyRlIzUzV5TFgxTXh3M2lpcnpSaW1BeF91V1JTWFhWYU9GOEdBQUk2UzZLc0dzR0JXWHJhYTZvYXhrYW43ODRwME94bFlhVk5MZnBXNVhYa3BHc3hIaFloRXdHemViOFczS004WEdzSlZMSDlHOGs3a042ZTBFaWUyc0J3cHc3MDkzTVotQVFtM2pIdVlOQQ?oc=5",
       "published": "2026-08-06T10:00:02+00:00",
       "source": {
-        "name": "franceinfo.fr",
+        "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
+      }
+    },
+    {
+      "id": "2fd61ac48ddd",
+      "title": "Médicaments et canicule : faut-il jeter vos boîtes après un coup de chaud ? - E-Sante.fr",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUGo0aEN3Vi1mWXhmanhBZmFXN0ZhS3BjclRzbFVzenh5dHlvb2xwa3c2MS1CdWpJbVdsY2drcjFoTU1iNm5Nazg2aUJCZXZ1NmtqM3dCdnJpSTBnY1FrT0c4YTV1UDZQWmVFMkFabmNVV3ptNEY2c0NVMWUzTHB5QnRnVkplak9TWTR6cHN2TEpCRFJDSUpwZi1vU1VVUW52NDNud0dVYTdGTXJGby03Rw?oc=5",
+      "published": "2026-08-09T16:50:15+00:00",
+      "source": {
+        "name": "E-Sante.fr",
+        "url": "https://www.e-sante.fr"
       }
     },
     {
@@ -134,16 +144,6 @@
       }
     },
     {
-      "id": "35a092faa796",
-      "title": "« Les compléments alimentaires ne remplacent pas un médicament » - Natura Sciences",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcnlpWE5ISTlVVHNGZl9zVFV2TUVkUk5rc2dBOUhQRTFPcXlEa1hoZzM3X21kRnFnRHBVWEd0Wk1EMGVNSWpZVENFdERuay01bG94NXd6UEFtNzlwTjNWSkJmamctYkNYWjI4eHZOWGkzVXZzUTZHREZVc2Z3UVNJQzFSRVRUZ25KelE?oc=5",
-      "published": "2026-08-07T11:50:13+00:00",
-      "source": {
-        "name": "Natura Sciences",
-        "url": "https://www.natura-sciences.com"
-      }
-    },
-    {
       "id": "d82bcd0ff0fb",
       "title": "Trousse de secours d’été : tous les indispensables qu’un médecin emporte en vacances avec lui - Marie Claire",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONTVJdDdMTkpsU0YwVEZZakVpeWxRbl9STTlJVzNQOFNVMEdKaHdEczdIcW4zTFNXVTVKeFdweEsxR0s1UE1XakhuemhBWXo4UkpTcVpCdHl1T3RHVWJSem1pZUFydzZob3RjWFpaa0N0TDV4OFpGYVpQTmFMYTIxbg?oc=5",
@@ -151,6 +151,16 @@
       "source": {
         "name": "Marie Claire",
         "url": "https://www.marieclaire.fr"
+      }
+    },
+    {
+      "id": "35a092faa796",
+      "title": "« Les compléments alimentaires ne remplacent pas un médicament » - Natura Sciences",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcnlpWE5ISTlVVHNGZl9zVFV2TUVkUk5rc2dBOUhQRTFPcXlEa1hoZzM3X21kRnFnRHBVWEd0Wk1EMGVNSWpZVENFdERuay01bG94NXd6UEFtNzlwTjNWSkJmamctYkNYWjI4eHZOWGkzVXZzUTZHREZVc2Z3UVNJQzFSRVRUZ25KelE?oc=5",
+      "published": "2026-08-07T11:50:13+00:00",
+      "source": {
+        "name": "Natura Sciences",
+        "url": "https://www.natura-sciences.com"
       }
     },
     {
@@ -204,16 +214,6 @@
       }
     },
     {
-      "id": "df2351ddf34e",
-      "title": "On pensait qu’Ozempic faisait maigrir… son effet le plus surprenant est ailleurs - Le Tribunal du Net",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYkg3N3RKUktWeHdFd292eF9hbVFSVWhoZE8tanY3X3Y5a3ZBOTZadXFIQ0E1Wmx2RG5YNVR5cGlvYU5WX0UxT3JFX1h3S0NvSjZjMkd0QlgtNFVTSnhYU1lzZGVSNDRGUEdsbGtpSENHVHB6a2pISElkOWJzMGxQQklRTlpLWF9uV3lOMHFFUXMzbm1KdnpTaGszUEJvSWxvZ3VwRmtpazJSam50bG1pb2NwcXd6QU5UY2pkag?oc=5",
-      "published": "2026-08-09T11:19:00+00:00",
-      "source": {
-        "name": "Le Tribunal du Net",
-        "url": "https://www.letribunaldunet.fr"
-      }
-    },
-    {
       "id": "a6592a7975c6",
       "title": "Un nouveau médicament pour le TDAH approuvé aux Etats-Unis, les spécialistes français alertent sur le peu de molécules disponibles en France - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQcVU1UmkzbWtzYkZ2RVFMUEpjdmRWd3V1RDJfRmJGZV9ObkxBRzd4a2pSSlRTMXdLcU1MSUlrVE15Y2diOVNyVmdmbkcyc3UxZVhsVmh5YzB1a0JRZ2Y0Uk52VFVjX3lxZGZVdlBoUURmQUg2eGw0Z2dTUzR3Q0dLMExCT1M1aFFpeXZCbFB2VDVYc3dSa1F2YnlaZlY4SEw1a1FEdzFJcXpWdFJKcmRNdnhsUmh1TEhxZnA0LWo2ZzMwV3ZJWks1M3k5MUR6WnE3bS1ZWDJHQzdRN2RkWThDSkIwQWlPbkd4M1hEWE9Id1c3NHY3cnlEZ1pIS3RxLVNDMUJuZTRWSFNPRUs4blVoUzNrQ29lS0tIeVpiRTFQNXl3LTJlR1g1bzRHaTBHdThWRTM5WHZn?oc=5",
@@ -224,12 +224,12 @@
       }
     },
     {
-      "id": "6193aaaf7f00",
-      "title": "Le gouvernement va doubler le plafond annuel des franchises médicales sur les consultations et les médicaments, de 100 à 200 euros - franceinfo.fr",
+      "id": "5736a43796be",
+      "title": "Le gouvernement va doubler le plafond annuel des franchises médicales sur les consultations et les médicaments, de 100 à 200 euros - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTldYVWpoeHhTUHFQN1ZlUUF1bE1rejhRTFg3ZW1RUjcxTlFzMHlIZUVtQ0s1OEw2TVg3S2tjcTFhS29VTnNKaTVVSGtoQWdGTG1NQnd0djNMMnI2Q3VkMUtjbUQ0dlRJUjJvTDVmZHNjN2NYSjBkc083WU05TERpaS05SkkwUVRVckloQ0xuMWxiU0NnT19OWFU2NTFmMzNDTnFNczVjU2dYSDFROWlWRTNTSTBfdGZKbE9ydkk4T1lpcGJCU080UGpyWGI0cHpBUFlhVjZYQUJqem5VWmxWODRRYWY5S0xiZFl2aTh6LWx1cDR4VW1HUTZhRWRIRW96Y2Jn?oc=5",
       "published": "2026-07-23T07:00:00+00:00",
       "source": {
-        "name": "franceinfo.fr",
+        "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
       }
     },
@@ -251,6 +251,16 @@
       "source": {
         "name": "BFM",
         "url": "https://www.bfmtv.com"
+      }
+    },
+    {
+      "id": "df2351ddf34e",
+      "title": "On pensait qu’Ozempic faisait maigrir… son effet le plus surprenant est ailleurs - Le Tribunal du Net",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYkg3N3RKUktWeHdFd292eF9hbVFSVWhoZE8tanY3X3Y5a3ZBOTZadXFIQ0E1Wmx2RG5YNVR5cGlvYU5WX0UxT3JFX1h3S0NvSjZjMkd0QlgtNFVTSnhYU1lzZGVSNDRGUEdsbGtpSENHVHB6a2pISElkOWJzMGxQQklRTlpLWF9uV3lOMHFFUXMzbm1KdnpTaGszUEJvSWxvZ3VwRmtpazJSam50bG1pb2NwcXd6QU5UY2pkag?oc=5",
+      "published": "2026-08-09T11:19:00+00:00",
+      "source": {
+        "name": "Le Tribunal du Net",
+        "url": "https://www.letribunaldunet.fr"
       }
     },
     {
@@ -324,6 +334,16 @@
       }
     },
     {
+      "id": "0a5f6f5c9ac9",
+      "title": "Médicaments : le gouvernement veut relever le plafond des franchises médicales - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWS1GRHUzTXhKMENpZGwxdlBpM2hlR2ItRWFkWXVMYU5uVHFPSFdoLWlkcHlQX3dLZUFWaVR0aDAtNlVqYjdRTUxIbmREVDYwelBORm51bnA4TE1Za2tfTEtGd3hhdVZFYU1LNjNubHloaDl6Z0hsdnZVM282XzBhOUk4RFZXTlB1N1NubndqZ1A3STJPWllPQ3dQdXVidTBla1ItVDJPV3Z1bTVhNlVGdzRXcGxMTUM5LXBjSUJR?oc=5",
+      "published": "2026-07-23T07:00:00+00:00",
+      "source": {
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
+      }
+    },
+    {
       "id": "19bc54325ac7",
       "title": "Cholestérol : trois nouveaux traitements attendus d’ici la fin de l’année 2026 - Outre-mer La 1ère",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlg3VnZNSVVFd3BiUjZwVk4yMi03cGRaYmtzYW9GWndCNmsyTnBraFBmSWttbmlWQkhNV3AxMG45SlhlUDl0ZFltUXFPbjBpeXJ5NExGNXRCMzlITE0yeVJTX0RvdTVaUEJGYnoybmF4WlJrZ1ZfbVBUZG5mN3dlRDBUZExwRjd0YUxod3N1NHN2VGlkTjl0MTNDUkVOWVRhS2c3emlGeXdDYmtEdlVVRk9EU0VELWluV0VTZVRCSXQyWFkzbmdheQ?oc=5",
@@ -331,16 +351,6 @@
       "source": {
         "name": "Outre-mer La 1ère",
         "url": "https://la1ere.franceinfo.fr"
-      }
-    },
-    {
-      "id": "2e504b8ca278",
-      "title": "Médicaments : le gouvernement veut relever le plafond des franchises médicales - franceinfo.fr",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWS1GRHUzTXhKMENpZGwxdlBpM2hlR2ItRWFkWXVMYU5uVHFPSFdoLWlkcHlQX3dLZUFWaVR0aDAtNlVqYjdRTUxIbmREVDYwelBORm51bnA4TE1Za2tfTEtGd3hhdVZFYU1LNjNubHloaDl6Z0hsdnZVM282XzBhOUk4RFZXTlB1N1NubndqZ1A3STJPWllPQ3dQdXVidTBla1ItVDJPV3Z1bTVhNlVGdzRXcGxMTUM5LXBjSUJR?oc=5",
-      "published": "2026-07-23T07:00:00+00:00",
-      "source": {
-        "name": "franceinfo.fr",
-        "url": "https://www.franceinfo.fr"
       }
     },
     {
@@ -354,16 +364,6 @@
       }
     },
     {
-      "id": "05c6e76593f3",
-      "title": "Nouveau comprimé hebdomadaire contre le VIH promet meilleure observance et moins de stigmatisation - Atlantico",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbENkRWxDZ1BkbElMcU8tZXNjYXp2LWVTeUY5VkswWXlTMDZTMmxwVEFaLS1Oc3BvVURxQVQ3bjE0Q01YZUpydlJ5QTRzb1RpeHExVWpyRkJ1LXFxLXlJdXZta3ljMFNPRmpqSnpIWGVTQnN6dWpGOXdrUGtBemprN3hYcEJmbFE3b0VlU0E1VGZhbUJGYzlSZXZRaFBuYmpEaVVncmllMjNMYzlsZEZSaDdUY3A4TmFReU53SXpESzlWaUhvNjhRLUZ6d0RXY3lzOVYzT2M5dG4?oc=5",
-      "published": "2026-08-06T11:01:25+00:00",
-      "source": {
-        "name": "Atlantico",
-        "url": "https://atlantico.fr"
-      }
-    },
-    {
       "id": "b5027e8a446e",
       "title": "Rhumatismes : cette technique qui stimule le nerf vague ouvre une nouvelle piste de traitement - Top Santé",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc0R4Z2hPa0FqNndTZGZwQ2RsbTNfd0ExdVBrZG9XbDNlVFBLUjRVbHZpb21uN3h2VjVrY0dSejR1bFJDWW9DNlpScGhhNEg4QVBnSFFxNWFZcE50Snlzem00RDFkSUN1NWtHRXhsS2ZMbERDRHFXb3RWNGpvWm1EUkZCQmFCa0draUJBbFkzZlcxeUFZMTlsWnBvYV81SXVUbWwtSi1yMTdtSWgtSV9LTWFhbjB0d3dqcENEdGtQSWJPX1hTTmJyMEhVV0dPLUx3RHA2TjlIM09EdlQ3MkhZ?oc=5",
@@ -374,6 +374,16 @@
       }
     },
     {
+      "id": "05c6e76593f3",
+      "title": "Nouveau comprimé hebdomadaire contre le VIH promet meilleure observance et moins de stigmatisation - Atlantico",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbENkRWxDZ1BkbElMcU8tZXNjYXp2LWVTeUY5VkswWXlTMDZTMmxwVEFaLS1Oc3BvVURxQVQ3bjE0Q01YZUpydlJ5QTRzb1RpeHExVWpyRkJ1LXFxLXlJdXZta3ljMFNPRmpqSnpIWGVTQnN6dWpGOXdrUGtBemprN3hYcEJmbFE3b0VlU0E1VGZhbUJGYzlSZXZRaFBuYmpEaVVncmllMjNMYzlsZEZSaDdUY3A4TmFReU53SXpESzlWaUhvNjhRLUZ6d0RXY3lzOVYzT2M5dG4?oc=5",
+      "published": "2026-08-06T11:01:25+00:00",
+      "source": {
+        "name": "Atlantico",
+        "url": "https://atlantico.fr"
+      }
+    },
+    {
       "id": "d022aefd6b5a",
       "title": "\"Ils vont nous ressortir les décrets sur les franchises médicales comme l'an dernier!\": pour dénoncer les abus, Lecornu n'a pas choisi par hasard les \"50 boîtes de médicament\" et \"25 passages chez le docteur\" - BFM",
       "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxNYXhYRkxPekhiak92MmdQaUt5RGNxSTQ0a205RV9kUXRtbGtzaTJ6ei1zVUV3Ulp5OFUtV3B2WmtUWEhwd2I5X01sM1U1aVR4OF9wQU1jYi1lZGRDNkhMVURFeWRJZWg5VXdQd2E2bWtxdFNUNGl5U0lpM1FLbkQ2QXZhSDhlYlp3ZDRIcFhVOXp6b0xvOF91UTVLdXIydWdaV0dSZ0dtZVdUNU8wRjFYTS1lSkxZdHBMSC1OQjRqOEpSN0FWZFh0ckdXc1gtOEVaUGYzSWRORlZwRHh6clJQa05fRXNIY21rRFFUSUp3UlpER3pXejVHZXRlLUlPaWxWanM0dnVHMFdONks5dThZRHUxb3Z4eUxibGpiZ2F1ZzhqLXdhSm54T3hmRXVCcVJPalowZ2lBYmxsYjYxaXp0SWo4STFqNFFXM3BwOG8wOENORFpMQU9Sa0M4Nkdxa0MzSmpUZmZNRENsZWVjWmd4TTgwRVJVLXM0YnlwNnRSSlU?oc=5",
@@ -381,6 +391,16 @@
       "source": {
         "name": "BFM",
         "url": "https://www.bfmtv.com"
+      }
+    },
+    {
+      "id": "3f2090f426f7",
+      "title": "Paludisme : en Éthiopie, la résistance aux traitements se complique - 24matins",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVdrb195RHFlTmRYUkEzOGxkQ0VFWWFKVTJ6NGJxb3RQN3lNb0FkRWNBOXpOUlhBRmlIeFFDMEhQQ19tVU9SRWpDaWhSY0VIb2N0NlZiaEwyVjNwRU9HeWtkeGk2aFQ4N3ZSSzNqZDlLRW0zUktPYmlJWEFsbjlhT3hsbXdIZ2drSk95d3EyRXFXRGpYX2ZXbmczakQ?oc=5",
+      "published": "2026-08-09T09:00:48+00:00",
+      "source": {
+        "name": "24matins",
+        "url": "https://www.24matins.fr"
       }
     },
     {
@@ -494,13 +514,13 @@
       }
     },
     {
-      "id": "4c8622c7e6ae",
-      "title": "Pas encore autorisé, ce traitement antiobésité «révolutionnaire» inonde le marché noir: «Il y a des réseaux à Bruxelles» - Le Vif",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMXg5ejRzLW8yaXlUZ0xfT0VEY1RsT3p6aks0Yl9CUEFCTEg1a1BiQWhONDlRWkZVU1FMVE1tZXo2N2NnOEViTVJmNGlDWjFNX0FHRWtXcGNFYU5Td1N3NW9lTWx1YXBKbmM2VEQ2b3hSV0Q3YV9pS3hxblZYSm9tTkplOTh2c2hXMnNCVjVXOWJtR3cwalNlRFVYYWVpczBOaFJmVWh0QTNaMFZqMGlqcDFqbmRmT3FHQUp0U1huSl9VOWhJT2lfcVphMndGVXZad1gwN1UtaDh3YVE3?oc=5",
-      "published": "2026-08-09T05:45:31+00:00",
+      "id": "5e4271b7ee05",
+      "title": "Amazon Pharmacy propose aux patients de Medicare des médicaments pour la perte de poids à 50 dollars par mois. - fr.qz.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZDYtT2s5cE5vTlRzMVJ2ZUp4OU0xbmN3UW9tLXh1bXBhbTFIYVBHUjJKX3ppSlRTUVBiU2tHb3FOZWlfTktuYWlOZFRpWkN0QmNlZE83Vm5UMUdnSlBjLUMyUEdwMWJzUVU1WDdQLTBiY2lRd04tVXBKT3ozR1BhNjY3MVBVdUk?oc=5",
+      "published": "2026-08-07T12:05:16+00:00",
       "source": {
-        "name": "Le Vif",
-        "url": "https://www.levif.be"
+        "name": "fr.qz.com",
+        "url": "https://fr.qz.com"
       }
     },
     {
@@ -511,6 +531,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "0ee6f3bb4ab8",
+      "title": "Pas encore autorisé, ce traitement antiobésité «révolutionnaire» inonde le marché noir: «Il y a des réseaux à Bruxelles» - levif.be",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMXg5ejRzLW8yaXlUZ0xfT0VEY1RsT3p6aks0Yl9CUEFCTEg1a1BiQWhONDlRWkZVU1FMVE1tZXo2N2NnOEViTVJmNGlDWjFNX0FHRWtXcGNFYU5Td1N3NW9lTWx1YXBKbmM2VEQ2b3hSV0Q3YV9pS3hxblZYSm9tTkplOTh2c2hXMnNCVjVXOWJtR3cwalNlRFVYYWVpczBOaFJmVWh0QTNaMFZqMGlqcDFqbmRmT3FHQUp0U1huSl9VOWhJT2lfcVphMndGVXZad1gwN1UtaDh3YVE3?oc=5",
+      "published": "2026-08-09T05:45:31+00:00",
+      "source": {
+        "name": "levif.be",
+        "url": "https://www.levif.be"
       }
     },
     {
@@ -614,16 +644,6 @@
       }
     },
     {
-      "id": "8e809f00c0dc",
-      "title": "Le marché pharmaceutique a atteint 7 milliards de dollars, et l'industrie pharmaceutique vise à renforcer son autonomie. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR2hSNEFNV1JUQWZkMXc2WGtaVG0zUE9XVEVXUjNndmNnZElQQ1dMbGswSW1QZ2ZRY0I5TmRhUnVLYW1vVzJTR1pldVFyMkhxclBsSmYtUkg1M1lOb0psaExRQkNlR0Y3UG5KTzM4SjAxcXVQTXVmM1IxcktIeXhSN0dQdmlRVEZQWkZWdWE0NE1pMGE2OERDYmkwRFRvZ0g1TXh1eE9Kb1g?oc=5",
-      "published": "2026-08-07T16:20:48+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "5c5cbbcfba1f",
       "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
@@ -634,13 +654,13 @@
       }
     },
     {
-      "id": "e64218809c5f",
-      "title": "Paludisme : en Éthiopie, la résistance aux traitements se complique - 24matins.fr",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVdrb195RHFlTmRYUkEzOGxkQ0VFWWFKVTJ6NGJxb3RQN3lNb0FkRWNBOXpOUlhBRmlIeFFDMEhQQ19tVU9SRWpDaWhSY0VIb2N0NlZiaEwyVjNwRU9HeWtkeGk2aFQ4N3ZSSzNqZDlLRW0zUktPYmlJWEFsbjlhT3hsbXdIZ2drSk95d3EyRXFXRGpYX2ZXbmczakQ?oc=5",
-      "published": "2026-08-09T09:00:48+00:00",
+      "id": "8e809f00c0dc",
+      "title": "Le marché pharmaceutique a atteint 7 milliards de dollars, et l'industrie pharmaceutique vise à renforcer son autonomie. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR2hSNEFNV1JUQWZkMXc2WGtaVG0zUE9XVEVXUjNndmNnZElQQ1dMbGswSW1QZ2ZRY0I5TmRhUnVLYW1vVzJTR1pldVFyMkhxclBsSmYtUkg1M1lOb0psaExRQkNlR0Y3UG5KTzM4SjAxcXVQTXVmM1IxcktIeXhSN0dQdmlRVEZQWkZWdWE0NE1pMGE2OERDYmkwRFRvZ0g1TXh1eE9Kb1g?oc=5",
+      "published": "2026-08-07T16:20:48+00:00",
       "source": {
-        "name": "24matins.fr",
-        "url": "https://www.24matins.fr"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -764,16 +784,6 @@
       }
     },
     {
-      "id": "5ffbd3053518",
-      "title": "[Vidéo] Ajout prévu des traitements contre le cancer et les maladies rares à la liste des couvertures d'assurance maladie. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRmNvOXpnVlF0aXhDbXAyRmFlMlB1UUF4VmhhOF9rSFJjUEtvNUdEdW5jMHRRNVZnR2dSQzdGYi1lcldsM3NZUEdJeTVtMGxxekJLcUpLX2ZMUllTajA4TWpyTzNxY2xHcmdENTJHTkZTN2lWR2trcHhOemQ1elYyMkFkdDdxLUdyVW9BRWltNmxhQlZES3pVUGNrb0RjMVU?oc=5",
-      "published": "2026-08-08T17:29:44+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "e3c35dc5baed",
       "title": "Santé - Sport et médicaments : avec prudence ! - Extrait vidéo Télématin - France TV",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM3Y1d3dNVFEyTmpfMUxwczdNZVJmTHdZdE9zaEtKbXFWUDRRbHFpR3pPN3ljc2JFUS10THU4QkNyVy0zaUR0eTMweUI5RlpZM29TVkxjMTNoV1ZZay1uVC1MckQ2WU9Eb2dQSExsWDF5ZDlKQjZjQy1TUk9wYTlYemxfQTRfWkd5SFBYazNKd0NuNjZXdU5nX0x3?oc=5",
@@ -864,12 +874,12 @@
       }
     },
     {
-      "id": "365090056afc",
-      "title": "Psoriasis réfractaire : une mutation rare guide enfin un traitement - 24matins.fr",
+      "id": "e8b7e9e064d5",
+      "title": "Psoriasis réfractaire : une mutation rare guide enfin un traitement - 24matins",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZHlYcUx0R2ZKeTFOeFRwVkpnUl9GRkliM1hqQjExa21raUlDeFdCWnMzV25fcV8tSTJzVEc4MWd2ZGFxUFpSZjlJbFNZU2Q1VHpnZk1RZDNtUHlWbTVSZUR6cF9UeDZ2amExNFo1bnlNSmZGejM3U3JYekh4RmJ0ODFWTmlEc1lITDlpbnpNSHAxcEZxajVKRnBreDlZZw?oc=5",
       "published": "2026-08-08T09:00:45+00:00",
       "source": {
-        "name": "24matins.fr",
+        "name": "24matins",
         "url": "https://www.24matins.fr"
       }
     },
@@ -954,6 +964,16 @@
       }
     },
     {
+      "id": "5ffbd3053518",
+      "title": "[Vidéo] Ajout prévu des traitements contre le cancer et les maladies rares à la liste des couvertures d'assurance maladie. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRmNvOXpnVlF0aXhDbXAyRmFlMlB1UUF4VmhhOF9rSFJjUEtvNUdEdW5jMHRRNVZnR2dSQzdGYi1lcldsM3NZUEdJeTVtMGxxekJLcUpLX2ZMUllTajA4TWpyTzNxY2xHcmdENTJHTkZTN2lWR2trcHhOemQ1elYyMkFkdDdxLUdyVW9BRWltNmxhQlZES3pVUGNrb0RjMVU?oc=5",
+      "published": "2026-08-08T17:29:44+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "4aafbc27d43c",
       "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? en replay - Et la santé, ça va - France TV",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVGFIQWN4R3FrTWxmaWlPQVRLZjg2eGlaWWhRMk5Zc1pZLV9hbjBBZEZ5VHVRLXZzYnl0UmhIOExydXdRWkxaTWRJWC03LWtQbE1HcFdzakd0Z0tZS1lpWGdyM1hqU093UFl5SlJkV2RjV0ZKWmVRXzVCTU5taEVlbTVCNlpHRnpxakdzTnQwTVkwTkVCbDd4UmtUbEEzSFg0V3YzcW9WYllMaHVzZGR1WUR1aElYNV80eVVJWXdSTWUyZw?oc=5",
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Sud Ouest",
         "url": "https://www.sudouest.fr"
-      }
-    },
-    {
-      "id": "a8eec4d704a1",
-      "title": "Médicaments : la HAS dénonce les pressions des industriels et défend son indépendance - La Croix",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ1E4T0RPNDV6cmktb1pnbVowOUFUd0prd3ZyTXE5UGtmdDcyd2ozc25YaVpRendGZ29MMnpvajQ2dkxpMzZnVEh6bnp3R1dKRGpfSm9JdGFOZmh2MXFWZldXVFNQS2U4SVY5Y2cwSUVzMERWM2FpTkwzZ1FFUFhwLWEzZTJ1VXdBRVlRajhZeGdBajNzZ1BSa2ZvN0ZJWGkwMWJKam9VMDVMQlBKSHVlOWRfYlhrY0dVRWJiTEhnUHI?oc=5",
-      "published": "2026-04-22T07:00:00+00:00",
-      "source": {
-        "name": "La Croix",
-        "url": "https://www.la-croix.com"
-      }
-    },
-    {
-      "id": "18b7faa700e6",
-      "title": "« Health Data Hub » : le traitement automatisé des données de santé autorisé par la CNIL est conforme au RGPD - Conseil d'État",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWW9MaGtwVGVYX1hJVHgwaElmQ0VFUHNPVmZ3RlFyZllKTW1hVVhVenJ6SHE2NFF2MHY3VlUxdmxUOWtxOWJmNVFneDhNaHJTRU9jNE45UjZWSWNqems2YUNJUE5hTGtYM2RnbU5iWXlRdDhKR2pjbG1jaEhNVUYtcENITWR5UHlkVWdTdUozNDZDQnl1ZVo4bjg2OUhRX2tkYlZ2RDhCSzVsUmVrbFl4U0lhTklsOU9vMTJHMzNGWlhYdlB6bnZLVTNyOTdBazRYZHZGd0NxTENmQQ?oc=5",
-      "published": "2026-03-20T07:00:00+00:00",
-      "source": {
-        "name": "Conseil d'État",
-        "url": "https://www.conseil-etat.fr"
       }
     }
   ]
