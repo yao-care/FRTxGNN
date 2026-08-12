@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12T22:50:00.998786+00:00",
+  "fetched_at": "2026-08-12T23:50:01.214772+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,6 +44,16 @@
       }
     },
     {
+      "id": "23d1bf32ad3e",
+      "title": "Ce médicament pris contre l'insomnie pourrait ouvrir une nouvelle piste contre Alzheimer - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWlZQcm45dUhrcFhYb3lrSlNOLWNDbFd4X0paV3ZZenNOR0JZRWwxaEdLeTU5RDM4SnVENEw5MHQzMW96c19PblVsMGtWbnhudEtucXA5Vzk3bFp6a2pQMVRtQkVaZXdMNldBQ2tMS20zNFYzVGg1ekNPSDVwdDl3dlBrdmkzVGoxRzlVcWl4R09EVzkzc2V0UFM2WFBSTkphY3RmcDE1NUNNRUZxVlZWSnE3TEpPODlQd0FTX000OHFqbnVjcjByRVB1cldkOXdNN1dwak8tZElYeUVPYjI1OHJR?oc=5",
+      "published": "2026-08-10T06:00:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
+      }
+    },
+    {
       "id": "948a2ea7cd6e",
       "title": "Ces médicaments contre le diabète sont liés à un léger risque pour la rétine et le nerf optique - Top Santé",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWTFudGRYaEJxLWt5ajgwVUNZWVZIaFlPbFVpTUUwYVJZR1paQzBranVYRmdFWEltQ1BTckVmdnRYdUk5Yks3OENqOWlmb0thb25ISFljVkRVVVljQnIzUEZMZmFWakotcXhfVW5lUFdRMzEwX1MySllyNzN0cWYyZXhBdmVWSHpfRnNvOXBFbF8zckUzQ1VOVmhUeFZqRVVEUUM0cmlIXzhiZHRUNTZKYWJfRDdZYTRyNm1XYVJybUFuc2V4cUtGcGFfWFg5WXA4bkl1RUR3ZFpqNzRhanhfLW1R?oc=5",
@@ -71,6 +81,26 @@
       "source": {
         "name": "l'Opinion",
         "url": "https://www.lopinion.fr"
+      }
+    },
+    {
+      "id": "9bcc0b8b6e72",
+      "title": "Vous perdez vos cheveux ? Ce traitement très populaire pourrait jouer un rôle - elle.fr",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLTF0Vnl2Wk1XMUNkdHh4VWY2cmRCV2FoeDRaSGZfRVE0LUZHbXNueUxoMThxcldPcUtaem9HMDRiSDhWNUN4LVFlMkpwYmhtMG5EZ1ZaUDFVd0JEZ1NhUTE4Z0ZSZjlQU0FKWk54UkdJeElVYWZMX3pqelBXR1AtUWFJamI2OEljYlBkRzhvT2p3TVdGVFF6TnN3cHlMeGdMVk9tWE9nb3J6b3dacldyb3dMbl9rYzZ1SmJFaXhxSmxGdkRyQ200?oc=5",
+      "published": "2026-08-12T20:33:00+00:00",
+      "source": {
+        "name": "elle.fr",
+        "url": "https://www.elle.fr"
+      }
+    },
+    {
+      "id": "b98e99aca7c2",
+      "title": "Apnée du sommeil : 80 % des personnes concernées l'ignoreraient, et ce médicament poserait problème - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWGVobjd4eFdrNHk0WDNkZDBoV0hCaVVuUDVfb0puQkZmMzg2QWV5NGdub0puMUtBZnIyVURSenhKUjVrSElhQ3l4YTVxUU1YSDlxc3N0Mzl3WVNHa2N0cU5GZW1KVFA2WjktSDZyV3Rvck1ENEhScjNEWWtjQ2FpU2tDOTFjc2xNczNYbzJ4dF9HSHJoRVVDZlNJTHBsMUxiay1XRW9GbnBSZHVVV1FkcnJ0dkVRRWplQWtJa0RFOXg3Nk8zTVUzUW9Ga2g4ZDZJbVpCT0FYLXh4ZE9aTjZWTFNUWk1ITTQ?oc=5",
+      "published": "2026-08-12T16:00:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -124,53 +154,23 @@
       }
     },
     {
-      "id": "3a523da2e1c8",
-      "title": "Migraine : 3 alternatives naturelles validées par la science pour réduire vos crises - e-sante.fr",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQakYzQWRMb3JncjByMGRmVTlxNjJIRTJoSDhSTUI1X1p5Z0p0RWZDYU9ZclBndmQ5RG9feDlRWkw2U3ZNM2NhOTBmcHg1TjN0Q29YTmVldTRjanpwNXJNXzRQNi13U0MtRVJsNHNZWGtsM25ENU43Q3RQRVlYMjJUZ3NRSFFmMm5KX21WcFpNZ0c5dlk4RkoyOGMySDRfRjRsd21YSUV5X2tSd21LbUZLWlFYMXk1RkwyMlVIOXY2OA?oc=5",
-      "published": "2026-08-12T15:12:47+00:00",
-      "source": {
-        "name": "e-sante.fr",
-        "url": "https://www.e-sante.fr"
-      }
-    },
-    {
-      "id": "0c86f7788c5f",
-      "title": "Le gouvernement précise sa feuille de route d’économies pour la santé, ciblant les médicaments, les soins dentaires et les transports sanitaires - Le Monde.fr",
+      "id": "389c2033274f",
+      "title": "Le gouvernement précise sa feuille de route d’économies pour la santé, ciblant les médicaments, les soins dentaires et les transports sanitaires - lemonde.fr",
       "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNVVJ0dktnYllkenBrOWZVZ21yU0o3b1lYT2h6dmtfeGRNQ29fVEJTbEFEYzVFMjI1V3dOYVVaMWc3eUtFWHlOZjN3TVNJZE15LWZFRDJFcGs5NFZaSU9CTzdCdVJhY0F4TWNIUVZfWnZNeFU1WTF6MF9ZcUNBMmRBN3prRDhkSkJnRjgxelYwNjFoV0k0OFNuYzNnSWpWUWg5QjB1cy15djRDSlZYNzNwZ0k3dUlmMkdFUDRrNVRsZVNVdjZlQjRCaHhxYmRNdjNBcVlQbWd6NDR0Mms2S3hiVWpaQzRvNDhwVl9sOWRjRkdPUG9GOG1ubFRDSEc5VU55N0pnLWlhZlZ2RHRjdEJMU2JFM0hmMWNlaE1PeGpRYlNvLTVNN1FYdEJzSFBkX1Y2cE1wMg?oc=5",
       "published": "2026-07-24T07:00:00+00:00",
       "source": {
-        "name": "Le Monde.fr",
+        "name": "lemonde.fr",
         "url": "https://www.lemonde.fr"
       }
     },
     {
-      "id": "e03dba058ff5",
-      "title": "Santé. Le Viagra est-il capable de limiter le développement des cancers ? - Le Progrès",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0F4cTQyLURldU9JUnVhTkx4SkFHTG5ESER4eVQxaG5NQ1Z1T1ExZWZOc0VZcm9tdW44QXNvdjBfVkxxRnZiUjl2c0JqQS1SZWZheUNyQ1ZVdURSb0RFcTFFVDlNemdRVjM3aGlaX210cTZBV0N4T0d2QV9BTFJmWEw1RmQwTjE5N1IzTFNFM194dTB5U2RUY0NVWTZXRWp2YlZtMDAwNXJCMmVsbFI2cmVDM3hVQQ?oc=5",
-      "published": "2026-08-11T15:05:00+00:00",
+      "id": "9754585d7e2a",
+      "title": "Migraine : 3 alternatives naturelles validées par la science pour réduire vos crises - E-Sante.fr",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQakYzQWRMb3JncjByMGRmVTlxNjJIRTJoSDhSTUI1X1p5Z0p0RWZDYU9ZclBndmQ5RG9feDlRWkw2U3ZNM2NhOTBmcHg1TjN0Q29YTmVldTRjanpwNXJNXzRQNi13U0MtRVJsNHNZWGtsM25ENU43Q3RQRVlYMjJUZ3NRSFFmMm5KX21WcFpNZ0c5dlk4RkoyOGMySDRfRjRsd21YSUV5X2tSd21LbUZLWlFYMXk1RkwyMlVIOXY2OA?oc=5",
+      "published": "2026-08-12T15:12:47+00:00",
       "source": {
-        "name": "Le Progrès",
-        "url": "https://www.leprogres.fr"
-      }
-    },
-    {
-      "id": "419fd31c1fa8",
-      "title": "Parkinson, Alzheimer, Charcot : l’ANSM alerte sur des thérapies par cellules souches non autorisées - ladepeche.fr",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPREhjZnFsSHhVNWw4aEk1VTlSQUxiM0N5M0NpZkV2M1l2cWo3S2lGaEhKalBGOEdjWVo2TGxJR09ycnd4UG55eEVlMFhIbUpnVXVGQ2syRU9ub1ktclR5LUcxd0FOcExfYnNCaFM4X2RteVVVZEs5dFM0YTdvSGhjQVBvUjQ5VHJDNm1RYVAxbkpwZlVLaUxWSC1jREx3LUNSa3hzdE96ME5xSGJNTExRNWdGV0NKeDVOWTA1VERmYzVBTXJtV3Q2NkdfZU53NnNGanRIQVZfVmRsOTg?oc=5",
-      "published": "2026-08-11T12:18:00+00:00",
-      "source": {
-        "name": "ladepeche.fr",
-        "url": "https://www.ladepeche.fr"
-      }
-    },
-    {
-      "id": "9ebb0c54188d",
-      "title": "L’UH College of Pharmacy obtient un financement pour trois études majeures sur la santé - ma-clinique.fr",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQkMtOURhbVQ2YXZJOEdjZUhOMEhmMGp5Tkxuc3RJRGhwSk01bGZZQ1h3eFd6LVZreU40Z0dTcHo0ZzA4ampSbzd1R2EyQzJ4WFdnaEF2YUlDM2gzMHVBcnNxVmYwVW4zbzhhcGtGdnhEbjN2Q01sWVdzWjUxWEF5ZExUNHF5STZMQTA1QkNzY2pBYWNCM1hwN3pwZXNZZ2dQeXZCRjZxczFmQjJpTmc?oc=5",
-      "published": "2026-08-11T23:20:51+00:00",
-      "source": {
-        "name": "ma-clinique.fr",
-        "url": "https://ma-clinique.fr"
+        "name": "E-Sante.fr",
+        "url": "https://www.e-sante.fr"
       }
     },
     {
@@ -214,13 +214,23 @@
       }
     },
     {
-      "id": "44a2f418d024",
-      "title": "Médicaments à ne pas conserver à plus de 25° : les conseils d’une pharmacienne blésoise - lanouvellerepublique.fr",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT1phdDdUNTJ3UU4wN1AxS2hOckVNNlUwSE1oZlBTYzVqOWhnUzVYXzIyNElRaW43NTdfdzkyNTBERmthbG1RZ1RqMVZoRzhKTXVBYWpNS2U5bm1LdWZzcVNnVDVna002cXNRNDAyZmdHeVlqOFgyUDR6M0JrV1Rjb01pSzRZVGhrVEdZSkdDbHNDd283Q3lLZGJ4RFBtR3JXdXk4eDMzSVUwbk55d1pPNUg1WjdsX2FiejBiZjZaRC1NaS1IU21fYUx1STRvc2w1TUh4TA?oc=5",
-      "published": "2026-08-10T16:11:36+00:00",
+      "id": "e03dba058ff5",
+      "title": "Santé. Le Viagra est-il capable de limiter le développement des cancers ? - Le Progrès",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0F4cTQyLURldU9JUnVhTkx4SkFHTG5ESER4eVQxaG5NQ1Z1T1ExZWZOc0VZcm9tdW44QXNvdjBfVkxxRnZiUjl2c0JqQS1SZWZheUNyQ1ZVdURSb0RFcTFFVDlNemdRVjM3aGlaX210cTZBV0N4T0d2QV9BTFJmWEw1RmQwTjE5N1IzTFNFM194dTB5U2RUY0NVWTZXRWp2YlZtMDAwNXJCMmVsbFI2cmVDM3hVQQ?oc=5",
+      "published": "2026-08-11T15:05:00+00:00",
       "source": {
-        "name": "lanouvellerepublique.fr",
-        "url": "https://www.lanouvellerepublique.fr"
+        "name": "Le Progrès",
+        "url": "https://www.leprogres.fr"
+      }
+    },
+    {
+      "id": "419fd31c1fa8",
+      "title": "Parkinson, Alzheimer, Charcot : l’ANSM alerte sur des thérapies par cellules souches non autorisées - ladepeche.fr",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPREhjZnFsSHhVNWw4aEk1VTlSQUxiM0N5M0NpZkV2M1l2cWo3S2lGaEhKalBGOEdjWVo2TGxJR09ycnd4UG55eEVlMFhIbUpnVXVGQ2syRU9ub1ktclR5LUcxd0FOcExfYnNCaFM4X2RteVVVZEs5dFM0YTdvSGhjQVBvUjQ5VHJDNm1RYVAxbkpwZlVLaUxWSC1jREx3LUNSa3hzdE96ME5xSGJNTExRNWdGV0NKeDVOWTA1VERmYzVBTXJtV3Q2NkdfZU53NnNGanRIQVZfVmRsOTg?oc=5",
+      "published": "2026-08-11T12:18:00+00:00",
+      "source": {
+        "name": "ladepeche.fr",
+        "url": "https://www.ladepeche.fr"
       }
     },
     {
@@ -231,6 +241,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "9ebb0c54188d",
+      "title": "L’UH College of Pharmacy obtient un financement pour trois études majeures sur la santé - ma-clinique.fr",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQkMtOURhbVQ2YXZJOEdjZUhOMEhmMGp5Tkxuc3RJRGhwSk01bGZZQ1h3eFd6LVZreU40Z0dTcHo0ZzA4ampSbzd1R2EyQzJ4WFdnaEF2YUlDM2gzMHVBcnNxVmYwVW4zbzhhcGtGdnhEbjN2Q01sWVdzWjUxWEF5ZExUNHF5STZMQTA1QkNzY2pBYWNCM1hwN3pwZXNZZ2dQeXZCRjZxczFmQjJpTmc?oc=5",
+      "published": "2026-08-11T23:20:51+00:00",
+      "source": {
+        "name": "ma-clinique.fr",
+        "url": "https://ma-clinique.fr"
       }
     },
     {
@@ -284,16 +304,6 @@
       }
     },
     {
-      "id": "88acad8e50f6",
-      "title": "Avis au public - Des produits naturels injectables non homologués vendus en ligne et saisis au Dyosa Beauty & Wellness Lounge à Hamilton, en Ontario, pourraient présenter de graves risques pour la santé - Les Affaires",
-      "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxPSmZMYnlseDc0WXA5ZU5ZTk9Ia2xpNFpqOGJOcFNXVzlpeTY4UHZTT2o4NzBKZHRlcldVdTdibjV3NWpodjFyUC1zenZyNkZDaHljbGExSHZnMUEwSHp3SVowdm1iMUpaYVF1ZnNHN24tVXpjdlhxeTNGcUFDM2F6d1dhQTNyaHJCbU0teGE3MkVNTDBRX2REVFFIYnluR2Z4OXFBVWp5VVlhclV2WHd1SW9KTWwyX19haHpIblJFVzcyWDJvMjZCVmNvZjZPMDZLT2l2d1hOVzRYMW9pbXFiZXRuUVpoVXd1UktwQ1NPR1hCb08wb0dkdkpUWXp5MzYtUEVDTkRUUFBLVHhLTjRva2tqOG1fcDg4anlobS1DZ0VqX0p2LXhnTGJqdmFVYlA3OVgyODExQldTRUtNak5iSUd2M2Q3OHBXTGhmNGZnVUt4N0tjTEpMQnYtYXJCb3pfbWc?oc=5",
-      "published": "2026-08-12T20:43:32+00:00",
-      "source": {
-        "name": "Les Affaires",
-        "url": "https://www.lesaffaires.com"
-      }
-    },
-    {
       "id": "f3b9a1d62b3c",
       "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
@@ -311,6 +321,16 @@
       "source": {
         "name": "RMC",
         "url": "https://rmc.bfmtv.com"
+      }
+    },
+    {
+      "id": "88acad8e50f6",
+      "title": "Avis au public - Des produits naturels injectables non homologués vendus en ligne et saisis au Dyosa Beauty & Wellness Lounge à Hamilton, en Ontario, pourraient présenter de graves risques pour la santé - Les Affaires",
+      "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxPSmZMYnlseDc0WXA5ZU5ZTk9Ia2xpNFpqOGJOcFNXVzlpeTY4UHZTT2o4NzBKZHRlcldVdTdibjV3NWpodjFyUC1zenZyNkZDaHljbGExSHZnMUEwSHp3SVowdm1iMUpaYVF1ZnNHN24tVXpjdlhxeTNGcUFDM2F6d1dhQTNyaHJCbU0teGE3MkVNTDBRX2REVFFIYnluR2Z4OXFBVWp5VVlhclV2WHd1SW9KTWwyX19haHpIblJFVzcyWDJvMjZCVmNvZjZPMDZLT2l2d1hOVzRYMW9pbXFiZXRuUVpoVXd1UktwQ1NPR1hCb08wb0dkdkpUWXp5MzYtUEVDTkRUUFBLVHhLTjRva2tqOG1fcDg4anlobS1DZ0VqX0p2LXhnTGJqdmFVYlA3OVgyODExQldTRUtNak5iSUd2M2Q3OHBXTGhmNGZnVUt4N0tjTEpMQnYtYXJCb3pfbWc?oc=5",
+      "published": "2026-08-12T20:43:32+00:00",
+      "source": {
+        "name": "Les Affaires",
+        "url": "https://www.lesaffaires.com"
       }
     },
     {
@@ -344,6 +364,16 @@
       }
     },
     {
+      "id": "cdc63f34b472",
+      "title": "Les sites habilités de vente en ligne de médicaments - Ordre National des Pharmaciens",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjJpSjd3T2lLZTEyeXpvTldOT0pDX3hPN0NVY0ZJdEo3Nl9WcmF6NG84WFNQblNHRURnaWRnY0trWDF0RkpkVEY2R2RieGFvZ1gtRExSTktYSzBmQnJybVlRZHpBcFBwM0taNm9vRmlJOTZCbXVfVkNrdl9fQVN0c1hGR0NtQW5zQlFYS3g4cGdBWXFSMkZ2dzA3NkY0el9Yek1COTlhZmNKbmVCT1Vub2RZbw?oc=5",
+      "published": "2026-04-29T07:00:00+00:00",
+      "source": {
+        "name": "Ordre National des Pharmaciens",
+        "url": "https://www.ordre.pharmacien.fr"
+      }
+    },
+    {
       "id": "0a5f6f5c9ac9",
       "title": "Médicaments : le gouvernement veut relever le plafond des franchises médicales - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWS1GRHUzTXhKMENpZGwxdlBpM2hlR2ItRWFkWXVMYU5uVHFPSFdoLWlkcHlQX3dLZUFWaVR0aDAtNlVqYjdRTUxIbmREVDYwelBORm51bnA4TE1Za2tfTEtGd3hhdVZFYU1LNjNubHloaDl6Z0hsdnZVM282XzBhOUk4RFZXTlB1N1NubndqZ1A3STJPWllPQ3dQdXVidTBla1ItVDJPV3Z1bTVhNlVGdzRXcGxMTUM5LXBjSUJR?oc=5",
@@ -351,16 +381,6 @@
       "source": {
         "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
-      "id": "3c555b3bba6d",
-      "title": "Les sites habilités de vente en ligne de médicaments - ordre.pharmacien.fr",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjJpSjd3T2lLZTEyeXpvTldOT0pDX3hPN0NVY0ZJdEo3Nl9WcmF6NG84WFNQblNHRURnaWRnY0trWDF0RkpkVEY2R2RieGFvZ1gtRExSTktYSzBmQnJybVlRZHpBcFBwM0taNm9vRmlJOTZCbXVfVkNrdl9fQVN0c1hGR0NtQW5zQlFYS3g4cGdBWXFSMkZ2dzA3NkY0el9Yek1COTlhZmNKbmVCT1Vub2RZbw?oc=5",
-      "published": "2026-04-29T07:00:00+00:00",
-      "source": {
-        "name": "ordre.pharmacien.fr",
-        "url": "https://www.ordre.pharmacien.fr"
       }
     },
     {
@@ -401,16 +421,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "ecf1f888c748",
-      "title": "Depuis des mois, le sirop à la codéine est introuvable en Suisse : découvrez la dangereuse tendance des préparations maison ! - passeportsante.net",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2dkQ2lic2xjQjBNbjVKblVRUXFiMmdoNy1oMVBxNTdUaWtQZndBWFhBbTVpVW5Wdzg1d0lpbFhRX2p1WF80Q1VHY0lrLVRrVnBpS3JJYnlyTWdXS1VqWUU2ZGREbFNINlp3di1vaVdTWXJuLTVwZWIxR29lSUpWbzZVbkEtZEJ4NktTNjU1QUMwTjdMZWZkbm1HbXp2LTJi?oc=5",
-      "published": "2026-08-12T14:23:08+00:00",
-      "source": {
-        "name": "passeportsante.net",
-        "url": "https://www.passeportsante.net"
       }
     },
     {
@@ -464,13 +474,13 @@
       }
     },
     {
-      "id": "9008e20587bf",
-      "title": "Le ministre de la Santé répond aux plaintes selon lesquelles les médecins prescrivent trop peu de médicaments remboursés par l'assurance maladie au niveau communal. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRkNNbUJidWgzQy1RcF9hYVJNbTdMN0RONnJSazNibFVTTTdxUW9BQTNYUE43M2JxRVpPMnpZNU9nS0E3eG5wU1pmYlBKaTNpNzRIYXk0TlZtWHVNTm5tLWthWHhIcDdRYi1nLUViQ3VIdjJDSE84OWljODlXdnpsXy1VcUNnYlhKbFZXMUJmSnlLSk4yYzFF?oc=5",
-      "published": "2026-08-10T23:26:05+00:00",
+      "id": "141025ca2cf1",
+      "title": "Depuis des mois, le sirop à la codéine est introuvable en Suisse : découvrez la dangereuse tendance des préparations maison ! - PasseportSanté",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2dkQ2lic2xjQjBNbjVKblVRUXFiMmdoNy1oMVBxNTdUaWtQZndBWFhBbTVpVW5Wdzg1d0lpbFhRX2p1WF80Q1VHY0lrLVRrVnBpS3JJYnlyTWdXS1VqWUU2ZGREbFNINlp3di1vaVdTWXJuLTVwZWIxR29lSUpWbzZVbkEtZEJ4NktTNjU1QUMwTjdMZWZkbm1HbXp2LTJi?oc=5",
+      "published": "2026-08-12T14:23:08+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "PasseportSanté",
+        "url": "https://www.passeportsante.net"
       }
     },
     {
@@ -484,16 +494,6 @@
       }
     },
     {
-      "id": "6c045e9c449e",
-      "title": "Statines : ce que votre ordonnance ne précise pas toujours sur les effets secondaires, selon un médecin - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPN3gzNU9FWTlkT0kyZThFSkhaOWlXU3pRcnE5c1gzcUI1a0FvRzZyQWM0RC1KZTFSYUVESXBzQjFreEpnM3ppdDBTSEJGM0pNaWdTTDhGZXNKMGJib3Fod0NkaEFoOWZOelV6eEhLSjZ0Y0tZdkgzVWh4T3hzLWwyVC1wRkRaeGYtbENYOWQwMGI4dmVkN2hxTG1DSDNNRlBCSkZzS05EU1JmdjVsMkZSU1VNVmxhb05OdHpXX2FkVnN5SUM1dHc3cHgwbW9QUlk2TDY3TW8wRnJ0T0diU2xabW9iZl85bGJu?oc=5",
-      "published": "2026-08-11T13:57:00+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
-      }
-    },
-    {
       "id": "4a22357f1770",
       "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
@@ -501,6 +501,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "6c045e9c449e",
+      "title": "Statines : ce que votre ordonnance ne précise pas toujours sur les effets secondaires, selon un médecin - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPN3gzNU9FWTlkT0kyZThFSkhaOWlXU3pRcnE5c1gzcUI1a0FvRzZyQWM0RC1KZTFSYUVESXBzQjFreEpnM3ppdDBTSEJGM0pNaWdTTDhGZXNKMGJib3Fod0NkaEFoOWZOelV6eEhLSjZ0Y0tZdkgzVWh4T3hzLWwyVC1wRkRaeGYtbENYOWQwMGI4dmVkN2hxTG1DSDNNRlBCSkZzS05EU1JmdjVsMkZSU1VNVmxhb05OdHpXX2FkVnN5SUM1dHc3cHgwbW9QUlk2TDY3TW8wRnJ0T0diU2xabW9iZl85bGJu?oc=5",
+      "published": "2026-08-11T13:57:00+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
       }
     },
     {
@@ -544,16 +554,6 @@
       }
     },
     {
-      "id": "b6a7cd1ed3a4",
-      "title": "La pilule de perte de poids Foundayo d'Eli Lilly approuvée au Royaume-Uni. - fr.qz.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRXFobGlNaFg1bG9xam5NUmdzaDNFbXp2WlVlcTV5SFVXUGx3Y3daaGU1R3RZMUs5Mnd4cmJoaDlod1dQXzJsYVMzMkpLeGE2NXVPRUFLV3NZSzJjSDh5M3hqeXBXLUFhd2k0SzV6M1pRNzAtTExldm9PZVNpNk83VVZDNFc?oc=5",
-      "published": "2026-08-11T13:54:39+00:00",
-      "source": {
-        "name": "fr.qz.com",
-        "url": "https://fr.qz.com"
-      }
-    },
-    {
       "id": "6c102db56b90",
       "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? - Public Sénat",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTNUZ0dQa3NtZHRBbDU2RGFySF93RkN1R1diempXQmpFNUUxaEMzRDRMeGZNNVpBcEpoWjVsNDJKLTVLN2NqaGpFUU1sZTRncm1JM0dxNThfMUkxbDNsSmtPRFRZWDlKZHdhOHpQdzhHcWpWTU5kc3otVVBPVUZ1dmpsclgzZjYwN3pYaUZ3UUd3VzZtVWVxcXAzbmdFa0h2dlhkeldvVXBiNEIxdlJlVFRsZmpwbXc?oc=5",
@@ -564,13 +564,13 @@
       }
     },
     {
-      "id": "fec79a96cd62",
-      "title": "Automne chaud pour le prix des médicaments : les génériques demandent des limites aux baisses tandis que la Santé redéfinit le système - Demócrata",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWTFsVTUzNms4SkhZOElxdk1fbm1nY3lmQ1d1ZHJNWTBNU0dUcm5tZ3Q0cFM3VUxXY3V0OVZ6QmlBZVNQQUJONHdvaHBZZ3hUUlpieHR3ZTZPekR6RlZEcjJHTEhnX3ZhNjAteWtwY2V0V1JFM0Y5b2FBcjlFbk95Z0xPNGVyUUJpOHhSRjlDSDFFNndEaGVWSEZrLXhoZGZPLUVxcmdkZUtQMC1wYTRWMDR2MTJrRllLNXVfU0FpLUFhQWg2eHpiNUcyaGFOcmF3bEtYeHc1eDRZZ9IB3wFBVV95cUxOcmFpOW9qNGsta1l4UHNUNVJTS0J3SzFqNmhCNkhVSFltYlpta2VFOWRyZGpKbVhFWkdQekIteGJDbm84cDJ1OTdpWV9NZnRBTU1fbW05SjY4amVHc296elZhdTQyUzRweDFxeGpjam80RjA0N1hUN0UxaWljTzB0QnV0aGo1TElsTkNGeWxTSEtkbUNuVm5YWXktTTZVWkRqQXJwRm5LOGxLSTlha2NPWF9Qa2JQcWNFMWhhOVJlMDc2eE1LdHRLM3UtWUNVSHREQ2pqb2cwMExsQlAwa2FR?oc=5",
-      "published": "2026-08-12T03:00:00+00:00",
+      "id": "b6a7cd1ed3a4",
+      "title": "La pilule de perte de poids Foundayo d'Eli Lilly approuvée au Royaume-Uni. - fr.qz.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRXFobGlNaFg1bG9xam5NUmdzaDNFbXp2WlVlcTV5SFVXUGx3Y3daaGU1R3RZMUs5Mnd4cmJoaDlod1dQXzJsYVMzMkpLeGE2NXVPRUFLV3NZSzJjSDh5M3hqeXBXLUFhd2k0SzV6M1pRNzAtTExldm9PZVNpNk83VVZDNFc?oc=5",
+      "published": "2026-08-11T13:54:39+00:00",
       "source": {
-        "name": "Demócrata",
-        "url": "https://www.democrata.es"
+        "name": "fr.qz.com",
+        "url": "https://fr.qz.com"
       }
     },
     {
@@ -584,22 +584,32 @@
       }
     },
     {
-      "id": "dc26045895af",
-      "title": "Santé : un Français sur dix jette encore ses médicaments non utilisés à la poubelle, 517 millions d’euros de gaspillage chaque année - Sud Ouest",
+      "id": "20204bfcbe95",
+      "title": "Santé : un Français sur dix jette encore ses médicaments non utilisés à la poubelle, 517 millions d’euros de gaspillage chaque année - sudouest.fr",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbEhubnloTlhJaExzbE1uS1VsVHF6LXFhWGVwdDROYmEycXVoRzB0ZjdteXQwRTlMWkZqb21LOHlabmxBaU1CcHF2YlBuM1hZaXVRM1FsVmZQUjFKbUJZSWRndk1ScEdETDN1VWJYVTlhcThBbXhuZE9STnh1TGZkY2F0aG1OQjdyS3FYZkZ6c3l1bFpkYUZ0WVF2UFJXRV8zZXNOcVhGOTB0Rmp4VG9OZHB4UF9TNlZqNk8zMm84azlTWjdrejNXLWtyUjMzcy0xV1hnOHF2NTJMYXg3MWF6Q1FUYkpnTWZwMGFDdFhfQ0VFY3Vxa2x2bThxWGZJMHlsR2c?oc=5",
       "published": "2026-06-28T07:00:00+00:00",
       "source": {
-        "name": "Sud Ouest",
+        "name": "sudouest.fr",
         "url": "https://www.sudouest.fr"
       }
     },
     {
-      "id": "5c5cbbcfba1f",
-      "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - Le Monde.fr",
+      "id": "139b8d0b8bbb",
+      "title": "Elle était en surpoids mais pas obèse : le décès d’une étudiante lié à l’injection de ce médicament très populaire pour la perte de poids - L'Indépendant",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOMV9IbFd6RHU0UE1uWkRvUnFxbjQ3eFl6bFpRVmJXTFBDRXpCUnNJZ2RCR3pHNXdYaHpGTS1lTENxU0hXZmVsRVpXYmFOYmhDVnFFS0hvUlNfaUZ1ZzJRQ2U1TEx3NjNKS0xXRmI0dm1OZ2lKeGk3bVQzb0tTTThPeFliT2dTX3R6djFKODFVbi1qUDFlMl9QZGNFR3A1ek5Fa2VqRmlyMmhCZlJZQTVSaUR5Z0xITjhmM3VGMUtTTkxfVk1aVGFWczRwRjhNMnFzU1oyZVFxdHBNQ2kwbXEwMmdUdlZlTWN4WVNkdUlndzhreWlacjdsbzBpUHF2bDZrTklEc1JBUWk5azQtc1E3U1NjNA?oc=5",
+      "published": "2026-08-10T10:06:00+00:00",
+      "source": {
+        "name": "L'Indépendant",
+        "url": "https://www.lindependant.fr"
+      }
+    },
+    {
+      "id": "b158392387ba",
+      "title": "Les Etats-Unis ouvrent une enquête sur le prix des médicaments en Allemagne, au risque de relancer les tensions avec les Européens - lemonde.fr",
       "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPZDRXa0ZTQnBPRklSck95ZEhFQlMtU3lCYVhIRFJrMjhsRjkyOG5aVlFyRDdNS3JhWnNHSkNDY3plSUZXcWRfMkdvdklhdE9XdU9uWEZxdS1aT0xkZ3lFSml3blBMNkM5Yy10aXVyTzZvbVRPbGNYRU5icWtxRThLdHNaYzlNYUo5eHNtWlk3U0xkeGtPSi1OYldzZkNUWjE4TXh6Z3JoYWdXU2d6dmZGekFXdzUwRkEtNFBscFNoWnZEUWpweTZiWjV0N2N5aHlPWHViRms4SUxaR1hrTmJkanlXU2tKakVJbHRGNTZSSG5fWXR6NWVVV3ZiSnBMRXIyZDRycjdJT1JjZjYweHFkX1g3TXZ1X05ERVd6YnlManVIMU1f?oc=5",
       "published": "2026-06-20T07:00:00+00:00",
       "source": {
-        "name": "Le Monde.fr",
+        "name": "lemonde.fr",
         "url": "https://www.lemonde.fr"
       }
     },
@@ -624,13 +634,13 @@
       }
     },
     {
-      "id": "139b8d0b8bbb",
-      "title": "Elle était en surpoids mais pas obèse : le décès d’une étudiante lié à l’injection de ce médicament très populaire pour la perte de poids - L'Indépendant",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOMV9IbFd6RHU0UE1uWkRvUnFxbjQ3eFl6bFpRVmJXTFBDRXpCUnNJZ2RCR3pHNXdYaHpGTS1lTENxU0hXZmVsRVpXYmFOYmhDVnFFS0hvUlNfaUZ1ZzJRQ2U1TEx3NjNKS0xXRmI0dm1OZ2lKeGk3bVQzb0tTTThPeFliT2dTX3R6djFKODFVbi1qUDFlMl9QZGNFR3A1ek5Fa2VqRmlyMmhCZlJZQTVSaUR5Z0xITjhmM3VGMUtTTkxfVk1aVGFWczRwRjhNMnFzU1oyZVFxdHBNQ2kwbXEwMmdUdlZlTWN4WVNkdUlndzhreWlacjdsbzBpUHF2bDZrTklEc1JBUWk5azQtc1E3U1NjNA?oc=5",
-      "published": "2026-08-10T10:06:00+00:00",
+      "id": "fec79a96cd62",
+      "title": "Automne chaud pour le prix des médicaments : les génériques demandent des limites aux baisses tandis que la Santé redéfinit le système - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWTFsVTUzNms4SkhZOElxdk1fbm1nY3lmQ1d1ZHJNWTBNU0dUcm5tZ3Q0cFM3VUxXY3V0OVZ6QmlBZVNQQUJONHdvaHBZZ3hUUlpieHR3ZTZPekR6RlZEcjJHTEhnX3ZhNjAteWtwY2V0V1JFM0Y5b2FBcjlFbk95Z0xPNGVyUUJpOHhSRjlDSDFFNndEaGVWSEZrLXhoZGZPLUVxcmdkZUtQMC1wYTRWMDR2MTJrRllLNXVfU0FpLUFhQWg2eHpiNUcyaGFOcmF3bEtYeHc1eDRZZ9IB3wFBVV95cUxOcmFpOW9qNGsta1l4UHNUNVJTS0J3SzFqNmhCNkhVSFltYlpta2VFOWRyZGpKbVhFWkdQekIteGJDbm84cDJ1OTdpWV9NZnRBTU1fbW05SjY4amVHc296elZhdTQyUzRweDFxeGpjam80RjA0N1hUN0UxaWljTzB0QnV0aGo1TElsTkNGeWxTSEtkbUNuVm5YWXktTTZVWkRqQXJwRm5LOGxLSTlha2NPWF9Qa2JQcWNFMWhhOVJlMDc2eE1LdHRLM3UtWUNVSHREQ2pqb2cwMExsQlAwa2FR?oc=5",
+      "published": "2026-08-12T03:00:00+00:00",
       "source": {
-        "name": "L'Indépendant",
-        "url": "https://www.lindependant.fr"
+        "name": "Demócrata",
+        "url": "https://www.democrata.es"
       }
     },
     {
@@ -654,12 +664,12 @@
       }
     },
     {
-      "id": "659f2654a3f2",
-      "title": "Dons aux populations privées de médicaments et de matériel médical : ce qu'il est possible de faire - ordre.pharmacien.fr",
+      "id": "74ae2ef658c2",
+      "title": "Dons aux populations privées de médicaments et de matériel médical : ce qu'il est possible de faire - Ordre National des Pharmaciens",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQnk4LTVodDRjWlZISmJvY0VLa1JJX2p3QmVwYTk0dzRUcTdZcWdFeWdiWGVaXzNFb1UzbTFnY2JaWUhjX3NhZDZxX1FIdjZ3Ty14R0xmQzV0TldvM2MxUDgwLU1MT0x1Z01wYWdwUm0tVWhmOVRxVUdaOU9HSFJRWWUweEh3aDBIYk5SUHFpTGM1MWZNV3lzUXkwVDdBc1ZKYTJTUTEtWWtyTnMwQkJjczh5VU85UTMxMy13d3Q0d09ybHptZHV4NUxCS1lHNXNMckZSbXladnRCX0hEajNjZUpvZ2QwLWo3blRiRVg0UkdYTVdrbkdzenlxak1IZUFEUEVj?oc=5",
       "published": "2026-03-12T07:00:00+00:00",
       "source": {
-        "name": "ordre.pharmacien.fr",
+        "name": "Ordre National des Pharmaciens",
         "url": "https://www.ordre.pharmacien.fr"
       }
     },
@@ -684,23 +694,13 @@
       }
     },
     {
-      "id": "132ebaaefa50",
-      "title": "Les médicaments antiobésité Wegovy et Mounjaro seront remboursés en France à partir de lundi - Le Monde.fr",
+      "id": "45ba544efcc1",
+      "title": "Les médicaments antiobésité Wegovy et Mounjaro seront remboursés en France à partir de lundi - lemonde.fr",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTE1KaGRrTzdadlR4VlRuVTR1TEhMNU1FbEI1R3d1R0RFa2NEVVdGZ2RNLTZ5U28xT1hOdUwxZW9WckJ1SkxiYW0zUnBKUDlWQW1fMGVTWUlCNGdFQkEybXdDMUt3eUZsdEtzVWQzNkV0M3hOZHJUQTJ3U0NjU0VIVkdXcGpnNm44QzVsZ3pacUQ0Zm4zdk53dS1pTlFLVDJhSURDS0FzWm1La0FsQVdaVnE2eVo3MG1VNGJqd0k4WEFjaEdQVUNyNHNCRWxiNjZYX2QzQnlYcHdKeks4WXRYcW1KT3lMWnp1NmRjdEQ2c2thVlk?oc=5",
       "published": "2026-06-14T07:00:00+00:00",
       "source": {
-        "name": "Le Monde.fr",
+        "name": "lemonde.fr",
         "url": "https://www.lemonde.fr"
-      }
-    },
-    {
-      "id": "ab65863a200f",
-      "title": "Christophe Lambert, 69 ans, accro à ce médicament dangereux et puissant : \"C'est devenu un souci\" - NextPlz",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa09WakxpLTN6V1pZQUxfS2JoYVpDUGhoSFc5d3Jfekd0TmNGa3kzU1hlNGkwUVNzT1MzWmUtS1g5Ym1VaUViX2hZdVp4SXVnWk5mMUM1eFV3ZmZxQVBEWjAwMm5uNXdwMW1hUm4ydU1lamMwUWFEcUtmaGg1bTRCVldFOHBQUE4tMnBvU3A5bTRLTWxyOGpmdDBMUjBZR3dkcWZPUkxZbUhycHdlTG5PQlNod09CRGtKbldrNGk5eklNcTRUeEE?oc=5",
-      "published": "2026-08-10T08:15:00+00:00",
-      "source": {
-        "name": "NextPlz",
-        "url": "https://www.nextplz.fr"
       }
     },
     {
@@ -711,6 +711,16 @@
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
+      }
+    },
+    {
+      "id": "ab65863a200f",
+      "title": "Christophe Lambert, 69 ans, accro à ce médicament dangereux et puissant : \"C'est devenu un souci\" - NextPlz",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa09WakxpLTN6V1pZQUxfS2JoYVpDUGhoSFc5d3Jfekd0TmNGa3kzU1hlNGkwUVNzT1MzWmUtS1g5Ym1VaUViX2hZdVp4SXVnWk5mMUM1eFV3ZmZxQVBEWjAwMm5uNXdwMW1hUm4ydU1lamMwUWFEcUtmaGg1bTRCVldFOHBQUE4tMnBvU3A5bTRLTWxyOGpmdDBMUjBZR3dkcWZPUkxZbUhycHdlTG5PQlNod09CRGtKbldrNGk5eklNcTRUeEE?oc=5",
+      "published": "2026-08-10T08:15:00+00:00",
+      "source": {
+        "name": "NextPlz",
+        "url": "https://www.nextplz.fr"
       }
     },
     {
@@ -764,12 +774,12 @@
       }
     },
     {
-      "id": "dd68bab68925",
-      "title": "Autisme, Alzheimer, Parkinson : l’ANSM met en garde contre les promesses de traitements miracles ! - passeportsante.net",
+      "id": "e030b28f6e15",
+      "title": "Autisme, Alzheimer, Parkinson : l’ANSM met en garde contre les promesses de traitements miracles ! - PasseportSanté",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR1FkTUUtNTFEeFFSWktYeGYxWU5uZHZRVmt5dWsybjFCWVBuUlRWajJhS0ZmdC1Ra0piN0QyUUJPaWJMZVdzeTZKd1pVaWdzQm85MTh5RWplTkdyS3BNbk5obkQ1ZlA0Wkw2RXZ1M0xRNG1xbUp0a25hX0d5YUtLOFJwbnVMQVI0eHRYMnVXLV8wdXd1eTR3Q3J3eEJEUm03SEoxUkd3?oc=5",
       "published": "2026-08-11T08:55:01+00:00",
       "source": {
-        "name": "passeportsante.net",
+        "name": "PasseportSanté",
         "url": "https://www.passeportsante.net"
       }
     },
@@ -814,12 +824,12 @@
       }
     },
     {
-      "id": "abfa13564be3",
-      "title": "Santé. Médicaments contre l’obésité : Wegovy et Mounjaro remboursés dès la mi-juin en France - Le Dauphiné Libéré",
+      "id": "bbfe9381176d",
+      "title": "Santé. Médicaments contre l’obésité : Wegovy et Mounjaro remboursés dès la mi-juin en France - ledauphine.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3A4MXRPQktid0MxWU04YktJVUwya1FNcmZKQ0twd0wzS2NCREJ3NTUtellDdHAySWMzVk5PUzFHdUJPTmtISnFsRVdnMlp5TXU0ZUV1cnYyS3BPbHlNWkJoSXlQdkZWVlJFN0ZTWDJGNDJSSG5iSWdmTXc1M2tRb1ltR0NRaFJmYU96dkk1U01jdFZPemUzb2VocnQ5VTgtN1BFRnlicVZ2V0RiaDBPMGZwcUt6cUpjU1F4b0F6dGpKUHIweHc?oc=5",
       "published": "2026-05-28T07:00:00+00:00",
       "source": {
-        "name": "Le Dauphiné Libéré",
+        "name": "ledauphine.com",
         "url": "https://www.ledauphine.com"
       }
     },
@@ -944,22 +954,22 @@
       }
     },
     {
-      "id": "b170818d0cc0",
-      "title": "Médicaments anti-obésité : début du remboursement de Wegovy et Mounjaro en France mais les contraintes seront strictes - Sud Ouest",
+      "id": "0dc5f7d22766",
+      "title": "Médicaments anti-obésité : début du remboursement de Wegovy et Mounjaro en France mais les contraintes seront strictes - sudouest.fr",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb3ZaeEpzQXJFcERyZ1RTaXdmNmxHVEF6eGRJbUNxV19lUE5Pb3ZiSFY1WW10WXZVUlBBQklfcDNOQTZLZmx6a2xWdkZFbnI5MmZEeldUSUFqNFpwTTJFQlpYNHBOUTE1TTVIRjRjSXBMaXdkSTFGeTJrbldoS0JaNWU5bV9MMkstYzhqNTZXU1p6ZEh6YXNzSm1NT21nMGdUcW5aRDM0UVU0NDNTb2c4aGdEUG5oeTBSdHMzR0Fsb2p5d2hVTl9NOXlFMWI1ckQwdVpEZkZMZFdJVUtjWXlrWk9tTFExNGFTdWZsdFJ1OXM?oc=5",
       "published": "2026-06-14T07:00:00+00:00",
       "source": {
-        "name": "Sud Ouest",
+        "name": "sudouest.fr",
         "url": "https://www.sudouest.fr"
       }
     },
     {
-      "id": "1c7d93f33b61",
-      "title": "Médicaments anti-obésité : qui pourra bénéficier du remboursement par l’Assurance maladie ? - Sud Ouest",
+      "id": "efeb38404cfa",
+      "title": "Médicaments anti-obésité : qui pourra bénéficier du remboursement par l’Assurance maladie ? - sudouest.fr",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakttZGVJWl90X1ZKQl9lZ19RcEFyVk8zbUQ1U2tDMGtyN2VDdXdPamkyRzFHY1RCTW0zUnpiallsMzJHaVdkMzlnWnNSQXpZbXhFcWdXNHRSNDRSS25mc3dydVhRZVJfXzJKTlFmVWlNWTY3aHMtSnFkMW1EZ0RPMkh0WEQ1cm5RbjZTLWFaN0paSWM4UkpJT1Y5OGlhdTlSZzFUWXZxQm41dHdtYmhDZGEwdE1SMzFpRkxpR0dLcmF0bVBfdWkwQzNQRjZULUFaZmhRbEdvZ2hCMmVKUUhGdXl3?oc=5",
       "published": "2026-05-28T07:00:00+00:00",
       "source": {
-        "name": "Sud Ouest",
+        "name": "sudouest.fr",
         "url": "https://www.sudouest.fr"
       }
     },
@@ -991,16 +1001,6 @@
       "source": {
         "name": "WHO | Regional Office for Africa",
         "url": "https://www.afro.who.int"
-      }
-    },
-    {
-      "id": "0cfc11671b4a",
-      "title": "Allonger la durée de conservation des médicaments dans un objectif de réduction du gaspillage et de la pollution - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTzFramwtTGVyRHN3VHlVV190U3VyOXJFdlNwdUM2blRzeC14WTBpME9BS2RqZXBSS2VuU2RJYnRtMjFKdEJwMl9jSlJBZ2Z1TEJOOFlyQVpIV2tvVlVEcTViRHc3UGl5YV84LWRGSEdUVUphY3JzUGZzWFZ1bVJuQUNMT0pmMlNMazJ4VFNsdjNIVzFYd2Y0ck9WTHNEVXFqU3ZBb3FYNHRWc0U2d0NGRmF1di16VFhoanQyLWxnUFNuWWJjeUFBdkZrc24zNEFkbWVFbjlQdUZqQnd1N2c?oc=5",
-      "published": "2025-11-21T08:00:00+00:00",
-      "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
       }
     }
   ]
