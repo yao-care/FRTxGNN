@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T01:46:54.306745+00:00",
+  "fetched_at": "2026-08-21T03:09:48.934680+00:00",
   "source": "Google News Health RSS",
   "count": 92,
   "articles": [
@@ -94,8 +94,18 @@
       }
     },
     {
-      "id": "ee4a8264d586",
-      "title": "L’intelligence artificielle va-t-elle guérir le cancer ? - Le Grand Continent",
+      "id": "c69bba5a8fb5",
+      "title": "Ériger une « barrière » pour empêcher les médicaments contrefaits d'entrer sur le marché. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnY5MVp0OThHZDFmQlMzZEE4bkM3bUNVY1BpV0ttaGhRVExBR0pjYXBFRXN2bk90UG8wR0FndmZYVTBUSThRMkJBUG1CMTJhVFVJX1BWLWdqVGhnYjFHeXBKblMzVG9Uc1NQdHFXN0tDUGdoYWNhX2RiamhOQ19nRQ?oc=5",
+      "published": "2026-08-21T02:55:26+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "1831fdbd28ed",
+      "title": "L'IA va-t-elle guérir le cancer ? - Le Grand Continent",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1mdlhOSFFkSDkteS1zS09fWjZuX0tISV8wdGNneVVkLTFLRndvTVVuX01UbzNLOFFuMmllaUloOUUtS2lRNEt3SDVsZkhQWVhzcjFJRGlRWlZZQWRJVVFKUEhFckNRamh2eWRSNVhtalVPMzVWZVM1eERmVUFpUQ?oc=5",
       "published": "2026-08-20T11:23:36+00:00",
       "source": {
@@ -154,16 +164,6 @@
       }
     },
     {
-      "id": "5807583c860d",
-      "title": "Eli Lilly relève ses objectifs annuels, les médicaments vedette contre l'obésité continuent à accélérer - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPc3hCaHNVTXZsNGpENUNsN3I4dHBlbnRxVzd2UndlbkNPOVlJbG9fRzVxUTc4NV9tcXg5QXJNN2ZERGlFVmREZU1aRGNTMEl0MnBDYThzVUYtSXdZSVR1Y3l2MXdnRXpSU1Y4bjRvOEtRUkhvWHV6R3ZNalRucDZUWENhSmFYaDJlY1NBRjVnMU1zdGNnbGpnQjBkek04d0FwNXFtRGt2ME1fNmlaTnJ5VjEzX18yeU5ScFFLQ3JXaUljSngxbDdJTTdtdDRtRDRMeGxHSDJuXzVpUzE2LVU2T0RIMWMwR1FtaVY5VXFrclIwalgyTExJWkNYQ1Y2U2U1Z3JQMQ?oc=5",
-      "published": "2026-08-20T06:06:00+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://investir.lesechos.fr"
-      }
-    },
-    {
       "id": "122ee1d0fabe",
       "title": "Le médicament Tavneos, destiné à traiter des maladies auto-immunes rares, retiré du marché car jugé trop dangereux - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFlOeFZOU2dTeHF2enBDM0ZtRzd2ZThJWjdidVFtS3RXQW9OU1ExUEg0TjdlMVloRWdaMVNULVRrSFluYnQzTklTOVRjSTBxRExJSW5RaGhDbGlKajNXZlZXeGx3ajVWN1NtTlY1QmRjN2JUeE5hV0wyMWI5MG9xSWFCeWdWWFRFTUJLbEI4V0lNTWszdFdPdE10LS1vQU1sUE1nT2JxVU5fQkE?oc=5",
@@ -184,20 +184,10 @@
       }
     },
     {
-      "id": "600ff3f2a5ad",
-      "title": "Un meilleur accès aux soins et aux services de première ligne - Élargissement des services cliniques offerts directement en pharmacie - Lelezard",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PM0xvOGtqXzZ5cnhaT2w0ZWNMWk5ZWVJyR0RwWFBqQ3B1d3dOY2FCUkYwdTQ2YlhCcGhnYldZTThCZWtENHZRM2J4bDRBaU16ZWtRV0RKY3lxRGlUYmc?oc=5",
-      "published": "2026-08-20T22:46:31+00:00",
-      "source": {
-        "name": "Lelezard",
-        "url": "https://www.lelezard.com"
-      }
-    },
-    {
       "id": "1f0cf4fa821a",
       "title": "Franchises médicales : le gouvernement renonce au doublement des plafonds dans l’immédiat, annonce Stéphanie Rist - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQMDZHWk9SUkxpQmo1d19pRHkxRGhnM3VwVl9rSlgxeHc0a3YxZ3AxYmN3bDd1TWptNWRzVUN6dG9JdUFnZnNNTWtNQXNGT3NZVFFlVmlibTkwZmRVVE5wTVdTQkpnOUhuWjJDWVhzbjdqbF9WT3ZoNDFqSDN5OElSN3Z2Y3ViRWFwUXBKSUw2djZNQ3RJWHFiTVNiaEIxYUVmTlBUTTZyTzhiTzN6RDBESmlzRWZpWTR3ajZwWnY1NlFQSmk1U2NwR055WVd4SlRBRWRaX2JUN0pHQUl1bTFvZFJxRVdFTlFreVdjOFZRb0pXSm1DbnExN2U2RU10RWlJSGpkR0tmRmF1Q3JjY2Nz?oc=5",
-      "published": "2026-08-20T01:25:23+00:00",
+      "published": "2026-08-20T02:38:35+00:00",
       "source": {
         "name": "Le Monde.fr",
         "url": "https://www.lemonde.fr"
@@ -211,6 +201,16 @@
       "source": {
         "name": "dna.fr",
         "url": "https://www.dna.fr"
+      }
+    },
+    {
+      "id": "600ff3f2a5ad",
+      "title": "Un meilleur accès aux soins et aux services de première ligne - Élargissement des services cliniques offerts directement en pharmacie - Lelezard",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PM0xvOGtqXzZ5cnhaT2w0ZWNMWk5ZWVJyR0RwWFBqQ3B1d3dOY2FCUkYwdTQ2YlhCcGhnYldZTThCZWtENHZRM2J4bDRBaU16ZWtRV0RKY3lxRGlUYmc?oc=5",
+      "published": "2026-08-20T22:46:31+00:00",
+      "source": {
+        "name": "Lelezard",
+        "url": "https://www.lelezard.com"
       }
     },
     {
@@ -244,26 +244,6 @@
       }
     },
     {
-      "id": "ad3062e52040",
-      "title": "Les sponsors fédéraux et industriels jouent des rôles complémentaires dans les essais cliniques sur le cancer - ma-clinique.fr",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSDJvWHF4Z3E4aUJfdFZJVERvZU1KbGJPU1VadGhKSDhIWGhmdzltaGJ0V2tpcmVSOWxsUE9mb1h5bUp2NHdlS05FTllkZkJxeWx4YlNzYllCc0dfT2ZLRXZNTDluSFdLUXBkdGN3RFRpZGhMenV6SGlUZHhZM2lNbnBlWTZSd1Z1blZkdDVFSkpzYnBXbFU0eGFJU0U3SlplaVhNb3oxVlNaeWNReWc4cWhGVUVrdlBMTkRJR0k5bDJuMno1aGJDRVhxNzI?oc=5",
-      "published": "2026-08-20T23:20:23+00:00",
-      "source": {
-        "name": "ma-clinique.fr",
-        "url": "https://ma-clinique.fr"
-      }
-    },
-    {
-      "id": "32d17240d859",
-      "title": "Accélérer l’accès aux médicaments innovants - avantages.ca",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeGMtN3Q5TmdJM0F6a0xuUUxzTXlOQmE1WWVyYTZqSE93ZTJqRmZISHhzci1RdTM1UnMzYlFUc1J5TkVNdEVRMmpybHV3YXZHYWc1cXNnaTA0VC0zX25tNnFtOGRsZmtxcEZ3SmY0c011N2FUVHNYVHJtdWFnOUV1dGVQSmhZbjVwWkZtNnkwRQ?oc=5",
-      "published": "2026-08-20T03:04:36+00:00",
-      "source": {
-        "name": "avantages.ca",
-        "url": "https://www.avantages.ca"
-      }
-    },
-    {
       "id": "a0cc96b5139e",
       "title": "Trump nomme Heidi Overton à la tête de l’Agence américaine des médicaments - Anadolu Ajansı",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUzFhakV1b1FHZ0tfdURDb2NvVTRrOFRjZXZJMjNacXU4ZFR3dXFiQk9zRDVQaXNHckxWaFQ3WXozMjFZdG9MS2h3SU94NkNKQk9UbjFwb09YUm1RckgwNFNZRk16Ukp3eFROSTUtR1lLblN0VDVULXRreGg1V2Z1WXdHQUMzMUJHemliOWVTOVNDUUNpQnRBUW9VTEhQdUJSRjYwZmZFdFQ5b1JVYUQwakVmeF9IWW5nMzNBZ3I5YTRpRnBrNWxXUnhjbGZOdw?oc=5",
@@ -274,13 +254,13 @@
       }
     },
     {
-      "id": "69c598a503e7",
-      "title": "Le champ de pratique des pharmaciens sera élargi à compter du 9 décembre - Noovo Info",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUkhPVDBVaHR6QXk0N0JobVFLa2RvY1Y3Y0kyMWZBQ3gxMm9ialBLZEJpWVhGN3dTRWJnRlloSWVidmx0QXdiUG5jT1FFZWdweURHekotZUlnUjA1Nzc5a0xYc2ZxNlBfMFJmaW5rR2VpSlQ2N0NoR1Y3OE03UWxEc0RWZzNtSW9YMjhuRHBrNkducHBxTmlQTktyeURVek42aDlZUU5fbEJvdWRYejZCU0piZUk3WVBoUnNkOA?oc=5",
-      "published": "2026-08-20T20:45:33+00:00",
+      "id": "ad3062e52040",
+      "title": "Les sponsors fédéraux et industriels jouent des rôles complémentaires dans les essais cliniques sur le cancer - ma-clinique.fr",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSDJvWHF4Z3E4aUJfdFZJVERvZU1KbGJPU1VadGhKSDhIWGhmdzltaGJ0V2tpcmVSOWxsUE9mb1h5bUp2NHdlS05FTllkZkJxeWx4YlNzYllCc0dfT2ZLRXZNTDluSFdLUXBkdGN3RFRpZGhMenV6SGlUZHhZM2lNbnBlWTZSd1Z1blZkdDVFSkpzYnBXbFU0eGFJU0U3SlplaVhNb3oxVlNaeWNReWc4cWhGVUVrdlBMTkRJR0k5bDJuMno1aGJDRVhxNzI?oc=5",
+      "published": "2026-08-20T23:20:23+00:00",
       "source": {
-        "name": "Noovo Info",
-        "url": "https://www.noovo.info"
+        "name": "ma-clinique.fr",
+        "url": "https://ma-clinique.fr"
       }
     },
     {
@@ -291,6 +271,26 @@
       "source": {
         "name": "SWI swissinfo.ch",
         "url": "https://www.swissinfo.ch"
+      }
+    },
+    {
+      "id": "67c285e9a89a",
+      "title": "Le ministère de la Santé a demandé une enquête sur la publicité du produit DK-Betics Gold, qui semble être trompeuse en laissant entendre qu'il s'agit d'un médicament. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUXV1dmI4N1hqZXQ4WUlmYnE3TGdOR1psTEdUR1NoMFRkQkluS2x5ODR3VWVRVmR2alJBZ1pjei0zbHlvWURxRTgyNkFxTVUyMFNsMWdUaUFNV044QjBXODd0b0hGNUQxTl9YRWVnTzF3YTZ5Y1lfSEZ2QmFFaV9xcGI2MjNCSTRuSkZKeFhocTQ5Mjl6RE4xckFQQjUyekFtN19RQnFrd2tHcjdUODAtbGtYQTZIVEVyeDE1Tmx3?oc=5",
+      "published": "2026-08-21T02:55:29+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "32d17240d859",
+      "title": "Accélérer l’accès aux médicaments innovants - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeGMtN3Q5TmdJM0F6a0xuUUxzTXlOQmE1WWVyYTZqSE93ZTJqRmZISHhzci1RdTM1UnMzYlFUc1J5TkVNdEVRMmpybHV3YXZHYWc1cXNnaTA0VC0zX25tNnFtOGRsZmtxcEZ3SmY0c011N2FUVHNYVHJtdWFnOUV1dGVQSmhZbjVwWkZtNnkwRQ?oc=5",
+      "published": "2026-08-20T03:04:36+00:00",
+      "source": {
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
       }
     },
     {
@@ -364,16 +364,6 @@
       }
     },
     {
-      "id": "6483534cc2fa",
-      "title": "« La plupart des effets inattendus se sont révélés positifs » : les surprises d’Ozempic, Wegovy et Mounjaro… au-delà du poids - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdWtsOTZsdi1LQS13LWtac2ZHR0pTTXpVMjUzWVd4SXc1Yk1YRzk1dk5LaFZuWERyMXViNjZjMldERE5IX0lURjZTY0xTeS1USWRKVThBeGxwalBiRl9FRGVMTXZndlFwOWVBYVVfU0I0ZTF6aDRKRDVVTEd4cTVkckZhWXltdjFGZE9PdXBiYUJCc1FLeDFpZjZDT0FjbGREMVRYUFF0SkJULWx0VDZrUEF2NUNMblJNeU5LMTJZcnlfTTRvNmF0bG5IaGxXUE9Fbi12RlVjREtoV0JueUh6VDdmZkJodFlENjBad1lR?oc=5",
-      "published": "2026-08-18T09:43:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
       "id": "82aa87863c60",
       "title": "Médicaments essentiels - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
@@ -394,16 +384,6 @@
       }
     },
     {
-      "id": "8ffccaccd4a4",
-      "title": "Décès d’Hayden Panettiere : tout savoir sur le Narcan, ce médicament contre les overdoses au cœur de l’enquête - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQThmUlhNX0JSc1dNUmV1ZXFhVUIwb1hqN3pPVllvZFhCS1ZfVEdxSkdlS05mcHZfdkxvR3JwTU82TkVCeFZCeHhnQ2xDQWtJeFZaM09jaFhVMzBFa205REx0WTktZXJIRFBOaS0zaHIwQ2k1WVFRbk9yMF9wMlRSODJzSnpLSktNWWxaUUJRdGo4dW5rVHF5b3NYbW82SWZEOGptVUxYYmp0aWlZWHBSREV0OXFkSWtqUGtJLXNyNzIzaEpkcm96VTNid19PWHQ5UjlVSkpIZ29maHQteFlIN2JZeDBNbjBJRHY3bE96V0pmZw?oc=5",
-      "published": "2026-08-20T08:55:49+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
       "id": "b9ff15f507d1",
       "title": "Dérembourser les vieux médicaments au profit de « l’innovation » : un intérêt pour les industriels, une impasse pour les patients - France Assos Santé",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdHBkX0pPc3hTWmp1RXlLejNnUHE1aFNZZHMzR0xvVTB5cVVrVXRBV3VtejlBbjhnYUZnOXl4TEQ0XzdDV0FTVjZyVjNnY3o0RVh3MDVLZUs5bjY0VGVhUlczNWdfV1VuckpOZ3VKazRod3JBZG90dnNMQlY4TjdMdW1RZThWT3lzYmVPWmxOeUxyblpGbHlWY0hNU0dVcS00bkNURnRwbnM4SmtkRW9NOVpUbnBsOERDSUxtZmh5Z1F4T1pkdElaYVZXSFlvOTRLaUlRZmdzY0tRWFg2TU5MT1pNQllUYUJvT1JTdS1icUlwcktq?oc=5",
@@ -411,16 +391,6 @@
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
-      }
-    },
-    {
-      "id": "54a3d5010ebd",
-      "title": "Décès d’Hayden Panettiere : qu’est-ce que le Narcan, ce médicament retrouvé chez l’actrice ? - Corse Matin",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeUo4VW5KZmFqYVlfdEhlWVM5SFZON1YxbC1IWFU4SEloeW9fRWhWLVdxNmJaVnlaQ213bTJod2lWal9CRHpnUFp6UUNKSk0zWHp1N0lJVHJNZVdwSXpFYmNPb2FqMElZeGVBbjRlS0Z3U2NBQ29CMU1YSjNPS3RfQnJ1eEJ4eTVoOE55UHQydlhsN28zc3BVSEJGMVNRUG13bTVnUm8zQlZCbm03blR2bGh1MUdjNFJnSWUzME8xV3dqOWVlQ3VGOTdHYnBta1pJVXlvdVktYjRwWWc?oc=5",
-      "published": "2026-08-18T09:00:16+00:00",
-      "source": {
-        "name": "Corse Matin",
-        "url": "https://www.corsematin.com"
       }
     },
     {
@@ -434,6 +404,16 @@
       }
     },
     {
+      "id": "54a3d5010ebd",
+      "title": "Décès d’Hayden Panettiere : qu’est-ce que le Narcan, ce médicament retrouvé chez l’actrice ? - Corse Matin",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeUo4VW5KZmFqYVlfdEhlWVM5SFZON1YxbC1IWFU4SEloeW9fRWhWLVdxNmJaVnlaQ213bTJod2lWal9CRHpnUFp6UUNKSk0zWHp1N0lJVHJNZVdwSXpFYmNPb2FqMElZeGVBbjRlS0Z3U2NBQ29CMU1YSjNPS3RfQnJ1eEJ4eTVoOE55UHQydlhsN28zc3BVSEJGMVNRUG13bTVnUm8zQlZCbm03blR2bGh1MUdjNFJnSWUzME8xV3dqOWVlQ3VGOTdHYnBta1pJVXlvdVktYjRwWWc?oc=5",
+      "published": "2026-08-18T09:00:16+00:00",
+      "source": {
+        "name": "Corse Matin",
+        "url": "https://www.corsematin.com"
+      }
+    },
+    {
       "id": "a956f293e848",
       "title": "Évaluation clinique commune des médicaments et dispositifs médicaux au niveau européen depuis 2025 - revue Prescrire",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNklkSno2U3dQY1lMclhQWlJfek93TE9zLXotUFgxYjRxTkxoa3o1cnFackdJYUhGOXhSM1VHX0gybTNVQW5HSE9rY1FUSWt4RnpWQVhQVWE0dkI2b0V3cXg4MFJKZU1lclVmNXZTSVFsTG16SzRrS0tFSDkyN0xJUURkeF9KdDBxZkk1ZUdTaVhZaTJzVkFlT2hhazlkalRpb2pVMWV4QU4taHVPQnk5UldnVzNHU0Zrc2tDaDBHR29PZk8zLWYyeFN5c05zSlNYR1IxbkVxXy1ZYjEyemc?oc=5",
@@ -441,6 +421,16 @@
       "source": {
         "name": "revue Prescrire",
         "url": "https://www.prescrire.org"
+      }
+    },
+    {
+      "id": "8ffccaccd4a4",
+      "title": "Décès d’Hayden Panettiere : tout savoir sur le Narcan, ce médicament contre les overdoses au cœur de l’enquête - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQThmUlhNX0JSc1dNUmV1ZXFhVUIwb1hqN3pPVllvZFhCS1ZfVEdxSkdlS05mcHZfdkxvR3JwTU82TkVCeFZCeHhnQ2xDQWtJeFZaM09jaFhVMzBFa205REx0WTktZXJIRFBOaS0zaHIwQ2k1WVFRbk9yMF9wMlRSODJzSnpLSktNWWxaUUJRdGo4dW5rVHF5b3NYbW82SWZEOGptVUxYYmp0aWlZWHBSREV0OXFkSWtqUGtJLXNyNzIzaEpkcm96VTNid19PWHQ5UjlVSkpIZ29maHQteFlIN2JZeDBNbjBJRHY3bE96V0pmZw?oc=5",
+      "published": "2026-08-20T08:55:49+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -504,13 +494,13 @@
       }
     },
     {
-      "id": "354d3b898bee",
-      "title": "Des soins et services pharmaceutiques encore mieux adaptés aux besoins de la population - Lelezard",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OeElQVlVyZEd2X0RRZlZuM2ZxUjBRaUNFcDMxVWs1UEhDN1dJanBtbFZMeFdZUjBWNUVZdnhDSzJZd0N2NFJ0a3NZVTBjOWVzb2dRbXpGQmJfMmRhc0E?oc=5",
-      "published": "2026-08-20T20:08:00+00:00",
+      "id": "6483534cc2fa",
+      "title": "« La plupart des effets inattendus se sont révélés positifs » : les surprises d’Ozempic, Wegovy et Mounjaro… au-delà du poids - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdWtsOTZsdi1LQS13LWtac2ZHR0pTTXpVMjUzWVd4SXc1Yk1YRzk1dk5LaFZuWERyMXViNjZjMldERE5IX0lURjZTY0xTeS1USWRKVThBeGxwalBiRl9FRGVMTXZndlFwOWVBYVVfU0I0ZTF6aDRKRDVVTEd4cTVkckZhWXltdjFGZE9PdXBiYUJCc1FLeDFpZjZDT0FjbGREMVRYUFF0SkJULWx0VDZrUEF2NUNMblJNeU5LMTJZcnlfTTRvNmF0bG5IaGxXUE9Fbi12RlVjREtoV0JueUh6VDdmZkJodFlENjBad1lR?oc=5",
+      "published": "2026-08-18T09:43:00+00:00",
       "source": {
-        "name": "Lelezard",
-        "url": "https://www.lelezard.com"
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -534,6 +524,16 @@
       }
     },
     {
+      "id": "354d3b898bee",
+      "title": "Des soins et services pharmaceutiques encore mieux adaptés aux besoins de la population - Lelezard",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OeElQVlVyZEd2X0RRZlZuM2ZxUjBRaUNFcDMxVWs1UEhDN1dJanBtbFZMeFdZUjBWNUVZdnhDSzJZd0N2NFJ0a3NZVTBjOWVzb2dRbXpGQmJfMmRhc0E?oc=5",
+      "published": "2026-08-20T20:08:00+00:00",
+      "source": {
+        "name": "Lelezard",
+        "url": "https://www.lelezard.com"
+      }
+    },
+    {
       "id": "e6a7762edca6",
       "title": "Actualité - Téralithe et quétiapine : point sur la disponibilité et l’évolution des mesures d’accompagnement - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3lIcUIxZFRjR3RJNjAycWd6dE5TRDN4TmxselotUmFJamFPZEstWmFuY3AzVVZvcnl1Vjh4TDRZZDdUUkVEOHpnNzd1UWtBRHhZNDFTRm51dTh4SmFMS2ZWak0ybmtFbHV2M2RqLUtMVm5tN2hlVU5acGpNc3hWeFA1Nk1fdGtZTG5FdjBVUkFNSzd2MEQ4TWo4WG9tdGdPVmhyeW90bGR6ZTRrT0s3cG94QWtJZlNBQjJDY2xWMUFYQ28?oc=5",
@@ -554,13 +554,13 @@
       }
     },
     {
-      "id": "93897eb3d02b",
-      "title": "La règle de «prendre ses antibiotiques jusqu’au bout» est en train d’évoluer - Noovo Info",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRFg1V1VTdUhjOTRYMUdqd2kwS3hJN19sM3Iyc0VLTDY2T256VDJsRThRYTFTQW84N3dfR3ZGclFJSTQwVXVOUUZlTGwtczNhZGh0Tmt4eWo4TF9sbzYxR0tqazNOaFFIV29sZk96MFYwRjQzLVEweXJIa0dnQUJDMU1TelRRX2o3S1J3TUJzRERmX2hZUFlmSW5Pd0J5NVItTWp5ZHlBTDBVbWJLQnJIcEI1YW9RcURrQmxPVw?oc=5",
-      "published": "2026-08-17T19:55:00+00:00",
+      "id": "4c745d48e34b",
+      "title": "Médicaments : la Haute autorité de santé dénonce les «pressions excessives» des industriels pour favoriser les remboursements - Libération",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQWVlScTMwdTQ1aVJjQ2Q4NkFBT0JHWDRveDdvY044Yl90MG93aHBhYmRTUTl4ZlhRMS1Od1hFaHRPRFZRT1I2MTZsUHctTzg0SEpSM2dQYU5uSGVuanJGbFB0ZnV0dV9nU0FYWTM1bDI1dnhDck1rSHN3ZUg0clh1RXhiQ2tuZjVQblNmLW1xUW4yU1dranFoeUNLWElSSWdMUUI3U1cwc3NlMFZDa1pObDR1eGF3TDFIeFI4eV9Dak9Oc0kyVWZia2dhSU04bmk1ckdXUEhLU1ZlN2lOclAtdXVJUjBWMVRiR2R3MThKT2tGczdCZ3Rfb3UxRjV4WXNIaElSeEl5NUZYczY5eGpqV3NKX01NXzlGOGl6YWR1MG9CeDh5?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
       "source": {
-        "name": "Noovo Info",
-        "url": "https://www.noovo.info"
+        "name": "Libération",
+        "url": "https://www.liberation.fr"
       }
     },
     {
@@ -574,13 +574,13 @@
       }
     },
     {
-      "id": "4c745d48e34b",
-      "title": "Médicaments : la Haute autorité de santé dénonce les «pressions excessives» des industriels pour favoriser les remboursements - Libération",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQWVlScTMwdTQ1aVJjQ2Q4NkFBT0JHWDRveDdvY044Yl90MG93aHBhYmRTUTl4ZlhRMS1Od1hFaHRPRFZRT1I2MTZsUHctTzg0SEpSM2dQYU5uSGVuanJGbFB0ZnV0dV9nU0FYWTM1bDI1dnhDck1rSHN3ZUg0clh1RXhiQ2tuZjVQblNmLW1xUW4yU1dranFoeUNLWElSSWdMUUI3U1cwc3NlMFZDa1pObDR1eGF3TDFIeFI4eV9Dak9Oc0kyVWZia2dhSU04bmk1ckdXUEhLU1ZlN2lOclAtdXVJUjBWMVRiR2R3MThKT2tGczdCZ3Rfb3UxRjV4WXNIaElSeEl5NUZYczY5eGpqV3NKX01NXzlGOGl6YWR1MG9CeDh5?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
+      "id": "93897eb3d02b",
+      "title": "La règle de «prendre ses antibiotiques jusqu’au bout» est en train d’évoluer - Noovo Info",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRFg1V1VTdUhjOTRYMUdqd2kwS3hJN19sM3Iyc0VLTDY2T256VDJsRThRYTFTQW84N3dfR3ZGclFJSTQwVXVOUUZlTGwtczNhZGh0Tmt4eWo4TF9sbzYxR0tqazNOaFFIV29sZk96MFYwRjQzLVEweXJIa0dnQUJDMU1TelRRX2o3S1J3TUJzRERmX2hZUFlmSW5Pd0J5NVItTWp5ZHlBTDBVbWJLQnJIcEI1YW9RcURrQmxPVw?oc=5",
+      "published": "2026-08-17T19:55:00+00:00",
       "source": {
-        "name": "Libération",
-        "url": "https://www.liberation.fr"
+        "name": "Noovo Info",
+        "url": "https://www.noovo.info"
       }
     },
     {
@@ -624,16 +624,6 @@
       }
     },
     {
-      "id": "defe5e4c5226",
-      "title": "États-Unis : Donald Trump nomme Heidi Overton pour diriger l’Agence du médicament - Le Figaro Santé",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbEJVWXp3MzRYdWV0a1FRbmNBOUZqUjhpcFhadUptWTlFdVdocmE1bVdheGZ6STcwWHZSUzVKb1dDOGVBTF9CVU9feG96OGdBYkdzeGh5N2ozUk15NlkyZUhYelVFYk9xelpQVkpFZ2w0Y0VabHY4MVp4c1JDUWR4SXBtMjJTVEVyRXJxcTdnckM5Z0JiQ0lhNzNlRkstZjROTFVCcVRQRHExaUxZTnhLNzBCc1c?oc=5",
-      "published": "2026-08-19T16:55:52+00:00",
-      "source": {
-        "name": "Le Figaro Santé",
-        "url": "https://sante.lefigaro.fr"
-      }
-    },
-    {
       "id": "4a22357f1770",
       "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
@@ -674,16 +664,6 @@
       }
     },
     {
-      "id": "a5933c756ae9",
-      "title": "Des bilans de santé réguliers permettent de prévenir les maladies de manière proactive. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SNEF5YW0taTEtRlFRZHNITThYZkNJUFdTSFVmMHI0OVZPUnkweFJJY1lNdllXMGlaWG1YY21DT000Z2xmcUlsX0YzR2MyODdHeDZlaE1KdWdJdjJfUzlpZXZTVlJCY0p2VjNqaW0xOHFBZmh3ZUE?oc=5",
-      "published": "2026-08-20T07:44:56+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "631383875ede",
       "title": "Deux médicaments anti-obésité remboursés : prix, patients concernés... Les détails dévoilés sur TF1 par la ministre de la Santé - TF1 Info",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNam5OMkEyUXpjYVVVMFcwSDExZ2M3UWYxTGtrT2V1VEI3ZE1PVEE3QTNQekI5eHgtWTQ3Z3dMRkdoendNWklWU0tSNjZjaW1sbGl0Tm1VaWJvbWJZU29GcEw2Nk9fZUljeTh6aWVybDJYazc4RUFzWDdTd1BJb3F3bThfSnota2tPWl9lSGswQThXSHpodkprVVZWSnJqSzVfZEZ2dzJrWGczamdJZHFiR1AtaFQydlpJOVRiWUhmSmRXZEljUzRVblk3cTJvRWFSaXRpd1ZiQS1uZ2hrZnZDSVhoc2k3R0UxZWlPN1hUaHhRU01lNG8zcDNKbF9aOGR0Y0dVOGJ4bkZJWE0?oc=5",
@@ -714,6 +694,16 @@
       }
     },
     {
+      "id": "defe5e4c5226",
+      "title": "États-Unis : Donald Trump nomme Heidi Overton pour diriger l’Agence du médicament - Le Figaro Santé",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbEJVWXp3MzRYdWV0a1FRbmNBOUZqUjhpcFhadUptWTlFdVdocmE1bVdheGZ6STcwWHZSUzVKb1dDOGVBTF9CVU9feG96OGdBYkdzeGh5N2ozUk15NlkyZUhYelVFYk9xelpQVkpFZ2w0Y0VabHY4MVp4c1JDUWR4SXBtMjJTVEVyRXJxcTdnckM5Z0JiQ0lhNzNlRkstZjROTFVCcVRQRHExaUxZTnhLNzBCc1c?oc=5",
+      "published": "2026-08-19T16:55:52+00:00",
+      "source": {
+        "name": "Le Figaro Santé",
+        "url": "https://sante.lefigaro.fr"
+      }
+    },
+    {
       "id": "fdc8e03dd932",
       "title": "La liste des médicaments remboursés par l'assurance maladie a été élargie. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rMl9Rb1N0aVB0UWNGbHZydl9vNUJmd0pKcFlBS2E4c0JTZjNKUFdzRmx1dEFYbU5QZVA5bHFUVlpvRDloZ0ZzN3phakJtVjIwSlVIV2FDUjFsWUNPaHh4Ujg5Q2tWSWZhOUh1MkloRm9ZcmlQOTA5UlZn?oc=5",
@@ -734,26 +724,6 @@
       }
     },
     {
-      "id": "6eef1881c284",
-      "title": "7 millions de consultations pour des examens et traitements médicaux utilisant la médecine traditionnelle. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnT0toWmhadXd4UU9JSnBwTzdGNnFFekV5ek1pdVBnN1hENGtteW5oc1RTTFM2OU12cXRta2x5Q1JCdlFOQzRoeXZGWVhJV2NFNkp3VWhYc25BOXlvYVp5X21yM3phckVaOUg2a2pVUU5yaGRjdzFCc0xVU0gydHc?oc=5",
-      "published": "2026-08-20T17:46:49+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "b4cdb0740cc5",
-      "title": "Le champ de pratique des pharmaciens sera élargi à compter du 9 décembre - Le Devoir",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1R2S29UVE1DeGlLN2hHcHJyWEFoR1Q0R1QyYzkycmlfNmIxRG9qUzRqc0hkb0tkQXhySnlNRWQwY0pZRENhbTN3TTFXbkN4OWIwd18wTm1KS1N6RWRtZWVrQWJLNFZsMTFJeUktRXRwQ01ibXYtdHZPWnE4dEp3WFFnWjM3MXNsZEVFRmtnVzFsMl9WWmNfSXRsSk81TWUtWUtMQUpja0dkU2M?oc=5",
-      "published": "2026-08-20T22:05:46+00:00",
-      "source": {
-        "name": "Le Devoir",
-        "url": "https://www.ledevoir.com"
-      }
-    },
-    {
       "id": "cf6cf2aca36f",
       "title": "Dépasser « un certain nombre » de médicaments et consultations par an risque de vous coûter plus cher - Le HuffPost",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZS1UNW1uSldHbFdxSWJNXzFuZFBBQnpIZGdFZi1iZ1JlTFBuYnVMNHowTldORzdfdndUUTRvZDZadm95d0R3TF9OUFp2cHJDQy1vcXpRWFUyWjBLdkFBRm81RGdqb0REZDh4WUFISXZ0S1B3Rk5ESk1kajNoZ2Z5MDJ0aVBFbXdTS3k4NHNBaE9XWEJVNlZ0S2FPRWRDMW9CNVZ6QWlicHBZYVg5S256NUlINEE5dzZIZk5JT0lBZkZzbjRCN0FmWHRsY21Ca2l1a3JVSGtfZEl2bE9xNHNXMUJsS0VqeDM0a25nLXN3?oc=5",
@@ -771,6 +741,16 @@
       "source": {
         "name": "Haute Autorité de Santé",
         "url": "https://www.has-sante.fr"
+      }
+    },
+    {
+      "id": "a5933c756ae9",
+      "title": "Des bilans de santé réguliers permettent de prévenir les maladies de manière proactive. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SNEF5YW0taTEtRlFRZHNITThYZkNJUFdTSFVmMHI0OVZPUnkweFJJY1lNdllXMGlaWG1YY21DT000Z2xmcUlsX0YzR2MyODdHeDZlaE1KdWdJdjJfUzlpZXZTVlJCY0p2VjNqaW0xOHFBZmh3ZUE?oc=5",
+      "published": "2026-08-20T07:44:56+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -804,6 +784,16 @@
       }
     },
     {
+      "id": "b4cdb0740cc5",
+      "title": "Le champ de pratique des pharmaciens sera élargi à compter du 9 décembre - Le Devoir",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1R2S29UVE1DeGlLN2hHcHJyWEFoR1Q0R1QyYzkycmlfNmIxRG9qUzRqc0hkb0tkQXhySnlNRWQwY0pZRENhbTN3TTFXbkN4OWIwd18wTm1KS1N6RWRtZWVrQWJLNFZsMTFJeUktRXRwQ01ibXYtdHZPWnE4dEp3WFFnWjM3MXNsZEVFRmtnVzFsMl9WWmNfSXRsSk81TWUtWUtMQUpja0dkU2M?oc=5",
+      "published": "2026-08-20T22:05:46+00:00",
+      "source": {
+        "name": "Le Devoir",
+        "url": "https://www.ledevoir.com"
+      }
+    },
+    {
       "id": "bd06c987aec7",
       "title": "Union des Comores : Des médicaments vendus périmés - Le Quotidien de La Réunion",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWjU4Y2dVOUF3cndFbi1SbnFialFEamIwLXhia1hRYmljcDRnY1B1V2ZPenJMT2FlR0ZnYWJlTnExX0Y4RUtyM0hSNktnRGJObTRSaVFoOU92QVNMVHhlYzdFTVhSZzlXdnJpRXhEcExvM0h3dnlaWVNvUlRTdnJPMHk2VThRMGQ1RnVzUHNjZE16MDZ4anBTR1B1dzZET3hUWFE?oc=5",
@@ -824,13 +814,13 @@
       }
     },
     {
-      "id": "4e6db6305203",
-      "title": "Montréal | Un contraceptif d’urgence et des antibiotiques non homologués sont saisis - La Presse",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTjRNZFkxdi01OG9pRDFRdXFfTndDbWZsM2JYOGhxS25vWm45aHBaeXI3VElCc1Q3ME1FdnN5QmZmLUFCVkVGTWVjYkxvRDlQVTZnZmNTbExuSjQxRUtXZzRzWWN3eXcxNWxxcU5fUEFLMGNwT1BCV01yZkxBTDlOMHBtcWFxdVBDbk5TcDdpZGtBM2YyU252M3BiSTQ4ZkFiUU91TExZaEtVYjBNdFBhRmNydjNpZF9MNXN4RlhNalNZNzFPQmNKS0ZLb21ScjNTeEhBbg?oc=5",
-      "published": "2026-08-18T21:16:44+00:00",
+      "id": "0426aea07d7e",
+      "title": "La Belgique reste parmi les leaders européens de la recherche clinique, mais la concurrence se resserre - Virgule.lu",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNejhuMEJIUzgwWXhHMWx4d052MVE5RVFOekMtTUFXNWtKYVphQ1NvUDJ5M2xJSlBoR1phaFREdWJZVjN1enU2cHNWODlLRjIzbl9EV2lVbGpvNm9DWEJoX3Y1WVNSam9tTTZaa0cyN01ZQ3FCQzVPMDliNjZJMVdid3A1ck0zTGxXdnN1Sm9HdGp2T2tMV3VqT2piYS1kVExpVVNUWVZLaEFnOUhQZGRrNF9pb3NzeUlLZ3FqQmRYRkdZeUo5RVU1TmlUbEJQdmhVd25Vd3lLTmlFZXpVQ0RpcUxtelhGcGhTY3c?oc=5",
+      "published": "2026-08-18T21:03:00+00:00",
       "source": {
-        "name": "La Presse",
-        "url": "https://www.lapresse.ca"
+        "name": "Virgule.lu",
+        "url": "https://www.virgule.lu"
       }
     },
     {
@@ -864,16 +854,6 @@
       }
     },
     {
-      "id": "2d6edd11ae35",
-      "title": "Publicité de produits présentés comme des médicaments, avec utilisation d'images de médecins : 2 produits reçoivent des avertissements. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUNjc3Z1cm5aYm5KdDVGNmlQa0xrTXJVNTRPZ1I5SVlpcDViaUhNTktVN19wMXAwNlZkMmhXSXc4WDhtcG5GcGxTb2VFQjdqejRBd1NjUmFNRlZlWnhrNU16TXFYMm80TXBIaGlsNHk0LW1lNEw0Skw1MTczOGp6R1hxQ1Zqcm5Pbk1YMzRsNTBWalFNUzNxZGQ1cUhmdFdv?oc=5",
-      "published": "2026-08-20T03:40:03+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "2f24847422b1",
       "title": "Médicaments : la bonne santé en trompe-l'oeil des génériqueurs - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTE4zbGZyMmd2TUJzemItWk4weTZLS1VfaDlqSEE1eHJ3N09CWEtyQTdieVdNblNOTjVjTDVpLVpmQ0dpY3RldjhRS2xjMjhBR2lORTJKUVdCa0VjRW5Ec3o3alVYaTdyRUVOX0tic2liV2tkYWtxemlGUzl5U3VHX1JlOXJHMnFNZy1obE5RWFU3T0NiMU1rRG5wTHh1VnlBS1ltaGhTdFZ6SXlkdm1TMy1IRFBLa3BjcmpkMnFVQkl4QTBK?oc=5",
@@ -881,6 +861,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "4e6db6305203",
+      "title": "Montréal | Un contraceptif d’urgence et des antibiotiques non homologués sont saisis - La Presse",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTjRNZFkxdi01OG9pRDFRdXFfTndDbWZsM2JYOGhxS25vWm45aHBaeXI3VElCc1Q3ME1FdnN5QmZmLUFCVkVGTWVjYkxvRDlQVTZnZmNTbExuSjQxRUtXZzRzWWN3eXcxNWxxcU5fUEFLMGNwT1BCV01yZkxBTDlOMHBtcWFxdVBDbk5TcDdpZGtBM2YyU252M3BiSTQ4ZkFiUU91TExZaEtVYjBNdFBhRmNydjNpZF9MNXN4RlhNalNZNzFPQmNKS0ZLb21ScjNTeEhBbg?oc=5",
+      "published": "2026-08-18T21:16:44+00:00",
+      "source": {
+        "name": "La Presse",
+        "url": "https://www.lapresse.ca"
       }
     },
     {
@@ -918,6 +908,16 @@
       "title": "Pénuries de médicaments : des laboratoires impunis - France Assos Santé",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYmtaLTU2djVYRFVMS1M3MGN3UERKdDM4ZVhZRUp2MjBFSGlkMVZZTzJSV3JKWFhMZzhsQjV3X1lFWnJ2cmVKMzV4QjY1TUdvTF9CYUcxN2ZIUTNBZUMzSldxWG1ial9Ua0d2aXM1OHE4bkp4M2VDWVE5VGVBa2Z5SS1IZGRVeWRvSERfNmJnSzJJaTg?oc=5",
       "published": "2026-04-17T07:00:00+00:00",
+      "source": {
+        "name": "France Assos Santé",
+        "url": "https://france-assos-sante.org"
+      }
+    },
+    {
+      "id": "cb2ce3d23fd2",
+      "title": "Fusion HAS–ANSM : une fausse bonne idée pour l’accès aux médicaments - France Assos Santé",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZkVDM2FianIyN0dsaTFQVDlTYjRsdl9ua1dpSWd0SDlycW5IVTlHZ1VYZmhjUVFMY0kzUmN3RWJkNGVvMlFBeTNmaGZKQ3pVZ2NxVklnUFQ3VzFlLTNCeGV2bndoR2lqUXdUT3RSMDMyNVlBbjg3azk2Y1g5ZU5iem9vTHdNTnktNEJqUk5ZMTFKZ2RvWnRrVWtfQ3NvRGlqX3Q5ODhmb3JTZw?oc=5",
+      "published": "2026-04-07T07:00:00+00:00",
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
