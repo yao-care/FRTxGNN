@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-23T06:52:29.643617+00:00",
+  "fetched_at": "2026-08-23T07:39:07.829925+00:00",
   "source": "Google News Health RSS",
-  "count": 99,
+  "count": 100,
   "articles": [
     {
       "id": "320d32f4b92e",
@@ -14,13 +14,23 @@
       }
     },
     {
-      "id": "0e239349e4bd",
-      "title": "Santé : le plafond des franchises médicales ne doublera pas, mais… - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQal85UjZ5cWNxV1ViR1hkTGdETDRfZlM3Zmg0ME9VeDRJcnpMUkhWeEJsNjloNUZGQmtYZXhhYVBnZHJuVmkxZHlxZ0tzaW1iblBSc2dKXzJwZ1VoOGxSNllrQUQ5ZVdDaEJTMTQ0dEVsUmJGblBkNWE1c1lUalhKN3lFSFJfM1BGOWtiOTM4ZjZsZC1BR1JSRDhfVTBkTGtUczJ6RzNZMHROWUYwLTNta3ZUWk9rZFhmV1lpc0FibHdNNHA2c2FIRE12TW90Z1c2STNQOFlrcw?oc=5",
-      "published": "2026-08-21T14:11:33+00:00",
+      "id": "a10a92b51035",
+      "title": "Pourquoi vous soigner va vous coûter plus cher, malgré l'abandon du doublement du plafond des franchises médicales - RTL",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaVEwd0dDcHVCbDJha2xUc3Zia3RIeVRsLVlUSHJNdXpaZjU3bS1YWmJ6b1NSeW9nbjV4bHltYjJaX0xQNld2THUwREJUSzJQQTFLVGI5WXdyakJtTHpRNGtYSEpYT0NQMFFXQWNQVDhaby1ySWF6N1V1VXN2eVFWN2JWUndzb2x4bXR2LURIS2U4a0ZzVURYMDJQdFU2WjFhd2VEMzIxdU1XNFBqVkJhaHpDOXZjdl9JOGpnSVV2R0ZnbTh6RmZVUHhxTWltejhUTkszd0VtYlZkUm1peWlaaUpEM2lRNWVLOGc?oc=5",
+      "published": "2026-08-21T14:38:10+00:00",
       "source": {
-        "name": "Ouest-France",
-        "url": "https://sante.ouest-france.fr"
+        "name": "RTL",
+        "url": "https://www.rtl.fr"
+      }
+    },
+    {
+      "id": "1fa864738264",
+      "title": "« Souvent pas abordables pour le commun des mortels » : les médicaments contre l’obésité fonctionnent-ils ? La réponse de ce spécialiste - RTL Info",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUE5ReG9aWHV5TFU2WUdzYVU2bG51d0tSUlM2a09waDVadk5zTU81WU9yamJvdDZTbk9OYnVRQlJ0bUxBeEI2TUYxM0pCU1QxYXRfMWQwRGxBeTUzZ0NJZGxkbUlHX2dLamNtcmoxZTBsa0dwdUtKYlBiV2dzSlB3Wm1nUmxjaHVxb0laS25TamdNNTJUcElubVA1bGFYT1BudUtMeVVMNmgxUHZWdEhDcnF5d09IdW9ibzhLN1E3WVJyU3BOc0FKeVMyVkZabUtkSWZj?oc=5",
+      "published": "2026-08-21T18:29:40+00:00",
+      "source": {
+        "name": "RTL Info",
+        "url": "https://www.rtl.be"
       }
     },
     {
@@ -64,13 +74,13 @@
       }
     },
     {
-      "id": "1fa864738264",
-      "title": "« Souvent pas abordables pour le commun des mortels » : les médicaments contre l’obésité fonctionnent-ils ? La réponse de ce spécialiste - RTL Info",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUE5ReG9aWHV5TFU2WUdzYVU2bG51d0tSUlM2a09waDVadk5zTU81WU9yamJvdDZTbk9OYnVRQlJ0bUxBeEI2TUYxM0pCU1QxYXRfMWQwRGxBeTUzZ0NJZGxkbUlHX2dLamNtcmoxZTBsa0dwdUtKYlBiV2dzSlB3Wm1nUmxjaHVxb0laS25TamdNNTJUcElubVA1bGFYT1BudUtMeVVMNmgxUHZWdEhDcnF5d09IdW9ibzhLN1E3WVJyU3BOc0FKeVMyVkZabUtkSWZj?oc=5",
-      "published": "2026-08-21T18:29:40+00:00",
+      "id": "0e239349e4bd",
+      "title": "Santé : le plafond des franchises médicales ne doublera pas, mais… - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQal85UjZ5cWNxV1ViR1hkTGdETDRfZlM3Zmg0ME9VeDRJcnpMUkhWeEJsNjloNUZGQmtYZXhhYVBnZHJuVmkxZHlxZ0tzaW1iblBSc2dKXzJwZ1VoOGxSNllrQUQ5ZVdDaEJTMTQ0dEVsUmJGblBkNWE1c1lUalhKN3lFSFJfM1BGOWtiOTM4ZjZsZC1BR1JSRDhfVTBkTGtUczJ6RzNZMHROWUYwLTNta3ZUWk9rZFhmV1lpc0FibHdNNHA2c2FIRE12TW90Z1c2STNQOFlrcw?oc=5",
+      "published": "2026-08-21T14:11:33+00:00",
       "source": {
-        "name": "RTL Info",
-        "url": "https://www.rtl.be"
+        "name": "Ouest-France",
+        "url": "https://sante.ouest-france.fr"
       }
     },
     {
@@ -91,16 +101,6 @@
       "source": {
         "name": "PasseportSanté",
         "url": "https://www.passeportsante.net"
-      }
-    },
-    {
-      "id": "37deb3f5f800",
-      "title": "Franchises médicales : le gouvernement renonce au doublement des plafonds dans l’immédiat et promet une future réforme « juste » - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQMDZHWk9SUkxpQmo1d19pRHkxRGhnM3VwVl9rSlgxeHc0a3YxZ3AxYmN3bDd1TWptNWRzVUN6dG9JdUFnZnNNTWtNQXNGT3NZVFFlVmlibTkwZmRVVE5wTVdTQkpnOUhuWjJDWVhzbjdqbF9WT3ZoNDFqSDN5OElSN3Z2Y3ViRWFwUXBKSUw2djZNQ3RJWHFiTVNiaEIxYUVmTlBUTTZyTzhiTzN6RDBESmlzRWZpWTR3ajZwWnY1NlFQSmk1U2NwR055WVd4SlRBRWRaX2JUN0pHQUl1bTFvZFJxRVdFTlFreVdjOFZRb0pXSm1DbnExN2U2RU10RWlJSGpkR0tmRmF1Q3JjY2Nz?oc=5",
-      "published": "2026-08-20T19:07:56+00:00",
-      "source": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
       }
     },
     {
@@ -211,6 +211,16 @@
       "source": {
         "name": "Orange Actualités",
         "url": "https://actu.orange.fr"
+      }
+    },
+    {
+      "id": "37deb3f5f800",
+      "title": "Franchises médicales : le gouvernement renonce au doublement des plafonds dans l’immédiat et promet une future réforme « juste » - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQMDZHWk9SUkxpQmo1d19pRHkxRGhnM3VwVl9rSlgxeHc0a3YxZ3AxYmN3bDd1TWptNWRzVUN6dG9JdUFnZnNNTWtNQXNGT3NZVFFlVmlibTkwZmRVVE5wTVdTQkpnOUhuWjJDWVhzbjdqbF9WT3ZoNDFqSDN5OElSN3Z2Y3ViRWFwUXBKSUw2djZNQ3RJWHFiTVNiaEIxYUVmTlBUTTZyTzhiTzN6RDBESmlzRWZpWTR3ajZwWnY1NlFQSmk1U2NwR055WVd4SlRBRWRaX2JUN0pHQUl1bTFvZFJxRVdFTlFreVdjOFZRb0pXSm1DbnExN2U2RU10RWlJSGpkR0tmRmF1Q3JjY2Nz?oc=5",
+      "published": "2026-08-20T19:07:56+00:00",
+      "source": {
+        "name": "Le Monde.fr",
+        "url": "https://www.lemonde.fr"
       }
     },
     {
@@ -374,16 +384,6 @@
       }
     },
     {
-      "id": "32d17240d859",
-      "title": "Accélérer l’accès aux médicaments innovants - avantages.ca",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeGMtN3Q5TmdJM0F6a0xuUUxzTXlOQmE1WWVyYTZqSE93ZTJqRmZISHhzci1RdTM1UnMzYlFUc1J5TkVNdEVRMmpybHV3YXZHYWc1cXNnaTA0VC0zX25tNnFtOGRsZmtxcEZ3SmY0c011N2FUVHNYVHJtdWFnOUV1dGVQSmhZbjVwWkZtNnkwRQ?oc=5",
-      "published": "2026-08-20T03:04:36+00:00",
-      "source": {
-        "name": "avantages.ca",
-        "url": "https://www.avantages.ca"
-      }
-    },
-    {
       "id": "e6dac74b7d54",
       "title": "Faut-il vraiment toujours finir son traitement antibiotique ? - Pourquoi Docteur",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaE00bUxPNXIwcGhZcnZhN1JMMlNFZVk3RE1vT1czYnVDcGtjVzAwaE1lS3gyVDUzd2ZPaFhJTEdOeERwWFdjY1dtcXJiajV0M0RfbkdYUlNQMXUxVEhiSGk0eG1ObTZiYnVuRVpPbmIwazU5Sk5tQ0w5NWN3aWRaVHd0TU1rVDFFZkwyWFNvby13VTZLTGp2Q2JKSW5mMWNVdTN2ME54MGh6TUZ4?oc=5",
@@ -391,6 +391,16 @@
       "source": {
         "name": "Pourquoi Docteur",
         "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
+      "id": "32d17240d859",
+      "title": "Accélérer l’accès aux médicaments innovants - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeGMtN3Q5TmdJM0F6a0xuUUxzTXlOQmE1WWVyYTZqSE93ZTJqRmZISHhzci1RdTM1UnMzYlFUc1J5TkVNdEVRMmpybHV3YXZHYWc1cXNnaTA0VC0zX25tNnFtOGRsZmtxcEZ3SmY0c011N2FUVHNYVHJtdWFnOUV1dGVQSmhZbjVwWkZtNnkwRQ?oc=5",
+      "published": "2026-08-20T03:04:36+00:00",
+      "source": {
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
       }
     },
     {
@@ -434,16 +444,6 @@
       }
     },
     {
-      "id": "aa4ff6cba91e",
-      "title": "De plus en plus de patients remboursés pour des traitements contre le diabète : en cause, leur faculté… d’amaigrissement - RTL Info",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdnhDZzhXS3RGWWRCOFFsLXRxY1AxR0hFY0EzMUFpLS1sTXpKcktWcUFaeUJsNXBVVTZUOGVuaV9fSkJpdG9yQTY3X1ZPdXB1cmROWnJ1QmVBcnB3WDU4Sk8tNG94RDdOdjY1c1pIVWZIcU1NcFJzLVM1UDdwOTNXWUQzNC1TNS1QRnJEQkJQVE5ZWl9DVTh6NGdzRHNSTnJRcDZOOFFoTXBuWjVySU9NUlp5bmtESHVVaHYtbC1jS2FaeTZZQnd1VXJDcEwxNmQwdXU3Ym0ydVVuOEw1QWc?oc=5",
-      "published": "2026-08-21T04:10:21+00:00",
-      "source": {
-        "name": "RTL Info",
-        "url": "https://www.rtl.be"
-      }
-    },
-    {
       "id": "2ee6aa2d492a",
       "title": "Pénuries de médicaments, médecins non payés... le système de santé palestinien au bord de l'effondrement - RFI",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcktCV284RTNaRUd3SVIxam5Ibk1lSUhzcEZpX0RCS2k1NVFMdXN6cEpGd2pEVXpGR1NYTTBrWElRZXFTT0MyZzZxZ3VKcEszY3RKMHhZeDdjekNZNTJTVW9MZ3VoVHJCYTZjMl9kNkdSNG5VdE0wU0tsVnZhNlZtUjFJNkdIa2laajBBQkdxOWpMLXI3TUotcjBKanZtNjBQckFmVEVFbHZTVE9fUG1nOUNFWHdBdnZhLS1FeGNfaFlsYXNmamQyRFptekVQaWkyRmNDZzAzaEtMRXBQNnp5bEI0S0YzbjZ5NkpNOUtfeGJjaEFDaUJJZTY5VDV4UFRPbXc?oc=5",
@@ -454,13 +454,13 @@
       }
     },
     {
-      "id": "c6c74c5d8818",
-      "title": "Cancer du sang : des chercheurs découvrent comment il résiste à la chimiothérapie - ma-sante.news",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRThNbUtUSTNwTmtHTl9ScF9FX0hwNVNnY3FNS05IcDgtN25VN19xVEdKM3l4ejlxVEhUVXMtYmdyMV82UUhqNGFoTVJoMzhqMjk5VFlVaUFZYV8yQy12blppZF9GYW1LOFI1VnpVRi1KeDVfVDdGRE1zSTlEX3hxaTNUaU0wWnN5UE5qS1RMZm1VemV6Zzd2cGUya0hwbWwtQXNyX1dlVHFRMEltWXdUSzlB?oc=5",
-      "published": "2026-08-22T08:48:00+00:00",
+      "id": "aa4ff6cba91e",
+      "title": "De plus en plus de patients remboursés pour des traitements contre le diabète : en cause, leur faculté… d’amaigrissement - RTL Info",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdnhDZzhXS3RGWWRCOFFsLXRxY1AxR0hFY0EzMUFpLS1sTXpKcktWcUFaeUJsNXBVVTZUOGVuaV9fSkJpdG9yQTY3X1ZPdXB1cmROWnJ1QmVBcnB3WDU4Sk8tNG94RDdOdjY1c1pIVWZIcU1NcFJzLVM1UDdwOTNXWUQzNC1TNS1QRnJEQkJQVE5ZWl9DVTh6NGdzRHNSTnJRcDZOOFFoTXBuWjVySU9NUlp5bmtESHVVaHYtbC1jS2FaeTZZQnd1VXJDcEwxNmQwdXU3Ym0ydVVuOEw1QWc?oc=5",
+      "published": "2026-08-21T04:10:21+00:00",
       "source": {
-        "name": "ma-sante.news",
-        "url": "https://ma-sante.news"
+        "name": "RTL Info",
+        "url": "https://www.rtl.be"
       }
     },
     {
@@ -484,6 +484,26 @@
       }
     },
     {
+      "id": "c6c74c5d8818",
+      "title": "Cancer du sang : des chercheurs découvrent comment il résiste à la chimiothérapie - ma-sante.news",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRThNbUtUSTNwTmtHTl9ScF9FX0hwNVNnY3FNS05IcDgtN25VN19xVEdKM3l4ejlxVEhUVXMtYmdyMV82UUhqNGFoTVJoMzhqMjk5VFlVaUFZYV8yQy12blppZF9GYW1LOFI1VnpVRi1KeDVfVDdGRE1zSTlEX3hxaTNUaU0wWnN5UE5qS1RMZm1VemV6Zzd2cGUya0hwbWwtQXNyX1dlVHFRMEltWXdUSzlB?oc=5",
+      "published": "2026-08-22T08:48:00+00:00",
+      "source": {
+        "name": "ma-sante.news",
+        "url": "https://ma-sante.news"
+      }
+    },
+    {
+      "id": "d1d509cd6499",
+      "title": "Une lueur d'espoir pour les patients atteints d'un mélanome : des résultats prometteurs sur un vaccin expérimental contre le cancer de la peau - RTL",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNS3pveURNSFEyb3FqbUhhNDRtMDlqcG4yZEpCSU9FMTFtUVZvajU2aWFoRXpwdUNmSzBtenpuYms1dGRvV2N3TzduTlg5SFhTekFGY2dZVlJEdm1qNDQ2amw3eTlacjlwQ090aUY3ZUxZMXV0RTRndkJYdXpCTU11dy1YSVBIa3dWUGJwQjg2RHotNkVzRlNJNS1ySmlabTBUZXQtSWdwU2xqU3FiMFVhbkViVXlLLWc3ajQ1STB6bEJmSGZaT3I2RW9FdmdwcVNYMkJuTlJOVUdfeWgwcF9BWTJfTGV4QmF0X1N2bmItODVHYzNMSUNWRHlTeEstSHpMQmptU2lwX2tld3JaRFE?oc=5",
+      "published": "2026-08-21T20:45:00+00:00",
+      "source": {
+        "name": "RTL",
+        "url": "https://www.rtl.fr"
+      }
+    },
+    {
       "id": "c622f0b3f348",
       "title": "Médicaments anti-obésité : le comprimé d’Eli Lilly autorisé au Royaume-Uni, une première en Europe - Libération",
       "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQWhpWVh3TTdVTmdDYWhEb0w1NS1aTkVOeXVTMkhTaWhndWNFUUJjbU5OUXA0SUR1QVVJV1phUlotOC1wdGl0NlgtbVRXZUlEZVpOUV94Yk1sOTlQR2NxcEp5NVVIdHkzTWFJMXdsczc4WXNyaFIxY3dkSTVxLW1BcHY3VTgtZnJ4empLdkFyWFMtOXhHYzhrRVlqRU5Jc1BONXU1UUJ5OXpJdWl0NlFlZGtOTlJRZmkxMFBCMEF0NUltRkpTaklOUmMzN1M5bEpDdDNIdG5YZURsdlA0Q1NWVi1KWEtkVFFjT2kzTGNnZE9UbERIVVcxOTF1LTVBOFl1?oc=5",
@@ -494,16 +514,6 @@
       }
     },
     {
-      "id": "1ac16b2335e6",
-      "title": "Maladies auto-immunes : ce médicament est retiré du marché français - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnp6bDV3Rm1fbzc1TGRPSkRtRV9HS2FDUS03ekVQUnl3S2xXMjd3WnZaODltMkpZLUZ5Q1hubTJwT3ZtWm1yWXdKdlVoSmdKZjRVdXlrVTNwcTFhTXhLc2l6UXR0Ylk5R1QyZEpuamkzRGxsOTBWOXlxd0VyODNpcEV6Q25UYWZERGtHNUVFYzRIb1VNOWFnNUp0Y2l2ZlhXaUVLSVJYRjBJY2ZsYjdTTUVFTGNmRHBO?oc=5",
-      "published": "2026-08-20T13:55:00+00:00",
-      "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
-      }
-    },
-    {
       "id": "f12411feee92",
       "title": "Prévention du VRS : quelles différences entre Beyfortus et Enflonsia ? - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYWdrdlFDbWhVdVFxUmg0RVJzb2F5U3BuYlRkbFAtOUgyN3ZKa2xSdkEzMEhDRlJmTFB3YXU4czExVlY4OVF6LXVIMkFjb3RqekVzTEljQXpmWkRzNDlwZWtZdGJJQlJxMEVDSnZPU2t2VmtJV09pZXhVZS13WFpBVDcwZlpYdFR4c1h1S1ZqR0k3SkNtN2Y4d0lnWVhrNk5YMEh2RFlPeFhMQmZUU0FjV1VjTEo4TmZqVmxaNWhNTkhuVFVhQXZNTExQZFVENzdSQU1vcGpDU2hYMDZoUWZr?oc=5",
@@ -511,6 +521,16 @@
       "source": {
         "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
+      }
+    },
+    {
+      "id": "1ac16b2335e6",
+      "title": "Maladies auto-immunes : ce médicament est retiré du marché français - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnp6bDV3Rm1fbzc1TGRPSkRtRV9HS2FDUS03ekVQUnl3S2xXMjd3WnZaODltMkpZLUZ5Q1hubTJwT3ZtWm1yWXdKdlVoSmdKZjRVdXlrVTNwcTFhTXhLc2l6UXR0Ylk5R1QyZEpuamkzRGxsOTBWOXlxd0VyODNpcEV6Q25UYWZERGtHNUVFYzRIb1VNOWFnNUp0Y2l2ZlhXaUVLSVJYRjBJY2ZsYjdTTUVFTGNmRHBO?oc=5",
+      "published": "2026-08-20T13:55:00+00:00",
+      "source": {
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
       }
     },
     {
@@ -544,16 +564,6 @@
       }
     },
     {
-      "id": "d1d509cd6499",
-      "title": "Une lueur d'espoir pour les patients atteints d'un mélanome : des résultats prometteurs sur un vaccin expérimental contre le cancer de la peau - RTL",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNS3pveURNSFEyb3FqbUhhNDRtMDlqcG4yZEpCSU9FMTFtUVZvajU2aWFoRXpwdUNmSzBtenpuYms1dGRvV2N3TzduTlg5SFhTekFGY2dZVlJEdm1qNDQ2amw3eTlacjlwQ090aUY3ZUxZMXV0RTRndkJYdXpCTU11dy1YSVBIa3dWUGJwQjg2RHotNkVzRlNJNS1ySmlabTBUZXQtSWdwU2xqU3FiMFVhbkViVXlLLWc3ajQ1STB6bEJmSGZaT3I2RW9FdmdwcVNYMkJuTlJOVUdfeWgwcF9BWTJfTGV4QmF0X1N2bmItODVHYzNMSUNWRHlTeEstSHpMQmptU2lwX2tld3JaRFE?oc=5",
-      "published": "2026-08-21T20:45:00+00:00",
-      "source": {
-        "name": "RTL",
-        "url": "https://www.rtl.fr"
-      }
-    },
-    {
       "id": "a956f293e848",
       "title": "Évaluation clinique commune des médicaments et dispositifs médicaux au niveau européen depuis 2025 - revue Prescrire",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNklkSno2U3dQY1lMclhQWlJfek93TE9zLXotUFgxYjRxTkxoa3o1cnFackdJYUhGOXhSM1VHX0gybTNVQW5HSE9rY1FUSWt4RnpWQVhQVWE0dkI2b0V3cXg4MFJKZU1lclVmNXZTSVFsTG16SzRrS0tFSDkyN0xJUURkeF9KdDBxZkk1ZUdTaVhZaTJzVkFlT2hhazlkalRpb2pVMWV4QU4taHVPQnk5UldnVzNHU0Zrc2tDaDBHR29PZk8zLWYyeFN5c05zSlNYR1IxbkVxXy1ZYjEyemc?oc=5",
@@ -584,13 +594,23 @@
       }
     },
     {
-      "id": "d6d38ac34bbb",
-      "title": "Statines : pourquoi elles causent des douleurs musculaires - consoGlobe",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjBncEpVWVRjbnNrVXFYejZWZGxJaHBhcmNYSEk1SExpRnBNR0FTVzdKQmduQTRzOGpwTmg3YnhrSGZPX0VYOW9OVWhGeWdVTS12bkJqZXNKVGVzNlQxelY1Zm5FU1RGNVlfaEZ6a2pZRzhvMG5CcGZTT0NBRXJMcXhNSQ?oc=5",
-      "published": "2026-08-22T09:00:17+00:00",
+      "id": "9ba2532f0cc2",
+      "title": "Santé : le plafond des franchises médicales ne doublera pas, mais… - Maville Nantes",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3lEQ0VJZFp2VlJsRk9XcVlKdHhiNFVzOVhVZ0l5OURtdHN2T2RtN1VuS2FyekhPclV0VEp5b0pYaURTT2JyQlFfbWQ1Sjl0VThuMDRndENJVEh1Y3JzRzZmZk90MG1kTm5ueXpqWEc5YjljNHZnLVNUYUhjRERmVlYyMUZCZk9GNHhOUUpweDRUc1d2eVl1WnpGeE5BQTRNXzhYYlZPTUFNUmJYUFJxLTBxU1ZaZXVVYUR3MUVVWjc5YzZN?oc=5",
+      "published": "2026-08-21T14:30:00+00:00",
       "source": {
-        "name": "consoGlobe",
-        "url": "https://www.consoglobe.com"
+        "name": "Maville Nantes",
+        "url": "https://nantes.maville.com"
+      }
+    },
+    {
+      "id": "f6872d41eec2",
+      "title": "Après 31 ans de dépression résistante, un patient de 44 ans retrouve la joie grâce à une avancée scientifique majeure - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOemdmdlFmUzhDTkc1RzZHVDgzclpMWDk4SXNsZEtEdUxSbFV6eFpSNFVCbjU2YW4zZnFzWWV2YWZiTXcwV0tGZGlGanhHTWhWQkQ1YkJfN1FSZUFwWXptSmFPMHd5TjZWalpBQVFFR2JnUGRkUjZmMGgyNk5NNUFyOGdQbEZBdUdnM1VkNmcwSGdVTTJ5dk13Q0Vad2N1Tmtvb0NjRTlrazVvQng3OFUwRXBsaDRCU1V2SXgzdTd6aDFzNm5rZF9ET19GZm1fdW9sR3lVQzV4dHdqSGxXOU1UTzhlNHZGLUwxZDBNQlJPMkZpQnZUR3pBYmpB?oc=5",
+      "published": "2026-08-21T11:30:12+00:00",
+      "source": {
+        "name": "Science et vie",
+        "url": "https://www.science-et-vie.com"
       }
     },
     {
@@ -604,13 +624,13 @@
       }
     },
     {
-      "id": "58d4df1036f0",
-      "title": "Santé : le plafond des franchises médicales ne doublera pas, mais… - Maville Angers",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdUpPUWstNUplamtUNW8zYUp2bVNHa285MDkwckoyZ1o0dGNGSC1FSjF2enUtMUE4aWYxQWFuQlBsSEdwZzlNX01ucldBSmNqUnNJbFd1RGlJRHZ6S2VVeFU1T2ZiT3FFWHh6NHYwT2NSajdtMjZoTUlRbFp4VDVaUW5LcVkwaTBQRXVxd3FNSDY1Y2ZuTzdTbUgzSFk2bXB3VDN1TjBkNDhOT192ZjUyTXB4ZXFxQVl2OTlNVVlTMW9wYlRR?oc=5",
-      "published": "2026-08-21T14:30:00+00:00",
+      "id": "d6d38ac34bbb",
+      "title": "Statines : pourquoi elles causent des douleurs musculaires - consoGlobe",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjBncEpVWVRjbnNrVXFYejZWZGxJaHBhcmNYSEk1SExpRnBNR0FTVzdKQmduQTRzOGpwTmg3YnhrSGZPX0VYOW9OVWhGeWdVTS12bkJqZXNKVGVzNlQxelY1Zm5FU1RGNVlfaEZ6a2pZRzhvMG5CcGZTT0NBRXJMcXhNSQ?oc=5",
+      "published": "2026-08-22T09:00:17+00:00",
       "source": {
-        "name": "Maville Angers",
-        "url": "https://angers.maville.com"
+        "name": "consoGlobe",
+        "url": "https://www.consoglobe.com"
       }
     },
     {
@@ -694,16 +714,6 @@
       }
     },
     {
-      "id": "0af3f9fe9a3a",
-      "title": "Œuvrer ensemble pour prendre soin de la santé et du bien-être des habitants de la commune d'O Loan. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0N6bjR6TkdacEk3eEgzOXp2dnQ1R0lxcFhJbnRaZ1ozX24wbVBsRFdqOThFWWlIckxQTVp2azVUZjA2MzRhNnhzMmx6dEh6d1lXeXllUFJpdXVYSkZrME5kUGJfdTRjaUc3ay0xRW5ONUtYck83QUh2Y2hILWNGd1Jab2pLRGtV?oc=5",
-      "published": "2026-08-22T09:27:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "f3b9a1d62b3c",
       "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
@@ -731,6 +741,16 @@
       "source": {
         "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
+      }
+    },
+    {
+      "id": "0af3f9fe9a3a",
+      "title": "Œuvrer ensemble pour prendre soin de la santé et du bien-être des habitants de la commune d'O Loan. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0N6bjR6TkdacEk3eEgzOXp2dnQ1R0lxcFhJbnRaZ1ozX24wbVBsRFdqOThFWWlIckxQTVp2azVUZjA2MzRhNnhzMmx6dEh6d1lXeXllUFJpdXVYSkZrME5kUGJfdTRjaUc3ay0xRW5ONUtYck83QUh2Y2hILWNGd1Jab2pLRGtV?oc=5",
+      "published": "2026-08-22T09:27:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -814,16 +834,6 @@
       }
     },
     {
-      "id": "d22e86dfd238",
-      "title": "Examens médicaux gratuits et distribution de médicaments pour la population khmère d'An Giang. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONmV5eGhjZFkxcDdJZXllWXk5Tm5JY0F3aHNVSHZBMUFCQzV5cDJuRFZJZkRqSzhEcV9fUVF3UUN6WVpUeU9RR0FoLWJCa1ktYkpLQXljLWN5LTMzRWJGNGd6OGIycWJQM0dMUEFYY1dOWTIwdzBpYVo5T3BybVk0SHZIMkpHY3VleXk0UFJLTUt5WUU?oc=5",
-      "published": "2026-08-22T09:04:06+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "139c55bff9e3",
       "title": "Actualité - Tensions en collyres : bien les prescrire pour préserver les stocks disponibles - ANSM",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnRCcVltOXNsZ1ZESHphU0F3b3gzNVVxNlUzNnNNWHFXWV9laUZ6YjBPbG5RTExMd3NfUWhhNjRPRXRVTjhSNmg2Smp5SzdyZVVfVUFKd1hYOXM5NGJnOWtlRVZWVElvN2tjWUwwWWFkRmpJV3B1YW9IM1g2ZmJOek5MNVRpU3VZM3gyb0ltU3puQ2RkTHUtT0VDX25GdE00S3A4NlZ2OWJEQWRJSlJB?oc=5",
@@ -861,6 +871,16 @@
       "source": {
         "name": "BFM",
         "url": "https://www.bfmtv.com"
+      }
+    },
+    {
+      "id": "d22e86dfd238",
+      "title": "Examens médicaux gratuits et distribution de médicaments pour la population khmère d'An Giang. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONmV5eGhjZFkxcDdJZXllWXk5Tm5JY0F3aHNVSHZBMUFCQzV5cDJuRFZJZkRqSzhEcV9fUVF3UUN6WVpUeU9RR0FoLWJCa1ktYkpLQXljLWN5LTMzRWJGNGd6OGIycWJQM0dMUEFYY1dOWTIwdzBpYVo5T3BybVk0SHZIMkpHY3VleXk0UFJLTUt5WUU?oc=5",
+      "published": "2026-08-22T09:04:06+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -981,16 +1001,6 @@
       "source": {
         "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
-      "id": "d660dbcef5b5",
-      "title": "Canicule : attention à certains médicaments - sante-sur-le-net.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQUMwYllmYmFISjJoUlRCaFVLWGhMRS1GY3VmV0lheEZUN3g0dzRxOWtmNFFHMUF2VDBVYm9mc2lOUWJrS3I2OHJ0VFJVSVlKUV9LdmlWR3VSSW1KalBTbHQxd0JWbUZVMEVEeW5DQi1IUENjYXZhTXYxZEdiaXJaWXBZdHNTTDg0aVY5aFVpRWswZGVTUzJhZDVfZDFrZU9uZlIzX1R3RzljMW9rN0xkVw?oc=5",
-      "published": "2026-06-29T07:00:00+00:00",
-      "source": {
-        "name": "sante-sur-le-net.com",
-        "url": "https://www.sante-sur-le-net.com"
       }
     }
   ]
