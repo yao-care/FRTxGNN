@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T09:56:34.003643+00:00",
+  "fetched_at": "2026-08-24T10:45:28.426683+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "98e292efe199",
-      "title": "Bétadine, Gaviscon, bains de bouche... ces médicaments « peu efficaces » que la Sécu va moins rembourser - JeChange",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb2haRS1nSnJxVllWeTlUNHltYUFrTEptMWhZNXI5RWhyQ2xTME0zVGJSTGxiU05OSnBKMFpQUk5OSk00WFo5dzloajJHSVdlN0MwRVpleXRvN1kwRkFBaUY3Mmp5MXZQUmNnY0NRZ21HOTZ6NnBLcXQtd19LTUltSTN0dFM3VkJRWl9NbnpBbEhLTEE2SEpvMi1ZLTJkWWQ4dUp5U3JzaUg?oc=5",
-      "published": "2026-08-21T06:00:00+00:00",
-      "source": {
-        "name": "JeChange",
-        "url": "https://www.jechange.fr"
-      }
-    },
-    {
       "id": "d3773f23698c",
       "title": "Dentiste, médicaments : pourquoi votre cotisation de mutuelle risque de flamber dès janvier 2027 - Selectra",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaFFHZnVpYzFYR2o4dk5BRERkaDZIWXJvSmZ3b1pIdmh5d0k2R1pCVE8wRllrVldIMkdQZmtyTEE4cGxMNFZXWVBkQ2dXMzRaUlFId0NGX00zMTJZR3NaQ2RLTnZtdk9NeXpJMHFENUhiZkozbEhxcjlhNkJobUNDMFN6b1pxNUo3azdZTkliQWoyYjBBMkZMRUhtMG5wRC13VVBudXBMbllEV3Mza0xWXw?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "Selectra",
         "url": "https://selectra.info"
+      }
+    },
+    {
+      "id": "38b62789fa95",
+      "title": "Médicaments, transports sanitaires, dispositifs médicaux et soins dentaires : ce que vont coûter les nouveaux déremboursements de la Sécurité sociale aux complémentaires santé - L'Argus de l'assurance",
+      "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPTHA5OTFyVmxIb25KTXhuSjAxTWMydHJPZGdINERUS0JaTHgwTlR1WHhJa1cwMFZvVEhGQ0R6b0U2ODVkTnBRc1BxUUVnQmpnVHd2TlducHcybVdUZGJFRjBSRVRjcS05NTkxb1dmblRfSGkwZ1UtdG1LRGpYNDRHYm82TmVhZ0RKNEVheExSNmg1amNENURVTTA3eFBpejRzejRVemlUYmxfWmRpM3hGWldvTUszdUxER1BVZEN2TWJYYW9MMnJUdHktS1FabjR4aUp1WHZtR0Zsbkh5X1cwbTlKYm9ObUJqWFd4bGZhNUoyVGFIVDFxSHdZSDNOelJYYm9saHJMMjE2OVpuZzFhaG13am1jU1RCWXNLeUJ5ME1PMk1UU2tNYXBxczlObGthSFlYWTN2cXpyR1dzX0x4dG14My0ybXcwUWpYSlJwQWdITkhjYlB6YjlZTkZNTHB5WlNRampnTS1pcS03YkhXd3l3OUFCdW8?oc=5",
+      "published": "2026-08-24T09:48:03+00:00",
+      "source": {
+        "name": "L'Argus de l'assurance",
+        "url": "https://www.argusdelassurance.com"
       }
     },
     {
@@ -84,6 +84,16 @@
       }
     },
     {
+      "id": "98e292efe199",
+      "title": "Bétadine, Gaviscon, bains de bouche... ces médicaments « peu efficaces » que la Sécu va moins rembourser - JeChange",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb2haRS1nSnJxVllWeTlUNHltYUFrTEptMWhZNXI5RWhyQ2xTME0zVGJSTGxiU05OSnBKMFpQUk5OSk00WFo5dzloajJHSVdlN0MwRVpleXRvN1kwRkFBaUY3Mmp5MXZQUmNnY0NRZ21HOTZ6NnBLcXQtd19LTUltSTN0dFM3VkJRWl9NbnpBbEhLTEE2SEpvMi1ZLTJkWWQ4dUp5U3JzaUg?oc=5",
+      "published": "2026-08-21T06:00:00+00:00",
+      "source": {
+        "name": "JeChange",
+        "url": "https://www.jechange.fr"
+      }
+    },
+    {
       "id": "95f275d212a7",
       "title": "Bronchiolite : Abrysvo et Beyfortus seront désormais remboursés à 65 % - Whatsupdoc-lemag.fr",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRkdKaTd6QUdvQ3RXRlhuSVlIbi1Gb25jVUdiTmJFWDd2aDQ5X1VGQnN0NEVCVjh3VXZ2b2xKLXNnTnRVWFJKWGdUZTdEVjIzaVJxR1k3UUlFQWpNRnVTN1Fab2taRXB5c0hzOHB0dmlBdFY4VWJfeDRPU1VSbWRfYzNBV05ZN01qam1OQWg2NjdYOG5pM09WWjVRcUdNREpMMGxRSVZWcw?oc=5",
@@ -91,16 +101,6 @@
       "source": {
         "name": "Whatsupdoc-lemag.fr",
         "url": "https://www.whatsupdoc-lemag.fr"
-      }
-    },
-    {
-      "id": "d3af170224c5",
-      "title": "Tavneos : tous les lots d'avacopan rappelés en France depuis le 19 août - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZllOWk5NQzMzeG4xTUt3MXRXWHNIa1FvTEVmaEJBYzJYbGFCaWxJQkJYLXo3emZYZDRRa1VpUFFiMHNHN1NaVmNmX1Z4X1hmRmhSQUtldjZOX3pKWDJjUVpjcFN6SzFyenBFeTNlQUpuLWhvckNIMnVDeDdENVMxUUJQRkxtUXFoMHdPYkdPNU8yNlpVa1VLY1BrRlBjcGlhTy1NMVMyY3JzRWNkVHQ5NFNYSnhFeXdsOUhvd3dKVXkxU0hIQ3p4UnZzTUFkWHViZ3Z6emZaNDIwS3d1a2cyWmpKbWdVNUpa?oc=5",
-      "published": "2026-08-21T21:29:33+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
       }
     },
     {
@@ -164,13 +164,13 @@
       }
     },
     {
-      "id": "d2422d5f5f2c",
-      "title": "Médicaments, transports sanitaires, dispositifs médicaux et soins dentaires : ce que prévoient les projets de décrets de déremboursements en santé - L'Argus de l'assurance",
-      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPYmc1SEhyWGZhODNrYlYyWHdLbG5wWFVuZWtmNktHY0Y4ODFkYWY0Z2FhVGhTdzJyYmlnLWlsbUpjYng3eDVPVktnNmZ2a1lGLVdZTFhHa1NsVlRGbXdJdkJBbzhlRXN3bzQ5TnlnVzZFeUhqYi16OWZ3SWNnSmhYaFJZTVp6M1hDQkN3S3RpOUR5SmpNbUFfZ1RuM3puUkxMY2RtZ1pqRjJkeko2QjdiNTBIcVVPVHZZUUkxMHZGNk1Qal9BNm8tb0pYcjhWQ1JNWlVaRVQ1LVktWjNmeHNfTVlSLUtLQ3VybnN0OVBGWnZyMEpmMFMySXhlN1ZzZ2NLNkF3cGRJU19Bd1BLY3NOTmhIMUZOaUI3NnR5NTMwWEd6Rmo1VGhiSjNhVEpuejBMREowMUhaT1BjTWphNXd6N3RyYmJXcTE1cF9MSlhyZG8?oc=5",
-      "published": "2026-08-20T09:35:36+00:00",
+      "id": "92f63caf7b2a",
+      "title": "Eli Lilly lance Foundayo, son traitement oral contre l'obésité, au Royaume-Uni - Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU2tDQkZ1M3Ntdks3VExfOHpjVjd1V3l4dnUxZFZoTUdfbkNTRUpkNmpvZXpNcTU5dm1QT1FuZHNGdEE4WEhEQWg3REw5bG90NGFfaTVtbHh6VEU3b21kOG5rbVRtQ3FwNEF1RHYyQWV2RWZocGVGaHZoaGR1U1ZsT2J5SWxSdlE0VXNqVjNhcGxBYWdLUXZZTkN3dmduVHF5bG5GMmhXX1JTRjNrdDhQNVdpeW5SdHlVTXlBWHNVVlo0RXJJSmwwb0RBaTVkbG0wNEE?oc=5",
+      "published": "2026-08-24T10:01:19+00:00",
       "source": {
-        "name": "L'Argus de l'assurance",
-        "url": "https://www.argusdelassurance.com"
+        "name": "Zonebourse Suisse",
+        "url": "https://ch.zonebourse.com"
       }
     },
     {
@@ -181,6 +181,16 @@
       "source": {
         "name": "RTL",
         "url": "https://www.rtl.fr"
+      }
+    },
+    {
+      "id": "b65c11576bd9",
+      "title": "\"Un taux de remboursement à 5% n'a absolument aucun sens\": le président de la Mutualité française dénonce les \"arbitrages purement comptables\" du gouvernement sur la santé - BFM",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPdWVTNG9UYWxuTFdoS0VObndSVXdBUU5CaWNQb3BkZTFqMUNhU1Z3bW0tYVVkX1FhLXdsT295SXA3UGIxeU5wVmhOekt4ZWtLbG14czVIUlJXS1BWaTRxWWJSUUdrS05jeTR3enNoWnY3TGFTQ2JiWWcwZ0pYRm9ldXhoSjBTT3Z2WmdnbjNLUUROSmwzWUhVaG1YMzQ3TUEyTTVNemFNSTBtM1RVTHQxal9YTVByUzBmYW1weFowYkxFcXpjNEd3Y0M1VFVqUmxoakZuWU5vZDIxNU9Dcmh0QVMwbm9aTTBuY1dlYXdzS1VsTWZOdE5QOEFHa2phSmpxanNnSEVMWjREbVk4WklabktrNTdZM3RfWERFUWk3MGMyLTBmdVdtSjI1YXNVQk1LcWMwcUswWjhxQXdyVHhDWnZkZU50aWZJckFERE9BbmJLMm8?oc=5",
+      "published": "2026-08-21T16:08:15+00:00",
+      "source": {
+        "name": "BFM",
+        "url": "https://www.bfmtv.com"
       }
     },
     {
@@ -204,16 +214,6 @@
       }
     },
     {
-      "id": "b65c11576bd9",
-      "title": "\"Un taux de remboursement à 5% n'a absolument aucun sens\": le président de la Mutualité française dénonce les \"arbitrages purement comptables\" du gouvernement sur la santé - BFM",
-      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPdWVTNG9UYWxuTFdoS0VObndSVXdBUU5CaWNQb3BkZTFqMUNhU1Z3bW0tYVVkX1FhLXdsT295SXA3UGIxeU5wVmhOekt4ZWtLbG14czVIUlJXS1BWaTRxWWJSUUdrS05jeTR3enNoWnY3TGFTQ2JiWWcwZ0pYRm9ldXhoSjBTT3Z2WmdnbjNLUUROSmwzWUhVaG1YMzQ3TUEyTTVNemFNSTBtM1RVTHQxal9YTVByUzBmYW1weFowYkxFcXpjNEd3Y0M1VFVqUmxoakZuWU5vZDIxNU9Dcmh0QVMwbm9aTTBuY1dlYXdzS1VsTWZOdE5QOEFHa2phSmpxanNnSEVMWjREbVk4WklabktrNTdZM3RfWERFUWk3MGMyLTBmdVdtSjI1YXNVQk1LcWMwcUswWjhxQXdyVHhDWnZkZU50aWZJckFERE9BbmJLMm8?oc=5",
-      "published": "2026-08-21T16:08:15+00:00",
-      "source": {
-        "name": "BFM",
-        "url": "https://www.bfmtv.com"
-      }
-    },
-    {
       "id": "cbf89a458d9b",
       "title": "Finalement le plafond des franchises médicales ne sera pas doublé : le gouvernement préfère reculer - Capital.fr",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOHZlcEMzemhYajZYb21UZktRQ3ZhZUNacE1VY01iLTlrOXBDdlZWdjNJdWx1a2ItdGNmdzJBT3lwMjh2Q2M4c3pySnVFQVhsWUdub29DMjNwV0tpZ3BadmdacVBKWkxITUNSeGJzbndqZ2l5YVlvVHZpVEQ0MTJscU5rZUNHaVhzaUNodFo3T2h2QTU5d3ExdkhoWnIwS3ZYdVVsd2Yzd3NhNXZ4bnJtVUVZcVgyMG04Wm1jbnZDdzFGb0JfMW9uSkdpUWx5QTYtRUt5NTN1VFRFSGVQSjFaRw?oc=5",
@@ -231,6 +231,16 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "d2422d5f5f2c",
+      "title": "Médicaments, transports sanitaires, dispositifs médicaux et soins dentaires : ce que prévoient les projets de décrets de déremboursements en santé - L'Argus de l'assurance",
+      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPYmc1SEhyWGZhODNrYlYyWHdLbG5wWFVuZWtmNktHY0Y4ODFkYWY0Z2FhVGhTdzJyYmlnLWlsbUpjYng3eDVPVktnNmZ2a1lGLVdZTFhHa1NsVlRGbXdJdkJBbzhlRXN3bzQ5TnlnVzZFeUhqYi16OWZ3SWNnSmhYaFJZTVp6M1hDQkN3S3RpOUR5SmpNbUFfZ1RuM3puUkxMY2RtZ1pqRjJkeko2QjdiNTBIcVVPVHZZUUkxMHZGNk1Qal9BNm8tb0pYcjhWQ1JNWlVaRVQ1LVktWjNmeHNfTVlSLUtLQ3VybnN0OVBGWnZyMEpmMFMySXhlN1ZzZ2NLNkF3cGRJU19Bd1BLY3NOTmhIMUZOaUI3NnR5NTMwWEd6Rmo1VGhiSjNhVEpuejBMREowMUhaT1BjTWphNXd6N3RyYmJXcTE1cF9MSlhyZG8?oc=5",
+      "published": "2026-08-20T09:35:36+00:00",
+      "source": {
+        "name": "L'Argus de l'assurance",
+        "url": "https://www.argusdelassurance.com"
       }
     },
     {
@@ -254,16 +264,6 @@
       }
     },
     {
-      "id": "0f07a407af79",
-      "title": "Mise en garde concernant l'intoxication aux analgésiques et ses conséquences dangereuses. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWpnRnBvOW5JZXg2YU9xS01GeVVmV3pBcV9zYjBmRUsxQk5Zbk1xMG5QcnlPZzZ3eFdUWXZWMzlWdTFhRmJtT2ZWdUR2WXpXWlFuTk04dUQwMzRvNnM3VFpNSG1taGpocW54Zjg1THVHbEpGYTkxTE1SeEdybkZ0cjdHRkQ?oc=5",
-      "published": "2026-08-24T05:18:37+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "34cbfd0b8ec4",
       "title": "Doublement du plafond des franchises médicales : le ministère recule mais ne cède pas… - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY0s4cm4tY3k2MDc0MmM1NWxTLV9XV011RElGU2NZSHg4OXJYaTJBY3V4UHg5aWVZQ2FNWk11RHpXckwyNXJNc01LT2t0QWt1Q3VjUk9YUjczYXQ2MzNLNWxYQXpyTkNsZG5pZEQ1QnhNcXVIbm0yMXRGWWNvbmZYdVZHb2dBcTMxMHdpMnpZOEFhV0EzanV2b3N2RjFCNUdnMUhxUjRIcVlRZEVpUjh6eDRNWm96WVFQTElyWno2SzVHOUlNUGFrbVhOdDBTTHlaSXpuMURJUmhjNFA5dW5tS1RxQjFHTWZJ?oc=5",
@@ -271,6 +271,16 @@
       "source": {
         "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
+      }
+    },
+    {
+      "id": "0f07a407af79",
+      "title": "Mise en garde concernant l'intoxication aux analgésiques et ses conséquences dangereuses. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWpnRnBvOW5JZXg2YU9xS01GeVVmV3pBcV9zYjBmRUsxQk5Zbk1xMG5QcnlPZzZ3eFdUWXZWMzlWdTFhRmJtT2ZWdUR2WXpXWlFuTk04dUQwMzRvNnM3VFpNSG1taGpocW54Zjg1THVHbEpGYTkxTE1SeEdybkZ0cjdHRkQ?oc=5",
+      "published": "2026-08-24T05:18:37+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -304,16 +314,6 @@
       }
     },
     {
-      "id": "be0348d33337",
-      "title": "Examens médicaux gratuits, médicaments et cadeaux pour les familles ayant droit à un traitement préférentiel et pour ceux qui ont rendu des services méritoires. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTHJjYURYdzcxZElJWWp1dWxjRnBFYWZIWHJ5dlNpYlBmVGpES1ZxZXphaWZzWnlNWlRoRi1qeHdBVFZ6RThYMFlnSWgtdnNuMzBuWDlJWm43ZThRYVlrY014c3ZHdDQ1OXNPS3FBS3FldUs0MjN3eEhGd2dyTVU0OVgyMDMyZlhYZXJCelZ1SkdFMmNBUWJtei05UEx6WmN3aVRaUmMwaw?oc=5",
-      "published": "2026-08-24T03:21:07+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "2ee6aa2d492a",
       "title": "Pénuries de médicaments, médecins non payés... le système de santé palestinien au bord de l'effondrement - RFI",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcktCV284RTNaRUd3SVIxam5Ibk1lSUhzcEZpX0RCS2k1NVFMdXN6cEpGd2pEVXpGR1NYTTBrWElRZXFTT0MyZzZxZ3VKcEszY3RKMHhZeDdjekNZNTJTVW9MZ3VoVHJCYTZjMl9kNkdSNG5VdE0wU0tsVnZhNlZtUjFJNkdIa2laajBBQkdxOWpMLXI3TUotcjBKanZtNjBQckFmVEVFbHZTVE9fUG1nOUNFWHdBdnZhLS1FeGNfaFlsYXNmamQyRFptekVQaWkyRmNDZzAzaEtMRXBQNnp5bEI0S0YzbjZ5NkpNOUtfeGJjaEFDaUJJZTY5VDV4UFRPbXc?oc=5",
@@ -331,6 +331,16 @@
       "source": {
         "name": "Pourquoi Docteur",
         "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
+      "id": "be0348d33337",
+      "title": "Examens médicaux gratuits, médicaments et cadeaux pour les familles ayant droit à un traitement préférentiel et pour ceux qui ont rendu des services méritoires. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTHJjYURYdzcxZElJWWp1dWxjRnBFYWZIWHJ5dlNpYlBmVGpES1ZxZXphaWZzWnlNWlRoRi1qeHdBVFZ6RThYMFlnSWgtdnNuMzBuWDlJWm43ZThRYVlrY014c3ZHdDQ1OXNPS3FBS3FldUs0MjN3eEhGd2dyTVU0OVgyMDMyZlhYZXJCelZ1SkdFMmNBUWJtei05UEx6WmN3aVRaUmMwaw?oc=5",
+      "published": "2026-08-24T03:21:07+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -394,6 +404,16 @@
       }
     },
     {
+      "id": "d3af170224c5",
+      "title": "Tavneos : tous les lots d'avacopan rappelés en France depuis le 19 août - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZllOWk5NQzMzeG4xTUt3MXRXWHNIa1FvTEVmaEJBYzJYbGFCaWxJQkJYLXo3emZYZDRRa1VpUFFiMHNHN1NaVmNmX1Z4X1hmRmhSQUtldjZOX3pKWDJjUVpjcFN6SzFyenBFeTNlQUpuLWhvckNIMnVDeDdENVMxUUJQRkxtUXFoMHdPYkdPNU8yNlpVa1VLY1BrRlBjcGlhTy1NMVMyY3JzRWNkVHQ5NFNYSnhFeXdsOUhvd3dKVXkxU0hIQ3p4UnZzTUFkWHViZ3Z6emZaNDIwS3d1a2cyWmpKbWdVNUpa?oc=5",
+      "published": "2026-08-21T21:29:33+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
+      }
+    },
+    {
       "id": "d1d509cd6499",
       "title": "Une lueur d'espoir pour les patients atteints d'un mélanome : des résultats prometteurs sur un vaccin expérimental contre le cancer de la peau - RTL",
       "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNS3pveURNSFEyb3FqbUhhNDRtMDlqcG4yZEpCSU9FMTFtUVZvajU2aWFoRXpwdUNmSzBtenpuYms1dGRvV2N3TzduTlg5SFhTekFGY2dZVlJEdm1qNDQ2amw3eTlacjlwQ090aUY3ZUxZMXV0RTRndkJYdXpCTU11dy1YSVBIa3dWUGJwQjg2RHotNkVzRlNJNS1ySmlabTBUZXQtSWdwU2xqU3FiMFVhbkViVXlLLWc3ajQ1STB6bEJmSGZaT3I2RW9FdmdwcVNYMkJuTlJOVUdfeWgwcF9BWTJfTGV4QmF0X1N2bmItODVHYzNMSUNWRHlTeEstSHpMQmptU2lwX2tld3JaRFE?oc=5",
@@ -401,6 +421,16 @@
       "source": {
         "name": "RTL",
         "url": "https://www.rtl.fr"
+      }
+    },
+    {
+      "id": "3d6b56131375",
+      "title": "Santé : Médecins spécialistes : la FCSOU réclame l’application d’une décision du tribunal - lexpress.mu",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQm41ZFdyTHVvVmkzWlhkU1UxZkhxRENIQmJEYTdKYlIzdGVmbGI3Sk1mWjJTQ1d2eWk4S2c0RVlieWl4QkFienZudnVWNzAzTml2dlFxZTZtLU54MWFwSEV4WjFEeEVQNmNkbWpwTmRMUmkzTWdqd2g4YThtbFFhRzNOSF9wbkNwYWJfekRldnJxUm9ic0J0N2VmSURBeDZ5RDRHdDk3bTJudw?oc=5",
+      "published": "2026-08-24T10:00:11+00:00",
+      "source": {
+        "name": "lexpress.mu",
+        "url": "https://lexpress.mu"
       }
     },
     {
@@ -654,16 +684,6 @@
       }
     },
     {
-      "id": "f6872d41eec2",
-      "title": "Après 31 ans de dépression résistante, un patient de 44 ans retrouve la joie grâce à une avancée scientifique majeure - Science et vie",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOemdmdlFmUzhDTkc1RzZHVDgzclpMWDk4SXNsZEtEdUxSbFV6eFpSNFVCbjU2YW4zZnFzWWV2YWZiTXcwV0tGZGlGanhHTWhWQkQ1YkJfN1FSZUFwWXptSmFPMHd5TjZWalpBQVFFR2JnUGRkUjZmMGgyNk5NNUFyOGdQbEZBdUdnM1VkNmcwSGdVTTJ5dk13Q0Vad2N1Tmtvb0NjRTlrazVvQng3OFUwRXBsaDRCU1V2SXgzdTd6aDFzNm5rZF9ET19GZm1fdW9sR3lVQzV4dHdqSGxXOU1UTzhlNHZGLUwxZDBNQlJPMkZpQnZUR3pBYmpB?oc=5",
-      "published": "2026-08-21T11:30:12+00:00",
-      "source": {
-        "name": "Science et vie",
-        "url": "https://www.science-et-vie.com"
-      }
-    },
-    {
       "id": "2e5c8a59d50c",
       "title": "Accès précoce à des médicaments présumés innovants : pour un pari mieux éclairé - Haute Autorité de Santé",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ2Zsejk0NVB1bGVpLTJiVi13b2xMM3hhVW5GXzVzSjlRT00tZjY3Zmp4eUZPS1RFLWNtWEIzMmRUWkJhQVdxR0tHdVFoYkxfbnhrc0RjUEZKLThUUDdKT194WWItNi1hal9aUFlCNjJCaHJoUGZZU1NJTDVEQ010cGVtbWZmTkFBRVdFNE10cE4tNjBHaWlKU19xS2dfWUo3SlRVV0FGNjh2WlhBLUQwNVJlRTJnbnFVbTNVdA?oc=5",
@@ -734,16 +754,6 @@
       }
     },
     {
-      "id": "c52a04970620",
-      "title": "\"Ca n'a pas évolué depuis 20 ans\": la ministre de la Santé annonce le doublement du plafond annuel de la franchise sur les médicaments - RMC",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQWWhKanNqS2tYWXdDRnNobERVczAtQlJ6X2ZPZXltbjdQOW5vMDFGWDl3aTc0WXVXSEpGUU84UmZlV0haWEszS2xUaEhEZUFJLVE2UW5XV2ZlemxNYTlPb2RoWWxwSllmZmhnWW9PbFkyTXFwODRMcUNVTHBHSFF6VWxCX0RtbTQ5dVl0SmF5UVpLbGNpWkdwZDVGOTFyRGo0Tjhqd1hkSmQwM2FYTU5zZjlhR1phTkRsM3pfbkk0TlRmMVZjaUVpQXdKTHU1WWNQdTJzb29GbUZVMFBOZ0VqV1FaRkltdnJMemQ5ZW1mTkFuSkpPVmp3T0RNdHVQZkpfc0ZxTUFLVTYyNW9ZN3pFc09DaFZMcVp5SXBSNTNXejgta09kWFE?oc=5",
-      "published": "2026-07-23T07:00:00+00:00",
-      "source": {
-        "name": "RMC",
-        "url": "https://rmc.bfmtv.com"
-      }
-    },
-    {
       "id": "d6d38ac34bbb",
       "title": "Statines : pourquoi elles causent des douleurs musculaires - consoGlobe",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjBncEpVWVRjbnNrVXFYejZWZGxJaHBhcmNYSEk1SExpRnBNR0FTVzdKQmduQTRzOGpwTmg3YnhrSGZPX0VYOW9OVWhGeWdVTS12bkJqZXNKVGVzNlQxelY1Zm5FU1RGNVlfaEZ6a2pZRzhvMG5CcGZTT0NBRXJMcXhNSQ?oc=5",
@@ -754,6 +764,16 @@
       }
     },
     {
+      "id": "c52a04970620",
+      "title": "\"Ca n'a pas évolué depuis 20 ans\": la ministre de la Santé annonce le doublement du plafond annuel de la franchise sur les médicaments - RMC",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQWWhKanNqS2tYWXdDRnNobERVczAtQlJ6X2ZPZXltbjdQOW5vMDFGWDl3aTc0WXVXSEpGUU84UmZlV0haWEszS2xUaEhEZUFJLVE2UW5XV2ZlemxNYTlPb2RoWWxwSllmZmhnWW9PbFkyTXFwODRMcUNVTHBHSFF6VWxCX0RtbTQ5dVl0SmF5UVpLbGNpWkdwZDVGOTFyRGo0Tjhqd1hkSmQwM2FYTU5zZjlhR1phTkRsM3pfbkk0TlRmMVZjaUVpQXdKTHU1WWNQdTJzb29GbUZVMFBOZ0VqV1FaRkltdnJMemQ5ZW1mTkFuSkpPVmp3T0RNdHVQZkpfc0ZxTUFLVTYyNW9ZN3pFc09DaFZMcVp5SXBSNTNXejgta09kWFE?oc=5",
+      "published": "2026-07-23T07:00:00+00:00",
+      "source": {
+        "name": "RMC",
+        "url": "https://rmc.bfmtv.com"
+      }
+    },
+    {
       "id": "cf6cf2aca36f",
       "title": "Dépasser « un certain nombre » de médicaments et consultations par an risque de vous coûter plus cher - Le HuffPost",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZS1UNW1uSldHbFdxSWJNXzFuZFBBQnpIZGdFZi1iZ1JlTFBuYnVMNHowTldORzdfdndUUTRvZDZadm95d0R3TF9OUFp2cHJDQy1vcXpRWFUyWjBLdkFBRm81RGdqb0REZDh4WUFISXZ0S1B3Rk5ESk1kajNoZ2Z5MDJ0aVBFbXdTS3k4NHNBaE9XWEJVNlZ0S2FPRWRDMW9CNVZ6QWlicHBZYVg5S256NUlINEE5dzZIZk5JT0lBZkZzbjRCN0FmWHRsY21Ca2l1a3JVSGtfZEl2bE9xNHNXMUJsS0VqeDM0a25nLXN3?oc=5",
@@ -761,6 +781,16 @@
       "source": {
         "name": "Le HuffPost",
         "url": "https://www.huffingtonpost.fr"
+      }
+    },
+    {
+      "id": "f6872d41eec2",
+      "title": "Après 31 ans de dépression résistante, un patient de 44 ans retrouve la joie grâce à une avancée scientifique majeure - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOemdmdlFmUzhDTkc1RzZHVDgzclpMWDk4SXNsZEtEdUxSbFV6eFpSNFVCbjU2YW4zZnFzWWV2YWZiTXcwV0tGZGlGanhHTWhWQkQ1YkJfN1FSZUFwWXptSmFPMHd5TjZWalpBQVFFR2JnUGRkUjZmMGgyNk5NNUFyOGdQbEZBdUdnM1VkNmcwSGdVTTJ5dk13Q0Vad2N1Tmtvb0NjRTlrazVvQng3OFUwRXBsaDRCU1V2SXgzdTd6aDFzNm5rZF9ET19GZm1fdW9sR3lVQzV4dHdqSGxXOU1UTzhlNHZGLUwxZDBNQlJPMkZpQnZUR3pBYmpB?oc=5",
+      "published": "2026-08-21T11:30:12+00:00",
+      "source": {
+        "name": "Science et vie",
+        "url": "https://www.science-et-vie.com"
       }
     },
     {
@@ -971,36 +1001,6 @@
       "source": {
         "name": "France TV",
         "url": "https://www.france.tv"
-      }
-    },
-    {
-      "id": "29482c5cf8f9",
-      "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro seront remboursés à compter de la mi-juin - Libération",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTV9QaDZSQ2FzM281RnlHZktySC1VV3BOMHNuV0tacE9LaW9ZM2U0MERhNzgxM1FyVVRBdExieTJNMkxEMmtzRFBhS2txMFhTei0zYnlnR0xRWmtMdkF3RGJSU2haczJOQi1acUt3bmkzQmY3bEhUSTlhcDAwZ2tXRm5URmRWQkZZek1wSEVGZm03RUhielZvZUNJMXZOcHVzRl9DdjdsVmlSclIxRGFzb0RTUEhJVUpHQkVDVTFfUUpYRjZlX2lHd2FkbmtPNGNpMjZ2d0ZObnFQdzR3THRfcDFDVDhrbWc?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Libération",
-        "url": "https://www.liberation.fr"
-      }
-    },
-    {
-      "id": "b94433fda0dd",
-      "title": "Le gros coup de pression des laboratoires pharmaceutiques face aux baisses de prix des médicaments en Europe - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZFdEbkd3UzVBcUN0eW83T0dYUWRjbHFESW96SXFKZmlTWTF0REQ0NkNYa0xWNkJPQzlyOHZfMHVEazBqUklDQmVodFJaX2h3R2dJUE9OMHh6X2dJUFc5VWJwZTBjRlRIZHVBOXhQc3Jjc2NidFZxWTJ5NTZhSm5zeFk2emlOeFJvVGNKZGtQQTFrLXlOdzZkeTBrZHVMb2VIRXo1ZGdISk5XalBKWjVYdWY5RWJNZ2tKQjlGeHhDM205NUwxVGd4VTVhU1loRXNJX1ByTVFLZ3Zteklvd2ptRWdJVW1kVXk4NWdGLTk2N1ozWU1DVUo0TEFaZmR5SGxHeUk3YWN3?oc=5",
-      "published": "2026-06-05T07:00:00+00:00",
-      "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
-      }
-    },
-    {
-      "id": "4593bc51923a",
-      "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro bientôt remboursés par la Sécurité sociale - L'Express",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdGlxYVNhU3VKSHhrR2dKelIzQU9vUU05ZkR5UkphZWp4RHZzOThiSDRQMnlvY3pUS1NCUkJva2ZhQjlFTmJmTmJHemJGRnRSTnlSd0lvVGphUGlDanFJa1NMN3YtYjRMTVdXMjdTUWxIU2FrUjZLeUxhY056bElodWt2ZjY4OXJKVG12Ml9oWlc3Z3FmOGY0elFJcXBWVjFnS2NmMXlrWXlib3pEZFlXVER4YVo3ZnRMdFhxRk5kUGhabjJDSFRqaGhBN1Rmd3d6NWpoYzIyUk80SE8xQ0M1eENzZGE3OG1IZmVlWV9nVVM4a21VSWJKZA?oc=5",
-      "published": "2026-05-28T07:00:00+00:00",
-      "source": {
-        "name": "L'Express",
-        "url": "https://www.lexpress.fr"
       }
     }
   ]
