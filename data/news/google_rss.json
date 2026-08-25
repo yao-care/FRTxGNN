@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T18:49:09.385059+00:00",
+  "fetched_at": "2026-08-25T19:37:16.348846+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "320d32f4b92e",
-      "title": "\"Entre 10 à 30% de chance d'acheter un mauvais médicament\" : les dangers des produits de santé vendus sur internet - franceinfo",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdll5emVLYy13VHlzMlFKTE10MHhtM1lNc1NDSjZzYnBreVBjUEFoS2ZFdnJOMDBnUTV5MkFyNFpFQ3lNWEEzbzJaTno1TnFMU29sX1cwQ1g1OUJWY2VSTmx3ZGY2OWhDanJmeXMzU2NHVUtnSVdYQmJxX2tnSUI4QTMtc3Nzb3FCeGJYaHF1NjJEZmNvSl9PUmFGZWR5NWg4T2tpMUxXSjhfTjZTSzNWUGxmLVB3a3Q4WFhvdDMtd0RQX1lvbXlQMnRETnZyNHJvdENKQVhqUTRNd3BJSXpLVV81ZGJPZnNmQVE?oc=5",
-      "published": "2026-08-22T18:32:27+00:00",
-      "source": {
-        "name": "franceinfo",
-        "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
       "id": "989da4392d8d",
       "title": "Vous faites sûrement cette erreur lorsque vous partez en voyage avec vos médicaments, avertit une pharmacienne - Top Santé",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNcWNUeEpQUS1UQ0Ytd2dOb210RlRselBtVFZPdkZCUXR1UVJJSktpR29iZTV4XzdVWk9US1FpZWpmY3pza1h1MkkwNEtubkdCWk9qMmlpX2NsLW1QUkMzNHFBaEMxbWRJbHJSQlpVWUpJYVBWcEN2bDhqTE9HYzFqUF80djQxOGVJUEVOUkNoRTdWR2FJRl92VEQyMzN4Qjc0N0t4d21zbEc0WC00SjFXbEMxZ290N2I2VWxqVXRIcTN0SFVmcUVTQTBxcHdibE8xNWFQQUhhWmZVT3E5LUhWLUs0REMtN2l3cU04dWZHdDFCVGN0V2lRNi1OWVkycjUwZjhLWm1lcWp2TkZzX1M0?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Top Santé",
         "url": "https://www.topsante.com"
+      }
+    },
+    {
+      "id": "320d32f4b92e",
+      "title": "\"Entre 10 à 30% de chance d'acheter un mauvais médicament\" : les dangers des produits de santé vendus sur internet - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdll5emVLYy13VHlzMlFKTE10MHhtM1lNc1NDSjZzYnBreVBjUEFoS2ZFdnJOMDBnUTV5MkFyNFpFQ3lNWEEzbzJaTno1TnFMU29sX1cwQ1g1OUJWY2VSTmx3ZGY2OWhDanJmeXMzU2NHVUtnSVdYQmJxX2tnSUI4QTMtc3Nzb3FCeGJYaHF1NjJEZmNvSl9PUmFGZWR5NWg4T2tpMUxXSjhfTjZTSzNWUGxmLVB3a3Q4WFhvdDMtd0RQX1lvbXlQMnRETnZyNHJvdENKQVhqUTRNd3BJSXpLVV81ZGJPZnNmQVE?oc=5",
+      "published": "2026-08-22T18:32:27+00:00",
+      "source": {
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
       }
     },
     {
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "851ea8d9eefb",
-      "title": "La Suède s'efforce de produire ses propres antibiotiques, mais il y a un hic - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYkJhcG1Dc3hBdkpnQnBGV0tQUG1XQzUtNHdOcl80WjJlR2l5LVFYWFdzeVJiWXd6eThtb2FfYW4yU1BaY2s5TkdBdDVUWFZHd1dOM1hWbVhIVWQ0TUxabWw4cndiLU1kVDdyX0hpRDdmU0tDS3VIYmJKRFUtcV9sSzJZWklqYXh3YUdacTVZWFliZlE?oc=5",
-      "published": "2026-08-25T10:18:00+00:00",
-      "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
-      }
-    },
-    {
       "id": "c65d507d04e5",
       "title": "Avec ce nouveau mastère de Polytech Marseille, jeunes diplômés et professionnels apprennent à concevoir des médicaments à partir du vivant - L'Usine Nouvelle",
       "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxPZDBDenN5N1YySW42MWtmd0hRV3lQWVN0UXRnc0k3dEhpaHNPWEJQM3l1YkNCNTFvWVp5UENZLUJLSEpwTWczRFk2MWpweDRBYmZfUy03Q2U4Zy1TQTVKT3owM2VTOS1Nb2tLMUpDT2xLeVN6VUVPRDFLbVN3ZXlVWS1pWHRGSjlmUnNXQXpwcnBibE1rNEljYm1JNWM0Q0RNTXhYdWR0YTczR0hWa2ZVSEhaUkNDT2p4a1BEN2JFZUpmeXZHYVJ0WmZMaUc3MzZ5SU5hdmhoWUg3LXJZNnpmZU95MzBpZUE3U1RZZUpVOFlaT3N4NjZKaTJoUXFyd0FKWENCaW1SazRybEFfY0Z3TGFOeFZvUDlPZEFZMDJrUTdpOGI1M0daZ25ERGp4OWRTNEtRTTdkQ3FyWDVzc1JsLXJlMGtRZ293Rkh3cHlXTVJyc1J2cVh6cXFGd1RLRDd5MXc?oc=5",
@@ -141,6 +131,16 @@
       "source": {
         "name": "L'Usine Nouvelle",
         "url": "https://www.usinenouvelle.com"
+      }
+    },
+    {
+      "id": "851ea8d9eefb",
+      "title": "La Suède s'efforce de produire ses propres antibiotiques, mais il y a un hic - euractiv.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYkJhcG1Dc3hBdkpnQnBGV0tQUG1XQzUtNHdOcl80WjJlR2l5LVFYWFdzeVJiWXd6eThtb2FfYW4yU1BaY2s5TkdBdDVUWFZHd1dOM1hWbVhIVWQ0TUxabWw4cndiLU1kVDdyX0hpRDdmU0tDS3VIYmJKRFUtcV9sSzJZWklqYXh3YUdacTVZWFliZlE?oc=5",
+      "published": "2026-08-25T10:18:00+00:00",
+      "source": {
+        "name": "euractiv.com",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -194,23 +194,23 @@
       }
     },
     {
-      "id": "9cdea0c510c1",
-      "title": "Transport, médicaments, dentaire : les décrets actant des hausses de ticket modérateur sont publiés au Journal officiel - AEF info",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcmE3ZHdVZThYVjZGOUg2RGFNTEZaTlVZV3dZb3lCUnJUa2t5YzVGMUNDdF9VbTI5Q2lpU0lDSDVMdGJDcXliYnBFTnBFTzNEU3FiRGxYQWJLMWpLcDJyX2EwY0ZPRG1yM2lQUnBCazh0ZXM2UDdWbi1sMzdmaFpnUWltbm1Pc3ZIZjhOOFVmOWx3YTlqZEVFa3hRUzlLVTJtTHJoeVZNNWJKMmV3ZEU2dk55RXlPN2hjVTJRMjQ0LUNvM19NRDZuY011Y2Zndm9UaFhpbG1mTkJGeWxVdlNYTmsxeFFnOTJU?oc=5",
-      "published": "2026-08-24T00:19:37+00:00",
-      "source": {
-        "name": "AEF info",
-        "url": "https://www.aefinfo.fr"
-      }
-    },
-    {
       "id": "8f0f7b6d1be2",
       "title": "Ces médicaments très courants pourraient laisser une trace dans votre intestin pendant des années - Top Santé",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYUU1QXVhc1o5SXJ3eWxiQmZXdXpFRTRjWkx1Q3BOOVhtRWg3djZ4WFRUVXVENWxxczJmMzZfNnljZ0F0RmtVZVhXQU4xOURxLWZzQklGaUdzUVFKajROWmpTcnY3eDN2UjVVQWxBRjRNcTFpNjhtMExyVFJjQklIUXlEbEtjNWwxbmlhSVNHd3F0R2RLN2JfNTI1VzFENUlUcjZ6alNtR3Q3R1RMTkpXdUc4eHV4Uzh2UHRYekM0NUwtWDRETEJXSVYwX1JiTlR6eEN5UVd1MzBQODQ5RF9HMEtwREVRVl9UN2FQSEJQTFZjTjhiZGduU05aeVJodHViT1pmRFNBdkxBWmVJQlBF?oc=5",
-      "published": "2026-08-25T14:39:33+00:00",
+      "published": "2026-08-25T16:35:08+00:00",
       "source": {
         "name": "Top Santé",
         "url": "https://www.topsante.com"
+      }
+    },
+    {
+      "id": "d4e99732bb76",
+      "title": "Hausse des plafonds des franchises médicales: quel impact sur le prix de vos médicaments et le porte-monnaie? - RMC",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQWFRUMjJOMmhHS1lCUVpvU1lQS1N0QXhLRTBZcG9FNk9odVB3bkdTeVd6c2ZSU2kydm5oRDhlcFNQV21WME5sTE1TYzl6aHFlOE81UjlrOUhabXhpWElfSUgwLU1aWVVSUkxrUFB1aUhQeURib281MGo0MkN1NjJIVlJDbV9Kd2pHYjdTWDNTRkJTRXJYalhCaEFwU3hiWUh6YUVZZmY2Y2hNdFl0TzhBUk5OckRWQXNjRW5xOFFPaWJ6NDZTQWFWemM4X2Y4bG5xbnVreUl2VlVuYU1XcmNVX1ktSTNjX2tJek9Kc2VFaUxFQUZURExtUnRnNW1QMzI2?oc=5",
+      "published": "2026-08-25T08:16:56+00:00",
+      "source": {
+        "name": "RMC",
+        "url": "https://rmc.bfmtv.com"
       }
     },
     {
@@ -224,6 +224,16 @@
       }
     },
     {
+      "id": "9cdea0c510c1",
+      "title": "Transport, médicaments, dentaire : les décrets actant des hausses de ticket modérateur sont publiés au Journal officiel - AEF info",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcmE3ZHdVZThYVjZGOUg2RGFNTEZaTlVZV3dZb3lCUnJUa2t5YzVGMUNDdF9VbTI5Q2lpU0lDSDVMdGJDcXliYnBFTnBFTzNEU3FiRGxYQWJLMWpLcDJyX2EwY0ZPRG1yM2lQUnBCazh0ZXM2UDdWbi1sMzdmaFpnUWltbm1Pc3ZIZjhOOFVmOWx3YTlqZEVFa3hRUzlLVTJtTHJoeVZNNWJKMmV3ZEU2dk55RXlPN2hjVTJRMjQ0LUNvM19NRDZuY011Y2Zndm9UaFhpbG1mTkJGeWxVdlNYTmsxeFFnOTJU?oc=5",
+      "published": "2026-08-24T00:19:37+00:00",
+      "source": {
+        "name": "AEF info",
+        "url": "https://www.aefinfo.fr"
+      }
+    },
+    {
       "id": "c93cb0feb0c2",
       "title": "Médicaments anti-obésité : le marché parallèle en embuscade - Presse Agence",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTVNXM2Y0M2dtak9jTDJPMDFuOWFNT2tTekhldnFVbFZZSUF2ZXRSNklBZWJMdXBMVlgxRmNpOElnaktUTEJfOVBRODNNSE9PMHRtUGhwV2dIcklIVExMdk9wQU53MkNEVENza3VMLUNJakNTX0l1ZHRfVzBYWEE5TnRWS3FVUG40eGtjYnlncThsTWFncHJBemxTT2tyeXNDSVJEUm9Ya1ZWT0txSmdxV3RrWmxHSFd3cTExZm42cXBqMDIwcXNqd2p3?oc=5",
@@ -231,16 +241,6 @@
       "source": {
         "name": "Presse Agence",
         "url": "https://presseagence.fr"
-      }
-    },
-    {
-      "id": "6e4e03307172",
-      "title": "Le ministère de la Santé intensifie les inspections, les contrôles a posteriori et les mesures coercitives contre les produits contrefaits et non conformes. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0ttYUE4LXlIR1BzeWp6OEJ5bm5LSDFWbU9KYjFYT2REeXo3NGRSTzJhN0hKMUtzbzRnZEJYNHZoRFFKMnlkZTRPRXQ3anpzM1BtaU1uUWo0TW1fbnRVel8yZlppNFZhX2xDcUxHSmNyZ0NHeS1SdjVPS0pYWFdBekRJMVlXbDEzTkExMkQ0VUlRY2JmNTJEVGliSVlBQQ?oc=5",
-      "published": "2026-08-25T14:52:11+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -254,6 +254,16 @@
       }
     },
     {
+      "id": "6e4e03307172",
+      "title": "Le ministère de la Santé intensifie les inspections, les contrôles a posteriori et les mesures coercitives contre les produits contrefaits et non conformes. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0ttYUE4LXlIR1BzeWp6OEJ5bm5LSDFWbU9KYjFYT2REeXo3NGRSTzJhN0hKMUtzbzRnZEJYNHZoRFFKMnlkZTRPRXQ3anpzM1BtaU1uUWo0TW1fbnRVel8yZlppNFZhX2xDcUxHSmNyZ0NHeS1SdjVPS0pYWFdBekRJMVlXbDEzTkExMkQ0VUlRY2JmNTJEVGliSVlBQQ?oc=5",
+      "published": "2026-08-25T14:52:11+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "b381a341fe5e",
       "title": "Franchises médicales : le plafond porté à 140 € contre 100 € depuis 2005 - La Croix",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOEQwOUcwMWhLalVTU2wtUzFvYXdIOU0wZVdjVE9NVjRwcjJDbVJVRkFYdm5yYlBFUEFqam01aS1hU25FSjBJWVE2VzgzelE5ZlFmUFhUQ0taVEF2WEFxRjh3SV9GbkNsWUY2VTZtUEVIaGtRaHFTdHduUGJDWmY0NWZ0cDZsTXJpRXBzREZ3WS1UWXh3Y0d6MjAwb2R5VkFnRlhsS3lTUjlBTFlyTDBPaW5xRDMyYVF0X1lYYVROX2o?oc=5",
@@ -264,12 +274,12 @@
       }
     },
     {
-      "id": "d37dd9781031",
-      "title": "Des scientifiques découvrent une nouvelle piste pour des médicaments à ARNm plus puissants - Euronews",
+      "id": "885e372f223c",
+      "title": "Des scientifiques découvrent une nouvelle piste pour des médicaments à ARNm plus puissants - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSk9lMDBzZXJsclBtQ01oYktKcGwyLURRREwwY1B4Wm42dVBvZTRiQ3lCSm9FWU14RWRoWEQ1ZTQ2M0NjVG85V0Y0UExTUkttdWxKWHZmREdHRndZLTV4YUE3U3BHc3Q4RzZlblE3ZDN3NU96SmNGbG53V3ZISmEyWjN2X3JLd2hBUHBFRmFlcFFNdG9hdE5CUE5xdnRZUmNFa09GaS04cTViV0FrV3Jrc2M1OTVMTVkxQUZZY1dzSk9jdmE5S0toaUwyTQ?oc=5",
       "published": "2026-08-24T05:02:45+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://fr.euronews.com"
       }
     },
@@ -304,6 +314,16 @@
       }
     },
     {
+      "id": "8a2d6677604a",
+      "title": "Dans l’Actu : progrès dans le traitement de l'épilepsie - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY1NLV2VZakEwZF9XTzdmOXI3REh1QTI5ZkMyZUZqcVA4cThwQ3dvRDlTVmVaNWEwZy13YTVUUzctaDhFVkFHN19fVUFkMXRhLUlha3Z0c1RMMEVCVmNoNkkxMGZvWlVWSWdjOC1XNFA0SGMtbVpRWnk1c09PRTRuMWRncFpoR1ZCdHA2Tw?oc=5",
+      "published": "2026-08-24T07:05:31+00:00",
+      "source": {
+        "name": "Medscape",
+        "url": "https://francais.medscape.com"
+      }
+    },
+    {
       "id": "07c9f7277d8c",
       "title": "En Espagne, un laboratoire fabriquant illégalement des produits contre les troubles de l'érection a été démantelé - Science et vie",
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPdklMWV9aSGFkWWlBMVdaN01nalZaa3VJZFAtUHI4Yk0zZzB6a2xNZU1DaDhuUmZOOXVGMDFwcmpaMlp1YkUwY3VmU2FLYkljRkZjNC0wTExDcVNfZFpKS2hNQVFQekNoZ05MUUxCdmpHU3B4SEdGakx4cjQzZno0d3JIN19acFJvcmpFX3lLQW1ZamhRb0I1bmUtZV9ELVRRZ2tfcXZHWmV5Q01LOHJweDNFN1NaRW93MFMyZVpKQVJuQU9TM0liSnk1Tk9NdVI3Yl9QcXJOSkJRbThMei1fT053ZWp1a1U5VU9qU1VKNHpCaGhVSnZaWm5YcVV5UQ?oc=5",
@@ -321,16 +341,6 @@
       "source": {
         "name": "nippon.com",
         "url": "https://www.nippon.com"
-      }
-    },
-    {
-      "id": "8a2d6677604a",
-      "title": "Dans l’Actu : progrès dans le traitement de l'épilepsie - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY1NLV2VZakEwZF9XTzdmOXI3REh1QTI5ZkMyZUZqcVA4cThwQ3dvRDlTVmVaNWEwZy13YTVUUzctaDhFVkFHN19fVUFkMXRhLUlha3Z0c1RMMEVCVmNoNkkxMGZvWlVWSWdjOC1XNFA0SGMtbVpRWnk1c09PRTRuMWRncFpoR1ZCdHA2Tw?oc=5",
-      "published": "2026-08-24T07:05:31+00:00",
-      "source": {
-        "name": "Medscape",
-        "url": "https://francais.medscape.com"
       }
     },
     {
@@ -354,6 +364,16 @@
       }
     },
     {
+      "id": "ff97dad169b0",
+      "title": "Ozempic, Wegovy: les médicaments GLP-1 pourraient-ils freiner les comportements violents? - TVA Nouvelles",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR0wtcEVoN1JCUFJMWGdJOGpLdnRNZk4tUjMzSnllS2RKWDZGdTY5MmZVbnp2WDhZVVF2SGJ2dkZTeHBRdGRoSUowcmh1S2xselBoNzJQajFGcHZvZkxrMlphRmVsdXdWaVU0ZUpydmNyMUlzTG9CREt5T09jc3BDbnp3TW9EUE1fcHQ0QUlBUUVPT24wYWgyOURtMFNZQWVqRlp3eUIzUmJJOFJLM25HV3lycU0xZFI1Y21yYXFHQTZ2Rm8?oc=5",
+      "published": "2026-08-25T17:37:46+00:00",
+      "source": {
+        "name": "TVA Nouvelles",
+        "url": "https://www.tvanouvelles.ca"
+      }
+    },
+    {
       "id": "82aa87863c60",
       "title": "Médicaments essentiels - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82eFhXSHNDWlpJOU9BaVY2ZXE0anZLdnBMUmZRaGt0a0NyX3M2TERXOGNSSTdJU2ktczJrVFRjclN1dl9CelVLZzEybFVtY3RJelJkOEpyZ0M2VG5LWWc5VXB0cHFKLUt6S180d3dMWVo0ajFvd1I4SThOaw?oc=5",
@@ -361,16 +381,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "c18a25af3ecd",
-      "title": "Si vous prenez un traitement contre le diabète, méfiez-vous de ces compléments, alertent des endocrinologues - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNNEJMeHUzaVAzWXFvMHVROVlWb3lDaUo1ZE4ycXZIazNHNTQtM2NEdFE5dHZtWktoc1M0ZGt6UzdHSk9ZNFFrSzRWdTM5VzE5dG1LVnBwNFhmdVRCQlJTZHJ4SWNpbk0teHFqUkVQY05MRTJ0WDFuanVMbHdIaGdHZ29uVVdCM3Q3U1VjV1pDWGVncWxqN2E5ZWc3U0NoR0VTc0RneXRveW94TlRVYWZvTmlKZEpWd1lscTlxX1FnUU9WNzRHZ0VYbGFUVldERlpxRDZxaDQtNnpITnVZLWRDdFQteUZoZVVjdE1LOXk4QW9yRUZxZHBaNXg4TEZfZzN0bG0ybzJUdUdGajBocHBlN3dlQjZfT3dDRG1veV9CeUY3UQ?oc=5",
-      "published": "2026-08-24T22:03:38+00:00",
-      "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
       }
     },
     {
@@ -394,16 +404,6 @@
       }
     },
     {
-      "id": "ff97dad169b0",
-      "title": "Ozempic, Wegovy: les médicaments GLP-1 pourraient-ils freiner les comportements violents? - TVA Nouvelles",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR0wtcEVoN1JCUFJMWGdJOGpLdnRNZk4tUjMzSnllS2RKWDZGdTY5MmZVbnp2WDhZVVF2SGJ2dkZTeHBRdGRoSUowcmh1S2xselBoNzJQajFGcHZvZkxrMlphRmVsdXdWaVU0ZUpydmNyMUlzTG9CREt5T09jc3BDbnp3TW9EUE1fcHQ0QUlBUUVPT24wYWgyOURtMFNZQWVqRlp3eUIzUmJJOFJLM25HV3lycU0xZFI1Y21yYXFHQTZ2Rm8?oc=5",
-      "published": "2026-08-25T17:37:46+00:00",
-      "source": {
-        "name": "TVA Nouvelles",
-        "url": "https://www.tvanouvelles.ca"
-      }
-    },
-    {
       "id": "f3b9a1d62b3c",
       "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
@@ -411,6 +411,16 @@
       "source": {
         "name": "Service Public",
         "url": "https://www.service-public.gouv.fr"
+      }
+    },
+    {
+      "id": "c18a25af3ecd",
+      "title": "Si vous prenez un traitement contre le diabète, méfiez-vous de ces compléments, alertent des endocrinologues - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNNEJMeHUzaVAzWXFvMHVROVlWb3lDaUo1ZE4ycXZIazNHNTQtM2NEdFE5dHZtWktoc1M0ZGt6UzdHSk9ZNFFrSzRWdTM5VzE5dG1LVnBwNFhmdVRCQlJTZHJ4SWNpbk0teHFqUkVQY05MRTJ0WDFuanVMbHdIaGdHZ29uVVdCM3Q3U1VjV1pDWGVncWxqN2E5ZWc3U0NoR0VTc0RneXRveW94TlRVYWZvTmlKZEpWd1lscTlxX1FnUU9WNzRHZ0VYbGFUVldERlpxRDZxaDQtNnpITnVZLWRDdFQteUZoZVVjdE1LOXk4QW9yRUZxZHBaNXg4TEZfZzN0bG0ybzJUdUdGajBocHBlN3dlQjZfT3dDRG1veV9CeUY3UQ?oc=5",
+      "published": "2026-08-24T22:03:38+00:00",
+      "source": {
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
       }
     },
     {
@@ -461,6 +471,16 @@
       "source": {
         "name": "Le Journal de Montréal",
         "url": "https://www.journaldemontreal.com"
+      }
+    },
+    {
+      "id": "67f4dc5d0193",
+      "title": "La prise de médicaments pour maigrir double le risque de dépression. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX01mbnByXzd0S3YxSHpmN2ZScHB0M0NZOXIyUFpnT09fOE9PalhfX0pCZWx1RmFwVmRSYXlEOF9JUlZyX19XQ3RJbmM4Z0hyNHNHLW5OTTFiQjBFMnlicWtmcjZMYlNERUs1eGIzdUhDMXE1RHBHbzJHMDFjSGljZjRtaE5TcTA?oc=5",
+      "published": "2026-08-23T17:40:31+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -554,6 +574,16 @@
       }
     },
     {
+      "id": "6e5a44803fcf",
+      "title": "Dispositifs médicaux, médicaments à SMR faible ou modéré : quatre décrets redessinent la prise en charge - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16MUQ3aTdGYkNfdjVkdEg2UFZpVHM4SElzQWlISzdDTWM4RXlfU1Q3WnFTa25mcGRKb0E4c0J0VWZ6aVRQSTJsNk8wRHppTmoyOW1ESWpteVdSLWctLXZMZTB4eU10VjJtWEpDT2IwUWk4OVJaSXp3YjViQQ?oc=5",
+      "published": "2026-08-24T13:16:00+00:00",
+      "source": {
+        "name": "Le Moniteur des pharmacies",
+        "url": "https://www.lemoniteurdespharmacies.fr"
+      }
+    },
+    {
       "id": "212f85441ec4",
       "title": "Dentiste, transports, médicaments : pourquoi votre facture santé risque bientôt de s’alourdir - Challenges",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZURhbDZGelVwSDFsRHAyLTVxdUpqYjlvTlVBdGxrd2JhMzhUVnV3RGZ5c3dGR21fZ2dYMXotTWtCb204b1pzNU5leUNCLW03aERzVm1MQzhMbnpnQ3loTWM2al81b3B1QkxUdHMtVnFvMUhJOXFGTm1pVFNQTGtYdnU0UUhSM2cyWVhwM3dPQzkwdzVZZHl3d1VndzhEZUFpZHBpZWcwZndvMnBFLTVfa1pwWldhOWVlZFh5bWcyY3BMbXZ3XzRZakY4M1NTVF9TLVZ1RQ?oc=5",
@@ -574,16 +604,6 @@
       }
     },
     {
-      "id": "bad8686b9ce2",
-      "title": "Ralentissement de la hausse des coûts des prestations de santé - avantages.ca",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdFpzajBXeDNXc0hNMDl5cE1MVVJyUzdOYWMyM3Ewc0FkNHNTWVFBSjFybnRMVFhyc1hTUC05enNNbXYwQjR0NUxzRmFfQ0xtV1Q3VWF5THlQWjRoczkxeUNwYjRIUkl6NVIzRXBqb3NaVW9kQzgtZjVfS1dROG9XSS1rdlkzajVVQUVuMDZ2Z2RRNEtyR2wyaHpPclJqamt2QlJEVQ?oc=5",
-      "published": "2026-08-25T07:55:41+00:00",
-      "source": {
-        "name": "avantages.ca",
-        "url": "https://www.avantages.ca"
-      }
-    },
-    {
       "id": "c65fc593084b",
       "title": "Franchises médicales: ce qui va changer après les annonces du gouvernement - LCP-Assemblée nationale",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdERkZURQOEtWU1k5SnNUTUlwYjhsWGZuVVltdG9qeFY2d24wT1VEV3lOWlZXVUJoTERNeExiWnNWNkp4TDhEMWp6N0J6TTkzenAzQ2x2dlE0RG5IRmNhVVFCLTRCVndKc1pTZXFyQi10N25hRHlRYVFQVXFUNzFtSmZoNnQ1MTVNc2Rfb205T05GdjJTR1A0NVdDV0VGb004Ym4yYW5UOEZ0UQ?oc=5",
@@ -601,6 +621,16 @@
       "source": {
         "name": "santementale.fr",
         "url": "https://www.santementale.fr"
+      }
+    },
+    {
+      "id": "bad8686b9ce2",
+      "title": "Ralentissement de la hausse des coûts des prestations de santé - avantages.ca",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdFpzajBXeDNXc0hNMDl5cE1MVVJyUzdOYWMyM3Ewc0FkNHNTWVFBSjFybnRMVFhyc1hTUC05enNNbXYwQjR0NUxzRmFfQ0xtV1Q3VWF5THlQWjRoczkxeUNwYjRIUkl6NVIzRXBqb3NaVW9kQzgtZjVfS1dROG9XSS1rdlkzajVVQUVuMDZ2Z2RRNEtyR2wyaHpPclJqamt2QlJEVQ?oc=5",
+      "published": "2026-08-25T07:55:41+00:00",
+      "source": {
+        "name": "avantages.ca",
+        "url": "https://www.avantages.ca"
       }
     },
     {
@@ -641,16 +671,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "6e5a44803fcf",
-      "title": "Dispositifs médicaux, médicaments à SMR faible ou modéré : quatre décrets redessinent la prise en charge - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16MUQ3aTdGYkNfdjVkdEg2UFZpVHM4SElzQWlISzdDTWM4RXlfU1Q3WnFTa25mcGRKb0E4c0J0VWZ6aVRQSTJsNk8wRHppTmoyOW1ESWpteVdSLWctLXZMZTB4eU10VjJtWEpDT2IwUWk4OVJaSXp3YjViQQ?oc=5",
-      "published": "2026-08-24T13:16:00+00:00",
-      "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "ladepeche.fr",
         "url": "https://www.ladepeche.fr"
-      }
-    },
-    {
-      "id": "dc1cde7ed9c3",
-      "title": "Sébastien Lecornu veut augmenter les franchises médicales pour réduire le déficit, une annonce inflammable en vue des débats budgétaires - Public Sénat",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOTC1EcHNGY3N6SVdSNXgydGFPRm1nOV9VaURpMndudGtDUkJxWS0xcC1wN0ZaMXhDVnVjZVlLLWtYNUhQZnprYy1kSXl2M3BJdmszOWZmNXdtQnh4Y0dGUW1ieDM5Wm1lbmtEaXlnRHd3ZXRNcFVTYVExWnhxeElsSUk3MGZZdjhSckxYQ0I1blNWVEt2aE9JLXpWOWlScVJ2cUxDUkR6NVVkOHZJMlN4VXA0c3FMUVRYVThhZ0VBTkt1enFxSGdzUEpwbjhuaXpGQmh1MnNlSzFQYzFrSkg1bWRtbXFfZEpaYWVpbkpLUE9vaUFMcFlFbXdFSEZ6YmhBU2c5YUR2cEoxQXZERWdFcQ?oc=5",
-      "published": "2026-07-22T07:00:00+00:00",
-      "source": {
-        "name": "Public Sénat",
-        "url": "https://www.publicsenat.fr"
-      }
-    },
-    {
-      "id": "587d7ca163ad",
-      "title": "Actualité - Tensions en Emend 125 mg (aprépitant) buvable : l’ANSM prend des mesures pour assurer la continuité de traitement des enfants - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQy1WSXdNbnlZTWdHMDNlQk5uRlFqd0J5anZLTERWLVFZZFBNdzhIRGZxSTMyaFpsd2FMazBYZ0NXSUs1azE5SGFQZlhIckVKaGdCQ2VnOFg1OEhsR0ZOd3FJaTRsYmloaWRwSnJadW1oTHJ4SktyUGlCR0xZelVaUE5JSV85VUZya2FYMWREVjBXN0FrMWozcFhSZk5CRlEtTGd3V183OXZoV0VUaHV1QkVSbVQtcUZoek9Vek1TM2ZBSTNwOUN4Wk1LV0tkLTBZNGVicVFLYlhuTkhGWFp6VHZWajhxTnFU?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
       }
     }
   ]
