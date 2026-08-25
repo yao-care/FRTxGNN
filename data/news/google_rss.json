@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T10:39:38.303282+00:00",
+  "fetched_at": "2026-08-25T11:34:26.865426+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -31,16 +31,6 @@
       "source": {
         "name": "Le Moniteur des pharmacies",
         "url": "https://www.lemoniteurdespharmacies.fr"
-      }
-    },
-    {
-      "id": "885e372f223c",
-      "title": "Des scientifiques découvrent une nouvelle piste pour des médicaments à ARNm plus puissants - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSk9lMDBzZXJsclBtQ01oYktKcGwyLURRREwwY1B4Wm42dVBvZTRiQ3lCSm9FWU14RWRoWEQ1ZTQ2M0NjVG85V0Y0UExTUkttdWxKWHZmREdHRndZLTV4YUE3U3BHc3Q4RzZlblE3ZDN3NU96SmNGbG53V3ZISmEyWjN2X3JLd2hBUHBFRmFlcFFNdG9hdE5CUE5xdnRZUmNFa09GaS04cTViV0FrV3Jrc2M1OTVMTVkxQUZZY1dzSk9jdmE5S0toaUwyTQ?oc=5",
-      "published": "2026-08-24T05:02:45+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://fr.euronews.com"
       }
     },
     {
@@ -104,6 +94,16 @@
       }
     },
     {
+      "id": "7c93735e4a59",
+      "title": "Comment soulager les douleurs chroniques sans médicaments ? - Version Femina",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYWNxMzNzVlJIZDBoRkFDcV9uM25VamdRcEd0LWlkZ0FCd1ZoQ2xPUkJxdDJPWDJoMmlHdDlmNlJlRDRRT01YcWktQ3ZwVmMxYlhxeXZVZnJnSDlJTHZfbHlVM1BoeXhXaHFmRm1SU2RFNnBVOFl2UU13dUt1ZzAtY3JfYjJiUXQ4YWFlcG4tMXY?oc=5",
+      "published": "2026-08-22T14:20:22+00:00",
+      "source": {
+        "name": "Version Femina",
+        "url": "https://www.femina.fr"
+      }
+    },
+    {
       "id": "851ea8d9eefb",
       "title": "La Suède s'efforce de produire ses propres antibiotiques, mais il y a un hic - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYkJhcG1Dc3hBdkpnQnBGV0tQUG1XQzUtNHdOcl80WjJlR2l5LVFYWFdzeVJiWXd6eThtb2FfYW4yU1BaY2s5TkdBdDVUWFZHd1dOM1hWbVhIVWQ0TUxabWw4cndiLU1kVDdyX0hpRDdmU0tDS3VIYmJKRFUtcV9sSzJZWklqYXh3YUdacTVZWFliZlE?oc=5",
@@ -144,8 +144,8 @@
       }
     },
     {
-      "id": "bbb8ce7be8ad",
-      "title": "Franchises médicales : le plafond porté à 140 € contre 100 depuis 2005 - La Croix",
+      "id": "b381a341fe5e",
+      "title": "Franchises médicales : le plafond porté à 140 € contre 100 € depuis 2005 - La Croix",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOEQwOUcwMWhLalVTU2wtUzFvYXdIOU0wZVdjVE9NVjRwcjJDbVJVRkFYdm5yYlBFUEFqam01aS1hU25FSjBJWVE2VzgzelE5ZlFmUFhUQ0taVEF2WEFxRjh3SV9GbkNsWUY2VTZtUEVIaGtRaHFTdHduUGJDWmY0NWZ0cDZsTXJpRXBzREZ3WS1UWXh3Y0d6MjAwb2R5VkFnRlhsS3lTUjlBTFlyTDBPaW5xRDMyYVF0X1lYYVROX2o?oc=5",
       "published": "2026-08-25T08:15:29+00:00",
       "source": {
@@ -164,6 +164,16 @@
       }
     },
     {
+      "id": "885e372f223c",
+      "title": "Des scientifiques découvrent une nouvelle piste pour des médicaments à ARNm plus puissants - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSk9lMDBzZXJsclBtQ01oYktKcGwyLURRREwwY1B4Wm42dVBvZTRiQ3lCSm9FWU14RWRoWEQ1ZTQ2M0NjVG85V0Y0UExTUkttdWxKWHZmREdHRndZLTV4YUE3U3BHc3Q4RzZlblE3ZDN3NU96SmNGbG53V3ZISmEyWjN2X3JLd2hBUHBFRmFlcFFNdG9hdE5CUE5xdnRZUmNFa09GaS04cTViV0FrV3Jrc2M1OTVMTVkxQUZZY1dzSk9jdmE5S0toaUwyTQ?oc=5",
+      "published": "2026-08-24T05:02:45+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://fr.euronews.com"
+      }
+    },
+    {
       "id": "9cdea0c510c1",
       "title": "Transport, médicaments, dentaire : les décrets actant des hausses de ticket modérateur sont publiés au Journal officiel - AEF info",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcmE3ZHdVZThYVjZGOUg2RGFNTEZaTlVZV3dZb3lCUnJUa2t5YzVGMUNDdF9VbTI5Q2lpU0lDSDVMdGJDcXliYnBFTnBFTzNEU3FiRGxYQWJLMWpLcDJyX2EwY0ZPRG1yM2lQUnBCazh0ZXM2UDdWbi1sMzdmaFpnUWltbm1Pc3ZIZjhOOFVmOWx3YTlqZEVFa3hRUzlLVTJtTHJoeVZNNWJKMmV3ZEU2dk55RXlPN2hjVTJRMjQ0LUNvM19NRDZuY011Y2Zndm9UaFhpbG1mTkJGeWxVdlNYTmsxeFFnOTJU?oc=5",
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "155362e10ced",
-      "title": "Au Japon, le « sommeil beauté » inquiète les experts en raison de l’utilisation de somnifères - nippon.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxMTc4V1I2YzlSLUdDVjZIWWhXNGFGd05PN3I5MU9WTVkzVzk0aEV2QUY5bGQ4NUc3b3JrS0JvS3BueUhxLXRyc2tHV2c3YU5iNDAtZGVHd2o5NFBk?oc=5",
-      "published": "2026-08-24T23:46:00+00:00",
-      "source": {
-        "name": "nippon.com",
-        "url": "https://www.nippon.com"
-      }
-    },
-    {
       "id": "f21770bd4f1d",
       "title": "Recul du gouvernement sur les franchises médicales : celle pour vos médicaments montent vers 70 euros par an au lieu des 100 annoncés - SeniorActu",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNXy1lanMzM2VaY3hjT3d1N2RsWGxTVE1SOV9MUjVGSUtWTGVLU3gxb20zaW13YVdoYmpyT3l0N2VyYTQ5azlaNnVHUDNOQndHZ0puLUxxUUZybkg3YjNVZ1ZkbFNpeWl3MjZCY0pUbjZtRmxqOGtJdDRrZkxVSERvTi1YcWhUeFpEZjdwNjBVN0hmR2pQU2VhOGtxZEw5bnNWNzB1M3FndllHZWNNZ0hlZzBRakhMX2Rxa2x3b3BUSEtBWmFJWXRNcjJ0S2tuMnNuckpJcjhhbzY4cHhvMXplQTJDdklJRXk4U1lrYUFn?oc=5",
@@ -191,6 +191,16 @@
       "source": {
         "name": "SeniorActu",
         "url": "https://www.senioractu.com"
+      }
+    },
+    {
+      "id": "155362e10ced",
+      "title": "Au Japon, le « sommeil beauté » inquiète les experts en raison de l’utilisation de somnifères - nippon.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxMTc4V1I2YzlSLUdDVjZIWWhXNGFGd05PN3I5MU9WTVkzVzk0aEV2QUY5bGQ4NUc3b3JrS0JvS3BueUhxLXRyc2tHV2c3YU5iNDAtZGVHd2o5NFBk?oc=5",
+      "published": "2026-08-24T23:46:00+00:00",
+      "source": {
+        "name": "nippon.com",
+        "url": "https://www.nippon.com"
       }
     },
     {
@@ -294,16 +304,6 @@
       }
     },
     {
-      "id": "34cbfd0b8ec4",
-      "title": "Doublement du plafond des franchises médicales : le ministère recule mais ne cède pas… - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY0s4cm4tY3k2MDc0MmM1NWxTLV9XV011RElGU2NZSHg4OXJYaTJBY3V4UHg5aWVZQ2FNWk11RHpXckwyNXJNc01LT2t0QWt1Q3VjUk9YUjczYXQ2MzNLNWxYQXpyTkNsZG5pZEQ1QnhNcXVIbm0yMXRGWWNvbmZYdVZHb2dBcTMxMHdpMnpZOEFhV0EzanV2b3N2RjFCNUdnMUhxUjRIcVlRZEVpUjh6eDRNWm96WVFQTElyWno2SzVHOUlNUGFrbVhOdDBTTHlaSXpuMURJUmhjNFA5dW5tS1RxQjFHTWZJ?oc=5",
-      "published": "2026-08-21T12:33:02+00:00",
-      "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
-      }
-    },
-    {
       "id": "c847ff891b22",
       "title": "Une nouvelle option sans aiguille contre les réactions allergiques graves au lieu de l'EpiPen - Le Journal de Montréal",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTVJXcDU3UmVNRmg0dzc5NzhZZ2hsZUtmaE45eVhoMTdFVUhNZWNpSURQSktKLUZxd2tmOXA2dTExRUVjN1RNMmRYSHNkcUpDQTJxOHJGTTRyNGlSOVRuZ1I4SEZ2NTEwUG4yYzYwcmJtSHZkMmZmV3BXaEdEQWNuaUFJbm9lM2RlRjhrZm9XaDNpd2h1RzMwOVo2Vk1sUWlWd0FrUkszSEc2b29kZWhhTjgwVzJ1WUkwbWVjQkxrcGZkVnpURDQzSXBDNkxmU2UxQTJv?oc=5",
@@ -374,16 +374,6 @@
       }
     },
     {
-      "id": "1d1145ceba69",
-      "title": "AstraZeneca : Le retrait de la certification signifie-t-il le rappel du médicament et du vaccin ? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYjhPaDdnNWozZnIzeTYyZnEwcGdtNEpOYXZUUkZHbTYzdHlub09QSnNUbFk2UXp0NVR5dnBTODA5blpqcHpSYVQxVkNjS3UxaUF6WnVYVDJXVjJiSm9fM2plNmRuSFV5NDc3Yk5ldjloSHJ5NmUzYmFtZkNDT2RObkJsZll4UUN3NEFvVUdRZTBYdXItUnQ5MFVXUmM3Zw?oc=5",
-      "published": "2026-08-24T16:37:54+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "2547ebe7dde5",
       "title": "Bronchiolite : deux traitements bientôt mieux remboursés - PasseportSanté",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjBKVlNSWk5pUF8zbG00T1VoeWdxejNfd21YVEpNM014b2FScEJJN0JSUnU0Q1ZfdGZyMlVNTk5Va3NheElVT21ZeHBvNmt6QWpvX3VmNXBQcnplZGxfSERDUmVlZXpXOTE3VUZ2c3dzaUpJTUlQd1dNLU5WZDZGSHEtSExaTTRBMjdfTXV1dUlaemJQenE0RTlRRll3QVE3eUFSX0I0NktYSThqUmZkeGx3?oc=5",
@@ -391,6 +381,16 @@
       "source": {
         "name": "PasseportSanté",
         "url": "https://www.passeportsante.net"
+      }
+    },
+    {
+      "id": "1d1145ceba69",
+      "title": "AstraZeneca : Le retrait de la certification signifie-t-il le rappel du médicament et du vaccin ? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYjhPaDdnNWozZnIzeTYyZnEwcGdtNEpOYXZUUkZHbTYzdHlub09QSnNUbFk2UXp0NVR5dnBTODA5blpqcHpSYVQxVkNjS3UxaUF6WnVYVDJXVjJiSm9fM2plNmRuSFV5NDc3Yk5ldjloSHJ5NmUzYmFtZkNDT2RObkJsZll4UUN3NEFvVUdRZTBYdXItUnQ5MFVXUmM3Zw?oc=5",
+      "published": "2026-08-24T16:37:54+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -411,16 +411,6 @@
       "source": {
         "name": "Africa24 TV",
         "url": "https://africa24tv.com"
-      }
-    },
-    {
-      "id": "1a84b5606889",
-      "title": "Médicaments - Glaucome : huit mois de rupture pour l’Alphagan P - DefiMedia",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUlpKUWNNaHVOZURka1czYzdLQnpGVGJoczUxLUpsZlhBVjU2dEcxeFlPOFNfM1A2VDlrZklVWDlSbmUwRDhHQzZDbTktVnZGZVhLdGxjNjl2VFZjaHMtS0FqWjRvNEtxODBOZEdLVHJkbDVLYnZCWWhyZjdiMHZWdFNuM2FXbXVL?oc=5",
-      "published": "2026-08-25T10:02:22+00:00",
-      "source": {
-        "name": "DefiMedia",
-        "url": "https://defimedia.info"
       }
     },
     {
@@ -454,16 +444,6 @@
       }
     },
     {
-      "id": "c34b7852253e",
-      "title": "Franchises médicales : ce qui pourrait changer pour votre portefeuille dès octobre - Zinfos974",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONVI5S2dEUnBYZjc2Um83R1ZPM0p2T1JwYzA4em5haXZPakxyT1hMeVZ4bzhrU1gzUzNxY3B6SWtrOWMzRVhsNHpjT3B3N3NseHlsMmowdURGVTRQWFZ1MHo4ZWxqbXhnOXVhQ3VLaV9PZkRuYUZuTndMNXdib0o5d0dXczRlTHF5WEZZOUJuSHNPU25fYWpwZXN3WHFTQ0NaMGxzd2pqSG1CRlE?oc=5",
-      "published": "2026-08-24T14:32:43+00:00",
-      "source": {
-        "name": "Zinfos974",
-        "url": "https://www.zinfos974.com"
-      }
-    },
-    {
       "id": "c4958ff89e9f",
       "title": "Plus d’autonomie pour les pharmaciens - avantages.ca",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeldydFBPeGh3QWF5XzVScnZwQkM2VVRKOERKMUtyTE9Ub2UwN3NDdVpJWEFBU2xXa3hFZnk4RlJoYVpzT0JzWVU3MmpyOV9LRTkwX2FEUmJhakFBbGl2eXdMa1NIQ2pmRmNBV0FzMF93bVBqcFJPdGFGVWplMktha3R3?oc=5",
@@ -471,16 +451,6 @@
       "source": {
         "name": "avantages.ca",
         "url": "https://www.avantages.ca"
-      }
-    },
-    {
-      "id": "857b21488334",
-      "title": "Industrie pharmaceutique : le Cameroun plaide pour une production locale renforcée - Actu Cameroun",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUzFIRmxRWTBBeTliWFhZaTdhV1JCUDdjdjJiaVdYRjhQUE51VVZPbUt1WDkzWEJjZ0RJSUJhclFtV2lyVjBWRGpVcW5MQzJNZWlDVFNLYkVtTXA2WVB2ZVdEbnlYMEtOTGI1WjhTRzctWEkxYnI0cEFJQ1doUUhMdmhzQ0dwZEtpZ0NYRW0yeTRybzhsVFVROTRLbkgxdVpvd2ZWQmpSUWhpeVEzLU9xRlhlVmtiOEpZ?oc=5",
-      "published": "2026-08-24T15:31:41+00:00",
-      "source": {
-        "name": "Actu Cameroun",
-        "url": "https://actucameroun.com"
       }
     },
     {
@@ -494,13 +464,23 @@
       }
     },
     {
-      "id": "bef120b99357",
-      "title": "Médicaments non utilisés : quels leviers contre le gaspillage ? - santementale.fr",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1hsd1VUUkJhWkl2MG55c2Q0V05yU1dxbUFGTzI2SHVoZjJvcXFmc1NLUWhCS2pBc3BkRHl1M0wzOXpQZ0MyX3M3Q3Y3Rm1VdFJROXMwZ2FTZnJJX0ZLUHh4SmJvbWNsZFpUdF82bmpId1JQdmx0clRUUjBucHdZdW9zRnkxM29PQ2FtTnR1Qk9FR0FpRFJYTWlJLW0?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "c34b7852253e",
+      "title": "Franchises médicales : ce qui pourrait changer pour votre portefeuille dès octobre - Zinfos974",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONVI5S2dEUnBYZjc2Um83R1ZPM0p2T1JwYzA4em5haXZPakxyT1hMeVZ4bzhrU1gzUzNxY3B6SWtrOWMzRVhsNHpjT3B3N3NseHlsMmowdURGVTRQWFZ1MHo4ZWxqbXhnOXVhQ3VLaV9PZkRuYUZuTndMNXdib0o5d0dXczRlTHF5WEZZOUJuSHNPU25fYWpwZXN3WHFTQ0NaMGxzd2pqSG1CRlE?oc=5",
+      "published": "2026-08-24T14:32:43+00:00",
       "source": {
-        "name": "santementale.fr",
-        "url": "https://www.santementale.fr"
+        "name": "Zinfos974",
+        "url": "https://www.zinfos974.com"
+      }
+    },
+    {
+      "id": "857b21488334",
+      "title": "Industrie pharmaceutique : le Cameroun plaide pour une production locale renforcée - Actu Cameroun",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUzFIRmxRWTBBeTliWFhZaTdhV1JCUDdjdjJiaVdYRjhQUE51VVZPbUt1WDkzWEJjZ0RJSUJhclFtV2lyVjBWRGpVcW5MQzJNZWlDVFNLYkVtTXA2WVB2ZVdEbnlYMEtOTGI1WjhTRzctWEkxYnI0cEFJQ1doUUhMdmhzQ0dwZEtpZ0NYRW0yeTRybzhsVFVROTRLbkgxdVpvd2ZWQmpSUWhpeVEzLU9xRlhlVmtiOEpZ?oc=5",
+      "published": "2026-08-24T15:31:41+00:00",
+      "source": {
+        "name": "Actu Cameroun",
+        "url": "https://actucameroun.com"
       }
     },
     {
@@ -511,16 +491,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "5eb335ebdbbc",
-      "title": "Les endocrinologues plaident pour un remboursement plus large d’Ozempic et de Mounjaro - Le Spécialiste",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOODNGMlJGcFRjczVKQ0VLcHNKUVpzZzBSUXMzTWR6SVZfckRWV2I5TWhhM1JUWXlNU1A4b3hsOTlBZ2dVNmZjQ3NxdzRjN1dNM2ZlR3BLQktTN29ab2V4eWZwaTJnMnNzSG01anZuZGU3akVld04teVROaFFYRDVDYUlacWhOQVBhdnhPdVF5U3QwTTEzVUFzeGowWUplWjZQZzBzUHpBT1lyWEE5WUZJTkswdHp1NFZ1Z1ozMjNn?oc=5",
-      "published": "2026-08-24T11:00:07+00:00",
-      "source": {
-        "name": "Le Spécialiste",
-        "url": "https://www.lespecialiste.be"
       }
     },
     {
@@ -564,6 +534,16 @@
       }
     },
     {
+      "id": "5eb335ebdbbc",
+      "title": "Les endocrinologues plaident pour un remboursement plus large d’Ozempic et de Mounjaro - Le Spécialiste",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOODNGMlJGcFRjczVKQ0VLcHNKUVpzZzBSUXMzTWR6SVZfckRWV2I5TWhhM1JUWXlNU1A4b3hsOTlBZ2dVNmZjQ3NxdzRjN1dNM2ZlR3BLQktTN29ab2V4eWZwaTJnMnNzSG01anZuZGU3akVld04teVROaFFYRDVDYUlacWhOQVBhdnhPdVF5U3QwTTEzVUFzeGowWUplWjZQZzBzUHpBT1lyWEE5WUZJTkswdHp1NFZ1Z1ozMjNn?oc=5",
+      "published": "2026-08-24T11:00:07+00:00",
+      "source": {
+        "name": "Le Spécialiste",
+        "url": "https://www.lespecialiste.be"
+      }
+    },
+    {
       "id": "212f85441ec4",
       "title": "Dentiste, transports, médicaments : pourquoi votre facture santé risque bientôt de s’alourdir - Challenges",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZURhbDZGelVwSDFsRHAyLTVxdUpqYjlvTlVBdGxrd2JhMzhUVnV3RGZ5c3dGR21fZ2dYMXotTWtCb204b1pzNU5leUNCLW03aERzVm1MQzhMbnpnQ3loTWM2al81b3B1QkxUdHMtVnFvMUhJOXFGTm1pVFNQTGtYdnU0UUhSM2cyWVhwM3dPQzkwdzVZZHl3d1VndzhEZUFpZHBpZWcwZndvMnBFLTVfa1pwWldhOWVlZFh5bWcyY3BMbXZ3XzRZakY4M1NTVF9TLVZ1RQ?oc=5",
@@ -584,16 +564,6 @@
       }
     },
     {
-      "id": "6c4d56b40f72",
-      "title": "Le département provincial de la santé de Dak Lak annonce le rappel du médicament traditionnel *Ngưu tất chích rượu* (un type de médicament à base de plantes contenant de la racine de *Ngưu tất* et de l'alcool) en raison de violations de la qualité. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWTFFMmRabUhMbzVKT3NuakVaWFdNcnhCX1dWbG92M1RqUVI5V3hKWHIwakY1YTN1SFgtR2doVkp4dTRuTGZqazJyQUg0SGRkUDFHVXhNSUhKQjNac3dlcmYyUUJJcjBDeWM5MXU4azhSRmgxdnItTTFYLUZyTV9SYW5ndDVESGVmb20tMEs3cmVVVVFJZ2xZdUZUSG1ONjY1NTRObGhlYXhaRHVDaExCZ2VQNmFSb2htdVhueEk0NA?oc=5",
-      "published": "2026-08-25T08:10:16+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "c65fc593084b",
       "title": "Franchises médicales: ce qui va changer après les annonces du gouvernement - LCP-Assemblée nationale",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdERkZURQOEtWU1k5SnNUTUlwYjhsWGZuVVltdG9qeFY2d24wT1VEV3lOWlZXVUJoTERNeExiWnNWNkp4TDhEMWp6N0J6TTkzenAzQ2x2dlE0RG5IRmNhVVFCLTRCVndKc1pTZXFyQi10N25hRHlRYVFQVXFUNzFtSmZoNnQ1MTVNc2Rfb205T05GdjJTR1A0NVdDV0VGb004Ym4yYW5UOEZ0UQ?oc=5",
@@ -601,6 +571,16 @@
       "source": {
         "name": "LCP-Assemblée nationale",
         "url": "https://lcp.fr"
+      }
+    },
+    {
+      "id": "6c4d56b40f72",
+      "title": "Le département provincial de la santé de Dak Lak annonce le rappel du médicament traditionnel *Ngưu tất chích rượu* (un type de médicament à base de plantes contenant de la racine de *Ngưu tất* et de l'alcool) en raison de violations de la qualité. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWTFFMmRabUhMbzVKT3NuakVaWFdNcnhCX1dWbG92M1RqUVI5V3hKWHIwakY1YTN1SFgtR2doVkp4dTRuTGZqazJyQUg0SGRkUDFHVXhNSUhKQjNac3dlcmYyUUJJcjBDeWM5MXU4azhSRmgxdnItTTFYLUZyTV9SYW5ndDVESGVmb20tMEs3cmVVVVFJZ2xZdUZUSG1ONjY1NTRObGhlYXhaRHVDaExCZ2VQNmFSb2htdVhueEk0NA?oc=5",
+      "published": "2026-08-25T08:10:16+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -674,26 +654,6 @@
       }
     },
     {
-      "id": "a21991614724",
-      "title": "Kpalimé, épicentre de la lutte contre les faux médicaments - République Togolaise",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWDJCNDFZRkpjWGtPRy1TbzRLRXdjODEwN0YxZDJDVEVNdS03NzJGenpNVUllbnlZVDdnajFWZWVlZ251Rk45bFJoZVpid1MzNmlaSW8zYnh1UkVpd0JjMEwxTmE4cFdnU3BZMEk2dUYwUmxkbUVYcW9Rbm5tZTl5X3c2WktkNDNmZzgyWDhpYVVzWk5yX2hEdlV5bDRrNTMtRy1wQlM4T3BQeWhyVHBkNHI0dXBBUQ?oc=5",
-      "published": "2026-08-24T14:51:38+00:00",
-      "source": {
-        "name": "République Togolaise",
-        "url": "https://www.republicoftogo.com"
-      }
-    },
-    {
-      "id": "74efe08ba123",
-      "title": "Roche acquiert les droits d'un traitement expérimental de l'obésité - Radio Lac",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQU1ibjRuMjBfT2hQUFhBelZrUHR4SlpRZEFJMV9NWnNTX3d5Q09aV1VUeU81d2oyN3NJbFpzcVFNZTZ6UTRNZGtDQnIxak5GeTk5V2JiMHlWeTZBZFBpVkYydEtId3RzVThpYU5yS1p0dXZiVDNHSWJ3RGszMldlZVNBTlJDOXBiS0NQQWRCLUpETmFObkxMUDRpT1g?oc=5",
-      "published": "2026-08-24T08:55:49+00:00",
-      "source": {
-        "name": "Radio Lac",
-        "url": "https://www.radiolac.ch"
-      }
-    },
-    {
       "id": "c52a04970620",
       "title": "\"Ca n'a pas évolué depuis 20 ans\": la ministre de la Santé annonce le doublement du plafond annuel de la franchise sur les médicaments - RMC",
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQWWhKanNqS2tYWXdDRnNobERVczAtQlJ6X2ZPZXltbjdQOW5vMDFGWDl3aTc0WXVXSEpGUU84UmZlV0haWEszS2xUaEhEZUFJLVE2UW5XV2ZlemxNYTlPb2RoWWxwSllmZmhnWW9PbFkyTXFwODRMcUNVTHBHSFF6VWxCX0RtbTQ5dVl0SmF5UVpLbGNpWkdwZDVGOTFyRGo0Tjhqd1hkSmQwM2FYTU5zZjlhR1phTkRsM3pfbkk0TlRmMVZjaUVpQXdKTHU1WWNQdTJzb29GbUZVMFBOZ0VqV1FaRkltdnJMemQ5ZW1mTkFuSkpPVmp3T0RNdHVQZkpfc0ZxTUFLVTYyNW9ZN3pFc09DaFZMcVp5SXBSNTNXejgta09kWFE?oc=5",
@@ -731,6 +691,16 @@
       "source": {
         "name": "TF1 Info",
         "url": "https://www.tf1info.fr"
+      }
+    },
+    {
+      "id": "a21991614724",
+      "title": "Kpalimé, épicentre de la lutte contre les faux médicaments - République Togolaise",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWDJCNDFZRkpjWGtPRy1TbzRLRXdjODEwN0YxZDJDVEVNdS03NzJGenpNVUllbnlZVDdnajFWZWVlZ251Rk45bFJoZVpid1MzNmlaSW8zYnh1UkVpd0JjMEwxTmE4cFdnU3BZMEk2dUYwUmxkbUVYcW9Rbm5tZTl5X3c2WktkNDNmZzgyWDhpYVVzWk5yX2hEdlV5bDRrNTMtRy1wQlM4T3BQeWhyVHBkNHI0dXBBUQ?oc=5",
+      "published": "2026-08-24T14:51:38+00:00",
+      "source": {
+        "name": "République Togolaise",
+        "url": "https://www.republicoftogo.com"
       }
     },
     {
@@ -1001,6 +971,36 @@
       "source": {
         "name": "Agence régionale de santé Ile-de-France",
         "url": "https://www.iledefrance.ars.sante.fr"
+      }
+    },
+    {
+      "id": "4c745d48e34b",
+      "title": "Médicaments : la Haute autorité de santé dénonce les «pressions excessives» des industriels pour favoriser les remboursements - Libération",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQWVlScTMwdTQ1aVJjQ2Q4NkFBT0JHWDRveDdvY044Yl90MG93aHBhYmRTUTl4ZlhRMS1Od1hFaHRPRFZRT1I2MTZsUHctTzg0SEpSM2dQYU5uSGVuanJGbFB0ZnV0dV9nU0FYWTM1bDI1dnhDck1rSHN3ZUg0clh1RXhiQ2tuZjVQblNmLW1xUW4yU1dranFoeUNLWElSSWdMUUI3U1cwc3NlMFZDa1pObDR1eGF3TDFIeFI4eV9Dak9Oc0kyVWZia2dhSU04bmk1ckdXUEhLU1ZlN2lOclAtdXVJUjBWMVRiR2R3MThKT2tGczdCZ3Rfb3UxRjV4WXNIaElSeEl5NUZYczY5eGpqV3NKX01NXzlGOGl6YWR1MG9CeDh5?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "Libération",
+        "url": "https://www.liberation.fr"
+      }
+    },
+    {
+      "id": "ef52940b8773",
+      "title": "Actualité - Tensions en Wilfactin : privilégiez le recours aux alternatives thérapeutiques - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2w2d3QtMDhFOFFoM2FTWno1LXBCRm9wYkVqdElpUWdYZFoxWG1NWDYwdTd6LXJGNzZtQzk1eFVjUTZ0SHRSSi1Tc0t5R2YxYkxtVlZIUE9WTmFyMU56MWVXaXppTjRxWlFhYXMtSXNWcnlkWS1uYUFieU9xUkNxUml6VFBvOEIwVndWd3FuU3Y1dV9rUnNCNDZMV2J1NGdSei10OVk1OUtiX2REM3c?oc=5",
+      "published": "2026-04-16T07:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "354b7c6a1f1f",
+      "title": "Santé. Les médicaments anti-obésité Wegovy et Mounjaro sont remboursés à partir de lundi : qui y a le droit ? - Le Dauphiné Libéré",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM0hGNlROVEdsOVloZXhVaXBmX0c1N2JuYkk4dDlyd1BZZ2RuQkFPUk9nUWhjUldmcnFRMVp6Mi1xd0ZWWGFLVTJGcmg4OVJEQzNFWGUza2lqWThuandjX1Y0bDJoRm54ckxCSmFHVE0xZW5HcndkeW1QYk5fMDhRVnlYOC0yU3ZNMVBwNW9hVjNmaTFrc3FkUHlhUk15WUFuVURuelpxbUtNWU92cGZzaWItTURtSjg3Ym5HZWs3MW42Wm1vTi1MOWtOalR1MUtJT19aSGhwYjhTUQ?oc=5",
+      "published": "2026-06-14T07:00:00+00:00",
+      "source": {
+        "name": "Le Dauphiné Libéré",
+        "url": "https://www.ledauphine.com"
       }
     }
   ]
