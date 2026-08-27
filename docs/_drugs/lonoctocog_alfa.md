@@ -2,7 +2,7 @@
 layout: default
 title: Lonoctocog Alfa
 parent: 僅模型預測 (L5)
-nav_order: 152
+nav_order: 174
 evidence_level: L5
 indication_count: 4
 ---
