@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Iobenguane
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 149
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Iobenguane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -114,10 +114,10 @@ Le lien entre iobenguane et le trouble hypotensif repose exclusivement sur des e
 - Obtenir le mecanisme d'action detaille via DrugBank (DG002)
 - Identifier si des essais interventionnels testent specifiquement iobenguane comme traitement (et non comme outil diagnostique) de l'hypotension orthostatique
 - Clarifier aupres d'experts si la prediction TxGNN reflete une opportunite therapeutique reelle ou une simple correlation diagnostique (biomarqueur MIBG) avant tout investissement supplementaire
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

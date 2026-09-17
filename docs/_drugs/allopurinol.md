@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Allopurinol
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Allopurinol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -45,7 +45,7 @@ L'allopurinol (DrugBank : DB00437) est un inhibiteur de la xanthine oxydase larg
 | Nouvelle Indication Prédite | — Aucune prédiction disponible — |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | L5 (aucune étude associée à une indication prédite) |
-| Statut de Marché en France | ✗ Non commercialisé (données TFDA : 未上市) |
+| Statut de Marché en France | ✗ Non commercialisé (données TFDA : Not marketed) |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | **Hold** |
 
@@ -102,10 +102,10 @@ Aucune indication nouvelle n'a été prédite par le modèle TxGNN pour l'allopu
 - Relancer la prédiction TxGNN avec les données d'entrée complétées (MOA, cibles moléculaires, profil pharmacologique)
 - Vérifier le statut réglementaire sur d'autres marchés de référence (EMA, FDA) pour enrichir le profil du médicament
 - Renseigner les indications originales approuvées dans le pack de données
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

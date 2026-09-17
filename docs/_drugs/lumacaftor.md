@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lumacaftor
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Lumacaftor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -99,10 +99,10 @@ Aucune prédiction TxGNN n'est disponible pour LUMACAFTOR, et les données fonda
 - **Indications d'origine** — extraire depuis la base TFDA, ANSM ou EMA
 - **Données de sécurité (DB-DG001 — Sévérité : Blocking)** — télécharger et analyser la notice officielle PDF (TFDA ou ANSM)
 - **Relancer le pipeline TxGNN** pour générer des prédictions d'indication pour `DB09280` une fois les données de base renseignées
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

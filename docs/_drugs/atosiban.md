@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atosiban
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Atosiban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -96,10 +96,10 @@ La prédiction TxGNN pour le glaucome héréditaire primaire atteint un score al
 - Mécanisme d'action (MOA) complet — actuellement absent des données disponibles (DG002)
 - Informations de sécurité via la notice officielle — contre-indications et mises en garde actuellement indisponibles (DG001)
 - Vérification du statut AMM en France auprès de l'ANSM (atosiban est commercialisé sous le nom Tractocile® dans plusieurs États membres de l'UE — une évaluation de l'extension géographique est requise)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

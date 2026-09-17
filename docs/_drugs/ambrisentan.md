@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ambrisentan
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 30
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -97,10 +97,10 @@ Le lien mécanistique entre Ambrisentan et la PAVM est indirect et biologiquemen
 - Informations de sécurité ANSM/EMA : mises en garde, contre-indications, interactions médicamenteuses (DG001 — statut bloquant)
 - Données précliniques ou registres ciblant spécifiquement l'HHT-PAVM avec antagonistes des récepteurs de l'endothéline
 - Génération de rapports distincts pour les indications HAP de rang supérieur (VIH-PAH, CHD-PAH, CTD-PAH) qui présentent un niveau de preuve clinique suffisant pour progresser vers l'étape S3
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

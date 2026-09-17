@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tramadol
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tramadol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -78,10 +78,10 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Résoudre le data gap bloquant DG001 : obtenir le RCP/notice TFDA du tramadol (téléchargement PDF + extraction) pour permettre l'évaluation de sécurité S1
 - Résoudre le data gap DG002 : interroger l'API DrugBank pour documenter le MOA structuré du tramadol
 - Ne pas poursuivre cette indication en l'état ; si une piste de repositionnement doit être approfondie pour le tramadol, le candidat classé #7 (arthrite juvénile idiopathique — niveau de preuve L4, 2 publications, stade S1 « Research Question ») est nettement mieux étayé et mérite une évaluation dédiée séparée
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

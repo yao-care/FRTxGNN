@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lomustine
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lomustine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -95,10 +95,10 @@ Le pack de données actuel ne contient aucune indication prédite par TxGNN pour
 - **Avertissements et contre-indications** : Télécharger et analyser la notice officielle (ANSM ou EMA) — statut identifié comme lacune bloquante (DG001)
 - **Statut réglementaire européen** : Vérifier la présence d'une AMM EMA ou dans des pays membres (LOMUSTINE est commercialisé dans plusieurs pays européens sous des dénominations locales)
 - **Indications approuvées** : Renseigner `original_indications` à partir des données DrugBank ou de l'étiquetage EMA
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

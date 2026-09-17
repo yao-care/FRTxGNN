@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Anakinra
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 37
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Anakinra
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L3** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -190,10 +190,10 @@ Le lien mécanistique PSTPIP1 → inflammasome NLRP3/pyrine → surproduction d'
 ### Indications à Ne Pas Poursuivre (Hold)
 
 Les indications aux rangs **1** (mastocytome extracutané), **2** (infarctus hépatique), **5** (maladie veino-occlusive hépatique) et **6** (péliose hépatique) ne sont soutenues par aucune preuve clinique ou préclinique directe. Les scores TxGNN élevés reflètent des biais structurels du graphe de connaissances (nœuds d'inflammation partagés) plutôt qu'un lien mécanistique spécifique et actionnable. Aucune ressource ne devrait être investie dans ces directions sans émergence de nouvelles données fondamentales.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

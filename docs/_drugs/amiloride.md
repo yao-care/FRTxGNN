@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Amiloride
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Amiloride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -94,10 +94,10 @@ L'absence totale de preuves cliniques et précliniques spécifiques à cette ind
 - Études précliniques explorant l'effet de l'amiloride dans des modèles animaux de néphropathie hypertensive maligne
 - Réévaluation de la pertinence clinique : distinguer la phase chronique (où un diurétique oral pourrait jouer un rôle adjuvant) de la phase aiguë maligne
 - **Note prioritaire :** parmi les 6 indications prédites, la **maladie cardiaque pulmonaire chronique (Cor Pulmonale)** (rang 6, score 99.68%, niveau L3, 1 ECR disponible — PMID 2888942) présente un niveau de preuve nettement supérieur et une recommandation « Proceed with Guardrails » ; elle mérite d'être traitée en priorité dans un rapport dédié
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

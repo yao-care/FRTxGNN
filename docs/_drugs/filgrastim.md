@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Filgrastim
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 126
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Filgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -109,10 +109,10 @@ Malgré un score TxGNN très élevé (99,998%), aucune preuve clinique directe n
 - Revue systématique des cas cliniques publiés d'utilisation de G-CSF dans des troubles de libération plaquettaire (données hors de ce dossier)
 - Données de sécurité complètes (mises en garde, contre-indications, interactions) issues de la notice officielle
 - Évaluation de la compatibilité de la voie d'administration pour cette nouvelle indication
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

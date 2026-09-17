@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rocuronium
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Rocuronium
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -99,10 +99,10 @@ La prédiction principale (Trouble Migraineux) ne dispose d'aucune preuve cliniq
 - Clarifier l'indication d'origine officielle du produit (actuellement absente des sources structurées)
 - Si une piste de recherche doit être retenue dans ce dossier, envisager plutôt le signal secondaire plus modeste mais mécanistiquement mieux étayé — la réduction des myalgies/céphalées post-anesthésiques via l'usage du rocuronium/sugammadex à la place de la succinylcholine (rang 10, niveau L3, stade S1) — comme question de recherche distincte, ciblée et non extrapolable au trouble migraineux chronique
 - Étant donné l'absence de commercialisation en France (0 AMM), toute suite réglementaire nécessiterait une démarche d'enregistrement complète
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

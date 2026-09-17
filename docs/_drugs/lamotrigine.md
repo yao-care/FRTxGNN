@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lamotrigine
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Lamotrigine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -106,10 +106,10 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Confirmation du mécanisme d'action (MOA) via DrugBank (DG002).
 - Vérification auprès de l'équipe modèle de la confusion présumée entre les nœuds « trigeminal neuralgia » et « trigeminal nerve neoplasm » dans le graphe TxGNN.
 - À titre de comparaison, la prédiction voisine « **névralgie du trijumeau** » (rang 2, score 99.89 %) dispose d'un niveau de preuve nettement supérieur (L2, plusieurs essais Phase 2/3 complétés dont NCT00913107 et NCT00203229) et d'une recommandation « Proceed with Guardrails » — elle constitue un signal plus solide à prioriser que le présent candidat.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

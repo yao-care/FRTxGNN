@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sumatriptan
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 292
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Sumatriptan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L4** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -107,10 +107,10 @@ Le niveau de preuve est faible (L4, aucun essai clinique dédié) et la littéra
 - Notice/avertissements réglementaires du sumatriptan (contre-indications spécifiques à la migraine avec aura du tronc cérébral)
 - Données détaillées sur le mécanisme d'action (MOA) validées
 - Une revue clinique ciblée évaluant spécifiquement le rapport bénéfice/risque vasculaire dans ce sous-type, avant toute poursuite du repositionnement
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

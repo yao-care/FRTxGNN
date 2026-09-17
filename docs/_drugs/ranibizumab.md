@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ranibizumab
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 255
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L1** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -99,10 +99,10 @@ Le niveau de preuve L1 repose sur 3 essais de Phase 3 complétés (dont le Port 
 - Évaluation de la compatibilité de voie d'administration (intravitréenne) et du schéma posologique spécifique à la NPDR sévère
 
 Les 9 autres indications prédites (cataracte immature/mature/tétanique/de craniosténose, cataracte associée au diabète de type 2, cataracte nucléaire sénile/corticale/sénile, maladie hémorragique du nouveau-né) présentent un niveau de preuve L4/L5 sans lien mécanistique positif — elles ont été classées **Hold** et sont exclues de ce rapport, qui se concentre sur le candidat principal.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

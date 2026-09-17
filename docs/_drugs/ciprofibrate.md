@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ciprofibrate
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 74
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ciprofibrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -110,10 +110,10 @@ La prédiction TxGNN (score 99,97 %) valide une indication pharmacologiquement �
 - Données de sécurité détaillées : mises en garde, contre-indications et interactions médicamenteuses issues des notices ANSM/EMA (résoudre DG001)
 - Évaluation réglementaire de la faisabilité d'une demande d'AMM en France, en comparaison avec les fibrates déjà approuvés (fenofibrate, bézafibrate)
 - Plan de surveillance clinique pour les populations à risque (insuffisance hépatique, rénale, association aux statines avec risque de myopathie)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

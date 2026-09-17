@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cabergoline
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 64
-evidence_level: L5
+evidence_level: L1
 indication_count: 5
 ---
 
 # Cabergoline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Niveau de preuve: **L1** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -131,10 +131,10 @@ Plusieurs essais cliniques de Phase 3 complétés (NCT03271918, n=140 ; NCT00889
 - **Stratification par sous-type tumoral** : Distinguer clairement prolactinome (L1, indication établie), NFPA (L2-L3, en développement) et adénocarcinome hypophysaire (L4, « Research Question » — entité maligne distincte avec très peu de cas mondiaux)
 - **Plan de surveillance cardiaque** : Protocole d'évaluation valvulaire pour les traitements de longue durée dans de nouvelles populations
 - **Biomarqueur de sélection** : Évaluer le statut D2R tumoral (PET-MR, immunohistochimie) et miR-20a-5p comme prédicteurs de réponse avant inclusion dans des essais prospectifs
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

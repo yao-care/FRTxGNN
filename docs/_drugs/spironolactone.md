@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spironolactone
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Spironolactone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -99,10 +99,10 @@ Le niveau de preuve est L5 (prédiction du modèle seule, sans essai clinique ni
 - Au moins une publication ou un essai clinique corroborant l'hypothèse, actuellement absents
 
 **Note :** Une seconde indication prédite, *congenital hypotrichosis milia* (score 99.04 %, rang 6219), présente le même profil — L5, Hold, aucune preuve clinique, et une justification mécanistique jugée tout aussi faible (syndrome génétique structurel sans lien évident avec la voie de l'aldostérone/androgènes).
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

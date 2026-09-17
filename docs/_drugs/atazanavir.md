@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Atazanavir
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 44
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Niveau de preuve: **L1** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -141,10 +141,10 @@ Atazanavir bénéficie d'un corpus d'essais cliniques de Phase 3 (dont plusieurs
 - Évaluer la faisabilité d'une soumission réglementaire auprès de la TFDA pour les indications pédiatriques et PTME (indication non enregistrée à Taiwan)
 - Définir un plan de surveillance spécifique pour les populations à risque : femmes enceintes (ajustement de dose, monitoring charge virale), nouveau-nés (bilirubine, audiologie), patients avec insuffisance rénale (co-prescription TDF)
 - Réaliser une analyse DDI formelle avant intégration dans un programme cART complet, en particulier pour les associations avec antifongiques azolés, rifamycines et anticoagulants
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

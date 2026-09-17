@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mitotane
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Mitotane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Niveau de preuve: **L5** | Indications prédites: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -100,10 +100,10 @@ Le dossier d'évaluation est insuffisant pour émettre toute recommandation de r
 - Télécharger et analyser la notice ANSM pour les mises en garde, contre-indications et précautions d'emploi (DG001 — Sévérité : Blocking)
 - Relancer la collecte des interactions médicamenteuses (DDI — résultat : not_found lors de la requête du 2026-03-29)
 - Vérifier le statut réglementaire en France (0 AMM enregistrée) et documenter si une procédure d'autorisation temporaire d'utilisation (ATU/AAP) est applicable
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

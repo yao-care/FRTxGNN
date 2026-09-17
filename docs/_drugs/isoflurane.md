@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Isoflurane
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Isoflurane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -115,10 +115,10 @@ Ce pack d'évidence contient 7 indications prédites pour l'isoflurane. Le table
 - **Migraine** — plusieurs études précliniques convergentes montrent que les anesthésiques inhalés (dont l'isoflurane) suppriment la dépression corticale envahissante (cortical spreading depression), mécanisme central de l'aura migraineuse (notamment PMID 8665587), complétées par un cas clinique d'usage en état de mal migraineux réfractaire. Preuve de niveau L4.
 
 Ces deux pistes disposent d'un fondement mécanistique et/ou clinique nettement plus solide que l'angine de Prinzmetal et pourraient justifier une évaluation dédiée (rapport séparé) si une exploration plus approfondie est souhaitée.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

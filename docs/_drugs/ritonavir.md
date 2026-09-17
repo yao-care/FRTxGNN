@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ritonavir
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 263
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L3** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -102,10 +102,10 @@ Aucun essai clinique ne soutient cette piste, et les 10 publications retenues so
 - Données de mécanisme d'action structurées (DrugBank), actuellement absentes du dossier
 - Clarification de la pertinence clinique de la cible prédite — vérifier si le modèle TxGNN dispose d'une cartographie vers une indication humaine apparentée (ex. infection VIH réfractaire) plutôt que le seul modèle animal VIS
 - Données de tarification/réglementation françaises, le produit n'étant actuellement pas commercialisé (0 AMM)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

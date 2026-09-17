@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Melphalan
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Melphalan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -107,10 +107,10 @@ Le modèle TxGNN n'a produit aucune indication prédite pour Melphalan dans cett
 - **[TxGNN]** Vérifier que Melphalan (DB01042) est bien représenté dans le graphe de connaissances TxGNN et relancer le pipeline de prédiction avec les paramètres corrects
 - **[Réglementaire]** Confirmer le statut d'AMM en France via la base de données publique de l'ANSM et de l'EMA (Melphalan est commercialisé en Europe sous le nom Alkeran® pour le myélome multiple)
 - Une fois ces données disponibles, remettre à jour l'Evidence Pack et relancer l'analyse de repositionnement
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

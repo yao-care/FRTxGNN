@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Roxadustat
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 270
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Roxadustat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -115,10 +115,10 @@ La seule piste avec un début de preuve clinique (syndrome de l'œil sec) repose
 - Résolution du data gap MOA (DG002) : confirmation du mécanisme d'action via DrugBank pour affiner l'analyse mécanistique
 - Un essai clinique interventionnel spécifique testant Roxadustat pour le syndrome de l'œil sec (et non une simple étude observationnelle de population)
 - Clarification du profil de risque oncologique de Roxadustat avant toute exploration ultérieure, compte tenu du signal mécanistique contradictoire identifié pour le carcinome épidermoïde
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

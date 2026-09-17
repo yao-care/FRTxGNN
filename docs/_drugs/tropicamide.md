@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tropicamide
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Tropicamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -81,10 +81,10 @@ Le niveau de preuve est L5 (prédiction du modèle uniquement, aucun essai clini
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Clarification de la cible réelle : confirmer si l'association pertinente est « vessie neurogène » plutôt que « syndrome de la queue de cheval »
 - Recherche d'études précliniques ou mécanistiques reliant spécifiquement tropicamide aux troubles neurologiques vésicaux avant toute progression vers S1
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

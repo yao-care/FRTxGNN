@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acarbose
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 14
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Acarbose
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -45,7 +45,7 @@ Acarbose (DrugBank : DB00284) est un inhibiteur de l'alpha-glucosidase classique
 | Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
 | Score de Prédiction TxGNN | — |
 | Niveau de Preuve | **L5** (aucune étude associée, aucune prédiction) |
-| Statut de Marché en France | ✗ Non commercialisé (未上市) |
+| Statut de Marché en France | ✗ Non commercialisé (Not marketed) |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | **Hold** |
 
@@ -100,10 +100,10 @@ L'absence totale de prédiction TxGNN, combinée aux lacunes majeures en donnée
 - Réexécution du modèle TxGNN avec des données d'entrée enrichies (indications originales, cibles moléculaires, voies de signalisation)
 - Vérification du statut réglementaire dans d'autres juridictions (EMA, FDA) pour obtenir des données d'indication de référence
 - Exploration manuelle de la littérature pour identifier d'éventuels signaux de repositionnement (effets pléiotropes connus de l'Acarbose : cardiovasculaire, syndrome de dumping, etc.)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

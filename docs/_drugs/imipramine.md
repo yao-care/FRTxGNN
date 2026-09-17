@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imipramine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 147
-evidence_level: L5
+evidence_level: L3
 indication_count: 7
 ---
 
 # Imipramine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Niveau de preuve: **L3** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -108,10 +108,10 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Confirmer auprès d'une source réglementaire les indications d'origine approuvées de l'imipramine
 - Rechercher des essais cliniques et de la littérature récente (post-2010) testant spécifiquement l'imipramine dans le TDAH
 - Évaluer le profil de risque cardiovasculaire/anticholinergique de l'imipramine chez la population pédiatrique TDAH avant toute étude clinique prospective
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

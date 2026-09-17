@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Panitumumab
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Panitumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -120,10 +120,10 @@ Les deux indications predites reposent uniquement sur un score TxGNN (niveau de 
 - Completer les donnees structurees de mecanisme d'action (MOA) via l'API DrugBank
 - Rechercher des etudes precliniques specifiques sur l'effet de l'inhibition EGFR sur le metabolisme osseux et la microangiopathie retinienne
 - Surveiller l'apparition de nouveaux essais cliniques ou publications sur ces deux indications avant toute reevaluation
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

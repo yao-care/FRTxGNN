@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Amiodarone
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 34
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -114,10 +114,10 @@ L'amiodarone présente une connexion mécanistique théorique avec la CPVT via l
 - Recherche d'études précliniques sur l'amiodarone dans des modèles CPVT (RYR2 knock-in) pour évaluer son effet sur les DAD
 - Consultation des recommandations EHRA/ESC 2022 sur la CPVT pour repositionner l'amiodarone dans l'algorithme thérapeutique (3ème ligne ou thérapie de sauvetage uniquement)
 - Évaluation de la pertinence de la prédiction TxGNN à la lumière des trois meilleures indications : la **Tachycardie Ventriculaire** (rang 3, L1, Proceed with Guardrails) constitue une cible de repositionnement nettement plus solide et cliniquement actionnable
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

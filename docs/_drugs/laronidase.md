@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Laronidase
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 167
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L3** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -98,10 +98,10 @@ Veuillez consulter la notice pour les informations de sécurité. *(Lacune bloqu
 - Clarifier le statut réel de commercialisation en France (vérifier si l'absence d'AMM dans ce jeu de données reflète la réalité du marché ou une lacune de la base source)
 - Confirmer si « maladie de surcharge lysosomale avec atteinte squelettique » désigne un sous-groupe clinique réellement distinct de l'indication MPS I déjà approuvée, ou une simple reformulation du phénotype existant
 - Ne pas poursuivre la piste du syndrome de Sanfilippo (MPS III) sur la base des données actuelles
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

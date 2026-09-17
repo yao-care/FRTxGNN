@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Olaparib
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 219
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 ---
 
 # Olaparib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L1** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -111,10 +111,10 @@ Le niveau de preuve L1 est atteint grâce à plusieurs essais de Phase III compl
 - Confirmation du statut réglementaire et d'une éventuelle AMM en France
 - Données de mécanisme d'action officielles de DrugBank pour compléter l'analyse (DG002)
 - Plan de test compagnon BRCA1/2 / HRD pour la sélection des patientes candidates
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

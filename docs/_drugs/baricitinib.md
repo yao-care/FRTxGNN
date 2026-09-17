@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Baricitinib
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Baricitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -100,10 +100,10 @@ La prédiction TxGNN atteint un score de 99,94 % mais repose sur un niveau de pr
 - Réévaluation du modèle TxGNN sur les nœuds de maladies rares pour corriger les faux positifs topologiques
 
 > **Note sur la deuxième prédiction (Rang 2) :** Le Syndrome Brachydactylie-Syndactylie présente le même profil — score 99,94 %, L5, 0 essais, 0 publications, mécanisme incompatible (voie BMP/HOX). La même conclusion s'applique : **Hold**, probable fausse prédiction positive.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

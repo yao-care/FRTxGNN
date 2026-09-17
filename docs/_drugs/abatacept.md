@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abatacept
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Abatacept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -46,7 +46,7 @@ ABATACEPT (Orencia®) est un modulateur sélectif de la co-stimulation des lymph
 | Nouvelle Indication Prédite | Aucune prédiction disponible |
 | Score de Prédiction TxGNN | — |
 | Niveau de Preuve | L5 (aucune étude réelle associée à une prédiction) |
-| Statut de Marché à Taïwan | ✗ Non commercialisé (未上市) |
+| Statut de Marché à Taïwan | ✗ Non commercialisé (Not marketed) |
 | Nombre de Licences TFDA | 0 |
 | Décision Recommandée | **Hold** |
 
@@ -103,10 +103,10 @@ ABATACEPT n'est pas commercialisé à Taïwan, aucune prédiction TxGNN n'a ét�
 - Vérifier l'intégration d'ABATACEPT dans le graphe de connaissances TxGNN et relancer la prédiction
 - Évaluer la faisabilité réglementaire d'un enregistrement à Taïwan comme prérequis au repositionnement
 - Collecter les indications approuvées dans d'autres juridictions (FDA, EMA, PMDA) comme données de référence
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

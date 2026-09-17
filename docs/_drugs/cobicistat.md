@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cobicistat
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Cobicistat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -92,10 +92,10 @@ La prédiction TxGNN repose uniquement sur une inférence graphique (lentivirus 
 - Identification d'un agent antiviral vétérinaire actif contre le FIV avec lequel cobicistat pourrait jouer un rôle de boosteur
 - Études précliniques chez le chat (*in vitro* ou modèle animal) avant toute considération clinique
 - Données de sécurité (avis en garde, contre-indications, interactions) pour compléter l'évaluation
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

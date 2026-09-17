@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Desloratadine
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 100
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Niveau de preuve: **L1** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -116,10 +116,10 @@ La prédiction TxGNN pour cold urticaria atteint 99.94 % et repose sur un ration
 - Vérifier le statut réglementaire réel dans la juridiction cible (l'absence d'enregistrement dans la base TFDA ne reflète pas nécessairement le statut dans d'autres pays)
 - Définir un plan de surveillance posologique pour les protocoles de dose escaladante (10–20 mg), en particulier dans les populations pédiatriques et insuffisants rénaux/hépatiques
 - Confirmer la compatibilité des voies d'administration disponibles pour une éventuelle extension d'indication (voie orale standard vs formulations nasales en développement — cf. NCT04088721)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

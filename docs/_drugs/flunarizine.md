@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Flunarizine
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 132
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 ---
 
 # Flunarizine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L1** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -130,10 +130,10 @@ Les preuves cliniques sont robustes (niveau L1) : flunarizine figure dans plusie
 - Clarifier le statut réglementaire en France : procédure d'accès précoce (ATU/AAP) ou dépôt de dossier d'AMM si l'indication migraine est visée
 - Compléter les données pharmacocinétiques et de mécanisme d'action via l'API DrugBank (DB04841)
 - Définir un plan de surveillance clinique spécifique pour les sous-populations identifiées (pédiatrie, sujets âgés, femmes en âge de procréer)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

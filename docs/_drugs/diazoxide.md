@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diazoxide
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Diazoxide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -103,10 +103,10 @@ L'indication « hypotrichosis simplex du cuir chevelu » est de niveau L5, sans 
 - Évaluation d'une formulation topique (5 % diazoxide, analogue à l'étude chez le macaque, PMID 2085505) pour limiter les effets systémiques (hyperglycémie, rétention hydrique)
 - Consultation d'un dermatologue spécialisé en maladies rares du cheveu pour évaluer la pertinence clinique dans ce sous-type génétique précis
 - Stratégie réglementaire pour une indication orpheline (procédure d'accès précoce/ATU en France, étiquetage ORPHA)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

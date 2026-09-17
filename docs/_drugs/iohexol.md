@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iohexol
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Iohexol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -91,10 +91,10 @@ Veuillez consulter la notice pour les informations de securite.
 - Donnees detaillees sur le mecanisme d'action (MOA) via DrugBank
 - Une recherche cible sur une eventuelle activite au niveau du systeme nerveux central de l'iohexol (ex. cas de neurotoxicite/convulsions en cas de passage intrathecal), afin de confirmer l'absence de lien mecanistique plutot que de se fier a l'absence actuelle de donnees
 - Reevaluation de la pertinence de ce candidat si de nouvelles publications ou essais cliniques directement lies au sommeil apparaissent
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

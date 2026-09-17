@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lonafarnib
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Lonafarnib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -79,10 +79,10 @@ L'Evidence Pack v4 présente un tableau de bord vide sur les deux dimensions fon
 - **Priorité 2 — DrugBank complet :** Intégrer les données déjà disponibles (résultat présent, non inclus) : mécanisme d'action, indications approuvées, catégories pharmacologiques
 - **Priorité 3 — Notice officielle :** Extraire les avertissements, contre-indications et interactions médicamenteuses depuis le PDF de notice déjà récupéré (`result_count: 1`)
 - **Priorité 4 — Registres réglementaires :** Vérifier FDA / EMA pour les indications approuvées et le statut de commercialisation européen
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

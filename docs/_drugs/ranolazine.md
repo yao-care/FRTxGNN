@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ranolazine
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Ranolazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -67,7 +67,7 @@ Aucune littérature associée disponible actuellement
 
 ## Informations de Marché en France
 
-La ranolazine n'est actuellement **pas commercialisée en France** (statut : "未上市" / non commercialisé) et ne dispose d'aucune AMM enregistrée dans les données disponibles.
+La ranolazine n'est actuellement **pas commercialisée en France** (statut : "Not marketed" / non commercialisé) et ne dispose d'aucune AMM enregistrée dans les données disponibles.
 
 ## Considérations de Sécurité
 
@@ -85,10 +85,10 @@ La prédiction repose exclusivement sur une similarité d'embedding TxGNN (nivea
 - Données de mécanisme d'action confirmées via DrugBank (DG002)
 - Études précliniques explorant un éventuel effet hors cible de la ranolazine sur l'AVPR2 ou la voie aquaporine-2
 - Surveillance continue de la littérature et des registres d'essais cliniques pour toute nouvelle preuve
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

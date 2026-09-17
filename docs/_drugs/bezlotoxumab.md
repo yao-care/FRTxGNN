@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bezlotoxumab
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 54
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Bezlotoxumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -93,10 +93,10 @@ L'ensemble des 10 indications prédites par TxGNN sont au niveau L5 (prédiction
 - Récupérer les mises en garde et contre-indications officielles de la notice ANSM/TFDA (DG001)
 - Explorer en priorité les indications infectieuses liées à *C. difficile* ou à d'autres infections bactériennes productrices de toxines, plus cohérentes avec le mécanisme d'action connu
 - Investiguer si des indications liées aux **infections récurrentes à *C. difficile*** chez des populations spécifiques (immunodéprimés, patients en soins intensifs) constituent des pistes de repositionnement plus fondées
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 
