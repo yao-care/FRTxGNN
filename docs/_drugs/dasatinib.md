@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dasatinib
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 99
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -119,10 +119,10 @@ Des données précliniques mécanistiquement cohérentes (inhibition Src/FAK val
 - Évaluation des combinaisons thérapeutiques : dasatinib associé au protocole standard Ewing (VDC/IE — vincristine, doxorubicine, cyclophosphamide / ifosfamide, étoposide)
 - Confirmation des voies d'administration disponibles et compatibilité posologique en population pédiatrique et jeunes adultes
 - Plan de surveillance de sécurité spécifique incluant la gestion de l'épanchement pleural et la myélosuppression
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

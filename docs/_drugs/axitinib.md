@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Axitinib
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 48
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Axitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -114,10 +114,10 @@ Un essai clinique de Phase 2 dédié (NCT03595124) évalue directement la combin
 - **Résultats finaux de NCT03595124** : données d'efficacité et de tolérance attendues à la clôture de l'étude (novembre 2026)
 - **Démarche réglementaire en France** : évaluation de l'éligibilité à un Accès Précoce (ANSM) pour ce sous-type rare, notamment en population pédiatrique
 - **Plan de pharmacovigilance spécifique** : adaptation pour la population pédiatrique et jeunes adultes, avec suivi de la tolérance cardiovasculaire (hypertension) et du développement osseux
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

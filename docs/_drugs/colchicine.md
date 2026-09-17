@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Colchicine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 88
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Colchicine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -135,10 +135,10 @@ La colchicine est le traitement de première ligne établi de la FMF depuis plus
 | Décision | Hold |
 
 Aucune preuve clinique ou préclinique directe identifiée. Le DFSP est principalement conduit par la fusion génique COL1A1-PDGFB entraînant une activation constitutive de PDGFR-β — un mécanisme sans lien direct avec la cible microtubulaire de la colchicine. Le score élevé du modèle (99,37 %) s'explique vraisemblablement par des associations non spécifiques dans le graphe de connaissances (signal générique « agent antiprolifératif — tumeur »). Cette piste est à abandonner en l'absence de toute donnée justificative.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

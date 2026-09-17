@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ramipril
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ramipril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -94,10 +94,10 @@ La prediction repose uniquement sur le score TxGNN (L5) : aucun essai clinique n
 - Mises en garde, contre-indications et interactions issues d'une notice officielle (DG001, actuellement bloquant)
 - Etudes precliniques ou cliniques specifiques au ramipril dans l'hypertension pulmonaire liee a une maladie pulmonaire/hypoxie
 - Reevaluation si de nouvelles preuves specifiques au medicament apparaissent (actuellement niveau L5, aucune etude reelle)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

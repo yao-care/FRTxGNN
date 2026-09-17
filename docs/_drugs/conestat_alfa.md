@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Conestat Alfa
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 89
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Conestat Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L1** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -123,10 +123,10 @@ Plusieurs essais cliniques de Phase 3 randomisés, en double aveugle, contrôlé
 - Récupérer et analyser la notice officielle ANSM/EMA pour les mises en garde, contre-indications et interactions (DG001)
 - Évaluer les conditions de remboursement via la Haute Autorité de Santé (HAS) et vérifier l'existence d'une inscription sur la liste des médicaments pris en charge
 - Établir un plan de surveillance de sécurité pour les populations spéciales (enfants dès 2 ans, femmes enceintes, patients avec antécédents d'allergie aux protéines de lapin)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Mercaptopurine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -45,7 +45,7 @@ La Mercaptopurine (DB01033) est un médicament connu appartenant à la classe de
 | Nouvelle Indication Prédite | Aucune — `predicted_indications` vide |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | L5 (prédiction non disponible) |
-| Statut de Marché en France | Non renseigné (données TFDA : 未上市 — non commercialisé) |
+| Statut de Marché en France | Non renseigné (données TFDA : Not marketed — non commercialisé) |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | **Hold** |
 
@@ -104,10 +104,10 @@ Le pipeline de données n'a pas pu générer de prédictions TxGNN en raison de 
 2. **[DG002 — Priorité haute]** Interroger l'API DrugBank (DB01033) pour récupérer le MOA, les cibles pharmacologiques et les catégories thérapeutiques
 3. **Re-lancer le pipeline TxGNN** après remédiation des deux lacunes pour obtenir `predicted_indications` avec scores et preuves
 4. **Compléter les données de statut de marché** en France (ANSM) en parallèle de la requête TFDA, afin d'évaluer le potentiel d'extension d'indication versus nouvelle AMM
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

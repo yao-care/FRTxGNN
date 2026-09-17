@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mannitol
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Mannitol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -89,10 +89,10 @@ Le modèle TxGNN n'a produit aucune prédiction d'indication pour le Mannitol, f
 - Récupérer les données de sécurité (mises en garde, contre-indications) depuis la notice officielle (DG001 — priorité Blocking)
 - Vérifier le statut AMM réel en France via la base de données de l'ANSM (la valeur « Non commercialisé » doit être confirmée, car le Mannitol est en réalité présent dans plusieurs spécialités injectables en France)
 - Re-soumettre le médicament au pipeline TxGNN avec les données complètes afin d'obtenir des prédictions d'indications exploitables
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Minocycline
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Minocycline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -72,10 +72,10 @@ L'Evidence Pack reçu (version v4, généré le 2026-04-20) ne contient aucune i
 - **[Priorité haute]** Mécanisme d'action (MOA) de la MINOCYCLINE — à récupérer via l'API DrugBank (DB01017)
 - **[Bloquant]** Données de sécurité : mises en garde, contre-indications et interactions médicamenteuses — à extraire depuis la notice TFDA (PDF à télécharger et analyser)
 - Confirmation du statut réglementaire sur les marchés cibles (France / ANSM)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 104
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Dimenhydrinate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -100,10 +100,10 @@ La prédiction TxGNN repose sur un mécanisme indirect (conversion en diphenhydr
 - Revue systématique de la littérature sur la diphenhydramine dans l'urticaire allergique, afin d'établir un pont mécanistique indirect plus robuste avant tout investissement clinique
 - Évaluation de la faisabilité réglementaire en France (statut non commercialisé, nécessité d'une AMM ou d'une autorisation temporaire d'utilisation)
 - Si la revue de littérature sur la diphenhydramine est favorable, conception d'une étude pilote clinique (Phase 1/2) spécifique au dimenhydrinate dans l'urticaire allergique
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

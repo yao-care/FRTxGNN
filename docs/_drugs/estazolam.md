@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Estazolam
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 120
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Estazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L1** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -99,7 +99,7 @@ L'absence d'AMM taïwanaise contraste donc avec un niveau de preuve internationa
 
 ## Informations de Marché à Taïwan
 
-Aucune autorisation de mise sur le marché n'est actuellement enregistrée pour Estazolam à Taïwan selon les données TFDA disponibles au 7 juin 2026. Le médicament est classé **non commercialisé** (未上市).
+Aucune autorisation de mise sur le marché n'est actuellement enregistrée pour Estazolam à Taïwan selon les données TFDA disponibles au 7 juin 2026. Le médicament est classé **non commercialisé** (Not marketed).
 
 Cette absence d'enregistrement contraste avec la situation internationale : Estazolam est approuvé par la FDA américaine depuis 1990 (Schedule IV, indication insomnie) et utilisé comme médicament de référence dans des essais cliniques conduits en Chine, au Japon et à Taïwan même.
 
@@ -124,10 +124,10 @@ Deux essais de Phase 3/4 complétés avec Estazolam comme agent actif ou compara
 - Constituer un dossier d'interactions médicamenteuses (DDI), notamment avec les inhibiteurs du CYP3A4 qui métabolisent les benzodiazépines
 - Évaluer la faisabilité réglementaire d'un dépôt de dossier auprès de la TFDA, en s'appuyant sur les données FDA américaines et les essais Phase 3/4 asiatiques disponibles
 - Intégrer un plan de gestion du risque de dépendance et de sevrage, en particulier pour les populations âgées (cohorte NCT02648776 taïwanaise)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alprazolam
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Alprazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -47,7 +47,7 @@ L'alprazolam (DrugBank : DB00404) est une benzodiazépine largement utilisée da
 | Nouvelle Indication Prédite | **Aucune** (le modèle TxGNN n'a généré aucune prédiction) |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | **L5** — Aucune étude ni prédiction exploitable |
-| Statut de Marché | ❌ Non commercialisé (未上市) |
+| Statut de Marché | ❌ Non commercialisé (Not marketed) |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | **Hold** |
 
@@ -105,10 +105,10 @@ Le modèle TxGNN n'a identifié aucune nouvelle indication de repositionnement p
 ---
 
 *Ce rapport a été généré le 2026-04-03 (version v4 de l'Evidence Pack). Les résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique rigoureuse avant application.*
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

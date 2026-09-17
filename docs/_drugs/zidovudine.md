@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zidovudine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 335
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Niveau de preuve: **L3** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -104,10 +104,10 @@ Le candidat en tête de classement (score TxGNN 99.96%) correspond à une maladi
 - Lever l'écart DG002 (sévérité High) : obtenir le mécanisme d'action structuré via l'API DrugBank
 - Faire vérifier par l'équipe modèle si le nœud "feline acquired immunodeficiency syndrome" est correctement distingué de l'entité VIH humaine dans le graphe TxGNN, afin de confirmer ou d'écarter l'hypothèse de confusion d'entités
 - Réexaminer les candidats de rang inférieur figurant dans ce même pack (ex. "AIDS related complex", rang 5, niveau de preuve L1, stade S3, recommandation "Proceed with Guardrails") qui, bien que proches de l'usage historique du VIH, disposent d'un socle de preuves cliniques nettement plus solide
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cerliponase Alfa
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cerliponase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -105,10 +105,10 @@ La prédiction TxGNN pour le syndrome de Scheie repose uniquement sur la proximi
 ---
 
 > ⚠️ **Note de contexte — Analyse des 10 indications prédites :** L'ensemble des 10 indications prédites par TxGNN pour cerliponase alfa reçoivent une recommandation **Hold** (L5) sans aucune preuve clinique. Ce schéma systématique suggère que le modèle capture la position de cerliponase alfa dans le graphe des maladies lysosomales et neurodégénératives rares, sans identifier de cible thérapeutique viable. Une révision manuelle des prédictions de rang plus élevé (ex. CLN1, CLN3, autres NCL) pourrait identifier des candidats biologiquement plus plausibles non inclus dans ce pack.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

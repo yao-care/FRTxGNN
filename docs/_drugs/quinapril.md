@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quinapril
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Quinapril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -84,10 +84,10 @@ Les mises en garde, contre-indications et interactions médicamenteuses officiel
 - Rechercher spécifiquement la littérature « IEC et sténose de l'artère rénale » ou « hypertension maligne » pour valider ou réfuter ce signal
 - Évaluation néphrologique du rapport bénéfice/risque avant toute exploration clinique, compte tenu du risque d'insuffisance rénale aiguë
 - Clarifier le statut réglementaire en France (actuellement non commercialisé, 0 AMM)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

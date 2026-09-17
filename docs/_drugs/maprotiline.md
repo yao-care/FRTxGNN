@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maprotiline
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 184
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Maprotiline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Niveau de preuve: **L5** | Indications prédites: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -91,10 +91,10 @@ L'absence totale de prédictions TxGNN combinée aux lacunes critiques dans les 
 - **Analyser la notice ANSM/TFDA** pour extraire les avertissements, contre-indications et interactions médicamenteuses
 - **Vérifier le statut réglementaire historique** en France via la base transparence ANSM (AMM potentiellement retirées ou expirées)
 - **Relancer le pipeline d'evidence gathering** une fois les données de base complétées (Phase 5 — collecte d'essais cliniques et de littérature)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

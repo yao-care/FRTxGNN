@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Prednisolone
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 245
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -115,10 +115,10 @@ Un essai randomisé contrôlé par placebo (PMID 15692475) et un essai Phase 4 (
 - Réaliser une requête complète des interactions médicamenteuses (DDI), actuellement introuvables
 - Évaluer les modalités d'accès en France en l'absence d'AMM existante (voie ATU/RTU ou équivalent)
 - Établir un plan de surveillance des effets indésirables liés à un usage prolongé (densité osseuse, métabolisme, axe surrénalien) en contexte de traitement en bolus pour la pelade
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

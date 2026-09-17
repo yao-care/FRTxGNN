@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Travoprost
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Travoprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -93,10 +93,10 @@ Aucune preuve clinique ou littéraire ne soutient cette prédiction, et le ratio
 - Résolution de l'écart de données à haute priorité (DG002) : mécanisme d'action détaillé (requête DrugBank)
 - Étude préclinique ou mécanistique établissant un lien plausible entre l'agonisme PGF2α et la calcification vasculaire, avant d'envisager toute investigation clinique
 - **Remarque** : parmi les 10 indications prédites dans ce dossier, seule « vascular disease » (rang 5, niveau de preuve L4) dispose d'un corpus de preuves substantiel (15 essais cliniques, 20 publications) — bien que celui-ci reste indirect, provenant majoritairement d'essais sur le glaucome plutôt que d'études ciblant une maladie vasculaire systémique. Cette piste pourrait justifier un dossier d'évaluation séparé.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

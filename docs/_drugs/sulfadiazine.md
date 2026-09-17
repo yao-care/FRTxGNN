@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 287
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Sulfadiazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L3** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -104,10 +104,10 @@ Le niveau de preuve (L3) repose uniquement sur des revues et rapports de cas anc
 - Confirmation du mécanisme d'action détaillé et des formes galéniques disponibles (DrugBank)
 - Évaluation de la pertinence d'une étude dédiée à la sulfadiazine (par opposition au TMP-SMX déjà standard) dans la pneumocystose
 - Analyse de faisabilité réglementaire pour une introduction sur le marché français si le programme est poursuivi
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

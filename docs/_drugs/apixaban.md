@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Apixaban
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 39
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Apixaban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L4** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -107,10 +107,10 @@ Les preuves actuelles ne soutiennent pas l'avancement de l'apixaban dans la migr
 - Vérification du statut AMM français réel de l'apixaban (Eliquis®) auprès de l'ANSM
 - Étude de cohorte prospective ou essai pilote randomisé comparant directement apixaban versus warfarine dans la migraine associée au FOP
 - Clarification de la spécificité intra-classe : pourquoi les AVK montrent un signal bénéfique absent chez les inhibiteurs directs du facteur Xa
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

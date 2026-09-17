@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mirtazapine
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Mirtazapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -85,10 +85,10 @@ Aucune indication prédite n'est disponible dans le pack de données actuel, et 
 - Résoudre **DG002** : interroger l'API DrugBank pour récupérer les données complètes de mécanisme d'action *(High — impacte l'analyse mécanistique)*
 - Relancer le pipeline TxGNN avec les données complètes afin de générer des indications prédites
 - Vérifier l'existence d'un dossier AMM français sous un nom de marque (ex. Remeron®, Norset®) qui n'aurait pas été capturé par la requête TFDA
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

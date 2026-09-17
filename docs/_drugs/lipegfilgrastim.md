@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lipegfilgrastim
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Lipegfilgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -93,10 +93,10 @@ Le niveau de preuve est L5 (prediction du modele uniquement, sans essai clinique
 - Confirmation du mecanisme d'action d'origine (MOA) via DrugBank ou litterature primaire
 - Etudes precliniques ou de mecanisme explorant un lien eventuel entre voie G-CSF et regulation de la secretion plaquettaire
 - Confirmation de l'indication d'origine approuvee et du statut reglementaire du produit
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

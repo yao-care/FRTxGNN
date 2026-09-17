@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eptifibatide
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Eptifibatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -99,10 +99,10 @@ La prédiction TxGNN pour la polyarthrite rhumatoïde (rang 1, score 99,99%) rep
 - Mécanisme d'action détaillé (MOA) issu de DrugBank pour consolider le lien mécanistique
 - Études précliniques validant le rôle du GP IIb/IIIa dans des modèles d'arthrite rhumatoïde (ex vivo ou modèles murins)
 - Revue systématique de la littérature élargie sur le rôle des plaquettes dans la PR pour identifier d'éventuels signaux indirects
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

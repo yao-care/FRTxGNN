@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Modafinil
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 199
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Modafinil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L4** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -105,10 +105,10 @@ La direction pharmacologique de modafinil (agent de l'éveil) est mécanistiquem
 - Compléter les données détaillées de MOA via DrugBank pour renforcer l'analyse de pertinence mécanistique (DG002)
 - Réévaluer la pertinence clinique de l'indication « insomnie » — les preuves actuelles concernent majoritairement l'hypersomnolence, pas l'insomnie primaire
 - Rechercher des essais contrôlés randomisés ciblant directement l'insomnie primaire comme critère de jugement principal, plutôt que des essais où le médicament traite la somnolence/fatigue en comorbidité
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Romiplostim
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 267
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Romiplostim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -88,10 +88,10 @@ Le lien mécanistique entre l'action de romiplostim (stimulation de la libérati
 - Mises en garde et contre-indications de la notice TFDA (data gap classé « Blocking », requis avant toute évaluation de sécurité S1)
 - Une étude préclinique ou une série de cas pilote testant directement romiplostim dans le trouble primaire de libération des plaquettes, compte tenu de la rareté de la maladie
 - À titre de comparaison, parmi les 10 indications prédites pour romiplostim, le « platelet-type bleeding disorder » (rang 8) présente un niveau de preuve nettement plus mature (L1, essai de Phase 3 RECITE complété, recommandation « Proceed with Guardrails ») et pourrait justifier une évaluation prioritaire séparée
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Atropine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 46
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Atropine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -106,10 +106,10 @@ Les preuves disponibles sont exclusivement mécanistiques et précliniques (nive
 - **Étude préclinique dédiée** : évaluation de l'effet net de l'atropine (centrale vs. périphérique) dans un modèle de migraine validé (ex. modèle nitroglycérine chez le rat) pour trancher l'ambivalence bidirectionnelle
 - **Définition de la fenêtre thérapeutique** : identification d'une voie d'administration adaptée (intranasal, IV, SC) permettant une action ciblée sur le SPG sans passage central significatif
 - **Revue systématique clinique** : analyse exhaustive des cas documentant un effet de l'atropine sur les symptômes autonomiques migraineux (en prolongement de PMID 2943405)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

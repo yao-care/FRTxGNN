@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Glycine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 138
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Glycine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -113,10 +113,10 @@ Les preuves disponibles sont insuffisantes pour soutenir la glycine comme traite
 - Essais cliniques de Phase 1/2 évaluant directement la glycine dans les maladies de la cavité nasale
 - Évaluation de la voie d'administration adaptée (nasale topique, orale, etc.)
 - Clarification du statut réglementaire (supplément vs médicament) selon le pays cible
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

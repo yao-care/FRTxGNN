@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clioquinol
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 78
-evidence_level: L5
+evidence_level: L3
 indication_count: 7
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Niveau de preuve: **L3** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -107,10 +107,10 @@ Plusieurs études cliniques (1965–1988), dont deux essais comparatifs en doubl
 - Évaluation spécifique du risque neurotoxique pour la voie topique (profil SMON : absorption transcutanée, surface d'application, durée de traitement)
 - Mise à jour de la littérature clinique avec des études contemporaines (critères ICH E6 R2 / GCP modernes)
 - Plan de développement réglementaire pour obtenir une AMM, incluant justification du ratio bénéfice/risque au regard des antifongiques topiques de référence actuels (clotrimazole, miconazole)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Crizotinib
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Crizotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -114,10 +114,10 @@ La fibromatose gingivale est une pathologie à médiation génétique (SOS1/GING
 - Caractérisation moléculaire des tumeurs gingivales porteuses de mutations SOS1 et analyse de l'expression MET dans ces tissus
 - Données de mécanisme d'action complètes pour Crizotinib issues de DrugBank (résoudre lacune DG002)
 - Notice officielle ANSM et données de sécurité réglementaires françaises (résoudre lacune DG001 — actuellement bloquante pour toute évaluation de sécurité)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

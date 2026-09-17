@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Efmoroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 112
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -96,10 +96,10 @@ La pseudo-maladie de von Willebrand résulte d'un défaut du récepteur plaquett
 - **Données de sécurité** : Télécharger et analyser la notice officielle ANSM ou EMA (DG001 — priorité bloquante)
 - **Clarification réglementaire** : Vérifier le statut AMM européenne d'Elocta (Sobi/Sanofi) et son applicabilité en France
 - **Réévaluation de la prédiction** : Avant tout travail préclinique sur la pseudo-vWD, reconsidérer si l'hémophilie A avec anomalie vasculaire (rang 9) ne constitue pas une cible plus directement exploitable en tant que sous-indication de l'indication approuvée
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pyrazinamide
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pyrazinamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -99,10 +99,10 @@ Aucun essai clinique ni aucune publication ne soutient l'indication « otite moy
 - Documenter le mécanisme d'action complet via l'API DrugBank
 - Réorienter, le cas échéant, l'hypothèse de recherche vers l'**otite moyenne tuberculeuse** (sous-catégorie disposant d'un corpus de cas cliniques réels), plutôt que l'otite moyenne infectieuse générique
 - Rechercher une éventuelle activité antibactérienne directe du pyrazinamide contre les pathogènes usuels de l'otite moyenne avant toute étude préclinique
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

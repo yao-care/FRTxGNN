@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Thymol
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Thymol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -91,10 +91,10 @@ La prédiction pour l'anévrisme du septum interventriculaire est de niveau L5 (
 - Obtenir des données détaillées sur le mécanisme d'action (MOA) de thymol (DG002)
 - Documenter une indication d'origine claire et approuvée pour ce composé, actuellement absente des sources consultées
 - En cas d'intérêt pour le rang 8, revue manuelle des 20 publications existantes afin de confirmer ou d'infirmer une pertinence mécanistique réelle avant d'engager des ressources supplémentaires
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Enzalutamide
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 116
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Niveau de preuve: **L1** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -141,10 +141,10 @@ Enzalutamide bénéficie d'un corpus de preuves cliniques de niveau L1, avec plu
 - Évaluation approfondie des interactions médicamenteuses (DDI), notamment avec les inducteurs puissants du CYP3A4 (rifampicine) et les inhibiteurs du CYP2C8 (gemfibrozil)
 - Élaboration d'un Plan de Gestion des Risques (PGR) pour les populations à risque : patients âgés, antécédents épileptiques, risque cardiovasculaire élevé
 - Stratégie de prix et d'accès au marché en lien avec la HAS (évaluation du Service Médical Rendu et de l'Amélioration du SMR)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

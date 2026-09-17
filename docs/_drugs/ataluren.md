@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ataluren
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Ataluren
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -119,10 +119,10 @@ La connexion mécanistique PTC readthrough → gènes *ATP8B1*, *ABCB11*, *UGT1A
 - **Modèles précliniques in vivo** : Valider l'efficacité in vivo dans des modèles murins de cholestase héréditaire (modèles *Atp8b1* et *Abcb11* knock-in nonsense)
 - **Consultation maladies rares** : Engager des centres de référence (filière FILFOIE) pour identifier les cohortes de patients porteurs de mutations nonsense éligibles
 - **Évaluation statut orphelin** : Explorer l'extension de la désignation orpheline existante (nmDMD) à la PFIC2 et au syndrome de Crigler-Najjar de type I auprès de l'EMA/ANSM
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nitrendipine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 214
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Nitrendipine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -103,10 +103,10 @@ Le lien entre la nitrendipine et la migraine repose uniquement sur une inférenc
 - Obtenir les données de mécanisme d'action spécifiques à la nitrendipine (DrugBank ou équivalent)
 - Concevoir une étude mécanistique ou préclinique reliant spécifiquement la nitrendipine (et non la classe CCB en général) à la prévention de la migraine
 - À titre de comparaison, l'angine de Prinzmetal (4ᵉ candidat prédit, niveau de preuve L3) dispose de preuves cliniques directes sur la nitrendipine elle-même (étude clinique PMID 1920816) et pourrait justifier une évaluation prioritaire distincte
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

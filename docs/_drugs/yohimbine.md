@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Yohimbine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 332
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Yohimbine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -109,10 +109,10 @@ Un écart de données bloquant a été identifié : les mises en garde et contre
 - Clarification de l'indication d'origine de la Yohimbine (actuellement non documentée dans les données disponibles)
 - Étude préclinique ou clinique testant spécifiquement la Yohimbine (et non des molécules apparentées) dans la migraine
 - Revue pharmacologique dédiée pour trancher la contradiction mécanistique identifiée (antagonisme α2) avant toute progression vers une évaluation d'hypothèse
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

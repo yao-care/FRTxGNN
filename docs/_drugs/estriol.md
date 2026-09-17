@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Estriol
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 121
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Estriol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L3** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -109,10 +109,10 @@ La prédiction TxGNN est biologiquement plausible et soutenue par au moins une �
 - Identifier ou initier un essai clinique de Phase 2 randomisé contrôlé comparant estriol faible dose vs placebo dans l'AHF, avec critères d'évaluation sur la reprise des cycles menstruels et les taux de LH/FSH
 - Évaluer la faisabilité réglementaire d'une demande d'ATU (Autorisation Temporaire d'Utilisation) ou d'une extension d'indication en France
 - Définir la voie d'administration optimale (orale, transdermique, vaginale) selon le profil pharmacocinétique recherché pour l'effet central HPG
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

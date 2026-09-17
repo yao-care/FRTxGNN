@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Darolutamide
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 97
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Darolutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -143,10 +143,10 @@ Ce dossier couvre 3 indications prédites. Les résumés des indications #2 et #
 **Rationnel mécanistique :** La signalisation androgénique influence la fonction des lymphocytes T CD4+, l'activation immunitaire et la dynamique de réplication du VIH. Les androgènes favoriseraient le maintien du réservoir viral et inhiberaient certains mécanismes d'élimination immunitaire. Des études parallèles sur les antagonistes de l'AR dans le contexte SARS-CoV-2 apportent un soutien indirect à l'hypothèse immunomodératrice. L'hypothèse est biologiquement cohérente mais non vérifiée spécifiquement pour le VIH.
 
 Aucun essai clinique ni littérature associés disponibles actuellement pour cette indication.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

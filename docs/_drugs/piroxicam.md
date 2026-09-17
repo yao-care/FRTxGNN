@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Piroxicam
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Piroxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -81,10 +81,10 @@ Le niveau de preuve est L5 (prédiction du modèle uniquement, aucune étude cli
 - Évaluation de la faisabilité réglementaire, le produit n'étant pas commercialisé en France (0 AMM)
 
 **Remarque :** ce pack de preuves contient 9 autres indications prédites pour le piroxicam. Parmi elles, la **polyarthrite juvénile idiopathique** (rang TxGNN 10, score 99,93 %) dispose d'un niveau de preuve nettement supérieur (L1 — revues systématiques, méta-analyses en réseau, et essais cliniques historiques testant directement le piroxicam) et affiche déjà une recommandation « Proceed with Guardrails ». Un rapport dédié à cette indication serait prioritaire par rapport à la présente prédiction.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

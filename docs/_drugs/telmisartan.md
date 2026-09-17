@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Telmisartan
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Telmisartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -93,10 +93,10 @@ Malgré un score TxGNN élevé (99.98%), cette prédiction ne dispose d'aucun es
 - Mises en garde et contre-indications TFDA (DG001), actuellement bloquantes pour toute évaluation de sécurité (S1)
 - Études précliniques explorant un lien potentiel entre blocage AT1 et vasospasme coronarien, si l'hypothèse doit être creusée
 - À noter : ce même dossier candidat contient une prédiction alternative (hémorragie intracérébrale, rang 9) appuyée par un essai de Phase 3 positif (TRIDENT, N=1671, réduction du risque de récidive de 7,4 % à 4,6 %) et classée en niveau de preuve L1 avec recommandation « Proceed with Guardrails » — cette piste mérite une évaluation prioritaire distincte.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

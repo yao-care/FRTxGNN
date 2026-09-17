@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cytarabine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 93
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Niveau de preuve: **L3** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -125,10 +125,10 @@ Les données historiques (1979–1988) révèlent un signal d'activité clinique
 - Étude préclinique moderne sur des modèles SCLC actuels (PDX, organoïdes) pour valider et quantifier la sensibilité croisée observée in vitro
 - Évaluation de la pharmacogénomique des transporteurs nucléosidiques (hENT1/hCNT1) dans les biopsies SCLC pour identifier les sous-populations susceptibles de répondre (PMID 18600541)
 - Exploration du potentiel de synergie avec les immunothérapies anti-PD-L1 dans le SCLC réfractaire, sur la base du signal ADORA1–PD-L1 (PMID 32183950)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

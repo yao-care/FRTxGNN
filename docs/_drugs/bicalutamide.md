@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bicalutamide
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 55
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -109,10 +109,10 @@ L'hypertrichosis n'étant typiquement pas une maladie androgéno-dépendante, la
 - Identification du sous-type d'hypertrichosis ciblé (androgéno-dépendant vs. indépendant) avant toute exploration
 - Études précliniques sur des modèles validés d'hypertrichosis androgéno-dépendante
 - Évaluation du profil bénéfice/risque dans des populations non oncologiques (exposition à un antineoplastique hormonal pour une indication bénigne)
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

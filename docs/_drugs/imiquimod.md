@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imiquimod
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 148
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -116,10 +116,10 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Évaluer séparément les sous-groupes anatomiques du « Néoplasme Pré-malin » (peau vs muqueuses génitales vs muqueuse orale), dont la force de preuve diffère nettement
 - Clarifier la voie d'accès réglementaire en France, le produit n'étant actuellement pas commercialisé (0 AMM)
 - Écarter explicitement les essais où l'imiquimod agit comme adjuvant vaccinal dans des cancers invasifs, non pertinents pour cette indication
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

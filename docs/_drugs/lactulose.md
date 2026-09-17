@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lactulose
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Lactulose
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -91,10 +91,10 @@ Le score TxGNN est élevé, mais aucune preuve clinique, préclinique ou mécani
 - Mises en garde et contre-indications issues de la notice ANSM/TFDA (DG001, sévérité Blocking — bloque l'évaluation de sécurité S1)
 - Études précliniques explorant un éventuel effet du lactulose sur les lésions tubulaires rénales induites par l'acide urique, avant toute poursuite
 - **Note d'orientation** : ce même Evidence Pack contient une piste bien mieux étayée pour le lactulose — l'*obstructive jaundice* (rang 3, niveau de preuve L3, stade S2 « Research Question »), avec 1 essai clinique et 20 publications, dont un essai multicentrique randomisé (PMID 2032107) sur la prévention de l'insuffisance rénale post-opératoire par le lactulose. Il est recommandé de prioriser cette indication pour la suite des travaux plutôt que l'Acute Urate Nephropathy.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ziconotide
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 334
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ziconotide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -97,10 +97,10 @@ La preuve disponible se limite à un seul rapport de cas (niveau L4, étape S1 �
 - Confirmer le mécanisme d'action formel via DrugBank ou une autre source structurée — DG002
 - Identifier ou initier une étude contrôlée (au moins Phase 2) évaluant le ziconotide dans la migraine chronique réfractaire
 - Évaluer la faisabilité clinique et le rapport bénéfice/risque de la voie intrathécale dans cette indication, en particulier au vu des autres signaux du même dossier (ex. syndrome de la queue de cheval, rang 3) qui suggèrent une possible confusion entre association thérapeutique et association liée à la voie d'administration elle-même
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

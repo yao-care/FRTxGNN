@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maraviroc
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Maraviroc
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -89,10 +89,10 @@ Les données disponibles sont insuffisantes pour évaluer le potentiel de reposi
 - **Données DDI** — la source DDI n'a retourné aucun résultat ; vérifier si le médicament est référencé sous un autre identifiant
 
 > **Note opérationnelle :** Le log indique que la requête `tfda_package_insert` a retourné 1 résultat (`result_count: 1`), mais ces données n'ont pas été intégrées au pack. Le parsing de ce document devrait permettre de combler les lacunes DG001 (mises en garde/contre-indications) et possiblement DG002 (MOA).
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nitisinone
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 213
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Nitisinone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L3** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -98,10 +98,10 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Obtenir les données formelles de mécanisme d'action via DrugBank (DG002)
 - Clarifier si l'acidose tubulaire rénale doit être évaluée comme indication indépendante ou comme extension d'étiquette rattachée à la HT‑1
 - Les 9 autres candidats prédits (galactosémie, sérpinopathie, déficit en inhibiteur C1, glycogénoses, syndrome de Griscelli, granulomatose chronique liée à l'X, phénotype ermine) sont tous classés L4/L5 avec recommandation Hold — absence de littérature ou de lien mécanistique substantiel, non retenus pour approfondissement à ce stade.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

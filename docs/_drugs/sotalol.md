@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sotalol
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Sotalol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -93,10 +93,10 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Mises en garde et contre-indications officielles de la notice / TFDA-équivalent français (DG001, bloquant pour l'évaluation de sécurité S1)
 - Si l'indication « trouble d'AVC » est retenue pour investigation, une revue qualitative des essais de grade A/B (notamment NCT00007605, NCT05279833) et une clarification du critère d'évaluation (maintien du rythme sinusal vs réduction directe de l'AVC)
 - Confirmation qu'aucun développement clinique ne doit être engagé sur la piste « Maladie du Sinus de Type 2 » compte tenu du signal contre-indicatoire identifié
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

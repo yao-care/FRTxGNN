@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Doravirine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 108
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Doravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -104,10 +104,10 @@ La prédiction repose exclusivement sur une analogie mécanistique (homologie de
 - Profil de sécurité complet : avertissements, contre-indications, interactions médicamenteuses (source : notice TFDA/EMA)
 - Évaluation du statut réglementaire en France via EMA/ANSM pour tout usage potentiel
 - Clarification du contexte de recherche : application vétérinaire (primates non humains) ou modèle préclinique pour l'infection à VIH-1 humain
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

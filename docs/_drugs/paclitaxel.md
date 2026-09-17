@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Paclitaxel
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 224
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L1** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -126,10 +126,10 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Données de mécanisme d'action structurées (DrugBank) au niveau du médicament
 - Vérification du statut réglementaire réel en France/Taïwan (le statut « non commercialisé » avec 0 AMM doit être confirmé, car il est incohérent avec un usage clinique aussi documenté du paclitaxel)
 - Profil détaillé de toxicité (myélosuppression, émétogénicité) pour compléter la section Cytotoxicité
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

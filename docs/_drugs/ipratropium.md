@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ipratropium
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 155
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L1** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -124,10 +124,10 @@ Signal à surveiller néanmoins : la littérature associée à un autre candidat
 - Compléter les données structurées de mécanisme d'action via DrugBank (gap DG002) pour formaliser l'analyse mécanistique au-delà des extraits de littérature.
 - Clarifier le statut réglementaire réel en France (le médicament apparaît non commercialisé avec 0 AMM dans ce jeu de données — à vérifier, car ipratropium dispose historiquement d'AMM dans d'autres marchés européens).
 - Réévaluer la classification de ce candidat : puisque l'indication prédite recoupe l'usage déjà établi, envisager de réorienter l'effort de repositionnement vers des candidats à indication réellement novatrice de ce même dossier (ex. rang 8 « tracheal disease », niveau de preuve L3, mécanisme pharmacologique direct mais sans validation clinique en indication).
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

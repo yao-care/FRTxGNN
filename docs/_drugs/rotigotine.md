@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rotigotine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 269
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rotigotine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -117,10 +117,10 @@ Le signal TDAH repose uniquement sur un niveau de preuve L4 (mécanistique/indir
 - Rechercher des données précliniques ou des séries de cas ciblant spécifiquement la rotigotine dans le TDAH (au-delà de la comorbidité SJSR)
 - Réévaluer la piste schizophrénie séparément, avec un focus sur le risque d'aggravation des symptômes positifs avant toute poursuite
 - Ne pas poursuivre les rangs 3 à 10 en l'absence de tout nouveau signal clinique ou littéraire
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

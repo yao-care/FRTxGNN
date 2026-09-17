@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tixocortol
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Tixocortol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -107,10 +107,10 @@ Les deux indications prédites reposent uniquement sur le score du modèle TxGNN
 - Obtenir les données détaillées de mécanisme d'action via DrugBank ou la littérature pharmacologique — (DG002)
 - Confirmer l'indication d'origine réellement approuvée pour tixocortol dans au moins une juridiction, afin d'établir une base de comparaison mécanistique solide
 - Assurer une veille sur l'apparition d'essais cliniques ou de publications concernant tixocortol dans le lymphome cutané à cellules T ou la leucémie lymphoblastique aiguë
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Valine
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 326
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Valine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -96,10 +96,10 @@ Le lien mécanistique entre la valine et la cholangite sclérosante repose sur d
 - Vérification du statut réglementaire de la valine comme produit thérapeutique (vs. supplément nutritionnel) avant toute évaluation clinique ultérieure
 
 *Note méthodologique : les autres indications prédites pour ce candidat (rangs 2–10, non détaillées ici selon le format) présentent un niveau de preuve encore plus faible (L5) — la plupart des articles associés correspondent en réalité à des coïncidences de nomenclature de mutations génétiques (ex. « Val→X » dans le nom de variants), et non à des preuves pharmacologiques réelles concernant la valine.*
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

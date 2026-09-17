@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glucarpidase
-parent: 僅模型預測 (L5)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Glucarpidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -94,10 +94,10 @@ L'absence totale de preuves cliniques et de littérature (niveau L5), l'inexiste
 - Récupération des informations de sécurité et des contre-indications depuis la notice officielle — actuellement manquantes (DG001)
 - Analyse critique de l'artefact de regroupement dans le graphe de connaissances TxGNN concernant les nœuds de type cataracte
 - Identification d'un mécanisme biologique crédible reliant la voie folate/MTX aux pathologies oculaires avant toute évaluation clinique
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

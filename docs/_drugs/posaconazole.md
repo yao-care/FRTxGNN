@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Posaconazole
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 240
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Niveau de preuve: **L3** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -91,10 +91,10 @@ Les preuves disponibles pour l'association posaconazole–pneumocystose restent 
 - Compléter la classification de pertinence ("pending") des essais cliniques et publications listés, en confirmant si le posaconazole est réellement utilisé comme comparateur standard
 - Rechercher des études cliniques dédiées évaluant spécifiquement le posaconazole en prévention ou traitement de la pneumocystose
 - Clarifier le statut réglementaire local avant toute démarche de repositionnement
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

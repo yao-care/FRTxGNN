@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clotrimazole
-parent: 僅模型預測 (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 85
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -108,10 +108,10 @@ L'unique essai clinique identifié est suspendu avant complétion et évalue une
 ---
 
 > **Note sur les autres indications prédites :** Le modèle TxGNN a également prédit **Vulvovaginite** (rang 2, score 99,59 %, niveau L1 — 22 essais cliniques, 20 publications) et **Vaginite atrophique post-ménopausique** (rang 3, score 99,46 %, niveau L5). La vulvovaginite correspond à l'indication mondiale établie de Clotrimazole (non un repositionnement) ; la vaginite atrophique ne dispose d'aucun mécanisme pertinent ni d'aucune preuve clinique.
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 

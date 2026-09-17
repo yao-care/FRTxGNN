@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Prednisone
-parent: 僅模型預測 (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 246
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Prednisone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Rapport d'évaluation pharmaceutique
 
 </div>
 
@@ -98,7 +98,7 @@ D'après ce jeu de données, la prednisone n'est actuellement associée à **auc
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune donnée de mise en garde, de contre-indication ou d'interaction médicamenteuse n'a pu être extraite pour cette évaluation. Il s'agit d'une **lacune bloquante** (DG001 : « TFDA 仿單警語/禁忌 », sévérité *Blocking*) qui empêche à ce stade toute évaluation de sécurité préliminaire (étape S1).
+Veuillez consulter la notice pour les informations de sécurité. Aucune donnée de mise en garde, de contre-indication ou d'interaction médicamenteuse n'a pu être extraite pour cette évaluation. Il s'agit d'une **lacune bloquante** (DG001 : « ANSM package insert warnings/contraindications », sévérité *Blocking*) qui empêche à ce stade toute évaluation de sécurité préliminaire (étape S1).
 
 ---
 
@@ -117,10 +117,10 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 - Clarifier l'indication d'origine réellement approuvée pour la prednisone en France/UE
 - Réaliser une analyse de contribution du composant pour distinguer l'effet de la prednisone seule de celui des associations (méthotrexate, baricitinib) dans l'AA
 - Vérifier manuellement auprès de l'ANSM le statut réel de commercialisation en France, la valeur « 0 AMM » semblant incohérente avec l'usage clinique bien établi de cette molécule
-## Disclaimer
+## Avertissement
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
+Une validation clinique est requise avant toute application clinique.
 
 ---
 
