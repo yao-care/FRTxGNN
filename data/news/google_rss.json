@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T22:51:07.183894+00:00",
+  "fetched_at": "2026-09-20T00:55:42.652344+00:00",
   "source": "Google News Health RSS",
   "count": 98,
   "articles": [
@@ -44,22 +44,12 @@
       }
     },
     {
-      "id": "69f81adbccb2",
-      "title": "Antalgiques, anti-inflammatoires, béquilles, sparadrap... Les masseurs-kinésithérapeutes peuvent désormais prescrire des médicaments et du matériel médical - franceinfo",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOY1RCNF9CdmZQVmI4c3M1V2oxalk5RWlZalNFT0lkTllnVUxDcHJhNi1nTDFhWWp6RXZNRWJBb1c2UEtzMTN2QmFJTjFSbDJUWThvT1N3SXA4YjJXZ3Fla1VjbDhnSGk2ZUwyNUpKRVZqbDNXSzlzNW5Uci1ydDN6WVlTQkVBYmFvMlEtbDc1SHVZbGpOdmh5LUtPMElqWlNmYzJ5eGtTNUlFWmI4aHUyeklYc3VuaGpSU3NXUEhvOVJtVEdqYzN5OFk0TW1kMUdPVWIzZmRoRS1ZMjhLYmNydmNvRzZhT0hRYXdNWk1aSG15N0tGWEc1eFN1NzB1NjUwczdDekF2NTZvdG9IZ2xYb2d3WXlwbDJIV203R3Y3RQ?oc=5",
-      "published": "2026-09-17T06:36:20+00:00",
-      "source": {
-        "name": "franceinfo",
-        "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
-      "id": "6a258ffe4c05",
-      "title": "\"Ça va réduire les dépenses de l'Assurance maladie\" : les kinés autorisés à prescrire du matériel médical et certains médicaments - TF1 Info",
+      "id": "a65b991b022d",
+      "title": "\"Ça va réduire les dépenses de l'Assurance maladie\" : les kinés autorisés à prescrire du matériel médical et certains médicaments - tf1info.fr",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRVdyQWlnUlR6VEVVdFllSkdNZXJ4azU5Qk9ra21vZE43NC1iOVk1dWdmcnFhN19VTUFMV0hHbHhwSjg2dFByUmU4UnhHTU5XUENXZXdlSW1Ib2ZoNHhyN0x2QVQzMDVGaWIxSXI3ZGxWd3lxVDA0Qm8wVW14UFNoVmJOVjU5RDFzSGF6bVBseWNNMENaMkVnWUl5MnptWUJPRGc0MlRmaXJLeXhDTFNVclU0N2hjMTdnWjJTRUJXajBmMDFiUDJDbzM4SjRYMFBZc2NpV0Raa005Z1hmLWhNckdUU2hpa2UzWTVxb0hjOTZUN2xkME5uaGN1MktyTFQ2Vnh3Sm1kQ1VWXzA?oc=5",
       "published": "2026-09-17T15:14:07+00:00",
       "source": {
-        "name": "TF1 Info",
+        "name": "tf1info.fr",
         "url": "https://www.tf1info.fr"
       }
     },
@@ -71,6 +61,16 @@
       "source": {
         "name": "vidal.fr",
         "url": "https://www.vidal.fr"
+      }
+    },
+    {
+      "id": "eb3969d00a7a",
+      "title": "Les kinés peuvent désormais prescrire certains médicaments : ce qui change pour vous - Santé Magazine",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZjJfdVlldUo1THMyMTNoejhBRTMxN0Rvd2VHWjdkWHFVd3dUSVFDcThRNDRoYmhicU9KbTBVRllOeHZjNTJERWF3MWJaZjV4aUpNa0c2Rl83aXRycU4yOG4yWVpqdE40ZUlvVDBBY2psUllCNGZfclhObWR0X19aRFdRbnFZYWdESTdaeXlJeFE3Rm5rZDRJVTMtRkljQXNwZzhUTG1PVFZhYnlTVUg5V2Y4Z0dGbWt1OFBXeHY0MjU2XzhnMkc3QzVpTWlURHlGTFMtRFBleVpxUTk3aUU1TFR4b2pBRWVJNWgtVVphTVBWV2xJaVpUajhn?oc=5",
+      "published": "2026-09-18T10:45:00+00:00",
+      "source": {
+        "name": "Santé Magazine",
+        "url": "https://www.santemagazine.fr"
       }
     },
     {
@@ -154,13 +154,23 @@
       }
     },
     {
-      "id": "868c008bff25",
-      "title": "Médicament sans ordonnance inefficace ou dangereux : se faire rembourser et agir contre le vendeur - Kohen Avocats",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdHNEbTNCb00xSTdTZ1Q0REotRURKVUVfaHBycjJldGk2X1gyU0dvdVN4cGVSR2REanFKcktzYXlTUUdRVlczN3dxSjI4V0N3OExYMWFGX0RSWnZEdmxGdnJ3T0IyWF81RHM3aHFHc1RuNC1hbHhpbnhicWVwZElHS2ZkMjd2WUhidnVCRjhuVnVPeDBMMWhEZWN5NHowSXdEcmhydjZFekFLOThfY1k2cFZQbW50N0kt?oc=5",
-      "published": "2026-09-19T09:02:00+00:00",
+      "id": "6949d0497542",
+      "title": "Médicaments : la bonne idée antigaspi qui irrite les labos - Reporterre, le média de l'écologie",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZjM4OXhCV3ZjV1dTNDlkcU94LU5jNFMzMmdWN092REpVcXlWRHNDWjd1ZTJDa3p3d2I3MEdMQ2wwS182UkZYdkV2LXhlR3ZwSm0yQ0lka19qS2hRVjh3ck9vSXhvMGw2Qm1adXRiRzRQMlBITUIyYllfaDUwRjBuWWRrS3RySDhjSlQ5dkNzektrUQ?oc=5",
+      "published": "2026-09-14T07:40:00+00:00",
       "source": {
-        "name": "Kohen Avocats",
-        "url": "https://kohenavocats.fr"
+        "name": "Reporterre, le média de l'écologie",
+        "url": "https://reporterre.net"
+      }
+    },
+    {
+      "id": "b864b597973f",
+      "title": "Les kinésithérapeutes peuvent désormais prescrire des médicaments - guadeloupe.franceantilles.fr",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQkRramE3bVk2ckNiLVJNZDR4U2VmbXhhVG1GclU3ai1QZWxPMGhsWjc2SG9Kb1hjOUJzZjVhMXI3QzQwamt6LWt5cWdqTG9JZEtrOVJ5WndvZ0I2UWk3OEFaMzc3X0VrQUNTMFVVc3RSM0VJZmFuQ3FZZF9tVGJBQUlxTzRNc2FrVUN3S09mMEpRRzAtc2RDcE9MOWJ6WHFWM3R0OHNCcjFwanpvZE03VHpyQXRlOG42c3VhMVB2MGsyUS02anRrTnJUaVZJdjg?oc=5",
+      "published": "2026-09-19T18:50:13+00:00",
+      "source": {
+        "name": "guadeloupe.franceantilles.fr",
+        "url": "https://www.guadeloupe.franceantilles.fr"
       }
     },
     {
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "6949d0497542",
-      "title": "Médicaments : la bonne idée antigaspi qui irrite les labos - Reporterre, le média de l'écologie",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZjM4OXhCV3ZjV1dTNDlkcU94LU5jNFMzMmdWN092REpVcXlWRHNDWjd1ZTJDa3p3d2I3MEdMQ2wwS182UkZYdkV2LXhlR3ZwSm0yQ0lka19qS2hRVjh3ck9vSXhvMGw2Qm1adXRiRzRQMlBITUIyYllfaDUwRjBuWWRrS3RySDhjSlQ5dkNzektrUQ?oc=5",
-      "published": "2026-09-14T07:40:00+00:00",
-      "source": {
-        "name": "Reporterre, le média de l'écologie",
-        "url": "https://reporterre.net"
-      }
-    },
-    {
       "id": "4fffd5af4dae",
       "title": "Médicaments en libre-service : \"peu efficaces\" voire carrément dangereux, attention à ces produits que vous utilisez pour vous soigner - Midi Libre",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPR2xtWGxnVFJtWmY4RUtLNTlrSWJQNTFad0lQZlh0c240Zm85U3Jra21VNENKU1BrZDNDcng3WDFKMEVESzd2dXJ4emZZdFR5RWZnZWszWTlFQnZoc200VzFqX2NGU2dxTm0tS2ZJMW5XQzEzS1UzQWtCRlpPSGR3aGcxSnNGMXYtMXVXbU01TC1ZRG9tSVF3SEpmRTY3ajBycmpUN0tBR1BQN3pWWjl4THdyZWJqZlhTZUd1cl9ua2N6WmNTeHBUNVBtM1dyVnJ0a3ZEVV80X2ZINFJFeG96cXBTQzMtak5TbjNEUXFBNEFiVTFTMzNsOTNzR1ZYaGgwMjNMVjh3d2Rjdw?oc=5",
@@ -194,13 +194,13 @@
       }
     },
     {
-      "id": "b864b597973f",
-      "title": "Les kinésithérapeutes peuvent désormais prescrire des médicaments - guadeloupe.franceantilles.fr",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQkRramE3bVk2ckNiLVJNZDR4U2VmbXhhVG1GclU3ai1QZWxPMGhsWjc2SG9Kb1hjOUJzZjVhMXI3QzQwamt6LWt5cWdqTG9JZEtrOVJ5WndvZ0I2UWk3OEFaMzc3X0VrQUNTMFVVc3RSM0VJZmFuQ3FZZF9tVGJBQUlxTzRNc2FrVUN3S09mMEpRRzAtc2RDcE9MOWJ6WHFWM3R0OHNCcjFwanpvZE03VHpyQXRlOG42c3VhMVB2MGsyUS02anRrTnJUaVZJdjg?oc=5",
-      "published": "2026-09-19T18:50:13+00:00",
+      "id": "868c008bff25",
+      "title": "Médicament sans ordonnance inefficace ou dangereux : se faire rembourser et agir contre le vendeur - Kohen Avocats",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdHNEbTNCb00xSTdTZ1Q0REotRURKVUVfaHBycjJldGk2X1gyU0dvdVN4cGVSR2REanFKcktzYXlTUUdRVlczN3dxSjI4V0N3OExYMWFGX0RSWnZEdmxGdnJ3T0IyWF81RHM3aHFHc1RuNC1hbHhpbnhicWVwZElHS2ZkMjd2WUhidnVCRjhuVnVPeDBMMWhEZWN5NHowSXdEcmhydjZFekFLOThfY1k2cFZQbW50N0kt?oc=5",
+      "published": "2026-09-19T09:02:00+00:00",
       "source": {
-        "name": "guadeloupe.franceantilles.fr",
-        "url": "https://www.guadeloupe.franceantilles.fr"
+        "name": "Kohen Avocats",
+        "url": "https://kohenavocats.fr"
       }
     },
     {
@@ -254,12 +254,12 @@
       }
     },
     {
-      "id": "30fc04dd721c",
-      "title": "Automédication : plus de 8 médicaments ou produits de santé sans ordonnance sur 10 posent problème - La Provence",
+      "id": "6aaf6f5f357c",
+      "title": "Automédication : plus de 8 médicaments ou produits de santé sans ordonnance sur 10 posent problème - laprovence.com",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSkMxNVIzSHJTa1lZZ3BKVG1QZTM4SnQwbmc2ZnBKRlFPeE4xTll1d3NjUkpOOUhEdzBwWUJNS2tMMy1VWTRjTFhGT3pDQzlUOU9uVWxuNjhQVng2QWprOWMtSkhxZ0RVR09nUTFZVUZTX09aNU9GTEFwQ3VwanJXel9oa2p5dl93aVNzSTlkWFY0SVNkQ1RfYUV2X1lBUmkyRFNiWmZZRWFzNzAzbnMySkxlSXlOWE5OOWdFUmhfaWp5SHRyYnFkdlpreFFad0NZeTluU1I2VUcxWHlOMzM1NEh4bFdrNmlKbEE?oc=5",
       "published": "2026-09-17T07:54:41+00:00",
       "source": {
-        "name": "La Provence",
+        "name": "laprovence.com",
         "url": "https://www.laprovence.com"
       }
     },
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "eb3969d00a7a",
-      "title": "Les kinés peuvent désormais prescrire certains médicaments : ce qui change pour vous - Santé Magazine",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZjJfdVlldUo1THMyMTNoejhBRTMxN0Rvd2VHWjdkWHFVd3dUSVFDcThRNDRoYmhicU9KbTBVRllOeHZjNTJERWF3MWJaZjV4aUpNa0c2Rl83aXRycU4yOG4yWVpqdE40ZUlvVDBBY2psUllCNGZfclhObWR0X19aRFdRbnFZYWdESTdaeXlJeFE3Rm5rZDRJVTMtRkljQXNwZzhUTG1PVFZhYnlTVUg5V2Y4Z0dGbWt1OFBXeHY0MjU2XzhnMkc3QzVpTWlURHlGTFMtRFBleVpxUTk3aUU1TFR4b2pBRWVJNWgtVVphTVBWV2xJaVpUajhn?oc=5",
-      "published": "2026-09-18T10:45:00+00:00",
-      "source": {
-        "name": "Santé Magazine",
-        "url": "https://www.santemagazine.fr"
-      }
-    },
-    {
       "id": "a582a0a037c6",
       "title": "Antalgiques, béquilles... les kinés peuvent désormais prescrire des médicaments et du matériel médical - Doctissimo",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORGN6WVA5NXdTd3ZzMlc5Q2otWDVPajYtTFd4YTllN0p0R3UyTGZVMC14YldxT2NZR2hOMFZrZkViaTZiNkJ5ODg1bU1uLWU0MDFySUJNWmVXZEl4TVpIc0Q5ZXNTRk5zX2NXR045RUdlYVc4VWE4dFBZTEtLRTN4b1ZBU3FoTEtkMFdYaV9UeWFhU2tKemE3ZFE5aWZvLWxYV3FuaVZsQlRpZ1BTUzJyYXNXNWVUSzc1c3JjeWZNQmMxb0J4U1hsVkFQcjdtMFFOeWItM2hUaVZ1RTlTVFoycGgtdXdqQjA?oc=5",
@@ -301,6 +291,16 @@
       "source": {
         "name": "Doctissimo",
         "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
+      "id": "3de60f54f0fc",
+      "title": "\"C’est une solution ponctuelle\" : Selon les experts, l’automédication est une mauvaise habitude qui présente des risques pour votre santé - tf1info.fr",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSkl6NmpVSzQwWjRaOS1mV3VJQTE0ZDF4aWN6dkdVOFN6SnlPNWF5RnFIUE01TXBwRW5DbzBGLURlVG9JeUVBMjZoeFZrY3hWd1J4YWlyZ2ExWE1VZ2EtWUhLbXFQNU41eEF0dlhOZjRsQmFIY1NpNjZmYlE5T1YtenAxdDFYTnBNcXhIZUVpMi1WT3hlWnFKTm96SDlDc0tfMDBHbzJYcEdvcWVISVpWYnFYMDlQRnd4bTZ3R3c4NGUxVmZhRGtkX19PZW1DMmktWlAwNHRlN1RoUHc1aGxyVHdpVlU1anlLU2lqSjR0SkpjdGwteXN3dkhsanp0ZGx0d0F1Ug?oc=5",
+      "published": "2026-09-17T05:01:50+00:00",
+      "source": {
+        "name": "tf1info.fr",
+        "url": "https://www.tf1info.fr"
       }
     },
     {
@@ -314,22 +314,22 @@
       }
     },
     {
-      "id": "b06134237c8d",
-      "title": "\"C’est une solution ponctuelle\" : Selon les experts, l’automédication est une mauvaise habitude qui présente des risques pour votre santé - TF1 Info",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSkl6NmpVSzQwWjRaOS1mV3VJQTE0ZDF4aWN6dkdVOFN6SnlPNWF5RnFIUE01TXBwRW5DbzBGLURlVG9JeUVBMjZoeFZrY3hWd1J4YWlyZ2ExWE1VZ2EtWUhLbXFQNU41eEF0dlhOZjRsQmFIY1NpNjZmYlE5T1YtenAxdDFYTnBNcXhIZUVpMi1WT3hlWnFKTm96SDlDc0tfMDBHbzJYcEdvcWVISVpWYnFYMDlQRnd4bTZ3R3c4NGUxVmZhRGtkX19PZW1DMmktWlAwNHRlN1RoUHc1aGxyVHdpVlU1anlLU2lqSjR0SkpjdGwteXN3dkhsanp0ZGx0d0F1Ug?oc=5",
-      "published": "2026-09-17T05:01:50+00:00",
+      "id": "69f81adbccb2",
+      "title": "Antalgiques, anti-inflammatoires, béquilles, sparadrap... Les masseurs-kinésithérapeutes peuvent désormais prescrire des médicaments et du matériel médical - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOY1RCNF9CdmZQVmI4c3M1V2oxalk5RWlZalNFT0lkTllnVUxDcHJhNi1nTDFhWWp6RXZNRWJBb1c2UEtzMTN2QmFJTjFSbDJUWThvT1N3SXA4YjJXZ3Fla1VjbDhnSGk2ZUwyNUpKRVZqbDNXSzlzNW5Uci1ydDN6WVlTQkVBYmFvMlEtbDc1SHVZbGpOdmh5LUtPMElqWlNmYzJ5eGtTNUlFWmI4aHUyeklYc3VuaGpSU3NXUEhvOVJtVEdqYzN5OFk0TW1kMUdPVWIzZmRoRS1ZMjhLYmNydmNvRzZhT0hRYXdNWk1aSG15N0tGWEc1eFN1NzB1NjUwczdDekF2NTZvdG9IZ2xYb2d3WXlwbDJIV203R3Y3RQ?oc=5",
+      "published": "2026-09-17T06:36:20+00:00",
       "source": {
-        "name": "TF1 Info",
-        "url": "https://www.tf1info.fr"
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
       }
     },
     {
-      "id": "f4b3c6768569",
-      "title": "Les kinés autorisés à prescrire certains médicaments et matériels médicaux - Le Télégramme",
+      "id": "07d01222f13e",
+      "title": "Les kinés autorisés à prescrire certains médicaments et matériels médicaux - letelegramme.fr",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjJSbVVBV3FjSGJpZjRybGM2YnU2VHpNRC1qMGljOUJaOXlPSWVzaVE5LWptb0Fud0R4emtPV1MwTXlWejhQOGpudWFnQVlLN3RGd2VfVXpFM3NzeTYyZ0lELUVvLVNuU1RSQUtiRUZMVDhkWE52cjAxUG5vS3hTQkl5cUlHNXRJeDQ4SFdKcWREZHdEQzluei12aVUzbTlzVVFRSlROR3ZydWY3Ui14UVNrY2lleHlNcGR2OQ?oc=5",
       "published": "2026-09-17T13:53:22+00:00",
       "source": {
-        "name": "Le Télégramme",
+        "name": "letelegramme.fr",
         "url": "https://www.letelegramme.fr"
       }
     },
@@ -354,22 +354,12 @@
       }
     },
     {
-      "id": "590b3b2699a6",
-      "title": "Apnée du sommeil : un nouveau traitement oral révolutionnaire pour remplacer les masques nocturnes ! - PasseportSanté",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa1BjTmtQZ1N3ZTIzUG9oSEVWSi03ZjF4aDIwU2pmT1JXc2QxMGdVRTlfNHNQTHVoWENXaUpzaEhMem1FaGt2eU9fbzVLbFBzc1p0djUwVURUZkdHVHRSU1V3Zk5ST3VHSm9Sak1Ua3c5V2g4V3BjNnpqc29tdUZKRFRCZkM4dDZZdVFLUzZMeUV5RUljeW9aZE5aZEs3MjUxQk5neVhZdERXc3ZiZ0E?oc=5",
-      "published": "2026-09-19T17:02:05+00:00",
-      "source": {
-        "name": "PasseportSanté",
-        "url": "https://www.passeportsante.net"
-      }
-    },
-    {
-      "id": "e11fca19bb5e",
-      "title": "Kinés : ces médicaments et dispositifs médicaux qu’ils vont désormais pouvoir prescrire à leurs patients - Yahoo Life France",
+      "id": "e6aaef645f2e",
+      "title": "Kinés : ces médicaments et dispositifs médicaux qu’ils vont désormais pouvoir prescrire à leurs patients - fr.style.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNUk0OElXVmNxbDRfY1dmRzlBSFI4cC0xY2ZYLUVfMTc1aWJoekdBeFFZZm5RWHNVWnNaSVRlRE5DVkI4bFdhTUNXOWJSUjRhNXhVQk9HZEtiODB6T0Q3LWpYV2dFcmVZckE5UTZ3X1NTSEFWaWN5cGdsZDB6VnRsT3lOdGNoajJWVjBzRDlucVVwQ3pxZURGRW16SHNXYjg?oc=5",
       "published": "2026-09-18T10:45:00+00:00",
       "source": {
-        "name": "Yahoo Life France",
+        "name": "fr.style.yahoo.com",
         "url": "https://fr.style.yahoo.com"
       }
     },
@@ -384,6 +374,16 @@
       }
     },
     {
+      "id": "590b3b2699a6",
+      "title": "Apnée du sommeil : un nouveau traitement oral révolutionnaire pour remplacer les masques nocturnes ! - PasseportSanté",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa1BjTmtQZ1N3ZTIzUG9oSEVWSi03ZjF4aDIwU2pmT1JXc2QxMGdVRTlfNHNQTHVoWENXaUpzaEhMem1FaGt2eU9fbzVLbFBzc1p0djUwVURUZkdHVHRSU1V3Zk5ST3VHSm9Sak1Ua3c5V2g4V3BjNnpqc29tdUZKRFRCZkM4dDZZdVFLUzZMeUV5RUljeW9aZE5aZEs3MjUxQk5neVhZdERXc3ZiZ0E?oc=5",
+      "published": "2026-09-19T17:02:05+00:00",
+      "source": {
+        "name": "PasseportSanté",
+        "url": "https://www.passeportsante.net"
+      }
+    },
+    {
       "id": "ce4cb392ea02",
       "title": "Antibiotiques, vaccins... : comment l’IA accélère la création de médicaments et vaccins ? - Caminteresse",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdG5aejc2ZUVhdkdKd1oyN0ZlQjRyek9adTM5NG8tX1ozMzFqN1NGVWVYNWdJM2ZQNnU2TkFsRnc1WUM3ckUtMlFyeHFOWUVhNEZoaXZCbkZLa0xhZGJ3NW5qSi15Q0Uwd1k2cEJqemw2S0lYSkV6YVdOT0NFUEdaclVsbEhRblpsY1B1amlvc1VhX2pQTHZKM0ZsS2NXSXhNakZHYkZqWDNpamh4WURmc0NFV3pzV1pXQ2NV?oc=5",
@@ -391,26 +391,6 @@
       "source": {
         "name": "Caminteresse",
         "url": "https://www.caminteresse.fr"
-      }
-    },
-    {
-      "id": "18b1117a5d4c",
-      "title": "Votre pharmacien vous propose un autre médicament que celui prescrit : paierez-vous plus cher si vous le refusez ? - Actu.fr",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbk9sRmN2RG5VTTNCaDUtc3VmbkVqNlItUHZUOG90UXRQUzFVTExpLUY1eGdZQWR1MGZCYnRfX2FfR09CVjVTTjJEUldKM0Y5UU5DTWhLbF91QUpUbGs2N2RXeTRwMklVd1VaaFpfUEo1WllYYkx0TVNVN01ibHVFblBCazRxYXlMV2lfdTlTNTJFZnZrVlVDdlVuaWxUU200NmExUElvYkpBdlBQelhWdG9qRHFhbW5oRGUzc0I3Rl9WenNHQnhDb0VhN3NtNjRUaF9jc1g1V2d5U293TW56cnRB?oc=5",
-      "published": "2026-09-17T17:08:01+00:00",
-      "source": {
-        "name": "Actu.fr",
-        "url": "https://actu.fr"
-      }
-    },
-    {
-      "id": "916775597210",
-      "title": "Algérie–Bénin : Saidal lance son offensive pharmaceutique en Afrique de l’Ouest - Afrik",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVHZ3WF9hc2Vid1lzUHVGZGdIdF9hVTJNS3FPd1lBcU0za0h0UjAyZWV6eTdVNy1ZNUlhVHdndVZDM3E1UzBXaDhJVktZWGE0dFlaLXJ0azByZlhSVDUyYlRZU0k5Y29XTWwxa25TbDJBRy10dnYtUVc0OXpfMGE2TVRwMmxoSjlTaGExdWFyZXhIZjE1Y1FIWTJlNkx3LXY3?oc=5",
-      "published": "2026-09-19T09:54:08+00:00",
-      "source": {
-        "name": "Afrik",
-        "url": "https://www.afrik.com"
       }
     },
     {
@@ -424,23 +404,23 @@
       }
     },
     {
-      "id": "9922c1cb1fd5",
-      "title": "Novo Nordisk s’associe à Anthropic pour la découverte de médicaments - mind.eu.com",
+      "id": "907b7ca6855e",
+      "title": "Novo Nordisk s’associe à Anthropic pour la découverte de médicaments - Groupe mind",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbGU0UGJEam1LOXpCdm5zX19nc252NW80V1dqdnpqYUxzd1RmaHlMQTZMQUdVQ2JWaGctV2hpMk9QenczNXdXQXVHVjlDeXRsTmZMTmtlOUN2U3JYNmo5ZHRsZ0tEbERacGkzMEZrNW9rcDFFcFVyM05CR2Vhd2NFLV9JNXlYMjVUUmpiaUc2Q2dzOTVhblFLVk11RVpDeEhkdUYyZEJ3YWxNNzg?oc=5",
       "published": "2026-09-18T11:49:24+00:00",
       "source": {
-        "name": "mind.eu.com",
+        "name": "Groupe mind",
         "url": "https://www.mind.eu.com"
       }
     },
     {
-      "id": "3ca7a8fc9d18",
-      "title": "Je veux savoir s'il existe des interactions avec mes médicaments - Cité des sciences et de l'industrie",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOMjJ2SmFpYUNmcWtIQWxxR1JXOVR5Rm5xY3JGNmtueEZ3cUFrM293UXJjTDdLWDZ2MlJjSGMyMXU2WHBYMFc0ekNGN1lvQWFUOWxiS2RKNUZWOVNGLWdieFE1UzRkeHM1Y2RCMzJVc3lSVnc1bEZsZVIwa3V1eVBxd09sYW10cUQ4RmtqMVF3d0J4MEFxbDRVd2haRlhObTEzdjE4Rkk0eXpTam03U29VRWsyNnFUakE5MWhxMk1OSzlHcnFNOE1DSGVDd2FSMWpMdTJqUElKUlc0bzZaSFg4WC1nSUxvYVByZzJhVG55Y19zSG1lU2xuR25pZUQzN1NmZF9sMWNFTVFEVklvNXdsR0lPVVVSYTJjUlFrZmNyQlI?oc=5",
-      "published": "2026-09-02T21:20:45+00:00",
+      "id": "735725d0588d",
+      "title": "Algérie–Bénin : Saidal lance son offensive pharmaceutique en Afrique de l’Ouest - afrik.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVHZ3WF9hc2Vid1lzUHVGZGdIdF9hVTJNS3FPd1lBcU0za0h0UjAyZWV6eTdVNy1ZNUlhVHdndVZDM3E1UzBXaDhJVktZWGE0dFlaLXJ0azByZlhSVDUyYlRZU0k5Y29XTWwxa25TbDJBRy10dnYtUVc0OXpfMGE2TVRwMmxoSjlTaGExdWFyZXhIZjE1Y1FIWTJlNkx3LXY3?oc=5",
+      "published": "2026-09-19T09:54:08+00:00",
       "source": {
-        "name": "Cité des sciences et de l'industrie",
-        "url": "https://www.cite-sciences.fr"
+        "name": "afrik.com",
+        "url": "https://www.afrik.com"
       }
     },
     {
@@ -504,6 +484,16 @@
       }
     },
     {
+      "id": "6c78e449fcaa",
+      "title": "Pénuries de médicaments : débloquer les stocks, et après ? - Le Moniteur des pharmacies",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUXZWZ2FCbk0tanhuQmtBY1dpank4UFoyNDF0RGhUY3pKWl93YkdBeG1Pc0gwcVoySEV6NXBXaWZKMGxnU3k4SGVXcnVCeVZIMTd6elZxblgzdi01LTlESlR0SXhUVDlhQkRzZjFmSF9EYm1WN0ZlWlJrQ3NPVVAxZjBONzZSWTN2MFFVTTN5UUFQcGNBRTlvOEFGU3gtQ29Ha01hal9jSjFmVm91SzRhcjlOVlB1WkpGSzZsTWYzUnI?oc=5",
+      "published": "2026-09-17T08:31:05+00:00",
+      "source": {
+        "name": "Le Moniteur des pharmacies",
+        "url": "https://www.lemoniteurdespharmacies.fr"
+      }
+    },
+    {
       "id": "b39f3c9cf93e",
       "title": "Depuis six mois, 200 patients suisses avec la maladie d’Alzheimer reçoivent un nouveau médicament qui ralentit sa progression - Le Temps",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQ2hhc0FLVHRSdnV2Q1pwOVB5UEhWeDdHOG1VeEc3U3FQaGt6MUtiZUg3dW90R2xMZVd5d29sOGhwT0ZxUnJ4RG5NS1BTVUg0T1BfbkNRbXU0TzlXOXRUUi00eEJ4UXc1dXlfREVaZS1DU1R5d2s1S0doYzhSS1dxWFR0X2lFRTloTHkwODJDeGdDaDFSOUFwWEh3VFM0a29BOUViZWFuanAyTlhSckQ1alpXbzRqbVA1RlE2UDRCcUdKSzRJN1NJRHF2TmRSUC1lWmhvaExHSHBXb0hNTEtDc0pZYUg2MUl6SUhZMEF4akNPQlZR?oc=5",
@@ -521,16 +511,6 @@
       "source": {
         "name": "melty.fr",
         "url": "https://www.melty.fr"
-      }
-    },
-    {
-      "id": "651c901d6243",
-      "title": "Médicaments : l’ANMPS prolonge les délais de soumission électronique - webmanagercenter.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaVQwTjdMQ2Jaal9tUGI2TzZEbFdJQkQtLThnbEh0LUowTzctakN5YXo4LWxGWnp2R01Sejg5SlV5TDRvaFNDTFRJTlFKVkdsa3YzdEFpYjM2MnBYZ1JWTW83bGJtTXpmR2dRRG1jTU1JMWprc3gwTGFCMmM4ajlJUWdZTUNLRVRsaVJSVFNMZ2l1bEZwWWZqa0twWEhKWjVYSEtIc05zdkFDMGlwU3A4RUJrQktzd0cx?oc=5",
-      "published": "2026-09-19T13:08:10+00:00",
-      "source": {
-        "name": "webmanagercenter.com",
-        "url": "https://www.webmanagercenter.com"
       }
     },
     {
@@ -554,13 +534,13 @@
       }
     },
     {
-      "id": "f5da11399c59",
-      "title": "Automédication : moins de 15 % des médicaments sans ordonnance « efficaces et sécures » - Planet.fr",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaHkwQW9Ia083ekVSYXJzWS1OUTFPVGVXdWtCWlVSTGhfX0dPY2JadGxoRnhNYnJtdmJnUDNwajVxdEtYUmxMS1ltUWRTTklaeXNMck5idVJiRjQ3NTF0ZHljcDBMVlBGQ29TWnNycUpCUFpCRXZUOTNYSjNzRUpQMmxCemw5dkhDRUprOS1zdGZtV0l6UUp3OWZMVW1RR1BwNnV1N0hMejh0eURmc1l5aFlyczZFc0FMeUdNTVJB?oc=5",
-      "published": "2026-09-18T10:24:39+00:00",
+      "id": "04a6e80d4025",
+      "title": "Médicaments : l’ANMPS prolonge les délais de soumission électronique - Webmanagercenter",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaVQwTjdMQ2Jaal9tUGI2TzZEbFdJQkQtLThnbEh0LUowTzctakN5YXo4LWxGWnp2R01Sejg5SlV5TDRvaFNDTFRJTlFKVkdsa3YzdEFpYjM2MnBYZ1JWTW83bGJtTXpmR2dRRG1jTU1JMWprc3gwTGFCMmM4ajlJUWdZTUNLRVRsaVJSVFNMZ2l1bEZwWWZqa0twWEhKWjVYSEtIc05zdkFDMGlwU3A4RUJrQktzd0cx?oc=5",
+      "published": "2026-09-19T13:08:10+00:00",
       "source": {
-        "name": "Planet.fr",
-        "url": "https://www.planet.fr"
+        "name": "Webmanagercenter",
+        "url": "https://www.webmanagercenter.com"
       }
     },
     {
@@ -571,6 +551,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "f5da11399c59",
+      "title": "Automédication : moins de 15 % des médicaments sans ordonnance « efficaces et sécures » - Planet.fr",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaHkwQW9Ia083ekVSYXJzWS1OUTFPVGVXdWtCWlVSTGhfX0dPY2JadGxoRnhNYnJtdmJnUDNwajVxdEtYUmxMS1ltUWRTTklaeXNMck5idVJiRjQ3NTF0ZHljcDBMVlBGQ29TWnNycUpCUFpCRXZUOTNYSjNzRUpQMmxCemw5dkhDRUprOS1zdGZtV0l6UUp3OWZMVW1RR1BwNnV1N0hMejh0eURmc1l5aFlyczZFc0FMeUdNTVJB?oc=5",
+      "published": "2026-09-18T10:24:39+00:00",
+      "source": {
+        "name": "Planet.fr",
+        "url": "https://www.planet.fr"
       }
     },
     {
@@ -594,6 +584,26 @@
       }
     },
     {
+      "id": "3cd49cf26955",
+      "title": "Session 37 - Santé, médicament : nouveau terrain de jeu politique - Les Rencontres Économiques",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcGpKZmNoT2dvUHNBVkZMbjV3aDNzSERqM255eG15RVlLUlZ5VUtHZFhLbkRJQTNjb2dFcVFzT1QxaXBYSktzdlpTX2dBOHdlVWNfSHJLOFYtWGVVazBVaGhkUnBlVmdsWnY4bDRnQnZuT0hlTjZEb1hlc3pNMkdiVGtyYUc5aXUwOGRXbDdwOHV5blMyaGRLSGxRNlhVRDRJOVE1dVp3QTJaU1AtMXRFNVln?oc=5",
+      "published": "2026-07-03T07:00:00+00:00",
+      "source": {
+        "name": "Les Rencontres Économiques",
+        "url": "https://www.lesrencontreseconomiques.fr"
+      }
+    },
+    {
+      "id": "bef120b99357",
+      "title": "Médicaments non utilisés : quels leviers contre le gaspillage ? - santementale.fr",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1hsd1VUUkJhWkl2MG55c2Q0V05yU1dxbUFGTzI2SHVoZjJvcXFmc1NLUWhCS2pBc3BkRHl1M0wzOXpQZ0MyX3M3Q3Y3Rm1VdFJROXMwZ2FTZnJJX0ZLUHh4SmJvbWNsZFpUdF82bmpId1JQdmx0clRUUjBucHdZdW9zRnkxM29PQ2FtTnR1Qk9FR0FpRFJYTWlJLW0?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
+      "source": {
+        "name": "santementale.fr",
+        "url": "https://www.santementale.fr"
+      }
+    },
+    {
       "id": "f3b9a1d62b3c",
       "title": "Prise en charge -Deux médicaments contre l’obésité remboursés depuis le 15 juin - Service Public",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94eE5jbnpKaW40VUxSWGlKY0U5Z2RheVZfS21mQTcxc0NmbmtGNkNqVndDNzdIZWFKWkxjNVBGUXhkaTU3aWdCYXJtRkx1WWVsR0pFVkZ5RENOYXhGU2RkY184b1VfQ2dFckxPS21BOUMyU1E?oc=5",
@@ -604,13 +614,13 @@
       }
     },
     {
-      "id": "3cd49cf26955",
-      "title": "Session 37 - Santé, médicament : nouveau terrain de jeu politique - Les Rencontres Économiques",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcGpKZmNoT2dvUHNBVkZMbjV3aDNzSERqM255eG15RVlLUlZ5VUtHZFhLbkRJQTNjb2dFcVFzT1QxaXBYSktzdlpTX2dBOHdlVWNfSHJLOFYtWGVVazBVaGhkUnBlVmdsWnY4bDRnQnZuT0hlTjZEb1hlc3pNMkdiVGtyYUc5aXUwOGRXbDdwOHV5blMyaGRLSGxRNlhVRDRJOVE1dVp3QTJaU1AtMXRFNVln?oc=5",
-      "published": "2026-07-03T07:00:00+00:00",
+      "id": "06b0f4751449",
+      "title": "« On m'a montré ce triangle sur ma boîte » : ce détail que 3 automobilistes sur 10 ignorent sur leurs médicaments - Le Tribunal du Net",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdERmWm5wenFvOC1RMDBCbmJ3ZW5oVzUzLWJqMHl3OUdzOHBRWWtRT3g0NDl2MFhma0I5dDk4NUNwQTYwMWE2dlRzV1ZWNWcxX0U4RVRGLXNFaVExU09KN1FWS0J3YmdINV93d3QweEt1WnJRcldpc0EtQ3gtU05lQ0ZpZlhKVFh5Y1o2YnZ5S0FoWDR3Z0E?oc=5",
+      "published": "2026-09-18T03:47:00+00:00",
       "source": {
-        "name": "Les Rencontres Économiques",
-        "url": "https://www.lesrencontreseconomiques.fr"
+        "name": "Le Tribunal du Net",
+        "url": "https://www.letribunaldunet.fr"
       }
     },
     {
@@ -624,12 +634,12 @@
       }
     },
     {
-      "id": "ded8f515e0b2",
-      "title": "Pourquoi l’ANSM veut prolonger la durée de vie de vos médicaments - Le Point",
+      "id": "7ad666fa752a",
+      "title": "Pourquoi l’ANSM veut prolonger la durée de vie de vos médicaments - lepoint.fr",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQempvTUlsLXdCNlR1czNLeUVBMTNPLThpclNIdmo4WTg4Y3lyQlpQdE5rdk5QeVk2TFVlQTZNUDVEQ3dmX0ZwWVdYMVBrVG1iaGFLZEFfX29hZGNVdjRkQ2lyQ2hWbkF5Q1R3TnFlY1ZtMmk1S0FQYWk2d3UzV2JGNHo3ZnFGR3dlNVNGbUh4dUppYzAya000MEdzbTR6a2Z0SWxrY1JmNDU4OTAwQm16c0QwM0dLUDg4c3k1LVFYekNGT1VhVjlvMmNRaEIxdXlsNDBWa2VR?oc=5",
       "published": "2026-08-30T07:00:00+00:00",
       "source": {
-        "name": "Le Point",
+        "name": "lepoint.fr",
         "url": "https://www.lepoint.fr"
       }
     },
@@ -651,26 +661,6 @@
       "source": {
         "name": "Yahoo Actualités",
         "url": "https://fr.news.yahoo.com"
-      }
-    },
-    {
-      "id": "bef120b99357",
-      "title": "Médicaments non utilisés : quels leviers contre le gaspillage ? - santementale.fr",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1hsd1VUUkJhWkl2MG55c2Q0V05yU1dxbUFGTzI2SHVoZjJvcXFmc1NLUWhCS2pBc3BkRHl1M0wzOXpQZ0MyX3M3Q3Y3Rm1VdFJROXMwZ2FTZnJJX0ZLUHh4SmJvbWNsZFpUdF82bmpId1JQdmx0clRUUjBucHdZdW9zRnkxM29PQ2FtTnR1Qk9FR0FpRFJYTWlJLW0?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
-      "source": {
-        "name": "santementale.fr",
-        "url": "https://www.santementale.fr"
-      }
-    },
-    {
-      "id": "14b0b2ba6162",
-      "title": "Le ministère de la Santé répond à la proposition d'envoyer des médecins dans les centres de santé. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbDZ2c0dqaVNLdlF6azhZcUNQOFFhRHBiTW40aW5vcGdHR01ORzY0bFkxdjJubDFGaDBPaVFueGtRS1dYR0x2eDRRaFl2UzZnU2lOSnVfZV9hNzN5Nlo4SDZzWVB6NWdXMnZlNmktVkE4aHlSMmdfbXNWdHVEZEZlSVVB?oc=5",
-      "published": "2026-09-19T03:16:22+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -754,16 +744,6 @@
       }
     },
     {
-      "id": "762932cf8203",
-      "title": "Le ministère de la Santé répond aux propositions visant à déployer des médecins dans les centres de santé et à élargir la gamme des médicaments couverts par l'assurance maladie. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSWdJcm1jZHNCdjZrU0NjV3dhVl9HZmhJTDlvWDRYVl9OQnJ5UVhkazJHZ2VQMFhOd2RVX1ZJRWhwQm1XRUxwSDNJWDdjWFoxNkQyOTNJSnAtejAzN0MtaUxCVzRKb1NSaEZQWFB2NnpnY0hDZEVVTkFRejZvYUNzdGQ2OWkwWER4R3M2TzlHYnpkUUJaWktaN0tweFBuRVlfWFdxSFZ3?oc=5",
-      "published": "2026-09-18T23:10:55+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "5b783c305ba3",
       "title": "Franchises médicales, médicaments… Êtes-vous concerné par le plan d’économie budgétaire dans la santé ? - La Croix",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbXhKc2tnUnZPQ3dfUHV2cS1IQ3plWHJVVWZHOXFWSXJYQ3BYYnJ4YXBPVTZSUkdJVFAtUElZenZjSmx5di05eHZCb2xHUVdNc2NwamZZcFZoU2Z0d0JXQzFibFoyUVBtbVpVN0JBQmJZU0RVRTU1b2ZGbUJJOHpTMEMxSG52ZHZiZ0lMNzNKalVoaDFwZmRxQWVwdzM5V3E3alVzalFJOEFwZkRaRW5SaEFxUmhlbVYxV1lUbFVPN1BqbXRvOXZRY2lHVDM5QXRuQS1DbWZ3?oc=5",
@@ -791,6 +771,16 @@
       "source": {
         "name": "Challenges",
         "url": "https://www.challenges.fr"
+      }
+    },
+    {
+      "id": "0e6c9bc742b8",
+      "title": "Le ministère de la Santé répond à la proposition d'envoyer des médecins dans les centres de santé. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbDZ2c0dqaVNLdlF6azhZcUNQOFFhRHBiTW40aW5vcGdHR01ORzY0bFkxdjJubDFGaDBPaVFueGtRS1dYR0x2eDRRaFl2UzZnU2lOSnVfZV9hNzN5Nlo4SDZzWVB6NWdXMnZlNmktVkE4aHlSMmdfbXNWdHVEZEZlSVVB?oc=5",
+      "published": "2026-09-19T03:16:22+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -824,6 +814,16 @@
       }
     },
     {
+      "id": "9a2a066e3a23",
+      "title": "Le ministère de la Santé répond aux propositions visant à déployer des médecins dans les centres de santé et à élargir la gamme des médicaments couverts par l'assurance maladie. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSWdJcm1jZHNCdjZrU0NjV3dhVl9HZmhJTDlvWDRYVl9OQnJ5UVhkazJHZ2VQMFhOd2RVX1ZJRWhwQm1XRUxwSDNJWDdjWFoxNkQyOTNJSnAtejAzN0MtaUxCVzRKb1NSaEZQWFB2NnpnY0hDZEVVTkFRejZvYUNzdGQ2OWkwWER4R3M2TzlHYnpkUUJaWktaN0tweFBuRVlfWFdxSFZ3?oc=5",
+      "published": "2026-09-18T23:10:55+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "eea2b9096a72",
       "title": "Les médicaments reconditionnés conservent-ils leur stabilité ? - santementale.fr",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0lWWHNJVlhtblYydTkxc2hiM3ctcDJoOENabjRnT1JRSWIxU1l4VDMydkg0Q1Z1b1BRSW5iYkZ1eGQzZ002WjZDQmFMYXBWN2VaQjBPS3BGSVJNRUl2UHNyV0RuV0pzRllYVEVoZXFYajV6UFlMR1N0WHF3M1pvM2hYaXQtZnJuZE5zellsSWl1X0xWTkhFd3NZZ0h4dw?oc=5",
@@ -854,16 +854,6 @@
       }
     },
     {
-      "id": "5ecc9f84438c",
-      "title": "Victime d’un traitement hormonal, elle est devenue lanceuse d’alerte - Reporterre, le média de l'écologie",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWhMbkFEcDJFX0RQT1o5WENPNUlYZ0FDTXdadkV1cjViTjB0aTZiZjVENjBObXpsV1VhTzZDR0JwQXJYMjF6WENyUzV2a0J0cUJYbzhzdEliY1luRlBtMEs3UjR2d0NjVjVnYVNIX1pnY1RZMU5QcGplVVdNU2YxLVd6OWlmU1R4MzNlTGFSc2RqWThleVdsX1h4bER6SGY2QVBpbA?oc=5",
-      "published": "2026-08-26T07:00:00+00:00",
-      "source": {
-        "name": "Reporterre, le média de l'écologie",
-        "url": "https://reporterre.net"
-      }
-    },
-    {
       "id": "2b029b898c09",
       "title": "Médicaments : l'attractivité de la France décroche, selon les laboratoires pharmaceutiques - Les Echos",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxON2FhR3FCUTlnazFjWjBhZjh1NUQzRnVmSkdDWHRUYzJhLVhzQzEyLTlrZDkwLTBkWVJrT0Z6bkNSeHk5bENOVDJkN01pVVdxc1pOaWxRWHBhbkJrQUtUQk9zY3NjaUZGTUQ1T2hWcUJlSGM2bHNrMHA2R2JzeDlaT2ZxM21wNk5LdlZ1NG1mVkRpU1FaSFF1UkJvenFKMU1BNy10alVLQkZEMTFPWUwxMk5xekRGTi1RejRwcUd4VVN2ZlJuNGFRc0JfRmVFVjl1RkhUX1hkQ19PcVNocUJIeU5nXzdiOUpX?oc=5",
@@ -871,6 +861,16 @@
       "source": {
         "name": "Les Echos",
         "url": "https://www.lesechos.fr"
+      }
+    },
+    {
+      "id": "5ecc9f84438c",
+      "title": "Victime d’un traitement hormonal, elle est devenue lanceuse d’alerte - Reporterre, le média de l'écologie",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWhMbkFEcDJFX0RQT1o5WENPNUlYZ0FDTXdadkV1cjViTjB0aTZiZjVENjBObXpsV1VhTzZDR0JwQXJYMjF6WENyUzV2a0J0cUJYbzhzdEliY1luRlBtMEs3UjR2d0NjVjVnYVNIX1pnY1RZMU5QcGplVVdNU2YxLVd6OWlmU1R4MzNlTGFSc2RqWThleVdsX1h4bER6SGY2QVBpbA?oc=5",
+      "published": "2026-08-26T07:00:00+00:00",
+      "source": {
+        "name": "Reporterre, le média de l'écologie",
+        "url": "https://reporterre.net"
       }
     },
     {
@@ -884,13 +884,13 @@
       }
     },
     {
-      "id": "78cbbd18e2dc",
-      "title": "Actualité - Surveillance des aGLP-1 : l’ANSM confirme le rapport bénéfice/risque favorable lorsque ces médicaments sont utilisés conformément aux recommandations - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNT1hUM3A0a0FWbUJsWTI5YlVBMXhEZU5XT09FSGVfTktLREhuVFY4ckxCZ083dW5XdW4zakJ4TnpfQUFrV1JPcEpmamhPUUlHNHpMeVlIR1BEYnJ5SlhaeDB3ek5mUGZPQ1d6dk9yZFdnQkdtRFc3Qm5vTmdYTnIxZFpXRkRvcHdRaHhiRjEzSVl3M1gzc1RsRTZTRGVXZEhnMEFNeE9zTU1pSF9faVRIMWt1c2FXYndqQXFXVTFwd1NFVllSeXV3aVRYWnpBT1hQcW83TnR6dnA0dVVtNk1yYTFPaC1oZUZjQWw5MFZ2Qm01TGEtZTdlTkhBTmV5ekdBcEJRdkxSZTVwclU?oc=5",
-      "published": "2026-01-07T08:00:00+00:00",
+      "id": "6f092d0c0eb2",
+      "title": "Deux médicaments anti-obésité remboursés : prix, patients concernés... Les détails dévoilés sur TF1 par la ministre de la Santé - tf1info.fr",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNam5OMkEyUXpjYVVVMFcwSDExZ2M3UWYxTGtrT2V1VEI3ZE1PVEE3QTNQekI5eHgtWTQ3Z3dMRkdoendNWklWU0tSNjZjaW1sbGl0Tm1VaWJvbWJZU29GcEw2Nk9fZUljeTh6aWVybDJYazc4RUFzWDdTd1BJb3F3bThfSnota2tPWl9lSGswQThXSHpodkprVVZWSnJqSzVfZEZ2dzJrWGczamdJZHFiR1AtaFQydlpJOVRiWUhmSmRXZEljUzRVblk3cTJvRWFSaXRpd1ZiQS1uZ2hrZnZDSVhoc2k3R0UxZWlPN1hUaHhRU01lNG8zcDNKbF9aOGR0Y0dVOGJ4bkZJWE0?oc=5",
+      "published": "2026-05-28T07:00:00+00:00",
       "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
+        "name": "tf1info.fr",
+        "url": "https://www.tf1info.fr"
       }
     },
     {
@@ -904,16 +904,6 @@
       }
     },
     {
-      "id": "631383875ede",
-      "title": "Deux médicaments anti-obésité remboursés : prix, patients concernés... Les détails dévoilés sur TF1 par la ministre de la Santé - TF1 Info",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNam5OMkEyUXpjYVVVMFcwSDExZ2M3UWYxTGtrT2V1VEI3ZE1PVEE3QTNQekI5eHgtWTQ3Z3dMRkdoendNWklWU0tSNjZjaW1sbGl0Tm1VaWJvbWJZU29GcEw2Nk9fZUljeTh6aWVybDJYazc4RUFzWDdTd1BJb3F3bThfSnota2tPWl9lSGswQThXSHpodkprVVZWSnJqSzVfZEZ2dzJrWGczamdJZHFiR1AtaFQydlpJOVRiWUhmSmRXZEljUzRVblk3cTJvRWFSaXRpd1ZiQS1uZ2hrZnZDSVhoc2k3R0UxZWlPN1hUaHhRU01lNG8zcDNKbF9aOGR0Y0dVOGJ4bkZJWE0?oc=5",
-      "published": "2026-05-28T07:00:00+00:00",
-      "source": {
-        "name": "TF1 Info",
-        "url": "https://www.tf1info.fr"
-      }
-    },
-    {
       "id": "6c102db56b90",
       "title": "Obésité : nouveaux médicaments, miracles ou fausses solutions ? - Public Sénat",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTNUZ0dQa3NtZHRBbDU2RGFySF93RkN1R1diempXQmpFNUUxaEMzRDRMeGZNNVpBcEpoWjVsNDJKLTVLN2NqaGpFUU1sZTRncm1JM0dxNThfMUkxbDNsSmtPRFRZWDlKZHdhOHpQdzhHcWpWTU5kc3otVVBPVUZ1dmpsclgzZjYwN3pYaUZ3UUd3VzZtVWVxcXAzbmdFa0h2dlhkeldvVXBiNEIxdlJlVFRsZmpwbXc?oc=5",
@@ -924,16 +914,6 @@
       }
     },
     {
-      "id": "27699d4c41b1",
-      "title": "Les médicaments anti-obésité sont désormais remboursés : quelles sont les conditions pour être bénéficiaire - franceinfo",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTDRHOWdmU1lVcDJ0Yi1na3otVzRfd09nTW9UcHdSb2l0XzhnOUZUSlE5LUxQV24yVDZ4XzZYRVBrbDJpWWZCbDlfRHNBMU5oUWhibU5zTXdMZm9NVEp2dzRBV3l4X29jMGxRMExSc2NHRkdlMVFYMzEySE9ReWRCZlZZWm8xMmgzY1pyYjFoWE5xdzZycl9jSDQtazI0clZOZkE4aGVfZGVXd05QMGpnSnZ1RjFXMnRYZ0ZWV2F5cERYQVo4cUFuT0V4RElVT3o0WTllbWRaRm1CTW9oc0ExeDlkYmo?oc=5",
-      "published": "2026-08-06T07:00:00+00:00",
-      "source": {
-        "name": "franceinfo",
-        "url": "https://www.franceinfo.fr"
-      }
-    },
-    {
       "id": "4a22357f1770",
       "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
@@ -941,6 +921,16 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "27699d4c41b1",
+      "title": "Les médicaments anti-obésité sont désormais remboursés : quelles sont les conditions pour être bénéficiaire - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTDRHOWdmU1lVcDJ0Yi1na3otVzRfd09nTW9UcHdSb2l0XzhnOUZUSlE5LUxQV24yVDZ4XzZYRVBrbDJpWWZCbDlfRHNBMU5oUWhibU5zTXdMZm9NVEp2dzRBV3l4X29jMGxRMExSc2NHRkdlMVFYMzEySE9ReWRCZlZZWm8xMmgzY1pyYjFoWE5xdzZycl9jSDQtazI0clZOZkE4aGVfZGVXd05QMGpnSnZ1RjFXMnRYZ0ZWV2F5cERYQVo4cUFuT0V4RElVT3o0WTllbWRaRm1CTW9oc0ExeDlkYmo?oc=5",
+      "published": "2026-08-06T07:00:00+00:00",
+      "source": {
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
       }
     },
     {
@@ -964,13 +954,23 @@
       }
     },
     {
-      "id": "659f2654a3f2",
-      "title": "Dons aux populations privées de médicaments et de matériel médical : ce qu'il est possible de faire - ordre.pharmacien.fr",
+      "id": "74ae2ef658c2",
+      "title": "Dons aux populations privées de médicaments et de matériel médical : ce qu'il est possible de faire - Ordre National des Pharmaciens",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQnk4LTVodDRjWlZISmJvY0VLa1JJX2p3QmVwYTk0dzRUcTdZcWdFeWdiWGVaXzNFb1UzbTFnY2JaWUhjX3NhZDZxX1FIdjZ3Ty14R0xmQzV0TldvM2MxUDgwLU1MT0x1Z01wYWdwUm0tVWhmOVRxVUdaOU9HSFJRWWUweEh3aDBIYk5SUHFpTGM1MWZNV3lzUXkwVDdBc1ZKYTJTUTEtWWtyTnMwQkJjczh5VU85UTMxMy13d3Q0d09ybHptZHV4NUxCS1lHNXNMckZSbXladnRCX0hEajNjZUpvZ2QwLWo3blRiRVg0UkdYTVdrbkdzenlxak1IZUFEUEVj?oc=5",
       "published": "2026-03-12T07:00:00+00:00",
       "source": {
-        "name": "ordre.pharmacien.fr",
+        "name": "Ordre National des Pharmaciens",
         "url": "https://www.ordre.pharmacien.fr"
+      }
+    },
+    {
+      "id": "78cbbd18e2dc",
+      "title": "Actualité - Surveillance des aGLP-1 : l’ANSM confirme le rapport bénéfice/risque favorable lorsque ces médicaments sont utilisés conformément aux recommandations - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNT1hUM3A0a0FWbUJsWTI5YlVBMXhEZU5XT09FSGVfTktLREhuVFY4ckxCZ083dW5XdW4zakJ4TnpfQUFrV1JPcEpmamhPUUlHNHpMeVlIR1BEYnJ5SlhaeDB3ek5mUGZPQ1d6dk9yZFdnQkdtRFc3Qm5vTmdYTnIxZFpXRkRvcHdRaHhiRjEzSVl3M1gzc1RsRTZTRGVXZEhnMEFNeE9zTU1pSF9faVRIMWt1c2FXYndqQXFXVTFwd1NFVllSeXV3aVRYWnpBT1hQcW83TnR6dnA0dVVtNk1yYTFPaC1oZUZjQWw5MFZ2Qm01TGEtZTdlTkhBTmV5ekdBcEJRdkxSZTVwclU?oc=5",
+      "published": "2026-01-07T08:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     },
     {
