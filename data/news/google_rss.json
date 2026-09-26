@@ -1,8 +1,28 @@
 {
-  "fetched_at": "2026-09-26T20:57:47.985755+00:00",
+  "fetched_at": "2026-09-26T23:30:43.441622+00:00",
   "source": "Google News Health RSS",
-  "count": 98,
+  "count": 101,
   "articles": [
+    {
+      "id": "112cec2eecef",
+      "title": "33 médicaments bientôt sans ordonnance : un soulagement pour les Français ? - Santé Magazine",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdEQzeGxibklLaHdnNzdrRTFnOG44V084VTZOVng5V001bnM2b3NJVjVkbmI1TXAzSm1EVEpNd2k0UkFjU1BZZHZGekZ5akNYeTZqemljaHoxZW9DWHdrMXNEQnIyamNQWjVGNjA0NnJIc2xYeGlMT2cwUndCZVRSaE9jTFJCbkdhbDZiVXB0c3Uzc1J0TmFCb0hLRkRUNi1kZTlKNnV6M1hkeFlIVDhnX3BBbmNtZ1BLdHNGUkZIQnZybTluZFVsXy1sX2pnd2dSRnMzcEdhTzlIWG03T21ISVR4cDNTMlI0aHpxRTJDQ2huTXJ2TC1N?oc=5",
+      "published": "2026-09-24T11:40:00+00:00",
+      "source": {
+        "name": "Santé Magazine",
+        "url": "https://www.santemagazine.fr"
+      }
+    },
+    {
+      "id": "097ab92968b0",
+      "title": "Santé : des pharmaciens plaident pour augmenter l'offre de médicaments en vente libre, avec 33 nouvelles références - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN2R1S0VYRXVLcElzb1FjRjVmdHlYdmlYS0FEaTR6aGJXVE1xb2NPTUM0dGZqbXVLTVdFRUgxUk4wX0hBLU8zWllUbWF2R250RF9QODdmQWNjeHlaS2FVYjRUeWN2ZkZCb1d2MkhpcklsUkZPOTliS1JGRGVXdlN1S0pWYUEtX0tXTnprb05RQjJHR000VUp0MXZqVWE2YUZhbC13RWk4aHpST3NYQTBLY0RjVG9reGE2SzFYNk5tblI1eGk5MEM5WGREVVpReTRCcDJqVHNfNk04YTBXVFgw?oc=5",
+      "published": "2026-09-24T14:16:42+00:00",
+      "source": {
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
+      }
+    },
     {
       "id": "b825c816707c",
       "title": "Mycoses, insomnies : voici les 33 médicaments qui pourraient bientôt être vendus sans ordonnance - Doctissimo",
@@ -54,6 +74,16 @@
       }
     },
     {
+      "id": "059aea72ac46",
+      "title": "Affection de longue durée : ces médicaments ne seront plus remboursés à 100 % dès le 1er octobre - Yahoo Actualités",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUmpHMXNweFF5LThEc3duVmE3NzA3NGVQVEdoTlZmczNtaFMzQmxyWVYxVnBxMnFiLUVDQlhyWkNQN0NONDludVNGUjE1bnJDRE0wZ1JqVDhiUWhUTjNQZzQzR0FKaXl3VVNBZldLY2g0Zzh4OHRuUTYwTDNCUTZlVjJ5ZEU1VWp6dkNFYWkwUEpuQQ?oc=5",
+      "published": "2026-09-25T14:40:00+00:00",
+      "source": {
+        "name": "Yahoo Actualités",
+        "url": "https://fr.news.yahoo.com"
+      }
+    },
+    {
       "id": "c6f51c7ec074",
       "title": "Au Nigeria, le démantèlement de l’USAID a signifié moins de médicaments et plus de morts - Courrier international",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSFM3TEJ4WnlQQmUxQXo1Nl9zaEpvMktzeGdUTVp3Mnk1SUg1bFRpUDV0dDgwVEdmWTJCOHJRRjRzcVVmNUw1MjQyM2ppS2VxZ3JsUFJfZ05lamZucGFES3lRdTJwQS1mNERLUEdsTGVCbXlROWJ0NG9YWWdsYkZSbVNfOHBKcU1fMTVVOGJHVU9CX0l0M1kyYkNDWGVDUFJzVWk3djhld29OWVRxYTVuSVZmeGRXUGRKMmhHTnlscXZzcTk0cjVzYXZQNnBUMmNNR2JBTEMzUnF1TmZBNXV5Yk02Q20?oc=5",
@@ -61,16 +91,6 @@
       "source": {
         "name": "Courrier international",
         "url": "https://www.courrierinternational.com"
-      }
-    },
-    {
-      "id": "453c25a8ccdf",
-      "title": "Affection de longue durée : ces médicaments ne seront plus remboursés à 100 % dès le 1er octobre - fr.news.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUmpHMXNweFF5LThEc3duVmE3NzA3NGVQVEdoTlZmczNtaFMzQmxyWVYxVnBxMnFiLUVDQlhyWkNQN0NONDludVNGUjE1bnJDRE0wZ1JqVDhiUWhUTjNQZzQzR0FKaXl3VVNBZldLY2g0Zzh4OHRuUTYwTDNCUTZlVjJ5ZEU1VWp6dkNFYWkwUEpuQQ?oc=5",
-      "published": "2026-09-25T14:40:00+00:00",
-      "source": {
-        "name": "fr.news.yahoo.com",
-        "url": "https://fr.news.yahoo.com"
       }
     },
     {
@@ -114,16 +134,6 @@
       }
     },
     {
-      "id": "07941d6f5151",
-      "title": "Sclérose en plaques : ce médicament expérimental a restaurer la marche et la vue à des souris paralysées - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeDAzZ3FoeFpmVlNDa1JCd05JTnVPTkstbEs0X1dZdzhwenRORllCNF9qQzdWV1VkX2dQektuMkNmNkdrM2pZNm8zWEdORUQ4UXJCLWlXSW1lczJfTXZUcmVCTUFsXzI5N0J0aUpmMlhFNFRZSFFfN3NiSkxJUFRyUWRCZjFyS1BHSWUyMHcxcHNKVENqeTRjQWFobHIycUlJbVlMa1gxbTdRdXM0YUExUWVPOWxKa2J6eDJJNVdNTFhWQlNvOXhXQjJ0NldFXzVjSms1dFktY0hERWhOdEhWSlppV1JFQ281NFZSMg?oc=5",
-      "published": "2026-09-26T18:55:07+00:00",
-      "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
       "id": "df84d8e9108a",
       "title": "Les déserts médicaux ne se soignent pas avec davantage de médicaments sans ordonnance - France Assos Santé",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTFRzNVI3YmpIUkFlS0xxOU1GRWpmVGJ2VzdLRXExT2tPSk9wRWxRMnhJNktDRDM2WGFFeVdudUFJY1ZwdjVlOXY5TlVQZ3M2QnJKVDg2M0NtSktXZTh0bTVzWVpYWHEwVy1KakVUNHM1T01ucXFuRHpZZENWSUpYMWNQVzZaN2NWdXR0OG1iNElGQWFIajltNVFlVzFVUnFuVFlIY0xjX2FqV3RyQS14d0llbkM3WHZnV05JWkRwNGk2LUhV?oc=5",
@@ -131,6 +141,16 @@
       "source": {
         "name": "France Assos Santé",
         "url": "https://france-assos-sante.org"
+      }
+    },
+    {
+      "id": "07941d6f5151",
+      "title": "Sclérose en plaques : ce médicament expérimental a restaurer la marche et la vue à des souris paralysées - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeDAzZ3FoeFpmVlNDa1JCd05JTnVPTkstbEs0X1dZdzhwenRORllCNF9qQzdWV1VkX2dQektuMkNmNkdrM2pZNm8zWEdORUQ4UXJCLWlXSW1lczJfTXZUcmVCTUFsXzI5N0J0aUpmMlhFNFRZSFFfN3NiSkxJUFRyUWRCZjFyS1BHSWUyMHcxcHNKVENqeTRjQWFobHIycUlJbVlMa1gxbTdRdXM0YUExUWVPOWxKa2J6eDJJNVdNTFhWQlNvOXhXQjJ0NldFXzVjSms1dFktY0hERWhOdEhWSlppV1JFQ281NFZSMg?oc=5",
+      "published": "2026-09-26T18:55:07+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -144,12 +164,12 @@
       }
     },
     {
-      "id": "2ed69678137e",
-      "title": "Santé : les pharmaciens proposent d’élargir la liste des médicaments sans ordonnance à 33 nouvelles références - Sud Ouest",
+      "id": "b967460f835c",
+      "title": "Santé : les pharmaciens proposent d’élargir la liste des médicaments sans ordonnance à 33 nouvelles références - sudouest.fr",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWWI3NFkzWHhzSUMyaEl0QlljQ3ZqU3BFQWFVdWd1bm9FUFVHZkVsVjlidmtpM1NxUUZKZXNSaDl4UDJ0MjJGX2RRdHRfVE5ZckZ3R1JpTGpzd2xLYlJIUUlFWXhYTHd1dktDNUdMOXdvRXNwN0ZLbnFXaXhjLTJEZ2tfWWtLdF9aNElRcHdqcTFYLWdwT3N3N0xEQUNnUDNpTVp4NFl4VjJzWHNHdnBrcGJyZGhYZjdsdGRzMmg5LTV0R3czTE9iMWpfZXJpT1dvNjZFbFNGUFRjQ3R5QlZyN1hGVzR2dw?oc=5",
       "published": "2026-09-23T11:58:38+00:00",
       "source": {
-        "name": "Sud Ouest",
+        "name": "sudouest.fr",
         "url": "https://www.sudouest.fr"
       }
     },
@@ -161,6 +181,16 @@
       "source": {
         "name": "Medscape",
         "url": "https://francais.medscape.com"
+      }
+    },
+    {
+      "id": "a82e366dfb2c",
+      "title": "Il devient très difficile de trouver l'antidépresseur Prozac, quand la situation reviendra-t-elle à la normale - capital.fr",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcUZLSjdBcmw3WVMtZWxLalNjUHlCLU1fY0hJQ1p2X01NTmZ5YjcwTjlMbVlROVEteFFPXzBjX2RkVWJ0V2UwaUJ6ZThoVTQ5RjNMS1JSMEJuRWNfYTd4aEZ5c1ZBLTlITGFIRENyWmg1RmpUSUwzS3VRRWNmelNrMmk1MVNlczNTUkMtLXZYOVlfM0dEdC1aMk1UXy1LeTA5czVsd20wRkNyczIzUWw0dThlcWFreU1rOW05N1RodE9hMEVQcHJ4SFpTOU5wbDNLNnJ6c2xBX18zQ2FkNEkwemdVa0RLbGt2a3d4TzBlalY?oc=5",
+      "published": "2026-09-26T17:15:49+00:00",
+      "source": {
+        "name": "capital.fr",
+        "url": "https://www.capital.fr"
       }
     },
     {
@@ -234,26 +264,6 @@
       }
     },
     {
-      "id": "08066280a48a",
-      "title": "Proposition visant à inclure les médicaments anticancéreux de nouvelle génération dans la couverture de l'assurance maladie. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNak1xU1h5R0pYd2dfQ0VyQURSd3ZRNDBpZS14NTV6WFhSWlRlUG1Uc3l5YU5fd18wZ0YwZDdpNUNSc25iMWNNVnliRzlZUzd0SGp6VmFLMHRGWjd1ZUllWXExejZZVkxTc3B6SW5OSmtxY0hkSk9TNXoyelhaZmFoa3hPMEgtVkcxTlZIc3d1VVVwc2syLUxTag?oc=5",
-      "published": "2026-09-26T06:49:14+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "fd89d31a87e4",
-      "title": "Examens de santé et médicaments gratuits pour les personnes âgées de la commune de Thu Vu. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalJhNmlKU0dmdWZZbHdoQk83eVl5Z2YxX1BnZ3hSR2NVYlVKbUpNUFdUMEtGNWJwN3ZQdTB2bGU4MVU1S2NhcmlQSUlabmxseUkyVjM1NHhKM19FblRWaHN4WU02SFNtaXNHYy1uYy1PeVpSMWt4eG44b2lRLXhseVdtdW9wTk9pY0d4RS1nRmk?oc=5",
-      "published": "2026-09-26T14:26:31+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "d91fced0c7a2",
       "title": "MOOC « aide à la prise des médicaments en EHPAD » - Agence régionale de santé Pays de la Loire",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVDRtNjhzdFBVZjEzMVpnVWRTd0tpaFYxREtKTlE2MTJWYmN2dlBZTkJzV19pT0dTeEpDTkFkaGF2U3JSSm1IMUFHUW5rNGZXWkZ1SUNXRUhRSXBMRm5ueEw0akZ4dXZWRW1Ddk9tamRsNWhkUjk3X1NmT054M002TFdVWVl2eTRSdHY0dW5iOXdXZVdtcWVKVEFhcw?oc=5",
@@ -274,6 +284,16 @@
       }
     },
     {
+      "id": "08066280a48a",
+      "title": "Proposition visant à inclure les médicaments anticancéreux de nouvelle génération dans la couverture de l'assurance maladie. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNak1xU1h5R0pYd2dfQ0VyQURSd3ZRNDBpZS14NTV6WFhSWlRlUG1Uc3l5YU5fd18wZ0YwZDdpNUNSc25iMWNNVnliRzlZUzd0SGp6VmFLMHRGWjd1ZUllWXExejZZVkxTc3B6SW5OSmtxY0hkSk9TNXoyelhaZmFoa3hPMEgtVkcxTlZIc3d1VVVwc2syLUxTag?oc=5",
+      "published": "2026-09-26T06:49:14+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "6d6e96effd22",
       "title": "Pourquoi l'espace est-il devenu la nouvelle frontière pour fabriquer des médicaments ? - CNews",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGJwcVAySlhhWUZnQXpFbV82WTlmSU1GY0V2elRNaVhZU2JsZnpyTVBnU0pJelpYOXlKVWVIQlBWc01VTDBpNmxIS3NveGF6S3QwNE94Y084TE13SDlqeEd0aVUzVW5feXJxY29WRnhzeHlhaVdocW11SnJIT2drRkk5VXBtZ1hlT1FLQ0NRS3prYlVkdHJXT0V0Q3gzV3Q2Ti1CU0tqU0E4MnFLSUHSAbMBQVVfeXFMTngta0NydUZ5Y3AxZWN0YzJWNTdRMnZKSWtodUZFSVBBOGpoOE1YRTVTb3pZMHJEdUZHOWJrTW1nOE9QWDNlMHF6V25QSmFKbjlDcE1DSXFKdi1DclFrSTFXYlRxN2tTZjlZY2YzZDItRWdpc1VUbnVhSENHZlRyd25tWEV5el8wUTAyb3h4eHgxbm1SOWRMaUNmcTQxX1VQazJxZjVxZ05CY3V0UTBHSF91dHc?oc=5",
@@ -281,26 +301,6 @@
       "source": {
         "name": "CNews",
         "url": "https://www.cnews.fr"
-      }
-    },
-    {
-      "id": "b49e9d2e81d8",
-      "title": "RDC: les pharmaciens appellent à leur intégration dans le programme de santé publique congolais - Actualite.cd",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSnFDaTNIbXktMkFVVG55Vzd5NnRVNjV1cnlsWW1yOWxNVm5udjJYRjVSVzg3N3BmNWFxMnlyTmFBUXpSVUl3dnFlSmtwdWQwV0p5em14dWRQQ3IzaUdtV1E3U1RNYkZpMXJUTWpLdXdwYnRYaXNoaTF2VkZtUUM5aURjNGFYYWFHQzA1aUZHQk53MHhMMGt4TG9kckU2a2FySDJyb3NHam1qb2JkTlY4MWRGVWw?oc=5",
-      "published": "2026-09-26T12:17:21+00:00",
-      "source": {
-        "name": "Actualite.cd",
-        "url": "https://actualite.cd"
-      }
-    },
-    {
-      "id": "2b6dc553525c",
-      "title": "« Nous avons un problème de surprescription » - Le Devoir",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ2lPOHdKUld2QkY1cFlaTkV2alRMNmRZV1RCZlZUT29jWEJIUDVtNTlYTmtXejdMTlg4SjZVbTM5Snp4T3V2OC1pYjVJb2N1Q1p3c1ZMeXBCNU16OWdVbnZvZV9HWnJEd3BOUm9FcW93VVZkRklJYy1yZXJTNE9VQllFeGJqbzIxLUNobjZR?oc=5",
-      "published": "2026-09-26T04:00:00+00:00",
-      "source": {
-        "name": "Le Devoir",
-        "url": "https://www.ledevoir.com"
       }
     },
     {
@@ -334,6 +334,16 @@
       }
     },
     {
+      "id": "fd89d31a87e4",
+      "title": "Examens de santé et médicaments gratuits pour les personnes âgées de la commune de Thu Vu. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalJhNmlKU0dmdWZZbHdoQk83eVl5Z2YxX1BnZ3hSR2NVYlVKbUpNUFdUMEtGNWJwN3ZQdTB2bGU4MVU1S2NhcmlQSUlabmxseUkyVjM1NHhKM19FblRWaHN4WU02SFNtaXNHYy1uYy1PeVpSMWt4eG44b2lRLXhseVdtdW9wTk9pY0d4RS1nRmk?oc=5",
+      "published": "2026-09-26T14:26:31+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "c865bfef55e4",
       "title": "Médicaments sans ordonnance : les pharmaciens veulent ajouter 33 nouvelles molécules à la liste - Egora",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZlJhVmhSVmVkV0hsNWpVdVF1UkU3ek1abmF2MjN2dGRCdlNELVpXVTM1VkhGenpNd2I0Y0VRYXRpSzJ0ZlVMTEF3NW1kOVpQWkR4TDRyNTd4VFpYZUI0TmppVFF6eUhaV095WlY2NTg1WFhtTnR2REVvU0N0a3QtT1hJVmNuRWhRQ3BSSXN1blhJZXRqbUZJUi0wVDVYX1g2Y1VXYzZfQkNQYUpQU3Bld3RPNUk5bnlES2s4?oc=5",
@@ -351,6 +361,16 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
+      }
+    },
+    {
+      "id": "b49e9d2e81d8",
+      "title": "RDC: les pharmaciens appellent à leur intégration dans le programme de santé publique congolais - Actualite.cd",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSnFDaTNIbXktMkFVVG55Vzd5NnRVNjV1cnlsWW1yOWxNVm5udjJYRjVSVzg3N3BmNWFxMnlyTmFBUXpSVUl3dnFlSmtwdWQwV0p5em14dWRQQ3IzaUdtV1E3U1RNYkZpMXJUTWpLdXdwYnRYaXNoaTF2VkZtUUM5aURjNGFYYWFHQzA1aUZHQk53MHhMMGt4TG9kckU2a2FySDJyb3NHam1qb2JkTlY4MWRGVWw?oc=5",
+      "published": "2026-09-26T12:17:21+00:00",
+      "source": {
+        "name": "Actualite.cd",
+        "url": "https://actualite.cd"
       }
     },
     {
@@ -384,6 +404,16 @@
       }
     },
     {
+      "id": "2b6dc553525c",
+      "title": "« Nous avons un problème de surprescription » - Le Devoir",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ2lPOHdKUld2QkY1cFlaTkV2alRMNmRZV1RCZlZUT29jWEJIUDVtNTlYTmtXejdMTlg4SjZVbTM5Snp4T3V2OC1pYjVJb2N1Q1p3c1ZMeXBCNU16OWdVbnZvZV9HWnJEd3BOUm9FcW93VVZkRklJYy1yZXJTNE9VQllFeGJqbzIxLUNobjZR?oc=5",
+      "published": "2026-09-26T04:00:00+00:00",
+      "source": {
+        "name": "Le Devoir",
+        "url": "https://www.ledevoir.com"
+      }
+    },
+    {
       "id": "6f0af9925a68",
       "title": "Wegozy, Ozempic… Que penser de ces médicaments pour traiter l’obésité ? - 20 Minutes",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeVJDN3NuYWNORWNIeUV3Tkh4SnM5LVF5YkFPd18yWkU2d1JRWVdxdDFJT0QwQUx4Rjg0UVB3bzg3b3psb2hWQ2NCLU1GSVJtZjltMk1JWXpyYU9zbWoxaF91ZlROcW5TbTFoU0NDXzdXN25GcUNZMDhRRzM3VjU2TC1YMUNZN1Y5c3NZNGhmeldDQWF5V1JXNzVkMWdQN1EtYWpYaHZ3UUxiRkJXalZ0dWZWcWxaTzR5UXRBRktqTGlYdw?oc=5",
@@ -394,13 +424,13 @@
       }
     },
     {
-      "id": "0e193efff9b1",
-      "title": "Présidentielle 2027 : l’industrie pharma veut faire du médicament un enjeu stratégique - Le Moniteur des pharmacies",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNkhZUmRQWHF0R0xIWk1JUnJYM0ZMZXZaaXRyTTJhWk9ZODhRWlpOYWh3aU5jXzJRNXM1QUhvV3BTa21LTGRfQTVRZEpLVU9YdWRncXpxbVkzYTRBZ3UyTzg0YjVVUE9xdGVqYWZjOFVkUkJPbWFianJnLVlpWlZub0lXNkY4OUlmVmVia05ONGktN3dWRmJxbXJUMllRM0d5aXplb2xuZV9JZ1VNQVJ4YWxRbXkzTjVJSkxIUTBnVHgtUjdnY2FPc1kzYklxODg1eUphT0NZX2d0dldI?oc=5",
-      "published": "2026-09-23T16:38:18+00:00",
+      "id": "801bc1d0e346",
+      "title": "Tensions d’approvisionnement en Prozac : limitation des prescriptions initiales - Egora",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOakJLdXBOT2JRVzE4ODl5T1VfdFZtSzQtOWxuQkpPMzI3OVJsZlAya2dxUENlNU9sekhDUVVtZ09QX0lhUEhCVEZDbUxZR3FMeUg0T0pXVld5dmZNVkhqcGNHRDcyZVNjUTZqZzNDWHFzN2xZQTVNSDF6cEo0OXFxTzliVDVUSEhSMUlLNXRxU1J2SlBzb1EyNzVQaWdpZ2JjendvS0JRWnVpbXRoX2FIeg?oc=5",
+      "published": "2026-09-25T13:20:00+00:00",
       "source": {
-        "name": "Le Moniteur des pharmacies",
-        "url": "https://www.lemoniteurdespharmacies.fr"
+        "name": "Egora",
+        "url": "https://www.egora.fr"
       }
     },
     {
@@ -424,16 +454,6 @@
       }
     },
     {
-      "id": "e93326208cbb",
-      "title": "Du changement pour les prescriptions de médicaments des Belges - Le Soir",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYVN0XzZJYVQzV3ZPdHVvdTJKSVBfSW9uOWVuMm1xNmdFRllLaGhIaXpBQjRjQ2NPcGJJMDQ2cHdpS2NESUkzOHJ0UmZJZHQ0Q2xjamxLeDM4X0FXZmY5QXJmN2xEb1Zucl8wdkZpUnU1LWdVMm53LVRRcV9jblZmd1kzbDVEZGxsUVAxak1tZHJnbGFHTHBxR3lyS1U1a1RMOUFMN01ueURyeVpzNGxz?oc=5",
-      "published": "2026-09-26T13:50:31+00:00",
-      "source": {
-        "name": "Le Soir",
-        "url": "https://www.lesoir.be"
-      }
-    },
-    {
       "id": "c0081e77d35c",
       "title": "Plus de 8 médicaments sans ordonnance sur 10 à éviter selon une enquête de 60 millions de consommateurs - Santé Magazine",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPM2xQV1Fpc21FRVNRTTVUWGhlNjBhRWU0U0FKOTBXTHZJWUdHTWU2WWtPd1M3Y3FKNnJTS09la3lrM1oyTGd0SXFZaVJORlF0V2NxVGhQZ1p0TXBLaENCRUxtX19jZ3E2RkFwRzUwbkRwR1E3SWN1a1J1WFhhaUpUMWR0Q2RjOC1kZFYwQmd2YVpKbTVabEhYakJkdUtNM1l6ekxXbzM3dU9GSXhwTTJqVV9zazhhcjdRaU96VnFBVEpOcHV3QXhSaWdQOG11ejRNX0VUVmc5ZmFhX0NUNHRIV25FVUpqUVJSUGhEZTVpbU5EZXV5UzZBZFQ3ZGhVbW1FT3RN?oc=5",
@@ -441,6 +461,16 @@
       "source": {
         "name": "Santé Magazine",
         "url": "https://www.santemagazine.fr"
+      }
+    },
+    {
+      "id": "53894e797065",
+      "title": "Brûlures d’estomac, mycoses, insomnies : les pharmaciens veulent 33 médicaments sans ordonnance - guadeloupe.franceantilles.fr",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdlVVeUh1RTRpMjNHYkRzajJ5SFoyN3JqRzNuZXNYX245UWpXLWZaZFEwRmw1T0EzOTB5QjRGRGFBZV8xNE5xU1lpWlptWkpCMEZ0RUdhakNudzR5OWc3WXVzS0lkcE5JdC03Y0hvNFh4bjFBSzBabkZZQjBvSFVNQUttNXlZdm1Za1NqZi1tMmp2V0lTWWkzU2xCT3gxSUc2WmFXbDF4QUVKUFY2QWliNVJjaTZVYXUzVERwVVdsSS01RGtwRm9OS2w4T05qMGJXQXY0SW5OWEZSYzhNOG1Nb1VZcnZ6WFVuSzVMSVpHMko?oc=5",
+      "published": "2026-09-25T18:10:43+00:00",
+      "source": {
+        "name": "guadeloupe.franceantilles.fr",
+        "url": "https://www.guadeloupe.franceantilles.fr"
       }
     },
     {
@@ -454,13 +484,33 @@
       }
     },
     {
-      "id": "33f80a1c7448",
-      "title": "Passionnée par la chimie, elle est pharmacienne hospitalière : \"Nous pouvons être appelés à tout moment\" - actu.fr",
+      "id": "e93326208cbb",
+      "title": "Du changement pour les prescriptions de médicaments des Belges - Le Soir",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYVN0XzZJYVQzV3ZPdHVvdTJKSVBfSW9uOWVuMm1xNmdFRllLaGhIaXpBQjRjQ2NPcGJJMDQ2cHdpS2NESUkzOHJ0UmZJZHQ0Q2xjamxLeDM4X0FXZmY5QXJmN2xEb1Zucl8wdkZpUnU1LWdVMm53LVRRcV9jblZmd1kzbDVEZGxsUVAxak1tZHJnbGFHTHBxR3lyS1U1a1RMOUFMN01ueURyeVpzNGxz?oc=5",
+      "published": "2026-09-26T13:50:31+00:00",
+      "source": {
+        "name": "Le Soir",
+        "url": "https://www.lesoir.be"
+      }
+    },
+    {
+      "id": "8f6808536a56",
+      "title": "Passionnée par la chimie, elle est pharmacienne hospitalière : \"Nous pouvons être appelés à tout moment\" - Actu.fr",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWi1sT2lTbm40ZGh3VW5uRlJhdkxrbmFhaFk1b19ZeFhRU3V5WnpROUM1Y3h5RTFpN2RGRDJMXzgzRVpwQVFMTmpNcnE0N3FYZWlXWDl4bVNJdmkzTFJsYXkwSnRTS1JYY3RGZ0txWHBvQVEtTU40WWFrMEk3X2lzQTF4dl9nRS1zMmZiQW52NTRleGVGUmtnUFBoRjZERWRjcXRJclVjYk9FTjRiWG40LWZlRFVGV3FJSnBrVUdYTWlSbkFEUWtHMGpEQmVTZE0wZDFkMmJsUHo1ZENUUEx1WWhGRDdDV1U?oc=5",
       "published": "2026-09-25T04:32:02+00:00",
       "source": {
-        "name": "actu.fr",
+        "name": "Actu.fr",
         "url": "https://actu.fr"
+      }
+    },
+    {
+      "id": "f2f47c6bbc2c",
+      "title": "« Dangereux », « problématiques » ou « inefficaces »… 60 millions de consommateurs alerte sur ces médicaments sans ordonnance à éviter - sudouest.fr",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNODNIZV9IWlZDcUdDZlJpclNrQW5OX2p4UVhQMzJUZHhmXzY5eWRuNE52VXp5UGktYU96M24xUkRGd0RtNVR6YTBnVGtrZXRJNWZVVGpQejI2REZfc25leGtUU18yZVByZU1JeEZYcWhtLWtJbVctbFFjYTdkWlJOZ1gwVnRkRmhYRWhuWUhfOVlzTlpuZGpFd25FZTZLd0lwX0ZXZTVoS2w3TUxNUjZjUkNwcGtQNzRZX2VObVd0Rkw5Y2FOVWRfRUJNTnpld0xmUXVYYU16NTlFUVFMZWxFYUtoTDRZOEQzRW5WYmk2SnJmUGVfYmNpcm93LWwwR1FKdWYwUzV3?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
+      "source": {
+        "name": "sudouest.fr",
+        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -471,16 +521,6 @@
       "source": {
         "name": "Le Dauphiné Libéré",
         "url": "https://www.ledauphine.com"
-      }
-    },
-    {
-      "id": "d3f926678ae5",
-      "title": "« Dangereux », « problématiques » ou « inefficaces »… 60 millions de consommateurs alerte sur ces médicaments sans ordonnance à éviter - Sud Ouest",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNODNIZV9IWlZDcUdDZlJpclNrQW5OX2p4UVhQMzJUZHhmXzY5eWRuNE52VXp5UGktYU96M24xUkRGd0RtNVR6YTBnVGtrZXRJNWZVVGpQejI2REZfc25leGtUU18yZVByZU1JeEZYcWhtLWtJbVctbFFjYTdkWlJOZ1gwVnRkRmhYRWhuWUhfOVlzTlpuZGpFd25FZTZLd0lwX0ZXZTVoS2w3TUxNUjZjUkNwcGtQNzRZX2VObVd0Rkw5Y2FOVWRfRUJNTnpld0xmUXVYYU16NTlFUVFMZWxFYUtoTDRZOEQzRW5WYmk2SnJmUGVfYmNpcm93LWwwR1FKdWYwUzV3?oc=5",
-      "published": "2026-09-17T07:00:00+00:00",
-      "source": {
-        "name": "Sud Ouest",
-        "url": "https://www.sudouest.fr"
       }
     },
     {
@@ -504,16 +544,6 @@
       }
     },
     {
-      "id": "10475f393509",
-      "title": "Souveraineté pharmaceutique : les officines privées interpellent Dakar - Africtelegraph",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaTRPd2Y5V3BISjFnYXlkMFl1d2djbjRTR1ZLeTAwTVc4YTVzVWFTanlTNTJSOUUyYTBPU2hVNngwYUphc0VpUUpJM1FyVGJydklTZWtNVUpjSXpBSFdrb09pVWRZOVhDeDR4S25ydXNHUE1STUhEcDNxRVRGdDhzZ3c2OXpTMTRHeVV4MW9YYmJwZVkzUXoxdDVnc05UVldRWjJZ?oc=5",
-      "published": "2026-09-26T07:05:03+00:00",
-      "source": {
-        "name": "Africtelegraph",
-        "url": "https://africtelegraph.com"
-      }
-    },
-    {
       "id": "8c96e084217b",
       "title": "Charles Wolf, président d’Initiative Pharma : face au « mur » du vieillissement, « il va falloir investir dans la santé » - Le Monde.fr",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQQWVqbUFqbXhoWThWbWsyT2hYRHFtRlQ4VmZUaTczMk9iTGUwUlpOWGNWQTVMWFgyTTBBMkEzOTItUjh3UzlCbW9VMGJLaWRxbTJ3X1IwZ1l2ZDc4SXJKZUswN1ctaWYwYU13YWtpUWNjNWlvWXp4SEVEMXlEZ0hkbTNRUTRJcHROZVVJb19oWUxjSkxoQUtXRllyYktsS05kMmd6YmRHOENNSzhwTlRvUFVJcmhrMTQ1Sk5iVWJzYk53d0xtVUJlMEJMZHdIUG1pUjJrczdGUTdwdzhzYm1BaUFYNjctSmwxMV84ODIyWWFkNzZVcDlta2ctT0djM2dscVQ2aV9hTHYxdw?oc=5",
@@ -521,26 +551,6 @@
       "source": {
         "name": "Le Monde.fr",
         "url": "https://www.lemonde.fr"
-      }
-    },
-    {
-      "id": "00c5fe639395",
-      "title": "Examens médicaux et médicaments gratuits pour les personnes âgées en situation difficile. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc2NsU0p5TjJWdVRlYUY2a3NDejY3cm9oOV9KNmdqd1pPai0wZW9TeXhSc0daaGxDcEtNcUE1WFh2NzkyaUl2b3hNMlhlVFZBcXZKZHRva0pxYlh2RFl1NEU3SnpXT3B5REJVelRiM0lRVC1HeGNReERnNTBfZzNUaFlIWkRtYmNIQW45LUJTOHlnajlPaEFfbnlnQQ?oc=5",
-      "published": "2026-09-26T10:51:23+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "ddb5cee9bc23",
-      "title": "«Nous ne savons pas quels sont les risques» : l’essor des pilules GLP-1 alimente des centaines d’applications, mais la recherche est en retard - Benzinga France",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQeXVSbDdGd3VnREh2NnRGREJyM3Y0eTA3aTBpRDdoaWtNbzFUN0RhMFg3UVU3QW1Mb0JhVGJiSVdVN3JDWi1Pa1B6a3d2NjFHekJhaWJNNVNFR3FnNUdINGJvSU56bDQ4dHRZTFJjY2d2R3lSQmQ1andKWmUxdTJqN3hQbWlRUWdhUTAxYWZiejc2N3N3d2ZJdDJLajBtams4Z2I3VHgtM3FLWkVNdVZZdl92Njg1eTc4el9MOHVYSFpfdktGMWRwc2FOSE5aTlhYcDJOVTBmRFNYTFFqRHVMcllvS04yeTMxVkZ4MnNXQWoxQmVWZVE5RkhscEtnanJ3U2c?oc=5",
-      "published": "2026-09-26T17:34:56+00:00",
-      "source": {
-        "name": "Benzinga France",
-        "url": "https://fr.benzinga.com"
       }
     },
     {
@@ -554,13 +564,23 @@
       }
     },
     {
-      "id": "fd17c2c72440",
-      "title": "Intégrer l'IA dans les processus de soins de santé, de la recherche de médicaments aux dossiers médicaux. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXRpd1gzcG9pNUsxNUZVU1pWTmZNNFlDLTd0UldQeU55dXJtQllDSFJ6emVRdjMtNk5mOVRFRWRlOV9BckpwSTJXb0hUZWpLNUtuM28zOEtReXRDNllyWGZMZG5Ebm1aNTZkd1hKNEFCTUhwSGthUkdtdFpxb1hyM1pIMDJONTlKRjhjNGU4MXA4dzZ2?oc=5",
-      "published": "2026-09-26T02:49:17+00:00",
+      "id": "00c5fe639395",
+      "title": "Examens médicaux et médicaments gratuits pour les personnes âgées en situation difficile. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc2NsU0p5TjJWdVRlYUY2a3NDejY3cm9oOV9KNmdqd1pPai0wZW9TeXhSc0daaGxDcEtNcUE1WFh2NzkyaUl2b3hNMlhlVFZBcXZKZHRva0pxYlh2RFl1NEU3SnpXT3B5REJVelRiM0lRVC1HeGNReERnNTBfZzNUaFlIWkRtYmNIQW45LUJTOHlnajlPaEFfbnlnQQ?oc=5",
+      "published": "2026-09-26T10:51:23+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "10475f393509",
+      "title": "Souveraineté pharmaceutique : les officines privées interpellent Dakar - Africtelegraph",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaTRPd2Y5V3BISjFnYXlkMFl1d2djbjRTR1ZLeTAwTVc4YTVzVWFTanlTNTJSOUUyYTBPU2hVNngwYUphc0VpUUpJM1FyVGJydklTZWtNVUpjSXpBSFdrb09pVWRZOVhDeDR4S25ydXNHUE1STUhEcDNxRVRGdDhzZ3c2OXpTMTRHeVV4MW9YYmJwZVkzUXoxdDVnc05UVldRWjJZ?oc=5",
+      "published": "2026-09-26T07:05:03+00:00",
+      "source": {
+        "name": "Africtelegraph",
+        "url": "https://africtelegraph.com"
       }
     },
     {
@@ -584,6 +604,16 @@
       }
     },
     {
+      "id": "ddb5cee9bc23",
+      "title": "«Nous ne savons pas quels sont les risques» : l’essor des pilules GLP-1 alimente des centaines d’applications, mais la recherche est en retard - Benzinga France",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQeXVSbDdGd3VnREh2NnRGREJyM3Y0eTA3aTBpRDdoaWtNbzFUN0RhMFg3UVU3QW1Mb0JhVGJiSVdVN3JDWi1Pa1B6a3d2NjFHekJhaWJNNVNFR3FnNUdINGJvSU56bDQ4dHRZTFJjY2d2R3lSQmQ1andKWmUxdTJqN3hQbWlRUWdhUTAxYWZiejc2N3N3d2ZJdDJLajBtams4Z2I3VHgtM3FLWkVNdVZZdl92Njg1eTc4el9MOHVYSFpfdktGMWRwc2FOSE5aTlhYcDJOVTBmRFNYTFFqRHVMcllvS04yeTMxVkZ4MnNXQWoxQmVWZVE5RkhscEtnanJ3U2c?oc=5",
+      "published": "2026-09-26T17:34:56+00:00",
+      "source": {
+        "name": "Benzinga France",
+        "url": "https://fr.benzinga.com"
+      }
+    },
+    {
       "id": "62c9570e1b6f",
       "title": "Le « gardien » silencieux et l’histoire d’un usage sûr et rationnel des médicaments. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUktqYWlmcDNQVG13X1UwZjVzRGMtV3FUSkxqQl9NM1R2YThPOFZEcTRFdnRHNjdHYXZzQ0w3dzh3XzRFV0hkQ1QtZjlHeHV6YnBzUGFLSWV2Qi1oOHViMWJxSHNVSzFPTDdyRVpXZFlmSklKeVYzYzFqcUJsN2J2QUtJWEdtLUI2QWxES2pQZGdHUEg3?oc=5",
@@ -604,23 +634,13 @@
       }
     },
     {
-      "id": "d74160f052e0",
-      "title": "Médicaments sans ordonnance : 8 sur 10 seraient inefficaces voire dangereux - Sud Ouest",
+      "id": "7a9bfcf3dac0",
+      "title": "Médicaments sans ordonnance : 8 sur 10 seraient inefficaces voire dangereux - sudouest.fr",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSTRVcjR3MThaenNHaEFlYVFpMzdFQ0VxMm9WWWdCcVpqcHdndHZGZGlNOGp4Rzg1MTRqcjN1d0ZTQjViaTZSR01FcmpzbFNjalBrY3hoMUdib2xJYTdOaU9FUHZrSlMyREZsYkVKelYzZ1Vma1lES0tZSGtJUzNrajhGbDEycW1mZjNYUWlfaFE3a2dUX2owUzZUT0lrT1d4ODhmR3FiQUlaam1BSnNvZkRZV2c4RlkzVmFGSzFyWHFFT2JTUTdiQWpoWUhCZk0?oc=5",
       "published": "2026-09-17T10:40:06+00:00",
       "source": {
-        "name": "Sud Ouest",
+        "name": "sudouest.fr",
         "url": "https://www.sudouest.fr"
-      }
-    },
-    {
-      "id": "835c6362cd98",
-      "title": "Insomnie, mycoses, poux, rhinite : les 33 médicaments que les pharmaciens veulent vendre sans ordonnance - Yahoo Finance France",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdzNDeHUwbDZ2ZlU1TTdjYXdEYWhyTzJzVEN6TnpmYzRicUg3ZmlpaXlOT18weC1FUVpYWUc5TjlaTEZvRFNDU3k5WloxcHY3ek5VcjVBTEt6MDZsZlZpWEVRZ1FhNkpiV2hyd0Q5VkdnbVAwWVVERDZmOGpBUXpTSTExRjdDZkRxZ0RtT0dsc18?oc=5",
-      "published": "2026-09-23T16:39:08+00:00",
-      "source": {
-        "name": "Yahoo Finance France",
-        "url": "https://fr.finance.yahoo.com"
       }
     },
     {
@@ -644,6 +664,16 @@
       }
     },
     {
+      "id": "fd17c2c72440",
+      "title": "Intégrer l'IA dans les processus de soins de santé, de la recherche de médicaments aux dossiers médicaux. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXRpd1gzcG9pNUsxNUZVU1pWTmZNNFlDLTd0UldQeU55dXJtQllDSFJ6emVRdjMtNk5mOVRFRWRlOV9BckpwSTJXb0hUZWpLNUtuM28zOEtReXRDNllyWGZMZG5Ebm1aNTZkd1hKNEFCTUhwSGthUkdtdFpxb1hyM1pIMDJONTlKRjhjNGU4MXA4dzZ2?oc=5",
+      "published": "2026-09-26T02:49:17+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "fc94de6b0adc",
       "title": "Traitement hormonal de la ménopause : un risque de caillots sanguins uniquement avec les comprimés - Top Santé",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQeld3eFdQdFVRSnE0UU81cGJXRGdBRDlDcXpqN21ZNTNsdDdjNzIwR0U1Z0ZlRl9YYmdPNHdkM0RPME5UaFdsWU82UGkzNkJxeFZ4V2o0R2RWZFFJRnRXUVJwb21DR0dGYUJqR21yQzA4SVJLb3I0T0dIbk9SS3NJNkI2LU8wVFBKSlFlQjlYNTZGaFoxUXJLLTJPT3FtY0hqanRGbHBtYnhzQS12c2lfTThtb0FvSkUxajBMZDRzSlZYLXBCcU5RRnpfd3MyM1JXclZYZVBYRTd2TUFDVlJQd2xpRXVKSXc0RVE?oc=5",
@@ -654,23 +684,23 @@
       }
     },
     {
-      "id": "73a154aec5d9",
-      "title": "Insomnie, mycoses, poux, rhinite : les 33 médicaments que les pharmaciens veulent vendre sans ordonnance - Capital.fr",
+      "id": "51fc07e39ccb",
+      "title": "Insomnie, mycoses, poux, rhinite : les 33 médicaments que les pharmaciens veulent vendre sans ordonnance - capital.fr",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcWQxQ3ZPaGEwTXVVYTF3bnJQQWhPeXJjUGlubHo3eUc5cVdmX3IzanJWM2hQX19KN3NQWUF4YXBZcVN4cjRIc01MS21XWEZQVnVnakZmb3ZqY2pFdzNXZjQ5SGxmQVh2bzFleDNKLV91Q1RwMGMtWGJTazhsd2FndF9hQWtxb0xkcGlzSVUtSTFZTk9WMFBDbzFSTm1aQTVLUUtEMUFxVDZmZzF6SXlKOGRvaDBzM3l6TmI2T3FDbVNvSi1DWGVrNHBVU2RlVEcxeEE?oc=5",
       "published": "2026-09-23T16:39:08+00:00",
       "source": {
-        "name": "Capital.fr",
+        "name": "capital.fr",
         "url": "https://www.capital.fr"
       }
     },
     {
-      "id": "806eca16587f",
-      "title": "Journée mondiale des pharmaciens : « L'assainissement du secteur pharmaceutique est une responsabilité collective » (Conseil national de l’ordre des pharmaciens) - ACP | Agence Congolaise de Presse",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONnRVVGhPUDFKa01jTmllSFp0R2hjZFpCWmV3RGgyNkFjM2lXU195eXJGZkRKeEZscTZTR2JVYUhLcmVTVUFtcnl6Y21wMmEtclo1eDZyWnI1ejdhVHg3dlBnZ1dkNngzeS1MZXlmTWVqWVpIbFpXNUVtcEx0aTQzQzlLLXZyVk9IdmpxVE1uTFYzRUprU1Nja2E2QnV2OGl4aklEakRGS2l5YXM3aFp5cGIyZEhWZndsRVlBT1prUlFrU1d0R0VvckRQT1lGb2ZtTE40TlI3WFN3SmhvVUllUHM3Uk1vSXhtYUlCRDVqNUJISXBHLTNwRXFyTi0wamJwaktERjNrYWRYeG1aVkNQcVRxUkhNZGtGUEhVUXlDX3FvVTQ?oc=5",
-      "published": "2026-09-26T08:19:42+00:00",
+      "id": "8a28432285f8",
+      "title": "Sclérose en plaques, ce médicament testé chez la souris intrigue - 24matins",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkRtSThubXBJeEtmNkdRUGk5T1A4YTJYOGtaQzY0cUp2V2F3cS1sbUtRTzZKcE53TEFmYmJ6VVBkcFhhQk11VlVKWE85bHRRbk44LXlKd1N5ZmpOZGRsMTlDb0JXeW1DdF9hS3NVWFg0MFVrV3FQWWZCbDFUbm9jSVA3bmdsaFhkZGlQQW9BbFd3dzNzOVJ5RDJtWQ?oc=5",
+      "published": "2026-09-25T09:00:10+00:00",
       "source": {
-        "name": "ACP | Agence Congolaise de Presse",
-        "url": "https://acp.cd"
+        "name": "24matins",
+        "url": "https://www.24matins.fr"
       }
     },
     {
@@ -684,6 +714,16 @@
       }
     },
     {
+      "id": "806eca16587f",
+      "title": "Journée mondiale des pharmaciens : « L'assainissement du secteur pharmaceutique est une responsabilité collective » (Conseil national de l’ordre des pharmaciens) - ACP | Agence Congolaise de Presse",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONnRVVGhPUDFKa01jTmllSFp0R2hjZFpCWmV3RGgyNkFjM2lXU195eXJGZkRKeEZscTZTR2JVYUhLcmVTVUFtcnl6Y21wMmEtclo1eDZyWnI1ejdhVHg3dlBnZ1dkNngzeS1MZXlmTWVqWVpIbFpXNUVtcEx0aTQzQzlLLXZyVk9IdmpxVE1uTFYzRUprU1Nja2E2QnV2OGl4aklEakRGS2l5YXM3aFp5cGIyZEhWZndsRVlBT1prUlFrU1d0R0VvckRQT1lGb2ZtTE40TlI3WFN3SmhvVUllUHM3Uk1vSXhtYUlCRDVqNUJISXBHLTNwRXFyTi0wamJwaktERjNrYWRYeG1aVkNQcVRxUkhNZGtGUEhVUXlDX3FvVTQ?oc=5",
+      "published": "2026-09-26T08:19:42+00:00",
+      "source": {
+        "name": "ACP | Agence Congolaise de Presse",
+        "url": "https://acp.cd"
+      }
+    },
+    {
       "id": "e2dcbede9e93",
       "title": "Médicaments génériques en Tunisie : une économie de 40 % pour les patients ? - Webmanagercenter",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbGd6Z2hhNm5MQ2RyUzdqYVFnazJzV1VsNmY4QUxreG90dGxLZS1NQXdTQ2tmcFY3SGN6U0x5REFidElBUlBhNDBqcHZCc0hyZ010clZZUHVFck9kamxTUVBYRE02ZkxBZGIxMkRYbXNCdUpxQ1B3cjZJaHdVcWxIWEN6M0JEVUw3dW9BQ1kwRG5EaWp5WFBmNmxyQTVoQ0c4b1RsSUVjOThJNVIzQklldVpmUEJ5NkRPZkYtbktObw?oc=5",
@@ -694,22 +734,12 @@
       }
     },
     {
-      "id": "91600dc311cb",
-      "title": "Cancer : des effets cardiaques peuvent surgir jusqu’à vingt ans après - 24matins.fr",
+      "id": "b1da1951f287",
+      "title": "Cancer : des effets cardiaques peuvent surgir jusqu’à vingt ans après - 24matins",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdW5PTkkwSDVzb21WdEo4WVdOR09ZWTNHZWdjUnBvcHRSRGZDdDRNa3VHYk5JMW5sUjA1V2RlazNXRWlBMDd3emduYURCTzc0d0pUWUMtS1NpYXVieWV0Y3BtYTlkYjg1NElNVW9MNUZiOW5lZVRzdF9iZ2tHNkloVk5Jb1FLbGlVVUlZYTN3RmNUTTdmXzh2Tlo5VnlTbE0?oc=5",
       "published": "2026-09-26T07:00:23+00:00",
       "source": {
-        "name": "24matins.fr",
-        "url": "https://www.24matins.fr"
-      }
-    },
-    {
-      "id": "5af4879f478c",
-      "title": "Sclérose en plaques, ce médicament testé chez la souris intrigue - 24matins.fr",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkRtSThubXBJeEtmNkdRUGk5T1A4YTJYOGtaQzY0cUp2V2F3cS1sbUtRTzZKcE53TEFmYmJ6VVBkcFhhQk11VlVKWE85bHRRbk44LXlKd1N5ZmpOZGRsMTlDb0JXeW1DdF9hS3NVWFg0MFVrV3FQWWZCbDFUbm9jSVA3bmdsaFhkZGlQQW9BbFd3dzNzOVJ5RDJtWQ?oc=5",
-      "published": "2026-09-25T09:00:10+00:00",
-      "source": {
-        "name": "24matins.fr",
+        "name": "24matins",
         "url": "https://www.24matins.fr"
       }
     },
@@ -764,16 +794,6 @@
       }
     },
     {
-      "id": "0e337777d6cd",
-      "title": "La peste blanche, cette maladie qui ne meurt pas - lenouvelliste.ca",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXo1a1RUVld6WXVtWElidklJUTJ3RW9hYk8wYmpDOUpwYXVyUGVkZ0RJd3ItNk9Ea2s4cVR0VU52a3BYSllibXZtb040Z0NwWnF1OFdmcHZGZ0xLdDFONU5JWS1WTlpuUDZwb0xOdWs1ZkNEVnE0VEZkOWdyQUdQeUZjVmhWcV8wNFpOS1pfWlFEX1Y4NU1RYWpPVmNmOGRGLTFtMWktNlRKUGhZaGgzd1BXU3B1V3BBY0tJYnBJMDNjcjBEazBvNFg3YjA?oc=5",
-      "published": "2026-09-26T08:00:00+00:00",
-      "source": {
-        "name": "lenouvelliste.ca",
-        "url": "https://www.lenouvelliste.ca"
-      }
-    },
-    {
       "id": "cdf5e3d9ee7d",
       "title": "Du changement pour le remboursement des médicaments : voici ce qu’il fait savoir - Ouest-France",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSUZseGRWYkhPMHBCSjBFdE15QVBPUWNkRF8wOUxzVzVTWndCX295WUY4dFdwcG5KWDJkZkhvRkhaWjJJRGpnQjVsOGF6TFI5MkV5R0c0RXJDNTV3VWNkT0hIRTZLR2d3MC1kWDUyQmVOeFlFb0c2Y0NOZDBtWEI0ejFkM1VxM3JzQVBIb2ZCbmlmbFhRMG1mUTlhSzNPYmlQRWJPSGNYWXA5SUozZ2RFbWZOWENEZ1JfaWFNNm5ONmZJdWdkakZMd0xzTENBbVlXYWlGS21qZE9kSURVdGUzeUpuYURuM20yR1Rn?oc=5",
@@ -794,13 +814,13 @@
       }
     },
     {
-      "id": "12b9e08d6a3a",
-      "title": "L'homme a bu par erreur deux gorgées de médicament vétérinaire conservé au réfrigérateur. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdWZHbFRObUx5SlFEYzFGZ05DUVRCYXptNUZwMklsd19mX0VZQmlfMEJiWUdfWUtkYk5EbzR2cmdVeVIwUHZyVWpic2ZxdERDVkZkNlBFVXpyUWc3SFBXN2xhRTk4ektBRVBPUElfbEtac3prUWFnWGhZMHBkZEtfRE9lSDBxbElRazN0X0RjRQ?oc=5",
-      "published": "2026-09-26T08:50:51+00:00",
+      "id": "0e337777d6cd",
+      "title": "La peste blanche, cette maladie qui ne meurt pas - lenouvelliste.ca",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXo1a1RUVld6WXVtWElidklJUTJ3RW9hYk8wYmpDOUpwYXVyUGVkZ0RJd3ItNk9Ea2s4cVR0VU52a3BYSllibXZtb040Z0NwWnF1OFdmcHZGZ0xLdDFONU5JWS1WTlpuUDZwb0xOdWs1ZkNEVnE0VEZkOWdyQUdQeUZjVmhWcV8wNFpOS1pfWlFEX1Y4NU1RYWpPVmNmOGRGLTFtMWktNlRKUGhZaGgzd1BXU3B1V3BBY0tJYnBJMDNjcjBEazBvNFg3YjA?oc=5",
+      "published": "2026-09-26T08:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "lenouvelliste.ca",
+        "url": "https://www.lenouvelliste.ca"
       }
     },
     {
@@ -814,30 +834,10 @@
       }
     },
     {
-      "id": "19c914a917d5",
-      "title": "Vente des faux médicaments : quels risques pour la santé publique ? - Radio Okapi |",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSko3eVZ3cXhCWTgwbDBucFRYTTlwVmFUQnU0aV9LZ2pXbVFHdU8yZGg0N2psQ20tdDVDV2FhaUxVWWZKSnVISUxHN25fUEVnQ2J0azA4TWRaY1RfZ1puYzFkbzBRSFREc3BlLVhyNmQ4WUY4VV9jOHlnQVBrdVNkVHR1MlAzUy1LUl92d0NtakxqTFdOVmljMEF3QUV5TWd4WFU0MkloTF9STHJsV0dyOGx4SW9rOVJYeERCSzM2U1lNVkE?oc=5",
-      "published": "2026-09-25T11:44:25+00:00",
-      "source": {
-        "name": "Radio Okapi |",
-        "url": "https://www.radiookapi.net"
-      }
-    },
-    {
-      "id": "6f6a1b6d7f82",
-      "title": "Les cas de dengue sont en hausse à Hô Chi Minh-Ville ; les pharmaciens mettent en garde contre l'automédication. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONV8xNnl6ellEbm5wUDFGcGdOT3RRTk84WC1yOWxDV3JYUVg0endDeEhSNUR1X1BjVi13UVgzdmlscG9BZW5HWHJaWWR6Nl9KTTVlQkktaGJiQVBRMjc1NlVUa2ttajA2N215OE5wRGpNUlVVbEpFUGxZanFhNUI2NnJ5S3dHZUtra04wSzUxbnp6WG8?oc=5",
-      "published": "2026-09-26T04:28:20+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "e8ffe8cabe44",
-      "title": "Des examens médicaux gratuits, des médicaments et des cadeaux ont été offerts à 300 ménages démunis de la commune de Ba Chúc. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWZ5VlB0NEw4OGN3NUtQQ0tOeWlxZzFBQjQ0aDY3aWNHQWZMODdWUk1iNUx3QVJuVDItcDhTMk1WLUZKcUpoajRKRUZCMEJzXzU4NWFvTl9UT2JRT3FzMjUzYU1NMXBldGhBZk02WE1laTdmTGt5WTU1dWJXRWRvRml4NkFUSk1WaTVwYmJwUnN2dTVEUWQyNVR3?oc=5",
-      "published": "2026-09-26T05:48:53+00:00",
+      "id": "12b9e08d6a3a",
+      "title": "L'homme a bu par erreur deux gorgées de médicament vétérinaire conservé au réfrigérateur. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdWZHbFRObUx5SlFEYzFGZ05DUVRCYXptNUZwMklsd19mX0VZQmlfMEJiWUdfWUtkYk5EbzR2cmdVeVIwUHZyVWpic2ZxdERDVkZkNlBFVXpyUWc3SFBXN2xhRTk4ektBRVBPUElfbEtac3prUWFnWGhZMHBkZEtfRE9lSDBxbElRazN0X0RjRQ?oc=5",
+      "published": "2026-09-26T08:50:51+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
@@ -864,12 +864,12 @@
       }
     },
     {
-      "id": "5f26ee8883b5",
-      "title": "Santé : le médicament Tavneos retiré du marché en raison de risques graves - Sud Ouest",
+      "id": "6cbdb7e4d352",
+      "title": "Santé : le médicament Tavneos retiré du marché en raison de risques graves - sudouest.fr",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQk5nOE42TGh0WkVnWk5oNHQ5MUtwYzVBcXBwRFZla2F4cl9wcEh5TGRmMk4ybWxLeTZKWFVfWW95ajM1Y2RVcW1ZUVNPQ1RuZ0FEVzdHTFF6QkdnVFp6dFBvV3NHdDUza2tFOVdWWmgwRXItNmpHbmRKeHhmYmFucE41dEFHcHZaTWliN1BzY21vRmhVM2tiUHpEbEdxN2dBVHQzTVA1RWg3M1RsdUd5bWlvTDNuNE5hekVpZFlmNEtoYkdETmc?oc=5",
       "published": "2026-08-20T07:00:00+00:00",
       "source": {
-        "name": "Sud Ouest",
+        "name": "sudouest.fr",
         "url": "https://www.sudouest.fr"
       }
     },
@@ -891,6 +891,26 @@
       "source": {
         "name": "Business News",
         "url": "https://businessnews.com.tn"
+      }
+    },
+    {
+      "id": "e8ffe8cabe44",
+      "title": "Des examens médicaux gratuits, des médicaments et des cadeaux ont été offerts à 300 ménages démunis de la commune de Ba Chúc. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWZ5VlB0NEw4OGN3NUtQQ0tOeWlxZzFBQjQ0aDY3aWNHQWZMODdWUk1iNUx3QVJuVDItcDhTMk1WLUZKcUpoajRKRUZCMEJzXzU4NWFvTl9UT2JRT3FzMjUzYU1NMXBldGhBZk02WE1laTdmTGt5WTU1dWJXRWRvRml4NkFUSk1WaTVwYmJwUnN2dTVEUWQyNVR3?oc=5",
+      "published": "2026-09-26T05:48:53+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "6f6a1b6d7f82",
+      "title": "Les cas de dengue sont en hausse à Hô Chi Minh-Ville ; les pharmaciens mettent en garde contre l'automédication. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONV8xNnl6ellEbm5wUDFGcGdOT3RRTk84WC1yOWxDV3JYUVg0endDeEhSNUR1X1BjVi13UVgzdmlscG9BZW5HWHJaWWR6Nl9KTTVlQkktaGJiQVBRMjc1NlVUa2ttajA2N215OE5wRGpNUlVVbEpFUGxZanFhNUI2NnJ5S3dHZUtra04wSzUxbnp6WG8?oc=5",
+      "published": "2026-09-26T04:28:20+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -964,23 +984,33 @@
       }
     },
     {
-      "id": "56d71c5611cc",
-      "title": "Certains médicaments pourront bientôt être conservés plus longtemps - Santé Magazine",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWFNCd1lPMGNJVFhNZk1QWDFoMzBmWHlnbENnaUVvMzlXVGVDYVRlUEtyMjVpaDJ6a1RGZDZSaHpxOHlua3pMRHpnbmxRWkRSUloteUlkMWo2d05NWWNwU0ZYaFRZMTk0LUY5Zmw4eC1qcFBYSl84cU1kd051UlI4SnNjRXJDN0JaSTlCd3hDVzU0Q0JyZmJxQUdtdkJvYmVwNnFOWWc1MFQwRmtQcEluZTJXNFA2akY0a3gtNXMtR1J2TVBTVjJ5Sy1oeDRjT2h6QWxZ?oc=5",
-      "published": "2026-08-28T07:00:00+00:00",
+      "id": "ec0fd06d6293",
+      "title": "Pourquoi la France rate 40% des médicaments approuvés selon le PDG de Moderna - Santé Magazine",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR2pHZnFlRVI0bWxob1dwY3pzQ0hGRGxPTEFtVEdtQUlTeDBUdms0aVFUZ2t5MElFV0xzRjl6NGpKeFNYaTJpeVRBYkd0LVlrZ3VUUDcxQ3RrZW5RTTV1anotcXQxRVRwbjQ1OWx4SjNvckR6Q3FBd0hvOEFNLWVzMTJPTzA0QnJTM3RwQy1mRkVnWUUtRnN5bTRzUjRmLWRITl9JOV9SZzRxU182OW4xLXNKNzFZX2dxaVNETzBrYVRTQ0N0QjltcG5KMFJZOE1GVWI3MA?oc=5",
+      "published": "2026-06-23T07:00:00+00:00",
       "source": {
         "name": "Santé Magazine",
         "url": "https://www.santemagazine.fr"
       }
     },
     {
-      "id": "1f4289a34081",
-      "title": "Une nouvelle méthode aide à protéger les muscles pendant la perte de poids grâce à l'utilisation de médicaments GLP-1. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdTZvVmlMTm05YXc4ZVlzcjV2MFlIWUpnRTNHWGNUYVpnZEZBQ1p5YXkxZG0xZEItaURtell2VFRMMHMweTFLZnA4cnYydEc2T1NDNFFRcUMtMHQtMlVQc1dtc1ZHVGx2OE55UHJ4cWhNM2FKMnljVWd1enZGQ1ltck92TWJkS2VaOEdPbmJDaC0yUGVx?oc=5",
-      "published": "2026-09-26T12:25:53+00:00",
+      "id": "31d711ac9ee7",
+      "title": "Codification du médicament : impacts d’une évolution - Agence du Numérique en Santé",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQnotbS1fcGprRjI0SkRHR0dyZXlyWmxjNjlCbmM0Smp6SjlmNG01X0hpa0VPc3Y4QW9Bd0cwWGRINzN3UGo1dmk4TzI3b1QwREIxNFZ4cmNQS0FyeG1Jd0dTcUhTTmp6R0VGcnBfRVhmcEFpS0ZSZkh4TWJyNUVYUHVtOUJPSFJMLWhpc2pWa2c?oc=5",
+      "published": "2026-07-29T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Agence du Numérique en Santé",
+        "url": "https://esante.gouv.fr"
+      }
+    },
+    {
+      "id": "59ee818ef0a0",
+      "title": "VIDEO - La Chine vient de lancer une nouvelle révolution : le médicament - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVlo1am1QNXhLUmNmTjcwc0FlTjV0cnFMR3NhU1RtLWVHSXkxVjE2MEJBb0FsSHFjbWxiNW04WWVUcHhDNWFBMVUzNVp0SzJzTGttTWVoUVl3Zl9fcldHQ0hIYU82SHAxb1NPazVROUprQmM1aUFUeHlsbUdWOXhmWTVOdVlBZVNLcnFPM1BHQmVzZmhNR2FMR0hMOF9IN1BIY2Zid29waUp2aWszQndRYVIxSDBTZEZZQ2xUUTI2SGtRb051djdJVw?oc=5",
+      "published": "2026-07-22T07:00:00+00:00",
+      "source": {
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     }
   ]
