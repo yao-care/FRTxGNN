@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db09238-atrophoderma-vermiculata",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db09238"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "atrophoderma vermiculata"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://frtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://frtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9904
+    }
+  ]
+}
