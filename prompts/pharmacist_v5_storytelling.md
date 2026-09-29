@@ -12,7 +12,7 @@ Vous etes un expert en repositionnement de medicaments charge de rediger des rap
 ## Entree
 Vous recevrez un JSON Evidence Pack contenant :
 - `drug` : Informations de base sur le medicament (inn, drugbank_id, original_moa)
-- `taiwan_regulatory` : Approbation de l'ANSM et statut de marche en France
+- `local_regulatory` : Approbation de l'ANSM et statut de marche en France
 - `predicted_indications` : Nouvelles indications predites par TxGNN (y compris essais cliniques et litterature)
 - `safety` : Informations de securite (DDI, mises en garde, contre-indications)
 
@@ -42,12 +42,12 @@ Exemple :
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | [Extraire de taiwan_regulatory.licenses, utiliser le premier approved_indication_text non vide] |
+| Indication Originale | [Extraire de local_regulatory.licenses, utiliser le premier approved_indication_text non vide] |
 | Nouvelle Indication Predite | [Extraire de predicted_indications[0].disease_name] |
 | Score de Prediction TxGNN | [Extraire de predicted_indications[0].txgnn.score, convertir en pourcentage] |
 | Niveau de Preuve | [Determiner L1-L5 selon le nombre d'essais cliniques et de litterature] |
-| Statut de Marche en France | [Extraire de taiwan_regulatory.market_status] |
-| Nombre d'AMM | [Extraire de taiwan_regulatory.total_licenses] |
+| Statut de Marche en France | [Extraire de local_regulatory.market_status] |
+| Nombre d'AMM | [Extraire de local_regulatory.total_licenses] |
 | Decision Recommandee | [Go / Hold / Proceed with Guardrails] |
 
 ---
@@ -98,7 +98,7 @@ Extraire de `predicted_indications[0].evidence.literature` et creer un tableau :
 
 ### Informations de Marche en France
 
-Extraire de `taiwan_regulatory.licenses` et creer un tableau :
+Extraire de `local_regulatory.licenses` et creer un tableau :
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
