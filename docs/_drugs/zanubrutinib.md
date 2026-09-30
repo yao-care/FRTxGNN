@@ -2,7 +2,7 @@
 layout: default
 title: Zanubrutinib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 333
+nav_order: 337
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,103 +29,94 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Zanubrutinib : Des Néoplasmes Lymphoïdes B à la Leucémie Myéloïde
+# Zanubrutinib : Des Hémopathies à Cellules B à la Leucémie Myéloïde
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Zanubrutinib est un inhibiteur de BTK (Bruton's tyrosine kinase) de seconde generation, utilise pour le traitement des tumeurs malignes lymphoides a cellules B (LLC/LPL, macroglobulinemie de Waldenstrom, lymphome a cellules du manteau, lymphome de la zone marginale). Le modele TxGNN predit qu'il pourrait etre efficace pour la **Leucemie Myeloide**, mais seulement **2 essais cliniques** et **9 publications** sont actuellement associes a cette piste — et aucun ne demontre directement l'efficacite du zanubrutinib lui-meme dans cette indication.
+Le zanubrutinib est un inhibiteur de la tyrosine kinase de Bruton (BTK) de nouvelle génération. La littérature fournie le montre utilisé dans des hémopathies lymphoïdes B (leucémie lymphoïde chronique, macroglobulinémie de Waldenström), mais l'indication originale n'est pas renseignée dans les données réglementaires.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myéloïde**.
+Aucune donnée ne le teste dans cette maladie : **2 essais cliniques** (sans données propres au zanubrutinib) et **9 publications** (presque toutes sur des maladies lymphoïdes ou sur la sécurité du médicament) sont associés, ce qui suggère un artefact de correspondance de termes.
 
----
+## Aperçu Rapide
 
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Tumeurs malignes lymphoides a cellules B (LLC/LPL, macroglobulinemie de Waldenstrom, lymphome a cellules du manteau, lymphome de la zone marginale) |
-| Nouvelle Indication Predite | Leucemie Myeloide |
-| Score de Prediction TxGNN | 99.65% |
-| Niveau de Preuve | L5 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Nouvelle Indication Prédite | Leucémie myéloïde |
+| Score de Prédiction TxGNN | 99,65 % (rang 2982) |
+| Niveau de Preuve | L4 (indirect, au niveau de la classe, selon l'Evidence Pack) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le zanubrutinib est un inhibiteur sélectif de BTK de nouvelle génération, dont l'efficacité a été étudiée dans les hémopathies lymphoïdes B. Mécanistiquement, il pourrait être applicable à la leucémie myéloïde, mais ce lien n'est pas démontré.
 
-Zanubrutinib inhibe la tyrosine kinase de Bruton (BTK), une enzyme cle de la voie de signalisation du recepteur des cellules B (BCR). Cette voie est le moteur pathogenique des tumeurs lymphoides B, ce qui explique l'efficacite etablie du medicament dans la LLC/LPL et les pathologies apparentees.
+La seule justification biologique plausible relève de la classe : la signalisation BTK est présente dans certains blastes de leucémie aiguë myéloïde (LAM), et le CG-806 (luxeptinib), un inhibiteur non covalent de BTK/FLT3, a été testé dans la LAM. Aucune donnée clinique ou préclinique propre au zanubrutinib dans la LAM n'est fournie.
 
-La leucemie myeloide (LAM/LMC/SMD), en revanche, est portee par des mecanismes moleculaires distincts — mutations FLT3-ITD, fusion BCR-ABL, NPM1, ou dereglements epigenetiques — qui ne recoupent pas la voie BCR/BTK de maniere etablie. Le lien mecanistique entre l'inhibition de BTK et la leucemie myeloide est donc juge faible et largement speculatif : quelques travaux suggerent une expression accessoire de BTK dans certaines lignees de LAM, mais elle n'est pas reconnue comme une cible therapeutique validee.
-
-Le score eleve attribue par TxGNN refleche vraisemblablement une similarite dans l'espace d'embedding du graphe de connaissances plutot qu'une base biologique solide. Aucune donnee clinique ne vient a ce stade etayer une transposition directe.
-
----
+Le score TxGNN est très élevé, mais les 9 publications concernent presque toutes des maladies lymphoïdes (LLC/LPL) ou la sécurité du médicament. Le lien prédit reflète probablement un artefact de correspondance du terme « leucémie », et non une preuve d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
-| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | Termine | 86 | Etude du PRT2527 (inhibiteur de CDK9), evalue en monotherapie et en combinaison avec le zanubrutinib ou le venetoclax dans les hemopathies malignes R/R ; le zanubrutinib n'est utilise qu'en association, l'agent teste est PRT2527. |
-| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Phase 1a/b | Termine (arret premature) | 45 | Etude du CG-806 (luxeptinib, inhibiteur multi-kinase FLT3/BTK) dans la LAM R/R ou les SMD a haut risque ; ne teste pas le zanubrutinib, et l'essai a ete interrompu. |
+| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Phase 1 | Arrêté | 45 | CG-806 (luxeptinib, inhibiteur BTK/FLT3 non covalent) dans la LAM en rechute/réfractaire ou les SMD à haut risque. Pertinence B : justification de classe, mais médicament différent, essai arrêté, sans donnée sur le zanubrutinib |
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | Terminé | 86 | PRT2527 (inhibiteur de CDK9) seul ou associé au zanubrutinib ou au vénétoclax dans les hémopathies en rechute/réfractaires. Pertinence C : le zanubrutinib n'est qu'un partenaire d'association, pas un agent testé |
 
-*Aucun de ces deux essais ne constitue une preuve directe de l'efficacite du zanubrutinib dans la leucemie myeloide.*
+## Preuves de la Littérature
 
----
-
-## Preuves de la Litterature
-
-| PMID | Annee | Type | Revue | Resultats Principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | ECR (suivi) | J Clin Oncol | Suivi a 5 ans de l'essai SEQUOIA : zanubrutinib vs bendamustine-rituximab dans la LLC/LPL naive de traitement (hors leucemie myeloide). |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohorte (Phase 2) | Blood Adv | Tolerance et efficacite du zanubrutinib chez des patients LLC/LPL intolerants a l'ibrutinib/acalabrutinib. |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Analyse poolee | Blood Adv | Efficacite du zanubrutinib dans la LLC/LPL avec del(17p)/mutation TP53, donnees issues de SEQUOIA et ALPINE. |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Cohorte (Phase 2) | Lancet Haematol | Zanubrutinib chez des patients intolerants aux inhibiteurs de BTK anterieurs, hemopathies a cellules B. |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Revue | Pharmaceutics | Revue sur les inhibiteurs de tyrosine kinase dans la LMC et la LLC — mentionne le zanubrutinib dans le contexte BTK/BCR, pas de donnees myeloides directes. |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Revue | Leukemia | Prise en charge de la macroglobulinemie de Waldenstrom par inhibiteurs de BTK. |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Rapport de cas | Front Immunol | Cas de coexistence macroglobulinemie de Waldenstrom / LAL-B, sans lien direct avec le zanubrutinib en leucemie myeloide. |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Revue | Clin Lymphoma Myeloma Leuk | Reactivation du VHB sous inhibiteurs de BTK (dont zanubrutinib) dans les hemopathies a cellules B. |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Revue (chimie de synthese) | Anticancer Agents Med Chem | Revue methodologique sur la synthese de medicaments anticancereux approuves par la FDA (2018-2021), sans donnees d'efficacite clinique. |
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | ECR | J Clin Oncol | SEQUOIA (phase 3) : zanubrutinib vs bendamustine-rituximab dans la LLC/LPS non traitée, suivi médian de 5 ans |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohorte | Blood Adv | Zanubrutinib bien toléré et efficace chez les patients LLC/LPS intolérants à l'ibrutinib ou à l'acalabrutinib (phase 2) |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Cohorte | Blood Adv | Analyse de plusieurs études chez 301 patients LLC/LPS avec del(17p) et/ou mutation TP53 |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Cohorte | Lancet Haematol | Phase 2 à bras unique : zanubrutinib chez des patients avec hémopathies B intolérants à d'autres inhibiteurs de BTK |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Revue | Pharmaceutics | Revue des inhibiteurs de tyrosine kinase dans les leucémies chroniques (LMC et LLC) |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Revue | Leukemia | Prise en charge de la macroglobulinémie de Waldenström par les inhibiteurs de BTK |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Revue | Clin Lymphoma Myeloma Leuk | Réactivation du virus de l'hépatite B chez des patients sous inhibiteurs de BTK (ibrutinib, acalabrutinib, zanubrutinib) |
+| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Revue | Anticancer Agents Med Chem | Méthodes de synthèse de médicaments anticancéreux approuvés par la FDA (2018-2021), sans donnée d'efficacité |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Rapport de cas | Front Immunol | Cas rare de coexistence d'une macroglobulinémie de Waldenström et d'une LAL-B |
 
-*L'ensemble de ces publications documente l'usage du zanubrutinib dans les hemopathies lymphoides a cellules B (LLC/LPL, macroglobulinemie de Waldenstrom) ; aucune n'evalue son efficacite dans la leucemie myeloide.*
+Aucune de ces publications n'évalue le zanubrutinib dans la leucémie myéloïde.
 
----
+## Informations de Marché en France
 
-## Informations de Marche en France
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 65919841 | BRUKINSA 80 mg, gélule (BEONE MEDICINES IRELAND) | Gélule |
 
-Zanubrutinib n'est actuellement associe a aucune Autorisation de Mise sur le Marche (AMM) enregistree en France (statut : non commercialise, 0 licence).
+Le texte de l'indication approuvée n'est pas renseigné dans les données.
 
----
+## Cytotoxicité
 
-## Cytotoxicite
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicite | Therapie ciblee (inhibiteur de BTK) |
-| Risque de Myelosuppression | Veuillez consulter les mises en garde et precautions de la notice |
-| Classification d'Emetogenicite | Veuillez consulter les mises en garde et precautions de la notice |
-| Elements de Surveillance | Veuillez consulter les mises en garde et precautions de la notice |
-| Protection de Manipulation | Veuillez consulter les mises en garde et precautions de la notice |
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de BTK) |
 
----
+Veuillez consulter les mises en garde et précautions de la notice pour le risque de myélosuppression, l'émétogénicité, la surveillance biologique et la protection de manipulation.
 
-## Considerations de Securite
+## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de securite.
+Veuillez consulter la notice pour les informations de sécurité.
 
----
+La littérature signale par ailleurs des cas de réactivation du virus de l'hépatite B chez des patients traités par inhibiteurs de BTK, zanubrutinib compris (PMID 37150651).
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-Le lien mecanistique entre l'inhibition de BTK et la leucemie myeloide est juge faible et speculatif, et aucune des preuves disponibles (2 essais cliniques, 9 publications) ne porte reellement sur l'efficacite du zanubrutinib dans cette indication — les essais testent d'autres molecules (ou sont arretes prematurement) et la litterature concerne exclusivement les hemopathies lymphoides B. Le niveau de preuve global est L5 (prediction du modele seule).
+- Malgré un score TxGNN très élevé (99,65 %), aucune preuve propre au zanubrutinib n'existe dans la leucémie myéloïde. Le lien prédit relève probablement d'un artefact de correspondance de termes avec les leucémies lymphoïdes.
+- Les seules données pertinentes portent sur d'autres médicaments (CG-806) ou sur le zanubrutinib comme simple partenaire d'association.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Obtention des mises en garde/contre-indications TFDA (donnee bloquante actuellement manquante)
-- Donnees detaillees sur le mecanisme d'action (MOA) via DrugBank
-- Etudes precliniques dediees testant specifiquement le zanubrutinib dans des modeles de leucemie myeloide (LAM/LMC/SMD)
-- Le cas echeant, un essai clinique de phase precoce evaluant le zanubrutinib (seul, et non en association) dans cette population
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Données de sécurité de la notice ANSM (mises en garde, contre-indications), actuellement bloquantes pour le criblage de sécurité
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Indication originale approuvée en France (texte de l'AMM)
+- Données précliniques du zanubrutinib dans la LAM (lignées cellulaires, modèles) pour établir un lien mécanistique
+- Pour les prédictions de rang 2 à 6 (niveau L5, sans preuve), toute évaluation supplémentaire reste prématurée
+
+*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

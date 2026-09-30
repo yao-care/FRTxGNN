@@ -2,7 +2,7 @@
 layout: default
 title: Thiocolchicoside
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 302
+nav_order: 306
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,72 +29,77 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Thiocolchicoside : Des Spasmes Musculaires a l'Insomnie
+# Thiocolchicoside : De l'Indication Originale Non Documentée à l'Insomnie
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Thiocolchicoside est un relaxant musculaire central utilise pour les spasmes et douleurs musculaires, agissant comme antagoniste des recepteurs GABA-A et glycine.
-Le modele TxGNN predit qu'il pourrait etre efficace pour l'**Insomnie**,
-mais cette direction n'est soutenue actuellement que par **1 essai clinique de pertinence faible (grade C)** et **aucune publication**.
+Le thiocolchicoside est commercialisé en France (9 AMM), mais les données réglementaires reçues ne précisent pas son indication originale.
+Le modèle TxGNN le prédit comme potentiellement efficace pour l'**insomnie**, avec un score très élevé (99,89 %). Cependant, **aucune publication** ne soutient cette prédiction, et le seul essai clinique associé (**1 essai**) ne porte pas sur l'insomnie.
+Cette prédiction repose donc uniquement sur le modèle (niveau de preuve L5) et elle est **en contradiction apparente avec la pharmacologie connue** du médicament.
 
----
+## Aperçu Rapide
 
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Spasmes musculaires (relaxant musculaire central) — donnee officielle TFDA non disponible |
-| Nouvelle Indication Predite | Insomnie |
-| Score de Prediction TxGNN | 99.89% |
+| Indication Originale | Non renseignée dans les données ANSM reçues |
+| Nouvelle Indication Prédite | Insomnie |
+| Score de Prédiction TxGNN | 99,89 % |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 9 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances pharmacologiques générales (et non d'après les données fournies), le thiocolchicoside est décrit comme un myorelaxant agissant comme antagoniste compétitif des récepteurs GABA-A, avec un effet sur les récepteurs de la glycine.
 
-Les donnees detaillees sur le mecanisme d'action officiel (MOA) ne sont pas disponibles dans DrugBank pour cette evaluation. Sur la base des informations disponibles dans l'analyse de repositionnement, le thiocolchicoside agit pharmacologiquement comme **antagoniste des recepteurs GABA-A et glycine**, ce qui en fait un relaxant musculaire central utilise pour les spasmes et douleurs musculaires.
+Sur cette base, le lien mécanistique avec l'insomnie est **faible, voire défavorable** : antagoniser la signalisation GABAergique inhibitrice tendrait plutôt à favoriser l'éveil ou à abaisser le seuil convulsif qu'à traiter l'insomnie. Un bénéfice ne pourrait être qu'indirect, par exemple un meilleur sommeil grâce au soulagement de spasmes musculaires douloureux.
 
-Cependant, cette direction pharmacologique pose un probleme mecanistique majeur pour l'indication predite : le traitement de l'insomnie repose typiquement sur des **agonistes** GABA-A (benzodiazepines, Z-drugs) qui augmentent l'inhibition centrale, alors que le thiocolchicoside, en **bloquant** ces memes recepteurs, va dans le sens oppose — une augmentation de l'excitabilite centrale, avec un risque connu de convulsions (l'EMA a d'ailleurs restreint sa dose et sa duree d'utilisation pour cette raison).
-
-Le meme raisonnement s'applique a la deuxieme indication predite par le modele, le delirium de sevrage alcoolique (score TxGNN 99.21%) : cette condition necessite egalement une potentialisation GABA-A (benzodiazepines), une direction contraire au mecanisme antagoniste du thiocolchicoside. La prediction TxGNN, bien que numeriquement elevee, est donc mecanistiquement discordante pour les deux indications identifiees et doit etre interpretee avec prudence.
-
----
+Le score TxGNN élevé (0,999) est une prédiction issue d'un graphe de connaissances. Aucune donnée clinique ou mécanistique du dossier ne vient la confirmer.
 
 ## Preuves d'Essais Cliniques
 
-| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT06791434](https://clinicaltrials.gov/study/NCT06791434) | Phase 4 | Termine | 156 | Etude sur l'aiguilletage a sec (dry needling) en complement du traitement conventionnel de la lombalgie myofasciale ; le thiocolchicoside n'y figure que comme composant possible du traitement de fond, sans evaluation d'un critere lie a l'insomnie (pertinence : grade C, faible) |
+| [NCT06791434](https://clinicaltrials.gov/study/NCT06791434) | Phase 4 | Terminé | 156 | Aiguilletage sec en complément du traitement conventionnel de la lombalgie myofasciale. Pertinence faible (grade C) : l'insomnie n'est pas la pathologie étudiée et le thiocolchicoside n'est pas l'intervention testée. Au mieux, le bras conventionnel peut inclure un myorelaxant. |
 
----
+Cet essai ne fournit aucune preuve directe pour l'insomnie.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-Aucune litterature associee disponible actuellement.
+Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
 
-## Considerations de Securite
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69999429 | THIOCOLCHICOSIDE EG 4 mg | Comprimé sécable | Non renseignée |
+| 63646098 | THIOCOLCHICOSIDE ZENTIVA 4 mg | Comprimé | Non renseignée |
+| 68086109 | THIOCOLCHICOSIDE CRISTERS 4 mg | Comprimé | Non renseignée |
+| 65617572 | MIOREL 4 mg | Gélule | Non renseignée |
+| 67136662 | THIOCOLCHICOSIDE BIOGARAN 4 mg | Comprimé | Non renseignée |
 
-Veuillez consulter la notice pour les informations de securite.
+## Considérations de Sécurité
 
----
+Veuillez consulter la notice pour les informations de sécurité.
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-Le seul essai clinique identifie n'evalue pas l'insomnie comme critere et presente une pertinence faible (grade C), et aucune litterature ne soutient cette indication. De plus, le mecanisme antagoniste GABA-A/glycine du thiocolchicoside est pharmacologiquement contradictoire avec l'effet recherche dans le traitement de l'insomnie, ce qui constitue un signal d'alerte plutot qu'un support mecanistique.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication pertinents, et le mécanisme connu (antagonisme GABA-A) va à l'encontre d'un effet bénéfique dans l'insomnie.
+- Les informations de sécurité de la notice ANSM manquent, ce qui bloque l'étape de criblage de sécurité.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Notice/mises en garde TFDA (donnee bloquante actuellement manquante, empeche toute evaluation de securite initiale S1)
-- Donnees detaillees sur le mecanisme d'action (MOA) via l'API DrugBank
-- Essais cliniques ou etudes mecanistiques evaluant specifiquement le thiocolchicoside dans l'insomnie
-- Reevaluation de la coherence mecanistique de la prediction TxGNN avant toute progression
+La seconde prédiction, le **delirium tremens (sevrage alcoolique)**, a un score de 99,21 % mais aucune preuve clinique. L'antagonisme GABAergique s'oppose au traitement standard par benzodiazépines, et le risque convulsif signalé pour ce médicament pourrait aggraver l'évolution dans ce contexte. Elle est également en **Hold**.
+
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Télécharger et analyser la notice ANSM (mises en garde et contre-indications, en particulier le risque convulsif).
+- Obtenir les données de mécanisme d'action depuis DrugBank pour l'analyse du lien mécanistique.
+- Identifier l'indication originale approuvée pour chaque AMM.
+- Rechercher des études cliniques ou précliniques directement liées à l'insomnie ; sinon, envisager d'abandonner cette piste.
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

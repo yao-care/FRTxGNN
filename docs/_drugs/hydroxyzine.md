@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydroxyzine
-parent: Preuves élevées (L1-L2)
-nav_order: 143
-evidence_level: L2
+parent: Preuves modérées (L3-L4)
+nav_order: 146
+evidence_level: L4
 indication_count: 5
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **5** 
+Niveau de preuve: **L4** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,94 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 </div>
 
-# Hydroxyzine : De l'Antihistaminique H1 à l'Urticaire Allergique
+# Hydroxyzine : D'un Antihistaminique H1 de Première Génération à l'Urticaire Allergique
 
 ## Résumé en Une Phrase
 
-Hydroxyzine est un antagoniste H1 de première génération, historiquement utilisé comme antiallergique, antiprurigineux et anxiolytique depuis les années 1950. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Urticaire Allergique**, avec **1 essai clinique** et **20 publications** soutenant actuellement cette direction. Il convient de noter que cette indication correspond à l'usage historique établi de la molécule, ce qui confère à cette prédiction une valeur de confirmation clinique plutôt qu'un repositionnement à proprement parler.
-
----
+L'hydroxyzine est un antihistaminique H1 de première génération, commercialisé en France sous le nom d'Atarax (sirop et comprimé).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire allergique**,
+mais cette piste repose pour l'instant sur **1 essai clinique indirect** (il porte sur la cétirizine, le métabolite actif de l'hydroxyzine) et **20 publications**, en majorité des revues générales.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Données AMM non disponibles (antihistaminique H1 / anxiolytique — usage historique) |
-| Nouvelle Indication Prédite | Urticaire Allergique |
+|------|------|
+| Nouvelle Indication Prédite | Urticaire allergique |
 | Score de Prédiction TxGNN | 99,77 % |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | ✗ Non commercialisé (données insuffisantes — vérification ANSM recommandée) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
----
+Le texte de l'indication approuvée n'est pas renseigné dans les données d'AMM reçues. L'indication originale n'a donc pas pu être extraite.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Hydroxyzine est un antagoniste compétitif des récepteurs H1 de l'histamine de première génération. Il bloque directement les récepteurs H1 périphériques, inhibant l'augmentation de la perméabilité vasculaire induite par l'histamine, ainsi que les réactions de papule (*wheal*) et d'érythème (*flare*) qui caractérisent l'urticaire allergique. Son principal métabolite actif, la cétirizine, partage ce même mécanisme H1 et dispose lui-même de preuves cliniques de Phase 3 dans cette indication — ce qui constitue une validation indirecte du mécanisme parent.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'hydroxyzine appartient à la classe des antagonistes des récepteurs H1 de l'histamine de première génération. Ce mécanisme pourrait s'appliquer à l'urticaire allergique.
 
-Le mécanisme d'action est directement aligné sur la physiopathologie centrale de l'urticaire allergique : l'activation des mastocytes par des allergènes déclenche une libération massive d'histamine, dont les effets vasculaires et prurigineux sont précisément la cible de l'hydroxyzine. Cette congruence mécanistique explique que la molécule ait été considérée comme traitement de première ligne de l'urticaire depuis les années 1950.
+Dans l'urticaire, l'histamine libérée par les mastocytes provoque les papules et le prurit. Bloquer les récepteurs H1 de la peau est donc une voie d'action directe. La littérature rappelle que les antihistaminiques H1 sont le traitement de première intention de l'urticaire chronique spontanée. Elle cite l'hydroxyzine parmi les antihistaminiques de première génération utilisés autrefois de cette façon (PMID 28913986).
 
-Les lignes directrices actuelles (CSACI 2019) indiquent que les antihistaminiques H1 de deuxième génération sont désormais préférés en raison d'un meilleur profil de sécurité (moindre sédation, risque cardiovasculaire réduit). L'hydroxyzine conserve cependant un rôle documenté dans certaines situations cliniques spécifiques, notamment les urticaires réfractaires, les formes nécessitant un effet sédatif concomitant, ou en milieu hospitalier de courte durée.
-
----
+Le score TxGNN très élevé va dans le même sens, mais c'est une prédiction issue d'un graphe de connaissances, pas une preuve clinique. Le mécanisme a été déduit de la classe pharmacologique. Aucun essai n'a testé l'hydroxyzine elle-même dans l'urticaire allergique dans les données reçues.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---|---|---|---|---|
-| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Phase 3 (Pilote) | Terminé | 36 | Étude pilote multicentrique randomisée en double aveugle comparant la cétirizine IV (10 mg) — métabolite actif de l'hydroxyzine — à la diphenhydramine IV (50 mg) pour le traitement de l'urticaire aiguë en services d'urgences, d'urgences rapides et de cliniques d'allergie. Valide indirectement le mécanisme H1 dans l'urticaire allergique ; non extrapolable directement à la posologie orale de l'hydroxyzine. |
-
----
+|---------|------|------|------|---------|
+| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Phase 3 | Terminé | 36 | Étude pilote de faisabilité comparant la cétirizine IV (10 mg) à la diphénhydramine IV (50 mg) dans l'urticaire aiguë. Elle teste le métabolite de l'hydroxyzine, pas l'hydroxyzine, et évalue la faisabilité, pas l'efficacité. Preuve indirecte. |
 
 ## Preuves de la Littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [31582993](https://pubmed.ncbi.nlm.nih.gov/31582993/) | 2019 | Guideline / Position officielle | *Allergy, Asthma & Clinical Immunology* | Déclaration de position CSACI : les AH de 2e génération sont plus sûrs que la 1re génération (incl. hydroxyzine, diphenhydramine) et doivent être la 1re ligne dans rhinite allergique et urticaire ; cite hydroxyzine explicitement comme référence historique avec risques sédatifs et cardiaques documentés |
-| [28913986](https://pubmed.ncbi.nlm.nih.gov/28913986/) | 2017 | Revue | *Allergy, Asthma & Immunology Research* | Revue du traitement de l'urticaire spontanée chronique : les antihistaminiques H1 de 1re génération (hydroxyzine, diphenhydramine) étaient la norme passée ; doublage de dose jusqu'à 4×/jour si nécessaire ; en cas d'échec des AH à haute dose, passage à l'omalizumab 300 mg/mois |
-| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Revue | *Annals of Pharmacotherapy* | Revue comparative de l'efficacité et de la sécurité des antihistaminiques de 1re et nouvelle génération dans la rhinite allergique et l'urticaire chronique idiopathique ; recommandations pratiques pour la pharmacie clinique |
-| [22994340](https://pubmed.ncbi.nlm.nih.gov/22994340/) | 2012 | Revue | *Clinical and Experimental Allergy* | Analyse comparative des AH H1 dans l'urticaire spontanée chronique : comment prédire le meilleur médicament pour le patient individuel ; discussion des études en tête-à-tête et des biomarqueurs de réponse |
-| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Revue pharmacologique | *Drugs* | La cétirizine, dérivé pipérazine et métabolite carboxylé de l'hydroxyzine, est un puissant antagoniste H1 avec propriétés antiallergiques ; essais contrôlés confirmant l'efficacité dans l'urticaire chronique avec profil de sécurité amélioré vs hydroxyzine parent |
-| [12113226](https://pubmed.ncbi.nlm.nih.gov/12113226/) | 2002 | Revue | *Clinical Allergy and Immunology* | Revue des antagonistes H1 chez l'enfant : preuves de niveau 1 pour l'efficacité dans l'urticaire et la rhinoconjonctivite allergique ; données pédiatriques étayées par de nombreuses études bien conçues |
-| [18336052](https://pubmed.ncbi.nlm.nih.gov/18336052/) | 2008 | Revue comparative PK/PD | *Clinical Pharmacokinetics* | Comparaison des profils pharmacocinétiques et pharmacodynamiques des AH de 2e génération (desloratadine, fexofénadine, levocetirizine) dans la rhinite allergique et l'urticaire chronique idiopathique |
-| [22686617](https://pubmed.ncbi.nlm.nih.gov/22686617/) | 2012 | ECR Phase 3 | *Drugs* | Bilastine (AH 2e génération) : deux essais de Phase 3 bien conçus démontrant une réduction significative du score total de symptômes vs placebo dans la rhinite allergique saisonnière et l'urticaire |
-| [12806876](https://pubmed.ncbi.nlm.nih.gov/12806876/) | 2003 | Revue | *Revue Médicale de Bruxelles* | Les antagonistes H1 sont les médicaments les plus prescrits pour les maladies atopiques ; leurs indications principales incluent urticaire et rhinite allergique ; comparaison 1re vs 2e génération sur effets indésirables et profil d'utilisation |
-| [39532327](https://pubmed.ncbi.nlm.nih.gov/39532327/) | 2024 | Rapport de cas | *BMJ Case Reports* | Urticaire aquagénique (sous-type d'urticaire physique) chez une adolescente : diagnostic et prise en charge documentés ; rappelle la complexité des urticaires induites et le rôle des AH dont l'hydroxyzine dans les formes réfractaires |
+Aucune des publications retenues n'est un ECR portant sur l'hydroxyzine dans l'urticaire allergique. Il s'agit de revues, d'une prise de position d'experts et d'un cas clinique.
 
----
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [28913986](https://pubmed.ncbi.nlm.nih.gov/28913986/) | 2017 | Revue | Allergy Asthma Immunol Res | L'urticaire chronique spontanée se traite d'abord par antihistaminiques, à doses souvent supérieures à celles de la rhinite. L'hydroxyzine était employée de cette façon par le passé. |
+| [31582993](https://pubmed.ncbi.nlm.nih.gov/31582993/) | 2019 | Prise de position | Allergy Asthma Clin Immunol | Les antihistaminiques de nouvelle génération sont plus sûrs et doivent être privilégiés. Les anciens (dont l'hydroxyzine) causent sédation et troubles cognitifs. |
+| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Revue | Ann Pharmacother | Efficacité et sécurité des antihistaminiques de première et nouvelle génération dans la rhinite allergique et l'urticaire chronique idiopathique. |
+| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Revue | Drugs | La cétirizine, métabolite carboxylé de l'hydroxyzine, est un antagoniste H1 puissant, dépourvu d'effet dépresseur central à 10 mg/jour. |
+| [22994340](https://pubmed.ncbi.nlm.nih.gov/22994340/) | 2012 | Revue | Clin Exp Allergy | Comment choisir le meilleur antihistaminique H1 dans l'urticaire, en particulier chronique spontanée, une maladie difficile à traiter. |
+| [18336052](https://pubmed.ncbi.nlm.nih.gov/18336052/) | 2008 | Revue | Clin Pharmacokinet | Comparaison pharmacocinétique et pharmacodynamique de la desloratadine, de la fexofénadine et de la lévocétirizine. |
+| [22686617](https://pubmed.ncbi.nlm.nih.gov/22686617/) | 2012 | Revue | Drugs | Bilastine, antihistaminique de deuxième génération, dans la rhinite allergique et l'urticaire. |
+| [19808127](https://pubmed.ncbi.nlm.nih.gov/19808127/) | 2009 | Revue | Clin Ther | Lévocétirizine dans la rhinite allergique et l'urticaire chronique idiopathique chez l'adulte et l'enfant. |
+| [18201439](https://pubmed.ncbi.nlm.nih.gov/18201439/) | 2007 | Revue | Allergy Asthma Proc | Revue de la pharmacologie, de la sécurité et de l'efficacité de la lévocétirizine dans la rhinite allergique et l'urticaire chronique idiopathique. |
+| [11034010](https://pubmed.ncbi.nlm.nih.gov/11034010/) | 2000 | Cas clinique | J Clin Gastroenterol | Cholestase induite par la cétirizine (métabolite de l'hydroxyzine) chez un homme de 28 ans. Utile pour la sécurité hépatique. |
 
 ## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché (AMM) n'est répertoriée pour HYDROXYZINE dans les données interrogées.
-
-> ⚠️ **Attention — Gap de données probable** : L'absence de données AMM reflète vraisemblablement une limite de la source interrogée plutôt que l'absence réelle du médicament sur le marché français. Hydroxyzine (Atarax®) est une molécule ancienne et largement connue. Une vérification directe sur la base de données de l'ANSM est indispensable avant toute décision réglementaire ou commerciale.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 61162294 | ATARAX 2 mg/mL, sirop | Sirop | UCB PHARMA |
+| 61519586 | ATARAX 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | UCB PHARMA |
 
 ## Considérations de Sécurité
 
-Les données de sécurité formelles (mises en garde ANSM, contre-indications réglementaires, interactions médicamenteuses) ne sont pas disponibles dans cet Evidence Pack.
+Veuillez consulter la notice pour les informations de sécurité. Les mises en garde et contre-indications de l'ANSM n'ont pas encore été intégrées, et aucune interaction médicamenteuse n'a été trouvée.
 
-**Points de vigilance identifiés dans la littérature scientifique :**
+Un élément ressort de la littérature. Une prise de position canadienne (PMID 31582993) souligne que les antihistaminiques de première génération, dont l'hydroxyzine, provoquent fréquemment :
+- sédation ;
+- baisse des fonctions cognitives ;
+- mauvaise qualité du sommeil ;
+- bouche sèche ;
+- vertiges ;
+- hypotension orthostatique.
 
-- **Effets sédatifs prononcés** : somnolence, altération des fonctions cognitives, mauvaise qualité du sommeil — caractéristiques des AH de 1re génération, distinguant l'hydroxyzine des alternatives modernes
-- **Effets anticholinergiques** : bouche sèche, vertiges, hypotension orthostatique
-- **Risque cardiovasculaire** : des cas de mort subite cardiaque ont été associés aux AH de 1re génération à forte dose (PMID 31582993)
-- **Risque en cas de surdosage** : décès par accidents (conduite), surdosages intentionnels ou non intentionnels rapportés
-- **Population pédiatrique** : précaution pour le dosage (études disponibles, mais risque de sédation à surveiller)
-- **Interactions médicamenteuses** : potentialisation attendue avec autres dépresseurs du SNC, alcool, anesthésiants — données formelles non disponibles dans cet Evidence Pack
-
-> Veuillez consulter la notice officielle et les données ANSM pour les informations de sécurité complètes.
-
----
+Elle les associe aussi à des accidents et à des cas de mort subite d'origine cardiaque.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-L'indication d'urticaire allergique est mécanistiquement directe (antagonisme H1 → inhibition histaminique) et correspond à l'usage historique documenté de l'hydroxyzine depuis les années 1950. La prédiction TxGNN est confortée par 1 essai clinique de Phase 3 (pilote, portant sur la cétirizine — métabolite direct) et 20 publications incluant des guidelines officielles de sociétés savantes. Le principal frein n'est pas l'efficacité, mais la balance bénéfice-risque défavorable face aux AH de 2e génération dans les indications standard ; la molécule conserve cependant un espace clinique dans des niches spécifiques.
+- Le score TxGNN est très élevé (99,77 %), mais la seule preuve clinique est une étude pilote de faisabilité sur la cétirizine. Le reste de la littérature est constitué de revues, ce qui correspond à un niveau L4.
+- Le profil de sécurité de l'ANSM manque toujours, ce qui bloque le passage à l'étape de criblage de sécurité. Les antihistaminiques de nouvelle génération sont déjà recommandés en première intention dans l'urticaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Vérification du statut AMM réel auprès de l'ANSM (les données actuelles de cet Evidence Pack sont incomplètes — gap de données DG001/DG002)
-- Récupération des mises en garde et contre-indications depuis la notice officielle ANSM (DG001 — sévérité Bloquante)
-- Récupération des données complètes de mécanisme d'action depuis DrugBank (DG002 — sévérité Haute)
-- Définition précise des sous-populations cibles pour lesquelles l'hydroxyzine conserve un avantage différentiel (urticaires réfractaires aux AH de 2e génération, contexte hospitalier avec besoin de sédation concomitante)
-- Plan de surveillance de sécurité spécifique, notamment pour les sujets âgés, les conducteurs, et les patients sous co-médications sédatives
+- Télécharger et analyser la notice ANSM (mises en garde et contre-indications), point bloquant.
+- Obtenir les données de mécanisme d'action via DrugBank.
+- Rechercher des essais contrôlés portant directement sur l'hydroxyzine dans l'urticaire.
+- Étudier la piste de l'**urticaire au froid**, prédite au rang 3. Elle est mieux étayée (niveau L3) : une étude comparative en double aveugle de 1984 inclut l'hydroxyzine (PMID 6480953).
+
+*Ce rapport est fourni à titre de référence de recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

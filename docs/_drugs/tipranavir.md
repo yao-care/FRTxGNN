@@ -2,7 +2,7 @@
 layout: default
 title: Tipranavir
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 310
+nav_order: 314
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,64 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tipranavir : De l'Infection à VIH-1 au Syndrome d'Immunodéficience Acquise Féline
+# Tipranavir : De l'infection par le VIH-1 au syndrome d'immunodéficience acquise féline
 
 ## Résumé en Une Phrase
 
-Tipranavir est un inhibiteur non-peptidique de la protéase du VIH-1, initialement utilisé pour le traitement de l'infection à VIH-1 chez les patients prétraités et multirésistants.
-Le modèle TxGNN predit qu'il pourrait être efficace pour le **syndrome d'immunodéficience acquise féline (FIV)**,
-mais cette direction n'est actuellement soutenue par **aucun essai clinique** ni **aucune publication**, et le lien mécanistique est jugé faible.
-
----
+Tipranavir est un inhibiteur non peptidique de la protéase du VIH-1, commercialisé en France pour l'infection par le VIH-1. Le texte d'indication de l'AMM n'est pas renseigné dans les données reçues, et cette indication provient de l'analyse de plausibilité mécanistique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immunodéficience acquise féline (FIV)**, une indication vétérinaire, avec **0 essai clinique** et **0 publication** soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection à VIH-1 (patients prétraités) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (FIV) |
-| Score de Prédiction TxGNN | 99.99% |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
+| Score de Prédiction TxGNN | 99,99 % |
+| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier (Data Gap). Sur la base des informations connues rapportées dans l'analyse de repositionnement, tipranavir est un inhibiteur non-peptidique de la protéase du VIH-1 ; son efficacité dans le traitement de l'infection à VIH-1 (notamment chez les patients multirésistants) est établie, et mécanistiquement l'inhibition d'une protéase virale pourrait, en théorie, être extrapolée à d'autres infections rétrovirales.
+> Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base. Sur la base des informations connues, tipranavir est un inhibiteur de la protéase du VIH-1, son usage dans l'infection par le VIH-1 est établi, et mécanistiquement il pourrait être applicable à d'autres lentivirus.
 
-Le VIH-1 (humain) et le FIV (félin) sont tous deux des lentivirus, ce qui explique la proximité de ces deux maladies dans l'espace de représentation du modèle TxGNN et le score de prédiction très élevé (99.99%).
+Le FIV est un lentivirus dont la protéase est homologue à celle du VIH-1. Un inhibiteur de protéase du VIH-1 pourrait donc, en théorie, agir sur cette cible. Cette homologie fonde la plausibilité de la prédiction, mais le mécanisme n'a pas été vérifié pour le FIV.
 
-Cependant, cette similarité reste superficielle : la structure de la protéase du FIV diffère sensiblement de celle du VIH-1, et les inhibiteurs de protéase développés pour le VIH-1 ne présentent généralement pas d'activité croisée contre le FIV. Aucune étude clinique ou préclinique ne vient étayer cette prédiction à ce jour — elle doit donc être considérée comme un signal de faible fiabilité, probablement lié à un artefact du modèle plutôt qu'à une réelle transférabilité pharmacologique.
-
----
+Il s'agit toutefois d'une indication vétérinaire, hors du périmètre du développement de médicaments à usage humain. Aucun essai ni aucune publication n'a été fourni pour appuyer cette prédiction. Elle reste à l'état d'hypothèse issue du modèle.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement
+Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 67219072 | APTIVUS 250 mg, capsule molle (BOEHRINGER INGELHEIM INTERNATIONAL) | Capsule molle (voie orale) | Non renseignée dans les données reçues |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Malgré un score TxGNN élevé, aucune preuve clinique, préclinique ou bibliographique ne soutient l'usage de tipranavir dans le FIV, et le lien mécanistique est jugé faible du fait des différences structurelles entre les protéases du VIH-1 et du FIV (niveau de preuve L5).
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Elle concerne une maladie animale, hors du cadre d'un repositionnement à usage humain.
+- Parmi les autres prédictions, seule « VIH congénital » (rang 6) est liée à des essais (niveau L4). Ces essais portent sur d'autres antirétroviraux, et aucun n'est confirmé comme testant le tipranavir.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de mécanisme d'action (MOA) confirmées via DrugBank
-- Fiche officielle (notice/mises en garde) de l'autorité de santé compétente, actuellement bloquante pour toute évaluation de sécurité
-- Étude in vitro confirmant (ou infirmant) une activité inhibitrice de tipranavir sur la protéase du FIV avant toute investigation clinique
-- Réévaluation des autres candidats du même lot de prédictions : la piste « congenital human immunodeficiency virus » (rang 6, niveau L3, 9 essais cliniques identifiés bien que portant sur d'autres molécules que tipranavir) mérite un examen distinct, indépendant de la prédiction FIV présentée ici
+- Les mises en garde et contre-indications de la notice ANSM. Ces données de sécurité manquent et bloquent tout passage à l'étape de criblage de sécurité.
+- Les données détaillées sur le mécanisme d'action (DrugBank).
+- Le texte de l'indication approuvée dans l'AMM.
+- La confirmation par les essais ou les publications d'une preuve directe pour le tipranavir, dans un contexte pertinent pour l'humain ou vétérinaire.
+- Le rattachement des termes proches de l'infection par le VIH (« AIDS related complex », « VIH congénital ») à l'indication VIH existante lors de la curation des données.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

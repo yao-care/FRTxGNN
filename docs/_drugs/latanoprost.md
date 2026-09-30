@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Latanoprost
-parent: Preuves élevées (L1-L2)
-nav_order: 168
-evidence_level: L2
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 171
+evidence_level: L5
 indication_count: 10
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,64 +29,79 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Latanoprost : Du Glaucome/Hypertension Oculaire au Glaucome Hereditaire Primitif
+# Latanoprost : Vers le Glaucome Héréditaire Primaire (indication d'origine non renseignée)
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Latanoprost est un analogue de la prostaglandine F2α, dont l'usage etabli concerne le traitement du glaucome et de l'hypertension oculaire (donnee issue du raisonnement mecanistique fourni, le champ MOA structure etant lui-meme marque comme donnee manquante).
-Le modele TxGNN predit qu'il pourrait etre efficace pour le **Glaucome Hereditaire Primitif**,
-avec **1 essai clinique** soutenant actuellement cette direction (aucune publication litteraire recensee).
+Latanoprost est un analogue de la prostaglandine F2-alpha, commercialisé en France sous forme de collyre. L'indication d'origine n'est pas renseignée dans les données ANSM fournies.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **glaucome héréditaire primaire**, avec **1 essai clinique** de phase 2 terminé et **aucune publication** rattachée à ce jour.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Glaucome / hypertension oculaire (deduit du mecanisme d'action decrit dans les donnees de preuve ; non confirme par une AMM francaise, le medicament n'etant pas commercialise en France) |
-| Nouvelle Indication Predite | Glaucome Hereditaire Primitif |
-| Score de Prediction TxGNN | 99.88% |
-| Niveau de Preuve | L2 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Proceed with Guardrails |
+| Indication Originale | Non renseignée dans les données ANSM |
+| Nouvelle Indication Prédite | Glaucome héréditaire primaire |
+| Score de Prédiction TxGNN | 99,88 % |
+| Niveau de Preuve | L2 (provisoire, à rétrograder en L3 si le caractère randomisé de l'essai n'est pas confirmé) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
+| Décision Recommandée | Proceed with Guardrails |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le champ structure du mecanisme d'action (MOA) de latanoprost n'est pas disponible dans les donnees actuelles (donnee manquante signalee, priorite Haute). Les donnees de preuve fournies indiquent cependant que latanoprost est un agoniste des recepteurs de la prostaglandine F2α, qui abaisse la pression intraoculaire en augmentant l'evacuation de l'humeur aqueuse par la voie uveosclerale — un mecanisme pharmacologique deja etabli comme standard dans le traitement du glaucome et de l'hypertension oculaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Les informations connues indiquent que le latanoprost est un analogue de la prostaglandine F2-alpha. Il abaisse la pression intraoculaire en augmentant l'écoulement uvéo-scléral de l'humeur aqueuse.
 
-Le Glaucome Hereditaire Primitif appartient au meme cadre physiopathologique (trouble de l'evacuation de l'humeur aqueuse) que l'usage etabli du medicament. Il ne s'agit donc pas d'un repositionnement vers une aire therapeutique distincte, mais d'une extension a un sous-type genetique/pediatrique de la meme maladie, ce qui explique la forte plausibilite mecanistique de la prediction.
+Ce mécanisme correspond directement à la physiopathologie du glaucome, où la baisse de la pression intraoculaire est l'objectif thérapeutique central. La prédiction est donc plausible sur le plan biologique.
 
-Cette coherence est appuyee par un essai clinique de Phase 2 termine, qui a directement teste latanoprost (associe a un inhibiteur de l'anhydrase carbonique) chez des patients atteints de glaucome pediatrique refractaire a la chirurgie — une population proche du glaucome hereditaire primitif.
+Comme l'indication d'origine n'est pas documentée, cette prédiction pourrait recouper l'indication déjà autorisée plutôt que constituer un vrai repositionnement. L'efficacité dans les formes héréditaires ou congénitales doit être confirmée.
 
 ## Preuves d'Essais Cliniques
 
-| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Termine | 37 | Evaluation de l'effet hypotenseur oculaire de latanoprost et dorzolamide chez des patients atteints de glaucome pediatrique primitif refractaire a la chirurgie ; securite egalement evaluee |
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Terminé | 37 | Effet hypotenseur oculaire du latanoprost et de la dorzolamide dans le glaucome pédiatrique primaire réfractaire à la chirurgie, avec évaluation de la sécurité. Période : 07/2009 – 11/2016. |
 
-## Preuves de la Litterature
+Cet essai est de pertinence moyenne (grade B). Le titre est tronqué et l'effectif est faible. Le caractère randomisé de l'essai et la part exacte du latanoprost dans l'association ne sont pas confirmés.
 
-Aucune litterature associee disponible actuellement.
+## Preuves de la Littérature
 
-## Informations de Marche en France
+Aucune littérature associée disponible actuellement.
 
-Latanoprost n'est actuellement associe a aucune AMM enregistree dans les donnees disponibles (0 licence, statut « non commercialise »). Aucun tableau de produits n'est donc disponible.
+## Informations de Marché en France
 
-## Considerations de Securite
+20 AMM au total. Les 5 principales sont listées ci-dessous.
 
-Veuillez consulter la notice pour les informations de securite.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 64928570 | Latanoprost Biogaran 0,005 % | Collyre en solution | Biogaran |
+| 60643442 | Latanoprost Zentiva 0,005 % | Collyre en solution | Zentiva France |
+| 69504547 | Lifog 50 µg/mL | Collyre en solution | TRB Chemedica |
+| 67124642 | Latanoprost BGR 50 µg/mL | Collyre en solution | Biogaran |
+| 67303969 | Monoprost 50 µg/mL (unidose) | Collyre en solution | Théa |
 
-## Conclusion et Prochaines Etapes
+Le texte des indications approuvées n'est pas renseigné dans les données fournies.
 
-**Decision : Proceed with Guardrails**
+## Considérations de Sécurité
+
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans les données disponibles.
+
+## Conclusion et Prochaines Étapes
+
+**Décision : Proceed with Guardrails**
 
 **Justification :**
-Un essai clinique de Phase 2 termine (37 patients) teste directement latanoprost dans une population de glaucome pediatrique proche de l'indication predite, avec un mecanisme d'action hautement coherent (extension a un sous-type de la meme maladie plutot qu'un repositionnement transversal). Les lacunes de donnees de securite et de statut reglementaire francais empechent toutefois une decision « Go » complete.
+- Un essai de phase 2 terminé et un mécanisme cohérent soutiennent la prédiction pour le glaucome héréditaire primaire. Le niveau de preuve reste fragile : effectif de 37 patients, randomisation non vérifiée, aucune publication associée.
+- Les neuf autres indications prédites (calciphylaxie viscérale, syndromes du défilé thoracocervical, hypotrichoses, etc.) n'ont ni essai ni publication. Elles restent au niveau L5 avec la décision « Hold ».
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Mises en garde et contre-indications issues de la notice TFDA (donnee bloquante DG001, requise avant toute evaluation de securite S1)
-- Donnees structurees sur le mecanisme d'action (MOA) via l'API DrugBank (DG002)
-- Clarification du statut d'enregistrement en France (AMM) si une mise sur le marche est envisagee
-- Confirmation par un essai cible sur le glaucome hereditaire primitif specifiquement (l'essai disponible porte sur le glaucome pediatrique au sens large)
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour la revue de sécurité).
+- Obtenir les données de mécanisme d'action via DrugBank.
+- Confirmer l'indication autorisée du latanoprost pour vérifier s'il s'agit d'un vrai repositionnement ou d'un recoupement avec l'AMM.
+- Vérifier le protocole de NCT01527682 (randomisation, rôle du latanoprost) et, si besoin, rétrograder le niveau de preuve en L3.
+- Rechercher la littérature sur l'efficacité dans les formes héréditaires et congénitales.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant utilisation.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

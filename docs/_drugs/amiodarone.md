@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amiodarone
-parent: Preuves modérées (L3-L4)
-nav_order: 34
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 35
+evidence_level: L5
 indication_count: 10
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,80 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Amiodarone : Des Arythmies Ventriculaires à la Tachycardie Ventriculaire Polymorphe Catécholaminergique (CPVT)
+# Amiodarone : D'un antiarythmique commercialisé à la tachycardie ventriculaire polymorphe catécholergique
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-L'amiodarone est un antiarythmique de classe III à spectre large, largement utilisé dans le traitement des arythmies ventriculaires graves et des arythmies supraventriculaires réfractaires.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Tachycardie Ventriculaire Polymorphe Catécholaminergique (CPVT)**,
-avec **0 essai clinique enregistré** et **10 publications** disponibles, dont aucune n'étudie directement l'amiodarone comme traitement de première ligne dans cette indication.
+L'amiodarone est un antiarythmique commercialisé en France (Cordarone®), mais l'indication d'origine n'est pas renseignée dans les données disponibles.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **tachycardie ventriculaire polymorphe catécholergique (TVPC)**.
+Cette prédiction repose sur **0 essai clinique** et **10 publications** récupérées, dont aucune ne montre l'efficacité de l'amiodarone dans cette maladie.
 
----
-
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non renseignée — aucune AMM dans la base de données actuelle |
-| Nouvelle Indication Prédite | Tachycardie ventriculaire polymorphe catécholaminergique (CPVT) |
-| Score de Prédiction TxGNN | 99,78 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé (base de données actuelle) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Hold |
+|------|------|
+| Nouvelle indication prédite | Tachycardie ventriculaire polymorphe catécholergique (TVPC) |
+| Score de prédiction TxGNN | 99,78 % (rang 2100) |
+| Niveau de preuve | L4 (plausibilité mécanistique uniquement) |
+| Statut de marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
+| Décision recommandée | Hold |
 
----
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. On sait néanmoins que l'amiodarone bloque plusieurs canaux ioniques (potassium, sodium, calcium) et exerce un effet antagoniste bêta-adrénergique. Ces propriétés peuvent en théorie freiner les arythmies ventriculaires.
 
-Les données détaillées sur le mécanisme d'action de l'amiodarone ne sont pas disponibles dans la présente base de données. Sur la base des informations connues dans la littérature cardio-pharmacologique, l'amiodarone est un antiarythmique à action multi-canaux appartenant à la classe III de Vaughan-Williams. Il bloque principalement les canaux potassiques à rectification retardée (IKr/IKs), avec des effets additionnels sur les canaux sodiques (blocage use-dependent), les canaux calciques de type L, ainsi qu'un effet bloquant α/β-adrénergique non compétitif. Ces propriétés prolongent la durée du potentiel d'action et la période réfractaire effective, supprimant ainsi les circuits de réentrée et les activités déclenchées.
+La TVPC est une maladie génétique rare, déclenchée par le stress adrénergique. Elle est due principalement à une fuite de calcium diastolique via le récepteur RYR2. Les traitements de référence sont les bêta-bloquants et la flécaïne. Le blocage bêta-adrénergique de l'amiodarone offre donc un lien plausible, mais théorique.
 
-La CPVT est une canalopathie ionique héréditaire rare, le plus souvent liée à une mutation du récepteur à la ryanodine 2 (RYR2) ou de la calséquestrine-2 (CASQ2). En conditions adrénergiques (exercice, stress), ces mutations provoquent une libération anormale de calcium du réticulum sarcoplasmique, générant des post-dépolarisations retardées (DAD) et une activité déclenchée. Théoriquement, le blocage des canaux calciques de type L par l'amiodarone pourrait atténuer ces mécanismes.
+Le score élevé du modèle n'est **pas confirmé par les données cliniques**. Les publications retrouvées sont des cohortes, des revues et des cas cliniques sur la TVPC, sans aucune démonstration d'efficacité de l'amiodarone. Les rapports sur la flécaïne suggèrent même que l'amiodarone n'est pas l'agent de choix.
 
-Toutefois, les recommandations actuelles pour la CPVT placent clairement les β-bloquants en première ligne, et le flécaïnide (inhibiteur direct des canaux RYR2) en deuxième ligne. L'amiodarone ne figure pas dans les algorithmes de traitement établis pour la CPVT, et sa propriété de prolongation du QT représente un risque potentiellement défavorable dans ce contexte. Les données de la littérature suggèrent que son efficacité dans les orages rythmiques liés à la CPVT est limitée.
-
----
-
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la littérature
 
-## Preuves de la Littérature
+| PMID | Année | Type | Revue | Résultats principaux |
+|------|-----|------|------|---------|
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revue systématique | Life (Basel) | Caractéristiques cliniques, bases génétiques et évolution rythmique des patients chinois atteints de TVPC. Aucune donnée sur l'amiodarone dans l'extrait disponible. |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte rétrospective | Rev Cardiovasc Med | Caractéristiques cliniques, génétique, recours aux soins et coûts de la TVPC dans une ville chinoise. |
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revue | Expert Opin Pharmacother | Avancées du traitement médicamenteux des arythmies ventriculaires (revue générale, non spécifique à la TVPC). |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Cas clinique | PACE | La flécaïne supprime l'orage rythmique induit par le défibrillateur chez un garçon de 14 ans atteint de TVPC (mutation CASQ2). |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Cas clinique | Front Cardiovasc Med | Résolution de la TVPC par dénervation sympathique cardiaque droite chez un adolescent, après une dénervation gauche. |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Cas clinique | Turk Pediatri Arsivi | Arrêt cardiaque soudain révélant une TVPC chez un enfant de 2 ans. |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Cas clinique | Medicine | Diagnostic retardé de 6 ans d'une TVPC avec mutation RYR2 (c.7580T>G) chez un enfant de 9 ans. |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Cas clinique | BMJ Case Rep | Survie d'un jeune enfant après arrêt cardiaque extrahospitalier, avec 40 chocs administrés pour TV/FV récidivantes. |
+| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | Cas clinique | Rev Esp Cardiol | Orage rythmique induit par une décharge du défibrillateur chez un patient atteint de TVPC. |
+| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Cas clinique | Anesth Analg | Nouveau-né avec syndrome du QT long et arythmies réfractaires, traité par lidocaïne, esmolol et amiodarone. Il s'agit d'un QT long, pas d'une TVPC. |
 
-| PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revue | Expert Opinion Pharmacotherapy | Synthèse des avancées pharmacologiques dans les arythmies ventriculaires ; rôle des antiarythmiques dont l'amiodarone dans la CPVT discuté comme option limitée |
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Cohorte rétrospective | Life (Basel) | Revue systématique des caractéristiques cliniques, génétiques et des issues arythmiques des patients CPVT en Chine ; traitement antiarythmique décrit |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte rétrospective | Reviews in Cardiovascular Medicine | Caractéristiques cliniques, base génétique et utilisation des ressources de santé pour la CPVT dans une cohorte chinoise |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Série de cas prospective | PACE | Flécaïnide pour suppression de la tempête rythmique déclenchée par le DAI dans la CPVT ; amiodarone mentionné comme alternative en cas d'échec |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Rapport de cas | Frontiers in Cardiovascular Medicine | Résolution de CPVT réfractaire par dénervation sympathique cardiaque droite après échec de la dénervation gauche chez un adolescent |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Rapport de cas | BMJ Case Reports | Arrêt cardiaque chez l'enfant avec CPVT ; amiodarone utilisée en réanimation, 40 chocs défibrillation administrés |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Rapport de cas | Turk Pediatri Arsivi | CPVT comme cause rare d'arrêt cardiaque soudain chez l'enfant de 2 ans ; tableau clinique et prise en charge décrits |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Rapport de cas | Medicine | Diagnostic retardé de 6 ans d'une CPVT avec mutation RYR2 chez un enfant de 9 ans en Chine |
-| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Rapport de cas | Anesthesia & Analgesia | Syndrome du QT long avec arythmies ventriculaires réfractaires chez un nouveau-né ; pharmacothérapie multimodale incluant amiodarone + esmolol + pacing ventriculaire |
-| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | Rapport de cas | Revista Española de Cardiología | Orage rythmique induit par les chocs du DAI dans la CPVT ; amiodarone utilisée dans la prise en charge de la tempête électrique |
+## Informations de marché en France
 
----
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Fabricant |
+|---------|------|------|-----------|
+| 62305927 | CORDARONE 150 mg/3 ml | Solution injectable en ampoule (IV) | SANOFI WINTHROP INDUSTRIE |
+| 64408662 | CORDARONE 200 mg | Comprimé sécable | SANOFI WINTHROP INDUSTRIE |
+| 68973926 | CORDARONE 200 mg | Comprimé sécable | BB FARMA (Italie) |
+| 60662396 | CORDARONE 200 mg | Comprimé sécable | DIFARMED (Espagne) |
 
-## Informations de Marché en France
+## Considérations de sécurité
 
-Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour l'amiodarone dans la base de données actuelle. Ce résultat reflète une absence de données dans la source interrogée, et ne signifie pas nécessairement que l'amiodarone est indisponible en France — ce médicament est en effet largement commercialisé en Europe sous différentes spécialités (Cordarone®, génériques). Une vérification auprès de la base de données de l'ANSM est recommandée.
+Veuillez consulter la notice pour les informations de sécurité.
 
----
-
-## Considérations de Sécurité
-
-Les données de sécurité spécifiques à l'amiodarone ne sont pas disponibles dans la base de données actuelle (source TFDA non renseignée). Sur la base des données de sécurité établies pour ce médicament dans la littérature internationale :
-
-- **Mises en Garde Principales** : Toxicité pulmonaire (pneumopathie interstitielle, BOOP) ; toxicité thyroïdienne (hypothyroïdie, hyperthyroïdie) ; hépatotoxicité ; prolongation du QT et risque de torsades de pointes ; toxicité oculaire (micro-dépôts cornéens, neuropathie optique) ; neuropathie périphérique ; photosensibilisation cutanée
-- **Contre-indications** : Bradycardie sinusale grave ; blocs auriculoventriculaires de haut degré (sans pacemaker) ; dysfonction sinusale ; hypersensibilité à l'iode ; grossesse et allaitement ; dysthyroïdie préexistante
-
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-L'amiodarone présente une connexion mécanistique théorique avec la CPVT via le blocage calcique, mais les recommandations cliniques actuelles ne le retiennent pas comme traitement établi de cette pathologie. L'absence totale d'essais cliniques dans cette indication et un niveau de preuve L4 (uniquement littérature observationnelle et rapports de cas) ne permettent pas de soutenir une progression vers un usage structuré. De plus, la propriété de prolongation du QT intrinsèque à l'amiodarone constitue un risque potentiellement antagoniste au contexte électrophysiologique de la CPVT.
+- La prédiction pour la TVPC repose uniquement sur le modèle et sur une plausibilité mécanistique. Aucun essai ni publication ne montre l'efficacité de l'amiodarone, et les traitements établis (bêta-bloquants, flécaïne) sont préférés.
+- Parmi les autres prédictions du même dossier, la **tachycardie ventriculaire** (niveau L1, décision « Proceed with Guardrails ») correspond à un usage déjà établi de l'amiodarone. Elle est appuyée par des essais randomisés (dont VANISH, NCT00905853), mais ce n'est pas un vrai repositionnement. La **tachycardie ventriculaire incessante du nourrisson** (niveau L3) reste une question de recherche.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (MOA) issues de DrugBank — actuellement manquantes (Data Gap DG002)
-- Données de sécurité complètes issues de la notice officielle ANSM/TFDA (Data Gap DG001 — Blocking)
-- Recherche d'études précliniques sur l'amiodarone dans des modèles CPVT (RYR2 knock-in) pour évaluer son effet sur les DAD
-- Consultation des recommandations EHRA/ESC 2022 sur la CPVT pour repositionner l'amiodarone dans l'algorithme thérapeutique (3ème ligne ou thérapie de sauvetage uniquement)
-- Évaluation de la pertinence de la prédiction TxGNN à la lumière des trois meilleures indications : la **Tachycardie Ventriculaire** (rang 3, L1, Proceed with Guardrails) constitue une cible de repositionnement nettement plus solide et cliniquement actionnable
+- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).
+- Les données de mécanisme d'action (MOA) depuis DrugBank.
+- Une recherche bibliographique ciblée « amiodarone et TVPC » pour vérifier l'existence de données directes.
+- Une comparaison avec les traitements de référence (bêta-bloquants, flécaïne) avant tout passage à l'étape suivante.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

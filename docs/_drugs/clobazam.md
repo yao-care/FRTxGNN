@@ -2,7 +2,7 @@
 layout: default
 title: Clobazam
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 79
+nav_order: 81
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,73 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Clobazam : De l'Épilepsie au Syndrome d'Épilepsie Lié aux Infections Fébriles (FIRES)
+# Clobazam : Nouvelle indication prédite, le syndrome d'épilepsie liée à une infection fébrile (FIRES)
 
 ## Résumé en Une Phrase
 
-Le clobazam est une 1,5-benzodiazépine à large spectre antiépileptique, approuvée par la FDA pour le traitement adjuvant du syndrome de Lennox-Gastaut, et utilisée dans plusieurs pays pour les épilepsies réfractaires.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Syndrome d'Épilepsie Lié aux Infections Fébriles (FIRES)**, avec **0 essai clinique enregistré** et **2 publications** orientant actuellement cette direction.
-Les preuves disponibles portent toutefois sur d'autres agents benzodiazépiniques plutôt que sur le clobazam lui-même.
-
----
+Le clobazam est une benzodiazépine 1,5 utilisée comme antiépileptique et commercialisée en France (4 AMM). Le texte des indications autorisées n'est pas renseigné dans les données disponibles.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'épilepsie liée à une infection fébrile (FIRES)**. Aucun essai clinique n'est enregistré et seulement **2 publications** existent (une série de cas et un cas clinique). Aucune d'elles ne porte sur le clobazam, donc le soutien est indirect.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Épilepsie réfractaire (non commercialisé en France selon les données disponibles) |
-| Nouvelle Indication Prédite | Syndrome d'Épilepsie Lié aux Infections Fébriles (FIRES) |
-| Score de Prédiction TxGNN | 99.82% |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+|------|------|
+| Nouvelle Indication Prédite | Syndrome d'épilepsie liée à une infection fébrile (FIRES) |
+| Score de Prédiction TxGNN | 99,82 % |
+| Niveau de Preuve | L4 (preuves indirectes uniquement, aucune donnée spécifique au clobazam) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des connaissances établies, le clobazam est une 1,5-benzodiazépine structuralement distincte des benzodiazépines classiques 1,4 (comme le diazépam ou le clonazépam). Il agit comme modulateur allostérique positif des récepteurs GABA-A, amplifiant l'afflux de chlorure et renforçant l'inhibition neuronale corticale — mécanisme qui constitue la base pharmacologique de ses propriétés antiépileptiques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, le clobazam est une benzodiazépine 1,5 qui agit comme modulateur allostérique positif des récepteurs GABA-A. Il renforce ainsi l'inhibition neuronale, ce qui explique son usage dans les épilepsies.
 
-Le FIRES est un état de mal épileptique fébrile réfractaire survenant chez des enfants précédemment sains, caractérisé par des crises pharmacorésistantes exigeant souvent un coma pharmacologique prolongé. La justification mécanistique est que le renforcement GABAergique pourrait élever le seuil de décharge épileptique lors de la phase aiguë et faciliter le sevrage des anesthésiques généraux. Les benzodiazépines de longue durée d'action — dont font partie les analogues du clobazam — sont précisément explorées dans ce rôle de relais per os après stabilisation par midazolam IV.
+Le FIRES est une forme d'état de mal épileptique réfractaire d'apparition récente (NORSE) qui touche des enfants auparavant en bonne santé. Les antiépileptiques conventionnels échouent souvent, et les patients nécessitent des cycles répétés de coma pharmacologique (midazolam, barbituriques). Une modulation GABA-A est donc mécanistiquement plausible.
 
-Cependant, les preuves publiées identifiées ne portent pas directement sur le clobazam dans le FIRES : elles documentent le lorazépam entéral (PMID 35770765) et le pérampanel (PMID 39958143) dans cette indication. La prédiction du modèle TxGNN reflète vraisemblablement la similarité de classe benzodiazépinique plutôt qu'une évidence clinique propre au clobazam.
-
----
+Cette plausibilité reste toutefois théorique. Les deux articles retrouvés traitent du lorazépam entéral (sevrage du midazolam) et du pérampanel (réduction de la dépendance aux barbituriques), pas du clobazam. Le score élevé du modèle repose donc surtout sur des effets de classe.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Série de cas | Epileptic Disorders | Le lorazépam entéral constitue une stratégie de sevrage prometteuse chez des patients FIRES dépendants au midazolam ; l'approche soutient un relais benzodiazépinique oral après coma pharmacologique |
-| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Rapport de cas | Cureus | Le pérampanel a permis de réduire la dépendance aux barbituriques chez un garçon de 13 ans atteint de FIRES, illustrant l'intérêt des agents adjuvants dans le sevrage des anesthésiques |
+|------|-----|------|------|---------|
+| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Série de cas (cohorte) | Epileptic Disord | Le lorazépam entéral est une stratégie de sevrage prometteuse chez les patients FIRES dépendants du midazolam. Cette étude ne concerne pas le clobazam. |
+| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Cas clinique | Cureus | Chez un garçon de 13 ans, le pérampanel aurait pu réduire la dépendance aux barbituriques dans le FIRES. Cette étude ne concerne pas le clobazam. |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 62905911 | URBANYL 10 mg, comprimé sécable | Comprimé sécable | ATNAHS PHARMA FRANCE |
+| 65899602 | LIKOZAM 1 mg/ml, suspension buvable | Suspension buvable | TAW PHARMA (Irlande) |
+| 64630403 | URBANYL 5 mg, gélule | Gélule | ATNAHS PHARMA FRANCE |
+| 63470312 | URBANYL 20 mg, comprimé | Comprimé | ATNAHS PHARMA FRANCE |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Les données de contre-indications, mises en garde et interactions médicamenteuses n'ont pas pu être récupérées pour cette évaluation.
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Bien que la classe pharmacologique du clobazam (benzodiazépine GABAergique) soit mécanistiquement cohérente avec la prise en charge du FIRES, aucune publication ni essai clinique ne documente directement son utilisation dans cette indication. Les 2 références identifiées concernent d'autres médicaments (lorazépam, pérampanel), sans données comparatives ni spécifiques au clobazam. Le niveau de preuve L5 ne justifie pas d'avancer vers une évaluation clinique formelle à ce stade.
+- Il n'existe aucun essai clinique et aucune publication spécifique au clobazam dans le FIRES. La prédiction repose sur le score du modèle et sur un effet de classe des benzodiazépines.
+- Les données de sécurité issues de la notice de l'ANSM manquent, ce qui bloque le passage à l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération des données de mécanisme d'action (MOA) via DrugBank (DG002)
-- Récupération de la notice officielle pour les mises en garde et contre-indications (DG001)
-- Revue bibliographique ciblée sur le clobazam spécifiquement dans le FIRES ou les états de mal épileptiques réfractaires fébriles
-- Vérification des registres internationaux (EU-CTR, ISRCTN) pour tout essai émergent sur le clobazam dans le NORSE/FIRES
-- Analyse comparative avec le lorazépam et le midazolam entéral dans le contexte de sevrage post-FIRES
+- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), une lacune bloquante.
+- Compléter les données de mécanisme d'action via DrugBank.
+- Rechercher de la littérature spécifique au clobazam dans le FIRES et le NORSE (séries de cas, données d'usage en pratique réelle).
+- Renseigner les indications autorisées de chaque AMM afin de documenter l'indication d'origine.
+- Vérifier la compatibilité des voies d'administration : les formes disponibles sont orales (dont la suspension buvable), et les patients en réanimation reçoivent souvent des traitements par sonde.
+- Autre piste : la prédiction « encéphalopathie épileptique de l'enfant » (rang 6) s'appuie sur une littérature bien plus fournie (revues et recommandations sur le syndrome de Lennox-Gastaut, le syndrome de Dravet et les crises du nourrisson). Elle mérite d'être examinée en priorité, après vérification indépendante des essais pivots.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

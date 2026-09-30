@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Melphalan
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 187
-evidence_level: L5
+parent: Preuves élevées (L1-L2)
+nav_order: 190
+evidence_level: L2
 indication_count: 10
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,103 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Melphalan : Évaluation de Repositionnement — Données Insuffisantes pour Analyse Complète
+# Melphalan : Des Indications Originales (Non Renseignées) à la Tumeur Germinale Gonadique
 
-## Résumé
+## Résumé en Une Phrase
 
-Melphalan (DB01042) est un agent alkylant antinéoplasique pour lequel aucune indication approuvée n'est enregistrée dans la base réglementaire française, et les informations sur le mécanisme d'action restent indisponibles dans le présent Evidence Pack. Le modèle TxGNN n'a retourné **aucune indication prédite** lors de la présente analyse, ce qui rend impossible toute évaluation structurée de repositionnement. Des lacunes bloquantes dans les données de sécurité et de mécanisme d'action doivent être comblées avant toute progression.
-
----
+Melphalan est un agent alkylant de la famille des moutardes azotées, disponible en France sous la marque ALKERAN (comprimé et forme injectable). Les données ANSM fournies ne précisent pas son indication originale.
+Le modèle TxGNN prédit qu'il pourrait être efficace dans la **tumeur germinale gonadique**, avec **8 essais cliniques** et **4 publications** associés, dont un seul essai directement centré sur cette maladie.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---------|---------|
-| Indication Originale | Non renseignée (données réglementaires absentes) |
-| Nouvelle Indication Prédite | Aucune — prédictions TxGNN indisponibles |
-| Score de Prédiction TxGNN | — |
-| Niveau de Preuve | L5 (modèle non concluant, aucune étude disponible) |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
-
----
+|------|------|
+| Indication Originale | Non renseignée dans les données ANSM disponibles |
+| Nouvelle Indication Prédite | Tumeur germinale gonadique |
+| Score de Prédiction TxGNN | 99,77 % |
+| Niveau de Preuve | L2 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données du mécanisme d'action (MOA) ne sont pas disponibles dans le présent Evidence Pack. Melphalan est reconnu dans la littérature pharmacologique comme un agent alkylant de la classe des moutardes azotées, agissant en créant des pontages inter-brins sur l'ADN et inhibant ainsi la réplication cellulaire. Cette propriété cytotoxique est à la base de son utilisation dans diverses hémopathies malignes et tumeurs solides.
+Les données détaillées sur le mécanisme d'action ne figurent pas dans le dossier. Sur la base des informations connues, melphalan est un agent alkylant bifonctionnel qui forme des ponts interbrins dans l'ADN, ce qui bloque la réplication des cellules tumorales et provoque leur mort.
 
-Cependant, en l'absence de prédictions TxGNN valides pour ce candidat, il est impossible d'établir une relation mécanistique entre une indication originale et une nouvelle indication cible. Le modèle n'a identifié aucune maladie candidate lors de l'analyse de repositionnement, ce qui peut refléter soit une limite des données d'entrée dans le graphe de connaissances, soit une absence de signal suffisant pour ce composé.
+Les tumeurs germinales sont réputées très sensibles aux agents endommageant l'ADN. Les schémas de chimiothérapie à haute dose contenant du melphalan, suivis d'une autogreffe de cellules souches, constituent donc une stratégie de rattrapage plausible dans les formes rechutées de mauvais pronostic. L'effet de l'alkylation dépendant de la dose, l'intensification de dose est logique sur le plan pharmacologique.
 
-Pour relancer l'analyse, il est nécessaire de vérifier l'identifiant DrugBank (DB01042), de confirmer les nœuds de maladies connectés dans le graphe TxGNN, et de s'assurer que le composé est bien représenté dans le réseau hétérogène utilisé pour l'inférence.
-
----
+Cette hypothèse reste à confirmer. Les preuves sont surtout issues de régimes multi-agents et de petites cohortes de tumeurs mixtes, et la comparaison avec l'indication originale n'est pas documentée dans le dossier.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement dans cet Evidence Pack.
-
----
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | Terminé | 64 | Deux cycles de chimiothérapie à haute dose (gemcitabine, docétaxel, melphalan, carboplatine, puis ifosfamide, carboplatine, étoposide) dans les tumeurs germinales rechutées de mauvais pronostic. Essai le plus direct (pertinence A) |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Terminé | 25 | Melphalan à doses croissantes avec support de cellules souches autologues et amifostine, dans des tumeurs solides dont les tumeurs germinales (pertinence B) |
+| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | Terminé | 25 | Busulfan, melphalan et topotécan à haute dose avec autogreffe, dans des tumeurs avancées ou récidivantes (pertinence B) |
+| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Terminé | 451 | Huit schémas de chimiothérapie à haute dose avec autogreffe, dans les hémopathies malignes et certaines tumeurs solides. Le sous-groupe de tumeurs germinales est probablement petit (pertinence B) |
+| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | Terminé | 6 | Melphalan intrathécal dans la méningite néoplasique récidivante. Voie et contexte différents (pertinence C) |
+| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | Non applicable | Terminé | 36 | Allogreffe non myéloablative avec melphalan et cladribine ou irradiation lymphoïde totale. Pertinence indirecte (pertinence C) |
+| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | Non applicable | Terminé | 174 | Chimiothérapies à haute dose avec ou sans irradiation corporelle totale avant autogreffe, dans des cancers mixtes. Aucun signal spécifique au melphalan (pertinence C) |
+| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | Arrêté | 13 | Amifostine comme protecteur lors d'une autogreffe dans des tumeurs pédiatriques. Étude de réduction de toxicité, pas d'efficacité (pertinence C) |
 
 ## Preuves de la Littérature
 
-Aucune littérature associée n'est disponible actuellement dans cet Evidence Pack.
+Aucun de ces articles ne dispose d'un résumé dans le dossier. Les descriptions ci-dessous reposent uniquement sur les titres.
 
----
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | Revue | Urol Clin North Am | Revue générale sur le séminome |
+| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | Revue | Oncology | Revue de la chimiothérapie des tumeurs germinales du testicule |
+| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | Cohorte | Vopr Onkol | Expérience de traitement du séminome testiculaire et de ses métastases par la sarcolysine (nom historique du melphalan) |
+| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Préclinique | Acta Unio Int Contra Cancrum | Influence d'agents hormonaux et alkylants sur la fonction folliculo-stimulante de l'hypophyse. Lien faible avec l'indication |
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 68262525 | ALKERAN 2 mg, comprimé pelliculé | Comprimé pelliculé |
+| 68708664 | ALKERAN 50 mg/10 ml, lyophilisat et solution pour usage parentéral (I.V.) | Lyophilisat et solution pour usage parentéral |
+
+Les deux AMM sont détenues par ASPEN PHARMA TRADING (Irlande). Le texte des indications approuvées est vide dans les données fournies.
 
 ## Cytotoxicité
 
-> **Note :** Melphalan est universellement classé comme agent alkylant antinéoplasique cytotoxique. Cette section est incluse sur la base de sa classification pharmacologique établie, en attendant la confirmation des données DrugBank.
-
 | Élément | Contenu |
-|---------|---------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant — classe des moutardes azotées) |
-| Risque de Myélosuppression | Élevé — myélosuppression cumulative dose-dépendante, incluant neutropénie, thrombocytopénie et anémie sévères |
-| Classification d'Émétogénicité | Modérée à élevée (selon la voie d'administration et la dose) |
-| Éléments de Surveillance | NFS avec différentielle (avant chaque cycle), fonction rénale (la clearance rénale affecte l'exposition), fonction hépatique, électrolytes |
-| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques — préparation sous hotte à flux laminaire, équipements de protection individuelle obligatoires |
+|------|------|
+| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, moutarde azotée) |
+| Risque de Myélosuppression | Élevé (toxicité dose-dépendante, attendue pour cette classe, notamment en haute dose avec autogreffe) |
+| Classification d'Émétogénicité | Variable selon la voie et la dose : faible par voie orale, plus élevée en IV à haute dose |
+| Éléments de Surveillance | NFS avec formule, fonction hépatique et rénale |
+| Protection de Manipulation | Suivre les règles de manipulation des médicaments cytotoxiques |
 
----
+Le dossier ne contient pas de données de toxicité propres à ce médicament. Ces éléments reposent sur les connaissances générales de la classe. Veuillez consulter les mises en garde et précautions de la notice.
 
 ## Considérations de Sécurité
 
-> Les données de sécurité (mises en garde, contre-indications, interactions médicamenteuses) ne sont pas disponibles dans le présent Evidence Pack. Veuillez consulter la notice officielle et la monographie DrugBank pour les informations de sécurité complètes.
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le modèle TxGNN n'a produit aucune indication prédite pour Melphalan dans cette analyse, et deux lacunes bloquantes (DG001 : données de sécurité réglementaires, DG002 : mécanisme d'action) empêchent toute évaluation de repositionnement valide. Sans signal de prédiction ni données de sécurité, il n'est pas possible d'évaluer le rapport bénéfice/risque pour une nouvelle indication.
+- Le niveau de preuve est L2 : un essai de phase 2 terminé (n = 64) dans les tumeurs germinales rechutées, mais avec un schéma multi-agents qui ne permet pas d'isoler l'apport du melphalan. Le reste des preuves concerne des populations mixtes ou des études anciennes sans résumé.
+- Les données de sécurité de la notice ANSM sont absentes (lacune bloquante), ce qui empêche l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer les mises en garde et contre-indications de la notice ANSM (PDF sur le site de l'ANSM)
+- Obtenir le mécanisme d'action détaillé (DrugBank)
+- Obtenir les résultats publiés de NCT00936936 et évaluer l'apport propre du melphalan dans ce schéma
+- Compléter les indications originales des deux AMM
+- Vérifier la compatibilité de voie d'administration et de dose (haute dose IV avec autogreffe) avec les formes commercialisées
 
-- **[DG001 — Bloquant]** Télécharger et analyser la notice officielle (PDF ANSM/EMA) pour extraire les mises en garde, contre-indications et précautions d'emploi
-- **[DG002 — Priorité haute]** Interroger l'API DrugBank (DB01042) pour récupérer le mécanisme d'action complet, les catégories pharmacologiques et les données de toxicité
-- **[TxGNN]** Vérifier que Melphalan (DB01042) est bien représenté dans le graphe de connaissances TxGNN et relancer le pipeline de prédiction avec les paramètres corrects
-- **[Réglementaire]** Confirmer le statut d'AMM en France via la base de données publique de l'ANSM et de l'EMA (Melphalan est commercialisé en Europe sous le nom Alkeran® pour le myélome multiple)
-- Une fois ces données disponibles, remettre à jour l'Evidence Pack et relancer l'analyse de repositionnement
+**Autres prédictions du dossier :**
+- Tumeur germinale primitive de l'ovaire : L3, données limitées à de petites études de tumeurs mixtes.
+- Carcinome mammaire féminin : L2, avec un usage historique du melphalan, aujourd'hui largement remplacé par les thérapies endocriniennes et ciblées.
+- Les sept autres prédictions (choriocarcinome de l'ovaire, tumeur ovarienne non épithéliale maligne, adénocarcinomes mucineux) sont au niveau L5, sans preuve spécifique. Elles sont classées Hold.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

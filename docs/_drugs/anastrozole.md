@@ -2,7 +2,7 @@
 layout: default
 title: Anastrozole
 parent: Preuves élevées (L1-L2)
-nav_order: 38
+nav_order: 40
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,89 +29,109 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-# Anastrozole : Du Statut Non Enregistré au Traitement du Carcinome Mammaire Féminin
+# Anastrozole : D'une Indication Originale Non Renseignée au Carcinome Mammaire Féminin
 
 ## Résumé en Une Phrase
 
-Anastrozole est un inhibiteur sélectif et non stéroïdien de l'aromatase (CYP19A1), reconnu mondialement comme traitement de référence du cancer du sein hormono-sensible chez les femmes ménopausées, mais actuellement non commercialisé sur le marché local analysé.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Carcinome Mammaire Féminin**, avec **50 essais cliniques** et **20 publications** soutenant cette direction, dont les données pivots de l'essai ATAC (n = 9 366).
-Cette prédiction constitue une convergence remarquable entre le modèle d'intelligence artificielle et le consensus oncologique international établi.
+L'anastrozole est un inhibiteur non stéroïdien de l'aromatase. Les données reçues ne renseignent ni ses indications d'origine ni le texte d'indication de ses AMM françaises.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome mammaire féminin**, avec **50 essais cliniques** et **20 publications** associés à cette direction.
+Cette « nouvelle » indication correspond très probablement à un usage déjà établi, et non à un véritable repositionnement (voir ci-dessous).
 
 ---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non disponible (médicament non enregistré localement) |
-| Nouvelle Indication Prédite | Carcinome Mammaire Féminin |
+|------|------|
+| Indication Originale | Non renseignée dans les AMM ni dans les données du médicament (à vérifier auprès de l'ANSM) |
+| Nouvelle Indication Prédite | Carcinome mammaire féminin (female breast carcinoma) |
 | Score de Prédiction TxGNN | 99,68 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 18 |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Anastrozole est un inhibiteur de l'aromatase de troisième génération, hautement sélectif et non stéroïdien. Son mécanisme d'action principal consiste à bloquer l'enzyme CYP19A1 (aromatase), responsable de la conversion des androgènes en estrogènes dans les tissus périphériques. Cette inhibition entraîne une réduction supérieure à 95 % du taux circulant d'estradiol chez les femmes ménopausées, supprimant ainsi la principale source d'estrogènes après la ménopause.
+L'anastrozole est un inhibiteur de l'aromatase non stéroïdien. Chez la femme ménopausée, il réduit la synthèse périphérique des œstrogènes. Il prive ainsi les tumeurs mammaires à récepteurs hormonaux positifs de leur signal de croissance. Le champ « mécanisme d'action » de la base source est vide. Cette description provient donc de l'analyse mécanistique du dossier et non de DrugBank.
 
-La pertinence de cette prédiction repose sur un lien mécanistique direct : le carcinome mammaire féminin de type hormono-récepteurs positifs (ER+/HER2-) représente environ 70 % de tous les cancers du sein. Ces tumeurs expriment des récepteurs aux estrogènes et dépendent de l'estradiol comme signal de prolifération cellulaire. En supprimant profondément la biosynthèse périphérique des estrogènes, anastrozole prive les cellules tumorales de leur principal facteur de croissance — sans les effets agonistes partiels sur l'endomètre et le système veineux associés au tamoxifène, la référence historique depuis plus de deux décennies.
+La relation entre indication originale et nouvelle indication ne peut pas être établie, car l'indication d'origine n'est pas renseignée. Le cancer du sein hormonodépendant est pourtant l'usage classique de l'anastrozole. Les essais de phase 3 et les publications ci-dessous le confirment directement. Cette prédiction semble donc refléter une lacune du dossier source plutôt qu'un vrai repositionnement. Il faut vérifier l'enregistrement d'origine avant de la présenter comme une découverte nouvelle.
 
-La relation entre le mécanisme d'anastrozole et le carcinome mammaire est parfaitement validée sur le plan clinique. L'essai ATAC (n = 9 366, suivi médian > 68 mois) a démontré la supériorité d'anastrozole sur le tamoxifène en termes de survie sans maladie (575 vs 651 événements, HR 0,87 ; p < 0,01), avec une réduction du risque de cancer controlatéral et moins d'événements thromboemboliques et d'hyperplasie endométriale. Des essais subséquents ont confirmé son rôle en chimioprévention (IBIS-II), en adjuvant de longue durée, en néoadjuvant et en combinaison avec les inhibiteurs de CDK4/6. Le score TxGNN de 99,68 % reflète cette convergence exceptionnelle de preuves biologiques et cliniques.
+Sur le plan mécanistique, l'inhibition de l'aromatase est pertinente dans les tumeurs dépendantes des œstrogènes. Les données soutiennent cette application chez les femmes ménopausées avec un cancer du sein RE+.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
+50 essais sont associés à cette indication. Voici les 10 plus pertinents pour l'anastrozole.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---|---|---|---|---|
-| [NCT00849030](https://clinicaltrials.gov/study/NCT00849030) | Phase 3 | Terminé | 9 358 | Essai ATAC : Arimidex (anastrozole) seul vs Nolvadex (tamoxifène) seul ou en combinaison en adjuvant chez les femmes ménopausées — anastrozole supérieur en survie sans maladie |
-| [NCT00053898](https://clinicaltrials.gov/study/NCT00053898) | Phase 3 | Terminé | 3 104 | Anastrozole vs tamoxifène pour la prévention des récidives chez les femmes ménopausées avec carcinome canalaire in situ (DCIS) après tumorectomie et radiothérapie |
-| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | Terminé | 1 914 | Durée optimale d'anastrozole adjuvant (3 ans vs 6 ans) après 2–3 ans de tamoxifène chez les patientes ménopausées avec cancer du sein hormono-sensible |
-| [NCT00635713](https://clinicaltrials.gov/study/NCT00635713) | Phase 3 | Terminé | 588 | Fulvestrant (125/250 mg) vs Arimidex (anastrozole 1 mg) dans le cancer du sein avancé ménopausé post-tamoxifène — délai jusqu'à progression tumorale |
-| [NCT00784680](https://clinicaltrials.gov/study/NCT00784680) | Phase 3 | Terminé | 308 | Qualité de vie comparée : Arimidex (anastrozole) seul vs Nolvadex seul vs combinaison, en adjuvant chez les femmes ménopausées avec cancer du sein |
-| [NCT04964934](https://clinicaltrials.gov/study/NCT04964934) | Phase 3 | Actif, sans recrutement | 315 | AZD9833 (SERD de nouvelle génération) + CDK4/6 inhibiteur vs anastrozole/létrozole + CDK4/6 inhibiteur dans le cancer du sein métastatique HR+/HER2- avec mutation ESR1 — anastrozole utilisé comme bras de référence standard |
-| [NCT02763566](https://clinicaltrials.gov/study/NCT02763566) | Phase 3 | Actif, sans recrutement | 463 | Abemaciclib + NSAI (anastrozole ou létrozole) vs abemaciclib + fulvestrant vs placebo dans le cancer du sein récurrent ou métastatique HR+/HER2- ménopausé |
-| [NCT02441946](https://clinicaltrials.gov/study/NCT02441946) | Phase 2 | Terminé | 224 | neoMONARCH : Abemaciclib + anastrozole vs abemaciclib seul vs anastrozole seul en néoadjuvant pour les femmes ménopausées avec cancer du sein HR+/HER2- |
-| [NCT01723774](https://clinicaltrials.gov/study/NCT01723774) | Phase 2 | Actif, sans recrutement | 84 | Palbociclib + anastrozole en néoadjuvant pour le cancer du sein ER+/HER2- de stade 2–3 — évaluation du taux de réponse pathologique complète vs historique des AI seuls |
-| [NCT01626222](https://clinicaltrials.gov/study/NCT01626222) | Phase 3 | Terminé | 301 | Étude 4EVER : Évérolimus + exémestane chez les patientes en progression après NSAI (classe incluant anastrozole) dans le cancer du sein ER+ localement avancé ou métastatique |
+|---------|------|------|------|---------|
+| [NCT00849030](https://clinicaltrials.gov/study/NCT00849030) | Phase 3 | Terminé | 9358 | Essai randomisé en double aveugle : Arimidex (anastrozole) seul, tamoxifène seul ou association, en adjuvant chez la femme ménopausée |
+| [NCT00053898](https://clinicaltrials.gov/study/NCT00053898) | Phase 3 | Terminé | 3104 | Anastrozole versus tamoxifène pour prévenir la récidive après tumorectomie et radiothérapie pour carcinome canalaire in situ (CCIS) |
+| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | Terminé | 1914 | 6 ans versus 3 ans d'anastrozole adjuvant après 2 à 3 ans de tamoxifène |
+| [NCT00635713](https://clinicaltrials.gov/study/NCT00635713) | Phase 3 | Terminé | 588 | Fulvestrant (deux doses) versus anastrozole 1 mg dans le cancer du sein avancé, sur le délai de progression |
+| [NCT00784680](https://clinicaltrials.gov/study/NCT00784680) | Phase 3 | Terminé | 308 | Qualité de vie sous anastrozole, tamoxifène ou association en adjuvant |
+| [NCT02763566](https://clinicaltrials.gov/study/NCT02763566) | Phase 3 | Actif, non en recrutement | 463 | Inhibiteur non stéroïdien de l'aromatase (anastrozole ou létrozole) avec abémaciclib ou placebo dans le cancer du sein RH+/HER2- avancé |
+| [NCT02441946](https://clinicaltrials.gov/study/NCT02441946) | Phase 2 | Terminé | 224 | Effets biologiques de l'abémaciclib associé à l'anastrozole en néoadjuvant (neoMONARCH) |
+| [NCT00259090](https://clinicaltrials.gov/study/NCT00259090) | Phase 2 | Terminé | 120 | Fulvestrant + anastrozole versus chacun seul avant chirurgie, sur des biomarqueurs antitumoraux |
+| [NCT00542594](https://clinicaltrials.gov/study/NCT00542594) | N/A | Terminé prématurément | 1840 | Cohorte de suivi de la tolérance à long terme de l'anastrozole adjuvant |
+| [NCT04964934](https://clinicaltrials.gov/study/NCT04964934) | Phase 3 | Actif, non en recrutement | 315 | Passage à AZD9833 + inhibiteur de CDK4/6 versus poursuite d'un inhibiteur de l'aromatase (anastrozole ou létrozole) + inhibiteur de CDK4/6 |
 
 ---
 
 ## Preuves de la Littérature
 
+20 publications sont associées à cette indication. Voici les 10 plus pertinentes.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | ECR Phase III | Lancet | Résultats complets de l'essai ATAC (n = 9 366) : anastrozole prolonge la survie sans maladie vs tamoxifène (HR 0,87 ; p < 0,01) avec réduction des cancers controlatéraux et moins d'effets thromboemboliques |
-| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | ECR Phase III (Prévention) | Lancet | IBIS-II suivi long terme : anastrozole réduit de 49 % l'incidence du cancer du sein invasif et DCIS chez les femmes à haut risque, avec bénéfice persistant après arrêt du traitement |
-| [26686313](https://pubmed.ncbi.nlm.nih.gov/26686313/) | 2016 | ECR Phase III | Lancet | IBIS-II DCIS : anastrozole supérieur au tamoxifène pour la prévention des récidives locorégionales et controlatérales chez les femmes ménopausées avec DCIS HR+ (p = 0,03) |
-| [9024711](https://pubmed.ncbi.nlm.nih.gov/9024711/) | 1997 | ECR Phase III | Cancer | Premier essai Phase III d'anastrozole (n = 386) vs acétate de mégestrol en 2e ligne dans le cancer du sein avancé : efficacité comparable avec meilleure tolérance cardio-métabolique |
-| [28415634](https://pubmed.ncbi.nlm.nih.gov/28415634/) | 2017 | Méta-analyse d'ECR | Oncotarget | Méta-analyse comparative anastrozole vs tamoxifène : anastrozole associé à une meilleure survie sans progression, réduction des thromboses veineuses et de l'hyperplasie endométriale |
-| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Revue systématique | Rev Assoc Med Bras | Synthèse des données pharmacocinétiques, pharmacodynamiques et d'efficacité d'anastrozole en chimioprévention et traitement du cancer du sein hormono-sensible |
-| [32701512](https://pubmed.ncbi.nlm.nih.gov/32701512/) | 2020 | Pharmacogénomique (GWAS) | JCI Insight | Étude GWAS de l'essai MA.27 (anastrozole vs exémestane) : SNP dans CSMD1 associé à moins de récidives distantes sous anastrozole via régulation des voies du complément |
-| [34048027](https://pubmed.ncbi.nlm.nih.gov/34048027/) | 2021 | Étude génétique clinique | Clin Pharmacol Ther | Interaction SNP-traitement (n = 4 465) : identification de marqueurs génétiques différenciant l'efficacité adjuvante entre anastrozole et exémestane pour une médecine de précision |
-| [19445563](https://pubmed.ncbi.nlm.nih.gov/19445563/) | 2009 | Revue comparative | Expert Opin Pharmacother | Revue comparative anastrozole, létrozole, exémestane dans le cancer du sein précoce : supériorité cohérente des trois AI vs tamoxifène dans les stratégies initial, switch et extended |
-| [34667110](https://pubmed.ncbi.nlm.nih.gov/34667110/) | 2022 | Étude mécanistique | Mol Cancer Ther | Mécanisme additionnel d'anastrozole : régulation de la synthase des acides gras (FASN) dans le cancer du sein, distinct des autres AI — implications pour la résistance endocrine |
+|------|-----|------|------|---------|
+| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | ECR | Lancet | Essai ATAC (9366 femmes ménopausées) : l'anastrozole prolonge significativement la survie sans maladie par rapport au tamoxifène après 5 ans |
+| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | ECR | Lancet | IBIS-II, résultats à long terme : anastrozole versus placebo en prévention du cancer du sein chez les femmes à haut risque |
+| [26686313](https://pubmed.ncbi.nlm.nih.gov/26686313/) | 2016 | ECR | Lancet | IBIS-II CCIS : anastrozole versus tamoxifène pour prévenir les récidives locorégionales et controlatérales |
+| [9024711](https://pubmed.ncbi.nlm.nih.gov/9024711/) | 1997 | ECR (phase III) | Cancer | Anastrozole (1 et 10 mg) versus acétate de mégestrol chez 386 femmes ménopausées avec cancer avancé après tamoxifène |
+| [28415634](https://pubmed.ncbi.nlm.nih.gov/28415634/) | 2017 | Méta-analyse | Oncotarget | Comparaison de l'efficacité et de la tolérance de l'anastrozole et du tamoxifène en adjuvant |
+| [30499075](https://pubmed.ncbi.nlm.nih.gov/30499075/) | 2020 | Méta-analyse | Pathol Oncol Res | Hormonothérapie du CCIS après chirurgie conservatrice et radiothérapie, dont deux essais comparant tamoxifène et anastrozole |
+| [19445563](https://pubmed.ncbi.nlm.nih.gov/19445563/) | 2009 | Revue | Expert Opin Pharmacother | Comparaison de l'anastrozole, du létrozole et de l'exémestane dans le cancer du sein précoce |
+| [16439860](https://pubmed.ncbi.nlm.nih.gov/16439860/) | 2006 | Revue | Oncology | Rôle de l'anastrozole de la maladie avancée à la maladie précoce et à la prévention |
+| [32701512](https://pubmed.ncbi.nlm.nih.gov/32701512/) | 2020 | Étude de pharmacogénomique | JCI Insight | Polymorphisme de CSMD1 associé aux récidives à distance (essai MA.27) et mécanismes d'action supplémentaires de l'anastrozole |
+| [34667110](https://pubmed.ncbi.nlm.nih.gov/34667110/) | 2022 | Étude de mécanisme | Mol Cancer Ther | Régulation de la synthase des acides gras par l'anastrozole dans le cancer du sein |
+
+---
+
+## Informations de Marché en France
+
+Sur 18 AMM, les 5 principales sont listées. Le texte d'indication approuvée n'est renseigné pour aucune d'elles dans les données reçues.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 69997905 | ANASTROZOLE ARROW 1 mg | Comprimé pelliculé | ARROW GENERIQUES |
+| 68900650 | ANASTROZOLE SUBSTIPHARM 1 mg | Comprimé pelliculé | SUBSTIPHARM |
+| 64163818 | ANASTROZOLE ARROW LAB 1 mg | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) |
+| 67271293 | ANASTROZOLE CRISTERS 1 mg | Comprimé pelliculé | CRISTERS |
+| 63568984 | ANASTROZOLE EVOLUGEN 1 mg | Comprimé pelliculé | EVOLUPHARM |
 
 ---
 
 ## Cytotoxicité
 
+L'anastrozole est un traitement anticancéreux, mais c'est une hormonothérapie et non une chimiothérapie cytotoxique conventionnelle.
+
 | Élément | Contenu |
-|---|---|
-| Classification de Cytotoxicité | Thérapie endocrine ciblée — Inhibiteur de l'Aromatase non stéroïdien de 3e génération (non cytotoxique conventionnel) |
-| Risque de Myélosuppression | Faible (anastrozole n'est pas myélosuppresseur ; absence d'effets hématologiques significatifs de classe) |
-| Classification d'Émétogénicité | Minimale (nausées légères possibles, non classé comme émétisant en oncologie standard) |
-| Éléments de Surveillance | Densité minérale osseuse (DEXA recommandé — risque d'ostéoporose lié à la suppression œstrogénique), bilan hépatique, douleurs articulaires/arthralgie (effet de classe fréquent), bilan lipidique |
-| Protection de Manipulation | Manipulation standard — ne nécessite pas les précautions réservées aux médicaments cytotoxiques conventionnels |
+|------|------|
+| Classification de Cytotoxicité | Hormonothérapie (inhibiteur non stéroïdien de l'aromatase), non cytotoxique conventionnel |
+
+Veuillez consulter les mises en garde et précautions de la notice pour le risque de myélosuppression, l'émétogénicité, la surveillance biologique et les précautions de manipulation.
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité. Les mises en garde et contre-indications de la notice ANSM ne sont pas disponibles dans les données reçues, et aucune interaction médicamenteuse n'a été trouvée.
+
+Les essais associés signalent cependant un point de tolérance propre à la classe des inhibiteurs de l'aromatase : les douleurs articulaires et musculaires (arthralgies-myalgies). L'essai [NCT00688909](https://clinicaltrials.gov/study/NCT00688909) porte sur des patientes ayant arrêté l'anastrozole pour ce motif. L'essai [NCT01896050](https://clinicaltrials.gov/study/NCT01896050) étudie la perte de force de préhension sous inhibiteurs de l'aromatase.
 
 ---
 
@@ -120,14 +140,18 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Anastrozole dispose d'un niveau de preuve L1 exceptionnel, confirmé par de multiples essais de Phase 3 complétés incluant plus de 15 000 patientes (ATAC, IBIS-II, IBIS-II DCIS, essais de durée optimale). Le score TxGNN de 99,68 % est parfaitement cohérent avec le consensus oncologique international ; cette prédiction représente une validation algorithmique d'un usage clinique mondial établi. La principale contrainte opérationnelle est l'absence d'enregistrement local.
+- Plusieurs essais de phase 3 terminés, dont ATAC (9358 patientes incluses) et IBIS-II, soutiennent directement l'usage de l'anastrozole dans le cancer du sein RE+ (niveau L1). Il s'agit d'un traitement établi et commercialisé, donc d'un usage déjà connu plutôt que d'un repositionnement.
+- Le cadre d'usage doit rester la population étudiée, à savoir les femmes ménopausées avec un cancer du sein RE+.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Initiation d'une procédure d'AMM locale (TFDA) ou reconnaissance d'équivalence des AMM internationales existantes (FDA, EMA)
-- Obtention et analyse de la notice locale complète (avertissements TFDA, contre-indications formelles, interactions médicamenteuses)
-- Mise en place d'un plan de surveillance de la densité minérale osseuse (DEXA baseline et suivi annuel) en raison du risque d'ostéoporose lié à la déplétion œstrogénique prolongée
-- Évaluation du profil de tolérance musculo-squelettique dans la population locale (arthralgie, syndrome des douleurs articulaires associées aux AI)
-- Confirmation de la disponibilité de la chaîne d'approvisionnement locale et des modalités de remboursement
+- Vérifier l'enregistrement source (indications d'origine vides) avant de présenter ce résultat comme nouveau.
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), une lacune bloquante pour le dépistage de sécurité.
+- Compléter le mécanisme d'action depuis DrugBank.
+- Renseigner le texte d'indication des AMM françaises.
+
+Les cinq autres prédictions sont en attente (Hold) : neuroblastome, anomalies vertébrales avec dysfonction endocrinienne et lymphocytaire T, ganglioneuroblastome, néoplasme rétropéritonéal et leucémie monocytaire. Elles reposent uniquement sur le modèle (L5), sauf le néoplasme rétropéritonéal (L4). Ce dernier ne repose que sur un cas clinique indirect, et aucun lien mécanistique plausible n'est identifié.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

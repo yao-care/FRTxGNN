@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pilocarpine
-parent: Preuves modérées (L3-L4)
-nav_order: 234
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 237
+evidence_level: L5
 indication_count: 1
 ---
 
 # Pilocarpine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,65 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Pilocarpine : D'une Indication Originale Non Documentée au Glaucome Héréditaire Primitif
+# Pilocarpine : D'une Indication Originale Non Renseignée au Glaucome Héréditaire Primaire
 
 ## Résumé en Une Phrase
 
-Les données sur l'indication d'origine de la pilocarpine (DB01085) sont actuellement absentes de ce dossier de preuves. Le modèle TxGNN prédit que la pilocarpine pourrait être efficace pour le **Glaucome Héréditaire Primitif**, avec un score de confiance très élevé (99,83 %), mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction — il s'agit d'une prédiction computationnelle pure à ce stade.
-
----
+La pilocarpine est un agoniste muscarinique, commercialisé en France sous forme de collyre (Isopto Pilocarpine 2 %). Son indication originale n'est pas renseignée dans les données disponibles.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome héréditaire primaire**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible (aucune donnée d'indication d'origine dans ce dossier) |
-| Nouvelle Indication Prédite | Glaucome Héréditaire Primitif |
+| Indication Originale | Non renseignée (le texte d'indication de l'AMM est vide) |
+| Nouvelle Indication Prédite | Glaucome héréditaire primaire |
 | Score de Prédiction TxGNN | 99,83 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action d'origine (original MOA) ne sont pas disponibles dans ce dossier. Toutefois, le dossier de preuves fournit un rationnel mécanistique spécifique à cette prédiction : la pilocarpine est décrite comme un agoniste cholinergique muscarinique (M3) à action directe, capable de contracter le muscle sphincter de l'iris et le muscle ciliaire, d'ouvrir les espaces du trabéculum, et d'augmenter l'évacuation de l'humeur aqueuse — un mécanisme qui abaisse la pression intra-oculaire (PIO).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la pharmacologie générale, la pilocarpine est un agoniste muscarinique (principalement du récepteur M3). Elle contracte le muscle ciliaire et provoque un myosis. Cela élargit la voie d'écoulement de l'humeur aqueuse par le trabéculum et fait baisser la pression intraoculaire. Ce mécanisme est plausible pour le glaucome en général.
 
-Ce mécanisme correspond directement à la physiopathologie du glaucome, où l'excès de pression intra-oculaire est la cible thérapeutique principale. Le lien mécanistique entre cette voie pharmacologique et le Glaucome Héréditaire Primitif est donc, en théorie, très direct.
+Cette explication vient de la pharmacologie générale et non des données fournies. La pilocarpine est déjà un myotique topique établi pour d'autres types de glaucome. Le score élevé de 0,998 pourrait donc refléter en partie cet usage connu plutôt qu'une découverte nouvelle.
 
-**Point de vigilance important** : ce dossier signale explicitement que l'indication d'origine et le statut de commercialisation de la pilocarpine ne sont pas documentés dans les données actuelles. Or, la pilocarpine est un agent historiquement associé au traitement du glaucome. Si l'indication glaucome existait déjà mais n'a simplement pas été enregistrée dans la base d'indications d'origine, le score TxGNN de 99,83 % pourrait refléter la **redécouverte d'un usage déjà connu**, plutôt qu'une véritable découverte de repositionnement. Cette ambiguïté doit être levée avant toute valorisation scientifique ou commerciale de cette prédiction.
-
----
+L'adéquation mécanistique à ce sous-type est incertaine. Le glaucome héréditaire primaire (congénital) résulte d'anomalies du développement du trabéculum et de l'angle iridocornéen. Sa prise en charge est généralement chirurgicale, et les myotiques ne constituent pas un traitement de première intention.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66997501 | ISOPTO PILOCARPINE 2 POUR CENT, collyre (NOVARTIS PHARMA) | Collyre en solution | Non renseignée |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle TxGNN (stade S1, niveau de preuve L4), sans aucun essai clinique ni publication à l'appui. De plus, un écart bloquant (avertissements/contre-indications réglementaires manquants) empêche toute évaluation de sécurité initiale, et l'incertitude sur l'indication d'origine remet en question la nouveauté réelle de cette prédiction.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Les données de sécurité de la notice ANSM manquent, ce qui empêche le passage à l'étape de dépistage de sécurité. La pertinence mécanistique pour le glaucome héréditaire primaire reste incertaine, car la prise en charge y est surtout chirurgicale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir les avertissements et contre-indications officiels (donnée bloquante DG001)
-- Clarifier si le glaucome fait déjà partie des indications d'origine documentées de la pilocarpine, afin de déterminer s'il s'agit d'un véritable repositionnement ou d'une lacune de données
-- Compléter les données de mécanisme d'action (MOA) officielles (DG002)
-- Rechercher des études précliniques ou de mécanisme spécifiques au Glaucome Héréditaire Primitif pour étayer le lien pharmacologique
+- Télécharger et analyser la notice ANSM (mises en garde et contre-indications)
+- Compléter les données sur le mécanisme d'action (par exemple via l'API DrugBank)
+- Rechercher la littérature et les essais sur les myotiques dans le glaucome congénital, et vérifier si le score reflète un usage déjà établi dans d'autres glaucomes
+- Confirmer l'indication approuvée de l'AMM 66997501
+- Évaluer la compatibilité de la voie d'administration (collyre) et son utilisation en population pédiatrique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

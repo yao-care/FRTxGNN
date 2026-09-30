@@ -2,7 +2,7 @@
 layout: default
 title: Isoflurane
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 156
+nav_order: 159
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,92 +29,71 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Isoflurane : De l'Anesthésie Générale à l'Angine de Prinzmetal
+# Isoflurane : De l'Anesthésie Générale à l'Angor de Prinzmetal
 
 ## Résumé en Une Phrase
 
-Isoflurane est un anesthésique général volatil halogéné, utilisé par inhalation pour l'induction et le maintien de l'anesthésie générale.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Angine de Prinzmetal** (angor vasospastique),
-mais cette direction n'est actuellement soutenue par **aucun essai clinique** ni **aucune publication** — il s'agit d'une prédiction purement algorithmique.
-
----
+L'isoflurane est un anesthésique volatil administré par inhalation, utilisé en anesthésie générale.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Angor de Prinzmetal**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Anesthésie générale par inhalation |
-| Nouvelle Indication Prédite | Angine de Prinzmetal (angor vasospastique) |
-| Score de Prédiction TxGNN | 99.67 % |
+| Nouvelle Indication Prédite | Angor de Prinzmetal |
+| Score de Prédiction TxGNN | 99,67 % (rang 2844) |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 3 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base consultée. Sur la base des informations générales connues, l'isoflurane est un anesthésique général volatil administré par voie inhalée ; son efficacité en anesthésie générale est solidement établie depuis des décennies d'usage clinique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'isoflurane fait partie des anesthésiques volatils, son usage en anesthésie générale est établi, et mécanistiquement il pourrait avoir un lien avec l'angor de Prinzmetal, sans qu'aucune donnée ne le démontre.
 
-Le lien mécanistique proposé entre l'anesthésie générale et l'angine de Prinzmetal repose sur l'effet relaxant de l'isoflurane sur le muscle lisse vasculaire, potentiellement médié par une inhibition des canaux calciques voltage-dépendants et une activation des canaux potassiques ATP-sensibles — des voies qui, en théorie, pourraient s'opposer au spasme coronaire caractéristique de l'angine de Prinzmetal.
+Le seul lien plausible est pharmacologique. Les anesthésiques volatils ont un effet vasodilatateur sur le muscle lisse vasculaire, ce qui pourrait théoriquement concerner le vasospasme coronarien à l'origine de l'angor de Prinzmetal.
 
-Cette hypothèse reste toutefois purement spéculative : elle n'est étayée par aucune donnée animale ou humaine à ce jour. De plus, l'isoflurane est un agent d'anesthésie générale nécessitant un environnement de soins critiques (ventilation contrôlée, monitorage) et n'est pas compatible avec un traitement chronique d'un patient conscient souffrant d'angor vasospastique. La plausibilité biologique est donc faible et la faisabilité clinique très limitée.
-
----
+Ce lien reste spéculatif. L'isoflurane n'a aucun rôle antiangineux établi, et le score très élevé du modèle n'est étayé par aucune donnée clinique ou publiée. Il faut donc le lire comme une hypothèse à vérifier, pas comme un signal d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 61070419 | ISOFLURANE BELAMONT | Liquide pour inhalation par vapeur | Piramal Critical Care (Pays-Bas) |
+| 63498500 | AERRANE | Liquide pour inhalation par vapeur | Baxter |
+| 65849318 | CEDACONDA 100 % V/V | Liquide pour inhalation par vapeur | Sedana Medical (Suède) |
+
+Le texte des indications approuvées n'est pas renseigné dans les données reçues pour ces trois AMM.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Malgré un score de prédiction TxGNN élevé (99.67 %), aucune donnée clinique ni préclinique ne soutient à ce jour l'usage de l'isoflurane dans l'angine de Prinzmetal (niveau de preuve L5). L'absence de mécanisme d'action documenté et l'incompatibilité pratique entre un agent d'anesthésie générale et une prise en charge chronique de l'angor vasospastique justifient une mise en attente.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans rôle antiangineux connu pour un anesthésique général.
+- Les données de sécurité de la notice ANSM manquent, ce qui bloque toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice officielle (RCP/TFDA) de l'isoflurane — actuellement bloquante pour toute évaluation de sécurité (S1)
-- Données détaillées sur le mécanisme d'action (MOA)
-- Études précliniques ciblées sur l'effet vasodilatateur coronaire de l'isoflurane
-- Toute donnée de pharmacovigilance existante liée à un usage cardiovasculaire hors AMM
+- Récupérer et analyser la notice ANSM (mises en garde et contre-indications), étape bloquante.
+- Obtenir les données de mécanisme d'action (MOA) via DrugBank.
+- Faire une recherche bibliographique ciblée sur les anesthésiques volatils et le vasospasme coronarien.
+- Confirmer les indications autorisées des trois AMM.
 
----
+**Remarque :** parmi les autres indications prédites pour l'isoflurane, seules la **migraine** et le **trouble bipolaire maniaque** disposent d'indices indirects, classés L4 (recommandation : question de recherche). Pour la migraine, on trouve des travaux précliniques sur l'inhibition de la dépression corticale envahissante par les anesthésiques inhalés et un cas clinique isolé. Pour la manie, on dispose d'une petite comparaison ouverte datant de 1993 sur l'anesthésie en burst-suppression pour la dépression. Ces éléments ne justifient pas une recommandation, mais ces pistes seraient à étudier avant l'angor de Prinzmetal.
 
-## Annexe : Autres Indications Prédites (Pack Multi-Candidats)
-
-Ce pack d'évidence contient 7 indications prédites pour l'isoflurane. Le tableau ci-dessous les récapitule par ordre de score TxGNN ; deux d'entre elles disposent d'un niveau de preuve supérieur à L5 et méritent une attention particulière pour une évaluation future.
-
-| Rang | Indication Prédite | Score TxGNN | Niveau de Preuve | Décision |
-|------|------|------|------|------|
-| 1 | Angine de Prinzmetal | 99.67 % | L5 | Hold |
-| 2 | Syndrome de Gilles de la Tourette | 99.61 % | L5 | Hold |
-| 3 | Trouble bipolaire, épisode maniaque | 99.57 % | **L3** | Research Question |
-| 4 | Trichotillomanie | 99.54 % | L5 | Hold |
-| 5 | Trouble dysthymique | 99.27 % | L5 | Hold |
-| 6 | Syndrome néphrogénique d'antidiurèse inappropriée | 99.09 % | L5 | Hold |
-| 7 | Migraine | 99.06 % | **L4** | Research Question |
-
-**Points notables :**
-- **Trouble bipolaire (épisode maniaque)** — une étude clinique comparative ouverte (1993, PMID 8462536) a évalué l'anesthésie par isoflurane en burst-suppression face à l'électroconvulsivothérapie (ECT) dans la dépression réfractaire, avec un résultat comparable. Preuve de niveau L3, mais échantillon restreint, ancien, non randomisé.
-- **Migraine** — plusieurs études précliniques convergentes montrent que les anesthésiques inhalés (dont l'isoflurane) suppriment la dépression corticale envahissante (cortical spreading depression), mécanisme central de l'aura migraineuse (notamment PMID 8665587), complétées par un cas clinique d'usage en état de mal migraineux réfractaire. Preuve de niveau L4.
-
-Ces deux pistes disposent d'un fondement mécanistique et/ou clinique nettement plus solide que l'angine de Prinzmetal et pourraient justifier une évaluation dédiée (rapport séparé) si une exploration plus approfondie est souhaitée.
+*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

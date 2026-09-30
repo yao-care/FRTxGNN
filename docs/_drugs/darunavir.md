@@ -2,15 +2,15 @@
 layout: default
 title: Darunavir
 parent: Preuves modérées (L3-L4)
-nav_order: 98
-evidence_level: L3
+nav_order: 100
+evidence_level: L4
 indication_count: 4
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **4** 
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,69 @@ Niveau de preuve: **L3** | Indications prédites: **4**
 
 </div>
 
-# Darunavir : De l'Infection à VIH à l'Infection par le Virus de l'Immunodéficience Simienne
+# Darunavir : Du VIH-1 à l'infection par le virus de l'immunodéficience simienne (SIV)
 
 ## Résumé en Une Phrase
 
-Darunavir est un inhibiteur de protéase du VIH non peptidique, utilisé en association avec un agent de potentialisation pharmacocinétique pour le traitement de l'infection à VIH-1.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Infection par le Virus de l'Immunodéficience Simienne (SIV)**,
-avec **0 essai clinique** et **4 publications scientifiques** (études sur primates non humains) soutenant actuellement cette direction.
+Darunavir est un inhibiteur de protéase du VIH-1, déjà commercialisé en France sous forme de comprimés pelliculés.
+Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par le virus de l'immunodéficience simienne (SIV)**, mais **aucun essai clinique** ne soutient cette direction. Seules **4 publications précliniques** chez le macaque existent, et la présence du darunavir dans les schémas étudiés n'y est pas confirmée.
 
 ---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Infection à VIH-1 (contexte connu ; non enregistré à Taïwan) |
-| Nouvelle Indication Prédite | Infection par le Virus de l'Immunodéficience Simienne (SIV) |
-| Score de Prédiction TxGNN | 99.97% |
-| Niveau de Preuve | L3 |
-| Statut de Marché | ✗ Non commercialisé (Taïwan) |
-| Nombre d'AMM | 0 |
+|------|------|
+| Indication Originale | Non renseignée dans les données ANSM fournies (le texte d'indication des AMM est vide) ; darunavir est un inhibiteur de protéase du VIH-1 |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (SIV) |
+| Score de Prédiction TxGNN | 99,97 % |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 17 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans cette fiche. Sur la base des informations connues, le Darunavir appartient à la classe des inhibiteurs de protéase (IP) du VIH — il se lie au site actif de la protéase virale et bloque le clivage des polyprotéines précurseurs du VIH, empêchant ainsi la formation de virions matures et infectieux.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, darunavir appartient à la classe des inhibiteurs de protéase du VIH-1. Le SIV est le modèle standard du VIH chez le macaque, si bien qu'un mécanisme de type inhibiteur de protéase est plausible.
 
-La prédiction repose sur une homologie structurelle et fonctionnelle entre la protéase du SIV et celle du VIH-1/VIH-2 : les deux enzymes partagent environ 50 à 60 % de similarité de séquence et appartiennent à la même superfamille de protéases virales. Le site actif de la protéase du SIV est suffisamment similaire à celui du VIH-1 pour que le Darunavir puisse s'y lier et inhiber la maturation virale — mécanisme expérimentalement validé dans des modèles primates non humains (PNH) où il est intégré à des protocoles de cART.
-
-Toutefois, il convient de souligner une limite fondamentale : le SIV est un pathogène exclusivement simien, sans application clinique directe chez l'humain. La pertinence de repositionnement dans un cadre thérapeutique humain est donc structurellement limitée — cette prédiction est davantage utile comme modèle préclinique de validation que comme cible d'indication clinique autonome.
+Il faut toutefois relativiser cette prédiction. Les 4 publications disponibles sont des études précliniques chez le macaque portant sur des traitements antirétroviraux combinés. Leurs titres sont tronqués, donc la présence du darunavir dans chaque schéma n'est pas confirmée. Sa contribution propre ne peut pas être isolée de celle des autres molécules. Il s'agit d'un substitut préclinique de l'indication VIH déjà approuvée, et non d'une nouvelle indication humaine.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour cette indication.
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Étude animale (PNH) | PLoS Pathogens | Un régime ART hautement intensifié (incluant darunavir) induit une suppression virale durable et une restriction significative du réservoir viral chez des macaques rhésus infectés par SIVmac251 |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Étude animale (PNH) | PLoS ONE | Évaluation de cART combiné à l'inhibiteur HDAC SAHA chez des macaques rhésus (origine chinoise) infectés par le SIV ; le protocole incluant darunavir supprime efficacement la virémie et réduit les réservoirs viraux |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Étude animale (PNH) | AIDS Res Hum Retroviruses | Évaluation comparative de deux régimes cART co-formulés injectables chez des macaques rhésus infectés par SIVmac239 ; suppression virale atteignant des seuils cliniquement pertinents |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Étude animale (PNH) | AIDS (London) | L'auranofine combinée à un cART (incluant darunavir) limite le réservoir viral dans un modèle de SIDA simien et induit un contrôle de la charge virale après suspension du traitement |
-
-> ⚠️ **Note méthodologique :** L'ensemble des publications identifiées correspond à des études précliniques sur primates non humains (Tier 3). Aucune donnée clinique humaine ni revue systématique n'est disponible pour cette indication spécifique.
+|------|-----|------|------|---------|
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Préclinique (macaque) | AIDS Res Hum Retroviruses | Comparaison de deux schémas antirétroviraux injectables coformulés (dont un « triple schéma » emtricitabine/ténofovir disoproxil) chez des macaques rhésus infectés par SIVmac239 |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Préclinique (macaque) | PLoS One | Traitement antirétroviral combiné intensif associé à l'inhibiteur d'histone désacétylase SAHA chez des macaques rhésus chinois infectés par le SIV, pour étudier les réservoirs viraux |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Préclinique (macaque) | PLoS Pathog | Schéma antirétroviral hautement intensifié : suppression virale durable et restriction du réservoir viral chez des macaques SIVmac251 |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Préclinique (macaque) | AIDS | Association d'un traitement antirétroviral et d'auranofine (composé d'or) : réduction du réservoir viral et contrôle de la charge virale après arrêt du traitement |
 
 ---
 
-## Informations de Marché à Taïwan
+## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché enregistrée pour le Darunavir à Taïwan.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65199404 | DARUNAVIR BIOGARAN 800 mg | Comprimé pelliculé | Non renseignée |
+| 68220711 | DARUNAVIR TEVA 800 mg | Comprimé pelliculé | Non renseignée |
+| 67422090 | DARUNAVIR EG 400 mg | Comprimé pelliculé | Non renseignée |
+| 63124787 | DARUNAVIR VIATRIS 600 mg | Comprimé pelliculé | Non renseignée |
+| 65602549 | DARUNAVIR VIATRIS 800 mg | Comprimé pelliculé | Non renseignée |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice officielle (FDA/EMA) pour les informations complètes de sécurité, mises en garde et contre-indications.
+Veuillez consulter la notice pour les informations de sécurité.
 
 ---
 
@@ -99,13 +100,15 @@ Veuillez consulter la notice officielle (FDA/EMA) pour les informations complèt
 **Décision : Hold**
 
 **Justification :**
-Le lien mécanistique entre le Darunavir et l'infection à SIV est scientifiquement plausible (homologie protéase SIV/VIH 50–60 %), soutenu par 4 études animales PNH de qualité modérée. Cependant, le SIV est un pathogène exclusivement simien — il n'existe pas d'indication clinique humaine directement dérivable de cette prédiction, ce qui limite structurellement son intérêt de repositionnement dans un cadre thérapeutique humain.
+- La prédiction repose sur des études précliniques chez le macaque, sans essai clinique ni démonstration de l'activité propre du darunavir. Il s'agit d'un substitut de l'indication VIH déjà connue, sans indication humaine nouvelle.
+- Les autres prédictions du modèle (syndrome d'immunodéficience acquise féline, trouble neurodéveloppemental rare, hyperlipidémie familiale combinée obsolète) sont encore moins étayées. Elles sont en L4 ou L5 et semblent liées à des artefacts du graphe de connaissances. Pour l'hyperlipidémie, la relation est plutôt un risque, car les inhibiteurs de protéase sont associés à des dyslipidémies.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Clarifier l'objectif stratégique : si la cible est un modèle préclinique pour l'éradication du VIH, cette indication est pertinente ; si la cible est une nouvelle indication humaine, il convient de rediriger l'analyse vers d'autres prédictions
-- Récupérer les données complètes de mécanisme d'action via DrugBank API (DG002)
-- Obtenir les notices TFDA/FDA/EMA pour les informations de sécurité (DG001)
-- Examiner les prédictions alternatives de rang 2–4 pour identifier une cible à plus forte valeur clinique humaine (en particulier, écarter la prédiction « feline AIDS » — artefact de mapping pipeline — et investiguer les liens métaboliques avec la dyslipidémie)
+- Notice ANSM (mises en garde et contre-indications), obligatoire avant toute évaluation de sécurité
+- Données détaillées sur le mécanisme d'action (MOA), par exemple via l'API DrugBank
+- Texte des indications approuvées des AMM françaises, pour confirmer l'indication originale
+- Vérification du texte intégral des 4 publications pour établir si le darunavir figurait dans les schémas testés
+- Données d'activité du darunavir sur la protéase du SIV, en études précliniques dédiées
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

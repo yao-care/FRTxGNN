@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Allopurinol
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 25
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 26
+evidence_level: L4
 indication_count: 10
 ---
 
 # Allopurinol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# ALLOPURINOL : Rapport Préliminaire d'Évaluation de Repositionnement
+# Allopurinol : Vers la Porphyrie Hépatique (indication originale non renseignée)
 
 ## Résumé en Une Phrase
 
-L'allopurinol (DrugBank : DB00437) est un inhibiteur de la xanthine oxydase largement utilisé dans le monde pour le traitement de la goutte et de l'hyperuricémie. Le modèle TxGNN **n'a pas encore généré de prédiction d'indication nouvelle** pour ce médicament. Ce rapport constitue une évaluation préliminaire ; les données sont actuellement **insuffisantes** pour avancer dans le processus de repositionnement.
+L'allopurinol est un inhibiteur de la xanthine oxydase, commercialisé en France sous forme de comprimés. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **porphyrie hépatique**, mais **aucun essai clinique** ne le confirme et seules **2 publications** indirectes (une hypothèse et une étude chez le rat) existent. Le sens de l'effet, bénéfice ou aggravation de la porphyrie, reste non tranché.
 
 ---
 
@@ -41,51 +41,55 @@ L'allopurinol (DrugBank : DB00437) est un inhibiteur de la xanthine oxydase larg
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans le pack de données (connue : goutte / hyperuricémie) |
-| Nouvelle Indication Prédite | — Aucune prédiction disponible — |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | L5 (aucune étude associée à une indication prédite) |
-| Statut de Marché en France | ✗ Non commercialisé (données TFDA : Not marketed) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+| Nouvelle Indication Prédite | Porphyrie hépatique |
+| Score de Prédiction TxGNN | 99,95 % |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
+| Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le pack de données fourni. Sur la base des informations pharmacologiques connues, l'allopurinol est un **inhibiteur de la xanthine oxydase** qui réduit la production d'acide urique en bloquant la conversion de l'hypoxanthine en xanthine, puis de la xanthine en acide urique. Ce mécanisme est bien établi dans le traitement de la goutte, de l'hyperuricémie et de la prévention de la néphropathie uratique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. L'allopurinol est un inhibiteur de la xanthine oxydase et n'a aucun mécanisme établi pour traiter la porphyrie. Le lien avec cette maladie repose uniquement sur des éléments indirects et non cliniques, liés au métabolisme de l'hème.
 
-Cependant, **aucune indication nouvelle n'a été prédite par le modèle TxGNN** dans le cadre de cette analyse. L'absence de prédiction peut être liée à un manque de données d'entrée dans le graphe de connaissances, ou au fait que les indications connues de l'allopurinol couvrent déjà les connexions identifiées par le modèle. Une mise à jour des données d'entrée (notamment le mécanisme d'action détaillé et les cibles moléculaires) est nécessaire avant de relancer l'analyse prédictive.
+Une publication de 2019 propose, sous forme d'hypothèse, de cibler l'enzyme 5-ALAS (limitante dans la synthèse de l'hème) pour traiter les porphyries hépatiques aiguës. Une étude chez le rat (1992) montre comment un autre médicament, la carbamazépine, aggrave la porphyrie en perturbant l'utilisation de l'hème. Les résumés fournis ne montrent pas de test direct de l'allopurinol dans ces travaux. Selon l'analyse du dossier, la littérature préclinique suggère seulement qu'il pourrait modifier le renouvellement de l'hème hépatique. Cela pourrait être bénéfique comme porphyrinogène, ce qui est un risque.
+
+Le score TxGNN élevé est donc une prédiction du modèle, sans confirmation expérimentale ou clinique.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement (aucune indication prédite disponible).
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement (aucune indication prédite disponible).
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hypothèse / Revue | Medical hypotheses | Propose de cibler la 5-ALAS hépatique, via le tryptophane ou l'inhibition de l'utilisation de l'hème par la tryptophane 2,3-dioxygénase, comme piste thérapeutique des porphyries hépatiques aiguës |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Préclinique (rat) | Biochemical pharmacology | La carbamazépine, même à très faible dose, aggrave la perte d'hème utilisé par la tryptophane pyrrolase dans le foie de rat, ce qui éclaire le mécanisme d'aggravation des porphyries par certains médicaments |
 
 ---
 
 ## Informations de Marché en France
 
-Aucune AMM enregistrée dans la base de données consultée. L'allopurinol ne dispose pas de licence sur le marché référencé (TFDA — 0 licence).
-
-> **Note :** L'allopurinol est commercialisé dans de nombreux pays sous différentes marques (Zyloric®, Zyloprim®, etc.). L'absence de données dans ce rapport reflète uniquement le périmètre de la source réglementaire interrogée (TFDA).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 63215258 | ALLOPURINOL SUN 300 mg, comprimé | Comprimé | SUN PHARMA FRANCE |
+| 61060033 | ALLOPURINOL ZENTIVA 100 mg, comprimé | Comprimé | ZENTIVA FRANCE |
+| 66363543 | ALLOPURINOL SANDOZ 100 mg, comprimé | Comprimé | SANDOZ |
+| 64661021 | ALLOPURINOL ARROW LAB 100 mg, comprimé | Comprimé | ARROW GENERIQUES |
+| 69235513 | ALLOPURINOL CRISTERS 100 mg, comprimé | Comprimé | CRISTERS |
 
 ---
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
-> **Rappel important :** Deux lacunes de données critiques ont été identifiées :
-> - **Sévérité Bloquante** — Les mises en garde et contre-indications de la notice (仿單警語/禁忌) ne sont pas disponibles. Cette lacune empêche l'entrée en Phase S1 (évaluation initiale de sécurité).
-> - **Sévérité Élevée** — Le mécanisme d'action (MOA) détaillé n'est pas renseigné, ce qui affecte l'analyse de corrélation mécanistique.
 
 ---
 
@@ -94,14 +98,16 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-Aucune indication nouvelle n'a été prédite par le modèle TxGNN pour l'allopurinol. De plus, deux lacunes de données critiques (mises en garde/contre-indications et mécanisme d'action) empêchent toute progression dans le processus d'évaluation.
+- Aucun essai clinique n'existe et la littérature est indirecte, sans test direct de l'allopurinol dans la porphyrie. La direction de l'effet (bénéfice ou aggravation) n'est pas établie.
+- Les autres prédictions du classement (thrombose porte primitive, hépatopulmonaire, myopathies inflammatoires, etc.) sont toutes de niveau L5 et sans preuve : elles restent également en Hold.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Compléter les données de mécanisme d'action (MOA) via l'API DrugBank (cibles : xanthine oxydase, voies des purines)
-- Obtenir et analyser la notice (仿單) pour extraire les mises en garde, contre-indications et effets indésirables
-- Relancer la prédiction TxGNN avec les données d'entrée complétées (MOA, cibles moléculaires, profil pharmacologique)
-- Vérifier le statut réglementaire sur d'autres marchés de référence (EMA, FDA) pour enrichir le profil du médicament
-- Renseigner les indications originales approuvées dans le pack de données
+- Données sur le mécanisme d'action de l'allopurinol (à obtenir via DrugBank)
+- Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
+- Données précliniques ou cliniques évaluant directement l'allopurinol dans la porphyrie, en particulier son risque porphyrinogène éventuel
+- Précision de l'indication originale approuvée, absente des AMM fournies
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

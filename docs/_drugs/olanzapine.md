@@ -2,7 +2,7 @@
 layout: default
 title: Olanzapine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 218
+nav_order: 221
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,104 +29,76 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Olanzapine : D'un Antipsychotique Établi à Trois Pistes de Repositionnement Psychiatrique
+# Olanzapine : Vers le Torticolis Paroxystique Bénin du Nourrisson (prédiction TxGNN)
 
 ## Résumé en Une Phrase
 
-Olanzapine est un antipsychotique déjà utilisé en clinique (association fixe avec la fluoxétine dans la dépression résistante, augmentation dans le trouble panique), pour lequel les données d'indication d'origine et de mécanisme d'action ne sont pas disponibles dans ce dossier. Le modèle TxGNN identifie **3 pistes de repositionnement** — torticollis paroxystique bénin du nourrisson, agoraphobie et trouble dysthymique — avec une force de preuve très inégale : **0 essai clinique dédié** et **12 publications** au total, concentrées sur l'agoraphobie et la dysthymie.
+L'olanzapine est un médicament commercialisé en France (20 AMM), mais les données disponibles ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **torticolis paroxystique bénin du nourrisson**, un trouble pédiatrique rare et spontanément résolutif.
+Cette prédiction n'est soutenue par **aucun essai clinique** ni **aucune publication** : elle repose uniquement sur le score du modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans ce dossier (classe : antipsychotique) |
-| Statut de Marché en France | Non commercialisé (0 AMM enregistrée) |
-| Nombre d'AMM | 0 |
+| Nouvelle Indication Prédite | Torticolis paroxystique bénin du nourrisson |
+| Score de Prédiction TxGNN | 99,54 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
+| Décision Recommandée | Hold |
 
-### Comparatif des Indications Prédites
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-| Indication Prédite | Score TxGNN | Niveau de Preuve | Essais Cliniques | Publications | Décision |
-|---|---|---|---|---|---|
-| Agoraphobie | 99.47% | L3 | 0 | 7 | Research Question |
-| Trouble Dysthymique | 99.28% | L4 | 0 | 5 | Hold |
-| Torticollis Paroxystique Bénin du Nourrisson | 99.54% | L5 | 0 | 0 | Hold |
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. L'analyse s'appuie sur le profil pharmacologique connu de l'olanzapine, un antagoniste des récepteurs D2, 5-HT2A, H1 et muscariniques.
 
----
+Le torticolis paroxystique bénin du nourrisson est un trouble rare, apparenté au spectre de la migraine et associé à des canalopathies (par exemple des variants de *CACNA1A*). Aucun lien mécanistique entre l'action de l'olanzapine et cette maladie n'est étayé par les données fournies. Le score élevé du modèle (0,995) reflète une association dans le graphe de connaissances, pas une preuve biologique ou clinique.
 
-## Pourquoi Ces Prédictions Sont-elles Raisonnables ?
-
-Les données détaillées sur le mécanisme d'action (MOA) de l'olanzapine ne sont pas disponibles dans ce dossier. Sur la base des informations connues issues de la littérature associée, l'olanzapine est un **antipsychotique** dont l'association fixe avec la fluoxétine (Symbyax) est déjà approuvée dans la dépression majeure résistante au traitement, ce qui offre un point d'ancrage mécanistique indirect pour explorer d'autres troubles de l'humeur et anxieux.
-
-**Agoraphobie (L3) :** l'antagonisme 5-HT2A/D2 et l'effet sédatif antihistaminique de l'olanzapine sont déjà utilisés en pratique comme traitement d'appoint (augmentation) dans le trouble panique résistant au traitement. L'agoraphobie étant fréquemment comorbide du trouble panique, la littérature disponible porte surtout sur le trouble panique plutôt que sur un diagnostic isolé d'agoraphobie — une extension mécanistique plausible mais non spécifique.
-
-**Trouble dysthymique (L4) :** le support mécanistique reste indirect (via Symbyax dans la dépression résistante). Une seule étude ouverte concerne des patients avec trouble de la personnalité borderline et dysthymie *comorbide* (non un diagnostic principal de dysthymie) ; le reste de la littérature correspond à des revues ou à des travaux portant sur une molécule différente (amisulpride).
-
-**Torticollis paroxystique bénin du nourrisson (L5) :** aucun essai clinique ni aucune littérature ne soutient cette piste. Il s'agit d'un trouble vestibulaire auto-limitant du nourrisson, sans lien mécanistique plausible avec un antipsychotique qui présente par ailleurs des réserves de sécurité connues chez l'enfant. Cette association provient uniquement du graphe de connaissances TxGNN, sans validation externe.
-
----
+Il faut donc considérer cette prédiction comme une hypothèse à explorer, pas comme une piste thérapeutique établie. Le profil de sécurité de l'olanzapine chez le nourrisson (sédation, effets métaboliques et extrapyramidaux) constitue en outre un frein important.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement, pour les trois indications prédites (agoraphobie, trouble dysthymique, torticollis paroxystique bénin du nourrisson).
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-### Agoraphobie (7 publications)
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [16415705](https://pubmed.ncbi.nlm.nih.gov/16415705/) | 2006 | Essai ouvert (12 semaines) | Journal of Clinical Psychopharmacology | Augmentation par olanzapine (5 mg/j) chez 31 patients avec trouble panique résistant aux ISRS, avec ou sans agoraphobie |
-| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Revue | Expert Opinion on Pharmacotherapy | Revue systématique sur le trouble panique résistant au traitement, environ un tiers des patients restant symptomatiques |
-| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2025 | Revue | Psychotherapy and Psychosomatics | Revue intégrative des options pharmacologiques, psychothérapeutiques et neurostimulatoires dans les troubles anxieux résistants |
-| [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Étude de cohorte | Journal of Affective Disorders | Impact des troubles anxieux comorbides (dont l'agoraphobie) sur l'évolution à 24 mois du trouble bipolaire de type I |
-| [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Rapport de cas | American Journal of Psychiatry | Association clinique entre olanzapine et crises de panique (résumé non disponible) |
-| [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Rapport de cas | Pharmacopsychiatry | Rémission complète d'un trouble panique réfractaire sous olanzapine + paroxétine associées |
-| [17099612](https://pubmed.ncbi.nlm.nih.gov/17099612/) | 2006 | Rapport de cas | Psychiatria Danubina | Trouble panique avec agoraphobie comorbide d'une psychose, traité avec succès par TCC |
-
-### Trouble Dysthymique (5 publications)
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Revue systématique (Cochrane) | Cochrane Database of Systematic Reviews | Antipsychotiques de seconde génération en association dans la dépression majeure et la dysthymie |
-| [10578457](https://pubmed.ncbi.nlm.nih.gov/10578457/) | 1999 | Essai ouvert | Biological Psychiatry | Essai ouvert d'olanzapine chez des patients avec trouble borderline et dysthymie comorbide |
-| [22938165](https://pubmed.ncbi.nlm.nih.gov/22938165/) | 2012 | Revue | Bipolar Disorders | Options fondées sur les preuves pour le trouble bipolaire résistant au traitement chez l'adulte |
-| [11920152](https://pubmed.ncbi.nlm.nih.gov/11920152/) | 2002 | Revue narrative | Molecular Psychiatry | Benzamides substitués et leur potentiel dans la dysthymie et les symptômes négatifs de la schizophrénie |
-| [34727399](https://pubmed.ncbi.nlm.nih.gov/34727399/) | 2021 | Revue systématique (molécule différente : amisulpride) | Human Psychopharmacology | Méta-analyse de l'amisulpride sur les symptômes dépressifs, non spécifique à l'olanzapine |
-
-### Torticollis Paroxystique Bénin du Nourrisson
-
 Aucune littérature associée disponible actuellement.
-
----
 
 ## Informations de Marché en France
 
-L'olanzapine n'est pas commercialisée en France selon ce dossier (0 AMM active enregistrée).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 65448204 | OLANZAPINE SANDOZ 5 mg | Comprimé orodispersible | SANDOZ |
+| 61779406 | OLANZAPINE ARROW 20 mg | Comprimé orodispersible | ARROW GENERIQUES |
+| 65000788 | ZYPADHERA 300 mg | Poudre et solvant pour suspension injectable à libération prolongée | CHEPLAPHARM REGISTRATION (Allemagne) |
+| 61435661 | OLANZAPINE VIATRIS 15 mg | Comprimé orodispersible | VIATRIS SANTE |
+| 62113318 | OLANZAPINE TEVA 10 mg | Comprimé pelliculé | TEVA (Pays-Bas) |
 
----
+Le texte des indications approuvées n'est pas renseigné pour ces AMM.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
----
+L'analyse de repositionnement signale toutefois des préoccupations chez le nourrisson : sédation, effets métaboliques et effets extrapyramidaux. Aucune interaction médicamenteuse n'a été retrouvée dans la base interrogée.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision Globale : Hold**
+**Décision : Hold**
 
 **Justification :**
-- Aucune des trois pistes ne dépasse le stade S2 (Recherche de piste) ; aucun essai clinique dédié n'existe pour ces indications.
-- L'agoraphobie (L3) est la piste la plus étayée, portée par un essai ouvert positif dans le trouble panique/agoraphobie comorbide — elle mérite d'être suivie comme question de recherche, mais pas encore une décision d'avancement.
-- La dysthymie (L4) et le torticollis paroxystique bénin du nourrisson (L5) manquent de fondement mécanistique ou clinique direct ; ce dernier soulève en outre une réserve de sécurité pédiatrique.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique documenté.
+- Le profil de risque de l'olanzapine chez le nourrisson, pour une maladie bénigne et spontanément résolutive, ne justifie pas d'aller plus loin en l'état.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications TFDA/ANSM (donnée bloquante, actuellement indisponible — nécessaire avant toute évaluation de sécurité S1)
-- Mécanisme d'action détaillé (MOA) de l'olanzapine
-- Un essai contrôlé randomisé ciblant spécifiquement l'agoraphobie (au-delà du trouble panique comorbide) pour faire progresser cette piste au-delà de L3
-- Clarification du statut réglementaire réel en France (les données actuelles indiquent 0 AMM, à vérifier compte tenu de la commercialisation connue de l'olanzapine dans d'autres marchés)
+- Obtenir les mises en garde et contre-indications de la notice ANSM, qui manquent et bloquent l'évaluation de sécurité.
+- Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
+- Rechercher des données précliniques ou physiopathologiques reliant l'olanzapine aux canalopathies ou à la migraine pédiatrique.
+- Évaluer la compatibilité des voies d'administration et des formes pharmaceutiques avec un usage pédiatrique.
+
+**Autres pistes du même médicament :** le modèle prédit aussi l'**agoraphobie** (score 99,47 %) et le **trouble dysthymique** (score 99,28 %). Toutes deux sont au niveau de preuve L3, avec la mention « Research Question ». Elles reposent sur des études ouvertes, des cas cliniques et des revues systématiques, sans essai randomisé ni essai enregistré. Elles sont mieux documentées que la prédiction principale et méritent une évaluation séparée.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

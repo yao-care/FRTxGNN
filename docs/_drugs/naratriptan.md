@@ -2,15 +2,15 @@
 layout: default
 title: Naratriptan
 parent: Preuves modérées (L3-L4)
-nav_order: 207
-evidence_level: L3
+nav_order: 210
+evidence_level: L4
 indication_count: 3
 ---
 
 # Naratriptan
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,78 +33,75 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 ## Résumé en Une Phrase
 
-Naratriptan est un agoniste sélectif des récepteurs 5-HT1B/1D de la classe des triptans, dont l'efficacité dans le traitement aigu de la migraine est bien documentée dans la littérature. Le modèle TxGNN prédit qu'il pourrait être pertinent pour la **Migraine avec Aura du Tronc Cérébral** (migraine with brainstem aura), avec un score de prédiction de **99.98%**, mais cette direction n'est actuellement soutenue par **aucun essai clinique dédié** — seulement **19 publications**, dont aucune ne porte spécifiquement sur ce sous-type.
-
----
+Naratriptan est un triptan (agoniste des récepteurs 5-HT1B/1D), utilisé dans le traitement de la crise de migraine. Le texte d'indication de l'AMM française n'est pas renseigné dans le dossier. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais **aucun essai clinique** et **19 publications** portant sur la migraine en général, et non sur ce sous-type, sont associés à cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (traitement aigu de la crise) |
-| Nouvelle Indication Prédite | Migraine avec Aura du Tronc Cérébral |
-| Score de Prédiction TxGNN | 99.98% |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données ANSM (migraine d'après la littérature) |
+| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
+| Score de Prédiction TxGNN | 99,98 % |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le mécanisme d'action détaillé de naratriptan n'est pas disponible dans les données structurées de ce dossier (donnée manquante). Cependant, les preuves collectées permettent d'établir que naratriptan est un agoniste sélectif des récepteurs sérotoninergiques 5-HT1B/1D, agissant par vasoconstriction intracrânienne et par inhibition de la libération de médiateurs inflammatoires au niveau du système trigémino-vasculaire — un mécanisme classique de la classe des triptans, dont l'efficacité dans la migraine aiguë est largement établie (comparaisons avec sumatriptan, usage en prophylaxie de courte durée de la migraine menstruelle, usage pédiatrique et adolescent).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des connaissances pharmacologiques générales, le naratriptan est un agoniste 5-HT1B/1D. Il provoque une vasoconstriction crânienne et inhibe la libération de neuropeptides trigéminaux (dont le CGRP), ce qui correspond à la physiopathologie de la migraine.
 
-La migraine avec aura du tronc cérébral (anciennement dénommée « migraine de type basilaire ») est un sous-type spécifique de migraine, associé à des symptômes évoquant une origine du tronc cérébral ou de la circulation vertébro-basilaire. Sur le plan physiopathologique général, elle partage avec la migraine classique la voie trigémino-vasculaire ciblée par les triptans, ce qui rend l'hypothèse mécanistique de TxGNN plausible en première approche.
+Le score TxGNN élevé reflète très probablement l'association déjà connue entre ce médicament et la migraine. Les publications fournies portent sur la migraine au sens large (traitement de la crise, prophylaxie de la migraine cataméniale, comparaison avec le sumatriptan) et non sur le sous-type avec aura du tronc cérébral.
 
-Toutefois, ce sous-type fait l'objet d'une **mise en garde particulière** : en raison d'un risque théorique d'aggravation de la vasoconstriction au niveau du tronc cérébral, les triptans — dont naratriptan — restent listés comme **contre-indication relative** dans l'étiquetage américain (FDA) et dans les recommandations IHS 2024. Aucune des publications recensées n'a spécifiquement inclus ou étudié ce sous-type ; l'évidence disponible provient exclusivement d'études sur la migraine en général. La plausibilité mécanistique existe donc, mais elle n'est pas confirmée cliniquement pour ce sous-type précis, et elle s'accompagne d'un signal de prudence documenté.
-
----
+**Point de vigilance :** les notices des triptans déconseillent ou contre-indiquent classiquement leur usage dans la migraine de type basilaire ou du tronc cérébral, en raison du risque théorique de vasoconstriction. L'efficacité et la sécurité du naratriptan dans ce sous-type précis ne sont donc pas établies par les données disponibles.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement (0 résultat sur ClinicalTrials.gov et ICTRP pour le couple naratriptan / migraine avec aura du tronc cérébral).
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [10972634](https://pubmed.ncbi.nlm.nih.gov/10972634/) | 2000 | ECR | Clinical Therapeutics | Comparaison naratriptan vs sumatriptan sur le taux de récurrence céphalique chez des patients migraineux sujets à la récidive |
-| [11264684](https://pubmed.ncbi.nlm.nih.gov/11264684/) | 2001 | ECR | Headache | Essai randomisé en double aveugle contre placebo : naratriptan 1 mg et 2,5 mg en prophylaxie courte de la migraine menstruelle |
-| [10961768](https://pubmed.ncbi.nlm.nih.gov/10961768/) | 2000 | ECR | Cephalalgia | Naratriptan administré en phase prodromique pour prévenir la survenue de la crise migraineuse |
-| [12752749](https://pubmed.ncbi.nlm.nih.gov/12752749/) | 2003 | ECR (analyse post-hoc) | Headache | Analyse démographique des adolescents migraineux dans la base d'essais cliniques Glaxo Wellcome |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revue/Guideline | Headache | Évaluation de référence (American Headache Society) des thérapies pharmacologiques du traitement aigu de la migraine |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohorte/ré-analyse | Neurology | Efficacité réduite du sumatriptan dans la migraine avec aura par rapport à la migraine sans aura — donnée la plus proche du sous-type ciblé |
-| [27910087](https://pubmed.ncbi.nlm.nih.gov/27910087/) | 2017 | Revue | Headache | Revue des options thérapeutiques pour la migraine menstruelle |
-| [17578540](https://pubmed.ncbi.nlm.nih.gov/17578540/) | 2007 | Étude ouverte (tolérance à long terme) | Headache | Tolérance à long terme de naratriptan en usage intermittent pour la prévention de la migraine menstruelle |
-| [15926020](https://pubmed.ncbi.nlm.nih.gov/15926020/) | 2005 | Étude pilote ouverte | Neurological Sciences | Efficacité et tolérabilité de naratriptan en prophylaxie courte de la migraine menstruelle pure |
-| [23877022](https://pubmed.ncbi.nlm.nih.gov/23877022/) | 2014 | Rapport de cas | Brain & Development | Naratriptan efficace sur des céphalées migraineuses intraitables avec aura visuelle chez un patient atteint du syndrome de Sturge-Weber |
+| [10972634](https://pubmed.ncbi.nlm.nih.gov/10972634/) | 2000 | ECR | Clin Ther | Naratriptan vs sumatriptan (croisé, double aveugle) : incidence de récidive de la céphalée chez des patients sujets aux récidives |
+| [10961768](https://pubmed.ncbi.nlm.nih.gov/10961768/) | 2000 | ECR | Cephalalgia | Naratriptan administré pendant le prodrome pour prévenir la céphalée migraineuse |
+| [11264684](https://pubmed.ncbi.nlm.nih.gov/11264684/) | 2001 | ECR | Headache | Naratriptan 1 mg et 2,5 mg deux fois par jour vs placebo en prophylaxie de courte durée de la migraine cataméniale |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revue | Headache | Évaluation par l'American Headache Society des preuves sur les traitements de la crise migraineuse chez l'adulte |
+| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohorte | Neurology | Efficacité réduite du sumatriptan dans la migraine avec aura par rapport à la migraine sans aura |
+| [15926020](https://pubmed.ncbi.nlm.nih.gov/15926020/) | 2005 | Étude pilote ouverte | Neurol Sci | Efficacité et tolérance du naratriptan en prophylaxie de courte durée de la migraine cataméniale pure |
+| [17578540](https://pubmed.ncbi.nlm.nih.gov/17578540/) | 2007 | Étude ouverte | Headache | Tolérance à long terme du naratriptan en prévention intermittente de la migraine cataméniale |
+| [23877022](https://pubmed.ncbi.nlm.nih.gov/23877022/) | 2014 | Rapport de cas | Brain Dev | Amélioration de céphalées migraineuses réfractaires par le naratriptan chez un patient atteint du syndrome de Sturge-Weber (aura visuelle prévenue par la lamotrigine) |
+| [14511276](https://pubmed.ncbi.nlm.nih.gov/14511276/) | 2003 | Revue | Headache | Prise en charge de la migraine rebelle par le naratriptan |
+| [27910087](https://pubmed.ncbi.nlm.nih.gov/27910087/) | 2017 | Revue | Headache | Options thérapeutiques dans la migraine cataméniale |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 67586588 | NARAMIG 2,5 mg, comprimé pelliculé (GLAXOSMITHKLINE) | Comprimé pelliculé | Non renseignée dans les données |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité (aucune donnée structurée de mises en garde, contre-indications ou interactions médicamenteuses n'est disponible dans ce dossier).
+Veuillez consulter la notice pour les informations de sécurité. Le dossier ne contient ni mises en garde, ni contre-indications, ni interactions médicamenteuses renseignées pour le naratriptan.
 
-**Point d'attention important** (issu de l'analyse de rationalisation, et non des champs de sécurité formels) : les triptans, dont naratriptan, restent une **contre-indication relative** pour la migraine avec aura du tronc cérébral dans l'étiquetage FDA et les recommandations IHS 2024, en raison d'un risque théorique d'aggravation de la vasoconstriction du tronc cérébral. Ce point doit être vérifié en priorité avant toute exploration clinique.
-
----
+Comme indiqué plus haut, la classe des triptans est traditionnellement déconseillée dans la migraine basilaire ou du tronc cérébral. Ce point doit être vérifié dans la notice ANSM avant toute progression.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le score TxGNN est très élevé (99.98%), mais aucun essai clinique n'existe spécifiquement pour ce sous-type de migraine, et la littérature disponible porte uniquement sur la migraine en général. Par ailleurs, un signal de prudence explicite existe (contre-indication relative FDA/IHS 2024) pour ce sous-type précis, ce qui empêche une progression sans données de sécurité dédiées.
+- La prédiction repose surtout sur le lien général entre le naratriptan et la migraine. Aucune donnée ne concerne la migraine avec aura du tronc cérébral, et la mise en garde de classe sur ce sous-type soulève une question de sécurité non résolue.
+- Les informations de sécurité de la notice ANSM manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir le RCP/notice TFDA de naratriptan (donnée bloquante DG001) pour l'évaluation de sécurité S1
-- Compléter les données détaillées du mécanisme d'action (DG002)
-- Identifier ou initier des études (essais cliniques, séries de cas) portant spécifiquement sur la migraine avec aura du tronc cérébral
-- Réaliser une évaluation neurologique du rapport bénéfice/risque vasculaire avant toute exploration clinique supplémentaire
-- En cas de progression, exclure les patients présentant un risque vasculaire cérébral connu (garde-fous)
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, notamment sur la migraine basilaire ou hémiplégique)
+- Récupérer les données détaillées sur le mécanisme d'action via DrugBank
+- Rechercher des données cliniques ou des rapports de cas spécifiques à la migraine avec aura du tronc cérébral, et évaluer le rapport bénéfice/risque vasculaire
+
+**Autres prédictions :** l'atrophodermie vermiculée (score 99,74 %) et l'ulérythème ophryogène (score 99,47 %) sont classées L5 et en Hold. Aucun lien mécanistique plausible ni aucune donnée clinique ou bibliographique ne les soutiennent, et elles ne justifient pas d'investigation à ce stade.
+
+*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

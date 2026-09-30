@@ -2,7 +2,7 @@
 layout: default
 title: Modafinil
 parent: Preuves modérées (L3-L4)
-nav_order: 199
+nav_order: 202
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,82 +29,100 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Modafinil : De l'Hypersomnolence (Narcolepsie/SAOS) à l'Insomnie
+# Modafinil : De la somnolence diurne excessive à l'insomnie
 
 ## Résumé en Une Phrase
 
-Modafinil est un agent favorisant l'éveil (eugeroïque), utilisé cliniquement contre l'hypersomnolence excessive (narcolepsie, apnée obstructive du sommeil, trouble du sommeil lié au travail posté) ; il n'est pas commercialisé en France selon les données disponibles. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Insomnie**, avec **29 essais cliniques** et **19 publications** recensés — mais l'analyse mécanistique suggère que cette direction est pharmacologiquement contradictoire (un agent de l'éveil pour traiter un trouble nécessitant sédation), ce qui justifie une recommandation de prudence.
+Le modafinil est un agent éveillant utilisé contre la somnolence diurne excessive, notamment dans la narcolepsie. Le texte d'indication de l'ANSM n'étant pas renseigné dans les données reçues, cette indication d'origine s'appuie sur la pharmacologie générale.
+Le modèle TxGNN le prédit comme potentiellement efficace dans l'**insomnie**, avec un score élevé (99,85 %) mais **un seul essai clinique testant directement le modafinil dans l'insomnie** (sans résultats disponibles), parmi 29 essais et 19 publications retrouvés, tous indirects.
+Le mécanisme rend cette prédiction peu plausible : l'insomnie est un effet indésirable connu du modafinil, ce qui conduit à une décision **Hold**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypersomnolence (narcolepsie, SAOS, trouble du sommeil lié au travail posté) — non documenté via AMM françaises, source : rationale mécanistique du pack |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99.85% |
+| Score de Prédiction TxGNN | 99,85 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 8 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Modafinil est un agent promoteur de l'éveil dont le mécanisme implique l'activation des voies histaminergiques et dopaminergiques de l'hypothalamus. Son usage clinique établi cible l'hypersomnolence (narcolepsie, apnée du sommeil, trouble du travail posté) — une direction pharmacologique **opposée** à celle requise pour traiter l'insomnie, qui nécessite typiquement un effet sédatif/hypnotique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Selon la pharmacologie générale, le modafinil favorise l'éveil par inhibition du transporteur de la dopamine, avec des effets sur les systèmes orexinergique, histaminergique et noradrénergique.
 
-Le score TxGNN élevé (99.85%) reflète probablement une proximité topologique dans le graphe de connaissances entre modafinil et le cluster de maladies « troubles du sommeil », plutôt qu'une véritable relation thérapeutique. Sur 29 essais cliniques identifiés en lien avec le terme « insomnie », un seul (NCT01091974) mentionne explicitement l'insomnie dans son titre, et dans cet essai, l'armodafinil est utilisé comme adjuvant anti-fatigue tandis que l'insomnie elle-même est traitée par thérapie cognitivo-comportementale (CBT-I), et non par le médicament étudié.
+La prédiction ne semble pas refléter un effet thérapeutique. Le score très élevé provient plus probablement de la proximité, dans le graphe de connaissances, entre les troubles veille-sommeil traités par le modafinil (narcolepsie, trouble du travail posté, apnée du sommeil) et l'insomnie. Un médicament qui maintient éveillé a peu de raisons mécanistiques d'aider à dormir, et l'insomnie figure parmi ses effets indésirables.
 
-En l'état, le mécanisme d'action ne soutient pas une application directe à l'insomnie ; la prédiction doit être interprétée comme un signal à investiguer plutôt qu'une hypothèse mécanistiquement validée.
+Dans les essais et publications retrouvés, les termes liés au sommeil correspondent surtout à des critères de somnolence ou de fatigue, ou à l'insomnie comme symptôme associé. Ils ne portent pas sur un traitement de l'insomnie par le modafinil.
 
 ## Preuves d'Essais Cliniques
 
+Sur 29 essais retrouvés, un seul teste le modafinil dans l'insomnie primaire. Plusieurs autres portent sur l'armodafinil (énantiomère R du modafinil), le plus souvent en association avec la thérapie cognitivo-comportementale de l'insomnie (TCC-I), pour soulager la fatigue.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01091974](https://clinicaltrials.gov/study/NCT01091974) | Phase 2 | Terminé | 138 | CBT-I ± armodafinil pour insomnie et fatigue post-chimiothérapie (cancer du sein) ; armodafinil = adjuvant anti-fatigue, l'insomnie étant traitée par CBT-I. **Pertinence B** (la plus élevée du pack, mais indirecte). |
-| [NCT01080807](https://clinicaltrials.gov/study/NCT01080807) | Phase 4 | Terminé | 385 | Armodafinil vs placebo pour somnolence excessive liée au travail posté — cible l'hypersomnolence, direction opposée à l'insomnie. Pertinence C. |
-| [NCT04299009](https://clinicaltrials.gov/study/NCT04299009) | N/A | Terminé | 15 | Luminothérapie (pas modafinil) pour symptômes diurnes résiduels de l'apnée du sommeil ; sans lien direct au médicament ni à l'insomnie. Pertinence C. |
-| [NCT00481195](https://clinicaltrials.gov/study/NCT00481195) | Phase 2 | Terminé | 257 | Armodafinil en add-on pour dépression majeure associée au trouble bipolaire I ; vise probablement l'hypersomnolence associée. Pertinence C. |
-| [NCT01305408](https://clinicaltrials.gov/study/NCT01305408) | Phase 3 | Terminé | 399 | Même design (armodafinil adjuvant) pour dépression bipolaire ; pas de lien direct à l'insomnie. Pertinence C. |
-| [NCT00233090](https://clinicaltrials.gov/study/NCT00233090) | Phase 2 | Arrêté | 21 | Modafinil vs placebo pour fatigue post-traumatisme crânien ; essai terminé prématurément, fatigue ≠ insomnie. Pertinence C. |
-| [NCT01965925](https://clinicaltrials.gov/study/NCT01965925) | Phase 4 | Terminé | 18 | Modafinil pour dysfonction circadienne et cognitive dans le trouble bipolaire stable ; petit échantillon, hors insomnie. Pertinence C. |
-| [NCT03083132](https://clinicaltrials.gov/study/NCT03083132) | Phase 2 | Terminé | 21 | Modafinil pour le freezing of gait dans la maladie de Parkinson ; sans rapport avec l'insomnie. Pertinence C. |
-| [NCT01072630](https://clinicaltrials.gov/study/NCT01072630) | Phase 3 | Terminé | 492 | Armodafinil adjuvant pour dépression bipolaire (réplique de design) ; vise l'hypersomnolence probable. Pertinence C. |
-| [NCT01072929](https://clinicaltrials.gov/study/NCT01072929) | Phase 3 | Terminé | 433 | Idem — armodafinil adjuvant pour dépression bipolaire. Pertinence C. |
-
-*Note : sur les 29 essais recensés, seuls ces 10 ont fait l'objet d'une évaluation de pertinence explicite dans le pack ; les 19 restants sont en attente de classification.*
+| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Phase 4 | Terminé | 40 | Modafinil seul ou avec TCC-I dans l'insomnie primaire : effet sur le fonctionnement diurne et la sévérité de l'insomnie. Pas de résultats dans le dossier. |
+| [NCT01019187](https://clinicaltrials.gov/study/NCT01019187) | Phase 2 | Terminé | 226 | TCC-I avec ou sans armodafinil chez des survivantes du cancer, pour l'insomnie et la fatigue après chimiothérapie. |
+| [NCT01091974](https://clinicaltrials.gov/study/NCT01091974) | Phase 2 | Terminé | 138 | Même schéma (TCC-I ± armodafinil) après chimiothérapie. Le rôle probable du médicament est de réduire la fatigue, pas de traiter l'insomnie. Soutien indirect. |
+| [NCT01011218](https://clinicaltrials.gov/study/NCT01011218) | Phase 2 | Terminé | 70 | Thérapie comportementale de l'insomnie (brève ou TCC-I) ± armodafinil 150 mg/jour dans le cancer du sein. |
+| [NCT02552303](https://clinicaltrials.gov/study/NCT02552303) | Non applicable | Terminé | 39 | Armodafinil et/ou TCC-I dans l'insomnie associée aux troubles respiratoires du sommeil, avec suivi de la continuité du sommeil et de l'adhésion à la PPC. |
+| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Phase 4 | Arrêté | 2 | Modafinil dans les troubles veille-sommeil du sujet âgé. Arrêté avec 2 participants, donc non interprétable. |
+| [NCT00582491](https://clinicaltrials.gov/study/NCT00582491) | Non applicable | Terminé | 44 | Modafinil, sommeil et cognition dans la dépendance à la cocaïne (suivi hospitalier de 16 nuits). |
+| [NCT01965925](https://clinicaltrials.gov/study/NCT01965925) | Phase 4 | Terminé | 18 | Modafinil sur les troubles circadiens et cognitifs du trouble bipolaire stable. Cible différente de l'insomnie, échantillon très réduit. |
+| [NCT00917748](https://clinicaltrials.gov/study/NCT00917748) | Phase 3 | Terminé | 84 | Modafinil contre la fatigue sous docétaxel. Les troubles du sommeil ne sont qu'un critère secondaire. |
+| [NCT06404086](https://clinicaltrials.gov/study/NCT06404086) | Phase 2 | Terminé | 830 | Protocole de plateforme RECOVER-SLEEP sur les troubles du sommeil après COVID-19. Le rôle précis du modafinil n'est pas précisé dans le dossier. |
 
 ## Preuves de la Littérature
 
+Aucune publication retrouvée n'évalue le modafinil comme traitement de l'insomnie. Les revues et méta-analyses portent sur la somnolence et la fatigue.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Revue | Expert Opin Pharmacother | Prise en charge des troubles du sommeil dans la maladie de Parkinson (pharmacologique et non pharmacologique) — sujet large, non spécifique à l'insomnie ni au modafinil. |
-| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revue | Drugs | Revue fondée sur les preuves des usages approuvés et expérimentaux du modafinil — couvre somnolence excessive, fatigue, cognition ; n'inclut pas l'insomnie. |
-| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Revue systématique/méta-analyse | Parkinsonism Relat Disord | Interventions pharmacologiques pour somnolence diurne et troubles du sommeil dans Parkinson — cible la somnolence, pas l'insomnie. |
-| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Revue | Drug Des Devel Ther | Profil du pitolisant (autre eugeroïque) dans la narcolepsie — sans rapport avec l'insomnie ni preuve directe pour modafinil. |
-| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Revue systématique/méta-analyse | PLoS One | Efficacité du modafinil sur la fatigue et la somnolence diurne excessive dans les troubles neurologiques — confirme l'usage pour l'EDS, direction opposée à l'insomnie. |
-| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revue | Mov Disord | Revue MDS des traitements des symptômes non moteurs de Parkinson (incluant somnolence) ; ne cible pas l'insomnie. |
-| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Revue | Expert Opin Emerg Drugs | Traitements émergents de la narcolepsie — usage classique du modafinil (EDS), pas insomnie. |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Revue | Rev Neurol | Narcolepsie avec cataplexie — mentionne l'insomnie de maintien comme symptôme associé, sans traiter du modafinil pour l'insomnie elle-même. |
-| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revue | Drugs | Trouble du sommeil lié au travail posté (SWSD) — fardeau et prise en charge ; le modafinil/armodafinil y traite l'hypersomnolence, pas l'insomnie. |
-| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Rapport de cas | Am J Hosp Palliat Care | Le modafinil réduit la fatigue dans la maladie de Charcot-Marie-Tooth type 1A (série de cas) — fatigue, pas insomnie ; niveau de preuve faible. |
+| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Revue systématique / méta-analyse | PloS one | Efficacité et sécurité du modafinil sur la fatigue et la somnolence diurne dans les maladies neurologiques ; résultats des essais antérieurs jugés incohérents. |
+| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Revue systématique / méta-analyse | Parkinsonism & related disorders | Traitements de la somnolence et des troubles du sommeil dans la maladie de Parkinson ; peu d'essais cliniques disponibles. |
+| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revue | Drugs | Usages approuvés et expérimentaux du modafinil, d'après les essais contrôlés randomisés en double aveugle. |
+| [18219235](https://pubmed.ncbi.nlm.nih.gov/18219235/) | 2008 | ECR | J Head Trauma Rehabil | Modafinil contre la fatigue et la somnolence diurne après traumatisme crânien chronique. |
+| [15824337](https://pubmed.ncbi.nlm.nih.gov/15824337/) | 2005 | ECR | Neurology | Modafinil contre la fatigue dans la sclérose en plaques, contrôlé contre placebo. |
+| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revue | Movement Disorders | Revue fondée sur les preuves des traitements des symptômes non moteurs de la maladie de Parkinson. |
+| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Revue | Expert Opin Pharmacother | Prise en charge pharmacologique et non pharmacologique des troubles du sommeil dans la maladie de Parkinson. |
+| [24272458](https://pubmed.ncbi.nlm.nih.gov/24272458/) | 2014 | Revue | Neurotherapeutics | Traitement des troubles du sommeil dans la maladie de Parkinson ; pour l'insomnie, les traitements optimaux restent à déterminer (pistes : TCC, luminothérapie). |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revue | Drugs | Fardeau du trouble du sommeil lié au travail posté et approches de prise en charge. |
+| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Revue | Expert Opin Emerg Drugs | Traitements émergents de la narcolepsie et des troubles apparentés. |
 
-*Note : sur les 19 publications recensées, ces 10 ont une classification complète ; les autres restent en attente de classification.*
+## Informations de Marché en France
+
+Huit AMM sont enregistrées, dont cinq sont listées ci-dessous. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 69277042 | MODAFINIL ZENTIVA 100 mg | Comprimé | ZENTIVA FRANCE |
+| 66805883 | MODIODAL 100 mg | Comprimé | NEURAXPHARM PHARMACEUTICALS (Espagne) |
+| 61697585 | MODAFINIL BIOGARAN 100 mg | Comprimé | BIOGARAN |
+| 63676077 | MODAFINIL ARROW 100 mg | Comprimé | ARROW GENERIQUES |
+| 69346054 | MODAFINIL EG 100 mg | Comprimé | EG LABO - LABORATOIRES EUROGENERICS |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
+
+Point d'attention lié à la prédiction : l'insomnie est un effet indésirable connu du modafinil. Toute évaluation dans cette indication devrait d'abord examiner ce risque.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La direction pharmacologique de modafinil (agent de l'éveil) est mécanistiquement opposée au traitement de l'insomnie, et le score TxGNN élevé provient vraisemblablement d'une proximité topologique dans le graphe de connaissances plutôt que d'une relation thérapeutique réelle. Sur 29 essais recensés, un seul apporte une évidence — indirecte — liée à l'insomnie (armodafinil en adjuvant anti-fatigue, insomnie traitée par CBT-I), et aucune publication ne documente d'effet direct sur l'insomnie primaire. De plus, l'absence de données sur les mises en garde/contre-indications TFDA (gap bloquant DG001) empêche toute évaluation de sécurité S1.
+- Le score TxGNN (99,85 %) n'est soutenu par aucune preuve directe : un seul essai teste le modafinil dans l'insomnie primaire (NCT00124384, 40 patients, sans résultats disponibles), les autres portent sur la fatigue, la somnolence ou l'armodafinil en appoint de la TCC-I.
+- Le profil pharmacologique d'un agent éveillant, dont l'insomnie est un effet indésirable, va à l'encontre de la prédiction. Le score reflète très probablement la proximité des troubles veille-sommeil dans le graphe.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice/les mises en garde officielles (TFDA ou équivalent) pour compléter l'évaluation de sécurité S1 (DG001 — bloquant)
-- Compléter les données détaillées de MOA via DrugBank pour renforcer l'analyse de pertinence mécanistique (DG002)
-- Réévaluer la pertinence clinique de l'indication « insomnie » — les preuves actuelles concernent majoritairement l'hypersomnolence, pas l'insomnie primaire
-- Rechercher des essais contrôlés randomisés ciblant directement l'insomnie primaire comme critère de jugement principal, plutôt que des essais où le médicament traite la somnolence/fatigue en comorbidité
+- Notice ANSM (mises en garde et contre-indications) et textes d'indication des AMM, pour lever le point bloquant de sécurité.
+- Données détaillées sur le mécanisme d'action (DrugBank), pour affiner l'analyse du lien mécanistique.
+- Résultats publiés de NCT00124384 et des essais TCC-I ± armodafinil, afin de vérifier s'il existe un bénéfice sur l'insomnie et non seulement sur la fatigue.
+- Évaluation des lots de résultats de type « pending » (pertinence des essais et publications non encore classés).
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

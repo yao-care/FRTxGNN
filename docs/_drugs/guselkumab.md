@@ -2,7 +2,7 @@
 layout: default
 title: Guselkumab
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 140
+nav_order: 143
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Guselkumab : Du Psoriasis à l'Ostéoporose Induite par les Médicaments
+# Guselkumab : De l'indication d'origine (non renseignée) à l'ostéoporose médicamenteuse
 
 ## Résumé en Une Phrase
 
-Guselkumab est un anticorps monoclonal humain ciblant spécifiquement la sous-unité p19 de l'interleukine-23 (IL-23), approuvé à l'international pour le traitement du psoriasis en plaques modéré à sévère, de l'arthrite psoriasique et de la rectocolite hémorragique.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Ostéoporose Induite par les Médicaments**,
-avec **0 essai clinique** et **0 publication** soutenant actuellement cette direction.
+Guselkumab est un anticorps monoclonal dirigé contre l'interleukine-23 (IL-23), commercialisé en France sous le nom TREMFYA. Les données fournies ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être utile dans l'**ostéoporose médicamenteuse**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle seule.
 
 ---
 
@@ -43,23 +42,23 @@ avec **0 essai clinique** et **0 publication** soutenant actuellement cette dire
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Psoriasis en plaques modéré à sévère (approuvé FDA/EMA ; aucune AMM locale enregistrée) |
-| Nouvelle Indication Prédite | Ostéoporose Induite par les Médicaments |
-| Score de Prédiction TxGNN | 99.84% |
+| Indication Originale | Non précisée dans les données d'AMM disponibles |
+| Nouvelle Indication Prédite | Ostéoporose médicamenteuse (drug-induced osteoporosis) |
+| Score de Prédiction TxGNN | 99,84 % (rang 1713) |
 | Niveau de Preuve | L5 |
-| Statut de Marché | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Guselkumab est un inhibiteur sélectif de l'IL-23 ciblant la sous-unité p19 — ce qui le distingue des inhibiteurs non sélectifs de p40 (tels qu'ustekinumab) qui bloquent simultanément IL-12 et IL-23. En interrompant le signal IL-23, guselkumab empêche la différenciation des cellules T naïves en lymphocytes Th17, réduisant ainsi la sécrétion d'IL-17A, IL-17F et IL-22. Les données détaillées sur le mécanisme d'action ne sont actuellement pas disponibles dans l'Evidence Pack ; ces informations s'appuient sur la pharmacologie établie de cette classe thérapeutique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, guselkumab fait partie de la classe des inhibiteurs de la sous-unité p19 de l'IL-23. Son efficacité est établie dans plusieurs maladies inflammatoires à médiation immunitaire, et mécanistiquement il pourrait être applicable à d'autres pathologies dans lesquelles l'IL-23 joue un rôle.
 
-La plausibilité théorique pour l'ostéoporose induite par les médicaments repose sur le rôle régulateur des cellules Th17 dans le remodelage osseux : ces cellules surexpriment RANKL tout en supprimant OPG, favorisant ainsi la différenciation des ostéoclastes et la résorption osseuse. Un inhibiteur de l'IL-23 pourrait donc, en théorie, atténuer cette composante inflammatoire de la perte osseuse.
+L'IL-23 a été évoquée dans le remodelage osseux, ce qui donne un point d'appui théorique à la prédiction. En revanche, les données fournies ne documentent **aucun lien direct** entre le blocage de l'IL-23 et l'ostéoporose d'origine médicamenteuse. Le score élevé du modèle (0,998) ne remplace pas une preuve clinique ou expérimentale.
 
-Cependant, cette connexion mécanistique est **extrêmement faible et indirecte**. Le mécanisme central de l'ostéoporose induite par les médicaments — notamment la toxicité directe des glucocorticoïdes sur les ostéoblastes, la suppression de la formation osseuse et l'accélération de l'apoptose ostéocytaire — est indépendant de l'axe IL-23/Th17. La prédiction TxGNN reflète vraisemblablement une proximité topologique dans le graphe de connaissances biologiques plutôt qu'une plausibilité clinique directe.
+La similarité entre l'indication d'origine et la nouvelle indication ne peut pas être évaluée, faute d'indication d'origine renseignée.
 
 ---
 
@@ -75,9 +74,22 @@ Aucune littérature associée disponible actuellement.
 
 ---
 
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 68372441 | TREMFYA 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée |
+| 67296108 | TREMFYA 100 mg ONEPRESS, solution injectable en stylo prérempli | Solution injectable | Non renseignée |
+
+Les deux AMM sont détenues par JANSSEN CILAG INTERNATIONAL NV.
+
+---
+
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
+
+Aucune interaction médicamenteuse n'a été retrouvée dans les données consultées.
 
 ---
 
@@ -86,17 +98,18 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN pour l'ostéoporose induite par les médicaments est classée L5 — prédiction du modèle uniquement, sans aucune étude réelle pour l'étayer. La connexion mécanistique avec l'axe IL-23/Th17 est indirecte et insuffisante pour justifier un développement actif dans cette indication en l'état actuel des données.
+- La prédiction repose uniquement sur le modèle (niveau L5). Il n'y a ni essai clinique, ni publication, ni mécanisme documenté reliant l'IL-23 à l'ostéoporose médicamenteuse.
+- Les données de sécurité (mises en garde, contre-indications) sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Études précliniques démontrant l'effet de l'inhibition de l'IL-23 sur la densité minérale osseuse dans un modèle d'ostéoporose médicamenteuse
-- Analyse rétrospective des marqueurs osseux (DMO, biomarqueurs de remodelage osseux : CTX, P1NP) dans les cohortes des essais cliniques existants de guselkumab
-- Données de mécanisme d'action complètes (actuellement non disponibles dans l'Evidence Pack)
-- Clarification du statut réglementaire local et obtention des données de sécurité issues de la notice officielle
+- Récupérer la notice ANSM (mises en garde et contre-indications) et les indications approuvées de chaque AMM.
+- Compléter les données de mécanisme d'action via DrugBank.
+- Mener une recherche bibliographique ciblée sur l'IL-23 et le métabolisme osseux, y compris les données précliniques.
+- Confirmer la plausibilité biologique avant d'envisager toute étude clinique.
 
----
+**À noter :** dans le même dossier, deux autres indications prédites disposent de preuves solides (niveau L1, « Proceed with Guardrails ») : le **psoriasis** et la **colite ulcéreuse**. Pour le psoriasis, il s'agit d'un usage déjà commercialisé, donc d'une confirmation plutôt que d'un vrai repositionnement. Pour la colite ulcéreuse, il faut vérifier le libellé réglementaire actuel en France.
 
-> **Note sur le portefeuille de repositionnement :** L'Evidence Pack contient deux indications avec un niveau de preuve L1 bien établi — le **psoriasis** (rang 3, score 99.75%, ≥10 ECR de Phase 3 complétés, décision : Proceed with Guardrails) et la **rectocolite hémorragique** (rang 6, score 99.70%, programme QUASAR Phase 3 avec approbation FDA 2024/5, décision : Proceed with Guardrails). Ces deux indications méritent une évaluation prioritaire séparée.
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dupilumab
-parent: Preuves modérées (L3-L4)
-nav_order: 110
-evidence_level: L3
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 113
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Dupilumab : De la Dermatite Atopique à la Bronchite
+# Dupilumab : De l'Indication Originale Non Renseignée à la Bronchite
 
 ## Résumé en Une Phrase
 
-Dupilumab est un anticorps monoclonal ciblant la sous-unité alpha du récepteur à l'interleukine-4 (IL-4Rα), approuvé dans de nombreux pays pour la dermatite atopique modérée à sévère, l'asthme et d'autres pathologies de type Th2.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Bronchite**,
-avec **1 essai clinique** et **6 publications** soutenant actuellement cette direction.
+Dupilumab est un anticorps monoclonal qui bloque le récepteur IL-4Rα (signalisation de l'IL-4 et de l'IL-13). Les données réglementaires françaises fournies ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, mais les preuves sont uniquement indirectes : **1 essai clinique** (dans la rhinosinusite chronique, pas la bronchite) et **6 publications** (surtout sur l'asthme et la BPCO).
 
 ---
 
@@ -43,23 +42,23 @@ avec **1 essai clinique** et **6 publications** soutenant actuellement cette dir
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dermatite atopique modérée à sévère (approuvée mondialement ; non enregistrée dans la base de données réglementaire locale) |
+| Indication Originale | Non renseignée dans les données ANSM disponibles |
 | Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99.92% |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Non enregistré dans la base de données locale |
-| Nombre d'AMM | 0 |
+| Score de Prédiction TxGNN | 99,92 % |
+| Niveau de Preuve | L4 (preuves indirectes uniquement) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données actuelle. Sur la base des informations connues, dupilumab est un anticorps monoclonal humain appartenant à la classe des inhibiteurs de l'IL-4Rα : en se fixant à la sous-unité alpha partagée des récepteurs à l'IL-4 et à l'IL-13, il bloque simultanément la signalisation de ces deux cytokines, piliers centraux de la réponse immunitaire de type 2 (Th2). Son efficacité clinique est bien établie dans la dermatite atopique, l'asthme non contrôlé et la rhinosinusite chronique avec polypes nasaux.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. On sait néanmoins que dupilumab bloque la sous-unité IL-4Rα, commune aux récepteurs de l'IL-4 et de l'IL-13. Ces deux cytokines pilotent l'inflammation dite de « type 2 ». Ce médicament est déjà utilisé dans des maladies respiratoires de type 2, comme l'asthme et certains phénotypes éosinophiliques.
 
-Dans la bronchite à profil Th2 — notamment la bronchite éosinophilique —, l'IL-4 favorise la commutation de classe des immunoglobulines vers l'IgE et l'IL-13 stimule l'hypersécrétion de mucus ainsi que l'hyperréactivité bronchique. Ce mécanisme présente une très forte similitude avec celui de l'asthme, indication déjà approuvée pour dupilumab, où la réduction des exacerbations et l'amélioration du VEMS ont été démontrées dans plusieurs essais de Phase 3. Le blocage de l'IL-4Rα offre donc une base mécanistique cohérente pour supprimer l'inflammation éosinophilique des voies aériennes dans ce contexte.
+Le lien avec la bronchite est donc indirect. Il repose sur les données de l'asthme et de la BPCO, ainsi que sur une revue consacrée à la bronchite plastique éosinophilique de l'enfant. Aucun essai n'a évalué dupilumab dans la bronchite elle-même, et le seul essai associé porte sur la rhinosinusite chronique sans polypes nasaux.
 
-Cependant, la bronchite (chronique, aiguë ou éosinophilique) constitue une entité clinique distincte de l'asthme, et la voie clinique directe pour cette indication spécifique n'a pas encore été établie par des essais prospectifs dédiés. La prédiction TxGNN est plausible par analogie mécanistique, mais reste à confirmer par des données interventionnelles ciblées.
+Un bénéfice éventuel serait probablement limité aux bronchites avec un profil de type 2 ou éosinophilique. Il ne faut pas l'extrapoler aux bronchites infectieuses ou non éosinophiliques.
 
 ---
 
@@ -67,9 +66,7 @@ Cependant, la bronchite (chronique, aiguë ou éosinophilique) constitue une ent
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Terminé | 33 | Efficacité de dupilumab dans la rhinosinusite chronique sans polypes nasaux (CRSsNP) — preuve indirecte via le concept de « united airway disease » et la physiopathologie Th2 partagée entre voies respiratoires supérieures et inférieures |
-
-> **Note** : Cet essai cible la CRSsNP et non la bronchite directement. La pertinence repose sur le chevauchement mécanistique Th2 (grade C) ; il ne constitue pas une preuve clinique directe.
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Terminé | 33 | Essai randomisé en double aveugle contre placebo dans la rhinosinusite chronique sans polypes nasaux (CRSsNP). Il ne concerne pas la bronchite et apporte seulement un indice d'activité de type 2 dans les voies aériennes supérieures. Résultats non détaillés dans le dossier. |
 
 ---
 
@@ -77,20 +74,25 @@ Cependant, la bronchite (chronique, aiguë ou éosinophilique) constitue une ent
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Revue systématique / Méta-analyse | J Asthma | Méta-analyse d'ECR : dupilumab réduit significativement les exacerbations et améliore le VEMS dans l'asthme non contrôlé — base mécanistique la plus solide pour les voies aériennes |
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | Phase 3 OLE | Lancet Respir Med | Étude TRAVERSE : sécurité et efficacité de dupilumab maintenues à long terme dans l'asthme modéré à sévère au-delà d'un an de traitement |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Observationnel / Pilote | Chest | Dupilumab réduit les défauts de ventilation régionaux évalués par IRM dans l'asthme sévère avec éosinophilie sputale — implication directe pour les obstructions bronchiques Th2 |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Revue | Tuberc Respir Dis | Revue des interventions pharmacologiques pour prévenir les exacerbations de BPCO, incluant les nouveaux agents biologiques anti-Th2 comme agents émergents |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Revue / Série de cas | Pediatr Pulmonol | Thérapies émergentes pour la bronchite plastique éosinophilique pédiatrique — dupilumab évoqué comme option thérapeutique prometteuse dans ce sous-type bronchique Th2 |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revue | Expert Opin Pharmacother | Défis de la prise en charge de l'asthme associé aux maladies respiratoires induites par le tabac, dont la bronchite chronique et l'ACO ; souligne l'exclusion systématique des fumeurs des essais de biologiques |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | Extension d'ECR (asthme) | Lancet Respir Med | Étude ouverte (TRAVERSE) évaluant la sécurité et l'efficacité à long terme (au-delà d'un an) dans l'asthme modéré à sévère. |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Méta-analyse d'ECR (asthme) | J Asthma | Méta-analyse d'ECR contre placebo évaluant l'efficacité et la sécurité dans l'asthme non contrôlé. |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Étude prospective d'imagerie (asthme) | Chest | Effet des biothérapies anti-type 2 sur la ventilation pulmonaire évaluée par IRM chez des adultes asthmatiques dépendants de la prednisone. |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Revue | Tuberc Respir Dis | Revue des traitements pharmacologiques pour prévenir les exacerbations de BPCO, incluant les agents récents. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revue | Expert Opin Pharmacother | Difficultés de prise en charge de l'asthme associé aux maladies des voies aériennes liées au tabac (dont la bronchite chronique). |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Revue | Pediatr Pulmonol | Revue sur les thérapies récentes de la bronchite plastique éosinophilique pédiatrique (résumé non disponible). |
 
 ---
 
 ## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour dupilumab dans la base de données réglementaire locale interrogée.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 64039311 | DUPIXENT 300 mg, solution injectable en stylo prérempli | Solution injectable |
+| 64423080 | DUPIXENT 200 mg, solution injectable en seringue préremplie | Solution injectable |
+| 64627916 | DUPIXENT 300 mg, solution injectable en seringue préremplie | Solution injectable |
+| 66004227 | DUPIXENT 200 mg, solution injectable en stylo prérempli | Solution injectable |
 
-> **Remarque** : Dupilumab (Dupixent®) bénéficie d'approbations réglementaires en Europe (EMA) et aux États-Unis (FDA) pour plusieurs indications dont la dermatite atopique modérée à sévère (≥ 6 mois), l'asthme, la rhinosinusite chronique avec polypes nasaux, l'œsophagite à éosinophiles et la dermatite de contact chronique. Le statut affiché ci-dessus reflète uniquement l'état de la base de données locale au moment de la requête (2026-06-07) et ne reflète pas le statut réglementaire EMA.
+Le titulaire est SANOFI WINTHROP INDUSTRIE pour les quatre AMM. Le texte des indications approuvées n'est pas renseigné dans les données reçues.
 
 ---
 
@@ -105,15 +107,16 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN repose sur un mécanisme Th2 cohérent avec l'indication asthme déjà approuvée, mais l'absence d'essai clinique prospectif spécifiquement dédié à la bronchite et la nature exclusivement indirecte des preuves disponibles (L3 — voies respiratoires adjacentes) ne permettent pas de justifier un repositionnement immédiat sans données cliniques ciblées.
+- La prédiction TxGNN est très élevée (99,92 %), mais aucune donnée clinique directe ne l'appuie : le seul essai lié concerne une autre maladie et la littérature porte sur l'asthme, la BPCO et une revue de bronchite éosinophilique.
+- Les informations de sécurité et les indications approuvées en France manquent, ce qui empêche une évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Clarification de la définition clinique cible : bronchite aiguë, bronchite chronique éosinophilique ou bronchite plastique (les mécanismes et populations diffèrent)
-- Données complètes sur le mécanisme d'action de dupilumab (actuellement absentes de la base)
-- Biomarquage préalable des patients : sélection de la population Th2-positive (FeNO élevé, éosinophilie sanguine ≥ 300/µL) pour maximiser le signal clinique
-- Conception et initiation d'un essai clinique Phase 2 dédié à la bronchite éosinophilique Th2
-- Évaluation du profil de sécurité dans des sous-populations à risque (BPCO, fumeurs actifs, sujets exclus des essais asthme)
-- Confirmation du statut réglementaire AMM en France (EMA) pour orienter la stratégie de repositionnement et d'accès
+- Récupérer et analyser la notice ANSM (indications approuvées, mises en garde, contre-indications).
+- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
+- Préciser la forme de bronchite visée (éosinophilique ou de type 2 versus infectieuse) et rechercher des essais ou séries de cas spécifiques.
+- Une piste à explorer en parallèle : la dermatite (niveau de preuve L1) est mieux soutenue, mais il s'agit probablement d'une indication déjà approuvée, donc d'une confirmation d'étiquette plutôt que d'un vrai repositionnement.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

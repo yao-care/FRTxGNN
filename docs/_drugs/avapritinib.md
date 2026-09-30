@@ -2,7 +2,7 @@
 layout: default
 title: Avapritinib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 47
+nav_order: 49
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,81 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Avapritinib : De la Tumeur Stromale Gastro-intestinale à la Dysplasie Spondylométaphysaire Axiale
+# Avapritinib : De l'indication d'origine (non renseignée) à la dysplasie spondylométaphysaire axiale
 
 ## Résumé en Une Phrase
 
-Avapritinib est un inhibiteur sélectif des kinases KIT et PDGFRA, approuvé aux États-Unis et en Europe pour le traitement des tumeurs stromales gastro-intestinales (GIST) portant des mutations PDGFRA exon 18, ainsi que de la mastocytose systémique indolente — mais non commercialisé en France à ce jour.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Dysplasie Spondylométaphysaire Axiale**, une maladie osseuse développementale rare.
-Cependant, **aucun essai clinique** ni **aucune publication** ne viennent actuellement étayer cette direction, ce qui en fait une prédiction de niveau de preuve minimal.
-
----
+L'avapritinib est un inhibiteur de kinases (KIT et PDGFRA) commercialisé en France sous le nom AYVAKYT. Les données transmises ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie spondylométaphysaire axiale**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Tumeur stromale gastro-intestinale (GIST) / Mastocytose systémique indolente |
+|------|------|
 | Nouvelle Indication Prédite | Dysplasie spondylométaphysaire axiale |
-| Score de Prédiction TxGNN | 99.92% |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Score de Prédiction TxGNN | 99,92 % |
+| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 5 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues, Avapritinib est un inhibiteur sélectif des kinases KIT et PDGFRA — deux récepteurs tyrosine kinases jouant un rôle clé dans la prolifération, la survie et la différenciation cellulaires. Son efficacité a été cliniquement démontrée dans les GIST portant la mutation PDGFRA D842V (historiquement résistante aux autres inhibiteurs de tyrosine kinase) et dans la mastocytose systémique indolente via l'inhibition de KIT D816V.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, l'avapritinib inhibe les kinases KIT et PDGFRA. Son indication d'origine n'est pas renseignée dans les données réglementaires reçues.
 
-La dysplasie spondylométaphysaire axiale (SMD-axial) est une maladie osseuse développementale rare, associée principalement à des mutations des gènes **TRPV4** et **PCYT1A**, qui régulent respectivement la signalisation calcique et le métabolisme des phospholipides membranaires. Ces voies biologiques n'ont pas de lien connu avec la signalisation KIT/PDGFRA ciblée par Avapritinib. Bien que PDGFRA soit exprimé dans certaines cellules souches mésenchymateuses impliquées dans la différenciation ostéochondrale, aucune donnée préclinique ou clinique ne soutient à ce stade un effet d'Avapritinib sur ce tableau clinique spécifique.
+Pour cette prédiction, **aucun lien mécanistique plausible n'a été identifié**. La dysplasie spondylométaphysaire axiale est une maladie squelettique, et aucune connexion n'est connue entre les voies KIT/PDGFRA et la voie de cette dysplasie. Le score TxGNN très élevé (0,9992) reflète une proximité dans le graphe de connaissances, pas une preuve biologique ou clinique.
 
-Cette prédiction TxGNN repose probablement sur des similitudes topologiques dans le graphe de connaissances biologiques (réseau de maladies) plutôt que sur un mécanisme pharmacologique établi. Elle doit être interprétée avec grande prudence et considérée comme une hypothèse exploratoire ne justifiant pas d'investissement clinique immédiat.
-
----
+La similarité avec l'indication d'origine n'a pas pu être évaluée, faute de données. Cette prédiction doit donc être considérée comme une simple hypothèse issue du modèle.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
-
----
+Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée n'est disponible actuellement.
 
----
+## Informations de Marché en France
+
+L'indication approuvée n'est pas renseignée dans les données reçues pour ces AMM.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|------|
+| 63189920 | AYVAKYT 200 mg | Comprimé pelliculé | Blueprint Medicines (Pays-Bas) |
+| 63220091 | AYVAKYT 50 mg | Comprimé pelliculé | Blueprint Medicines (Pays-Bas) |
+| 65304816 | AYVAKYT 300 mg | Comprimé pelliculé | Blueprint Medicines (Pays-Bas) |
+| 68115906 | AYVAKYT 25 mg | Comprimé pelliculé | Blueprint Medicines (Pays-Bas) |
+| 64069767 | AYVAKYT 100 mg | Comprimé pelliculé | Blueprint Medicines (Pays-Bas) |
 
 ## Cytotoxicité
 
-| Élément | Contenu |
-|---|---|
-| Classification de Cytotoxicité | Thérapie ciblée — Inhibiteur sélectif de kinase (KIT / PDGFRA) |
-| Risque de Myélosuppression | Modéré — anémie, neutropénie et thrombocytopénie observées dans les essais cliniques des indications approuvées |
-| Classification d'Émétogénicité | Faible à modérée |
-| Éléments de Surveillance | Numération formule sanguine (avec différentielle), fonction hépatique et rénale, bilan lipidique, bilan de coagulation |
-| Protection de Manipulation | Doit suivre les protocoles de manipulation des médicaments antinéoplasiques (port de gants, éviter l'écrasement des comprimés) |
+L'avapritinib est un inhibiteur de kinases à visée antinéoplasique. Cette classification repose sur sa classe pharmacologique, car les catégories DrugBank et l'indication d'origine ne figurent pas dans le dossier.
 
----
+| Élément | Contenu |
+|------|------|
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de KIT/PDGFRA) |
+
+Veuillez consulter les mises en garde et précautions de la notice pour le risque de myélosuppression, l'émétogénicité, la surveillance biologique et les mesures de protection lors de la manipulation.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
----
+Pour la seule hypothèse relative au cerveau (polymicrogyrie), l'analyse de rationalité mentionne des alertes neurologiques centrales de l'avapritinib (hémorragie intracrânienne, effets cognitifs). Ces éléments doivent être vérifiés dans la notice ANSM.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune preuve clinique (ni essai enregistré, ni publication indexée) ne soutient l'utilisation d'Avapritinib dans la dysplasie spondylométaphysaire axiale, et le lien mécanistique entre les cibles du médicament (KIT/PDGFRA) et la physiopathologie de cette maladie est absent ou non documenté. Le score TxGNN élevé (99.92%) reflète vraisemblablement une proximité dans le graphe de maladies rares, et non une pertinence pharmacologique validée.
+- Cette prédiction repose uniquement sur le score du modèle (L5), sans essai clinique, sans publication et sans lien mécanistique plausible entre KIT/PDGFRA et cette dysplasie squelettique.
+- Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de mécanisme d'action (MOA) complètes, notamment l'expression et le rôle de PDGFRA dans le tissu osseux concerné par la SMD-axial
-- Études précliniques (modèles cellulaires ou animaux) évaluant l'effet d'un inhibiteur KIT/PDGFRA sur les anomalies squelettiques caractéristiques de la SMD-axial
-- Validation de la prédiction par des experts en maladies osseuses rares et en médecine génomique
-- Données de sécurité complètes en France : mises en garde, contre-indications et interactions médicamenteuses selon les référentiels ANSM
-- Évaluation de la faisabilité réglementaire pour une désignation médicament orphelin en Europe (EMA), préalable indispensable à toute étude clinique dans cette indication ultra-rare
+- Télécharger et analyser la notice ANSM (mises en garde et contre-indications).
+- Compléter le mécanisme d'action et l'indication d'origine via DrugBank.
+- Consolider dans l'analyse les entrées redondantes de la sclérose latérale amyotrophique (SLA, formes de susceptibilité et de type 22). Parmi les autres prédictions, seule la SLA est classée « Research Question » : l'hypothèse (modulation des mastocytes et de la neuroinflammation par les inhibiteurs de KIT) reste indirecte, et toute exploration devrait commencer par des travaux précliniques.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

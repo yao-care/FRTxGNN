@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Desloratadine
-parent: Preuves élevées (L1-L2)
-nav_order: 100
-evidence_level: L1
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 102
+evidence_level: L5
 indication_count: 6
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,96 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-# Desloratadine : De la Rhinite Allergique à l'Urticaire au Froid
+# Desloratadine : D'un antihistaminique H1 à l'urticaire au froid
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Desloratadine est un antihistaminique de deuxième génération, antagoniste sélectif des récepteurs H1, largement utilisé dans le traitement de la rhinite allergique et de l'urticaire chronique, bien qu'aucun enregistrement réglementaire n'ait été retrouvé dans la base de données consultée.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire au froid (cold urticaria)**,
-avec **3 essais cliniques** et **7 publications** soutenant actuellement cette direction.
+La desloratadine est un antihistaminique H1 de deuxième génération, commercialisé en France (AERIUS et génériques). Les textes d'indication des AMM ne figurent pas dans les données fournies.
+Le modèle TxGNN prédit qu'elle pourrait être efficace dans l'**urticaire au froid**, avec **3 essais cliniques** et **7 publications** qui soutiennent actuellement cette direction, dont 2 ECR publiés.
 
 ---
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non enregistré dans la base de données réglementaire (antihistaminique H1, rhinite allergique, urticaire chronique) |
-| Nouvelle Indication Prédite | Urticaire au froid (Cold Urticaria) |
-| Score de Prédiction TxGNN | 99.94% |
-| Niveau de Preuve | L1 |
-| Statut de Marché | ✗ Non commercialisé (base de données réglementaire consultée) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
+| Nouvelle indication prédite | Urticaire au froid (cold urticaria) |
+| Score de prédiction TxGNN | 99,94 % |
+| Niveau de preuve | L1 (selon l'Evidence Pack : plusieurs essais randomisés de Phase 4 et 2 ECR publiés. Aucun essai de Phase 3 n'est fourni) |
+| Statut de marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
+| Décision recommandée | Proceed with Guardrails |
 
 ---
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-L'urticaire au froid (cold urticaria) est une forme d'urticaire physique dans laquelle l'exposition au froid déclenche la dégranulation des mastocytes cutanés, libérant massivement de l'histamine. Cette histamine est directement responsable de l'augmentation de la perméabilité vasculaire, de la vasodilatation locale et de la formation des plaques urticariennes caractéristiques. Le mécanisme est donc univoque : urticaire induite par l'histamine → antagoniste H1 → inhibition des symptômes.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances pharmacologiques établies, la desloratadine est un agoniste inverse des récepteurs H1, à sélectivité périphérique. Son efficacité dans les affections histaminiques est bien connue.
 
-Les données détaillées sur le mécanisme d'action (MOA) ne sont pas disponibles dans l'Evidence Pack. Sur la base des informations connues, desloratadine est un antagoniste sélectif et hautement affin des récepteurs H1 de l'histamine (deuxième génération, non sédatif), actif métabolite de la loratadine. Son efficacité dans les pathologies à composante histaminique — rhinite allergique, urticaire chronique spontanée — est documentée, et ce mécanisme est mécanistiquement et directement applicable à l'urticaire au froid.
+Dans l'urticaire au froid, les papules résultent de la libération d'histamine par les mastocytes. Le blocage des récepteurs H1 cible donc directement la voie effectrice de la maladie. Les recommandations approuvent l'augmentation de la dose jusqu'à 4 fois la dose standard pour les urticaires physiques.
 
-Les données d'essais cliniques disponibles sont particulièrement probantes : non seulement des études randomisées en double aveugle confirment l'efficacité de desloratadine à dose standard (5 mg), mais des données de « updosing » (10–20 mg) démontrent une relation dose-réponse avec élévation du seuil de déclenchement au froid, renforçant la plausibilité mécanistique. Cette indication est cohérente avec les recommandations actuelles de l'EAACI/GA²LEN/EDF sur l'urticaire physique.
+Le lien mécanistique est donc cohérent. Les essais randomisés testent d'ailleurs le médicament directement dans cette maladie, à 5 mg (dose standard), 10 mg et 20 mg. Les doses supérieures à la dose de l'AMM nécessitent un suivi médical.
 
 ---
 
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Terminé | 30 | Étude multicentrique double aveugle à doses escaladantes (5, 10, 20 mg) de desloratadine chez des patients atteints d'urticaire au froid acquise (ACU) ; objectif : déterminer la dose inhibitrice suffisante |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Terminé | 33 | ECR randomisé double aveugle placebo-contrôlé croisé comparant 5 mg vs 20 mg de desloratadine sur les lésions d'urticaire au froid induites expérimentalement (thermographie, volumétrie, photographie) ; hypothèse : l'updosing à 20 mg est supérieur à la dose standard |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Terminé | 150 | Comparaison de 5 antihistaminiques (dont desloratadine) sur profils pharmacocinétiques et pharmacodynamiques dans une population d'Amérique latine tropicale ; soutien indirect à l'efficacité de desloratadine dans l'urticaire |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Terminé | 30 | Étude multicentrique, en double aveugle, à doses croissantes (5, 10 et 20 mg) dans l'urticaire au froid acquise. Objectif : déterminer la dose qui inhibe les symptômes. |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Terminé | 33 | Étude croisée randomisée, en double aveugle, contre placebo. Compare 5 mg et 20 mg sur les lésions d'urticaire au froid (thermographie, volumétrie, photographie). |
+| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Terminé | 150 | Comparaison de l'effet inhibiteur de 5 antihistaminiques dans l'urticaire. Non limitée à l'urticaire au froid : résultats par sous-type à vérifier. |
 
 ---
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | ECR | British Journal of Dermatology | ECR sur l'escalade de doses d'antihistaminiques H1 dans l'urticaire au froid ; mesure du seuil de température critique ; démontre la variabilité de réponse et l'intérêt de l'ajustement posologique |
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | Étude clinique (ECR croisé) | J Allergy Clin Immunol | Desloratadine haute dose réduit le volume des plaques et améliore les seuils de provocation au froid vs dose standard ; ECR randomisé placebo-contrôlé croisé (Siebenhaar et al.) — étude pivot pour le concept d'updosing |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | Étude clinique (preuve directe) | J Dermatological Treatment | Desloratadine 5 mg pendant 4 jours inhibe l'urticaire au froid induite par glaçons chez 12 patients ; étude ouverte pionnière confirmant l'efficacité directe |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Revue | Drugs | Revue sur l'étiologie et la prise en charge de l'urticaire chronique ; place les antihistaminiques H1 (dont desloratadine) en première ligne ; contexte mécanistique et thérapeutique |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Revue comparative | Allergy | Revue comparative des antihistaminiques de 2ème génération (focus ébastine) dans rhinite allergique et urticaire chronique idiopathique ; contextualise la classe thérapeutique à laquelle appartient desloratadine |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Rapport de cas | Qatar Medical Journal | Premier cas rapporté d'urticaire au froid induite après anaphylaxie à morsure de fourmi noire ; illustre la diversité des déclencheurs de l'urticaire au froid acquise |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Série de cas | J Allergy Clin Immunol Pract | Description d'un nouveau variant : urticaire au froid food-dependent ; contextualise la complexité clinique de l'urticaire au froid et la nécessité d'une prise en charge antihistaminique adaptée |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | ECR | J Allergy Clin Immunol | Étude croisée randomisée contre placebo : la desloratadine à forte dose réduit le volume des papules et améliore les seuils de provocation au froid par rapport à la dose standard. |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | ECR | Br J Dermatol | Mesure du seuil critique de température dans l'urticaire au froid, avec augmentation de la dose d'antihistaminique H1. |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | Étude clinique | J Dermatol Treat | Desloratadine 5 mg pendant 4 jours, test au glaçon avant et après traitement chez 12 patients atteints d'urticaire au froid. |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Revue | Drugs | Étiologie, prise en charge et options thérapeutiques de l'urticaire chronique. |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Revue | Allergy | Ébastine dans la rhinite allergique et l'urticaire chronique idiopathique (indirect, autre molécule). |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Rapport de cas | Qatar Med J | Urticaire au froid après anaphylaxie due à une piqûre de fourmi noire. |
+| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Rapport de cas | J Allergy Clin Immunol Pract | Urticaire au froid dépendante de l'alimentation, nouvelle variante d'urticaire physique. |
 
 ---
 
-## Informations de Marché
+## Informations de marché en France
 
-Aucun enregistrement réglementaire n'a été retrouvé pour Desloratadine dans la base de données consultée (0 AMM). Aucun tableau de licences applicable.
+Les textes d'indication approuvée ne sont pas renseignés dans les données. Formes disponibles : comprimé pelliculé et solution buvable.
 
-> **Note** : Cette absence d'enregistrement est propre à la base de données réglementaire interrogée lors de la constitution de cet Evidence Pack (résultat de recherche TFDA : 0 résultat). Desloratadine est par ailleurs commercialisé sous des noms de marque (ex. Aerius®) dans de nombreuses juridictions pour la rhinite allergique et l'urticaire chronique.
-
----
-
-## Considérations de Sécurité
-
-Les données de sécurité spécifiques (mises en garde, contre-indications, interactions médicamenteuses) ne sont pas disponibles dans cet Evidence Pack.
-
-> Veuillez consulter la notice officielle du médicament pour les informations de sécurité complètes.
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 63929363 | DESLORATADINE SANDOZ 5 mg | Comprimé pelliculé | SANDOZ |
+| 65723604 | DESLORATADINE ZENTIVA 5 mg | Comprimé pelliculé | ZENTIVA FRANCE |
+| 63820969 | DESLORATADINE KRKA 5 mg | Comprimé pelliculé | KRKA (Slovénie) |
+| 61223605 | DESLORATADINE BIOGARAN 5 mg | Comprimé pelliculé | BIOGARAN |
+| 61833327 | AERIUS 5 mg | Comprimé pelliculé | ORGANON (Hollande) |
 
 ---
 
-## Conclusion et Prochaines Étapes
+## Considérations de sécurité
+
+Veuillez consulter la notice pour les informations de sécurité.
+
+---
+
+## Conclusion et prochaines étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-La prédiction TxGNN pour cold urticaria atteint 99.94 % et repose sur un rationnel mécanistique direct et solide : desloratadine est un antagoniste H1 hautement affin, et l'urticaire au froid est une pathologie à médiation histaminique clairement établie. Trois essais cliniques de Phase 4 complétés — dont deux ECR randomisés double aveugle placebo-contrôlés — et sept publications incluant un ECR et deux études cliniques directes constituent un niveau de preuve L1. La relation dose-réponse documentée (updosing 10–20 mg) renforce la crédibilité clinique.
+- Plusieurs essais randomisés de Phase 4 (augmentation de dose, croisé contre placebo) et 2 ECR publiés testent directement la desloratadine dans l'urticaire au froid, avec un mécanisme H1 cohérent. Aucun essai de Phase 3 n'est disponible, et l'utilisation à des doses supérieures à celles de l'AMM exige une supervision clinique.
+- Les autres prédictions sont nettement plus faibles : la « maladie de la cavité nasale » est au niveau L3 (Research Question), et les quatre autres sont au niveau L5 (Hold, prédiction du modèle uniquement).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir les données complètes sur le mécanisme d'action (MOA) via DrugBank API (DG002 — sévérité High)
-- Obtenir les mises en garde et contre-indications de la notice officielle (DG001 — sévérité Blocking) avant toute évaluation de sécurité formelle (S1)
-- Vérifier le statut réglementaire réel dans la juridiction cible (l'absence d'enregistrement dans la base TFDA ne reflète pas nécessairement le statut dans d'autres pays)
-- Définir un plan de surveillance posologique pour les protocoles de dose escaladante (10–20 mg), en particulier dans les populations pédiatriques et insuffisants rénaux/hépatiques
-- Confirmer la compatibilité des voies d'administration disponibles pour une éventuelle extension d'indication (voie orale standard vs formulations nasales en développement — cf. NCT04088721)
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications). Ce point est bloquant pour le criblage de sécurité.
+- Vérifier le statut d'indication autorisée localement, car les indications d'origine sont absentes des données.
+- Compléter les données sur le mécanisme d'action (DrugBank).
+- Vérifier dans les fiches complètes le comparateur et la population de NCT00600847, ainsi que les résultats par sous-type de NCT01940393.
+- Définir un protocole de suivi clinique pour toute augmentation de dose au-delà de l'AMM.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

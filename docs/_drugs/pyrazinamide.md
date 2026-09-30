@@ -2,7 +2,7 @@
 layout: default
 title: Pyrazinamide
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 250
+nav_order: 254
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,72 +33,64 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Le pyrazinamide est un antituberculeux de première ligne, historiquement utilisé en association (avec rifampicine, isoniazide et éthambutol) dans le traitement de la tuberculose.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Otite Moyenne Infectieuse**, avec un score de prédiction de **99,96 %**.
-Cependant, **aucun essai clinique** et **aucune publication** ne soutiennent actuellement spécifiquement cette direction : il s'agit d'une extrapolation purement statistique du modèle, sans preuve mécanistique vérifiable à ce stade.
-
----
+Le pyrazinamide est un antimycobactérien de première ligne, utilisé dans les schémas antituberculeux multi-médicaments (l'indication exacte de l'AMM n'est pas renseignée dans les données reçues).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**otite moyenne infectieuse**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction précise.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tuberculose (traitement antituberculeux de première ligne — aucune AMM française disponible pour confirmer le libellé officiel) |
-| Nouvelle Indication Prédite | Otite Moyenne Infectieuse (infectious otitis media) |
+| Indication Originale | Non précisée dans les AMM fournies (usage antituberculeux d'après la classe du médicament) |
+| Nouvelle Indication Prédite | Otite moyenne infectieuse |
 | Score de Prédiction TxGNN | 99,96 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles (donnée manquante classée « High » dans le pack de preuves, à combler via l'API DrugBank). Sur la base des informations connues, le pyrazinamide est un promédicament converti par la pyrazinamidase bactérienne en acide pyrazinoïque, actif principalement en milieu acide contre *Mycobacterium tuberculosis* en phase semi-dormante intracellulaire ; son efficacité dans la tuberculose est bien établie depuis des décennies d'usage clinique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le pyrazinamide fait partie de la classe des antimycobactériens et de l'association fixe Rifater. Son efficacité dans la tuberculose est établie. Il agit surtout sur les bacilles semi-dormants en milieu acide.
 
-Pour l'indication prédite en tête de liste — l'otite moyenne infectieuse au sens large —, aucun lien mécanistique n'a pu être établi : la justification associée indique explicitement qu'il s'agit d'une extrapolation par similarité d'embedding, sans essai ni publication à l'appui. Le pyrazinamide n'a pas d'activité antibactérienne connue contre les pathogènes usuels de l'otite moyenne (pneumocoque, *Haemophilus influenzae*).
+Le lien avec l'otite moyenne est faible. Le pyrazinamide n'a pas d'activité établie contre les bactéries responsables des otites courantes. Un lien plausible se limite au sous-ensemble mycobactérien, c'est-à-dire l'otite moyenne tuberculeuse, qui est rare. La prédiction du modèle est donc probablement un signal trop général.
 
-Il est toutefois utile de noter que, parmi les autres indications prédites par le même modèle (non détaillées ci-dessous), plusieurs variantes d'otite moyenne — otite moyenne chronique, otite moyenne suppurée, maladie de l'oreille moyenne — sont associées à de la littérature réelle, mais celle-ci décrit systématiquement des cas d'**otite moyenne tuberculeuse** (une manifestation rare de tuberculose extra-pulmonaire), traitée par le protocole antituberculeux standard incluant le pyrazinamide — et non une action antibactérienne directe du pyrazinamide sur l'otite moyenne commune. Cette nuance est importante : la piste la plus crédible n'est pas celle du rang 1 présentée ici, mais celle, plus restreinte, de l'otite moyenne d'origine tuberculeuse.
-
----
+Les indications voisines montrent des signaux plus concrets. Pour la « maladie de l'oreille moyenne » et l'« otite chronique », la littérature est dominée par des cas d'otite tuberculeuse traités par une association antituberculeuse incluant le pyrazinamide (par ex. PMID [26785789](https://pubmed.ncbi.nlm.nih.gov/26785789/), [12680299](https://pubmed.ncbi.nlm.nih.gov/12680299/)). Il s'agit d'une extension de l'indication antituberculeuse à une forme extrapulmonaire, et non d'un nouveau mécanisme. La contribution propre du pyrazinamide ne peut pas être isolée de celle du schéma combiné.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
 
-Aucune AMM enregistrée en France — le pyrazinamide n'est pas commercialisé sous licence répertoriée dans le registre consulté (statut : non commercialisé, 0 AMM).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66454982 | PIRILENE 500 mg, comprimé | Comprimé | Non précisée dans les données reçues |
+| 64208131 | RIFATER, comprimé enrobé | Comprimé enrobé | Non précisée dans les données reçues |
 
----
+Les deux produits sont fabriqués par SANOFI WINTHROP INDUSTRIE.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucun essai clinique ni aucune publication ne soutient l'indication « otite moyenne infectieuse » spécifiquement ; le score TxGNN élevé reflète une proximité d'embedding sans mécanisme vérifiable. De plus, l'absence de données sur les mises en garde/contre-indications TFDA (écart bloquant) empêche toute évaluation de sécurité S1.
+- La prédiction pour l'otite moyenne infectieuse repose uniquement sur le score du modèle (L5), sans essai ni publication, et sans lien mécanistique plausible hors cause mycobactérienne.
+- Les signaux les plus solides concernent l'otite moyenne tuberculeuse (cas cliniques, niveau L4). Cette piste relève d'une question de recherche, non d'une décision d'adoption.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir le libellé officiel (mises en garde, contre-indications) via l'AMM/notice réglementaire — écart bloquant actuel
-- Documenter le mécanisme d'action complet via l'API DrugBank
-- Réorienter, le cas échéant, l'hypothèse de recherche vers l'**otite moyenne tuberculeuse** (sous-catégorie disposant d'un corpus de cas cliniques réels), plutôt que l'otite moyenne infectieuse générique
-- Rechercher une éventuelle activité antibactérienne directe du pyrazinamide contre les pathogènes usuels de l'otite moyenne avant toute étude préclinique
+- Récupérer la notice ANSM (mises en garde, contre-indications, indications autorisées), une lacune bloquante pour le criblage de sécurité
+- Obtenir les données sur le mécanisme d'action (DrugBank)
+- Reformuler la question en « otite moyenne tuberculeuse » et réaliser une revue systématique ciblée
+- Évaluer la pénétration du pyrazinamide dans l'oreille moyenne et l'oreille interne
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Tezacaftor
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 301
+nav_order: 305
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,68 +29,74 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Tézacaftor : De la Mucoviscidose à l'Infection par le VIH
+# Tezacaftor : De la Mucoviscidose à l'Infection par le VIH
 
 ## Résumé en Une Phrase
 
-Le tézacaftor est un correcteur du CFTR utilisé dans le traitement de la mucoviscidose (fibrose kystique) chez les patients porteurs de la mutation F508del. Le modèle TxGNN prédit un score élevé pour une association avec l'**infection par le VIH**, mais cette prédiction n'est actuellement soutenue par **aucun essai clinique** ni **aucune publication**.
-
----
+Tezacaftor est un correcteur de la protéine CFTR, commercialisé en association avec l'ivacaftor (et l'elexacaftor dans Kaftrio) pour la mucoviscidose.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le VIH**, avec un score élevé (99,24 %).
+Cette prédiction repose uniquement sur le modèle : **0 essai clinique** et **0 publication** la soutiennent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mucoviscidose (fibrose kystique) |
-| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Indication Originale | Mucoviscidose (déduite de l'association avec l'ivacaftor ; le texte d'indication n'est pas renseigné dans les AMM) |
+| Nouvelle Indication Prédite | Infection par le VIH |
 | Score de Prédiction TxGNN | 99,24 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 6 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le champ officiel de mécanisme d'action (MOA) du tézacaftor n'est pas renseigné dans les données sources. Sur la base des informations disponibles dans le dossier, le tézacaftor est un correcteur moléculaire (chaperonne) du CFTR (*cystic fibrosis transmembrane conductance regulator*) : il aide la protéine F508del-CFTR mal repliée à retrouver une conformation correcte et à s'exprimer à la membrane cellulaire. C'est un médicament ciblé de la mucoviscidose, sans activité antivirale ou immunomodulatrice connue.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche DrugBank. Sur la base des informations connues, tezacaftor fait partie des correcteurs de CFTR : il améliore le repliement et l'acheminement de la protéine CFTR vers la membrane cellulaire. Son efficacité dans la mucoviscidose est établie, mais aucun lien mécanistique avec le VIH n'est démontré.
 
-Il n'existe aucun chevauchement mécanistique plausible entre la correction du repliement du CFTR épithélial et la pathophysiologie de l'infection par le VIH (réplication virale, transcriptase inverse, protéase, voies immunitaires de l'hôte). Le score TxGNN élevé (99,24 %) reflète très probablement une similarité topologique dans le graphe de connaissances plutôt qu'un lien pharmacologique réel : en l'absence de toute donnée clinique ou préclinique de soutien, cette prédiction doit être considérée comme une hypothèse générée par le modèle, et non comme une preuve.
+**Le score élevé ne suffit donc pas à rendre la prédiction crédible.** Sans indication d'origine ni mécanisme renseignés, le score de 0,992 ne peut pas être confronté à la pharmacologie connue. Il reflète probablement la topologie du graphe de connaissances plutôt qu'un signal validé. Un lien avec le VIH, par exemple via des effets de CFTR sur des processus de la cellule hôte ou sur le transport de médicaments, resterait spéculatif.
 
-À titre de contexte, deux autres indications prédites pour le tézacaftor (la lèpre et les néoplasies endocriniennes multiples) présentent le même profil : score TxGNN élevé, mais aucune preuve mécanistique, clinique ou littéraire à l'appui, et sont également classées Hold.
-
----
+Deux autres indications ont été prédites avec des scores comparables : la **lèpre** (99,14 %) et la **néoplasie endocrinienne multiple** (99,06 %). Aucune n'a de lien mécanistique plausible ni de preuve clinique ou bibliographique. Tezacaftor n'a pas d'activité antimycobactérienne connue, et la correction de CFTR ne cible pas les voies MEN1 ou RET.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 62984481 | SYMKEVI 50 mg/75 mg | Comprimé pelliculé |
+| 66848831 | SYMKEVI 100 mg/150 mg | Comprimé pelliculé |
+| 66594621 | KAFTRIO 75 mg/50 mg/100 mg | Granulés en sachet |
+| 69275098 | KAFTRIO 37,5 mg/25 mg/50 mg | Comprimé pelliculé |
+| 62104529 | KAFTRIO 60 mg/40 mg/80 mg | Granulés en sachet |
+
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Sur les 6 AMM recensées, 5 sont listées ici.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucun lien mécanistique plausible n'existe entre le mode d'action du tézacaftor et l'infection par le VIH, et aucune preuve clinique, préclinique ou littéraire ne soutient cette direction. Le score TxGNN élevé seul est insuffisant pour justifier une progression.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique plausible n'a pu être établi entre tezacaftor et le VIH.
+- Les données de sécurité de la notice ANSM manquent, ce qui empêche toute évaluation de sécurité préliminaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications officielles (TFDA/ANSM) — actuellement un écart bloquant (DG001)
-- Documentation formelle du mécanisme d'action (DG002)
-- Données précliniques ou de mécanisme établissant un lien plausible avec l'infection par le VIH
-- Confirmation par au moins une étude observationnelle ou un essai clinique avant toute réévaluation du niveau de preuve
+- Récupérer la notice ANSM (mises en garde et contre-indications) pour permettre le criblage de sécurité
+- Compléter les données sur le mécanisme d'action (MOA) via DrugBank
+- Rechercher des études précliniques ou de mécanisme reliant CFTR ou tezacaftor au VIH
+- Renseigner le texte des indications approuvées dans les AMM françaises
+- Réévaluer la décision seulement si de telles preuves apparaissent
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un conseil médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

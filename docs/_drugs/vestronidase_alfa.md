@@ -2,7 +2,7 @@
 layout: default
 title: Vestronidase Alfa
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 330
+nav_order: 334
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,72 +29,67 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Vestronidase Alfa : De la Mucopolysaccharidose de Type VII (Syndrome de Sly) au Syndrome de Scheie
+# Vestronidase alfa : De la mucopolysaccharidose de type VII (MPS VII) au syndrome de Scheie
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Vestronidase alfa est une β-glucuronidase humaine recombinante (GUSB), utilisee comme therapie de remplacement enzymatique pour la mucopolysaccharidose de type VII (MPS VII, syndrome de Sly), une maladie ultra-rare.
-Le modele TxGNN predit qu'elle pourrait etre efficace pour le **syndrome de Scheie** (une forme legere de MPS I),
-mais cette direction n'est actuellement soutenue par **aucun essai clinique ni aucune publication**, et son mecanisme d'action est incompatible avec celui de la maladie ciblee.
+Vestronidase alfa est une enzyme recombinante (β-glucuronidase humaine, GUSB), initialement utilisée pour traiter la mucopolysaccharidose de type VII (MPS VII).
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de Scheie** (MPS I atténuée), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+L'analyse mécanistique est même défavorable : la GUSB ne peut pas remplacer l'enzyme déficiente dans cette maladie (IDUA).
 
----
+## Aperçu Rapide
 
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Mucopolysaccharidose de type VII (syndrome de Sly)* |
-| Nouvelle Indication Predite | Syndrome de Scheie |
-| Score de Prediction TxGNN | 99.90% |
+| Indication Originale | MPS VII (le texte d'indication de l'AMM n'est pas renseigné dans la base) |
+| Nouvelle Indication Prédite | Syndrome de Scheie |
+| Score de Prédiction TxGNN | 99,90 % |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
-*Le champ officiel d'indication d'origine est absent des donnees reglementaires (aucune AMM en France). L'indication ci-dessus est reconstituee a partir des publications citees dans le dossier de preuves (PMID 32063397, 30467742), qui decrivent vestronidase alfa comme le traitement enregistre de la MPS VII.
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
----
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, vestronidase alfa est une enzymothérapie substitutive (ERT) par β-glucuronidase recombinante. Son efficacité dans la MPS VII a été démontrée, et elle agit sur le catabolisme lysosomal des glycosaminoglycanes (GAG).
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Le syndrome de Scheie est dû à un déficit en alpha-L-iduronidase (IDUA). La GUSB retire les résidus d'acide glucuronique terminaux, alors que l'IDUA retire les résidus d'acide iduronique terminaux. La GUSB ne peut donc pas se substituer à l'IDUA. Le lien n'existe qu'au niveau de la classe (voie de dégradation lysosomale des GAG). Une ERT spécifique à base d'IDUA (laronidase) existe déjà pour cette maladie.
 
-Les donnees structurees de MOA sont marquees comme absentes (`[Data Gap]`) dans le dossier. Sur la base des publications disponibles, vestronidase alfa est une β-glucuronidase (GUSB) recombinante administree par voie IV, qui restaure l'activite enzymatique deficiente dans la MPS VII et reduit l'accumulation urinaire de glycosaminoglycanes (GAG).
-
-Le syndrome de Scheie, cible par la prediction de rang 1, est en realite une forme legere de MPS I, causee par un deficit en **α-L-iduronidase (IDUA)** et non en β-glucuronidase. Les deux enzymes agissent sur des liaisons glycosidiques differentes (liaison iduronique vs liaison glucuronique) et ne sont pas interchangeables dans une therapie de remplacement enzymatique. Le dossier de preuves lui-meme signale ce point : *« Scheie syndrome ... avec GUSB 酵素替代機轉不匹配，無任何直接或間接臨床證據支持 »*.
-
-Ce constat n'est pas isole : les predictions de rang 2 a 9 pour ce medicament presentent le meme profil — scores TxGNN eleves mais absence de lien mecanistique verifie (plusieurs sont des syndromes ophtalmologiques ou neurologiques congenitaux sans rapport avec le metabolisme lysosomal). Cela suggere un signal de similarite d'embedding plutot qu'une hypothese biologiquement fondee, probablement du fait de la rarete extreme de la maladie d'origine et du peu de donnees d'entrainement disponibles.
-
----
+Le score TxGNN très élevé reflète probablement la proximité des maladies MPS dans le graphe de connaissances, et non une cible enzymatique commune. Cette prédiction doit donc être considérée comme un signal de classe, pas comme une hypothèse thérapeutique solide.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement pour l'indication Syndrome de Scheie.
+Aucun essai clinique associé n'est enregistré actuellement pour le syndrome de Scheie.
 
----
+À titre d'information, l'essai de Phase 1 [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) (PEARL, ERT prénatale dans les maladies lysosomales, n=10, en recrutement) est lié à une autre prédiction, le syndrome de Hurler. Il s'agit d'une plateforme multi-maladies, et rien ne confirme que vestronidase alfa y soit utilisée. Il n'apporte donc aucun soutien au syndrome de Scheie.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-Aucune litterature associee disponible actuellement pour l'indication Syndrome de Scheie.
+Aucune littérature associée n'est disponible actuellement pour le syndrome de Scheie.
 
----
+## Informations de Marché en France
 
-## Informations de Marche en France
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61759695 | MEPSEVII 2 mg/ml, solution à diluer pour perfusion (ULTRAGENYX GERMANY) | Solution à diluer pour perfusion | Texte non renseigné dans la base |
 
-Vestronidase alfa n'est associe a aucune AMM en France (0 AMM enregistree, statut : non commercialise).
+## Considérations de Sécurité
 
----
+Veuillez consulter la notice pour les informations de sécurité.
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-Le score TxGNN est eleve, mais aucune preuve clinique ou litteraire ne soutient l'indication Syndrome de Scheie, et le mecanisme d'action (GUSB) est incompatible avec la physiopathologie de cette maladie (deficit en IDUA). Il s'agit vraisemblablement d'un artefact du modele plutot que d'une hypothese exploitable.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. L'argument enzymatique est défavorable, car la GUSB ne peut pas remplacer l'IDUA. Un traitement spécifique (laronidase) est déjà disponible.
+- Les autres prédictions du dossier ne changent pas cette conclusion. Celles pour le syndrome de Hurler et le syndrome de Sanfilippo relèvent de la simple question de recherche (L4) : elles ne reposent que sur une plateforme d'essai non spécifique et sur des publications portant sur la MPS VII. Le reste des prédictions ne présente aucun lien plausible.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Mises en garde et contre-indications officielles (donnee bloquante DG001 — necessaire avant toute evaluation de securite S1)
-- Confirmation du mecanisme d'action detaille aupres de DrugBank (DG002)
-- Une revalidation biologique du lien MPS VII → syndrome de Scheie, ou l'exploration d'indications alternatives mieux alignees mecanistiquement (ex. autres formes de MPS avec deficit en GUSB)
-- Si aucune piste mecanistique solide n'emerge, ecarter cette prediction au profit d'autres candidats du pipeline TxGNN
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer la notice de l'ANSM (mises en garde, contre-indications), étape bloquante pour tout criblage de sécurité
+- Obtenir les données de mécanisme d'action depuis DrugBank
+- Obtenir le texte d'indication de l'AMM 61759695 pour confirmer l'indication originale
+- Justifier, par des données précliniques, une activité de la GUSB sur les substrats de l'IDUA. Sans cela, il n'y a pas de raison d'engager une étude clinique dans le syndrome de Scheie.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

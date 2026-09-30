@@ -2,15 +2,15 @@
 layout: default
 title: Famciclovir
 parent: Preuves modérées (L3-L4)
-nav_order: 122
-evidence_level: L3
+nav_order: 125
+evidence_level: L4
 indication_count: 9
 ---
 
 # Famciclovir
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **9** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,64 @@ Niveau de preuve: **L3** | Indications prédites: **9**
 
 </div>
 
-# Famciclovir : De l'Infection Herpétique à la Névralgie Post-Infectieuse
+# Famciclovir : Vers la Névralgie Post-Infectieuse
 
 ## Résumé en Une Phrase
 
-Famciclovir est un antiviral nucléoside analogue, prodrug du penciclovir, reconnu pour le traitement des infections à virus varicelle-zona (VZV), notamment l'herpès zoster et la varicelle.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie post-infectieuse**,
-avec **2 essais cliniques** documentés dans ce domaine — bien qu'aucun ne teste directement le famciclovir pour cette indication — et **aucune publication** spécifiquement associée.
-
----
+Famciclovir est un antiviral, prodrogue du penciclovir, qui agit sur l'ADN polymérase des herpèsvirus. Le texte de l'indication autorisée en France n'est pas renseigné dans les données reçues.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie post-infectieuse** (en pratique, la névralgie post-zostérienne), avec **2 essais cliniques** liés à la maladie, dont aucun ne teste le famciclovir, et **aucune publication** soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible (médicament non commercialisé dans la base consultée) |
 | Nouvelle Indication Prédite | Névralgie post-infectieuse |
-| Score de Prédiction TxGNN | 99.75% |
-| Niveau de Preuve | L3 |
-| Statut de Marché | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Score de Prédiction TxGNN | 99,75 % |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Famciclovir est le prodrug oral du penciclovir. Après absorption intestinale, il est rapidement converti en penciclovir actif, lequel est phosphorylé par la thymidine kinase virale spécifique du VZV. Sous forme triphosphatée, il inhibe sélectivement la DNA polymérase virale, bloquant ainsi la réplication du VZV. Ce mécanisme est bien établi dans le traitement de l'herpès zoster et de la varicelle, comme en témoignent les données des essais cliniques présents dans ce pack (notamment NCT01327144 Phase 3 et NCT00098046 Phase 3 pédiatrique).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. Sur la base des informations connues, le famciclovir est converti en penciclovir, qui inhibe l'ADN polymérase du virus varicelle-zona (VZV) après phosphorylation par la thymidine kinase virale.
 
-La névralgie post-infectieuse — et plus spécifiquement la névralgie post-zostérienne (PHN) — représente la complication la plus fréquente et la plus invalidante de l'herpès zoster. Elle résulte de lésions nerveuses induites par la réplication virale intensive lors de la phase aiguë : plus la charge virale et la durée d'infection aiguë sont élevées, plus les dommages neuronaux sont importants et la probabilité de PHN augmente. Il existe donc un lien mécanistique indirect cohérent : en inhibant la réplication du VZV dès la phase aiguë, le famciclovir pourrait atténuer l'ampleur des lésions nerveuses et, par conséquent, réduire l'incidence ou la sévérité de la PHN.
+La névralgie post-infectieuse est la complication douloureuse la plus fréquente du zona. Un traitement antiviral précoce pendant la phase aiguë du zona pourrait réduire la gravité et la durée de cette phase, ce qui constitue une voie indirecte plausible pour diminuer le risque de névralgie ultérieure.
 
-Cette hypothèse « inhibition virale aiguë → réduction des dommages neuronaux → prévention de la PHN » est biologiquement plausible. Des données provenant d'études sur l'herpès zoster suggèrent que les antiviraux, administrés précocement (dans les 72 heures), réduisent la durée des douleurs zostériennes aiguës. Toutefois, les essais cliniques disponibles dans ce pack d'évidence ne testent pas directement le famciclovir pour la prévention ou le traitement de la névralgie post-infectieuse établie, ce qui maintient le niveau de preuve à L3.
-
----
+Cette hypothèse reste indirecte. Les deux essais associés portent sur d'autres interventions (oxycodone, blocs nerveux) et ne fournissent aucune preuve directe pour le famciclovir dans cette indication.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | NA | Inconnu | 140 | Évaluation de l'oxycodone précoce pendant la phase aiguë de l'herpès zoster pour prévenir la PHN — famciclovir non testé directement ; fournit un contexte sur la recherche en prévention de la PHN |
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | NA | Pas encore recruté | 120 | Bloc nerveux multimodal à la bupivacaïne liposomale et ropivacaïne pour la douleur aiguë de l'herpès zoster — intervention non pharmacologique ; famciclovir absent du schéma expérimental |
-
-> **Note :** Les deux essais identifiés sont classés pertinence C — ils illustrent le domaine de recherche en prévention de la PHN mais ne testent pas directement le famciclovir pour cette indication.
-
----
-
-## Preuves de la Littérature
-
-Aucune littérature associée disponible actuellement pour la névralgie post-infectieuse en lien direct avec le famciclovir.
-
----
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Non applicable | Inconnu | 140 | Oxycodone précoce en phase aiguë du zona pour prévenir la névralgie post-zostérienne. Le famciclovir n'est pas testé. |
+| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | Non applicable | Recrutement non commencé | 120 | Bloc nerveux multimodal et radiofréquence pulsée pour la douleur du zona aigu. Aucun bras famciclovir. |
 
 ## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour le famciclovir dans la base de données réglementaire consultée.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 69092403 | ORAVIR 125 mg, comprimé pelliculé | Comprimé pelliculé |
+| 62801318 | ORAVIR 500 mg, comprimé pelliculé | Comprimé pelliculé |
 
----
+Les deux AMM sont détenues par PHOENIX LABS (Irlande).
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le lien mécanistique entre famciclovir et la névralgie post-infectieuse est biologiquement plausible (inhibition virale aiguë → réduction des lésions nerveuses), mais les preuves directes sont insuffisantes : aucun essai clinique ne teste directement le famciclovir pour cette indication, et aucune publication spécifique n'est disponible. L'absence d'AMM locale renforce la prudence.
-
-> **Signal à surveiller :** L'analyse comparative du pack révèle que l'indication **varicelle** (chickenpox, rang 7 par score TxGNN) présente un niveau de preuve **L1** avec 5 essais cliniques (dont 2 Phase 3 complétés directement sur famciclovir) et 20 publications — ce qui représente le dossier de repositionnement le plus solide dans ce pack et mériterait une évaluation prioritaire distincte.
+La prédiction repose sur un score de modèle élevé et sur un lien mécanistique indirect. Aucun essai ni publication ne teste le famciclovir dans la névralgie post-infectieuse, et les données de sécurité de la notice ANSM sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-
-- Données formelles sur le mécanisme d'action (MOA) issues de DrugBank — actuellement manquantes
-- Essais cliniques randomisés contrôlés évaluant directement le famciclovir dans la prévention ou le traitement de la névralgie post-zostérienne établie
-- Données de sécurité complètes : avertissements, contre-indications et interactions médicamenteuses (données actuellement indisponibles dans ce pack)
-- Clarification du statut réglementaire en France/UE (famciclovir est commercialisé dans d'autres pays sous le nom Famvir® — vérification auprès de l'ANSM recommandée)
-- Méta-analyse des données d'essais herpès zoster existants pour extraire les données de PHN secondaires liées au famciclovir
+- Un essai comparatif évaluant directement le famciclovir sur la prévention de la névralgie post-zostérienne
+- La notice ANSM (mises en garde, contre-indications) et le texte de l'indication autorisée
+- Les données détaillées sur le mécanisme d'action (DrugBank)
+- Un point d'attention : dans le même Evidence Pack, la varicelle et le zona (rang 7) sont soutenus par un essai de phase 3 terminé comparant famciclovir et aciclovir dans le zona (NCT01327144), ainsi qu'un essai pédiatrique de phase 3 sur la pharmacocinétique et la sécurité (NCT00098046). Cette piste, au niveau L1, est recommandée en « Proceed with Guardrails » ; il faudrait confirmer s'il s'agit de la varicelle ou du zona et la base de dosage pédiatrique.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

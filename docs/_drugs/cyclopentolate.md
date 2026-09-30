@@ -2,7 +2,7 @@
 layout: default
 title: Cyclopentolate
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 91
+nav_order: 93
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,64 +29,72 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Cyclopentolate : De l'Usage Ophtalmique au Syndrome de la Queue de Cheval
+# Cyclopentolate : Du Collyre Mydriatique et Cycloplégique au Syndrome de la Queue de Cheval
 
 ## Résumé en Une Phrase
 
-Cyclopentolate est un antagoniste muscarinique (antimuscarinique) utilisé en ophtalmologie pour induire la cycloplégie et la mydriase lors d'examens oculaires. Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Syndrome de la Queue de Cheval**, avec **0 essai clinique** et **0 publication** soutenant actuellement cette direction. Deux autres indications prédites — la vessie neurogène et le syndrome de l'intestin irritable — présentent une rationalité mécanistique plus directe, mais restent également sans données cliniques à l'appui.
-
----
+Le cyclopentolate est un anticholinergique (antagoniste muscarinique) commercialisé en France sous forme de collyre, à usage ophtalmique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la queue de cheval**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---------|---------|
-| Indication Originale | Usage ophtalmique (cycloplégie, mydriase) |
-| Nouvelle Indication Prédite | Syndrome de la Queue de Cheval |
-| Score de Prédiction TxGNN | 99,54% |
+|------|------|
+| Indication Originale | Non renseignée dans les données de l'ANSM (collyre à usage ophtalmique) |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
+| Score de Prédiction TxGNN | 99,54 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce pack. Sur la base des informations pharmacologiques connues, cyclopentolate est un antagoniste des récepteurs muscariniques (M1, M2, M3), dont l'effet de cycloplégie et de mydriase est bien établi en pratique ophtalmologique. Son blocage des récepteurs cholinergiques parasympathiques est la base de son usage diagnostique et thérapeutique oculaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la pharmacologie générale, le cyclopentolate est un antagoniste des récepteurs muscariniques. En ophtalmologie, il dilate la pupille et paralyse l'accommodation. Le collyre est son seul usage commercialisé en France.
 
-Le syndrome de la queue de cheval (CES) est une urgence neurochirurgicale provoquée par la compression des racines nerveuses de la queue de cheval au niveau sacré. Le traitement de référence est la décompression chirurgicale rapide. La connexion mécanistique avec cyclopentolate est extrêmement indirecte : l'action antimuscarinique pourrait théoriquement atténuer les symptômes secondaires du CES tels que la dysfonction vésicale neurogène (via le blocage des récepteurs M2/M3 du détrusor), mais n'apporte aucun bénéfice sur la cause étiologique, à savoir la compression radiculaire. Il s'agit d'une gestion symptomatique, non d'une modification de la maladie, et des options thérapeutiques standard (chirurgie, cathétérisme, anticholinergiques vésicaux dédiés) sont prioritaires.
+Un antimuscarinique pourrait en théorie soulager certains symptômes vésicaux ou intestinaux secondaires au syndrome de la queue de cheval. En revanche, il ne traite pas la cause, c'est-à-dire la compression des racines nerveuses, qui est une urgence chirurgicale. Le lien mécanistique est donc faible et indirect. Le score du modèle seul ne suffit pas à le soutenir.
 
-Le score TxGNN élevé (99,54%) reflète probablement la détection par le modèle des caractéristiques dysautonomiques du CES, notamment les troubles sphinctériens, comme signal de connexion avec les effets antimuscariniques de cyclopentolate. La valeur de translation clinique directe reste cependant extrêmement limitée.
-
----
+Deux autres prédictions ont un score comparable (toutes deux de niveau L5, sans essai ni publication) :
+- **Vessie neurogène** (99,40 %) : la classe des antimuscariniques est bien établie pour l'hyperactivité du détrusor, mais des médicaments approuvés existent déjà. Le terme de maladie est signalé comme « obsolète » dans l'ontologie. Il faudrait revérifier la correspondance avec un terme actuel, par exemple l'hyperactivité neurogène du détrusor.
+- **Syndrome de l'intestin irritable** (99,27 %) : les antispasmodiques antimuscariniques sont utilisés contre les douleurs abdominales. Aucune donnée n'existe pour le cyclopentolate par voie systémique ou orale. Les effets anticholinergiques systémiques (bouche sèche, tachycardie, effets centraux, constipation) sont préoccupants, surtout en cas de SII à prédominance constipation.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69255195 | SKIACOL 0,5 POUR CENT, collyre (Laboratoires Alcon) | Collyre en solution | Non précisée dans les données |
+
+## Considérations de Sécurité
+
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN pour le syndrome de la queue de cheval repose uniquement sur un lien mécanistique indirect — l'antagonisme M2/M3 pourrait gérer les symptômes vésicaux secondaires du CES — sans aucun essai clinique, aucune étude préclinique ni aucune publication à l'appui (niveau de preuve L5). Le CES est une urgence chirurgicale ; cyclopentolate ne peut pas traiter la cause étiologique, et sa formulation ophtalmique n'est pas adaptée à un usage systémique.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication.
+- Le lien mécanistique avec la compression nerveuse du syndrome de la queue de cheval est faible.
+- La seule forme commercialisée est un collyre.
+- Les données de sécurité de la notice sont absentes du dossier.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données complètes sur le mécanisme d'action (MOA) de cyclopentolate, notamment la sélectivité par sous-type de récepteur muscarinique
-- Évaluation de la possibilité d'une formulation systémique (cyclopentolate étant actuellement disponible principalement en collyre)
-- Revue systématique des anticholinergiques dans la gestion des complications vésicales et intestinales du CES
-- Études précliniques sur l'effet de l'antagonisme M2/M3 dans des modèles de compression radiculaire
-- Avis d'experts en neurochirurgie et urologie sur la pertinence clinique de ce repositionnement
-- Évaluation des deux autres indications prédites (vessie neurogène, syndrome de l'intestin irritable) qui présentent un lien mécanistique de classe (class effect) plus direct et une plausibilité clinique supérieure
+- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indication approuvée). Ce point est bloquant pour le criblage de sécurité.
+- Obtenir les données sur le mécanisme d'action (par exemple via l'API DrugBank).
+- Réaliser une recherche systématique d'essais cliniques et de littérature pour les trois indications prédites.
+- Évaluer la compatibilité des voies d'administration : le collyre ne permet pas d'atteindre une action vésicale ou intestinale.
+- Recontrôler la correspondance du terme de maladie « obsolète » pour la vessie neurogène.
+- Comparer avec les antimuscariniques déjà approuvés pour les symptômes vésicaux et intestinaux.
+
+*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

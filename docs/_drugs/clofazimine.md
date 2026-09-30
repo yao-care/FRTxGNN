@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clofazimine
-parent: Preuves modérées (L3-L4)
-nav_order: 81
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 83
+evidence_level: L5
 indication_count: 3
 ---
 
 # Clofazimine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,76 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Clofazimine : De la Lèpre et de la Tuberculose Résistante à la Pneumocystose
+# Clofazimine : De l'indication d'origine non documentée à la pneumocystose
 
 ## Résumé en Une Phrase
 
-Clofazimine est un antibiotique riminophénazine utilisé principalement dans le traitement de la lèpre (maladie de Hansen) et des régimes contre la tuberculose résistante aux médicaments (MDR-TB).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **pneumocystose** (infection pulmonaire à *Pneumocystis jirovecii*),
-avec **1 essai clinique** et **4 publications** associés à cette direction — bien que le lien mécanistique direct reste à établir.
-
----
+La clofazimine est commercialisée en France sous le nom LAMPRENE (Novartis Pharma), mais le dossier ne précise pas son indication d'origine. La littérature la montre utilisée dans des schémas contre la lèpre et la tuberculose résistante, ainsi que pour la prophylaxie de l'infection à *Mycobacterium avium* complex (MAC) chez des patients atteints du sida.
+Le modèle TxGNN prédit qu'elle pourrait être efficace contre la **pneumocystose**, avec **1 essai clinique** et **4 publications** associés. Aucun de ces documents ne démontre une activité de la clofazimine contre *Pneumocystis*.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Lèpre / Tuberculose résistante aux médicaments |
-| Nouvelle Indication Prédite | Pneumocystose (*Pneumocystis jirovecii*) |
+|------|------|
+| Indication Originale | Non renseignée dans les AMM fournies |
+| Nouvelle Indication Prédite | Pneumocystose |
 | Score de Prédiction TxGNN | 99,90 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Niveau de Preuve | L5 (prédiction du modèle uniquement, aucune étude directe sur la pneumocystose) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action de la clofazimine ne sont pas disponibles dans le dossier actuel. Sur la base des informations connues dans la littérature, la clofazimine appartient à la classe des riminophénazines : elle agit en produisant des espèces réactives de l'oxygène (ROS) qui perturbent l'équilibre redox cellulaire des bactéries pathogènes — principalement les mycobactéries — et possède également des propriétés anti-inflammatoires accessoires.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Aucun lien mécanistique entre la clofazimine et la pneumocystose ne peut donc être établi.
 
-La pneumocystose est une infection opportuniste causée par *Pneumocystis jirovecii* (anciennement *P. carinii*), survenant principalement chez les patients immunodéprimés, notamment ceux atteints du VIH/SIDA. La clofazimine est fréquemment utilisée dans ce même contexte épidémiologique : les patients traités par MDT (multithérapie antilépreuse) ou par régimes MDR-TB peuvent présenter un terrain compatible avec des co-infections opportunistes, dont la PCP. C'est par ce canal que TxGNN détecte un lien dans le graphe de connaissances — à travers la co-occurrence de ces pathologies chez les patients VIH.
+Dans la littérature retrouvée, la clofazimine apparaît dans la prophylaxie de l'infection à MAC chez des patients infectés par le VIH. La pneumocystose (*Pneumocystis carinii pneumonia*) y figure uniquement comme infection opportuniste associée. Dans un cas décrit, elle a été traitée par triméthoprime-sulfaméthoxazole, et non par la clofazimine. Le seul point commun est la population de patients immunodéprimés.
 
-Cependant, le rationnel mécanistique direct est faible. Aucune activité propre de la clofazimine contre *Pneumocystis jirovecii* n'est actuellement documentée. La haute prédiction TxGNN reflète probablement une association épidémiologique (co-infection SIDA : MAC + PCP chez les mêmes patients) plutôt qu'une action pharmacologique directe sur le pathogène fongique. Le rationnel mécanistique fourni dans le dossier confirme cette interprétation.
-
----
+Le score TxGNN est très élevé, mais il reste une prédiction de modèle. Aucune donnée réelle ne le confirme à ce jour.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---|---|---|---|---|
-| [NCT00002058](https://clinicaltrials.gov/study/NCT00002058) | NA | Terminé | N/D | ECR évaluant la clofazimine en prophylaxie des infections à *Mycobacterium avium complex* (MAC) chez des patients VIH à risque. Population incluse présentant un antécédent de pneumocystose à *P. carinii* ou CD4 ≤ 100/mm³, mais l'endpoint principal est le MAC — pertinence pour la pneumocystose tangentielle (Grade C). |
-
----
+|---------|------|------|------|---------|
+| [NCT00002058](https://clinicaltrials.gov/study/NCT00002058) | Non applicable | Terminé | Non renseignée | Étude randomisée de prophylaxie par la clofazimine contre l'infection à *Mycobacterium avium* complex chez des patients infectés par le VIH. Elle ne concerne pas *Pneumocystis* (pertinence : faible, grade C). |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | ECR (MAC) | The Journal of Infectious Diseases | ECR prospectif randomisé évaluant la clofazimine 50 mg/j en prophylaxie du MAC chez 110 patients VIH — population recrutée sur antécédent de pneumocystose à *P. carinii* ou CD4 ≤ 100/mm³ ; endpoint principal MAC, sans données sur la PCP. |
-| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Revue | PI Perspective | Mise à jour sur les infections opportunistes chez les patients VIH ; contexte général incluant PCP et MAC, sans étude directe sur la clofazimine contre *P. jirovecii*. |
-| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Rapport de cas | Infection | Patient SIDA présentant une co-infection à *M. kansasii* compliquée d'une pneumocystose à *P. carinii* — récupération après régime incluant clofazimine + ciprofloxacine (pour mycobactérie) et TMP-SMX (pour PCP) ; rôle de la clofazimine limité à la composante mycobactérienne. |
-| [6299154](https://pubmed.ncbi.nlm.nih.gov/6299154/) | 1983 | Rapport de cas | Annals of Internal Medicine | Premier cas décrit d'un patient hémophile présentant une pneumocystose à *P. carinii* associée à une bactériémie à *M. avium-intracellulare* — document historique contextualisant l'épidémiologie des co-infections SIDA, sans implication directe de la clofazimine dans le traitement de la PCP. |
+|------|-----|------|------|---------|
+| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | Essai randomisé ouvert (prophylaxie MAC) | J Infect Dis | 110 patients atteints du sida, dont certains avec un antécédent de pneumocystose. La clofazimine (50 mg) a été évaluée en prophylaxie de l'infection disséminée à MAC. |
+| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Revue | PI Perspective | Mise à jour générale sur les infections opportunistes. Pas de résumé disponible. |
+| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Rapport de cas | Infection | Patient atteint du sida avec infection à *M. kansasii*, traité par isoniazide, éthambutol, clofazimine et ciprofloxacine. La pneumocystose, survenue ensuite, a été traitée par triméthoprime-sulfaméthoxazole. |
+| [6299154](https://pubmed.ncbi.nlm.nih.gov/6299154/) | 1983 | Rapport de cas | Ann Intern Med | Patient hémophile atteint du sida avec pneumocystose et bactériémie à *M. avium-intracellulare*. |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 62768220 | LAMPRENE 50 mg | Capsule molle |
+| 67132888 | LAMPRENE 100 mg | Capsule molle |
+
+Les deux AMM sont détenues par Novartis Pharma, pour une voie orale uniquement.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune preuve directe d'activité de la clofazimine contre *Pneumocystis jirovecii* n'est disponible : l'unique essai clinique identifié cible le MAC (hors scope PCP), et les quatre publications se limitent à des rapports de cas ou des revues générales documentant la co-existence épidémiologique des infections opportunistes chez les patients SIDA. Le score TxGNN élevé (99,90 %) reflète vraisemblablement ce biais de co-occurrence dans le graphe de connaissances, et non un effet pharmacologique direct. Par ailleurs, la clofazimine n'est pas commercialisée en France (0 AMM), ce qui constitue un obstacle réglementaire supplémentaire.
+- Aucune preuve directe ne soutient l'efficacité de la clofazimine contre la pneumocystose. L'essai unique porte sur le MAC, et les autres documents sont des rapports de cas où la pneumocystose est une infection concomitante.
+- Le dossier ne contient ni données de mécanisme ni données de sécurité issues de la notice ANSM. Ce déficit bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Études in vitro confirmant (ou infirmant) une activité directe de la clofazimine ou de ses analogues riminophénazines contre *Pneumocystis jirovecii*
-- Obtention du mécanisme d'action complet via DrugBank (DG002 — actuellement manquant) pour affiner l'analyse mécanistique
-- Données de profil de sécurité via la notice ANSM ou le référentiel EMA (DG001 — actuellement manquant)
-- Évaluation de la faisabilité d'une autorisation d'accès spécial (ATU/AAP) en France pour un usage compassionnel éventuel
-- Revue systématique des données précliniques sur les riminophénazines dans les infections fongiques et parasitaires opportunistes
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée).
+- Obtenir les données de mécanisme d'action via DrugBank.
+- Rechercher des données précliniques d'activité de la clofazimine contre *Pneumocystis*.
+- Documenter l'indication d'origine à partir du RCP.
+
+**Autres prédictions du modèle** (paludisme, anomalie de sécrétion de gastrine) : elles ne sont pas évaluées ici. Le paludisme repose uniquement sur des données in vitro d'analogues de la clofazimine (hypothèse à explorer). Pour l'anomalie de sécrétion de gastrine, aucune preuve n'a été retrouvée.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

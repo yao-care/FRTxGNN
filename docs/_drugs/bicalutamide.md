@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bicalutamide
-parent: Preuves modérées (L3-L4)
-nav_order: 55
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 57
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Bicalutamide : Du Cancer de la Prostate à l'Hypertrichosis
+# Bicalutamide : Du Cancer de la Prostate à l'Hypertrichose
 
 ## Résumé en Une Phrase
 
-Bicalutamide est un antiandrogène non stéroïdien, principalement connu pour son utilisation dans le traitement du cancer de la prostate en bloquant de manière compétitive les récepteurs aux androgènes (AR).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hypertrichosis**, avec **0 essai clinique** et **1 publication** soutenant actuellement cette direction.
-La connexion mécanistique reste indirecte, limitée à un contexte très spécifique de gestion d'effet secondaire, et le niveau de preuve est insuffisant pour envisager une application clinique directe.
+Bicalutamide est un anti-androgène non stéroïdien, utilisé à l'origine dans le cancer de la prostate (indication citée dans la littérature ; le texte d'indication ANSM est vide dans les données).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**, mais les preuves sont très limitées : **aucun essai clinique** et **1 publication** (un commentaire, sans résumé disponible).
 
 ---
 
@@ -43,23 +42,23 @@ La connexion mécanistique reste indirecte, limitée à un contexte très spéci
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de la prostate (indication internationale reconnue ; non commercialisé en France) |
-| Nouvelle Indication Prédite | Hypertrichosis |
+| Indication Originale | Non renseignée dans les données ANSM (cancer de la prostate d'après la littérature) |
+| Nouvelle Indication Prédite | Hypertrichose |
 | Score de Prédiction TxGNN | 99,69 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Niveau de Preuve | L3 (indirect : un seul commentaire portant sur une étude rétrospective) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 14 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues, bicalutamide est un antagoniste compétitif du récepteur aux androgènes (AR) : il se lie au récepteur avec haute affinité sans activer la transcription, bloquant ainsi les effets des androgènes endogènes (testostérone, DHT) sur les cellules cibles. Son efficacité dans le cancer de la prostate androgéno-sensible est bien établie.
+Les données détaillées du mécanisme d'action ne sont pas renseignées dans le champ dédié. Selon l'analyse mécanistique du dossier, le bicalutamide est un antagoniste non stéroïdien du récepteur des androgènes (AR). En bloquant la signalisation AR dans les follicules pileux, il pourrait réduire la pousse pilaire dépendante des androgènes.
 
-La croissance des follicules pileux dans les zones sensibles aux androgènes est effectivement régulée par la signalisation AR. En théorie, le blocage de l'AR pourrait atténuer une croissance pilaire excessive médiée par les androgènes. Cependant, l'hypertrichosis — contrairement à l'hirsutisme — n'est généralement pas une condition androgéno-dépendante. Elle peut être d'origine génétique, médicamenteuse (ex. minoxidil, ciclosporine, phénytoïne) ou idiopathique, sans excès d'androgènes circulants.
+Le lien avec l'indication d'origine est indirect. Le cancer de la prostate est dépendant des androgènes, et l'hypertrichose induite par le minoxidil chez la femme pourrait l'être aussi. Le seul élément retrouvé est un commentaire sur une étude rétrospective de 35 patientes atteintes d'alopécie féminine, traitées par bicalutamide pour une hypertrichose induite par le minoxidil.
 
-L'unique preuve disponible est une lettre-commentaire (PMID 35304167, 2022) discutant l'amélioration de l'hypertrichosis induite par le minoxidil grâce au bicalutamide — autrement dit, il s'agit de la gestion d'un effet secondaire indésirable dans un contexte très particulier de l'alopécie féminine, et non d'un traitement de l'hypertrichosis primaire. Le lien mécanistique est donc faible, et cette prédiction TxGNN s'explique probablement par une connexion indirecte dans le graphe de connaissances entre les nœuds « androgènes » et « follicule pileux ».
+La prédiction est plausible sur le plan mécanistique, mais elle repose sur des preuves directes très faibles. Une utilisation chez la femme nécessiterait une surveillance hépatique et un conseil contraceptif.
 
 ---
 
@@ -73,7 +72,21 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Lettre / Commentaire | Journal of the American Academy of Dermatology | Commentaire sur l'utilisation du bicalutamide pour réduire l'hypertrichosis induite par le minoxidil chez des patientes atteintes d'alopécie féminine à pattern ; contexte de gestion d'effet secondaire, non de traitement primaire |
+| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Commentaire / lettre | J Am Acad Dermatol | Commentaire sur une revue rétrospective de 35 patientes : le bicalutamide améliore l'hypertrichose induite par le minoxidil dans l'alopécie féminine (résumé non disponible, d'après le titre) |
+
+---
+
+## Informations de Marché en France
+
+14 AMM au total ; les 5 principales sont listées ci-dessous. Le texte d'indication approuvée est vide pour ces AMM.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 61662634 | Bicalutamide Viatris 50 mg | Comprimé pelliculé |
+| 62794254 | Bicalutamide Zentiva 50 mg | Comprimé pelliculé |
+| 69193861 | Bicalutamide Teva 50 mg | Comprimé pelliculé |
+| 67949737 | Casodex 50 mg | Comprimé enrobé |
+| 64069322 | Bicalutamide EG 50 mg | Comprimé pelliculé |
 
 ---
 
@@ -81,17 +94,18 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie hormonale ciblée — Antiandrogène non stéroïdien (classe Biarylpropionamide) ; non cytotoxique conventionnel |
-| Risque de Myélosuppression | Faible (mécanisme purement hormonal/récepteur, sans effet myélosuppresseur direct) |
-| Classification d'Émétogénicité | Faible |
-| Éléments de Surveillance | Bilan hépatique (ASAT/ALAT — hépatotoxicité rapportée), NFS de base, PSA dans le contexte oncologique |
-| Protection de Manipulation | Précautions standard pour médicaments hormonaux ; manipulation cytotoxique lourde non requise |
+| Classification de Cytotoxicité | Hormonothérapie (anti-androgène non stéroïdien), non cytotoxique conventionnel |
+| Surveillance | Fonction hépatique (hépatotoxicité à surveiller d'après le dossier) ; pour les autres paramètres, veuillez consulter les mises en garde et précautions de la notice |
+| Risque de Myélosuppression, Émétogénicité, Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Hépatotoxicité** : une surveillance de la fonction hépatique serait nécessaire.
+- **Utilisation chez la femme** : un conseil contraceptif serait nécessaire.
+
+Pour les autres informations de sécurité (mises en garde, contre-indications, interactions), veuillez consulter la notice.
 
 ---
 
@@ -100,15 +114,14 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-L'hypertrichosis n'étant typiquement pas une maladie androgéno-dépendante, la plausibilité biologique du bicalutamide dans cette indication est faible. L'unique preuve disponible est une lettre commentaire portant sur la gestion d'un effet secondaire dans un contexte très spécifique (alopécie féminine traitée au minoxidil), sans aucun essai clinique, ce qui ne justifie pas de poursuivre le développement.
+- Le seul élément de preuve est un commentaire sur une étude rétrospective, sans essai clinique.
+- Les données de sécurité de la notice ANSM manquent encore, ce qui bloque l'évaluation de sécurité.
 
-> **Note importante :** Parmi les 10 indications prédites analysées dans ce dossier, le **carcinome mammaire féminin** (rang 9, score TxGNN 99,11 %) représente le candidat le plus avancé sur le plan clinique avec un niveau de preuve **L2** (1 essai de Phase 2 actif, 20 publications, dont plusieurs études mécanistiques et précliniques). Si l'objectif est d'identifier la piste de repositionnement la plus prometteuse pour bicalutamide, c'est cette indication qui devrait faire l'objet d'un rapport prioritaire.
-
-**Pour avancer sur la piste hypertrichosis, les éléments suivants sont nécessaires :**
-- Données pharmacologiques complètes (MOA, profil DrugBank) confirmant l'activité anti-AR
-- Identification du sous-type d'hypertrichosis ciblé (androgéno-dépendant vs. indépendant) avant toute exploration
-- Études précliniques sur des modèles validés d'hypertrichosis androgéno-dépendante
-- Évaluation du profil bénéfice/risque dans des populations non oncologiques (exposition à un antineoplastique hormonal pour une indication bénigne)
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer les mises en garde et contre-indications de la notice ANSM.
+- Obtenir les données détaillées du mécanisme d'action (DrugBank).
+- Consulter l'étude rétrospective de 35 patientes sur laquelle porte le commentaire, puis évaluer la faisabilité d'un essai contrôlé.
+- Pour information, dans ce même dossier, le **carcinome mammaire féminin** (récepteurs AR positifs) est mieux soutenu : niveau L2, un essai de Phase 2 en cours (NCT03650894) et plusieurs études précliniques.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

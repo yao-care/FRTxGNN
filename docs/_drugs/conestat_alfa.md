@@ -2,7 +2,7 @@
 layout: default
 title: Conestat Alfa
 parent: Preuves élevées (L1-L2)
-nav_order: 89
+nav_order: 91
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,100 +29,102 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Conestat Alfa : De l'Absence d'AMM en France au Traitement du Déficit en Inhibiteur C1
+# Conestat alfa : Déficit en inhibiteur de C1, une prédiction qui correspond à l'indication déjà commercialisée
 
 ## Résumé en Une Phrase
 
-Conestat Alfa (Ruconest®) est un inhibiteur recombinant humain de la C1-estérase (rhC1-INH), produit dans des lapins transgéniques, qui ne dispose actuellement d'aucune AMM enregistrée en France dans notre base de données.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Déficit en Inhibiteur C1 (Angiœdème Héréditaire)**, avec **41 essais cliniques** et **20 publications** soutenant actuellement cette direction.
-
----
+Conestat alfa (Ruconest) est un inhibiteur de la C1 estérase humain recombinant, produit chez le lapin transgénique. Il est déjà utilisé pour traiter les crises aiguës d'angiœdème héréditaire (AOH).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **déficit en inhibiteur de C1**, avec **41 essais cliniques** et **20 publications** à l'appui. Il s'agit ici d'un usage conforme à l'indication existante, et non d'un repositionnement au sens strict.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non enregistré en France |
-| Nouvelle Indication Prédite | Déficit en Inhibiteur C1 |
-| Score de Prédiction TxGNN | 99.999% |
+| Nouvelle Indication Prédite | Déficit en inhibiteur de C1 (correspond à l'indication déjà commercialisée) |
+| Score de Prédiction TxGNN | 99,999 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Proceed with Guardrails |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action de Conestat Alfa ne sont pas disponibles dans notre système. Cependant, sur la base des informations connues dans la littérature médicale internationale, conestat alfa est une forme recombinante de l'inhibiteur humain C1 (rhC1-INH), appartenant à la superfamille des serpines (inhibiteurs de sérine protéases), codée par le gène SERPING1.
+Dans le déficit en inhibiteur de C1, la protéine SERPING1 manque ou est non fonctionnelle. Cette protéine freine le complément (C1r/C1s) ainsi que les voies de contact du kallikréine et du facteur XIIa. Sans ce frein, la bradykinine est produite en excès, ce qui provoque les crises d'œdème. Conestat alfa remplace directement la protéine manquante et limite ainsi la production de bradykinine.
 
-L'inhibiteur C1 endogène (C1-INH) régule deux voies majeures : la voie du complément classique, en inhibant les protéases C1r et C1s, et la voie d'activation par contact (système kallicréine-kinine), en inhibant le Facteur XIIa et la kallicréine plasmatique. Dans le déficit en inhibiteur C1 (AHH de type I ou II), une mutation de SERPING1 entraîne une insuffisance quantitative ou fonctionnelle de C1-INH, provoquant une surproduction de bradykinine — principal médiateur de la perméabilité vasculaire — et des épisodes récurrents d'œdème sous-cutané et muqueux pouvant mettre en jeu le pronostic vital.
+L'alignement entre le médicament et la maladie est donc direct. Les données détaillées de mécanisme d'action de DrugBank ne sont pas disponibles, mais ce mécanisme est bien décrit dans la littérature.
 
-Conestat Alfa agit comme thérapie de substitution directe en restaurant les niveaux fonctionnels de C1-INH, bloquant ainsi la cascade de production de bradykinine à l'origine des crises d'angiœdème. La correspondance entre le mécanisme d'action et la physiopathologie de la maladie est parfaite (remplacement précis de la protéine déficiente). Ce médicament est d'ailleurs déjà approuvé par l'EMA sous le nom Ruconest® dans plusieurs pays européens pour le traitement des crises aiguës d'AHH chez l'adulte et l'adolescent, ce qui renforce la pertinence de la prédiction TxGNN.
-
----
+Le score très élevé du modèle est cohérent avec cette situation, puisque l'indication est déjà exploitée. Les autres prédictions du modèle (autres maladies) ne reposent en revanche sur aucun essai ni publication.
 
 ## Preuves d'Essais Cliniques
 
+Sélection des 10 essais les plus pertinents, sur un total de 41 associés à cette prédiction.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00462709](https://clinicaltrials.gov/study/NCT00462709) | Phase 3 | Terminé | 146 | CHANGE 3 : évaluation de l'efficacité et de la sécurité de C1INH-nf en prophylaxie de longue durée et en traitement des crises aiguës d'AHH |
-| [NCT00289211](https://clinicaltrials.gov/study/NCT00289211) | Phase 3 | Terminé | 83 | LEVP2005-1/Partie A : essai double aveugle contrôlé par placebo sur l'efficacité et la sécurité de C1INH-nf dans les crises aiguës d'AHH |
-| [NCT01188564](https://clinicaltrials.gov/study/NCT01188564) | Phase 3 | Terminé | 75 | Essai randomisé double aveugle contrôlé par placebo avec extension ouverte, confirmant l'efficacité de rhC1INH 50 U/kg et son profil d'immunogénicité dans les crises aiguës d'AHH |
-| [NCT00262301](https://clinicaltrials.gov/study/NCT00262301) | Phase 3 | Terminé | 75 | Essai randomisé double aveugle contrôlé par placebo évaluant l'efficacité, la sécurité et la pharmacocinétique/pharmacodynamie du rhC1INH dans les crises aiguës d'AHH |
-| [NCT00225147](https://clinicaltrials.gov/study/NCT00225147) | Phase 2/3 | Terminé | 77 | Essai randomisé double aveugle contrôlé par placebo évaluant la sécurité, la tolérance, l'efficacité et la pharmacocinétique du rhC1INH — essai pivot avant l'approbation européenne |
-| [NCT00851409](https://clinicaltrials.gov/study/NCT00851409) | Phase 2 | Terminé | 25 | Étude ouverte exploratoire évaluant la sécurité et l'immunogénicité d'administrations répétées de rhC1INH 50 U/kg en prophylaxie hebdomadaire chez les patients avec déficit héréditaire en C1-INH |
-| [NCT01095510](https://clinicaltrials.gov/study/NCT01095510) | Phase 2 | Terminé | 9 | Étude à dose unique ouverte évaluant la réponse et la pharmacocinétique/pharmacodynamie de différentes doses de CINRYZE chez les enfants de moins de 12 ans avec AHH |
-| [NCT01467947](https://clinicaltrials.gov/study/NCT01467947) | Phase 4 | Terminé | 46 | Étude multicentrique post-commercialisation évaluant la formation d'anticorps inhibiteurs anti-C1-INH chez des patients AHH traités par Berinert® sur 9 mois |
-| [NCT06690047](https://clinicaltrials.gov/study/NCT06690047) | Phase 4 | Terminé | 5 | Évaluation de l'efficacité de Ruconest® dans la prise en charge des prodromes d'AHH pour prévenir la progression vers une crise aiguë d'angiœdème |
-| [NCT04414631](https://clinicaltrials.gov/study/NCT04414631) | Phase 2 | Arrêté | 80 | PROTECT-COVID-19 : essai pilote multicentrique évaluant si conestat alfa réduit la progression vers une lésion pulmonaire aiguë chez des patients hospitalisés pour COVID-19 (même médicament, indication différente) |
+| [NCT00262301](https://clinicaltrials.gov/study/NCT00262301) | Phase 3 | Terminé | 75 | C1-INH recombinant vs placebo, double aveugle, traitement des crises aiguës d'AOH |
+| [NCT01188564](https://clinicaltrials.gov/study/NCT01188564) | Phase 3 | Terminé | 75 | Étude de confirmation randomisée contre placebo, avec extension ouverte (50 U/kg), efficacité et immunogénicité |
+| [NCT00225147](https://clinicaltrials.gov/study/NCT00225147) | Phase 2/3 | Terminé | 77 | C1-INH recombinant vs placebo, sécurité, efficacité et pharmacocinétique dans les crises aiguës |
+| [NCT02247739](https://clinicaltrials.gov/study/NCT02247739) | Phase 2 | Terminé | 32 | Prophylaxie des crises, randomisée, en double aveugle, croisée sur 3 périodes |
+| [NCT00851409](https://clinicaltrials.gov/study/NCT00851409) | Phase 2 | Terminé | 25 | Administrations répétées de C1-INH recombinant : sécurité, immunogénicité, effet prophylactique |
+| [NCT01359969](https://clinicaltrials.gov/study/NCT01359969) | Phase 2 | Terminé | 57 | Enfants de 2 à 13 ans, étude ouverte à un seul bras (Ruconest 50 U/kg) |
+| [NCT00262288](https://clinicaltrials.gov/study/NCT00262288) | Phase 2/3 | Terminé | 14 | Efficacité, sécurité et pharmacocinétique dans les crises aiguës |
+| [NCT06690047](https://clinicaltrials.gov/study/NCT06690047) | Phase 4 | Terminé | 5 | Ruconest dans le prodrome de l'AOH pour éviter l'évolution vers une crise (échantillon très limité) |
+| [NCT03697187](https://clinicaltrials.gov/study/NCT03697187) | Non applicable | Terminé | 152 | Registre observationnel de sécurité en vie réelle de Ruconest |
+| [NCT01397864](https://clinicaltrials.gov/study/NCT01397864) | Non applicable | Terminé | 181 | Registre de sécurité et de profil immunologique après administrations uniques et répétées |
 
----
+Plusieurs autres essais portent sur des C1-INH d'origine plasmatique (Berinert, Cinryze). Ils soutiennent l'approche par classe, mais pas spécifiquement conestat alfa.
 
 ## Preuves de la Littérature
 
+Sélection de 10 publications sur 20. Les essais randomisés sont classés en premier.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [30021471](https://pubmed.ncbi.nlm.nih.gov/30021471/) | 2018 | ECR / Essai Clinique | Expert Review of Clinical Immunology | Conestat alfa pour la prophylaxie de l'AHH chez l'adulte et l'adolescent : synthèse des données d'enregistrement, des essais de phase 2/3 et de la pratique clinique |
-| [31982824](https://pubmed.ncbi.nlm.nih.gov/31982824/) | 2020 | Cohorte Prospective | International Immunopharmacology | Évaluation de l'efficacité et de la sécurité du rhC1-INH administré lors des crises et en prophylaxie de courte durée dans l'AHH, en conditions réelles |
-| [22171564](https://pubmed.ncbi.nlm.nih.gov/22171564/) | 2012 | ECR | BioDrugs | Inhibiteur C1 recombinant : effets sur la coagulation et la fibrinolyse chez les patients AHH — pas d'augmentation du risque thromboembolique par rapport aux produits plasmatiques |
-| [28754491](https://pubmed.ncbi.nlm.nih.gov/28754491/) | 2017 | ECR | Lancet | Essai de phase 2 multicentrique randomisé double aveugle contrôlé par placebo évaluant le rhC1INH en prophylaxie de l'angiœdème héréditaire — réduction significative de la fréquence des crises |
-| [26250409](https://pubmed.ncbi.nlm.nih.gov/26250409/) | 2015 | Revue Systématique | Immunotherapy | Revue systématique de la thérapie de substitution recombinante pour l'AHH par déficit en C1-INH, comparant les formulations plasmatiques et recombinantes |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Revue Systématique | Pneumonologia i Alergologia Polska | Comparaison de l'efficacité clinique de conestat alfa, C1-INH humain et icatibant dans les crises aiguës d'AHH chez l'adulte — sur la base d'une revue systématique |
-| [22946752](https://pubmed.ncbi.nlm.nih.gov/22946752/) | 2012 | Revue Médicamenteuse | BioDrugs | Conestat alfa : revue de son efficacité thérapeutique dans les crises d'angiœdème chez les patients AHH, à partir de deux essais randomisés pivots |
-| [24801469](https://pubmed.ncbi.nlm.nih.gov/24801469/) | 2014 | Cohorte Prospective | Allergy and Asthma Proceedings | Traitement à domicile avec conestat alfa dans l'AHH par déficit en C1-INH : analyse de 65 épisodes œdémateux chez deux patientes en conditions réelles |
-| [26106828](https://pubmed.ncbi.nlm.nih.gov/26106828/) | 2015 | Recommandation Clinique | Current Opinion in Allergy and Clinical Immunology | Prise en charge diagnostique et thérapeutique de l'AHH par déficit en C1-INH : l'expérience italienne — place des traitements à la demande versus prophylaxie |
-| [27940765](https://pubmed.ncbi.nlm.nih.gov/27940765/) | 2016 | Recommandation Clinique | Pediatrics | Recommandations du Medical Advisory Board de l'association des patients AHH pour la prise en charge des enfants atteints d'AHH par déficit en inhibiteur C1 |
-
----
+| [28754491](https://pubmed.ncbi.nlm.nih.gov/28754491/) | 2017 | ECR (phase 2, croisé) | Lancet | Efficacité du C1-INH recombinant en prophylaxie des crises d'AOH |
+| [30021471](https://pubmed.ncbi.nlm.nih.gov/30021471/) | 2018 | Revue (classé ECR par le pack) | Expert Rev Clin Immunol | Conestat alfa en prophylaxie chez l'adulte et l'adolescent ; enregistré pour les crises aiguës en Europe et en Amérique |
+| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Revue systématique | Pneumonol Alergol Pol | Comparaison de l'efficacité de conestat alfa, du C1-INH humain et de l'icatibant dans les crises aiguës |
+| [22946752](https://pubmed.ncbi.nlm.nih.gov/22946752/) | 2012 | Revue | BioDrugs | Efficacité évaluée dans deux essais similaires randomisés contre placebo (Amérique du Nord et Europe) |
+| [24801469](https://pubmed.ncbi.nlm.nih.gov/24801469/) | 2014 | Cohorte | Allergy Asthma Proc | Traitement à domicile de 65 épisodes chez 2 patientes, évaluation de l'efficacité et de la sécurité en vie réelle |
+| [31982824](https://pubmed.ncbi.nlm.nih.gov/31982824/) | 2020 | Cohorte | Int Immunopharmacol | Traitement à domicile des crises et prophylaxie de courte durée : efficacité et sécurité |
+| [22171564](https://pubmed.ncbi.nlm.nih.gov/22171564/) | 2012 | Cohorte | BioDrugs | Effets sur la coagulation et la fibrinolyse (risque thromboembolique des C1-INH) ; résultats non disponibles dans l'extrait |
+| [26250409](https://pubmed.ncbi.nlm.nih.gov/26250409/) | 2015 | Revue | Immunotherapy | Traitement substitutif recombinant dans le déficit en C1-INH |
+| [24556385](https://pubmed.ncbi.nlm.nih.gov/24556385/) | 2014 | Série de cas | Eur J Dermatol | Utilisation dans les crises résistantes ou fréquentes d'angiœdème héréditaire ou acquis |
+| [39675680](https://pubmed.ncbi.nlm.nih.gov/39675680/) | 2025 | Étude clinique | J Allergy Clin Immunol | Réponse clinique et voies transcriptomiques sanguines avant et après traitement des prodromes d'AOH |
 
 ## Informations de Marché en France
 
-Aucune AMM française n'est enregistrée pour Conestat Alfa dans notre base de données. À titre contextuel, le médicament est approuvé par l'EMA sous le nom **Ruconest®** pour le traitement des crises aiguës d'angiœdème chez les adultes et adolescents atteints d'AHH de type I et II ; cette approbation centralisée est en principe applicable dans l'ensemble des États membres de l'Union européenne, y compris la France.
-
-> Aucune AMM nationale distincte enregistrée en France dans notre base de données. Vérification du statut de commercialisation réelle auprès de l'ANSM recommandée.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 61253153 | RUCONEST 2100 U, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Pharming Group (Pays-Bas) |
+| 60634703 | RUCONEST 2100 U, poudre pour solution injectable | Poudre pour solution injectable | Pharming Group (Pays-Bas) |
 
 ## Considérations de Sécurité
 
-> Veuillez consulter la notice officielle et les informations ANSM/EMA pour les mises en garde, contre-indications et interactions médicamenteuses complètes (données non disponibles dans notre système).
+Points de vigilance issus de l'analyse de repositionnement (et non de la notice ANSM) :
 
----
+- **Contre-indication attendue** : allergie au lapin, car le produit est dérivé du lapin.
+- **Risque thromboembolique** : à surveiller, comme pour les autres C1-INH.
+- **Immunogénicité** : suivre l'apparition d'anticorps dirigés contre les protéines de l'hôte.
+
+Les mises en garde et contre-indications officielles de l'ANSM n'ont pas pu être exploitées. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Plusieurs essais cliniques de Phase 3 randomisés, en double aveugle, contrôlés par placebo, publiés dans des revues internationales de premier rang (dont le *Lancet*), démontrent avec un niveau de preuve L1 l'efficacité et la sécurité de conestat alfa pour le traitement des crises aiguës d'angiœdème héréditaire par déficit en C1-INH. Le score TxGNN de 99,999 % est cohérent avec la réalité clinique : ce médicament est précisément indiqué pour cette pathologie et dispose déjà d'approbations réglementaires internationales (EMA, FDA).
+- L'indication prédite correspond à l'usage déjà commercialisé, avec plusieurs essais de phase 3 sur le C1-INH recombinant et un essai randomisé publié.
+- Les preuves sont plus faibles pour la prophylaxie et l'usage pédiatrique, et la sécurité reste à confirmer sur la notice officielle.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Confirmer le statut de commercialisation réel en France auprès de l'ANSM (AMM EMA active ? Disponibilité effective ?)
-- Obtenir les données complètes sur le mécanisme d'action (MOA) via DrugBank (DG002)
-- Récupérer et analyser la notice officielle ANSM/EMA pour les mises en garde, contre-indications et interactions (DG001)
-- Évaluer les conditions de remboursement via la Haute Autorité de Santé (HAS) et vérifier l'existence d'une inscription sur la liste des médicaments pris en charge
-- Établir un plan de surveillance de sécurité pour les populations spéciales (enfants dès 2 ans, femmes enceintes, patients avec antécédents d'allergie aux protéines de lapin)
+- Extraire et analyser la notice ANSM (mises en garde et contre-indications) : élément bloquant pour le criblage de sécurité.
+- Compléter les données de mécanisme d'action depuis DrugBank.
+- Vérifier l'identité du produit dans les essais classés « niveau classe » (C1-INH plasmatique ou non confirmé).
+- Renseigner le texte des indications approuvées des deux AMM.
+
+Les neuf autres prédictions du modèle (dont le serpinopathies à polymérisation toxique, la maladie de Glanzmann et le syndrome de Scott) restent en **Hold** : niveau L5, sans essai ni publication, et sans lien mécanistique plausible.
+
+*Ces résultats sont fournis à titre de recherche et ne constituent pas un avis médical.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

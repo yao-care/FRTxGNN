@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorpromazine
-parent: Preuves modérées (L3-L4)
-nav_order: 73
-evidence_level: L3
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 75
+evidence_level: L5
 indication_count: 10
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Chlorpromazine : De l'Antipsychotique Classique à la Schizophrénie à Début Précoce
+# Chlorpromazine : De l'indication d'origine (non renseignée) à la dystrophie rétinienne avec ou sans anomalies extraoculaires
 
 ## Résumé en Une Phrase
 
-Chlorpromazine est le premier antipsychotique de la classe des phénothiazines, synthétisé en 1952, dont l'efficacité dans la schizophrénie et les troubles psychotiques est établie depuis sept décennies via un antagonisme des récepteurs dopaminergiques D2. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Schizophrénie à Début Précoce** — seule prédiction cliniquement pertinente dans ce dossier —, avec **1 étude observationnelle** et **8 publications** soutenant cette direction. ⚠️ Les 9 premières prédictions TxGNN (rangs 1–9) correspondent à des signaux inverses documentés (dont la rétinopathie aux phénothiazines) ou à des maladies génétiques sans lien mécanistique : elles sont exclues de l'analyse de repositionnement.
+Les données de l'ANSM ne précisent pas l'indication d'origine de la chlorpromazine (commercialisée en France sous le nom LARGACTIL). Ce médicament est connu comme antipsychotique de première génération.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extraoculaires**, avec un score élevé (99,95 %).
+Cette prédiction repose uniquement sur le graphe de connaissances : **aucun essai clinique** n'est enregistré, et les **15 publications** retrouvées ne mentionnent pas la chlorpromazine.
 
 ---
 
@@ -41,67 +43,65 @@ Chlorpromazine est le premier antipsychotique de la classe des phénothiazines, 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible dans le dossier (antipsychotique historique reconnu) |
-| Nouvelle Indication Prédite | Schizophrénie à Début Précoce (rang TxGNN 10 — première prédiction cliniquement pertinente) |
-| Score de Prédiction TxGNN | 99,47% |
-| Niveau de Preuve | L3 |
-| Statut de Marché | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non précisée dans les données d'AMM de l'ANSM |
+| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
+| Score de Prédiction TxGNN | 99,95 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues, chlorpromazine est un antipsychotique typique (phénothiazine aliphatique) dont le mécanisme central repose sur l'antagonisme des récepteurs dopaminergiques D2 dans les voies méso-limbiques. Ce mécanisme cible directement l'hyperactivité dopaminergique considérée comme la base physiopathologique des symptômes positifs de la schizophrénie — hallucinations et idées délirantes.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La chlorpromazine appartient à la classe des antipsychotiques de première génération, dont l'action repose principalement sur l'antagonisme des récepteurs dopaminergiques D2. Cette information est une connaissance générale et ne figure pas dans le dossier fourni.
 
-La schizophrénie à début précoce (EOS, onset < 18 ans) partage cette même neurobiologie dopaminergique, mais constitue une population spécifique avec une présentation clinique plus sévère, une plus grande prévalence de résistance primaire au traitement, et une sensibilité accrue aux effets extrapyramidaux des antipsychotiques typiques. La prédiction TxGNN au rang 10 (score 99,47%) reflète la continuité mécanistique directe entre l'indication adulte établie et cette sous-population pédiatrique.
+Aucun lien mécanistique n'est étayé entre ce mécanisme et la dystrophie rétinienne. Le score élevé (99,95 %) est une prédiction issue du graphe uniquement. Il ne reflète pas une preuve pharmacologique ou clinique.
 
-> **⚠️ Alerte sur les rangs 1–9 — Signaux inverses et prédictions non pertinentes**
->
-> Les 9 premières prédictions TxGNN doivent être rejetées comme candidats de repositionnement :
->
-> - **Rang 1 – Dystrophie rétinienne** : Signal inverse. Chlorpromazine cause elle-même une rétinopathie aux phénothiazines (dépôts pigmentaires rétiniens) à doses cumulées élevées — c'est un effet indésirable documenté, non une indication. Le modèle TxGNN a probablement confondu la co-occurrence médicament/maladie rétinienne dans le graphe de connaissances (chemin d'effet indésirable interprété comme chemin thérapeutique).
-> - **Rangs 2–9** : Maladies génétiques ou malformations congénitales (CDG-fucosylation, myopies liées à l'X, hydranencéphalie, polymicrogyrie, CMT1G, encéphalopathie glycinique) sans lien mécanistique avec l'antagonisme D2 et sans aucune preuve clinique ou préclinique disponible.
+Les 15 publications retrouvées traitent d'anomalies oculaires ou orbitaires congénitales. Elles correspondent au nom de la maladie, sans traiter de la chlorpromazine. Elles ne constituent donc pas une preuve en faveur du médicament.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT06128408](https://clinicaltrials.gov/study/NCT06128408) | N/A | Inconnu | 300 | Étude observationnelle sur les caractéristiques de la schizophrénie résistante depuis le début de la maladie : 30% des patients naïfs aux antipsychotiques ne répondent pas au traitement standard ; ces patients à résistance primaire (TRO) représentent 80% de tous les cas TRS en suivi à long terme |
-
-> Cet essai est observationnel et descriptif — non interventionnel pour chlorpromazine spécifiquement. Aucun essai randomisé contrôlé dédié à l'EOS avec chlorpromazine n'a été identifié dans ce dossier.
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
 ## Preuves de la Littérature
 
+Aucune de ces publications ne mentionne la chlorpromazine. Il s'agit de correspondances par mots-clés sur la maladie.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [10703271](https://pubmed.ncbi.nlm.nih.gov/10703271/) | 1999 | Cohorte rétrospective | Soc Psychiatry Psychiatr Epidemiol | Corrélation entre âge précoce au début de la schizophrénie et dosage des neuroleptiques typiques en ambulatoire — données de base pour calibrage posologique pédiatrique |
-| [18408624](https://pubmed.ncbi.nlm.nih.gov/18408624/) | 2008 | Étude d'association génétique | Pharmacogenetics Genomics | Gène BDNF comme facteur de risque génétique de schizophrénie et déterminant du syndrome extrapyramidal induit par chlorpromazine (population chinoise) — pertinence pharmacogénomique directe |
-| [28976410](https://pubmed.ncbi.nlm.nih.gov/28976410/) | 2017 | Étude clinique | Clin Neuropharmacology | Caractéristiques cliniques de l'EOS comorbide avec trouble obsessionnel-compulsif : implications pour la sélection et le dosage des antipsychotiques |
-| [24289465](https://pubmed.ncbi.nlm.nih.gov/24289465/) | 2013 | Cohorte rétrospective | Psychogeriatrics | Comparaison clinique entre schizophrénie à début tardif et précoce au Japon — profils de réponse aux antipsychotiques selon l'âge d'onset |
-| [17915974](https://pubmed.ncbi.nlm.nih.gov/17915974/) | 2007 | Étude d'association génétique | J Clin Psychiatry | Polymorphismes AKT1 associés au risque de schizophrénie et à la réponse aux antipsychotiques dans la population chinoise — voie de signalisation liée au D2 |
-| [26916502](https://pubmed.ncbi.nlm.nih.gov/26916502/) | 2016 | Étude transversale | Acta Neuropsychiatrica | Capacités de théorie de l'esprit chez adolescents avec EOS — corrélations avec évaluation clinique et fonctions exécutives |
-| [24854724](https://pubmed.ncbi.nlm.nih.gov/24854724/) | 2015 | Étude transversale | L'Encéphale | Signes neurologiques doux dans l'EOS — données soutenant le modèle neurodéveloppemental et orientant la surveillance clinique |
-| [22802957](https://pubmed.ncbi.nlm.nih.gov/22802957/) | 2012 | Étude de neuroimagerie | PLoS ONE | Réduction du volume de matière grise du gyrus temporal dans l'EOS lors du premier épisode — marqueur neuropathologique de la sévérité précoce |
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Revue | Seminars in Ultrasound, CT, and MR | Infections orbitaires : sinusite comme cause principale, signes cliniques et agents en cause |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Revue | Seminars in Neurology | Démarche systématique d'évaluation de la diplopie |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Revue | Pediatric Radiology | Diagnostic différentiel et imagerie des lésions oculaires pédiatriques |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Revue | Taiwan Journal of Ophthalmology | Anomalies congénitales de la forme du cristallin |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Revue | Klinische Monatsblätter für Augenheilkunde | Ptosis congénital : formes simples et compliquées, examen nécessaire |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Revue | Documenta Ophthalmologica | Complexe du syndrome de Wagner-Stickler : dégénérescence vitréo-rétinienne et manifestations extraoculaires |
+| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Cohorte | International Journal of Molecular Sciences | Anomalies de la tête du nerf optique et de la rétine dans la fibrose congénitale des muscles extraoculaires |
+| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Revue | Journal of Binocular Vision and Ocular Motility | Ophtalmoplégies et troubles congénitaux de la dénervation crânienne |
+| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Revue | American Journal of Ophthalmology | Pathogenèse et traitement de la maculopathie associée aux anomalies cavitaires de la papille |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Rapport de cas | American Journal of Ophthalmology | Deux cas de cryptophtalmie unilatérale |
+
+---
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 62184888 | LARGACTIL 25 mg/5 ml, solution injectable en ampoule | Solution injectable | Non précisée dans les données |
+| 68513504 | LARGACTIL 4 POUR CENT, solution buvable en gouttes | Solution buvable (gouttes) | Non précisée dans les données |
+
+Les deux AMM sont détenues par NEURAXPHARM FRANCE.
 
 ---
 
 ## Considérations de Sécurité
 
-Les données de sécurité officielles (notices réglementaires, contre-indications formelles) ne sont pas disponibles dans ce dossier.
-
-Sur la base des données cliniques documentées pour chlorpromazine :
-
-- **Syndrome extrapyramidal** : Parkinsonisme médicamenteux, akathisie, dystonie aiguë — risque significativement augmenté chez les enfants et adolescents par rapport aux adultes ; facteur limitant majeur en population pédiatrique
-- **Rétinopathie aux phénothiazines** : Toxicité pigmentaire rétinienne dose-cumulée dépendante — impose une surveillance ophtalmologique régulière lors d'un usage prolongé
-- **Syndrome malin des neuroleptiques** : Complication rare mais potentiellement fatale — surveillance obligatoire en début de traitement
-
-> Veuillez consulter la notice officielle pour les informations de sécurité complètes.
+Veuillez consulter la notice pour les informations de sécurité.
 
 ---
 
@@ -110,14 +110,16 @@ Sur la base des données cliniques documentées pour chlorpromazine :
 **Décision : Hold**
 
 **Justification :**
-Ce dossier présente une configuration atypique : les 9 premières prédictions TxGNN sont des signaux inverses ou biologiquement non pertinents, et seule la schizophrénie à début précoce constitue une direction cliniquement fondée. Cependant, chlorpromazine étant déjà un antipsychotique historiquement établi pour la schizophrénie de l'adulte, la question réelle n'est pas un repositionnement thérapeutique classique mais une extension vers une population pédiatrique — pour laquelle son profil extrapyramidal représente un obstacle significatif face aux antipsychotiques de deuxième génération (risperidone, aripiprazole) disposant d'un meilleur cadre réglementaire pédiatrique.
+- La prédiction repose uniquement sur le modèle (niveau L5). Il n'y a ni essai clinique, ni publication portant sur la chlorpromazine, ni mécanisme plausible pour la dystrophie rétinienne.
+- Parmi les 10 indications prédites, aucune autre n'a de preuve solide. Seule la **schizophrénie à début précoce** (L3, 1 étude observationnelle et 8 publications) est cohérente avec l'antagonisme D2. Elle correspond probablement à une extension de l'usage antipsychotique connu, et non à un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de mécanisme d'action (MOA) complètes via DrugBank (lacune DG002)
-- Notices officielles avec contre-indications et mises en garde formelles (lacune DG001)
-- Revue systématique des essais contrôlés randomisés : antipsychotiques de 1ère génération en EOS (0–18 ans)
-- Analyse comparative risque-bénéfice avec antipsychotiques atypiques de 2ème génération en population pédiatrique
-- Révision du pipeline TxGNN pour filtrer les associations issues d'effets indésirables (faux positifs par adjacence dans le graphe de connaissances, illustrés par les rangs 1–9 de ce dossier)
+- Récupérer la notice de l'ANSM (indications, mises en garde, contre-indications), car ces données manquent et bloquent le criblage de sécurité.
+- Compléter les données sur le mécanisme d'action via DrugBank.
+- Réorienter l'évaluation vers la schizophrénie à début précoce : revue des essais randomisés pédiatriques et des données de sécurité (symptômes extrapyramidaux, sédation).
+- Ne poursuivre la dystrophie rétinienne que si une étude préclinique ou mécanistique spécifique est identifiée.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

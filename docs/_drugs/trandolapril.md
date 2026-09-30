@@ -2,7 +2,7 @@
 layout: default
 title: Trandolapril
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 318
+nav_order: 322
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,60 +29,77 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Trandolapril : De l'Hypertension Arterielle a l'Hypertension Renovasculaire Maligne
+# Trandolapril : D'un Inhibiteur de l'ECA Antihypertenseur à l'Hypertension Rénovasculaire Maligne
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Trandolapril est un inhibiteur de l'enzyme de conversion (IEC), une classe pharmacologique historiquement utilisee dans le traitement de l'hypertension arterielle. Le modele TxGNN predit qu'il pourrait etre efficace pour l'**Hypertension Renovasculaire Maligne**, avec un score de prediction de **99.92%**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction — il s'agit d'une prediction algorithmique isolee (niveau de preuve L5).
+Le trandolapril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC), commercialisé en France sous forme de gélules. Le texte des indications approuvées n'est pas renseigné dans les données ANSM disponibles.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension rénovasculaire maligne**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension arterielle (classe IEC) — texte precis d'indication non extrait a ce stade |
-| Nouvelle Indication Predite | Hypertension Renovasculaire Maligne |
-| Score de Prediction TxGNN | 99.92% |
+| Indication Originale | Non renseignée dans les données ANSM (les textes d'indication des AMM sont vides) |
+| Nouvelle Indication Prédite | Hypertension rénovasculaire maligne |
+| Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | ✗ Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 11 |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles. Sur la base des informations connues, trandolapril fait partie de la classe des IEC (inhibiteurs de l'enzyme de conversion), son efficacite dans l'hypertension arterielle a ete etablie cliniquement, et mecanistiquement il pourrait etre applicable a l'hypertension renovasculaire maligne : les IEC abaissent la pression arterielle systemique en inhibant la formation d'angiotensine II.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le trandolapril fait partie de la classe des inhibiteurs de l'ECA. Il bloque la production d'angiotensine II, et cette action pourrait mécaniquement s'appliquer à l'hypertension rénovasculaire. Cette information provient de la pharmacologie générale de la classe, et non des données du dossier.
 
-Cependant, ce lien mecanistique comporte un risque connu et non negligeable : chez les patients presentant une hypertension renovasculaire liee a une stenose bilaterale des arteres renales, les IEC peuvent au contraire precipiter une deterioration aigue de la fonction renale, en bloquant la vasoconstriction compensatoire de l'arteriole efferente. Il ne s'agit donc pas d'un simple benefice theorique transposable, mais d'un mecanisme a double tranchant deja documente dans la pharmacologie de cette classe.
+L'hypertension rénovasculaire est fortement dépendante du système rénine-angiotensine, ce qui rend le lien biologique plausible. Le trandolapril est déjà utilisé comme antihypertenseur, donc la nouvelle indication reste proche de l'usage connu du médicament.
 
-Aucun essai clinique ni aucune publication ne vient etayer specifiquement cette prediction pour trandolapril dans cette indication : le score de 99.92% repose uniquement sur l'inference du modele TxGNN, sans validation externe.
+Une réserve importante s'impose. Les IEC exposent à un risque de dégradation aiguë de la fonction rénale en cas de sténose bilatérale des artères rénales. Or cette situation est précisément au cœur de l'hypertension rénovasculaire. Le score TxGNN seul reste une prédiction, sans étude qui la confirme.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-Aucune litterature associee disponible actuellement.
+Aucune littérature associée disponible actuellement.
 
-## Informations de Marche en France
+## Informations de Marché en France
 
-Trandolapril n'est actuellement pas commercialise en France (0 AMM enregistree).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 67937514 | TRANDOLAPRIL BIOGARAN 0,5 mg | Gélule | Non renseignée |
+| 62481448 | ODRIK 4 mg | Gélule | Non renseignée |
+| 66972380 | TRANDOLAPRIL BIOGARAN 2 mg | Gélule | Non renseignée |
+| 64337254 | TRANDOLAPRIL VIATRIS 2 mg | Gélule | Non renseignée |
+| 68510337 | ODRIK 2 mg | Gélule | Non renseignée |
 
-## Considerations de Securite
+Sur les 11 AMM au total, seules les 5 premières sont listées. Une forme comprimé pelliculé à libération prolongée existe également.
 
-Veuillez consulter la notice pour les informations de securite.
+## Considérations de Sécurité
 
-## Conclusion et Prochaines Etapes
+Veuillez consulter la notice pour les informations de sécurité.
 
-**Decision : Hold**
+Point d'attention lié à la nouvelle indication : les IEC peuvent provoquer une baisse aiguë de la fonction rénale en cas de sténose bilatérale des artères rénales.
+
+## Conclusion et Prochaines Étapes
+
+**Décision : Hold**
 
 **Justification :**
-La prediction repose uniquement sur un score TxGNN (niveau de preuve L5), sans aucun essai clinique ni publication a l'appui. De plus, le mecanisme d'action lui-meme comporte un risque connu de deterioration renale en cas de stenose bilaterale des arteres renales, ce qui rend cette piste peu attractive en l'etat.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication spécifique au trandolapril.
+- Le risque rénal des IEC dans la sténose bilatérale des artères rénales n'est pas levé.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Mises en garde et contre-indications officielles TFDA (donnee bloquante — necessaire avant toute evaluation de securite preliminaire S1)
-- Mecanisme d'action detaille (MOA) confirme via DrugBank
-- Etudes precliniques ou cliniques specifiques evaluant trandolapril dans l'hypertension renovasculaire, notamment le risque chez les patients avec stenose bilaterale
-- Confirmation du texte precis de l'indication d'origine (via notice/AMM historique)
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Extraire les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
+- Obtenir les données de mécanisme d'action depuis DrugBank
+- Réaliser une recherche bibliographique ciblée sur les IEC dans l'hypertension rénovasculaire
+- Évaluer la sécurité rénale chez les patients avec sténose des artères rénales
+
+**Autres prédictions du dossier (pour information) :**
+- L'hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie, l'hypertension pulmonaire multifactorielle et le syndrome de Braddock restent au niveau L5 (Hold). Les 20 publications retrouvées pour la première de ces indications traitent de l'hypoxie en général et ne concernent pas le trandolapril.
+- L'hypertension rénale maligne (niveau L5, Hold) chevauche largement l'usage antihypertenseur actuel et apporte peu d'information nouvelle.
+- Le cœur pulmonaire chronique (niveau L4, « Question de recherche ») repose sur une seule étude animale de 1996 (trandolapril chez le rat avec insuffisance cardiaque chronique). Il n'existe aucune donnée humaine.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

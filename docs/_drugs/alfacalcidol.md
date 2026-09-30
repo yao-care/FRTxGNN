@@ -2,7 +2,7 @@
 layout: default
 title: Alfacalcidol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 20
+nav_order: 21
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,90 +29,72 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# ALFACALCIDOL : Rapport d'Évaluation de Repositionnement
+# Alfacalcidol : Vers l'hypoparathyroïdie isolée familiale par altération de la sécrétion de PTH
 
 ## Résumé en Une Phrase
 
-Alfacalcidol (DrugBank : DB01436) est un analogue de la vitamine D dont les indications originales ne sont pas renseignées dans le dossier actuel.
-Le modèle TxGNN **n'a généré aucune prédiction de nouvelle indication** pour ce médicament,
-et les données disponibles présentent des **lacunes critiques** (mécanisme d'action, mises en garde, contre-indications) empêchant une évaluation complète.
-
----
+L'alfacalcidol est un analogue de la vitamine D hydroxylé en position 1-alpha, commercialisé en France sous plusieurs formes (gouttes buvables, capsules, solution injectable). Le texte de son indication d'origine n'est pas renseigné dans les données disponibles.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypoparathyroïdie isolée familiale par altération de la sécrétion de PTH**.
+**Aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette indication précise : la prédiction repose uniquement sur le modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (aucune AMM trouvée) |
-| Nouvelle Indication Prédite | Aucune prédiction disponible |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | L5 — Aucune donnée d'étude disponible |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
-
----
+| Nouvelle Indication Prédite | Hypoparathyroïdie isolée familiale par altération de la sécrétion de PTH |
+| Score de Prédiction TxGNN | 99,61 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 10 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-> Actuellement, **aucune prédiction de nouvelle indication n'a été générée** par le modèle TxGNN pour l'alfacalcidol. Il n'est donc pas possible d'évaluer la pertinence d'un repositionnement.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. On sait toutefois que l'alfacalcidol est une prodrogue de la vitamine D : le foie la transforme en calcitriol, la forme active de la vitamine D. Elle contourne ainsi l'étape de 1-alpha-hydroxylation rénale, qui dépend de la PTH.
 
-> Les données détaillées sur le mécanisme d'action (MOA) ne sont pas disponibles dans le dossier fourni. Sur la base des connaissances pharmacologiques générales, l'alfacalcidol (1α-hydroxyvitamine D₃) est un promédicament de la vitamine D active (calcitriol). Il est hydroxylé au niveau hépatique en 1,25-dihydroxyvitamine D₃, qui régule l'homéostasie du calcium et du phosphore, et joue un rôle dans la différenciation cellulaire et la modulation immunitaire. Ses indications classiques incluent l'ostéoporose, l'ostéodystrophie rénale et l'hypoparathyroïdie.
+Dans l'hypoparathyroïdie, la PTH est insuffisante. La production rénale de calcitriol est donc faible, ce qui entraîne une hypocalcémie. Un analogue déjà activé au niveau 1-alpha peut compenser ce déficit. Cela explique le score très élevé de TxGNN (0,996) et donne à la prédiction une plausibilité biologique forte.
 
-> En l'absence de prédiction TxGNN et de données réglementaires locales, aucune analyse de relation mécanistique entre une indication originale et une nouvelle indication ne peut être conduite à ce stade.
-
----
+Cette plausibilité reste théorique. Les analogues de la vitamine D sont utilisés en pratique dans l'hypoparathyroïdie en général, mais cet usage sort des données fournies. Aucune donnée ne concerne ce sous-type familial précis.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-*(Le modèle TxGNN n'a retourné aucune indication prédite ; par conséquent, aucune recherche de preuves cliniques ciblée n'a été réalisée.)*
-
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
-*(En l'absence d'indication prédite, aucune revue de littérature ciblée n'a été conduite.)*
-
----
-
 ## Informations de Marché en France
 
-L'alfacalcidol **n'est pas commercialisé** sur le marché considéré. Aucune Autorisation de Mise sur le Marché (AMM) n'a été identifiée.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 65401076 | UN-ALFA 0,10 microgramme, solution buvable en gouttes | Solution buvable en gouttes | CHEPLAPHARM ARZNEIMITTEL (Allemagne) |
+| 68578562 | UN-ALFA 1 microgramme/0,5 ml, solution injectable IV en ampoule | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (Allemagne) |
+| 64661847 | ALFACALCIDOL THERAMEX 0,25 microgramme, capsule molle | Capsule molle | THERAMEX IRELAND (Irlande) |
+| 62092176 | UN ALFA 1 microgramme, capsule orale | Capsule | DIFARMED (Espagne) |
+| 62626139 | ALFACALCIDOL THERAMEX 1 microgramme, capsule molle | Capsule molle | THERAMEX IRELAND (Irlande) |
 
-> **Note :** L'absence d'AMM constitue un obstacle réglementaire majeur pour tout projet de repositionnement dans cette juridiction.
-
----
+Les 5 premières AMM sur 10 sont affichées. Le texte des indications approuvées n'est pas renseigné dans les données.
 
 ## Considérations de Sécurité
 
-> Veuillez consulter la notice pour les informations de sécurité.
-
-Les données de sécurité suivantes n'ont pas pu être obtenues et constituent des **lacunes bloquantes** :
-
-| Lacune | Sévérité | Impact | Source de remédiation |
-|--------|----------|--------|----------------------|
-| Mises en garde et contre-indications (notice) | **Bloquante** | Impossible d'entrer en évaluation initiale de sécurité (S1) | Télécharger et analyser la notice (PDF) depuis le site de l'autorité réglementaire |
-| Mécanisme d'action (MOA) | Élevée | Affecte l'analyse de pertinence mécanistique | Requête API DrugBank |
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-L'alfacalcidol ne dispose d'aucune prédiction TxGNN de nouvelle indication, d'aucune AMM sur le marché concerné, et présente des lacunes de données critiques (MOA, sécurité). Il n'y a actuellement aucune base suffisante pour initier un processus de repositionnement.
+- Cette indication n'a ni essai clinique ni publication : elle reste au niveau L5, celui de la prédiction du modèle seule.
+- Les informations de sécurité (mises en garde, contre-indications) de la notice ANSM manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- ⬜ **Combler la lacune MOA** : Interroger l'API DrugBank pour obtenir le mécanisme d'action détaillé de l'alfacalcidol (DB01436)
-- ⬜ **Combler la lacune sécurité** : Obtenir et analyser la notice (mises en garde, contre-indications) depuis le site de l'autorité réglementaire compétente
-- ⬜ **Vérifier la couverture TxGNN** : Confirmer que l'alfacalcidol est bien intégré dans le graphe de connaissances (Knowledge Graph) de TxGNN ; si absent, évaluer la possibilité de l'ajouter
-- ⬜ **Recherche de marché** : Identifier si l'alfacalcidol est commercialisé sous d'autres noms de marque ou dans d'autres juridictions pouvant servir de référence
-- ⬜ **Réévaluer** après obtention des données manquantes et relance éventuelle du modèle de prédiction
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), donnée bloquante
+- Obtenir les données de mécanisme d'action via DrugBank
+- Rechercher de la littérature spécifique à l'hypoparathyroïdie isolée familiale par altération de la sécrétion de PTH (priorité)
+- Obtenir les textes d'indications approuvées des AMM françaises pour documenter l'indication d'origine
+- Vérifier la compatibilité des voies d'administration (voie orale disponible, évaluation en attente)
+- Prévoir une surveillance de la calcémie et du risque d'hypercalcémie dans tout protocole de recherche
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

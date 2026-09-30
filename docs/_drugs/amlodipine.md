@@ -2,7 +2,7 @@
 layout: default
 title: Amlodipine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 35
+nav_order: 36
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Amlodipine : De l'Hypertension Artérielle à l'Infarctus du Tronc Cérébral
+# Amlodipine : De l'Antihypertenseur à l'Infarctus du Tronc Cérébral
 
 ## Résumé en Une Phrase
 
-L'amlodipine est un antagoniste calcique de longue durée d'action (classe dihydropyridine), initialement développé et largement utilisé dans le traitement de l'hypertension artérielle et de l'angor stable chronique.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infarctus du tronc cérébral**,
-avec **aucun essai clinique** et **aucune publication** soutenant directement cette direction à ce stade.
+L'amlodipine est un inhibiteur calcique de type dihydropyridine, classiquement utilisé comme antihypertenseur. Le texte d'indication des AMM françaises n'est pas renseigné dans les données reçues.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infarctus du tronc cérébral**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction pour cette indication.
 
 ---
 
@@ -43,23 +42,23 @@ avec **aucun essai clinique** et **aucune publication** soutenant directement ce
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle / Angor stable (données de référence non renseignées dans ce dossier) |
-| Nouvelle Indication Prédite | Infarctus du tronc cérébral |
-| Score de Prédiction TxGNN | 99.94% |
+| Indication Originale | Non renseignée dans les données ANSM du pack |
+| Nouvelle Indication Prédite | Infarctus du tronc cérébral (brain stem infarction) |
+| Score de Prédiction TxGNN | 99,94 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché à Taïwan | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 6 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues, l'amlodipine appartient à la classe des antagonistes calciques dihydropyridiniques (L-type CCB) : elle bloque les canaux calciques voltage-dépendants de type L au niveau des muscles lisses vasculaires, entraînant une vasodilatation artérielle et une réduction de la résistance vasculaire périphérique, ce qui explique son efficacité antihypertensive et antiangineuse bien établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. L'amlodipine est un inhibiteur calcique de type dihydropyridine. Son mécanisme plausible est le blocage des canaux calciques de type L, qui provoque une vasodilatation et une baisse de la pression artérielle. Une neuroprotection est également envisageable.
 
-Le rationnel mécanistique fourni dans ce dossier repose sur le fait que le blocage des canaux calciques pourrait théoriquement réduire la surcharge calcique intraneuronale lors d'une ischémie du tronc cérébral, atténuant ainsi les lésions d'excitotoxicité. Par ailleurs, l'infarctus du tronc cérébral partage avec l'ensemble des AVC ischémiques les mêmes facteurs de risque vasculaires modifiables — notamment l'hypertension artérielle —, domaine d'indication principal de l'amlodipine.
+Le lien avec l'infarctus du tronc cérébral repose sur deux hypothèses. La première est le contrôle tensionnel, facteur de risque majeur des accidents vasculaires cérébraux. La seconde est un effet neuroprotecteur, suggéré par des modèles animaux d'ischémie cérébrale (voir la conclusion).
 
-Cependant, cette prédiction est entièrement issue du modèle TxGNN (réseau de neurones graphique sur base de connaissances biomédicales), sans aucune donnée clinique ou préclinique directement validant l'efficacité de l'amlodipine dans l'infarctus du tronc cérébral. Le passage à des études spécifiques requiert en premier lieu la génération de données précliniques sur des modèles d'ischémie du tronc.
+Ce raisonnement reste théorique. Il s'agit d'une prédiction du modèle seul, sans essai clinique ni publication propre à cette indication. La similarité avec l'indication originale n'a pas encore été évaluée.
 
 ---
 
@@ -75,9 +74,17 @@ Aucune littérature associée disponible actuellement.
 
 ---
 
-## Informations de Marché à Taïwan
+## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché (AMM) enregistrée à Taïwan pour l'amlodipine dans les données interrogées. Le statut de commercialisation est **non commercialisé** (0 AMM).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 63566442 | AMLODIPINE ZYDUS 5 mg | Gélule | Non renseignée |
+| 62204255 | AMLODIPINE VIATRIS GENERIQUES 5 mg | Gélule | Non renseignée |
+| 63811710 | AMLODIPINE EG 5 mg | Gélule | Non renseignée |
+| 68500357 | AMLODIPINE ZYDUS 10 mg | Gélule | Non renseignée |
+| 63436445 | AMLODIPINE VIATRIS GENERIQUES 10 mg | Gélule | Non renseignée |
+
+Six AMM sont recensées au total, dont cinq sont listées ci-dessus. Une forme à libération modifiée (comprimé) figure aussi dans les données de voies d'administration.
 
 ---
 
@@ -92,14 +99,17 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN pour l'infarctus du tronc cérébral repose exclusivement sur le modèle de graphe de connaissances biomédicales, en l'absence totale d'essais cliniques ou de publications directement associés à cette indication. Le niveau de preuve L5 est insuffisant pour justifier une progression vers des études cliniques ou réglementaires.
+- La prédiction pour l'infarctus du tronc cérébral repose uniquement sur le score du modèle (niveau L5), sans essai ni publication. Les données de sécurité de la notice ANSM manquent également et bloquent le passage au criblage de sécurité.
+- Le pack contient d'autres indications prédites mieux documentées. L'**hémorragie intracérébrale** est au niveau L2 : l'essai de phase 3 TRIDENT (n=1671, terminé) teste une trithérapie antihypertensive à faible dose contenant de l'amlodipine, donc l'effet de l'amlodipine seule ne peut pas être isolé. L'**occlusion d'artère cérébrale** est au niveau L4, avec des études précliniques chez l'animal. Ces pistes méritent d'être évaluées en priorité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (MOA) neurovasculaire de l'amlodipine (combler DG002)
-- Études précliniques sur des modèles animaux d'ischémie du tronc cérébral (preuve de concept)
-- Revue systématique de la littérature sur les antagonistes calciques dans l'AVC ischémique du tronc cérébral
-- Clarification du statut réglementaire à Taïwan : téléchargement et analyse de la notice officielle TFDA (combler DG001)
-- Réévaluation de la priorité de cette indication au regard d'autres candidats du même dossier présentant un niveau de preuve supérieur (ex. : hémorragie intracérébrale, niveau L3, recommandation *Proceed with Guardrails*)
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications), une lacune bloquante.
+- Compléter les données sur le mécanisme d'action (DrugBank).
+- Renseigner les indications approuvées des AMM françaises.
+- Réévaluer le choix de l'indication prioritaire, en comparant l'infarctus du tronc cérébral aux indications mieux étayées.
+- Rechercher des études spécifiques à l'amlodipine dans l'infarctus du tronc cérébral.
+
+*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

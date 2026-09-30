@@ -2,7 +2,7 @@
 layout: default
 title: Ambrisentan
 parent: Preuves modérées (L3-L4)
-nav_order: 30
+nav_order: 31
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,74 +29,75 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Ambrisentan : De l'Hypertension Artérielle Pulmonaire à la Malformation Artérioveineuse Pulmonaire
+# Ambrisentan : De l'Hypertension Artérielle Pulmonaire à la Malformation Artério-veineuse Pulmonaire
 
 ## Résumé en Une Phrase
 
-Ambrisentan est un antagoniste sélectif des récepteurs de l'endothéline de type A (ETA), commercialisé à l'international sous les noms Letairis® (FDA) et Volibris® (EMA) pour le traitement de l'hypertension artérielle pulmonaire (HAP), mais ne disposant d'aucune AMM en France.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Malformation Artérioveineuse Pulmonaire (PAVM)**,
-avec **0 essai clinique** et **1 publication** soutenant actuellement cette direction spécifique.
-
----
+L'ambrisentan est un antagoniste des récepteurs de l'endothéline, utilisé à l'origine pour traiter l'hypertension artérielle pulmonaire (HTAP).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **malformation artério-veineuse pulmonaire**,
+mais cette prédiction ne repose actuellement sur **aucun essai clinique** et sur **1 seule publication** (un rapport de cas qui ne démontre pas d'effet du médicament sur cette maladie).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle pulmonaire (HAP) — approbation FDA/EMA, non commercialisé en France |
-| Nouvelle Indication Prédite | Malformation artérioveineuse pulmonaire (PAVM) |
+| Indication Originale | Hypertension artérielle pulmonaire (le texte d'indication des AMM n'est pas renseigné dans les données ANSM ; information issue de l'analyse du mécanisme) |
+| Nouvelle Indication Prédite | Malformation artério-veineuse pulmonaire |
 | Score de Prédiction TxGNN | 99,41 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé (aucune AMM ANSM) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Research Question |
-
----
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 11 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données interrogée (DG002 — sévérité Haute). Sur la base des informations connues, Ambrisentan est un antagoniste sélectif du récepteur A de l'endothéline (ETA) qui bloque la liaison de l'endothéline-1 (ET-1) à ce récepteur, inhibant ainsi la vasoconstriction et le remodelage vasculaire pulmonaire. Cette cible est bien validée dans l'HAP idiopathique et associée, dans laquelle les niveaux circulants d'ET-1 sont significativement élevés.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base utilisée. D'après les informations connues, l'ambrisentan est un antagoniste des récepteurs de l'endothéline (ETRA), dont l'efficacité dans l'HTAP est établie.
 
-La malformation artérioveineuse pulmonaire (PAVM) est une anomalie vasculaire structurelle caractérisée par une connexion anormale directe entre artères et veines pulmonaires, court-circuitant la circulation capillaire normale. Elle s'observe fréquemment dans le contexte de la télangiectasie hémorragique héréditaire (HHT), une vasculopathie génétique autosomique dominante rare. Dans ce cadre, une fraction des patients HHT-PAVM développe secondairement une HAP — créant ainsi un pont biologique indirect avec le mécanisme d'action d'Ambrisentan sur l'axe ET-1/ETA.
+Le lien avec la nouvelle indication est indirect. La seule publication associée décrit une HTAP chez une patiente atteinte de télangiectasie hémorragique héréditaire (maladie de Rendu-Osler). Il s'agit d'une atteinte vasculaire pulmonaire distincte de la malformation artério-veineuse elle-même. Rien ne montre qu'un traitement par ETRA agisse sur la malformation.
 
-Il est cependant essentiel de souligner qu'Ambrisentan ne possède **aucun mécanisme d'action direct sur les PAVM elles-mêmes**, qui sont des lésions anatomiques relevant de l'embolisation percutanée ou de la chirurgie. La prédiction TxGNN reflète vraisemblablement une connexion topologique dans le graphe de connaissances (PAVM → HHT → HAP secondaire → traitement antagoniste ERA), et non une efficacité thérapeutique directe sur les malformations vasculaires structurelles.
-
----
+Le score élevé reflète très probablement la proximité, dans le graphe de connaissances, entre la maladie de Rendu-Osler, les maladies vasculaires et l'HTAP. Il ne constitue pas une preuve d'efficacité, et la plausibilité mécanistique reste faible.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Rapport de cas | World Journal of Clinical Cases | Patient HHT présentant une HAP associée traitée par thérapie ciblée HAP ; analyse génétique familiale réalisée ; souligne la rareté de cette comorbidité et son pronostic réservé sans prise en charge adaptée |
+| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Rapport de cas | World Journal of Clinical Cases | Cas d'HTAP chez un patient atteint de télangiectasie hémorragique héréditaire, avec analyse génétique de la famille. Ne montre pas d'effet de l'ambrisentan sur la malformation artério-veineuse. |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 62848645 | AMBRISENTAN VIATRIS 10 mg | Comprimé pelliculé | Non renseignée |
+| 61398654 | AMBRISENTAN VIATRIS 5 mg | Comprimé pelliculé | Non renseignée |
+| 68371574 | AMBRISENTAN TEVA 5 mg | Comprimé pelliculé | Non renseignée |
+| 64673002 | AMBRISENTAN TEVA 10 mg | Comprimé pelliculé | Non renseignée |
+| 68499606 | VOLIBRIS 5 mg | Comprimé pelliculé | Non renseignée |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
----
-
 ## Conclusion et Prochaines Étapes
 
-**Décision : Research Question**
+**Décision : Hold**
 
 **Justification :**
-Le lien mécanistique entre Ambrisentan et la PAVM est indirect et biologiquement marginal — la pertinence clinique se limite à la gestion d'une HAP secondaire survenant dans une minorité de patients HHT-PAVM, sans aucune action sur la lésion vasculaire structurelle elle-même. L'unique publication disponible est un rapport de cas centré sur la comorbidité HHT-HAP et ne concerne pas Ambrisentan directement dans cette indication.
-
-> **Note sur le pack multi-indications :** Ce dossier couvre également des indications nettement mieux étayées qui méritent une évaluation prioritaire distincte : la HAP associée à l'infection VIH (**Rang 3 — L1**, 1 essai Phase 3 complété), la HAP associée aux cardiopathies congénitales (**Rang 2 — L2**, plusieurs essais Phase 2/3) et la HAP associée aux connectivites (**Rang 6 — L2**, 3 essais complétés dont 2 Phase 4).
+- La prédiction repose uniquement sur le score du modèle et sur un rapport de cas non pertinent pour la malformation artério-veineuse. Aucun essai clinique n'est associé.
+- Le mécanisme n'est pas étayé : l'HTAP de la maladie de Rendu-Osler est une maladie distincte de la malformation.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données complètes sur le mécanisme d'action (MOA) d'Ambrisentan — source : DrugBank API (DG002)
-- Informations de sécurité ANSM/EMA : mises en garde, contre-indications, interactions médicamenteuses (DG001 — statut bloquant)
-- Données précliniques ou registres ciblant spécifiquement l'HHT-PAVM avec antagonistes des récepteurs de l'endothéline
-- Génération de rapports distincts pour les indications HAP de rang supérieur (VIH-PAH, CHD-PAH, CTD-PAH) qui présentent un niveau de preuve clinique suffisant pour progresser vers l'étape S3
+- Des données précons cliniques ou mécanistiques montrant un rôle de l'endothéline dans les malformations artério-veineuses pulmonaires
+- Des études cliniques ciblant directement cette indication
+- Les mises en garde et contre-indications de la notice ANSM, à récupérer et analyser. Elles sont indispensables avant tout dépistage de sécurité, notamment pour la toxicité embryo-fœtale des antagonistes de l'endothéline.
+- Les données détaillées sur le mécanisme d'action (DrugBank)
+
+**À noter :** dans ce même dossier, d'autres indications prédites disposent de preuves nettement plus solides, avec une recommandation « Proceed with Guardrails » (niveau L2). Il s'agit de l'HTAP associée aux cardiopathies congénitales, à l'infection par le VIH et aux connectives, cette dernière étant la mieux documentée. Ces pistes méritent une évaluation distincte.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Toute piste de repositionnement doit être validée cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

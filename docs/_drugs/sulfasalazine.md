@@ -2,7 +2,7 @@
 layout: default
 title: Sulfasalazine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 288
+nav_order: 292
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulfasalazine : De la Polyarthrite Rhumatoïde au Syndrome de Brachydactylie-Syndactylie
+# Sulfasalazine : De l'indication d'origine (non renseignée) au syndrome de brachydactylie-syndactylie
 
 ## Résumé en Une Phrase
 
-Sulfasalazine est un DMARD (anti-rhumatismal de fond) anti-inflammatoire, établi en pratique pour la polyarthrite rhumatoïde et les maladies inflammatoires chroniques de l'intestin. Le modèle TxGNN le classe en priorité pour le **syndrome de brachydactylie-syndactylie**, une maladie génétique rare du développement squelettique — mais cette prédiction n'est actuellement soutenue par **aucun essai clinique ni aucune publication**, et le dossier de preuves indique explicitement l'absence de lien mécanistique connu.
+La sulfasalazine est commercialisée en France (Salazopyrine 500 mg, comprimé enrobé gastro-résistant), mais l'indication d'origine n'est pas renseignée dans les données réglementaires disponibles.
+Le modèle TxGNN la prédit comme potentiellement efficace pour le **syndrome de brachydactylie-syndactylie**, une malformation congénitale rare des membres.
+Cette prédiction ne repose sur **aucun essai clinique** et **aucune publication** : c'est une sortie de modèle seule.
 
 ---
 
@@ -41,23 +43,23 @@ Sulfasalazine est un DMARD (anti-rhumatismal de fond) anti-inflammatoire, établ
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde / rectocolite hémorragique (usage établi ; non enregistré comme AMM dans ce dossier — aucune licence disponible) |
+| Indication Originale | Non renseignée dans les données ANSM |
 | Nouvelle Indication Prédite | Syndrome de brachydactylie-syndactylie |
-| Score de Prédiction TxGNN | 99.94% |
+| Score de Prédiction TxGNN | 99,94 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues, sulfasalazine fait partie de la classe des DMARD, avec des propriétés anti-inflammatoires (inhibition de NF-κB) et immunomodulatrices ; son efficacité dans la polyarthrite rhumatoïde et les maladies inflammatoires chroniques de l'intestin est largement établie en pratique clinique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les éléments d'analyse, la sulfasalazine exerce une action anti-inflammatoire, avec une inhibition de la voie NF-kB et du transporteur cystine/glutamate xCT.
 
-Le syndrome de brachydactylie-syndactylie est une maladie génétique rare du développement squelettique, liée à des anomalies de gènes de morphogenèse osseuse. Selon le dossier de preuves lui-même, **il n'existe aucun lien biologique connu** entre ce mécanisme d'action anti-inflammatoire/immunomodulateur de sulfasalazine et la physiopathologie de ce syndrome : le score élevé attribué par TxGNN relève d'une prédiction purement statistique du modèle, sans support clinique ou mécanistique.
+L'analyse n'identifie **aucun lien mécanistique plausible** avec le syndrome de brachydactylie-syndactylie. Il s'agit d'une malformation congénitale rare des membres, dont la physiopathologie relève du développement embryonnaire. Elle n'a pas de rapport évident avec les effets anti-inflammatoires du médicament.
 
-En l'état, cette association doit être interprétée comme une piste exploratoire de type "signal du modèle" et non comme une hypothèse pharmacologiquement motivée.
+Le score TxGNN est très élevé (0,999), mais il reflète une proximité dans le graphe de connaissances, pas une preuve d'efficacité. Sans essai ni publication, cette prédiction doit être considérée comme non corroborée. La similarité avec l'indication d'origine reste à évaluer.
 
 ---
 
@@ -73,6 +75,14 @@ Aucune littérature associée disponible actuellement.
 
 ---
 
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 67124724 | SALAZOPYRINE 500 mg, comprimé enrobé gastro-résistant (PFIZER HOLDING FRANCE) | Comprimé enrobé gastro-résistant | Non renseignée dans les données |
+
+---
+
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
@@ -84,13 +94,17 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-Le niveau de preuve est L5 (prédiction du modèle uniquement) : aucun essai clinique, aucune publication, et le dossier indique lui-même une absence de rationnel mécanistique reliant sulfasalazine à cette maladie génétique rare. Le médicament n'est par ailleurs pas commercialisé en France (0 AMM), et une lacune bloquante (DG001) empêche toute évaluation de sécurité préliminaire (S1).
+- Le niveau de preuve est L5 : aucun essai, aucune publication, et aucun lien mécanistique plausible avec une malformation congénitale du développement des membres.
+- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/mises en garde TFDA (DG001, bloquant — nécessaire avant toute évaluation de sécurité S1)
-- Données de mécanisme d'action (MOA) via DrugBank (DG002)
-- Études précliniques établissant un lien biologique plausible entre la voie anti-inflammatoire de sulfasalazine et la physiopathologie du syndrome de brachydactylie-syndactylie
-- À titre indicatif : deux autres indications prédites dans ce même dossier (**ostéoarthrite**, rang 5, et **spondylarthropathie [susceptibilité]**, rang 8) disposent d'un niveau de preuve plus solide (L3, stade S2, avec littérature et essais cliniques disponibles) et pourraient constituer des pistes de repositionnement plus immédiatement exploitables
+- Récupérer la notice ANSM (mises en garde et contre-indications) et l'indication approuvée de l'AMM.
+- Obtenir les données sur le mécanisme d'action via l'API DrugBank.
+- Établir un lien mécanistique et des données précliniques pour justifier la prédiction.
+
+**Remarque :** dans le même dossier, deux autres prédictions sont mieux étayées et méritent d'être examinées en priorité (niveau L4, décision « Research Question »).
+- **Arthrose** (score 99,64 %) : plusieurs études précliniques (modèles animaux et cartilage in vitro) vont dans le sens d'un effet protecteur. La pertinence des deux essais cliniques retrouvés n'est pas confirmée, et l'efficacité chez l'humain reste non démontrée.
+- **Spondylarthropathie, susceptibilité** (score 99,53 %) : la littérature retrouvée se compose surtout de revues et d'études observationnelles ou génétiques, sans essai.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

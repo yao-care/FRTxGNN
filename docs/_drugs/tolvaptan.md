@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tolvaptan
-parent: Preuves élevées (L1-L2)
-nav_order: 315
-evidence_level: L1
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 319
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,83 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Tolvaptan : De la Polykystose Rénale Autosomique Dominante (ADPKD, PKD1/PKD2) à la Polykystose Rénale Type 3
+# Tolvaptan : Des Antagonistes du Récepteur V2 à la Polykystose Rénale de Type 3 (avec ou sans Atteinte Hépatique)
 
 ## Résumé en Une Phrase
 
-Le tolvaptan est un antagoniste du récepteur V2 de la vasopressine, déjà approuvé par la FDA/EMA pour ralentir la progression de la maladie rénale polykystique autosomique dominante liée aux gènes PKD1/PKD2. Le modèle TxGNN prédit qu'il pourrait aussi être efficace pour la **polycystic kidney disease 3 (avec ou sans maladie polykystique du foie)**, un sous-type génétique distinct, avec un score de prédiction de **99,99 %** et **20 publications** (dont 2 essais randomisés de phase 3 sur l'ADPKD en général) soutenant cette direction — mais aucun essai clinique n'est actuellement enregistré spécifiquement pour le sous-type PKD3.
-
----
+Tolvaptan est un antagoniste sélectif du récepteur V2 de la vasopressine, dont l'indication d'origine n'est pas renseignée dans les données réglementaires françaises fournies.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polykystose rénale de type 3, avec ou sans polykystose hépatique**.
+Aucun essai clinique n'est enregistré, mais **20 publications** soutiennent cette direction, dont 2 essais randomisés de phase 3 menés dans la PKAD (polykystose rénale autosomique dominante).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie rénale polykystique autosomique dominante (ADPKD), principalement associée aux gènes PKD1/PKD2 |
-| Nouvelle Indication Prédite | Polycystic kidney disease 3 avec ou sans maladie polykystique du foie |
+| Indication Originale | Non renseignée dans les AMM (texte d'indication vide) |
+| Nouvelle Indication Prédite | Polykystose rénale de type 3, avec ou sans polykystose hépatique |
 | Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Niveau de Preuve | L1 (preuves indirectes : essais menés dans la PKAD, non spécifiques du génotype) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 17 |
 | Décision Recommandée | Proceed with Guardrails |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données structurées de mécanisme d'action (champ MOA de DrugBank) ne sont pas disponibles pour ce rapport. Sur la base des informations mécanistiques rapportées dans la littérature associée, le tolvaptan est un antagoniste sélectif du récepteur V2 de la vasopressine (V2R) : il inhibe la production d'AMPc dans les cellules épithéliales des tubes collecteurs rénaux, ce qui ralentit la prolifération kystique et la croissance du volume rénal total. Ce mécanisme est déjà validé et approuvé par la FDA/EMA pour l'ADPKD associée aux loci PKD1 et PKD2.
+Tolvaptan bloque le récepteur V2 de la vasopressine. Cela réduit la signalisation par l'AMPc dans les cellules du tube collecteur rénal. Or l'AMPc favorise la sécrétion de liquide dans les kystes et leur croissance dans la PKAD. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le champ dédié du pack. Ce raisonnement provient de l'analyse de rationalité du dossier.
 
-La polycystic kidney disease 3 (PKD3) est un sous-type génétiquement distinct au sein du même spectre nosologique des maladies rénales polykystiques/ciliopathies. Elle partage avec l'ADPKD classique une physiopathologie de type kystogenèse dépendante de la voie AMPc, ce qui rend l'extrapolation mécanistique plausible.
-
-Cependant, aucune des publications recensées ne porte spécifiquement sur le locus PKD3 : les essais pivots (TEMPO 3:4, REPRISE) et la majorité des revues concernent l'ADPKD au sens large (PKD1/PKD2). L'applicabilité au sous-type PKD3 repose donc sur une extrapolation de voie commune plutôt que sur une preuve directe.
-
----
+La PKD3 (liée à GANAB) partage le phénotype kystique de la PKAD. Les essais de phase 3 TEMPO 3:4 (PMID 23121377) et REPRISE (PMID 29105594) ont été réalisés dans des populations PKAD, sans stratification selon le génotype GANAB. L'applicabilité à la PKD3 repose donc sur le phénotype et la voie biologique, et non sur des données spécifiques du génotype.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour l'indication « polycystic kidney disease 3 with or without polycystic liver disease ».
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | ECR | N Engl J Med | Essai TEMPO 3:4 : le tolvaptan ralentit la croissance du volume rénal total et le déclin de la fonction rénale dans l'ADPKD |
-| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | ECR | N Engl J Med | Essai REPRISE : efficacité et sécurité du tolvaptan dans l'ADPKD à un stade plus avancé |
-| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | ECR | Pediatr Nephrol | Essai randomisé (NCT02964273) évaluant sécurité et pharmacodynamie du tolvaptan chez l'enfant (5-17 ans) atteint d'ADPKD |
-| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Revue/Consensus | Nephrol Dial Transplant | Consensus ERA/ERKNet/PKD International sur l'utilisation du tolvaptan dans l'ADPKD, approches fondées sur les preuves pour l'initiation du traitement |
-| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Revue systématique | Nefrologia | Méta-analyse : efficacité et sécurité du tolvaptan dans le traitement de l'ADPKD |
-| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Revue des interventions pour prévenir la progression de l'ADPKD, incluant les agents ciblant la pathogenèse |
-| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Revue | JAMA | Revue générale de l'ADPKD : épidémiologie, physiopathologie et prise en charge |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Revue | Clin Liver Dis | L'usage du tolvaptan dans l'ADPKD ralentit la détérioration de la fonction rénale et la croissance kystique ; revue de la maladie polykystique hépatique associée |
-| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | Revue | Curr Opin Nephrol Hypertens | Le tolvaptan reste le seul traitement approuvé par la FDA ciblant la progression de l'ADPKD ; revue des thérapies émergentes |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Revue/Directive | J Hepatol | Recommandations EASL sur la prise en charge des maladies hépatiques kystiques, incluant la maladie polykystique du foie |
+| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | ECR | N Engl J Med | Essai de tolvaptan dans la PKAD (TEMPO 3:4), motivé par des données précliniques montrant que les antagonistes V2 freinent la croissance des kystes |
+| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | ECR | N Engl J Med | Essai dans la PKAD de stade avancé (REPRISE) ; l'essai précédent avait montré un ralentissement de la croissance du volume rénal total et du déclin du DFGe, avec davantage d'élévations des transaminases et de la bilirubine |
+| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Méta-analyse | Nefrologia | Évaluation systématique de l'efficacité et de la sécurité du tolvaptan dans la PKAD |
+| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Revue systématique | Cochrane Database Syst Rev | Interventions pour prévenir la progression de la PKAD, dont les agents modifiant la maladie |
+| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | ECR (analyse rétrospective) | Pediatr Nephrol | Estimation du risque de progression rapide chez l'enfant PKAD dans l'essai pédiatrique de tolvaptan (NCT02964273) |
+| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Consensus | Nephrol Dial Transplant | Mise à jour ERA/ERKNet/PKD International sur l'usage du tolvaptan dans la PKAD, fondée sur l'essai TEMPO 3:4 |
+| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Recommandations | J Hepatol | Recommandations EASL sur la prise en charge des maladies kystiques du foie, dont la polykystose hépatique |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Revue | Clin Liver Dis | Maladie polykystique rénale/hépatique ; le tolvaptan peut ralentir la dégradation de la fonction rénale dans la PKAD |
+| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Revue | JAMA | Revue générale de la PKAD, trouble rénal héréditaire le plus fréquent |
+| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | Revue | Curr Opin Nephrol Hypertens | Thérapies au-delà du tolvaptan, seul traitement de fond de la PKAD approuvé par la FDA |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 60108831 | TOLVAPTAN SANDOZ 15 mg + 45 mg | Comprimé |
+| 64599993 | TOLVAPTAN TEVA 30 mg + 60 mg | Comprimé |
+| 66056341 | JINARC 30 mg | Comprimé |
+| 68174566 | JINARC 30 mg + 60 mg | Comprimé |
+| 68053529 | TOLVAPTAN SANDOZ 30 mg + 90 mg | Comprimé |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Hépatotoxicité** : risque d'atteinte hépatique nécessitant une surveillance de type REMS. Dans l'essai de phase 3 cité (PMID 29105594), des élévations des transaminases et de la bilirubine ont été observées. La prudence est particulière en présence d'une composante hépatique polykystique.
+- **Effets liés à l'aquarèse** : soif, polyurie et autres effets indésirables associés à l'effet aquarétique.
+- **Limites d'éligibilité** : seuils de DFGe à respecter.
 
----
+Pour les mises en garde, contre-indications et interactions médicamenteuses détaillées, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Deux essais randomisés de phase 3 (TEMPO 3:4, REPRISE) et un consensus international établissent solidement l'efficacité du tolvaptan dans l'ADPKD au sens large, mais aucune preuve directe (essai clinique ou publication dédiée) ne cible spécifiquement le sous-type PKD3. La recommandation avance donc sous garde-fous, avec extrapolation mécanistique plutôt que preuve directe.
+- Deux essais randomisés de phase 3 (TEMPO 3:4 et REPRISE) soutiennent le mécanisme dans la PKAD, dont le phénotype kystique est partagé avec la PKD3. Aucune donnée spécifique du génotype GANAB n'existe et aucun essai n'est enregistré ; le risque hépatique impose un cadre de surveillance strict.
+- Les 9 autres indications prédites (rangs 2 à 10) ont un niveau de preuve L4 ou L5 et sont en attente (Hold) ou question de recherche. Elles ne sont pas retenues à ce stade.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir le texte complet de l'notice/RCP TFDA (mises en garde, contre-indications) — actuellement un gap bloquant (DG001)
-- Compléter les données structurées de MOA via l'API DrugBank (DG002)
-- Confirmer si les cohortes des essais ADPKD existants incluent des patients porteurs du locus PKD3, ou lancer une étude dédiée
-- Suivre le statut réglementaire en France, le produit n'étant actuellement pas commercialisé (0 AMM)
+- Télécharger et analyser la notice ANSM pour extraire mises en garde et contre-indications (lacune bloquante pour le criblage de sécurité)
+- Obtenir les données sur le mécanisme d'action depuis DrugBank
+- Rechercher des données cliniques spécifiques du génotype GANAB (PKD3)
+- Définir un plan de surveillance hépatique et rénale, en particulier en cas d'atteinte hépatique polykystique
+- Vérifier les indications approuvées dans les AMM, dont le texte est vide dans les données fournies
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

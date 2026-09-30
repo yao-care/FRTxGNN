@@ -2,15 +2,15 @@
 layout: default
 title: Laronidase
 parent: Preuves modérées (L3-L4)
-nav_order: 167
-evidence_level: L3
+nav_order: 170
+evidence_level: L4
 indication_count: 2
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **2** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,73 @@ Niveau de preuve: **L3** | Indications prédites: **2**
 
 </div>
 
-# Laronidase : De la Mucopolysaccharidose de Type I à la Maladie de Surcharge Lysosomale avec Atteinte Squelettique
+# Laronidase : De la Mucopolysaccharidose de type I à la Maladie de surcharge lysosomale avec atteinte squelettique
 
 ## Résumé en Une Phrase
 
-Laronidase (DrugBank DB00090) est une α-L-iduronidase humaine recombinante, enzymothérapie substitutive initialement développée pour la mucopolysaccharidose de type I (MPS I — syndromes de Hurler, Hurler-Scheie et Scheie). Le modèle TxGNN prédit une efficacité pour la **maladie de surcharge lysosomale avec atteinte squelettique**, avec un score de **99.31%**, mais **aucun essai clinique** dédié n'est enregistré et les **4 publications** associées documentent en réalité l'usage déjà connu de laronidase dans la MPS I plutôt qu'une indication véritablement nouvelle.
-
----
+Laronidase est une enzyme recombinante (alpha-L-iduronidase) utilisée en enzymothérapie substitutive dans la mucopolysaccharidose de type I (MPS I, syndromes de Hurler, Hurler-Scheie et Scheie).
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie de surcharge lysosomale avec atteinte squelettique**.
+Aucun **essai clinique** n'est enregistré pour cette indication, et **4 publications** seulement sont associées (revues, étude in vitro, rapport de cas), sans donnée clinique spécifique à cette atteinte.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mucopolysaccharidose de type I (MPS I — Hurler / Hurler-Scheie / Scheie) *(déduite de la littérature associée ; aucun texte d'indication d'AMM structuré disponible)* |
-| Nouvelle Indication Prédite | Lysosomal storage disease with skeletal involvement |
-| Score de Prédiction TxGNN | 99.31% |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Non commercialisé (0 AMM enregistrée dans ce jeu de données) |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Indication Originale | Mucopolysaccharidose de type I (déduite de la littérature ; le texte d'indication de l'AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Maladie de surcharge lysosomale avec atteinte squelettique |
+| Score de Prédiction TxGNN | 99,31 % |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, la laronidase est l'alpha-L-iduronidase humaine recombinante. Cette enzyme dégrade le sulfate de dermatane et le sulfate d'héparane, qui s'accumulent dans la MPS I. Son efficacité dans la MPS I a été démontrée, et elle pourrait mécanistiquement s'appliquer à l'atteinte squelettique de cette maladie.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues issues de la littérature, laronidase fait partie de la classe des enzymothérapies substitutives (recombinant human α-L-iduronidase) : elle est captée par les cellules déficientes via les récepteurs mannose-6-phosphate, transportée vers les lysosomes, et y clive les glycosaminoglycanes (dermatan sulfate, heparan sulfate) accumulés. Son efficacité dans la mucopolysaccharidose de type I est établie de longue date (mise sur le marché sous le nom Aldurazyme).
+Il faut lire ce score élevé avec prudence. « Maladie de surcharge lysosomale avec atteinte squelettique » est une catégorie large, qui inclut la MPS I, c'est-à-dire l'usage déjà autorisé du médicament. Le score reflète donc très probablement la redécouverte de l'indication existante plutôt qu'un véritable repositionnement.
 
-La « maladie de surcharge lysosomale avec atteinte squelettique » prédite par TxGNN n'est pas, à l'examen, une pathologie distincte : l'atteinte squelettique (dysostosis multiplex) est une manifestation clinique caractéristique de la MPS I elle-même, l'indication déjà connue de laronidase. Il ne s'agit donc vraisemblablement pas d'un véritable signal de repositionnement, mais d'une reformulation phénotypique de l'indication existante — le modèle a probablement capturé la relation MPS I ↔ atteinte squelettique déjà présente dans les données d'entraînement plutôt qu'une extension thérapeutique réelle.
-
-Par ailleurs, le statut « non commercialisé » et les 0 AMM enregistrées pour la France dans ce jeu de données sont à interpréter avec prudence : ils reflètent probablement une lacune de la source de données utilisée plutôt que l'absence réelle du médicament sur le marché, puisque la littérature associée traite explicitement d'un produit déjà en usage clinique documenté (essais multicentriques, suivis de patients sur plusieurs années).
-
----
+Un bénéfice osseux est biologiquement plausible : une étude in vitro montre que la laronidase est captée par les ostéoblastes et les fibroblastes. En clinique toutefois, l'enzymothérapie intraveineuse agit peu sur l'os et le cartilage, car elle pénètre mal dans les tissus avasculaires. Les autres maladies lysosomales ne devraient pas répondre, car la laronidase est spécifique du déficit en iduronidase.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour l'indication « lysosomal storage disease with skeletal involvement ».
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Revue | BioDrugs | Présentation du développement de laronidase (α-L-iduronidase recombinante) pour la MPS I ; désignations orphelines US/UE et statut fast-track FDA |
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Revue | Pediatr Endocrinol Rev | Revue de la MPS I (déficit en α-L-iduronidase), spectre clinique Hurler/Scheie/Hurler-Scheie, diagnostic par GAG urinaires |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Étude mécanistique (in vitro) | Biol Pharm Bull | Captation dose-dépendante de laronidase par fibroblastes/ostéoblastes MPS I via récepteurs mannose-6-phosphate, transport lysosomal et clivage des substrats accumulés |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Rapport de cas | Pediatr Neurol | Suivi de 6,5 ans d'un patient atteint du syndrome de Scheie sous enzymothérapie substitutive débutée à 2,5 ans ; déclin de l'état général après amélioration initiale, progression de la maladie malgré le traitement |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Revue (profil du médicament) | BioDrugs | Développement de la laronidase dans la MPS I (syndrome de Hurler), avec désignation de médicament orphelin aux États-Unis et en Europe |
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Revue | Pediatr Endocrinol Rev | Présentation de la MPS I : déficit en alpha-L-iduronidase, accumulation de glycosaminoglycanes, spectre Hurler / Hurler-Scheie / Scheie |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Préclinique (in vitro) | Biol Pharm Bull | Captation dose-dépendante de la laronidase par des fibroblastes et des ostéoblastes, via les récepteurs du mannose-6-phosphate, puis transport vers les lysosomes |
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Rapport de cas | Pediatr Neurol | Suivi de 6,5 ans d'un garçon atteint du syndrome de Scheie sous enzymothérapie, avec déclin de l'état général et progression de la maladie |
 
----
+## Informations de Marché en France
 
-## Considérations de Securite
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66328396 | ALDURAZYME 100 U/ml, solution à diluer pour perfusion (SANOFI, Pays-Bas) | Solution à diluer pour perfusion | Texte d'indication non renseigné dans la base |
 
-Veuillez consulter la notice pour les informations de sécurité. *(Lacune bloquante identifiée : les mises en garde, contre-indications et interactions médicamenteuses de la notice TFDA/française ne sont actuellement pas disponibles dans ce dossier — DG001.)*
+## Considérations de Sécurité
 
----
+Veuillez consulter la notice pour les informations de sécurité.
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- L'indication prédite chevauche largement l'usage déjà établi de laronidase dans la MPS I (l'atteinte squelettique est une manifestation classique de cette maladie), ce qui remet en question l'existence d'un véritable signal de repositionnement plutôt qu'une reformulation de l'indication connue.
-- Aucun essai clinique dédié n'est enregistré, et une lacune bloquante empêche toute évaluation de sécurité initiale (S1) : la notice TFDA (mises en garde, contre-indications) est absente.
-- Un second candidat prédit par TxGNN pour ce médicament (syndrome de Sanfilippo/MPS III, score 99.22%) a été examiné et doit être écarté : les 8 publications associées portent en réalité toutes sur la MPS I et non sur le syndrome de Sanfilippo, très probablement un faux positif lié à la cooccurrence du terme « mucopolysaccharidose » — l'α-L-iduronidase n'a aucune spécificité de substrat pertinente pour la MPS III (déficit en SGSH/NAGLU/HGSNAT/GNS) et ne franchit pas la barrière hémato-encéphalique.
+La prédiction repose surtout sur la redécouverte de la MPS I, indication déjà autorisée. Il n'existe aucun essai clinique ni donnée clinique sur l'atteinte squelettique (preuves de niveau L4), et l'enzymothérapie intraveineuse pénètre mal l'os et le cartilage.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice TFDA/française (mises en garde, contre-indications, DDI) — lacune bloquante actuelle (DG001)
-- Clarifier le statut réel de commercialisation en France (vérifier si l'absence d'AMM dans ce jeu de données reflète la réalité du marché ou une lacune de la base source)
-- Confirmer si « maladie de surcharge lysosomale avec atteinte squelettique » désigne un sous-groupe clinique réellement distinct de l'indication MPS I déjà approuvée, ou une simple reformulation du phénotype existant
-- Ne pas poursuivre la piste du syndrome de Sanfilippo (MPS III) sur la base des données actuelles
+- Restreindre l'indication à la MPS I avec critères de jugement squelettiques, avant toute nouvelle évaluation
+- Obtenir les mises en garde et contre-indications de la notice ANSM (bloquant pour le criblage de sécurité)
+- Compléter les données sur le mécanisme d'action (DrugBank)
+- Rechercher des données cliniques sur les résultats osseux et articulaires sous laronidase
+
+**Note :** la seconde prédiction, le syndrome de Sanfilippo (score 99,22 %), est également classée Hold. La laronidase ne remplace pas les enzymes déficientes de la MPS III, ne franchit pas la barrière hémato-encéphalique, et aucune preuve clinique ne soutient cet usage.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Lactulose
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 163
+nav_order: 166
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,68 +29,67 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Lactulose : De la Constipation Chronique/Encéphalopathie Hépatique à l'Acute Urate Nephropathy (Néphropathie Uratique Aiguë)
+# Lactulose : D'un laxatif osmotique à la néphropathie urique aiguë
 
 ## Résumé en Une Phrase
 
-Le lactulose est un disaccharide non absorbable classiquement utilisé dans la constipation chronique et l'encéphalopathie hépatique (encéphalopathie porto-systémique), par piégeage colique de l'ammoniac. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Acute Urate Nephropathy (Néphropathie Uratique Aiguë)**, avec un score de **99,89 %**, mais **aucun essai clinique ni publication** ne soutient actuellement cette direction, et le lien mécanistique est jugé faible.
-
----
+Lactulose est un laxatif osmotique et prébiotique, commercialisé en France sous forme de solution buvable.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néphropathie urique aiguë**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Constipation chronique / Encéphalopathie hépatique (non documentée dans les données réglementaires françaises fournies) |
-| Nouvelle Indication Prédite | Acute Urate Nephropathy (Néphropathie Uratique Aiguë) |
+| Nouvelle Indication Prédite | Néphropathie urique aiguë (acute urate nephropathy) |
 | Score de Prédiction TxGNN | 99,89 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 10 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le Evidence Pack. Sur la base des informations connues, le lactulose est un disaccharide non absorbable dont l'efficacité dans la constipation et l'encéphalopathie hépatique repose sur la fermentation colique (acidification du côlon, effet osmotique, réduction de l'absorption d'ammoniac) — un mécanisme purement digestif et hépato-intestinal.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le lactulose est un sucre non absorbable qui agit comme laxatif osmotique et comme prébiotique dans l'intestin.
 
-L'Acute Urate Nephropathy est une atteinte tubulaire rénale aiguë causée par la précipitation intratubulaire de cristaux d'acide urique (typiquement lors d'un syndrome de lyse tumorale). Il n'existe pas de recoupement physiopathologique connu entre l'action colique du lactulose et la cristallisation urique intra-tubulaire rénale.
-
-L'évaluation interne du dossier qualifie d'ailleurs explicitement cette prédiction de faiblement fiable : « Lactulose 藥理作用限於腸道（滲透性瀉劑、氨捕捉），與尿酸腎病變之機轉路徑無已知交集，判定為 TxGNN 嵌入相似性導致的低可信度預測 ». Autrement dit, ce signal est probablement un artefact de similarité d'embedding du modèle plutôt qu'une relation pharmacologique réelle.
-
----
+Aucun lien mécanistique documenté n'a été retrouvé entre ces propriétés et la lésion tubulaire rénale provoquée par l'acide urique. Le score élevé (99,89 %) provient uniquement d'une prédiction fondée sur le graphe de connaissances. Il ne repose sur aucune étude réelle, et cette prédiction ne peut donc pas être considérée comme étayée à ce stade.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
+|---------|------|------|------|
+| 68014679 | LAXARON 10 g/15 ml, solution buvable en sachet | Solution buvable | P&G Health France |
+| 62729121 | DUPHALAC 66,5 POUR CENT, solution buvable en flacon | Solution buvable | Cooper Consumer Netherlands (Pays-Bas) |
+| 60155329 | DUPHALAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Cooper Consumer Netherlands (Pays-Bas) |
+| 62608575 | LACTULOSE BIOGARAN 66,5 %, solution buvable | Solution buvable | Biogaran |
+| 64834085 | LAEVOLAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Fresenius Kabi Austria (Autriche) |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le score TxGNN est élevé, mais aucune preuve clinique, préclinique ou mécanistique ne relie le lactulose à l'Acute Urate Nephropathy ; l'évaluation interne considère ce signal comme un probable artefact du modèle (stade de décision S0).
+La prédiction pour la néphropathie urique aiguë repose uniquement sur le modèle, sans essai clinique, sans publication et sans mécanisme plausible documenté (niveau L5). Il n'existe pas de base suffisante pour engager une évaluation plus poussée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (MOA) du lactulose (DG002, sévérité High)
-- Mises en garde et contre-indications issues de la notice ANSM/TFDA (DG001, sévérité Blocking — bloque l'évaluation de sécurité S1)
-- Études précliniques explorant un éventuel effet du lactulose sur les lésions tubulaires rénales induites par l'acide urique, avant toute poursuite
-- **Note d'orientation** : ce même Evidence Pack contient une piste bien mieux étayée pour le lactulose — l'*obstructive jaundice* (rang 3, niveau de preuve L3, stade S2 « Research Question »), avec 1 essai clinique et 20 publications, dont un essai multicentrique randomisé (PMID 2032107) sur la prévention de l'insuffisance rénale post-opératoire par le lactulose. Il est recommandé de prioriser cette indication pour la suite des travaux plutôt que l'Acute Urate Nephropathy.
+- Les mises en garde et contre-indications de la notice ANSM, actuellement manquantes et bloquantes pour le criblage de sécurité
+- Les données sur le mécanisme d'action (MOA), à obtenir via l'API DrugBank
+- Une recherche bibliographique ciblée sur le lactulose et la néphropathie urique, ainsi que des données précliniques, pour établir un mécanisme plausible
+- À titre d'orientation, une autre prédiction du même modèle est mieux documentée : l'**ictère obstructif** (niveau L3). Le lactulose y réduit l'endotoxémie et la translocation bactérienne, avec un possible effet protecteur rénal en périopératoire. Les données humaines restent cependant limitées, anciennes (1986-2003) et non concluantes. Cette piste pourrait constituer une question de recherche plus pertinente.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

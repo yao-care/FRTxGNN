@@ -2,7 +2,7 @@
 layout: default
 title: Triamcinolone
 parent: Preuves modérées (L3-L4)
-nav_order: 322
+nav_order: 326
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,81 +29,76 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Triamcinolone : D'un Corticostéroïde Anti-inflammatoire vers l'Alopécie Mucineuse
+# Triamcinolone : D'un corticoïde topique (indication d'origine non renseignée) à l'alopécie mucineuse
 
 ## Résumé en Une Phrase
 
-La triamcinolone est un corticostéroïde de synthèse (DrugBank DB00620) ; les données précises sur ses indications d'origine et son AMM en France ne sont pas disponibles dans ce dossier (le médicament est marqué **non commercialisé** en France, 0 AMM recensée).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**Alopécie Mucineuse** (mucinose folliculaire),
-avec **0 essai clinique** et **4 publications** (toutes des rapports de cas) soutenant actuellement cette direction — un niveau de preuve encore faible (L4).
-
----
+La triamcinolone est un corticoïde, commercialisé en France sous forme de crème et de pommade ophtalmique. Les données fournies ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans l'**alopécie mucineuse** (mucinose folliculaire), mais **aucun essai clinique** n'est enregistré et les **4 publications** retrouvées sont des cas cliniques isolés, dont aucun ne rapporte l'usage de la triamcinolone.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans le dossier (donnée manquante) ; la triamcinolone appartient à la classe des corticostéroïdes/glucocorticoïdes |
-| Nouvelle Indication Prédite | Alopécie Mucineuse (mucinose folliculaire) |
-| Score de Prédiction TxGNN | 99.99% |
+| Nouvelle Indication Prédite | Alopécie mucineuse |
+| Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Question de Recherche (Research Question) — stade S1, pas encore Go/Hold formel |
-
----
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action précis de la triamcinolone ne sont pas disponibles dans ce dossier. Sur la base des informations connues, la triamcinolone fait partie de la classe des corticostéroïdes (glucocorticoïdes de synthèse), dont l'action anti-inflammatoire et immunomodulatrice locale est largement établie — en particulier en usage intralésionnel ou topique dans les dermatoses inflammatoires.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la triamcinolone est un corticoïde aux effets anti-inflammatoires et immunosuppresseurs. Son efficacité dans ses indications d'origine n'est pas documentée dans les données fournies.
 
-L'alopécie mucineuse (ou mucinose folliculaire) est une dermatose inflammatoire touchant le follicule pileux. La triamcinolone intralésionnelle est déjà une pratique clinique courante et empiriquement rapportée pour cette pathologie, via son mécanisme d'anti-inflammation locale. Cependant, les preuves disponibles reposent exclusivement sur des rapports de cas isolés ou de petites séries ; aucune étude comparative spécifique à la triamcinolone n'a été identifiée.
+L'alopécie mucineuse se caractérise par un infiltrat inflammatoire autour des follicules pileux. Il existe donc une logique de classe pour les corticoïdes, en injection intralésionnelle ou en application topique, dans les formes localisées.
 
-Aucun essai clinique interventionnel n'a été recensé (ni sur ClinicalTrials.gov, ni sur l'ICTRP) pour cette association médicament-indication, ce qui limite la prédiction à un stade d'hypothèse de recherche plutôt qu'à une recommandation clinique.
-
----
+Ce lien est **déduit du mécanisme et de la pratique générale**. Aucun des quatre articles retrouvés ne rapporte l'usage de la triamcinolone dans cette maladie. Le score élevé du modèle repose donc sur une inférence, non sur des données cliniques.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [4136515](https://pubmed.ncbi.nlm.nih.gov/4136515/) | 1974 | Rapport de Cas | Archives of Dermatology | Alopécie mucineuse avec modifications neurofolliculaires (pas de résumé disponible) |
-| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | Rapport de Cas | International Journal of Dermatology | Premier cas rapporté de mucinose folliculaire idiopathique traité avec succès par gel de bexarotène topique (traitement non spécifique à la triamcinolone) |
-| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | Rapport de Cas | Hifuka Kiyo (Acta Dermatologica) | Cas d'alopécie mucineuse de Pinkus (mucinosis follicularis Jablonska) (pas de résumé disponible) |
-| [9917176](https://pubmed.ncbi.nlm.nih.gov/9917176/) | 1998 | Rapport de Cas | European Journal of Dermatology | Présentation de cas de mucinose folliculaire (pas de résumé disponible) |
+| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | Cas clinique | Int J Dermatol | Un cas de mucinose folliculaire idiopathique persistante traité avec succès par gel de bexarotène 1 % (et non par un corticoïde) ; premier cas rapporté hors lymphome T cutané |
+| [9917176](https://pubmed.ncbi.nlm.nih.gov/9917176/) | 1998 | Cas clinique (à visée pédagogique) | Eur J Dermatol | Présentation d'un cas de mucinose folliculaire ; résumé non disponible |
+| [4136515](https://pubmed.ncbi.nlm.nih.gov/4136515/) | 1974 | Cas clinique | Arch Dermatol | Alopécie mucineuse avec modifications neurofolliculaires ; résumé non disponible |
+| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | Cas clinique | Hifuka Kiyo | Cas d'alopécie mucineuse de Pinkus (mucinose folliculaire de Jablonska) ; résumé non disponible |
 
----
+Aucune de ces publications ne rapporte l'usage de la triamcinolone.
 
 ## Informations de Marché en France
 
-Aucune AMM enregistrée en France pour ce dossier (statut de marché : Non commercialisé, 0 AMM recensée).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 66108628 | PEVISONE, crème | Crème | KARO PHARMA (Suède) |
+| 65539860 | CIDERMEX, pommade ophtalmique | Pommade | PAD PHARMACEUTIQUE DESGROPPES |
 
----
+Le texte des indications approuvées n'est pas renseigné pour ces deux AMM.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Les avertissements, contre-indications et interactions médicamenteuses de la triamcinolone n'ont pas pu être récupérés dans ce dossier (recherche ANSM/DDI infructueuse).
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Question de Recherche (Research Question)**
+**Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99.99%), et le mécanisme corticostéroïde est plausible pour une dermatose inflammatoire folliculaire, mais l'ensemble des preuves cliniques se limite à des rapports de cas isolés (niveau L4), sans aucun essai clinique interventionnel enregistré. Ce stade justifie une exploration plus approfondie avant toute décision Go/Hold formelle.
+- Aucun essai clinique n'existe et la littérature se limite à quatre cas cliniques, dont aucun ne concerne la triamcinolone. La prédiction reste une hypothèse de travail.
+- Les données de sécurité de la notice ANSM manquent (lacune bloquante), ce qui empêche tout passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/AMM ANSM (avertissements et contre-indications) — actuellement bloquant pour l'évaluation de sécurité initiale (S1)
-- Données de mécanisme d'action (MOA) détaillées via DrugBank
-- Recherche d'un éventuel essai clinique ou étude de cohorte spécifique à la triamcinolone dans l'alopécie mucineuse
-- Confirmation du statut réglementaire réel en France (le statut "non commercialisé" avec 0 AMM semble incohérent avec la commercialisation connue de la triamcinolone dans d'autres pays — à vérifier auprès de l'ANSM)
+- Récupérer les mises en garde et contre-indications dans les notices de l'ANSM.
+- Obtenir le mécanisme d'action détaillé (DrugBank) et les indications approuvées des deux AMM.
+- Rechercher des publications sur la triamcinolone intralésionnelle ou topique dans la mucinose folliculaire.
+- Vérifier la compatibilité des voies d'administration : les deux produits sont une crème et une pommade ophtalmique, et aucune forme intralésionnelle n'apparaît dans les données.
+- Examiner en parallèle la **folliculite décalvante** (rang 3, niveau L3, une revue rétrospective de 23 patients), seule autre prédiction disposant d'un début de preuve.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

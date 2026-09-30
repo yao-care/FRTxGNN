@@ -2,7 +2,7 @@
 layout: default
 title: Cerliponase Alfa
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 71
+nav_order: 73
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,63 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cerliponase Alfa : De la Maladie CLN2 au Syndrome de Scheie
+# Cerliponase alfa : De la CLN2 (déficit en TPP1) au syndrome de Scheie
 
 ## Résumé en Une Phrase
 
-Cerliponase alfa (Brineura) est une thérapie enzymatique substitutive ciblant la tripeptidyl peptidase 1 (TPP1), initialement développée pour le traitement de la céroïde-lipofuscinose neuronale de type 2 (maladie CLN2 / maladie de Batten tardive à apparition infantile).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Syndrome de Scheie (MPS I-S)**,
-avec **0 essai clinique** et **0 publication** soutenant actuellement cette direction — le niveau de preuve reste au stade L5 (prédiction algorithmique uniquement).
-
----
+Cerliponase alfa est une TPP1 recombinante (enzyme lysosomale) administrée par voie intraventriculaire. Le texte d'indication de l'AMM n'est pas renseigné dans les données, mais le mécanisme décrit dans le dossier renvoie à la maladie CLN2 (déficit en TPP1).
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de Scheie**, avec **0 essai clinique** et **0 publication** à l'appui. La prédiction repose uniquement sur le modèle (niveau L5).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie CLN2 (céroïde-lipofuscinose neuronale de type 2) |
-| Nouvelle Indication Prédite | Syndrome de Scheie (MPS I-S) |
-| Score de Prédiction TxGNN | 99,98% |
+| Nouvelle Indication Prédite | Syndrome de Scheie (MPS I atténuée) |
+| Score de Prédiction TxGNN | 99,98 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
-
----
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Cerliponase alfa est une enzyme recombinante humaine (rhTPP1 — tripeptidyl peptidase 1) administrée par voie intracérébroventriculaire (ICV). Dans la maladie CLN2, un déficit en TPP1 entraîne l'accumulation de substrats protéiques dans les lysosomes des neurones, provoquant une dégénérescence neurologique progressive. La thérapie substitutive par cerliponase alfa restaure cette activité enzymatique directement dans le compartiment cérébral.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, cerliponase alfa est une enzyme de remplacement (TPP1 recombinante) qui dégrade des tripeptides dans le lysosome. Son efficacité dans son indication d'origine (CLN2) repose sur ce mécanisme, mais rien n'indique qu'il soit applicable au syndrome de Scheie.
 
-Le syndrome de Scheie (MPS I-S) est quant à lui causé par un déficit en α-L-iduronidase (IDUA), une enzyme lysosomale entièrement distincte de TPP1. Dans cette pathologie, c'est l'accumulation de glycosaminoglycanes (héparane et dermatane sulfate) qui est responsable de la symptomatologie. Le traitement de référence approuvé est la laronidase (Aldurazyme), une IDUA recombinante. Le mécanisme d'action de cerliponase alfa et la pathophysiologie du syndrome de Scheie n'ont aucun substrat ou voie enzymatique en commun.
+Le syndrome de Scheie est une forme atténuée de MPS I, causée par un déficit en IDUA (alpha-L-iduronidase). Cette enzyme a un substrat différent de celui de la TPP1 : cerliponase alfa ne peut donc pas la remplacer. Le score TxGNN élevé reflète très probablement la proximité dans le graphe (voisinage « enzymothérapie substitutive lysosomale »), et non une justification au niveau du substrat.
 
-La seule analogie entre ces deux pathologies réside dans le concept général de « thérapie enzymatique substitutive lysosomale » — cerliponase alfa et laronidase appartiennent toutes deux à cette classe thérapeutique, mais ciblent des enzymes et des substrats entièrement différents. Le score TxGNN élevé (99,98%) reflète vraisemblablement la proximité de ces deux maladies dans le graphe de connaissances (toutes deux classées comme maladies de surcharge lysosomale / maladies rares neurodégénératives), et non une véritable pertinence pharmacologique. La prédiction est considérée comme un **faux positif probable** du modèle.
-
----
+Les neuf autres prédictions du top 10 sont également de niveau L5, sans essai clinique. Elles sont jugées sans fondement mécanistique plausible, soit parce qu'une enzymothérapie spécifique existe déjà (syndrome de Hurler, maladie de Gaucher, déficit en LIPA), soit parce que la maladie n'est pas un déficit enzymatique lysosomal (FENIB, ichtyose, myopathie). La seule publication liée à l'ensemble des prédictions est une revue de 2026 sur l'histoire naturelle des maladies lysosomales, qui utilise la maladie de Gaucher comme modèle (PMID [41527340](https://pubmed.ncbi.nlm.nih.gov/41527340/)). Elle ne fournit aucune donnée propre au médicament.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour le Syndrome de Scheie.
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Cerliponase alfa (Brineura) ne dispose d'aucune AMM enregistrée en France dans les données disponibles. Le médicament est approuvé aux États-Unis (FDA, 2017) et dans l'Union Européenne (EMA, 2017) pour la maladie CLN2, mais n'est pas commercialisé sur le marché français à la date de ce rapport.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65808346 | BRINEURA 150 mg, solution pour perfusion (BIOMARIN INTERNATIONAL LIMITED, Irlande) | Solution pour perfusion | Non renseignée dans les données |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
-> **Note :** Les données de sécurité spécifiques (mises en garde, contre-indications, interactions médicamenteuses) ne sont pas disponibles dans ce pack de données. Il est à noter que cerliponase alfa est administré par voie intracérébroventriculaire (ICV), ce qui implique des risques spécifiques liés au dispositif d'implantation (infection, méningite, complications procédurales) qui doivent être soigneusement évalués.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN pour le syndrome de Scheie repose uniquement sur la proximité dans le graphe de connaissances entre maladies lysosomales rares, sans aucun fondement mécanistique direct. Cerliponase alfa supplée TPP1, une enzyme sans lien fonctionnel avec l'IDUA déficiente dans le syndrome de Scheie. De plus, la voie d'administration intracérébroventriculaire est incompatible avec le profil clinique systémique du MPS I-S. Aucun essai clinique ni publication ne soutient cette direction.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme est incompatible : la TPP1 ne peut pas remplacer l'IDUA déficiente.
+- Les données de sécurité de l'ANSM sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité S1.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Clarification du mécanisme d'action détaillé (données DrugBank / notices officielles EMA/FDA)
-- Vérification de la compatibilité de la voie d'administration ICV avec les indications cibles
-- Analyse mécanistique approfondie démontrant une interaction directe entre TPP1 et la pathophysiologie cible avant tout investissement clinique
-- Consultation du dossier d'AMM européen (EMA, EPAR Brineura) pour les données de sécurité complètes
-
----
-
-> ⚠️ **Note de contexte — Analyse des 10 indications prédites :** L'ensemble des 10 indications prédites par TxGNN pour cerliponase alfa reçoivent une recommandation **Hold** (L5) sans aucune preuve clinique. Ce schéma systématique suggère que le modèle capture la position de cerliponase alfa dans le graphe des maladies lysosomales et neurodégénératives rares, sans identifier de cible thérapeutique viable. Une révision manuelle des prédictions de rang plus élevé (ex. CLN1, CLN3, autres NCL) pourrait identifier des candidats biologiquement plus plausibles non inclus dans ce pack.
+- Récupérer la notice ANSM (mises en garde, contre-indications, indication approuvée)
+- Compléter les données de mécanisme d'action via DrugBank
+- Fournir des données précliniques démontrant une activité de la TPP1 sur les substrats du syndrome de Scheie
+- Vérifier la compatibilité de la voie d'administration (intraventriculaire) avec une maladie principalement systémique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

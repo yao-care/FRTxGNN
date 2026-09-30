@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ambroxol
-parent: Preuves modérées (L3-L4)
-nav_order: 31
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 32
+evidence_level: L5
 indication_count: 5
 ---
 
 # Ambroxol
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,66 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-Ce skill concerne la gestion du pipeline d'infrastructure, pas la génération de rapports. Il ne s'applique pas ici. Je procède à la génération du rapport.
-
----
-
-# Ambroxol : De Mucolytique Respiratoire à Maladie des Cavités Nasales
+# Ambroxol : Des Affections Respiratoires à la Maladie de la Cavité Nasale
 
 ## Résumé en Une Phrase
 
-Ambroxol est un agent mucolytique et sécrétolytique classiquement utilisé pour fluidifier les sécrétions des voies respiratoires et faciliter l'expectoration bronchopulmonaire. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie des cavités nasales (nasal cavity disease)**, avec **0 essai clinique** et **1 publication** soutenant actuellement cette direction.
-
----
+Ambroxol est un agent mucoactif (sécrétolytique) commercialisé en France, utilisé pour les troubles des voies respiratoires associés à des sécrétions bronchiques. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie de la cavité nasale (nasal cavity disease)**, mais cette piste n'est soutenue que par **0 essai clinique** et **1 publication** indirecte.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Mucolytique respiratoire (affections bronchopulmonaires) |
-| Nouvelle Indication Prédite | Maladie des cavités nasales (Nasal Cavity Disease) |
+|------|------|
+| Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
 | Score de Prédiction TxGNN | 99,91 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Niveau de Preuve | L5 (prédiction du modèle, sans étude directe) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
----
+Le texte d'indication de l'AMM n'est pas renseigné dans les données reçues. L'usage d'origine décrit ici (affections respiratoires avec sécrétions) est donc déduit de la classe pharmacologique et non d'un texte réglementaire.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues, Ambroxol est un dérivé benzylaminobromide classé comme mucolytique/sécrétolytique, dont l'efficacité dans le traitement des affections respiratoires avec hypersécrétion est bien documentée dans la littérature médicale internationale. En Europe, il est notamment commercialisé sous forme de pastilles pour le traitement de la douleur pharyngée, soulignant l'étendue de son spectre clinique sur les voies aériennes supérieures.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'ambroxol est un agent sécrétolytique et mucoactif utilisé pour les affections respiratoires. Son action sur la fluidité et la clairance du mucus pourrait mécanistiquement s'appliquer à la maladie de la cavité nasale.
 
-La relation entre les affections bronchopulmonaires et les maladies des cavités nasales repose sur la continuité anatomique et fonctionnelle de l'ensemble des voies respiratoires. L'action mucolytique d'Ambroxol peut réduire la viscosité des sécrétions nasales et favoriser le transport mucociliaire, offrant une rationalité biologique indirecte pour la gestion des sécrétions inflammatoires nasales. Son effet anti-inflammatoire pourrait par ailleurs contribuer à atténuer l'œdème de la muqueuse nasale.
+Les voies aériennes hautes et basses partagent la même muqueuse respiratoire, et la clairance mucociliaire de la cavité nasale est un point de recoupement plausible avec l'usage d'origine. Cette relation reste toutefois une inférence. La seule publication disponible porte sur la toux aiguë, pas sur une pathologie nasale précise.
 
-Cependant, l'absence de données cliniques directes ciblant spécifiquement les maladies des cavités nasales limite la solidité de cette prédiction au niveau L4. La mécanique de prédiction TxGNN s'appuie vraisemblablement sur les nœuds partagés dans le graphe de connaissances (muqueuses respiratoires, inflammation, transport mucociliaire), ce qui confère à la prédiction une plausibilité mécanistique mais non une preuve clinique.
-
----
+Le score très élevé de TxGNN (0,999) est une prédiction du modèle et ne remplace pas une preuve clinique. Quatre autres indications sont prédites : laryngopharyngite aiguë, candidose vulvovaginale, diphtérie faucale et dégénérescence discale cervicale. Toutes sont de niveau L5 sans aucune donnée à l'appui, et les trois dernières n'ont pas de lien mécanistique évident avec l'ambroxol.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revue/Commentaire | Vestnik otorinolaringologii | Discussion sur les nouvelles options de traitement de la toux aiguë dans les infections respiratoires virales aiguës (grippe/ARVI) ; mentionne la gestion des sécrétions muqueuses anormales et la toux productive |
-
----
+|------|-----|------|------|---------|
+| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revue (déduit du titre, résumé non évalué) | Vestnik otorinolaringologii | Nouvelle option thérapeutique pour la toux aiguë associée à la grippe et aux infections respiratoires virales aiguës. Lien indirect avec la cavité nasale. |
 
 ## Informations de Marché en France
 
-Ambroxol ne dispose d'aucune autorisation de mise sur le marché (AMM) enregistrée dans la base de données consultée. Il est à noter qu'Ambroxol est commercialisé dans de nombreux pays européens sous diverses formes (sirop, comprimés, pastilles) pour des indications respiratoires ; l'absence d'enregistrement reflète un manque de données locales et non une absence mondiale du produit.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61641907 | MUXOL (Laboratoires Frilab) | Solution buvable | Non précisée dans les données disponibles |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice officielle du médicament pour les informations complètes de sécurité (mises en garde, contre-indications, interactions médicamenteuses).
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Les preuves disponibles se limitent à une seule publication de type revue/commentaire (2015, niveau L4), sans aucun essai clinique dédié aux maladies des cavités nasales. La rationalité mécanistique est biologiquement plausible mais reste indirecte et insuffisante pour justifier une progression clinique sans étapes intermédiaires de validation.
+- La prédiction repose uniquement sur le score du modèle, avec une seule publication indirecte et aucun essai clinique. Les données de sécurité et le mécanisme d'action manquent également.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données complètes sur le mécanisme d'action (MOA) via DrugBank (DG002)
-- Profil de sécurité complet : mises en garde et contre-indications via la notice officielle (DG001)
-- Études précliniques spécifiques sur les effets d'Ambroxol dans les affections nasales
-- Au minimum une étude observationnelle ou un essai pilote ciblant les maladies des cavités nasales
-- Revue de la littérature élargie incluant les publications sur les formes topiques nasales d'Ambroxol
+- Notice ANSM (mises en garde et contre-indications) : lacune bloquante pour tout dépistage de sécurité
+- Données sur le mécanisme d'action (DrugBank) pour étayer le lien avec la cavité nasale
+- Texte d'indication de l'AMM 61641907
+- Revue ciblée de la littérature sur l'ambroxol dans les pathologies nasales (rhinite, rhinosinusite), avec évaluation du résumé de la publication 26525480
+- Précision de la pathologie nasale visée et vérification de la compatibilité de la voie d'administration (la forme actuelle est une solution buvable)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

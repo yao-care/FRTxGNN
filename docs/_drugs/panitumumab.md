@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 227
+nav_order: 230
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,97 +29,81 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Panitumumab : Du Cancer Colorectal Metastatique (EGFR+) vers l'Osteoporose Induite par les Medicaments
+# Panitumumab : D'une Indication Oncologique Non Renseignée à l'Ostéoporose Médicamenteuse
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Panitumumab est un anticorps monoclonal anti-EGFR, mentionne dans les donnees comme principalement utilise dans le cancer colorectal metastatique exprimant l'EGFR (le champ structure d'indication originale est toutefois vide dans le pack actuel).
-Le modele TxGNN predit qu'il pourrait etre efficace pour l'**Osteoporose Induite par Medicament** (score 99,13%),
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction — il s'agit d'une prediction du modele seule.
+Panitumumab est un anticorps monoclonal entièrement humain dirigé contre l'EGFR (récepteur du facteur de croissance épidermique). C'est un médicament oncologique administré par voie systémique, et l'indication originale n'est pas renseignée dans les données reçues.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ostéoporose médicamenteuse**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction.
 
----
+## Aperçu Rapide
 
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer colorectal metastatique EGFR+ (mentionne dans le rationnel mecanistique du modele ; le champ structure `original_indications` est vide dans les donnees actuelles) |
-| Nouvelle Indication Predite | Osteoporose Induite par Medicament (drug-induced osteoporosis) |
-| Score de Prediction TxGNN | 99,13% |
+| Indication Originale | Non renseignée dans les données d'AMM |
+| Nouvelle Indication Prédite | Ostéoporose médicamenteuse |
+| Score de Prédiction TxGNN | 99,13 % |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, panitumumab est un anticorps monoclonal anti-EGFR entièrement humain. Sa cible pourrait être mécanistiquement liée à l'os, mais cela reste à démontrer.
 
-Les donnees structurees sur le mecanisme d'action (`original_moa`) sont actuellement en manque dans DrugBank. Le rationnel fourni par le modele indique cependant que le panitumumab est un anticorps monoclonal anti-EGFR (recepteur du facteur de croissance epidermique), utilise principalement dans le cancer colorectal metastatique exprimant l'EGFR.
+La signalisation de l'EGFR intervient dans la régulation des ostéoblastes et des ostéoclastes. Un effet osseux est donc biologiquement plausible.
 
-La voie de signalisation EGFR participe en partie a la regulation de l'equilibre osteoclastes/osteoblastes, ce qui constitue le seul lien mecanistique invoque par le modele pour l'osteoporose induite par medicament. Toutefois, le rationnel lui-meme souligne l'absence de toute donnee preclinique ou clinique demontrant un benefice de l'inhibition de l'EGFR dans cette indication, et note que la direction de l'effet pourrait meme etre inverse : l'inhibition de l'EGFR est plutot associee a des effets negatifs sur le metabolisme osseux et a des effets secondaires cutanes/osseux connus.
+**Le sens de l'effet reste cependant incertain.** L'inhibition de l'EGFR peut provoquer une hypomagnésémie et une hypocalcémie, ce qui pourrait dégrader la santé osseuse au lieu de traiter l'ostéoporose. Le score TxGNN (0,991) provient uniquement d'une prédiction par graphe de connaissances, sans essai ni publication à l'appui dans les données fournies. La compatibilité de la voie d'administration n'a pas non plus été évaluée.
 
-Pour la seconde indication predite (retinopathie diabetique non proliferative severe), le traitement de reference repose sur l'inhibition du VEGF (bevacizumab, ranibizumab), une cible differente de l'EGFR vise par le panitumumab. Bien qu'il existe des interactions en aval entre les voies EGFR et VEGF dans la neoangiogenese tumorale, aucune donnee ne soutient un effet du panitumumab sur la microangiopathie retinienne diabetique, et le profil d'effets secondaires oculaires connus des anti-EGFR (conjonctivite, anomalies des cils) merite une vigilance particuliere. Ces deux predictions restent donc purement issues du score de similarite du modele, sans aucune validation experimentale ou clinique.
-
----
+Une seconde indication est prédite : la **rétinopathie diabétique non proliférante sévère** (score 99,05 %, niveau L5, Hold). Le lien mécanistique est concevable, mais le traitement standard cible le VEGF et aucune donnée ne soutient une approche anti-EGFR. Panitumumab a par ailleurs des toxicités oculaires et cutanées connues, et aucun usage intravitréen ou ophtalmique n'est décrit.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la Littérature
 
-## Preuves de la Litterature
+Aucune littérature associée disponible actuellement.
 
-Aucune litterature associee disponible actuellement.
+## Informations de Marché en France
 
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66403621 | VECTIBIX 20 mg/ml (AMGEN EUROPE) | Solution à diluer pour perfusion | Non renseignée |
 
-## Indication Predite Secondaire (Signal Complementaire)
+## Cytotoxicité
 
-Le pack de preuves contient une seconde indication predite par le meme modele, avec un niveau de confiance similaire :
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication | Retinopathie Diabetique Non Proliferative Severe |
-| Score de Prediction TxGNN | 99,05% |
-| Niveau de Preuve | L5 |
-| Decision Recommandee | Hold |
+| Classification de Cytotoxicité | Thérapie ciblée (anticorps monoclonal anti-EGFR) |
+| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | Magnésium et calcium sériques (risque d'hypomagnésémie et d'hypocalcémie lié à l'inhibition de l'EGFR) ; surveillance cutanée et oculaire |
+| Protection de Manipulation | Veuillez consulter la notice |
 
-Aucun essai clinique ni litterature associee n'est disponible pour ce signal non plus. Comme pour l'osteoporose induite par medicament, il s'agit d'une prediction du modele seule, sans support mecanistique ou clinique direct.
+## Considérations de Sécurité
 
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune mise en garde, contre-indication ni interaction médicamenteuse n'est disponible dans les données reçues.
 
-## Cytotoxicite
+À titre d'orientation, l'analyse mécanistique signale des risques connus de la classe anti-EGFR, à confirmer avec la notice :
+- **Troubles électrolytiques** : hypomagnésémie et hypocalcémie, particulièrement préoccupantes dans un contexte osseux.
+- **Toxicités oculaires et cutanées** : pertinentes pour toute réflexion sur la rétinopathie diabétique.
 
-| Element | Contenu |
-|------|------|
-| Classification de Cytotoxicite | Therapie ciblee — anticorps monoclonal anti-EGFR (base sur le mecanisme d'action mentionne dans le rationnel ; donnees structurees DrugBank de toxicite manquantes) |
-| Risque de Myelosuppression | Non documente — veuillez consulter les mises en garde et precautions de la notice |
-| Classification d'Emetogenicite | Non documentee — veuillez consulter les mises en garde et precautions de la notice |
-| Elements de Surveillance | Non documentes — veuillez consulter les mises en garde et precautions de la notice |
-| Protection de Manipulation | Non documentee — veuillez consulter les mises en garde et precautions de la notice |
+## Conclusion et Prochaines Étapes
 
----
-
-## Considerations de Securite
-
-Veuillez consulter la notice pour les informations de securite.
-
----
-
-## Conclusion et Prochaines Etapes
-
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-Les deux indications predites reposent uniquement sur un score TxGNN (niveau de preuve L5), sans aucun essai clinique ni publication a l'appui. De plus, des donnees critiques manquent — les mises en garde/contre-indications TFDA (ecart bloquant DG001) et le mecanisme d'action structure (DG002) — ce qui empeche toute evaluation de securite initiale (S1). Le medicament n'est par ailleurs pas commercialise en France (0 AMM).
+Les deux indications prédites reposent uniquement sur le score du modèle (niveau L5), sans essai ni publication. Le sens de l'effet est incertain, et le risque d'hypocalcémie plaide même contre l'ostéoporose. Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape de dépistage de sécurité.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Obtenir la notice/l'etiquette TFDA (mises en garde, contre-indications) pour permettre l'evaluation de securite S1
-- Completer les donnees structurees de mecanisme d'action (MOA) via l'API DrugBank
-- Rechercher des etudes precliniques specifiques sur l'effet de l'inhibition EGFR sur le metabolisme osseux et la microangiopathie retinienne
-- Surveiller l'apparition de nouveaux essais cliniques ou publications sur ces deux indications avant toute reevaluation
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Télécharger et analyser la notice ANSM (mises en garde et contre-indications)
+- Obtenir les données détaillées sur le mécanisme d'action (MOA) via DrugBank
+- Renseigner l'indication approuvée du produit
+- Mener une recherche ciblée dans la littérature sur l'EGFR et le métabolisme osseux, ainsi que sur l'EGFR et la rétinopathie diabétique
+- Évaluer la compatibilité de la voie d'administration (perfusion systémique) avec les indications prédites
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

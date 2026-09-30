@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prasugrel
-parent: Preuves modérées (L3-L4)
-nav_order: 244
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 247
+evidence_level: L5
 indication_count: 10
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,77 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Prasugrel : Du Syndrome Coronarien Aigu à l'Hypertension Pulmonaire
+# Prasugrel : D'un Inhibiteur du P2Y12 (Antiagrégant Plaquettaire) à l'Hypertension Pulmonaire
 
 ## Résumé en Une Phrase
 
-Prasugrel est un antiagrégant plaquettaire (inhibiteur du récepteur P2Y12, classe thiénopyridine) initialement utilisé en association avec l'aspirine chez les patients sous stent après un syndrome coronarien aigu traité par intervention coronarienne percutanée (ICP). Le modèle TxGNN prédit qu'il pourrait être pertinent pour l'**hypertension pulmonaire**, mais avec seulement **2 essais cliniques** et **2 publications** identifiés, dont aucun n'étudie directement le prasugrel dans cette indication — le lien reste à ce stade une coïncidence de mots-clés plutôt qu'un signal mécanistique solide.
-
----
+Prasugrel est un inhibiteur irréversible du récepteur plaquettaire P2Y12, commercialisé en France sous forme de comprimés pelliculés. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, avec un score très élevé. Cependant, les **2 essais cliniques** et les **2 publications** retrouvés ne portent ni sur le prasugrel ni sur l'hypertension pulmonaire : cette prédiction repose uniquement sur le modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome coronarien aigu sous ICP — antiagrégation plaquettaire (association avec l'aspirine) |
 | Nouvelle Indication Prédite | Hypertension pulmonaire |
-| Score de Prédiction TxGNN | 99.88 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Score de Prédiction TxGNN | 99,88 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action (MOA) ne sont actuellement pas disponibles dans le dossier de preuves. Sur la base des informations connues issues de la littérature fournie, le prasugrel appartient à la classe des thiénopyridines et agit comme inhibiteur du récepteur plaquettaire P2Y12 ; son efficacité dans la prévention de la thrombose de stent après un syndrome coronarien aigu est bien établie et documentée (voir PMID 21241206 ci-dessous).
+Prasugrel bloque de façon irréversible le récepteur P2Y12 des plaquettes, ce qui limite leur activation et leur agrégation. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Ce qui suit repose sur la description du mécanisme fournie avec la prédiction.
 
-Le lien mécanistique proposé entre l'agrégation plaquettaire et certains sous-types d'hypertension pulmonaire (notamment l'hypertension pulmonaire thromboembolique chronique, où un remodelage vasculaire lié à des phénomènes thrombotiques est décrit) est théoriquement envisageable. Cependant, aucun des essais cliniques ni des publications recueillis pour cette prédiction ne porte réellement sur l'utilisation du prasugrel — ou même d'un antiagrégant plaquettaire — dans le traitement de l'hypertension pulmonaire.
+Le lien proposé est le suivant : l'activation plaquettaire et la thrombose *in situ* pourraient contribuer au remodelage des vaisseaux pulmonaires. Un antiagrégant comme le prasugrel pourrait donc, en théorie, agir sur ce processus.
 
-En pratique, les deux essais identifiés concernent respectivement la gestion des anticoagulants oraux (NOAC, une classe pharmacologique différente) chez des patients âgés en fibrillation atriale, et l'éligibilité de patients atteints de thrombose associée au cancer à un essai de référence (CARAVAGGIO). Les deux publications concernent l'effet des traitements de fond sur la mortalité liée à la COVID-19 et l'adhésion au clopidogrel après ICP. Aucune ne traite de l'hypertension pulmonaire. Cette prédiction doit donc être considérée comme un rapprochement de proximité dans le graphe de connaissances (co-occurrence de concepts), et non comme un signal clinique ou mécanistique direct.
-
----
+**Ce lien reste spéculatif.** Aucun des essais ou articles retrouvés n'étudie le prasugrel dans l'hypertension pulmonaire. Le score élevé du modèle n'est pas confirmé par des données cliniques.
 
 ## Preuves d'Essais Cliniques
 
+Les deux essais retrouvés sont classés « C » (non pertinents) : ils ne concernent ni le prasugrel ni l'hypertension pulmonaire.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Terminé | 500 | Étude observationnelle transversale décrivant l'usage des anticoagulants oraux (NOAC) chez des patients âgés en fibrillation atriale non valvulaire — sans lien avec l'hypertension pulmonaire ni le mécanisme du prasugrel (chevauchement de mots-clés uniquement, pertinence jugée faible). |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Terminé | 300 | Étude rétrospective évaluant la proportion de patients atteints de thrombose associée au cancer non éligibles à l'essai CARAVAGGIO — sans rapport direct avec l'hypertension pulmonaire ou le prasugrel. |
-
----
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | Non applicable | Terminé | 500 | Étude observationnelle transversale sur la prise en charge des anticoagulants oraux non-AVK chez des patients âgés avec fibrillation atriale non valvulaire (Espagne). Aucun lien avec le prasugrel. |
+| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | Non applicable | Terminé | 300 | Étude rétrospective sur la proportion de patients atteints de thrombose associée au cancer non éligibles à un essai de type CARAVAGGIO. Aucun lien avec le prasugrel. |
 
 ## Preuves de la Littérature
 
+Les deux publications retrouvées sont des études de cohorte sans rapport direct avec l'indication prédite.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohorte | Curr Med Res Opin | Étude des facteurs associés à l'adhésion au clopidogrel après ICP chez des patients avec syndrome coronarien aigu ; confirme l'usage standard du prasugrel comme alternative dans cette indication, mais n'étudie pas l'hypertension pulmonaire. |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohorte (registre ACTIV) | Kardiologiia | Analyse de l'effet des traitements de fond des comorbidités avant infection sur la mortalité liée à la COVID-19 — ne concerne pas l'hypertension pulmonaire ni un mécanisme antiplaquettaire spécifique. |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohorte | Kardiologiia | Registre ACTIVE : influence des traitements de fond des comorbidités avant l'infection sur le risque de décès par COVID-19. |
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohorte | Current Medical Research and Opinion | Facteurs associés à l'utilisation et à l'observance du clopidogrel après angioplastie dans le syndrome coronarien aigu. |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 63610757 | PRASUGREL KRKA 10 mg | Comprimé pelliculé |
+| 67461428 | PRASUGREL EG 10 mg | Comprimé pelliculé |
+| 64503651 | PRASUGREL BGR 10 mg | Comprimé pelliculé |
+| 65916489 | EFIENT 10 mg | Comprimé pelliculé |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucun essai clinique ni publication ne porte réellement sur le prasugrel dans l'hypertension pulmonaire — les preuves collectées sont des correspondances de mots-clés sans rapport direct, et le lien mécanistique proposé reste spéculatif. De plus, l'évaluation de sécurité initiale (étape S1) ne peut pas être engagée : la notice TFDA (avertissements/contre-indications) n'a pas pu être obtenue, ce qui constitue un blocage. Le prasugrel n'étant par ailleurs pas commercialisé en France (0 AMM), il n'existe aucune base réglementaire locale immédiate pour ce repositionnement.
+- L'hypertension pulmonaire n'est soutenue que par le score du modèle TxGNN (niveau L5). Aucun essai ni publication retrouvé ne teste le prasugrel dans cette maladie.
+- Le mécanisme proposé (rôle des plaquettes dans le remodelage vasculaire pulmonaire) est théorique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir et analyser la notice TFDA (avertissements et contre-indications) — actuellement bloquant pour toute évaluation de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (MOA) via l'API DrugBank
-- Identifier des études cliniques ou précliniques portant spécifiquement sur le prasugrel (ou une classe d'antiagrégants P2Y12) dans l'hypertension pulmonaire, en particulier son sous-type thromboembolique chronique (CTEPH)
-- À titre secondaire : la piste « migraine avec foramen ovale perméable » (rang 2, niveau de preuve L3, statut « Research Question ») présente un signal légèrement plus construit — effet de classe des thiénopyridines (clopidogrel) et de la ticagrelor rapporté dans de petites études pilotes — mais reste elle aussi sans étude spécifique au prasugrel ; elle pourrait justifier un suivi de veille bibliographique distinct.
+- Les mises en garde et contre-indications de la notice ANSM, dont l'absence bloque toute évaluation de sécurité.
+- Les données détaillées sur le mécanisme d'action (DrugBank).
+- Des données précliniques ou cliniques spécifiques au prasugrel dans l'hypertension pulmonaire.
+- Une évaluation du risque hémorragique avant tout travail prospectif.
+
+**Piste alternative à examiner séparément :** la **migraine avec foramen ovale perméable** (2ᵉ prédiction, niveau L3) dispose d'une revue rétrospective sur les thiénopyridines et d'une étude pilote ouverte avec le ticagrelor. Ces données sont limitées, non contrôlées et non spécifiques au prasugrel, mais elles sont plus solides que celles de l'hypertension pulmonaire.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

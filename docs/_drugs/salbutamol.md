@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 273
+nav_order: 277
 evidence_level: L5
 indication_count: 10
 ---

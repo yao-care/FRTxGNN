@@ -2,7 +2,7 @@
 layout: default
 title: Rocuronium
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 266
+nav_order: 270
 evidence_level: L5
 indication_count: 10
 ---

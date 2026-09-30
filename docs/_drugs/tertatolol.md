@@ -2,7 +2,7 @@
 layout: default
 title: Tertatolol
 parent: Preuves modérées (L3-L4)
-nav_order: 300
+nav_order: 304
 evidence_level: L4
 indication_count: 8
 ---

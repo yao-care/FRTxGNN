@@ -2,7 +2,7 @@
 layout: default
 title: Lisinopril
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 171
+nav_order: 174
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,49 +29,68 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lisinopril : Évaluation de Repositionnement (Données Insuffisantes)
+# Lisinopril : De l'Indication Originale (non renseignée) à l'Infarctus du Myocarde Postéro-inférieur
 
-## Résumé
+## Résumé en Une Phrase
 
-Lisinopril (DB00722) est un médicament pour lequel les données d'indication originale et de mécanisme d'action ne sont pas disponibles dans ce pack de preuves.
-Aucune nouvelle indication n'a été prédite par le modèle TxGNN pour ce médicament dans cette version du pack.
-L'évaluation de repositionnement ne peut pas être complétée dans son intégralité en raison de lacunes de données critiques — notamment l'absence de prédictions TxGNN, de données réglementaires et d'informations de sécurité.
-
----
+Lisinopril est un médicament commercialisé en France (comprimé sécable de 20 mg), mais son indication d'origine n'est pas renseignée dans les données fournies.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infarctus du myocarde postéro-inférieur**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction pour cette indication.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non disponible |
-| Nouvelle Indication Prédite | Aucune prédiction disponible |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | N/A |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+|------|------|
+| Indication Originale | Non renseignée dans les données (texte d'indication de l'AMM vide) |
+| Nouvelle Indication Prédite | Infarctus du myocarde postéro-inférieur |
+| Score de Prédiction TxGNN | 99,90 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
+
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des connaissances pharmacologiques générales, le lisinopril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC). Il bloque le système rénine-angiotensine-aldostérone (SRAA), et ce blocage pourrait limiter le remodelage du cœur après un infarctus.
+
+La relation avec l'indication d'origine ne peut pas être établie, car celle-ci n'est pas renseignée dans les données. Le mécanisme reste cependant plausible : le SRAA joue un rôle dans la remodelisation du muscle cardiaque après une nécrose.
+
+**Point d'attention :** les IEC sont généralement utilisés dans l'infarctus aigu du myocarde. Cette prédiction pourrait donc correspondre à un usage déjà existant, et non à un véritable repositionnement. Il faut le vérifier dans le résumé des caractéristiques du produit (RCP) avant tout travail supplémentaire.
+
+## Preuves d'Essais Cliniques
+
+Aucun essai clinique associé enregistré actuellement.
+
+## Preuves de la Littérature
+
+Aucune littérature associée disponible actuellement.
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 62606357 | LISINOPRIL ZENTIVA 20 mg, comprimé sécable (ZENTIVA FRANCE) | Comprimé sécable | Non renseignée |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune indication prédite par le modèle TxGNN n'est disponible pour Lisinopril dans ce pack, et les données de mécanisme d'action ainsi que les informations de sécurité sont absentes. Une évaluation de repositionnement rigoureuse ne peut pas être menée sans ces éléments fondamentaux.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni aucune publication ne la soutient.
+- Les données de sécurité de l'ANSM manquent, ce qui bloque l'étape de criblage de sécurité.
+- L'indication pourrait déjà figurer dans l'usage autorisé des IEC.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
+- Télécharger et analyser la notice / le RCP de l'ANSM (mises en garde, contre-indications, indications autorisées), pour confirmer si l'infarctus du myocarde est déjà couvert.
+- Compléter les données sur le mécanisme d'action (MOA), par exemple via l'API DrugBank.
+- Effectuer une recherche bibliographique ciblée sur le lisinopril et l'infarctus du myocarde postéro-inférieur.
+- Prioriser, parmi les autres candidats du pack, la **cardiopathie pulmonaire chronique** (niveau L3). Deux publications spécifiques au lisinopril existent pour cette indication (PMID 14524095 et PMID 17047621). Leur schéma d'étude n'est pas déterminable à partir des titres et elles sont anciennes, donc une confirmation par un essai contrôlé reste nécessaire.
 
-- **Prédictions TxGNN** : Exécuter le pipeline TxGNN pour Lisinopril (DB00722) afin de générer les indications candidates avec scores
-- **Mécanisme d'action (MOA)** : Interroger l'API DrugBank pour récupérer les données pharmacologiques complètes *(DG002 — sévérité : Élevée)*
-- **Données de sécurité** : Télécharger et analyser la notice officielle (ANSM) pour les mises en garde, contre-indications et interactions médicamenteuses *(DG001 — sévérité : Bloquante)*
-- **Statut réglementaire** : Vérifier les AMM en France auprès de l'ANSM et récupérer les indications approuvées correspondantes
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

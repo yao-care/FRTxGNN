@@ -2,7 +2,7 @@
 layout: default
 title: Susoctocog Alfa
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 294
+nav_order: 298
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,64 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Susoctocog Alfa : De l'Hémophilie A Acquise au Trouble Primaire de la Libération Plaquettaire
+# Susoctocog alfa : De l'hémophilie A acquise au trouble de la libération plaquettaire primaire
 
 ## Résumé en Une Phrase
 
-Susoctocog alfa (Obizur®) est un facteur VIII recombinant d'origine porcine, historiquement utilisé pour traiter les épisodes hémorragiques de l'**hémophilie A acquise** (indication approuvée à l'international, non commercialisée en France). Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Trouble Primaire de la Libération Plaquettaire**, mais cette direction n'est actuellement soutenue par **aucun essai clinique** ni **aucune publication** — il s'agit d'une prédiction purement algorithmique.
-
----
+Susoctocog alfa (Obizur) est un facteur VIII recombinant de séquence porcine, dépourvu de domaine B. Il est commercialisé pour traiter les épisodes hémorragiques de l'hémophilie A acquise.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble de la libération plaquettaire primaire**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hémophilie A acquise (épisodes hémorragiques) |
-| Nouvelle Indication Prédite | Trouble Primaire de la Libération Plaquettaire |
-| Score de Prédiction TxGNN | 99.94% |
+| Indication Originale | Hémophilie A acquise (usage commercialisé d'Obizur ; le texte d'indication de l'ANSM n'est pas renseigné dans les données) |
+| Nouvelle Indication Prédite | Trouble de la libération plaquettaire primaire (*primary release disorder of platelets*) |
+| Score de Prédiction TxGNN | 99,94 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations connues issues des preuves collectées, susoctocog alfa est un facteur VIII recombinant délété du domaine B, d'origine porcine, dont l'efficacité dans le traitement des saignements liés à l'hémophilie A acquise est bien établie (voir preuves de littérature ci-dessous, associées à la 4ᵉ indication prédite de ce dossier).
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances établies, susoctocog alfa remplace le facteur VIII manquant ou neutralisé dans la cascade de la coagulation. Sa séquence porcine réagit peu avec les anticorps anti-FVIII humains, ce qui explique son efficacité dans l'hémophilie A acquise.
 
-Le Trouble Primaire de la Libération Plaquettaire, en revanche, est un défaut du relargage des granules plaquettaires : le saignement provient d'une dysfonction plaquettaire, et non d'un déficit en facteur VIII. Le rationnel mécanistique fourni dans ce dossier indique explicitement l'absence de lien direct : le score élevé de TxGNN semble refléter une proximité sémantique entre « maladies hémorragiques » dans le graphe de connaissances, plutôt qu'un mécanisme pharmacologique partagé. Une supplémentation en FVIII ne peut pas corriger un défaut de libération plaquettaire.
-
-Cette prédiction doit donc être interprétée avec prudence : elle illustre un cas où le score TxGNN est élevé sans support mécanistique ni preuve clinique correspondante.
-
----
+**Cette prédiction n'est pas plausible sur le plan mécanistique.** Le trouble de la libération plaquettaire est un défaut primaire de la fonction plaquettaire, à savoir la sécrétion des granules. Un apport de FVIII ne corrige pas ce défaut. Le score TxGNN très élevé s'explique probablement par un artefact de proximité dans le graphe : le modèle rapproche des maladies hémorragiques appartenant au même groupe, sans lien pharmacologique réel.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65982247 | OBIZUR 500 U, poudre et solvant pour solution injectable (BAXALTA INNOVATIONS, Autriche) | Poudre et solvant pour solution injectable | Non renseignée dans les données |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans la base interrogée.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune preuve clinique ou littéraire ne soutient cette indication (niveau L5), et le rationnel mécanistique fourni indique lui-même une absence de plausibilité pharmacologique — le signal TxGNN paraît être un artefact du graphe de connaissances plutôt qu'une piste de repositionnement crédible.
+- Cette prédiction repose uniquement sur le modèle (L5). Elle n'a ni essai clinique, ni publication, ni justification mécanistique, car le FVIII n'agit pas sur un défaut plaquettaire.
+- À titre d'information, dans le même dossier, deux prédictions sont soutenues par la littérature (niveau L3, « Proceed with Guardrails ») : l'hémophilie (rang 4) et le déficit acquis en facteur de coagulation (rang 5). Elles correspondent toutefois à l'hémophilie A acquise, c'est-à-dire à l'usage déjà commercialisé, et non à un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de mécanisme d'action (MOA) détaillées depuis DrugBank (actuellement en écart, DG002)
-- Notice/mises en garde TFDA/ANSM (écart bloquant, DG001) avant toute évaluation de sécurité S1
-- Étude préclinique ou mécanistique établissant un lien plausible entre le FVIII et la libération plaquettaire, avant d'envisager une progression au-delà de S0
+- Le RCP/la notice de l'ANSM (mises en garde, contre-indications), dont l'absence bloque le criblage de sécurité
+- Les données détaillées sur le mécanisme d'action (DrugBank)
+- Le texte d'indication approuvée de l'AMM 65982247
+- Des données précliniques ou cliniques sur les troubles plaquettaires, qui ne sont pas attendues au vu du mécanisme
 
-**Remarque :** ce dossier de preuves contient 10 indications prédites pour ce médicament. Contrairement à celle présentée ici, la 4ᵉ indication du classement (« hemophilia » / hémophilie A acquise) dispose d'un niveau de preuve nettement supérieur (L2, stade S3, décision « Proceed with Guardrails », avec un essai clinique en cours et 20 publications) et correspond en fait à l'indication déjà approuvée du produit à l'international. Un rapport dédié à cette indication serait plus pertinent pour une décision de repositionnement.
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

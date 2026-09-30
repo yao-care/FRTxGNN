@@ -2,7 +2,7 @@
 layout: default
 title: Scopolamine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 274
+nav_order: 278
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,88 +29,75 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Scopolamine : D'une Indication Non Documentée au Syndrome de la Queue de Cheval
+# Scopolamine : De l'indication originale (non renseignée) au Syndrome de la Queue de Cheval
 
 ## Résumé en Une Phrase
 
-Scopolamine est un antagoniste muscarinique (anticholinergique) dont l'indication d'origine et le mécanisme d'action détaillé ne sont **pas documentés** dans le dossier de preuves actuel. Le modèle TxGNN identifie six indications candidates, la mieux classée étant le **syndrome de la queue de cheval**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction — il s'agit d'une prédiction de niveau L5, fondée uniquement sur des associations du graphe de connaissances.
-
----
+La scopolamine est un antagoniste muscarinique commercialisé en France sous forme de dispositif transdermique (Scopoderm TTS). L'indication approuvée n'est pas renseignée dans les données ANSM disponibles.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de la queue de cheval**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentée dans le dossier de preuves actuel (aucune indication ni AMM enregistrée) |
-| Nouvelle Indication Prédite | Syndrome de la Queue de Cheval (Cauda Equina Syndrome) |
-| Score de Prédiction TxGNN | 99.99 % |
+| Indication Originale | Non renseignée dans les données ANSM |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval |
+| Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché (Taïwan / TFDA)* | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
-*\*Le dossier de preuves fourni est d'origine taïwanaise (source : TFDA), et non française — cette précision remplace le libellé générique "France" du modèle de rapport pour éviter toute confusion.*
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le mécanisme d'action d'origine de la scopolamine (`original_moa`) n'est pas documenté dans le dossier de preuves actuel — il s'agit d'un écart de données classé sévérité "Haute" (DG002). Les informations disponibles indiquent néanmoins, via le raisonnement du modèle lui-même, que la scopolamine agit comme un antagoniste non sélectif des récepteurs muscariniques (M2/M3) — la même classe pharmacologique (anticholinergiques) que des traitements déjà utilisés pour la vessie hyperactive/neurogène, tels que l'oxybutynine ou la toltérodine.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances pharmacologiques générales, la scopolamine est un antagoniste muscarinique non sélectif. Elle réduit notamment la contractilité du détrusor (le muscle de la vessie).
 
-Aucune indication d'origine ni aucune AMM n'est enregistrée pour la scopolamine dans ce dossier (`original_indications` vide, 0 licence à Taïwan), ce qui empêche toute comparaison directe entre l'usage historique du médicament et l'indication prédite. Cette absence de référence clinique documentée constitue en soi une limite majeure de l'évaluation.
+Le lien avec le syndrome de la queue de cheval passe uniquement par les troubles vésicaux associés. Or cette pathologie provoque le plus souvent une rétention urinaire ou une vessie aréflexique. Un anticholinergique risque donc d'**aggraver la rétention** au lieu de la soulager. Le mécanisme est ainsi faible, voire potentiellement contre-productif.
 
-Pour l'indication la mieux classée, le syndrome de la queue de cheval, le modèle TxGNN attribue un score très élevé (99.99 %), mais le raisonnement mécanistique fourni par le modèle lui-même souligne une limite importante : il s'agit d'une urgence chirurgicale causée par une compression des racines nerveuses sous le cône médullaire, dont le traitement standard est la décompression chirurgicale en urgence — non un traitement pharmacologique. L'effet anticholinergique de la scopolamine pourrait tout au plus atténuer un symptôme associé (vessie neurogène / hyperactivité du détrusor), sans agir sur la cause structurelle. Le score élevé provient très probablement d'une proximité indirecte, dans le graphe de connaissances, entre la scopolamine et le nœud « vessie neurogène », fréquemment associé au syndrome de la queue de cheval — plutôt que d'un véritable lien thérapeutique direct. Ce signal doit donc être considéré comme un **possible faux positif**.
-
----
+Le score TxGNN très élevé (99,99 %) provient d'une prédiction fondée sur un graphe de connaissances. Il ne s'appuie sur aucune donnée clinique. Il doit donc être interprété avec beaucoup de prudence.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement (recherches ClinicalTrials.gov et ICTRP effectuées le 2026-04-20 pour « scopolamine + syndrome de la queue de cheval », 0 résultat).
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement (recherche PubMed effectuée le 2026-04-20, 0 résultat).
+Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
 
-## Autres Indications Prédites (Pour Référence)
-
-Le modèle TxGNN a identifié cinq autres candidats, tous au même niveau de preuve minimal. Aucun n'est appuyé par un essai clinique ou une publication (22 requêtes croisées, toutes négatives).
-
-| Rang | Indication Prédite | Score TxGNN | Niveau de Preuve | Décision | Résumé Mécanistique |
-|---|---|---|---|---|---|
-| 2 | Vessie Neurogène (terme obsolète) | 99.98 % | L5 | Hold | Même classe pharmacologique (anticholinergique) que les traitements existants de la vessie neurogène, mais aucune preuve directe pour la scopolamine ; l'étiquette diagnostique est elle-même marquée « obsolète » |
-| 3 | Conjonctivite Papillaire | 99.98 % | L5 | Hold | La scopolamine ophtalmique produit mydriase et cycloplégie ; aucun mécanisme anti-allergique ou anti-inflammatoire connu |
-| 4 | Conjonctivite Atopique | 99.80 % | L5 | Hold | Même limite : absence de mécanisme anti-Th2/IgE |
-| 5 | Conjonctivite Rosacée | 99.40 % | L5 | Hold | Aucun lien connu avec la fonction des glandes de Meibomius ou l'inflammation vasculaire |
-| 6 | Conjonctivite Vernale | 99.08 % | L5 | Hold | Aucun lien avec la réponse immunitaire IgE/lymphocytes T |
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 63958849 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (BAXTER) | Dispositif | Non renseignée |
+| 68731823 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (DIFARMED, Espagne) | Dispositif | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. À noter : l'absence des mises en garde, contre-indications et interactions médicamenteuses (TFDA) constitue un écart de données classé **bloquant** (DG001), qui empêche à ce stade toute évaluation initiale de sécurité (S1).
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans la base interrogée.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les six indications prédites sont toutes de niveau de preuve L5 (prédiction du modèle seule), sans aucun essai clinique ni publication à l'appui (22 requêtes de recherche croisées, toutes négatives).
-- Le raisonnement mécanistique du modèle identifie lui-même la prédiction la mieux classée comme un possible faux positif issu d'une association indirecte dans le graphe de connaissances, plutôt que d'un lien pharmacologique direct.
-- Les données de sécurité (mises en garde, contre-indications, mécanisme d'action d'origine) sont totalement absentes, ce qui bloque toute évaluation de sécurité initiale selon DG001.
-- Le médicament n'est pas commercialisé à Taïwan (0 AMM), réduisant les options de validation en conditions réelles.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication.
+- Le mécanisme antimuscarinique pourrait aggraver la rétention urinaire typique de la pathologie.
+- Les cinq autres indications prédites sont également au niveau L5 avec une décision Hold :
+  - vessie neurogène (terme obsolète) ;
+  - conjonctivite papillaire ;
+  - conjonctivite atopique ;
+  - conjonctivite de la rosacée ;
+  - conjonctivite vernale.
+- Leur plausibilité mécanistique est faible, sauf pour la vessie neurogène. Pour celle-ci, il existe déjà des antimuscariniques mieux caractérisés et moins délétères pour le système nerveux central.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération et analyse de la notice TFDA de la scopolamine (DG001, bloquant)
-- Confirmation du mécanisme d'action d'origine via l'API DrugBank (DG002)
-- Documentation de l'indication d'origine approuvée (historique réglementaire)
-- Recherche ciblée complémentaire (études précliniques, séries de cas) pour vérifier si le lien scopolamine–vessie neurogène dépasse la simple co-occurrence dans le graphe de connaissances
-- Réévaluation après comblement de ces écarts avant toute progression vers l'étape S1
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée). Ce point est bloquant pour tout criblage de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action via DrugBank.
+- Rechercher activement des essais cliniques et des publications pour le syndrome de la queue de cheval.
+- Vérifier la faisabilité de la voie d'administration (aujourd'hui uniquement transdermique).
+- Faire correspondre le terme de maladie obsolète (vessie neurogène) à une entrée d'ontologie actuelle avant toute revue.
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
