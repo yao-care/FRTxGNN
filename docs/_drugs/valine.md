@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valine
-parent: Preuves modérées (L3-L4)
-nav_order: 326
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 330
+evidence_level: L5
 indication_count: 10
 ---
 
 # Valine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,76 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Valine : D'un Acide Aminé Essentiel à la Cholangite Sclérosante (Prédiction)
+# Valine : De l'apport nutritionnel en acides aminés (indication non documentée) à la Cholangite sclérosante
 
 ## Résumé en Une Phrase
 
-La valine est un acide aminé essentiel à chaîne ramifiée (BCAA), sans indication thérapeutique enregistrée et non commercialisée comme médicament en France (0 AMM). Le modèle TxGNN prédit une association avec la **Cholangite Sclérosante**, mais cette direction n'est actuellement soutenue par **aucun essai clinique** et seulement **2 publications** dont la pertinence mécanistique est faible et indirecte.
-
----
+La valine est un acide aminé à chaîne ramifiée (BCAA). Elle est commercialisée en France dans des solutions de nutrition orale et parentérale, mais le texte de l'indication approuvée n'est pas renseigné dans les données.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **cholangite sclérosante**.
+Cette prédiction repose sur **0 essai clinique** et **2 publications**, toutes deux indirectes et sans lien démontré avec un bénéfice de la valine.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible — la valine est un acide aminé essentiel, sans indication thérapeutique enregistrée |
-| Nouvelle Indication Prédite | Cholangite Sclérosante (sclerosing cholangitis) |
-| Score de Prédiction TxGNN | 99.42% |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données réglementaires (les produits sont des solutions d'acides aminés pour voie orale ou perfusion) |
+| Nouvelle Indication Prédite | Cholangite sclérosante |
+| Score de Prédiction TxGNN | 99,42 % |
+| Niveau de Preuve | L4 (études indirectes, sans essai clinique) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la valine est un acide aminé essentiel à chaîne ramifiée (BCAA), impliqué dans la synthèse protéique et le métabolisme énergétique ; elle n'est enregistrée dans aucune AMM en France et ne possède pas d'indication thérapeutique établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la valine est un acide aminé essentiel de la famille des BCAA. Elle entre dans la composition de solutions de nutrition (Revitalose, Aminoven, Aminoplasmal, Aminomix). Son usage en nutrition est établi, mais son efficacité dans la cholangite sclérosante n'a pas été démontrée.
 
-Le lien mécanistique proposé par le modèle TxGNN entre la valine et la cholangite sclérosante repose sur une littérature qui concerne en réalité le métabolisme de la **tyrosine** (et non de la valine) dans le cadre de maladies hépatiques cholestatiques (cirrhose biliaire primitive et cholangite sclérosante primitive). Aucune des publications identifiées ne décrit d'action directe de la valine sur cette pathologie.
+Le lien avec la nouvelle indication reste hypothétique. Les maladies hépatiques chroniques s'accompagnent souvent d'anomalies du métabolisme des acides aminés, et les BCAA y jouent un rôle connu. Aucune étude ne montre pourtant qu'une supplémentation en valine améliore la cholangite sclérosante. Les deux publications retrouvées apportent seulement un contexte métabolique indirect : l'une porte sur les taux plasmatiques de tyrosine et la fatigue dans les maladies cholestatiques, l'autre sur des associations entre métabolites sanguins et risque de maladies cholestatiques.
 
-Ce lien doit donc être considéré comme **faible et indirect** : il s'agit d'une association statistique du modèle plutôt que d'une hypothèse mécanistique étayée. Aucune étude interventionnelle ou clinique n'a testé la valine dans cette indication à ce jour.
-
----
+Le score TxGNN (0,994) provient uniquement d'un graphe de connaissances. Il doit être considéré comme une hypothèse de recherche, non comme une preuve d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Randomisation Mendélienne | Frontiers in medicine | Étude de causalité entre métabolites sanguins et maladies hépatiques cholestatiques (PBC/PSC) — ne porte pas spécifiquement sur la valine |
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohorte | BMC gastroenterology | Relation entre concentration plasmatique de tyrosine et fatigue dans la cirrhose biliaire primitive et la cholangite sclérosante primitive — porte sur la tyrosine, pas la valine |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohorte | BMC Gastroenterology | Étude de la relation entre la tyrosine plasmatique et la fatigue dans la cirrhose biliaire primitive et la cholangite sclérosante primitive. Elle porte sur la tyrosine, pas sur la valine. |
+| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Randomisation mendélienne | Frontiers in Medicine | Analyse causale entre métabolites sanguins et risque de cholangite biliaire primitive et de cholangite sclérosante primitive. Contexte métabolique seulement. |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 63363997 | REVITALOSE SANS SUCRE, solution buvable édulcorée au sorbitol | Solution buvable | Non renseignée |
+| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée |
+| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée |
+| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | Non renseignée |
+| 61786735 | AMINOMIX 500, solution pour perfusion | Solution pour perfusion | Non renseignée |
+
+Au total, 20 AMM sont recensées. Seules les 5 premières sont listées ici.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le lien mécanistique entre la valine et la cholangite sclérosante repose sur des études portant sur un autre métabolite (la tyrosine) et non sur la valine elle-même. Aucun essai clinique n'existe, la littérature disponible est indirecte, et la valine n'a ni statut de médicament ni AMM en France. Les preuves sont actuellement insuffisantes pour justifier une investigation active.
+- Il n'existe aucun essai clinique et aucune publication montrant un effet de la valine dans la cholangite sclérosante. Les deux articles retrouvés sont indirects, et la prédiction repose sur le seul score du graphe de connaissances.
+- Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'évaluation de sécurité.
+- Les autres indications prédites (glaucomes, hyperthyroïdie, résistance aux hormones thyroïdiennes, hyperthyroxinémie) sont encore plus faibles. Les publications associées sont des faux positifs liés à la nomenclature des acides aminés (« Val ») ou à des médicaments au nom proche, comme le valsartan.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de notice/mises en garde TFDA (DG001, bloquant) — indisponibles actuellement
-- Données de mécanisme d'action (MOA) via DrugBank (DG002)
-- Étude mécanistique dédiée reliant spécifiquement la valine (et non la tyrosine) au métabolisme biliaire
-- Vérification du statut réglementaire de la valine comme produit thérapeutique (vs. supplément nutritionnel) avant toute évaluation clinique ultérieure
-
-*Note méthodologique : les autres indications prédites pour ce candidat (rangs 2–10, non détaillées ici selon le format) présentent un niveau de preuve encore plus faible (L5) — la plupart des articles associés correspondent en réalité à des coïncidences de nomenclature de mutations génétiques (ex. « Val→X » dans le nom de variants), et non à des preuves pharmacologiques réelles concernant la valine.*
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications).
+- Obtenir les données de mécanisme d'action depuis DrugBank.
+- Renseigner l'indication approuvée de chaque AMM pour établir l'indication d'origine.
+- Mener une revue ciblée de la littérature sur les BCAA et la valine dans les maladies cholestatiques.
+- Formuler une hypothèse mécanistique testable avant toute étude préclinique ou clinique.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

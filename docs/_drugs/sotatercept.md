@@ -2,7 +2,7 @@
 layout: default
 title: Sotatercept
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 284
+nav_order: 288
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,70 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sotatercept : D'une Indication d'Origine Non Renseignée à la Leucémie Lymphoblastique Aiguë
+# Sotatercept : De l'hypertension artérielle pulmonaire à la leucémie lymphoblastique aiguë
 
 ## Résumé en Une Phrase
 
-Sotatercept est un piège à ligand du récepteur de l'activine de type IIA-Fc ; aucune indication d'origine ni AMM ne sont actuellement documentées dans les données disponibles pour ce dossier. Le modèle TxGNN le classe en priorité pour la **Leucémie Lymphoblastique Aiguë (LAL)**, mais cette direction n'est soutenue par **aucun essai clinique** ni **aucune publication**, et le lien mécanistique lui-même est qualifié de faible dans l'analyse.
-
----
+Sotatercept est commercialisé en France sous le nom WINREVAIR. Les données fournies ne précisent pas son indication d'origine ; selon les connaissances générales, il s'agit de l'hypertension artérielle pulmonaire (HTAP), à vérifier auprès de l'ANSM.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie lymphoblastique aiguë**, avec un score élevé (99,78 %).
+Cette prédiction repose uniquement sur le modèle : **0 essai clinique** et **0 publication** ne la soutiennent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication d'Origine | Non renseignée dans les données actuelles |
-| Nouvelle Indication Prédite | Leucémie Lymphoblastique Aiguë (LAL) |
-| Score de Prédiction TxGNN | 99,78 % (rang 2117) |
-| Niveau de Preuve | L5 (prédiction du modèle seule, aucune étude réelle) |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données (HTAP selon les connaissances générales, à vérifier) |
+| Nouvelle Indication Prédite | Leucémie lymphoblastique aiguë |
+| Score de Prédiction TxGNN | 99,78 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le mécanisme d'action détaillé de Sotatercept n'est pas disponible dans la fiche produit de ce dossier. D'après les informations rattachées aux hypothèses de repositionnement, Sotatercept agit comme un piège à ligand du récepteur de l'activine de type IIA-Fc (Fc-fusion), un mode d'action qui a été exploré pour moduler la différenciation tardive de l'érythropoïèse — notamment dans des travaux antérieurs sur l'anémie d'origine rénale et la thalassémie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données. D'après l'analyse de l'Evidence Pack, le sotatercept est un piège à ligands de type protéine de fusion Fc du récepteur de l'activine de type IIA (ActRIIA-Fc). Il capte l'activine, les GDF8/11 et certaines BMP.
 
-L'indication d'origine du médicament n'étant pas renseignée dans les données actuelles, il n'est pas possible d'établir de relation documentée entre son usage historique et la LAL. L'hypothèse mécanistique proposée relie la LAL au profil hématologique de Sotatercept par proximité dans l'espace de représentation du modèle (embedding), plutôt que par un mécanisme biologique direct : la prolifération des lymphoblastes malins dans la LAL n'a pas de lien connu avec la modulation de l'activine.
+**Pour la leucémie lymphoblastique aiguë, il n'existe pas de lien mécanistique clair.** Aucun rôle établi de cet axe de signalisation dans la biologie de cette leucémie n'a été identifié. Le score élevé est une prédiction issue du graphe de connaissances, pas une preuve. De plus, le sotatercept augmente l'hémoglobine et les plaquettes, ce qui complique tout usage dans une hémopathie maligne.
 
-En somme, cette prédiction est explicitement signalée comme mécanistiquement faible : elle reflète probablement un regroupement du modèle autour de pathologies hématologiques plutôt qu'une hypothèse thérapeutique fondée. C'est cette faiblesse qui justifie la recommandation de statu quo (Hold) associée à ce candidat.
-
----
+Les autres prédictions du modèle sont de même nature (niveau L5, sans essai ni publication) :
+- **Rétinopathie diabétique** (sévère non proliférante et forme générale) et **cataracte diabétique** : lien spéculatif ou absent. Le sotatercept a des effets vasculaires connus (télangiectasies, saignements), ce qui soulève des questions de sécurité oculaire.
+- **Carcinomes urothéliaux et cancer du sein HER2 positif** : seul un lien générique et dépendant du contexte avec la signalisation activine/TGF-bêta existe. Les scores quasi identiques entre sous-types urothéliaux suggèrent des prédictions corrélées plutôt que des signaux indépendants.
+- **Ostéoporose médicamenteuse** : c'est la prédiction la plus cohérente sur le plan biologique. La signalisation de l'activine régule le remodelage osseux, et des protéines de fusion activin receptor-Fc ont été explorées pour leurs effets sur la densité minérale osseuse. Elle est classée « Research Question ». Une revue ciblée de la littérature sur les données osseuses des ActRIIA-Fc serait la première étape.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement
+Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61615894 | WINREVAIR 45 mg (MERCK SHARP & DOHME, Pays-Bas) | Poudre et solvant pour solution injectable | Non renseignée dans les données |
+| 61402622 | WINREVAIR 60 mg (MERCK SHARP & DOHME, Pays-Bas) | Poudre et solvant pour solution injectable | Non renseignée dans les données |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le niveau de preuve est L5 : aucun essai clinique ni publication ne soutient la piste LAL, et le lien mécanistique proposé est lui-même qualifié de faible. Le médicament n'est par ailleurs pas commercialisé en France (0 AMM) et l'évaluation de sécurité ne peut pas être initiée en l'état.
+- La prédiction pour la leucémie lymphoblastique aiguë repose uniquement sur le modèle (L5), sans essai, sans publication et sans lien mécanistique identifié. Les effets du sotatercept sur l'hémoglobine et les plaquettes compliquent en outre son usage dans une hémopathie maligne.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Extraction du texte des mises en garde et contre-indications à partir du document TFDA déjà identifié (donnée actuellement bloquante pour l'évaluation de sécurité S1)
-- Complément du champ mécanisme d'action (MOA) via les données structurées DrugBank
-- Recherche documentaire indépendante pour vérifier ou infirmer l'hypothèse mécanistique LAL avant toute progression
-- Confirmation du statut réglementaire (le médicament reste non commercialisé en France à ce jour)
+- Récupérer et analyser la notice ANSM (mises en garde et contre-indications), étape bloquante pour le criblage de sécurité
+- Confirmer l'indication d'origine et le mécanisme d'action détaillé (DrugBank)
+- Mener une revue ciblée de la littérature, en priorité sur l'ostéoporose médicamenteuse (données osseuses des ActRIIA-Fc), seule piste mécanistiquement cohérente
+- Rechercher d'éventuels essais ou données précliniques pour chaque indication prédite avant toute réévaluation
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

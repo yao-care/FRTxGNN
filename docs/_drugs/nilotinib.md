@@ -2,7 +2,7 @@
 layout: default
 title: Nilotinib
 parent: Preuves modérées (L3-L4)
-nav_order: 211
+nav_order: 214
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,85 +29,81 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Nilotinib : D'une Indication Non Documentée au Dermatofibrosarcome Protuberans
+# Nilotinib : Vers le Dermatofibrosarcome Protubérant (indication d'origine non renseignée)
 
 ## Résumé en Une Phrase
 
-Nilotinib (DrugBank DB04868) est décrit dans le dossier comme un inhibiteur de tyrosine kinase de deuxième génération ciblant BCR-ABL, PDGFR et KIT ; son indication d'origine n'est pas documentée dans ce dossier. Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Dermatofibrosarcome Protuberans (DFSP)**, avec **0 essai clinique** et **1 publication** soutenant actuellement cette direction.
-
----
+Nilotinib est un inhibiteur de tyrosine kinase commercialisé en France. Les données fournies ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **dermatofibrosarcome protubérant (DFSP)**.
+Cette piste repose pour l'instant sur **0 essai clinique** et **1 publication** (une revue de 2018) : elle reste une hypothèse de recherche.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentée dans le dossier (aucune licence ni indication enregistrée) |
-| Nouvelle Indication Prédite | Dermatofibrosarcome Protuberans (DFSP) |
+| Nouvelle Indication Prédite | Dermatofibrosarcome protubérant |
 | Score de Prédiction TxGNN | 99,31 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 5 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action (MOA) ne sont pas disponibles dans le dossier (lacune DG002, sévérité Élevée). Le rationnel de repositionnement fourni indique néanmoins que le nilotinib est un inhibiteur de tyrosine kinase de deuxième génération ciblant BCR-ABL, PDGFR et KIT.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. Sur la base des informations connues, le nilotinib est un inhibiteur de tyrosine kinase actif sur PDGFR, BCR-ABL, KIT et DDR.
 
-Le dermatofibrosarcome protuberans (DFSP) est caractérisé par la fusion oncogénique COL1A1-PDGFB, qui entraîne une activation constitutive du récepteur PDGFR-β — une tumeur dite « driver-oncogène dépendante ». L'imatinib, qui cible également PDGFR, est déjà le traitement ciblé standard approuvé pour le DFSP.
+Le DFSP est le plus souvent provoqué par une fusion COL1A1-PDGFB. Cette fusion entraîne une activation permanente du récepteur PDGFRB. Le raisonnement mécanistique est donc plausible : le nilotinib cible la même voie que l'imatinib, thérapie de référence ciblant PDGFR dans le DFSP.
 
-Le nilotinib présente un chevauchement mécanistique important avec l'imatinib sur la cible PDGFR-β, ce qui en fait théoriquement une option de second recours pour les cas résistants ou intolérants à l'imatinib. Selon le dossier, il s'agit cependant d'une extrapolation « même mécanisme » et non d'une preuve clinique directe propre au nilotinib dans le DFSP — nuance qui explique le niveau de preuve L4 retenu.
-
----
+Le score TxGNN très élevé (0,993) reste une prédiction du modèle, pas une preuve clinique. L'efficacité propre au nilotinib dans le DFSP, y compris dans les formes résistantes à l'imatinib, ne peut pas être établie à partir des données fournies. Le mécanisme ne peut pas non plus être recoupé avec une indication d'origine, faute de données.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Revue | Pharmacological Research | Revue du rôle des inhibiteurs de PDGFR (petites molécules) dans le traitement des néoplasies ; décrit la biologie de la famille PDGF et l'activation des récepteurs comme cible thérapeutique, sans donnée clinique spécifique au nilotinib dans le DFSP |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Revue | Pharmacological Research | Revue du rôle des inhibiteurs de PDGFR à petites molécules dans les maladies néoplasiques, avec rappel du rôle de la famille PDGF. Pertinence pour le nilotinib dans le DFSP non encore évaluée. |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 66207619 | Nilotinib Accord 150 mg | Gélule | Accord Healthcare (Espagne) |
+| 67016780 | Nilotinib Zentiva 150 mg | Gélule | Zentiva France |
+| 60116714 | Nilotinib Accord 200 mg | Gélule | Accord Healthcare (Espagne) |
+| 68546785 | Nilotinib Zentiva 200 mg | Gélule | Zentiva France |
+| 66460565 | Tasigna 200 mg | Gélule | Novartis Europharm (Irlande) |
+
+Le texte des indications approuvées n'est pas renseigné dans les données fournies.
 
 ## Cytotoxicité
-
-Le nilotinib appartient à la classe des inhibiteurs de tyrosine kinase ciblant BCR-ABL/PDGFR/KIT, utilisée en oncologie.
 
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase) |
-| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
-| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
----
+Pour le risque de myélosuppression, l'émétogénicité, la surveillance et la protection de manipulation, veuillez consulter les mises en garde et précautions de la notice.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. À noter : l'absence de données de mises en garde/contre-indications TFDA constitue une lacune bloquante du dossier (DG001), empêchant toute évaluation de sécurité de niveau S1.
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le niveau de preuve est L4 (aucun essai clinique enregistré, une seule publication de revue mécanistique) et repose sur une extrapolation de mécanisme depuis l'imatinib plutôt que sur une preuve directe pour le nilotinib dans le DFSP. L'absence de données de sécurité TFDA (lacune bloquante DG001) empêche par ailleurs toute évaluation S1.
+La prédiction est mécanistiquement plausible, mais aucun essai clinique ni donnée spécifique au nilotinib dans le DFSP ne la soutient. Les données de sécurité de la notice ANSM manquent également, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir et analyser la notice TFDA (仿單) du nilotinib pour lever la lacune bloquante DG001
-- Documenter l'indication d'origine et le statut d'AMM (actuellement absents du dossier)
-- Compléter les données de mécanisme d'action via DrugBank (DG002)
-- Identifier ou générer des données précliniques/cliniques spécifiques au nilotinib dans le DFSP ou les sarcomes PDGFR-β dépendants
-- Évaluer la compatibilité de voie d'administration avant tout passage au stade S2
+- Récupérer les mises en garde et contre-indications de la notice ANSM
+- Compléter le mécanisme d'action (DrugBank) et l'indication d'origine
+- Rechercher des données cliniques spécifiques au nilotinib dans le DFSP, notamment en cas de résistance à l'imatinib
+- Évaluer la pertinence de la littérature retenue (statut actuel : en attente)
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Toute candidature de repositionnement doit être validée cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

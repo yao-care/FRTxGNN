@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorambucil
-parent: Preuves modérées (L3-L4)
-nav_order: 72
-evidence_level: L3
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 74
+evidence_level: L5
 indication_count: 8
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,77 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Chlorambucil : De la Leucémie Lymphoïde Chronique à la LLC/SLL avec Hypermutation Somatique IGHV
-
----
+# Chlorambucil : De l'indication d'origine (non renseignée) à la leucémie lymphoïde chronique/lymphome lymphocytique avec hypermutation somatique des gènes IGHV
 
 ## Résumé en Une Phrase
 
-Chlorambucil est un agent alkylant historiquement utilisé pour le traitement de la leucémie lymphoïde chronique (LLC) et des lymphomes B indolents, bien qu'il ne soit pas approuvé en France.
-Le modèle TxGNN prédit qu'il pourrait être particulièrement efficace pour la **LLC/SLL avec hypermutation somatique des gènes de la région variable des chaînes lourdes d'immunoglobulines (IGHV-muté)**, sous-type moléculaire de meilleur pronostic.
-Aucune publication ni essai clinique n'est disponible pour ce sous-type moléculaire en tant que population cible indépendante, mais des données de sous-groupes issues de grands essais Phase 3 de LLC apportent un soutien mécanistique solide.
-
----
+Chlorambucil est un agent alkylant de la famille des moutardes azotées. Son indication d'origine n'est pas renseignée dans les données réglementaires françaises fournies.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie lymphoïde chronique/lymphome lymphocytique à petits lymphocytes (LLC/LL) avec hypermutation somatique IGHV**,
+mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette indication précise : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non approuvé en France (usage historique mondial : leucémie lymphoïde chronique) |
-| Nouvelle Indication Prédite | LLC/SLL avec hypermutation somatique des gènes IGHV (sous-type IGHV-muté) |
-| Score de Prédiction TxGNN | 99.72% |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+|------|------|
+| Indication Originale | Non renseignée (le texte d'indication de l'AMM est vide) |
+| Nouvelle Indication Prédite | LLC/LL avec hypermutation somatique des gènes de la région variable de la chaîne lourde des immunoglobulines (IGHV) |
+| Score de Prédiction TxGNN | 99,72 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action (MOA) de Chlorambucil ne sont pas disponibles dans ce pack. Sur la base des informations connues dans la littérature mondiale, Chlorambucil est un agent alkylant de la famille des moutardes azotées (chloroéthylamine). Il agit en formant des ponts covalents entre les deux brins d'ADN (liaisons croisées interbrins), bloquant la réplication et induisant l'apoptose des cellules B en prolifération. Ce mécanisme est indépendant du cycle cellulaire, ce qui lui confère une activité sur les lymphocytes B malins à faible index mitotique, caractéristiques des LLC indolentes.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le chlorambucil est un agent alkylant de l'ADN (moutarde azotée) qui agit sur les lymphocytes, qu'ils soient en prolifération ou au repos. Mécanistiquement, il pourrait donc être applicable aux hémopathies lymphoïdes B comme la LLC/LL.
 
-La LLC/SLL avec hypermutation somatique IGHV (sous-type IGHV-muté) constitue une entité biologiquement distincte. Ce sous-type conserve une capacité de réparation par recombinaison homologue relativement préservée et présente une dépendance moindre aux voies de signalisation BCR par rapport au sous-type IGHV non muté. Cette caractéristique le rend plus sensible aux dommages à l'ADN induits par les agents alkylants, dont Chlorambucil. Cliniquement, plusieurs essais de Phase 3 majeurs (CLL11, RESONATE-2) ont établi une meilleure réponse au Chlorambucil dans le sous-type IGHV-muté, où les taux de réponse globale et la survie sans progression sont supérieurs à ceux observés dans le sous-type non muté.
+La LLC est une indication historique et bien établie du chlorambucil de façon générale. Cependant, le dossier fourni ne contient ni essai ni publication portant sur le sous-type précis à mutation IGHV. Le score élevé de TxGNN (99,72 %) reflète la proximité dans le réseau de connaissances et ne constitue pas une preuve clinique.
 
-La prédiction TxGNN est donc biologiquement cohérente : elle identifie le sous-type moléculaire de la LLC pour lequel Chlorambucil présente le meilleur rationnel thérapeutique. Toutefois, aucun essai randomisé n'a été conçu avec ce sous-type moléculaire comme critère d'inclusion principal, et les thérapies ciblées modernes (BTKi, BCL-2i ± anti-CD20) ont largement supplanté Chlorambucil en première ligne, même dans le sous-type IGHV-muté.
-
----
+Il faut donc considérer cette prédiction comme une hypothèse plausible sur le plan biologique, mais non démontrée pour ce sous-type.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour ce sous-type moléculaire spécifique (LLC/SLL IGHV-muté comme population cible principale).
-
-> **Note clinique :** Les essais Phase 3 CLL11 (Chlorambucil ± Obinutuzumab/Rituximab) et RESONATE-2 (Ibrutinib vs Chlorambucil) incluent le statut IGHV comme facteur d'analyse en sous-groupe, mais ne ciblent pas ce sous-type moléculaire en tant que population principale.
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature publiée spécifiquement dédiée à Chlorambucil dans la LLC/SLL IGHV-muté en tant que population cible indépendante.
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Chlorambucil n'est pas commercialisé en France. Aucune autorisation de mise sur le marché (AMM) n'est enregistrée auprès de l'ANSM.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66518292 | CHLORAMINOPHENE 2 mg, gélule (TECHNI-PHARMA) | Gélule | Non renseignée |
 
 ## Cytotoxicité
 
-Chlorambucil est un agent antinéoplasique cytotoxique (agent alkylant, classe moutardes azotées). La section suivante s'applique.
-
 | Élément | Contenu |
-|---|---|
-| Classification de Cytotoxicité | Cytotoxique conventionnel — Agent alkylant / Moutarde azotée (chloroéthylamine) |
-| Risque de Myélosuppression | **Élevé** — neutropénie, thrombocytopénie et anémie fréquentes, cumulatives et dose-dépendantes ; nadirs typiques à J14–J21 |
-| Classification d'Émétogénicité | **Faible à modérée** (administration per os, dose standard) |
-| Éléments de Surveillance | NFS avec différentielle (avant chaque cycle et à mi-cycle), fonction hépatique (ASAT, ALAT, bilirubine), fonction rénale (créatinine), surveillance cumulative de la myélosuppression |
-| Protection de Manipulation | Manipulation selon les réglementations applicables aux médicaments cytotoxiques — préparation sous hotte à flux laminaire en pharmacie hospitalière, équipements de protection individuelle (gants, masque, surblouse) obligatoires |
-
----
+|------|------|
+| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, moutarde azotée) |
+| Risque de Myélosuppression | Élevé (effet attendu de la classe des alkylants ; à confirmer dans la notice) |
+| Classification d'Émétogénicité | Faible (à confirmer dans la notice) |
+| Éléments de Surveillance | NFS (avec formule), fonction hépatique et rénale |
+| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité (données de mises en garde, contre-indications et interactions médicamenteuses non disponibles dans ce pack).
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-Les données de sous-groupes issues des essais Phase 3 de référence dans la LLC (CLL11, RESONATE-2) confirment une meilleure réponse de Chlorambucil dans le sous-type IGHV-muté, et le mécanisme alkylant est biologiquement cohérent avec la biologie de ce sous-type. Cependant, l'absence d'essai randomisé dédié à cette entité moléculaire, conjuguée au remplacement progressif de Chlorambucil par des thérapies ciblées de nouvelle génération, impose une progression avec garde-fous stricts.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication pour ce sous-type de LLC/LL, et les données de sécurité de la notice ANSM sont manquantes.
+- À titre indicatif, parmi les autres indications prédites, le lymphome pulmonaire primitif (surtout de type MALT) est le mieux étayé dans les données (niveau L3, principalement séries rétrospectives et cas cliniques). Il reste toutefois au stade de question de recherche.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données complètes de mécanisme d'action (MOA) — à récupérer via DrugBank API
-- Données de sécurité détaillées (mises en garde, contre-indications, interactions médicamenteuses) — à récupérer via fiche ANSM / notice internationale
-- Extraction et méta-analyse des données de sous-groupes IGHV issues des essais CLL11, RESONATE-2, CLL10 et MABLE
-- Évaluation du positionnement thérapeutique actuel face aux BTKi (Ibrutinib, Acalabrutinib) et BCL-2i (Venetoclax ± Obinutuzumab) en première ligne, y compris dans le sous-type IGHV-muté
-- Analyse de faisabilité réglementaire pour une démarche AMM en France dans une indication à entité moléculaire spécifique
-- Plan de surveillance de sécurité adapté à la population cible (patients âgés, comorbidités cardiovasculaires fréquentes)
+- Obtenir la notice ANSM (mises en garde, contre-indications) afin de pouvoir passer au criblage de sécurité
+- Compléter les données sur le mécanisme d'action (par exemple via DrugBank)
+- Renseigner l'indication réellement approuvée de l'AMM 66518292
+- Rechercher des études spécifiques au sous-type IGHV muté, en distinguant celles où le chlorambucil est un comparateur de celles où il est le traitement évalué
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

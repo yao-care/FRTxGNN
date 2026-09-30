@@ -2,7 +2,7 @@
 layout: default
 title: Nimodipine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 212
+nav_order: 215
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,76 +29,68 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Nimodipine : De la Prévention du Vasospasme Cérébral à l'Hypercholestérolémie Familiale Homozygote
+# Nimodipine : De l'indication d'origine (non renseignée) à l'hypercholestérolémie familiale homozygote
 
 ## Résumé en Une Phrase
 
-Nimodipine est un inhibiteur calcique de type L hautement sélectif, historiquement utilisé pour prévenir le vasospasme cérébral après hémorragie sous-arachnoïdienne.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hypercholestérolémie Familiale Homozygote (HoFH)**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction — la prédiction repose uniquement sur le score du modèle.
-
----
+La nimodipine est un inhibiteur calcique de la famille des dihydropyridines, commercialisé en France sous le nom NIMOTOP en comprimé et en solution pour perfusion. Le texte d'indication figurant dans les AMM n'est pas renseigné dans les données reçues.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypercholestérolémie familiale homozygote**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Prévention du vasospasme cérébral après hémorragie sous-arachnoïdienne (usage pharmacologique connu de la classe ; aucune fiche AMM structurée disponible dans les données reçues) |
-| Nouvelle Indication Prédite | Hypercholestérolémie Familiale Homozygote (HoFH) |
-| Score de Prédiction TxGNN | 99.29 % |
+| Indication Originale | Non renseignée dans les AMM |
+| Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote |
+| Score de Prédiction TxGNN | 99,29 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles pour nimodipine dans ce dossier. Sur la base des informations connues, il s'agit d'un inhibiteur calcique de type L hautement sélectif dont l'usage clinique établi cible le muscle lisse vasculaire cérébral (prévention du vasospasme après hémorragie sous-arachnoïdienne).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, la nimodipine est un inhibiteur calcique de type dihydropyridine bloquant les canaux calciques de type L, avec une sélectivité cérébrovasculaire.
 
-La HoFH résulte de mutations du récepteur LDL (ou d'APOB/PCSK9) empêchant la clairance du LDL-cholestérol ; les traitements actuels (statines, inhibiteurs de PCSK9, lomitapide, evinacumab) agissent tous sur la voie du métabolisme lipoprotéique. Aucune donnée mécanistique ou bibliographique disponible ne relie les inhibiteurs calciques à l'expression du récepteur LDL, à PCSK9 ou à la voie ANGPTL3.
+L'hypercholestérolémie familiale homozygote est due à des variants à perte de fonction du gène *LDLR* (plus rarement *APOB*, *PCSK9* ou *LDLRAP1*), qui altèrent fortement l'élimination du LDL-cholestérol. Aucun lien mécanistique direct n'est établi avec le blocage des canaux calciques. Certains inhibiteurs calciques ont montré des effets antiathérosclérotiques modestes en préclinique, mais aucun ne corrige le déficit en récepteur du LDL ni n'abaisse le LDL-C de façon cliniquement significative.
 
-En l'état, le lien entre le mécanisme connu de nimodipine et la physiopathologie de la HoFH n'est pas établi : cette prédiction est portée uniquement par le score statistique du modèle TxGNN (99.29 %), sans support biologique ou clinique identifié à ce jour.
+Le score élevé de TxGNN (0,993) est une prédiction issue d'un graphe de connaissances, sans confirmation clinique ni bibliographique. Les options déjà validées dans cette maladie (statines, ézétimibe, inhibiteurs de PCSK9, lomitapide, évinacumab, aphérèse des LDL) sont beaucoup mieux étayées.
 
----
+Une seconde prédiction existe : le **syndrome d'antidiurèse inappropriée néphrogénique** (score 99,05 %, niveau L5, Hold). Elle repose sur des variants gain de fonction d'*AVPR2*, sans lien direct avec la cible de la nimodipine. Les effets vasodilatateur et hypotenseur du médicament pourraient en outre ajouter un risque chez un patient hyponatrémique.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement
+Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65726536 | NIMOTOP 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+| 61339638 | NIMOTOP 10 mg/50 ml, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
-
-*(Remarque : les mises en garde et contre-indications réglementaires (TFDA) ne sont pas encore disponibles dans ce dossier — il s'agit d'un écart bloquant pour l'évaluation de sécurité, cf. section suivante.)*
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune preuve clinique ou bibliographique (0 essai, 0 publication) ne soutient cette indication, et le lien mécanistique entre nimodipine et la HoFH n'est pas établi. La prédiction repose uniquement sur le score TxGNN (niveau de preuve L5).
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible. Il existe déjà des traitements bien établis pour cette maladie. Les données de sécurité de la notice ANSM manquent également, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données du mécanisme d'action (MOA) de nimodipine, actuellement en écart bloquant
-- Mises en garde et contre-indications réglementaires (notice TFDA), écart bloquant pour toute évaluation de sécurité (DG001)
-- Études précliniques explorant un lien biologique plausible entre blocage calcique de type L et voies du métabolisme lipoprotéique
-- Toute donnée clinique ou observationnelle émergente sur cette association
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications) et le texte des indications approuvées
+- Obtenir les données détaillées sur le mécanisme d'action (par exemple via l'API DrugBank)
+- Trouver des données précliniques ou de mécanisme reliant les inhibiteurs calciques au métabolisme des LDL ou à la voie AVPR2
+- Vérifier la compatibilité des voies d'administration avec la maladie visée (actuellement en attente)
 
----
-
-*Note complémentaire : les données fournies contiennent une seconde indication prédite — le syndrome néphrogénique de sécrétion inappropriée d'ADH (NSIAD), score TxGNN 99.05 %, également sans essai clinique ni littérature associée (L5). Le même constat s'applique : absence de lien mécanistique identifié entre le blocage calcique et la voie AVPR2/cAMP-PKA, décision Hold.*
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

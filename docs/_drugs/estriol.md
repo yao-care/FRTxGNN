@@ -2,7 +2,7 @@
 layout: default
 title: Estriol
 parent: Preuves modérées (L3-L4)
-nav_order: 121
+nav_order: 124
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,86 +29,93 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Estriol : Du Syndrome Génito-Urinaire de la Ménopause à l'Aménorrhée
+# Estriol : D'une Indication d'Origine Non Renseignée à l'Aménorrhée
 
 ## Résumé en Une Phrase
 
-Estriol est un œstrogène faible (agoniste partiel ER-α/β) classiquement utilisé dans la prise en charge du syndrome génito-urinaire de la ménopause et de l'atrophie vulvo-vaginale.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**aménorrhée**, en particulier l'aménorrhée hypothalamique fonctionnelle (AHF),
-avec **3 essais cliniques** et **13 publications** soutenant actuellement cette direction.
-
----
+L'estriol est un œstrogène commercialisé en France sous plusieurs formes (comprimé, crème vaginale, gel vaginal), mais les données ANSM disponibles ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**aménorrhée**, avec un score élevé (99,18 %).
+Les preuves restent faibles : **3 essais cliniques**, dont aucun ne teste l'estriol dans l'aménorrhée, et **13 publications**, dont seules **2 ou 3** portent directement sur l'estriol ou les faibles doses d'œstrogènes dans l'aménorrhée hypothalamique fonctionnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Syndrome génito-urinaire de la ménopause / Atrophie vulvo-vaginale |
-| Nouvelle Indication Prédite | Aménorrhée (aménorrhée hypothalamique fonctionnelle) |
-| Score de Prédiction TxGNN | 99,18 % |
+|------|------|
+| Indication Originale | Non renseignée dans les données ANSM disponibles |
+| Nouvelle Indication Prédite | Aménorrhée |
+| Score de Prédiction TxGNN | 99,18 % (rang 5474) |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 7 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Estriol est le plus faible des trois œstrogènes endogènes principaux. En tant qu'agoniste partiel des récepteurs ER-α et ER-β, il exerce une activité œstrogénique nettement inférieure à celle de l'estradiol, ce qui lui confère un profil de stimulation utérine et mammaire théoriquement plus favorable. Bien que les données formelles sur son mécanisme d'action (MOA) soient manquantes dans cette évaluation, son interaction avec l'axe hypothalamo-hypophyso-gonadique (HPG axis) est documentée dans la littérature scientifique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'estriol est un œstrogène de la famille des hormones sexuelles. Son usage hormonal est établi, et il pourrait être mécanistiquement applicable à certaines formes d'aménorrhée. L'indication d'origine n'étant pas documentée dans les données reçues, la comparaison directe avec l'indication d'origine n'est pas possible.
 
-Dans l'aménorrhée hypothalamique fonctionnelle (AHF), un déséquilibre énergétique ou un stress psychosocial entraîne une suppression de la sécrétion pulsatile de GnRH, conduisant à une production déficiente de LH et FSH, et donc à une hypoœstrogénie systémique avec arrêt des cycles menstruels. La supplémentation à faible dose d'estriol pourrait restaurer la régulation neuroendocrinienne en rétablissant la rétroaction positive sur l'axe HPG, améliorant ainsi la fréquence des pulses de LH et relançant le cycle menstruel. Ce mécanisme est directement soutenu par l'étude interventionnelle de Genazzani et al. (PMID 22137494) et la revue mécanistique de Battipaglia et al. (PMID 37371858).
+L'aménorrhée est un ensemble hétérogène, et le lien avec l'estriol dépend du sous-type. Dans l'**aménorrhée hypothalamique fonctionnelle (AHF)**, une étude de 2012 (PMID 22137494) rapporte que l'estriol module la sécrétion de l'hormone lutéinisante (LH). Une revue de 2023 (PMID 37371858) propose que les œstrogènes à faible dose agissent comme modulateurs neuroendocriniens dans l'AHF.
 
-La distinction clé entre estriol et estradiol dans cette indication réside précisément dans la faiblesse relative de l'estriol : une stimulation œstrogénique centrale suffisante pour moduler l'axe HPG, sans risque excessif de prolifération endométriale ou mammaire, ce qui en fait un candidat théoriquement attrayant pour une population jeune en âge de procréer.
-
----
+Dans l'**insuffisance ovarienne prématurée**, le traitement œstrogénique est une base thérapeutique reconnue pour soutenir le profil hormonal et lipidique. Il corrige toutefois la carence hormonale et ne rétablit pas les menstruations. Le score TxGNN élevé reste une simple prédiction du modèle, sans vérification possible face au mécanisme d'action étiqueté.
 
 ## Preuves d'Essais Cliniques
 
+Aucun de ces essais ne teste l'estriol dans l'aménorrhée. Ils fournissent au mieux un contexte général sur les œstrogènes.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---|---|---|---|---|
-| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | Terminé | 1 570 | Évaluation de l'estetrol (E4) 15 ou 20 mg vs placebo sur les symptômes vasomoteurs en post-ménopause ; confirme l'activité œstrogénique sur l'axe HPG (pertinence indirecte pour l'AHF) |
-| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | Terminé | 1 015 | Deuxième essai E4Comfort évaluant l'estetrol 15 et 20 mg sur la sévérité/fréquence des bouffées de chaleur ; profil de sécurité endométriale documenté |
-| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | Retiré | 0 | Photobiomodulation pour l'atrophie vulvo-vaginale post-ménopausique avec aménorrhée comme critère diagnostique ; aucune donnée disponible (retiré avant inclusion) |
+|---------|------|------|------|---------|
+| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | Retiré | 0 | Photobiomodulation dans l'atrophie vulvovaginale postménopausique. Aucune donnée, essai retiré. Affection différente, l'estriol est probablement un comparateur. |
+| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | Terminé | 1570 | E4Comfort I : estétrol contre placebo dans les symptômes vasomoteurs modérés à sévères de la ménopause. L'estétrol est une molécule différente de l'estriol. |
+| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | Terminé | 1015 | E4Comfort II : estétrol 15 ou 20 mg contre placebo dans les symptômes vasomoteurs. Mêmes limites que l'essai précédent. |
 
-> **Note :** Aucun des essais enregistrés n'évalue directement l'estriol dans l'aménorrhée hypothalamique fonctionnelle. Les essais de Phase 3 concernent l'estetrol (E4, œstrogène distinct) dans les symptômes vasomoteurs. La pertinence est mécanistique et indirecte.
-
----
+Les titres des deux essais Phase 3 étant tronqués, l'attribution à l'estétrol est déduite et doit être vérifiée sur ClinicalTrials.gov.
 
 ## Preuves de la Littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Étude clinique interventionnelle | Fertility and Sterility | Administration d'estriol chez des patientes atteintes d'AHF : modulation de la sécrétion de LH et de la fonction hypophysaire — preuve directe de l'effet neuroendocrinien de l'estriol dans l'aménorrhée |
-| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Revue / Proposition mécanistique | Biomedicines | Les œstrogènes à faible dose comme modulateurs neuroendocriniens dans l'AHF ; propose le mécanisme de rétroaction positive via GnRH/LH/FSH — soutien mécanistique direct |
-| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Cohorte prospective | Medicinski pregled | Effet des œstro-progestatifs sur les profils lipidiques et hormonaux dans l'insuffisance ovarienne prématurée (aménorrhée hypergonadotrope) — pertinence pour les sous-types d'aménorrhée |
-| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Revue | Clinical Obstetrics and Gynecology | Néoplasie et contraception hormonale ; contexte des effets systémiques des œstrogènes sur l'axe reproducteur |
-| [4254759](https://pubmed.ncbi.nlm.nih.gov/4254759/) | 1971 | Série de cas / Revue narrative | British Journal of Psychiatry | Anorexie mentale et aménorrhée fonctionnelle — lien étiologique entre stress métabolique et suppression de l'axe HPG |
-| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Observationnel | Zhong Xi Yi Jie He Za Zhi | Modifications de la fonction gonadique dans l'aménorrhée et l'oligoménorrhée — données observationnelles sur les perturbations endocriniennes associées |
-| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Rapport de cas | Lancet | Résultats endocrinologiques dans deux cas d'insuffisance ovarienne prématurée avec aménorrhée |
-| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Série de cas | American Journal of Obstetrics and Gynecology | Manifestations gynécologiques et endocriniennes prolongées après acétate de médroxyprogestérone — effets secondaires hormonaux incluant l'aménorrhée |
+Les résumés de la plupart des publications sont absents. Les descriptions ci-dessous reposent donc surtout sur les titres.
 
----
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Étude clinique (petite étude interventionnelle) | Fertil Steril | L'administration d'estriol module la sécrétion de LH chez des femmes atteintes d'AHF. C'est la preuve la plus directe. |
+| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Revue | Biomedicines | Les œstrogènes à faible dose comme modulateurs neuroendocriniens dans l'AHF, avec un possible déclenchement du rétrocontrôle positif. |
+| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Étude clinique / cohorte | Med Pregl | Effets des œstro-progestatifs sur les profils lipidique et hormonal en cas d'insuffisance ovarienne prématurée. |
+| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Essai clinique (ancien) | J Obstet Gynaecol Br Commonw | Effet des gonadotrophines (FSH, hCG) dans l'aménorrhée secondaire idiopathique. Ce n'est pas l'estriol. |
+| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Rapport de cas | Lancet | Données endocrinologiques chez deux patientes atteintes d'insuffisance ovarienne prématurée. |
+| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Série de cas | Am J Obstet Gynecol | Manifestations gynécologiques et endocriniennes prolongées après acétate de médroxyprogestérone pendant la grossesse. |
+| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Étude observationnelle | Zhong Xi Yi Jie He Za Zhi | Lien entre la « déficience rénale » (médecine traditionnelle chinoise) et la fonction gonadique dans l'aménorrhée et l'oligoménorrhée. |
+| [4254759](https://pubmed.ncbi.nlm.nih.gov/4254759/) | 1971 | Revue | Br J Psychiatry | Anorexie mentale, cause fréquente d'aménorrhée fonctionnelle. Contexte uniquement. |
+| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Revue | Clin Obstet Gynecol | Néoplasie et contraception hormonale. Contexte général sur les hormones. |
+| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | Non classé | J Clin Endocrinol Metab | Mécanisme d'action des composés anti-ovulatoires. Pertinence non évaluée. |
+
+## Informations de Marché en France
+
+Les textes d'indication approuvée ne sont pas fournis dans les données ANSM reçues. Le tableau ci-dessous présente 5 des 7 AMM.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 66771751 | PHYSIOGINE 1 mg | Comprimé sécable | Aspen Pharma Trading (Irlande) |
+| 68174324 | PHYSIOGINE 0,1 %, crème vaginale | Crème | Aspen Pharma Trading (Irlande) |
+| 60747099 | GYDRELLE 0,1 %, crème vaginale | Crème | Laboratoires Iprad Pharma |
+| 61797183 | BLISSEL 50 µg/g, gel vaginal | Gel | Italfarmaco (Espagne) |
+| 62263257 | TROPHICREME 0,1 %, crème vaginale | Crème | HAC Pharma |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Les données de mises en garde, contre-indications et interactions médicamenteuses ne sont pas disponibles dans ce dossier d'évaluation (lacunes identifiées : DG001 — données ANSM manquantes).
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN est biologiquement plausible et soutenue par au moins une étude interventionnelle directe (Genazzani 2012) et une revue mécanistique récente (Battipaglia 2023) ; cependant, l'absence d'essai clinique randomisé contrôlé spécifique à l'aménorrhée hypothalamique fonctionnelle, combinée aux lacunes critiques en données de sécurité et à l'absence d'autorisation de mise sur le marché en France, ne permet pas de recommander une progression immédiate.
+- Aucun essai clinique ne teste l'estriol dans l'aménorrhée. Les seules données directes sont une petite étude de 2012 et une revue de 2023, toutes deux limitées à l'AHF.
+- Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape de criblage de sécurité (S1). Le score TxGNN de 99,18 % ne suffit pas à lui seul.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Compléter les données de mécanisme d'action (MOA) via DrugBank API (lacune DG002)
-- Obtenir et analyser la notice ANSM pour les mises en garde, contre-indications et interactions médicamenteuses (lacune DG001 — bloquante)
-- Identifier ou initier un essai clinique de Phase 2 randomisé contrôlé comparant estriol faible dose vs placebo dans l'AHF, avec critères d'évaluation sur la reprise des cycles menstruels et les taux de LH/FSH
-- Évaluer la faisabilité réglementaire d'une demande d'ATU (Autorisation Temporaire d'Utilisation) ou d'une extension d'indication en France
-- Définir la voie d'administration optimale (orale, transdermique, vaginale) selon le profil pharmacocinétique recherché pour l'effet central HPG
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
+- Obtenir le mécanisme d'action et les indications d'origine via DrugBank (DB04573).
+- Vérifier sur ClinicalTrials.gov que les essais NCT04209543 et NCT04090957 portent bien sur l'estétrol.
+- Préciser le sous-type d'aménorrhée visé (AHF ou insuffisance ovarienne prématurée) et rechercher des essais contrôlés spécifiques à l'estriol.
+- Évaluer la compatibilité des voies d'administration : les formes commercialisées sont surtout vaginales, plus un comprimé, alors qu'une indication systémique serait probablement nécessaire.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

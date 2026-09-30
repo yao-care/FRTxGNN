@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 87
+nav_order: 89
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,69 +29,66 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Cobicistat : De l'Amplificateur Pharmacocinétique HIV au Syndrome d'Immunodéficience Acquise Féline
+# Cobicistat : D'un booster pharmacocinétique du VIH-1 au syndrome d'immunodéficience acquise féline
 
 ## Résumé en Une Phrase
 
-Cobicistat est un inhibiteur sélectif du CYP3A4, utilisé comme agent d'amplification pharmacocinétique dans les combinaisons antirétrovirales pour le traitement du VIH chez l'humain. Le modèle TxGNN prédit qu'il pourrait être utile dans le **syndrome d'immunodéficience acquise féline (FIV)**, en s'appuyant sur la proximité phylogénétique entre le FIV et le VIH (tous deux appartenant à la famille des lentivirus). Cependant, **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction.
-
----
+Le cobicistat est un inhibiteur du CYP3A utilisé comme « booster » pharmacocinétique : il augmente l'exposition à certains antirétroviraux du VIH-1 (inhibiteurs de protéase et d'intégrase). Le modèle TxGNN prédit qu'il pourrait être utile dans le **syndrome d'immunodéficience acquise féline**. **Aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction : c'est une hypothèse de recherche.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Amplificateur pharmacocinétique dans les combinaisons anti-VIH (non approuvé en France en monothérapie) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (FIV) |
+|------|------|
+| Indication Originale | Non renseignée dans les AMM ; usage clinique : booster pharmacocinétique d'antirétroviraux (VIH-1) |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
 | Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier actuel. Sur la base des informations connues, cobicistat est un inhibiteur puissant et sélectif du CYP3A4 (et accessoirement de CYP2D6), sans activité antivirale intrinsèque. Son rôle clinique est exclusivement celui d'un « boosteur » pharmacocinétique : il ralentit le métabolisme des antirétroviraux co-administrés (ex. elvitégravir, atazanavir, darunavir), augmentant ainsi leur exposition plasmatique.
+Le cobicistat n'a pas d'activité antivirale propre. Il inhibe le CYP3A, l'enzyme qui métabolise de nombreux antirétroviraux, et permet ainsi de maintenir des concentrations efficaces de ces molécules. Les données détaillées sur son mécanisme d'action ne sont pas disponibles dans le dossier, et l'indication originale n'est pas renseignée dans les AMM.
 
-La relation entre l'indication originale (VIH) et la nouvelle indication prédite (FIV) repose sur une homologie virale : le virus de l'immunodéficience féline (FIV) est un lentivirus, tout comme le VIH. TxGNN exploite cette connexion dans son graphe de connaissances pour transposer l'association médicament–maladie. Cette inférence est biologiquement plausible en théorie, mais elle se heurte à une limite fondamentale : cobicistat n'agit pas directement contre le virus, il potentialise uniquement d'autres molécules antivirales. Son utilisation isolée dans le FIV serait donc sans effet thérapeutique direct.
+Le virus de l'immunodéficience féline (FIV) est un lentivirus apparenté au VIH-1. Une approche fondée sur un antirétroviral « boosté » est donc concevable. Tout bénéfice viendrait du renforcement d'un antiviral co-administré, et non du cobicistat seul. La pharmacocinétique féline et l'homologie du CYP3A chez le chat n'ont pas été vérifiées.
 
-Un obstacle supplémentaire est l'incertitude sur la conservation de l'enzyme CYP3A4 chez le chat (*Felis catus*), dont le profil métabolique diffère significativement de celui des primates. L'efficacité de l'inhibition enzychimique chez cette espèce n'a pas été évaluée. La prédiction relève donc d'une extrapolation graphique du modèle, sans ancrage mécanistique ou clinique démontré.
-
----
+Le même raisonnement vaut pour l'**infection par le virus de l'immunodéficience simienne (SIV)**, modèle animal du VIH chez les primates non humains. Son score TxGNN est identique (99,92 %), ce qui suggère un signal de voisinage commun dans le graphe de connaissances plutôt qu'une preuve indépendante. Une troisième prédiction, un trouble neurodéveloppemental rare avec ataxie, absence de parole et réduction de la substance blanche corticale (score 99,91 %), n'a aucun lien mécanistique identifiable avec l'inhibition du CYP3A. Elle est placée en attente (Hold).
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65768058 | STRIBILD 150 mg/150 mg/200 mg/245 mg | Comprimé pelliculé | Non renseignée dans les données |
+| 65453475 | GENVOYA 150 mg/150 mg/200 mg/10 mg | Comprimé pelliculé | Non renseignée dans les données |
+
+Les deux spécialités sont fabriquées par Gilead Sciences Ireland UC (Irlande). Ce sont des associations à dose fixe contenant du cobicistat.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN repose uniquement sur une inférence graphique (lentivirus VIH ↔ FIV), sans aucun soutien clinique, préclinique ou mécanistique. Cobicistat étant dépourvu d'activité antivirale propre, son repositionnement isolé dans le FIV est pharmacologiquement non fondé en l'état.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le cobicistat n'a pas d'effet antiviral propre et son bénéfice éventuel dépendrait d'un antiviral associé. Les données de sécurité de l'ANSM manquent également, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de mécanisme d'action complètes (MOA DrugBank) pour confirmer le profil enzymatique
-- Évaluation de la conservation du CYP3A4 félin et de sa sensibilité à l'inhibition par cobicistat
-- Identification d'un agent antiviral vétérinaire actif contre le FIV avec lequel cobicistat pourrait jouer un rôle de boosteur
-- Études précliniques chez le chat (*in vitro* ou modèle animal) avant toute considération clinique
-- Données de sécurité (avis en garde, contre-indications, interactions) pour compléter l'évaluation
+- Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour le criblage de sécurité
+- Obtenir les données de mécanisme d'action depuis DrugBank
+- Vérifier la pharmacocinétique féline et l'homologie du CYP3A chez le chat et le primate non humain
+- Identifier un antiviral partenaire pertinent pour le FIV ou le SIV, puis définir une étude préclinique de schéma « boosté »
+- Établir un rationnel au niveau de la cible pour le trouble neurodéveloppemental avant de reconsidérer cette prédiction
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

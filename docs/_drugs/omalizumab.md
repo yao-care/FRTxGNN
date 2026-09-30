@@ -2,7 +2,7 @@
 layout: default
 title: Omalizumab
 parent: Preuves modérées (L3-L4)
-nav_order: 220
+nav_order: 223
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,84 +29,87 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Omalizumab : De l'Asthme Allergique Severe a la Bronchite
+# Omalizumab : De l'asthme allergique à la bronchite
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Omalizumab est un anticorps monoclonal anti-IgE, historiquement associe au traitement de l'asthme allergique severe (les donnees precises d'indication d'origine et de MOA ne sont pas disponibles dans ce dossier — voir Data Gaps DG001/DG002 ci-dessous).
-Le modele TxGNN predit qu'il pourrait etre efficace pour la **Bronchite**,
-avec **2 essais cliniques** et **8 publications** identifies, mais ces preuves restent **indirectes** : les populations etudiees sont majoritairement asthmatiques, pas specifiquement des patients bronchitiques.
+L'omalizumab est un anticorps monoclonal anti-IgE, dont l'usage établi dans la littérature concerne l'asthme allergique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, mais seuls **2 essais cliniques** et **8 publications** y sont rattachés, et tous ne concernent cette indication que de façon indirecte.
 
----
+## Aperçu Rapide
 
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible dans ce dossier (donnee TFDA specifique manquante — voir DG001) |
-| Nouvelle Indication Predite | Bronchite |
-| Score de Prediction TxGNN | 99.9992% |
+| Indication Originale | Non renseignée dans les AMM françaises (texte d'indication vide). La littérature associe l'usage établi à l'asthme allergique. |
+| Nouvelle Indication Prédite | Bronchite |
+| Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 10 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, l'omalizumab se lie à l'IgE libre et diminue l'expression de FcεRI sur les mastocytes et les basophiles. Cela atténue l'inflammation allergique des voies aériennes, ce qui explique son efficacité dans l'asthme allergique modéré à sévère.
 
-Actuellement, les donnees detaillees sur le mecanisme d'action (MOA) et sur les indications d'origine ne sont pas disponibles dans ce dossier de preuves (Data Gaps DG001 — mises en garde/contre-indications TFDA — et DG002 — MOA DrugBank, toutes deux non resolues). Sur la base des informations generalement connues sur cette molecule, l'omalizumab est un anticorps monoclonal humanise dirige contre l'IgE, dont l'usage historique concerne l'asthme allergique severe persistant ; son efficacite dans cette indication a ete largement demontree, et mecanistiquement cela pourrait s'appliquer a d'autres pathologies inflammatoires des voies aeriennes.
+La bronchite n'est pas une maladie médiée par les IgE. Le lien avec la nouvelle indication est donc **indirect** : il passe par l'asthme allergique et le chevauchement asthme-BPCO (les publications sur ce chevauchement sont des cohortes ou des revues). Aucune donnée directe n'existe pour la bronchite proprement dite.
 
-Cliniquement, la « bronchite asthmatique » (notamment la bronchite eosinophilique) et l'asthme allergique partagent une inflammation des voies aeriennes mediee par les eosinophiles et l'IgE. Sur le plan theorique, un traitement anti-IgE pourrait donc beneficier a ce sous-type. Cependant, les essais cliniques fournis (NCT02477332, NCT02049294) portent en realite sur des populations d'asthmatiques et non sur la bronchite en tant qu'entite propre — il s'agit d'un lien indirect entre termes ontologiquement proches, et non d'une preuve directe. C'est ce qui explique le niveau de preuve L4 (preclinique/mecanistique) et le stade de decision precoce S1.
-
----
+Le seul signal un peu plus proche est un petit essai sur la bronchite éosinophilique persistante chez des patients asthmatiques (11 participants). Il ne suffit pas pour conclure. Le score TxGNN élevé reflète une proximité dans le graphe de connaissances et non une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
-| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Termine | 382 | Etude de determination de dose phase 2b (QGE031) en add-on chez l'urticaire chronique spontanee ; mecanisme lie mais population hors bronchite/asthme direct — preuve indirecte (grade B). |
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Termine | 11 | Effet d'epargne cortisonique de l'omalizumab chez patients avec asthme et bronchite eosinophilique persistante ; echantillon tres limite (n=11) — preuve faible (grade C). |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Terminé | 11 | Effet d'épargne de la corticothérapie (prednisone) sous omalizumab chez des patients avec asthme et bronchite éosinophilique persistante. Échantillon trop petit pour conclure. |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Terminé | 382 | Étude de détermination de dose du QGE031 (molécule anti-IgE apparentée) contre placebo et comparateur actif, dans l'urticaire chronique spontanée. Contexte indirect uniquement. |
 
----
+Aucun de ces essais ne teste l'omalizumab dans la bronchite en tant que telle.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Revue | Clin Rev Allergy Immunol | Approbation et experience post-approbation de l'omalizumab dans l'asthme (revue generale, non specifique a la bronchite). |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revue | Expert Opin Pharmacother | Defis de prise en charge de l'asthme associe aux maladies des voies respiratoires liees au tabagisme, incluant la bronchite chronique. |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohorte | Postepy Dermatol Alergol | Omalizumab chez patients d'age moyen/ages avec chevauchement asthme allergique severe-BPCO. |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Rapport de cas | J Investig Allergol Clin Immunol | Cas rare de bronchite plastique apres thermoplastie bronchique (evenement associe, pas efficacite therapeutique). |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Revue | Masui | Prise en charge preoperatoire des patients avec asthme bronchique ou bronchite chronique. |
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Non classifie | Curr Med Res Opin | Securite et tolerance de l'omalizumab chez les enfants avec asthme allergique. |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Non classifie | Allergol Immunopathol | Anticorps monoclonaux en pediatrie : utilisation en prevention et traitement (revue generale). |
-| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Non classifie | Rev Mal Respir | Exacerbations de l'asthme de l'adulte en questions. |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohorte | Postepy Dermatol Alergol | Les biothérapies de l'asthme sévère pourraient être utiles chez des patients d'âge moyen ou âgés ayant un asthme allergique sévère avec chevauchement BPCO. |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Analyse de sécurité | Curr Med Res Opin | Analyse groupée de la tolérance de l'omalizumab chez l'enfant asthmatique allergique. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revue | Expert Opin Pharmacother | Difficultés de prise en charge de l'asthme associé aux atteintes des voies aériennes liées au tabac (bronchite chronique, emphysème) ; ces patients sont exclus de la plupart des essais. |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Revue | Clin Rev Allergy Immunol | Approbation et expérience post-AMM de l'omalizumab dans l'asthme. |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Revue | Allergol Immunopathol | Mise à jour sur les anticorps monoclonaux en pédiatrie (prévention et traitement). |
+| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Revue | Rev Mal Respir | Définition, physiopathologie, traitement et coût des exacerbations d'asthme de l'adulte (groupe de travail français). |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Revue | Masui | Prise en charge préopératoire des patients asthmatiques ou atteints de bronchite chronique, incluant l'omalizumab. |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Rapport de cas | J Investig Allergol Clin Immunol | Cas rare de bronchite plastique après thermoplastie bronchique. |
 
----
+## Informations de Marché en France
 
-## Considerations de Securite
+Cinq AMM sur 10 sont présentées ci-dessous. Le texte d'indication n'est pas renseigné dans les données reçues.
 
-Veuillez consulter la notice pour les informations de securite.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66107946 | OMLYCLO 75 mg, solution injectable en seringue préremplie (Celltrion Healthcare Hungary) | Solution injectable | Non renseignée |
+| 62877141 | XOLAIR 75 mg, solution injectable en seringue préremplie (Novartis Europharm) | Solution injectable | Non renseignée |
+| 61771263 | XOLAIR 300 mg, solution injectable en seringue pré-remplie (Novartis Europharm) | Solution injectable | Non renseignée |
+| 61971520 | XOLAIR 150 mg, solution injectable en seringue préremplie (Novartis Europharm) | Solution injectable | Non renseignée |
+| 61112487 | XOLAIR 75 mg, solution injectable en stylo prérempli (Novartis Europharm) | Solution injectable | Non renseignée |
 
-*(Note : la mise en garde TFDA — DG001, severite Blocking — et le MOA DrugBank — DG002 — ne sont pas encore disponibles dans ce dossier, ce qui empeche actuellement toute evaluation de securite de niveau S1.)*
+## Considérations de Sécurité
 
----
+Veuillez consulter la notice pour les informations de sécurité.
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- L'evaluation de securite S1 est bloquee par l'absence des mises en garde/contre-indications TFDA (DG001, severite Blocking).
-- Le niveau de preuve pour la Bronchite reste L4 (mecanistique/preclinique) : les essais et la litterature disponibles portent majoritairement sur l'asthme, pas sur la bronchite en tant qu'entite distincte.
-- Le statut de recommandation source associe a cette indication est explicitement « Research Question », coherent avec un stade de decision precoce (S1).
+- Aucune preuve directe ne soutient l'omalizumab dans la bronchite. Les deux essais rattachés portent sur un petit échantillon (11 patients) ou sur une autre maladie, et la littérature concerne surtout l'asthme.
+- Le lien mécanistique est indirect, car la bronchite n'est pas une maladie dépendante des IgE.
+- Les informations de sécurité issues de la notice ANSM ne sont pas disponibles.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Obtenir la notice/les mises en garde TFDA (DG001) pour lever le blocage de l'evaluation de securite.
-- Obtenir les donnees detaillees de mecanisme d'action via DrugBank (DG002).
-- Identifier des essais cliniques cibles specifiquement sur la bronchite (et non uniquement sur l'asthme) afin de renforcer le lien mecanistique.
-- A titre indicatif : l'indication predite « obstructive lung disease » (rang 3 dans ce meme dossier) presente un niveau de preuve nettement superieur (L1, stade S3, recommandation « Proceed with Guardrails ») et pourrait constituer une piste prioritaire alternative a documenter separement.
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications). Cet élément est bloquant pour tout passage au criblage de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action (MOA), par exemple via l'API DrugBank.
+- Renseigner les indications approuvées de chaque AMM pour confirmer l'indication originale.
+- Définir le phénotype visé (bronchite éosinophilique, chevauchement asthme-BPCO) et rechercher des essais contrôlés dans ce sous-groupe.
+
+*Ces résultats sont fournis à titre de recherche et ne constituent pas un avis médical. Tout candidat de repositionnement nécessite une validation clinique avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

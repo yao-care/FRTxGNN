@@ -2,7 +2,7 @@
 layout: default
 title: Ivabradine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 159
+nav_order: 162
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,58 +29,70 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Ivabradine : Indication d'Origine Non Documentée vers l'Hypertrichose
+# Ivabradine : Du Blocage des Canaux HCN Cardiaques à l'Hypertrichose
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Les donnees disponibles ne permettent pas actuellement de documenter l'indication d'origine ni le mecanisme d'action complet d'ivabradine (lacune de donnees signalee, severite Blocking/High). Le modele TxGNN predit une efficacite potentielle pour l'**Hypertrichose**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction — il s'agit d'une prediction purement computationnelle (score TxGNN de 99,79 %, niveau de preuve L5).
+L'ivabradine est un médicament commercialisé en France qui bloque les canaux HCN (courant cardiaque If).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**, avec un score élevé (99,79 %).
+Cette prédiction n'est soutenue par **aucun essai clinique** et **aucune publication** : elle repose uniquement sur le modèle, et aucun lien mécanistique plausible n'a été identifié.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentee dans les donnees disponibles (lacune signalee) |
-| Nouvelle Indication Predite | Hypertrichose |
-| Score de Prediction TxGNN | 99,79 % |
+| Nouvelle Indication Prédite | Hypertrichose |
+| Score de Prédiction TxGNN | 99,79 % |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 3 |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM fournies, l'indication originale n'est donc pas indiquée ici.
 
-Actuellement, les donnees detaillees sur le mecanisme d'action et sur l'indication d'origine d'ivabradine ne sont pas disponibles dans ce dossier (lacunes signalees DG001 et DG002). Les seules informations mecanistiques disponibles proviennent des notes d'analyse associees a la prediction elle-meme : ivabradine est connu pour inhiber le canal HCN4 (courant If, dit "funny current") du noeud sino-atrial, ce qui reduit la frequence cardiaque.
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Or, selon ces memes notes d'analyse, il n'existe **aucun recoupement biologique connu** entre l'inhibition du canal HCN4 cardiaque et les voies de regulation de la croissance folliculaire impliquees dans l'hypertrichose. La prediction TxGNN repose donc sur un score de similarite eleve dans le graphe de connaissances, sans appui mecanistique, clinique ou bibliographique identifie a ce stade.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. On sait que l'ivabradine bloque les canaux HCN, responsables du courant cardiaque If, qui règle la fréquence du cœur.
+
+Aucun lien connu n'a été trouvé entre ce mécanisme et la croissance des poils. La biologie de canaux ioniques voisins, comme les canaux K-ATP dans l'hypertrichose du syndrome de Cantú, ne fait pas intervenir les canaux HCN. Le score élevé est donc probablement un artefact du graphe de connaissances et non une preuve indépendante.
+
+Les autres prédictions du modèle sont tout aussi peu étayées : hypertrichose congénitale d'Ambras (liée à la région TRPS1), anomalies génétiques de la tige pilaire, syndromes malformatifs dentaires ou parodontaux, syndromes avec malformation de Dandy-Walker et syndrome néphrogénique d'antidiurèse inappropriée (variants du récepteur V2 de la vasopressine). Aucune n'a de mécanisme plausible avec le blocage des canaux HCN. Plusieurs scores semblent refléter la proximité avec le nœud « hypertrichose » du graphe.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-Aucune litterature associee disponible actuellement.
+Aucune littérature associée disponible actuellement.
 
-## Informations de Marche en France
+Pour information, 20 publications ont été retrouvées pour une autre prédiction (malformations avec composante dentaire ou parodontale). Elles traitent de la parodontite en général et ne mentionnent ni l'ivabradine ni les canaux HCN. Elles ne constituent pas une preuve pour ce médicament.
 
-Ivabradine n'est actuellement **pas commercialise** en France selon les donnees disponibles (0 AMM recensee, aucune licence trouvee).
+## Informations de Marché en France
 
-## Considerations de Securite
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 63501124 | PROCORALAN 7,5 mg | Comprimé pelliculé | Les Laboratoires Servier |
+| 65486532 | IVABRADINE ALTER 7,5 mg | Comprimé | Laboratoires Alter |
+| 61952527 | PROCORALAN 5 mg | Comprimé pelliculé | Les Laboratoires Servier |
 
-Veuillez consulter la notice pour les informations de securite.
+## Considérations de Sécurité
 
-## Conclusion et Prochaines Etapes
+Veuillez consulter la notice pour les informations de sécurité.
 
-**Decision : Hold**
+## Conclusion et Prochaines Étapes
+
+**Décision : Hold**
 
 **Justification :**
-La prediction repose uniquement sur le score du modele TxGNN (niveau de preuve L5), sans essai clinique, sans publication et sans lien mecanistique identifie entre le mode d'action connu d'ivabradine et l'hypertrichose. De plus, l'absence de donnees sur l'indication d'origine, le MOA complet et le profil de securite (mises en garde, contre-indications, TFDA) empeche toute evaluation de securite initiale (S1).
+- La prédiction est de niveau L5 : score du modèle uniquement, sans essai, sans publication pertinente et sans mécanisme plausible.
+- Les données de sécurité de la notice ANSM manquent et bloquent le passage à l'étape de criblage de sécurité.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Recuperation du texte de notice/allegement TFDA (mises en garde, contre-indications) — lacune bloquante (DG001)
-- Confirmation du mecanisme d'action complet via l'API DrugBank (DG002)
-- Documentation de l'indication d'origine et du statut d'AMM d'ivabradine
-- Recherche exploratoire (preclinique/mecanistique) d'un lien plausible entre l'inhibition du canal HCN4 et la croissance pilaire, avant toute reevaluation
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indications approuvées).
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Rechercher une éventuelle piste biologique spécifique reliant les canaux HCN à la croissance pilaire, avant tout investissement supplémentaire.
+- Une fois ces éléments réunis, reprendre l'évaluation, sachant que le modèle seul ne justifie pas de progresser.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,15 +2,15 @@
 layout: default
 title: Oxiconazole
 parent: Preuves modérées (L3-L4)
-nav_order: 222
-evidence_level: L3
+nav_order: 225
+evidence_level: L4
 indication_count: 1
 ---
 
 # Oxiconazole
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **1** 
+Niveau de preuve: **L4** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,62 +31,71 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 # Oxiconazole : Des Mycoses Cutanées Superficielles à la Candidose Cutanée
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Oxiconazole est un antifongique topique de la classe des imidazolés, historiquement utilisé pour traiter les mycoses cutanées superficielles (dermatophytoses, candidoses cutanées).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Candidose Cutanée**,
-avec **0 essai clinique enregistré** et **5 publications** soutenant actuellement cette direction, dont un essai clinique comparatif historique.
+Oxiconazole est un antifongique imidazolé à usage topique. Les données fournies ne précisent pas son indication d'origine, mais la classe est utilisée dans les mycoses cutanées superficielles, notamment les dermatophytoses.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **candidose cutanée**.
+À ce jour, **aucun essai clinique** ne soutient cette direction, et seulement **5 publications** ont été retrouvées, dont la plupart portent sur d'autres antifongiques.
 
-## Aperçu Rapide
+## Apercu Rapide
 
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Indication Originale | Mycoses cutanées superficielles (usage topique antifongique) |
-| Nouvelle Indication Prédite | Candidose Cutanée |
-| Score de Prédiction TxGNN | 99.81% |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
+| Indication Originale | Non renseignée dans les données ANSM (usage habituel de la classe : mycoses cutanées superficielles) |
+| Nouvelle Indication Predite | Candidose cutanée |
+| Score de Prediction TxGNN | 99,81 % |
+| Niveau de Preuve | L4 |
+| Statut de Marche en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Decision Recommandee | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action officiel (fiche DrugBank structurée) ne sont pas disponibles dans ce rapport. Sur la base des informations pharmacologiques connues, l'oxiconazole est un antifongique imidazolé à usage topique, dont l'efficacité contre les mycoses cutanées superficielles est bien établie en pratique clinique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Le raisonnement ci-dessous repose donc sur les connaissances générales de la classe, et non sur les données fournies. Oxiconazole appartient aux antifongiques imidazolés. Cette classe inhibe la lanostérol 14-alpha-déméthylase (CYP51) du champignon. Cette inhibition appauvrit la membrane fongique en ergostérol et perturbe son intégrité.
 
-Mécanistiquement, l'oxiconazole inhibe l'enzyme fongique lanostérol 14α-déméthylase (CYP51), bloquant ainsi la biosynthèse de l'ergostérol et compromettant l'intégrité de la membrane cellulaire fongique. Cette action confère au médicament une activité fongicide/fongistatique directe contre *Candida albicans* et d'autres espèces du genre Candida.
+Les levures du genre *Candida* sont en général sensibles aux imidazolés. Le score élevé du modèle (99,81 %) est donc biologiquement plausible. L'usage habituel d'oxiconazole concerne surtout les dermatophytoses (teignes). La candidose cutanée pourrait donc être un usage hors AMM ou une lacune de l'étiquetage. Le texte d'indication de l'AMM française n'est pas renseigné, ce qui empêche de le confirmer.
 
-Ce mécanisme n'est pas une extrapolation indirecte : il s'agit du mode d'action pharmacologique central du médicament, ce qui explique la forte pertinence mécanistique entre l'usage antifongique d'origine de l'oxiconazole et la candidose cutanée prédite par TxGNN. L'indication prédite s'inscrit ainsi dans le prolongement naturel du spectre d'activité déjà connu de la molécule plutôt que dans une nouvelle classe thérapeutique.
+Il faut rester prudent : la littérature retrouvée concerne surtout d'autres molécules (terbinafine, bifonazole, naftifine) et des revues générales. Elle apporte un soutien indirect, pas une preuve spécifique à l'oxiconazole dans la candidose.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
+Aucun essai clinique associé n'est enregistré actuellement.
 
-## Preuves de la Littérature
+## Preuves de la Litterature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [6382000](https://pubmed.ncbi.nlm.nih.gov/6382000/) | 1984 | Essai Clinique Comparatif | Mykosen | Comparaison de l'oxiconazole (Ro 13-8996) et de l'econazole dans le traitement des dermatomycoses |
-| [24196340](https://pubmed.ncbi.nlm.nih.gov/24196340/) | 2013 | Revue | J Drugs Dermatol | Optimisation du traitement antifongique topique des infections fongiques cutanées superficielles, incluant les dermatophytoses |
-| [10439936](https://pubmed.ncbi.nlm.nih.gov/10439936/) | 1999 | Revue | Drugs | Mise à jour sur l'usage des antifongiques allylamines/imidazolés dans les mycoses superficielles, efficacité fongistatique sur *Candida albicans* |
-| [2670516](https://pubmed.ncbi.nlm.nih.gov/2670516/) | 1989 | Revue | Drugs | Activité antimicrobienne à large spectre des imidazolés topiques (dermatophytes, levures, champignons dimorphiques) dans les mycoses superficielles |
-| [7501581](https://pubmed.ncbi.nlm.nih.gov/7501581/) | 1995 | Revue | Postgrad Med | Approche diagnostique et thérapeutique des infections fongiques cutanées et candidosiques, traitement par antifongiques topiques |
+| [6382000](https://pubmed.ncbi.nlm.nih.gov/6382000/) | 1984 | Étude clinique comparative (conception non vérifiable à partir du titre) | Mykosen | Compare l'oxiconazole à l'éconazole dans les dermatomycoses. Pas de résumé disponible, donc résultats non vérifiables. Porte sur les dermatomycoses en général, pas spécifiquement sur la candidose. |
+| [24196340](https://pubmed.ncbi.nlm.nih.gov/24196340/) | 2013 | Revue | Journal of Drugs in Dermatology | Optimisation du traitement antifongique topique des infections fongiques cutanées superficielles (dermatophytes et levures), avec un accent sur la naftifine. Indirect. |
+| [7501581](https://pubmed.ncbi.nlm.nih.gov/7501581/) | 1995 | Revue (infections fongiques superficielles, indirect) | Postgraduate Medicine | Démarche diagnostique et traitement des teignes et de la candidose cutanée. De nombreux antifongiques topiques sont cités pour ces indications. |
+| [2670516](https://pubmed.ncbi.nlm.nih.gov/2670516/) | 1989 | Revue (bifonazole, imidazolé apparenté, indirect) | Drugs | Le bifonazole 1 % en application quotidienne unique est efficace et bien toléré dans les mycoses superficielles. Molécule différente. |
+| [10439936](https://pubmed.ncbi.nlm.nih.gov/10439936/) | 1999 | Revue (terbinafine, autre classe, indirect) | Drugs | La terbinafine est fongicide sur les dermatophytes et fongistatique sur *Candida albicans*. Molécule et classe différentes. |
 
-## Considérations de Sécurité
+## Informations de Marche en France
+
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
+|---------|------|------|-----------|
+| 60797376 | FONX 1 %, crème en tube (KARO PHARMA, Suède) | Crème | Non renseignée |
+
+## Considerations de Securite
 
 Veuillez consulter la notice pour les informations de sécurité.
 
-## Conclusion et Prochaines Étapes
+## Conclusion et Prochaines Etapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-Le mécanisme d'action de l'oxiconazole (inhibition directe de la synthèse de l'ergostérol fongique) constitue une base mécanistique forte et directe pour l'indication de candidose cutanée, mais aucun essai clinique n'est actuellement enregistré pour cette indication précise, et des lacunes de données bloquantes (仿單/mises en garde TFDA, statut réglementaire en France) empêchent une évaluation de sécurité complète.
+- La prédiction est plausible sur le plan pharmacologique, mais aucun essai clinique ne la soutient et la littérature disponible est essentiellement indirecte (niveau L4).
+- Les données de sécurité de la notice ANSM manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir les mises en garde et contre-indications officielles (notice/RCP) — actuellement une lacune bloquante (DG001)
-- Confirmer les indications d'origine et le MOA structuré via une source officielle (DrugBank complet) (DG002)
-- Vérifier l'existence d'une voie d'accès au marché français (produit actuellement non commercialisé, 0 AMM)
-- Envisager la conception d'un essai clinique dédié ou l'analyse rétrospective de données d'usage réel pour la candidose cutanée
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications) et le texte d'indication de l'AMM 60797376, afin de vérifier si la candidose cutanée est déjà couverte.
+- Obtenir les données sur le mécanisme d'action depuis DrugBank.
+- Rechercher des études spécifiques à l'oxiconazole dans la candidose cutanée, en particulier des essais comparatifs contre d'autres azolés topiques.
+- Confirmer la compatibilité de la voie d'administration (crème topique) avec l'usage visé.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

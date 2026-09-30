@@ -2,7 +2,7 @@
 layout: default
 title: Lorlatinib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 178
+nav_order: 181
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,79 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-Le skill TxGNN Pipeline est de nature opérationnelle (entraînement, déploiement) et ne s'applique pas ici. Je génère directement le rapport d'évaluation selon le format défini dans mon rôle d'expert.
-
----
-
-# Lorlatinib : Évaluation de Repositionnement — Prédictions Non Disponibles
+# Lorlatinib : Du CBNPC ALK-positif à la Fibromatose Gingivale
 
 ## Résumé en Une Phrase
 
-Lorlatinib (DB12130) est un inhibiteur de tyrosine kinase de 3ᵉ génération ciblant les kinases ALK et ROS1, développé pour le traitement des cancers bronchiques non à petites cellules (CBNPC) ALK-positifs.
-Le modèle TxGNN n'a généré **aucune indication prédite** pour ce candidat lors de l'analyse actuelle.
-En raison de plusieurs lacunes de données critiques — notamment l'absence de MOA structuré et d'indications originales dans l'Evidence Pack — une évaluation complète de repositionnement n'est pas réalisable à ce stade.
-
----
+Lorlatinib est un inhibiteur de tyrosine kinase de troisième génération (ALK/ROS1), pénétrant dans le cerveau. D'après la littérature fournie, il est utilisé dans le cancer bronchique non à petites cellules (CBNPC) ALK-positif ; le texte d'indication des AMM françaises n'est pas renseigné.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gingivale**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non renseignée dans l'Evidence Pack |
-| Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
-| Score de Prédiction TxGNN | Non disponible |
-| Niveau de Preuve | L5 — Aucune étude réelle associée |
-| Statut de Marché | Non commercialisé (données réglementaires fournies) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+|------|------|
+| Nouvelle Indication Prédite | Fibromatose gingivale |
+| Score de Prédiction TxGNN | 99,81 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Aucune Prédiction n'est-elle Disponible ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. Sur la base des informations connues, lorlatinib est un inhibiteur des kinases ALK et ROS1. Son efficacité dans le CBNPC ALK-positif est établie par la littérature fournie, notamment l'essai de phase 3 CROWN.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans cet Evidence Pack. Le pipeline de requêtes confirme que la source DrugBank a été interrogée avec succès (résultat : 1 entrée), mais les champs `original_moa` et `original_indications` n'ont pas été peuplés, ce qui indique une lacune dans l'étape de parsing ou d'enrichissement des données.
-
-Lorlatinib est un inhibiteur de tyrosine kinase de 3ᵉ génération actif sur ALK, ROS1 et MET, avec une pénétration démontrée dans le système nerveux central (SNC). Son usage clinique établi concerne le CBNPC ALK-positif en rechute après traitement par inhibiteur ALK de 1ʳᵉ ou 2ᵉ génération. Mécanistiquement, des repositionnements vers d'autres tumeurs solides présentant des fusions ou mutations de kinases ALK/ROS1 (neuroblastome, carcinome anaplasique de la thyroïde, cholangiocarcinome) seraient biologiquement plausibles — mais sans sorties formelles du modèle TxGNN, aucune conclusion ne peut être validée dans ce cadre.
-
-L'absence de prédictions peut résulter d'une intégration incomplète de Lorlatinib dans le graphe de connaissances biomédicales TxGNN, ou d'un seuil de score trop élevé filtrant les résultats.
-
----
+Pour la fibromatose gingivale, aucun lien mécanistique n'est établi. Aucun rôle d'ALK ou de ROS1 dans cette pathologie n'est documenté dans les données fournies. Le score élevé de TxGNN (0,998) reflète une prédiction du modèle et n'est corroboré par aucun essai ni aucune publication. Le lien avec l'indication d'origine reste à évaluer.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 63776483 | LORVIQUA 25 mg, comprimé pelliculé | Comprimé pelliculé | Pfizer Europe MA EEIG (Belgique) |
+| 66586838 | LORVIQUA 100 mg, comprimé pelliculé | Comprimé pelliculé | Pfizer Europe MA EEIG (Belgique) |
 
 ## Cytotoxicité
 
-> Lorlatinib est un médicament antinéoplasique de la classe des inhibiteurs de tyrosine kinase (ITK), actif dans les tumeurs à réarrangement ALK/ROS1.
-
 | Élément | Contenu |
-|---|---|
-| Classification de Cytotoxicité | Thérapie ciblée — Inhibiteur de tyrosine kinase ALK/ROS1/MET (3ᵉ génération, oral) |
-| Risque de Myélosuppression | Faible à modéré (moins marqué que la chimiothérapie cytotoxique conventionnelle) |
-| Classification d'Émétogénicité | Faible (ITK oraux, prise quotidienne) |
-| Éléments de Surveillance | Bilan lipidique (hypertriglycéridémie fréquente), ECG (allongement QTc), bilan hépatique, évaluation neuropsychiatrique (effets SNC), glycémie |
-| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques (comprimés entiers, ne pas écraser) |
+|------|------|
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase ALK/ROS1) |
 
----
+Pour le risque de myélosuppression, l'émétogénicité, les éléments de surveillance et la protection de manipulation, veuillez consulter les mises en garde et précautions de la notice.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice officielle pour les informations de sécurité complètes (avertissements, contre-indications et interactions médicamenteuses non disponibles dans cet Evidence Pack).
+Veuillez consulter la notice pour les informations de sécurité. Les mises en garde, les contre-indications et les interactions médicamenteuses ne sont pas disponibles dans les données fournies, et la notice ANSM n'a pas encore été analysée.
 
----
+À titre indicatif, la littérature récupérée pour d'autres indications prédites signale des événements indésirables du lorlatinib :
+- Effets métaboliques : hypercholestérolémie, hypertriglycéridémie, prise de poids.
+- Syndrome néphrotique associé à une hyperlipidémie.
+- Syndrome de détresse respiratoire aiguë (cas rapporté).
+- Événements indésirables du système nerveux central.
+- Toxicité pulmonaire en association avec un anticorps anti-GD2 (neuroblastome).
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le modèle TxGNN n'a produit aucune prédiction d'indication pour Lorlatinib, et les lacunes de données amont (MOA, indications originales, données de sécurité structurées) bloquent l'ensemble de la chaîne d'évaluation. Une décision de repositionnement ne peut être rendue sans output TxGNN valide.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et sans rationnel mécanistique plausible pour la fibromatose gingivale.
+- L'analyse de sécurité est bloquée faute de notice ANSM exploitable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indications autorisées) : lacune bloquante.
+- Obtenir les données de mécanisme d'action via DrugBank.
+- Identifier un rationnel biologique reliant ALK/ROS1 à la fibromatose gingivale, par exemple par des études précliniques, avant tout investissement clinique.
+- Priorité de recherche : parmi les autres prédictions du modèle, le carcinome du hile pulmonaire (rang 4, niveau L4, stade S1) est le plus plausible. Il repose sur un cas rapporté de réponse complète pathologique en néoadjuvant dans un cancer du poumon ALK-positif, sans preuve indépendante pour cette entité.
 
-- **[Bloquant]** Compléter le parsing DrugBank : récupérer `mechanism_of_action`, `categories`, et `indications` pour DB12130 via l'API DrugBank
-- **[Bloquant]** Relancer le pipeline TxGNN avec les données du graphe enrichies pour générer les scores de prédiction
-- **[Haute priorité]** Télécharger et analyser la notice officielle (ANSM / EMA pour Lorviqua®) afin de renseigner les avertissements et contre-indications
-- **[Haute priorité]** Vérifier le statut d'autorisation de mise sur le marché auprès de l'ANSM et intégrer les numéros d'AMM correspondants
-- **[Normale]** Collecter les données d'interactions médicamenteuses (DDI) — la requête actuelle a retourné `not_found`
-- **[Normale]** Revoir le seuil de score TxGNN si le médicament était intégré au graphe mais filtré en sortie
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

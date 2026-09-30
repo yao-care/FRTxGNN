@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sucralfate
-parent: Preuves modérées (L3-L4)
-nav_order: 286
-evidence_level: L3
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 290
+evidence_level: L5
 indication_count: 2
 ---
 
 # Sucralfate
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Niveau de preuve: **L3** | Indications prédites: **2**
 
 </div>
 
-# Sucralfate : De l'Ulcère Duodénal au Reflux Duodénogastrique
+# Sucralfate : Des Ulcères Gastroduodénaux au Reflux Duodéno-gastrique
 
 ## Résumé en Une Phrase
 
-Le sucralfate est un agent cytoprotecteur gastro-intestinal, traditionnellement utilisé dans la prise en charge de l'ulcère duodénal.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **reflux duodénogastrique**,
-avec **0 essai clinique enregistré** mais **13 publications** soutenant actuellement cette direction.
+Le sucralfate est un protecteur de la muqueuse digestive, connu pour le traitement des ulcères gastroduodénaux (les textes d'indication des AMM françaises ne sont pas renseignés dans les données fournies, cette information provient de la littérature). Le modèle TxGNN prédit qu'il pourrait être utile dans le **reflux duodéno-gastrique** (reflux alcalin ou biliaire). Cette piste repose sur **0 essai clinique enregistré** et **12 publications**, dont 2 essais randomisés anciens de petite taille.
 
 ---
 
@@ -43,29 +41,31 @@ avec **0 essai clinique enregistré** mais **13 publications** soutenant actuell
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ulcère duodénal *(donnée non présente dans le registre français — sucralfate non commercialisé ; classification pharmacologique connue)* |
-| Nouvelle Indication Prédite | Reflux duodénogastrique (duodenogastric reflux) |
-| Score de Prédiction TxGNN | 99.37 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Ulcères gastroduodénaux (d'après la littérature ; texte d'AMM non renseigné) |
+| Nouvelle Indication Prédite | Reflux duodéno-gastrique |
+| Score de Prédiction TxGNN | 99,37 % |
+| Niveau de Preuve | L3 (voir la note ci-dessous) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
 | Décision Recommandée | Hold |
+
+*Note sur le niveau de preuve : les données attribuent L2, mais les essais randomisés retrouvés ne portent aucune mention de phase. Selon la grille (L2 = essai de Phase 2/3 terminé), nous retenons L3 par prudence.*
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans cette Evidence Pack (data gap DG002). Sur la base des informations pharmacologiques connues, le sucralfate est un complexe d'hydroxyde d'aluminium et de sulfate de sucrose qui forme, en milieu acide, une barrière protectrice adhérente sur la muqueuse gastroduodénale lésée. Son efficacité dans l'ulcère duodénal repose sur cet effet cytoprotecteur local plutôt que sur une action antisécrétoire systémique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. D'après la pharmacologie connue, le sucralfate se polymérise en milieu acide et se fixe sur la muqueuse lésée, où il forme une barrière protectrice. Il adsorbe aussi les acides biliaires et la pepsine.
 
-Le reflux duodénogastrique correspond au passage rétrograde du contenu duodénal alcalin (bile, enzymes pancréatiques) vers l'estomac, provoquant une gastrite alcaline avec lésion de la muqueuse gastrique. Cette pathologie partage avec l'ulcère duodénal une même cible anatomique — la muqueuse gastroduodénale — et un même mécanisme lésionnel de type « barrière muqueuse compromise ». Il est donc mécanistiquement plausible que l'effet protecteur de surface du sucralfate, déjà démontré sur la muqueuse duodénale ulcérée, soit également applicable à la muqueuse gastrique exposée au reflux biliaire.
+Le reflux duodéno-gastrique correspond au passage rétrograde du contenu duodénal alcalin (bile) vers l'estomac. Il provoque une gastrite et parfois une œsophagite alcaline. Un médicament qui protège la muqueuse et fixe les sels biliaires est donc plausible pour cette indication. Le score TxGNN très élevé va dans le même sens.
 
-Cette hypothèse est renforcée par la littérature elle-même : plusieurs études publiées entre 1985 et 2003 ont directement testé le sucralfate dans la gastrite de reflux alcalin (post-chirurgicale ou primaire), avec des résultats globalement favorables sur les symptômes et les signes endoscopiques/histologiques.
+Cette hypothèse reste peu étayée sur le plan clinique. Les données disponibles sont anciennes (1985-2003) et portent sur de petits effectifs. Aucun essai n'est enregistré. La sécurité d'emploi de longue date du sucralfate rend toutefois un essai confirmatoire réalisable.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement (ClinicalTrials.gov et ICTRP : 0 résultat pour cette indication).
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
@@ -73,30 +73,33 @@ Aucun essai clinique associé enregistré actuellement (ClinicalTrials.gov et IC
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | ECR | Scand J Gastroenterol Suppl | Essai randomisé prospectif comparant sucralfate vs placebo dans la gastrite symptomatique liée au reflux duodénogastrique |
-| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | ECR | Am J Med | Essai randomisé en double aveugle : sucralfate (6 g/j) vs placebo chez 23 patients avec gastrite de reflux alcalin post-chirurgicale (Billroth I/II, vagotomie) |
-| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | ECR | Eur J Gastroenterol Hepatol | Essai randomisé : sucralfate vs rabéprazole vs absence de traitement dans la gastrite réactive alcaline post-cholécystectomie |
-| [17285081](https://pubmed.ncbi.nlm.nih.gov/17285081/) | 2006 | Revue | Journal de chirurgie | Revue de la physiopathologie, du diagnostic et de la prise en charge thérapeutique du reflux duodénogastrique et gastro-œsophagien biliaire |
-| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | Revue | Curr Treat Options Gastroenterol | Revue de l'œsophagite induite par le reflux duodénogastrique (alcaline) et de ses options thérapeutiques |
-| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | Revue | Annu Rev Med | Revue de la gastrite et de l'œsophagite de reflux alcalin, physiopathologie et prise en charge |
-| [3552846](https://pubmed.ncbi.nlm.nih.gov/3552846/) | 1987 | Revue | Gastroenterol Clin Biol | Bases pharmacologiques du traitement médical du reflux duodénogastrique |
-| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | Revue | Am J Gastroenterol | Revue du comité ACG sur les usages non-ulcéreux du sucralfate (gastrite, œsophagite, stomatite) |
-| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | Étude clinique | Minerva Gastroenterol Dietol | Comparaison cisapride vs sucralfate (4 g/j) chez 18 patients avec dyspepsie associée à une gastrite de reflux duodénogastrique |
-| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Série de cas | Eur J Pediatr | Description du reflux duodénogastrique primaire chez 6 enfants/adolescents, réfractaire au traitement antiacide classique |
+| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | ECR (double insu) | Am J Med | Sucralfate 6 g/j contre placebo pendant 6 semaines chez 23 patients avec symptômes de gastrite par reflux alcalin après chirurgie gastrique. Les critères étaient les symptômes, l'endoscopie et l'histologie. |
+| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | ECR | Eur J Gastroenterol Hepatol | Sucralfate contre rabéprazole ou absence de traitement dans la gastrite alcaline post-cholécystectomie. Les critères étaient les symptômes dyspeptiques et les signes endoscopiques/histologiques. Les résultats ne figurent pas dans l'extrait disponible. |
+| [3616071](https://pubmed.ncbi.nlm.nih.gov/3616071/) | 1987 | Série de cas | Rev Esp Enferm Apar Dig | Évaluation de 50 cas de gastrite par reflux biliaire post-chirurgical traités par sucralfate (pas de résumé disponible). |
+| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | Étude clinique | Minerva Gastroenterol Dietol | 18 patients avec dyspepsie et gastrite par reflux duodéno-gastrique : cisapride 30 mg/j (9 patients) contre sucralfate 4 g/j (9 patients) pendant 2 mois. |
+| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | Revue / aperçu clinique | Scand J Gastroenterol Suppl | Essai randomisé contre placebo (6 mois) dans la gastrite symptomatique. La comparaison du reflux gastro-œsophagien et du reflux duodéno-gastrique est discutée. |
+| [3552846](https://pubmed.ncbi.nlm.nih.gov/3552846/) | 1987 | Revue | Gastroenterol Clin Biol | Bases pharmacologiques du traitement médical du reflux duodéno-gastrique (pas de résumé disponible). |
+| [17285081](https://pubmed.ncbi.nlm.nih.gov/17285081/) | 2006 | Revue | J Chir | Physiopathologie, diagnostic (mesure biliaire sur 24 h) et prise en charge du reflux biliaire duodéno-gastrique et gastro-œsophagien. |
+| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | Revue | Curr Treat Options Gastroenterol | Œsophagite alcaline par reflux duodéno-gastrique. Les inhibiteurs de la pompe à protons constituent le meilleur traitement médical, et la prise en charge reste difficile. |
+| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | Revue | Annu Rev Med | Gastrite et œsophagite par reflux alcalin (biliaire) : causes, tableau clinique et diagnostic. |
+| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | Avis d'experts | Am J Gastroenterol | Usages non ulcéreux du sucralfate (gastrite, œsophagite, stomatite) : prometteurs mais non clairement établis, des études complémentaires sont nécessaires. |
 
 ---
 
 ## Informations de Marché en France
 
-Le sucralfate n'est actuellement associé à aucune AMM active dans le registre consulté (statut : non commercialisé, 0 licence).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
+|---------|------|------|-----------|
+| 69428971 | KEAL 1 g, comprimé sécable | Comprimé sécable | EXOD |
+| 64577534 | ULCAR 1 g, suspension buvable en sachet | Suspension buvable | SANOFI WINTHROP INDUSTRIE |
+| 60602431 | KEAL 2 g, suspension buvable en sachet | Suspension buvable | EXOD |
+| 68928009 | KEAL 1 g, suspension buvable en sachet | Suspension buvable | EXOD |
 
 ---
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
-*Note : la collecte des données TFDA/ANSM relatives aux mises en garde et contre-indications (DG001) est actuellement bloquante et n'a pas pu être complétée.*
 
 ---
 
@@ -105,13 +108,14 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-La piste mécanistique est cohérente (barrière protectrice muqueuse gastroduodénale) et soutenue par plusieurs études randomisées anciennes évaluant directement le sucralfate dans la gastrite de reflux alcalin. Toutefois, aucun essai clinique enregistré ne couvre l'indication prédite, le médicament n'est pas commercialisé en France, et la donnée de sécurité réglementaire (TFDA/notice) est manquante et classée bloquante (DG001) — ce dossier ne peut pas franchir l'évaluation de sécurité S1 en l'état.
+- Le soutien clinique se limite à quelques petites études anciennes, sans essai enregistré, et les données de sécurité de la notice ANSM manquent (lacune bloquante pour le criblage de sécurité). À ce stade, il s'agit d'une question de recherche et non d'une recommandation clinique.
+- La seconde prédiction, l'**obstruction duodénale** (score 99,30 %), est classée L5 et Hold. Aucun mécanisme ne relie le sucralfate à ce trouble, et la littérature retrouvée porte sur les ulcères, en partie chez l'animal.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice/les mises en garde réglementaires (DG001, bloquant)
-- Compléter les données de mécanisme d'action détaillées (DG002)
-- Vérifier la faisabilité réglementaire d'une entrée sur le marché français ou d'une importation
-- Envisager un essai prospectif contrôlé ciblant spécifiquement le reflux duodénogastrique (aucun essai enregistré à ce jour)
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), puis les textes d'indication des 4 AMM
+- Compléter les données de mécanisme d'action via DrugBank
+- Lire les textes intégraux des ECR de 1985 et 2003, dont les résultats manquent dans les extraits, et évaluer leur qualité
+- Si les résultats sont favorables, concevoir un essai confirmatoire de puissance suffisante, avec un critère objectif (mesure biliaire gastrique sur 24 h, histologie)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

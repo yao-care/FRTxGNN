@@ -2,7 +2,7 @@
 layout: default
 title: Alfentanil
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 21
+nav_order: 22
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,87 +29,69 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# ALFENTANIL : Rapport d'Évaluation de Repositionnement
+# Alfentanil : D'un adjuvant anesthésique (indication d'AMM non renseignée) au syndrome néphrogénique d'antidiurèse inappropriée
 
 ## Résumé en Une Phrase
 
-ALFENTANIL (DrugBank : DB00802) est un analgésique opioïde synthétique puissant à courte durée d'action, utilisé principalement comme adjuvant en anesthésie générale. **Aucune nouvelle indication n'a été prédite par le modèle TxGNN** pour ce médicament. Les données disponibles sont actuellement très limitées : le médicament n'est pas commercialisé en France, aucune AMM n'a été identifiée, et plusieurs lacunes de données critiques persistent.
-
----
+Alfentanil est un agoniste opioïde µ de courte durée d'action, utilisé en contexte d'anesthésie et de soins aigus. Les données réglementaires disponibles ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée (NSIAD)**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (données non disponibles) |
-| Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | L5 — Aucune preuve disponible |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
-
----
+| Indication Originale | Non renseignée (texte d'indication vide dans les AMM) |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (NSIAD) |
+| Score de Prédiction TxGNN | 99,51 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, **aucune nouvelle indication n'a été prédite** par le modèle TxGNN pour l'alfentanil. En l'absence de prédiction, aucune analyse de plausibilité mécanistique ne peut être réalisée.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier, et DrugBank ne liste aucune indication d'origine. Alfentanil est un agoniste des récepteurs opioïdes µ, à action courte. Ses effets passent principalement par la signalisation opioïde centrale.
 
-> Les données détaillées sur le mécanisme d'action (MOA) ne sont pas disponibles dans l'Evidence Pack actuel. D'après les connaissances pharmacologiques générales, l'alfentanil est un agoniste des récepteurs opioïdes μ (mu), appartenant à la famille des 4-anilidopipéridines (comme le fentanyl et le sufentanil). Son action analgésique est médiée par la liaison aux récepteurs opioïdes du système nerveux central. Son profil pharmacocinétique — délai d'action rapide et courte durée — le rend particulièrement adapté aux procédures anesthésiques de courte durée.
+**Cette prédiction ne repose sur aucun lien mécanistique étayé.** Le NSIAD est causé par des variants activateurs (gain de fonction) du gène *AVPR2*, qui codent le récepteur V2 de la vasopressine. Ce récepteur est activé indépendamment de l'hormone, avec une vasopressine (AVP) indétectable. L'agonisme µ-opioïde est plutôt associé à une libération d'AVP, ce qui n'a pas de pertinence quand le défaut est un récepteur constitutivement actif, en aval de l'AVP.
 
-Sans prédiction d'indication cible, l'évaluation de la transférabilité mécanistique ne peut pas être poursuivie à ce stade.
-
----
+Une voie thérapeutique plausible passerait par un antagonisme du récepteur V2 ou par un autre effet sur la réabsorption rénale de l'eau. Aucune action de ce type n'est documentée pour l'alfentanil. Ce médicament est par ailleurs un adjuvant anesthésique d'usage aigu, ce qui rend peu vraisemblable son emploi dans une maladie génétique chronique. Le score élevé est probablement un artefact du graphe de connaissances et ne doit pas être considéré comme une preuve.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé à une nouvelle indication repositionnée n'est enregistré actuellement.
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée à une nouvelle indication repositionnée n'est disponible actuellement.
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| — | — | — | Aucune AMM identifiée |
+| 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | Non renseignée |
+| 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | Non renseignée |
 
-> L'alfentanil n'est actuellement pas commercialisé en France (statut : **非上市**). Aucune autorisation de mise sur le marché n'a été retrouvée dans les bases de données réglementaires consultées.
-
----
+Les deux AMM appartiennent à PIRAMAL CRITICAL CARE (Pays-Bas).
 
 ## Considérations de Sécurité
 
-> Veuillez consulter la notice pour les informations de sécurité.
-
-**Note :** Les données de sécurité suivantes n'ont pas pu être récupérées et constituent des lacunes critiques :
-
-- **Mises en garde principales** : Données non disponibles — nécessite la consultation de la notice officielle (sévérité : Bloquante)
-- **Contre-indications** : Données non disponibles — nécessite la consultation de la notice officielle
-- **Interactions médicamenteuses** : Aucune interaction identifiée dans les sources consultées (0 résultat)
-
-⚠️ **En tant qu'opioïde puissant, l'alfentanil présente des risques connus de dépression respiratoire, de rigidité musculaire et de dépendance. Une consultation des monographies officielles est indispensable avant toute évaluation approfondie.**
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-L'absence totale de prédiction TxGNN pour de nouvelles indications, combinée aux lacunes de données critiques (MOA, mises en garde réglementaires, absence d'AMM en France), ne permet pas de poursuivre l'évaluation de repositionnement. Le médicament n'est pas commercialisé sur le marché français, ce qui constitue un obstacle supplémentaire à toute démarche de repositionnement.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication. Le mécanisme connu de l'alfentanil (agonisme µ-opioïde) ne rejoint pas la physiopathologie du NSIAD (récepteur V2 activé de façon constitutive).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- ⬜ Obtenir les données détaillées sur le mécanisme d'action (MOA) via l'API DrugBank
-- ⬜ Récupérer les mises en garde et contre-indications depuis la notice officielle (sévérité : **Bloquante**)
-- ⬜ Vérifier si le modèle TxGNN peut générer des prédictions avec des paramètres ajustés ou des données d'entrée enrichies
-- ⬜ Évaluer la faisabilité réglementaire d'une mise sur le marché en France avant toute étude de repositionnement
-- ⬜ Compléter le profil d'interactions médicamenteuses (DDI) via des sources complémentaires (Thériaque, Vidal, etc.)
+- La notice ANSM (mises en garde et contre-indications), indispensable au criblage de sécurité initial. Cette lacune est bloquante.
+- Les données sur le mécanisme d'action, à interroger via l'API DrugBank.
+- Les indications d'origine des deux AMM, absentes du dossier.
+- Un lien mécanistique documenté avec la voie AVPR2 / réabsorption rénale de l'eau, ou des données précliniques qui le soutiennent.
+- Une évaluation de la compatibilité de la voie d'administration (statut actuellement en attente), l'alfentanil n'existant ici qu'en solution injectable.
+
+*Les résultats de ce rapport sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

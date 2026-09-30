@@ -2,15 +2,15 @@
 layout: default
 title: Rilpivirine
 parent: Preuves modérées (L3-L4)
-nav_order: 259
-evidence_level: L3
+nav_order: 263
+evidence_level: L4
 indication_count: 5
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **5** 
+Niveau de preuve: **L4** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,70 @@ Niveau de preuve: **L3** | Indications prédites: **5**
 
 </div>
 
-# Rilpivirine : De l'Infection par le VIH-1 a l'Infection par le Virus de l'Immunodeficience Simienne (VIS)
+# Rilpivirine : Du VIH-1 à l'Infection par le Virus de l'Immunodéficience Simienne
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Rilpivirine (DB08864) est un inhibiteur non nucleosidique de la transcriptase inverse (INNTI) utilise comme piece centrale des traitements antiretroviraux contre le VIH-1 chez l'humain.
-Le modele TxGNN predit en tete de liste une activite contre l'**infection par le virus de l'immunodeficience simienne (VIS)** — un lentivirus apparente au VIH-1 utilise comme modele animal de recherche —
-avec **0 essai clinique** et **4 publications**, toutes precliniques ou de revue, soutenant cette direction.
+Rilpivirine est un inhibiteur non nucléosidique de la transcriptase inverse (INNTI), utilisé contre l'infection par le VIH-1.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le virus de l'immunodéficience simienne (SIV)**, mais **aucun essai clinique** ne le soutient. Seules **4 publications** existent, toutes précliniques ou de synthèse, et elles portent sur des modèles animaux du VIH.
 
----
+## Aperçu Rapide
 
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH-1 (traitement antiretroviral) — deduite des donnees d'essais cliniques du dossier ; pas de source AMM France (medicament non commercialise) |
-| Nouvelle Indication Predite | Infection par le virus de l'immunodeficience simienne (VIS) |
-| Score de Prediction TxGNN | 99.97% |
-| Niveau de Preuve | L3 |
-| Statut de Marche en France | ✗ Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
+| Score de Prédiction TxGNN | 99,97 % |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, la rilpivirine est un INNTI qui inhibe la transcriptase inverse du VIH-1. Son usage dans l'infection par le VIH-1 est établi, et elle est commercialisée en France sous deux spécialités (Rekambys en injectable à libération prolongée, Eviplera en association fixe). Le texte de l'indication approuvée n'est pas renseigné dans les données réglementaires. L'indication d'origine (VIH-1) découle donc de l'analyse du mécanisme et non des AMM.
 
-Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles dans ce dossier (DG002). Sur la base des informations presentes dans les essais cliniques recenses, rilpivirine (TMC278) appartient a la classe des inhibiteurs non nucleosidiques de la transcriptase inverse (INNTI), utilisee comme composant central des traitements antiretroviraux contre le VIH-1 chez l'humain, seule ou en association fixe avec cabotegravir ou dolutegravir (cf. essais NCT02938520, NCT02429791). Son efficacite dans le VIH-1 est bien etablie par de multiples essais de Phase 3.
+Le lien avec le SIV est indirect. Les macaques infectés par le SIV ou par des virus chimériques SHIV sont des modèles précliniques standard pour étudier le VIH-1. Les études trouvées relèvent donc de la recherche sur le VIH plutôt que d'une nouvelle indication chez l'humain.
 
-Le virus de l'immunodeficience simienne (VIS/SIV) est un lentivirus proche du VIH-1, utilise comme modele animal standard pour la recherche translationnelle sur le VIH chez le macaque. Rilpivirine, du fait de son activite sur la transcriptase inverse virale, montre une activite antivirale documentee contre des souches chimeriques SIV/VIH (RT-SHIV) chez le macaque, notamment dans des etudes de prophylaxie pre- et post-exposition (PrEP/PEP) a action prolongee (formulation "long-acting", souvent en association avec cabotegravir).
-
-Il est cependant essentiel de souligner que le VIS **n'est pas une maladie humaine** mais un modele animal experimental. Les 4 publications disponibles sont toutes des etudes precliniques chez le macaque (a l'exception d'une revue de synthese), et aucun essai clinique n'existe sur cette indication precise. Cette prediction TxGNN reflete donc une proximite mecanistique/virologique entre deux virus apparentes plutot qu'une veritable nouvelle indication therapeutique humaine directement exploitable.
-
----
+Il faut aussi retenir que le SIV est naturellement résistant aux INNTI. Une activité de la rilpivirine sur la transcriptase inverse du SIV n'est donc pas garantie. Les études utilisent des constructions RT-SHIV, qui contiennent la transcriptase inverse du VIH-1, et c'est ce choix qui rend la rilpivirine testable dans ces modèles. Le score élevé de TxGNN doit donc être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement pour l'indication "simian immunodeficiency virus infection".
+Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la Littérature
 
-## Preuves de la Litterature
-
-| PMID | Annee | Type | Revue | Resultats Principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [29746267](https://pubmed.ncbi.nlm.nih.gov/29746267/) | 2018 | Revue | Current Opinion in HIV and AIDS | Revue sur le cabotegravir (inhibiteur d'integrase) pour traitement/PrEP du VIH ; rilpivirine mentionnee comme comparateur INNTI de contexte |
-| [26438501](https://pubmed.ncbi.nlm.nih.gov/26438501/) | 2015 | Preclinique (modele animal) | Antimicrobial Agents and Chemotherapy | Rilpivirine longue action en PrEP chez des macaques infectes par un SIV chimerique portant la RT du VIH-1 : faible frequence de variants resistants selectionnes |
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinique (modele animal) | Nature Communications | Traitement precoce + cabotegravir/rilpivirine longue action associe a une remission durable du SHIV chez le macaque |
-| [41370971](https://pubmed.ncbi.nlm.nih.gov/41370971/) | 2026 | Preclinique (modele animal) | EBioMedicine | Evaluation preclinique de cabotegravir/rilpivirine longue action en prophylaxie post-exposition (PEP) chez le macaque |
+| [26438501](https://pubmed.ncbi.nlm.nih.gov/26438501/) | 2015 | Préclinique (macaque) | Antimicrob Agents Chemother | Faible fréquence de variants résistants sélectionnés par la rilpivirine à action prolongée chez des macaques infectés par un SIV contenant la transcriptase inverse du VIH-1, dans un contexte de prophylaxie pré-exposition |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Préclinique (macaque) | Nat Commun | Rémission du SHIV chez des macaques avec un traitement précoce associant emtricitabine/ténofovir alafénamide par voie orale et cabotégravir/rilpivirine à action prolongée |
+| [41370971](https://pubmed.ncbi.nlm.nih.gov/41370971/) | 2026 | Préclinique (macaque) | EBioMedicine | Évaluation préclinique d'une injection unique de cabotégravir et rilpivirine à action prolongée comme prophylaxie post-exposition au VIH |
+| [29746267](https://pubmed.ncbi.nlm.nih.gov/29746267/) | 2018 | Revue | Curr Opin HIV AIDS | Revue des preuves précliniques et cliniques du cabotégravir pour le traitement antirétroviral et la prophylaxie pré-exposition (concerne surtout le cabotégravir, donc indirecte pour la rilpivirine) |
 
----
+## Informations de Marché en France
 
-## Informations de Marche en France
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 60150638 | REKAMBYS 900 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée |
+| 63578537 | EVIPLERA 200 mg/25 mg/245 mg, comprimé pelliculé | Comprimé pelliculé |
 
-Rilpivirine n'est actuellement pas commercialise en France : 0 AMM enregistree dans ce dossier. Aucune information de licence disponible.
+## Considérations de Sécurité
 
----
+Veuillez consulter la notice pour les informations de sécurité.
 
-## Considerations de Securite
+## Conclusion et Prochaines Étapes
 
-Veuillez consulter la notice pour les informations de securite. Le dossier signale une lacune bloquante (DG001) : les mises en garde, contre-indications et interactions medicamenteuses TFDA n'ont pas pu etre recuperees, ce qui empeche toute evaluation de securite initiale (S1) pour cette piste.
-
----
-
-## Conclusion et Prochaines Etapes
-
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- La piste en tete de classement (infection par le VIS) affiche un niveau de preuve L3, sans aucun essai clinique, uniquement des etudes precliniques chez le macaque sur un virus qui n'affecte pas l'humain — elle n'est donc pas directement actionnable en developpement clinique.
-- L'absence totale de donnees de securite TFDA (DG001, bloquant) et de MOA detaille (DG002) rend toute progression premature.
-- A titre de comparaison, dans le meme dossier, deux autres pistes affichent un niveau de preuve nettement superieur : "AIDS related complex" (rang 4) et "infection VIH congenitale" (rang 5), toutes deux L1 avec plusieurs essais de Phase 3 completes et une recommandation "Proceed with Guardrails" — ce sont des pistes bien plus matures si l'objectif est un reel repositionnement chez l'humain.
+- Les preuves se limitent à des études précliniques chez le macaque et à une revue. Il n'y a aucun essai clinique, et la résistance naturelle du SIV aux INNTI limite la portée de la prédiction. Les données de sécurité issues de la notice de l'ANSM manquent également, ce qui bloque l'étape de criblage de sécurité.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Recuperer la notice TFDA (mises en garde, contre-indications) — DG001, bloquant pour l'etape S1
-- Recuperer le mecanisme d'action detaille via l'API DrugBank — DG002
-- Si la piste VIS est maintenue, clarifier qu'il s'agit de recherche translationnelle sur le VIH et non d'un usage clinique pour une maladie animale, avant toute decision reglementaire
-- Envisager une evaluation dediee des pistes rang 4 et rang 5 (niveau de preuve L1, essais de Phase 3 completes), plus prometteuses pour un repositionnement humain
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Les mises en garde et contre-indications de la notice de l'ANSM (récupération et analyse du PDF)
+- Les données détaillées sur le mécanisme d'action, à obtenir via l'API DrugBank
+- La confirmation de l'activité de la rilpivirine sur la transcriptase inverse des constructions SHIV utilisées
+- Une clarification de la finalité : cette prédiction relève d'un modèle de recherche sur le VIH, non d'une indication humaine
+
+*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat de repositionnement nécessite une validation clinique avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-28T14:13:34.981433+00:00",
-  "drug_count": 642,
-  "indication_count": 1442,
+  "generated": "2026-09-30T00:24:22.922902+00:00",
+  "drug_count": 646,
+  "indication_count": 1447,
   "drugs": [
     {
       "name": "Abacavir",
       "slug": "abacavir",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -32,7 +32,7 @@
       "slug": "abatacept",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid vasculitis",
@@ -157,6 +157,65 @@
       "indications": []
     },
     {
+      "name": "Acyclovir",
+      "slug": "acyclovir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "punctate epithelial keratoconjunctivitis",
+          "score": 99.67,
+          "level": "L5"
+        },
+        {
+          "name": "common wart",
+          "score": 99.46,
+          "level": "L5"
+        },
+        {
+          "name": "post-infectious neuralgia",
+          "score": 99.25,
+          "level": "L5"
+        },
+        {
+          "name": "hepatitis C induced liver cirrhosis",
+          "score": 99.23,
+          "level": "L5"
+        },
+        {
+          "name": "eosinophilic pustular folliculitis",
+          "score": 99.22,
+          "level": "L5"
+        },
+        {
+          "name": "sequela of COVID-19",
+          "score": 99.16,
+          "level": "L5"
+        },
+        {
+          "name": "vulvovaginal candidiasis",
+          "score": 99.11,
+          "level": "L5"
+        },
+        {
+          "name": "papular urticaria",
+          "score": 99.09,
+          "level": "L5"
+        },
+        {
+          "name": "disease of orbital region",
+          "score": 99.08,
+          "level": "L5"
+        },
+        {
+          "name": "epidemic keratoconjunctivitis",
+          "score": 99.07,
+          "level": "L5"
+        }
+      ]
+    },
+    {
       "name": "Adalimumab",
       "slug": "adalimumab",
       "brands": [],
@@ -228,7 +287,7 @@
       "slug": "albendazole",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L2",
       "indications": [
         {
           "name": "alveolar echinococcosis",
@@ -426,7 +485,7 @@
       "slug": "allopurinol",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "hepatic porphyria",
@@ -485,7 +544,7 @@
       "slug": "almitrine",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "bronchitis",
@@ -499,7 +558,7 @@
       "slug": "alprazolam",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "insomnia (disease)",
@@ -523,7 +582,7 @@
       "slug": "alprostadil",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "aortic malformation",
@@ -649,7 +708,7 @@
       "slug": "ambroxol",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "nasal cavity disease",
@@ -781,7 +840,7 @@
       "slug": "amiodarone",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "catecholaminergic polymorphic ventricular tachycardia",
@@ -895,11 +954,30 @@
       ]
     },
     {
+      "name": "Ammonium Chloride",
+      "slug": "ammonium_chloride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "acute laryngopharyngitis",
+          "score": 99.94,
+          "level": "L5"
+        },
+        {
+          "name": "nasal cavity disease",
+          "score": 99.94,
+          "level": "L5"
+        }
+      ]
+    },
+    {
       "name": "Amsacrine",
       "slug": "amsacrine",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "hyperthyroidism",
@@ -933,7 +1011,7 @@
       "slug": "anakinra",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "extracutaneous mastocytoma",
@@ -1045,7 +1123,7 @@
       "slug": "arginine",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "gastroparesis (disease)",
@@ -1216,7 +1294,7 @@
       "slug": "atazanavir",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "feline acquired immunodeficiency syndrome",
@@ -1392,7 +1470,7 @@
       "slug": "axitinib",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions",
@@ -1451,7 +1529,7 @@
       "slug": "azathioprine",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
@@ -1588,7 +1666,7 @@
       "slug": "benralizumab",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "thrombocytopenia due to immune destruction",
@@ -1695,7 +1773,7 @@
       "slug": "bicalutamide",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "hypertrichosis (disease)",
@@ -1754,7 +1832,7 @@
       "slug": "bimatoprost",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "malformation syndrome with odontal and/or periodontal component",
@@ -2126,7 +2204,7 @@
       "slug": "cabergoline",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L4",
       "indications": [
         {
           "name": "pituitary adenocarcinoma (disease)",
@@ -2160,7 +2238,7 @@
       "slug": "calcitriol",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "obsolete vitamin D deficiency",
@@ -2204,7 +2282,7 @@
       "slug": "canakinumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "hepatic infarction",
@@ -2263,7 +2341,7 @@
       "slug": "caplacizumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "primary release disorder of platelets",
@@ -2322,7 +2400,7 @@
       "slug": "captopril",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "malignant renovascular hypertension",
@@ -2375,7 +2453,7 @@
       "slug": "carfilzomib",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "CMM7",
@@ -2468,7 +2546,7 @@
       "slug": "chlorambucil",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
@@ -2517,7 +2595,7 @@
       "slug": "chlorpromazine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "retinal dystrophy with or without extraocular anomalies",
@@ -2576,7 +2654,7 @@
       "slug": "ciprofibrate",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "hyperlipoproteinemia",
@@ -2772,7 +2850,7 @@
       "slug": "clioquinol",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "cutaneous candidiasis",
@@ -2934,7 +3012,7 @@
       "slug": "clofazimine",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "pneumocystosis",
@@ -2958,7 +3036,7 @@
       "slug": "clomipramine",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L2",
       "indications": [
         {
           "name": "anxiety disorder",
@@ -3017,7 +3095,7 @@
       "slug": "clonidine",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "faciodigitogenital syndrome",
@@ -3432,7 +3510,7 @@
       "slug": "cytarabine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "small cell lung carcinoma",
@@ -3486,7 +3564,7 @@
       "slug": "dacarbazine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "upper aerodigestive tract neoplasm",
@@ -3597,7 +3675,7 @@
       "slug": "darunavir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -3626,7 +3704,7 @@
       "slug": "dasatinib",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "Ewing sarcoma",
@@ -22550,7 +22628,7 @@
       "slug": "desloratadine",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "cold urticaria",
@@ -22648,7 +22726,7 @@
       "slug": "difluprednate",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "familial adrenal hypoplasia with absent pituitary luteinizing hormone",
@@ -22754,7 +22832,7 @@
       "slug": "dipyridamole",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "Prinzmetal angina",
@@ -22868,11 +22946,30 @@
       ]
     },
     {
+      "name": "Docusate",
+      "slug": "docusate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Plummer-Vinson syndrome",
+          "score": 99.18,
+          "level": "L5"
+        },
+        {
+          "name": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+          "score": 99.15,
+          "level": "L5"
+        }
+      ]
+    },
+    {
       "name": "Doravirine",
       "slug": "doravirine",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -22955,7 +23052,7 @@
       "slug": "dupilumab",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "bronchitis",
@@ -23132,7 +23229,7 @@
       "slug": "elbasvir",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "hepatitis B virus infection",
@@ -23191,7 +23288,7 @@
       "slug": "emtricitabine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "feline acquired immunodeficiency syndrome",
@@ -23274,7 +23371,7 @@
       "slug": "enzalutamide",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "prostate cancer/brain cancer susceptibility",
@@ -23377,7 +23474,7 @@
       "slug": "eptinezumab",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "migraine with brainstem aura",
@@ -23430,7 +23527,7 @@
       "slug": "estazolam",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L2",
       "indications": [
         {
           "name": "insomnia (disease)",
@@ -23503,7 +23600,7 @@
       "slug": "famciclovir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "post-infectious neuralgia",
@@ -23654,7 +23751,7 @@
       "slug": "filgrastim",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "primary release disorder of platelets",
@@ -23868,7 +23965,7 @@
       "slug": "flunarizine",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "migraine disorder",
@@ -24000,7 +24097,7 @@
       "slug": "gemfibrozil",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid arthritis",
@@ -24059,7 +24156,7 @@
       "slug": "glucagon",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "irritable bowel syndrome",
@@ -24132,7 +24229,7 @@
       "slug": "glycine",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "nasal cavity disease",
@@ -24263,7 +24360,7 @@
       "slug": "hydrocortisone",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L3",
       "indications": [
         {
           "name": "alopecia areata",
@@ -24322,7 +24419,7 @@
       "slug": "hydroxyzine",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L4",
       "indications": [
         {
           "name": "allergic urticaria",
@@ -24356,7 +24453,7 @@
       "slug": "ifosfamide",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "female breast carcinoma",
@@ -24469,7 +24566,7 @@
       "slug": "imatinib",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "heart fibrosarcoma",
@@ -24528,7 +24625,7 @@
       "slug": "imipramine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "attention deficit-hyperactivity disorder",
@@ -24631,7 +24728,7 @@
       "slug": "iobenguane",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "hypotensive disorder",
@@ -24821,7 +24918,7 @@
       "slug": "ipilimumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "choroideremia",
@@ -24957,7 +25054,7 @@
       "slug": "itraconazole",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "pneumocystosis",
@@ -25230,7 +25327,7 @@
       "slug": "lansoprazole",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "duodenogastric reflux",
@@ -25249,7 +25346,7 @@
       "slug": "laronidase",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "lysosomal storage disease with skeletal involvement",
@@ -25268,7 +25365,7 @@
       "slug": "latanoprost",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "primary hereditary glaucoma",
@@ -25605,7 +25702,7 @@
       "slug": "loprazolam",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L1",
       "indications": [
         {
           "name": "sleep disorder, initiating and maintaining sleep",
@@ -25686,7 +25783,7 @@
       "slug": "loxapine",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "manic bipolar affective disorder",
@@ -25955,7 +26052,7 @@
       "slug": "melphalan",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L2",
       "indications": [
         {
           "name": "gonadal germ cell tumor",
@@ -26014,7 +26111,7 @@
       "slug": "mercaptopurine",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L2",
       "indications": [
         {
           "name": "myeloid leukemia",
@@ -26073,7 +26170,7 @@
       "slug": "miconazole",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "acne (disease)",
@@ -26087,7 +26184,7 @@
       "slug": "midazolam",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "insomnia (disease)",
@@ -26238,7 +26335,7 @@
       "slug": "minoxidil",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "hypotrichosis simplex of the scalp",
@@ -26524,7 +26621,7 @@
       "slug": "moroctocog_alfa",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "primary release disorder of platelets",
@@ -26573,7 +26670,7 @@
       "slug": "morphine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "myofascial pain syndrome",
@@ -26725,7 +26822,7 @@
       "slug": "naftidrofuryl",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "stroke disorder",
@@ -26739,7 +26836,7 @@
       "slug": "naratriptan",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "migraine with brainstem aura",
@@ -26831,7 +26928,7 @@
       "slug": "nicorandil",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "benign prostatic hyperplasia (disease)",
@@ -26967,7 +27064,7 @@
       "slug": "nitrendipine",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "migraine disorder",
@@ -27086,21 +27183,6 @@
       "level": "L5",
       "indications": [
         {
-          "name": "Agoraphobie",
-          "score": 99.47,
-          "level": "L3"
-        },
-        {
-          "name": "Trouble Dysthymique",
-          "score": 99.28,
-          "level": "L4"
-        },
-        {
-          "name": "Torticollis Paroxystique Bénin du Nourrisson",
-          "score": 99.54,
-          "level": "L5"
-        },
-        {
           "name": "benign paroxysmal torticollis of infancy",
           "score": 99.54,
           "level": "L5"
@@ -27209,7 +27291,7 @@
       "slug": "oxiconazole",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "cutaneous candidiasis",
@@ -27223,7 +27305,7 @@
       "slug": "oxitriptan",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "insomnia (disease)",
@@ -27692,7 +27774,7 @@
       "slug": "pilocarpine",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "primary hereditary glaucoma",
@@ -27866,7 +27948,7 @@
       "slug": "posaconazole",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "pneumocystosis",
@@ -27880,7 +27962,7 @@
       "slug": "potassium",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "hypertensive disorder",
@@ -27987,7 +28069,7 @@
       "slug": "prasugrel",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "pulmonary hypertension",
@@ -28046,7 +28128,7 @@
       "slug": "prednisolone",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "alopecia areata",
@@ -28287,6 +28369,65 @@
         {
           "name": "cardiomyopathy",
           "score": 99.12,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Prucalopride",
+      "slug": "prucalopride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "hypoalphalipoproteinemia",
+          "score": 99.82,
+          "level": "L5"
+        },
+        {
+          "name": "homozygous familial hypercholesterolemia",
+          "score": 99.67,
+          "level": "L5"
+        },
+        {
+          "name": "duodenal ulcer (disease)",
+          "score": 99.65,
+          "level": "L5"
+        },
+        {
+          "name": "oral candidiasis",
+          "score": 99.64,
+          "level": "L5"
+        },
+        {
+          "name": "obsolete familial combined hyperlipidemia",
+          "score": 99.62,
+          "level": "L5"
+        },
+        {
+          "name": "amyloidosis (disease)",
+          "score": 99.62,
+          "level": "L5"
+        },
+        {
+          "name": "strongyloidiasis",
+          "score": 99.6,
+          "level": "L5"
+        },
+        {
+          "name": "HIV infectious disease",
+          "score": 99.6,
+          "level": "L5"
+        },
+        {
+          "name": "primary amyloidosis",
+          "score": 99.56,
+          "level": "L5"
+        },
+        {
+          "name": "acquired amyloid peripheral neuropathy",
+          "score": 99.55,
           "level": "L5"
         }
       ]
@@ -28757,7 +28898,7 @@
       "slug": "rilpivirine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -28850,7 +28991,7 @@
       "slug": "risankizumab",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L2",
       "indications": [
         {
           "name": "dermatitis",
@@ -28923,7 +29064,7 @@
       "slug": "ritonavir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -28947,7 +29088,7 @@
       "slug": "rivaroxaban",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "rheumatoid arthritis",
@@ -29631,7 +29772,7 @@
       "slug": "sirolimus",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "liposarcoma",
@@ -29690,7 +29831,7 @@
       "slug": "sofosbuvir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "hepatitis B virus infection",
@@ -29875,7 +30016,7 @@
       "slug": "sucralfate",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "duodenogastric reflux",
@@ -29894,7 +30035,7 @@
       "slug": "sulfadiazine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "pneumocystosis",
@@ -30158,7 +30299,7 @@
       "slug": "sunitinib",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "liposarcoma",
@@ -30325,7 +30466,7 @@
       "slug": "talc",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "thrombotic disease",
@@ -30443,7 +30584,7 @@
       "slug": "temsirolimus",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "liposarcoma",
@@ -30642,7 +30783,7 @@
       "slug": "tiagabine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "visual epilepsy",
@@ -30656,7 +30797,7 @@
       "slug": "tiapride",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "migraine disorder",
@@ -30699,7 +30840,7 @@
       "slug": "tinidazole",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "postmenopausal atrophic vaginitis",
@@ -30758,7 +30899,7 @@
       "slug": "tioconazole",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "vulvovaginitis",
@@ -31056,7 +31197,7 @@
       "slug": "tolvaptan",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "polycystic kidney disease 3 with or without polycystic liver disease",
@@ -31326,7 +31467,7 @@
       "slug": "trastuzumab_emtansine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "progesterone-receptor positive breast cancer",
@@ -31615,7 +31756,7 @@
       "slug": "valine",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "sclerosing cholangitis",
@@ -31732,7 +31873,7 @@
       "slug": "velpatasvir",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "hepatitis B virus infection",
@@ -32061,7 +32202,7 @@
       "slug": "zidovudine",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "feline acquired immunodeficiency syndrome",
@@ -32100,7 +32241,7 @@
       "slug": "zolmitriptan",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "migraine with brainstem aura",
@@ -32643,20 +32784,6 @@
           "slug": "db01017",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Agoraphobie",
-      "count": 1,
-      "level": "L3",
-      "drugs": [
-        {
-          "name": "Olanzapine",
-          "slug": "olanzapine",
-          "score": 99.47,
-          "level": "L3",
           "original": ""
         }
       ]
@@ -33846,7 +33973,7 @@
     },
     {
       "name": "HIV infectious disease",
-      "count": 30,
+      "count": 31,
       "level": "L5",
       "drugs": [
         {
@@ -35154,6 +35281,20 @@
       ]
     },
     {
+      "name": "Plummer-Vinson syndrome",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Docusate",
+          "slug": "docusate",
+          "score": 99.18,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
       "name": "Potter sequence",
       "count": 2,
       "level": "L5",
@@ -35770,20 +35911,6 @@
       ]
     },
     {
-      "name": "Torticollis Paroxystique Bénin du Nourrisson",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Olanzapine",
-          "slug": "olanzapine",
-          "score": 99.54,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "Tourette syndrome",
       "count": 12,
       "level": "L5",
@@ -35856,20 +35983,6 @@
           "slug": "fentanyl",
           "score": 99.05,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Trouble Dysthymique",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Olanzapine",
-          "slug": "olanzapine",
-          "score": 99.28,
-          "level": "L4",
           "original": ""
         }
       ]
@@ -36470,6 +36583,20 @@
       ]
     },
     {
+      "name": "acquired amyloid peripheral neuropathy",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.55,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
       "name": "acquired aneurysmal subarachnoid hemorrhage",
       "count": 1,
       "level": "L5",
@@ -37052,7 +37179,7 @@
     },
     {
       "name": "acute laryngopharyngitis",
-      "count": 10,
+      "count": 11,
       "level": "L5",
       "drugs": [
         {
@@ -37066,6 +37193,13 @@
           "name": "Salbutamol",
           "slug": "salbutamol",
           "score": 99.99,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Ammonium Chloride",
+          "slug": "ammonium_chloride",
+          "score": 99.94,
           "level": "L5",
           "original": ""
         },
@@ -37114,13 +37248,6 @@
         {
           "name": "Glycine",
           "slug": "glycine",
-          "score": 99.84,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Ipratropium",
-          "slug": "ipratropium",
           "score": 99.84,
           "level": "L5",
           "original": ""
@@ -38662,9 +38789,16 @@
     },
     {
       "name": "amyloidosis (disease)",
-      "count": 1,
+      "count": 2,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.62,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "TAFAMIDIS",
           "slug": "db11644",
@@ -44990,9 +45124,16 @@
     },
     {
       "name": "common wart",
-      "count": 1,
+      "count": 2,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.46,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "IMIQUIMOD",
           "slug": "db00724",
@@ -47138,6 +47279,20 @@
       ]
     },
     {
+      "name": "disease of orbital region",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.08,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
       "name": "disease of receptor activity",
       "count": 2,
       "level": "L5",
@@ -47538,9 +47693,16 @@
     },
     {
       "name": "duodenal ulcer (disease)",
-      "count": 3,
+      "count": 4,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.65,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "SUCRALFATE",
           "slug": "db00364",
@@ -48356,6 +48518,20 @@
       ]
     },
     {
+      "name": "eosinophilic pustular folliculitis",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.22,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
       "name": "ependymoblastoma",
       "count": 1,
       "level": "L5",
@@ -48385,6 +48561,20 @@
           "name": "ALGLUCOSIDASE ALFA",
           "slug": "db01272",
           "score": 99.11,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
+      "name": "epidemic keratoconjunctivitis",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.07,
           "level": "L5",
           "original": ""
         }
@@ -52585,7 +52775,7 @@
     },
     {
       "name": "hepatitis C induced liver cirrhosis",
-      "count": 2,
+      "count": 3,
       "level": "L5",
       "drugs": [
         {
@@ -52599,6 +52789,13 @@
           "name": "Famciclovir",
           "slug": "famciclovir",
           "score": 99.73,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.23,
           "level": "L5",
           "original": ""
         }
@@ -53446,7 +53643,7 @@
     },
     {
       "name": "homozygous familial hypercholesterolemia",
-      "count": 7,
+      "count": 8,
       "level": "L5",
       "drugs": [
         {
@@ -53474,6 +53671,13 @@
           "name": "Prasugrel",
           "slug": "prasugrel",
           "score": 99.74,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.67,
           "level": "L5",
           "original": ""
         },
@@ -54503,9 +54707,16 @@
     },
     {
       "name": "hypoalphalipoproteinemia",
-      "count": 4,
+      "count": 5,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.82,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "GEMFIBROZIL",
           "slug": "db01241",
@@ -60859,7 +61070,7 @@
     },
     {
       "name": "nasal cavity disease",
-      "count": 10,
+      "count": 11,
       "level": "L5",
       "drugs": [
         {
@@ -60873,6 +61084,13 @@
           "name": "Salbutamol",
           "slug": "salbutamol",
           "score": 99.99,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Ammonium Chloride",
+          "slug": "ammonium_chloride",
+          "score": 99.94,
           "level": "L5",
           "original": ""
         },
@@ -60921,13 +61139,6 @@
         {
           "name": "GLYCINE",
           "slug": "db00145",
-          "score": 99.85,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Glycine",
-          "slug": "glycine",
           "score": 99.85,
           "level": "L5",
           "original": ""
@@ -62357,7 +62568,7 @@
     },
     {
       "name": "obsolete familial combined hyperlipidemia",
-      "count": 13,
+      "count": 14,
       "level": "L5",
       "drugs": [
         {
@@ -62424,8 +62635,8 @@
           "original": ""
         },
         {
-          "name": "Zidovudine",
-          "slug": "zidovudine",
+          "name": "Prucalopride",
+          "slug": "prucalopride",
           "score": 99.62,
           "level": "L5",
           "original": ""
@@ -63078,9 +63289,16 @@
     },
     {
       "name": "oral candidiasis",
-      "count": 3,
+      "count": 4,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.64,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "FLUCONAZOLE",
           "slug": "db00196",
@@ -63918,6 +64136,20 @@
           "name": "DESLORATADINE",
           "slug": "db00967",
           "score": 99.0,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
+      "name": "papular urticaria",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.09,
           "level": "L5",
           "original": ""
         }
@@ -65556,7 +65788,7 @@
     },
     {
       "name": "post-infectious neuralgia",
-      "count": 2,
+      "count": 3,
       "level": "L5",
       "drugs": [
         {
@@ -65570,6 +65802,13 @@
           "name": "Famciclovir",
           "slug": "famciclovir",
           "score": 99.75,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.25,
           "level": "L5",
           "original": ""
         }
@@ -66081,6 +66320,20 @@
           "name": "SPIRONOLACTONE",
           "slug": "db00421",
           "score": 99.0,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
+      "name": "primary amyloidosis",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.56,
           "level": "L5",
           "original": ""
         }
@@ -68342,7 +68595,7 @@
     },
     {
       "name": "punctate epithelial keratoconjunctivitis",
-      "count": 10,
+      "count": 11,
       "level": "L5",
       "drugs": [
         {
@@ -68370,6 +68623,13 @@
           "name": "Pentamidine",
           "slug": "pentamidine",
           "score": 99.73,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.67,
           "level": "L5",
           "original": ""
         },
@@ -68404,13 +68664,6 @@
         {
           "name": "FLUCONAZOLE",
           "slug": "db00196",
-          "score": 99.24,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Fluconazole",
-          "slug": "fluconazole",
           "score": 99.24,
           "level": "L5",
           "original": ""
@@ -70533,7 +70786,7 @@
     },
     {
       "name": "sequela of COVID-19",
-      "count": 2,
+      "count": 3,
       "level": "L5",
       "drugs": [
         {
@@ -70547,6 +70800,13 @@
           "name": "Famciclovir",
           "slug": "famciclovir",
           "score": 99.73,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.16,
           "level": "L5",
           "original": ""
         }
@@ -71744,13 +72004,20 @@
     },
     {
       "name": "strongyloidiasis",
-      "count": 1,
+      "count": 2,
       "level": "L5",
       "drugs": [
         {
           "name": "Brodalumab",
           "slug": "brodalumab",
           "score": 99.84,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Prucalopride",
+          "slug": "prucalopride",
+          "score": 99.6,
           "level": "L5",
           "original": ""
         }
@@ -74956,6 +75223,20 @@
       ]
     },
     {
+      "name": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+      "count": 1,
+      "level": "L5",
+      "drugs": [
+        {
+          "name": "Docusate",
+          "slug": "docusate",
+          "score": 99.15,
+          "level": "L5",
+          "original": ""
+        }
+      ]
+    },
+    {
       "name": "vitamin deficiency disorder",
       "count": 1,
       "level": "L5",
@@ -75167,7 +75448,7 @@
     },
     {
       "name": "vulvovaginal candidiasis",
-      "count": 8,
+      "count": 9,
       "level": "L5",
       "drugs": [
         {
@@ -75195,6 +75476,13 @@
           "name": "Secnidazole",
           "slug": "secnidazole",
           "score": 99.16,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Acyclovir",
+          "slug": "acyclovir",
+          "score": 99.11,
           "level": "L5",
           "original": ""
         },

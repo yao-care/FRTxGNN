@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zolmitriptan
-parent: Preuves élevées (L1-L2)
-nav_order: 336
-evidence_level: L2
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 340
+evidence_level: L5
 indication_count: 3
 ---
 
 # Zolmitriptan
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,86 @@ Niveau de preuve: **L2** | Indications prédites: **3**
 
 </div>
 
-# Zolmitriptan : De la Migraine Aiguë à la Migraine avec Aura du Tronc Cérébral
+# Zolmitriptan : De la migraine aiguë à la migraine avec aura du tronc cérébral
 
 ## Résumé en Une Phrase
 
-Zolmitriptan est un triptan (agoniste sélectif des récepteurs 5-HT1B/1D), utilisé depuis les années 1990 pour le traitement aigu de la migraine. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Migraine avec Aura du Tronc Cérébral**, mais cette prédiction s'accompagne d'une réserve mécanistique importante : aucun essai clinique dédié n'existe, et **19 publications** en lien avec le sujet sont disponibles, dont certaines soulignent que ce sous-type de migraine est traditionnellement considéré comme une zone de prudence pour les triptans.
-
----
+Le zolmitriptan est un agoniste des récepteurs 5-HT1B/1D (triptan), utilisé pour le traitement de la crise de migraine aiguë. L'indication d'origine ne figure pas dans les données ANSM reçues, elle est déduite de la littérature.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais **aucun essai clinique** et **19 publications indirectes** (aucune ne porte spécifiquement sur cette indication) soutiennent cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (traitement aigu) — d'après la littérature ; non commercialisé en France, aucune AMM enregistrée |
-| Nouvelle Indication Prédite | Migraine avec Aura du Tronc Cérébral (*migraine with brainstem aura*, anciennement migraine basilaire) |
-| Score de Prédiction TxGNN | 99.99% |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+| Indication Originale | Non renseignée dans les données ANSM (migraine aiguë selon la littérature) |
+| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
+| Score de Prédiction TxGNN | 99,99 % |
+| Niveau de Preuve | L4 (preuves indirectes uniquement) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données officielles de mécanisme d'action (DrugBank/TFDA) n'ont pas encore été récupérées pour ce dossier (écart de données en cours de résolution — priorité haute). Sur la base des connaissances pharmacologiques de classe disponibles dans les preuves collectées, le zolmitriptan est un agoniste sélectif des récepteurs sérotoninergiques 5-HT1B/1D, agissant à la fois au niveau central et périphérique pour inhiber l'activation trigémino-vasculaire et provoquer une vasoconstriction intracrânienne — c'est le mécanisme classique des triptans dans le traitement aigu de la migraine.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la littérature, le zolmitriptan est un agoniste sélectif des récepteurs sérotoninergiques 5-HT1B/1D. Son efficacité dans la crise de migraine est établie, avec ou sans aura. Sur le plan mécanistique, il pourrait donc être applicable à d'autres formes de migraine.
 
-La migraine avec aura du tronc cérébral est une sous-catégorie de migraine avec aura, partageant la même physiopathologie trigémino-vasculaire de base que la migraine classique pour laquelle le zolmitriptan est efficace. C'est cette proximité mécanistique qui explique le score élevé attribué par TxGNN.
+Le lien biologique est plausible : les différentes formes de migraine partagent une physiopathologie commune (activation trigéminovasculaire, libération de CGRP). Le score TxGNN très élevé reflète probablement la proximité de la maladie prédite avec l'indication déjà approuvée dans le graphe de connaissances, plutôt qu'une information nouvelle.
 
-**Réserve importante** : contrairement à une extension mécanistique simple, ce sous-type a historiquement été considéré comme une contre-indication relative aux triptans. La vasoconstriction recherchée au niveau intracrânien fait craindre, en théorie, un risque vasculaire au niveau de la circulation postérieure (tronc cérébral), raison pour laquelle la plupart des recommandations et notices classent la migraine basilaire/du tronc cérébral comme une population à utiliser avec prudence plutôt qu'une indication d'extension directe. Cette prédiction doit donc être interprétée comme une piste à évaluer avec un encadrement clinique strict, et non comme une extension d'indication sans réserve.
-
----
+Un point de prudence s'impose. Les notices des triptans ont historiquement recommandé la prudence, voire contre-indiqué leur usage, dans les migraines hémiplégiques et de type basilaire, en raison d'un risque théorique de vasoconstriction dans la circulation du tronc cérébral et postérieure. Cette question de sécurité doit être tranchée avant toute revendication de repositionnement, et le statut de l'étiquetage doit être vérifié dans la notice actuelle.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
+
+Aucune des 19 publications récupérées ne porte spécifiquement sur la migraine avec aura du tronc cérébral. Les 10 références les plus pertinentes sont listées ci-dessous.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [11903526](https://pubmed.ncbi.nlm.nih.gov/11903526/) | 2001 | Série de cas | Headache | Rapporte l'usage des triptans chez des patients migraineux avec symptômes neurologiques marqués (migraine basilaire / aura prolongée) |
-| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Méta-analyse | J Headache Pain | Compare l'efficacité du frovatriptan au rizatriptan, zolmitriptan et almotriptan dans la migraine avec aura |
-| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | ECR (sous-analyse) | Neurol Sci | Sous-groupe de 18 patients avec aura dans un essai croisé multicentrique comparant frovatriptan et zolmitriptan |
-| [15581383](https://pubmed.ncbi.nlm.nih.gov/15581383/) | 2004 | ECR | CNS Drugs | Zolmitriptan 5 mg ODT : délai de réponse et durée d'efficacité dans le traitement aigu de la migraine |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revue/Recommandation | Headache | Évaluation par l'American Headache Society des preuves d'efficacité des traitements pharmacologiques aigus de la migraine |
-| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Revue | Expert Opin Pharmacother | Synthèse des essais randomisés contrôlés démontrant l'efficacité du zolmitriptan (réponse à 2h, taux sans douleur) |
-| [10473025](https://pubmed.ncbi.nlm.nih.gov/10473025/) | 1999 | Revue | Drugs | Revue d'ensemble de l'efficacité et de la tolérance du zolmitriptan oral 2,5-5 mg dans la migraine |
-| [9399012](https://pubmed.ncbi.nlm.nih.gov/9399012/) | 1997 | Étude préclinique | Cephalalgia | Pharmacologie préclinique : action centrale et périphérique sur l'activation trigémino-vasculaire |
-| [12864759](https://pubmed.ncbi.nlm.nih.gov/12864759/) | 2003 | Cohorte/Mécanistique | Headache | Doppler transcrânien avant/après zolmitriptan ou sumatriptan : effets sur la vélocité du flux sanguin intracrânien |
-| [18624801](https://pubmed.ncbi.nlm.nih.gov/18624801/) | 2008 | ECR | Cephalalgia | Comparaison de six triptans sur la réduction de la douleur et l'allodynie précoce chez des migraineux |
+| [27329280](https://pubmed.ncbi.nlm.nih.gov/27329280/) | 2016 | ECR (étude TEENZ) | Headache | Spray nasal de zolmitriptan chez l'adolescent (12-17 ans) ; critère principal : absence de douleur à 2 h |
+| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | Analyse de sous-groupe d'un ECR | Neurol Sci | Frovatriptan 2,5 mg vs zolmitriptan 2,5 mg dans la migraine avec aura (18 sujets) |
+| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Méta-analyse | J Headache Pain | Efficacité du frovatriptan comparée à d'autres triptans, dont le zolmitriptan, dans la migraine avec aura |
+| [11903526](https://pubmed.ncbi.nlm.nih.gov/11903526/) | 2001 | Étude clinique (type non classé) | Headache | Usage des triptans dans la migraine basilaire (ancienne dénomination) et l'aura prolongée ; résumé limité à l'objectif |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revue (recommandations) | Headache | Évaluation par l'American Headache Society des preuves pour les traitements aigus de la migraine de l'adulte |
+| [18624801](https://pubmed.ncbi.nlm.nih.gov/18624801/) | 2008 | Étude randomisée | Cephalalgia | Comparaison de plusieurs triptans chez 36 patients migraineux avec allodynie précoce, avec ou sans aura |
+| [25538676](https://pubmed.ncbi.nlm.nih.gov/25538676/) | 2014 | Revue | Front Neurol | Options thérapeutiques dans la migraine vestibulaire ; essais spécifiques rares |
+| [12864759](https://pubmed.ncbi.nlm.nih.gov/12864759/) | 2003 | Étude clinique | Headache | Doppler transcrânien avant et après zolmitriptan ou sumatriptan oral lors de crises de migraine |
+| [9399016](https://pubmed.ncbi.nlm.nih.gov/9399016/) | 1997 | Analyse groupée de tolérance | Cephalalgia | Profil de tolérance du zolmitriptan sur plus de 3 000 sujets (316 volontaires, 2 750 patients) |
+| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Revue | Expert Opin Pharmacother | Agoniste 5-HT1B/1D efficace dans la migraine (essais randomisés contre placebo) ; début d'action en 45 min |
 
----
+## Informations de Marché en France
+
+Le zolmitriptan compte 20 AMM au total. Les 5 principales sont présentées ci-dessous.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 67038894 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé orodispersible | Non renseignée dans les données |
+| 65339379 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé pelliculé | Non renseignée dans les données |
+| 62039483 | ZOLMITRIPTAN TEVA SANTE 2,5 mg | Comprimé orodispersible | Non renseignée dans les données |
+| 60294713 | ZOLMITRIPTAN ZYDUS FRANCE 2,5 mg | Comprimé orodispersible | Non renseignée dans les données |
+| 61180239 | ZOLMITRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Non renseignée dans les données |
 
 ## Considérations de Sécurité
 
-⚠️ **Point de vigilance issu de l'analyse mécanistique** : la migraine avec aura du tronc cérébral (anciennement migraine basilaire) est traditionnellement classée comme population à prudence particulière pour les triptans, en raison d'un risque théorique de vasoconstriction au niveau de la circulation cérébrale postérieure. Ce point doit être vérifié dans le futur RCP/notice TFDA avant toute utilisation clinique.
-
-Les mises en garde, contre-indications et interactions médicamenteuses détaillées (RCP TFDA, DDI) n'ont pas encore été récupérées pour ce dossier — écart de donnée bloquant identifié (DG001), en attente d'extraction depuis le site TFDA. Veuillez consulter la notice officielle pour les informations de sécurité complètes.
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-Le mécanisme pharmacologique du zolmitriptan est bien établi dans la migraine en général (multiples ECR/revues), et une littérature spécifique existe sur les triptans dans la migraine basilaire/avec aura prolongée. Toutefois, l'absence totale d'essai clinique dédié à cette indication précise, combinée à la réserve mécanistique classique (contre-indication relative historique), impose un encadrement strict plutôt qu'une validation directe.
+- Il n'existe aucun essai clinique ni publication spécifique à la migraine avec aura du tronc cérébral. Les preuves sont indirectes (niveau L4), et la question de sécurité liée à la vasoconstriction du tronc cérébral n'est pas résolue.
+- Les deux autres indications prédites, l'atrophodermie vermiculée et l'ulérythème ophryogène, n'ont aucun lien mécanistique identifiable ni aucune preuve (niveau L5). Elles ne justifient aucune poursuite.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération du RCP/notice TFDA (mises en garde, contre-indications formelles) — écart bloquant DG001
-- Données de mécanisme d'action officielles (DrugBank) — écart DG002
-- Confirmation ou infirmation formelle du statut de contre-indication relative pour la migraine avec aura du tronc cérébral dans les référentiels actuels
-- Données d'interactions médicamenteuses (actuellement non trouvées)
-- Le cas échéant, conception d'une étude prospective ciblée avant toute utilisation hors AMM dans cette sous-population
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indications autorisées), qui bloque actuellement l'étape de criblage de sécurité
+- Vérifier le statut de l'étiquetage des triptans vis-à-vis des migraines de type basilaire et hémiplégique
+- Obtenir les données détaillées sur le mécanisme d'action via DrugBank
+- Rechercher des études spécifiques à la migraine avec aura du tronc cérébral (séries de cas, essais), et lire le texte intégral de la publication PMID 11903526
+- Réaliser une évaluation de sécurité vasculaire spécifique avant toute revendication de repositionnement
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

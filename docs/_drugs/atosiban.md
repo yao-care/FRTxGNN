@@ -2,7 +2,7 @@
 layout: default
 title: Atosiban
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 45
+nav_order: 47
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,67 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Atosiban : De la Prévention de l'Accouchement Prématuré au Glaucome Héréditaire Primaire
+# Atosiban : De la Menace d'Accouchement Prématuré au Glaucome Héréditaire Primitif
 
 ## Résumé en Une Phrase
 
-Atosiban est un antagoniste compétitif des récepteurs de l'ocytocine (OTR) et de la vasopressine V1A/V2, utilisé en milieu hospitalier comme tocolytique pour retarder l'accouchement prématuré.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Glaucome Héréditaire Primaire (Primary Hereditary Glaucoma)**,
-avec **0 essai clinique** et **0 publication** soutenant directement cette direction — le niveau de preuve est actuellement L5 (prédiction algorithmique uniquement).
-
----
+Atosiban est un antagoniste des récepteurs de l'ocytocine et de la vasopressine V1a, utilisé à l'origine comme tocolytique dans la menace d'accouchement prématuré.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **glaucome héréditaire primitif**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'un signal purement computationnel.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Tocolyse — prévention de l'accouchement prématuré |
-| Nouvelle Indication Prédite | Glaucome Héréditaire Primaire |
-| Score de Prédiction TxGNN | 99,92% |
+|------|------|
+| Indication Originale | Menace d'accouchement prématuré (usage obstétrical d'après les données du dossier ; le texte d'indication des AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Glaucome héréditaire primitif (primary hereditary glaucoma) |
+| Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action d'atosiban ne sont pas disponibles dans le système actuel. Sur la base des informations publiées, atosiban fait partie de la classe des antagonistes des récepteurs à l'ocytocine (OTR) et à la vasopressine V1A/V2. Son efficacité comme tocolytique repose sur l'inhibition des contractions utérines : en bloquant les récepteurs OTR/AVPR1A du myomètre, il réduit la fréquence et l'intensité des contractions, permettant de retarder l'accouchement prématuré.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, atosiban est un antagoniste des récepteurs de l'ocytocine et de la vasopressine V1a, utilisé en obstétrique. Son efficacité dans son indication d'origine repose sur le blocage de ces récepteurs au niveau utérin.
 
-La connexion hypothétique avec le glaucome héréditaire primaire repose sur l'observation que des récepteurs OTR sont exprimés dans le corps ciliaire de l'œil et que le système ocytocinergique pourrait moduler la pression intraoculaire (PIO). En théorie, un modulateur de ce récepteur pourrait influencer la dynamique de sécrétion de l'humeur aqueuse. Le glaucome héréditaire primaire, caractérisé par une élévation chronique de la PIO d'origine génétique, pourrait donc représenter une cible biologique adjacente dans le graphe de connaissances.
+Pour le glaucome, **aucun lien mécanistique n'est établi** : les données fournies ne soutiennent aucune connexion entre ces récepteurs et la pression intraoculaire ou les voies physiopathologiques du glaucome. Le score élevé (99,92 %, rang 1011 du modèle) reflète une proximité dans le graphe de connaissances, pas une relation médicament-maladie validée.
 
-Cependant, cette hypothèse présente d'importantes limites mécanistiques : le score TxGNN très élevé (99,92%) résulte vraisemblablement de la proximité topologique dans le graphe de connaissances biologiques plutôt que d'une corrélation mécanistique directe. Aucune donnée clinique, aucune étude préclinique ni aucune hypothèse validée ne soutient actuellement l'utilisation d'atosiban dans le glaucome. Par ailleurs, il n'existe aucune démonstration que l'antagonisme OTR, par opposition à son agonisme, exercerait un effet bénéfique sur la PIO.
-
-> ⚠️ **Signal d'alerte mécanistique (indication vasculaire, rang 6)** : 17 publications identifiées pour l'indication « vascular disease » documentent presque exclusivement les effets *protecteurs* de **l'ocytocine** sur le système cardiovasculaire (voies RISK/SAFE, cardioprotection ischémie-reperfusion). Atosiban, en tant qu'*antagoniste*, agirait en sens contraire — atténuant cette protection plutôt qu'en la reproduisant. Ce signal de direction mécanistique négative constitue un facteur de risque transversal à considérer pour l'ensemble des repositionnements vasculaires de ce médicament.
-
----
+Le glaucome à angle ouvert (rang 2, 99,92 %) présente le même profil : aucune preuve clinique ni bibliographique. Un rationnel au niveau des récepteurs devrait d'abord être établi avant tout travail complémentaire.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé au glaucome héréditaire primaire n'est enregistré actuellement.
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée au glaucome héréditaire primaire n'est disponible actuellement.
+Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 62476853 | TRACTOCILE 6,75 mg/0,9 ml | Solution injectable | Ferring Pharmaceuticals (Danemark) |
+| 61710552 | TRACTOCILE 37,5 mg/5 ml | Solution à diluer pour perfusion | Ferring Pharmaceuticals (Danemark) |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN pour le glaucome héréditaire primaire atteint un score algorithmique très élevé (99,92%), mais repose exclusivement sur la modélisation par graphe de connaissances (niveau L5), sans aucune donnée clinique ou préclinique à l'appui. Le lien mécanistique entre l'antagonisme OTR/AVPR1A et la pathologie glaucomateuse reste hautement spéculatif, et le signal de direction mécanistique négative identifié pour les indications vasculaires renforce la nécessité d'une validation expérimentale approfondie avant toute progression.
+- La prédiction repose uniquement sur le score du modèle (L5), sans essai, sans publication ni mécanisme plausible reliant atosiban au glaucome.
+- Les autres candidats du classement sont également en Hold, sauf « maladie vasculaire », qui est un axe de recherche (L4) fondé sur des études précliniques indirectes. Un signal de sécurité y apparaît : association entre exposition aux tocolytiques et hémorragie intraventriculaire chez le prématuré, non spécifique à atosiban.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Études in vitro sur l'effet d'atosiban sur la sécrétion d'humeur aqueuse dans des modèles de corps ciliaire humain
-- Confirmation de l'expression fonctionnelle des récepteurs OTR dans le tissu trabéculaire et le corps ciliaire humains
-- Mécanisme d'action (MOA) complet — actuellement absent des données disponibles (DG002)
-- Informations de sécurité via la notice officielle — contre-indications et mises en garde actuellement indisponibles (DG001)
-- Vérification du statut AMM en France auprès de l'ANSM (atosiban est commercialisé sous le nom Tractocile® dans plusieurs États membres de l'UE — une évaluation de l'extension géographique est requise)
+- Mécanisme d'action détaillé (DrugBank) et analyse d'un lien possible avec la pression intraoculaire
+- Notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
+- Revue de la littérature ciblée (atosiban / récepteurs ocytocine-vasopressine et glaucome) et études précliniques
+- Évaluation de la compatibilité des voies d'administration (formes injectables actuelles vs voie oculaire)
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

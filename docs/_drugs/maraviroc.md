@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 185
+nav_order: 188
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,66 +29,88 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# MARAVIROC : Évaluation de Repositionnement — Données Insuffisantes
+# Maraviroc : De l'infection par le VIH à la Néoplasie Endocrinienne Multiple
 
-## Résumé
+## Résumé en Une Phrase
 
-MARAVIROC (DB04835) est un médicament référencé dans DrugBank, dont l'indication originale et le mécanisme d'action n'ont pas pu être extraits dans ce pack de données.
-Aucune prédiction TxGNN n'est disponible pour ce candidat, rendant impossible une analyse de repositionnement complète à ce stade.
-**Des données complémentaires sont requises avant toute évaluation clinique.**
-
----
+Maraviroc est un antagoniste du récepteur CCR5, commercialisé en France sous les noms CELSENTRI et MARAVIROC WAYMADE. Il est classiquement connu comme antirétroviral contre le VIH, mais cette indication d'origine ne figure pas dans les données ANSM reçues.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Néoplasie Endocrinienne Multiple** (score élevé, 99,82 %), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non disponible |
-| Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | N/A |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
-
----
+|------|------|
+| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide) |
+| Nouvelle Indication Prédite | Néoplasie endocrinienne multiple |
+| Score de Prédiction TxGNN | 99,82 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 7 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-L'analyse de pertinence mécanistique ne peut pas être conduite dans l'état actuel des données.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Les données indiquent seulement que maraviroc est un antagoniste du CCR5, un récepteur de chémokines. Son efficacité dans son indication d'origine n'a pas pu être vérifiée à partir des informations fournies.
 
-Trois éléments fondamentaux sont absents de ce pack :
+Aucun lien mécanistique n'est soutenu par les données entre l'antagonisme du CCR5 et les voies impliquées dans la néoplasie endocrinienne multiple. Le score TxGNN est très élevé (0,998, rang 1830), mais il reste une prédiction du modèle, sans étude réelle pour la confirmer. La similarité avec l'indication d'origine est en attente d'évaluation.
 
-1. **Mécanisme d'action (MOA)** — sans lui, il est impossible de relier l'indication originale à une nouvelle cible thérapeutique
-2. **Indications originales approuvées** — le champ `original_indications` est vide
-3. **Prédictions TxGNN** — `predicted_indications` ne contient aucun résultat, donc aucune indication candidate à évaluer
+Cette prédiction doit donc être considérée comme **spéculative**. Le score élevé ne suffit pas à justifier une avancée clinique.
 
-En l'absence de ces trois piliers, toute conclusion sur la plausibilité biologique du repositionnement serait spéculative.
+## Preuves d'Essais Cliniques
 
----
+Aucun essai clinique associé enregistré actuellement.
+
+## Preuves de la Littérature
+
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-MARAVIROC ne dispose d'aucune AMM recensée dans ce pack de données et n'est pas commercialisé en France. Aucune donnée de licence n'est disponible pour analyse.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61182724 | CELSENTRI 300 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
+| 60992262 | CELSENTRI 25 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
+| 64830457 | MARAVIROC WAYMADE 300 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
+| 64813486 | MARAVIROC WAYMADE 150 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
+| 65936214 | CELSENTRI 20 mg/ml, solution buvable | Solution buvable | Non précisée dans les données |
 
----
+Le dossier recense 7 AMM au total ; seules les 5 premières sont détaillées ici.
+
+## Considérations de Sécurité
+
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Les données disponibles sont insuffisantes pour évaluer le potentiel de repositionnement de MARAVIROC. L'absence de prédictions TxGNN, de données de mécanisme d'action et de données de sécurité rend toute recommandation prématurée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique démontré avec la néoplasie endocrinienne multiple.
+- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'étape de sécurité (S1).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
+- Obtenir les données de mécanisme d'action (MOA) via DrugBank.
+- Confirmer l'indication d'origine à partir des textes d'AMM, actuellement vides.
+- Mener une recherche bibliographique ciblée sur CCR5 et les néoplasies endocriniennes.
 
-- **Mécanisme d'action (MOA)** — interroger l'API DrugBank (ID : DB04835) pour récupérer le mécanisme et les cibles pharmacologiques
-- **Indications originales approuvées** — extraire depuis DrugBank et/ou la notice officielle
-- **Exécution du pipeline TxGNN** — relancer la prédiction afin de générer des indications candidates pour ce médicament
-- **Données de sécurité** — extraire les mises en garde et contre-indications depuis la notice (tfda_package_insert : résultat disponible, non parsé)
-- **Données DDI** — la source DDI n'a retourné aucun résultat ; vérifier si le médicament est référencé sous un autre identifiant
+**Autres indications prédites (à titre d'information) :**
 
-> **Note opérationnelle :** Le log indique que la requête `tfda_package_insert` a retourné 1 résultat (`result_count: 1`), mais ces données n'ont pas été intégrées au pack. Le parsing de ce document devrait permettre de combler les lacunes DG001 (mises en garde/contre-indications) et possiblement DG002 (MOA).
+| Rang | Indication | Score TxGNN | Niveau de Preuve | Recommandation |
+|------|------|------|------|------|
+| 2 | Acné | 99,76 % | L5 | Hold |
+| 3 | Lymphome cutané primitif à cellules T | 99,72 % | L4 | Hold |
+| 4 | Lupus érythémateux systémique pédiatrique | 99,71 % | L5 | Hold |
+| 5 | Lymphome cutané primitif non hodgkinien à cellules T | 99,50 % | L4 | Hold |
+| 6 | Lymphome cutané primitif à cellules B | 99,38 % | L5 | Hold |
+| 7 | Candidose | 99,28 % | L5 | Hold |
+| 8 | Déficit en composant 4a du complément | 99,24 % | L5 | Hold |
+| 9 | Infection à cytomégalovirus | 99,23 % | L4 | Hold |
+| 10 | Carcinome mammaire HER2 positif | 99,22 % | L4 | Question de recherche |
+
+Parmi ces candidats, le **carcinome mammaire HER2 positif** est le plus solide sur le plan mécanistique. Une étude préclinique (PMID [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/), *Molecular Cancer Therapeutics*, 2020) montre que le CCL5 autocrine médie la résistance au trastuzumab via l'activation de la voie ERK. Le CCL5 signale par le CCR5, que maraviroc antagonise. Cette preuve reste indirecte : maraviroc n'y est pas testé et aucun essai clinique n'est disponible. Une validation préclinique est nécessaire avant toute étape clinique.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

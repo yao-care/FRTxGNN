@@ -2,15 +2,15 @@
 layout: default
 title: Imipramine
 parent: Preuves modérées (L3-L4)
-nav_order: 147
-evidence_level: L3
+nav_order: 150
+evidence_level: L4
 indication_count: 7
 ---
 
 # Imipramine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **7** 
+Niveau de preuve: **L4** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,89 @@ Niveau de preuve: **L3** | Indications prédites: **7**
 
 </div>
 
-# Imipramine : De la Dépression au Trouble Déficit de l'Attention/Hyperactivité (TDAH)
+# Imipramine : D'un antidépresseur tricyclique au Trouble Déficitaire de l'Attention avec Hyperactivité (TDAH)
 
 ## Résumé en Une Phrase
 
-Imipramine est un antidépresseur tricyclique (ATC) historiquement associé au traitement de la **dépression majeure**. Le modèle TxGNN prédit, avec un score de **99,90 %**, qu'il pourrait également être efficace dans le **Trouble Déficit de l'Attention/Hyperactivité (TDAH)**, une piste actuellement appuyée par **20 publications** (dont plusieurs études historiques testant directement l'imipramine chez des enfants TDAH) mais par **aucun essai clinique moderne** dédié à cette combinaison médicament-indication.
-
----
+L'imipramine est un antidépresseur tricyclique, commercialisé en France sous le nom TOFRANIL. Le texte d'indication de ses AMM n'est pas renseigné dans les données fournies.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **TDAH (trouble déficitaire de l'attention avec hyperactivité)**.
+Cette direction s'appuie sur **1 essai clinique** (sans lien avec l'imipramine) et **20 publications**, dont seule une minorité porte réellement sur l'imipramine, généralement des études anciennes et de petite taille.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dépression (non documentée dans ce pack de preuves — information générale sur la classe thérapeutique de l'imipramine) |
-| Nouvelle Indication Prédite | Trouble Déficit de l'Attention/Hyperactivité (TDAH) |
-| Score de Prédiction TxGNN | 99,90 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données ANSM fournies (antidépresseur tricyclique) |
+| Nouvelle Indication Prédite | Trouble déficitaire de l'attention avec hyperactivité (TDAH) |
+| Score de Prédiction TxGNN | 99.90% |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action (MOA) de l'imipramine ne sont pas disponibles dans ce pack de preuves (écart de données **DG002**, priorité Haute). Sur la base des connaissances pharmacologiques générales, l'imipramine est un antidépresseur tricyclique (ATC) de première génération qui inhibe de façon non sélective la recapture de la noradrénaline (NA) et, dans une moindre mesure, de la sérotonine (5-HT). Son efficacité dans le traitement de la dépression majeure est établie depuis les années 1950.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les éléments d'analyse, l'imipramine inhibe la recapture de la noradrénaline et de la sérotonine. Comme antidépresseur tricyclique, son efficacité dans la dépression est connue, et mécanistiquement elle pourrait être applicable au TDAH.
 
-Le TDAH est caractérisé par un déficit fonctionnel des systèmes catécholaminergiques (noradrénaline et dopamine) au niveau préfrontal — un mécanisme partiellement chevauchant avec l'hypothèse monoaminergique de la dépression. L'atomoxétine, seul inhibiteur sélectif de la recapture de la noradrénaline (NRI) actuellement approuvé pour le TDAH, partage ce même mécanisme d'action de base que l'imipramine.
+Le lien avec le TDAH passe surtout par la modulation noradrénergique. Les stimulants (méthylphénidate, amphétamines) restent le traitement de première intention. La littérature fournie place les tricycliques (désipramine, imipramine) parmi les options non stimulantes de deuxième intention, avec l'atomoxétine et les agonistes alpha-2.
 
-L'analyse TxGNN souligne que l'inhibition de la recapture de la noradrénaline par l'imipramine chevauche partiellement le mécanisme de l'atomoxétine, ce qui pourrait théoriquement améliorer les symptômes d'inattention liés à un déficit de signalisation noradrénergique/dopaminergique préfrontal. Cependant, la sélectivité de l'imipramine est nettement inférieure à celle de l'atomoxétine, et ses effets secondaires anticholinergiques et cardiotoxiques limitent fortement son utilisation, en particulier chez l'enfant — la population la plus touchée par le TDAH. Cette limite est d'ailleurs corroborée par la littérature historique : l'imipramine a été testée comme traitement de seconde ligne chez des enfants non-répondeurs aux psychostimulants, mais n'a jamais obtenu d'indication officielle pour le TDAH.
-
----
+La prédiction est donc plausible sur le plan pharmacologique, mais aucun essai portant spécifiquement sur l'imipramine n'est fourni. Les autres prédictions du modèle sont beaucoup plus faibles :
+- **Trouble obsessionnel-compulsif (TOC)** : preuve indirecte seulement. La clomipramine, tricyclique voisin, est un traitement établi, mais l'imipramine est moins sélective pour la sérotonine.
+- **Sous-type inattentif du TDAH** : score probablement gonflé par la proximité avec le nœud TDAH dans le graphe de connaissances.
+- **Autres prédictions** (syndrome facio-digito-génital, fibrome chondromyxoïde, torticolis paroxystique bénin du nourrisson, trouble spécifique du développement) : aucun lien mécanistique ni aucune preuve.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT03220308](https://clinicaltrials.gov/study/NCT03220308) | N/A | Terminé | 103 | Évalue un programme de pleine conscience de 8 semaines pour enfants TDAH combiné à une formation parentale ; **ne teste pas l'imipramine** — essai retenu uniquement par appariement de mots-clés sur la maladie (pertinence Grade C, non lié au médicament). |
-
-Aucun essai clinique testant directement l'imipramine dans le TDAH n'est actuellement enregistré.
-
----
+| [NCT03220308](https://clinicaltrials.gov/study/NCT03220308) | Non applicable | Terminé | 103 | Entraînement à la pleine conscience (8 semaines) pour des enfants de 8 à 16 ans atteints de TDAH et pour leurs parents, comparé aux soins habituels seuls. L'essai ne teste pas l'imipramine et n'apporte donc aucune preuve pharmacologique. |
 
 ## Preuves de la Littérature
 
+Aucun essai contrôlé randomisé n'est présent. Les publications ci-dessous sont classées par pertinence pour l'imipramine.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [6849467](https://pubmed.ncbi.nlm.nih.gov/6849467/) | 1983 | Non classifié | Am J Psychiatry | Résumé non disponible ; rapport clinique historique sur l'utilisation de l'imipramine dans le trouble du déficit de l'attention. |
-| [9465283](https://pubmed.ncbi.nlm.nih.gov/9465283/) | 1996 | Non classifié | Clinical EEG | Chez 17 enfants TDAH non-répondeurs au pémoline traités par imipramine, une latence P300 prolongée prédit une mauvaise réponse au traitement. |
-| [18304665](https://pubmed.ncbi.nlm.nih.gov/18304665/) | 2008 | Non classifié | Int J Psychophysiol | Étude des effets de l'imipramine sur l'EEG d'enfants TDAH non-répondeurs aux psychostimulants (dexamphétamine, méthylphénidate). |
-| [2830919](https://pubmed.ncbi.nlm.nih.gov/2830919/) | 1988 | Non classifié | Biol Psychiatry | Liaison au [³H]imipramine sur plaquettes de 11 garçons ADDH avant/après méthylphénidate ; aucune différence des paramètres de liaison vs témoins. |
-| [2258453](https://pubmed.ncbi.nlm.nih.gov/2258453/) | 1990 | Non classifié | J Clin Psychopharmacol | Étude rétrospective (36 enfants TDAH) : la carbamazépine associée à l'imipramine augmente la dose nécessaire, suggérant une interaction pharmacocinétique réduisant les concentrations plasmatiques. |
-| [15794722](https://pubmed.ncbi.nlm.nih.gov/15794722/) | 2005 | Non classifié | Expert Opin Drug Saf | Revue de la sécurité des traitements non stimulants du TDAH ; les ATC comme la désipramine ou l'imipramine peuvent être efficaces en alternative de 2ᵉ ligne à l'atomoxétine. |
-| [31776871](https://pubmed.ncbi.nlm.nih.gov/31776871/) | 2019 | Revue | CNS Drugs | Revue des interactions médicamenteuses pharmacocinétiques cliniquement significatives pour les agents du TDAH, incluant les molécules en développement. |
-| [17078784](https://pubmed.ncbi.nlm.nih.gov/17078784/) | 2006 | Étude de cohorte | Expert Rev Neurother | Les inhibiteurs non sélectifs (désipramine, imipramine) et sélectifs (atomoxétine) de la recapture de la noradrénaline peuvent être efficaces dans le TDAH, en complément des psychostimulants de première intention. |
-| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Méta-revue | Front Psychiatry | Méta-revue de l'efficacité, la tolérance et le risque suicidaire des antidépresseurs en traitement aigu chez l'enfant/adolescent, incluant le TDAH. |
-| [10790990](https://pubmed.ncbi.nlm.nih.gov/10790990/) | 1999 | Revue | Evid Rep Technol Assess | Rapport d'évaluation technologique sur l'efficacité et la sécurité des interventions pharmacologiques et non pharmacologiques du TDAH, et l'intérêt des traitements combinés. |
+| [6849467](https://pubmed.ncbi.nlm.nih.gov/6849467/) | 1983 | Non classé | Am J Psychiatry | « Imipramine for attention deficit disorder » : publication directement consacrée à l'imipramine dans le TDAH (résumé non disponible). |
+| [9465283](https://pubmed.ncbi.nlm.nih.gov/9465283/) | 1996 | Non classé | Clin EEG | Une latence P300 prolongée prédit une mauvaise réponse à l'imipramine. 17 enfants TDAH, non répondeurs au pémoline, ont suivi un protocole imipramine. |
+| [18304665](https://pubmed.ncbi.nlm.nih.gov/18304665/) | 2008 | Non classé | Int J Psychophysiol | Effets de l'imipramine sur l'EEG d'enfants TDAH non répondeurs aux stimulants. |
+| [2258453](https://pubmed.ncbi.nlm.nih.gov/2258453/) | 1990 | Étude rétrospective | J Clin Psychopharmacol | Influence possible de la carbamazépine sur les concentrations plasmatiques d'imipramine et de désipramine chez 36 enfants TDAH. |
+| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Méta-revue | Front Psychiatry | Efficacité, tolérance et risque suicidaire des antidépresseurs chez l'enfant et l'adolescent, TDAH inclus. |
+| [17078784](https://pubmed.ncbi.nlm.nih.gov/17078784/) | 2006 | Étude clinique | Expert Rev Neurother | Choix du traitement guidé par la topographie P300. Les inhibiteurs de la recapture de la noradrénaline (désipramine, imipramine, atomoxétine) peuvent être efficaces. |
+| [16890481](https://pubmed.ncbi.nlm.nih.gov/16890481/) | 2006 | Non classé | Clin Neurophysiol | Utilisation du potentiel évoqué cognitif P300 pour prédire la réponse au traitement dans le TDAH. |
+| [15794722](https://pubmed.ncbi.nlm.nih.gov/15794722/) | 2005 | Non classé | Expert Opin Drug Saf | Sécurité des traitements non stimulants du TDAH. Les stimulants restent le premier choix, et des tricycliques comme l'imipramine peuvent être des alternatives. |
+| [31776871](https://pubmed.ncbi.nlm.nih.gov/31776871/) | 2019 | Revue | CNS Drugs | Interactions médicamenteuses pharmacocinétiques des traitements du TDAH. |
+| [11316683](https://pubmed.ncbi.nlm.nih.gov/11316683/) | 2001 | Non classé | Arch Dis Child | Protocole auditable de prise en charge du TDAH. |
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 68574699 | TOFRANIL 10 mg, comprimé enrobé | Comprimé enrobé | AMDIPHARM |
+| 67117128 | TOFRANIL 25 mg, comprimé enrobé | Comprimé enrobé | AMDIPHARM |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité (mises en garde et contre-indications de l'ANSM non disponibles dans le dossier).
 
----
+Les éléments d'analyse signalent toutefois, pour l'usage pédiatrique des tricycliques, des risques cardiaques et anticholinergiques ainsi qu'un risque suicidaire. Une publication fournie rapporte en outre une possible interaction avec la carbamazépine, qui modifie les concentrations plasmatiques d'imipramine.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucune donnée de sécurité structurée (mises en garde, contre-indications) n'est actuellement disponible — l'écart **DG001** (avertissements/contre-indications TFDA) est classé **bloquant** et empêche formellement le passage à l'évaluation de sécurité S1.
-- Le médicament n'est pas commercialisé à Taïwan ni en France (0 AMM), et les seules preuves disponibles pour le TDAH sont des études anciennes (1983-2008), majoritairement non classifiées, sans essai clinique moderne testant directement l'imipramine dans cette indication.
+- Aucune donnée fournie ne montre l'efficacité de l'imipramine dans le TDAH : le seul essai clinique n'étudie pas ce médicament et la littérature est ancienne, surtout descriptive. La plausibilité repose sur le mécanisme et sur le score du modèle (niveau de preuve L4).
+- Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape de criblage de sécurité. La population visée, principalement pédiatrique, est aussi celle où le profil de risque des tricycliques est le plus préoccupant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir et analyser la notice TFDA (mises en garde, contre-indications) — DG001, priorité bloquante
-- Documenter le mécanisme d'action détaillé via DrugBank — DG002, priorité haute
-- Confirmer auprès d'une source réglementaire les indications d'origine approuvées de l'imipramine
-- Rechercher des essais cliniques et de la littérature récente (post-2010) testant spécifiquement l'imipramine dans le TDAH
-- Évaluer le profil de risque cardiovasculaire/anticholinergique de l'imipramine chez la population pédiatrique TDAH avant toute étude clinique prospective
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
+- Compléter les données sur le mécanisme d'action (DrugBank).
+- Lire en texte intégral les études imipramine-TDAH (notamment PMID 6849467, 9465283, 18304665) pour établir leur conception et leurs résultats.
+- Rechercher des essais contrôlés randomisés, ou des méta-analyses des tricycliques dans le TDAH.
+- Évaluer le rapport bénéfice/risque cardiaque et suicidaire en population pédiatrique.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

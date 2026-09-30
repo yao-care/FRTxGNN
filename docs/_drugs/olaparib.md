@@ -2,7 +2,7 @@
 layout: default
 title: Olaparib
 parent: Preuves élevées (L1-L2)
-nav_order: 219
+nav_order: 222
 evidence_level: L1
 indication_count: 1
 ---
@@ -29,88 +29,120 @@ Niveau de preuve: **L1** | Indications prédites: **1**
 
 </div>
 
-Utilisation du modèle de rapport pour générer l'évaluation Olaparib (Neoplasme du sein).
-
-# Olaparib : Du Cancer de l'Ovaire BRCA-Muté au Cancer du Sein (Female Breast Carcinoma)
+# Olaparib : De l'Indication Originale (non renseignée) au Carcinome Mammaire Féminin
 
 ## Résumé en Une Phrase
 
-Olaparib est un inhibiteur de PARP1/2, initialement développé et utilisé pour le traitement d'entretien du cancer de l'ovaire épithélial de haut grade, muté BRCA, sensible au platine. Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Cancer du Sein (Female Breast Carcinoma)**, avec **50 essais cliniques** et **20 publications** soutenant actuellement cette direction — dont plusieurs essais de Phase III déjà complétés (OlympiAD, OlympiA).
+L'olaparib est un inhibiteur de PARP commercialisé en France sous le nom Lynparza. Les données fournies ne précisent pas son indication d'origine.
+Le modèle TxGNN le prédit comme potentiellement efficace dans le **carcinome mammaire féminin**, avec un score de 99,09 %.
+**50 essais cliniques** (dont une minorité centrée sur le sein) et **20 publications** sont associés à cette direction. Il s'agit d'une **confirmation d'une indication déjà approuvée** (cancer du sein HER2-négatif avec mutation germinale BRCA) et non d'un repositionnement inédit.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de l'ovaire épithélial de haut grade, muté BRCA, sensible au platine (traitement d'entretien) — non commercialisé en France, aucune AMM enregistrée dans ce dossier |
-| Nouvelle Indication Prédite | Cancer du Sein (Female Breast Carcinoma) |
-| Score de Prédiction TxGNN | 99.09% |
+| Indication Originale | Non renseignée dans les données fournies |
+| Nouvelle Indication Prédite | Carcinome mammaire féminin |
+| Score de Prédiction TxGNN | 99,09 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 3 |
 | Décision Recommandée | Proceed with Guardrails |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Olaparib est un inhibiteur de PARP1/2 qui agit par un mécanisme de létalité synthétique ciblant les cellules tumorales présentant un déficit de recombinaison homologue (HRD), notamment celles porteuses de mutations BRCA1/2. En bloquant la réparation des cassures simple-brin de l'ADN, il provoque l'effondrement des fourches de réplication et la mort des cellules déficientes en recombinaison homologue. Ce mécanisme n'est pas une simple association statistique issue de TxGNN : il repose sur une base biochimique bien établie et déjà validée cliniquement.
+Les données détaillées du mécanisme d'action ne sont pas disponibles dans la source DrugBank. Le mécanisme ci-dessous provient de l'analyse de repositionnement jointe au dossier. L'olaparib inhibe PARP1 et PARP2. Il bloque ainsi la réparation par excision de bases et piège PARP sur l'ADN.
 
-Le cancer de l'ovaire et le cancer du sein partagent tous deux une sous-population de tumeurs BRCA1/2-mutées ou HRD-positives, indépendamment de l'organe d'origine. Comme la vulnérabilité thérapeutique exploitée par olaparib (déficit de réparation de l'ADN) est définie par le statut génomique de la tumeur plutôt que par son tissu d'origine, l'extension mécanistique du cancer de l'ovaire vers le cancer du sein est cohérente sur le plan pharmacologique.
+Dans les tumeurs porteuses d'une mutation germinale BRCA1/2, ou d'une autre déficience de la recombinaison homologue (HRD), cette inhibition provoque une **létalité synthétique**. La cellule tumorale ne peut plus réparer ses cassures d'ADN et meurt. Le score TxGNN élevé (0,991) est cohérent avec ce mécanisme.
 
-Cette cohérence est renforcée par le volume de preuves cliniques déjà accumulé : les essais pivots OlympiAD (métastatique) et OlympiA (adjuvant) ont établi l'efficacité d'olaparib spécifiquement dans le cancer du sein HER2-négatif BRCA1/2-muté, ce qui explique le score de prédiction TxGNN élevé (99.09%) — la relation n'est pas seulement prédite mais largement corroborée par la littérature de Phase III.
+L'efficacité est **restreinte à un biomarqueur** (mutation gBRCA ou HRD). Elle est établie pour le cancer du sein HER2-négatif en situation métastatique (OlympiAD) et adjuvante (OlympiA). Elle ne s'étend pas au cancer du sein non sélectionné.
+
+---
 
 ## Preuves d'Essais Cliniques
 
+Parmi les 50 essais enregistrés, plusieurs concernent l'ovaire ou des tumeurs solides variées. Les 10 essais les plus pertinents pour le sein sont listés ci-dessous.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Phase 3 | Complété | 266 | Essai pivot randomisé (base d'OlympiAD) : olaparib monothérapie vs chimiothérapie au choix du médecin chez patientes gBRCA1/2-mutées, cancer de l'ovaire sensible au platine — établit le profil d'efficacité/sécurité exploité pour l'extension au sein. |
-| [NCT03402841](https://clinicaltrials.gov/study/NCT03402841) | Phase 3b | Complété | 279 | Étude multicentrique à bras unique évaluant olaparib en traitement d'entretien chez patientes non-gBRCA, cancer de l'ovaire de haut grade sensible au platine — soutient l'applicabilité au-delà des porteuses germinales strictes. |
-| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Phase 2 | Complété | 99 | AZD2281 (nom de développement d'olaparib) chez porteuses BRCA, cancer de l'ovaire et cancer du sein triple négatif — étude fondatrice ayant établi le taux de réponse objective dans le sein BRCA-muté. |
-| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Phase 4 | Complété | 202 | Étude post-commercialisation en Inde chez patientes avec cancer de l'ovaire sensible au platine et cancer du sein métastatique gBRCA1/2-muté — preuve de sécurité/efficacité en vie réelle incluant spécifiquement le sein. |
-| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Phase 1 | Complété | 25 | Carboplatine-olaparib puis olaparib en monothérapie vs capécitabine, en première ligne du cancer du sein avancé HER2-négatif BRCA1/2-muté — preuve directe de concept dans l'indication ciblée. |
-| [NCT03162627](https://clinicaltrials.gov/study/NCT03162627) | Phase 1 | Actif, non recrutant | 90 | Combinaison sélumétinib + olaparib dans tumeurs solides avancées (endomètre, ovaire, autres) avec altérations de la voie Ras — exploratoire, non spécifique au sein. |
-| [NCT04421963](https://clinicaltrials.gov/study/NCT04421963) | Phase 3 | Actif, non recrutant | 185 | Étude de prolongation (roll-over) pour patients bénéficiant cliniquement d'un traitement antérieur par olaparib — données de suivi de sécurité à long terme, non une preuve d'efficacité indépendante. |
-| [NCT05564377](https://clinicaltrials.gov/study/NCT05564377) | Phase 2 | Recrutement en cours | 2900 | Plateforme de dépistage moléculaire ComboMATCH orientant vers des combinaisons thérapeutiques selon le profil génétique — multi-cancers, non spécifique au sein. |
+| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Phase 2 | Terminé | 99 | Olaparib (AZD2281) dans le cancer du sein ou tubo-ovarien avec mutation BRCA, ou cancer du sein triple négatif. Évalue le taux de réponse objective et des marqueurs de réponse. Preuve directe de concept. |
+| [NCT05498155](https://clinicaltrials.gov/study/NCT05498155) | Phase 2 | Actif, ne recrute plus | 50 | Olaparib seul ou avec durvalumab en néoadjuvant, dans le cancer du sein précoce HER2-négatif avec mutation BRCA |
+| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Phase 1 (suivie d'une phase 2 randomisée) | Terminé | 25 | Carboplatine-olaparib puis olaparib seul vs capécitabine dans le cancer du sein avancé HER2-négatif avec mutation BRCA1/2, en première ligne. Le résumé ne mentionne que la dose recommandée de phase 2. |
+| [NCT01445418](https://clinicaltrials.gov/study/NCT01445418) | Phase 1 | Terminé | 103 | Olaparib + carboplatine dans les cancers du sein et de l'ovaire avec mutation BRCA1/2, et dans le cancer du sein triple négatif sporadique |
+| [NCT01116648](https://clinicaltrials.gov/study/NCT01116648) | Phase 1/2 | Actif, ne recrute plus | 155 | Cédiranib + olaparib vs olaparib seul dans le cancer de l'ovaire ou le cancer du sein triple négatif récidivant |
+| [NCT03109080](https://clinicaltrials.gov/study/NCT03109080) | Phase 1 | Terminé | 24 | Olaparib avec radiothérapie dans le cancer du sein triple négatif (inflammatoire, localement avancé, métastatique ou avec maladie résiduelle) |
+| [NCT02208375](https://clinicaltrials.gov/study/NCT02208375) | Phase 1 | Actif, ne recrute plus | 159 | Olaparib + vistusertib ou capivasertib dans les cancers de l'endomètre, du sein triple négatif et de l'ovaire |
+| [NCT01623349](https://clinicaltrials.gov/study/NCT01623349) | Phase 1 | Terminé | 118 | Inhibiteur de PI3K (BKM120 ou BYL719) + olaparib dans le cancer du sein triple négatif ou de l'ovaire séreux de haut grade |
+| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Phase 4 | Terminé | 202 | Étude indienne sur l'olaparib dans le cancer de l'ovaire sensible au platine et le cancer du sein métastatique avec mutation gBRCA1/2 |
+| [NCT07187674](https://clinicaltrials.gov/study/NCT07187674) | Non applicable | Pas encore en recrutement | 20 | QL1706 + olaparib + paclitaxel en néoadjuvant dans le cancer du sein triple négatif précoce à haut risque, HRD positif |
+
+**Point d'attention :** l'essai [NCT02282020](https://clinicaltrials.gov/study/NCT02282020), de phase 3, correspond apparemment à SOLO3 dans le cancer de l'ovaire. Il n'apporte donc qu'un soutien indirect pour le sein et son rattachement à cette prédiction est à vérifier.
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | ECR (Phase 3) | New England Journal of Medicine | Essai OlympiA : olaparib adjuvant réduit significativement la récidive du cancer du sein précoce à haut risque, BRCA1/2 germinal-muté. |
-| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | ECR (Phase 3) | New England Journal of Medicine | Essai OlympiAD : olaparib démontre une activité antitumorale prometteuse dans le cancer du sein métastatique gBRCA-muté. |
-| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | ECR (Phase 3) | Annals of Oncology | Survie globale de l'essai OlympiA : bénéfice confirmé de l'olaparib adjuvant chez les patientes BRCA1/2 à haut risque. |
-| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | ECR (Phase 3) | Annals of Oncology | OlympiAD, résultats finaux de survie globale et tolérance : olaparib améliore la survie sans progression vs chimiothérapie standard. |
-| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | ECR (Phase 3, suivi étendu) | European Journal of Cancer | Suivi étendu d'OlympiAD confirmant le profil de sécurité et la tendance de survie globale à plus long terme. |
-| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | ECR (Phase 2 adaptatif) | Cancer Cell | Essai I-SPY2 : ajout de durvalumab + olaparib au paclitaxel néoadjuvant augmente le taux de réponse pathologique complète, cancer du sein stade II/III HER2-négatif. |
-| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Étude de cohorte (Phase 2) | Journal of Clinical Oncology | TBCRC 048 : olaparib actif dans le cancer du sein métastatique porteur de mutations somatiques BRCA1/2 ou d'autres gènes de recombinaison homologue. |
-| [39520738](https://pubmed.ncbi.nlm.nih.gov/39520738/) | 2024 | Étude de Phase 2 (bras unique) | Breast (Edinburgh) | NOBROLA : olaparib en monothérapie efficace dans le cancer du sein triple négatif avancé avec déficit de recombinaison homologue, sans mutation germinale BRCA1/2. |
-| [38112922](https://pubmed.ncbi.nlm.nih.gov/38112922/) | 2024 | Étude en vie réelle (Phase 3b) | Breast Cancer Research and Treatment | LUCY, analyse finale : efficacité et sécurité d'olaparib confirmées en pratique réelle, cohérentes avec l'essai OlympiAD. |
-| [25366685](https://pubmed.ncbi.nlm.nih.gov/25366685/) | 2015 | Étude de Phase 2 (panier) | Journal of Clinical Oncology | Olaparib en monothérapie montre une activité chez les patientes porteuses d'une mutation germinale BRCA1/2, sein et ovaire confondus — données fondatrices précoces. |
+| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | ECR (OlympiA) | N Engl J Med | Olaparib adjuvant chez des patientes avec mutation germinale BRCA1/2 et cancer du sein précoce |
+| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | ECR (OlympiA, survie globale) | Ann Oncol | Olaparib 1 an vs placebo en adjuvant, cancer du sein précoce HER2-négatif à haut risque avec mutation gBRCA1/2. Le résumé rappelle une amélioration significative de la survie sans maladie invasive à la première analyse intermédiaire. |
+| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | ECR (OlympiAD) | N Engl J Med | Olaparib dans le cancer du sein métastatique avec mutation germinale BRCA. Le résumé indique une activité antitumorale prometteuse. |
+| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | ECR (OlympiAD, survie globale finale) | Ann Oncol | Olaparib vs chimiothérapie au choix du médecin dans le cancer du sein métastatique HER2-négatif avec mutation gBRCA. Résultats finaux de survie globale et de tolérance. |
+| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | ECR (OlympiAD, suivi prolongé) | Eur J Cancer | Survie globale médiane de 19,3 mois avec l'olaparib vs 17,1 mois avec la chimiothérapie (P = 0,513) dans l'analyse finale. Le suivi prolongé confirme le profil de sécurité. |
+| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Essai de phase 2 (TBCRC 048) | J Clin Oncol | Olaparib dans le cancer du sein métastatique avec mutations BRCA1/2 somatiques ou mutations d'autres gènes de la recombinaison homologue |
+| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Essai de phase 2 (I-SPY2) | Cancer Cell | Durvalumab + olaparib + paclitaxel en néoadjuvant : le taux de réponse complète pathologique augmente dans le cancer du sein HER2-négatif (de 20 % à 37 %) |
+| [39520738](https://pubmed.ncbi.nlm.nih.gov/39520738/) | 2024 | Essai de phase 2 (NOBROLA) | Breast | Olaparib seul dans le cancer du sein triple négatif avancé avec HRD et sans mutation germinale BRCA1/2 |
+| [38112922](https://pubmed.ncbi.nlm.nih.gov/38112922/) | 2024 | Vie réelle (LUCY, phase IIIb) | Breast Cancer Res Treat | Survie sans progression médiane de 8,11 mois à l'analyse intermédiaire, proche de celle d'OlympiAD (7,03 mois). Analyse finale de la survie globale et de la sécurité. |
+| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Revue | Target Oncol | L'olaparib et le talazoparib sont approuvés en monothérapie dans le cancer du sein HER2-négatif avec mutation germinale BRCA |
+
+---
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 64748533 | LYNPARZA 100 mg, comprimé pelliculé | Comprimé pelliculé | ASTRAZENECA AB |
+| 65789903 | LYNPARZA 50 mg, gélule | Gélule | ASTRAZENECA AB |
+| 60058620 | LYNPARZA 150 mg, comprimé pelliculé | Comprimé pelliculé | ASTRAZENECA AB |
+
+Les textes d'indication approuvée ne figurent pas dans les données fournies.
+
+---
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de PARP1/2, létalité synthétique) — non un agent cytotoxique conventionnel |
-| Risque de Myélosuppression | Données non disponibles dans ce dossier — veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Données non disponibles dans ce dossier — veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Données non disponibles dans ce dossier — veuillez consulter les mises en garde et précautions de la notice |
-| Protection de Manipulation | Données non disponibles dans ce dossier — veuillez consulter les mises en garde et précautions de la notice |
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de PARP) |
+
+Pour le risque de myélosuppression, l'émétogénicité, les paramètres de surveillance et la protection de manipulation, aucune donnée n'est disponible dans le dossier. Veuillez consulter les mises en garde et précautions de la notice.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune donnée de mise en garde, contre-indication ou interaction médicamenteuse n'est disponible dans ce dossier (le TFDA/registre français et la base DDI n'ont retourné aucun résultat).
+Veuillez consulter la notice pour les informations de sécurité.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Le niveau de preuve L1 est atteint grâce à plusieurs essais de Phase III complétés (OlympiAD, OlympiA, LUCY IIIb) démontrant un bénéfice clinique constant d'olaparib dans le cancer du sein BRCA1/2-muté, avec un mécanisme d'action bien caractérisé et transposable de l'ovaire au sein. Toutefois, le médicament n'est pas commercialisé en France (0 AMM) et les données de sécurité réglementaire locales sont totalement absentes, ce qui impose des garde-fous avant toute utilisation clinique.
+- Deux essais de phase 3 publiés (OlympiAD en métastatique, OlympiA en adjuvant) soutiennent l'efficacité de l'olaparib dans le cancer du sein avec mutation germinale BRCA. Le niveau de preuve est donc L1, et le médicament est déjà commercialisé en France.
+- L'efficacité étant limitée aux patientes porteuses de la mutation gBRCA ou d'une HRD, il faut encadrer l'usage par ce biomarqueur. Les résultats ne se généralisent pas au cancer du sein non sélectionné.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/RCP officielle (TFDA ou équivalent français) : mises en garde, contre-indications, interactions médicamenteuses — actuellement bloquant (DG001)
-- Confirmation du statut réglementaire et d'une éventuelle AMM en France
-- Données de mécanisme d'action officielles de DrugBank pour compléter l'analyse (DG002)
-- Plan de test compagnon BRCA1/2 / HRD pour la sélection des patientes candidates
+- Obtenir les contre-indications et mises en garde de la notice ANSM. Ce manque bloque l'étape de criblage de sécurité.
+- Récupérer le mécanisme d'action détaillé depuis DrugBank.
+- Renseigner en amont l'indication originale, aujourd'hui vide.
+- Confirmer que les textes d'indication des trois AMM françaises couvrent bien le cancer du sein avec mutation gBRCA.
+- Vérifier le rattachement de NCT02282020 (probablement ovarien) et terminer l'évaluation de la pertinence des essais et publications encore en attente.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Roxadustat
 parent: Preuves modérées (L3-L4)
-nav_order: 270
+nav_order: 274
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Roxadustat : De l'Anémie Rénale au Syndrome de l'Œil Sec
+# Roxadustat : De l'anémie de l'insuffisance rénale chronique au syndrome de l'œil sec
 
 ## Résumé en Une Phrase
 
-Roxadustat est un inhibiteur de la prolyl-hydroxylase de HIF (HIF-PHI), une classe de médicaments utilisée dans le traitement de l'**anémie rénale** (anémie liée à la maladie rénale chronique) — ce lien est mentionné dans les données d'essais cliniques disponibles, le médicament n'étant pas commercialisé en France.
-Le modèle TxGNN prédit qu'il pourrait présenter un intérêt pour le **Syndrome de l'Œil Sec**,
-mais cette direction ne repose actuellement que sur **1 essai clinique observationnel non interventionnel** (statut inconnu) et **aucune publication**, ce qui en fait une piste de recherche préliminaire plutôt qu'une preuve d'efficacité.
+Roxadustat est un inhibiteur de la prolyl-hydroxylase du HIF (HIF-PH), commercialisé en France sous le nom d'EVRENZO. D'après les connaissances générales, il est utilisé dans l'anémie liée à l'insuffisance rénale chronique. Le texte d'indication n'est pas renseigné dans les données ANSM reçues.
+Le modèle TxGNN prédit qu'il pourrait être utile pour le **syndrome de l'œil sec**, avec **1 essai clinique** indirect et **aucune publication** à l'appui.
 
 ---
 
@@ -43,23 +42,23 @@ mais cette direction ne repose actuellement que sur **1 essai clinique observati
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Anémie rénale (mentionnée dans les données d'essais cliniques disponibles ; aucune donnée d'AMM française n'existe car le médicament n'est pas commercialisé) |
-| Nouvelle Indication Prédite | Syndrome de l'Œil Sec (dry eye syndrome) |
-| Score de Prédiction TxGNN | 99.51 % |
+| Indication Originale | Non renseignée dans les données ANSM (anémie de l'insuffisance rénale chronique selon les connaissances générales) |
+| Nouvelle Indication Prédite | Syndrome de l'œil sec |
+| Score de Prédiction TxGNN | 99,51 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 5 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le champ officiel de mécanisme d'action (MOA) n'est pas renseigné dans les données DrugBank de ce dossier. Toutefois, l'analyse de repositionnement disponible dans le pack de preuves indique que Roxadustat agit comme un **inhibiteur de la prolyl-hydroxylase de HIF (HIF-PHI)**, stabilisant HIF-1α et HIF-2α — le mécanisme bien connu de cette classe thérapeutique, utilisée pour stimuler la production endogène d'érythropoïétine chez les patients atteints d'anémie liée à la maladie rénale chronique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la pharmacologie générale, roxadustat fait partie des inhibiteurs de la HIF-prolyl-hydroxylase. Il stabilise le HIF et stimule ainsi la réponse à l'hypoxie, notamment la production d'érythropoïétine. Cette action est à l'origine de son usage dans l'anémie rénale.
 
-Le lien avec le syndrome de l'œil sec n'est pas direct : la voie de signalisation HIF participe théoriquement à l'adaptation de l'épithélium de la surface oculaire et des glandes de Meibomius en contexte d'hypoxie ou d'inflammation, ce qui pourrait en théorie influencer la stabilité du film lacrymal. Cependant, le seul essai clinique identifié n'évalue pas Roxadustat comme traitement de l'œil sec : il observe la morphologie et la fonction des glandes de Meibomius chez des patients souffrant d'**anémie rénale** (une population susceptible d'être traitée par Roxadustat ou d'autres agents stimulant l'érythropoïèse), sans que le médicament soit lui-même l'intervention étudiée.
+Le lien avec l'œil sec reste indirect et non prouvé. La stabilisation du HIF pourrait influencer la surface oculaire et les glandes de Meibomius par les voies de réponse à l'hypoxie et d'angiogenèse. Le seul signal clinique vient d'une étude menée chez des patients atteints d'anémie rénale. Dans ce contexte, tout effet observé peut être faussé par la maladie rénale chronique et l'anémie elle-même.
 
-Il s'agit donc d'un lien fondé sur un **chevauchement de population de patients** plutôt que sur une preuve directe d'efficacité médicament-maladie. Le raisonnement mécanistique reste indirect et non validé expérimentalement à ce stade.
+Cette prédiction est donc une hypothèse de recherche et non une piste thérapeutique établie.
 
 ---
 
@@ -67,7 +66,9 @@ Il s'agit donc d'un lien fondé sur un **chevauchement de population de patients
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | N/A (observationnel) | Statut inconnu | 50 | Étude observationnelle sur la morphologie et la fonction des glandes de Meibomius chez des patients atteints d'anémie rénale traités notamment par Roxadustat ; l'essai ne teste pas Roxadustat comme traitement de l'œil sec, mais caractérise cette population de patients présentant des symptômes de sécheresse oculaire. Évaluation de pertinence : **Grade C** (association indirecte, hypothèse-génératrice uniquement). |
+| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | Non applicable | Inconnu | 50 | Fonction et morphologie des glandes de Meibomius chez des patients avec anémie rénale et symptômes d'œil sec. Aucun résultat publié. |
+
+Cet essai est le seul lien clinique avec un critère de surface oculaire. Le titre ne précise pas que roxadustat est l'exposition étudiée, donc l'attribution au médicament n'est pas confirmée. Il n'y a pas de randomisation : l'étude ne peut pas démontrer une efficacité et ne fait que générer des hypothèses. Il faut vérifier dans le registre les bras d'intervention et de comparaison.
 
 ---
 
@@ -79,27 +80,25 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Roxadustat n'est actuellement **pas commercialisé en France** (0 AMM enregistrée, aucune licence disponible dans les données réglementaires). Aucun tableau de spécialités ne peut donc être présenté.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69086973 | EVRENZO 70 mg | Comprimé pelliculé | Non renseignée |
+| 66917067 | EVRENZO 20 mg | Comprimé pelliculé | Non renseignée |
+| 65259762 | EVRENZO 50 mg | Comprimé pelliculé | Non renseignée |
+| 67935673 | EVRENZO 150 mg | Comprimé pelliculé | Non renseignée |
+| 63274908 | EVRENZO 100 mg | Comprimé pelliculé | Non renseignée |
 
----
-
-## Autres Pistes Prédites par TxGNN (Signaux Complémentaires)
-
-Le pack de preuves inclut trois autres indications prédites pour Roxadustat, toutes classées **Hold** (niveau de preuve L5 — prédiction du modèle uniquement, aucune étude clinique ni littérature) :
-
-| Indication Prédite | Score TxGNN | Raison du Hold |
-|------|------|------|
-| Maladie osseuse de Paget | 99.12 % | Direction mécanistique potentiellement contradictoire : l'activation de HIF-1α favorise plutôt l'activité ostéoclastique via l'axe RANKL/VEGF, ce qui pourrait aggraver la résorption osseuse excessive caractéristique de la maladie de Paget, au lieu de l'améliorer. |
-| Dentinogenèse imparfaite | 99.06 % | Maladie génétique structurelle (mutations COL1A1/COL1A2/DSPP) sans rapport physiopathologique établi avec la voie HIF ; lien jugé faible, probable faux positif du modèle. |
-| Carcinome épidermoïde (squamous cell carcinoma) | 99.02 % | **Signal de sécurité, non d'opportunité thérapeutique.** La stabilisation de HIF par Roxadustat pourrait théoriquement favoriser la croissance tumorale (angiogenèse, métabolisme glycolytique) plutôt que la freiner — cohérent avec la surveillance oncologique déjà requise pour les HIF-PHI dans les essais sur l'anémie rénale. Ce signal doit être traité comme une **contre-indication potentielle**, pas comme une piste de repositionnement. |
+Les 5 AMM sont détenues par Astellas Pharma Europe (Pays-Bas).
 
 ---
 
 ## Considérations de Sécurité
 
-Les données structurées de sécurité (mises en garde, contre-indications, interactions médicamenteuses) ne sont pas disponibles dans ce dossier. Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité.
 
-À noter cependant, sur la base de l'analyse mécanistique des prédictions TxGNN elles-mêmes : la classe des HIF-PHI (dont Roxadustat) fait l'objet d'une surveillance oncologique connue, la prédiction « carcinome épidermoïde » de ce même dossier suggérant un risque théorique de stimulation tumorale plutôt qu'un bénéfice thérapeutique (voir section ci-dessus).
+Les mises en garde et contre-indications de la notice ANSM n'ont pas encore été récupérées. Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée. Cela ne prouve pas l'absence d'interactions.
+
+Sur le plan théorique, l'activation du HIF est associée à la progression tumorale et à l'angiogenèse. Ce point demande une vigilance particulière si l'on envisage un usage hors du cadre actuel.
 
 ---
 
@@ -108,13 +107,21 @@ Les données structurées de sécurité (mises en garde, contre-indications, int
 **Décision : Hold**
 
 **Justification :**
-La seule piste avec un début de preuve clinique (syndrome de l'œil sec) repose sur un essai observationnel unique, non interventionnel, à statut inconnu, jugé de pertinence faible (Grade C) par l'évaluation même du pack de preuves. Aucune publication ne soutient cette direction. Les trois autres prédictions (Paget, dentinogenèse imparfaite, carcinome épidermoïde) n'ont aucun essai clinique ni littérature, et l'une d'elles constitue potentiellement un signal de risque plutôt qu'une opportunité.
+- Le niveau de preuve est faible (L4). Le seul essai est non randomisé, d'attribution incertaine, de statut inconnu, et aucune publication ne le soutient.
+- Les données de sécurité de la notice ANSM manquent (lacune bloquante) : le dossier ne peut pas passer au criblage de sécurité S1.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Résolution du data gap bloquant (DG001) : obtention du RCP/notice TFDA (ou équivalent EMA/ANSM) pour les mises en garde et contre-indications, indispensable avant toute évaluation de sécurité (S1)
-- Résolution du data gap MOA (DG002) : confirmation du mécanisme d'action via DrugBank pour affiner l'analyse mécanistique
-- Un essai clinique interventionnel spécifique testant Roxadustat pour le syndrome de l'œil sec (et non une simple étude observationnelle de population)
-- Clarification du profil de risque oncologique de Roxadustat avant toute exploration ultérieure, compte tenu du signal mécanistique contradictoire identifié pour le carcinome épidermoïde
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indication autorisée).
+- Compléter les données sur le mécanisme d'action via DrugBank.
+- Vérifier dans le registre ClinicalTrials.gov les bras de l'essai NCT06287879 et confirmer si roxadustat est l'exposition étudiée.
+- Rechercher des études précliniques ou des publications sur le HIF et la surface oculaire ou les glandes de Meibomius.
+- Pour l'œil sec, définir la voie d'administration : la forme actuelle est orale uniquement, et la compatibilité de voie reste à évaluer.
+
+**Autres prédictions du modèle :** la maladie osseuse de Paget, la dentinogenèse imparfaite et le carcinome épidermoïde reposent uniquement sur le modèle (L5, aucun essai ni publication) et restent en Hold. Le carcinome épidermoïde soulève en outre une préoccupation théorique de sécurité, car l'activation du HIF favorise la progression tumorale.
+
+---
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Alglucosidase Alfa
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 22
+nav_order: 23
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,71 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# ALGLUCOSIDASE ALFA : Rapport d'Évaluation de Repositionnement
+# Alglucosidase alfa : De la maladie de Pompe à la maladie à corps de polyglucosanes de l'adulte
 
 ## Résumé en Une Phrase
 
-L'alglucosidase alfa (DB01272) est une enzyme recombinante de type alpha-glucosidase acide, principalement connue comme thérapie de remplacement enzymatique pour la maladie de Pompe (glycogénose de type II). À ce stade, **aucune nouvelle indication n'a été prédite** par le modèle TxGNN, et l'Evidence Pack présente des **lacunes de données significatives** (absence de MOA détaillé, absence de données de sécurité, aucune AMM en France identifiée) qui empêchent une évaluation complète de repositionnement.
-
----
+Alglucosidase alfa est une enzyme recombinante (alpha-glucosidase acide humaine), utilisée en thérapie enzymatique substitutive dans la maladie de Pompe (glycogénose de type II).
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie à corps de polyglucosanes de l'adulte**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans l'Evidence Pack (connue : maladie de Pompe) |
-| Nouvelle Indication Prédite | Aucune prédiction disponible |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | **L5** — Aucune étude ni prédiction exploitable |
-| Statut de Marché en France | ✗ Non commercialisé (selon les données disponibles) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
-
----
+| Indication Originale | Maladie de Pompe (glycogénose de type II). Le texte d'indication de l'AMM n'est pas renseigné dans les données fournies. |
+| Nouvelle Indication Prédite | Maladie à corps de polyglucosanes de l'adulte (adult polyglucosan body disease) |
+| Score de Prédiction TxGNN | 99,47 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans l'Evidence Pack fourni. D'après les connaissances pharmacologiques générales, l'alglucosidase alfa est une forme recombinante de l'alpha-glucosidase acide humaine (GAA). Elle agit en remplaçant l'enzyme déficiente chez les patients atteints de la maladie de Pompe, permettant la dégradation du glycogène accumulé dans les lysosomes, notamment dans les tissus musculaires squelettiques et cardiaques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de référence. Sur la base des informations connues, l'alglucosidase alfa est une alpha-glucosidase acide recombinante. Elle hydrolyse les liaisons glycosidiques alpha-1,4 et alpha-1,6 du glycogène lysosomal, et son efficacité a été établie dans la maladie de Pompe.
 
-Étant donné qu'**aucune nouvelle indication n'a été prédite** par le modèle TxGNN pour ce médicament, il n'est pas possible d'évaluer la plausibilité mécanistique d'un repositionnement à ce stade. L'absence de prédiction peut s'expliquer par la spécificité élevée du mécanisme d'action de cette enzyme recombinante, qui cible un déficit enzymatique très particulier, limitant ainsi les possibilités de transposition à d'autres pathologies.
+La maladie à corps de polyglucosanes de l'adulte est causée par un déficit en enzyme branchante du glycogène (GBE1). Elle entraîne l'accumulation d'un glycogène mal ramifié (polyglucosane). Le seul point commun est donc le thème général du métabolisme du glycogène.
 
-Une réévaluation pourrait être envisagée si de nouvelles données émergent concernant des voies lysosomales partagées avec d'autres maladies de surcharge ou des pathologies musculaires dégénératives.
+Le lien reste **plausible mais faible**, pour deux raisons :
+- Le polyglucosane s'accumule surtout dans le cytosol des neurones et des axones, alors que l'enzyme agit dans les lysosomes et y accède mal.
+- Pour atteindre le système nerveux, le médicament devrait franchir la barrière hémato-encéphalique.
 
----
+Le score élevé du modèle TxGNN reste une prédiction et ne remplace pas une preuve biologique ou clinique.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé à une nouvelle indication de repositionnement n'est enregistré actuellement.
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée à une nouvelle indication de repositionnement n'est disponible actuellement.
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Aucune AMM identifiée dans les données fournies. Le statut de marché indique **« Non commercialisé »** selon l'Evidence Pack.
-
-> **Note :** Cette information peut être incomplète. L'alglucosidase alfa est commercialisé dans de nombreux pays sous les noms de marque Myozyme® et Lumizyme® pour la maladie de Pompe. Il est recommandé de vérifier directement auprès de l'ANSM pour confirmer le statut réglementaire actuel en France.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61065137 | MYOZYME 50 mg, poudre pour solution à diluer pour perfusion (SANOFI, Pays-Bas) | Poudre pour solution à diluer pour perfusion | Non précisée dans les données disponibles |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
-
-> **Lacunes de données identifiées :**
-> - Les mises en garde principales ne sont pas disponibles (source recommandée : notice officielle / RCP)
-> - Les contre-indications ne sont pas disponibles (source recommandée : notice officielle / RCP)
-> - Aucune interaction médicamenteuse identifiée dans les bases consultées
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans les données interrogées.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune nouvelle indication n'a été prédite par le modèle TxGNN pour l'alglucosidase alfa. De plus, l'Evidence Pack présente des lacunes de données critiques (MOA, données de sécurité, statut réglementaire) classées comme « Blocking » et « High severity », empêchant toute progression vers une évaluation de repositionnement.
+- Le niveau de preuve est L5 : il n'existe ni essai ni publication, et le lien mécanistique est faible (enzyme lysosomale face à une accumulation cytosolique, avec passage de la barrière hémato-encéphalique nécessaire).
+- Les autres prédictions du classement présentent le même niveau de preuve. Deux formes de glycogénose par déficit en enzyme branchante ont un lien tout aussi faible, car l'enzyme ne corrige pas le déficit de ramification. Les prédictions ophtalmologiques (entropion, ectropion, syndrome de Horner congénital, etc.) n'ont aucun mécanisme plausible et sont probablement des artefacts du graphe de connaissances.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Résolution de **DG001** (sévérité : Blocking) — Obtenir les mises en garde et contre-indications à partir de la notice officielle (RCP / ANSM)
-- Résolution de **DG002** (sévérité : High) — Récupérer les données détaillées du mécanisme d'action via l'API DrugBank
-- Vérification du statut réglementaire réel en France auprès de l'ANSM (l'alglucosidase alfa est potentiellement commercialisé sous le nom Myozyme®)
-- Relance du modèle TxGNN avec des données d'entrée enrichies pour vérifier si des prédictions de repositionnement émergent
-- Exploration de la littérature sur les applications potentielles de la thérapie de remplacement enzymatique au-delà de la maladie de Pompe (autres glycogénoses, myopathies lysosomales)
+- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour tout passage à l'étape de criblage de sécurité).
+- Les données détaillées sur le mécanisme d'action (DrugBank).
+- Des données précliniques montrant que l'enzyme atteint le polyglucosane neuronal, avec une stratégie de passage de la barrière hémato-encéphalique.
+- Une revue de la littérature sur les approches de thérapie enzymatique dans les déficits en GBE1.
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

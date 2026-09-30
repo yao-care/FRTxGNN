@@ -2,7 +2,7 @@
 layout: default
 title: Tolcapone
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 314
+nav_order: 318
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,56 +29,67 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tolcapone : De la Maladie de Parkinson à l'Encéphalite Subaiguë de Rasmussen
+# Tolcapone : De la maladie de Parkinson à l'encéphalite subaiguë de Rasmussen
 
 ## Résumé en Une Phrase
 
-Le tolcapone est un inhibiteur de la catéchol-O-méthyltransférase (COMT), utilisé comme traitement adjuvant de la maladie de Parkinson en association avec la lévodopa/carbidopa. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Encéphalite Subaiguë de Rasmussen**, avec un score de confiance de **99,93 %**, mais cette prédiction n'est actuellement soutenue par **aucun essai clinique** ni **aucune publication**, et aucun lien mécanistique connu ne relie cette maladie au mode d'action du tolcapone.
+Tolcapone est un inhibiteur de la COMT (catéchol-O-méthyltransférase), connu comme traitement adjuvant de la lévodopa dans la maladie de Parkinson. Le texte d'indication de l'AMM française n'est pas renseigné dans les données reçues.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**encéphalite subaiguë de Rasmussen**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Parkinson (traitement adjuvant à la lévodopa/carbidopa) |
+| Indication Originale | Non renseignée dans l'AMM (maladie de Parkinson d'après la connaissance pharmacologique du médicament) |
 | Nouvelle Indication Prédite | Encéphalite subaiguë de Rasmussen |
 | Score de Prédiction TxGNN | 99,93 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données structurées sur le mécanisme d'action (MOA) du tolcapone ne sont pas disponibles dans ce dossier — il s'agit d'un écart de données classé priorité « High » (nécessitant une requête complémentaire sur DrugBank). Sur la base des informations générales connues sur ce candidat, le tolcapone est un inhibiteur de la COMT dont l'efficacité comme traitement adjuvant de la maladie de Parkinson est établie, en potentialisant la disponibilité cérébrale de la dopamine issue de la lévodopa.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, tolcapone est un inhibiteur de la COMT : il prolonge l'exposition à la lévodopa et réduit les fluctuations motrices dans la maladie de Parkinson.
 
-L'encéphalite subaiguë de Rasmussen est une maladie auto-immune/inflammatoire rare du cerveau, sans rapport physiopathologique connu avec l'inhibition de la COMT ou le métabolisme des catécholamines. Le dossier de preuves l'indique explicitement : cette prédiction ne dispose d'aucun lien mécanistique établi, elle repose uniquement sur le score du modèle TxGNN, sans support mécanistique, clinique ou bibliographique à ce stade.
+Le lien avec l'encéphalite de Rasmussen est en revanche **très faible**. Cette maladie est un processus inflammatoire à médiation immunitaire, piloté par les lymphocytes T. Or la inhibition de la COMT n'a aucune action immunomodulatrice connue. Le score TxGNN élevé résulte d'une prédiction fondée sur le graphe de connaissances, sans essai ni publication pour l'étayer.
 
-À titre d'information, d'autres indications prédites pour le tolcapone dans ce même dossier présentent un rationnel mécanistique nettement plus direct — notamment des syndromes parkinsoniens partageant la physiopathologie dopaminergique de l'indication d'origine. Ces candidats pourraient constituer une priorité d'évaluation plus pertinente que la prédiction de rang 1 traitée ici.
+Il faut donc lire ce résultat avec prudence : un score élevé ne signifie pas qu'un mécanisme plausible existe.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement
+Aucune littérature associée disponible actuellement.
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 67077388 | TASMAR 100 mg, comprimé pelliculé (VIATRIS HEALTHCARE, Irlande) | Comprimé pelliculé | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. À noter : les mises en garde et contre-indications réglementaires (TFDA/équivalent) pour le tolcapone n'ont pas pu être récupérées dans ce dossier — il s'agit d'un écart de données bloquant qui empêche toute évaluation de sécurité initiale (stade S1).
+Veuillez consulter la notice pour les informations de sécurité.
+
+À titre indicatif, l'analyse de plausibilité du dossier évoque une **hépatotoxicité** de tolcapone, nécessitant une surveillance hépatique. Ce point n'est pas issu de la notice ANSM et doit être vérifié.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction de rang 1 (Encéphalite subaiguë de Rasmussen) affiche un score TxGNN élevé mais ne dispose d'aucune preuve clinique, bibliographique ou mécanistique — niveau de preuve L5, stade S0. En l'absence de tout support autre que le score du modèle, une décision « Hold » s'impose.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible avec une maladie inflammatoire à médiation immunitaire.
+- Les données de sécurité de la notice ANSM sont absentes, ce qui empêche toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Résolution de l'écart de données bloquant : obtenir les mises en garde/contre-indications réglementaires du tolcapone avant toute évaluation de sécurité (S1)
-- Complément du mécanisme d'action (MOA) via DrugBank
-- Recherche ciblée d'études précliniques ou de modèles d'encéphalite auto-immune pour évaluer un rationnel mécanistique plausible
-- Réévaluation prioritaire des candidats à niveau de preuve supérieur dans ce même dossier (ex. démence à corps de Lewy — L4 ; parkinsonisme juvénile de Hunt — L4/S2), plus proches physiopathologiquement de l'indication d'origine
+- Récupérer la notice ANSM (mises en garde et contre-indications) : point bloquant.
+- Compléter les données sur le mécanisme d'action via DrugBank.
+- Identifier un rationnel immunologique ou neuro-inflammatoire pour tolcapone dans l'encéphalite de Rasmussen, puis chercher des données précliniques ou cliniques.
+
+**Autres candidats de la liste à examiner en priorité :** parmi les 10 prédictions, deux ont un niveau L4 et un statut « Research Question ». Ce sont la démence à corps de Lewy (2 publications précliniques, sans test de tolcapone) et la paralysie agitante juvénile de Hunt (parkinsonisme précoce, soutien indirect seulement). Leur proximité avec l'indication parkinsonienne existante les rend plus plausibles que l'encéphalite de Rasmussen, mais elles ne disposent d'aucun essai clinique.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

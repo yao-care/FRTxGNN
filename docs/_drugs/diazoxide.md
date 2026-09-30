@@ -2,7 +2,7 @@
 layout: default
 title: Diazoxide
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 101
+nav_order: 103
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,69 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Diazoxide : De l'Hypoglycémie Hyperinsulinémique à l'Hypotrichosis Simplex du Cuir Chevelu
+# Diazoxide : De l'hypoglycémie hyperinsulinémique à l'hypotrichose simple du cuir chevelu
 
 ## Résumé en Une Phrase
 
-Diazoxide est un ouvreur des canaux KATP, historiquement utilisé dans le traitement de l'hypoglycémie hyperinsulinémique et des urgences hypertensives, sans enregistrement actuel en France.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hypotrichosis Simplex du Cuir Chevelu** — une maladie génétique rare caractérisée par une perte de cheveux progressive et diffuse du cuir chevelu —
-avec **0 essai clinique** et **0 publication** soutenant directement cette indication à ce jour. Des preuves indirectes de niveau L4 existent cependant pour l'alopécie en général (9 publications, prédiction rang 4).
-
----
+Le diazoxide est un ouvreur des canaux KATP. Le dossier ne renseigne aucune indication d'origine, mais la littérature fournie le rattache à l'hypoglycémie hyperinsulinémique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypotrichose simple du cuir chevelu**, une prédiction sans aucun appui documentaire : **0 essai clinique** et **0 publication** la soutiennent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypoglycémie hyperinsulinémique (non enregistré en France) |
-| Nouvelle Indication Prédite | Hypotrichosis Simplex du Cuir Chevelu |
-| Score de Prédiction TxGNN | 99.96% |
+| Indication Originale | Non renseignée dans les AMM françaises ni dans le dossier (hypoglycémie hyperinsulinémique d'après la littérature fournie) |
+| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
+| Score de Prédiction TxGNN | 99,96 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. Sur la base des informations référencées dans la littérature incluse (notamment PMID 2085505, 8326148, 27161588), diazoxide agit comme **ouvreur des canaux KATP** (canaux potassiques sensibles à l'ATP). En activant les canaux KATP des cellules β pancréatiques (via la sous-unité SUR1), il inhibe la sécrétion d'insuline — d'où son usage de première ligne dans les hyperinsulinismes congénitaux. En activant les canaux SUR2B du muscle lisse vasculaire, il induit une vasodilatation périphérique — d'où son usage antihypertenseur historique.
+Actuellement, les données détaillées sur le mécanisme d'action issues de DrugBank ne sont pas disponibles. Le dossier indique toutefois que le diazoxide est un ouvreur des canaux potassiques ATP-dépendants (KATP). L'hypertrichose est un effet indésirable bien connu du médicament, d'où une plausibilité biologique d'un effet stimulant sur la pousse des cheveux.
 
-La prédiction pour l'hypotrichosis simplex du cuir chevelu repose sur une analogie mécanistique directe avec le **minoxidil**, traitement approuvé de l'alopécie : les deux molécules ouvrent les canaux KATP, provoquant une vasodilatation périvasculaire folliculaire et une activation directe des cellules de la papille dermique, ce qui prolonge la phase anagène (croissance) du cycle pilaire. Cette hypothèse est indirectement validée par un fait pharmacologique bien établi : l'**hypertrichose** (croissance excessive des poils) est l'un des effets indésirables les plus fréquemment rapportés du diazoxide systémique, observé chez les nourrissons traités pour hyperinsulinisme (PMID 30083030 : 8,6 % des patients). Une étude chez le macaque à queue de moignon a par ailleurs démontré une repousse des cheveux après application topique de diazoxide à 5 % (PMID 2085505), constituant une preuve préclinique directe de la classe.
+L'hypotrichose simple est cependant un trouble génétique de la tige pilaire ou du follicule. Aucune donnée ne montre que l'ouverture des canaux KATP corrige le défaut sous-jacent. La prédiction repose donc uniquement sur le modèle, sans essai ni publication à l'appui.
 
-Toutefois, l'hypotrichosis simplex du cuir chevelu est une maladie génétique rare impliquant des mutations structurelles (laminine LAMA3, cornéodesmosine CDSN, etc.) dont la physiopathologie va au-delà d'une simple insuffisance de vascularisation folliculaire. Aucune étude clinique ni préclinique n'a été publiée spécifiquement pour cette indication, ce qui justifie le niveau de preuve L5 et la décision Hold.
-
----
+Une piste plus solide existe pour la prédiction voisine « alopécie » (rang 4, niveau L4). Le mécanisme proposé est le même que celui du minoxidil, et le diazoxide topique a stimulé la croissance folliculaire chez le macaque à queue courte ([PMID 2085505](https://pubmed.ncbi.nlm.nih.gov/2085505/)). Les données humaines se limitent à des revues, des cas cliniques et des observations d'effets indésirables.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
 
-Diazoxide ne dispose d'aucune autorisation de mise sur le marché (AMM) en France. Aucune donnée réglementaire française disponible dans ce dossier.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 62678246 | PROGLICEM 25 mg, gélule | Gélule | MSD FRANCE |
+| 66800719 | PROGLICEM 100 mg, gélule | Gélule | MSD FRANCE |
 
----
+Le texte d'indication approuvée n'est pas renseigné pour ces deux AMM.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
----
+À titre indicatif, la littérature fournie rapporte comme effets indésirables du diazoxide l'hypertrichose, la rétention hydrique et l'hyperglycémie. Ces éléments ne proviennent pas d'une notice ANSM.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-L'indication « hypotrichosis simplex du cuir chevelu » est de niveau L5, sans aucune preuve clinique ou préclinique spécifique, et diazoxide n'est pas commercialisé en France. La plausibilité mécanistique reste théorique (analogie KATP/minoxidil, confirmée indirectement par l'hypertrichose iatrogène), mais elle est insuffisante pour justifier un avancement sans données empiriques dédiées.
-
-> ⚠️ **Note sur le paysage de prédictions :** Parmi les 10 prédictions TxGNN analysées, le rang 10 (**hyperinsulinisme dominant autosomique par déficit en Kir6.2**) présente le lien mécanistique le plus solide et direct — diazoxide compensant précisément la perte de fonction de la sous-unité Kir6.2 du canal KATP. Cette piste mérite une évaluation prioritaire en parallèle.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. L'hypertrichose induite par le diazoxide est un effet indésirable connu, et rien n'indique qu'elle corrige un défaut folliculaire génétique. Parmi les autres prédictions, seule « alopécie » (L4) dispose d'un appui préclinique, chez l'animal.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Confirmation du mécanisme d'action complet via DrugBank API et consultation de la notice ANSM
-- Données de sécurité complètes (contre-indications, mises en garde, interactions médicamenteuses)
-- Études précliniques sur follicules pileux humains ou modèles ex vivo de cuir chevelu
-- Évaluation d'une formulation topique (5 % diazoxide, analogue à l'étude chez le macaque, PMID 2085505) pour limiter les effets systémiques (hyperglycémie, rétention hydrique)
-- Consultation d'un dermatologue spécialisé en maladies rares du cheveu pour évaluer la pertinence clinique dans ce sous-type génétique précis
-- Stratégie réglementaire pour une indication orpheline (procédure d'accès précoce/ATU en France, étiquetage ORPHA)
+- Les mises en garde et contre-indications de la notice ANSM, actuellement absentes et bloquantes pour le criblage de sécurité
+- Les données de mécanisme d'action issues de DrugBank
+- L'indication approuvée de PROGLICEM, pour confirmer l'indication d'origine (le champ vide semble être une lacune de données)
+- Pour la piste « alopécie », des données humaines d'efficacité et une évaluation de la formulation topique, de l'absorption systémique et du profil de sécurité systémique (rétention hydrique, hyperglycémie, hypertrichose)
+- Le reclassement de l'hypertrichose (rang 7) comme signal de sécurité, et non comme indication à poursuivre
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

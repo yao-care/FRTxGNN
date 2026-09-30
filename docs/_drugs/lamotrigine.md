@@ -2,7 +2,7 @@
 layout: default
 title: Lamotrigine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 165
+nav_order: 168
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,11 +29,12 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Lamotrigine : De l'Épilepsie au Neoplasme du Nerf Trijumeau
+# Lamotrigine : De l'Épilepsie au Néoplasme du Nerf Trijumeau
 
 ## Résumé en Une Phrase
 
-Lamotrigine est un antiépileptique à large spectre (bloqueur des canaux sodiques voltage-dépendants), utilisé notamment dans l'épilepsie et le trouble bipolaire. Le modèle TxGNN prédit un signal pour le **Néoplasme du Nerf Trijumeau**, mais ce signal n'est actuellement soutenu par **aucun essai clinique** et seulement **2 publications** qui ne portent pas sur un usage antitumoral — l'analyse jointe au dossier suspecte une confusion algorithmique entre les noeuds « névralgie » et « néoplasme » trijéminal.
+La lamotrigine est un antiépileptique utilisé dans les crises d'épilepsie et les troubles bipolaires, d'après la littérature associée. Les textes d'indication des AMM ne sont pas renseignés dans le dossier.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour le **néoplasme du nerf trijumeau**, mais **aucun essai clinique** et seulement **2 publications** sont associés à cette prédiction. Ces deux publications portent sur la névralgie du trijumeau, non sur la tumeur.
 
 ---
 
@@ -41,29 +42,29 @@ Lamotrigine est un antiépileptique à large spectre (bloqueur des canaux sodiqu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentée dans le dossier structuré (lacune DG002). D'après la littérature du dossier, lamotrigine est classée comme anticonvulsivant à large spectre, utilisé notamment dans l'épilepsie (crises partielles, absences) [PMID 20200383, 34931602] |
-| Nouvelle Indication Prédite | Neoplasme du Nerf Trijumeau (*trigeminal nerve neoplasm*) |
-| Score de Prédiction TxGNN | 99.97 % (rang 544) |
+| Indication Originale | Non renseignée dans les textes d'AMM (la littérature associée mentionne l'épilepsie et le trouble bipolaire) |
+| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau |
+| Score de Prédiction TxGNN | 99,97 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le mécanisme d'action détaillé de la lamotrigine n'est pas disponible dans ce dossier (lacune de données, DG002). D'après la littérature associée à ce candidat et aux prédictions voisines, la lamotrigine agit comme stabilisateur des canaux sodiques voltage-dépendants, réduisant la libération de glutamate et l'excitabilité neuronale — un mécanisme validé dans l'épilepsie et dans certaines douleurs neuropathiques (dont la névralgie du trijumeau, cf. rang 2 ci-dessous).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. La lamotrigine est un antiépileptique. On lui attribue en général un blocage des canaux sodiques voltage-dépendants et une réduction de la libération de glutamate. Ce mécanisme n'est pas documenté dans le champ MOA du dossier.
 
-Ce mécanisme peut expliquer un bénéfice symptomatique sur une douleur neuropathique liée à une compression tumorale du nerf trijumeau, mais **il n'existe aucune preuve ni rationnel pharmacologique d'un effet antiprolifératif ou antitumoral** de la lamotrigine. Les deux publications rattachées à cette prédiction traitent en réalité de traitements (chirurgicaux, radiochirurgicaux) de la névralgie du trijumeau, pas du néoplasme du nerf trijumeau en tant que tel.
+Ce mécanisme ne suggère aucune activité antitumorale. Le score élevé du modèle reflète plus probablement la proximité avec la **névralgie du trijumeau**, une douleur faciale paroxystique, que l'effet sur une tumeur. Les deux publications retrouvées portent sur la névralgie du trijumeau : une revue générale et un cas de névralgie liée à une malformation caverneuse traitée par radiochirurgie.
 
-L'évaluation jointe au dossier signale explicitement que cette indication est **probablement un artefact du modèle** : TxGNN semble avoir confondu le nœud « névralgie du trijumeau » (*trigeminal neuralgia*, une entité douloureuse fonctionnelle) avec le nœud « néoplasme du nerf trijumeau » (*trigeminal nerve neoplasm*, une entité tumorale structurelle) — deux concepts proches lexicalement mais cliniquement très différents.
+Rien dans les données ne montre que la lamotrigine traite le néoplasme lui-même. Au mieux, elle pourrait soulager de façon symptomatique une douleur neuropathique associée à la tumeur. Cette prédiction est donc peu solide sur le plan mécanistique.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement.
 
 ---
 
@@ -71,24 +72,28 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revue | Expert Review of Neurotherapeutics | Panorama des traitements médicaux et chirurgicaux de la névralgie du trijumeau (douleur faciale) ; ne traite pas d'un néoplasme ni d'un effet antitumoral |
-| [30650431](https://pubmed.ncbi.nlm.nih.gov/30650431/) | 2018 | Rapport de cas | Stereotactic and Functional Neurosurgery | Traitement par radiochirurgie Gamma Knife d'une névralgie du trijumeau causée par un cavernome ; approche non médicamenteuse, sans lien avec la lamotrigine |
-
-Aucune des deux publications ne soutient directement l'indication « néoplasme du nerf trijumeau ».
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revue | Expert Rev Neurother | Panorama des traitements médicaux et chirurgicaux de la névralgie du trijumeau. Cause probable : compression vasculaire de la racine du nerf, avec démyélinisation focale. Ne traite pas de tumeur. |
+| [30650431](https://pubmed.ncbi.nlm.nih.gov/30650431/) | 2018 | Rapport de cas | Stereotact Funct Neurosurg | Première prise en charge par radiochirurgie (Gamma Knife) d'une névralgie du trijumeau secondaire à une malformation caverneuse du tronc cérébral, avec revue de la littérature. |
 
 ---
 
 ## Informations de Marché en France
 
-Aucune AMM enregistrée — médicament non commercialisé selon les données disponibles dans ce dossier (0 licence recensée).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 65503120 | LAMOTRIGINE TEVA 25 mg (TEVA SANTÉ) | Comprimé dispersible ou à croquer |
+| 69967246 | LAMOTRIGINE VIATRIS 100 mg (VIATRIS SANTÉ) | Comprimé dispersible |
+| 63062684 | LAMOTRIGINE ZYDUS 200 mg (ZYDUS FRANCE) | Comprimé dispersible ou à croquer |
+| 62000092 | LAMOTRIGINE ARROW LAB 50 mg (ARROW GÉNÉRIQUES) | Comprimé dispersible ou à croquer |
+| 65667034 | LAMICTAL 200 mg (GLAXOSMITHKLINE) | Comprimé dispersible ou à croquer |
+
+Le dossier liste 5 des 20 AMM. Les textes d'indication ne sont pas fournis.
 
 ---
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
-*Note : la collecte des mises en garde/contre-indications TFDA est marquée comme lacune bloquante (DG001) dans ce dossier — elle empêche toute évaluation de sécurité initiale (étape S1) pour ce candidat.*
 
 ---
 
@@ -97,15 +102,14 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- Niveau de preuve L5 (aucun essai clinique, littérature non spécifique à l'indication) et stade de décision S0.
-- Le lien mécanistique est absent : la lamotrigine n'a pas de propriété antitumorale connue, et l'indication est suspectée d'être une confusion du modèle entre « névralgie » et « néoplasme » trijéminal plutôt qu'un signal biologique réel.
-- La lacune bloquante sur les mises en garde/contre-indications (DG001) empêche de toute façon la progression vers une évaluation de sécurité (S1).
+- La prédiction repose sur le seul score du modèle (niveau L5). Aucun essai n'est associé, et les deux publications concernent la névralgie du trijumeau, non le néoplasme.
+- Aucune donnée ne suggère une action antitumorale de la lamotrigine. Le score élevé traduit probablement un signal symptomatique lié à la douleur.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération des mises en garde/contre-indications TFDA (DG001, bloquant) pour permettre une évaluation de sécurité de base.
-- Confirmation du mécanisme d'action (MOA) via DrugBank (DG002).
-- Vérification auprès de l'équipe modèle de la confusion présumée entre les nœuds « trigeminal neuralgia » et « trigeminal nerve neoplasm » dans le graphe TxGNN.
-- À titre de comparaison, la prédiction voisine « **névralgie du trijumeau** » (rang 2, score 99.89 %) dispose d'un niveau de preuve nettement supérieur (L2, plusieurs essais Phase 2/3 complétés dont NCT00913107 et NCT00203229) et d'une recommandation « Proceed with Guardrails » — elle constitue un signal plus solide à prioriser que le présent candidat.
+- Récupérer la notice ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le passage au premier filtre de sécurité.
+- Compléter le mécanisme d'action (via l'API DrugBank) et les indications des AMM.
+- Rechercher toute donnée précliniques ou cliniques d'activité antitumorale de la lamotrigine. Sinon, requalifier l'objectif comme un usage symptomatique (douleur neuropathique associée à la tumeur).
+- Examiner en priorité l'indication voisine **névralgie du trijumeau** (2ᵉ rang de la prédiction), nettement mieux étayée. Elle est classée L2 et « Proceed with Guardrails » dans le dossier, avec un essai de phase 2/3 terminé comparant la lamotrigine à la carbamazépine (NCT00913107, 21 patients, donc de faible puissance) et un essai contrôlé contre placebo en traitement additionnel (NCT00203229, 20 patients).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

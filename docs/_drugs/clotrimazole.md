@@ -2,7 +2,7 @@
 layout: default
 title: Clotrimazole
 parent: Preuves modérées (L3-L4)
-nav_order: 85
+nav_order: 87
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,85 +29,73 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Clotrimazole : Des Infections Fongiques à l'Acné
+# Clotrimazole : D'un Antifongique Azolé à l'Acné
 
 ## Résumé en Une Phrase
 
-Clotrimazole est un antifongique azolé à large spectre, utilisé mondialement pour le traitement des infections à *Candida* (candidose vaginale, oropharyngée) et des dermatophyties (tinea pedis, tinea corporis) — bien qu'aucune AMM française ne soit enregistrée dans ce système.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Acné**, mais cette direction n'est soutenue que par **1 essai clinique suspendu** et **aucune publication dédiée**.
-La base de preuves actuelle est insuffisante pour justifier un développement clinique dans cette indication.
-
----
+Le clotrimazole est un antifongique azolé commercialisé en France sous forme de comprimés vaginaux, de crème et de capsule vaginale. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acné**, mais cette prédiction repose sur **1 seul essai clinique** (une association de trois principes actifs, suspendu) et **aucune publication** directement liée.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Infections fongiques / Candidose (non approuvé en France — données AMM indisponibles) |
+|------|------|
+| Indication Originale | Non précisée dans les données d'AMM disponibles (antifongique azolé) |
 | Nouvelle Indication Prédite | Acné |
 | Score de Prédiction TxGNN | 99,86 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
-
----
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 6 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action de Clotrimazole ne sont pas disponibles dans ce système. D'après les données de la littérature (PMID 24863842), Clotrimazole est un antifongique azolé synthétique qui inhibe l'enzyme CYP51 (14α-déméthylase), bloquant ainsi la biosynthèse de l'ergostérol — constituant essentiel de la membrane fongique. L'accumulation de précurseurs toxiques entraîne l'altération membranaire et la mort cellulaire fongique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le clotrimazole est un antifongique imidazolé utilisé par voie locale et vaginale. Il agit en inhibant la synthèse de l'ergostérol, un constituant essentiel de la membrane des levures comme *Candida*.
 
-La relation entre ce mécanisme antifongique et l'acné est indirecte et hypothétique. L'acné typique est d'étiologie bactérienne (*Cutibacterium acnes*) et hormonale, deux cibles sur lesquelles Clotrimazole n'exerce pas d'action directe. Le seul lien mécanistique plausible concerne la **folliculite à *Malassezia***, infection fongique des follicules pileux qui peut cliniquement mimer l'acné — et pour laquelle un antifongique azolé serait pertinent. Par ailleurs, certains azolés présentent des propriétés anti-inflammatoires accessoires, mais cet effet n'a pas été validé dans des modèles d'acné.
+Le lien avec l'acné est plausible mais non démontré. Les azolés sont actifs contre *Malassezia* et d'autres levures, impliquées dans certaines éruptions de type acnéiforme ou folliculite. Ils pourraient aussi avoir un léger effet anti-inflammatoire.
 
-Le score TxGNN élevé (99,86 %) reflète probablement des connexions non spécifiques entre nœuds de maladies cutanées et agents antimicrobiens dans le graphe de connaissances, plutôt qu'une spécificité mécanistique réelle pour l'acné. L'absence totale de publications scientifiques ciblant cette association renforce cette interprétation.
-
----
+Le score TxGNN très élevé (99,86 %) est une prédiction du modèle et non une preuve clinique. Le seul signal clinique concerne une association fixe (bétaméthasone/béclométasone + gentamicine + clotrimazole). La contribution propre du clotrimazole ne peut donc pas être isolée de celle du corticoïde et de l'antibiotique.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---|---|---|---|---|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | ⚠️ Suspendu | 80 | Évaluation de l'efficacité comparative d'une combinaison **Beclométhasone 0,025 % + Gentamicine 0,1 % + Clotrimazole 1 %** chez des patients avec dermatose infectée à lésions symétriques bilatérales. L'essai n'a pas été mené à terme, et Clotrimazole est co-formulé avec un corticostéroïde et un antibiotique — sa contribution individuelle à l'acné ne peut pas être isolée. |
+|---------|------|------|------|---------|
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspendu | 80 | Efficacité comparative d'une crème dermatologique associant béclométasone 0,025 %, gentamicine 0,1 % et clotrimazole 1 % chez des patients présentant une dermatose surinfectée avec lésions bilatérales symétriques. Aucun résultat publié. |
 
----
+Cet essai n'apporte qu'une preuve indirecte : l'association confond l'effet du clotrimazole avec celui des autres composants, et l'essai est suspendu.
 
 ## Preuves de la Littérature
 
-Aucune littérature associant Clotrimazole spécifiquement à l'acné n'est disponible actuellement.
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Aucune AMM pour Clotrimazole n'est enregistrée en France dans ce système de données (statut : non commercialisé).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 67301480 | MYCOHYDRALIN 200 mg, comprimé vaginal | Comprimé |
+| 62633525 | CLOTRIMAZOLE EG LABO CONSEIL 1 %, crème | Crème |
+| 67933494 | MYCOHYDRALIN 500 mg, comprimé vaginal | Comprimé |
+| 67777579 | MYCOHYDRALIN, crème | Crème |
+| 60070359 | MYCOHYDRALIN 500 mg, capsule vaginale | Capsule |
 
-> **Note clinique :** À l'échelle mondiale, Clotrimazole est commercialisé depuis les années 1970 sous de nombreuses marques (Canesten®, Empecid®, etc.) pour les indications fongiques topiques et vaginales. L'absence de données AMM françaises dans ce système est vraisemblablement liée à un périmètre de collecte limité.
-
----
+Le texte des indications approuvées n'est pas renseigné dans les données d'AMM. Ces 5 AMM sont celles listées dans le dossier, sur un total de 6.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice officielle du fabricant pour les informations de sécurité complètes.
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-L'unique essai clinique identifié est suspendu avant complétion et évalue une combinaison tri-médicamenteuse, rendant impossible toute conclusion sur la contribution isolée de Clotrimazole dans l'acné. Aucune publication scientifique ne soutient cette direction, et le lien mécanistique avec l'acné bactérienne classique est structurellement faible. Le score TxGNN élevé est probablement un artéfact de connectivité dans le graphe de connaissances.
+- La prédiction pour l'acné repose sur un seul essai suspendu, portant sur une association de trois principes actifs et sans résultats. Elle reste au niveau de preuve L4, et le score du modèle ne remplace pas une preuve clinique.
+- Pour information, l'indication classée en 2ᵉ position, la **vulvovaginite (candidose vulvovaginale)**, dispose de preuves directes (essai de phase 4 terminé contre fluconazole, NCT02180828). Il s'agit toutefois d'un usage déjà connu du clotrimazole, et non d'un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-
-- Données sur le mécanisme d'action complet (MOA) de Clotrimazole, notamment ses effets anti-inflammatoires potentiels
-- Clarification diagnostique de la cible : **acné bactérienne** (*C. acnes*) versus **folliculite fongique à *Malassezia*** — distinction clinique et histologique indispensable avant tout essai
-- Études précliniques *in vitro* / *in vivo* sur des modèles de folliculite à *Malassezia* versus acné bactérienne
-- Essais cliniques en monothérapie Clotrimazole topique dans l'indication précisément définie
-
----
-
-> **Note sur les autres indications prédites :** Le modèle TxGNN a également prédit **Vulvovaginite** (rang 2, score 99,59 %, niveau L1 — 22 essais cliniques, 20 publications) et **Vaginite atrophique post-ménopausique** (rang 3, score 99,46 %, niveau L5). La vulvovaginite correspond à l'indication mondiale établie de Clotrimazole (non un repositionnement) ; la vaginite atrophique ne dispose d'aucun mécanisme pertinent ni d'aucune preuve clinique.
+- Notice ANSM (mises en garde, contre-indications), données de sécurité bloquantes pour tout passage à l'étape suivante
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Études isolant l'effet du clotrimazole dans l'acné (monothérapie versus placebo ou comparateur), ou données sur *Malassezia* et les éruptions acnéiformes
+- Vérification de la compatibilité de voie d'administration (les formes commercialisées en France sont vaginales ou crème)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

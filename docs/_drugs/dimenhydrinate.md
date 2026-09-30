@@ -2,7 +2,7 @@
 layout: default
 title: Dimenhydrinate
 parent: Preuves modérées (L3-L4)
-nav_order: 104
+nav_order: 106
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,77 +29,71 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Dimenhydrinate : Du Mal des Transports à l'Urticaire Allergique
+# Dimenhydrinate : De l'indication originale (non renseignée) à l'urticaire allergique
 
 ## Résumé en Une Phrase
 
-Dimenhydrinate est un antihistaminique principalement utilisé pour la prévention et le traitement du mal des transports, des nausées et des vertiges. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Urticaire Allergique**, grâce à son métabolite actif, la diphenhydramine. Cette direction est soutenue par **0 essai clinique direct** et **1 publication** (étude pharmacocinétique vétérinaire), plaçant le niveau de preuve actuel au stade préclinique/mécanistique.
-
----
+Le dimenhydrinate est le sel de 8-chlorothéophylline de la diphénhydramine, un antihistaminique H1 de première génération. Les données fournies ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire allergique**, avec **0 essai clinique** et **1 publication** (une étude pharmacocinétique préliminaire chez le chien) à l'appui.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mal des transports, nausées et vertiges |
-| Nouvelle Indication Prédite | Urticaire Allergique |
+| Indication Originale | Non renseignée (le texte d'indication des AMM est vide) |
+| Nouvelle Indication Prédite | Urticaire allergique |
 | Score de Prédiction TxGNN | 99,74 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Dimenhydrinate est un sel composé de diphenhydramine et de 8-chlorotheophylline. Après administration, il se dissocie en ces deux molécules actives. La diphenhydramine, son composant pharmacologiquement dominant, est un antihistaminique H1 de première génération qui bloque de manière compétitive les récepteurs histaminiques H1, inhibant ainsi la vasodilatation et la fuite plasmatique — deux mécanismes centraux dans la physiopathologie de l'urticaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le dimenhydrinate est le sel de la diphénhydramine avec la 8-chlorothéophylline. La diphénhydramine est un antihistaminique H1 de première génération, et le dimenhydrinate pourrait donc, sur le plan mécanistique, être applicable à l'urticaire allergique.
 
-L'urticaire allergique est précisément une affection médiée par l'histamine libérée par les mastocytes en réponse à un allergène. Les antihistaminiques H1, dont la diphenhydramine, constituent le traitement de première ligne de l'urticaire aiguë depuis des décennies. La prédiction TxGNN repose donc sur une base mécanistique cohérente.
+Dans l'urticaire, la libération d'histamine par les mastocytes provoque les papules et l'érythème. Le blocage des récepteurs H1 est donc biologiquement plausible, et les antihistaminiques de cette classe sont bien établis. En revanche, les données fournies ne contiennent aucune preuve directe d'efficacité du dimenhydrinate dans l'urticaire. Le score élevé de TxGNN reste une prédiction du modèle.
 
-Cependant, le lien est **indirect** : les preuves existantes soutiennent la diphenhydramine en tant que principe actif, non le dimenhydrinate en tant que sel formulé. À ce jour, aucun essai clinique n'a spécifiquement évalué le dimenhydrinate pour l'urticaire allergique. Son utilisation clinique habituelle reste centrée sur le syndrome vertigineux et le mal des transports.
-
----
+Le modèle propose aussi l'**urticaire au froid** (score 99,24 %), avec le même raisonnement par blocage H1. Pour cette indication, il n'existe ni essai clinique ni publication dans les données fournies : la preuve est de niveau L5 (prédiction seule). Les antihistaminiques de première génération ont un profil sédatif et anticholinergique qu'il faudrait mettre en balance avec les alternatives de seconde génération.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | Étude PK | Veterinary Dermatology | Étude pilote chez le chien comparant la pharmacocinétique de la diphenhydramine administrée par voie orale et IV, et du dimenhydrinate par voie orale. Le dimenhydrinate produit une meilleure absorption orale de la diphenhydramine. L'effet pharmacodynamique sur la formation de papules induites par l'histamine a été évalué, mais l'efficacité clinique reste variable. |
-
----
+| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | Étude pharmacocinétique (chien, étude pilote) | Veterinary Dermatology | Compare la pharmacocinétique de la diphénhydramine après administration orale et intraveineuse, et après administration orale de dimenhydrinate, chez des chiens sains. Évalue aussi l'effet pharmacodynamique sur la formation de papules induites par l'histamine. L'extrait disponible ne rapporte pas de résultats chiffrés. |
 
 ## Informations de Marché en France
 
-Le dimenhydrinate ne dispose d'aucune AMM enregistrée en France dans la base de données consultée (date de coupure : 2026-06-07). Il n'est actuellement pas commercialisé sous ce nom.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69806008 | NAUSICALM 15,7 mg ENFANTS, sirop en sachet | Sirop | Non renseignée |
+| 63137902 | NAUSICALM, sirop | Sirop | Non renseignée |
+| 60173964 | NAUSICALM ADULTES 50 mg, gélule | Gélule | Non renseignée |
+| 68461541 | MERCALM, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN repose sur un mécanisme indirect (conversion en diphenhydramine) et n'est soutenue par aucun essai clinique humain sur le dimenhydrinate pour l'urticaire allergique. La seule publication disponible est une étude pharmacocinétique vétérinaire (modèle canin, Tier 3), ce qui maintient le niveau de preuve à L4. Le médicament n'étant pas commercialisé en France, le chemin réglementaire représente une contrainte supplémentaire significative.
+- Les preuves se limitent à une prédiction du modèle et à une étude pilote chez le chien, sans essai clinique chez l'humain. Les données de sécurité issues de la notice ANSM manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données complètes sur le mécanisme d'action (MOA) du dimenhydrinate, notamment la cinétique de conversion en diphenhydramine chez l'humain
-- Données de sécurité clinique : mises en garde, contre-indications et interactions médicamenteuses (actuellement indisponibles)
-- Revue systématique de la littérature sur la diphenhydramine dans l'urticaire allergique, afin d'établir un pont mécanistique indirect plus robuste avant tout investissement clinique
-- Évaluation de la faisabilité réglementaire en France (statut non commercialisé, nécessité d'une AMM ou d'une autorisation temporaire d'utilisation)
-- Si la revue de littérature sur la diphenhydramine est favorable, conception d'une étude pilote clinique (Phase 1/2) spécifique au dimenhydrinate dans l'urticaire allergique
+- Récupérer la notice ANSM (mises en garde et contre-indications) pour le criblage de sécurité
+- Obtenir les données sur le mécanisme d'action depuis DrugBank
+- Confirmer l'indication originale à partir des textes d'AMM
+- Rechercher des études cliniques chez l'humain sur l'urticaire (allergique et au froid)
+- Comparer le rapport bénéfice/risque avec les antihistaminiques de seconde génération, en raison de la sédation et des effets anticholinergiques
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

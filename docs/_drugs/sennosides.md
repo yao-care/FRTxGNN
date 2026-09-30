@@ -2,7 +2,7 @@
 layout: default
 title: Sennosides
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 277
+nav_order: 281
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,76 +29,66 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Sennosides : De la Constipation à l'Hypotrichose Simple du Cuir Chevelu
+# Sennosides : Du laxatif stimulant à l'hypotrichose simple du cuir chevelu
 
 ## Résumé en Une Phrase
 
-Sennosides (séné) est un laxatif stimulant d'origine végétale, classiquement utilisé dans la prise en charge de la constipation.
-Le modèle TxGNN prédit un lien potentiel avec l'**Hypotrichose Simple du Cuir Chevelu**,
-mais cette prédiction ne s'appuie actuellement sur **aucun essai clinique** ni **aucune publication** directement pertinente.
-
----
+Les sennosides sont des laxatifs stimulants d'origine végétale (anthraquinones), utilisés contre la constipation. Le modèle TxGNN prédit qu'ils pourraient être efficaces pour l'**hypotrichose simple du cuir chevelu**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Constipation (laxatif stimulant à base de dérivés anthraquinoniques — les données structurées d'indication/MOA ne sont pas disponibles, cf. DG002) |
 | Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
-| Score de Prédiction TxGNN | 99.29% |
+| Score de Prédiction TxGNN | 99,29 % (rang 4886) |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles (DG002). Sur la base des informations connues, les sennosides appartiennent à la classe des laxatifs stimulants (dérivés anthraquinoniques) : ils sont métabolisés par le microbiote intestinal en rhéine-anthrone, qui stimule le péristaltisme colique et modifie la sécrétion hydro-électrolytique. Leur efficacité dans la constipation est bien établie, mais leur action pharmacologique reste localisée au tube digestif.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances pharmacologiques générales, les sennosides sont transformés par la flore intestinale en rhéinanthrone. Ce métabolite agit localement sur le côlon, où il augmente la motilité et la sécrétion. L'absorption systémique du métabolite actif est minime.
 
-L'hypotrichose simple du cuir chevelu est une maladie génétique rare du développement folliculaire, généralement associée à des mutations des gènes APCDD1 ou CDH3. Il n'existe aucun recoupement biologique connu entre ce mécanisme et l'action laxative intestinale des sennosides.
+L'hypotrichose simple est une maladie héréditaire du follicule pileux (par exemple des variants de *CDSN* ou *APCDD1*). **Aucun lien biologique établi** ne relie un laxatif agissant dans le côlon à cette pathologie. Le score élevé de TxGNN (0,993) résulte d'une prédiction par graphe de connaissances, sans justification mécanistique identifiable.
 
-Cette prédiction repose donc uniquement sur une similarité d'embedding dans le réseau TxGNN, sans support mécanistique, clinique ou littéraire. Elle doit être interprétée comme une hypothèse exploratoire de faible plausibilité biologique plutôt que comme un signal de repositionnement actionnable.
-
----
+Cette prédiction doit donc être considérée comme une piste purement computationnelle. Elle n'est pas soutenue par des données biologiques ou cliniques.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
 
-Sennosides n'est actuellement pas commercialisé en France (0 AMM enregistrée dans les registres consultés).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 69149943 | PURSENNIDE 20 mg, comprimé enrobé | Comprimé enrobé | HALEON FRANCE |
 
----
+Le texte de l'indication approuvée n'est pas renseigné dans les données reçues.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose exclusivement sur le score TxGNN (niveau de preuve L5), sans aucun essai clinique ni publication à l'appui, et sans lien mécanistique plausible entre l'action laxative des sennosides et la physiopathologie folliculaire de l'hypotrichose. De plus, l'absence de données de sécurité TFDA (DG001, sévérité *Blocking*) empêche toute évaluation de sécurité initiale (S1).
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication pour les sennosides et sans lien mécanistique plausible.
+- Les autres indications prédites (hypotrichose congénitale avec milium, alopécie areata diffuse, glaucomes à angle ouvert et héréditaire primaire, alopécie) sont aussi au niveau L5 avec une décision Hold. Les deux essais listés sous « alopécie » testent respectivement un outil d'évaluation du lichen plan pilaire et le plasma riche en plaquettes, pas les sennosides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir le RCP/notice TFDA pour lever le blocage de sécurité (DG001)
-- Obtenir les données de mécanisme d'action (MOA) via DrugBank (DG002)
-- Rechercher une justification mécanistique préclinique (ex. effet sur le cycle folliculaire, voie Wnt/β-caténine) avant d'envisager une étude exploratoire
-- Réévaluer périodiquement l'apparition d'essais cliniques ou de publications ciblant spécifiquement cette association
+- Les mises en garde et contre-indications de la notice ANSM, indispensables pour tout criblage de sécurité (lacune bloquante).
+- Les données sur le mécanisme d'action, à obtenir via DrugBank.
+- Le texte de l'indication approuvée pour l'AMM 69149943.
+- Une hypothèse biologique justifiant un effet sur le follicule pileux, avant tout investissement dans des études précliniques.
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

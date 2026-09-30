@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glucagon
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 136
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 139
+evidence_level: L4
 indication_count: 1
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **1** 
+Niveau de preuve: **L4** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,82 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Glucagon : Du Traitement de l'Hypoglycémie au Syndrome de l'Intestin Irritable
+# Glucagon : Une Piste Predite pour le Syndrome de l'Intestin Irritable
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Le Glucagon est une hormone peptidique endogène, historiquement utilisée en urgence pour le traitement de l'hypoglycémie sévère et comme antispasmodique intestinal en endoscopie.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Syndrome de l'Intestin Irritable (SII)**,
-avec **11 essais cliniques** et **20 publications** identifiés — toutefois, la quasi-totalité des preuves porte sur la voie GLP-1 (et non sur le glucagon lui-même), ce qui soulève une importante question de spécificité mécanistique.
+Le glucagon est commercialise en France sous forme de poudre nasale (Baqsimi 3 mg), mais son indication d'origine n'est pas renseignee dans les donnees disponibles.
+Le modele TxGNN predit qu'il pourrait etre efficace pour le **syndrome de l'intestin irritable (SII)**.
+**10 essais cliniques** et **20 publications** ont ete identifies, mais **aucun ne teste le glucagon lui-meme dans le SII** : les signaux viennent d'analogues du GLP-1 (ROSE-010, liraglutide), qui ciblent une voie voisine.
 
----
+## Apercu Rapide
 
-## Aperçu Rapide
-
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Indication Originale | Traitement de l'hypoglycémie sévère ; antispasmodique intestinal (usage endoscopique) |
-| Nouvelle Indication Prédite | Syndrome de l'Intestin Irritable (IBS) |
-| Score de Prédiction TxGNN | 99,24 % |
-| Niveau de Preuve | L3 — études observationnelles et revues systématiques (voie GLP-1) |
-| Statut de Marché en France | ✗ Non commercialisé (0 AMM identifiée) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+| Nouvelle Indication Predite | Syndrome de l'intestin irritable |
+| Score de Prediction TxGNN | 99.24% |
+| Niveau de Preuve | L4 |
+| Statut de Marche en France | ✓ Commercialise |
+| Nombre d'AMM | 1 |
+| Decision Recommandee | Hold |
 
----
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles. Sur la base des informations connues, le glucagon est un peptide derive du proglucagon. Il agit sur le recepteur du glucagon et peut aussi provoquer une relaxation transitoire du muscle lisse, ce qui explique son usage dans certains gestes digestifs.
 
-Le Glucagon (DB00040) et le GLP-1 (glucagon-like peptide-1) partagent une origine génomique commune : tous deux sont des produits du gène *proglucagon*, découpé différemment selon les tissus (pancréas pour le glucagon, intestin L pour le GLP-1). Cette parenté moléculaire est probablement à l'origine du score TxGNN élevé — le modèle a pu associer des caractéristiques de réseau liées aux deux entités, sans distinguer leurs récepteurs respectifs (GCGR pour le glucagon, GLP-1R pour le GLP-1).
+Les signaux cliniques cites pour le SII viennent d'une voie proche mais distincte. Les agonistes du recepteur du GLP-1 (autre peptide derive du proglucagon) inhibent la motricite gastro-intestinale. L'analogue ROSE-010 a reduit la douleur lors des crises de SII et modifie la motricite digestive chez des patientes atteintes de SII avec constipation. Le glucagon, en tant que relaxant de la musculature lisse, pourrait donc avoir un effet sur la motricite et la douleur du SII. Cette hypothese est plausible mais non demontree.
 
-Sur le plan mécanistique, le glucagon agit via le GCGR et possède un effet relaxant bien documenté sur le muscle lisse gastro-intestinal, utilisé cliniquement pour réduire les spasmes lors des endoscopies. Ce mécanisme antispasmodique est conceptuellement pertinent dans le SII, où l'hypercontractilité et la douleur viscérale sont centrales. En revanche, le GLP-1 — lui aussi impliqué dans la motilité intestinale — ralentit la vidange gastrique, module la sensibilité viscérale et réduit la douleur abdominale via le GLP-1R.
-
-**La limite critique** est que l'ensemble des preuves cliniques disponibles (ROSE-010, exendin-4, liraglutide) concerne exclusivement la voie GLP-1R, et non le récepteur glucagon (GCGR). Il n'existe actuellement aucun essai clinique évaluant directement le glucagon (DB00040) comme traitement du SII. La prédiction TxGNN est donc mécanistiquement plausible par analogie, mais n'est pas directement supportée par des données cliniques propres à cette molécule.
-
----
+Le score TxGNN eleve (0.992) est une prediction purement computationnelle. Le passage des analogues du GLP-1 au glucagon n'a jamais ete valide directement. Toute extrapolation demande une verification experimentale specifique.
 
 ## Preuves d'Essais Cliniques
 
-> ⚠️ **Note d'interprétation :** Aucun essai clinique identifié n'évalue directement le glucagon (GCGR) dans le SII. Les essais ci-dessous portent sur des agonistes GLP-1R (voie parente) ou ont une pertinence indirecte de grade B/C.
+Aucun essai ne teste le glucagon dans le SII. Les deux essais les plus proches portent sur des analogues du GLP-1. Quatre autres essais recenses (NCT06333717, NCT00802971, NCT04230655, NCT06113146) sont sans rapport avec la question et ne sont pas detailles ici.
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Terminé | 52 | ROSE-010 (agoniste GLP-1R) retarde la vidange gastrique et améliore l'accommodation gastrique chez les femmes avec SII à prédominance constipation (IBS-C) |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Terminé | 12 | Comparaison GLP-1 natif vs analogue ROSE-010 sur la motilité intestinale postprandiale in vivo ; mise en évidence du rôle inhibiteur de la voie GLP-1R sur le péristaltisme |
-| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | Phase 2 | Terminé (arrêté prématurément) | 8 | Liraglutide (GLP-1RA) chez patients avec anastomose iléo-anale (IPAA) et haute fréquence intestinale ; étude croisée randomisée contre placebo — arrêtée pour effectif insuffisant |
-| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | NA | Terminé | 66 | Entraînement continu modéré vs intervalles intenses sur le microbiote intestinal et le GLP-1 chez patients pré-diabétiques obèses avec SII — valeur documentaire de fond |
-| [NCT05249023](https://clinicaltrials.gov/study/NCT05249023) | NA | Terminé | 37 | Mode d'action du butyrate dans le côlon humain ; lié au SII via la dysbiose — non pertinent pour glucagon |
-| [NCT00802971](https://clinicaltrials.gov/study/NCT00802971) | NA | Terminé | 12 | Hypoglycémie réactive idiopathique et FOS ; glucagon utilisé comme marqueur physiologique de mesure, non comme médicament |
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Termine | 52 | ROSE-010 (analogue du GLP-1) sur la motricite digestive chez des femmes atteintes de SII avec constipation. C'est l'essai le plus proche de la maladie et de la voie, mais ce n'est pas le glucagon. |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Termine | 12 | Le GLP-1 natif et ROSE-010 inhibent la motricite antro-duodeno-jejunale postprandiale. Appui mecanistique uniquement, sans population SII. |
+| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | Phase 2 | Arrete | 8 | Liraglutide dans le reservoir iléo-anal avec frequence des selles elevee. Population peu liee au SII, effectif trop faible pour conclure. |
+| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | N/A | Termine | 66 | Entrainement physique, dysbiose et taux de GLP-1 dans le SII. Intervention non medicamenteuse, sans glucagon. |
+| [NCT03256266](https://clinicaltrials.gov/study/NCT03256266) | N/A | Actif, sans recrutement | 375 | Organoides intestinaux et antigenes nutritionnels. Lien avec le SII seulement indirect. |
 
----
+## Preuves de la Litterature
 
-## Preuves de la Littérature
-
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Revue systématique & méta-analyse | Frontiers in Endocrinology | Les GLP-1RA améliorent les symptômes du SII ; GLP-1 et son analogue ROSE-010 inhibent le complexe moteur migrant et réduisent la motilité GI |
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | ECR / Étude clinique | Scand J Gastroenterology | ROSE-010 réduit significativement la douleur lors des crises de SII ; analyse croisée pour identifier la sous-population la plus sensible au traitement |
-| [22517769](https://pubmed.ncbi.nlm.nih.gov/22517769/) | 2012 | ECR randomisé en double aveugle | Am J Physiol Gastrointest Liver Physiol | ROSE-010 (30–300 µg sc) retarde la vidange gastrique et réduit la motilité colique chez les femmes IBS-C — étude de pharmacodynamique complète |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Revue | Experimental Physiology | Les cellules L intestinales sécrètent le GLP-1 en réponse aux nutriments et facteurs microbiens ; rôle pathophysiologique central du GLP-1 dans le SII, incluant la douleur viscérale et la perméabilité intestinale |
-| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | Étude clinique | Clinics Res Hepatol Gastroenterol | Taux de GLP-1 circulant abaissés corrèlent avec la douleur abdominale chez les patients IBS-C ; expression du récepteur GLP-1 réduite dans le côlon |
-| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | Préclinique (modèle animal) | Neurogastroenterol Motility | Exendin-4 (GLP-1RA) améliore la dysfonction gastro-intestinale dans le modèle rat Wistar Kyoto de SII ; activation des neurones myentériques comme mécanisme sous-jacent |
-| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Étude en vie réelle | Annals of Gastroenterology | Patterns de prescription et d'arrêt des GLP-1RA chez les patients SII ; les effets GI indésirables expliquent une fréquence d'arrêt élevée dans cette population |
-| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Revue systématique | J Headache Pain | GLP-1 inhibe la sécrétion de glucagon et ralentit la vidange gastrique ; potentiel thérapeutique élargi via les voies neuronales de la douleur |
-| [23338623](https://pubmed.ncbi.nlm.nih.gov/23338623/) | 2013 | Préclinique | Int J Mol Medicine | Rôle du GLP-1 dans la pathogenèse des modèles expérimentaux de SII-C et SII-D chez le rat ; expression du récepteur GLP-1 modifiée selon le sous-type |
-| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Préclinique / Formulation | Adv Exp Med Biol | GLP-1 aérosolisé pour le diabète et le SII — suggère que l'administration pulmonaire du GLP-1 pourrait contourner la dégradation par la DPP-4 |
+| [22517769](https://pubmed.ncbi.nlm.nih.gov/22517769/) | 2012 | ECR (phase 1/2) | Am J Physiol Gastrointest Liver Physiol | Etude randomisee en double aveugle contre placebo de ROSE-010 (analogue du GLP-1) sur la motricite digestive dans le SII avec constipation. |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | ECR (analyse secondaire) | Scand J Gastroenterol | ROSE-010 a reduit la douleur pendant les crises de SII. L'analyse identifie les sous-populations les plus susceptibles de repondre. |
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Revue systematique / meta-analyse | Front Endocrinol | Amelioration du SII avec les agonistes du recepteur du GLP-1. Le GLP-1 et ROSE-010 inhibent le complexe moteur migrant. |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohorte | Ann Gastroenterol | Prescription et arret des agonistes du GLP-1 chez des patients atteints de SII, dans un contexte d'effets indesirables digestifs. |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Revue | Exp Physiol | Role possible des cellules L et du GLP-1 dans la physiopathologie du SII. |
+| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | Etude clinique | Clin Res Hepatol Gastroenterol | Le GLP-1 serique est diminue et correle a la douleur abdominale dans le SII avec constipation. |
+| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | Preclinique (rat) | Neurogastroenterol Motil | L'exendine-4 ameliore la dysfonction digestive dans un modele de SII chez le rat. |
+| [23338623](https://pubmed.ncbi.nlm.nih.gov/23338623/) | 2013 | Preclinique (rat) | Int J Mol Med | Role du GLP-1 dans la pathogenese de modeles experimentaux de SII. |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Revue / preclinique | Adv Exp Med Biol | GLP-1 en aerosol pour le diabete et le SII. |
+| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Revue | Cell Mol Gastroenterol Hepatol | Interactions bidirectionnelles de l'axe cerveau-intestin-microbiote. |
 
----
+## Informations de Marche en France
 
-## Informations de Marché en France
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 67972497 | BAQSIMI 3 mg, poudre nasale en recipient unidose (AMPHASTAR FRANCE PHARMACEUTICALS) | Poudre |
 
-> **Glucagon (DB00040) ne dispose d'aucune AMM enregistrée en France dans la base de données consultée.** Le médicament est connu en Europe sous des spécialités comme GlucaGen® (Novo Nordisk) pour le traitement de l'hypoglycémie sévère, mais aucune autorisation n'a été identifiée dans le périmètre de cette recherche réglementaire.
+## Considerations de Securite
 
----
+Veuillez consulter la notice pour les informations de securite.
 
-## Considérations de Sécurité
+## Conclusion et Prochaines Etapes
 
-Les données détaillées de sécurité (mises en garde, contre-indications, interactions médicamenteuses) n'ont pas été disponibles dans ce paquet de preuves.
-
-> Veuillez consulter la notice officielle GlucaGen® (EMA/ANSM) pour les informations de sécurité complètes, notamment les contre-indications chez les patients phéochromocytome et les interactions avec les anticoagulants de type warfarine.
-
----
-
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
+**Decision : Hold**
 
 **Justification :**
-Le score TxGNN de 99,24 % est probablement attribuable à une confusion d'entités dans le graphe de connaissances entre le glucagon (GCGR) et le GLP-1/GLP-1R, deux dérivés du même gène proglucagon mais agissant via des récepteurs distincts. L'intégralité des preuves cliniques disponibles (ROSE-010, exendin-4, liraglutide) concerne la voie GLP-1R et ne constitue qu'un soutien indirect pour le glucagon lui-même — il n'existe aucun essai clinique évaluant directement DB00040 comme traitement du SII.
+La prediction repose sur un score computationnel et sur des donnees obtenues avec des analogues du GLP-1, pas avec le glucagon. Aucun essai ne teste le glucagon dans le SII, et les donnees de securite ne sont pas disponibles. Le niveau de preuve reste L4 : c'est une question de recherche, pas une candidature prete pour une evaluation clinique.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-
-- **Clarification mécanistique prioritaire** : Confirmer si la cible thérapeutique visée est le GCGR (glucagon natif) ou le GLP-1R (analogue) — ces deux voies nécessitent des molécules différentes et des stratégies de développement distinctes
-- **Revue bibliographique ciblée GCGR × SII** : Rechercher des données précliniques spécifiques à l'antagonisme ou à l'agonisme GCGR dans des modèles de douleur viscérale ou de motilité colique
-- **Fiche de sécurité complète** : Télécharger et analyser la notice GlucaGen® (EMA) pour compléter les données DG001 (mises en garde/contre-indications)
-- **Données MOA DrugBank** : Interroger l'API DrugBank pour compléter DG002 et confirmer les cibles moléculaires primaires et secondaires du glucagon
-- **Évaluation réglementaire** : Vérifier le statut AMM en France/Europe pour le glucagon natif (GlucaGen®, Baqsimi®) et si une extension d'indication SII est réglementairement envisageable
-- **Si confirmation GLP-1R** : Réorienter le candidat vers un agoniste GLP-1R approuvé (semaglutide, liraglutide) dont les données IBS sont plus solides et l'approbation européenne déjà obtenue pour d'autres indications
+**Pour avancer, les elements suivants sont necessaires :**
+- Recuperer la notice de l'ANSM (mises en garde et contre-indications) pour lancer le criblage de securite
+- Obtenir les donnees de mecanisme d'action (par exemple via l'API DrugBank) et l'indication d'origine de l'AMM
+- Verifier experimentalement, avec le glucagon lui-meme, l'effet sur la motricite et la douleur du SII (etude mecanistique ou essai de phase 1/2), sans se limiter a l'extrapolation depuis les analogues du GLP-1
+- Evaluer la compatibilite de la voie d'administration (poudre nasale) avec l'usage envisage dans le SII
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

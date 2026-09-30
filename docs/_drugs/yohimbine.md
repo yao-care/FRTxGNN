@@ -2,7 +2,7 @@
 layout: default
 title: Yohimbine
 parent: Preuves modérées (L3-L4)
-nav_order: 332
+nav_order: 336
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,86 +29,79 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Yohimbine : D'une Indication d'Origine Non Documentée vers la Migraine
+# Yohimbine : Vers la Migraine (indication originale non renseignée)
 
 ## Résumé en Une Phrase
 
-L'indication d'origine de la Yohimbine n'est pas documentée dans les données disponibles (aucune AMM ni indication approuvée enregistrée). Le modèle TxGNN prédit que la Yohimbine pourrait être efficace pour la **Migraine** (migraine disorder), avec un score de prédiction de **99.94%**, mais **aucun essai clinique** et seulement des publications indirectes (mécanistiques, précliniques) soutiennent actuellement cette direction — dont plusieurs suggèrent un mécanisme d'action opposé à l'effet thérapeutique recherché.
-
----
+La yohimbine est commercialisée en France sous forme de comprimé (YOCORAL 5 mg), mais son indication originale n'est pas renseignée dans les données réglementaires disponibles.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **migraine** (score de 99,94 %). En pratique, **aucun essai clinique** et **20 publications** sont associés, principalement des travaux anciens sur la sérotonine et la réserpine, ainsi que quelques études précliniques chez l'animal. Aucune de ces publications n'est un essai clinique portant sur la yohimbine.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentée (aucune licence ni indication d'origine enregistrée dans les données disponibles) |
+| Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
-| Score de Prédiction TxGNN | 99.94% |
+| Score de Prédiction TxGNN | 99,94 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données structurées sur le mécanisme d'action (champ MOA officiel) ne sont pas disponibles — c'est d'ailleurs un écart de données de sévérité élevée (DG002, source recommandée : DrugBank API). Cependant, l'analyse mécanistique associée à cette prédiction indique que la Yohimbine est un **antagoniste des récepteurs α2-adrénergiques**, augmentant la libération centrale de noradrénaline.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. La yohimbine est connue comme antagoniste des récepteurs adrénergiques alpha-2. Mécanistiquement, ce blocage pourrait influencer la transmission noradrénergique, impliquée dans la physiopathologie de la migraine.
 
-La littérature rattachée à cette prédiction ne porte pas sur la Yohimbine elle-même, mais sur l'hypothèse sérotoninergique/catécholaminergique de la migraine (notamment via des modèles à la réserpine, qui déplète la sérotonine et les catécholamines). Ces travaux établissent un lien indirect entre systèmes noradrénergique/sérotoninergique et physiopathologie migraineuse, sans jamais tester directement la Yohimbine dans ce contexte.
+Une étude chez le rat (PMID 15829916) montre que des agonistes et antagonistes noradrénergiques modifient la propagation de la dépression corticale envahissante (CSD). La CSD est le corrélat biologique de l'aura migraineuse. Ce lien est plausible mais indirect, et il repose uniquement sur des données animales.
 
-Point important : plusieurs traitements prophylactiques établis de la migraine (β-bloquants, agonistes α2 comme la clonidine) agissent dans le sens **opposé** à celui de la Yohimbine, qui est un antagoniste α2. Le blocage α2 tend à augmenter le tonus sympathique, ce qui va à l'encontre du mécanisme recherché en prophylaxie migraineuse. Cette prédiction repose donc sur une association topologique du graphe de connaissances plutôt que sur un rationnel mécanistique convergent — d'où la recommandation de prudence.
-
----
+Le reste de la littérature porte surtout sur les travaux des années 1960-1970 sur la sérotonine et la déplétion en amines par la réserpine, qui ne sont pas spécifiques à la yohimbine. La direction de l'effet chez l'humain n'est pas établie. Le score TxGNN très élevé est une prédiction du modèle, pas une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
+
+Aucune de ces publications ne teste la yohimbine dans la migraine. Les types sont ceux fournis par le dossier ; « Non classé » signifie qu'aucune classification n'a encore été faite.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [5634006](https://pubmed.ncbi.nlm.nih.gov/5634006/) | 1967 | Revue | Trans Am Neurol Assoc | Revue historique du rôle de la sérotonine dans la physiopathologie de la migraine |
-| [39842732](https://pubmed.ncbi.nlm.nih.gov/39842732/) | 2025 | Animal | Free Radic Biol Med | Modèle murin d'allodynie périorbitaire induite par la réserpine (fibromyalgie/migraine) ; voie Schwann TRPA1/NOX1 impliquée |
-| [468534](https://pubmed.ncbi.nlm.nih.gov/468534/) | 1979 | Cohorte | Headache | Association entre céphalée induite par réserpine et libération de prolactine chez les migraineux |
-| [1270244](https://pubmed.ncbi.nlm.nih.gov/1270244/) | 1976 | Cohorte | Headache | Étude de la tyramine et de la sérotonine plasmatique chez les patients migraineux |
-| [15829916](https://pubmed.ncbi.nlm.nih.gov/15829916/) | 2005 | Animal | J Cereb Blood Flow Metab | Les agonistes/antagonistes noradrénergiques influencent la propagation de la dépression corticale (mécanisme de l'aura migraineuse) chez le rat |
-| [171561](https://pubmed.ncbi.nlm.nih.gov/171561/) | 1975 | pending | MMW | Rôle des médiateurs humoraux (kinines, sérotonine, histamine, tyramine) dans la pathogenèse et le traitement de la migraine |
-| [15778266](https://pubmed.ncbi.nlm.nih.gov/15778266/) | 2005 | pending | J Pharmacol Exp Ther | Rôle de la dopamine dans un modèle de nociception trigémino-vasculaire lié à la migraine |
-| [5297855](https://pubmed.ncbi.nlm.nih.gov/5297855/) | 1967 | pending | Arch Neurol | Sérotonine plasmatique dans la migraine et le stress |
-| [934534](https://pubmed.ncbi.nlm.nih.gov/934534/) | 1976 | pending | Minerva Med | Essai en double aveugle sur la réserpine (300 patients) en prophylaxie de la migraine sévère |
-| [13707746](https://pubmed.ncbi.nlm.nih.gov/13707746/) | 1960 | pending | Br Med J | Essai clinique contrôlé de prophylaxie médicamenteuse de la migraine (période pré-moderne, agents non précisés dans le résumé) |
+| [15829916](https://pubmed.ncbi.nlm.nih.gov/15829916/) | 2005 | Préclinique (rat, CSD) | J Cereb Blood Flow Metab | Les agonistes et antagonistes noradrénergiques modifient la migration de la dépression corticale envahissante, mécanisme possible de prophylaxie de la migraine |
+| [29856967](https://pubmed.ncbi.nlm.nih.gov/29856967/) | 2018 | Non classé (modèle animal) | Exp Neurol | Le stress module l'excitabilité corticale via les récepteurs alpha-2 adrénergiques et glucocorticoïdes (mesurée par la CSD) |
+| [15778266](https://pubmed.ncbi.nlm.nih.gov/15778266/) | 2005 | Préclinique (modèle trigémino-vasculaire) | J Pharmacol Exp Ther | Rôle de la dopamine dans la nociception trigémino-vasculaire |
+| [934534](https://pubmed.ncbi.nlm.nih.gov/934534/) | 1976 | Non classé (réserpine) | Minerva Med | Réserpine en prévention de la migraine : résultats positifs chez 300 patients, puis essai en double aveugle (réserpine, pas yohimbine) |
+| [468534](https://pubmed.ncbi.nlm.nih.gov/468534/) | 1979 | Petite étude clinique (réserpine) | Headache | Céphalée et libération de prolactine après réserpine chez des migraineux |
+| [1270244](https://pubmed.ncbi.nlm.nih.gov/1270244/) | 1976 | Observationnelle | Headache | Migraine, tyramine et sérotonine sanguine |
+| [26908](https://pubmed.ncbi.nlm.nih.gov/26908/) | 1978 | Non classé (revue de théorie) | Postgrad Med J | Réévaluation de la théorie autonome : la migraine pourrait impliquer une libération accrue de noradrénaline |
+| [5634006](https://pubmed.ncbi.nlm.nih.gov/5634006/) | 1967 | Revue | Trans Am Neurol Assoc | Sérotonine et migraine |
+| [13707746](https://pubmed.ncbi.nlm.nih.gov/13707746/) | 1960 | Non classé (essai contrôlé) | Br Med J | Prophylaxie médicamenteuse de la migraine, essai clinique contrôlé (résumé non disponible) |
+| [16814767](https://pubmed.ncbi.nlm.nih.gov/16814767/) | 2006 | Non classé (modèle canin) | Eur J Pharmacol | La clonidine (agoniste alpha-2) inhibe la vasodilatation carotidienne induite par la capsaïcine |
 
-*Note : aucune de ces publications ne teste la Yohimbine directement — elles portent sur des molécules apparentées (réserpine notamment) ou sur la physiopathologie générale de la migraine.*
+## Informations de Marché en France
 
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69816276 | YOCORAL 5 mg, comprimé (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Comprimé | Non renseignée |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
-Un écart de données bloquant a été identifié : les mises en garde et contre-indications officielles (notice TFDA) ne sont pas disponibles (DG001, sévérité *Blocking*), ce qui empêche à ce stade toute évaluation de sécurité initiale (S1).
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique n'évalue la Yohimbine dans la migraine, et la littérature disponible est indirecte (modèles à la réserpine, physiopathologie générale), pas spécifique à la molécule.
-- L'analyse mécanistique associée à la prédiction elle-même signale une direction pharmacologique potentiellement opposée à l'effet prophylactique recherché (antagonisme α2 vs agonisme α2/bêta-blocage utilisés en prophylaxie), ce qui pèse contre — et non en faveur — de cette piste.
-- La Yohimbine n'est pas commercialisée en France (0 AMM) et l'écart de données sur les mises en garde/contre-indications (DG001) est bloquant pour toute évaluation de sécurité.
+- Aucun essai clinique n'existe et la littérature repose sur des études précliniques indirectes et sur des travaux anciens concernant la réserpine, sans donnée clinique propre à la yohimbine dans la migraine. Le niveau de preuve reste L4 et le score TxGNN seul ne suffit pas.
+- Les données de sécurité de la notice ANSM manquent et bloquent l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/mises en garde officielle TFDA (résolution de DG001, bloquant)
-- Mécanisme d'action confirmé via DrugBank (résolution de DG002)
-- Clarification de l'indication d'origine de la Yohimbine (actuellement non documentée dans les données disponibles)
-- Étude préclinique ou clinique testant spécifiquement la Yohimbine (et non des molécules apparentées) dans la migraine
-- Revue pharmacologique dédiée pour trancher la contradiction mécanistique identifiée (antagonisme α2) avant toute progression vers une évaluation d'hypothèse
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications) afin de lever le blocage de sécurité.
+- Obtenir les données de mécanisme d'action depuis DrugBank.
+- Confirmer l'indication originale de l'AMM.
+- Rechercher des données précliniques ou cliniques propres à la yohimbine dans la migraine, et établir le sens de l'effet (l'antagonisme alpha-2 pourrait aller dans le sens opposé à l'effet recherché).
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute utilisation.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

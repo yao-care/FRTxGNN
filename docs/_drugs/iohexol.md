@@ -2,7 +2,7 @@
 layout: default
 title: Iohexol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 151
+nav_order: 154
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,68 +29,72 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-この Evidence Pack には `predicted_indications[0]`（insomnia, score 99.87%）と `[1]`（anxiety, score 99.25%）の2件が含まれていますが、v5テンプレートの「Aperçu Rapide」「Preuves d'Essais Cliniques」「Preuves de la Littérature」は明示的に `predicted_indications[0]` を参照するよう指定されているため、これに従い insomnia を主要候補として報告を作成します。anxiety（第2候補）についてはエビデンスが弱く関連性が低いため、結論部分で補足情報として簡潔に触れます。
+# Iohexol : De l'imagerie par produit de contraste à l'insomnie
 
-以下、ご指定のセクション順に報告書を作成します。
+## Résumé en Une Phrase
 
----
+Iohexol est un produit de contraste iodé non ionique utilisé en imagerie radiologique. Le modèle TxGNN le prédit comme potentiellement efficace pour l'**insomnie**, avec un score très élevé (99,87 %). **Aucun essai clinique et aucune publication** ne soutiennent cette prédiction, qui relève très probablement d'un artefact du graphe de connaissances.
 
-# Iohexol : De l'Agent de Contraste Radiologique a l'Insomnie
+## Aperçu Rapide
 
-## Resume en Une Phrase
-
-Iohexol est un agent de contraste iode non ionique utilise en imagerie medicale (myelographie, angiographie, urographie, etc.), et non un medicament a visee therapeutique classique.
-Le modele TxGNN predit qu'il pourrait etre efficace pour l'**Insomnie**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction — la prediction repose uniquement sur le score algorithmique du modele.
-
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Agent de contraste radiologique (usage diagnostique par imagerie, pas d'indication therapeutique enregistree) |
-| Nouvelle Indication Predite | Insomnie |
-| Score de Prediction TxGNN | 99.87% |
+| Indication Originale | Non renseignée dans les AMM (produit de contraste iodé pour l'imagerie) |
+| Nouvelle Indication Prédite | Insomnie |
+| Score de Prédiction TxGNN | 99,87 % |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | ✗ Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles pour l'iohexol. Sur la base des informations connues, il s'agit d'un agent de contraste iode non ionique utilise exclusivement a des fins diagnostiques (radiographie, myelographie, angiographie), sans rapport rapporte avec des recepteurs du systeme nerveux central impliques dans le sommeil (GABA-A, 5-HT, etc.).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'iohexol est un produit de contraste iodé non ionique. Il est pharmacologiquement inerte, n'est pas métabolisé et est éliminé inchangé par les reins.
 
-Aucun lien mecanistique credible ne permet d'expliquer un effet hypnotique ou sedatif de l'iohexol. Le score eleve attribue par TxGNN provient tres probablement d'une co-occurrence indirecte dans le graphe de connaissances — par exemple, le fait que des patients subissant des examens d'imagerie (contexte ou l'iohexol est utilise) presentent frequemment de l'insomnie associee — plutot que d'une relation pharmacologique reelle.
+Aucun lien mécanistique plausible n'a été identifié entre ce produit et l'insomnie. L'iohexol n'a aucune activité connue sur les cibles du système nerveux central qui régulent le sommeil.
 
-En l'absence de toute donnee clinique ou pharmacologique de soutien, cette prediction doit etre consideree comme un signal statistique du modele necessitant une verification approfondie avant toute exploration ulterieure, et non comme une piste therapeutique etablie.
+Le score TxGNN très élevé est probablement un artefact du graphe de connaissances : le médicament n'a aucune indication annotée et son mécanisme d'action est absent des données. Ce score ne repose sur aucune preuve clinique ou mécanistique.
+
+Une seconde prédiction, l'**anxiété** (score 99,25 %), présente le même profil. Les 5 essais cliniques associés utilisent l'iohexol comme sonde de mesure du débit de filtration glomérulaire ou pour le guidage par imagerie, et aucun ne l'évalue comme traitement. Dans la littérature, l'anxiété n'apparaît que comme contexte procédural ou effet indésirable. Cette prédiction est elle aussi classée L5 / Hold.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-Aucune litterature associee disponible actuellement.
+Aucune littérature associée disponible actuellement.
 
-## Considerations de Securite
+## Informations de Marché en France
 
-Veuillez consulter la notice pour les informations de securite.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 65106581 | OMNIPAQUE 300 mg d'I/mL, solution injectable | Solution injectable |
+| 63688752 | OMNIPAQUE 180 mg d'I/mL, solution injectable | Solution injectable |
+| 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable |
+| 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable |
 
-> ⚠️ **Point bloquant** : les mises en garde et contre-indications officielles de la notice TFDA ne sont pas encore disponibles dans ce dossier, ce qui empeche toute evaluation de securite preliminaire (etape S1). Cette lacune doit etre comblee en priorite avant de poursuivre l'evaluation.
+Titulaire : GE Healthcare. Le texte des indications approuvées n'est pas renseigné dans les données reçues.
 
-## Conclusion et Prochaines Etapes
+## Considérations de Sécurité
 
-**Decision : Hold**
+Veuillez consulter la notice pour les informations de sécurité.
+
+## Conclusion et Prochaines Étapes
+
+**Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est eleve mais ne s'appuie sur aucun essai clinique ni aucune publication (Niveau de Preuve L5) ; il n'existe pas de mecanisme pharmacologique plausible reliant l'iohexol au traitement de l'insomnie.
-- Les donnees de securite (mises en garde, contre-indications, notice TFDA) sont manquantes, ce qui empeche meme le franchissement de l'etape d'evaluation initiale de securite (S0 → S1).
-- A titre de comparaison, le modele a egalement identifie l'**anxiete** comme candidat secondaire (rang 2, score 99.25%), mais les 6 essais cliniques et 6 publications associes concernent tous l'utilisation de l'iohexol comme produit de contraste ou outil de mesure de la fonction renale (pertinence classee C / faible), sans lien therapeutique direct avec l'anxiete. Ce second signal renforce l'hypothese que les predictions pour ce medicament resultent d'artefacts de similarite dans le graphe plutot que d'une piste pharmacologique reelle.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication et aucun mécanisme plausible ne la soutiennent.
+- Le produit est un agent de contraste inerte sans activité sur le système nerveux central. Un score élevé sans donnée annotée est ici un signal d'artefact, pas d'opportunité.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Obtention et analyse de la notice TFDA (mises en garde et contre-indications officielles) — element bloquant pour l'etape S1
-- Donnees detaillees sur le mecanisme d'action (MOA) via DrugBank
-- Une recherche cible sur une eventuelle activite au niveau du systeme nerveux central de l'iohexol (ex. cas de neurotoxicite/convulsions en cas de passage intrathecal), afin de confirmer l'absence de lien mecanistique plutot que de se fier a l'absence actuelle de donnees
-- Reevaluation de la pertinence de ce candidat si de nouvelles publications ou essais cliniques directement lies au sommeil apparaissent
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Notice de l'ANSM (mises en garde, contre-indications), actuellement absente, ce qui bloque le criblage de sécurité
+- Données sur le mécanisme d'action (DrugBank)
+- Indications approuvées des 4 AMM
+- Un rationnel pharmacologique crédible avant toute étude, sans quoi cette piste ne mérite pas d'être poursuivie
+
+*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

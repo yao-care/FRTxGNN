@@ -2,15 +2,15 @@
 layout: default
 title: Clioquinol
 parent: Preuves modérées (L3-L4)
-nav_order: 78
-evidence_level: L3
+nav_order: 80
+evidence_level: L4
 indication_count: 7
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **7** 
+Niveau de preuve: **L4** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,86 @@ Niveau de preuve: **L3** | Indications prédites: **7**
 
 </div>
 
-En utilisant le skill `txgnn-pipeline` pour le contexte du projet, je génère maintenant le rapport d'évaluation à partir du JSON Evidence Pack.
-
----
-
-# Clioquinol : Des Infections Cutanées Surinfectées à la Candidose Cutanée
+# Clioquinol : Vers la Candidose Cutanée (indication d'origine non renseignée)
 
 ## Résumé en Une Phrase
 
-Clioquinol (Vioform®) est un agent antiseptique et antifongique topique historiquement utilisé dans les dermatoses surinfectées, notamment en association avec des corticostéroïdes dans la combinaison Locacorten-Vioform® (flumetasone + clioquinol 3 %).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Candidose Cutanée**,
-avec **0 essai clinique enregistré** et **6 publications** soutenant actuellement cette direction.
-
----
+Le clioquinol (DrugBank DB04815) est présent en France dans un seul produit autorisé, un patch pour test épicutané. Les données fournies n'indiquent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **candidose cutanée**.
+Aucun essai clinique n'est enregistré, et **6 publications** sont associées. Seules 3 concernent des produits contenant du clioquinol, toutes en association, avec un plan d'étude non vérifié.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections cutanées et dermatoses surinfectées (usage topique historique — aucune AMM disponible dans la base de données) |
 | Nouvelle Indication Prédite | Candidose cutanée |
 | Score de Prédiction TxGNN | 99,84 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action de clioquinol ne sont pas disponibles dans la base de données actuelle. Sur la base des informations connues, clioquinol est un dérivé de la 8-hydroxyquinoléine fonctionnant comme **agent chélateur des métaux divalents** (Zn²⁺/Cu²⁺). En privant les cellules fongiques de cofacteurs métalliques essentiels, il inhibe les métalloenzymes fongiques et compromet l'intégrité de la membrane cellulaire de *Candida spp.*, lui conférant une activité antifongique directe. Commercialisé sous le nom Vioform®, il a historiquement été utilisé en application topique pour les infections cutanées bactériennes et fongiques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après des connaissances générales, qui ne proviennent pas des données fournies, le clioquinol est décrit comme un chélateur et ionophore de métaux (zinc, cuivre, fer) doté d'une activité antifongique et antibactérienne. Cela rend son activité contre *Candida* plausible sur le plan mécanistique.
 
-La candidose cutanée est une infection superficielle de la peau provoquée par *Candida albicans* ou d'autres espèces du genre *Candida*, survenant le plus souvent dans les plis cutanés humides. Le mécanisme de chélation métallique de clioquinol est directement applicable à ce pathogène : *Candida spp.* dépend fortement du zinc et du cuivre pour ses enzymes virulentes (superoxyde dismutase, phospholipases). La combinaison Locacorten-Vioform® a précisément été conçue et validée cliniquement pour les dermatoses avec surinfection candidosique, ce qui constitue une preuve d'usage directe.
+Le lien avec l'indication d'origine ne peut pas être analysé, car aucune indication approuvée n'est renseignée dans les données. Le score TxGNN est très élevé (0,998), mais il reste une simple prédiction du modèle.
 
-La cohérence entre ce mécanisme d'action antifongique topique et la pathophysiologie de la candidose cutanée explique le score de prédiction TxGNN exceptionnellement élevé (99,84 %). Bien que les études disponibles soient anciennes et portent souvent sur des formulations combinées, elles attestent d'une plausibilité clinique établie.
-
----
+La littérature apporte un signal indirect et nuancé. Dans l'étude PMID 155507 (1979), le comparateur contenait de l'iodochlorhydroxyquine (clioquinol) associée à l'hydrocortisone. Il a donné une réponse excellente chez 43 % des patients atteints de candidose cutanée, contre 95 % avec l'association halcinonide-néomycine-amphotéricine. L'association à base de clioquinol s'est donc montrée nettement moins efficace que le produit de référence de cette étude.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
+
+Tous les plans d'étude sont non vérifiés. Aucune étude ne porte sur le clioquinol seul.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Étude clinique prospective en double aveugle | *Dermatologica* | Locacorten (0,02 %)–Vioform (3 %) très efficace dans les dermatoses avec surinfection sur 430 patients ; amélioration microbiologique et clinique nettement supérieure au placebo et aux monothérapies ; *Staphylococcus aureus* pathogène prédominant. |
-| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Essai clinique comparatif randomisé | *J Int Med Res* | Comparaison de deux crèmes topiques dans 154 patients (dont 67 candidoses cutanées) ; la formulation contenant iodochlorhydroxyquine (= clioquinol) a montré une réponse thérapeutique équivalente à la formulation concurrente. |
-| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Petit essai clinique | *Curr Ther Res* | Évaluation clinique d'une nouvelle combinaison halcinonide–antifongique incluant clioquinol dans les infections cutanées ; résultats cliniques positifs rapportés. |
-| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Petit essai clinique (produit combiné) | *Curr Med Res Opin* | Comparaison HNA vs iodochlorhydroxyquine-hydrocortisone dans 40 patients en candidose cutanée : réponse excellente HNA 95 % vs I-HC 43 % ; clioquinol utilisé comme bras contrôle de référence. |
-| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Série de cas / observationnelle | *Z Haut Geschlechtskr* | Rôle des levures (Candida) dans l'acrodermatite entéropathique de Danbolt-Closs ; usage de clioquinol documenté dans ce contexte de surinfection candidosique. |
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Étude in vitro / santé au travail | *Przegl Dermatol* | Activité fongicide étudiée in vitro contre *C. albicans* isolée de patients ; clioquinol figure parmi les composés montrant l'effet fongicide le plus puissant en milieu fortement alcalin. |
+| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Étude clinique (comparative) | Current Medical Research and Opinion | Crème halcinonide-néomycine-amphotéricine : réponse excellente chez 38 patients sur 40 (95 %), contre 17 sur 40 (43 %) avec l'association iodochlorhydroxyquine-hydrocortisone |
+| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Étude comparative randomisée | J Int Med Res | 154 patients (dont 67 avec candidose cutanée) : deux crèmes corticoïde-antimicrobien, dont une contenant du clioquinol, donnent des réponses thérapeutiques équivalentes |
+| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Étude clinique (double aveugle) | Dermatologica | 430 patients : la crème Locacorten-Vioform (avec clioquinol) est très efficace dans les dermatoses surinfectées par des bactéries. Il s'agit d'infections bactériennes, pas de candidose |
+| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Évaluation clinique | Curr Ther Res | Association halcinonide-antifongique ; pas de résumé disponible |
+| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Autre (indirect) | Z Haut Geschlechtskr | Article en allemand sur le rôle des levures dans l'acrodermatite entéropathique ; pas de résumé disponible |
+| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Autre (indirect, in vitro) | Przegl Dermatol | Additifs de savons de toilette testés in vitro sur *Candida albicans* ; lien indirect avec le clioquinol |
 
----
+### Autres indications prédites (sans essai clinique)
+
+| Maladie prédite | Score TxGNN | Niveau | Preuves disponibles |
+|------|------|------|------|
+| Mycose superficielle | 99,18 % | L3 | Étude préclinique de 2021 sur l'association clioquinol + ciclopirox + terbinafine (activité et toxicité, [PMID 33772895](https://pubmed.ncbi.nlm.nih.gov/33772895/)) ; rapport clinique de 1958 sur une crème clioquinol-hydrocortisone, plan non vérifié ([PMID 13521766](https://pubmed.ncbi.nlm.nih.gov/13521766/)) |
+| Maladie infectieuse ectothrix | 99,26 % | L5 | Aucune |
+| Granulome de Majocchi | 99,26 % | L5 | Aucune |
+| Maladie infectieuse endothrix | 99,19 % | L5 | Aucune |
+| Dermatophytie du cuir chevelu ou de la barbe | 99,17 % | L5 | 10 références examinées, toutes hors sujet (faux positifs sur le mot « beard ») |
+| Tinea profunda | 99,13 % | L5 | Aucune |
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
+|---------|------|------|-----------|
+| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch | SmartPractice Denmark (Danemark) |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
-> **Note :** Les données réglementaires (mises en garde, contre-indications, interactions médicamenteuses) sont manquantes dans cet Evidence Pack. Il convient de noter que clioquinol a historiquement été associé à la **neuropathie optique subaiguë (SMON)** lors d'une utilisation orale prolongée au Japon dans les années 1970 ; bien que cette toxicité soit liée à la voie orale, une vigilance neurologique est recommandée même pour les préparations topiques à forte concentration ou à large surface d'application.
-
----
-
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-Plusieurs études cliniques (1965–1988), dont deux essais comparatifs en double aveugle, ont documenté l'efficacité de formulations contenant clioquinol dans les dermatoses candidosiques et surinfectées, établissant un niveau de preuve L3 solide pour son activité topique anti-*Candida*. Le mécanisme de chélation métallique est biologiquement cohérent avec la pathophysiologie de la candidose cutanée. Toutefois, l'absence de données réglementaires et la préoccupation historique de sécurité liée à la neurotoxicité nécessitent un encadrement strict.
+Aucun essai clinique n'existe pour la candidose cutanée. Les publications disponibles portent sur des associations à base de clioquinol, avec des plans d'étude non vérifiés, et l'une d'elles montre une efficacité inférieure au comparateur. Les données de sécurité ANSM manquent, ce qui bloque le passage à l'étape de dépistage de sécurité (S1).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données complètes sur le mécanisme d'action (MOA) depuis DrugBank (DG002 — priorité High)
-- Informations de sécurité réglementaires : mises en garde, contre-indications et profil d'interactions médicamenteuses (DG001 — priorité Blocking)
-- Évaluation spécifique du risque neurotoxique pour la voie topique (profil SMON : absorption transcutanée, surface d'application, durée de traitement)
-- Mise à jour de la littérature clinique avec des études contemporaines (critères ICH E6 R2 / GCP modernes)
-- Plan de développement réglementaire pour obtenir une AMM, incluant justification du ratio bénéfice/risque au regard des antifongiques topiques de référence actuels (clotrimazole, miconazole)
+- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante)
+- Obtenir les données sur le mécanisme d'action depuis DrugBank
+- Confirmer l'indication d'origine et la voie d'administration compatible : le seul produit français est un patch de test épicutané, et non une forme thérapeutique
+- Vérifier le plan et les résultats des études de 1975 à 1981 (PMID 155507, 6459255, 128475)
+- Examiner de manière approfondie le lien entre le clioquinol et les mycoses superficielles (PMID 33772895)
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

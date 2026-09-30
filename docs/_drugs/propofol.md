@@ -2,7 +2,7 @@
 layout: default
 title: Propofol
 parent: Preuves élevées (L1-L2)
-nav_order: 248
+nav_order: 251
 evidence_level: L2
 indication_count: 5
 ---
@@ -29,97 +29,94 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 </div>
 
-# Propofol : De l'Anesthésie Générale à la Migraine
+# Propofol : De l'anesthésie à la migraine
 
 ## Résumé en Une Phrase
 
-Propofol est un agent anesthésique/sédatif intraveineux, historiquement utilisé pour l'induction et l'entretien de l'anesthésie générale ainsi que pour la sédation procédurale.
-Le modèle TxGNN prédit qu'il pourrait être efficace, à dose infra-anesthésique, pour le traitement de la **Migraine (crise aiguë)**,
-avec **5 essais cliniques** et **20 publications** soutenant actuellement cette direction.
-
----
+Le propofol est un agent anesthésique intraveineux commercialisé en France sous forme d'émulsion injectable. Le texte de ses indications d'AMM n'est pas renseigné dans le dossier, et son usage d'anesthésie/sédation relève ici de la connaissance générale.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine (migraine disorder)**, avec **5 essais cliniques** (dont 3 directement pertinents) et **20 publications** soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Anesthésie générale / Sédation intraveineuse |
+| Indication Originale | Non renseignée dans les AMM du dossier (usage connu : anesthésie/sédation) |
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
-| Score de Prédiction TxGNN | 99.69 % (rang TxGNN #2716) |
+| Score de Prédiction TxGNN | 99,69 % |
 | Niveau de Preuve | L2 |
-| Statut de Marché (Taïwan) | ✗ Non commercialisé |
-| Nombre d'AMM (Taïwan) | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 11 |
 | Décision Recommandée | Proceed with Guardrails |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le champ officiel de mécanisme d'action (DrugBank) est actuellement une lacune de données (Data Gap High — DG002). Cependant, la littérature associée à cette prédiction documente elle-même un mécanisme plausible : le propofol est un modulateur allostérique positif du récepteur GABA-A, à l'origine de ses effets sédatifs, anxiolytiques et antiémétiques. Une étude de mécanisme (PMID 22390898) montre qu'à dose sub-anesthésique, le propofol supprime la **dépression corticale envahissante** (cortical spreading depression, CSD), phénomène considéré comme le corrélat neuronal de l'aura migraineuse et un déclencheur possible de la douleur migraineuse.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Le propofol est toutefois décrit comme un modulateur allostérique positif du récepteur GABA-A. À faible dose (dose sous-anesthésique), il pourrait interrompre une crise de migraine en atténuant l'hyperexcitabilité trigémino-vasculaire et corticale.
 
-Le lien entre l'indication d'origine (anesthésie/sédation) et la nouvelle indication (migraine) repose donc sur un changement de posologie plutôt que sur un changement de cible pharmacologique : aux doses utilisées en anesthésie, le propofol induit une perte de conscience ; à doses beaucoup plus faibles (« low-dose » ou « sub-hypnotic »), il conserverait un effet inhibiteur sur la CSD et sur la transmission nociceptive centrale sans sédation profonde, ce qui a conduit des équipes d'urgence à l'utiliser en perfusion lente pour interrompre des crises de migraine réfractaires.
+Le lien avec l'indication d'origine est pharmacologique plutôt que thérapeutique. Le même effet dépresseur sur le système nerveux central, qui sert à l'anesthésie, pourrait calmer les circuits neuronaux impliqués dans la crise migraineuse. Des travaux précliniques montrent que le propofol supprime la dépression corticale envahissante, considérée comme le corrélat neuronal de l'aura migraineuse.
 
-Cette hypothèse est soutenue par plus de 20 ans de littérature clinique (premiers rapports de cas dès 2000) et par au moins un essai contrôlé randomisé de Phase 2/3 chez l'enfant. Les limites principales restent la petite taille des échantillons, la prédominance de données pédiatriques/urgences, et l'absence de données de sécurité structurées (cf. section Sécurité) qui imposeraient une utilisation encadrée (surveillance respiratoire et hémodynamique).
-
----
+Le signal clinique provient d'un essai randomisé de phase 2/3 et d'un essai pédiatrique sur la perfusion de faible dose aux urgences. S'y ajoutent une revue systématique et l'inclusion dans la mise à jour 2025 des lignes directrices de l'American Headache Society pour les urgences. Les essais sont de petite taille et le risque de sédation est réel. L'usage devrait donc rester limité à un environnement surveillé, pour les cas réfractaires ou de recours.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Phase 2/3 | Terminé (Completed) | 74 | Essai le plus solide : traitement abortif par propofol faible dose vs traitement standard de la migraine pédiatrique en urgence. |
-| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | N/A | Terminé (Completed) | 40 | Perfusion de propofol à faible dose comme agent abortif de la migraine chez l'enfant ; évaluation de l'efficacité et des limites de dose sûres. |
-| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | N/A | Arrêté (Terminated) | 12 | Propofol à faible dose pour migraine sévère réfractaire aux urgences ; essai arrêté prématurément, échantillon très limité. |
-| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | N/A | Statut inconnu (Unknown) | 130 | Comparaison sévoflurane vs propofol sur la survenue de céphalées postopératoires — pertinence indirecte (contexte chirurgical, pas traitement de crise migraineuse). |
-| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | N/A | Terminé (Completed) | 315 | Électroacupuncture périopératoire en chirurgie cardiaque — pertinence faible, probablement un signal de bruit dans le graphe de connaissances plutôt qu'une preuve directe. |
-
----
+| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Phase 2/3 | Terminé | 74 | Propofol à faible dose comme traitement de la crise migraineuse pédiatrique aux urgences. Directement pertinent. |
+| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | Non applicable | Terminé | 40 | Perfusion de propofol à faible dose contre la crise migraineuse de l'enfant. Directement pertinent, mais phase non classée et échantillon réduit. |
+| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | Non applicable | Arrêté prématurément | 12 | Propofol à faible dose pour la migraine sévère réfractaire aux urgences. Pertinent, mais arrêté avec 12 participants, il apporte peu de preuves. |
+| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | Non applicable | Inconnu | 130 | Sévoflurane vs propofol pour l'entretien de l'anesthésie et la survenue de céphalées postopératoires. Le propofol est un comparateur, l'objectif n'est pas de traiter la migraine. |
+| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | Non applicable | Terminé | 315 | Combinaisons de points d'acupuncture par électroacupuncture lors d'un pontage coronarien à cœur battant. Lien seulement indirect. |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Recommandation (Guideline) | Headache | Mise à jour 2025 des recommandations de l'American Headache Society sur les traitements parentéraux de la migraine aux urgences. |
-| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Revue Systématique | Acad Emerg Med | Revue systématique sur la sécurité et l'efficacité du propofol pour la migraine aiguë aux urgences. |
-| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | ECR | J Emerg Med | ECR prospectif : propofol à faible dose pour la migraine pédiatrique, profil d'effets secondaires favorable. |
-| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | ECR | Arch Acad Emerg Med | ECR en double aveugle : propofol + granisétron vs propofol + métoclopramide dans la migraine aiguë. |
-| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | ECR pilote | Emerg Med Australas | Essai pilote randomisé : propofol IV à dose de sédation procédurale vs traitement standard pour la migraine aux urgences. |
-| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | ECR | Arch Acad Emerg Med | ECR : efficacité de la combinaison sumatriptan/propofol vs sumatriptan/placebo dans la migraine aiguë. |
-| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | Revue Systématique / Méta-analyse en réseau | Headache | Comparaison de l'efficacité des agents parentéraux (dont propofol) pour réduire les rechutes après une crise sévère. |
-| [26790849](https://pubmed.ncbi.nlm.nih.gov/26790849/) | 2016 | Revue Systématique | Headache | Revue systématique qualitative des traitements abortifs de la migraine pédiatrique aux urgences. |
-| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | Revue Systématique / Recommandation | Cephalalgia | Recommandations de la Société Canadienne de Céphalée sur le traitement de la douleur migraineuse en contexte d'urgence. |
-| [32638172](https://pubmed.ncbi.nlm.nih.gov/32638172/) | 2020 | Revue | Curr Pain Headache Rep | Revue du traitement intraveineux de la migraine chez l'enfant et l'adolescent, incluant le propofol. |
+| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | ECR | J Emerg Med | Propofol à faible dose dans la migraine pédiatrique aux urgences. Évalue efficacité, effets indésirables et durée de séjour. |
+| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | ECR (double insu) | Arch Acad Emerg Med | Propofol + granisétron vs propofol + métoclopramide dans la prise en charge des symptômes de la migraine aiguë. |
+| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | ECR pilote | Emerg Med Australas | Propofol à dose de sédation procédurale vs traitement standard en première intention de la migraine aux urgences. |
+| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | ECR | Arch Acad Emerg Med | Association sumatriptan + propofol comparée au sumatriptan seul dans la migraine aiguë. |
+| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Revue systématique | Acad Emerg Med | Sécurité et efficacité du propofol dans la migraine aiguë aux urgences. Les données disponibles restent limitées. |
+| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | Revue systématique et analyse en réseau | Headache | Efficacité des agents parentéraux pour réduire les rechutes après une migraine aiguë sévère. |
+| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | Revue systématique et recommandations | Cephalalgia | Recommandations de la Société canadienne des céphalées pour le traitement de la migraine en urgence. |
+| [26790849](https://pubmed.ncbi.nlm.nih.gov/26790849/) | 2016 | Revue systématique qualitative | Headache | Sécurité et efficacité des traitements de la migraine pédiatrique aux urgences. |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Lignes directrices | Headache | Mise à jour 2025 des lignes directrices de l'American Headache Society sur les traitements parentéraux de la migraine aux urgences. |
+| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Revue | Expert Rev Neurother | Profil du propofol à dose sous-anesthésique dans les migraines réfractaires. |
 
----
+## Informations de Marché en France
 
-## Informations de Marché (Taïwan)
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 63558577 | PROPOFOL BAXTER 10 mg/ml, émulsion injectable/pour perfusion | Émulsion injectable pour perfusion | Baxter Holding (Pays-Bas) |
+| 62010414 | DIPRIVAN 20 mg/mL, émulsion injectable en seringue pré-remplie | Émulsion injectable | Aspen Pharma Trading (Irlande) |
+| 66093051 | PROPOFOL BAXTER 20 mg/ml, émulsion injectable/pour perfusion | Émulsion injectable pour perfusion | Baxter Holding (Pays-Bas) |
+| 66110981 | PROPOFOL KABI 10 mg/mL, émulsion injectable/pour perfusion | Émulsion injectable ou pour perfusion | Fresenius Kabi France |
+| 66701952 | PROPOFOL LIPURO 2 % (20 mg/ml), émulsion injectable ou pour perfusion | Émulsion injectable ou pour perfusion | B. Braun Melsungen |
 
-Aucune Autorisation de Mise sur le Marché (AMM) n'est enregistrée pour le propofol dans le pack de données (statut : **Non commercialisé**, 0 licence recensée). Aucun tableau de spécialités n'est donc disponible à ce stade.
-
----
+Le texte des indications approuvées n'est pas renseigné pour ces AMM dans le dossier. Aucune indication migraineuse n'y apparaît.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Sédation** : le risque de sédation est réel, y compris à faible dose. L'usage doit être limité à un environnement surveillé, pour les cas réfractaires ou de recours.
+- **Angor vasospastique** : des cas rapportés font état de spasmes coronaires survenus lors d'une anesthésie induite par le propofol (PMID 19364017 et 20339883). Ils ne prouvent pas un lien de causalité, mais appellent à la prudence chez les patients atteints d'angor de Prinzmetal ou de vasospasme connu.
 
-*(Les rubriques mises en garde, contre-indications et interactions médicamenteuses ne contiennent actuellement aucune donnée exploitable — cf. lacune bloquante DG001 ci-dessous.)*
-
----
+Veuillez consulter la notice pour les informations de sécurité complètes (mises en garde, contre-indications, interactions médicamenteuses).
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Le niveau de preuve L2 repose sur un essai contrôlé randomisé de Phase 2/3 complet (NCT01604785, n=74) et plusieurs autres ECR de plus petite taille, appuyés par une revue systématique et une recommandation de société savante récente (2026). Le mécanisme (inhibition de la CSD) est biologiquement plausible et cohérent avec l'usage clinique rapporté depuis 2000. Toutefois, la population étudiée est majoritairement pédiatrique/urgence, les échantillons restent petits, et **aucune donnée de sécurité structurée n'est disponible** — un point classé comme lacune bloquante (DG001) empêchant à ce stade l'entrée en évaluation de sécurité initiale (S1). La recommandation « Proceed with Guardrails » doit donc être comprise comme conditionnelle à la levée de cette lacune avant toute utilisation clinique encadrée.
+Un essai randomisé de phase 2/3 terminé et un essai pédiatrique terminé soutiennent l'usage du propofol à faible dose dans la migraine aiguë. Une revue systématique et la mise à jour 2025 des lignes directrices de l'American Headache Society vont dans le même sens. Les essais restent de petite taille et le risque de sédation impose un cadre de surveillance strict.
+
+Les autres prédictions, à savoir la migraine avec aura du tronc cérébral (extrapolation, question de recherche), l'angor de Prinzmetal, le syndrome néphrogénique d'antidiurèse inappropriée et le syndrome de Gilles de la Tourette, ne sont pas étayées par des preuves thérapeutiques. Elles sont classées en attente (Hold) ou en question de recherche.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtention de la notice / des mises en garde officielles (TFDA ou équivalent) — lacune bloquante (DG001)
-- Données structurées de mécanisme d'action (DrugBank) — lacune importante (DG002)
-- Données d'interactions médicamenteuses (DDI), actuellement introuvables
-- Protocole de surveillance dédié aux effets liés à la sédation (dépression respiratoire, hypotension) lors d'un usage à dose infra-anesthésique
-- Données complémentaires chez l'adulte (les ECR disponibles sont majoritairement pédiatriques) pour élargir la population cible
-- Clarification de la voie d'accès réglementaire, le produit n'étant actuellement pas commercialisé à Taïwan
+- La notice ANSM (mises en garde et contre-indications), indispensable pour le criblage de sécurité
+- Les données détaillées sur le mécanisme d'action (MOA)
+- Le texte des indications approuvées pour les AMM françaises
+- Des essais de phase 3 confirmatoires, de plus grande taille, chez l'adulte et l'enfant
+- Un protocole d'usage encadré : environnement surveillé, dose et critères de sélection des patients (exclusion des patients atteints d'angor vasospastique)
+
+*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

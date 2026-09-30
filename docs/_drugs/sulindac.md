@@ -2,7 +2,7 @@
 layout: default
 title: Sulindac
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 289
+nav_order: 293
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulindac : Des Douleurs Inflammatoires et Rhumatismales à la Dysplasie Acromésomélique de Type Hunter-Thompson
+# Sulindac : D'un anti-inflammatoire non stéroïdien à la Dysplasie Acromésomélique de type Hunter-Thompson
 
 ## Résumé en Une Phrase
 
-Sulindac est un anti-inflammatoire non stéroïdien (AINS), traditionnellement associé au traitement des douleurs inflammatoires et rhumatismales. Le modèle TxGNN prédit qu'il pourrait être pertinent pour la **Dysplasie Acromésomélique de Type Hunter-Thompson**, mais cette prédiction n'est actuellement soutenue par **aucun essai clinique** ni **aucune publication** — elle repose uniquement sur une similarité calculée dans le graphe de connaissances.
+Sulindac est un anti-inflammatoire non stéroïdien (AINS, inhibiteur des cyclooxygénases), commercialisé en France sous le nom ARTHROCINE. Le texte de l'indication approuvée n'est pas renseigné dans les données reçues.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acromésomélique de type Hunter-Thompson**, une maladie osseuse génétique rare.
+Cette prédiction ne repose sur **aucun essai clinique** et **aucune publication** : c'est une prédiction du modèle seul.
 
 ---
 
@@ -41,23 +43,22 @@ Sulindac est un anti-inflammatoire non stéroïdien (AINS), traditionnellement a
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Douleurs inflammatoires et rhumatismales (classe AINS) — non confirmé par une source réglementaire dans ce dossier |
-| Nouvelle Indication Prédite | Dysplasie Acromésomélique de Type Hunter-Thompson |
-| Score de Prédiction TxGNN | 99.92 % |
+| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson |
+| Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier (le champ MOA est marqué comme lacune de données de sévérité élevée). Sur la base des informations pharmacologiques générales, le sulindac appartient à la classe des anti-inflammatoires non stéroïdiens (inhibition de la cyclo-oxygénase, COX-1/COX-2), historiquement utilisé pour des affections inflammatoires et douloureuses de type rhumatismal.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sulindac appartient à la classe des AINS et agit en inhibant les cyclooxygénases (COX), ce qui réduit la production de prostaglandines inflammatoires. Son usage est lié à des affections inflammatoires et douloureuses de l'appareil locomoteur.
 
-La dysplasie acromésomélique de type Hunter-Thompson est une maladie génétique rare du développement squelettique, liée aux voies de signalisation BMP/GDF5. Il n'existe **aucun lien mécanistique connu** entre l'inhibition de la COX par le sulindac et la physiopathologie de cette dysplasie squelettique congénitale.
+La dysplasie acromésomélique de type Hunter-Thompson est une maladie squelettique liée à la voie CDMP1/GDF5, qui régule le développement du cartilage et des os. Aucun lien mécanistique n'est étayé par les données fournies : la voie GDF5 n'a pas de rapport connu avec l'inhibition des COX. Le seul signal en faveur de cette association est le score élevé du modèle (0,999), sans confirmation clinique ni bibliographique.
 
-La justification fournie pour cette prédiction indique explicitement qu'il s'agit d'une **similarité de graphe TxGNN pure, sans plausibilité biologique établie**. Cette prédiction doit donc être interprétée comme une piste exploratoire de très faible priorité, et non comme une hypothèse mécanistiquement fondée.
+Cette prédiction doit donc être considérée comme une hypothèse à vérifier, non comme une piste étayée. Les neuf autres indications prédites pour ce médicament, dont la vascularite rhumatoïde, sont également de niveau L5, sans essai ni publication. La vascularite rhumatoïde est la plus plausible sur le plan biologique, mais le lien reste indirect.
 
 ---
 
@@ -75,13 +76,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le sulindac n'est pas commercialisé en France : 0 AMM recensée, statut de marché « non commercialisé ». Aucune information de produit n'est donc disponible.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 65862059 | ARTHROCINE 100 mg, comprimé | Comprimé | MEDAC |
+| 62028152 | ARTHROCINE 200 mg, comprimé sécable | Comprimé sécable | MEDAC |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Une lacune de données bloquante est par ailleurs identifiée : les mises en garde et contre-indications issues du RCP/notice TFDA n'ont pas encore été récupérées, ce qui empêche toute évaluation de sécurité initiale (étape S1) sur ce candidat.
+Veuillez consulter la notice pour les informations de sécurité.
+
+Aucune interaction médicamenteuse n'a été trouvée dans les données consultées.
 
 ---
 
@@ -90,13 +96,19 @@ Veuillez consulter la notice pour les informations de sécurité. Une lacune de 
 **Décision : Hold**
 
 **Justification :**
-La prédiction principale (rang 1) est classée niveau de preuve L5 — prédiction du modèle seule, sans essai clinique, sans littérature, et la justification mécanistique elle-même indique une absence de plausibilité biologique. De plus, une lacune de données bloquante (mises en garde/contre-indications TFDA) empêche toute évaluation de sécurité, et le médicament n'est pas commercialisé en France.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible avec le mécanisme d'un AINS.
+- Les données de sécurité issues de la notice ANSM et le mécanisme d'action détaillé manquent, ce qui empêche un examen de sécurité sérieux.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération de la notice/RCP TFDA (mises en garde, contre-indications, interactions) — actuellement bloquant
-- Données détaillées sur le mécanisme d'action (MOA) via DrugBank
-- Confirmation de l'indication d'origine et de son texte approuvé (aucune source réglementaire disponible dans ce dossier)
-- Si une piste est poursuivie, envisager en priorité la vascularite rhumatoïde (rang 9, niveau de preuve L4, stade S1 « Research Question »), dont le lien mécanistique avec l'action anti-inflammatoire du sulindac est jugé plus plausible que les autres candidats de ce pipeline, malgré l'absence actuelle d'essais cliniques ou de littérature dédiés
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée)
+- Compléter les données sur le mécanisme d'action via DrugBank
+- Rechercher dans la littérature et les registres d'essais tout lien entre les AINS et les dysplasies de la voie GDF5
+- Évaluer si un rationnel préclinique (modèle cellulaire ou animal) justifie de poursuivre
+- Réexaminer la prédiction de la vascularite rhumatoïde, biologiquement plus plausible, si une priorisation est envisagée
+
+---
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Iobenguane
-parent: Preuves modérées (L3-L4)
-nav_order: 149
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 152
+evidence_level: L5
 indication_count: 4
 ---
 
 # Iobenguane
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,94 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Iobenguane (MIBG) : De l'Oncologie Neuroendocrine vers les Troubles Hypotensifs
+# Iobenguane : D'un Radiopharmaceutique Diagnostique à l'Hypotension (Prédiction TxGNN)
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Iobenguane (MIBG) est un analogue de la noradrenaline historiquement utilise en imagerie et en traitement radio-isotopique des tumeurs neuroendocrines (pheochromocytome, paragangliome, neuroblastome) ; l'indication d'origine precise et le mecanisme d'action detaille ne sont toutefois pas documentes dans ce dossier (lacunes de donnees DG001/DG002).
-Le modele TxGNN predit qu'il pourrait etre pertinent pour le **Trouble Hypotensif** (hypotensive disorder),
-mais cette direction repose actuellement sur **0 essai clinique** et **20 publications**, dont la majorite concerne l'usage de la scintigraphie MIBG comme outil diagnostique de la dysautonomie, et non comme traitement de l'hypotension.
+L'iobenguane (MIBG) est un analogue de la noradrénaline. En France, il est commercialisé sous forme de solution injectable marquée à l'iode 123 (MIBG [123I]).
+Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypotension (trouble hypotensif)**, mais aucun **essai clinique** ne l'étudie et les **20 publications** associées décrivent un usage diagnostique (imagerie de la dénervation sympathique cardiaque), pas un effet thérapeutique.
 
 ---
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentee dans ce dossier (DG001/DG002) — usage historiquement connu : agent d'imagerie/radiotherapie des tumeurs neuroendocrines (pheochromocytome, paragangliome, neuroblastome) en tant qu'analogue de la noradrenaline |
-| Nouvelle Indication Predite | Trouble Hypotensif (Hypotensive Disorder) |
-| Score de Prediction TxGNN | 99.90 % |
-| Niveau de Preuve | L4 |
-| Statut de Marche en France | ✗ Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Nouvelle Indication Prédite | Trouble hypotensif (hypotension) |
+| Score de Prédiction TxGNN | 99,90 % |
+| Niveau de Preuve | L4 (données diagnostiques et physiopathologiques, sans preuve thérapeutique) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
 ---
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles (lacune DG002, severite Elevee). Sur la base des informations connues issues de la litterature associee, iobenguane (meta-iodobenzylguanidine, MIBG) est un analogue structurel de la noradrenaline, capte par les terminaisons nerveuses sympathiques via le transporteur de la noradrenaline. Cette propriete est exploitee depuis longtemps pour l'imagerie et le traitement radio-isotopique des tumeurs neuroendocrines secretant des catecholamines (pheochromocytome, paragangliome, neuroblastome).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après la littérature fournie, l'iobenguane est un analogue de la noradrénaline, capté par les terminaisons nerveuses sympathiques cardiaques. Il est décrit comme un analogue pharmacologiquement inactif, métabolisé comme la noradrénaline dans les neurones noradrénergiques.
 
-Le lien avec le trouble hypotensif proposé par TxGNN repose sur cette meme propriete pharmacologique : la scintigraphie myocardique au MIBG est largement utilisee dans la litterature pour detecter une denervation sympathique cardiaque, laquelle est un mecanisme physiopathologique connu de l'hypotension orthostatique (notamment dans la maladie de Parkinson et les syndromes parkinsoniens). Le modele semble donc avoir capture une association reelle entre iobenguane et l'axe physiopathologique de l'hypotension autonome.
+Dans les publications retenues, l'iobenguane sert de **marqueur diagnostique** de la dénervation sympathique cardiaque, notamment dans la maladie de Parkinson associée à l'hypotension orthostatique. Il n'est pas utilisé comme traitement. Le score élevé de TxGNN reflète donc très probablement une association dans le graphe de connaissances (hypotension orthostatique neurogène et dénervation cardiaque), et non un effet thérapeutique.
 
-Il est toutefois essentiel de souligner une limite importante : la quasi-totalite des publications identifiees utilisent le MIBG comme **outil diagnostique** (mesure de la denervation sympathique, marqueur pronostique) chez des patients presentant deja une hypotension orthostatique, et non comme **agent therapeutique** visant a traiter ou prevenir l'hypotension. Aucune preuve clinique actuelle ne demontre un effet therapeutique d'iobenguane sur le trouble hypotensif lui-meme. La prediction doit donc etre interpretee comme une association mecanistique/diagnostique plausible, mais non comme une preuve d'efficacite therapeutique.
+Le mécanisme ne peut pas être confronté à la pharmacologie connue du produit, faute de données sur l'indication d'origine et le mécanisme d'action. Il n'existe à ce stade aucun argument mécanistique en faveur d'un bénéfice thérapeutique dans l'hypotension.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
+Aucun essai contrôlé randomisé n'est disponible. Le tableau présente les 10 publications les plus pertinentes sur 20, dont aucune n'évalue un effet thérapeutique.
+
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [11482743](https://pubmed.ncbi.nlm.nih.gov/11482743/) | 2001 | Revue | Drugs & Aging | Physiopathologie et prise en charge de l'hypotension orthostatique chez les patients parkinsoniens ; prevalence symptomatique jusqu'a 20 % |
-| [27091624](https://pubmed.ncbi.nlm.nih.gov/27091624/) | 2016 | Revue | Movement Disorders | Relation entre hypotension orthostatique et declin cognitif dans la maladie de Parkinson (causalite vs association) |
-| [26944118](https://pubmed.ncbi.nlm.nih.gov/26944118/) | 2016 | Cohorte | J Neurol Sci | Hypotension orthostatique et denervation sympathique cardiaque (MIBG) chez les patients Parkinson avec trouble du comportement en sommeil paradoxal |
-| [34568970](https://pubmed.ncbi.nlm.nih.gov/34568970/) | 2021 | Cohorte | J Neural Transm | Neurofilament plasmatique et hypotension orthostatique dans la maladie de Parkinson precoce (77 patients, 54 controles) |
-| [29880316](https://pubmed.ncbi.nlm.nih.gov/29880316/) | 2018 | Cohorte | Parkinsonism Relat Disord | Hypotension orthostatique a haute composante noradrenergique et denervation sympathique centrale en Parkinson precoce |
-| [39232705](https://pubmed.ncbi.nlm.nih.gov/39232705/) | 2024 | Cohorte | BMC Neurology | Tachycardie emoussee et denervation sympathique cardiaque dans le trouble isole du comportement en sommeil paradoxal (phase prodromale) |
-| [26853109](https://pubmed.ncbi.nlm.nih.gov/26853109/) | 2016 | Cohorte | Can J Neurol Sci | Monitoring ambulatoire de la pression arterielle sur 24h chez des patients parkinsoniens SWEDDs |
-| [24332912](https://pubmed.ncbi.nlm.nih.gov/24332912/) | 2014 | Revue | Parkinsonism Relat Disord | Scintigraphie myocardique au MIBG dans la phase pre-motrice de la maladie de Parkinson |
-| [30919499](https://pubmed.ncbi.nlm.nih.gov/30919499/) | 2019 | Revue | Movement Disorders | Decennie de progres sur les marqueurs prodromaux de la maladie de Parkinson (dont l'hypotension orthostatique) |
-| [40616749](https://pubmed.ncbi.nlm.nih.gov/40616749/) | 2025 | Cohorte | Clin Auton Res | Illusions visuelles accrues associees a une defaillance autonome cardiovasculaire dans la maladie de Parkinson |
-
-*Note : plusieurs autres publications recensees (ex. PMID 32169989, 2666677, 33998473) concernent le pheochromocytome, une pathologie associee a des crises **hypertensives** plutot qu'hypotensives ; elles ont ete ecartees de ce tableau car leur pertinence directe pour le trouble hypotensif est faible malgre le chevauchement thematique avec les catecholamines/MIBG.*
+| [11482743](https://pubmed.ncbi.nlm.nih.gov/11482743/) | 2001 | Revue | Drugs Aging | Physiopathologie et prise en charge de l'hypotension orthostatique dans la maladie de Parkinson (prévalence symptomatique pouvant atteindre 20 %) |
+| [27091624](https://pubmed.ncbi.nlm.nih.gov/27091624/) | 2016 | Revue | Mov Disord | Lien entre hypotension orthostatique et troubles cognitifs dans la maladie de Parkinson : causalité ou association, question non tranchée |
+| [24332912](https://pubmed.ncbi.nlm.nih.gov/24332912/) | 2014 | Revue | Parkinsonism Relat Disord | La scintigraphie myocardique au MIBG est un marqueur précoce de la maladie de Parkinson, avec une sensibilité et une spécificité élevées |
+| [39232705](https://pubmed.ncbi.nlm.nih.gov/39232705/) | 2024 | Cohorte | BMC Neurol | Recherche d'un lien entre tachycardie atténuée (marqueur d'hypotension orthostatique neurogène) et dénervation sympathique cardiaque dans le trouble du comportement en sommeil paradoxal isolé |
+| [26944118](https://pubmed.ncbi.nlm.nih.gov/26944118/) | 2016 | Cohorte | J Neurol Sci | Association entre hypotension orthostatique, dénervation sympathique cardiaque et trouble du comportement en sommeil paradoxal dans la maladie de Parkinson |
+| [34568970](https://pubmed.ncbi.nlm.nih.gov/34568970/) | 2021 | Cohorte | J Neural Transm | 77 patients parkinsoniens et 54 témoins : relation entre la neurofilament light chain plasmatique et des marqueurs non moteurs (dont hypotension orthostatique et dénervation cardiaque) |
+| [32134983](https://pubmed.ncbi.nlm.nih.gov/32134983/) | 2020 | Non classé | PLoS One | Relation entre le taux de lavage du MIBG-I123 et la fonction autonome dans la maladie de Parkinson (résultats non détaillés dans l'extrait) |
+| [29880316](https://pubmed.ncbi.nlm.nih.gov/29880316/) | 2018 | Non classé | Parkinsonism Relat Disord | Recherche d'une dénervation sympathique centrale chez les patients parkinsoniens avec hypotension orthostatique à noradrénaline élevée |
+| [11322922](https://pubmed.ncbi.nlm.nih.gov/11322922/) | 2001 | Non classé | Biochem Pharmacol | Le MIBG figure parmi les composés guanidiniques d'usage établi en oncologie, avec une similarité structurale avec la noradrénaline |
+| [32169989](https://pubmed.ncbi.nlm.nih.gov/32169989/) | 2020 | Cas clinique | BMJ Case Rep | Syncope de miction secondaire à un paragangliome vésical (contexte de tumeur sécrétant des catécholamines) |
 
 ---
 
-## Informations de Marche en France
+## Informations de Marché en France
 
-Iobenguane n'est actuellement pas commercialise en France (0 AMM enregistree, statut : non commercialise). Aucune donnee de licence n'est disponible pour constituer un tableau des AMM.
-
----
-
-## Considerations de Securite
-
-Veuillez consulter la notice pour les informations de securite.
-
-*A noter : l'absence de notice TFDA analysee (mises en garde, contre-indications, DDI) constitue une lacune de donnees de severite Bloquante (DG001), qui empeche toute evaluation de securite initiale (etape S1) pour cette molecule.*
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
+|---------|------|------|-----------|
+| 64886840 | MIBG [123 I] 74 MBq/mL solution injectable | Solution injectable | Curium Netherlands (Pays-Bas) |
 
 ---
 
-## Conclusion et Prochaines Etapes
+## Considérations de Sécurité
 
-**Decision : Hold**
+Veuillez consulter la notice pour les informations de sécurité.
+
+---
+
+## Conclusion et Prochaines Étapes
+
+**Décision : Hold**
 
 **Justification :**
-Le lien entre iobenguane et le trouble hypotensif repose exclusivement sur des etudes observationnelles et des revues utilisant le MIBG comme outil diagnostique de denervation sympathique, sans aucun essai clinique interventionnel testant une efficacite therapeutique. Combine a la lacune bloquante sur les donnees de securite TFDA (DG001), le dossier ne peut pas encore progresser vers une evaluation clinique.
+- La prédiction repose uniquement sur le score du modèle (99,90 %). Aucun essai clinique n'existe, et la littérature décrit l'iobenguane comme outil d'imagerie, sans données thérapeutiques dans l'hypotension.
+- Les données de sécurité et de mécanisme d'action manquent. L'analyse de sécurité ne peut donc pas commencer.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Obtenir la notice/les mises en garde TFDA (DG001, bloquant pour l'etape S1)
-- Obtenir le mecanisme d'action detaille via DrugBank (DG002)
-- Identifier si des essais interventionnels testent specifiquement iobenguane comme traitement (et non comme outil diagnostique) de l'hypotension orthostatique
-- Clarifier aupres d'experts si la prediction TxGNN reflete une opportunite therapeutique reelle ou une simple correlation diagnostique (biomarqueur MIBG) avant tout investissement supplementaire
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indication officielle)
+- Obtenir le mécanisme d'action détaillé via DrugBank
+- Trancher si la question relève d'un usage diagnostique (évaluation de la dénervation sympathique dans l'hypotension orthostatique neurogène) plutôt que d'un repositionnement thérapeutique
+- Réunir des preuves précliniques ou cliniques d'un effet thérapeutique avant toute réévaluation
+
+Les autres prédictions du modèle suivent le même schéma. L'atrophie multisystématisée (L3) et le syndrome de tachycardie orthostatique posturale (L4) reposent sur des études diagnostiques ou physiopathologiques, et la prionopathie sensible aux protéases de façon variable (L5) n'a aucune preuve associée.
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

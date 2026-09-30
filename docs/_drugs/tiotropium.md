@@ -2,7 +2,7 @@
 layout: default
 title: Tiotropium
 parent: Preuves élevées (L1-L2)
-nav_order: 309
+nav_order: 313
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Tiotropium : De la BPCO au Trouble Ventilatoire Obstructif (Obstructive Lung Disease)
+# Tiotropium : Vers la Maladie Pulmonaire Obstructive (usage déjà établi)
 
 ## Résumé en Une Phrase
 
-Le tiotropium est un bronchodilatateur anticholinergique de longue durée d'action (classe LAMA), utilisé de longue date dans la bronchopneumopathie chronique obstructive (BPCO) — sous les marques Spiriva/HandiHaler/Respimat. Le modèle TxGNN prédit une efficacité pour l'« obstructive lung disease » (trouble ventilatoire obstructif), avec **69 essais cliniques** et **20 publications** disponibles dans le dossier ; il faut toutefois noter que ce terme est l'entité ontologique parente de la BPCO elle-même, ce qui limite la nouveauté réelle du signal (voir section suivante).
+Le tiotropium est un antagoniste muscarinique inhalé à longue durée d'action, commercialisé en France sous le nom SPIRIVA. Le modèle TxGNN prédit qu'il pourrait être efficace dans la **maladie pulmonaire obstructive**, avec **50 essais cliniques** et **20 publications** associés. Cette prédiction correspond à un usage bronchodilatateur déjà établi (BPCO, asthme) et ne constitue pas un véritable signal de repositionnement.
 
 ---
 
@@ -41,71 +41,74 @@ Le tiotropium est un bronchodilatateur anticholinergique de longue durée d'acti
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | BPCO (bronchopneumopathie chronique obstructive) — connue par la littérature du dossier (cf. rationale du candidat n°5) ; non renseignée dans les données réglementaires structurées |
-| Nouvelle Indication Prédite | Obstructive Lung Disease (trouble ventilatoire obstructif) |
-| Score de Prédiction TxGNN | 99.99 % |
+| Nouvelle Indication Prédite | Maladie pulmonaire obstructive |
+| Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché (Taïwan)* | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Proceed with Guardrails |
-
-*\*Le dossier source (`taiwan_regulatory`) concerne Taïwan ; aucune donnée française (ANSM) n'est disponible dans cet Evidence Pack.*
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier structuré (« [Data Gap] » sur `original_moa`). Sur la base des informations connues du secteur, le tiotropium est un antagoniste muscarinique de longue durée d'action (LAMA) qui bloque les récepteurs M3 du muscle lisse bronchique, produisant une bronchodilatation prolongée — c'est le mécanisme qui sous-tend son indication historique dans la BPCO (spécialité Spiriva).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la pharmacologie générale et la littérature, le tiotropium est un antagoniste muscarinique (M3) qui réduit la bronchoconstriction cholinergique et la sécrétion de mucus. Cela correspond directement à la physiopathologie des maladies obstructives des voies aériennes.
 
-**Point de vigilance important** : l'« obstructive lung disease » n'est pas une indication distincte de la BPCO — c'est son terme ontologique parent. Le dossier le confirme explicitement : la justification associée à ce candidat indique que « obstructive lung disease... est le terme ontologique parent de la BPCO/asthme... les preuves se recoupent fortement avec l'entrée "chronic obstructive pulmonary disease", il s'agit du même hit à un niveau ontologique différent, non un signal nouveau et indépendant ». Le score TxGNN élevé (99,99 %) reflète donc surtout la reconnaissance d'un consensus clinique déjà établi plutôt qu'une découverte de repositionnement.
+Deux publications décrivent ce mécanisme : le tiotropium se dissocie très lentement des récepteurs M1 et M3, et plus vite des récepteurs M2. Cela explique sa longue durée d'action et son administration en une prise par jour (PMID 10069510, PMID 12010082).
 
-Un signal plus authentiquement nouveau, bien que de niveau de preuve plus modeste (L2, « Research Question »), concerne la BPCO sévère à début précoce (rang 4) : cette sous-population pourrait présenter une susceptibilité génétique différente (p. ex. déficit en alpha-1-antitrypsine), mais les essais actuels ne stratifient pas spécifiquement selon ce sous-type.
+L'indication d'origine n'est pas renseignée dans les données réglementaires reçues. Selon l'analyse du dossier, la nouvelle indication prédite recoupe les usages déjà établis du médicament (BPCO, asthme). La prédiction est donc pharmacologiquement cohérente, mais elle relève d'une confirmation d'usage et non d'un repositionnement.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
+Sur 50 essais recensés, voici les 10 plus pertinents. Les essais de grade A/B sont priorisés, complétés par des essais de phase 3 sur le tiotropium.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT02096731](https://clinicaltrials.gov/study/NCT02096731) | N/A | Terminé | 115 397 | Étude observationnelle de population évaluant le risque cardio-pulmonaire des bronchodilatateurs combinés, dont le tiotropium, dans la BPCO |
-| [NCT02796677](https://clinicaltrials.gov/study/NCT02796677) | Phase 3 | Terminé | 1 595 | Aclidinium/formotérol vs tiotropium seul dans la BPCO stable (essai tête-à-tête) |
-| [NCT00680056](https://clinicaltrials.gov/study/NCT00680056) | Phase 4 | Terminé | 33 | Formotérol+tiotropium vs formotérol seul sur dyspnée et hyperinflation dynamique en BPCO modérée à sévère |
-| [NCT00615992](https://clinicaltrials.gov/study/NCT00615992) | N/A | Terminé | 754 | Surveillance post-commercialisation : effet du tiotropium (Spiriva) sur le score d'activités de la vie quotidienne (lignes directrices autrichiennes BPCO) |
-| [NCT02489981](https://clinicaltrials.gov/study/NCT02489981) | N/A | Terminé | 359 | Surveillance post-commercialisation de Spiriva Respimat chez des asthmatiques sévères persistants — sécurité en vie réelle |
-| [NCT01785433](https://clinicaltrials.gov/study/NCT01785433) | Phase 1/2 | Terminé | 36 | Comparaison pharmacocinétique du tiotropium délivré par BAI, HandiHaler et Respimat chez des patients BPCO |
-| [NCT01559116](https://clinicaltrials.gov/study/NCT01559116) | Phase 3 | Terminé | 219 | VIVACITO — profil de fonction pulmonaire sur 24h de tiotropium+olodatérol vs tiotropium seul dans la BPCO |
-| [NCT01964352](https://clinicaltrials.gov/study/NCT01964352) | Phase 3 | Terminé | 813 | Efficacité sur 12 semaines de la combinaison fixe tiotropium+olodatérol vs tiotropium et placebo dans la BPCO modérée à sévère |
-| [NCT00387088](https://clinicaltrials.gov/study/NCT00387088) | Phase 3 | Terminé | 3 991 | Efficacité et sécurité à long terme (1 an) du tiotropium Respimat 5 mcg sur les exacerbations de BPCO |
-| [NCT00168831](https://clinicaltrials.gov/study/NCT00168831) | Phase 3 | Terminé | 1 007 | Comparaison de deux doses de tiotropium Respimat sur un an dans la BPCO |
+| [NCT02796677](https://clinicaltrials.gov/study/NCT02796677) | Phase 3 | Terminé | 1595 | Aclidinium/formotérol vs monothérapies et tiotropium 18 µg dans la BPCO stable, 24 semaines, double aveugle |
+| [NCT01559116](https://clinicaltrials.gov/study/NCT01559116) | Phase 3 | Terminé | 219 | Profil du VEMS sur 24 h de tiotropium + olodatérol (Respimat) vs monothérapies et placebo dans la BPCO |
+| [NCT00387088](https://clinicaltrials.gov/study/NCT00387088) | Phase 3 | Terminé | 3991 | Efficacité et sécurité à un an du tiotropium 5 µg Respimat dans la BPCO (VEMS, exacerbations, qualité de vie) |
+| [NCT00168831](https://clinicaltrials.gov/study/NCT00168831) | Phase 3 | Terminé | 1007 | Tiotropium Respimat (deux doses) vs placebo sur un an dans la BPCO |
+| [NCT01964352](https://clinicaltrials.gov/study/NCT01964352) | Phase 3 | Terminé | 813 | Efficacité sur 12 semaines de la combinaison tiotropium + olodatérol vs tiotropium et placebo dans la BPCO modérée à sévère |
+| [NCT01525615](https://clinicaltrials.gov/study/NCT01525615) | Phase 3 | Terminé | 404 | Effet de tiotropium + olodatérol sur l'endurance à l'effort dans la BPCO |
+| [NCT00239447](https://clinicaltrials.gov/study/NCT00239447) | Phase 3 | Terminé | 131 | Non-infériorité de la fonction respiratoire, tiotropium Respimat vs HandiHaler |
+| [NCT00152984](https://clinicaltrials.gov/study/NCT00152984) | Phase 4 | Terminé | 472 | Tiotropium 18 µg vs placebo dans la BPCO avec diagnostic concomitant d'asthme |
+| [NCT00350207](https://clinicaltrials.gov/study/NCT00350207) | Phase 2 | Terminé | 388 | Tiotropium Respimat vs salmétérol dans l'asthme persistant modéré, génotype B16-Arg/Arg |
+| [NCT02096731](https://clinicaltrials.gov/study/NCT02096731) | N/A | Terminé | 115 397 | Étude observationnelle de sécurité cardio-pulmonaire des bronchodilatateurs combinés dans la BPCO (sécurité, pas efficacité) |
 
 ---
 
 ## Preuves de la Littérature
 
+Sur 20 publications, voici les 10 plus pertinentes, par ordre de priorité : ECR, puis revues systématiques et méta-analyses, puis autres.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [29605624](https://pubmed.ncbi.nlm.nih.gov/29605624/) | 2018 | ECR | Lancet Respir Med | DYNAGITO — l'ajout d'olodatérol au tiotropium réduit-il le taux d'exacerbations de BPCO ? |
-| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Tiotropium vs placebo dans la BPCO stable — efficacité confirmée sur exacerbations et fonction pulmonaire |
-| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Comparaison tiotropium vs ipratropium dans la BPCO |
-| [27271056](https://pubmed.ncbi.nlm.nih.gov/27271056/) | 2016 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | ICS/LABA + tiotropium vs tiotropium seul ou association seule dans la BPCO |
+| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | ECR | N Engl J Med | Utilisation à long terme du tiotropium dans la BPCO légère à modérée, pour améliorer la fonction pulmonaire et ralentir son déclin |
+| [29605624](https://pubmed.ncbi.nlm.nih.gov/29605624/) | 2018 | ECR (DYNAGITO) | Lancet Respir Med | Ajout de l'olodatérol au tiotropium pour réduire les exacerbations de BPCO vs tiotropium seul |
+| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | Revue systématique | Cochrane Database Syst Rev | Tiotropium vs placebo dans la BPCO stable, mise à jour incluant le Respimat |
+| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Revue systématique | Cochrane Database Syst Rev | Tiotropium vs ipratropium dans la BPCO stable |
+| [27271056](https://pubmed.ncbi.nlm.nih.gov/27271056/) | 2016 | Revue systématique | Cochrane Database Syst Rev | CSI/LABA ajoutés au tiotropium vs tiotropium ou association seuls |
 | [19402836](https://pubmed.ncbi.nlm.nih.gov/19402836/) | 2009 | Méta-analyse | Respirology | Efficacité et sécurité du tiotropium chez des patients chinois atteints de BPCO stable |
-| [27724909](https://pubmed.ncbi.nlm.nih.gov/27724909/) | 2016 | Revue systématique | BMC Pulm Med | Tiotropium Respimat vs HandiHaler — impact du dispositif d'inhalation sur les résultats cliniques |
-| [35510163](https://pubmed.ncbi.nlm.nih.gov/35510163/) | 2022 | Cohorte | Int J COPD | Étude de cohorte multicentrique taïwanaise comparant tiotropium/olodatérol, uméclidinium/vilantérol et indacatérol/glycopyrronium dans la BPCO |
-| [36714923](https://pubmed.ncbi.nlm.nih.gov/36714923/) | 2023 | Étude observationnelle | Expert Rev Respir Med | Efficacité et sécurité du tiotropium chez des patients BPCO symptomatiques chinois (étude prospective multicentrique) |
-| [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Revue | Respir Res | Revue du développement clinique du tiotropium comme traitement LAMA de première intention (GOLD groupes B, C, D) |
-| [22562275](https://pubmed.ncbi.nlm.nih.gov/22562275/) | 2012 | Cohorte | Pneumonol Alergol Pol | Effet du formotérol, formotérol+tiotropium, formotérol+corticostéroïde inhalé et tiotropium seul sur la fonction pulmonaire et la tolérance à l'effort en BPCO |
+| [27724909](https://pubmed.ncbi.nlm.nih.gov/27724909/) | 2016 | Revue systématique | BMC Pulm Med | Comparaison entre tiotropium Respimat et HandiHaler : le choix de l'inhalateur importe-t-il ? |
+| [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Revue | Respir Res | Développement clinique du tiotropium dans la BPCO ; LAMA recommandé en traitement initial (groupes GOLD B, C, D) |
+| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Revue | Curr Med Res Opin | Association tiotropium + olodatérol pour réduire et prendre en charge les exacerbations de BPCO |
+| [35510163](https://pubmed.ncbi.nlm.nih.gov/35510163/) | 2022 | Cohorte | Int J Chron Obstruct Pulmon Dis | Comparaison en vie réelle à Taïwan de trois associations fixes LABA/LAMA dans la BPCO |
 
 ---
 
-## Informations de Marché
+## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché (AMM) n'est enregistrée dans le dossier. Le statut réglementaire indique « non commercialisé » (0 licence), la liste `licenses` étant vide. Cette absence de données réglementaires structurées constitue en elle-même un frein à toute décision de repositionnement (voir Data Gap DG001, bloquant, ci-dessous).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 60363967 | SPIRIVA 18 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | Boehringer Ingelheim International |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Le dossier signale par ailleurs une lacune de données **bloquante** (DG001) : les mises en garde et contre-indications de la notice TFDA n'ont pas pu être récupérées, ce qui empêche toute évaluation de sécurité initiale (S1).
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée.
 
 ---
 
@@ -114,15 +117,21 @@ Veuillez consulter la notice pour les informations de sécurité. Le dossier sig
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Le niveau de preuve global est élevé (L1, essais de phase 3 multiples incluant un essai de grande envergure NCT02096731 à 115 397 patients), mais cette preuve confirme surtout l'indication déjà connue (BPCO/LAMA) plutôt qu'un nouveau signal de repositionnement — l'« obstructive lung disease » étant le terme ontologique parent de la BPCO d'après la justification même du modèle.
-- La décision « Proceed with Guardrails » doit donc être comprise comme une **validation de cohérence du modèle** (le TxGNN retrouve correctement l'usage établi du médicament) plutôt qu'une opportunité de repositionnement à fort potentiel commercial.
-- Le candidat le plus proche d'un véritable signal nouveau — la BPCO sévère à début précoce (rang 4, L2, « Research Question ») — mérite un examen distinct, à un stade de maturité moindre (S2).
+- Plusieurs essais randomisés de phase 3 achevés et des méta-analyses Cochrane soutiennent l'efficacité du tiotropium dans la BPCO, ce qui justifie le niveau L1.
+- Cette prédiction correspond à un usage établi et non à un repositionnement inédit. Les données de sécurité de la notice ANSM manquent encore, et des signaux de sécurité cardiovasculaire et anticholinergique figurent dans la littérature (PMID 32274526, PMID 40388132).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération de la notice TFDA (mises en garde, contre-indications) — actuellement bloquante (DG001)
-- Données détaillées sur le mécanisme d'action (MOA) depuis DrugBank (DG002)
-- Clarification du statut de commercialisation réel (les données actuelles indiquent 0 AMM et un statut « non commercialisé », à vérifier)
-- Le cas échéant, analyse stratifiée dédiée à la BPCO sévère à début précoce comme piste de recherche distincte, plutôt que le simple report ontologique de la BPCO générale
+- Télécharger et analyser la notice ANSM (mises en garde et contre-indications). Ce manque est bloquant pour le dépistage de sécurité.
+- Compléter les données sur le mécanisme d'action via DrugBank.
+- Confirmer l'indication autorisée dans le RCP français, afin de vérifier que l'usage prédit est déjà couvert.
+- Mettre en place une surveillance des effets indésirables anticholinergiques et du risque cardiovasculaire.
+
+**Autres prédictions du dossier :**
+- La « bronchopneumopathie chronique obstructive » (rang 5) est également classée L1, avec la même nature d'usage établi.
+- La « BPCO sévère à début précoce » (rang 4) est classée L2 et considérée comme une question de recherche.
+- Les autres prédictions (rangs 2, 3, 6 à 10) sont classées L4 ou L5 et en Hold, sans lien mécanistique plausible ni preuve.
+
+*Ces résultats sont fournis à titre de recherche et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

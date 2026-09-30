@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Itraconazole
-parent: Preuves modérées (L3-L4)
-nav_order: 158
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 161
+evidence_level: L5
 indication_count: 1
 ---
 
 # Itraconazole
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Itraconazole : Des Mycoses Systémiques à la Pneumocystose
+# Itraconazole : De l'Antifongique Azolé à la Pneumocystose
 
 ## Résumé en Une Phrase
 
-L'itraconazole est un antifongique triazolé dont l'usage établi concerne le traitement des mycoses systémiques et superficielles. Le modèle TxGNN prédit une efficacité potentielle contre la **pneumocystose** (pneumonie à *Pneumocystis jirovecii*), avec un score de confiance de **99,34%**, mais cette direction n'est actuellement soutenue par **aucun essai clinique** et repose sur **20 publications** de nature majoritairement indirecte (revues sur les infections opportunistes, séries de cas), sans démonstration mécanistique ou clinique directe de l'efficacité de l'itraconazole contre ce pathogène.
+L'itraconazole est un antifongique azolé commercialisé en France (5 AMM), mais les textes d'indication de ces AMM ne sont pas renseignés dans les données disponibles.
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocystose**, avec un score très élevé, mais **aucun essai clinique** n'est enregistré et aucune des **20 publications** identifiées ne démontre directement une efficacité contre *Pneumocystis*.
+Cette prédiction est mécanistiquement peu soutenue et doit être considérée avec prudence.
 
 ---
 
@@ -41,62 +43,67 @@ L'itraconazole est un antifongique triazolé dont l'usage établi concerne le tr
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mycoses systémiques (usage antifongique établi ; aucune donnée d'AMM française disponible dans le dossier) |
 | Nouvelle Indication Prédite | Pneumocystose |
-| Score de Prédiction TxGNN | 99,34% |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Score de Prédiction TxGNN | 99,34 % |
+| Niveau de Preuve | L5 (prédiction du modèle, sans étude réelle testant l'itraconazole dans la pneumocystose ; le dossier source indiquait L4) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 5 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données structurées sur le mécanisme d'action (MOA) ne sont pas disponibles dans le dossier produit (Data Gap identifié en priorité *High*). Cependant, la littérature pharmacologique disponible permet de reconstituer le raisonnement mécanistique suivant : l'itraconazole est un antifongique triazolé qui agit en inhibant l'enzyme 14α-déméthylase, bloquant ainsi la synthèse de l'ergostérol fongique — un mécanisme efficace contre les champignons filamenteux et levures classiques (*Aspergillus*, *Candida*, *Histoplasma*, etc.).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances pharmacologiques générales, l'itraconazole inhibe la CYP51 fongique (lanostérol 14-alpha-déméthylase) et bloque ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
 
-Le lien entre l'indication originale (mycoses systémiques) et la nouvelle indication prédite (pneumocystose) tient au fait que *Pneumocystis jirovecii* est classé taxonomiquement parmi les champignons. Toutefois, cette similarité est superficielle : *P. jirovecii* dépend principalement de l'absorption du cholestérol de l'hôte comme source de stérols membranaires plutôt que de sa propre voie de synthèse de l'ergostérol. C'est précisément la raison pharmacologique pour laquelle les antifongiques azolés ont une efficacité limitée contre la pneumocystose, et pourquoi les recommandations cliniques actuelles ne préconisent pas leur usage en traitement ou en prophylaxie de la PCP.
+Le lien prédit avec la pneumocystose n'est **pas** soutenu par ce mécanisme. La membrane de *Pneumocystis jirovecii* contient très peu d'ergostérol (le cholestérol y prédomine), et les azolés ne sont pas établis comme efficaces contre ce pathogène. Le traitement de référence reste le triméthoprime-sulfaméthoxazole.
 
-Le traitement et la prophylaxie standard de la pneumocystose reposent aujourd'hui sur le TMP-SMX, la pentamidine, l'atovaquone et la dapsone — aucun n'étant un dérivé azolé. Le score TxGNN élevé (99,34%) provient vraisemblablement d'un **signal artefactuel de co-occurrence** dans le graphe de connaissances : itraconazole apparaît fréquemment associé aux mêmes contextes cliniques (patients immunodéprimés, VIH, greffés) que d'autres antifongiques réellement efficaces contre la pneumocystose, sans que cela reflète une efficacité propre du médicament sur ce pathogène.
+La prédiction du graphe reflète probablement l'association fréquente de l'itraconazole avec les infections fongiques opportunistes chez les patients immunodéprimés (VIH, greffe, granulomatose septique chronique), plutôt qu'une activité réelle contre *Pneumocystis*. L'indication d'origine et le MOA n'étant pas renseignés, la prédiction ne peut pas être recoupée avec eux.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement (ni sur ClinicalTrials.gov, ni sur ICTRP).
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
 ## Preuves de la Littérature
 
+Les 20 publications identifiées portent surtout sur les infections opportunistes en général, et non sur l'itraconazole dans la pneumocystose. Voici les 10 plus pertinentes, par ordre de priorité de type d'étude.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | ECR | HIV Medicine | Essai randomisé en double aveugle contrôlé par placebo sur l'itraconazole en capsules pour la prévention des mycoses profondes chez des patients VIH+ ; ne cible pas spécifiquement la pneumocystose comme critère de jugement |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Revue | Drugs | Revue de la thérapie et prophylaxie des infections protozoaires systémiques incluant *Pneumocystis carinii* ; ne rapporte pas de données spécifiques sur l'itraconazole contre ce pathogène |
-| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Rapport de cas | Frontiers in Immunology | Coïnfection rare *Talaromyces marneffei* / *Pneumocystis jirovecii* chez un enfant porteur d'une mutation STAT1 ; ne documente pas l'usage de l'itraconazole contre la pneumocystose elle-même |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Revue | BMJ Clinical Evidence | Revue des stratégies de prophylaxie primaire/secondaire des infections opportunistes chez les patients VIH ; l'itraconazole n'y figure pas comme option de référence contre *P. jirovecii* |
-| [7877856](https://pubmed.ncbi.nlm.nih.gov/7877856/) | 1994 | Revue | Pathologie-biologie | Revue de l'aspergillose au cours du SIDA ; note qu'une pneumocystose antérieure est un facteur de risque associé, sans lien de traitement direct avec l'itraconazole |
-| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Revue | Seminars in Respiratory Infections | Revue générale des infections après transplantation pulmonaire et des stratégies antimicrobiennes associées |
-| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Revue | Current Clinical Topics in Infectious Diseases | Revue de la prophylaxie et du traitement des infections chez les receveurs de greffe de moelle osseuse |
-| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohorte | Transplantation Proceedings | Expérience monocentrique sur les infections fongiques invasives après transplantation rénale |
-| [17594870](https://pubmed.ncbi.nlm.nih.gov/17594870/) | 2007 | Cohorte/Revue | Allergologia et immunopathologia | 25 ans d'expérience sur la maladie granulomateuse chronique pédiatrique et ses complications fongiques |
-| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Cohorte | Indian Journal of Medical Microbiology | Comparaison des pathogènes fongiques respiratoires selon le statut immunitaire et le taux de CD4+ |
-
-**Note importante :** aucune des publications recensées ne démontre directement une efficacité de l'itraconazole dans le traitement ou la prévention de la pneumocystose. Il s'agit principalement de revues et d'études de cohorte sur les infections opportunistes en contexte d'immunodépression, où l'itraconazole est cité parmi d'autres antifongiques sans évaluation spécifique face à *P. jirovecii*.
+| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | ECR (phase III, double aveugle) | HIV Medicine | Prophylaxie par itraconazole des infections fongiques profondes chez des patients VIH immunodéprimés ; l'extrait disponible ne mentionne pas de résultat sur la pneumocystose |
+| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohorte rétrospective | Transplantation Proceedings | Infections fongiques invasives après greffe rénale, associées à une mortalité et à une dysfonction du greffon accrues |
+| [17594870](https://pubmed.ncbi.nlm.nih.gov/17594870/) | 2007 | Cohorte rétrospective | Allergologia et Immunopathologia | Granulomatose septique chronique pédiatrique sur 25 ans ; itraconazole utilisé en prophylaxie antifongique |
+| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Observationnelle | Indian J Med Microbiol | Profil des pathogènes fongiques respiratoires chez les hôtes immunocompétents et immunodéprimés, selon le taux de CD4 |
+| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Rapport de cas | Frontiers in Immunology | Co-infection *Talaromyces marneffei* et *P. jirovecii* chez un enfant avec mutation STAT1 ; l'itraconazole a probablement traité *Talaromyces*, pas *Pneumocystis* |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Revue | BMJ Clinical Evidence | Prophylaxie primaire et secondaire des infections opportunistes chez les patients VIH |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Revue (pharmacocinétique) | Clinical Pharmacokinetics | Pénétration des anti-infectieux, dont les antifongiques, dans le liquide épithélial pulmonaire |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Revue | Drugs | Traitement et prophylaxie des infections systémiques à protozoaires, dont *Pneumocystis carinii* |
+| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Revue | Current Clinical Topics in Infectious Diseases | Prophylaxie et traitement des infections chez les receveurs de greffe de moelle osseuse |
+| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Revue | Seminars in Respiratory Infections | Infections après greffe pulmonaire |
 
 ---
 
 ## Informations de Marché en France
 
-L'itraconazole n'est actuellement associé à **aucune AMM enregistrée en France** dans le dossier (0 licence, statut « non commercialisé »). Les données réglementaires ANSM détaillées (仿單/notice) constituent un point bloquant identifié (DG001) et devront être obtenues directement auprès de l'ANSM avant toute évaluation de sécurité.
+Les textes d'indication approuvée ne sont pas renseignés pour ces AMM.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 60738303 | ITRACONAZOLE VIATRIS 100 mg, gélule | Gélule | VIATRIS SANTE |
+| 69662344 | ITRACONAZOLE TEVA 100 mg, gélule | Gélule | TEVA SANTE |
+| 69998156 | SPORANOX 10 mg/mL, solution buvable | Solution buvable | JANSSEN CILAG |
+| 62469613 | SPORANOX 100 mg, gélule | Gélule | JANSSEN CILAG |
+| 66188581 | ITRACONAZOLE SANDOZ 100 mg, gélule | Gélule | SANDOZ |
 
 ---
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
-*(Les mises en garde, contre-indications et interactions médicamenteuses n'ont pas pu être documentées à partir des sources actuellement disponibles — requête DDI sans résultat, notice ANSM non exploitée.)*
 
 ---
 
@@ -105,14 +112,16 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-Aucun essai clinique ne soutient l'usage de l'itraconazole dans la pneumocystose, et la littérature disponible n'apporte que des preuves indirectes (revues générales sur les infections opportunistes). Le mécanisme d'action connu de l'itraconazole (inhibition de la synthèse de l'ergostérol fongique) est peu compatible avec la biologie de *Pneumocystis jirovecii*, qui dépend du cholestérol de l'hôte — ce qui explique pourquoi les guides cliniques actuels ne recommandent pas les azolés pour cette indication. Le score TxGNN élevé est probablement un artefact de co-occurrence dans le graphe de connaissances plutôt qu'un signal mécanistique réel.
+- Le score TxGNN est très élevé (99,34 %), mais il n'existe ni essai clinique ni étude démontrant une efficacité de l'itraconazole contre *Pneumocystis*, et le mécanisme (faible teneur en ergostérol du pathogène) va à l'encontre de la prédiction.
+- Les informations de sécurité de la notice ANSM sont absentes, ce qui bloque toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/仿單 ANSM complète (mises en garde, contre-indications) — point bloquant (DG001)
-- Données de mécanisme d'action (MOA) structurées via DrugBank (DG002)
-- Études précliniques ou in vitro évaluant spécifiquement l'activité de l'itraconazole contre *Pneumocystis jirovecii* (actuellement absentes)
-- Comparaison formelle avec les traitements de référence (TMP-SMX, pentamidine, atovaquone, dapsone) si de nouvelles preuves mécanistiques émergent
-- Sans nouvelle preuve mécanistique ou clinique directe, il n'est pas recommandé d'engager des ressources supplémentaires sur cette piste
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions médicamenteuses), point bloquant
+- Obtenir les données de mécanisme d'action (DrugBank) et les indications approuvées des AMM
+- Rechercher des données précliniques ou cliniques spécifiques à l'itraconazole dans la pneumocystose
+- Comparer avec le traitement de référence (triméthoprime-sulfaméthoxazole) avant tout autre investissement
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

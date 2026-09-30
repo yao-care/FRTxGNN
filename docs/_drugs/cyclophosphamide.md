@@ -2,7 +2,7 @@
 layout: default
 title: Cyclophosphamide
 parent: Preuves élevées (L1-L2)
-nav_order: 92
+nav_order: 94
 evidence_level: L2
 indication_count: 5
 ---
@@ -29,99 +29,106 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 </div>
 
-# Cyclophosphamide : De l'Agent Alkylant Antinéoplasique à la Leucémie Myéloïde
+# Cyclophosphamide : Vers la Leucémie Myéloïde
 
 ## Résumé en Une Phrase
 
-Cyclophosphamide est un agent alkylant de la famille des oxazaphosphorines, utilisé en oncologie hématologique comme composant de conditionnement pré-greffe et d'immunomodulation post-transplantation, sans indication formellement enregistrée en France dans le présent système de données.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Leucémie Myéloïde**, avec **50 essais cliniques** identifiés et **20 publications** soutenant actuellement cette direction.
-Le score de prédiction de **99,47%** et la présence d'un essai de Phase 3 complété (BuCy2 vs BuFlu dans la LAM, n=252) confirment la solidité de cette association déjà largement documentée en pratique clinique.
+Le cyclophosphamide est un agent alkylant cytotoxique commercialisé en France sous le nom ENDOXAN. Les textes d'indication de ses AMM ne figurent pas dans les données reçues.
+Le modèle TxGNN prédit qu'il pourrait être utile dans la **leucémie myéloïde**, avec **50 essais cliniques** et **20 publications** associés à cette direction.
+Ces preuves concernent presque exclusivement le contexte de la greffe de cellules souches (conditionnement, prévention de la GVHD), et non un usage en monothérapie.
 
 ---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non renseignée (aucune AMM enregistrée en France) |
+|------|------|
 | Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,47% |
+| Score de Prédiction TxGNN | 99,47 % |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 3 |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Cyclophosphamide est un agent alkylant de la famille des oxazaphosphorines dont le mécanisme repose sur une activation hépatique par les cytochromes P450 (principalement CYP2B6), générant le métabolite actif phosphoramide moutarde. Ce dernier forme des pontages inter-brins et intra-brins dans l'ADN, bloquant irréversiblement la réplication cellulaire et induisant l'apoptose. Cette cytotoxicité est particulièrement efficace sur les cellules à forte activité proliférative, caractéristique centrale des blastes myéloïdes dans la leucémie myéloïde aiguë (LAM).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après la pharmacologie générale, le cyclophosphamide est un agent alkylant activé dans le foie. Il est cytotoxique pour les cellules en prolifération et fortement lymphodéplétant. Ces propriétés justifient son usage dans de nombreux schémas de chimiothérapie.
 
-La leucémie myéloïde aiguë est définie par une accumulation clonale de progéniteurs myéloïdes bloqués dans leur différenciation. Cyclophosphamide intervient à deux niveaux thérapeutiques majeurs dans cette pathologie : (1) le conditionnement myéloablatif pré-greffe, notamment le schéma BuCy (busulfan + cyclophosphamide), qui éradique la moelle pathologique et prévient le rejet du greffon avant une greffe allogénique de cellules souches hématopoïétiques (allo-GCSH) ; (2) le cyclophosphamide post-transplantation (PTCy, typiquement 50 mg/kg aux jours +3 et +4), qui a transformé la prophylaxie de la maladie du greffon contre l'hôte (GVHD) en éliminant sélectivement les lymphocytes T alloreactifs tout en préservant les cellules T régulatrices et la réponse greffon-contre-leucémie (GVL).
+Dans la leucémie myéloïde, les preuves montrent un rôle bien défini dans la greffe de cellules souches hématopoïétiques. Il entre dans le conditionnement myéloablatif (association busulfan-cyclophosphamide, BuCy). Il sert aussi en post-greffe (PTCy) pour prévenir la réaction du greffon contre l'hôte (GVHD). Il ne s'agit pas d'un traitement anti-leucémique autonome.
 
-La prédiction TxGNN s'appuie ainsi sur une base mécanistique et clinique robuste. Au-delà de sa cytotoxicité directe sur les cellules LAM, cyclophosphamide joue un rôle immunomodulateur irremplaçable dans le cadre des greffes allogéniques, qui demeurent le traitement potentiellement curatif pour les LAM à risque intermédiaire et défavorable. Les données de l'essai Phase 3 NCT01191957 (n=252) et de plusieurs grandes cohortes prospectives récentes confirment la centralité de cyclophosphamide dans la prise en charge moderne de la leucémie myéloïde.
+La prédiction est donc cohérente avec le mécanisme : la destruction des cellules leucémiques et l'immunosuppression contrôlée sont exactement ce que requiert la greffe. Elle doit toutefois être lue comme une indication « en contexte de greffe ».
 
 ---
 
 ## Preuves d'Essais Cliniques
 
+Parmi les 50 essais recensés, voici les 10 plus pertinents. Dans la plupart, le cyclophosphamide fait partie d'un schéma de conditionnement ou de prophylaxie de la GVHD, et non de la variable testée.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---|---|---|---|---|
-| [NCT01191957](https://clinicaltrials.gov/study/NCT01191957) | Phase 3 | Terminé | 252 | Étude randomisée multicentrique comparant BuCy2 vs BuFlu comme conditionnement pour allo-GCSH chez patients ≥40 ans avec LAM en RC ; évaluation de la mortalité liée au traitement à 1 an et de l'efficacité anti-leucémique |
-| [NCT00002945](https://clinicaltrials.gov/study/NCT00002945) | Phase 3 | Terminé | 61 | Cytarabine haute dose + idarubicine (induction) → étoposide haute dose + cyclophosphamide (intensification) + ASCT + immunomodulation IL-2 pour leucémie myéloïde adulte de novo et secondaire |
-| [NCT00852709](https://clinicaltrials.gov/study/NCT00852709) | Phase 1 | Terminé | 35 | Dose-escalation de clofarabine suivie de cyclophosphamide fractionné chez enfants avec leucémies aiguës rechutées/réfractaires ; détermination de la dose maximale tolérée (MTD) et profil de toxicité |
-| [NCT00005892](https://clinicaltrials.gov/study/NCT00005892) | N/A | Terminé | N/A | Cyclophosphamide modéré + radiothérapie + greffe allogénique de moelle osseuse pour syndrome myélodysplasique et leucémie aiguë liés à l'anémie de Fanconi ; amélioration de la survie et réduction de la morbidité |
-| [NCT07108530](https://clinicaltrials.gov/study/NCT07108530) | Phase 2 | En recrutement | 50 | Protocole intégré multicentrique induction-consolidation-transplantation pour LAM adulte (hors M3) ; évaluation de l'efficacité et de la sécurité des schémas IAV et DAV avec inclusion de cyclophosphamide dans le conditionnement |
-| [NCT00002592](https://clinicaltrials.gov/study/NCT00002592) | Phase 2 | Terminé | 40 | Autogreffe de moelle osseuse traitée ex vivo avec oligodésoxyribonucléotide antisens C-MYB (LR-3001) dans la leucémie myéloïde chronique ; cyclophosphamide comme composant du conditionnement |
-| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Phase 2 | Terminé | 16 | Transplantation de sang de cordon ombilical pour patients avec leucémie myéloïde hors RC ; régime myéloablatif cyclophosphamide/fludarabine/irradiation corporelle totale + cellules NK donneurs |
-| [NCT00003868](https://clinicaltrials.gov/study/NCT00003868) | Phase 2 | Terminé | 40 | Anticorps BC8 radiomarqué (anti-CD45) + cyclophosphamide + irradiation corporelle totale suivi de greffe de cellules souches HLA-appariées pour LAM avancée et SMD |
-| [NCT04835519](https://clinicaltrials.gov/study/NCT04835519) | Phase 1/2 | Terminé | 5 | Évaluation de la sécurité et tolérance de cellules CAR-T anti-CD33 fonctionnellement améliorées dans la LAM rechutée/réfractaire ; cyclophosphamide 250 mg/m² comme agent lymphodéplétant pré-infusion |
-| [NCT03602898](https://clinicaltrials.gov/study/NCT03602898) | Phase 2 | Retiré | 0 | Comparaison randomisée ATG vs PTCy vs calcineurine-méthotrexate comme prophylaxie GVHD après GCSH myéloablative de donneur non apparenté dans les leucémies myéloïdes (retiré avant recrutement, mais conception de référence) |
+|---------|------|------|------|---------|
+| [NCT01191957](https://clinicaltrials.gov/study/NCT01191957) | Phase 3 | Terminé | 252 | Essai randomisé : busulfan-fludarabine vs busulfan-cyclophosphamide (BuCy2) avant allogreffe chez les LAM de 40 à 65 ans en rémission complète |
+| [NCT00002945](https://clinicaltrials.gov/study/NCT00002945) | Phase 3 | Terminé | 61 | Cytarabine/idarubicine, puis étoposide/cyclophosphamide à haute dose, autogreffe et interleukine-2 dans la leucémie myéloïde de l'adulte |
+| [NCT00852709](https://clinicaltrials.gov/study/NCT00852709) | Phase 1 | Arrêté | 35 | Escalade de dose de clofarabine suivie de cyclophosphamide fractionné chez l'enfant en leucémie aiguë en rechute ou réfractaire |
+| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | Phase 2 | Terminé | 213 | Greffe de sang de cordon avec conditionnement myéloablatif cyclophosphamide/fludarabine/irradiation corporelle totale |
+| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Phase 2 | Arrêté | 16 | Sang de cordon et cellules NK avec cyclophosphamide/fludarabine/irradiation dans la leucémie myéloïde non en rémission |
+| [NCT00003868](https://clinicaltrials.gov/study/NCT00003868) | Phase 2 | Terminé | 40 | Anticorps anti-CD45 radiomarqué avec cyclophosphamide et irradiation avant greffe dans la LAM avancée |
+| [NCT02446964](https://clinicaltrials.gov/study/NCT02446964) | Phase 1 | Terminé | 31 | Irradiation médullaire totale à doses croissantes avec cyclophosphamide post-greffe (haplo-identique) |
+| [NCT03246906](https://clinicaltrials.gov/study/NCT03246906) | Phase 2 | Arrêté | 150 | Essai randomisé : cyclophosphamide post-greffe vs ciclosporine/sirolimus/MMF pour prévenir la GVHD |
+| [NCT00290641](https://clinicaltrials.gov/study/NCT00290641) | N/A | Terminé | 68 | Conditionnement cyclophosphamide/fludarabine/irradiation avant greffe de sang de cordon |
+| [NCT04835519](https://clinicaltrials.gov/study/NCT04835519) | Phase 1/2 | Terminé | 5 | Lymphocytes T CAR-CD33 dans la LAM en rechute ou réfractaire ; le cyclophosphamide sert à la lymphodéplétion |
 
 ---
 
 ## Preuves de la Littérature
 
+Aucun essai randomisé n'apparaît dans la littérature retenue. Elle se compose d'une méta-analyse en réseau et d'études de cohorte, surtout rétrospectives.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | Cohorte/Registre | *Haematologica* | 217 patients LAM en RC recevant HCT myéloablatif + prophylaxie PTCy ; survie globale à 2 ans de 77% (IC 71–83%) ; la classification génétique de risque conserve sa valeur pronostique dans ce contexte |
-| [39939431](https://pubmed.ncbi.nlm.nih.gov/39939431/) | 2025 | Cohorte/Registre | *Bone Marrow Transplantation* | 1 823 patients LAM (risque intermédiaire/défavorable) en RC1 recevant PTCy ; l'intensité de conditionnement module les résultats selon le risque cytogénétique/moléculaire ; données EBMT |
-| [40437709](https://pubmed.ncbi.nlm.nih.gov/40437709/) | 2025 | Cohorte Comparative | *Eur J Haematology* | MAC vs RIC chez patients LAM <65 ans recevant ATG + PTCy + ciclosporine ; le conditionnement myéloablatif est associé à un meilleur contrôle de la maladie malgré une mortalité non liée à la rechute plus élevée |
-| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Étude Comparative | *Future Oncology* | BuCy vs FluBu pour allo-GCSH dans la LAM ; BuCy reste le standard myéloablatif de référence ; FluBu offre une toxicité réduite avec une efficacité comparable en termes de contrôle leucémique |
-| [38499049](https://pubmed.ncbi.nlm.nih.gov/38499049/) | 2024 | Essai Clinique/Phase 2 | *Transplant Immunology* | Cladribine + BuCy comme conditionnement intensif pour allo-GCSH dans la LAM rechutée/réfractaire ; efficacité et sécurité du schéma CladBuCy évaluées |
-| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | Cohorte Rétrospective | *Cytotherapy* | Facteurs pronostiques de la greffe haploidentique avec PTCy pour LAM ; PTCy efficace pour la suppression de GVHD sévère tout en maintenant l'effet greffon contre leucémie |
-| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | Méta-analyse en réseau | *Bone Marrow Transplantation* | Revue systématique et méta-analyse bayésienne des régimes myéloablatifs dans la LAM adulte en RC ; BuCy évalué parmi les schémas de référence, données comparatives exhaustives |
-| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | Cohorte Prospective | *Int J Mol Sciences* | PTCy après GCSH de donneurs appariés (apparentés et non apparentés) chez enfants avec LAM ; premières données pédiatriques publiées sur cette stratégie de prophylaxie GVHD |
-| [33325761](https://pubmed.ncbi.nlm.nih.gov/33325761/) | 2021 | Cohorte | *Leukemia & Lymphoma* | Cyclophosphamide haute dose (HDCy 60 mg/kg) pour cytoréduction dans la LAM avec hyperleucocytose (GB ≥50×10⁹/L) ou leucostase ; 27 patients : RC obtenue chez 78%, mortalité précoce 7% |
-| [32428903](https://pubmed.ncbi.nlm.nih.gov/32428903/) | 2021 | Cohorte Prospective | *Acta Haematologica* | PTCy (50 mg/kg j+3 et j+4) + ATG (4,5 mg/kg) comme prophylaxie GVHD pour LAM/SMD à haut risque ; comparaison avec d'autres régimes de prophylaxie standards |
+|------|-----|------|------|---------|
+| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | Revue systématique / méta-analyse en réseau | Bone Marrow Transplant | Comparaison des conditionnements myéloablatifs chez les adultes atteints de LAM en rémission complète (dont Bu/Cy) |
+| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Cohorte | Future Oncol | BuCy, conditionnement standard, comparé à fludarabine-busulfan (efficacité jugée similaire, toxicité moindre) |
+| [31628924](https://pubmed.ncbi.nlm.nih.gov/31628924/) | 2020 | Étude comparative | Hematol Oncol Stem Cell Ther | Efficacité comparée de Bu/Cy et Bu/Flu, avec un accent sur la qualité de vie |
+| [39939431](https://pubmed.ncbi.nlm.nih.gov/39939431/) | 2025 | Rétrospective (1823 patients) | Bone Marrow Transplant | Intensité du conditionnement selon le risque cytogénétique/moléculaire de la LAM, avec cyclophosphamide post-greffe |
+| [40437709](https://pubmed.ncbi.nlm.nih.gov/40437709/) | 2025 | Cohorte | Eur J Haematol | Impact de l'intensité du conditionnement sur la survie avec SAL et cyclophosphamide post-greffe |
+| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | Cohorte (217 patients) | Haematologica | Classification du risque génétique après conditionnement myéloablatif et cyclophosphamide post-greffe ; survie globale à 2 ans de 77 % |
+| [38499049](https://pubmed.ncbi.nlm.nih.gov/38499049/) | 2024 | Cohorte | Transpl Immunol | Cladribine avec busulfan et cyclophosphamide comme conditionnement intensif dans la LAM en rechute ou réfractaire |
+| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | Cohorte | Int J Mol Sci | Cyclophosphamide post-greffe après greffe apparentée ou non apparentée chez l'enfant atteint de LAM |
+| [33325761](https://pubmed.ncbi.nlm.nih.gov/33325761/) | 2021 | Série de cas (27 patients) | Leuk Lymphoma | Cyclophosphamide à haute dose (60 mg/kg) pour réduire la masse tumorale en cas d'hyperleucocytose ou de leucostase |
+| [29039989](https://pubmed.ncbi.nlm.nih.gov/29039989/) | 2017 | Série de cas (17 patients) | Pediatr Hematol Oncol | Clofarabine, cyclophosphamide et étoposide dans la LAM pédiatrique en rechute ou réfractaire : 7 réponses (41 %) |
 
 ---
 
 ## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché (AMM) pour Cyclophosphamide n'est enregistrée en France dans le système de données consulté (source : données réglementaires ANSM, résultat de requête : 0 licence). Le médicament est référencé comme **non commercialisé** selon les informations disponibles.
+Les textes d'indication approuvée ne sont pas renseignés dans les données pour ces AMM.
 
-> **Note** : Cyclophosphamide est un médicament de longue date largement utilisé en pratique clinique internationale. L'absence de résultat dans ce système peut refléter un défaut de couverture de la base de données plutôt qu'une absence réelle de commercialisation. Une vérification directe auprès de l'ANSM est recommandée avant toute décision réglementaire.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 62554177 | ENDOXAN 50 mg, comprimé enrobé | Comprimé enrobé | BAXTER |
+| 64635418 | ENDOXAN 500 mg, poudre pour solution injectable | Poudre et solvant pour solution injectable | BAXTER |
+| 69586327 | ENDOXAN 1000 mg, poudre pour solution injectable | Poudre pour solution injectable | BAXTER |
 
 ---
 
 ## Cytotoxicité
 
+Le cyclophosphamide appartient à une classe connue de chimiothérapie cytotoxique (agents alkylants). Le pack ne contient pas de données de toxicité, donc les éléments ci-dessous reposent sur la pharmacologie générale.
+
 | Élément | Contenu |
-|---|---|
-| Classification de Cytotoxicité | **Cytotoxique conventionnel** — Oxazaphosphorine (agent alkylant bifonctionnel de l'ADN ; classe B de l'IARC : probablement cancérogène pour l'homme à long terme) |
-| Risque de Myélosuppression | **Élevé** — Neutropénie, thrombocytopénie et anémie sont des effets dose-dépendants attendus ; le nadir survient généralement entre J10 et J14. Dans le contexte du conditionnement pré-greffe, la myélosuppression profonde est l'effet pharmacologique recherché |
-| Classification d'Éméticité | **Modérée à élevée** — Risque modéré aux doses standards (< 1 500 mg/m²) ; risque élevé aux hautes doses de conditionnement (≥ 1 500 mg/m²) selon les guidelines ASCO/MASCC |
-| Éléments de Surveillance | NFS avec formule différentielle (suivi du nadir), créatininémie et DFG (néphrotoxicité possible), transaminases et bilirubine (hépatotoxicité), analyse urinaire et bandelette (hématurie : cystite hémorragique par l'acroléine, métabolite urotoxique), ionogramme sanguin |
-| Protection de Manipulation | Application obligatoire des procédures cytotoxiques : préparation sous hotte à flux laminaire vertical (PSM de type II B), EPI complets (gants doublement gantés, surblouse, masque FFP2, lunettes), élimination des déchets selon la filière DASRI cytotoxique ; précaution renforcée lors des soins d'excrétion (urine, selles, vomissements pendant 48–72 h post-administration) |
+|------|------|
+| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, oxazaphosphorine) |
+| Risque de Myélosuppression | Élevé (neutropénie principalement, dépendante de la dose) |
+| Classification d'Émétogénicité | Moyenne à élevée selon la dose |
+| Éléments de Surveillance | NFS avec formule, fonction rénale et hépatique, examen urinaire (risque de cystite hémorragique), fonction cardiaque en cas de haute dose |
+| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ---
 
 ## Considérations de Sécurité
 
-Les données de sécurité spécifiques (mises en garde, contre-indications, interactions médicamenteuses) ne sont pas disponibles dans ce dossier d'évaluation.
-
-> Veuillez consulter la notice officielle du médicament pour les informations de sécurité complètes.
+Veuillez consulter la notice pour les informations de sécurité.
 
 ---
 
@@ -130,14 +137,16 @@ Les données de sécurité spécifiques (mises en garde, contre-indications, int
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Cyclophosphamide est un composant cliniquement établi et largement documenté des protocoles de traitement de la leucémie myéloïde aiguë, avec un essai de Phase 3 complété (BuCy2 vs BuFlu, n=252) et plus de 20 publications récentes de registres et cohortes de grande taille confirmant son efficacité dans les schémas de conditionnement (BuCy) et de prophylaxie GVHD (PTCy) ; le score TxGNN de 99,47% et le niveau de preuve L2 reflètent cette base de données cliniques solide.
+- Un essai randomisé de phase 3 terminé (NCT01191957) et plusieurs essais de phase 2 terminés, ainsi qu'une méta-analyse en réseau, soutiennent l'usage du cyclophosphamide dans la greffe pour leucémie myéloïde, d'où le niveau L2.
+- Ces preuves restent limitées au contexte de la greffe, où le cyclophosphamide est un composant et non la variable testée, et les données de sécurité ne sont pas disponibles.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir les données officielles de mécanisme d'action (MOA) depuis DrugBank — priorité haute (DG002)
-- Télécharger et analyser la notice (PDF ANSM) pour les mises en garde, contre-indications et précautions d'emploi officielles — priorité bloquante pour l'évaluation de sécurité complète (DG001)
-- Vérifier le statut réglementaire réel en France directement auprès de l'ANSM (l'absence d'AMM dans ce système peut être un artefact de la base de données)
-- Définir les populations cibles spécifiques non couvertes par les études existantes (ex. : LAM pédiatrique avec PTCy en greffe appariée, LAM avec mutations IDH1/2 en conditionnement haploidentique) pour orienter une éventuelle étude de repositionnement formelle
-- Établir un protocole de surveillance de sécurité adapté aux populations à risque (pédiatrie, patients âgés ≥65 ans, insuffisance rénale/hépatique préexistante) en tenant compte des risques de cystite hémorragique et de myélosuppression prolongée
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), une lacune bloquante pour le dépistage de sécurité
+- Obtenir les textes d'indication des trois AMM ENDOXAN
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Préciser le périmètre visé (conditionnement, cyclophosphamide post-greffe ou traitement de réduction tumorale), puis confirmer la faisabilité par voie (comprimé ou injectable)
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

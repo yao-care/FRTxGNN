@@ -2,7 +2,7 @@
 layout: default
 title: Ranolazine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 256
+nav_order: 260
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,45 +29,50 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Ranolazine : De l'Angine de Poitrine Chronique au Syndrome Néphrogénique de Sécrétion Inappropriée d'Hormone Antidiurétique
+# Ranolazine : De l'Indication d'Origine (non renseignée) au Syndrome néphrogénique d'antidiurèse inappropriée
 
 ## Résumé en Une Phrase
 
-La ranolazine est un inhibiteur du courant sodique tardif (late INa) utilisé dans le traitement de l'angine de poitrine chronique (angor stable).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome néphrogénique de sécrétion inappropriée d'hormone antidiurétique (NSIAD)**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction.
+La ranolazine est commercialisée en France sous le nom RANEXA (comprimés à libération prolongée), mais les données disponibles ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée (NSIAD)**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Angine de poitrine chronique |
-| Nouvelle Indication Prédite | Syndrome néphrogénique de sécrétion inappropriée d'hormone antidiurétique (NSIAD) |
-| Score de Prédiction TxGNN | 99.65% |
+| Indication Originale | Non renseignée (aucun texte d'indication dans les AMM) |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (NSIAD) |
+| Score de Prédiction TxGNN | 99,65 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action officiel (DrugBank) ne sont pas disponibles pour ce rapport. Sur la base des informations connues, la ranolazine est un inhibiteur du courant sodique tardif (late INa), sa cible pharmacologique principale étant le canal sodique du myocarde ; son efficacité dans l'angine de poitrine chronique est bien établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, la ranolazine est un inhibiteur du courant sodique tardif (INaL), avec un effet partiel sur l'oxydation des acides gras. Ces informations ne proviennent pas du dossier d'évidence et doivent être confirmées.
 
-Le NSIAD est causé par des mutations à gain de fonction du récepteur V2 de la vasopressine (AVPR2), qui active ce récepteur indépendamment de l'ADH et entraîne une surexpression de l'aquaporine-2, provoquant une rétention hydrique. Il n'existe actuellement **aucune preuve** que la ranolazine agisse, directement ou hors cible, sur l'AVPR2 ou sur la voie cAMP/aquaporine-2 en aval : son mécanisme d'inhibition du canal sodique ne présente aucun recoupement connu avec cette voie de signalisation couplée aux protéines G.
+Le NSIAD est causé, dans la plupart des cas, par des variants à gain de fonction du gène *AVPR2*. Le récepteur V2 est alors activé en permanence, ce qui entraîne une rétention d'eau via la voie AMPc/AQP2 et une hyponatrémie, malgré une vasopressine effacée. Aucune des deux actions connues de la ranolazine ne cible plausiblement la signalisation du récepteur V2 ni le trafic de l'AQP2.
 
-Cette indication repose uniquement sur une similarité d'embedding dans le réseau TxGNN (score 0,996), sans plausibilité mécanistique établie et sans aucun essai clinique ni littérature à l'appui. Elle doit donc être interprétée comme une hypothèse générée par le modèle, et non comme une piste étayée par des données biologiques ou cliniques.
+**Aucun lien mécanistique établi n'est donc soutenu par les données fournies.** Le score de 0,996 est une prédiction issue d'un graphe de connaissances, sans corroboration par un essai, une publication ou une étude de mécanisme. Un éventuel lien (par exemple via des voisins communs dans le réseau) reste hypothétique et nécessite une validation indépendante.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-La ranolazine n'est actuellement **pas commercialisée en France** (statut : "Not marketed" / non commercialisé) et ne dispose d'aucune AMM enregistrée dans les données disponibles.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 63170891 | RANEXA 375 mg | Comprimé à libération prolongée | Non renseignée dans les données |
+| 64679592 | RANEXA 500 mg | Comprimé à libération prolongée | Non renseignée dans les données |
+
+Les deux AMM sont détenues par MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG.
 
 ## Considérations de Sécurité
 
@@ -78,13 +83,17 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose exclusivement sur une similarité d'embedding TxGNN (niveau de preuve L5), sans aucun essai clinique, sans aucune publication, et sans lien mécanistique plausible identifié entre l'inhibition du canal sodique et la voie AVPR2/aquaporine-2 impliquée dans le NSIAD. De plus, l'absence de données réglementaires TFDA (mises en garde/contre-indications) empêche toute évaluation de sécurité préliminaire (S1).
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai, publication ni lien mécanistique plausible avec la physiopathologie du NSIAD.
+- Les données de sécurité (mises en garde, contre-indications) et l'indication d'origine manquent, ce qui empêche de passer à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/mises en garde TFDA (donnée bloquante — DG001) pour permettre l'évaluation de sécurité S1
-- Données de mécanisme d'action confirmées via DrugBank (DG002)
-- Études précliniques explorant un éventuel effet hors cible de la ranolazine sur l'AVPR2 ou la voie aquaporine-2
-- Surveillance continue de la littérature et des registres d'essais cliniques pour toute nouvelle preuve
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée), lacune bloquante.
+- Compléter les données de mécanisme d'action via DrugBank.
+- Rechercher des études précliniques ou de mécanisme reliant la ranolazine à la voie AVPR2/AMPc/AQP2.
+- Valider indépendamment la prédiction, par exemple en analysant les voisins du réseau qui ont conduit au score.
+- Évaluer la compatibilité des voies d'administration (statut actuellement en attente).
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

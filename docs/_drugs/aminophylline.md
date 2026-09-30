@@ -2,7 +2,7 @@
 layout: default
 title: Aminophylline
 parent: Preuves modérées (L3-L4)
-nav_order: 33
+nav_order: 34
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,62 +29,65 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Aminophylline : Du Bronchospasme à la Migraine
+# Aminophylline : D'une indication non renseignée à la migraine
 
 ## Résumé en Une Phrase
 
-Aminophylline est un bronchodilateur de la classe des méthylxanthines, classiquement utilisé dans le traitement du bronchospasme (asthme, BPCO) et de l'apnée de la prématurité.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble migraineux** (migraine disorder),
-avec **0 essai clinique enregistré** et **6 publications scientifiques** soutenant actuellement cette direction.
+L'aminophylline (théophylline associée à l'éthylènediamine) est commercialisée en France sous forme de solution pour perfusion, mais son indication autorisée n'est pas renseignée dans les données ANSM disponibles.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **migraine**, avec **0 essai clinique** et **6 publications** seulement. Une seule est une revue récente (2023) ; les autres sont des cas cliniques, des travaux précliniques ou des articles anciens.
 
 ---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---------|---------|
-| Indication Originale | Bronchospasme / Apnée de la prématurité |
-| Nouvelle Indication Prédite | Trouble migraineux (Migraine disorder) |
-| Score de Prédiction TxGNN | 99.88% |
+|------|------|
+| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide) |
+| Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
+| Score de Prédiction TxGNN | 99,88 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Aminophylline est un antagoniste des récepteurs à l'adénosine (principalement A1 et A2A) et un inhibiteur non sélectif de la phosphodiestérase (PDE). Les données actuelles sur son mécanisme d'action détaillé restent partielles dans cet Evidence Pack, mais son appartenance à la classe des méthylxanthines — partagée avec la caféine et la théophylline — est bien documentée dans la littérature biomédicale.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. D'après la pharmacologie générale, l'aminophylline est un inhibiteur non sélectif des phosphodiestérases et un antagoniste des récepteurs de l'adénosine. Le résumé de l'essai NCT07011134 mentionne son usage établi comme bronchodilatateur et dans l'apnée du prématuré. L'indication originale n'a cependant pas pu être confirmée par les données réglementaires.
 
-L'adénosine est reconnue comme un facteur déclenchant de la migraine : son infusion exogène peut reproduire des crises migraineuses chez des sujets prédisposés. L'activation des récepteurs A2A entraîne une vasodilatation sélective des artères piales intracrâniennes et une sensibilisation des fibres trigéminales — deux mécanismes centraux dans la physiopathologie migraineuse. En bloquant ces récepteurs, aminophylline pourrait théoriquement interrompre cette cascade pathologique.
+L'hypothèse sous-jacente est que la migraine pourrait être liée à un métabolisme énergétique cérébral altéré, avec des taux d'adénosine anormalement élevés. Or l'adénosine dilate les artères cérébrales et participe à la transmission de la douleur. Bloquer ses récepteurs pourrait donc soulager la douleur. Ce raisonnement s'appuie sur une revue de 2023 qui rapporte un bénéfice thérapeutique dans la douleur, notamment les céphalées post-ponction durale, et sur une série de cas observationnelle déjà publiée.
 
-Des observations cliniques directes (Phillips & Phillips, 2023 — PMID 38059379) rapportent un effet thérapeutique marqué d'aminophylline dans les douleurs sévères, notamment les céphalées post-ponction durale, une entité mécanistiquement proche de la migraine. Le cas d'une migraine hémiplégique déclenchée par le régadénoson (agoniste A2A sélectif) et documenté dans le contexte d'une imagerie de perfusion myocardique (PMID 34308528) illustre également de façon concrète cette voie adénosinergique. Les preuves restent cependant limitées à des rapports de cas et des revues narratives ; aucun essai contrôlé n'a été conduit à ce jour.
+Deux éléments appuient indirectement cette piste. Un cas de migraine hémiplégique a été déclenché par le régadénoson, un agoniste de l'adénosine. Des données *in vitro* montrent que l'adénosine et les composés adéniniques dilatent les artères piales. Ces éléments restent des indices mécanistiques et non des preuves d'efficacité chez l'humain.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement.
 
 ---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
-|------|-------|------|-------|----------------------|
-| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Revue / Série de cas | Pain Management | Aminophylline, en tant qu'antagoniste des récepteurs à l'adénosine, offrirait un soulagement thérapeutique significatif dans la douleur et les céphalées post-ponction durale ; lien avec la perturbation du métabolisme énergétique cérébral et un excès d'adénosine dans la migraine |
-| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Rapport de cas | Journal of Nuclear Cardiology | Migraine hémiplégique déclenchée par le régadénoson (agoniste A2A sélectif) lors d'une imagerie de stress myocardique ; aminophylline employée pour contrer les effets neurologiques indésirables, illustrant directement la voie adénosinergique dans la migraine |
-| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | Mécanistique in vitro | Stroke | Les composés adéniniques (adénosine, AMP, ADP, ATP) dilatent sélectivement les artères piales intracrâniennes félines et humaines in vitro, sans effet sur les artères extracrâniennes ; soutient le rôle de l'adénosine dans la vasodilatation intracrânienne liée à la migraine |
-| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Rapport de cas | The Canadian Journal of Cardiology | Patiente présentant une douleur thoracique invalidante liée à un excès d'effet adénosinergique (syndrome X myocardique) avec test au dipyridamole positif ; illustre l'étendue des manifestations cliniques d'un excès d'adénosine |
-| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Note clinique | Aggiornamenti clinicoterapeutici | Note clinique historique sur le traitement médical des céphalées, sans abstract disponible |
-| [5540199](https://pubmed.ncbi.nlm.nih.gov/5540199/) | 1971 | Note de formulation | The Practitioner | Note sur les formes pharmaceutiques suppositoires, pertinence directe limitée |
+|------|-----|------|------|---------|
+| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Revue | Pain Management | L'aminophylline, antagoniste de l'adénosine, pourrait soulager fortement la douleur, en particulier les céphalées post-ponction durale. Une série de cas observationnelle antérieure suggère un effet thérapeutique dans la migraine. |
+| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Cas clinique | J Nucl Cardiol | Épisode de migraine hémiplégique déclenché par le régadénoson (agoniste de l'adénosine). L'aminophylline est citée parmi les moyens d'inverser ses effets indésirables. |
+| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Cas clinique | Can J Cardiol | Patiente avec syndrome X attribué à un excès d'effet de l'adénosine (« migraine myocardique » sans ischémie). |
+| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | Préclinique (*in vitro*) | Stroke | L'adénosine et les composés adéniniques dilatent nettement les artères piales du chat et de l'humain, mais pas les artères extracrâniennes testées. Implication possible dans la migraine. |
+| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Revue / autre | Aggiornamenti Clinicoterapeutici | Article ancien sur les céphalées, sans résumé disponible. Contenu non vérifiable. |
+| [5540199](https://pubmed.ncbi.nlm.nih.gov/5540199/) | 1971 | Autre | The Practitioner | Article de 1971 intitulé « Suppositories », sans résumé. Pertinence incertaine. |
 
 ---
 
 ## Informations de Marché en France
 
-Aminophylline ne dispose d'aucune Autorisation de Mise sur le Marché (AMM) enregistrée en France dans la base de données consultée (0 licence, statut : non commercialisé).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69586398 | AMINOPHYLLINE RENAUDIN 250 mg/10 ml | Solution pour perfusion | Non renseignée |
+
+Le titulaire est le Laboratoire Renaudin.
 
 ---
 
@@ -99,14 +102,16 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-Le niveau de preuve actuel (L4) repose exclusivement sur des études mécanistiques in vitro, des rapports de cas isolés et une revue narrative. En l'absence de tout essai clinique contrôlé et compte tenu de l'absence d'AMM en France, un avancement clinique immédiat ne peut être recommandé, malgré un rationnel mécanistique cohérent.
+- Le score TxGNN est très élevé, mais aucun essai clinique n'est enregistré. Les preuves humaines se limitent à une revue narrative récente, à des cas cliniques et à des articles anciens dont le contenu n'est pas vérifiable. Le niveau de preuve reste L4.
+- L'indication originale et la sécurité ne sont pas documentées. L'analyse d'une autre indication prédite (hypertension pulmonaire) signale en outre une marge thérapeutique étroite et un potentiel d'interactions. Il est donc trop tôt pour recommander une progression.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données complètes sur le mécanisme d'action (MOA) via DrugBank API (DG002 — priorité haute)
-- Données de sécurité, mises en garde et contre-indications via la notice officielle ANSM/TFDA (DG001 — priorité bloquante)
-- Revue systématique formelle des observations cliniques disponibles sur aminophylline dans les céphalées et la migraine
-- Conception d'un essai clinique pilote de Phase 2 randomisé contre placebo dans la migraine épisodique, avec sélection de la voie d'administration (IV pour crise aiguë vs oral en prophylaxie)
-- Évaluation du profil risque/bénéfice face aux triptans et aux gepants, traitements de référence actuels de la migraine
+- Récupérer le RCP/la notice ANSM (mises en garde, contre-indications, indication autorisée), lacune bloquante pour le dépistage de sécurité.
+- Compléter le mécanisme d'action via DrugBank.
+- Analyser la série de cas observationnelle citée dans la revue de 2023 et évaluer la faisabilité d'un essai contrôlé. La voie d'administration (perfusion) doit aussi être confrontée à l'usage attendu dans la migraine, la compatibilité de voie n'étant pas encore évaluée.
+- Les prédictions de sous-types (migraine avec aura du tronc cérébral, susceptibilité génétique) n'ont aucune preuve propre. Elles dépendent de la validation de l'hypothèse migraine.
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

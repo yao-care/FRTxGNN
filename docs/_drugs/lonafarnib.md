@@ -2,7 +2,7 @@
 layout: default
 title: Lonafarnib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 173
+nav_order: 176
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,56 +29,66 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# LONAFARNIB : Évaluation Interrompue — Données Insuffisantes pour la Génération du Rapport Complet
+# Lonafarnib : Évaluation de la prédiction TxGNN pour la lèpre
 
 ## Résumé en Une Phrase
 
-LONAFARNIB (DrugBank : DB06448) est un médicament référencé dans la base DrugBank dont la requête a abouti, mais le présent Evidence Pack ne contient ni indication d'origine documentée, ni prédiction TxGNN d'indication, ni données de sécurité exploitables. Le rapport standard de repositionnement ne peut pas être généré en l'état.
-
----
+Lonafarnib est un inhibiteur de la farnésyltransférase, commercialisé en France sous le nom ZOKINVY (gélules).
+Le modèle TxGNN prédit qu'il pourrait être efficace contre la **lèpre**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une hypothèse issue du seul modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non documentée dans ce pack |
-| Nouvelle Indication Prédite | Aucune prédiction disponible |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | L5 — prédiction absente, aucune étude associée |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+|------|------|
+| Nouvelle Indication Prédite | Lèpre |
+| Score de Prédiction TxGNN | 99,14 % |
+| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Lacunes Critiques Identifiées
+Lonafarnib inhibe la farnésyltransférase, une enzyme qui ajoute un groupe lipidique (prénylation) à certaines protéines, comme HRAS et la progérine. Cette modification leur permet de s'ancrer aux membranes cellulaires et d'exercer leur fonction.
 
-Les éléments suivants sont absents du pack et bloquent la génération du rapport :
+Le lien avec la lèpre n'est documenté dans aucune donnée fournie. Il ne pourrait être qu'indirect, par exemple via des voies de signalisation de la cellule hôte dépendantes de la prénylation lors de l'infection par *Mycobacterium leprae*, ou via une modulation immunitaire. Ce sont des pistes théoriques, sans support dans les données disponibles.
 
-| ID | Élément Manquant | Sévérité | Impact | Source de Remédiation |
-|---|---|---|---|---|
-| DG001 | Avertissements & contre-indications (notice officielle) | **Bloquant** | Impossible d'effectuer l'évaluation de sécurité initiale | Télécharger et analyser la notice PDF officielle |
-| DG002 | Mécanisme d'action (MOA) | Élevée | Analyse de pertinence mécanistique impossible | Interroger l'API DrugBank |
-| — | Indications d'origine (`original_indications` vide) | **Bloquant** | Titre et contexte du rapport incomplets | DrugBank / Registres réglementaires (FDA, EMA) |
-| — | Prédictions TxGNN (`predicted_indications` vide) | **Bloquant** | Aucune nouvelle indication à évaluer | Exécuter le pipeline TxGNN pour DB06448 |
+Les indications d'origine du médicament ne figurent pas dans le dossier, ce qui empêche de comparer l'indication d'origine à la nouvelle. Le score TxGNN élevé traduit une proximité dans le graphe de connaissances, et non une plausibilité clinique. La prédiction doit donc être traitée comme une hypothèse à vérifier.
 
-> **Note sur le journal de requêtes :** La requête DrugBank a retourné 1 résultat (`result_count: 1`) et la requête notice officielle a également retourné 1 résultat, mais les données correspondantes n'ont pas été intégrées dans le pack. La remédiation est donc prioritaire et techniquement accessible.
+## Preuves d'Essais Cliniques
 
----
+Aucun essai clinique associé enregistré actuellement.
+
+## Preuves de la Littérature
+
+Aucune littérature associée disponible actuellement.
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 61837140 | ZOKINVY 75 mg, gélule | Gélule | TMC PHARMA (EU) (Irlande) |
+| 66601425 | ZOKINVY 50 mg, gélule | Gélule | TMC PHARMA (EU) (Irlande) |
+
+## Considérations de Sécurité
+
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-L'Evidence Pack v4 présente un tableau de bord vide sur les deux dimensions fondamentales du repositionnement : il n'existe aucune indication d'origine documentée et aucune prédiction TxGNN n'a été générée pour LONAFARNIB. Sans ces éléments, aucune analyse de pertinence clinique, mécanistique ou réglementaire ne peut être conduite.
+- La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai ni publication, et aucun mécanisme documenté ne relie lonafarnib à la lèpre.
+- Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions).
+- Compléter les indications d'origine et le mécanisme d'action détaillé (par ex. via DrugBank).
+- Rechercher des études précliniques ou de mécanisme sur la prénylation dans l'infection à *M. leprae*.
+- Vérifier la compatibilité des voies d'administration avec l'usage envisagé.
 
-- **Priorité 1 — Pipeline TxGNN :** Exécuter la prédiction d'indications pour LONAFARNIB (DB06448) afin d'alimenter `predicted_indications`
-- **Priorité 2 — DrugBank complet :** Intégrer les données déjà disponibles (résultat présent, non inclus) : mécanisme d'action, indications approuvées, catégories pharmacologiques
-- **Priorité 3 — Notice officielle :** Extraire les avertissements, contre-indications et interactions médicamenteuses depuis le PDF de notice déjà récupéré (`result_count: 1`)
-- **Priorité 4 — Registres réglementaires :** Vérifier FDA / EMA pour les indications approuvées et le statut de commercialisation européen
+*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

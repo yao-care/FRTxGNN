@@ -2,7 +2,7 @@
 layout: default
 title: Quinapril
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 251
+nav_order: 255
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,61 +29,72 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Quinapril : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+# Quinapril : D'un inhibiteur de l'ECA (indication originale non renseignée) à l'hypertension rénovasculaire maligne
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Quinapril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC), utilisé pour le traitement de l'hypertension artérielle. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hypertension Rénovasculaire Maligne**, avec un score de prédiction de **99,86 %**, mais **aucun essai clinique ni publication** ne soutient actuellement cette direction — et le lien mécanistique comporte un signal de risque notable, l'hypertension rénovasculaire étant une contre-indication relative classique aux IEC.
+Le quinapril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC). Les données fournies ne précisent pas son indication originale.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension rénovasculaire maligne**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction : elle repose uniquement sur le modèle.
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (déduite des rationales mécanistiques fournies dans le pack de preuves ; non confirmée par une fiche réglementaire dédiée) |
-| Nouvelle Indication Prédite | Hypertension Rénovasculaire Maligne |
-| Score de Prédiction TxGNN | 99,86 % (rang 1567) |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Hold |
+| Indication originale | Non renseignée dans les données réglementaires fournies |
+| Nouvelle indication prédite | Hypertension rénovasculaire maligne |
+| Score de prédiction TxGNN | 99,86 % |
+| Niveau de preuve | L5 |
+| Statut de marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 2 |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources structurées (ce champ est marqué comme lacune de priorité élevée, DG002, à combler via DrugBank). Sur la base des rationales mécanistiques fournies dans le pack de preuves, Quinapril appartient à la classe des inhibiteurs de l'enzyme de conversion de l'angiotensine (IEC) : il inhibe la production d'angiotensine II et abaisse ainsi la pression artérielle systémique, un effet de classe bien établi dans le traitement de l'hypertension.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le quinapril appartient à la classe des inhibiteurs de l'ECA. Il agit sur le système rénine-angiotensine et pourrait, mécanistiquement, être applicable à l'hypertension rénovasculaire.
 
-Sur le plan mécanistique, une action antihypertensive systémique pourrait sembler transposable à une forme sévère d'hypertension comme l'hypertension rénovasculaire maligne. C'est probablement ce lien générique « IEC ↔ hypertension » que le graphe TxGNN capture pour produire un score élevé.
+L'hypertension rénovasculaire est en grande partie due à l'activation du système rénine-angiotensine, généralement en aval d'une sténose de l'artère rénale. Un blocage de ce système est donc biologiquement plausible. Cependant, l'indication originale n'étant pas renseignée, la relation entre l'ancienne et la nouvelle indication ne peut pas être analysée plus en détail.
 
-Ce lien doit toutefois être nuancé fortement : l'hypertension rénovasculaire (en particulier en cas de sténose bilatérale des artères rénales ou de sténose sur rein unique) est une **contre-indication relative reconnue** aux IEC. La dilatation de l'artériole efférente qu'ils provoquent peut faire chuter brutalement la pression de filtration glomérulaire et précipiter une insuffisance rénale aiguë. Le score TxGNN élevé reflète donc vraisemblablement une association générique « IEC-hypertension » dans l'espace d'embedding, sans que le modèle ait capturé cette nuance de risque directionnel propre au sous-type rénovasculaire — d'où le maintien en stade S0/Hold.
+Cette prédiction demande de la prudence. Chez un patient avec sténose bilatérale des artères rénales ou rein fonctionnel unique, un IEC peut provoquer une insuffisance rénale aiguë. Le profil de sécurité doit donc être examiné séparément. Le score TxGNN (0,9986) est une prédiction informatique et ne remplace pas une preuve clinique.
 
-Les quatre autres candidats prédits pour ce médicament présentent un profil de preuve similairement faible : la néphropathie hypertensive maligne (rang 2) s'appuie sur un effet de classe rénoprotecteur des IEC plausible mais sans aucun essai ni publication directe ; les deux formes d'hypertension pulmonaire (rangs 3 et 4, groupes OMS 3 et 5) sont dominées par des mécanismes hypoxiques/HIF-1α indépendants du système rénine-angiotensine, et la littérature associée (20 références) ne concerne que la biologie générale de l'hypoxie sans mention de quinapril ni d'IEC ; le syndrome de Braddock (rang 5), une maladie génétique rare, n'a aucun lien biologique connu avec la voie IEC. L'hypertension rénovasculaire maligne reste donc, malgré ses limites, le candidat le mieux étayé mécanistiquement du lot.
+Les quatre autres indications prédites (hypertension rénale maligne, deux formes d'hypertension pulmonaire et syndrome de Braddock) sont toutes de niveau L5, avec une recommandation Hold. L'hypertension rénale maligne a exactement le même score que l'entrée rénovasculaire. Les deux prédictions proviennent donc probablement du même voisinage dans le graphe et ne constituent pas deux signaux indépendants. Les 20 publications récupérées pour l'hypertension pulmonaire liée à l'hypoxie portent sur l'hypoxie en général (vieillissement cérébral, cancer, sclérose en plaques, altitude). Aucune ne mentionne le quinapril, elles ne fournissent donc aucun élément de preuve.
 
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
-Aucun essai clinique associé enregistré actuellement pour l'hypertension rénovasculaire maligne.
+Aucun essai clinique associé n'est enregistré actuellement.
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
-Aucune littérature associée disponible actuellement pour l'hypertension rénovasculaire maligne.
+Aucune littérature associée n'est disponible actuellement.
 
-## Considérations de Sécurité
+## Informations de marché en France
 
-Les mises en garde, contre-indications et interactions médicamenteuses officielles (notice TFDA) ne sont pas encore disponibles dans le pack de preuves — il s'agit d'une lacune bloquante (DG001) empêchant toute évaluation de sécurité de niveau S1. Veuillez consulter la notice officielle avant toute utilisation.
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
+|---------|------|------|-----------|
+| 62206135 | ACUITEL 5 mg, comprimé enrobé sécable (PFIZER HOLDING FRANCE) | Comprimé enrobé sécable | Non renseignée dans les données fournies |
+| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable (PFIZER HOLDING FRANCE) | Comprimé enrobé sécable | Non renseignée dans les données fournies |
 
-## Conclusion et Prochaines Étapes
+## Considérations de sécurité
+
+Veuillez consulter la notice pour les informations de sécurité.
+
+Les données de sécurité de l'ANSM (mises en garde, contre-indications) ne sont pas encore disponibles, et aucune interaction médicamenteuse n'a été trouvée. À noter toutefois, d'après l'analyse mécanistique : les inhibiteurs de l'ECA peuvent provoquer une insuffisance rénale aiguë en cas de sténose bilatérale des artères rénales ou de rein fonctionnel unique, ce qui concerne directement l'indication prédite.
+
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Niveau de preuve L5 : aucun essai clinique ni publication ne soutient directement l'usage de quinapril dans l'hypertension rénovasculaire maligne.
-- Une lacune bloquante (DG001) empêche l'évaluation de sécurité initiale (S1) faute de notice TFDA disponible.
-- Le mécanisme proposé comporte un risque directionnel documenté (les IEC sont relativement contre-indiqués en cas de sténose des artères rénales), ce qui affaiblit la plausibilité clinique malgré le score TxGNN élevé.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique ni aucune publication pertinente ne la soutient.
+- Les données de sécurité de l'ANSM manquent, ce qui bloque le passage à l'étape suivante de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice TFDA (ou équivalente EU/France) pour lever la lacune DG001 (mises en garde, contre-indications)
-- Confirmer le mécanisme d'action détaillé via l'API DrugBank (DG002)
-- Rechercher spécifiquement la littérature « IEC et sténose de l'artère rénale » ou « hypertension maligne » pour valider ou réfuter ce signal
-- Évaluation néphrologique du rapport bénéfice/risque avant toute exploration clinique, compte tenu du risque d'insuffisance rénale aiguë
-- Clarifier le statut réglementaire en France (actuellement non commercialisé, 0 AMM)
+- Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications), en priorité car elle bloque la suite
+- Obtenir les données sur le mécanisme d'action (MOA) et l'indication originale via l'API DrugBank
+- Rechercher des essais cliniques et des publications spécifiques au quinapril (ou aux IEC) dans l'hypertension rénovasculaire
+- Réaliser une revue de sécurité dédiée au risque rénal (sténose bilatérale des artères rénales, rein fonctionnel unique)
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Toute piste de repositionnement doit être validée cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Sulprostone
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 291
+nav_order: 295
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,86 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulprostone : De la Contraction Utérine à la Cataracte Tétanique
+# Sulprostone : D'une Indication Originale Non Renseignée à la Cataracte Tétanique
 
 ## Résumé en Une Phrase
 
-Sulprostone est un analogue de la prostaglandine E2 (PGE2), utilisé à l'origine comme utérotonique pour la contraction utérine et l'induction du travail (information tirée du rationnel mécanistique du dossier, le champ MOA formel étant lui-même une lacune de données). Le modèle TxGNN prédit un score élevé (**99.86%**) pour la **cataracte tétanique** (tetanic cataract), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction — le rationnel associé indique lui-même qu'il s'agit d'un terme d'ontologie non standard, sans hypothèse mécanistique établie.
-
----
+Sulprostone est un analogue de la prostaglandine E2 (agoniste principalement des récepteurs EP1/EP3, à action utérotonique), commercialisé en France sous le nom NALADOR. Son indication originale n'est pas renseignée dans les données réglementaires fournies.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cataracte tétanique**, avec un score très élevé (99,86 %).
+Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Contraction utérine / Induction du travail (utérotonique) — déduit du rationnel mécanistique, non confirmé par un champ d'indication officiel |
+| Indication Originale | Non renseignée dans l'AMM (texte d'indication vide) |
 | Nouvelle Indication Prédite | Cataracte tétanique (tetanic cataract) |
-| Score de Prédiction TxGNN | 99.86% |
+| Score de Prédiction TxGNN | 99,86 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles formellement (lacune de données signalée comme bloquante). Sur la base des informations présentes dans le dossier de preuves, sulprostone est décrit comme un agoniste de la prostaglandine E2 (récepteur EP), dont l'efficacité dans la contraction utérine et l'induction du travail est bien établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sulprostone est un analogue de la PGE2 agissant principalement sur les récepteurs EP1 et EP3. Aucune indication originale n'est documentée dans les données fournies.
 
-Cependant, le rationnel mécanistique associé à chacune des indications prédites (cataracte sous ses diverses formes, rétinopathie diabétique) indique explicitement l'**absence de lien mécanistique connu** entre la signalisation PGE2/EP et la pathologie du cristallin — que ce soit via le métabolisme du cristallin, la voie des polyols (aldose réductase) ou la glycation des protéines cristalliniennes. Pour la rétinopathie diabétique (rang 10), le dossier note une plausibilité mécanistique légèrement supérieure, la signalisation PGE2 ayant un lien indirect théorique avec l'inflammation et l'angiogenèse (VEGF), mais sans aucune donnée préclinique ou clinique pour l'étayer.
+Aucun lien documenté n'existe entre ce médicament et l'opacité du cristallin liée à l'hypocalcémie, qui caractérise la cataracte tétanique. Toute connexion resterait spéculative. Deux pistes théoriques, non étayées par des données, seraient la signalisation des prostanoïdes dans l'épithélium du cristallin et la régulation du calcium.
 
-Un point de vigilance supplémentaire : les scores TxGNN des indications classées 1 à 5 sont strictement identiques (0.9986011385917664), ce qui suggère un artefact de regroupement topologique dans le graphe de connaissances plutôt qu'un signal différencié et fiable pour chaque indication.
+Le score élevé doit donc être interprété avec prudence. Il est identique pour plusieurs sous-types de cataracte (99,86 %), ce qui suggère que le modèle propage une association générique au niveau du nœud « cataracte » plutôt qu'un signal propre à chaque sous-type.
 
----
+## Autres Indications Prédites
+
+Toutes sont de niveau L5, sans essai clinique ni publication, avec une décision Hold.
+
+| Rang | Maladie prédite | Score TxGNN | Commentaire |
+|------|------|------|------|
+| 2 | Cataracte associée au diabète de type 2 | 99,86 % | Risque cardiovasculaire systémique peu adapté à une population diabétique chronique |
+| 3 | Cataracte immature | 99,86 % | Score identique aux autres sous-types, signal probablement générique |
+| 4 | Cataracte associée à une craniosténose | 99,86 % | Syndrome rare à base génétique probable, aucun mécanisme plausible |
+| 5 | Cataracte mature | 99,86 % | Opacité structurelle établie, réversion pharmacologique peu plausible |
+| 6 | Cataracte nucléaire sénile | 99,85 % | Stress oxydatif et agrégation des cristallines, sans lien démontré |
+| 7 | Cataracte corticale | 99,85 % | Piste théorique : homéostasie ionique et hydrique de l'épithélium |
+| 8 | Cataracte sénile | 99,84 % | Les analogues de prostaglandines oculaires agissent sur les récepteurs FP, un mécanisme différent |
+| 9 | Cataracte diabétique | 99,82 % | Voie des polyols et stress oxydatif sans lien démontré |
+| 10 | Rétinopathie diabétique | 99,67 % | Hypothèse la plus plausible biologiquement, mais le sens de l'effet d'un agoniste EP1/EP3 est incertain et pourrait être délétère |
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Aucune AMM enregistrée en France (statut : non commercialisé, 0 licence recensée).
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61722693 | NALADOR 500 microgrammes, lyophilisat pour usage parentéral (TEOFARMA) | Lyophilisat pour usage parentéral | Texte d'indication non renseigné |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
----
+Un point d'attention ressort néanmoins de l'analyse de plausibilité : la sulprostone administrée par voie systémique est associée à un risque cardiovasculaire (par exemple vasospasme coronarien). Cela serait un obstacle important pour une population diabétique chronique.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Toutes les indications prédites (10/10) sont classées niveau de preuve L5 — prédiction du modèle uniquement, sans essai clinique ni publication à l'appui, et le rationnel mécanistique du dossier lui-même conteste la plausibilité biologique des principales candidates (cataracte).
-- Une lacune de données bloquante (DG001 — mises en garde/contre-indications TFDA) empêche toute évaluation de sécurité S1, indépendamment de la force de la prédiction.
+La prédiction repose uniquement sur le modèle (niveau L5). Aucun essai, aucune publication et aucun mécanisme documenté ne la soutiennent, et les données de sécurité de la notice ANSM sont manquantes. Le profil systémique de la voie parentérale est de plus peu compatible avec des affections oculaires chroniques.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice officielle et les mises en garde/contre-indications (DG001, bloquant)
-- Obtenir des données de mécanisme d'action détaillées via DrugBank ou littérature primaire (DG002)
-- Clarifier la terminologie d'ontologie non standard des indications prédites (ex. « tetanic cataract », « craniostenosis cataract ») avant toute analyse supplémentaire
-- Rechercher un signal préclinique ou clinique réel, en priorité pour la rétinopathie diabétique, seule candidate avec un rationnel mécanistique partiellement défendable
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications), une étape bloquante pour le criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (MOA) via DrugBank
+- Documenter l'indication originale approuvée du produit NALADOR
+- Réaliser une revue de littérature préclinique sur la signalisation EP1/EP3 dans le cristallin et la rétine
+- Évaluer la compatibilité de la voie d'administration (parentérale) avec une utilisation oculaire, ou envisager une voie locale
+- Envisager d'abord la rétinopathie diabétique comme hypothèse prioritaire pour des travaux précliniques uniquement
 
-*Note : 9 autres indications candidates (variantes de cataracte et rétinopathie diabétique, scores 99.67–99.86%) partagent le même profil — niveau L5, aucun essai ni littérature, recommandation Hold.*
+*Les résultats de ce rapport sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit faire l'objet d'une validation clinique avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

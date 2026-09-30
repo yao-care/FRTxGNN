@@ -2,7 +2,7 @@
 layout: default
 title: Raltitrexed
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 252
+nav_order: 256
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,80 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Raltitrexed : d'une Indication d'Origine Non Renseignée à la Cholangite Sclérosante
+# Raltitrexed : D'une indication d'origine non renseignée à la cholangite sclérosante
 
 ## Résumé en Une Phrase
 
-Le pack de preuves actuel ne renseigne aucune indication d'origine ni aucune licence pour la Raltitrexed (données de marché : non commercialisé, 0 AMM). Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **Cholangite Sclérosante**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction — et l'analyse de repositionnement associée qualifie elle-même ce signal de mécaniquement non plausible.
-
----
+Raltitrexed est un antimétabolite cytotoxique (inhibiteur de la thymidylate synthase) commercialisé en France sous le nom TOMUDEX. Les données réglementaires fournies ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cholangite sclérosante**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans ce pack (aucune licence ni `original_indications` enregistrée) |
-| Nouvelle Indication Prédite | Cholangite Sclérosante (sclerosing cholangitis) |
-| Score de Prédiction TxGNN | 99.97 % (rang TxGNN interne 527) |
-| Niveau de Preuve | L5 (prédiction du modèle uniquement, aucune étude réelle) |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données de l'ANSM |
+| Nouvelle Indication Prédite | Cholangite sclérosante |
+| Score de Prédiction TxGNN | 99,97 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données structurées sur le mécanisme d'action (MOA) ne sont pas disponibles dans ce pack. Les éléments qualitatifs fournis par l'analyse de repositionnement indiquent toutefois que la Raltitrexed agit par **inhibition de la thymidylate synthase (TS)**, un mécanisme cytotoxique antimétabolite ; sa toxicité dose-limitante rapportée est la **myélosuppression**.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. D'après les informations connues, le raltitrexed est un inhibiteur de la thymidylate synthase (antifolate cytotoxique). Il bloque la synthèse de l'ADN dans les cellules qui se divisent rapidement.
 
-L'indication d'origine du médicament n'étant pas renseignée dans ce pack (champ `original_indications` vide, aucune AMM française), la relation entre l'usage historique et la Cholangite Sclérosante ne peut pas être établie sur cette base.
+Dans le cas de la cholangite sclérosante, **aucun lien mécanistique n'est établi**. Le score élevé du modèle est une prédiction statistique, sans étude réelle derrière. On ne connaît pas de mécanisme anticholestatique ou antifibrotique pour ce médicament.
 
-Sur le plan mécanistique, l'analyse de repositionnement elle-même conclut à l'**absence de lien plausible** : la cholangite sclérosante est une maladie biliaire auto-immune/fibrosante, sans rapport connu avec un mécanisme cytotoxique anti-métabolite d'inhibition de la TS. Le pack qualifie explicitement ce signal de possible **bruit de l'espace d'embedding du modèle (faux positif)**. Ce jugement doit être pris en compte avant toute exploration supplémentaire.
-
----
+Le sens du rapport bénéfice/risque est plutôt défavorable. L'hépatotoxicité est un effet indésirable reconnu du raltitrexed, ce qui est préoccupant dans une maladie hépatique cholestatique. Cette prédiction doit donc être considérée avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
 
-Raltitrexed n'est pas commercialisé en France : statut « non commercialisé », 0 AMM enregistrée dans ce pack.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 60985360 | TOMUDEX 2 mg, poudre pour solution pour perfusion (PFIZER HOLDING FRANCE) | Poudre pour solution pour perfusion | Texte d'indication non renseigné |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (antimétabolite, inhibiteur de la thymidylate synthase — TS) |
-| Risque de Myélosuppression | Élevé — la toxicité dose-limitante rapportée dans l'analyse de repositionnement est la myélosuppression |
+| Classification de Cytotoxicité | Cytotoxique conventionnel (antimétabolite, antifolate inhibiteur de la thymidylate synthase) |
+| Risque de Myélosuppression | Risque de myélosuppression signalé, non quantifié dans les données disponibles |
 | Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | NFS (numération formule sanguine avec différentielle), fonction hépatique et rénale |
-| Protection de Manipulation | Manipulation à réaliser selon les précautions applicables aux agents cytotoxiques (chimiothérapie) |
-
----
+| Éléments de Surveillance | NFS (numération formule sanguine), fonction hépatique et rénale |
+| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Hépatotoxicité** : effet indésirable reconnu, particulièrement préoccupant dans une maladie cholestatique comme la cholangite sclérosante.
+- **Myélosuppression** : risque signalé pour ce médicament.
 
----
+Aucune interaction médicamenteuse n'a été retrouvée dans la base interrogée. Les mises en garde et contre-indications officielles ne sont pas disponibles dans les données fournies. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique ni aucune publication ne soutient l'indication prédite (niveau de preuve L5), et l'analyse de repositionnement qualifie elle-même le lien mécanistique de non plausible (probable bruit de l'espace d'embedding). Les autres indications prédites dans ce pack (ex. syndrome myélodysplasique, syndromes drépanocytaires) présentent en outre des mécanismes contradictoires avec un agent myélosuppresseur, renforçant la prudence globale sur ce candidat.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Aucun lien mécanistique n'est établi, et l'hépatotoxicité connue va à l'encontre d'un usage dans une maladie cholestatique.
+- Les neuf autres indications prédites (syndrome myélodysplasique, drépanocytoses, etc.) sont elles aussi de niveau L5 et en Hold. Pour les syndromes myélodysplasiques, la myélosuppression constitue une préoccupation majeure.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Résolution du data gap bloquant DG001 (mises en garde/contre-indications TFDA) avant toute évaluation de sécurité S1
-- Résolution du data gap DG002 (mécanisme d'action structuré via DrugBank)
-- Confirmation ou infirmation du signal TxGNN par une recherche mécanistique ciblée (le pack suspecte un faux positif)
-- Données réglementaires manquantes : indication d'origine et statut de licence à documenter
+- Récupérer la notice de l'ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (MOA) via DrugBank
+- Obtenir le texte de l'indication approuvée de l'AMM 60985360
+- Mener une recherche de littérature et d'essais sur le raltitrexed dans la cholangite sclérosante
+- Justifier un mécanisme plausible, ainsi que la compatibilité de la voie d'administration (perfusion), avant toute reconsidération
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

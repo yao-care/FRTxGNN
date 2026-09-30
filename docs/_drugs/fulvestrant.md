@@ -2,7 +2,7 @@
 layout: default
 title: Fulvestrant
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 134
+nav_order: 137
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,106 +29,76 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fulvestrant : Du Cancer du Sein Hormonodépendant à la Néoplasie Endocrinienne Multiple
+# Fulvestrant : De l'indication d'origine (non renseignée) au VIH
 
 ## Résumé en Une Phrase
 
-Fulvestrant (Faslodex®) est un SERD (dégradeur sélectif des récepteurs aux estrogènes), approuvé internationalement pour le traitement du cancer du sein localement avancé ou métastatique à récepteurs hormonaux positifs chez les femmes ménopausées, bien que non commercialisé à Taiwan.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Néoplasie Endocrinienne Multiple (MEN)** comme piste la plus explorable parmi 10 nouvelles indications prédites, avec un score de **99,85%**.
-Sur l'ensemble des 10 indications analysées, aucune ne dispose de preuves cliniques directes ; la MEN représente la seule hypothèse de recherche biologiquement plausible, soutenue indirectement par **50 essais cliniques** dans le cancer du sein ER+ (indication approuvée) mais par **aucun essai ni publication** spécifique à la MEN.
-
----
+Fulvestrant est un médicament injectable commercialisé en France, dont l'indication d'origine n'est pas renseignée dans les données fournies.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le VIH**, avec un score élevé (99,91 %).
+Cette prédiction repose uniquement sur le modèle : **0 essai clinique** et **1 publication**, qui porte sur un autre virus (HTLV-1) et ne la soutient donc pas.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer du sein localement avancé ou métastatique, RH+/HER2− (approuvé FDA/EMA ; non approuvé TFDA Taiwan) |
-| Nouvelle Indication Prédite | Néoplasie Endocrinienne Multiple (MEN) |
-| Score de Prédiction TxGNN | 99,85% |
-| Niveau de Preuve | L4 (indirect — essais cancer du sein uniquement, aucun essai MEN-spécifique) |
-| Statut de Marché à Taiwan | ✗ Non commercialisé (0 AMM TFDA) |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée (aucun texte d'indication dans les AMM ni dans les données du médicament) |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 99,91 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 10 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action de Fulvestrant ne sont pas disponibles dans ce dossier. Sur la base des informations connues, Fulvestrant fait partie de la classe des SERD (Selective Estrogen Receptor Degrader) : il se lie aux récepteurs aux estrogènes (ER) avec une très haute affinité, bloque leur activité transcriptionnelle et entraîne leur dégradation totale par le protéasome. Contrairement au tamoxifène (SERM), Fulvestrant n'exerce aucun effet agoniste partiel, ce qui en fait un antagoniste pur particulièrement utile dans les cancers ayant développé une résistance aux thérapies endocrines de première ligne.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Les essais cliniques d'autres indications du dossier décrivent le fulvestrant comme un antagoniste et dégradeur des récepteurs des œstrogènes (SERD) utilisé en hormonothérapie. Sur la base de ces informations seulement, on ne peut pas conclure que ce mécanisme soit applicable au VIH.
 
-La Néoplasie Endocrinienne Multiple de type 1 (MEN1) est un syndrome héréditaire impliquant les glandes parathyroïdes, l'hypophyse antérieure et le pancréas endocrine. Des rapports isolés dans la littérature scientifique signalent une expression des récepteurs aux estrogènes (ER-α et ER-β) dans certains adénomes hypophysaires à prolactine et dans des tumeurs pancréatiques neuroendocrines (pNETs) associées à MEN1. Ce contexte constitue la base théorique permettant d'envisager qu'un SERD comme Fulvestrant pourrait exercer un effet antiprolifératif sur ces tumeurs exprimant les ER.
+Les données fournies ne soutiennent aucun lien plausible entre l'antagonisme du récepteur des œstrogènes et l'infection par le VIH. La seule publication associée concerne la myélopathie liée à HTLV-1, un rétrovirus différent, et ne peut pas servir de preuve pour le VIH.
 
-Cependant, l'analyse approfondie des 50 essais cliniques identifiés révèle qu'ils concernent **tous exclusivement le cancer du sein ER+** — l'indication approuvée de Fulvestrant — sans aucun essai ciblant spécifiquement la MEN. Aucune publication PubMed ne soutient directement cette indication. Le score TxGNN très élevé (0,9985) est vraisemblablement dû à la proximité topologique des nœuds « médicaments endocriniens ↔ tumeurs endocrines » dans le graphe de connaissances, et non à une association thérapeutique démontrée. Cette prédiction est classée **hypothèse de recherche**, à valider par des données d'expression ER dans les tissus tumoraux MEN1.
-
----
+Le score élevé reflète probablement la proximité du VIH dans le graphe de connaissances (maladies virales, rétrovirus) plutôt qu'un signal biologique indépendant. Les prédictions « infection par le SIV » et « SIDA félin » présentent exactement le même score (99,83 %), ce qui va dans le même sens. Cette prédiction doit donc être considérée comme une hypothèse non étayée.
 
 ## Preuves d'Essais Cliniques
 
-> ⚠️ **Note importante** : Les essais ci-dessous concernent tous le cancer du sein ER+ (indication approuvée de Fulvestrant) et **non** la Néoplasie Endocrinienne Multiple. Ils illustrent le profil clinique établi de Fulvestrant, mais ne constituent pas une preuve directe pour la MEN.
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT02422615](https://clinicaltrials.gov/study/NCT02422615) | Phase 3 | Terminé | 726 | Ribociclib + Fulvestrant vs placebo dans le cancer du sein avancé HR+/HER2− (MONALEESA-3) |
-| [NCT01942135](https://clinicaltrials.gov/study/NCT01942135) | Phase 3 | Terminé | 521 | Palbociclib + Fulvestrant vs Fulvestrant seul dans le cancer du sein métastatique HR+/HER2− (PALOMA-3) |
-| [NCT02437318](https://clinicaltrials.gov/study/NCT02437318) | Phase 3 | Terminé | 572 | Alpelisib + Fulvestrant dans le cancer du sein avancé HR+/HER2− avec mutation PIK3CA (SOLAR-1) |
-| [NCT06635447](https://clinicaltrials.gov/study/NCT06635447) | Phase 3 | Actif (non recrutant) | 258 | Capivasertib + Fulvestrant dans le cancer du sein avancé HR+/HER2− — cohorte chinoise |
-| [NCT04158362](https://clinicaltrials.gov/study/NCT04158362) | Phase 3 | Actif (non recrutant) | 180 | Abemaciclib + thérapie endocrinienne vs chimiothérapie dans le cancer du sein ER+/HER2− avec métastases viscérales (AMBRE) |
-| [NCT04059484](https://clinicaltrials.gov/study/NCT04059484) | Phase 2 | Terminé | 367 | Amcenestrant vs monothérapie endocrinienne (dont Fulvestrant) dans le cancer du sein avancé ER+/HER2− (AMEERA-3) |
-| [NCT01797120](https://clinicaltrials.gov/study/NCT01797120) | Phase 2 | Terminé | 131 | Fulvestrant + Everolimus vs Fulvestrant + placebo dans le cancer du sein HR+ résistant aux inhibiteurs de l'aromatase |
-| [NCT05075512](https://clinicaltrials.gov/study/NCT05075512) | Phase 2 | Recrutement | 40 | Anlotinib + Fulvestrant dans le cancer du sein HR+/HER2− avec résistance endocrinienne secondaire |
-| [NCT04936295](https://clinicaltrials.gov/study/NCT04936295) | Phase 2 | Inconnu | 61 | Fulvestrant + Anlotinib dans le cancer du sein métastatique HR+/HER2− avec mutation FGFR |
-| [NCT03238196](https://clinicaltrials.gov/study/NCT03238196) | Phase 1 | Terminé | 35 | Fulvestrant + Palbociclib + Erdafitinib dans le cancer du sein métastatique ER+/HER2−/FGFR-amplifié |
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associant directement Fulvestrant à la Néoplasie Endocrinienne Multiple n'est disponible actuellement.
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Cohorte / analyse multi-omique (HTLV-1, pas VIH) | Research Square | Analyse de biologie des systèmes de la myélopathie associée à HTLV-1 (HAM), qui identifie des mécanismes de la maladie et des cibles thérapeutiques. Cette étude ne concerne ni le VIH ni le fulvestrant. |
 
----
+## Informations de Marché en France
 
-## Informations de Marché à Taiwan
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 60446306 | FULVESTRANT EG 250 mg, solution injectable en seringue préremplie | Solution injectable | EG LABO - Laboratoires Eurogenerics |
+| 66475706 | FULVESTRANT ARROW 250 mg, solution injectable en seringue pré-remplie | Solution injectable | Eugia Pharma (Malta) (Malte) |
+| 69289895 | FULVESTRANT MYLAN 250 mg, solution injectable en seringue préremplie | Solution injectable | Mylan Pharmaceuticals (Irlande) |
+| 63545028 | FASLODEX 250 mg, solution injectable | Solution injectable | AstraZeneca AB |
+| 62062457 | FULVESTRANT SANDOZ 250 mg, solution injectable en seringue pré-remplie | Solution injectable | Sandoz |
 
-Fulvestrant n'est pas commercialisé à Taiwan. Aucune AMM TFDA n'est enregistrée (0 licence).
-
-À titre de référence internationale, Fulvestrant est commercialisé sous le nom **Faslodex® 250 mg/5 mL solution injectable** (AstraZeneca) dans l'Union Européenne, aux États-Unis, au Japon et dans de nombreux autres pays, pour le traitement du cancer du sein localement avancé ou métastatique à récepteurs hormonaux positifs, en monothérapie ou en association (CDK4/6i, PI3Ki, etc.).
-
----
-
-## Cytotoxicité
-
-Fulvestrant est un médicament anticancéreux utilisé dans le traitement du cancer du sein hormonodépendant.
-
-| Élément | Contenu |
-|------|------|
-| Classification de Cytotoxicité | Thérapie hormonale ciblée — SERD (antagoniste pur des récepteurs aux estrogènes / dégradeur sélectif) |
-| Risque de Myélosuppression | Faible (Fulvestrant en monothérapie ne provoque pas de myélosuppression cliniquement significative) |
-| Classification d'Émétogénicité | Minimale à faible |
-| Éléments de Surveillance | Fonction hépatique (ALAT/ASAT), bilan osseux (densitométrie DEXA en cas de traitement prolongé), surveillance des signes de thromboembolie veineuse |
-| Protection de Manipulation | Administration par voie intramusculaire uniquement (2 × 5 mL, une injection dans chaque fesse) ; précautions standard pour médicaments injectables antinéoplasiques |
-
----
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Le dossier compte 10 AMM au total, dont les 5 principales sont listées ici.
 
 ## Considérations de Sécurité
 
-Les données de sécurité spécifiques TFDA ne sont pas disponibles dans ce dossier (lacune DG001 : notice TFDA non récupérée). Veuillez consulter la notice EMA/FDA pour les informations de sécurité complètes.
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Parmi les 10 nouvelles indications prédites par TxGNN pour Fulvestrant, aucune ne dispose de preuves cliniques directes justifiant un développement immédiat. Les prédictions #1 (infection VIH), #3 (infection SIV), #4 (syndrome d'immunodéficience féline), #5 (trouble neurodéveloppemental), #8 (brachydactylie-syndactylie), #9 (hémoglobinopathie) et #10 (syndrome de microphtalmie) sont identifiées comme des artefacts de topologie du graphe de connaissances, sans aucun fondement mécanistique. La MEN (prédiction #2) présente la base biologique la plus plausible via l'expression potentielle des ER dans les tumeurs MEN1, mais reste une pure hypothèse de recherche faute de données cliniques directes. La polyarthrite rhumatoïde (#6) est déconseillée car le blocage conjoint de ER-α et ER-β par Fulvestrant risque d'aggraver l'inflammation en supprimant l'effet protecteur de ER-β.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et la seule publication concerne HTLV-1 et non le VIH. Aucun mécanisme plausible ne relie l'antagonisme du récepteur des œstrogènes au VIH.
+- Les données de sécurité de la notice ANSM sont absentes. Cette lacune bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Confirmation de l'expression des récepteurs aux estrogènes (ER-α / ER-β) dans les tissus tumoraux MEN1 (adénomes hypophysaires, pNETs) par immunohistochimie ou données transcriptomiques
-- Récupération des données MOA complètes depuis DrugBank (lacune DG002)
-- Récupération des données de sécurité TFDA depuis le PDF de la notice officielle (lacune DG001 — statut bloquant)
-- Développement de modèles précliniques sur lignées cellulaires MEN1 ER+ avant d'envisager tout essai pilote
-- Vérification de la faisabilité d'enregistrement à Taiwan (TFDA) si un développement clinique dans cette région est envisagé
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
+- Obtenir les données de mécanisme d'action (MOA) via DrugBank.
+- Renseigner l'indication d'origine à partir des textes d'AMM ou du RCP.
+- Rechercher des données précliniques ou cliniques spécifiques au VIH et au fulvestrant. Sans elles, cette piste ne devrait pas progresser.
+- Pour information, parmi les autres prédictions, seule la polyarthrite rhumatoïde (L4, statut « Research Question ») repose sur des données précliniques via la signalisation des œstrogènes. Son sens d'effet reste ambigu et aucun essai avec le fulvestrant n'est fourni.
+
+*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

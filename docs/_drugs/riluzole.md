@@ -2,7 +2,7 @@
 layout: default
 title: Riluzole
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 260
+nav_order: 264
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,29 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Riluzole : De la Sclérose Latérale Amyotrophique à la Polymicrogyrie Pariéto-Occipitale Parasagittale Bilatérale
+# Riluzole : De la sclérose latérale amyotrophique à la polymicrogyrie parieto-occipitale parasagittale bilatérale
 
 ## Résumé en Une Phrase
 
-Riluzole est un neuroprotecteur historiquement approuvé pour la sclérose latérale amyotrophique (SLA), via inhibition de la libération de glutamate et blocage des canaux sodiques voltage-dépendants.
-Le modèle TxGNN prédit ici, avec le score le plus élevé du lot (rang 1), une efficacité potentielle dans la **polymicrogyrie pariéto-occipitale parasagittale bilatérale**,
-mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction — le dossier de preuves associé qualifie lui-même ce signal de possible bruit du modèle.
+Le riluzole est un médicament connu dans la sclérose latérale amyotrophique (SLA), comme le rappelle la littérature fournie. Les textes d'indication des AMM françaises ne sont pas renseignés dans les données. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polymicrogyrie parieto-occipitale parasagittale bilatérale**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Sclérose latérale amyotrophique (SLA) |
-| Nouvelle Indication Prédite | Polymicrogyrie pariéto-occipitale parasagittale bilatérale |
-| Score de Prédiction TxGNN | 99.99% |
+| Indication Originale | Sclérose latérale amyotrophique (d'après la littérature fournie ; non renseignée dans les AMM) |
+| Nouvelle Indication Prédite | Polymicrogyrie parieto-occipitale parasagittale bilatérale |
+| Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 10 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action (MOA) de riluzole ne sont pas disponibles dans ce dossier. D'après les informations connues par ailleurs, riluzole agit comme inhibiteur de la libération de glutamate et bloqueur des canaux sodiques voltage-dépendants, réduisant l'excitotoxicité des motoneurones — c'est ce mécanisme qui sous-tend son indication d'origine, la SLA.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le riluzole agit en modulant la transmission du glutamate et en bloquant les canaux sodiques. Son efficacité modeste dans la SLA, où il prolonge la survie de quelques mois, est décrite dans plusieurs revues de la littérature fournie.
 
-La polymicrogyrie pariéto-occipitale parasagittale bilatérale est une malformation congénitale du développement cortical. Il n'existe aucun lien physiopathologique établi entre ce type de trouble et l'excitotoxicité glutamatergique ou la dégénérescence des motoneurones ciblée par riluzole.
-
-Le rationnel de repositionnement fourni avec cette prédiction le confirme explicitement : « aucune preuve clinique ou littéraire, forte suspicion d'un artefact de l'espace d'embedding du modèle TxGNN ». Cette prédiction doit donc être considérée comme exploratoire, sans base mécanistique ni évidentielle actionnable en l'état.
+**La prédiction n'est pas étayée par un lien mécanistique crédible.** La polymicrogyrie parieto-occipitale parasagittale bilatérale est une malformation corticale d'origine neurodéveloppementale. Les effets du riluzole sur le glutamate et les canaux sodiques ne ciblent pas la cause de cette malformation. Le score TxGNN élevé reste une prédiction du modèle et ne remplace pas une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -64,6 +60,18 @@ Aucun essai clinique associé enregistré actuellement.
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
+
+## Informations de Marché en France
+
+Les textes d'indication approuvée ne sont pas renseignés pour ces AMM. Sur les 10 AMM recensées, les 5 premières sont listées.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 69481874 | EMYLIF 50 mg (Zambon) | Film orodispersible |
+| 68413596 | TEGLUTIK 5 mg/ml (Italfarmaco) | Suspension buvable |
+| 63943758 | RILUZOLE EG 50 mg (EG Labo) | Comprimé pelliculé |
+| 66292199 | RILUTEK 50 mg (Sanofi Winthrop Industrie) | Comprimé pelliculé |
+| 69597074 | RILUZOLE BIOGARAN 50 mg (Biogaran) | Comprimé pelliculé |
 
 ## Considérations de Sécurité
 
@@ -74,14 +82,17 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-Le score TxGNN élevé n'est appuyé par aucun essai clinique, aucune publication et aucun mécanisme physiopathologique plausible ; le rationnel associé signale lui-même une forte probabilité de bruit du modèle plutôt qu'un signal pharmacologique réel.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique crédible n'a été identifié avec cette malformation corticale.
+- Les données de sécurité de la notice ANSM manquent, ce qui empêche de passer à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données précliniques ou études de mécanisme reliant riluzole à la polymicrogyrie pariéto-occipitale parasagittale bilatérale, avant toute exploration clinique
-- Mises en garde/contre-indications TFDA (actuellement en gap bloquant, DG001) et données MOA structurées (DG002)
-- Statut réglementaire à jour, le médicament étant actuellement non commercialisé (0 AMM)
+- Récupérer les mises en garde et contre-indications de la notice ANSM.
+- Compléter les données sur le mécanisme d'action (DrugBank).
+- Compléter les indications approuvées de chaque AMM.
+- Réévaluer les autres indications prédites, notamment les affections proches de la SLA (syndrome du motoneurone inférieur d'apparition tardive, syndrome de Mills, SLA de type 22). Leur lien mécanistique est plausible par analogie, mais sans essai ni publication spécifique.
+- Ajouter les essais pivots de phase 3 dans la SLA au dossier pour réévaluer le niveau de preuve de l'indication « SLA, susceptibilité à » (actuellement L4).
 
-**Remarque :** dans ce même Evidence Pack, deux autres candidats affichent un niveau de preuve nettement supérieur — l'indication d'origine SLA (rang 8, L1, 2 ECR de Phase 3 historiques) et le sous-type génétique SLA type 22 (rang 10, L3) — et mériteraient une évaluation séparée s'ils ne sont pas déjà couverts par ailleurs.
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

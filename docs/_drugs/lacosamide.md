@@ -2,7 +2,7 @@
 layout: default
 title: Lacosamide
 parent: Preuves modérées (L3-L4)
-nav_order: 162
+nav_order: 165
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,73 +29,103 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Lacosamide : Des Crises Épileptiques Partielles au Trouble Affectif Bipolaire Maniaque
+# Lacosamide : De l'épilepsie au trouble bipolaire maniaque
 
 ## Résumé en Une Phrase
 
-Lacosamide est un antiépileptique de troisième génération (Vimpat®), initialement utilisé pour traiter les crises épileptiques partielles (focales).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Trouble Affectif Bipolaire Maniaque**,
-avec **1 essai clinique** (Phase 3, en cours) et **11 publications** soutenant actuellement cette direction, le niveau de preuve restant préliminaire (L3).
+Le lacosamide est un antiépileptique commercialisé en France (par exemple sous le nom Vimpat), utilisé à l'origine dans l'épilepsie focale.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble bipolaire de type maniaque**,
+avec **1 essai clinique** et **13 publications** associés. Ces données portent surtout sur la dépression bipolaire, pas sur la manie aiguë.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Crises épileptiques partielles (épilepsie focale) |
-| Nouvelle Indication Prédite | Trouble Affectif Bipolaire Maniaque |
-| Score de Prédiction TxGNN | 99.96% |
+| Indication Originale | Non renseignée dans les données ANSM (antiépileptique ; épilepsie focale d'après la littérature) |
+| Nouvelle Indication Prédite | Trouble bipolaire de type maniaque (manic bipolar affective disorder) |
+| Score de Prédiction TxGNN | 99,96 % (rang 615) |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
+| Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données officielles sur le mécanisme d'action (MOA) de la lacosamide ne sont pas disponibles dans notre base (lacune signalée, priorité haute). Sur la base des informations disponibles dans la littérature associée à cette prédiction, la lacosamide est un antiépileptique de troisième génération qui agit en favorisant sélectivement l'inactivation lente des canaux sodiques voltage-dépendants (Nav), un mécanisme distinct des antiépileptiques classiques qui bloquent l'inactivation rapide. Elle est commercialisée sous le nom de Vimpat® pour le traitement des crises épileptiques partielles (focales) chez l'adulte.
+Les données détaillées de DrugBank sur le mécanisme d'action ne sont pas disponibles. D'après la littérature, le lacosamide renforce l'inactivation lente des canaux sodiques voltage-dépendants et module la protéine CRMP2. Il stabilise ainsi les membranes neuronales et réduit l'hyperexcitabilité.
 
-Le lien entre épilepsie et trouble bipolaire est bien documenté sur le plan clinique : plusieurs antiépileptiques (lamotrigine, carbamazépine, valproate) sont déjà utilisés comme stabilisateurs de l'humeur, en exploitant leur action sur l'excitabilité neuronale. Des études observationnelles incluses dans ce dossier (PMID 30251375, PMID 28845834) rapportent une amélioration des symptômes dépressifs et maniaques chez des patients épileptiques traités par lacosamide, ce qui a motivé l'hypothèse d'un effet stabilisateur de l'humeur indépendant du simple contrôle des crises.
+Plusieurs antiépileptiques (lamotrigine, carbamazépine, valproate) sont déjà utilisés comme thymorégulateurs en psychiatrie. Ce recoupement mécanistique explique que le modèle rapproche le lacosamide du trouble bipolaire.
 
-Mécanistiquement, la stabilisation membranaire via les canaux Nav pourrait réduire l'hyperexcitabilité du système limbique impliquée dans les épisodes maniaques. Toutefois, contrairement aux stabilisateurs de l'humeur classiques, la lacosamide ne dispose pas de preuve directe d'action sur les systèmes GABAergique ou glutamatergique, ce qui rend le lien mécanistique modéré plutôt que fort.
+**Limite importante :** les preuves disponibles concernent la dépression bipolaire et la stabilisation de l'humeur, pas la manie aiguë. L'adéquation avec le phénotype « maniaque » prédit n'est donc que partielle.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Phase 3 | Recrutement en cours | 40 | Étude randomisée en double aveugle évaluant la lacosamide en add-on dans les épisodes dépressifs majeurs du trouble bipolaire de type I et II ; conception directement pertinente mais aucun résultat disponible à ce jour (achèvement prévu 2027-01) |
+| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Phase 3 | En recrutement | 40 | Lacosamide en traitement d'appoint dans les épisodes dépressifs majeurs modérés à sévères des troubles bipolaires I et II (essai randomisé, contrôlé, en double aveugle). Aucun résultat publié. Il cible la dépression bipolaire, pas la manie. |
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Cohorte (contrôle rétrospectif) | Psychiatry Clin Neurosci | Évaluation sur 30 jours de la lacosamide chez des patients bipolaires sans épilepsie, comparée à un groupe contrôle rétrospectif traité par d'autres antiépileptiques |
-| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Essai pilote ouvert | J Clin Psychopharmacol | Essai pilote ouvert de 12 semaines évaluant l'efficacité et la sécurité de la lacosamide dans la dépression bipolaire |
-| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Cas clinique | Acta Biomed | Stabilisation clinique de l'humeur sous lacosamide chez un patient avec trouble de l'humeur comorbide à un TSPT et une épilepsie fronto-temporale |
-| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Cas clinique | Indian J Psychol Med | Neutropénie précipitée par la lacosamide chez un patient bipolaire avec épilepsie comorbide — signal de sécurité à surveiller |
-| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Cas clinique | Cureus | Prise en charge complexe d'une patiente bipolaire enceinte avec comorbidités multiples incluant épilepsie/crises non épileptiques psychogènes |
-| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Revue | Ther Drug Monit | Mise à jour 2018 sur le suivi thérapeutique des antiépileptiques, incluant leur usage élargi dans le trouble bipolaire |
-| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Revue | ACS Chem Neurosci | Revue sur la « druggabilité » de CRMP2, cible moléculaire impliquée dans l'action de la lacosamide |
-| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | Étude structurale | PNAS | Structures cryo-EM démontrant l'inhibition à double poche des canaux Nav par la lamotrigine, éclairant la pharmacologie de classe |
-| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | Revue | Adv Drug Deliv Rev | Propriétés chimiques des antiépileptiques approuvés entre 1990 et 2011, incluant la lacosamide |
-| [16732716](https://pubmed.ncbi.nlm.nih.gov/16732716/) | 2006 | Revue | Expert Opin Investig Drugs | Revue des antiépileptiques de seconde génération et de leurs avantages pharmacocinétiques |
+| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Essai pilote ouvert (12 semaines) | J Clin Psychopharmacol | Efficacité et sécurité du lacosamide dans la dépression bipolaire. Les résultats chiffrés ne figurent pas dans les données fournies. |
+| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Cohorte | Psychiatry Clin Neurosci | Comparaison à 30 jours avec un groupe témoin rétrospectif sous d'autres antiépileptiques, chez des patients bipolaires sans épilepsie. Résultats chiffrés non fournis. |
+| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | Étude prospective multicentrique | Epilepsy Behav | Effet du lacosamide sur les symptômes dépressifs et anxieux chez des patients atteints d'épilepsie focale réfractaire. Population épileptique, pas bipolaire. |
+| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Revue | ACS Chem Neurosci | Rôle de CRMP2 (cible du lacosamide) dans le trafic des canaux ioniques et les maladies neurodégénératives. Soutien mécanistique indirect. |
+| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Rapport de cas (événement indésirable) | Indian J Psychol Med | Neutropénie déclenchée par le lacosamide chez un patient bipolaire avec épilepsie associée. Signal de sécurité. |
+| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Rapport de cas | Acta Biomed | Stabilisation clinique par le lacosamide d'un trouble de l'humeur associé à un TSPT et à une épilepsie fronto-temporale. |
+| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Rapport de cas | Cureus | Patiente enceinte atteinte de trouble bipolaire I avec plusieurs comorbidités (épilepsie, troubles liés à l'usage de substances). Pertinence limitée pour l'efficacité. |
+| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Revue | Ther Drug Monit | Suivi thérapeutique des antiépileptiques, dont certains servent aussi dans le trouble bipolaire. Pertinence indirecte. |
+
+---
+
+## Informations de Marché en France
+
+Sur les 20 AMM, les 5 principales sont présentées ci-dessous. Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM ; cette colonne est donc omise.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 60137021 | LACOSAMIDE ACCORD 10 mg/mL | Solution pour perfusion | ACCORD HEALTHCARE (Espagne) |
+| 60788509 | LACOSAMIDE ACCORD 50 mg | Comprimé pelliculé | ACCORD HEALTHCARE (Espagne) |
+| 60575525 | LACOSAMIDE EG 100 mg | Comprimé pelliculé | EG LABO - Laboratoires Eurogenerics |
+| 62229123 | VIMPAT 150 mg | Comprimé pelliculé | UCB PHARMA BELGIQUE |
+| 61150979 | LACOSAMIDE ZENTIVA 100 mg | Comprimé pelliculé | ZENTIVA FRANCE |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité (aucune donnée officielle de mises en garde, contre-indications ou interactions médicamenteuses n'est disponible dans ce dossier). À noter toutefois qu'un cas de neutropénie sous lacosamide chez un patient bipolaire a été rapporté dans la littérature (PMID 30275630) et mérite une attention particulière en pharmacovigilance.
+- **Signal issu de la littérature :** un cas de neutropénie induite par le lacosamide a été rapporté chez un patient bipolaire avec épilepsie (PMID 30275630). Une surveillance hématologique est à prévoir.
+- **Interactions médicamenteuses :** aucune interaction n'a été retrouvée dans la base interrogée.
+
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles. Elles ne sont pas disponibles dans les données actuelles.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve (L3) repose sur une cohorte rétrospective et un essai pilote ouvert prometteurs mais non confirmatoires ; le seul essai de Phase 3 pertinent (NCT07412132) est en cours de recrutement et n'a pas encore de résultats.
-- Les données réglementaires et de sécurité (notice TFDA, MOA officiel) sont totalement absentes, ce qui empêche toute évaluation de sécurité initiale.
+- Les preuves pour la manie sont indirectes : une étude de cohorte, un essai pilote ouvert et des rapports de cas, dont un signal de neutropénie. Le seul essai de Phase 3 (40 patients, en recrutement, sans résultats) cible la dépression bipolaire.
+- Les mises en garde et contre-indications de la notice ANSM ne sont pas disponibles. Cette lacune bloquante empêche le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice / résumé des caractéristiques du produit (lacune bloquante)
-- Compléter les données MOA officielles via DrugBank
-- Attendre les résultats de l'essai NCT07412132 (achèvement prévu 2027-01)
-- Intégrer le signal de neutropénie rapporté (PMID 30275630) dans un plan de surveillance hématologique
-- Évaluer la faisabilité réglementaire, le médicament n'étant actuellement pas commercialisé en France (0 AMM)
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications) pour lever la lacune bloquante de sécurité.
+- Obtenir les données de mécanisme d'action de DrugBank.
+- Attendre les résultats de NCT07412132 et rechercher des données spécifiques à la manie aiguë.
+- Évaluer un suivi hématologique dans tout protocole, à cause du signal de neutropénie.
+
+**Remarque :** parmi les autres indications prédites, la **migraine** (rang 5) est nettement mieux étayée, avec un niveau de preuve L1. Elle repose sur plusieurs essais de Phase 2 et 3, dont un essai terminé comparant le lacosamide au propranolol, publié en 2026 (PMID 41863672). Ces essais semblent provenir d'un même groupe de recherche et nécessitent une réplication indépendante. Une évaluation dédiée est recommandée.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

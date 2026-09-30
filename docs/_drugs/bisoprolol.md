@@ -2,7 +2,7 @@
 layout: default
 title: Bisoprolol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 57
+nav_order: 59
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,33 +29,42 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Bisoprolol : De l'Hypertension Artérielle à l'Hypertension Rénovasculaire Maligne
+# Bisoprolol : Du Bêtabloquant Antihypertenseur à l'Hypertension Rénovasculaire Maligne
 
 ## Résumé en Une Phrase
 
-Bisoprolol est un bêta-bloquant cardiosélectif (β1) largement utilisé dans la prise en charge de l'hypertension artérielle et de l'insuffisance cardiaque.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hypertension Rénovasculaire Maligne**,
-avec **0 essai clinique** et **0 publication** soutenant actuellement cette direction spécifique.
+Bisoprolol est un bêtabloquant bêta-1 sélectif, connu pour son effet antihypertenseur.
+Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypertension rénovasculaire maligne**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non disponible — aucune AMM référencée dans ce pack |
+|------|------|
+| Indication Originale | Non renseignée dans les données d'AMM fournies |
 | Nouvelle Indication Prédite | Hypertension rénovasculaire maligne |
-| Score de Prédiction TxGNN | 99,94 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Score de Prédiction TxGNN | 99.94% |
+| Niveau de Preuve | L5 (aucune étude réelle ; le pack d'évidence indique L4 sur la base d'un raisonnement pharmacologique indirect) |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 12 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action (MOA) de bisoprolol ne sont pas disponibles dans ce pack. Sur la base des informations connues, bisoprolol appartient à la classe des bêta-bloquants hautement sélectifs pour les récepteurs β1-adrénergiques. En bloquant ces récepteurs sur les cellules juxtaglomérulaires du rein, il inhibe la sécrétion de rénine, réduisant théoriquement l'activation du système rénine-angiotensine-aldostérone (SRAA) — mécanisme central dans la physiopathologie de l'hypertension rénovasculaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le bisoprolol est un bêtabloquant bêta-1 sélectif dont l'effet antihypertenseur est établi. Mécanistiquement, il pourrait être applicable à l'hypertension rénovasculaire.
 
-L'hypertension rénovasculaire maligne résulte généralement d'une sténose de l'artère rénale entraînant une hypersécrétion de rénine et une élévation sévère de la pression artérielle avec atteinte des organes cibles. Ce lien mécanistique entre inhibition de la rénine par bisoprolol et réduction de la pression artérielle représente la base plausible de la prédiction TxGNN.
+Le lien proposé est indirect. Le blocage bêta réduit la libération de rénine, or l'activation du système rénine-angiotensine est centrale dans l'hypertension rénovasculaire. Il s'agit d'un raisonnement pharmacologique général, et non d'une preuve propre à cette maladie.
 
-Cependant, la pertinence clinique demeure limitée. Le traitement de référence de l'hypertension rénovasculaire maligne est le recours aux inhibiteurs de l'enzyme de conversion (IEC) en cas de sténose unilatérale, ou la revascularisation interventionnelle, avec antihypertenseur intraveineux en phase aiguë. Le bisoprolol oral n'est pas positionné comme option de première intention dans ce contexte. En présence d'une sténose bilatérale des artères rénales, son utilisation peut de surcroît aggraver la fonction rénale, ce qui constitue un facteur de risque supplémentaire à ne pas négliger.
+Il faut aussi rester prudent. L'hypertension maligne est une urgence hypertensive, habituellement prise en charge par voie parentérale. L'adéquation d'un bêtabloquant oral n'est donc pas établie. La similarité avec l'indication d'origine et la compatibilité des voies d'administration restent à évaluer.
+
+Le modèle prédit aussi l'*atteinte rénale hypertensive maligne* avec un score identique (99.94%). Cela suggère que les deux entrées partagent un même voisinage dans le graphe et ne constituent pas deux signaux indépendants.
+
+Trois autres prédictions sont classées Hold (niveau L5, sans essai clinique) :
+- hypertension pulmonaire d'origine multifactorielle peu claire ;
+- hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie ;
+- syndrome de Braddock.
+
+La littérature récupérée pour l'hypertension pulmonaire liée à l'hypoxie porte sur la biologie de l'hypoxie en général (cerveau, cancer, sclérose en plaques, altitude) et ne mentionne jamais le bisoprolol. Ce comptage est un artefact de recherche, et non un signal.
 
 ## Preuves d'Essais Cliniques
 
@@ -64,6 +73,16 @@ Aucun essai clinique associé enregistré actuellement.
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69455705 | BISOPROLOL BGR 7,5 mg (BIOGARAN) | Comprimé pelliculé sécable | Non renseignée dans la source |
+| 65591063 | BISOPROLOL KRKA 5 mg (KRKA) | Comprimé pelliculé sécable | Non renseignée dans la source |
+| 62969789 | BISOPROLOL TEVA 5 mg (TEVA SANTE) | Comprimé pelliculé | Non renseignée dans la source |
+| 63162282 | CARDENSIEL 1,25 mg (MERCK SANTE) | Comprimé pelliculé | Non renseignée dans la source |
+| 60524826 | BISOPROLOL TEVA 10 mg (TEVA SANTE) | Comprimé pelliculé | Non renseignée dans la source |
 
 ## Considérations de Sécurité
 
@@ -74,14 +93,16 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-Malgré un score TxGNN élevé (99,94 %), la prédiction repose exclusivement sur le modèle (niveau L5), sans aucun essai clinique ni publication à l'appui pour cette indication. Le bisoprolol n'est pas commercialisé en France selon les données disponibles, les informations de sécurité sont absentes de ce pack, et la pertinence clinique du bisoprolol oral dans un contexte d'urgence hypertensive d'origine rénovasculaire reste incertaine voire risquée en cas de sténose bilatérale.
+- Aucun essai clinique ni publication ne soutient la paire médicament-maladie. Le seul appui est un score TxGNN élevé et un raisonnement pharmacologique indirect.
+- Les données de sécurité et de mécanisme d'action sont absentes, et l'adéquation d'une forme orale à une urgence hypertensive n'est pas démontrée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (MOA) via DrugBank API
-- Informations de sécurité complètes : mises en garde, contre-indications et interactions médicamenteuses issues de la notice officielle (ANSM)
-- Évaluation explicite du risque rénal en cas de sténose bilatérale des artères rénales
-- Recherche bibliographique ciblée sur le rôle des bêta-bloquants dans la gestion de l'hypertension rénovasculaire maligne
-- Vérification du statut réglementaire réel en France (bisoprolol générique étant commercialisé dans plusieurs pays européens, une clarification des données AMM s'impose)
+- Récupérer les mises en garde et contre-indications de la notice ANSM (bloquant pour le criblage de sécurité).
+- Obtenir les données de mécanisme d'action depuis DrugBank.
+- Lancer une recherche bibliographique ciblée « bisoprolol » + hypertension rénovasculaire / néphropathie hypertensive maligne.
+- Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

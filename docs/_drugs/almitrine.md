@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Almitrine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 26
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 27
+evidence_level: L3
 indication_count: 1
 ---
 
 # Almitrine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **1** 
+Niveau de preuve: **L3** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,77 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-Now I have the research needed. Here is the full report:
-
----
-
-# Almitrine : Stimulant Respiratoire — Aucune Nouvelle Indication Prédite
+# Almitrine : Vers la Bronchite (indication originale non renseignée dans les données ANSM)
 
 ## Résumé en Une Phrase
 
-Almitrine (bismésilate) est un agoniste périphérique des chémorécepteurs carotidiens, historiquement utilisé pour améliorer l'oxygénation artérielle dans l'insuffisance respiratoire chronique liée à la BPCO. Le modèle TxGNN **n'a identifié aucune nouvelle indication candidate** pour ce médicament. De plus, Almitrine n'est **pas commercialisé en France** (0 AMM), ce qui limite considérablement les possibilités de repositionnement dans ce territoire.
-
----
+L'almitrine est un stimulant respiratoire commercialisé en France sous forme injectable (Vectarion, Servier). Son indication d'origine n'est pas renseignée dans les données disponibles.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **bronchite** (score de 99,18 %), avec **0 essai clinique enregistré** et **20 publications**, toutes datées de 1982 à 1992.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Insuffisance respiratoire chronique liée à la BPCO (hypoxémie chronique) |
-| Nouvelle Indication Prédite | **Aucune** — le modèle TxGNN n'a retourné aucune prédiction |
-| Score de Prédiction TxGNN | N/A |
-| Niveau de Preuve | **L5** — Aucune étude associée à une nouvelle indication |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+| Indication Originale | Non renseignée (texte d'indication ANSM vide) |
+| Nouvelle Indication Prédite | Bronchite |
+| Score de Prédiction TxGNN | 99,18 % |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Aucune Prédiction n'a Été Générée ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. Sur la base de la littérature publiée, l'almitrine agit sur les chémorécepteurs périphériques (corps carotidien et aortique) et renforce la vasoconstriction pulmonaire hypoxique. Dans la bronchite chronique avec hypoxémie, cela peut améliorer l'appariement ventilation/perfusion et donc l'oxygénation du sang artériel.
 
-Almitrine est un **agoniste des chémorécepteurs périphériques** (corps carotidiens). Son mécanisme d'action est hautement spécialisé : il augmente la sensibilité des chémorécepteurs à l'hypoxie et à l'hypercapnie, stimulant ainsi la ventilation alvéolaire et améliorant le rapport ventilation/perfusion (V/Q) par potentialisation de la vasoconstriction pulmonaire hypoxique. Ce mécanisme très ciblé sur la physiologie respiratoire réduit naturellement le champ des indications transposables identifiées par les algorithmes de prédiction sur graphe de connaissances.
+Les études retrouvées vont dans ce sens. Elles rapportent une meilleure oxygénation à l'éveil et pendant le sommeil, un effet sur l'hypoxémie nocturne et des modifications de la répartition régionale de la ventilation et de la perfusion. Les effets hémodynamiques pulmonaires (pression artérielle pulmonaire, fonction du cœur droit) ont aussi été étudiés, avec des résultats mitigés.
 
-Par ailleurs, Almitrine présente un profil de sécurité contraignant, avec un risque bien documenté de **neuropathie périphérique** dose-dépendante, qui a conduit au retrait progressif du marché dans plusieurs pays (dont la France, où la combinaison Duxil a été retirée vers 2011-2013 par décision de l'ANSM en raison d'un rapport bénéfice/risque défavorable). Ce contexte réglementaire défavorable contribue également à l'absence de signaux de repositionnement.
-
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas renseignées dans l'Evidence Pack (Data Gap identifié). Néanmoins, sur la base des connaissances publiées, Almitrine appartient à la classe des stimulants respiratoires (code ATC : R07AB07, dérivé de pipérazine-triazine) développé par Servier sous le nom de marque **Vectarion**.
-
----
+Le score TxGNN est une prédiction du modèle et n'apporte aucune preuve clinique. La plausibilité repose donc uniquement sur la physiologie décrite dans ces publications anciennes. Comme l'indication d'origine n'est pas documentée, on ne peut pas dire si la bronchite est réellement une « nouvelle » indication ou si elle recoupe l'usage déjà autorisé.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé à une nouvelle indication n'est enregistré actuellement.
-
-> **Note :** Un regain d'intérêt transitoire pour Almitrine a été observé pendant la pandémie de COVID-19 (2020-2021) pour son potentiel à améliorer le mismatch V/Q dans le SDRA lié au COVID-19, mais cela n'a pas abouti à de nouvelles approbations.
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée à une nouvelle indication n'est disponible actuellement.
-
----
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [4026044](https://pubmed.ncbi.nlm.nih.gov/4026044/) | 1985 | ECR croisé, double aveugle | Am Rev Respir Dis | Almitrine 50 mg deux fois par jour pendant 14 jours : meilleure oxygénation à l'éveil et pendant le sommeil chez des patients hypoxiques et hypercapniques (bronchite chronique et emphysème) |
+| [6373343](https://pubmed.ncbi.nlm.nih.gov/6373343/) | 1983 | ECR multicentrique, double aveugle | Eur J Respir Dis Suppl | Traitement au long cours par almitrine contre placebo dans la bronchite chronique et l'emphysème (résumé non disponible) |
+| [3096764](https://pubmed.ncbi.nlm.nih.gov/3096764/) | 1986 | ECR, double aveugle | Eur J Respir Dis Suppl | Effets sur les désaturations nocturnes chez des patients atteints de bronchite chronique et d'obésité (10 patients) |
+| [6704563](https://pubmed.ncbi.nlm.nih.gov/6704563/) | 1984 | ECR croisé, double aveugle | Bull Eur Physiopathol Respir | Almitrine orale 3 mg/kg chez 6 patients ayant une obstruction bronchique sévère : effets sur la répartition régionale de la ventilation et de la perfusion |
+| [2548299](https://pubmed.ncbi.nlm.nih.gov/2548299/) | 1989 | ECR, double aveugle | Thorax | Fonction des nerfs périphériques chez 12 patients atteints de bronchite chronique sous almitrine ou placebo (évaluation de la sécurité neurologique) |
+| [3752712](https://pubmed.ncbi.nlm.nih.gov/3752712/) | 1986 | Étude clinique physiologique comparative | Am Rev Respir Dis | Almitrine comparée à l'oxygène : gaz du sang, pression artérielle pulmonaire et fraction d'éjection du ventricule droit dans la bronchite chronique hypoxique |
+| [3690032](https://pubmed.ncbi.nlm.nih.gov/3690032/) | 1987 | Étude clinique, dose unique contre placebo | Bull Eur Physiopathol Respir | 200 mg d'almitrine : hausse significative de la PaO2 dans la BPCO, effet limite dans l'asthme, aucun effet dans la fibrose pulmonaire |
+| [1341206](https://pubmed.ncbi.nlm.nih.gov/1341206/) | 1992 | Étude clinique | Eur J Med | Effets aigus et chroniques de l'almitrine à faible dose chez des patients hypoxémiques stables |
+| [2870549](https://pubmed.ncbi.nlm.nih.gov/2870549/) | 1985 | Étude clinique de suivi à 1 an | Rev Mal Respir | Almitrine 100 mg/jour : PaO2 en hausse de 5,5 mmHg à 6 mois et de 6,0 mmHg à 12 mois, avec baisse de la PaCO2 |
+| [6152773](https://pubmed.ncbi.nlm.nih.gov/6152773/) | 1982 | Étude hémodynamique clinique | Bull Eur Physiopathol Respir | Perfusion intraveineuse d'almitrine (Vectarion) 0,5 mg/kg pendant 1 h chez 14 patients atteints de bronchite chronique : effets sur la ventilation, les gaz du sang et l'hémodynamique pulmonaire |
 
 ## Informations de Marché en France
 
-Almitrine n'est **pas commercialisé en France**. Aucune Autorisation de Mise sur le Marché (AMM) active n'a été identifiée.
-
-| Élément | Détail |
-|------|------|
-| Statut | Non commercialisé (0 AMM) |
-| Historique | Le produit combiné Duxil (almitrine + raubasine) a été retiré du marché français vers 2011-2013 suite à une réévaluation défavorable du rapport bénéfice/risque par l'ANSM |
-| Motif de retrait | Neuropathie périphérique dose-dépendante, profil de sécurité défavorable |
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 60047143 | VECTARION INJECTABLE (Laboratoires Servier) | Lyophilisat et solution pour préparation injectable | Non renseignée |
 
 ## Considérations de Sécurité
 
-> Les données de sécurité ne sont pas renseignées dans l'Evidence Pack actuel (Data Gap — Sévérité : Blocking).
-
-Néanmoins, sur la base de la littérature publiée, les éléments de sécurité connus sont les suivants :
-
-- **Mises en Garde Principales** :
-  - **Neuropathie périphérique** : effet indésirable majeur, dose-dépendant, survenant surtout à des posologies >100 mg/jour ou lors d'un usage prolongé. Généralement réversible à l'arrêt, mais peut être sévère.
-  - **Perte de poids** fréquente sous traitement.
-  - **Hypertension artérielle pulmonaire** possible lors d'un usage prolongé.
-  - Surveillance neurologique périodique recommandée (études de conduction nerveuse).
-  - Le traitement doit être intermittent (cycles de 2 mois avec 1 mois de pause) pour réduire le risque de neuropathie.
-
-- **Contre-indications** :
-  - Insuffisance hépatique sévère
-  - Neuropathie périphérique préexistante
-  - Hypersensibilité connue à l'almitrine ou à ses excipients
-  - Grossesse et allaitement
-
-- **Interactions Médicamenteuses** : Aucune interaction identifiée dans l'Evidence Pack (requête DDI : not_found).
-
----
-
-## Lacunes de Données Identifiées
-
-| ID | Catégorie | Élément Manquant | Sévérité | Impact |
-|----|-----------|------------------|----------|--------|
-| DG001 | Niveau Médicament | Mises en garde / Contre-indications officielles (notice) | **Blocking** | Impossible d'entrer en évaluation de sécurité S1 |
-| DG002 | Niveau Médicament | Mécanisme d'action (MOA) | Élevée | Affecte l'analyse de relation mécanistique |
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le modèle TxGNN n'a identifié aucune nouvelle indication candidate pour Almitrine. De plus, le médicament n'est pas commercialisé en France (0 AMM), a été retiré du marché français en raison d'un rapport bénéfice/risque défavorable (neuropathie périphérique), et présente des lacunes de données bloquantes (DG001). L'ensemble de ces facteurs ne justifie pas la poursuite de l'évaluation de repositionnement à ce stade.
+- Le niveau de preuve est L3 : aucun essai enregistré, et des études cliniques petites et anciennes (1982-1992), dont plusieurs contre placebo mais sans données récentes.
+- Les mises en garde et contre-indications de la notice ANSM manquent et bloquent l'étape de sécurité. L'AMM française est injectable, alors que la plupart des études portent sur la voie orale.
 
-**Pour reconsidérer cette décision, les éléments suivants seraient nécessaires :**
-- Résolution de la lacune DG001 : obtention et analyse de la notice officielle (mises en garde, contre-indications)
-- Résolution de la lacune DG002 : données MOA complètes via DrugBank API
-- Identification d'un signal de repositionnement par un modèle alternatif ou par la littérature émergente
-- Réévaluation du profil de sécurité dans le contexte d'une indication spécifique où le rapport bénéfice/risque pourrait être favorable
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions).
+- Documenter l'indication autorisée pour vérifier si la bronchite est réellement une nouvelle indication.
+- Compléter les données sur le mécanisme d'action (DrugBank).
+- Examiner le signal de sécurité neurologique (fonction des nerfs périphériques) dans l'étude de 1989.
+- Vérifier la compatibilité de la voie d'administration (injectable en France contre orale dans la majorité des études).
+- Rechercher des études plus récentes ou envisager une étude prospective.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Isoleucine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 157
+nav_order: 160
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,62 +29,74 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Isoleucine : D'un Acide Amine Essentiel (BCAA) a la Gastroparesie
+# Isoleucine : D'une Indication Originale Non Renseignée à la Gastroparésie
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Isoleucine est un acide amine essentiel a chaine ramifiee (BCAA) ; aucune indication therapeutique specifique ni mecanisme d'action detaille n'est actuellement enregistre pour cette molecule dans les sources consultees.
-Le modele TxGNN predit qu'elle pourrait presenter un interet pour la **Gastroparesie**, avec un score de **99.32%**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction — il s'agit a ce stade d'une prediction computationnelle isolee.
+L'isoleucine est un acide aminé ramifié, commercialisé en France dans des solutions pour perfusion (Aminoven, Aminoplasmal, Aminomix, etc.). Les données fournies ne précisent pas son indication originale.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **gastroparésie**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignee (acide amine essentiel, aucune indication therapeutique specifique enregistree dans les sources disponibles) |
-| Nouvelle Indication Predite | Gastroparesie |
-| Score de Prediction TxGNN | 99.32% |
+| Nouvelle Indication Prédite | Gastroparésie |
+| Score de Prédiction TxGNN | 99,32 % |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Non commercialise |
-| Nombre d'AMM | 0 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les donnees detaillees sur le mecanisme d'action de l'isoleucine ne sont pas disponibles. Sur la base des informations connues, l'isoleucine est un acide amine essentiel a chaine ramifiee (BCAA), impliquee physiologiquement dans la synthese proteique musculaire et divers processus metaboliques generaux, sans indication therapeutique specifique clairement etablie a ce jour dans les sources consultees.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'isoleucine fait partie des acides aminés ramifiés et entre dans la composition de solutions de nutrition parentérale. Aucune indication originale n'est renseignée, et il n'est pas possible d'établir un lien mécanistique validé avec la gastroparésie.
 
-L'hypothese avancee par le modele est que les BCAA pourraient, en theorie, stimuler la secretion d'incretines (comme le GLP-1), moduler la transmission vagale ou influencer la synthese des proteines musculaires lisses, mecanismes qui pourraient indirectement affecter la motilite gastro-intestinale et la vidange gastrique — un processus deficient dans la gastroparesie.
+Une hypothèse purement spéculative est possible. Les acides aminés jouent un rôle dans le soutien nutritionnel et métabolique, ce qui pourrait être pertinent face à la dénutrition et à la perte de poids observées dans la gastroparésie. Il s'agirait alors d'un soutien nutritionnel, et non d'une action prokinétique ou modificatrice de la maladie.
 
-Il est important de souligner que ce raisonnement reste une extrapolation generale de la physiologie du metabolisme des acides amines, et non une etude mecanistique specifique a la gastroparesie. Le score eleve de TxGNN (99.32%) reflete la force d'une association indirecte au sein du graphe de connaissances, et ne constitue en aucun cas une validation clinique ou preclinique.
+Cette hypothèse n'est étayée par aucun essai ni aucune publication dans les données disponibles. Le score de 99,32 % (rang 4683) reflète la sortie du modèle et ne constitue pas une preuve d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associe enregistre actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-Aucune litterature associee disponible actuellement.
+Aucune littérature associée disponible actuellement.
 
-## Informations de Marche en France
+## Informations de Marché en France
 
-L'isoleucine n'est pas commercialisee en France a ce jour (aucune AMM enregistree).
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Sur les 20 AMM, les 5 premières sont listées.
 
-## Considerations de Securite
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Fresenius Kabi France |
+| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Fresenius Kabi France |
+| 63183821 | AMINOPLASMAL 8 | Solution pour perfusion | B. Braun Melsungen |
+| 61786735 | AMINOMIX 500 | Solution et solution pour perfusion | Fresenius Kabi France |
+| 67972077 | AMINOPLASMAL 12 | Solution pour perfusion | B. Braun Melsungen |
 
-Veuillez consulter la notice pour les informations de securite.
+Les autres formes recensées pour l'ensemble des AMM sont des émulsions pour perfusion, des solutions pour dialyse péritonéale et des associations solution/émulsion pour perfusion.
 
-## Conclusion et Prochaines Etapes
+## Considérations de Sécurité
 
-**Decision : Hold**
+Veuillez consulter la notice pour les informations de sécurité.
+
+## Conclusion et Prochaines Étapes
+
+**Décision : Hold**
 
 **Justification :**
-Le niveau de preuve est L5 (prediction du modele uniquement, sans essai clinique ni litterature a l'appui), et des lacunes critiques subsistent : le mecanisme d'action original et les informations de securite (mises en garde, contre-indications) ne sont pas disponibles, ce qui bloque toute evaluation de securite initiale (S1).
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme d'action documenté.
+- Les données de sécurité issues de la notice ANSM sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Recuperation et analyse de la notice TFDA (mises en garde et contre-indications) — element bloquant identifie (DG001)
-- Donnees detaillees sur le mecanisme d'action (MOA) de l'isoleucine (DG002)
-- Surveillance des futures publications ou essais cliniques explorant le lien isoleucine/BCAA et gastroparesie
-- Reevaluation du dossier des que de nouvelles preuves precliniques ou cliniques deviennent disponibles
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Récupérer et analyser les notices ANSM (mises en garde et contre-indications), lacune bloquante.
+- Obtenir les données sur le mécanisme d'action (par exemple via l'API DrugBank).
+- Renseigner les indications originales et les textes d'indication des AMM.
+- Rechercher des essais cliniques et de la littérature sur l'isoleucine ou les acides aminés ramifiés dans la gastroparésie.
+- Évaluer la compatibilité de voie d'administration : les formes disponibles sont des perfusions, alors que la voie requise pour la gastroparésie n'est pas définie.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Cabazitaxel
 parent: Preuves élevées (L1-L2)
-nav_order: 63
+nav_order: 65
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,98 +29,94 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-En utilisant le skill `txgnn-pipeline` pour cadrer le travail, et en suivant le format de rapport v5 défini dans le système, voici le rapport généré :
-
----
-
-# Cabazitaxel : Du Cancer de la Prostate Métastatique au Carcinome du Sein Féminin
+# Cabazitaxel : Du Cancer de la Prostate Résistant à la Castration au Carcinome Mammaire Féminin
 
 ## Résumé en Une Phrase
 
-Cabazitaxel (Jevtana®) est un taxane de deuxième génération approuvé par la FDA pour le cancer de la prostate métastatique résistant à la castration (mCRPC) réfractaire au docétaxel, mais non enregistré à Taïwan.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Carcinome du Sein Féminin**,
-avec **2 études cliniques publiées** (dont une Phase 2 randomisée) et **20 publications** soutenant actuellement cette direction.
-
----
+Le cabazitaxel est un taxane cytotoxique, connu dans la littérature fournie pour le traitement du cancer de la prostate métastatique résistant à la castration. Le modèle TxGNN prédit qu'il pourrait être efficace dans le **carcinome mammaire féminin**. Cette piste repose sur **20 publications**, dont un essai randomisé de phase II et une étude de phase I/II, mais **aucun essai clinique** n'est enregistré dans le dossier.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de la prostate métastatique résistant à la castration réfractaire au docétaxel (approbation FDA, non enregistré à Taïwan) |
-| Nouvelle Indication Prédite | Carcinome du Sein Féminin |
+| Indication Originale | Cancer de la prostate métastatique résistant à la castration (d'après la littérature ; le texte d'indication de l'ANSM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Carcinome mammaire féminin |
 | Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L2 |
-| Statut de Marché à Taïwan | Non enregistré |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 6 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action de cabazitaxel ne sont pas disponibles dans la base de données locale. Sur la base des informations publiées, cabazitaxel est un dérivé semi-synthétique de la famille des taxanes, agissant comme **agent stabilisateur de microtubules** : il inhibe la dépolymérisation des microtubules, bloque la mitose et induit l'apoptose des cellules tumorales à prolifération rapide. Sa caractéristique pharmacologique clé est sa **faible affinité pour la P-glycoprotéine (P-gp)**, principal mécanisme d'efflux de la résistance multi-médicamenteuse, lui permettant d'être actif dans des tumeurs résistantes au paclitaxel et au docétaxel.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. D'après la pharmacologie connue des taxanes, le cabazitaxel stabilise les microtubules et bloque la mitose des cellules tumorales. Son efficacité dans le cancer de la prostate résistant à la castration après docétaxel a été démontrée, et le mécanisme pourrait être applicable au cancer du sein.
 
-Le cancer de la prostate et le carcinome du sein partagent une dépendance fondamentale à la dynamique des microtubules pour la division cellulaire — c'est la base biologique du réemploi de cabazitaxel dans le cancer du sein. Des études de résistance (PMID 25416788) ont développé des modèles spécifiquement à partir de cellules MCF-7 (sein), confirmant une activité antitumorale directe avec une résistance croisée bien moindre que celle observée avec paclitaxel ou docétaxel (15× vs. 200× dans MES-SA/Dx5). Ce profil est particulièrement pertinent pour les patientes atteintes de cancer du sein résistant aux taxanes classiques.
+Le cabazitaxel est un mauvais substrat de la glycoprotéine P (P-gp). Il pourrait donc rester actif dans des tumeurs devenues résistantes au paclitaxel ou au docétaxel, deux taxanes déjà utilisés dans le cancer du sein. Des données précliniques vont dans ce sens : dans des lignées mammaires résistantes, il présente moins de résistance croisée que ces deux molécules (PMID 25416788).
 
-Au-delà de l'effet cytotoxique pur, des données précliniques récentes (PMID 33753567) montrent que cabazitaxel peut « rééduquer » les macrophages associés aux tumeurs et potentialiser les thérapies immunologiques anti-CD47 dans le cancer du sein triple-négatif (TNBC), élargissant son potentiel thérapeutique à une dimension immunologique. L'étude GENEVIEVE (PMID 28768217), un ECR de Phase 2 randomisé, et une étude de Phase 1/2 multicentrique (PMID 21339064) apportent les premières preuves cliniques directes de l'activité de cabazitaxel dans le cancer du sein, consolidant la pertinence de la prédiction TxGNN.
-
----
+Le score TxGNN est une prédiction du modèle et n'est pas compté comme preuve clinique. Le lien avec le cancer du sein s'appuie sur la pharmacologie des taxanes et sur la littérature ci-dessous.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement sur ClinicalTrials.gov ou ICTRP pour la combinaison cabazitaxel / carcinome du sein féminin lors de la requête du 20 avril 2026. Des études cliniques pertinentes ont été identifiées dans la littérature publiée (voir section suivante).
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | ECR Phase 2 | Eur J Cancer | Étude GENEVIEVE : cabazitaxel vs paclitaxel hebdomadaire en néoadjuvant chez des patientes atteintes de cancer du sein HER2-négatif opérable (TNBC ou luminal B) ; évaluation du taux de réponse pathologique complète |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase 1/2 multicentrique | Eur J Cancer | Cabazitaxel + capécitabine en escalade de doses dans le cancer du sein métastatique réfractaire aux anthracyclines et taxanes ; évaluation de la DMT, sécurité, PK et activité |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Préclinique / Mécanistique | J Immunother Cancer | Cabazitaxel améliore l'immunothérapie anti-CD47 dans le TNBC via la rééducation des macrophages tumoraux et stimulation de la phagocytose (PrCR) |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Revue (mécanismes de résistance) | Mol Cancer Ther | Mécanismes de résistance à cabazitaxel dans des modèles MCF-7 (sein) ; résistance croisée nettement moindre que paclitaxel/docétaxel, expliquant l'intérêt dans les tumeurs résistantes |
-| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Revue | Br J Clin Pharmacol | Ajustements de doses basés sur le TDM pour taxanes (cabazitaxel inclus) dans les tumeurs solides avancées ; pharmacocinétique et relations PK-PD |
-| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Préclinique (PDX) | J Control Release | Nanoparticules de cyanoacrylate chargées en cabazitaxel : 6/8 rémissions complètes dans un modèle PDX de cancer du sein basal-like, efficacité supérieure au médicament libre |
-| [36918084](https://pubmed.ncbi.nlm.nih.gov/36918084/) | 2023 | Préclinique | J Control Release | Nanomédicament redox-responsive (CS-DTM-CTX) co-assemblé avec dasatinib : inhibition de la croissance tumorale mammaire en modulant le dialogue CAF-tumeur |
-| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Préclinique | Colloids Surf B | NLC (Nanostructured Lipid Carriers) chargés en cabazitaxel, optimisés par DoE ; caractérisation physico-chimique et évaluation contre lignées de cancer du sein |
-| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Préclinique | Chem Phys Lipids | Liposphères co-chargées cabazitaxel + thymoquinone : activité synergique sur tumeurs mammaires via p53, Bax, BCL-2, STAT3 et NF-κB |
-| [34309357](https://pubmed.ncbi.nlm.nih.gov/34309357/) | 2021 | Préclinique | Bioconjug Chem | Conjugué CBT-cCPP ciblant l'intégrine et EDB-Fn : délivrance intracellulaire ciblée de cabazitaxel dans le cancer du sein et de la prostate via biomarqueurs de la matrice extracellulaire |
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | ECR de phase II (GENEVIEVE) | Eur J Cancer | Cabazitaxel versus paclitaxel hebdomadaire en néoadjuvant dans le cancer du sein HER2-négatif opérable ; critère principal : taux de réponse complète pathologique (les résultats chiffrés ne figurent pas dans l'extrait fourni) |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase I/II, escalade de dose | Eur J Cancer | Cabazitaxel + capécitabine dans le cancer du sein métastatique après anthracycline et taxane ; évaluation de la dose maximale tolérée, de la sécurité, de la pharmacocinétique et de l'activité |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Préclinique | J Immunother Cancer | L'effet du cabazitaxel sur les macrophages améliore l'immunothérapie ciblant CD47 dans le cancer du sein triple négatif |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Préclinique (xénogreffe) | J Control Release | Des nanoparticules chargées en cabazitaxel ont obtenu une rémission complète de 6 tumeurs sur 8, contre un résultat inférieur avec le médicament libre |
+| [38562610](https://pubmed.ncbi.nlm.nih.gov/38562610/) | 2024 | Préclinique | Int J Nanomedicine | Efficacité préclinique de variantes de nanoparticules de cyanoacrylate chargées en cabazitaxel |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Préclinique (résistance) | Mol Cancer Ther | Mécanismes de résistance au cabazitaxel dans des modèles cellulaires dont MCF-7 ; résistance croisée moindre qu'avec le paclitaxel et le docétaxel |
+| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Préclinique (formulation) | Chem Phys Lipids | Lipopshères co-chargées en cabazitaxel et thymoquinone, combinaison synergique contre le cancer du sein |
+| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Préclinique (formulation) | Colloids Surf B | Vecteurs lipidiques nanostructurés chargés en cabazitaxel, évalués sur des lignées de cancer du sein |
+| [34309357](https://pubmed.ncbi.nlm.nih.gov/34309357/) | 2021 | Préclinique (vectorisation) | Bioconjug Chem | Cabazitaxel conjugué à un peptide cyclique pénétrant les cellules, pour le cancer de la prostate et du sein |
+| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | Préclinique | Acta Pharmacol Sin | Micelles polymères chargées en cabazitaxel contre les métastases du cancer du sein |
 
----
+## Informations de Marché en France
+
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Le dossier compte 6 AMM ; les 5 suivantes sont détaillées.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 64883869 | JEVTANA 60 mg | Solution à diluer et solvant pour solution pour perfusion |
+| 68850261 | CABAZITAXEL VIATRIS 20 mg/ml | Solution à diluer pour perfusion |
+| 60406016 | CABAZITAXEL EVER PHARMA 10 mg/ml | Solution à diluer pour perfusion |
+| 63010901 | CABAZITAXEL TILLOMED 60 mg | Solution à diluer et solvant pour solution à diluer pour perfusion |
+| 69159439 | CABAZITAXEL ZENTIVA 20 mg/mL | Solution à diluer pour perfusion |
 
 ## Cytotoxicité
 
+Les éléments ci-dessous reposent sur les connaissances générales de la classe des taxanes, faute de données de toxicité propres au dossier. Ils sont à confirmer avec la notice.
+
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (classe Taxane — agent stabilisateur de microtubules ; semi-synthèse à partir de 10-désacétylbaccatine III) |
-| Risque de Myélosuppression | **Élevé** — la neutropénie sévère (Grade 3/4) constitue la toxicité dose-limitante principale documentée dans les études de Phase 1/2 (PMID 21339064) ; risque de neutropénie fébrile à surveiller impérativement |
-| Classification d'Émétogénicité | Faible à modérée (profil similaire aux autres taxanes selon les revues de classe, PMID 33247980) |
-| Éléments de Surveillance | NFS avec formule leucocytaire (avant chaque cycle), fonction hépatique et rénale, neuropathie périphérique, diarrhée, hypersensibilité |
-| Protection de Manipulation | Manipulation obligatoire selon les réglementations des médicaments cytotoxiques : tenue de protection complète, préparation en isolateur ou hotte à flux laminaire, gestion des déchets cytotoxiques |
-
----
+| Classification de Cytotoxicité | Cytotoxique conventionnel (classe des taxanes, antimitotique) |
+| Risque de Myélosuppression | Élevé (la littérature signale la neutropénie et la neuropathie comme effets les plus fréquents) |
+| Classification d'Émétogénicité | Faible à moyenne |
+| Éléments de Surveillance | NFS avec formule, fonction hépatique et rénale, surveillance neurologique |
+| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-> Les données sur les mises en garde, contre-indications et interactions médicamenteuses ne sont pas disponibles dans la base de données locale pour ce médicament. Veuillez consulter la notice officielle (FDA Prescribing Information Jevtana® / SmPC EMA) pour les informations de sécurité complètes, notamment concernant la neutropénie fébrile, la neuropathie périphérique, les contre-indications en cas d'insuffisance hépatique sévère et les précautions d'emploi avec les inducteurs/inhibiteurs puissants du CYP3A4.
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-Une étude de Phase 2 randomisée (GENEVIEVE) et une étude de Phase 1/2 multicentrique fournissent des preuves cliniques initiales de l'activité de cabazitaxel dans le cancer du sein, soutenues par de nombreuses données précliniques concordantes et une rationalité mécanistique solide (stabilisation des microtubules, contournement de la résistance P-gp, rééducation immunitaire des macrophages tumoraux). Le niveau de preuve L2 justifie d'avancer avec des garde-fous adaptés.
+Il existe un essai randomisé de phase II et une étude de phase I/II dans le cancer du sein, mais aucun essai clinique n'est enregistré et la majorité des publications sont précliniques. Les mises en garde et contre-indications de l'ANSM sont absentes du dossier, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Compléter les données de mécanisme d'action (MOA) via l'API DrugBank (DG002)
-- Obtenir la fiche de sécurité complète (mises en garde TFDA / SmPC EMA Jevtana®) pour lever le blocage DG001
-- Élargir la requête ClinicalTrials.gov avec des termes génériques (« cabazitaxel breast cancer ») pour identifier d'éventuels essais enregistrés non capturés par la requête initiale
-- Évaluer la faisabilité réglementaire d'un développement en cancer du sein à Taïwan (statut Non enregistré → voie d'accès accéléré possible)
-- Définir une population cible prioritaire (TNBC réfractaire, luminal B résistant aux taxanes classiques) pour un éventuel design d'étude de Phase 2
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
+- Obtenir le mécanisme d'action depuis DrugBank.
+- Récupérer le texte d'indication approuvée des AMM françaises.
+- Consulter les résultats complets de l'étude GENEVIEVE (PMID 28768217) pour évaluer l'efficacité par rapport au paclitaxel.
+- Rechercher et enregistrer les essais cliniques en cours dans le cancer du sein.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

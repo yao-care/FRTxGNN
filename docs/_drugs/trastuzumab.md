@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab
 parent: Preuves élevées (L1-L2)
-nav_order: 319
+nav_order: 323
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Trastuzumab : D'une Indication Non Documentée au Cancer du Sein Récepteur de Progestérone Positif
+# Trastuzumab : Vers le Cancer du Sein à Récepteurs de la Progestérone Positifs
 
 ## Résumé en Une Phrase
 
-Le dossier de preuves ne documente aucune indication d'origine confirmée pour le trastuzumab (aucune AMM française enregistrée, mécanisme d'action officiel marqué en lacune de données — DG002). Le modèle TxGNN prédit néanmoins qu'il pourrait être efficace pour le **Cancer du Sein Récepteur de Progestérone Positif**, avec **36 essais cliniques identifiés** (8 retenus ci-dessous) et **20 publications** soutenant actuellement cette direction. À noter d'emblée : le raisonnement mécanistique disponible indique que le trastuzumab cible HER2(ERBB2), ce qui suggère que cette « nouvelle » indication recoupe potentiellement un usage déjà établi du médicament plutôt qu'un repositionnement inédit — ce point doit être vérifié avant toute décision.
+Le dossier ne précise pas l'indication d'origine du trastuzumab : aucun texte d'indication n'est renseigné dans les AMM françaises. Le trastuzumab est un anticorps monoclonal dirigé contre le récepteur HER2.
+Le modèle TxGNN prédit qu'il pourrait être efficace dans le **cancer du sein à récepteurs de la progestérone positifs**, avec **36 essais cliniques** et **20 publications** associés à cette prédiction. Cette prédiction correspond très probablement à un usage déjà établi (voir plus bas).
 
 ---
 
@@ -41,75 +42,94 @@ Le dossier de preuves ne documente aucune indication d'origine confirmée pour l
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible dans ce dossier (0 AMM en France, MOA en lacune de données — voir DG001/DG002) |
-| Nouvelle Indication Prédite | Cancer du sein récepteur de progestérone positif (progesterone-receptor positive breast cancer) |
+| Nouvelle Indication Prédite | Cancer du sein à récepteurs de la progestérone positifs |
 | Score de Prédiction TxGNN | 99,90 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 16 |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le champ officiel de mécanisme d'action (`original_moa`) est marqué en lacune de données (DG002, sévérité Élevée), et aucune indication d'origine n'est enregistrée dans le dossier réglementaire français fourni. Ces deux lacunes limitent l'analyse de plausibilité mécanistique et devraient être comblées en priorité avant toute décision finale.
+Actuellement, les données détaillées sur le mécanisme d'action (MOA) ne sont pas disponibles dans le dossier. D'après l'analyse mécanistique jointe, le trastuzumab se fixe sur le domaine extracellulaire de HER2. Il provoque une cytotoxicité cellulaire dépendante des anticorps (ADCC) et inhibe la signalisation de HER2.
 
-Les notes d'évaluation associées à la prédiction indiquent cependant que le trastuzumab cible les tumeurs surexprimant HER2 (ERBB2). Environ 15 à 20 % des cancers du sein récepteur de progestérone (RP) positif présentent une co-surexpression de HER2 (sous-type RH+/HER2+). Le lien mécanistique proposé passe donc par cette co-expression HER2, et non par le récepteur de progestérone lui-même.
+Les tumeurs à récepteurs de la progestérone positifs (RP+) qui présentent aussi une amplification de HER2 constituent déjà une population standard pour le trastuzumab. Le bénéfice attendu ne concerne donc que le sous-groupe HER2-positif, et non l'ensemble des cancers du sein RP+. Le score TxGNN très élevé reflète probablement l'axe bien connu « cancer du sein / HER2 ».
 
-**Point d'attention important :** la totalité des indications les mieux soutenues par des preuves dans ce dossier (RP+, RP-, sous-types luminal A/B, sous-type « normal-like ») appartiennent à la famille du cancer du sein. Sans confirmation de l'indication d'origine du trastuzumab, il n'est pas possible d'établir si cette prédiction constitue un véritable repositionnement ou un simple raffinement de sous-population au sein d'un usage oncologique déjà connu du médicament. Une vérification de l'indication d'origine (via TFDA/ANSM ou DrugBank) est nécessaire pour trancher.
+**Point d'attention :** cette prédiction est plus proche d'un usage déjà établi que d'un véritable repositionnement. Le champ des indications d'origine est vide dans le dossier, ce qui empêche de comparer précisément l'ancienne et la nouvelle indication.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
+Sur les 36 essais associés, voici les 10 plus pertinents. Beaucoup portent sur des schémas combinés et n'ont pas encore d'évaluation de pertinence finalisée.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Terminé | 3270 | Chimiothérapie adjuvante ± trastuzumab, femmes ganglions positifs ou HER2-low à haut risque ; essai fondateur du traitement adjuvant HER2+ |
-| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | Phase 3 | Terminé | 3436 | AC puis paclitaxel hebdomadaire ± trastuzumab en adjuvant, cancer du sein HER2+ ganglions positifs ou haut risque |
-| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Terminé | 517 | Trastuzumab + QL1209 + docétaxel vs trastuzumab + pertuzumab + docétaxel, cancer du sein HER2+/RE-RP- précoce ou localement avancé |
-| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Terminé | 652 | Chimiothérapie à base de taxane + lapatinib vs + trastuzumab en première ligne, cancer du sein métastatique HER2+ |
-| [NCT01785420](https://clinicaltrials.gov/study/NCT01785420) | Phase 3 | Recrutant | 1100 | Trastuzumab préopératoire de courte durée vs placebo, cancer du sein HER2+ opérable |
-| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Phase 2 | Terminé | 200 | Essai pilote paclitaxel-trastuzumab en adjuvant, cancer du sein stade II/IIIA surexprimant HER2 |
-| [NCT01750073](https://clinicaltrials.gov/study/NCT01750073) | Phase 2 | Actif, non recrutant | 92 | Chimiothérapie néoadjuvante ± trastuzumab, cancer du sein non traité auparavant |
-| [NCT02774681](https://clinicaltrials.gov/study/NCT02774681) | Phase 2 | Terminé prématurément | 12 | Palbociclib chez patientes HER2+ avec métastases cérébrales (essai arrêté, échantillon faible, preuve limitée) |
+| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | Phase 3 | Terminé | 3436 | AC puis paclitaxel hebdomadaire, avec ou sans trastuzumab, en adjuvant (HER2+ ganglions positifs ou haut risque) |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Terminé | 3270 | Chimiothérapie seule versus chimiothérapie + trastuzumab en adjuvant. Le titre mentionne « HER2-low » : le rôle exact du trastuzumab est à confirmer |
+| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Terminé | 652 | Chimiothérapie à base de taxane + lapatinib ou trastuzumab en première ligne (cancer du sein métastatique HER2+) |
+| [NCT01785420](https://clinicaltrials.gov/study/NCT01785420) | Phase 3 | En recrutement | 1100 | Trastuzumab versus placebo en traitement préopératoire de courte durée (HER2+ opérable) |
+| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Phase 2 | Terminé | 200 | Paclitaxel + Herceptin en adjuvant dans le cancer du sein de stade précoce |
+| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | Phase 2 | Terminé | 33 | Létrozole + trastuzumab dans le cancer du sein métastatique ErbB2+ et RE et/ou RP+ |
+| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Phase 2 | En recrutement | 30 | Neratinib + hormonothérapie + trastuzumab en préopératoire (RE+/HER2+) |
+| [NCT04334330](https://clinicaltrials.gov/study/NCT04334330) | Phase 2 | Inconnu | 34 | Palbociclib + trastuzumab + pyrotinib + fulvestrant dans les métastases cérébrales RE/RP+ et HER2+ |
+| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) | Phase 2 | Inconnu | 7 | Inhibiteur de l'aromatase + pertuzumab/trastuzumab sans chimiothérapie (RH+/HER2+ localisé) |
+| [NCT00053339](https://clinicaltrials.gov/study/NCT00053339) | Phase 3 | Retiré | 0 | Trastuzumab avec ou sans tamoxifène (stade IV, RE ou RP+ et HER2+) : aucune donnée |
 
 ---
 
 ## Preuves de la Littérature
 
+Sur les 20 publications associées, voici les 10 plus pertinentes, classées par niveau de preuve.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | ECR (analyse à 5 ans) | Lancet Oncol | NeoSphere : pertuzumab + trastuzumab néoadjuvant améliore la survie sans progression à 5 ans, cancer du sein HER2+ localement avancé/inflammatoire |
-| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | Méta-analyse | Lancet | Effets de la chimiothérapie/hormonothérapie sur récidive et survie à 15 ans dans le cancer du sein précoce |
-| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | ECR phase 2 | Lancet Oncol | monarcHER : abémaciclib + trastuzumab ± fulvestrant vs chimiothérapie standard + trastuzumab, cancer du sein avancé RH+/HER2+ |
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | ECR phase 3 | Lancet Oncol | ExteNET : nératinib après trastuzumab adjuvant réduit le risque de récidive, cancer du sein HER2+ précoce |
-| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | ECR phase 2 | Ann Oncol | WSG-ADAPT : blocage double néoadjuvant trastuzumab + pertuzumab ± paclitaxel, HER2+/RH- |
-| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | ECR | JAMA Oncol | WSG-TP-II : hormonothérapie + trastuzumab + pertuzumab vs chimiothérapie désescaladée, cancer du sein précoce RH+/HER2+ |
-| [29117498](https://pubmed.ncbi.nlm.nih.gov/29117498/) | 2017 | Cohorte (suivi long terme) | NEJM | Risque de récidive à 20 ans après arrêt de l'hormonothérapie à 5 ans, cancer du sein RE+ |
-| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | Cohorte / étude moléculaire | Theranostics | Portraits moléculaires et réponse au trastuzumab des cancers du sein triple-positifs (RE+/RP+/HER2+) |
-| [26253814](https://pubmed.ncbi.nlm.nih.gov/26253814/) | 2015 | Revue | Breast (Edinburgh) | Implications cliniques des sous-types moléculaires intrinsèques du cancer du sein |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Recommandation (guideline ASCO) | J Clin Oncol | Mise à jour des recommandations ASCO sur le traitement systémique du cancer du sein avancé HER2+ |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | ECR | Lancet Oncol | NeoSphere : analyse à 5 ans du pertuzumab + trastuzumab néoadjuvants (survie sans progression, survie sans maladie, tolérance) |
+| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | ECR | Lancet Oncol | monarcHER : abémaciclib + trastuzumab ± fulvestrant versus trastuzumab + chimiothérapie dans le cancer avancé RH+/HER2+ |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | ECR | Lancet Oncol | ExteNET : nératinib après traitement adjuvant à base de trastuzumab (HER2+) |
+| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | ECR (d'après le titre) | JAMA Oncol | WSG-TP-II : hormonothérapie + double blocage HER2 versus chimiothérapie désescaladée dans le cancer précoce RH+/HER2+ |
+| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | Méta-analyse | Lancet | Effets des chimiothérapies et hormonothérapies adjuvantes sur la récidive et la survie à 15 ans |
+| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | Cohorte | Theranostics | Profil moléculaire et réponse au trastuzumab des cancers RE+/RP+/HER2+ (triple positifs) |
+| [34983437](https://pubmed.ncbi.nlm.nih.gov/34983437/) | 2022 | Étude rétrospective | BMC Cancer | Trastuzumab + fulvestrant dans le cancer avancé RH+/HER2+ (étude monocentrique) |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Recommandations | J Clin Oncol | Mise à jour ASCO du traitement systémique du cancer du sein avancé HER2+ |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Revue | Pharmacol Res | Inhibiteurs ciblés et cytotoxiques dans le cancer du sein selon les statuts HER2, RH, RE et RP |
+| [21151204](https://pubmed.ncbi.nlm.nih.gov/21151204/) | 2011 | Revue | Nat Rev Clin Oncol | Cancers HER2+ et RH+ : ciblage du bon récepteur |
+
+---
+
+## Informations de Marché en France
+
+Le dossier recense 16 AMM ; les 5 principales sont listées ci-dessous. Le texte de l'indication approuvée n'est renseigné pour aucune d'entre elles.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 68153262 | HERZUMA 420 mg | Poudre pour solution à diluer pour perfusion | CELLTRION HEALTHCARE HUNGARY (Hongrie) |
+| 60990496 | OGIVRI 150 mg | Poudre pour solution à diluer pour perfusion | BIOSIMILAR COLLABORATIONS IRELAND (Irlande) |
+| 61276045 | HERCEPTIN 150 mg | Poudre pour solution à diluer pour perfusion | ROCHE REGISTRATION (Allemagne) |
+| 62425937 | HERZUMA 150 mg | Poudre pour solution à diluer pour perfusion | CELLTRION HEALTHCARE HUNGARY (Hongrie) |
+| 64346029 | ONTRUZANT 420 mg | Poudre pour solution à diluer pour perfusion | SAMSUNG BIOEPIS NL (Pays-Bas) |
 
 ---
 
 ## Cytotoxicité
 
-Le trastuzumab cible des indications strictement oncologiques (cancer du sein) et le raisonnement mécanistique disponible dans ce dossier le décrit comme un agent ciblant HER2(ERBB2) — cette section est donc pertinente. Ces informations proviennent des notes d'évaluation du dossier de preuves et non d'un champ officiel de MOA (marqué en lacune de données, DG002) ; elles doivent être confirmées.
+Les données de toxicité DrugBank ne figurent pas dans le dossier. Les éléments ci-dessous relèvent de connaissances générales sur cette classe et doivent être vérifiés dans le RCP.
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (anticorps monoclonal anti-HER2/ERBB2, selon les notes d'évaluation du dossier — à confirmer via DG002) |
-| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification de Cytotoxicité | Thérapie ciblée (anticorps monoclonal anti-HER2) |
+| Risque de Myélosuppression | Faible en monothérapie ; le risque dépend surtout de la chimiothérapie associée (données de toxicité non fournies) |
+| Classification d'Émétogénicité | Faible (connaissance générale) |
+| Éléments de Surveillance | Fonction cardiaque (FEVG), et NFS ainsi que fonctions hépatique et rénale en cas d'association à une chimiothérapie. Un essai du dossier (NCT00446030) évalue justement la sécurité cardiaque de schémas associés |
 | Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune donnée de mise en garde, contre-indication ou interaction médicamenteuse n'est actuellement disponible dans ce dossier (DG001, sévérité Bloquante — recherche du RCP/notice TFDA-ANSM requise avant toute évaluation de sécurité S1).
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'est enregistrée dans le dossier.
 
 ---
 
@@ -118,14 +138,19 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Le niveau de preuve L1 (≥2 essais de phase 3 complétés : NCT01275677 et NCT04629846) soutient la plausibilité clinique de cette prédiction pour le sous-groupe RH+/HER2+. Toutefois, deux lacunes bloquantes empêchent une validation complète : l'absence de données d'indication d'origine et de sécurité (DG001) et l'absence de MOA confirmé (DG002).
+- Plusieurs essais de Phase 3 terminés et des ECR publiés soutiennent le trastuzumab dans le cancer du sein HER2-positif, y compris RH+/HER2+ (niveau L1).
+- Ces preuves valent uniquement pour les tumeurs HER2-positives. Le bénéfice n'est pas démontré pour tous les cancers du sein RP+, et la prédiction est proche d'un usage déjà établi.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Confirmation de l'indication d'origine et du statut réglementaire réel du trastuzumab (recherche TFDA/ANSM, car le statut « non commercialisé / 0 AMM » de ce dossier semble incohérent avec un médicament aussi établi que le trastuzumab — à vérifier comme anomalie possible des données)
-- Téléchargement et analyse du RCP/notice pour lever le DG001 (mises en garde, contre-indications)
-- Confirmation du MOA officiel via DrugBank pour lever le DG002
-- Stratification obligatoire par statut HER2 (IHC/FISH) avant toute application clinique, le lien mécanistique passant par HER2 et non par le récepteur de progestérone
-- Clarification si cette « nouvelle indication » recoupe un usage déjà autorisé du trastuzumab, ce qui changerait la nature du dossier (extension de sous-population vs repositionnement réel)
+- **Bloquant :** la notice ANSM (mises en garde et contre-indications) n'est pas disponible. Elle est indispensable avant toute étape de dépistage de sécurité.
+- Les données détaillées sur le mécanisme d'action (MOA), par exemple via l'API DrugBank.
+- Les indications d'origine et les textes d'indication des AMM, pour confirmer si l'usage est déjà couvert.
+- La restriction explicite aux tumeurs HER2-positives confirmées.
+- La confirmation du rôle du trastuzumab dans les essais aux titres tronqués ou ambigus (par exemple NCT01275677) et la finalisation des évaluations de pertinence encore en attente.
+
+**Note :** parmi les autres prédictions du dossier, le cancer du sein RP-négatif (rang 3) et le cancer du sein luminal A ou B (rang 4) reposent sur la même logique HER2. Les tumeurs rares (rangs 5 à 10) n'ont pratiquement aucune preuve (Hold).
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Valpromide
 parent: Preuves modérées (L3-L4)
-nav_order: 327
+nav_order: 331
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,76 +29,68 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Valpromide : d'un Usage Historique Non Documenté à l'Insomnie
+# Valpromide : Vers l'Insomnie, une Nouvelle Indication Prédite
 
 ## Résumé en Une Phrase
 
-Les données disponibles ne permettent pas de documenter l'indication d'origine ni le mécanisme d'action de la Valpromide (données manquantes sur le MOA, et le médicament n'est pas commercialisé en France). Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**Insomnie**, avec un score de confiance élevé mais un support probant très limité : **aucun essai clinique** et **1 publication** (série de cas de faible niveau de preuve) soutiennent actuellement cette direction.
-
----
+Valpromide est commercialisé en France sous le nom DEPAMIDE, mais le texte de son indication approuvée n'est pas renseigné dans les données disponibles.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**,
+mais seule **1 publication** (une série de 8 cas portant sur l'agitation chez des patients déments) et **aucun essai clinique** soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentée (aucune AMM ni donnée d'indication disponible) |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99.79% |
+| Score de Prédiction TxGNN | 99,79 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La seule information contextuelle provient de la littérature identifiée : la Valpromide y est mentionnée aux côtés de la Carbamazépine, dans un cadre d'utilisation en tant qu'anticonvulsivant.
+Actuellement, les données détaillées sur le mécanisme d'action de la valpromide ne sont pas disponibles dans DrugBank. Le raisonnement ci-dessous vient donc du composé parent et n'est pas confirmé pour la valpromide elle-même.
 
-Le lien mécanistique proposé par le modèle repose sur une analogie de classe thérapeutique : les anticonvulsivants/stabilisateurs de l'humeur agissent par modulation du système GABAergique et de l'excitabilité neuronale centrale, ce qui pourrait théoriquement influencer le cycle veille-sommeil. Cependant, cette hypothèse reste indirecte et non vérifiée.
+La valpromide est le prodrogue amide de l'acide valproïque, en lequel elle est convertie dans l'organisme. L'acide valproïque augmente les taux de GABA et bloque les canaux sodiques voltage-dépendants. Ces actions pourraient atténuer l'hyperéveil et l'agitation, deux mécanismes plausiblement liés aux troubles du sommeil.
 
-La publication disponible ne porte pas spécifiquement sur l'insomnie en tant qu'indication de la Valpromide : elle étudie l'usage d'anticonvulsivants dans l'agitation et les troubles du comportement chez des patients déments, l'insomnie n'y étant qu'un symptôme associé et non l'objet principal de l'étude. Le lien avec la nouvelle indication prédite reste donc une extrapolation de classe médicamenteuse, sans preuve pharmacologique ou clinique directe.
-
----
+La seule publication citée porte sur l'agitation et les troubles du comportement dans la démence, pas sur l'insomnie primaire. Le score TxGNN très élevé (0,998) est une prédiction purement computationnelle, sans validation clinique à ce jour.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [10370890](https://pubmed.ncbi.nlm.nih.gov/10370890/) | 1999 | Série de cas (n=8) | L'Encéphale | Chez des patients déments présentant agitation et insomnie liées à l'anxiété généralisée, la Valpromide et la Carbamazépine ont montré une efficacité rapportée sur ces symptômes ; l'étude ne porte pas spécifiquement sur l'insomnie comme indication principale |
-
----
+| [10370890](https://pubmed.ncbi.nlm.nih.gov/10370890/) | 1999 | Série de cas | L'Encéphale | Anticonvulsivants (valpromide, carbamazépine) dans l'agitation et les troubles du comportement chez des sujets déments (8 cas). L'insomnie avec anxiété généralisée est décrite parmi les symptômes fréquents. Ces molécules sont présentées comme alternative aux neuroleptiques, dont les effets indésirables (somnolence, confusion) sont fréquents. |
 
 ## Informations de Marché en France
 
-La Valpromide n'est pas commercialisée en France (0 AMM enregistrée).
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 63737879 | DEPAMIDE 300 mg, comprimé pelliculé gastro-résistant | Comprimé pelliculé gastro-résistant |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le score de prédiction TxGNN est élevé, mais il n'est étayé que par une seule publication de faible niveau de preuve (série de cas, n=8) qui ne cible pas directement l'insomnie, et aucun essai clinique n'existe pour cette indication. L'absence de données sur le mécanisme d'action et l'absence de commercialisation en France limitent fortement l'évaluation de sécurité et de pertinence clinique.
+La prédiction repose sur un score de modèle très élevé, mais l'unique publication est une petite série de cas sur l'agitation dans la démence, non sur l'insomnie. Le mécanisme d'action n'est pas confirmé et les informations de sécurité manquent, ce qui bloque l'étape de dépistage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données sur le mécanisme d'action (MOA) de la Valpromide
-- Confirmation de l'indication d'origine et statut réglementaire (TFDA/ANSM, notice/RCP)
-- Données de sécurité (mises en garde, contre-indications, interactions médicamenteuses)
-- Étude clinique dédiée évaluant spécifiquement la Valpromide dans l'insomnie (au-delà du contexte de l'agitation chez les patients déments)
+- Récupérer la notice ANSM (mises en garde et contre-indications), étape bloquante
+- Obtenir les données de mécanisme d'action via DrugBank
+- Confirmer l'indication approuvée de DEPAMIDE 300 mg
+- Rechercher des études cliniques ou observationnelles ciblant directement l'insomnie
+- Vérifier la compatibilité de la voie d'administration avec l'usage envisagé
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Arginine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 40
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 42
+evidence_level: L4
 indication_count: 1
 ---
 
 # Arginine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **1** 
+Niveau de preuve: **L4** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,95 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-Le skill txgnn-pipeline confirme le contexte. Voici le rapport généré à partir de l'Evidence Pack fourni :
-
----
-
-# Arginine : D'Acide Aminé Essentiel à la Gastroparésie
+# Arginine : D'une Indication Originale Non Documentée à la Gastroparésie
 
 ## Résumé en Une Phrase
 
-L-Arginine est un acide aminé essentiel conditionnel, dont l'usage médical actuel se limite principalement à la supplémentation nutritionnelle et aux tests de stimulation diagnostique (test à l'arginine). Le modèle TxGNN prédit qu'il pourrait être efficace pour la **gastroparésie** (score 99,42 %), avec **0 essai clinique pertinent** et **10 publications précliniques** soutenant actuellement cette direction. L'ensemble des preuves disponibles est exclusivement issu de modèles animaux ; aucun essai clinique humain ciblant cette indication n'a été identifié à ce jour.
-
----
+L'arginine est commercialisée en France sous forme de solutions buvables, de comprimés effervescents et de solutions pour perfusion. Les données disponibles ne précisent pas son indication originale.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **gastroparésie**.
+Cette direction repose sur **1 essai clinique** (non pertinent) et **10 publications** précliniques (études animales, un rapport de cas), sans aucune donnée d'efficacité chez l'humain.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Supplément nutritionnel / acide aminé essentiel conditionnel |
+|------|------|
+| Indication Originale | Non renseignée dans les données réglementaires |
 | Nouvelle Indication Prédite | Gastroparésie |
 | Score de Prédiction TxGNN | 99,42 % |
-| Niveau de Preuve | L4 — études précliniques et mécanistiques uniquement |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-L-Arginine est le **seul substrat** de la biosynthèse du monoxyde d'azote (NO) via la NO synthase neuronale (nNOS). Dans le tractus gastro-intestinal, le NO constitue le principal neurotransmetteur inhibiteur des neurones entériques, régulant la relaxation des muscles lisses gastriques et l'ouverture du sphincter pylorique. En l'absence de substrat suffisant, ce mécanisme de relaxation est compromis.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. Sur la base des connaissances générales, l'arginine (L-arginine) est le substrat des NO synthases (NOS), qui produisent le monoxyde d'azote (NO).
 
-La gastroparésie est caractérisée par une perte sélective des cellules interstitielles de Cajal (ICC) positives pour nNOS et des neurones entériques inhibiteurs, entraînant une déficience en NO, une hypertonie pylorique et un retard de vidange gastrique. Ce mécanisme constitue une cible thérapeutique directe pour la supplémentation en L-arginine.
+La vidange gastrique dépend en partie d'une transmission nitrergique inhibitrice (nNOS/NO), qui permet notamment la relaxation du pylore et l'accommodation gastrique. Un déficit en substrat (arginine) ou en cofacteur de la NOS pourrait donc ralentir la vidange gastrique. Cette hypothèse est le lien mécanistique proposé entre l'arginine et la gastroparésie.
 
-La preuve mécanistique la plus directe est fournie par PMID 25057793 (*Endocrinology*, 2014) : l'administration orale de dexaméthasone induit une gastroparésie chez la souris par déplétion en L-arginine via un mécanisme GR-dépendant, et la supplémentation en L-arginine inverse complètement ce phénotype. Plusieurs autres études animales confirment le rôle central de la voie nNOS/NO dans la physiopathologie de la gastroparésie (diabétique, parkinsonienne, néonatale), renforçant la cohérence mécanistique de cette prédiction.
+Trois études précliniques vont dans ce sens :
+- Chez la souris, la gastroparésie induite par les glucocorticoïdes passe par une déplétion en L-arginine (PMID 25057793).
+- Chez le souriceau, un déficit en tétrahydrobioptérine, cofacteur de la NOS, provoque une gastroparésie (PMID 23639814).
+- Chez le rat parkinsonien, la relaxation nitrergique du sphincter pylorique est altérée (PMID 35380456).
 
----
+Ces travaux montrent qu'une voie NO déficiente s'associe à un retard de vidange gastrique. Ils ne démontrent pas qu'un apport d'arginine améliore la gastroparésie chez l'humain. Le score TxGNN de 0,994 reste une prédiction du modèle et non une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
-Un seul essai a été recensé lors de la recherche (NCT01702051 — transplantation autologue d'îlots pancréatiques après pancréatectomie, Phase N/A, statut inconnu, n = 150). Cet essai porte sur le contrôle glycémique post-chirurgical et **n'est pas pertinent** pour l'évaluation de l'arginine dans la gastroparésie (grade de pertinence : C). L'arginine n'y est mentionnée que comme outil diagnostique (test de stimulation à l'arginine), non comme traitement.
-
-> **Aucun essai clinique évaluant la supplémentation en L-arginine pour le traitement de la gastroparésie n'est actuellement enregistré.**
-
----
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT01702051](https://clinicaltrials.gov/study/NCT01702051) | N/A | Inconnu | 150 | Étude observationnelle de l'autotransplantation d'îlots pancréatiques pour le contrôle glycémique après pancréatectomie. Sans lien avec l'arginine ni la gastroparésie (pertinence : C) |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [25057793](https://pubmed.ncbi.nlm.nih.gov/25057793/) | 2014 | Animal (mécanistique, interventionnel) | *Endocrinology* | La dexaméthasone induit une gastroparésie murine par déplétion en L-arginine (mécanisme GR-dépendant) ; la supplémentation en L-arginine inverse le phénotype — **preuve mécanistique directe** |
-| [35380456](https://pubmed.ncbi.nlm.nih.gov/35380456/) | 2022 | Animal (mécanistique) | *Am J Physiol Gastrointest Liver Physiol* | Altération de la relaxation nitrergique du sphincter pylorique dans un modèle rat Parkinson (6-OHDA) liée à la déficience en nNOS — confirme le rôle de la voie NO dans la gastroparésie parkinsonienne |
-| [23639814](https://pubmed.ncbi.nlm.nih.gov/23639814/) | 2013 | Animal (mécanistique) | *Am J Physiol Gastrointest Liver Physiol* | La déficience en tétrahydrobioptérine (cofacteur obligatoire de nNOS) induit une gastroparésie néonatale chez la souris — souligne la dépendance de la voie NO à la disponibilité en substrats/cofacteurs |
-| [18312542](https://pubmed.ncbi.nlm.nih.gov/18312542/) | 2008 | Animal (descriptif) | *Neurogastroenterol Motil* | Diminution de l'expression et de la fonction de nNOS dans le jéjunum de rats BB diabétiques — propose la perte de nNOS comme mécanisme central de la gastroparésie diabétique |
-| [19023028](https://pubmed.ncbi.nlm.nih.gov/19023028/) | 2009 | Animal (interventionnel) | *Am J Physiol Gastrointest Liver Physiol* | La stimulation électrique gastrique synchronisée améliore l'accommodation gastrique via la voie nitrergique chez le chien vagotomisé |
-| [21193530](https://pubmed.ncbi.nlm.nih.gov/21193530/) | 2011 | Animal (mécanistique) | *Am J Physiol Gastrointest Liver Physiol* | L'inhibition de la motilité gastrique par hyperglycémie est médiée par les canaux KATP du ganglion nodeux — éclaire l'interface glycémie/motilité gastrique dans la gastroparésie diabétique |
-| [31984783](https://pubmed.ncbi.nlm.nih.gov/31984783/) | 2020 | Animal (interventionnel) | *Am J Physiol Gastrointest Liver Physiol* | La stimulation du nerf sacré améliore l'accommodation gastrique chez le rat via voie afférente spinale et efférente vagale |
-| [18322959](https://pubmed.ncbi.nlm.nih.gov/18322959/) | 2008 | Animal (pharmacologique) | *World J Gastroenterol* | La ghréline et le GHRP-6 améliorent la motilité gastrique dans un modèle murin de gastroparésie diabétique |
-| [8194696](https://pubmed.ncbi.nlm.nih.gov/8194696/) | 1994 | Animal (observationnel) | *Gastroenterology* | Retard de vidange gastrique induit par anaphylaxie alimentaire chez le rat sensitisé — médiateurs de la gastroparésie post-anaphylactique |
-| [33867519](https://pubmed.ncbi.nlm.nih.gov/33867519/) | 2021 | Rapport de cas | *Am J Case Reports* | Normalisation du lactate sérique par modifications du mode de vie chez une patiente porteuse du variant m.3243A>G (MELAS avec gastroparésie associée) |
+|------|-----|------|------|---------|
+| [25057793](https://pubmed.ncbi.nlm.nih.gov/25057793/) | 2014 | Étude animale (souris) | Endocrinology | La dexaméthasone provoque une gastroparésie chez la souris par déplétion en L-arginine |
+| [23639814](https://pubmed.ncbi.nlm.nih.gov/23639814/) | 2013 | Étude animale (souris) | Am J Physiol Gastrointest Liver Physiol | Le déficit en tétrahydrobioptérine (cofacteur de la NOS) induit une gastroparésie chez le souriceau |
+| [35380456](https://pubmed.ncbi.nlm.nih.gov/35380456/) | 2022 | Étude animale (rat) | Am J Physiol Gastrointest Liver Physiol | Relaxation nitrergique altérée du sphincter pylorique dans un modèle parkinsonien |
+| [18312542](https://pubmed.ncbi.nlm.nih.gov/18312542/) | 2008 | Étude animale (rat) | Neurogastroenterol Motil | Neuropathie myentérique jéjunale chez le rat diabétique BB, dans le contexte de la baisse d'expression de la nNOS |
+| [18322959](https://pubmed.ncbi.nlm.nih.gov/18322959/) | 2008 | Étude animale (souris) | World J Gastroenterol | Effets moteurs gastriques de la ghréline et du GHRP-6 chez des souris diabétiques avec gastroparésie |
+| [19023028](https://pubmed.ncbi.nlm.nih.gov/19023028/) | 2009 | Étude animale (chien, stimulation électrique) | Am J Physiol Gastrointest Liver Physiol | La stimulation électrique gastrique synchronisée améliore l'accommodation gastrique via la voie nitrergique |
+| [21193530](https://pubmed.ncbi.nlm.nih.gov/21193530/) | 2011 | Étude animale (souris) | Am J Physiol Gastrointest Liver Physiol | L'inhibition de la motilité gastrique par l'hyperglycémie passe par les canaux KATP des ganglions nodosus |
+| [31984783](https://pubmed.ncbi.nlm.nih.gov/31984783/) | 2020 | Étude animale (rat, neuromodulation) | Am J Physiol Gastrointest Liver Physiol | La stimulation du nerf sacré augmente l'accommodation gastrique chez le rat |
+| [8194696](https://pubmed.ncbi.nlm.nih.gov/8194696/) | 1994 | Étude animale (rat) | Gastroenterology | Réponse motrice gastrique à l'anaphylaxie alimentaire chez le rat |
+| [33867519](https://pubmed.ncbi.nlm.nih.gov/33867519/) | 2021 | Rapport de cas | Am J Case Rep | Normalisation du lactate sérique par modification du mode de vie chez une porteuse de la variante m.3243A>G |
 
----
+Seules les trois premières publications se rattachent directement à l'hypothèse arginine/NO. Les autres décrivent des modèles de gastroparésie sans étudier l'arginine. Leur évaluation de pertinence est encore en attente.
+
+## Informations de Marché en France
+
+Le marché compte 20 AMM au total, dont voici les 5 principales. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 64556465 | SARGENOR 1 g/5 ml, solution buvable | Solution buvable |
+| 62999615 | SARGENOR A LA VITAMINE C | Comprimé effervescent |
+| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion |
+| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion |
+| 63183821 | AMINOPLASMAL 8 | Solution pour perfusion |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Les preuves disponibles se limitent à des études précliniques (niveau L4, modèles animaux exclusivement). Bien que le lien mécanistique entre la déplétion en L-arginine et la gastroparésie soit biologiquement cohérent et directement démontré dans au moins un modèle animal (PMID 25057793), aucun essai clinique humain n'a évalué cette approche thérapeutique, et le médicament n'est pas commercialisé en France dans cette indication.
+- Les preuves se limitent à des études animales (niveau L4). Il n'existe aucune donnée humaine d'efficacité ou de sécurité de l'arginine dans la gastroparésie, et le score TxGNN élevé ne suffit pas à lui seul.
+- Les données de sécurité de la notice ANSM manquent et bloquent le criblage de sécurité. Le stade actuel est S0 (question de recherche).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Essai clinique de Phase 1/2 évaluant la supplémentation orale en L-arginine chez des patients atteints de gastroparésie (modèle glucocorticoïde-induite en priorité, compte tenu du mécanisme le mieux documenté)
-- Données pharmacocinétiques sur les concentrations plasmatiques et tissulaires atteignables (paroi gastrique) après administration orale
-- Profil de sécurité formalisé : risques spécifiques à identifier (hyperargininémie, interactions avec des pathologies rénales ou herpétiques, stimulation de l'arginase)
-- Données complètes sur le mécanisme d'action (MOA DrugBank)
-- Données réglementaires de sécurité (notice/RCP, mises en garde ANSM)
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), une lacune bloquante.
+- Obtenir les données de mécanisme d'action via DrugBank.
+- Identifier l'indication originale de chaque AMM (textes d'indication non renseignés).
+- Rechercher des études humaines (essais cliniques, séries de cas) sur l'arginine ou les donneurs de NO dans la gastroparésie.
+- Évaluer la compatibilité des voies d'administration (orale ou perfusion) avec l'usage visé.
+- Finaliser l'évaluation de pertinence des publications, actuellement en attente.
+
+*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

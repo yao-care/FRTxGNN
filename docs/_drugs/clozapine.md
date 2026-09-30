@@ -2,7 +2,7 @@
 layout: default
 title: Clozapine
 parent: Preuves élevées (L1-L2)
-nav_order: 86
+nav_order: 88
 evidence_level: L2
 indication_count: 10
 ---
@@ -33,87 +33,87 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Clozapine est un antipsychotique atypique de deuxième génération, largement reconnu comme traitement de référence de la schizophrénie résistante aux traitements conventionnels.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Trouble Bipolaire avec Épisode Maniaque** (*manic bipolar affective disorder*),
-avec **6 essais cliniques** recensés et **20 publications** soutenant actuellement cette direction de repositionnement.
-
----
+La clozapine est un antipsychotique atypique, connu par ailleurs pour le traitement de la schizophrénie résistante. Les données ANSM fournies ne renseignent pas le texte de l'indication.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble bipolaire maniaque**. **6 essais cliniques** et **20 publications** ont été retrouvés, mais un seul est un essai d'efficacité de la clozapine (phase 2, 42 patients).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Schizophrénie résistante aux traitements (contexte clinique établi) |
-| Nouvelle Indication Prédite | Trouble Bipolaire avec Épisode Maniaque (*Manic Bipolar Affective Disorder*) |
-| Score de Prédiction TxGNN | 99,95% |
+| Indication Originale | Schizophrénie résistante (connaissance générale ; le texte d'indication des AMM n'est pas renseigné dans les données fournies) |
+| Nouvelle Indication Prédite | Trouble bipolaire maniaque (manic bipolar affective disorder) |
+| Score de Prédiction TxGNN | 99,95 % |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Non référencé dans le système (données TFDA absentes) |
-| Nombre d'AMM | 0 (aucune donnée disponible dans le système) |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 18 |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action officiel ne sont pas disponibles dans le système actuel. Sur la base des informations cliniques connues, la clozapine est un antipsychotique atypique à action multi-récepteurs dont le profil pharmacologique est particulièrement large : elle exerce des propriétés antagonistes sur les récepteurs dopaminergiques D1, D2 et D4, sérotoninergiques 5-HT2A et 5-HT2C, histaminiques H1, muscariniques M1 à M5, ainsi qu'adrénergiques α1 et α2. Ce profil multi-cibles lui confère une action stabilisatrice multimodale qui peut simultanément réduire la suractivité dopaminergique à l'origine des symptômes maniaques, tout en modulant le système sérotoninergique — notamment via le blocage des récepteurs 5-HT2C, qui possède un mécanisme stabilisateur de l'humeur indépendant.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la clozapine fait partie des antipsychotiques atypiques. Son efficacité dans les psychoses résistantes est reconnue, et mécanistiquement elle pourrait être applicable à la manie résistante.
 
-Le trouble bipolaire avec épisode maniaque et la schizophrénie partagent plusieurs mécanismes neurobiologiques fondamentaux, notamment une hyperactivité dopaminergique mésolimbique et des dysfonctions des circuits glutamatergiques préfrontaux. Cette proximité pathophysiologique explique pourquoi les antipsychotiques, initialement développés pour la schizophrénie, ont démontré une utilité dans les épisodes maniaques sévères. La faible occupation des récepteurs D2 par la clozapine, combinée à un puissant antagonisme D4 et 5-HT2A, présente un profil particulièrement adapté aux patients en échec thérapeutique aux traitements conventionnels (lithium, valproate, antipsychotiques de première ligne).
+Son profil pharmacologique large (antagonisme D2/D4, 5-HT2A, muscarinique, alpha-adrénergique et H1) pourrait expliquer des effets antimaniaques et antisuicidaires dans les troubles de l'humeur résistants. **Ce lien est une inférence de pharmacologie générale : les données fournies ne l'établissent pas.**
 
-Plusieurs revues systématiques avec méta-analyse, une étude en double aveugle complétée (Phase 2, NCT00029458), ainsi que des données pharmacoépidémiologiques asiatiques confirment l'efficacité de la clozapine dans le trouble bipolaire résistant. La prédiction TxGNN s'appuie sur cette convergence mécanistique et clinique pour classer cette indication parmi les plus prometteuses pour un repositionnement encadré.
-
----
+La schizophrénie et la manie bipolaire partagent des symptômes psychotiques et une part de résistance aux traitements de première ligne. Des revues de la littérature (dont une méta-analyse de 2020) étudient déjà la clozapine dans le trouble bipolaire, surtout résistant.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | Terminé | 42 | Essai en double aveugle évaluant directement l'efficacité et la sécurité de la clozapine dans la phase maniaque du trouble bipolaire résistant au traitement ; preuve directe et centrale pour cette indication |
-| [NCT05603104](https://clinicaltrials.gov/study/NCT05603104) | Phase 3 | En recrutement | 1 254 | Grand ECR multicentrique évaluant l'effet d'un traitement pharmacologique intensifié pour la schizophrénie, le TDM et le trouble bipolaire dépressif après premier échec thérapeutique |
-| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | En recrutement | 40 | Évaluation de l'association pharmacothérapie + programme RECOVERYTRSBDGR pour le trouble bipolaire résistant au traitement |
-| [NCT07398365](https://clinicaltrials.gov/study/NCT07398365) | N/A | En recrutement | 100 | Étude observationnelle caractérisant les phénotypes médicaux et psychiatriques des patients hospitalisés en psychiatrie adulte NHS |
-| [NCT03651674](https://clinicaltrials.gov/study/NCT03651674) | N/A | Inconnu | 200 | Étude IRM longitudinale sur les effets de l'ECT dans la schizophrénie et le trouble bipolaire, cherchant des marqueurs neuroimageurs prédictifs de réponse |
-| [NCT06993662](https://clinicaltrials.gov/study/NCT06993662) | Phase 1 | Actif, non en recrutement | 107 | Évaluation de l'association pharmacothérapie et thérapie cognitive et comportementale individuelle dans une pratique privée pour les troubles psychiatriques |
-
----
+| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | Terminé | 42 | Étude en double aveugle de l'efficacité et de la sécurité de la clozapine dans la manie résistante. Base principale du niveau L2. Le titre est tronqué, donc la population exacte reste à confirmer. |
+| [NCT05603104](https://clinicaltrials.gov/study/NCT05603104) | Phase 3 | En recrutement | 1254 | Traitement pharmacologique intensifié après un premier échec (schizophrénie, dépression majeure, dépression bipolaire). Bras non visibles, pas de résultats. Ne peut pas soutenir L1. |
+| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | En recrutement | 40 | Pharmacothérapie associée à des programmes psychosociaux de rétablissement (schizophrénie et bipolaire résistants). L'intervention testée est psychosociale. |
+| [NCT06993662](https://clinicaltrials.gov/study/NCT06993662) | Phase 1 | Actif, non recrutant | 107 | Pharmacothérapie associée à une thérapie cognitivo-comportementale. L'apport de la clozapine ne peut pas être isolé. |
+| [NCT03651674](https://clinicaltrials.gov/study/NCT03651674) | N/A | Inconnu | 200 | Étude IRM de l'effet de l'électroconvulsivothérapie (schizophrénie, bipolaire). Pas un essai sur la clozapine. |
+| [NCT07398365](https://clinicaltrials.gov/study/NCT07398365) | N/A | En recrutement | 100 | Phénotypage médical de patients hospitalisés en psychiatrie (NHS). Observationnel, pas un essai d'efficacité. |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Revue systématique / Méta-analyse | Journal of Psychiatric Research | Évalue l'efficacité clinique de la clozapine dans le trouble bipolaire et son profil d'effets indésirables ; référence méthodologique de niveau 1 |
-| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Revue systématique | Bipolar Disorders | Évalue spécifiquement l'efficacité et la sécurité de la clozapine pour le trouble bipolaire résistant au traitement (TRBD) |
-| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Revue narrative | Bipolar Disorders | Synthèse des connaissances actuelles sur la clozapine dans le trouble bipolaire et perspectives de recherche futures |
-| [31488793](https://pubmed.ncbi.nlm.nih.gov/31488793/) | 2019 | Revue | Psychiatria Danubina | Clozapine comme traitement prometteur de la suicidalité dans le trouble bipolaire, grâce à ses propriétés anti-agressivité et anti-impulsivité uniques |
-| [37068038](https://pubmed.ncbi.nlm.nih.gov/37068038/) | 2023 | Cross-sectionnel / Registre | Journal of Clinical Psychopharmacology | Étude pharmacoépidémiologique multicentrienne asiatique (APPS Consortium) sur les caractéristiques cliniques et les modalités de prescription de la clozapine pour le trouble bipolaire |
-| [40174308](https://pubmed.ncbi.nlm.nih.gov/40174308/) | 2025 | Cohorte rétrospective nationale | Journal of Psychiatric Research | Étude coréenne en vie réelle à l'échelle nationale évaluant l'efficacité antisuicidaire de la clozapine, du lithium et du valproate dans la schizophrénie et le trouble bipolaire |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Revue de pratique clinique | Acta Psychiatrica Scandinavica | Revue des options de traitement fondées sur les preuves pour la manie bipolaire, incluant le choix du stabilisateur d'humeur et de l'antipsychotique approprié |
-| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Revue | Molecular Psychiatry | Analyse détaillée du trouble bipolaire résistant : options thérapeutiques établies et émergentes, dont les antipsychotiques de deuxième génération (SGAs) |
-| [11280956](https://pubmed.ncbi.nlm.nih.gov/11280956/) | 2001 | Revue | Bulletin of the Menninger Clinic | Vue d'ensemble des nouvelles pharmacothérapies pour le trouble bipolaire résistant, notamment les anticonvulsivants et les SGAs |
-| [10682225](https://pubmed.ncbi.nlm.nih.gov/10682225/) | 2000 | Revue / Série de cas | Clinical Neuropharmacology | Revue de 36 patients traités par association ECT + clozapine : 67% ont bénéficié du traitement combiné, profil de sécurité globalement acceptable |
+| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Revue systématique / méta-analyse | J Psychiatr Res | Évalue l'efficacité clinique de la clozapine dans le trouble bipolaire et son profil d'effets indésirables. |
+| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Revue systématique | Bipolar Disord | Efficacité et sécurité de la clozapine dans le trouble bipolaire résistant. |
+| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Revue | Bipolar Disord | État des connaissances et perspectives sur la clozapine dans le trouble bipolaire. |
+| [31488793](https://pubmed.ncbi.nlm.nih.gov/31488793/) | 2019 | Revue | Psychiatr Danub | La clozapine est présentée comme piste prometteuse contre la suicidalité dans le trouble bipolaire, aucune stratégie approuvée n'existant à ce jour. |
+| [37068038](https://pubmed.ncbi.nlm.nih.gov/37068038/) | 2023 | Étude pharmacoépidémiologique | J Clin Psychopharmacol | Schémas de prescription de la clozapine dans le trouble bipolaire en Asie. |
+| [40174308](https://pubmed.ncbi.nlm.nih.gov/40174308/) | 2025 | Cohorte rétrospective | J Psychiatr Res | Efficacité antisuicidaire de la clozapine, du lithium et du valproate (schizophrénie et bipolaire) dans une base d'assurance nationale sud-coréenne. |
+| [31567198](https://pubmed.ncbi.nlm.nih.gov/31567198/) | 2021 | Article de synthèse | Am J Ther | Défis de la titration rapide de la clozapine dans la schizophrénie et le trouble bipolaire. |
+| [10682225](https://pubmed.ncbi.nlm.nih.gov/10682225/) | 2000 | Revue de cas | Clin Neuropharmacol | 36 patients traités par ECT et clozapine : 67 % ont bénéficié de l'association, avec 16,6 % d'effets indésirables. |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Revue | Acta Psychiatr Scand | Options fondées sur les preuves pour la manie bipolaire (choix du thymorégulateur et de l'antipsychotique). |
+| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Revue | Mol Psychiatry | Le trouble bipolaire résistant reste un défi malgré les traitements de première ligne validés. |
 
----
+## Informations de Marché en France
+
+18 AMM au total ; les 5 principales sont listées ci-dessous. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 69021694 | CLOZAPINE EG LABO 25 mg | Comprimé sécable |
+| 61491877 | CLOZAPINE BIOGARAN 100 mg | Comprimé sécable |
+| 61247556 | CLOZAPINE TEVA 100 mg | Comprimé sécable |
+| 64528640 | CLOZAPINE EG LABO 100 mg | Comprimé sécable |
+| 68735825 | CLOZAPINE ACCORD 100 mg | Comprimé sécable |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
-> Les données de mise en garde, contre-indications et interactions médicamenteuses n'ont pas été retrouvées dans le système lors de la consultation. Une attention particulière est recommandée pour le risque d'agranulocytose, complication grave connue de la clozapine nécessitant une surveillance hématologique régulière (programme REMS dans de nombreux pays).
-
----
-
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-Un essai clinique de Phase 2 en double aveugle complété (NCT00029458, n=42) et deux revues systématiques avec méta-analyse soutiennent directement l'utilisation de la clozapine dans le trouble bipolaire maniaque résistant au traitement. Le niveau de preuve L2 est suffisant pour envisager une utilisation encadrée, mais l'absence de données réglementaires françaises disponibles dans le système et l'absence de données de sécurité structurées exigent une vigilance accrue avant toute application clinique.
+Un seul essai de phase 2 (42 patients, population exacte non confirmée) soutient l'indication, et les autres essais ne testent pas la clozapine elle-même. Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'évaluation de sécurité. Le score TxGNN élevé (99,95 %) ne remplace pas ces preuves.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Vérification du statut AMM auprès de la base de données ANSM (la clozapine est connue sous les marques Leponex® et génériques en Europe)
-- Données complètes sur le mécanisme d'action (MOA) via DrugBank API (DG002)
-- Données de sécurité ANSM/TFDA : mises en garde, contre-indications et interactions médicamenteuses (DG001)
-- Protocole de surveillance hématologique formalisé (risque d'agranulocytose — programme type REMS)
-- Plan de gestion des risques pour une utilisation dans le trouble bipolaire résistant, population cible clairement définie
+- Télécharger et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante.
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Confirmer la population de NCT00029458 et ses résultats publiés.
+- Vérifier si un essai de phase 3 complété avec résultats existe pour la clozapine dans le trouble bipolaire (par exemple NCT00036582, pédiatrique, dont les résultats ne sont pas fournis) et si le niveau L1 est atteignable.
+- Prévoir, en cas de poursuite, un plan de surveillance : agranulocytose et neutropénie, risque convulsif, myocardite, effets métaboliques, titration lente.
+- Renseigner les indications approuvées des AMM françaises.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

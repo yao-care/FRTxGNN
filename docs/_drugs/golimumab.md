@@ -2,7 +2,7 @@
 layout: default
 title: Golimumab
 parent: Preuves modérées (L3-L4)
-nav_order: 139
+nav_order: 142
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,82 +29,82 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Golimumab : De la Polyarthrite Rhumatoïde à la Vascularite Rhumatoïde
+# Golimumab : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
 
 ## Résumé en Une Phrase
 
-Golimumab (Simponi®) est un anticorps monoclonal anti-TNF-α entièrement humain, initialement approuvé pour le traitement de la polyarthrite rhumatoïde, de l'arthrite psoriasique et de la spondylarthrite ankylosante dans de nombreux pays (FDA, EMA).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vascularite rhumatoïde** (rheumatoid vasculitis),
-avec **3 essais cliniques** et **6 publications** soutenant actuellement cette direction de recherche.
+Le golimumab est un anticorps monoclonal humain anti-TNF-alpha, utilisé à l'origine dans les rhumatismes inflammatoires (notamment la polyarthrite rhumatoïde).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vascularite rhumatoïde**, mais les preuves directes sont très faibles : **3 essais cliniques** et **6 publications** ont été retrouvés, tous indirects (contexte général de la polyarthrite rhumatoïde, aucun ne teste le golimumab dans la vascularite).
 
 ---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Polyarthrite rhumatoïde / Arthrite psoriasique / Spondylarthrite ankylosante (approbations FDA/EMA mondiales) |
-| Nouvelle Indication Prédite | Vascularite Rhumatoïde (Rheumatoid Vasculitis) |
+|------|------|
+| Indication Originale | Non renseignée dans les AMM françaises ; d'après la littérature, polyarthrite rhumatoïde, rhumatisme psoriasique et spondylarthrite ankylosante |
+| Nouvelle Indication Prédite | Vascularite rhumatoïde |
 | Score de Prédiction TxGNN | 99,73 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché (Taïwan) | Non commercialisé |
-| Nombre d'AMM (Taïwan) | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 4 |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Golimumab est un anticorps monoclonal IgG1κ entièrement humain qui se lie de manière sélective et de haute affinité au TNF-α humain soluble et transmembranaire, bloquant son interaction avec les récepteurs membranaires p55 et p75. Cette inhibition du TNF-α supprime la cascade inflammatoire médiée par NF-κB, réduisant la production de cytokines pro-inflammatoires (IL-1β, IL-6, IL-8), l'expression de molécules d'adhésion endothéliale et l'activation des cellules vasculaires. C'est précisément ce mécanisme central qui fonde son efficacité remarquable dans les arthrites inflammatoires chroniques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la littérature, le golimumab est un anticorps monoclonal humain dirigé contre le TNF-alpha. Son efficacité dans la polyarthrite rhumatoïde est établie et, sur le plan mécanistique, il pourrait être applicable à la vascularite rhumatoïde.
 
-La vascularite rhumatoïde est une manifestation extra-articulaire grave de la polyarthrite rhumatoïde sévère et séropositive (RF+, anti-CCP+), survenant chez 1 à 5 % des patients. Sa physiopathologie implique le dépôt de complexes immuns dans la paroi des petits et moyens vaisseaux, l'activation du complément, et une inflammation vasculaire médiée par TNF-α conduisant à une nécrose fibrinoïde et à une ischémie tissulaire (ulcères cutanés, mono/polynévrite, atteinte viscérale). Puisque la vascularite rhumatoïde est une complication directe de la PR et partage le même substrat immunopathologique TNF-α-dépendant, l'inhibition par golimumab représente une cible mécanistique biologiquement plausible.
+La vascularite rhumatoïde est une complication extra-articulaire de la polyarthrite rhumatoïde, dans laquelle le TNF-alpha joue un rôle. Le lien mécanistique est donc plausible.
 
-Les données épidémiologiques soutiennent indirectement cette hypothèse : l'introduction des anti-TNF dans la prise en charge de la PR a été associée à une réduction significative de l'incidence de la vascularite rhumatoïde. Un rapport de cas publié en 2018 (PMID 29075910) mentionne explicitement cette tendance favorable, décrivant un patient sous golimumab chez qui une complication sévère est néanmoins survenue, soulignant la complexité de ce tableau clinique. En l'absence d'essai clinique randomisé spécifiquement dédié à cette sous-population, les preuves restent de niveau L4.
+Il faut toutefois rester prudent. Le score TxGNN élevé reflète très probablement l'association avec la polyarthrite rhumatoïde, et non une preuve propre à la vascularite. Aucun essai n'évalue le golimumab dans cette maladie. La littérature rapporte même des vascularites paradoxales survenant sous anti-TNF, comme deux cas d'artérite de Takayasu, ce qui constitue un signal de sécurité à examiner.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---|---|---|---|---|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Pas encore en recrutement | 80 | Évaluation de l'incidence des poussées rhumatologiques et des complications infectieuses lors de la gestion péri-opératoire des immunosuppresseurs (dont golimumab) chez des patients subissant une arthroplastie de l'épaule ; indirect, non ciblé sur la vascularite |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Terminé | 184 | Étude observationnelle multicentrique évaluant les schémas pratiques, l'efficacité et la sécurité du tocilizumab chez des patients PR avec réponse inadéquate aux DMARDs ou à un biologique ; contexte PR général, non spécifique à la vascularite rhumatoïde |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Inconnu | 750 000 | Très large étude observationnelle rétrospective évaluant le risque de nouvelles maladies inflammatoires immuno-médiées (IMID) chez des patients traités par biologiques ; fournit un contexte de sécurité général pour les anti-TNF, sans cibler spécifiquement la vascularite |
-
-> **Note :** Aucun essai clinique randomisé n'est spécifiquement enregistré pour golimumab dans la vascularite rhumatoïde. Les 3 essais identifiés présentent une pertinence indirecte (grade C) pour cette indication.
+|---------|------|------|------|---------|
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Pas encore en recrutement | 80 | Gestion des immunosuppresseurs avant une arthroplastie de l'épaule chez des patients rhumatologiques (poussées, douleur, complications). Ne teste pas le golimumab dans la vascularite. |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | Non applicable | Terminé | 184 | Étude non interventionnelle du tocilizumab dans la polyarthrite rhumatoïde. Contexte général, sans critère de jugement sur la vascularite. |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | Non applicable | Inconnu | 750 000 | Étude de registre sur le risque de nouvelles maladies inflammatoires à médiation immunitaire sous biothérapies. Ne démontre pas de bénéfice thérapeutique dans la vascularite. |
 
 ---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
-|---|---|---|---|---|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Cohorte/Comparative | Int. Journal of Molecular Sciences | Méta-analyse en réseau de 36 ECR comparant les 5 inhibiteurs de TNF approuvés (dont golimumab) ; tous réduisent de manière similaire la destruction articulaire radiographique dans la PR, sans différence significative entre originator et biosimilaires |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Revue | BMC Medicine | Mise à jour sur les thérapies biologiques pour les maladies rhumatologiques auto-immunes ; évalue les indications, les avantages et les limites des anti-TNF comme alternative aux DMARDs conventionnels |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Rapport de cas | Rheumatology International | Décrit un cas de pyoderma gangrenosum et arthrite pyogène chez un patient PR traité par golimumab ; mentionne explicitement la réduction de l'incidence de la vascularite rhumatoïde depuis l'avènement des agents biologiques anti-TNF |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Rapport de cas | Joint Bone Spine | Deux cas d'artérite de Takayasu survenus sous anti-TNF ; illustre le rôle du TNF-α dans les vascularites à grands vaisseaux et la complexité des interactions entre anti-TNF et vascularites systémiques |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Rapport de cas | Ocular Immunology and Inflammation | Uvéite associée à la maladie de Behçet (vascularite systémique) traitée avec succès par golimumab hors AMM ; soutient l'efficacité potentielle de golimumab dans les manifestations vasculaires inflammatoires à médiation TNF-α |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Cohorte | Seminars in Arthritis and Rheumatism | Détermine la fréquence et les causes d'insuffisance rénale terminale dans la PR, avec la vascularite rhumatoïde identifiée comme cause pertinente ; données contextuelles sur la sévérité de la complication |
+|------|-----|------|------|---------|
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Méta-analyse en réseau (36 ECR) | Int J Mol Sci | Les anti-TNF, dont le golimumab, réduisent de façon comparable la destruction articulaire dans la polyarthrite rhumatoïde. |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Revue | BMC Med | Mise à jour sur les biothérapies dans les maladies auto-immunes (intérêt, coût, effets indésirables). |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Revue | Semin Arthritis Rheum | Insuffisance rénale terminale dans la polyarthrite rhumatoïde : fréquence, causes et traitement. |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Rapport de cas | Rheumatol Int | Pyoderma gangrenosum et arthrite septique avec sepsis sévère chez une patiente sous golimumab. Rappelle que les anti-TNF ont réduit l'incidence de la vascularite rhumatoïde. |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Rapport de cas | Joint Bone Spine | Deux cas d'artérite de Takayasu apparus sous traitement anti-TNF (vascularite paradoxale). |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Rapport de cas | Ocul Immunol Inflamm | Uvéite associée à la maladie de Behçet traitée avec succès par golimumab. |
 
 ---
 
-## Informations de Marché (Taïwan — TFDA)
+## Informations de Marché en France
 
-Golimumab **n'est pas enregistré à Taïwan** (statut TFDA : non commercialisé, 0 licence d'AMM). Aucun tableau de licences n'est disponible.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 67700426 | SIMPONI 100 mg, solution injectable en seringue préremplie | Solution injectable |
+| 60035714 | SIMPONI 50 mg, solution injectable en seringue préremplie | Solution injectable |
+| 62534114 | SIMPONI 100 mg, solution injectable en stylo prérempli | Solution injectable |
+| 62222050 | SIMPONI 50 mg, solution injectable en stylo pré-rempli | Solution injectable |
 
-> **Contexte international :** Golimumab (Simponi®, Simponi Aria® IV) est approuvé par la FDA (États-Unis) et l'EMA (Europe) pour la polyarthrite rhumatoïde, l'arthrite psoriasique, la spondylarthrite axiale (dont l'ankylosante) et la colite ulcéreuse. La formulation intraveineuse est également approuvée par la FDA pour la polyarthrite juvénile idiopathique à évolution polyarticulaire. Son absence de commercialisation à Taïwan constitue un enjeu d'accès à considérer pour tout développement dans cette région.
+Titulaire des 4 AMM : Janssen-Cilag International NV. Le texte des indications approuvées n'est pas disponible dans les données reçues.
 
 ---
 
 ## Considérations de Sécurité
 
-Les données de sécurité spécifiques (avertissements officiels TFDA, contre-indications formelles) ne sont pas disponibles dans ce dossier. Sur la base du profil de sécurité mondial connu de golimumab en tant qu'inhibiteur du TNF-α :
+Veuillez consulter la notice pour les informations de sécurité.
 
-- **Risque infectieux :** Augmentation du risque d'infections graves, notamment tuberculose (dépistage obligatoire avant instauration), infections fongiques invasives (histoplasmose, coccidioïdomycose), infections bactériennes et virales opportunistes.
-- **Réactivation virale :** Risque de réactivation de l'hépatite B chez les porteurs chroniques ; sérologie HBV obligatoire en pré-thérapeutique.
-- **Risque de malignité :** Signal de risque accru de lymphomes et d'autres malignités, notamment chez les patients pédiatriques traités par anti-TNF combiné à un immunomodulateur.
-
-> Veuillez consulter la notice officielle (EMA/FDA) pour les informations complètes de sécurité.
+Signaux issus de la littérature à examiner :
+- Cas d'artérite de Takayasu (vascularite paradoxale) survenus sous anti-TNF.
+- Cas de sepsis sévère (pyoderma gangrenosum avec arthrite septique) chez une patiente sous golimumab.
 
 ---
 
@@ -113,14 +113,19 @@ Les données de sécurité spécifiques (avertissements officiels TFDA, contre-i
 **Décision : Hold**
 
 **Justification :**
-La vascularite rhumatoïde partage le même substrat pathologique TNF-α-dépendant que la PR classique, et des données épidémiologiques indirectes suggèrent un effet protecteur des anti-TNF sur cette complication. Cependant, l'absence totale d'essai clinique randomisé spécifiquement dédié, une base littéraire limitée à des rapports de cas et des études observationnelles indirectes (niveau de preuve L4), et l'absence d'enregistrement à Taïwan ne permettent pas de recommander un passage en évaluation clinique formelle sans travaux préliminaires complémentaires.
+- Le mécanisme est plausible, mais aucun essai ni publication ne teste le golimumab dans la vascularite rhumatoïde, et le score élevé reflète probablement l'association avec la polyarthrite rhumatoïde. Des cas de vascularite paradoxale sous anti-TNF appellent à la prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtention des données de mécanisme d'action (MOA) détaillées depuis DrugBank (DG002 — priorité haute)
-- Récupération des avertissements et contre-indications officiels TFDA (DG001 — priorité bloquante)
-- Revue systématique de la littérature dédiée à la vascularite rhumatoïde sous anti-TNF (au-delà des 6 publications actuelles)
-- Conception d'un registre ou d'une étude de cohorte prospective ciblant spécifiquement les patients PR sévères avec vascularite confirmée traités par golimumab
-- Évaluation du chemin réglementaire nécessaire pour un enregistrement à Taïwan avant toute étude locale
+- La notice de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité.
+- Les données détaillées sur le mécanisme d'action (DrugBank).
+- Les indications approuvées de chaque AMM, à vérifier.
+- Des études dédiées au golimumab (ou aux anti-TNF) dans la vascularite rhumatoïde, et une revue des signaux de vascularite paradoxale.
+
+**Autres prédictions du même dossier (pour information) :**
+- La spondylopathie inflammatoire et la polyarthrite juvénile idiopathique polyarticulaire (niveau L1, « Proceed with Guardrails ») correspondent plutôt à des indications déjà existantes. Elles confirment la cohérence du modèle mais ne relèvent pas d'un repositionnement.
+- L'hypermobilité du coccyx et la maladie de Kümmell (niveau L5, « Hold ») n'ont ni justification mécanistique ni preuve, et sont probablement des artefacts du graphe de connaissances.
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

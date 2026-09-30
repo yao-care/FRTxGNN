@@ -2,7 +2,7 @@
 layout: default
 title: Ofatumumab
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 217
+nav_order: 220
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,85 +29,69 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Ofatumumab : De la Leucémie Lymphoïde Chronique à la LLC/LPL avec Hypermutation Somatique du Gène IGHV
+# Ofatumumab : De l'indication d'origine (non renseignée) à la LLC/lymphome lymphocytique à petites cellules avec hypermutation somatique IGHV
 
 ## Résumé en Une Phrase
 
-Ofatumumab est un anticorps monoclonal humain anti-CD20, dont la littérature du dossier (PMID 22830942) rapporte l'approbation initiale pour la leucémie lymphoïde chronique (LLC) réfractaire à la fludarabine et à l'alemtuzumab. Le modèle TxGNN prédit qu'il pourrait être pertinent pour la **LLC/LPL avec hypermutation somatique du gène IGHV**, un sous-groupe moléculaire pronostique de la LLC, mais **aucun essai clinique ni publication spécifique** à ce sous-groupe n'est actuellement répertorié dans le dossier de preuves.
-
----
+L'ofatumumab est un anticorps monoclonal anti-CD20 entièrement humain. Les données fournies ne précisent pas son indication d'origine en France.
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **leucémie lymphoïde chronique/lymphome lymphocytique à petites cellules (LLC/LL) avec hypermutation somatique du gène IGHV**.
+Pour cette prédiction précise, **aucun essai clinique et aucune publication** ne la soutiennent actuellement ; le niveau de preuve est donc L5.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible via les AMM françaises (produit non commercialisé) ; d'après la littérature du dossier : leucémie lymphoïde chronique (LLC) réfractaire (PMID 22830942) |
-| Nouvelle Indication Prédite | Leucémie lymphoïde chronique/lymphome lymphocytique à petits lymphocytes (LLC/LPL) avec hypermutation somatique du gène IGHV |
+| Nouvelle Indication Prédite | LLC/LL avec hypermutation somatique IGHV |
 | Score de Prédiction TxGNN | 99,77 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le champ structuré de mécanisme d'action (MOA) est marqué comme donnée manquante. Cependant, la littérature contenue dans le dossier (ex. PMID 20068404, 20481657, 22830942) décrit Ofatumumab comme un anticorps monoclonal humain IgG1κ entièrement humain, ciblant un épitope distinct proche de la membrane sur la molécule CD20, et induisant la lyse des lymphocytes B via la cytotoxicité dépendante du complément (CDC) et la cytotoxicité cellulaire dépendante des anticorps (ADCC). Le même PMID 22830942 indique que son approbation initiale par la FDA (2009) concernait la LLC réfractaire à la fludarabine et à l'alemtuzumab.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, l'ofatumumab cible la molécule CD20 à la surface des lymphocytes B. Il détruit les cellules malignes par cytotoxicité dépendante du complément (CDC) et par cytotoxicité cellulaire dépendante des anticorps (ADCC).
 
-L'indication prédite en tête de classement n'est pas une nouvelle aire pathologique, mais un sous-groupe moléculaire de l'indication d'origine : la LLC/LPL stratifiée selon le statut de mutation somatique du gène IGHV, un marqueur pronostique bien établi en LLC. Il s'agit donc d'un raffinement de population plutôt que d'un repositionnement vers une maladie distincte.
+La LLC/LL avec hypermutation IGHV est un sous-type moléculaire de la LLC/LL, une maladie des lymphocytes B exprimant CD20. Un rationnel mécanistique existe donc. Rien n'indique cependant que l'activité de l'ofatumumab dépende du statut IGHV.
 
-L'expression de CD20 étant conservée indépendamment du statut mutationnel IGHV, le mécanisme anti-CD20 est en principe applicable de façon similaire à ce sous-groupe. Cette continuité mécanistique est indirectement appuyée par le volume important de preuves déjà disponibles pour l'indication apparentée « LLC/LPL » non stratifiée (rang 5 du dossier : 34 essais cliniques et 20 publications), bien qu'aucune étude stratifiée spécifiquement par statut IGHV ne soit encore recensée dans ce dossier.
-
----
+Le score élevé reflète surtout la proximité du sous-type avec la LLC/LL dans le graphe de connaissances, et non une preuve indépendante. Les données de la LLC/LL ne constituent qu'un soutien indirect.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour ce sous-groupe moléculaire spécifique.
-
-*Note : l'indication apparentée non stratifiée « LLC/LPL » (rang 5 du dossier de preuves) dispose de 34 essais cliniques répertoriés, dont plusieurs essais de Phase 3, qui pourraient éclairer une future revue de preuves ciblée sur ce sous-groupe.*
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour ce sous-groupe moléculaire spécifique.
+Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
 
-## Cytotoxicité
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 60690011 | KESIMPTA 20 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée dans les données |
 
-| Élément | Contenu |
-|------|------|
-| Classification de Cytotoxicité | Thérapie ciblée — anticorps monoclonal anti-CD20 de 2ᵉ génération (classe identifiée via la littérature du dossier, ex. PMID 20068404) |
-| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
-| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
-
----
+Le titulaire est NOVARTIS EUROPHARM (Irlande). Le texte de l'indication est vide dans les données, alors que le rationnel du dossier suppose un usage autorisé dans la LLC. Les deux ne sont pas cohérents et doivent être vérifiés. Le seul produit listé est un stylo prérempli de 20 mg, une présentation qui ne correspond pas à la formulation utilisée en hématologie.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- L'indication prédite en tête de classement (LLC/LPL avec hypermutation somatique IGHV) affiche un score TxGNN élevé (99,77 %) mais ne dispose d'aucun essai clinique ni publication spécifique répertorié (niveau de preuve L5).
-- Un data gap bloquant (DG001 — mises en garde/contre-indications TFDA) empêche toute évaluation de sécurité S1 pour ce candidat.
-- Le produit n'est pas commercialisé en France (0 AMM), ce qui limite toute mise en œuvre opérationnelle immédiate.
+- Cette prédiction repose uniquement sur le modèle, sans essai ni publication propre au sous-type IGHV muté (L5, stade S0).
+- Les données de sécurité et l'indication d'origine sont manquantes, ce qui bloque le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice TFDA/EMA pour lever le data gap bloquant DG001 (mises en garde, contre-indications)
-- Compléter les données structurées de mécanisme d'action via l'API DrugBank (DG002)
-- Rechercher spécifiquement des essais et publications stratifiés par statut de mutation IGHV en LLC/LPL, afin d'étayer directement l'indication de rang 1
-- Examiner en parallèle l'indication de rang 5 (LLC/LPL non stratifiée), déjà appuyée par 34 essais cliniques et 20 publications, comme piste de repositionnement plus mature
-- Évaluer la stratégie d'enregistrement en France compte tenu de l'absence actuelle d'AMM
+- Télécharger et analyser la notice de l'ANSM (mises en garde, contre-indications, indication autorisée de l'AMM 60690011).
+- Compléter le mécanisme d'action via DrugBank (DB06650).
+- Vérifier la cohérence entre l'AMM listée (stylo de 20 mg) et l'usage hématologique supposé.
+- Rechercher des données propres au sous-type IGHV muté, par exemple des analyses en sous-groupes des essais sur la LLC/LL.
+- Envisager de prioriser d'autres prédictions mieux documentées du même dossier :
+  - la **LLC/LL sans sous-type** (rang 5), niveau L1 : plusieurs essais de phase 3 terminés, mais cette entrée relève surtout de la confirmation d'une indication existante ;
+  - le **lymphome folliculaire** (rang 3), niveau L2 : 15 essais, dont des phases 2 randomisées, sans phase 3, avec l'anti-CD20 rituximab comme standard établi.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

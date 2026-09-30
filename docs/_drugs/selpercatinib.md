@@ -2,7 +2,7 @@
 layout: default
 title: Selpercatinib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 276
+nav_order: 280
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,90 +29,87 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-Utilisation du contexte fourni pour rédiger le rapport directement (tâche de génération de contenu structuré, pas de recherche de code nécessaire).
-
-# Selpercatinib : Des Cancers RET Fusion-Positifs à l'Hypertension Pulmonaire
+# Sélpercatinib : Des cancers à altération de RET à l'hypertension pulmonaire
 
 ## Résumé en Une Phrase
 
-Selpercatinib est un inhibiteur sélectif de la tyrosine kinase RET, dont l'usage connu concerne les cancers RET fusion-positifs ou RET-mutés (mentionnés dans les données comme cancer médullaire de la thyroïde, CBNPC). Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hypertension Pulmonaire**, mais cette direction n'est actuellement soutenue par **aucun essai clinique** et seulement **3 publications** dont la pertinence directe avec l'indication prédite reste à établir.
-
----
+Le sélpercatinib est un inhibiteur sélectif de la kinase RET, dont la littérature associe l'usage aux cancers du poumon non à petites cellules avec fusion de RET et au cancer médullaire de la thyroïde. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais **aucun essai clinique** et **aucune publication** ne soutiennent directement cette indication. Cette prédiction repose uniquement sur le modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancers RET fusion-positifs / RET-mutés (ex. carcinome médullaire de la thyroïde, CBNPC) — non documentée formellement dans ce pack (donnée manquante côté réglementaire) |
-| Nouvelle Indication Prédite | Hypertension Pulmonaire |
-| Score de Prédiction TxGNN | 99.18% |
+| Indication Originale | Non renseignée dans les données ANSM (la littérature mentionne le CBNPC avec fusion de RET et le cancer médullaire de la thyroïde) |
+| Nouvelle Indication Prédite | Hypertension pulmonaire |
+| Score de Prédiction TxGNN | 99,18 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 3 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce pack. Sur la base des informations connues, selpercatinib est un inhibiteur hautement sélectif de la tyrosine kinase RET, dont l'efficacité dans les cancers RET fusion-positifs/mutés a été établie, et mécanistiquement il pourrait exister un lien avec l'hypertension pulmonaire via la voie de signalisation RET/GDNF.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le sélpercatinib est un inhibiteur de kinase hautement sélectif de RET, avec très peu d'activité sur le VEGFR. Son efficacité a été documentée dans des cancers dépendants de RET, mais rien n'indique qu'il soit applicable mécanistiquement à l'hypertension pulmonaire.
 
-La voie GDNF/RET a été évoquée dans la littérature préclinique sur le remodelage vasculaire pulmonaire, mais aucune étude n'établit à ce jour de lien direct entre l'inhibition de RET par le selpercatinib et le traitement de l'hypertension pulmonaire. Ce lien mécanistique reste donc **spéculatif** : il repose sur une analogie de voie de signalisation et non sur une preuve directe de repositionnement.
+**Aucun lien mécanistique établi.** RET n'a pas de rôle reconnu dans le remodelage vasculaire pulmonaire. Le score élevé (99,18 %) provient d'une prédiction du graphe de connaissances, sans confirmation clinique ni préclinique dans les données fournies. Les indications d'origine et le mécanisme d'action manquant, la plausibilité mécanistique ne peut pas être vérifiée par rapport aux données sources.
 
-En l'état, cette prédiction relève exclusivement du score algorithmique TxGNN, sans corroboration clinique ou préclinique ciblée sur l'hypertension pulmonaire à ce jour.
-
----
+Point d'attention : l'hypertension artérielle systémique est un effet indésirable connu du sélpercatinib. Cela constitue un signal de sécurité et non un argument en faveur de l'indication prédite.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
+
+Aucune de ces publications n'étudie le sélpercatinib dans l'hypertension pulmonaire. Elles concernent son usage ou son profil de sécurité dans d'autres contextes.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Étude de cohorte (pharmacovigilance réelle) | Frontiers in pharmacology | Comparaison des effets indésirables entre pralsetinib et selpercatinib à partir de la base FAERS ; pas de données spécifiques sur l'hypertension pulmonaire |
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Étude de cohorte rétrospective | Therapeutic advances in medical oncology | Efficacité en vie réelle du selpercatinib dans le CBNPC RET fusion-positif (programme d'accès, étude SIREN) ; ne porte pas sur l'hypertension pulmonaire |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Rapport de cas | Cureus | Carcinome médullaire thyroïdien métastatique associé au syndrome MEN2B (mutation RET M918T), défis de prise en charge à long terme sous thérapie ciblée ; sans lien avec l'hypertension pulmonaire |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Pharmacovigilance (base FAERS) | Front Pharmacol | Comparaison des événements indésirables du pralsétinib et du sélpercatinib en vie réelle |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Cohorte rétrospective | Ther Adv Med Oncol | Sélpercatinib dans le CBNPC avec fusion de RET (étude SIREN), patients traités via un programme d'accès |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Rapport de cas | Cureus | Cancer médullaire de la thyroïde métastatique dans la NEM 2B (mutation RET M918T) : prise en charge à long terme et thérapie ciblée |
 
-**Note :** ces trois publications documentent l'usage oncologique du selpercatinib (efficacité, tolérance, contexte génétique RET) mais aucune n'aborde directement l'hypertension pulmonaire. Elles ne constituent donc pas une preuve de repositionnement, seulement un contexte pharmacologique général sur la molécule.
+## Informations de Marché en France
 
----
+Le texte des indications approuvées n'est pas renseigné dans les données disponibles.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 66580529 | RETSEVMO 40 mg, gélule | Gélule |
+| 65136400 | RETSEVMO 80 mg, comprimé pelliculé | Comprimé pelliculé |
+| 61648467 | RETSEVMO 80 mg, gélule | Gélule |
+
+Titulaire : ELI LILLY NEDERLAND BV (Pays-Bas).
 
 ## Cytotoxicité
 
-*Cette section s'applique car le selpercatinib cible des cancers RET-dépendants (carcinome médullaire de la thyroïde, CBNPC RET+).*
-
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase, sélectif RET) — non cytotoxique conventionnel |
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur sélectif de la kinase RET) |
 | Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
 | Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Fonction hépatique et tension artérielle recommandées en surveillance générale des inhibiteurs de tyrosine kinase — à confirmer par la notice officielle |
+| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
 | Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
-
----
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Mise en garde connue** : l'hypertension artérielle systémique est un effet indésirable connu du sélpercatinib. Cela est particulièrement préoccupant dans un contexte d'hypertension pulmonaire.
 
----
+Pour les autres informations de sécurité (contre-indications, interactions médicamenteuses), veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score algorithmique TxGNN (Niveau de preuve L5) : aucun essai clinique ne cible l'hypertension pulmonaire, et la littérature disponible concerne l'usage oncologique du selpercatinib sans lien direct établi. L'absence totale de données de sécurité TFDA (仿單/warnings) bloque par ailleurs toute évaluation de sécurité initiale (S1).
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, aucune publication ciblant l'hypertension pulmonaire et aucun lien mécanistique plausible. Un effet indésirable connu (hypertension systémique) va dans le sens opposé.
+- Les deux autres prédictions (migraine, migraine avec aura du tronc cérébral) sont aussi au niveau L5 et sans aucune preuve. Elles semblent être des artefacts du graphe de connaissances.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/RCP TFDA du selpercatinib pour lever le blocage sur l'évaluation de sécurité (DG001)
-- Données détaillées de mécanisme d'action via DrugBank (DG002)
-- Études précliniques ciblées sur le rôle de RET dans le remodelage vasculaire pulmonaire, pour étayer ou infirmer le lien mécanistique actuellement spéculatif
-- Recherche complémentaire d'essais cliniques ou d'ICTRP dédiés à l'hypertension pulmonaire
+- Notice ANSM (mises en garde, contre-indications), une lacune bloquante pour le criblage de sécurité
+- Indications approuvées et mécanisme d'action détaillé (DrugBank)
+- Données précliniques montrant un rôle de RET dans la vasculopathie pulmonaire
+- Analyse du signal d'hypertension avant toute poursuite de l'évaluation
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

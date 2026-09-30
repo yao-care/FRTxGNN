@@ -2,7 +2,7 @@
 layout: default
 title: Sotalol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 283
+nav_order: 287
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,70 +29,67 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Sotalol : Du Contrôle du Rythme Cardiaque (Fibrillation/Flutter Auriculaire) au Syndrome du Sinus Malade de Type 2
+# Sotalol : Des Arythmies Cardiaques au Syndrome du Sinus Malade Autosomique Dominant de Type 2
 
 ## Résumé en Une Phrase
 
-Le sotalol est cliniquement connu comme antiarythmique de classe III à action bêta-bloquante, utilisé notamment pour le contrôle du rythme dans la fibrillation/flutter auriculaire (les indications d'origine ne sont pas formellement documentées dans le dossier source ; cette information provient du contexte pharmacologique fourni dans l'Evidence Pack). Le modèle TxGNN prédit avec le score le plus élevé (**99.76 %**) une association avec la **Maladie du Sinus de Type 2 (Autosomique Dominante)**, mais cette prédiction est en réalité jugée **mécanistiquement contre-indiquée** plutôt que thérapeutique, sans aucun essai clinique ni publication pour la soutenir (**niveau de preuve L5**). Parmi les 7 candidats évalués, seule l'indication de rang 4 (« trouble d'AVC », en lien avec le contrôle du rythme dans la fibrillation auriculaire) dispose d'un support réel (**22 essais cliniques identifiés, 20 publications, niveau L2**).
-
----
+Le sotalol est un antiarythmique (bêtabloquant qui bloque aussi les canaux potassiques IKr/hERG), utilisé pour le contrôle du rythme cardiaque, notamment dans la fibrillation auriculaire. Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome du sinus malade 2, autosomique dominant**. **Aucun essai clinique et aucune publication** ne soutient actuellement cette prédiction, et le sotalol est généralement déconseillé dans cette pathologie sans pacemaker.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentée dans les données disponibles (médicament non commercialisé en France ; rôle pharmacologique connu : antiarythmique de classe III / bêta-bloquant, utilisé pour le contrôle du rythme dans la fibrillation/flutter auriculaire) |
-| Nouvelle Indication Prédite | Maladie du Sinus de Type 2, Autosomique Dominante (*sick sinus syndrome 2, autosomal dominant*) |
-| Score de Prédiction TxGNN | 99.76 % |
+| Indication Originale | Non renseignée dans les données AMM (texte d'indication vide) ; antiarythmique |
+| Nouvelle Indication Prédite | Syndrome du sinus malade 2, autosomique dominant |
+| Score de Prédiction TxGNN | 99,76 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 3 |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier source (Data Gap). Sur la base des informations contenues dans l'Evidence Pack, le sotalol combine un blocage bêta-adrénergique non sélectif et un blocage des canaux potassiques (effet de classe III), ce qui lui confère un effet chronotrope négatif — il ralentit la fréquence cardiaque et l'automaticité du nœud sinusal.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations d'évaluation, le sotalol associe un blocage bêta-adrénergique et un blocage des canaux potassiques IKr/hERG, ce qui ralentit la fréquence sinusale et la conduction auriculo-ventriculaire.
 
-**Cette prédiction n'est pas mécanistiquement raisonnable.** Le syndrome du sinus malade se caractérise précisément par une défaillance de l'automaticité du nœud sinusal et une bradycardie. L'effet pharmacologique du sotalol va donc dans le sens **opposé** au besoin thérapeutique : au lieu de corriger la dysfonction sinusale, il risquerait de l'aggraver. L'évaluation associée à cette prédiction indique explicitement qu'il s'agit probablement d'un **signal faussement positif**, généré par une proximité topologique dans le réseau maladie-médicament de TxGNN plutôt que par une logique pharmacologique réelle.
+Le lien avec le syndrome du sinus malade n'est donc, au mieux, qu'une association plausible au niveau des canaux ioniques. Le rythme sinusal et la conduction sont précisément ce que le sotalol ralentit.
 
-À titre de comparaison, la prédiction de rang 4 (« trouble d'AVC ») repose sur un mécanisme beaucoup plus plausible : en maintenant le rythme sinusal chez les patients en fibrillation/flutter auriculaire, le sotalol pourrait réduire indirectement le risque d'AVC cardio-embolique — un usage qui prolonge une indication pharmacologique déjà connue plutôt qu'un véritable repositionnement.
-
----
+**Cette prédiction est probablement un artefact du graphe de connaissances, voire le signe d'un risque.** Le sotalol est généralement mis en garde ou contre-indiqué en cas de syndrome du sinus malade sans pacemaker, à cause du risque de bradycardie et de pauses sinusales.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 62193524 | SOTALOL SANDOZ 160 mg, comprimé sécable | Comprimé sécable | SANDOZ |
+| 62519799 | SOTALEX 80 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (Allemagne) |
+| 64820630 | SOTALEX 160 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (Allemagne) |
+
+Le texte de l'indication approuvée n'est pas renseigné pour ces trois AMM.
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
----
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique entre le sotalol et la Maladie du Sinus de Type 2 est **contre-indiqué** plutôt que thérapeutique (effet bradycardisant du médicament sur une pathologie de bradycardie du nœud sinusal), et aucun essai clinique ni publication ne soutient cette direction (niveau de preuve L5).
-- Le score TxGNN élevé (99.76 %) reflète très probablement une proximité de réseau maladie-médicament plutôt qu'une hypothèse pharmacologique valide.
-- Le seul candidat parmi les 7 prédictions ayant un support de preuve substantiel est le rang 4 (« trouble d'AVC », L2, Research Question), mais il correspond à une extension du rôle antiarythmique déjà connu du sotalol dans la fibrillation auriculaire, plutôt qu'à un nouveau repositionnement.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le profil pharmacologique du sotalol (bradycardie, ralentissement de la conduction) va plutôt à l'encontre de cette indication.
+- À titre indicatif, une autre prédiction du même dossier, « accident vasculaire cérébral », présente des essais et des publications. Ils portent sur la prise en charge de la fibrillation auriculaire, où le sotalol n'est qu'un comparateur, et non sur un bénéfice propre du sotalol.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (MOA) du sotalol (DG002, actuellement Data Gap)
-- Mises en garde et contre-indications officielles de la notice / TFDA-équivalent français (DG001, bloquant pour l'évaluation de sécurité S1)
-- Si l'indication « trouble d'AVC » est retenue pour investigation, une revue qualitative des essais de grade A/B (notamment NCT00007605, NCT05279833) et une clarification du critère d'évaluation (maintien du rythme sinusal vs réduction directe de l'AVC)
-- Confirmation qu'aucun développement clinique ne doit être engagé sur la piste « Maladie du Sinus de Type 2 » compte tenu du signal contre-indicatoire identifié
+- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
+- Les données détaillées sur le mécanisme d'action (DrugBank)
+- Une recherche de littérature ciblée sur le sotalol et le syndrome du sinus malade, avec une évaluation explicite du risque de bradycardie
+- L'indication approuvée de chaque AMM, à compléter pour documenter l'indication d'origine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

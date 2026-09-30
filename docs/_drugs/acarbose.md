@@ -29,77 +29,73 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Acarbose : Rapport d'Évaluation Préliminaire — Données Insuffisantes
+# Acarbose : Du Diabète de Type 2 au Syndrome de la Personne Raide Classique
 
 ## Résumé en Une Phrase
 
-Acarbose (DrugBank : DB00284) est un inhibiteur de l'alpha-glucosidase classiquement indiqué dans le traitement du diabète de type 2. À ce stade, **aucune nouvelle indication n'a été prédite par le modèle TxGNN**, et les données réglementaires, de sécurité et de mécanisme d'action présentent des lacunes significatives empêchant une évaluation complète.
-
----
+L'acarbose est un inhibiteur des alpha-glucosidases intestinales, qui ralentit l'absorption des glucides. Il est habituellement utilisé pour contrôler la glycémie après les repas dans le diabète de type 2 (le texte d'indication des AMM françaises n'est pas renseigné dans les données reçues).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la personne raide classique**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction issue uniquement du modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans le pack de données |
-| Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
-| Score de Prédiction TxGNN | — |
-| Niveau de Preuve | **L5** (aucune étude associée, aucune prédiction) |
-| Statut de Marché en France | ✗ Non commercialisé (Not marketed) |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+| Indication Originale | Diabète de type 2 (connaissance générale ; texte d'indication des AMM non renseigné) |
+| Nouvelle Indication Prédite | Syndrome de la personne raide classique |
+| Score de Prédiction TxGNN | 99,65 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 13 |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Évaluation est-elle Limitée ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. D'après les informations connues, l'acarbose inhibe les alpha-glucosidases de l'intestin, ce qui ralentit la digestion des glucides et atténue les pics de glycémie après les repas.
 
-Acarbose est un médicament bien établi à l'échelle internationale, appartenant à la classe des inhibiteurs de l'alpha-glucosidase. Il agit en retardant la digestion des glucides complexes dans l'intestin grêle, réduisant ainsi les pics de glycémie postprandiale. Il est largement utilisé dans le traitement du diabète de type 2. Toutefois, les données détaillées sur le mécanisme d'action (MOA) ne figurent pas dans le pack de données fourni.
+Le syndrome de la personne raide est un trouble neurologique auto-immun, souvent associé à des anticorps anti-GAD65 et à une atteinte du système GABAergique. **Aucun lien mécanistique plausible n'a été identifié** avec l'inhibition des alpha-glucosidases. Le score élevé de TxGNN (0,996) vient d'une prédiction fondée sur le graphe de connaissances. Il pourrait refléter un lien indirect, par exemple la comorbidité avec le diabète ou l'auto-immunité anti-GAD, mais cette hypothèse n'est pas vérifiée.
 
-Le modèle TxGNN n'a généré **aucune prédiction de nouvelle indication** pour l'Acarbose dans cette exécution. Cela peut indiquer que le médicament ne présente pas de signaux forts de repositionnement dans le graphe de connaissances utilisé, ou que les données d'entrée étaient insuffisantes pour alimenter le modèle de prédiction.
-
-De plus, l'Acarbose ne dispose d'**aucune AMM enregistrée** dans la juridiction évaluée (statut : non commercialisé), ce qui limite considérablement la possibilité d'exploiter des données réglementaires locales pour enrichir l'analyse.
-
----
+Les autres prédictions du même modèle (forme focale du syndrome de la personne raide, syndrome de dysfonction répondant à la thiamine, opsismodysplasie, lipodystrophies localisées, agénésie pancréatique) n'ont pas non plus de preuve clinique. Seule l'agénésie pancréatique dispose de quelques publications, mais elles portent sur le diabète en général et non sur cette maladie.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé à une nouvelle indication prédite n'est disponible, car aucune prédiction TxGNN n'a été générée pour ce médicament.
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée à une nouvelle indication prédite n'est disponible actuellement.
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Aucune AMM n'est enregistrée pour l'Acarbose dans cette juridiction. Le statut de marché est **non commercialisé**.
+Les 5 AMM principales sont listées ci-dessous, sur un total de 13. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 60989978 | ACARBOSE VIATRIS 50 mg, comprimé | Comprimé | VIATRIS SANTE |
+| 65803331 | ACARBOSE EG 100 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS |
+| 69771614 | ACARBOSE SANDOZ 50 mg, comprimé | Comprimé | SANDOZ |
+| 60946941 | ACARBOSE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE |
+| 67901945 | ACARBOSE ZENTIVA 100 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Les données de mises en garde, contre-indications et interactions médicamenteuses ne sont pas disponibles dans le pack de données actuel.
-
-> ⚠️ **Lacune critique (DG001)** : Les données de mises en garde et contre-indications issues de la notice officielle n'ont pas été intégrées. Cette lacune est classée **Blocking** et empêche l'entrée en évaluation de sécurité de Phase S1.
-
----
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-L'absence totale de prédiction TxGNN, combinée aux lacunes majeures en données réglementaires et de sécurité, ne permet pas de formuler une recommandation de repositionnement. Le médicament n'est pas commercialisé localement et aucune direction thérapeutique nouvelle n'a été identifiée par le modèle.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible.
+- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- **[DG002 — Priorité Haute]** Données détaillées sur le mécanisme d'action (MOA) via l'API DrugBank
-- **[DG001 — Bloquant]** Récupération et analyse de la notice officielle (mises en garde, contre-indications) depuis le site de l'autorité réglementaire
-- Réexécution du modèle TxGNN avec des données d'entrée enrichies (indications originales, cibles moléculaires, voies de signalisation)
-- Vérification du statut réglementaire dans d'autres juridictions (EMA, FDA) pour obtenir des données d'indication de référence
-- Exploration manuelle de la littérature pour identifier d'éventuels signaux de repositionnement (effets pléiotropes connus de l'Acarbose : cardiovasculaire, syndrome de dumping, etc.)
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, texte des indications approuvées)
+- Obtenir les données de mécanisme d'action depuis DrugBank
+- Mener une recherche bibliographique ciblée sur l'acarbose et le syndrome de la personne raide (auto-immunité anti-GAD65, diabète associé)
+- Documenter une hypothèse mécanistique testable avant toute étude préclinique ou clinique
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

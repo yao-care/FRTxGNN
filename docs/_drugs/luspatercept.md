@@ -2,7 +2,7 @@
 layout: default
 title: Luspatercept
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 181
+nav_order: 184
 evidence_level: L5
 indication_count: 0
 ---

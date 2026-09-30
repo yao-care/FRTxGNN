@@ -2,7 +2,7 @@
 layout: default
 title: Diltiazem
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 103
+nav_order: 105
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,37 +29,37 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Diltiazem : Du Traitement Cardiovasculaire à la Prédisposition à l'Accident Vasculaire Cérébral Ischémique
+# Diltiazem : De l'Indication Originale Non Renseignée à la Susceptibilité (Obsolète) à l'Accident Vasculaire Cérébral Ischémique
 
 ## Résumé en Une Phrase
 
-Diltiazem est un bloqueur des canaux calciques de type L (L-type CCB), classiquement utilisé dans le traitement des maladies cardiovasculaires telles que l'hypertension artérielle, l'angine de poitrine et certaines arythmies.
-Le modèle TxGNN prédit qu'il pourrait être potentiellement efficace pour la **prédisposition à l'accident vasculaire cérébral ischémique** (terme ontologique obsolète),
-avec **0 essai clinique** et **0 publication** soutenant actuellement cette direction.
+Le diltiazem est commercialisé en France sous la marque Tildiem (Sanofi Winthrop Industrie), mais le texte de son indication originale n'est pas renseigné dans les données disponibles.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **susceptibilité à l'accident vasculaire cérébral ischémique** (un terme d'ontologie signalé comme « obsolète »).
+Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent cette prédiction, qui repose uniquement sur le modèle.
 
 ---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
-|---|---|
-| Indication Originale | Non disponible (aucune AMM enregistrée dans la base consultée) |
-| Nouvelle Indication Prédite | Prédisposition à l'AVC ischémique *(terme ontologique obsolète)* |
-| Score de Prédiction TxGNN | 99.08% |
+|------|------|
+| Indication Originale | Non renseignée dans les données ANSM (aucun texte d'indication dans les 5 AMM) |
+| Nouvelle Indication Prédite | Susceptibilité à l'accident vasculaire cérébral ischémique (terme obsolète) |
+| Score de Prédiction TxGNN | 99,08 % (rang 6011) |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
-| Décision Recommandée | **Hold** |
+| Statut de Marché en France | ✓ Commercialisé |
+| Nombre d'AMM | 5 |
+| Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Diltiazem est un bloqueur des canaux calciques de type L (L-type CCB). Théoriquement, ce mécanisme d'action présente une pertinence dans le contexte de l'AVC ischémique : lors d'un épisode ischémique cérébral, une surcharge calcique intraneuronale massive déclenche une cascade excitotoxique. Un CCB pourrait en principe atténuer cette surcharge et, par vasodilatation cérébrale, améliorer la perfusion via la circulation collatérale.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des connaissances pharmacologiques générales (et non des données fournies), le diltiazem est un inhibiteur calcique de type L, de la famille des non-dihydropyridines. Son action vasodilatatrice et son effet sur la pression artérielle pourraient, en théorie, réduire le risque vasculaire.
 
-Cependant, les données cliniques disponibles sur les CCB dans l'AVC ischémique reposent principalement sur la **nimodipine**, un CCB à sélectivité cérébrale marquée. Diltiazem, dont le profil pharmacocinétique et la sélectivité vasculaire diffèrent, ne dispose d'aucun essai clinique ni d'aucune publication directement consacrés à cette indication. La transposabilité du mécanisme reste donc purement hypothétique à ce stade.
+Le lien avec l'accident vasculaire cérébral ischémique reste donc une inférence pharmacologique générale. Aucune annotation validée (mécanisme d'action, indications d'origine) ne permet de la confirmer.
 
-Un point de vigilance méthodologique majeur : le terme de la maladie cible porte le préfixe **« obsolete »**, signalant que cette ontologie (DOID ou équivalent) a été abandonnée dans les classifications actuelles. Une remise en correspondance explicite vers le terme en vigueur (ex. DOID:3454 *ischemic stroke*, ou CIM-11 8B11) est indispensable avant toute évaluation clinique ou réglementaire sérieuse.
+Le libellé de la maladie est marqué « obsolète », ce qui indique un terme d'ontologie déprécié. Il peut correspondre à un concept ancien ou fusionné plutôt qu'à une entité clinique distincte, de sorte que la prédiction ne se rattache pas forcément à une indication actuelle de l'AVC. Le score élevé ne doit pas être interprété comme un soutien clinique.
 
 ---
 
@@ -75,11 +75,21 @@ Aucune littérature associée disponible actuellement.
 
 ---
 
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 60998977 | TILDIEM 100 mg, poudre pour solution injectable (IV) | Poudre pour solution injectable | Non renseignée |
+| 63692245 | TILDIEM 60 mg, comprimé | Comprimé | Non renseignée |
+| 68227652 | BI TILDIEM L.P. 90 mg | Comprimé enrobé à libération prolongée | Non renseignée |
+| 65662076 | BI TILDIEM L.P. 120 mg | Comprimé enrobé à libération prolongée | Non renseignée |
+| 62018628 | TILDIEM 25 mg, poudre et solution pour préparation injectable I.V. | Poudre et solution pour préparation injectable | Non renseignée |
+
+---
+
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
-
-> Les données de mises en garde, contre-indications et interactions médicamenteuses n'ont pas été retrouvées dans la base consultée lors de cette évaluation. Une consultation de la notice ANSM officielle est indispensable avant tout usage clinique.
 
 ---
 
@@ -88,14 +98,18 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-La prédiction TxGNN s'appuie uniquement sur le modèle algorithmique (niveau de preuve L5), sans aucune donnée clinique ou bibliographique disponible pour soutenir l'efficacité de Diltiazem dans cette indication. De surcroît, le terme de maladie cible est ontologiquement obsolète, rendant toute interprétation directe prématurée.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication.
+- Le terme de maladie est obsolète, et les données de sécurité et de mécanisme d'action sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Remise en correspondance du terme « obsolete susceptibility to ischemic stroke » vers la classification actuelle (DOID:3454, CIM-11 8B11 ou équivalent) et relance de la recherche de preuves avec les termes actualisés
-- Obtention des données détaillées de mécanisme d'action (MOA) de Diltiazem via DrugBank API
-- Recherche active d'essais cliniques et de publications avec les termes mis à jour (« diltiazem » + « ischemic stroke » / « AVC ischémique »)
-- Téléchargement et analyse de la notice ANSM officielle pour compléter l'évaluation de sécurité (mises en garde, contre-indications, interactions)
-- Vérification du statut réglementaire réel de Diltiazem en France — des AMM existent vraisemblablement mais n'ont pas été retrouvées dans la base TFDA consultée, qui est orientée marché taïwanais
+- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
+- Obtenir le mécanisme d'action et les indications d'origine via DrugBank et les textes d'AMM.
+- Identifier le terme actuel de l'ontologie qui remplace ou fusionne le concept obsolète, et vérifier s'il correspond à une indication clinique réelle de l'AVC ischémique.
+- Mener une recherche ciblée d'essais cliniques et de littérature (diltiazem et AVC ischémique) une fois le terme clarifié.
+
+---
+
+*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
