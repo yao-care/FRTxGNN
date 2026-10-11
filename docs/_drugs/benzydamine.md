@@ -29,10 +29,6 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-Le skill txgnn-pipeline couvre la gestion du pipeline — la génération du rapport suit le format du prompt système. Je génère directement le rapport :
-
----
-
 # Benzydamine : D'Anti-inflammatoire Local à l'Hyperplasie Bénigne de la Prostate
 
 ## Résumé en Une Phrase
