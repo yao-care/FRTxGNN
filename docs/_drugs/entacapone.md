@@ -2,7 +2,7 @@
 layout: default
 title: Entacapone
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 118
+nav_order: 284
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,91 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Entacapone : De la maladie de Parkinson (adjuvant de la lévodopa) à la neurodégénérescence associée à PLA2G6
+# Entacapone : De la maladie de Parkinson à la neurodégénérescence associée à PLA2G6
 
 ## Résumé en Une Phrase
 
-L'entacapone est un inhibiteur périphérique de la COMT, connu pour prolonger l'effet de la lévodopa dans la maladie de Parkinson.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **neurodégénérescence associée à PLA2G6**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : c'est une prédiction du modèle seul.
+Entacapone est un inhibiteur de la COMT utilisé à l'origine dans le traitement de la maladie de Parkinson, en association avec la lévodopa.
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **neurodégénérescence associée à PLA2G6**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Le texte d'indication n'est pas renseigné dans les données ANSM. Usage connu : adjuvant de la lévodopa dans la maladie de Parkinson |
+| Indication Originale | Maladie de Parkinson (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Neurodégénérescence associée à PLA2G6 |
 | Score de Prédiction TxGNN | 99,76 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | Uniquement AMM annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, l'entacapone est un inhibiteur périphérique de la COMT. Il ralentit la dégradation de la lévodopa et prolonge ainsi son effet. Il existe seul, en association fixe avec la lévodopa et la carbidopa (Stalevo, Corbilta).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'entacapone est un inhibiteur de la catéchol-O-méthyltransférase (COMT) : il prolonge l'effet de la lévodopa en ralentissant sa dégradation périphérique. Son efficacité a été établie dans la maladie de Parkinson, comme traitement d'appoint.
 
-Certains phénotypes de la neurodégénérescence associée à PLA2G6 comportent une dystonie-parkinsonisme. Un lien symptomatique dopaminergique est donc concevable. Ce lien reste toutefois indirect. L'entacapone ne modifierait pas la maladie sous-jacente, qui touche le métabolisme des phospholipides. Le score élevé du modèle ne constitue pas une preuve en soi.
+La neurodégénérescence associée à PLA2G6 (PLAN) comprend des phénotypes de dystonie-parkinsonisme, ce qui rend un lien dopaminergique plausible. Toutefois, l'effet attendu serait au mieux symptomatique : l'entacapone ne modifierait pas la pathologie sous-jacente, liée au métabolisme lipidique et à la neurodégénérescence.
 
-Parmi les autres candidats prédits, deux relèvent d'une hypothèse à vérifier par revue de littérature : le parkinsonisme juvénile de Hunt (extension de la demi-vie de la lévodopa) et la démence à corps de Lewy (physiopathologie dopaminergique et α-synucléine partagée avec la maladie de Parkinson). Pour la démence à corps de Lewy, les données se limitent à un essai de phase 1 d'imagerie F-DOPA dans l'insuffisance autonome, sans test de l'entacapone, et à trois publications précliniques ou de revue. Aucune ne montre de bénéfice clinique.
+Le score très élevé du modèle n'est donc pas, à ce stade, étayé par des preuves cliniques ou bibliographiques. Parmi les autres prédictions, la maladie de Parkinson juvénile de Hunt est la plus proche de l'indication d'origine, mais elle relève davantage d'une extension de l'indication existante que d'un véritable repositionnement.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement pour la neurodégénérescence associée à PLA2G6.
+
+Pour information, deux essais sont liés à d'autres indications prédites, sans tester l'entacapone comme traitement :
+- Démence à corps de Lewy : [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) (Phase 1, en recrutement, 40 participants), étude d'imagerie diagnostique [18F]F-DOPA dans l'insuffisance autonome.
+- Syndrome de paralysie supranucléaire progressive-dégénérescence corticobasale : [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) (non applicable, actif sans recrutement, 120 participants), analyse de la marche dans les maladies neurologiques.
+
+---
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée disponible actuellement pour la neurodégénérescence associée à PLA2G6.
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+Les 20 AMM recensées sont annulées ; aucune n'est valide. Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65562898 | ENTACAPONE VIATRIS 200 mg | Comprimé pelliculé | VIATRIS SANTE |
-| 68826958 | COMTAN 200 mg | Comprimé pelliculé | ORION CORPORATION |
-| 67403058 | ENTACAPONE ARROW 200 mg | Comprimé pelliculé | ARROW GENERIQUES |
-| 68430364 | CORBILTA 50 mg/12,5 mg/200 mg | Comprimé pelliculé | ORION CORPORATION |
-| 65927172 | STALEVO 100 mg/25 mg/200 mg | Comprimé pelliculé | ORION CORPORATION |
+| 65562898 | ENTACAPONE VIATRIS 200 mg | Comprimé pelliculé | Annulée |
+| 68826958 | COMTAN 200 mg | Comprimé pelliculé | Annulée |
+| 67403058 | ENTACAPONE ARROW 200 mg | Comprimé pelliculé | Annulée |
+| 68430364 | CORBILTA 50 mg/12,5 mg/200 mg | Comprimé pelliculé | Annulée |
+| 65927172 | STALEVO 100 mg/25 mg/200 mg | Comprimé pelliculé | Annulée |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : atrophie multisystématisée, hypotension orthostatique, syndrome de tachycardie orthostatique posturale, dyskinésie d'origine médicamenteuse, épilepsie, ulcère gastrique ou peptique, troubles anxieux, troubles psychotiques et autres troubles mentaux, insuffisance rénale, maladie hépatique, maladie de la vésicule biliaire, glaucome (à angle ouvert et à angle fermé), diabète et acidocétose diabétique, mélanome, infarctus du myocarde, mort subite cardiaque, maladies de la conduction cardiaque, hémoglobinopathies, maladies diarrhéiques.
+- **Interactions médicamenteuses** : 82 interactions recensées. Celles de niveau modéré concernent notamment l'épinéphrine (y compris ophtalmique et topique), la morphine (y compris liposomale), le dronabinol, l'opium, la nabilone, le métoclopramide et le fer. D'autres, de niveau non précisé, concernent le pantoprazole, l'oméprazole, le lansoprazole, la doxycycline, la metformine, l'atropine, le lactulose, la prednisone, la simvastatine et le chlorure de potassium.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5). Aucun essai ni aucune publication ne la soutient, et le lien mécanistique est indirect et non vérifié. Les données de sécurité de la notice ANSM manquent et bloquent tout passage au screening de sécurité.
+- Malgré un score TxGNN très élevé, aucune preuve clinique ou bibliographique ne soutient cette indication (niveau L5). L'effet attendu serait au mieux symptomatique, et les AMM françaises sont toutes annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications extraites de la notice ANSM (télécharger et analyser le PDF)
-- Données sur le mécanisme d'action (MOA) depuis DrugBank
-- Revue de littérature structurée sur la dystonie-parkinsonisme liée à PLA2G6 et la réponse aux traitements dopaminergiques
-- Examen ciblé du parkinsonisme juvénile de Hunt et de la démence à corps de Lewy, plus plausibles mécanistiquement
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Les mises en garde et contre-indications de la notice (blocage pour le criblage de sécurité), à obtenir sur le site de l'ANSM.
+- Les données sur le mécanisme d'action, à obtenir via DrugBank.
+- Une revue de la littérature et des données précliniques sur l'entacapone dans les phénotypes dystonie-parkinsonisme de la PLAN.
+- Une clarification du statut réglementaire en France, toutes les AMM étant annulées.
+- À titre de comparaison, une priorisation éventuelle de la démence à corps de Lewy (niveau L4, soutien préclinique indirect) comme question de recherche.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

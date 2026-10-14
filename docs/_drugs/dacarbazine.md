@@ -2,7 +2,7 @@
 layout: default
 title: Dacarbazine
 parent: Preuves modérées (L3-L4)
-nav_order: 96
+nav_order: 208
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,87 +29,92 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Dacarbazine : Vers le Néoplasme des Voies Aérodigestives Supérieures
+# Dacarbazine : Du Mélanome Métastatique et du Lymphome de Hodgkin à la Tumeur des Voies Aérodigestives Supérieures
 
 ## Résumé en Une Phrase
 
-Dacarbazine est un agent anticancéreux alkylant de la famille des triazènes, commercialisé en France sous forme de poudre pour perfusion. Le texte d'indication de ses trois AMM n'est pas renseigné dans les données fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **néoplasme des voies aérodigestives supérieures**, mais la preuve reste **indirecte** : **1 essai clinique** (portant sur le témozolomide, pas sur la dacarbazine) et **20 publications**, dont très peu concernent directement cette indication.
+La dacarbazine est un agent cytotoxique initialement utilisé pour le traitement du mélanome métastatique et du lymphome de Hodgkin.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **tumeur des voies aérodigestives supérieures**, mais **aucun essai clinique** ne soutient cette direction et la littérature recueillie est **indirecte** (20 publications portant sur d'autres types de tumeurs).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Néoplasme des voies aérodigestives supérieures |
-| Score de Prédiction TxGNN | 99,26 % (rang 5016) |
+| Indication Originale | Mélanome métastatique, lymphome de Hodgkin (texte d'indication des AMM non renseigné ; indications issues du graphe de connaissances) |
+| Nouvelle Indication Prédite | Tumeur des voies aérodigestives supérieures |
+| Score de Prédiction TxGNN | 99,26 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 3 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la dacarbazine appartient à la classe des agents alkylants triazènes. Elle est convertie dans l'organisme, après activation hépatique par les CYP, en un métabolite actif, le MTIC, qui méthyle l'ADN.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la dacarbazine est un agent alkylant : via son métabolite actif (MTIC), elle méthyle l'ADN, ce qui lui confère une activité cytotoxique sur les cellules tumorales en division.
 
-Le seul lien avec la nouvelle indication est indirect. Le témozolomide, autre triazène, produit le même métabolite actif (MTIC) et a été testé dans les cancers avancés des voies aérodigestives. Une inférence par mécanisme partagé est donc plausible.
+Son efficacité a été établie dans le mélanome métastatique et le lymphome de Hodgkin, où elle est utilisée seule ou en association. Un mécanisme cytotoxique général pourrait en théorie s'appliquer à d'autres tumeurs solides, dont celles de la tête et du cou.
 
-Les deux médicaments ne sont toutefois pas équivalents sur le plan pharmacocinétique : la dacarbazine nécessite une activation hépatique, alors que le témozolomide se convertit spontanément. Aucune donnée directe sur la dacarbazine dans cette indication n'existe dans le dossier. Le score TxGNN élevé est une prédiction computationnelle et ne constitue pas une preuve clinique.
+Il faut toutefois rester prudent : le score élevé de TxGNN est une prédiction computationnelle uniquement. Aucune donnée fournie ne documente directement l'usage de la dacarbazine dans les néoplasmes des voies aérodigestives supérieures. La littérature retrouvée concerne des tumeurs différentes qui touchent la région cervico-faciale ou ses abords (mélanome muqueux, lymphome de Hodgkin cervico-facial, carcinome médullaire de la thyroïde, paragangliomes).
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | Phase 2 | Terminé (arrêt anticipé) | 86 | Témozolomide (et non dacarbazine) chez des patients atteints de cancers avancés des voies aérodigestives, colorectaux, bronchiques non à petites cellules, ORL ou œsophagiens, sélectionnés sur la méthylation du promoteur de MGMT. Étude non randomisée, qui ne soutient qu'une inférence mécanistique indirecte. |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune de ces publications n'est encore évaluée en pertinence. Seules la plus proche du sujet et celles qui impliquent la dacarbazine sont retenues ici.
+Les publications ci-dessous sont les plus pertinentes parmi celles recueillies. Aucune ne porte directement sur l'indication prédite.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | ECR (Phase 3) | JAMA Oncology | Toripalimab contre dacarbazine en première ligne du mélanome acral avancé (MELATORCH). La dacarbazine sert de comparateur, dans une autre indication. |
-| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | Essai de Phase 2 | Mol Cancer Ther | Témozolomide dans les cancers avancés des voies aérodigestives et colorectaux avec méthylation du promoteur de MGMT (publication de l'essai NCT00423150). |
-| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Non classé | Ann Oncol | Chimiothérapie par dacarbazine et 5-fluorouracile dans le cancer médullaire avancé de la thyroïde. |
-| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | Non classé | Gan To Kagaku Ryoho | Chimiothérapie de l'angiosarcome de la tête et du cou, avec le schéma CYVADIC qui contient la dacarbazine (DTIC). |
-| [3153227](https://pubmed.ncbi.nlm.nih.gov/3153227/) | 1986 | Cas clinique | Pediatr Hematol Oncol | Neuroblastome olfactif chez un enfant de 2 ans, traité par radiothérapie et chimiothérapie combinée. |
-| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Cohorte | Ear Nose Throat J | Six cas de paragangliomes malins de la tête et du cou, analysés sur le plan clinicopathologique et génétique, pour explorer les options thérapeutiques. |
-| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | Cohorte | Int J Radiat Oncol Biol Phys | Efficacité de la radiothérapie dans l'esthésioneuroblastome, tumeur intranasale rare. |
-| [25772801](https://pubmed.ncbi.nlm.nih.gov/25772801/) | 2015 | Revue | J Clin Neurosci | Rôle du témozolomide dans les tumeurs hypophysaires agressives. |
+| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | ECR de phase 3 | JAMA Oncology | Torripalimab vs dacarbazine en première ligne dans le mélanome acral avancé ; la dacarbazine sert de comparateur (indication non ciblée) |
+| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Cohorte (petite série) | Annals of Oncology | Chimiothérapie dacarbazine + 5-fluorouracile dans le carcinome médullaire de la thyroïde avancé |
+| [31621203](https://pubmed.ncbi.nlm.nih.gov/31621203/) | 2019 | Étude observationnelle prospective | Cancer Medicine | Radiothérapie par ions carbone associée à la chimiothérapie DAV (dacarbazine, nimustine, vincristine) dans le mélanome muqueux de la tête et du cou (21 patients) |
+| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | Cohorte rétrospective | Cancer | Caractéristiques et évolution du lymphome de Hodgkin des sites ganglionnaires et extraganglionnaires de la tête et du cou |
+| [11815960](https://pubmed.ncbi.nlm.nih.gov/11815960/) | 2002 | Préclinique (souris) | Cancer | Association radioimmunothérapie et chimiothérapie : efficacité de la dacarbazine sur xénogreffes de carcinome médullaire de la thyroïde |
+| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Série de cas monocentrique | Ear, Nose & Throat Journal | Paragangliomes malins de la tête et du cou : caractéristiques cliniques, génétiques et options thérapeutiques |
+| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Revue | Clinical Oncology | Revue sur le carcinome médullaire de la thyroïde |
+| [20138008](https://pubmed.ncbi.nlm.nih.gov/20138008/) | 2010 | Revue | Transfusion and Apheresis Science | Lymphome de Hodgkin associé au VIH |
+| [12113649](https://pubmed.ncbi.nlm.nih.gov/12113649/) | 2002 | Revue | American Journal of Clinical Dermatology | Prise en charge actuelle du mélanome |
+| [12845209](https://pubmed.ncbi.nlm.nih.gov/12845209/) | 2003 | Série de cas / revue | Onkologie | Métastases muqueuses du mélanome malin (œsophage, estomac, vessie, amygdale palatine) |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64645120 | DETICENE 100 mg | Poudre et solvant pour solution pour perfusion | SANOFI WINTHROP INDUSTRIE |
-| 67366695 | DACARBAZINE LIPOMED 500 mg | Poudre pour solution pour perfusion | LIPOMED (Allemagne) |
-| 60054376 | DACARBAZINE LIPOMED 1000 mg | Poudre pour solution pour perfusion | LIPOMED (Allemagne) |
+| 64645120 | DETICENE 100 mg | Poudre et solvant pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 67366695 | DACARBAZINE LIPOMED 500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 60054376 | DACARBAZINE LIPOMED 1000 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, classe des triazènes) |
-| Risque de Myélosuppression, Émétogénicité, Surveillance et Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant) |
+| Risque de Myélosuppression | Élevé : le graphe de connaissances signale des contre-indications liées à la thrombopénie, l'anémie et la leucopénie |
+| Classification d'Émétogénicité | Élevée (classe habituelle de la dacarbazine ; à confirmer dans la notice) |
+| Éléments de Surveillance | NFS avec plaquettes, fonction hépatique (risque de thrombose des veines hépatiques / syndrome de Budd-Chiari signalé) et fonction rénale |
+| Protection de Manipulation | Suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans la base interrogée.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : maladie rénale, pyo-uretère, maladie hépatique, maladie de la vésicule biliaire, thrombopénie, anémie (dont macrocytaire), leucopénie, thrombose des veines hépatiques, syndrome de Budd-Chiari.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales, la naltrexone (modérée) et la lévofloxacine (mineure) ; pour les autres (pantoprazole, morphine, metformine, oméprazole, palonosétron, prednisone, simvastatine, aprépitant, ondansétron, etc.), le niveau de gravité est inconnu.
+
+Les mises en garde et contre-indications officielles de la notice n'ont pas pu être obtenues : veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucune donnée directe sur la dacarbazine ne soutient cette indication. Le seul essai est un essai de Phase 2 sur le témozolomide, arrêté avant son terme. Le niveau de preuve reste L4, et le score TxGNN élevé ne remplace pas des données cliniques.
+- La prédiction repose uniquement sur le modèle (niveau L4) : aucun essai clinique, et une littérature indirecte portant sur d'autres tumeurs. De plus, les trois AMM françaises sont annulées et les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- La notice ANSM (mises en garde et contre-indications), indispensable pour passer à l'évaluation de sécurité.
-- Le texte de l'indication approuvée de chacune des trois AMM.
-- Les données sur le mécanisme d'action (DrugBank).
-- Des études précliniques ou cliniques portant directement sur la dacarbazine dans les cancers des voies aérodigestives supérieures.
-- Une analyse de la compatibilité de voie d'administration et de l'écart pharmacocinétique avec le témozolomide.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Rechercher des données précliniques ou cliniques spécifiques aux néoplasmes des voies aérodigestives supérieures
+- Préciser la signification clinique du terme « tumeur des voies aérodigestives supérieures » (histologies visées) et la compatibilité des voies d'administration
+- Clarifier la disponibilité actuelle du produit en France, puisque aucune AMM n'est en vigueur
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

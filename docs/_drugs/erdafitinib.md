@@ -2,7 +2,7 @@
 layout: default
 title: Erdafitinib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 122
+nav_order: 292
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,90 +29,86 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Erdafitinib : De l'indication d'origine (non renseignée) à l'hypertension pulmonaire
+# Erdafitinib : De l'indication d'origine non documentée à l'Hypertension Pulmonaire
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Erdafitinib est un inhibiteur de tyrosine kinase pan-FGFR (FGFR1 à 4), commercialisé en France sous le nom BALVERSA. Les données fournies ne précisent pas son indication d'origine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais **aucun essai clinique** ni **aucune publication spécifique** ne soutient actuellement cette direction.
+Erdafitinib est un inhibiteur de tyrosine kinase des récepteurs FGFR (FGFR1 à 4). Les données compilées pour ce rapport ne précisent pas son indication d'origine en France, les textes d'indication des AMM étant vides.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
-## Aperçu Rapide
+## Apercu Rapide
 
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM fournies |
-| Nouvelle Indication Prédite | Hypertension pulmonaire |
-| Score de Prédiction TxGNN | 99,38 % |
+| Indication Originale | Non renseignée dans les données compilées |
+| Nouvelle Indication Predite | Hypertension pulmonaire |
+| Score de Prediction TxGNN | 99,38 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marche en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 3 |
-| Décision Recommandée | Hold |
+| Decision Recommandee | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, erdafitinib est un inhibiteur pan-FGFR. La voie FGF/FGFR est impliquée dans la prolifération et le remodelage de nombreux tissus.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base compilée. D'après les connaissances générales, l'erdafitinib est un inhibiteur pan-FGFR (FGFR1-4). Son indication d'origine n'a pas pu être extraite des AMM françaises.
 
-Pour l'hypertension pulmonaire, des travaux précliniques relient la signalisation FGFR1 à la prolifération des cellules musculaires lisses des artères pulmonaires et au remodelage vasculaire. L'hypothèse est plausible mais non validée. La voie FGF/FGFR a aussi été décrite comme protectrice dans certains contextes vasculaires, si bien que le sens de l'effet reste incertain. Le score TxGNN (0,994) est une simple prédiction, sans appui clinique.
+La voie de signalisation FGF/FGFR a été impliquée dans le remodelage vasculaire pulmonaire ainsi que dans la prolifération des cellules musculaires lisses et endothéliales. Un lien hypothétique existe donc avec l'hypertension pulmonaire. Des inhibiteurs de kinases à spectre plus large (par exemple l'imatinib) ont été explorés dans l'hypertension artérielle pulmonaire, mais cela ne constitue pas une preuve pour l'erdafitinib.
 
-Les autres indications prédites sont plus faibles :
-- **Polyarthrite rhumatoïde** (99,25 %) : rationnel faible, par analogie de classe (les inhibiteurs de kinases sont une classe établie dans cette maladie).
-- **Aménorrhée** (99,26 %) : l'inhibition de FGFR pourrait aggraver le dysfonctionnement de l'axe reproductif.
-- **Sclérose latérale amyotrophique** (99,06 %) : la signalisation FGF est plutôt neuroprotectrice, donc l'inhibition pourrait être contre-productive.
-- **Cardiopathie cyphoscoliotique** (99,27 %) et **syndrome de brachydactylie-syndactylie** (99,03 %) : aucun lien mécanistique clair, et une kinase inhibitrice postnatale est peu susceptible de corriger une malformation congénitale.
+Ce lien repose uniquement sur le score de prédiction TxGNN. De plus, l'inhibition de FGFR s'accompagne de préoccupations de sécurité (hyperphosphatémie, toxicité oculaire, entre autres) qui devraient être évaluées dans cette population.
 
-## Preuves d'Essais Cliniques
+## Informations de Marche en France
 
-Aucun essai clinique associé enregistré actuellement.
-
-## Preuves de la Littérature
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Revue | Pharmacological Research | Mise à jour sur les propriétés des inhibiteurs de protéine kinase approuvés par la FDA, dont erdafitinib. Aucune donnée spécifique sur l'hypertension pulmonaire. |
-
-Cette publication est liée à la polyarthrite rhumatoïde, non à l'hypertension pulmonaire. Il s'agit d'une revue générale sans donnée spécifique à erdafitinib dans cette maladie, elle n'est donc pas comptée comme preuve clinique indirecte.
-
-## Informations de Marché en France
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 66039107 | BALVERSA 3 mg, comprimés pelliculés | Comprimé pelliculé | Non renseignée |
-| 65760218 | BALVERSA 4 mg, comprimés pelliculés | Comprimé pelliculé | Non renseignée |
-| 60039171 | BALVERSA 5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+| 66039107 | BALVERSA 3 mg, comprimés pelliculés (annulée) | Comprimé pelliculé | Non renseignée |
+| 65760218 | BALVERSA 4 mg, comprimés pelliculés (annulée) | Comprimé pelliculé | Non renseignée |
+| 60039171 | BALVERSA 5 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
 
-Titulaire des trois AMM : JANSSEN CILAG INTERNATIONAL NV.
+## Cytotoxicite
 
-## Cytotoxicité
-
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase pan-FGFR) |
-| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Veuillez consulter la notice |
-| Protection de Manipulation | Veuillez consulter la notice |
+| Classification de Cytotoxicite | Thérapie ciblée (inhibiteur de tyrosine kinase pan-FGFR) |
+| Risque de Myelosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Emetogenicite | Veuillez consulter les mises en garde et précautions de la notice |
+| Elements de Surveillance | Phosphatémie, examen ophtalmologique ; autres paramètres à consulter dans la notice |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
-## Considérations de Sécurité
+## Considerations de Securite
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune mise en garde, contre-indication ni interaction médicamenteuse n'est disponible dans le dossier.
+- **Interactions Médicamenteuses** : 100 interactions ont été recensées (échantillon de 20 affiché dans les données compilées).
+  - **Majeures** : cholécalciférol, dexaméthasone, phosphate de calcium, calcifédiol, calcitriol, acétate de calcium, clarithromycine, oxyde de magnésium, sulfate de magnésium, chlorure de magnésium.
+  - **Modérées** : metformine, lopéramide, saxagliptine, éliglustat, empagliflozine, linagliptine, naldémédine, naloxégol, prucalopride, rifaximine.
+- **Point d'attention** : plusieurs interactions majeures concernent des suppléments de calcium, de vitamine D et de magnésium, ce qui est cohérent avec le risque d'hyperphosphatémie lié à la classe des inhibiteurs de FGFR.
+- Les mises en garde principales et les contre-indications de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations de sécurité.
 
-À titre indicatif, l'analyse de la polyarthrite rhumatoïde mentionne l'hyperphosphatémie et les toxicités oculaires et unguéales. La toxicité osseuse et unguéale est également citée pour les indications de développement. Ces éléments sont à évaluer avec prudence dans un contexte de traitement chronique.
+## Conclusion et Prochaines Etapes
 
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
+**Decision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5). Aucun essai ni publication ne la soutient, et le sens de l'effet de l'inhibition de FGFR sur l'hypertension pulmonaire est incertain. Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape de sécurité (S1).
+La prédiction repose uniquement sur le score TxGNN (niveau de preuve L5), sans essai clinique ni publication spécifique. Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Notice ANSM (mises en garde et contre-indications), à télécharger et analyser
-- Données détaillées sur le mécanisme d'action (MOA), par exemple via l'API DrugBank
-- Indication d'origine issue des AMM, actuellement non renseignée
-- Études précliniques sur FGFR1 et le remodelage vasculaire pulmonaire, pour trancher le sens de l'effet
-- Compatibilité de voie d'administration et similarité avec l'indication d'origine, actuellement en attente
+**Pour avancer, les elements suivants sont necessaires :**
+- Récupérer et analyser la notice officielle (mises en garde et contre-indications) depuis le site de l'ANSM
+- Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
+- Mener une revue de la littérature préclinique sur FGFR et l'hypertension pulmonaire
+- Évaluer le profil de sécurité (hyperphosphatémie, toxicité oculaire) dans cette population
+- Clarifier l'indication d'origine et le statut réglementaire actuel du produit
 
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+---
+
+### Autres prédictions du modèle (à titre informatif)
+
+Toutes ces prédictions sont de niveau L5 avec une décision **Hold**.
+
+| Rang | Indication prédite | Score TxGNN | Remarque |
+|------|------|------|------|
+| 2 | Cardiopathie cyphoscoliotique | 99,27 % | Aucun lien mécanistique identifiable ; association probablement liée au réseau (via l'hypertension pulmonaire) |
+| 3 | Aménorrhée | 99,26 % | Aucun lien mécanistique crédible ; l'hyperphosphatémie est un effet indésirable, non un rationnel thérapeutique |
+| 4 | Polyarthrite rhumatoïde | 99,25 % | Hypothèse plausible mais non validée (activation des fibroblastes synoviaux, angiogenèse) ; la seule publication (PMID [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/), revue générale de 2020 sur les inhibiteurs de kinases approuvés par la FDA) est un contexte indirect |
+| 5 | Sclérose latérale amyotrophique | 99,06 % | Sens de l'effet incertain, l'inhibition de FGFR pouvant être neutre ou délétère ; pénétration du SNC non caractérisée |
+| 6 | Syndrome brachydactylie-syndactylie | 99,03 % | Lien conceptuel avec le développement des membres ; questions de sécurité importantes (effets squelettiques, développementaux, grossesse) |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Nimodipine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 215
+nav_order: 537
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,68 +29,84 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Nimodipine : De l'indication d'origine (non renseignée) à l'hypercholestérolémie familiale homozygote
+# Nimodipine : De l'Hémorragie Sous-Arachnoïdienne à l'Hypercholestérolémie Familiale Homozygote
 
 ## Résumé en Une Phrase
 
-La nimodipine est un inhibiteur calcique de la famille des dihydropyridines, commercialisé en France sous le nom NIMOTOP en comprimé et en solution pour perfusion. Le texte d'indication figurant dans les AMM n'est pas renseigné dans les données reçues.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypercholestérolémie familiale homozygote**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+Nimodipine est un inhibiteur calcique de type dihydropyridine, initialement utilisé pour la prise en charge de l'hémorragie sous-arachnoïdienne (notamment anévrismale).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestérolémie familiale homozygote**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM |
+| Indication Originale | Hémorragie sous-arachnoïdienne (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote |
 | Score de Prédiction TxGNN | 99,29 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
+---
+
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, la nimodipine est un inhibiteur calcique de type dihydropyridine bloquant les canaux calciques de type L, avec une sélectivité cérébrovasculaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la nimodipine est un inhibiteur calcique de la classe des dihydropyridines, à activité préférentielle sur la circulation cérébrale. Son intérêt dans l'hémorragie sous-arachnoïdienne repose sur cette action vasculaire cérébrale.
 
-L'hypercholestérolémie familiale homozygote est due à des variants à perte de fonction du gène *LDLR* (plus rarement *APOB*, *PCSK9* ou *LDLRAP1*), qui altèrent fortement l'élimination du LDL-cholestérol. Aucun lien mécanistique direct n'est établi avec le blocage des canaux calciques. Certains inhibiteurs calciques ont montré des effets antiathérosclérotiques modestes en préclinique, mais aucun ne corrige le déficit en récepteur du LDL ni n'abaisse le LDL-C de façon cliniquement significative.
+La relation avec la nouvelle indication reste très fragile. L'hypercholestérolémie familiale homozygote résulte d'un défaut d'élimination du LDL-cholestérol (dysfonction du récepteur du LDL, d'APOB, de PCSK9 ou de LDLRAP1). Aucun lien mécanistique établi n'existe avec le blocage des canaux calciques de type L. Un éventuel effet vasculaire ou antiathérosclérotique des inhibiteurs calciques serait spéculatif et ne corrigerait pas le défaut sous-jacent du métabolisme lipidique.
 
-Le score élevé de TxGNN (0,993) est une prédiction issue d'un graphe de connaissances, sans confirmation clinique ni bibliographique. Les options déjà validées dans cette maladie (statines, ézétimibe, inhibiteurs de PCSK9, lomitapide, évinacumab, aphérèse des LDL) sont beaucoup mieux étayées.
+Le score élevé de TxGNN (99,29 %) est une prédiction informatique, non corroborée par des données cliniques ou bibliographiques. À noter que la seconde prédiction du modèle (syndrome néphrogénique d'antidiurèse inappropriée, score de 99,05 %) n'est pas non plus étayée : elle relève d'un mécanisme (récepteur V2 de la vasopressine) sans lien démontré avec les canaux calciques.
 
-Une seconde prédiction existe : le **syndrome d'antidiurèse inappropriée néphrogénique** (score 99,05 %, niveau L5, Hold). Elle repose sur des variants gain de fonction d'*AVPR2*, sans lien direct avec la cible de la nimodipine. Les effets vasodilatateur et hypotenseur du médicament pourraient en outre ajouter un risque chez un patient hyponatrémique.
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65726536 | NIMOTOP 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 61339638 | NIMOTOP 10 mg/50 ml, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
+|---------|------|------|-----------|------|
+| 65726536 | NIMOTOP 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée | Annulée |
+| 61339638 | NIMOTOP 10 mg/50 ml, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée | Annulée |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée.
+- **Contre-indications issues du graphe de connaissances** (ne provenant pas de la notice) : maladie hépatique, maladie de la vésicule biliaire, troubles hypotenseurs.
+- **Interactions médicamenteuses** : 100 interactions recensées, dont les principales sont :
+  - **Majeures** : clarithromycine, dolasétron.
+  - **Modérées** (exemples) : bupropion, aprépitant, morphine, acide acétylsalicylique, cimétidine, miconazole, sulfate de magnésium, canagliflozine, dapagliflozine, empagliflozine, dronabinol, nabilone, kanamycine, néomycine, sels de calcium (carbonate, chlorure, acétate, phosphate).
+
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible. Il existe déjà des traitements bien établis pour cette maladie. Les données de sécurité de la notice ANSM manquent également, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec la physiopathologie de l'hypercholestérolémie familiale homozygote.
+- Les AMM françaises sont toutes annulées et les données de sécurité officielles sont manquantes, ce qui empêche à ce stade tout examen de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications) et le texte des indications approuvées
-- Obtenir les données détaillées sur le mécanisme d'action (par exemple via l'API DrugBank)
-- Trouver des données précliniques ou de mécanisme reliant les inhibiteurs calciques au métabolisme des LDL ou à la voie AVPR2
-- Vérifier la compatibilité des voies d'administration avec la maladie visée (actuellement en attente)
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante).
+- Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
+- Mener une revue de la littérature et des données précliniques sur un éventuel effet de la nimodipine sur le métabolisme lipidique ou l'athérosclérose.
+- Clarifier le statut réglementaire en France (AMM annulées) et la faisabilité de la voie d'administration.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

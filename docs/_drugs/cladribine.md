@@ -2,7 +2,7 @@
 layout: default
 title: Cladribine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 78
+nav_order: 176
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,32 +29,32 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Cladribine : Des hémopathies lymphoïdes au rhabdomyosarcome embryonnaire paraméningé
+# Cladribine : De la leucémie à tricholeucocytes au rhabdomyosarcome embryonnaire paraméningé
 
 ## Résumé en Une Phrase
 
-La cladribine est un analogue nucléosidique de la purine, dont l'activité est établie dans les hémopathies lymphoïdes.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **rhabdomyosarcome embryonnaire paraméningé**, avec un score de 99,77 %.
-À ce jour, **aucun essai clinique** et **aucune publication** ne soutiennent cette direction : il s'agit d'une prédiction du modèle uniquement.
+Cladribine est un analogue nucléosidique de la purine, initialement utilisé pour traiter la leucémie à tricholeucocytes (et sa variante) ainsi que la sclérose en plaques récurrente-rémittente.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **rhabdomyosarcome embryonnaire paraméningé**, mais **aucun essai clinique** et **aucune publication pertinente** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Leucémie à tricholeucocytes, variante de la leucémie à tricholeucocytes, sclérose en plaques récurrente-rémittente (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas disponible) |
 | Nouvelle Indication Prédite | Rhabdomyosarcome embryonnaire paraméningé |
 | Score de Prédiction TxGNN | 99,77 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
+| Nombre d'AMM | 3 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la cladribine est un analogue nucléosidique de la purine. Elle s'incorpore à l'ADN et perturbe sa synthèse et sa réparation. Son efficacité est établie dans les hémopathies lymphoïdes, et ce mécanisme cytotoxique général pourrait, en théorie, s'appliquer à d'autres tumeurs.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la cladribine est un analogue de la purine résistant à l'adénosine désaminase. Elle s'accumule sous forme de triphosphate dans les cellules ayant un rapport élevé désoxycytidine kinase / 5'-nucléotidase, ce qui provoque des cassures de l'ADN et l'apoptose.
 
-Cependant, aucune donnée source ne relie ce mécanisme au rhabdomyosarcome. L'expression de la désoxycytidine kinase, l'enzyme qui active la cladribine, n'a pas été évaluée dans ce type tumoral. La plausibilité repose donc sur une cytotoxicité antimétabolite générique, sans argument spécifique à la tumeur.
+Ce rapport enzymatique est caractéristique des cellules lymphoïdes, ce qui explique son efficacité dans la leucémie à tricholeucocytes et son intérêt dans la sclérose en plaques. Il n'est pas caractéristique du rhabdomyosarcome, une tumeur solide mésenchymateuse. Le lien mécanistique est donc faible et non étayé par les données récupérées.
 
-Le score élevé (0,998) doit être interprété avec prudence. Les sept prédictions fournies concernent le rhabdomyosarcome et ses sous-types (vagin, voies biliaires extrahépatiques, prostate) ou un sarcome hépatique. Ce sont pour la plupart des nœuds quasi dupliqués de l'ontologie, qui reflètent probablement une seule association au niveau du graphe. Ce ne sont pas des signaux indépendants.
+Le score élevé du modèle reflète probablement la proximité des différents types de rhabdomyosarcome dans le graphe de connaissances (six prédictions très corrélées, qui ne sont pas des signaux indépendants) plutôt qu'une justification biologique spécifique. Avant toute considération clinique, il faudrait des données précliniques, par exemple la sensibilité de lignées cellulaires et l'expression de la désoxycytidine kinase. Les traitements standards du rhabdomyosarcome reposent sur la vincristine, l'actinomycine D et le cyclophosphamide ; aucune donnée sur la cladribine n'a été identifiée.
 
 ## Preuves d'Essais Cliniques
 
@@ -62,45 +62,53 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée disponible actuellement pour le rhabdomyosarcome embryonnaire paraméningé.
 
-À titre indicatif, une seule publication a été retrouvée pour une autre prédiction du même dossier (sarcome hépatique) : [PMID 15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) (2004, *Der Hautarzt*, rapport de cas). Elle décrit un traitement réussi par cladribine d'une mastocytose systémique indolente, une néoplasie hématologique. Elle ne soutient pas l'efficacité de la cladribine dans le rhabdomyosarcome ni dans un sarcome hépatique.
+À noter : une seule publication a été retrouvée pour une autre prédiction du même médicament (sarcome du foie, rang 7). Il s'agit d'un rapport de cas de 2004 sur la cladribine dans la mastocytose systémique indolente (PMID [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/)). Elle ne concerne pas le sarcome hépatique et n'est pas une preuve pertinente.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
-|---------|------|------|-----------|
-| 60427957 | LITAK 2 mg/ml, solution injectable | Solution injectable | LIPOMED (Allemagne) |
-| 65820786 | MAVENCLAD 10 mg, comprimé | Comprimé | MERCK SERONO EUROPE (Royaume-Uni) |
-| 60522572 | LEUSTATINE 1 mg/ml, solution pour perfusion | Solution pour perfusion | ATNAHS PHARMA NETHERLANDS (Pays-Bas) |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
+|---------|------|------|-----------|------|
+| 60427957 | LITAK 2 mg/ml, solution injectable | Solution injectable | Non disponible | Annulée |
+| 65820786 | MAVENCLAD 10 mg, comprimé | Comprimé | Non disponible | Annulée |
+| 60522572 | LEUSTATINE 1 mg/ml, solution pour perfusion | Solution pour perfusion | Non disponible | Annulée |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Cytotoxique conventionnel (analogue nucléosidique de la purine) |
-| Autres éléments (myélosuppression, émétogénicité, surveillance, protection de manipulation) | Veuillez consulter les mises en garde et précautions de la notice |
+| Risque de Myélosuppression | Élevé : les contre-indications du graphe de connaissances incluent la neutropénie, la thrombocytopénie, l'agranulocytose et l'anémie |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | NFS avec formule, fonction rénale, fonction hépatique, surveillance neurologique (neuropathie périphérique) |
+| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications (graphe de connaissances, et non texte de la notice)** : maladie rénale, pyourétère, thrombocytopénie, neutropénie, agranulocytose, anémie, anémie macrocytaire, maladie du système nerveux périphérique, neuropathie périphérique, hyperuricémie.
+- **Interactions médicamenteuses** : 100 interactions recensées, dont les principales sont de niveau majeur :
+  - Corticoïdes : hydrocortisone, triamcinolone (y compris ophtalmique), dexaméthasone, bétaméthasone, budésonide, prednisolone, prednisone.
+  - Radiopharmaceutiques : ibritumomab tiuxétan, iobenguane (I-131), tositumomab (avec ou sans I-131), samarium (153Sm) lexidronam, chlorure de strontium Sr-89.
+  - Autres : défériprone.
+  - Interactions de niveau modéré : palifermine, dipyridamole, cilostazol, eltrombopag.
+  - L'interaction avec l'acide acétylsalicylique est de niveau inconnu.
+
+Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les sept prédictions reposent uniquement sur le modèle (niveau L5 pour le rhabdomyosarcome), sans essai clinique ni publication. Le lien mécanistique avec un analogue nucléosidique à activité lymphoïde n'est étayé par aucune donnée. Les scores élevés proviennent probablement de nœuds d'ontologie quasi dupliqués et ne constituent pas des preuves indépendantes.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Le lien mécanistique est faible, car la sélectivité de la cladribine pour les cellules lymphoïdes ne s'applique pas clairement à ce sarcome. Le profil de myélosuppression est lourd et aucune AMM française n'est actuellement valide.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM, indispensables avant tout examen de sécurité
-- Les données détaillées sur le mécanisme d'action (interrogation de DrugBank)
-- L'évaluation de l'expression de la désoxycytidine kinase dans le rhabdomyosarcome
-- Des données précliniques (lignées cellulaires, modèles animaux) sur la sensibilité du rhabdomyosarcome à la cladribine
-- Une recherche ciblée d'essais cliniques et de publications spécifiques au rhabdomyosarcome, notamment pédiatriques
-- L'évaluation de la compatibilité des voies d'administration (statut actuellement en attente)
-
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
+- Les données détaillées sur le mécanisme d'action (DrugBank).
+- Des données précliniques : sensibilité de lignées de rhabdomyosarcome à la cladribine et expression de la désoxycytidine kinase par rapport à la 5'-nucléotidase.
+- Une revue de la littérature ciblée sur la cladribine dans les sarcomes pédiatriques, ainsi qu'une recherche d'essais enregistrés.
+- Une évaluation du rapport bénéfice/risque comparée aux schémas standards (vincristine, actinomycine D, cyclophosphamide).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

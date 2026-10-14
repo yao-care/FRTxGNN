@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nitisinone
-parent: Preuves modérées (L3-L4)
-nav_order: 216
-evidence_level: L3
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 539
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nitisinone
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,89 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Nitisinone : De la Tyrosinémie Héréditaire de Type 1 à l'Acidose Tubulaire Rénale
+# Nitisinone : De la Tyrosinémie à l'Acidose Tubulaire Rénale
 
 ## Résumé en Une Phrase
 
-Nitisinone est un inhibiteur enzymatique utilisé à l'origine dans la tyrosinémie héréditaire de type 1 (HT-1).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acidose tubulaire rénale**,
-mais **aucun essai clinique** et seulement **2 publications observationnelles** (une cohorte et une série de cas) soutiennent actuellement cette direction.
+Nitisinone est un inhibiteur de la voie de dégradation de la tyrosine, initialement utilisé pour le traitement de la tyrosinémie héréditaire.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acidose tubulaire rénale**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tyrosinémie héréditaire de type 1 (usage établi ; le texte d'indication des AMM n'est pas renseigné dans les données reçues) |
+| Indication Originale | Tyrosinémie (source : graphe de connaissances TxGNN, le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Acidose tubulaire rénale |
 | Score de Prédiction TxGNN | 99,96 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 9 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 9 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Nitisinone inhibe la 4-hydroxyphénylpyruvate dioxygénase (HPPD) et bloque la voie de dégradation de la tyrosine en amont du fumarylacétoacétate et du succinylacétone. Dans la HT-1, ces métabolites toxiques abîment les tubules proximaux. Il en résulte une tubulopathie de type syndrome de Fanconi, avec acidose tubulaire rénale.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques établies, la nitisinone inhibe la 4-hydroxyphénylpyruvate dioxygénase (HPPD), une enzyme de la dégradation de la tyrosine. Cette information est à confirmer auprès de DrugBank.
 
-Le lien avec la nouvelle indication est donc plausible : en réduisant la production de ces métabolites, le médicament peut améliorer l'atteinte tubulaire. Cette amélioration paraît toutefois **limitée à la dysfonction tubulaire secondaire à la HT-1**, ce qui relève déjà de l'usage établi de la nitisinone.
+Dans la tyrosinémie héréditaire de type 1, l'accumulation de métabolites toxiques (notamment la succinylacétone) provoque, entre autres, une atteinte tubulaire proximale de type syndrome de Fanconi. En bloquant la formation de ces métabolites en amont, la nitisinone prévient cette atteinte. Le lien avec l'acidose tubulaire rénale est donc plausible, mais **indirect**.
 
-Ces données ne constituent **pas** une preuve d'efficacité dans les acidoses tubulaires rénales d'autres origines. Il s'agit surtout d'un effet sur une complication de la maladie d'origine, plutôt que d'un vrai repositionnement. Les données détaillées sur le mécanisme d'action issues de DrugBank ne sont pas disponibles ; l'analyse ci-dessus repose sur le raisonnement mécanistique du dossier.
+Il convient toutefois d'être prudent : l'acidose tubulaire rénale primaire a des causes génétiques et de transport ionique distinctes de la voie de la tyrosine. Aucune donnée ne montre un bénéfice dans cette indication. Le score du modèle reste un signal computationnel qui nécessite une validation.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Cohorte | Molecular Genetics and Metabolism | Description de l'effet précoce du NTBC (nitisinone) sur la dysfonction tubulaire rénale chez des patients atteints de HT-1 |
-| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Série de cas | Indian Journal of Gastroenterology | Quatre enfants atteints de tyrosinémie sous NTBC : fonction hépatique normale et succinylacétone urinaire indétectable chez les trois traités environ 3 ans ; l'extrait disponible est tronqué avant la conclusion sur la fonction tubulaire rénale |
+Aucune littérature associée disponible actuellement pour l'acidose tubulaire rénale.
+
+*Remarque : pour la 2ᵉ indication prédite (galactosémie), trois revues générales mentionnent côte à côte la galactosémie et la tyrosinémie dans le diagnostic différentiel des hépatopathies métaboliques pédiatriques. Elles ne démontrent pas d'efficacité de la nitisinone dans cette maladie.*
+
+---
 
 ## Informations de Marché en France
 
-Sur 9 AMM au total, 5 sont listées ci-dessous.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66880925 | ORFADIN 4 mg/ml, suspension buvable | Suspension buvable | Non renseignée |
-| 60459499 | ORFADIN 5 mg, gélule | Gélule | Non renseignée |
-| 64147632 | ORFADIN 10 mg, gélule | Gélule | Non renseignée |
-| 62524376 | NITISINONE DIPHARMA 5 mg, gélule | Gélule | Non renseignée |
-| 67123316 | NITISINONE DIPHARMA 2 mg, gélule | Gélule | Non renseignée |
+| 66880925 | ORFADIN 4 mg/ml | Suspension buvable | Annulée |
+| 60459499 | ORFADIN 5 mg | Gélule | Annulée |
+| 64147632 | ORFADIN 10 mg | Gélule | Annulée |
+| 62524376 | NITISINONE DIPHARMA 5 mg | Gélule | Annulée |
+| 67123316 | NITISINONE DIPHARMA 2 mg | Gélule | Annulée |
+
+Au total, 9 AMM sont recensées, toutes annulées. Aucune AMM valide n'apparaît dans les données compilées. Le texte des indications approuvées n'est pas renseigné.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
+
+- **Contre-indications issues du graphe de connaissances** (à titre indicatif, hors texte de notice) : maladie rénale, pyourétère, thrombopénie, leucopénie, hypophosphatémie.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les premières listées, la plupart sont de niveau modéré, notamment : abiratérone, isotrétinoïne, nifédipine, ibuprofène, aldesleukine, pioglitazone, amiodarone, amlodipine, apalutamide, aprépitant, atazanavir, baricitinib, dexaméthasone, bexarotène, bicalutamide. L'interaction avec l'armodafinil est de niveau mineur.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à une cohorte et à une série de cas, sans essai contrôlé. L'effet observé concerne la tubulopathie secondaire à la HT-1, déjà couverte par l'usage établi, et non l'acidose tubulaire rénale d'autres causes.
-- Les informations de sécurité issues de la notice de l'ANSM manquent, ce qui empêche de passer à l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le lien mécanistique est indirect, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité. Par ailleurs, les 9 AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications) et les textes d'indication des AMM.
-- Compléter les données sur le mécanisme d'action via DrugBank.
-- Définir si la question de recherche porte sur la tubulopathie liée à la HT-1 (déjà couverte) ou sur d'autres acidoses tubulaires rénales (non étayées).
-- Si la seconde option est retenue, chercher des études contrôlées ou des données mécanistiques sur des acidoses tubulaires non liées à la HT-1.
-
-**Autres prédictions du modèle :** les neuf autres indications prédites (galactosémie, glycogénose, déficit en C1 inhibiteur, syndrome de Griscelli, etc.) ne disposent d'aucun lien mécanistique identifié. Elles sont classées L4 ou L5 et maintenues en Hold. Le score élevé du modèle reflète probablement une proximité dans le graphe de connaissances entre maladies métaboliques hépatiques, et non une efficacité démontrée.
+- Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
+- Confirmer le mécanisme d'action via DrugBank
+- Réaliser une revue ciblée de la littérature sur l'atteinte tubulaire rénale sous nitisinone, et sur l'acidose tubulaire rénale primaire
+- Examiner les contre-indications issues du graphe (maladie rénale, hypophosphatémie), potentiellement pertinentes pour une indication rénale
+- Clarifier la situation réglementaire (AMM annulées) et la disponibilité du médicament en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

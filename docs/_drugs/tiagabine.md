@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tiagabine
-parent: Preuves modérées (L3-L4)
-nav_order: 308
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 758
+evidence_level: L5
 indication_count: 1
 ---
 
 # Tiagabine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,81 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Tiagabine : De l'épilepsie focale à l'épilepsie visuelle
+# Tiagabine : De l'Épilepsie Partielle à l'Épilepsie Visuelle
 
 ## Résumé en Une Phrase
 
-La tiagabine est un antiépileptique commercialisé en France, utilisé en traitement adjuvant des crises focales.
-Le modèle TxGNN prédit qu'elle pourrait être utile dans l'**épilepsie visuelle**,
-mais les données actuelles se limitent à **1 essai clinique** observationnel indirect et **17 publications** qui portent surtout sur l'épilepsie en général, sans étude spécifique de cette indication.
+Tiagabine est un antiépileptique inhibiteur de la recapture du GABA, initialement utilisé pour le traitement de l'épilepsie partielle.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**épilepsie visuelle**, mais aucun essai clinique n'est enregistré à ce jour. Parmi les **16 publications** retrouvées, aucune n'évalue spécifiquement cette indication.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Crises focales, en traitement adjuvant (selon la littérature ; le texte d'indication de l'AMM n'est pas renseigné) |
+| Indication Originale | Épilepsie partielle |
 | Nouvelle Indication Prédite | Épilepsie visuelle |
 | Score de Prédiction TxGNN | 99,25 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Niveau de Preuve | L5 (prédiction du modèle, sans étude directe sur cette indication) |
+| Statut de Marché en France | AMM annulée uniquement (non commercialisé) |
 | Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-La tiagabine inhibe sélectivement le transporteur du GABA de type GAT-1. Elle freine la recapture du GABA par les neurones et les cellules gliales, ce qui augmente le GABA dans la synapse et renforce l'inhibition neuronale (PMID 32120063, 11520315). Ce mécanisme est unique parmi les antiépileptiques (PMID 10530690). Le champ « mécanisme d'action » de DrugBank est vide ; cette description provient donc de la littérature.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Selon la littérature retrouvée, la tiagabine bloque la recapture du GABA (transporteur GAT-1) par les neurones et les cellules gliales, ce qui renforce l'inhibition synaptique. Ce mécanisme est décrit comme spécifique parmi les antiépileptiques. Elle est efficace en traitement additionnel des crises partielles.
 
-L'épilepsie visuelle correspond à des crises d'origine focale, notamment dans les régions occipitales ou le cortex visuel. Comme la tiagabine est déjà utilisée pour les crises focales, le lien mécanistique est plausible : renforcer l'inhibition GABAergique pourrait aider à contrôler ces crises.
+L'épilepsie visuelle (par exemple épilepsie du lobe occipital ou épilepsie photosensible) est une forme focale ou réflexe de crises. Un effet antiépileptique de type GABAergique est donc plausible, et le score élevé du modèle reflète probablement la proximité phénotypique avec l'épilepsie partielle. Il s'agit davantage d'une extension au sein d'une même famille de maladies que d'un véritable repositionnement.
 
-Le score TxGNN très élevé (0,993) reflète probablement ce lien général avec les crises focales, et non une preuve nouvelle de repositionnement. Aucune publication du dossier ne démontre un effet spécifique dans l'épilepsie visuelle. Il faut donc lire cette prédiction comme une hypothèse de recherche, pas comme un résultat validé.
+Point de vigilance : la littérature signale des déficits du champ visuel avec les antiépileptiques GABAergiques (vigabatrine, tiagabine). C'est une considération importante pour une population dont la pathologie touche le système visuel.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Terminé | 111 | Étude Liceo : étude observationnelle prospective (2007-2009) sur l'efficacité de nouveaux antiépileptiques, dont la tiagabine, en première bithérapie dans l'épilepsie focale. Contexte général seulement : ce n'est pas un essai randomisé, l'épilepsie visuelle n'est pas ciblée et la tiagabine n'est pas analysée séparément (pertinence : grade C). |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
+Aucune publication ne teste la tiagabine dans l'épilepsie visuelle. Les références ci-dessous apportent un contexte sur le mécanisme, l'efficacité générale et la sécurité visuelle.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [31608990](https://pubmed.ncbi.nlm.nih.gov/31608990/) | 2019 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Évalue la tiagabine en traitement adjuvant dans l'épilepsie focale pharmacorésistante |
-| [22592677](https://pubmed.ncbi.nlm.nih.gov/22592677/) | 2012 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Version antérieure de la même évaluation, dans l'épilepsie partielle pharmacorésistante |
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Recommandations | Neurology | Mise à jour AAN/AES sur l'efficacité et la tolérance des nouveaux antiépileptiques dans l'épilepsie nouvellement diagnostiquée |
-| [12588906](https://pubmed.ncbi.nlm.nih.gov/12588906/) | 2003 | Revue | J Neurol Neurosurg Psychiatry | Discute les effets sur le champ visuel de la vigabatrine et de la tiagabine (résumé non disponible) |
-| [17560495](https://pubmed.ncbi.nlm.nih.gov/17560495/) | 2007 | Revue | Pediatr Neurol | Synthèse des troubles visuels induits par les antiépileptiques (champ visuel, vision des couleurs) |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Revue | Neuropharmacology | Mécanismes d'action des antiépileptiques actuels |
-| [11520315](https://pubmed.ncbi.nlm.nih.gov/11520315/) | 2001 | Revue | Epilepsia | Rôle du GABA dans l'épilepsie : équilibre entre inhibition et excitation |
-| [10530690](https://pubmed.ncbi.nlm.nih.gov/10530690/) | 1999 | Revue | Epilepsia | Tiagabine : inhibiteur de la recapture du GABA, efficace en traitement adjuvant des crises partielles, sans effet notable sur le métabolisme hépatique des autres antiépileptiques |
-| [26210064](https://pubmed.ncbi.nlm.nih.gov/26210064/) | 2015 | Revue | Epilepsy Behav | États de mal épileptiques d'origine médicamenteuse : certains antiépileptiques GABAergiques peuvent aggraver les crises dans les épilepsies généralisées (la tiagabine y est vraisemblablement citée ; résumé tronqué) |
-| [9097364](https://pubmed.ncbi.nlm.nih.gov/9097364/) | 1997 | Revue | Semin Pediatr Neurol | Pharmacocinétique, efficacité et sécurité de la tiagabine ; efficace dans les crises partielles chez l'adulte et l'adolescent |
-
-Aucune de ces publications ne porte sur l'épilepsie visuelle. Leur pertinence n'a pas encore été évaluée.
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Recommandation | Neurology | Mise à jour des recommandations AAN/AES sur les nouveaux antiépileptiques dans l'épilepsie nouvellement diagnostiquée |
+| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Revue | Neuropharmacology | Mécanismes d'action des antiépileptiques actuellement utilisés |
+| [12588906](https://pubmed.ncbi.nlm.nih.gov/12588906/) | 2003 | Revue | J Neurol Neurosurg Psychiatry | Vigabatrine, tiagabine et champs visuels (résumé non disponible) |
+| [10530690](https://pubmed.ncbi.nlm.nih.gov/10530690/) | 1999 | Revue | Epilepsia | Tiagabine : inhibition de la recapture du GABA, efficace en traitement additionnel des crises partielles, sans effet notable sur le métabolisme hépatique des autres antiépileptiques |
+| [9097364](https://pubmed.ncbi.nlm.nih.gov/9097364/) | 1997 | Revue | Semin Pediatr Neurol | Efficacité contre les crises partielles chez l'adulte et l'adolescent ; données pédiatriques préliminaires encourageantes |
+| [15094857](https://pubmed.ncbi.nlm.nih.gov/15094857/) | 1998 | Revue | Drugs Today (Barc) | Mécanisme spécifique ; pas de tératogénicité, cancérogénicité ni mutagénicité notables chez l'animal |
+| [8039477](https://pubmed.ncbi.nlm.nih.gov/8039477/) | 1994 | Revue | Epilepsia | Inhibiteur spécifique de la recapture du GABA ; effets anticonvulsivants dans les modèles animaux et dans un essai contrôlé contre placebo (crises partielles complexes) |
+| [17560495](https://pubmed.ncbi.nlm.nih.gov/17560495/) | 2007 | Revue | Pediatr Neurol | Antiépileptiques et fonction visuelle : troubles du champ visuel et de la vision des couleurs |
+| [11520315](https://pubmed.ncbi.nlm.nih.gov/11520315/) | 2001 | Revue | Epilepsia | Mécanismes GABAergiques dans l'épilepsie |
+| [26210064](https://pubmed.ncbi.nlm.nih.gov/26210064/) | 2015 | Revue | Epilepsy Behav | États de mal épileptiques d'origine médicamenteuse ; certains antiépileptiques GABAergiques peuvent aggraver les crises |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 61089729 | GABITRIL 15 mg, comprimé pelliculé (TEVA PHARMA, Pays-Bas) | Comprimé pelliculé |
-
-Le texte de l'indication approuvée n'est pas renseigné dans les données reçues.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61089729 | GABITRIL 15 mg, comprimé pelliculé (TEVA PHARMA, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances (et non du texte de la notice)** : trouble anxieux, trouble névrotique, trouble dysthymique, maladie hépatique, maladie de la vésicule biliaire.
+- **Interactions médicamenteuses** : 97 interactions recensées. Celles de niveau modéré incluent aprépitant, morphine (y compris liposomale), dronabinol, nabilone, métoclopramide et opium. Plusieurs autres (pantoprazole, doxycycline, metformine, oméprazole, lansoprazole, prednisone, chlorure de potassium, ranitidine, ondansétron, sucralfate, rosiglitazone, simvastatine, tégasérod) ont un niveau non précisé.
+- **Sécurité visuelle** : la littérature rapporte des anomalies du champ visuel avec les antiépileptiques GABAergiques. Elles sont à considérer avec une attention particulière dans cette population.
 
-Deux points d'attention viennent de la littérature du dossier :
-- **Champ visuel** : les effets sur le champ visuel sont discutés pour la vigabatrine et la tiagabine (PMID 12588906, 17560495). Le constat est surtout établi pour la vigabatrine. Ce point compte particulièrement pour une indication visuelle.
-- **Aggravation des crises** : les antiépileptiques GABAergiques peuvent aggraver les crises, voire provoquer un état de mal épileptique, s'ils sont utilisés à tort dans une épilepsie généralisée (PMID 26210064).
+Les mises en garde et contre-indications de la notice officielle n'ont pas pu être consultées. Veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose surtout sur le lien général entre la tiagabine et les crises focales ; aucune preuve ne concerne l'épilepsie visuelle elle-même. Les informations de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape suivante de dépistage de sécurité.
+La prédiction repose uniquement sur le modèle (L5). Aucun essai clinique ni étude spécifique à l'épilepsie visuelle n'a été identifié. L'AMM française est annulée, et les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité. Le risque de troubles du champ visuel pose en outre une question particulière pour cette population.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde, contre-indications) et le texte d'indication de l'AMM.
-- Compléter les données de mécanisme d'action de DrugBank.
-- Rechercher des données cliniques ciblant l'épilepsie visuelle (occipitale) et évaluer la pertinence des 17 publications.
-- Évaluer le risque sur le champ visuel, puis l'intérêt de la tiagabine dans cette indication.
+- Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications)
+- Obtenir des données détaillées sur le mécanisme d'action (par exemple via DrugBank)
+- Rechercher des études cliniques ou observationnelles de la tiagabine dans l'épilepsie occipitale, photosensible ou réflexe
+- Évaluer le risque d'atteinte du champ visuel et prévoir une surveillance ophtalmologique si une étude est envisagée
+- Clarifier la disponibilité du produit en France, l'AMM étant annulée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

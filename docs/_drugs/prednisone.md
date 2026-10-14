@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prednisone
-parent: Preuves élevées (L1-L2)
-nav_order: 249
-evidence_level: L2
+parent: Preuves modérées (L3-L4)
+nav_order: 626
+evidence_level: L3
 indication_count: 10
 ---
 
 # Prednisone
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,90 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Prednisone : Du Corticoïde Systémique à l'Alopécie Areata
+# Prednisone : De l'Autoimmunité et de l'Insuffisance Surrénalienne à l'Alopécie Areata
 
 ## Résumé en Une Phrase
 
-La prednisone est un corticoïde oral commercialisé en France. Les textes d'indication de l'ANSM ne sont pas renseignés dans les données reçues.
-Le modèle TxGNN prédit qu'elle pourrait être utile dans l'**alopécie areata**, mais les preuves directes restent limitées : **1 essai clinique de phase 3 pertinent** (parmi 33 essais remontés, dont la plupart ne concernent pas cette indication) et **20 publications**, surtout des séries de cas et des cohortes.
-
----
+La prednisone est un glucocorticoïde systémique, initialement utilisé pour traiter des maladies auto-immunes et inflammatoires (maladie de Crohn, insuffisance surrénalienne, leucémie lymphoblastique aiguë, pneumonie à éosinophiles, entre autres).
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**alopécie areata**,
+avec **0 essai clinique** enregistré et **20 publications** associées dans les données compilées pour ce rapport (dont un essai randomisé récent associant méthotrexate et prednisone à faible dose).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Maladies auto-immunes, insuffisance surrénalienne, maladie de Crohn, leucémie lymphoblastique aiguë (les textes d'indication des AMM françaises ne sont pas renseignés ; indications issues du graphe de connaissances) |
 | Nouvelle Indication Prédite | Alopécie areata |
 | Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 17 |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Nombre d'AMM | 17 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la prednisone est un glucocorticoïde de synthèse aux propriétés anti-inflammatoires et immunosuppressives. Son efficacité dans de nombreuses maladies inflammatoires et auto-immunes est établie, et son mécanisme pourrait être applicable à l'alopécie areata.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la prednisone est un glucocorticoïde systémique aux effets immunosuppresseurs et anti-inflammatoires larges. Son efficacité dans plusieurs maladies auto-immunes et inflammatoires est établie.
 
-L'alopécie areata est une attaque auto-immune des follicules pileux médiée par les lymphocytes T, avec effondrement du « privilège immunitaire » du follicule. Un glucocorticoïde freine l'activation des lymphocytes T et les cytokines pro-inflammatoires, ce qui rend l'approche biologiquement plausible. Les corticoïdes systémiques sont d'ailleurs déjà utilisés hors AMM dans cette maladie.
+L'alopécie areata est une attaque auto-immune, médiée par les lymphocytes T, dirigée contre le follicule pileux. Un traitement qui freine cette réponse immunitaire est donc plausible, ce qui est cohérent avec les indications auto-immunes existantes de la prednisone. Le score élevé du modèle (0,9999) va dans le même sens.
 
-Cet usage a des limites. Les rechutes sont fréquentes à l'arrêt, et la toxicité cumulée des corticoïdes freine tout traitement prolongé. Les données actuelles soutiennent donc la prednisone surtout comme **relais à faible dose ou traitement d'appoint**, par exemple associée au méthotrexate ou au baricitinib, plutôt que comme traitement d'entretien seul.
-
----
+Les limites principales sont la rechute à l'arrêt du traitement et la toxicité des corticoïdes systémiques en cure prolongée. Un suivi de 18 patients traités par prednisone en jours alternés (1976) a ainsi conclu à un bénéfice à long terme peu substantiel, avec de nombreux effets indésirables.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT02037191](https://clinicaltrials.gov/study/NCT02037191) | Phase 3 | Terminé | 90 | Essai randomisé en double aveugle dans la pelade sévère : méthotrexate versus placebo, puis traitement secondaire par méthotrexate + prednisone à faible dose. Évalue l'efficacité et la sécurité de la repousse des cheveux (taux habituel < 10 % dans les formes sévères). |
-
-Cet essai est le seul directement lié à l'indication (grade B). La prednisone y est un traitement associé, non testé seule. Les 32 autres essais remontés par la recherche (surtout lupus et oncologie, où la prednisone n'est qu'un traitement de fond) ont été jugés non pertinents ou n'ont pas été évalués, et ne sont donc pas listés.
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
+Sélection des publications les plus pertinentes parmi les 20 retrouvées :
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [36884234](https://pubmed.ncbi.nlm.nih.gov/36884234/) | 2023 | ECR | JAMA Dermatol | Méthotrexate seul versus méthotrexate + prednisone à faible dose dans la pelade totale ou universelle (essai en 2 étapes, double aveugle). Il s'agit de la publication de l'essai NCT02037191. |
-| [41958306](https://pubmed.ncbi.nlm.nih.gov/41958306/) | 2026 | Série de cas rétrospective | JEADV | Baricitinib + prednisone à faible dose dans les formes très sévères d'alopécie areata. |
-| [37467740](https://pubmed.ncbi.nlm.nih.gov/37467740/) | 2023 | Cohorte (8 cas) | Clin Exp Dermatol | Nette amélioration de formes très sévères avec baricitinib + corticoïdes à faible dose, alors que le baricitinib seul donne de mauvais résultats dans ces formes. |
-| [26735937](https://pubmed.ncbi.nlm.nih.gov/26735937/) | 2016 | Cohorte | Dermatology | Méthotrexate associé à des corticoïdes à dose faible à modérée dans l'alopécie areata sévère. |
-| [1444509](https://pubmed.ncbi.nlm.nih.gov/1444509/) | 1992 | Revue | Arch Dermatol | Revue des traitements. Certains médicaments sont efficaces à des degrés divers, mais les études sont trop hétérogènes pour être comparées. |
-| [791152](https://pubmed.ncbi.nlm.nih.gov/791152/) | 1976 | Cohorte (suivi) | Arch Dermatol | 18 patients traités par prednisone un jour sur deux : réponse initiale, mais bénéfice à long terme jugé peu substantiel, avec de nombreux effets indésirables (acné, obésité, opacités du cristallin, hypertension). |
-| [20804894](https://pubmed.ncbi.nlm.nih.gov/20804894/) | 2010 | Étude clinique | Ann Dermatol Venereol | Prednisone orale en pulse mensuel : évaluation de l'efficacité et de la tolérance. |
-| [9732014](https://pubmed.ncbi.nlm.nih.gov/9732014/) | 1998 | Étude clinique | Int J Dermatol | Alopécie areata sévère traitée par corticoïdes systémiques, décrits comme efficaces dans le résumé. |
-| [8996277](https://pubmed.ncbi.nlm.nih.gov/8996277/) | 1997 | Étude clinique | J Am Acad Dermatol | Ciclosporine systémique + prednisone à faible dose dans l'alopécie areata sévère chronique (évaluation clinique et immunopathologique). |
-| [4571041](https://pubmed.ncbi.nlm.nih.gov/4571041/) | 1973 | Cohorte | Arch Dermatol | Études immunologiques et traitement de l'alopécie areata par prednisone. |
-
----
+| [36884234](https://pubmed.ncbi.nlm.nih.gov/36884234/) | 2023 | ECR (d'après le titre ; conception non vérifiée sur texte intégral) | JAMA Dermatology | Méthotrexate seul versus méthotrexate + prednisone à faible dose dans l'alopécie areata totale ou universelle (essai en double aveugle en 2 étapes) |
+| [1444500](https://pubmed.ncbi.nlm.nih.gov/1444500/) | 1992 | Essai randomisé contrôlé | Archives of Dermatology | 32 patients : décroissance de prednisone sur 6 semaines, puis minoxidil topique 2 % ou placebo ; résultats comparés à une série ouverte de 48 patients |
+| [1444509](https://pubmed.ncbi.nlm.nih.gov/1444509/) | 1992 | Revue | Archives of Dermatology | Revue des traitements, de l'efficacité, de la sécurité et du mécanisme ; efficacité partielle de certains médicaments, comparaisons impossibles entre études hétérogènes |
+| [37467740](https://pubmed.ncbi.nlm.nih.gov/37467740/) | 2023 | Série de cas | Clin Exp Dermatol | Amélioration majeure de formes très sévères avec baricitinib + corticoïdes à faible dose (8 cas) |
+| [41958306](https://pubmed.ncbi.nlm.nih.gov/41958306/) | 2026 | Série de cas rétrospective | JEADV | Baricitinib + prednisone à faible dose dans l'alopécie areata très sévère |
+| [20804894](https://pubmed.ncbi.nlm.nih.gov/20804894/) | 2010 | Étude clinique | Ann Dermatol Venereol | Prednisone orale en pulse mensuel : évaluation de l'efficacité et de la tolérance |
+| [791152](https://pubmed.ncbi.nlm.nih.gov/791152/) | 1976 | Rapport de suivi | Archives of Dermatology | Réponse initiale mais bénéfice à long terme non substantiel ; nombreux effets indésirables |
+| [8996277](https://pubmed.ncbi.nlm.nih.gov/8996277/) | 1997 | Étude clinique | J Am Acad Dermatol | Ciclosporine systémique + prednisone à faible dose dans l'alopécie areata sévère chronique |
+| [38650498](https://pubmed.ncbi.nlm.nih.gov/38650498/) | 2024 | Données en vie réelle | Ital J Dermatol Venereol | Caractérisation des patients hospitalisés en Italie : comorbidités, schémas de traitement, coûts |
+| [4571041](https://pubmed.ncbi.nlm.nih.gov/4571041/) | 1973 | Étude clinique/immunologique | Archives of Dermatology | Études immunologiques et traitement par prednisone |
 
 ## Informations de Marché en France
 
-Le statut est « commercialisé », avec 17 AMM au total (5 présentées ci-dessous). Les textes d'indication approuvée ne sont pas renseignés dans les données reçues.
+Les 17 AMM recensées sont toutes annulées ; aucune n'est valide actuellement. Les textes d'indication approuvée ne sont pas disponibles. Principales AMM :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60118715 | CORTANCYL 1 mg | Comprimé | Cheplapharm Arzneimittel (Allemagne) |
-| 68853282 | PREDNISONE VIATRIS 1 mg | Comprimé | Viatris Santé |
-| 60492702 | CORTANCYL 5 mg | Comprimé sécable | Cheplapharm Arzneimittel (Allemagne) |
-| 64793934 | PREDNISONE BIOGARAN 20 mg | Comprimé sécable | Biogaran |
-| 66297189 | PREDNISONE BIOGARAN 5 mg | Comprimé sécable | Biogaran |
-
----
+| 60118715 | CORTANCYL 1 mg | comprimé | Annulée |
+| 60492702 | CORTANCYL 5 mg | comprimé sécable | Annulée |
+| 62390849 | CORTANCYL 20 mg | comprimé sécable | Annulée |
+| 68853282 | PREDNISONE VIATRIS 1 mg | comprimé | Annulée |
+| 64793934 | PREDNISONE BIOGARAN 20 mg | comprimé sécable | Annulée |
 
 ## Considérations de Sécurité
 
-Les données de sécurité issues de la notice ANSM (mises en garde, contre-indications) et les interactions médicamenteuses ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications relevées dans le graphe de connaissances** (et non dans la notice) : hypertension, épilepsie, hyperglycémie, insuffisance cardiaque congestive, kératite herpétique, rougeole, certains déficits du cycle de l'urée (citrullinémie, hyperargininémie, déficit en carbamoyl-phosphate synthétase I) ainsi que diverses déficiences hypophysaires et hypogonadismes hypogonadotropes (syndrome de Kallmann, syndrome de Sheehan, déficits en hormone de croissance).
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les exemples issus des données : **majeure** avec l'adalimumab ; **modérées** avec le zidovudine, l'isotrétinoïne, l'acarbose, l'acébutolol, l'acétazolamide, le kétorolac, la nifédipine, l'ibuprofène, l'éthinylestradiol, le butalbital, l'albiglutide, l'aldesleukine, l'alefacept, l'alemtuzumab et l'aliskiren ; **mineures** avec le formotérol et le salbutamol.
+- **Effets indésirables rapportés dans la littérature sur l'alopécie areata** : acné, obésité, opacités du cristallin, hypertension légère (suivi de 1976).
 
-À titre indicatif, la littérature rapportée signale des effets indésirables de la corticothérapie prolongée (acné, prise de poids, opacités du cristallin, hypertension) et un bénéfice à long terme limité après l'arrêt du traitement.
-
----
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Un essai randomisé de phase 3 terminé et publié (méthotrexate ± prednisone à faible dose), ainsi que plusieurs séries de cas récentes, soutiennent l'usage de la prednisone comme traitement d'appoint ou relais dans l'alopécie areata sévère. Aucune donnée ne soutient à ce stade la prednisone seule en traitement d'entretien.
-- La sécurité n'a pas pu être évaluée faute de notice ANSM exploitable, ce qui impose des garde-fous : faible dose, durée limitée, usage en association.
+- L'alopécie areata est une maladie auto-immune pour laquelle l'action immunosuppressive de la prednisone est plausible, avec une littérature clinique de niveau L3 (essais randomisés, séries de cas récentes). Aucun essai enregistré n'existe, les bénéfices à long terme sont limités par les rechutes et la toxicité des corticoïdes systémiques, et toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions), une lacune bloquante pour le dépistage de sécurité
-- Obtenir les données de mécanisme d'action via DrugBank
-- Extraire les résultats chiffrés de l'essai NCT02037191 (publication JAMA Dermatology) pour isoler l'apport propre de la prednisone
-- Définir un schéma d'usage (dose, durée, stratégie de sevrage) et un plan de surveillance de la toxicité cumulée
+- Récupérer les mises en garde et contre-indications de la notice (ANSM), ce qui bloque actuellement l'étape de screening de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Confirmer le statut réglementaire actuel de la prednisone en France (AMM toutes annulées dans les données)
+- Vérifier la conception de l'essai de 2023 sur texte intégral et évaluer la pertinence des essais randomisés plus anciens
+- Définir un plan de surveillance de sécurité (tension, glycémie, risque infectieux) et une stratégie de sevrage pour limiter les rechutes
 
-Les neuf autres indications prédites (par exemple l'alopécie mucineuse ou le effluvium télogène) ont un niveau de preuve L4-L5 et sont en « Hold ». La ténosynovite est classée « Research Question » (L4), avec des preuves uniquement indirectes.
+**Autres indications prédites (à titre d'information) :** les autres prédictions sont à mettre en attente (*Hold*) faute de preuves suffisantes : mucinose folliculaire (L4), télogène effluvium, folliculite décalvante de Quinquaud, hypotrichose héréditaire avec vésicules cutanées récurrentes, syndrome alopécie-déficience intellectuelle-hypogonadisme hypergonadotrope, atrichie avec lésions papuleuses, prolapsus de la glande lacrymale (L5 pour chacune, sans essai ni littérature), et alopécie avec déficit en anticorps (L4, preuves indirectes). La ténosynovite (L4) reste une question de recherche : la voie est plausible (ténosynovites inflammatoires sensibles aux corticoïdes), mais la littérature se compose essentiellement de cas isolés, avec un risque lié aux infections, notamment mycobactériennes.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

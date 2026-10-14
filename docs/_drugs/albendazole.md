@@ -2,7 +2,7 @@
 layout: default
 title: Albendazole
 parent: Preuves élevées (L1-L2)
-nav_order: 20
+nav_order: 32
 evidence_level: L2
 indication_count: 3
 ---
@@ -29,13 +29,13 @@ Niveau de preuve: **L2** | Indications prédites: **3**
 
 </div>
 
-# Albendazole : D'un Antihelminthique à l'Échinococcose Alvéolaire
+# Albendazole : De l'échinococcose kystique à l'échinococcose alvéolaire
 
 ## Résumé en Une Phrase
 
-L'albendazole est un antihelminthique commercialisé en France (Zentel, Eskazole), mais son indication d'origine n'est pas renseignée dans le dossier.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**échinococcose alvéolaire**,
-avec **5 essais cliniques** et **20 publications** associés à cette direction. Un seul essai de Phase 2 (terminé) évalue directement l'albendazole dans cette maladie.
+Albendazole est un antiparasitaire de la famille des benzimidazoles, initialement utilisé pour traiter l'échinococcose kystique, la cysticercose et l'infection à *Echinococcus granulosus*.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**échinococcose alvéolaire**, avec **3 essais cliniques** et **20 publications** soutenant actuellement cette direction.
+Il s'agit davantage d'une extension au sein d'une même classe de médicaments et d'un même genre de parasite que d'un repositionnement au sens strict.
 
 ---
 
@@ -43,23 +43,23 @@ avec **5 essais cliniques** et **20 publications** associés à cette direction.
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans le dossier (texte d'indication des AMM vide) |
+| Indication Originale | Échinococcose kystique, cysticercose, infection à *Echinococcus granulosus* (texte d'indication de l'AMM non renseigné dans les données compilées) |
 | Nouvelle Indication Prédite | Échinococcose alvéolaire |
 | Score de Prédiction TxGNN | 99,97 % |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 3 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier du médicament. D'après la pharmacologie générale, l'albendazole (via son métabolite actif, le sulfoxyde d'albendazole) se lie à la bêta-tubuline du parasite. Il bloque ainsi la polymérisation des microtubules et perturbe l'absorption du glucose chez les métacestodes d'*Echinococcus*.
+L'albendazole est un antihelminthique de la famille des benzimidazoles. Les données détaillées sur le mécanisme d'action ne figurent pas dans les données compilées pour ce rapport. Selon les connaissances pharmacologiques établies, il se lie à la bêta-tubuline du parasite et inhibe la polymérisation des microtubules, ce qui perturbe l'absorption du glucose et le métabolisme énergétique des helminthes.
 
-Ce mécanisme est parasitostatique et non parasiticide : il ralentit la croissance du parasite sans le tuer. C'est pourquoi le traitement est généralement prolongé et souvent associé à la chirurgie. Le consensus d'experts et les revues récentes placent déjà les benzimidazoles (albendazole, mébendazole) comme chimiothérapie de référence de l'échinococcose alvéolaire.
+*Echinococcus multilocularis*, agent de l'échinococcose alvéolaire, est très proche d'*Echinococcus granulosus*, responsable de l'échinococcose kystique (indication d'origine). Le mécanisme est donc directement transférable d'une espèce à l'autre.
 
-Le score TxGNN très élevé (0,9997) est cohérent avec cette situation. Il s'agit toutefois d'une prédiction du modèle, pas d'une preuve indépendante.
+L'albendazole est d'ailleurs déjà le traitement chimiothérapique recommandé par les consensus d'experts pour l'échinococcose alvéolaire. Son action est parasitostatique, et le traitement est prolongé ou administré après chirurgie. Le score TxGNN très élevé est cohérent avec cette situation.
 
 ---
 
@@ -67,48 +67,49 @@ Le score TxGNN très élevé (0,9997) est cohérent avec cette situation. Il s'a
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | Terminé | 194 | Traitement par albendazole de l'échinococcose alvéolaire à un stade précoce, dans un foyer découvert au Kirghizistan par dépistage échographique. Seule preuve interventionnelle directe. Randomisation et comparateur non confirmés. |
-| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | Non applicable | Inconnu | 24 | Essai randomisé de l'albendazole adjuvant après résection d'un kyste hydatique pulmonaire, contre placebo. Concerne la forme kystique : preuve indirecte. |
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | Non applicable | Terminé | 50 | Étude EchinoVISTA : marqueurs de viabilité du parasite et de suivi chez des patients atteints d'échinococcose alvéolaire hépatique traités par albendazole. Soutient le suivi de la réponse, sans tester l'efficacité. |
-| [NCT05824442](https://clinicaltrials.gov/study/NCT05824442) | Non applicable | En recrutement | 43 | Nouvelle PCR quantitative multiplex pour le diagnostic de l'échinococcose. Étude diagnostique, sans intervention thérapeutique. |
-| [NCT07176598](https://clinicaltrials.gov/study/NCT07176598) | Non applicable | Terminé | 1 | Cas clinique d'un kyste hydatique intramusculaire du deltoïde, initialement mal diagnostiqué. Forme kystique, non pertinent pour l'efficacité dans la forme alvéolaire. |
+| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | Terminé | 194 | Essai de traitement par albendazole dans l'échinococcose alvéolaire à un stade précoce (foyer détecté au Kirghizistan par dépistage échographique). Correspondance directe, mais plan de randomisation non précisé et résultats non fournis |
+| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | NA | Terminé | 50 | Étude prospective (EchinoVISTA) sur la viabilité du parasite et des marqueurs de suivi chez des patients traités par albendazole. Soutient la surveillance de la réponse plutôt que l'efficacité |
+| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | NA | Inconnu | 24 | Essai randomisé de l'albendazole adjuvant après résection d'un kyste hydatique pulmonaire, versus placebo. Concerne la forme kystique, donc indirect ; effectif faible |
 
 ---
 
 ## Preuves de la Littérature
 
-Aucun ECR ni revue systématique n'a été identifié parmi les publications. Le tableau présente les consensus, revues et études précliniques les plus pertinents.
+Les publications ci-dessous sont les plus pertinentes parmi celles compilées (principalement des revues et des études observationnelles ; aucun ECR n'est répertorié).
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Consensus d'experts | Acta Trop | Recommandations actualisées de l'OMS (WHO-IWGE) sur le diagnostic, le traitement et le suivi des échinococcoses kystique et alvéolaire. |
-| [39311470](https://pubmed.ncbi.nlm.nih.gov/39311470/) | 2024 | Revue | Parasite | La prise en charge repose sur les benzimidazoles, associés à la chirurgie si possible. Ils sont parasitostatiques : le parasite peut reprendre sa croissance à l'arrêt. Risque d'atteinte hépatique. |
-| [39606163](https://pubmed.ncbi.nlm.nih.gov/39606163/) | 2024 | Revue | World J Hepatol | État des lieux du traitement médicamenteux. La chirurgie reste le traitement principal, mais de nombreux patients sont diagnostiqués trop tard pour être opérés. |
-| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Revue | Semin Liver Dis | Revue de l'échinococcose alvéolaire hépatique : zoonose rare et grave, en recrudescence dans les zones historiquement endémiques. |
-| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Revue | Zhongguo Xue Xi Chong Bing Fang Zhi Za Zhi | Progrès sur l'albendazole : il peut retarder la progression chez les patients non opérables ou refusant la chirurgie. |
-| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Revue | Clin Microbiol Rev | Progrès du XXIᵉ siècle sur la génétique, le diagnostic et les techniques de traitement de l'échinococcose, notamment dans l'ouest de la Chine. |
-| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Revue | Tidsskr Nor Laegeforen | Tumeurs multikystiques à croissance lente, évoquant une tumeur maligne. Traitement fréquent par résection chirurgicale et traitement prolongé. |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Revue | World J Gastroenterol | Prise en charge de l'échinococcose hépatique : la chirurgie est la pierre angulaire du traitement. |
-| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Pharmacologie / métabolisme | Antimicrob Agents Chemother | Chez le rat, des formulations solubilisantes cherchent à améliorer la biodisponibilité orale, limitée par la faible solubilité. |
-| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Revue | Parasitology | L'albendazole est le seul traitement antiparasitaire actuel, non parasiticide et parfois responsable d'effets indésirables sévères. La pyronaridine est étudiée comme alternative. |
+| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Revue (consensus d'experts) | Acta Tropica | Recommandations de consensus pour le diagnostic, le traitement et le suivi des échinococcoses kystique et alvéolaire |
+| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Revue | Clin Microbiol Rev | Avancées du XXIe siècle sur l'échinococcose, y compris les techniques de traitement |
+| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Revue | Semin Liver Dis | Synthèse sur l'échinococcose alvéolaire hépatique |
+| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Revue | Tidsskr Nor Legeforen | Prise en charge : résection chirurgicale étendue associée à un traitement prolongé |
+| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Revue | World J Gastroenterol | Prise en charge actuelle de l'échinococcose hépatique ; la chirurgie reste la pierre angulaire |
+| [34432154](https://pubmed.ncbi.nlm.nih.gov/34432154/) | 2021 | Observationnelle (rétrospective) | Parasitol Res | Tolérance clinique et efficacité de l'albendazole chez 117 patients, suivi à long terme |
+| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Observationnelle | J Antimicrob Chemother | Comparaison albendazole/mébendazole chez 35 patients, suivi moyen de 39 mois |
+| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Revue | Zhongguo Xue Xi Chong Bing Fang Zhi Za Zhi | Progrès sur l'albendazole : il peut retarder la progression chez les patients non opérables |
+| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Revue | Parasitology | Le traitement repose exclusivement sur l'albendazole, non parasiticide, avec des effets indésirables parfois sévères ; la pyronaridine est évoquée comme alternative |
+| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Revue | Parasite | Albendazole et mébendazole : options thérapeutiques et pistes nouvelles |
 
 ---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69731801 | ZENTEL 0,4 g/10 mL | Suspension buvable | GlaxoSmithKline |
-| 65565944 | ZENTEL 400 mg | Comprimé | GlaxoSmithKline |
-| 68879708 | ESKAZOLE 400 mg | Comprimé | GlaxoSmithKline |
+| 69731801 | ZENTEL 0,4 g/10 mL, suspension buvable (annulée) | Suspension buvable | Non renseignée |
+| 65565944 | ZENTEL 400 mg, comprimé (annulée) | Comprimé | Non renseignée |
+| 68879708 | ESKAZOLE 400 mg, comprimé (annulée) | Comprimé | Non renseignée |
 
-Le texte des indications approuvées n'est pas renseigné pour ces trois AMM.
+Les trois AMM (titulaire : GlaxoSmithKline) sont annulées ; aucune AMM valide n'est actuellement répertoriée.
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances (non issues de la notice)** : maladie hépatique, maladie de la vésicule biliaire, neutropénie, agranulocytose, anémie (dont anémie macrocytaire), pancytopénie, anémie aplasique idiopathique et anémie aplasique.
+- **Interactions médicamenteuses** : 96 interactions répertoriées. Parmi celles listées, la plupart sont de niveau modéré, notamment : aprépitant, cobicistat, déférasirox, iodure I-123 et I-131, fostamatinib, abamétapir (topique), alemtuzumab, amprénavir, anagrélide, apalutamide, bendamustine, bexarotène, binimétinib, bocéprévir et bosentan. Les interactions de niveau mineur concernent la cimétidine, la dexaméthasone, la lidocaïne et l'armodafinil.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations. L'accent sur l'hématotoxicité et l'hépatotoxicité suggère une surveillance de la NFS et des tests hépatiques.
 
 ---
 
@@ -117,17 +118,20 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Un essai de Phase 2 terminé (n=194) évalue directement l'albendazole dans l'échinococcose alvéolaire précoce. Le consensus d'experts et les revues le positionnent déjà comme traitement de référence, d'où le niveau L2. Le plan de l'essai (randomisation, comparateur) reste à vérifier.
-- L'absence de données de sécurité issues de la notice ANSM est un manque bloquant pour un passage au criblage de sécurité.
+- L'albendazole est déjà le traitement de référence recommandé pour l'échinococcose alvéolaire, et un essai de phase 2 terminé (194 participants) porte directement sur cette indication, ce qui correspond à un niveau de preuve L2. Les AMM françaises étant toutes annulées et les données de sécurité issues de la notice manquantes, la prudence s'impose.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications), pour lever le manque bloquant
-- Confirmer le statut d'indication autorisée en France (indication d'origine non renseignée, texte d'indication des AMM vide)
-- Vérifier le plan de l'essai NCT07182305 (randomisation, comparateur) et obtenir ses résultats
-- Compléter les données de mécanisme d'action (MOA) dans DrugBank
-- Prévoir, en cas de traitement prolongé, une surveillance des enzymes hépatiques et de la numération formule sanguine
+- Récupérer et analyser la notice officielle (mises en garde, contre-indications), étape bloquante pour le dépistage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank
+- Obtenir les résultats publiés de l'essai NCT07182305 (plan randomisé, critères d'évaluation)
+- Clarifier la situation réglementaire en France (AMM annulées, disponibilité effective du produit)
+- Définir un plan de surveillance hématologique et hépatique et examiner les interactions médicamenteuses pertinentes
 
-*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+---
+
+### Note sur les autres indications prédites
+
+Deux autres prédictions figurent dans les données : la **coenurose** (score de 99,83 %) et les **infections à cestodes** (score de 99,74 %). Elles sont présentées comme L1 dans les données, mais cette classification repose sur des essais de phase 3 portant sur la neurocysticercose (indication déjà existante), et non sur la coenurose elle-même. La coenurose humaine est rare et ne dispose d'aucun essai randomisé dédié ; l'application est donc une extrapolation. La catégorie « infection à cestodes » est un parent des indications d'origine, et son score élevé reflète surtout la hiérarchie de l'ontologie, non un véritable repositionnement.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

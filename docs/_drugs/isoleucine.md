@@ -2,7 +2,7 @@
 layout: default
 title: Isoleucine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 160
+nav_order: 415
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,74 +29,87 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Isoleucine : D'une Indication Originale Non Renseignée à la Gastroparésie
+# Isoleucine : D'un acide aminé nutritionnel à la gastroparésie
 
 ## Résumé en Une Phrase
 
-L'isoleucine est un acide aminé ramifié, commercialisé en France dans des solutions pour perfusion (Aminoven, Aminoplasmal, Aminomix, etc.). Les données fournies ne précisent pas son indication originale.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **gastroparésie**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+L'isoleucine est un acide aminé essentiel, utilisé en France comme composant de solutions de nutrition parentérale (perfusion) et de dialyse péritonéale.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour la **gastroparésie**, mais cette prédiction repose uniquement sur un calcul informatique : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Non précisée dans les données compilées (texte d'indication vide pour toutes les AMM) |
 | Nouvelle Indication Prédite | Gastroparésie |
 | Score de Prédiction TxGNN | 99,32 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'isoleucine fait partie des acides aminés ramifiés et entre dans la composition de solutions de nutrition parentérale. Aucune indication originale n'est renseignée, et il n'est pas possible d'établir un lien mécanistique validé avec la gastroparésie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'isoleucine est un acide aminé ramifié essentiel, impliqué dans la synthèse protéique et le métabolisme énergétique. Elle entre dans la composition de nombreuses solutions de nutrition parentérale.
 
-Une hypothèse purement spéculative est possible. Les acides aminés jouent un rôle dans le soutien nutritionnel et métabolique, ce qui pourrait être pertinent face à la dénutrition et à la perte de poids observées dans la gastroparésie. Il s'agirait alors d'un soutien nutritionnel, et non d'une action prokinétique ou modificatrice de la maladie.
+Un lien plausible, mais non vérifié, serait un soutien nutritionnel dans la gastroparésie, où la réduction des apports oraux et la dénutrition sont fréquentes. Il s'agirait alors d'un traitement de soutien, et non d'un traitement modifiant la maladie : il n'agirait ni sur le retard de vidange gastrique ni sur le dysfonctionnement neuromusculaire sous-jacent.
 
-Cette hypothèse n'est étayée par aucun essai ni aucune publication dans les données disponibles. Le score de 99,32 % (rang 4683) reflète la sortie du modèle et ne constitue pas une preuve d'efficacité.
+Il faut rester prudent : un score élevé peut simplement refléter la forte connectivité d'un métabolite courant dans le graphe de connaissances, et non un véritable effet thérapeutique.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Sur les 20 AMM, les 5 premières sont listées.
+Les 20 AMM recensées sont annulées. Les 5 premières sont listées ci-dessous.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Fresenius Kabi France |
-| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Fresenius Kabi France |
-| 63183821 | AMINOPLASMAL 8 | Solution pour perfusion | B. Braun Melsungen |
-| 61786735 | AMINOMIX 500 | Solution et solution pour perfusion | Fresenius Kabi France |
-| 67972077 | AMINOPLASMAL 12 | Solution pour perfusion | B. Braun Melsungen |
+| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Non renseignée |
+| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Non renseignée |
+| 63183821 | AMINOPLASMAL 8 | Solution pour perfusion | Non renseignée |
+| 61786735 | AMINOMIX 500 | Solution et solution pour perfusion | Non renseignée |
+| 67972077 | AMINOPLASMAL 12 | Solution pour perfusion | Non renseignée |
 
-Les autres formes recensées pour l'ensemble des AMM sont des émulsions pour perfusion, des solutions pour dialyse péritonéale et des associations solution/émulsion pour perfusion.
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité propres au produit : les mises en garde et contre-indications issues des notices ne sont pas disponibles dans les données compilées.
+
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie du graphe PrimeKG, et non texte de notice) : maladie rénale (dont insuffisance rénale chronique et terminale), néphrolithiase et néphrocalcinose, néphropathie urique aiguë, hypercalcémie (dont hypercalcémie humorale des tumeurs malignes), sarcoïdose, troubles du métabolisme du phosphore, maladies cardiaques et cardiovasculaires, intoxication digitalique, fibrillation ventriculaire, phénylcétonurie et troubles du métabolisme de la phénylalanine, pyourètre.
+- **Interactions médicamenteuses** : aucune interaction retrouvée dans les données compilées.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme d'action documenté.
-- Les données de sécurité issues de la notice ANSM sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur un score du modèle (niveau L5), sans essai clinique, sans publication et sans mécanisme documenté. De plus, toutes les AMM françaises sont annulées, et l'action possible serait au mieux un soutien nutritionnel, sans effet sur la maladie elle-même.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser les notices ANSM (mises en garde et contre-indications), lacune bloquante.
-- Obtenir les données sur le mécanisme d'action (par exemple via l'API DrugBank).
-- Renseigner les indications originales et les textes d'indication des AMM.
-- Rechercher des essais cliniques et de la littérature sur l'isoleucine ou les acides aminés ramifiés dans la gastroparésie.
-- Évaluer la compatibilité de voie d'administration : les formes disponibles sont des perfusions, alors que la voie requise pour la gastroparésie n'est pas définie.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer les mises en garde et contre-indications des notices ANSM (lacune bloquante pour le criblage de sécurité)
+- Obtenir les données sur le mécanisme d'action depuis DrugBank
+- Rechercher des études cliniques ou précliniques sur l'isoleucine ou les acides aminés ramifiés dans la gastroparésie
+- Évaluer la compatibilité des voies d'administration (perfusion ou orale) avec la prise en charge de la gastroparésie
+- Déterminer l'indication d'origine réelle des produits à base d'isoleucine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

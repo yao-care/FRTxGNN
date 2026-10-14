@@ -2,15 +2,15 @@
 layout: default
 title: Alprostadil
 parent: Preuves modérées (L3-L4)
-nav_order: 29
-evidence_level: L3
+nav_order: 47
+evidence_level: L4
 indication_count: 10
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,87 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Alprostadil : De l'indication d'origine non renseignée à la malformation aortique
+# Alprostadil : De la dysfonction érectile à la malformation aortique
 
 ## Résumé en Une Phrase
 
-L'alprostadil (prostaglandine E1) est commercialisé en France sous plusieurs présentations (solution injectable, crème, poudre pour voie intracaverneuse), mais les textes d'indication ANSM ne sont pas renseignés dans les données disponibles.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **malformation aortique**, avec **2 essais cliniques** (dont aucun n'apporte de preuve thérapeutique solide) et **20 publications** soutenant cette direction, principalement des séries de cas et des revues.
+Alprostadil (prostaglandine E1) était initialement utilisé pour le traitement de la dysfonction érectile et de certaines cardiopathies congénitales néonatales dépendantes du canal artériel (atrésie tricuspide, coarctation de l'aorte, tétralogie de Fallot).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **malformation aortique**,
+mais **aucun essai clinique** n'est enregistré et seules **8 publications** (essentiellement des cas cliniques et des études observationnelles) existent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (textes d'indication vides) |
+| Indication Originale | Dysfonction érectile (selon le graphe de connaissances TxGNN ; le texte des indications des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Malformation aortique |
 | Score de Prédiction TxGNN | 99,98 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 7 |
-| Décision Recommandée | Proceed with Guardrails |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Toutes les AMM sont annulées |
+| Nombre d'AMM | 7 (0 valide, 7 annulées) |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, l'alprostadil correspond à la prostaglandine E1 (PGE1), qui relâche le muscle lisse du canal artériel et le maintient ouvert. Mécanistiquement, il pourrait donc s'appliquer aux malformations aortiques dont la circulation dépend du canal.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'alprostadil est la prostaglandine E1, un vasodilatateur qui relâche la musculature lisse. Chez le nouveau-né, il maintient le canal artériel ouvert, ce qui préserve la circulation pulmonaire ou systémique dans les cardiopathies dites « canal-dépendantes ».
 
-Dans certaines lésions aortiques néonatales, la perfusion systémique dépend du flux droite-gauche à travers le canal artériel. C'est le cas de l'interruption de l'arche aortique, de la sténose aortique critique et du ventricule gauche hypoplasique avec atrésie aortique. Maintenir le canal ouvert permet de stabiliser le nouveau-né jusqu'à la chirurgie. Le lien mécanistique est donc direct pour ces lésions.
+La coarctation de l'aorte et l'interruption de l'arc aortique figurent déjà parmi ses usages établis. La prédiction du modèle est donc cohérente avec son mécanisme vasodilatateur connu. Il s'agit toutefois d'une extension d'un usage existant plutôt que d'une véritable découverte de repositionnement.
 
-La littérature est cohérente avec un usage néonatal établi comme pont vers la chirurgie. Par exemple, une revue de 2015 sur l'interruption de l'arche aortique indique que l'introduction de la PGE1 a révolutionné sa prise en charge. Cependant, les preuves restent limitées : une petite étude de phase 1 arrêtée, des séries observationnelles et des revues. Il n'existe pas d'essai randomisé de phase 2/3.
+Ce bénéfice ne vaut que pour les lésions où la circulation dépend du canal artériel. Pour des malformations aortiques sans dépendance ductale, rien ne le justifie.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT04054115](https://clinicaltrials.gov/study/NCT04054115) | Phase 1 | Arrêté | 10 | Effets aigus de l'alprostadil sur le débit cérébral et pulmonaire après dérivation cavopulmonaire bidirectionnelle (chirurgie de Glenn). Lien indirect avec la malformation aortique, arrêté avec seulement 10 participants. |
-| [NCT02042092](https://clinicaltrials.gov/study/NCT02042092) | Non applicable | Terminé | 39 | Comparaison transversale échographie Doppler couleur vs angio-IRM dans les vascularites des gros vaisseaux. Ne teste pas l'alprostadil : aucune preuve thérapeutique. |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucun essai randomisé ni revue systématique n'a été retrouvé. Les publications les plus pertinentes sont listées ci-dessous.
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [26686446](https://pubmed.ncbi.nlm.nih.gov/26686446/) | 2015 | Revue | Seminars in Thoracic and Cardiovascular Surgery | L'introduction de la PGE1 a révolutionné la prise en charge de l'interruption de l'arche aortique. Réanimation préopératoire, puis réparation néonatale en un temps. |
-| [7201134](https://pubmed.ncbi.nlm.nih.gov/7201134/) | 1982 | Série de cas | Pediatric Cardiology | Perfusion de PGE1 chez 7 nouveau-nés avec ventricule gauche hypoplasique et atrésie aortique : amélioration métabolique ou circulatoire transitoire chez 6 d'entre eux. |
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Évaluation clinique | Pharmacotherapy | Évaluation de l'alprostadil dans les cardiopathies congénitales du nourrisson : dilatation du canal artériel et amélioration du flux sanguin. |
-| [6537955](https://pubmed.ncbi.nlm.nih.gov/6537955/) | 1984 | Série de cas | Journal of the American College of Cardiology | Traitement prolongé par PGE1 chez 17 nouveau-nés (durée moyenne 39 jours), dont 2 avec coarctation aortique. |
-| [1926911](https://pubmed.ncbi.nlm.nih.gov/1926911/) | 1991 | Non classé | DICP : The Annals of Pharmacotherapy | Recommandation de stabiliser par PGE1 dès la suspicion d'une cardiopathie canal-dépendante, avant le transport vers un centre tertiaire. |
-| [10771966](https://pubmed.ncbi.nlm.nih.gov/10771966/) | 1998 | Série de cas | Indian Journal of Pediatrics | La PGE1 maintient la perméabilité du canal et peut sauver la vie des nourrissons avec cardiopathie canal-dépendante. |
-| [30347623](https://pubmed.ncbi.nlm.nih.gov/30347623/) | 2019 | Revue | Journal of Neonatal-Perinatal Medicine | Stratégies d'alimentation entérale chez les nourrissons sous PGE1 et incidence de l'entérocolite nécrosante. |
-| [32184038](https://pubmed.ncbi.nlm.nih.gov/32184038/) | 2020 | Cohorte | Asian Journal of Surgery | Résultats d'une réparation chirurgicale par étapes chez des nourrissons avec interruption de l'arche aortique. |
-| [31010402](https://pubmed.ncbi.nlm.nih.gov/31010402/) | 2020 | Rapport de cas | World Journal for Pediatric & Congenital Heart Surgery | Perfusion de PGE1 chez un prématuré avec coarctation sévère et canal fermé, jusqu'à la réparation chirurgicale. |
-| [25263728](https://pubmed.ncbi.nlm.nih.gov/25263728/) | 2014 | Rapport de cas (effet indésirable) | Journal of Perinatology | Sténose hypertrophique du pylore transitoire due à une perfusion prolongée de PGE1. |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Évaluation clinique / série de cas | Pharmacotherapy | La perfusion d'alprostadil dilate le canal artériel et augmente le flux sanguin pulmonaire chez les nouveau-nés porteurs de malformations cardiaques congénitales canal-dépendantes |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Étude clinique | Zhonghua Yi Xue Za Zhi | Effets de l'alprostadil et de l'ulinastatine sur la réponse inflammatoire et la lésion pulmonaire après circulation extracorporelle chez l'enfant cardiaque congénital (ne porte pas sur la malformation elle-même) |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Cas clinique | Kyobu Geka | Interruption de l'arc aortique de type B : alprostadil utilisé pour maintenir le canal ouvert, puis réparation en un temps avec hémodiafiltration continue |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Cas clinique | Braz J Cardiovasc Surg | Réparation d'une fenêtre aorto-pulmonaire complexe ; milrinone et alprostadil utilisés avant la chirurgie contre l'hypertension pulmonaire |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revue | Kyobu Geka | Stratégie de traitement de la transposition des gros vaisseaux ; l'alprostadil maintient le canal ouvert pour préserver la performance du ventricule gauche |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Étude observationnelle | Zhonghua Fu Chan Ke Za Zhi | Mode et moment de l'accouchement dans 123 cas de cardiopathie congénitale fœtale complexe |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Étude observationnelle rétrospective | BMC Pregnancy Childbirth | Prise en charge intégrée périnatale des cardiopathies congénitales fœtales complexes |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Étude animale | Minerva Chir | Atténuation de la lésion d'ischémie-reperfusion du muscle squelettique du rat (peu pertinente pour l'indication) |
 
 ## Informations de Marché en France
 
-Sur 7 AMM, les 5 principales sont présentées. Les textes d'indication approuvée ne sont pas renseignés dans les données ANSM disponibles.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65806466 | ALPROSTADIL INTSEL CHIMOS 0,5 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
+| 60731732 | VITAROS 300 microgrammes | Crème | Non renseignée (AMM annulée) |
+| 66297965 | EDEX 20 microgrammes/1 ml | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
+| 68594342 | CAVERJECT 20 microgrammes/1 ml | Lyophilisat et solution pour usage parentéral | Non renseignée (AMM annulée) |
+| 68103252 | PROSTINE VR 0,5 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 65806466 | ALPROSTADIL INTSEL CHIMOS 0,5 mg/ml | Solution injectable |
-| 60731732 | VITAROS 300 microgrammes | Crème |
-| 66297965 | EDEX 20 microgrammes/1 ml | Poudre et solvant pour solution injectable (voie intracaverneuse) |
-| 68594342 | CAVERJECT 20 microgrammes/1 ml | Lyophilisat et solution pour usage parentéral |
-| 68103252 | PROSTINE VR 0,5 mg/ml | Solution injectable |
+Deux autres AMM annulées existent (EDEX 10 µg, n° 67015187, et CAVERJECT 10 µg, n° 65613168).
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : syndrome de détresse respiratoire néonatal et aigu, hypotension, troubles de la coagulation, drépanocytose et hémoglobinopathies, maladies pulmonaires, myélome, leucémies, polyglobulie, thrombocytose, sténose du pylore, priapisme, sténose urétrale, maladie de La Peyronie, balanite et balanoposthite, urétrite.
+- **Effets indésirables rapportés dans la littérature** : hyperplasie antrale et sténose hypertrophique du pylore lors d'un traitement prolongé (PMID 23521358) ; pseudo-syndrome de Bartter sous perfusion de prostaglandine (PMID 12811550).
+- **Interactions médicamenteuses** : 59 interactions recensées. Six sont de niveau modéré : canagliflozine, dapagliflozine, empagliflozine, ertugliflozine, lorcasérine et saproptérine. Les autres (par exemple morphine, métformine, oméprazole, prednisone, simvastatine, vancomycine, atropine) sont de niveau non précisé.
 
-Les données de sécurité de l'ANSM sont absentes, et aucune interaction médicamenteuse n'a été retrouvée. Seule la littérature signale, pour l'usage néonatal :
-- **Perfusion prolongée** : cas de sténose hypertrophique du pylore transitoire (PMID 25263728) et d'hyperplasie fovéolaire antrale (PMID 23521358).
-- **Garde-fous suggérés** : cadre de soins intensifs néonatals, surveillance de l'apnée, dose et durée efficaces les plus faibles.
+Les mises en garde et contre-indications issues de la notice française ne sont pas disponibles.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique est direct pour les lésions aortiques canal-dépendantes, et la littérature observationnelle est cohérente avec l'usage néonatal comme pont vers la chirurgie. En revanche, il n'existe aucun essai de phase 2/3 et le seul essai avec le médicament (phase 1) a été arrêté après 10 patients.
-- Les autres prédictions du modèle sont plus faibles. Les sténoses ou agénésies tricuspides et les défauts septaux reposent sur des preuves indirectes (L3-L4). Les autres, comme la dysplasie valvulaire, le prolapsus tricuspide ou le goitre endémique, n'ont pas de preuve (L5, Hold).
+- La prédiction est surtout une extension d'un usage déjà établi, sans essai clinique enregistré. Les preuves se limitent à des cas cliniques, à des études observationnelles et à des données anciennes.
+- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice manquent. Cela bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice ANSM (mises en garde, contre-indications), **données bloquantes** pour le criblage de sécurité (étape S1)
-- Textes d'indication approuvée des AMM françaises, pour clarifier l'indication d'origine et le statut réglementaire de l'usage néonatal
-- Données détaillées sur le mécanisme d'action (DrugBank)
-- Évaluation de la compatibilité des voies d'administration (voie intraveineuse néonatale)
-- Données comparatives prospectives, ou consensus d'experts sur la place de la PGE1 dans les malformations aortiques non canal-dépendantes
+- Récupérer la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)
+- Obtenir les données sur le mécanisme d'action (DrugBank)
+- Préciser les sous-types de malformations aortiques canal-dépendantes et rechercher des études prospectives ou comparatives
+- Évaluer la disponibilité réelle d'une forme injectable pour usage néonatal en France, puisque les AMM sont annulées
+- Prévoir une surveillance spécifique des effets indésirables d'un traitement prolongé (apnée, atteinte gastro-intestinale, troubles électrolytiques)
 
-*Ces résultats sont fournis à titre de recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+Les autres indications prédites (sténose tricuspide congénitale, dysplasie valvulaire congénitale, agénésie de la valve tricuspide, etc.) restent au niveau L5, sans aucune preuve, et sont en attente (Hold). Le goitre endémique et le prolapsus de la valve tricuspide n'ont pas de lien mécanistique plausible.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

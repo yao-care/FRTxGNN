@@ -2,7 +2,7 @@
 layout: default
 title: Isoflurane
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 159
+nav_order: 414
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,31 +29,32 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Isoflurane : De l'Anesthésie Générale à l'Angor de Prinzmetal
+# Isoflurane : De l'anesthésie générale à l'angor de Prinzmetal
 
 ## Résumé en Une Phrase
 
-L'isoflurane est un anesthésique volatil administré par inhalation, utilisé en anesthésie générale.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Angor de Prinzmetal**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+L'isoflurane est un anesthésique général volatil administré par inhalation. Les données d'indication originale ne figurent pas dans les autorisations françaises compilées.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**angor de Prinzmetal**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Angor de Prinzmetal |
-| Score de Prédiction TxGNN | 99,67 % (rang 2844) |
+| Score de Prédiction TxGNN | 99,67 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 3 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'isoflurane fait partie des anesthésiques volatils, son usage en anesthésie générale est établi, et mécanistiquement il pourrait avoir un lien avec l'angor de Prinzmetal, sans qu'aucune donnée ne le démontre.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations générales, l'isoflurane fait partie des anesthésiques volatils halogénés, utilisés pour l'induction et l'entretien de l'anesthésie générale.
 
-Le seul lien plausible est pharmacologique. Les anesthésiques volatils ont un effet vasodilatateur sur le muscle lisse vasculaire, ce qui pourrait théoriquement concerner le vasospasme coronarien à l'origine de l'angor de Prinzmetal.
+Les anesthésiques volatils ont des effets vasodilatateurs et interagissent avec les canaux calciques, ce qui pourrait théoriquement avoir un lien avec le vasospasme coronarien à l'origine de l'angor de Prinzmetal. Cette hypothèse reste toutefois **spéculative** et n'est étayée par aucune donnée compilée pour ce rapport.
 
-Ce lien reste spéculatif. L'isoflurane n'a aucun rôle antiangineux établi, et le score très élevé du modèle n'est étayé par aucune donnée clinique ou publiée. Il faut donc le lire comme une hypothèse à vérifier, pas comme un signal d'efficacité.
+Il faut aussi noter que l'isoflurane a été discuté dans le contexte du « vol coronarien » (redistribution du flux sanguin au détriment de zones ischémiques), ce qui constitue une préoccupation de sécurité plutôt qu'un argument thérapeutique. De plus, une administration par inhalation d'anesthésique général se prête mal à une maladie chronique.
 
 ## Preuves d'Essais Cliniques
 
@@ -61,39 +62,41 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée disponible actuellement pour l'angor de Prinzmetal.
+
+*À titre indicatif, pour d'autres indications prédites (non retenues comme indication principale) :*
+- **Migraine** (score TxGNN 99,06 %, niveau L4, orientation « question de recherche ») : une étude préclinique de 1996 (PMID [8665587](https://pubmed.ncbi.nlm.nih.gov/8665587/)) rapporte que les anesthésiques inhalés inhibent la dépression corticale envahissante, corrélat de l'aura migraineuse. Deux publications de 2015 ([26323741](https://pubmed.ncbi.nlm.nih.gov/26323741/), [26363696](https://pubmed.ncbi.nlm.nih.gov/26363696/), doublon en langue non anglaise) décrivent un cas d'état de mal migraineux traité par anesthésie générale. Les preuves restent précliniques et au niveau de cas isolés.
+- **Trouble bipolaire maniaque** (score 99,57 %, niveau L4, Hold) : une étude ouverte de 1993 (PMID [8462536](https://pubmed.ncbi.nlm.nih.gov/8462536/)) a comparé l'anesthésie à l'isoflurane en burst-suppression à l'électroconvulsivothérapie chez 12 patients atteints de dépression sévère. Les preuves sont trop limitées et anciennes.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 61070419 | ISOFLURANE BELAMONT | Liquide pour inhalation par vapeur | Piramal Critical Care (Pays-Bas) |
-| 63498500 | AERRANE | Liquide pour inhalation par vapeur | Baxter |
-| 65849318 | CEDACONDA 100 % V/V | Liquide pour inhalation par vapeur | Sedana Medical (Suède) |
-
-Le texte des indications approuvées n'est pas renseigné dans les données reçues pour ces trois AMM.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
+|---------|------|------|-----------|------|
+| 61070419 | ISOFLURANE BELAMONT | Liquide pour inhalation par vapeur | Non renseignée | Annulée |
+| 63498500 | AERRANE | Liquide pour inhalation par vapeur | Non renseignée | Annulée |
+| 65849318 | CEDACONDA 100 % V/V | Liquide pour inhalation par vapeur | Non renseignée | Annulée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (liens médicament-maladie, et non texte de notice) : maladie du foie, maladie de la vésicule biliaire, troubles hypotensifs, hyperthermie maligne de l'anesthésie, hyperthermie maligne d'effort, dystrophie musculaire de Duchenne, dystrophie musculaire de Becker et dystrophies musculaires en général.
+- **Interactions médicamenteuses** : 38 interactions recensées. La plus importante est de niveau **majeur** avec l'**épinéphrine**. Deux interactions de niveau **modéré** concernent la **morphine** et l'**opium**. Les autres (atropine, hydrocortisone, mannitol, pantoprazole, oméprazole, vancomycine, etc.) sont de niveau non déterminé.
+- **Point d'attention propre à l'indication prédite** : le risque de vol coronarien est préoccupant chez des patients présentant une maladie coronarienne.
+
+Les mises en garde et contre-indications de la notice n'ont pas pu être obtenues : veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans rôle antiangineux connu pour un anesthésique général.
-- Les données de sécurité de la notice ANSM manquent, ce qui bloque toute évaluation de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le profil de sécurité soulève des signaux défavorables (vol coronarien, hypotension, interaction majeure avec l'épinéphrine), et l'usage d'un anesthésique général inhalé est peu réaliste pour un angor chronique. Les AMM françaises sont toutes annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications), étape bloquante.
-- Obtenir les données de mécanisme d'action (MOA) via DrugBank.
-- Faire une recherche bibliographique ciblée sur les anesthésiques volatils et le vasospasme coronarien.
-- Confirmer les indications autorisées des trois AMM.
-
-**Remarque :** parmi les autres indications prédites pour l'isoflurane, seules la **migraine** et le **trouble bipolaire maniaque** disposent d'indices indirects, classés L4 (recommandation : question de recherche). Pour la migraine, on trouve des travaux précliniques sur l'inhibition de la dépression corticale envahissante par les anesthésiques inhalés et un cas clinique isolé. Pour la manie, on dispose d'une petite comparaison ouverte datant de 1993 sur l'anesthésie en burst-suppression pour la dépression. Ces éléments ne justifient pas une recommandation, mais ces pistes seraient à étudier avant l'angor de Prinzmetal.
-
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Notice officielle (mises en garde et contre-indications) via le site de l'ANSM, qui constitue actuellement un point bloquant pour le criblage de sécurité
+- Données détaillées sur le mécanisme d'action (par exemple via DrugBank)
+- Études précliniques et mécanistiques sur le vasospasme coronarien
+- Évaluation de la faisabilité de la voie d'administration et de la population cible
+- Si une piste doit être poursuivie, la migraine réfractaire (niveau L4) constitue une question de recherche plus étayée que l'angor de Prinzmetal
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

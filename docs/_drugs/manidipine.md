@@ -2,7 +2,7 @@
 layout: default
 title: Manidipine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 185
+nav_order: 471
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,83 +29,100 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Manidipine : D'un inhibiteur calcique de la classe des dihydropyridines à la migraine
+# Manidipine : De l'hypertension (classe des inhibiteurs calciques) à la migraine
 
 ## Résumé en Une Phrase
 
-La manidipine est un inhibiteur calcique de la classe des dihydropyridines, commercialisé en France sous forme de comprimés.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine (migraine disorder)**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+Manidipine est un inhibiteur calcique de la famille des dihydropyridines, dont l'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport (les AMM françaises sont toutes annulées et sans texte d'indication).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*migraine disorder*), mais **aucun essai clinique** et **aucune publication** ne soutiennent directement cette direction.
+La prédiction repose donc uniquement sur le modèle (niveau de preuve L5).
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Migraine (migraine disorder) |
+| Indication Originale | Non renseignée dans les AMM disponibles |
+| Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
 | Score de Prédiction TxGNN | 99,80 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 16 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 16 (toutes annulées) |
 | Décision Recommandée | Hold |
 
-Le texte de l'indication approuvée n'est renseigné pour aucune des AMM fournies, donc la ligne « Indication Originale » est omise.
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, la manidipine est un inhibiteur calcique de type dihydropyridine, avec une activité sur les canaux calciques de type L et de type T. Mécanistiquement, elle pourrait être applicable à la migraine.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, manidipine fait partie de la classe des inhibiteurs calciques de type dihydropyridine (blocage des canaux calciques de type L et T). Son usage habituel est cardiovasculaire, mais aucune indication d'origine n'est documentée dans les données compilées.
 
-D'autres inhibiteurs calciques, comme la flunarizine, sont utilisés en prophylaxie de la migraine. Le lien est donc plausible. Cependant, aucun essai ni aucune publication spécifique à la manidipine n'a été fourni. Le score élevé du modèle (99,80 %) reste une prédiction et ne remplace pas une preuve clinique.
+Le lien avec la migraine est plausible par analogie de classe : la modulation des canaux calciques est impliquée dans la physiopathologie de la migraine, et un autre inhibiteur calcique, la flunarizine, est utilisé en prophylaxie. Ce lien est toutefois déduit de la classe et de la prédiction du graphe de connaissances, et non de données propres à la manidipine.
 
-Le modèle a aussi proposé d'autres pistes, toutes au niveau L5 :
-- **Angor de Prinzmetal** : bon ajustement mécanistique (les inhibiteurs calciques traitent le vasospasme coronaire). Elle est classée « Research Question », avec une revue ciblée de la littérature comme prochaine étape raisonnable.
-- **Hypertension pulmonaire** : la vasodilatation est plausible. Les trois articles retrouvés n'apportent aucun soutien clinique, et l'un d'eux est un cas de pneumopathie interstitielle attribuée à la manidipine (voir Considérations de Sécurité).
-- **Migraine avec aura du tronc cérébral** et **susceptibilité à la migraine avec ou sans aura** : sous-types ou phénotypes génétiques de la migraine, à intégrer à la question générale de la migraine.
-- **Autres pistes** (syndrome néphrogénique d'antidiurèse inappropriée, atrophodermie vermiculée) : aucun lien mécanistique plausible. Les scores proviennent probablement d'artefacts du graphe.
+Les autres prédictions du modèle sont de plausibilité très variable :
+- **Plausibles par la classe** : angor de Prinzmetal (le vasospasme coronarien est traité par inhibiteurs calciques), migraine avec aura du tronc cérébral, hypertension pulmonaire.
+- **Spéculatives ou peu plausibles** : hyperplasie bénigne de la prostate, cardiopathie cyphoscoliotique.
+- **Sans lien mécanistique identifié** : syndrome néphrogénique d'antidiurèse inappropriée et atrophodermie vermiculée, vraisemblablement des artefacts du graphe de connaissances.
+
+L'angor de Prinzmetal est la piste la plus cohérente mécanistiquement, mais aucune donnée spécifique à la manidipine n'a été fournie.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour la migraine.
+Aucune littérature associée à la migraine disponible actuellement.
 
-Pour la prédiction voisine « susceptibilité à la migraine avec ou sans aura », les 20 références retrouvées (10 affichées) portent sur les mécanismes génétiques et moléculaires communs à l'épilepsie et à la migraine, par exemple les gènes de canaux ioniques comme SCN1A. Aucune ne mentionne la manidipine, et elles ne soutiennent qu'un raisonnement général de canalopathie.
+À titre informatif, trois publications ont été retrouvées pour la prédiction « hypertension pulmonaire » (4ᵉ rang). Aucune ne démontre une efficacité de la manidipine dans cette indication :
+
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [9341290](https://pubmed.ncbi.nlm.nih.gov/9341290/) | 1997 | Rapport de cas (effet indésirable) | Nihon Kyobu Shikkan Gakkai zasshi | Pneumopathie interstitielle induite par la manidipine chez une patiente de 62 ans ; amélioration après arrêt et corticothérapie |
+| [11457745](https://pubmed.ncbi.nlm.nih.gov/11457745/) | 2001 | Étude clinique (autre médicament : candésartan) | Circulation | Comparaison des effets du candésartan et des inhibiteurs calciques sur la toux et l'hyperréactivité bronchique chez des hypertendus asthmatiques |
+| [8667194](https://pubmed.ncbi.nlm.nih.gov/8667194/) | 1996 | Étude préclinique animale | J Pharmacol Exp Ther | Effets vasculaires régionaux d'une dihydropyridine apparentée (MPC-1304) comparée à la nifédipine et à la manidipine chez le rat |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
-|---------|------|------|------|
-| 67985231 | MANIDIPINE ZYDUS 20 mg, comprimé | Comprimé | ZYDUS FRANCE |
-| 60165857 | MANIDIPINE BIOGARAN 10 mg, comprimé | Comprimé | BIOGARAN |
-| 63426700 | MANIDIPINE ZENTIVA 10 mg, comprimé | Comprimé | ZENTIVA FRANCE |
-| 67302931 | MANIDIPINE ARROW 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES |
-| 66582900 | MANIDIPINE VIATRIS 10 mg, comprimé | Comprimé | VIATRIS SANTE |
+Les 16 AMM recensées sont des génériques sous forme de comprimés, toutes annulées. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous.
 
-Ces 5 AMM sont affichées sur un total de 16. Le texte des indications approuvées n'est pas renseigné dans les données.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 67985231 | MANIDIPINE ZYDUS 20 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 60165857 | MANIDIPINE BIOGARAN 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 63426700 | MANIDIPINE ZENTIVA 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 67302931 | MANIDIPINE ARROW 10 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
+| 66582900 | MANIDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune donnée de mise en garde, de contre-indication ou d'interaction médicamenteuse n'a pu être extraite.
+- **Signal pulmonaire** : un cas de pneumopathie interstitielle induite par la manidipine a été rapporté dans la littérature (1997), avec évolution favorable après arrêt du traitement et corticothérapie.
 
-Un signal issu de la littérature est à noter : un cas rapporté au Japon en 1997 décrit une pneumopathie interstitielle après la prise de manidipine 10 mg/jour chez une patiente ayant une atteinte pulmonaire rhumatoïde préexistante. Les symptômes se sont améliorés après l'arrêt du médicament et l'instauration d'une corticothérapie. Il s'agit d'un rapport de cas isolé.
+Pour les mises en garde, contre-indications et interactions médicamenteuses, veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction pour la migraine repose uniquement sur le modèle (L5), sans essai clinique ni publication propre à la manidipine. Le lien mécanistique est plausible, mais la sécurité n'a pas pu être examinée faute de notice ANSM analysée, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction pour la migraine repose uniquement sur le modèle (L5), sans essai ni publication. Toutes les AMM françaises sont annulées et les données de sécurité sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde et contre-indications), point bloquant
-- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank
-- Réaliser une revue de la littérature sur les inhibiteurs calciques (flunarizine, dihydropyridines) dans la prophylaxie de la migraine, puis rechercher des données propres à la manidipine
-- Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine (actuellement non évaluées)
-- Regrouper les pistes « migraine avec aura du tronc cérébral » et « susceptibilité à la migraine » dans la question générale de la migraine
-- Traiter séparément l'angor de Prinzmetal comme question de recherche prioritaire
-
-*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat de repositionnement doit être validé cliniquement avant application.*
+- Récupérer la notice (mises en garde et contre-indications) sur le site de l'ANSM, élément bloquant
+- Obtenir les données de mécanisme d'action détaillées (DrugBank)
+- Lancer une recherche bibliographique ciblée sur la manidipine dans la migraine, et dans l'angor de Prinzmetal, la piste mécanistiquement la plus cohérente
+- Clarifier les raisons de l'annulation des AMM françaises et l'indication d'origine
+- Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine (actuellement en attente)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

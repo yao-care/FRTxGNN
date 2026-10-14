@@ -2,7 +2,7 @@
 layout: default
 title: Flubendazole
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 131
+nav_order: 330
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,90 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Flubendazole : De l'antihelminthique au carcinome de la vessie
+# Flubendazole : D'un antiparasitaire à usage humain au carcinome de la vessie
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Le flubendazole est un antiparasitaire de la famille des benzimidazoles, commercialisé en France sous le nom Fluvermal pour traiter les vers intestinaux.
-Le modèle TxGNN prédit qu'il pourrait être efficace contre le **carcinome de la vessie (urinary bladder carcinoma)**.
-Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** spécifique au flubendazole ne la soutiennent actuellement.
+Flubendazole est un antihelminthique de la famille des benzimidazoles, commercialisé en France sous les noms FLUVERMAL (comprimé et suspension buvable), dont les deux AMM sont aujourd'hui annulées.
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **carcinome de la vessie** (urinary bladder carcinoma).
+Aucun essai clinique n'est enregistré, et les deux seules publications liées à la tumeur de la vessie portent sur le fenbendazole (un composé voisin), et non sur le flubendazole : la prédiction repose donc essentiellement sur le modèle.
 
-## Aperçu Rapide
+---
 
-| Élément | Contenu |
+## Apercu Rapide
+
+| Element | Contenu |
 |------|------|
-| Indication Originale | Antihelminthique (benzimidazole) ; le texte d'indication officiel n'est pas renseigné dans les données |
-| Nouvelle Indication Prédite | Carcinome de la vessie (urinary bladder carcinoma) |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision Recommandée | Hold |
+| Indication Originale | Non précisée dans les données compilées (texte d'indication vide pour les deux AMM) |
+| Nouvelle Indication Predite | Carcinome de la vessie (urinary bladder carcinoma) |
+| Score de Prediction TxGNN | 99,99 % |
+| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
+| Statut de Marche en France | Uniquement annulé (aucune AMM valide) |
+| Nombre d'AMM | 2 (toutes deux annulées) |
+| Decision Recommandee | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Remarque : pour la tumeur de la vessie au sens large (« urinary bladder neoplasm », 2e prédiction), le niveau de preuve est L4 (deux études précliniques indirectes sur le fenbendazole), avec la mention « question de recherche ».
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le flubendazole appartient à la classe des benzimidazoles antihelminthiques. Ces molécules se lient généralement à la bêta-tubuline et perturbent les microtubules des parasites. Ce mécanisme pourrait s'appliquer aux cellules tumorales, dont la division dépend aussi des microtubules. C'est une piste plausible, mais **aucune donnée du dossier ne la confirme**.
+---
 
-Le lien entre l'indication d'origine (infections parasitaires) et le cancer de la vessie est donc uniquement hypothétique et fondé sur la classe pharmacologique. Une publication de 2024 (PMID 39128990) étudie une instillation intravésicale associant CRISPR-Cas13a et le **fenbendazole**, un benzimidazole apparenté, dans le cancer de la vessie. Elle porte sur une autre molécule et semble préclinique d'après son titre (résumé non examiné). Elle ne constitue qu'un indice indirect, au niveau de la classe.
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Il faut aussi rester prudent sur le score. Les dix premières prédictions concernent toutes des termes « vessie », avec des scores quasi identiques (99,98 % à 99,99 %). Cela suggère un signal lié à la proximité de ces termes dans le graphe de connaissances plutôt qu'une preuve spécifique à une indication.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le flubendazole fait partie des benzimidazoles antihelminthiques, qui se lient à la tubuline et perturbent la polymérisation des microtubules. Ce mécanisme est plausiblement pertinent pour la prolifération des cellules cancéreuses, car les microtubules sont indispensables à la division cellulaire.
+
+Le lien avec l'indication d'origine reste indirect : le flubendazole était utilisé contre les parasites intestinaux, et la prédiction vers un cancer relève d'un raisonnement de classe pharmacologique, non d'une preuve directe. Le score très élevé du modèle (99,99 %) est à interpréter avec prudence : de nombreuses tumeurs de la vessie, y compris des sous-types rares (adénocarcinome colloïde, urachal, papillome malpighien bénin), obtiennent des scores quasi identiques, ce qui suggère une propagation à partir du nœud général « cancer de la vessie » dans le graphe de connaissances plutôt qu'une biologie spécifique à chaque sous-type.
+
+Les deux publications disponibles (2024 et 2026) concernent le fenbendazole, un benzimidazole structurellement proche : l'une associe l'induction de ferroptose à une photothérapie thermique et à une double immunothérapie, l'autre associe le fenbendazole en instillation intravésicale à CRISPR-Cas13a. Elles semblent précliniques d'après leur titre (résumés non examinés). Elles soutiennent une plausibilité de classe, mais pas une efficacité du flubendazole.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement.
 
-## Preuves de la Littérature
+---
 
-Aucune littérature associée disponible actuellement pour cette indication précise.
+## Preuves de la Litterature
 
-Pour le terme voisin « urinary bladder neoplasm », seule l'étude préclinique sur le fenbendazole citée plus haut a été retrouvée. Elle ne concerne pas le flubendazole.
+Aucune publication portant sur le flubendazole dans cette indication n'est disponible. Les deux références suivantes, liées à la tumeur de la vessie, concernent le **fenbendazole** (preuve indirecte, précliniques d'après le titre) :
 
-## Informations de Marché en France
+| PMID | Annee | Type | Revue | Resultats Principaux |
+|------|-----|------|------|---------|
+| [41861111](https://pubmed.ncbi.nlm.nih.gov/41861111/) | 2026 | Préclinique (déduit du titre) | Advanced Science | Nanoplateforme intravésicale combinant fenbendazole, ferroptose, activation de la mort cellulaire immunogène et photothérapie thermique contre le cancer de la vessie |
+| [39128990](https://pubmed.ncbi.nlm.nih.gov/39128990/) | 2024 | Préclinique (déduit du titre) | J Exp Clin Cancer Res | Instillation intravésicale synergique associant CRISPR-Cas13a et fenbendazole dans le cancer de la vessie |
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+---
+
+## Informations de Marche en France
+
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 68636624 | FLUVERMAL 2 POUR CENT | Suspension buvable | KENVUE FRANCE |
-| 60968336 | FLUVERMAL | Comprimé | KENVUE FRANCE |
+| 68636624 | FLUVERMAL 2 POUR CENT, suspension buvable (KENVUE FRANCE) – annulée | Suspension buvable | Non renseignée |
+| 60968336 | FLUVERMAL, comprimé (KENVUE FRANCE) – annulée | Comprimé | Non renseignée |
 
-Ces deux formes sont orales. Aucune forme adaptée à l'instillation intravésicale n'existe actuellement dans les données.
+---
 
-## Considérations de Sécurité
+## Considerations de Securite
 
 Veuillez consulter la notice pour les informations de sécurité.
 
-## Conclusion et Prochaines Étapes
+Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées, et aucune contre-indication issue du graphe de connaissances n'est signalée.
 
-**Décision : Hold**
+---
+
+## Conclusion et Prochaines Etapes
+
+**Decision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication propre au flubendazole. Les données de sécurité et de mécanisme d'action sont absentes, ce qui empêche toute évaluation de sécurité à ce stade.
+- La prédiction repose uniquement sur le modèle (L5) pour le carcinome de la vessie ; aucun essai clinique n'existe et les seules publications concernent le fenbendazole, non le flubendazole. Les données de sécurité issues de la notice font défaut, ce qui bloque l'évaluation de sécurité, et aucune AMM n'est valide en France.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde et contre-indications) pour la revue de sécurité, ce qui est bloquant
-- Compléter les données de mécanisme d'action via DrugBank
-- Réaliser une vérification préclinique du flubendazole sur des lignées ou modèles de cancer de la vessie
-- Évaluer la faisabilité d'une formulation et d'une voie d'administration intravésicale
-- Surveiller l'apparition d'essais cliniques ou de publications spécifiques au flubendazole
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+**Pour avancer, les elements suivants sont necessaires :**
+- Récupérer et analyser la notice ANSM (mises en garde et contre-indications) afin de pouvoir réaliser le criblage de sécurité
+- Obtenir les données de mécanisme d'action depuis DrugBank
+- Rechercher des études précliniques spécifiques au flubendazole dans le cancer de la vessie (lignées cellulaires, modèles animaux)
+- Vérifier la faisabilité d'une voie intravésicale ou autre, la compatibilité de voie d'administration n'étant pas évaluée
+- Clarifier l'indication d'origine et le statut réglementaire (AMM annulées)
+- Prioriser le carcinome urothélial et la tumeur de la vessie au sens large plutôt que les sous-types rares ou bénins, dont les scores semblent artefactuels
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

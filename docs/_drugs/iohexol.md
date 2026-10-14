@@ -2,7 +2,7 @@
 layout: default
 title: Iohexol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 154
+nav_order: 407
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,72 +29,104 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Iohexol : De l'imagerie par produit de contraste à l'insomnie
+# Iohexol : D'un produit de contraste iodé à l'insomnie (prédiction non étayée)
 
 ## Résumé en Une Phrase
 
-Iohexol est un produit de contraste iodé non ionique utilisé en imagerie radiologique. Le modèle TxGNN le prédit comme potentiellement efficace pour l'**insomnie**, avec un score très élevé (99,87 %). **Aucun essai clinique et aucune publication** ne soutiennent cette prédiction, qui relève très probablement d'un artefact du graphe de connaissances.
+Iohexol est un produit de contraste radiologique iodé non ionique, utilisé en imagerie médicale (indication originale non renseignée dans les données d'AMM compilées).
+Le modèle TxGNN le prédit comme potentiellement efficace pour l'**insomnie**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette direction.
+Une seconde prédiction, l'**anxiété**, est également signalée, avec 4 publications sans lien thérapeutique réel.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM (produit de contraste iodé pour l'imagerie) |
+| Indication Originale | Non renseignée dans les données d'AMM (produit de contraste radiologique iodé) |
 | Nouvelle Indication Prédite | Insomnie |
 | Score de Prédiction TxGNN | 99,87 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 4 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'iohexol est un produit de contraste iodé non ionique. Il est pharmacologiquement inerte, n'est pas métabolisé et est éliminé inchangé par les reins.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, iohexol est un produit de contraste iodé non ionique, pharmacologiquement inerte et non métabolisé. Son rôle est d'opacifier les structures lors d'examens d'imagerie, et non d'agir sur une cible thérapeutique.
 
-Aucun lien mécanistique plausible n'a été identifié entre ce produit et l'insomnie. L'iohexol n'a aucune activité connue sur les cibles du système nerveux central qui régulent le sommeil.
+**Il n'existe pas de lien mécanistique identifié** avec l'insomnie. Iohexol n'a pas d'activité connue sur les cibles de régulation du sommeil (récepteurs GABA, orexine, histamine, mélatonine). Le score TxGNN très élevé (99,87 %) est une prédiction issue d'un graphe de connaissances. Il reflète probablement des artefacts de réseau, comme le grand nombre de liens d'interactions médicamenteuses (100), plutôt qu'une plausibilité biologique.
 
-Le score TxGNN très élevé est probablement un artefact du graphe de connaissances : le médicament n'a aucune indication annotée et son mécanisme d'action est absent des données. Ce score ne repose sur aucune preuve clinique ou mécanistique.
+Pour l'anxiété (score de 99,25 %), la conclusion est la même : aucun effet anxiolytique pharmacologique n'est connu, et les publications retrouvées ne mentionnent l'anxiété que de façon incidentale.
 
-Une seconde prédiction, l'**anxiété** (score 99,25 %), présente le même profil. Les 5 essais cliniques associés utilisent l'iohexol comme sonde de mesure du débit de filtration glomérulaire ou pour le guidage par imagerie, et aucun ne l'évalue comme traitement. Dans la littérature, l'anxiété n'apparaît que comme contexte procédural ou effet indésirable. Cette prédiction est elle aussi classée L5 / Hold.
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée à l'insomnie disponible actuellement.
+
+À titre informatif, quatre publications ont été retrouvées pour la seconde prédiction (anxiété). Aucune ne teste iohexol comme traitement de l'anxiété :
+
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [8883531](https://pubmed.ncbi.nlm.nih.gov/8883531/) | 1996 | ECR | Academic Radiology | Comparaison en double aveugle de l'iodixanol et de l'iohexol en phlébographie des membres ; évalue l'efficacité, la sécurité et l'inconfort à l'injection, pas l'anxiété |
+| [2352635](https://pubmed.ncbi.nlm.nih.gov/2352635/) | 1990 | Cohorte observationnelle | Neuroradiology | Effets indésirables après myélographie lombaire à l'iohexol (200 patients) ; l'anxiété figure parmi les symptômes mentaux mineurs rapportés |
+| [2125805](https://pubmed.ncbi.nlm.nih.gov/2125805/) | 1990 | Étude physiologique clinique | Acta Neurochirurgica | Suivi hémodynamique par Doppler transcrânien pendant l'angiographie cérébrale |
+| [39861464](https://pubmed.ncbi.nlm.nih.gov/39861464/) | 2025 | Revue | Nutrients | Nutrition et activité physique en onco-néphrologie ; sans rapport avec l'efficacité d'iohexol |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 65106581 | OMNIPAQUE 300 mg d'I/mL, solution injectable | Solution injectable |
-| 63688752 | OMNIPAQUE 180 mg d'I/mL, solution injectable | Solution injectable |
-| 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable |
-| 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65106581 | OMNIPAQUE 300 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+| 63688752 | OMNIPAQUE 180 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+| 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+| 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
 
-Titulaire : GE Healthcare. Le texte des indications approuvées n'est pas renseigné dans les données reçues.
+Les quatre AMM sont détenues par GE Healthcare et sont toutes annulées.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour ces informations.
+
+- **Interactions Médicamenteuses** : 100 interactions sont recensées. Parmi les principales de niveau **majeur** :
+  - Corticoïdes : hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone
+  - Metformine
+  - Amphotéricine B (y compris le complexe lipidique)
+  - Antibiotiques : vancomycine, kanamycine, néomycine, lévofloxacine
+  - Mésalazine et balsalazide
+  - Bupropion, morphine, métoclopramide
+  - Diéthylpropion, phentermine, dronabinol
+
+  Une interaction de niveau **modéré** est notée avec le mannitol.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication et aucun mécanisme plausible ne la soutiennent.
-- Le produit est un agent de contraste inerte sans activité sur le système nerveux central. Un score élevé sans donnée annotée est ici un signal d'artefact, pas d'opportunité.
+- Iohexol est un produit de contraste inerte, sans mécanisme plausible dans l'insomnie ni l'anxiété. Le score TxGNN élevé ne s'appuie sur aucun essai clinique ni aucune publication pertinente (niveau L5).
+- Les quatre AMM sont annulées, et les données de sécurité de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice de l'ANSM (mises en garde, contre-indications), actuellement absente, ce qui bloque le criblage de sécurité
-- Données sur le mécanisme d'action (DrugBank)
-- Indications approuvées des 4 AMM
-- Un rationnel pharmacologique crédible avant toute étude, sans quoi cette piste ne mérite pas d'être poursuivie
-
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupération et analyse de la notice de l'ANSM (mises en garde et contre-indications)
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Justification biologique de tout lien avec le sommeil ou l'anxiété, avant d'envisager des études précliniques
+- Vérification que le score ne résulte pas d'un artefact du graphe (nombre élevé d'interactions médicamenteuses)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

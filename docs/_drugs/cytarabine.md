@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cytarabine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 95
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 206
+evidence_level: L4
 indication_count: 9
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Cytarabine : Évaluation du repositionnement dans le carcinome pulmonaire à petites cellules
+# Cytarabine : De la leucémie aiguë au carcinome pulmonaire à petites cellules
 
 ## Résumé en Une Phrase
 
-La cytarabine est un antimétabolite cytotoxique, commercialisé en France sous forme injectable (11 AMM). Le texte des indications approuvées n'est pas renseigné dans le dossier.
-Le modèle TxGNN prédit qu'elle pourrait être efficace dans le **carcinome pulmonaire à petites cellules (CPPC)**.
-Le dossier compte **3 essais cliniques** (aucun ne teste la cytarabine dans le CPPC) et **20 publications**, dont quelques anciennes études cliniques de phase II sur la cytarabine dans le CPPC.
+La cytarabine est un analogue nucléosidique pyrimidique, initialement utilisé pour le traitement des leucémies aiguës (lymphoblastiques et myéloïdes).
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **carcinome pulmonaire à petites cellules**, mais **aucun essai clinique** n'est enregistré pour cette indication et la littérature recensée ne contient **aucune donnée clinique spécifique** à celle-ci (les travaux retrouvés concernent surtout le cancer bronchique non à petites cellules).
 
 ---
 
@@ -43,67 +42,58 @@ Le dossier compte **3 essais cliniques** (aucun ne teste la cytarabine dans le C
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Leucémie lymphoblastique aiguë et leucémies myéloïdes aiguës (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
 | Nouvelle Indication Prédite | Carcinome pulmonaire à petites cellules |
 | Score de Prédiction TxGNN | 99,78 % |
-| Niveau de Preuve | L3 (études cliniques anciennes, non randomisées ; le dossier source retient L4) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 11 |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Nombre d'AMM | 11 (dont 11 annulées) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. D'après la pharmacologie connue, la cytarabine est convertie dans la cellule en ara-CTP. Ce métabolite inhibe l'ADN polymérase et s'incorpore à l'ADN. Son action est spécifique de la phase S et cytotoxique pour les cellules à division rapide.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la cytarabine est un analogue nucléosidique pyrimidique qui inhibe la synthèse de l'ADN des cellules en prolifération. Son efficacité dans les leucémies aiguës est établie, et mécanistiquement elle pourrait être applicable à des tumeurs à croissance rapide comme le carcinome pulmonaire à petites cellules.
 
-Le CPPC est une tumeur très proliférative, ce qui rend l'hypothèse biologique plausible. Elle reste toutefois générique : tout antimétabolite pourrait être proposé sur cette seule base.
-
-Les données cliniques disponibles sont peu encourageantes. Une étude de 1984 rapporte qu'en monothérapie, la cytarabine n'a produit aucune réponse chez 10 patients déjà lourdement traités, avec une toxicité sévère. Les études de combinaison (cytarabine avec étoposide, ou avec cyclophosphamide et doxorubicine) sont anciennes et de petite taille. Les résumés fournis n'en donnent pas les résultats d'efficacité.
+Cependant, ce raisonnement reste théorique. La littérature retrouvée porte principalement sur le cancer bronchique non à petites cellules (anciens essais de phase II associant cytarabine et cisplatine, avec un taux de réponse global d'environ 14 à 18 %) et sur d'autres antimétabolites (gemcitabine, décitabine, pémétrexed, topotécan). Une publication de 1987 sur la cytarabine à haute dose dans le cancer à petites cellules est identifiée, mais son résumé n'est pas disponible. Le score élevé de TxGNN est une prédiction computationnelle uniquement.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT03507244](https://clinicaltrials.gov/study/NCT03507244) | Phase 1/2 | Terminé | 34 | Pémétrexed intrathécal avec radiothérapie dans les métastases leptoméningées de tumeurs solides. Autre médicament, autre histologie (CBNPC). |
-| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Phase 1 | Terminé | 13 | Pémétrexed intrathécal dans les métastases leptoméningées récidivantes de CBNPC. Ni cytarabine, ni CPPC. |
-| [NCT00863512](https://clinicaltrials.gov/study/NCT00863512) | Phase 3 | Arrêté | 34 | Chimiothérapie adjuvante versus observation dans le CBNPC de stade précoce. Rien n'indique que le schéma inclue la cytarabine. |
-
-Ces trois essais sont classés de pertinence faible (grade C). Aucun ne fournit de preuve directe pour la cytarabine dans le CPPC.
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
 ## Preuves de la Littérature
 
+Sélection des publications les plus pertinentes parmi celles recensées (aucune n'est un essai randomisé portant sur le carcinome à petites cellules) :
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | Étude clinique | Med Pediatr Oncol | 20 patients atteints de CPPC non traités : cyclophosphamide + doxorubicine, puis cytarabine sous-cutanée, avec radiothérapie thoracique et cérébrale. |
-| [6095640](https://pubmed.ncbi.nlm.nih.gov/6095640/) | 1984 | Étude clinique | Am J Clin Oncol | Cytarabine seule (10 patients prétraités) : aucune réponse, toxicité sévère. Ajoutée à CAV chez 25 patients en stade étendu. |
-| [2841844](https://pubmed.ncbi.nlm.nih.gov/2841844/) | 1988 | Étude clinique | Am J Clin Oncol | Étoposide + cytarabine en perfusion dans le CPPC réfractaire ou rechuté (17 patients). |
-| [6264785](https://pubmed.ncbi.nlm.nih.gov/6264785/) | 1981 | Série de cas | Am J Med | Carcinose méningée dans le CPPC. Rémission complète + partielle de 78 % sous chimiothérapie intensive (60 patients). La cytarabine n'est pas isolée dans ce résumé. |
-| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Cas clinique | Gan To Kagaku Ryoho | CPPC avec carcinose méningée traité par approche multidisciplinaire. |
-| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Phase II (CBNPC) | Cancer | Cytarabine à haute dose + cisplatine dans le CBNPC : taux de réponse de 14 %, myélosuppression de grade IV chez 32 %, 4 décès. |
-| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Phase II (CBNPC) | Tumori | Cytarabine + cisplatine + vindésine dans le CBNPC avancé (32 patients). |
-| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Étude pilote (CBNPC) | Eur J Cancer Clin Oncol | Association cisplatine + cytarabine dans le CBNPC avancé. |
-| [11331076](https://pubmed.ncbi.nlm.nih.gov/11331076/) | 2001 | Préclinique | Biochem Pharmacol | Sensibilité collatérale à la gemcitabine et à la cytarabine de lignées de CPPC résistantes à la daunorubicine et au VM-26. |
-| [18600541](https://pubmed.ncbi.nlm.nih.gov/18600541/) | 2008 | Préclinique | Nucleosides Nucleotides Nucleic Acids | Expression des transporteurs de nucléosides hENT1 et hCNT1 dans des lignées de CBNPC et des échantillons de patients. |
-
-Aucun essai randomisé n'a été identifié pour la cytarabine dans le CPPC. Les études cliniques les plus proches datent de 1979 à 1988.
+| [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Non classé | Cancer Treat Rep | Cytarabine à haute dose dans le cancer pulmonaire à petites cellules ; résumé non disponible |
+| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Phase II (CBNPC) | Cancer | Cytarabine 3 g/m² + cisplatine, 37 patients : réponse globale 14 %, myélosuppression de grade IV chez 32 % |
+| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Phase II (CBNPC) | Tumori | Cisplatine, vindésine et cytarabine, 32 patients : réponses limitées (environ 18 %) |
+| [2158614](https://pubmed.ncbi.nlm.nih.gov/2158614/) | 1990 | Phase II randomisée (CBNPC) | Med Pediatr Oncol | Cisplatine-cytarabine vs cisplatine-vinblastine chez 151 patients (CALGB) |
+| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Étude pilote (CBNPC) | Eur J Cancer Clin Oncol | Association cisplatine et cytarabine dans le CBNPC avancé ; résumé non disponible |
+| [1332622](https://pubmed.ncbi.nlm.nih.gov/1332622/) | 1992 | Revue | Gan To Kagaku Ryoho | Gemcitabine et DMDC, apparentés à la cytarabine, que les tumeurs solides tolèrent souvent sans y être sensibles |
+| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | Étude in vitro | Cancer Chemother Pharmacol | Profils de sensibilité de lignées cellulaires de cancer à petites cellules (doxorubicine, étoposide, vincristine) |
+| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Cas clinique | Gan To Kagaku Ryoho | Carcinose méningée d'un cancer à petites cellules traitée par approche multidisciplinaire |
 
 ---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64762878 | CYTARABINE SANDOZ 100 mg/ml | Solution injectable | SANDOZ |
-| 69737206 | ARACYTINE 500 mg | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE |
-| 63625385 | CYTARABINE ACCORD 20 mg/mL | Solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE |
-| 61517592 | ARACYTINE 100 mg | Poudre et solvant pour solution injectable | PFIZER HOLDING FRANCE |
-| 60375001 | ARACYTINE 1 g | Poudre pour solution pour perfusion (I.V.) | PFIZER HOLDING FRANCE |
+| 64762878 | CYTARABINE SANDOZ 100 mg/ml | Solution injectable | Non renseignée |
+| 69737206 | ARACYTINE 500 mg | Poudre pour solution pour perfusion | Non renseignée |
+| 63625385 | CYTARABINE ACCORD 20 mg/mL | Solution injectable ou pour perfusion | Non renseignée |
+| 61517592 | ARACYTINE 100 mg | Poudre et solvant pour solution injectable | Non renseignée |
+| 60375001 | ARACYTINE 1 g | Poudre pour solution pour perfusion | Non renseignée |
 
-Les 5 principales AMM sur 11 sont listées. Les textes d'indication approuvée ne sont pas disponibles dans les données reçues.
+Ces 5 AMM sont annulées, comme les 6 autres (11 au total, y compris VYXEOS LIPOSOMAL, CYTARABINE KABI, CYTARABINE ACCORD 100 mg/ml, ARACYTINE 2 g et deux autres présentations CYTARABINE SANDOZ).
 
 ---
 
@@ -111,17 +101,20 @@ Les 5 principales AMM sur 11 sont listées. Les textes d'indication approuvée n
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (antimétabolite, analogue de la pyrimidine) |
-| Risque de Myélosuppression | Élevé. Une étude de phase II avec cytarabine à haute dose + cisplatine rapporte une myélosuppression de grade IV chez 32 % des patients. |
-| Classification d'Émétogénicité | Moyenne (nausées et vomissements rapportés comme toxicité non hématologique principale ; à confirmer dans la notice) |
-| Éléments de Surveillance | NFS avec formule, fonction hépatique et rénale ; mucite (fréquente avec les agents actifs en phase S) |
-| Protection de Manipulation | Doit suivre la réglementation de manipulation des médicaments cytotoxiques |
+| Classification de Cytotoxicité | Cytotoxique conventionnel (antimétabolite, analogue nucléosidique pyrimidique) |
+| Risque de Myélosuppression | Élevé : une étude de phase II à haute dose avec cisplatine a rapporté une myélosuppression de grade IV chez 32 % des patients et de grade III chez 14 %, avec 4 décès sous traitement |
+| Classification d'Émétogénicité | Modérée (nausées et vomissements rapportés dans la littérature ; classification non issue des données compilées) |
+| Éléments de Surveillance | NFS avec formule, fonction hépatique et rénale |
+| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, non issues de la notice) : maladie rénale, maladie hépatique, pancréatite, maladie de la vésicule biliaire, thrombopénie, leucopénie, neutropénie et agranulocytose (y compris les neutropénies congénitales), anémie, neuropathie périphérique, œdème pulmonaire, maladie diarrhéique, entérocolite nécrosante, infections fongiques.
+- **Interactions médicamenteuses** (100 interactions recensées) : modérée avec la naltrexone ; mineure avec la lévofloxacine ; les autres, de niveau non précisé, concernent notamment la morphine, la metformine, la prednisone, la vancomycine, l'oméprazole et le pantoprazole.
+
+Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles : veuillez consulter la notice.
 
 ---
 
@@ -130,16 +123,20 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique ne teste la cytarabine dans le CPPC. Les rares études cliniques directes sont anciennes et de petite taille. L'une d'elles ne montre aucune réponse en monothérapie, avec une toxicité sévère.
-- Le dossier de sécurité issu de la notice ANSM est manquant (lacune bloquante), ce qui empêche le passage à l'étape de criblage de sécurité.
-- Dans ce même dossier, le lymphome pulmonaire primitif (niveau L3) repose sur une base clinique plus solide et pourrait être examiné en priorité.
+- Les preuves se limitent à une prédiction du modèle, sans essai clinique ni donnée clinique spécifique au carcinome à petites cellules. Les données disponibles concernent le cancer non à petites cellules, avec des réponses modestes et une toxicité hématologique importante. De plus, toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions)
-- Obtenir les données de mécanisme d'action depuis DrugBank
-- Récupérer les indications approuvées de chaque AMM
-- Extraire les résultats d'efficacité et de toxicité des études cliniques anciennes dans le CPPC (1979-1988)
-- Rechercher des données comparatives récentes face aux schémas standard du CPPC
+- Examiner le résumé et les résultats de l'étude de 1987 sur la cytarabine à haute dose dans le cancer à petites cellules
+- Données précliniques ou cliniques spécifiques à la cytarabine dans le carcinome à petites cellules
+- Données sur le mécanisme d'action
+- Mises en garde et contre-indications officielles de la notice ANSM
+- Vérification de la disponibilité commerciale actuelle d'une formulation en France
+
+---
+
+### Note sur les autres indications prédites
+
+Parmi les autres indications examinées, aucune n'atteint un niveau de preuve supérieur à L4, à l'exception de la neuroblastome (L3, recommandation « question de recherche ») : elle repose sur des données précliniques in vitro (par exemple le priming par la CPEC pour la toxicité de la cytarabine) et sur trois essais précoces dont le lien avec la cytarabine n'est pas confirmé. Le lymphome pulmonaire primitif (L4) repose sur des données indirectes issues de lymphomes du système nerveux central. Les autres indications (adénocarcinome fœtal bien différencié du poumon, blastome pulmonaire, ganglioneuroblastome, syndrome malformatif vertébral avec dysfonction endocrinienne et des lymphocytes T) ne reposent que sur la prédiction du modèle (L5).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

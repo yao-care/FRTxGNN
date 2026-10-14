@@ -2,7 +2,7 @@
 layout: default
 title: Lamotrigine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 168
+nav_order: 433
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,8 +33,9 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 ## Résumé en Une Phrase
 
-La lamotrigine est un antiépileptique utilisé dans les crises d'épilepsie et les troubles bipolaires, d'après la littérature associée. Les textes d'indication des AMM ne sont pas renseignés dans le dossier.
-Le modèle TxGNN prédit qu'elle pourrait être utile pour le **néoplasme du nerf trijumeau**, mais **aucun essai clinique** et seulement **2 publications** sont associés à cette prédiction. Ces deux publications portent sur la névralgie du trijumeau, non sur la tumeur.
+La lamotrigine est un antiépileptique utilisé à l'origine pour traiter l'épilepsie (notamment les épilepsies partielles et le syndrome de Lennox-Gastaut).
+Le modèle TxGNN la prédit comme potentiellement efficace pour le **néoplasme du nerf trijumeau**, avec un score très élevé.
+**Aucun essai clinique** et **aucune publication portant sur le traitement tumoral** ne soutiennent cette direction : les deux articles retrouvés concernent la névralgie du trijumeau, pas la tumeur.
 
 ---
 
@@ -42,29 +43,29 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour le **néoplasme du ne
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les textes d'AMM (la littérature associée mentionne l'épilepsie et le trouble bipolaire) |
+| Indication Originale | Épilepsie (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Néoplasme du nerf trijumeau |
 | Score de Prédiction TxGNN | 99,97 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. La lamotrigine est un antiépileptique. On lui attribue en général un blocage des canaux sodiques voltage-dépendants et une réduction de la libération de glutamate. Ce mécanisme n'est pas documenté dans le champ MOA du dossier.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques établies, la lamotrigine bloque les canaux sodiques voltage-dépendants et réduit la libération de glutamate. Son efficacité dans l'épilepsie est reconnue. Ce mécanisme peut soulager certaines douleurs neuropathiques.
 
-Ce mécanisme ne suggère aucune activité antitumorale. Le score élevé du modèle reflète plus probablement la proximité avec la **névralgie du trijumeau**, une douleur faciale paroxystique, que l'effet sur une tumeur. Les deux publications retrouvées portent sur la névralgie du trijumeau : une revue générale et un cas de névralgie liée à une malformation caverneuse traitée par radiochirurgie.
+Le score élevé du modèle s'explique très probablement par la proximité, dans le graphe de connaissances, avec la **névralgie du trijumeau**, pour laquelle la lamotrigine est utilisée. Rien n'indique que le médicament agisse sur la tumeur elle-même. Le lien avec l'indication d'origine (épilepsie) est donc indirect et repose sur un symptôme neurologique voisin, non sur un effet antitumoral.
 
-Rien dans les données ne montre que la lamotrigine traite le néoplasme lui-même. Au mieux, elle pourrait soulager de façon symptomatique une douleur neuropathique associée à la tumeur. Cette prédiction est donc peu solide sur le plan mécanistique.
+À titre d'information, la prédiction classée en deuxième position, la **névralgie du trijumeau**, est bien mieux étayée (2 essais cliniques, niveau L2). Elle est plus plausible que le néoplasme.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
@@ -72,28 +73,33 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revue | Expert Rev Neurother | Panorama des traitements médicaux et chirurgicaux de la névralgie du trijumeau. Cause probable : compression vasculaire de la racine du nerf, avec démyélinisation focale. Ne traite pas de tumeur. |
-| [30650431](https://pubmed.ncbi.nlm.nih.gov/30650431/) | 2018 | Rapport de cas | Stereotact Funct Neurosurg | Première prise en charge par radiochirurgie (Gamma Knife) d'une névralgie du trijumeau secondaire à une malformation caverneuse du tronc cérébral, avec revue de la littérature. |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revue | Expert Review of Neurotherapeutics | Panorama des traitements médicaux et chirurgicaux de la névralgie du trijumeau ; ne traite pas de la tumeur |
+| [30650431](https://pubmed.ncbi.nlm.nih.gov/30650431/) | 2018 | Rapport de cas | Stereotactic and Functional Neurosurgery | Radiochirurgie Gamma Knife d'une névralgie du trijumeau secondaire à une malformation caverneuse ; ne concerne ni la lamotrigine ni une tumeur |
+
+Ces deux publications portent sur la névralgie du trijumeau et ne constituent pas une preuve en faveur d'un traitement tumoral.
 
 ---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 65503120 | LAMOTRIGINE TEVA 25 mg (TEVA SANTÉ) | Comprimé dispersible ou à croquer |
-| 69967246 | LAMOTRIGINE VIATRIS 100 mg (VIATRIS SANTÉ) | Comprimé dispersible |
-| 63062684 | LAMOTRIGINE ZYDUS 200 mg (ZYDUS FRANCE) | Comprimé dispersible ou à croquer |
-| 62000092 | LAMOTRIGINE ARROW LAB 50 mg (ARROW GÉNÉRIQUES) | Comprimé dispersible ou à croquer |
-| 65667034 | LAMICTAL 200 mg (GLAXOSMITHKLINE) | Comprimé dispersible ou à croquer |
+Sur les 20 AMM recensées, 5 sont présentées ci-dessous. Toutes sont annulées et aucune n'a de texte d'indication renseigné.
 
-Le dossier liste 5 des 20 AMM. Les textes d'indication ne sont pas fournis.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65667034 | LAMICTAL 200 mg (GlaxoSmithKline) | Comprimé dispersible ou à croquer | Non renseignée |
+| 69658075 | LAMICTAL 100 mg (GlaxoSmithKline) | Comprimé dispersible ou à croquer | Non renseignée |
+| 61043653 | LAMICTAL 2 mg (GlaxoSmithKline) | Comprimé dispersible ou à croquer | Non renseignée |
+| 62897973 | LAMOTRIGINE BIOGARAN 25 mg | Comprimé dispersible | Non renseignée |
+| 65503120 | LAMOTRIGINE TEVA 25 mg | Comprimé dispersible ou à croquer | Non renseignée |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : trouble anxieux, trouble névrotique, trouble dysthymique, maladie du foie, maladie de la vésicule biliaire, thrombopénie, neutropénie, agranulocytose, anémie, anémie macrocytaire, pancytopénie, anémie aplasique (dont idiopathique), méningite non infectieuse.
+- **Interactions médicamenteuses** : 100 interactions recensées. Les interactions de niveau modéré les plus notables concernent la morphine (y compris liposomale), l'opium, le dronabinol, la nabilone, le métoclopramide et l'orlistat. L'interaction avec la metformine est de niveau mineur. Plusieurs autres interactions sont de niveau inconnu (par exemple inhibiteurs de la pompe à protons, doxycycline, vancomycine).
+
+Les mises en garde et contre-indications officielles de la notice ne figurent pas dans les données compilées. Veuillez consulter la notice pour ces informations.
 
 ---
 
@@ -102,14 +108,15 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur le seul score du modèle (niveau L5). Aucun essai n'est associé, et les deux publications concernent la névralgie du trijumeau, non le néoplasme.
-- Aucune donnée ne suggère une action antitumorale de la lamotrigine. Le score élevé traduit probablement un signal symptomatique lié à la douleur.
+- La prédiction repose uniquement sur le modèle (L5). Aucun essai clinique n'existe et la littérature retrouvée concerne la névralgie du trijumeau, non le néoplasme.
+- Toutes les AMM françaises de la lamotrigine sont annulées, ce qui limite aussi la faisabilité réglementaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le passage au premier filtre de sécurité.
-- Compléter le mécanisme d'action (via l'API DrugBank) et les indications des AMM.
-- Rechercher toute donnée précliniques ou cliniques d'activité antitumorale de la lamotrigine. Sinon, requalifier l'objectif comme un usage symptomatique (douleur neuropathique associée à la tumeur).
-- Examiner en priorité l'indication voisine **névralgie du trijumeau** (2ᵉ rang de la prédiction), nettement mieux étayée. Elle est classée L2 et « Proceed with Guardrails » dans le dossier, avec un essai de phase 2/3 terminé comparant la lamotrigine à la carbamazépine (NCT00913107, 21 patients, donc de faible puissance) et un essai contrôlé contre placebo en traitement additionnel (NCT00203229, 20 patients).
+- Des données précoces (précliniques ou mécanistiques) montrant un effet antitumoral de la lamotrigine sur les tumeurs du nerf trijumeau, ou une confirmation que la prédiction reflète en réalité la névralgie du trijumeau
+- Les données détaillées sur le mécanisme d'action
+- Les mises en garde et contre-indications de la notice officielle de l'ANSM
+- Une clarification du statut réglementaire en France, puisque aucune AMM n'est valide
+- Une réorientation de l'évaluation vers la **névralgie du trijumeau** (Phase 2/3 contre carbamazépine, 21 patients, niveau L2, « Proceed with Guardrails »), qui dispose de preuves nettement plus solides
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

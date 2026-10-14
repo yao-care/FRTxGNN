@@ -2,7 +2,7 @@
 layout: default
 title: Captopril
 parent: Preuves modérées (L3-L4)
-nav_order: 70
+nav_order: 137
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,33 +29,33 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Captopril : Vers l'Hypertension Rénovasculaire Maligne
+# Captopril : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
 
 ## Résumé en Une Phrase
 
-Captopril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC), commercialisé en France sous 14 AMM. Les données ANSM fournies ne précisent pas son indication d'origine.
+Le captopril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC), initialement utilisé pour traiter l'hypertension artérielle et la néphropathie diabétique.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension rénovasculaire maligne**.
-Cette piste repose sur **0 essai clinique** et **20 publications**, toutes indirectes : revues, cas cliniques, travaux diagnostiques de scintigraphie rénale au captopril et une étude animale.
+Aucun essai clinique n'est enregistré, et **20 publications** ont été retrouvées, toutes de faible niveau de preuve (revues, rapports de cas, études diagnostiques).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM fournies |
+| Indication Originale | Hypertension artérielle, néphropathie diabétique (les textes d'indication des AMM ne sont pas renseignés ; ces indications proviennent du graphe de connaissances) |
 | Nouvelle Indication Prédite | Hypertension rénovasculaire maligne |
 | Score de Prédiction TxGNN | 99,28 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 14 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la pharmacologie générale, captopril est un inhibiteur de l'ECA. Il bloque la formation d'angiotensine II, le principal moteur de l'hypertension dépendante de la rénine. Ce mécanisme ne provient donc pas des données fournies.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, le captopril appartient à la classe des IEC : il bloque la transformation de l'angiotensine I en angiotensine II, ce qui réduit la vasoconstriction et la sécrétion d'aldostérone.
 
-Dans l'hypertension rénovasculaire, l'ischémie rénale active le système rénine-angiotensine-aldostérone (SRAA). Dans la phase maligne de l'hypertension, ce système reste très sollicité. Bloquer la production d'angiotensine II est donc cohérent avec le score élevé du modèle (0,993).
+L'hypertension rénovasculaire est dirigée par l'activation du système rénine-angiotensine (SRA), précisément la voie ciblée par les IEC. Le lien mécanistique est donc fort. Le captopril est d'ailleurs déjà utilisé comme outil diagnostique (scintigraphie rénale au captopril) et dans les hypertensions sévères ou d'évolution maligne. Il s'agit davantage d'une extension de l'indication hypertensive existante que d'un repositionnement véritablement nouveau.
 
-Le lien reste toutefois indirect. Un article de 1984 semble rapporter l'usage du captopril dans l'hypertension stable et maligne, mais son schéma d'étude ne peut pas être confirmé. Les autres publications sont des revues, des cas cliniques ou des travaux où le captopril sert d'outil diagnostique (rénographie, dosage de la rénine), et non de traitement évalué.
+À noter : les IEC peuvent provoquer une insuffisance rénale aiguë en cas de sténose bilatérale des artères rénales ou de sténose sur rein unique. Des garde-fous de sécurité sont donc indispensables.
 
 ## Preuves d'Essais Cliniques
 
@@ -63,55 +63,60 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucun essai contrôlé randomisé ni revue systématique n'a été identifié. Le tableau est trié par pertinence pour l'indication.
+Aucune étude de type ECR n'est disponible. Les publications les plus pertinentes sont présentées ci-dessous (sélection parmi 20 références).
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Série clinique (schéma non vérifié) | Biull. Vses. Kardiol. Nauchn. Tsentra AMN SSSR | Utilisation du captopril dans l'hypertension artérielle stable et maligne ; pas de résumé disponible |
-| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Étude clinique (type non classé) | Clin Sci (Lond) | Le captopril et d'autres inhibiteurs du blocage angiotensinique font monter la rénine à plus de 14 ng/h/ml chez 43 des 44 patients ayant une hypertension rénovasculaire non traitée ; ce test identifie la forme rénovasculaire |
-| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Revue | Endocrinol Metab Clin North Am | Tumeurs sécrétant de la rénine : chez les patients jeunes avec hypertension sévère, la pression baisse sous inhibiteur de l'enzyme de conversion |
-| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | Revue | Minerva Med | Concepts cliniques de l'hypertension rénovasculaire (moins de 5 % des hypertendus) ; stratégies thérapeutiques dirigées vers l'ischémie rénale |
-| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | Revue | J Pediatr | Revue sur l'hypertension maligne ; pas de résumé disponible |
-| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Cas cliniques / Revue | Clin Nephrol | Deux cas d'hypertension rénovasculaire associée à la neurofibromatose ; l'activité rénine plasmatique augmente après 50 mg de captopril |
-| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Revue | Pediatr Nephrol | 27 patients atteints de neurofibromatose de type 1 : lésions vasculaires et hypertension secondaire, explorées par test au captopril |
-| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Cas clinique (diagnostique) | Clin Nucl Med | Scintigraphie rénale au captopril faussement évocatrice chez un patient en hypertension maligne sans sténose artérielle |
-| [10477101](https://pubmed.ncbi.nlm.nih.gov/10477101/) | 1999 | Étude diagnostique (type non classé) | Eur J Radiol | Rénographie au captopril négative dans le rein de Page et le réninome ; ne permet pas d'exclure une hypertension rénine-dépendante |
-| [2887673](https://pubmed.ncbi.nlm.nih.gov/2887673/) | 1987 | Expérimental / préclinique | Jpn Heart J | Modifications neurohormonales dans les phases bénigne et maligne de l'hypertension de Goldblatt (2 reins, 2 clips) chez le chien |
+| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Rapport clinique | Biull. Vsesoiuznogo Kardiol. Nauchn. Tsentra | Utilisation du captopril dans l'hypertension artérielle d'évolution stable et maligne (résumé non disponible) |
+| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Étude clinique | Clin Sci (Lond) | L'élévation réactionnelle de la rénine après blocage de l'angiotensine (dont captopril) identifie l'hypertension rénovasculaire (43 patients sur 44) |
+| [3326101](https://pubmed.ncbi.nlm.nih.gov/3326101/) | 1987 | Étude clinique | J UOEH | Efficacité du captopril dans l'hypertension réfractaire de l'enfant |
+| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Revue | Endocrinol Metab Clin North Am | Tumeurs sécrétant de la rénine : la pression artérielle baisse sous IEC |
+| [3894732](https://pubmed.ncbi.nlm.nih.gov/3894732/) | 1985 | Revue | Jpn J Med | Physiopathologie et évolution de l'hypertension ; place des tests dans le diagnostic de l'hypertension rénovasculaire |
+| [7955304](https://pubmed.ncbi.nlm.nih.gov/7955304/) | 1994 | Revue | Cleve Clin J Med | Dépistage non invasif de la maladie rénovasculaire |
+| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Série de cas | Pediatr Nephrol | Maladie rénovasculaire et hypertension chez 27 enfants atteints de neurofibromatose (test au captopril) |
+| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Rapport de cas/Revue | Clin Nephrol | Deux cas d'hypertension rénovasculaire associée à la neurofibromatose |
+| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Rapport de cas | Clin Nucl Med | Rénogramme au captopril anormal chez un patient hypertendu malin sans sténose de l'artère rénale |
+| [10477101](https://pubmed.ncbi.nlm.nih.gov/10477101/) | 1999 | Étude diagnostique | Eur J Radiol | Rénographie au captopril négative dans les hypertensions rénine-dépendantes (rein de Page, réninome) |
+
+Ces publications relèvent surtout du diagnostic (rénographie au captopril) et non d'une démonstration d'efficacité thérapeutique.
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM fournies. Le tableau indique donc le titulaire à la place.
+Toutes les AMM listées sont annulées ; aucune n'est actuellement valide.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64429514 | NOYADA 25 mg/5 ml | Solution buvable | ETHYPHARM |
-| 68170799 | CAPTOPRIL ARROW 50 mg | Comprimé sécable | ARROW GENERIQUES |
-| 61090375 | CAPTOPRIL ARROW 25 mg | Comprimé quadrisécable | ARROW GENERIQUES |
-| 67318234 | CAPTOPRIL BIOGARAN 50 mg | Comprimé sécable | BIOGARAN |
-| 62231576 | NOYADA 5 mg/5 ml | Solution buvable | ETHYPHARM |
+| 64429514 | NOYADA 25 mg/5 ml | Solution buvable | Non renseignée |
+| 68170799 | CAPTOPRIL ARROW 50 mg | Comprimé sécable | Non renseignée |
+| 61090375 | CAPTOPRIL ARROW 25 mg | Comprimé quadrisécable | Non renseignée |
+| 67318234 | CAPTOPRIL BIOGARAN 50 mg | Comprimé sécable | Non renseignée |
+| 62231576 | NOYADA 5 mg/5 ml | Solution buvable | Non renseignée |
+
+(14 AMM au total, dont des associations captopril/hydrochlorothiazide, toutes annulées.)
 
 ## Considérations de Sécurité
 
-- **Risque signalé par l'analyse de repositionnement** (pharmacologie générale, non issu de la notice) : les IEC peuvent provoquer une insuffisance rénale aiguë en cas de sténose bilatérale des artères rénales ou de sténose sur rein unique. C'est un point central pour l'hypertension rénovasculaire, et une évaluation de sécurité est nécessaire avant toute avancée.
+Les données de la notice (mises en garde, contre-indications) ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité officielles.
 
-Veuillez consulter la notice pour les informations de sécurité (mises en garde, contre-indications, interactions).
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : angioedème (dont héréditaire et induit par les bloqueurs du SRA), maladie rénale, maladie hépatique, pancréatite, sténose aortique, hypotension, lupus érythémateux systémique, neutropénie et agranulocytose, diabète et acidocétose diabétique, déficit en potassium, hyperparathyroïdie, encéphalopathie hépatique, connectivites.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) : niveau modéré avec les corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, budésonide, triamcinolone), l'acide acétylsalicylique, la morphine, le bupropion, la metformine et plusieurs antidiabétiques (alogliptine, canagliflozine, dapagliflozine, empagliflozine, ertugliflozine, exénatide, acétohexamide, chlorpropamide), le dronabinol ; niveau mineur avec l'hydroxyde d'aluminium et le carbonate de calcium.
+- **Point d'attention propre à l'indication** : risque d'insuffisance rénale aiguë en cas de sténose bilatérale des artères rénales ou sur rein unique.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Il n'existe aucun essai clinique, et la littérature est indirecte (revues, cas cliniques, usage diagnostique du captopril). Le seul article potentiellement thérapeutique (1984) n'a pas de schéma vérifiable.
-- Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape de criblage de sécurité. Le risque rénal des IEC dans cette population est en outre majeur.
+- Le score TxGNN est très élevé et le lien mécanistique avec le SRA est plausible, mais aucune preuve clinique thérapeutique n'est disponible (aucun essai, littérature essentiellement diagnostique ou descriptive). Le captopril n'a plus d'AMM valide en France, et les données de sécurité de la notice sont manquantes, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante.
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Préciser l'indication d'origine à partir des AMM.
-- Vérifier le schéma de l'étude de 1984 (PMID 6145432) et rechercher des études thérapeutiques contrôlées.
-- Évaluer le risque d'insuffisance rénale aiguë dans les sténoses artérielles rénales bilatérales ou sur rein unique.
+- Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications)
+- Compléter les données sur le mécanisme d'action
+- Réaliser une revue systématique ou des études cliniques évaluant l'efficacité thérapeutique dans l'hypertension rénovasculaire maligne
+- Définir des garde-fous de sécurité (fonction rénale, imagerie des artères rénales avant traitement, surveillance de la kaliémie)
+- Clarifier la situation réglementaire (AMM annulées) et les alternatives disponibles de la même classe
 
-**Autres indications prédites** : « maladie rénale hypertensive maligne » (L4), « hypertension pulmonaire due à une maladie pulmonaire et/ou à l'hypoxie » et « hypertension pulmonaire de mécanisme multifactoriel incertain » (L5). Toutes sont en Hold. Pour la première, le seul article est un cas diagnostique. Pour les deux autres, la littérature est hors sujet ou absente, et le score TxGNN (0,991) reste une prédiction purement computationnelle.
+**Autres indications prédites (à titre d'information) :** l'hypertension néphrovasculaire maligne (« maladie rénale hypertensive maligne », une seule étude de cas diagnostique), ainsi que deux formes d'hypertension pulmonaire (liée à une maladie pulmonaire/hypoxie, et d'origine multifactorielle), qui relèvent toutes d'un niveau de preuve L4 à L5 et d'une décision Hold. Pour l'hypertension pulmonaire, les vasodilatateurs systémiques peuvent aggraver l'appariement ventilation-perfusion dans les maladies pulmonaires hypoxiques.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

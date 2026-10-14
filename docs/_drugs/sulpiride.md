@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulpiride
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 294
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 723
+evidence_level: L4
 indication_count: 9
 ---
 
 # Sulpiride
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,33 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Sulpiride : Vers la Dystrophie Rétinienne avec ou sans Anomalies Extraoculaires
+# Sulpiride : De la Schizophrénie à la Dystrophie Rétinienne
 
 ## Résumé en Une Phrase
 
-Le sulpiride est un antagoniste sélectif des récepteurs dopaminergiques D2/D3, commercialisé en France (6 AMM). Le modèle TxGNN prédit qu'il pourrait être utile dans la **dystrophie rétinienne avec ou sans anomalies extraoculaires**.
-Cette prédiction repose uniquement sur le score du modèle : **aucun essai clinique** n'est enregistré. Les 15 publications remontées par la recherche décrivent des pathologies oculaires et orbitaires en général, et aucune n'étudie le sulpiride.
+Le sulpiride est un antagoniste sélectif des récepteurs dopaminergiques D2/D3, initialement utilisé pour le traitement de la schizophrénie.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extraoculaires**,
+mais **aucun essai clinique** n'est enregistré et seules **2 publications précliniques** (modèle de rat) soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Schizophrénie (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
-| Score de Prédiction TxGNN | 99,95 % (rang 687) |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 6 |
-| Décision Recommandée | Hold |
+| Score de Prédiction TxGNN | 99,95 % |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | ✗ Uniquement des AMM annulées |
+| Nombre d'AMM | 6 (toutes annulées) |
+| Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le sulpiride bloque de façon sélective les récepteurs dopaminergiques D2 et D3. La dopamine rétinienne agit via des récepteurs de type D2 situés sur les photorécepteurs et les cellules amacrines. Elle module l'adaptation à la lumière, donc un lien avec la fonction rétinienne est biologiquement concevable.
+Le sulpiride est un antagoniste sélectif des récepteurs dopaminergiques D2 et D3, avec une faible affinité pour le récepteur D4. Les données compilées indiquent également une interaction avec plusieurs anhydrases carboniques (CA1, CA7, CA12), dont la portée clinique n'est pas précisée. Les données détaillées sur le mécanisme d'action issues de DrugBank ne sont pas disponibles ; cette description repose sur les données pharmacologiques compilées.
 
-Ce lien reste toutefois très ténu. Aucun mécanisme n'associe l'antagonisme D2 aux causes génétiques des dystrophies rétiniennes héréditaires. Les données détaillées sur le mécanisme d'action et sur l'indication d'origine ne figurent pas dans le dossier, ce qui limite l'analyse. Le score de 99,95 % est une prédiction de modèle sur graphe et ne constitue pas une preuve d'efficacité.
+La dopamine module les réponses lumineuses des cellules ganglionnaires de la rétine. Dans le modèle de rat P23H de rétinite pigmentaire, les antagonistes D2 (dont le sulpiride) semblent améliorer les réponses visuelles de ces cellules, en augmentant leur sensibilité à la lumière et en transformant des cellules ON anormales à latence longue en cellules OFF. Le lien avec l'indication d'origine est donc pharmacologique (blocage D2) et non une similarité de maladie : la schizophrénie et la dystrophie rétinienne n'ont pas de parenté clinique.
 
-Les huit autres indications prédites (hydranencéphalie, polymicrogyrie, maladie de Charcot-Marie-Tooth 1G, déficit de glycosylation, encéphalopathie à glycine atypique, myopies) sont aussi au niveau L5, sans essai ni littérature. Pour les trois formes de myopie (myopie liée à l'X, myopie 26 liée à l'X limitée aux femmes, myopie syndromique), le sens de l'effet est même défavorable. La dopamine rétinienne freine la croissance oculaire et les agonistes dopaminergiques inhibent la myopie expérimentale. Un antagoniste risquerait donc de favoriser la myopie plutôt que de la traiter.
+Cette preuve reste préclinique et indirecte. Elle montre que le blocage D2 modifie la signalisation rétinienne, mais pas qu'il ralentit la dégénérescence ni qu'il améliore la vision chez le patient. Le score TxGNN très élevé est une prédiction computationnelle uniquement.
 
 ## Preuves d'Essais Cliniques
 
@@ -61,53 +63,42 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune de ces publications n'évalue le sulpiride. Elles concernent des pathologies oculaires ou orbitaires en général et n'apportent aucun soutien direct à la prédiction. Leur pertinence n'a pas encore été évaluée.
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Revue | Seminars in Ultrasound, CT, and MR | Infections orbitaires : la sinusite en est la cause la plus fréquente, avec cinq stades de cellulite décrits |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Revue | Seminars in Neurology | Démarche d'examen et diagnostic différentiel de la diplopie |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Revue | Pediatric Radiology | Diagnostic différentiel et imagerie des lésions oculaires pédiatriques (colobome, maladie de Coats, rétinopathie du prématuré…) |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Revue | Taiwan Journal of Ophthalmology | Anomalies congénitales de la forme du cristallin |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Revue | Klinische Monatsblätter für Augenheilkunde | Ptosis congénital : formes simples et compliquées, associations avec les troubles de la réfraction |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Revue | Documenta Ophthalmologica | Complexe de Wagner-Stickler : dégénérescence vitréorétinienne, myopie, décollements de rétine |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Revue | Journal of Binocular Vision and Ocular Motility | Ophtalmoplégies et troubles congénitaux de l'innervation crânienne |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Revue | American Journal of Ophthalmology | Pathogenèse et traitement de la maculopathie associée aux anomalies cavitaires de la papille |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Série de cas | International Journal of Molecular Sciences | Anomalies de la tête du nerf optique et de la rétine dans la fibrose congénitale des muscles extraoculaires (KIF21A, TUBB3) |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Rapport de cas | American Journal of Ophthalmology | Deux cas de cryptophtalmie unilatérale |
+| [27788033](https://pubmed.ncbi.nlm.nih.gov/27788033/) | 2016 | Préclinique (électrophysiologie animale) | J Ocul Pharmacol Ther | Étude des effets de l'halopéridol et de la clozapine sur les réponses visuelles des cellules ganglionnaires dans le modèle de rat P23H ; le résumé rappelle que le sulpiride et l'éticlopride semblent les améliorer |
+| [26717015](https://pubmed.ncbi.nlm.nih.gov/26717015/) | 2015 | Préclinique (électrophysiologie animale) | PLoS One | Effets des antagonistes D2 sur les réponses lumineuses des cellules ganglionnaires dans les rétines de rats sauvages et P23H |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 61055303 | SULPIRIDE TEVA 50 mg, gélule | Gélule |
-| 64285722 | DOGMATIL 0,5 g/100 ml SANS SUCRE, solution buvable édulcorée au cyclamate de sodium | Solution buvable |
-| 67208161 | DOGMATIL 200 mg, comprimé sécable | Comprimé sécable |
-| 62344129 | DOGMATIL 50 mg, gélule | Gélule |
-| 66241856 | SULPIRIDE TEVA 200 mg, comprimé sécable | Comprimé sécable |
+Les six AMM sont annulées ; le texte d'indication approuvée n'est pas renseigné.
 
-Le texte des indications approuvées n'est pas renseigné dans les données reçues. Le dossier recense 6 AMM au total, dont 5 sont détaillées ci-dessus.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+|---------|------|------|-----------|
+| 61055303 | SULPIRIDE TEVA 50 mg | Gélule | Annulée |
+| 64285722 | DOGMATIL 0,5 g/100 ml sans sucre | Solution buvable | Annulée |
+| 67208161 | DOGMATIL 200 mg | Comprimé sécable | Annulée |
+| 62344129 | DOGMATIL 50 mg | Gélule | Annulée |
+| 66241856 | SULPIRIDE TEVA 200 mg | Comprimé sécable | Annulée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions et cibles pharmacologiques** : le sulpiride cible les récepteurs D2 et D3 (effet recherché) et interagit avec les anhydrases carboniques 1, 7 et 12. Aucune interaction médicamenteuse avec niveau de gravité n'est disponible.
+
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Hold**
+**Décision : Hold (question de recherche)**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (L5). Aucun essai clinique n'existe et la littérature identifiée ne concerne pas le sulpiride. Le seul lien mécanistique, la signalisation dopaminergique rétinienne, est plausible mais non démontré pour les dystrophies rétiniennes génétiques.
-- Les données de sécurité de la notice de l'ANSM font défaut, ce qui bloque le passage au criblage de sécurité.
+- Seules deux études précliniques sur le rat, indirectes, soutiennent l'hypothèse ; aucune donnée clinique n'existe et l'effet sur la dégénérescence ou la vision est inconnu. Toutes les AMM françaises sont annulées.
+- Les autres prédictions (hydranencéphalie, polymicrogyrie, Charcot-Marie-Tooth 1G, formes de myopie, anomalies de glycosylation, encéphalopathie à glycine atypique) n'ont aucune preuve ; pour les myopies, l'antagonisme D2 pourrait même être défavorable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)
-- Compléter les données sur le mécanisme d'action (par exemple via DrugBank)
-- Réaliser une revue ciblée de la littérature sur le sulpiride, la dopamine rétinienne et les dystrophies rétiniennes
-- Trouver des données précliniques (modèles animaux de dystrophie rétinienne) avant d'envisager un essai
-- Évaluer la compatibilité des voies d'administration avec l'usage ophtalmologique visé
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Mises en garde et contre-indications issues de la notice ANSM (bloquant pour le criblage de sécurité)
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Études précliniques supplémentaires (autres modèles, effet sur la survie des photorécepteurs et la fonction visuelle)
+- Évaluation de la voie d'administration et de la sécurité oculaire/systémique avant toute étude clinique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Ivabradine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 162
+nav_order: 419
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,70 +29,72 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Ivabradine : Du Blocage des Canaux HCN Cardiaques à l'Hypertrichose
+# Ivabradine : De l'Indication Originale Non Documentee à l'Hypertrichose
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-L'ivabradine est un médicament commercialisé en France qui bloque les canaux HCN (courant cardiaque If).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**, avec un score élevé (99,79 %).
-Cette prédiction n'est soutenue par **aucun essai clinique** et **aucune publication** : elle repose uniquement sur le modèle, et aucun lien mécanistique plausible n'a été identifié.
+L'ivabradine est un médicament dont l'indication originale n'est pas renseignée dans les données compilées pour ce rapport (les trois AMM françaises recensées sont toutes annulées).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
-## Aperçu Rapide
+## Apercu Rapide
 
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Hypertrichose |
-| Score de Prédiction TxGNN | 99,79 % |
+| Indication Originale | Non renseignée dans les données disponibles |
+| Nouvelle Indication Predite | Hypertrichose |
+| Score de Prediction TxGNN | 99,79 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
-| Décision Recommandée | Hold |
+| Statut de Marche en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 3 (toutes annulées) |
+| Decision Recommandee | Hold |
 
-Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM fournies, l'indication originale n'est donc pas indiquée ici.
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'ivabradine inhibe le canal HCN (courant « funny » If) du nœud sinusal, ce qui ralentit la fréquence cardiaque.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans ce dossier. On sait que l'ivabradine bloque les canaux HCN, responsables du courant cardiaque If, qui règle la fréquence du cœur.
+Aucun lien établi n'existe entre ce mécanisme et le cycle du follicule pilaire ou la régulation de la pousse des poils. Le score élevé de TxGNN est une prédiction issue du graphe de connaissances, probablement due à des voisins de réseau partagés (gènes de canaux ioniques ou cardiovasculaires). Elle n'est étayée par aucune donnée clinique ni bibliographique.
 
-Aucun lien connu n'a été trouvé entre ce mécanisme et la croissance des poils. La biologie de canaux ioniques voisins, comme les canaux K-ATP dans l'hypertrichose du syndrome de Cantú, ne fait pas intervenir les canaux HCN. Le score élevé est donc probablement un artefact du graphe de connaissances et non une preuve indépendante.
-
-Les autres prédictions du modèle sont tout aussi peu étayées : hypertrichose congénitale d'Ambras (liée à la région TRPS1), anomalies génétiques de la tige pilaire, syndromes malformatifs dentaires ou parodontaux, syndromes avec malformation de Dandy-Walker et syndrome néphrogénique d'antidiurèse inappropriée (variants du récepteur V2 de la vasopressine). Aucune n'a de mécanisme plausible avec le blocage des canaux HCN. Plusieurs scores semblent refléter la proximité avec le nœud « hypertrichose » du graphe.
+Les autres prédictions du modèle (syndrome d'Ambras, syndromes malformatifs avec atteinte dentaire ou parodontale, syndromes avec malformation de Dandy-Walker, anomalie génétique isolée de la tige pilaire, syndrome néphrogénique d'antidiurèse inappropriée) sont également purement computationnelles, sans essai ni publication. La dernière est la seule présentant un lien physiologique un peu plus concevable (canaux ioniques rénaux), mais il reste spéculatif.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Littérature
+## Preuves de la Litterature
 
 Aucune littérature associée disponible actuellement.
 
-Pour information, 20 publications ont été retrouvées pour une autre prédiction (malformations avec composante dentaire ou parodontale). Elles traitent de la parodontite en général et ne mentionnent ni l'ivabradine ni les canaux HCN. Elles ne constituent pas une preuve pour ce médicament.
+## Informations de Marche en France
 
-## Informations de Marché en France
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee | Statut |
+|---------|------|------|-----------|------|
+| 63501124 | PROCORALAN 7,5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Annulée |
+| 65486532 | IVABRADINE ALTER 7,5 mg, comprimé (Laboratoires Alter) | Comprimé | Non renseignée | Annulée |
+| 61952527 | PROCORALAN 5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Annulée |
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 63501124 | PROCORALAN 7,5 mg | Comprimé pelliculé | Les Laboratoires Servier |
-| 65486532 | IVABRADINE ALTER 7,5 mg | Comprimé | Laboratoires Alter |
-| 61952527 | PROCORALAN 5 mg | Comprimé pelliculé | Les Laboratoires Servier |
+## Considerations de Securite
 
-## Considérations de Sécurité
+**Interactions Médicamenteuses** : 100 interactions ont été recensées. Les principales sont présentées ci-dessous (échantillon des données compilées).
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Majeures** : aprépitant, clarithromycine, dolasétron, palonosétron, cisapride, clotrimazole, granisétron, lévofloxacine, ondansétron, papavérine, cobicistat.
+- **Modérées** : famotidine, ranitidine (y compris citrate de bismuth), cimétidine, dexaméthasone, métréleptine, miconazole, nizatidine, troglitazone.
 
-## Conclusion et Prochaines Étapes
+Veuillez consulter la notice pour les mises en garde et contre-indications, qui ne sont pas disponibles dans les données compilées.
 
-**Décision : Hold**
+## Conclusion et Prochaines Etapes
+
+**Decision : Hold**
 
 **Justification :**
-- La prédiction est de niveau L5 : score du modèle uniquement, sans essai, sans publication pertinente et sans mécanisme plausible.
-- Les données de sécurité de la notice ANSM manquent et bloquent le passage à l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible avec le blocage des canaux HCN.
+- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indications approuvées).
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Rechercher une éventuelle piste biologique spécifique reliant les canaux HCN à la croissance pilaire, avant tout investissement supplémentaire.
-- Une fois ces éléments réunis, reprendre l'évaluation, sachant que le modèle seul ne justifie pas de progresser.
+**Pour avancer, les elements suivants sont necessaires :**
+- Récupérer la notice ANSM (mises en garde et contre-indications) afin de lever le blocage de sécurité.
+- Obtenir les données sur le mécanisme d'action (par exemple via DrugBank) et l'indication originale.
+- Rechercher des études précliniques ou des cas rapportés reliant l'ivabradine à l'hypertrichose ou aux affections prédites.
+- Évaluer la compatibilité de la voie d'administration avec l'indication visée.
+- Réévaluer la pertinence de la prédiction : l'absence de lien biologique plausible justifie de ne pas investir davantage sans nouvelles preuves.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

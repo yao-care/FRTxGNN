@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Preuves modérées (L3-L4)
-nav_order: 145
-evidence_level: L3
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 381
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,92 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Hydrocortisone : Du corticoïde classique à la pelade (alopécie en aires)
+# Hydrocortisone : De l'insuffisance surrénalienne et des maladies inflammatoires à la pelade (alopecia areata)
 
 ## Résumé en Une Phrase
 
-L'hydrocortisone est un glucocorticoïde de faible puissance, commercialisé en France sous plusieurs formes (collyre, crème, mousse rectale, pommade, comprimé, injectable). Le texte des indications approuvées n'est pas renseigné dans les données reçues.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pelade (alopecia areata)**, avec **4 essais cliniques** et **20 publications** retrouvés.
-Un seul essai est réellement pertinent : un ECR de Phase 3 où l'hydrocortisone 1 % servait de comparateur faible face au clobétasol. Ces preuves ne soutiennent donc pas l'hydrocortisone comme candidat de repositionnement.
-
----
+L'hydrocortisone est un corticostéroïde utilisé à l'origine dans l'insuffisance surrénalienne, les maladies auto-immunes et inflammatoires (maladie de Crohn, maladies inflammatoires de l'intestin) ainsi que dans certaines affections cutanées.
+Le modèle TxGNN prédit qu'il pourrait être utile dans la **pelade (alopecia areata)**, mais les preuves directes restent faibles : **1 essai clinique** (où l'hydrocortisone sert de comparateur) et **une vingtaine de publications**, dont une seule est un essai randomisé et la plupart sont anciennes ou hors sujet.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Non précisée dans les textes d'AMM disponibles ; les indications d'origine issues du graphe de connaissances incluent l'insuffisance surrénalienne, la maladie d'Addison, la maladie de Crohn et les maladies auto-immunes |
 | Nouvelle Indication Prédite | Pelade (alopecia areata) |
 | Score de Prédiction TxGNN | 99,97 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 15 |
+| Niveau de Preuve | L1 selon le classement automatique, à relativiser (voir ci-dessous) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 15 (toutes annulées) |
 | Décision Recommandée | Hold |
 
----
+**Remarque sur le niveau de preuve :** le niveau L1 affiché par le classement automatique repose sur un seul essai de phase 3 de petite taille (41 patients) dans lequel l'hydrocortisone 1 % était le **comparateur** à faible puissance face au clobétasol 0,05 %. Il ne démontre pas l'efficacité de l'hydrocortisone. Les critères stricts (au moins 2 essais de phase 3 menés à terme) ne sont pas remplis ; le niveau réel est plus proche de L3. La décision recommandée est donc prudente.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'hydrocortisone appartient à la classe des glucocorticoïdes de faible puissance. Son activité anti-inflammatoire et immunosuppressive est établie, et elle pourrait mécanistiquement s'appliquer à la pelade.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'hydrocortisone est un corticostéroïde qui freine l'activité immunitaire et l'inflammation locales ou systémiques. Son efficacité est établie dans l'insuffisance surrénalienne (traitement substitutif) et dans plusieurs maladies inflammatoires et auto-immunes.
 
-Dans la pelade, une attaque immunitaire médiée par les lymphocytes T entoure le follicule pileux et fait s'effondrer son privilège immunitaire. Les corticoïdes topiques et intralésionnels sont utilisés pour freiner cette attaque. Ce lien est déduit de la classe pharmacologique et non d'une donnée source sur le mécanisme.
+La pelade est une maladie auto-immune à médiation par les lymphocytes T, qui attaque le follicule pileux. Un corticostéroïde peut donc, sur le plan théorique, réduire cette agression immunitaire. C'est probablement ce lien avec les maladies auto-immunes qui explique le score élevé du modèle.
 
-La pharmacologie est plausible, mais l'hydrocortisone 1 % est l'option la plus faible de sa classe, et des corticoïdes plus puissants sont déjà utilisés dans cette maladie. Le score élevé du modèle ne traduit donc pas un avantage thérapeutique démontré.
-
----
+Cependant, l'hydrocortisone est un corticostéroïde de **faible puissance**. Dans l'unique essai randomisé identifié, elle a servi de référence face à un corticoïde puissant (clobétasol). Ce lien mécanistique reste donc plausible, mais non démontré pour l'hydrocortisone elle-même.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Terminé | 41 | Clobétasol 0,05 % vs hydrocortisone 1 % en crème chez l'enfant atteint de pelade. L'hydrocortisone est le comparateur de faible puissance, pas le traitement testé. |
-| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | Terminé | 18 | Effet de la triamcinolone intralésionnelle sur la fonction surrénalienne dans la pelade. L'hydrocortisone n'est pas un bras thérapeutique. |
-| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | Non applicable | Pas encore en recrutement | 72 | Étude à quatre bras (trois dosages et placebo) de produits de repousse capillaire dans l'alopécie androgénétique. Rôle de l'hydrocortisone non précisé, examen manuel nécessaire. |
-| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | Non applicable | Terminé | 380 | Étude observationnelle du métabolome stéroïdien et de la résistance osseuse dans la sécrétion autonome légère de cortisol. Sans rapport avec la pelade. |
-
----
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Terminé | 41 | Clobétasol 0,05 % crème versus hydrocortisone 1 % crème chez l'enfant atteint de pelade ; l'hydrocortisone est le comparateur de faible puissance, d'où un soutien indirect seulement |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | ECR | JAMA Dermatology | Clobétasol 0,05 % vs hydrocortisone 1 % dans la pelade de l'enfant. Publication de l'essai NCT01453686, où l'hydrocortisone est le bras le plus faible. |
-| [38501938](https://pubmed.ncbi.nlm.nih.gov/38501938/) | 2024 | Cohorte rétrospective | Clin Exp Dermatol | Efficacité et tolérance des corticoïdes topiques sous occlusion dans la pelade sévère de l'enfant. Devis exact non confirmé. |
-| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Rapport clinique historique | Der Hautarzt | Repousse des cheveux après injection intradermique d'hydrocortisone. Pas de résumé disponible. |
-| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | Rapport clinique historique | Vestn Dermatol Venerol | Traitement de la pelade et de l'alopécie totale par injections intradermiques d'hydrocortisone. Pas de résumé disponible. |
-| [14158891](https://pubmed.ncbi.nlm.nih.gov/14158891/) | 1963 | Rapport clinique historique | Actas Dermosifiliogr | Traitement de la pelade par injections intradermiques d'hydrocortisone. Pas de résumé disponible. |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Rapport clinique historique | Medical Times | Traitement de la pelade par cortisone, hydrocortisone et leurs analogues. Pas de résumé disponible. |
-| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Rapport de cas | J Am Acad Dermatol | Quatre cas de pelade congénitale, avec de longues périodes de quiescence. |
-| [28516731](https://pubmed.ncbi.nlm.nih.gov/28516731/) | 2017 | Revue / observationnel | J Eur Acad Dermatol Venereol | Hyperactivité de l'axe hypothalamo-hypophyso-surrénalien dans la pelade. Preuve indirecte, non thérapeutique. |
-| [28094416](https://pubmed.ncbi.nlm.nih.gov/28094416/) | 2017 | Rapport de cas vétérinaire | Tierarztl Prax Ausg K | Pelade chez un berger allemand. Le tacrolimus topique et l'acéponate d'hydrocortisone ont été inefficaces. |
-| [36718837](https://pubmed.ncbi.nlm.nih.gov/36718837/) | 2023 | Revue systématique / méta-analyse | J Cosmet Dermatol | Laser fractionné dans la pelade. Hors sujet, l'hydrocortisone n'est pas concernée. |
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | ECR | JAMA Dermatology | Clobétasol 0,05 % versus hydrocortisone 1 % dans la pelade de l'enfant |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Série de cas historique | Medical Times | Traitement de la pelade par cortisone, hydrocortisone et analogues |
+| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Rapport clinique historique | Der Hautarzt | Repousse des cheveux après injection intradermique d'hydrocortisone |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Rapports de cas | J Am Acad Dermatol | Quatre cas de pelade congénitale, traités notamment par minoxidil et corticoïdes topiques |
+| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Revue clinique | J Med Soc New Jersey | Aperçu de la pelade et d'autres problèmes du cuir chevelu |
+| [24326563](https://pubmed.ncbi.nlm.nih.gov/24326563/) | 2013 | Préclinique (souris) | J Investig Dermatol Symp Proc | Agonistes et antagonistes de la PTH dans un modèle murin de pelade, sans rapport direct avec l'hydrocortisone |
+| [19289325](https://pubmed.ncbi.nlm.nih.gov/19289325/) | 2009 | Rapport de cas | Endocr Pract | Syndrome polyglandulaire auto-immun de type 3 avec alopécie universelle |
 
----
+Plusieurs autres publications (injections intralésionnelles d'hydrocortisone des années 1955 à 1973, enquête sur l'automédication, cas vétérinaire) sont très anciennes, sans résumé ou hors sujet ; elles n'apportent pas de preuve exploitable.
+
+**Autres indications prédites (preuves insuffisantes) :** mucinose folliculaire (alopecia mucinosa), effluvium télogène, folliculite décalvante de Quinquaud, syndrome néphrotique idiopathique stéroïdosensible et plusieurs syndromes génétiques rares. Aucune ne dispose d'essai clinique ni de littérature directement pertinente. Le seul article indirect sur le syndrome néphrotique (1982) concerne la réponse surrénalienne et non l'efficacité de l'hydrocortisone. Toutes sont classées Hold.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 62550143 | SOFTACORT 3,35 mg/ml, collyre en solution en récipient unidose | Collyre en solution |
-| 65008233 | COLOFOAM, mousse rectale | Mousse |
-| 67240376 | CORTISEDERMYL 0,5 %, crème | Crème |
-| 67369944 | LOCOID, crème épaisse pour application locale | Crème épaisse pour application |
-| 66841235 | LOCOID 0,1 %, crème | Crème |
+Toutes les AMM recensées sont annulées. Les textes d'indication ne sont pas disponibles dans les données compilées.
 
-Le texte des indications approuvées n'est pas disponible pour ces AMM. Les 5 AMM ci-dessus sont les principales sur un total de 15.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 62550143 | SOFTACORT 3,35 mg/ml, collyre | Collyre en solution | Non renseignée |
+| 65008233 | COLOFOAM, mousse rectale | Mousse | Non renseignée |
+| 67240376 | CORTISEDERMYL 0,5 %, crème | Crème | Non renseignée |
+| 67369944 | LOCOID, crème épaisse | Crème épaisse pour application | Non renseignée |
+| 66841235 | LOCOID 0,1 %, crème | Crème | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations déduites, non extraites d'une notice) : hypertension, épilepsie, ulcère gastrique, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, hyperglycémie, infections virales (rougeole, verrues, papillomavirus anogénital, kératite herpétique) et déficits en hormones hypophysaires.
+- **Interactions médicamenteuses** (100 interactions recensées, extrait des principales) :
+  - **Majeure :** adalimumab.
+  - **Modérées :** zidovudine, isotrétinoïne, acarbose, acétazolamide, kétorolac, nifédipine, ibuprofène, éthinylestradiol, aldesleukine, alemtuzumab, albiglutide, certains vaccins.
+  - **Mineures :** formotérol, salbutamol.
 
----
+Les mises en garde et contre-indications issues de la notice officielle ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le seul ECR de Phase 3 disponible place l'hydrocortisone 1 % en comparateur faible face au clobétasol. Il ne la soutient donc pas comme candidat, et le niveau de preuve est plafonné à L3.
-- Les autres indications prédites (mucinose folliculaire, effluvium télogène, folliculite décalvante, etc.) sont toutes en Hold, avec des preuves de niveau L4 ou L5. La sécurité n'a pas pu être évaluée faute de notice ANSM.
+- La seule preuve clinique directe est un essai pédiatrique de petite taille où l'hydrocortisone est le comparateur faible, ce qui n'établit pas son efficacité dans la pelade. Le niveau L1 automatique est trompeur.
+- Les données de sécurité issues de la notice et le mécanisme d'action manquent, et aucune AMM n'est en vigueur en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications), ce qui est bloquant pour l'évaluation de sécurité.
-- Obtenir les données de mécanisme d'action depuis DrugBank.
-- Obtenir le texte des indications approuvées des AMM françaises.
-- Examiner manuellement le dossier complet de NCT06551818 pour déterminer le rôle de l'hydrocortisone.
-- Comparer l'hydrocortisone aux corticoïdes plus puissants déjà utilisés dans la pelade, afin de vérifier l'existence d'un intérêt de repositionnement.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant utilisation.*
+- Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, ce qui est bloquant pour le criblage de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Identifier ou conduire des essais comparant l'hydrocortisone à un placebo ou à un traitement actif dans la pelade, avec une formulation et une voie d'administration définies (topique ou intralésionnelle).
+- Clarifier la compatibilité de la voie d'administration et la situation réglementaire, toutes les AMM étant annulées.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

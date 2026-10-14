@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imiquimod
-parent: Preuves élevées (L1-L2)
-nav_order: 151
-evidence_level: L2
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 395
+evidence_level: L5
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,106 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Imiquimod : D'un Immunomodulateur Topique à la Néoplasie Prémaligne
+# Imiquimod : Des verrues cutanées et de la kératose actinique aux néoplasmes prémalins
 
 ## Résumé en Une Phrase
 
-Imiquimod est un immunomodulateur appliqué sur la peau sous forme de crème. Il est commercialisé en France sous les noms ZYCLARA 3,75 % et ALDARA 5 %. Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM disponibles.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour les **néoplasmes prémalins** (par exemple kératose actinique, néoplasie intraépithéliale vulvaire, anale ou cervicale).
-Actuellement, **19 essais cliniques** et **9 publications** soutiennent cette direction, mais aucun essai de phase 3 ne fournit de résultat interprétable sur cette indication.
+Imiquimod est un immunomodulateur topique (crème), initialement utilisé pour traiter les verrues, les infections anogénitales à papillomavirus humain (HPV), la kératose actinique et le carcinome basocellulaire superficiel.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **néoplasme prémalin**, avec **2 essais cliniques** et **9 publications** soutenant actuellement cette direction.
+Cette prédiction recoupe en grande partie l'indication déjà connue de la kératose actinique : ce n'est donc pas un repositionnement entièrement nouveau.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Néoplasme prémalin (pre-malignant neoplasm) |
-| Score de Prédiction TxGNN | 99,92 % (rang 1086) |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Indication Originale | Verrue commune, infection anogénitale à HPV, kératose actinique, carcinome basocellulaire superficiel multifocal (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas disponible) |
+| Nouvelle Indication Prédite | Néoplasme prémalin |
+| Score de Prédiction TxGNN | 99,92 % |
+| Niveau de Preuve | L1 (selon le classement des données compilées ; voir la réserve dans la conclusion) |
+| Statut de Marché en France | Uniquement annulées |
+| Nombre d'AMM | 2 (toutes deux annulées) |
 | Décision Recommandée | Proceed with Guardrails |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Imiquimod est un agoniste du récepteur TLR7. Appliqué localement, il déclenche la production d'interféron alpha, de TNF-alpha et d'IL-12, ce qui active l'immunité innée puis adaptative contre les cellules épithéliales dysplasiques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, imiquimod est un agoniste du récepteur Toll-like 7 (TLR7). Il stimule les réponses immunitaires innées et adaptatives locales (interféron alpha, TNF-alpha, IL-12), ce qui permet d'éliminer l'épithélium dysplasique et les cellules infectées par le HPV.
 
-Ce mécanisme est cohérent avec le traitement des lésions prémalignes : kératose actinique, néoplasie intraépithéliale vulvaire (VIN), anale (AIN) et papulose bowénoïde. Les revues Cochrane sur la VIN et l'AIN, ainsi que les revues sur les traitements topiques des kératoses actiniques, vont dans ce sens.
+Les indications d'origine (kératose actinique, carcinome basocellulaire superficiel, lésions liées au HPV) sont des lésions épithéliales prémalignes ou malignes de faible grade. La catégorie « néoplasme prémalin » englobe ces situations, notamment la kératose actinique, lésion prémaligne typique. Des revues soutiennent aussi son usage dans les néoplasies intraépithéliales anales, vulvaires et cervicales.
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. Le raisonnement ci-dessus repose donc sur la littérature. Aucune indication d'origine n'est renseignée dans les données ANSM, ce qui empêche de comparer directement l'indication d'origine et la nouvelle.
+Il faut toutefois être transparent : cette prédiction est en grande partie concordante avec l'indication existante, et non un signal de repositionnement réellement nouveau.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Sur les 19 essais recensés, voici les 10 plus pertinents. Seule une partie d'entre eux a été évaluée pour sa pertinence, et plusieurs restent en attente de cette évaluation.
-
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Terminé prématurément | 9 | Imiquimod topique dans la néoplasie intraépithéliale cervicale de haut grade. Trop peu de participants pour conclure sur l'efficacité |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Phase 2 | Terminé | 90 | Essai randomisé d'imiquimod topique dans les lésions intraépithéliales cervicales de haut grade |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Phase 1 | Terminé prématurément | 49 | Comparaison de l'imiquimod à 5 %, 0,05 % et 0,05 % nanoencapsulé dans la chéilite actinique. Informe sur la formulation et la dose plus que sur l'efficacité |
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Phase 3 | Terminé | 259 | Imiquimod néoadjuvant pour réduire la taille d'exérèse du lentigo malin du visage (mélanome intraépidermique) |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Phase 2 | Terminé | 5 | Mécanismes d'échappement immunitaire et effet de l'imiquimod dans la VIN 2/3 et les condylomes |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Phase 4 | Inconnu | 20 | Imiquimod 3,75 % après cryothérapie dans les kératoses actiniques hypertrophiques des mains et avant-bras |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | Terminé | 20 | Étude ouverte d'imiquimod 5 % dans les kératoses actiniques de la tête, avec évaluation de la durée de l'effet |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Phase 3 | Inconnu | 145 | Exérèse chirurgicale versus curetage + imiquimod dans le carcinome basocellulaire nodulaire (cancer, non prémalin) |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Phase 1 précoce | Terminé | 16 | Imiquimod néoadjuvant dans le carcinome épidermoïde oral précoce. Soutient le mécanisme TLR7, mais concerne un cancer invasif |
-| [NCT00142454](https://clinicaltrials.gov/study/NCT00142454) | Phase 1 | Terminé | 9 | Vaccin NY-ESO-1 avec imiquimod comme adjuvant dans le mélanome. Usage adjuvant, peu pertinent pour les lésions prémalignes |
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | Terminé | 20 | Étude ouverte de la crème d'imiquimod 5 % (3 jours par semaine) dans les kératoses actiniques de la tête ; évaluation de la durée de l'effet. Petit effectif, sans groupe contrôle. |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Arrêté | 9 | Essai randomisé d'imiquimod topique dans la néoplasie intraépithéliale cervicale de haut grade (CIN 2-3), alternative à la résection. Arrêté avec 9 participants : sous-dimensionné, aucune conclusion d'efficacité possible. |
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Interventions pour la néoplasie intraépithéliale du canal anal, affection prémaligne liée au HPV |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Traitements médicaux de la VIN de haut grade, faute de consensus sur la prise en charge optimale |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Revue | Skin Therapy Lett | Prise en charge actuelle des kératoses actiniques, dont les traitements topiques de champ |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Revue | Semin Cutan Med Surg | Traitements topiques (fluorouracile, diclofénac, imiquimod, thérapie photodynamique) des cancers cutanés non mélaniques et des lésions précurseurs |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Revue | Int J Mol Sci | Associations de traitements avec la thérapie photodynamique pour les cancers cutanés non mélaniques |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Rapport de cas | Int J STD AIDS | Guérison d'une VIN de haut grade sous imiquimod 5 % chez une greffée rénale |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Rapport de cas | Int J STD AIDS | Guérison d'une papulose bowénoïde du pénis sous imiquimod 5 % |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Préclinique (animal) | Urol Oncol | Pharmacocinétique et pharmacodynamie d'agonistes TLR7 chez le rat, en cours d'étude pour le cancer de vessie |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Revue (Cochrane) | Cochrane Database Syst Rev | Interventions dans la néoplasie intraépithéliale du canal anal, état prémalin associé au HPV |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Revue (Cochrane) | Cochrane Database Syst Rev | Traitements médicaux de la néoplasie intraépithéliale vulvaire de haut grade |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Revue | Int J Mol Sci | Associations thérapeutiques avec la photothérapie dynamique dans le cancer cutané non mélanique |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Revue | Semin Cutan Med Surg | Traitements topiques (fluorouracile, diclofénac, imiquimod, PDT) des cancers cutanés non mélaniques et lésions précurseurs |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Revue | Skin Therapy Lett | Prise en charge actuelle des kératoses actiniques, lésions prémalignes pouvant évoluer en carcinome épidermoïde |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Cas clinique | Int J STD AIDS | Traitement réussi d'une néoplasie vulvaire de haut grade par imiquimod 5 % chez une transplantée rénale |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Cas clinique | Int J STD AIDS | Guérison d'une papulose bowénoïde du pénis par imiquimod 5 % |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Préclinique | Urol Oncol | Pharmacocinétique d'agonistes TLR7 chez le rat, étudiés pour une voie intravésicale |
+| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Cas clinique/autre | Hautarzt | Imagerie par OCT d'une porokératose actinique ; lésions résistantes au traitement topique |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69349666 | ZYCLARA 3,75 %, crème | Crème | VIATRIS HEALTHCARE (Irlande) |
-| 66916232 | ALDARA 5 %, crème | Crème | VIATRIS HEALTHCARE (Irlande) |
+| 69349666 | ZYCLARA 3,75 %, crème (statut : annulée) | Crème | Texte d'indication non disponible |
+| 66916232 | ALDARA 5 %, crème (statut : annulée) | Crème | Texte d'indication non disponible |
+
+---
+
+## Cytotoxicité
+
+Imiquimod est un immunomodulateur topique, et non un cytotoxique conventionnel ; cette section est donc omise.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Les mises en garde, les contre-indications et les interactions ne sont pas disponibles dans les données ANSM de ce dossier.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : réaction de photosensibilité, photosensibilité, maladie auto-immune, maladie du greffon contre l'hôte, coup de soleil.
+- **Interactions médicamenteuses** : 59 interactions recensées, toutes de niveau de gravité « inconnu ». Parmi les principales : pantoprazole, morphine, oméprazole, lansoprazole, prednisone, prednisolone, simvastatine, warfarine, clopidogrel, hydroxychloroquine, acide acétylsalicylique, ibuprofène, budésonide, fluticasone.
+- **Signaux de sécurité tirés de la littérature** : une transformation maligne d'une papillomatose orale florissante pendant un traitement par imiquimod, un lichen planopilaire et un érythème polymorphe après usage topique ont été rapportés (cas isolés). Une revue de 2024 s'interroge sur la sécurité de l'usage hors AMM dans les lésions orales.
 
-La littérature de l'Evidence Pack signale toutefois des événements indésirables à connaître :
-- Une conversion maligne d'une papillomatose orale et labiale florissante sous imiquimod topique (PMID 12719972).
-- Un érythème polymorphe (PMID 29173871) et un lichen planopilaire (PMID 24575881) après application d'imiquimod chez des patients atteints du syndrome de Gorlin.
-- Un carcinome mucineux apparu au cours d'un traitement d'une maladie de Paget extramammaire (PMID 21885944).
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles, non disponibles dans les données compilées.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Le mécanisme TLR7 est cohérent avec les lésions prémalignes, et des revues Cochrane, des revues sur les kératoses actiniques, des essais de phase 2 à 4 et des cas cliniques soutiennent l'usage topique.
-- L'unique essai de phase 3 sur la néoplasie cervicale (NCT02329171) a été arrêté à 9 participants, d'où le plafonnement au niveau L2.
+- Les données compilées classent le niveau de preuve en L1 pour le néoplasme prémalin, mais ce classement est fragile : seuls 2 essais de phase 3 existent (l'un terminé, ouvert, n = 20 ; l'autre arrêté, n = 9), et ils ne constituent pas deux essais randomisés complets et concluants. L'indication recoupe surtout la kératose actinique déjà connue. Il est donc raisonnable d'avancer avec prudence, sans conclure à un repositionnement nouveau.
+- Les deux AMM françaises sont annulées : aucune spécialité n'est actuellement commercialisée en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- **Bloquant :** récupérer et analyser la notice ANSM (mises en garde et contre-indications), sans quoi le dépistage de sécurité (S1) est impossible.
-- Confirmer le type de lésion visé (kératose actinique, VIN, AIN ou NIC), avec un dosage et un suivi propres à chaque lésion.
-- Obtenir le mécanisme d'action depuis DrugBank.
-- Évaluer la pertinence des essais encore en attente, ainsi que les 9 essais non listés ici.
+- Mécanisme d'action détaillé (DrugBank) et texte officiel des mises en garde et contre-indications (notice ANSM)
+- Définition précise du sous-type de lésion prémaligne visé (kératose actinique, néoplasies intraépithéliales anale, vulvaire ou cervicale) afin de distinguer l'indication connue de l'extension réelle
+- Essais randomisés suffisamment dimensionnés dans les néoplasies intraépithéliales non cutanées
+- Évaluation du statut réglementaire en France (spécialités annulées) et de la voie d'administration
+- Plan de surveillance de sécurité (photosensibilité, maladies auto-immunes, réactions locales)
 
-**Autres prédictions du modèle (rangs 2 à 10) :**
-- Aucune ne justifie une avancée à ce stade.
-- La muqueuse buccale est un sujet de recherche à traiter d'abord sous l'angle de la sécurité (niveau L4, signal de conversion maligne).
-- Les autres signaux (neuroblastome cervical, kyste odontogène, tumeur bénigne de la langue, tératome nasopharyngé, néoplasme kystique, néoplasme de l'oreille interne, néoplasme des glandes salivaires majeures, schwannome du foramen jugulaire) sont en attente (Hold).
-- Le signal « kyste odontogène » repose uniquement sur des données concernant le carcinome basocellulaire dans le syndrome de Gorlin.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat de repositionnement nécessite une validation clinique avant utilisation.*
+**Autres indications prédites (non retenues) :** les néoplasmes bénins de la muqueuse buccale (L4, question de recherche, aucun essai, signal de sécurité) et le kyste odontogène (L4, preuves indirectes via le syndrome de Gorlin-Goltz) relèvent de la recherche. Les autres prédictions classées (neuroblastome cervical, néoplasme bénin de la langue, tératome nasopharyngé, néoplasme kystique, néoplasme de l'oreille interne, néoplasme des glandes salivaires majeures, schwannome du foramen jugulaire) sont en niveau L5, sans preuve exploitable : Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

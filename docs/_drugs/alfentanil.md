@@ -2,7 +2,7 @@
 layout: default
 title: Alfentanil
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 22
+nav_order: 35
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,32 +29,32 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Alfentanil : D'un adjuvant anesthésique (indication d'AMM non renseignée) au syndrome néphrogénique d'antidiurèse inappropriée
+# Alfentanil : De l'analgésie opioïde au syndrome néphrogénique d'antidiurèse inappropriée
 
 ## Résumé en Une Phrase
 
-Alfentanil est un agoniste opioïde µ de courte durée d'action, utilisé en contexte d'anesthésie et de soins aigus. Les données réglementaires disponibles ne précisent pas son indication d'origine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée (NSIAD)**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
+Alfentanil est un opioïde de synthèse agoniste des récepteurs mu, commercialisé en France sous le nom de Rapifen (solution injectable). Le texte des indications approuvées n'est pas disponible dans les données compilées pour ce rapport.
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée (SNAI)**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (texte d'indication vide dans les AMM) |
-| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (NSIAD) |
+| Indication Originale | Non renseignée dans les données d'AMM disponibles |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (SNAI) |
 | Score de Prédiction TxGNN | 99,51 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes deux annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier, et DrugBank ne liste aucune indication d'origine. Alfentanil est un agoniste des récepteurs opioïdes µ, à action courte. Ses effets passent principalement par la signalisation opioïde centrale.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'alfentanil est un agoniste des récepteurs opioïdes mu, utilisé en anesthésie et en analgésie.
 
-**Cette prédiction ne repose sur aucun lien mécanistique étayé.** Le NSIAD est causé par des variants activateurs (gain de fonction) du gène *AVPR2*, qui codent le récepteur V2 de la vasopressine. Ce récepteur est activé indépendamment de l'hormone, avec une vasopressine (AVP) indétectable. L'agonisme µ-opioïde est plutôt associé à une libération d'AVP, ce qui n'a pas de pertinence quand le défaut est un récepteur constitutivement actif, en aval de l'AVP.
+**La prédiction ne repose sur aucun lien mécanistique plausible.** Le SNAI est causé par des mutations de gain de fonction du récepteur V2 de la vasopressine (AVPR2), qui entraînent une rétention d'eau malgré une vasopressine indétectable. Les opioïdes peuvent stimuler la libération de vasopressine et favoriser l'antidiurèse par des mécanismes centraux et rénaux. On s'attendrait donc plutôt à une aggravation de la rétention d'eau et de l'hyponatrémie qu'à une amélioration.
 
-Une voie thérapeutique plausible passerait par un antagonisme du récepteur V2 ou par un autre effet sur la réabsorption rénale de l'eau. Aucune action de ce type n'est documentée pour l'alfentanil. Ce médicament est par ailleurs un adjuvant anesthésique d'usage aigu, ce qui rend peu vraisemblable son emploi dans une maladie génétique chronique. Le score élevé est probablement un artefact du graphe de connaissances et ne doit pas être considéré comme une preuve.
+Le score élevé de TxGNN (99,51 %) provient uniquement d'une prédiction par graphe de connaissances. Il n'est pas étayé par un raisonnement pharmacologique, et la similarité avec l'indication originale n'a pas pu être évaluée.
 
 ## Preuves d'Essais Cliniques
 
@@ -66,32 +66,35 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | Non renseignée |
-| 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | Non renseignée |
+| 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | Annulée |
+| 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | Annulée |
 
-Les deux AMM appartiennent à PIRAMAL CRITICAL CARE (Pays-Bas).
+Le texte des indications approuvées n'est pas renseigné pour ces deux AMM. Le titulaire est Piramal Critical Care (Pays-Bas).
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie de PrimeKG, et non texte de la notice) : maladie rénale, pyo-uretère, maladie hépatique, maladie de la vésicule biliaire, trouble hypotensif, pseudotumeur cérébrale, hypertension intracrânienne.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les 20 premières :
+  - **Majeures** : aprépitant, bupropion, clarithromycine, clotrimazole, dexfenfluramine, dolasétron, fenfluramine, granisétron, lorcasérine.
+  - **Modérées** : atropine, cimétidine, clidinium, dexaméthasone, dicyclomine, dronabinol, éluxadoline, phénylbutyrate de glycérol, glycopyrronium, hyoscyamine, mazindol.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication. Le mécanisme connu de l'alfentanil (agonisme µ-opioïde) ne rejoint pas la physiopathologie du NSIAD (récepteur V2 activé de façon constitutive).
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme connu des opioïdes (stimulation de la libération de vasopressine) irait plutôt à l'encontre de l'effet recherché dans le SNAI.
+- Les AMM françaises sont toutes annulées et le profil d'interactions est chargé (100 interactions), ce qui limite la faisabilité pratique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- La notice ANSM (mises en garde et contre-indications), indispensable au criblage de sécurité initial. Cette lacune est bloquante.
-- Les données sur le mécanisme d'action, à interroger via l'API DrugBank.
-- Les indications d'origine des deux AMM, absentes du dossier.
-- Un lien mécanistique documenté avec la voie AVPR2 / réabsorption rénale de l'eau, ou des données précliniques qui le soutiennent.
-- Une évaluation de la compatibilité de la voie d'administration (statut actuellement en attente), l'alfentanil n'existant ici qu'en solution injectable.
-
-*Les résultats de ce rapport sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).
+- Les données détaillées sur le mécanisme d'action, à obtenir via DrugBank.
+- Une justification pharmacologique plausible, ou des données précliniques, démontrant un effet bénéfique dans le SNAI.
+- Une évaluation de la compatibilité des voies d'administration et de la similarité avec l'indication originale.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

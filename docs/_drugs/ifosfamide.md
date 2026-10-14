@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ifosfamide
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 147
-evidence_level: L5
+parent: Preuves élevées (L1-L2)
+nav_order: 389
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ifosfamide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,133 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ifosfamide : D'une Indication Originale Non Renseignée au Carcinome Mammaire Féminin
+# Ifosfamide : Du Traitement Anticancéreux Historique au Rhabdomyosarcome
 
 ## Résumé en Une Phrase
 
-L'ifosfamide est un agent alkylant (chimiothérapie cytotoxique) commercialisé en France sous le nom HOLOXAN. Le texte de son indication originale n'est pas renseigné dans les données de l'ANSM fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome mammaire féminin**, avec **8 essais cliniques** et **20 publications** associés. Aucun essai de phase 3 terminé ne porte toutefois directement sur le cancer du sein.
+L'ifosfamide est un agent alkylant de la famille des oxazaphosphorines (analogue du cyclophosphamide), utilisé en chimiothérapie anticancéreuse. Le modèle TxGNN prédit qu'il pourrait être efficace pour le **rhabdomyosarcome**, avec **15 essais cliniques** et **20 publications** associés à cette indication. Il s'agit toutefois d'un usage déjà établi en pratique, et non d'un repositionnement véritablement nouveau.
+
+*Remarque : la première prédiction du modèle (carcinome du sein chez la femme) est moins bien soutenue ; l'indication retenue ici est celle disposant du niveau de preuve le plus élevé parmi les dix prédictions compilées.*
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide pour les 2 AMM) |
-| Nouvelle Indication Prédite | Carcinome mammaire féminin |
-| Score de Prédiction TxGNN | 99,91 % |
-| Niveau de Preuve | L3 (voir la note ci-dessous) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision Recommandée | Hold |
+| Indication Originale | Non renseignée (le texte d'indication des AMM est vide) |
+| Nouvelle Indication Prédite | Rhabdomyosarcome |
+| Score de Prédiction TxGNN | 99,67 % |
+| Niveau de Preuve | L1 |
+| Statut de Marché en France | Retiré (AMM annulées uniquement) |
+| Nombre d'AMM | 2 (toutes annulées) |
+| Décision Recommandée | Proceed with Guardrails |
 
-**Note sur le niveau de preuve :** le dossier d'évidence attribue L1, mais les critères ne sont pas remplis : il n'y a pas 2 ECR de phase 3 terminés dans le cancer du sein. Le seul essai de phase 3 (NCT00954174) est de statut « inconnu », sans résultats, et concerne le carcinosarcome gynécologique. Les données mammaires reposent sur des études de phase 2 et des séries de patientes, d'où L3.
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base DrugBank fournie. D'après le dossier d'évidence, l'ifosfamide est un promédicament alkylant qui doit être activé par les enzymes hépatiques CYP450 (CYP3A4, CYP2B6, CYP2C9). Son métabolite actif forme des pontages sur l'ADN et provoque la mort des cellules tumorales.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. Sur la base des connaissances pharmacologiques établies, l'ifosfamide est un promédicament activé par les enzymes hépatiques du cytochrome P450 en moutarde d'isophosphoramide, qui forme des liaisons croisées dans l'ADN et induit l'apoptose des cellules tumorales en prolifération.
 
-Des travaux de la littérature soutiennent ce lien pour le sein. Les tissus tumoraux mammaires expriment ces enzymes et métabolisent l'ifosfamide (PMID 14970873). Des lésions de l'ADN ont aussi été observées dans les cellules tumorales de patientes traitées (PMID 11138456). Les études de phase 2 montrent surtout une activité dans les cancers du sein déjà traités ou résistants aux anthracyclines.
+Le rhabdomyosarcome est un sarcome des tissus mous, chimiosensible, et l'ifosfamide est un composant de longue date des schémas de traitement des sarcomes (IE, VAI, ICE). La littérature pédiatrique et adulte soutient son utilisation, en particulier dans les formes à haut risque et en rechute.
 
-Comme l'indication originale n'est pas renseignée, la relation avec la nouvelle indication ne peut pas être analysée précisément. Le score TxGNN (0,999) est une prédiction du modèle et non une preuve clinique.
+**Point d'attention :** l'ifosfamide a déjà un usage établi dans cette maladie. Les essais de phase 3 portent surtout sur les sarcomes des tissus mous en général, de sorte que les preuves spécifiques au rhabdomyosarcome sont en partie indirectes.
+
+---
 
 ## Preuves d'Essais Cliniques
 
+Sélection des essais les plus pertinents pour le rhabdomyosarcome et les sarcomes des tissus mous :
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00954174](https://clinicaltrials.gov/study/NCT00954174) | Phase 3 | Inconnu | 637 | Paclitaxel + carboplatine vs ifosfamide + paclitaxel dans le carcinosarcome de l'utérus, des trompes, du péritoine ou de l'ovaire (pas le sein). Aucun résultat fourni |
-| [NCT00026078](https://clinicaltrials.gov/study/NCT00026078) | Phase 2 | Inconnu | 42 | Docétaxel + ifosfamide en première ligne du cancer du sein métastatique. Étude à un seul bras, de petite taille |
-| [NCT00012311](https://clinicaltrials.gov/study/NCT00012311) | Phase 2 | Inconnu | N/D | Chimiothérapie à haute dose multicycle vs chimiothérapie conventionnelle optimisée dans le cancer du sein métastatique. Rôle propre de l'ifosfamide non isolable |
-| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Terminé prématurément | N/D | Topotécan, ifosfamide/mesna et étoposide à dose intensive avec autogreffe de cellules souches dans le cancer du sein métastatique |
-| [NCT00002854](https://clinicaltrials.gov/study/NCT00002854) | Phase 1 | Complété | 33 | Cycles séquentiels à haute dose (cisplatine, cyclophosphamide, étoposide, ifosfamide, carboplatine, taxol) avec autogreffe. Données de faisabilité et de sécurité |
-| [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | Phase 1/2 | Terminé prématurément | 12 | Samarium-153 avec double autogreffe de moelle dans le cancer du sein stade IV. Ifosfamide composant mineur |
-| [NCT00020722](https://clinicaltrials.gov/study/NCT00020722) | Phase 2 | Terminé prématurément | 7 | Lymphocytes T activés après autogreffe dans le cancer du sein stade IV. Ifosfamide en conditionnement de fond |
-| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | Non applicable | Inconnu | 35 | Sélection de chimiothérapie par criblage sur organoïdes dans les tumeurs solides réfractaires. L'ifosfamide n'est pas une intervention définie |
+| [NCT00025363](https://clinicaltrials.gov/study/NCT00025363) | Phase 2 | Terminé | 150 | Étude randomisée de deux schémas d'irinotécan avec vincristine dans le rhabdomyosarcome en rechute ou progression |
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Arrêté | 7 | Dasatinib avec ifosfamide, carboplatine et étoposide chez l'enfant ; faisabilité uniquement |
+| [NCT00003052](https://clinicaltrials.gov/study/NCT00003052) | Phase 3 | Terminé | 340 | Chimiothérapie néoadjuvante étoposide + ifosfamide + doxorubicine avec ou sans hyperthermie régionale dans les sarcomes des tissus mous à haut risque |
+| [NCT00003212](https://clinicaltrials.gov/study/NCT00003212) | Phase 3 | Terminé | 780 | Deux schémas d'ifosfamide contre doxorubicine standard dans le sarcome des tissus mous avancé ou métastatique |
+| [NCT00061984](https://clinicaltrials.gov/study/NCT00061984) | Phase 3 | Terminé | 455 | Doxorubicine seule contre doxorubicine + ifosfamide en première ligne dans le sarcome avancé |
+| [NCT00002641](https://clinicaltrials.gov/study/NCT00002641) | Phase 3 | Terminé | 350 | Chimiothérapie adjuvante à haute dose (doxorubicine, ifosfamide, lénograstim) dans le sarcome des tissus mous de haut grade |
+| [NCT00346164](https://clinicaltrials.gov/study/NCT00346164) | Phase 3 | Terminé | 588 | Stratégie thérapeutique selon le risque dans les sarcomes non rhabdomyosarcomes, patients de moins de 30 ans |
+| [NCT00025441](https://clinicaltrials.gov/study/NCT00025441) | Phase 2 | Terminé | Non précisé | Étude MMT 98 : chimiothérapie combinée dans le rhabdomyosarcome métastatique de l'enfant |
+| [NCT00030784](https://clinicaltrials.gov/study/NCT00030784) | Phase 1 | Terminé | 28 | Doxorubicine liposomale pégylée avec ifosfamide dans les sarcomes des tissus mous avancés ; données de tolérance |
+| [NCT06277154](https://clinicaltrials.gov/study/NCT06277154) | Phase 2 | En recrutement | 148 | MASCT-I avec doxorubicine et ifosfamide en première ligne dans le sarcome avancé |
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [11932893](https://pubmed.ncbi.nlm.nih.gov/11932893/) | 2002 | Phase 2 | Cancer | Paclitaxel en perfusion de 24 h + ifosfamide dans le cancer du sein métastatique résistant aux anthracyclines : évaluation de l'efficacité et de la tolérance |
-| [9226029](https://pubmed.ncbi.nlm.nih.gov/9226029/) | 1997 | Phase 2 | Tumori | Ifosfamide + étoposide chez des patientes déjà traitées pour un cancer du sein avancé : réponse et toxicité évaluées |
-| [8873839](https://pubmed.ncbi.nlm.nih.gov/8873839/) | 1996 | Étude clinique | J Chemother | Ifosfamide, mesna et épirubicine en deuxième ligne (16 patientes) : taux de réponse global de 50 %, durée médiane de rémission de 9,6 mois |
-| [8918497](https://pubmed.ncbi.nlm.nih.gov/8918497/) | 1996 | Étude clinique | J Clin Oncol | Ifosfamide + vinorelbine en première ligne du cancer du sein métastatique : efficacité et toxicité |
-| [10602903](https://pubmed.ncbi.nlm.nih.gov/10602903/) | 1999 | Étude clinique prospective | Cancer Chemother Pharmacol | Ifosfamide + vinorelbine après anthracyclines dans le cancer du sein métastatique, avec évaluation du schéma d'administration |
-| [2112056](https://pubmed.ncbi.nlm.nih.gov/2112056/) | 1990 | Étude clinique | Cancer Chemother Pharmacol | Ifosfamide/étoposide avec mesna chez 44 patientes atteintes d'un cancer du sein avancé réfractaire |
-| [2347057](https://pubmed.ncbi.nlm.nih.gov/2347057/) | 1990 | Étude clinique | Cancer Chemother Pharmacol | Ifosfamide à la place du cyclophosphamide dans le schéma CMF chez 25 patientes résistantes ou en rechute |
-| [39306877](https://pubmed.ncbi.nlm.nih.gov/39306877/) | 2024 | Étude clinique | Curr Probl Cancer | Expérience de la chimiothérapie à base d'ifosfamide dans le cancer du sein métaplasique, variante rare peu sensible aux anthracyclines et taxanes |
-| [7695982](https://pubmed.ncbi.nlm.nih.gov/7695982/) | 1995 | Cohorte PK | Eur J Cancer | Pharmacocinétique et métabolisme de l'ifosfamide (5 g/m² en 24 h) chez 15 patientes atteintes d'un cancer du sein |
-| [14970873](https://pubmed.ncbi.nlm.nih.gov/14970873/) | 2004 | Préclinique | Br J Cancer | Expression de CYP3A4, CYP2C9 et CYP2B6 et métabolisation de l'ifosfamide dans les microsomes de tissu tumoral mammaire |
+| [11846301](https://pubmed.ncbi.nlm.nih.gov/11846301/) | 2001 | Étude clinique | J Pediatr Hematol Oncol | Ifosfamide + étoposide supérieurs à vincristine + melphalan dans le rhabdomyosarcome métastatique pédiatrique (Intergroup Rhabdomyosarcoma Study) |
+| [9849484](https://pubmed.ncbi.nlm.nih.gov/9849484/) | 1998 | Étude clinique | Eur J Cancer | Cycles alternés VAC / étoposide-ifosfamide dans le rhabdomyosarcome à risque intermédiaire |
+| [19770626](https://pubmed.ncbi.nlm.nih.gov/19770626/) | 2010 | Revue | Am J Clin Oncol | Doxorubicine, ifosfamide et vincristine dans le rhabdomyosarcome de l'adulte |
+| [9529020](https://pubmed.ncbi.nlm.nih.gov/9529020/) | 1998 | Phase 2 | Cancer | Doxorubicine, dacarbazine, ifosfamide et mesna chez l'adulte atteint d'ostéosarcome, de sarcome d'Ewing et de rhabdomyosarcome |
+| [40056850](https://pubmed.ncbi.nlm.nih.gov/40056850/) | 2025 | Essai randomisé | ESMO Open | Réponses radiologiques sous anthracycline + ifosfamide en néoadjuvant (ISG-STS 1001) dans le sarcome des tissus mous à haut risque |
+| [31786124](https://pubmed.ncbi.nlm.nih.gov/31786124/) | 2020 | Cohorte prospective | Lancet Oncol | Stratégie fondée sur le risque dans les sarcomes non rhabdomyosarcomes (ARST0332) |
+| [30992168](https://pubmed.ncbi.nlm.nih.gov/30992168/) | 2019 | Revue | Clin Oncol | Radiothérapie du rhabdomyosarcome de l'enfant ; induction à base d'ifosfamide, vincristine et actinomycine D |
+| [40591908](https://pubmed.ncbi.nlm.nih.gov/40591908/) | 2025 | Cohorte | J Pediatr Hematol Oncol | Résultats thérapeutiques dans le rhabdomyosarcome de la tête et du cou chez l'enfant |
+| [23050743](https://pubmed.ncbi.nlm.nih.gov/23050743/) | 2012 | Revue | Paediatr Drugs | Actualités sur la prise en charge du rhabdomyosarcome de l'enfant |
+| [11745234](https://pubmed.ncbi.nlm.nih.gov/11745234/) | 2001 | Cohorte | Cancer | Toxicité de l'ifosfamide concomitant à la radiothérapie chez 43 patients atteints de sarcome |
+
+---
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61848140 | HOLOXAN 1000 mg (BAXTER) | Poudre pour solution injectable | Non renseignée |
-| 69622218 | HOLOXAN 2000 mg (BAXTER) | Poudre pour usage parentéral | Non renseignée |
+| 61848140 | HOLOXAN 1000 mg (BAXTER) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+| 69622218 | HOLOXAN 2000 mg (BAXTER) | Poudre pour usage parentéral | Non renseignée (AMM annulée) |
+
+---
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, promédicament) |
-| Risque de Myélosuppression | Élevé (myélosuppression signalée dans le dossier, aussi liée aux syndromes myélodysplasiques secondaires) |
-| Classification d'Émétogénicité | Moyenne à élevée selon la dose (estimation d'après la classe, à confirmer avec la notice) |
-| Éléments de Surveillance | NFS avec différentielle, fonction rénale, fonction hépatique, analyse d'urine (hématurie), état neurologique |
-| Protection de Manipulation | Suivre les réglementations de manipulation des médicaments cytotoxiques |
+| Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, oxazaphosphorine) |
+| Risque de Myélosuppression | Élevé (leucopénie, thrombopénie et anémie figurent parmi les contre-indications du graphe de connaissances) |
+| Classification d'Émétogénicité | Moyenne à élevée selon la dose (classification générale de la classe, non issue des données compilées) |
+| Éléments de Surveillance | NFS, fonction rénale (tubulopathie, syndrome de Fanconi), fonction hépatique, électrolytes (notamment potassium), analyse d'urine |
+| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques ; uroprotection par mesna |
 
-Ces éléments sont déduits de la classe du médicament et du dossier d'évidence, car DrugBank ne fournit pas de données de toxicité détaillées ici. Veuillez consulter les mises en garde et précautions de la notice.
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Le dossier ne contient ni mises en garde, ni contre-indications, ni interactions médicamenteuses exploitables.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour ces informations.
 
-À titre indicatif, le dossier d'évidence signale ces risques connus de l'ifosfamide :
-- néphrotoxicité ;
-- neurotoxicité, dont un cas d'encéphalopathie (PMID 41818182) ;
-- cystite hémorragique, prévenue par le mesna ;
-- myélosuppression ;
-- syndromes myélodysplastiques et leucémies secondaires.
+- **Contre-indications issues du graphe de connaissances** (associations médicament-maladie, et non texte de notice) : maladie rénale, maladie hépatique, maladie de la vésicule biliaire, thrombopénie, leucopénie, anémie (dont macrocytaire), carence en potassium, hyperbilirubinémie (dont héréditaire et syndrome de Gilbert), acidose tubulaire rénale, syndrome de Fanconi, pyouretère.
+- **Interactions médicamenteuses** : 100 interactions recensées, de niveau principalement modéré. Exemples : amphotéricine B (y compris complexe lipidique), bupropion, aprépitant, morphine, métoclopramide, scopolamine, dronabinol, nabilone, kanamycine, néomycine, ainsi que plusieurs antidiabétiques (chlorpropamide, glimépiride, glipizide, glibenclamide, répaglinide, natéglinide, tolazamide, acétohexamide). Lévofloxacine : interaction mineure.
+- **Risques propres à la littérature compilée** : cancers secondaires, dont syndromes myélodysplasiques et leucémies thérapie-induites, et toxicités rénale et neurologique.
+
+---
+
+## Autres Prédictions Examinées
+
+| Maladie prédite | Score TxGNN | Niveau de preuve | Recommandation | Commentaire |
+|------|------|------|------|------|
+| Carcinome mammaire féminin | 99,91 % | L2 | Question de recherche | Petits essais de phase 1/2, souvent combinés ; intérêt possible dans le cancer métaplasique et les tumeurs phyllodes |
+| Rhabdomyosarcome botryoïde embryonnaire du vagin | 99,57 % | L4 | Question de recherche | Extrapolation à partir du rhabdomyosarcome ; un seul rapport de cas |
+| Syndrome myélodysplasique (et formes apparentées) | 99,66 % à 99,71 % | L4-L5 | Hold | Signal de toxicité (cancer secondaire), non un effet thérapeutique |
+| Cytopénie réfractaire de l'enfant, anémies, leucémie monocytaire | 99,63 % à 99,70 % | L4-L5 | Hold | Association probablement artéfactuelle ; l'ifosfamide est myélosuppresseur |
+| Délétion partielle du bras long du chromosome 5 | 99,70 % | L5 | Hold | Anomalie cytogénétique, non une entité thérapeutique |
+
+---
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Hold**
+**Décision : Proceed with Guardrails**
 
 **Justification :**
-- Pour le cancer du sein, les preuves se limitent à des études de phase 2 anciennes et de petite taille, surtout chez des patientes en maladie avancée ou prétraitées. Le seul essai de phase 3 est de statut inconnu, sans résultats, et ne concerne pas le sein.
-- Les données de sécurité de l'ANSM manquent (lacune bloquante), ce qui empêche un criblage de sécurité.
+- Plusieurs essais randomisés de phase 3 (sarcomes des tissus mous) et des études pédiatriques de l'Intergroup Rhabdomyosarcoma Study soutiennent l'activité de l'ifosfamide dans le rhabdomyosarcome. L'usage étant déjà établi, il ne s'agit pas d'un repositionnement nouveau, et les preuves spécifiques sont en partie indirectes.
+- Toutes les AMM françaises sont annulées et les données de notice sont absentes ; la sécurité ne peut donc pas être validée à ce stade.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indications approuvées).
-- Récupérer les données de mécanisme d'action via DrugBank.
-- Obtenir des données comparatives ou des essais randomisés dans le cancer du sein, y compris les variantes rares comme le cancer métaplasique.
-- Définir un plan de surveillance de sécurité (rein, système nerveux, vessie, moelle osseuse).
-
-À noter : parmi les autres indications prédites, seul le **rhabdomyosarcome** est bien étayé (niveau L1, Proceed with Guardrails). L'ifosfamide y fait déjà partie des schémas standards, ce qui relève de la confirmation plutôt que d'un repositionnement nouveau. Les autres prédictions (syndromes myélodysplasiques, anémies, leucémie monocytaire) reposent sur le modèle seul ou vont à l'encontre du profil de toxicité du médicament, et restent en Hold.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Récupérer les mises en garde et contre-indications de la notice (ANSM), qui constituent une lacune bloquante
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Clarifier la situation réglementaire en France (AMM annulées, produits de substitution éventuels) et les voies d'administration disponibles
+- Confirmer les preuves spécifiques au rhabdomyosarcome (essais ou séries dédiés)
+- Mettre en place un plan de surveillance : uroprotection par mesna, toxicités rénale, neurologique et hématologique, et risque de cancer secondaire (SMD/LAM)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

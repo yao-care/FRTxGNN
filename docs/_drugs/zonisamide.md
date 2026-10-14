@@ -2,7 +2,7 @@
 layout: default
 title: Zonisamide
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 341
+nav_order: 832
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,104 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Zonisamide : De l'Épilepsie au Syndrome de Gilles de la Tourette
+# Zonisamide : De l'épilepsie au syndrome de Gilles de la Tourette (prédiction principale du modèle)
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Le zonisamide est un médicament antiépileptique. La littérature le décrit comme traitement adjuvant des crises partielles, mais le texte d'indication des AMM françaises est vide dans les données reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Gilles de la Tourette**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+Zonisamide est un antiépileptique de la famille des sulfonamides. Le modèle TxGNN le prédit comme potentiellement efficace dans le **syndrome de Gilles de la Tourette** (score de 99,85 %), mais aucun essai clinique ni aucune publication ne soutient cette prédiction. Parmi les dix indications prédites, la mieux étayée est l'**épilepsie-absence** (niveau L3), avec 20 publications issues des données compilées pour ce rapport, principalement des séries de cas et des revues.
 
 ---
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM (texte d'indication vide) ; décrit comme antiépileptique dans la littérature |
-| Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette |
-| Score de Prédiction TxGNN | 99,85 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
-| Décision Recommandée | Hold |
+| Indication originale | Non renseignée dans les données d'AMM disponibles (les textes d'indication sont vides) |
+| Nouvelle indication prédite | Syndrome de Gilles de la Tourette (rang 1) |
+| Score de prédiction TxGNN | 99,85 % |
+| Niveau de preuve | L5 (prédiction du modèle uniquement) |
+| Statut de marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Nombre d'AMM | 20 (toutes annulées) |
+| Décision recommandée | Hold |
 
 ---
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le zonisamide bloque les canaux sodiques et les canaux calciques de type T, et pourrait moduler les systèmes GABA et glutamate.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, zonisamide agit en bloquant les canaux sodiques voltage-dépendants et les canaux calciques de type T, avec aussi des effets sur les systèmes dopaminergique et sérotoninergique. Il s'agit d'une hypothèse mécanistique plausible, mais spéculative pour le syndrome de Gilles de la Tourette.
 
-Le lien avec les circuits impliqués dans les tics reste **spéculatif**. La prédiction repose uniquement sur le modèle (score élevé, mais rang 1615 seulement). Aucune donnée expérimentale ou clinique ne la confirme.
+Aucune donnée clinique ne confirme cette piste. Une revue (PMID 36005856) décrit au contraire des troubles obsessionnels compulsifs et des tics **induits** par les médicaments antiépileptiques. Elle constitue donc un signal de sécurité potentiel plutôt qu'un argument d'efficacité.
 
-Une revue pragmatique (PMID 36005856) rapporte que des médicaments antiépileptiques peuvent induire des troubles obsessionnels-compulsifs et des tics. Pour cette indication, il s'agit donc plutôt d'un **signal de sécurité possible** que d'un argument en faveur de l'efficacité.
-
----
-
-## Preuves d'Essais Cliniques
-
-Aucun essai clinique associé enregistré actuellement.
+Les autres prédictions à score élevé (méthémoglobinémie, déficit en méthémoglobine réductase, conjonctivite, trichotillomanie) n'ont ni données ni mécanisme plausible. Plusieurs sont probablement des artefacts du graphe de connaissances. Les indications dotées de données exploitables sont l'épilepsie-absence, le trouble bipolaire maniaque et la fibromyalgie, détaillées ci-dessous.
 
 ---
 
-## Preuves de la Littérature
+## Preuves d'essais cliniques
 
-Aucune littérature associée disponible actuellement.
+Aucun essai clinique associé n'est enregistré pour le syndrome de Gilles de la Tourette.
 
----
+À titre d'information, un seul essai a été retrouvé parmi les indications prédites, pour la fibromyalgie :
 
-## Informations de Marché en France
-
-Cinq des 20 AMM sont présentées ci-dessous. Le texte de l'indication approuvée est vide dans les données reçues.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|------|
-| 64122807 | ZONEGRAN 100 mg, gélule | Gélule | AMDIPHARM |
-| 63127527 | ZONISAMIDE SANDOZ 25 mg, gélule | Gélule | SANDOZ |
-| 62540779 | ZONISAMIDE TEVA 25 mg, gélule | Gélule | TEVA SANTE |
-| 61247321 | ZONISAMIDE ARROW 50 mg, gélule | Gélule | ARROW GENERIQUES |
-| 69552780 | ZONISAMIDE NEURAXPHARM 200 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE |
+| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
+|---------|------|------|------|---------|
+| [NCT00259636](https://clinicaltrials.gov/study/NCT00259636) | Phase 4 | Retiré | 0 | Zonisamide versus placebo dans la fibromyalgie et la migraine. Essai retiré sans aucun participant : il ne fournit aucune donnée d'efficacité ni de sécurité. |
 
 ---
 
-## Considérations de Sécurité
+## Preuves de la littérature
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données.
+Aucune littérature associée n'est disponible pour le syndrome de Gilles de la Tourette. Les publications les plus pertinentes retrouvées pour les autres indications prédites sont :
 
-Seul signal disponible : une revue (PMID 36005856) décrit des TOC et des tics induits par des antiépileptiques, ce qui appelle à la prudence pour une indication de type tics.
+| PMID | Année | Type | Revue | Résultats principaux |
+|------|-----|------|------|---------|
+| [15847848](https://pubmed.ncbi.nlm.nih.gov/15847848/) | 2005 | Série de cas (absences) | Epilepsy Res | Sur 45 patients de moins de 18 ans, 23 (51,1 %) n'ont plus eu d'absences sous zonisamide |
+| [24907183](https://pubmed.ncbi.nlm.nih.gov/24907183/) | 2014 | Série de cas | Epilepsy Res | Zonisamide dans l'épilepsie-absence juvénile pharmaco-résistante |
+| [15634623](https://pubmed.ncbi.nlm.nih.gov/15634623/) | 2004 | Étude rétrospective | Epileptic Disord | Efficacité et tolérance dans l'épilepsie myoclonique juvénile (15 patients) |
+| [35363878](https://pubmed.ncbi.nlm.nih.gov/35363878/) | 2022 | Méta-analyse en réseau | Cochrane Database Syst Rev | Monothérapie antiépileptique, données générales sur l'épilepsie |
+| [17163811](https://pubmed.ncbi.nlm.nih.gov/17163811/) | 2007 | Étude ouverte pilote | Expert Opin Pharmacother | Zonisamide dans la dépression bipolaire, sans bascule maniaque observée |
+| [2109869](https://pubmed.ncbi.nlm.nih.gov/2109869/) | 1990 | Rapport de cas | Psychosomatics | Épisode de manie induit par zonisamide (signal de sécurité) |
+| [36005856](https://pubmed.ncbi.nlm.nih.gov/36005856/) | 2022 | Revue | Expert Rev Neurother | TOC et tics induits par les antiépileptiques |
+| [22575611](https://pubmed.ncbi.nlm.nih.gov/22575611/) | 2013 | Revue systématique | Int J Neuropsychopharmacol | Anticonvulsivants dans la dépression bipolaire aiguë |
 
 ---
 
-## Conclusion et Prochaines Étapes
+## Informations de marché en France
+
+Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont :
+
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
+|---------|------|------|-----------|
+| 64122807 | ZONEGRAN 100 mg (AMDIPHARM) | Gélule | Non renseignée |
+| 63127527 | ZONISAMIDE SANDOZ 25 mg | Gélule | Non renseignée |
+| 62540779 | ZONISAMIDE TEVA 25 mg | Gélule | Non renseignée |
+| 61247321 | ZONISAMIDE ARROW 50 mg | Gélule | Non renseignée |
+| 69552780 | ZONISAMIDE NEURAXPHARM 200 mg | Comprimé sécable | Non renseignée |
+
+---
+
+## Considérations de sécurité
+
+- **Contre-indications issues du graphe de connaissances** (liens médicament-maladie du graphe, et non texte de notice) : troubles anxieux et névrotiques, troubles psychotiques et schizo-affectifs, maladie rénale, lithiase rénale, maladie hépatique, maladie de la vésicule biliaire, acidose métabolique, agranulocytose et diverses neutropénies, maladies diarrhéiques.
+- **Interactions médicamenteuses** : 100 interactions recensées. Les interactions **majeures** concernent surtout des anticholinergiques (atropine, scopolamine, hyoscyamine, glycopyrronium, dicyclomine, clidinium, trospium, méthscopolamine, mépenzolate, propanthéline) et la metformine. Les interactions **modérées** concernent notamment l'aprépitant, la morphine, la dexaméthasone, la cimétidine, la clarithromycine, le dronabinol, la nabilone, le métoclopramide et le miconazole.
+- **Signaux psychiatriques** : cas de manie induite (PMID 2109869) et tics ou TOC induits par les antiépileptiques (PMID 36005856), ce qui pèse directement contre un usage dans le syndrome de Gilles de la Tourette ou le trouble bipolaire maniaque.
+
+Veuillez consulter la notice pour les mises en garde officielles, qui ne sont pas disponibles dans les données compilées.
+
+---
+
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le seul élément de littérature pertinent évoque un risque plutôt qu'un bénéfice.
-- Les données de sécurité de la notice ANSM manquent (lacune bloquante), ce qui empêche toute évaluation de sécurité.
+- La prédiction principale (syndrome de Gilles de la Tourette) repose uniquement sur le modèle (L5), sans essai ni publication, et la littérature disponible évoque plutôt un risque de tics induits. Toutes les AMM françaises sont annulées. Aucune donnée de sécurité issue de la notice n'est disponible.
+- L'épilepsie-absence (L3) reste une question de recherche, car des traitements de première intention (éthosuximide, valproate) sont mieux documentés.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde et contre-indications).
-- Obtenir les données sur le mécanisme d'action via DrugBank.
-- Faire une recherche bibliographique ciblée sur le zonisamide dans les tics et le syndrome de Gilles de la Tourette.
-- Pour information, d'autres candidats de ce dossier disposent de davantage de preuves : l'**épilepsie-absence** (niveau L3, séries de cas publiées et mécanisme plausible via les canaux calciques de type T) et la **manie bipolaire** (niveau L2, un essai randomisé contre placebo publié). Ils méritent d'être examinés en priorité.
+- Récupérer les mises en garde et contre-indications officielles de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Clarifier les raisons de l'annulation des AMM et le statut réglementaire actuel du produit.
+- Pour toute indication retenue, rechercher des essais contrôlés randomisés ou des études observationnelles de qualité, avec évaluation du risque de tics, de manie et de symptômes obsessionnels.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

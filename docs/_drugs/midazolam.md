@@ -2,7 +2,7 @@
 layout: default
 title: Midazolam
 parent: Preuves modérées (L3-L4)
-nav_order: 193
+nav_order: 499
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,111 +29,90 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Midazolam : Des Indications Non Renseignées à l'Insomnie
+# Midazolam : De l'Anxiété à l'Insomnie
 
 ## Résumé en Une Phrase
 
-Le midazolam est une benzodiazépine à courte durée d'action, commercialisée en France sous forme injectable et buvable. Les données fournies ne précisent pas son indication d'origine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**. Aucun des **32 essais cliniques** associés ne teste le midazolam comme traitement de l'insomnie, et **12 publications** sont référencées, dont 5 études cliniques anciennes (1981-1990) sur les troubles du sommeil.
-
----
+Midazolam est une benzodiazépine à action courte, initialement utilisée pour le traitement de l'anxiété.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**,
+avec **2 essais cliniques** (tous deux indirects) et **10 publications** (dont 2 essais randomisés anciens sur l'insomnie chronique) soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Anxiété (selon le graphe de connaissances TxGNN ; le texte des indications des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Insomnie |
 | Score de Prédiction TxGNN | 99,74 % |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 8 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 8 (toutes annulées) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. Sur la base des connaissances pharmacologiques générales, le midazolam appartient à la classe des benzodiazépines. Il agit comme modulateur allostérique positif des récepteurs GABA-A, ce qui produit un effet sédatif et hypnotique. Cette action est mécanistiquement compatible avec le traitement de l'insomnie et la même que celle d'autres hypnotiques benzodiazépiniques, comme le flurazépam.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, le midazolam fait partie de la classe des benzodiazépines. Il module positivement les récepteurs GABA-A, ce qui produit des effets sédatifs, anxiolytiques et hypnotiques.
 
-Le score TxGNN très élevé (0,997) reflète probablement ce lien de classe, ainsi qu'un usage hypnotique du midazolam oral déjà existant dans certains pays. Il ne doit donc **pas** être lu comme un signal de repositionnement inédit.
+L'anxiété et l'insomnie partagent une composante d'hyperéveil du système nerveux central. Un médicament qui renforce la neurotransmission inhibitrice GABAergique peut donc agir sur les deux. Ce mécanisme est commun à des hypnotiques benzodiazépiniques déjà utilisés, comme le flurazépam. Le score élevé du modèle (0,997) est cohérent avec cette pharmacologie.
 
-Des études des années 1980 suggèrent un usage clinique direct dans l'insomnie. Leur conception et leur phase ne sont toutefois pas confirmées par les données récupérées. Les risques de la classe (tolérance, dépendance, altération diurne le lendemain, dépression respiratoire, délirium chez les patients vulnérables) et la demi-vie courte limitent l'intérêt d'un repositionnement.
-
----
+Le midazolam par voie orale a d'ailleurs été étudié et utilisé comme hypnotique dans plusieurs pays. Sa demi-vie courte pourrait faciliter l'endormissement, mais serait moins favorable au maintien du sommeil. Il comporte aussi des risques de tolérance, de dépendance, d'insomnie de rebond et d'altération des capacités le lendemain.
 
 ## Preuves d'Essais Cliniques
 
-Sur 32 essais enregistrés, aucun ne teste le midazolam comme traitement de l'insomnie. Le sommeil n'apparaît que comme critère secondaire dans des contextes de sédation périopératoire ou de réanimation. Voici les 10 essais les plus pertinents :
+Les deux essais enregistrés n'évaluent pas le midazolam comme traitement de l'insomnie. Ils fournissent seulement des preuves indirectes.
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Terminé | 111 | Qualité du sommeil postopératoire après sédation par dexmédétomidine ou midazolam (résection transurétrale de la prostate). Contexte périopératoire, pas d'insomnie chronique |
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | Non applicable | En recrutement | 280 | Midazolam oral préopératoire et douleur postopératoire chez des patients avec troubles du sommeil ou anxiété (chirurgie colorectale) |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | Non applicable | Terminé prématurément | 5 | Dexmédétomidine vs midazolam : sommeil mesuré par polysomnographie de 24 h chez des patients ventilés en réanimation |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminé prématurément | 6 | Polysomnographie chez des patients ventilés sédatés par agonistes α2 ou agonistes GABA |
-| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | Inconnu | 120 | Dexmédétomidine vs midazolam pour la sédation d'enfants ventilés en réanimation. Le midazolam est le comparateur, le critère n'est pas l'insomnie |
-| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | Pas encore en recrutement | 195 | Mélatonine vs midazolam oral en prémédication chez l'enfant (amygdalectomie) |
-| [NCT06480500](https://clinicaltrials.gov/study/NCT06480500) | Phase 2 | En recrutement | 110 | Kétamine et TCC par internet dans la dépression résistante. Le midazolam sert de contrôle actif |
-| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | Non applicable | Terminé | 23 | Dexmédétomidine vs midazolam pour faciliter l'extubation en réanimation |
-| [NCT04879771](https://clinicaltrials.gov/study/NCT04879771) | Non applicable | Inconnu | 100 | Endoscopie digestive sans douleur le matin ou l'après-midi : effet sur la qualité du sommeil postopératoire |
-| [NCT06498869](https://clinicaltrials.gov/study/NCT06498869) | Non applicable | Terminé | 178 | Effet de la kétamine sur la qualité du sommeil après coloscopie. Le midazolam fait partie du protocole de sédation |
-
----
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Terminé | 111 | Qualité du sommeil postopératoire après sédation par dexmédétomidine ou midazolam lors d'une résection transurétrale de la prostate. Le midazolam sert de comparateur, population chirurgicale : preuve indirecte. |
+| [NCT00886314](https://clinicaltrials.gov/study/NCT00886314) | Non applicable | Inconnu | 80 | Clowns médicaux versus prémédication sédative (midazolam) pour réduire l'anxiété préopératoire chez l'enfant. Critère d'évaluation : l'anxiété, pas l'insomnie : non pertinent pour l'indication. |
 
 ## Preuves de la Littérature
 
+Les publications directement pertinentes sont anciennes (1981-1990). Les autres publications du corpus sont des revues générales, des études indirectes ou des cas sans lien direct avec le midazolam dans l'insomnie, et ne sont pas retenues ici.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Étude clinique en double aveugle | Br J Clin Pharmacol | Midazolam 15 mg vs Vesparax chez 30 femmes avec insomnie secondaire à une maladie neuromusculaire. Les deux produits sont des hypnotiques efficaces, le midazolam est mieux toléré |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | Étude clinique (protocole randomisé, double aveugle) | J Clin Psychopharmacol | Midazolam vs flurazépam pendant 14 jours chez des insomniaques chroniques : sommeil, performances et humeur |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | Étude clinique multicentrique (résumé exécutif) | J Clin Psychopharmacol | Résumé de l'étude multicentrique midazolam vs flurazépam chez des insomniaques chroniques (pas de résumé détaillé disponible) |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Étude pilote multicentrique | Arzneimittel-Forschung | Recherche de dose du midazolam oral (10 à 30 mg) chez 75 patients hospitalisés avec insomnie légère à modérée |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revue | Acta Psychiatr Scand Suppl | Usage clinique des hypnotiques et besoin d'une variété de benzodiazépines aux profils pharmacocinétiques différents |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Étude pilote | J Clin Med | Lemborexant pour l'insomnie et la prévention du délirium après endoscopie sous sédation profonde. Le midazolam n'est pas le médicament testé |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Revue | Orv Hetil | Insomnie et hypoperfusion cérébrale. Aucune donnée sur le midazolam |
-
----
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | ECR multicentrique | J Clin Psychopharmacol | Étude randomisée en double aveugle sur 14 jours comparant flurazépam et midazolam chez des insomniaques chroniques : sommeil, performance et taux plasmatiques. |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | ECR multicentrique | J Clin Psychopharmacol | Synthèse de la même étude multicentrique (flurazépam vs midazolam, insomnie chronique). Pas de résumé disponible. |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Étude d'efficacité et de sécurité | Br J Clin Pharmacol | Étude en double aveugle (30 patientes) : midazolam 15 mg versus Vesparax dans l'insomnie secondaire à une maladie neuromusculaire. Les deux sont des hypnotiques efficaces ; le midazolam est mieux toléré, sans effet de gueule de bois contrairement au Vesparax. |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Étude de recherche de dose | Arzneimittel-Forschung | Étude pilote multicentrique (75 patients hospitalisés) du midazolam oral de 10 à 30 mg dans l'insomnie légère à modérée. |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revue | Acta Psychiatr Scand Suppl | Revue sur l'usage clinique des hypnotiques benzodiazépiniques et l'intérêt de disposer de profils variés. |
 
 ## Informations de Marché en France
 
-Le midazolam compte 8 AMM. Voici les 5 principales. Le texte des indications approuvées n'est pas renseigné dans les données.
+Les 8 AMM sont annulées. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 63020895 | MIDAZOLAM AGUETTANT 5 mg/ml, solution injectable | Solution injectable pour perfusion ou |
-| 60703989 | MIDAZOLAM KALCEKS 1 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion |
-| 66231933 | MIDAZOLAM AGUETTANT 1 mg/ml, solution injectable | Solution injectable pour perfusion ou |
-| 63680638 | MIDAZOLAM PANPHARMA 1 mg/ml, solution injectable | Solution injectable |
-| 63736019 | MIDAZOLAM VIATRIS 5 mg/ml, solution injectable ou rectale | Solution injectable pour perfusion ou |
-
-Une forme en solution buvable existe également dans l'ensemble des AMM.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 63020895 | MIDAZOLAM AGUETTANT 5 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM annulée) |
+| 60703989 | MIDAZOLAM KALCEKS 1 mg/mL | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
+| 66231933 | MIDAZOLAM AGUETTANT 1 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM annulée) |
+| 63680638 | MIDAZOLAM PANPHARMA 1 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
+| 63736019 | MIDAZOLAM VIATRIS 5 mg/ml | Solution injectable pour perfusion ou rectale | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
-
-À titre indicatif, les risques connus de la classe des benzodiazépines, à prendre en compte pour un usage hypnotique, sont la tolérance, la dépendance, l'altération diurne le lendemain, la dépression respiratoire et le délirium chez les patients vulnérables.
-
----
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : bronchopneumopathie chronique obstructive (dont forme sévère à début précoce), cirrhose du foie, glaucome à angle fermé, insuffisance rénale chronique (dont stade terminal).
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales :
+  - Modérées : ranitidine, bupropion, aprépitant, morphine, oméprazole, cimétidine, clarithromycine, dronabinol, éluxadoline, tédaglutide, nabilone, métoclopramide, miconazole, clotrimazole, phénylbutyrate de glycérol.
+  - Mineures : dexaméthasone, bétaméthasone, oxyde de magnésium, hydroxyde d'aluminium, carbonate de calcium.
+  - Une attention particulière est nécessaire pour les inhibiteurs du CYP3A4 (clarithromycine, azolés) et pour les dépresseurs du système nerveux central (morphine).
+- Les mises en garde et contre-indications de la notice officielle de l'ANSM n'ont pas pu être exploitées. Veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le lien pharmacologique avec l'insomnie est plausible (classe des benzodiazépines hypnotiques) et des études cliniques anciennes existent. Aucun essai contemporain ne teste le midazolam dans l'insomnie, et le score TxGNN élevé reflète surtout un effet de classe.
-- La notice ANSM (mises en garde et contre-indications) est absente. Cette lacune est bloquante pour le criblage de sécurité (étape S1).
+- Le mécanisme est plausible et le score du modèle est très élevé. Cependant, les preuves directes sont anciennes (1981-1990), et les essais cliniques enregistrés sont indirects.
+- Toutes les AMM françaises sont annulées. Les données de sécurité de la notice sont absentes, ce qui bloque le dépistage de sécurité. Le profil de risque de la classe (dépendance, tolérance, insomnie de rebond, altération diurne) et les nombreuses interactions limitent l'intérêt pratique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions).
-- Obtenir les données de mécanisme d'action et d'indications d'origine (DrugBank).
-- Confirmer la conception, la phase et les résultats des études de 1981-1990 sur le midazolam dans l'insomnie.
-- Comparer le rapport bénéfice-risque du midazolam avec celui des hypnotiques actuels, compte tenu de la demi-vie courte et des risques de la classe.
-- Évaluer la compatibilité des voies d'administration disponibles en France (surtout injectable) avec un usage dans l'insomnie.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
+- Compléter les données sur le mécanisme d'action via DrugBank.
+- Comparer le midazolam aux hypnotiques actuellement disponibles, au regard de la balance bénéfice-risque.
+- Vérifier la compatibilité des voies d'administration avec l'usage hypnotique, les AMM annulées étant essentiellement injectables.
+- Évaluer, avec les données récentes, la pertinence d'un nouveau dossier réglementaire, compte tenu du statut « uniquement annulé ».
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

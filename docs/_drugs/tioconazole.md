@@ -2,7 +2,7 @@
 layout: default
 title: Tioconazole
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 312
+nav_order: 764
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,89 +29,85 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Tioconazole : d'un antifongique local établi à la vulvovaginite
+# Tioconazole : De la candidose vulvovaginale à la vulvovaginite
 
 ## Résumé en Une Phrase
 
-Tioconazole est un antifongique imidazolé à usage local (ovule vaginal et crème dermatologique), commercialisé en France. L'indication originale n'est pas renseignée dans les données ANSM ni DrugBank. La littérature le décrit toutefois comme traitement des mycoses superficielles.
-Le modèle TxGNN prédit qu'il pourrait être efficace dans la **vulvovaginite**. Cette prédiction repose sur **2 essais cliniques** indirects (autres azolés que le tioconazole) et **20 publications**, dont plusieurs études cliniques anciennes sur le tioconazole lui-même.
-Il s'agit en pratique d'un usage déjà établi plutôt que d'un vrai repositionnement.
+Le tioconazole est un antifongique imidazolé à usage topique, initialement utilisé pour le traitement de la candidose vulvovaginale.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vulvovaginite**, mais cette indication est très proche de l'indication d'origine : il s'agit davantage d'un usage dans le cadre de l'indication connue que d'un véritable repositionnement.
+Aucun essai clinique n'est enregistré ; **20 publications** sont associées à cette prédiction, dont quelques essais comparatifs anciens (années 1980).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Candidose vulvovaginale (source : graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Vulvovaginite |
 | Score de Prédiction TxGNN | 99,23 % |
-| Niveau de Preuve | L3 (voir la remarque ci-dessous) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision Recommandée | Proceed with Guardrails |
-
-> **Remarque sur le niveau de preuve :** le fichier source indique L1. Or le critère L1 exige au moins 2 essais de Phase 3 complets portant sur le médicament. Le seul essai de Phase 3 recensé teste la fenticonazole associée à la tinidazole, et non le tioconazole. Les études du tioconazole (années 1980) n'ont pas de phase renseignée. J'ai donc retenu L3, plus prudent.
+| Niveau de Preuve | L2 (selon l'évaluation compilée ; essais anciens, majoritairement ouverts) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes deux annulées) |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données DrugBank sur le mécanisme d'action ne sont pas disponibles. L'analyse de la prédiction indique que le tioconazole est un antifongique imidazolé. Il inhibe la lanostérol 14-alpha-déméthylase fongique (CYP51), ce qui bloque la synthèse de l'ergostérol et fragilise la membrane du champignon.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche du médicament. D'après les données pharmacologiques compilées, le tioconazole est un antifongique azolé : il inhibe la lanostérol 14-α-déméthylase fongique (CYP51/ERG11), enzyme qui transforme le lanostérol en ergostérol, composant essentiel de la membrane du champignon. Sans ergostérol, le champignon ne survit pas. Le tioconazole inhibe aussi une enzyme humaine, le CYP8B1, impliquée dans la synthèse des acides biliaires.
 
-Ce mécanisme correspond bien aux vulvovaginites d'origine fongique, en particulier à *Candida*. La revue de Clissold et Heel (Drugs, 1986) rapporte aussi une activité *in vitro* sur les dermatophytes, les levures et certains trichomonas. Plusieurs études cliniques du tioconazole portent directement sur la candidose vaginale : un essai en double aveugle contre placebo (PMID 6347833), et des comparaisons avec le clotrimazole et l'éconazole.
+La candidose vulvovaginale est une forme de vulvovaginite d'origine fongique. La prédiction est donc cohérente : l'efficacité est attendue dans les vulvovaginites fongiques, mais pas dans les formes bactériennes, à trichomonas ou non infectieuses.
 
-Cette prédiction ne vaut que pour les vulvovaginites infectieuses à levures. Elle ne couvre pas les formes non infectieuses, comme la vaginite atrophique post-ménopausique (une autre prédiction du modèle, sans essai ni publication, dont le mécanisme n'a pas de lien avec un antifongique).
+Deux autres prédictions de moindre rang sont à noter :
+- **Vulvite** (score 99,20 %, niveau L3) : plausible uniquement pour les formes associées à une infection à *Candida*. La littérature porte sur la candidose vaginale, pas sur la vulvite en tant qu'entité distincte ; les preuves sont donc indirectes.
+- **Vaginite atrophique post-ménopausique** (score 99,19 %, niveau L5) : cette pathologie découle d'une carence œstrogénique, sans lien mécanistique clair avec un antifongique. Le score élevé semble refléter la proximité dans le réseau avec d'autres vaginites plutôt qu'un vrai mécanisme thérapeutique.
 
 ## Preuves d'Essais Cliniques
 
-Aucun de ces essais ne teste le tioconazole. Ils apportent seulement un appui au niveau de la classe des azolés et du cadre des critères d'évaluation.
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT06056947](https://clinicaltrials.gov/study/NCT06056947) | Phase 3 | Terminé | 577 | Fenticonazole + tinidazole + lidocaïne comparés à l'ovule Gynomax® XL dans la vaginose bactérienne, la vulvovaginite à *Candida*, la vaginite à trichomonas et les infections mixtes (essai randomisé, 3 bras) |
-| [NCT03839875](https://clinicaltrials.gov/study/NCT03839875) | Phase 4 | Terminé | 116 | Ovule Gynomax® XL dans les mêmes infections vaginales (étude ouverte, bras unique, sans comparateur) |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Les résumés de plusieurs publications anciennes sont absents de la base. Dans ce cas, le tableau reprend le sujet indiqué par le titre.
+Sélection des publications les plus pertinentes (priorité aux essais randomisés) :
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | ECR (double aveugle, contre placebo) | Gynakol Rundsch | Efficacité, tolérance et absorption systémique du tioconazole comparé au placebo dans la candidose vaginale (résumé non disponible) |
-| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | Essai comparatif randomisé | Antimicrob Agents Chemother | 80 patientes : tioconazole 6,5 % en dose unique vs clotrimazole 3 jours. Patientes asymptomatiques à 4 semaines : 84 % (tioconazole) vs 85 % (clotrimazole) |
-| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | Essai randomisé ouvert | J Int Med Res | 40 patientes : tioconazole local 6 % en dose unique vs kétoconazole oral 5 jours. Éradication dans les deux groupes à 5 semaines, avec une réponse des symptômes plus rapide sous traitement local |
-| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | Essai comparatif ouvert | Gynakol Rundsch | Tioconazole vs éconazole en traitement de 3 jours de la candidose vaginale (résumé non disponible) |
-| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | Essai comparatif ouvert | Gynakol Rundsch | Crème de tioconazole vs ovules d'éconazole en traitement de 3 jours (résumé non disponible) |
-| [3984688](https://pubmed.ncbi.nlm.nih.gov/3984688/) | 1985 | Étude clinique | Acta Obstet Gynecol Scand | Crème vaginale de tioconazole 2 % : taux de guérison mycologique de 88,5 % chez 29 femmes symptomatiques |
-| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | Étude ouverte non comparative | J Int Med Res | Crème de tioconazole 2 % dans l'infection à *Trichomonas vaginalis* ou les infections mixtes : 95 % de guérison (19/20) à environ 7 jours |
-| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Revue | Drugs | Large spectre antimicrobien du tioconazole. Les essais ouverts et contrôlés montrent l'efficacité et la sécurité des préparations locales dans les infections cutanées et la candidose vaginale |
-| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Revue | Expert Rev Anti Infect Ther | Perspectives sur les azolés antifongiques non invasifs dans la candidose vulvovaginale, y compris les formes compliquées et récidivantes |
-| [10990271](https://pubmed.ncbi.nlm.nih.gov/10990271/) | 2000 | Étude de laboratoire | Microb Drug Resist | Résistance croisée de souches cliniques de *C. albicans* et *C. glabrata* aux azolés en vente libre utilisés dans les vaginites |
+| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | ECR comparatif | Antimicrob Agents Chemother | 80 patientes : tioconazole en dose unique (pommade 6,5 %) vs clotrimazole 3 jours ; 84 % vs 85 % asymptomatiques à 4 semaines |
+| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | ECR (double aveugle, contre placebo) | Gynakol Rundsch | Comparaison tioconazole vs placebo dans la candidose vaginale, avec évaluation de l'absorption systémique |
+| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | Essai randomisé ouvert | J Int Med Res | 40 patientes : tioconazole topique en dose unique vs kétoconazole oral 5 jours ; éradication dans les deux groupes, réponse des symptômes plus rapide avec le topique |
+| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Revue | Drugs | Les essais ouverts et contrôlés ont montré l'efficacité et la sécurité des préparations topiques dans les mycoses superficielles et la candidose vaginale |
+| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Revue | Expert Rev Anti Infect Ther | Options antifongiques azolées non invasives pour la candidose vulvovaginale, y compris les formes récidivantes |
+| [3984688](https://pubmed.ncbi.nlm.nih.gov/3984688/) | 1985 | Étude clinique | Acta Obstet Gynecol Scand | Crème vaginale à 2 % : taux de guérison mycologique de 88,5 % chez 29 femmes symptomatiques |
+| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | Essai comparatif ouvert | Gynakol Rundsch | Tioconazole vs éconazole, traitement de 3 jours |
+| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | Essai comparatif ouvert | Gynakol Rundsch | Crème de tioconazole vs ovules d'éconazole, traitement de 3 jours |
+| [3216880](https://pubmed.ncbi.nlm.nih.gov/3216880/) | 1988 | Étude clinique | Mycoses | Tioconazole dans la candidose vaginale |
+| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | Étude ouverte non comparative | J Int Med Res | 20 patientes avec infection à *T. vaginalis* (certaines mixtes) : 95 % de guérison au premier suivi |
+
+Les autres publications recensées sont des études de formulation, de résistance, de diagnostic ou précliniques, sans valeur directe pour l'efficacité.
 
 ## Informations de Marché en France
 
-L'indication approuvée n'est pas renseignée dans les données ANSM pour ces deux AMM. Elle est donc omise du tableau.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67466927 | GYNO TROSYD 300 mg, ovule | Ovule | TEOFARMA |
-| 69571802 | TROSYD, crème dermatologique | Crème | TEOFARMA |
+| 67466927 | GYNO TROSYD 300 mg, ovule (TEOFARMA) | Ovule | Non renseignée (AMM annulée) |
+| 69571802 | TROSYD, crème dermatologique (TEOFARMA) | Crème | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions médicamenteuses** : deux signaux ont été relevés : l'oméprazole (niveau de gravité inconnu) et le CYP8B1 (cible enzymatique humaine inhibée par le tioconazole, sans niveau de gravité défini).
+
+Les mises en garde et contre-indications de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-Plusieurs études cliniques, dont un essai en double aveugle contre placebo et des comparaisons avec le clotrimazole et l'éconazole, soutiennent l'efficacité du tioconazole dans la candidose vaginale. Le mécanisme antifongique est cohérent avec cette indication, et le produit est déjà commercialisé en France sous forme d'ovule et de crème. En revanche, les essais enregistrés portent sur d'autres azolés, les études du tioconazole datent des années 1980, et les données de sécurité de la notice sont manquantes.
+- Les preuves proviennent surtout d'essais anciens (1983-1988) portant sur la candidose vaginale, soit l'indication d'origine, et non sur un véritable nouvel usage. De plus, les deux AMM françaises sont annulées, ce qui limite la disponibilité pratique, et les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications). Cette lacune est bloquante pour l'évaluation de sécurité.
-- Confirmer l'indication approuvée de chaque AMM dans le dossier réglementaire français, afin de vérifier si la vulvovaginite est déjà couverte.
-- Compléter les données sur le mécanisme d'action via DrugBank.
-- Vérifier la phase et les résultats des études anciennes du tioconazole, dont les résumés sont absents.
-- Pour la vulvite (prédiction de rang 2), aucune donnée ne traite ce critère séparément, et la vaginite atrophique post-ménopausique (rang 3, niveau L5) est à mettre en attente.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant pour l'évaluation de la sécurité
+- Compléter les données sur le mécanisme d'action (DrugBank)
+- Préciser la définition de « vulvovaginite » visée (fongique uniquement) et confirmer la pertinence des publications
+- Vérifier la disponibilité réelle du produit en France (AMM annulées) ou l'existence d'alternatives azolées commercialisées
+- Écarter la vaginite atrophique post-ménopausique, sans fondement mécanistique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

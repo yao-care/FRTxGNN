@@ -2,7 +2,7 @@
 layout: default
 title: Cerliponase Alfa
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 73
+nav_order: 155
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,68 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cerliponase alfa : De la CLN2 (déficit en TPP1) au syndrome de Scheie
+# Cerliponase alfa : De la lipofuscinose neuronale céroïde au syndrome de Scheie
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Cerliponase alfa est une TPP1 recombinante (enzyme lysosomale) administrée par voie intraventriculaire. Le texte d'indication de l'AMM n'est pas renseigné dans les données, mais le mécanisme décrit dans le dossier renvoie à la maladie CLN2 (déficit en TPP1).
-Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de Scheie**, avec **0 essai clinique** et **0 publication** à l'appui. La prédiction repose uniquement sur le modèle (niveau L5).
+Cerliponase alfa est une enzyme recombinante (tripeptidyl peptidase 1, TPP1) administrée par voie intracérébroventriculaire, initialement utilisée pour la lipofuscinose neuronale céroïde, notamment sa forme infantile.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Scheie**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction.
+Cette prédiction repose uniquement sur le modèle, et son lien biologique est jugé faible.
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Syndrome de Scheie (MPS I atténuée) |
-| Score de Prédiction TxGNN | 99,98 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Indication originale | Lipofuscinose neuronale céroïde (dont la forme infantile) |
+| Nouvelle indication prédite | Syndrome de Scheie |
+| Score de prédiction TxGNN | 99,98 % |
+| Niveau de preuve | L5 |
+| Statut de marché en France | Autorisation annulée uniquement |
 | Nombre d'AMM | 1 |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, cerliponase alfa est une enzyme de remplacement (TPP1 recombinante) qui dégrade des tripeptides dans le lysosome. Son efficacité dans son indication d'origine (CLN2) repose sur ce mécanisme, mais rien n'indique qu'il soit applicable au syndrome de Scheie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, cerliponase alfa est une enzymothérapie substitutive qui remplace la TPP1, enzyme lysosomale déficiente dans la forme CLN2 de la lipofuscinose neuronale céroïde.
 
-Le syndrome de Scheie est une forme atténuée de MPS I, causée par un déficit en IDUA (alpha-L-iduronidase). Cette enzyme a un substrat différent de celui de la TPP1 : cerliponase alfa ne peut donc pas la remplacer. Le score TxGNN élevé reflète très probablement la proximité dans le graphe (voisinage « enzymothérapie substitutive lysosomale »), et non une justification au niveau du substrat.
+Le syndrome de Scheie (forme atténuée de la mucopolysaccharidose de type I) est lui aussi une maladie de surcharge lysosomale, mais il est dû à un déficit en alpha-L-iduronidase, une enzyme différente, avec accumulation de glycosaminoglycanes. La TPP1 n'agit pas sur ce substrat, et aucun recoupement mécanistique direct n'est établi.
 
-Les neuf autres prédictions du top 10 sont également de niveau L5, sans essai clinique. Elles sont jugées sans fondement mécanistique plausible, soit parce qu'une enzymothérapie spécifique existe déjà (syndrome de Hurler, maladie de Gaucher, déficit en LIPA), soit parce que la maladie n'est pas un déficit enzymatique lysosomal (FENIB, ichtyose, myopathie). La seule publication liée à l'ensemble des prédictions est une revue de 2026 sur l'histoire naturelle des maladies lysosomales, qui utilise la maladie de Gaucher comme modèle (PMID [41527340](https://pubmed.ncbi.nlm.nih.gov/41527340/)). Elle ne fournit aucune donnée propre au médicament.
+Le score élevé du modèle reflète probablement la proximité des maladies lysosomales dans le graphe de connaissances, plutôt qu'une justification biologique spécifique. Il existe déjà un traitement substitutif adapté pour la MPS I (laronidase).
 
-## Preuves d'Essais Cliniques
+Les autres prédictions du modèle (syndrome de Hurler, maladie de Gaucher, maladie de surcharge en esters de cholestérol, maladie de Wolman, etc.) appellent les mêmes réserves : absence de lien mécanistique démontré et absence d'essais cliniques. Pour la maladie de Gaucher, une seule publication de cartographie de l'histoire naturelle a été retrouvée ; elle n'évalue pas cerliponase alfa.
 
-Aucun essai clinique associé enregistré actuellement.
+## Preuves d'essais cliniques
 
-## Preuves de la Littérature
+Aucun essai clinique associé n'est enregistré actuellement.
 
-Aucune littérature associée disponible actuellement.
+## Preuves de la littérature
 
-## Informations de Marché en France
+Aucune littérature associée au syndrome de Scheie n'est disponible actuellement.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+## Informations de marché en France
+
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 65808346 | BRINEURA 150 mg, solution pour perfusion (BIOMARIN INTERNATIONAL LIMITED, Irlande) | Solution pour perfusion | Non renseignée dans les données |
+| 65808346 | BRINEURA 150 mg, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
 
-## Considérations de Sécurité
+## Considérations de sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées.
 
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme est incompatible : la TPP1 ne peut pas remplacer l'IDUA déficiente.
-- Les données de sécurité de l'ANSM sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité S1.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre la TPP1 et le déficit en alpha-L-iduronidase.
+- Le seul produit autorisé en France (Brineura) a une AMM annulée, et les données de sécurité de la notice ne sont pas disponibles.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde, contre-indications, indication approuvée)
-- Compléter les données de mécanisme d'action via DrugBank
-- Fournir des données précliniques démontrant une activité de la TPP1 sur les substrats du syndrome de Scheie
-- Vérifier la compatibilité de la voie d'administration (intraventriculaire) avec une maladie principalement systémique
+- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) afin de permettre une évaluation de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Démontrer, par des études précliniques, un effet de la TPP1 sur la pathologie de la MPS I
+- Évaluer la compatibilité de la voie d'administration intracérébroventriculaire avec la maladie visée
+- Comparer avec les traitements déjà disponibles, comme la laronidase
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

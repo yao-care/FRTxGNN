@@ -2,7 +2,7 @@
 layout: default
 title: Moroctocog Alfa
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 205
+nav_order: 515
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,79 +29,94 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Moroctocog alfa : De l'hémophilie A (déduite) au trouble de la sécrétion plaquettaire primaire
+# Moroctocog alfa : De l'hémophilie au trouble de la libération plaquettaire primaire
 
 ## Résumé en Une Phrase
 
-Moroctocog alfa est un facteur VIII de coagulation recombinant (délété du domaine B), commercialisé en France sous le nom REFACTO AF. Le texte d'indication des AMM n'est pas renseigné dans les données, l'usage d'origine (hémophilie A) est donc déduit de la nature du produit.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble de la sécrétion plaquettaire primaire** (score de 99,97 %).
-Cette prédiction repose sur la proximité dans un graphe de connaissances : **7 essais cliniques** ont été associés, mais aucun ne teste ce médicament dans cette maladie, et **aucune publication** ne la soutient.
+Moroctocog alfa est un facteur VIII de coagulation recombinant (délété du domaine B), initialement utilisé pour le traitement de l'hémophilie.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble primaire de la libération plaquettaire**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction issue du modèle uniquement.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM (hémophilie A déduite de la nature du produit) |
-| Nouvelle Indication Prédite | Trouble de la sécrétion plaquettaire primaire (primary release disorder of platelets) |
+| Indication Originale | Hémophilie (forme symptomatique de l'hémophilie chez les porteuses) |
+| Nouvelle Indication Prédite | Trouble primaire de la libération plaquettaire |
 | Score de Prédiction TxGNN | 99,97 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 5 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 5 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Moroctocog alfa est un facteur VIII recombinant délété du domaine B. Il agit comme cofacteur dans le complexe de ténase intrinsèque, une étape clé de la cascade de coagulation. Son rôle est de remplacer le facteur VIII manquant.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, moroctocog alfa est un facteur VIII recombinant dont l'efficacité dans l'hémophilie repose sur le remplacement du facteur VIII déficient.
 
-**Cette prédiction est peu plausible sur le plan mécanistique.** Le trouble de la sécrétion plaquettaire est un défaut primaire de la fonction des plaquettes. Le remplacement du facteur VIII ne le corrige pas. Le score très élevé (0,9997) reflète la proximité du médicament et de la maladie dans le voisinage « troubles hémorragiques » du graphe, et non un mécanisme thérapeutique crédible.
+Le lien avec la nouvelle indication est faible. Le trouble primaire de la libération plaquettaire est un défaut intrinsèque de la fonction plaquettaire (sécrétion), que le remplacement du facteur VIII ne corrige pas. Le score élevé (99,97 %) reflète une proximité dans le graphe de connaissances, probablement liée à l'association commune « trouble hémorragique », et non un mécanisme démontré.
 
-Les 7 essais associés sont des correspondances par mots-clés (hémophilie A, hémostase, coagulation) et non des tests de ce médicament dans cette maladie.
+Les autres indications prédites par le modèle présentent le même problème :
+
+| Rang | Indication prédite | Score TxGNN | Plausibilité mécanistique |
+|------|------|------|------|
+| 2 | Pseudo-maladie de von Willebrand | 99,97 % | Faible : défaut de GPIbα plaquettaire ; lien ténu via l'axe VWF-FVIII |
+| 3 | Thrombasthénie de Glanzmann | 99,96 % | Faible : déficit d'intégrine αIIbβ3 ; prise en charge par transfusion plaquettaire et FVIIa recombinant |
+| 4 | Déficit acquis en facteur de coagulation | 99,88 % | La plus plausible en théorie, mais les auto-anticorps inhibiteurs neutralisent le FVIII perfusé ; catégorie large et hétérogène |
+| 5 | Syndrome de Scott | 99,86 % | Faible : défaut de TMEM16F (ANO6), le FVIII ne restaure pas la surface plaquettaire procoagulante |
+| 6 | Diathèse hémorragique par défaut de récepteur du collagène | 99,73 % | Faible : défaut de GPVI ou α2β1 |
+| 7 | Trouble hémorragique par thrombopénie constitutionnelle | 99,72 % | Très faible : saignement lié au nombre/à la fonction plaquettaire |
+| 8 | « Flood factor deficiency » | 99,11 % | Indéterminée : entité non reconnue, possible artefact de données ou d'ontologie, à vérifier |
+
+---
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Phase 3 | Terminé | 159 | rFVIIIFc-VWF-XTEN (BIVV001) en prophylaxie chez des patients ≥12 ans atteints d'hémophilie A sévère. Population différente. |
-| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Phase 3 | Terminé | 74 | Même produit (BIVV001) chez des enfants <12 ans atteints d'hémophilie A sévère. Population différente. |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Phase 3 | Terminé | 30 | rFVIII pégylé (BAX 855) lors de chirurgies chez des patients atteints d'hémophilie A sévère. Produit et maladie différents. |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Pas encore en recrutement | 80 | Profils coagulation et hématologie dans la leucémie aiguë myéloïde nouvellement diagnostiquée. Sans rapport. |
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | En recrutement | 200 | Évaluation biologique du syndrome post-vaccination COVID-19. Sans rapport. |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | En recrutement | 25 | Foie artificiel (DPMAS + échange plasmatique) dans l'insuffisance hépatique aiguë sur chronique. Sans rapport. |
-| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | En recrutement | 45 | Exploration de l'hémostase systémique et portale lors d'un shunt porto-systémique (TIPS). Sans rapport. |
+Aucun essai clinique associé enregistré actuellement.
 
-Les 7 essais sont classés en pertinence « C » (non pertinents pour cette indication).
+---
 
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64968807 | REFACTO AF 2000 UI (Pfizer Europe MA EEIG) | Poudre et solvant pour solution injectable | Non renseignée |
-| 60106606 | REFACTO AF 250 UI (Pfizer Europe MA EEIG) | Poudre et solvant pour solution injectable | Non renseignée |
-| 62981909 | REFACTO AF 1000 UI (Pfizer Europe MA EEIG) | Poudre et solvant pour solution injectable | Non renseignée |
-| 66743830 | REFACTO AF 3000 UI (Pfizer Europe MA EEIG) | Poudre et solvant pour solution injectable | Non renseignée |
-| 60937230 | REFACTO AF 500 UI (Pfizer Europe MA EEIG) | Poudre et solvant pour solution injectable | Non renseignée |
+| 64968807 | REFACTO AF 2000 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
+| 60106606 | REFACTO AF 250 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
+| 62981909 | REFACTO AF 1000 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
+| 66743830 | REFACTO AF 3000 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
+| 60937230 | REFACTO AF 500 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
+
+Le titulaire de ces AMM est PFIZER EUROPE MA EEIG (Belgique). Aucune AMM n'est actuellement valide en France.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées pour ce rapport.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5). Aucun essai ni publication ne teste ce médicament dans cette maladie, et le remplacement du facteur VIII n'a pas de rationnel mécanistique face à un défaut fonctionnel plaquettaire.
-- Les données de sécurité de l'ANSM sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité (S1).
+- La prédiction repose uniquement sur le score du modèle, sans essai clinique ni publication, et le mécanisme du facteur VIII ne correspond pas aux défauts plaquettaires visés. Aucune AMM n'est en vigueur en France et les données de sécurité sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications).
-- Compléter le texte d'indication des AMM et les données de mécanisme d'action (DrugBank).
-- Ne pas investir dans cette indication sans donnée mécanistique ou clinique nouvelle.
-- Parmi les autres candidats prédits, seule la **carence acquise en facteurs de coagulation** (hémophilie A acquise) présente un lien mécanistique de classe (niveau L4). Les études de soutien utilisent toutefois du FVIII porcin, qui échappe à de nombreux inhibiteurs humains. Le facteur VIII humain de moroctocog alfa risque d'être neutralisé par ces mêmes inhibiteurs, et les agents de contournement restent le traitement de référence. Cette piste mérite une évaluation distincte.
+- Mises en garde et contre-indications issues de la notice de l'ANSM (lacune bloquante pour tout examen de sécurité)
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Vérification de l'entité « flood factor deficiency » avant toute évaluation
+- Pour la piste la plus plausible (déficit acquis en facteur de coagulation) : revue de la littérature et évaluation de l'impact des inhibiteurs
+- Données précliniques ou cliniques démontrant un bénéfice dans l'une des indications prédites
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

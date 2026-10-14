@@ -2,7 +2,7 @@
 layout: default
 title: Risankizumab
 parent: Preuves élevées (L1-L2)
-nav_order: 265
+nav_order: 671
 evidence_level: L2
 indication_count: 10
 ---
@@ -33,9 +33,9 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Risankizumab est un anticorps monoclonal humanisé anti-IL-23 (sous-unité p19), initialement développé et approuvé pour le traitement du psoriasis.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dermatite**, mais un seul essai directement pertinent existe (Phase 2 dans la dermatite atopique, dont le résultat n'est pas favorable d'après le raisonnement associé à l'Evidence Pack).
-Au total, **7 essais cliniques** et **17 publications** sont rattachés à cette prédiction, mais la plupart concernent le psoriasis et non la dermatite.
+Risankizumab est un anticorps monoclonal dirigé contre la sous-unité p19 de l'IL-23, initialement utilisé pour traiter le psoriasis (et le parapsoriasis selon la base de connaissances utilisée par le modèle).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dermatite** (essentiellement la dermatite atopique selon les preuves disponibles), avec **2 essais cliniques** et **20 publications** associés, dont un essai randomisé de Phase 2 terminé.
+Cette prédiction repose sur des preuves modestes : le mécanisme n'est que partiellement adapté et l'efficacité n'est pas démontrée.
 
 ---
 
@@ -43,23 +43,23 @@ Au total, **7 essais cliniques** et **17 publications** sont rattachés à cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Psoriasis (d'après la littérature ; le texte d'indication de l'ANSM n'est pas renseigné) |
+| Indication Originale | Psoriasis, parapsoriasis (texte d'indication des AMM non renseigné ; source : graphe de connaissances) |
 | Nouvelle Indication Prédite | Dermatite |
 | Score de Prédiction TxGNN | 99,98 % |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 5 |
+| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
+| Nombre d'AMM | 5 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Risankizumab cible la sous-unité p19 de l'interleukine-23 (IL-23). Il bloque ainsi la voie IL-23/Th17, centrale dans la physiopathologie du psoriasis. Il a été approuvé pour la première fois au Japon en 2019 dans le psoriasis vulgaire, le rhumatisme psoriasique, le psoriasis pustuleux généralisé et le psoriasis érythrodermique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues, risankizumab est un anticorps monoclonal IgG humanisé ciblant la sous-unité p19 de l'IL-23. Son efficacité dans le psoriasis est établie, et il a été approuvé dans plusieurs pays pour le psoriasis en plaques, le rhumatisme psoriasique, le psoriasis pustuleux généralisé et le psoriasis érythrodermique.
 
-La relation entre le psoriasis et la dermatite repose sur le fait que ce sont deux maladies inflammatoires chroniques de la peau à médiation immunitaire. Elles peuvent coexister chez un même patient, comme le montre une série de cas associant dupilumab et risankizumab.
+L'axe IL-23/Th17 est central dans le psoriasis et contribue à certaines dermatoses inflammatoires, ce qui donne une certaine plausibilité biologique à la prédiction. Toutefois, la dermatite atopique est principalement dirigée par la voie Th2 (IL-4/IL-13) ; l'adéquation mécanistique n'est donc que partielle. La littérature décrit d'ailleurs l'association avec le dupilumab chez des patients ayant à la fois une dermatite atopique et un psoriasis, ce qui suggère que le blocage seul de l'IL-23 est probablement insuffisant. Des cas d'eczéma paradoxal sous inhibiteurs de l'IL-23 (dont risankizumab) sont également rapportés.
 
-Cependant, le mécanisme est **peu convaincant pour la dermatite atopique**, qui est dominée par la voie Th2 et où la voie Th17 n'est que marginale. L'essai de Phase 2 dans la dermatite atopique modérée à sévère (NCT03706040, PMID 36588137) est le seul test direct d'efficacité. D'après le raisonnement joint à l'Evidence Pack, il n'a pas montré d'efficacité significative. Cela affaiblit nettement la valeur du score TxGNN élevé. Les autres signaux sont des cas isolés, dont l'acrodermatite continue de Hallopeau, une variante pustuleuse du psoriasis.
+Le score TxGNN très élevé (0,9998) est une prédiction computationnelle et ne constitue pas une preuve d'efficacité. Le terme générique « dermatite » recouvre des affections hétérogènes ; les preuves concernent surtout la dermatite atopique.
 
 ---
 
@@ -67,13 +67,8 @@ Cependant, le mécanisme est **peu convaincant pour la dermatite atopique**, qui
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Phase 2 | Terminé | 172 | Risankizumab vs placebo (randomisé, double insu) dans la dermatite atopique modérée à sévère chez l'adulte et l'adolescent. **Seul essai directement pertinent.** Résultat publié non favorable |
-| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Phase 4 | Terminé | 352 | Risankizumab vs apremilast dans le psoriasis en plaques modéré (indication approuvée, pas de preuve directe pour la dermatite) |
-| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Phase 4 | Terminé | 214 | Risankizumab dans le psoriasis génital ou du cuir chevelu modéré à sévère (sous-population du psoriasis, preuve indirecte) |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Pas encore en recrutement | 10 | Microdispositif cutané in situ testant des médicaments dans la dermatite atopique et le psoriasis (outil pharmacodynamique, aucune preuve d'efficacité) |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Terminé | 1000 | Étude observationnelle pharmacogénétique sur la survie des biothérapies dans le psoriasis cutané (pas de signal pour la dermatite) |
-| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A | En recrutement | 840 | Profilage de biomarqueurs en vie réelle dans six maladies cutanées immunitaires, dont la dermatite atopique (générateur d'hypothèses uniquement) |
-| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A | Terminé | 240 | Cohorte observationnelle à Taïwan sur la durabilité de réponse de risankizumab dans le psoriasis en plaques (indication approuvée) |
+| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Phase 2 | Terminé | 172 | Essai randomisé, en double aveugle, contre placebo, évaluant la sécurité et l'efficacité de risankizumab dans la dermatite atopique modérée à sévère (adultes et adolescents). Les résultats d'efficacité doivent être vérifiés dans la publication associée. |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Pas encore en recrutement | 10 | Étude exploratoire d'un microdispositif cutané in situ testant des médicaments sur la peau (dermatite atopique, psoriasis). Aucune preuve d'efficacité pour risankizumab. |
 
 ---
 
@@ -81,38 +76,41 @@ Cependant, le mécanisme est **peu convaincant pour la dermatite atopique**, qui
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | ECR | Dermatol Ther | Phase 2 randomisée, double insu, contre placebo, dans la dermatite atopique modérée à sévère. Justification : implication des voies Th2, Th22 et peut-être Th17. Seule étude directe |
-| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Revue systématique | Inflammopharmacology | Effets thérapeutiques et paradoxaux des inhibiteurs d'interleukines dans le lichen plan, maladie inflammatoire apparentée |
-| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Revue systématique | Am J Clin Dermatol | Prise en charge du psoriasis érythrodermique par traitements systémiques. La dermatite atopique figure dans le diagnostic différentiel |
-| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Revue | Expert Opin Biol Ther | Biothérapies actuelles et émergentes dans la dermatite atopique pédiatrique |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Revue narrative | Children (Basel) | Biothérapies et petites molécules ciblées dans l'alopécie areata, le psoriasis, la dermatite atopique et l'hidradénite suppurée pédiatriques |
-| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Série de cas | Int J Dermatol | Efficacité et sécurité de l'association dupilumab + risankizumab dans la dermatite atopique et le psoriasis concomitants |
-| [36939506](https://pubmed.ncbi.nlm.nih.gov/36939506/) | 2023 | Cas clinique | Ital J Dermatol Venereol | Éruption eczématiforme survenue **pendant** un traitement par risankizumab |
-| [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Cas cliniques | Eur J Dermatol | Éruptions eczématiformes chez des patients psoriasiques sous risankizumab |
-| [37014149](https://pubmed.ncbi.nlm.nih.gov/37014149/) | 2023 | Cas cliniques | J Cutan Med Surg | Trois patients avec réaction eczématiforme induite par brodalumab, pris en charge par un passage à risankizumab |
-| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Lettre / cas | Dermatol Rep | Eczéma paradoxal sous anti-IL-23 (incidence estimée à 1-3 % chez les patients psoriasiques sous biothérapie), traité avec succès par upadacitinib |
+| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | ECR | Dermatol Ther | Étude de Phase 2 randomisée, en double aveugle, contre placebo, de risankizumab dans la dermatite atopique modérée à sévère ; le rationnel repose sur le blocage des voies IL-23 et IL-22. |
+| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Revue systématique | Am J Clin Dermatol | Prise en charge du psoriasis érythrodermique par traitements systémiques. |
+| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Revue systématique | Inflammopharmacology | Rôle des inhibiteurs d'interleukines dans le lichen plan : effets thérapeutiques et paradoxaux. |
+| [41822639](https://pubmed.ncbi.nlm.nih.gov/41822639/) | 2026 | Revue systématique | Cureus | Résultats cardiovasculaires associés aux biothérapies dans les dermatoses inflammatoires. |
+| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Série de cas/Cohorte | Int J Dermatol | Efficacité et sécurité de l'association dupilumab + risankizumab en cas de dermatite atopique et psoriasis concomitants. |
+| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Revue | Drugs | Première approbation mondiale de risankizumab (Japon, mars 2019) dans le psoriasis et ses variantes. |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Revue | Children (Basel) | Biothérapies et petites molécules ciblées dans les dermatoses pédiatriques (alopécie areata, psoriasis, dermatite atopique, hidradénite). |
+| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Rapport de cas | Dermatol Rep | Upadacitinib dans l'eczéma paradoxal induit par les inhibiteurs de l'IL-23. |
+| [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Rapport de cas | Eur J Dermatol | Éruption eczématiforme chez des patients psoriasiques sous risankizumab. |
+| [36939506](https://pubmed.ncbi.nlm.nih.gov/36939506/) | 2023 | Rapport de cas | Ital J Dermatol Venereol | Cas d'éruption eczématiforme survenue sous risankizumab. |
 
 ---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 69949390 | SKYRIZI 150 mg, solution injectable en seringue préremplie | Solution injectable |
-| 66047342 | SKYRIZI 150 mg, solution injectable en stylo prérempli | Solution injectable |
-| 61512595 | SKYRIZI 360 mg, solution injectable en cartouche | Solution injectable |
-| 64900681 | SKYRIZI 600 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion |
-| 67060271 | SKYRIZI 75 mg, solution injectable en seringue préremplie | Solution injectable |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
+|---------|------|------|-----------|------|
+| 69949390 | SKYRIZI 150 mg, seringue préremplie | Solution injectable | Non renseignée | Annulée |
+| 66047342 | SKYRIZI 150 mg, stylo prérempli | Solution injectable | Non renseignée | Annulée |
+| 61512595 | SKYRIZI 360 mg, cartouche | Solution injectable | Non renseignée | Annulée |
+| 64900681 | SKYRIZI 600 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée | Annulée |
+| 67060271 | SKYRIZI 75 mg, seringue préremplie | Solution injectable | Non renseignée | Annulée |
 
-Titulaire commun : AbbVie Deutschland (Allemagne). Le texte des indications approuvées n'est pas renseigné dans les données ANSM disponibles.
+Les 5 AMM (titulaire : AbbVie Deutschland, Allemagne) sont annulées ; aucune AMM valide n'est actuellement recensée.
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : 78 interactions recensées. Parmi celles listées :
+  - **Majeures** : adalimumab, baricitinib, certolizumab pégol, cladribine.
+  - **Modérées** : roflumilast, tacrolimus, azathioprine, ciclosporine, anakinra, canakinumab, alefacept, alemtuzumab, dénosumab, ainsi que certains vaccins (anatoxine tétanique, vaccin contre l'anthrax, vaccin vivant contre le choléra).
+  - **Mineures** : sels de zinc (sulfate, acétate, gluconate, chlorure).
 
-Signal issu de la littérature : plusieurs cas d'**éruption eczématiforme paradoxale** sous risankizumab ont été rapportés chez des patients psoriasiques, avec une incidence estimée à 1-3 % sous biothérapie. Cela va à l'encontre d'un bénéfice attendu dans la dermatite.
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ---
 
@@ -121,17 +119,15 @@ Signal issu de la littérature : plusieurs cas d'**éruption eczématiforme para
 **Décision : Hold**
 
 **Justification :**
-- Le seul essai direct (Phase 2, dermatite atopique) n'a pas montré d'efficacité significative et le mécanisme IL-23/Th17 cadre mal avec une maladie dominée par Th2. Le score TxGNN de 99,98 % n'est donc pas corroboré, et des cas d'eczéma paradoxal sous risankizumab sont rapportés.
-- Les informations de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Un seul essai de Phase 2 randomisé dans la dermatite atopique existe (niveau L2), mais le mécanisme est partiellement inadapté (maladie dominée par Th2), aucun bénéfice clair n'est établi dans les données compilées, et des cas d'eczéma paradoxal sous inhibiteurs de l'IL-23 sont rapportés.
+- Sur le marché français, toutes les AMM sont annulées et les mises en garde ainsi que les contre-indications ne sont pas disponibles, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde et contre-indications), donnée bloquante
-- Compléter les données détaillées sur le mécanisme d'action via DrugBank
-- Obtenir et analyser les résultats complets de NCT03706040 pour confirmer l'absence d'efficacité dans la dermatite atopique
-- Préciser le sous-type de dermatite visé, l'entrée « dermatite » étant très générale
-- Écarter les autres candidats de la liste TxGNN (par exemple dermatomyosite, acrodermatite chronique atrophiante, rétinopathie diabétique). Tous restent au niveau L5, sans preuve clinique et souvent sans lien mécanistique plausible, et certains sont probablement des artefacts du graphe
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Vérifier les résultats d'efficacité de l'essai NCT03706040 (publication PMID 36588137) ; l'absence de bénéfice clair irait contre la poursuite.
+- Obtenir les mises en garde et contre-indications de la notice ANSM (donnée bloquante) et clarifier la situation réglementaire des AMM annulées.
+- Compléter les données sur le mécanisme d'action (via DrugBank).
+- Préciser le sous-type de dermatite visé (atopique, de contact, etc.).
+- Pour les autres indications prédites (par ex. pityriasis lichénoïde et pityriasis lichénoïde aigu, plausibles par proximité avec le parapsoriasis), des preuves cliniques restent à produire : à ce stade, il s'agit uniquement de prédictions (niveau L5, Hold).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

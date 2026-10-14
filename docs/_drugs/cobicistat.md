@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 89
+nav_order: 193
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,31 +29,36 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Cobicistat : D'un booster pharmacocinétique du VIH-1 au syndrome d'immunodéficience acquise féline
+# Cobicistat : Du VIH/SIDA au Syndrome d'Immunodéficience Acquise Féline
 
 ## Résumé en Une Phrase
 
-Le cobicistat est un inhibiteur du CYP3A utilisé comme « booster » pharmacocinétique : il augmente l'exposition à certains antirétroviraux du VIH-1 (inhibiteurs de protéase et d'intégrase). Le modèle TxGNN prédit qu'il pourrait être utile dans le **syndrome d'immunodéficience acquise féline**. **Aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction : c'est une hypothèse de recherche.
+Cobicistat est un agent « booster » pharmacocinétique (inhibiteur du CYP3A), initialement utilisé dans le traitement de l'infection par le VIH et du SIDA.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immunodéficience acquise féline**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM ; usage clinique : booster pharmacocinétique d'antirétroviraux (VIH-1) |
+| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances TxGNN ; le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
 | Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le cobicistat n'a pas d'activité antivirale propre. Il inhibe le CYP3A, l'enzyme qui métabolise de nombreux antirétroviraux, et permet ainsi de maintenir des concentrations efficaces de ces molécules. Les données détaillées sur son mécanisme d'action ne sont pas disponibles dans le dossier, et l'indication originale n'est pas renseignée dans les AMM.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le cobicistat est un inhibiteur du CYP3A sans activité antirétrovirale propre. Il sert de booster pharmacocinétique pour d'autres agents (elvitégravir, atazanavir, darunavir), dont il augmente l'exposition.
 
-Le virus de l'immunodéficience féline (FIV) est un lentivirus apparenté au VIH-1. Une approche fondée sur un antirétroviral « boosté » est donc concevable. Tout bénéfice viendrait du renforcement d'un antiviral co-administré, et non du cobicistat seul. La pharmacocinétique féline et l'homologie du CYP3A chez le chat n'ont pas été vérifiées.
+Le syndrome d'immunodéficience acquise féline est causé par le virus de l'immunodéficience féline (FIV), un lentivirus apparenté au VIH. Le score élevé (99,92 %) reflète vraisemblablement la proximité dans le réseau de connaissances avec les indications VIH/SIDA d'origine, plutôt qu'un mécanisme distinct.
 
-Le même raisonnement vaut pour l'**infection par le virus de l'immunodéficience simienne (SIV)**, modèle animal du VIH chez les primates non humains. Son score TxGNN est identique (99,92 %), ce qui suggère un signal de voisinage commun dans le graphe de connaissances plutôt qu'une preuve indépendante. Une troisième prédiction, un trouble neurodéveloppemental rare avec ataxie, absence de parole et réduction de la substance blanche corticale (score 99,91 %), n'a aucun lien mécanistique identifiable avec l'inhibition du CYP3A. Elle est placée en attente (Hold).
+Tout bénéfice dépendrait de la co-administration avec un antirétroviral actif contre le FIV, et aucune association de ce type n'est étayée par les données disponibles. Le statut commercial (AMM annulées) et les 100 interactions médicamenteuses recensées compliquent en outre tout usage vétérinaire.
+
+**Autres prédictions du modèle (même niveau de preuve L5) :**
+- **Infection par le virus de l'immunodéficience simienne** (score 99,92 %) : le SIV est un modèle primate non humain du VIH. Le cobicistat n'aurait d'intérêt que comme composant d'un schéma combiné, et seulement comme piste de recherche préclinique pharmacocinétique.
+- **Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale** (score 99,91 %) : aucun lien mécanistique plausible ; il s'agit probablement d'un artefact du graphe de connaissances.
 
 ## Preuves d'Essais Cliniques
 
@@ -65,30 +70,35 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65768058 | STRIBILD 150 mg/150 mg/200 mg/245 mg | Comprimé pelliculé | Non renseignée dans les données |
-| 65453475 | GENVOYA 150 mg/150 mg/200 mg/10 mg | Comprimé pelliculé | Non renseignée dans les données |
+| 65768058 | STRIBILD 150 mg/150 mg/200 mg/245 mg | Comprimé pelliculé | Annulée |
+| 65453475 | GENVOYA 150 mg/150 mg/200 mg/10 mg | Comprimé pelliculé | Annulée |
 
-Les deux spécialités sont fabriquées par Gilead Sciences Ireland UC (Irlande). Ce sont des associations à dose fixe contenant du cobicistat.
+Les deux AMM sont détenues par Gilead Sciences Ireland UC (Irlande). Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : 100 interactions sont recensées. Parmi les 20 premières examinées :
+  - **Majeures** : lopéramide, triamcinolone, cisapride, budésonide.
+  - **Modérées** : hydrocortisone, aprépitant, bétaméthasone, clotrimazole, dexaméthasone (y compris formes nasale et ophtalmique), dexfenfluramine, fenfluramine, métoclopramide, prednisolone (ophtalmique), répaglinide, hydrocortisone (ophtalmique), budésonide (nasal), clarithromycine.
+  - **Mineure** : prucalopride.
+
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le cobicistat n'a pas d'effet antiviral propre et son bénéfice éventuel dépendrait d'un antiviral associé. Les données de sécurité de l'ANSM manquent également, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le cobicistat n'a pas d'activité antivirale propre, et ses AMM françaises sont toutes annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour le criblage de sécurité
-- Obtenir les données de mécanisme d'action depuis DrugBank
-- Vérifier la pharmacocinétique féline et l'homologie du CYP3A chez le chat et le primate non humain
-- Identifier un antiviral partenaire pertinent pour le FIV ou le SIV, puis définir une étude préclinique de schéma « boosté »
-- Établir un rationnel au niveau de la cible pour le trouble neurodéveloppemental avant de reconsidérer cette prédiction
+- Données sur le mécanisme d'action, à compléter via DrugBank.
+- Mises en garde et contre-indications issues de la notice ANSM (données bloquantes pour le criblage de sécurité).
+- Justification biologique de l'association avec un antirétroviral actif contre le FIV.
+- Études précliniques pharmacocinétiques (par exemple en modèle primate SIV) avant toute considération clinique.
+- Évaluation de la faisabilité vétérinaire (voies d'administration, formes disponibles), actuellement non déterminée.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

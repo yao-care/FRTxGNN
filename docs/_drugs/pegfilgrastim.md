@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 232
+nav_order: 583
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,33 +29,32 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Pegfilgrastim : De l'indication d'origine non documentée à la rétinopathie diabétique non proliférante sévère
+# Pegfilgrastim : D'un facteur de croissance des neutrophiles à la rétinopathie diabétique non proliférante sévère
 
 ## Résumé en Une Phrase
 
-Pegfilgrastim est un facteur de croissance des granulocytes (G-CSF) à action prolongée, commercialisé en France sous forme de seringues et de stylos injectables. Les textes d'indication des AMM ne sont pas renseignés dans les données reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie diabétique non proliférante sévère**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+Pegfilgrastim est un facteur de croissance des granulocytes (G-CSF) pégylé, qui stimule la production de neutrophiles. Le texte des indications des autorisations françaises n'est pas renseigné dans les données compilées pour ce rapport.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie diabétique non proliférante sévère**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère |
-| Score de Prédiction TxGNN | 99,89 % |
-| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 10 |
+| Indication Originale | Non renseignée dans les données d'AMM compilées |
+| Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère (seconde prédiction : rétinopathie diabétique, terme plus général) |
+| Score de Prédiction TxGNN | 99,89 % (rétinopathie diabétique : 99,73 %) |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Nombre d'AMM | 10 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le pegfilgrastim est un G-CSF à action prolongée. Il stimule la production des neutrophiles et mobilise les cellules progénitrices issues de la moelle osseuse. Sa proximité mécanistique avec la rétinopathie diabétique reste à démontrer.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le pégfilgrastim est un analogue pégylé du G-CSF : il stimule la production de neutrophiles en se liant au récepteur du G-CSF.
 
-Une hypothèse plausible, mais non vérifiée, relie les deux. La rétinopathie diabétique implique une atteinte microvasculaire, une baisse des cellules progénitrices circulantes et une inflammation de bas grade. La mobilisation de progéniteurs et la modulation immunitaire pourraient donc, en théorie, favoriser la réparation vasculaire rétinienne.
+Un lien plausible, mais non testé, serait la mobilisation de cellules progénitrices endothéliales issues de la moelle osseuse, qui pourrait soutenir la réparation vasculaire dans les rétinopathies ischémiques.
 
-**Le sens de l'effet est incertain.** L'activité neutrophilique et inflammatoire induite par le G-CSF pourrait aussi aggraver les lésions vasculaires rétiniennes ou favoriser la néovascularisation. Au stade sévère, le risque de progression vers la forme proliférante rend tout signal de sécurité particulièrement important.
-
-Une seconde prédiction, la « rétinopathie diabétique » (score de 99,73 %), est la catégorie parente de la première. Elle repose sur le même signal du modèle et n'apporte aucune preuve indépendante. Les deux prédictions ne doivent pas être comptées comme deux sources de soutien distinctes.
+L'effet pourrait toutefois aller dans le sens inverse. L'activation des neutrophiles, l'inflammation et la leucostase, ainsi que des signaux pro-angiogéniques associés au G-CSF, pourraient aggraver les lésions vasculaires rétiniennes. Le sens de l'effet est donc incertain. Les deux indications prédites sont de plus liées (la seconde est le terme parent de la première) : elles ne constituent pas deux preuves indépendantes. Il s'agit à ce stade d'une prédiction purement computationnelle.
 
 ## Preuves d'Essais Cliniques
 
@@ -67,36 +66,36 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Cinq AMM sont présentées ci-dessous sur les 10 recensées. Leurs textes d'indication ne sont pas renseignés.
+Les 10 AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas disponible pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 63655026 | GRASUSTEK 6 mg, solution injectable en seringue préremplie | Solution injectable |
-| 60457929 | FULPHILA 6 mg, solution injectable en seringue préremplie | Solution injectable |
-| 64847677 | PELGRAZ 6 mg, solution injectable en stylo injecteur prérempli | Solution injectable |
-| 61553026 | PELGRAZ 6 mg, solution injectable en seringue préremplie | Solution injectable |
-| 63626633 | ZIEXTENZO 6 mg, solution injectable en seringue préremplie | Solution injectable |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+|---------|------|------|-----------|
+| 63655026 | GRASUSTEK 6 mg, seringue préremplie | Solution injectable | Annulée |
+| 60457929 | FULPHILA 6 mg, seringue préremplie | Solution injectable | Annulée |
+| 64847677 | PELGRAZ 6 mg, stylo injecteur prérempli | Solution injectable | Annulée |
+| 61553026 | PELGRAZ 6 mg, seringue préremplie | Solution injectable | Annulée |
+| 63626633 | ZIEXTENZO 6 mg, seringue préremplie | Solution injectable | Annulée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+**Interactions Médicamenteuses** : 100 interactions ont été recensées. Les 20 premières, toutes de niveau modéré, concernent notamment : pegvaliase, iobenguane (I-131), fludéoxyglucose (18F), ibritumomab tiuxétan, tositumomab, lévamisole, triméthrexate, mercaptopurine, abémaciclib, paclitaxel, acalabrutinib, aldesleukine, alemtuzumab, altrétamine, trioxyde d'arsenic, asparaginase, avapritinib, azacitidine et bélantamab mafodotin.
+
+Veuillez consulter la notice pour les mises en garde et contre-indications, qui ne sont pas disponibles dans les données compilées.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La seule base est un score TxGNN élevé (niveau L5). Aucun essai ni aucune publication ne le corrobore.
-- Le sens de l'effet du G-CSF sur la rétine diabétique est incertain et pourrait être défavorable.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le sens de l'effet est incertain, avec un risque théorique d'aggravation de la pathologie rétinienne.
+- Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice font défaut, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- La notice ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
-- Les données sur le mécanisme d'action, à obtenir via DrugBank
-- Les textes d'indication approuvés des AMM françaises
-- Une recherche bibliographique ciblée, ainsi que des données précliniques sur le G-CSF dans la rétinopathie diabétique
-- Une évaluation de la sécurité chez les patients diabétiques atteints de pathologie rétinienne, notamment le risque de néovascularisation
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Récupérer la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)
+- Obtenir les données sur le mécanisme d'action (DrugBank)
+- Réaliser une revue de la littérature préclinique (G-CSF, cellules progénitrices endothéliales, rétinopathie diabétique) et rechercher d'éventuels essais
+- Évaluer la compatibilité de la voie d'administration (injection systémique par rapport à une administration oculaire)
+- Vérifier le statut réglementaire actuel du produit en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

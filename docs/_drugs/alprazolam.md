@@ -2,15 +2,15 @@
 layout: default
 title: Alprazolam
 parent: Preuves modérées (L3-L4)
-nav_order: 28
-evidence_level: L3
+nav_order: 46
+evidence_level: L4
 indication_count: 3
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,105 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-# Alprazolam : Des troubles anxieux à l'insomnie
+# Alprazolam : De l'anxiété à l'insomnie
 
 ## Résumé en Une Phrase
 
-L'alprazolam est une benzodiazépine, dont l'anxiété et le trouble panique sont les usages connus. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, avec un score très élevé. Le soutien réel reste faible : **6 essais cliniques** et **18 publications** sont associés, mais aucun n'évalue directement l'efficacité de l'alprazolam dans l'insomnie par un essai randomisé.
+Alprazolam est une benzodiazépine, initialement utilisée pour le traitement des troubles anxieux et du trouble anxieux et dépressif mixte.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais **aucun essai clinique** n'est enregistré et la littérature disponible (**17 publications**) est essentiellement indirecte.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (l'analyse de plausibilité mentionne l'anxiété et le trouble panique) |
+| Indication Originale | Trouble anxieux, anxiété, trouble anxieux et dépressif mixte (texte d'indication des AMM non renseigné) |
 | Nouvelle Indication Prédite | Insomnie |
 | Score de Prédiction TxGNN | 99,81 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. Sur la base des informations connues, l'alprazolam est un modulateur allostérique positif des récepteurs GABA-A. Il renforce l'inhibition GABAergique, ce qui explique ses effets anxiolytique et sédatif-hypnotique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'alprazolam fait partie de la classe des benzodiazépines. Ces molécules renforcent la signalisation du récepteur GABA-A, ce qui produit des effets sédatifs et anxiolytiques. Son efficacité dans les troubles anxieux est établie.
 
-Ce mécanisme rend l'usage dans l'insomnie plausible, surtout lorsque l'insomnie s'accompagne d'anxiété. Le score TxGNN élevé est cohérent avec cet effet de classe. L'insomnie n'étant pas l'indication connue du produit, il s'agirait d'un usage hors AMM.
+Sur le plan mécanistique, un effet sédatif pourrait raccourcir le délai d'endormissement. Cela explique en partie le score élevé du modèle. L'anxiété et l'insomnie sont d'ailleurs fréquemment associées en pratique clinique.
 
-Plusieurs éléments jouent contre cette piste : risque de dépendance, somnolence le lendemain, risque de chutes et de fractures chez les personnes âgées.
+Ce lien repose toutefois uniquement sur la pharmacologie générale de la classe. Le score TxGNN est une prédiction computationnelle, sans essai clinique pour la confirmer. Les risques bien documentés des benzodiazépines (dépendance, tolérance, chutes, troubles cognitifs, notamment chez les personnes âgées) pèsent contre cette indication.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun de ces essais n'est un essai d'efficacité de l'alprazolam dans l'insomnie. Le plus proche est un essai de phase 2 sur l'agitation dans la maladie d'Alzheimer (le rôle de l'alprazolam y reste à confirmer).
+Aucun essai clinique associé enregistré actuellement.
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT01584440](https://clinicaltrials.gov/study/NCT01584440) | Phase 2 | Terminé | 220 | AVP-923 (dextrométhorphane/quinidine) contre placebo dans l'agitation liée à la maladie d'Alzheimer, en double aveugle. Rôle de l'alprazolam et critère insomnie à confirmer. |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | Non applicable | Inconnu | 1400 | Cohorte prospective à Taïwan sur les risques et bénéfices des hypnotiques chez les personnes âgées : profils d'utilisation, efficacité, sécurité. |
-| [NCT00266409](https://clinicaltrials.gov/study/NCT00266409) | Phase 4 | Terminé | 418 | Niravam™ (alprazolam) associé à un ISRS/IRSN contre ISRS/IRSN seul dans le trouble anxieux généralisé ou le trouble panique. Lien avec l'insomnie non établi. |
-| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | Non applicable | Terminé | 170 | Auto-prise en charge pour arrêter les benzodiazépines chez les vétérans. Pertinent pour la dépendance, pas pour l'efficacité. |
-| [NCT03327506](https://clinicaltrials.gov/study/NCT03327506) | Phase 4 | Inconnu | 128 | Hypnose contre prémédication par alprazolam pour l'anxiété préopératoire en chirurgie gynécologique. Hors insomnie. |
-| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | Phase 2 | Terminé prématurément | 2 | Gabapentine dans la dépendance aux benzodiazépines. Arrêté après 2 patients. |
-| [NCT01146600](https://clinicaltrials.gov/study/NCT01146600) | Phase 2 | Terminé | 26 | Clarithromycine dans l'hypersomnie, phénotype opposé, sans alprazolam. |
+---
 
 ## Preuves de la Littérature
 
-Aucun essai randomisé n'évalue l'alprazolam dans l'insomnie. Les publications sont surtout observationnelles ou indirectes.
+Aucune publication ne teste directement l'alprazolam contre l'insomnie dans un essai contrôlé. Les références les plus pertinentes sont listées ci-dessous.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [33403184](https://pubmed.ncbi.nlm.nih.gov/33403184/) | 2020 | Étude comparative | Cureus | Alprazolam contre mélatonine pour les troubles du sommeil chez des patients hémodialysés. |
-| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Observationnelle rétrospective | Medicine | 116 patients coronariens insomniaques : moxibustion et acupuncture auriculaire contre alprazolam seul (groupe contrôle). |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Méta-analyse | Acta Pharm | Tranquillisants chez les personnes âgées atteintes de maladies chroniques : doses, résultats, effets indésirables. |
-| [35041261](https://pubmed.ncbi.nlm.nih.gov/35041261/) | 2022 | ECR (eszopiclone, pas alprazolam) | Brain Behav | Effets de l'eszopiclone sur le sommeil et la cognition dans la maladie d'Alzheimer. Sert de point de comparaison. |
-| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Préclinique (souris) | Aging | L'administration répétée d'alprazolam entraîne un dysfonctionnement mitochondrial et altère la mémoire dépendante de l'hippocampe. |
-| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Cohorte (zolpidem) | JHEP Rep | L'arrêt du zolpidem réduit les chutes et fractures chez les patients cirrhotiques. |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Modélisation économique | Value Health Reg Issues | Tendances et coût de l'usage des benzodiazépines : mémoire, dépendance, chutes, accidents de la route. |
-| [25532388](https://pubmed.ncbi.nlm.nih.gov/25532388/) | 2014 | Observationnelle en vie réelle | Zhongguo Zhong Yao Za Zhi | Maladies concomitantes et médicaments utilisés chez les patients insomniaques (données de 20 hôpitaux). |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Observationnelle | Sleep Med | Profils de prescription des hypnotiques dans une population sous soins gérés. |
-| [39295670](https://pubmed.ncbi.nlm.nih.gov/39295670/) | 2024 | Cas clinique | Cureus | Traitement homéopathique d'une insomnie persistante avec trouble anxieux généralisé. |
+| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Étude clinique rétrospective | Medicine | Moxibustion et acupuncture auriculaire associées à l'alprazolam chez des patients coronariens insomniaques ; l'effet de l'alprazolam n'est pas isolé |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Méta-analyse / observationnelle | Acta Pharm | Tranquillisants chez les personnes âgées atteintes de maladies chroniques : dose, résultats et effets indésirables |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Revue | Expert Opin Drug Metab Toxicol | Pharmacocinétique des anxiolytiques |
+| [7484706](https://pubmed.ncbi.nlm.nih.gov/7484706/) | 1995 | Revue | Am Fam Physician | Revue sur le trouble panique (indirecte) |
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Modèle prédictif / économique | Value Health Reg Issues | Usage des benzodiazépines en Croatie ; pertes de mémoire, dépendance, chutes et risque d'accident associés à l'usage prolongé |
+| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Cohorte | JHEP Reports | Déprescription du zolpidem chez les patients cirrhotiques : moins de chutes et de fractures (ne concerne pas l'alprazolam) |
+| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Préclinique (souris) | Aging | Dysfonction mitochondriale et altération de la consolidation de la mémoire après administrations répétées d'alprazolam |
+| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Étude de prescriptions | Sleep Med | Profils de prescription des « hypnotiques » dans une population de soins gérés |
+
+---
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61736700 | ALPRAZOLAM BIOGARAN 0,25 mg | Comprimé sécable | Non précisée dans les données |
-| 63143645 | ALPRAZOLAM ZENTIVA 0,25 mg | Comprimé sécable | Non précisée dans les données |
-| 66925605 | ALPRAZOLAM ARROW LAB 0,50 mg | Comprimé sécable | Non précisée dans les données |
-| 64275767 | ALPRAZOLAM ARROW 0,50 mg | Comprimé sécable | Non précisée dans les données |
-| 61200859 | ALPRAZOLAM VIATRIS 0,50 mg | Comprimé sécable | Non précisée dans les données |
+| 60647049 | XANAX 0,50 mg | comprimé sécable | Non renseignée (AMM annulée) |
+| 69847791 | XANAX 0,25 mg | comprimé sécable | Non renseignée (AMM annulée) |
+| 61736700 | ALPRAZOLAM BIOGARAN 0,25 mg | comprimé sécable | Non renseignée (AMM annulée) |
+| 63143645 | ALPRAZOLAM ZENTIVA 0,25 mg | comprimé sécable | Non renseignée (AMM annulée) |
+| 61200859 | ALPRAZOLAM VIATRIS 0,50 mg | comprimé sécable | Non renseignée (AMM annulée) |
+
+Au total, 20 AMM sont recensées, toutes annulées ; aucune AMM valide n'est disponible.
+
+---
 
 ## Considérations de Sécurité
 
-Aucune donnée de sécurité issue de la notice ANSM n'est disponible dans ce dossier, et aucune interaction médicamenteuse n'a été trouvée. Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances (non issues de la notice)** : trouble anxieux, trouble névrotique, trouble dysthymique, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, glaucome à angle ouvert, glaucome à angle fermé, obésité, syndrome d'apnée du sommeil (dont l'apnée obstructive), syndrome d'hypoventilation centrale congénitale, troubles liés à l'usage de substances et dépendance.
+- **Interactions Médicamenteuses** (100 interactions recensées ; principales) :
+  - **Majeures** : morphine, morphine liposomale (risque de dépression respiratoire et de sédation profonde).
+  - **Modérées** : aprépitant, bupropion, cimétidine, clarithromycine, clotrimazole, dronabinol, eliglustat, phénylbutyrate de glycérol, métoclopramide, miconazole.
+  - **Mineures** : antiacides (hydroxyde d'aluminium, carbonate de calcium, magaldrate, composés de magnésium), bétaméthasone, dexaméthasone.
+- **Autres signaux issus de la littérature** : risques de dépendance, de syndrome de sevrage, de chutes et d'altération cognitive, en particulier chez les personnes âgées.
 
-D'après l'analyse de plausibilité et la littérature associée, les points d'attention pour l'insomnie sont :
-- **Dépendance et sevrage** : risque de dépendance physique et d'aggravation des symptômes à l'arrêt (documenté chez des patients paniques, PMID 3282479).
-- **Sédation résiduelle** : somnolence le lendemain.
-- **Personnes âgées** : risque de chutes et de fractures.
-- **Cognition** : troubles de la mémoire lors d'une administration répétée (données précliniques chez la souris, PMID 37801512).
+Les mises en garde et contre-indications de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé et le mécanisme GABA-A est plausible, mais aucun essai randomisé ne démontre l'efficacité de l'alprazolam dans l'insomnie.
-- Le bénéfice potentiel ne peut pas être pesé face aux risques (dépendance, chutes, sédation), faute des données de sécurité de la notice ANSM, qui bloquent la suite de l'évaluation.
+- La prédiction repose uniquement sur le modèle et sur la pharmacologie de classe : aucun essai clinique n'est enregistré et la littérature est indirecte. Les risques connus des benzodiazépines pèsent contre cette indication, et toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications).
-- Obtenir les données de mécanisme d'action depuis DrugBank.
-- Identifier ou conduire un essai contrôlé de l'alprazolam dans l'insomnie, en particulier avec anxiété comorbide, et le comparer aux alternatives (mélatonine, autres hypnotiques).
-- Confirmer le rôle de l'alprazolam dans NCT01584440.
-- Compléter les indications originales et les textes d'indication des AMM.
+- Les données sur le mécanisme d'action (DrugBank).
+- Les mises en garde et contre-indications de la notice ANSM, nécessaires au dépistage de sécurité.
+- Des essais contrôlés randomisés évaluant l'alprazolam dans l'insomnie, comparés aux traitements de référence.
+- Une évaluation du rapport bénéfice/risque (dépendance, sevrage, chutes, cognition) et de la situation réglementaire des produits (AMM annulées).
 
-*Note : dans le même dossier, l'agoraphobie (score 99,56 %) relève d'un usage déjà établi, soutenu par plusieurs essais contrôlés et une méta-analyse en réseau de 2023 (niveau L1, Proceed with Guardrails). Ce n'est pas un repositionnement. Le torticolis paroxystique bénin du nourrisson (99,61 %) n'a aucune preuve (L5, Hold).*
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+**Note sur les autres indications prédites :**
+- **Agoraphobie** (score 99,56 %, niveau L3) : elle est soutenue par de nombreux essais anciens (1985-1997) portant sur l'alprazolam dans le trouble panique avec agoraphobie, et par une méta-analyse en réseau Cochrane de 2023. Elle recoupe cependant largement l'indication anxieuse d'origine et pourrait relever d'une extension sur étiquette plutôt que d'un véritable repositionnement. Les problèmes de sevrage et de dépendance, ainsi que la préférence actuelle pour les ISRS/IRSN et les TCC, limitent la recommandation. Elle reste une question de recherche.
+- **Torticolis paroxystique bénin du nourrisson** (score 99,61 %, niveau L5) : aucune donnée clinique, et l'usage des benzodiazépines chez le nourrisson soulève des préoccupations de sécurité majeures (dépression respiratoire, effets sur le neurodéveloppement). Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

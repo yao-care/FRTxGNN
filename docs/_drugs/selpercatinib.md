@@ -2,7 +2,7 @@
 layout: default
 title: Selpercatinib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 280
+nav_order: 697
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,31 +29,31 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Sélpercatinib : Des cancers à altération de RET à l'hypertension pulmonaire
+# Selpercatinib : D'un inhibiteur de RET en oncologie à l'hypertension pulmonaire
 
 ## Résumé en Une Phrase
 
-Le sélpercatinib est un inhibiteur sélectif de la kinase RET, dont la littérature associe l'usage aux cancers du poumon non à petites cellules avec fusion de RET et au cancer médullaire de la thyroïde. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais **aucun essai clinique** et **aucune publication** ne soutiennent directement cette indication. Cette prédiction repose uniquement sur le modèle.
+Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisations françaises (RETSEVMO) sont aujourd'hui toutes annulées. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent directement (les 3 publications retrouvées portent sur d'autres sujets).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (la littérature mentionne le CBNPC avec fusion de RET et le cancer médullaire de la thyroïde) |
+| Indication Originale | Non renseignée dans les données compilées (texte d'indication vide pour les 3 AMM) |
 | Nouvelle Indication Prédite | Hypertension pulmonaire |
 | Score de Prédiction TxGNN | 99,18 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | AMM annulées uniquement |
 | Nombre d'AMM | 3 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le sélpercatinib est un inhibiteur de kinase hautement sélectif de RET, avec très peu d'activité sur le VEGFR. Son efficacité a été documentée dans des cancers dépendants de RET, mais rien n'indique qu'il soit applicable mécanistiquement à l'hypertension pulmonaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Selon les informations connues, selpercatinib est un inhibiteur sélectif de la kinase RET. Les publications retrouvées le situent dans le cancer du poumon non à petites cellules avec fusion de RET et dans le carcinome médullaire de la thyroïde, mais l'indication d'origine n'est pas documentée dans les données d'AMM.
 
-**Aucun lien mécanistique établi.** RET n'a pas de rôle reconnu dans le remodelage vasculaire pulmonaire. Le score élevé (99,18 %) provient d'une prédiction du graphe de connaissances, sans confirmation clinique ni préclinique dans les données fournies. Les indications d'origine et le mécanisme d'action manquant, la plausibilité mécanistique ne peut pas être vérifiée par rapport aux données sources.
+Le score TxGNN est très élevé (0,992), mais il provient d'une inférence sur graphe de connaissances. Aucune voie biologique reliant l'inhibition de RET à l'hypertension pulmonaire n'a été identifiée. Le sens de l'effet est inconnu : certains inhibiteurs de kinases (par exemple le dasatinib) ont été associés à l'hypertension artérielle pulmonaire, de sorte qu'un inhibiteur de RET pourrait aussi bien aggraver la maladie que l'améliorer.
 
-Point d'attention : l'hypertension artérielle systémique est un effet indésirable connu du sélpercatinib. Cela constitue un signal de sécurité et non un argument en faveur de l'indication prédite.
+Les autres prédictions (migraine, rang 2 ; migraine avec aura du tronc cérébral, rang 3) ne reposent pas non plus sur un lien mécanistique établi. La seconde est probablement corrélée à la première et ne constitue donc pas une preuve indépendante.
 
 ## Preuves d'Essais Cliniques
 
@@ -61,31 +61,27 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune de ces publications n'étudie le sélpercatinib dans l'hypertension pulmonaire. Elles concernent son usage ou son profil de sécurité dans d'autres contextes.
+Les publications ci-dessous ont été retrouvées pour ce médicament, mais aucune n'étudie l'hypertension pulmonaire.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Pharmacovigilance (base FAERS) | Front Pharmacol | Comparaison des événements indésirables du pralsétinib et du sélpercatinib en vie réelle |
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Cohorte rétrospective | Ther Adv Med Oncol | Sélpercatinib dans le CBNPC avec fusion de RET (étude SIREN), patients traités via un programme d'accès |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Rapport de cas | Cureus | Cancer médullaire de la thyroïde métastatique dans la NEM 2B (mutation RET M918T) : prise en charge à long terme et thérapie ciblée |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Étude de pharmacovigilance en vie réelle | Frontiers in Pharmacology | Comparaison des profils d'événements indésirables du pralsétinib et du selpercatinib (base FAERS) |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Analyse rétrospective | Therapeutic Advances in Medical Oncology | Étude SIREN : selpercatinib dans le CBNPC avec fusion de RET, via un programme d'accès |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Rapport de cas | Cureus | Carcinome médullaire de la thyroïde métastatique dans la NEM 2B (mutation RET M918T) : difficultés de prise en charge à long terme et thérapie ciblée |
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné dans les données disponibles.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 66580529 | RETSEVMO 40 mg, gélule | Gélule |
-| 65136400 | RETSEVMO 80 mg, comprimé pelliculé | Comprimé pelliculé |
-| 61648467 | RETSEVMO 80 mg, gélule | Gélule |
-
-Titulaire : ELI LILLY NEDERLAND BV (Pays-Bas).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66580529 | RETSEVMO 40 mg, gélule | Gélule | Non renseignée (AMM annulée) |
+| 65136400 | RETSEVMO 80 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61648467 | RETSEVMO 80 mg, gélule | Gélule | Non renseignée (AMM annulée) |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur sélectif de la kinase RET) |
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de kinase RET) |
 | Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
 | Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
 | Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
@@ -93,23 +89,28 @@ Titulaire : ELI LILLY NEDERLAND BV (Pays-Bas).
 
 ## Considérations de Sécurité
 
-- **Mise en garde connue** : l'hypertension artérielle systémique est un effet indésirable connu du sélpercatinib. Cela est particulièrement préoccupant dans un contexte d'hypertension pulmonaire.
+- **Interactions Médicamenteuses** : 100 interactions ont été recensées dans les données compilées ; les principales, de niveau majeur, concernent :
+  - les antiacides et inhibiteurs de la sécrétion gastrique : famotidine, ranitidine, cimétidine, oméprazole, rabéprazole, dexlansoprazole, oxyde de magnésium ;
+  - l'aprépitant ;
+  - la clarithromycine ;
+  - la dexaméthasone.
+- Des interactions de niveau modéré concernent notamment l'hydrocortisone, la triamcinolone, la bétaméthasone, le budésonide, la pioglitazone, le lopéramide, le bisacodyl, la saxagliptine et le polyéthylène glycol.
 
-Pour les autres informations de sécurité (contre-indications, interactions médicamenteuses), veuillez consulter la notice.
+Les mises en garde et contre-indications de la notice n'ont pas pu être obtenues : veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, aucune publication ciblant l'hypertension pulmonaire et aucun lien mécanistique plausible. Un effet indésirable connu (hypertension systémique) va dans le sens opposé.
-- Les deux autres prédictions (migraine, migraine avec aura du tronc cérébral) sont aussi au niveau L5 et sans aucune preuve. Elles semblent être des artefacts du graphe de connaissances.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication sur l'hypertension pulmonaire, et sans lien mécanistique identifié. Un risque d'effet inverse (aggravation) ne peut pas être exclu. Toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice ANSM (mises en garde, contre-indications), une lacune bloquante pour le criblage de sécurité
-- Indications approuvées et mécanisme d'action détaillé (DrugBank)
-- Données précliniques montrant un rôle de RET dans la vasculopathie pulmonaire
-- Analyse du signal d'hypertension avant toute poursuite de l'évaluation
+- Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
+- Données détaillées sur le mécanisme d'action (par exemple via l'API DrugBank)
+- Données précliniques ou mécanistiques sur le rôle de RET dans l'hypertension pulmonaire, avec la direction de l'effet
+- Revue de la littérature sur les signaux de toxicité pulmonaire ou vasculaire des inhibiteurs de kinases
+- Clarification du statut réglementaire actuel et de l'indication d'origine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

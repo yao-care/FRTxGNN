@@ -2,7 +2,7 @@
 layout: default
 title: Nicorandil
 parent: Preuves modérées (L3-L4)
-nav_order: 213
+nav_order: 535
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,33 +29,32 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Nicorandil : De l'Indication d'Origine (non renseignée) à l'Hyperplasie Bénigne de la Prostate
+# Nicorandil : De l'angor chronique stable à l'hyperplasie bénigne de la prostate
 
 ## Résumé en Une Phrase
 
-Nicorandil est un vasodilatateur, ouvreur des canaux K-ATP et donneur de nitrate, commercialisé en France. Les données ANSM fournies ne précisent pas son indication d'origine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hyperplasie Bénigne de la Prostate (HBP)**,
-mais cette piste ne repose que sur **0 essai clinique** et **3 publications** (1 étude préclinique chez l'animal et 2 revues narratives).
+Nicorandil est un vasodilatateur ouvreur des canaux potassiques ATP-dépendants et donneur de monoxyde d'azote, utilisé à l'origine dans le traitement de l'angor chronique stable.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hyperplasie bénigne de la prostate (HBP)**, mais **aucun essai clinique** n'est enregistré et seules **3 publications** (revues et étude animale) soutiennent actuellement cette piste.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM fournies |
+| Indication Originale | Angor chronique stable (d'après les données pharmacologiques ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
 | Score de Prédiction TxGNN | 99,71 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 14 |
+| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
+| Nombre d'AMM | 14 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base. Sur la base des informations connues, le nicorandil est un ouvreur des canaux potassiques ATP-dépendants (K-ATP) et un donneur de nitrate. Ces deux propriétés provoquent une vasodilatation.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques connues, le nicorandil ouvre les canaux potassiques sensibles à l'ATP (sous-unités Kir6.1 et Kir6.2) et libère du monoxyde d'azote, ce qui entraîne une vasodilatation. Son efficacité dans l'angor chronique stable repose sur cet effet vasculaire.
 
-Plusieurs auteurs proposent qu'une baisse du débit sanguin prostatique, voire une ischémie de la prostate, contribue à l'HBP et aux symptômes du bas appareil urinaire. Des données cliniques associent l'HBP à des maladies athéroscléreuses comme l'hypertension. Un vasodilatateur pourrait donc, en théorie, corriger ce déficit de perfusion.
+L'hypothèse avancée dans la littérature est qu'une ischémie prostatique et une baisse du flux sanguin de la prostate contribuent à l'HBP et aux symptômes du bas appareil urinaire (SBAU). Dans un modèle de rat spontanément hypertendu, l'ischémie prostatique a induit une hyperplasie de la prostate ventrale, et le nicorandil, traité pendant six semaines, a été étudié comme vasodilatateur susceptible d'améliorer la perfusion prostatique.
 
-Le soutien expérimental reste limité. Une étude chez le rat spontanément hypertendu (SHR) a montré qu'une ischémie prostatique induit une hyperplasie de la prostate ventrale, et le rat a été traité par nicorandil pendant six semaines. Le score TxGNN élevé est cohérent avec cette hypothèse, mais il ne constitue pas une preuve clinique.
+Ce raisonnement est plausible mais reste au stade de l'hypothèse et de l'étude préclinique. Le score TxGNN, très élevé, est une prédiction informatique et ne remplace pas une validation clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -65,41 +64,55 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | Étude préclinique chez l'animal | Scientific Reports | Chez le rat SHR, l'ischémie prostatique induit une hyperplasie prostatique ventrale. Le nicorandil a été administré pendant 6 semaines, avec mesure de la pression artérielle, du flux sanguin prostatique et de marqueurs de stress oxydatif. |
-| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | Revue | Nihon Yakurigaku Zasshi | Le flux sanguin prostatique est présenté comme une cible de l'HBP. Une altération de l'apport sanguin du bas appareil urinaire favoriserait son développement, avec un lien avec les maladies athéroscléreuses. |
-| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | Revue | Nihon Yakurigaku Zasshi | Les symptômes du bas appareil urinaire sont abordés comme une dysfonction vasculaire, avec l'effet du nicorandil comme vasodilatateur (résumé non disponible). |
+| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | Étude animale (rat SHR) | Scientific Reports | L'ischémie prostatique induit une hyperplasie de la prostate ventrale chez le rat hypertendu ; le nicorandil a été administré pendant six semaines pour évaluer le flux sanguin prostatique et les marqueurs de stress oxydatif |
+| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | Revue | Nihon Yakurigaku Zasshi | Le flux sanguin prostatique comme cible dans l'HBP ; l'altération de l'apport sanguin du bas appareil urinaire pourrait favoriser l'HBP, avec une association avec les maladies athéroscléreuses |
+| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | Revue | Nihon Yakurigaku Zasshi | Les SBAU vus comme un dysfonctionnement vasculaire ; effet du nicorandil comme vasodilatateur (résumé non disponible) |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
+Toutes les AMM listées ci-dessous sont annulées ; le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 64614712 | NICORANDIL EG 10 mg, comprimé sécable | Comprimé sécable | DOUBLE-E PHARMA (Irlande) |
-| 66925249 | NICORANDIL ALMUS 10 mg, comprimé sécable | Comprimé sécable | BIOGARAN |
-| 61503831 | NICORANDIL ZENTIVA 10 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE |
-| 61630825 | NICORANDIL SANDOZ 10 mg, comprimé sécable | Comprimé sécable | SANDOZ |
-| 61536799 | NICORANDIL ZENTIVA 20 mg, comprimé | Comprimé | ZENTIVA FRANCE |
+| 64614712 | NICORANDIL EG 10 mg | Comprimé sécable | Annulée |
+| 66925249 | NICORANDIL ALMUS 10 mg | Comprimé sécable | Annulée |
+| 61503831 | NICORANDIL ZENTIVA 10 mg | Comprimé sécable | Annulée |
+| 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Annulée |
+| 61786176 | IKOREL 20 mg | Comprimé | Annulée |
+
+Au total, 14 AMM figurent dans les données (toutes en monothérapie et toutes annulées).
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune mise en garde ni contre-indication n'a pu être extraite de la notice ANSM, et aucune interaction médicamenteuse n'a été trouvée dans la base.
+**Interactions et pharmacologie :** les données compilées signalent uniquement une activité sur les canaux potassiques Kir6.1 et Kir6.2, qui correspond au mécanisme pharmacologique du médicament et non à une interaction médicamenteuse cliniquement documentée.
 
-À titre d'hypothèse issue de l'analyse (et non d'une donnée de la notice) : le principal point d'attention serait une hypotension additive chez l'homme âgé, en particulier en association avec des alpha-bloquants ou des inhibiteurs de la PDE5, fréquemment utilisés dans l'HBP. Ce risque doit être évalué avant tout travail clinique.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose sur un score de modèle élevé, une seule étude animale et deux revues narratives, sans aucun essai clinique. Les données de sécurité de la notice sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité. À ce stade, il s'agit d'une question de recherche et non d'une candidature prête à être développée.
+- L'hypothèse repose uniquement sur une étude animale et deux revues, sans aucun essai clinique, et le médicament ne dispose plus d'aucune AMM valide en France. Le niveau de preuve (L4) ne permet pas d'aller plus loin pour l'instant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indications approuvées), élément bloquant
-- Obtenir les données détaillées sur le mécanisme d'action via DrugBank
-- Évaluer le risque d'hypotension chez l'homme âgé, notamment avec les alpha-bloquants et les inhibiteurs de la PDE5
-- Rechercher des données cliniques ou des études observationnelles chez des patients atteints d'HBP traités par nicorandil
-- Confirmer l'indication d'origine, absente des textes d'AMM fournis
+- Les mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité)
+- Les données détaillées sur le mécanisme d'action
+- Des données cliniques chez l'humain sur la perfusion prostatique ou les SBAU
+- Une clarification de la raison de l'annulation des AMM et de la faisabilité d'une remise sur le marché
 
-Les autres indications prédites (alopécie, hypotrichose, alopécie areata, arthrose) n'ont ni essai ni publication associés (niveau L5). Elles restent en Hold.
+## Autres Indications Prédites (pour information)
+
+Les autres prédictions n'ont aucune preuve clinique ni bibliographique dans les données compilées ; elles sont toutes de niveau L5 avec une recommandation Hold.
+
+| Indication Prédite | Score TxGNN | Remarque |
+|------|------|------|
+| Alopécie | 99,61 % | Lien hypothétique avec les ouvreurs de canaux K-ATP (type minoxidil), non étayé |
+| Hypotrichose simple du cuir chevelu | 99,51 % | Maladie génétique rare, justification faible |
+| Hypotrichose congénitale avec milium | 99,51 % | Probable proximité dans le graphe de connaissances, mécanisme spéculatif |
+| Pelade diffuse | 99,48 % | Maladie auto-immune, mécanisme du nicorandil non adapté |
+| Susceptibilité à l'arthrose | 99,44 % | Aucun lien mécanistique identifiable |
+| Arthrose | 99,40 % | Lien spéculatif via les canaux K-ATP ou le NO, non étayé |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Colchicine
-parent: Preuves modérées (L3-L4)
-nav_order: 90
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 196
+evidence_level: L5
 indication_count: 3
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,97 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Colchicine : Des usages décrits dans la littérature (goutte, fièvre méditerranéenne familiale) au paludisme à Plasmodium falciparum
+# Colchicine : De la Goutte et de la Fièvre Méditerranéenne Familiale au Paludisme à *Plasmodium falciparum*
 
 ## Résumé en Une Phrase
 
-La colchicine est commercialisée en France (Colchimax, Colchicine Opocalcium). La littérature fournie la décrit comme utilisée surtout dans la goutte et la fièvre méditerranéenne familiale.
-Le modèle TxGNN prédit qu'elle pourrait être efficace contre le **paludisme à Plasmodium falciparum**, avec un score élevé (99,60 %).
-Cette prédiction n'est soutenue que par **0 essai clinique** et **6 références de littérature** (5 études distinctes, dont 4 in vitro), qui portent sur d'autres composés ciblant le cytosquelette et non sur la colchicine elle-même.
+La colchicine est un médicament anti-inflammatoire utilisé à l'origine dans le traitement de la goutte et de la fièvre méditerranéenne familiale.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **paludisme à *Plasmodium falciparum***, mais **aucun essai clinique** ne soutient cette direction et seules **2 publications** indirectes (études précliniques) ont été identifiées.
+Il s'agit donc d'une prédiction purement computationnelle, à ce stade.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM de l'ANSM (texte d'indication vide). La littérature fournie cite la goutte et la fièvre méditerranéenne familiale |
-| Nouvelle Indication Prédite | Paludisme à Plasmodium falciparum |
+| Indication Originale | Goutte ; fièvre méditerranéenne familiale (le texte d'indication des AMM françaises n'est pas renseigné ; indications issues du graphe de connaissances) |
+| Nouvelle Indication Prédite | Paludisme à *Plasmodium falciparum* |
 | Score de Prédiction TxGNN | 99,60 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (aucune en cours de validité) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base utilisée. D'après les informations connues, la colchicine se lie à la tubuline et perturbe les microtubules. Ce mécanisme antimitotique est celui qui fonde le rapprochement avec le paludisme.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, la colchicine se lie à la tubuline et perturbe la polymérisation des microtubules. Son efficacité dans la goutte et la fièvre méditerranéenne familiale repose sur cet effet : réduction de la chimiotaxie des neutrophiles et de l'activation de l'inflammasome, avec diminution de l'inflammation dépendante de l'IL-1β.
 
-Le lien avec la nouvelle indication est indirect. Plusieurs études in vitro montrent que des composés ciblant le cytosquelette (tubuline, actine) inhibent le développement intra-érythrocytaire de *P. falciparum*. Les auteurs de 1989 notent que les tubulines du parasite semblent différer des protéines de mammifères. Ils décrivent aussi un effet du colcémide, un analogue de la colchicine, sur la synthèse protéique du parasite, semblable à celui des tubulozoles. Cela rend l'hypothèse plausible, sans la démontrer.
+*Plasmodium falciparum* dépend des microtubules pour la formation du fuseau mitotique et la division cellulaire. Un médicament ciblant la tubuline est donc biologiquement plausible. Toutefois, le lien avec l'indication originale (maladies inflammatoires) est indirect : il s'agit d'une hypothèse de mécanisme, et non d'une similarité entre maladies.
 
-Le lot de données ne contient **aucune donnée clinique propre à la colchicine** dans le paludisme. Le score TxGNN élevé est une prédiction informatique seulement. L'index thérapeutique étroit de la colchicine et l'existence d'antipaludiques efficaces rendent un développement à court terme peu attractif.
+Cette plausibilité reste fragile. Les deux publications identifiées ne portent pas sur l'efficacité antipaludique de la colchicine : l'une concerne la curcumine et les microtubules du parasite, l'autre l'expression du gène pfmdr1 et la sensibilité à la chloroquine. De plus, l'indice thérapeutique étroit de la colchicine et sa toxicité pour l'hôte (digestive, myélosuppression) aux concentrations antiparasitaires sont des obstacles majeurs. Le score élevé de TxGNN est une prédiction informatique uniquement.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Littérature
+---
 
-Aucune de ces publications n'étudie la colchicine directement. Il n'y a ni ECR ni revue systématique. Les références sont listées par ordre de pertinence et non par type.
+## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | Étude in vitro | Cell Biol Int Rep | Neuf substances liant la tubuline et la cytochalasine B (actine) testées sur *P. falciparum*. Les tubulines du parasite semblent différentes de celles des mammifères. Le tubulozole-T apparaît comme un antipaludique prometteur (l'entrée PMID 2670249 en est un doublon) |
-| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | Étude in vitro | Antimicrob Agents Chemother | Mode d'action des tubulozoles : la synthèse protéique diminue rapidement, sans effet primaire sur la glycolyse, les protéases ou les acides nucléiques. Le colcémide a un effet comparable sur la synthèse protéique |
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | Étude in vitro | PLoS One | Effets cellulaires de la curcumine sur *P. falciparum*, dont une perturbation des microtubules du parasite |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | Étude in vitro / cellulaire | Mol Cell Biol | Expression du gène pfmdr1 dans des cellules de mammifères associée à une sensibilité accrue à la chloroquine. Lien indirect avec la colchicine (transporteurs ABC) |
-| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Étude observationnelle | Clin Exp Immunol | Anticorps anti-filaments intermédiaires chez 82 % de 78 patients atteints de paludisme aigu. Intérêt limité pour l'efficacité thérapeutique |
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro / préclinique | PloS one | La curcumine (et non la colchicine) perturbe les microtubules de *P. falciparum* ; appui indirect à l'idée d'une cible tubuline |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro / préclinique | Molecular and cellular biology | L'expression de pfmdr1 dans des cellules de mammifère augmente la sensibilité à la chloroquine ; sans lien direct avec la colchicine |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 68066715 | COLCHICINE OPOCALCIUM 1 mg, comprimé sécable (Laboratoires Mayoly Spindler) | Comprimé sécable |
-| 61331730 | COLCHIMAX, comprimé pelliculé sécable (Laboratoires Mayoly Spindler) | Comprimé pelliculé sécable |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 68066715 | COLCHICINE OPOCALCIUM 1 mg, comprimé sécable (annulée) | Comprimé sécable | Non renseignée |
+| 61331730 | COLCHIMAX, comprimé pelliculé sécable (annulée) | Comprimé pelliculé sécable | Non renseignée |
 
-Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM fournies.
+---
 
 ## Considérations de Sécurité
 
-- **Toxicité** : la littérature fournie souligne l'index thérapeutique étroit de la colchicine, sans distinction nette entre doses non toxiques, toxiques et létales. Les intoxications non intentionnelles sont fréquentes et souvent de mauvais pronostic (PMID 20586571).
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : insuffisance hépatique, insuffisance rénale, maladies hématologiques (thrombocytopénie, leucopénie, agranulocytose, neutropénie sous toutes ses formes, anémie aplasique), ulcère gastro-duodénal, maladies diarrhéiques, myopathie et maladies musculaires, rhabdomyolyse, paralysie périodique familiale, néphropathie aiguë urique.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales ci-dessous) :
+  - *Majeures* : aprépitant, clarithromycine, éliglustat, rolapitant, rosuvastatine, simvastatine, cobicistat, déférifrone.
+  - *Modérées* : métronidazole, cimétidine, éluxadoline, miconazole, tinidazole, déférasirox, ticagrélor, chloroquine, benznidazole, disulfirame, fostamatinib, chlorure de strontium Sr-89.
 
-Aucune mise en garde ni contre-indication issue de la notice ANSM n'est disponible, et aucune interaction médicamenteuse n'a été retrouvée. Veuillez consulter la notice pour les informations de sécurité.
+Il est à noter que la chloroquine, antipaludique de référence, présente une interaction modérée avec la colchicine, ce qui est pertinent pour toute association envisagée dans le paludisme.
+
+Pour les mises en garde officielles, veuillez consulter la notice, car les données de la notice ne sont pas disponibles dans les informations compilées.
+
+---
+
+## Autres Prédictions Examinées
+
+- **Fièvre méditerranéenne familiale, forme autosomique dominante** (score 99,38 % ; niveau L4) : la colchicine est déjà le traitement de première intention de la fièvre méditerranéenne familiale, qui est une indication d'origine. Il s'agit d'une variante d'une indication existante, donc d'une question de classification des indications et non d'un véritable repositionnement. Les 20 publications identifiées sont essentiellement des revues narratives, sans essai clinique ni données contrôlées spécifiques à ce sous-type.
+- **Dermatofibrosarcome protubérant** (score 99,37 % ; niveau L5 ; Hold) : aucune donnée clinique ni bibliographique. L'hypothèse antimitotique est spéculative, la maladie étant pilotée par la fusion COL1A1-PDGFB et traitée par chirurgie et imatinib. La toxicité de la colchicine limite son usage comme antinéoplasique.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score de modèle et sur des études in vitro portant sur d'autres composés. Aucun essai clinique ni donnée propre à la colchicine ne la soutient (niveau L4).
-- La sécurité n'a pas pu être évaluée faute de notice ANSM, et l'index thérapeutique étroit du médicament limite l'intérêt d'un développement dans une indication où des traitements efficaces existent déjà.
+- La prédiction pour le paludisme repose uniquement sur le modèle (L5), sans essai clinique et avec deux études précliniques indirectes. L'indice thérapeutique étroit de la colchicine et l'absence d'AMM en vigueur en France renforcent la prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions), qui bloque le passage au criblage de sécurité.
-- Obtenir les données de mécanisme d'action depuis DrugBank.
-- Disposer d'études in vitro ou animales testant directement la colchicine (ou le colcémide) sur *P. falciparum*, avec des concentrations atteignables sans toxicité chez l'humain.
-- Comparer la valeur ajoutée potentielle aux antipaludiques existants.
-
-**Remarque :** dans le même lot de données, la prédiction de rang 2 (fièvre méditerranéenne familiale) est bien mieux étayée (niveau L3, décision « Proceed with Guardrails »). La colchicine y est décrite comme traitement de première ligne, ce qui en fait un usage quasi établi plutôt qu'un repositionnement.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
+- Données détaillées sur le mécanisme d'action (via DrugBank)
+- Mises en garde et contre-indications officielles issues de la notice ANSM (données bloquantes pour le criblage de sécurité)
+- Études in vitro et précliniques directes de la colchicine sur *P. falciparum*, avec marge de sécurité entre concentrations antiparasitaires et toxicité chez l'hôte
+- Évaluation des interactions avec les antipaludiques, notamment la chloroquine
+- Clarification du statut réglementaire (AMM annulées) et de la voie d'administration requise
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

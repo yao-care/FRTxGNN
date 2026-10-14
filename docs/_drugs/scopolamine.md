@@ -2,7 +2,7 @@
 layout: default
 title: Scopolamine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 278
+nav_order: 693
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,32 +29,43 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Scopolamine : De l'indication originale (non renseignée) au Syndrome de la Queue de Cheval
+# Scopolamine : De la maladie ulcéreuse gastroduodénale au syndrome de la queue de cheval
 
 ## Résumé en Une Phrase
 
-La scopolamine est un antagoniste muscarinique commercialisé en France sous forme de dispositif transdermique (Scopoderm TTS). L'indication approuvée n'est pas renseignée dans les données ANSM disponibles.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de la queue de cheval**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction.
+La scopolamine est un anticholinergique (antagoniste muscarinique) utilisé à l'origine, entre autres, dans la maladie ulcéreuse gastroduodénale, le mal des transports et le syndrome de l'intestin irritable.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de la queue de cheval**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM |
+| Indication Originale | Maladie ulcéreuse gastroduodénale (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
 | Nouvelle Indication Prédite | Syndrome de la queue de cheval |
 | Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances pharmacologiques générales, la scopolamine est un antagoniste muscarinique non sélectif. Elle réduit notamment la contractilité du détrusor (le muscle de la vessie).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la scopolamine est un antagoniste muscarinique aux effets antispasmodiques et anticholinergiques sur les muscles lisses. Son efficacité est reconnue dans plusieurs indications (mal des transports, troubles digestifs spastiques, uvéite, cycloplégie).
 
-Le lien avec le syndrome de la queue de cheval passe uniquement par les troubles vésicaux associés. Or cette pathologie provoque le plus souvent une rétention urinaire ou une vessie aréflexique. Un anticholinergique risque donc d'**aggraver la rétention** au lieu de la soulager. Le mécanisme est ainsi faible, voire potentiellement contre-productif.
+Le lien plausible avec le syndrome de la queue de cheval concerne uniquement la prise en charge du dysfonctionnement vésical secondaire, par réduction de l'hyperactivité du détrusor. La scopolamine ne traiterait en aucun cas la cause sous-jacente (la compression nerveuse), qui nécessite une décompression chirurgicale.
 
-Le score TxGNN très élevé (99,99 %) provient d'une prédiction fondée sur un graphe de connaissances. Il ne s'appuie sur aucune donnée clinique. Il doit donc être interprété avec beaucoup de prudence.
+Le score TxGNN est très élevé (0,9999), mais il repose uniquement sur la proximité dans le graphe de connaissances. Aucune donnée clinique ou bibliographique ne le confirme.
+
+### Autres indications prédites (à titre indicatif)
+
+| Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
+|------|------|------|------|------|
+| 2 | Vessie neurogène (entrée obsolète dans l'ontologie) | 99,98 % | L5 | Mécanisme plausible (antimuscarinique), mais effets centraux de la scopolamine ; des agents plus sélectifs existent |
+| 3 | Conjonctivite papillaire | 99,98 % | L5 | Pas de mécanisme clair contre les facteurs allergiques ou mécaniques |
+| 4 | Conjonctivite atopique | 99,80 % | L5 | Bénéfice probablement faible, risque d'aggravation de la sécheresse oculaire |
+| 5 | Conjonctivite de la rosacée | 99,40 % | L5 | Lien faible, potentiellement contre-productif (réduction de la sécrétion lacrymale) |
+| 6 | Conjonctivite vernale | 99,08 % | L5 | La seule utilité concevable serait un confort par cycloplégie |
 
 ## Preuves d'Essais Cliniques
 
@@ -68,36 +79,30 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63958849 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (BAXTER) | Dispositif | Non renseignée |
-| 68731823 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (DIFARMED, Espagne) | Dispositif | Non renseignée |
+| 63958849 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (BAXTER) | Dispositif | Non renseignée (AMM annulée) |
+| 68731823 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (DIFARMED, Espagne) | Dispositif | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans la base interrogée.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : hypertension, insuffisance hépatique et maladie du foie, épilepsie, bronchopneumopathie chronique obstructive, ulcère gastrique, troubles anxieux et névrotiques, porphyries, maladie rénale, pancréatite, maladie de la vésicule biliaire, thrombocytopénie, glaucome à angle ouvert, troubles psychotiques et schizophréniformes, diabète et acidocétose diabétique, hypertrophie bénigne de la prostate, neutropénie et agranulocytose, coma hépatique.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales, de niveau modéré : toxine botulique de type A, fentanyl, phényléphrine, acébutolol, codéine, dihydrocodéine, tramadol, alfentanil, éthanol, amitriptyline, amantadine, hyoscyamine, lopéramide, chlorphéniramine, acrivastine, aclidinium, acétylcholine et phényltoloxamine. Deux interactions mineures : paracétamol et hydrochlorothiazide. Beaucoup relèvent d'effets anticholinergiques ou sédatifs additifs.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication.
-- Le mécanisme antimuscarinique pourrait aggraver la rétention urinaire typique de la pathologie.
-- Les cinq autres indications prédites sont également au niveau L5 avec une décision Hold :
-  - vessie neurogène (terme obsolète) ;
-  - conjonctivite papillaire ;
-  - conjonctivite atopique ;
-  - conjonctivite de la rosacée ;
-  - conjonctivite vernale.
-- Leur plausibilité mécanistique est faible, sauf pour la vessie neurogène. Pour celle-ci, il existe déjà des antimuscariniques mieux caractérisés et moins délétères pour le système nerveux central.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme ne couvrirait au mieux qu'un traitement symptomatique des troubles vésicaux, pas la maladie elle-même.
+- Les AMM françaises sont toutes annulées, et les données de sécurité issues de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée). Ce point est bloquant pour tout criblage de sécurité.
-- Obtenir les données détaillées sur le mécanisme d'action via DrugBank.
-- Rechercher activement des essais cliniques et des publications pour le syndrome de la queue de cheval.
-- Vérifier la faisabilité de la voie d'administration (aujourd'hui uniquement transdermique).
-- Faire correspondre le terme de maladie obsolète (vessie neurogène) à une entrée d'ontologie actuelle avant toute revue.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
+- Récupération et analyse de la notice officielle (ANSM) pour les mises en garde et contre-indications
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Revue de la littérature sur les antimuscariniques dans la dysfonction vésicale neurogène, et comparaison avec des agents périphériquement sélectifs
+- Évaluation de la compatibilité de la voie d'administration (seule la forme transdermique a été commercialisée en France)
+- Évaluation du profil bénéfice/risque, notamment les effets centraux (sédation, confusion) chez les patients concernés
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Sotatercept
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 288
+nav_order: 712
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,99 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sotatercept : De l'hypertension artérielle pulmonaire à la leucémie lymphoblastique aiguë
+# Sotatercept : D'une indication originale non documentée à la Leucémie lymphoblastique aiguë
 
 ## Résumé en Une Phrase
 
-Sotatercept est commercialisé en France sous le nom WINREVAIR. Les données fournies ne précisent pas son indication d'origine ; selon les connaissances générales, il s'agit de l'hypertension artérielle pulmonaire (HTAP), à vérifier auprès de l'ANSM.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie lymphoblastique aiguë**, avec un score élevé (99,78 %).
-Cette prédiction repose uniquement sur le modèle : **0 essai clinique** et **0 publication** ne la soutiennent actuellement.
+Sotatercept est une protéine de fusion du récepteur de l'activine de type IIA (Fc), qui piège les ligands de la famille de l'activine et des GDF/BMP. Les données compilées pour ce rapport ne mentionnent aucune indication originale exploitable.
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **leucémie lymphoblastique aiguë**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données (HTAP selon les connaissances générales, à vérifier) |
+| Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Leucémie lymphoblastique aiguë |
 | Score de Prédiction TxGNN | 99,78 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Autorisations annulées uniquement |
 | Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
+---
+
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données. D'après l'analyse de l'Evidence Pack, le sotatercept est un piège à ligands de type protéine de fusion Fc du récepteur de l'activine de type IIA (ActRIIA-Fc). Il capte l'activine, les GDF8/11 et certaines BMP.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le sotatercept est un piège à ligands (activine, GDF/BMP) fondé sur le récepteur de l'activine de type IIA. L'indication originale n'est pas renseignée dans les données d'AMM compilées, ce qui empêche de comparer l'indication d'origine et la nouvelle indication.
 
-**Pour la leucémie lymphoblastique aiguë, il n'existe pas de lien mécanistique clair.** Aucun rôle établi de cet axe de signalisation dans la biologie de cette leucémie n'a été identifié. Le score élevé est une prédiction issue du graphe de connaissances, pas une preuve. De plus, le sotatercept augmente l'hémoglobine et les plaquettes, ce qui complique tout usage dans une hémopathie maligne.
+La signalisation de la famille activine/TGF-bêta a été évoquée dans la régulation de l'hématopoïèse. Toutefois, aucun lien direct et étayé avec la physiopathologie de la leucémie lymphoblastique aiguë n'est établi dans les données disponibles.
 
-Les autres prédictions du modèle sont de même nature (niveau L5, sans essai ni publication) :
-- **Rétinopathie diabétique** (sévère non proliférante et forme générale) et **cataracte diabétique** : lien spéculatif ou absent. Le sotatercept a des effets vasculaires connus (télangiectasies, saignements), ce qui soulève des questions de sécurité oculaire.
-- **Carcinomes urothéliaux et cancer du sein HER2 positif** : seul un lien générique et dépendant du contexte avec la signalisation activine/TGF-bêta existe. Les scores quasi identiques entre sous-types urothéliaux suggèrent des prédictions corrélées plutôt que des signaux indépendants.
-- **Ostéoporose médicamenteuse** : c'est la prédiction la plus cohérente sur le plan biologique. La signalisation de l'activine régule le remodelage osseux, et des protéines de fusion activin receptor-Fc ont été explorées pour leurs effets sur la densité minérale osseuse. Elle est classée « Research Question ». Une revue ciblée de la littérature sur les données osseuses des ActRIIA-Fc serait la première étape.
+Le score élevé (0,998) est donc une sortie purement computationnelle. Il doit être considéré comme une hypothèse à vérifier, et non comme une preuve d'efficacité.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
+
+---
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61615894 | WINREVAIR 45 mg (MERCK SHARP & DOHME, Pays-Bas) | Poudre et solvant pour solution injectable | Non renseignée dans les données |
-| 61402622 | WINREVAIR 60 mg (MERCK SHARP & DOHME, Pays-Bas) | Poudre et solvant pour solution injectable | Non renseignée dans les données |
+| 61615894 | WINREVAIR 45 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
+| 61402622 | WINREVAIR 60 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
+
+Titulaire : Merck Sharp & Dohme (Pays-Bas). Les deux autorisations sont au statut « annulée ».
+
+---
+
+## Autres Indications Prédites (pour information)
+
+Toutes les prédictions suivantes sont au niveau L5, sans essai clinique ni publication, avec une décision Hold.
+
+| Rang | Indication Prédite | Score TxGNN | Remarque |
+|------|------|------|------|
+| 2 | Rétinopathie diabétique non proliférante sévère | 99,77 % | Hypothèse sur le remodelage vasculaire rétinien, non étayée |
+| 3 | Rétinopathie diabétique | 99,72 % | Catégorie parente du rang 2, prédictions corrélées |
+| 4 | Ostéoporose d'origine médicamenteuse | 99,65 % | Piste la plus plausible : l'activine intervient dans le remodelage osseux, mais aucune donnée humaine fournie |
+| 5 | Cataracte diabétique | 99,49 % | Aucun lien mécanistique identifié, probable effet de proximité dans le graphe |
+| 6 | Carcinome mammaire HER2 positif | 99,43 % | Rôle contextuel du TGF-bêta, sans lien spécifique démontré |
+| 7 à 10 | Carcinomes urothéliaux (cellules transitionnelles, urètre prostatique, bassinet du rein sarcomatoïde, vessie sarcomatoïde) | 99,34 % à 99,39 % | Groupe de termes voisins dans l'ontologie, non indépendants |
+
+---
 
 ## Considérations de Sécurité
 
+Aucune donnée de sécurité exploitable n'est disponible (mises en garde et contre-indications non renseignées, aucune interaction médicamenteuse trouvée).
+
 Veuillez consulter la notice pour les informations de sécurité.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la leucémie lymphoblastique aiguë repose uniquement sur le modèle (L5), sans essai, sans publication et sans lien mécanistique identifié. Les effets du sotatercept sur l'hémoglobine et les plaquettes compliquent en outre son usage dans une hémopathie maligne.
+- La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai clinique, sans publication et sans mécanisme d'action documenté.
+- Les données de sécurité sont absentes et les deux AMM françaises sont annulées, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications), étape bloquante pour le criblage de sécurité
-- Confirmer l'indication d'origine et le mécanisme d'action détaillé (DrugBank)
-- Mener une revue ciblée de la littérature, en priorité sur l'ostéoporose médicamenteuse (données osseuses des ActRIIA-Fc), seule piste mécanistiquement cohérente
-- Rechercher d'éventuels essais ou données précliniques pour chaque indication prédite avant toute réévaluation
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Télécharger et analyser la notice officielle sur le site de l'ANSM (mises en garde et contre-indications)
+- Obtenir les données sur le mécanisme d'action via DrugBank
+- Clarifier l'indication originale et les raisons de l'annulation des AMM
+- Rechercher des études précliniques ou cliniques reliant la signalisation activine/GDF/BMP à la leucémie lymphoblastique aiguë
+- Évaluer en priorité l'ostéoporose d'origine médicamenteuse, mécanistiquement plus plausible, avant d'engager des ressources sur d'autres indications
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

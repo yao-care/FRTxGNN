@@ -2,7 +2,7 @@
 layout: default
 title: Maprotiline
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 187
+nav_order: 473
 evidence_level: L5
 indication_count: 0
 ---

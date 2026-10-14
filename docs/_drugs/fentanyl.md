@@ -2,7 +2,7 @@
 layout: default
 title: Fentanyl
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 128
+nav_order: 323
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,32 +29,34 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Fentanyl : De l'Antalgie Opioïde au Syndrome Néphrogénique d'Antidiurèse Inappropriée
+# Fentanyl : D'un analgésique opioïde au Syndrome néphrogénique d'antidiurèse inappropriée
 
 ## Résumé en Une Phrase
 
-Le fentanyl est un opioïde puissant, agoniste des récepteurs mu, commercialisé en France notamment sous forme de dispositifs transdermiques.
-Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée (NSIAD)**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
+Le fentanyl est un analgésique opioïde puissant, agoniste des récepteurs mu, commercialisé en France sous forme de dispositifs transdermiques et de comprimés buccogingivaux. L'indication originale n'est pas renseignée dans les données compilées pour ce report.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée** (score de 99,46 %), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction, qui reste purement algorithmique et biologiquement peu plausible.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (NSIAD) |
+| Indication Originale | Non renseignée dans les données d'AMM |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
 | Score de Prédiction TxGNN | 99,46 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le fentanyl est un agoniste des récepteurs opioïdes mu, utilisé comme antalgique puissant. Aucun lien mécanistique avec le NSIAD n'est établi à ce jour.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le fentanyl est un agoniste puissant des récepteurs opioïdes mu, utilisé en analgésie. Son efficacité dans la douleur n'est pas documentée ici par un texte d'indication d'AMM.
 
-Le NSIAD est causé par des variants à gain de fonction du gène *AVPR2*, qui rendent le récepteur V2 de la vasopressine actif en permanence. Ce mécanisme n'implique pas les récepteurs opioïdes. De plus, les opioïdes sont généralement associés à une libération accrue d'hormone antidiurétique ou à une rétention hydrique, ce qui irait plutôt dans le sens inverse d'un bénéfice thérapeutique.
+**La prédiction apparaît peu plausible.** Le syndrome néphrogénique d'antidiurèse inappropriée est dû à des mutations gain de fonction du récepteur V2 de la vasopressine (AVPR2), cible sur laquelle le fentanyl n'a aucune action connue. Par ailleurs, les opioïdes peuvent stimuler la libération d'ADH et provoquer une antidiurèse, ce qui aggraverait la maladie au lieu de la traiter.
 
-Le score élevé du modèle (99,46 %) semble donc refléter un artefact du graphe de connaissances plutôt qu'un signal biologique réel. Cette prédiction doit être considérée comme une hypothèse purement computationnelle, sans plausibilité biologique démontrée.
+Le score TxGNN élevé (99,46 %) résulte uniquement d'une prédiction par graphe de connaissances. Sans données de mécanisme validées, elle ne peut pas être recoupée avec la pharmacologie établie. Un signal de contre-indication possible est en outre suspecté.
+
+**Seconde prédiction (pour information) :** le syndrome de Gilles de la Tourette (score de 99,05 %, niveau L5, Hold). Le lien est indirect et spéculatif (modulation de la dopamine striatale par le système opioïde endogène). Le risque de dépendance, de dépression respiratoire et d'abus du fentanyl rend un rapport bénéfice-risque favorable très improbable dans une affection neurodéveloppementale chronique.
 
 ## Preuves d'Essais Cliniques
 
@@ -66,39 +68,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le fentanyl compte 20 AMM en France. Voici les 5 principales (les textes d'indication approuvée ne sont pas renseignés dans les données reçues) :
+Les 20 AMM recensées sont toutes annulées ; aucune n'est valide. Le texte d'indication approuvée n'est pas disponible. Principales AMM :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|------|
-| 65173904 | FENTANYL SANDOZ 100 microgrammes/heure, dispositif transdermique | Dispositif | SANDOZ |
-| 63071772 | FENTANYL SANDOZ 75 microgrammes/heure, dispositif transdermique | Dispositif | SANDOZ |
-| 60826422 | FENTANYL VIATRIS 75 microgrammes/heure, dispositif transdermique | Dispositif | VIATRIS SANTE |
-| 60914025 | DUROGESIC 25 microgrammes/heure, dispositif transdermique | Dispositif | JANSSEN CILAG |
-| 62581637 | FENTANYL VIATRIS 100 microgrammes/heure, dispositif transdermique | Dispositif | VIATRIS SANTE |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65173904 | FENTANYL SANDOZ 100 µg/heure | Dispositif transdermique | Non renseignée |
+| 60914025 | DUROGESIC 25 µg/heure | Dispositif transdermique | Non renseignée |
+| 67439271 | MATRIFEN 12 µg/heure | Dispositif transdermique | Non renseignée |
+| 66152400 | EFFENTORA 400 µg | Comprimé buccogingival | Non renseignée |
+| 60616751 | DUROGESIC 50 µg/heure | Dispositif transdermique | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances (TxGNN/PrimeKG, hors texte de notice)** : hypertension, hypotension orthostatique, syndrome du QT long et torsades de pointes, insuffisance hépatique et maladies du foie, maladie rénale, bronchopneumopathie chronique obstructive, asthme, pancréatite, maladies de la vésicule biliaire, maladies inflammatoires de l'intestin, hyperplasie bénigne de la prostate, troubles anxieux, abus ou dépendance aux substances, déficit en potassium, atrophie multisystématisée, syndrome de tachycardie orthostatique posturale, entre autres.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) :
+  - Majeures : alvimopan, aprépitant, bupropion, clarithromycine, clotrimazole, dexaméthasone, dexfenfluramine, fenfluramine, dolasétron, granisétron, lorcasérine.
+  - Modérées : atropine, cimétidine, clidinium, dicyclomine, dronabinol, éluxadoline, glycopyrronium, hyoscyamine, phénylbutyrate de glycérol.
 
-Le fentanyl est un opioïde puissant (stupéfiant) associé à des risques élevés d'abus, de dépendance et de dépression respiratoire. Ce profil de risque doit être pris en compte dans toute réflexion sur un repositionnement.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et le mécanisme du NSIAD (activation constitutive du récepteur V2) n'a pas de lien plausible avec l'action opioïde.
-- Le profil de risque du fentanyl est défavorable pour une pathologie rare et chronique.
-- La seconde prédiction du modèle, le syndrome de Gilles de la Tourette (score de 99,05 %), est elle aussi de niveau L5 et à maintenir en attente : elle repose sur un lien indirect entre système opioïde et circuits dopaminergiques, sans aucune preuve clinique.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Elle est mécanistiquement contradictoire (les opioïdes favorisent l'antidiurèse) et le profil de sécurité est défavorable. Toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (DrugBank)
-- Mises en garde et contre-indications issues de la notice ANSM
-- Justification mécanistique indépendante démontrant un lien biologique plausible avec le NSIAD
-- Données précliniques ou études de mécanisme avant toute évaluation clinique
-- Évaluation du rapport bénéfice/risque (abus, dépendance, dépression respiratoire)
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
+- Les mises en garde et contre-indications de la notice ANSM (bloquant pour l'étape de sécurité), en téléchargeant et analysant la notice.
+- Les données sur le mécanisme d'action issues de DrugBank.
+- Une justification mécanistique plausible reliant le fentanyl à la voie AVPR2/vasopressine, ou l'abandon de cette piste.
+- Toute preuve préclinique ou clinique pour l'une ou l'autre des indications prédites.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

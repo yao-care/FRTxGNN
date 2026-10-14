@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 233
+nav_order: 584
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Pembrolizumab : Des Cancers Traités par Anti-PD-1 à la Fibromatose Gingivale
+# Pembrolizumab : Du Cancer du Poumon Non à Petites Cellules à la Fibromatose Gingivale
 
 ## Résumé en Une Phrase
 
-Pembrolizumab (Keytruda) est un anticorps monoclonal anti-PD-1 utilisé en oncologie. Le texte de l'indication ANSM n'est pas renseigné dans les données reçues, mais l'analyse du modèle mentionne une indication déjà approuvée dans le cancer bronchique non à petites cellules (CBNPC).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gingivale**, une hypertrophie fibreuse bénigne de la gencive.
-Cette prédiction repose sur **0 essai clinique** et **0 publication** : elle est purement algorithmique.
+Pembrolizumab est un anticorps monoclonal anti-PD-1, initialement utilisé pour le traitement du cancer du poumon non à petites cellules et du mélanome métastatique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gingivale** (score élevé), mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
 ---
 
@@ -43,35 +42,35 @@ Cette prédiction repose sur **0 essai clinique** et **0 publication** : elle es
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM reçues (l'analyse du modèle évoque le CBNPC) |
+| Indication Originale | Cancer du poumon non à petites cellules, cancer du poumon, mélanome métastatique (le texte d'indication de l'AMM française n'est pas renseigné) |
 | Nouvelle Indication Prédite | Fibromatose gingivale |
-| Score de Prédiction TxGNN | 99,40 % (rang 4271) |
+| Score de Prédiction TxGNN | 99,40 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans l'Evidence Pack. Sur la base des informations connues, pembrolizumab est un anticorps dirigé contre le récepteur PD-1. Il lève le « frein » qui empêche les lymphocytes T d'attaquer les cellules tumorales. Son efficacité est établie dans plusieurs cancers.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier compilé. Les informations pharmacologiques connues indiquent que pembrolizumab est un anticorps dirigé contre le récepteur PD-1 (CD279, gène *PDCD1*). Il lève le frein immunitaire exercé sur les lymphocytes T et renforce ainsi la réponse antitumorale. Son efficacité est établie dans le cancer du poumon et le mélanome.
 
-Pour la fibromatose gingivale, **aucun lien mécanistique plausible n'est documenté**. Cette maladie est une prolifération fibreuse bénigne de la gencive. Rien n'indique que l'axe PD-1/PD-L1 joue un rôle dans son apparition. Le score élevé du modèle (99,40 %) n'est donc pas étayé par une justification biologique.
+**Cette prédiction n'est pas étayée mécanistiquement.** La fibromatose gingivale est une affection fibrotique bénigne, héréditaire ou médicamenteuse. Aucun lien n'est établi avec l'axe PD-1/PD-L1, et aucun essai ni aucune publication ne soutient un rôle du blocage de PD-1 dans cette maladie. Le score élevé reflète vraisemblablement des associations dans le graphe de connaissances plutôt qu'une biologie pertinente. Activer le système immunitaire dans une pathologie bénigne exposerait en outre à des effets indésirables immunologiques sans bénéfice démontré.
 
-Il faut aussi garder à l'esprit qu'un score TxGNN élevé n'est pas une preuve. Sans essai, sans publication et sans mécanisme plausible, cette piste reste très spéculative.
+À titre de comparaison, parmi les autres prédictions de haut rang, seules les tumeurs pulmonaires malignes (carcinome du hile pulmonaire, tumeur de Pancoast) sont biologiquement plausibles. Elles relèvent toutefois de l'indication déjà approuvée et ne constituent pas un véritable repositionnement.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement pour la fibromatose gingivale.
 
 ---
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée disponible actuellement pour la fibromatose gingivale.
 
 ---
 
@@ -79,7 +78,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62689214 | KEYTRUDA 25 mg/mL, solution à diluer pour perfusion (MERCK SHARP & DOHME, Pays-Bas) | Solution à diluer pour perfusion | Texte d'indication non fourni dans les données |
+| 62689214 | KEYTRUDA 25 mg/mL (MERCK SHARP & DOHME, Pays-Bas) — **annulée** | Solution à diluer pour perfusion | Non renseignée |
 
 ---
 
@@ -87,17 +86,22 @@ Aucune littérature associée disponible actuellement.
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Immunothérapie (anticorps anti-PD-1), et non chimiothérapie cytotoxique conventionnelle |
-| Risque de Myélosuppression | Non documenté dans l'Evidence Pack |
-| Classification d'Émétogénicité | Non documentée dans l'Evidence Pack |
-| Éléments de Surveillance | La littérature associée au médicament décrit des effets indésirables immuno-médiés : atteintes endocrines (hypophysite, hypothyroïdie), neurologiques, cardiaques (myocardite) et cutanées. Une surveillance clinique et biologique adaptée à ces risques est donc à prévoir. |
-| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification de Cytotoxicité | Immunothérapie (anticorps anti-PD-1), non cytotoxique conventionnel |
+| Risque de Myélosuppression | Faible en monothérapie ; peut augmenter en association à une chimiothérapie |
+| Classification d'Émétogénicité | Faible |
+| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice (surveillance usuelle des effets immunologiques : fonctions hépatique, thyroïdienne et surrénalienne, NFS) |
+| Protection de Manipulation | Veuillez consulter la notice |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** (13 interactions recensées) :
+  - **Majeures** : lénalidomide, pomalidomide, thalidomide.
+  - **Modérées** : corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, bétaméthasone, budésonide, prednisolone, prednisone, méthylprednisolone, déflazacort).
+- **Profil de toxicité immunologique** : la littérature rapportée pour d'autres indications décrit des effets indésirables d'origine immunitaire (endocrinopathies, myocardite, myosite, atteintes neurologiques, hyperprogression). Ce risque est particulièrement préoccupant dans une maladie bénigne.
+
+Les mises en garde et contre-indications de la notice n'étant pas disponibles, veuillez consulter la notice pour les informations de sécurité complètes.
 
 ---
 
@@ -106,16 +110,14 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est de niveau L5 : aucun essai, aucune publication, aucun mécanisme plausible pour cette maladie bénigne.
-- Le profil de risque immuno-médié de l'anti-PD-1 rend le rapport bénéfice/risque peu défendable pour une hypertrophie gingivale bénigne. Cette appréciation est un jugement d'expert et ne provient pas de l'Evidence Pack.
-- Les autres candidats du même classement ne sont pas plus solides : aucun ne dépasse le niveau L4, et les niveaux L4 reposent sur des preuves indirectes, liées aux cancers du poumon déjà couverts par l'AMM.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai, aucune publication, aucun lien mécanistique pour la fibromatose gingivale, maladie bénigne pour laquelle le risque immunologique dépasse tout bénéfice spéculatif.
+- Le produit n'a plus d'AMM valide en France (une seule AMM, annulée).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM, actuellement manquantes. Ce point bloque tout examen de sécurité.
-- Les données détaillées sur le mécanisme d'action (DrugBank).
-- Une recherche bibliographique ciblée sur le rôle de PD-1/PD-L1 dans la fibromatose gingivale.
-- Le texte de l'indication approuvée dans l'AMM, pour établir l'indication d'origine.
-- À défaut d'éléments mécanistiques ou cliniques nouveaux, réorienter les efforts vers un candidat mieux documenté.
+- Mécanisme d'action détaillé (DrugBank) et analyse d'un éventuel lien PD-1/fibrose gingivale
+- Données de la notice ANSM (mises en garde et contre-indications), actuellement bloquantes pour le criblage de sécurité
+- Données précliniques démontrant une pertinence biologique avant toute étude clinique
+- Clarification du statut réglementaire en France (AMM annulée)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

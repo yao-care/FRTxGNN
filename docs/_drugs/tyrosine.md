@@ -2,7 +2,7 @@
 layout: default
 title: Tyrosine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 329
+nav_order: 796
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,85 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tyrosine : De la nutrition en acides aminés au syndrome de la queue de cheval
+# Tyrosine : De l'apport nutritionnel à la prédiction « syndrome de la queue de cheval »
 
 ## Résumé en Une Phrase
 
-La tyrosine est un acide aminé présent dans plusieurs produits de nutrition (solutions pour perfusion d'acides aminés, comprimés Ketosteril). Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM, cette utilisation est donc déduite des noms de produits.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de la queue de cheval**, mais **aucun essai clinique** et **une seule publication** (un rapport de cas sans lien thérapeutique) existent pour cette direction. Il s'agit d'une prédiction purement algorithmique.
+La tyrosine est un acide aminé, précurseur des catécholamines et des hormones thyroïdiennes. Elle est présente dans des spécialités de nutrition parentérale et d'acides aminés, aujourd'hui toutes annulées en France.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de la queue de cheval**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette prédiction. Le niveau de preuve est le plus faible (L5).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM (déduite : nutrition en acides aminés) |
-| Nouvelle Indication Prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
+| Indication Originale | Non disponible (aucun texte d'indication renseigné dans les AMM) |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval |
 | Score de Prédiction TxGNN | 99,77 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | ✗ Annulé uniquement |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La tyrosine est un acide aminé qui entre dans la composition de solutions de nutrition parentérale et d'autres produits (Aminoven, Aminoplasmal, Aminomix, Ketosteril). Physiologiquement, elle est le précurseur des catécholamines et des hormones thyroïdiennes.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la tyrosine est un acide aminé entrant dans la composition de solutions de nutrition parentérale et d'acides aminés. Elle est le précurseur de la dopamine et de la noradrénaline, ainsi que des hormones thyroïdiennes.
 
-Aucun lien mécanistique n'a été identifié entre la tyrosine et le syndrome de la queue de cheval, qui est une compression des racines nerveuses lombo-sacrées. La seule publication retrouvée est un rapport de cas sur un sarcome à cellules claires, une tumeur de la racine nerveuse S1 qui avait d'abord été diagnostiquée comme un schwannome mélanocytaire. Elle concerne l'anatomopathologie tumorale (voie de la mélanine et de la tyrosinase) et non un rôle thérapeutique de la tyrosine.
+Pour le syndrome de la queue de cheval, aucun lien mécanistique n'est établi. Il s'agit d'une atteinte compressive des racines nerveuses lombo-sacrées, pour laquelle aucun rôle plausible de la tyrosine n'apparaît. Le score très élevé du modèle (0,998) résulte probablement d'un artefact du graphe de connaissances plutôt que d'une logique biologique.
 
-Le score élevé du modèle TxGNN provient donc d'une proximité dans le graphe de connaissances, sans soutien clinique. Il doit être traité comme une hypothèse à vérifier, non comme un signal d'efficacité.
+Parmi les autres prédictions, quelques-unes présentent un lien biologique théorique avec les voies de la tyrosine (thyroïde, système nerveux autonome). Aucune n'est étayée par des données cliniques solides (voir ci-dessous).
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement pour le syndrome de la queue de cheval.
+
+À titre d'information, pour une autre indication prédite (hyperthyroïdie), un essai est enregistré :
+
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT06264544](https://clinicaltrials.gov/study/NCT06264544) | N/A | Pas encore en recrutement | 150 | Supplément zinc, sélénium et L-tyrosine contre placebo pour prévenir la thyrotoxicose chez des sujets porteurs du polymorphisme SEPP1 r25191G/A. Il ne teste pas la tyrosine seule et aucun résultat n'est disponible. |
 
 ## Preuves de la Littérature
 
+Aucune littérature associée n'est disponible actuellement pour le syndrome de la queue de cheval.
+
+Pour information, les publications les plus pertinentes retrouvées pour d'autres indications prédites sont indirectes :
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [17341045](https://pubmed.ncbi.nlm.nih.gov/17341045/) | 2006 | Rapport de cas | Neurosurgical Focus | Sarcome à cellules claires né de la racine nerveuse S1, d'abord diagnostiqué comme schwannome mélanocytaire psammomateux. Aucune intervention par tyrosine. |
-
-Le « S-1 » du résumé désigne la racine nerveuse sacrée, et non l'association médicamenteuse du même nom.
+| [39063020](https://pubmed.ncbi.nlm.nih.gov/39063020/) | 2024 | Rapport de cas | Int J Mol Sci | Syndrome de fatigue chronique lié au stress ayant répondu à l'alpha-méthyl-p-tyrosine, un inhibiteur de la tyrosine hydroxylase. Cette pharmacologie est opposée à celle de la tyrosine, et le cas est rattaché au syndrome de tachycardie orthostatique posturale. |
+| [42812246](https://pubmed.ncbi.nlm.nih.gov/42812246/) | 2026 | Cohorte | Front Med | Altérations des acides aminés plasmatiques dans le glaucome primitif par fermeture de l'angle débutant. L'étude est associative et ne montre pas d'effet thérapeutique de la tyrosine. |
+| [36848916](https://pubmed.ncbi.nlm.nih.gov/36848916/) | 2023 | Revue | Lancet Diabetes Endocrinol | Revue générale de l'hyperthyroïdie, sans évaluation de la tyrosine. |
+| [30886364](https://pubmed.ncbi.nlm.nih.gov/30886364/) | 2019 | Revue | Nat Rev Endocrinol | Rôle de la thyroglobuline dans la synthèse des hormones thyroïdiennes (iodation des résidus tyrosyl). Il s'agit d'un lien physiologique, non thérapeutique. |
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas disponible pour ces AMM. Sur 20 AMM, les 5 premières sont listées.
+Toutes les AMM sont annulées. Les textes d'indication ne sont pas renseignés. Voici les 5 premières AMM :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | Fresenius Kabi France |
-| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | Fresenius Kabi France |
-| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | Fresenius Kabi France |
-| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | B Braun Melsungen |
-| 61786735 | AMINOMIX 500, solution pour perfusion | Solution et solution pour perfusion | Fresenius Kabi France |
+| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | Non renseignée |
+| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Non renseignée |
+| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Non renseignée |
+| 63183821 | AMINOPLASMAL 8 | Solution pour perfusion | Non renseignée |
+| 61786735 | AMINOMIX 500 | Solution et solution pour perfusion | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité. Aucune donnée n'a pu être compilée sur les mises en garde, les contre-indications ou les interactions médicamenteuses.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L5 : aucun essai clinique et une seule publication, sans rapport thérapeutique avec la tyrosine. Le score TxGNN seul ne suffit pas.
-- Les données de sécurité de la notice ANSM sont absentes, ce qui empêche de passer à l'étape de sélection sur la sécurité.
-- Les autres indications prédites du même dossier (par exemple hyperthyroïdie, hyperthyroxinémie, syndrome de tachycardie orthostatique posturale) sont également en Hold. Pour la sphère thyroïdienne, la tyrosine étant un précurseur des hormones thyroïdiennes, un risque d'aggravation est plausible.
+- La prédiction principale (syndrome de la queue de cheval) repose uniquement sur le score du modèle, sans essai ni publication, et sans lien mécanistique plausible. Les autres indications prédites n'ont pas de preuve convaincante. L'hyperthyroïdie bénéficie d'un lien biologique, mais l'apport de substrat ne devrait pas la traiter et pourrait même l'aggraver. De plus, toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions)
-- Obtenir les données sur le mécanisme d'action (DrugBank)
-- Obtenir le texte des indications approuvées pour les AMM françaises
-- Rechercher un rationnel physiopathologique ou des données précliniques reliant la tyrosine à la queue de cheval. Sans cela, ne pas poursuivre l'évaluation.
+- Les mises en garde et contre-indications issues des notices ANSM, actuellement manquantes et bloquantes pour le criblage de sécurité
+- Les données sur le mécanisme d'action (MOA) depuis DrugBank
+- Une évaluation de la pertinence biologique de la prédiction, avec des études précliniques ou mécanistiques
+- Une analyse de la compatibilité des voies d'administration, de la similarité avec l'indication originale et des indications d'origine
+- Un réexamen des indications prédites mieux soutenues sur le plan biologique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

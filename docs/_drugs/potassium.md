@@ -2,7 +2,7 @@
 layout: default
 title: Potassium
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 244
+nav_order: 618
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,100 +29,100 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Potassium : Vers le Trouble Hypertensif
+# Potassium : D'un usage électrolytique sans indication renseignée à l'Hypertension artérielle
 
 ## Résumé en Une Phrase
 
-Le potassium est un électrolyte essentiel, commercialisé en France sous 19 AMM (comprimés, sirop, solutions pour perfusion). Le texte de l'indication approuvée n'est pas renseigné dans les données de l'ANSM fournies.
-Le modèle TxGNN prédit qu'il pourrait être utile dans le **trouble hypertensif (hypertension artérielle)**, avec **50 essais cliniques** et **20 publications** associés. Seuls quelques essais concernent réellement le potassium, et les données portent surtout sur le potassium alimentaire ou les substituts de sel, pas sur une nouvelle indication médicamenteuse.
+Le potassium est un électrolyte essentiel utilisé en France sous de nombreuses formes (solutés de perfusion, sirops, comprimés), mais les données compilées pour ce rapport ne mentionnent aucune indication d'origine renseignée.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension artérielle (trouble hypertensif)**,
+avec **23 essais cliniques** (dont seulement 2 testent directement le potassium comme agent actif en Phase 3) et **20 publications** associés, dont plusieurs méta-analyses d'essais randomisés.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Trouble hypertensif |
+| Indication Originale | Non renseignée dans les données d'AMM |
+| Nouvelle Indication Prédite | Trouble hypertensif (hypertension artérielle) |
 | Score de Prédiction TxGNN | 99,16 % |
-| Niveau de Preuve | L3 (méta-analyses d'ECR et revues systématiques ; voir la note ci-dessous) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 19 |
-| Décision Recommandée | Hold |
+| Niveau de Preuve | L1 (selon l'évaluation fournie ; voir réserve ci-dessous) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 19 (toutes annulées) |
+| Décision Recommandée | Proceed with Guardrails |
 
-> **Note sur le niveau de preuve :** le dossier propose L1. Parmi les essais listés, un seul essai de Phase 3 terminé porte sur le potassium (NCT03809884, 7 participants). Le critère L1 (≥ 2 ECR de Phase 3 terminés) n'est donc pas rempli. Les méta-analyses et revues systématiques disponibles correspondent à L3.
+> **Réserve sur le niveau de preuve :** le niveau L1 repose sur la présence d'essais de Phase 3 et de méta-analyses. Or, la plupart des essais de Phase 3 recensés concernent le losartan potassique, dans lequel le potassium n'est qu'un contre-ion. Seuls deux essais de Phase 3 (NCT00000509 et NCT03809884) testent réellement le potassium. L'un n'a pas d'effectif communiqué et l'autre ne comprend que 7 participants. Le niveau de preuve réel est donc plus proche de L3 (méta-analyses et revues) que d'un L1 strict.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le potassium est un cation essentiel du milieu intracellulaire, indispensable à la fonction cellulaire. Une apport plus élevé favorise l'élimination urinaire du sodium (natriurèse), la vasodilatation et atténue les effets hypertenseurs d'un excès de sodium.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances physiologiques établies, le potassium est le principal cation intracellulaire. Il est indispensable au potentiel de membrane des cellules et à la fonction cardiaque, musculaire et rénale.
 
-L'indication originale n'étant pas documentée dans les AMM fournies, la relation avec la nouvelle indication repose sur la physiologie. Un déficit en potassium associé à un excès de sodium est considéré comme un facteur environnemental majeur de l'hypertension primaire. La méta-analyse dose-réponse d'ECR (2020) et la revue systématique du BMJ (2013) examinent précisément le lien entre apport en potassium et pression artérielle.
+Un apport accru en potassium favorise l'élimination urinaire de sodium (natriurèse). Il induit une vasodilatation par hyperpolarisation endothéliale, via les canaux potassiques et la stimulation de la pompe Na⁺/K⁺-ATPase. Il réduit aussi le tonus sympathique et la sensibilité au sel. Ces mécanismes expliquent un effet hypotenseur. Des méta-analyses d'essais randomisés (dose-réponse, patients hypertendus) vont dans ce sens.
 
-La prédiction est donc plausible, mais l'essentiel des preuves concerne le potassium alimentaire ou les substituts de sel. Rien ne démontre à ce stade un bénéfice des spécialités pharmaceutiques de potassium dans l'hypertension.
+Aucune indication d'origine n'étant renseignée, la relation avec une indication initiale ne peut pas être établie. La prédiction repose donc sur la physiologie et sur la littérature, non sur une proximité thérapeutique avec un usage antérieur. Il faudrait aussi préciser quelle forme de potassium (sel, complément alimentaire, aliments riches en potassium, sel enrichi en potassium) serait visée.
 
 ## Preuves d'Essais Cliniques
 
-Sur 50 essais associés, la plupart ont été jugés non pertinents : le potassium n'y est pas l'intervention (antihypertenseurs, spironolactone, essais sans lien). Les essais les plus pertinents sont :
+Parmi les essais recensés, seuls ceux dont l'intervention est le potassium lui-même sont directement pertinents. Les autres portent sur des sels potassiques d'antihypertenseurs (losartan potassique, par exemple) et ne sont pas listés comme preuves.
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT03809884](https://clinicaltrials.gov/study/NCT03809884) | Phase 3 | Terminé | 7 | Alimentation ou complément pour augmenter l'apport en potassium. Directement pertinent, mais effectif très faible et effet sur la pression artérielle non confirmé |
-| [NCT02380157](https://clinicaltrials.gov/study/NCT02380157) | Phase 4 | Terminé | 25 | Supplémentation orale en potassium chez l'homme sain, interactions avec le système rénine-angiotensine-aldostérone. Pertinent pour le mécanisme, mais sujets normotendus |
-| [NCT00005763](https://clinicaltrials.gov/study/NCT00005763) | N/A | Terminé | Non disponible | INTERSALT : étude observationnelle internationale sur sodium, potassium et pression artérielle. Preuve épidémiologique de soutien |
-| [NCT06683430](https://clinicaltrials.gov/study/NCT06683430) | N/A | Terminé | 62 | Régime riche en potassium (3 500 mg) et pauvre en sodium (1 500 mg) avec épices et herbes, pendant 14 jours, chez des personnes âgées. Résultats non fournis |
-| [NCT04894344](https://clinicaltrials.gov/study/NCT04894344) | N/A | Terminé | 196 | Éducation à la réduction du sodium chez des étudiants (natriurie sur 24 h). Le potassium est cité comme facteur de risque en cas d'apport insuffisant. Non évalué |
+| [NCT03809884](https://clinicaltrials.gov/study/NCT03809884) | Phase 3 | Terminé | 7 | Alimentation versus supplément pour augmenter l'apport en potassium ; effectif très faible |
+| [NCT00000509](https://clinicaltrials.gov/study/NCT00000509) | Phase 3 | Terminé | Non communiqué | Réduction du sodium avec ou sans supplémentation en potassium chez des hommes hypertendus |
+| [NCT02959931](https://clinicaltrials.gov/study/NCT02959931) | Non applicable | Terminé | 33 | Effets postprandiaux d'un repas riche en potassium sur la santé vasculaire de patients hypertendus |
+| [NCT00949585](https://clinicaltrials.gov/study/NCT00949585) | Non applicable | Terminé | 29 | Deux niveaux d'apport en potassium dans l'insuffisance rénale chronique (bénéfices et sécurité) |
+| [NCT02697708](https://clinicaltrials.gov/study/NCT02697708) | Phase 1/2 | Statut inconnu | 40 | Sources alimentaires de potassium (pommes de terre) : rétention, équilibre acido-basique, pression artérielle |
+| [NCT00000501](https://clinicaltrials.gov/study/NCT00000501) | Phase 2 | Terminé | Non communiqué | Faisabilité de la prévention de l'hypertension (réduction du sodium avec ou sans apport accru en potassium) |
+| [NCT01074918](https://clinicaltrials.gov/study/NCT01074918) | Phase 1/2 | Retiré | 0 | Citrate de potassium-magnésium versus chlorure de potassium ; aucun patient inclus |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [34459569](https://pubmed.ncbi.nlm.nih.gov/34459569/) | 2021 | ECR | N Engl J Med | Effet d'un substitut de sel (moins de sodium, plus de potassium) sur les événements cardiovasculaires et les décès |
-| [32500831](https://pubmed.ncbi.nlm.nih.gov/32500831/) | 2020 | Méta-analyse d'ECR | J Am Heart Assoc | Relation dose-réponse entre supplémentation en potassium et pression artérielle (essais ≥ 4 semaines) |
+| [32500831](https://pubmed.ncbi.nlm.nih.gov/32500831/) | 2020 | Méta-analyse d'ECR | J Am Heart Assoc | Relation dose-réponse entre supplémentation en potassium et pression artérielle |
+| [28024910](https://pubmed.ncbi.nlm.nih.gov/28024910/) | 2017 | Revue systématique et méta-analyse | Int J Cardiol | Effet de la supplémentation en potassium sur la pression artérielle des hypertendus |
 | [23558164](https://pubmed.ncbi.nlm.nih.gov/23558164/) | 2013 | Revue systématique et méta-analyse | BMJ | Effet d'un apport accru en potassium sur les facteurs de risque et les maladies cardiovasculaires |
 | [37772757](https://pubmed.ncbi.nlm.nih.gov/37772757/) | 2024 | Revue | Am J Hypertens | État des connaissances sur potassium et hypertension |
-| [39472546](https://pubmed.ncbi.nlm.nih.gov/39472546/) | 2025 | Revue | Hypertens Res | Rôle du potassium alimentaire et des substituts de sel dans la prévention et la prise en charge de l'hypertension |
-| [23674806](https://pubmed.ncbi.nlm.nih.gov/23674806/) | 2013 | Revue | Adv Nutr | Association modérée entre apport en potassium et baisse de la pression artérielle ; effets possibles sur l'os et les calculs rénaux |
+| [35045721](https://pubmed.ncbi.nlm.nih.gov/35045721/) | 2022 | Étude clinique | Hypertension | Natriurèse induite par le potassium chez des femmes ménopausées hypertendues, comparée à l'hydrochlorothiazide |
+| [41263071](https://pubmed.ncbi.nlm.nih.gov/41263071/) | 2026 | Analyse d'essai | Hypertension | Cohérence de la réponse tensionnelle au sel enrichi en potassium (China Salt Substitute Study) |
+| [26634368](https://pubmed.ncbi.nlm.nih.gov/26634368/) | 2016 | Revue | J Physiol Biochem | Rôle du potassium alimentaire dans l'hypertension et le diabète |
+| [25398734](https://pubmed.ncbi.nlm.nih.gov/25398734/) | 2014 | Revue | Adv Nutr | Rapport sodium/potassium, pression artérielle et hypertension |
 | [27455317](https://pubmed.ncbi.nlm.nih.gov/27455317/) | 2016 | Revue | Nutrients | Apport, biodisponibilité du potassium, hypertension et contrôle glycémique |
-| [25016398](https://pubmed.ncbi.nlm.nih.gov/25016398/) | 2014 | Revue | Semin Nephrol | Interaction entre excès de sodium et déficit en potassium dans la pathogenèse de l'hypertension primaire |
-| [40232853](https://pubmed.ncbi.nlm.nih.gov/40232853/) | 2025 | Étude animale (rat) | JCI Insight | Chez le rat Dahl sensible au sel, la supplémentation en potassium a atténué la pression artérielle |
-| [40507134](https://pubmed.ncbi.nlm.nih.gov/40507134/) | 2025 | Étude animale (rat) | Nutrients | Effets différenciés de la supplémentation en potassium selon le modèle d'hypertension (L-NAME, DOCA-sel) |
+| [10979053](https://pubmed.ncbi.nlm.nih.gov/10979053/) | 2000 | Recommandations/revue | Arch Intern Med | Recommandations sur le remplacement du potassium en pratique clinique |
 
 ## Informations de Marché en France
 
-Sur 19 AMM, voici 5 exemples. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Les 19 AMM recensées sont annulées. Aucune n'a de texte d'indication renseigné. Les cinq premières sont listées ci-dessous.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63010506 | NATI-K 500 mg | Comprimé gastro-résistant | DB PHARMA |
-| 61334096 | Chlorure de potassium Lavoisier 20 % | Solution à diluer pour perfusion | Laboratoires Chaix et du Marais |
-| 63382862 | Kaleorid LP 1000 mg | Comprimé pelliculé à libération prolongée | Karo Pharma (Suède) |
-| 68081197 | Chlorure de potassium Lavoisier 7,46 % | Solution à diluer pour perfusion | Laboratoires Chaix et du Marais |
-| 68050732 | Potassium H2 Pharma 25 mg/mL | Sirop | Liberty Pharma (Luxembourg) |
+| 63010506 | NATI-K 500 mg | Comprimé gastro-résistant | Non renseignée (AMM annulée) |
+| 61334096 | Chlorure de potassium Lavoisier 20 % | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 63382862 | Kaleorid LP 1000 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM annulée) |
+| 68081197 | Chlorure de potassium Lavoisier 7,46 % | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 68050732 | Potassium H2 Pharma 25 mg/mL | Sirop | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Les mises en garde, contre-indications et interactions médicamenteuses ne sont pas disponibles dans les données fournies. Veuillez consulter la notice pour les informations de sécurité.
+Aucune donnée de sécurité issue de la notice n'est disponible (mises en garde, contre-indications), et aucune interaction médicamenteuse n'a été retrouvée dans les données compilées. Veuillez consulter la notice pour les informations de sécurité.
 
-Le dossier signale toutefois un point d'attention majeur : le risque d'**hyperkaliémie**, en particulier :
-- en cas d'insuffisance rénale chronique ;
-- en association avec les inhibiteurs du système rénine-angiotensine, les diurétiques épargneurs de potassium ou les AINS ;
-- dans les hypertensions malignes rénales ou rénovasculaires (rangs 4 et 5), où la fonction rénale est souvent altérée.
+Les éléments suivants, issus de l'analyse des preuves, appellent une vigilance particulière :
+- **Insuffisance rénale** : risque d'hyperkaliémie lors d'une supplémentation.
+- **Associations avec des inhibiteurs du SRAA** (IEC, ARA II) ou des diurétiques épargneurs de potassium : risque accru d'hyperkaliémie.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Hold**
+**Décision : Proceed with Guardrails**
 
 **Justification :**
-- Les preuves sont réelles mais indirectes. Elles portent sur le potassium alimentaire et les substituts de sel, et non sur les spécialités pharmaceutiques. Le seul essai de Phase 3 ciblé compte 7 participants.
-- Les données de sécurité de la notice ANSM manquent et bloquent le passage à l'étape de sécurité. Le risque d'hyperkaliémie est important. Le dossier proposait « Proceed with Guardrails », mais cette décision n'est pas tenable tant que ce point n'est pas levé.
-
-Les autres indications prédites sont toutes en Hold, au niveau L5 pour celles sans preuve : hypertension pulmonaire (2 formes), hypertension rénale maligne et hypertension rénovasculaire maligne. La littérature retrouvée pour l'hypertension pulmonaire liée à l'hypoxie concerne l'hypoxie en général et ne traite pas du potassium.
+- Des méta-analyses d'essais randomisés soutiennent un effet hypotenseur d'un apport accru en potassium, avec un mécanisme physiologique plausible. En revanche, les essais directement centrés sur le potassium sont rares et de petite taille, et la plupart des essais d'hypertension recensés concernent des sels potassiques d'autres médicaments. Toutes les AMM françaises sont annulées.
+- Les autres indications prédites (hypertension pulmonaire, maladie rénale hypertensive maligne, hypertension rénovasculaire maligne) ne reposent que sur le score du modèle ou sur une littérature indirecte. Elles relèvent d'un statut **Hold**. La prudence est particulièrement de mise en cas d'atteinte rénale sévère, du fait du risque d'hyperkaliémie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser les notices ANSM (mises en garde, contre-indications, interactions).
-- Obtenir les données de mécanisme d'action (DrugBank).
-- Préciser l'indication originale des AMM et déterminer si la piste visée est médicamenteuse ou nutritionnelle (aliments, substituts de sel).
-- Obtenir les résultats chiffrés sur la pression artérielle des essais NCT03809884 et NCT06683430.
-- Définir un plan de surveillance de la kaliémie et des populations exclues (insuffisance rénale, associations à risque).
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Toute piste de repositionnement nécessite une validation clinique.*
+- Récupérer les mises en garde et contre-indications dans les notices de l'ANSM (donnée bloquante pour le criblage de sécurité).
+- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
+- Définir la forme de potassium visée (médicament, supplément, sel enrichi), la dose et la voie d'administration.
+- Confirmer l'efficacité par des essais contrôlés de plus grande taille centrés sur le potassium.
+- Établir un plan de surveillance de la kaliémie et de la fonction rénale, avec exclusion ou encadrement des patients sous inhibiteurs du SRAA ou diurétiques épargneurs de potassium.
+- Clarifier la situation réglementaire, puisque toutes les AMM sont annulées.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

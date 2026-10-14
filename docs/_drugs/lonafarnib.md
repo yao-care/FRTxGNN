@@ -2,7 +2,7 @@
 layout: default
 title: Lonafarnib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 176
+nav_order: 458
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,31 +29,32 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Lonafarnib : Évaluation de la prédiction TxGNN pour la lèpre
+# Lonafarnib : Du Syndrome de progéria à la Lèpre
 
 ## Résumé en Une Phrase
 
-Lonafarnib est un inhibiteur de la farnésyltransférase, commercialisé en France sous le nom ZOKINVY (gélules).
-Le modèle TxGNN prédit qu'il pourrait être efficace contre la **lèpre**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une hypothèse issue du seul modèle.
+Lonafarnib est un inhibiteur de la farnésyltransférase dont l'indication d'origine n'est pas renseignée dans les données d'AMM compilées pour ce rapport (le produit est connu sous le nom de marque Zokinvy).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **lèpre**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Lèpre |
 | Score de Prédiction TxGNN | 99,14 % |
-| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Lonafarnib inhibe la farnésyltransférase, une enzyme qui ajoute un groupe lipidique (prénylation) à certaines protéines, comme HRAS et la progérine. Cette modification leur permet de s'ancrer aux membranes cellulaires et d'exercer leur fonction.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, lonafarnib est un inhibiteur de la farnésyltransférase : il bloque la prénylation des protéines. Il est utilisé dans le syndrome de progéria de Hutchinson-Gilford et dans les laminopathies progéroïdes.
 
-Le lien avec la lèpre n'est documenté dans aucune donnée fournie. Il ne pourrait être qu'indirect, par exemple via des voies de signalisation de la cellule hôte dépendantes de la prénylation lors de l'infection par *Mycobacterium leprae*, ou via une modulation immunitaire. Ce sont des pistes théoriques, sans support dans les données disponibles.
+Le lien avec la lèpre reste **spéculatif**. *Mycobacterium leprae* survit dans les macrophages et les cellules de Schwann de l'hôte. Or, les petites GTPases prénylées de l'hôte (Ras, Rho, Rab) interviennent dans la maturation des phagosomes, le trafic intracellulaire et la signalisation inflammatoire. Inhiber la prénylation pourrait, en théorie, modifier ces processus.
 
-Les indications d'origine du médicament ne figurent pas dans le dossier, ce qui empêche de comparer l'indication d'origine à la nouvelle. Le score TxGNN élevé traduit une proximité dans le graphe de connaissances, et non une plausibilité clinique. La prédiction doit donc être traitée comme une hypothèse à vérifier.
+Aucune donnée directe ou indirecte ne soutient ce lien. Le score TxGNN est très élevé (99,14 %), mais il s'agit d'une prédiction de modèle qui ne peut être validée ici, faute d'essais et de publications.
 
 ## Preuves d'Essais Cliniques
 
@@ -65,30 +66,53 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61837140 | ZOKINVY 75 mg, gélule | Gélule | TMC PHARMA (EU) (Irlande) |
-| 66601425 | ZOKINVY 50 mg, gélule | Gélule | TMC PHARMA (EU) (Irlande) |
+| 61837140 | ZOKINVY 75 mg, gélule (annulée) | Gélule | Non renseignée |
+| 66601425 | ZOKINVY 50 mg, gélule (annulée) | Gélule | Non renseignée |
+
+## Cytotoxicité
+
+| Élément | Contenu |
+|------|------|
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de la farnésyltransférase) |
+| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
+
+**Interactions médicamenteuses** : 100 interactions ont été recensées. Parmi les premières listées, les interactions de niveau **majeur** concernent :
+- Lopéramide
+- Aprépitant
+- Triamcinolone
+- Dexaméthasone
+- Budésonide
+- Cimétidine
+- Clarithromycine
+- Éliglustat
+- Naloxégol
+
+Des interactions de niveau **modéré** figurent notamment avec l'hydrocortisone, l'oméprazole, la bétaméthasone, le chlorpropamide, la saxagliptine, l'empagliflozine, l'oxandrolone et la naldémédine.
+
+Ces interactions suggèrent une vigilance particulière vis-à-vis des médicaments métabolisés par les mêmes voies enzymatiques, en particulier les corticoïdes et les inhibiteurs enzymatiques (clarithromycine, cimétidine).
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai ni publication, et aucun mécanisme documenté ne relie lonafarnib à la lèpre.
-- Les données de sécurité de la notice ANSM manquent, ce qui bloque le passage à l'évaluation de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, les AMM françaises sont toutes annulées et les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions).
-- Compléter les indications d'origine et le mécanisme d'action détaillé (par ex. via DrugBank).
-- Rechercher des études précliniques ou de mécanisme sur la prénylation dans l'infection à *M. leprae*.
-- Vérifier la compatibilité des voies d'administration avec l'usage envisagé.
-
-*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
+- Compléter les données sur le mécanisme d'action (DrugBank)
+- Mener une revue de la littérature préclinique sur la prénylation et l'infection par *M. leprae*
+- Établir la compatibilité de voie d'administration et la similarité avec l'indication d'origine, actuellement non évaluées
+- Fournir des données précliniques ou des essais exploratoires validant le lien avec la lèpre
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

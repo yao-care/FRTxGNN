@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cabergoline
-parent: Preuves modérées (L3-L4)
-nav_order: 66
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 127
+evidence_level: L5
 indication_count: 5
 ---
 
 # Cabergoline
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,100 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Cabergoline : De l'Hyperprolactinémie à l'Adénocarcinome Hypophysaire
+# Cabergoline : De l'hyperprolactinémie au cancer de l'hypophyse
 
 ## Résumé en Une Phrase
 
-La cabergoline est un agoniste dopaminergique D2, utilisé à l'origine pour traiter l'hyperprolactinémie et les adénomes hypophysaires sécrétant de la prolactine (d'après les descriptions des essais cliniques associés).
-Le modèle TxGNN prédit qu'elle pourrait être utile dans l'**adénocarcinome hypophysaire**, mais **aucun essai clinique** n'est associé à cette indication, et seules **3 publications** (des cas cliniques, dont aucun ne teste réellement la cabergoline dans cette maladie) existent.
+Cabergoline est un agoniste dopaminergique D2, initialement utilisé pour traiter l'hyperprolactinémie et les tumeurs hypophysaires sécrétant de la prolactine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **cancer de l'hypophyse**, avec **12 essais cliniques** et **20 publications** associés à cette direction. Ces preuves portent toutefois surtout sur les adénomes hypophysaires, majoritairement bénins, et non sur le carcinome hypophysaire proprement dit.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Adénocarcinome hypophysaire (pituitary adenocarcinoma) |
-| Score de Prédiction TxGNN | 99,06 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 6 |
-| Décision Recommandée | Hold |
+| Indication Originale | Hyperprolactinémie (y compris formes familiale et acquise) et tumeur hypophysaire sécrétant de la prolactine (source : graphe de connaissances, aucun texte d'indication n'est renseigné dans les AMM) |
+| Nouvelle Indication Prédite | Cancer de l'hypophyse |
+| Score de Prédiction TxGNN | 99,04 % |
+| Niveau de Preuve | L1 (selon l'application stricte des règles : ≥ 2 ECR de phase 3 terminés ; voir réserve ci-dessous) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 6 (toutes annulées) |
+| Décision Recommandée | Proceed with Guardrails |
+
+> **Réserve sur le niveau de preuve :** les essais de phase 3 terminés concernent les adénomes corticotropes et les adénomes non fonctionnels, non le carcinome hypophysaire. Le niveau L1 doit donc être interprété avec prudence pour l'indication exacte prédite.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, la cabergoline est un agoniste des récepteurs dopaminergiques D2. Elle freine la sécrétion de prolactine et peut réduire le volume de certaines tumeurs hypophysaires.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la cabergoline est un agoniste des récepteurs dopaminergiques D2. Elle freine la sécrétion hormonale des cellules hypophysaires et peut réduire le volume des tumeurs exprimant ces récepteurs.
 
-Le lien avec l'adénocarcinome hypophysaire est plausible, mais **indirect**. Les récepteurs D2 sont exprimés par les cellules lactotropes et par certaines cellules d'adénomes non fonctionnels. Or le carcinome hypophysaire est rare et résiste généralement aux agonistes dopaminergiques.
+Son efficacité est bien établie dans les prolactinomes. Les données émergentes concernent les adénomes corticotropes et les adénomes hypophysaires non fonctionnels (NFPA). Elles s'appuient sur l'expression des récepteurs D2 et sur des travaux montrant que le ciblage de HTR2B sensibilise les tumeurs à la cabergoline.
 
-La littérature récupérée se limite à des cas cliniques : sécrétion ectopique d'ACTH, néoplasie endocrinienne multiple de type 1 (NEM1), et un article sans rapport sur l'adénocarcinome pancréatique. Aucun essai ne porte spécifiquement sur le carcinome hypophysaire.
+Point important : l'étiquette « cancer de l'hypophyse » semble être un rattachement large. Les preuves disponibles concernent des adénomes, pas le carcinome métastatique, et ne doivent pas être extrapolées à celui-ci. Le score TxGNN élevé est une prédiction informatique, pas une preuve clinique. Le signal de repositionnement se situe surtout dans les NFPA et les tumeurs corticotropes ; le prolactinome relève de l'indication d'origine.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT03271918](https://clinicaltrials.gov/study/NCT03271918) | Phase 3 | Terminé | 140 | Cabergoline dans l'adénome non fonctionnel résiduel après chirurgie transsphénoïdale (essai randomisé ouvert) |
+| [NCT00889525](https://clinicaltrials.gov/study/NCT00889525) | Phase 3 | Terminé | Non renseignée | Cabergoline dans la maladie de Cushing par adénome corticotrope ; résultats non rapportés |
+| [NCT02288962](https://clinicaltrials.gov/study/NCT02288962) | Phase 3 | Actif, non en recrutement | 60 | Traitement par agoniste dopaminergique des adénomes non fonctionnels (essai randomisé contrôlé) |
+| [NCT01620138](https://clinicaltrials.gov/study/NCT01620138) | Phase 2/3 | Terminé | 21 | Expression des récepteurs de la somatostatine et de la dopamine dans les NFPA et prolactinomes résistants |
+| [NCT07034859](https://clinicaltrials.gov/study/NCT07034859) | Phase 4 | Inscription sur invitation | 30 | Cabergoline en traitement primaire de l'adénome non fonctionnel, sur 48 semaines |
+| [NCT00376064](https://clinicaltrials.gov/study/NCT00376064) | Phase 4 | Terminé | 20 | Octréotide + cabergoline dans l'acromégalie partiellement répondeuse |
+| [NCT01915303](https://clinicaltrials.gov/study/NCT01915303) | Phase 2 | Arrêté | 68 | Pasiréotide seul ou avec cabergoline dans la maladie de Cushing |
+| [NCT00460616](https://clinicaltrials.gov/study/NCT00460616) | Non applicable | Terminé | 50 | Étude observationnelle des anomalies cardiaques et valvulaires sous cabergoline au long cours dans les prolactinomes |
+
+Les essais portant sur les prolactinomes (indication d'origine) ne sont pas listés ici, car ils ne relèvent pas du repositionnement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [33569966](https://pubmed.ncbi.nlm.nih.gov/33569966/) | 2021 | Cas clinique | Rev Esp Enferm Dig | Patiente de 41 ans traitée par cabergoline pour un adénome hypophysaire ; lymphangiectasies duodénales révélant un adénocarcinome pancréatique. Hors sujet pour l'indication prédite. |
-| [20497940](https://pubmed.ncbi.nlm.nih.gov/20497940/) | 2010 | Cas clinique | Endocr Pract | Réponse de la corticotropine à l'octréotide ou à la cabergoline au long cours dans une sécrétion ectopique d'ACTH. |
-| [41760078](https://pubmed.ncbi.nlm.nih.gov/41760078/) | 2026 | Cas clinique | Medicine | NEM1 avec évolution atypique et variant du gène MEN1 de signification incertaine. Le résumé fourni ne mentionne pas d'effet de la cabergoline. |
+| [37097352](https://pubmed.ncbi.nlm.nih.gov/37097352/) | 2023 | Revue | JAMA | Diagnostic et prise en charge des adénomes hypophysaires |
+| [31597135](https://pubmed.ncbi.nlm.nih.gov/31597135/) | 2020 | Revue | Neuroendocrinology | Nouveaux mécanismes antitumoraux de la cabergoline et applications potentielles élargies |
+| [38989697](https://pubmed.ncbi.nlm.nih.gov/38989697/) | 2024 | Préclinique | Neuro-oncology | Le ciblage de HTR2B freine la croissance des NFPA et sensibilise à la cabergoline |
+| [28025719](https://pubmed.ncbi.nlm.nih.gov/28025719/) | 2017 | Revue | Pituitary | Place de la cabergoline dans l'acromégalie |
+| [25732645](https://pubmed.ncbi.nlm.nih.gov/25732645/) | 2015 | Revue | Endocrinol Metab Clin North Am | Cabergoline et valvulopathies : dans la plupart des études, pas de sur-risque significatif |
+| [36013562](https://pubmed.ncbi.nlm.nih.gov/36013562/) | 2022 | Revue | Medicina (Kaunas) | Prise en charge des prolactinomes, dont les formes agressives |
+| [20497940](https://pubmed.ncbi.nlm.nih.gov/20497940/) | 2010 | Rapport de cas | Endocr Pract | Octréotide ou cabergoline au long cours dans une sécrétion ectopique de corticotropine |
+
+Aucune de ces publications ne démontre directement un bénéfice de la cabergoline dans le carcinome hypophysaire.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 69671845 | DOSTINEX 0,5 mg, comprimé (Pfizer Holding France) | Comprimé |
-| 63313930 | DOSTINEX 0,5 mg, comprimé (Difarmed, Espagne) | Comprimé |
-| 66386969 | CABERGOLINE BIOGARAN 0,5 mg | Comprimé sécable |
-| 69823057 | CABERGOLINE ARROW 0,5 mg | Comprimé sécable |
-| 65266671 | CABERGOLINE ZENTIVA 0,5 mg (Renata Pharmaceuticals, Irlande) | Comprimé sécable |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69671845 | DOSTINEX 0,5 mg, comprimé (annulée) | Comprimé | Non renseignée |
+| 63313930 | DOSTINEX 0,5 mg, comprimé (annulée) | Comprimé | Non renseignée |
+| 66386969 | CABERGOLINE BIOGARAN 0,5 mg (annulée) | Comprimé sécable | Non renseignée |
+| 69823057 | CABERGOLINE ARROW 0,5 mg (annulée) | Comprimé sécable | Non renseignée |
+| 65266671 | CABERGOLINE ZENTIVA 0,5 mg (annulée) | Comprimé sécable | Non renseignée |
 
-Cinq AMM sont listées sur les six recensées.
+Une sixième AMM (CABERGOLINE TEVA 0,5 mg, n° 64986919, annulée) complète la liste. Aucune AMM n'est actuellement valide.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : maladie hépatique, maladie de la vésicule biliaire, valvulopathie cardiaque, fibrose pulmonaire (y compris post-inflammatoire), fibrose rétropéritonéale liée aux IgG4, pré-éclampsie (y compris sévère).
+- **Interactions médicamenteuses** : 60 interactions recensées. Les principales sont de niveau majeur avec la lorcasérine et la clarithromycine, et de niveau modéré avec le métoclopramide. Les autres interactions listées (pantoprazole, oméprazole, metformine, simvastatine, prednisone, etc.) sont de niveau non précisé.
+- **Signal de sécurité oculaire** : un cas de glaucome bilatéral à angle fermé a été rapporté chez une jeune femme sous cabergoline (PMID 21347189).
+- **Valvulopathies** : le risque est débattu ; la plupart des études ne montrent pas de sur-risque significatif, mais les antécédents valvulaires restent à prendre en compte.
+
+Les mises en garde et contre-indications de la notice n'ont pas pu être obtenues. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Hold**
+**Décision : Proceed with Guardrails**
 
 **Justification :**
-- Pour cette indication précise, la prédiction repose surtout sur le modèle : aucun essai, et seulement des cas cliniques sans lien direct avec la cabergoline dans le carcinome hypophysaire.
-- Le carcinome hypophysaire est rare et habituellement résistant aux agonistes dopaminergiques, ce qui limite la portée du lien mécanistique.
-- À titre indicatif, l'indication voisine « cancer de l'hypophyse » (rang 3 du dossier) dispose d'un soutien nettement plus solide, avec des essais de phase 3 et des méta-analyses. Ces données concernent toutefois des adénomes bénins et non des carcinomes. Elle est classée L2 (Proceed with Guardrails) et mérite une évaluation distincte.
+- Plusieurs essais de phase 3 testent la cabergoline dans les adénomes corticotropes et non fonctionnels, ce qui soutient une exploration plus poussée. Toutefois, ces données concernent les adénomes et non le carcinome hypophysaire, et le statut actuel des AMM (toutes annulées) limite l'accès en France.
+- Les autres indications prédites ne sont pas soutenues : le syndrome de progéria-petite taille-nævus pigmentés et la paralysie cérébrale spastique quadriplégique n'ont ni essai ni publication (niveau L5). Pour le glaucome, la seule donnée clinique est un signal de sécurité. Ces trois pistes sont en attente (Hold).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (DrugBank)
-- Notice de l'ANSM (mises en garde, contre-indications), indispensable au criblage de sécurité
-- Revue ciblée de la littérature sur l'usage de la cabergoline dans les carcinomes hypophysaires confirmés histologiquement
-- Si l'évaluation se poursuit, confirmer le sous-type tumoral (adénome ou carcinome), surveiller la prolactine et le volume tumoral, et dépister une valvulopathie cardiaque par échocardiographie en cas de traitement prolongé ou à forte dose
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
+- Publication des résultats des essais de phase 3 (NCT03271918, NCT00889525, NCT02288962)
+- Données spécifiques au carcinome hypophysaire, distinctes des adénomes
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice de l'ANSM
+- Clarification du statut réglementaire en France (AMM annulées) et de la voie d'administration
+- Plan de surveillance cardiaque (valvulopathies), hépatique et ophtalmologique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

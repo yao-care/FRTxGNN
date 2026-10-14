@@ -2,7 +2,7 @@
 layout: default
 title: Famciclovir
 parent: Preuves modérées (L3-L4)
-nav_order: 125
+nav_order: 315
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,64 +29,65 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Famciclovir : Vers la Névralgie Post-Infectieuse
+# Famciclovir : Du Zona à la Névralgie Post-Infectieuse
 
 ## Résumé en Une Phrase
 
-Famciclovir est un antiviral, prodrogue du penciclovir, qui agit sur l'ADN polymérase des herpèsvirus. Le texte de l'indication autorisée en France n'est pas renseigné dans les données reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie post-infectieuse** (en pratique, la névralgie post-zostérienne), avec **2 essais cliniques** liés à la maladie, dont aucun ne teste le famciclovir, et **aucune publication** soutenant actuellement cette direction.
+Famciclovir est un antiviral, prodrogue du penciclovir, initialement utilisé pour le traitement du zona (herpès zoster).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie post-infectieuse** (névralgie post-zostérienne), mais **aucune publication** et **1 seul essai clinique** (sans lien direct avec le famciclovir) ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Zona (herpès zoster) |
 | Nouvelle Indication Prédite | Névralgie post-infectieuse |
 | Score de Prédiction TxGNN | 99,75 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | ✗ Retiré (AMM annulées uniquement) |
 | Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. Sur la base des informations connues, le famciclovir est converti en penciclovir, qui inhibe l'ADN polymérase du virus varicelle-zona (VZV) après phosphorylation par la thymidine kinase virale.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le famciclovir est une prodrogue du penciclovir : sous sa forme active (penciclovir triphosphate), il inhibe l'ADN polymérase du virus varicelle-zona (VZV).
 
-La névralgie post-infectieuse est la complication douloureuse la plus fréquente du zona. Un traitement antiviral précoce pendant la phase aiguë du zona pourrait réduire la gravité et la durée de cette phase, ce qui constitue une voie indirecte plausible pour diminuer le risque de névralgie ultérieure.
+Le zona est la maladie en amont de la névralgie post-zostérienne, qui en est la complication la plus fréquente. Réduire la réplication virale en phase aiguë pourrait limiter les lésions nerveuses et donc le risque de névralgie persistante. Ce lien est plausible sur le plan biologique, mais indirect.
 
-Cette hypothèse reste indirecte. Les deux essais associés portent sur d'autres interventions (oxycodone, blocs nerveux) et ne fournissent aucune preuve directe pour le famciclovir dans cette indication.
+Il faut souligner que le seul essai retrouvé teste l'oxycodone et non le famciclovir. Il n'apporte donc aucune preuve directe d'un bénéfice du famciclovir sur cette complication. Le score élevé du modèle reste, à ce stade, une prédiction.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Non applicable | Inconnu | 140 | Oxycodone précoce en phase aiguë du zona pour prévenir la névralgie post-zostérienne. Le famciclovir n'est pas testé. |
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | Non applicable | Recrutement non commencé | 120 | Bloc nerveux multimodal et radiofréquence pulsée pour la douleur du zona aigu. Aucun bras famciclovir. |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Non applicable | Inconnu | 140 | Effet de l'oxycodone précoce en phase aiguë du zona sur la prévention de la névralgie post-zostérienne. Le famciclovir n'est pas l'intervention étudiée. |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 69092403 | ORAVIR 125 mg, comprimé pelliculé | Comprimé pelliculé |
-| 62801318 | ORAVIR 500 mg, comprimé pelliculé | Comprimé pelliculé |
-
-Les deux AMM sont détenues par PHOENIX LABS (Irlande).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69092403 | ORAVIR 125 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62801318 | ORAVIR 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances (hors notice)** : maladie rénale, pyourétère.
+- **Interactions Médicamenteuses** : 84 interactions recensées, toutes de niveau « inconnu ». Parmi les médicaments concernés : calcitriol, doxycycline, clotrimazole, pantoprazole, glimépiride, morphine, metformine, oméprazole, vancomycine, prednisone, simvastatine.
+
+Les mises en garde et contre-indications officielles de la notice n'ont pas pu être exploitées. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose sur un score de modèle élevé et sur un lien mécanistique indirect. Aucun essai ni publication ne teste le famciclovir dans la névralgie post-infectieuse, et les données de sécurité de la notice ANSM sont manquantes.
+Le lien mécanistique est plausible, mais aucune preuve directe n'existe : le seul essai associé n'évalue pas le famciclovir et aucune publication n'est disponible. De plus, les deux AMM françaises sont annulées, ce qui limite toute avancée pratique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Un essai comparatif évaluant directement le famciclovir sur la prévention de la névralgie post-zostérienne
-- La notice ANSM (mises en garde, contre-indications) et le texte de l'indication autorisée
-- Les données détaillées sur le mécanisme d'action (DrugBank)
-- Un point d'attention : dans le même Evidence Pack, la varicelle et le zona (rang 7) sont soutenus par un essai de phase 3 terminé comparant famciclovir et aciclovir dans le zona (NCT01327144), ainsi qu'un essai pédiatrique de phase 3 sur la pharmacocinétique et la sécurité (NCT00098046). Cette piste, au niveau L1, est recommandée en « Proceed with Guardrails » ; il faudrait confirmer s'il s'agit de la varicelle ou du zona et la base de dosage pédiatrique.
+- Données sur le mécanisme d'action (DrugBank)
+- Mises en garde et contre-indications officielles de la notice (ANSM)
+- Essais ou études évaluant spécifiquement le famciclovir sur la prévention ou le traitement de la névralgie post-zostérienne
+- Évaluation de la faisabilité réglementaire, étant donné l'absence d'AMM valide en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

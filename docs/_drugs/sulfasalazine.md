@@ -2,7 +2,7 @@
 layout: default
 title: Sulfasalazine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 292
+nav_order: 721
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,82 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulfasalazine : De l'indication d'origine (non renseignée) au syndrome de brachydactylie-syndactylie
+# Sulfasalazine : De la polyarthrite rhumatoïde à l'arthrose
 
 ## Résumé en Une Phrase
 
-La sulfasalazine est commercialisée en France (Salazopyrine 500 mg, comprimé enrobé gastro-résistant), mais l'indication d'origine n'est pas renseignée dans les données réglementaires disponibles.
-Le modèle TxGNN la prédit comme potentiellement efficace pour le **syndrome de brachydactylie-syndactylie**, une malformation congénitale rare des membres.
-Cette prédiction ne repose sur **aucun essai clinique** et **aucune publication** : c'est une sortie de modèle seule.
-
----
+La sulfasalazine est un médicament anti-inflammatoire utilisé à l'origine dans la polyarthrite rhumatoïde, la rectocolite hémorragique et les maladies inflammatoires chroniques de l'intestin.
+Le modèle TxGNN la prédit comme potentiellement efficace pour l'**arthrose**, la prédiction la mieux documentée parmi les dix candidates (la première, le syndrome de brachydactylie-syndactylie, n'a aucune preuve).
+Aucun essai clinique n'est enregistré, mais **20 publications** ont été retrouvées, dont quatre études précliniques directement pertinentes (cellules, explants de cartilage, modèles animaux).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM |
-| Nouvelle Indication Prédite | Syndrome de brachydactylie-syndactylie |
-| Score de Prédiction TxGNN | 99,94 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
-| Décision Recommandée | Hold |
-
----
+| Indication Originale | Polyarthrite rhumatoïde, rectocolite hémorragique, maladies inflammatoires chroniques de l'intestin, arthrite juvénile idiopathique, spondylarthropathie (le texte d'indication de l'AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Arthrose (candidate la mieux étayée ; la première du classement TxGNN est le syndrome de brachydactylie-syndactylie, sans aucune preuve) |
+| Score de Prédiction TxGNN | 99,64 % (arthrose) ; 99,94 % pour le syndrome de brachydactylie-syndactylie |
+| Niveau de Preuve | L4 (arthrose) |
+| Statut de Marché en France | Uniquement annulée |
+| Nombre d'AMM | 1 (annulée) |
+| Décision Recommandée | Hold (l'arthrose reste une question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les éléments d'analyse, la sulfasalazine exerce une action anti-inflammatoire, avec une inhibition de la voie NF-kB et du transporteur cystine/glutamate xCT.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la sulfasalazine est un anti-inflammatoire immunomodulateur, dont l'efficacité dans les rhumatismes inflammatoires et les maladies inflammatoires de l'intestin est établie.
 
-L'analyse n'identifie **aucun lien mécanistique plausible** avec le syndrome de brachydactylie-syndactylie. Il s'agit d'une malformation congénitale rare des membres, dont la physiopathologie relève du développement embryonnaire. Elle n'a pas de rapport évident avec les effets anti-inflammatoires du médicament.
+La littérature préclinique décrit la sulfasalazine comme un inhibiteur de NF-κB et du transporteur cystine/glutamate (système xc-). Dans ce cadre, elle a atténué la destruction du cartilage dans un modèle de rupture du ligament croisé antérieur avec méniscectomie (PMID 26466556), bloqué la libération de protéoglycanes et de collagène par du cartilage stimulé par des cytokines avec une baisse des métalloprotéinases (PMID 19690126), et, sous forme de formulation avec l'acide hyaluronique, réduit l'inflammation et la dégradation du cartilage chez le rat (PMID 29548914).
 
-Le score TxGNN est très élevé (0,999), mais il reflète une proximité dans le graphe de connaissances, pas une preuve d'efficacité. Sans essai ni publication, cette prédiction doit être considérée comme non corroborée. La similarité avec l'indication d'origine reste à évaluer.
+Le lien avec l'indication d'origine est la composante inflammatoire commune aux affections articulaires. Il reste toutefois indirect : aucune donnée d'efficacité chez l'humain atteint d'arthrose n'a été retrouvée.
 
----
+Les autres candidates du classement (syndromes malformatifs rares, syndrome WHIM, dysplasies squelettiques, myosclérose, etc.) n'ont aucun essai ni publication et aucun lien mécanistique identifié. Leurs scores élevés reflètent probablement la topologie du graphe de connaissances plutôt qu'une logique biologique. La « spondylarthropathie, susceptibilité » correspond à une indication déjà existante, et non à un véritable repositionnement.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Publications les plus pertinentes pour l'arthrose (aucun ECR retrouvé) :
 
----
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [26466556](https://pubmed.ncbi.nlm.nih.gov/26466556/) | 2016 | Préclinique (modèle animal) | J Orthop Res | La sulfasalazine atténue la destruction du cartilage après section du LCA et méniscectomie, via l'inhibition du transporteur cystine/glutamate |
+| [29548914](https://pubmed.ncbi.nlm.nih.gov/29548914/) | 2018 | Préclinique (formulation/in vivo) | Int J Biol Macromol | Acide hyaluronique contenant de la sulfasalazine : libération prolongée jusqu'à 60 jours, réduction de l'inflammation et de la dégradation du cartilage chez le rat |
+| [19690126](https://pubmed.ncbi.nlm.nih.gov/19690126/) | 2009 | Préclinique (in vitro/explant) | Rheumatology (Oxford) | Blocage de la libération de protéoglycanes et de collagène par du cartilage stimulé par des cytokines ; baisse des métalloprotéinases |
+| [24329131](https://pubmed.ncbi.nlm.nih.gov/24329131/) | 2014 | Préclinique (in vitro) | Mod Rheumatol | Modification du profil protéique des chondrocytes articulaires par la sulfasalazine et le tofacitinib |
+| [1673814](https://pubmed.ncbi.nlm.nih.gov/1673814/) | 1991 | Préclinique (in vitro) | Wien Klin Wochenschr | Effet de la sulfasalazine et de ses métabolites sur la libération de prostaglandines et de leucotriènes par du tissu synovial humain |
+| [35958605](https://pubmed.ncbi.nlm.nih.gov/35958605/) | 2022 | Revue | Front Immunol | Rôle de la ferroptose dans les arthrites inflammatoires, dont l'arthrose |
+| [25413361](https://pubmed.ncbi.nlm.nih.gov/25413361/) | 2014 | Cas-témoins (pharmacogénétique) | BMC Pharmacol Toxicol | Polymorphismes de la NAT dans la spondylarthrite ankylosante chez des patients chinois Han et lien avec les effets indésirables de la sulfasalazine |
+
+Les autres publications retrouvées sont surtout des revues générales de rhumatologie, de peu de pertinence directe.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67124724 | SALAZOPYRINE 500 mg, comprimé enrobé gastro-résistant (PFIZER HOLDING FRANCE) | Comprimé enrobé gastro-résistant | Non renseignée dans les données |
-
----
+| 67124724 | SALAZOPYRINE 500 mg, comprimé enrobé gastro-résistant (PFIZER HOLDING FRANCE) | Comprimé enrobé gastro-résistant | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications (issues du graphe de connaissances, et non du texte de la notice)** : porphyries (héréditaire et métabolisme des porphyrines), maladie rénale, maladie hépatique, maladie de la vésicule biliaire, asthme (intrinsèque et allergique), neutropénie, agranulocytose, anémie aplasique (dont idiopathique), acétylation lente, déficit en G6PD, glycogénose, cystinurie, galactosémie, obstruction des voies urinaires, pyourètre.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi celles listées, les interactions **majeures** concernent la prilocaïne (topique), les immunoglobulines G humaines (intraveineuses) et la méthénamine. Des interactions modérées concernent notamment l'azathioprine, les AINS (ibuprofène, kétorolac, célécoxib), l'acyclovir, l'amphotéricine B, l'amikacine, les œstrogènes (éthinylestradiol, estradiol), l'alpélisib et l'apalutamide. Une interaction mineure concerne l'acide folique.
 
----
+Les mises en garde et contre-indications issues de la notice française ne sont pas disponibles : veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L5 : aucun essai, aucune publication, et aucun lien mécanistique plausible avec une malformation congénitale du développement des membres.
-- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Pour l'arthrose, les preuves se limitent à des études précliniques (niveau L4), sans essai clinique ni donnée d'efficacité chez l'humain. Les neuf autres candidates n'ont aucune preuve (L5) ou correspondent à une indication déjà existante.
+- La notice française n'est pas disponible, ce qui bloque l'évaluation de sécurité, et la seule AMM française est annulée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde et contre-indications) et l'indication approuvée de l'AMM.
-- Obtenir les données sur le mécanisme d'action via l'API DrugBank.
-- Établir un lien mécanistique et des données précliniques pour justifier la prédiction.
-
-**Remarque :** dans le même dossier, deux autres prédictions sont mieux étayées et méritent d'être examinées en priorité (niveau L4, décision « Research Question »).
-- **Arthrose** (score 99,64 %) : plusieurs études précliniques (modèles animaux et cartilage in vitro) vont dans le sens d'un effet protecteur. La pertinence des deux essais cliniques retrouvés n'est pas confirmée, et l'efficacité chez l'humain reste non démontrée.
-- **Spondylarthropathie, susceptibilité** (score 99,53 %) : la littérature retrouvée se compose surtout de revues et d'études observationnelles ou génétiques, sans essai.
+- Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications)
+- Obtenir des données détaillées sur le mécanisme d'action (DrugBank)
+- Réaliser ou identifier des essais cliniques de phase 2 sur l'arthrose, avec une évaluation de la voie d'administration (par exemple, formulation intra-articulaire avec acide hyaluronique)
+- Évaluer le rapport bénéfice/risque, vu les contre-indications hématologiques, hépatiques et rénales et le nombre élevé d'interactions
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

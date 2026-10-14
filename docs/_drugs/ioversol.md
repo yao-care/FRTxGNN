@@ -2,7 +2,7 @@
 layout: default
 title: Ioversol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 156
+nav_order: 409
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,80 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ioversol : D'un agent de contraste iodé à la susceptibilité à l'arthrose
+# Ioversol : D'un produit de contraste iodé à l'arthrose (prédiction de modèle uniquement)
 
 ## Résumé en Une Phrase
 
-L'ioversol est un agent de contraste iodé utilisé en imagerie diagnostique. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **susceptibilité à l'arthrose**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction. Il s'agit d'un signal purement algorithmique.
+Ioversol est un produit de contraste iodé utilisé en imagerie médicale (commercialisé en France notamment sous les noms OPTIRAY et OPTIJECT).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **susceptibilité à l'arthrose**, mais cette prédiction repose uniquement sur le calcul, sans mécanisme plausible.
+Aucun essai clinique n'est enregistré et aucune publication n'évalue l'ioversol comme traitement de cette pathologie.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Agent de contraste iodé (usage diagnostique ; le texte d'indication n'est pas renseigné dans les AMM) |
+| Indication Originale | Non disponible dans les données compilées (texte d'indication vide pour les 4 AMM) |
 | Nouvelle Indication Prédite | Susceptibilité à l'arthrose |
 | Score de Prédiction TxGNN | 99,67 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 4 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'ioversol est un produit de contraste iodé radio-opaque. Sa fonction connue est de rendre les structures visibles à l'imagerie, et non de modifier l'évolution d'une maladie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'ioversol est un produit de contraste iodé, utilisé pour rendre certaines structures visibles en imagerie. Il n'a pas d'activité connue de modification de la maladie.
 
-Aucun lien mécanistique plausible n'est identifié entre l'ioversol et la susceptibilité à l'arthrose. Ce terme désigne un facteur de prédisposition génétique et non une maladie traitable par un produit de contraste. Le score élevé de TxGNN reflète très probablement une proximité dans le graphe de connaissances, sans support expérimental ou clinique.
+Aucun lien mécanistique n'a été identifié entre l'ioversol et la susceptibilité à l'arthrose. Il s'agit d'un phénotype de prédisposition génétique, qui n'est pas une cible plausible pour un produit de contraste. Le score élevé du modèle reflète une similarité dans le réseau de connaissances et non une preuve biologique ou clinique.
 
-Cette prédiction est donc à considérer comme **peu crédible en l'état**. Elle ne justifie pas, à elle seule, d'engager des travaux de repositionnement.
+Les autres prédictions du modèle (arthrose, polyarthrite rhumatoïde, brachyolmie, hémoglobinopathie, alopécie, dysplasies rares, etc.) présentent le même constat : aucun mécanisme plausible, et aucune preuve clinique soutenant un effet de l'ioversol.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement pour cette indication.
-
-**Signal voisin (prédiction n° 2, « arthrose »).** Quatre essais existent, mais aucun ne teste l'ioversol. Ils portent sur l'embolisation des artères géniculaires (GAE), où l'effet vient de l'embolisation de la synoviale hypervascularisée. L'agent iodé étudié est le Lipiodol (huile éthiodisée), pas l'ioversol :
-
-- [NCT06497140](https://clinicaltrials.gov/study/NCT06497140) : Phase 3, en recrutement, 130 patients, GAE contre placebo (sham) dans la gonarthrose.
-- [NCT04733092](https://clinicaltrials.gov/study/NCT04733092) : Phase 1, terminé, 22 patients, émulsion de Lipiodol.
-- [NCT06859164](https://clinicaltrials.gov/study/NCT06859164) : Phase 2, en recrutement, 50 patients, étude pilote GAE contre placebo (sham).
-- [NCT06611007](https://clinicaltrials.gov/study/NCT06611007) : Phase 1/2, en recrutement, 15 patients, Lipiodol dans l'arthrose digitale.
-
-Ces essais ne sont pas transférables à l'ioversol. Au mieux, celui-ci pourrait servir de produit de guidage radiographique pendant la procédure, ce qui n'est pas une indication thérapeutique.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée n'est disponible actuellement pour cette indication.
+Aucune publication ne porte sur l'ioversol dans la susceptibilité à l'arthrose. Pour la prédiction voisine « arthrose », une seule publication a été retrouvée, mais elle n'évalue pas l'ioversol :
 
-Pour l'arthrose (prédiction n° 2), une seule publication existe : [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) (2024, *Diagnostic and Interventional Imaging*), essai LipioJoint-1. C'est un essai prospectif à un seul bras sur la GAE avec une émulsion d'huile éthiodisée, sans lien avec l'ioversol.
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Essai clinique (procédure d'embolisation) | Diagnostic and Interventional Imaging | Essai LipioJoint-1 : embolisation transitoire des artères géniculées avec une émulsion à base d'huile iodée pour l'arthrose du genou. Ce n'est pas un traitement par ioversol ; le lien est indirect (procédural ou lié à l'imagerie). |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 65772900 | OPTIRAY 350 (350 mg I/mL), solution injectable en flacon | Solution injectable |
-| 67470459 | OPTIJECT 300 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion |
-| 62823503 | OPTIJECT 350 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion |
-| 67722465 | OPTIRAY 300 (300 mg I/mL), solution injectable en flacon | Solution injectable |
-
-Les quatre AMM sont détenues par GUERBET.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 65772900 | OPTIRAY 350 (350 mg I/mL), solution injectable en flacon | Solution injectable | Non renseignée (AMM annulée) |
+| 67470459 | OPTIJECT 300 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
+| 62823503 | OPTIJECT 350 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
+| 67722465 | OPTIRAY 300 (300 mg I/mL), solution injectable en flacon | Solution injectable | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Mises en garde et contre-indications** : les données de la notice n'ont pas pu être exploitées. Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : 100 interactions recensées. Parmi celles listées, la plupart sont de niveau **majeur** :
+  - Metformine
+  - Amphotéricine B (formes conventionnelle, complexe lipidique, sulfate de cholestéryle et liposomale)
+  - Mésalazine, balsalazide, olsalazine, sulfasalazine
+  - Vancomycine
+  - Aminosides : kanamycine, néomycine, streptomycine
+  - Polymyxine B
+- Interaction de niveau **modéré** : mannitol.
+- Interactions de niveau non précisé : atropine, famotidine, acide acétylsalicylique, morphine, oméprazole.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible pour un agent de contraste inerte.
-- Les essais trouvés pour l'arthrose concernent l'embolisation au Lipiodol, pas l'ioversol.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication évaluant l'ioversol, et aucun mécanisme plausible. De plus, toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (indications, mises en garde, contre-indications) pour lever le blocage de l'évaluation de sécurité.
-- Obtenir les données sur le mécanisme d'action depuis DrugBank.
-- Vérifier si l'un des essais de GAE utilise l'ioversol comme produit de guidage ou d'embolisation.
-- Clarifier si « susceptibilité à l'arthrose » est une cible thérapeutique pertinente, ou s'il faut plutôt évaluer l'arthrose elle-même.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Données sur le mécanisme d'action et justification biologique d'un effet sur l'arthrose
+- Notice de l'ANSM (mises en garde et contre-indications) pour permettre un examen de sécurité
+- Données précliniques ou cliniques évaluant directement l'ioversol dans cette indication
+- Analyse de la compatibilité des voies d'administration, en tenant compte de l'usage injectable et du statut réglementaire actuel
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

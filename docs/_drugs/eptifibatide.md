@@ -2,7 +2,7 @@
 layout: default
 title: Eptifibatide
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 120
+nav_order: 290
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,88 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Eptifibatide : Repositionnement vers la Polyarthrite Rhumatoïde
+# Eptifibatide : Du Syndrome Coronarien Aigu à la Polyarthrite Rhumatoïde
 
 ## Résumé en Une Phrase
 
-L'indication d'origine n'est pas renseignée dans les données d'AMM françaises fournies. Selon la pharmacologie générale, l'eptifibatide est un antagoniste des récepteurs GP IIb/IIIa (anti-agrégant plaquettaire) utilisé dans les syndromes coronariens aigus.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rhumatoïde**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+L'eptifibatide est un antagoniste des récepteurs GPIIb/IIIa (antiagrégant plaquettaire injectable), initialement utilisé dans le **syndrome coronarien aigu**.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rhumatoïde**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement algorithmique.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Syndrome coronarien aigu (d'après le graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,99 % (rang 342) |
+| Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Uniquement des AMM abrogées (non commercialisé) |
+| Nombre d'AMM | 2 (0 valide, 2 abrogées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la pharmacologie générale, l'eptifibatide est un antagoniste de GP IIb/IIIa qui bloque l'agrégation plaquettaire. Son efficacité a été établie en cardiologie, mais rien dans le dossier ne relie ce mécanisme à la polyarthrite rhumatoïde.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, l'eptifibatide bloque le récepteur GPIIb/IIIa (intégrine αIIbβ3) des plaquettes et empêche leur agrégation. Cette action explique son utilité dans le syndrome coronarien aigu.
 
-L'hypothèse sous-jacente est que les plaquettes participeraient à l'inflammation synoviale. Cette piste reste **spéculative** : aucun élément clinique ou bibliographique ne la soutient, et le score TxGNN élevé ne suffit pas à lui seul à la justifier.
+Le lien avec la polyarthrite rhumatoïde reste **spéculatif**. L'inflammation d'origine plaquettaire et la signalisation des intégrines pourraient jouer un rôle dans l'inflammation synoviale, mais aucune donnée clinique ou bibliographique n'a été trouvée pour étayer cette hypothèse. La similarité entre l'indication d'origine (maladie cardiovasculaire thrombotique) et la nouvelle indication (maladie auto-immune articulaire) n'a pas pu être évaluée.
 
-La similarité avec l'indication d'origine n'a pas encore été évaluée.
+À titre d'information, parmi les autres indications prédites, l'**hémoglobinopathie** (drépanocytose) est la mieux documentée (niveau L2, voir la conclusion). Elle repose sur le rôle de l'activation plaquettaire dans les crises vaso-occlusives.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour la polyarthrite rhumatoïde.
+Aucun essai clinique associé enregistré actuellement.
 
-*À titre d'information :* une autre indication prédite, l'**hémoglobinopathie** (drépanocytose, rang 7), dispose d'un essai de Phase 1/2 : [NCT00834899](https://clinicaltrials.gov/study/NCT00834899). Cet essai est randomisé, en double aveugle, contre placebo, et porte sur les crises douloureuses aiguës. Il a été **arrêté prématurément avec 13 participants**, donc il est sous-dimensionné pour conclure sur l'efficacité.
+---
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour la polyarthrite rhumatoïde.
+Aucune littérature associée disponible actuellement.
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 67185951 | EPTIFIBATIDE ACCORD 2 mg/ml | Solution injectable | Accord Healthcare (Espagne) |
-| 61707499 | EPTIFIBATIDE ACCORD 0,75 mg/ml | Solution pour perfusion | Accord Healthcare (Espagne) |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut | Indication Approuvée |
+|---------|------|------|------|-----------|
+| 67185951 | EPTIFIBATIDE ACCORD 2 mg/ml | Solution injectable | Abrogée | Non renseignée |
+| 61707499 | EPTIFIBATIDE ACCORD 0,75 mg/ml | Solution pour perfusion | Abrogée | Non renseignée |
 
-Le texte d'indication approuvée n'est pas renseigné pour ces deux AMM. Les deux formes sont injectables, ce qui est à prendre en compte pour toute indication chronique comme la polyarthrite rhumatoïde.
+Les deux AMM appartiennent à ACCORD HEALTHCARE (Espagne) et concernent des spécialités à base d'eptifibatide seul. Aucune n'est actuellement valide.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : thrombocytopénie, maladie de la coagulation, insuffisance rénale.
+- **Interactions médicamenteuses** (100 interactions recensées, principales citées) :
+  - **Majeures** : déférasirox, ibritumomab tiuxétan, tositumomab (I-131).
+  - **Modérées** : acide acétylsalicylique, dexfenfluramine, fenfluramine, sibutramine.
+  - D'autres interactions, de niveau non précisé, concernent notamment les inhibiteurs de la pompe à protons (oméprazole, pantoprazole, lansoprazole), la morphine, la simvastatine et la prednisone.
 
-Par pharmacologie générale, le risque hémorragique est la préoccupation principale d'un anti-agrégant de ce type. La notice ANSM n'a pas encore été analysée.
+Le risque hémorragique inhérent à tout antiagrégant doit être pris en compte. Pour les mises en garde officielles, veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, avec un lien mécanistique spéculatif et des données de sécurité manquantes.
-- La voie d'administration injectable est peu compatible a priori avec une maladie chronique.
+- La prédiction pour la polyarthrite rhumatoïde repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le profil de risque hémorragique, et les contre-indications relevées dans le graphe de connaissances, pèsent contre une avancée sans données solides.
+- L'eptifibatide n'a plus d'AMM valide en France, ce qui complique tout développement local.
+- L'hémoglobinopathie (drépanocytose) est la piste la mieux étayée, avec un essai de phase 1/2 randomisé (NCT00834899, arrêté prématurément après 13 patients) et trois études pilotes ou de phase I. L'efficacité n'y est pas démontrée, et aucune donnée de phase 3 n'existe. Elle mérite d'être traitée comme une question de recherche à part entière.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde, contre-indications) : lacune bloquante pour le criblage de sécurité
-- Compléter les données de mécanisme d'action (DrugBank)
-- Effectuer une recherche bibliographique ciblée sur les plaquettes/GP IIb/IIIa dans la polyarthrite rhumatoïde
-- Évaluer la compatibilité des voies d'administration
-- Pour information, l'hémoglobinopathie (L2, essai de Phase 1/2 et trois publications cliniques) est la piste la mieux étayée de ce dossier et pourrait être évaluée en priorité comme question de recherche, avec des garde-fous hémorragiques. Les preuves concernent la drépanocytose (anémie falciforme) et ne s'appliquent aux autres génotypes que par inférence.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
+- Récupérer le texte de la notice (mises en garde, contre-indications, indications) auprès de l'ANSM, pour permettre un premier examen de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
+- Réaliser une revue de la littérature ciblée sur le rôle des plaquettes et de GPIIb/IIIa dans la polyarthrite rhumatoïde, puis des études précliniques si elle est concluante.
+- Clarifier la situation réglementaire (abrogation des AMM) et la disponibilité du produit en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

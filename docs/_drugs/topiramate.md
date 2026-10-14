@@ -2,7 +2,7 @@
 layout: default
 title: Topiramate
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 320
+nav_order: 773
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,72 +29,103 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Topiramate : De l'Épilepsie à la Tumeur du Nerf Trijumeau
+# Topiramate : De l'épilepsie à la tumeur du nerf trijumeau (prédiction du modèle)
 
 ## Résumé en Une Phrase
 
-Le topiramate est un médicament antiépileptique (les données ANSM disponibles ne précisent toutefois pas le texte de l'indication approuvée).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **tumeur du nerf trijumeau**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction issue du modèle seul.
+Le topiramate est un médicament antiépileptique à large spectre, initialement utilisé pour traiter l'épilepsie généralisée tonico-clonique, l'épilepsie partielle et le syndrome de Lennox-Gastaut.
+Le modèle TxGNN prédit en tête de classement le **néoplasme du nerf trijumeau** (score très élevé, mais fondé uniquement sur le graphe de connaissances), sans **aucun essai clinique** ni **aucune publication** à l'appui pour cette indication.
+Les autres prédictions du classement sont surtout des **épilepsies réflexes** (épilepsie visuelle, audiogène, de lecture, etc.), proches de l'indication d'origine, avec des preuves indirectes ou précliniques.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie (usage connu du topiramate ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Tumeur du nerf trijumeau |
+| Indication Originale | Épilepsie avec crises généralisées tonico-cloniques, épilepsie partielle, syndrome de Lennox-Gastaut (données du graphe de connaissances ; le texte des AMM françaises n'est pas renseigné) |
+| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau |
 | Score de Prédiction TxGNN | 99,70 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 17 |
+| Statut de Marché en France | Autorisations uniquement annulées (aucune AMM valide) |
+| Nombre d'AMM | 17 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances pharmacologiques générales, le topiramate agit sur les canaux sodiques, les récepteurs GABA-A, les récepteurs AMPA/kaïnate et l'anhydrase carbonique. Ce profil convient au contrôle des crises épileptiques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le topiramate est un antiépileptique à large spectre dont les actions décrites comprennent le blocage des canaux sodiques, le renforcement de la transmission GABA-A, l'antagonisme des récepteurs AMPA/kaïnate et une inhibition faible de l'anhydrase carbonique.
 
-Ces mécanismes ne relèvent pas de la biologie tumorale. Aucune donnée ne permet de relier l'épilepsie, indication d'origine, à une tumeur du nerf trijumeau. Le score élevé de TxGNN (0,997) reflète uniquement une proximité dans le graphe de connaissances.
+Pour la prédiction principale (néoplasme du nerf trijumeau), **aucun fondement mécanistique établi** n'existe : le topiramate n'a pas d'activité antitumorale reconnue. Le score élevé (99,70 %) provient uniquement du graphe de connaissances. Tout lien éventuel resterait spéculatif et relèverait plutôt du contrôle symptomatique (douleur neuropathique ou crises associées à la tumeur) que d'un effet sur la tumeur elle-même.
 
-En conséquence, la plausibilité mécanistique de cette prédiction n'est pas démontrée. Elle doit être considérée comme une piste à vérifier, et non comme une hypothèse étayée.
+Les autres prédictions (épilepsie visuelle, épilepsie de la lecture, crises audiogènes, etc.) sont mécanistiquement plus plausibles, car ce sont des épilepsies réflexes relevant du spectre des épilepsies déjà traitées. Elles chevauchent toutefois les indications existantes et ne représentent pas un véritable signal de repositionnement.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée disponible actuellement pour la prédiction principale (néoplasme du nerf trijumeau).
+
+À titre de contexte, pour les prédictions suivantes du classement, la littérature récupérée est surtout générale (revues sur les antiépileptiques) ou préclinique. Exemples les plus pertinents, rattachés aux crises audiogènes (rang 4) et aux crises de pensée (rang 8) :
+
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [24570033](https://pubmed.ncbi.nlm.nih.gov/24570033/) | 2014 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Topiramate en traitement additif de l'épilepsie partielle pharmacorésistante |
+| [31642054](https://pubmed.ncbi.nlm.nih.gov/31642054/) | 2019 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Topiramate en traitement additif de l'épilepsie focale pharmacorésistante |
+| [10666508](https://pubmed.ncbi.nlm.nih.gov/10666508/) | 2000 | Préclinique (animal) | Eur J Pharmacol | Le topiramate antagonise les crises audiogènes chez la souris DBA/2 et potentialise d'autres anticonvulsivants |
+| [12581224](https://pubmed.ncbi.nlm.nih.gov/12581224/) | 2003 | Préclinique (animal) | Epilepsia | Effets du topiramate dans deux modèles génétiques d'épilepsie généralisée (GAERS, rat audiogène Wistar AS) |
+| [39854828](https://pubmed.ncbi.nlm.nih.gov/39854828/) | 2025 | Revue | Epilepsy Behav | Revue des antiépileptiques dans le syndrome de Lennox-Gastaut, dont le topiramate |
+
+Ces publications soutiennent l'efficacité générale du topiramate dans l'épilepsie, mais n'évaluent pas directement les épilepsies réflexes rares, ni a fortiori le néoplasme du nerf trijumeau.
+
+---
 
 ## Informations de Marché en France
 
-Cinq des 17 AMM sont présentées ci-dessous.
+Les 17 AMM recensées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68906660 | TOPIRAMATE VIATRIS 200 mg (VIATRIS SANTE) | Comprimé pelliculé | Non précisée dans les données disponibles |
-| 64696702 | TOPIRAMATE ARROW LAB 100 mg (ARROW GENERIQUES) | Comprimé pelliculé | Non précisée dans les données disponibles |
-| 61913385 | EPITOMAX 100 mg (JANSSEN CILAG) | Comprimé pelliculé | Non précisée dans les données disponibles |
-| 64137353 | TOPIRAMATE VIATRIS 50 mg (VIATRIS SANTE) | Comprimé pelliculé | Non précisée dans les données disponibles |
-| 68987922 | EPITOMAX 25 mg (JANSSEN CILAG) | Gélule | Non précisée dans les données disponibles |
+| 68906660 | TOPIRAMATE VIATRIS 200 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 64696702 | TOPIRAMATE ARROW LAB 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61913385 | EPITOMAX 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68987922 | EPITOMAX 25 mg | Gélule | Non renseignée (AMM annulée) |
+| 63478939 | TOPIRAMATE BGR 50 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données disponibles.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : trouble anxieux, trouble névrotique, trouble dysthymique, maladie rénale, pyo-uretère, maladie hépatique, maladie de la vésicule biliaire, maladie diarrhéique, hypertension oculaire, néphrolithiase (dont la susceptibilité liée à SLC26A1), néphropathie uratique aiguë, acidose (dont acidose métabolique), trouble amnésique, amnésie rétrograde.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) :
+  - Majeures : metformine, hyoscyamine, atropine, scopolamine, glycopyrronium, clidinium, dicyclomine, mépenzolate, méthscopolamine, propanthéline, trospium (notamment les anticholinergiques).
+  - Modérées : pioglitazone, morphine, dronabinol, phentermine, métoclopramide, acide phénylbutyrique, nabilone, glibenclamide, phénylbutyrate de glycérol.
+- La littérature récupérée signale par ailleurs des effets indésirables psychiatriques et des complications en cas d'utilisation pendant la grossesse.
+
+Les mises en garde officielles de la notice ne sont pas disponibles : veuillez consulter la notice pour les informations de securité complètes.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans justification mécanistique.
-- Les informations de sécurité de la notice ANSM manquent, ce qui bloque toute évaluation de sécurité.
+- La prédiction principale (néoplasme du nerf trijumeau) repose uniquement sur un score de graphe, sans essai, sans publication ni logique mécanistique antitumorale ; le niveau de preuve est L5.
+- Aucune AMM n'est actuellement valide en France, et les données de sécurité officielles manquent (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), donnée bloquante.
-- Compléter les données sur le mécanisme d'action via DrugBank.
-- Rechercher toute donnée préclinique ou clinique reliant le topiramate aux tumeurs du nerf trijumeau. À défaut, la piste est à abandonner.
-
-**Pour information :** d'autres indications prédites pour ce médicament sont mieux étayées. C'est le cas de l'épilepsie visuelle (niveau L4, étape S1, « Question de recherche »), qui reste une extension d'un sous-type d'épilepsie déjà couverte par le topiramate. Elles pourraient être examinées en priorité.
+- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Pour le néoplasme du nerf trijumeau : définir une hypothèse biologique précise (effet antitumoral ou simple contrôle symptomatique) et rechercher des données précliniques ou cliniques.
+- Les épilepsies réflexes (épilepsie visuelle, audiogène, de lecture, crises de pensée) pourraient être étudiées comme questions de recherche, mais elles recoupent les indications existantes ; clarifier le statut réglementaire du topiramate en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

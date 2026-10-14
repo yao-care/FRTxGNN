@@ -2,7 +2,7 @@
 layout: default
 title: Fulvestrant
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 137
+nav_order: 353
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,92 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fulvestrant : De l'indication d'origine (non renseignée) au VIH
+# Fulvestrant : Du Cancer du Sein à l'Infection par le VIH
 
 ## Résumé en Une Phrase
 
-Fulvestrant est un médicament injectable commercialisé en France, dont l'indication d'origine n'est pas renseignée dans les données fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le VIH**, avec un score élevé (99,91 %).
-Cette prédiction repose uniquement sur le modèle : **0 essai clinique** et **1 publication**, qui porte sur un autre virus (HTLV-1) et ne la soutient donc pas.
+Fulvestrant est un antagoniste et dégradeur du récepteur des œstrogènes, utilisé dans le cancer du sein hormonodépendant avancé.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le VIH**,
+mais aucun essai clinique n'est enregistré et seules **2 publications** précliniques ou indirectes abordent cette piste. Il s'agit donc d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (aucun texte d'indication dans les AMM ni dans les données du médicament) |
-| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Indication Originale | Non renseignée dans les données d'AMM compilées (cancer du sein hormonodépendant avancé selon les connaissances générales sur la substance) |
+| Nouvelle Indication Prédite | Infection par le VIH |
 | Score de Prédiction TxGNN | 99,91 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
 | Nombre d'AMM | 10 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Les essais cliniques d'autres indications du dossier décrivent le fulvestrant comme un antagoniste et dégradeur des récepteurs des œstrogènes (SERD) utilisé en hormonothérapie. Sur la base de ces informations seulement, on ne peut pas conclure que ce mécanisme soit applicable au VIH.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, fulvestrant est un antagoniste pur du récepteur des œstrogènes (ER) qui favorise aussi sa dégradation. Son efficacité a été établie dans le cancer du sein HR+/HER2-, seul ou en association (par exemple avec le ribociclib ou l'alpélisib).
 
-Les données fournies ne soutiennent aucun lien plausible entre l'antagonisme du récepteur des œstrogènes et l'infection par le VIH. La seule publication associée concerne la myélopathie liée à HTLV-1, un rétrovirus différent, et ne peut pas servir de preuve pour le VIH.
+Le lien avec le VIH reste une hypothèse. Le récepteur ERα est exprimé dans les lymphocytes T CD4+, et une étude de 2026 (PMID 42430506) examine l'effet de ligands du récepteur, dont le fulvestrant, et d'agents de réversion de la latence du VIH sur ERα. Bloquer ou dégrader ce récepteur pourrait théoriquement moduler la latence virale. Cette idée n'a été explorée qu'in vitro, et aucune donnée clinique n'existe.
 
-Le score élevé reflète probablement la proximité du VIH dans le graphe de connaissances (maladies virales, rétrovirus) plutôt qu'un signal biologique indépendant. Les prédictions « infection par le SIV » et « SIDA félin » présentent exactement le même score (99,83 %), ce qui va dans le même sens. Cette prédiction doit donc être considérée comme une hypothèse non étayée.
+Le score très élevé du modèle (0,999) reflète une proximité dans le graphe de connaissances, et non une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement pour l'infection par le VIH.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Cohorte / analyse multi-omique (HTLV-1, pas VIH) | Research Square | Analyse de biologie des systèmes de la myélopathie associée à HTLV-1 (HAM), qui identifie des mécanismes de la maladie et des cibles thérapeutiques. Cette étude ne concerne ni le VIH ni le fulvestrant. |
+| [42430506](https://pubmed.ncbi.nlm.nih.gov/42430506/) | 2026 | Étude préclinique / in vitro | JCI Insight | Effet des œstrogènes, du fulvestrant et des agents de réversion de la latence du VIH sur la translocation nucléaire d'ERα dans les lymphocytes T CD4+ |
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Analyse cross-omique de cohortes | Research Square | Étude sur la myélopathie associée à HTLV-1 (un autre rétrovirus) ; contexte indirect uniquement |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60446306 | FULVESTRANT EG 250 mg, solution injectable en seringue préremplie | Solution injectable | EG LABO - Laboratoires Eurogenerics |
-| 66475706 | FULVESTRANT ARROW 250 mg, solution injectable en seringue pré-remplie | Solution injectable | Eugia Pharma (Malta) (Malte) |
-| 69289895 | FULVESTRANT MYLAN 250 mg, solution injectable en seringue préremplie | Solution injectable | Mylan Pharmaceuticals (Irlande) |
-| 63545028 | FASLODEX 250 mg, solution injectable | Solution injectable | AstraZeneca AB |
-| 62062457 | FULVESTRANT SANDOZ 250 mg, solution injectable en seringue pré-remplie | Solution injectable | Sandoz |
+| 60446306 | Fulvestrant EG 250 mg | Solution injectable | Non renseignée |
+| 66475706 | Fulvestrant Arrow 250 mg | Solution injectable | Non renseignée |
+| 69289895 | Fulvestrant Mylan 250 mg | Solution injectable | Non renseignée |
+| 63545028 | Faslodex 250 mg | Solution injectable | Non renseignée |
+| 62062457 | Fulvestrant Sandoz 250 mg | Solution injectable | Non renseignée |
 
-Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Le dossier compte 10 AMM au total, dont les 5 principales sont listées ici.
+Les 10 AMM sont au statut « annulée ». Aucune n'est actuellement valide.
+
+## Cytotoxicité
+
+| Élément | Contenu |
+|------|------|
+| Classification de Cytotoxicité | Hormonothérapie anticancéreuse (antagoniste/dégradeur du récepteur des œstrogènes), non cytotoxique conventionnelle |
+| Risque de Myélosuppression | Aucune donnée de toxicité disponible dans les données compilées |
+| Classification d'Émétogénicité | Aucune donnée disponible |
+| Éléments de Surveillance | Fonction hépatique, numération plaquettaire et paramètres de coagulation (voir contre-indications issues du graphe de connaissances) |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Maladies associées à une contre-indication dans le graphe de connaissances** (liens du graphe, et non texte de notice) : maladie du foie, maladie de la vésicule biliaire, thrombocytopénie, trouble de la coagulation sanguine.
+- **Interactions médicamenteuses** : 92 interactions sont recensées, toutes de niveau de gravité non précisé. Parmi elles : warfarine, acide acétylsalicylique, dexaméthasone, prednisone, simvastatine, metformine, oméprazole, pantoprazole, lansoprazole, ondansétron, métoclopramide et morphine. L'association avec la warfarine mérite une attention particulière, compte tenu du risque hémorragique lié à la coagulation et aux plaquettes.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et la seule publication concerne HTLV-1 et non le VIH. Aucun mécanisme plausible ne relie l'antagonisme du récepteur des œstrogènes au VIH.
-- Les données de sécurité de la notice ANSM sont absentes. Cette lacune bloque le passage à l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le modèle et sur une étude in vitro, sans essai clinique. Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité. Toutes les AMM françaises sont annulées.
+
+Les autres indications prédites ne sont pas plus solides :
+- **Neoplasie endocrinienne multiple** : les 13 essais retrouvés portent sur le cancer du sein HR+/HER2-, et non sur cette maladie. L'association vient probablement d'un mot-clé ou d'un appariement trop large.
+- **Polyarthrite rhumatoïde** : les preuves sont indirectes et en partie contradictoires. Une étude chez le rat suggère que le blocage des œstrogènes aggrave l'inflammation, ce qui laisse craindre un effet délétère.
+- **Autres prédictions** (infection par le virus de l'immunodéficience simienne, SIDA félin, acné, maladies génétiques rares, hémoglobinopathie) : aucune preuve, avec parfois un modèle animal ou vétérinaire seulement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
-- Obtenir les données de mécanisme d'action (MOA) via DrugBank.
-- Renseigner l'indication d'origine à partir des textes d'AMM ou du RCP.
-- Rechercher des données précliniques ou cliniques spécifiques au VIH et au fulvestrant. Sans elles, cette piste ne devrait pas progresser.
-- Pour information, parmi les autres prédictions, seule la polyarthrite rhumatoïde (L4, statut « Research Question ») repose sur des données précliniques via la signalisation des œstrogènes. Son sens d'effet reste ambigu et aucun essai avec le fulvestrant n'est fourni.
-
-*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Mises en garde et contre-indications de la notice ANSM (lacune bloquante)
+- Données détaillées sur le mécanisme d'action (à obtenir via DrugBank)
+- Indications approuvées des AMM, et clarification de la situation réglementaire des produits annulés
+- Études précliniques supplémentaires sur la modulation de ERα dans la latence du VIH, avant d'envisager un essai clinique
+- Évaluation du rapport bénéfice/risque d'une hormonothérapie anti-œstrogène dans une population atteinte du VIH
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

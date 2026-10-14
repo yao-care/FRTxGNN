@@ -2,7 +2,7 @@
 layout: default
 title: Flavoxate
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 130
+nav_order: 328
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,77 +29,78 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Flavoxate : D'un Antispasmodique Urinaire au Trouble du Déficit de l'Attention avec Hyperactivité (type inattentif)
+# Flavoxate : D'une indication urologique non documentée au Syndrome de l'intestin irritable
 
 ## Résumé en Une Phrase
 
-Le flavoxate est un relaxant des muscles lisses (effets antimuscarinique, inhibiteur des phosphodiestérases et modulateur du calcium), commercialisé en France sous le nom Urispas. Le texte d'indication ANSM n'est pas renseigné dans les données reçues.
-Le modèle TxGNN prédit en premier rang qu'il pourrait être efficace pour le **trouble du déficit de l'attention avec hyperactivité, type inattentif**, avec un score élevé (99,75 %).
-**Aucun essai clinique et aucune publication** ne soutiennent cette prédiction, et l'analyse mécanistique la juge peu plausible.
+Le flavoxate est un relaxant des muscles lisses connu pour son usage en urologie (urgences mictionnelles). L'indication d'origine figurant dans l'AMM française n'est pas renseignée dans les données compilées.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de l'intestin irritable** (prédiction la plus cohérente sur le plan mécanistique parmi les 8 candidates), mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide) |
-| Nouvelle Indication Prédite | Trouble du déficit de l'attention avec hyperactivité, type inattentif |
-| Score de Prédiction TxGNN | 99,75 % |
+| Indication Originale | Non renseignée dans l'AMM (texte d'indication vide) |
+| Nouvelle Indication Prédite | Attention deficit hyperactivity disorder, inattentive type (prédiction de rang 1 du modèle) ; voir ci-dessous pour le syndrome de l'intestin irritable, hypothèse la plus plausible |
+| Score de Prédiction TxGNN | 99,75 % (rang 1) ; 99,74 % pour le syndrome de l'intestin irritable (rang 2) |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
+
+> Remarque : le titre du rapport retient le syndrome de l'intestin irritable, car c'est la prédiction la plus cohérente sur le plan mécanistique. La prédiction de rang 1 (TDAH, forme inattentive) n'a aucun lien mécanistique établi avec le flavoxate.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le pack. D'après les informations pharmacologiques connues, le flavoxate est un relaxant des muscles lisses aux propriétés antimuscariniques, inhibitrices des phosphodiestérases et modulatrices du calcium.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la source. D'après les informations connues, le flavoxate est un relaxant des muscles lisses à propriétés antimuscariniques, inhibitrices des phosphodiestérases et antagonistes calciques, utilisé dans les urgences mictionnelles.
 
-**Pour le TDAH, aucun lien mécanistique plausible n'est identifié.** Le flavoxate n'a pas d'activité connue sur les voies dopaminergiques ou noradrénergiques, qui sont au cœur de ce trouble. Le score élevé est très probablement un artefact du graphe de connaissances. Le même constat vaut pour le « trouble du déficit de l'attention avec hyperactivité » (rang 4, doublon) et pour le « trouble spécifique du développement » (rang 3, proximité dans le graphe avec les prédictions TDAH).
+Pour le **syndrome de l'intestin irritable**, le raisonnement est plausible : la relaxation spasmolytique et antimuscarinique du muscle lisse est la base de l'usage d'agents apparentés (hyoscine, dicyclomine) dans cette pathologie. Il s'agit toutefois d'une hypothèse, sans aucune donnée clinique propre au flavoxate.
 
-Les autres prédictions sont plus cohérentes sur le plan biologique, mais restent des inférences sans preuve :
-
-| Rang | Indication prédite | Score TxGNN | Lien mécanistique | Recommandation |
-|------|------|------|------|------|
-| 2 | Syndrome de l'intestin irritable | 99,74 % | Plausible (effet antispasmodique de classe) | Hold |
-| 3 | Trouble spécifique du développement | 99,56 % | Aucun | Hold |
-| 4 | TDAH | 99,39 % | Aucun (doublon du rang 1) | Hold |
-| 5 | Syndrome de la queue de cheval | 99,27 % | Indirect : soulagement possible de symptômes vésicaux, sans traitement de la cause. Risque en cas de rétention urinaire | Hold |
-| 6 | Vessie neurogène (terme obsolète) | 99,13 % | Le plus cohérent : relaxation du détrusor. Nécessite un remappage vers un concept actuel (hyperactivité neurogène du détrusor) | Question de recherche |
-| 7 | Gastroduodénite | 99,12 % | Faible | Hold |
-| 8 | Ulcère gastroduodénal | 99,10 % | Faible, les traitements actuels (IPP, éradication d'*H. pylori*) rendent l'intérêt improbable | Hold |
+Les autres prédictions sont nettement plus fragiles :
+- **TDAH (deux formes) et trouble spécifique du développement** : aucun lien mécanistique établi ; le signal reflète probablement une proximité dans le graphe de connaissances plutôt qu'une pharmacologie réelle. Toute pertinence neurologique serait spéculative.
+- **Vessie neurogène** : mécanisme plausible (effet sur le détrusor), mais le terme est marqué comme obsolète dans l'ontologie et devrait être remplacé par un terme actuel (ex. hyperactivité neurogène du détrusor).
+- **Ulcère peptique** : un rationnel de classe existe (antimuscariniques utilisés autrefois en appoint), mais ils ont été supplantés par les IPP et l'éradication d'*H. pylori*.
+- **Gastroduodénite** : lien faible ; l'action antispasmodique ne traite pas l'inflammation ni la composante acide.
+- **Syndrome de la queue de cheval** : lien indirect ; urgence neurochirurgicale, le flavoxate ne pourrait agir que sur les symptômes vésicaux secondaires.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée n'est disponible actuellement.
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63383409 | URISPAS 200 mg, comprimé pelliculé (BOUCHARA-RECORDATI) | Comprimé pelliculé | Non renseignée |
+| 63383409 | URISPAS 200 mg, comprimé pelliculé (BOUCHARA-RECORDATI) | Comprimé pelliculé | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans les données consultées.
+- **Contre-indications issues du graphe de connaissances** (liens médicament-maladie, et non texte de notice) : glaucome à angle fermé, sténose du pylore, iléus paralytique, occlusion intestinale, myopathie viscérale familiale, ulcère peptique actif, obstruction des voies urinaires.
+  - À noter : l'ulcère peptique actif figure parmi ces contre-indications, ce qui va à l'encontre de la prédiction « ulcère peptique ».
+- **Interactions médicamenteuses** : 74 interactions identifiées.
+  - **Majeures** : chlorure de potassium, citrate de potassium.
+  - **Modérées** (extraits) : hyoscyamine, atropine, scopolamine, glycopyrronium, clidinium, dicyclomine, trospium, propanthéline (effets anticholinergiques cumulés), lopéramide, morphine, métoclopramide, prucalopride, éluxadoline, dronabinol, nabilone.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (TDAH) repose uniquement sur le modèle (niveau L5, stade S0), sans essai ni publication, et sans lien mécanistique plausible : il s'agit probablement d'un artefact du graphe.
-- Parmi les prédictions, seules la vessie neurogène (rang 6) et, plus faiblement, le syndrome de l'intestin irritable (rang 2) ont une cohérence pharmacologique. Elles restent à l'état d'hypothèses.
+- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai ni publication. De plus, l'AMM française est annulée et son indication d'origine n'est pas documentée.
+- Le syndrome de l'intestin irritable est l'hypothèse la plus cohérente, mais elle reste à confirmer. Les prédictions neuropsychiatriques (TDAH) ne sont pas étayées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, indication autorisée), ce qui bloque actuellement le criblage de sécurité S1.
-- Compléter les données de mécanisme d'action via DrugBank.
-- Remapper le terme obsolète « vessie neurogène » vers un concept actuel, puis lancer une recherche systématique d'essais et de littérature pour cette indication et pour le syndrome de l'intestin irritable.
-- Écarter ou déprioriser les prédictions TDAH et trouble du développement, sauf si de nouvelles données les soutiennent.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
+- Données sur le mécanisme d'action (via DrugBank)
+- Revue de la littérature et des registres d'essais pour le flavoxate dans le syndrome de l'intestin irritable
+- Réévaluation de la sécurité à la lumière des contre-indications (obstruction intestinale, ulcère actif) et des effets anticholinergiques cumulés
+- Remplacement du terme obsolète « vessie neurogène » par un terme actuel avant toute évaluation
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

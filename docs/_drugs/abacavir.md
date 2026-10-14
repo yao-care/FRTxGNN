@@ -29,33 +29,39 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Abacavir : Du VIH-1 à l'infection par le virus de l'immunodéficience simienne
+# Abacavir : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Simienne
 
 ## Résumé en Une Phrase
 
-L'abacavir est un inhibiteur nucléosidique de la transcriptase inverse (INTI), initialement utilisé dans le traitement de l'infection par le VIH-1.
-Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par le virus de l'immunodéficience simienne (SIV)**, mais cette prédiction repose sur **0 essai clinique** et **1 publication** (une étude de sensibilité in vitro de 2004).
-La SIV est une maladie de modèle animal et non une indication humaine : cette prédiction est surtout un signal hérité du VIH-1.
+Abacavir est un inhibiteur nucléosidique de la transcriptase inverse, initialement utilisé pour le traitement de l'infection par le VIH et du SIDA.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le virus de l'immunodéficience simienne (SIV)**, mais **aucun essai clinique** et seulement **1 publication** (étude in vitro) soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH-1 (le texte d'indication est vide dans les AMM ; information tirée des connaissances générales sur le produit) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (SIV) |
+| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
 | Score de Prédiction TxGNN | 99,79 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 9 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 9 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, l'abacavir est un INTI. Son efficacité dans le VIH-1 est établie, et il est aussi commercialisé en association fixe avec la lamivudine (Kivexa).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, l'abacavir est un inhibiteur nucléosidique de la transcriptase inverse (INTI) : il est converti dans la cellule en carbovir triphosphate, qui interrompt l'élongation de l'ADN viral.
 
-Le SIV est un lentivirus très proche du VIH et utilise lui aussi la transcriptase inverse pour se répliquer. Une activité de l'abacavir est donc mécanistiquement plausible. Une étude in vitro de 2004 a d'ailleurs testé l'activité de plusieurs antirétroviraux sur des souches de SIV, de HIV-2 et de SHIV.
+Le SIV est un lentivirus étroitement apparenté au VIH et utilise une transcriptase inverse homologue. La plausibilité mécanistique est donc élevée. Toutefois, il s'agit essentiellement d'une extension de l'indication antirétrovirale d'origine à un lentivirus non humain, et non d'une véritable nouvelle opportunité thérapeutique.
 
-Il faut toutefois rester prudent. Le SIV est une infection de primates non humains, sans indication clinique humaine. Le score élevé du modèle reflète très probablement le signal du VIH-1, transmis par similarité entre maladies, plutôt qu'une nouvelle piste thérapeutique distincte.
+Le score élevé du modèle (99,79 %) reflète vraisemblablement la proximité avec le VIH. La pertinence clinique pour un repositionnement chez l'humain est minimale, car l'infection par le SIV n'est pas une maladie humaine.
+
+### Autres prédictions du modèle
+
+| Rang | Maladie prédite | Score TxGNN | Niveau de preuve | Commentaire |
+|------|------|------|------|------|
+| 2 | Syndrome d'immunodéficience acquise féline (FIV) | 99,79 % | L4 | Indication vétérinaire ; une seule étude in vitro en association (zidovudine + lamivudine + abacavir), qui ne permet pas d'isoler la contribution de l'abacavir |
+| 3 | Trouble neurodéveloppemental avec démarche ataxique, absence de langage et diminution de la substance blanche corticale | 99,78 % | L5 | Aucun lien mécanistique établi ; possible artefact du graphe de connaissances ; hypothèses spéculatives |
 
 ## Preuves d'Essais Cliniques
 
@@ -65,37 +71,40 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Étude de sensibilité in vitro | Antiviral Therapy | Évaluation de l'activité antivirale de 16 médicaments approuvés et d'un médicament expérimental (AMD3100) sur deux isolats de HIV-2, deux souches de SIV et deux souches de SHIV, pour éclairer le traitement et la prophylaxie post-exposition |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Étude de sensibilité in vitro | Antiviral Therapy | Évaluation de l'activité antivirale de 16 médicaments approuvés et d'un médicament expérimental (AMD3100) contre des souches de VIH-2, de SIV et de SHIV ; soutien préclinique indirect uniquement |
 
 ## Informations de Marché en France
 
-Sur les 9 AMM, les 5 principales sont listées ci-dessous. Le texte de l'indication approuvée n'est pas renseigné dans les données sources.
+Toutes les AMM listées ci-dessous sont annulées ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 63797011 | ABACAVIR SANDOZ 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable |
-| 62070450 | ZIAGEN 20 mg/ml, solution buvable | Solution buvable |
-| 62401060 | ABACAVIR VIATRIS 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable |
-| 68556562 | ZIAGEN 300 mg, comprimé pelliculé | Comprimé pelliculé sécable |
-| 69855489 | KIVEXA 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+|---------|------|------|-----------|
+| 63797011 | ABACAVIR SANDOZ 300 mg | Comprimé pelliculé sécable | Annulée |
+| 62070450 | ZIAGEN 20 mg/ml | Solution buvable | Annulée |
+| 62401060 | ABACAVIR VIATRIS 300 mg | Comprimé pelliculé sécable | Annulée |
+| 68556562 | ZIAGEN 300 mg | Comprimé pelliculé sécable | Annulée |
+| 69855489 | KIVEXA 600 mg/300 mg | Comprimé pelliculé | Annulée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : insuffisance hépatique, maladie hépatique, stéatose hépatique et stéatohépatite non alcoolique, maladie rénale, pancréatite, maladie de la vésicule biliaire, myopathie et maladies musculaires (y compris myosite et dermatomyosite), paralysie périodique familiale, neutropénie, agranulocytose, anémie (dont macrocytaire), hypertriglycéridémie, obésité, acidose lactique.
+- **Hypersensibilité** : l'abacavir est connu pour le risque de réaction d'hypersensibilité associé à l'allèle HLA-B*57:01.
+- **Interactions médicamenteuses** : 93 interactions recensées. Les plus notables, de niveau modéré, concernent la naltrexone et l'orlistat. Les autres interactions listées (par exemple metformine, morphine, prednisone, oméprazole, vancomycine) ont un niveau de gravité non déterminé.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La seule preuve est une étude in vitro de 2004 (niveau L4), sans aucun essai clinique. Comme le SIV n'est pas une maladie humaine, la prédiction n'a pas de débouché clinique direct.
-- Les deux autres prédictions du modèle ne sont pas plus solides. Le SAIDS félin repose sur des essais menés uniquement chez des patients VIH-1. Le trouble neurodéveloppemental rare, avec un score de 99,78 %, n'a ni essai ni publication, et son lien mécanistique n'est pas établi.
+- La prédiction repose uniquement sur le modèle et sur une étude in vitro unique ; il n'existe aucun essai clinique, et l'indication visée (SIV) est une infection animale, sans intérêt thérapeutique humain direct. De plus, toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM (bloquant pour le criblage de sécurité)
-- Les données détaillées sur le mécanisme d'action (MOA), à obtenir via DrugBank
-- Une décision sur l'intérêt de cette piste, l'indication VIH-1 étant déjà commercialisée, et donc sur l'utilité de poursuivre une indication uniquement animale
-- Le texte des indications approuvées dans les AMM françaises, actuellement vide
+- Récupérer les mises en garde et contre-indications de la notice (ANSM), actuellement manquantes et bloquantes pour le criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Préciser si l'objectif est de valider le SIV/FIV comme modèle préclinique ou de rechercher une véritable indication humaine nouvelle
+- Pour la prédiction de trouble neurodéveloppemental rare : établir au préalable un lien mécanistique crédible avant toute étude, en tenant compte de la toxicité connue (hypersensibilité HLA-B*57:01) et du nombre élevé d'interactions
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

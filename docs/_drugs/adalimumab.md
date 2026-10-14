@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Adalimumab
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 17
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 25
+evidence_level: L4
 indication_count: 6
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L4** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,66 +29,56 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Adalimumab : De la polyarthrite rhumatoïde (indication d'origine non précisée dans les AMM) à la vascularite rhumatoïde
+# Adalimumab : De la maladie de Crohn à la vascularite rhumatoïde
 
 ## Résumé en Une Phrase
 
-Adalimumab est un anticorps monoclonal anti-TNF, indiqué dans la polyarthrite rhumatoïde selon l'argumentaire de repositionnement. Les libellés d'indication des AMM françaises ne sont pas renseignés dans les données.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vascularite rhumatoïde**, avec **5 essais cliniques** (tous peu pertinents) et **20 publications**, principalement des cas cliniques.
-Aucune donnée contrôlée n'existe pour cette indication, et le sens de l'effet reste incertain : les anti-TNF sont aussi décrits comme déclencheurs de vascularites paradoxales.
+Adalimumab est un anticorps monoclonal anti-TNF-alpha, initialement utilisé pour traiter la maladie de Crohn, la polyarthrite rhumatoïde, la spondylarthrite ankylosante, le rhumatisme psoriasique et d'autres maladies inflammatoires.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vascularite rhumatoïde**, mais cette prédiction repose sur **1 essai clinique non pertinent** et **des publications limitées à des cas cliniques et des revues**, sans essai contrôlé.
+La prédiction la mieux étayée (spondylopathie inflammatoire) correspond en réalité à une indication déjà établie.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM ; polyarthrite rhumatoïde d'après l'argumentaire de repositionnement |
+| Indication Originale | Maladie de Crohn (indications issues du graphe de connaissances ; aucun texte d'indication approuvée n'est disponible dans les AMM) |
 | Nouvelle Indication Prédite | Vascularite rhumatoïde |
 | Score de Prédiction TxGNN | 99,80 % |
-| Niveau de Preuve | L3 (une revue systématique et des cas cliniques, sans étude contrôlée ; le pack source indique L4) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Uniquement annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, adalimumab est un anticorps monoclonal entièrement humain qui neutralise le TNF-α. Il est utilisé dans la polyarthrite rhumatoïde et d'autres maladies inflammatoires chroniques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'adalimumab est un anticorps monoclonal humanisé qui neutralise le TNF-alpha, et son efficacité a été démontrée dans la polyarthrite rhumatoïde et d'autres maladies inflammatoires à médiation immune.
 
-La vascularite rhumatoïde est une complication extra-articulaire grave de la polyarthrite rhumatoïde, et le TNF y joue un rôle dans l'inflammation. Bloquer le TNF est donc biologiquement plausible. Une revue systématique de 2021 s'est intéressée aux traitements biologiques dans cette complication. Un cas de vascularite digitale a bien répondu à l'adalimumab.
+La vascularite rhumatoïde est une complication extra-articulaire de la polyarthrite rhumatoïde, dans laquelle le TNF joue un rôle. Un rationnel mécanistique existe donc. Toutefois, les données cliniques se limitent à des cas isolés : une vascularite digitale ayant bien répondu à l'adalimumab, et une crise d'hypertension pulmonaire après réduction de la dose chez un patient atteint de vascularite rhumatoïde.
 
-Cependant, la direction de l'effet n'est pas claire. Plusieurs publications décrivent des vascularites, y compris à ANCA, survenant sous adalimumab ou d'autres anti-TNF. Un cas d'hypertension pulmonaire aiguë est survenu après une réduction de l'adalimumab dans une vascularite rhumatoïde. Sans données contrôlées, la plausibilité mécanistique ne suffit pas à conclure.
+À l'inverse, des cas de vascularite paradoxale ou de phénomènes auto-immuns sont décrits sous anti-TNF (syndrome des antiphospholipides, néphrite associée aux ANCA survenue sous traitement). Cela soulève une préoccupation de sécurité et empêche de conclure à un bénéfice net.
 
 ## Preuves d'Essais Cliniques
 
-Les cinq essais associés sont tous classés de pertinence C : aucun n'évalue l'efficacité dans la vascularite.
-
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Pas encore en recrutement | 80 | Gestion des immunosuppresseurs avant arthroplastie de l'épaule chez des patients rhumatologiques (poussées, douleur, complications). Pas d'évaluation de la vascularite. |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Terminé | 184 | Étude non interventionnelle sur le tocilizumab dans la polyarthrite rhumatoïde. Aucun critère propre à la vascularite. |
-| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Terminé | 9261 | Étude de cohorte rétrospective sur le brolucizumab dans la DMLA humide. Association probablement fortuite. |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Terminé | 808 | Étude transversale sur les schémas de traitement par DMARD biologiques dans la polyarthrite rhumatoïde en Chine. Pas de données d'efficacité. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Inconnu | 750000 | Risque de maladies inflammatoires à médiation immune incidentes sous biothérapies. Porte sur le risque, pas sur le bénéfice thérapeutique. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | En recrutement | 80 | Gestion des immunosuppresseurs avant arthroplastie de l'épaule chez des patients de rhumatologie. Ne teste pas l'adalimumab dans la vascularite et n'est pas pertinent pour son efficacité dans cette indication. |
 
 ## Preuves de la Littérature
 
-Sélection des 10 publications les plus pertinentes, parmi 20.
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Revue systématique | Clin Rheumatol | Revue selon PRISMA de l'usage des médicaments biologiques dans la vascularite rhumatoïde, forme sévère de manifestation extra-articulaire. |
-| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Revue systématique | Clin Exp Rheumatol | Comparaison des vascularites survenant ou non sous anti-TNF dans la polyarthrite rhumatoïde (2707 patients, 18 vascularites). |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohorte / pharmacovigilance | RMD Open | Risque d'événements de type lupus ou vascularite sous anti-TNF versus DMARD non biologiques dans la polyarthrite rhumatoïde (registre BSRBR-RA). |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Cas clinique | Case Rep Rheumatol | Vascularite digitale nécrosante chez une patiente atteinte de polyarthrite rhumatoïde, bonne réponse à l'adalimumab. |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Cas clinique | Intern Med | Crise aiguë d'hypertension pulmonaire huit mois après réduction de l'adalimumab dans une vascularite rhumatoïde. |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Cas clinique | Intern Med | Néphrite associée aux ANCA survenue sous abatacept et adalimumab, atténuée par le tocilizumab. |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Cas clinique (effet indésirable) | Am J Dermatopathol | Vascularite leucocytoclasique avec hémophagocytose périvasculaire dermique liée à l'adalimumab. |
-| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Cas clinique | Néphrol Thér | Glomérulonéphrite extracapillaire nécrosante avec ANCA anti-myéloperoxydase chez une patiente sous adalimumab. |
-| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Cas clinique et revue | Clin Rheumatol | Premier cas de syndrome des antiphospholipides associé à l'adalimumab, avec revue des vascularites induites. |
-| [36706240](https://pubmed.ncbi.nlm.nih.gov/36706240/) | 2023 | Étude de biopsies rénales | Kidney360 | Spectre des lésions rénales sous anti-TNF-α, incluant des atteintes auto-immunes. |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Cas clinique | Case Rep Rheumatol | Vascularite digitale avec ulcère nécrotique chez une patiente atteinte de polyarthrite rhumatoïde, bonne réponse à l'adalimumab |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Cas clinique | Intern Med | Crise d'hypertension pulmonaire aiguë huit mois après réduction de l'adalimumab dans une vascularite rhumatoïde |
+| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Cas clinique / Revue | Clin Rheumatol | Premier cas de syndrome des antiphospholipides associé à l'adalimumab ; revue des vascularites induites par les anti-TNF |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Cas clinique | Intern Med | Néphrite associée aux ANCA survenue sous abatacept et adalimumab, atténuée par le tocilizumab |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Cas clinique | Am J Dermatopathol | Vasculite leucocytoclasique avec hémophagocytose périvasculaire cutanée associée à l'adalimumab |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohorte | RMD Open | Risque d'événements de type lupus et de type vascularite sous anti-TNF dans la polyarthrite rhumatoïde (registre BSRBR-RA) |
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Méta-analyse en réseau | Int J Mol Sci | Réduction comparable de la destruction articulaire par les anti-TNF originaux et biosimilaires dans la polyarthrite rhumatoïde (36 ECR) |
+| [16979537](https://pubmed.ncbi.nlm.nih.gov/16979537/) | 2006 | Revue | Best Pract Res Clin Rheumatol | Problèmes rencontrés sous traitement anti-TNF, notamment risque de réactivation de la tuberculose |
 
 ## Informations de Marché en France
 
-Cinq AMM sur 20 sont listées. Le libellé d'indication n'est pas renseigné dans les données.
+Les 20 AMM recensées sont toutes annulées. Le texte de l'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -100,23 +90,36 @@ Cinq AMM sur 20 sont listées. Le libellé d'indication n'est pas renseigné dan
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans les données disponibles.
+- **Interactions Médicamenteuses** (100 interactions recensées ; principales ci-dessous) :
+  - **Majeures** : corticoïdes (bétaméthasone, budésonide, dexaméthasone, hydrocortisone, prednisolone, prednisone, triamcinolone), défériprone, ibritumomab tiuxétan, iobenguane (I-131), tositumomab (avec ou sans I-131).
+  - **Modérées** : métronidazole, tinidazole, rosuvastatine, simvastatine.
+  - **Mineures** : sels de zinc (acétate, gluconate, sulfate).
+- **Signaux issus de la littérature** : vascularite paradoxale, syndrome des antiphospholipides, néphrite associée aux ANCA et événements de type lupus sous anti-TNF ; risque d'infection et de réactivation de tuberculose.
+
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucune étude contrôlée n'existe pour la vascularite rhumatoïde. Les preuves se limitent à une revue systématique et à des cas cliniques, dont plusieurs décrivent des vascularites induites par les anti-TNF, et les cinq essais listés ne sont pas pertinents.
-- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'étape de sélection de sécurité.
+- Les preuves pour la vascularite rhumatoïde se limitent à des cas cliniques, sans essai contrôlé, et des signaux de vascularite paradoxale sous anti-TNF soulèvent un doute sur le rapport bénéfice/risque. De plus, toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice ANSM
-- Obtenir les données sur le mécanisme d'action (DrugBank)
-- Examiner en détail la revue systématique de 2021 pour évaluer l'efficacité des biothérapies dans la vascularite rhumatoïde
-- Clarifier le risque de vascularite paradoxale sous anti-TNF avant toute étude prospective
+- Études observationnelles de cohorte ou essai contrôlé dans la vascularite rhumatoïde
+- Mises en garde et contre-indications issues de la notice (ANSM), actuellement manquantes
+- Données sur le mécanisme d'action
+- Clarification du statut commercial en France (AMM toutes annulées)
 
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
+## Autres Prédictions Examinées
+
+| Rang | Indication prédite | Score TxGNN | Niveau de preuve | Décision | Commentaire |
+|------|------|------|------|------|------|
+| 2 | Hypermobilité du coccyx | 99,77 % | L5 | Hold | Prédiction purement computationnelle, sans essai ni publication ; pas de mécanisme inflammatoire médié par le TNF |
+| 3 | Spondylopathie inflammatoire | 99,77 % | L1 | Proceed with Guardrails | Recoupe l'indication établie de spondylarthrite ankylosante ; plusieurs essais de phase 3 et un ECR comparatif avec le sécukinumab ; surveillance : infections/tuberculose, uvéite, immunogénicité |
+| 4 | Maladie de Kümmell | 99,74 % | L5 | Hold | Prédiction purement computationnelle ; nécrose avasculaire post-traumatique, rationnel faible |
+| 5 | Arthrite juvénile rhumatoïde polyarticulaire | 99,72 % | L1 | Proceed with Guardrails | Recoupe l'indication établie d'arthrite juvénile idiopathique ; essai de phase 3 randomisé contre placebo (NCT00048542) et ECR publié (PMID 18716298) ; surveillance : dosage pédiatrique, infections/tuberculose, sécurité à long terme |
+| 6 | Maladie vertébrale | 99,18 % | L4 | Question de recherche | Terme trop général ; preuves indirectes ; à rattacher à un diagnostic précis (par exemple spondylarthrite axiale) |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

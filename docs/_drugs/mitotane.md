@@ -2,7 +2,7 @@
 layout: default
 title: Mitotane
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 200
+nav_order: 507
 evidence_level: L5
 indication_count: 0
 ---

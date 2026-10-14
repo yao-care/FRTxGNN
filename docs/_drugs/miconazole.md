@@ -2,15 +2,15 @@
 layout: default
 title: Miconazole
 parent: Preuves modérées (L3-L4)
-nav_order: 192
-evidence_level: L4
+nav_order: 498
+evidence_level: L3
 indication_count: 1
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L3** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,96 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Miconazole : D'un antifongique imidazolé à l'Acné
+# Miconazole : Des Mycoses Cutanées et Muqueuses à l'Acné
 
 ## Résumé en Une Phrase
 
-Le miconazole est un antifongique de la classe des imidazolés, ancien et bien connu, utilisé en dermatologie et en sphère buccale. Le modèle TxGNN prédit qu'il pourrait être utile dans l'**acné**, mais les preuves restent très limitées : **1 essai clinique** (une association de médicaments, suspendu) et **4 publications**, dont une seule étude in vitro directement pertinente.
+Le miconazole est un antifongique de la classe des imidazolés, initialement utilisé pour traiter les mycoses cutanées (pied d'athlète, teigne du corps, pityriasis versicolor) et les candidoses (cutanées, vulvovaginales).
+Le modèle TxGNN prédit qu'il pourrait être utile pour l'**acné**, mais cette direction ne repose pour l'instant que sur **4 publications** (une revue, une étude clinique de petite taille, une étude sur une affection voisine et une étude in vitro) et **aucun essai clinique** enregistré.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Le texte des indications approuvées n'est pas fourni. Classe : antifongique imidazolé |
+| Indication Originale | Mycoses cutanées et muqueuses (pied d'athlète, teigne, candidose cutanée, pityriasis versicolor, candidose vulvovaginale) |
 | Nouvelle Indication Prédite | Acné |
 | Score de Prédiction TxGNN | 99,54 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
+| Nombre d'AMM | 2 (toutes annulées) |
 | Décision Recommandée | Hold |
 
-Le score TxGNN est une prédiction calculée par le modèle. Ce n'est pas une preuve clinique.
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le miconazole est un antifongique imidazolé de longue date. Son efficacité antifongique est établie, et il pourrait mécanistiquement être applicable à certaines affections cutanées liées à des micro-organismes.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après la pharmacologie connue des azolés, le miconazole inhibe la CYP51 fongique (lanostérol 14-alpha-déméthylase), bloquant la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
 
-Le lien avec l'acné est plausible mais indirect. Le miconazole agit sur *Malassezia* (*Pityrosporum*), un champignon associé à l'inflammation folliculaire et aux éruptions de type acnéiforme, comme la folliculite à *Malassezia*. Une étude in vitro rapporte aussi une activité des azolés contre *Propionibacterium acnes* (*Cutibacterium acnes*), bactérie impliquée dans l'acné vulgaire. Des effets anti-inflammatoires cutanés du miconazole sont également décrits dans la littérature.
+Le lien avec l'acné peut passer par trois voies plausibles : (1) une activité in vitro contre *Cutibacterium (Propionibacterium) acnes*, observée lors de tests de sensibilité aux azolés ; (2) une activité contre *Malassezia* (*Pityrosporum*), responsable de la folliculite à Malassezia, qui ressemble cliniquement à l'acné ; (3) des effets anti-inflammatoires et antibactériens cutanés rapportés dans la littérature.
 
-Une part de la piste pourrait donc venir d'affections qui ressemblent à l'acné et sont en réalité fongiques, plutôt que de l'acné vulgaire elle-même. Sans indication d'origine ni mécanisme documentés, le lien ne peut pas être rattaché à un mécanisme d'action officiel.
+Il faut toutefois rester prudent : le score TxGNN élevé est une prédiction informatique et non une preuve clinique. Une partie des données concerne la folliculite à Malassezia, qui n'est pas de l'acné vulgaire. La seule donnée clinique directe est une petite étude en split-face sur l'acné inflammatoire cataméniale légère.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspendu | 80 | Association crème béclométasone + gentamicine + un azolé (clotrimazole d'après le titre) dans des dermatoses contaminées. Aucun résultat publié. |
+Aucun essai clinique associé enregistré actuellement.
 
-Cet essai teste une association fixe dans laquelle le miconazole n'est pas clairement l'agent évalué. Il ne peut donc pas isoler un effet du miconazole et ne constitue qu'un soutien faible et indirect. La liste complète des interventions reste à vérifier.
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Étude clinique (visage divisé, prospective, petite taille) | Skin Res Technol | Prise en charge de l'acné cataméniale légère inflammatoire. Le résumé disponible ne précise pas le rôle du miconazole. |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Essais thérapeutiques | Clin Exp Dermatol | Folliculite à *Pityrosporum* (62 patients), souvent confondue avec l'acné vulgaire. Il s'agit d'une affection proche de l'acné, pas de l'acné vulgaire. |
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Revue | Expert Opin Pharmacother | Revue des effets multiples du miconazole sur les maladies de la peau. |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Étude in vitro | Biol Pharm Bull | Activité in vitro d'antifongiques azolés contre *P. acnes* isolé de patients atteints d'acné vulgaire. |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Étude clinique (split-face, évaluation bio-instrumentale ; probablement de petite taille) | Skin Research and Technology | Évaluation de la prise en charge de l'acné inflammatoire cataméniale légère chez la jeune femme ; seule donnée humaine directe sur l'acné, mais à petite échelle |
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Revue | Expert Opinion on Pharmacotherapy | Revue des effets multiples du miconazole sur les affections cutanées, dont des effets anti-inflammatoires et antibactériens |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Étude clinique / essai thérapeutique | Clinical and Experimental Dermatology | 62 patients atteints de folliculite à Pityrosporum (souvent confondue avec l'acné vulgaire) ; il ne s'agit pas d'acné vulgaire à proprement parler |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Étude in vitro | Biological & Pharmaceutical Bulletin | Activité in vitro des azolés antifongiques contre *P. acnes* isolé de patients atteints d'acné vulgaire |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69184289 | DAKTARIN 2 %, gel buccal | Gel | KENVUE FRANCE |
-| 69980852 | LORAMYC 50 mg, comprimé buccogingival muco-adhésif | Comprimé muco-adhésif | VECTANS PHARMA |
+| 69184289 | DAKTARIN 2 %, gel buccal (KENVUE FRANCE) | Gel | Non renseignée (AMM annulée) |
+| 69980852 | LORAMYC 50 mg, comprimé buccogingival muco-adhésif (VECTANS PHARMA) | Comprimé muco-adhésif | Non renseignée (AMM annulée) |
 
-Les textes d'indication approuvée ne sont pas renseignés dans les données reçues.
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : maladie du foie, maladie de la vésicule biliaire.
+- **Interactions médicamenteuses** : 100 interactions répertoriées, dont les principales (niveau modéré) concernent :
+  - les opioïdes : fentanyl, alfentanil, hydrocodone ;
+  - les médicaments cardiovasculaires : amiodarone, nifédipine, amlodipine, alfuzosine, aliskirène ;
+  - les anticancéreux : paclitaxel, acalabrutinib ;
+  - les hormones : éthinylestradiol, estradiol ;
+  - les psychotropes : alprazolam, amitriptyline ;
+  - autres : alosétron.
+
+  Des interactions de niveau mineur sont également signalées (dolutégravir, loratadine, amphotéricine B, ambrisentan).
+
+Les mises en garde et contre-indications officielles de la notice n'ont pas pu être compilées. Veuillez consulter la notice pour les informations de sécurité complètes.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose surtout sur le modèle (niveau L4, stade S0 : question de recherche). Le seul essai clinique est suspendu et porte sur une association médicamenteuse, et les autres données sont indirectes ou in vitro. Les informations de sécurité issues de la notice de l'ANSM manquent et bloquent la suite de l'évaluation.
+- Les preuves se limitent à une revue, une petite étude clinique, une étude in vitro et une étude sur une affection voisine ; aucun essai clinique n'est enregistré. Le score TxGNN élevé ne suffit pas, et les données de sécurité issues de la notice manquent (lacune bloquante pour le dépistage de sécurité).
+- Aucune AMM n'est actuellement valide en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications extraites des notices de l'ANSM (élément bloquant)
-- Indications d'origine et mécanisme d'action détaillé (par exemple via DrugBank)
-- Vérification complète des interventions de NCT01244256
-- Études contrôlées évaluant le miconazole seul dans l'acné, en distinguant l'acné vulgaire de la folliculite à *Malassezia*
-- Analyse de la compatibilité des voies d'administration : les deux produits français sont un gel buccal et un comprimé buccogingival, non destinés à un usage cutané dans l'acné
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
+- Compléter les données sur le mécanisme d'action (DrugBank).
+- Réaliser des essais cliniques contrôlés (idéalement randomisés) du miconazole dans l'acné vulgaire.
+- Confirmer la compatibilité de la voie d'administration (topique) et clarifier la situation réglementaire des produits à base de miconazole.
+- Évaluer le risque hépatique et les interactions médicamenteuses selon la formulation et le mode d'administration envisagés.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

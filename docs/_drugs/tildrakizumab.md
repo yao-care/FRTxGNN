@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 310
+nav_order: 762
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,41 +29,40 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Tildrakizumab : Du Psoriasis en plaques à la Rétinopathie diabétique non proliférante sévère
+# Tildrakizumab : De l'indication d'origine non documentée à la rétinopathie diabétique non proliférante sévère
 
 ## Résumé en Une Phrase
 
-Tildrakizumab est un anticorps monoclonal anti-IL-23 p19, commercialisé pour le traitement du psoriasis en plaques.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie diabétique non proliférante sévère**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+Tildrakizumab est un anticorps monoclonal anti-IL-23 p19 (commercialisé sous le nom ILUMETRI). Les données compilées pour ce rapport ne précisent pas son indication d'origine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie diabétique non proliférante sévère**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Psoriasis en plaques (d'après le rationnel du pack de preuves ; le texte d'indication des AMM n'est pas renseigné) |
+| Indication Originale | Non disponible dans les données compilées |
 | Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère |
 | Score de Prédiction TxGNN | 99,63 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 3 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, tildrakizumab est un anticorps anti-IL-23 p19, son efficacité dans le psoriasis en plaques est reconnue, et sur le plan mécanistique il pourrait être applicable à la rétinopathie diabétique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, tildrakizumab est un anticorps monoclonal dirigé contre la sous-unité p19 de l'IL-23, une cytokine de l'axe inflammatoire IL-23/IL-17.
 
-L'hypothèse est qu'une inflammation chronique de bas grade et la signalisation cytokinique, notamment l'axe IL-23/IL-17, contribueraient aux lésions vasculaires rétiniennes. Bloquer l'IL-23 pourrait donc moduler cette inflammation dans la rétine diabétique. Ce lien reste **spéculatif** et n'est pas établi pour ce médicament.
+Une inflammation chronique de bas grade, dont la signalisation de l'axe IL-23/IL-17, pourrait contribuer aux lésions vasculaires rétiniennes de la rétinopathie diabétique. Ce lien reste toutefois **hypothétique**. Le traitement de référence cible le VEGF et la vascularisation rétinienne, et non l'IL-23.
 
-Plusieurs limites sont à noter. Un biologique administré par voie systémique pénètre peu dans l'œil. Le médicament ne cible pas non plus le VEGF ni les autres voies établies de la rétinopathie diabétique. Enfin, le score élevé repose uniquement sur le modèle, sans aucune étude réelle. Une première étape raisonnable serait une validation préclinique, par exemple l'expression rétinienne d'IL-23/IL-17 dans des modèles diabétiques.
+Le score élevé (0,996) est une prédiction purement computationnelle. En l'absence d'essais, de publications et de données sur le mécanisme d'origine, il ne suffit pas à justifier la poursuite du projet.
 
 ### Autres indications prédites (pour information)
 
-| Indication prédite | Score TxGNN | Niveau de preuve | Recommandation | Commentaire |
-|------|------|------|------|------|
-| Rétinopathie diabétique | 99,53 % | L5 | Research Question | Recouvre largement la prédiction principale ; ce n'est pas une preuve indépendante. |
-| Cataracte diabétique | 99,21 % | L5 | Hold | Aucun mécanisme direct plausible (voie des polyols, stress oxydatif, glycation) ; le score reflète probablement la proximité dans le réseau. |
-| Ostéoporose d'origine médicamenteuse | 99,20 % | L5 | Hold | Lien théorique faible via l'IL-23/IL-17 et l'ostéoclastogenèse, mais le sens de l'effet est incertain ; des traitements établis existent (bisphosphonates, dénosumab). |
+| Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
+|---|---|---|---|---|
+| 2 | Rétinopathie diabétique | 99,53 % | L5 | Même raisonnement que ci-dessus : rôle inflammatoire secondaire de l'axe IL-23/Th17, spéculatif. L'immunosuppression systémique chez des patients diabétiques exigerait une évaluation attentive du risque infectieux. |
+| 3 | Cataracte diabétique | 99,21 % | L5 | Lien mécanistique faible (voie des polyols, stress osmotique et oxydatif). Un biomédicament serait peu plausible pour une affection traitée chirurgicalement. |
+| 4 | Ostéoporose d'origine médicamenteuse | 99,20 % | L5 | L'axe IL-23/IL-17 influence l'ostéoclastogenèse, d'où un lien indirect plausible. Aucun effet protecteur osseux démontré. C'est la prédiction biologiquement la plus plausible, mais elle reste computationnelle. |
 
 ## Preuves d'Essais Cliniques
 
@@ -77,31 +76,36 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65992266 | ILUMETRI 200 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée dans les données |
-| 69596271 | ILUMETRI 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée dans les données |
-| 69150269 | ILUMETRI 100 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée dans les données |
+| 65992266 | ILUMETRI 200 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
+| 69596271 | ILUMETRI 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
+| 69150269 | ILUMETRI 100 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
 
-Titulaire : ALMIRALL (Espagne).
+Les trois AMM (titulaire : ALMIRALL, Espagne) sont annulées ; aucune AMM valide n'est recensée.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité (mises en garde et contre-indications non disponibles dans les données compilées).
+
+**Interactions médicamenteuses** : 78 interactions recensées. Parmi les principales :
+- **Majeures** : adalimumab, baricitinib, certolizumab pegol, cladribine (risque d'immunosuppression cumulée)
+- **Modérées** : roflumilast, tacrolimus, ciclosporine, azathioprine, alemtuzumab, anakinra, canakinumab, dénosumab, alefacept, ainsi que certains vaccins (anatoxine tétanique, vaccin charbonneux, vaccin cholérique vivant)
+- **Mineures** : sels de zinc (sulfate, acétate, gluconate, chlorure)
+
+Chez des patients diabétiques, une immunosuppression systémique nécessiterait une évaluation spécifique du risque infectieux.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score TxGNN (niveau L5), sans essai clinique ni publication. Le lien mécanistique est spéculatif et la pénétration oculaire d'un anticorps systémique est limitée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le lien mécanistique avec la rétinopathie diabétique est spéculatif, et les données de sécurité de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour tout criblage de sécurité).
-- Les données détaillées sur le mécanisme d'action (DrugBank).
-- Les textes d'indication des trois AMM.
-- Des données précliniques sur l'expression rétinienne d'IL-23/IL-17 dans des modèles de rétinopathie diabétique.
-- Une recherche systématique d'essais et de publications, ainsi que d'études observationnelles chez des patients diabétiques traités pour un psoriasis.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer la notice de l'ANSM (mises en garde, contre-indications, indications approuvées), élément bloquant pour le criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Mener une revue de la littérature préclinique sur le rôle de l'IL-23/IL-17 dans la rétinopathie diabétique
+- Évaluer la compatibilité des voies d'administration (injectable systémique vs voies oculaires) et le profil de sécurité infectieuse chez les patients diabétiques
+- Clarifier la situation réglementaire en France (AMM annulées)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

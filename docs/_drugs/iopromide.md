@@ -2,7 +2,7 @@
 layout: default
 title: Iopromide
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 155
+nav_order: 408
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,30 +29,33 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Iopromide : D'un Produit de Contraste Iodé à la Susceptibilité à l'Arthrose
+# Iopromide : D'un produit de contraste iodé à l'arthrose (prédiction non étayée)
 
 ## Résumé en Une Phrase
 
-L'iopromide est un produit de contraste radiologique iodé non ionique, commercialisé en France sous le nom d'Ultravist pour l'imagerie diagnostique.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **susceptibilité à l'arthrose**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction.
-Il s'agit d'une sortie de graphe de connaissances, sans base clinique.
+Iopromide est un produit de contraste iodé non ionique, utilisé en imagerie diagnostique (commercialisé en France sous le nom ULTRAVIST).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **susceptibilité à l'arthrose**, mais cette prédiction repose uniquement sur un calcul de graphe.
+Aucun essai clinique ni aucune publication ne la soutient actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Non renseignée dans les données compilées (les textes d'indication des AMM sont vides) |
 | Nouvelle Indication Prédite | Susceptibilité à l'arthrose (osteoarthritis susceptibility) |
 | Score de Prédiction TxGNN | 99,57 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 4 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'iopromide est un agent de contraste iodé non ionique, utilisé comme aide à l'imagerie. Il n'a pas d'action pharmacologique connue sur les tissus articulaires ni sur la susceptibilité génétique à l'arthrose.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Iopromide est un produit de contraste radiographique iodé non ionique, destiné à l'imagerie diagnostique (y compris l'arthrographie). Il n'a pas d'activité pharmacologique connue sur le cartilage ou les voies articulaires.
 
-Aucun lien mécanistique n'a été identifié entre l'indication d'origine (l'imagerie diagnostique) et la nouvelle indication. Le score élevé du modèle (99,57 %) reflète probablement des associations dans le graphe de connaissances, notamment la présence fréquente des produits de contraste dans la littérature d'imagerie ostéoarticulaire. Il ne traduit pas un effet thérapeutique. Cette prédiction doit donc être considérée comme peu plausible en l'état.
+La relation avec la nouvelle indication est donc très faible. La « susceptibilité à l'arthrose » est un trait de prédisposition génétique et non une maladie à traiter, ce qui réduit encore la plausibilité. Le score élevé (0,996) reflète vraisemblablement une proximité dans le graphe de connaissances, et non un effet thérapeutique.
+
+Les autres prédictions du modèle vont dans le même sens : arthrose (99,53 %), polyarthrite rhumatoïde (99,37 %), brachyolmie, dysplasie acromésomélique de type Hunter-Thompson, syndrome brachyolmie-amélogenèse imparfaite, alopécie, myosclérose, hémoglobinopathie et pseudoachondroplasie. Aucune n'a de lien mécanistique identifié ni de preuve clinique. Pour les hémoglobinopathies, l'usage de produits de contraste iodés demande même de la prudence dans certaines situations (par exemple la drépanocytose).
 
 ## Preuves d'Essais Cliniques
 
@@ -64,32 +67,33 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
-|---------|------|------|------|
-| 68373358 | ULTRAVIST 300 (300 mg d'iode/mL), solution injectable | Solution injectable | Bayer Healthcare |
-| 62729413 | ULTRAVIST 370 (370 mg d'iode/mL), solution injectable | Solution injectable | Bayer Healthcare |
-| 65027575 | ULTRAVIST 370 (370 mg d'iode/mL), solution injectable en seringue préremplie pour injecteur automatique | Solution injectable | Bayer Healthcare |
-| 60385522 | ULTRAVIST 300 (300 mg d'iode/mL), solution injectable en seringue préremplie pour injecteur automatique | Solution injectable | Bayer Healthcare |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 68373358 | ULTRAVIST 300 (300 mg d'iode/mL), solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+| 62729413 | ULTRAVIST 370 (370 mg d'iode/mL), solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+| 65027575 | ULTRAVIST 370 (370 mg d'iode/mL), solution injectable en seringue préremplie pour injecteur automatique | Solution injectable | Non renseignée (AMM annulée) |
+| 60385522 | ULTRAVIST 300 (300 mg d'iode/mL), solution injectable en seringue préremplie pour injecteur automatique | Solution injectable | Non renseignée (AMM annulée) |
+
+Les quatre AMM, détenues par BAYER HEALTHCARE, sont annulées : aucune AMM valide n'est recensée.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : 100 interactions ont été recensées. Parmi les principales, de niveau **majeur** : metformine, amphotéricine B (y compris formes lipidique, sulfate de cholestéryle et liposomale), mésalazine, balsalazide, olsalazine, sulfasalazine, vancomycine, kanamycine, néomycine, streptomycine et polymyxine B. Le mannitol est de niveau **modéré**. Plusieurs autres (clotrimazole, acide acétylsalicylique, bupropion, dexaméthasone, pantoprazole) sont de niveau inconnu.
+
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans publication et sans mécanisme plausible.
-- Parmi les autres prédictions du modèle, l'arthrose (2 publications) et la polyarthrite rhumatoïde (1 publication) sont documentées uniquement comme des usages diagnostiques en imagerie (blocs nerveux guidés par scanner, mesure du cartilage par IRM, TDM injecté), et non comme des traitements.
-- Un cas publié d'événement vaso-occlusif cérébral après un contraste de faible osmolarité chez un patient drépanocytaire constitue un possible signal de sécurité. Il va à l'encontre d'un repositionnement dans les hémoglobinopathies.
+- La prédiction est purement computationnelle (niveau L5), sans essai clinique, sans publication et sans mécanisme plausible. Les AMM françaises sont toutes annulées, et la notice n'a pas pu être exploitée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour tout dépistage de sécurité).
-- Compléter les données sur le mécanisme d'action (par exemple via l'API DrugBank).
-- Identifier un rationnel biologique crédible avant tout investissement supplémentaire. En l'absence de lien mécanistique et de preuves cliniques, il est recommandé de ne pas poursuivre cette piste.
-
-*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant toute application.*
+- Récupérer les mises en garde et contre-indications de la notice (ANSM), actuellement manquantes et bloquantes pour le criblage de sécurité
+- Obtenir les données sur le mécanisme d'action (DrugBank)
+- Justifier d'abord, sur le plan biologique, un lien entre un produit de contraste diagnostique et une action thérapeutique articulaire
+- Réévaluer la pertinence d'une « susceptibilité » génétique comme indication traitable, ou privilégier une indication plus plausible (arthrose) avant tout travail supplémentaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

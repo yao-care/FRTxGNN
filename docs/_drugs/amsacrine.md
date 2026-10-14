@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amsacrine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 38
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 63
+evidence_level: L3
 indication_count: 5
 ---
 
 # Amsacrine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L3** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,110 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Amsacrine : De l'Indication Non Renseignée à l'Hyperthyroïdie (Prédiction Non Étayée)
+# Amsacrine : Des Hémopathies Malignes au Myélome Multiple
 
 ## Résumé en Une Phrase
 
-L'amsacrine est un antinéoplasique cytotoxique (intercalant de l'ADN et inhibiteur de la topoisomérase II), commercialisé en France sous le nom AMSALYO. Le texte de son indication approuvée n'est pas renseigné dans les données ANSM fournies.
-Le modèle TxGNN prédit en première position l'**hyperthyroïdie** (score de 99,37 %), mais **aucun essai clinique et aucune publication** ne soutiennent cette piste. Elle ressemble à un artefact du graphe de connaissances.
+Amsacrine est un agent antinéoplasique intercalant de l'ADN et inhibiteur de la topoisomérase II, dont l'indication originale n'est pas précisée dans les données compilées pour ce rapport.
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **myélome plasmocytaire** (la prédiction la mieux étayée parmi les cinq candidates), avec **0 essai clinique** et **4 publications**, dont deux essais de phase II anciens montrant une activité faible.
+Les autres prédictions (hyperthyroïdie, myélome indolent, résistance aux hormones thyroïdiennes, bronchite) reposent uniquement sur le modèle.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide) |
-| Nouvelle Indication Prédite | Hyperthyroïdie |
-| Score de Prédiction TxGNN | 99,37 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Indication Originale | Non précisée dans les données d'AMM disponibles |
+| Nouvelle Indication Prédite | Myélome plasmocytaire |
+| Score de Prédiction TxGNN | 99,32 % |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | Autorisation annulée uniquement |
 | Nombre d'AMM | 1 |
-| Décision Recommandée | Hold |
+| Décision Recommandée | Hold (question de recherche, non prioritaire) |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. On sait que l'amsacrine agit comme agent intercalant de l'ADN et inhibiteur de la topoisomérase II, avec une action cytotoxique sur les cellules en prolifération.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, l'amsacrine est un agent intercalant de l'ADN qui empoisonne la topoisomérase II, ce qui est biologiquement plausible contre des cellules hématologiques malignes en prolifération.
 
-**Pour l'hyperthyroïdie, le lien est jugé non plausible.** Ce mécanisme n'a aucun effet connu sur la synthèse ou la signalisation des hormones thyroïdiennes. Le score élevé (0,994) provient d'une proximité dans le graphe de connaissances, sans essai ni littérature à l'appui. Il faut le traiter comme un artefact du modèle, pas comme un signal thérapeutique.
+Le myélome plasmocytaire est une hémopathie maligne. Un agent cytotoxique actif sur les proliférations hématologiques pourrait donc, en théorie, y exercer un effet. Cette plausibilité reste toutefois théorique : les essais de phase II des années 1980 montrent une activité très limitée (voir ci-dessous).
 
-Parmi les cinq prédictions du dossier, seule une a un fondement mécanistique plausible et des données humaines : le **myélome plasmocytaire** (voir ci-dessous).
+Les thérapies actuelles du myélome (inhibiteurs du protéasome, immunomodulateurs, anticorps anti-CD38, thérapies ciblant BCMA) sont bien plus efficaces. Un intérêt éventuel de l'amsacrine se limiterait à une niche (maladie réfractaire, association), qui reste à justifier.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour l'hyperthyroïdie (ni dans ClinicalTrials.gov ni dans ICTRP). Aucun essai n'est non plus enregistré pour les autres indications prédites.
+Aucun essai clinique associé enregistré actuellement.
+
+---
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour l'hyperthyroïdie.
-
-Les seules publications du dossier concernent la 2e prédiction, le **myélome plasmocytaire** (score 99,32 %, niveau L3, recommandation « Research Question ») :
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [2913481](https://pubmed.ncbi.nlm.nih.gov/2913481/) | 1989 | Essai de phase II (myélome) | Med Pediatr Oncol | 74 patients déjà traités, 120 mg/m² toutes les 3 semaines : bonne réponse chez 2 (3 %), amélioration chez 3 (4 %), toxicité sévère chez 33 % des patients ayant reçu ≥3 cures. Schéma jugé généralement inefficace. |
-| [6688199](https://pubmed.ncbi.nlm.nih.gov/6688199/) | 1983 | Essai de phase II (tumeurs solides, myélome, lymphome) | Cancer Treat Rep | 12 réponses partielles chez 221 patients évaluables (120 mg/m² IV toutes les 28 jours), activité antitumorale limitée. |
-| [2064323](https://pubmed.ncbi.nlm.nih.gov/2064323/) | 1991 | Revue (leucémies, focus m-AMSA) | Anticancer Res | Panorama des nouveaux cytostatiques dans les leucémies. |
-| [1958848](https://pubmed.ncbi.nlm.nih.gov/1958848/) | 1991 | Étude in vitro | Anti-Cancer Drugs | Comparaison de la cytotoxicité sur cellules cardiaques et cellules de myélome 8226 pour des intercalants de l'ADN (contexte de cardiotoxicité). |
-| [2419036](https://pubmed.ncbi.nlm.nih.gov/2419036/) | 1985 | Revue (test de clonage tumoral) | Curr Probl Cancer | Contexte ex vivo, pas de résumé disponible. |
-| [3910194](https://pubmed.ncbi.nlm.nih.gov/3910194/) | 1985 | Revue (corrélations cliniques du test de clonage) | Cancer Invest | Contexte ex vivo, pas de résumé disponible. |
+| [2913481](https://pubmed.ncbi.nlm.nih.gov/2913481/) | 1989 | Essai de phase II | Med Pediatr Oncol | 74 patients prétraités avec un myélome ; 120 mg/m² toutes les 3 semaines. Bonne réponse chez 2 patients (3 %), amélioration chez 3 (4 %), toxicité sévère chez 33 % des patients ayant reçu ≥3 cures. Schéma jugé généralement inefficace. |
+| [6688199](https://pubmed.ncbi.nlm.nih.gov/6688199/) | 1983 | Essai de phase II | Cancer Treat Rep | Tumeurs solides, myélome et lymphome fortement prétraités ; 12 réponses partielles sur 221 patients évaluables (120 mg/m² IV toutes les 28 jours). Activité antitumorale modeste. |
+| [2064323](https://pubmed.ncbi.nlm.nih.gov/2064323/) | 1991 | Revue | Anticancer Res | Revue des nouveaux médicaments dans les leucémies aiguës et chroniques, avec un accent sur l'amsacrine (m-AMSA). |
+| [1958848](https://pubmed.ncbi.nlm.nih.gov/1958848/) | 1991 | Étude préclinique in vitro | Anti-Cancer Drugs | Comparaison de la cytotoxicité sur cardiomyocytes et sur cellules de myélome 8226 pour des agents intercalants de l'ADN ; met en évidence une préoccupation de cardiotoxicité. |
 
-La publication PMID 17133426 (bortézomib et zona, 2007) porte sur un autre médicament et n'est pas pertinente pour l'amsacrine.
-
-Les données humaines sont anciennes et plutôt décevantes, et aucune n'est un essai randomisé de phase 2/3. Elles ne satisfont donc pas la définition du niveau L2.
-
-Les autres prédictions (myélome indolent, résistance aux hormones thyroïdiennes par mutation de THRB, bronchite) sont toutes au niveau L5, sans essai ni publication, et toutes classées « Hold ».
+---
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67581349 | AMSALYO 75 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée |
+| 67581349 | AMSALYO 75 mg, poudre pour solution pour perfusion (EUROCEPT INTERNATIONAL, Pays-Bas) | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
 
-Titulaire : EUROCEPT INTERNATIONAL (Pays-Bas).
+---
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Cytotoxique conventionnel (intercalant de l'ADN, inhibiteur de la topoisomérase II) |
-| Risque de Myélosuppression | Élevé (myélosuppression signalée dans l'évaluation du dossier) |
-| Classification d'Émétogénicité | Non documentée dans le dossier ; veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | NFS avec différentielle, fonction cardiaque (cardiotoxicité signalée), fonction hépatique et rénale, électrolytes |
-| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
+| Risque de Myélosuppression | Élevé attendu pour cette classe ; toxicité sévère rapportée chez 33 % des patients dans l'essai de phase II sur le myélome |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | NFS, fonction hépatique et rénale, électrolytes ; surveillance cardiaque en raison du risque de cardiotoxicité des intercalants de l'ADN |
+| Protection de Manipulation | Suivre les réglementations de manipulation des médicaments cytotoxiques |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Cardiotoxicité** : l'étude in vitro disponible souligne la toxicité cardiaque des agents intercalants de l'ADN.
+- **Toxicité sévère** : observée chez 33 % des patients ayant reçu au moins trois cures dans l'essai de phase II sur le myélome.
+
+Pour les mises en garde officielles, les contre-indications et les interactions médicamenteuses, veuillez consulter la notice.
+
+---
+
+## Autres Prédictions Examinées
+
+| Maladie prédite | Score TxGNN | Niveau de preuve | Décision | Commentaire |
+|------|------|------|------|------|
+| Hyperthyroïdie | 99,37 % | L5 | Hold | Aucun lien mécanistique avec la synthèse ou la sécrétion des hormones thyroïdiennes ; aucune étude. |
+| Myélome plasmocytaire indolent | 99,21 % | L5 | Hold | Prise en charge par observation ; rapport bénéfice-risque défavorable pour un agent cytotoxique et cardiotoxique ; données de phase II non extrapolables. |
+| Résistance aux hormones thyroïdiennes (mutation THRB) | 99,17 % | L5 | Hold | Trouble génétique du récepteur ; aucun mécanisme plausible ; score probablement lié à une similarité de réseau. |
+| Bronchite | 99,04 % | L5 | Hold | Aucun mécanisme plausible ; risques de myélosuppression et de cardiotoxicité inadaptés. |
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- L'hyperthyroïdie n'a ni fondement mécanistique ni essai ni publication. Le score TxGNN de 99,37 % reflète très probablement un artefact du graphe. Le profil de toxicité de l'amsacrine (myélosuppression, cardiotoxicité) rend de toute façon le rapport bénéfice/risque défavorable pour une pathologie thyroïdienne.
-- La seule piste défendable du dossier est le myélome plasmocytaire. Ses données de phase II sont anciennes et peu encourageantes, et elle est à replacer face aux traitements actuels (inhibiteurs du protéasome, IMiD, anti-CD38). Elle relève d'une question de recherche, pas d'un repositionnement à engager.
+- Les seules données cliniques sur le myélome sont des essais de phase II anciens (1983 et 1989) montrant une activité faible (réponse chez environ 3 % des patients), avec une toxicité notable et un risque cardiaque, alors que les traitements actuels sont bien plus efficaces. De plus, l'AMM française unique est annulée, et les prédictions sur les autres maladies n'ont aucun soutien.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde, contre-indications) : lacune bloquante pour le criblage de sécurité.
-- Compléter le mécanisme d'action et l'indication originale via DrugBank.
-- Pour le myélome, réévaluer les résultats historiques (taux de réponse, schémas) avant toute décision.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
+- Une justification claire d'une niche (myélome réfractaire ou association), appuyée par des données précliniques ou cliniques récentes
+- Les données sur le mécanisme d'action et la notice (mises en garde, contre-indications), actuellement manquantes
+- La confirmation de l'indication originale de l'amsacrine
+- Un profil de sécurité cardiaque et hématologique détaillé, avec un plan de surveillance
+- Une comparaison avec les standards thérapeutiques actuels du myélome
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

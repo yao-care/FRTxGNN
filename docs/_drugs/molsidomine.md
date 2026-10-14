@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Molsidomine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 204
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 512
+evidence_level: L3
 indication_count: 10
 ---
 
 # Molsidomine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,105 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Molsidomine : De la maladie coronarienne à l'alopécie
+# Molsidomine : De l'indication d'origine (non précisée) à la maladie vasculaire
 
 ## Résumé en Une Phrase
 
-Molsidomine est un donneur de monoxyde d'azote (NO), utilisé dans la maladie coronarienne et l'angor. Les données réglementaires françaises disponibles ne précisent pas son indication autorisée.
-Le modèle TxGNN le prédit comme potentiellement efficace pour l'**alopécie** (rang 1), mais **aucun essai clinique** et **aucune publication pertinente** ne soutiennent cette direction.
-Parmi les autres prédictions, seule la **maladie vasculaire** (rang 2) est bien documentée, avec **2 essais cliniques** et **20 publications**.
+La molsidomine est un donneur de monoxyde d'azote (NO), connu pour son usage antiangineux. Les données réglementaires françaises compilées pour ce rapport ne précisent toutefois pas le texte de l'indication approuvée.
+Le modèle TxGNN la prédit comme potentiellement efficace pour la **maladie vasculaire**, avec **2 essais cliniques** et **20 publications** soutenant actuellement cette direction.
+
+> Remarque : la première prédiction du modèle (alopécie) ne repose que sur le score, sans aucun essai ni publication. Ce rapport retient donc la maladie vasculaire (2e rang), seule prédiction disposant de preuves, comme indication principale évaluée.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données de l'ANSM (la littérature le décrit comme traitement de la maladie coronarienne) |
-| Nouvelle Indication Prédite | Alopécie |
-| Score de Prédiction TxGNN | 99,99995 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 8 |
+| Indication Originale | Non disponible dans les données d'AMM compilées (usage antiangineux connu dans la littérature) |
+| Nouvelle Indication Prédite | Maladie vasculaire (alternative de rang 1 : alopécie, sans aucune preuve) |
+| Score de Prédiction TxGNN | 99,99 % |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 8 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, molsidomine est une prodrogue dont le métabolite actif (SIN-1) libère du NO. Cela provoque une vasodilatation veineuse et artérielle, et son efficacité est établie dans la maladie coronarienne.
+La molsidomine est une prodrogue de la linsidomine (SIN-1), qui libère du monoxyde d'azote (NO). Le NO active la guanylate cyclase soluble, ce qui augmente le GMPc, provoque une vasodilatation et inhibe l'agrégation plaquettaire. Les données détaillées sur le mécanisme d'action ne figurent pas dans les informations compilées ; cette description provient de la littérature associée.
 
-Pour l'alopécie, **aucun lien mécanistique n'est établi**. On peut supposer qu'une vasodilatation induite par le NO améliorerait la perfusion du cuir chevelu, mais cette hypothèse reste purement spéculative. Le score TxGNN très élevé traduit une proximité dans le graphe de connaissances, pas une preuve d'efficacité.
+Ce mécanisme est directement pertinent pour les maladies vasculaires : dysfonction endothéliale, maladie coronarienne et ischémie. La littérature décrit des effets anti-ischémiques, antiplaquettaires et fibrinolytiques, et la molsidomine est utilisée dans l'angor dans plusieurs pays, ce qui soutient la plausibilité biologique.
 
-Les deux publications retrouvées portent sur la madarose (perte des cils et sourcils) liée à une mitochondriopathie. Elles ne concernent pas molsidomine et ne soutiennent donc pas cette prédiction.
+Il faut cependant rester prudent : les preuves sont surtout mécanistiques, pharmacologiques et cliniques anciennes. L'étiquette « maladie vasculaire » est large et ne correspond pas à une indication précise. La comparaison formelle avec l'indication d'origine n'a pas pu être faite, faute de texte d'indication dans les AMM.
+
+Pour les autres prédictions (alopécie, hypotrichoses, syndromes du défilé thoracique, dissection coronaire spontanée, calciphylaxie viscérale, hémangioendothéliome), seul le score du modèle les soutient. Aucun essai ni publication n'a été retrouvé, et le lien mécanistique est faible ou spéculatif.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT01363661](https://clinicaltrials.gov/study/NCT01363661) | Phase 4 | Terminé | 165 | Molsidomine en traitement additionnel versus placebo (double aveugle) sur la fonction endothéliale (RH-PAT) après 12 mois chez des patients avec angor stable subissant une intervention coronarienne percutanée. Résultats non disponibles dans les données. |
+| [NCT00382421](https://clinicaltrials.gov/study/NCT00382421) | Non applicable | Terminé | Non renseignée | SWISSI 1 : étude interventionnelle sur l'ischémie silencieuse chez des sujets asymptomatiques ; le rôle exact de la molsidomine n'est pas clair. |
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [16879589](https://pubmed.ncbi.nlm.nih.gov/16879589/) | 2006 | Cas clinique | Acta Ophthalmologica Scandinavica | Madarose due à une mitochondriopathie ; molsidomine n'est pas concerné (pas de résumé disponible) |
-| [16188012](https://pubmed.ncbi.nlm.nih.gov/16188012/) | 2005 | Cas clinique | Acta Ophthalmologica Scandinavica | Même thème (madarose et mitochondriopathie) ; molsidomine n'est pas concerné (pas de résumé disponible) |
+| [8743336](https://pubmed.ncbi.nlm.nih.gov/8743336/) | 1996 | Revue | Clin Pharmacokinet | Pharmacocinétique : prodrogue du NO, absorption rapide, biodisponibilité orale de 44 à 59 % |
+| [1790782](https://pubmed.ncbi.nlm.nih.gov/1790782/) | 1991 | Revue | Eur Heart J | Comparaison nitrates et sydnonimines : effets pharmacodynamiques similaires, vasodilatation par libération de NO |
+| [2242448](https://pubmed.ncbi.nlm.nih.gov/2242448/) | 1990 | Revue | Blood Vessels | Molsidomine, médicament établi de la maladie coronarienne, agissant via SIN-1 et la libération de NO |
+| [2651251](https://pubmed.ncbi.nlm.nih.gov/2651251/) | 1989 | Étude clinique comparative (croisée randomisée) | Fortschr Med | Effet anti-ischémique de la molsidomine (2 × 2 mg) et du gallopamil chez 20 patients coronariens ; réduction du sous-décalage ST de 0,16 à 0,09 mV avec la molsidomine |
+| [8438599](https://pubmed.ncbi.nlm.nih.gov/8438599/) | 1993 | Étude clinique | Wien Klin Wochenschr | Synergie de la prostacycline et de la molsidomine (fibrinolyse, effet antiplaquettaire) chez 20 patients avec artériopathie périphérique |
+| [2598982](https://pubmed.ncbi.nlm.nih.gov/2598982/) | 1989 | Étude clinique | Eur J Clin Pharmacol | Comparaison hémodynamique nifédipine/molsidomine chez 24 patients coronariens ; baisse des pressions pulmonaire et télédiastolique ventriculaire gauche avec la molsidomine |
+| [6393621](https://pubmed.ncbi.nlm.nih.gov/6393621/) | 1984 | Étude randomisée en double aveugle | Z Kardiol | Relation dose-effet (2, 4, 6 mg) sur le sous-décalage ST à l'effort chez 12 patients coronariens |
+| [3838401](https://pubmed.ncbi.nlm.nih.gov/3838401/) | 1985 | Étude clinique | Am Heart J | Effets hémodynamiques comparés de la molsidomine, du dinitrate d'isosorbide et de la nifédipine |
+| [3919549](https://pubmed.ncbi.nlm.nih.gov/3919549/) | 1985 | Préclinique (animal) | Am Heart J | Activité cardioprotectrice et antithrombotique dans des modèles animaux d'ischémie myocardique |
+| [39316777](https://pubmed.ncbi.nlm.nih.gov/39316777/) | 2024 | Préclinique | ACS Appl Bio Mater | Nanoparticules à cristaux liquides chargées de molsidomine dans un modèle de varices induites par la niacine |
 
-## Autres Indications Prédites
-
-### Maladie vasculaire (rang 2) : la seule prédiction appuyée par des preuves
-
-Niveau de preuve **L2**, décision **Proceed with Guardrails**. Le mécanisme (libération de NO, vasodilatation, inhibition de l'agrégation plaquettaire, amélioration de la fonction endothéliale) est cohérent avec cette indication. Molsidomine étant déjà utilisé dans l'angor et la maladie coronarienne sur certains marchés, on est plus proche d'un usage déjà connu que d'un vrai repositionnement.
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT01363661](https://clinicaltrials.gov/study/NCT01363661) | Phase 4 | Terminé | 165 | Essai randomisé en double aveugle contre placebo : effet de molsidomine sur la dysfonction endothéliale chez des patients avec angor stable, avant une angioplastie coronarienne (critère de substitution, sur 12 mois) |
-| [NCT00382421](https://clinicaltrials.gov/study/NCT00382421) | Non applicable | Terminé | Non renseignée | SWISSI 1 : ischémie silencieuse chez des sujets asymptomatiques ; l'utilisation de molsidomine n'est pas confirmée dans les données |
-
-Publications principales sur les 20 retrouvées :
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [9475269](https://pubmed.ncbi.nlm.nih.gov/9475269/) | 1998 | ECR croisé | J Cardiovasc Pharmacol | 90 patients avec angor stable : amélioration de la capacité d'effort avec molsidomine retard et non retard |
-| [15676171](https://pubmed.ncbi.nlm.nih.gov/15676171/) | 2005 | Étude clinique | Int J Cardiol | Efficacité et tolérance de molsidomine en une prise par jour dans l'angor stable |
-| [8438599](https://pubmed.ncbi.nlm.nih.gov/8438599/) | 1993 | Étude clinique | Wien Klin Wochenschr | Effets fibrinolytiques et antiplaquettaires synergiques avec la prostacycline dans l'artériopathie périphérique (20 patients) |
-| [31085310](https://pubmed.ncbi.nlm.nih.gov/31085310/) | 2019 | Préclinique | Vascul Pharmacol | Chez la souris, molsidomine favorise la stabilité de la plaque d'athérome et réduit l'infarctus |
-
-Limites : il n'existe pas d'essai de phase 3 sur des critères cliniques, et le seul ECR récent porte sur un critère de substitution.
-
-### Autres prédictions (toutes L5, Hold, sans essai ni publication)
-
-| Indication prédite | Score TxGNN | Commentaire |
-|------|------|------|
-| Syndrome du défilé thoracique veineux | 99,99993 % | La compression est mécanique (traitée par décompression et anticoagulation) |
-| Syndrome du défilé thoracique artériel | 99,99993 % | Mêmes réserves : cause mécanique |
-| Dissection coronaire spontanée idiopathique | 99,99993 % | Effet symptomatique plausible comme pour les autres nitrés, mais effets hémodynamiques sur un vaisseau disséqué non évalués |
-| Hypotrichose simple du cuir chevelu | 99,99993 % | Maladie monogénique, aucun lien mécanistique |
-| Calciphylaxie viscérale | 99,99992 % | Spéculatif ; risque d'hypotension chez les patients dialysés |
-| Syndrome du défilé thoracique neurogène | 99,99992 % | Compression du plexus brachial, pas de justification pour un donneur de NO |
-| Hémangioendothéliome | 99,99990 % | Lien faible ; la vasodilatation pourrait être contre-productive |
-| Hypotrichose congénitale avec milium | 99,99990 % | Maladie rare congénitale, aucun lien mécanistique |
+---
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62439495 | MOLSIDOMINE EG 2 mg | Comprimé sécable | Non renseignée |
-| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non renseignée |
-| 63967289 | MOLSIDOMINE ARROW 4 mg | Comprimé sécable | Non renseignée |
-| 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non renseignée |
-| 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non renseignée |
+| 62439495 | MOLSIDOMINE EG 2 mg | Comprimé sécable | Non précisée (AMM annulée) |
+| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM annulée) |
+| 63967289 | MOLSIDOMINE ARROW 4 mg | Comprimé sécable | Non précisée (AMM annulée) |
+| 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non précisée (AMM annulée) |
+| 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non précisée (AMM annulée) |
 
-Le dossier recense 8 AMM au total ; seules les 5 premières sont détaillées ci-dessus.
+Au total, 8 AMM sont recensées (dont CORVASAL 2 mg et 4 mg), toutes annulées ; aucune n'est actuellement valide.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Les mises en garde, contre-indications et interactions médicamenteuses ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour les informations de sécurité.
+
+À noter : pour certaines prédictions (dissection coronaire spontanée, hémangioendothéliome), l'innocuité d'un vasodilatateur n'a pas été évaluée.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Hold** (pour l'alopécie)
+**Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'alopécie repose uniquement sur le modèle (L5) : aucun essai, aucun lien mécanistique, et les deux publications retrouvées ne concernent pas molsidomine.
-- Pour la maladie vasculaire, la décision serait *Proceed with Guardrails* (L2), mais il s'agit surtout d'un usage cardiovasculaire déjà connu, et non d'un vrai repositionnement.
+- La maladie vasculaire est la seule prédiction avec un soutien réel (un essai de phase 4 terminé et de la littérature pharmacologique et clinique), mais les preuves restent de niveau L3, souvent anciennes, et l'indication est trop large. Aucune donnée de sécurité n'est disponible, et toutes les AMM françaises sont annulées. La prédiction d'alopécie, bien que classée première, n'a aucun appui.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice de l'ANSM (mises en garde, contre-indications, indication autorisée), car l'absence de ces données bloque l'étape de sécurité
-- Compléter les données de mécanisme d'action via DrugBank
-- Pour l'alopécie : une étude préclinique ou un mécanisme plausible avant tout examen supplémentaire
-- Pour la maladie vasculaire : préciser l'indication autorisée en France et vérifier s'il s'agit d'un usage déjà couvert, ou d'une extension réelle
-- Évaluer le risque d'hypotension et l'interaction avec les inhibiteurs de la phosphodiestérase de type 5 pour toute population ciblée
-
-*Ce rapport est destiné à la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Récupérer la notice de l'ANSM (mises en garde, contre-indications, indication approuvée) afin de lever le blocage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Obtenir les résultats publiés de l'essai NCT01363661 (fonction endothéliale)
+- Définir une indication vasculaire précise (par exemple dysfonction endothéliale, angor après intervention coronarienne) plutôt qu'une catégorie générale
+- Clarifier les raisons de l'annulation des AMM (réglementaires, commerciales ou de sécurité)
+- Évaluer la compatibilité de la voie d'administration avec l'indication visée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

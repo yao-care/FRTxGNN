@@ -2,7 +2,7 @@
 layout: default
 title: Posaconazole
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 243
+nav_order: 617
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,84 +29,85 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Posaconazole : Des Infections Fongiques Invasives à la Pneumocystose
+# Posaconazole : Des Mycoses Invasives à la Pneumocystose
 
 ## Résumé en Une Phrase
 
-Le posaconazole est un antifongique de la famille des triazolés, utilisé contre les infections fongiques invasives. Le texte d'indication de ses AMM françaises n'est pas renseigné dans le dossier.
-Le modèle TxGNN prédit qu'il pourrait être efficace contre la **pneumocystose**. Cette prédiction repose sur **2 essais cliniques** et **5 publications**, mais aucun ne teste le posaconazole dans cette indication, et le mécanisme d'action rend ce signal peu plausible.
+Le posaconazole est un antifongique triazolé, initialement utilisé pour traiter et prévenir plusieurs mycoses (aspergillose, candidose, histoplasmose, fusariose, sporotrichose, coccidioïdomycose, entre autres).
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocystose**, mais **aucun essai clinique pertinent** ni aucune publication directement concernée ne soutient actuellement cette direction : la prédiction repose uniquement sur le modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM (antifongique triazolé) |
+| Indication Originale | Mycoses invasives et superficielles (aspergillose, candidose, histoplasmose, etc.) |
 | Nouvelle Indication Prédite | Pneumocystose |
 | Score de Prédiction TxGNN | 99,77 % |
-| Niveau de Preuve | L5 (aucune étude ne teste le posaconazole dans la pneumocystose ; le dossier source indique L4, mais aucune étude préclinique ou mécanistique n'y est documentée) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 10 |
+| Niveau de Preuve | L5 (prédiction du modèle sans étude directe ; les données compilées indiquent L4) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 10 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+*Note : le texte d'indication des AMM n'est pas renseigné ; l'indication originale provient des liens d'indication du graphe de connaissances.*
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Le posaconazole fait partie des azolés antifongiques. Il inhibe la lanostérol 14-alpha-déméthylase (CYP51) et bloque ainsi la synthèse de l'ergostérol, un constituant de la membrane des champignons.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, le posaconazole est un triazole qui inhibe la lanostérol 14-alpha-déméthylase (CYP51) et bloque ainsi la synthèse de l'ergostérol, constituant essentiel de la membrane des champignons.
 
-Ce mécanisme s'applique mal à la pneumocystose. *Pneumocystis jirovecii* n'a pas d'ergostérol dans sa membrane cellulaire (il utilise du cholestérol et des stérols apparentés). On n'attend donc pas d'activité significative des azolés contre lui.
+Le score très élevé du modèle (99,77 %) semble refléter la proximité du posaconazole avec d'autres antifongiques et maladies fongiques dans le réseau de connaissances, plutôt qu'une réelle adéquation mécanistique. *Pneumocystis jirovecii* ne possède pratiquement pas d'ergostérol dans sa membrane (il utilise du cholestérol), de sorte que le mécanisme azolé n'est pas censé être efficace. Le traitement de référence reste l'association triméthoprime-sulfaméthoxazole.
 
-Le score très élevé de TxGNN (0,998) reflète probablement l'association du médicament avec d'autres infections fongiques invasives dans le graphe de connaissances. Ce n'est pas un signal soutenu par le mécanisme. Comme le champ MOA de la source est vide, ce lien n'a pas pu être vérifié par rapport au mécanisme enregistré.
+La prédiction doit donc être considérée avec prudence : le lien mécanistique est faible, voire défavorable.
 
 ## Preuves d'Essais Cliniques
 
-Les deux essais ci-dessous sont classés de pertinence faible (grade C). Aucun n'évalue le posaconazole dans la pneumocystose.
-
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Terminé | 602 | Étude ReSPECT : rezafungine IV versus schéma antimicrobien standard pour prévenir les infections fongiques invasives après greffe allogénique de moelle. Le posaconazole n'est au mieux qu'une partie du comparateur. |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | En recrutement | 358 | Protocole plateforme de prophylaxie de la GVHD par cyclophosphamide post-greffe (donneur non apparenté HLA-incompatible). Les infections ne sont que des critères secondaires ou incidents. |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Terminé | 602 | Rezafungine IV versus schéma antimicrobien standard pour prévenir les infections fongiques invasives après greffe allogénique de moelle. Ne concerne pas le posaconazole et n'apporte aucune preuve directe pour la pneumocystose (pertinence faible). |
 
 ## Preuves de la Littérature
 
-Aucune publication n'étudie l'efficacité du posaconazole dans la pneumocystose. Il s'agit de recommandations, de revues générales et d'une cohorte rétrospective.
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Recommandations | Lancet Infect Dis | Mise à jour 2025 des recommandations de la British Society for Medical Mycology sur le diagnostic des maladies fongiques graves (microscopie, antigènes, anticorps, tests moléculaires). |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Recommandations | Zhonghua Jie He He Hu Xi Za Zhi | Recommandations chinoises 2025 sur le diagnostic et la prise en charge des mycoses pulmonaires invasives, notamment chez les patients non immunodéprimés. |
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Revue | Swiss Med Wkly | Panorama des infections fongiques invasives (candidose, aspergillose, cryptococcose, pneumocystose). La prophylaxie par posaconazole, actif sur les moisissures, a réduit les infections fongiques chez les patients hémato-oncologiques à haut risque. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Revue (pharmacocinétique) | Clin Pharmacokinet | Pénétration des anti-infectieux dans le liquide de revêtement épithélial pulmonaire, avec des différences selon les antifongiques et les formulations. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Cohorte rétrospective | Transpl Infect Dis | Complications infectieuses de la GVHD aiguë après transplantation hépatique, principale cause de décès après le diagnostic de GVHD. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2026 | Revue | The Lancet Infectious Diseases | Recommandations de la société britannique de mycologie médicale sur le diagnostic des mycoses graves (mise à jour 2025). |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Revue (lignes directrices) | Zhonghua Jie He He Hu Xi Za Zhi | Lignes directrices chinoises sur le diagnostic et la prise en charge des mycoses pulmonaires invasives. |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Revue | Swiss Medical Weekly | Vue d'ensemble des mycoses invasives courantes (candidose, aspergillose, cryptococcose, pneumocystose) ; mentionne la réduction des infections avec la prophylaxie par posaconazole chez les patients hémato-oncologiques. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Revue | Clinical Pharmacokinetics | Pénétration des anti-infectieux dans le liquide épithélial pulmonaire, dont les antifongiques. |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Cohorte | Transplant Infectious Disease | Complications infectieuses de la maladie du greffon contre l'hôte aiguë après greffe hépatique. |
+
+Ces publications sont générales (diagnostic, lignes directrices, pharmacocinétique) et ne démontrent pas l'efficacité du posaconazole dans la pneumocystose.
 
 ## Informations de Marché en France
 
-Le posaconazole compte 10 AMM au total ; les 5 principales sont listées ci-dessous. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Le dossier signale aussi une forme en solution à diluer pour perfusion.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69380042 | NOXAFIL 100 mg | Comprimé gastro-résistant | Merck Sharp & Dohme (Pays-Bas) |
-| 63689562 | Posaconazole Zentiva 100 mg | Comprimé gastro-résistant | Zentiva France |
-| 62713448 | Posaconazole Fresenius Kabi 100 mg | Comprimé gastro-résistant | Fresenius Kabi France |
-| 67003384 | Posaconazole Viatris 40 mg/mL | Suspension buvable | Viatris Santé |
-| 63474691 | Posaconazole AHCL 40 mg/mL | Suspension buvable | Accord Healthcare (Espagne) |
+| 69380042 | NOXAFIL 100 mg | Comprimé gastro-résistant | Non renseignée (AMM annulée) |
+| 65644772 | NOXAFIL 300 mg | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 62076503 | NOXAFIL 40 mg/mL | Suspension buvable | Non renseignée (AMM annulée) |
+| 63689562 | POSACONAZOLE ZENTIVA 100 mg | Comprimé gastro-résistant | Non renseignée (AMM annulée) |
+| 62713448 | POSACONAZOLE FRESENIUS KABI 100 mg | Comprimé gastro-résistant | Non renseignée (AMM annulée) |
+
+Au total, 10 AMM sont enregistrées, toutes annulées ; aucune n'est actuellement valide dans les données compilées.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions médicamenteuses** : 100 interactions sont recensées dans les données compilées. Parmi les principales :
+  - **Majeures** : lopéramide, triamcinolone, budésonide.
+  - **Modérées** : famotidine, ranitidine, cimétidine, oméprazole, rabéprazole, hydrocortisone, dexaméthasone, bétaméthasone, aprépitant, clarithromycine, saxagliptine, bisacodyl, acide picosulfurique, polyéthylène glycol.
+
+Les mises en garde et contre-indications de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucune étude clinique ne teste le posaconazole dans la pneumocystose, et *Pneumocystis* n'a pas d'ergostérol, cible du médicament. Le score TxGNN élevé semble refléter une association avec d'autres mycoses plutôt qu'un vrai signal thérapeutique.
-- Les données de sécurité ANSM manquent et bloquent tout passage au criblage de sécurité.
+- La prédiction repose uniquement sur le score du modèle. Aucun essai ni publication ne soutient directement le posaconazole dans la pneumocystose, et le mécanisme (absence d'ergostérol chez *Pneumocystis*) plaide contre son efficacité. Toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), en priorité car ces données sont bloquantes.
-- Compléter les données sur le mécanisme d'action (DrugBank).
-- Rechercher des données directes (in vitro, animales ou cliniques) sur l'activité du posaconazole contre *Pneumocystis*.
-- Vérifier dans le graphe de connaissances l'origine de l'association posaconazole–pneumocystose.
-- Renseigner les indications approuvées des AMM françaises.
+- Données sur le mécanisme d'action et justification mécanistique d'une activité contre *Pneumocystis*
+- Études précliniques ou cliniques spécifiques au posaconazole dans la pneumocystose
+- Mises en garde et contre-indications issues de la notice (ANSM), nécessaires avant toute évaluation de sécurité
+- Clarification du statut réglementaire et de la disponibilité des formes (comprimé, suspension, perfusion)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

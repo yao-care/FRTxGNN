@@ -2,7 +2,7 @@
 layout: default
 title: Pibrentasvir
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 236
+nav_order: 602
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,103 +33,75 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Le pibrentasvir est un inhibiteur de la protéine NS5A du virus de l'hépatite C (VHC), commercialisé en France dans l'association glécaprévir/pibrentasvir (Maviret). Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par le virus de l'hépatite B**, mais **aucun des 14 essais cliniques et des 20 publications associés ne porte sur le VHB** : tous concernent le VHC. Cette prédiction repose donc uniquement sur le modèle, sans preuve réelle.
-
----
+Pibrentasvir est un inhibiteur de la protéine virale NS5A, utilisé à l'origine, en association avec le glécaprévir (spécialité MAVIRET), pour traiter l'infection chronique par le virus de l'hépatite C.
+Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par le virus de l'hépatite B**, mais **aucun essai clinique** n'est enregistré pour cette indication et **aucune des 20 publications retrouvées** ne rapporte d'activité anti-VHB. Cette prédiction repose uniquement sur le modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM françaises (déduite des essais associés : hépatite C chronique) |
+| Indication Originale | Infection chronique par le virus de l'hépatite C (source : graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
 | Score de Prédiction TxGNN | 99,84 % |
-| Niveau de Preuve | L5 (aucune étude sur le VHB ; le pack proposait L4, mais aucune étude préclinique ou mécanistique sur le VHB n'y figure) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes annulées) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le pibrentasvir fait partie de l'association glécaprévir/pibrentasvir, son efficacité dans l'hépatite C a été démontrée, et il agit comme inhibiteur de NS5A du VHC.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, pibrentasvir fait partie de l'association glécaprévir/pibrentasvir, où il agit comme inhibiteur de NS5A. Son efficacité dans l'hépatite C a été démontrée, mais son applicabilité mécanistique à l'hépatite B reste à établir.
 
-**La plausibilité mécanistique est faible.** Le VHB est un hépadnavirus et ne possède pas d'homologue de NS5A. Il n'existe donc pas de mécanisme antiviral direct plausible. Le score élevé reflète très probablement la proximité entre nœuds « hépatites virales » dans le graphe de connaissances, et non un signal d'efficacité.
+Le lien mécanistique est en réalité faible. Le VHB ne possède pas d'homologue de NS5A, de sorte qu'aucun lien direct avec la cible de pibrentasvir n'est établi. Le score élevé reflète probablement la proximité dans le réseau de connaissances avec d'autres hépatites virales, et non une cible commune.
 
-Le seul lien clinique connu est indirect et relève de la sécurité : la réactivation du VHB est une préoccupation reconnue lorsque les antiviraux à action directe éliminent le VHC chez des patients co-infectés par le VHB.
-
----
+La littérature retrouvée concerne exclusivement le traitement du VHC. Aucune publication ne rapporte d'activité anti-VHB.
 
 ## Preuves d'Essais Cliniques
 
-Les 14 essais rattachés à cette indication portent tous sur le VHC ; aucun ne teste une activité anti-VHB. Ils sont classés par pertinence « C » (non pertinents pour le VHB) ou en attente d'évaluation. Les 10 plus informatifs sont listés ci-dessous.
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | Phase 3 | Terminé | 506 | ENDURANCE-3 : glécaprévir/pibrentasvir vs sofosbuvir + daclatasvir dans le VHC de génotype 3 |
-| [NCT02707952](https://clinicaltrials.gov/study/NCT02707952) | Phase 3 | Terminé | 295 | CERTAIN-1 : efficacité et sécurité chez des adultes japonais atteints de VHC |
-| [NCT03092375](https://clinicaltrials.gov/study/NCT03092375) | Phase 3 | Terminé | 177 | Étude pragmatique de G/P ± ribavirine chez des patients VHC génotype 1 préalablement traités par inhibiteur de NS5A + sofosbuvir |
-| [NCT03219216](https://clinicaltrials.gov/study/NCT03219216) | Phase 3 | Terminé | 100 | G/P sur 8 ou 12 semaines chez des adultes brésiliens naïfs de traitement (VHC génotypes 1 à 6) |
-| [NCT02640482](https://clinicaltrials.gov/study/NCT02640482) | Phase 3 | Terminé | 304 | ENDURANCE-2 : essai contre placebo dans le VHC de génotype 2 |
-| [NCT02243293](https://clinicaltrials.gov/study/NCT02243293) | Phase 2/3 | Terminé | 694 | SURVEYOR-II : ABT-493 + ABT-530 ± ribavirine dans le VHC de génotypes 2 à 6 |
-| [NCT02446717](https://clinicaltrials.gov/study/NCT02446717) | Phase 2/3 | Terminé | 141 | Efficacité chez des patients VHC en échec d'un précédent traitement par antiviral à action directe |
-| [NCT02441283](https://clinicaltrials.gov/study/NCT02441283) | Phase 2/3 | Terminé | 384 | Suivi à long terme de la durabilité de la réponse virologique et des résistances |
-| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | Phase 2 | Terminé | 89 | Étude de détermination de dose chez des patients VHC de génotype 1 |
-| [NCT02243280](https://clinicaltrials.gov/study/NCT02243280) | Phase 2 | Terminé | 174 | SURVEYOR-I : VHC de génotypes 1, 4, 5 et 6, avec ou sans cirrhose compensée |
-
----
+Aucun essai clinique associé n'est enregistré actuellement pour l'infection par le virus de l'hépatite B.
 
 ## Preuves de la Littérature
 
-Aucune publication ne rapporte d'efficacité du pibrentasvir contre le VHB. Les références ci-dessous sont les plus proches du sujet (VHB/VHC, sécurité, pharmacologie).
+Aucune des publications retrouvées ne teste pibrentasvir contre le VHB. Les plus pertinentes portent sur le VHC. Elles fournissent un contexte, mais pas de preuve de repositionnement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [29485084](https://pubmed.ncbi.nlm.nih.gov/29485084/) | 2018 | Revue | The Lancet. Infectious diseases | Commentaire sur la vaccination contre l'hépatite B après traitement de l'hépatite C (résumé non disponible) |
-| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Revue | World journal of gastroenterology | Prise en charge des hépatites virales B et C pédiatriques ; le traitement du VHB reste loin d'être curatif |
-| [31129632](https://pubmed.ncbi.nlm.nih.gov/31129632/) | 2019 | Rapport de cas | BMJ case reports | Lésion hépatique aiguë associée à G/P chez un patient VHC non cirrhotique sans co-infection VHB |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Étude rétrospective | Klinicka mikrobiologie a infekcni lekarstvi | Fréquence, efficacité et tolérance des traitements antiviraux des hépatites B et C chez l'enfant à Ostrava |
-| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Rapport de conférence | AIDS reviews | Compte rendu de la conférence internationale sur les hépatites virales 2017 (VHB et VHC) |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Étude transversale | Annals of hepatology | Comparaison internationale des prix des traitements des hépatites B et C |
-| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Étude rétrospective | Journal of viral hepatitis | Efficacité et sécurité de G/P chez 108 patients VHC avec insuffisance rénale sévère à Taïwan |
-| [31041789](https://pubmed.ncbi.nlm.nih.gov/31041789/) | 2019 | Revue | Seminars in liver disease | Retraitement des patients VHC en échec des antiviraux à action directe |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Revue | Clinical pharmacokinetics | Aspects pharmacocinétiques et pharmacodynamiques des traitements de l'hépatite C (mise à jour 2019) |
-| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Revue | The European journal of general practice | Diagnostic et traitement de l'hépatite C chronique |
-
----
+| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Cohorte | J Viral Hepat | Glécaprévir/pibrentasvir chez 108 patients VHC avec insuffisance rénale sévère (stade 4 ou 5) à Taïwan |
+| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Revue | Eur J Gen Pract | Diagnostic et traitement de l'hépatite C chronique |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Revue | World J Gastroenterol | Prise en charge des hépatites virales B et C pédiatriques ; le traitement du VHB reste non curatif |
+| [31041789](https://pubmed.ncbi.nlm.nih.gov/31041789/) | 2019 | Revue | Semin Liver Dis | Retraitement des patients VHC en échec des antiviraux à action directe |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Revue | Clin Pharmacokinet | Considérations pharmacocinétiques et pharmacodynamiques des traitements du VHC |
+| [30964552](https://pubmed.ncbi.nlm.nih.gov/30964552/) | 2019 | Préclinique/virologie | Hepatology | Voies d'évolution de la résistance du VHC aux inhibiteurs de protéase |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Compte rendu de conférence | AIDS Rev | Conférence internationale sur les hépatites virales 2017 |
+| [42127258](https://pubmed.ncbi.nlm.nih.gov/42127258/) | 2026 | Compte rendu de conférence | Top Antivir Med | CROI 2026 : avancées dans le traitement des hépatites virales, dont de nouveaux agents contre le VHB |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet | Granulés enrobés |
-| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé | Comprimé pelliculé |
-
-Titulaire des deux AMM : AbbVie Deutschland (Allemagne). Le texte de l'indication approuvée n'est pas renseigné dans les données reçues.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet (annulée) | Granulés enrobés | Non renseignée |
+| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
-
----
+Veuillez consulter la notice pour les informations de sécurité. Les données de mises en garde, de contre-indications et d'interactions médicamenteuses n'ont pas pu être obtenues pour ce rapport.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucune étude clinique ou préclinique ne teste le pibrentasvir contre le VHB, et il n'existe pas de cible plausible : le VHB n'a pas d'homologue de NS5A. Le score de 99,84 % semble être un artefact de proximité dans le graphe.
-- Les neuf autres indications prédites par le modèle sont également au niveau L5 (aucune preuve réelle) et en Hold.
+La prédiction pour l'hépatite B repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication la soutenant. Le mécanisme d'action de pibrentasvir, un inhibiteur de NS5A sans cible équivalente chez le VHB, ne plaide pas en faveur du repositionnement. De plus, les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice ANSM (mises en garde et contre-indications), lacune bloquante qui empêche le passage au criblage de sécurité S1
-- Données détaillées sur le mécanisme d'action (DrugBank)
-- Données in vitro d'activité anti-VHB (modèles cellulaires), seul moyen de lever le doute sur l'artefact de graphe
-- Texte de l'indication approuvée des AMM, pour documenter l'indication d'origine
-- Protocole de surveillance de la réactivation du VHB chez les patients co-infectés traités par antiviraux à action directe
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), actuellement bloquante pour le criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
+- Réaliser des études précliniques *in vitro* testant l'activité de pibrentasvir contre le VHB
+- Clarifier les raisons de l'annulation des AMM françaises
+
+### Remarque sur les autres indications prédites
+
+Aucune des autres indications prédites ne justifie une priorité plus élevée. Pour l'infection par le VIH (L4), les essais de phase 3 portent sur la guérison du VHC chez des patients co-infectés et ne démontrent pas d'effet anti-VIH. Les hépatites E et A, l'hépatite virale animale, les fièvres hémorragiques d'Omsk et de la forêt de Kyasanur, les infections virales animales (VIF, VIS) et le trouble neurodéveloppemental rare n'ont aucun lien mécanistique plausible ou aucune preuve disponible. Elles restent toutes en **Hold**.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

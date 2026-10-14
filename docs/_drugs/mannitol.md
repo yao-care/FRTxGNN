@@ -2,7 +2,7 @@
 layout: default
 title: Mannitol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 186
+nav_order: 472
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,95 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Mannitol : Du diurétique osmotique au syndrome néphrogénique d'antidiurèse inappropriée
+# Mannitol : Du Œdème Cérébral au Syndrome Néphrogénique d'Antidiurèse Inappropriée
 
 ## Résumé en Une Phrase
 
-Le mannitol est un diurétique osmotique, commercialisé en France sous forme de solutions pour perfusion.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée (SNAI)**, mais **aucun essai clinique** ne soutient cette direction et la seule publication associée est une revue générale sur l'hyponatrémie, sans lien thérapeutique direct.
-Cette prédiction repose donc uniquement sur la proximité du médicament et de la maladie dans le graphe de connaissances.
+Le mannitol est un agent osmotique, initialement utilisé pour le traitement de l'œdème cérébral, de l'hypertension intracrânienne et de l'hypertension oculaire.
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée**, mais **aucun essai clinique** n'est enregistré et seule **1 publication** (une revue générale sur l'hyponatrémie, sans donnée propre au mannitol) est associée à cette prédiction.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Œdème cérébral, hypertension intracrânienne, hypertension oculaire (données du graphe de connaissances ; aucun texte d'indication d'AMM disponible) |
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
 | Score de Prédiction TxGNN | 99,97 % |
-| Niveau de Preuve | L5 (le jeu de données indiquait L4, mais la seule publication ne teste pas le mannitol dans cette indication) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 9 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 9 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le mannitol est un diurétique osmotique : il augmente l'osmolarité plasmatique et tubulaire, ce qui entraîne une diurèse osmotique. L'indication originale n'est pas renseignée dans les AMM françaises fournies.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le mannitol est un agent osmotique qui favorise la diurèse hydrique et pourrait, en théorie, faire augmenter la natrémie.
 
-Le lien avec le SNAI est faible. Cette maladie est causée par un gain de fonction du récepteur V2 de la vasopressine, un mécanisme sur lequel le mannitol n'agit pas. Son seul point commun avec le SNAI est d'apparaître dans les discussions de diagnostic différentiel de l'hyponatrémie. Le score élevé reflète très probablement une proximité dans le graphe autour de l'équilibre hydro-électrolytique, et non une activité pharmacologique démontrée.
+Cependant, le syndrome néphrogénique d'antidiurèse inappropriée est causé par des mutations avec gain de fonction du récepteur V2 de la vasopressine (AVPR2). Le mannitol n'agit pas sur cette voie. La seule publication associée est une revue générale sur les pièges de l'évaluation de l'hyponatrémie, qui ne contient aucune donnée spécifique au mannitol.
 
-Les autres prédictions du même rang (pathologies pulmonaires, hyperthermie maligne, paralysies périodiques, myopathies liées à RYR1, diabète insipide néphrogénique) sont également non étayées. Plusieurs sont des artéfacts de formulation. Par exemple, les formes intraveineuses du dantrolène contiennent du mannitol comme excipient. Pour le diabète insipide néphrogénique, le mannitol aggraverait plutôt la polyurie.
+Le score TxGNN élevé reflète donc une prédiction du modèle, et non un signal thérapeutique étayé. Le lien mécanistique est faible.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Revue | Eur J Intern Med | Dix pièges courants dans l'évaluation de l'hyponatrémie. Aborde le diagnostic et la prise en charge, sans démontrer d'effet thérapeutique du mannitol sur le SNAI. |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Revue | European Journal of Internal Medicine | Dix pièges courants dans l'évaluation de l'hyponatrémie ; aucune donnée spécifique au mannitol |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62126714 | Mannitol 10 % Aguettant | Solution pour perfusion | Aguettant |
-| 68274328 | Mannitol B. Braun 10 pour cent | Solution pour perfusion | B. Braun Medical |
-| 66972245 | Mannitol Lavoisier 20 pour cent | Solution pour perfusion | Laboratoires Chaix et du Marais |
-| 62093602 | Mannitol 20 pour cent B. Braun | Solution injectable hypertonique pour perfusion | B. Braun Medical |
-| 69361469 | Mannitol Biosedra 10 pour cent | Solution pour perfusion | Fresenius Kabi France |
+| 62126714 | MANNITOL 10 % AGUETTANT | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 68274328 | MANNITOL B. BRAUN 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 66972245 | MANNITOL LAVOISIER 20 POUR CENT | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 62093602 | MANNITOL 20 POUR CENT B. BRAUN | Solution injectable hypertonique pour perfusion | Non renseignée (AMM annulée) |
+| 69361469 | MANNITOL BIOSEDRA 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM annulée) |
 
-Le texte des indications approuvées n'est pas renseigné dans les données reçues.
+Au total, 9 AMM sont recensées, toutes annulées ; seules les 5 premières sont présentées ici.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : insuffisance hépatique, maladie hépatique, encéphalopathie et coma hépatiques, anurie, altération de la fonction rénale, œdème pulmonaire, hémorragie intracrânienne, porphyries, thrombopénie, neutropénie, agranulocytose, anémies, syndromes d'apnée du sommeil, maladies de la vésicule biliaire, troubles liés à l'usage de substances et troubles anxieux ou névrotiques.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales :
+  - Majeure : amikacine.
+  - Modérées : lamivudine, formotérol, salbutamol, arformotérol, amifostine, bénazépril, captopril, canagliflozine, dapagliflozine, carbamazépine, cisatracurium, citalopram, desvenlafaxine, bisacodyl, acide picosulfurique, polyéthylène glycol, acide iothalamique, diatrizoate.
+  - Mineure : doxycycline.
+- **Point d'attention propre à la prédiction** : en raison de son effet diurétique osmotique, le mannitol pourrait aggraver la polyurie et la perte d'eau libre dans certaines pathologies, et provoquer une surcharge volémique ou un œdème pulmonaire.
+
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Il n'existe ni essai clinique ni donnée thérapeutique directe pour le mannitol dans le SNAI. Le mécanisme connu du mannitol (diurèse osmotique) n'a pas de lien avec un gain de fonction du récepteur V2. La prédiction résulte d'une inférence du graphe de connaissances.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, une seule revue générale sans lien direct avec le mannitol, et un mécanisme d'action incompatible avec la physiopathologie (mutations activatrices d'AVPR2).
+- Toutes les AMM françaises sont annulées, et les données de sécurité officielles sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice ANSM (mises en garde et contre-indications), indispensable pour le criblage de sécurité
-- Données détaillées sur le mécanisme d'action (via l'API DrugBank)
-- Indications approuvées des AMM françaises
-- Une justification pharmacologique explicite reliant le mannitol au SNAI, avant toute étude
-- Une revue experte des prédictions du même rang, pour confirmer qu'il s'agit d'artéfacts du graphe
+- Données détaillées sur le mécanisme d'action (MOA) du mannitol
+- Mises en garde et contre-indications issues de la notice de l'ANSM
+- Preuves précliniques ou cliniques directes de l'effet du mannitol sur cette pathologie
+- Évaluation de l'intérêt de poursuivre, au vu de l'absence de lien mécanistique plausible
 
-*Ces résultats sont fournis à titre de recherche et ne constituent pas un avis médical. Toute piste de repositionnement doit être validée cliniquement avant application.*
+**Remarque sur les autres prédictions :** les neuf autres indications prédites (cœur pulmonaire aigu, hyperthermie maligne, paralysies périodiques, myopathies à cores, diabète insipide néphrogénique) sont également en Hold. Plusieurs associations semblent provenir du rôle du mannitol comme excipient (par exemple dans les formulations de dantrolène) plutôt que d'un effet thérapeutique. Pour le diabète insipide néphrogénique, le mannitol est même mécanistiquement contre-indiqué.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

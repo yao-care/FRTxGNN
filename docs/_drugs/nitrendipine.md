@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nitrendipine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 217
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 541
+evidence_level: L3
 indication_count: 4
 ---
 
 # Nitrendipine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **4** 
+Niveau de preuve: **L3** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,82 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Nitrendipine : D'une Indication Originale Non Renseignée au Trouble Migraineux
+# Nitrendipine : De l'hypertension artérielle à l'hypertension pulmonaire
 
 ## Résumé en Une Phrase
 
-Nitrendipine est un inhibiteur calcique de la famille des dihydropyridines (bloqueur des canaux calciques de type L). Son indication originale n'est pas documentée dans les données fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble migraineux**, mais **aucun essai clinique** et seulement **3 publications** sont associés, et aucune ne porte directement sur la nitrendipine dans la migraine.
-
----
+La nitrendipine est un inhibiteur calcique de la classe des dihydropyridines, utilisé à l'origine dans le traitement de l'hypertension artérielle légère à modérée.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertension pulmonaire** (prédiction retenue : la mieux documentée parmi les quatre candidates), avec **1 essai clinique** (non pertinent) et **20 publications** associées, dont seules quelques petites études hémodynamiques anciennes concernent directement la nitrendipine.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Trouble migraineux (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,42 % |
-| Niveau de Preuve | L5 (prédiction du modèle uniquement, aucune étude réelle sur la nitrendipine dans la migraine) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Indication Originale | Non précisée dans les AMM (texte d'indication vide) ; usage connu : hypertension artérielle légère à modérée |
+| Nouvelle Indication Prédite | Hypertension pulmonaire |
+| Score de Prédiction TxGNN | 99,14 % |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes deux annulées) |
 | Décision Recommandée | Hold |
 
----
+Remarque : les deux premières prédictions du modèle (migraine, score 99,42 % ; migraine avec aura du tronc cérébral, 99,29 %) n'ont aucune preuve spécifique à la nitrendipine (niveau L5). L'hypertension pulmonaire (L3) et l'angor de Prinzmetal (99,10 %, L3) sont les mieux étayées.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, la nitrendipine est un inhibiteur calcique dihydropyridinique lipophile, qui bloque les canaux calciques de type L. Ses indications approuvées ne sont pas renseignées dans les textes d'AMM fournis.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la nitrendipine fait partie des dihydropyridines, bloqueurs des canaux calciques de type L. Son efficacité dans l'hypertension systémique est établie. Les données de pharmacologie compilées indiquent des interactions avec plusieurs canaux calciques voltage-dépendants (Cav1.1 à Cav1.4) et avec le canal potassique KCa3.1.
 
-Le lien avec la migraine repose sur un raisonnement de classe. La modulation des canaux calciques a été explorée dans la prophylaxie de la migraine avec d'autres molécules, comme la flunarizine et le vérapamil. Le mécanisme pourrait donc être applicable, mais aucune preuve spécifique à la nitrendipine n'a été fournie.
+En bloquant l'entrée de calcium dans le muscle lisse vasculaire, la nitrendipine provoque une vasodilatation et peut réduire la résistance vasculaire. Ce mécanisme est transposable à la circulation pulmonaire. Une étude préclinique chez le rat indique une atténuation du remodelage vasculaire pulmonaire et de l'hypertrophie ventriculaire droite induits par l'hypoxie intermittente. De petites études hémodynamiques chez des patients atteints d'hypertension pulmonaire précapillaire liée à une fibrose pulmonaire rapportent une baisse de la pression artérielle pulmonaire.
 
-Le score TxGNN élevé (0,994) reste une prédiction informatique. Il ne remplace pas une preuve clinique. Le dossier ne renseigne pas non plus la similarité avec l'indication originale.
-
----
+Ces données sont cependant anciennes (1986-1994), de petite taille et non randomisées. Le score élevé du modèle reflète en partie un effet de classe pharmacologique et non des preuves propres à la nitrendipine.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
-
----
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT04330300](https://clinicaltrials.gov/study/NCT04330300) | Phase 4 | Suspendu | 2414 | Essai CORONACION sur les IEC/ARA II dans la COVID-19 ; ne teste pas la nitrendipine dans l'hypertension pulmonaire (correspondance fortuite) |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [15449971](https://pubmed.ncbi.nlm.nih.gov/15449971/) | 2004 | Revue | Am J Cardiovasc Drugs | Interactions entre le jus de pamplemousse et les médicaments cardiovasculaires : inactivation du CYP3A4 intestinal, biodisponibilité orale accrue. Sans lien direct avec la migraine. |
-| [3319491](https://pubmed.ncbi.nlm.nih.gov/3319491/) | 1987 | Revue | Drugs | Revue des dihydropyridines de « deuxième génération » (dont la nitrendipine) : pharmacologie, effets hémodynamiques, indications cliniques. Migraine non abordée dans l'extrait disponible. |
-| [9760558](https://pubmed.ncbi.nlm.nih.gov/9760558/) | 1998 | Rapport de cas | Neurol Neurochir Pol | Cas d'une femme de 35 ans avec migraine abdominale (douleurs nocturnes, nausées, diarrhée). Ne concerne pas la nitrendipine. |
-
-Ces trois références ne soutiennent pas directement la prédiction. Leur pertinence est encore à évaluer.
-
----
+| [2013178](https://pubmed.ncbi.nlm.nih.gov/2013178/) | 1991 | Étude hémodynamique clinique | Clin Cardiol | Effets aigus et chroniques de la nitrendipine : baisse de la pression artérielle pulmonaire (au repos et à l'effort) chez 11 patients avec fibrose pulmonaire |
+| [2468866](https://pubmed.ncbi.nlm.nih.gov/2468866/) | 1988 | Étude hémodynamique clinique | J Cardiovasc Pharmacol | Nitrendipine sublinguale 5 mg chez 10 patients : baisse des pressions artérielle et cardiaques droites |
+| [1339619](https://pubmed.ncbi.nlm.nih.gov/1339619/) | 1992 | Étude comparative | Zhonghua Jie He He Hu Xi Za Zhi | Captopril et nitrendipine réduisent significativement la pression artérielle pulmonaire chez des porcs en hypertension pulmonaire hypoxique aiguë |
+| [2937355](https://pubmed.ncbi.nlm.nih.gov/2937355/) | 1986 | Préclinique (animal) | Am Rev Respir Dis | Atténuation du remodelage vasculaire pulmonaire et de l'hypertrophie ventriculaire droite chez le rat (hypoxie intermittente) |
+| [7712585](https://pubmed.ncbi.nlm.nih.gov/7712585/) | 1994 | Préclinique (animal) | Zhonghua Jie He He Hu Xi Za Zhi | Nitrendipine, nifédipine et L-arginine préviennent l'hypertension pulmonaire hypoxique intermittente chez le rat |
+| [3049099](https://pubmed.ncbi.nlm.nih.gov/3049099/) | 1988 | Revue | Eur Heart J | Mécanisme d'action des antagonistes calciques dans le cœur et le muscle lisse vasculaire, y compris les artères pulmonaires |
+| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Revue | Cardiovasc Drugs Ther | Efficacité comparée des antagonistes calciques dans l'hypertension et les arythmies |
+| [2693846](https://pubmed.ncbi.nlm.nih.gov/2693846/) | 1989 | Revue | Magnesium | Bases pharmacologiques de l'usage des antagonistes calciques dans l'hypertension |
+| [9646008](https://pubmed.ncbi.nlm.nih.gov/9646008/) | 1998 | Revue | Clin Pharmacokinet | Pharmacocinétique clinique des vasodilatateurs |
+| [8762482](https://pubmed.ncbi.nlm.nih.gov/8762482/) | 1995 | Préclinique (porc) | Zhonghua Jie He He Hu Xi Za Zhi | Rôle de l'endothéline dans l'hypertension pulmonaire hypoxique, avec injection de nitrendipine |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 68126062 | NITRENDIPINE VIATRIS 20 mg, comprimé sécable | Comprimé sécable |
-| 67688899 | NITRENDIPINE VIATRIS 10 mg, comprimé | Comprimé |
-
-Les deux AMM appartiennent à VIATRIS SANTE. Le texte des indications approuvées n'est pas renseigné dans les données.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 68126062 | NITRENDIPINE VIATRIS 20 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
+| 67688899 | NITRENDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
----
+Les données de pharmacologie compilées signalent uniquement des cibles moléculaires (canaux calciques Cav1.1 à Cav1.4, KCa3.1) et non des interactions médicamenteuses cliniques. Rappel général sur la classe : la littérature compilée mentionne une interaction entre le jus de pamplemousse et les médicaments cardiovasculaires (inhibition du CYP3A4 intestinal, augmentation de la biodisponibilité orale), à confirmer pour la nitrendipine dans la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle et sur un raisonnement de classe (inhibiteurs calciques). Il n'existe ni essai clinique ni publication spécifique à la nitrendipine dans la migraine.
-- À titre de comparaison, l'angor de Prinzmetal (score 99,10 %) est mieux étayé, avec une étude clinique spécifique à la nitrendipine (PMID 1920816, 21 patients, insu simple). Il reste toutefois au niveau L3, sans ECR identifié.
+- Les preuves se limitent à de petites études anciennes, non randomisées, et à des données précliniques ; aucun essai clinique pertinent n'est enregistré. Les deux AMM françaises sont annulées, des alternatives approuvées existent, et les données de sécurité de l'étiquetage sont absentes (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice ANSM (mises en garde, contre-indications), élément bloquant pour le criblage de sécurité
-- Données de mécanisme d'action depuis DrugBank
-- Preuves spécifiques à la nitrendipine dans la migraine (littérature ciblée, essais)
-- Analyse de similarité avec l'indication originale et de compatibilité des voies d'administration
-- Textes des indications approuvées des deux AMM
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Toute piste de repositionnement nécessite une validation clinique.*
+- Récupérer la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
+- Obtenir les données détaillées de mécanisme d'action (DrugBank)
+- Réaliser une revue systématique des études hémodynamiques dans l'hypertension pulmonaire précapillaire
+- Définir un essai exploratoire contrôlé, avec comparaison aux traitements actuels de l'hypertension pulmonaire
+- Évaluer la faisabilité d'approvisionnement, la voie d'administration et le statut réglementaire, l'AMM étant annulée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

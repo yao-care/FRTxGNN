@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trastuzumab Emtansine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 324
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 781
+evidence_level: L4
 indication_count: 4
 ---
 
 # Trastuzumab Emtansine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **4** 
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,110 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Trastuzumab emtansine : Du Cancer du Sein HER2-positif au Cancer du Sein à Récepteurs de Progestérone Positifs
+# Trastuzumab emtansine : Du cancer du sein HER2 positif au cancer du sein à récepteurs de la progestérone positifs
 
 ## Résumé en Une Phrase
 
-Le trastuzumab emtansine (T-DM1, commercialisé sous le nom de Kadcyla) est un conjugué anticorps-médicament ciblant HER2, déjà utilisé dans le cancer du sein HER2-positif.
-Le modèle TxGNN le prédit comme potentiellement efficace dans le **cancer du sein à récepteurs de progestérone positifs (RP+)**, avec **4 essais cliniques** et **15 publications** associés.
-Cette prédiction correspond à un sous-type qui recoupe l'indication déjà autorisée. Il ne s'agit donc pas d'un véritable repositionnement.
+Le trastuzumab emtansine (T-DM1) est un conjugué anticorps-médicament dirigé contre HER2, initialement utilisé dans le traitement du cancer du sein HER2 positif.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **cancer du sein à récepteurs de la progestérone positifs**, mais **aucun essai clinique** n'y est rattaché et la littérature disponible (**15 publications**) est essentiellement indirecte (revues, recommandations, cas cliniques).
+Cette prédiction correspond en grande partie à un sous-groupe de l'indication d'origine (tumeurs HR+/HER2+), plutôt qu'à un véritable repositionnement.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer du sein HER2-positif (déduit de l'analyse du pack ; le texte d'indication des AMM est vide) |
-| Nouvelle Indication Prédite | Cancer du sein à récepteurs de progestérone positifs |
+| Indication Originale | Cancer du sein HER2 positif (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
+| Nouvelle Indication Prédite | Cancer du sein à récepteurs de la progestérone positifs |
 | Score de Prédiction TxGNN | 99,82 % |
-| Niveau de Preuve | L2 (niveau attribué dans le pack ; preuve directe limitée, voir ci-dessous) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision Recommandée | Proceed with Guardrails |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes annulées) |
+| Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées de mécanisme d'action ne sont pas renseignées dans la fiche DrugBank. Le pack d'évidence décrit toutefois le T-DM1 comme un anticorps-médicament composé de trastuzumab (anticorps anti-HER2) lié à la DM1, un inhibiteur des microtubules. Son activité dépend de l'expression de HER2 et non du statut des récepteurs de progestérone.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le trastuzumab emtansine est un conjugué anticorps-médicament : l'anticorps (trastuzumab) se fixe sur le récepteur HER2 et délivre dans la cellule tumorale une charge cytotoxique (DM1, un dérivé de la maytansine). Son efficacité dans le cancer du sein HER2 positif est établie.
 
-Le cancer du sein RP+ est un sous-groupe défini par les récepteurs hormonaux. Il chevauche largement le cancer du sein HER2-positif, qui est déjà le cadre d'utilisation approuvé. Le score TxGNN très élevé reflète donc surtout ce recoupement d'étiquettes de sous-types, et non un signal nouveau de repositionnement.
+Une part importante des tumeurs HER2 positives expriment aussi des récepteurs hormonaux (profil HR+/HER2+). L'effet du médicament dépend donc du statut HER2 et non du statut en récepteurs de la progestérone. Il ne s'agit pas d'un nouveau mécanisme : la prédiction recouvre un sous-groupe de l'indication déjà connue. Le score très élevé du modèle (0,998) reflète probablement ce chevauchement.
 
-Le mécanisme n'est applicable que si la tumeur est confirmée HER2-positive. Pour les tumeurs RP+ mais HER2-négatives, il n'y a pas de justification mécanistique. Les autres indications prédites (par exemple le cancer du sein RP-négatif) suivent la même logique.
+Les autres prédictions du modèle appellent à la prudence : pour le sous-type « normal breast-like » et pour le luminal A (le plus souvent HER2 négatif), le mécanisme ciblant HER2 n'apporte pas de justification claire.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Actif, ne recrute plus | 164 | T-DM1 + pertuzumab en préopératoire dans le cancer du sein précoce HER2-positif ; étude de l'impact de l'hétérogénéité de HER2. Aucun résultat dans le pack. |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | Non applicable | Terminé | 1151 | Étude rétrospective non interventionnelle sur la prévalence de HER2-low et les schémas de traitement. Contexte épidémiologique uniquement, pas de preuve d'efficacité du T-DM1. |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Terminé | 454 | IMpassion050 : atezolizumab vs placebo avec chimiothérapie néoadjuvante puis paclitaxel + trastuzumab + pertuzumab dans le cancer du sein précoce HER2-positif. Le rôle du T-DM1 n'est pas confirmé. |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Arrêté prématurément | 139 | DECRESCENDO : désescalade de la chimiothérapie adjuvante dans le cancer du sein précoce HER2-positif, RE-négatif, sans atteinte ganglionnaire. Applicabilité limitée aux tumeurs RP+. |
+Aucun essai clinique associé enregistré actuellement pour cette indication.
 
-Aucun de ces essais ne confirme directement l'efficacité du T-DM1 dans une population RP+.
+*Pour information :* pour l'indication voisine « cancer du sein à récepteurs de la progestérone négatifs », un essai de phase 2 ([NCT04675827](https://clinicaltrials.gov/study/NCT04675827), DECRESCENDO, 139 patientes, terminé) porte sur la désescalade de la chimiothérapie adjuvante dans le cancer du sein précoce HER2 positif, RE négatif, sans atteinte ganglionnaire. Les données ne confirment ni le rôle du T-DM1 ni les résultats.
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Lignes directrices (ASCO) | J Clin Oncol | Mise à jour des recommandations sur le traitement systémique du cancer du sein avancé HER2-positif |
-| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | Lignes directrices (ASCO) | J Clin Oncol | Mise à jour 2018 des recommandations, fondée sur une revue systématique ciblée de 622 articles |
-| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | Lignes directrices (ASCO) | J Clin Oncol | Recommandations initiales pour le cancer du sein avancé HER2-positif |
-| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Lignes directrices (biomarqueurs, EGTM) | Eur J Cancer | Les RE et RP guident l'hormonothérapie. La détermination de HER2 est obligatoire pour toutes les thérapies anti-HER2, dont le T-DM1. |
-| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Revue | Pharmacol Res | Inhibiteurs ciblés et cytotoxiques dans le cancer du sein ; la prise en charge dépend du statut HER2, RH, RE et RP |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Revue | Future Oncol | Tendances dans le traitement HR+/HER2+ ; citation du T-DM1 et du neratinib parmi les nouvelles thérapies anti-HER2 |
-| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Revue | Clin Adv Hematol Oncol | Nouveautés dans le cancer du sein métastatique, classé selon RE, RP et HER2 |
-| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | Cohorte en vie réelle | Sci Rep | Valeur pronostique du gain de positivité HER2 dans le cancer du sein métastatique (essai ChangeHER), patients traités par pertuzumab et/ou T-DM1 |
-| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | Rapport de cas | BMJ Case Rep | Conversion des récepteurs (jusqu'à 32 % des patientes) pouvant rendre le traitement inefficace sans biomarqueur adapté |
-| [25873876](https://pubmed.ncbi.nlm.nih.gov/25873876/) | 2015 | Rapport de cas | Case Rep Oncol | T-DM1 à dose réduite, actif et bien toléré en cas de dysfonction hépatique aiguë |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Recommandation | J Clin Oncol | Mise à jour des recommandations ASCO sur le traitement systémique du cancer du sein avancé HER2 positif |
+| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Recommandation | Eur J Cancer | Recommandations EGTM : la détermination de HER2 est indispensable avant tout traitement anti-HER2, dont le T-DM1 |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Revue | Future Oncol | Tendances thérapeutiques dans le cancer du sein HR+/HER2+, incluant le T-DM1 et le neratinib |
+| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | Cohorte | Sci Rep | Valeur pronostique du gain de positivité HER2 dans le cancer du sein métastatique traité par pertuzumab et/ou T-DM1 |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Revue | Pharmacol Res | Panorama des inhibiteurs ciblés et cytotoxiques dans le cancer du sein selon HER2, RH, RE et RP |
+| [41499317](https://pubmed.ncbi.nlm.nih.gov/41499317/) | 2026 | Cohorte | Oncology | Tendances de prescription du neratinib adjuvant dans le cancer du sein HR+/HER2+ |
+| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Revue | Clin Adv Hematol Oncol | Nouveautés dans le cancer du sein métastatique |
+| [25873876](https://pubmed.ncbi.nlm.nih.gov/25873876/) | 2015 | Cas clinique | Case Rep Oncol | T-DM1 à dose réduite, actif et bien toléré lors d'une insuffisance hépatique aiguë |
+| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Cas clinique | Front Oncol | Pyrotinib et vinorelbine métronomique dans un cancer du sein HER2 positif avec atteinte leptoméningée |
+| [33482449](https://pubmed.ncbi.nlm.nih.gov/33482449/) | 2021 | Cas clinique | Int J Surg Case Rep | Prise en charge d'un cancer du sein métastatique chez une patiente hémodialysée |
+
+Ces publications constituent des preuves indirectes : aucune ne démontre spécifiquement l'efficacité du T-DM1 selon le statut en récepteurs de la progestérone.
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62170212 | KADCYLA 100 mg | Poudre pour solution à diluer pour perfusion | Roche Registration (Allemagne) |
-| 64565603 | KADCYLA 160 mg | Poudre pour solution à diluer pour perfusion | Roche Registration (Allemagne) |
+| 62170212 | KADCYLA 100 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 64565603 | KADCYLA 160 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
 
-Le texte des indications approuvées n'est pas renseigné pour ces deux AMM.
+---
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée : conjugué anticorps-médicament (trastuzumab + inhibiteur des microtubules DM1) |
-| Risque de Myélosuppression, Émétogénicité, Éléments de Surveillance, Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification de Cytotoxicité | Thérapie ciblée (conjugué anticorps-médicament avec charge cytotoxique de type maytansinoïde) |
+| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | Veuillez consulter la notice (une adaptation de dose a été décrite en cas d'atteinte hépatique, à titre de cas clinique) |
+| Protection de Manipulation | Appliquer les règles de manipulation des médicaments cytotoxiques |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : 100 interactions ont été recensées. Parmi les principales :
+  - **Majeures** : acide acétylsalicylique, déférasirox, abciximab, apixaban, argatroban, bétrixaban, bivalirudine, cangrelor, caplacizumab, cilostazol (principalement des médicaments augmentant le risque hémorragique).
+  - **Modérées** : clarithromycine, dexfenfluramine, fenfluramine, métronidazole, naltrexone, rosuvastatine, sibutramine, simvastatine, tinidazole, cobicistat.
+
+Veuillez consulter la notice pour les mises en garde et contre-indications.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Le T-DM1 agit sur HER2 quel que soit le statut RP. Le cancer du sein RP+ HER2-positif relève déjà du champ d'utilisation approuvé, et la littérature (lignes directrices ASCO) soutient cet usage.
-- Le score élevé traduit un recoupement de sous-types plutôt qu'une preuve directe. Les quatre essais liés n'établissent pas d'efficacité du T-DM1 spécifique aux tumeurs RP+.
-
-**Garde-fou principal :** limiter l'usage aux tumeurs dont la positivité HER2 est confirmée, et refaire le test à la progression en raison de la conversion des récepteurs.
+- La prédiction relève surtout d'un sous-groupe de l'indication déjà établie (HR+/HER2+) ; aucun essai n'est lié à cette indication et la littérature est indirecte, d'où un niveau L4. Les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
-- Les données détaillées de mécanisme d'action depuis DrugBank
-- La vérification de la présence du T-DM1 dans les essais NCT02326974 et NCT03726879
-- Des analyses stratifiées selon le statut RP dans les essais T-DM1 existants
-- Le texte des indications approuvées des deux AMM françaises
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Mises en garde et contre-indications de la notice ANSM (données bloquantes)
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Analyses de sous-groupes selon le statut des récepteurs hormonaux dans les essais du T-DM1 (par exemple DESTINY-Breast03 et études comparables)
+- Clarification du statut réglementaire en France (AMM annulées) et de la disponibilité du produit
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

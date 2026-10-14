@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorpromazine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 75
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 164
+evidence_level: L4
 indication_count: 10
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,76 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Chlorpromazine : De l'indication d'origine (non renseignée) à la dystrophie rétinienne avec ou sans anomalies extraoculaires
+# Chlorpromazine : De la schizophrénie à la dystrophie rétinienne (avec ou sans anomalies extraoculaires)
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Les données de l'ANSM ne précisent pas l'indication d'origine de la chlorpromazine (commercialisée en France sous le nom LARGACTIL). Ce médicament est connu comme antipsychotique de première génération.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extraoculaires**, avec un score élevé (99,95 %).
-Cette prédiction repose uniquement sur le graphe de connaissances : **aucun essai clinique** n'est enregistré, et les **15 publications** retrouvées ne mentionnent pas la chlorpromazine.
+La chlorpromazine est un antipsychotique de la famille des phénothiazines, initialement utilisé pour traiter la schizophrénie et d'autres troubles psychotiques.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extraoculaires**, mais **aucun essai clinique** n'est enregistré et **une seule publication** est disponible. Celle-ci décrit une toxicité (réactions phototoxiques) et non un bénéfice thérapeutique.
 
----
-
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données d'AMM de l'ANSM |
-| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
-| Score de Prédiction TxGNN | 99,95 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision Recommandée | Hold |
+| Indication Originale | Schizophrénie et troubles psychotiques (le texte d'indication des AMM françaises n'est pas renseigné ; indication issue du graphe de connaissances) |
+| Nouvelle Indication Predite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
+| Score de Prediction TxGNN | 99,95 % |
+| Niveau de Preuve | L4 |
+| Statut de Marche en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes deux annulées) |
+| Decision Recommandee | Hold |
 
----
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la chlorpromazine est un antagoniste des récepteurs dopaminergiques D2, dont l'efficacité dans la schizophrénie et les troubles psychotiques est établie.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La chlorpromazine appartient à la classe des antipsychotiques de première génération, dont l'action repose principalement sur l'antagonisme des récepteurs dopaminergiques D2. Cette information est une connaissance générale et ne figure pas dans le dossier fourni.
+Pour la dystrophie rétinienne, la prédiction semble peu soutenue sur le plan mécanistique. La seule publication disponible (JAMA, 1967) décrit des réactions phototoxiques induites par de fortes doses de chlorpromazine et de thioridazine, c'est-à-dire un effet indésirable. Le score élevé du modèle reflète probablement une association dans le graphe de connaissances avec la pathologie rétinienne, plus cohérente avec une toxicité médicamenteuse qu'avec un potentiel thérapeutique.
 
-Aucun lien mécanistique n'est étayé entre ce mécanisme et la dystrophie rétinienne. Le score élevé (99,95 %) est une prédiction issue du graphe uniquement. Il ne reflète pas une preuve pharmacologique ou clinique.
+Aucun mécanisme thérapeutique plausible n'est actuellement étayé. Cette prédiction doit donc être considérée comme un signal du modèle, et non comme une piste de repositionnement crédible en l'état.
 
-Les 15 publications retrouvées traitent d'anomalies oculaires ou orbitaires congénitales. Elles correspondent au nom de la maladie, sans traiter de la chlorpromazine. Elles ne constituent donc pas une preuve en faveur du médicament.
-
----
-
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la littérature
 
-## Preuves de la Littérature
-
-Aucune de ces publications ne mentionne la chlorpromazine. Il s'agit de correspondances par mots-clés sur la maladie.
-
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Revue | Seminars in Ultrasound, CT, and MR | Infections orbitaires : sinusite comme cause principale, signes cliniques et agents en cause |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Revue | Seminars in Neurology | Démarche systématique d'évaluation de la diplopie |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Revue | Pediatric Radiology | Diagnostic différentiel et imagerie des lésions oculaires pédiatriques |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Revue | Taiwan Journal of Ophthalmology | Anomalies congénitales de la forme du cristallin |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Revue | Klinische Monatsblätter für Augenheilkunde | Ptosis congénital : formes simples et compliquées, examen nécessaire |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Revue | Documenta Ophthalmologica | Complexe du syndrome de Wagner-Stickler : dégénérescence vitréo-rétinienne et manifestations extraoculaires |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Cohorte | International Journal of Molecular Sciences | Anomalies de la tête du nerf optique et de la rétine dans la fibrose congénitale des muscles extraoculaires |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Revue | Journal of Binocular Vision and Ocular Motility | Ophtalmoplégies et troubles congénitaux de la dénervation crânienne |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Revue | American Journal of Ophthalmology | Pathogenèse et traitement de la maculopathie associée aux anomalies cavitaires de la papille |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Rapport de cas | American Journal of Ophthalmology | Deux cas de cryptophtalmie unilatérale |
+| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Rapport de cas / observationnel (toxicité) | JAMA | Réactions phototoxiques induites par de fortes doses de chlorpromazine et de thioridazine ; effet indésirable, pas de bénéfice thérapeutique (résumé non disponible) |
 
----
-
-## Informations de Marché en France
+## Informations de marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62184888 | LARGACTIL 25 mg/5 ml, solution injectable en ampoule | Solution injectable | Non précisée dans les données |
-| 68513504 | LARGACTIL 4 POUR CENT, solution buvable en gouttes | Solution buvable (gouttes) | Non précisée dans les données |
+| 62184888 | LARGACTIL 25 mg/5 ml, solution injectable en ampoule (annulée) | Solution injectable | Non renseignée |
+| 68513504 | LARGACTIL 4 POUR CENT, solution buvable en gouttes (annulée) | Solution buvable en gouttes | Non renseignée |
 
-Les deux AMM sont détenues par NEURAXPHARM FRANCE.
+## Considérations de sécurité
 
----
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : hypotension orthostatique, syndrome du QT long (y compris familial), torsades de pointes, arrêt cardiaque soudain, maladies de la conduction cardiaque, infarctus du myocarde, épilepsie, maladies des noyaux gris centraux, dystonie focale de la main, blépharospasme, maladie hépatique, maladie de la vésicule biliaire, thrombopénie, neutropénie, agranulocytose, leucopénie, anémie, hémoglobinopathie, hyperglycémie, hypertrophie bénigne de la prostate, obésité, carcinome mammaire féminin, abus/dépendance de substances, atrophie multisystématisée, syndrome de tachycardie orthostatique posturale.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales, deux sont de niveau **majeur** (bupropion, morphine). Les autres, de niveau modéré, concernent notamment des antidiabétiques (metformine, pioglitazone, alogliptine, canagliflozine, chlorpropamide, acarbose, albiglutide), des anticholinergiques (atropine, hyoscyamine, glycopyrronium), la loperamide, l'épinéphrine, l'hydrocortisone, l'amphotéricine B, la famotidine, la lorcaserine et le bisacodyl.
 
-## Considérations de Sécurité
+Les mises en garde de la notice ne sont pas disponibles dans les données compilées ; veuillez consulter la notice pour les informations de sécurité complètes.
 
-Veuillez consulter la notice pour les informations de sécurité.
-
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5). Il n'y a ni essai clinique, ni publication portant sur la chlorpromazine, ni mécanisme plausible pour la dystrophie rétinienne.
-- Parmi les 10 indications prédites, aucune autre n'a de preuve solide. Seule la **schizophrénie à début précoce** (L3, 1 étude observationnelle et 8 publications) est cohérente avec l'antagonisme D2. Elle correspond probablement à une extension de l'usage antipsychotique connu, et non à un véritable repositionnement.
+- Le score du modèle est très élevé, mais la seule publication décrit une toxicité (phototoxicité) et non un bénéfice. Aucun essai clinique n'existe et aucun mécanisme thérapeutique plausible n'est identifié.
+- Le profil de sécurité (cardiaque, hématologique, neurologique) et l'annulation des deux AMM françaises s'ajoutent aux réserves.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice de l'ANSM (indications, mises en garde, contre-indications), car ces données manquent et bloquent le criblage de sécurité.
-- Compléter les données sur le mécanisme d'action via DrugBank.
-- Réorienter l'évaluation vers la schizophrénie à début précoce : revue des essais randomisés pédiatriques et des données de sécurité (symptômes extrapyramidaux, sédation).
-- Ne poursuivre la dystrophie rétinienne que si une étude préclinique ou mécanistique spécifique est identifiée.
+- Les mises en garde et contre-indications officielles de la notice (ANSM), actuellement manquantes et bloquantes pour l'étape de sécurité
+- Des données détaillées sur le mécanisme d'action (DrugBank)
+- Des données précliniques ou mécanistiques démontrant un effet bénéfique, et non toxique, dans les dystrophies rétiniennes
+- Une évaluation de la voie d'administration compatible avec une atteinte rétinienne
 
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+---
+
+### Note complémentaire : autre indication prédite pertinente
+
+Parmi les autres prédictions, la **schizophrénie à début précoce** (score 99,47 %, niveau L4, statut « question de recherche ») est la plus étayée : 6 publications observationnelles, d'association génétique ou d'imagerie, sans essai enregistré. Il s'agit essentiellement d'une extension pédiatrique de l'indication d'origine plutôt que d'un véritable repositionnement. Son usage chez l'enfant et l'adolescent exige une évaluation de sécurité approfondie (symptômes extrapyramidaux, sédation, effets métaboliques), et les antipsychotiques plus récents sont généralement préférés. Les sept autres prédictions (glycosylation, myopies, malformations cérébrales, Charcot-Marie-Tooth 1G, encéphalopathie glycinique atypique) reposent uniquement sur le modèle, sans preuve, et restent en **Hold**.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

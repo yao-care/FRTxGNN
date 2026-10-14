@@ -2,7 +2,7 @@
 layout: default
 title: Terbutaline
 parent: Preuves élevées (L1-L2)
-nav_order: 303
+nav_order: 743
 evidence_level: L1
 indication_count: 3
 ---
@@ -29,90 +29,109 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-# Terbutaline : Du Bronchospasme à la Maladie Pulmonaire Obstructive
+# Terbutaline : De l'asthme à la maladie pulmonaire obstructive
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-La terbutaline est un agoniste bêta-2 adrénergique sélectif, commercialisé en France sous forme de poudre pour inhalation (Bricanyl Turbuhaler). Le texte d'indication de l'AMM n'est pas renseigné dans les données reçues, et le bronchospasme (asthme, BPCO) correspond à son usage établi.
-Le modèle TxGNN prédit qu'elle pourrait être efficace dans la **maladie pulmonaire obstructive**, avec **48 essais cliniques** et **20 publications** associés. Il s'agit surtout de la confirmation d'une indication déjà connue, et non d'un repositionnement au sens strict.
+Terbutaline est un bronchodilatateur bêta-2 agoniste, initialement utilisé pour traiter l'asthme, la bronchite et l'emphysème pulmonaire.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie pulmonaire obstructive**, avec **14 essais cliniques** et **20 publications** soutenant actuellement cette direction.
+Cette prédiction recoupe toutefois largement les indications déjà connues du médicament : il s'agit davantage d'une indication cohérente avec l'usage existant que d'un véritable repositionnement.
 
-## Aperçu Rapide
+---
 
-| Élément | Contenu |
+## Apercu Rapide
+
+| Element | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans l'AMM (usage établi : bronchospasme de l'asthme et de la BPCO) |
-| Nouvelle Indication Prédite | Maladie pulmonaire obstructive |
-| Score de Prédiction TxGNN | 99,96 % |
+| Indication Originale | Asthme (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
+| Nouvelle Indication Predite | Maladie pulmonaire obstructive |
+| Score de Prediction TxGNN | 99,96 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marche en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 1 |
-| Décision Recommandée | Proceed with Guardrails |
+| Decision Recommandee | Proceed with Guardrails |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+---
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. Sur la base des connaissances pharmacologiques établies, la terbutaline est un agoniste bêta-2 sélectif. Elle relâche le muscle lisse bronchique via le récepteur bêta-2, la protéine Gs, l'adénylate cyclase et l'AMPc.
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Ce mécanisme correspond directement à l'obstruction des voies aériennes dans l'asthme et la BPCO. La prédiction TxGNN ne décrit donc pas un nouvel usage. Elle rejoint l'usage clinique historique du médicament, ce que confirment de nombreux essais et publications.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la terbutaline est un agoniste sélectif des récepteurs bêta-2 adrénergiques. Elle relâche le muscle lisse bronchique via la voie de l'AMPc et provoque ainsi une bronchodilatation.
 
-Cette cohérence explique le score élevé. Il faut toutefois rester prudent : dans la majorité des essais récents, la terbutaline est le comparateur (traitement de secours à la demande) et non le médicament expérimental.
+Ce mécanisme est directement pertinent pour les maladies obstructives des voies respiratoires. L'asthme, la bronchite et l'emphysème figurent déjà parmi les indications d'origine du médicament. Le score très élevé de TxGNN (99,96 %) est donc cohérent avec une pharmacologie déjà connue, et non avec une découverte inattendue.
+
+Les autres prédictions du modèle sont beaucoup moins solides. La « malformation respiratoire » (score 99,5 %) ne repose sur aucun lien mécanistique clair : la bronchodilatation ne traite pas un défaut de développement structurel, et le score semble refléter la proximité du réseau avec l'asthme. Le « syndrome de Rienhoff » (99,4 %) n'a ni essai ni publication, et reste une prédiction purement computationnelle.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Sur 48 essais retrouvés, voici les 10 plus pertinents :
+La terbutaline est le plus souvent le comparateur ou le traitement de secours dans ces essais, et non le produit expérimental. Les essais ci-dessous sont classés par pertinence.
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
 |---------|------|------|------|---------|
-| [NCT02149199](https://clinicaltrials.gov/study/NCT02149199) | Phase 3 | Terminé | 3850 | Symbicort à la demande vs terbutaline à la demande vs budésonide 2 fois/jour + terbutaline, dans l'asthme léger. Terbutaline = comparateur, données d'efficacité et de sécurité à grande échelle |
-| [NCT00849095](https://clinicaltrials.gov/study/NCT00849095) | Phase 3 | Terminé | 860 | Budésonide/formotérol à la demande vs traitement régulier + terbutaline à la demande, asthme persistant léger à modéré |
-| [NCT00839800](https://clinicaltrials.gov/study/NCT00839800) | Phase 3 | Terminé | 2091 | Symbicort SMART vs Symbicort + terbutaline Turbuhaler 0,4 mg à la demande, sur 12 mois |
-| [NCT00242775](https://clinicaltrials.gov/study/NCT00242775) | Phase 3 | Terminé | 2100 | Symbicort à dose variable vs Seretide + terbutaline Turbuhaler à la demande, asthme persistant |
-| [NCT01096017](https://clinicaltrials.gov/study/NCT01096017) | Phase 3 | Terminé | 24 | Efficacité relative de la terbutaline Turbuhaler 0,4 mg vs salbutamol pMDI chez des adultes asthmatiques japonais (croisé, dose unique) |
-| [NCT02322788](https://clinicaltrials.gov/study/NCT02322788) | Phase 3 | Terminé | 95 | Bricanyl Turbuhaler M3 vs M2 : protection contre la bronchoconstriction induite par la méthacholine (asthme léger à modéré) |
+| [NCT02224157](https://clinicaltrials.gov/study/NCT02224157) | Phase 3 | Terminé | 4215 | Symbicort à la demande vs budésonide deux fois par jour + terbutaline à la demande dans l'asthme léger |
+| [NCT02149199](https://clinicaltrials.gov/study/NCT02149199) | Phase 3 | Terminé | 3850 | Symbicort à la demande vs terbutaline à la demande vs budésonide + terbutaline dans l'asthme |
 | [NCT06626620](https://clinicaltrials.gov/study/NCT06626620) | Phase 3 | Terminé | 120 | Sulfate de magnésium IV vs terbutaline chez l'enfant en exacerbation aiguë d'asthme |
-| [NCT01944033](https://clinicaltrials.gov/study/NCT01944033) | Phase 3 | Terminé | 250 | Bêta-2 agoniste seul vs ipratropium + bêta-2 agoniste dans l'exacerbation de BPCO (le titre ne confirme pas que la terbutaline est l'agent) |
-| [NCT00750568](https://clinicaltrials.gov/study/NCT00750568) | Non précisée | Inconnu | 36 | Pharmacocinétique et pharmacodynamie de la terbutaline en perfusion IV continue dans l'état de mal asthmatique pédiatrique |
-| [NCT00837967](https://clinicaltrials.gov/study/NCT00837967) | Phase 3 | Terminé | 25 | Tolérance de 10 inhalations de Symbicort vs 10 inhalations de terbutaline Turbuhaler chez des asthmatiques japonais (croisé) |
+| [NCT00849095](https://clinicaltrials.gov/study/NCT00849095) | Phase 3 | Terminé | 860 | Budésonide/formotérol à la demande vs régulier + terbutaline à la demande dans l'asthme persistant léger à modéré |
+| [NCT00839800](https://clinicaltrials.gov/study/NCT00839800) | Phase 3 | Terminé | 2091 | Symbicort SMART vs Symbicort + terbutaline 0,4 mg à la demande dans l'asthme |
+| [NCT00259766](https://clinicaltrials.gov/study/NCT00259766) | Phase 3 | Terminé | 1970 | Étude en vie réelle des coûts de santé : Symbicort vs association libre + Bricanyl à la demande |
+| [NCT00252863](https://clinicaltrials.gov/study/NCT00252863) | Phase 3 | Terminé | 1600 | Symbicort en traitement unique (SMART) vs meilleure pratique conventionnelle dans l'asthme persistant |
+| [NCT02322788](https://clinicaltrials.gov/study/NCT02322788) | Phase 3 | Terminé | 95 | Étude pharmacodynamique croisée de Bricanyl Turbuhaler M3 vs M2 sur la bronchoconstriction induite par la méthacholine |
+| [NCT01096017](https://clinicaltrials.gov/study/NCT01096017) | Phase 3 | Terminé | 24 | Efficacité relative de la terbutaline Turbuhaler 0,4 mg vs salbutamol pMDI chez des adultes japonais asthmatiques |
+| [NCT00837967](https://clinicaltrials.gov/study/NCT00837967) | Phase 3 | Terminé | 25 | Comparaison de la tolérance de 10 inhalations de Symbicort vs terbutaline chez des adultes japonais asthmatiques |
 
-## Preuves de la Littérature
+Un essai de phase 2/3 sur la relation exposition-réponse de la terbutaline ([NCT04973345](https://clinicaltrials.gov/study/NCT04973345)) a été retiré avec 0 participant et n'apporte aucune preuve.
 
-Sur 20 publications, voici les 10 plus pertinentes (ECR en priorité) :
+---
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+## Preuves de la Litterature
+
+| PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [30156361](https://pubmed.ncbi.nlm.nih.gov/30156361/) | 2019 | ECR | Acad Emerg Med | Terbutaline + ipratropium nébulisés vs terbutaline seule dans l'exacerbation de BPCO nécessitant une ventilation non invasive |
-| [3073804](https://pubmed.ncbi.nlm.nih.gov/3073804/) | 1988 | ECR | Br J Dis Chest | La terbutaline orale augmente la force de contraction diaphragmatique dans la BPCO (vs placebo) |
-| [6988343](https://pubmed.ncbi.nlm.nih.gov/6988343/) | 1980 | ECR | Int J Clin Pharmacol Ther Toxicol | Clenbutérol vs terbutaline orale dans la BPCO, effet bronchodilatateur sur 2 semaines |
-| [33065789](https://pubmed.ncbi.nlm.nih.gov/33065789/) | 2020 | Étude clinique (schéma non confirmé) | Ann Palliat Med | N-acétylcystéine + terbutaline chez le sujet âgé atteint de BPCO |
-| [1615190](https://pubmed.ncbi.nlm.nih.gov/1615190/) | 1992 | Étude clinique (schéma non confirmé) | Respir Med | Terbutaline inhalée (Turbuhaler) : effet sur le VEMS, la CVF, la dyspnée et la distance de marche dans la BPCO (double aveugle, croisé, contre placebo) |
-| [10384064](https://pubmed.ncbi.nlm.nih.gov/10384064/) | 1999 | Non classé | Lung | Dose unique de terbutaline (Turbuhaler) : effet sur la fonction pulmonaire et la capacité à l'effort dans la BPCO (double aveugle, contre placebo, croisé) |
-| [18761816](https://pubmed.ncbi.nlm.nih.gov/18761816/) | 2008 | Non classé | Cell Mol Immunol | Terbutaline + budésonide en nébulisation : amélioration de l'immunité et de la fonction pulmonaire dans l'exacerbation de BPCO |
-| [8882073](https://pubmed.ncbi.nlm.nih.gov/8882073/) | 1996 | Non classé | Thorax | Effets de l'arrêt de la terbutaline sur l'obstruction et la réactivité bronchiques dans la BPCO |
-| [8296260](https://pubmed.ncbi.nlm.nih.gov/8296260/) | 1993 | Non classé | Thorax | Réversibilité bronchodilatatrice à faibles et fortes doses de terbutaline et d'ipratropium dans la BPCO |
-| [2951811](https://pubmed.ncbi.nlm.nih.gov/2951811/) | 1986 | Non classé | Respiration | Fénotérol-ipratropium vs terbutaline inhalée dans la BPCO (étude en simple aveugle) |
+| [29768149](https://pubmed.ncbi.nlm.nih.gov/29768149/) | 2018 | ECR | N Engl J Med | Budésonide-formotérol à la demande comme alternative aux stratégies conventionnelles dans l'asthme léger |
+| [30156361](https://pubmed.ncbi.nlm.nih.gov/30156361/) | 2019 | ECR | Acad Emerg Med | Terbutaline nébulisée + ipratropium vs terbutaline seule dans l'exacerbation aiguë de BPCO sous ventilation non invasive |
+| [3073804](https://pubmed.ncbi.nlm.nih.gov/3073804/) | 1988 | ECR | Br J Dis Chest | La terbutaline orale augmente la force du diaphragme dans la BPCO (double aveugle, croisé) |
+| [6988343](https://pubmed.ncbi.nlm.nih.gov/6988343/) | 1980 | ECR | Int J Clin Pharmacol Ther Toxicol | Clenbutérol vs terbutaline orale dans la bronchopneumopathie obstructive chronique |
+| [10384064](https://pubmed.ncbi.nlm.nih.gov/10384064/) | 1999 | ECR croisé | Lung | Effet d'une dose unique de terbutaline (Turbuhaler) sur la fonction pulmonaire et la capacité d'effort dans la BPCO |
+| [36227333](https://pubmed.ncbi.nlm.nih.gov/36227333/) | 2023 | Revue systématique | Naunyn Schmiedebergs Arch Pharmacol | Pharmacocinétique clinique de la terbutaline chez l'humain |
+| [23348973](https://pubmed.ncbi.nlm.nih.gov/23348973/) | 2013 | Revue | Am J Respir Crit Care Med | Les bêta-2 agonistes à courte durée d'action, dont la terbutaline, soulagent rapidement les symptômes |
+| [33065789](https://pubmed.ncbi.nlm.nih.gov/33065789/) | 2020 | Étude clinique | Ann Palliat Med | N-acétylcystéine associée au sulfate de terbutaline chez le sujet âgé atteint de BPCO |
+| [2951811](https://pubmed.ncbi.nlm.nih.gov/2951811/) | 1986 | Étude randomisée | Respiration | Fénotérol-ipratropium vs terbutaline dans la bronchopneumopathie obstructive chronique |
+| [2031046](https://pubmed.ncbi.nlm.nih.gov/2031046/) | 1991 | Étude croisée randomisée | Pneumologie | Terbutaline nébulisée et pression expiratoire positive dans la BPCO |
 
-## Informations de Marché en France
+---
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+## Informations de Marche en France
+
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 60961427 | BRICANYL TURBUHALER 500 microgrammes/dose (AstraZeneca) | Poudre pour inhalation | Non précisée dans les données |
+| 60961427 | BRICANYL TURBUHALER 500 microgrammes/dose, poudre pour inhalation (AstraZeneca) | Poudre pour inhalation | Non renseignée (AMM annulée) |
 
-## Considérations de Sécurité
+---
 
-Veuillez consulter la notice pour les informations de sécurité.
+## Considerations de Securite
 
-## Conclusion et Prochaines Étapes
+- **Contre-indications issues du graphe de connaissances** (ce ne sont pas les termes de la notice) : hypertension, épilepsie, hyperglycémie, diabète et acidocétose diabétique, carence en potassium, arrêt cardiaque subit, troubles de la conduction cardiaque, insuffisance respiratoire, hyperthyroïdie (maladie de Basedow, thyrotoxicose), œdème pulmonaire, ischémie myocardique, maladie coronarienne et décollement placentaire.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales :
+  - Modérées : épinéphrine, antidiabétiques (acarbose, alogliptine, pioglitazone, canagliflozine, chlorpropamide, albiglutide), famotidine, clarithromycine, lopéramide, isométheptène, laxatifs (bisacodyl, acide picosulfurique, polyéthylène glycol avec électrolytes).
+  - Mineures : corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, bêtaméthasone, béclométasone, budésonide).
 
-**Décision : Proceed with Guardrails**
+Les mises en garde et contre-indications de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
+
+---
+
+## Conclusion et Prochaines Etapes
+
+**Decision : Proceed with Guardrails**
 
 **Justification :**
-Plusieurs essais de phase 3 terminés, portant sur plusieurs milliers de patients asthmatiques et sur la BPCO, soutiennent l'usage de la terbutaline dans les maladies obstructives. Cette prédiction confirme surtout une indication déjà établie, et la terbutaline est souvent le comparateur plutôt que l'agent testé. Les autres prédictions du modèle (malformation respiratoire, syndrome de Rienhoff) restent en attente (Hold), faute de preuves directes.
+- De nombreux essais de phase 3 et des ECR publiés confirment l'utilité de la terbutaline dans les maladies obstructives des voies respiratoires (asthme, BPCO), mais cette indication recoupe l'usage déjà connu. Dans la plupart des essais, elle est comparateur ou traitement de secours. Les prédictions secondaires (malformation respiratoire, syndrome de Rienhoff) ne sont pas étayées et relèvent de la décision « Hold ».
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice de l'ANSM (mises en garde, contre-indications), une lacune bloquante pour le dépistage de sécurité
-- Obtenir le texte d'indication de l'AMM et les données détaillées sur le mécanisme d'action (DrugBank)
-- Prévoir une surveillance de la tachycardie, de l'hypokaliémie et des tremblements, avec prudence chez les patients atteints de maladie cardiovasculaire
-
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Toute piste de repositionnement doit être validée cliniquement avant application.*
+**Pour avancer, les elements suivants sont necessaires :**
+- Les mises en garde et contre-indications de la notice ANSM (données bloquantes pour l'évaluation de sécurité)
+- Les données détaillées sur le mécanisme d'action (DrugBank)
+- La clarification du statut réglementaire en France, la seule AMM étant annulée
+- Un plan de surveillance cardiovasculaire, métabolique (glycémie, kaliémie) et thyroïdien pour les populations à risque
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

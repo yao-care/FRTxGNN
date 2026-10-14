@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Olanzapine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 221
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 555
+evidence_level: L3
 indication_count: 3
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L3** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,32 +29,35 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Olanzapine : Vers le Torticolis Paroxystique Bénin du Nourrisson (prédiction TxGNN)
+# Olanzapine : De la schizophrénie et des troubles bipolaires à l'agoraphobie
 
 ## Résumé en Une Phrase
 
-L'olanzapine est un médicament commercialisé en France (20 AMM), mais les données disponibles ne précisent pas son indication d'origine.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **torticolis paroxystique bénin du nourrisson**, un trouble pédiatrique rare et spontanément résolutif.
-Cette prédiction n'est soutenue par **aucun essai clinique** ni **aucune publication** : elle repose uniquement sur le score du modèle.
+L'olanzapine est un antipsychotique de deuxième génération, initialement utilisé pour le traitement de la schizophrénie et du trouble bipolaire.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**agoraphobie** (prédiction classée en deuxième position par le modèle ; la première, la torticolis paroxystique bénin du nourrisson, n'est soutenue par aucune preuve et est jugée peu plausible).
+Pour l'agoraphobie, les données compilées pour ce rapport recensent **aucun essai clinique** et **6 publications** (dont 2 revues systématiques, 1 essai ouvert de 31 patients et des rapports de cas), ce qui correspond à un niveau de preuve faible.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Torticolis paroxystique bénin du nourrisson |
-| Score de Prédiction TxGNN | 99,54 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
-| Décision Recommandée | Hold |
+| Indication Originale | Schizophrénie, trouble bipolaire, dépression, troubles anxieux (selon le graphe de connaissances ; aucun texte d'indication AMM disponible) |
+| Nouvelle Indication Prédite | Agoraphobie |
+| Score de Prédiction TxGNN | 99,47 % |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | Autorisations annulées uniquement |
+| Nombre d'AMM | 20 (toutes annulées) |
+| Décision Recommandée | Hold (question de recherche) |
+
+> Remarque : la prédiction classée première (torticolis paroxystique bénin du nourrisson, score 99,54 %) est de niveau L5, sans aucune preuve, et est écartée (Hold). Ce rapport porte sur l'agoraphobie, la première prédiction disposant de preuves exploitables.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. L'analyse s'appuie sur le profil pharmacologique connu de l'olanzapine, un antagoniste des récepteurs D2, 5-HT2A, H1 et muscariniques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'olanzapine appartient à la classe des antipsychotiques atypiques ; son efficacité dans la schizophrénie et les épisodes maniaques a été établie, et elle agit par antagonisme des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A/5-HT2C.
 
-Le torticolis paroxystique bénin du nourrisson est un trouble rare, apparenté au spectre de la migraine et associé à des canalopathies (par exemple des variants de *CACNA1A*). Aucun lien mécanistique entre l'action de l'olanzapine et cette maladie n'est étayé par les données fournies. Le score élevé du modèle (0,995) reflète une association dans le graphe de connaissances, pas une preuve biologique ou clinique.
+L'agoraphobie est généralement associée au trouble panique. L'antagonisme 5-HT2A/5-HT2C et D2, ainsi que l'effet sur les circuits de l'anxiété, offrent une justification plausible pour une utilisation en traitement d'appoint dans le trouble panique résistant aux traitements.
 
-Il faut donc considérer cette prédiction comme une hypothèse à explorer, pas comme une piste thérapeutique établie. Le profil de sécurité de l'olanzapine chez le nourrisson (sédation, effets métaboliques et extrapyramidaux) constitue en outre un frein important.
+Les preuves restent toutefois limitées : un petit essai ouvert de 12 semaines, des rapports de cas et des revues systématiques qui la mentionnent comme option. Il n'existe aucune preuve issue d'essais randomisés, et les risques métaboliques et de sédation doivent être mis en balance avec les traitements de première intention (ISRS/IRSNa et thérapie cognitivo-comportementale).
 
 ## Preuves d'Essais Cliniques
 
@@ -62,43 +65,46 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2026 | Revue systématique | Psychotherapy and Psychosomatics | Options pharmacologiques, psychothérapeutiques et de neurostimulation dans les troubles anxieux résistants au traitement |
+| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Revue systématique | Expert Opinion on Pharmacotherapy | Trouble panique résistant au traitement : environ un tiers des patients gardent des symptômes malgré les traitements disponibles |
+| [16415705](https://pubmed.ncbi.nlm.nih.gov/16415705/) | 2006 | Essai ouvert | J Clin Psychopharmacol | Olanzapine 5 mg/j en appoint d'un ISRS pendant 12 semaines chez 31 patients avec trouble panique (avec ou sans agoraphobie) résistant aux ISRS |
+| [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Cohorte | J Affect Disord | Impact des troubles anxieux comorbides (dont l'agoraphobie) sur l'évolution à 24 mois du trouble bipolaire I |
+| [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Rapport de cas | Pharmacopsychiatry | Rémission d'un trouble panique sous olanzapine associée à la paroxétine |
+| [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Rapport de cas / lettre | Am J Psychiatry | Olanzapine et attaques de panique |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65448204 | OLANZAPINE SANDOZ 5 mg | Comprimé orodispersible | SANDOZ |
-| 61779406 | OLANZAPINE ARROW 20 mg | Comprimé orodispersible | ARROW GENERIQUES |
-| 65000788 | ZYPADHERA 300 mg | Poudre et solvant pour suspension injectable à libération prolongée | CHEPLAPHARM REGISTRATION (Allemagne) |
-| 61435661 | OLANZAPINE VIATRIS 15 mg | Comprimé orodispersible | VIATRIS SANTE |
-| 62113318 | OLANZAPINE TEVA 10 mg | Comprimé pelliculé | TEVA (Pays-Bas) |
+| 60841335 | ZYPREXA 10 mg, comprimé enrobé | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 65000788 | ZYPADHERA 300 mg, poudre et solvant pour suspension injectable à libération prolongée | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM annulée) |
+| 62113318 | OLANZAPINE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 60217108 | OLANZAPINE ARROW 5 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 65448204 | OLANZAPINE SANDOZ 5 mg, comprimé orodispersible | Comprimé orodispersible | Non renseignée (AMM annulée) |
 
-Le texte des indications approuvées n'est pas renseigné pour ces AMM.
+Sur les 20 AMM recensées, aucune n'est actuellement valide ; seules les 5 premières sont listées ici.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
-
-L'analyse de repositionnement signale toutefois des préoccupations chez le nourrisson : sédation, effets métaboliques et effets extrapyramidaux. Aucune interaction médicamenteuse n'a été retrouvée dans la base interrogée.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : insuffisance et maladies hépatiques, cirrhose, diabète et acidocétose diabétique, hyperglycémie, hypertriglycéridémie et hyperlipidémie, obésité, neutropénie et agranulocytose, hypotension orthostatique, épilepsie, accident vasculaire cérébral et infarctus du myocarde, hyperplasie bénigne de la prostate, maladie de la vésicule biliaire, troubles de la coagulation, cancer du sein chez la femme.
+- **Interactions médicamenteuses** (100 interactions recensées) : les interactions de niveau majeur incluent le bupropion, la morphine et le citrate de potassium. Parmi les interactions de niveau modéré : antidiabétiques (metformine, acarbose, alogliptine, canagliflozine, dapagliflozine, chlorpropamide, albiglutide), anticholinergiques (atropine, hyoscyamine, glycopyrronium), famotidine, épinéphrine, clarithromycine, lopéramide, lorcasérine et préparations laxatives.
+- Les mises en garde et contre-indications officielles de la notice n'ont pas pu être obtenues ; veuillez consulter la notice pour les informations de sécurité complètes. Les risques métaboliques et de sédation sont particulièrement pertinents pour un usage prolongé dans un trouble anxieux.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Hold**
+**Décision : Hold (question de recherche)**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique documenté.
-- Le profil de risque de l'olanzapine chez le nourrisson, pour une maladie bénigne et spontanément résolutive, ne justifie pas d'aller plus loin en l'état.
+- Le score TxGNN est très élevé, mais les preuves cliniques se limitent à un petit essai ouvert, des rapports de cas et des revues, sans essai randomisé. Le profil de risque métabolique est défavorable face aux traitements de première intention, et aucune AMM française n'est actuellement valide.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir les mises en garde et contre-indications de la notice ANSM, qui manquent et bloquent l'évaluation de sécurité.
-- Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
-- Rechercher des données précliniques ou physiopathologiques reliant l'olanzapine aux canalopathies ou à la migraine pédiatrique.
-- Évaluer la compatibilité des voies d'administration et des formes pharmaceutiques avec un usage pédiatrique.
-
-**Autres pistes du même médicament :** le modèle prédit aussi l'**agoraphobie** (score 99,47 %) et le **trouble dysthymique** (score 99,28 %). Toutes deux sont au niveau de preuve L3, avec la mention « Research Question ». Elles reposent sur des études ouvertes, des cas cliniques et des revues systématiques, sans essai randomisé ni essai enregistré. Elles sont mieux documentées que la prédiction principale et méritent une évaluation séparée.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Données sur le mécanisme d'action (MOA) de l'olanzapine, actuellement manquantes
+- Mises en garde et contre-indications officielles de la notice (ANSM), éléments bloquants pour le criblage de sécurité
+- Essais randomisés contrôlés dans le trouble panique/agoraphobie résistant aux traitements
+- Clarification du statut réglementaire français (toutes les AMM recensées sont annulées)
+- Plan de surveillance métabolique et de la sédation pour une utilisation prolongée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

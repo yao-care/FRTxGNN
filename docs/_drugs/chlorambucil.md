@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorambucil
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 74
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 160
+evidence_level: L3
 indication_count: 8
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **8** 
+Niveau de preuve: **L3** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,35 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Chlorambucil : De l'indication d'origine (non renseignée) à la leucémie lymphoïde chronique/lymphome lymphocytique avec hypermutation somatique des gènes IGHV
+# Chlorambucil : Du Lymphome de Hodgkin au Lymphome Pulmonaire Primitif
 
 ## Résumé en Une Phrase
 
-Chlorambucil est un agent alkylant de la famille des moutardes azotées. Son indication d'origine n'est pas renseignée dans les données réglementaires françaises fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie lymphoïde chronique/lymphome lymphocytique à petits lymphocytes (LLC/LL) avec hypermutation somatique IGHV**,
-mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette indication précise : il s'agit d'une prédiction du modèle uniquement.
+Chlorambucil est un agent alkylant de l'ADN, initialement utilisé pour traiter le lymphome de Hodgkin, le lymphome folliculaire, la leucémie lymphoblastique aiguë et d'autres hémopathies lymphoïdes.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **lymphome pulmonaire primitif** (la prédiction de rang 4, retenue ici car c'est la seule à disposer d'un corpus de littérature substantiel et à avoir atteint l'étape S1).
+Cette direction est actuellement soutenue par **11 publications** (aucun essai clinique enregistré), dont la plupart sont anciennes, rétrospectives ou peu spécifiques.
+
+> Remarque : les prédictions de rang 1 et 2 ont des scores TxGNN légèrement supérieurs (99,72 %) mais ne disposent d'aucune preuve directe ou d'une seule référence indirecte. Le rang 4 a été retenu comme candidat principal en raison de la qualité relative de ses preuves.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (le texte d'indication de l'AMM est vide) |
-| Nouvelle Indication Prédite | LLC/LL avec hypermutation somatique des gènes de la région variable de la chaîne lourde des immunoglobulines (IGHV) |
-| Score de Prédiction TxGNN | 99,72 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Indication Originale | Lymphome de Hodgkin (autres indications d'origine : lymphome folliculaire, leucémie lymphoblastique aiguë, syndrome de Richter) |
+| Nouvelle Indication Prédite | Lymphome pulmonaire primitif |
+| Score de Prédiction TxGNN | 99,42 % |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | ✗ Annulée uniquement (aucune AMM valide) |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le chlorambucil est un agent alkylant de l'ADN (moutarde azotée) qui agit sur les lymphocytes, qu'ils soient en prolifération ou au repos. Mécanistiquement, il pourrait donc être applicable aux hémopathies lymphoïdes B comme la LLC/LL.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le chlorambucil est un agent alkylant (moutarde azotée) qui réticule l'ADN des cellules lymphoïdes, avec une efficacité établie dans plusieurs hémopathies B.
 
-La LLC est une indication historique et bien établie du chlorambucil de façon générale. Cependant, le dossier fourni ne contient ni essai ni publication portant sur le sous-type précis à mutation IGHV. Le score élevé de TxGNN (99,72 %) reflète la proximité dans le réseau de connaissances et ne constitue pas une preuve clinique.
+Le lymphome pulmonaire primitif correspond le plus souvent à un lymphome de la zone marginale de type MALT, un lymphome B indolent extranodal. Cette tumeur est proche, par sa nature de lymphome B de bas grade, des indications d'origine (lymphome folliculaire, néoplasme des cellules B matures). Les alkylants comme le chlorambucil ont été utilisés dans les lymphomes MALT, y compris dans des recommandations de prise en charge des lymphomes extranodaux et dans des séries rétrospectives.
 
-Il faut donc considérer cette prédiction comme une hypothèse plausible sur le plan biologique, mais non démontrée pour ce sous-type.
+Le mécanisme (réticulation de l'ADN dans des clones B de bas grade) est donc cohérent, mais le lien reste indirect : les preuves sont anciennes, rétrospectives ou non spécifiques, et le chlorambucil est aujourd'hui largement supplanté par des stratégies plus récentes.
 
 ## Preuves d'Essais Cliniques
 
@@ -63,43 +65,62 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [3307632](https://pubmed.ncbi.nlm.nih.gov/3307632/) | 1987 | Essai de phase II | Gan to Kagaku Ryoho | 8 patients avec hémopathies traités par chlorambucil ; rémission partielle chez 2 LLC, 1 lymphome folliculaire et 1 pseudolymphome pulmonaire ; myélosuppression |
+| [18603558](https://pubmed.ncbi.nlm.nih.gov/18603558/) | 2008 | Recommandations | Haematologica | Recommandations italiennes pour les lymphomes pulmonaires et médiastinaux primitifs |
+| [19541720](https://pubmed.ncbi.nlm.nih.gov/19541720/) | 2009 | Cohorte | Eur Respir J | 63 cas parisiens de lymphome pulmonaire MALT : caractéristiques et pronostic |
+| [25452791](https://pubmed.ncbi.nlm.nih.gov/25452791/) | 2015 | Cas clinique / revue | Exp Ther Med | Lymphome MALT pulmonaire chez une patiente de 19 ans et revue de la littérature |
+| [11289295](https://pubmed.ncbi.nlm.nih.gov/11289295/) | 2001 | Cas clinique | Dis Colon Rectum | Lymphome MALT simultané du côlon et du poumon ; traitement incluant mitoxantrone et chlorambucil |
+| [3699123](https://pubmed.ncbi.nlm.nih.gov/3699123/) | 1986 | Série de cas / revue | Eur J Respir Dis | Lymphome non hodgkinien pulmonaire primitif traité par chlorambucil pendant 5 mois |
+| [6248988](https://pubmed.ncbi.nlm.nih.gov/6248988/) | 1980 | Cas clinique | Sem Hop | Lymphosarcome pulmonaire sécrétant une IgM ; rémission sous chlorambucil continu avec 3 ans de suivi |
+| [36672456](https://pubmed.ncbi.nlm.nih.gov/36672456/) | 2023 | Cohorte | Cancers | Ibrutinib vs chlorambucil dans la LLC/LL (RESONATE-2) ; contexte comparatif, non spécifique au lymphome pulmonaire |
+| [14654083](https://pubmed.ncbi.nlm.nih.gov/14654083/) | 2004 | Mécanistique | Leuk Res | Rôle potentiel de la COX-2 dans la pathogenèse des lymphomes |
+| [11250989](https://pubmed.ncbi.nlm.nih.gov/11250989/) | 2001 | Cas-témoins | J Clin Oncol | Cancer du poumon après maladie de Hodgkin et lien avec le traitement (sécurité) |
+| [9000608](https://pubmed.ncbi.nlm.nih.gov/9000608/) | 1997 | Cohorte | Br J Cancer | Seconds cancers après maladie de Hodgkin (Royal Marsden) (sécurité) |
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66518292 | CHLORAMINOPHENE 2 mg, gélule (TECHNI-PHARMA) | Gélule | Non renseignée |
+| 66518292 | CHLORAMINOPHENE 2 mg, gélule (TECHNI-PHARMA) | Gélule | Non renseignée (AMM annulée) |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, moutarde azotée) |
-| Risque de Myélosuppression | Élevé (effet attendu de la classe des alkylants ; à confirmer dans la notice) |
-| Classification d'Émétogénicité | Faible (à confirmer dans la notice) |
-| Éléments de Surveillance | NFS (avec formule), fonction hépatique et rénale |
-| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
+| Risque de Myélosuppression | Élevé (les données de la littérature signalent une myélosuppression ; neutropénie, thrombopénie, leucopénie et anémie figurent parmi les contre-indications du graphe de connaissances) |
+| Classification d'Émétogénicité | Faible à moyenne (selon la classe du médicament) |
+| Éléments de Surveillance | NFS avec formule et plaquettes, fonction hépatique et rénale |
+| Protection de Manipulation | Suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : épilepsie, thrombopénie, syndrome néphrotique (y compris familial et néphrose lipoïdique), neutropénie, agranulocytose, anémie (y compris macrocytaire), pneumopathie interstitielle, atteinte hépatique d'origine médicamenteuse, leucopénie, lymphopénie, fibrose pulmonaire, leucémies aiguës (dont leucémies de lignée ambiguë et à phénotype mixte).
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) :
+  - Majeures : déférifrone, samarium (153Sm) lexidronam.
+  - Modérées : amphotéricine B (y compris formes lipidique, sulfate de cholestéryle et liposomale), palifermine, chlorure de strontium Sr-89, mercaptopurine, roflumilast, chloramphénicol (y compris ophtalmique).
+  - Mineure : lévofloxacine.
+- **Signaux de la littérature** : risque de seconds cancers après traitement (cancer du poumon, leucémies aiguës) ; toxicité neurologique (crises convulsives) à haute dose.
+
+Pour les mises en garde officielles, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication pour ce sous-type de LLC/LL, et les données de sécurité de la notice ANSM sont manquantes.
-- À titre indicatif, parmi les autres indications prédites, le lymphome pulmonaire primitif (surtout de type MALT) est le mieux étayé dans les données (niveau L3, principalement séries rétrospectives et cas cliniques). Il reste toutefois au stade de question de recherche.
+- Les preuves pour le lymphome pulmonaire primitif (L3) sont anciennes, rétrospectives et indirectes, sans essai clinique enregistré. Le chlorambucil n'a plus d'AMM valide en France et est largement remplacé par des thérapies ciblées. Les données de sécurité de la notice sont manquantes, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice ANSM (mises en garde, contre-indications) afin de pouvoir passer au criblage de sécurité
-- Compléter les données sur le mécanisme d'action (par exemple via DrugBank)
-- Renseigner l'indication réellement approuvée de l'AMM 66518292
-- Rechercher des études spécifiques au sous-type IGHV muté, en distinguant celles où le chlorambucil est un comparateur de celles où il est le traitement évalué
+- Mises en garde et contre-indications officielles issues de la notice de l'ANSM
+- Données détaillées sur le mécanisme d'action (MOA)
+- Données cliniques récentes et spécifiques au lymphome MALT pulmonaire (essais prospectifs ou séries contemporaines) comparant le chlorambucil aux standards actuels
+- Évaluation du risque de seconds cancers et plan de surveillance hématologique
+- Clarification du statut réglementaire, l'AMM unique étant annulée
 
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+**Note sur les autres prédictions :** les prédictions de rang 1 et 2 (LLC/LL avec hypermutation somatique IGHV et LLC/LL pré-centre germinatif) sont de proche parenté avec les indications d'origine mais sans preuve spécifique (niveau L4, Hold). Le lymphome B à grand cellules ALK-positif, l'adénocarcinome fœtal pulmonaire bien différencié et le blastome pulmonaire (niveau L5) reposent uniquement sur la prédiction du modèle. La leucémie lymphoblastique aiguë est déjà une indication d'origine. Le carcinome pulmonaire à petites cellules (L3, Hold) repose sur des données anciennes et précliniques sans rôle évident dans la pratique actuelle.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Vestronidase Alfa
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 334
+nav_order: 811
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,67 +29,95 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Vestronidase alfa : De la mucopolysaccharidose de type VII (MPS VII) au syndrome de Scheie
+# Vestronidase alfa : De la mucopolysaccharidose au syndrome de Scheie
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Vestronidase alfa est une enzyme recombinante (β-glucuronidase humaine, GUSB), initialement utilisée pour traiter la mucopolysaccharidose de type VII (MPS VII).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de Scheie** (MPS I atténuée), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
-L'analyse mécanistique est même défavorable : la GUSB ne peut pas remplacer l'enzyme déficiente dans cette maladie (IDUA).
+Vestronidase alfa est une enzyme recombinante (beta-glucuronidase humaine) utilisee a l'origine dans le traitement de la mucopolysaccharidose (type VII).
+Le modele TxGNN predit qu'elle pourrait etre efficace pour le **syndrome de Scheie**, mais **aucun essai clinique ni aucune publication** ne soutient directement cette indication a ce jour.
 
-## Aperçu Rapide
+---
 
-| Élément | Contenu |
+## Apercu Rapide
+
+| Element | Contenu |
 |------|------|
-| Indication Originale | MPS VII (le texte d'indication de l'AMM n'est pas renseigné dans la base) |
-| Nouvelle Indication Prédite | Syndrome de Scheie |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Mucopolysaccharidose (type VII) |
+| Nouvelle Indication Predite | Syndrome de Scheie |
+| Score de Prediction TxGNN | 99,90 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marche en France | AMM annulee uniquement |
 | Nombre d'AMM | 1 |
-| Décision Recommandée | Hold |
+| Decision Recommandee | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+---
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, vestronidase alfa est une enzymothérapie substitutive (ERT) par β-glucuronidase recombinante. Son efficacité dans la MPS VII a été démontrée, et elle agit sur le catabolisme lysosomal des glycosaminoglycanes (GAG).
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Le syndrome de Scheie est dû à un déficit en alpha-L-iduronidase (IDUA). La GUSB retire les résidus d'acide glucuronique terminaux, alors que l'IDUA retire les résidus d'acide iduronique terminaux. La GUSB ne peut donc pas se substituer à l'IDUA. Le lien n'existe qu'au niveau de la classe (voie de dégradation lysosomale des GAG). Une ERT spécifique à base d'IDUA (laronidase) existe déjà pour cette maladie.
+Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles dans les informations compilees. D'apres les connaissances generales, vestronidase alfa est une beta-glucuronidase humaine recombinante qui degrade les glycosaminoglycanes (GAG) tels que le dermatane sulfate, l'heparane sulfate et le chondroitine sulfate. Son efficacite est etablie dans la mucopolysaccharidose de type VII.
 
-Le score TxGNN très élevé reflète probablement la proximité des maladies MPS dans le graphe de connaissances, et non une cible enzymatique commune. Cette prédiction doit donc être considérée comme un signal de classe, pas comme une hypothèse thérapeutique solide.
+Le syndrome de Scheie (forme attenuee de MPS I) est du a un deficit en alpha-L-iduronidase (IDUA), entrainant l'accumulation de dermatane sulfate et d'heparane sulfate. Les substrats communs offrent un argument biologique plausible mais **indirect**.
+
+Cette prediction doit toutefois etre interpretee avec prudence : les enzymes sont differentes, et la beta-glucuronidase ne remplace pas l'etape IDUA manquante. Le score eleve reflete probablement la proximite dans le reseau de connaissances au sein de la famille des MPS plutot qu'un mecanisme direct. Un traitement enzymatique substitutif specifique (laronidase) existe deja.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement pour le syndrome de Scheie.
+Aucun essai clinique associe enregistre actuellement pour le syndrome de Scheie.
 
-À titre d'information, l'essai de Phase 1 [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) (PEARL, ERT prénatale dans les maladies lysosomales, n=10, en recrutement) est lié à une autre prédiction, le syndrome de Hurler. Il s'agit d'une plateforme multi-maladies, et rien ne confirme que vestronidase alfa y soit utilisée. Il n'apporte donc aucun soutien au syndrome de Scheie.
+*A titre indicatif, pour une autre indication predite (syndrome de Hurler, MPS IB) :*
 
-## Preuves de la Littérature
+| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
+|---------|------|------|------|---------|
+| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Phase 1 | En recrutement | 10 | Etude PEARL : traitement enzymatique substitutif prenatal (in utero) dans les maladies lysosomales ; objectif : securite et faisabilite pour la mere et le foetus. Role de vestronidase alfa non confirme ; aucun resultat d'efficacite. |
 
-Aucune littérature associée n'est disponible actuellement pour le syndrome de Scheie.
+---
 
-## Informations de Marché en France
+## Preuves de la Litterature
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+Aucune litterature associee disponible actuellement pour le syndrome de Scheie.
+
+*A titre indicatif, publications retrouvees pour le syndrome de Sanfilippo (concernant uniquement la MPS VII, donc preuves indirectes) :*
+
+| PMID | Annee | Type | Revue | Resultats Principaux |
+|------|-----|------|------|---------|
+| [32063397](https://pubmed.ncbi.nlm.nih.gov/32063397/) | 2020 | Cohorte (suivi a long terme) | Mol Genet Metab | Securite et efficacite a long terme de vestronidase alfa 4 mg/kg IV dans la MPS VII, apres une etude de phase 3 randomisee controlee contre placebo (12 sujets) |
+| [30467742](https://pubmed.ncbi.nlm.nih.gov/30467742/) | 2019 | Modelisation PK/PD | Clin Pharmacokinet | Optimisation de la dose de vestronidase alfa dans la MPS VII a partir de trois essais |
+| [29478819](https://pubmed.ncbi.nlm.nih.gov/29478819/) | 2018 | Methodologie d'etude | Mol Genet Metab | Conception d'etude « Blind Start » pour une maladie ultra-rare (MPS VII) |
+
+---
+
+## Informations de Marche en France
+
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 61759695 | MEPSEVII 2 mg/ml, solution à diluer pour perfusion (ULTRAGENYX GERMANY) | Solution à diluer pour perfusion | Texte non renseigné dans la base |
+| 61759695 (annulee) | MEPSEVII 2 mg/ml, solution a diluer pour perfusion | Solution a diluer pour perfusion | Non renseignee |
 
-## Considérations de Sécurité
+---
 
-Veuillez consulter la notice pour les informations de sécurité.
+## Considerations de Securite
 
-## Conclusion et Prochaines Étapes
+Veuillez consulter la notice pour les informations de securite.
 
-**Décision : Hold**
+Aucune interaction medicamenteuse n'a ete retrouvee dans les donnees compilees.
+
+---
+
+## Conclusion et Prochaines Etapes
+
+**Decision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. L'argument enzymatique est défavorable, car la GUSB ne peut pas remplacer l'IDUA. Un traitement spécifique (laronidase) est déjà disponible.
-- Les autres prédictions du dossier ne changent pas cette conclusion. Celles pour le syndrome de Hurler et le syndrome de Sanfilippo relèvent de la simple question de recherche (L4) : elles ne reposent que sur une plateforme d'essai non spécifique et sur des publications portant sur la MPS VII. Le reste des prédictions ne présente aucun lien plausible.
+- La prediction repose uniquement sur le modele (niveau L5) : aucun essai ni publication ne concerne le syndrome de Scheie, et les enzymes impliquees sont differentes. De plus, l'AMM francaise est annulee et une therapie specifique (laronidase) existe deja.
+- Parmi les autres predictions, seul le syndrome de Hurler dispose d'un essai de phase 1 (niveau L3, « question de recherche »), sans lien confirme avec vestronidase alfa. Les predictions de maladies oculaires ou neuromusculaires (ptosis, syndrome de Horner congenital, etc.) n'ont aucune base mecanistique et semblent etre des artefacts du reseau.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice de l'ANSM (mises en garde, contre-indications), étape bloquante pour tout criblage de sécurité
-- Obtenir les données de mécanisme d'action depuis DrugBank
-- Obtenir le texte d'indication de l'AMM 61759695 pour confirmer l'indication originale
-- Justifier, par des données précliniques, une activité de la GUSB sur les substrats de l'IDUA. Sans cela, il n'y a pas de raison d'engager une étude clinique dans le syndrome de Scheie.
+**Pour avancer, les elements suivants sont necessaires :**
+- Donnees detaillees sur le mecanisme d'action (MOA)
+- Informations de securite issues de la notice (mises en garde et contre-indications), actuellement manquantes et bloquantes pour toute evaluation de securite
+- Etudes precliniques demontrant une activite de la beta-glucuronidase sur les substrats accumules dans le syndrome de Scheie
+- Clarification du statut commercial en France (AMM annulee) et de la compatibilite de voie d'administration
+- Comparaison avec la laronidase, traitement de reference
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Amiodarone
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 35
+nav_order: 58
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,134 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Amiodarone : D'un antiarythmique commercialisé à la tachycardie ventriculaire polymorphe catécholergique
+# Amiodarone : De la fibrillation ventriculaire à la tachycardie ventriculaire polymorphe catécholaminergique
 
-## Résumé en une phrase
+## Résumé en Une Phrase
 
-L'amiodarone est un antiarythmique commercialisé en France (Cordarone®), mais l'indication d'origine n'est pas renseignée dans les données disponibles.
-Le modèle TxGNN prédit qu'elle pourrait être utile dans la **tachycardie ventriculaire polymorphe catécholergique (TVPC)**.
-Cette prédiction repose sur **0 essai clinique** et **10 publications** récupérées, dont aucune ne montre l'efficacité de l'amiodarone dans cette maladie.
+Amiodarone est un antiarythmique initialement utilisé pour le traitement de la fibrillation ventriculaire.
+Le modèle TxGNN prédit en première position qu'il pourrait être efficace pour la **tachycardie ventriculaire polymorphe catécholaminergique (TVPC)**, mais cette prédiction n'est soutenue par **aucun essai clinique** et par **9 publications** de faible niveau de preuve (une revue systématique, deux cohortes, une revue narrative et cinq cas cliniques), qui ne démontrent pas d'efficacité.
+Les données compilées pour ce rapport montrent que la tachycardie ventriculaire (**17 essais cliniques**, **20 publications**) et la tachycardie ventriculaire incessante du nourrisson (**20 publications**, dont un essai randomisé) sont des pistes nettement mieux documentées.
 
-## Aperçu rapide
+## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle indication prédite | Tachycardie ventriculaire polymorphe catécholergique (TVPC) |
-| Score de prédiction TxGNN | 99,78 % (rang 2100) |
-| Niveau de preuve | L4 (plausibilité mécanistique uniquement) |
-| Statut de marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 4 |
-| Décision recommandée | Hold |
+| Indication Originale | Fibrillation ventriculaire (le texte d'indication des AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Tachycardie ventriculaire polymorphe catécholaminergique |
+| Score de Prédiction TxGNN | 99,78 % |
+| Niveau de Preuve | L4 (pour cette indication) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 4 (toutes annulées) |
+| Décision Recommandée | Hold (pour la TVPC) |
 
-## Pourquoi cette prédiction est-elle raisonnable ?
+**Autres indications prédites, à titre de comparaison :**
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. On sait néanmoins que l'amiodarone bloque plusieurs canaux ioniques (potassium, sodium, calcium) et exerce un effet antagoniste bêta-adrénergique. Ces propriétés peuvent en théorie freiner les arythmies ventriculaires.
+| Rang | Indication prédite | Score TxGNN | Niveau de preuve | Décision |
+|------|------|------|------|------|
+| 2 | Tachycardie ventriculaire incessante du nourrisson | 99,65 % | L2 | Question de recherche |
+| 3 | Tachycardie ventriculaire | 99,64 % | L1 | Proceed with Guardrails |
+| 4 | Bloc de branche (libellé obsolète) | 99,58 % | L5 | Hold |
+| 5 | Polyarthrite rhumatoïde | 99,40 % | L5 | Hold |
+| 6 à 10 | Syndrome brachydactylie-syndactylie, déficit en cofacteur II de l'héparine, trichotillomanie, syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique, goutte | 99,19 % à 99,38 % | L5 | Hold |
 
-La TVPC est une maladie génétique rare, déclenchée par le stress adrénergique. Elle est due principalement à une fuite de calcium diastolique via le récepteur RYR2. Les traitements de référence sont les bêta-bloquants et la flécaïne. Le blocage bêta-adrénergique de l'amiodarone offre donc un lien plausible, mais théorique.
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le score élevé du modèle n'est **pas confirmé par les données cliniques**. Les publications retrouvées sont des cohortes, des revues et des cas cliniques sur la TVPC, sans aucune démonstration d'efficacité de l'amiodarone. Les rapports sur la flécaïne suggèrent même que l'amiodarone n'est pas l'agent de choix.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues, l'amiodarone est un antiarythmique de classe III qui bloque les canaux potassiques cardiaques et prolonge la repolarisation. Elle agit aussi sur les canaux sodiques et calciques et exerce un effet antagoniste bêta-adrénergique. Son efficacité dans la fibrillation ventriculaire est établie.
 
-## Preuves d'essais cliniques
+Pour la TVPC, un lien mécanistique est plausible : les effets bêta-bloquants et sur la gestion du calcium touchent une arythmie déclenchée par les catécholamines et liée aux mutations de RYR2. Toutefois, la littérature décrit l'amiodarone surtout comme peu efficace ou comme traitement d'appoint dans les cas réfractaires. Les traitements de référence sont les bêta-bloquants et la flécaïnide. **Le score TxGNN très élevé n'est donc pas corroboré par des données d'efficacité clinique.**
 
-Aucun essai clinique associé enregistré actuellement.
+La prédiction est bien plus solide pour la tachycardie ventriculaire, très proche de l'indication d'origine. Il s'agit là d'une pratique clinique établie, plus proche d'une indication voisine de l'indication d'origine que d'un véritable repositionnement.
 
-## Preuves de la littérature
+## Preuves d'Essais Cliniques
 
-| PMID | Année | Type | Revue | Résultats principaux |
+Aucun essai clinique associé n'est enregistré actuellement pour la TVPC.
+
+À titre de référence, voici les principaux essais disponibles pour la **tachycardie ventriculaire** (indication de rang 3, sur 17 essais recensés, les plus pertinents sont présentés) :
+
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT00000531](https://clinicaltrials.gov/study/NCT00000531) | Phase 3 | Terminé | Non renseigné | AVID : défibrillateur implantable vs traitement antiarythmique (principalement amiodarone) après mort subite récupérée |
+| [NCT01401647](https://clinicaltrials.gov/study/NCT01401647) | Phase 3 | Terminé | 3024 | ALPS : amiodarone vs lidocaïne vs placebo dans l'arrêt cardiaque extrahospitalier par FV/TV sans pouls |
+| [NCT00383799](https://clinicaltrials.gov/study/NCT00383799) | Phase 4 | Arrêté | 302 | PROCAMIO : amiodarone IV vs procaïnamide IV dans la tachycardie à QRS larges bien tolérée |
+| [NCT03299517](https://clinicaltrials.gov/study/NCT03299517) | Phase 4 | Inconnu | 80 | Amiodarone vs lidocaïne dans la TV stable aux urgences |
+| [NCT00257959](https://clinicaltrials.gov/study/NCT00257959) | Phase 4 | Terminé | 400 | OPTIC : amiodarone + bêta-bloquant vs bêta-bloquant seul vs sotalol pour prévenir les chocs du défibrillateur |
+| [NCT02830360](https://clinicaltrials.gov/study/NCT02830360) | Phase 4 | Terminé | 416 | VANISH2 : ablation par cathéter vs traitement antiarythmique après infarctus avec TV monomorphe soutenue |
+| [NCT01722942](https://clinicaltrials.gov/study/NCT01722942) | Non applicable | Inconnu | 1100 | CHAGASICS : amiodarone vs défibrillateur implantable dans la cardiomyopathie de Chagas |
+| [NCT03855826](https://clinicaltrials.gov/study/NCT03855826) | Phase 4 | Inconnu | 756 | Nifékalant (amiodarone probablement en comparateur) dans la TV et la FV |
+
+## Preuves de la Littérature
+
+**Pour la TVPC (indication de rang 1) :**
+
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revue systématique | Life (Basel) | Caractéristiques cliniques, bases génétiques et évolution rythmique des patients chinois atteints de TVPC. Aucune donnée sur l'amiodarone dans l'extrait disponible. |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte rétrospective | Rev Cardiovasc Med | Caractéristiques cliniques, génétique, recours aux soins et coûts de la TVPC dans une ville chinoise. |
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revue | Expert Opin Pharmacother | Avancées du traitement médicamenteux des arythmies ventriculaires (revue générale, non spécifique à la TVPC). |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Cas clinique | PACE | La flécaïne supprime l'orage rythmique induit par le défibrillateur chez un garçon de 14 ans atteint de TVPC (mutation CASQ2). |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Cas clinique | Front Cardiovasc Med | Résolution de la TVPC par dénervation sympathique cardiaque droite chez un adolescent, après une dénervation gauche. |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Cas clinique | Turk Pediatri Arsivi | Arrêt cardiaque soudain révélant une TVPC chez un enfant de 2 ans. |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Cas clinique | Medicine | Diagnostic retardé de 6 ans d'une TVPC avec mutation RYR2 (c.7580T>G) chez un enfant de 9 ans. |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Cas clinique | BMJ Case Rep | Survie d'un jeune enfant après arrêt cardiaque extrahospitalier, avec 40 chocs administrés pour TV/FV récidivantes. |
-| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | Cas clinique | Rev Esp Cardiol | Orage rythmique induit par une décharge du défibrillateur chez un patient atteint de TVPC. |
-| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Cas clinique | Anesth Analg | Nouveau-né avec syndrome du QT long et arythmies réfractaires, traité par lidocaïne, esmolol et amiodarone. Il s'agit d'un QT long, pas d'une TVPC. |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revue systématique | Life (Basel) | Caractéristiques cliniques, génétiques et évolution rythmique de patients chinois atteints de TVPC ; ne porte pas sur l'efficacité de l'amiodarone |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte | Rev Cardiovasc Med | Caractéristiques cliniques, génétiques et coûts de santé de la TVPC dans une ville chinoise |
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revue | Expert Opin Pharmacother | Avancées du traitement pharmacologique des arythmies ventriculaires |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Cas clinique | PACE | La flécaïnide supprime l'orage rythmique induit par le défibrillateur dans la TVPC |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Cas clinique | Front Cardiovasc Med | Résolution de la TVPC par dénervation sympathique cardiaque droite après dénervation gauche |
 
-## Informations de marché en France
+**Pour la tachycardie ventriculaire incessante du nourrisson (rang 2), les plus pertinentes :**
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Fabricant |
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [16316969](https://pubmed.ncbi.nlm.nih.gov/16316969/) | 2005 | ECR | Circulation | Amiodarone IV dans les tachyarythmies incessantes de l'enfant, essai randomisé en double aveugle |
+| [14508682](https://pubmed.ncbi.nlm.nih.gov/14508682/) | 2003 | Cohorte | Eur J Pediatr | Efficacité et sécurité de l'amiodarone IV chez 23 nourrissons avec tachycardies incessantes |
+| [2114081](https://pubmed.ncbi.nlm.nih.gov/2114081/) | 1990 | Série de cas | Arch Mal Coeur Vaiss | Tachycardie ventriculaire idiopathique incessante du nourrisson : réduction de l'arythmie sous amiodarone orale dans 5 cas |
+
+**Pour la tachycardie ventriculaire (rang 3), les plus pertinentes :**
+
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [27354046](https://pubmed.ncbi.nlm.nih.gov/27354046/) | 2017 | ECR | Eur Heart J | PROCAMIO : procaïnamide IV vs amiodarone IV dans la tachycardie à QRS larges tolérée |
+| [30084131](https://pubmed.ncbi.nlm.nih.gov/30084131/) | 2018 | Cohorte | Emerg Med Australas | Amiodarone administrée par les paramédicaux dans la TV stable en préhospitalier |
+| [20730062](https://pubmed.ncbi.nlm.nih.gov/20730062/) | 2010 | Revue | Vasc Health Risk Manag | L'amiodarone, traitement antiarythmique de référence pour la FV et la TV |
+
+## Informations de Marché en France
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62305927 | CORDARONE 150 mg/3 ml | Solution injectable en ampoule (IV) | SANOFI WINTHROP INDUSTRIE |
-| 64408662 | CORDARONE 200 mg | Comprimé sécable | SANOFI WINTHROP INDUSTRIE |
-| 68973926 | CORDARONE 200 mg | Comprimé sécable | BB FARMA (Italie) |
-| 60662396 | CORDARONE 200 mg | Comprimé sécable | DIFARMED (Espagne) |
+| 62305927 | CORDARONE 150 mg/3 ml, solution injectable en ampoule (IV) | Solution injectable | Non renseignée (AMM annulée) |
+| 64408662 | CORDARONE 200 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
+| 68973926 | CORDARONE 200 mg, comprimé sécable (BB FARMA, Italie) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 60662396 | CORDARONE 200 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM annulée) |
 
-## Considérations de sécurité
+Les quatre AMM recensées sont annulées : aucune AMM valide n'apparaît dans les données compilées.
 
-Veuillez consulter la notice pour les informations de sécurité.
+## Cytotoxicité
 
-## Conclusion et prochaines étapes
+Non applicable : l'amiodarone n'est pas un médicament antinéoplasique.
 
-**Décision : Hold**
+## Considérations de Sécurité
+
+**Contre-indications et pathologies à risque (issues du graphe de connaissances, et non du texte de la notice) :**
+- **Cardiaques** : syndrome du QT long (y compris familial), torsades de pointes, bloc auriculo-ventriculaire, maladie du sinus
+- **Thyroïdiennes** : hypothyroïdie (dont myxœdème et hypothyroïdie congénitale), hyperthyroïdie, maladie de Basedow, thyrotoxicose
+- **Pulmonaires** : pneumopathie interstitielle, pneumonie à éosinophiles, éosinophilie pulmonaire, alvéolite allergique extrinsèque, pneumopathie d'hypersensibilité, poumon du fermier
+- **Hépatiques et biliaires** : maladie du foie, lésion hépatique d'origine médicamenteuse, maladie de la vésicule biliaire
+- **Neurologiques et oculaires** : maladie du système nerveux périphérique, neuropathie périphérique, névrite optique, maladie du nerf optique, maladie des voies visuelles, dépôts cornéens
+- **Métaboliques** : carence en potassium
+
+**Interactions médicamenteuses :** 100 interactions sont recensées. Parmi les exemples retrouvés :
+- **Majeures** : amphotéricine B (et ses formes lipidiques, liposomale et au sulfate de cholestéryle), cisapride, clarithromycine, clotrimazole, dexaméthasone, hydrocortisone, dolasétron, éliglustat, agalsidase bêta
+- **Modérées** : famotidine, cimétidine, aprépitant, bisacodyl, budésonide, huile de ricin
+- **Mineure** : fidaxomicine
+
+Le texte officiel des mises en garde de la notice n'a pas pu être exploité. Veuillez consulter la notice pour les informations de sécurité complètes.
+
+## Conclusion et Prochaines Étapes
+
+**Décision : Hold (pour la TVPC)**
 
 **Justification :**
-- La prédiction pour la TVPC repose uniquement sur le modèle et sur une plausibilité mécanistique. Aucun essai ni publication ne montre l'efficacité de l'amiodarone, et les traitements établis (bêta-bloquants, flécaïne) sont préférés.
-- Parmi les autres prédictions du même dossier, la **tachycardie ventriculaire** (niveau L1, décision « Proceed with Guardrails ») correspond à un usage déjà établi de l'amiodarone. Elle est appuyée par des essais randomisés (dont VANISH, NCT00905853), mais ce n'est pas un vrai repositionnement. La **tachycardie ventriculaire incessante du nourrisson** (niveau L3) reste une question de recherche.
+- Aucun essai clinique ni donnée d'efficacité ne soutient l'amiodarone dans la TVPC, où les bêta-bloquants et la flécaïnide restent les traitements établis. Le score TxGNN élevé n'est pas confirmé par la clinique. Parmi les autres prédictions, la tachycardie ventriculaire (L1, Proceed with Guardrails) est la mieux étayée, mais elle relève d'une pratique établie proche de l'indication d'origine. La tachycardie ventriculaire incessante du nourrisson (L2) reste une question de recherche. Les prédictions de rang 4 à 10 sont purement algorithmiques (L5), certaines avec un risque de nocivité (bloc de branche, polyarthrite rhumatoïde avec toxicité pulmonaire).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).
-- Les données de mécanisme d'action (MOA) depuis DrugBank.
-- Une recherche bibliographique ciblée « amiodarone et TVPC » pour vérifier l'existence de données directes.
-- Une comparaison avec les traitements de référence (bêta-bloquants, flécaïne) avant tout passage à l'étape suivante.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Données détaillées sur le mécanisme d'action (consultation de DrugBank)
+- Mises en garde et contre-indications issues de la notice officielle (ANSM), indispensables avant tout dépistage de sécurité
+- Pour la tachycardie ventriculaire : surveillance pulmonaire, thyroïdienne, hépatique et de l'intervalle QT, ainsi qu'une gestion rigoureuse des interactions médicamenteuses
+- Pour la forme pédiatrique : évaluation de la sécurité (thyroïde, poumon, effets hémodynamiques) et données portant spécifiquement sur la tachycardie ventriculaire, la population de l'essai randomisé étant mixte (essentiellement supraventriculaire et jonctionnelle)
+- Clarification du statut réglementaire : toutes les AMM françaises recensées sont annulées
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Loprazolam
-parent: Preuves élevées (L1-L2)
-nav_order: 179
-evidence_level: L1
+parent: Preuves modérées (L3-L4)
+nav_order: 462
+evidence_level: L3
 indication_count: 1
 ---
 
 # Loprazolam
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **1** 
+Niveau de preuve: **L3** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,87 @@ Niveau de preuve: **L1** | Indications prédites: **1**
 
 </div>
 
-# Loprazolam : De l'Indication Non Renseignée aux Troubles de l'Initiation et du Maintien du Sommeil
+# Loprazolam : De l'insomnie au trouble du sommeil (endormissement et maintien du sommeil)
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Le loprazolam est une benzodiazépine hypnotique commercialisée en France (HAVLANE), dont le texte d'AMM ne précise pas l'indication dans les données disponibles.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour les **troubles de l'initiation et du maintien du sommeil (insomnie)**, avec **0 essai clinique enregistré** mais **20 publications** dont plusieurs essais randomisés publiés.
-Il s'agit en pratique de la confirmation d'un usage hypnotique déjà établi, et non d'un repositionnement au sens strict.
+Loprazolam est une benzodiazepine hypnotique, initialement utilisee pour le traitement de l'insomnie.
+Le modele TxGNN predit qu'il pourrait etre efficace pour le **trouble du sommeil (endormissement et maintien du sommeil)**, mais cette « nouvelle » indication recouvre en pratique l'indication d'origine.
+Aucun essai clinique n'est enregistre ; **20 publications** documentent l'usage du medicament dans l'insomnie.
 
-## Aperçu Rapide
+## Apercu Rapide
 
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Troubles de l'initiation et du maintien du sommeil (insomnie) |
-| Score de Prédiction TxGNN | 99,84 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
-| Décision Recommandée | Proceed with Guardrails |
+| Indication Originale | Insomnie (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigne) |
+| Nouvelle Indication Predite | Trouble du sommeil (endormissement et maintien du sommeil) |
+| Score de Prediction TxGNN | 99,84 % |
+| Niveau de Preuve | L3 |
+| Statut de Marche en France | Uniquement des AMM annulees |
+| Nombre d'AMM | 1 (0 valide, 1 annulee) |
+| Decision Recommandee | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier source. D'après la pharmacologie connue, le loprazolam est une benzodiazépine hypnotique. C'est un modulateur allostérique positif du récepteur GABA-A : il renforce la neurotransmission inhibitrice GABAergique, ce qui produit une sédation et raccourcit la latence d'endormissement.
+Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles. Sur la base des informations connues, le loprazolam fait partie de la classe des benzodiazepines hypnotiques. Ces molecules renforcent la signalisation du recepteur GABA-A, ce qui favorise l'endormissement et le maintien du sommeil.
 
-Ce mécanisme correspond directement à l'indication prédite, l'insomnie d'endormissement et de maintien du sommeil. Le score TxGNN très élevé (99,84 %) est cohérent avec cette pharmacologie établie.
+La nouvelle indication predite correspond a l'indication d'origine : le trouble de l'initiation et du maintien du sommeil est essentiellement l'insomnie. Le score TxGNN tres eleve (99,84 %) reflete ce chevauchement. **Il ne constitue pas la preuve d'une nouvelle opportunite de repositionnement.**
 
-La littérature décrit l'insomnie comme l'usage établi du loprazolam. Le texte d'AMM du dossier étant vide, l'indication originale n'est pas renseignée, et ce vide devrait être corrigé dans la fiche source. Sa demi-vie de 7 à 8 heures en fait un hypnotique de durée d'action intermédiaire.
+La litterature decrit une demi-vie d'environ 7 a 8 heures chez l'adulte sain. Cela pourrait limiter les effets sedatifs residuels le lendemain par rapport aux hypnotiques a action plus longue, surtout a des doses n'excedant pas 1 mg.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associe enregistre actuellement.
 
-## Preuves de la Littérature
+## Preuves de la Litterature
 
-Les types indiqués pour les études classées « pending » sont déduits des résumés.
+Les publications ci-dessous sont les plus pertinentes parmi celles compilees. Les essais controles sont cites en premier, puis les revues. Les types d'etude indiques comme essais proviennent des resumes.
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [6141896](https://pubmed.ncbi.nlm.nih.gov/6141896/) | 1983 | ECR | Curr Med Res Opin | 40 patients anxieux hospitalisés avec insomnie : loprazolam 1 mg supérieur au placebo sur 7 nuits |
-| [6147285](https://pubmed.ncbi.nlm.nih.gov/6147285/) | 1984 | ECR | J Int Med Res | 190 sujets insomniaques : loprazolam 1 mg vs nitrazépam 5 mg vs placebo, pas de différence significative entre loprazolam et nitrazépam |
-| [6142463](https://pubmed.ncbi.nlm.nih.gov/6142463/) | 1983 | ECR (d'après le résumé) | Pharmatherapeutica | 40 patients âgés : loprazolam et nitrazépam améliorent significativement le sommeil |
-| [6141114](https://pubmed.ncbi.nlm.nih.gov/6141114/) | 1984 | ECR (d'après le résumé) | J Int Med Res | 197 patients en médecine générale : loprazolam 1 mg vs témazépam 20 mg vs placebo sur 5 nuits |
-| [2569239](https://pubmed.ncbi.nlm.nih.gov/2569239/) | 1989 | ECR croisé (d'après le résumé) | Therapie | 67 patients : triazolam 0,25 mg vs loprazolam 1 mg, essai croisé en double aveugle |
-| [6132929](https://pubmed.ncbi.nlm.nih.gov/6132929/) | 1983 | ECR (d'après le résumé) | J Clin Pharmacol | 60 insomniaques, dose unique : 0,5 et 1 mg d'efficacité comparable à flurazépam 15 mg et supérieures au placebo |
-| [15252823](https://pubmed.ncbi.nlm.nih.gov/15252823/) | 2004 | Revue systématique et méta-analyse | Hum Psychopharmacol | Comparaison des hypnotiques Z (zaléplon, zolpidem, zopiclone) aux benzodiazépines, dont le loprazolam, dans l'insomnie à court terme |
-| [2874007](https://pubmed.ncbi.nlm.nih.gov/2874007/) | 1986 | Revue | Drugs | Propriétés pharmacodynamiques et pharmacocinétiques ; demi-vie de 7 à 8 h ; sédation résiduelle possible au-delà de 1 mg |
-| [6340977](https://pubmed.ncbi.nlm.nih.gov/6340977/) | 1983 | Étude clinique croisée | Curr Med Res Opin | 16 patients : loprazolam 1 mg vs nitrazépam 5 mg vs placebo en médecine générale |
-| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Revue | CNS Drugs | Effets résiduels des hypnotiques (somnolence, altération psychomotrice) et risque d'accidents |
+| [15252823](https://pubmed.ncbi.nlm.nih.gov/15252823/) | 2004 | Revue systematique et meta-analyse | Human Psychopharmacology | Comparaison de l'efficacite des hypnotiques recents (Z-drugs) avec des benzodiazepines, dont le loprazolam, pour l'insomnie a court terme |
+| [6147285](https://pubmed.ncbi.nlm.nih.gov/6147285/) | 1984 | Essai comparatif multicentrique | J Int Med Res | 190 sujets insomniaques ; pas de difference significative d'efficacite entre loprazolam 1 mg et nitrazepam 5 mg |
+| [6340977](https://pubmed.ncbi.nlm.nih.gov/6340977/) | 1983 | Essai en double aveugle croise | Curr Med Res Opin | 16 patients ; loprazolam 1 mg compare au nitrazepam 5 mg et au placebo en medecine generale |
+| [6141896](https://pubmed.ncbi.nlm.nih.gov/6141896/) | 1983 | Essai en double aveugle | Curr Med Res Opin | 40 patients anxieux insomniaques ; loprazolam 1 mg superieur au placebo |
+| [6141114](https://pubmed.ncbi.nlm.nih.gov/6141114/) | 1984 | Essai randomise multicentrique (simple aveugle) | J Int Med Res | 197 patients ; loprazolam 1 mg et temazepam 20 mg compares au placebo |
+| [6142463](https://pubmed.ncbi.nlm.nih.gov/6142463/) | 1983 | Essai randomise en double aveugle | Pharmatherapeutica | 40 patients ages ; loprazolam 1 mg et nitrazepam 5 mg ont tous deux ameliore le sommeil |
+| [6132929](https://pubmed.ncbi.nlm.nih.gov/6132929/) | 1983 | Essai en double aveugle (dose unique) | J Clin Pharmacol | 60 insomniaques ; 0,5 et 1 mg de loprazolam d'effet comparable a flurazepam 15 mg, tous superieurs au placebo |
+| [2569239](https://pubmed.ncbi.nlm.nih.gov/2569239/) | 1989 | Essai randomise croise en double aveugle | Therapie | 67 patients ; triazolam 0,25 mg compare a loprazolam 1 mg dans l'insomnie courante |
+| [2874007](https://pubmed.ncbi.nlm.nih.gov/2874007/) | 1986 | Revue | Drugs | Proprietes pharmacodynamiques et pharmacocinetiques ; efficacite dans l'insomnie aigue ou chronique ; sedation residuelle possible au-dela de 1 mg |
+| [11822225](https://pubmed.ncbi.nlm.nih.gov/11822225/) | 2001 | Etude pharmacocinetique | Drugs Exp Clin Res | Profil pharmacocinetique de 1 mg chez 12 sujets jeunes et 12 sujets ages |
 
-## Informations de Marché en France
+## Informations de Marche en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 69071035 | HAVLANE, comprimé sécable (SANOFI WINTHROP INDUSTRIE) | Comprimé sécable | Non renseignée dans les données |
+| 69071035 (annulee) | HAVLANE, comprime secable (SANOFI WINTHROP INDUSTRIE) | Comprime secable | Non renseignee |
 
-## Considérations de Sécurité
+Aucune AMM valide n'est actuellement recensee pour le loprazolam en France.
 
-Veuillez consulter la notice pour les informations de sécurité. Les avertissements et contre-indications de l'ANSM ne sont pas encore intégrés au dossier.
+## Considerations de Securite
 
-À titre indicatif, la littérature signale un risque de sédation résiduelle au-delà de 1 mg (PMID 2874007) et d'effets résiduels du lendemain, avec des troubles de l'équilibre et un risque de chutes chez les utilisateurs d'hypnotiques (PMID 15089115, 20171127).
+Les donnees de securite issues de la notice (mises en garde, contre-indications) ne sont pas disponibles, et aucune interaction medicamenteuse n'a ete retrouvee. Veuillez consulter la notice pour les informations de securite.
 
-## Conclusion et Prochaines Étapes
+Les publications compilees signalent toutefois des risques propres aux hypnotiques de cette classe :
+- Sedation residuelle le lendemain, surtout a des doses superieures a 1 mg.
+- Alteration de l'equilibre et risque de chutes et de fractures de la hanche.
+- Risque d'accidents (circulation notamment) lie aux effets residuels.
+- Recommandation d'une utilisation de courte duree pour les benzodiazepines hypnotiques.
 
-**Décision : Proceed with Guardrails**
+## Conclusion et Prochaines Etapes
+
+**Decision : Hold**
 
 **Justification :**
-- Plusieurs essais randomisés publiés (années 1980) comparent le loprazolam au placebo, au nitrazépam, au témazépam et au triazolam dans l'insomnie, et le médicament est commercialisé en France. Ces études ne sont pas enregistrées comme essais cliniques, et la sécurité ne peut pas être évaluée tant que la notice n'est pas intégrée.
+- La nouvelle indication predite equivaut a l'indication d'origine (insomnie) : il ne s'agit pas d'un veritable repositionnement.
+- Le medicament n'a plus d'AMM valide en France, et les donnees de securite de la notice manquent. Les preuves disponibles, essentiellement anciennes (1983-1989), sont de niveau L3.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Intégrer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'étape de dépistage de sécurité)
-- Renseigner le texte de l'indication approuvée dans l'AMM 69071035 et corriger la fiche source (indication originale vide)
-- Obtenir les données de mécanisme d'action via DrugBank
-- Prévoir des garde-fous pour les populations à risque (sujets âgés, sédation résiduelle, chutes, conduite)
+**Pour avancer, les elements suivants sont necessaires :**
+- Definir un veritable objectif de repositionnement, different de l'insomnie
+- Recuperer et analyser la notice (mises en garde, contre-indications) aupres de l'ANSM
+- Obtenir les donnees de mecanisme d'action depuis DrugBank
+- Clarifier les raisons de l'annulation de l'AMM et le statut reglementaire actuel
+- Evaluer le rapport benefice-risque dans les populations fragiles (personnes agees notamment)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

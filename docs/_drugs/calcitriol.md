@@ -2,7 +2,7 @@
 layout: default
 title: Calcitriol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 67
+nav_order: 131
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,32 +29,33 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Calcitriol : De la Vitamine D Active à la Carence en Vitamine D (terme obsolète)
+# Calcitriol : Des troubles du métabolisme phosphocalcique à la carence en vitamine D (entrée obsolète)
 
 ## Résumé en Une Phrase
 
-Calcitriol est la forme active de la vitamine D, commercialisée en France en capsule molle (Rocaltrol) et en pommade (Silkis).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **carence en vitamine D (terme d'ontologie signalé comme obsolète)**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction précise.
+Le calcitriol est la forme active de la vitamine D. Il est classiquement associé à des troubles du métabolisme calcique et phosphoré, comme l'hypoparathyroïdie, l'hypophosphatémie et l'ostéodystrophie rénale.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **carence en vitamine D** (entrée de maladie désormais obsolète dans l'ontologie utilisée).
+Cette prédiction repose uniquement sur le modèle : **0 essai clinique** et **0 publication** la soutiennent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Carence en vitamine D (terme obsolète) |
+| Indication Originale | Hypercalcémie, néphrocalcinose, troubles du métabolisme du phosphore, hypophosphatémie, hypoparathyroïdie, ostéodystrophie rénale (d'après le graphe de connaissances, le texte d'indication des AMM françaises n'étant pas renseigné) |
+| Nouvelle Indication Prédite | Carence en vitamine D (entrée obsolète) |
 | Score de Prédiction TxGNN | 99,96 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Uniquement des AMM abrogées |
+| Nombre d'AMM | 2 (toutes deux abrogées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le calcitriol est la forme active de la vitamine D. Le lien biologique avec une carence en vitamine D est donc plausible, puisque le médicament apporte directement l'hormone active.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le calcitriol est la forme active de la vitamine D. Son rôle dans la régulation du calcium et du phosphore est établi, et il est utilisé dans des maladies du métabolisme phosphocalcique. Mécanistiquement, il pourrait donc être applicable à une situation de carence en vitamine D.
 
-Cependant, le terme de maladie est signalé comme « obsolète », c'est-à-dire qu'il s'agit d'une entrée dépréciée de l'ontologie. Le score très élevé du modèle reflète probablement l'association avec la classe pharmacologique (vitamine D) plutôt qu'un véritable signal de repositionnement. Il faut donc l'interpréter avec prudence.
+Sur le plan conceptuel, remplacer une vitamine D déficitaire par sa forme active est cohérent. Le score très élevé du modèle reflète probablement la proximité, dans le graphe de connaissances, entre cette entrée et les indications existantes liées à la vitamine D. Il ne constitue pas une preuve clinique.
 
-Aucun essai clinique ni aucune publication ne figurent dans les données fournies pour cette indication. La prédiction repose uniquement sur le modèle.
+Deux réserves importantes s'imposent. D'abord, l'entrée de maladie est obsolète, ce qui limite l'interprétation de la prédiction. Ensuite, le traitement substitutif d'une carence en vitamine D se fait habituellement avec la vitamine D native (cholécalciférol ou ergocalciférol), et non avec le calcitriol.
 
 ## Preuves d'Essais Cliniques
 
@@ -66,31 +67,42 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 61847953 | ROCALTROL 0,25 microgramme, capsule molle | Capsule molle (voie orale) | ATNAHS PHARMA NETHERLANDS (Pays-Bas) |
-| 62597239 | SILKIS 3 microgrammes/g, pommade | Pommade | GALDERMA INTERNATIONAL |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+|---------|------|------|------|
+| 61847953 | ROCALTROL 0,25 microgramme, capsule molle | Capsule molle (voie orale) | Abrogée |
+| 62597239 | SILKIS 3 microgrammes/g, pommade | Pommade | Abrogée |
+
+Le texte des indications approuvées n'est pas disponible pour ces deux AMM. Aucune AMM n'est actuellement valide en France pour le calcitriol seul ou en association.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Maladies pour lesquelles le calcitriol est signalé comme contre-indiqué** (d'après le graphe de connaissances, et non d'après le texte d'une notice) : maladie rénale, pyo-uretère, sarcoïdose, hypercalcémie, néphrocalcinose, troubles du métabolisme du phosphore, susceptibilité à la lithiase rénale liée à SLC26A1, lithiase rénale, néphropathie urique aiguë, hyperphosphatémie, hypervitaminose, artériosclérose oblitérante.
+- **Interactions médicamenteuses** : 100 interactions sont recensées, dont 20 consultées pour ce rapport.
+  - Interactions majeures : cholécalciférol, calcifédiol, burosumab (cumul d'effets vitaminiques D et risque d'hypercalcémie ou d'hyperphosphatémie).
+  - Interactions modérées : diurétiques thiazidiques (hydrochlorothiazide, bendrofluméthiazide, benzthiazide, chlorothiazide, chlortalidone), anticonvulsivants et barbituriques (fosphénytoïne, carbamazépine, amobarbital, butalbital, butabarbital), chélateurs des acides biliaires (cholestyramine, colesevelam, colestipol), hydroxyde d'aluminium, calcipotriol topique, digitoxine et digoxine.
+
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est de niveau L5 (modèle seul), sans essai ni publication. De plus, le terme de maladie est obsolète, ce qui affaiblit la portée du score élevé.
-- Pour information, une autre indication prédite pour ce médicament, le **rachitisme hypophosphatémique héréditaire**, dispose de davantage de preuves (niveau L3, essais directs sur le calcitriol dans l'hypophosphatémie liée à l'X). Elle est classée « Proceed with Guardrails » et mérite une évaluation séparée.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. L'entrée de maladie est obsolète, et la substitution dans la carence en vitamine D relève habituellement de la vitamine D native. Aucune AMM n'est valide en France actuellement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Remplacer le terme obsolète par l'entrée actuelle de l'ontologie, puis relancer l'évaluation.
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications), car ces données de sécurité bloquent le passage au criblage de sécurité S1.
-- Obtenir les données de mécanisme d'action depuis DrugBank.
-- Effectuer une recherche ciblée d'essais et de littérature sur le calcitriol dans la carence en vitamine D.
-- Vérifier la compatibilité des voies d'administration : la capsule orale est a priori la forme pertinente pour une carence systémique, la pommade étant une forme cutanée.
+- Faire correspondre l'entrée obsolète à une entité de maladie actuelle, afin de redéfinir précisément l'indication visée.
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications), indispensable pour l'évaluation de sécurité.
+- Réaliser une recherche ciblée de littérature et d'essais pour l'indication reformulée.
 
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+**Autres indications prédites, à titre d'information :**
+- **Rachitisme hypophosphatémique héréditaire** (score TxGNN 99,28 %) : c'est la piste la mieux documentée. Les données compilées lui attribuent un niveau L2 et la recommandation « Proceed with Guardrails ».
+  - Essais : [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) (phase 1 précoce, terminé, 16 participants, calcitriol en monothérapie dans l'hypophosphatémie liée à l'X) et [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) (phase 4, statut inconnu, 100 participants, fortes versus faibles doses de vitamine D active avec phosphate neutre).
+  - Aucun essai de phase 3 terminé n'a été identifié. Une surveillance de l'hypercalciurie, de la néphrocalcinose et de l'hyperparathyroïdie est nécessaire. Le burosumab est une alternative.
+- **Hypoparathyroïdie familiale isolée** (99,81 %) : rationnel mécanistique solide, déduit de l'indication d'origine, mais sans preuve directe (L5).
+- **Acidose tubulaire rénale** (99,93 %) : littérature composée surtout de cas cliniques et d'études physiologiques (L4), le calcitriol agissant sur les complications osseuses plutôt que sur l'acidose.
+- **Dysplasie acromésomélique de type Campailla-Martinelli, conodysplasie craniofaciale et syndrome de Dahlberg-Borer-Newcomer** : aucun lien mécanistique établi ni preuve spécifique (L5).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

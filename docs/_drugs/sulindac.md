@@ -2,7 +2,7 @@
 layout: default
 title: Sulindac
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 293
+nav_order: 722
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,70 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulindac : D'un anti-inflammatoire non stéroïdien à la Dysplasie Acromésomélique de type Hunter-Thompson
+# Sulindac : Des Rhumatismes Inflammatoires à la Dysplasie Acromésomélique de type Hunter-Thompson
 
 ## Résumé en Une Phrase
 
-Sulindac est un anti-inflammatoire non stéroïdien (AINS, inhibiteur des cyclooxygénases), commercialisé en France sous le nom ARTHROCINE. Le texte de l'indication approuvée n'est pas renseigné dans les données reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acromésomélique de type Hunter-Thompson**, une maladie osseuse génétique rare.
-Cette prédiction ne repose sur **aucun essai clinique** et **aucune publication** : c'est une prédiction du modèle seul.
-
----
+Le sulindac est un anti-inflammatoire non stéroïdien (AINS) utilisé à l'origine dans des affections ostéo-articulaires comme la polyarthrite rhumatoïde, la spondylarthrite ankylosante, l'arthrose, la bursite, la tendinite et la goutte.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acromésomélique de type Hunter-Thompson**, avec un score élevé.
+Cependant, **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction : elle repose uniquement sur le modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Polyarthrite rhumatoïde, spondylarthrite ankylosante, arthrose, bursite, tendinite, goutte (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson |
 | Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 2 |
 | Décision Recommandée | Hold |
 
----
-
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sulindac appartient à la classe des AINS et agit en inhibant les cyclooxygénases (COX), ce qui réduit la production de prostaglandines inflammatoires. Son usage est lié à des affections inflammatoires et douloureuses de l'appareil locomoteur.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le sulindac fait partie de la classe des AINS et agit par inhibition des cyclooxygénases (COX), ce qui réduit la production de prostaglandines inflammatoires. Son efficacité symptomatique dans les affections articulaires inflammatoires est établie.
 
-La dysplasie acromésomélique de type Hunter-Thompson est une maladie squelettique liée à la voie CDMP1/GDF5, qui régule le développement du cartilage et des os. Aucun lien mécanistique n'est étayé par les données fournies : la voie GDF5 n'a pas de rapport connu avec l'inhibition des COX. Le seul signal en faveur de cette association est le score élevé du modèle (0,999), sans confirmation clinique ni bibliographique.
+La dysplasie acromésomélique de type Hunter-Thompson est une dysplasie squelettique rare liée à CDMP1/GDF5, impliquant la voie de signalisation des BMP. Aucun lien mécanistique clair n'existe entre l'inhibition de la COX et cette voie. Le score élevé s'explique vraisemblablement par un artefact du graphe de connaissances, par exemple des liaisons via des phénotypes squelettiques ou articulaires communs.
 
-Cette prédiction doit donc être considérée comme une hypothèse à vérifier, non comme une piste étayée. Les neuf autres indications prédites pour ce médicament, dont la vascularite rhumatoïde, sont également de niveau L5, sans essai ni publication. La vascularite rhumatoïde est la plus plausible sur le plan biologique, mais le lien reste indirect.
-
----
+Les autres prédictions les mieux classées vont dans le même sens : brachyolmie (y compris avec amélogenèse imparfaite), myosclérose, pseudoachondroplasie, syndrome brachydactylie-syndactylie, syndrome WHIM, vasculite rhumatoïde et hypermobilité du coccyx. Toutes restent au niveau L5. La vasculite rhumatoïde est la plus proche de l'indication d'origine, mais elle relève d'une immunosuppression (corticoïdes, cyclophosphamide, rituximab) et non des AINS. Pour l'hypermobilité du coccyx, seul un soulagement symptomatique de la douleur serait envisageable.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
-
----
+Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
-
----
+Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65862059 | ARTHROCINE 100 mg, comprimé | Comprimé | MEDAC |
-| 62028152 | ARTHROCINE 200 mg, comprimé sécable | Comprimé sécable | MEDAC |
-
----
+| 65862059 | ARTHROCINE 100 mg, comprimé (MEDAC) | Comprimé | Non renseignée (AMM annulée) |
+| 62028152 | ARTHROCINE 200 mg, comprimé sécable (MEDAC) | Comprimé sécable | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées pour ce rapport. Veuillez consulter la notice pour ces informations.
 
-Aucune interaction médicamenteuse n'a été trouvée dans les données consultées.
-
----
+- **Contre-indications issues du graphe de connaissances** (à titre indicatif, ne provenant pas du texte de la notice) : hypertension, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, insuffisance cardiaque congestive, ulcère gastroduodénal (dont actif), lupus érythémateux systémique, maladie du tissu conjonctif, troubles de la coagulation, infarctus du myocarde et thrombose coronarienne, maladies cardiovasculaires, anémies et hémoglobinopathies, néphrolithiase, néphropathie urique aiguë, dépendance/abus de substances.
+- **Interactions médicamenteuses** : 100 interactions ont été recensées. Parmi les plus représentatives :
+  - Modérées : acide acétylsalicylique, corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, budésonide, triamcinolone), metformine, glimépiride, chlorpropamide, mésalazine, balsalazide, citrate et bicarbonate de potassium, picosulfate de sodium, polyéthylèneglycol avec électrolytes, sulfate de sodium.
+  - Mineures : famotidine, ranitidine, cimétidine, linaclotide.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible avec le mécanisme d'un AINS.
-- Les données de sécurité issues de la notice ANSM et le mécanisme d'action détaillé manquent, ce qui empêche un examen de sécurité sérieux.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre l'inhibition de la COX et la voie GDF5/BMP. De plus, le profil de contre-indications est lourd et il n'existe plus d'AMM active en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée)
-- Compléter les données sur le mécanisme d'action via DrugBank
-- Rechercher dans la littérature et les registres d'essais tout lien entre les AINS et les dysplasies de la voie GDF5
-- Évaluer si un rationnel préclinique (modèle cellulaire ou animal) justifie de poursuivre
-- Réexaminer la prédiction de la vascularite rhumatoïde, biologiquement plus plausible, si une priorisation est envisagée
-
----
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Les données détaillées sur le mécanisme d'action du sulindac.
+- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
+- Des données précliniques ou cliniques spécifiques à la dysplasie ciblée ; à défaut, réévaluer des candidats plus plausibles (par exemple la vasculite rhumatoïde) avec des données directes.
+- Une clarification du statut réglementaire, aucune AMM n'étant valide actuellement.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

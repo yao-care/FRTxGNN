@@ -2,7 +2,7 @@
 layout: default
 title: Valsartan
 parent: Preuves modérées (L3-L4)
-nav_order: 332
+nav_order: 803
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,44 +29,58 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Valsartan : De l'Indication Originale (non renseignée) à la Néphropathie Hypertensive Maligne
+# Valsartan : De l'Hypertension à l'Hypertension Maligne avec Atteinte Rénale
 
 ## Résumé en Une Phrase
 
-Le valsartan est un antagoniste des récepteurs de l'angiotensine II, commercialisé en France. Le texte de son indication d'origine n'est pas renseigné dans les données ANSM fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néphropathie hypertensive maligne**, mais **aucun essai clinique** et **une seule publication** préclinique, qui ne porte pas sur le valsartan, soutiennent cette piste.
+Valsartan est un antagoniste des récepteurs de l'angiotensine II (type AT1), initialement utilisé pour le traitement de l'hypertension artérielle.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie rénale hypertensive maligne**, mais aucun essai clinique n'est enregistré et une seule publication préclinique, portant sur un autre médicament (l'avosentan), est disponible : le niveau de preuve est donc faible.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide pour toutes les AMM listées) |
-| Nouvelle Indication Prédite | Néphropathie hypertensive maligne |
+| Indication Originale | Hypertension artérielle (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
+| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne |
 | Score de Prédiction TxGNN | 99,97 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche DrugBank. L'analyse du pack indique toutefois que le valsartan bloque le récepteur de type 1 de l'angiotensine II (AT1R). Le système rénine-angiotensine contribue aux lésions vasculaires et glomérulaires de l'hypertension maligne, ce qui rend l'utilisation d'un ARA II biologiquement plausible.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le valsartan est un bloqueur du récepteur AT1 de l'angiotensine II. Son efficacité dans l'hypertension est établie.
 
-Le lien reste cependant limité à la classe pharmacologique et à la voie biologique. La seule publication retrouvée porte sur l'avosentan, un antagoniste de l'endothéline, et non sur le valsartan. Aucune donnée propre au valsartan n'a été fournie pour cette indication. Le score élevé du modèle reflète donc une prédiction plausible, mais non confirmée.
+L'hypertension maligne avec atteinte rénale est liée à une forte activation du système rénine-angiotensine-aldostérone (SRAA). Le blocage du récepteur AT1 est donc mécanistiquement plausible, et cette indication est proche de l'indication antihypertensive d'origine.
+
+Cependant, le soutien disponible reste indirect. La seule publication retrouvée concerne l'avosentan (un antagoniste de l'endothéline) dans la néphropathie hypertensive, chez le rat, et non le valsartan.
+
+Deux autres pistes prédites ont un soutien un peu plus étayé : l'**hypertension rénovasculaire maligne** (une étude animale de 2001 montre que le blocage AT1 prévient l'hypertension maligne létale, mais sans données spécifiques au valsartan) et le **cœur pulmonaire chronique** (niveau L3, données surtout observationnelles et indirectes).
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement pour la maladie rénale hypertensive maligne.
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Préclinique (rat) | Pharmacological Research | L'avosentan (antagoniste de l'endothéline) protège contre la néphropathie hypertensive chez le rat transgénique dTGR à des doses n'entraînant pas de rétention hydrique. L'étude ne porte pas sur le valsartan. |
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Préclinique (animal) | Pharmacological Research | L'avosentan (antagoniste de l'endothéline, et non le valsartan) protège contre la néphropathie hypertensive chez le rat à des doses ne provoquant pas de rétention hydrique |
+
+---
 
 ## Informations de Marché en France
 
-Les textes d'indication approuvée ne sont pas renseignés pour ces AMM.
+Toutes les AMM recensées sont annulées. Le texte d'indication approuvée n'est pas disponible pour ces AMM. Voici les cinq premières :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -76,28 +90,32 @@ Les textes d'indication approuvée ne sont pas renseignés pour ces AMM.
 | 65471256 | VALSARTAN BIOGARAN 80 mg | Comprimé pelliculé sécable |
 | 62582582 | VALSARTAN TEVA 160 mg | Comprimé pelliculé sécable |
 
+---
+
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications (issues du graphe de connaissances, et non du texte de la notice)** : insuffisance hépatique et maladies hépatiques, encéphalopathie hépatique, pancréatite, maladie de la vésicule biliaire, angio-œdème (y compris héréditaire et induit par les bloqueurs du SRAA), lupus érythémateux systémique, carence en potassium, diabète et acidocétose diabétique, neutropénie et agranulocytose, hypotension, anurie, sténose ou obstruction de l'artère rénale, insuffisance rénale, goutte, hypercalcémie, néphrocalcinose, troubles du métabolisme du phosphore, hyperparathyroïdie, ostéite fibreuse et ictère néonatal.
+- **Interactions médicamenteuses** : 100 interactions recensées. Les plus importantes sont de niveau **majeur** avec le **bicarbonate de potassium** et le **chlorure de potassium** (risque d'hyperkaliémie). De nombreuses interactions de niveau modéré concernent l'hydrocortisone, l'éluxadoline, l'exénatide et les différentes insulines (effet sur la glycémie), ainsi que le polyéthylène glycol avec électrolytes.
+- **Point d'attention spécifique** : la sténose bilatérale des artères rénales est une précaution connue pour cette classe, ce qui est pertinent pour l'hypertension rénovasculaire.
+
+Les mises en garde de la notice n'ont pas pu être consultées ; veuillez consulter la notice pour les informations de sécurité complètes.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Il n'existe aucun essai clinique et aucune donnée humaine ou spécifique au valsartan pour cette indication. La seule publication est préclinique et concerne un autre médicament (niveau de preuve L4).
-- Les mises en garde et contre-indications issues de la notice ANSM manquent, ce qui bloque le passage à l'étape de criblage de sécurité S1.
+- Aucun essai clinique n'est enregistré, et la seule publication retrouvée est un travail préclinique sur un autre médicament. Le niveau de preuve est L4 (mécanistique uniquement).
+- Toutes les AMM françaises du valsartan sont annulées, et les données de sécurité de la notice sont absentes (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante.
-- Compléter les données de mécanisme d'action via DrugBank.
-- Renseigner le texte de l'indication approuvée des AMM afin de documenter l'indication d'origine.
-- Rechercher des données spécifiques au valsartan (études précliniques ou cliniques) dans la néphropathie hypertensive maligne.
-- Évaluer le risque rénal des ARA II en cas de sténose bilatérale des artères rénales, pertinent pour les indications voisines d'hypertension rénovasculaire.
-
-**Autres indications prédites (à titre indicatif) :** la maladie cardiaque pulmonaire chronique (cœur pulmonaire) est la seule autre piste avec des éléments indirects (niveau L4, stade S1). Ces éléments proviennent d'essais sur l'association sacubitril/valsartan dans l'insuffisance cardiaque gauche, qui n'équivaut pas au valsartan seul. Les autres prédictions n'ont aucune preuve exploitable (niveau L5 ou L4 avec un lien très indirect).
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) pour permettre l'évaluation de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Rechercher des études spécifiques au valsartan (précliniques puis cliniques) dans la maladie rénale hypertensive maligne.
+- Clarifier la situation réglementaire en France (AMM annulées) et la compatibilité des voies d'administration.
+- Envisager l'hypertension rénovasculaire maligne comme piste de suivi, en tenant compte de la précaution liée à la sténose bilatérale des artères rénales.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

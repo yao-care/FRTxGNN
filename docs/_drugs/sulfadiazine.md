@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 291
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 719
+evidence_level: L4
 indication_count: 2
 ---
 
 # Sulfadiazine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,112 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Sulfadiazine : De l'Indication Originale Non Renseignée à la Pneumocystose
+# Sulfadiazine : De la toxoplasmose à la pneumocystose
 
 ## Résumé en Une Phrase
 
-La sulfadiazine est un sulfamide antibactérien commercialisé en France sous forme de comprimés (ADIAZINE 500 mg). Sa ou ses indications d'origine ne sont pas renseignées dans les données disponibles.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose**, mais **aucun essai clinique** n'est enregistré. Seules **20 publications** existent, essentiellement des revues narratives et d'anciens rapports cliniques (1971-2002).
+La sulfadiazine est un sulfamide antibactérien et antiparasitaire, utilisé à l'origine principalement pour traiter la toxoplasmose (y compris ses formes oculaires et congénitales).
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose**, mais **aucun essai clinique** n'est enregistré et les **20 publications** identifiées sont presque toutes des revues générales ou des cas cliniques, sans preuve directe pour la sulfadiazine dans cette indication.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Toxoplasmose (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
 | Nouvelle Indication Prédite | Pneumocystose |
 | Score de Prédiction TxGNN | 99,39 % |
-| Niveau de Preuve | L4 (aucune étude contrôlée ; revues narratives, anciens rapports cliniques et raisonnement mécanistique par analogie de classe) |
-| Statut de Marché en France | ✓ Commercialisé |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
 | Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
+---
+
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche du médicament. Sur la base des connaissances de la classe, la sulfadiazine est un sulfamide qui inhibe la dihydroptéroate synthase (DHPS), une enzyme de la voie de synthèse des folates. Ce lien mécanistique est déduit de la classe pharmacologique et n'est pas confirmé par les données sources.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la sulfadiazine fait partie de la classe des sulfamides, qui inhibent la dihydroptéroate synthase, une enzyme de la voie de synthèse des folates. Son efficacité dans la toxoplasmose est établie, généralement en association avec la pyriméthamine.
 
-*Pneumocystis* possède une cible DHPS, et des mutations de cette enzyme sont associées à la résistance aux sulfamides. Le sulfaméthoxazole, un sulfamide apparenté, est le pilier du traitement de première intention par triméthoprime-sulfaméthoxazole (TMP-SMX). Il est donc biologiquement plausible qu'un sulfamide comme la sulfadiazine agisse sur ce pathogène.
+*Pneumocystis jirovecii* dépend de la même voie métabolique. Les sulfamides, notamment l'association triméthoprime-sulfaméthoxazole, constituent un traitement établi de la pneumocystose. Le lien biologique est donc plausible. Les indications d'origine de la sulfadiazine (toxoplasmose et ses atteintes oculaires, mais aussi rectocolite hémorragique et maladies inflammatoires de l'intestin selon le graphe de connaissances) montrent un profil surtout anti-infectieux et antiparasitaire.
 
-La littérature identifiée rapporte aussi l'usage de l'association pyriméthamine-sulfadiazine dans la pneumonie à *Pneumocystis carinii* (1971, 1989). Ces documents sont anciens et de faible niveau de preuve. Le score TxGNN élevé reste une prédiction du modèle, sans confirmation clinique moderne dans ce dossier.
+Cette plausibilité reste toutefois indirecte. Les données disponibles concernent essentiellement le sulfaméthoxazole, un autre sulfamide, et non la sulfadiazine. Une publication de 1989 évoque l'association pyriméthamine-sulfadiazine dans la pneumonie à *P. carinii* et la toxoplasmose au cours du sida, mais son résumé n'est pas disponible.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
-Aucune de ces publications n'est un essai randomisé. Plusieurs n'ont pas de résumé disponible ; leur contenu est alors décrit d'après le titre uniquement.
+Les publications ci-dessous sont les plus pertinentes parmi celles compilées (revues, puis séries et cas cliniques). Aucune n'est un essai randomisé.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [2645082](https://pubmed.ncbi.nlm.nih.gov/2645082/) | 1989 | Rapport clinique | Clinical Pharmacy | Association pyriméthamine-sulfadiazine dans la pneumonie à *P. carinii* et la toxoplasmose chez des patients atteints du SIDA (résumé non disponible ; d'après le titre) |
-| [5315969](https://pubmed.ncbi.nlm.nih.gov/5315969/) | 1971 | Non classé | Annals of Internal Medicine | Pneumonie à *P. carinii* traitée par pyriméthamine et sulfadiazine (résumé non disponible ; d'après le titre) |
-| [4580723](https://pubmed.ncbi.nlm.nih.gov/4580723/) | 1973 | Revue | Transplantation Proceedings | Diagnostic et traitement de la pneumocystose et de la toxoplasmose chez l'hôte immunodéprimé (résumé non disponible) |
-| [2969023](https://pubmed.ncbi.nlm.nih.gov/2969023/) | 1988 | Non classé | The Journal of Infectious Diseases | Traitement et prophylaxie de la pneumonie à *P. carinii* (résumé non disponible ; d'après le titre) |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Revue | Drugs | Synthèse du traitement et de la prophylaxie des infections protozoaires systémiques (*P. carinii*, *Toxoplasma*, *Leishmania*, trypanosomes) |
-| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Revue | American Family Physician | Panorama des antiparasitaires : TMP-SMX pour la pneumonie à *Pneumocystis* ; quinine-pyriméthamine-sulfadiazine pour le paludisme à *falciparum* chloroquino-résistant |
-| [12645193](https://pubmed.ncbi.nlm.nih.gov/12645193/) | 2002 | Rapport de cas | Journal of the Formosan Medical Association | Abcès cérébral à *Toxoplasma* traité par clindamycine et sulfadiazine chez un patient SIDA avec pneumonie à *P. carinii* atypique concomitante (Taïwan) |
-| [8248069](https://pubmed.ncbi.nlm.nih.gov/8248069/) | 1993 | Non classé | Presse Médicale | L'intolérance aux sulfamides est très fréquente chez les sujets infectés par le VIH, environ 10 fois plus que dans la population générale (réactions précoces IgE-dépendantes et réactions tardives fébriles avec éruption) |
-| [1836573](https://pubmed.ncbi.nlm.nih.gov/1836573/) | 1991 | Non classé | Presse Médicale | Place de l'acide folinique dans les cytopénies induites par les antiparasitaires chez les patients SIDA ; pas d'ajout systématique au traitement curatif par cotrimoxazole |
-| [1088340](https://pubmed.ncbi.nlm.nih.gov/1088340/) | 1975 | Non classé | Annals of Internal Medicine | Risque de l'acide folinique associé à la pyriméthamine et à la sulfadiazine (résumé non disponible ; d'après le titre) |
+| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Revue | American Family Physician | Médicaments antiparasitaires de choix : quinine-pyriméthamine-sulfadiazine pour le paludisme résistant, triméthoprime-sulfaméthoxazole pour la pneumocystose |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Revue | Drugs | Traitement et prophylaxie des infections protozoaires systémiques (*Pneumocystis*, *Toxoplasma*, etc.) |
+| [2011633](https://pubmed.ncbi.nlm.nih.gov/2011633/) | 1991 | Revue | Primary Care | Infections protozoaires associées au sida, dont la pneumocystose et la toxoplasmose cérébrale |
+| [2996829](https://pubmed.ncbi.nlm.nih.gov/2996829/) | 1985 | Revue | Clinical Pharmacy | Traitement des complications infectieuses du sida ; la pneumocystose est la plus fréquente |
+| [7909657](https://pubmed.ncbi.nlm.nih.gov/7909657/) | 1994 | Revue | Annals of Internal Medicine | Avancées dans la prise en charge des infections opportunistes liées au sida |
+| [9097375](https://pubmed.ncbi.nlm.nih.gov/9097375/) | 1997 | Revue | Seminars in Respiratory Infections | Pneumonie à *Toxoplasma* chez les patients immunodéprimés |
+| [29604970](https://pubmed.ncbi.nlm.nih.gov/29604970/) | 2018 | Revue | Handbook of Clinical Neurology | Infection du système nerveux central par *Toxoplasma gondii* chez les patients VIH |
+| [9562233](https://pubmed.ncbi.nlm.nih.gov/9562233/) | 1998 | Revue | Int J Clin Pharmacol Ther | Néphrotoxicité des anti-infectieux, dont la précipitation tubulaire des sulfamides |
+| [2645082](https://pubmed.ncbi.nlm.nih.gov/2645082/) | 1989 | Non classé | Clinical Pharmacy | Pyriméthamine-sulfadiazine dans la pneumocystose et la toxoplasmose au cours du sida (résumé non disponible) |
+| [15673759](https://pubmed.ncbi.nlm.nih.gov/15673759/) | 2005 | Étude de mécanisme | Antimicrob Agents Chemother | Des mutations du gène DHPS de *P. jirovecii* confèrent une résistance croisée aux sulfamides |
+| [2060528](https://pubmed.ncbi.nlm.nih.gov/2060528/) | 1991 | Observationnelle | Eur J Clin Microbiol Infect Dis | Suivi de 35 patients sous traitement d'entretien de la toxoplasmose : rechutes de toxoplasmose et de pneumocystose |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66265330 | ADIAZINE 500 mg, comprimé | Comprimé | BOUCHARA-RECORDATI |
+| 66265330 (annulée) | ADIAZINE 500 mg, comprimé (BOUCHARA-RECORDATI) | Comprimé | Non renseignée |
 
-Le texte de l'indication approuvée n'est pas renseigné pour cette AMM.
+---
+
+## Cytotoxicité
+
+Cette section est omise : la sulfadiazine n'est pas un médicament antinéoplasique.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+**Contre-indications issues du graphe de connaissances** (et non du texte de la notice) :
+- Maladies hématologiques : anémie (dont macrocytaire et par carence en folates), anémie aplasique, agranulocytose, neutropénie, leucopénie, thrombopénie
+- Déficit en G6PD
+- Porphyries
+- Atteintes rénales et hépatiques, maladie de la vésicule biliaire, obstruction des voies urinaires, pyourètre
+- Asthme (intrinsèque et allergique)
+- Statut d'acétyleur lent
+- Autres : cystinurie, galactosémie, glycogénose
+
+**Interactions médicamenteuses** : 82 interactions sont recensées, dont celles de niveau modéré suivantes :
+- Antidiabétiques : sulfonylurées (chlorpropamide, glimépiride, glipizide, glibenclamide, tolazamide), glinides (répaglinide, natéglinide) et nombreuses insulines (asparte, dégludec, détémir, glargine, glulisine, lispro, humaine) ; risque d'hypoglycémie
+- Balsalazide, acide picosulfurique, naltrexone
+
+Les mises en garde détaillées de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique n'est enregistré, et la littérature se limite à des revues et à d'anciens rapports cliniques. Le lien mécanistique vient de l'analogie avec le sulfaméthoxazole, et le score TxGNN de 99,39 % reste une prédiction.
-- Les informations de sécurité de la notice ANSM manquent, ce qui bloque le passage au criblage de sécurité (S1).
+- Le lien mécanistique est plausible, mais aucune preuve directe n'existe pour la sulfadiazine dans la pneumocystose : la littérature est composée de revues générales, et les données portent surtout sur le sulfaméthoxazole. Le traitement de référence (triméthoprime-sulfaméthoxazole) est déjà établi.
+- L'unique AMM française est annulée, ce qui limite le développement pratique.
+- La deuxième prédiction (kératoconjonctivite ponctuée épithéliale, score 99,36 %) ne repose sur aucun essai ni publication (niveau L5). Elle est également en attente (Hold), sans lien antimicrobien plausible, car cette affection est souvent virale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions).
-- Compléter le mécanisme d'action et l'indication originale (DrugBank, texte de l'AMM).
-- Évaluer les signaux de sécurité relevés dans la littérature : intolérance aux sulfamides chez les patients VIH, néphrotoxicité des anti-infectieux, précaution sur l'acide folinique avec pyriméthamine-sulfadiazine.
-- Rechercher des études comparatives récentes face au TMP-SMX pour préciser la place éventuelle de la sulfadiazine dans la pneumocystose.
-- Note : la seconde prédiction (kératoconjonctivite ponctuée, niveau L5, sans essai ni publication) n'est pas retenue à ce stade.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
+- Les mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
+- Les données détaillées sur le mécanisme d'action (DrugBank)
+- Des données comparatives sulfadiazine versus triméthoprime-sulfaméthoxazole dans la pneumocystose, ou un essai clinique dédié
+- Une analyse de faisabilité tenant compte de l'absence de produit commercialisé en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

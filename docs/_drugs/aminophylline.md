@@ -2,7 +2,7 @@
 layout: default
 title: Aminophylline
 parent: Preuves modérées (L3-L4)
-nav_order: 34
+nav_order: 57
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Aminophylline : D'une indication non renseignée à la migraine
+# Aminophylline : De l'indication non renseignée à la migraine
 
 ## Résumé en Une Phrase
 
-L'aminophylline (théophylline associée à l'éthylènediamine) est commercialisée en France sous forme de solution pour perfusion, mais son indication autorisée n'est pas renseignée dans les données ANSM disponibles.
-Le modèle TxGNN prédit qu'elle pourrait être utile dans la **migraine**, avec **0 essai clinique** et **6 publications** seulement. Une seule est une revue récente (2023) ; les autres sont des cas cliniques, des travaux précliniques ou des articles anciens.
+Aminophylline est un dérivé de la théophylline (méthylxanthine), commercialisé en France sous forme de solution pour perfusion ; le texte de l'indication d'origine n'est pas renseigné dans les données compilées pour ce rapport.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*migraine disorder*), mais **aucun essai clinique** n'est enregistré et seules **4 publications** indirectes (une revue, deux rapports de cas, une note clinique historique) soutiennent cette piste.
 
 ---
 
@@ -42,29 +42,29 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **migraine**, avec
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide) |
+| Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
 | Score de Prédiction TxGNN | 99,88 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | ✗ Autorisation annulée uniquement |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank. D'après la pharmacologie générale, l'aminophylline est un inhibiteur non sélectif des phosphodiestérases et un antagoniste des récepteurs de l'adénosine. Le résumé de l'essai NCT07011134 mentionne son usage établi comme bronchodilatateur et dans l'apnée du prématuré. L'indication originale n'a cependant pas pu être confirmée par les données réglementaires.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'aminophylline est un antagoniste non sélectif des récepteurs de l'adénosine et un inhibiteur des phosphodiestérases. Son usage historique concerne le bronchospasme, et elle a aussi été utilisée dans les céphalées post-ponction durale.
 
-L'hypothèse sous-jacente est que la migraine pourrait être liée à un métabolisme énergétique cérébral altéré, avec des taux d'adénosine anormalement élevés. Or l'adénosine dilate les artères cérébrales et participe à la transmission de la douleur. Bloquer ses récepteurs pourrait donc soulager la douleur. Ce raisonnement s'appuie sur une revue de 2023 qui rapporte un bénéfice thérapeutique dans la douleur, notamment les céphalées post-ponction durale, et sur une série de cas observationnelle déjà publiée.
+Le lien avec la migraine repose sur la signalisation de l'adénosine, impliquée dans la vasodilatation cérébrale et la nociception trigémino-vasculaire. Un cas d'épisode de migraine hémiplégique déclenché par le régadénoson (agoniste A2A de l'adénosine) va dans ce sens. Une revue de 2023 discute aussi l'aminophylline dans la douleur et la migraine.
 
-Deux éléments appuient indirectement cette piste. Un cas de migraine hémiplégique a été déclenché par le régadénoson, un agoniste de l'adénosine. Des données *in vitro* montrent que l'adénosine et les composés adéniniques dilatent les artères piales. Ces éléments restent des indices mécanistiques et non des preuves d'efficacité chez l'humain.
+Cette plausibilité reste toutefois **indirecte** : aucun essai clinique n'est enregistré, et la littérature se limite à une revue, un rapport de cas, une note clinique de 1964 et un cas de syndrome X lié à un excès d'adénosine. Le rapport de similarité avec l'indication d'origine n'a pas pu être évalué, faute d'indication d'origine renseignée.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement pour la migraine.
 
 ---
 
@@ -72,12 +72,10 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Revue | Pain Management | L'aminophylline, antagoniste de l'adénosine, pourrait soulager fortement la douleur, en particulier les céphalées post-ponction durale. Une série de cas observationnelle antérieure suggère un effet thérapeutique dans la migraine. |
-| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Cas clinique | J Nucl Cardiol | Épisode de migraine hémiplégique déclenché par le régadénoson (agoniste de l'adénosine). L'aminophylline est citée parmi les moyens d'inverser ses effets indésirables. |
-| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Cas clinique | Can J Cardiol | Patiente avec syndrome X attribué à un excès d'effet de l'adénosine (« migraine myocardique » sans ischémie). |
-| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | Préclinique (*in vitro*) | Stroke | L'adénosine et les composés adéniniques dilatent nettement les artères piales du chat et de l'humain, mais pas les artères extracrâniennes testées. Implication possible dans la migraine. |
-| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Revue / autre | Aggiornamenti Clinicoterapeutici | Article ancien sur les céphalées, sans résumé disponible. Contenu non vérifiable. |
-| [5540199](https://pubmed.ncbi.nlm.nih.gov/5540199/) | 1971 | Autre | The Practitioner | Article de 1971 intitulé « Suppositories », sans résumé. Pertinence incertaine. |
+| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Revue | Pain Management | La migraine pourrait être liée à un métabolisme énergétique cérébral altéré avec adénosine élevée ; l'aminophylline, antagoniste de l'adénosine, soulagerait la douleur, notamment les céphalées post-ponction durale |
+| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Rapport de cas | J Nucl Cardiol | Épisode de migraine hémiplégique déclenché par le régadénoson (agoniste de l'adénosine) |
+| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Rapport de cas | Can J Cardiol | Patiente avec syndrome X lié à un excès d'effet de l'adénosine (« migraine myocardique ») |
+| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Article clinique historique | Aggiorn Clin Ter | Article historique sur les céphalées, sans résumé disponible |
 
 ---
 
@@ -85,15 +83,19 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69586398 | AMINOPHYLLINE RENAUDIN 250 mg/10 ml | Solution pour perfusion | Non renseignée |
-
-Le titulaire est le Laboratoire Renaudin.
+| 69586398 | AMINOPHYLLINE RENAUDIN 250 mg/10 ml, solution pour perfusion (statut : annulée) | Solution pour perfusion | Non renseignée |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : 100 interactions ont été identifiées dans la base DDInter. Parmi celles listées :
+  - **Majeure** : bupropion (risque accru de convulsions).
+  - **Modérées** : antihistaminiques H2 (famotidine, ranitidine, cimétidine, nizatidine), tétracyclines (doxycycline, minocycline, tétracycline), clarithromycine, corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, bétaméthasone, budésonide), préparations de lavage colique (acide picosulfurique, polyéthylène glycol avec électrolytes, sulfate de sodium), acide obéticholique, métréleptine.
+  - **Mineure** : lansoprazole.
+- **Signaux de sécurité issus de la littérature** : dans l'angor de Prinzmetal, l'arrêt d'un test au dipyridamole par l'aminophylline a déclenché des vasospasmes coronariens. Dans l'hyperthyroïdie, les méthylxanthines peuvent aggraver tachycardie et tremblements.
+
+Les mises en garde et contre-indications de la notice n'ont pas pu être obtenues ; veuillez consulter la notice pour ces informations.
 
 ---
 
@@ -102,16 +104,28 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé, mais aucun essai clinique n'est enregistré. Les preuves humaines se limitent à une revue narrative récente, à des cas cliniques et à des articles anciens dont le contenu n'est pas vérifiable. Le niveau de preuve reste L4.
-- L'indication originale et la sécurité ne sont pas documentées. L'analyse d'une autre indication prédite (hypertension pulmonaire) signale en outre une marge thérapeutique étroite et un potentiel d'interactions. Il est donc trop tôt pour recommander une progression.
+- Le niveau de preuve est L4 : aucun essai clinique n'est enregistré pour la migraine, la littérature est indirecte, et la seule AMM française est annulée. La donnée de sécurité de la notice, bloquante, manque également.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer le RCP/la notice ANSM (mises en garde, contre-indications, indication autorisée), lacune bloquante pour le dépistage de sécurité.
-- Compléter le mécanisme d'action via DrugBank.
-- Analyser la série de cas observationnelle citée dans la revue de 2023 et évaluer la faisabilité d'un essai contrôlé. La voie d'administration (perfusion) doit aussi être confrontée à l'usage attendu dans la migraine, la compatibilité de voie n'étant pas encore évaluée.
-- Les prédictions de sous-types (migraine avec aura du tronc cérébral, susceptibilité génétique) n'ont aucune preuve propre. Elles dépendent de la validation de l'hypothèse migraine.
+- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indication d'origine), donnée bloquante pour le dépistage de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action via DrugBank.
+- Évaluer la faisabilité d'un essai exploratoire (Phase 2) ou d'une revue systématique ciblée sur la migraine et les céphalées post-ponction durale.
+- Définir la voie d'administration (la forme actuelle est une perfusion, peu adaptée à un usage chronique dans la migraine) et le plan de gestion des interactions, notamment avec le bupropion.
 
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+---
+
+### Autres indications prédites (pour information)
+
+| Maladie | Score TxGNN | Niveau de preuve | Recommandation |
+|------|------|------|------|
+| Hypertension pulmonaire | 99,23 % | L3 | Question de recherche : 1 essai de Phase 1 (sécurité avec l'ambrisentan, 18 volontaires sains) et des études hémodynamiques anciennes ou précliniques ; aucun essai d'efficacité de Phase 2/3 |
+| Migraine avec aura du tronc cérébral | 99,84 % | L5 | Hold : aucune preuve spécifique |
+| Migraine avec ou sans aura, susceptibilité | 99,82 % | L4 | Hold : doublon de la migraine, sans preuve indépendante |
+| Angor de Prinzmetal | 99,33 % | L4 | Hold : signal de sécurité plutôt que bénéfice |
+| Neuropathie sciatique | 99,07 % | L5 | Hold : étude préclinique unique |
+| Hyperthyroïdie | 99,06 % | L4 | Hold : risque de sécurité plus plausible qu'un bénéfice |
+
+Les autres prédictions (atrophodermie vermiculée, ulérythème ophryogène, cardiopathie cyphoscoliotique) sont de niveau L5 (prédiction du modèle seule) et restent en Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

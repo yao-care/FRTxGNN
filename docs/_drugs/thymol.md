@@ -2,7 +2,7 @@
 layout: default
 title: Thymol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 307
+nav_order: 756
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,69 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Thymol : Des Usages Locaux ORL et Buccaux à l'Anévrisme du Septum Interventriculaire
+# Thymol : D'un usage antiseptique et respiratoire à l'anévrisme du septum interventriculaire
 
 ## Résumé en Une Phrase
 
-Le thymol est un composé phénolique d'origine végétale (thym). Il est commercialisé en France dans des produits à usage local : inhalation par vapeur, pommade et solution buccale. Le modèle TxGNN le prédit comme potentiellement efficace pour l'**anévrisme du septum interventriculaire**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette indication : la prédiction repose uniquement sur le modèle.
-
----
+Le thymol est un composé phénolique issu du thym, présent dans des produits à inhaler, une pommade et une solution buccale, tous aujourd'hui annulés en France. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anévrisme du septum interventriculaire**, mais **aucun essai clinique** ni **aucune publication** ne soutient cette direction : il s'agit d'une prédiction issue uniquement du modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données AMM disponibles (produits à usage local : inhalation, pommade, solution buccale) |
+| Indication Originale | Non renseignée dans les données compilées pour ce rapport |
 | Nouvelle Indication Prédite | Anévrisme du septum interventriculaire |
-| Score de Prédiction TxGNN | 99,25 % (rang 5086) |
+| Score de Prédiction TxGNN | 99,25 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
+| Nombre d'AMM | 3 (toutes annulées) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le thymol est un monoterpène phénolique aux propriétés antioxydantes, anti-inflammatoires et antimicrobiennes. Il module aussi certains canaux TRP. Il est utilisé dans des produits ORL et d'hygiène buccale.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le thymol est un monoterpène phénolique doté de propriétés antimicrobiennes, antioxydantes et anti-inflammatoires. Il a été utilisé dans des préparations à usage local ou respiratoire (inhalation, pommade, bain de bouche).
 
-**Aucun lien mécanistique plausible n'a pu être identifié** avec la nouvelle indication. L'anévrisme du septum interventriculaire est une anomalie cardiaque structurelle, et les activités connues du thymol n'agissent pas sur ce type de lésion. Le score de 99,25 % est une prédiction issue d'un graphe de connaissances, sans confirmation expérimentale ou clinique. Il doit donc être interprété avec beaucoup de prudence.
+Aucun lien mécanistique n'a été identifié entre ces propriétés et l'anévrisme du septum interventriculaire, une anomalie cardiaque structurelle. Le score élevé reflète une proximité dans le graphe de connaissances, et non une preuve pharmacologique. Cette prédiction doit donc être considérée comme une simple hypothèse de modèle.
 
-Les autres prédictions du même classement (valvulopathie pulmonaire, syndrome de Laubry-Pezzi, syndrome de Pierre Robin, délétions chromosomiques, etc.) ont aussi des scores supérieurs à 99 %. Elles sont toutes de niveau L5 et sans lien mécanistique identifié, ce qui suggère un biais systématique du modèle pour ce médicament.
-
----
+D'autres indications prédites, bien classées par le modèle, sont également sans preuve : maladie de la valve pulmonaire, syndrome de Laubry-Pezzi, syndrome de Pierre Robin, fentes oro-faciales, délétions chromosomiques, etc. Pour ces candidats, la plausibilité mécanistique reste faible.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée disponible actuellement pour l'anévrisme du septum interventriculaire.
 
----
+Pour information, des publications sur le thymol existent mais concernent d'autres contextes (revues générales sur le thym, colite expérimentale, autophagie, cicatrisation, activité antimicrobienne, hépatoprotection). Elles sont précliniques ou générales, et sans lien avec l'indication prédite. Ainsi, la revue de Salehi et al. ([29785774](https://pubmed.ncbi.nlm.nih.gov/29785774/), 2018, *Phytotherapy Research*) décrit les usages potentiels du thymol et du thym, sans aborder de pathologie cardiaque.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64424727 | PERUBORE INHALATION | Capsule pour inhalation par vapeur | Laboratoires Mayoly Spindler |
-| 64072763 | VICKS VAPORUB | Pommade | Laboratoire Vicks |
-| 61989408 | GLYCO-THYMOLINE 55 | Solution buccale | SERP |
-
-Le texte des indications approuvées n'est pas renseigné dans les données reçues pour ces trois AMM.
-
----
+| 64424727 | PERUBORE INHALATION | Capsule pour inhalation par vapeur | Non renseignée (AMM annulée) |
+| 64072763 | VICKS VAPORUB | Pommade | Non renseignée (AMM annulée) |
+| 61989408 | GLYCO-THYMOLINE 55 | Solution buccale | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée.
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées pour ce rapport.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est de niveau L5 : aucun essai, aucune publication, et aucun lien mécanistique plausible avec une malformation cardiaque structurelle.
-- Les données de sécurité de la notice ne sont pas disponibles, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans littérature spécifique et sans lien mécanistique plausible avec une anomalie cardiaque structurelle.
+- Toutes les AMM françaises sont annulées, et les informations de sécurité sont indisponibles, ce qui empêche l'étape de sélection de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser les notices ANSM (mises en garde, contre-indications) des trois produits.
-- Obtenir les données détaillées sur le mécanisme d'action (par exemple via l'API DrugBank).
-- Préciser les indications approuvées de chaque AMM.
-- Réexaminer les prédictions avec un critère de plausibilité biologique. Le classement actuel ne contient aucune candidate avec un lien mécanistique identifié.
-
-*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer la notice ANSM (mises en garde et contre-indications) afin de réaliser le criblage de sécurité
+- Obtenir les données de mécanisme d'action depuis DrugBank
+- Préciser l'indication originale des produits à base de thymol
+- Identifier des études précliniques ou mécanistiques ciblant l'anévrisme du septum interventriculaire
+- Évaluer la compatibilité des voies d'administration (les formes existantes sont inhalées, cutanées ou buccales)
+- Envisager de prioriser d'autres indications prédites ayant un meilleur fondement biologique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

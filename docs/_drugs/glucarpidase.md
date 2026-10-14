@@ -2,7 +2,7 @@
 layout: default
 title: Glucarpidase
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 140
+nav_order: 367
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,89 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Glucarpidase : De la Toxicité du Méthotrexate à la Cataracte Diabétique
+# Glucarpidase : D'une indication non documentée à la Cataracte diabétique
 
 ## Résumé en Une Phrase
 
-La glucarpidase est une enzyme recombinante utilisée à l'origine pour hydrolyser le méthotrexate présent en excès dans le sang. Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **cataracte diabétique**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette prédiction, qui repose uniquement sur un calcul du modèle.
+Glucarpidase est une enzyme recombinante (carboxypeptidase G2) qui hydrolyse le méthotrexate et d'autres folates en métabolites inactifs. Son indication d'origine n'est pas renseignée dans les données compilées pour ce rapport.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cataracte diabétique**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Le texte d'indication n'est pas renseigné dans l'AMM. Usage connu : élimination du méthotrexate extracellulaire (d'après la description du mécanisme) |
+| Indication Originale | Non renseignée dans les données disponibles |
 | Nouvelle Indication Prédite | Cataracte diabétique |
 | Score de Prédiction TxGNN | 99,85 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Retiré (AMM annulée uniquement) |
 | Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
+---
+
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, la glucarpidase est une carboxypeptidase G2 recombinante. Elle hydrolyse le méthotrexate extracellulaire et d'autres substrats contenant du glutamate.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le glucarpidase est une enzyme bactérienne recombinante qui dégrade le méthotrexate extracellulaire et les folates. Elle est administrée par voie intraveineuse.
 
-**En pratique, cette prédiction n'est pas plausible sur le plan mécanistique.** La glucarpidase est une grosse protéine qui agit sur le méthotrexate dans le plasma. Rien n'indique qu'elle agisse sur le cristallin, la voie des polyols, la glycation, le stress oxydatif du cristallin ou les voies vasculaires et inflammatoires de la rétine. Administrée par voie systémique, elle devrait aussi pénétrer très peu dans l'œil.
+**Cette prédiction n'est pas étayée sur le plan mécanistique.** Le glucarpidase n'a aucune action connue sur la voie des polyols, l'aldose réductase, la glycation ni l'opacification du cristallin. Sa taille (grosse enzyme) et sa voie systémique rendent par ailleurs une pénétration oculaire peu plausible.
 
-Le score élevé (99,85 %) reflète vraisemblablement des voisins communs dans le graphe de connaissances, notamment autour des pathologies de la cataracte. Il ne traduit pas une biologie commune avec le médicament.
+Le score élevé (99,85 %) est à interpréter avec prudence. Plusieurs sous-types de cataracte (mature, immature, tétanique, associée au diabète de type 2, etc.) reçoivent des scores quasi identiques (≈ 99,83 %), ce qui suggère un artefact de structure du graphe de connaissances plutôt qu'un signal spécifique à la maladie. Les autres prédictions du classement (rétinopathie diabétique, cataractes sénile, corticale, nucléaire, craniosténose avec cataracte) souffrent des mêmes limites : aucun lien mécanistique ni donnée clinique.
 
-Les neuf autres prédictions du modèle vont dans le même sens :
-- rétinopathie diabétique ;
-- cataracte craniosténotique ;
-- cataracte mature ;
-- cataracte tétanique ;
-- cataracte associée au diabète de type 2 ;
-- cataracte immature ;
-- cataracte corticale ;
-- cataracte sénile nucléaire ;
-- cataracte sénile.
-
-Toutes ont des scores compris entre 99,82 % et 99,84 %, sont classées L5 et n'ont ni essai ni publication associés. Aucun lien mécanistique n'a été identifié pour aucune d'entre elles.
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 60176597 | VORAXAZE 1000 unités, poudre pour solution injectable (SERB) | Poudre pour solution injectable |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 60176597 | VORAXAZE 1000 unités, poudre pour solution injectable (SERB) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : 8 interactions de niveau modéré identifiées (source : DDInter) :
+  - Proguanil
+  - Triméthoprime
+  - Lévoleucovorine
+  - Pémétrexed
+  - Pralatrexate
+  - Pyriméthamine
+  - Leucovorine (acide folinique)
+  - Triméthrexate
+
+  Ces interactions concernent principalement des médicaments liés au métabolisme des folates (antifolates et folates).
+
+Veuillez consulter la notice pour les mises en garde et contre-indications.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction relève uniquement du modèle (L5), sans essai clinique ni publication.
-- Elle ne repose sur aucun mécanisme plausible : la glucarpidase agit sur le méthotrexate plasmatique, et sa pénétration oculaire attendue est faible.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible. De plus, l'AMM française est annulée et les données de sécurité issues de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM, à récupérer et analyser (obstacle bloquant pour le criblage de sécurité).
-- Les données détaillées sur le mécanisme d'action (MOA), à obtenir via DrugBank.
-- Des études précliniques ou mécanistiques montrant un effet sur le cristallin ou la rétine.
-- Une évaluation de la faisabilité d'une voie d'administration oculaire, la voie systémique étant peu adaptée.
-
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer la notice de l'ANSM (mises en garde, contre-indications, indication approuvée)
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Identifier un lien biologique plausible entre l'activité enzymatique et la physiopathologie de la cataracte, avec des études précliniques (niveau L4) avant toute considération clinique
+- Évaluer la faisabilité d'une voie d'administration oculaire, la voie intraveineuse actuelle étant peu compatible avec l'indication visée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

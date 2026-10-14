@@ -2,7 +2,7 @@
 layout: default
 title: Zuclopenthixol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 342
+nav_order: 833
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,35 +29,33 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Zuclopenthixol : D'un Neuroleptique Antipsychotique à la Dystrophie Rétinienne (Prédiction Non Étayée)
+# Zuclopenthixol : De la Schizophrénie à la Dystrophie Rétinienne
 
 ## Résumé en Une Phrase
 
-Zuclopenthixol est un neuroleptique de la famille des thioxanthènes, commercialisé en France sous le nom Clopixol. Les données ANSM du dossier ne précisent pas son indication d'origine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extraoculaires**.
-Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** n'est enregistré. Les **15 publications** retrouvées sont des articles généraux d'ophtalmologie qui ne mentionnent pas le zuclopenthixol.
+Le zuclopenthixol est un antipsychotique de la famille des thioxanthènes, initialement utilisé pour le traitement de la **schizophrénie**.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dystrophie rétinienne (avec ou sans anomalies extra-oculaires)**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (neuroleptique de la famille des thioxanthènes) |
-| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
+| Indication Originale | Schizophrénie (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
+| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires |
 | Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 6 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 6 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. L'analyse du dossier décrit le zuclopenthixol comme un antagoniste des récepteurs dopaminergiques D1/D2, avec un blocage additionnel des récepteurs 5-HT2A, alpha-1 adrénergiques et H1.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le zuclopenthixol fait partie des thioxanthènes, antipsychotiques antagonistes des récepteurs dopaminergiques D1/D2. Son efficacité dans la schizophrénie est établie, mais aucun élément fourni ne relie le blocage dopaminergique à la dystrophie rétinienne.
 
-**La prédiction ne paraît pas plausible sur le plan mécanistique.** Les dystrophies rétiniennes héréditaires sont provoquées par des défauts génétiques du fonctionnement des photorécepteurs ou de l'épithélium pigmentaire rétinien. Aucun lien connu ne relie ce profil pharmacologique à ces mécanismes. Seule la signalisation dopaminergique rétinienne est un lien théorique, et il reste très fragile.
+La dystrophie rétinienne est un groupe de maladies génétiquement hétérogènes, dont la physiopathologie (dégénérescence des photorécepteurs ou de l'épithélium pigmentaire) n'a pas de lien démontré avec la neurotransmission dopaminergique ciblée par le médicament. Le score élevé de TxGNN (99,99 %) reflète une proximité dans le graphe de connaissances, pas une preuve biologique ou clinique.
 
-De plus, les neuroleptiques de la famille des phénothiazines et des thioxanthènes ont des préoccupations connues de toxicité rétinienne. La rétinopathie pigmentaire est surtout documentée avec la thioridazine. Cela plaide plutôt contre un bénéfice. Le score élevé de 0,9999 est une sortie de graphe de connaissances et ne constitue pas une preuve.
-
-Les huit autres indications prédites (hydranencéphalie, déficit de glycosylation, Charcot-Marie-Tooth 1G, myopies liées à l'X et syndromique, polymicrogyrie, encéphalopathie glycinique atypique) sont toutes de niveau L5, sans essai ni publication. Pour les myopies, l'effet attendu d'un antagoniste dopaminergique serait même défavorable, puisque la dopamine rétinienne freine l'élongation axiale de l'œil.
+En conséquence, la plausibilité mécanistique doit être considérée comme **non étayée** à ce stade. La prédiction reste une hypothèse à documenter avant toute poursuite.
 
 ## Preuves d'Essais Cliniques
 
@@ -65,58 +63,41 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Les 15 publications retrouvées sont des revues générales, des séries ou des cas cliniques sur des anomalies oculaires et orbitaires congénitales. Aucune ne mentionne le zuclopenthixol et aucune ne teste un traitement pharmacologique de la dystrophie rétinienne. Leur pertinence n'a pas été évaluée (statut « en attente »). Aucun ECR ni revue systématique n'est présent. Voici les 10 plus pertinentes :
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Série de cas | Int J Mol Sci | Anomalies de la tête du nerf optique et de la rétine associées à la fibrose congénitale des muscles extraoculaires |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Rapport de cas | Am J Ophthalmol | Deux patients atteints de cryptophtalmie unilatérale, dont un avec anomalies systémiques |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Revue | Doc Ophthalmol | Syndrome de Wagner-Stickler : dégénérescence vitréorétinienne, myopie, cataracte et décollement de rétine |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Revue | Pediatr Radiol | Diagnostic différentiel et imagerie des pathologies oculaires pédiatriques (microphtalmie, colobome, maladie de Coats, etc.) |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Revue | Taiwan J Ophthalmol | Anomalies congénitales de la forme du cristallin |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Revue | Am J Ophthalmol | Pathogénie et traitement de la maculopathie associée aux anomalies excavées de la papille |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Revue | Semin Ultrasound CT MR | Infections orbitaires, le plus souvent secondaires à une sinusite |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Revue | Semin Neurol | Approche clinique de la diplopie |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Revue | J Binocul Vis Ocul Motil | Ophtalmoplégies et troubles congénitaux de dysinnervation crânienne |
-| [36892533](https://pubmed.ncbi.nlm.nih.gov/36892533/) | 2023 | Non classé | Invest Ophthalmol Vis Sci | Variants faux-sens de MAB21L1 dans un syndrome oculaire autosomique dominant (BAMD) |
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les textes d'indication approuvée ne sont pas renseignés dans les données ANSM du dossier. Cinq des six AMM sont listées ci-dessous :
+Les six AMM identifiées sont toutes annulées ; aucune n'est actuellement valide.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 68072846 | Clopixol Action Prolongée 200 mg/1 ml, solution injectable I.M. | Solution injectable | BB Farma (Italie) |
-| 62788550 | Clopixol Action Prolongée 200 mg/1 ml, solution injectable I.M. | Solution injectable | Lundbeck SAS |
-| 61323662 | Clopixol 10 mg, comprimé pelliculé | Comprimé pelliculé | Lundbeck SAS |
-| 63744998 | Clopixol à Action Semi-Prolongée 50 mg/ml, solution injectable I.M. | Solution injectable | Lundbeck SAS |
-| 69974746 | Clopixol 25 mg, comprimé pelliculé | Comprimé pelliculé | Lundbeck SAS |
+| 68072846 | Clopixol Action Prolongée 200 mg/1 ml (BB Farma, Italie) | Solution injectable | Annulée |
+| 62788550 | Clopixol Action Prolongée 200 mg/1 ml (Lundbeck SAS) | Solution injectable | Annulée |
+| 61323662 | Clopixol 10 mg (Lundbeck SAS) | Comprimé pelliculé | Annulée |
+| 63744998 | Clopixol A Action Semi-Prolongée 50 mg/ml (Lundbeck SAS) | Solution injectable | Annulée |
+| 69974746 | Clopixol 25 mg (Lundbeck SAS) | Comprimé pelliculé | Annulée |
+
+Une sixième AMM annulée existe (n° 69902540, Clopixol Action Prolongée 200 mg/1 ml, Difarmed, Espagne). Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité (mises en garde et contre-indications non disponibles dans ce dossier). Aucune interaction médicamenteuse n'a été trouvée dans la base interrogée.
+Veuillez consulter la notice pour les informations de sécurité.
 
-L'analyse des prédictions signale néanmoins les points suivants :
-- **Toxicité rétinienne** : les neuroleptiques de la famille des phénothiazines et des thioxanthènes sont associés à des rétinopathies pigmentaires (mieux documentées avec la thioridazine). C'est particulièrement préoccupant pour une indication rétinienne.
-- **Seuil épileptogène** : les antipsychotiques peuvent l'abaisser, ce qui est un risque dans une encéphalopathie.
-- **Effets indésirables neurologiques** : ils sont à prendre en compte dans les neuropathies héréditaires comme la maladie de Charcot-Marie-Tooth.
+Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées pour ce rapport, et aucune contre-indication issue du graphe de connaissances n'est répertoriée. Cela ne vaut pas absence de risque : le texte des mises en garde et contre-indications de l'ANSM n'a pas pu être exploité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (L5), sans essai clinique ni publication portant sur le zuclopenthixol.
-- Le mécanisme d'action ne soutient pas l'indication, et une toxicité rétinienne potentielle de la classe plaide contre un bénéfice.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non étayé. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Extraire les mises en garde et contre-indications de la notice ANSM (élément bloquant pour le criblage de sécurité S1).
-- Obtenir le mécanisme d'action détaillé via DrugBank.
-- Obtenir les textes d'indications approuvées des AMM françaises.
-- Mener une recherche ciblée de littérature « zuclopenthixol et rétine » (données précliniques ou toxicité rétinienne).
-- Ne reconsidérer le dossier qu'en présence d'un rationnel biologique ou de données précliniques concrètes.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), élément bloquant
+- Obtenir les données de mécanisme d'action depuis DrugBank
+- Mener une revue de littérature ciblée sur la dopamine rétinienne et les dystrophies rétiniennes
+- Évaluer la pertinence de la voie d'administration et le profil de risque neurologique (effets extrapyramidaux) pour cette population
+- Réexaminer les autres indications prédites (myopie, etc.), qui présentent aussi un niveau de preuve L5, et noter que l'antagonisme dopaminergique irait probablement dans le sens défavorable
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

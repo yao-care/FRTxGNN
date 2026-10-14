@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sumatriptan
-parent: Preuves modérées (L3-L4)
-nav_order: 296
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 725
+evidence_level: L5
 indication_count: 1
 ---
 
 # Sumatriptan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,89 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Sumatriptan : De la Migraine à la Migraine avec Aura du Tronc Cérébral
+# Sumatriptan : De la migraine à la migraine avec aura du tronc cérébral
 
 ## Résumé en Une Phrase
 
-Le sumatriptan est un médicament utilisé dans le traitement de la crise de migraine. Les données réglementaires fournies ne précisent pas le texte de l'indication approuvée.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, avec un score élevé (99,74 %).
-Cette prédiction repose pour l'instant sur **0 essai clinique** et **18 publications**, dont aucune n'étudie spécifiquement ce sous-type de migraine.
-
----
+Le sumatriptan est un agoniste des récepteurs 5-HT1B/1D (classe des triptans), initialement utilisé pour le traitement de la migraine et de l'algie vasculaire de la face.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais **aucun essai clinique** n'est enregistré et les **18 publications** identifiées portent surtout sur la migraine en général, sans preuve spécifique à ce sous-type.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (usage connu : traitement de la crise de migraine) |
+| Indication Originale | Migraine (indications issues du graphe de connaissances : migraine avec ou sans aura, algie vasculaire de la face, hémicrânie paroxystique, hémicrânie continue) |
 | Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
-| Score de Prédiction TxGNN | 99,74 % (rang 2449) |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
+| Score de Prédiction TxGNN | 99,74 % |
+| Niveau de Preuve | L5 (prédiction du modèle, sans étude spécifique à ce sous-type) |
+| Statut de Marché en France | Autorisations annulées uniquement |
+| Nombre d'AMM | 3 (toutes annulées) |
 | Décision Recommandée | Hold |
 
----
+*Remarque : le système de scoring interne classe cette prédiction en L4 (« Research Question »). Selon la grille de ce rapport, aucune étude préclinique ou de mécanisme spécifique n'étant disponible, le niveau L5 est retenu pour ce sous-type précis.*
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne figurent pas dans le dossier. D'après la littérature fournie (PMID 8536293 et 31135819), le sumatriptan est un agoniste des récepteurs 5-HT1B/1D. Il provoque la constriction de certains gros vaisseaux crâniens et inhibe la libération de neuropeptides vasoactifs par les fibres trigéminales de la dure-mère. C'est la base de son usage dans la migraine et l'algie vasculaire de la face. Son mécanisme précis n'est cependant pas entièrement élucidé.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le sumatriptan est un agoniste sélectif des récepteurs 5-HT1B/1D. Il soulagerait la crise migraineuse par vasoconstriction des vaisseaux crâniens et par inhibition de la libération de neuropeptides (dont le CGRP) et de la transmission nociceptive trigéminale.
 
-La migraine avec aura du tronc cérébral est un sous-type de migraine. Le score TxGNN très élevé reflète probablement la proximité de cette maladie avec l'indication migraine déjà établie dans le graphe de connaissances, et non un signal propre à ce sous-type. Aucune donnée d'efficacité ou de sécurité spécifique à ce sous-type n'a été fournie.
+La migraine avec aura du tronc cérébral est un sous-type clinique de la migraine. Elle partage donc la physiopathologie trigéminovasculaire de l'indication d'origine. Ce lien ontologique étroit explique probablement le score élevé du modèle (0,997), qui reflète plus la proximité avec la migraine que des preuves propres à ce sous-type.
 
-**Point d'attention majeur :** l'aura du tronc cérébral provient d'un dysfonctionnement du tronc cérébral ou de la circulation postérieure. La vasoconstriction induite par les triptans y pose donc un problème théorique de sécurité. Selon l'analyse du dossier, les notices du sumatriptan ont historiquement classé la migraine de type basilaire et la migraine hémiplégique parmi les contre-indications. Cette information n'a pas pu être vérifiée dans la notice ANSM et doit l'être avant toute suite.
-
----
+**Point d'attention majeur :** les triptans ont historiquement été utilisés avec prudence, voire considérés comme contre-indiqués, dans la migraine avec aura du tronc cérébral (anciennement migraine basilaire), par crainte théorique d'une vasoconstriction dans la circulation postérieure. Cette question de sécurité doit être clarifiée avant toute recommandation.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
-
----
+Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune de ces publications ne porte spécifiquement sur la migraine avec aura du tronc cérébral. Toutes sont en attente de validation de pertinence.
+Aucune publication ne porte spécifiquement sur le sumatriptan dans la migraine avec aura du tronc cérébral. Les références les plus pertinentes concernent la migraine en général ou la migraine avec aura.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [33567890](https://pubmed.ncbi.nlm.nih.gov/33567890/) | 2021 | ECR | Cephalalgia | Un traitement précoce par sumatriptan prévient les crises de migraine induites par le PACAP38. |
-| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | ECR | Phytother Res | Comparaison en double aveugle du gingembre et du sumatriptan chez 100 patients ayant une migraine sans aura. |
-| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | Essai randomisé (classification en attente) | Cephalalgia | Sumatriptan oral 200 mg contre placebo, en double aveugle, dans la migraine avec aura. |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohorte | Neurology | Efficacité réduite du sumatriptan dans la migraine avec aura par rapport à la migraine sans aura. |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revue | Headache | Évaluation par l'American Headache Society des preuves sur les traitements de la crise de migraine chez l'adulte. |
-| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Revue | Cephalalgia | Revue critique de l'expérience clinique du sumatriptan dans la migraine et l'algie vasculaire de la face. |
-| [31135819](https://pubmed.ncbi.nlm.nih.gov/31135819/) | 2019 | Étude mécanistique | JAMA Neurol | Lien entre le traitement par sumatriptan pendant une crise et la liaison centrale au récepteur 5-HT1B. |
-| [8559405](https://pubmed.ncbi.nlm.nih.gov/8559405/) | 1996 | Non classé | Neurology | Sumatriptan sous-cutané et aura migraineuse (résumé non disponible). |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Revue | Handb Clin Neurol | État de mal migraineux, complication de la migraine avec ou sans aura. |
-| [21469920](https://pubmed.ncbi.nlm.nih.gov/21469920/) | 2011 | Autre | Expert Rev Neurother | Sumatriptan sous-cutané sans aiguille (Sumavel DosePro), approuvé pour la migraine avec ou sans aura et l'algie vasculaire de la face. |
-
----
+| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | ECR | Phytotherapy Research | Gingembre vs sumatriptan dans la migraine sans aura (100 patients, double aveugle) |
+| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | Essai randomisé contre placebo | Cephalalgia | Efficacité du sumatriptan oral 200 mg dans la migraine avec aura |
+| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Étude clinique | Neurology | Efficacité réduite du sumatriptan dans la migraine avec aura par rapport à la migraine sans aura |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revue (évaluation des preuves) | Headache | Évaluation actualisée des preuves des traitements aigus de la migraine chez l'adulte |
+| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Revue | Cephalalgia | Revue critique du sumatriptan dans la migraine et l'algie vasculaire de la face |
+| [12917936](https://pubmed.ncbi.nlm.nih.gov/12917936/) | 2003 | Revue Cochrane | Cochrane Database Syst Rev | Sumatriptan oral dans la migraine aiguë |
+| [8559405](https://pubmed.ncbi.nlm.nih.gov/8559405/) | 1996 | Publication | Neurology | Sumatriptan sous-cutané et aura migraineuse |
+| [26628293](https://pubmed.ncbi.nlm.nih.gov/26628293/) | 2016 | Revue | Drugs | Association sumatriptan/naproxène sodique dans la migraine avec ou sans aura |
+| [27681528](https://pubmed.ncbi.nlm.nih.gov/27681528/) | 2016 | Revue | Drugs | Poudre nasale de sumatriptan dans le traitement aigu de la migraine |
+| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Revue | Handbook of Clinical Neurology | État de mal migraineux, complication de la migraine avec ou sans aura |
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67153334 | IMIGRANE 10 mg/0,1 ml, solution pour pulvérisation nasale | Solution pour pulvérisation | Non précisée dans les données |
-| 66276750 | IMIJECT 6 mg/0,5 ml, solution injectable pour voie sous-cutanée en seringue pré-remplie | Solution injectable | Non précisée dans les données |
-| 67876328 | IMIGRANE 20 mg/0,1 ml, solution pour pulvérisation nasale | Solution pour pulvérisation | Non précisée dans les données |
-
-Les trois AMM sont détenues par GLAXOSMITHKLINE.
-
----
+| 67153334 | IMIGRANE 10 mg/0,1 ml, solution pour pulvérisation nasale (annulée) | Solution pour pulvérisation | Non renseignée |
+| 66276750 | IMIJECT 6 mg/0,5 ml, solution injectable pour voie sous-cutanée en seringue pré-remplie (annulée) | Solution injectable | Non renseignée |
+| 67876328 | IMIGRANE 20 mg/0,1 ml, solution pour pulvérisation nasale (annulée) | Solution pour pulvérisation | Non renseignée |
 
 ## Considérations de Sécurité
 
-- **Point de vigilance principal** : le risque théorique lié à la vasoconstriction dans une pathologie du tronc cérébral ou de la circulation postérieure. Les contre-indications historiques dans la migraine de type basilaire et hémiplégique doivent être vérifiées dans la notice actuelle.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : maladies cardiovasculaires (maladie coronarienne, infarctus du myocarde, insuffisance cardiaque congestive, cardiopathies, maladie vasculaire périphérique, claudication intermittente), accident vasculaire cérébral et maladies cérébrovasculaires (infarctus cérébral), hypertension, insuffisance hépatique et maladies hépatiques, maladie rénale, épilepsie, diabète et acidocétose diabétique, troubles de la coagulation, obésité, maladies de la vésicule biliaire, hémoglobinopathies et anémies, abus ou dépendance aux substances.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) :
+  - **Majeures** : dexfenfluramine, fenfluramine, lorcasérine, sibutramine (risque de syndrome sérotoninergique), dolasétron, granisétron, ondansétron, palonosétron.
+  - **Modérées** : morphine (y compris liposomale).
+  - Plusieurs autres interactions de niveau non classé (inhibiteurs de la pompe à protons, metformine, doxycycline, cimétidine, etc.).
+- **Préoccupation spécifique à l'indication** : la prudence historique des triptans dans la migraine avec aura du tronc cérébral (risque théorique d'ischémie du territoire vertébrobasilaire) est détaillée plus haut.
 
-Les mises en garde, contre-indications et interactions médicamenteuses issues de la notice ANSM n'ont pas pu être obtenues. Veuillez consulter la notice pour les informations de sécurité.
-
----
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles, non disponibles dans les données compilées.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est élevé, mais aucune preuve propre à la migraine avec aura du tronc cérébral n'est disponible, et le niveau de preuve reste L4.
-- La vasoconstriction induite par les triptans pose un risque théorique de sécurité dans ce sous-type. Les données de sécurité de la notice ANSM manquent et bloquent l'évaluation.
+- La prédiction repose uniquement sur le modèle et la proximité avec la migraine générale. Aucun essai clinique ni publication spécifique n'existe pour ce sous-type, et la préoccupation de sécurité vasculaire (circulation postérieure) n'est pas résolue.
+- Toutes les AMM françaises sont annulées, et les données de notice (mises en garde, contre-indications) manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde et contre-indications), point bloquant, afin de confirmer le statut de la migraine basilaire et hémiplégique.
-- Obtenir les données sur le mécanisme d'action et l'indication originale (DrugBank, texte d'indication des AMM).
-- Rechercher des études spécifiques à la migraine avec aura du tronc cérébral (efficacité et sécurité).
-- Évaluer le risque vasculaire dans la circulation postérieure.
-- Valider la pertinence des 18 publications, toutes en attente de relecture.
-- Vérifier la compatibilité des voies d'administration (nasale et sous-cutanée), non évaluée à ce jour.
+- Obtenir et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Réaliser une revue ciblée de la sécurité des triptans dans la migraine avec aura du tronc cérébral (recommandations des sociétés savantes, séries de cas).
+- Clarifier la situation réglementaire actuelle en France (autres spécialités à base de sumatriptan éventuellement commercialisées).
+- Évaluer la compatibilité des voies d'administration pour cette indication.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

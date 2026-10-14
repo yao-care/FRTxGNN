@@ -2,7 +2,7 @@
 layout: default
 title: Pentamidine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 234
+nav_order: 587
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,38 +29,32 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Pentamidine : De l'Anti-infectieux à la Kératoconjonctivite Épithéliale Ponctuée
+# Pentamidine : De la pneumocystose à la kératoconjonctivite ponctuée épithéliale
 
 ## Résumé en Une Phrase
 
-La pentamidine est un anti-infectieux (activité antiprotozoaire et antifongique) commercialisé en France sous forme de poudre pour aérosol et pour usage parentéral (Pentacarinat 300 mg).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **kératoconjonctivite épithéliale ponctuée**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction.
+Pentamidine est un antimicrobien (antiprotozoaire et antifongique) initialement utilisé pour traiter la pneumocystose et la trypanosomiase humaine africaine.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératoconjonctivite ponctuée épithéliale**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée |
+| Indication Originale | Pneumocystose, trypanosomiase humaine africaine, trypanosomiase (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
+| Nouvelle Indication Prédite | Kératoconjonctivite ponctuée épithéliale |
 | Score de Prédiction TxGNN | 99,73 % |
-| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la pentamidine est un anti-infectieux de la famille des diamidines aromatiques. Son activité antiprotozoaire et antifongique est connue, et son usage ophtalmologique n'a pas été démontré.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la pentamidine est un agent antimicrobien dont l'efficacité a été établie dans la pneumocystose et les trypanosomiases. Sur le plan mécanistique, elle pourrait être applicable à une kératoconjonctivite d'origine infectieuse (par exemple adénovirale ou microsporidienne).
 
-Le seul lien indirect est le suivant : des diamidines aromatiques apparentées (par exemple la propamidine) s'utilisent en collyre contre la kératite à *Acanthamoeba*. Cela suggère une possible activité antimicrobienne oculaire. Ce raisonnement reste une hypothèse. Aucun mécanisme direct n'est établi pour la kératoconjonctivite épithéliale ponctuée.
+Ce lien reste toutefois spéculatif. Aucune donnée compilée pour ce rapport ne le démontre, et le score élevé du modèle (0,997) repose uniquement sur le graphe de connaissances. La voie d'administration oculaire et la tolérance locale de la pentamidine ne sont pas établies, et la compatibilité des voies d'administration reste à évaluer (la seule forme connue est une poudre pour aérosol et usage parentéral).
 
-Le score élevé (0,997) provient uniquement du graphe de connaissances. De plus, la pentamidine par voie générale est notablement toxique (néphrotoxicité, dysglycémie, allongement de l'intervalle QT). Il n'existe ni formulation oculaire ni donnée de sécurité oculaire.
-
-Les autres prédictions du modèle ne sont pas mieux étayées, toutes au niveau L5 avec la recommandation Hold :
-- **Kératopathie neurotrophique** : aucun rationnel mécanistique plausible.
-- **Kératite d'exposition** : probable artéfact de proximité dans le graphe.
-- **Maladie animale non humaine** : catégorie d'ontologie non spécifique, à exclure de la priorisation.
-- **Analbuminémie congénitale** : aucun mécanisme connu pour restaurer la synthèse d'albumine.
+Les autres prédictions du modèle sont encore moins soutenues : kératopathie neurotrophique (99,67 %), kératite d'exposition (99,36 %), « maladie animale non humaine » (99,13 %, catégorie non spécifique, sans portée clinique) et analbuminémie congénitale (99,09 %, sans mécanisme plausible). Elles sont probablement des artefacts du graphe de connaissances et ne justifient pas d'évaluation à ce stade.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,28 +66,35 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61423246 | PENTACARINAT 300 mg, poudre pour aérosol et pour usage parentéral | Poudre pour aérosol et pour usage parentéral | TAMRISA ACCESS (FRANCE) |
+| 61423246 | PENTACARINAT 300 mg, poudre pour aérosol et pour usage parentéral (statut : annulée) | Poudre pour aérosol et pour usage parentéral | Non renseignée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Maladies associées à des contre-indications selon le graphe de connaissances** (et non selon la notice) : hypertension, hypotension, torsades de pointes, arrêt cardiaque soudain, trouble de la conduction cardiaque, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, pancréatite, thrombopénie, leucopénie, anémie (dont macrocytaire), hyperglycémie, hypoglycémie, diabète, acidocétose diabétique, asthme (dont intrinsèque et allergique), hypercalcémie, néphrocalcinose, troubles du métabolisme du phosphore et pyourétère.
+- **Interactions médicamenteuses** : 100 interactions recensées, dont les exemples suivants de niveau modéré :
+  - antidiabétiques : acarbose, metformine, pioglitazone, alogliptine, albiglutide, canagliflozine, dapagliflozine, chlorpropamide ;
+  - amphotéricine B (y compris complexe lipidique) ;
+  - clarithromycine ;
+  - inhibiteurs de la pompe à protons et anti-H2 : oméprazole, rabéprazole, famotidine ;
+  - laxatifs et gastro-intestinaux : bisacodyl, acide picosulfurique, polyéthylène glycol, lopéramide, mésalazine, balsalazide.
+
+Les mises en garde et contre-indications issues de la notice n'ont pas pu être consultées. Veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans publication et sans mécanisme établi. Le profil de toxicité systémique de la pentamidine et l'absence de formulation oculaire s'ajoutent à ces lacunes. Le dossier ne peut pas passer au criblage de sécurité tant que les données de la notice ANSM manquent.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme d'action est inconnu, la seule AMM française est annulée, et le profil de risque (cardiaque, rénal, glycémique, hématologique) est préoccupant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications de la notice ANSM (télécharger et analyser le PDF de la notice)
-- Données sur le mécanisme d'action (interroger l'API DrugBank)
-- Texte de l'indication approuvée de l'AMM 61423246
-- Revue de la littérature sur les diamidines en ophtalmologie (propamidine, kératite à *Acanthamoeba*)
-- Évaluation de la faisabilité d'une voie d'administration oculaire et de sa sécurité locale
-- Données précliniques sur l'activité de la pentamidine dans les atteintes de la surface oculaire
+- Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante pour le criblage de sécurité).
+- Obtenir les données sur le mécanisme d'action depuis DrugBank.
+- Mener une revue de la littérature et des registres d'essais sur la pentamidine dans les kératites et kératoconjonctivites infectieuses.
+- Évaluer la faisabilité d'une formulation et d'une voie d'administration oculaires, ainsi que la tolérance locale.
+- Réévaluer les indications prédites secondaires, qui paraissent peu plausibles.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

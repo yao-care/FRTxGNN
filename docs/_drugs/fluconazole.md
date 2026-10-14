@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 132
+nav_order: 331
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,74 +29,93 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Fluconazole : De l'antifongique systémique à la kératoconjonctivite épithéliale ponctuée
+# Fluconazole : Des Candidoses à la Kératoconjonctivite Épithéliale Ponctuée
 
 ## Résumé en Une Phrase
 
-Le fluconazole est un antifongique de la famille des triazolés, commercialisé en France sous forme de gélules, de poudre pour suspension buvable et de solution pour perfusion.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératoconjonctivite épithéliale ponctuée**, avec un score élevé (99,24 %).
-Cette prédiction ne repose sur **aucun essai clinique** et **aucune publication** : elle reste une sortie de modèle, non confirmée.
+Le fluconazole est un antifongique azolé, initialement utilisé pour traiter les candidoses (buccale, vulvovaginale, œsophagienne, candidémie, candidose disséminée) et la méningite à cryptocoque.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératoconjonctivite épithéliale ponctuée**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Texte d'indication non renseigné dans les données ANSM fournies (antifongique) |
+| Indication Originale | Candidoses (candidose buccale, vulvovaginale, œsophagienne, candidémie, candidose disséminée) et méningite à cryptocoque (d'après le graphe de connaissances ; le texte des AMM ne précise pas d'indication) |
 | Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée |
 | Score de Prédiction TxGNN | 99,24 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Nombre d'AMM | 20 (dont 0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, le fluconazole est un triazolé qui inhibe la lanostérol 14-alpha-déméthylase fongique (CYP51), enzyme nécessaire à la synthèse de l'ergostérol de la membrane des champignons.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le fluconazole est un antifongique azolé qui inhibe la lanostérol 14-alpha-déméthylase fongique (CYP51), ce qui perturbe la synthèse de l'ergostérol, composant essentiel de la membrane des champignons. Son efficacité dans les infections à *Candida* et à *Cryptococcus* est établie.
 
-Ce mécanisme ne s'applique pas facilement à la nouvelle indication. La kératoconjonctivite épithéliale ponctuée est le plus souvent d'origine virale (adénovirus) ou à médiation immunitaire (par exemple la kératite ponctuée superficielle de Thygeson), et rarement fongique. Sans cause fongique établie, un antifongique n'a pas de justification mécanistique claire.
+Le seul soutien à la prédiction est le score élevé du modèle (0,992). Un lien plausible, mais non vérifié, serait que le modèle associe les kératoconjonctivites d'origine fongique ou infectieuse à l'activité antifongique. Or la kératoconjonctivite épithéliale ponctuée est souvent d'origine virale (par exemple adénovirus) ou liée à une atteinte de la surface oculaire ; dans ces situations, un antifongique n'agirait pas sur la cause.
 
-Le score élevé peut refléter une proximité dans le graphe de connaissances avec d'autres affections de la surface oculaire ou des kératites infectieuses. Un éventuel effet secondaire, comme une activité anti-inflammatoire, relève de la spéculation. La prédiction doit donc être vérifiée de manière indépendante avant toute exploitation.
+La prédiction ne peut donc pas être considérée comme soutenue sur le plan mécanistique sans preuves supplémentaires. La similarité avec l'indication d'origine reste à évaluer, et la compatibilité des voies d'administration (les formes disponibles sont orales et perfusion, aucune forme ophtalmique) n'a pas été établie.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60560861 | FLUCONAZOLE EVOLUGEN 50 mg | Gélule | Non précisée dans les données |
-| 62033904 | FLUCONAZOLE SANDOZ 200 mg | Gélule | Non précisée dans les données |
-| 63909389 | FLUCONAZOLE VIATRIS 50 mg | Gélule | Non précisée dans les données |
-| 63206323 | FLUCONAZOLE PFIZER 150 mg | Gélule | Non précisée dans les données |
-| 69903578 | FLUCONAZOLE BIOGARAN 50 mg | Gélule | Non précisée dans les données |
+Les 20 AMM recensées sont toutes annulées. Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données).
 
-Au total, 20 AMM sont recensées. Les formes disponibles sont la gélule, la poudre pour suspension buvable et la solution pour perfusion. Aucune forme ophtalmique n'apparaît dans les données.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+|---------|------|------|-----------|
+| 60560861 | FLUCONAZOLE EVOLUGEN 50 mg | Gélule | Annulée |
+| 62033904 | FLUCONAZOLE SANDOZ 200 mg | Gélule | Annulée |
+| 63909389 | FLUCONAZOLE VIATRIS 50 mg | Gélule | Annulée |
+| 63206323 | FLUCONAZOLE PFIZER 150 mg | Gélule | Annulée |
+| 64080646 | TRIFLUCAN 50 mg | Gélule | Annulée |
+
+Les autres formes concernées par des AMM annulées : poudre pour suspension buvable et solution pour perfusion.
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : syndrome du QT long (y compris familial), maladie rénale, pyo-uretère, maladie hépatique, maladie de la vésicule biliaire.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) :
+  - **Majeure** : chlorpropamide.
+  - **Modérée** : famotidine, rabéprazole, oméprazole, dexlansoprazole, hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, budésonide, lopéramide, aprépitant, bisacodyl, acide picosulfurique, polyéthylène glycol (3350 avec électrolytes), saxagliptine.
+  - **Mineure** : amphotéricine B (y compris complexe lipidique), clarithromycine.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication.
-- Le mécanisme antifongique n'a pas de lien clair avec une kératoconjonctivite d'origine surtout virale ou immunitaire.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et le lien mécanistique est peu plausible pour une kératoconjonctivite souvent virale. Aucune AMM n'est actuellement valide en France, et les données de sécurité de la notice manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM, actuellement manquantes et bloquantes pour l'évaluation de sécurité.
-- Les données détaillées sur le mécanisme d'action (DrugBank).
-- Une revue de la littérature et des registres d'essais sur le fluconazole dans les kératites et les atteintes de la surface oculaire.
-- La confirmation d'une étiologie fongique plausible pour cette indication.
-- L'évaluation de la compatibilité de voie d'administration, car aucune forme ophtalmique n'est disponible.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
+- Récupérer les mises en garde et contre-indications de la notice (ANSM) pour permettre l'évaluation de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Rechercher des études cliniques ou précliniques du fluconazole dans la kératoconjonctivite épithéliale ponctuée et préciser l'étiologie ciblée (fongique ou autre).
+- Évaluer la voie d'administration adaptée (aucune forme ophtalmique disponible) et la compatibilité avec la pathologie.
+- Clarifier le statut réglementaire, toutes les AMM étant annulées.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

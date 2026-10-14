@@ -2,7 +2,7 @@
 layout: default
 title: Crizotinib
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 92
+nav_order: 200
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,97 +29,84 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Crizotinib : Du cancer bronchique non à petites cellules ALK-positif à la fibromatose gingivale
+# Crizotinib : Du Cancer Bronchique Non à Petites Cellules à la Fibromatose Gingivale
 
 ## Résumé en Une Phrase
 
-Le crizotinib est un inhibiteur de tyrosine kinase (ALK, ROS1, MET), initialement utilisé dans le cancer bronchique non à petites cellules (CBNPC) avec réarrangement ALK ou ROS1.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gingivale**, mais cette prédiction repose uniquement sur un graphe de connaissances : **0 essai clinique** et **0 publication** ne la soutiennent actuellement.
-
----
+Crizotinib est un inhibiteur de tyrosine kinase (ALK, ROS1, MET), initialement utilisé pour le traitement du cancer bronchique non à petites cellules (CBNPC) et du cancer du poumon.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gingivale**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutient actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | CBNPC ALK/ROS1-positif (d'après la littérature ; le texte d'indication des AMM n'est pas renseigné dans les données) |
+| Indication Originale | Cancer bronchique non à petites cellules (CBNPC) / cancer du poumon (source : graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
 | Nouvelle Indication Prédite | Fibromatose gingivale |
-| Score de Prédiction TxGNN | 99,81 % (rang 1922) |
+| Score de Prédiction TxGNN | 99,81 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (0 valide, 2 annulées) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le crizotinib est un inhibiteur compétitif de l'ATP des récepteurs à tyrosine kinase ALK, ROS1 et c-MET. Son efficacité est établie dans le CBNPC porteur d'un réarrangement ALK ou ROS1.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature récupérée, le crizotinib est un inhibiteur compétitif de l'ATP des récepteurs à tyrosine kinase ALK, ROS1 et c-MET. Son efficacité est établie dans le CBNPC avec réarrangement d'ALK ou de ROS1.
 
-**À ce stade, il n'existe pas de lien mécanistique identifié** entre ces cibles et la fibromatose gingivale. Le score TxGNN élevé (0,998) est une prédiction issue du graphe et ne constitue pas une preuve biologique ou clinique. La similarité avec l'indication d'origine reste à évaluer.
+Pour la fibromatose gingivale, aucun lien mécanistique plausible avec l'inhibition d'ALK, ROS1 ou MET n'a pu être établi à partir des données disponibles. Le score élevé du modèle reflète une proximité dans le graphe de connaissances, et non une preuve biologique ou clinique. Cette prédiction doit donc être considérée comme une simple hypothèse.
 
-Cette prédiction doit donc être considérée comme une hypothèse de travail, à documenter avant toute exploration : une voie ALK, ROS1 ou MET impliquée dans la fibromatose gingivale n'est étayée par aucune donnée fournie.
-
----
+À titre de comparaison, d'autres indications prédites présentent des signaux un peu plus étayés, mais ils restent faibles ou relèvent de l'indication déjà approuvée :
+- **Carcinome du hile pulmonaire** (niveau L4) : cas cliniques d'efficacité dans le CBNPC ROS1+ et ALK+, ce qui correspond à la biologie de l'indication d'origine plutôt qu'à un véritable repositionnement.
+- **Tumeur germinale du poumon** (niveau L3) : essais agnostiques de type panier, sans donnée propre à cette tumeur.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
-
----
+Aucun essai clinique associé n'est enregistré actuellement pour la fibromatose gingivale.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
-
----
+Aucune littérature associée n'est disponible actuellement pour la fibromatose gingivale.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 66937155 | XALKORI 200 mg, gélule | Gélule |
-| 61506083 | XALKORI 250 mg, gélule | Gélule |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66937155 | XALKORI 200 mg, gélule (annulée) | Gélule | Non renseignée |
+| 61506083 | XALKORI 250 mg, gélule (annulée) | Gélule | Non renseignée |
 
-Titulaire des deux AMM : PFIZER EUROPE MA EEIG (Belgique). Voie d'administration : orale (gélule).
-
----
+Les deux AMM, détenues par PFIZER EUROPE MA EEIG (Belgique), sont annulées ; aucune AMM valide n'est recensée.
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase ALK/ROS1/MET) |
-| Éléments de Surveillance | Fonction hépatique et surveillance cardiaque (ECG), d'après les signaux de toxicité rapportés dans la littérature du dossier (voir ci-dessous) |
-
-Pour le risque de myélosuppression, l'émétogénicité et la protection de manipulation, veuillez consulter les mises en garde et précautions de la notice.
-
----
+| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | Fonction hépatique (cas d'insuffisance hépatique fulminante fatale rapportés), ECG et fréquence cardiaque (bradycardie, allongement du QT et autres toxicités cardiaques rapportées), NFS |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Les mises en garde, contre-indications et interactions médicamenteuses ne sont pas disponibles dans le dossier.
+- **Interactions médicamenteuses** : 100 interactions sont recensées. Parmi celles listées :
+  - **Majeures** : clarithromycine, cisapride, dolasétron, éliglustat, granisétron.
+  - **Modérées** : famotidine, metformine, lopéramide, bupropion, aprépitant, dexaméthasone, bisacodyl, budésonide, entre autres.
+- **Signaux de toxicité issus de la littérature** : insuffisance hépatique fulminante fatale, toxicités cardiaques multiples (bradycardie, allongement du QT, syndrome sinusal), érythème polymorphe et œsophagite érosive chez un patient pédiatrique (rapports de cas).
 
-À titre indicatif, la littérature associée aux autres prédictions du dossier signale, chez des patients traités par crizotinib : insuffisance hépatique fulminante (cas fatal), toxicités cardiaques (bradycardie, allongement du QT), pneumopathie médicamenteuse (pneumopathie organisée) et érythème polymorphe. Ces éléments ne remplacent pas la notice officielle.
-
----
+Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est de niveau L5 : aucun essai clinique, aucune publication, aucun lien mécanistique identifié pour la fibromatose gingivale.
-- Le dossier de sécurité est incomplet (notice ANSM non exploitée), ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction pour la fibromatose gingivale repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible. De plus, le profil de toxicité du crizotinib et l'absence d'AMM valide en France plaident pour la prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
-- Obtenir les données de mécanisme d'action via DrugBank (DB08865).
-- Rechercher une hypothèse mécanistique reliant ALK, ROS1 ou MET à la fibromatose gingivale, ainsi que toute étude préclinique ou rapport de cas.
-- Évaluer la compatibilité de la voie d'administration (orale) avec la pathologie visée.
-- À titre de comparaison, dans le même dossier, le carcinome du hile pulmonaire (rang 4) et la tumeur germinale pulmonaire (rang 7) atteignent le niveau L4 et l'étape S1 (« Research Question ») : ils sont plus mûrs que cette prédiction.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit faire l'objet d'une validation clinique.*
+- Données sur le mécanisme d'action (MOA) pour analyser un éventuel lien mécanistique.
+- Mises en garde et contre-indications issues de la notice de l'ANSM (données bloquantes pour le criblage de sécurité).
+- Études précliniques démontrant un rôle d'ALK, ROS1 ou MET dans la fibromatose gingivale.
+- Clarification du statut réglementaire en France (AMM annulées).
+- Si un repositionnement oncologique est visé, privilégier les pistes plus documentées (carcinome du hile pulmonaire, tumeurs avec altération ALK/ROS1/MET dans des essais de type panier).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

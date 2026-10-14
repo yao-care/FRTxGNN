@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 224
+nav_order: 561
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,69 +29,84 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Orlistat : D'une Indication Originale Non Renseignée à l'Hypervitaminose
+# Orlistat : De l'Obésité à l'Hypervitaminose
 
 ## Résumé en Une Phrase
 
-Orlistat est un inhibiteur des lipases gastriques et pancréatiques, commercialisé en France (Xenical et un générique). Son indication originale ne figure pas dans les données d'AMM disponibles.
-Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypervitaminose**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette piste : il s'agit d'une prédiction du modèle uniquement.
+Orlistat est un inhibiteur des lipases gastrique et pancréatique, initialement utilisé pour le traitement de l'obésité (y compris l'obésité monogénique).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypervitaminose**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les textes d'AMM disponibles |
+| Indication Originale | Obésité (obesity disorder), obésité monogénique (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
 | Nouvelle Indication Prédite | Hypervitaminose |
 | Score de Prédiction TxGNN | 99,42 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de référence. Sur la base des informations connues, l'orlistat inhibe les lipases gastriques et pancréatiques, ce qui réduit d'environ 30 % l'absorption des graisses alimentaires.
+Actuellement, les données détaillées sur le mécanisme d'action issues des bases curatées ne sont pas disponibles. Sur la base des informations connues, l'orlistat est un inhibiteur des lipases gastrique et pancréatique : il réduit d'environ 30 % l'absorption des graisses alimentaires, ce qui explique son usage dans l'obésité.
 
-Cette réduction diminue aussi l'absorption des vitamines liposolubles (A, D, E, K). Le risque de carence en ces vitamines est d'ailleurs signalé dans l'information réglementaire du produit. Sur le plan mécanistique, une absorption réduite pourrait donc être utile en cas d'excès de vitamines liposolubles d'origine orale (par exemple hypervitaminose A ou D).
+Les vitamines liposolubles (A, D, E, K) sont absorbées avec les graisses alimentaires. En théorie, en diminuant cette absorption, l'orlistat pourrait réduire les taux de ces vitamines en cas d'hypervitaminose due à un excès d'apport. Ce lien est plausible, mais **spéculatif**.
 
-**Limites importantes :**
-- Ce lien est déduit d'un effet indésirable connu et n'est étayé par aucune donnée clinique.
-- Il ne s'appliquerait pas aux hypervitaminoses d'origine non alimentaire (voie parentérale, surproduction endogène).
-- Le score élevé de TxGNN (0,994) reste une prédiction du modèle. La similarité avec l'indication originale n'a pas encore pu être évaluée, et la compatibilité des voies d'administration est en attente.
+Cette propriété est aussi un effet indésirable connu de l'orlistat (carence en vitamines liposolubles). Toute utilisation dans cette optique exigerait donc une surveillance étroite. Le score élevé de TxGNN (0,994) reste une prédiction du modèle, sans appui clinique ni bibliographique, et le mécanisme n'a pas pu être recoupé avec des données curatées.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 65715632 | XENICAL 120 mg, gélule | Gélule | CHEPLAPHARM ARZNEIMITTEL (Allemagne) |
-| 65734134 | ORLISTAT EG 120 mg, gélule | Gélule | EG LABO - Laboratoires Eurogenerics |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
+|---------|------|------|-----------|------|
+| 65715632 | XENICAL 120 mg, gélule | Gélule | Non renseignée | Annulée |
+| 65734134 | ORLISTAT EG 120 mg, gélule | Gélule | Non renseignée | Annulée |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (liens médicament-maladie, et non texte de la notice) : insuffisance hépatique, hyperoxalurie primaire, anorexie mentale, boulimie, carence vitaminique, cholestase (y compris cholestase intrahépatique récurrente bénigne et familiale), atteinte hépatique d'origine médicamenteuse.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les premières listées :
+  - Modérées : abacavir, lamivudine, emtricitabine, atazanavir, acarbose, albiglutide, alogliptine, canagliflozine, metformine, chlorpropamide, amiodarone, cannabidiol, asparaginase (E. coli et Erwinia), calaspargase pegol, brentuximab vedotin, clofarabine.
+  - Mineures : cholécalciférol, calcifédiol, calcitriol (vitamines D, particulièrement pertinentes ici).
+
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai clinique ni publication. Le lien mécanistique est déduit d'un effet indésirable connu, et les données de sécurité de la notice ne sont pas encore disponibles pour l'évaluation.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme proposé est spéculatif et recoupe un effet indésirable connu de l'orlistat (carence en vitamines liposolubles). De plus, toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications), étape bloquante avant tout criblage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (MOA) via DrugBank
-- Confirmer l'indication originale dans les textes d'AMM
-- Effectuer une recherche systématique de la littérature et des essais sur l'hypervitaminose (A, D, E, K)
-- Évaluer la similarité avec l'indication originale et la compatibilité des voies d'administration
-- Évaluer le rapport bénéfice/risque, l'orlistat pouvant provoquer des carences en vitamines liposolubles
+- Récupérer et analyser la notice ANSM (mises en garde et contre-indications), car cette lacune bloque l'étape de criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Mener une revue de la littérature et des registres d'essais sur l'orlistat et l'hypervitaminose
+- Évaluer la pertinence clinique : type de vitamine concerné, alternatives existantes (arrêt de la supplémentation, traitements spécifiques) et rapport bénéfice/risque
+- Vérifier la compatibilité de la voie d'administration et la situation réglementaire, puisqu'aucune AMM n'est actuellement valide
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

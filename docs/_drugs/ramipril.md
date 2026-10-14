@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ramipril
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 257
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 649
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ramipril
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,98 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ramipril : De l'inhibition de l'ECA (indication ANSM non renseignée) à l'Hypertension Pulmonaire liée à une Maladie Pulmonaire et/ou à l'Hypoxie
+# Ramipril : De l'Hypertension Artérielle à l'Hypertension Pulmonaire Liée à une Maladie Pulmonaire et/ou à l'Hypoxie
 
 ## Résumé en Une Phrase
 
-Le ramipril est un inhibiteur de l'enzyme de conversion de l'angiotensine (ECA), commercialisé en France sous forme de comprimés génériques. Le texte d'indication approuvée n'est pas renseigné dans les données ANSM reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie**.
-Cette prédiction repose sur **0 essai clinique** et **20 publications**, qui traitent de la biologie générale de l'hypoxie. Aucune ne teste le ramipril ni un autre inhibiteur de l'ECA dans l'hypertension pulmonaire.
+Le ramipril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC), initialement utilisé pour traiter l'hypertension artérielle et pour la prévention des accidents vasculaires cérébraux.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie**,
+mais **aucun essai clinique** n'est enregistré et seule **1 étude animale ancienne (1996)** soutient directement cette direction : il s'agit d'une prédiction du modèle non confirmée chez l'humain.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Hypertension artérielle (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances : hypertension, accident vasculaire cérébral, maladie cérébrovasculaire, infarctus cérébral) |
 | Nouvelle Indication Prédite | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie |
 | Score de Prédiction TxGNN | 99,93 % |
-| Niveau de Preuve | L5 (prédiction du modèle uniquement) |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations connues, le ramipril inhibe l'ECA et diminue la production d'angiotensine II. Il réduit ainsi la vasoconstriction et le remodelage vasculaire dépendants du système rénine-angiotensine.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le ramipril appartient à la classe des IEC : il bloque la transformation de l'angiotensine I en angiotensine II, un puissant vasoconstricteur, et réduit ainsi la vasoconstriction et le remodelage vasculaire dépendants de l'angiotensine II.
 
-Ce mécanisme rend plausible un rôle du système rénine-angiotensine dans la vasoconstriction pulmonaire hypoxique et dans le remodelage des artères pulmonaires. Un inhibiteur de l'ECA pourrait donc, en théorie, agir sur ces processus.
+La relation avec l'indication originale est celle d'une atteinte vasculaire commune. L'hypertension systémique et l'hypertension pulmonaire impliquent toutes deux une vasoconstriction et un remodelage de la paroi des vaisseaux. Il est donc biologiquement plausible qu'un blocage du système rénine-angiotensine atténue ces phénomènes dans la circulation pulmonaire.
 
-Cette plausibilité reste théorique. Les 20 articles récupérés portent sur la biologie générale de l'hypoxie : vieillissement cérébral, signalisation HIF, cancer, altitude. Aucun n'évalue le ramipril dans l'hypertension pulmonaire. Le score élevé de TxGNN (0,999) est une prédiction issue d'un graphe de connaissances, pas une preuve d'efficacité.
+Le seul élément directement pertinent est une étude chez le rat (PMID 9200213, 1996) : le ramipril administré pendant 3 semaines d'hypoxie chronique a atténué les effets de l'hypoxie sur les vaisseaux pulmonaires (pression de perfusion de base plus basse). Les autres publications récupérées concernent le cœur, le rein ou le cerveau, voire sont sans rapport avec le sujet ; elles ne soutiennent pas cette indication.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
-Aucun essai contrôlé randomisé ni aucune revue systématique n'a été retrouvé. Les publications ci-dessous sont classées par proximité thématique avec la pathologie pulmonaire. Aucune ne porte sur le ramipril.
+Seules les publications présentant un lien avec l'indication ou le mécanisme sont listées ; les articles sans rapport (étomidate et maladie de Cushing, toxoplasmose amazonienne) sont écartés.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Revue | Respir Care Clin N Am | Description des quatre mécanismes de base de l'hypoxémie, notamment l'inadéquation ventilation-perfusion et le shunt droite-gauche |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Revue | Metab Brain Dis | Preuves cliniques et mécanismes moléculaires des troubles cognitifs liés à l'hypoxie aiguë et chronique |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Revue | Ageing Res Rev | Hypoxie et vieillissement cérébral : effets neurodégénératifs ou neuroprotecteurs selon le contexte, y compris en cas de maladie pulmonaire |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Revue | J Cell Biochem | Rôle de l'hypoxie dans le métabolisme, l'angiogenèse et diverses maladies (vasculaires, inflammatoires, cancer) |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Revue | Annu Rev Immunol | Rôle de l'hypoxie et des voies HIF dans l'immunité innée et l'inflammation |
-| [28219680](https://pubmed.ncbi.nlm.nih.gov/28219680/) | 2017 | Non classé | Exp Cell Res | Régulation de la répression transcriptionnelle en hypoxie |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Revue | Trends Cancer | Déubiquitinases, régulation des facteurs HIF et cancer |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Revue | Clin Oncol | Modification thérapeutique de l'hypoxie tumorale et résistance à la radiothérapie |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Recherche préclinique | Adv Sci | Boucle NAT10/SEPT9/HIF-1α et tolérance à l'hypoxie dans le cancer gastrique |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Revue | Redox Biol | Hypoxie dans la sclérose en plaques : lien avec l'inflammation et la dysfonction vasculaire |
+| [9200213](https://pubmed.ncbi.nlm.nih.gov/9200213/) | 1996 | Préclinique (animal) | Physiological Research | Chez le rat exposé 3 semaines à l'hypoxie, le ramipril (10 mg/kg/jour) atténue les effets de l'hypoxie chronique sur les vaisseaux pulmonaires |
+| [12069940](https://pubmed.ncbi.nlm.nih.gov/12069940/) | 2002 | Préclinique (rat transgénique) | Am J Physiol Regul Integr Comp Physiol | Le système rénine-angiotensine pourrait protéger la fonction contractile du myocarde lors d'une hypoxie-réoxygénation (modèle cardiaque) |
+| [15671045](https://pubmed.ncbi.nlm.nih.gov/15671045/) | 2005 | Préclinique / tissu humain | Eur Heart J | Augmentation de l'expression d'ACE2 après infarctus du myocarde chez le rat et dans des cœurs humains défaillants (contexte cardiaque) |
+| [18464162](https://pubmed.ncbi.nlm.nih.gov/18464162/) | 2008 | Préclinique (rénal) | Microcirculation | Le ramipril ou le valsartan limitent la perte des capillaires péritubulaires (protection rénale) |
+| [32822951](https://pubmed.ncbi.nlm.nih.gov/32822951/) | 2020 | Préclinique | World Neurosurgery | Comparaison du ramipril et du bévacizumab dans la nécrose cérébrale radio-induite (hors indication) |
+
+---
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM pour ces AMM. Voici 5 des 20 AMM :
+Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65671495 | RAMIPRIL BIOGARAN 1,25 mg | Comprimé | BIOGARAN |
-| 60180720 | RAMIPRIL SANDOZ 10 mg | Comprimé sécable | SANDOZ |
-| 63586270 | RAMIPRIL TEVA SANTE 10 mg | Comprimé sécable | TEVA SANTE |
-| 67418398 | RAMIPRIL ZENTIVA 10 mg | Comprimé sécable | ZENTIVA FRANCE |
-| 65274629 | RAMIPRIL ARROW GENERIQUES 10 mg | Comprimé sécable | ARROW GENERIQUES |
+| 65671495 | RAMIPRIL BIOGARAN 1,25 mg | comprimé | Non renseignée |
+| 60180720 | RAMIPRIL SANDOZ 10 mg | comprimé sécable | Non renseignée |
+| 63586270 | RAMIPRIL TEVA SANTE 10 mg | comprimé sécable | Non renseignée |
+| 67418398 | RAMIPRIL ZENTIVA 10 mg | comprimé sécable | Non renseignée |
+| 65274629 | RAMIPRIL ARROW GENERIQUES 10 mg | comprimé sécable | Non renseignée |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : maladie rénale, maladie hépatique, maladie de la vésicule biliaire, pyourètre, lupus érythémateux systémique (y compris pédiatrique), neutropénie, agranulocytose, angiœdème héréditaire (y compris avec déficit en C1-inhibiteur), hypotension, maladies du tissu conjonctif, maladies osseuses et cartilagineuses, obstruction de l'artère rénale, sclérodermie (localisée et systémique).
+- **Interactions médicamenteuses** (100 interactions recensées ; les principales) :
+  - **Majeures** : citrate de potassium, bicarbonate de potassium (risque d'hyperkaliémie).
+  - **Modérées** : corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, budésonide), acide acétylsalicylique, morphine, bupropion, antidiabétiques (metformine, glimépiride, chlorpropamide, alogliptine, canagliflozine, dapagliflozine, empagliflozine), dronabinol, picosulfate de sodium, polyéthylène glycol avec électrolytes.
+
+Les mises en garde et contre-indications de la notice ANSM n'ont pas pu être obtenues ; veuillez consulter la notice pour ces informations.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est uniquement issue du modèle (niveau L5). Aucun essai clinique n'existe et la littérature retrouvée ne concerne ni le ramipril ni les inhibiteurs de l'ECA dans l'hypertension pulmonaire. Les informations de sécurité issues de la notice ANSM n'ont pas été récupérées, ce qui bloque l'étape de criblage de sécurité.
+- Le score TxGNN est très élevé (99,93 %), mais il s'agit d'une prédiction ; la seule étude pertinente est une étude animale de 1996, sans aucun essai clinique, d'où un niveau de preuve L4 au mieux.
+- Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque une évaluation de sécurité complète. Les contre-indications du graphe (maladie rénale, obstruction de l'artère rénale, hypotension) sont par ailleurs fréquentes chez les patients concernés.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions), lacune bloquante
-- Compléter les données sur le mécanisme d'action via DrugBank
-- Lancer une recherche bibliographique ciblée « ramipril / inhibiteurs de l'ECA et hypertension pulmonaire » et vérifier l'existence d'essais dans les registres
-- Évaluer les risques propres à cette population (hypotension, fonction rénale, hyperkaliémie) avant toute étude
-
-**Autres indications prédites :** l'occlusion d'artère cérébrale est la mieux étayée (niveau L4). Elle repose sur un essai de phase 2 de 25 patients, qui ne confirme pas le ramipril comme agent, sur une étude clinique humaine de débit sanguin cérébral et sur des études animales aux résultats contrastés. Elle mérite d'être traitée comme une question de recherche. Les autres indications (hémorragie intracérébrale, angor de Prinzmetal, hypertension maligne, etc.) restent au niveau L4 ou L5, avec des preuves très limitées ou absentes.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Toute piste de repositionnement doit être validée cliniquement avant application.*
+- Notice ANSM (mises en garde et contre-indications) pour lever le blocage de sécurité
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Études précliniques récentes et confirmatoires sur l'hypertension pulmonaire hypoxique, puis des données humaines (étude pilote ou essai de phase 2)
+- Clarification du statut réglementaire actuel du ramipril en France, toutes les AMM recensées étant annulées
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

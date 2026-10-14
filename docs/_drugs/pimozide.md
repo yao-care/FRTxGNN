@@ -2,7 +2,7 @@
 layout: default
 title: Pimozide
 parent: Preuves modérées (L3-L4)
-nav_order: 238
+nav_order: 604
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,85 +29,100 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Pimozide : Du traitement antipsychotique à la trichotillomanie
+# Pimozide : Du Syndrome de Gilles de la Tourette à la Trichotillomanie
 
-## Résumé en une phrase
+## Résumé en Une Phrase
 
-Le pimozide est un antipsychotique antagoniste dopaminergique D2, commercialisé en France sous le nom ORAP. La littérature le décrit surtout dans la schizophrénie et le syndrome de Gilles de la Tourette. Le modèle TxGNN prédit qu'il pourrait être efficace pour la **trichotillomanie**, avec **0 essai clinique** et **10 publications** (revues, petites études cliniques, cas isolés). Ces publications sont anciennes et surtout indirectes.
+Le pimozide est un antipsychotique (antagoniste dopaminergique D2) initialement utilisé pour le traitement du syndrome de Gilles de la Tourette.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **trichotillomanie**.
+Aucun essai clinique n'est enregistré, mais **9 publications** (essentiellement des revues et de petites études anciennes) soutiennent faiblement cette direction.
 
-## Aperçu rapide
+## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle indication prédite | Trichotillomanie |
-| Score de prédiction TxGNN | 99,996 % |
-| Niveau de preuve | L3 |
-| Statut de marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision recommandée | Hold |
+| Indication Originale | Syndrome de Gilles de la Tourette (selon les arêtes d'indication du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
+| Nouvelle Indication Prédite | Trichotillomanie |
+| Score de Prédiction TxGNN | 99,996 % |
+| Niveau de Preuve | L3 |
+| Statut de Marché en France | ✗ Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes annulées) |
+| Décision Recommandée | Hold |
 
-Le texte de l'indication approuvée n'est pas renseigné dans les données ANSM, donc la ligne « Indication originale » est omise.
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi cette prédiction est-elle raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le pimozide est un antagoniste dopaminergique D2 de la classe des diphénylbutylpipéridines, dont l'efficacité dans le syndrome de Gilles de la Tourette est établie.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la littérature, le pimozide est un antagoniste D2 puissant. Il est utilisé dans les tics de la maladie de Gilles de la Tourette et dans les psychoses.
+La trichotillomanie, les tics et le trouble obsessionnel-compulsif partagent des comportements répétitifs et stéréotypés, impliquant probablement une dérégulation dopaminergique des circuits cortico-striato-thalamiques. Cette proximité phénoménologique et thérapeutique rend le signal du modèle plausible sur le plan mécanistique.
 
-La trichotillomanie (arrachage compulsif des cheveux) est un trouble comportemental répétitif. Elle partage des points communs avec les tics et le trouble obsessionnel-compulsif (TOC), pour lesquels le blocage D2 est déjà utilisé. On postule qu'une dérégulation dopaminergique intervient dans ces comportements. C'est la logique de l'ajout d'un antipsychotique à un inhibiteur de la recapture de la sérotonine (ISRS) en cas de réponse insuffisante. Une petite étude de 1992 a testé le pimozide à faible dose dans ce contexte.
+Les données sont toutefois limitées : une petite étude de 1992 (PMID 1532960) rapporte l'ajout de pimozide à faible dose à un inhibiteur de la recapture de la sérotonine dans la trichotillomanie, et des revues de dermatologie décrivent son usage en psychodermatologie. Il n'existe pas d'essai contrôlé récent.
 
-Ce lien reste une hypothèse. Aucun essai contrôlé spécifique au pimozide dans la trichotillomanie n'apparaît dans le dossier.
-
-## Preuves d'essais cliniques
+## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la littérature
+## Preuves de la Littérature
 
-Le champ de pertinence n'a pas encore été évalué (« pending ») pour ces publications. Plusieurs sont indirectes, et j'ai indiqué lesquelles.
-
-| PMID | Année | Type | Revue | Résultats principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [36802832](https://pubmed.ncbi.nlm.nih.gov/36802832/) | 2023 | Cartographie des preuves d'ECR | J Cutan Med Surg | Synthèse des ECR sur les traitements pharmacologiques des troubles psychodermatologiques primaires. L'absence de lignes directrices y est soulignée |
-| [1532960](https://pubmed.ncbi.nlm.nih.gov/1532960/) | 1992 | Petite étude clinique | J Clin Psychiatry | Ajout de pimozide à faible dose aux ISRS dans la trichotillomanie. Les résultats ne sont pas détaillés dans l'extrait disponible |
-| [15554735](https://pubmed.ncbi.nlm.nih.gov/15554735/) | 2004 | Revue | Am J Clin Dermatol | Revue de l'usage du pimozide en dermatologie, surtout dans la psychose hypocondriaque monosymptomatique |
-| [30446201](https://pubmed.ncbi.nlm.nih.gov/30446201/) | 2018 | Revue | Clin Dermatol | Intérêt des antipsychotiques en dermatologie, lié à leurs effets centraux et périphériques |
-| [27320510](https://pubmed.ncbi.nlm.nih.gov/27320510/) | 2016 | Non classé | Tijdschr Psychiatr | Options de traitement de la trichotillomanie pédiatrique. La recherche pharmacologique y est décrite comme limitée |
-| [11475941](https://pubmed.ncbi.nlm.nih.gov/11475941/) | 2001 | Non classé | CNS Drugs | Excoriation psychogène : caractéristiques cliniques, critères diagnostiques proposés, approches thérapeutiques (indirect) |
-| [10497682](https://pubmed.ncbi.nlm.nih.gov/10497682/) | 1999 | Non classé | Ann Acad Med Singapore | Présentation de la trichotillomanie comme syndrome psychiatrique sous-diagnostiqué |
-| [28225970](https://pubmed.ncbi.nlm.nih.gov/28225970/) | 2017 | Cas clinique | An Bras Dermatol | Diagnostic différentiel avec la pelade. Mentionne l'efficacité de la N-acétylcystéine, sans lien direct avec le pimozide |
-| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | Série de cas | J Child Adolesc Psychopharmacol | Ajout de rispéridone (et non de pimozide) chez trois patients avec trichotillomanie résistante aux ISRS. Le pimozide y est cité comme précédent |
-| [10900563](https://pubmed.ncbi.nlm.nih.gov/10900563/) | 2000 | Non classé | Int J Psychiatry Med | Profil clinique du délire de parasitose (hors sujet direct) |
+| [1532960](https://pubmed.ncbi.nlm.nih.gov/1532960/) | 1992 | Étude clinique (petite, ajout à un ISRS) | J Clin Psychiatry | Ajout de pimozide à faible dose à des inhibiteurs de la recapture de la sérotonine dans la trichotillomanie, en raison du chevauchement avec le syndrome de Tourette et le TOC |
+| [36802832](https://pubmed.ncbi.nlm.nih.gov/36802832/) | 2023 | Cartographie des preuves / revue d'ECR | J Cutan Med Surg | Synthèse des ECR sur les traitements pharmacologiques des troubles psychodermatologiques primaires |
+| [30446201](https://pubmed.ncbi.nlm.nih.gov/30446201/) | 2018 | Revue | Clin Dermatol | Intérêt des antipsychotiques en dermatologie, via leurs effets centraux et périphériques |
+| [15554735](https://pubmed.ncbi.nlm.nih.gov/15554735/) | 2004 | Revue | Am J Clin Dermatol | Revue complète de l'usage du pimozide en dermatologie, notamment dans les psychoses hypocondriaques monosymptomatiques |
+| [27320510](https://pubmed.ncbi.nlm.nih.gov/27320510/) | 2016 | Revue | Tijdschr Psychiatr | Options thérapeutiques de la trichotillomanie pédiatrique ; recherche pharmacologique limitée |
+| [11475941](https://pubmed.ncbi.nlm.nih.gov/11475941/) | 2001 | Revue | CNS Drugs | Excoriation psychogène : caractéristiques cliniques, critères proposés et approches thérapeutiques |
+| [10497682](https://pubmed.ncbi.nlm.nih.gov/10497682/) | 1999 | Revue | Ann Acad Med Singapore | Trichotillomanie : affection psychiatrique chronique sous-diagnostiquée |
+| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | Série de cas (rispéridone, indirect) | J Child Adolesc Psychopharmacol | Ajout de rispéridone dans la trichotillomanie résistante aux ISRS ; mentionne le bénéfice du pimozide en ajout |
+| [10900563](https://pubmed.ncbi.nlm.nih.gov/10900563/) | 2000 | Revue | Int J Psychiatry Med | Parasitose délirante (peu pertinent pour l'indication) |
 
-## Informations de marché en France
+## Informations de Marché en France
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Fabricant |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62495939 | ORAP 1 mg | Comprimé | Eumedica Pharmaceuticals (Allemagne) |
-| 60625647 | ORAP 4 mg | Comprimé | Eumedica Pharmaceuticals (Allemagne) |
+| 62495939 | ORAP 1 mg, comprimé (statut : annulée) | Comprimé | Non renseignée |
+| 60625647 | ORAP 4 mg, comprimé (statut : annulée) | Comprimé | Non renseignée |
 
-## Considérations de sécurité
+## Cytotoxicité
 
-Les mises en garde et contre-indications de la notice ANSM ne sont pas disponibles dans le dossier, et aucune interaction n'a été trouvée dans la base interrogée. Veuillez consulter la notice pour les informations de sécurité complètes.
+Non applicable : le pimozide n'est pas un médicament antinéoplasique. Cette section est donc omise.
 
-Points de vigilance issus de l'analyse de la littérature :
-- **Allongement de l'intervalle QT** : risque cardiaque à évaluer avant toute utilisation.
-- **Interactions CYP2D6/CYP3A4 avec les ISRS** : par exemple l'interaction paroxétine-pimozide (cas rapporté, [PMID 7961347](https://pubmed.ncbi.nlm.nih.gov/7961347/)). Cela concerne directement le schéma d'association ISRS + antipsychotique.
+## Considérations de Sécurité
 
-## Conclusion et prochaines étapes
+- **Contre-indications (selon le graphe de connaissances, et non le texte de la notice)** :
+  - Cardiaques : syndrome du QT long (y compris familial), torsades de pointes, arrêt cardiaque soudain, maladie de la conduction cardiaque, carence en potassium.
+  - Hématologiques : neutropénie (y compris formes congénitales), agranulocytose, leucopénie.
+  - Neurologiques et psychiatriques : épilepsie, syndrome malin des neuroleptiques, maladie d'Alzheimer.
+  - Autres : insuffisance rénale, maladie hépatique, maladie de la vésicule biliaire, hypertrophie bénigne de la prostate, glaucome, carcinome mammaire féminin.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les interactions majeures figurent l'hydrocortisone, l'amphotéricine B (y compris complexe lipidique), le bupropion, l'aprépitant, la morphine, la lorcasérine, la cimétidine, le citrate de potassium, la clarithromycine, l'acide picosulfurique et le polyéthylène glycol avec électrolytes. Des interactions modérées sont signalées avec la famotidine, l'épinéphrine, l'hyoscyamine, le lopéramide, l'atropine, le bisacodyl, le glycopyrronium et la dicyclomine. Un cas d'interaction avec la paroxétine est également décrit (PMID 7961347).
+- Le risque d'allongement de l'intervalle QT et la charge d'interactions (substrats du CYP3A4 et du CYP2D6) imposent une grande prudence.
+
+Les mises en garde issues de la notice française n'ont pas pu être consultées ; veuillez consulter la notice pour les informations de sécurité officielles.
+
+## Autres Indications Prédites (Pour Information)
+
+Les autres prédictions disposent de preuves plus faibles et sont toutes en statut Hold :
+
+| Indication Prédite | Score TxGNN | Niveau de Preuve | Commentaire |
+|------|------|------|------|
+| Trouble bipolaire maniaque | 99,993 % | L3 | Anciennes études (1970-1980) comparant le pimozide à la chlorpromazine dans la manie ; aucun essai enregistré ; alternatives modernes mieux tolérées |
+| Insomnie | 99,968 % | L5 | Aucune preuve directe ; signal probablement artefactuel |
+| Trouble affectif majeur | 99,960 % | L4 | Preuves indirectes et anciennes |
+| TDAH | 99,922 % | L4 | Littérature centrée sur le Tourette, preuve indirecte |
+| Autres (syndrome facio-digito-génital, syndrome de Malan, TDAH de type inattentif, agoraphobie, torticolis paroxystique bénin du nourrisson) | 99,6 à 99,9 % | L5 | Prédiction seule, sans preuve |
+
+## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Il n'existe aucun essai clinique. Les preuves sont limitées à des revues, à une petite étude ancienne et à des cas isolés.
-- Les données de sécurité de la notice ANSM manquent (écart bloquant), et les risques QT et d'interactions avec les ISRS sont importants.
+- Les preuves en faveur de la trichotillomanie se limitent à une petite étude de 1992 et à des revues, sans essai enregistré (niveau L3). Le profil de risque (QT, nombreuses interactions) et le retrait du marché français (AMM annulées) pèsent contre un repositionnement immédiat.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications), à partir du site de l'ANSM.
-- Obtenir les données de mécanisme d'action (MOA) depuis DrugBank.
-- Confirmer l'indication originale approuvée en France (texte non renseigné).
-- Rechercher des essais contrôlés ciblés sur le pimozide dans la trichotillomanie.
-- Établir un plan de surveillance QT (ECG) et de gestion des interactions CYP avec les ISRS.
-
-Les autres indications prédites (trouble maniaque bipolaire, insomnie, trouble affectif majeur, TDAH, etc.) ne sont pas traitées ici. Elles restent au stade Hold, avec des preuves faibles ou indirectes.
+- Données de sécurité officielles de l'ANSM (mises en garde et contre-indications de la notice), actuellement manquantes
+- Données détaillées sur le mécanisme d'action (DrugBank)
+- Essai contrôlé randomisé dans la trichotillomanie, avec comparaison aux options établies
+- Plan de surveillance cardiaque (ECG, QT, kaliémie) et gestion des interactions CYP3A4/CYP2D6
+- Clarification du statut réglementaire en France (AMM annulées, disponibilité du produit)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Mizolastine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 201
+nav_order: 508
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,45 +29,32 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Mizolastine : D'un antihistaminique H1 à la porphyrie aiguë intermittente
+# Mizolastine : De la rhinite allergique à la porphyrie aiguë intermittente
 
 ## Résumé en Une Phrase
 
-La mizolastine est un antihistaminique H1 de seconde génération commercialisé en France (les textes d'indication des AMM ne sont pas renseignés dans les données disponibles).
-Le modèle TxGNN prédit qu'elle pourrait être utile dans la **porphyrie aiguë intermittente**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+Mizolastine est un antihistaminique de seconde génération (antagoniste sélectif des récepteurs H1), initialement utilisé pour traiter la rhinite allergique et la rhinite vasomotrice.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **porphyrie aiguë intermittente**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction issue uniquement du modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM (antihistaminique H1) |
+| Indication Originale | Rhinite allergique, rhinite vasomotrice (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Porphyrie aiguë intermittente |
 | Score de Prédiction TxGNN | 99,76 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Retiré du marché (AMM annulées uniquement) |
+| Nombre d'AMM | 2 (0 valide, 2 annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la mizolastine est un antihistaminique H1 de seconde génération, à action périphérique. Aucun lien mécanistique établi avec la porphyrie aiguë intermittente n'a pu être identifié.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche source. D'après les connaissances pharmacologiques générales, mizolastine est un antagoniste sélectif des récepteurs H1 de l'histamine, dont l'efficacité dans les affections allergiques nasales est le fondement de son usage d'origine.
 
-Le score élevé (99,76 %) reflète une proximité dans le graphe de connaissances, pas une preuve biologique. Les autres candidats prédits présentent des scores quasi identiques (99,47 % à 99,71 %), ce qui suggère que le modèle ne discrimine guère entre eux. Il s'agit surtout de troubles neurologiques du mouvement, sans rapport avec l'action antihistaminique de la molécule.
+Pour la porphyrie aiguë intermittente, **aucun lien mécanistique n'est établi**. Cette maladie est un trouble de la biosynthèse de l'hème (déficit en PBGD/HMBS), et les antihistaminiques ne sont pas connus pour modifier le métabolisme des porphyrines. Le score élevé (99,76 %) reflète une proximité dans le graphe de connaissances, et non une plausibilité biologique démontrée.
 
-Point de vigilance : les patients atteints de porphyrie sont exposés au risque de crises déclenchées par certains médicaments. La sécurité de la mizolastine dans cette population devrait donc être vérifiée avant tout autre travail.
-
-| Rang | Maladie prédite | Score TxGNN | Niveau de preuve |
-|------|------|------|------|
-| 1 | Porphyrie aiguë intermittente | 99,76 % | L5 |
-| 2 | Troubles du mouvement psychogènes | 99,71 % | L5 |
-| 3 | Dyskinésie linguo-facio-buccale | 99,71 % | L5 |
-| 4 | Trouble tic chronique | 99,71 % | L5 |
-| 5 | Attaques de frissonnement bénignes | 99,70 % | L5 |
-| 6 | Maladies extrapyramidales et du mouvement | 99,70 % | L5 |
-| 7 | Tremblement orthostatique primaire | 99,69 % | L5 |
-| 8 | Syndrome tremblement-nystagmus-ulcère duodénal | 99,69 % | L5 |
-| 9 | Élévation tonique paroxystique bénigne du regard chez l'enfant avec ataxie | 99,68 % | L5 |
-| 10 | Déficit en carbamoyl-phosphate synthétase I | 99,47 % | L5 |
+Les neuf autres prédictions suivent la même logique. Il s'agit principalement de troubles du mouvement (troubles moteurs psychogènes, dyskinésie linguo-facio-buccale, tics chroniques, tremblement orthostatique primaire, etc.) ainsi que de maladies métaboliques ou rares (déficit en carbamoyl-phosphate synthétase I). Aucune n'a de mécanisme étayé : mizolastine pénètre peu dans le cerveau et n'a pas d'activité anticholinergique notable.
 
 ## Preuves d'Essais Cliniques
 
@@ -79,31 +66,30 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64991179 | MIZOLLEN 10 mg, comprimé à libération modifiée | Comprimé pelliculé à libération modifiée | Non renseignée |
-| 65120823 | MIZOCLER 10 mg, comprimé pelliculé à libération modifiée | Comprimé pelliculé à libération modifiée | Non renseignée |
-
-Les deux AMM sont détenues par DESMA PHARMA.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
+|---------|------|------|-----------|------|
+| 64991179 | MIZOLLEN 10 mg, comprimé à libération modifiée (DESMA PHARMA) | Comprimé pelliculé à libération modifiée | Non renseignée | Annulée |
+| 65120823 | MIZOCLER 10 mg, comprimé pelliculé à libération modifiée (DESMA PHARMA) | Comprimé pelliculé à libération modifiée | Non renseignée | Annulée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : aucune interaction médicamenteuse cliniquement documentée. La seule entrée disponible concerne la pharmacologie de la cible : mizolastine se lie au récepteur H1 de l'histamine (gène HRH1). Il n'est pas approuvé aux États-Unis.
+
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucune preuve clinique ou bibliographique (niveau L5, stade S0), et aucun mécanisme plausible reliant l'antagonisme H1 périphérique à la porphyrie aiguë intermittente.
-- Les données de sécurité de la notice ANSM manquent et bloquent toute progression vers le criblage de sécurité. Le risque de déclenchement de crises chez les patients porphyriques doit être écarté au préalable.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, aucun lien mécanistique plausible. De plus, les deux AMM françaises sont annulées et les données de sécurité de la notice sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions), en vérifiant en particulier le caractère porphyrinogène de la mizolastine
-- Obtenir les données de mécanisme d'action (MOA) via DrugBank
-- Renseigner les indications approuvées des deux AMM
-- Réaliser une revue de littérature ciblée (mizolastine ou antihistaminiques H1 et porphyries) pour rechercher un éventuel signal
-- Examiner si une des autres prédictions (troubles du mouvement, tics) repose sur un signal plus crédible, sinon abandonner cette piste
+- Récupérer les mises en garde et contre-indications de la notice (ANSM) : élément bloquant pour tout examen de sécurité
+- Obtenir les données sur le mécanisme d'action (DrugBank) afin d'analyser d'éventuels liens mécanistiques
+- Mener une revue de littérature et des études précliniques ciblées pour déterminer si une hypothèse biologique crédible existe pour la porphyrie aiguë intermittente
+- Clarifier la disponibilité du produit en France, les AMM étant toutes annulées
+- Évaluer, parmi les autres indications prédites, s'il en existe une avec un fondement mécanistique plus solide
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

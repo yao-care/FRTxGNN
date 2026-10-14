@@ -2,7 +2,7 @@
 layout: default
 title: Disopyramide
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 109
+nav_order: 250
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,32 +29,33 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Disopyramide : D'antiarythmique de classe Ia au syndrome de Gilles de la Tourette
+# Disopyramide : D'un antiarythmique de classe Ia au Syndrome de Gilles de la Tourette
 
 ## Résumé en Une Phrase
 
-Le disopyramide est un médicament antiarythmique commercialisé en France (Isorythm L.P., Rythmodan). Le texte de son indication d'origine n'est pas renseigné dans les données fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Gilles de la Tourette**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette piste : il s'agit d'une prédiction purement computationnelle.
+Disopyramide est un antiarythmique de classe Ia (bloqueur des canaux sodiques à activité anticholinergique), dont les spécialités françaises sont aujourd'hui toutes annulées.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Gilles de la Tourette**, avec un score très élevé.
+Toutefois, **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM (classe antiarythmique) |
-| Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette (Tourette syndrome) |
-| Score de Prédiction TxGNN | 99,86 % (rang 1542) |
+| Indication Originale | Non renseignée dans les données d'AMM compilées (médicament antiarythmique) |
+| Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette |
+| Score de Prédiction TxGNN | 99,86 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
+| Nombre d'AMM | 4 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, le disopyramide est un antiarythmique de classe Ia, bloqueur des canaux sodiques, doté d'une activité anticholinergique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, le disopyramide fait partie des antiarythmiques de classe Ia : il bloque les canaux sodiques cardiaques et possède une activité anticholinergique.
 
-Le syndrome de Gilles de la Tourette relève de circuits dopaminergiques cortico-striataux. Aucun lien mécanistique établi ne relie le blocage des canaux sodiques ou l'effet anticholinergique à cette physiopathologie. Le score élevé (0,9986) reflète probablement une proximité dans le graphe de connaissances avec des nœuds de maladies neuropsychiatriques, et non une justification biologique.
+**En réalité, aucun lien mécanistique établi ne relie le disopyramide au syndrome de Gilles de la Tourette.** Les tics impliquent un dysfonctionnement dopaminergique et des circuits cortico-striato-thalamo-corticaux, sans rapport avec la pharmacologie connue du médicament. Une hypothèse purement spéculative serait que son effet anticholinergique modifie la signalisation cholinergique striatale.
 
-**Cette prédiction n'est donc pas soutenue mécanistiquement.** La piste la plus cohérente biologiquement dans cette liste est la tachycardie atriale multifocale (voir ci-dessous).
+Le score très élevé (0,9986) reflète vraisemblablement une proximité dans le graphe de connaissances avec des nœuds neuropsychiatriques, et non une preuve biologique ou clinique. Il doit être interprété avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -64,49 +65,42 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement.
 
-## Autres Prédictions du Modèle
-
-Aucune de ces prédictions n'a d'essai clinique. Le niveau de preuve est L5, sauf indication contraire.
-
-| Rang | Indication prédite | Score TxGNN | Commentaire |
-|------|------|------|------|
-| 2 | Trouble déficitaire de l'attention avec hyperactivité (TDAH) | 99,82 % | Aucun lien avec les cibles catécholaminergiques du TDAH |
-| 3 | Trichotillomanie | 99,81 % | Aucun mécanisme identifié |
-| 4 | TDAH, type inattentif | 99,74 % | Sous-type redondant avec le TDAH |
-| 5 | Syndrome facio-digito-génital | 99,66 % | Syndrome génétique rare, sans lien plausible |
-| 6 | Trouble spécifique du développement | 99,54 % | Catégorie trop large et non spécifique |
-| 7 | Flutter atrial néonatal idiopathique | 99,42 % | Plausible en principe, mais l'usage néonatal exigerait une évaluation pharmacocinétique et de sécurité dédiée |
-| 8 | Fibrome chondromyxoïde | 99,41 % | Tumeur osseuse bénigne, sans lien plausible |
-| 9 | Tachycardie atriale multifocale | 99,21 % | **L4, question de recherche.** Piste la plus cohérente, mais preuve indirecte (voir ci-dessous) |
-| 10 | Tumeur du nerf trijumeau | 99,16 % | Aucun lien plausible |
-
-**Tachycardie atriale multifocale (rang 9) :** la seule publication disponible est [PMID 7418495](https://pubmed.ncbi.nlm.nih.gov/7418495/) (Chest, 1980, cohorte). Elle porte sur la lorcaïnide, un autre antiarythmique, dans des arythmies ventriculaires résistantes. Le disopyramide y figure seulement parmi les traitements ayant échoué. Elle n'évalue donc ni le disopyramide ni la tachycardie atriale multifocale. Ce n'est qu'un soutien indirect, au niveau de la classe. Les effets anticholinergiques et inotropes négatifs, ainsi que la pathologie pulmonaire sous-jacente fréquente dans cette arythmie, nécessiteraient une revue de sécurité.
-
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 66198796 | ISORYTHM L.P. 125 mg (SERP) | Gélule à libération prolongée |
-| 66308461 | ISORYTHM L.P. 250 mg (SERP) | Gélule à libération prolongée |
-| 63063487 | RYTHMODAN 100 mg (Cheplapharm) | Gélule |
-| 69235837 | RYTHMODAN 250 mg à libération prolongée (Cheplapharm) | Comprimé enrobé |
+Toutes les AMM listées sont annulées ; le texte d'indication n'est pas renseigné.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+|---------|------|------|-----------|
+| 66198796 | ISORYTHM L.P. 125 mg | Gélule à libération prolongée | Annulée |
+| 63063487 | RYTHMODAN 100 mg | Gélule | Annulée |
+| 66308461 | ISORYTHM L.P. 250 mg | Gélule à libération prolongée | Annulée |
+| 69235837 | RYTHMODAN 250 mg à libération prolongée | Comprimé enrobé | Annulée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour ces informations.
+
+- **Contre-indications issues du graphe de connaissances** (associations médicament-maladie, non issues du texte de la notice) : syndrome du QT long (y compris familial), insuffisance rénale, maladie hépatique, maladie de la vésicule biliaire, hypokaliémie, hypertrophie bénigne de la prostate, glaucome à angle fermé, myasthénie et maladies de la jonction neuromusculaire, hypoglycémie, hypotension, bloc auriculo-ventriculaire, cardiomyopathies (dont hypertrophique), myocardite, fibrose endomyocardique, fibrillation et flutter auriculaires.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) :
+  - **Majeures** : citrate de potassium, clarithromycine, acide picosulfurique.
+  - **Modérées** : famotidine, corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, budésonide), amphotéricine B, médicaments anticholinergiques (hyoscyamine, atropine, glycopyrronium, clidinium), lopéramide, aprépitant, bisacodyl, chlorpropamide.
+  - **Mineure** : cimétidine.
+- Dans une population pédiatrique (Tourette, TDAH), les effets indésirables cardiaques et anticholinergiques seraient particulièrement préoccupants.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les prédictions reposent uniquement sur le score du modèle (L5), sans essai ni publication, et pour le syndrome de Gilles de la Tourette aucun lien mécanistique plausible n'est identifié.
-- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible, et le médicament n'a plus d'AMM valide en France. Le profil de sécurité (cardiaque et anticholinergique) est défavorable pour cette indication.
+- Les autres prédictions du même médicament présentent le même manque de preuves (TDAH, trichotillomanie, etc.). Les seules plus plausibles au niveau de la classe pharmacologique (flutter auriculaire néonatal, tachycardie auriculaire multifocale) restent indirectes (niveau L4) et sans données dédiées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde et contre-indications) en téléchargeant et analysant le PDF.
-- Obtenir le mécanisme d'action détaillé via l'API DrugBank.
-- Si une piste doit être poursuivie, prioriser la tachycardie atriale multifocale : revue de littérature ciblée sur le disopyramide dans les arythmies atriales et évaluation de sécurité.
+- Récupération de la notice (mises en garde, contre-indications), actuellement bloquante pour le criblage de sécurité
+- Données détaillées sur le mécanisme d'action (par ex. via DrugBank)
+- Études précliniques démontrant un effet sur les circuits cholinergiques ou dopaminergiques impliqués dans les tics
+- Clarification du statut réglementaire, les AMM étant toutes annulées
+- Évaluation du rapport bénéfice/risque cardiaque pour une population jeune
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Estazolam
-parent: Preuves élevées (L1-L2)
-nav_order: 123
-evidence_level: L2
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 300
+evidence_level: L5
 indication_count: 10
 ---
 
 # Estazolam
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,102 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Estazolam : Vers l'Insomnie (indication d'origine non renseignée dans les données)
+# Estazolam : De l'indication d'origine non renseignée à l'insomnie
 
 ## Résumé en Une Phrase
 
-Estazolam est une benzodiazépine hypnotique commercialisée en France sous le nom Nuctalon 2 mg (comprimé). Le texte de son indication d'origine n'est pas renseigné dans les données reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**. Cette prédiction correspond en pratique à un usage déjà établi plutôt qu'à un véritable repositionnement.
-Elle s'appuie sur **12 essais cliniques** et **18 publications**, dont beaucoup ne sont qu'indirectement liés à l'estazolam.
+L'estazolam est une benzodiazépine hypnotique. Les données compilées pour ce rapport ne précisent pas son indication d'origine en France.
+Le modèle TxGNN le prédit comme potentiellement efficace pour l'**insomnie**, avec **7 essais cliniques** et **19 publications** associés.
+Il faut toutefois noter que l'insomnie est vraisemblablement l'usage habituel (hors repositionnement) de ce médicament : cette prédiction correspond donc plutôt à une confirmation de l'indication classique qu'à un véritable repositionnement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Non renseignée (le texte d'indication de l'AMM est vide) |
 | Nouvelle Indication Prédite | Insomnie |
 | Score de Prédiction TxGNN | 99,48 % |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Niveau de Preuve | L1 (selon la grille d'évaluation des données compilées ; voir la réserve ci-dessous) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans DrugBank pour ce dossier. D'après les connaissances pharmacologiques générales, l'estazolam est une benzodiazépine (de type triazolobenzodiazépine). Elle agit comme modulateur allostérique positif des récepteurs GABA-A, ce qui renforce la neurotransmission inhibitrice et produit un effet sédatif-hypnotique.
+Les données détaillées sur le mécanisme d'action ne figurent pas dans le dossier d'origine. D'après les connaissances pharmacologiques générales, l'estazolam est une benzodiazépine qui agit comme modulateur allostérique positif des récepteurs GABA-A. Il renforce la neurotransmission inhibitrice et produit un effet sédatif et hypnotique.
 
-Cet effet correspond directement à l'insomnie. L'estazolam étant un hypnotique commercialisé, il s'agit d'un usage établi. Le score TxGNN très élevé (0,995) est cohérent avec ce constat.
+Ce mécanisme correspond directement au traitement de l'insomnie. Comme indiqué, l'insomnie est probablement l'usage historique du médicament, et non une extension vers une nouvelle maladie. Plusieurs essais récents utilisent d'ailleurs l'estazolam comme comparateur actif ou comme traitement de fond.
 
-Une étude clinique américaine de 1990 (PMID 1968721) indique que l'estazolam 1 mg et 2 mg améliore la latence d'endormissement, le temps total de sommeil et la qualité du sommeil chez l'adulte souffrant d'insomnie chronique. Cet effet persiste pendant au moins six semaines de prise nocturne continue.
+Il faut aussi souligner que le niveau L1 provient de l'application de la grille de preuve. Il repose sur un seul essai de Phase 3 terminé (NCT00347295), où le rôle exact de l'estazolam (médicament testé ou comparateur) n'est pas clair. Ce niveau doit donc être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00347295](https://clinicaltrials.gov/study/NCT00347295) | Phase 3 | Terminé | 253 | Brotizolam vs estazolam (comparateur) dans l'insomnie, en double aveugle et double placebo ; résultats non fournis |
-| [NCT06859190](https://clinicaltrials.gov/study/NCT06859190) | Phase 3 | En recrutement | 60 | Pressions auriculaires + électroacupuncture + estazolam dans l'insomnie liée au cancer ; sans résultats, estazolam en composante de l'association |
-| [NCT00956319](https://clinicaltrials.gov/study/NCT00956319) | Phase 4 | Terminé | 42 | Zolpidem à libération modifiée vs estazolam (comparateur) dans l'insomnie primaire ; petit échantillon |
-| [NCT06258226](https://clinicaltrials.gov/study/NCT06258226) | Non applicable | Inconnu | 108 | Pressions auriculaires pour réduire l'usage d'estazolam dans l'insomnie ; l'estazolam est le traitement de fond |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | Non applicable | Inconnu | 1400 | Cohorte prospective sur les risques et bénéfices des hypnotiques chez les personnes âgées à Taïwan ; utile pour la sécurité |
-| [NCT03997058](https://clinicaltrials.gov/study/NCT03997058) | Phase 4 | Inconnu | 120 | Pressions sur points auriculaires vs estazolam oral dans l'insomnie chez patients hémodialysés |
-| [NCT06212934](https://clinicaltrials.gov/study/NCT06212934) | Non applicable | Inconnu | 96 | Acupuncture vs estazolam (non-infériorité) dans l'insomnie de courte durée |
-| [NCT07306494](https://clinicaltrials.gov/study/NCT07306494) | Phase 4 | Pas encore en recrutement | 1200 | Granulés composés de Ciwujia vs estazolam dans l'insomnie chronique (double placebo) |
-| [NCT05452577](https://clinicaltrials.gov/study/NCT05452577) | Non applicable | Terminé | 187 | Évaluation de la médecine chinoise traditionnelle dans l'insomnie chronique ; lien indirect avec l'estazolam |
-
-Dans la plupart de ces essais, l'estazolam sert de comparateur ou de traitement de fond. Il n'est pas l'agent étudié. Un seul essai de Phase 3 est terminé (NCT00347295).
+| [NCT00347295](https://clinicaltrials.gov/study/NCT00347295) | Phase 3 | Terminé | 253 | Essai randomisé en double aveugle comparant le brotizolam à l'estazolam chez des patients ambulatoires insomniaques ; pas de résultats détaillés disponibles |
+| [NCT00956319](https://clinicaltrials.gov/study/NCT00956319) | Phase 4 | Terminé | 42 | Zolpidem à libération modifiée comparé à l'estazolam dans l'insomnie primaire (étude ouverte, de petite taille) |
+| [NCT06859190](https://clinicaltrials.gov/study/NCT06859190) | Phase 3 | En recrutement | 60 | Acupression auriculaire + électroacupuncture + estazolam dans l'insomnie liée au cancer ; pas de résultats |
+| [NCT06258226](https://clinicaltrials.gov/study/NCT06258226) | Non applicable | Inconnu | 108 | Acupression auriculaire pour réduire l'usage d'estazolam chez des insomniaques (sevrage, non efficacité) |
+| [NCT03997058](https://clinicaltrials.gov/study/NCT03997058) | Phase 4 | Inconnu | 120 | Acupression auriculaire comparée à l'estazolam oral chez des patients hémodialysés insomniaques |
+| [NCT07306494](https://clinicaltrials.gov/study/NCT07306494) | Phase 4 | Pas encore en recrutement | 1200 | Granulés composés de Ciwujia, avec estazolam probablement comme comparateur ; pas de résultats |
+| [NCT05452577](https://clinicaltrials.gov/study/NCT05452577) | Non applicable | Terminé | 187 | Évaluation de la médecine chinoise traditionnelle dans l'insomnie chronique ; rôle de l'estazolam peu clair |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [1968721](https://pubmed.ncbi.nlm.nih.gov/1968721/) | 1990 | Revue de l'expérience clinique | Am J Med | Efficacité hypnotique de l'estazolam établie en laboratoire du sommeil et en ambulatoire ; efficacité maintenue au moins 6 semaines |
-| [36571227](https://pubmed.ncbi.nlm.nih.gov/36571227/) | 2022 | ECR | Zhen Ci Yan Jiu | Acupuncture à aiguilles superficielles + estazolam dans l'insomnie (« stagnation du foie se transformant en feu ») ; effet sur l'ACTH et le cortisol |
-| [33798303](https://pubmed.ncbi.nlm.nih.gov/33798303/) | 2021 | Observation clinique (MTC) | Zhongguo Zhen Jiu | Baduanjin + points auriculaires vs estazolam oral dans l'insomnie post-COVID-19 |
-| [37697875](https://pubmed.ncbi.nlm.nih.gov/37697875/) | 2023 | Étude clinique | Zhongguo Zhen Jiu | Acupuncture vs estazolam dans l'insomnie chronique et son influence sur la cognition |
-| [30625122](https://pubmed.ncbi.nlm.nih.gov/30625122/) | 2018 | Revue | Med Lett Drugs Ther | Revue des médicaments de l'insomnie chronique (résumé non disponible) |
-| [31013432](https://pubmed.ncbi.nlm.nih.gov/31013432/) | 2019 | Revue systématique d'ECR | J Altern Complement Med | Acupuncture dans l'insomnie primaire ; ne porte pas sur l'estazolam |
-| [25532388](https://pubmed.ncbi.nlm.nih.gov/25532388/) | 2014 | Observationnelle en vie réelle | Zhongguo Zhong Yao Za Zhi | Maladies concomitantes et médicaments utilisés chez des patients insomniaques |
-| [40827342](https://pubmed.ncbi.nlm.nih.gov/40827342/) | 2025 | Transversale | Psychiatry Clin Psychopharmacol | Usage des médicaments de l'insomnie dans un hôpital de médecine chinoise à Shenzhen |
-| [38007723](https://pubmed.ncbi.nlm.nih.gov/38007723/) | 2023 | Préclinique (souris) | Stud Health Technol Inform | Effet sédatif de Flos Daturae, avec l'estazolam comme témoin positif |
+| [1968721](https://pubmed.ncbi.nlm.nih.gov/1968721/) | 1990 | Revue | Am J Med | Efficacité hypnotique établie de l'estazolam (1 à 2 mg) sur la latence d'endormissement, la durée totale de sommeil et les réveils nocturnes, maintenue pendant au moins 6 semaines |
+| [42455420](https://pubmed.ncbi.nlm.nih.gov/42455420/) | 2026 | ECR | Chin J Integr Med | Acupuncture associée à l'estazolam chez des hémodialysés insomniaques |
+| [36571227](https://pubmed.ncbi.nlm.nih.gov/36571227/) | 2022 | ECR | Zhen Ci Yan Jiu | Aiguilles superficielles associées à l'estazolam dans l'insomnie de type « stagnation du foie se transformant en feu » |
+| [31013432](https://pubmed.ncbi.nlm.nih.gov/31013432/) | 2019 | Revue systématique | J Altern Complement Med | Acupuncture dans l'insomnie primaire : mise à jour des essais randomisés |
+| [30625122](https://pubmed.ncbi.nlm.nih.gov/30625122/) | 2018 | Revue | Med Lett Drugs Ther | Synthèse des médicaments de l'insomnie chronique |
+| [30625124](https://pubmed.ncbi.nlm.nih.gov/30625124/) | 2018 | Revue | Med Lett Drugs Ther | Tableau détaillé de certains hypnotiques oraux |
+| [40896345](https://pubmed.ncbi.nlm.nih.gov/40896345/) | 2025 | Revue exploratoire | Integr Med Res | Phytothérapie chinoise et acupuncture dans l'insomnie associée à une douleur chronique |
+| [33798303](https://pubmed.ncbi.nlm.nih.gov/33798303/) | 2021 | Observation clinique | Zhongguo Zhen Jiu | Baduanjin et points auriculaires comparés à l'estazolam oral dans l'insomnie liée à la COVID-19 |
+| [42343684](https://pubmed.ncbi.nlm.nih.gov/42343684/) | 2026 | Non classé | Zhen Ci Yan Jiu | Acupuncture associée à l'estazolam dans l'insomnie chronique |
+| [37697875](https://pubmed.ncbi.nlm.nih.gov/37697875/) | 2023 | Non classé | Zhongguo Zhen Jiu | Acupuncture selon la différenciation des syndromes comparée à l'estazolam dans l'insomnie chronique et ses effets cognitifs |
+
+La plupart des publications sont des études associant l'estazolam à l'acupuncture, où il sert de traitement de référence ou de fond. Seule la revue de 1990 évalue directement son efficacité hypnotique.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 69888457 | NUCTALON 2 mg, comprimé (Cheplapharm Arzneimittel, Allemagne) | Comprimé |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 69888457 (annulée) | NUCTALON 2 mg, comprimé | Comprimé | Non renseignée |
+
+Le titulaire est CHEPLAPHARM ARZNEIMITTEL (Allemagne). Aucune AMM valide n'est actuellement enregistrée.
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Les mises en garde et contre-indications de l'ANSM n'ont pas pu être extraites pour ce dossier.
+**Contre-indications issues du graphe de connaissances (pas du texte de la notice) :** le graphe de connaissances signale notamment les maladies suivantes :
+- Troubles psychiatriques : trouble anxieux, trouble névrotique, trouble dysthymique, trouble psychotique, trouble schizophréniforme, trouble schizo-affectif, trouble mental
+- Insuffisance d'organe : maladie rénale, maladie hépatique, maladie de la vésicule biliaire
+- Troubles respiratoires du sommeil : syndrome d'apnées du sommeil (dont obstructif), syndrome d'hypoventilation centrale congénitale
+- Troubles neuromusculaires : myasthénie (dont forme de l'adulte), maladie de la jonction neuromusculaire
+- Addictions : troubles liés aux substances, abus ou dépendance
+
+**Interactions médicamenteuses :** 100 interactions ont été recensées. Parmi celles listées :
+- **Majeures** : morphine et morphine liposomale (risque de dépression respiratoire et de sédation)
+- **Modérées** : bupropion, aprépitant, oméprazole, cimétidine, clarithromycine, dronabinol, nabilone, métoclopramide, opium, sibutramine, tédaglutide
+- **Mineures** : antiacides (hydroxyde d'aluminium, carbonate de calcium, oxyde de magnésium, etc.)
+
+Les mises en garde et contre-indications de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- L'estazolam est un hypnotique benzodiazépinique établi et commercialisé en France. L'insomnie est une indication cohérente avec son mécanisme (modulation GABA-A) et avec la littérature clinique. Un essai de Phase 3 terminé (NCT00347295) l'utilise comme comparateur, ce qui correspond au niveau L2.
-- Les autres indications prédites (épilepsies réflexes, sevrage alcoolique, syndrome des jambes sans repos, syndrome myofascial) n'ont que des preuves précliniques (L4) ou aucune preuve (L5). Elles restent en attente (Hold) ou au stade de question de recherche.
+- L'insomnie correspond à l'usage hypnotique classique de l'estazolam, soutenu par des essais cliniques et une revue ancienne. Il ne s'agit donc pas d'un repositionnement au sens strict.
+- Les preuves récentes sont surtout indirectes (estazolam comme comparateur ou traitement de fond), et le produit n'a plus d'AMM valide en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde, contre-indications, indication approuvée), car ces données de sécurité manquent et bloquent le dépistage de sécurité.
-- Compléter les données sur le mécanisme d'action depuis DrugBank.
-- Mettre en place des garde-fous cliniques : risque de dépendance et de tolérance, somnolence le lendemain, prudence chez les personnes âgées (chutes, cognition), durée de traitement courte.
-- Rechercher des essais où l'estazolam est l'agent étudié, et non seulement un comparateur.
+- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
+- Les données détaillées sur le mécanisme d'action (à compléter via DrugBank)
+- La clarification du rôle de l'estazolam dans l'essai de Phase 3 NCT00347295 (médicament testé ou comparateur)
+- Un plan de surveillance pour les risques de dépendance, de sédation et de dépression respiratoire, notamment en cas d'association avec des opioïdes
 
-*Ce rapport est fourni à titre de référence pour la recherche et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+**Autres indications prédites (à titre d'information) :** les autres prédictions reposent surtout sur le modèle seul. L'épilepsie visuelle et les crises audiogéniques (niveau L4) ne s'appuient que sur des études animales indirectes, et sont à considérer comme des questions de recherche. Le delirium de sevrage alcoolique, le syndrome des jambes sans repos, le syndrome myofascial et les épilepsies réflexes rares (niveau L5) sont en attente (Hold), sans preuve spécifique à l'estazolam.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

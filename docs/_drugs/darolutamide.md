@@ -2,7 +2,7 @@
 layout: default
 title: Darolutamide
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 99
+nav_order: 216
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,72 +33,99 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 ## Résumé en Une Phrase
 
-Darolutamide est un antagoniste non stéroïdien du récepteur des androgènes. Le texte d'indication de son AMM n'est pas renseigné dans les données ANSM ; d'après les connaissances générales, il est utilisé dans le cancer de la prostate.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestérolémie familiale homozygote**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction.
+Darolutamide est un antagoniste non stéroïdien du récepteur des androgènes. L'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport pour l'AMM française.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestérolémie familiale homozygote**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (cancer de la prostate d'après les connaissances générales) |
+| Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote |
 | Score de Prédiction TxGNN | 99,11 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, darolutamide bloque le récepteur des androgènes, ce qui explique son usage dans les cancers hormonodépendants de la prostate.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, darolutamide est un antagoniste non stéroïdien du récepteur des androgènes, utilisé dans les cancers de la prostate hormonodépendants. Son indication d'origine n'a toutefois pas pu être confirmée à partir du texte d'AMM disponible.
 
-Le lien avec l'hypercholestérolémie familiale homozygote n'est pas étayé. Cette maladie est causée par un défaut de la voie du récepteur des LDL, alors que darolutamide agit sur la signalisation androgénique. Un effet des androgènes sur le métabolisme des lipides est envisageable, mais reste spéculatif. La prédiction repose uniquement sur le score élevé du modèle.
+Aucun lien mécanistique plausible n'apparaît entre l'antagonisme du récepteur des androgènes et le dysfonctionnement du récepteur du LDL, cause de l'hypercholestérolémie familiale homozygote. Le score élevé (0,991) est une prédiction purement computationnelle et pourrait refléter des artefacts du graphe de connaissances, par exemple des voisins communs liés aux récepteurs nucléaires ou au métabolisme lipidique.
 
-À titre indicatif, les deux autres indications prédites ne sont pas mieux soutenues. La néoplasie endocrinienne multiple (score 99,06 %) repose sur une hypothèse plausible mais non démontrée : la ménine interagirait avec la signalisation du récepteur des androgènes. Elle ne compte qu'un essai de phase 1 terminé avec 2 patients, sans résultat spécifique à darolutamide (niveau L4). Pour l'infection par le VIH (score 99,04 %), il n'y a ni essai ni publication (niveau L5).
+La similarité avec l'indication d'origine n'a pas encore été évaluée. En l'absence d'essai ou de publication, cette prédiction doit être considérée comme hautement spéculative.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62384935 | NUBEQA 300 mg, comprimé pelliculé | Comprimé pelliculé | BAYER AG (Allemagne) |
+| 62384935 | NUBEQA 300 mg, comprimé pelliculé (BAYER AG, Allemagne) | Comprimé pelliculé | Non renseignée (AMM annulée) |
 
-Le texte de l'indication approuvée n'est pas renseigné pour cette AMM.
+---
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée hormonale (antagoniste du récepteur des androgènes), non cytotoxique conventionnel (d'après les connaissances générales) |
+| Classification de Cytotoxicité | Thérapie ciblée (hormonothérapie, antagoniste du récepteur des androgènes) |
+| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
-Pour les autres éléments (myélosuppression, émétogénicité, surveillance, protection de manipulation), veuillez consulter les mises en garde et précautions de la notice.
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+**Interactions Médicamenteuses** : 100 interactions ont été recensées. Parmi les principales :
+- **Majeures** : dexaméthasone, éluxadoline, rosuvastatine
+- **Modérées** : clarithromycine, empagliflozine, glibenclamide, répaglinide, rifaximine, simvastatine, sulfasalazine, cobicistat, déférasirox, eltrombopag, lusutrombopag, phénylbutyrate de glycérol, métréleptine, troglitazone
+- **Mineures** : aprépitant, cimétidine, miconazole
+
+Pour les autres informations de sécurité (mises en garde, contre-indications), veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur un score TxGNN élevé (niveau L5), sans essai clinique, sans publication et sans lien mécanistique démontré. Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et aucun lien mécanistique plausible n'est identifié. De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde et contre-indications)
-- Obtenir les données sur le mécanisme d'action via DrugBank
-- Renseigner l'indication approuvée de l'AMM
-- Rechercher des études précliniques ou mécanistiques reliant la signalisation des androgènes à la voie du récepteur des LDL
-- Évaluer la compatibilité des voies d'administration, encore en attente
+- Notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
+- Données détaillées sur le mécanisme d'action (via DrugBank)
+- Justification mécanistique plausible entre le récepteur des androgènes et le métabolisme du LDL, ou données précliniques
+- Confirmation de l'indication d'origine et du statut réglementaire
 
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+---
+
+## Autres Indications Prédites (pour information)
+
+| Indication | Score TxGNN | Niveau de Preuve | Décision | Commentaire |
+|------|------|------|------|------|
+| Néoplasie endocrinienne multiple | 99,06 % | L4 | Hold | Deux essais retrouvés (NCT07795177, NCT03878524), en réalité centrés sur le cancer de la prostate et la médecine de précision en oncologie, associés par une terminologie large. Aucune donnée spécifique à cette indication. |
+| Infection par le VIH | 99,04 % | L5 | Hold | Prédiction purement computationnelle, sans lien mécanistique direct. Les nombreuses interactions médicamenteuses (CYP3A4/P-gp) poseraient un problème pratique avec les antirétroviraux. |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

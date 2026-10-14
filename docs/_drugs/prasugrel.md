@@ -2,7 +2,7 @@
 layout: default
 title: Prasugrel
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 247
+nav_order: 622
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,97 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Prasugrel : D'un Inhibiteur du P2Y12 (Antiagrégant Plaquettaire) à l'Hypertension Pulmonaire
+# Prasugrel : Du Syndrome Coronarien Aigu au Trouble Migraineux
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Prasugrel est un inhibiteur irréversible du récepteur plaquettaire P2Y12, commercialisé en France sous forme de comprimés pelliculés. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, avec un score très élevé. Cependant, les **2 essais cliniques** et les **2 publications** retrouvés ne portent ni sur le prasugrel ni sur l'hypertension pulmonaire : cette prédiction repose uniquement sur le modèle.
+Prasugrel est un antiagregant plaquettaire (inhibiteur du recepteur P2Y12), initialement utilise dans le traitement du syndrome coronarien aigu.
+Le modele TxGNN predit qu'il pourrait etre efficace pour l'**hypertension pulmonaire** (prediction classee en premier), mais les preuves disponibles sont tres faibles : aucun essai clinique, et seulement 2 publications sans rapport direct avec cette indication.
+Ce rapport retient donc comme piste la mieux documentee le **trouble migraineux**, soutenu par **2 essais cliniques** (indirects) et **2 publications** de petite taille.
 
-## Aperçu Rapide
+> Note de lecture : la prediction de rang 1 (hypertension pulmonaire) est quasi sans preuve. La migraine (rang 2, score quasi identique) est la seule indication avec un corpus de preuves exploitable. Le titre et les sections de preuves portent sur la migraine.
 
-| Élément | Contenu |
+---
+
+## Apercu Rapide
+
+| Element | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Hypertension pulmonaire |
-| Score de Prédiction TxGNN | 99,88 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 4 |
-| Décision Recommandée | Hold |
+| Indication Originale | Syndrome coronarien aigu (source : graphe de connaissances ; les textes d'indication des AMM sont vides) |
+| Nouvelle Indication Predite | Trouble migraineux (rang 2 ; rang 1 : hypertension pulmonaire, niveau L5) |
+| Score de Prediction TxGNN | 99,88 % (hypertension pulmonaire : 99,88 %) |
+| Niveau de Preuve | L3 (migraine) |
+| Statut de Marche en France | Toutes les AMM sont annulees (aucune AMM valide) |
+| Nombre d'AMM | 4 (toutes annulees) |
+| Decision Recommandee | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+---
 
-Prasugrel bloque de façon irréversible le récepteur P2Y12 des plaquettes, ce qui limite leur activation et leur agrégation. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Ce qui suit repose sur la description du mécanisme fournie avec la prédiction.
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Le lien proposé est le suivant : l'activation plaquettaire et la thrombose *in situ* pourraient contribuer au remodelage des vaisseaux pulmonaires. Un antiagrégant comme le prasugrel pourrait donc, en théorie, agir sur ce processus.
+Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles dans les donnees compilees pour ce rapport. Sur la base des informations connues, prasugrel est une thienopyridine antagoniste du recepteur plaquettaire P2Y12 ; il inhibe l'agregation plaquettaire et son efficacite dans le syndrome coronarien aigu est etablie.
 
-**Ce lien reste spéculatif.** Aucun des essais ou articles retrouvés n'étudie le prasugrel dans l'hypertension pulmonaire. Le score élevé du modèle n'est pas confirmé par des données cliniques.
+Dans la migraine, l'hypothese avancee est la suivante : chez les patients migraineux porteurs d'un foramen ovale perméable (FOP), le passage paradoxal de substances activant les plaquettes ou vasoactives (par exemple la serotonine) pourrait declencher les crises. L'inhibition de P2Y12 par les thienopyridines (clopidogrel, prasugrel) ou par le ticagrelor pourrait attenuer cet effet. Le lien avec l'indication originale est donc indirect : il s'agit du meme mecanisme antiplaquettaire, applique a un contexte different, et uniquement dans une population selectionnee (migraine avec FOP).
+
+Cette hypothese reste a confirmer : les essais retrouves testent la fermeture du FOP par dispositif, et non prasugrel lui-meme. Pour l'hypertension pulmonaire, le lien (role des plaquettes dans le remodelage vasculaire) est plausible mais non demontre.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Les deux essais retrouvés sont classés « C » (non pertinents) : ils ne concernent ni le prasugrel ni l'hypertension pulmonaire.
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | Non applicable | Terminé | 500 | Étude observationnelle transversale sur la prise en charge des anticoagulants oraux non-AVK chez des patients âgés avec fibrillation atriale non valvulaire (Espagne). Aucun lien avec le prasugrel. |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | Non applicable | Terminé | 300 | Étude rétrospective sur la proportion de patients atteints de thrombose associée au cancer non éligibles à un essai de type CARAVAGGIO. Aucun lien avec le prasugrel. |
+| [NCT07629635](https://clinicaltrials.gov/study/NCT07629635) | Phase 3 | En recrutement | 32 | Traitement oriente vers le FOP dans la migraine (fermeture du FOP ou prasugrel mentionne dans le contexte) ; preuve indirecte, pas encore de resultats |
+| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | Non applicable | Termine prematurement | 7 | Occluseur septal GORE CARDIOFORM contre placebo/simulacre dans la migraine ; essai de dispositif, faible valeur pour prasugrel |
 
-## Preuves de la Littérature
+---
 
-Les deux publications retrouvées sont des études de cohorte sans rapport direct avec l'indication prédite.
+## Preuves de la Litterature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohorte | Kardiologiia | Registre ACTIVE : influence des traitements de fond des comorbidités avant l'infection sur le risque de décès par COVID-19. |
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohorte | Current Medical Research and Opinion | Facteurs associés à l'utilisation et à l'observance du clopidogrel après angioplastie dans le syndrome coronarien aigu. |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Etude de cohorte retrospective | Neurology | Revue de l'usage hors AMM des thienopyridines chez des migraineux avec FOP |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Etude pilote ouverte (ticagrelor) | Neurology | Etude pilote avec un inhibiteur P2Y12 apparente, faisant suite a l'observation d'une reduction des migraines sous clopidogrel et prasugrel chez certains patients avec FOP |
+| [42722054](https://pubmed.ncbi.nlm.nih.gov/42722054/) | 2026 | Preclinique (souris) | European Journal of Pharmacology | Effet neuroprotecteur de prasugrel dans un modele d'epilepsie par kindling ; maladie differente, pertinence faible pour la migraine |
 
-## Informations de Marché en France
+---
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 63610757 | PRASUGREL KRKA 10 mg | Comprimé pelliculé |
-| 67461428 | PRASUGREL EG 10 mg | Comprimé pelliculé |
-| 64503651 | PRASUGREL BGR 10 mg | Comprimé pelliculé |
-| 65916489 | EFIENT 10 mg | Comprimé pelliculé |
+## Informations de Marche en France
 
-## Considérations de Sécurité
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
+|---------|------|------|-----------|
+| 63610757 | PRASUGREL KRKA 10 mg (annulee) | Comprime pellicule | Non renseignee |
+| 67461428 | PRASUGREL EG 10 mg (annulee) | Comprime pellicule | Non renseignee |
+| 64503651 | PRASUGREL BGR 10 mg (annulee) | Comprime pellicule | Non renseignee |
+| 65916489 | EFIENT 10 mg (annulee) | Comprime pellicule | Non renseignee |
 
-Veuillez consulter la notice pour les informations de sécurité.
+---
 
-## Conclusion et Prochaines Étapes
+## Considerations de Securite
 
-**Décision : Hold**
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : insuffisance hepatique, trouble hypotensif, maladie de la coagulation, accident vasculaire cerebral, trouble cerebrovasculaire, infarctus cerebral, traumatisme, purpura thrombocytopenique, hemorragie intracranienne, accident ischemique transitoire, insuffisance vertebrobasilaire.
+- **Interactions medicamenteuses** (100 interactions repertoriees) :
+  - Majeures : deferasirox, ibritumomab tiuxetan.
+  - Moderees : acide acetylsalicylique, morphine, opium, fenfluramine, dexfenfluramine, sibutramine.
+  - Mineures : antagonistes H2 (famotidine, ranitidine, cimetidine, nizatidine) et inhibiteurs de la pompe a protons (omeprazole, esomeprazole, pantoprazole, lansoprazole, dexlansoprazole, rabeprazole), bupropion.
+
+Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas pu etre recuperees ; veuillez consulter la notice pour les informations de securite completes. Le risque hemorragique inherent a la classe est a considerer avec une attention particuliere.
+
+---
+
+## Conclusion et Prochaines Etapes
+
+**Decision : Hold**
 
 **Justification :**
-- L'hypertension pulmonaire n'est soutenue que par le score du modèle TxGNN (niveau L5). Aucun essai ni publication retrouvé ne teste le prasugrel dans cette maladie.
-- Le mécanisme proposé (rôle des plaquettes dans le remodelage vasculaire pulmonaire) est théorique.
+- Le niveau de preuve est L3 pour la migraine (etudes observationnelles et pilote sur des molecules apparentees) et L5 pour l'hypertension pulmonaire. Aucun essai randomise n'a evalue prasugrel lui-meme, toutes les AMM francaises sont annulees et les donnees de securite de la notice manquent, ce qui empeche le passage au criblage de securite.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM, dont l'absence bloque toute évaluation de sécurité.
-- Les données détaillées sur le mécanisme d'action (DrugBank).
-- Des données précliniques ou cliniques spécifiques au prasugrel dans l'hypertension pulmonaire.
-- Une évaluation du risque hémorragique avant tout travail prospectif.
-
-**Piste alternative à examiner séparément :** la **migraine avec foramen ovale perméable** (2ᵉ prédiction, niveau L3) dispose d'une revue rétrospective sur les thiénopyridines et d'une étude pilote ouverte avec le ticagrelor. Ces données sont limitées, non contrôlées et non spécifiques au prasugrel, mais elles sont plus solides que celles de l'hypertension pulmonaire.
+**Pour avancer, les elements suivants sont necessaires :**
+- Recuperer la notice de l'ANSM (mises en garde et contre-indications) pour realiser le criblage de securite.
+- Obtenir les donnees detaillees sur le mecanisme d'action (DrugBank).
+- Definir une population cible (migraine avec FOP) et evaluer le rapport benefice/risque hemorragique, notamment au regard des contre-indications cerebrovasculaires.
+- Disposer d'un essai randomise testant directement prasugrel dans la migraine avec FOP ; suivre les resultats de NCT07629635.
+- Clarifier le statut reglementaire en France (AMM annulees) avant toute perspective d'usage.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

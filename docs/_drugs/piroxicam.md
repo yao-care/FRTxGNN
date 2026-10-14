@@ -2,7 +2,7 @@
 layout: default
 title: Piroxicam
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 240
+nav_order: 611
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,90 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Piroxicam : De l'Indication Originale Non Renseignée au Syndrome de Microphtalmie Colobomateuse avec Dysplasie Rhizomélique
+# Piroxicam : De la polyarthrite rhumatoïde au syndrome de microphtalmie colobomateuse-dysplasie rhizomélique
 
 ## Résumé en Une Phrase
 
-Le piroxicam est un anti-inflammatoire non stéroïdien (AINS), inhibiteur non sélectif des COX, commercialisé en France. Les données fournies ne précisent pas son indication d'origine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette prédiction. Il s'agit d'un signal issu du modèle uniquement, sans lien mécanistique plausible.
+Piroxicam est un anti-inflammatoire non stéroïdien (AINS), utilisé à l'origine dans la polyarthrite rhumatoïde et l'arthrose.
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de microphtalmie colobomateuse-dysplasie rhizomélique**, une maladie génétique rare du développement.
+**Aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction, qui repose uniquement sur le score du modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM fournies |
-| Nouvelle Indication Prédite | Syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique |
+| Indication Originale | Polyarthrite rhumatoïde, arthrose (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
+| Nouvelle Indication Prédite | Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique |
 | Score de Prédiction TxGNN | 99,996 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 13 |
+| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Nombre d'AMM | 13 (dont 13 annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le piroxicam est connu comme inhibiteur non sélectif de la cyclo-oxygénase (COX-1 et COX-2). Il réduit la synthèse des prostaglandines, donc l'inflammation et la douleur.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, piroxicam fait partie de la classe des AMNS inhibiteurs de la cyclo-oxygénase (COX-1/COX-2). Son efficacité dans les maladies articulaires inflammatoires est établie. Il réduit la synthèse des prostaglandines, ce qui diminue l'inflammation et la douleur.
 
-Cette prédiction **n'est pas raisonnable sur le plan mécanistique**. Le syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique est une maladie génétique rare du développement. L'inhibition des COX n'agit pas sur sa physiopathologie. Le score TxGNN très élevé (99,996 %) reste une sortie de modèle, probablement un artefact du graphe de connaissances.
+Pour la nouvelle indication prédite, **aucun lien mécanistique plausible n'a été identifié**. Cette maladie est un syndrome génétique rare du développement, touchant le squelette et l'œil. L'inhibition de la COX n'a pas de rôle connu dans sa physiopathologie. Le score élevé reflète probablement des annotations musculo-squelettiques partagées dans le graphe de connaissances, plutôt qu'un véritable signal thérapeutique.
 
-Les neuf autres prédictions en tête de liste sont dans la même situation. Ce sont des dysplasies squelettiques ou malformations congénitales (syndactylie-brachydactylie, dysplasie acromésomélique de type Hunter-Thompson, brachyolmie, pseudoachondroplasie, etc.), plus le syndrome WHIM. Aucune ne présente de lien plausible avec l'inhibition des prostaglandines.
-
-La seule prédiction du classement qui bénéficie d'un début de soutien est l'**arthrite juvénile idiopathique** (rang 10, score 99,93 %). Le mécanisme est biologiquement plausible : réduction de l'inflammation articulaire médiée par les prostaglandines. Des études anciennes testent directement le piroxicam dans cette maladie.
+Les autres prédictions les mieux classées vont dans le même sens. Il s'agit surtout de dysplasies squelettiques génétiques (brachydactylie-syndactylie, dysplasie acromésomélique de type Hunter-Thompson, brachyolmie, pseudoachondroplasie), sans preuve ni lien mécanistique.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour le syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique.
-
-À titre de comparaison, voici les publications les plus pertinentes pour l'arthrite juvénile idiopathique (rang 10 du classement, niveau L3) :
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [38680254](https://pubmed.ncbi.nlm.nih.gov/38680254/) | 2024 | Revue systématique / méta-analyse en réseau | World J Clin Cases | Comparaison de plusieurs AINS dans l'AIJ ; la méthode optimale n'était pas encore établie |
-| [33632948](https://pubmed.ncbi.nlm.nih.gov/33632948/) | 2021 | Revue systématique / méta-analyse en réseau | Indian Pediatr | Efficacité et sécurité comparées de neuf AINS dans l'AIJ |
-| [2957205](https://pubmed.ncbi.nlm.nih.gov/2957205/) | 1987 | Essai randomisé | Eur J Rheumatol Inflamm | 26 patients, piroxicam vs naproxène dans l'arthrite rhumatoïde juvénile |
-| [3510686](https://pubmed.ncbi.nlm.nih.gov/3510686/) | 1986 | ECR croisé en double aveugle | Br J Rheumatol | 47 enfants, piroxicam vs naproxène, pas de différence significative entre les deux traitements |
-| [1782984](https://pubmed.ncbi.nlm.nih.gov/1782984/) | 1991 | Étude pharmacocinétique | Eur J Clin Pharmacol | Pharmacocinétique à l'état d'équilibre chez 10 enfants atteints de maladies rhumatismales (demi-vie moyenne d'environ 33 h) |
+Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de Marché en France
 
+Les 13 AMM de piroxicam sont annulées. Les 5 premières sont listées ci-dessous. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67214342 | FELDENE DISPERSIBLE 20 mg | Comprimé dispersible sécable | Non renseignée |
-| 68659391 | PIROXICAM BIOGARAN 10 mg | Gélule | Non renseignée |
-| 62408891 | PIROXICAM PFIZER 20 mg/1 ml | Solution injectable en ampoule (IM) | Non renseignée |
-| 67785736 | PIROXICAM VIATRIS 20 mg | Comprimé dispersible sécable | Non renseignée |
-| 69721369 | PIROXICAM TEVA 20 mg/1 ml | Solution injectable (IM) | Non renseignée |
+| 67214342 | FELDENE DISPERSIBLE 20 mg (Pfizer) | Comprimé dispersible sécable | Non précisée |
+| 68659391 | PIROXICAM BIOGARAN 10 mg | Gélule | Non précisée |
+| 62408891 | PIROXICAM PFIZER 20 mg/1 ml (IM) | Solution injectable | Non précisée |
+| 67785736 | PIROXICAM VIATRIS 20 mg | Comprimé dispersible sécable | Non précisée |
+| 69721369 | PIROXICAM TEVA 20 mg/1 ml (IM) | Solution injectable | Non précisée |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) :
+  - Cardiovasculaires : hypertension, insuffisance cardiaque congestive, infarctus du myocarde, thrombose coronarienne, AVC et infarctus cérébral, maladie thrombotique.
+  - Rénales et hépatiques : maladie rénale, maladie hépatique, hépatite, insuffisance hépatique aiguë, atteinte hépatique d'origine médicamenteuse, maladie de la vésicule biliaire.
+  - Hématologiques : troubles de la coagulation, anémies, hémoglobinopathie.
+  - Gastro-intestinales : ulcère gastroduodénal actif.
+  - Autres : troubles de la vision et cécité, abus ou dépendance à une substance.
+- **Interactions médicamenteuses** : 100 interactions sont recensées. Parmi les principales :
+  - Niveau modéré : acide acétylsalicylique, corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, budésonide, triamcinolone), metformine, glimépiride, chlorpropamide, mésalazine, balsalazide, aprépitant, citrate et bicarbonate de potassium.
+  - Niveau mineur : famotidine, ranitidine, cimétidine, linaclotide.
+
+Les mises en garde et contre-indications officielles de la notice n'ont pas pu être obtenues. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction en tête de liste repose uniquement sur le score du modèle (niveau L5), sans essai ni publication et sans lien mécanistique plausible avec l'inhibition des COX.
-- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque toute évaluation de sécurité.
+- La prédiction repose uniquement sur le score du modèle (L5), sans essai clinique, sans publication ni lien mécanistique plausible avec l'inhibition de la COX.
+- Toutes les AMM françaises sont annulées, et le profil de risque cardiovasculaire, rénal, hépatique et digestif est défavorable.
+
+**Piste alternative à noter :** parmi les prédictions de rang inférieur, l'**arthrite juvénile idiopathique** (rang 10, score 99,93 %) est biologiquement cohérente avec l'indication d'origine. Son niveau de preuve est L3, avec 10 publications :
+- Deux méta-analyses en réseau sur les AINS (2021, 2024) qui comparent la classe sans être spécifiques au piroxicam.
+- Une étude de 1987 comparant piroxicam et naproxène chez 26 patients, avec attribution aléatoire.
+- Une étude multicentrique de 1986 comparant les deux produits chez 47 enfants.
+- Une étude pharmacocinétique pédiatrique de 1991.
+
+Ces études sont anciennes, antérieures aux biothérapies. Cette piste relève d'une question de recherche (« Research Question ») plutôt que d'une décision Go.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications). Ce point est bloquant.
-- Obtenir les données détaillées sur le mécanisme d'action, par exemple via l'API DrugBank.
-- Renseigner les indications approuvées de chaque AMM afin d'établir l'indication d'origine.
-- Réorienter l'évaluation vers l'arthrite juvénile idiopathique, seule prédiction avec un soutien bibliographique (L3). Il faudrait vérifier si cette indication est déjà approuvée en France et examiner en détail les deux études pédiatriques comparant le piroxicam au naproxène.
-- Ne pas poursuivre les prédictions de maladies génétiques rares (dysplasies, malformations, syndrome WHIM) sans nouvelle preuve.
+- Données sur le mécanisme d'action de piroxicam.
+- Mises en garde et contre-indications officielles de la notice (ANSM).
+- Pour le syndrome prédit : une justification biologique indépendante du graphe (modèles précliniques) avant tout investissement clinique.
+- Pour l'arthrite juvénile idiopathique : une revue ciblée des données pédiatriques spécifiques au piroxicam, comparée aux alternatives actuelles.
+- Clarification du statut réglementaire, puisqu'aucune AMM n'est en vigueur en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

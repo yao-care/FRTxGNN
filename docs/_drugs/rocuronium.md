@@ -2,7 +2,7 @@
 layout: default
 title: Rocuronium
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 270
+nav_order: 677
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,71 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Rocuronium : De l'Anesthésie Générale (Blocage Neuromusculaire) au Trouble Migraineux
+# Rocuronium : Du Bloc Neuromusculaire à la Migraine (prédiction non étayée)
 
 ## Résumé en Une Phrase
 
-Rocuronium est un agent bloquant neuromusculaire non dépolarisant, utilisé en anesthésie générale pour faciliter l'intubation et le relâchement musculaire peropératoire — cet usage ressort du contexte des essais cliniques disponibles, aucune fiche d'indication officielle n'ayant été retrouvée dans les sources consultées. Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Trouble Migraineux** (migraine disorder), avec un score de prédiction de **99,90 %**, mais cette direction n'est actuellement soutenue que par **1 essai clinique non pertinent** et **aucune publication scientifique dédiée**.
-
----
+Les données compilées pour ce rapport ne précisent pas l'indication d'origine du rocuronium. Il s'agit d'un myorelaxant non dépolarisant, utilisé en anesthésie.
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** (*migraine disorder*), mais cette prédiction repose uniquement sur le modèle : **1 essai clinique** (pharmacocinétique pédiatrique, non pertinent pour l'efficacité) et **aucune publication** ne la soutiennent.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Blocage neuromusculaire / anesthésie générale (non documenté formellement dans les sources — donnée manquante, cf. DG002) |
-| Nouvelle Indication Prédite | Trouble Migraineux (migraine disorder) |
+| Indication Originale | Non disponible dans les données compilées |
+| Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
 | Score de Prédiction TxGNN | 99,90 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Non commercialisé |
+| Statut de Marché en France | Non commercialisé |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | Hold |
 
----
-
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources structurées (DrugBank marque ce champ comme donnée manquante à haute priorité, DG002). Sur la base du contexte disponible dans les essais cliniques associés, Rocuronium est un bloqueur neuromusculaire non dépolarisant qui agit sur les récepteurs nicotiniques de l'acétylcholine au niveau de la jonction neuromusculaire du muscle squelettique. Il ne franchit pas la barrière hémato-encéphalique et n'a donc aucune action centrale connue.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base compilée. D'après les connaissances pharmacologiques générales, le rocuronium est un myorelaxant non dépolarisant : il agit comme antagoniste compétitif des récepteurs nicotiniques de l'acétylcholine à la jonction neuromusculaire.
 
-Contrairement à l'exemple type de repositionnement, l'analyse mécanistique fournie avec ce dossier conclut elle-même qu'**il n'existe aucun lien mécanistique plausible** entre le blocage neuromusculaire périphérique et le trouble migraineux, dont la physiopathologie repose sur le système trigémino-vasculaire central et la voie du CGRP. L'unique essai clinique relié à cette prédiction (NCT01431326) est une étude pharmacocinétique pédiatrique de « médicaments standards de soins », dans laquelle le rocuronium n'apparaît que comme un des nombreux médicaments surveillés au hasard des protocoles chirurgicaux — il ne s'agit en aucun cas d'un essai interventionnel ciblant la migraine.
+Aucun mécanisme établi ne relie cette action à la physiopathologie de la migraine (CGRP, activation trigémino-vasculaire, dépression corticale envahissante). Le score élevé du modèle est très probablement un artefact du graphe de connaissances. La toxine botulique, qui réduit aussi la transmission neuromusculaire et s'utilise dans la migraine chronique, agit par un autre mécanisme (inhibition de la libération présynaptique, modulation des nocicepteurs périphériques) : l'analogie est donc faible.
 
-Ce profil est cohérent avec un **signal probablement faux positif**, généré par une co-occurrence fortuite dans le graphe de connaissances plutôt que par une réelle proximité pharmacologique. Par comparaison, un signal beaucoup plus modeste mais mécanistiquement plus crédible existe dans ce même dossier : le remplacement de la succinylcholine par le rocuronium (avec réversion par sugammadex) pourrait réduire les myalgies/céphalées post-anesthésiques liées aux fasciculations musculaires (voir « Céphalée » / *headache disorder*, rang 10, niveau de preuve L3) — mais ce mécanisme concerne une céphalée post-procédurale ponctuelle, pas le trouble migraineux chronique visé par la prédiction principale.
-
----
+Les autres prédictions du modèle (migraine avec aura du tronc cérébral, syndrome de la queue de cheval, susceptibilité génétique à la migraine, atrophodermie vermiculée, uléryhtème ophryogène, vessie neurogène « obsolète », syndrome de l'intestin irritable, neuropathie sciatique, céphalées) ne disposent d'aucune justification mécanistique ni d'aucune preuve clinique solide. La plupart découlent de la proximité de nœuds dans le graphe.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Terminé | 3520 | Étude pharmacocinétique observationnelle chez l'enfant, portant sur plusieurs « médicaments peu étudiés » administrés selon les soins standards ; le rocuronium n'y est qu'un des médicaments surveillés (contexte chirurgical/anesthésique général), sans aucune évaluation de la migraine. |
-
----
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Terminé | 3520 | Étude de pharmacocinétique de médicaments peu étudiés chez l'enfant, administrés selon les soins courants. Non conçue pour évaluer l'efficacité dans la migraine ; lien jugé incidentel (pertinence : C). |
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Aucune littérature associée à la migraine n'est disponible actuellement.
 
----
+Pour la prédiction « céphalées » (rang 10), deux publications indirectes existent, sans valeur démonstrative d'efficacité :
 
-## Informations de Marché en France
-
-Aucune AMM enregistrée — selon les données consultées, Rocuronium n'est pas commercialisé en France (0 licence recensée).
-
----
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [23812022](https://pubmed.ncbi.nlm.nih.gov/23812022/) | 2014 | Étude clinique | J ECT | Comparaison succinylcholine vs rocuronium-sugammadex sur les myalgies et céphalées après électroconvulsivothérapie : la céphalée y est un effet périprocédural, pas une cible thérapeutique. |
+| [24196089](https://pubmed.ncbi.nlm.nih.gov/24196089/) | 2013 | Cas clinique | Pediatr Emerg Care | Intubation en séquence rapide chez un enfant à risque d'aspiration avec pression intracrânienne élevée ; sans rapport avec un effet antimigraineux. |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions médicamenteuses** : 73 interactions recensées. Parmi celles listées :
+  - **Majeures** : paromomycine, kanamycine, néomycine (potentialisation du bloc neuromusculaire par les aminosides).
+  - **Modérées** : doxycycline, tétracycline, minocycline, vancomycine, sulfate et chlorure de magnésium, mannitol, métoclopramide, amphotéricine B (y compris complexe lipidique), néomycine topique, corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, prednisone).
+  - **Mineure** : ranitidine.
 
----
+Veuillez consulter la notice pour les mises en garde et contre-indications, non disponibles dans les données compilées.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction principale (Trouble Migraineux) ne dispose d'aucune preuve clinique ou littéraire pertinente — le seul essai relié est une étude pharmacocinétique pédiatrique sans lien avec la migraine — et l'analyse mécanistique fournie identifie elle-même ce signal comme un probable artefact du graphe de connaissances, en l'absence de toute action centrale connue du rocuronium.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai pertinent, aucune publication, aucun mécanisme plausible. Le médicament n'est pas commercialisé en France (0 AMM). Un myorelaxant systémique entraînant une paralysie respiratoire est difficilement envisageable pour une pathologie chronique comme la migraine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir les mises en garde/contre-indications de la notice TFDA/ANSM (donnée bloquante DG001) et les données de mécanisme d'action (DG002) auprès de DrugBank, préalables indispensables avant toute évaluation de sécurité S1
-- Clarifier l'indication d'origine officielle du produit (actuellement absente des sources structurées)
-- Si une piste de recherche doit être retenue dans ce dossier, envisager plutôt le signal secondaire plus modeste mais mécanistiquement mieux étayé — la réduction des myalgies/céphalées post-anesthésiques via l'usage du rocuronium/sugammadex à la place de la succinylcholine (rang 10, niveau L3, stade S1) — comme question de recherche distincte, ciblée et non extrapolable au trouble migraineux chronique
-- Étant donné l'absence de commercialisation en France (0 AMM), toute suite réglementaire nécessiterait une démarche d'enregistrement complète
+- Récupérer la notice ANSM (mises en garde, contre-indications), qui bloque actuellement le criblage de sécurité.
+- Obtenir les données sur le mécanisme d'action et l'indication d'origine.
+- Démontrer un mécanisme plausible reliant le bloc nicotinique à la migraine, puis des études précliniques.
+- Évaluer la compatibilité des voies d'administration (analyse non encore réalisée).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

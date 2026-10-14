@@ -2,7 +2,7 @@
 layout: default
 title: Clidinium
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 79
+nav_order: 178
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,32 +29,35 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Clidinium : D'une indication non renseignée au syndrome de la queue de cheval
+# Clidinium : Des troubles gastro-intestinaux fonctionnels à l'ulcère peptique
 
 ## Résumé en Une Phrase
 
-Le clidinium est un anticholinergique (antimuscarinique) commercialisé en France dans la spécialité LIBRAX, mais le texte de son indication d'origine n'est pas renseigné dans les données d'AMM disponibles.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la queue de cheval**, sans aucun **essai clinique** ni **publication** à l'appui à ce jour : il s'agit d'une prédiction purement algorithmique.
+Clidinium est un anticholinergique (antimuscarinique) quaternaire, initialement utilisé pour le traitement du syndrome de l'intestin irritable et d'autres affections gastro-intestinales spasmodiques (entérocolite, gastro-entérite).
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de la queue de cheval** (prédiction de rang 1), mais cette prédiction ne repose sur **aucun essai clinique ni aucune publication**.
+La prédiction la mieux étayée est l'**ulcère peptique** (rang 4), avec **6 publications** (dont une étude de 2016 et plusieurs rapports historiques des années 1960), mais **aucun essai clinique enregistré**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM (texte d'indication vide) |
-| Nouvelle Indication Prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
-| Score de Prédiction TxGNN | 99,93 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision Recommandée | Hold |
+| Indication Originale | Syndrome de l'intestin irritable (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval (rang 1) ; indication la mieux documentée : ulcère peptique (rang 4) |
+| Score de Prédiction TxGNN | 99,93 % (syndrome de la queue de cheval) ; 99,83 % (ulcère peptique) |
+| Niveau de Preuve | L5 (syndrome de la queue de cheval) ; L3 (ulcère peptique) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes deux annulées) |
+| Décision Recommandée | Hold (syndrome de la queue de cheval) ; Research Question (ulcère peptique) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le clidinium est un antimuscarinique de structure ammonium quaternaire, qui pénètre peu dans le système nerveux central. Ce type de molécule réduit la motricité et les spasmes des muscles lisses.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le clidinium est un antagoniste muscarinique quaternaire, agissant surtout sur le muscle lisse digestif, avec une faible pénétration dans le système nerveux central. Son efficacité dans les spasmes digestifs est établie, et il pourrait mécanistiquement s'appliquer à d'autres pathologies où la motilité ou la sécrétion sont en cause.
 
-Dans le syndrome de la queue de cheval, le clidinium pourrait en théorie atténuer les troubles vésicaux ou intestinaux secondaires. Il ne traite cependant pas la cause sous-jacente, une compression nerveuse qui constitue une urgence chirurgicale. Le score élevé de TxGNN reflète probablement la proximité dans le graphe de connaissances avec la vessie neurogène, et non une efficacité démontrée.
+**Syndrome de la queue de cheval (rang 1)** : le lien est uniquement symptomatique (modulation de la dysfonction vésicale ou intestinale secondaire à la compression). Il ne traite pas la cause, qui nécessite une décompression chirurgicale. Le score est élevé, mais aucune donnée clinique ne le soutient.
 
-La prédiction doit donc être considérée comme une hypothèse de traitement symptomatique éventuel, pas comme une alternative au traitement de la cause. Aucune donnée clinique ne permet aujourd'hui de la valider.
+**Ulcère peptique (rang 4)** : les anticholinergiques réduisent la sécrétion acide à médiation vagale et la motilité digestive, et ont été utilisés historiquement en appoint dans la prise en charge de l'ulcère. Ce lien est plausible, mais les inhibiteurs de la pompe à protons et l'éradication d'*H. pylori* constituent aujourd'hui le traitement de référence. Le rôle du clidinium ne pourrait être qu'adjuvant.
+
+Autres prédictions notables : la **vessie neurogène** (rang 2, classe thérapeutique plausible mais terme d'ontologie obsolète et alternatives mieux caractérisées), la **gastroduodénite** (rang 3) et la **maladie du gros intestin** (rang 10, qui recoupe l'indication d'origine). Les prédictions concernant la myasthénie (rangs 5 à 7), les maladies auto-immunes du système nerveux périphérique (rang 8) et les « maladies de l'activité des récepteurs » (rang 9) ne reposent sur aucun lien mécanistique crédible. Les myasthénies posent en outre un risque de sécurité, car un anticholinergique peut aggraver la faiblesse musculaire.
 
 ## Preuves d'Essais Cliniques
 
@@ -62,35 +65,55 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement.
+Publications concernant l'ulcère peptique (rang 4) :
+
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [27386057](https://pubmed.ncbi.nlm.nih.gov/27386057/) | 2016 | Étude clinique (ajout à la trithérapie IPP ; schéma à vérifier, possiblement ECR) | Caspian J Intern Med | Évalue l'ajout de clidinium-C à la trithérapie de 14 jours à base d'IPP pour l'éradication d'*H. pylori* et la prévention des effets indésirables |
+| [4892352](https://pubmed.ncbi.nlm.nih.gov/4892352/) | 1969 | Évaluation clinique (association avec le chlordiazépoxide) | Br J Clin Pract | Évaluation clinique de clidinium et « Libraxin » dans l'ulcère duodénal (résumé non disponible) |
+| [14142206](https://pubmed.ncbi.nlm.nih.gov/14142206/) | 1964 | Rapport clinique (association) | Rev Clin Esp | Association chlordiazépoxide + clidinium dans l'ulcère gastroduodénal (résumé non disponible) |
+| [14477958](https://pubmed.ncbi.nlm.nih.gov/14477958/) | 1962 | Rapport clinique (association) | Hospital (Rio de Janeiro) | Note préliminaire sur le traitement de l'ulcère gastroduodénal par clidinium et chlordiazépoxide (résumé non disponible) |
+| [14497768](https://pubmed.ncbi.nlm.nih.gov/14497768/) | 1962 | Rapport d'essai clinique (association) | Minerva Med | Essais cliniques de Librax dans certaines maladies digestives (résumé non disponible) |
+| [28539](https://pubmed.ncbi.nlm.nih.gov/28539/) | 1978 | Étude animale (souris) | Pharmacology | L'association benzodiazépine + anticholinergique (dont clidinium) donne un effet protecteur additif ou supra-additif contre l'érosion gastrique induite par le stress |
+
+Publication concernant la maladie du gros intestin (rang 10) :
+
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [345122](https://pubmed.ncbi.nlm.nih.gov/345122/) | 1978 | Étude clinique physiologique (10 patients) | N Engl J Med | Dans le syndrome de l'intestin irritable, activité électrique et motrice colique accrue après le repas ; le clidinium n'a pas modifié la fréquence des ondes lentes coliques |
+
+La majorité de ces données concerne des associations avec le chlordiazépoxide, sont anciennes et ne permettent pas d'attribuer l'effet au clidinium seul. Pour la gastroduodénite (rang 3), seuls les deux rapports historiques de 1962 et 1964 sont disponibles, et ils portent sur l'ulcère gastroduodénal et non sur la gastroduodénite.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66803576 | LIBRAX, comprimé enrobé | Comprimé enrobé | Non renseignée |
-| 67627992 | LIBRAX, comprimé enrobé | Comprimé enrobé | Non renseignée |
+| 66803576 | LIBRAX, comprimé enrobé (DIFARMED, Espagne) | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 67627992 | LIBRAX, comprimé enrobé (VIATRIS MEDICAL) | Comprimé enrobé | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
 
-À noter : d'autres prédictions du modèle concernent la myasthénie (myasthénie auto-immune, néonatale, etc.). Les anticholinergiques sont généralement déconseillés dans ces pathologies car ils peuvent aggraver la faiblesse musculaire. Ces prédictions doivent être traitées comme un signal de sécurité potentiel, et non comme une opportunité de repositionnement.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : glaucome à angle fermé, myasthénie et maladies de la jonction neuromusculaire, hypertrophie bénigne de la prostate, maladie coronarienne, hypertension, ulcère gastrique, porphyries, insuffisance rénale, maladie hépatique, maladie de la vésicule biliaire, troubles psychotiques et schizophréniques, troubles anxieux et dysthymiques, syndromes d'apnée du sommeil et maladies pulmonaires.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales, de niveau modéré : toxine botulique de type A, opioïdes (fentanyl, alfentanil, codéine, dihydrocodéine, tramadol, hydrocodone), éthanol, amitriptyline, amantadine, autres anticholinergiques (hyoscyamine, aclidinium), antihistaminiques (acrivastine, phényltoloxamine), phényléphrine, acébutolol, acétylcholine et lopéramide. Niveau mineur : paracétamol et hydrochlorothiazide.
+
+L'usage chez le nouveau-né (myasthénie néonatale) et chez les patients atteints de myasthénie soulève une préoccupation de sécurité importante.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Hold**
+**Décision : Hold** (syndrome de la queue de cheval et autres prédictions de niveau L5) ; **Research Question** pour l'ulcère peptique (L3)
 
 **Justification :**
-- La prédiction pour le syndrome de la queue de cheval repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et le clidinium n'agit pas sur la cause de cette urgence chirurgicale.
-- Les données de sécurité de la notice ANSM sont manquantes, ce qui empêche de passer à l'étape de criblage de sécurité.
+- Le syndrome de la queue de cheval, malgré un score TxGNN élevé, n'est soutenu par aucun essai ni publication, et le rationnel n'est que symptomatique. Pour l'ulcère peptique, les preuves sont favorables mais confondues (associations, anciennes, sans conception contrôlée moderne), le traitement de référence actuel est différent et les AMM françaises sont toutes annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde et contre-indications), manque bloquant.
-- Obtenir les données de mécanisme d'action via DrugBank (DB00771) et le texte de l'indication approuvée des deux AMM.
-- Réorienter l'évaluation vers des prédictions mieux documentées :
-  - **Ulcère peptique** (niveau L3) : séries cliniques anciennes sur l'association clidinium/chlordiazépoxide, dont [PMID 4892352](https://pubmed.ncbi.nlm.nih.gov/4892352/) (1969) et [PMID 14477958](https://pubmed.ncbi.nlm.nih.gov/14477958/) (1962). L'étude de 2016 [PMID 27386057](https://pubmed.ncbi.nlm.nih.gov/27386057/), sur l'ajout de clidinium-C à la trithérapie anti-*H. pylori*, est la plus récente. Son design reste à vérifier et elle pourrait passer en L2 si c'est un essai randomisé. L'apport du clidinium seul reste confondu avec celui de l'association, et les IPP modernes rendent sa valeur incrémentale incertaine.
-  - **Gastroduodénite** (niveau L3) et **maladie du gros intestin** (niveau L4) : preuves anciennes ou indirectes seulement, à traiter comme des questions de recherche.
+- Les données de sécurité de la notice (mises en garde, contre-indications) : lacune bloquante pour le criblage de sécurité
+- Les données détaillées sur le mécanisme d'action (DrugBank)
+- La vérification du schéma de l'étude de 2016 (possiblement un ECR) avant toute réévaluation du niveau de preuve à L2
+- Des études contrôlées modernes testant le clidinium seul, plutôt qu'en association avec le chlordiazépoxide
+- L'abandon ou une réévaluation approfondie des prédictions sans lien mécanistique (myasthénies, maladies auto-immunes périphériques, catégories génériques)
+- La clarification de la situation réglementaire, les deux AMM étant annulées
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

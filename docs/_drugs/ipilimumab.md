@@ -2,7 +2,7 @@
 layout: default
 title: Ipilimumab
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 157
+nav_order: 410
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,77 +29,96 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Ipilimumab : Prédiction de Repositionnement vers la Choroïdérémie
+# Ipilimumab : Du Mélanome Métastatique à la Choroïdérémie
 
 ## Résumé en Une Phrase
 
-Ipilimumab est un anticorps anti-CTLA-4 commercialisé en France sous le nom Yervoy. L'indication d'origine n'est pas renseignée dans les données fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **choroïdérémie**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette prédiction. Elle repose uniquement sur le score du modèle et est probablement un artefact du graphe.
+L'ipilimumab est un anticorps monoclonal anti-CTLA-4, initialement utilisé dans le traitement du mélanome métastatique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **choroïdérémie**, une dégénérescence rétinienne héréditaire rare.
+Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent cette prédiction, qui repose uniquement sur le modèle.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
+| Indication Originale | Mélanome métastatique (issue de la base de connaissances du modèle ; le texte d'indication de l'AMM française n'est pas renseigné) |
 | Nouvelle Indication Prédite | Choroïdérémie |
 | Score de Prédiction TxGNN | 99,06 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Ipilimumab bloque CTLA-4, un frein de l'activation des lymphocytes T. Ce mécanisme est validé en oncologie, où il aide le système immunitaire à attaquer les tumeurs.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. L'ipilimumab est un anticorps anti-CTLA-4 qui lève un frein de l'activation des lymphocytes T et amplifie la réponse immunitaire antitumorale. Son efficacité est établie dans le mélanome.
 
-La choroïdérémie est une dégénérescence rétinienne héréditaire liée à l'X, causée par la perte du gène CHM/REP1. Elle n'est pas due à un échappement immunitaire tumoral. **Aucun lien mécanistique plausible** n'a été identifié : le blocage de CTLA-4 n'a pas de rôle thérapeutique vraisemblable dans cette maladie.
+**En pratique, cette prédiction n'est pas étayée sur le plan mécanistique.** La choroïdérémie est une maladie monogénique liée à l'X, causée par la perte de fonction du gène *CHM* (REP1). Elle se caractérise par la dégénérescence progressive de l'épithélium pigmentaire rétinien, des photorécepteurs et de la choroïde. Aucun mécanisme dépendant des points de contrôle immunitaires n'est établi dans cette maladie.
 
-Le score élevé (0,99) doit donc être considéré comme une prédiction seule, probablement un artefact du graphe de connaissances. Il ne peut être corroboré par aucune donnée clinique ou publiée.
+Le score élevé du modèle (99,06 %) est une prédiction issue d'un graphe de connaissances. Il n'est confirmé par aucune donnée clinique ou bibliographique. L'activation immunitaire systémique expose en outre à des événements indésirables d'origine immunitaire, notamment des inflammations oculaires comme l'uvéite, ce qui serait défavorable dans une rétine déjà en dégénérescence.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
+
+---
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66532840 | YERVOY 5 mg/mL | Solution à diluer pour perfusion | Non renseignée dans les données extraites |
+| 66532840 (annulée) | YERVOY 5 mg/mL, solution à diluer pour perfusion (BRISTOL-MYERS SQUIBB / PFIZER EEIG, Irlande) | Solution à diluer pour perfusion | Texte d'indication non renseigné |
 
-Titulaire : BRISTOL-MYERS SQUIBB / PFIZER EEIG (Irlande).
+---
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Immunothérapie (inhibiteur de point de contrôle immunitaire anti-CTLA-4) |
+| Classification de Cytotoxicité | Immunothérapie (anticorps anti-CTLA-4) |
+| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | Surveillance des événements indésirables d'origine immunitaire, notamment oculaires (uvéite) ; pour le reste, consulter la notice |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
-Pour le risque de myélosuppression, l'émétogénicité, les éléments de surveillance et la protection de manipulation, veuillez consulter les mises en garde et précautions de la notice.
+---
 
 ## Considérations de Sécurité
 
-- **Mises en garde liées à la prédiction** : ipilimumab est associé à des effets indésirables oculaires d'origine immunitaire, tels que l'uvéite. C'est un point d'attention particulier pour une maladie rétinienne.
+- **Événements indésirables d'origine immunitaire** : l'activation immunitaire systémique peut provoquer des inflammations oculaires, dont l'uvéite. Ce risque est particulièrement préoccupant dans une rétine dégénérative.
+- **Interactions médicamenteuses** : 100 interactions sont répertoriées. Les principales sont :
+  - **Majeures** : anticoagulants (apixaban, bétrixaban, édoxaban, bivalirudine, dalteparine, désirudine, argatroban, danaparoïde).
+  - **Modérées** : corticoïdes (hydrocortisone, prednisone, prednisolone, dexaméthasone, bétaméthasone, triamcinolone, budésonide), statines (rosuvastatine, simvastatine), métronidazole, tinidazole et naltrexone.
 
-Pour les autres informations de sécurité (mises en garde, contre-indications, interactions), veuillez consulter la notice.
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est de niveau L5 : aucun essai, aucune publication, aucun mécanisme plausible. Le risque d'effets oculaires immuno-médiés va à l'encontre de l'usage envisagé.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Aucun lien mécanistique crédible n'existe avec la choroïdérémie, et le risque d'inflammation oculaire immuno-induite est défavorable.
+- Le seul produit français est de plus annulé. À titre de comparaison, d'autres indications prédites par le modèle, comme le mélanome non cutané, disposent de bien plus de données.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice ANSM (mises en garde et contre-indications), données actuellement manquantes et bloquantes pour tout criblage de sécurité
-- Données de mécanisme d'action (MOA) et indication d'origine, à récupérer via DrugBank
-- Preuve biologique démontrant un lien entre la voie CTLA-4 et la choroïdérémie, sans quoi la piste n'a pas de fondement
-
-**Note :** la 2ᵉ prédiction du modèle, le **mélanome non cutané** (uvéal et muqueux ; score 99,02 %), est nettement mieux étayée. Elle compte de nombreux essais cliniques, dont des études de Phase 2/3 sur le mélanome, et une cohorte incluant des mélanomes uvéaux et muqueux (PMID 24999899). Elle est classée L3 et « Research Question ». Ces données portent surtout sur le mélanome cutané, donc l'applicabilité aux sous-types non cutanés reste indirecte. Il faudrait extraire les résultats stratifiés par sous-type avant toute recommandation.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique.*
+- Des données précliniques ou mécanistiques justifiant l'implication de la voie CTLA-4 dans la choroïdérémie.
+- Les données détaillées sur le mécanisme d'action et les informations de sécurité issues de la notice (mises en garde et contre-indications).
+- Une évaluation du risque d'uvéite et d'effets oculaires immuno-induits dans un contexte de dégénérescence rétinienne.
+- La confirmation du statut réglementaire en France, l'AMM étant annulée.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Loratadine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 180
+nav_order: 463
 evidence_level: L5
 indication_count: 0
 ---

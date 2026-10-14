@@ -2,7 +2,7 @@
 layout: default
 title: Ipratropium
 parent: Preuves élevées (L1-L2)
-nav_order: 158
+nav_order: 411
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Ipratropium : De l'Indication Originale (non renseignée) à la Maladie Pulmonaire Obstructive
+# Ipratropium : De la BPCO à la Maladie Pulmonaire Obstructive
 
 ## Résumé en Une Phrase
 
-L'ipratropium est un bronchodilatateur anticholinergique inhalé, commercialisé en France, mais dont l'indication originale n'est pas renseignée dans les données ANSM fournies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie pulmonaire obstructive**, avec **50 essais cliniques** et **20 publications** associés.
-Il s'agit plutôt de la confirmation d'un usage déjà établi (BPCO, asthme) que d'une véritable nouvelle piste : seule une partie de ces essais teste directement l'ipratropium.
+L'ipratropium est un anticholinergique inhalé (antagoniste muscarinique), initialement utilisé pour la bronchopneumopathie chronique obstructive (BPCO), la bronchite, l'emphysème et certaines rhinites.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie pulmonaire obstructive**, avec **25 essais cliniques** et **20 publications** recensés dans les données compilées pour ce rapport.
+Cette indication recoupe toutefois largement les usages d'origine : il ne s'agit pas d'un repositionnement au sens strict, mais plutôt d'une validation du classement du modèle.
 
 ---
 
@@ -43,42 +43,42 @@ Il s'agit plutôt de la confirmation d'un usage déjà établi (BPCO, asthme) qu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide pour les 4 AMM) |
+| Indication Originale | BPCO (indication issue du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Maladie pulmonaire obstructive |
 | Score de Prédiction TxGNN | 99,97 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 4 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données DrugBank détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Les éléments de justification indiquent toutefois que l'ipratropium est un antagoniste muscarinique non sélectif. En bloquant les récepteurs M3 du muscle lisse bronchique, il réduit la bronchoconstriction d'origine cholinergique ainsi que la sécrétion de mucus. La littérature le décrit comme un dérivé quaternaire de l'atropine, mal absorbé par voie inhalée.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base compilée. D'après les informations connues et la littérature citée, l'ipratropium est un dérivé quaternaire de l'atropine : il bloque de façon compétitive les récepteurs muscariniques du muscle lisse bronchique, s'oppose à l'acétylcholine et interrompt la bronchoconstriction d'origine vagale.
 
-Ce mécanisme correspond directement à la physiopathologie de la BPCO et de l'asthme, où le tonus vagal contribue à l'obstruction bronchique. La prédiction est donc pharmacologiquement cohérente.
+La « maladie pulmonaire obstructive » englobe la BPCO, la bronchite chronique et l'emphysème, qui figurent déjà parmi les indications d'origine du médicament. La prédiction est donc mécanistiquement cohérente, mais elle est en grande partie circulaire : elle confirme le modèle plus qu'elle ne révèle un usage nouveau.
 
-Il faut cependant être clair : l'obstruction bronchique est un usage établi de l'ipratropium, et non un repositionnement au sens strict. Le score élevé du modèle confirme surtout une indication déjà validée cliniquement.
+Les autres pistes prédites (rhinite/cavité nasale, pharyngite, trachée, anaphylaxie, etc.) sont beaucoup moins étayées ; elles sont brièvement évoquées dans la conclusion.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Sur les 50 essais associés, seuls ceux qui testent réellement l'ipratropium ou ses associations sont présentés ci-dessous. Plusieurs autres essais concernent d'autres bronchodilatateurs (indacatérol, formotérol, tiotropium) et n'apportent pas de preuve directe.
+Parmi les 25 essais recensés, les plus pertinents sont présentés ci-dessous (certains sont retirés, terminés prématurément ou ne portent pas directement sur l'efficacité de l'ipratropium).
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT05890638](https://clinicaltrials.gov/study/NCT05890638) | Phase 3 | Inconnu | 74 | Non-infériorité de l'association fixe ipratropium/lévosalbutamol versus association libre en nébulisation dans la BPCO stable |
-| [NCT02182479](https://clinicaltrials.gov/study/NCT02182479) | Phase 3 | Terminé | 631 | Berodual (fénotérol/ipratropium) via Respimat versus MDI dans l'asthme sur 12 semaines : réponse bronchodilatatrice non inférieure |
-| [NCT00400153](https://clinicaltrials.gov/study/NCT00400153) | Phase 3 | Terminé | 1480 | Combivent Respimat versus Combivent MDI et ipratropium seul dans la BPCO (VEMS sur 12 semaines) |
-| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | Terminé | 1118 | Ipratropium/salbutamol Respimat versus Combivent, ipratropium seul et placebo dans la BPCO (12 semaines) |
-| [NCT02177344](https://clinicaltrials.gov/study/NCT02177344) | Phase 3 | Terminé | 646 | Ipratropium Respimat (20 et 40 µg) versus Atrovent aérosol-doseur et placebo dans la BPCO (6 mois) |
-| [NCT02194205](https://clinicaltrials.gov/study/NCT02194205) | Phase 3 | Arrêté | 360 | Combivent HFA versus Combivent CFC et placebo dans la BPCO (1 an) |
-| [NCT01019694](https://clinicaltrials.gov/study/NCT01019694) | Phase 3 | Terminé | 470 | Sécurité à long terme et acceptabilité de Combivent Respimat dans la BPCO |
-| [NCT00274040](https://clinicaltrials.gov/study/NCT00274040) | Phase 3 | Terminé | 141 | Tiotropium versus Atrovent (ipratropium) aérosol-doseur dans la BPCO |
-| [NCT01136421](https://clinicaltrials.gov/study/NCT01136421) | Phase 3 | Terminé | 124 | Sulfate de magnésium versus ipratropium, associés à un β2-agoniste, dans l'exacerbation aiguë de BPCO |
-| [NCT01691482](https://clinicaltrials.gov/study/NCT01691482) | Phase 4 | Terminé | 56 | Variation quotidienne de la réponse bronchodilatatrice à l'albutérol et à l'ipratropium, seuls et associés, dans la BPCO |
+| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | Terminé | 1118 | Association ipratropium/salbutamol (Respimat) vs Combivent, ipratropium seul et placebo sur 12 semaines dans la BPCO : efficacité bronchodilatatrice et sécurité |
+| [NCT01136421](https://clinicaltrials.gov/study/NCT01136421) | Phase 3 | Terminé | 124 | Sulfate de magnésium vs ipratropium (avec bêta-2 agoniste) dans l'exacerbation aiguë de BPCO |
+| [NCT02172469](https://clinicaltrials.gov/study/NCT02172469) | Phase 3 | Terminé | 215 | Tiotropium vs Atrovent MDI chez des patients BPCO philippins |
+| [NCT00239434](https://clinicaltrials.gov/study/NCT00239434) | Phase 3 | Terminé | 200 | Tiotropium une fois par jour vs Atrovent MDI quatre fois par jour dans la BPCO |
+| [NCT02172404](https://clinicaltrials.gov/study/NCT02172404) | Phase 3 | Terminé | 160 | HandiHaler vs MDI : technique d'administration et facilité d'utilisation dans la BPCO (appui indirect) |
+| [NCT01415518](https://clinicaltrials.gov/study/NCT01415518) | Phase 4 | Terminé | 581 | Symbicort ajouté à Atrovent + théophylline dans la BPCO sévère |
+| [NCT00371527](https://clinicaltrials.gov/study/NCT00371527) | Non applicable | Terminé | 200 | Ipratropium vs placebo dans la bronchite aiguë sans maladie pulmonaire sous-jacente |
+| [NCT02686086](https://clinicaltrials.gov/study/NCT02686086) | Non applicable | Terminé | 60 | Volumes pulmonaires et scores de symptômes après bronchodilatateur selon le type de nébuliseur dans la BPCO |
+| [NCT02260011](https://clinicaltrials.gov/study/NCT02260011) | Phase 2 | Terminé | 41 | Ipratropium HFA-134a vs Atrovent CFC en dose unique dans la BPCO |
+| [NCT04446637](https://clinicaltrials.gov/study/NCT04446637) | Phase 3 | Retiré | 0 | Association ipratropium/lévosalbutamol vs association libre dans la BPCO : aucune donnée d'efficacité |
 
 ---
 
@@ -86,16 +86,16 @@ Sur les 50 essais associés, seuls ceux qui testent réellement l'ipratropium ou
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Comparaison du tiotropium et de l'ipratropium dans la BPCO stable |
-| [20163324](https://pubmed.ncbi.nlm.nih.gov/20163324/) | 2010 | Revue systématique | Expert Opin Drug Metab Toxicol | Mécanisme, efficacité et sécurité de l'albutérol, de l'ipratropium et de leur association dans la BPCO |
-| [8181328](https://pubmed.ncbi.nlm.nih.gov/8181328/) | 1994 | Essai comparatif | Chest | L'association ipratropium/albutérol est plus efficace que chaque agent seul (essai multicentrique de 85 jours) |
-| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Revue | Ann Pharmacother | Efficacité et sécurité de l'ipratropium associé au tiotropium dans la BPCO |
-| [15257628](https://pubmed.ncbi.nlm.nih.gov/15257628/) | 2004 | Revue | Drugs | Berodual (ipratropium/fénotérol) via Respimat dans l'asthme et la BPCO |
-| [9741369](https://pubmed.ncbi.nlm.nih.gov/9741369/) | 1998 | Étude clinique | Thorax | Effets de la théophylline et de l'ipratropium sur la performance à l'effort dans la BPCO stable |
-| [28461224](https://pubmed.ncbi.nlm.nih.gov/28461224/) | 2017 | Étude clinique | EBioMedicine | Différences de réponse du VEMS à l'ipratropium selon le sexe dans la BPCO légère à modérée |
-| [38457591](https://pubmed.ncbi.nlm.nih.gov/38457591/) | 2024 | Analyse rétrospective | Medicine | Probiotiques associés au budésonide et à l'ipratropium : fonction pulmonaire et microbiote (118 patients) |
-| [2977109](https://pubmed.ncbi.nlm.nih.gov/2977109/) | 1988 | Revue | Clin Pharm | Chimie, pharmacologie, efficacité clinique et effets indésirables de l'ipratropium dans la maladie pulmonaire obstructive |
-| [35616126](https://pubmed.ncbi.nlm.nih.gov/35616126/) | 2022 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Sulfate de magnésium dans les exacerbations de BPCO (preuve indirecte, l'ipratropium n'est pas l'intervention étudiée) |
+| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Revue systématique | Cochrane Database Syst Rev | Comparaison tiotropium vs ipratropium dans la BPCO stable |
+| [24043433](https://pubmed.ncbi.nlm.nih.gov/24043433/) | 2013 | Revue systématique | Cochrane Database Syst Rev | Version antérieure de la même comparaison tiotropium vs ipratropium |
+| [35616126](https://pubmed.ncbi.nlm.nih.gov/35616126/) | 2022 | Revue systématique | Cochrane Database Syst Rev | Sulfate de magnésium dans les exacerbations aiguës de BPCO |
+| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Revue | Ann Pharmacother | Utilisation concomitante d'ipratropium et de tiotropium dans la BPCO |
+| [20163324](https://pubmed.ncbi.nlm.nih.gov/20163324/) | 2010 | Revue | Expert Opin Drug Metab Toxicol | Albutérol/salbutamol, ipratropium et leur association dans la BPCO |
+| [10565879](https://pubmed.ncbi.nlm.nih.gov/10565879/) | 1999 | Revue | Respir Care Clin N Am | Bronchodilatateurs anticholinergiques ; efficacité spirométrique de l'ipratropium seul ou avec l'albutérol |
+| [2977109](https://pubmed.ncbi.nlm.nih.gov/2977109/) | 1988 | Revue | Clin Pharm | Pharmacologie, efficacité et effets indésirables de l'ipratropium dans la maladie pulmonaire obstructive |
+| [15987237](https://pubmed.ncbi.nlm.nih.gov/15987237/) | 2005 | Revue | Treat Respir Med | Ipratropium en formulation HFA (propulseur sans CFC) |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Recommandations | Basic Clin Pharmacol Toxicol | Recommandations finlandaises de diagnostic et de traitement de la BPCO stable |
+| [38457591](https://pubmed.ncbi.nlm.nih.gov/38457591/) | 2024 | Étude rétrospective | Medicine | Probiotiques associés au budésonide et à l'ipratropium dans la BPCO |
 
 ---
 
@@ -103,20 +103,20 @@ Sur les 50 essais associés, seuls ceux qui testent réellement l'ipratropium ou
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66698997 | ATROVENT 20 microgrammes/dose (Boehringer Ingelheim France) | Solution pour inhalation en flacon pressurisé | Non renseignée |
-| 61260984 | IPRATROPIUM VIATRIS 0,25 mg/ml ENFANTS (Viatris Santé) | Solution pour inhalation par nébuliseur en récipient unidose | Non renseignée |
-| 69293057 | IPRATROPIUM VIATRIS 0,5 mg/2 ml ADULTES (Viatris Santé) | Solution pour inhalation par nébuliseur en récipient unidose | Non renseignée |
-| 60175716 | IPRATROPIUM AGUETTANT ADULTES 0,5 mg/2 ml (Aguettant) | Solution pour inhalation par nébuliseur en récipient unidose | Non renseignée |
+| 66698997 | ATROVENT 20 microgrammes/dose (Boehringer Ingelheim France) | Solution pour inhalation en flacon pressurisé | Non renseignée (AMM annulée) |
+| 61260984 | IPRATROPIUM VIATRIS 0,25 mg/ml ENFANTS | Solution pour inhalation par nébuliseur | Non renseignée (AMM annulée) |
+| 69293057 | IPRATROPIUM VIATRIS 0,5 mg/2 ml ADULTES | Solution pour inhalation par nébuliseur | Non renseignée (AMM annulée) |
+| 60175716 | IPRATROPIUM AGUETTANT ADULTES 0,5 mg/2 ml | Solution pour inhalation par nébuliseur | Non renseignée (AMM annulée) |
 
 ---
 
 ## Considérations de Sécurité
 
-Les mises en garde, contre-indications et interactions médicamenteuses ne sont pas disponibles dans les données fournies. Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : hypertension, syndrome du QT long (y compris familial), arrêt cardiaque soudain, maladie de la conduction cardiaque, ischémie myocardique, coronaropathie, épilepsie, carence en potassium, diabète et acidocétose diabétique, acidose (dont acidose métabolique), hyperplasie bénigne de la prostate, obstruction du col vésical, hypertension oculaire, glaucome à angle fermé, hyperthyroïdie (maladie de Basedow, thyrotoxicose).
+- **Interactions médicamenteuses** : 100 interactions recensées ; les 20 présentées sont toutes de niveau modéré, principalement avec d'autres anticholinergiques (hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, scopolamine, trospium, aclidinium, etc.), ainsi qu'avec la prométhazine, la chlorphéniramine, l'élukadoline, la prucalopride et l'insuline humaine inhalée.
+- **Signaux de sécurité rapportés dans la littérature** : cas d'anaphylaxie sévère après inhalation d'ipratropium (Chest, 1993) et cas de mydriasis unilatérale chez un nourrisson après inhalation (2025).
 
-Le dossier signale néanmoins les points de vigilance suivants :
-- **Effets anticholinergiques** : rétention urinaire, glaucome et mydriase sont à surveiller. Un cas de mydriase unilatérale après inhalation a été rapporté chez un nourrisson (PMID 40069469).
-- **Hypersensibilité** : un cas d'anaphylaxie sévère après inhalation d'ipratropium a été publié (PMID 8449120).
+Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
 
 ---
 
@@ -125,16 +125,18 @@ Le dossier signale néanmoins les points de vigilance suivants :
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de Phase 3 terminés, de grande taille, ainsi que des revues systématiques Cochrane soutiennent l'efficacité de l'ipratropium dans la BPCO et l'asthme, ce qui correspond au niveau L1. Cette indication est toutefois déjà établie et ne constitue pas un repositionnement nouveau.
-- Les autres indications prédites ont des preuves faibles ou nulles et restent en attente ou au stade de question de recherche : rhinite/cavité nasale (L4), maladie trachéale (L4), malformation respiratoire (L4), pharyngite (L5), anaphylaxie (L4, avec un signal de sécurité inverse) et les autres (L5).
+- Plusieurs essais de Phase 3 terminés, dont un grand essai de 1118 patients, soutiennent l'efficacité bronchodilatatrice de l'ipratropium dans l'obstruction bronchique, mais l'indication recoupe celle d'origine : il ne s'agit pas d'un véritable repositionnement.
+- Toutes les AMM françaises sont annulées, ce qui limite la portée pratique de la décision.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser les notices ANSM (mises en garde, contre-indications, texte des indications approuvées), qui constituent une lacune bloquante pour le criblage de sécurité
-- Compléter les données sur le mécanisme d'action via DrugBank
-- Vérifier le rôle de l'ipratropium (produit testé ou comparateur) dans l'essai NCT00393458, dont le titre est tronqué
-- Surveiller les effets anticholinergiques (rétention urinaire, glaucome, mydriasis) et les réactions d'hypersensibilité
+- Récupérer la notice officielle (mises en garde et contre-indications) auprès de l'ANSM ; cette lacune est bloquante pour le criblage de sécurité.
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
+- Clarifier les raisons de l'annulation des AMM et le statut de commercialisation actuel en France.
+- Mettre en place une surveillance particulière pour les patients présentant les contre-indications relevées (glaucome à angle fermé, rétention urinaire/hyperplasie prostatique, troubles du rythme cardiaque).
 
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+**Autres pistes prédites (non recommandées à ce stade) :**
+- Maladie de la cavité nasale : niveau de preuve L4, question de recherche seulement ; l'ipratropium nasal est mécanistiquement plausible pour la rhinorrhée, mais la littérature retrouvée est tangentielle.
+- Pharyngite, laryngopharyngite aiguë, malformation respiratoire, conjonctivite papillaire, syndrome de Rienhoff, maladie trachéale, anaphylaxie et anaphylaxie induite par l'effort dépendante de l'alimentation : **Hold**. Les preuves sont absentes, précliniques ou indirectes ; pour l'anaphylaxie, un signal de sécurité défavorable existe.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 277
+nav_order: 690
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,82 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Salbutamol : De l'Asthme/BPCO à la Conjonctivite Papillaire
+# Salbutamol : De l'asthme à la conjonctivite papillaire
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Le salbutamol est un agoniste β2-adrénergique à courte durée d'action (SABA), utilisé de façon établie comme bronchodilatateur dans la prise en charge de l'asthme et de la bronchopneumopathie chronique obstructive (BPCO).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Conjonctivite Papillaire**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction — il s'agit d'un signal de prédiction pur, non validé.
+Le salbutamol est un bêta-2 agoniste, utilisé à l'origine pour traiter l'asthme et les maladies bronchiques.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **conjonctivite papillaire**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ---
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Asthme / BPCO (bronchospasme réversible) |
-| Nouvelle Indication Prédite | Conjonctivite papillaire |
-| Score de Prédiction TxGNN | 99.996% |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
+| Indication originale | Asthme, maladie bronchique (d'après le graphe de connaissances, faute d'AMM française) |
+| Nouvelle indication prédite | Conjonctivite papillaire |
+| Score de prédiction TxGNN | 99,996 % (rang 141) |
+| Niveau de preuve | L5 |
+| Statut de marché en France | Non commercialisé |
 | Nombre d'AMM | 0 |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
 ---
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action (MOA) du salbutamol ne sont pas disponibles dans ce dossier. Sur la base des informations recueillies à travers l'ensemble du pack de preuves, le salbutamol appartient à la classe des agonistes β2-adrénergiques à courte durée d'action (SABA), dont l'efficacité dans le traitement du bronchospasme réversible associé à l'asthme et à la BPCO est bien établie et largement documentée par de multiples essais cliniques de phase 3 identifiés dans ce même dossier (voir les indications « bronchite » et « maladie pulmonaire obstructive »).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le salbutamol appartient à la classe des bêta-2 agonistes. Son efficacité dans l'asthme et les maladies bronchiques est établie, et il pourrait être mécanistiquement applicable à la conjonctivite papillaire.
 
-Pour l'indication prédite ici — la conjonctivite papillaire — le lien mécanistique est jugé faible. La conjonctivite papillaire est principalement une réaction mécanique ou de contact (par exemple liée au port de lentilles de contact), dont la physiopathologie ne recoupe pas directement l'action bronchodilatatrice du salbutamol sur le muscle lisse des voies respiratoires. Aucun essai clinique ni aucune publication n'a été identifié pour appuyer cette hypothèse ; il s'agit exclusivement d'un signal généré par le modèle TxGNN, sans validation expérimentale ou clinique à ce stade.
+Les données compilées indiquent que les bêta-2 agonistes ont montré, dans des modèles précliniques, des effets anti-inflammatoires et de stabilisation des mastocytes dans le tissu conjonctival. Une inflammation conjonctivale de nature allergique pourrait donc, en théorie, y être sensible.
 
-Il est à noter que d'autres indications prédites dans ce même dossier (bronchite, maladie pulmonaire obstructive) bénéficient d'un niveau de preuve L1 avec de nombreux essais de phase 3, mais celles-ci correspondent en réalité au périmètre d'usage déjà établi du salbutamol plutôt qu'à un véritable repositionnement — contrairement à la conjonctivite papillaire, qui représenterait une indication réellement nouvelle si elle venait à être confirmée.
-
----
-
-## Preuves d'Essais Cliniques
-
-Aucun essai clinique associé enregistré actuellement
+Cette plausibilité reste toutefois théorique. L'asthme (voie respiratoire) et la conjonctivite papillaire (surface oculaire) sont des maladies très différentes. Aucune étude clinique ou publication propre à cette indication n'a été retrouvée pour le salbutamol. La similarité avec l'indication originale n'a pas encore été évaluée.
 
 ---
 
-## Preuves de la Littérature
+## Preuves d'essais cliniques
 
-Aucune littérature associée disponible actuellement
-
----
-
-## Considérations de Sécurité
-
-Veuillez consulter la notice pour les informations de sécurité.
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
-## Conclusion et Prochaines Étapes
+## Preuves de la littérature
+
+Aucune littérature associée disponible actuellement.
+
+---
+
+## Considérations de sécurité
+
+Les notices de l'ANSM n'ont pas pu être exploitées : les mises en garde et contre-indications officielles ne sont donc pas disponibles. Veuillez consulter la notice pour ces informations.
+
+- **Contre-indications issues du graphe de connaissances** (elles ne proviennent pas du texte de la notice) : hypertension artérielle, syndrome du QT long (y compris familial), épilepsie, hypokaliémie (déficit en potassium), diabète sucré, acidocétose diabétique, acidose (dont l'acidose métabolique), hypertrophie bénigne de la prostate, obstruction du col vésical, hypertension oculaire, glaucome à angle fermé, hyperthyroïdie (maladie de Basedow, thyrotoxicose), arrêt cardiaque soudain, maladie de la conduction cardiaque, ischémie myocardique, maladie coronarienne.
+- **Interactions médicamenteuses** : 100 interactions sont recensées. Parmi les premières de la liste :
+  - de niveau modéré : acarbose, isométheptène, famotidine, épinéphrine, albiglutide, acétohexamide, alogliptine, bisacodyl, canagliflozine, huile de ricin, chlorpropamide, cisapride, clarithromycine, dapagliflozine, diéthylpropion ;
+  - de niveau mineur : hydrocortisone, béclométasone, bétaméthasone, budésonide, dexaméthasone.
+- Certaines contre-indications (glaucome à angle fermé, hypertension oculaire) sont particulièrement pertinentes pour une application oculaire et demanderaient une évaluation spécifique.
+
+---
+
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune preuve clinique ou de littérature n'existe actuellement pour la conjonctivite papillaire ; il s'agit d'un score de prédiction TxGNN isolé (niveau de preuve L5), avec un lien mécanistique jugé faible. De plus, les données réglementaires de base (mises en garde/contre-indications TFDA) sont manquantes de façon bloquante, empêchant toute évaluation de sécurité préliminaire (S1).
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni publication ne la soutient, et le produit n'est pas commercialisé en France.
+- Les données de sécurité officielles et le mécanisme d'action manquent, ce qui empêche toute évaluation de sécurité approfondie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération de la notice TFDA (mises en garde, contre-indications) — actuellement un blocage identifié (sévérité *Blocking*) empêchant l'évaluation de sécurité S1
-- Données détaillées sur le mécanisme d'action (MOA) via l'API DrugBank — gap de sévérité *High*
-- Études précliniques ou de mécanisme établissant un lien biologique plausible entre l'action β2-adrénergique et la physiopathologie de la conjonctivite papillaire
-- Si de nouvelles données cliniques ou de littérature émergent, réévaluer le niveau de preuve et la décision
+- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant à ce stade.
+- Compléter les données sur le mécanisme d'action (DrugBank).
+- Générer des preuves propres à l'indication : études précliniques oculaires puis essais cliniques chez l'humain.
+- Évaluer la compatibilité des voies d'administration, car aucune forme oculaire n'est identifiée dans les données compilées.
 
-*Note : ce dossier contient également des indications prédites avec un niveau de preuve nettement supérieur (L1, « Proceed with Guardrails ») — bronchite et maladie pulmonaire obstructive — mais celles-ci correspondent à l'usage déjà établi du salbutamol plutôt qu'à un nouveau repositionnement, et ne remplacent pas l'évaluation ci-dessus centrée sur la conjonctivite papillaire.*
+**Remarque :** d'autres indications prédites disposent de preuves plus solides que la conjonctivite papillaire :
+- la **bronchite** (niveau L2, essais de phase 2 mais bénéfice limité selon les revues Cochrane) ;
+- l'**anaphylaxie** et le **rhume** (niveau L3) ;
+- les **maladies pulmonaires obstructives** (niveau L1, mais cette indication recoupe l'indication originale et n'est pas un véritable repositionnement).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

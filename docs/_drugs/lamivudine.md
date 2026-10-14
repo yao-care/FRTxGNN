@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lamivudine
-parent: Preuves modérées (L3-L4)
-nav_order: 167
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 432
+evidence_level: L5
 indication_count: 5
 ---
 
 # Lamivudine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Lamivudine : De l'infection par le VIH et l'hépatite B chronique au syndrome d'immunodéficience acquise féline
+# Lamivudine : Du VIH/SIDA et de l'Hépatite B Chronique au Syndrome d'Immunodéficience Acquise Féline
 
 ## Résumé en Une Phrase
 
-La lamivudine est un inhibiteur nucléosidique de la transcriptase inverse, utilisé à l'origine contre le VIH-1 et le virus de l'hépatite B (cette indication d'origine vient des connaissances générales, car les AMM du dossier ne la renseignent pas).
-Le modèle TxGNN prédit qu'elle pourrait être efficace contre le **syndrome d'immunodéficience acquise féline (FIV)**, une maladie vétérinaire, et non une nouvelle indication humaine.
-Aucun essai clinique ne teste la lamivudine chez le chat : les **5 essais cliniques** listés portent sur le VIH-1 chez l'humain, et **5 publications** concernent le FIV, avec des données limitées et des résultats mitigés.
+La lamivudine est un inhibiteur nucléosidique de la transcriptase inverse, initialement utilisé pour traiter l'infection chronique par le virus de l'hépatite B, l'infection par le VIH et le SIDA.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'immunodéficience acquise féline**, avec **0 essai clinique** et **3 publications** (études vétérinaires et précliniques) soutenant actuellement cette direction.
+Cette prédiction correspond essentiellement à une extension vétérinaire de l'indication VIH existante et ne constitue pas une nouvelle indication humaine.
 
 ---
 
@@ -43,37 +43,29 @@ Aucun essai clinique ne teste la lamivudine chez le chat : les **5 essais cliniq
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM du dossier (VIH-1 et hépatite B chronique selon les connaissances générales) |
+| Indication Originale | Infection chronique par le virus de l'hépatite B, infection par le VIH, SIDA (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
 | Score de Prédiction TxGNN | 99,93 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Niveau de Preuve | L3 (études observationnelles/de cohorte, uniquement vétérinaires) |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-La lamivudine inhibe la transcriptase inverse du VIH-1 et la polymérase du virus de l'hépatite B. Son mécanisme d'action détaillé n'est pas disponible dans le dossier. Le lien avec le FIV repose donc sur ce qui est connu de la classe des analogues nucléosidiques.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la lamivudine est un analogue nucléosidique inhibiteur de la transcriptase inverse du VIH-1 et de la polymérase du VHB. Son efficacité dans l'infection par le VIH et l'hépatite B chronique est établie.
 
-Le FIV est un lentivirus proche du VIH, et sa transcriptase inverse est comparable. Cette parenté rend l'hypothèse plausible sur le plan mécanistique. Le FIV est d'ailleurs utilisé comme modèle animal du VIH, et plusieurs inhibiteurs de la transcriptase inverse actifs contre le VIH le sont aussi contre le FIV.
+Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la transcriptase inverse est proche de celle du VIH. Le chat infecté par le FIV est d'ailleurs utilisé comme modèle animal de l'infection par le VIH. Une base mécanistique existe donc : plusieurs inhibiteurs de la transcriptase inverse actifs contre le VIH le sont aussi contre le FIV.
 
-Cette prédiction reste toutefois indirecte. Les essais de phase 2 à 4 du dossier concernent tous le VIH-1 chez l'humain et ne testent pas la lamivudine chez le chat. Les études félines, notamment l'association AZT/3TC chez des chats naturellement infectés, portent sur peu d'animaux et donnent des résultats mitigés.
+Il faut toutefois rester prudent : les preuves sont vétérinaires et ne se transposent pas directement à l'usage humain. L'indication humaine correspondante (VIH/SIDA) est déjà couverte par l'indication d'origine du médicament.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Tous ces essais concernent le VIH-1 chez l'humain. Ils sont des preuves indirectes de l'activité antirétrovirale de la lamivudine, sans population féline.
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Terminé | 844 | Dolutégravir + abacavir/lamivudine vs Atripla chez des adultes VIH-1 naïfs de traitement, non-infériorité antivirale à 48 et 96 semaines |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Terminé | 828 | Dolutégravir vs raltégravir, associés à une bithérapie d'analogues nucléosidiques (ABC/3TC ou TDF/FTC), chez des adultes VIH-1 naïfs |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Terminé | 208 | Sélection de la dose quotidienne de dolutégravir avec abacavir/lamivudine ou ténofovir/emtricitabine chez des patients VIH-1 naïfs |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Terminé | 145 | Darunavir boosté + lamivudine vs darunavir boosté + ténofovir/emtricitabine ou ténofovir/lamivudine chez des patients VIH-1 naïfs |
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Terminé | 13 | Étude à bras unique : dolutégravir + abacavir/lamivudine sur 96 semaines, avec pharmacocinétique plasmatique et dans le liquide cérébrospinal |
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
@@ -81,31 +73,34 @@ Tous ces essais concernent le VIH-1 chez l'humain. Ils sont des preuves indirect
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Étude clinique chez des chats naturellement infectés | Viruses | Comparaison de protocoles antirétroviraux (ZDV seul, ZDV + interféron-α, ZDV + lamivudine, ZDV + acide valproïque) sur un an chez des chats en phase asymptomatique tardive, avec suivi clinique, charge virale et rapport CD4+/CD8+ |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Cohorte (suivi à long terme chez le chat) | J Feline Med Surg | Effets d'un traitement antirétroviral de 5 à 6 ans chez des chats infectés par le FIV, initialement sous zidovudine |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Revue / commentaire | Vet Immunol Immunopathol | Efficacité prophylactique et thérapeutique de l'AZT/3TC contre le FIV, in vitro et in vivo, avec effet additif à synergique dans les cellules mononucléées primaires |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Préclinique | Antiviral Res | Effet combiné de la zidovudine, de la lamivudine et de l'abacavir sur la réplication du FIV in vitro |
-| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | Caractérisation in vitro / moléculaire | Am J Vet Res | Cinétique de réplication et sensibilité aux analogues nucléosidiques de clones du FIV, dont deux mutants résistants à la 3TC |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Cohorte | Viruses | Comparaison de protocoles antirétroviraux (zidovudine seule, avec interféron-α, avec lamivudine, avec acide valproïque) chez des chats naturellement infectés par le FIV en phase asymptomatique tardive, avec suivi d'un an (charge virale, rapport CD4+/CD8+, signes neurologiques) |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Cohorte | Journal of Feline Medicine and Surgery | Suivi d'un traitement antirétroviral à long terme (5 à 6 ans) chez des chats infectés par le FIV, initialement traités par zidovudine |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Étude préclinique | Antiviral Research | Effet combiné de la zidovudine, de la lamivudine et de l'abacavir sur la suppression de la réplication du FIV in vitro |
 
 ---
 
 ## Informations de Marché en France
 
-20 AMM sont enregistrées ; les 5 principales sont listées ci-dessous. Le texte de l'indication approuvée n'est pas renseigné dans les données reçues.
+Toutes les AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 62822230 | LAMIVUDINE SANDOZ 150 mg | Comprimé pelliculé sécable |
-| 68440383 | LAMIVUDINE ARROW 150 mg | Comprimé pelliculé sécable |
-| 68427877 | ZEFFIX 5 mg/ml | Solution buvable |
-| 65213035 | LAMIVUDINE ARROW 100 mg | Comprimé pelliculé |
-| 63439683 | ZEFFIX 100 mg | Comprimé pelliculé |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 68440383 | Lamivudine Arrow 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 68427877 | Zeffix 5 mg/ml | Solution buvable | Non renseignée (AMM annulée) |
+| 63439683 | Zeffix 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62715513 | Epivir 150 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Maladies associées à une contre-indication ou à une prudence dans le graphe de connaissances** (il ne s'agit pas du texte de la notice) : insuffisance hépatique, maladie hépatique, stéatose hépatique et stéatohépatite non alcoolique, maladie rénale, pancréatite, maladie de la vésicule biliaire, myopathie et myosite (dont dermatomyosite), neutropénie, agranulocytose, anémie (dont macrocytaire), hypertriglycéridémie, acidose lactique, obésité.
+- **Interactions médicamenteuses** (100 interactions recensées ; principales) :
+  - Niveau modéré : lactitol, mannitol, naltrexone, orlistat, sorbitol.
+  - Niveau non déterminé : calcitriol, vitamine A, glimépiride, clotrimazole, cimétidine, amphotéricine B, pantoprazole, mésalazine, morphine, metformine, oméprazole, sucralfate, rosiglitazone, lansoprazole, vancomycine.
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ---
 
@@ -114,15 +109,19 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,93 %), mais aucun essai ne teste la lamivudine chez le chat. Les données félines sont limitées et mitigées, et les essais humains ne sont que des preuves indirectes. Il s'agit d'une maladie vétérinaire et non d'une nouvelle indication humaine, ce qui la place au stade de simple question de recherche.
-- Parmi les autres prédictions du dossier, l'infection par le SIV est un modèle animal préclinique sans nouvelle indication humaine. L'hépatite C chronique est probablement une confusion avec l'hépatite B, sans activité anti-VHC démontrée, et les autres prédictions n'ont ni essai ni publication.
+- La prédiction repose sur des études vétérinaires et précliniques uniquement, sans essai clinique, et reste une extension de l'indication VIH déjà existante. Elle n'apporte pas de nouvelle indication humaine.
+- Toutes les AMM françaises sont annulées et les données de sécurité issues de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les notices ANSM (mises en garde et contre-indications), indispensables pour tout examen de sécurité
-- Les données détaillées sur le mécanisme d'action, à obtenir depuis DrugBank
-- Le texte des indications approuvées des AMM françaises
-- Une analyse critique des études félines (résultats de l'association ZDV + 3TC, taille des échantillons, critères d'évaluation)
-- La confirmation que l'objectif est bien une application vétérinaire, et non humaine
+- Récupération et analyse de la notice officielle (mises en garde et contre-indications) auprès de l'ANSM.
+- Données détaillées sur le mécanisme d'action (via DrugBank).
+- Clarification de l'intérêt de la prédiction : usage vétérinaire (hors périmètre d'un repositionnement humain) ou modèle de recherche sur le VIH.
+- Vérification du statut réglementaire actuel de la lamivudine en France, toutes les AMM recensées étant annulées.
+
+**Autres prédictions examinées (non retenues) :**
+- *Infection par le virus de l'immunodéficience simienne* (score 99,93 %, niveau L4, Hold) : preuves précliniques chez le macaque, utiles à la recherche sur le VIH mais sans nouvelle indication humaine.
+- *Hépatite C chronique* (score 99,11 %, niveau L4, Hold) : aucune activité établie de la lamivudine contre le VHC (virus à ARN), la littérature se limitant à des revues générales sur les hépatites virales ; les antiviraux à action directe sont la référence.
+- *Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale* (score 99,93 %, niveau L5, Hold) et *hyperlipidémie combinée familiale (terme obsolète)* (score 99,63 %, niveau L5, Hold) : aucune preuve ni lien mécanistique, probablement des artefacts du graphe de connaissances.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

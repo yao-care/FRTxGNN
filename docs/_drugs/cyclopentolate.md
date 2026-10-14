@@ -2,7 +2,7 @@
 layout: default
 title: Cyclopentolate
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 93
+nav_order: 202
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,34 +29,40 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Cyclopentolate : Du Collyre Mydriatique et Cycloplégique au Syndrome de la Queue de Cheval
+# Cyclopentolate : De la cycloplégie au syndrome de la queue de cheval
 
 ## Résumé en Une Phrase
 
-Le cyclopentolate est un anticholinergique (antagoniste muscarinique) commercialisé en France sous forme de collyre, à usage ophtalmique.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la queue de cheval**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
+Le cyclopentolate est un anticholinergique (antagoniste muscarinique) utilisé en collyre, initialement indiqué pour obtenir une cycloplégie (paralysie de l'accommodation).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la queue de cheval**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données de l'ANSM (collyre à usage ophtalmique) |
-| Nouvelle Indication Prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
+| Indication Originale | Cycloplégie (source : graphe de connaissances TxGNN ; le texte d'indication de l'AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval |
 | Score de Prédiction TxGNN | 99,54 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
+| Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après la pharmacologie générale, le cyclopentolate est un antagoniste des récepteurs muscariniques. En ophtalmologie, il dilate la pupille et paralyse l'accommodation. Le collyre est son seul usage commercialisé en France.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le cyclopentolate fait partie de la classe des antagonistes muscariniques. Son efficacité dans la cycloplégie et la mydriase par voie ophtalmique est établie.
 
-Un antimuscarinique pourrait en théorie soulager certains symptômes vésicaux ou intestinaux secondaires au syndrome de la queue de cheval. En revanche, il ne traite pas la cause, c'est-à-dire la compression des racines nerveuses, qui est une urgence chirurgicale. Le lien mécanistique est donc faible et indirect. Le score du modèle seul ne suffit pas à le soutenir.
+Un raisonnement théorique est possible : le syndrome de la queue de cheval provoque souvent des troubles vésicaux, et le blocage des récepteurs muscariniques pourrait réduire l'hyperactivité du détrusor. Cependant, cette hypothèse reste fragile : le cyclopentolate est un agent ophtalmique sans usage systémique ou urologique établi, et il n'agit pas sur la pathologie sous-jacente, qui est une compression neurologique.
 
-Deux autres prédictions ont un score comparable (toutes deux de niveau L5, sans essai ni publication) :
-- **Vessie neurogène** (99,40 %) : la classe des antimuscariniques est bien établie pour l'hyperactivité du détrusor, mais des médicaments approuvés existent déjà. Le terme de maladie est signalé comme « obsolète » dans l'ontologie. Il faudrait revérifier la correspondance avec un terme actuel, par exemple l'hyperactivité neurogène du détrusor.
-- **Syndrome de l'intestin irritable** (99,27 %) : les antispasmodiques antimuscariniques sont utilisés contre les douleurs abdominales. Aucune donnée n'existe pour le cyclopentolate par voie systémique ou orale. Les effets anticholinergiques systémiques (bouche sèche, tachycardie, effets centraux, constipation) sont préoccupants, surtout en cas de SII à prédominance constipation.
+Le score élevé (0,995) reflète une prédiction du modèle uniquement, sans aucune preuve clinique ou bibliographique.
+
+### Autres indications prédites (pour information)
+
+| Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
+|------|------|------|------|------|
+| 2 | Vessie neurogène (terme obsolète dans l'ontologie) | 99,40 % | L5 | Les antimuscariniques (oxybutynine, toltérodine) sont un traitement établi de l'hyperactivité neurogène du détrusor, d'où une plausibilité au niveau de la classe. Aucune donnée sur l'exposition systémique ou la sécurité du cyclopentolate. Le terme devrait être reclassé vers « hyperactivité neurogène du détrusor ». |
+| 3 | Syndrome de l'intestin irritable | 99,27 % | L5 | Les antispasmodiques anticholinergiques (dicyclomine, hyoscyamine) sont utilisés pour les douleurs abdominales. Aucun développement oral ou digestif du cyclopentolate ; effets anticholinergiques systémiques problématiques possibles (constipation, effets centraux). |
 
 ## Preuves d'Essais Cliniques
 
@@ -70,31 +76,29 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69255195 | SKIACOL 0,5 POUR CENT, collyre (Laboratoires Alcon) | Collyre en solution | Non précisée dans les données |
+| 69255195 | SKIACOL 0,5 POUR CENT, collyre (Laboratoires Alcon) | Collyre en solution | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie du graphe, et non texte de la notice) : hypertension, diabète et acidocétose diabétique, hyperplasie bénigne de la prostate, maladies cardiovasculaires (cardiopathie, maladie coronarienne, arrêt cardiaque soudain, troubles de la conduction cardiaque, artériosclérose, athérosclérose), glaucome à angle fermé, hyperthyroïdie (maladie de Basedow, thyrotoxicose), lésions ou maladies cérébrales, syndrome de Down.
+- **Interactions médicamenteuses** : aucune interaction retrouvée dans les données compilées.
+
+Les mises en garde et contre-indications officielles de la notice n'ont pas pu être compilées. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication.
-- Le lien mécanistique avec la compression nerveuse du syndrome de la queue de cheval est faible.
-- La seule forme commercialisée est un collyre.
-- Les données de sécurité de la notice sont absentes du dossier.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication, et le produit n'est plus commercialisé en France (AMM annulée). Le rationnel mécanistique reste théorique pour un collyre sans usage systémique, et les contre-indications du graphe sont nombreuses.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indication approuvée). Ce point est bloquant pour le criblage de sécurité.
-- Obtenir les données sur le mécanisme d'action (par exemple via l'API DrugBank).
-- Réaliser une recherche systématique d'essais cliniques et de littérature pour les trois indications prédites.
-- Évaluer la compatibilité des voies d'administration : le collyre ne permet pas d'atteindre une action vésicale ou intestinale.
-- Recontrôler la correspondance du terme de maladie « obsolète » pour la vessie neurogène.
-- Comparer avec les antimuscariniques déjà approuvés pour les symptômes vésicaux et intestinaux.
-
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
+- Compléter les données sur le mécanisme d'action (DrugBank)
+- Rechercher des essais cliniques et des publications sur les trois indications prédites
+- Reclasser le terme obsolète « vessie neurogène » vers « hyperactivité neurogène du détrusor » avant toute évaluation
+- Évaluer la compatibilité de voie d'administration (collyre vs voie systémique) et l'exposition systémique requise
+- Comparer avec les antimuscariniques déjà établis (oxybutynine, toltérodine, dicyclomine) pour juger de l'intérêt réel
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

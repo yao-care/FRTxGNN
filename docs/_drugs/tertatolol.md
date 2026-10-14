@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tertatolol
-parent: Preuves modérées (L3-L4)
-nav_order: 304
-evidence_level: L4
+parent: Prédiction du modèle uniquement (L5)
+nav_order: 747
+evidence_level: L5
 indication_count: 8
 ---
 
 # Tertatolol
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-# Tertatolol : D'un Bêta-Bloquant Non Sélectif vers la Dyskinésie Linguo-Facio-Buccale
+# Tertatolol : De l'indication originale non documentée à la dyskinésie linguo-faciale-buccale
 
 ## Résumé en Une Phrase
 
-Tertatolol est un bêta-bloquant non sélectif dont les indications d'origine ne sont pas documentées dans les données actuellement disponibles, et le médicament n'est pas commercialisé en France. Le modèle TxGNN prédit qu'il pourrait être pertinent pour la **Dyskinésie Linguo-Facio-Buccale**, mais cette direction ne s'appuie actuellement que sur **1 publication préclinique** à caractère mécanistique et **aucun essai clinique**.
+Tertatolol est un bêtabloquant non sélectif, pour lequel aucune indication d'origine n'est renseignée dans les données compilées pour ce rapport et qui n'est pas commercialisé en France.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dyskinésie linguo-faciale-buccale**,
+mais cette prédiction ne repose que sur le score du modèle : **aucun essai clinique** et **une seule publication préclinique** (chez le rongeur) sont disponibles.
 
 ---
 
@@ -41,23 +43,35 @@ Tertatolol est un bêta-bloquant non sélectif dont les indications d'origine ne
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non documentée dans les données disponibles (bêta-bloquant non sélectif) |
-| Nouvelle Indication Prédite | Dyskinésie linguo-facio-buccale |
-| Score de Prédiction TxGNN | 99.16% |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Non commercialisé |
+| Indication Originale | Non renseignée |
+| Nouvelle Indication Prédite | Dyskinésie linguo-faciale-buccale |
+| Score de Prédiction TxGNN | 99,16 % |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Non commercialisé |
 | Nombre d'AMM | 0 |
-| Decision Recommandée | Hold |
+| Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action de Tertatolol ne sont pas disponibles dans cette évaluation (lacune de données DG002). Sur la base des informations connues, Tertatolol est un bêta-bloquant non sélectif qui présenterait également une affinité pour le récepteur 5-HT1A, une propriété pharmacologique partagée avec le pindolol.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le tertatolol est un antagoniste bêta-adrénergique non sélectif, qui aurait aussi une affinité pour les récepteurs 5-HT1A/5-HT1B.
 
-Le lien avec la dyskinésie linguo-facio-buccale repose sur cette double activité pharmacologique : la seule publication associée (PMID 8788480) étudie le rôle des agonistes/antagonistes 5-HT1A — dont le (-)-tertatolol — dans la modulation de la nociception chez le rongeur, sans porter directement sur les troubles du mouvement. Il s'agit donc d'une connexion de niveau mécanistique et non d'une preuve spécifique à la maladie ciblée.
+La seule publication associée (PMID 8788480, 1996) est une étude de pharmacologie chez le rongeur sur des agonistes et antagonistes 5-HT1A dans la nociception. Elle ne traite pas de la dyskinésie : le lien avec la dyskinésie orofaciale reste donc spéculatif. Les bêtabloquants ont un historique d'usage dans le tremblement et l'akathisie, mais rien dans les données ne soutient un effet dans les dyskinésies tardives ou orofaciales.
 
-En l'absence de données sur l'indication d'origine et de tout essai clinique, l'hypothèse reste au stade exploratoire : la plausibilité mécanistique (affinité 5-HT1A) est réelle, mais elle ne permet pas à elle seule de conclure à une efficacité potentielle dans la dyskinésie.
+Le score élevé (0,992) est une prédiction purement computationnelle. Il traduit probablement une proximité dans le graphe de connaissances avec des nœuds de troubles du mouvement, et non une preuve propre au médicament.
+
+### Autres indications prédites (pour information)
+
+| Rang | Maladie prédite | Score TxGNN | Niveau de preuve | Remarque |
+|------|------|------|------|------|
+| 2 | Tic chronique | 99,12 % | L5 | Aucune donnée ; les agonistes alpha-2 sont la classe adrénergique de référence, pas les bêtabloquants |
+| 3 | Troubles du mouvement psychogènes | 99,10 % | L5 | Aucune donnée ; prise en charge surtout non médicamenteuse |
+| 4 | Frissons bénins du nourrisson (« shuddering attacks ») | 99,09 % | L5 | Affection bénigne et spontanément résolutive, rapport bénéfice-risque défavorable |
+| 5 | Maladie extrapyramidale et des mouvements | 99,09 % | L5 | Catégorie large, sans hypothèse mécanistique précise |
+| 6 | Tremblement orthostatique primaire | 99,05 % | L5 | Réponse habituellement médiocre aux bêtabloquants (clonazépam, gabapentine privilégiés) |
+| 7 | Syndrome tremblement-nystagmus-ulcère duodénal | 99,03 % | L5 | Syndrome extrêmement rare, aucune donnée |
+| 8 | Élévation tonique paroxystique bénigne du regard avec ataxie | 99,02 % | L5 | Affection pédiatrique rare, souvent spontanément résolutive, aucune donnée |
 
 ---
 
@@ -71,13 +85,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [8788480](https://pubmed.ncbi.nlm.nih.gov/8788480/) | 1996 | Étude préclinique (animale) | Behavioural Brain Research | Chez la souris, les antagonistes 5-HT1A dont le (-)-tertatolol étaient plus puissants sur la phase tardive que la phase précoce du test de la formaline, et inhibaient les crampes abdominales induites par l'acide acétique ; étude centrée sur la nociception, pas sur les troubles du mouvement |
+| [8788480](https://pubmed.ncbi.nlm.nih.gov/8788480/) | 1996 | Préclinique (pharmacologie chez le rongeur) | Behavioural Brain Research | Chez la souris, les agonistes 5-HT1A (8-OH-DPAT, flesinoxan) inhibent les deux phases du léchage induit par la formaline. Les antagonistes, dont le tertatolol, sont plus puissants sur la phase tardive et n'induisent une ataxie qu'à très fortes doses. Aucun lien avec la dyskinésie. |
 
 ---
 
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
+
+Aucune donnée d'interaction médicamenteuse n'a été retrouvée pour ce médicament.
 
 ---
 
@@ -86,14 +102,15 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-Le niveau de preuve (L4) repose sur une unique publication préclinique à visée mécanistique et non spécifique à la maladie ciblée, sans aucun essai clinique. Le médicament n'est pas commercialisé en France et une lacune bloquante existe sur les données de sécurité (notice/ANSM), ce qui empêche toute évaluation de sécurité initiale (S1).
+- La prédiction repose uniquement sur le score du modèle (niveau L5) : aucun essai clinique, et une seule étude préclinique sans rapport direct avec la dyskinésie.
+- Le médicament n'est pas commercialisé en France, et les données de sécurité réglementaires sont manquantes, ce qui bloque toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice/mises en garde et contre-indications officielles (lacune bloquante DG001)
-- Données détaillées sur le mécanisme d'action via DrugBank (lacune DG002)
-- Preuves précliniques ou cliniques spécifiquement liées à la dyskinésie linguo-facio-buccale (au-delà de l'analogie mécanistique 5-HT1A)
-- Données sur les interactions médicamenteuses (actuellement non trouvées)
-- Clarification de l'indication d'origine et du statut réglementaire du médicament
+- Les mises en garde et contre-indications de la notice ANSM (ou d'une autorité équivalente), indispensables avant tout examen de sécurité
+- Des données détaillées sur le mécanisme d'action (via DrugBank)
+- Des preuves cliniques ou précliniques directement liées à la dyskinésie orofaciale ou aux autres indications prédites
+- La confirmation de l'indication d'origine et du statut réglementaire du médicament
+- Une évaluation de la faisabilité (voie d'administration, disponibilité du produit), compte tenu de l'absence d'AMM en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

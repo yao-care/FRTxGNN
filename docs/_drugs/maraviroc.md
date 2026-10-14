@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 188
+nav_order: 474
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,108 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Maraviroc : De l'infection par le VIH à la Néoplasie Endocrinienne Multiple
+# Maraviroc : De l'infection par le VIH à l'Néoplasie Endocrinienne Multiple
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Maraviroc est un antagoniste du récepteur CCR5, commercialisé en France sous les noms CELSENTRI et MARAVIROC WAYMADE. Il est classiquement connu comme antirétroviral contre le VIH, mais cette indication d'origine ne figure pas dans les données ANSM reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Néoplasie Endocrinienne Multiple** (score élevé, 99,82 %), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+Maraviroc est un antagoniste du récepteur CCR5. Les données compilées pour ce rapport ne mentionnent aucune indication originale approuvée en France (les textes d'indication sont vides dans les AMM).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endocrinienne multiple**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
-## Aperçu Rapide
+---
 
-| Élément | Contenu |
+## Apercu Rapide
+
+| Element | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (texte d'indication vide) |
-| Nouvelle Indication Prédite | Néoplasie endocrinienne multiple |
-| Score de Prédiction TxGNN | 99,82 % |
+| Indication Originale | Non renseignée dans les données d'AMM compilées |
+| Nouvelle Indication Predite | Néoplasie endocrinienne multiple |
+| Score de Prediction TxGNN | 99,82 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 7 |
-| Décision Recommandée | Hold |
+| Statut de Marche en France | Toutes les AMM annulées (aucune AMM valide) |
+| Nombre d'AMM | 7 (dont 7 annulées) |
+| Decision Recommandee | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+---
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Les données indiquent seulement que maraviroc est un antagoniste du CCR5, un récepteur de chémokines. Son efficacité dans son indication d'origine n'a pas pu être vérifiée à partir des informations fournies.
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Aucun lien mécanistique n'est soutenu par les données entre l'antagonisme du CCR5 et les voies impliquées dans la néoplasie endocrinienne multiple. Le score TxGNN est très élevé (0,998, rang 1830), mais il reste une prédiction du modèle, sans étude réelle pour la confirmer. La similarité avec l'indication d'origine est en attente d'évaluation.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, maraviroc est un antagoniste du récepteur de chimiokines CCR5. Son indication originale n'est pas renseignée dans les données compilées.
 
-Cette prédiction doit donc être considérée comme **spéculative**. Le score élevé ne suffit pas à justifier une avancée clinique.
+Aucun lien mécanistique n'est étayé par les données fournies entre le blocage de CCR5 et les syndromes de néoplasie endocrinienne multiple. Le score élevé de TxGNN (0,998) correspond uniquement à une prédiction computationnelle.
+
+À titre d'information, les autres candidats prédits sont présentés ci-dessous. Tous restent au niveau L5 et en décision Hold :
+
+| Rang | Maladie prédite | Score TxGNN | Remarque |
+|------|------|------|------|
+| 2 | Acné | 99,76 % | Aucune preuve ; lien spéculatif via le recrutement de cellules inflammatoires |
+| 3 | Lymphome cutané primitif à cellules T | 99,72 % | Une seule revue sur ACKR1, un autre récepteur ; pas de preuve directe |
+| 4 | Lupus érythémateux systémique pédiatrique | 99,71 % | Aucune preuve ; lien spéculatif |
+| 5 | Lymphome cutané primitif non hodgkinien à cellules T | 99,50 % | Même famille que le rang 3, même limite |
+| 6 | Lymphome cutané primitif à cellules B | 99,38 % | Aucune preuve |
+| 7 | Candidose | 99,28 % | Revue sur les effets indésirables des antirétroviraux ; plutôt un contexte d'infection opportuniste liée au VIH |
+| 8 | Déficit en composant 4a du complément | 99,24 % | Aucune preuve ni mécanisme plausible |
+| 9 | Infection à cytomégalovirus | 99,23 % | Cohorte VIH sans démonstration d'efficacité |
+| 10 | Carcinome mammaire HER2 positif | 99,22 % | Étude préclinique plausible (axe CCL5-CCR5), la plus étayée sur le plan mécanistique |
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Littérature
+---
 
-Aucune littérature associée disponible actuellement.
+## Preuves de la Litterature
 
-## Informations de Marché en France
+Aucune littérature associée disponible actuellement pour la néoplasie endocrinienne multiple.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+Pour information, des publications existent pour d'autres candidats, sans preuve directe pour maraviroc :
+
+| PMID | Annee | Type | Revue | Resultats Principaux |
+|------|-----|------|------|---------|
+| [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/) | 2020 | Préclinique | Mol Cancer Ther | L'effet autocrine de CCL5 médie la résistance au trastuzumab via l'activation de la voie ERK dans le cancer du sein HER2 positif (candidat n° 10) |
+| [37006247](https://pubmed.ncbi.nlm.nih.gov/37006247/) | 2023 | Revue | Front Immunol | Perspectives du ciblage d'ACKR1 dans le cancer et d'autres maladies (lymphomes cutanés, candidats n° 3 et 5) |
+| [25397464](https://pubmed.ncbi.nlm.nih.gov/25397464/) | 2014 | Cohorte | J Int AIDS Soc | Immunité innée et paramètres métaboliques chez des patients VIH+ sous traitement antirétroviral (candidat n° 9) |
+| [21671545](https://pubmed.ncbi.nlm.nih.gov/21671545/) | 2011 | Revue | Am Fam Physician | Effets indésirables courants des traitements antirétroviraux (candidat n° 7) |
+
+---
+
+## Informations de Marche en France
+
+Toutes les AMM sont annulées ; aucune n'est actuellement valide. Les textes d'indication ne sont pas disponibles.
+
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 61182724 | CELSENTRI 300 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
-| 60992262 | CELSENTRI 25 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
-| 64830457 | MARAVIROC WAYMADE 300 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
-| 64813486 | MARAVIROC WAYMADE 150 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée dans les données |
-| 65936214 | CELSENTRI 20 mg/ml, solution buvable | Solution buvable | Non précisée dans les données |
+| 61182724 | CELSENTRI 300 mg | Comprimé pelliculé | Non renseignée |
+| 60992262 | CELSENTRI 25 mg | Comprimé pelliculé | Non renseignée |
+| 64830457 | MARAVIROC WAYMADE 300 mg | Comprimé pelliculé | Non renseignée |
+| 64813486 | MARAVIROC WAYMADE 150 mg | Comprimé pelliculé | Non renseignée |
+| 65936214 | CELSENTRI 20 mg/ml | Solution buvable | Non renseignée |
 
-Le dossier recense 7 AMM au total ; seules les 5 premières sont détaillées ici.
+---
 
-## Considérations de Sécurité
+## Considerations de Securite
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (liens médicament-maladie du graphe PrimeKG, et non le texte de la notice) : atrophie multisystématisée, syndrome de tachycardie orthostatique posturale, hypotension orthostatique, maladie rénale (dont insuffisance rénale chronique et terminale), maladie hépatique (dont atteinte hépatique d'origine médicamenteuse), maladie de la vésicule biliaire, hépatite B chronique, hépatite C, maladie coronarienne, infarctus du myocarde, thrombose coronarienne, ischémie myocardique, hémoglobinopathie, pyo-uretère et maladies infectieuses.
+- **Interactions Medicamenteuses** : 93 interactions recensées. Interaction majeure : **clarithromycine**. Interactions modérées (exemples) : aprépitant, dexaméthasone, cimétidine, cobicistat, clotrimazole, miconazole, naltrexone, rolapitant, deferasirox, diazoxide, phentolamine, prométhazine, époprosténol, fostamatinib.
 
-## Conclusion et Prochaines Étapes
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
 
-**Décision : Hold**
+---
+
+## Conclusion et Prochaines Etapes
+
+**Decision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique démontré avec la néoplasie endocrinienne multiple.
-- Les données de sécurité de la notice ANSM sont absentes, ce qui bloque le passage à l'étape de sécurité (S1).
+- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, sans mécanisme étayé, et aucune AMM n'est actuellement valide en France.
+- Le signal préclinique CCL5-CCR5 dans le cancer du sein HER2 positif est la piste la plus plausible, mais elle relève d'une question de recherche et non d'une recommandation clinique.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications, interactions).
-- Obtenir les données de mécanisme d'action (MOA) via DrugBank.
-- Confirmer l'indication d'origine à partir des textes d'AMM, actuellement vides.
-- Mener une recherche bibliographique ciblée sur CCR5 et les néoplasies endocriniennes.
-
-**Autres indications prédites (à titre d'information) :**
-
-| Rang | Indication | Score TxGNN | Niveau de Preuve | Recommandation |
-|------|------|------|------|------|
-| 2 | Acné | 99,76 % | L5 | Hold |
-| 3 | Lymphome cutané primitif à cellules T | 99,72 % | L4 | Hold |
-| 4 | Lupus érythémateux systémique pédiatrique | 99,71 % | L5 | Hold |
-| 5 | Lymphome cutané primitif non hodgkinien à cellules T | 99,50 % | L4 | Hold |
-| 6 | Lymphome cutané primitif à cellules B | 99,38 % | L5 | Hold |
-| 7 | Candidose | 99,28 % | L5 | Hold |
-| 8 | Déficit en composant 4a du complément | 99,24 % | L5 | Hold |
-| 9 | Infection à cytomégalovirus | 99,23 % | L4 | Hold |
-| 10 | Carcinome mammaire HER2 positif | 99,22 % | L4 | Question de recherche |
-
-Parmi ces candidats, le **carcinome mammaire HER2 positif** est le plus solide sur le plan mécanistique. Une étude préclinique (PMID [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/), *Molecular Cancer Therapeutics*, 2020) montre que le CCL5 autocrine médie la résistance au trastuzumab via l'activation de la voie ERK. Le CCL5 signale par le CCR5, que maraviroc antagonise. Cette preuve reste indirecte : maraviroc n'y est pas testé et aucun essai clinique n'est disponible. Une validation préclinique est nécessaire avant toute étape clinique.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement nécessite une validation clinique avant application.*
+**Pour avancer, les elements suivants sont necessaires :**
+- Récupérer la notice ANSM (mises en garde et contre-indications) pour permettre le criblage de sécurité
+- Obtenir les données sur le mécanisme d'action et sur l'indication originale
+- Mener des études précliniques ou cliniques testant directement maraviroc, en priorité dans le cancer du sein HER2 positif
+- Clarifier la situation réglementaire (AMM annulées) et la disponibilité des voies d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

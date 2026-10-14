@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Felbamate
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 127
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 318
+evidence_level: L4
 indication_count: 2
 ---
 
 # Felbamate
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,76 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Felbamate : D'un antiépileptique au Néoplasme du Nerf Trijumeau
+# Felbamate : De l'Épilepsie à la Névralgie du Trijumeau
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Felbamate est un antiépileptique commercialisé en France sous le nom TALOXA (comprimé et suspension buvable).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **néoplasme du nerf trijumeau**, avec un score très élevé de 99,62 %.
-Cette prédiction n'est soutenue par **aucun essai clinique** et **aucune publication** portant sur cette tumeur : elle repose uniquement sur le modèle.
+Felbamate est un antiépileptique, initialement utilisé pour traiter l'épilepsie (y compris l'épilepsie partielle et le syndrome de Lennox-Gastaut).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie du trijumeau**, avec **aucun essai clinique** et **4 publications** (dont un seul rapport de cas directement pertinent) à ce jour.
 
----
+Une première prédiction, le **néoplasme du nerf trijumeau** (score de 99,62 %), n'est étayée par aucune donnée et n'est pas retenue comme piste. Ce rapport se concentre donc sur la névralgie du trijumeau, seconde prédiction et seule à disposer d'un début de littérature.
 
-## Aperçu Rapide
+## Apercu Rapide
 
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau |
-| Score de Prédiction TxGNN | 99,62 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 2 |
-| Décision Recommandée | Hold |
+| Indication Originale | Épilepsie (indications issues du graphe de connaissances ; texte d'indication de l'AMM non disponible) |
+| Nouvelle Indication Predite | Névralgie du trijumeau |
+| Score de Prediction TxGNN | 99,18 % |
+| Niveau de Preuve | L4 |
+| Statut de Marche en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 2 (toutes deux annulées) |
+| Decision Recommandee | Hold |
 
----
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le felbamate est un antiépileptique dont l'action est classiquement attribuée à l'antagonisme du site glycine du récepteur NMDA et à la potentialisation GABAergique, avec d'éventuels effets sur les canaux sodiques. Ces éléments restent à confirmer par une source dédiée.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, le felbamate agit comme antagoniste du site glycine du récepteur NMDA, module les canaux sodiques voltage-dépendants et potentialise le récepteur GABA-A. Ce sont des mécanismes antiépileptiques.
+La névralgie du trijumeau est une douleur faciale paroxystique, unilatérale et intense, liée à une hyperexcitabilité neuronale. Son profil temporel proche de celui des crises a conduit à utiliser des anticonvulsivants : la carbamazépine est le traitement de référence, et le baclofène, la phénytoïne et le valproate sont également efficaces. Un lien mécanistique plausible existe donc entre l'indication d'origine (épilepsie) et la nouvelle indication.
 
-Aucun lien mécanistique avec une action antitumorale n'est documenté. Le score très élevé semble refléter une proximité dans le graphe de connaissances avec la névralgie du trijumeau et d'autres atteintes du nerf trijumeau, et non un effet direct sur la tumeur. Un éventuel bénéfice sur la douleur faciale liée à une tumeur serait une extrapolation à partir de la névralgie. Il ne prouverait rien sur le contrôle de la tumeur elle-même.
-
-À noter : la seconde prédiction du modèle, la **névralgie du trijumeau** (score 99,18 %, niveau L4), est nettement plus plausible. Elle repose sur un rapport de cas de 1995 et sur de la littérature indirecte. Elle doit être traitée comme une question de recherche distincte.
-
----
+Le seul signal clinique direct est un rapport de 1995 intitulé « Felbamate relieved trigeminal neuralgia ». Il s'agit d'un rapport de cas, donc d'une preuve anecdotique et non contrôlée.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la Litterature
 
-## Preuves de la Littérature
+| PMID | Annee | Type | Revue | Resultats Principaux |
+|------|-----|------|------|---------|
+| [7549170](https://pubmed.ncbi.nlm.nih.gov/7549170/) | 1995 | Rapport de cas | Clin J Pain | Évaluation de l'efficacité analgésique du felbamate dans la névralgie du trijumeau ; le titre rapporte un soulagement |
+| [23338129](https://pubmed.ncbi.nlm.nih.gov/23338129/) | 1997 | Revue | CNS Drugs | Guide de choix thérapeutique : carbamazépine en premier choix, baclofène, phénytoïne et valproate également efficaces |
+| [22022008](https://pubmed.ncbi.nlm.nih.gov/22022008/) | 2011 | Préclinique (animal) | Indian J Pharmacol | Comparaison carbamazépine, gabapentine et lamotrigine dans la douleur neuropathique chez le rat ; le felbamate n'est cité que comme contexte |
+| [7633024](https://pubmed.ncbi.nlm.nih.gov/7633024/) | 1995 | Rapport de cas (événement indésirable) | Ann Pharmacother | Anaphylaxie retardée induite par le felbamate (signal de sécurité) |
 
-Aucune littérature associée disponible actuellement pour le néoplasme du nerf trijumeau.
+## Informations de Marche en France
 
-Les cinq publications identifiées dans le dossier concernent la névralgie du trijumeau, pas la tumeur. Elles ne peuvent donc pas être utilisées comme preuve pour cette indication.
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
+|---------|------|------|-----------|
+| 60223278 | TALOXA 600 mg, comprimé (ORGANON FRANCE) | Comprimé | Non renseignée (AMM annulée) |
+| 62313468 | TALOXA 600 mg/5 ml, suspension buvable (ORGANON FRANCE) | Suspension buvable | Non renseignée (AMM annulée) |
 
----
+## Considerations de Securite
 
-## Informations de Marché en France
+- **Contre-indications issues du graphe de connaissances** (non issues de la notice) : syndrome du QT long (y compris familial), torsades de pointes, insuffisance hépatique et maladie du foie, anémie aplasique (dont idiopathique), maladies hématologiques, maladie rénale, porphyries (dont porphyries héréditaires), maladie de la vésicule biliaire, pyo-uretère, troubles anxieux, troubles névrotiques et dysthymie.
+- **Risques graves connus du felbamate** : anémie aplasique et insuffisance hépatique. Un cas d'anaphylaxie retardée a également été rapporté (PMID 7633024).
+- **Interactions médicamenteuses** : 100 interactions recensées, dont les premières sont de niveau modéré, notamment avec la morphine, l'opium, l'aprépitant, le métoclopramide, la naltrexone, le dronabinol, la nabilone, le répaglinide, la saxagliptine, la linagliptine, le rolapitant, l'éliglustat, la nitisinone, le naloxégol et plusieurs formes de vitamine D (cholécalciférol, calcifédiol, calcitriol, ergocalciférol, dihydrotachystérol).
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 60223278 | TALOXA 600 mg, comprimé | Comprimé |
-| 62313468 | TALOXA 600 mg/5 ml suspension buvable | Suspension buvable |
+Les mises en garde et contre-indications de la notice française n'ont pas pu être consultées ; veuillez vous référer à la notice.
 
-Les deux AMM appartiennent à ORGANON FRANCE. Le texte de l'indication approuvée n'est pas renseigné dans les données reçues.
-
----
-
-## Considérations de Sécurité
-
-- **Points d'attention issus de l'analyse de repositionnement** : le felbamate est associé à des risques graves connus, notamment l'anémie aplasique et l'insuffisance hépatique (mises en garde encadrées). Un cas d'anaphylaxie retardée a aussi été publié (PMID 7633024). Ces éléments ne proviennent pas de la notice ANSM, qui n'a pas encore été intégrée.
-- Toute utilisation en repositionnement exigerait un cadre strict d'évaluation bénéfice-risque, probablement limité aux cas réfractaires.
-
-Veuillez consulter la notice pour les informations de sécurité complètes (mises en garde, contre-indications).
-
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et Prochaines Etapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5). Il n'y a ni essai clinique, ni publication, ni lien mécanistique antitumoral documenté.
-- Le profil de sécurité du felbamate est lourd, et les données de sécurité de la notice ANSM sont manquantes (lacune bloquante).
+- Le score TxGNN est très élevé, mais les preuves se limitent à un rapport de cas de 1995 et à du contexte indirect, sans aucun essai clinique (niveau L4). Le profil de risque du felbamate (anémie aplasique, hépatotoxicité) est défavorable alors que des alternatives plus sûres existent, et toutes ses AMM françaises sont annulées. La prédiction « néoplasme du nerf trijumeau » n'a aucune base et ne doit pas être poursuivie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante.
-- Obtenir les données de mécanisme d'action via DrugBank.
-- Rechercher une éventuelle preuve directe (préclinique ou clinique) sur les tumeurs du nerf trijumeau.
-- Envisager de réorienter l'évaluation vers la névralgie du trijumeau (L4), plus plausible, avec un cadre strict de gestion du risque.
+- Obtenir et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM
+- Compléter les données de mécanisme d'action via DrugBank
+- Lire le texte intégral du rapport de 1995 et mener une revue systématique de la littérature
+- Réaliser une analyse bénéfice-risque, limitée aux cas réfractaires avec surveillance hématologique et hépatique stricte
+- Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

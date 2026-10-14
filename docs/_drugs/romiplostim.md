@@ -2,7 +2,7 @@
 layout: default
 title: Romiplostim
 parent: Preuves modérées (L3-L4)
-nav_order: 271
+nav_order: 678
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,77 +29,73 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Romiplostim : De la Thrombopénie Immunologique à un Trouble de la Libération Plaquettaire Primaire
+# Romiplostim : Du Purpura Thrombopénique Auto-immun au Trouble de Libération Plaquettaire Primaire
 
 ## Résumé en Une Phrase
 
-Romiplostim (Nplate) est un agoniste du récepteur de la thrombopoïétine (TPO), qui stimule la production de plaquettes. Les données de l'ANSM fournies ne précisent pas son indication d'origine, mais ce médicament est connu pour traiter la thrombopénie immunologique (PTI).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble primaire de la libération plaquettaire**.
-Cette direction n'est soutenue que par **1 essai clinique observationnel** et **2 publications** (une revue et une étude in vitro), toutes indirectes.
+Romiplostim est un agoniste du récepteur de la thrombopoïétine (MPL), initialement utilisé pour le traitement du purpura thrombopénique auto-immun (PTI) et de l'anémie aplasique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble de libération plaquettaire primaire**, mais cette prédiction ne repose actuellement que sur **0 essai clinique** et **1 publication** de nature mécanistique indirecte.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM fournies (thrombopénie immunologique d'après les connaissances générales sur Nplate) |
-| Nouvelle Indication Prédite | Trouble primaire de la libération plaquettaire (*primary release disorder of platelets*) |
-| Score de Prédiction TxGNN | 99,9998 % |
+| Indication Originale | Purpura thrombopénique auto-immun, anémie aplasique (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Trouble de libération plaquettaire primaire (primary release disorder of platelets) |
+| Score de Prédiction TxGNN | 99,99 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Uniquement des AMM annulées |
+| Nombre d'AMM | 3 (toutes annulées) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, le romiplostim est un agoniste du récepteur de la TPO. Il stimule les mégacaryocytes de la moelle osseuse et augmente ainsi le nombre de plaquettes circulantes.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances pharmacologiques, romiplostim est un agoniste du récepteur de la thrombopoïétine (MPL) : il stimule la prolifération des mégacaryocytes et augmente la production de plaquettes. Son efficacité dans le PTI chronique est établie.
 
-Le lien avec la nouvelle indication est faible. Un trouble de la libération (sécrétion) plaquettaire est un défaut **qualitatif** : les plaquettes sont présentes mais fonctionnent mal. Or le romiplostim agit sur la **quantité** de plaquettes. Augmenter leur nombre ne corrige pas a priori un défaut de sécrétion.
+La prédiction du modèle repose sur la proximité, dans le graphe de connaissances, entre les pathologies plaquettaires. Cependant, le mécanisme est ici peu convaincant : un trouble de libération plaquettaire est un défaut **fonctionnel** (sécrétion des granules), et non un déficit numérique. Augmenter le nombre de plaquettes ne corrigerait vraisemblablement pas ce défaut.
 
-Le seul appui disponible est indirect et provient de la biologie de la PTI. La revue sur la mégacaryopoïèse décrit le rôle central de la TPO dans la production plaquettaire. L'étude in vitro montre que les autoanticorps de la PTI freinent la formation de proplaquettes. Aucune de ces sources ne concerne le trouble de libération plaquettaire lui-même. Le score TxGNN élevé reflète donc surtout une proximité dans le graphe de connaissances, pas une justification mécanistique démontrée.
+La seule publication disponible (PMID 25682608) porte sur l'inhibition, par des auto-anticorps, de la formation des proplaquettes dans le PTI. Elle soutient le mécanisme du PTI, et non celui de la nouvelle indication prédite.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A (observationnelle) | Terminé | 10 039 | Facteurs de risque de thrombose dans la thrombopénie immunologique. Ce n'est pas un essai d'efficacité du romiplostim et il ne porte pas sur les troubles de libération plaquettaire. |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Revue | British Journal of Haematology | Synthèse des avancées sur la mégacaryopoïèse et la thrombopoïèse, avec la TPO comme principal facteur de croissance de la lignée mégacaryocytaire |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Préclinique / in vitro | Haematologica | Les autoanticorps antiplaquettes de patients atteints de PTI inhibent la formation de proplaquettes par les mégacaryocytes et altèrent la production plaquettaire in vitro |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Étude fondamentale/mécanistique | Haematologica | Dans le PTI, les auto-anticorps antiplaquettaires inhibent in vitro la formation des proplaquettes par les mégacaryocytes et altèrent la production plaquettaire. Lien indirect avec l'indication prédite. |
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64313253 | NPLATE 250 microgrammes | Poudre et solvant pour solution injectable | Non précisée dans les données fournies |
-| 66384249 | NPLATE 125 microgrammes | Poudre pour solution injectable | Non précisée dans les données fournies |
-| 68638461 | NPLATE 500 microgrammes | Poudre et solvant pour solution injectable | Non précisée dans les données fournies |
-
-Le titulaire des trois AMM est AMGEN EUROPE.
+| 64313253 | NPLATE 250 microgrammes, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
+| 66384249 | NPLATE 125 microgrammes, poudre pour solution injectable | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+| 68638461 | NPLATE 500 microgrammes, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions médicamenteuses** :
+  - **Carfilzomib** : interaction de niveau **majeur** (source : DDInter).
+  - Cible pharmacologique : récepteur de la thrombopoïétine (MPL), ce qui correspond à son mécanisme d'agoniste et non à une interaction cliniquement évaluée.
+
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L4. Le seul essai associé est observationnel et sans lien avec l'efficacité du romiplostim, et les deux publications sont indirectes.
-- Le mécanisme (augmentation du nombre de plaquettes) ne correspond pas à un défaut qualitatif de libération plaquettaire. Le score TxGNN élevé ne suffit pas à compenser ce manque.
+- La prédiction repose sur un score élevé du modèle, mais le niveau de preuve est faible (L4) : aucun essai clinique, une seule étude mécanistique indirecte. Le défaut est fonctionnel, donc l'augmentation du nombre de plaquettes est peu susceptible d'être bénéfique. En outre, toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM, dont l'absence bloque toute évaluation de sécurité.
-- Les données détaillées sur le mécanisme d'action (DrugBank).
-- L'indication approuvée de chaque AMM, à extraire de la notice ANSM.
-- Une justification mécanistique ou des données précliniques montrant qu'un agoniste du récepteur de la TPO peut avoir un effet dans les troubles de libération plaquettaire.
-- Pour le même médicament, une autre prédiction (« trouble hémorragique de type plaquettaire », rang 8) dispose d'un essai de phase 3 randomisé (RECITE, NCT03362177), mais dans la thrombopénie induite par la chimiothérapie. Elle mérite une analyse séparée, sans être transposée à la présente indication.
+- Données détaillées sur le mécanisme d'action et sa pertinence pour un défaut fonctionnel plaquettaire.
+- Notice de l'ANSM (mises en garde et contre-indications), indispensable avant toute évaluation de sécurité.
+- Données précliniques ou cliniques spécifiques au trouble de libération plaquettaire.
+- Clarification de la situation réglementaire (AMM annulées) et de la disponibilité du produit en France.
 
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute application.*
+**Note complémentaire :** parmi les autres indications prédites, la thrombopénie alloimmune fœto-néonatale (niveau L4, « question de recherche »), les thrombopénies constitutionnelles et les macrothrombopénies autosomiques dominantes sont mécanistiquement plus plausibles, car il s'agit de déficits quantitatifs en plaquettes. Les preuves restent toutefois indirectes (principalement issues du PTI) ou inexistantes, et la sécurité pendant la grossesse reste à établir.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

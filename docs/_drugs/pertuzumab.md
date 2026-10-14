@@ -2,7 +2,7 @@
 layout: default
 title: Pertuzumab
 parent: Preuves élevées (L1-L2)
-nav_order: 235
+nav_order: 593
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,103 +29,109 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Pertuzumab : Du cancer du sein HER2-positif (indication supposée) au cancer du sein à récepteurs de la progestérone positifs
+# Pertuzumab : Du Cancer du Sein HER2 Positif au Cancer du Sein Positif aux Récepteurs de la Progestérone
 
 ## Résumé en Une Phrase
 
-Le pertuzumab est un anticorps monoclonal anti-HER2. Le texte de son indication en France n'est pas renseigné dans les données reçues. Il est très probablement utilisé pour le cancer du sein HER2-positif, mais cela reste à confirmer.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **cancer du sein à récepteurs de la progestérone positifs**, avec **10 essais cliniques** et **20 publications** associés. Ces études portent surtout sur des populations HER2-positives, non stratifiées selon le statut des récepteurs de la progestérone (RP).
+Pertuzumab est un anticorps monoclonal anti-HER2, initialement utilisé pour le traitement du cancer du sein HER2 positif.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **cancer du sein positif aux récepteurs de la progestérone**, avec **1 essai clinique** et **20 publications** soutenant actuellement cette direction.
+Il s'agit toutefois en pratique d'un sous-groupe de l'indication HER2 positive déjà établie (maladie HR+/HER2+), plutôt que d'un repositionnement au sens strict.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Nouvelle Indication Prédite | Cancer du sein à récepteurs de la progestérone positifs |
+| Indication Originale | Cancer du sein HER2 positif |
+| Nouvelle Indication Prédite | Cancer du sein positif aux récepteurs de la progestérone |
 | Score de Prédiction TxGNN | 99,93 % |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Autorisations annulées uniquement |
 | Nombre d'AMM | 3 |
 | Décision Recommandée | Proceed with Guardrails |
 
+---
+
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données DrugBank sur le mécanisme d'action ne sont pas renseignées. L'analyse de repositionnement du dossier fournit toutefois l'explication suivante. Le pertuzumab se fixe sur le sous-domaine II de l'extérieur de la cellule du récepteur HER2 et empêche sa dimérisation avec HER3. Il agit donc sur les tumeurs HER2-positives, quel que soit leur statut RP.
+Les données détaillées sur le mécanisme d'action ne figurent pas dans les données compilées pour ce rapport. D'après les informations connues, le pertuzumab se lie au domaine de dimérisation extracellulaire de HER2 (sous-domaine II) et bloque l'hétérodimérisation HER2-HER3. Cela inhibe les voies de signalisation PI3K/AKT et MAPK.
 
-Le lien avec la nouvelle indication passe par le sous-groupe de tumeurs qui expriment à la fois HER2 et les récepteurs hormonaux (RP/RE). Dans ces tumeurs, le blocage de HER2 peut être combiné à un traitement endocrinien. Plusieurs études du dossier vont dans ce sens (NEOADAPT, WSG-TP-II, PERTAIN, ADEPT).
+Les tumeurs positives aux récepteurs de la progestérone qui co-expriment HER2 (maladie HR+/HER2+) sont pilotées par cette même voie. La nouvelle indication prédite correspond donc à un sous-ensemble du cancer du sein HER2 positif. La signalisation endocrinienne coexistante est une voie de résistance connue. L'essai WSG TP-II soutient l'association pertuzumab + trastuzumab + hormonothérapie dans ce sous-groupe.
 
-**Points de vigilance :**
-- Le texte de l'indication originale est vide dans les données. Cette prédiction relève probablement déjà de l'usage autorisé dans le cancer du sein HER2-positif. Il faut le confirmer avec le résumé des caractéristiques du produit avant de la considérer comme un vrai repositionnement.
-- Les essais de Phase 3 portent sur des populations HER2-positives et ne sont pas stratifiés selon le statut RP.
+Garde-fou : le bénéfice est limité à la maladie HER2 positive. Les tumeurs PR positives/HER2 négatives ne doivent pas être traitées par pertuzumab.
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Sur les 10 essais retournés, 7 sont présentés ici. Les 3 exclus n'apportent pas d'information sur le pertuzumab :
-- NCT06131424 : étude rétrospective sur la prévalence de HER2-low.
-- NCT03058939 : essai retiré avec 0 patient inclus.
-- NCT00999804 : essai sans bras pertuzumab visible.
-
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Terminé | 517 | Biosimilaire QL1209 vs pertuzumab, avec trastuzumab et docétaxel, en néoadjuvant (cancer du sein HER2+ et RE/RP négatifs) |
-| [NCT05802225](https://clinicaltrials.gov/study/NCT05802225) | Phase 3 | Actif, ne recrute plus | 398 | Biosimilaire BCD-178 vs Perjeta en néoadjuvant (HER2+, RE/RP négatifs) : démontre l'équivalence, pas une nouvelle indication |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Terminé | 454 | IMpassion050 : atezolizumab vs placebo ajouté à une chimiothérapie néoadjuvante avec trastuzumab et pertuzumab, cancer du sein HER2+ précoce |
-| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Terminé | 417 | Comparaison de 4 associations trastuzumab/docétaxel/pertuzumab sur la réponse pathologique complète (étude NeoSphere) |
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Actif, ne recrute plus | 164 | T-DM1 + pertuzumab en préopératoire : impact de l'hétérogénéité de HER2 |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Arrêté | 139 | DECRESCENDO : désescalade de chimiothérapie avec pertuzumab-trastuzumab sous-cutané (HER2+, RE-négatif) ; lien indirect avec RP+ |
-| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) | Phase 2 | Inconnu | 7 | NEOADAPT : inhibiteur de l'aromatase + pertuzumab/trastuzumab sans chimiothérapie (HR+/HER2+) ; le plus proche du contexte RP+, mais très petit effectif |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Terminé | 517 | Essai d'équivalence randomisé en double aveugle comparant un biosimilaire du pertuzumab (QL1209) au pertuzumab de référence, avec trastuzumab et docétaxel, en néoadjuvant dans le cancer du sein HER2 positif, ER/PR négatif. Les résultats stratifiés selon le statut hormonal ne sont pas rapportés. |
+
+---
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | ECR (Phase 2) | Lancet Oncol | NeoSphere : analyse à 5 ans de la survie sans progression et sans maladie sous pertuzumab + trastuzumab néoadjuvants |
-| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | ECR (Phase 3) | Br J Cancer | Équivalence du biosimilaire QL1209 au pertuzumab de référence (HER2+, RE/RP négatifs) |
-| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | ECR | JAMA Oncol | WSG-TP-II : hormonothérapie + double blocage HER2 vs chimiothérapie désescaladée dans le cancer du sein RH+/HER2+ |
-| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | ECR (Phase 2) | Ann Oncol | WSG-ADAPT HER2+/HR- : 12 semaines de double blocage trastuzumab + pertuzumab, avec ou sans paclitaxel |
-| [30106636](https://pubmed.ncbi.nlm.nih.gov/30106636/) | 2018 | ECR (Phase 2) | J Clin Oncol | PERTAIN : trastuzumab + inhibiteur de l'aromatase, avec ou sans pertuzumab, en première ligne (HER2+ et RH+) |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Recommandation | J Clin Oncol | Mise à jour des recommandations ASCO sur le traitement systémique du cancer du sein avancé HER2+ |
-| [37609714](https://pubmed.ncbi.nlm.nih.gov/37609714/) | 2023 | Essai à un seul bras | Future Oncol | Protocole DECRESCENDO : désescalade de la chimiothérapie (HER2+, RH-négatif) |
-| [40246081](https://pubmed.ncbi.nlm.nih.gov/40246081/) | 2025 | Étude rétrospective | Mod Pathol | Impact du statut des récepteurs hormonaux et de l'expression de HER2 sur la réponse au traitement ciblé néoadjuvant |
-| [27057657](https://pubmed.ncbi.nlm.nih.gov/27057657/) | 2016 | Revue | Cancer Treat Rev | Cancer du sein RH+/HER2+ : état des connaissances et perspectives |
-| [40983817](https://pubmed.ncbi.nlm.nih.gov/40983817/) | 2025 | Revue | Breast Cancer | Voies de signalisation et traduction clinique du cancer du sein HR+/HER2+ |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | ECR (Phase 2) | Lancet Oncol | NeoSphere : analyse à 5 ans de la survie sans progression, de la survie sans maladie et de la sécurité du pertuzumab + trastuzumab en néoadjuvant |
+| [42150145](https://pubmed.ncbi.nlm.nih.gov/42150145/) | 2026 | ECR | J Clin Oncol | WSG TP-II : analyse de survie, trastuzumab + pertuzumab + hormonothérapie vs chimiothérapie en néoadjuvant (HR+/HER2+) |
+| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | ECR | JAMA Oncol | WSG TP-II : hormonothérapie + double blocage HER2 vs chimiothérapie désescaladée dans le cancer du sein précoce HR+/HER2+ |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | ECR (Phase 2) | Ann Oncol | WSG-ADAPT HER2+/HR- : stratégies de désescalade avec double blocage trastuzumab + pertuzumab ± paclitaxel hebdomadaire |
+| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | ECR | Br J Cancer | Essai d'équivalence de phase 3 du biosimilaire QL1209 vs pertuzumab de référence (HER2+, ER/PR négatif) |
+| [41401771](https://pubmed.ncbi.nlm.nih.gov/41401771/) | 2026 | ECR | ESMO Open | Essai d'équivalence de phase 3 du biosimilaire TQB2440 vs pertuzumab de référence |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Recommandation | J Clin Oncol | Mise à jour des recommandations ASCO sur le traitement systémique du cancer du sein avancé HER2 positif |
+| [41387082](https://pubmed.ncbi.nlm.nih.gov/41387082/) | 2026 | Cohorte | Breast | Suppression ovarienne et inhibiteurs de l'aromatase chez les patientes préménopausées HR+/HER2+ |
+| [27057657](https://pubmed.ncbi.nlm.nih.gov/27057657/) | 2016 | Revue | Cancer Treat Rev | Cancer du sein HR+/HER2+ : état des connaissances et perspectives |
+| [40983817](https://pubmed.ncbi.nlm.nih.gov/40983817/) | 2025 | Revue | Breast Cancer | Voies de signalisation intrinsèques et traduction clinique du cancer du sein HR+/HER2+ |
+
+---
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée est vide pour les 3 AMM dans les données reçues. La colonne correspondante est donc omise.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60912227 | PERJETA 420 mg | Solution à diluer pour perfusion | Roche Registration |
-| 63806777 | PHESGO 600 mg/600 mg | Solution injectable | Roche Registration (Allemagne) |
-| 67178992 | PHESGO 1200 mg/600 mg | Solution injectable | Roche Registration (Allemagne) |
+| 60912227 | PERJETA 420 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 63806777 | PHESGO 600 mg/600 mg, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+| 67178992 | PHESGO 1200 mg/600 mg, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+
+---
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Thérapie ciblée (anticorps monoclonal anti-HER2) |
-| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
+| Risque de Myélosuppression | Non documenté dans les données compilées. Le risque hématologique provient surtout des chimiothérapies associées (par exemple docétaxel). |
+| Classification d'Émétogénicité | Faible (anticorps monoclonal) ; à évaluer selon la chimiothérapie associée |
+| Éléments de Surveillance | Fonction cardiaque (FEVG), NFS, fonction hépatique et rénale |
 | Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions Médicamenteuses** : une interaction de niveau modéré est signalée avec l'idélalisib. Une interaction pharmacologique est également répertoriée avec la cible ERBB2 (HER2), conforme au mécanisme d'action de l'anticorps.
+
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de Phase 3 terminés et des ECR de Phase 2 soutiennent le pertuzumab dans le cancer du sein HER2-positif. Des essais RH+/HER2+ (WSG-TP-II, PERTAIN, ADEPT) vont dans le sens de la prédiction. Il n'existe toutefois pas de preuve stratifiée selon le statut RP, et cette indication est probablement déjà couverte par l'AMM.
-- Autres prédictions du dossier : « cancer du sein luminal A ou B » et « sous-type normal-like » sont au niveau L2 (question de recherche) ; « cancer du sein RP-négatif » est au niveau L1 (Proceed with Guardrails). Les 6 autres prédictions (tumeurs rares et urothéliales) sont au niveau L4-L5 (Hold).
+Plusieurs essais randomisés (dont un essai de phase 3 terminé et l'essai WSG TP-II) soutiennent le double blocage HER2 incluant le pertuzumab. Il s'agit d'un sous-groupe de l'indication HER2 positive déjà reconnue, et non d'une indication réellement nouvelle. Le score TxGNN très élevé reflète en partie la proximité dans le graphe avec le cancer du sein en général.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Confirmer l'indication autorisée en France à partir du résumé des caractéristiques du produit de l'ANSM (texte d'indication vide dans les données).
-- Obtenir la notice de l'ANSM (mises en garde et contre-indications). Cette lacune bloque l'étape de criblage de sécurité S1.
-- Compléter le mécanisme d'action dans DrugBank.
-- Rechercher des analyses en sous-groupes selon le statut RP dans les essais de Phase 3 (HER2+).
+- Confirmation du statut HER2 positif avant toute utilisation (exclure les tumeurs PR positives/HER2 négatives).
+- Données de mécanisme d'action issues de DrugBank.
+- Mises en garde et contre-indications issues de la notice ANSM (non disponibles actuellement, point bloquant pour l'évaluation de sécurité).
+- Clarification du statut réglementaire en France : les 3 AMM sont annulées et leurs indications ne sont pas renseignées.
+- Résultats stratifiés par statut des récepteurs hormonaux pour les essais de biosimilaires.
+- Surveillance cardiaque et plan de sécurité pour les populations particulières.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Elbasvir
-parent: Prédiction du modèle uniquement (L5)
-nav_order: 116
-evidence_level: L5
+parent: Preuves modérées (L3-L4)
+nav_order: 274
+evidence_level: L4
 indication_count: 10
 ---
 
 # Elbasvir
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Elbasvir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+# Elbasvir : De l'hépatite C chronique à l'hépatite B
 
 ## Résumé en Une Phrase
 
-Elbasvir est un inhibiteur de la protéine virale NS5A, utilisé en association fixe avec le grazoprévir (Zepatier) pour traiter l'hépatite C chronique.
-Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par le virus de l'hépatite B (VHB)**, avec un score élevé (99,71 %).
-Les **13 essais cliniques** et **18 publications** rattachés à cette prédiction portent tous sur l'hépatite C : **aucun ne teste l'activité d'elbasvir contre le VHB**.
+Elbasvir est un inhibiteur de la protéine virale NS5A, initialement utilisé dans le traitement de l'infection chronique par le virus de l'hépatite C, en association avec le grazoprévir.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le virus de l'hépatite B**, mais cette prédiction repose sur **2 essais cliniques** et **17 publications**, qui portent tous sur l'hépatite C et n'apportent aucune preuve directe pour l'hépatite B.
 
 ---
 
@@ -43,63 +42,51 @@ Les **13 essais cliniques** et **18 publications** rattachés à cette prédicti
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hépatite C chronique (déduite des essais et de la littérature ; le texte d'indication de l'AMM n'est pas renseigné) |
+| Indication Originale | Infection chronique par le virus de l'hépatite C |
 | Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
 | Score de Prédiction TxGNN | 99,71 % |
-| Niveau de Preuve | L5 (prédiction du modèle, aucune étude sur le VHB) |
-| Statut de Marché en France | ✓ Commercialisé |
+| Niveau de Preuve | L4 |
+| Statut de Marché en France | Autorisation annulée uniquement |
 | Nombre d'AMM | 1 |
 | Décision Recommandée | Hold |
 
-Le pack de données attribue L4 à cette prédiction. Selon la grille de niveaux, L4 exige des études précliniques ou mécanistiques sur le VHB, et il n'y en a aucune ici. Je retiens donc L5.
+Remarque : le texte de l'indication approuvée n'est pas renseigné dans l'AMM française. L'indication originale provient donc des relations d'indication du graphe de connaissances de TxGNN.
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas renseignées dans le pack. On sait toutefois qu'elbasvir cible la protéine NS5A du virus de l'hépatite C (VHC), impliquée dans la réplication virale et l'assemblage des particules. Son efficacité dans l'hépatite C est bien établie : le taux de réponse virologique soutenue est très élevé dans les essais de phase 2 et 3 (génotypes 1, 4 et 6).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances établies, elbasvir est un inhibiteur de la protéine NS5A du virus de l'hépatite C. Il est associé au grazoprévir (inhibiteur de la protéase NS3/4A) dans la spécialité Zepatier. Son efficacité dans l'hépatite C chronique est bien documentée.
 
-Le VHB et le VHC sont tous deux des virus hépatotropes. Le score élevé du modèle reflète probablement ce voisinage dans le graphe de connaissances (« hépatites virales »), et non une véritable communauté de cible. Le VHB n'a **aucun homologue de NS5A** : c'est un virus à ADN qui se réplique par transcription inverse, avec une machinerie différente de celle du VHC.
+Le lien mécanistique avec l'hépatite B est **faible** : le virus de l'hépatite B ne possède pas d'homologue de NS5A. Le score élevé du modèle reflète probablement la proximité, dans le réseau de connaissances, entre des virus à tropisme hépatique, plutôt qu'une raison pharmacologique précise.
 
-Le lien est donc surtout **statistique**, sans base mécanistique démontrée. Le VHB reste pertinent seulement comme sujet de sécurité : une co-infection ou une réactivation de l'hépatite B est possible pendant un traitement antiviral direct contre le VHC.
+À noter, d'autres pistes du même classement sont plus étayées. Pour l'**hépatite E**, une étude précliniq​ue in vitro de 2026 rapporte qu'elbasvir inhibe l'internalisation du virus et, associé à la ribavirine, obtient une suppression virale durable. C'est la seule donnée antivirale directe en dehors de l'hépatite C, mais il s'agit d'un rapport isolé, sans essai clinique, qui nécessite une réplication indépendante.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Tous les essais ci-dessous portent sur l'hépatite C. Aucun ne mesure un critère lié au VHB.
+Les deux essais associés à l'hépatite B concernent l'hépatite C ou une autre pathologie. Ils n'évaluent pas elbasvir dans l'hépatite B et ne fournissent donc aucune preuve directe.
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT02332720](https://clinicaltrials.gov/study/NCT02332720) | Phase 2 | Terminé | 413 | Grazoprévir + uprifosbuvir + elbasvir ou ruzasvir dans l'hépatite C de génotypes 3, 4, 5 et 6 ; pas de donnée sur le VHB |
-| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Terminé | 33 808 | Sécurité des antiviraux directs dans l'hépatite C, comparée aux patients non traités ; pas de test d'activité anti-VHB |
-| [NCT02105688](https://clinicaltrials.gov/study/NCT02105688) | Phase 3 | Terminé | 301 | Grazoprévir/elbasvir 12 semaines dans l'hépatite C (génotypes 1, 4, 6) sous traitement de substitution aux opiacés |
-| [NCT02115321](https://clinicaltrials.gov/study/NCT02115321) | Phase 2/3 | Terminé | 40 | Grazoprévir/elbasvir dans l'hépatite C avec cirrhose Child-Pugh B |
-| [NCT02600325](https://clinicaltrials.gov/study/NCT02600325) | Phase 3 | Terminé | 80 | Hépatite C aiguë de génotype 1/4 chez des patients VIH+ |
-| [NCT01717326](https://clinicaltrials.gov/study/NCT01717326) | Phase 2 | Terminé | 573 | Grazoprévir + elbasvir ± ribavirine dans l'hépatite C chronique ; critère principal : RVS12 |
-| [NCT01532973](https://clinicaltrials.gov/study/NCT01532973) | Phase 1 | Terminé | 48 | Sécurité, pharmacocinétique et pharmacodynamie d'elbasvir chez des hommes infectés par le VHC |
-| [NCT03110055](https://clinicaltrials.gov/study/NCT03110055) | N/A | Inconnu | 20 | Grazoprévir/elbasvir + chimioembolisation vs chimioembolisation seule dans le carcinome hépatocellulaire lié au VHC |
-| [NCT03797066](https://clinicaltrials.gov/study/NCT03797066) | Phase 4 | Arrêté | 13 | Dépistage et traitement de l'hépatite C sur site chez des personnes sans domicile |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Terminé | 87 | Risque cardiovasculaire après éradication du VHC chez des patients avec ou sans VIH |
+| [NCT02940496](https://clinicaltrials.gov/study/NCT02940496) | Phase 2 | Terminé | 15 | Pembrolizumab en deuxième ligne dans le carcinome hépatocellulaire, chez des patients VHC positifs ou négatifs. Ne teste pas elbasvir. |
+| [NCT02115321](https://clinicaltrials.gov/study/NCT02115321) | Phase 2/3 | Terminé | 40 | Association grazoprévir + elbasvir dans l'hépatite C de génotype 1, 4 ou 6 avec cirrhose et insuffisance hépatique Child-Pugh B. Porte sur le VHC, pas sur le VHB. |
 
 ---
 
 ## Preuves de la Littérature
 
-Aucune publication ne démontre une activité d'elbasvir contre le VHB.
+Aucune publication retenue ne teste elbasvir contre le virus de l'hépatite B. Voici les plus pertinentes parmi les références associées.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Revue | Liver Int | Vers l'éradication du VHC et la guérison du VHB ; contexte général, sans donnée sur elbasvir |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Cohorte | Klin Mikrobiol Infekc Lek | Évaluation rétrospective du traitement antiviral des hépatites B et C chez l'enfant à Ostrava |
-| [29077864](https://pubmed.ncbi.nlm.nih.gov/29077864/) | 2018 | ECR | Clin Infect Dis | Retraitement (sofosbuvir + grazoprévir/elbasvir + ribavirine) après échec d'un traitement contenant un inhibiteur de NS5A ou de NS3 (ANRS HC34 REVENGE) |
-| [34902265](https://pubmed.ncbi.nlm.nih.gov/34902265/) | 2022 | Essai de phase 4 à un bras | Antimicrob Agents Chemother | Efficacité et tolérance de grazoprévir/elbasvir chez des transplantés hépatiques ou rénaux avec VHC de génotype 1b |
-| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | Étude en vie réelle | J Viral Hepat | Expérience à Taïwan, centrée sur les effets indésirables hépatiques et rénaux |
-| [32306039](https://pubmed.ncbi.nlm.nih.gov/32306039/) | 2020 | Étude clinique | J Antimicrob Chemother | Traitement immédiat de l'hépatite C récente chez des hommes ayant des rapports sexuels avec des hommes |
-| [32925725](https://pubmed.ncbi.nlm.nih.gov/32925725/) | 2020 | Étude de cohorte | Medicine | Incidence et facteurs prédictifs d'élévation des ALAT sous antiviraux directs |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Revue | Clin Pharmacokinet | Considérations pharmacocinétiques et pharmacodynamiques des traitements de l'hépatite C (mise à jour 2019) |
-| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Revue | Acta Pharm Sin B | Antiviraux directs anti-VHC ; rappelle que, contrairement au VHB et au VIH, le VHC est curable |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Revue | Ann Hepatol | Comparaison mondiale des prix des traitements des hépatites B et C |
+| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Revue | Acta Pharm Sin B | Revue des antiviraux à action directe anti-VHC. Le VHB n'est cité que par comparaison. |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Revue | Clin Pharmacokinet | Considérations pharmacocinétiques et pharmacodynamiques des traitements de l'hépatite C. |
+| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Revue | Liver Int | Éradication du VHC et guérison du VHB. Aucun résumé disponible. |
+| [34902265](https://pubmed.ncbi.nlm.nih.gov/34902265/) | 2022 | Cohorte | Antimicrob Agents Chemother | Grazoprévir/elbasvir chez des transplantés hépatiques ou rénaux avec VHC de génotype 1b. |
+| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | Étude en vie réelle | J Viral Hepat | Expérience taïwanaise de grazoprévir/elbasvir, centrée sur les effets indésirables hépatiques et rénaux. |
+| [30964552](https://pubmed.ncbi.nlm.nih.gov/30964552/) | 2019 | Préclinique/Virologie | Hepatology | Voies évolutives de la résistance du VHC aux inhibiteurs de protéase. |
 
 ---
 
@@ -107,15 +94,24 @@ Aucune publication ne démontre une activité d'elbasvir contre le VHB.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Texte d'indication non renseigné dans les données reçues |
+| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+
+---
+
+## Cytotoxicité
+
+Elbasvir est un antiviral et non un médicament antinéoplasique. Cette section est donc omise.
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+**Interactions Médicamenteuses** : 15 interactions ont été identifiées. Une est de niveau **majeur** et 14 sont de niveau modéré.
 
-Aucune mise en garde, contre-indication ni interaction médicamenteuse n'a pu être extraite du pack. La notice de l'ANSM n'y figure pas et la recherche d'interactions n'a rien retourné. Il faut donc obtenir la notice avant toute évaluation de sécurité.
+- **Majeure** : ozanimod
+- **Modérées** : warfarine, dicoumarol, bétrixaban, lusutrombopag, metréleptine, griséofulvine, élagolix, somatrem, somatropine, alpélisib, aminoglutéthimide, binimétinib, ivosidénib, talazoparib
+
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations de sécurité.
 
 ---
 
@@ -124,16 +120,13 @@ Aucune mise en garde, contre-indication ni interaction médicamenteuse n'a pu ê
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,71 %), mais aucun élément clinique ou mécanistique ne soutient une activité contre le VHB, car le VHB n'a pas de cible NS5A. Les preuves rattachées concernent uniquement le VHC.
-- Les autres indications prédites (hépatites E et A, fièvres hémorragiques virales, VIH, maladies animales, trouble neurodéveloppemental rare) sont aussi en Hold, sans preuve directe. Les essais chez des patients co-infectés VIH/VHC renseignent seulement sur la sécurité et les interactions, pas sur une efficacité anti-VIH.
+- La prédiction pour l'hépatite B repose uniquement sur le modèle : les essais et publications concernent l'hépatite C, et aucun lien mécanistique crédible n'existe (pas d'homologue de NS5A chez le VHB). De plus, l'AMM française est annulée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, interactions) ; ce point bloque la suite, y compris le criblage de sécurité.
-- Compléter les données sur le mécanisme d'action depuis DrugBank.
-- Obtenir des données précliniques *in vitro* de l'activité d'elbasvir sur la réplication du VHB, sans quoi le passage à l'étape suivante est injustifié.
-- Examiner séparément la sécurité en cas de co-infection VHB/VHC (risque de réactivation du VHB sous antiviraux directs contre le VHC), qui est le seul lien clinique réel avec le VHB.
-
-*Ce rapport est fourni à titre de recherche uniquement et ne constitue pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant toute utilisation.*
+- Les données de sécurité de la notice (mises en garde et contre-indications), qui bloquent l'étape de criblage de sécurité
+- Les données détaillées sur le mécanisme d'action
+- Des études précliniques in vitro du VHB pour tester l'activité d'elbasvir
+- Une réplication indépendante de la piste hépatite E, puis une confirmation in vivo, si l'on souhaite explorer une indication alternative mieux étayée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

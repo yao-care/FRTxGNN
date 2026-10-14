@@ -2,7 +2,7 @@
 layout: default
 title: Emtricitabine
 parent: Preuves modérées (L3-L4)
-nav_order: 117
+nav_order: 281
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,100 +29,82 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Emtricitabine : De l'infection par le VIH au syndrome d'immunodéficience acquise féline
+# Emtricitabine : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Féline
 
 ## Résumé en Une Phrase
 
-L'emtricitabine est un inhibiteur nucléosidique de la transcriptase inverse, commercialisé en France seul (Emtriva) ou en association (Descovy, génériques emtricitabine/ténofovir). Il sert à traiter l'infection par le VIH chez l'humain, mais le texte d'indication des AMM n'est pas renseigné dans les données reçues.
-Le modèle TxGNN prédit qu'il pourrait être efficace contre le **syndrome d'immunodéficience acquise féline** (infection par le FIV chez le chat), avec **4 essais cliniques** (tous chez l'humain, sans lien direct) et **1 publication** (étude préclinique chez le chat).
-Cette prédiction relève de la médecine vétérinaire, et aucun essai clinique félin n'existe à ce jour.
-
----
+L'emtricitabine est un inhibiteur nucléosidique de la transcriptase inverse, initialement utilisé dans le traitement de l'infection par le VIH et du SIDA.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immunodéficience acquise féline** (indication vétérinaire), avec **aucun essai clinique** et **1 publication** (étude préclinique/vétérinaire sur une association d'antirétroviraux) soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH (déduite de la classe pharmacologique et des produits commercialisés ; texte d'AMM non renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
 | Score de Prédiction TxGNN | 99,92 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 20 |
+| Statut de Marché en France | ✗ Retiré du marché (AMM annulées uniquement) |
+| Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées de DrugBank sur le mécanisme d'action ne sont pas disponibles. Selon les connaissances pharmacologiques établies, l'emtricitabine est un inhibiteur nucléosidique de la transcriptase inverse (INTI). Après phosphorylation intracellulaire, il interrompt la synthèse de l'ADN viral.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'emtricitabine appartient à la classe des inhibiteurs nucléosidiques de la transcriptase inverse (INTI) : elle interrompt l'élongation de l'ADN viral. Son efficacité dans l'infection par le VIH est établie.
 
-Le FIV est un lentivirus dont la transcriptase inverse est homologue à celle du VIH. Une activité des INTI contre ce virus est donc biologiquement plausible. Le FIV provoque chez le chat un dysfonctionnement immunitaire progressif comparable à celui du sida humain.
+Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la transcriptase inverse est apparentée à celle du VIH-1. Un mécanisme commun est donc biologiquement plausible. Le score très élevé du modèle reflète probablement la proximité avec l'indication VIH/SIDA déjà connue.
 
-Il faut toutefois rester prudent. Le score TxGNN très élevé reflète probablement le lien entre les maladies VIH et FIV dans l'ontologie, plutôt qu'une preuve indépendante chez le chat. L'usage humain approuvé contre le VIH ne constitue pas une donnée d'efficacité chez le chat.
+Cette prédiction relève toutefois d'un usage vétérinaire, sans pertinence clinique directe pour l'humain. Le lien repose sur la classe pharmacologique, non sur des données mécanistiques détaillées.
 
----
+Deux autres prédictions figurent dans les données compilées :
+- **Infection par le virus de l'immunodéficience simienne (SIV)** : même score (99,92 %), preuves précliniques abondantes chez le macaque (prophylaxie pré-exposition avec emtricitabine associée au ténofovir), niveau L4. Il s'agit surtout d'un modèle translationnel de l'indication VIH déjà approuvée, non d'une véritable cible de repositionnement.
+- **Trouble neurodéveloppemental rare avec ataxie, absence de parole et diminution de la substance blanche corticale** : score de 99,92 %, mais aucun lien mécanistique évident, aucune donnée clinique ni littérature. Il s'agit très probablement d'un artefact du graphe de connaissances (niveau L5).
 
 ## Preuves d'Essais Cliniques
 
-Les 4 essais enregistrés portent tous sur des patients humains infectés par le VIH-1. L'emtricitabine n'y figure que dans le bras comparateur ou dans le traitement de fond, jamais comme variable étudiée. Tous sont classés « faible pertinence » (grade C).
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Terminé | 844 | Dolutégravir + abacavir/lamivudine vs Atripla (éfavirenz/emtricitabine/ténofovir) sur 96 semaines chez des adultes VIH-1 naïfs de traitement. Emtricitabine uniquement dans le bras comparateur. |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Terminé | 828 | Dolutégravir vs raltégravir, associés à une bithérapie d'INTI (abacavir/lamivudine ou ténofovir/emtricitabine) au choix de l'investigateur. |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Terminé | 208 | Choix d'une dose quotidienne de dolutégravir associé à abacavir/lamivudine ou ténofovir/emtricitabine. |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Terminé | 145 | Darunavir boosté + lamivudine vs darunavir boosté + ténofovir/emtricitabine ou ténofovir/lamivudine chez des patients VIH-1 naïfs. |
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Étude préclinique chez l'animal (FIV) | Viruses | Évaluation de la pharmacocinétique et de l'évolution clinique d'une association antirétrovirale (dolutégravir 2,5 mg/kg, ténofovir 20 mg/kg, emtricitabine 40 mg/kg) chez des chats infectés par le FIV. |
-
-L'emtricitabine n'est ici qu'un composant d'une trithérapie. L'effet propre de la molécule ne peut pas être isolé.
-
----
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Étude préclinique/vétérinaire | Viruses | Évaluation de la pharmacocinétique et des résultats cliniques d'une association antirétrovirale (dolutégravir, ténofovir, emtricitabine) chez des chats infectés par le FIV. La contribution propre de l'emtricitabine n'est pas confirmée. |
 
 ## Informations de Marché en France
 
-Cinq AMM principales sur 20 sont listées ci-dessous. Le texte des indications approuvées n'est pas renseigné dans les données reçues.
+Toutes les AMM sont annulées ; le texte d'indication approuvée n'est pas renseigné. Aperçu des 5 principales :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 61294762 | EMTRIVA 200 mg, gélule | Gélule |
-| 66717579 | EMTRIVA 10 mg/ml, solution buvable | Solution buvable |
-| 62778588 | EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA D.D. 200 mg/245 mg | Comprimé pelliculé |
-| 66325208 | DESCOVY 200 mg/25 mg | Comprimé pelliculé |
-| 68486060 | EMTRICITABINE/TENOFOVIR DISOPROXIL SANDOZ 200 mg/245 mg | Comprimé pelliculé |
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 61294762 | EMTRIVA 200 mg, gélule | Gélule | Non renseignée (AMM annulée) |
+| 66717579 | EMTRIVA 10 mg/ml, solution buvable | Solution buvable | Non renseignée (AMM annulée) |
+| 66325208 | DESCOVY 200 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 69481664 | TRUVADA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 64689693 | ODEFSEY 200 mg/25 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+**Interactions médicamenteuses** (20 interactions recensées ; principales) :
+- **Majeures** : léflunomide, tériflunomide
+- **Modérées** : orlistat, naltrexone, cobicistat, méthotrexate, cladribine, clofarabine, épirubicine, idélalisib, tioguanine, tra­bectédine, brentuximab védotine, cabozantinib, asparaginase, pegaspargase, interférons bêta-1a, bêta-1b et pégylé
+- **Mineure** : éribuline
 
----
+**Maladies associées à une contre-indication dans le graphe de connaissances** (à titre indicatif, ne provenant pas de la notice) : syndrome du QT long, torsades de pointes, insuffisance et maladies hépatiques, stéatose hépatique et stéatohépatite non alcoolique, maladie rénale, syndrome de Fanconi, acidose lactique, hépatites virales B et C chroniques, hypophosphatémie, ostéomalacie, rachitisme, hypertriglycéridémie, obésité, épilepsie, troubles anxieux et psychotiques, maladie de la vésicule biliaire.
+
+Les mises en garde et contre-indications issues de la notice n'ont pas pu être recueillies. Veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un lien d'ontologie VIH/FIV et sur une seule étude préclinique chez le chat, portant sur une trithérapie. Aucun essai clinique félin n'existe, et les essais humains cités ne concernent pas cette indication.
-- Le niveau de preuve est L4, avec un score TxGNN élevé mais non corroboré par des données cliniques félines.
+- La seule preuve disponible est une étude vétérinaire unique portant sur une association d'antirétroviraux, sans essai clinique. La prédiction concerne une maladie animale sans pertinence pour un repositionnement humain, et toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Consulter la notice de l'ANSM (avertissements et contre-indications), lacune bloquante pour tout criblage de sécurité.
-- Obtenir les données DrugBank sur le mécanisme d'action.
-- Disposer de données de pharmacocinétique, de tolérance et d'efficacité de l'emtricitabine chez le chat, idéalement issues d'essais contrôlés.
-- Clarifier le cadre réglementaire d'un usage vétérinaire d'un médicament humain.
-
-À titre d'orientation, la prédiction voisine « infection par le virus de l'immunodéficience simienne » repose sur de nombreuses études sur macaques (prophylaxie emtricitabine/ténofovir). Son intérêt clinique reste toutefois indirect, car elle sert de modèle animal du VIH humain.
-
-*Ces résultats sont fournis à titre de recherche uniquement et ne constituent pas un avis médical. Toute piste de repositionnement doit être validée cliniquement avant application.*
+- Recueillir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le filtrage de sécurité)
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Examiner le résumé complet de l'étude 37112803 pour isoler la contribution de l'emtricitabine
+- Confirmer si une indication vétérinaire constitue un objectif pertinent ; sinon, réorienter l'évaluation vers des indications humaines
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

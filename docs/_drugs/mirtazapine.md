@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Prédiction du modèle uniquement (L5)
-nav_order: 198
+nav_order: 504
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,75 +29,87 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Mirtazapine : De l'antidépresseur au Syndrome d'Ohdo et variantes
+# Mirtazapine : De la dépression unipolaire au syndrome d'Ohdo et variantes
 
 ## Résumé en Une Phrase
 
-La mirtazapine est un antidépresseur noradrénergique et sérotoninergique. L'indication originale n'est pas renseignée dans les données ANSM fournies.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **Syndrome d'Ohdo et variantes**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
+La mirtazapine est un antidépresseur initialement utilisé pour traiter la dépression unipolaire, la dépression endogène, le trouble dépressif majeur et le trouble anxieux.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'Ohdo et ses variantes**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction : il s'agit d'un signal purement computationnel.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données ANSM (médicament de la classe des antidépresseurs) |
+| Indication Originale | Dépression unipolaire, dépression endogène, trouble dépressif majeur, trouble anxieux (source : graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Syndrome d'Ohdo et variantes |
 | Score de Prédiction TxGNN | 99,42 % |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✓ Commercialisé |
-| Nombre d'AMM | 15 |
+| Statut de Marché en France | Toutes les AMM sont annulées |
+| Nombre d'AMM | 15 (0 valide, 15 annulées) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les informations pharmacologiques connues, la mirtazapine agit comme antagoniste alpha-2 adrénergique et antagoniste des récepteurs 5-HT2, 5-HT3 et H1. Son efficacité est établie dans la dépression, mais rien dans le dossier ne la relie à la nouvelle indication.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la mirtazapine est un antidépresseur dont l'efficacité dans la dépression a été établie. Toutefois, les données compilées pour ce rapport ne permettent de relier ce mécanisme à aucune voie biologique du syndrome d'Ohdo.
 
-Le syndrome d'Ohdo (forme liée à KAT6B) est une maladie rare du développement. Elle est causée par un dysfonctionnement d'un régulateur de la chromatine (histone acétyltransférase). Il s'agit d'un défaut épigénétique et développemental, peu susceptible de répondre à une modulation monoaminergique au niveau des récepteurs. **Aucun lien mécanistique étayé n'a donc pu être identifié.** Le score élevé de TxGNN (0,994) provient uniquement de la prédiction sur graphe de connaissances, sans confirmation par une étude réelle.
+Le syndrome d'Ohdo est une maladie génétique rare (liée à KAT6B), associant notamment un blépharophimosis et une déficience intellectuelle. Aucun lien pharmacologique connu ne le rattache à l'activité de la mirtazapine. La similarité avec l'indication d'origine (dépression, anxiété) n'a pas pu être évaluée.
 
-Deux autres prédictions figurent dans le dossier, avec la même absence de preuves :
-- **Blépharophimosis - déficience intellectuelle, type Ohdo** (score 99,11 %) : cette entité recoupe la première prédiction, les deux signaux ne sont donc probablement pas indépendants.
-- **Torticolis paroxystique bénin du nourrisson** (score 99,11 %) : seule une justification spéculative existe, car cette affection est apparentée aux équivalents migraineux ou aux canalopathies (certains cas liés à CACNA1A). Elle disparaît spontanément dans la petite enfance, et aucune donnée sur l'usage ou la sécurité de la mirtazapine chez le nourrisson n'est fournie.
+Le score élevé (0,994) doit donc être considéré uniquement comme un signal générateur d'hypothèses. Deux autres prédictions de même nature figurent dans les données : la forme « blépharophimosis - déficience intellectuelle, type Ohdo » (99,11 %), très probablement non indépendante de la première car issue du même voisinage dans le graphe, et le torticolis paroxystique bénin du nourrisson (99,11 %), affection pédiatrique spontanément résolutive pour laquelle le rapport bénéfice/risque d'un antidépresseur sédatif paraît faible.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
+---
+
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69084246 | MIRTAZAPINE ARROW GENERIQUES 15 mg | Comprimé pelliculé sécable | Non renseignée |
-| 68022786 | MIRTAZAPINE TEVA 15 mg | Comprimé pelliculé | Non renseignée |
-| 66402996 | MIRTAZAPINE BIOGARAN 15 mg | Comprimé orodispersible | Non renseignée |
-| 62485126 | MIRTAZAPINE ARROW 15 mg | Comprimé orodispersible | Non renseignée |
-| 62106380 | MIRTAZAPINE SANDOZ 15 mg | Comprimé pelliculé | Non renseignée |
+Les 15 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné. Cinq AMM sont présentées ci-dessous.
 
-Le dossier compte 15 AMM au total. Seules les 5 premières sont listées ici.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+|---------|------|------|-----------|
+| 69084246 | Mirtazapine Arrow Génériques 15 mg | Comprimé pelliculé sécable | Annulée |
+| 68022786 | Mirtazapine Teva 15 mg | Comprimé pelliculé | Annulée |
+| 66402996 | Mirtazapine Biogaran 15 mg | Comprimé orodispersible | Annulée |
+| 62485126 | Mirtazapine Arrow 15 mg | Comprimé orodispersible | Annulée |
+| 65124914 | Norset 15 mg (Organon France) | Comprimé pelliculé | Annulée |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : atrophie multisystématisée, syndrome de tachycardie orthostatique posturale, hypotension orthostatique, épilepsie, trouble bipolaire de type maniaque, maladie hépatique, maladie de la vésicule biliaire, neutropénie, agranulocytose, hypotension, hypertriglycéridémie, obésité (y compris monogénique), accident vasculaire cérébral et troubles cérébrovasculaires, infarctus cérébral, infarctus du myocarde, thrombose coronarienne, hémoglobinopathie, insuffisance rénale, syndrome sérotoninergique, akathisie d'origine médicamenteuse.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi celles listées, les interactions de niveau **majeur** concernent le bupropion, la lorcasérine, le dolasétron et le palonosétron. Des interactions de niveau modéré sont notées, entre autres, avec la famotidine, le lopéramide, l'aprépitant, la morphine, la dexaméthasone, la cimétidine, la clarithromycine et la lévofloxacine.
+
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L5 : la prédiction repose uniquement sur le modèle, sans essai clinique ni publication.
-- Aucun lien mécanistique n'est étayé entre la pharmacologie de la mirtazapine et l'origine épigénétique du syndrome d'Ohdo.
-- Les données de sécurité (mises en garde, contre-indications) manquent, ce qui bloque un premier examen de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique démontré. De plus, les 15 AMM françaises sont annulées, et les données de sécurité officielles sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice ANSM (mises en garde et contre-indications, données de sécurité bloquantes).
-- Obtenir le mécanisme d'action détaillé depuis DrugBank.
-- Renseigner l'indication originale approuvée dans les AMM.
-- Rechercher des données précliniques ou de la littérature qui relieraient la mirtazapine aux voies de KAT6B ou aux phénotypes concernés.
-- Évaluer la sécurité en population pédiatrique, en particulier chez le nourrisson pour le torticolis paroxystique bénin.
+- Récupérer le texte de la notice (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité
+- Obtenir les données sur le mécanisme d'action pour évaluer un éventuel lien avec le syndrome d'Ohdo
+- Réaliser une revue de la littérature et des registres d'essais afin de vérifier l'existence de toute preuve préclinique ou clinique
+- Clarifier le statut réglementaire en France (AMM annulées) et la compatibilité des voies d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

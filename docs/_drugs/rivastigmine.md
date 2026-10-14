@@ -2,7 +2,7 @@
 layout: default
 title: Rivastigmine
 parent: Preuves modérées (L3-L4)
-nav_order: 269
+nav_order: 676
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,76 +29,95 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Rivastigmine : De la Maladie d'Alzheimer au Glaucome
+# Rivastigmine : De la maladie d'Alzheimer au glaucome
 
 ## Résumé en Une Phrase
 
-La rivastigmine est un inhibiteur de la cholinestérase commercialisé en France sous forme de dispositifs transdermiques. Le texte d'indication n'est pas renseigné dans les AMM du dossier. Son usage connu dans la démence d'Alzheimer provient de la pharmacologie générale, pas des données fournies.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome**. Cette direction n'est soutenue que par **0 essai clinique** et **3 publications**, dont une seule étude préclinique chez le lapin.
+La rivastigmine est un inhibiteur des cholinestérases, initialement utilisé pour le traitement de la maladie d'Alzheimer.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome**, mais il n'existe actuellement **aucun essai clinique** et seulement **3 publications** (dont une étude préclinique chez le lapin), ce qui place cette piste à un stade très précoce.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM (usage connu : démence d'Alzheimer, hors données du dossier) |
+| Indication Originale | Maladie d'Alzheimer (d'après les indications du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Glaucome |
 | Score de Prédiction TxGNN | 99,27 % |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✓ Commercialisé |
+| Statut de Marché en France | Toutes les AMM sont annulées |
 | Nombre d'AMM | 11 |
 | Décision Recommandée | Hold |
 
+---
+
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. Sur la base des informations connues, la rivastigmine fait partie des inhibiteurs de la cholinestérase (acétylcholinestérase et butyrylcholinestérase). Son efficacité dans son indication d'origine est établie par ailleurs, et mécanistiquement elle pourrait être applicable au glaucome.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, la rivastigmine est un inhibiteur de l'acétylcholinestérase et de la butyrylcholinestérase. Son efficacité dans la maladie d'Alzheimer repose sur l'augmentation de la transmission cholinergique.
 
-En inhibant la dégradation de l'acétylcholine, la rivastigmine augmente le tonus cholinergique. Dans l'œil, cela favorise plausiblement la contraction du muscle ciliaire et l'écoulement de l'humeur aqueuse par le trabéculum. La pression intraoculaire (PIO) baisserait alors par la même voie générale que des parasympathomimétiques comme la pilocarpine et la physostigmine. Une étude chez le lapin a rapporté une baisse de la PIO avec la rivastigmine appliquée en topique.
+Dans l'œil, une activité cholinergique accrue pourrait contribuer à abaisser la pression intraoculaire (PIO), en favorisant la contraction du muscle ciliaire et l'écoulement par le trabéculum. Ce mécanisme est comparable à celui des agents miotiques comme la pilocarpine et la physostigmine. Une étude chez le lapin normotendu a montré que la rivastigmine appliquée par voie topique réduisait la PIO, et une revue récente sur les agents cholinergiques et la PIO apporte un contexte mécanistique favorable.
 
-Un rôle neuroprotecteur de la signalisation cholinergique sur les cellules ganglionnaires rétiniennes est évoqué, mais il reste spéculatif. Le score TxGNN élevé (0,993) est une prédiction informatique, pas une preuve clinique.
+Le score TxGNN très élevé (0,993) reste une prédiction informatique et ne constitue pas une preuve clinique. Aucune donnée humaine dans le glaucome n'a été identifiée.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Revue / étude computationnelle (type déduit, titre tronqué) | Front Mol Biosci | Analyse de génétique des systèmes et de modélisation moléculaire des agents cholinergiques pour réduire la PIO. Les agonistes M3 approuvés sont limités par leurs effets indésirables cholinergiques systémiques. |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Revue (brevets ; non spécifique au glaucome) | Expert Opin Ther Pat | Une inhibition modérée de l'AChE a un intérêt thérapeutique dans la maladie d'Alzheimer, la myasthénie et le glaucome, entre autres. |
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Étude préclinique animale (lapin) | J Ocul Pharmacol Ther | La rivastigmine topique, un inhibiteur sélectif de l'AChE, abaisse la PIO chez des lapins normotendus. |
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Préclinique (lapin) | J Ocul Pharmacol Ther | La rivastigmine topique, inhibiteur sélectif de l'acétylcholinestérase, abaisse la pression intraoculaire chez le lapin normotendu |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Revue / analyse de génétique des systèmes | Front Mol Biosci | Analyse du rôle du système cholinergique et des agents cholinergiques dans la réduction de la PIO ; les agonistes M3 existants sont limités par leurs effets cholinergiques systémiques |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Revue | Expert Opin Ther Pat | Revue des brevets sur les inhibiteurs et réactivateurs de l'acétylcholinestérase ; une inhibition modérée a un intérêt thérapeutique dans la maladie d'Alzheimer, la myasthénie et le glaucome |
+
+---
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 61430397 | Rivastigmine EG Labo 9,5 mg/24 h, patch transdermique | Patch |
-| 66197477 | Rivastigmine Biogaran 9,5 mg/24 h, dispositif transdermique | Dispositif |
-| 64979294 | Rivastigmine Arrow 4,6 mg/24 heures, dispositif transdermique | Dispositif |
-| 61148412 | Rivastigmine Viatris 4,6 mg/24 heures, dispositif transdermique | Dispositif |
-| 61322336 | Rivastigmine Biogaran 4,6 mg/24 h, dispositif transdermique | Dispositif |
+Toutes les AMM listées sont annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
-Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Le dossier liste 5 des 11 AMM.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
+|---------|------|------|-----------|
+| 61430397 | Rivastigmine EG Labo 9,5 mg/24 h | Patch transdermique | EG Labo |
+| 66197477 | Rivastigmine Biogaran 9,5 mg/24 h | Dispositif transdermique | Biogaran |
+| 64979294 | Rivastigmine Arrow 4,6 mg/24 h | Dispositif transdermique | Arrow Génériques |
+| 61148412 | Rivastigmine Viatris 4,6 mg/24 h | Dispositif transdermique | Viatris Santé |
+| 61322336 | Rivastigmine Biogaran 4,6 mg/24 h | Dispositif transdermique | Biogaran |
+
+(5 AMM présentées sur 11, toutes annulées.)
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été trouvée dans les données disponibles.
+- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : épilepsie, maladies des ganglions de la base, dystonie focale de la main, blépharospasme, bronchopneumopathie chronique obstructive (dont forme sévère à début précoce), asthme (dont formes intrinsèque et allergique), maladies diarrhéiques, arrêt cardiaque soudain, maladies de la conduction cardiaque, anorexie mentale, ulcère peptique actif, obstruction des voies urinaires, maladie du sinus (dont forme familiale), syndromes parkinsoniens et maladie de Parkinson, bloc auriculo-ventriculaire.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales :
+  - **Majeure** : bupropion.
+  - **Modérées** : famotidine, ranitidine, cimétidine, hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mépenzolate (anticholinergiques, avec risque d'antagonisme pharmacologique), lopéramide, métronidazole, clarithromycine, lévofloxacine, dolasétron, palonosétron, acide picosulfurique, polyéthylène glycol avec électrolytes, sulfate de sodium.
+
+Les mises en garde et contre-indications issues de la notice française n'ont pas pu être consultées. Veuillez consulter la notice pour ces informations. Les effets systémiques cholinergiques (cardiaques, respiratoires, digestifs) sont particulièrement à considérer si une voie topique oculaire devait être explorée.
+
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose sur un score de modèle et sur une seule étude préclinique chez le lapin, sans aucun essai clinique (niveau L4). Les mises en garde et contre-indications de l'ANSM manquent et bloquent le passage au criblage de sécurité.
+- La prédiction repose sur un score de modèle élevé et une seule étude animale (lapin), sans aucune donnée humaine dans le glaucome (niveau L4). De plus, le dépôt de sécurité issu de la notice est manquant, et toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice ANSM (téléchargement et analyse du PDF).
-- Obtenir les données de mécanisme d'action détaillées (DrugBank).
-- Confirmer l'indication d'origine à partir des textes d'AMM.
-- Évaluer la compatibilité de voie d'administration. Les formes commercialisées sont transdermiques, alors que l'étude sur la PIO utilisait une application oculaire topique.
-- Rechercher des études sur la PIO chez l'humain ou des essais cliniques dans le glaucome.
-
-*Ces résultats sont fournis à titre de référence pour la recherche et ne constituent pas un avis médical. Tout candidat au repositionnement doit être validé cliniquement avant application.*
+- Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, étape bloquante pour le criblage de sécurité
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Confirmer l'effet sur la PIO dans des modèles animaux supplémentaires (notamment glaucome hypertensif) et évaluer la tolérance oculaire
+- Évaluer la faisabilité d'une formulation oculaire topique, la formulation actuelle étant transdermique
+- Comparer l'intérêt de la rivastigmine aux traitements du glaucome existants avant toute étude clinique de phase précoce
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
