@@ -1,6 +1,6 @@
 {
-  "total": 646,
-  "generated_at": "2026-10-14T04:38:46.789976",
+  "total": 1137,
+  "generated_at": "2026-10-14T17:02:52.341995",
   "drugs": [
     {
       "name": "Abacavir",
@@ -31,6 +31,55 @@
       "predicted_indication": ""
     },
     {
+      "name": "Acebutolol",
+      "file": "acebutolol.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Aceclofenac",
+      "file": "aceclofenac.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Acenocoumarol",
+      "file": "acenocoumarol.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Acetaminophen",
+      "file": "acetaminophen.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Acetazolamide",
+      "file": "acetazolamide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Acetic Acid",
+      "file": "acetic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Acetylcysteine",
+      "file": "acetylcysteine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Aciclovir",
       "file": "aciclovir.md",
       "evidence_level": "L5",
@@ -38,17 +87,45 @@
       "predicted_indication": ""
     },
     {
+      "name": "Acitretin",
+      "file": "acitretin.md",
+      "evidence_level": "L3",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
       "name": "Acyclovir",
       "file": "acyclovir.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Adalimumab",
       "file": "adalimumab.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Adapalene",
+      "file": "adapalene.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Adefovir Dipivoxil",
+      "file": "adefovir_dipivoxil.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Adenosine",
+      "file": "adenosine.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -56,6 +133,13 @@
       "file": "aflibercept.md",
       "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Agomelatine",
+      "file": "agomelatine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -73,6 +157,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Albutrepenonacog Alfa",
+      "file": "albutrepenonacog_alfa.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Alfacalcidol",
       "file": "alfacalcidol.md",
       "evidence_level": "L5",
@@ -87,6 +178,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Alfuzosin",
+      "file": "alfuzosin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Alglucosidase Alfa",
       "file": "alglucosidase_alfa.md",
       "evidence_level": "L5",
@@ -94,8 +192,22 @@
       "predicted_indication": ""
     },
     {
+      "name": "Alimemazine",
+      "file": "alimemazine.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Alirocumab",
       "file": "alirocumab.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Alitretinoin",
+      "file": "alitretinoin.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -122,16 +234,44 @@
       "predicted_indication": ""
     },
     {
+      "name": "Almotriptan",
+      "file": "almotriptan.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Alpelisib",
+      "file": "alpelisib.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Alprazolam",
       "file": "alprazolam.md",
-      "evidence_level": "L3",
+      "evidence_level": "L4",
       "indication_count": 3,
       "predicted_indication": ""
     },
     {
       "name": "Alprostadil",
       "file": "alprostadil.md",
-      "evidence_level": "L3",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Alteplase",
+      "file": "alteplase.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Altretamine",
+      "file": "altretamine.md",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -143,9 +283,16 @@
       "predicted_indication": ""
     },
     {
+      "name": "Alverine",
+      "file": "alverine.md",
+      "evidence_level": "L4",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
       "name": "Ambrisentan",
       "file": "ambrisentan.md",
-      "evidence_level": "L4",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -154,6 +301,20 @@
       "file": "ambroxol.md",
       "evidence_level": "L5",
       "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Amifampridine",
+      "file": "amifampridine.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Amikacin",
+      "file": "amikacin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -192,16 +353,44 @@
       "predicted_indication": ""
     },
     {
+      "name": "Amoxicillin",
+      "file": "amoxicillin.md",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ampicillin",
+      "file": "ampicillin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Amsacrine",
       "file": "amsacrine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Amylmetacresol",
+      "file": "amylmetacresol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Anagrelide",
+      "file": "anagrelide.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
       "name": "Anakinra",
       "file": "anakinra.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -220,6 +409,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Aprepitant",
+      "file": "aprepitant.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Arginine",
       "file": "arginine.md",
       "evidence_level": "L4",
@@ -231,6 +427,20 @@
       "file": "aripiprazole.md",
       "evidence_level": "L1",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Artemether",
+      "file": "artemether.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Articaine",
+      "file": "articaine.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": ""
     },
     {
@@ -251,6 +461,27 @@
       "name": "Atazanavir",
       "file": "atazanavir.md",
       "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Atenolol",
+      "file": "atenolol.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Atezolizumab",
+      "file": "atezolizumab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Atorvastatin",
+      "file": "atorvastatin.md",
+      "evidence_level": "L1",
       "indication_count": 6,
       "predicted_indication": ""
     },
@@ -276,6 +507,20 @@
       "predicted_indication": ""
     },
     {
+      "name": "Avelumab",
+      "file": "avelumab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Avibactam",
+      "file": "avibactam.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Axitinib",
       "file": "axitinib.md",
       "evidence_level": "L5",
@@ -285,8 +530,29 @@
     {
       "name": "Azathioprine",
       "file": "azathioprine.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Aztreonam",
+      "file": "aztreonam.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bacitracin",
+      "file": "bacitracin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Baclofen",
+      "file": "baclofen.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -297,10 +563,38 @@
       "predicted_indication": ""
     },
     {
+      "name": "Bedaquiline",
+      "file": "bedaquiline.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Belimumab",
+      "file": "belimumab.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Benazepril",
+      "file": "benazepril.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
       "name": "Bendamustine",
       "file": "bendamustine.md",
       "evidence_level": "L1",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bendroflumethiazide",
+      "file": "bendroflumethiazide.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
@@ -311,10 +605,59 @@
       "predicted_indication": ""
     },
     {
+      "name": "Benzocaine",
+      "file": "benzocaine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Benzoic Acid",
+      "file": "benzoic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Benzydamine",
       "file": "benzydamine.md",
       "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Benzylpenicillin",
+      "file": "benzylpenicillin.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Betamethasone",
+      "file": "betamethasone.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Betaxolol",
+      "file": "betaxolol.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bevacizumab",
+      "file": "bevacizumab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bexarotene",
+      "file": "bexarotene.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
@@ -332,10 +675,24 @@
       "predicted_indication": ""
     },
     {
+      "name": "Bictegravir",
+      "file": "bictegravir.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Bimatoprost",
       "file": "bimatoprost.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Biotin",
+      "file": "biotin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -343,6 +700,27 @@
       "file": "bisoprolol.md",
       "evidence_level": "L5",
       "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bleomycin",
+      "file": "bleomycin.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bosentan",
+      "file": "bosentan.md",
+      "evidence_level": "L4",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Brentuximab Vedotin",
+      "file": "brentuximab_vedotin.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -360,6 +738,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Brivaracetam",
+      "file": "brivaracetam.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Brodalumab",
       "file": "brodalumab.md",
       "evidence_level": "L5",
@@ -374,6 +759,48 @@
       "predicted_indication": ""
     },
     {
+      "name": "Bromazepam",
+      "file": "bromazepam.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bromocriptine",
+      "file": "bromocriptine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Budesonide",
+      "file": "budesonide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bumetanide",
+      "file": "bumetanide.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Bupivacaine",
+      "file": "bupivacaine.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Buprenorphine",
+      "file": "buprenorphine.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Busulfan",
       "file": "busulfan.md",
       "evidence_level": "L1",
@@ -383,15 +810,36 @@
     {
       "name": "Cabazitaxel",
       "file": "cabazitaxel.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Cabergoline",
       "file": "cabergoline.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cabotegravir",
+      "file": "cabotegravir.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Calcifediol",
+      "file": "calcifediol.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Calcipotriol",
+      "file": "calcipotriol.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -402,9 +850,30 @@
       "predicted_indication": ""
     },
     {
+      "name": "Camphor",
+      "file": "camphor.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Canakinumab",
       "file": "canakinumab.md",
       "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Candesartan Cilexetil",
+      "file": "candesartan_cilexetil.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Capecitabine",
+      "file": "capecitabine.md",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -423,10 +892,38 @@
       "predicted_indication": ""
     },
     {
+      "name": "Carbamazepine",
+      "file": "carbamazepine.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Carbetocin",
+      "file": "carbetocin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Carbimazole",
       "file": "carbimazole.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Carbocisteine",
+      "file": "carbocisteine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Carboplatin",
+      "file": "carboplatin.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -437,6 +934,83 @@
       "predicted_indication": ""
     },
     {
+      "name": "Carvedilol",
+      "file": "carvedilol.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Caspofungin",
+      "file": "caspofungin.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cefazolin",
+      "file": "cefazolin.md",
+      "evidence_level": "L4",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cefoxitin",
+      "file": "cefoxitin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cefpodoxime",
+      "file": "cefpodoxime.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ceftolozane",
+      "file": "ceftolozane.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ceftriaxone",
+      "file": "ceftriaxone.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cefuroxime",
+      "file": "cefuroxime.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Celecoxib",
+      "file": "celecoxib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cemiplimab",
+      "file": "cemiplimab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ceritinib",
+      "file": "ceritinib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Cerliponase Alfa",
       "file": "cerliponase_alfa.md",
       "evidence_level": "L5",
@@ -444,22 +1018,134 @@
       "predicted_indication": ""
     },
     {
-      "name": "Chlorambucil",
-      "file": "chlorambucil.md",
-      "evidence_level": "L5",
-      "indication_count": 8,
+      "name": "Certolizumab Pegol",
+      "file": "certolizumab_pegol.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
       "predicted_indication": ""
     },
     {
-      "name": "Chlorpromazine",
-      "file": "chlorpromazine.md",
+      "name": "Cetirizine",
+      "file": "cetirizine.md",
+      "evidence_level": "L2",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cetrorelix",
+      "file": "cetrorelix.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
+      "name": "Cetuximab",
+      "file": "cetuximab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Chlorambucil",
+      "file": "chlorambucil.md",
+      "evidence_level": "L3",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Chlordiazepoxide",
+      "file": "chlordiazepoxide.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Chlorobutanol",
+      "file": "chlorobutanol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Chloroquine",
+      "file": "chloroquine.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Chlorpromazine",
+      "file": "chlorpromazine.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Chlorthalidone",
+      "file": "chlorthalidone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cholecalciferol",
+      "file": "cholecalciferol.md",
+      "evidence_level": "L2",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ciclesonide",
+      "file": "ciclesonide.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cidofovir",
+      "file": "cidofovir.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cilastatin",
+      "file": "cilastatin.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cimetidine",
+      "file": "cimetidine.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cinchocaine",
+      "file": "cinchocaine.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
       "name": "Ciprofibrate",
       "file": "ciprofibrate.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ciprofloxacin",
+      "file": "ciprofloxacin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cisatracurium",
+      "file": "cisatracurium.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -479,10 +1165,24 @@
       "predicted_indication": ""
     },
     {
+      "name": "Clarithromycin",
+      "file": "clarithromycin.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
       "name": "Clidinium",
       "file": "clidinium.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Clindamycin",
+      "file": "clindamycin.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
       "predicted_indication": ""
     },
     {
@@ -500,9 +1200,16 @@
       "predicted_indication": ""
     },
     {
+      "name": "Clobetasol",
+      "file": "clobetasol.md",
+      "evidence_level": "L3",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Clofarabine",
       "file": "clofarabine.md",
-      "evidence_level": "L2",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -514,37 +1221,58 @@
       "predicted_indication": ""
     },
     {
+      "name": "Clomifene",
+      "file": "clomifene.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Clomipramine",
       "file": "clomipramine.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Clonazepam",
+      "file": "clonazepam.md",
+      "evidence_level": "L3",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
       "name": "Clonidine",
       "file": "clonidine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Clopidogrel",
       "file": "clopidogrel.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Clotiazepam",
+      "file": "clotiazepam.md",
+      "evidence_level": "L4",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
       "name": "Clotrimazole",
       "file": "clotrimazole.md",
-      "evidence_level": "L4",
+      "evidence_level": "L1",
       "indication_count": 3,
       "predicted_indication": ""
     },
     {
       "name": "Clozapine",
       "file": "clozapine.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -556,9 +1284,23 @@
       "predicted_indication": ""
     },
     {
+      "name": "Cobimetinib",
+      "file": "cobimetinib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Codeine",
+      "file": "codeine.md",
+      "evidence_level": "L4",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
       "name": "Colchicine",
       "file": "colchicine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": ""
     },
@@ -570,10 +1312,31 @@
       "predicted_indication": ""
     },
     {
+      "name": "Corifollitropin Alfa",
+      "file": "corifollitropin_alfa.md",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cortisone",
+      "file": "cortisone.md",
+      "evidence_level": "L4",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
       "name": "Crizotinib",
       "file": "crizotinib.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cyanocobalamin",
+      "file": "cyanocobalamin.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
@@ -586,15 +1349,36 @@
     {
       "name": "Cyclophosphamide",
       "file": "cyclophosphamide.md",
-      "evidence_level": "L2",
+      "evidence_level": "L1",
       "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cyclosporine",
+      "file": "cyclosporine.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cysteine",
+      "file": "cysteine.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
       "predicted_indication": ""
     },
     {
       "name": "Cytarabine",
       "file": "cytarabine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dabigatran Etexilate",
+      "file": "dabigatran_etexilate.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
@@ -605,6 +1389,27 @@
       "predicted_indication": ""
     },
     {
+      "name": "Dactinomycin",
+      "file": "dactinomycin.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dalteparin",
+      "file": "dalteparin.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Danaparoid",
+      "file": "danaparoid.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Danazol",
       "file": "danazol.md",
       "evidence_level": "L3",
@@ -612,10 +1417,24 @@
       "predicted_indication": ""
     },
     {
+      "name": "Dantrolene",
+      "file": "dantrolene.md",
+      "evidence_level": "L3",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
       "name": "Dapsone",
       "file": "dapsone.md",
       "evidence_level": "L1",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Daptomycin",
+      "file": "daptomycin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -2845,10 +3664,115 @@
       "predicted_indication": ""
     },
     {
+      "name": "Deferasirox",
+      "file": "deferasirox.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Deferiprone",
+      "file": "deferiprone.md",
+      "evidence_level": "L4",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Defibrotide",
+      "file": "defibrotide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Degarelix",
+      "file": "degarelix.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Delamanid",
+      "file": "delamanid.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Denosumab",
+      "file": "denosumab.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Desloratadine",
       "file": "desloratadine.md",
+      "evidence_level": "L1",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Desmopressin",
+      "file": "desmopressin.md",
+      "evidence_level": "L3",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Desogestrel",
+      "file": "desogestrel.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Desonide",
+      "file": "desonide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dexamethasone",
+      "file": "dexamethasone.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dexchlorpheniramine",
+      "file": "dexchlorpheniramine.md",
+      "evidence_level": "L4",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dexketoprofen",
+      "file": "dexketoprofen.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dexpanthenol",
+      "file": "dexpanthenol.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dextromethorphan",
+      "file": "dextromethorphan.md",
       "evidence_level": "L5",
       "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diazepam",
+      "file": "diazepam.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -2859,10 +3783,66 @@
       "predicted_indication": ""
     },
     {
+      "name": "Dibotermin Alfa",
+      "file": "dibotermin_alfa.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diclofenac",
+      "file": "diclofenac.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dienogest",
+      "file": "dienogest.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diethylcarbamazine",
+      "file": "diethylcarbamazine.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Difluprednate",
       "file": "difluprednate.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Digoxin",
+      "file": "digoxin.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dihydralazine",
+      "file": "dihydralazine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dihydrocodeine",
+      "file": "dihydrocodeine.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dihydroergotamine",
+      "file": "dihydroergotamine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
@@ -2875,21 +3855,28 @@
     {
       "name": "Dimenhydrinate",
       "file": "dimenhydrinate.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 2,
       "predicted_indication": ""
     },
     {
       "name": "Dimercaprol",
       "file": "dimercaprol.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diosmin",
+      "file": "diosmin.md",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Dipyridamole",
       "file": "dipyridamole.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -2901,10 +3888,38 @@
       "predicted_indication": ""
     },
     {
+      "name": "Docetaxel",
+      "file": "docetaxel.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Docusate",
       "file": "docusate.md",
       "evidence_level": "L5",
       "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dolutegravir",
+      "file": "dolutegravir.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Domperidone",
+      "file": "domperidone.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Donepezil",
+      "file": "donepezil.md",
+      "evidence_level": "L3",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
@@ -2915,16 +3930,58 @@
       "predicted_indication": ""
     },
     {
+      "name": "Doxazosin",
+      "file": "doxazosin.md",
+      "evidence_level": "L4",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Doxorubicin",
+      "file": "doxorubicin.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Doxycycline",
       "file": "doxycycline.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Doxylamine",
+      "file": "doxylamine.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dronedarone",
+      "file": "dronedarone.md",
       "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Droperidol",
+      "file": "droperidol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Duloxetine",
+      "file": "duloxetine.md",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Dupilumab",
       "file": "dupilumab.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -2936,6 +3993,41 @@
       "predicted_indication": ""
     },
     {
+      "name": "Dutasteride",
+      "file": "dutasteride.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ebastine",
+      "file": "ebastine.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Econazole",
+      "file": "econazole.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Eculizumab",
+      "file": "eculizumab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Efavirenz",
+      "file": "efavirenz.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Efmoroctocog Alfa",
       "file": "efmoroctocog_alfa.md",
       "evidence_level": "L5",
@@ -2943,10 +4035,66 @@
       "predicted_indication": ""
     },
     {
+      "name": "Eftrenonacog Alfa",
+      "file": "eftrenonacog_alfa.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Elafibranor",
+      "file": "elafibranor.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Elbasvir",
       "file": "elbasvir.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Eletriptan",
+      "file": "eletriptan.md",
+      "evidence_level": "L4",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Elosulfase Alfa",
+      "file": "elosulfase_alfa.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Eltrombopag",
+      "file": "eltrombopag.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Elvitegravir",
+      "file": "elvitegravir.md",
+      "evidence_level": "L3",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Emicizumab",
+      "file": "emicizumab.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Empagliflozin",
+      "file": "empagliflozin.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
@@ -2957,9 +4105,30 @@
       "predicted_indication": ""
     },
     {
+      "name": "Enfortumab Vedotin",
+      "file": "enfortumab_vedotin.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Enoxaparin",
+      "file": "enoxaparin.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Entacapone",
       "file": "entacapone.md",
       "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Entecavir",
+      "file": "entecavir.md",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -2968,6 +4137,27 @@
       "file": "enzalutamide.md",
       "evidence_level": "L5",
       "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Epinephrine",
+      "file": "epinephrine.md",
+      "evidence_level": "L1",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Epirubicin",
+      "file": "epirubicin.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Eplerenone",
+      "file": "eplerenone.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
@@ -2992,9 +4182,65 @@
       "predicted_indication": ""
     },
     {
+      "name": "Erenumab",
+      "file": "erenumab.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ergocalciferol",
+      "file": "ergocalciferol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Eribulin",
+      "file": "eribulin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ertapenem",
+      "file": "ertapenem.md",
+      "evidence_level": "L4",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Erythromycin",
+      "file": "erythromycin.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Eslicarbazepine",
+      "file": "eslicarbazepine.md",
+      "evidence_level": "L2",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Esomeprazole",
+      "file": "esomeprazole.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Estazolam",
       "file": "estazolam.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Estramustine",
+      "file": "estramustine.md",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3003,6 +4249,90 @@
       "file": "estriol.md",
       "evidence_level": "L3",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Etanercept",
+      "file": "etanercept.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ethinylestradiol",
+      "file": "ethinylestradiol.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ethosuximide",
+      "file": "ethosuximide.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Etodolac",
+      "file": "etodolac.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Etonogestrel",
+      "file": "etonogestrel.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Etoposide",
+      "file": "etoposide.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Etoricoxib",
+      "file": "etoricoxib.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Etravirine",
+      "file": "etravirine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Everolimus",
+      "file": "everolimus.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Evolocumab",
+      "file": "evolocumab.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Exemestane",
+      "file": "exemestane.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ezetimibe",
+      "file": "ezetimibe.md",
+      "evidence_level": "L1",
+      "indication_count": 4,
       "predicted_indication": ""
     },
     {
@@ -3015,15 +4345,50 @@
     {
       "name": "Famotidine",
       "file": "famotidine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L1",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Febuxostat",
+      "file": "febuxostat.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
       "name": "Felbamate",
       "file": "felbamate.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Felodipine",
+      "file": "felodipine.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fenofibrate",
+      "file": "fenofibrate.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fenoprofen",
+      "file": "fenoprofen.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fenoterol",
+      "file": "fenoterol.md",
+      "evidence_level": "L5",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
@@ -3034,6 +4399,20 @@
       "predicted_indication": ""
     },
     {
+      "name": "Fenticonazole",
+      "file": "fenticonazole.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fidaxomicin",
+      "file": "fidaxomicin.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
       "name": "Filgrastim",
       "file": "filgrastim.md",
       "evidence_level": "L5",
@@ -3041,10 +4420,24 @@
       "predicted_indication": ""
     },
     {
+      "name": "Finasteride",
+      "file": "finasteride.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Flavoxate",
       "file": "flavoxate.md",
       "evidence_level": "L5",
       "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Flecainide",
+      "file": "flecainide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -3069,6 +4462,20 @@
       "predicted_indication": ""
     },
     {
+      "name": "Fludarabine",
+      "file": "fludarabine.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fludrocortisone",
+      "file": "fludrocortisone.md",
+      "evidence_level": "L4",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
       "name": "Fluindione",
       "file": "fluindione.md",
       "evidence_level": "L5",
@@ -3083,10 +4490,115 @@
       "predicted_indication": ""
     },
     {
-      "name": "Fluvoxamine",
-      "file": "fluvoxamine.md",
+      "name": "Fluorescein",
+      "file": "fluorescein.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fluorometholone",
+      "file": "fluorometholone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fluorouracil",
+      "file": "fluorouracil.md",
       "evidence_level": "L4",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Flupentixol",
+      "file": "flupentixol.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Flurbiprofen",
+      "file": "flurbiprofen.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fluticasone",
+      "file": "fluticasone.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fluvastatin",
+      "file": "fluvastatin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fluvoxamine",
+      "file": "fluvoxamine.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fomepizole",
+      "file": "fomepizole.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Formoterol",
+      "file": "formoterol.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fosamprenavir",
+      "file": "fosamprenavir.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fosfomycin",
+      "file": "fosfomycin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fosinopril",
+      "file": "fosinopril.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Framycetin",
+      "file": "framycetin.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Fremanezumab",
+      "file": "fremanezumab.md",
+      "evidence_level": "L4",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Frovatriptan",
+      "file": "frovatriptan.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
@@ -3097,6 +4609,41 @@
       "predicted_indication": ""
     },
     {
+      "name": "Galantamine",
+      "file": "galantamine.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Galcanezumab",
+      "file": "galcanezumab.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ganirelix",
+      "file": "ganirelix.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Gefitinib",
+      "file": "gefitinib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Gemeprost",
+      "file": "gemeprost.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
       "name": "Gemfibrozil",
       "file": "gemfibrozil.md",
       "evidence_level": "L4",
@@ -3104,15 +4651,64 @@
       "predicted_indication": ""
     },
     {
+      "name": "Gilteritinib",
+      "file": "gilteritinib.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ginseng",
+      "file": "ginseng.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Givosiran",
+      "file": "givosiran.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Glatiramer",
+      "file": "glatiramer.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Glecaprevir",
+      "file": "glecaprevir.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Glimepiride",
+      "file": "glimepiride.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
       "name": "Glucagon",
       "file": "glucagon.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Glucarpidase",
       "file": "glucarpidase.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Glycerin",
+      "file": "glycerin.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -3132,8 +4728,64 @@
       "predicted_indication": ""
     },
     {
+      "name": "Goserelin",
+      "file": "goserelin.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Grazoprevir",
+      "file": "grazoprevir.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Guaifenesin",
+      "file": "guaifenesin.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
       "name": "Guselkumab",
       "file": "guselkumab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Haloperidol",
+      "file": "haloperidol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hemin",
+      "file": "hemin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Heparin",
+      "file": "heparin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hesperidin",
+      "file": "hesperidin.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hexetidine",
+      "file": "hexetidine.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -3148,8 +4800,15 @@
     {
       "name": "Hydrocortisone",
       "file": "hydrocortisone.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hydroxocobalamin",
+      "file": "hydroxocobalamin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -3160,9 +4819,44 @@
       "predicted_indication": ""
     },
     {
+      "name": "Hymecromone",
+      "file": "hymecromone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ibuprofen",
+      "file": "ibuprofen.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Icatibant",
+      "file": "icatibant.md",
+      "evidence_level": "L1",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Idebenone",
+      "file": "idebenone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Idelalisib",
+      "file": "idelalisib.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Ifosfamide",
       "file": "ifosfamide.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3181,23 +4875,100 @@
       "predicted_indication": ""
     },
     {
+      "name": "Imiglucerase",
+      "file": "imiglucerase.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Imipenem",
+      "file": "imipenem.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Imipramine",
       "file": "imipramine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 7,
       "predicted_indication": ""
     },
     {
       "name": "Imiquimod",
       "file": "imiquimod.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Indacaterol",
+      "file": "indacaterol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Indomethacin",
+      "file": "indomethacin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Inotersen",
+      "file": "inotersen.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Insulin Aspart",
+      "file": "insulin_aspart.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Insulin Degludec",
+      "file": "insulin_degludec.md",
+      "evidence_level": "L1",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Insulin Detemir",
+      "file": "insulin_detemir.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Insulin Glargine",
+      "file": "insulin_glargine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Insulin Glulisine",
+      "file": "insulin_glulisine.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Insulin Lispro",
+      "file": "insulin_lispro.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": ""
     },
     {
       "name": "Iobenguane",
       "file": "iobenguane.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 4,
       "predicted_indication": ""
     },
@@ -3244,6 +5015,20 @@
       "predicted_indication": ""
     },
     {
+      "name": "Irbesartan",
+      "file": "irbesartan.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Isavuconazonium",
+      "file": "isavuconazonium.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Isoflurane",
       "file": "isoflurane.md",
       "evidence_level": "L5",
@@ -3255,6 +5040,20 @@
       "file": "isoleucine.md",
       "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Isoniazid",
+      "file": "isoniazid.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Isotretinoin",
+      "file": "isotretinoin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -3272,6 +5071,48 @@
       "predicted_indication": ""
     },
     {
+      "name": "Ivermectin",
+      "file": "ivermectin.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ivosidenib",
+      "file": "ivosidenib.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ketamine",
+      "file": "ketamine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ketoconazole",
+      "file": "ketoconazole.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ketoprofen",
+      "file": "ketoprofen.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ketorolac",
+      "file": "ketorolac.md",
+      "evidence_level": "L1",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "L-Lysine",
       "file": "l-lysine.md",
       "evidence_level": "L5",
@@ -3279,23 +5120,37 @@
       "predicted_indication": ""
     },
     {
+      "name": "Labetalol",
+      "file": "labetalol.md",
+      "evidence_level": "L4",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
       "name": "Lacosamide",
       "file": "lacosamide.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lactic Acid",
+      "file": "lactic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
       "name": "Lactulose",
       "file": "lactulose.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 8,
       "predicted_indication": ""
     },
     {
       "name": "Lamivudine",
       "file": "lamivudine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": ""
     },
@@ -3307,9 +5162,23 @@
       "predicted_indication": ""
     },
     {
+      "name": "Lanadelumab",
+      "file": "lanadelumab.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lanreotide",
+      "file": "lanreotide.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
       "name": "Lansoprazole",
       "file": "lansoprazole.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 2,
       "predicted_indication": ""
     },
@@ -3321,8 +5190,106 @@
       "predicted_indication": ""
     },
     {
+      "name": "Larotrectinib",
+      "file": "larotrectinib.md",
+      "evidence_level": "L3",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Latanoprost",
       "file": "latanoprost.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ledipasvir",
+      "file": "ledipasvir.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Leflunomide",
+      "file": "leflunomide.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lenalidomide",
+      "file": "lenalidomide.md",
+      "evidence_level": "L2",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lenograstim",
+      "file": "lenograstim.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lenvatinib",
+      "file": "lenvatinib.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Letermovir",
+      "file": "letermovir.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Letrozole",
+      "file": "letrozole.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Levetiracetam",
+      "file": "levetiracetam.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Levocarnitine",
+      "file": "levocarnitine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Levodopa",
+      "file": "levodopa.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Levonorgestrel",
+      "file": "levonorgestrel.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Levothyroxine",
+      "file": "levothyroxine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lidocaine",
+      "file": "lidocaine.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -3349,9 +5316,16 @@
       "predicted_indication": ""
     },
     {
+      "name": "Lomitapide",
+      "file": "lomitapide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Lomustine",
       "file": "lomustine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3370,6 +5344,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Loperamide",
+      "file": "loperamide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Lopinavir",
       "file": "lopinavir.md",
       "evidence_level": "L5",
@@ -3379,7 +5360,7 @@
     {
       "name": "Loprazolam",
       "file": "loprazolam.md",
-      "evidence_level": "L1",
+      "evidence_level": "L3",
       "indication_count": 1,
       "predicted_indication": ""
     },
@@ -3391,10 +5372,31 @@
       "predicted_indication": ""
     },
     {
+      "name": "Lorazepam",
+      "file": "lorazepam.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Lorlatinib",
       "file": "lorlatinib.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lormetazepam",
+      "file": "lormetazepam.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Losartan",
+      "file": "losartan.md",
+      "evidence_level": "L4",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
@@ -3454,23 +5456,163 @@
       "predicted_indication": ""
     },
     {
+      "name": "Meclizine",
+      "file": "meclizine.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Meloxicam",
+      "file": "meloxicam.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Melphalan",
       "file": "melphalan.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mepolizumab",
+      "file": "mepolizumab.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
       "name": "Mercaptopurine",
       "file": "mercaptopurine.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Meropenem",
+      "file": "meropenem.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mesalazine",
+      "file": "mesalazine.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Metformin",
+      "file": "metformin.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methadone",
+      "file": "methadone.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methionine",
+      "file": "methionine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methocarbamol",
+      "file": "methocarbamol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methotrexate",
+      "file": "methotrexate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methoxsalen",
+      "file": "methoxsalen.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methylergometrine",
+      "file": "methylergometrine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methylprednisolone",
+      "file": "methylprednisolone.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Metoclopramide",
+      "file": "metoclopramide.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Metoprolol",
+      "file": "metoprolol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Metreleptin",
+      "file": "metreleptin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Metronidazole",
+      "file": "metronidazole.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Metyrapone",
+      "file": "metyrapone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mianserin",
+      "file": "mianserin.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Micafungin",
+      "file": "micafungin.md",
+      "evidence_level": "L3",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Miconazole",
       "file": "miconazole.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 1,
       "predicted_indication": ""
     },
@@ -3505,7 +5647,7 @@
     {
       "name": "Minoxidil",
       "file": "minoxidil.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3519,8 +5661,15 @@
     {
       "name": "Misoprostol",
       "file": "misoprostol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mitomycin",
+      "file": "mitomycin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -3538,9 +5687,16 @@
       "predicted_indication": ""
     },
     {
+      "name": "Moclobemide",
+      "file": "moclobemide.md",
+      "evidence_level": "L2",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Modafinil",
       "file": "modafinil.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 1,
       "predicted_indication": ""
     },
@@ -3554,8 +5710,22 @@
     {
       "name": "Molsidomine",
       "file": "molsidomine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mometasone",
+      "file": "mometasone.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Montelukast",
+      "file": "montelukast.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
@@ -3568,13 +5738,34 @@
     {
       "name": "Morphine",
       "file": "morphine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Moxonidine",
       "file": "moxonidine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mupirocin",
+      "file": "mupirocin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mycophenolate Mofetil",
+      "file": "mycophenolate_mofetil.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nabumetone",
+      "file": "nabumetone.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -3587,10 +5778,31 @@
       "predicted_indication": ""
     },
     {
+      "name": "Nafarelin",
+      "file": "nafarelin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Naftidrofuryl",
       "file": "naftidrofuryl.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Naphazoline",
+      "file": "naphazoline.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Naproxen",
+      "file": "naproxen.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": ""
     },
     {
@@ -3608,9 +5820,51 @@
       "predicted_indication": ""
     },
     {
+      "name": "Nebivolol",
+      "file": "nebivolol.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nefopam",
+      "file": "nefopam.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nelarabine",
+      "file": "nelarabine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Neostigmine",
+      "file": "neostigmine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Netarsudil",
+      "file": "netarsudil.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nevirapine",
+      "file": "nevirapine.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Nicardipine",
       "file": "nicardipine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 5,
       "predicted_indication": ""
     },
@@ -3636,17 +5890,73 @@
       "predicted_indication": ""
     },
     {
+      "name": "Niraparib",
+      "file": "niraparib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Nitisinone",
       "file": "nitisinone.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nitrazepam",
+      "file": "nitrazepam.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
       "name": "Nitrendipine",
       "file": "nitrendipine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nitrofurantoin",
+      "file": "nitrofurantoin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nordazepam",
+      "file": "nordazepam.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Norelgestromin",
+      "file": "norelgestromin.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Norepinephrine",
+      "file": "norepinephrine.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Norethisterone",
+      "file": "norethisterone.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Norfloxacin",
+      "file": "norfloxacin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -3657,23 +5967,51 @@
       "predicted_indication": ""
     },
     {
+      "name": "Nystatin",
+      "file": "nystatin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Obinutuzumab",
       "file": "obinutuzumab.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ocrelizumab",
+      "file": "ocrelizumab.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Octreotide",
+      "file": "octreotide.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
       "name": "Ofatumumab",
       "file": "ofatumumab.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ofloxacin",
+      "file": "ofloxacin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Olanzapine",
       "file": "olanzapine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 3,
       "predicted_indication": ""
     },
@@ -3685,10 +6023,31 @@
       "predicted_indication": ""
     },
     {
+      "name": "Olmesartan",
+      "file": "olmesartan.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Olsalazine",
+      "file": "olsalazine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Omalizumab",
       "file": "omalizumab.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Omeprazole",
+      "file": "omeprazole.md",
+      "evidence_level": "L3",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -3699,17 +6058,59 @@
       "predicted_indication": ""
     },
     {
+      "name": "Oxacillin",
+      "file": "oxacillin.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Oxalic Acid",
+      "file": "oxalic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Oxaliplatin",
+      "file": "oxaliplatin.md",
+      "evidence_level": "L2",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Oxazepam",
+      "file": "oxazepam.md",
+      "evidence_level": "L3",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Oxcarbazepine",
+      "file": "oxcarbazepine.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Oxiconazole",
       "file": "oxiconazole.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Oxitriptan",
       "file": "oxitriptan.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Oxytetracycline",
+      "file": "oxytetracycline.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -3722,8 +6123,15 @@
     {
       "name": "Palbociclib",
       "file": "palbociclib.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Paliperidone",
+      "file": "paliperidone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -3734,6 +6142,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Palonosetron",
+      "file": "palonosetron.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
       "name": "Panitumumab",
       "file": "panitumumab.md",
       "evidence_level": "L5",
@@ -3741,9 +6156,51 @@
       "predicted_indication": ""
     },
     {
+      "name": "Panobinostat",
+      "file": "panobinostat.md",
+      "evidence_level": "L2",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pantoprazole",
+      "file": "pantoprazole.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Papaverine",
+      "file": "papaverine.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Parecoxib",
+      "file": "parecoxib.md",
+      "evidence_level": "L3",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Paroxetine",
+      "file": "paroxetine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Pazopanib",
       "file": "pazopanib.md",
-      "evidence_level": "L2",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pegaspargase",
+      "file": "pegaspargase.md",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3762,8 +6219,57 @@
       "predicted_indication": ""
     },
     {
+      "name": "Pemetrexed",
+      "file": "pemetrexed.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pemigatinib",
+      "file": "pemigatinib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Pentamidine",
       "file": "pentamidine.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pentosan Polysulfate",
+      "file": "pentosan_polysulfate.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pentostatin",
+      "file": "pentostatin.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pentoxyverine",
+      "file": "pentoxyverine.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Perampanel",
+      "file": "perampanel.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Perindopril",
+      "file": "perindopril.md",
       "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": ""
@@ -3772,6 +6278,62 @@
       "name": "Pertuzumab",
       "file": "pertuzumab.md",
       "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pheniramine",
+      "file": "pheniramine.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Phenobarbital",
+      "file": "phenobarbital.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Phenol",
+      "file": "phenol.md",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Phenoxymethylpenicillin",
+      "file": "phenoxymethylpenicillin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Phentolamine",
+      "file": "phentolamine.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Phenylalanine",
+      "file": "phenylalanine.md",
+      "evidence_level": "L4",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Phenylephrine",
+      "file": "phenylephrine.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Phenytoin",
+      "file": "phenytoin.md",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3797,10 +6359,45 @@
       "predicted_indication": ""
     },
     {
+      "name": "Pinaverium",
+      "file": "pinaverium.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Piperacillin",
+      "file": "piperacillin.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Piperaquine",
+      "file": "piperaquine.md",
+      "evidence_level": "L1",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Pipobroman",
       "file": "pipobroman.md",
       "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pirfenidone",
+      "file": "pirfenidone.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Piribedil",
+      "file": "piribedil.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
@@ -3811,10 +6408,31 @@
       "predicted_indication": ""
     },
     {
+      "name": "Pitavastatin",
+      "file": "pitavastatin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Pixantrone",
       "file": "pixantrone.md",
       "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Plerixafor",
+      "file": "plerixafor.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Polymyxin B",
+      "file": "polymyxin_b.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
@@ -3853,6 +6471,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Prasterone",
+      "file": "prasterone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Prasugrel",
       "file": "prasugrel.md",
       "evidence_level": "L5",
@@ -3860,17 +6485,59 @@
       "predicted_indication": ""
     },
     {
+      "name": "Pravastatin",
+      "file": "pravastatin.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prazepam",
+      "file": "prazepam.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Prednisolone",
       "file": "prednisolone.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Prednisone",
       "file": "prednisone.md",
-      "evidence_level": "L2",
+      "evidence_level": "L3",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pregabalin",
+      "file": "pregabalin.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pretomanid",
+      "file": "pretomanid.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prilocaine",
+      "file": "prilocaine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Primaquine",
+      "file": "primaquine.md",
+      "evidence_level": "L5",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
@@ -3878,6 +6545,34 @@
       "file": "primidone.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pristinamycin",
+      "file": "pristinamycin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Probenecid",
+      "file": "probenecid.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Progesterone",
+      "file": "progesterone.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Propafenone",
+      "file": "propafenone.md",
+      "evidence_level": "L3",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
@@ -3895,6 +6590,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Propylthiouracil",
+      "file": "propylthiouracil.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Prucalopride",
       "file": "prucalopride.md",
       "evidence_level": "L5",
@@ -3902,8 +6604,22 @@
       "predicted_indication": ""
     },
     {
+      "name": "Pseudoephedrine",
+      "file": "pseudoephedrine.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Pyrazinamide",
       "file": "pyrazinamide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Quetiapine",
+      "file": "quetiapine.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -3916,6 +6632,34 @@
       "predicted_indication": ""
     },
     {
+      "name": "Quinidine",
+      "file": "quinidine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Rabeprazole",
+      "file": "rabeprazole.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Raloxifene",
+      "file": "raloxifene.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Raltegravir",
+      "file": "raltegravir.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
       "name": "Raltitrexed",
       "file": "raltitrexed.md",
       "evidence_level": "L5",
@@ -3925,7 +6669,7 @@
     {
       "name": "Ramipril",
       "file": "ramipril.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3939,7 +6683,7 @@
     {
       "name": "Ranibizumab",
       "file": "ranibizumab.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -3948,6 +6692,13 @@
       "file": "ranolazine.md",
       "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Rasagiline",
+      "file": "rasagiline.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
       "predicted_indication": ""
     },
     {
@@ -3965,6 +6716,90 @@
       "predicted_indication": ""
     },
     {
+      "name": "Regadenoson",
+      "file": "regadenoson.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Regorafenib",
+      "file": "regorafenib.md",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Relebactam",
+      "file": "relebactam.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Remdesivir",
+      "file": "remdesivir.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Remimazolam",
+      "file": "remimazolam.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Reserpine",
+      "file": "reserpine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Resorcinol",
+      "file": "resorcinol.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ribavirin",
+      "file": "ribavirin.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ribociclib",
+      "file": "ribociclib.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Rifabutin",
+      "file": "rifabutin.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Rifampicin",
+      "file": "rifampicin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Rifaximin",
+      "file": "rifaximin.md",
+      "evidence_level": "L4",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Rilpivirine",
       "file": "rilpivirine.md",
       "evidence_level": "L4",
@@ -3979,6 +6814,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Rimegepant",
+      "file": "rimegepant.md",
+      "evidence_level": "L3",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
       "name": "Risankizumab",
       "file": "risankizumab.md",
       "evidence_level": "L2",
@@ -3990,6 +6832,13 @@
       "file": "risdiplam.md",
       "evidence_level": "L5",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Risperidone",
+      "file": "risperidone.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
       "predicted_indication": ""
     },
     {
@@ -4030,22 +6879,43 @@
     {
       "name": "Ropinirole",
       "file": "ropinirole.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ropivacaine",
+      "file": "ropivacaine.md",
+      "evidence_level": "L3",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Rosuvastatin",
+      "file": "rosuvastatin.md",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Rotigotine",
       "file": "rotigotine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Roxadustat",
       "file": "roxadustat.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Roxithromycin",
+      "file": "roxithromycin.md",
+      "evidence_level": "L3",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
@@ -4056,10 +6926,31 @@
       "predicted_indication": ""
     },
     {
+      "name": "Rutin",
+      "file": "rutin.md",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ruxolitinib",
+      "file": "ruxolitinib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Sacituzumab Govitecan",
       "file": "sacituzumab_govitecan.md",
       "evidence_level": "L5",
       "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Safinamide",
+      "file": "safinamide.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
@@ -4070,6 +6961,20 @@
       "predicted_indication": ""
     },
     {
+      "name": "Salicylic Acid",
+      "file": "salicylic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Salmeterol",
+      "file": "salmeterol.md",
+      "evidence_level": "L1",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
       "name": "Scopolamine",
       "file": "scopolamine.md",
       "evidence_level": "L5",
@@ -4077,10 +6982,24 @@
       "predicted_indication": ""
     },
     {
+      "name": "Sebelipase Alfa",
+      "file": "sebelipase_alfa.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Secnidazole",
       "file": "secnidazole.md",
       "evidence_level": "L5",
       "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Selinexor",
+      "file": "selinexor.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
@@ -4093,6 +7012,41 @@
     {
       "name": "Sennosides",
       "file": "sennosides.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Serine",
+      "file": "serine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Serotonin",
+      "file": "serotonin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Sertaconazole",
+      "file": "sertaconazole.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Sevoflurane",
+      "file": "sevoflurane.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Silodosin",
+      "file": "silodosin.md",
       "evidence_level": "L5",
       "indication_count": 6,
       "predicted_indication": ""
@@ -4112,6 +7066,13 @@
       "predicted_indication": ""
     },
     {
+      "name": "Simvastatin",
+      "file": "simvastatin.md",
+      "evidence_level": "L1",
+      "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
       "name": "Sirolimus",
       "file": "sirolimus.md",
       "evidence_level": "L5",
@@ -4121,8 +7082,15 @@
     {
       "name": "Sofosbuvir",
       "file": "sofosbuvir.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Sonidegib",
+      "file": "sonidegib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -4154,17 +7122,52 @@
       "predicted_indication": ""
     },
     {
+      "name": "Streptomycin",
+      "file": "streptomycin.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Streptozocin",
+      "file": "streptozocin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Succinic Acid",
+      "file": "succinic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
       "name": "Sucralfate",
       "file": "sucralfate.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Sulbactam",
+      "file": "sulbactam.md",
+      "evidence_level": "L3",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Sulfadiazine",
       "file": "sulfadiazine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Sulfamethoxazole",
+      "file": "sulfamethoxazole.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
@@ -4184,7 +7187,7 @@
     {
       "name": "Sulpiride",
       "file": "sulpiride.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 9,
       "predicted_indication": ""
     },
@@ -4198,14 +7201,14 @@
     {
       "name": "Sumatriptan",
       "file": "sumatriptan.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Sunitinib",
       "file": "sunitinib.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -4214,6 +7217,13 @@
       "file": "susoctocog_alfa.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tacrolimus",
+      "file": "tacrolimus.md",
+      "evidence_level": "L2",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
@@ -4231,10 +7241,38 @@
       "predicted_indication": ""
     },
     {
+      "name": "Tamoxifen",
+      "file": "tamoxifen.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tasonermin",
+      "file": "tasonermin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tazobactam",
+      "file": "tazobactam.md",
+      "evidence_level": "L1",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Telmisartan",
       "file": "telmisartan.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Temozolomide",
+      "file": "temozolomide.md",
+      "evidence_level": "L1",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -4245,6 +7283,48 @@
       "predicted_indication": ""
     },
     {
+      "name": "Tenecteplase",
+      "file": "tenecteplase.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tenofovir Alafenamide",
+      "file": "tenofovir_alafenamide.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tenofovir Disoproxil",
+      "file": "tenofovir_disoproxil.md",
+      "evidence_level": "L4",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tenoxicam",
+      "file": "tenoxicam.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Teprotumumab",
+      "file": "teprotumumab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Terazosin",
+      "file": "terazosin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Terbutaline",
       "file": "terbutaline.md",
       "evidence_level": "L1",
@@ -4252,10 +7332,45 @@
       "predicted_indication": ""
     },
     {
+      "name": "Teriflunomide",
+      "file": "teriflunomide.md",
+      "evidence_level": "L1",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Teriparatide",
+      "file": "teriparatide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Terlipressin",
+      "file": "terlipressin.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
       "name": "Tertatolol",
       "file": "tertatolol.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 8,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tetrabenazine",
+      "file": "tetrabenazine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tetracaine",
+      "file": "tetracaine.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": ""
     },
     {
@@ -4266,10 +7381,38 @@
       "predicted_indication": ""
     },
     {
+      "name": "Theophylline",
+      "file": "theophylline.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Thiamine",
+      "file": "thiamine.md",
+      "evidence_level": "L3",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
       "name": "Thiocolchicoside",
       "file": "thiocolchicoside.md",
       "evidence_level": "L5",
       "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Thiopental",
+      "file": "thiopental.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Threonine",
+      "file": "threonine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
@@ -4280,17 +7423,38 @@
       "predicted_indication": ""
     },
     {
+      "name": "Thyrotropin Alfa",
+      "file": "thyrotropin_alfa.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Tiagabine",
       "file": "tiagabine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Tiapride",
       "file": "tiapride.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ticagrelor",
+      "file": "ticagrelor.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ticarcillin",
+      "file": "ticarcillin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -4336,9 +7500,16 @@
       "predicted_indication": ""
     },
     {
+      "name": "Tobramycin",
+      "file": "tobramycin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Tocilizumab",
       "file": "tocilizumab.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -4371,6 +7542,27 @@
       "predicted_indication": ""
     },
     {
+      "name": "Topotecan",
+      "file": "topotecan.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Toremifene",
+      "file": "toremifene.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Trabectedin",
+      "file": "trabectedin.md",
+      "evidence_level": "L3",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Tramadol",
       "file": "tramadol.md",
       "evidence_level": "L5",
@@ -4380,7 +7572,7 @@
     {
       "name": "Trandolapril",
       "file": "trandolapril.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 6,
       "predicted_indication": ""
     },
@@ -4392,15 +7584,43 @@
       "predicted_indication": ""
     },
     {
+      "name": "Trastuzumab Deruxtecan",
+      "file": "trastuzumab_deruxtecan.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
       "name": "Trastuzumab Emtansine",
       "file": "trastuzumab_emtansine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 4,
       "predicted_indication": ""
     },
     {
       "name": "Travoprost",
       "file": "travoprost.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Treosulfan",
+      "file": "treosulfan.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Treprostinil",
+      "file": "treprostinil.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tretinoin",
+      "file": "tretinoin.md",
       "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": ""
@@ -4413,10 +7633,59 @@
       "predicted_indication": ""
     },
     {
+      "name": "Triamterene",
+      "file": "triamterene.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Trifarotene",
+      "file": "trifarotene.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Trihexyphenidyl",
+      "file": "trihexyphenidyl.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Trimebutine",
+      "file": "trimebutine.md",
+      "evidence_level": "L2",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Trimethoprim",
+      "file": "trimethoprim.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Triptorelin",
+      "file": "triptorelin.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Tropicamide",
       "file": "tropicamide.md",
       "evidence_level": "L5",
       "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Tryptophan",
+      "file": "tryptophan.md",
+      "evidence_level": "L3",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
@@ -4434,9 +7703,37 @@
       "predicted_indication": ""
     },
     {
+      "name": "Upadacitinib",
+      "file": "upadacitinib.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Uric Acid",
+      "file": "uric_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Urofollitropin",
+      "file": "urofollitropin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ustekinumab",
+      "file": "ustekinumab.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Valine",
       "file": "valine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -4455,10 +7752,52 @@
       "predicted_indication": ""
     },
     {
-      "name": "Velpatasvir",
-      "file": "velpatasvir.md",
+      "name": "Vancomycin",
+      "file": "vancomycin.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vandetanib",
+      "file": "vandetanib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Varenicline",
+      "file": "varenicline.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Velpatasvir",
+      "file": "velpatasvir.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Venetoclax",
+      "file": "venetoclax.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Verapamil",
+      "file": "verapamil.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Verteporfin",
+      "file": "verteporfin.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
@@ -4469,10 +7808,94 @@
       "predicted_indication": ""
     },
     {
+      "name": "Vildagliptin",
+      "file": "vildagliptin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vinblastine",
+      "file": "vinblastine.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vincristine",
+      "file": "vincristine.md",
+      "evidence_level": "L3",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vindesine",
+      "file": "vindesine.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vinorelbine",
+      "file": "vinorelbine.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vismodegib",
+      "file": "vismodegib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vitamin A",
+      "file": "vitamin_a.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Volanesorsen",
+      "file": "volanesorsen.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Vonicog Alfa",
       "file": "vonicog_alfa.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Vortioxetine",
+      "file": "vortioxetine.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Voxelotor",
+      "file": "voxelotor.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Voxilaprevir",
+      "file": "voxilaprevir.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Warfarin",
+      "file": "warfarin.md",
+      "evidence_level": "L4",
+      "indication_count": 7,
       "predicted_indication": ""
     },
     {
@@ -4483,9 +7906,16 @@
       "predicted_indication": ""
     },
     {
+      "name": "Zanamivir",
+      "file": "zanamivir.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
       "name": "Zanubrutinib",
       "file": "zanubrutinib.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 6,
       "predicted_indication": ""
     },
@@ -4506,6 +7936,13 @@
     {
       "name": "Zolmitriptan",
       "file": "zolmitriptan.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Zolpidem",
+      "file": "zolpidem.md",
       "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": ""
