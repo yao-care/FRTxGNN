@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00666-centra-precocious-puberty-1",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00666"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "centra precocious puberty 1"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://frtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://frtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.997
+    }
+  ]
+}
