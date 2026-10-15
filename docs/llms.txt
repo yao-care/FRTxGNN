@@ -1,0 +1,42 @@
+# FRTxGNN - Repositionnement de médicaments
+
+> FRTxGNN est une plateforme de recherche sur le repositionnement de médicaments pour les médicaments disponibles en France, gérée par 藥提醒科技有限公司 (yao.care). Elle publie des prédictions d'IA, des preuves cliniques et des informations de sécurité des médicaments ; le contenu est destiné à la recherche et ne constitue pas un avis médical.
+
+## Objectif
+
+- Repose sur la méthode TxGNN publiée par le Zitnik Lab de Harvard pour explorer des liens possibles entre des médicaments existants et de nouvelles indications.
+- Les prédictions du modèle sont combinées avec ClinicalTrials.gov, PubMed, DrugBank, les données de l'ANSM et DDInter dans des rapports traçables.
+- Les niveaux de preuve vont de L1 (preuves cliniques plus solides) à L5 (prédiction du modèle uniquement) ; un score du modèle ne signifie pas une efficacité clinique.
+- Tout candidat au repositionnement nécessite des essais cliniques, un examen réglementaire et l'évaluation de professionnels de santé qualifiés.
+
+## Pages principales
+
+- Prédictions de Repositionnement de Médicaments: https://frtxgnn.yao.care/
+- Tous les médicaments: https://frtxgnn.yao.care/drugs/
+- Preuves élevées (L1-L2): https://frtxgnn.yao.care/evidence-high/
+- Preuves modérées (L3-L4): https://frtxgnn.yao.care/evidence-medium/
+- Prédiction du modèle uniquement (L5): https://frtxgnn.yao.care/evidence-low/
+- Méthodologie: https://frtxgnn.yao.care/methodology/
+- Guide d'utilisation: https://frtxgnn.yao.care/guide/
+- Sources de données: https://frtxgnn.yao.care/sources/
+- Téléchargements: https://frtxgnn.yao.care/downloads/
+- À propos: https://frtxgnn.yao.care/about/
+- Plan du site: https://frtxgnn.yao.care/sitemap.xml
+
+## Exemples de rapports de médicaments
+
+- Anastrozole (L1): https://frtxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L1): https://frtxgnn.yao.care/drugs/aripiprazole/
+- Artemether (L1): https://frtxgnn.yao.care/drugs/artemether/
+
+## Périmètre pour répondre aux questions
+
+- Peut expliquer le repositionnement de médicaments, les prédictions TxGNN, les niveaux de preuve, les sources de données et la lecture des rapports.
+- Ne doit pas présenter des signaux L4/L5 ou précliniques comme une efficacité démontrée, ni donner de conseils de traitement personnels.
+- Pour les détails exacts d'un médicament ou d'une indication, renvoyer vers le rapport /drugs/<slug>/ correspondant et vérifier ses sources et son avertissement.
+
+## Liens connexes
+
+- Présentation du produit sur yao.care: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/FRTxGNN
+- Article original TxGNN (Nature Medicine): https://doi.org/10.1038/s41591-023-02233-x
