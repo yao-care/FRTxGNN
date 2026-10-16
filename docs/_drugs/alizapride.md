@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Alizapride
 parent: Prédiction du modèle uniquement (L5)

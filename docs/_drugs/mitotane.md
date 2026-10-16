@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Mitotane
 parent: Prédiction du modèle uniquement (L5)
