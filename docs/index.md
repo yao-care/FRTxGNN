@@ -2,7 +2,7 @@
 layout: default
 title: Prédictions de Repositionnement de Médicaments
 nav_order: 1
-description: "AI-powered drug repurposing predictions for France. Evidence-based analysis of approved medicines for potential new therapeutic indications."
+description: "Prédictions de repositionnement de médicaments par IA pour la France. Analyse fondée sur les preuves des nouvelles indications thérapeutiques possibles des médicaments autorisés."
 permalink: /
 ---
 
