@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "total_count": 822,
+  "total_count": 813,
   "source": "FRTxGNN",
   "drugs": [
     {
@@ -22,16 +22,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/abatacept/"
-    },
-    {
-      "slug": "acalabrutinib",
-      "name": "Acalabrutinib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/acalabrutinib/"
     },
     {
       "slug": "acarbose",
@@ -112,16 +102,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/acetylcysteine/"
-    },
-    {
-      "slug": "aciclovir",
-      "name": "Aciclovir",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/aciclovir/"
     },
     {
       "slug": "acitretin",
@@ -304,16 +284,6 @@
       "url": "/drugs/alitretinoin/"
     },
     {
-      "slug": "alizapride",
-      "name": "Alizapride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/alizapride/"
-    },
-    {
       "slug": "allopurinol",
       "name": "Allopurinol",
       "evidence_level": "L4",
@@ -392,16 +362,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/altretamine/"
-    },
-    {
-      "slug": "aluminium",
-      "name": "Aluminium",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/aluminium/"
     },
     {
       "slug": "alverine",
@@ -4514,16 +4474,6 @@
       "url": "/drugs/loprazolam/"
     },
     {
-      "slug": "loratadine",
-      "name": "Loratadine",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/loratadine/"
-    },
-    {
       "slug": "lorazepam",
       "name": "Lorazepam",
       "evidence_level": "L5",
@@ -4584,16 +4534,6 @@
       "url": "/drugs/lumacaftor/"
     },
     {
-      "slug": "luspatercept",
-      "name": "Luspatercept",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/luspatercept/"
-    },
-    {
       "slug": "manidipine",
       "name": "Manidipine",
       "evidence_level": "L5",
@@ -4614,16 +4554,6 @@
       "url": "/drugs/mannitol/"
     },
     {
-      "slug": "maprotiline",
-      "name": "Maprotiline",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/maprotiline/"
-    },
-    {
       "slug": "maraviroc",
       "name": "Maraviroc",
       "evidence_level": "L5",
@@ -4632,16 +4562,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/maraviroc/"
-    },
-    {
-      "slug": "maribavir",
-      "name": "Maribavir",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/maribavir/"
     },
     {
       "slug": "meclizine",
@@ -4952,16 +4872,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/mitomycin/"
-    },
-    {
-      "slug": "mitotane",
-      "name": "Mitotane",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/mitotane/"
     },
     {
       "slug": "mizolastine",
