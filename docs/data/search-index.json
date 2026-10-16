@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 822,
+  "drug_count": 813,
   "indication_count": 3127,
   "drugs": [
     {
@@ -80,14 +80,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Acalabrutinib",
-      "slug": "acalabrutinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Acarbose",
@@ -295,14 +287,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Aciclovir",
-      "slug": "aciclovir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Acitretin",
@@ -851,14 +835,6 @@
       ]
     },
     {
-      "name": "Alizapride",
-      "slug": "alizapride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Allopurinol",
       "slug": "allopurinol",
       "brands": [],
@@ -1109,14 +1085,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Aluminium",
-      "slug": "aluminium",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Alverine",
@@ -12992,14 +12960,6 @@
       ]
     },
     {
-      "name": "Loratadine",
-      "slug": "loratadine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Lorazepam",
       "slug": "lorazepam",
       "brands": [],
@@ -13189,14 +13149,6 @@
       ]
     },
     {
-      "name": "Luspatercept",
-      "slug": "luspatercept",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Manidipine",
       "slug": "manidipine",
       "brands": [],
@@ -13263,14 +13215,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Maprotiline",
-      "slug": "maprotiline",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Maraviroc",
@@ -13350,14 +13294,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Maribavir",
-      "slug": "maribavir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Meclizine",
@@ -14287,14 +14223,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Mitotane",
-      "slug": "mitotane",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Mizolastine",
