@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Levetiracetam : nouvelle indication prédite, État de mal épileptique (niveau de preuve L1). Indication d'origine : Épilepsie partielle"
+monitor_inn: "levetiracetam"
+predicted_indications: ["visual epilepsy", "startle epilepsy", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "orgasm-induced seizures", "thinking seizures", "reading seizures", "status epilepticus", "beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam

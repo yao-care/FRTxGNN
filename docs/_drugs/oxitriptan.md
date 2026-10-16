@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Oxitriptan : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
+monitor_inn: "OXITRIPTAN"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Oxitriptan

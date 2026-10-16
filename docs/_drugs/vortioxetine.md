@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vortioxetine : nouvelle indication prédite, Mélancolie (niveau de preuve L5). Indication d'origine : Dépression unipolaire, trouble dépressif majeur, trouble anxieux"
+monitor_inn: "vortioxetine"
+predicted_indications: ["neurotic disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
 ---
 
 # Vortioxetine

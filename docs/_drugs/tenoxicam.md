@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tenoxicam : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L3). Indication d'origine : Maladie articulaire arthritique…"
+monitor_inn: "tenoxicam"
+predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
 ---
 
 # Tenoxicam

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ustekinumab : nouvelle indication prédite, Dermatite (niveau de preuve L2). Indication d'origine : Rhumatisme psoriasique, psoriasis, parapsoriasis"
+monitor_inn: "ustekinumab"
+predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 ---
 
 # Ustekinumab

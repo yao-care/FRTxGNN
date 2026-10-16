@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Iodixanol : nouvelle indication prédite, Susceptibilité à l'arthrose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (produit de contraste iodé)"
+monitor_inn: "IODIXANOL"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis"]
 ---
 
 # Iodixanol

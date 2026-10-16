@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clozapine : nouvelle indication prédite, Trouble bipolaire de type maniaque (manic bipolar affective disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM françaises (te…"
+monitor_inn: "CLOZAPINE"
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
 ---
 
 # Clozapine

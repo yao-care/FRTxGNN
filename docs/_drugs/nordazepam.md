@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Nordazepam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM"
+monitor_inn: "nordazepam"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "anxiety", "sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Nordazepam

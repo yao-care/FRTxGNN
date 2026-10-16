@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Panitumumab : nouvelle indication prédite, Ostéoporose médicamenteuse (niveau de preuve L5). Indication d'origine : Néoplasme malin métastatique du côlon"
+monitor_inn: "PANITUMUMAB"
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Panitumumab

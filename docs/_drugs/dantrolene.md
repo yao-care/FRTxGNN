@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dantrolene : nouvelle indication prédite, Susceptibilité à l'hyperthermie maligne (niveau de preuve L3). Indication d'origine : Hyperthermie maligne de l'anesthésie"
+monitor_inn: "dantrolene"
+predicted_indications: ["malignant hyperthermia, susceptibility to", "moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
 ---
 
 # Dantrolene

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clopidogrel : nouvelle indication prédite, Migraine (rang 1 : migraine avec aura du tronc cérébral, 99,44 % (niveau de preuve L5). Indication d'origine : Syndrome coronarien aigu (autres : infarctus …"
+monitor_inn: "CLOPIDOGREL"
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "osteoarthritis susceptibility"]
 ---
 
 # Clopidogrel

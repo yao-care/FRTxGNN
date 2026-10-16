@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Modafinil : nouvelle indication prédite, Insomnie (niveau de preuve L3). Indication d'origine : Narcolepsie"
+monitor_inn: "MODAFINIL"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Modafinil

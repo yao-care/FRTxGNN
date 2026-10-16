@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Isavuconazonium : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Aspergillose, piedra blanche, piedra noire, coccidioïdomycose…"
+monitor_inn: "isavuconazonium"
+predicted_indications: ["pneumocystosis", "mycetoma"]
 ---
 
 # Isavuconazonium

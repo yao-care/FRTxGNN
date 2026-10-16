@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vonicog Alfa : nouvelle indication prédite, Trouble de la libération plaquettaire primaire (rang 1) (niveau de preuve L5). Indication d'origine : Maladie de von Willebrand héréditaire"
+monitor_inn: "VONICOG ALFA"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "Von Willebrand disease, X-linked form", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 ---
 
 # Vonicog Alfa

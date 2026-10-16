@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Ibuprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, céphalées, arthrose, arthropathies…"
+monitor_inn: "ibuprofen"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Ibuprofen

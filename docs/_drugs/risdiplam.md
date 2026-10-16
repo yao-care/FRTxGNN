@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Risdiplam : nouvelle indication prédite, Acné (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM compilées (le texte d'indication…"
+monitor_inn: "RISDIPLAM"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam

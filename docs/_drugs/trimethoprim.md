@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Trimethoprim : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (niveau de preuve L5). Indication d'origine : Infection urinaire"
+monitor_inn: "trimethoprim"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "conjunctivitis (disease)"]
 ---
 
 # Trimethoprim

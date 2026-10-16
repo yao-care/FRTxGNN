@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gemfibrozil : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Hypertriglycéridémie"
+monitor_inn: "GEMFIBROZIL"
+predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "obsolete familial combined hyperlipidemia", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
 ---
 
 # Gemfibrozil

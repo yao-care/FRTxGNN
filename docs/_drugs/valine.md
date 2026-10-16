@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Valine : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L4). Indication d'origine : Non précisée dans les données compilées (texte d'indication vide pour…"
+monitor_inn: "VALINE"
+predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
 ---
 
 # Valine

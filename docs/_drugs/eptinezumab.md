@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Eptinezumab : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Migraine"
+monitor_inn: "EPTINEZUMAB"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Eptinezumab

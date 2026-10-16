@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Potassium : nouvelle indication prédite, Trouble hypertensif (hypertension artérielle) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "POTASSIUM"
+predicted_indications: ["hypertensive disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
 ---
 
 # Potassium

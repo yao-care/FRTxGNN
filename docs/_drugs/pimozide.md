@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pimozide : nouvelle indication prédite, Trichotillomanie (niveau de preuve L3). Indication d'origine : Syndrome de Gilles de la Tourette"
+monitor_inn: "PIMOZIDE"
+predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Pimozide

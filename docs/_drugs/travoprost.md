@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Travoprost : nouvelle indication prédite, Calciphylaxie viscérale (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert…"
+monitor_inn: "TRAVOPROST"
+predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
 ---
 
 # Travoprost

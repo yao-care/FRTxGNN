@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Acitretin : nouvelle indication prédite, Acné (disease) (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM"
+monitor_inn: "acitretin"
+predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
 ---
 
 # Acitretin

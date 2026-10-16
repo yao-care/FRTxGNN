@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hymecromone : nouvelle indication prédite, Néphropathie diabétique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "hymecromone"
+predicted_indications: ["diabetic nephropathy", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "allergic asthma", "intrinsic asthma", "gout", "hemoglobinopathy", "type 1 diabetes mellitus", "bronchitis", "partial deletion of the short arm of chromosome 16"]
 ---
 
 # Hymecromone

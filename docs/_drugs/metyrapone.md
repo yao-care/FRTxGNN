@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metyrapone : nouvelle indication prédite, Hyperthermie maligne d'effort (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles (usage connu : test diagnosti…"
+monitor_inn: "metyrapone"
+predicted_indications: ["exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
 ---
 
 # Metyrapone

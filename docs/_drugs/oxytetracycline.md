@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxytetracycline : nouvelle indication prédite, Rhinosinusite chronique (niveau de preuve L5). Indication d'origine : Infections bactériennes diverses"
+monitor_inn: "oxytetracycline"
+predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 ---
 
 # Oxytetracycline

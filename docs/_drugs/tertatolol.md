@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Tertatolol : nouvelle indication prédite, Dyskinésie linguo-faciale-buccale (niveau de preuve L5). Indication d'origine : Non renseignée"
+monitor_inn: "TERTATOLOL"
+predicted_indications: ["lingual-facial-buccal dyskinesia", "chronic tic disorder", "psychogenic movement disorders", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia"]
 ---
 
 # Tertatolol

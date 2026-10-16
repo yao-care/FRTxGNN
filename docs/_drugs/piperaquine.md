@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Piperaquine : nouvelle indication prédite, Paludisme à Plasmodium vivax (niveau de preuve L1). Indication d'origine : Paludisme (le texte d'indication de l'AMM n'est pas renseigné)"
+monitor_inn: "piperaquine"
+predicted_indications: ["cystic echinococcosis", "Plasmodium vivax malaria", "echinococcus granulosus infectious disease"]
 ---
 
 # Piperaquine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bezlotoxumab : nouvelle indication prédite, Péritonite pelvienne aiguë de la femme (niveau de preuve L5). Indication d'origine : Colite à Clostridium difficile"
+monitor_inn: "BEZLOTOXUMAB"
+predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "pelvic varices"]
 ---
 
 # Bezlotoxumab

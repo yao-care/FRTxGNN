@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Deferasirox : nouvelle indication prédite, Infection par le VIH (niveau de preuve L4). Indication d'origine : Bêta-thalassémie et hémoglobinopathies apparentées"
+monitor_inn: "deferasirox"
+predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 ---
 
 # Deferasirox

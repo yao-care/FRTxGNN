@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Naproxen : nouvelle indication prédite, Syndrome de brachydactylie-syndactylie (niveau de preuve L5). Indication d'origine : Données non disponibles dans les AMM"
+monitor_inn: "naproxen"
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Naproxen

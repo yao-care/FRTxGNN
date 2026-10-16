@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Telmisartan : nouvelle indication prédite, Occlusion des artères cérébrales (rang 4 de TxGNN) (niveau de preuve L5). Indication d'origine : Hypertension artérielle, accident vasculaire cérébral…"
+monitor_inn: "TELMISARTAN"
+predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "intracerebral hemorrhage", "Braddock syndrome"]
 ---
 
 # Telmisartan

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Molsidomine : nouvelle indication prédite, Maladie vasculaire (alternative de rang 1 : alopécie… (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM compilées (usage a…"
+monitor_inn: "MOLSIDOMINE"
+predicted_indications: ["alopecia", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection", "hypotrichosis simplex of the scalp", "visceral calciphylaxis", "neurogenic thoracic outlet syndrome", "hemangioendothelioma", "congenital hypotrichosis milia"]
 ---
 
 # Molsidomine

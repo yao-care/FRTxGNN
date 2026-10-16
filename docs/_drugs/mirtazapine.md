@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Mirtazapine : nouvelle indication prédite, Syndrome d'Ohdo et variantes (niveau de preuve L5). Indication d'origine : Dépression unipolaire, dépression endogène, trouble dépressif majeur…"
+monitor_inn: "MIRTAZAPINE"
+predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Mirtazapine

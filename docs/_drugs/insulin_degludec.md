@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Insulin Degludec : nouvelle indication prédite, Diabète de type 1 (niveau de preuve L1). Indication d'origine : Diabète sucré (texte d'indication des AMM non disponible)"
+monitor_inn: "insulin degludec"
+predicted_indications: ["type 1 diabetes mellitus", "autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 ---
 
 # Insulin Degludec

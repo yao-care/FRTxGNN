@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Fluconazole : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Candidoses (candidose buccale, vulvovaginale, œsophagienne…"
+monitor_inn: "FLUCONAZOLE"
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 ---
 
 # Fluconazole

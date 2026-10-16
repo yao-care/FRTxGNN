@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Treprostinil : nouvelle indication prédite, HTAP associée aux cardiopathies congénitales (niveau de preuve L3). Indication d'origine : Hypertension artérielle pulmonaire"
+monitor_inn: "treprostinil"
+predicted_indications: ["pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 ---
 
 # Treprostinil

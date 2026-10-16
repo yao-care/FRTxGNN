@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cefoxitin : nouvelle indication prédite, Otite moyenne infectieuse (niveau de preuve L5). Indication d'origine : Infections bactériennes (streptococciques, staphylococciques…"
+monitor_inn: "cefoxitin"
+predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "gonococcal urethritis", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
 ---
 
 # Cefoxitin

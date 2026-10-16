@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Calcitriol : nouvelle indication prédite, Carence en vitamine D (entrée obsolète) (niveau de preuve L5). Indication d'origine : Hypercalcémie, néphrocalcinose, troubles du métabolisme du phosphore…"
+monitor_inn: "CALCITRIOL"
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets"]
 ---
 
 # Calcitriol

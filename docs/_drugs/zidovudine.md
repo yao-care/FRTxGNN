@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Zidovudine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH…"
+monitor_inn: "ZIDOVUDINE"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "AIDS related complex", "congenital human immunodeficiency virus"]
 ---
 
 # Zidovudine

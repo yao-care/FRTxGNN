@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Caspofungin : nouvelle indication prédite, Anomalie de sécrétion de la gastrine (niveau de preuve L5). Indication d'origine : Candidose œsophagienne, candidémie"
+monitor_inn: "caspofungin"
+predicted_indications: ["gastrin secretion abnormality"]
 ---
 
 # Caspofungin

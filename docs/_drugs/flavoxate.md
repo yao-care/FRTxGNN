@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Flavoxate : nouvelle indication prédite, Attention deficit hyperactivity disorder… (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM (texte d'indication vide)"
+monitor_inn: "FLAVOXATE"
+predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Flavoxate

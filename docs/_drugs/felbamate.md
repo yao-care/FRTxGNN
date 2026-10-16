@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Felbamate : nouvelle indication prédite, Névralgie du trijumeau (niveau de preuve L4). Indication d'origine : Épilepsie"
+monitor_inn: "FELBAMATE"
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 ---
 
 # Felbamate

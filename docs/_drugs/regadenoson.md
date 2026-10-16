@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Regadenoson : nouvelle indication prédite, Anaphylaxie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (usage connu : agent de stress…"
+monitor_inn: "regadenoson"
+predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
 ---
 
 # Regadenoson

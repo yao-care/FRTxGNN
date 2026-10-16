@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Obinutuzumab : nouvelle indication prédite, LLC / lymphome lymphocytique à petites cellules avec hypermutation so… (niveau de preuve L5). Indication d'origine : Leucémie lymphoblastique aiguë, syndro…"
+monitor_inn: "OBINUTUZUMAB"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma"]
 ---
 
 # Obinutuzumab

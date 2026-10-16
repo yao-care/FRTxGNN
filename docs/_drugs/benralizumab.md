@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Benralizumab : nouvelle indication prédite, Dermatite (rang 2 (niveau de preuve L5). Indication d'origine : Pneumonie à éosinophiles"
+monitor_inn: "BENRALIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
 ---
 
 # Benralizumab

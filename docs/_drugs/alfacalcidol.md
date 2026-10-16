@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Alfacalcidol : nouvelle indication prédite, Hypoparathyroïdie isolée familiale due à un défaut de sécrétion de la… (niveau de preuve L5). Indication d'origine : Hyperparathyroïdie"
+monitor_inn: "ALFACALCIDOL"
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
 ---
 
 # Alfacalcidol

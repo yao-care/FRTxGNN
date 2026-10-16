@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Dextromethorphan : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Rhinite allergique (source : base de connaissances TxGNN"
+monitor_inn: "dextromethorphan"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 ---
 
 # Dextromethorphan

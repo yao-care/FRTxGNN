@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Rivastigmine : nouvelle indication prédite, Glaucome (niveau de preuve L4). Indication d'origine : Maladie d'Alzheimer"
+monitor_inn: "RIVASTIGMINE"
+predicted_indications: ["glaucoma"]
 ---
 
 # Rivastigmine

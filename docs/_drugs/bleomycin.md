@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Bleomycin : nouvelle indication prédite, Néoplasme de la queue de cheval (niveau de preuve L5). Indication d'origine : Lymphome de Hodgkin"
+monitor_inn: "bleomycin"
+predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
 
 # Bleomycin

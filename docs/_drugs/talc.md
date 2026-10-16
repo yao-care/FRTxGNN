@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Talc : nouvelle indication prédite, Maladie thrombotique (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "TALC"
+predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis", "bronchitis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "vein disease", "fibromyalgia", "myositis fibrosa"]
 ---
 
 # Talc

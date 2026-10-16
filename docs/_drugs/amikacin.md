@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amikacin : nouvelle indication prédite, Fièvre paratyphoïde (niveau de preuve L4). Indication d'origine : Infections bactériennes (pneumonie bactérienne…"
+monitor_inn: "amikacin"
+predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
 ---
 
 # Amikacin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Asfotase Alfa : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anoma… (niveau de preuve L5). Indication d'origine : Hypophosphatasie"
+monitor_inn: "ASFOTASE ALFA"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
 ---
 
 # Asfotase Alfa

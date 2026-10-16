@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aceclofenac : nouvelle indication prédite, Syndrome brachyolmie-amélogenèse imparfaite (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, spondylarthrite ankylosante, arthrose"
+monitor_inn: "aceclofenac"
+predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "rheumatoid vasculitis", "inflammatory spondylopathy", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
 ---
 
 # Aceclofenac

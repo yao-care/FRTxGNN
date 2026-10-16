@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Terlipressin : nouvelle indication prédite, Hypertension pulmonaire (candidate présentant le plus de littérature… (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "terlipressin"
+predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 ---
 
 # Terlipressin

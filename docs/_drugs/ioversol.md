@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ioversol : nouvelle indication prédite, Susceptibilité à l'arthrose (niveau de preuve L5). Indication d'origine : Non disponible dans les données compilées (texte d'indication vide po…"
+monitor_inn: "IOVERSOL"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
 ---
 
 # Ioversol

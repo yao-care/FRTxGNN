@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lorazepam : nouvelle indication prédite, Tumeur du nerf trijumeau (niveau de preuve L5). Indication d'origine : Anxiété, état de mal épileptique, épilepsie-absence…"
+monitor_inn: "lorazepam"
+predicted_indications: ["trigeminal nerve neoplasm", "insomnia (disease)", "reading seizures", "startle epilepsy", "orgasm-induced seizures", "audiogenic seizures", "eating seizures", "micturation-induced seizures", "thinking seizures", "acute encephalopathy with biphasic seizures and late reduced diffusion"]
 ---
 
 # Lorazepam

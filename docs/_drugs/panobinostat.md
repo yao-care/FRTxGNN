@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Panobinostat : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L2). Indication d'origine : Myélome multiple (myélome à plasmocytes), lymphome cutané à cellules T"
+monitor_inn: "panobinostat"
+predicted_indications: ["myeloid leukemia"]
 ---
 
 # Panobinostat

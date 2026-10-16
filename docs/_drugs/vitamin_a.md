@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vitamin A : nouvelle indication prédite, Déficit congénital en prothrombine (niveau de preuve L5). Indication d'origine : Carence en vitamine A / carence vitaminique"
+monitor_inn: "vitamin a"
+predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 ---
 
 # Vitamin A

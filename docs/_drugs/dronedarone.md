@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (« stroke disorder ») (niveau de preuve L4). Indication d'origine : Fibrillation atriale"
+monitor_inn: "dronedarone"
+predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 ---
 
 # Dronedarone

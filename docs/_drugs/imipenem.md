@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imipenem : nouvelle indication prédite, Sclérodermie diffuse (niveau de preuve L5). Indication d'origine : Non disponible dans les données d'AMM (texte d'indication vide)"
+monitor_inn: "imipenem"
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
 ---
 
 # Imipenem

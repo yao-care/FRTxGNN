@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Oxiconazole : nouvelle indication prédite, Candidose cutanée (niveau de preuve L3). Indication d'origine : Non renseignée dans le texte de l'AMM"
+monitor_inn: "OXICONAZOLE"
+predicted_indications: ["cutaneous candidiasis"]
 ---
 
 # Oxiconazole

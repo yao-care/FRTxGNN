@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Norethisterone : nouvelle indication prédite, Aménorrhée (niveau de preuve L4). Indication d'origine : Insuffisance ovarienne primaire, endométriose…"
+monitor_inn: "norethisterone"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Norethisterone

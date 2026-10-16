@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (niveau de preuve L5). Indication d'origine : Leucémie lymphoblastique aiguë"
+monitor_inn: "vindesine"
+predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm", "myeloid leukemia"]
 ---
 
 # Vindesine

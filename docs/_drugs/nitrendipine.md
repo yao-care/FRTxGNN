@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Nitrendipine : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L3). Indication d'origine : Non précisée dans les AMM (texte d'indication vide)"
+monitor_inn: "NITRENDIPINE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina"]
 ---
 
 # Nitrendipine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Enzalutamide : nouvelle indication prédite, Susceptibilité au cancer de la prostate / cancer du cerveau (rang 1) (niveau de preuve L5). Indication d'origine : Cancer de la prostate"
+monitor_inn: "ENZALUTAMIDE"
+predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

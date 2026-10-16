@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Pentostatin : nouvelle indication prédite, Rhabdomyosarcome embryonnaire de type botryoïde du vagin (niveau de preuve L5). Indication d'origine : Leucémie à tricholeucocytes et variante"
+monitor_inn: "pentostatin"
+predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma"]
 ---
 
 # Pentostatin

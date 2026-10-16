@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Imipramine : nouvelle indication prédite, Trouble déficit de l'attention avec hyperactivité (TDAH) (niveau de preuve L3). Indication d'origine : Troubles anxieux, troubles névrotiques, dysthymie, énu…"
+monitor_inn: "IMIPRAMINE"
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 ---
 
 # Imipramine

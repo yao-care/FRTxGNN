@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Donepezil : nouvelle indication prédite, Trouble de tics chronique (rang 2 (niveau de preuve L3). Indication d'origine : Maladie d'Alzheimer"
+monitor_inn: "donepezil"
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 ---
 
 # Donepezil

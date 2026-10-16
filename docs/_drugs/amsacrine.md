@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Amsacrine : nouvelle indication prédite, Myélome plasmocytaire (niveau de preuve L3). Indication d'origine : Non précisée dans les données d'AMM disponibles"
+monitor_inn: "AMSACRINE"
+predicted_indications: ["hyperthyroidism", "plasma cell myeloma", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "bronchitis"]
 ---
 
 # Amsacrine

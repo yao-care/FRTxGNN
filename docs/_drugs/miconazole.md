@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Miconazole : nouvelle indication prédite, Acné (niveau de preuve L3). Indication d'origine : Mycoses cutanées et muqueuses (pied d'athlète, teigne…"
+monitor_inn: "MICONAZOLE"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Miconazole

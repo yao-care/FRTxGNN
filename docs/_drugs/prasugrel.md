@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prasugrel : nouvelle indication prédite, Trouble migraineux (rang 2 (niveau de preuve L5). Indication d'origine : Syndrome coronarien aigu"
+monitor_inn: "PRASUGREL"
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
 ---
 
 # Prasugrel

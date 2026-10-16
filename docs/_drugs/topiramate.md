@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Topiramate : nouvelle indication prédite, Néoplasme du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie avec crises généralisées tonico-cloniques…"
+monitor_inn: "TOPIRAMATE"
+predicted_indications: ["trigeminal nerve neoplasm", "visual epilepsy", "startle epilepsy", "audiogenic seizures", "micturation-induced seizures", "orgasm-induced seizures", "eating seizures", "thinking seizures", "reading seizures"]
 ---
 
 # Topiramate

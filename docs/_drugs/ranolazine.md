@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ranolazine : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
+monitor_inn: "RANOLAZINE"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Ranolazine

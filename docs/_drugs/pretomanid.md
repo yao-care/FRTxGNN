@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pretomanid : nouvelle indication prédite, Candidose (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM française (tuberculose pharmacorésistante d…"
+monitor_inn: "pretomanid"
+predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
 ---
 
 # Pretomanid

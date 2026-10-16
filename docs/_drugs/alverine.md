@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Alverine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L4). Indication d'origine : Non renseignee dans les AMM disponibles (usage connu : spasmes des mu…"
+monitor_inn: "alverine"
+predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
 ---
 
 # Alverine

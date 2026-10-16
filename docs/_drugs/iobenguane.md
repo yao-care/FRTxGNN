@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Iobenguane : nouvelle indication prédite, Trouble hypotensif (hypotension) (niveau de preuve L4). Indication d'origine : Non disponible dans les données compilées"
+monitor_inn: "IOBENGUANE"
+predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
 ---
 
 # Iobenguane

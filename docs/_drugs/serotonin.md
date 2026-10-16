@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Serotonin : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
+monitor_inn: "serotonin"
+predicted_indications: ["insomnia (disease)", "anxiety disorder", "migraine disorder", "anxiety", "agoraphobia", "migraine with brainstem aura", "benign paroxysmal torticollis of infancy", "migraine with or without aura, susceptibility to", "manic bipolar affective disorder", "atrophoderma vermiculata"]
 ---
 
 # Serotonin

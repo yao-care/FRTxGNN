@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Nilotinib : nouvelle indication prédite, Dermatofibrosarcome protubérant (niveau de preuve L4). Indication d'origine : Leucémie myéloïde chronique BCR-ABL1 positive"
+monitor_inn: "NILOTINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Nilotinib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Ataluren : nouvelle indication prédite, Cholestase intrahépatique récurrente bénigne (niveau de preuve L5). Indication d'origine : Dystrophie musculaire de Duchenne"
+monitor_inn: "ATALUREN"
+predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn disorder of bilirubin metabolism", "hereditary North American Indian childhood cirrhosis", "familial intrahepatic cholestasis", "severe nonproliferative diabetic retinopathy", "bilirubin metabolism disease"]
 ---
 
 # Ataluren

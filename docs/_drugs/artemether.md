@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Artemether : nouvelle indication prédite, Paludisme à Plasmodium falciparum (niveau de preuve L1). Indication d'origine : Non renseignée dans les données d'AMM compilées"
+monitor_inn: "artemether"
+predicted_indications: ["acquired angioedema", "Plasmodium falciparum malaria", "malaria", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
 ---
 
 # Artemether

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Thiocolchicoside : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées"
+monitor_inn: "THIOCOLCHICOSIDE"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
 ---
 
 # Thiocolchicoside

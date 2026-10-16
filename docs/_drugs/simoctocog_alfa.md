@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Simoctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie"
+monitor_inn: "SIMOCTOCOG ALFA"
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia A with vascular abnormality", "thrombotic thrombocytopenic purpura"]
 ---
 
 # Simoctocog Alfa

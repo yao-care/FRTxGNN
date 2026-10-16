@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ocrelizumab : nouvelle indication prédite, Carcinome mammaire HER2 positif (niveau de preuve L5). Indication d'origine : Sclérose en plaques progressive"
+monitor_inn: "ocrelizumab"
+predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 ---
 
 # Ocrelizumab

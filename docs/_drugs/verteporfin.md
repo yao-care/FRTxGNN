@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Verteporfin : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anoma… (niveau de preuve L5). Indication d'origine : Dégénérescence maculaire"
+monitor_inn: "verteporfin"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
 
 # Verteporfin

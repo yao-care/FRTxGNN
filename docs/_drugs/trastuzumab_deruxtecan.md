@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trastuzumab Deruxtecan : nouvelle indication prédite, Ostéoporose médicamenteuse (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "trastuzumab deruxtecan"
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Trastuzumab Deruxtecan

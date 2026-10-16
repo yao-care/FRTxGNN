@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Lenograstim : nouvelle indication prédite, Trouble de libération plaquettaire primaire (primary release disorder… (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "lenograstim"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Lenograstim

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Hydroxocobalamin : nouvelle indication prédite, Varices œsophagiennes sans saignement (niveau de preuve L5). Indication d'origine : Carence en vitamine B12, intoxication au cyanure, anémie pernicieuse"
+monitor_inn: "hydroxocobalamin"
+predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 ---
 
 # Hydroxocobalamin

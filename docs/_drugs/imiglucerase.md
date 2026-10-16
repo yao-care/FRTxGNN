@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Imiglucerase : nouvelle indication prédite, Syndrome de Hurler (niveau de preuve L4). Indication d'origine : Maladie de Gaucher"
+monitor_inn: "imiglucerase"
+predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 ---
 
 # Imiglucerase

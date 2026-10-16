@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Fidaxomicin : nouvelle indication prédite, Syndrome de la peau ébouillantée staphylococcique (niveau de preuve L5). Indication d'origine : Colite à Clostridium difficile"
+monitor_inn: "fidaxomicin"
+predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Fidaxomicin

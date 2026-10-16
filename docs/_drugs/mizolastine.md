@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mizolastine : nouvelle indication prédite, Porphyrie aiguë intermittente (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice"
+monitor_inn: "MIZOLASTINE"
+predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
 ---
 
 # Mizolastine

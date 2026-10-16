@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Norepinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L4). Indication d'origine : Asthme"
+monitor_inn: "norepinephrine"
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Norepinephrine

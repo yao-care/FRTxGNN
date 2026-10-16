@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Methadone : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "methadone"
+predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
 ---
 
 # Methadone

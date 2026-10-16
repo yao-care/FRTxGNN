@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tenofovir Alafenamide : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L5). Indication d'origine : VIH / SIDA"
+monitor_inn: "tenofovir alafenamide"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Tenofovir Alafenamide

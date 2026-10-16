@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Bumetanide : nouvelle indication prédite, Cardiopathie pulmonaire aiguë (niveau de preuve L4). Indication d'origine : Insuffisance cardiaque congestive"
+monitor_inn: "bumetanide"
+predicted_indications: ["acute pulmonary heart disease"]
 ---
 
 # Bumetanide

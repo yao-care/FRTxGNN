@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lamotrigine : nouvelle indication prédite, Néoplasme du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie"
+monitor_inn: "LAMOTRIGINE"
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "micturation-induced seizures", "startle epilepsy", "eating seizures", "orgasm-induced seizures", "thinking seizures", "audiogenic seizures", "reading seizures"]
 ---
 
 # Lamotrigine

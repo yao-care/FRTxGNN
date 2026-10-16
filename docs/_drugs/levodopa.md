@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Levodopa : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (niveau de preuve L5). Indication d'origine : Maladie de Parkinson"
+monitor_inn: "levodopa"
+predicted_indications: ["Rasmussen subacute encephalitis"]
 ---
 
 # Levodopa

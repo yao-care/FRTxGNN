@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Biotin : nouvelle indication prédite, Dyspepsie (niveau de preuve L5). Indication d'origine : Carence nutritionnelle en biotine"
+monitor_inn: "biotin"
+predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
 ---
 
 # Biotin

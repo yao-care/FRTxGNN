@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sorbitol : nouvelle indication prédite, Hyperthermie maligne induite par l'effort (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
+monitor_inn: "SORBITOL"
+predicted_indications: ["exercise-induced malignant hyperthermia"]
 ---
 
 # Sorbitol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Siltuximab : nouvelle indication prédite, Mastocytome extracutané (niveau de preuve L5). Indication d'origine : Maladie de Castleman (source : base de connaissances TxGNN…"
+monitor_inn: "SILTUXIMAB"
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 ---
 
 # Siltuximab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metronidazole : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Infections à bactéries anaérobies, giardiase, vaginose bactérienne…"
+monitor_inn: "metronidazole"
+predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 ---
 
 # Metronidazole

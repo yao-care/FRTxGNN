@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Probenecid : nouvelle indication prédite, Hypouricémie rénale (niveau de preuve L5). Indication d'origine : Goutte, hyperuricémie"
+monitor_inn: "probenecid"
+predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 ---
 
 # Probenecid

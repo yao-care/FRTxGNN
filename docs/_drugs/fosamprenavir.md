@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Fosamprenavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
+monitor_inn: "fosamprenavir"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
 ---
 
 # Fosamprenavir

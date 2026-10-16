@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Olsalazine : nouvelle indication prédite, Syndrome myélodysplasique (niveau de preuve L5). Indication d'origine : Non précisée dans les AMM (texte d'indication vide)"
+monitor_inn: "olsalazine"
+predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 ---
 
 # Olsalazine

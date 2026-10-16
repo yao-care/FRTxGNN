@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Voxelotor : nouvelle indication prédite, Thrombopénie héréditaire avec plaquettes normales (niveau de preuve L5). Indication d'origine : Anémie falciforme"
+monitor_inn: "voxelotor"
+predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "acquired monoclonal Ig light chain-associated Fanconi syndrome", "primary release disorder of platelets"]
 ---
 
 # Voxelotor

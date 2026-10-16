@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Palbociclib : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées (palbociclib est conn…"
+monitor_inn: "PALBOCICLIB"
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
 
 # Palbociclib

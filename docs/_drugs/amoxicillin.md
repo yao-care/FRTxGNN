@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Amoxicillin : nouvelle indication prédite, Hyperamylasémie (niveau de preuve L5). Indication d'origine : Infection des voies urinaires, otite moyenne infectieuse…"
+monitor_inn: "amoxicillin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 ---
 
 # Amoxicillin

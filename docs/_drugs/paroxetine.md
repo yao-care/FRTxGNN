@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Paroxetine : nouvelle indication prédite, Syndrome d'Ohdo et ses variants (niveau de preuve L5). Indication d'origine : Données non disponibles dans le texte réglementaire français"
+monitor_inn: "paroxetine"
+predicted_indications: ["Ohdo syndrome and variants"]
 ---
 
 # Paroxetine

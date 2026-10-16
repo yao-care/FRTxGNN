@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Benzoic Acid : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Aucune indication texte renseignée dans les AMM"
+monitor_inn: "benzoic acid"
+predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
 ---
 
 # Benzoic Acid

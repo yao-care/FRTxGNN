@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Clioquinol : nouvelle indication prédite, Candidose cutanée (niveau de preuve L4). Indication d'origine : Dermatophyties : pied d'athlète (tinea pedis), tinea corporis…"
+monitor_inn: "CLIOQUINOL"
+predicted_indications: ["cutaneous candidiasis", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "tinea profunda"]
 ---
 
 # Clioquinol

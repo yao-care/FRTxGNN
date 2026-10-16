@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ketorolac : nouvelle indication prédite, Trouble céphalalgique (céphalées) (niveau de preuve L1). Indication d'origine : Conjonctivite atopique, papillaire et printanière"
+monitor_inn: "ketorolac"
+predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac

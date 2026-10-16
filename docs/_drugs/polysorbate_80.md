@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Polysorbate 80 : nouvelle indication prédite, Érythrodermie ichtyosiforme congénitale (niveau de preuve L5). Indication d'origine : Syndrome de l'œil sec / xérophtalmie"
+monitor_inn: "POLYSORBATE 80"
+predicted_indications: ["congenital ichthyosiform erythroderma"]
 ---
 
 # Polysorbate 80

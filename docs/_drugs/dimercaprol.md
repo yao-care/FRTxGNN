@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Dimercaprol : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (chélation des métaux…"
+monitor_inn: "DIMERCAPROL"
+predicted_indications: ["bronchitis"]
 ---
 
 # Dimercaprol

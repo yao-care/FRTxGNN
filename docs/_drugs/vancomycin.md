@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vancomycin : nouvelle indication prédite, Sclérodermie diffuse (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
+monitor_inn: "vancomycin"
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 ---
 
 # Vancomycin

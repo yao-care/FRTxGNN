@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ribociclib : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L5). Indication d'origine : Non disponible dans les données d'AMM (texte d'indication vide)"
+monitor_inn: "ribociclib"
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 ---
 
 # Ribociclib

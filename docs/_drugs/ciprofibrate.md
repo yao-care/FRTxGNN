@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ciprofibrate : nouvelle indication prédite, Hyperlipoprotéinémie (niveau de preuve L3). Indication d'origine : Hypertriglycéridémie, hyperlipidémie combinée familiale"
+monitor_inn: "CIPROFIBRATE"
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "familial hypercholesterolemia", "hyperlipidemia", "homozygous familial hypercholesterolemia", "familial hyperlipidemia", "fibroma of prostate", "prostate cancer/brain cancer susceptibility"]
 ---
 
 # Ciprofibrate

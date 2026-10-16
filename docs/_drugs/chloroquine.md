@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Chloroquine : nouvelle indication prédite, Arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde p… (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, lupus érythéma…"
+monitor_inn: "chloroquine"
+predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
 ---
 
 # Chloroquine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fosfomycin : nouvelle indication prédite, Urétrite gonococcique (niveau de preuve L5). Indication d'origine : Infection des voies urinaires"
+monitor_inn: "fosfomycin"
+predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
 ---
 
 # Fosfomycin

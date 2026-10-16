@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sertaconazole : nouvelle indication prédite, Teigne du corps (tinea corporis) (niveau de preuve L5). Indication d'origine : Teigne du pied (tinea pedis)"
+monitor_inn: "sertaconazole"
+predicted_indications: ["dermatophytosis of groin and perianal area", "tinea corporis", "cutaneous candidiasis", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "pityriasis versicolor", "tinea profunda"]
 ---
 
 # Sertaconazole

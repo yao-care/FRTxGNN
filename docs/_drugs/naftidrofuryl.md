@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Naftidrofuryl : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). Indication d'origine : Trouble cérébrovasculaire"
+monitor_inn: "NAFTIDROFURYL"
+predicted_indications: ["stroke disorder"]
 ---
 
 # Naftidrofuryl

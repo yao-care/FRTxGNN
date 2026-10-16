@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Digoxin : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Fibrillation auriculaire"
+monitor_inn: "digoxin"
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
 ---
 
 # Digoxin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Baricitinib : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde"
+monitor_inn: "BARICITINIB"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Baricitinib

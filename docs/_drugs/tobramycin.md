@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tobramycin : nouvelle indication prédite, Kératite d'exposition (niveau de preuve L5). Indication d'origine : Infections oculaires bactériennes, notamment la conjonctivite"
+monitor_inn: "tobramycin"
+predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 ---
 
 # Tobramycin

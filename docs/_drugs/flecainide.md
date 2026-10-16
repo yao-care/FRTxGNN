@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flecainide : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L5). Indication d'origine : Fibrillation atriale"
+monitor_inn: "flecainide"
+predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Flecainide

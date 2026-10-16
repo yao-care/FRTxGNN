@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Triptorelin : nouvelle indication prédite, Puberté précoce (niveau de preuve L1). Indication d'origine : Non renseignée dans les données compilées (aucun texte d'indication d…"
+monitor_inn: "triptorelin"
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 ---
 
 # Triptorelin

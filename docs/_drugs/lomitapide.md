@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lomitapide : nouvelle indication prédite, Macrothrombocytopénie avec insuffisance mitrale (niveau de preuve L5). Indication d'origine : Hypercholestérolémie familiale homozygote"
+monitor_inn: "lomitapide"
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
 ---
 
 # Lomitapide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Perindopril : nouvelle indication prédite, Néphropathie hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
+monitor_inn: "perindopril"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 ---
 
 # Perindopril

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Thiopental : nouvelle indication prédite, Trichotillomanie (niveau de preuve L5). Indication d'origine : Épilepsie, pseudotumeur cérébrale, hypertension intracrânienne"
+monitor_inn: "thiopental"
+predicted_indications: ["trichotillomania", "frontal lobe epilepsy", "Prinzmetal angina", "migraine disorder", "absence epilepsy", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Thiopental

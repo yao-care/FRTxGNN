@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Loprazolam : nouvelle indication prédite, Trouble du sommeil (endormissement et maintien du sommeil) (niveau de preuve L3). Indication d'origine : Insomnie"
+monitor_inn: "LOPRAZOLAM"
+predicted_indications: ["sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Loprazolam

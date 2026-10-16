@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tinidazole : nouvelle indication prédite, Vaginite atrophique post-ménopausique (niveau de preuve L5). Indication d'origine : Giardiase, vaginose bactérienne, vaginite, vulvite, vulvovaginite…"
+monitor_inn: "TINIDAZOLE"
+predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "congenital human immunodeficiency virus", "AIDS related complex", "benign mammary dysplasia"]
 ---
 
 # Tinidazole

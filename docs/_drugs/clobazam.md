@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clobazam : nouvelle indication prédite, Syndrome d'épilepsie lié à une infection fébrile (FIRES) (niveau de preuve L5). Indication d'origine : Syndrome de Lennox-Gastaut"
+monitor_inn: "CLOBAZAM"
+predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 ---
 
 # Clobazam

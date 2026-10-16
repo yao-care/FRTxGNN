@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aripiprazole : nouvelle indication prédite, Trouble affectif majeur (major affective disorder) (niveau de preuve L1). Indication d'origine : Trouble bipolaire (manie), schizophrénie…"
+monitor_inn: "ARIPIPRAZOLE"
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 ---
 
 # Aripiprazole

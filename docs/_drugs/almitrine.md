@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Almitrine : nouvelle indication prédite, Bronchite (niveau de preuve L3). Indication d'origine : BPCO"
+monitor_inn: "ALMITRINE"
+predicted_indications: ["bronchitis"]
 ---
 
 # Almitrine

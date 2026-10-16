@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Indacaterol : nouvelle indication prédite, Maladie bronchique (bronchial disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
+monitor_inn: "indacaterol"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
 ---
 
 # Indacaterol

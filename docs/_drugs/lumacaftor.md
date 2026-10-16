@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Lumacaftor : nouvelle indication prédite, Lèpre (niveau de preuve L5). Indication d'origine : Mucoviscidose (fibrose kystique)"
+monitor_inn: "LUMACAFTOR"
+predicted_indications: ["leprosy"]
 ---
 
 # Lumacaftor

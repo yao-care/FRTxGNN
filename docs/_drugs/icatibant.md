@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Icatibant : nouvelle indication prédite, Déficit en inhibiteur de la C1 (niveau de preuve L1). Indication d'origine : Angioedème héréditaire"
+monitor_inn: "icatibant"
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 ---
 
 # Icatibant

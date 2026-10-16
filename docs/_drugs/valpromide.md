@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Valpromide : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée (texte d'indication vide dans l'AMM)"
+monitor_inn: "VALPROMIDE"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Valpromide

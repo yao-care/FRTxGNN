@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nefopam : nouvelle indication prédite, 99,98 % (niveau de preuve L5). Indication d'origine : Cataracte avec craniosténose"
+monitor_inn: "nefopam"
+predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
 ---
 
 # Nefopam

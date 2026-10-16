@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Exemestane : nouvelle indication prédite, Déficience en antithrombine de type 2 (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
+monitor_inn: "exemestane"
+predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Exemestane

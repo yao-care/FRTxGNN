@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Ceftriaxone : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (niveau de preuve L5). Indication d'origine : Infections bactériennes (streptococciques, pneumonie bactérienne…"
+monitor_inn: "ceftriaxone"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
 ---
 
 # Ceftriaxone

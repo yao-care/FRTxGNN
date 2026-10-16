@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Allopurinol : nouvelle indication prédite, Porphyrie hépatique (niveau de preuve L4). Indication d'origine : Goutte"
+monitor_inn: "ALLOPURINOL"
+predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
 ---
 
 # Allopurinol

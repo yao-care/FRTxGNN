@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Aflibercept : nouvelle indication prédite, Ésotropie (niveau de preuve L5). Indication d'origine : Métastases d'une tumeur maligne du côlon"
+monitor_inn: "AFLIBERCEPT"
+predicted_indications: ["esotropia"]
 ---
 
 # Aflibercept

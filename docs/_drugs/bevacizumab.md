@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bevacizumab : nouvelle indication prédite, Néoplasie de l'épiglotte (niveau de preuve L5). Indication d'origine : Cancers du péritoine, de l'ovaire, du sein, du côlon métastatique…"
+monitor_inn: "bevacizumab"
+predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
 ---
 
 # Bevacizumab

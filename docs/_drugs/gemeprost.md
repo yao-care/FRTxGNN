@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Gemeprost : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non disponible"
+monitor_inn: "gemeprost"
+predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension"]
 ---
 
 # Gemeprost

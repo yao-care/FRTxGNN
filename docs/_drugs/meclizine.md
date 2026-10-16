@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Meclizine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L5). Indication d'origine : Vertige d'origine centrale"
+monitor_inn: "meclizine"
+predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 ---
 
 # Meclizine

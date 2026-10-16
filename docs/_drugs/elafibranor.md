@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Elafibranor : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM française (selon la littérature pharmacolog…"
+monitor_inn: "elafibranor"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Elafibranor

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Dapsone : nouvelle indication prédite, Pneumocystose (niveau de preuve L1). Indication d'origine : Dermatite herpétiforme, acné, lèpre"
+monitor_inn: "DAPSONE"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Dapsone

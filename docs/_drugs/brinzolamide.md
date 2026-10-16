@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Brinzolamide : nouvelle indication prédite, Glaucome héréditaire primaire (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert, hypertension oculaire"
+monitor_inn: "BRINZOLAMIDE"
+predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Brinzolamide

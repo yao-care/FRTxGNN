@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ambroxol : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Pharyngite"
+monitor_inn: "AMBROXOL"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Ambroxol

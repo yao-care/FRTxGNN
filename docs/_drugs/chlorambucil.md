@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Chlorambucil : nouvelle indication prédite, Lymphome pulmonaire primitif (niveau de preuve L3). Indication d'origine : Lymphome de Hodgkin (autres indications d'origine : lymphome follicul…"
+monitor_inn: "CHLORAMBUCIL"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "acute lymphoblastic leukemia (disease)", "small cell lung carcinoma"]
 ---
 
 # Chlorambucil

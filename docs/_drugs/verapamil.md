@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Verapamil : nouvelle indication prédite, Bloc de branche (terme obsolète) (niveau de preuve L5). Indication d'origine : Hypertension, fibrillation auriculaire, syndrome coronarien aigu…"
+monitor_inn: "verapamil"
+predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 ---
 
 # Verapamil

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Regorafenib : nouvelle indication prédite, Liposarcome (niveau de preuve L5). Indication d'origine : Métastases d'une tumeur maligne du côlon"
+monitor_inn: "regorafenib"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 ---
 
 # Regorafenib

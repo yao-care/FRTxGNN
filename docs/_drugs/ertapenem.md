@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ertapenem : nouvelle indication prédite, Arthrite bactérienne (niveau de preuve L4). Indication d'origine : Pneumonie bactérienne"
+monitor_inn: "ertapenem"
+predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
 ---
 
 # Ertapenem

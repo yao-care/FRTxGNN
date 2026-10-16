@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Dimenhydrinate : nouvelle indication prédite, Urticaire allergique (niveau de preuve L5). Indication d'origine : Vertige d'origine centrale"
+monitor_inn: "DIMENHYDRINATE"
+predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Dimenhydrinate

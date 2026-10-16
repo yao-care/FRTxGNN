@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lanadelumab : nouvelle indication prédite, Déficience en inhibiteur de C1 (niveau de preuve L1). Indication d'origine : Angio-œdème héréditaire (AOH) et AOH avec déficience en C1-INH"
+monitor_inn: "lanadelumab"
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 ---
 
 # Lanadelumab

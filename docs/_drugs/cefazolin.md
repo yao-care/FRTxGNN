@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Cefazolin : nouvelle indication prédite, Otite moyenne infectieuse (niveau de preuve L4). Indication d'origine : Pneumonie bactérienne, cholangite, endocardite, arthrite bactérienne"
+monitor_inn: "cefazolin"
+predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
 ---
 
 # Cefazolin

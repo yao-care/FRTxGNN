@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Adefovir Dipivoxil : nouvelle indication prédite, Infection chronique par le virus de l'hépatite C (niveau de preuve L5). Indication d'origine : Infection chronique par le virus de l'hépatite B (aucu…"
+monitor_inn: "adefovir dipivoxil"
+predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis B virus infection", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
 ---
 
 # Adefovir Dipivoxil

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Sulfadiazine : nouvelle indication prédite, Pneumocystose (niveau de preuve L4). Indication d'origine : Toxoplasmose"
+monitor_inn: "SULFADIAZINE"
+predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Sulfadiazine

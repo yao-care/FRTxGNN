@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Delamanid : nouvelle indication prédite, Tuberculose bovine (niveau de preuve L4). Indication d'origine : Tuberculose multirésistante"
+monitor_inn: "delamanid"
+predicted_indications: ["tuberculosis, bovine", "tuberculoma", "tuberculous ascites", "inactive tuberculosis", "tuberculosis, avian", "allergic urticaria", "cutaneous tuberculosis"]
 ---
 
 # Delamanid

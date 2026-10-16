@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Isoleucine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (texte d'indication vide pour…"
+monitor_inn: "ISOLEUCINE"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Isoleucine

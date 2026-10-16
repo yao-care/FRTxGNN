@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Denosumab : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (niveau de preuve L5). Indication d'origine : Ostéoporose (ostéoporose post-ménopausique…"
+monitor_inn: "denosumab"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Denosumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Insulin Lispro : nouvelle indication prédite, Ovarite auto-immune (niveau de preuve L5). Indication d'origine : Diabète de type 2"
+monitor_inn: "insulin lispro"
+predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---
 
 # Insulin Lispro

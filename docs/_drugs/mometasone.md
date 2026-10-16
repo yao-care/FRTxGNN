@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Mometasone : nouvelle indication prédite, Lymphome cutané primitif à cellules T (niveau de preuve L5). Indication d'origine : Non précisée dans les AMM compilées (usage connu : asthme…"
+monitor_inn: "mometasone"
+predicted_indications: ["primary cutaneous T-cell lymphoma"]
 ---
 
 # Mometasone

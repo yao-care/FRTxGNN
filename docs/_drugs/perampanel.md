@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Perampanel : nouvelle indication prédite, Épilepsie visuelle (niveau de preuve L4). Indication d'origine : Épilepsie partielle, épilepsie motrice partielle"
+monitor_inn: "perampanel"
+predicted_indications: ["visual epilepsy", "startle epilepsy", "thinking seizures", "audiogenic seizures", "micturation-induced seizures", "orgasm-induced seizures", "eating seizures", "reading seizures", "beta-ketothiolase deficiency", "status epilepticus"]
 ---
 
 # Perampanel

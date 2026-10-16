@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Manidipine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
+monitor_inn: "MANIDIPINE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata"]
 ---
 
 # Manidipine

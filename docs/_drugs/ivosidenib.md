@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ivosidenib : nouvelle indication prédite, Poliomyélite bulbaire (niveau de preuve L5). Indication d'origine : Leucémie myéloïde aiguë"
+monitor_inn: "ivosidenib"
+predicted_indications: ["bulbar polio", "acute myeloid leukemia and myelodysplastic syndromes related to radiation", "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"]
 ---
 
 # Ivosidenib

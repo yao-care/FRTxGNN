@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Clotiazepam : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "clotiazepam"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
 ---
 
 # Clotiazepam

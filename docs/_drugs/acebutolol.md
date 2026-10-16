@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Acebutolol : nouvelle indication prédite, Maladie rénale hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
+monitor_inn: "acebutolol"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension"]
 ---
 
 # Acebutolol

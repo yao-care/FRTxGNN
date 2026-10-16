@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Venetoclax : nouvelle indication prédite, LLC/lymphome lymphocytique à petites cellules avec hypermutation soma… (niveau de preuve L5). Indication d'origine : Leucémie lymphoblastique/lymphocytaire a…"
+monitor_inn: "venetoclax"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "acute myeloid leukemia with t(8;21)(q22;q22) translocation"]
 ---
 
 # Venetoclax

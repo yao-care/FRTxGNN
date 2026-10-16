@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Oxaliplatin : nouvelle indication prédite, Mésothéliome pleural malin (niveau de preuve L2). Indication d'origine : Métastases d'une tumeur maligne du côlon"
+monitor_inn: "oxaliplatin"
+predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 ---
 
 # Oxaliplatin

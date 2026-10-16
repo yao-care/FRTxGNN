@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chlorobutanol : nouvelle indication prédite, Dysfonction érectile (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM compilées (formes bain de bouche…"
+monitor_inn: "chlorobutanol"
+predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "migraine with or without aura, susceptibility to", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
 ---
 
 # Chlorobutanol

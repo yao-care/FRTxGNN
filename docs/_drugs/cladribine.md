@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cladribine : nouvelle indication prédite, Rhabdomyosarcome embryonnaire paraméningé (niveau de preuve L5). Indication d'origine : Leucémie à tricholeucocytes…"
+monitor_inn: "CLADRIBINE"
+predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 ---
 
 # Cladribine

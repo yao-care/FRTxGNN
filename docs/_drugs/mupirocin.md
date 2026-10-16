@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Mupirocin : nouvelle indication prédite, Empyème pleural (niveau de preuve L5). Indication d'origine : Impétigo, impétigo bulleux"
+monitor_inn: "mupirocin"
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Mupirocin

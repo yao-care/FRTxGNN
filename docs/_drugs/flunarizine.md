@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Flunarizine : nouvelle indication prédite, Trouble migraineux (migraine) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
+monitor_inn: "FLUNARIZINE"
+predicted_indications: ["migraine disorder"]
 ---
 
 # Flunarizine

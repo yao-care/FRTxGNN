@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Estazolam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
+monitor_inn: "ESTAZOLAM"
+predicted_indications: ["insomnia (disease)", "visual epilepsy", "alcohol withdrawal delirium", "restless legs syndrome", "myofascial pain syndrome", "eating seizures", "orgasm-induced seizures", "audiogenic seizures", "startle epilepsy", "thinking seizures"]
 ---
 
 # Estazolam

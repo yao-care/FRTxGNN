@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Carbocisteine : nouvelle indication prédite, Goutte (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (les textes d'indication de…"
+monitor_inn: "carbocisteine"
+predicted_indications: ["gout"]
 ---
 
 # Carbocisteine

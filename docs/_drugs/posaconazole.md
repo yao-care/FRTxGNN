@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Posaconazole : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Mycoses invasives et superficielles (aspergillose, candidose…"
+monitor_inn: "POSACONAZOLE"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Posaconazole

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Primaquine : nouvelle indication prédite, Myiase (niveau de preuve L5). Indication d'origine : Paludisme à Plasmodium vivax"
+monitor_inn: "primaquine"
+predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "malaria", "pneumocystosis"]
 ---
 
 # Primaquine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flubendazole : nouvelle indication prédite, Carcinome de la vessie (urinary bladder carcinoma) (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (texte d'indicatio…"
+monitor_inn: "FLUBENDAZOLE"
+predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
 ---
 
 # Flubendazole

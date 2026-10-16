@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Rifaximin : nouvelle indication prédite, Candidose buccale (niveau de preuve L4). Indication d'origine : Encéphalopathie hépatique…"
+monitor_inn: "rifaximin"
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 ---
 
 # Rifaximin

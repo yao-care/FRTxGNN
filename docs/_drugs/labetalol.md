@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Labetalol : nouvelle indication prédite, Hypertension rénovasculaire maligne (niveau de preuve L4). Indication d'origine : Hypertension artérielle / troubles hypertensifs"
+monitor_inn: "labetalol"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Labetalol

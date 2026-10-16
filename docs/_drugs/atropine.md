@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Atropine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM disponibles"
+monitor_inn: "ATROPINE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Atropine

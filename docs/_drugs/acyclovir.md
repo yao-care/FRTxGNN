@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Acyclovir : nouvelle indication prédite, Verrue commune (niveau de preuve L2). Indication d'origine : Infections herpétiques (herpès simplex, zona, varicelle…"
+monitor_inn: "Acyclovir"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
 ---
 
 # Acyclovir

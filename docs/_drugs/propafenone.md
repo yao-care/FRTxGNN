@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Propafenone : nouvelle indication prédite, Tachycardie ventriculaire polymorphe catécholergique (niveau de preuve L3). Indication d'origine : Fibrillation auriculaire…"
+monitor_inn: "propafenone"
+predicted_indications: ["manic bipolar affective disorder", "catecholaminergic polymorphic ventricular tachycardia", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "incessant infant ventricular tachycardia", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 ---
 
 # Propafenone

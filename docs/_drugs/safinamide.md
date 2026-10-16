@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Safinamide : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (niveau de preuve L5). Indication d'origine : Maladie de Parkinson"
+monitor_inn: "safinamide"
+predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 ---
 
 # Safinamide

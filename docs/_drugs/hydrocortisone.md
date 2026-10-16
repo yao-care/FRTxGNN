@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hydrocortisone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L5). Indication d'origine : Non précisée dans les textes d'AMM disponibles"
+monitor_inn: "HYDROCORTISONE"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "idiopathic steroid-sensitive nephrotic syndrome"]
 ---
 
 # Hydrocortisone

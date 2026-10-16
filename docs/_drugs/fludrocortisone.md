@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Fludrocortisone : nouvelle indication prédite, Maladie oculaire (« eye disease ») (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "fludrocortisone"
+predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
 ---
 
 # Fludrocortisone

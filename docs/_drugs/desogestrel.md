@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desogestrel : nouvelle indication prédite, Aménorrhée (niveau de preuve L3). Indication d'origine : Non précisée dans les données d'AMM compilées (usage contraceptif con…"
+monitor_inn: "desogestrel"
+predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 ---
 
 # Desogestrel

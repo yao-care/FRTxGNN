@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atosiban : nouvelle indication prédite, Glaucome primitif héréditaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM compilées (usage tocolytique d'après les…"
+monitor_inn: "ATOSIBAN"
+predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
 ---
 
 # Atosiban

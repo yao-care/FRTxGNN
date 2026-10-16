@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Guaifenesin : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L4). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, rhinite…"
+monitor_inn: "guaifenesin"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 ---
 
 # Guaifenesin

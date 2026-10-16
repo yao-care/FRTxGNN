@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Rutin : nouvelle indication prédite, Maladie fibrokystique du sein (niveau de preuve L5). Indication d'origine : Carence en acide ascorbique, scorbut"
+monitor_inn: "rutin"
+predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "vulvovaginal candidiasis", "breast abscess", "fat necrosis of breast", "vaginitis (disease)"]
 ---
 
 # Rutin

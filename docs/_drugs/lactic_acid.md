@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lactic Acid : nouvelle indication prédite, Coarctation atypique de l'aorte (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM (texte d'indication vide)"
+monitor_inn: "lactic acid"
+predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 ---
 
 # Lactic Acid

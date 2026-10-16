@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ropinirole : nouvelle indication prédite, Trouble du déficit de l'attention avec hyperactivité (TDAH) (niveau de preuve L3). Indication d'origine : Syndrome des jambes sans repos, maladie de Parkinson"
+monitor_inn: "ROPINIROLE"
+predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 ---
 
 # Ropinirole

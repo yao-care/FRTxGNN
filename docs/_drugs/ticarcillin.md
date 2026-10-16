@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ticarcillin : nouvelle indication prédite, Maladie du péritoine (la première prédiction du classement est le myo… (niveau de preuve L5). Indication d'origine : Infections bactériennes (infection urin…"
+monitor_inn: "ticarcillin"
+predicted_indications: ["lymph node palisaded myofibroblastoma", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "sacrum chordoma", "disease of retroperitoneum", "urethral disease", "disease of uterine broad ligament", "disease of peritoneum", "pelvic varices"]
 ---
 
 # Ticarcillin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ginseng : nouvelle indication prédite, Ostéoporose médicamenteuse (drug-induced osteoporosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM"
+monitor_inn: "ginseng"
+predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "craniostenosis cataract"]
 ---
 
 # Ginseng

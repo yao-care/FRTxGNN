@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Glargine : nouvelle indication prédite, Ovarite auto-immune (niveau de preuve L5). Indication d'origine : Diabète de type 2, diabète de type 1, acidocétose diabétique"
+monitor_inn: "insulin glargine"
+predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 ---
 
 # Insulin Glargine

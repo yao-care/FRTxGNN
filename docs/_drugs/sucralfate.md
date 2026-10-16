@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Sucralfate : nouvelle indication prédite, Reflux duodéno-gastrique (niveau de preuve L3). Indication d'origine : Ulcère duodénal"
+monitor_inn: "SUCRALFATE"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 ---
 
 # Sucralfate

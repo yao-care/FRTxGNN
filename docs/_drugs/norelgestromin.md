@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Norelgestromin : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM"
+monitor_inn: "norelgestromin"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Norelgestromin

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Givosiran : nouvelle indication prédite, Porphyrie par déficit en ALA déshydratase (ADP) (niveau de preuve L4). Indication d'origine : Porphyrie hépatique (le texte d'indication de l'AMM n'est pas re…"
+monitor_inn: "givosiran"
+predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "porphyria due to ALA dehydratase deficiency", "disorder of phenylalanine metabolism"]
 ---
 
 # Givosiran

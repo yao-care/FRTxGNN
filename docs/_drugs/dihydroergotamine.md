@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Dihydroergotamine : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L5). Indication d'origine : Migraine (avec ou sans aura), algie vasculaire de la face…"
+monitor_inn: "dihydroergotamine"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Dihydroergotamine

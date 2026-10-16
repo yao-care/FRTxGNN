@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxalic Acid : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM"
+monitor_inn: "oxalic acid"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "antithrombin deficiency type 2", "hemoglobinopathy", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hyperthyroidism"]
 ---
 
 # Oxalic Acid

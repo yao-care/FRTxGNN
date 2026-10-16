@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mycophenolate Mofetil : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
+monitor_inn: "mycophenolate mofetil"
+predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 ---
 
 # Mycophenolate Mofetil

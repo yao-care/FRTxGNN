@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Zonisamide : nouvelle indication prédite, Syndrome de Gilles de la Tourette (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles (les textes d'indi…"
+monitor_inn: "ZONISAMIDE"
+predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "absence epilepsy", "fibromyalgia", "conjunctivitis"]
 ---
 
 # Zonisamide

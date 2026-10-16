@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pentosan Polysulfate : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (niveau de preuve L5). Indication d'origine : Cystite interstitielle"
+monitor_inn: "pentosan polysulfate"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
 ---
 
 # Pentosan Polysulfate

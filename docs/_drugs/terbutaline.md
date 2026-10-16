@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Terbutaline : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L1). Indication d'origine : Asthme"
+monitor_inn: "TERBUTALINE"
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Terbutaline

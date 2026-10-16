@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Lactulose : nouvelle indication prédite, Ictère obstructif (prédiction classée n°3 (niveau de preuve L3). Indication d'origine : Encéphalopathie hépatique, coma hépatique…"
+monitor_inn: "LACTULOSE"
+predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 ---
 
 # Lactulose

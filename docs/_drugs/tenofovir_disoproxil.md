@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tenofovir Disoproxil : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite …"
+monitor_inn: "tenofovir disoproxil"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Tenofovir Disoproxil

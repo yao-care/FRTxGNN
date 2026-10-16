@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dihydralazine : nouvelle indication prédite, Maladie cardiaque (heart disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans la licence (texte d'indication vide)"
+monitor_inn: "dihydralazine"
+predicted_indications: ["heart disease", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "Jeune syndrome situs inversus", "disorder of fucoglycosan synthesis", "pulmonary valve disease", "partial deletion of the long arm of chromosome 22"]
 ---
 
 # Dihydralazine

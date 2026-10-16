@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Remdesivir : nouvelle indication prédite, Infection par le VIH (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
+monitor_inn: "remdesivir"
+predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 ---
 
 # Remdesivir

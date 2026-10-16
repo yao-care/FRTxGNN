@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ethinylestradiol : nouvelle indication prédite, Élévation du zinc plasmatique (niveau de preuve L5). Indication d'origine : Acné, ostéoporose post-ménopausique, ostéoporose, atrophie vulvaire…"
+monitor_inn: "ethinylestradiol"
+predicted_indications: ["zinc, elevated plasma"]
 ---
 
 # Ethinylestradiol

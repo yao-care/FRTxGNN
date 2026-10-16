@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Piribedil : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (niveau de preuve L5). Indication d'origine : Maladie de Parkinson / syndrome parkinsonien (texte …"
+monitor_inn: "piribedil"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration", "juvenile onset Parkinson disease 19A"]
 ---
 
 # Piribedil

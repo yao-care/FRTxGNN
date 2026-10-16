@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Buprenorphine : nouvelle indication prédite, Porphyrie aiguë intermittente (niveau de preuve L4). Indication d'origine : Dépendance aux opiacés"
+monitor_inn: "buprenorphine"
+predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
 ---
 
 # Buprenorphine

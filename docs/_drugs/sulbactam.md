@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulbactam : nouvelle indication prédite, Arthrite bactérienne (niveau de preuve L3). Indication d'origine : Cholangite, infections à Staphylococcus aureus…"
+monitor_inn: "sulbactam"
+predicted_indications: ["bacterial arthritis"]
 ---
 
 # Sulbactam

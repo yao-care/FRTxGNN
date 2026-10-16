@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Dexpanthenol : nouvelle indication prédite, Exanthème (niveau de preuve L4). Indication d'origine : Maladie de la peau, dermatite, eczéma atopique, iléus paralytique…"
+monitor_inn: "dexpanthenol"
+predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Dexpanthenol

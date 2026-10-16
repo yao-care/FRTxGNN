@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prasterone : nouvelle indication prédite, Déficience en cofacteur II de l'héparine (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
+monitor_inn: "prasterone"
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
 ---
 
 # Prasterone

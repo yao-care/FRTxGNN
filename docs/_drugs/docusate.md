@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (niveau de preuve L5). Indication d'origine : Constipation"
+monitor_inn: "Docusate"
+predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
 ---
 
 # Docusate

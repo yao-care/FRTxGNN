@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cyclosporine : nouvelle indication prédite, Granulomatose septique chronique, autosomique récessive (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde, syndrome de l'œil sec, xérop…"
+monitor_inn: "cyclosporine"
+predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 ---
 
 # Cyclosporine

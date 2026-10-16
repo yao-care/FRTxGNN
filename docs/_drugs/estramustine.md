@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Estramustine : nouvelle indication prédite, Susceptibilité au cancer de la prostate/du cerveau (niveau de preuve L5). Indication d'origine : Cancer de la prostate (néoplasme/carcinome de la prostate)"
+monitor_inn: "estramustine"
+predicted_indications: ["prostate cancer/brain cancer susceptibility", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "male reproductive organ cancer", "benign prostate phyllodes tumor", "female breast carcinoma", "HIV infectious disease", "breast fibrocystic disease"]
 ---
 
 # Estramustine
