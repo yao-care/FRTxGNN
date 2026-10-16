@@ -80,7 +80,7 @@ repositionnement de médicaments conçu spécifiquement pour les cliniciens.
 « TxGNN intègre un graphe de connaissances de 17 080 entités biomédicales et utilise des réseaux de neurones sur graphes
 pour apprendre les relations complexes entre les nœuds, prédisant l'efficacité potentielle de médicaments contre
 les maladies rares. »
-<cite>&mdash; Huang et al., Nature Medicine (2023)</cite>
+<cite>&mdash; Huang et al., Nature Medicine (2024)</cite>
 </blockquote>
 
 ---

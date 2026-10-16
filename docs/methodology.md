@@ -48,20 +48,15 @@ ces preuves sont graduées de L1 à L5, et enfin une recommandation de décision
 
 ---
 
-## Prédiction à double moteur
+## Comment les prédictions sont produites
 
-Deux méthodes s'exécutent en parallèle, et une étiquette de confiance indique si elles concordent :
+Le modèle d'apprentissage profond (DL) de TxGNN attribue un score à chaque couple médicament–maladie. Les indications et contre-indications déjà enregistrées pour le médicament dans le graphe de connaissances (KG) de TxGNN sont ensuite retirées : les pages médicament n'affichent donc que de nouvelles indications prédites avec un score d'au moins 0,99 (jusqu'à 10 par médicament).
 
-| Méthode | Vitesse | Précision | Description |
-|--------|-------|-----------|-------------|
-| Graphe de connaissances (KG) | Rapide | Plus faible | Inférence à partir des relations DrugBank et de la structure du graphe |
-| Apprentissage profond (DL) | Lent | Plus élevée | Modèle de réseau de neurones sur graphes TxGNN |
-
-| Confiance | Source | Signification |
-|------------|--------|---------|
-| very_high | KG + DL | Les deux méthodes concordent |
-| high | DL seul | Appui de l'apprentissage profond avec score élevé |
-| medium | KG seul | Appui du graphe de connaissances |
+| Étape | Rôle |
+|-------|------|
+| Apprentissage profond (DL) | Le réseau de neurones sur graphe de TxGNN attribue un score à chaque couple médicament–maladie |
+| Vérification des usages connus (KG) | Retire les indications et contre-indications déjà enregistrées dans le graphe de connaissances ; elles ne comptent pas comme nouvelles prédictions |
+| Collecte des preuves | Interroge ClinicalTrials.gov et PubMed pour chaque prédiction restante et attribue un niveau de preuve (L1–L5) |
 
 ---
 
