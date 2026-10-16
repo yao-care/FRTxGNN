@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Amiodarone : nouvelle indication prédite, Tachycardie ventriculaire polymorphe catécholaminergique (niveau de preuve L5). Indication d'origine : Fibrillation ventriculaire (le texte d'indication des …"
 ---
 
 # Amiodarone

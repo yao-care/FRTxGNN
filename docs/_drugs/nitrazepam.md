@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 540
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Nitrazepam : nouvelle indication prédite, Trouble du sommeil (difficulté d'initier et de maintenir le sommeil) (niveau de preuve L4). Indication d'origine : Insomnie"
 ---
 
 # Nitrazepam

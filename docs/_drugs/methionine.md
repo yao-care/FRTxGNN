@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methionine : nouvelle indication prédite, Acné (prédiction de rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée (le texte d'indication des AMM est vide)"
 ---
 
 # Methionine

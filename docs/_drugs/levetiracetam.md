@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 447
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Levetiracetam : nouvelle indication prédite, État de mal épileptique (niveau de preuve L1). Indication d'origine : Épilepsie partielle"
 ---
 
 # Levetiracetam

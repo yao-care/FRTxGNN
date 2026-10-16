@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Pretomanid : nouvelle indication prédite, Candidose (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM française (tuberculose pharmacorésistante d…"
 ---
 
 # Pretomanid

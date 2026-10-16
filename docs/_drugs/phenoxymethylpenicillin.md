@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Phenoxymethylpenicillin : nouvelle indication prédite, Épiglottite (niveau de preuve L5). Indication d'origine : Infections streptococciques et des voies respiratoires (otite moyenne…"
 ---
 
 # Phenoxymethylpenicillin

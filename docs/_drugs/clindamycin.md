@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Clindamycin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Acné, infections à streptocoques et à staphylocoques…"
 ---
 
 # Clindamycin

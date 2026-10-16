@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 370
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Golimumab : nouvelle indication prédite, Vascularite rhumatoïde (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde, rhumatisme psoriasique…"
 ---
 
 # Golimumab

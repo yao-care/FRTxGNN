@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alglucosidase Alfa : nouvelle indication prédite, Maladie des corps de polyglucosanes de l'adulte (niveau de preuve L5). Indication d'origine : Maladie de stockage du glycogène"
 ---
 
 # Alglucosidase Alfa

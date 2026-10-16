@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 723
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Sulpiride : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (niveau de preuve L4). Indication d'origine : Schizophrénie"
 ---
 
 # Sulpiride

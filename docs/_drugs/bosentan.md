@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Bosentan : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Hypertension pulmonaire / hypertension artérielle pulmonaire…"
 ---
 
 # Bosentan

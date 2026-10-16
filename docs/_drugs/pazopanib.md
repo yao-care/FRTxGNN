@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 581
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pazopanib : nouvelle indication prédite, Carcinome rénal non classé (niveau de preuve L3). Indication d'origine : Sarcome des tissus mous, carcinome rénal à cellules claires"
 ---
 
 # Pazopanib

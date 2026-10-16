@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 627
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Pregabalin : nouvelle indication prédite, Tendinite (niveau de preuve L4). Indication d'origine : Trouble anxieux, fibromyalgie, syndrome douloureux myofascial…"
 ---
 
 # Pregabalin

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 693
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Scopolamine : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Maladie ulcéreuse gastroduodénale"
 ---
 
 # Scopolamine

@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 188
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clonidine : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L3). Indication d'origine : Hypertension artérielle"
 ---
 
 # Clonidine

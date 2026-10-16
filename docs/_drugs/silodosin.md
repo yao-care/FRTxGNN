@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Silodosin : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie bénigne de la prostate"
 ---
 
 # Silodosin

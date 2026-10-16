@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Ivermectin : nouvelle indication prédite, Candidose vulvovaginale (niveau de preuve L5). Indication d'origine : Strongyloïdose, onchocercose"
 ---
 
 # Ivermectin

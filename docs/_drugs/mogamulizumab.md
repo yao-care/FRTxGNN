@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Mogamulizumab : nouvelle indication prédite, Carcinome urothélial de l'urètre prostatique (niveau de preuve L5). Indication d'origine : Mycosis fongoïde et variantes"
 ---
 
 # Mogamulizumab

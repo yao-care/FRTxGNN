@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 491
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Metoclopramide : nouvelle indication prédite, Ulcère gastrique (niveau de preuve L4). Indication d'origine : Reflux gastro-œsophagien, œsophagite"
 ---
 
 # Metoclopramide

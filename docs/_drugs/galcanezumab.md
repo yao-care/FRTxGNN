@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Galcanezumab : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (niveau de preuve L5). Indication d'origine : Migraine (avec ou sans aura)"
 ---
 
 # Galcanezumab

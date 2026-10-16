@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sulfasalazine : nouvelle indication prédite, Arthrose (candidate la mieux étayée (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, rectocolite hémorragique…"
 ---
 
 # Sulfasalazine

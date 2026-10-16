@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vismodegib : nouvelle indication prédite, Médulloblastome avec nodularité extensive (niveau de preuve L5). Indication d'origine : Carcinome basocellulaire (et autres cancers cutanés ou annexiels)"
 ---
 
 # Vismodegib

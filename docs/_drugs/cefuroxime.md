@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cefuroxime : nouvelle indication prédite, Infection urinaire (rang 6 (niveau de preuve L5). Indication d'origine : Infections bactériennes (otite moyenne infectieuse…"
 ---
 
 # Cefuroxime

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tetrabenazine : nouvelle indication prédite, Maladie rénale polykystique de type 3 (avec ou sans maladie polykysti… (niveau de preuve L5). Indication d'origine : Maladie de Huntington"
 ---
 
 # Tetrabenazine

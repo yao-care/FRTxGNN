@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bromocriptine : nouvelle indication prédite, Schizophrénie (candidat retenu pour l'évaluation… (niveau de preuve L5). Indication d'origine : Maladie de Parkinson, hyperprolactinémie, acromégalie"
 ---
 
 # Bromocriptine

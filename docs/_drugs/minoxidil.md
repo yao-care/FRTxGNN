@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 503
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L3). Indication d'origine : Hypertension artérielle et alopécie"
 ---
 
 # Minoxidil

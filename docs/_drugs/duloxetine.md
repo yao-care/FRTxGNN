@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Duloxetine : nouvelle indication prédite, Trouble obsessionnel-compulsif (niveau de preuve L5). Indication d'origine : Dépression unipolaire / trouble dépressif majeur"
 ---
 
 # Duloxetine

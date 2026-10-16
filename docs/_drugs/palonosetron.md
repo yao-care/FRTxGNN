@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 574
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Palonosetron : nouvelle indication prédite, Migraine (« migraine disorder ») (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 ---
 
 # Palonosetron

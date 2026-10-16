@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Difluprednate : nouvelle indication prédite, Hypoplasie surrénalienne familiale avec absence de LH hypophysaire (r… (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM française (…"
 ---
 
 # Difluprednate

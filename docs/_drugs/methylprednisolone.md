@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 490
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methylprednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L3). Indication d'origine : Maladie auto-immune"
 ---
 
 # Methylprednisolone

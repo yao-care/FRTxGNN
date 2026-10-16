@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Roxadustat : nouvelle indication prédite, Syndrome de l'œil sec (niveau de preuve L5). Indication d'origine : Anémie réfractaire"
 ---
 
 # Roxadustat

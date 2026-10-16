@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 275
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Eletriptan : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Migraine (migraine avec ou sans aura)"
 ---
 
 # Eletriptan

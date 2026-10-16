@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Quetiapine : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (niveau de preuve L5). Indication d'origine : Troubles bipolaires, trouble affectif majeur, mani…"
 ---
 
 # Quetiapine

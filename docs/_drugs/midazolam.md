@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 499
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Midazolam : nouvelle indication prédite, Insomnie (niveau de preuve L3). Indication d'origine : Anxiété"
 ---
 
 # Midazolam

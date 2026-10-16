@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 83
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Avelumab : nouvelle indication prédite, Tumeur liée à l'herpèsvirus humain 8 (niveau de preuve L5). Indication d'origine : Carcinome neuroendocrine cutané (texte d'indication de l'AMM non rens…"
 ---
 
 # Avelumab

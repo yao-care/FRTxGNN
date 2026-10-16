@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desonide : nouvelle indication prédite, Polype des cordes vocales (niveau de preuve L5). Indication d'origine : Dermatite atopique, dermatite de contact, dermatite seborrheique"
 ---
 
 # Desonide

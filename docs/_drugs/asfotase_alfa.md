@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Asfotase Alfa : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anoma… (niveau de preuve L5). Indication d'origine : Hypophosphatasie"
 ---
 
 # Asfotase Alfa

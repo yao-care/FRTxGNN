@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 697
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Selpercatinib : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (texte d'indication vide po…"
 ---
 
 # Selpercatinib

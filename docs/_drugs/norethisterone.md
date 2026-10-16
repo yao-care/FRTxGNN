@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 546
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Norethisterone : nouvelle indication prédite, Aménorrhée (niveau de preuve L4). Indication d'origine : Insuffisance ovarienne primaire, endométriose…"
 ---
 
 # Norethisterone

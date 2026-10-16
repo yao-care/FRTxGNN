@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 226
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Desmopressin : nouvelle indication prédite, Défaut primaire de sécrétion plaquettaire (primary release disorder o… (niveau de preuve L3). Indication d'origine : Maladie de von Willebrand, hémophilie,…"
 ---
 
 # Desmopressin

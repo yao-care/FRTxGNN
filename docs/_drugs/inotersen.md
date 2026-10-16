@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 398
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Inotersen : nouvelle indication prédite, Porphyrie aiguë intermittente (niveau de preuve L4). Indication d'origine : Non renseignée dans l'AMM française"
 ---
 
 # Inotersen

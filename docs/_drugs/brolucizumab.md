@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Brolucizumab : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anoma… (niveau de preuve L5). Indication d'origine : Dégénérescence maculaire (texte d'indi…"
 ---
 
 # Brolucizumab

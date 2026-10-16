@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 752
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Thiamine : nouvelle indication prédite, Hyperthyroïdie (niveau de preuve L3). Indication d'origine : Non renseignée"
 ---
 
 # Thiamine

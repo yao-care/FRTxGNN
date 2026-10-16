@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Clarithromycin : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (niveau de preuve L5). Indication d'origine : Infections bactériennes (otite moyenne infectieuse, pneumonies…"
 ---
 
 # Clarithromycin

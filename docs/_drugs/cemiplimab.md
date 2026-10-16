@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cemiplimab : nouvelle indication prédite, Carcinome adénosquameux de la vésicule biliaire (niveau de preuve L5). Indication d'origine : Carcinome épidermoïde"
 ---
 
 # Cemiplimab

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 121
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Budesonide : nouvelle indication prédite, Eczéma atopique (niveau de preuve L5). Indication d'origine : Maladie de Crohn, maladies inflammatoires de l'intestin, asthme…"
 ---
 
 # Budesonide

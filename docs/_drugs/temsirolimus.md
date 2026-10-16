@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Temsirolimus : nouvelle indication prédite, Liposarcome (niveau de preuve L5). Indication d'origine : Carcinome rénal à cellules claires…"
 ---
 
 # Temsirolimus

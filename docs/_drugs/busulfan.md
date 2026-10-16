@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 125
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Busulfan : nouvelle indication prédite, Syndrome myélodysplasique (niveau de preuve L1). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 ---
 
 # Busulfan

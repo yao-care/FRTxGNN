@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Acetic Acid : nouvelle indication prédite, Trouble post-bactérien (niveau de preuve L5). Indication d'origine : Otite externe, maladie de l'oreille externe"
 ---
 
 # Acetic Acid

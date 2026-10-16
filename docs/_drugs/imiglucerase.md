@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 392
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Imiglucerase : nouvelle indication prédite, Syndrome de Hurler (niveau de preuve L4). Indication d'origine : Maladie de Gaucher"
 ---
 
 # Imiglucerase

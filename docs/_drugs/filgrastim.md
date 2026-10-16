@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Filgrastim : nouvelle indication prédite, Primary release disorder of platelets (trouble primaire de la sécréti… (niveau de preuve L5). Indication d'origine : Neutropénie constitutionnelle / neutropé…"
 ---
 
 # Filgrastim

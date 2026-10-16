@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 750
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Tezacaftor : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Mucoviscidose (fibrose kystique)"
 ---
 
 # Tezacaftor

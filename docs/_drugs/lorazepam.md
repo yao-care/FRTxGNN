@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lorazepam : nouvelle indication prédite, Tumeur du nerf trijumeau (niveau de preuve L5). Indication d'origine : Anxiété, état de mal épileptique, épilepsie-absence…"
 ---
 
 # Lorazepam

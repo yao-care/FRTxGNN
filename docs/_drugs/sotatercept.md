@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sotatercept : nouvelle indication prédite, Leucémie lymphoblastique aiguë (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 ---
 
 # Sotatercept

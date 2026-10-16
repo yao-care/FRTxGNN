@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 541
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Nitrendipine : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L3). Indication d'origine : Non précisée dans les AMM (texte d'indication vide)"
 ---
 
 # Nitrendipine

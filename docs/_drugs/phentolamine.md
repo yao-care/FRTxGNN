@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 598
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Phentolamine : nouvelle indication prédite, Maladie vasculaire (niveau de preuve L3). Indication d'origine : Phéochromocytome (surrénalien), paragangliome sympathique…"
 ---
 
 # Phentolamine

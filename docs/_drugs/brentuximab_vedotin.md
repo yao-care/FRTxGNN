@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 113
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Brentuximab Vedotin : nouvelle indication prédite, Lymphome folliculaire (niveau de preuve L3). Indication d'origine : Lymphome de Hodgkin (lymphome de Hodgkin classique)"
 ---
 
 # Brentuximab Vedotin

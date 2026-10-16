@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 439
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Latanoprost : nouvelle indication prédite, Glaucome héréditaire primaire (niveau de preuve L4). Indication d'origine : Glaucome à angle ouvert, hypertension oculaire"
 ---
 
 # Latanoprost

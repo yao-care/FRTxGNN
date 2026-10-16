@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lidocaine : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (niveau de preuve L5). Indication d'origine : Dermatite, névralgie, névralgie post-zostérienne, hémorroïdes, gale…"
 ---
 
 # Lidocaine

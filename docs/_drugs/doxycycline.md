@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 259
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Doxycycline : nouvelle indication prédite, Gingivite chronique (prédiction de rang 10) (niveau de preuve L3). Indication d'origine : Bronchite, acné, pneumonie bactérienne, charbon, gonorrhée…"
 ---
 
 # Doxycycline

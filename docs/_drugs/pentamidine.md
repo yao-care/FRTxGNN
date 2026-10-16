@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Pentamidine : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (niveau de preuve L5). Indication d'origine : Pneumocystose, trypanosomiase humaine africaine, trypanosomiase"
 ---
 
 # Pentamidine

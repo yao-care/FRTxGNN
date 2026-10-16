@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Efmoroctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie (forme symptomatique de l'hémophilie chez les porteuses)"
 ---
 
 # Efmoroctocog Alfa

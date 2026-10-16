@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 659
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Remdesivir : nouvelle indication prédite, Infection par le VIH (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 ---
 
 # Remdesivir

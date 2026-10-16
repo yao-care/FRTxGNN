@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 801
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Valine : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L4). Indication d'origine : Non précisée dans les données compilées (texte d'indication vide pour…"
 ---
 
 # Valine

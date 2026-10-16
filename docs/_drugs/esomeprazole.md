@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Esomeprazole : nouvelle indication prédite, Reflux duodénogastrique (niveau de preuve L5). Indication d'origine : Ulcère peptique, reflux gastro-œsophagien, œsophagite…"
 ---
 
 # Esomeprazole

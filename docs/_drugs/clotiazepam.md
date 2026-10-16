@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 190
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Clotiazepam : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 ---
 
 # Clotiazepam

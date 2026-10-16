@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 711
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Sotalol : nouvelle indication prédite, Syndrome du sinus malade, forme autosomique dominante 2 (niveau de preuve L5). Indication d'origine : Fibrillation auriculaire"
 ---
 
 # Sotalol

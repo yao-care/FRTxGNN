@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Atazanavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 ---
 
 # Atazanavir

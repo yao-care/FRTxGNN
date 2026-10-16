@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 638
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Propylthiouracil : nouvelle indication prédite, Résistance aux hormones thyroïdiennes due à une mutation du récepteur… (niveau de preuve L4). Indication d'origine : Hyperthyroïdie, maladie de Basedow…"
 ---
 
 # Propylthiouracil

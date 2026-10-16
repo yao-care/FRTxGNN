@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Pravastatin : nouvelle indication prédite, Hypercholestérolémie familiale homozygote (niveau de preuve L5). Indication d'origine : Hypertriglycéridémie, athérosclérose, accident vasculaire cérébral"
 ---
 
 # Pravastatin

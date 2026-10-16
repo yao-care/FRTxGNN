@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 704
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Siltuximab : nouvelle indication prédite, Mastocytome extracutané (niveau de preuve L5). Indication d'origine : Maladie de Castleman (source : base de connaissances TxGNN…"
 ---
 
 # Siltuximab

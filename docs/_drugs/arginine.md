@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Arginine : nouvelle indication prédite, Gastroparésie (niveau de preuve L4). Indication d'origine : Non renseignée dans les données compilées"
 ---
 
 # Arginine

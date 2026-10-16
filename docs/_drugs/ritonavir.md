@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 674
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Ritonavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L4). Indication d'origine : Infection par le VIH / SIDA"
 ---
 
 # Ritonavir

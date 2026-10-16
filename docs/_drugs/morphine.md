@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 516
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Morphine : nouvelle indication prédite, Syndrome des jambes sans repos (niveau de preuve L3). Indication d'origine : Maladie diarrhéique"
 ---
 
 # Morphine

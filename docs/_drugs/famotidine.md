@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 316
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Famotidine : nouvelle indication prédite, Maladie ulcéreuse peptique (peptic ulcer disease) (niveau de preuve L1). Indication d'origine : Non précisée dans les données d'AMM"
 ---
 
 # Famotidine

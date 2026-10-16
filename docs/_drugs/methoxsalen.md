@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 488
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methoxsalen : nouvelle indication prédite, Réticulose pagétoïde localisée (niveau de preuve L4). Indication d'origine : Lymphome cutané primitif à cellules T (non hodgkinien)"
 ---
 
 # Methoxsalen

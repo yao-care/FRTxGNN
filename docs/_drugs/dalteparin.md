@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Dalteparin : nouvelle indication prédite, Thrombophilie par déficit en protéine C, autosomique récessif (niveau de preuve L5). Indication d'origine : Embolie pulmonaire, coagulation intravasculaire d…"
 ---
 
 # Dalteparin

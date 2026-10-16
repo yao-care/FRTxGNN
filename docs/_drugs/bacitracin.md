@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 88
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bacitracin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L4). Indication d'origine : Kératite, kératoconjonctivite, blépharoconjonctivite"
 ---
 
 # Bacitracin

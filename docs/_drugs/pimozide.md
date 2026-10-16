@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 604
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pimozide : nouvelle indication prédite, Trichotillomanie (niveau de preuve L3). Indication d'origine : Syndrome de Gilles de la Tourette"
 ---
 
 # Pimozide

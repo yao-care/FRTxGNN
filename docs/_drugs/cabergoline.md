@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Cabergoline : nouvelle indication prédite, Cancer de l'hypophyse (niveau de preuve L5). Indication d'origine : Hyperprolactinémie (y compris formes familiale et acquise) et tumeur…"
 ---
 
 # Cabergoline

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pyrazinamide : nouvelle indication prédite, Otite moyenne infectieuse (niveau de preuve L5). Indication d'origine : Tuberculose pulmonaire"
 ---
 
 # Pyrazinamide

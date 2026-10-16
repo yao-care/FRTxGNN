@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sertaconazole : nouvelle indication prédite, Teigne du corps (tinea corporis) (niveau de preuve L5). Indication d'origine : Teigne du pied (tinea pedis)"
 ---
 
 # Sertaconazole

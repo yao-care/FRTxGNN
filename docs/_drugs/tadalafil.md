@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 729
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Tadalafil : nouvelle indication prédite, Hypertrichose universelle congenitale de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie benigne de la prostate"
 ---
 
 # Tadalafil

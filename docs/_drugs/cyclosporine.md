@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 204
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cyclosporine : nouvelle indication prédite, Granulomatose septique chronique, autosomique récessive (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde, syndrome de l'œil sec, xérop…"
 ---
 
 # Cyclosporine

@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 827
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Zanubrutinib : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L4). Indication d'origine : Lymphome à cellules du manteau, néoplasme à cellules B, lymphosarcome"
 ---
 
 # Zanubrutinib

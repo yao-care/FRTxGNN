@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 805
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vandetanib : nouvelle indication prédite, Carcinome rénal à cellules (renal cell carcinoma) (niveau de preuve L5). Indication d'origine : Carcinome de la thyroïde"
 ---
 
 # Vandetanib

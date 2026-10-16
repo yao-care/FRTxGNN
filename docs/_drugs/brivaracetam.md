@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Brivaracetam : nouvelle indication prédite, Épilepsie visuelle (niveau de preuve L5). Indication d'origine : Épilepsie partielle (épilepsie motrice partielle)"
 ---
 
 # Brivaracetam

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Defibrotide : nouvelle indication prédite, Pseudo-maladie de von Willebrand (rang 1) (niveau de preuve L5). Indication d'origine : Maladie veino-occlusive hépatique"
 ---
 
 # Defibrotide

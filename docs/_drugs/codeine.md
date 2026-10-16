@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 195
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Codeine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L4). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume…"
 ---
 
 # Codeine

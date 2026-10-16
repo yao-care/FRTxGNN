@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (niveau de preuve L5). Indication d'origine : Constipation"
 ---
 
 # Docusate

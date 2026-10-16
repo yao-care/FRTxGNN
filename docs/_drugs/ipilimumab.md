@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Ipilimumab : nouvelle indication prédite, Choroïdérémie (niveau de preuve L5). Indication d'origine : Mélanome métastatique (issue de la base de connaissances du modèle"
 ---
 
 # Ipilimumab

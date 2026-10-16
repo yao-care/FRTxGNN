@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Imipenem : nouvelle indication prédite, Sclérodermie diffuse (niveau de preuve L5). Indication d'origine : Non disponible dans les données d'AMM (texte d'indication vide)"
 ---
 
 # Imipenem

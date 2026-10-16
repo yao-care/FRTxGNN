@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 612
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pitavastatin : nouvelle indication prédite, Hypercholestérolémie familiale homozygote (niveau de preuve L4). Indication d'origine : Hyperlipidémie combinée familiale (source : base de connaissances T…"
 ---
 
 # Pitavastatin

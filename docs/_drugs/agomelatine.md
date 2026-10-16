@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Agomelatine : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (niveau de preuve L5). Indication d'origine : Dépression unipolaire, dépression endogène, trouble dépressif maje…"
 ---
 
 # Agomelatine

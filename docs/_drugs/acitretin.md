@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 23
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Acitretin : nouvelle indication prédite, Acné (disease) (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM"
 ---
 
 # Acitretin

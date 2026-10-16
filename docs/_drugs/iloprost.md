@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Iloprost : nouvelle indication prédite, Hypotrichose simplex du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypertension artérielle pulmonaire"
 ---
 
 # Iloprost

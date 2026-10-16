@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 160
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Chlorambucil : nouvelle indication prédite, Lymphome pulmonaire primitif (niveau de preuve L3). Indication d'origine : Lymphome de Hodgkin (autres indications d'origine : lymphome follicul…"
 ---
 
 # Chlorambucil

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Niraparib : nouvelle indication prédite, Néoplasme de l'épiglotte (niveau de preuve L5). Indication d'origine : Carcinome épithélial malin de l'ovaire et cancers du péritoine"
 ---
 
 # Niraparib

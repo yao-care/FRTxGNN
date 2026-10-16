@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 175
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (niveau de preuve L2). Indication d'origine : Trouble anxieux, dépression unipolaire, trouble dépressif majeur"
 ---
 
 # Citalopram

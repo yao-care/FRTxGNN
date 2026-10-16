@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 759
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Tiapride : nouvelle indication prédite, Migraine (niveau de preuve L3). Indication d'origine : Non disponible (texte d'indication vide dans les AMM)"
 ---
 
 # Tiapride

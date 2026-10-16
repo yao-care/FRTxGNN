@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Glycerin : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Constipation"
 ---
 
 # Glycerin

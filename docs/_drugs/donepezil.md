@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 255
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Donepezil : nouvelle indication prédite, Trouble de tics chronique (rang 2 (niveau de preuve L3). Indication d'origine : Maladie d'Alzheimer"
 ---
 
 # Donepezil

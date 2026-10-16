@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 79
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Atorvastatin : nouvelle indication prédite, Hypercholestérolémie familiale (niveau de preuve L1). Indication d'origine : Hypertriglycéridémie"
 ---
 
 # Atorvastatin

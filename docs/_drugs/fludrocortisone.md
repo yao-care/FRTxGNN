@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 334
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Fludrocortisone : nouvelle indication prédite, Maladie oculaire (« eye disease ») (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 ---
 
 # Fludrocortisone

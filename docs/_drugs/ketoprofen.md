@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ketoprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (1re du classement… (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose, arthro…"
 ---
 
 # Ketoprofen

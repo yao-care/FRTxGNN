@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 829
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Zidovudine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH…"
 ---
 
 # Zidovudine

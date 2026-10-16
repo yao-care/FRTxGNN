@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 130
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Calcipotriol : nouvelle indication prédite, Kératose séborrhéique (niveau de preuve L3). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 ---
 
 # Calcipotriol

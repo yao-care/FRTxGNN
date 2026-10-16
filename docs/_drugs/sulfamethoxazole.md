@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Sulfamethoxazole : nouvelle indication prédite, Conjonctivite aiguë contagieuse (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 ---
 
 # Sulfamethoxazole

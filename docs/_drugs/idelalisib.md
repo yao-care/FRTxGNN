@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 388
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Idelalisib : nouvelle indication prédite, Lymphome à cellules du manteau (niveau de preuve L3). Indication d'origine : Lymphome folliculaire…"
 ---
 
 # Idelalisib

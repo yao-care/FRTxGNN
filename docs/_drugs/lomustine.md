@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 457
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lomustine : nouvelle indication prédite, Lymphosarcome (niveau de preuve L2). Indication d'origine : Lymphome de Hodgkin et tumeurs cérébrales"
 ---
 
 # Lomustine

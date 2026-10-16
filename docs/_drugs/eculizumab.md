@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Eculizumab : nouvelle indication prédite, Hematopoiese cyclique (niveau de preuve L5). Indication d'origine : Hemoglobinurie paroxystique nocturne…"
 ---
 
 # Eculizumab

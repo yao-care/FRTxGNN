@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 203
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Cyclophosphamide : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L1). Indication d'origine : Lymphomes (mycosis fongoïde, lymphome cutané à cellules T)…"
 ---
 
 # Cyclophosphamide

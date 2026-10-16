@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Oxacillin : nouvelle indication prédite, Épiglottite (niveau de preuve L5). Indication d'origine : Infections à Staphylococcus aureus et infections staphylococciques (p…"
 ---
 
 # Oxacillin

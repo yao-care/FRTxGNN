@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 700
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Serotonin : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
 ---
 
 # Serotonin

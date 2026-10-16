@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aztreonam : nouvelle indication prédite, Hyperamylasémie (rang 1) (niveau de preuve L5). Indication d'origine : Infections urinaires et infections à Gram négatif"
 ---
 
 # Aztreonam

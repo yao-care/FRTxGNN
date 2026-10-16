@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Albutrepenonacog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie (y compris la forme symptomatique chez les femmes porteu…"
 ---
 
 # Albutrepenonacog Alfa

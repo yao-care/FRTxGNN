@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 405
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Iobenguane : nouvelle indication prédite, Trouble hypotensif (hypotension) (niveau de preuve L4). Indication d'origine : Non disponible dans les données compilées"
 ---
 
 # Iobenguane

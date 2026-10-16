@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Cimetidine : nouvelle indication prédite, Mastocytose systémique indolente (smouldering) (niveau de preuve L5). Indication d'origine : Ulcère gastrique, reflux gastro-œsophagien, ulcère duodénal…"
 ---
 
 # Cimetidine

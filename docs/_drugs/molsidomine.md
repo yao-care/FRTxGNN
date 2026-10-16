@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 512
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Molsidomine : nouvelle indication prédite, Maladie vasculaire (alternative de rang 1 : alopécie… (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM compilées (usage a…"
 ---
 
 # Molsidomine

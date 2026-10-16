@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 620
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pramipexole : nouvelle indication prédite, Trouble déficit de l'attention avec hyperactivité (TDAH) (niveau de preuve L4). Indication d'origine : Syndrome des jambes sans repos"
 ---
 
 # Pramipexole

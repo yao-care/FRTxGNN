@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 534
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Nicardipine : nouvelle indication prédite, Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypox… (niveau de preuve L4). Indication d'origine : Hypertension artérielle"
 ---
 
 # Nicardipine

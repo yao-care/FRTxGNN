@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 288
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Epirubicin : nouvelle indication prédite, Lymphome pulmonaire primitif (niveau de preuve L4). Indication d'origine : Carcinome du sein / néoplasme du sein (les textes d'indication des AM…"
 ---
 
 # Epirubicin

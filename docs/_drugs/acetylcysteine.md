@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 21
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Acetylcysteine : nouvelle indication prédite, Maladie thrombotique (niveau de preuve L5). Indication d'origine : Bronchite, intoxication au paracétamol, mucoviscidose, bronchectasies…"
 ---
 
 # Acetylcysteine

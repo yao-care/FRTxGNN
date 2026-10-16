@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 213
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Dantrolene : nouvelle indication prédite, Susceptibilité à l'hyperthermie maligne (niveau de preuve L3). Indication d'origine : Hyperthermie maligne de l'anesthésie"
 ---
 
 # Dantrolene

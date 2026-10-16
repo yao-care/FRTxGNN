@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fluorometholone : nouvelle indication prédite, Vascularite post-infectieuse (niveau de preuve L5). Indication d'origine : Uvéite, iridocyclite, conjonctivites allergiques (atopique…"
 ---
 
 # Fluorometholone

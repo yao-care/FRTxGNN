@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 624
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Prazepam : nouvelle indication prédite, Trouble de l'initiation et du maintien du sommeil (niveau de preuve L4). Indication d'origine : Insomnie, anxiété"
 ---
 
 # Prazepam

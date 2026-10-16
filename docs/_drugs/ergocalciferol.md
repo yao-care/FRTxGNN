@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ergocalciferol : nouvelle indication prédite, Hypoparathyroïdie isolée familiale par altération de la sécrétion de… (niveau de preuve L5). Indication d'origine : Ostéoporose, ostéoporose post-ménopau…"
 ---
 
 # Ergocalciferol

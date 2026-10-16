@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clobazam : nouvelle indication prédite, Syndrome d'épilepsie lié à une infection fébrile (FIRES) (niveau de preuve L5). Indication d'origine : Syndrome de Lennox-Gastaut"
 ---
 
 # Clobazam

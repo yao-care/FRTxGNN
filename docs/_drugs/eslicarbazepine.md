@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 298
 evidence_level: L2
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Eslicarbazepine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les AMM compilées (classe antiépileptique)"
 ---
 
 # Eslicarbazepine

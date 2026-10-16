@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Glimepiride : nouvelle indication prédite, Syndrome de la personne raide classique (niveau de preuve L5). Indication d'origine : Diabète de type 2"
 ---
 
 # Glimepiride

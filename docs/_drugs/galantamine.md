@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (niveau de preuve L5). Indication d'origine : Maladie d'Alzheimer"
 ---
 
 # Galantamine

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 821
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Vortioxetine : nouvelle indication prédite, Mélancolie (niveau de preuve L5). Indication d'origine : Dépression unipolaire, trouble dépressif majeur, trouble anxieux"
 ---
 
 # Vortioxetine

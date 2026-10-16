@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 220
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Deferiprone : nouvelle indication prédite, Porphyrie hépatique (niveau de preuve L4). Indication d'origine : Hémosidérose, bêta-thalassémie et hémoglobinopathies apparentées"
 ---
 
 # Deferiprone

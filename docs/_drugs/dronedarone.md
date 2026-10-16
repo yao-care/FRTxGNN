@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 261
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (« stroke disorder ») (niveau de preuve L4). Indication d'origine : Fibrillation atriale"
 ---
 
 # Dronedarone

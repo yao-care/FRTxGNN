@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Itraconazole : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Mycoses systémiques (candidose œsophagienne, candidémie…"
 ---
 
 # Itraconazole

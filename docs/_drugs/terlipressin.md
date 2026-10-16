@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Terlipressin : nouvelle indication prédite, Hypertension pulmonaire (candidate présentant le plus de littérature… (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 ---
 
 # Terlipressin

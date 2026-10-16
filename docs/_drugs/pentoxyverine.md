@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Pentoxyverine : nouvelle indication prédite, Laryngopharyngite aiguë (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, rhinite…"
 ---
 
 # Pentoxyverine

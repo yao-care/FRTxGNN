@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 308
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Etoposide : nouvelle indication prédite, Sarcome d'Ewing (indication la mieux étayée (niveau de preuve L1). Indication d'origine : Cancer bronchique à petites cellules, tumeurs germinales du testicule"
 ---
 
 # Etoposide

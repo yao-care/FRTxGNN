@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Metyrapone : nouvelle indication prédite, Hyperthermie maligne d'effort (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles (usage connu : test diagnosti…"
 ---
 
 # Metyrapone

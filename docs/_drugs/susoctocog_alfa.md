@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Susoctocog Alfa : nouvelle indication prédite, Trouble de libération plaquettaire primaire (niveau de preuve L5). Indication d'origine : Hémophilie acquise (l'indication approuvée n'est pas renseigné…"
 ---
 
 # Susoctocog Alfa

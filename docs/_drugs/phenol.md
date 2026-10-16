@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Phenol : nouvelle indication prédite, Acrodermatite chronique atrophiante (niveau de preuve L5). Indication d'origine : Dermatite"
 ---
 
 # Phenol

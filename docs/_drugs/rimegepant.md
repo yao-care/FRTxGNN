@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 670
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Rimegepant : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L3). Indication d'origine : Migraine (migraine avec ou sans aura)"
 ---
 
 # Rimegepant

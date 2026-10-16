@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 47
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alprostadil : nouvelle indication prédite, Malformation aortique (niveau de preuve L4). Indication d'origine : Dysfonction érectile"
 ---
 
 # Alprostadil

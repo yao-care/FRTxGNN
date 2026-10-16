@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 607
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Piperaquine : nouvelle indication prédite, Paludisme à Plasmodium vivax (niveau de preuve L1). Indication d'origine : Paludisme (le texte d'indication de l'AMM n'est pas renseigné)"
 ---
 
 # Piperaquine

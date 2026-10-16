@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ticarcillin : nouvelle indication prédite, Maladie du péritoine (la première prédiction du classement est le myo… (niveau de preuve L5). Indication d'origine : Infections bactériennes (infection urin…"
 ---
 
 # Ticarcillin

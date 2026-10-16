@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ravulizumab : nouvelle indication prédite, Neutropénie congénitale sévère autosomique récessive par déficit en G… (niveau de preuve L5). Indication d'origine : Hémoglobinurie paroxystique nocturne"
 ---
 
 # Ravulizumab

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dasatinib : nouvelle indication prédite, Sarcome d'Ewing (niveau de preuve L5). Indication d'origine : Leucémie myéloïde chronique BCR-ABL1 positive"
 ---
 
 # Dasatinib

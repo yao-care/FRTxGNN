@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 824
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Warfarin : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (niveau de preuve L4). Indication d'origine : Embolie pulmonaire, maladie thrombotique, embolie intracrânienne"
 ---
 
 # Warfarin

@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 706
 evidence_level: L1
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Simvastatin : nouvelle indication prédite, Hypercholestérolémie familiale (niveau de preuve L1). Indication d'origine : Hypertriglycéridémie, hyperlipoprotéinémie…"
 ---
 
 # Simvastatin

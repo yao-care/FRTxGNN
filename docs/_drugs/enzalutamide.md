@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Enzalutamide : nouvelle indication prédite, Susceptibilité au cancer de la prostate / cancer du cerveau (rang 1) (niveau de preuve L5). Indication d'origine : Cancer de la prostate"
 ---
 
 # Enzalutamide

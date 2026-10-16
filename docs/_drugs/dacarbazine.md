@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 208
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Dacarbazine : nouvelle indication prédite, Tumeur des voies aérodigestives supérieures (niveau de preuve L4). Indication d'origine : Mélanome métastatique, lymphome de Hodgkin"
 ---
 
 # Dacarbazine

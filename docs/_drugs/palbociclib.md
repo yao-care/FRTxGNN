@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 571
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Palbociclib : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées (palbociclib est conn…"
 ---
 
 # Palbociclib

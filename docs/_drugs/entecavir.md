@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 285
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Entecavir : nouvelle indication prédite, Infection chronique par le virus de l'hépatite C (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite B"
 ---
 
 # Entecavir

@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Lonoctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie"
 ---
 
 # Lonoctocog Alfa

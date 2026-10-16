@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 479
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Mepolizumab : nouvelle indication prédite, Thrombopénie due à une destruction immunitaire (niveau de preuve L4). Indication d'origine : Pneumonie à éosinophiles"
 ---
 
 # Mepolizumab

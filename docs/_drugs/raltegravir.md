@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Raltegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (SIV) (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 ---
 
 # Raltegravir

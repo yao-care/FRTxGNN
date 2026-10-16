@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 560
 evidence_level: L3
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Omeprazole : nouvelle indication prédite, Reflux duodéno-gastrique (niveau de preuve L3). Indication d'origine : Non renseignée dans les AMM"
 ---
 
 # Omeprazole

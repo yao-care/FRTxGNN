@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cetuximab : nouvelle indication prédite, Adénomes/carcinoïdes bronchiques de l'enfant (niveau de preuve L5). Indication d'origine : Cancer colorectal / néoplasme malin du côlon"
 ---
 
 # Cetuximab

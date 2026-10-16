@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 781
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Trastuzumab Emtansine : nouvelle indication prédite, Cancer du sein à récepteurs de la progestérone positifs (niveau de preuve L4). Indication d'origine : Cancer du sein HER2 positif"
 ---
 
 # Trastuzumab Emtansine

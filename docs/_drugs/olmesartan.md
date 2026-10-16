@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Olmesartan : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (le texte d'indication des AM…"
 ---
 
 # Olmesartan

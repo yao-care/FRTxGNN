@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Propranolol : nouvelle indication prédite, Myopathie distale de type Tateyama (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM françaises"
 ---
 
 # Propranolol

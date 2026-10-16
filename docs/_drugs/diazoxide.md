@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Diazoxide : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypoglycémie hyperinsulinémique…"
 ---
 
 # Diazoxide

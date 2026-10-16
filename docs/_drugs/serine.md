@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Serine : nouvelle indication prédite, Myopathie viscérale familiale (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert, tuberculose pulmonaire"
 ---
 
 # Serine

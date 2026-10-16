@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Carbetocin : nouvelle indication prédite, Syndrome pseudo-isotrétinoïne (niveau de preuve L5). Indication d'origine : Syndrome de Prader-Willi, syndrome de Noonan"
 ---
 
 # Carbetocin

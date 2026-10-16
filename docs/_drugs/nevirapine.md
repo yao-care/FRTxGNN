@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 533
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Nevirapine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
 ---
 
 # Nevirapine

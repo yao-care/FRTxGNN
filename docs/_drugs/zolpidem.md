@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 831
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Zolpidem : nouvelle indication prédite, Trouble du sommeil (initiation et maintien du sommeil) (niveau de preuve L5). Indication d'origine : Insomnie"
 ---
 
 # Zolpidem

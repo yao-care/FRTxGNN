@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 315
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Famciclovir : nouvelle indication prédite, Névralgie post-infectieuse (niveau de preuve L4). Indication d'origine : Zona (herpès zoster)"
 ---
 
 # Famciclovir

@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 362
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Givosiran : nouvelle indication prédite, Porphyrie par déficit en ALA déshydratase (ADP) (niveau de preuve L4). Indication d'origine : Porphyrie hépatique (le texte d'indication de l'AMM n'est pas re…"
 ---
 
 # Givosiran

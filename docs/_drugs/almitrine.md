@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 43
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Almitrine : nouvelle indication prédite, Bronchite (niveau de preuve L3). Indication d'origine : BPCO"
 ---
 
 # Almitrine

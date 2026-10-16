@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 635
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Propafenone : nouvelle indication prédite, Tachycardie ventriculaire polymorphe catécholergique (niveau de preuve L3). Indication d'origine : Fibrillation auriculaire…"
 ---
 
 # Propafenone

@@ -5,6 +5,8 @@ parent: Preuves élevées (L1-L2)
 nav_order: 333
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fludarabine : nouvelle indication prédite, Myélome multiple (plasmocytome) (niveau de preuve L2). Indication d'origine : Non précisée dans les données d'AMM compilées"
 ---
 
 # Fludarabine

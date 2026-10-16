@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Carfilzomib : nouvelle indication prédite, CMM7 (rang 1 de la prédiction (niveau de preuve L5). Indication d'origine : Myélome plasmocytaire"
 ---
 
 # Carfilzomib

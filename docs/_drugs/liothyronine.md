@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Liothyronine : nouvelle indication prédite, Hypoplasie/aplasie rénale (niveau de preuve L5). Indication d'origine : Hypothyroïdie"
 ---
 
 # Liothyronine

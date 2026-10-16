@@ -5,6 +5,8 @@ parent: Preuves modérées (L3-L4)
 nav_order: 468
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Loxapine : nouvelle indication prédite, Trouble affectif bipolaire de type maniaque (niveau de preuve L3). Indication d'origine : Trouble bipolaire, trouble affectif majeur…"
 ---
 
 # Loxapine

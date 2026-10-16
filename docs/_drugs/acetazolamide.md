@@ -5,6 +5,8 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Acetazolamide : nouvelle indication prédite, Hyperthermie maligne d'effort (niveau de preuve L5). Indication d'origine : Épilepsie-absence, insuffisance cardiaque congestive, glaucome…"
 ---
 
 # Acetazolamide
