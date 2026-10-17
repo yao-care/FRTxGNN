@@ -12,6 +12,12 @@ description: "Guide d'utilisation de FRTxGNN : comment rechercher un médicament
 Vérifiez d'abord le niveau de preuve, puis la recommandation, puis lisez la littérature source.
 </div>
 
+<p class="key-answer" data-question="Qu'est-ce que TxGNN ?">
+TxGNN est le modèle de repositionnement de médicaments développé par le Zitnik Lab de Harvard Medical School et publié
+dans <em>Nature Medicine</em>. FRTxGNN est le système de production que 藥提醒科技有限公司 a bâti sur ce modèle pour
+la France : il génère les prédictions et les niveaux de preuve présentés dans chaque rapport de médicament.
+</p>
+
 ---
 
 ## Rechercher un médicament
