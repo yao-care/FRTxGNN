@@ -6,9 +6,9 @@ nav_order: 308
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Etoposide : nouvelle indication prédite, Sarcome d'Ewing (indication la mieux étayée (niveau de preuve L1). Indication d'origine : Cancer bronchique à petites cellules, tumeurs germinales du testicule"
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+description: "Etoposide : nouvelle indication prédite, Sarcome d'Ewing (indication la mieux étayée (niveau de preuve L1). Indication d'origine : Cancer bronchique à petites cellules, tumeurs germinales du testicul"
 ---
 
 # Etoposide
