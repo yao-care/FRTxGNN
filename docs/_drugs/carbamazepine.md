@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carbamazepine : nouvelle indication prédite, Néoplasme du nerf trijumeau (niveau de preuve L4). Indication d'origine : Épilepsie"
 monitor_inn: "carbamazepine"
-predicted_indications: ["trigeminal nerve neoplasm", "audiogenic seizures", "orgasm-induced seizures", "eating seizures", "micturation-induced seizures", "thinking seizures", "startle epilepsy", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
+predicted_indications: ["trigeminal nerve neoplasm", "audiogenic seizures", "orgasm-induced seizures", "eating seizures", "micturation-induced seizures", "thinking seizures", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 ---
 
 # Carbamazepine

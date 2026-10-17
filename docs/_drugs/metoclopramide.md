@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Metoclopramide : nouvelle indication prédite, Ulcère gastrique (niveau de preuve L4). Indication d'origine : Reflux gastro-œsophagien, œsophagite"
 monitor_inn: "metoclopramide"
-predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation"]
+predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "gastrojejunal ulcer", "peptic ulcer perforation"]
 ---
 
 # Metoclopramide

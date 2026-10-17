@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Adenosine : nouvelle indication prédite, Bloc de branche (terme obsolète) (niveau de preuve L5). Indication d'origine : Tachycardie ventriculaire"
 monitor_inn: "adenosine"
-predicted_indications: ["obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia"]
+predicted_indications: ["obsolete bundle branch block"]
 ---
 
 # Adenosine

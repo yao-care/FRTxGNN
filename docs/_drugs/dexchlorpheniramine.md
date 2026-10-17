@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Dexchlorpheniramine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L4). Indication d'origine : Rhinite allergique"
-monitor_inn: "dexchlorpheniramine"
-predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Dexchlorpheniramine

@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Laronidase : nouvelle indication prédite, Maladie de surcharge lysosomale avec atteinte squelettique (niveau de preuve L4). Indication d'origine : Mucopolysaccharidose (syndromes de Hurler, Hurler-Sc…"
-monitor_inn: "LARONIDASE"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 ---
 
 # Laronidase

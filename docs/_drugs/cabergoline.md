@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cabergoline : nouvelle indication prédite, Cancer de l'hypophyse (niveau de preuve L5). Indication d'origine : Hyperprolactinémie (y compris formes familiale et acquise) et tumeur…"
 monitor_inn: "CABERGOLINE"
-predicted_indications: ["pituitary adenocarcinoma (disease)", "progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
+predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
 ---
 
 # Cabergoline

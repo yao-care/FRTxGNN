@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Etodolac : nouvelle indication prédite, Spondylarthrite ankylosante (candidate n° 6 du classement (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose, arthropathies…"
 monitor_inn: "etodolac"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "inflammatory spondylopathy"]
 ---
 
 # Etodolac

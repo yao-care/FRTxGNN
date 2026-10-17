@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cimetidine : nouvelle indication prédite, Mastocytose systémique indolente (smouldering) (niveau de preuve L5). Indication d'origine : Ulcère gastrique, reflux gastro-œsophagien, ulcère duodénal…"
 monitor_inn: "cimetidine"
-predicted_indications: ["Smouldering systemic mastocytosis", "active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "lymphoadenopathic mastocytosis with eosinophilia", "duodenogastric reflux", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
 ---
 
 # Cimetidine

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Nicardipine : nouvelle indication prédite, Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypox… (niveau de preuve L4). Indication d'origine : Hypertension artérielle"
 monitor_inn: "NICARDIPINE"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant renovascular hypertension", "malignant hypertensive renal disease", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Nicardipine

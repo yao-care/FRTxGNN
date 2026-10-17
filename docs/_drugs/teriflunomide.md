@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Teriflunomide : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (niveau de preuve L1). Indication d'origine : Sclérose en plaques"
-monitor_inn: "teriflunomide"
-predicted_indications: ["relapsing-remitting multiple sclerosis"]
 ---
 
 # Teriflunomide

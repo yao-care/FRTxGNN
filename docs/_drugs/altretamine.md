@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Altretamine : nouvelle indication prédite, Carcinome du sein féminin (niveau de preuve L4). Indication d'origine : Cancer de l'ovaire"
 monitor_inn: "altretamine"
-predicted_indications: ["female breast carcinoma", "gonadal germ cell tumor", "ovarian primitive germ cell tumor", "choriocarcinoma of ovary", "malignant non-epithelial tumor of ovary", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
+predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
 ---
 
 # Altretamine

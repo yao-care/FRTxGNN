@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Minocycline : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Infections bactériennes (infection urinaire, bronchite, acné…"
 monitor_inn: "MINOCYCLINE"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+predicted_indications: ["exposure keratitis"]
 ---
 
 # Minocycline

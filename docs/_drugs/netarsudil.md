@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Netarsudil : nouvelle indication prédite, Glaucome héréditaire primitif (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert"
 monitor_inn: "netarsudil"
-predicted_indications: ["primary hereditary glaucoma", "glaucoma"]
+predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Netarsudil

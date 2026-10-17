@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Ciclesonide : nouvelle indication prédite, Eczéma atopique (niveau de preuve L5). Indication d'origine : Asthme, asthme allergique, rhinite allergique"
 monitor_inn: "ciclesonide"
-predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis", "asthma-related traits, susceptibility to"]
+predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
 ---
 
 # Ciclesonide

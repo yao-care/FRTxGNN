@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ergocalciferol : nouvelle indication prédite, Hypoparathyroïdie isolée familiale par altération de la sécrétion de… (niveau de preuve L5). Indication d'origine : Ostéoporose, ostéoporose post-ménopau…"
 monitor_inn: "ergocalciferol"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemia (disease)", "renal osteodystrophy", "hypophosphatemic rickets", "calcium-alkali syndrome", "vitamin D-dependent rickets"]
+predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "calcium-alkali syndrome"]
 ---
 
 # Ergocalciferol

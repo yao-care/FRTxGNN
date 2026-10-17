@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Theophylline : nouvelle indication prédite, Maladie thrombotique (niveau de preuve L5). Indication d'origine : Asthme, bronchite, emphysème pulmonaire"
 monitor_inn: "theophylline"
-predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "obstructive lung disease", "pharyngitis", "acute laryngopharyngitis"]
+predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
 ---
 
 # Theophylline

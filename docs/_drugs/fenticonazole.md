@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à Trichomonas (niveau de preuve L4). Indication d'origine : Candidose vulvovaginale"
 monitor_inn: "fenticonazole"
-predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
+predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
 ---
 
 # Fenticonazole

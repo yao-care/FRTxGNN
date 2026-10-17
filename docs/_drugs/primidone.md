@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Primidone : nouvelle indication prédite, Néoplasme du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie"
 monitor_inn: "PRIMIDONE"
-predicted_indications: ["trigeminal nerve neoplasm", "eating seizures", "orgasm-induced seizures", "micturation-induced seizures", "startle epilepsy", "thinking seizures", "audiogenic seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+predicted_indications: ["trigeminal nerve neoplasm", "eating seizures", "orgasm-induced seizures", "micturation-induced seizures", "thinking seizures", "audiogenic seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Primidone

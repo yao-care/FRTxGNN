@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Paclitaxel : nouvelle indication prédite, Carcinome du sein féminin (niveau de preuve L1). Indication d'origine : Cancer de l'ovaire"
 monitor_inn: "PACLITAXEL"
-predicted_indications: ["female breast carcinoma", "estrogen-receptor negative breast cancer", "hormone-resistant breast carcinoma", "estrogen-receptor positive breast cancer", "Ehrlich tumor carcinoma", "bilateral breast carcinoma", "breast carcinoma by gene expression profile", "nipple carcinoma", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Paclitaxel

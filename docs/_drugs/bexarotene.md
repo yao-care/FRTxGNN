@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Bexarotene : nouvelle indication prédite, Syndrome de Sézary (niveau de preuve L5). Indication d'origine : Lymphome cutané à cellules T primitif"
 monitor_inn: "bexarotene"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
+predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
 ---
 
 # Bexarotene

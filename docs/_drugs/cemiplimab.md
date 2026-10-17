@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cemiplimab : nouvelle indication prédite, Carcinome adénosquameux de la vésicule biliaire (niveau de preuve L5). Indication d'origine : Carcinome épidermoïde"
 monitor_inn: "cemiplimab"
-predicted_indications: ["gallbladder adenosquamous carcinoma", "glottis squamous cell carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "lung occult squamous cell carcinoma", "pancreatic adenosquamous carcinoma", "non-keratinizing sinonasal squamous cell carcinoma", "supraglottis squamous cell carcinoma"]
+predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
 ---
 
 # Cemiplimab

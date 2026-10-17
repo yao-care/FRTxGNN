@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Carbimazole : nouvelle indication prédite, Thyrotoxicose néonatale (niveau de preuve L4). Indication d'origine : Hyperthyroïdie, maladie de Basedow…"
 monitor_inn: "CARBIMAZOLE"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Carbimazole
