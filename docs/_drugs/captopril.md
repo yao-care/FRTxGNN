@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Captopril : nouvelle indication prédite, Hypertension rénovasculaire maligne (niveau de preuve L4). Indication d'origine : Hypertension artérielle, néphropathie diabétique"
 monitor_inn: "CAPTOPRIL"
-predicted_indications: ["malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Captopril
