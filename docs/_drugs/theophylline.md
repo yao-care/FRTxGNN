@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

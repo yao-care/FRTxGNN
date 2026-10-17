@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Warfarin : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (niveau de preuve L4). Indication d'origine : Embolie pulmonaire, maladie thrombotique, embolie intracrânienne"
 monitor_inn: "warfarin"
-predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---
 
 # Warfarin
@@ -27,7 +27,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

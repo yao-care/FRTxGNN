@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Alimemazine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L4). Indication d'origine : Angio-œdème"
 monitor_inn: "alimemazine"
-predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
+predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis", "acute laryngopharyngitis"]
 ---
 
 # Alimemazine
@@ -27,7 +27,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

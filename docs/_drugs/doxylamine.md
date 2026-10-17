@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Doxylamine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L5). Indication d'origine : Rhinite allergique"
 monitor_inn: "doxylamine"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Doxylamine
@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

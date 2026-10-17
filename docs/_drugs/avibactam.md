@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Avibactam : nouvelle indication prédite, Pneumonie à streptocoque (niveau de preuve L5). Indication d'origine : Pyélonéphrite"
 monitor_inn: "avibactam"
-predicted_indications: ["streptococcal pneumonia", "influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Avibactam
@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

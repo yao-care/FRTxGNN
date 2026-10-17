@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ribavirin : nouvelle indication prédite, Infection chronique par le virus de l'hépatite B (niveau de preuve L2). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "ribavirin"
-predicted_indications: ["chronic hepatitis B virus infection", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related aortitis", "IgG4-related mediastinitis"]
+predicted_indications: ["hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related aortitis", "IgG4-related mediastinitis"]
 ---
 
 # Ribavirin
@@ -27,7 +27,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

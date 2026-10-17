@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Phenobarbital : nouvelle indication prédite, Tumeur du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie"
 monitor_inn: "phenobarbital"
-predicted_indications: ["trigeminal nerve neoplasm", "micturation-induced seizures", "thinking seizures", "orgasm-induced seizures", "audiogenic seizures", "eating seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Phenobarbital
@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

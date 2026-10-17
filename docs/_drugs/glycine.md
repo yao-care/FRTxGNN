@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Glycine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume…"
+monitor_inn: "GLYCINE"
+predicted_indications: ["acute laryngopharyngitis"]
 ---
 
 # Glycine
@@ -25,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

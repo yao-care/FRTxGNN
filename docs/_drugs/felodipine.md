@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Felodipine : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Hypertension artérielle (le texte d'indication des AMM n'est pas rens…"
 monitor_inn: "felodipine"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "chronic pulmonary heart disease", "Prinzmetal angina"]
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "chronic pulmonary heart disease"]
 ---
 
 # Felodipine
@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

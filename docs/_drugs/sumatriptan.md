@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sumatriptan : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L5). Indication d'origine : Migraine"
-monitor_inn: "SUMATRIPTAN"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Sumatriptan
@@ -27,7 +25,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

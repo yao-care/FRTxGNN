@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Econazole : nouvelle indication prédite, Granulome de Majocchi (niveau de preuve L5). Indication d'origine : Mycoses cutanées superficielles (pied d'athlète, teigne du corps…"
 monitor_inn: "econazole"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "dermatophytosis of scalp or beard", "tinea profunda"]
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
 ---
 
 # Econazole
@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

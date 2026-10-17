@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Olaparib : nouvelle indication prédite, Carcinome du sein féminin (niveau de preuve L1). Indication d'origine : Cancer de l'ovaire (y compris adénocarcinome ovarien et syndromes hér…"
-monitor_inn: "OLAPARIB"
-predicted_indications: ["female breast carcinoma"]
 ---
 
 # Olaparib
@@ -27,7 +25,7 @@ Niveau de preuve: **L1** | Indications prédites: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

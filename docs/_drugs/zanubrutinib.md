@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Zanubrutinib : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L4). Indication d'origine : Lymphome à cellules du manteau, néoplasme à cellules B, lymphosarcome"
 monitor_inn: "ZANUBRUTINIB"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 ---
 
 # Zanubrutinib
@@ -27,7 +27,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

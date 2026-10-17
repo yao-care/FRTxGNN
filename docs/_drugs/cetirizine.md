@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Cetirizine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L2). Indication d'origine : Rhinite allergique, rhinite vasomotrice, conjonctivites (atopique…"
 monitor_inn: "cetirizine"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["acute laryngopharyngitis", "recalcitrant atopic dermatitis"]
 ---
 
 # Cetirizine
@@ -27,7 +27,7 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

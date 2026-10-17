@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Betaxolol : nouvelle indication prédite, Glaucome héréditaire primaire (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert et hypertension oculaire (le texte d'indicati…"
-monitor_inn: "betaxolol"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Betaxolol
@@ -27,7 +25,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Tiagabine : nouvelle indication prédite, Épilepsie visuelle (niveau de preuve L5). Indication d'origine : Épilepsie partielle"
-monitor_inn: "TIAGABINE"
-predicted_indications: ["visual epilepsy"]
 ---
 
 # Tiagabine
@@ -27,7 +25,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

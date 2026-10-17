@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Acetaminophen : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM"
-monitor_inn: "acetaminophen"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Acetaminophen
@@ -27,7 +25,7 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

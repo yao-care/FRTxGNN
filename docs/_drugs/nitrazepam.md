@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nitrazepam : nouvelle indication prédite, Trouble du sommeil (difficulté d'initier et de maintenir le sommeil) (niveau de preuve L4). Indication d'origine : Insomnie"
 monitor_inn: "nitrazepam"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "acute encephalopathy with biphasic seizures and late reduced diffusion", "Wernicke-Korsakoff syndrome"]
+predicted_indications: ["sleep disorder, initiating and maintaining sleep", "Wernicke-Korsakoff syndrome"]
 ---
 
 # Nitrazepam
@@ -27,7 +27,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ammonium Chloride : nouvelle indication prédite, Laryngopharyngite aiguë (niveau de preuve L5). Indication d'origine : Pharyngite, rhume, rhinopharyngite"
 monitor_inn: "Ammonium chloride"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 ---
 
 # Ammonium Chloride
@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bedaquiline : nouvelle indication prédite, Tuberculose inactive (rang 2 (niveau de preuve L5). Indication d'origine : Tuberculose pulmonaire, tuberculose multirésistante"
 monitor_inn: "bedaquiline"
-predicted_indications: ["tuberculosis, bovine", "inactive tuberculosis", "tuberculoma", "tuberculosis, avian", "tuberculous ascites", "vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "cutaneous tuberculosis", "esophageal candidiasis"]
+predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
 ---
 
 # Bedaquiline
@@ -27,7 +27,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Rapport d'évaluation pharmaceutique
 
