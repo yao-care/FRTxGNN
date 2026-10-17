@@ -168,9 +168,9 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "WebSite",
       "@id": "https://frtxgnn.yao.care/#website",
-      "name": "FRTxGNN Drug Repurposing Evidence Reports",
+      "name": "Rapports de preuves de repositionnement de médicaments de FRTxGNN",
       "url": "https://frtxgnn.yao.care/",
-      "description": "AI-predicted new indications for medicines approved in France, with clinical evidence reports",
+      "description": "Nouvelles indications prédites par IA pour les médicaments autorisés en France, avec rapports de preuves cliniques",
       "isPartOf": {
         "@id": "https://frtxgnn.yao.care/#software"
       },
@@ -181,8 +181,8 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "WebPage",
       "@id": "https://frtxgnn.yao.care/#article",
-      "headline": "Drug Repurposing: From Data to Evidence",
-      "description": "AI-predicted new indications for medicines approved in France, with clinical trial and literature evidence reports",
+      "headline": "Repositionnement de médicaments : des données aux preuves",
+      "description": "Nouvelles indications prédites par IA pour les médicaments autorisés en France, avec rapports de preuves issues des essais cliniques et de la littérature",
       "author": {
         "@id": "https://www.yao.care/#organization"
       },
@@ -219,8 +219,8 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "AboutPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "About FRTxGNN",
-      "description": "About the FRTxGNN drug repurposing evidence reports: project overview, data sources and how to cite",
+      "name": "À propos de FRTxGNN",
+      "description": "À propos des rapports de preuves de repositionnement de FRTxGNN : présentation du projet, sources de données et citation",
       "url": "{{ page.url | absolute_url }}",
       "datePublished": "2026-02-19",
       "dateModified": "2026-02-19",
@@ -234,26 +234,26 @@ window.TXGNN_ANALYTICS = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is drug repurposing?",
+          "name": "Qu'est-ce que le repositionnement de médicaments ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Drug repurposing is the discovery of new therapeutic uses for existing medicines. Developing a new drug takes 10-15 years and USD 1-2 billion, whereas repurposing takes 3-5 years and USD 100-300 million, and human safety data already exist."
+            "text": "Le repositionnement de médicaments consiste à découvrir de nouveaux usages thérapeutiques pour des médicaments existants. Développer un nouveau médicament prend 10 à 15 ans et 1 à 2 milliards USD, alors qu'un repositionnement prend 3 à 5 ans et 100 à 300 millions USD, et des données de sécurité chez l'humain existent déjà."
           }
         },
         {
           "@type": "Question",
-          "name": "What is TxGNN?",
+          "name": "Qu'est-ce que TxGNN ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "TxGNN is a deep learning model developed by a Harvard Medical School team. It integrates a knowledge graph of 17,080 nodes and uses a graph neural network to predict new drug-disease associations."
+            "text": "TxGNN est un modèle d'apprentissage profond développé par une équipe de la Harvard Medical School. Il utilise un réseau de neurones sur graphe entraîné sur un graphe de connaissances biomédicales couvrant 17 080 maladies pour prédire de nouvelles associations médicament-maladie."
           }
         },
         {
           "@type": "Question",
-          "name": "What data sources are used?",
+          "name": "Quelles sources de données sont utilisées ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This platform integrates public data sources including TxGNN (AI predictions), ClinicalTrials.gov (clinical trials), PubMed (literature), DrugBank (drug information), ANSM (marketing authorisations in France) and DDInter (drug interactions)."
+            "text": "Cette plateforme intègre des sources publiques : TxGNN (prédictions par IA), ClinicalTrials.gov (essais cliniques), PubMed (littérature), DrugBank (informations sur les médicaments), ANSM (autorisations de mise sur le marché en France) et DDInter (interactions médicamenteuses)."
           }
         }
       ]
@@ -289,32 +289,32 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "HowTo",
       "@id": "{{ page.url | absolute_url }}#howto",
-      "name": "FRTxGNN Prediction and Validation Methods",
-      "description": "The full workflow from AI prediction to evidence validation",
+      "name": "Méthodes de prédiction et de validation de FRTxGNN",
+      "description": "Le processus complet, de la prédiction par IA à la validation des preuves",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "TxGNN prediction",
-          "text": "Drug-disease relationships are predicted with a knowledge graph and a graph neural network, using a minimum prediction score of 99%."
+          "name": "Prédiction TxGNN",
+          "text": "Le réseau de neurones sur graphe de TxGNN attribue un score aux couples médicament-maladie. Les indications et contre-indications déjà enregistrées pour le médicament dans le graphe de connaissances sont exclues, et seules les prédictions ayant un score d'au moins 0,99 sont affichées."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Evidence collection",
-          "text": "For each predicted pair, evidence is collected automatically from ClinicalTrials.gov, PubMed, DrugBank, ANSM and other sources."
+          "name": "Collecte des preuves",
+          "text": "Pour chaque couple prédit, les preuves sont collectées automatiquement depuis ClinicalTrials.gov, PubMed, DrugBank, ANSM et d'autres sources."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Evidence grading",
-          "text": "Based on the collected evidence, each prediction is graded L1-L5: L1 is the highest (multiple Phase 3 RCTs) and L5 is model prediction only."
+          "name": "Gradation des preuves",
+          "text": "Selon les preuves collectées, chaque prédiction est classée de L1 à L5 : L1 est le niveau le plus élevé (plusieurs ECR de phase 3) et L5 correspond à une prédiction du modèle seule."
         },
         {
           "@type": "HowToStep",
           "position": 4,
-          "name": "Decision recommendation",
-          "text": "Based on the evidence level and other factors, a Go, Proceed, Consider, Explore or Hold recommendation is given."
+          "name": "Recommandation de décision",
+          "text": "Selon le niveau de preuve et d'autres facteurs, une recommandation Go, Proceed, Consider, Explore ou Hold est donnée."
         }
       ]
     },
@@ -349,15 +349,15 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "Drug Reports - FRTxGNN",
-      "description": "All FRTxGNN drug evidence reports",
+      "name": "Rapports sur les médicaments - FRTxGNN",
+      "description": "Tous les rapports de preuves sur les médicaments de FRTxGNN",
       "url": "{{ page.url | absolute_url }}"
     },
     {
       "@type": "ItemList",
       "@id": "{{ page.url | absolute_url }}#itemlist",
-      "name": "FRTxGNN Drug Evidence Reports",
-      "description": "Drug repurposing evidence reports for medicines approved in France",
+      "name": "Rapports de preuves sur les médicaments de FRTxGNN",
+      "description": "Rapports de preuves de repositionnement pour les médicaments autorisés en France",
       "numberOfItems": {{ site.drugs.size }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
@@ -374,7 +374,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Drug Reports",
+          "name": "Rapports sur les médicaments",
           "item": "{{ page.url | absolute_url }}"
         }
       ]
@@ -392,7 +392,7 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "Health News Monitoring - FRTxGNN",
+      "name": "Veille des actualités santé - FRTxGNN",
       "description": {{ page.description | default: 'Automated monitoring of the latest health news on the drugs and indications covered' | jsonify }},
       "url": "{{ page.url | absolute_url }}",
       "isPartOf": {
@@ -400,7 +400,7 @@ window.TXGNN_ANALYTICS = {
       },
       "about": {
         "@type": "Thing",
-        "name": "Health News"
+        "name": "Actualités santé"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -420,7 +420,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Health News",
+          "name": "Actualités santé",
           "item": "{{ page.url | absolute_url }}"
         }
       ]
@@ -472,7 +472,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Health News",
+          "name": "Actualités santé",
           "item": "https://frtxgnn.yao.care/news/"
         },
         {
