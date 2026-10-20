@@ -1,6 +1,6 @@
 {
-  "total": 792,
-  "generated_at": "2026-10-20T04:34:14.475059",
+  "total": 791,
+  "generated_at": "2026-10-20T16:46:30.267643",
   "drugs": [
     {
       "name": "Abacavir",
@@ -5093,17 +5093,6 @@
       "predicted_indications": [
         "rheumatoid arthritis",
         "migraine with or without aura, susceptibility to"
-      ]
-    },
-    {
-      "name": "Flunarizine",
-      "file": "flunarizine.md",
-      "evidence_level": "L5",
-      "indication_count": 1,
-      "predicted_indication": "",
-      "inn": "FLUNARIZINE",
-      "predicted_indications": [
-        "migraine disorder"
       ]
     },
     {
