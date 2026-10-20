@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vinorelbine : nouvelle indication prédite, Sarcome d'Ewing (niveau de preuve L2). Indication d'origine : Cancer bronchique non à petites cellules"
 monitor_inn: "vinorelbine"
-predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "lung hilum carcinoma", "pulmonary blastoma"]
+predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 ---
 
 # Vinorelbine

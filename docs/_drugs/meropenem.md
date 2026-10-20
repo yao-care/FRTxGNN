@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Meropenem : nouvelle indication prédite, Arthrite bactérienne (niveau de preuve L5). Indication d'origine : Infections à Pseudomonas aeruginosa, méningites (bactérienne…"
 monitor_inn: "meropenem"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "urinary tract infection (disease)", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
 ---
 
 # Meropenem

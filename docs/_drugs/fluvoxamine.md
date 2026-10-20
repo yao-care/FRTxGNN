@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fluvoxamine : nouvelle indication prédite, Trouble anxieux (classe en 5e position de la liste des predictions (niveau de preuve L1). Indication d'origine : Phobie sociale, trouble phobique, trouble o…"
 monitor_inn: "FLUVOXAMINE"
-predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
 ---
 
 # Fluvoxamine

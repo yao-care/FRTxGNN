@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (niveau de preuve L2). Indication d'origine : Trouble anxieux, dépression unipolaire, trouble dépressif majeur"
 monitor_inn: "CITALOPRAM"
-predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
+predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
 ---
 
 # Citalopram

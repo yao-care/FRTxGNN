@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ezetimibe : nouvelle indication prédite, Hyperlipoprotéinémie (niveau de preuve L1). Indication d'origine : Hyperlipidémie (y compris hypercholestérolémie familiale et sitostéro…"
 monitor_inn: "ezetimibe"
-predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Ezetimibe

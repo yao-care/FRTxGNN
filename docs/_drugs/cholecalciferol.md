@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cholecalciferol : nouvelle indication prédite, Ostéodystrophie rénale (niveau de preuve L2). Indication d'origine : Ostéoporose, carence en vitamine D, rachitisme…"
 monitor_inn: "cholecalciferol"
-predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "renal tubular acidosis"]
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemic rickets", "renal osteodystrophy", "renal tubular acidosis"]
 ---
 
 # Cholecalciferol

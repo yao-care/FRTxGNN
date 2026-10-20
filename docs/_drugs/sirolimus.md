@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sirolimus : nouvelle indication prédite, Liposarcome (niveau de preuve L5). Indication d'origine : Carcinome rénal (carcinome à cellules claires…"
 monitor_inn: "SIROLIMUS"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
 ---
 
 # Sirolimus

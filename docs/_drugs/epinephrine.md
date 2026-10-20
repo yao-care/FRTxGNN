@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Epinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L1). Indication d'origine : Anaphylaxie, asthme, bronchite, emphysème pulmonaire, bronchectasie…"
 monitor_inn: "epinephrine"
-predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine

@@ -91,7 +91,7 @@ les maladies rares. »
 <tr><th>Type</th><th>Source</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td>Prédiction par IA</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Modèle de prédiction par graphe de connaissances de Harvard</td></tr>
+<tr><td>Prédiction par IA</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Réseau de neurones sur graphes de Harvard entraîné sur un graphe de connaissances</td></tr>
 <tr><td>Essais cliniques</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Registre mondial des essais cliniques</td></tr>
 <tr><td>Littérature</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Base de données de la littérature biomédicale</td></tr>
 <tr><td>Informations sur les médicaments</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Base de données des médicaments et de leurs cibles</td></tr>

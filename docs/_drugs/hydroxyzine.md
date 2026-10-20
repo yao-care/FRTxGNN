@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Hydroxyzine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L4). Indication d'origine : Eczéma atopique, rhinite allergique, conjonctivite atopique…"
+monitor_inn: "HYDROXYZINE"
+predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Hydroxyzine

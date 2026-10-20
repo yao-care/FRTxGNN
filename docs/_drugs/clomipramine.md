@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (niveau de preuve L5). Indication d'origine : Trouble obsessionnel compulsif"
 monitor_inn: "CLOMIPRAMINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
+predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine

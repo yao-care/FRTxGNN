@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Phenylephrine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L4). Indication d'origine : Non précisée dans les AMM"
 monitor_inn: "phenylephrine"
-predicted_indications: ["acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine

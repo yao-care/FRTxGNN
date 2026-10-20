@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pazopanib : nouvelle indication prédite, Carcinome rénal non classé (niveau de preuve L3). Indication d'origine : Sarcome des tissus mous, carcinome rénal à cellules claires"
 monitor_inn: "PAZOPANIB"
-predicted_indications: ["ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Pazopanib

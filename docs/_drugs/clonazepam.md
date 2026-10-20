@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (niveau de preuve L3). Indication d'origine : Épilepsies (absences, Lennox-Gastaut…"
 monitor_inn: "clonazepam"
-predicted_indications: ["restless legs syndrome", "trigeminal nerve neoplasm"]
+predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 ---
 
 # Clonazepam

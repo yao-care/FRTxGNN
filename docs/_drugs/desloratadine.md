@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Desloratadine : nouvelle indication prédite, Urticaire au froid (niveau de preuve L1). Indication d'origine : Rhinite allergique"
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 ---
 
 # Desloratadine

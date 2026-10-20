@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Etanercept : nouvelle indication prédite, Vascularite rhumatoïde (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde, rhumatisme psoriasique…"
 monitor_inn: "etanercept"
-predicted_indications: ["inflammatory spondylopathy", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Etanercept

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methionine : nouvelle indication prédite, Acné (prédiction de rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée (le texte d'indication des AMM est vide)"
 monitor_inn: "methionine"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
+predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
 ---
 
 # Methionine

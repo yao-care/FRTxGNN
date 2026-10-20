@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fenoprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose"
 monitor_inn: "fenoprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "ankylosing spondylitis"]
 ---
 
 # Fenoprofen

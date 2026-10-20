@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Formoterol : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Emphysème pulmonaire, asthme intrinsèque…"
 monitor_inn: "formoterol"
-predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
 ---
 
 # Formoterol

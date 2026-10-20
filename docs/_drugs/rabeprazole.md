@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Rabeprazole : nouvelle indication prédite, Mastocytose systémique indolente (smouldering) (niveau de preuve L5). Indication d'origine : Maladie ulcéreuse gastroduodénale, reflux gastro-œsophagien…"
+monitor_inn: "rabeprazole"
+predicted_indications: ["lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Rabeprazole

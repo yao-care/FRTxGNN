@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pemetrexed : nouvelle indication prédite, Mésothéliome péritonéal malin (niveau de preuve L2). Indication d'origine : Cancer bronchique non à petites cellules, cancer du poumon…"
 monitor_inn: "pemetrexed"
-predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
 ---
 
 # Pemetrexed

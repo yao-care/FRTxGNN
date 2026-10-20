@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clonidine : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L3). Indication d'origine : Hypertension artérielle"
 monitor_inn: "CLONIDINE"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
+predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
 ---
 
 # Clonidine
