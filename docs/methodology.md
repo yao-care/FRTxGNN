@@ -3,7 +3,7 @@ layout: default
 title: Méthodologie
 nav_order: 91
 permalink: /methodology/
-description: "Comment FRTxGNN produit et valide ses prédictions : prédiction par graphe de connaissances TxGNN, collecte de preuves, gradation L1-L5 et recommandations de décision."
+description: "Comment FRTxGNN produit et valide ses prédictions : prédiction par le modèle TxGNN (apprentissage profond), collecte de preuves, gradation L1-L5 et recommandations de décision."
 ---
 
 # Méthodologie
@@ -17,13 +17,13 @@ De la prédiction par IA à la gradation des preuves — chaque candidat dispose
 ## Chaîne de traitement globale
 
 <p class="key-answer" data-question="Comment FRTxGNN produit-il ses prédictions ?">
-La plateforme utilise une chaîne de traitement en quatre étapes : le modèle de graphe de connaissances TxGNN prédit les associations
+La plateforme utilise une chaîne de traitement en quatre étapes : le modèle TxGNN (apprentissage profond) prédit les associations
 potentielles médicament&ndash;maladie, des preuves sont ensuite collectées automatiquement pour chaque paire prédite,
 ces preuves sont graduées de L1 à L5, et enfin une recommandation de décision est émise.
 </p>
 
 <ol class="actionable-steps">
-<li><strong>Prédiction TxGNN</strong> : relations médicament&ndash;maladie prédites à l'aide d'un graphe de connaissances combiné à des réseaux de neurones sur graphes.</li>
+<li><strong>Prédiction TxGNN</strong> : relations médicament&ndash;maladie prédites par le modèle TxGNN (apprentissage profond : un réseau de neurones sur graphes entraîné sur un graphe de connaissances biomédical).</li>
 <li><strong>Collecte des preuves</strong> : pour chaque paire prédite, les preuves sont rassemblées à partir de ClinicalTrials.gov, PubMed, DrugBank et l'ANSM.</li>
 <li><strong>Gradation des preuves</strong> : graduées de L1 à L5, L1 étant le niveau le plus fort (plusieurs ECR de phase 3) et L5 la simple prédiction du modèle.</li>
 <li><strong>Recommandation de décision</strong> : Go, Proceed, Consider, Explore ou Hold, selon le niveau de preuve.</li>

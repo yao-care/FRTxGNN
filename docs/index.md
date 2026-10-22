@@ -8,7 +8,7 @@ permalink: /
 
 # Prédictions de Repositionnement de Médicaments — France
 
-Ce projet utilise le graphe de connaissances TxGNN pour prédire de nouvelles utilisations thérapeutiques potentielles pour les médicaments approuvés en France.
+Ce projet utilise le modèle TxGNN (apprentissage profond) pour prédire de nouvelles utilisations thérapeutiques potentielles pour les médicaments approuvés en France.
 
 **Avertissement** : Ce contenu est uniquement à des fins de recherche et ne constitue pas un avis médical. Toutes les prédictions de repositionnement de médicaments nécessitent une validation clinique avant application.
 

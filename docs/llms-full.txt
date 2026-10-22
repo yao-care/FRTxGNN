@@ -17,7 +17,7 @@ Les niveaux de preuve vont de L1 (preuves cliniques plus solides) à L5 (prédic
 - `/evidence-high/` Preuves élevées (L1-L2) — Candidats au repositionnement de médicaments de niveau L1-L2 dans FRTxGNN, appuyés par des essais cliniques ou des revues systématiques.
 - `/evidence-medium/` Preuves modérées (L3-L4) — Candidats au repositionnement de médicaments de niveau L3-L4 dans FRTxGNN, appuyés par des données observationnelles ou précliniques.
 - `/evidence-low/` Prédiction du modèle uniquement (L5) — Candidats de niveau L5 dans FRTxGNN : prédiction du modèle uniquement, sans preuve clinique ni littérature à ce jour.
-- `/methodology/` Méthodologie — Comment FRTxGNN produit et valide ses prédictions : prédiction par graphe de connaissances TxGNN, collecte de preuves, gradation L1-L5 et recommandations de décision.
+- `/methodology/` Méthodologie — Comment FRTxGNN produit et valide ses prédictions : prédiction par le modèle TxGNN (apprentissage profond), collecte de preuves, gradation L1-L5 et recommandations de décision.
 - `/guide/` Guide d'utilisation — Guide d'utilisation de FRTxGNN : comment rechercher un médicament, lire les niveaux de preuve et interpréter les recommandations.
 - `/sources/` Sources de données — Sources de données de FRTxGNN : données d'enregistrement de l'ANSM, TxGNN, ClinicalTrials.gov, PubMed et DrugBank.
 - `/downloads/` Téléchargements — Téléchargements de données ouvertes FRTxGNN : ressources FHIR, résultats de prédiction et index de recherche.
