@@ -19,7 +19,7 @@ Predictions de repositionnement de medicaments pour les medicaments approuves pa
 
 | Element | Nombre |
 |------|------|
-| **Rapports de medicaments** | 315 |
+| **Rapports de medicaments** | 813 |
 | **Predictions totales** | 7,046,174 |
 | **Medicaments uniques** | 455 |
 | **Indications uniques** | 17,041 |

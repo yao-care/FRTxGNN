@@ -358,7 +358,7 @@ window.TXGNN_ANALYTICS = {
       "@id": "{{ page.url | absolute_url }}#itemlist",
       "name": "Rapports de preuves sur les médicaments de FRTxGNN",
       "description": "Rapports de preuves de repositionnement pour les médicaments autorisés en France",
-      "numberOfItems": {{ site.drugs.size }},
+      "numberOfItems": {{ site.data.drug_stats.total_drugs }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
     {

@@ -112,7 +112,7 @@ les maladies rares. »
 
 | Élément | Valeur |
 |------|-------|
-| Rapports de médicaments | {{ site.drugs.size }} |
+| Rapports de médicaments | {{ site.data.drug_stats.total_drugs }} |
 | Autorité réglementaire | ANSM |
 | Sites déployés | 30 pays / régions |
 
