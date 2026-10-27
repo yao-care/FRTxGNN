@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Étodolac : De la polyarthrite rhumatoïde à la spondylarthrite ankylosante
+## Étodolac : De la polyarthrite rhumatoïde à la spondylarthrite ankylosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

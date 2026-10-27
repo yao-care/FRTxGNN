@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Lanadélumab : De l'angio-œdème héréditaire à la déficience en inhibiteur de C1
+## Lanadélumab : De l'angio-œdème héréditaire à la déficience en inhibiteur de C1
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

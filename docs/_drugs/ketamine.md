@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Kétamine : D'une indication d'origine non renseignée à la céphalée (headache disorder)
+## Kétamine : D'une indication d'origine non renseignée à la céphalée (headache disorder)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

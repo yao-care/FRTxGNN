@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Vertéporfine : De la Dégénérescence Maculaire à un Trouble de la Phosphorylation Oxydative Mitochondriale d'Origine Nucléaire
+## Vertéporfine : De la Dégénérescence Maculaire à un Trouble de la Phosphorylation Oxydative Mitochondriale d'Origine Nucléaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

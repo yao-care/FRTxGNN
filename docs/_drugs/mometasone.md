@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Mométasone : De l'asthme et de la rhinite allergique au lymphome cutané primitif à cellules T
+## Mométasone : De l'asthme et de la rhinite allergique au lymphome cutané primitif à cellules T
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

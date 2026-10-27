@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Mépolizumab : De la pneumonie à éosinophiles à la thrombopénie d'origine immunitaire
+## Mépolizumab : De la pneumonie à éosinophiles à la thrombopénie d'origine immunitaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

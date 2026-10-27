@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Danaparoïde : D'un anticoagulant à la thrombasthénie de Glanzmann
+## Danaparoïde : D'un anticoagulant à la thrombasthénie de Glanzmann
+{: .text-alpha }
 
 ## Résumé en une phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Benzylpénicilline : Des infections bactériennes à la péricoronarite
+## Benzylpénicilline : Des infections bactériennes à la péricoronarite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

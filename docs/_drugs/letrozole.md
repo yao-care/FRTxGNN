@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Létrozole : Du cancer du sein hormonodépendant au carcinome mammaire féminin
+## Létrozole : Du cancer du sein hormonodépendant au carcinome mammaire féminin
+{: .text-alpha }
 
 ## Résumé en une phrase
 

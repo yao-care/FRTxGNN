@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Erdafitinib : De l'indication d'origine non documentée à l'Hypertension Pulmonaire
+## Erdafitinib : De l'indication d'origine non documentée à l'Hypertension Pulmonaire
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

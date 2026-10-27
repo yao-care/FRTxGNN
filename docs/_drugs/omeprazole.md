@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **2**
 
 </div>
 
-# Oméprazole : Du reflux gastro-œsophagien au reflux duodéno-gastrique
+## Oméprazole : Du reflux gastro-œsophagien au reflux duodéno-gastrique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

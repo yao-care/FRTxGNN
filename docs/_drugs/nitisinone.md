@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Nitisinone : De la Tyrosinémie à l'Acidose Tubulaire Rénale
+## Nitisinone : De la Tyrosinémie à l'Acidose Tubulaire Rénale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

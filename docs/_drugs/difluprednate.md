@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Difluprednate : De l'inflammation oculaire à l'atteinte de l'iris (maladie de l'iris)
+## Difluprednate : De l'inflammation oculaire à l'atteinte de l'iris (maladie de l'iris)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

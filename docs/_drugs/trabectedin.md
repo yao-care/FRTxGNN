@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Trabectedine : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Trabectedine : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

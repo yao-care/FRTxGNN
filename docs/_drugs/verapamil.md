@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Vérapamil : Des troubles cardiovasculaires à l'Hypertension rénale maligne (prédiction principale : bloc de branche obsolète)
+## Vérapamil : Des troubles cardiovasculaires à l'Hypertension rénale maligne (prédiction principale : bloc de branche obsolète)
+{: .text-alpha }
 
 > Remarque : la prédiction au rang 1 (« obsolete bundle branch block ») correspond à un terme d'ontologie obsolète et est mécanistiquement douteuse. Le rapport suit néanmoins la prédiction de rang 1 telle que fournie dans les données compilées.
 

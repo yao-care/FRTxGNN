@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Mésalazine : De la rectocolite hémorragique à la dysplasie congénitale hypotrichose-maculopathie juvénile
+## Mésalazine : De la rectocolite hémorragique à la dysplasie congénitale hypotrichose-maculopathie juvénile
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Daltéparine : De l'embolie pulmonaire à la thrombophilie par déficit en protéine C
+## Daltéparine : De l'embolie pulmonaire à la thrombophilie par déficit en protéine C
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

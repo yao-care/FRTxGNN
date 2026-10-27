@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Quétiapine : Des troubles bipolaires et de la schizophrénie à la dystrophie rétinienne
+## Quétiapine : Des troubles bipolaires et de la schizophrénie à la dystrophie rétinienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

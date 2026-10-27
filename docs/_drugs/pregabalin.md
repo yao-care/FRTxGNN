@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Prégabaline : De l'anxiété et des douleurs chroniques à la tendinite
+## Prégabaline : De l'anxiété et des douleurs chroniques à la tendinite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

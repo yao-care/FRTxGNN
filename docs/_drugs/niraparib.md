@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Niraparib : Du Cancer Épithélial de l'Ovaire et du Péritoine au Néoplasme de l'Épiglotte
+## Niraparib : Du Cancer Épithélial de l'Ovaire et du Péritoine au Néoplasme de l'Épiglotte
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

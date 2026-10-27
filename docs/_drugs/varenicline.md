@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Varenicline : Du Sevrage Tabagique au Trouble Migraineux
+## Varenicline : Du Sevrage Tabagique au Trouble Migraineux
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

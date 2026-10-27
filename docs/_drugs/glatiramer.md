@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Glatiramer : De la sclérose en plaques à l'hémoglobinopathie
+## Glatiramer : De la sclérose en plaques à l'hémoglobinopathie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

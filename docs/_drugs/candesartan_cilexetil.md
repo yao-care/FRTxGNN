@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Candésartan cilexétil : De l'hypertension à l'hypertension rénovasculaire maligne
+## Candésartan cilexétil : De l'hypertension à l'hypertension rénovasculaire maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

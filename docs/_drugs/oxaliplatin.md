@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **4**
 
 </div>
 
-# Oxaliplatine : Du Cancer Colorectal Métastatique au Mésothéliome Pleural Malin
+## Oxaliplatine : Du Cancer Colorectal Métastatique au Mésothéliome Pleural Malin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

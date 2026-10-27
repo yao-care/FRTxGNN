@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Bimatoprost : Du Glaucome à Angle Ouvert à l'Alopécie
+## Bimatoprost : Du Glaucome à Angle Ouvert à l'Alopécie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

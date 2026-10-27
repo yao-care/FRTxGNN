@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Cidofovir : D'une indication non renseignée à la Cholangite sclérosante
+## Cidofovir : D'une indication non renseignée à la Cholangite sclérosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

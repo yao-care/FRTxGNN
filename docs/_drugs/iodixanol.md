@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Iodixanol : D'un produit de contraste radiologique à la susceptibilité à l'arthrose
+## Iodixanol : D'un produit de contraste radiologique à la susceptibilité à l'arthrose
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

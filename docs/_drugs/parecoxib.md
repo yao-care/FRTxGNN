@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **4**
 
 </div>
 
-# Parécoxib : De l'indication originale non renseignée à la migraine
+## Parécoxib : De l'indication originale non renseignée à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

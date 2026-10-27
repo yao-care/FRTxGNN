@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **9**
 
 </div>
 
-# Dantrolène : De l'hyperthermie maligne de l'anesthésie à la susceptibilité à l'hyperthermie maligne
+## Dantrolène : De l'hyperthermie maligne de l'anesthésie à la susceptibilité à l'hyperthermie maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

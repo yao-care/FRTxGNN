@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Iobenguane : D'un produit diagnostique radiomarqué à l'hypotension (prédiction à visée essentiellement diagnostique)
+## Iobenguane : D'un produit diagnostique radiomarqué à l'hypotension (prédiction à visée essentiellement diagnostique)
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

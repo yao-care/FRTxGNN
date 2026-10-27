@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Budésonide : Des Maladies Inflammatoires (Asthme, Maladie de Crohn) à l'Eczéma Atopique
+## Budésonide : Des Maladies Inflammatoires (Asthme, Maladie de Crohn) à l'Eczéma Atopique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

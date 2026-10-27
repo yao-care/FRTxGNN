@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Telmisartan : De l'hypertension artérielle à l'occlusion des artères cérébrales
+## Telmisartan : De l'hypertension artérielle à l'occlusion des artères cérébrales
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

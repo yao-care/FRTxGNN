@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Néfopam : D'une indication d'origine non documentée à la cataracte avec craniosténose
+## Néfopam : D'une indication d'origine non documentée à la cataracte avec craniosténose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

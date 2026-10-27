@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Relebactam : Des Infections Urinaires à l'Hyperamylasémie
+## Relebactam : Des Infections Urinaires à l'Hyperamylasémie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Ribavirine : De l'hépatite C chronique à l'infection chronique par le virus de l'hépatite B
+## Ribavirine : De l'hépatite C chronique à l'infection chronique par le virus de l'hépatite B
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Thiocolchicoside : D'un myorelaxant à l'insomnie, une prédiction non étayée
+## Thiocolchicoside : D'un myorelaxant à l'insomnie, une prédiction non étayée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

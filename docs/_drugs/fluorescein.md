@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fluorescéine : De l'usage diagnostique ophtalmique à l'angor de Prinzmetal
+## Fluorescéine : De l'usage diagnostique ophtalmique à l'angor de Prinzmetal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

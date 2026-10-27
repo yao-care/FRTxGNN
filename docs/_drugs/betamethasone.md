@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Bétaméthasone : Des maladies auto-immunes et inflammatoires à l'alopécie areata
+## Bétaméthasone : Des maladies auto-immunes et inflammatoires à l'alopécie areata
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

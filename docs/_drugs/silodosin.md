@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Silodosine : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Universelle Congénitale de type Ambras
+## Silodosine : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Universelle Congénitale de type Ambras
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

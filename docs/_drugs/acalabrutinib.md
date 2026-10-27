@@ -36,7 +36,8 @@ Voici le rapport d'évaluation généré à partir de l'Evidence Pack fourni :
 
 ---
 
-# Acalabrutinib : Évaluation Préliminaire — Données Insuffisantes pour le Repositionnement
+## Acalabrutinib : Évaluation Préliminaire — Données Insuffisantes pour le Repositionnement
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

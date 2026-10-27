@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Regorafenib : Du Cancer Colorectal Métastatique au Liposarcome
+## Regorafenib : Du Cancer Colorectal Métastatique au Liposarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

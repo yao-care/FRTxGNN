@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Bédaquiline : De la tuberculose pulmonaire et multirésistante à la tuberculose inactive (latente)
+## Bédaquiline : De la tuberculose pulmonaire et multirésistante à la tuberculose inactive (latente)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

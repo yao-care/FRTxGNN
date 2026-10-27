@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Zolpidem : De l'insomnie au trouble du sommeil (initiation et maintien du sommeil)
+## Zolpidem : De l'insomnie au trouble du sommeil (initiation et maintien du sommeil)
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

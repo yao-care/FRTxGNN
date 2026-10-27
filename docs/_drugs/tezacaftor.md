@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Tezacaftor : De la Mucoviscidose au VIH (maladie infectieuse)
+## Tezacaftor : De la Mucoviscidose au VIH (maladie infectieuse)
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

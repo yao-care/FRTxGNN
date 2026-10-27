@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Imiglucérase : De la maladie de Gaucher au syndrome de Hurler
+## Imiglucérase : De la maladie de Gaucher au syndrome de Hurler
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

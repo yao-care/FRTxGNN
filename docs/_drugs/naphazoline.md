@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Naphazoline : D'un décongestionnant vasoconstricteur à l'hypotrichose simple du cuir chevelu
+## Naphazoline : D'un décongestionnant vasoconstricteur à l'hypotrichose simple du cuir chevelu
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Cilastatine : Des Infections Bactériennes à l'Infection à Staphylococcus aureus
+## Cilastatine : Des Infections Bactériennes à l'Infection à Staphylococcus aureus
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

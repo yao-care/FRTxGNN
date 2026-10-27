@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **4**
 
 </div>
 
-# Nitrendipine : De l'hypertension artérielle à l'hypertension pulmonaire
+## Nitrendipine : De l'hypertension artérielle à l'hypertension pulmonaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

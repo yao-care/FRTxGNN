@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Ebastine : De la rhinite allergique à la maladie coronarienne
+## Ebastine : De la rhinite allergique à la maladie coronarienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulprostone : D'un utérotonique à la cataracte tétanique (prédiction du modèle uniquement)
+## Sulprostone : D'un utérotonique à la cataracte tétanique (prédiction du modèle uniquement)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

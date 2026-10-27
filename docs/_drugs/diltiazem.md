@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Diltiazem : De l'Hypertension à la Susceptibilité à l'Accident Vasculaire Cérébral Ischémique (terme obsolète)
+## Diltiazem : De l'Hypertension à la Susceptibilité à l'Accident Vasculaire Cérébral Ischémique (terme obsolète)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **2**
 
 </div>
 
-# Sucralfate : De l'Ulcère Duodénal au Reflux Duodéno-Gastrique
+## Sucralfate : De l'Ulcère Duodénal au Reflux Duodéno-Gastrique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

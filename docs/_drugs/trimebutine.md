@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **2**
 
 </div>
 
-# Trimébutine : Des troubles fonctionnels digestifs à la migraine
+## Trimébutine : Des troubles fonctionnels digestifs à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

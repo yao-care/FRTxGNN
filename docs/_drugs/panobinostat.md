@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **1**
 
 </div>
 
-# Panobinostat : Du Myélome Multiple à la Leucémie Myéloïde
+## Panobinostat : Du Myélome Multiple à la Leucémie Myéloïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

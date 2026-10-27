@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Terlipressine : D'une indication d'origine non renseignée à l'Hypertension Pulmonaire
+## Terlipressine : D'une indication d'origine non renseignée à l'Hypertension Pulmonaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

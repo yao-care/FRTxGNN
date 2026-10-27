@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Rilpivirine : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Simienne
+## Rilpivirine : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Simienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

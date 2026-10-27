@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Noréthistérone : De l'Insuffisance Ovarienne Primaire et de l'Endométriose à l'Aménorrhée
+## Noréthistérone : De l'Insuffisance Ovarienne Primaire et de l'Endométriose à l'Aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

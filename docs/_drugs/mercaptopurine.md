@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Mercaptopurine : De la leucémie aiguë lymphoblastique à la leucémie myéloïde
+## Mercaptopurine : De la leucémie aiguë lymphoblastique à la leucémie myéloïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-# Clonazépam : Des Épilepsies et Troubles Anxieux au Syndrome des Jambes Sans Repos
+## Clonazépam : Des Épilepsies et Troubles Anxieux au Syndrome des Jambes Sans Repos
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

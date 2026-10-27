@@ -31,7 +31,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Capécitabine : Du Cancer Gastrique à l'Adénocarcinome Gastrique Tubulaire
+## Capécitabine : Du Cancer Gastrique à l'Adénocarcinome Gastrique Tubulaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

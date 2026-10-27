@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Gemeprost : D'un usage obstétrical à l'aménorrhée (contexte de l'interruption précoce de grossesse)
+## Gemeprost : D'un usage obstétrical à l'aménorrhée (contexte de l'interruption précoce de grossesse)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

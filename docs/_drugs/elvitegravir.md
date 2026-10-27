@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-# Elvitegravir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+## Elvitegravir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

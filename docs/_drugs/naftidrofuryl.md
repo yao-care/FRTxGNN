@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **1**
 
 </div>
 
-# Naftidrofuryl : Du Trouble Cérébrovasculaire à l'Accident Vasculaire Cérébral
+## Naftidrofuryl : Du Trouble Cérébrovasculaire à l'Accident Vasculaire Cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

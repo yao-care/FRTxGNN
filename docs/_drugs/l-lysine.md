@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# L-Lysine : D'un usage nutritionnel (indication originale non renseignée) à la Gastroparésie
+## L-Lysine : D'un usage nutritionnel (indication originale non renseignée) à la Gastroparésie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

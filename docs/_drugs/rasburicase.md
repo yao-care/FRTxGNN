@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Rasburicase : De l'hyperuricémie à l'hypouricémie rénale
+## Rasburicase : De l'hyperuricémie à l'hypouricémie rénale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

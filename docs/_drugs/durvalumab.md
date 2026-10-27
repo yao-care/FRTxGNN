@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Durvalumab : Du Carcinome à Cellules Transitionnelles au Carcinome Urothélial de l'Urètre Prostatique
+## Durvalumab : Du Carcinome à Cellules Transitionnelles au Carcinome Urothélial de l'Urètre Prostatique
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

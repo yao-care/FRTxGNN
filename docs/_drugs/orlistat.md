@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Orlistat : De l'Obésité à l'Hypervitaminose
+## Orlistat : De l'Obésité à l'Hypervitaminose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

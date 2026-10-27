@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 </div>
 
-# Citalopram : De la dépression majeure au trouble obsessionnel-compulsif
+## Citalopram : De la dépression majeure au trouble obsessionnel-compulsif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

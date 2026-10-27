@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Défibrotide : De la maladie veino-occlusive hépatique au purpura thrombotique thrombocytopénique
+## Défibrotide : De la maladie veino-occlusive hépatique au purpura thrombotique thrombocytopénique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

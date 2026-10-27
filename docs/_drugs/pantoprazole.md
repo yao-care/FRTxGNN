@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Pantoprazole : De l'ulcère peptique à l'ulcère peptique actif (indication déjà couverte)
+## Pantoprazole : De l'ulcère peptique à l'ulcère peptique actif (indication déjà couverte)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

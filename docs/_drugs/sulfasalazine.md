@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulfasalazine : De la polyarthrite rhumatoïde à l'arthrose
+## Sulfasalazine : De la polyarthrite rhumatoïde à l'arthrose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

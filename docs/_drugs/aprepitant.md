@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Aprépitant : D'une indication d'origine non documentée à la Néphropathie : syndrome néphrogénique d'antidiurèse inappropriée
+## Aprépitant : D'une indication d'origine non documentée à la Néphropathie : syndrome néphrogénique d'antidiurèse inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Fluticasone : D'un corticoïde inhalé/nasal à la migraine (prédiction à très faible niveau de preuve)
+## Fluticasone : D'un corticoïde inhalé/nasal à la migraine (prédiction à très faible niveau de preuve)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

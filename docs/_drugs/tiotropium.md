@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Tiotropium : De la bronchite, de l'asthme et de l'emphysème pulmonaire à la maladie pulmonaire obstructive
+## Tiotropium : De la bronchite, de l'asthme et de l'emphysème pulmonaire à la maladie pulmonaire obstructive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

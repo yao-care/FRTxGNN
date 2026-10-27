@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Métoprolol : De l'hypertension et de l'infarctus du myocarde à la cardiopathie pulmonaire chronique
+## Métoprolol : De l'hypertension et de l'infarctus du myocarde à la cardiopathie pulmonaire chronique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

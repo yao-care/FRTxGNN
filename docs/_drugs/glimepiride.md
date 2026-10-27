@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Glimépiride : Du diabète de type 2 au syndrome de la personne raide classique
+## Glimépiride : Du diabète de type 2 au syndrome de la personne raide classique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

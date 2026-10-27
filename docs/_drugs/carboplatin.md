@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Carboplatine : Du Cancer de l'Ovaire au Carcinome Mammaire Féminin
+## Carboplatine : Du Cancer de l'Ovaire au Carcinome Mammaire Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

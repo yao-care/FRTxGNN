@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Acénocoumarol : De l'Embolie Pulmonaire et la Thrombophilie au Déficit en Cofacteur II de l'Héparine
+## Acénocoumarol : De l'Embolie Pulmonaire et la Thrombophilie au Déficit en Cofacteur II de l'Héparine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

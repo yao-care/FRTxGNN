@@ -31,7 +31,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Dexchlorphéniramine : De la rhinite allergique à l'urticaire allergique
+## Dexchlorphéniramine : De la rhinite allergique à l'urticaire allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

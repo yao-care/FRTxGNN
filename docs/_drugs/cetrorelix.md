@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cétrorélix : De l'inhibition des pics prématurés de LH à l'hypertrichose
+## Cétrorélix : De l'inhibition des pics prématurés de LH à l'hypertrichose
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

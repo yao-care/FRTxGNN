@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Alglucosidase alfa : De la maladie de stockage du glycogène à la maladie des corps de polyglucosanes de l'adulte
+## Alglucosidase alfa : De la maladie de stockage du glycogène à la maladie des corps de polyglucosanes de l'adulte
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

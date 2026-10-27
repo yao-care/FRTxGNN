@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Clonidine : De l'hypertension au syndrome de Gilles de la Tourette
+## Clonidine : De l'hypertension au syndrome de Gilles de la Tourette
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

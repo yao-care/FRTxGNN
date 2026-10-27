@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Evolocumab : De l'Hypercholestérolémie Familiale Homozygote à l'Hémophilie Symptomatique chez les Porteuses
+## Evolocumab : De l'Hypercholestérolémie Familiale Homozygote à l'Hémophilie Symptomatique chez les Porteuses
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

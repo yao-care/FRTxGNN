@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Volanesorsen : De l'indication d'origine non documentée à l'anémie mégaloblastique (prédiction non étayée)
+## Volanesorsen : De l'indication d'origine non documentée à l'anémie mégaloblastique (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cisatracurium : D'un curare non dépolarisant au Syndrome de la queue de cheval
+## Cisatracurium : D'un curare non dépolarisant au Syndrome de la queue de cheval
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

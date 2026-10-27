@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Pentoxyvérine : De la rhinite et de la pharyngite à la laryngopharyngite aiguë
+## Pentoxyvérine : De la rhinite et de la pharyngite à la laryngopharyngite aiguë
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

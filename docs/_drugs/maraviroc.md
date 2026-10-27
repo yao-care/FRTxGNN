@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Maraviroc : De l'infection par le VIH à l'Néoplasie Endocrinienne Multiple
+## Maraviroc : De l'infection par le VIH à l'Néoplasie Endocrinienne Multiple
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Irbésartan : De l'hypertension artérielle à la malignant renovascular hypertension (hypertension rénovasculaire maligne)
+## Irbésartan : De l'hypertension artérielle à la malignant renovascular hypertension (hypertension rénovasculaire maligne)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Lenvatinib : Du Carcinome Rénal et Thyroïdien au Liposarcome
+## Lenvatinib : Du Carcinome Rénal et Thyroïdien au Liposarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

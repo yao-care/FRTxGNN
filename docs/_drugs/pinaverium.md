@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Pinaverium : Du Syndrome de l'Intestin Irritable à l'Hyperplasie Bénigne de la Prostate
+## Pinaverium : Du Syndrome de l'Intestin Irritable à l'Hyperplasie Bénigne de la Prostate
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

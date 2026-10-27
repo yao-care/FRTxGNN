@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Pegfilgrastim : D'un facteur de croissance des neutrophiles à la rétinopathie diabétique non proliférante sévère
+## Pegfilgrastim : D'un facteur de croissance des neutrophiles à la rétinopathie diabétique non proliférante sévère
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

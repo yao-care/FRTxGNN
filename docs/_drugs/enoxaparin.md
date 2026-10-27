@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Énoxaparine : De l'embolie pulmonaire à la thrombophilie par déficit en protéine C (autosomique récessif)
+## Énoxaparine : De l'embolie pulmonaire à la thrombophilie par déficit en protéine C (autosomique récessif)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

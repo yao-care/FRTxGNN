@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Riluzole : De la sclérose latérale amyotrophique à la polymicrogyrie parasagittale pariéto-occipitale bilatérale
+## Riluzole : De la sclérose latérale amyotrophique à la polymicrogyrie parasagittale pariéto-occipitale bilatérale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

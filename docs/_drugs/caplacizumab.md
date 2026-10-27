@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Caplacizumab : Du Purpura Thrombopénique à la Purpura Thrombotique Thrombocytopénique
+## Caplacizumab : Du Purpura Thrombopénique à la Purpura Thrombotique Thrombocytopénique
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

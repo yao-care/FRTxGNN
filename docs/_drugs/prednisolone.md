@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Prednisolone : Des maladies auto-immunes à la pelade (alopecia areata)
+## Prednisolone : Des maladies auto-immunes à la pelade (alopecia areata)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

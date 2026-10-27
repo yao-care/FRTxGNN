@@ -31,7 +31,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Oxiconazole : Des Mycoses Cutanées Superficielles à la Candidose Cutanée
+## Oxiconazole : Des Mycoses Cutanées Superficielles à la Candidose Cutanée
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

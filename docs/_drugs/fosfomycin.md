@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fosfomycine : De l'infection urinaire à l'urétrite gonococcique
+## Fosfomycine : De l'infection urinaire à l'urétrite gonococcique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

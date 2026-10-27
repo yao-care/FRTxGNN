@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Indométacine : Des Rhumatismes Inflammatoires au Syndrome Brachydactylie-Syndactylie
+## Indométacine : Des Rhumatismes Inflammatoires au Syndrome Brachydactylie-Syndactylie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

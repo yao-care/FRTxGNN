@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Ciclésonide : De l'asthme à l'eczéma atopique
+## Ciclésonide : De l'asthme à l'eczéma atopique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Alprazolam : De l'anxiété à l'insomnie
+## Alprazolam : De l'anxiété à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

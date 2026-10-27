@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ruxolitinib : De la myélofibrose primitive au PEComa périvasculaire du corps utérin
+## Ruxolitinib : De la myélofibrose primitive au PEComa périvasculaire du corps utérin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

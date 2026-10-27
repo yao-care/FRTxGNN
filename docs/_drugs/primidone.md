@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Primidone : De l'Épilepsie au Néoplasme du Nerf Trijumeau
+## Primidone : De l'Épilepsie au Néoplasme du Nerf Trijumeau
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

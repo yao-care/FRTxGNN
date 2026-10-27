@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Flécaïnide : De la Fibrillation Atriale à l'Accident Vasculaire Cérébral
+## Flécaïnide : De la Fibrillation Atriale à l'Accident Vasculaire Cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

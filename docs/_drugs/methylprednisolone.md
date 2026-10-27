@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Méthylprednisolone : Des maladies auto-immunes à la pelade (alopécie areata)
+## Méthylprednisolone : Des maladies auto-immunes à la pelade (alopécie areata)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

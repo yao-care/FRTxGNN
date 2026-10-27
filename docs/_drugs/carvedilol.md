@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Carvedilol : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+## Carvedilol : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

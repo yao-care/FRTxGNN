@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Pémétrexed : Du Cancer Bronchique Non à Petites Cellules et du Mésothéliome Pleural au Mésothéliome Péritonéal Malin
+## Pémétrexed : Du Cancer Bronchique Non à Petites Cellules et du Mésothéliome Pleural au Mésothéliome Péritonéal Malin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

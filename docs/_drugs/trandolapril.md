@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Trandolapril : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+## Trandolapril : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Carbamazépine : De l'épilepsie et de la névralgie du trijumeau au néoplasme du nerf trijumeau
+## Carbamazépine : De l'épilepsie et de la névralgie du trijumeau au néoplasme du nerf trijumeau
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Amiodarone : De la fibrillation ventriculaire à la tachycardie ventriculaire polymorphe catécholaminergique
+## Amiodarone : De la fibrillation ventriculaire à la tachycardie ventriculaire polymorphe catécholaminergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Norgestimate : De l'Acné à l'Élévation du Zinc Plasmatique
+## Norgestimate : De l'Acné à l'Élévation du Zinc Plasmatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

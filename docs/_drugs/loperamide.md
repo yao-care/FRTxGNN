@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lopéramide : De la diarrhée et la dysenterie à la conjonctivite contagieuse aiguë
+## Lopéramide : De la diarrhée et la dysenterie à la conjonctivite contagieuse aiguë
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

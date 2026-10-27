@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Héparine : De l'embolie pulmonaire au déficit en protéine C (thrombophilie autosomique récessive)
+## Héparine : De l'embolie pulmonaire au déficit en protéine C (thrombophilie autosomique récessive)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

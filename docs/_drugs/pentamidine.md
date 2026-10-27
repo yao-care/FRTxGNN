@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Pentamidine : De la pneumocystose à la kératoconjonctivite ponctuée épithéliale
+## Pentamidine : De la pneumocystose à la kératoconjonctivite ponctuée épithéliale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Travoprost : Du Glaucome à Angle Ouvert à la Calciphylaxie Viscérale
+## Travoprost : Du Glaucome à Angle Ouvert à la Calciphylaxie Viscérale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

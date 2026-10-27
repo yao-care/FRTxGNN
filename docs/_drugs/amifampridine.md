@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Amifampridine : Du Syndrome Myasthénique de Lambert-Eaton au Glaucome
+## Amifampridine : Du Syndrome Myasthénique de Lambert-Eaton au Glaucome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

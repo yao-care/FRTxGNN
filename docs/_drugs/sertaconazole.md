@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sertaconazole : De la teigne du pied à la teigne du corps (tinea corporis)
+## Sertaconazole : De la teigne du pied à la teigne du corps (tinea corporis)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

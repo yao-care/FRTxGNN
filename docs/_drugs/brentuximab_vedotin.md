@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Brentuximab vedotin : Du Lymphome de Hodgkin au Lymphome Folliculaire
+## Brentuximab vedotin : Du Lymphome de Hodgkin au Lymphome Folliculaire
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

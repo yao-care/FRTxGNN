@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Brigatinib : Du Cancer Bronchique Non à Petites Cellules à la Fibromatose Gingivale
+## Brigatinib : Du Cancer Bronchique Non à Petites Cellules à la Fibromatose Gingivale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fluorométholone : De l'uvéite à la kératoconjonctivite ponctuée épithéliale
+## Fluorométholone : De l'uvéite à la kératoconjonctivite ponctuée épithéliale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

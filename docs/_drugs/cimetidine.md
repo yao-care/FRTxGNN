@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Cimétidine : Des Ulcères Gastroduodénaux à la Mastocytose Systémique Indolente (Smouldering)
+## Cimétidine : Des Ulcères Gastroduodénaux à la Mastocytose Systémique Indolente (Smouldering)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Lédipasvir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+## Lédipasvir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

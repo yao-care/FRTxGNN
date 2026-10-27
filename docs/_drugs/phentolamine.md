@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Phentolamine : Du Phéochromocytome et des Maladies Vasculaires Périphériques à la Maladie Vasculaire (Prédiction TxGNN)
+## Phentolamine : Du Phéochromocytome et des Maladies Vasculaires Périphériques à la Maladie Vasculaire (Prédiction TxGNN)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

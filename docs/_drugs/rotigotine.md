@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Rotigotine : De la maladie de Parkinson et du syndrome des jambes sans repos au trouble du déficit de l'attention avec hyperactivité (TDAH)
+## Rotigotine : De la maladie de Parkinson et du syndrome des jambes sans repos au trouble du déficit de l'attention avec hyperactivité (TDAH)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

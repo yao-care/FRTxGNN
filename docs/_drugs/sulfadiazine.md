@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Sulfadiazine : De la toxoplasmose à la pneumocystose
+## Sulfadiazine : De la toxoplasmose à la pneumocystose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

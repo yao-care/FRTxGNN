@@ -32,7 +32,8 @@ Niveau de preuve: **L5** | Indications prédites: **0**
 
 </div>
 
-# Maprotiline : Évaluation du Potentiel de Repositionnement
+## Maprotiline : Évaluation du Potentiel de Repositionnement
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

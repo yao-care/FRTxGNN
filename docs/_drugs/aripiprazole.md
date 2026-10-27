@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Aripiprazole : Du Trouble Bipolaire et de la Schizophrénie au Trouble Affectif Majeur
+## Aripiprazole : Du Trouble Bipolaire et de la Schizophrénie au Trouble Affectif Majeur
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

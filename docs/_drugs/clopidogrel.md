@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Clopidogrel : De l'Syndrome Coronarien Aigu à la Migraine
+## Clopidogrel : De l'Syndrome Coronarien Aigu à la Migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

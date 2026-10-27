@@ -31,7 +31,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Réserpine : De l'Hypertension et des Troubles Psychotiques à la Schizophrénie Résistante au Traitement
+## Réserpine : De l'Hypertension et des Troubles Psychotiques à la Schizophrénie Résistante au Traitement
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

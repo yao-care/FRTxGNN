@@ -31,7 +31,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Loprazolam : De l'insomnie au trouble du sommeil (endormissement et maintien du sommeil)
+## Loprazolam : De l'insomnie au trouble du sommeil (endormissement et maintien du sommeil)
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

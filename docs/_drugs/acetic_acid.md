@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Acide acétique : De l'otite externe à la maladie post-bactérienne
+## Acide acétique : De l'otite externe à la maladie post-bactérienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

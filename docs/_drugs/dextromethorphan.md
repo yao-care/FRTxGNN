@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Dextrométhorphane : De la rhinite allergique à la maladie de la cavité nasale
+## Dextrométhorphane : De la rhinite allergique à la maladie de la cavité nasale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

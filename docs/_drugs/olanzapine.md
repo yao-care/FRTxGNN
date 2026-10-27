@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-# Olanzapine : De la schizophrénie et des troubles bipolaires à l'agoraphobie
+## Olanzapine : De la schizophrénie et des troubles bipolaires à l'agoraphobie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

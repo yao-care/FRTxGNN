@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Nébivolol : De l'Hypertension Artérielle à l'Hypertension Rénale Maligne
+## Nébivolol : De l'Hypertension Artérielle à l'Hypertension Rénale Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

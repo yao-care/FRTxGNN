@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Clioquinol : Des Dermatophyties (Teignes) à la Candidose Cutanée
+## Clioquinol : Des Dermatophyties (Teignes) à la Candidose Cutanée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Olsalazine : De la rectocolite hémorragique au syndrome myélodysplasique
+## Olsalazine : De la rectocolite hémorragique au syndrome myélodysplasique
+{: .text-alpha }
 
 ## Résumé en une phrase
 

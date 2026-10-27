@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Vestronidase alfa : De la mucopolysaccharidose au syndrome de Scheie
+## Vestronidase alfa : De la mucopolysaccharidose au syndrome de Scheie
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

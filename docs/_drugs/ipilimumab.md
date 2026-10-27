@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Ipilimumab : Du Mélanome Métastatique à la Choroïdérémie
+## Ipilimumab : Du Mélanome Métastatique à la Choroïdérémie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

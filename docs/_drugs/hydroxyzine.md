@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Hydroxyzine : De la dermatite atopique et des rhinites allergiques à l'urticaire allergique
+## Hydroxyzine : De la dermatite atopique et des rhinites allergiques à l'urticaire allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

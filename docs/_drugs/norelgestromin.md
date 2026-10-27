@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Norelgestromine : D'une indication d'origine non renseignée à l'aménorrhée
+## Norelgestromine : D'une indication d'origine non renseignée à l'aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

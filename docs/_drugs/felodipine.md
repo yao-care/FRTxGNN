@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Félodipine : De l'Hypertension à l'Angor de Prinzmetal
+## Félodipine : De l'Hypertension à l'Angor de Prinzmetal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

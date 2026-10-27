@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Insuline glulisine : Du diabète sucré au diabète de type 1
+## Insuline glulisine : Du diabète sucré au diabète de type 1
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

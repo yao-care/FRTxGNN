@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Pentosane polysulfate : De la cystite interstitielle au trouble de la sécrétion plaquettaire primaire
+## Pentosane polysulfate : De la cystite interstitielle au trouble de la sécrétion plaquettaire primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

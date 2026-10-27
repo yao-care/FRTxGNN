@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Triamcinolone : Des Maladies Auto-immunes à la Mucinose Folliculaire (Alopecia Mucinosa)
+## Triamcinolone : Des Maladies Auto-immunes à la Mucinose Folliculaire (Alopecia Mucinosa)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Darolutamide : Du Cancer de la Prostate à l'Hypercholestérolémie Familiale Homozygote
+## Darolutamide : Du Cancer de la Prostate à l'Hypercholestérolémie Familiale Homozygote
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

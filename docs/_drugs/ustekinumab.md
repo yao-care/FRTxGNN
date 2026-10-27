@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Ustékinumab : Du Psoriasis à la Dermatite
+## Ustékinumab : Du Psoriasis à la Dermatite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

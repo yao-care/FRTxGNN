@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Moroctocog alfa : De l'hémophilie au trouble de la libération plaquettaire primaire
+## Moroctocog alfa : De l'hémophilie au trouble de la libération plaquettaire primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

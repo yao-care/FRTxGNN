@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Pixantrone : De l'indication d'origine non documentée à la cataracte diabétique
+## Pixantrone : De l'indication d'origine non documentée à la cataracte diabétique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

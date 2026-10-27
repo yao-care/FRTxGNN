@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Glycérine : De la constipation au syndrome de la queue de cheval
+## Glycérine : De la constipation au syndrome de la queue de cheval
+{: .text-alpha }
 
 ## Résumé en une phrase
 

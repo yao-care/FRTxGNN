@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Scopolamine : De la maladie ulcéreuse gastroduodénale au syndrome de la queue de cheval
+## Scopolamine : De la maladie ulcéreuse gastroduodénale au syndrome de la queue de cheval
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

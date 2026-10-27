@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Risankizumab : Du Psoriasis à la Dermatite
+## Risankizumab : Du Psoriasis à la Dermatite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Triptoréline : De l'indication d'origine non renseignée à la puberté précoce
+## Triptoréline : De l'indication d'origine non renseignée à la puberté précoce
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

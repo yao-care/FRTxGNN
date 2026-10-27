@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Loxapine : Du Trouble Bipolaire au Trouble Affectif Bipolaire de Type Maniaque
+## Loxapine : Du Trouble Bipolaire au Trouble Affectif Bipolaire de Type Maniaque
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

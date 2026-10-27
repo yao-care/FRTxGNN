@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Amlodipine : De l'Hypertension et des Accidents Vasculaires Cérébraux à l'Hémorragie Intracérébrale
+## Amlodipine : De l'Hypertension et des Accidents Vasculaires Cérébraux à l'Hémorragie Intracérébrale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

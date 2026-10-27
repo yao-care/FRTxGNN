@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Aflibercept : Du Néoplasme du Côlon Métastatique et des Maladies Rétiniennes à l'Ésotropie
+## Aflibercept : Du Néoplasme du Côlon Métastatique et des Maladies Rétiniennes à l'Ésotropie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

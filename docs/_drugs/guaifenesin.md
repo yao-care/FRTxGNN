@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Guaifenesine : Des Affections Rhinopharyngées à la Maladie de la Cavité Nasale
+## Guaifenesine : Des Affections Rhinopharyngées à la Maladie de la Cavité Nasale
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Létermovir : De l'infection à cytomégalovirus à la candidose vulvovaginale
+## Létermovir : De l'infection à cytomégalovirus à la candidose vulvovaginale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

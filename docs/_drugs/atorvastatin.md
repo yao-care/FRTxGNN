@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-# Atorvastatine : De l'hypertriglycéridémie à l'hypercholestérolémie familiale
+## Atorvastatine : De l'hypertriglycéridémie à l'hypercholestérolémie familiale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

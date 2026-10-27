@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Vildagliptine : Du diabète de type 2 au syndrome de la personne raide classique
+## Vildagliptine : Du diabète de type 2 au syndrome de la personne raide classique
+{: .text-alpha }
 
 ## Résumé en une phrase
 

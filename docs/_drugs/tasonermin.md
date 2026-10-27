@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tasonermin : Du Sarcome des Tissus Mous au Carcinome Urothélial de l'Urètre Prostatique
+## Tasonermin : Du Sarcome des Tissus Mous au Carcinome Urothélial de l'Urètre Prostatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

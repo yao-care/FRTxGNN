@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fluvastatine : De l'athérosclérose à l'hypercholestérolémie familiale
+## Fluvastatine : De l'athérosclérose à l'hypercholestérolémie familiale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

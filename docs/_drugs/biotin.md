@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Biotine : De la carence nutritionnelle en biotine à la dyspepsie
+## Biotine : De la carence nutritionnelle en biotine à la dyspepsie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

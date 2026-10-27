@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Flavoxate : D'une indication urologique non documentée au Syndrome de l'intestin irritable
+## Flavoxate : D'une indication urologique non documentée au Syndrome de l'intestin irritable
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

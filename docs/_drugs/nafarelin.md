@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Nafarelin : De l'endométriose à l'Hypertrichose congénitale de type Ambras
+## Nafarelin : De l'endométriose à l'Hypertrichose congénitale de type Ambras
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

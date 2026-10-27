@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Acide urique : De l'absence d'indication officielle à la polyarthrite rhumatoïde
+## Acide urique : De l'absence d'indication officielle à la polyarthrite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

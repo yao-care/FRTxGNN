@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Agomélatine : De la dépression unipolaire à la tendance de la prédiction « torticolis paroxystique bénin du nourrisson »
+## Agomélatine : De la dépression unipolaire à la tendance de la prédiction « torticolis paroxystique bénin du nourrisson »
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

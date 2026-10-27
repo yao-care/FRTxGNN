@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Bosentan : De l'Hypertension Artérielle Pulmonaire à la Polyarthrite Rhumatoïde
+## Bosentan : De l'Hypertension Artérielle Pulmonaire à la Polyarthrite Rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

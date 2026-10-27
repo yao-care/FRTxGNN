@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Imipenem : Des infections bactériennes graves à la sclérodermie diffuse
+## Imipenem : Des infections bactériennes graves à la sclérodermie diffuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

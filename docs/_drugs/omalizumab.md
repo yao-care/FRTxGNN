@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Omalizumab : De l'asthme à la bronchite
+## Omalizumab : De l'asthme à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

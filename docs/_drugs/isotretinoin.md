@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Isotrétinoïne : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+## Isotrétinoïne : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

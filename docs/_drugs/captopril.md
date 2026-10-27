@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Captopril : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+## Captopril : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

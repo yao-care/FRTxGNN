@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Rifabutine : D'une indication non documentée à l'infection par le VIH
+## Rifabutine : D'une indication non documentée à l'infection par le VIH
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

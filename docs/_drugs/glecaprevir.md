@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Glecaprevir : De l'hépatite C chronique à l'infection par le VIH (prédiction non étayée)
+## Glecaprevir : De l'hépatite C chronique à l'infection par le VIH (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

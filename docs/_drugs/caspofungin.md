@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Caspofungine : De la candidose œsophagienne à l'anomalie de sécrétion de la gastrine
+## Caspofungine : De la candidose œsophagienne à l'anomalie de sécrétion de la gastrine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

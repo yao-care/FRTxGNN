@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Vénétoclax : De la leucémie lymphoblastique aiguë / syndrome de Richter à la leucémie lymphoïde chronique (CLL/SLL) avec hypermutation somatique des gènes IGHV
+## Vénétoclax : De la leucémie lymphoblastique aiguë / syndrome de Richter à la leucémie lymphoïde chronique (CLL/SLL) avec hypermutation somatique des gènes IGHV
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Trifarotène : De l'Acné à l'Élévation du Zinc Plasmatique
+## Trifarotène : De l'Acné à l'Élévation du Zinc Plasmatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

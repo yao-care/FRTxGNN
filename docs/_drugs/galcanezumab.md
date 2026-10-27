@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Galcanezumab : De la migraine au déficit en cofacteur II de l'héparine
+## Galcanezumab : De la migraine au déficit en cofacteur II de l'héparine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

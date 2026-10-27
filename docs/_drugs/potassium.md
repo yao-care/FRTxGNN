@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Potassium : D'un usage électrolytique sans indication renseignée à l'Hypertension artérielle
+## Potassium : D'un usage électrolytique sans indication renseignée à l'Hypertension artérielle
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

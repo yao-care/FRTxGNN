@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Baricitinib : De la Polyarthrite Rhumatoïde au Syndrome de Microphtalmie Colobomateuse-Dysplasie Rhizomélique
+## Baricitinib : De la Polyarthrite Rhumatoïde au Syndrome de Microphtalmie Colobomateuse-Dysplasie Rhizomélique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

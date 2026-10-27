@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Clozapine : De la schizophrénie résistante au trouble bipolaire maniaque
+## Clozapine : De la schizophrénie résistante au trouble bipolaire maniaque
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

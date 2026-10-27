@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Latanoprost : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primaire
+## Latanoprost : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

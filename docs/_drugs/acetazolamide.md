@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Acétazolamide : De l'épilepsie-absence et du glaucome à l'hyperthermie maligne d'effort
+## Acétazolamide : De l'épilepsie-absence et du glaucome à l'hyperthermie maligne d'effort
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Zonisamide : De l'épilepsie au syndrome de Gilles de la Tourette (prédiction principale du modèle)
+## Zonisamide : De l'épilepsie au syndrome de Gilles de la Tourette (prédiction principale du modèle)
+{: .text-alpha }
 
 ## Résumé en une phrase
 

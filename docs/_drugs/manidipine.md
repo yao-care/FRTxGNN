@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Manidipine : De l'hypertension (classe des inhibiteurs calciques) à la migraine
+## Manidipine : De l'hypertension (classe des inhibiteurs calciques) à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

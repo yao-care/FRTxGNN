@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Ropinirole : Du Syndrome des Jambes Sans Repos au Trouble du Déficit de l'Attention avec Hyperactivité
+## Ropinirole : Du Syndrome des Jambes Sans Repos au Trouble du Déficit de l'Attention avec Hyperactivité
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

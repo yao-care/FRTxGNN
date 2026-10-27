@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Ivabradine : De l'Indication Originale Non Documentee à l'Hypertrichose
+## Ivabradine : De l'Indication Originale Non Documentee à l'Hypertrichose
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

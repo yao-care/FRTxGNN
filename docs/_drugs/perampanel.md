@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Pérampanel : De l'épilepsie partielle à l'épilepsie visuelle
+## Pérampanel : De l'épilepsie partielle à l'épilepsie visuelle
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

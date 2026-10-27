@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Léflunomide : De la polyarthrite rhumatoïde et du rhumatisme psoriasique au syndrome brachydactylie-syndactylie
+## Léflunomide : De la polyarthrite rhumatoïde et du rhumatisme psoriasique au syndrome brachydactylie-syndactylie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

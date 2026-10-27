@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Vortioxétine : De la dépression unipolaire à la mélancolie
+## Vortioxétine : De la dépression unipolaire à la mélancolie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

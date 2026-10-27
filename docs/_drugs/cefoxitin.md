@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Céfoxitine : Des infections bactériennes à l'otite moyenne infectieuse
+## Céfoxitine : Des infections bactériennes à l'otite moyenne infectieuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

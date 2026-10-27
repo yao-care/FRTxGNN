@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Desonide : Des Dermatoses Inflammatoires au Polype des Cordes Vocales
+## Desonide : Des Dermatoses Inflammatoires au Polype des Cordes Vocales
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

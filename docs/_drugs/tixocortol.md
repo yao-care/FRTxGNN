@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Tixocortol : D'un corticoïde local à usage nasal au Lymphome T cutané primitif
+## Tixocortol : D'un corticoïde local à usage nasal au Lymphome T cutané primitif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

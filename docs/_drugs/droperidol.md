@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Dropéridol : De l'Indication Originale Non Renseignée au Syndrome de Gilles de la Tourette
+## Dropéridol : De l'Indication Originale Non Renseignée au Syndrome de Gilles de la Tourette
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

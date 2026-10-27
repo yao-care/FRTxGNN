@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Bexarotène : Du Lymphome T Cutané Primitif au Syndrome de Sézary
+## Bexarotène : Du Lymphome T Cutané Primitif au Syndrome de Sézary
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

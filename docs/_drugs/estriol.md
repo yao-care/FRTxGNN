@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Estriol : De l'Indication Originale Non Documentée à l'Aménorrhée
+## Estriol : De l'Indication Originale Non Documentée à l'Aménorrhée
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

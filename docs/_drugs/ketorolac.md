@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-# Kétorolac : De la conjonctivite atopique au trouble céphalalgique (céphalées)
+## Kétorolac : De la conjonctivite atopique au trouble céphalalgique (céphalées)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

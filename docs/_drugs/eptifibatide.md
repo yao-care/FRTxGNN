@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Eptifibatide : Du Syndrome Coronarien Aigu à la Polyarthrite Rhumatoïde
+## Eptifibatide : Du Syndrome Coronarien Aigu à la Polyarthrite Rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

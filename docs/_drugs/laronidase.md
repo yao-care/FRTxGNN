@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Laronidase : Du Mucopolysaccharidose de type I à la maladie de surcharge lysosomale avec atteinte squelettique
+## Laronidase : Du Mucopolysaccharidose de type I à la maladie de surcharge lysosomale avec atteinte squelettique
+{: .text-alpha }
 
 ## Resume en Une Phrase
 
@@ -105,7 +106,8 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ---
 
-# Laronidase : Du Mucopolysaccharidose de type I au syndrome de Sanfilippo
+## Laronidase : Du Mucopolysaccharidose de type I au syndrome de Sanfilippo
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

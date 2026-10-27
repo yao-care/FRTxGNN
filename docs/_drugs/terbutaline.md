@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-# Terbutaline : De l'asthme à la maladie pulmonaire obstructive
+## Terbutaline : De l'asthme à la maladie pulmonaire obstructive
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

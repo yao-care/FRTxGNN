@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Roxithromycine : D'un antibiotique macrolide à la lèpre
+## Roxithromycine : D'un antibiotique macrolide à la lèpre
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

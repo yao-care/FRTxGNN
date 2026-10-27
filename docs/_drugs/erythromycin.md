@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Érythromycine : Des infections bactériennes (acné, otite, pneumonie…) à la kératoconjonctivite épithéliale ponctuée
+## Érythromycine : Des infections bactériennes (acné, otite, pneumonie…) à la kératoconjonctivite épithéliale ponctuée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

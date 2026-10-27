@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Ténofovir disoproxil : Du VIH et de l'hépatite B chronique à l'infection par le virus de l'immunodéficience simienne
+## Ténofovir disoproxil : Du VIH et de l'hépatite B chronique à l'infection par le virus de l'immunodéficience simienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

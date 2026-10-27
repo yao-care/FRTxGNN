@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Nitrofurantoïne : De l'infection urinaire à la polyarthrite rhumatoïde (prédiction non étayée)
+## Nitrofurantoïne : De l'infection urinaire à la polyarthrite rhumatoïde (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

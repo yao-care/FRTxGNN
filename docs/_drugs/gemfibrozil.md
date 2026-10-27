@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Gemfibrozil : De l'Hypertriglycéridémie à la Polyarthrite Rhumatoïde
+## Gemfibrozil : De l'Hypertriglycéridémie à la Polyarthrite Rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

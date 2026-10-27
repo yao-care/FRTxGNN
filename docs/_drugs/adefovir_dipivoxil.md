@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Adéfovir dipivoxil : De l'hépatite B chronique à l'infection par l'hépatite C chronique
+## Adéfovir dipivoxil : De l'hépatite B chronique à l'infection par l'hépatite C chronique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

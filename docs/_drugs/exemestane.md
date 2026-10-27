@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Exémestane : Du Cancer du Sein à la Déficience en Antithrombine de Type 2
+## Exémestane : Du Cancer du Sein à la Déficience en Antithrombine de Type 2
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

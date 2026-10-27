@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Prucalopride : De la constipation à l'hypoalphalipoprotéinémie
+## Prucalopride : De la constipation à l'hypoalphalipoprotéinémie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

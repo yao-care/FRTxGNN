@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Méthocarbamol : D'un myorelaxant central au syndrome de la queue de cheval
+## Méthocarbamol : D'un myorelaxant central au syndrome de la queue de cheval
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

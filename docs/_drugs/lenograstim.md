@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Lénograstim : D'une indication d'origine non documentée au Trouble de libération plaquettaire primaire
+## Lénograstim : D'une indication d'origine non documentée au Trouble de libération plaquettaire primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

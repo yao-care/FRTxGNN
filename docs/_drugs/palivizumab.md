@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Palivizumab : De l'infection à virus respiratoire syncytial à la tumeur bénigne de la langue
+## Palivizumab : De l'infection à virus respiratoire syncytial à la tumeur bénigne de la langue
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

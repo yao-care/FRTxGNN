@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Valpromide : De l'indication originale non documentée à l'insomnie
+## Valpromide : De l'indication originale non documentée à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

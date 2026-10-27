@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Empagliflozine : Du Diabète de Type 2 au Syndrome de la Personne Raide Classique
+## Empagliflozine : Du Diabète de Type 2 au Syndrome de la Personne Raide Classique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Ertapénème : De la pneumonie bactérienne à l'arthrite bactérienne
+## Ertapénème : De la pneumonie bactérienne à l'arthrite bactérienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

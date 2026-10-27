@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Oxazépam : De l'anxiété et du delirium de sevrage alcoolique à l'insomnie
+## Oxazépam : De l'anxiété et du delirium de sevrage alcoolique à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

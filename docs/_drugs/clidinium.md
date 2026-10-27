@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Clidinium : Des troubles gastro-intestinaux fonctionnels à l'ulcère peptique
+## Clidinium : Des troubles gastro-intestinaux fonctionnels à l'ulcère peptique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

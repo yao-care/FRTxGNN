@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Kétoconazole : Des Mycoses Cutanées à l'Acné
+## Kétoconazole : Des Mycoses Cutanées à l'Acné
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

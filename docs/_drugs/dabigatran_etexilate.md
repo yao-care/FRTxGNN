@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Dabigatran etexilate : De l'anticoagulation à la cholangite sclérosante
+## Dabigatran etexilate : De l'anticoagulation à la cholangite sclérosante
+{: .text-alpha }
 
 ## Résumé en une phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Étonogestrel : De la contraception à l'aménorrhée (prédiction du modèle)
+## Étonogestrel : De la contraception à l'aménorrhée (prédiction du modèle)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

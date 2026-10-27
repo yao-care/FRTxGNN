@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Propylthiouracile : De l'hyperthyroïdie à la résistance aux hormones thyroïdiennes (mutation du récepteur bêta)
+## Propylthiouracile : De l'hyperthyroïdie à la résistance aux hormones thyroïdiennes (mutation du récepteur bêta)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

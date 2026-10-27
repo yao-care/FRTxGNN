@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Arginine : De l'indication originale non documentée à la gastroparésie
+## Arginine : De l'indication originale non documentée à la gastroparésie
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

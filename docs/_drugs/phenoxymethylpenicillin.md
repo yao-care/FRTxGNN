@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Phénoxyméthylpénicilline : Des infections streptococciques et des voies respiratoires à l'épiglottite
+## Phénoxyméthylpénicilline : Des infections streptococciques et des voies respiratoires à l'épiglottite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Imiquimod : Des verrues cutanées et de la kératose actinique aux néoplasmes prémalins
+## Imiquimod : Des verrues cutanées et de la kératose actinique aux néoplasmes prémalins
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

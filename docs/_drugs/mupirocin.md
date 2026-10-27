@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Mupirocine : De l'impétigo à l'empyème pleural
+## Mupirocine : De l'impétigo à l'empyème pleural
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Clofazimine : De la lèpre à la pneumocystose
+## Clofazimine : De la lèpre à la pneumocystose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

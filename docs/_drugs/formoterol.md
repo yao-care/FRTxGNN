@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Formoterol : De l'asthme et de l'emphysème pulmonaire à la bronchite
+## Formoterol : De l'asthme et de l'emphysème pulmonaire à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

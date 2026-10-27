@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Upadacitinib : De la polyarthrite rhumatoïde au syndrome de dysplasie rhizomélique avec microphtalmie colobomateuse
+## Upadacitinib : De la polyarthrite rhumatoïde au syndrome de dysplasie rhizomélique avec microphtalmie colobomateuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

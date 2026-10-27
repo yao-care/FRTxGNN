@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Benzocaïne : Des Mycoses et Dermatites à la Conjonctivite Papillaire
+## Benzocaïne : Des Mycoses et Dermatites à la Conjonctivite Papillaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

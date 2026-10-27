@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Lamivudine : Du VIH/SIDA et de l'Hépatite B Chronique au Syndrome d'Immunodéficience Acquise Féline
+## Lamivudine : Du VIH/SIDA et de l'Hépatite B Chronique au Syndrome d'Immunodéficience Acquise Féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

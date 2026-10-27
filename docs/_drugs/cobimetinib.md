@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cobimétinib : Du Mélanome Métastatique à la Sclérose Latérale Amyotrophique
+## Cobimétinib : Du Mélanome Métastatique à la Sclérose Latérale Amyotrophique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

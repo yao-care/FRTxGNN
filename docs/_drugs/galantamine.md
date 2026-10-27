@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Galantamine : De la maladie d'Alzheimer aux troubles du mouvement psychogènes
+## Galantamine : De la maladie d'Alzheimer aux troubles du mouvement psychogènes
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

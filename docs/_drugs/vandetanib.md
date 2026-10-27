@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Vandetanib : Du Carcinome de la Thyroïde au Carcinome Rénal
+## Vandetanib : Du Carcinome de la Thyroïde au Carcinome Rénal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Chlordiazépoxide : Des troubles anxieux à l'insomnie
+## Chlordiazépoxide : Des troubles anxieux à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

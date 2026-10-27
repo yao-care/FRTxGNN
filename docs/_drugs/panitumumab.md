@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Panitumumab : Du Cancer Colorectal Métastatique à l'Ostéoporose Médicamenteuse
+## Panitumumab : Du Cancer Colorectal Métastatique à l'Ostéoporose Médicamenteuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

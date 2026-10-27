@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Méthadone : De l'indication originale non renseignée au Syndrome de Gilles de la Tourette
+## Méthadone : De l'indication originale non renseignée au Syndrome de Gilles de la Tourette
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

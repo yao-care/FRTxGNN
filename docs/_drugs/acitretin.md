@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **4**
 
 </div>
 
-# Acitrétine : De l'indication d'origine non renseignée à l'Acné (Disease)
+## Acitrétine : De l'indication d'origine non renseignée à l'Acné (Disease)
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Dronédarone : De la Fibrillation Atriale à l'Accident Vasculaire Cérébral
+## Dronédarone : De la Fibrillation Atriale à l'Accident Vasculaire Cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

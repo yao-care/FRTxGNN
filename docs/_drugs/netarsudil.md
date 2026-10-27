@@ -31,7 +31,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Nétarsudil : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primitif
+## Nétarsudil : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primitif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Tétracaïne : De la Dermatite à l'Acrodermatite chronique atrophiante
+## Tétracaïne : De la Dermatite à l'Acrodermatite chronique atrophiante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

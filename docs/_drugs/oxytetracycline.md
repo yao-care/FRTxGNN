@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Oxytétracycline : Des infections bactériennes à la rhinosinusite chronique
+## Oxytétracycline : Des infections bactériennes à la rhinosinusite chronique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

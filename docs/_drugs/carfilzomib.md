@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Carfilzomib : Du Myélome Plasmocytaire au Mélanome
+## Carfilzomib : Du Myélome Plasmocytaire au Mélanome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

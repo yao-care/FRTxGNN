@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cerliponase alfa : De la lipofuscinose neuronale céroïde au syndrome de Scheie
+## Cerliponase alfa : De la lipofuscinose neuronale céroïde au syndrome de Scheie
+{: .text-alpha }
 
 ## Résumé en une phrase
 

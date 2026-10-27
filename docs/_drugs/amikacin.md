@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Amikacine : Des infections bactériennes à Gram négatif à la fièvre paratyphoïde
+## Amikacine : Des infections bactériennes à Gram négatif à la fièvre paratyphoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

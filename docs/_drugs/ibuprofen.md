@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Ibuprofène : De l'arthrose et de la polyarthrite rhumatoïde à la dysplasie acromésomélique de type Hunter-Thompson
+## Ibuprofène : De l'arthrose et de la polyarthrite rhumatoïde à la dysplasie acromésomélique de type Hunter-Thompson
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

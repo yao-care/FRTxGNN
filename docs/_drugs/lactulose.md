@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Lactulose : De l'encéphalopathie hépatique à l'ictère obstructif
+## Lactulose : De l'encéphalopathie hépatique à l'ictère obstructif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

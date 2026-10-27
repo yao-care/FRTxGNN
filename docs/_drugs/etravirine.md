@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Étravirine : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Étravirine : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **2**
 
 </div>
 
-# Moclobémide : De l'Anxiété et des Troubles Névrotiques à l'Agoraphobie
+## Moclobémide : De l'Anxiété et des Troubles Névrotiques à l'Agoraphobie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Oxitriptan : D'une indication non documentée à l'Insomnie
+## Oxitriptan : D'une indication non documentée à l'Insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

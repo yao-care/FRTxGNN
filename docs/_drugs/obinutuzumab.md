@@ -31,7 +31,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Obinutuzumab : De la leucémie lymphoblastique aiguë à la leucémie lymphoïde chronique / lymphome lymphocytique à petites cellules (sous-type avec hypermutation somatique IGHV)
+## Obinutuzumab : De la leucémie lymphoblastique aiguë à la leucémie lymphoïde chronique / lymphome lymphocytique à petites cellules (sous-type avec hypermutation somatique IGHV)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

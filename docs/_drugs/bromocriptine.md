@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Bromocriptine : De la maladie de Parkinson et de l'hyperprolactinémie à la schizophrénie
+## Bromocriptine : De la maladie de Parkinson et de l'hyperprolactinémie à la schizophrénie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

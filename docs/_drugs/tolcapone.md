@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tolcapone : De la maladie de Parkinson à l'encéphalite de Rasmussen
+## Tolcapone : De la maladie de Parkinson à l'encéphalite de Rasmussen
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

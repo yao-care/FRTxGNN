@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ergocalciferol : De l'ostéoporose et des carences en vitamine D à l'hypoparathyroïdie isolée familiale (sécrétion de PTH altérée)
+## Ergocalciferol : De l'ostéoporose et des carences en vitamine D à l'hypoparathyroïdie isolée familiale (sécrétion de PTH altérée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

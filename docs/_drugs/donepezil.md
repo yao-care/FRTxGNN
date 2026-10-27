@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Donépézil : De la maladie d'Alzheimer au trouble de tics chronique
+## Donépézil : De la maladie d'Alzheimer au trouble de tics chronique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

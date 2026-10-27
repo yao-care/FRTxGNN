@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **4**
 
 </div>
 
-# Thiamine : De l'indication d'origine non renseignée à l'hyperthyroïdie
+## Thiamine : De l'indication d'origine non renseignée à l'hyperthyroïdie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

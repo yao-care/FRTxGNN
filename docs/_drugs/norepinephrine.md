@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Norépinéphrine : De l'asthme à la maladie pulmonaire obstructive
+## Norépinéphrine : De l'asthme à la maladie pulmonaire obstructive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Isavuconazonium : Des mycoses systémiques à la pneumocystose
+## Isavuconazonium : Des mycoses systémiques à la pneumocystose
+{: .text-alpha }
 
 ## Résumé en une phrase
 

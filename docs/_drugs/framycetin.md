@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Framycétine : D'un antibiotique topique à la cholangite sclérosante
+## Framycétine : D'un antibiotique topique à la cholangite sclérosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

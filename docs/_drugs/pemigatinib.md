@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Pémigatinib : D'une indication d'origine non renseignée à l'Néoplasie endocrinienne multiple
+## Pémigatinib : D'une indication d'origine non renseignée à l'Néoplasie endocrinienne multiple
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

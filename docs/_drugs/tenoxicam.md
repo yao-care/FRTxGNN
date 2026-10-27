@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Ténoxicam : De l'arthropathie inflammatoire à la polyarthrite rhumatoïde
+## Ténoxicam : De l'arthropathie inflammatoire à la polyarthrite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Minoxidil : De l'Hypertension et de l'Alopécie à l'Hypotrichose Simple du Cuir Chevelu
+## Minoxidil : De l'Hypertension et de l'Alopécie à l'Hypotrichose Simple du Cuir Chevelu
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

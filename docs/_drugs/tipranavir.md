@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tipranavir : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Tipranavir : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

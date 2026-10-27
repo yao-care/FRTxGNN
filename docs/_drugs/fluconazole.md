@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Fluconazole : Des Candidoses à la Kératoconjonctivite Épithéliale Ponctuée
+## Fluconazole : Des Candidoses à la Kératoconjonctivite Épithéliale Ponctuée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sulindac : Des Rhumatismes Inflammatoires à la Dysplasie Acromésomélique de type Hunter-Thompson
+## Sulindac : Des Rhumatismes Inflammatoires à la Dysplasie Acromésomélique de type Hunter-Thompson
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

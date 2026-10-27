@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Palonosétron : Des Nausées et Vomissements Induits par la Chimiothérapie à la Migraine
+## Palonosétron : Des Nausées et Vomissements Induits par la Chimiothérapie à la Migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

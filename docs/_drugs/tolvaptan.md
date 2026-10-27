@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tolvaptan : Du Syndrome de Sécrétion Inappropriée d'ADH à la Polykystose Rénale de type 3 (avec ou sans polykystose hépatique)
+## Tolvaptan : Du Syndrome de Sécrétion Inappropriée d'ADH à la Polykystose Rénale de type 3 (avec ou sans polykystose hépatique)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

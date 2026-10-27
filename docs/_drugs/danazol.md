@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Danazol : De l'endométriose à l'aménorrhée (suppression thérapeutique des règles)
+## Danazol : De l'endométriose à l'aménorrhée (suppression thérapeutique des règles)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -31,7 +31,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Eptinézumab : De la migraine à la migraine avec aura du tronc cérébral
+## Eptinézumab : De la migraine à la migraine avec aura du tronc cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

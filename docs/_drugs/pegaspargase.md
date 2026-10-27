@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Pegaspargase : De la leucémie lymphoblastique aiguë au lymphome/leucémie lymphoblastique à précurseurs
+## Pegaspargase : De la leucémie lymphoblastique aiguë au lymphome/leucémie lymphoblastique à précurseurs
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

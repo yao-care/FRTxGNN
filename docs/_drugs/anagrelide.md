@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Anagrélide : De la thrombocythémie à la thrombocytose réactive
+## Anagrélide : De la thrombocythémie à la thrombocytose réactive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Temsirolimus : Du Carcinome Rénal et du Lymphome du Manteau au Liposarcome
+## Temsirolimus : Du Carcinome Rénal et du Lymphome du Manteau au Liposarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

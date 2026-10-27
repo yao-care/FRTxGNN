@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Moxonidine : De l'Hypertension à l'Alopécie (hypotrichose simple du cuir chevelu)
+## Moxonidine : De l'Hypertension à l'Alopécie (hypotrichose simple du cuir chevelu)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

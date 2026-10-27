@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Alitrétinoïne : De l'eczéma chronique sévère des mains à l'aménorrhée
+## Alitrétinoïne : De l'eczéma chronique sévère des mains à l'aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Tocofersolan : De l'indication d'origine non documentée à l'Aménorrhée
+## Tocofersolan : De l'indication d'origine non documentée à l'Aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **8**
 
 </div>
 
-# Simvastatine : De l'hypertriglycéridémie et des maladies athéroscléreuses à l'hypercholestérolémie familiale
+## Simvastatine : De l'hypertriglycéridémie et des maladies athéroscléreuses à l'hypercholestérolémie familiale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fénoprofène : De la polyarthrite rhumatoïde à la dysplasie acromésomélique de type Hunter-Thompson
+## Fénoprofène : De la polyarthrite rhumatoïde à la dysplasie acromésomélique de type Hunter-Thompson
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tériparatide : De l'ostéoporose post-ménopausique à l'ulcère duodénal
+## Tériparatide : De l'ostéoporose post-ménopausique à l'ulcère duodénal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

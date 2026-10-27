@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Dexképrofène : De l'indication d'origine non documentée à la Migraine
+## Dexképrofène : De l'indication d'origine non documentée à la Migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **3**
 
 </div>
 
-# Tacrolimus : De l'eczéma atopique à la dermatite séborrhéique
+## Tacrolimus : De l'eczéma atopique à la dermatite séborrhéique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

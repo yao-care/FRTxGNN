@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Fenticonazole : De la candidose vulvovaginale à la vulvovaginite à Trichomonas
+## Fenticonazole : De la candidose vulvovaginale à la vulvovaginite à Trichomonas
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

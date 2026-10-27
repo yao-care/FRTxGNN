@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Fosinopril : De l'Hypertension à l'Hypertension Rénale Maligne
+## Fosinopril : De l'Hypertension à l'Hypertension Rénale Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

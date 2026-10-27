@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Atazanavir : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Atazanavir : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

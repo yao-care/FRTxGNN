@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tobramycine : Des Infections Oculaires Bactériennes à la Kératite d'Exposition
+## Tobramycine : Des Infections Oculaires Bactériennes à la Kératite d'Exposition
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

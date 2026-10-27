@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Tropicamide : De la cycloplégie au syndrome de la queue de cheval
+## Tropicamide : De la cycloplégie au syndrome de la queue de cheval
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

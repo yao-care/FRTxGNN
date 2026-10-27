@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lomitapide : De l'hypercholestérolémie familiale homozygote à la macrothrombocytopénie avec insuffisance mitrale
+## Lomitapide : De l'hypercholestérolémie familiale homozygote à la macrothrombocytopénie avec insuffisance mitrale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

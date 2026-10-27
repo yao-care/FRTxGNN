@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Gilteritinib : De la Leucémie Myéloïde Aiguë à la Poliomyélite Bulbaire
+## Gilteritinib : De la Leucémie Myéloïde Aiguë à la Poliomyélite Bulbaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

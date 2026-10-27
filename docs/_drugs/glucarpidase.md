@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Glucarpidase : D'une indication non documentée à la Cataracte diabétique
+## Glucarpidase : D'une indication non documentée à la Cataracte diabétique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

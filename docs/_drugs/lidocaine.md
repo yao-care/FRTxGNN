@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lidocaïne : De l'anesthésie locale et des douleurs neuropathiques à la kératoconjonctivite ponctuée épithéliale
+## Lidocaïne : De l'anesthésie locale et des douleurs neuropathiques à la kératoconjonctivite ponctuée épithéliale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

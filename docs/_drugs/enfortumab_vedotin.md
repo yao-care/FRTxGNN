@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Enfortumab vedotin : D'un médicament antinéoplasique à la lèpre (prédiction non étayée)
+## Enfortumab vedotin : D'un médicament antinéoplasique à la lèpre (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

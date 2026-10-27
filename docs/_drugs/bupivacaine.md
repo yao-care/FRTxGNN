@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Bupivacaïne : De la dermatite à la acrodermatite chronique atrophiante
+## Bupivacaïne : De la dermatite à la acrodermatite chronique atrophiante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

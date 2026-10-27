@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Hexétidine : D'un antiseptique buccal à l'anévrisme du septum interventriculaire
+## Hexétidine : D'un antiseptique buccal à l'anévrisme du septum interventriculaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

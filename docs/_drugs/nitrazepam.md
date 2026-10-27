@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Nitrazépam : De l'insomnie à la difficulté d'initier et de maintenir le sommeil
+## Nitrazépam : De l'insomnie à la difficulté d'initier et de maintenir le sommeil
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

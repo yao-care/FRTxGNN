@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Zolmitriptan : De la migraine à la migraine avec aura du tronc cérébral
+## Zolmitriptan : De la migraine à la migraine avec aura du tronc cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

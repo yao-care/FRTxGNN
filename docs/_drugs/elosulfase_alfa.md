@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Elosulfase alfa : De la mucopolysaccharidose au syndrome de Scheie
+## Elosulfase alfa : De la mucopolysaccharidose au syndrome de Scheie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

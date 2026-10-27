@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Topiramate : De l'épilepsie à la tumeur du nerf trijumeau (prédiction du modèle)
+## Topiramate : De l'épilepsie à la tumeur du nerf trijumeau (prédiction du modèle)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

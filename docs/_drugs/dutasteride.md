@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Dutasteride : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Congénitale Universelle de type Ambras
+## Dutasteride : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Congénitale Universelle de type Ambras
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

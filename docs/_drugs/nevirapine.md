@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Névirapine : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Névirapine : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

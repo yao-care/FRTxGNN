@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tyrosine : De l'apport nutritionnel à la prédiction « syndrome de la queue de cheval »
+## Tyrosine : De l'apport nutritionnel à la prédiction « syndrome de la queue de cheval »
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

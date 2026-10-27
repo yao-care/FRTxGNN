@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Isoleucine : D'un acide aminé nutritionnel à la gastroparésie
+## Isoleucine : D'un acide aminé nutritionnel à la gastroparésie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

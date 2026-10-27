@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Abatacept : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
+## Abatacept : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

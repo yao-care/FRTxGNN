@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Nordazépam : De l'indication d'origine non renseignée à l'insomnie
+## Nordazépam : De l'indication d'origine non renseignée à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

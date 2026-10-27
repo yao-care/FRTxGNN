@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Vismodégib : Du carcinome basocellulaire au médulloblastome avec nodularité extensive
+## Vismodégib : Du carcinome basocellulaire au médulloblastome avec nodularité extensive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

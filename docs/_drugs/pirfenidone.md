@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Pirfénidone : De la fibrose pulmonaire idiopathique à la néoplasie fibroblastique
+## Pirfénidone : De la fibrose pulmonaire idiopathique à la néoplasie fibroblastique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

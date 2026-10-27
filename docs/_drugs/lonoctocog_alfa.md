@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Lonoctocog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+## Lonoctocog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

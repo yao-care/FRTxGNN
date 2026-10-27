@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 </div>
 
-# Cétirizine : De la rhinite allergique à l'urticaire allergique
+## Cétirizine : De la rhinite allergique à l'urticaire allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Déférasirox : De la bêta-thalassémie au Virus de l'immunodéficience humaine (VIH)
+## Déférasirox : De la bêta-thalassémie au Virus de l'immunodéficience humaine (VIH)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

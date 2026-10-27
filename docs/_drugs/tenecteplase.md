@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ténectéplase : De l'infarctus du myocarde à l'infarctus postéro-inférieur
+## Ténectéplase : De l'infarctus du myocarde à l'infarctus postéro-inférieur
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Rivaroxaban : De l'anticoagulation à la polyarthrite rhumatoïde
+## Rivaroxaban : De l'anticoagulation à la polyarthrite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

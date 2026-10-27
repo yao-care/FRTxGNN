@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Vancomycine : Des Infections à Gram positif à la Sclérodermie Diffuse
+## Vancomycine : Des Infections à Gram positif à la Sclérodermie Diffuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

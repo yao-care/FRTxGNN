@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Atézolizumab : Du Carcinome Urothélial au Carcinome Urothélial de l'Urètre Prostatique
+## Atézolizumab : Du Carcinome Urothélial au Carcinome Urothélial de l'Urètre Prostatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

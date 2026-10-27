@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lorazépam : De l'anxiété et de l'épilepsie à la tumeur du nerf trijumeau (prédiction principale du modèle)
+## Lorazépam : De l'anxiété et de l'épilepsie à la tumeur du nerf trijumeau (prédiction principale du modèle)
+{: .text-alpha }
 
 ## Résumé en une phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Conestat alfa : De l'angioedème héréditaire au déficit en inhibiteur de la C1 estérase
+## Conestat alfa : De l'angioedème héréditaire au déficit en inhibiteur de la C1 estérase
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

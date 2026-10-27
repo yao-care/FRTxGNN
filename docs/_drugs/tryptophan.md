@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Tryptophane : De l'indication non précisée au Syndrome des jambes sans repos
+## Tryptophane : De l'indication non précisée au Syndrome des jambes sans repos
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

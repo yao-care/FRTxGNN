@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Plerixafor : Du Myélome Plasmocytaire au Myélome Plasmocytaire Indolent
+## Plerixafor : Du Myélome Plasmocytaire au Myélome Plasmocytaire Indolent
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

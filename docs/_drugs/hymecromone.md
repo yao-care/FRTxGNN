@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Hymécromone : De l'indication originale non documentée à la néphropathie diabétique
+## Hymécromone : De l'indication originale non documentée à la néphropathie diabétique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

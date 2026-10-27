@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Miconazole : Des Mycoses Cutanées et Muqueuses à l'Acné
+## Miconazole : Des Mycoses Cutanées et Muqueuses à l'Acné
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

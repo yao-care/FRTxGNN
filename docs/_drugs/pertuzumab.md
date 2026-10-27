@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Pertuzumab : Du Cancer du Sein HER2 Positif au Cancer du Sein Positif aux Récepteurs de la Progestérone
+## Pertuzumab : Du Cancer du Sein HER2 Positif au Cancer du Sein Positif aux Récepteurs de la Progestérone
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

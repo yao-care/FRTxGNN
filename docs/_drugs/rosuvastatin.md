@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Rosuvastatine : Des Dyslipidémies et de l'Athérosclérose à l'Hypercholestérolémie Familiale
+## Rosuvastatine : Des Dyslipidémies et de l'Athérosclérose à l'Hypercholestérolémie Familiale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

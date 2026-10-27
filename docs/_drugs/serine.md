@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sérine : De le glaucome à angle ouvert à la myopathie viscérale familiale
+## Sérine : De le glaucome à angle ouvert à la myopathie viscérale familiale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

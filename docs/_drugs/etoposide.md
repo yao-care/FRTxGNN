@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Étoposide : Du Cancer Bronchique à Petites Cellules au Sarcome d'Ewing
+## Étoposide : Du Cancer Bronchique à Petites Cellules au Sarcome d'Ewing
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

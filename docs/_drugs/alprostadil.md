@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Alprostadil : De la dysfonction érectile à la malformation aortique
+## Alprostadil : De la dysfonction érectile à la malformation aortique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Adapalène : De l'acné à l'élévation du zinc plasmatique
+## Adapalène : De l'acné à l'élévation du zinc plasmatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

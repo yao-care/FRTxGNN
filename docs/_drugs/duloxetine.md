@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Duloxétine : De la dépression majeure au trouble obsessionnel-compulsif
+## Duloxétine : De la dépression majeure au trouble obsessionnel-compulsif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

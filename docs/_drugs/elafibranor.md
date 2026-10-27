@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Elafibranor : De l'indication d'origine non renseignée à l'aménorrhée
+## Elafibranor : De l'indication d'origine non renseignée à l'aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

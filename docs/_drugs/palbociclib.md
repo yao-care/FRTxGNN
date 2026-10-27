@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Palbociclib : Du Cancer du Sein à la Polyarthrite Rhumatoïde
+## Palbociclib : Du Cancer du Sein à la Polyarthrite Rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

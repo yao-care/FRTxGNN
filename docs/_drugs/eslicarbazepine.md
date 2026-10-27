@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 </div>
 
-# Eslicarbazépine : De l'épilepsie à la migraine (prévention)
+## Eslicarbazépine : De l'épilepsie à la migraine (prévention)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

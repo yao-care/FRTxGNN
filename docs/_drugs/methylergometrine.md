@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Méthylergométrine : De l'usage obstétrical à l'hypertrichose (prédiction sans soutien clinique)
+## Méthylergométrine : De l'usage obstétrical à l'hypertrichose (prédiction sans soutien clinique)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

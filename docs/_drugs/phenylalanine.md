@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Phénylalanine : De l'usage nutritionnel à la Cholangite Sclérosante
+## Phénylalanine : De l'usage nutritionnel à la Cholangite Sclérosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

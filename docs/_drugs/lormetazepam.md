@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lormétazépam : De l'insomnie à l'insomnie (indication déjà établie) — Évaluation de la prédiction TxGNN
+## Lormétazépam : De l'insomnie à l'insomnie (indication déjà établie) — Évaluation de la prédiction TxGNN
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

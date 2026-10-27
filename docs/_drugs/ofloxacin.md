@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ofloxacine : Des Infections Bactériennes à la Peste Septicémique
+## Ofloxacine : Des Infections Bactériennes à la Peste Septicémique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

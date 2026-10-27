@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Méloxicam : Des Maladies Articulaires Inflammatoires à la Dysplasie Acromésomélique de type Hunter-Thompson
+## Méloxicam : Des Maladies Articulaires Inflammatoires à la Dysplasie Acromésomélique de type Hunter-Thompson
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

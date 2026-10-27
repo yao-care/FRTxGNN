@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ceftolozane : De l'infection urinaire à l'urétrite à Ureaplasma
+## Ceftolozane : De l'infection urinaire à l'urétrite à Ureaplasma
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Nimodipine : De l'Hémorragie Sous-Arachnoïdienne à l'Hypercholestérolémie Familiale Homozygote
+## Nimodipine : De l'Hémorragie Sous-Arachnoïdienne à l'Hypercholestérolémie Familiale Homozygote
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -32,7 +32,8 @@ Niveau de preuve: **L5** | Indications prédites: **0**
 
 </div>
 
-# MARIBAVIR : De l'Infection à CMV au Repositionnement — Évaluation Préliminaire
+## MARIBAVIR : De l'Infection à CMV au Repositionnement — Évaluation Préliminaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

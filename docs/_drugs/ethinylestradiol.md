@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Éthinylestradiol : De l'acné et de l'ostéoporose post-ménopausique à l'élévation du zinc plasmatique
+## Éthinylestradiol : De l'acné et de l'ostéoporose post-ménopausique à l'élévation du zinc plasmatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

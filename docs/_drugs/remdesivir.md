@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Remdesivir : De l'infection à SARS-CoV-2 à l'infection par le VIH (prédiction du modèle)
+## Remdesivir : De l'infection à SARS-CoV-2 à l'infection par le VIH (prédiction du modèle)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

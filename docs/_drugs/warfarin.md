@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Warfarine : De l'embolie pulmonaire au déficit en cofacteur II de l'héparine
+## Warfarine : De l'embolie pulmonaire au déficit en cofacteur II de l'héparine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Levodopa : De la maladie de Parkinson à l'encéphalite de Rasmussen
+## Levodopa : De la maladie de Parkinson à l'encéphalite de Rasmussen
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

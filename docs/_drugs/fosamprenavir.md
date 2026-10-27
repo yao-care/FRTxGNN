@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Fosamprénavir : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Fosamprénavir : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

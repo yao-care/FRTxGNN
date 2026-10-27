@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Salbutamol : De l'asthme à la conjonctivite papillaire
+## Salbutamol : De l'asthme à la conjonctivite papillaire
+{: .text-alpha }
 
 ## Résumé en une phrase
 

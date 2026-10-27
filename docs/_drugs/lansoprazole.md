@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Lansoprazole : Du Reflux Gastro-Œsophagien au Reflux Duodéno-Gastrique
+## Lansoprazole : Du Reflux Gastro-Œsophagien au Reflux Duodéno-Gastrique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

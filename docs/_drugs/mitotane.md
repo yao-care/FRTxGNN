@@ -36,7 +36,8 @@ En analysant le JSON Evidence Pack reçu, je constate des lacunes critiques : `p
 
 ---
 
-# Mitotane : Carcinome Corticosurrénalien — Évaluation en Attente de Prédictions TxGNN
+## Mitotane : Carcinome Corticosurrénalien — Évaluation en Attente de Prédictions TxGNN
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

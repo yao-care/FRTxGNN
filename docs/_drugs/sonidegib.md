@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sonidegib : Du Carcinome Basocellulaire au Médulloblastome avec Nodularité Extensive
+## Sonidegib : Du Carcinome Basocellulaire au Médulloblastome avec Nodularité Extensive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

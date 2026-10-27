@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Fébuxostat : De l'hyperuricémie à l'hypouricémie rénale
+## Fébuxostat : De l'hyperuricémie à l'hypouricémie rénale
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Octréotide : De l'acromégalie à la kératose inverse folliculaire vulvaire
+## Octréotide : De l'acromégalie à la kératose inverse folliculaire vulvaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

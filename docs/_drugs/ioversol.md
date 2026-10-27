@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ioversol : D'un produit de contraste iodé à l'arthrose (prédiction de modèle uniquement)
+## Ioversol : D'un produit de contraste iodé à l'arthrose (prédiction de modèle uniquement)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

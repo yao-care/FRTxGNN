@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Alpélisib : Du cancer du sein à l'hypertension pulmonaire
+## Alpélisib : Du cancer du sein à l'hypertension pulmonaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

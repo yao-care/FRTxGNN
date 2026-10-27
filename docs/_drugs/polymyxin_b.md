@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Polymyxine B : De l'usage antibactérien local à la bronchite
+## Polymyxine B : De l'usage antibactérien local à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

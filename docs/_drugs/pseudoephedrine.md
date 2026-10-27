@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Pseudoéphédrine : Des rhinites et du rhume à la maladie de la cavité nasale
+## Pseudoéphédrine : Des rhinites et du rhume à la maladie de la cavité nasale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

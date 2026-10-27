@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Lévonorgestrel : De l'Ostéoporose à l'Acné
+## Lévonorgestrel : De l'Ostéoporose à l'Acné
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

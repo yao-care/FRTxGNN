@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-# Anastrozole : De l'indication originale à l'adénocarcinome mammaire féminin (indication déjà établie)
+## Anastrozole : De l'indication originale à l'adénocarcinome mammaire féminin (indication déjà établie)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

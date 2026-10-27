@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Clomifène : De l'infertilité féminine à l'anovulation
+## Clomifène : De l'infertilité féminine à l'anovulation
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

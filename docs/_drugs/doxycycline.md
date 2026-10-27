@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Doxycycline : Des infections bactériennes à la gingivite chronique
+## Doxycycline : Des infections bactériennes à la gingivite chronique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

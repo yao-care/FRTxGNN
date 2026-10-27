@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Chloroquine : Du Paludisme et de la Polyarthrite Rhumatoïde à l'Arthrite Juvénile Idiopathique Polyarticulaire à Facteur Rhumatoïde Positif
+## Chloroquine : Du Paludisme et de la Polyarthrite Rhumatoïde à l'Arthrite Juvénile Idiopathique Polyarticulaire à Facteur Rhumatoïde Positif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

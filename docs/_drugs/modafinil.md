@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Modafinil : De la narcolepsie à l'insomnie
+## Modafinil : De la narcolepsie à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

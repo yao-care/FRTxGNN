@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Ritonavir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+## Ritonavir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

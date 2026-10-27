@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Bromazépam : Des Troubles Anxieux à la Migraine (hypothèse)
+## Bromazépam : Des Troubles Anxieux à la Migraine (hypothèse)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

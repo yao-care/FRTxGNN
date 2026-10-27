@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Cytarabine : De la leucémie aiguë au carcinome pulmonaire à petites cellules
+## Cytarabine : De la leucémie aiguë au carcinome pulmonaire à petites cellules
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

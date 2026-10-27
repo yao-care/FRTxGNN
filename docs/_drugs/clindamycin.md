@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Clindamycine : Des infections bactériennes et de l'acné à la kératoconjonctivite épithéliale ponctuée
+## Clindamycine : Des infections bactériennes et de l'acné à la kératoconjonctivite épithéliale ponctuée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

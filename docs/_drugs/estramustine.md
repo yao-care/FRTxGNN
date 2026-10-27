@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Estramustine : Du Cancer de la Prostate à la Susceptibilité au Cancer de la Prostate/du Cerveau
+## Estramustine : Du Cancer de la Prostate à la Susceptibilité au Cancer de la Prostate/du Cerveau
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

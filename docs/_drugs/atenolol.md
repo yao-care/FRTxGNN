@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Aténolol : De l'hypertension et de l'infarctus du myocarde à l'infarctus du myocarde postéro-latéral
+## Aténolol : De l'hypertension et de l'infarctus du myocarde à l'infarctus du myocarde postéro-latéral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

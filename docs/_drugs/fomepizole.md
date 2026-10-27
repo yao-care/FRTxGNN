@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Fomépizole : D'une indication d'origine non renseignée à la cholangite sclérosante
+## Fomépizole : D'une indication d'origine non renseignée à la cholangite sclérosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

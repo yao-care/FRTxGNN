@@ -31,7 +31,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Bétaxolol : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primaire
+## Bétaxolol : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

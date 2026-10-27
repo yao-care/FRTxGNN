@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Fénotérol : D'un bronchodilatateur à l'Atrophie Multisystématisée
+## Fénotérol : D'un bronchodilatateur à l'Atrophie Multisystématisée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

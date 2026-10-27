@@ -31,7 +31,8 @@ Niveau de preuve: **L1** | Indications prédites: **1**
 
 </div>
 
-# Olaparib : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Olaparib : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

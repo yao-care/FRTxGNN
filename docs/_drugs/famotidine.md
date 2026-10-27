@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Famotidine : Des Ulcères Gastroduodénaux à la Maladie Ulcéreuse Peptique (Prévention des Récidives)
+## Famotidine : Des Ulcères Gastroduodénaux à la Maladie Ulcéreuse Peptique (Prévention des Récidives)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

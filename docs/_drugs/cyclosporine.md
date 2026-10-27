@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Ciclosporine : Du Syndrome de Gougerot-Sjögren et de la Sécheresse Oculaire à la Granulomatose Septique Chronique
+## Ciclosporine : Du Syndrome de Gougerot-Sjögren et de la Sécheresse Oculaire à la Granulomatose Septique Chronique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

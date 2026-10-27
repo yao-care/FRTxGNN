@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-# Pipéraquine : Du Paludisme au Paludisme à Plasmodium vivax
+## Pipéraquine : Du Paludisme au Paludisme à Plasmodium vivax
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

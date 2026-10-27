@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Famciclovir : Du Zona à la Névralgie Post-Infectieuse
+## Famciclovir : Du Zona à la Névralgie Post-Infectieuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

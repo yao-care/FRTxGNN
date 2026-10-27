@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Doxazosine : De l'Hypertension et de l'Hyperplasie Bénigne de la Prostate à la Migraine
+## Doxazosine : De l'Hypertension et de l'Hyperplasie Bénigne de la Prostate à la Migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

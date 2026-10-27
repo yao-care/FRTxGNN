@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sebelipase alfa : Du déficit en lipase acide lysosomale (maladie de Wolman) au syndrome de Scheie
+## Sebelipase alfa : Du déficit en lipase acide lysosomale (maladie de Wolman) au syndrome de Scheie
+{: .text-alpha }
 
 ## Résumé en une phrase
 

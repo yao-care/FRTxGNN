@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Vonicog alfa : Du Syndrome de Willebrand à l'Hémophilie
+## Vonicog alfa : Du Syndrome de Willebrand à l'Hémophilie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

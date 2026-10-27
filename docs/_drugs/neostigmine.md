@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Néostigmine : De la myasthénie grave à la myasthénie grave avec hyperplasie du thymus
+## Néostigmine : De la myasthénie grave à la myasthénie grave avec hyperplasie du thymus
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

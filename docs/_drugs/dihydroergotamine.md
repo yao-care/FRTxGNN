@@ -31,7 +31,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Dihydroergotamine : De la migraine à la migraine avec aura du tronc cérébral
+## Dihydroergotamine : De la migraine à la migraine avec aura du tronc cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

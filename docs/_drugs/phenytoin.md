@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Phénytoïne : De l'épilepsie à la tumeur du nerf trijumeau (néoplasme du nerf trijumeau)
+## Phénytoïne : De l'épilepsie à la tumeur du nerf trijumeau (néoplasme du nerf trijumeau)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

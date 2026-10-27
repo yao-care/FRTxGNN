@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Propafénone : De la fibrillation auriculaire à la tachycardie ventriculaire polymorphe catécholergique
+## Propafénone : De la fibrillation auriculaire à la tachycardie ventriculaire polymorphe catécholergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

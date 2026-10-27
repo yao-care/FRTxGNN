@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Chlorambucil : Du Lymphome de Hodgkin au Lymphome Pulmonaire Primitif
+## Chlorambucil : Du Lymphome de Hodgkin au Lymphome Pulmonaire Primitif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

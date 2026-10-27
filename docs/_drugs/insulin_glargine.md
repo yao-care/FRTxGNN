@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Insuline glargine : Du diabète de type 1 et 2 à l'ovarite auto-immune
+## Insuline glargine : Du diabète de type 1 et 2 à l'ovarite auto-immune
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

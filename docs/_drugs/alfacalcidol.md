@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Alfacalcidol : De l'hyperparathyroïdie à l'hypoparathyroïdie isolée familiale par défaut de sécrétion de la PTH
+## Alfacalcidol : De l'hyperparathyroïdie à l'hypoparathyroïdie isolée familiale par défaut de sécrétion de la PTH
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

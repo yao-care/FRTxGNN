@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Iohexol : D'un produit de contraste iodé à l'insomnie (prédiction non étayée)
+## Iohexol : D'un produit de contraste iodé à l'insomnie (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

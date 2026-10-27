@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Fludarabine : De la leucémie lymphoïde chronique au myélome multiple (plasmocytome)
+## Fludarabine : De la leucémie lymphoïde chronique au myélome multiple (plasmocytome)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

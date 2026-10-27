@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Roxadustat : De l'anémie réfractaire au syndrome de l'œil sec
+## Roxadustat : De l'anémie réfractaire au syndrome de l'œil sec
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

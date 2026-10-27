@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Pipéracilline : D'un antibiotique bêta-lactamine à la polyarthrite rhumatoïde
+## Pipéracilline : D'un antibiotique bêta-lactamine à la polyarthrite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

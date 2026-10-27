@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Miglustat : De la maladie de Gaucher à la maladie de Tay-Sachs
+## Miglustat : De la maladie de Gaucher à la maladie de Tay-Sachs
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Efavirenz : Du VIH/SIDA au Syndrome d'Immunodéficience Acquise Féline
+## Efavirenz : Du VIH/SIDA au Syndrome d'Immunodéficience Acquise Féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

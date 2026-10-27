@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Rutine : De la carence en acide ascorbique à la maladie fibrokystique du sein
+## Rutine : De la carence en acide ascorbique à la maladie fibrokystique du sein
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

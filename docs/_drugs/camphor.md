@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Camphre : De l'indication originale non renseignée à la migraine
+## Camphre : De l'indication originale non renseignée à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

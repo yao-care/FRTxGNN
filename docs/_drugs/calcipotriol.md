@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Calcipotriol : Du Psoriasis cutané à la Kératose séborrhéique
+## Calcipotriol : Du Psoriasis cutané à la Kératose séborrhéique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

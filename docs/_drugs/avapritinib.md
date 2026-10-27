@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Avapritinib : De la tumeur stromale gastro-intestinale à la dysplasie spondylométaphysaire axiale
+## Avapritinib : De la tumeur stromale gastro-intestinale à la dysplasie spondylométaphysaire axiale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

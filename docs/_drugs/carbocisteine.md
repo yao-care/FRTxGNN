@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Carbocistéine : D'un mucolytique à la goutte
+## Carbocistéine : D'un mucolytique à la goutte
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Chlorobutanol : D'un antiseptique buccal à la dysfonction érectile
+## Chlorobutanol : D'un antiseptique buccal à la dysfonction érectile
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

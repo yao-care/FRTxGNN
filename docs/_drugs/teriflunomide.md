@@ -31,7 +31,8 @@ Niveau de preuve: **L1** | Indications prédites: **1**
 
 </div>
 
-# Tériflunomide : De la sclérose en plaques à la sclérose en plaques récurrente-rémittente
+## Tériflunomide : De la sclérose en plaques à la sclérose en plaques récurrente-rémittente
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

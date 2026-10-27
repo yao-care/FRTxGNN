@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Alirocumab : Des Dyslipidémies et de l'Athérosclérose à la Xanthomatose
+## Alirocumab : Des Dyslipidémies et de l'Athérosclérose à la Xanthomatose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

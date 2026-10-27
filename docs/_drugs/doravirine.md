@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Doravirine : Du VIH à l'Infection par le Virus de l'Immunodéficience Simienne
+## Doravirine : Du VIH à l'Infection par le Virus de l'Immunodéficience Simienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

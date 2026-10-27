@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Céfpodoxime : D'une indication antibiotique non documentée à l'arthrose
+## Céfpodoxime : D'une indication antibiotique non documentée à l'arthrose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

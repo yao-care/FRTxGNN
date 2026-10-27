@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Fénofibrate : De l'Hypertriglycéridémie à l'Hypercholestérolémie Familiale Homozygote
+## Fénofibrate : De l'Hypertriglycéridémie à l'Hypercholestérolémie Familiale Homozygote
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

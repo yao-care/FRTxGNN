@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Quinidine : De la fibrillation auriculaire et du paludisme au syndrome néphrogénique d'antidiurèse inappropriée
+## Quinidine : De la fibrillation auriculaire et du paludisme au syndrome néphrogénique d'antidiurèse inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Topotécan : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Topotécan : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Triamtérène : De l'hypertension artérielle à la maladie rénale hypertensive maligne
+## Triamtérène : De l'hypertension artérielle à la maladie rénale hypertensive maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

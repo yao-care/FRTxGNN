@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Rabéprazole : Des Maladies Acido-Peptiques à la Mastocytose Systémique Indolente (Smouldering)
+## Rabéprazole : Des Maladies Acido-Peptiques à la Mastocytose Systémique Indolente (Smouldering)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

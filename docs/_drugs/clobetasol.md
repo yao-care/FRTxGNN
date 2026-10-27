@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Clobétasol : D'une indication non renseignée au lymphome cutané primitif à cellules T
+## Clobétasol : D'une indication non renseignée au lymphome cutané primitif à cellules T
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

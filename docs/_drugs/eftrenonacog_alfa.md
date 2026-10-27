@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Eftrenonacog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+## Eftrenonacog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

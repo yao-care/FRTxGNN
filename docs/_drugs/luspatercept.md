@@ -32,7 +32,8 @@ Niveau de preuve: **L5** | Indications prédites: **0**
 
 </div>
 
-# Luspatercept : Évaluation de Repositionnement — Données Insuffisantes pour Analyse Complète
+## Luspatercept : Évaluation de Repositionnement — Données Insuffisantes pour Analyse Complète
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Rivastigmine : De la maladie d'Alzheimer au glaucome
+## Rivastigmine : De la maladie d'Alzheimer au glaucome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

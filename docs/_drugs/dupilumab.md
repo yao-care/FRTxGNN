@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Dupilumab : De la dermatite atopique à la bronchite
+## Dupilumab : De la dermatite atopique à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Ataluren : De la dystrophie musculaire de Duchenne à la cholestase intrahépatique récurrente bénigne
+## Ataluren : De la dystrophie musculaire de Duchenne à la cholestase intrahépatique récurrente bénigne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

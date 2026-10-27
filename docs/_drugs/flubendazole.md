@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Flubendazole : D'un antiparasitaire à usage humain au carcinome de la vessie
+## Flubendazole : D'un antiparasitaire à usage humain au carcinome de la vessie
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

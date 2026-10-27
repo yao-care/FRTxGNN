@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Entacapone : De la maladie de Parkinson à la neurodégénérescence associée à PLA2G6
+## Entacapone : De la maladie de Parkinson à la neurodégénérescence associée à PLA2G6
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

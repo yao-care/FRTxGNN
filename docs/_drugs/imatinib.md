@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Imatinib : De la leucémie myéloïde chronique au fibrosarcome cardiaque
+## Imatinib : De la leucémie myéloïde chronique au fibrosarcome cardiaque
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

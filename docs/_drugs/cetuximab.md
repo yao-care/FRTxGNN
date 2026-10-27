@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cétuximab : Du Cancer du Côlon à la Tumeur Bronchique Carcinoïde de l'Enfant
+## Cétuximab : Du Cancer du Côlon à la Tumeur Bronchique Carcinoïde de l'Enfant
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

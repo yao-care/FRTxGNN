@@ -31,7 +31,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Prazépam : De l'Insomnie et l'Anxiété au Trouble de l'Initiation et du Maintien du Sommeil
+## Prazépam : De l'Insomnie et l'Anxiété au Trouble de l'Initiation et du Maintien du Sommeil
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

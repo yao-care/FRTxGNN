@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Pembrolizumab : Du Cancer du Poumon Non à Petites Cellules à la Fibromatose Gingivale
+## Pembrolizumab : Du Cancer du Poumon Non à Petites Cellules à la Fibromatose Gingivale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

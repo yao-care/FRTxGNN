@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Aceclofénac : Des Maladies Rhumatismales Inflammatoires à la Brachyolmie-Amélogenèse Imparfaite
+## Aceclofénac : Des Maladies Rhumatismales Inflammatoires à la Brachyolmie-Amélogenèse Imparfaite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

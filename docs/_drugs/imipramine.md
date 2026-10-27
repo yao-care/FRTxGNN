@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **7**
 
 </div>
 
-# Imipramine : Des Troubles Anxieux au Trouble Déficit de l'Attention avec Hyperactivité (TDAH)
+## Imipramine : Des Troubles Anxieux au Trouble Déficit de l'Attention avec Hyperactivité (TDAH)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

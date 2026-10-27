@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Adénosine : De la Tachycardie Ventriculaire au Bloc de Branche (terme obsolète)
+## Adénosine : De la Tachycardie Ventriculaire au Bloc de Branche (terme obsolète)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

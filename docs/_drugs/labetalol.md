@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Labetalol : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+## Labetalol : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

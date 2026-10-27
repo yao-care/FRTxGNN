@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Piribédil : De la maladie de Parkinson à la dystrophie rétinienne
+## Piribédil : De la maladie de Parkinson à la dystrophie rétinienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

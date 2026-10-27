@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Enzalutamide : Du Cancer de la Prostate à la Catégorie « Cancer des Organes Reproducteurs Masculins »
+## Enzalutamide : Du Cancer de la Prostate à la Catégorie « Cancer des Organes Reproducteurs Masculins »
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

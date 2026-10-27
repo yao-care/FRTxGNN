@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Insuline lispro : Du diabète de type 1 et 2 à la polyendocrinopathie auto-immune (ovarite auto-immune)
+## Insuline lispro : Du diabète de type 1 et 2 à la polyendocrinopathie auto-immune (ovarite auto-immune)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

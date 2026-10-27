@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Éconazole : Des mycoses cutanées superficielles au granulome de Majocchi
+## Éconazole : Des mycoses cutanées superficielles au granulome de Majocchi
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

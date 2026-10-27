@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-# Insuline dégludec : Du diabète sucré au diabète de type 1
+## Insuline dégludec : Du diabète sucré au diabète de type 1
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

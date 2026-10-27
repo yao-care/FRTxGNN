@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Ocrelizumab : De la sclérose en plaques progressive au carcinome mammaire HER2 positif
+## Ocrelizumab : De la sclérose en plaques progressive au carcinome mammaire HER2 positif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sirolimus : Du Carcinome Rénal à Cellules à la Lipo­sarcome
+## Sirolimus : Du Carcinome Rénal à Cellules à la Lipo­sarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

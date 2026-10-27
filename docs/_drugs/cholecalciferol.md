@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **7**
 
 </div>
 
-# Cholécalciférol : De l'ostéoporose et des carences en vitamine D à l'ostéodystrophie rénale
+## Cholécalciférol : De l'ostéoporose et des carences en vitamine D à l'ostéodystrophie rénale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

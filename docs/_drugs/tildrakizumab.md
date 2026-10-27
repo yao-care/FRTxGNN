@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Tildrakizumab : De l'indication d'origine non documentée à la rétinopathie diabétique non proliférante sévère
+## Tildrakizumab : De l'indication d'origine non documentée à la rétinopathie diabétique non proliférante sévère
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

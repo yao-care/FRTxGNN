@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Cyclopentolate : De la cycloplégie au syndrome de la queue de cheval
+## Cyclopentolate : De la cycloplégie au syndrome de la queue de cheval
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

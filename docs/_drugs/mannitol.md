@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Mannitol : Du Œdème Cérébral au Syndrome Néphrogénique d'Antidiurèse Inappropriée
+## Mannitol : Du Œdème Cérébral au Syndrome Néphrogénique d'Antidiurèse Inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

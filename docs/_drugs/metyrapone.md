@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Métyrapone : De l'usage diagnostique et endocrinien à l'hyperthermie maligne d'effort
+## Métyrapone : De l'usage diagnostique et endocrinien à l'hyperthermie maligne d'effort
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

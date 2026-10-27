@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **4**
 
 </div>
 
-# Ézétimibe : De l'Hyperlipidémie à l'Hyperlipoprotéinémie
+## Ézétimibe : De l'Hyperlipidémie à l'Hyperlipoprotéinémie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

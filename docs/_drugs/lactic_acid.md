@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Acide lactique : De l'usage homéopathique à la malformation aortique atypique (coarctation atypique de l'aorte)
+## Acide lactique : De l'usage homéopathique à la malformation aortique atypique (coarctation atypique de l'aorte)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Daptomycine : De l'infection bactérienne à Gram positif à l'arthrose (prédiction peu étayée)
+## Daptomycine : De l'infection bactérienne à Gram positif à l'arthrose (prédiction peu étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

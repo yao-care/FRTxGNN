@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-# Vincristine : Des Leucémies et Lymphomes au Ganglioneuroblastome
+## Vincristine : Des Leucémies et Lymphomes au Ganglioneuroblastome
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

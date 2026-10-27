@@ -31,7 +31,8 @@ Niveau de preuve: **L1** | Indications prédites: **2**
 
 </div>
 
-# Tazobactam : De la pneumonie bactérienne à la pneumonie (extension au sein du même domaine thérapeutique)
+## Tazobactam : De la pneumonie bactérienne à la pneumonie (extension au sein du même domaine thérapeutique)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lisinopril : De l'Hypertension Artérielle à l'Infarctus du Myocarde Postéro-inférieur
+## Lisinopril : De l'Hypertension Artérielle à l'Infarctus du Myocarde Postéro-inférieur
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

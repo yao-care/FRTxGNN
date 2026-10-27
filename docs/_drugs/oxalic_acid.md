@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Acide oxalique : De l'absence d'indication documentée à la rétinopathie diabétique non proliférante sévère
+## Acide oxalique : De l'absence d'indication documentée à la rétinopathie diabétique non proliférante sévère
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

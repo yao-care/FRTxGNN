@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lorlatinib : Du Cancer Bronchique Non à Petites Cellules à la Fibromatose Gingivale
+## Lorlatinib : Du Cancer Bronchique Non à Petites Cellules à la Fibromatose Gingivale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

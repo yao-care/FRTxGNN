@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Rocuronium : Du Bloc Neuromusculaire à la Migraine (prédiction non étayée)
+## Rocuronium : Du Bloc Neuromusculaire à la Migraine (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

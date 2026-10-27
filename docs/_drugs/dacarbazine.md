@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Dacarbazine : Du Mélanome Métastatique et du Lymphome de Hodgkin à la Tumeur des Voies Aérodigestives Supérieures
+## Dacarbazine : Du Mélanome Métastatique et du Lymphome de Hodgkin à la Tumeur des Voies Aérodigestives Supérieures
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

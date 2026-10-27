@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Acide salicylique : Des affections inflammatoires et dermatologiques a la conjonctivite papillaire
+## Acide salicylique : Des affections inflammatoires et dermatologiques a la conjonctivite papillaire
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **4**
 
 </div>
 
-# Ropivacaïne : De l'anesthésie locale à la migraine
+## Ropivacaïne : De l'anesthésie locale à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

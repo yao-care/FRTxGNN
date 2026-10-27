@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Bléomycine : Du lymphome de Hodgkin au néoplasme de la queue de cheval
+## Bléomycine : Du lymphome de Hodgkin au néoplasme de la queue de cheval
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Diazépam : De l'épilepsie à l'insomnie
+## Diazépam : De l'épilepsie à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

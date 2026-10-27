@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Dompéridone : Du traitement symptomatique des troubles digestifs au Syndrome néphrogénique d'antidiurèse inappropriée
+## Dompéridone : Du traitement symptomatique des troubles digestifs au Syndrome néphrogénique d'antidiurèse inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

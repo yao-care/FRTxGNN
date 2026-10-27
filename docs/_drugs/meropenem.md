@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Méropénem : Des méningites et infections à Pseudomonas à l'infection urinaire (disponible : arthrite bactérienne, première prédiction du modèle)
+## Méropénem : Des méningites et infections à Pseudomonas à l'infection urinaire (disponible : arthrite bactérienne, première prédiction du modèle)
+{: .text-alpha }
 
 > Remarque : la première indication prédite par le modèle est l'**arthrite bactérienne** (rang 1). C'est elle qui sert de référence pour le titre, le résumé et l'aperçu. La prédiction la mieux étayée par les preuves, l'**infection urinaire**, est présentée en complément dans la conclusion.
 

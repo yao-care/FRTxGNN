@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-# Desloratadine : De la rhinite allergique à l'urticaire au froid
+## Desloratadine : De la rhinite allergique à l'urticaire au froid
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

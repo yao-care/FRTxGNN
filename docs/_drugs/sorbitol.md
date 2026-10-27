@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Sorbitol : De l'indication originale non renseignée à l'hyperthermie maligne induite par l'effort
+## Sorbitol : De l'indication originale non renseignée à l'hyperthermie maligne induite par l'effort
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

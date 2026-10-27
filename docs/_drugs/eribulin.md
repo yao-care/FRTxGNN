@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Éribuline : Du Liposarcome au Néoplasme Fibroblastique
+## Éribuline : Du Liposarcome au Néoplasme Fibroblastique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

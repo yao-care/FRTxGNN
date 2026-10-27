@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Streptozocine : De l'indication originale non renseignée à la sclérose en plaques récurrente-rémittente
+## Streptozocine : De l'indication originale non renseignée à la sclérose en plaques récurrente-rémittente
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

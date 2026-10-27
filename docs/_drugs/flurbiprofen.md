@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Flurbiprofène : De la Polyarthrite Rhumatoïde à la Dysplasie Acromésomélique de type Hunter-Thompson
+## Flurbiprofène : De la Polyarthrite Rhumatoïde à la Dysplasie Acromésomélique de type Hunter-Thompson
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

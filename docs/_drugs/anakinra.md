@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Anakinra : De la polyarthrite rhumatoïde à la fièvre méditerranéenne familiale autosomique récessive
+## Anakinra : De la polyarthrite rhumatoïde à la fièvre méditerranéenne familiale autosomique récessive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

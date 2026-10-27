@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Atosiban : Du Traitement de la Menace d'Accouchement Prématuré au Glaucome Primitif Héréditaire
+## Atosiban : Du Traitement de la Menace d'Accouchement Prématuré au Glaucome Primitif Héréditaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

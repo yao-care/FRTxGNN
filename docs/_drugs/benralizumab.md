@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Benralizumab : De la pneumonie à éosinophiles à la dermatite
+## Benralizumab : De la pneumonie à éosinophiles à la dermatite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -32,7 +32,8 @@ Niveau de preuve: **L5** | Indications prédites: **0**
 
 </div>
 
-# Alizapride : Rapport d'Évaluation Préliminaire
+## Alizapride : Rapport d'Évaluation Préliminaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

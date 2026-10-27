@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Rifaximine : De l'Encéphalopathie Hépatique à la Candidose Buccale
+## Rifaximine : De l'Encéphalopathie Hépatique à la Candidose Buccale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

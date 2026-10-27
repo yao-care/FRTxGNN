@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Trastuzumab déruxtécan : De l'indication originale non renseignée à l'ostéoporose médicamenteuse
+## Trastuzumab déruxtécan : De l'indication originale non renseignée à l'ostéoporose médicamenteuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

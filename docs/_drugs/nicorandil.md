@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Nicorandil : De l'angor chronique stable à l'hyperplasie bénigne de la prostate
+## Nicorandil : De l'angor chronique stable à l'hyperplasie bénigne de la prostate
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

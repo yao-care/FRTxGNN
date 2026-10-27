@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Estazolam : De l'indication d'origine non renseignée à l'insomnie
+## Estazolam : De l'indication d'origine non renseignée à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

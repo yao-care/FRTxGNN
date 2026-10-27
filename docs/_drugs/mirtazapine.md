@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Mirtazapine : De la dépression unipolaire au syndrome d'Ohdo et variantes
+## Mirtazapine : De la dépression unipolaire au syndrome d'Ohdo et variantes
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

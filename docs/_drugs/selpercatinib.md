@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Selpercatinib : D'un inhibiteur de RET en oncologie à l'hypertension pulmonaire
+## Selpercatinib : D'un inhibiteur de RET en oncologie à l'hypertension pulmonaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

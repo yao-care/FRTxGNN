@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **6**
 
 </div>
 
-# Rimégépant : De la migraine à la migraine avec aura du tronc cérébral
+## Rimégépant : De la migraine à la migraine avec aura du tronc cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

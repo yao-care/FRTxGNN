@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Vinblastine : Du Lymphome de Hodgkin au Rhabdomyosarcome
+## Vinblastine : Du Lymphome de Hodgkin au Rhabdomyosarcome
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

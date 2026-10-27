@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Mianserine : De la dépression unipolaire à la torticolis paroxystique bénigne du nourrisson
+## Mianserine : De la dépression unipolaire à la torticolis paroxystique bénigne du nourrisson
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

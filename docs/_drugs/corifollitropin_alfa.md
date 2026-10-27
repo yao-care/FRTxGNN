@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Corifollitropine alfa : De l'indication originale (non renseignée) à la gastroduodénite
+## Corifollitropine alfa : De l'indication originale (non renseignée) à la gastroduodénite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

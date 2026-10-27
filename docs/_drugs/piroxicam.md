@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Piroxicam : De la polyarthrite rhumatoïde au syndrome de microphtalmie colobomateuse-dysplasie rhizomélique
+## Piroxicam : De la polyarthrite rhumatoïde au syndrome de microphtalmie colobomateuse-dysplasie rhizomélique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

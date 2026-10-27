@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Hydrocortisone : De l'insuffisance surrénalienne et des maladies inflammatoires à la pelade (alopecia areata)
+## Hydrocortisone : De l'insuffisance surrénalienne et des maladies inflammatoires à la pelade (alopecia areata)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

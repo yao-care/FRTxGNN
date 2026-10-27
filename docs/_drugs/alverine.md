@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Alverine : Du Soulagement des Spasmes Digestifs au Trouble Anxieux
+## Alverine : Du Soulagement des Spasmes Digestifs au Trouble Anxieux
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

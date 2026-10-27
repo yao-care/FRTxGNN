@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tinidazole : Des infections protozoaires et vaginales à la vaginite atrophique post-ménopausique
+## Tinidazole : Des infections protozoaires et vaginales à la vaginite atrophique post-ménopausique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

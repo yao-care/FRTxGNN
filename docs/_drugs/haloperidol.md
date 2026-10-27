@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Halopéridol : De la schizophrénie et des troubles psychotiques au trouble congénital de la glycosylation avec défaut de fucosylation
+## Halopéridol : De la schizophrénie et des troubles psychotiques au trouble congénital de la glycosylation avec défaut de fucosylation
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

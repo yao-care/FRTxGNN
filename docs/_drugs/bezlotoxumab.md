@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Bezlotoxumab : De la colite à Clostridium difficile à la péritonite pelvienne aiguë de la femme
+## Bezlotoxumab : De la colite à Clostridium difficile à la péritonite pelvienne aiguë de la femme
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Trétinoïne : De l'acné à la nodulose rhumatoïde
+## Trétinoïne : De l'acné à la nodulose rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

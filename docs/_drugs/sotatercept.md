@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sotatercept : D'une indication originale non documentée à la Leucémie lymphoblastique aiguë
+## Sotatercept : D'une indication originale non documentée à la Leucémie lymphoblastique aiguë
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

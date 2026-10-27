@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Misoprostol : D'une Indication Non Documentée à l'Aménorrhée
+## Misoprostol : D'une Indication Non Documentée à l'Aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

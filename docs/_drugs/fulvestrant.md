@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Fulvestrant : Du Cancer du Sein à l'Infection par le VIH
+## Fulvestrant : Du Cancer du Sein à l'Infection par le VIH
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

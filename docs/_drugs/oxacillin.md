@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Oxacilline : Des Infections à Staphylocoque à l'Épiglottite
+## Oxacilline : Des Infections à Staphylocoque à l'Épiglottite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

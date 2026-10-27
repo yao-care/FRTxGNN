@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Progestérone : De l'endométriose à l'aménorrhée
+## Progestérone : De l'endométriose à l'aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

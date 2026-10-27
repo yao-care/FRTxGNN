@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Filgrastim : De la neutropénie congénitale sévère au trouble hémorragique de type plaquettaire
+## Filgrastim : De la neutropénie congénitale sévère au trouble hémorragique de type plaquettaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Cabergoline : De l'hyperprolactinémie au cancer de l'hypophyse
+## Cabergoline : De l'hyperprolactinémie au cancer de l'hypophyse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

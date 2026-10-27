@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Talc : D'une Pâte à Usage Local à la Maladie Thrombotique (prédiction à très faible plausibilité)
+## Talc : D'une Pâte à Usage Local à la Maladie Thrombotique (prédiction à très faible plausibilité)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

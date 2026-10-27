@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Prasugrel : Du Syndrome Coronarien Aigu au Trouble Migraineux
+## Prasugrel : Du Syndrome Coronarien Aigu au Trouble Migraineux
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

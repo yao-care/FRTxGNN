@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Itraconazole : Des Mycoses Systémiques à la Pneumocystose
+## Itraconazole : Des Mycoses Systémiques à la Pneumocystose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

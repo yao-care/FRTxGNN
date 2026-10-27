@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Cinchocaïne : De la Dermatite à la Bronchite
+## Cinchocaïne : De la Dermatite à la Bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

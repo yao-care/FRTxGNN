@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Mitomycine : De l'adénocarcinome pancréatique à la tumeur pseudopapillaire solide du pancréas
+## Mitomycine : De l'adénocarcinome pancréatique à la tumeur pseudopapillaire solide du pancréas
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Ivosidénib : De la leucémie myéloïde aiguë à la poliomyélite bulbaire (prédiction du modèle)
+## Ivosidénib : De la leucémie myéloïde aiguë à la poliomyélite bulbaire (prédiction du modèle)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

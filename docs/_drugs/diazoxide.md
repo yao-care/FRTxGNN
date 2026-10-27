@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Diazoxide : De l'hyperinsulinisme à l'alopécie (prédiction à faible niveau de preuve)
+## Diazoxide : De l'hyperinsulinisme à l'alopécie (prédiction à faible niveau de preuve)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

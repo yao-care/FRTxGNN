@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Nicardipine : De l'Hypertension Artérielle à l'Hypertension Pulmonaire Associée aux Maladies Pulmonaires et/ou à l'Hypoxie
+## Nicardipine : De l'Hypertension Artérielle à l'Hypertension Pulmonaire Associée aux Maladies Pulmonaires et/ou à l'Hypoxie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

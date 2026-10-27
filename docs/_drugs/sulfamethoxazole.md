@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Sulfaméthoxazole : Des infections bactériennes à la conjonctivite aiguë contagieuse
+## Sulfaméthoxazole : Des infections bactériennes à la conjonctivite aiguë contagieuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

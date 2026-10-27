@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Streptomycine : De la tuberculose pulmonaire à la conjonctivite
+## Streptomycine : De la tuberculose pulmonaire à la conjonctivite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

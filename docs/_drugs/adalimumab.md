@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Adalimumab : De la maladie de Crohn à la vascularite rhumatoïde
+## Adalimumab : De la maladie de Crohn à la vascularite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

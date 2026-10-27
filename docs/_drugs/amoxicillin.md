@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Amoxicilline : Des infections bactériennes à l'hyperamylasémie
+## Amoxicilline : Des infections bactériennes à l'hyperamylasémie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

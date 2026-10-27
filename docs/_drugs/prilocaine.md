@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Prilocaïne : De l'éjaculation précoce à la papillary conjunctivitis (conjonctivite papillaire)
+## Prilocaïne : De l'éjaculation précoce à la papillary conjunctivitis (conjonctivite papillaire)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

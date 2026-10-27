@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Résorcinol : De l'acné à la kéloïde de la nuque (acné chéloïdienne)
+## Résorcinol : De l'acné à la kéloïde de la nuque (acné chéloïdienne)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

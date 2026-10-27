@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ranibizumab : De la rétinopathie diabétique à la rétinopathie diabétique non proliférante sévère
+## Ranibizumab : De la rétinopathie diabétique à la rétinopathie diabétique non proliférante sévère
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

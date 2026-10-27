@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lacosamide : De l'épilepsie au trouble migraineux
+## Lacosamide : De l'épilepsie au trouble migraineux
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

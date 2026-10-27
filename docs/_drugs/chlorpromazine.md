@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Chlorpromazine : De la schizophrénie à la dystrophie rétinienne (avec ou sans anomalies extraoculaires)
+## Chlorpromazine : De la schizophrénie à la dystrophie rétinienne (avec ou sans anomalies extraoculaires)
+{: .text-alpha }
 
 ## Résumé en une phrase
 

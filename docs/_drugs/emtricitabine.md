@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Emtricitabine : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Féline
+## Emtricitabine : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

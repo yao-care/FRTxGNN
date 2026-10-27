@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Dibotermin alfa : De la dégénérescence discale intervertébrale et de la fracture du tibia à l'ésotropie
+## Dibotermin alfa : De la dégénérescence discale intervertébrale et de la fracture du tibia à l'ésotropie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Hydroxocobalamine : De la carence en vitamine B12 à la varice œsophagienne sans saignement
+## Hydroxocobalamine : De la carence en vitamine B12 à la varice œsophagienne sans saignement
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

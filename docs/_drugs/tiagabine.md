@@ -31,7 +31,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Tiagabine : De l'Épilepsie Partielle à l'Épilepsie Visuelle
+## Tiagabine : De l'Épilepsie Partielle à l'Épilepsie Visuelle
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

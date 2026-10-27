@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Paclitaxel : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Paclitaxel : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

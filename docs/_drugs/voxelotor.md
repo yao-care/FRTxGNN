@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Voxelotor : De l'Anémie Falciforme à la Thrombopénie Héréditaire avec Plaquettes Normales
+## Voxelotor : De l'Anémie Falciforme à la Thrombopénie Héréditaire avec Plaquettes Normales
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

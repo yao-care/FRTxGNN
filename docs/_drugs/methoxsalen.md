@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Méthoxsalène : Du Lymphome Cutané à Cellules T à la Réticulose Pagétoïde Localisée
+## Méthoxsalène : Du Lymphome Cutané à Cellules T à la Réticulose Pagétoïde Localisée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

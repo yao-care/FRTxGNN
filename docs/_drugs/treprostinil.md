@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Tréprostinil : De l'Hypertension Artérielle Pulmonaire à l'Hypertension Artérielle Pulmonaire Associée aux Cardiopathies Congénitales
+## Tréprostinil : De l'Hypertension Artérielle Pulmonaire à l'Hypertension Artérielle Pulmonaire Associée aux Cardiopathies Congénitales
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

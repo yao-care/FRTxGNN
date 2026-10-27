@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Minocycline : Des Infections Bactériennes à la Kératoconjonctivite Épithéliale Ponctuée
+## Minocycline : Des Infections Bactériennes à la Kératoconjonctivite Épithéliale Ponctuée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

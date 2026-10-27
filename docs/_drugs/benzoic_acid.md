@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Acide benzoïque : De la fibromatose et la sclérodermie à la bronchite
+## Acide benzoïque : De la fibromatose et la sclérodermie à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

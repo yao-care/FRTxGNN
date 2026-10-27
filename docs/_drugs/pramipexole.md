@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Pramipexole : De la Maladie de Parkinson au Trouble Déficit de l'Attention avec Hyperactivité (TDAH)
+## Pramipexole : De la Maladie de Parkinson au Trouble Déficit de l'Attention avec Hyperactivité (TDAH)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

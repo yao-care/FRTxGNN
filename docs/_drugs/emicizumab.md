@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Emicizumab : De l'hémophilie à l'hémophilie acquise (déficit acquis en facteur de coagulation)
+## Emicizumab : De l'hémophilie à l'hémophilie acquise (déficit acquis en facteur de coagulation)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

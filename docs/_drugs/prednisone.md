@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Prednisone : De l'Autoimmunité et de l'Insuffisance Surrénalienne à l'Alopécie Areata
+## Prednisone : De l'Autoimmunité et de l'Insuffisance Surrénalienne à l'Alopécie Areata
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

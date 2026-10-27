@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Prastérone : De la dyspareunie psychologique à la déficience en cofacteur II de l'héparine
+## Prastérone : De la dyspareunie psychologique à la déficience en cofacteur II de l'héparine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

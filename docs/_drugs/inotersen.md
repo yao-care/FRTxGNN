@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Inotersen : De l'amylose héréditaire à transthyrétine à la Porphyrie Aiguë Intermittente
+## Inotersen : De l'amylose héréditaire à transthyrétine à la Porphyrie Aiguë Intermittente
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

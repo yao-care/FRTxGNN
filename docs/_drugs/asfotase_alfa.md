@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Asfotase alfa : De l'hypophosphatasie au trouble de la phosphorylation oxydative mitochondriale (ADN nucléaire)
+## Asfotase alfa : De l'hypophosphatasie au trouble de la phosphorylation oxydative mitochondriale (ADN nucléaire)
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

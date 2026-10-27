@@ -32,7 +32,8 @@ Niveau de preuve: **L5** | Indications prédites: **0**
 
 </div>
 
-# Aluminium : Évaluation de Repositionnement — Aucune Indication Prédite
+## Aluminium : Évaluation de Repositionnement — Aucune Indication Prédite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

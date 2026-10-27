@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Phénol : De la dermatite à la Acrodermatite chronique atrophiante
+## Phénol : De la dermatite à la Acrodermatite chronique atrophiante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

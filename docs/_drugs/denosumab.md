@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Denosumab : De l'ostéoporose à la rétinopathie diabétique sévère non proliférante
+## Denosumab : De l'ostéoporose à la rétinopathie diabétique sévère non proliférante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

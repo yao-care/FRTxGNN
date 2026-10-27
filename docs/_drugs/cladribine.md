@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Cladribine : De la leucémie à tricholeucocytes au rhabdomyosarcome embryonnaire paraméningé
+## Cladribine : De la leucémie à tricholeucocytes au rhabdomyosarcome embryonnaire paraméningé
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

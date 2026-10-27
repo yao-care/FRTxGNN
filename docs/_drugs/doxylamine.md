@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Doxylamine : De la rhinite allergique à l'urticaire allergique
+## Doxylamine : De la rhinite allergique à l'urticaire allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Dipyridamole : De la fibrillation atriale à la Prinzmetal angina
+## Dipyridamole : De la fibrillation atriale à la Prinzmetal angina
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

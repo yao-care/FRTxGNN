@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Tertatolol : De l'indication originale non documentée à la dyskinésie linguo-faciale-buccale
+## Tertatolol : De l'indication originale non documentée à la dyskinésie linguo-faciale-buccale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Calcifédiol : Des maladies osseuses et du métabolisme phosphocalcique à la carence en vitamine D (terme obsolète)
+## Calcifédiol : Des maladies osseuses et du métabolisme phosphocalcique à la carence en vitamine D (terme obsolète)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

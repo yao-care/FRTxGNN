@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Valine : D'un acide aminé nutritionnel à la cholangite sclérosante
+## Valine : D'un acide aminé nutritionnel à la cholangite sclérosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

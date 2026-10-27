@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Amiloride : De l'hypertension à l'hypertension maligne d'origine rénale
+## Amiloride : De l'hypertension à l'hypertension maligne d'origine rénale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

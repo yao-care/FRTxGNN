@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Tocilizumab : De la polyarthrite rhumatoïde à la spondylarthrite ankylosante
+## Tocilizumab : De la polyarthrite rhumatoïde à la spondylarthrite ankylosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

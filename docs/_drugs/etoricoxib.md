@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Étoricoxib : Des affections inflammatoires douloureuses à la migraine
+## Étoricoxib : Des affections inflammatoires douloureuses à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

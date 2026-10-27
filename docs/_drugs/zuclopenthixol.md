@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Zuclopenthixol : De la Schizophrénie à la Dystrophie Rétinienne
+## Zuclopenthixol : De la Schizophrénie à la Dystrophie Rétinienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

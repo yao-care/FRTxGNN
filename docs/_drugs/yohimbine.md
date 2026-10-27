@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Yohimbine : De l'indication originale non documentée à la migraine
+## Yohimbine : De l'indication originale non documentée à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

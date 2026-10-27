@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Nilotinib : De la leucémie myéloïde chronique BCR-ABL1 positive au dermatofibrosarcome protubérant
+## Nilotinib : De la leucémie myéloïde chronique BCR-ABL1 positive au dermatofibrosarcome protubérant
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

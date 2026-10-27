@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Théophylline : De l'asthme à la maladie thrombotique
+## Théophylline : De l'asthme à la maladie thrombotique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Flupentixol : De la Schizophrénie à la Dystrophie Rétinienne (avec ou sans anomalies extraoculaires)
+## Flupentixol : De la Schizophrénie à la Dystrophie Rétinienne (avec ou sans anomalies extraoculaires)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

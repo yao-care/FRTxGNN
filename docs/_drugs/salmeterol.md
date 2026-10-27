@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **7**
 
 </div>
 
-# Salmétérol : De l'emphysème pulmonaire et de l'asthme à la bronchite
+## Salmétérol : De l'emphysème pulmonaire et de l'asthme à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

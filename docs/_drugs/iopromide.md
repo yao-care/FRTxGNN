@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Iopromide : D'un produit de contraste iodé à l'arthrose (prédiction non étayée)
+## Iopromide : D'un produit de contraste iodé à l'arthrose (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

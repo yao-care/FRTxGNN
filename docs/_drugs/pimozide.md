@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Pimozide : Du Syndrome de Gilles de la Tourette à la Trichotillomanie
+## Pimozide : Du Syndrome de Gilles de la Tourette à la Trichotillomanie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

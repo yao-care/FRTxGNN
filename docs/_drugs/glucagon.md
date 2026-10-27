@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Glucagon : D'un usage non précisé au Syndrome de l'intestin irritable
+## Glucagon : D'un usage non précisé au Syndrome de l'intestin irritable
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

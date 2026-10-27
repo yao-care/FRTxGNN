@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Chlorure d'ammonium : De la pharyngite à la laryngopharyngite aiguë
+## Chlorure d'ammonium : De la pharyngite à la laryngopharyngite aiguë
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

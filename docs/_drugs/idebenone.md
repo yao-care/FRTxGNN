@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Idébénone : De la neuropathie optique héréditaire de Leber à la porphyrie hépatique
+## Idébénone : De la neuropathie optique héréditaire de Leber à la porphyrie hépatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

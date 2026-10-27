@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Méclozine : Du Vertige d'Origine Centrale à l'Urticaire Allergique
+## Méclozine : Du Vertige d'Origine Centrale à l'Urticaire Allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

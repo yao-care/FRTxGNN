@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 </div>
 
-# Lénalidomide : Du Myélome Multiple au Syndrome Myélodysplasique à Leucémie Myéloïde
+## Lénalidomide : Du Myélome Multiple au Syndrome Myélodysplasique à Leucémie Myéloïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

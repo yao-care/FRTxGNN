@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Alanine : D'un acide aminé nutritionnel à la gastroparésie
+## Alanine : D'un acide aminé nutritionnel à la gastroparésie
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Ribociclib : Du Cancer du Sein HR+/HER2- à la Leucémie Myéloïde
+## Ribociclib : Du Cancer du Sein HR+/HER2- à la Leucémie Myéloïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

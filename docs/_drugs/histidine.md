@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Histidine : Des Usages Nutritionnels et de Conservation d'Organes à la Gastroparésie
+## Histidine : Des Usages Nutritionnels et de Conservation d'Organes à la Gastroparésie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

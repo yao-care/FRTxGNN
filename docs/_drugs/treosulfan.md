@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Tréosulfan : D'un agent de conditionnement avant greffe à la cataracte diabétique
+## Tréosulfan : D'un agent de conditionnement avant greffe à la cataracte diabétique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

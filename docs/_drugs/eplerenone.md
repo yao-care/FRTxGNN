@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Éplérénone : De l'hypertension artérielle à l'hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie
+## Éplérénone : De l'hypertension artérielle à l'hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

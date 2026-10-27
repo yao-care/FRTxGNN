@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Mycophénolate mofétil : Du traitement immunosuppresseur à l'infection par le VIH
+## Mycophénolate mofétil : Du traitement immunosuppresseur à l'infection par le VIH
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Fidaxomicine : De la colite à Clostridium difficile au syndrome de la peau ébouillantée staphylococcique
+## Fidaxomicine : De la colite à Clostridium difficile au syndrome de la peau ébouillantée staphylococcique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

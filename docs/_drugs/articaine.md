@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Articaïne : De l'anesthésie locale dentaire à la goutte
+## Articaïne : De l'anesthésie locale dentaire à la goutte
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

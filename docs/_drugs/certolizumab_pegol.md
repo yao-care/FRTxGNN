@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Certolizumab pegol : De la maladie de Crohn et de la polyarthrite rhumatoïde à la vascularite rhumatoïde
+## Certolizumab pegol : De la maladie de Crohn et de la polyarthrite rhumatoïde à la vascularite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

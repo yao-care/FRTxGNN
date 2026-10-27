@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Buprénorphine : De la dépendance aux opiacés à la porphyrie aiguë intermittente
+## Buprénorphine : De la dépendance aux opiacés à la porphyrie aiguë intermittente
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

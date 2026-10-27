@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Pentostatine : De la leucémie à tricholeucocytes au rhabdomyosarcome embryonnaire du vagin (type botryoïde)
+## Pentostatine : De la leucémie à tricholeucocytes au rhabdomyosarcome embryonnaire du vagin (type botryoïde)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

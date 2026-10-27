@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Lanréotide : De l'Acromégalie à l'Hypertrichose
+## Lanréotide : De l'Acromégalie à l'Hypertrichose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

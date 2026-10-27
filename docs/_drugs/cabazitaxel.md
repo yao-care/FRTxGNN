@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cabazitaxel : Du Cancer de la Prostate au Carcinome du Sein Féminin
+## Cabazitaxel : Du Cancer de la Prostate au Carcinome du Sein Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

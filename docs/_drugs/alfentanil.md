@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Alfentanil : De l'analgésie opioïde au syndrome néphrogénique d'antidiurèse inappropriée
+## Alfentanil : De l'analgésie opioïde au syndrome néphrogénique d'antidiurèse inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Fentanyl : D'un analgésique opioïde au Syndrome néphrogénique d'antidiurèse inappropriée
+## Fentanyl : D'un analgésique opioïde au Syndrome néphrogénique d'antidiurèse inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

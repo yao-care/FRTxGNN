@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Avelumab : Du Carcinome Neuroendocrine Cutané à la Tumeur Liée à l'Herpèsvirus Humain 8
+## Avelumab : Du Carcinome Neuroendocrine Cutané à la Tumeur Liée à l'Herpèsvirus Humain 8
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

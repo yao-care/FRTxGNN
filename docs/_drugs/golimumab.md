@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Golimumab : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
+## Golimumab : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

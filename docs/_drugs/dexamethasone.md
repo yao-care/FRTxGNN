@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Dexaméthasone : Des maladies inflammatoires et endocriniennes à l'alopécie areata
+## Dexaméthasone : Des maladies inflammatoires et endocriniennes à l'alopécie areata
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

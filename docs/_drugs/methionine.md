@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Méthionine : D'une indication non documentée à la cataracte diabétique
+## Méthionine : D'une indication non documentée à la cataracte diabétique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

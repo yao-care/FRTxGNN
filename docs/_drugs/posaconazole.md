@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Posaconazole : Des Mycoses Invasives à la Pneumocystose
+## Posaconazole : Des Mycoses Invasives à la Pneumocystose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

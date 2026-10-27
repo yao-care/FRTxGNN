@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Doxorubicine : Des Leucémies et Lymphomes au Sarcome d'Ewing
+## Doxorubicine : Des Leucémies et Lymphomes au Sarcome d'Ewing
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

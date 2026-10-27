@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Thymol : D'un usage antiseptique et respiratoire à l'anévrisme du septum interventriculaire
+## Thymol : D'un usage antiseptique et respiratoire à l'anévrisme du septum interventriculaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Dimercaprol : Du traitement des intoxications aux métaux lourds à la bronchite
+## Dimercaprol : Du traitement des intoxications aux métaux lourds à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

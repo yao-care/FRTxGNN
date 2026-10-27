@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Palipéridone : De la schizophrénie au rétrécissement des prédictions du modèle (dystrophie rétinienne)
+## Palipéridone : De la schizophrénie au rétrécissement des prédictions du modèle (dystrophie rétinienne)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

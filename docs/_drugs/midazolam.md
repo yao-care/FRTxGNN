@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Midazolam : De l'Anxiété à l'Insomnie
+## Midazolam : De l'Anxiété à l'Insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

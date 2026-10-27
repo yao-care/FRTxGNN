@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Kétoprofène : De l'Arthrose et de la Polyarthrite Rhumatoïde à la Spondylarthropathie
+## Kétoprofène : De l'Arthrose et de la Polyarthrite Rhumatoïde à la Spondylarthropathie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

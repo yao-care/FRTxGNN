@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 </div>
 
-# Propofol : De l'anesthésie générale à la migraine
+## Propofol : De l'anesthésie générale à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

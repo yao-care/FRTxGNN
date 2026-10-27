@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **8**
 
 </div>
 
-# Ofatumumab : De la leucémie lymphoblastique aiguë au lymphome folliculaire
+## Ofatumumab : De la leucémie lymphoblastique aiguë au lymphome folliculaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

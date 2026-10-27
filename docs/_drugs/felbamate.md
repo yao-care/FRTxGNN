@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Felbamate : De l'Épilepsie à la Névralgie du Trijumeau
+## Felbamate : De l'Épilepsie à la Névralgie du Trijumeau
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

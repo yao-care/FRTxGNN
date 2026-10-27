@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Flucytosine : De l'antifongique à la Maladie osseuse de Paget (bone Paget disease)
+## Flucytosine : De l'antifongique à la Maladie osseuse de Paget (bone Paget disease)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

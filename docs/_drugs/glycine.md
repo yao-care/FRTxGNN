@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Glycine : Des Affections Rhinopharyngées à la Maladie de la Cavité Nasale
+## Glycine : Des Affections Rhinopharyngées à la Maladie de la Cavité Nasale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

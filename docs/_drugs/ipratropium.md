@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Ipratropium : De la BPCO à la Maladie Pulmonaire Obstructive
+## Ipratropium : De la BPCO à la Maladie Pulmonaire Obstructive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

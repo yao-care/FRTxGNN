@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tamoxifène : Du Carcinome Mammaire Féminin au Carcinome Mammaire In Situ
+## Tamoxifène : Du Carcinome Mammaire Féminin au Carcinome Mammaire In Situ
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

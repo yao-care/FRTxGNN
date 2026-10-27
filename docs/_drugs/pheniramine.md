@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Phéniramine : Du traitement des rhinites et états grippaux à l'urticaire allergique
+## Phéniramine : Du traitement des rhinites et états grippaux à l'urticaire allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

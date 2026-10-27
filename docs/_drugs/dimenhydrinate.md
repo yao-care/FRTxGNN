@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Dimenhydrinate : Du Vertige d'Origine Centrale à l'Urticaire Allergique
+## Dimenhydrinate : Du Vertige d'Origine Centrale à l'Urticaire Allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

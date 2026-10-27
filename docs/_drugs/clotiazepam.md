@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Clotiazépam : Du Statut d'Anxiolytique (Indication Non Renseignée) à l'Insomnie
+## Clotiazépam : Du Statut d'Anxiolytique (Indication Non Renseignée) à l'Insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **5**
 
 </div>
 
-# Cyclophosphamide : Des Lymphomes et Cancers du Sein à la Leucémie Myéloïde
+## Cyclophosphamide : Des Lymphomes et Cancers du Sein à la Leucémie Myéloïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

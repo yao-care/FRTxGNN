@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Nélarabine : De la leucémie aiguë lymphoblastique à la sclérose en plaques récurrente-rémittente
+## Nélarabine : De la leucémie aiguë lymphoblastique à la sclérose en plaques récurrente-rémittente
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

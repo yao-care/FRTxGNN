@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Apixaban : De l'anticoagulation à la migraine
+## Apixaban : De l'anticoagulation à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

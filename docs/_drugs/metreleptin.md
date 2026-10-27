@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Metreleptine : De la lipodystrophie congénitale à la lentiginose généralisée familiale
+## Metreleptine : De la lipodystrophie congénitale à la lentiginose généralisée familiale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

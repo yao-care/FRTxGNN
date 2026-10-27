@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Bendrofluméthiazide : De l'hypertension à la maladie rénale hypertensive maligne
+## Bendrofluméthiazide : De l'hypertension à la maladie rénale hypertensive maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

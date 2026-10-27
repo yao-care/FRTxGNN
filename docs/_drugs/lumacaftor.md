@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Lumacaftor : De la Mucoviscidose à la Lèpre
+## Lumacaftor : De la Mucoviscidose à la Lèpre
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

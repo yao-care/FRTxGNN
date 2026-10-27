@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **3**
 
 </div>
 
-# Albendazole : De l'échinococcose kystique à l'échinococcose alvéolaire
+## Albendazole : De l'échinococcose kystique à l'échinococcose alvéolaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

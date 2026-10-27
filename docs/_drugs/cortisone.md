@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Cortisone : De l'indication non documentée à la lymphome cutané primitif à cellules T
+## Cortisone : De l'indication non documentée à la lymphome cutané primitif à cellules T
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

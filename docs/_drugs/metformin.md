@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Metformine : Du Diabète de Type 2 au Syndrome du Membre Raide Focal
+## Metformine : Du Diabète de Type 2 au Syndrome du Membre Raide Focal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

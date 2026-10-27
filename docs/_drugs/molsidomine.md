@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Molsidomine : De l'indication d'origine (non précisée) à la maladie vasculaire
+## Molsidomine : De l'indication d'origine (non précisée) à la maladie vasculaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

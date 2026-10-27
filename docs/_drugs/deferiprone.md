@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Déferiprone : De l'hémosidérose et de la bêta-thalassémie à la porphyrie hépatique
+## Déferiprone : De l'hémosidérose et de la bêta-thalassémie à la porphyrie hépatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

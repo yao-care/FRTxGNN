@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Aminophylline : De l'indication non renseignée à la migraine
+## Aminophylline : De l'indication non renseignée à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

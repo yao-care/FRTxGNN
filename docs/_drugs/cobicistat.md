@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Cobicistat : Du VIH/SIDA au Syndrome d'Immunodéficience Acquise Féline
+## Cobicistat : Du VIH/SIDA au Syndrome d'Immunodéficience Acquise Féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

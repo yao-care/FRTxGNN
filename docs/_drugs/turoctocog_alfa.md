@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Turoctocog alfa : De l'hémophilie au trouble de libération plaquettaire primaire
+## Turoctocog alfa : De l'hémophilie au trouble de libération plaquettaire primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

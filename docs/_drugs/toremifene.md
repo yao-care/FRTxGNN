@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Torémifène : Du Cancer du Sein à l'Infection par le VIH
+## Torémifène : Du Cancer du Sein à l'Infection par le VIH
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

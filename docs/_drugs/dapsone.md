@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **1**
 
 </div>
 
-# Dapsone : De la dermatite herpétiforme à la pneumocystose
+## Dapsone : De la dermatite herpétiforme à la pneumocystose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

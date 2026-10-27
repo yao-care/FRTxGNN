@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Mogamulizumab : Du Lymphome T Cutané au Carcinome Urothélial de l'Urètre Prostatique
+## Mogamulizumab : Du Lymphome T Cutané au Carcinome Urothélial de l'Urètre Prostatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Carbétocine : Du Syndrome de Prader-Willi au Syndrome pseudo-isotrétinoïne
+## Carbétocine : Du Syndrome de Prader-Willi au Syndrome pseudo-isotrétinoïne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

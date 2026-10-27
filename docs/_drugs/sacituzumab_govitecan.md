@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Sacituzumab govitecan : De l'indication d'origine non documentée à l'ostéoporose médicamenteuse
+## Sacituzumab govitecan : De l'indication d'origine non documentée à l'ostéoporose médicamenteuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

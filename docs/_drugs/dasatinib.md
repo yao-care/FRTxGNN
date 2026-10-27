@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Dasatinib : De la leucémie myéloïde chronique BCR-ABL1 positive au sarcome d'Ewing
+## Dasatinib : De la leucémie myéloïde chronique BCR-ABL1 positive au sarcome d'Ewing
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

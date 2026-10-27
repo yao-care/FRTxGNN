@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Dégarélix : D'un traitement hormonal à l'hypertrichose (prédiction non étayée)
+## Dégarélix : D'un traitement hormonal à l'hypertrichose (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

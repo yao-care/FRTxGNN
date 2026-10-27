@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Ivermectine : De la strongyloïdose à la candidose vulvovaginale
+## Ivermectine : De la strongyloïdose à la candidose vulvovaginale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

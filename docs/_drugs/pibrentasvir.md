@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Pibrentasvir : De l'Hépatite C Chronique à l'Infection par le Virus de l'Hépatite B
+## Pibrentasvir : De l'Hépatite C Chronique à l'Infection par le Virus de l'Hépatite B
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

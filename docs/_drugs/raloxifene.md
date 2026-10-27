@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Raloxifène : De l'Ostéoporose Postménopausique à l'Ulcère Duodénal
+## Raloxifène : De l'Ostéoporose Postménopausique à l'Ulcère Duodénal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

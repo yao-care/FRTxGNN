@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Micafungine : Des Candidoses Systémiques à l'Infection Urinaire à Candida
+## Micafungine : Des Candidoses Systémiques à l'Infection Urinaire à Candida
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

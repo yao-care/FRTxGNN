@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Avibactam : De la pyélonéphrite à la pneumonie à streptocoque
+## Avibactam : De la pyélonéphrite à la pneumonie à streptocoque
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

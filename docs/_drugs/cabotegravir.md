@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Cabotégravir : De l'infection par le VIH-1 à la polyarthrite rhumatoïde
+## Cabotégravir : De l'infection par le VIH-1 à la polyarthrite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

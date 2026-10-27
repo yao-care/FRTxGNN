@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Pristinamycine : Du traitement antibactérien à la maladie du rétropéritoine
+## Pristinamycine : Du traitement antibactérien à la maladie du rétropéritoine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

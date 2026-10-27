@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Artéméther : De l'indication antipaludique d'origine au paludisme à Plasmodium falciparum
+## Artéméther : De l'indication antipaludique d'origine au paludisme à Plasmodium falciparum
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

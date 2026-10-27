@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Allopurinol : De la goutte à la porphyrie hépatique
+## Allopurinol : De la goutte à la porphyrie hépatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

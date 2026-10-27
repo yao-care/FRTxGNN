@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-# Sofosbuvir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+## Sofosbuvir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

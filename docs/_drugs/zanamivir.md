@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Zanamivir : De la grippe à la pyélonéphrite
+## Zanamivir : De la grippe à la pyélonéphrite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

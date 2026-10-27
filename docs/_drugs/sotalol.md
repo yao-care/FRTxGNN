@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Sotalol : De la fibrillation auriculaire à la maladie du sinus (syndrome du sinus malade, forme autosomique dominante 2)
+## Sotalol : De la fibrillation auriculaire à la maladie du sinus (syndrome du sinus malade, forme autosomique dominante 2)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

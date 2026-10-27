@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Chlortalidone : De l'Hypertension au Glaucome Héréditaire Primaire
+## Chlortalidone : De l'Hypertension au Glaucome Héréditaire Primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

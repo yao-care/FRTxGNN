@@ -32,7 +32,8 @@ Niveau de preuve: **L5** | Indications prédites: **0**
 
 </div>
 
-# Aciclovir : Rapport d'Évaluation de Repositionnement — Aucune Nouvelle Indication Prédite
+## Aciclovir : Rapport d'Évaluation de Repositionnement — Aucune Nouvelle Indication Prédite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

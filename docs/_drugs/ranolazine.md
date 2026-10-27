@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Ranolazine : De l'Indication Originale Non Renseignée au Syndrome Néphrogénique d'Antidiurèse Inappropriée
+## Ranolazine : De l'Indication Originale Non Renseignée au Syndrome Néphrogénique d'Antidiurèse Inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

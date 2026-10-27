@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-# Losartan : De l'hypertension artérielle à l'hypertension rénovasculaire maligne
+## Losartan : De l'hypertension artérielle à l'hypertension rénovasculaire maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

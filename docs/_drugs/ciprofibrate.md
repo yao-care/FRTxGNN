@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Ciprofibrate : De l'Hypertriglycéridémie à l'Hyperlipoprotéinémie
+## Ciprofibrate : De l'Hypertriglycéridémie à l'Hyperlipoprotéinémie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ticarcilline : Des Infections Bactériennes à la Maladie du Péritoine
+## Ticarcilline : Des Infections Bactériennes à la Maladie du Péritoine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **7**
 
 </div>
 
-# Desmopressine : Des troubles hémorragiques héréditaires aux troubles de la fonction plaquettaire (défaut de sécrétion plaquettaire primaire)
+## Desmopressine : Des troubles hémorragiques héréditaires aux troubles de la fonction plaquettaire (défaut de sécrétion plaquettaire primaire)
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

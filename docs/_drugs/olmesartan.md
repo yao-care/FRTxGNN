@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Olmésartan : De l'hypertension artérielle à l'angor de Prinzmetal
+## Olmésartan : De l'hypertension artérielle à l'angor de Prinzmetal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

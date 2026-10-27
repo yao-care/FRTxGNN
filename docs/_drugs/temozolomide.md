@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **2**
 
 </div>
 
-# Témozolomide : Des astrocytomes et du glioblastome à la tumeur astrocytaire de l'adulte
+## Témozolomide : Des astrocytomes et du glioblastome à la tumeur astrocytaire de l'adulte
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

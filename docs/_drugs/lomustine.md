@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Lomustine : Du Lymphome de Hodgkin à la Lymphosarcome
+## Lomustine : Du Lymphome de Hodgkin à la Lymphosarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

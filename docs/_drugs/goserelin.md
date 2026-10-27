@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Goséréline : De l'Endométriose à l'Aménorrhée
+## Goséréline : De l'Endométriose à l'Aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

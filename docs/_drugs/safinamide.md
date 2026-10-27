@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Safinamide : De la maladie de Parkinson à l'encéphalite de Rasmussen
+## Safinamide : De la maladie de Parkinson à l'encéphalite de Rasmussen
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

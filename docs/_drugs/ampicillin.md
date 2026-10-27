@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Ampicilline : Des Infections Bactériennes Courantes à la Laryngite
+## Ampicilline : Des Infections Bactériennes Courantes à la Laryngite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

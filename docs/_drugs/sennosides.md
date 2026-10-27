@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Sennosides : Du Traitement Laxatif à l'Hypotrichose Simple du Cuir Chevelu
+## Sennosides : Du Traitement Laxatif à l'Hypotrichose Simple du Cuir Chevelu
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Axitinib : Du Carcinome Rénal à Cellules Claires au Carcinome Rénal à Translocation Xp11.2/Fusion TFE3
+## Axitinib : Du Carcinome Rénal à Cellules Claires au Carcinome Rénal à Translocation Xp11.2/Fusion TFE3
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

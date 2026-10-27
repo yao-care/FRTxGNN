@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Bumétanide : De l'insuffisance cardiaque congestive à la cardiopathie pulmonaire aiguë
+## Bumétanide : De l'insuffisance cardiaque congestive à la cardiopathie pulmonaire aiguë
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

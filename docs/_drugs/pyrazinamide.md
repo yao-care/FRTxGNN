@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Pyrazinamide : De la tuberculose pulmonaire à l'otite moyenne infectieuse
+## Pyrazinamide : De la tuberculose pulmonaire à l'otite moyenne infectieuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

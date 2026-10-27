@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-# Atropine : Du Domaine Anticholinergique (indication d'origine non précisée) à la Migraine
+## Atropine : Du Domaine Anticholinergique (indication d'origine non précisée) à la Migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

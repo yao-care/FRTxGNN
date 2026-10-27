@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Ticagrélor : De l'Syndrome Coronarien Aigu à l'Artériosclérose Intracrânienne
+## Ticagrélor : De l'Syndrome Coronarien Aigu à l'Artériosclérose Intracrânienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Albutrepenonacog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+## Albutrepenonacog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **5**
 
 </div>
 
-# Amsacrine : Des Hémopathies Malignes au Myélome Multiple
+## Amsacrine : Des Hémopathies Malignes au Myélome Multiple
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

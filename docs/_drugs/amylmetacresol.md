@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Amylmétacrésol : Des affections de la gorge au syndrome de la queue de cheval
+## Amylmétacrésol : Des affections de la gorge au syndrome de la queue de cheval
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

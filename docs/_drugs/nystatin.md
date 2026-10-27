@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Nystatine : Des candidoses cutanéo-muqueuses à la vulvovaginite
+## Nystatine : Des candidoses cutanéo-muqueuses à la vulvovaginite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

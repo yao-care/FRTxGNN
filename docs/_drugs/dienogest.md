@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Dienogest : De l'endométriose à l'aménorrhée (prédiction à interpréter avec prudence)
+## Dienogest : De l'endométriose à l'aménorrhée (prédiction à interpréter avec prudence)
+{: .text-alpha }
 
 ## Résumé en une phrase
 

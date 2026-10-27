@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Sunitinib : Du Carcinome Rénal à Cellules Claires au Liposarcome
+## Sunitinib : Du Carcinome Rénal à Cellules Claires au Liposarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

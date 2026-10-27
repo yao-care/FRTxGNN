@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Sérotonine : D'une préparation homéopathique (indication non renseignée) à l'insomnie
+## Sérotonine : D'une préparation homéopathique (indication non renseignée) à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Sévoflurane : De l'anesthésie générale à l'angor de Prinzmetal
+## Sévoflurane : De l'anesthésie générale à l'angor de Prinzmetal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

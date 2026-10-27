@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Trihexyphénidyle : De la maladie de Parkinson au trouble déficitaire de l'attention avec hyperactivité (TDAH)
+## Trihexyphénidyle : De la maladie de Parkinson au trouble déficitaire de l'attention avec hyperactivité (TDAH)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

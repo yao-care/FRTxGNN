@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Codéine : Des affections des voies respiratoires supérieures et des céphalées à la maladie de la cavité nasale
+## Codéine : Des affections des voies respiratoires supérieures et des céphalées à la maladie de la cavité nasale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

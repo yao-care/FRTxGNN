@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-# Sulpiride : De la Schizophrénie à la Dystrophie Rétinienne
+## Sulpiride : De la Schizophrénie à la Dystrophie Rétinienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Guselkumab : De l'indication d'origine non renseignée à l'ostéoporose médicamenteuse
+## Guselkumab : De l'indication d'origine non renseignée à l'ostéoporose médicamenteuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

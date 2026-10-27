@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Spironolactone : De l'hypertension artérielle à l'hypotrichose simple du cuir chevelu
+## Spironolactone : De l'hypertension artérielle à l'hypotrichose simple du cuir chevelu
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

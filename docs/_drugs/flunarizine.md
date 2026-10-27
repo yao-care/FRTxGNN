@@ -31,7 +31,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Flunarizine : D'une indication non renseignée au Trouble Migraineux
+## Flunarizine : D'une indication non renseignée au Trouble Migraineux
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Diéthylcarbamazine : De la filariose lymphatique au lymphœdème syndromique
+## Diéthylcarbamazine : De la filariose lymphatique au lymphœdème syndromique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

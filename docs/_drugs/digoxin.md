@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Digoxine : De la fibrillation auriculaire à l'angor de Prinzmetal
+## Digoxine : De la fibrillation auriculaire à l'angor de Prinzmetal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

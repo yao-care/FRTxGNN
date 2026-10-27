@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Morphine : De la maladie diarrhéique au syndrome des jambes sans repos
+## Morphine : De la maladie diarrhéique au syndrome des jambes sans repos
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Tadalafil : De l'Hyperplasie Benigne de la Prostate a l'Hypertrichose Congenitale de type Ambras
+## Tadalafil : De l'Hyperplasie Benigne de la Prostate a l'Hypertrichose Congenitale de type Ambras
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

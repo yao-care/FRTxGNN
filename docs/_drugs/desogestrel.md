@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Desogestrel : De la contraception à l'aménorrhée
+## Desogestrel : De la contraception à l'aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

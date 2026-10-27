@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Brivaracétam : De l'épilepsie partielle à l'épilepsie visuelle
+## Brivaracétam : De l'épilepsie partielle à l'épilepsie visuelle
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Aztréonam : Des infections à Gram négatif à l'urétrite gonococcique
+## Aztréonam : Des infections à Gram négatif à l'urétrite gonococcique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

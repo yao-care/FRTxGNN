@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Baclofène : De la spasticité à la dépendance à la nicotine
+## Baclofène : De la spasticité à la dépendance à la nicotine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

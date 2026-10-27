@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Pazopanib : Du Carcinome Rénal à Cellules Claires au Carcinome Rénal Non Classé
+## Pazopanib : Du Carcinome Rénal à Cellules Claires au Carcinome Rénal Non Classé
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

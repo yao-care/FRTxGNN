@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Zidovudine : De l'infection par le VIH/SIDA au syndrome d'immunodéficience acquise féline
+## Zidovudine : De l'infection par le VIH/SIDA au syndrome d'immunodéficience acquise féline
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

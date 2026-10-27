@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Lipegfilgrastim : D'un facteur de croissance des neutrophiles à un trouble de libération plaquettaire (prédiction non étayée)
+## Lipegfilgrastim : D'un facteur de croissance des neutrophiles à un trouble de libération plaquettaire (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

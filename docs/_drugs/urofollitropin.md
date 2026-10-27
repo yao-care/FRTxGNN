@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Urofollitropine : De la stimulation ovarienne au trouble migraineux
+## Urofollitropine : De la stimulation ovarienne au trouble migraineux
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Entécavir : De l'hépatite B chronique à l'infection chronique par le virus de l'hépatite C
+## Entécavir : De l'hépatite B chronique à l'infection chronique par le virus de l'hépatite C
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

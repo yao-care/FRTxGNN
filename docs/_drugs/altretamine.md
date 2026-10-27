@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Altrétamine : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Altrétamine : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

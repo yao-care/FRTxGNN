@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **2**
 
 </div>
 
-# Larotrectinib : D'un traitement des tumeurs à fusion NTRK à la néoplasie endocrinienne multiple
+## Larotrectinib : D'un traitement des tumeurs à fusion NTRK à la néoplasie endocrinienne multiple
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

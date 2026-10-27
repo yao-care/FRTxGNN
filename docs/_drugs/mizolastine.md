@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Mizolastine : De la rhinite allergique à la porphyrie aiguë intermittente
+## Mizolastine : De la rhinite allergique à la porphyrie aiguë intermittente
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

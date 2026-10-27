@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Fluindione : D'un anticoagulant antivitamine K à la polyarthrite rhumatoïde
+## Fluindione : D'un anticoagulant antivitamine K à la polyarthrite rhumatoïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

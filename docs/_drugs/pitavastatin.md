@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Pitavastatine : De l'hyperlipidémie combinée familiale à l'hypercholestérolémie familiale homozygote
+## Pitavastatine : De l'hyperlipidémie combinée familiale à l'hypercholestérolémie familiale homozygote
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

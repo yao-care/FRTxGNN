@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Terazosine : De l'Hypertension à l'Alopécie
+## Terazosine : De l'Hypertension à l'Alopécie
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Brolucizumab : De la dégénérescence maculaire à un trouble de la phosphorylation oxydative mitochondriale (ADN nucléaire)
+## Brolucizumab : De la dégénérescence maculaire à un trouble de la phosphorylation oxydative mitochondriale (ADN nucléaire)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

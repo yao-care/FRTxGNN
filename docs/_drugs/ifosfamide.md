@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Ifosfamide : Du Traitement Anticancéreux Historique au Rhabdomyosarcome
+## Ifosfamide : Du Traitement Anticancéreux Historique au Rhabdomyosarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

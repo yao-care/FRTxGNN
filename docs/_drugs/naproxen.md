@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Naproxène : Des Pathologies Inflammatoires et Douloureuses au Syndrome de Brachydactylie-Syndactylie
+## Naproxène : Des Pathologies Inflammatoires et Douloureuses au Syndrome de Brachydactylie-Syndactylie
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

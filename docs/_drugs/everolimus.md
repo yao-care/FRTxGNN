@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Évérolimus : Du Carcinome Rénal à Cellules Claires au Liposarcome
+## Évérolimus : Du Carcinome Rénal à Cellules Claires au Liposarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

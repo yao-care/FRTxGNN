@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Risdiplam : De l'Amyotrophie Spinale à l'Acné
+## Risdiplam : De l'Amyotrophie Spinale à l'Acné
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

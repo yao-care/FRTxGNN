@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Bevacizumab : Des cancers du péritoine, de l'ovaire, du sein et du côlon métastatique à la néoplasie de l'épiglotte
+## Bevacizumab : Des cancers du péritoine, de l'ovaire, du sein et du côlon métastatique à la néoplasie de l'épiglotte
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

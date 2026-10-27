@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Calcitriol : Des troubles du métabolisme phosphocalcique à la carence en vitamine D (entrée obsolète)
+## Calcitriol : Des troubles du métabolisme phosphocalcique à la carence en vitamine D (entrée obsolète)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

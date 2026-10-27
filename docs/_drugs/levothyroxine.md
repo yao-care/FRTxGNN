@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lévothyroxine : De l'hypothyroïdie au goitre endémique
+## Lévothyroxine : De l'hypothyroïdie au goitre endémique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

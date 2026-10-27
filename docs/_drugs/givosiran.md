@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Givosiran : De la porphyrie hépatique à la porphyrie par déficit en ALA déshydratase
+## Givosiran : De la porphyrie hépatique à la porphyrie par déficit en ALA déshydratase
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

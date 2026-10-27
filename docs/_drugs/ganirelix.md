@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ganirelix : De la prévention de l'ovulation prématurée à l'hypertrichose
+## Ganirelix : De la prévention de l'ovulation prématurée à l'hypertrichose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

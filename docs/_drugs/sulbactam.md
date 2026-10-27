@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Sulbactam : Des infections à staphylocoques et à *E. coli* à l'arthrite bactérienne
+## Sulbactam : Des infections à staphylocoques et à *E. coli* à l'arthrite bactérienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

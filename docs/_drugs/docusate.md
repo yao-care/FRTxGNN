@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Docusate : De la Constipation au Syndrome de Plummer-Vinson
+## Docusate : De la Constipation au Syndrome de Plummer-Vinson
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

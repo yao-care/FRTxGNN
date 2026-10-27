@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **7**
 
 </div>
 
-# Icatibant : De l'Angioedème Héréditaire au Déficit en Inhibiteur de la C1 estérase
+## Icatibant : De l'Angioedème Héréditaire au Déficit en Inhibiteur de la C1 estérase
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

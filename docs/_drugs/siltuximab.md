@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Siltuximab : De la maladie de Castleman au mastocytome extracutané
+## Siltuximab : De la maladie de Castleman au mastocytome extracutané
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

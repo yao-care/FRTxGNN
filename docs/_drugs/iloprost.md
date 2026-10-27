@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Iloprost : De l'hypertension artérielle pulmonaire à l'hypotrichose simplex du cuir chevelu
+## Iloprost : De l'hypertension artérielle pulmonaire à l'hypotrichose simplex du cuir chevelu
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

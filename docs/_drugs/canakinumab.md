@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Canakinumab : Des syndromes périodiques associés à la cryopyrine à l'infarctus hépatique
+## Canakinumab : Des syndromes périodiques associés à la cryopyrine à l'infarctus hépatique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

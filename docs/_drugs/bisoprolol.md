@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Bisoprolol : De l'Hypertension Artérielle à l'Hypertension Rénovasculaire Maligne
+## Bisoprolol : De l'Hypertension Artérielle à l'Hypertension Rénovasculaire Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

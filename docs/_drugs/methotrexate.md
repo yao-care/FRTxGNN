@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Méthotrexate : Des Leucémies Lymphoblastiques et Lymphomes au Blastome Pulmonaire
+## Méthotrexate : Des Leucémies Lymphoblastiques et Lymphomes au Blastome Pulmonaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

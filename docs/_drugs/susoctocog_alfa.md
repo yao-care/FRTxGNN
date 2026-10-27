@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Susoctocog alfa : De l'hémophilie acquise à l'hémophilie (forme congénitale avec inhibiteurs)
+## Susoctocog alfa : De l'hémophilie acquise à l'hémophilie (forme congénitale avec inhibiteurs)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

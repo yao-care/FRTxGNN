@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-# Métoclopramide : Du reflux gastro-œsophagien à l'ulcère gastrique
+## Métoclopramide : Du reflux gastro-œsophagien à l'ulcère gastrique
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

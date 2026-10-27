@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-# Clotrimazole : De la candidose cutanéo-muqueuse à la vulvovaginite
+## Clotrimazole : De la candidose cutanéo-muqueuse à la vulvovaginite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

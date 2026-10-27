@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Dihydralazine : De l'hypertension artérielle à la maladie cardiaque
+## Dihydralazine : De l'hypertension artérielle à la maladie cardiaque
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

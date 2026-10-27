@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Vitamine A : De la carence en vitamine A au déficit congénital en prothrombine
+## Vitamine A : De la carence en vitamine A au déficit congénital en prothrombine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

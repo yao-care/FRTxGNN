@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Indacaterol : Des Maladies Respiratoires Obstructives à la Maladie Bronchique
+## Indacaterol : Des Maladies Respiratoires Obstructives à la Maladie Bronchique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

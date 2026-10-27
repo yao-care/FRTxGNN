@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Sécnidazole : De la vaginose bactérienne à la vaginite atrophique postménopausique
+## Sécnidazole : De la vaginose bactérienne à la vaginite atrophique postménopausique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

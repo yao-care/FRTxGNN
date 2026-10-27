@@ -31,7 +31,8 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-# Acétaminophène (paracétamol) : Des céphalées et migraines courantes à la migraine avec aura du tronc cérébral
+## Acétaminophène (paracétamol) : Des céphalées et migraines courantes à la migraine avec aura du tronc cérébral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

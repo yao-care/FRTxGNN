@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Cystéine : Des affections respiratoires et de l'intoxication au paracétamol au syndrome de l'œil sec
+## Cystéine : Des affections respiratoires et de l'intoxication au paracétamol au syndrome de l'œil sec
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

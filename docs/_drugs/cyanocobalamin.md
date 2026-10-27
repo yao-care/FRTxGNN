@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Cyanocobalamine : De la carence en vitamine B12 à la maladie métabolique de la biotine
+## Cyanocobalamine : De la carence en vitamine B12 à la maladie métabolique de la biotine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

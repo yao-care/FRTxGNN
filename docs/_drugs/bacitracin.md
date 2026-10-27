@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Bacitracine : De la kératite à la kératoconjonctivite épithéliale ponctuée
+## Bacitracine : De la kératite à la kératoconjonctivite épithéliale ponctuée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

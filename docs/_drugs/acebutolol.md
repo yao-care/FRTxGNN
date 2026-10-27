@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Acébutolol : De l'Hypertension à l'Hypertension Rénale Maligne
+## Acébutolol : De l'Hypertension à l'Hypertension Rénale Maligne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

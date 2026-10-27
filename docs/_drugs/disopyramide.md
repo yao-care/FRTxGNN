@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Disopyramide : D'un antiarythmique de classe Ia au Syndrome de Gilles de la Tourette
+## Disopyramide : D'un antiarythmique de classe Ia au Syndrome de Gilles de la Tourette
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Isoniazide : De la tuberculose pulmonaire à la conjonctivite
+## Isoniazide : De la tuberculose pulmonaire à la conjonctivite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

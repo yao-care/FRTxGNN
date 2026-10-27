@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Fluvoxamine : De la phobie sociale et du trouble obsessionnel-compulsif au trouble anxieux
+## Fluvoxamine : De la phobie sociale et du trouble obsessionnel-compulsif au trouble anxieux
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

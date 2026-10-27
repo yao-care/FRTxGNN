@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Azathioprine : De la polyarthrite rhumatoïde à la maladie inflammatoire chronique de l'intestin (MICI)
+## Azathioprine : De la polyarthrite rhumatoïde à la maladie inflammatoire chronique de l'intestin (MICI)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

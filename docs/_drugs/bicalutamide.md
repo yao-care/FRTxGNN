@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Bicalutamide : Du Cancer de la Prostate au Carcinome Mammaire Féminin
+## Bicalutamide : Du Cancer de la Prostate au Carcinome Mammaire Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

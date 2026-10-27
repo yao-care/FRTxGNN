@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Phénobarbital : De l'épilepsie à la tumeur du nerf trijumeau (prédiction non étayée)
+## Phénobarbital : De l'épilepsie à la tumeur du nerf trijumeau (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

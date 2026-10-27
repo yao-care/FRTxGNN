@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Hespéridine : D'une indication non documentée à la néoplasie myéloproliférative
+## Hespéridine : D'une indication non documentée à la néoplasie myéloproliférative
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

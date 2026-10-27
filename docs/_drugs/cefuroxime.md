@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Céfuroxime : Des infections bactériennes à l'infection urinaire (prédiction TxGNN)
+## Céfuroxime : Des infections bactériennes à l'infection urinaire (prédiction TxGNN)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

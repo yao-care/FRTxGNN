@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Épirubicine : Du Cancer du Sein au Lymphome Pulmonaire Primitif
+## Épirubicine : Du Cancer du Sein au Lymphome Pulmonaire Primitif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

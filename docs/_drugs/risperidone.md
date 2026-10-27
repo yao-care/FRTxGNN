@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Rispéridone : De la schizophrénie à la paralysie familiale du regard horizontal avec scoliose progressive
+## Rispéridone : De la schizophrénie à la paralysie familiale du regard horizontal avec scoliose progressive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Docétaxel : Du Cancer du Poumon Non à Petites Cellules au Carcinome Mammaire Féminin
+## Docétaxel : Du Cancer du Poumon Non à Petites Cellules au Carcinome Mammaire Féminin
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

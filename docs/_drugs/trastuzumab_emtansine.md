@@ -31,7 +31,8 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-# Trastuzumab emtansine : Du cancer du sein HER2 positif au cancer du sein à récepteurs de la progestérone positifs
+## Trastuzumab emtansine : Du cancer du sein HER2 positif au cancer du sein à récepteurs de la progestérone positifs
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Simoctocog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+## Simoctocog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

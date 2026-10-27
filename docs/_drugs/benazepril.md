@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Bénazépril : De l'Hypertension à la Maladie Rénale Hypertensive Maligne
+## Bénazépril : De l'Hypertension à la Maladie Rénale Hypertensive Maligne
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

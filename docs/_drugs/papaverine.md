@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Papavérine : Des maladies vasculaires périphériques à la maladie ischémique
+## Papavérine : Des maladies vasculaires périphériques à la maladie ischémique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

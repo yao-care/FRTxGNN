@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Liothyronine : De l'Hypothyroïdie à l'Hypoplasie/Aplasie Rénale
+## Liothyronine : De l'Hypothyroïdie à l'Hypoplasie/Aplasie Rénale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

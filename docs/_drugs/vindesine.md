@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Vindésine : De la leucémie lymphoblastique aiguë au ganglioneuroblastome
+## Vindésine : De la leucémie lymphoblastique aiguë au ganglioneuroblastome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

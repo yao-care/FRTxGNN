@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Rufinamide : Du Syndrome de Lennox-Gastaut au Syndrome d'épilepsie lié à une infection fébrile (FIRES)
+## Rufinamide : Du Syndrome de Lennox-Gastaut au Syndrome d'épilepsie lié à une infection fébrile (FIRES)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

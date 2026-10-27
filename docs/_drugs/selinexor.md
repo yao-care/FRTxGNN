@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Selinexor : D'une indication non documentée à l'ostéoporose médicamenteuse
+## Selinexor : D'une indication non documentée à l'ostéoporose médicamenteuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

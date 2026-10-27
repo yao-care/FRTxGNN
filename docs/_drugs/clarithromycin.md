@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Clarithromycine : Des Infections Bactériennes Respiratoires et ORL au Syndrome d'Hyperviscosité Polyclonale
+## Clarithromycine : Des Infections Bactériennes Respiratoires et ORL au Syndrome d'Hyperviscosité Polyclonale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

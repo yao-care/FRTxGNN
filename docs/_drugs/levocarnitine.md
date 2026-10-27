@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Lévocarnitine : De l'indication originale non documentée à l'insuffisance cardiaque congestive
+## Lévocarnitine : De l'indication originale non documentée à l'insuffisance cardiaque congestive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

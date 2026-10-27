@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Thiopental : De l'Épilepsie à la Trichotillomanie
+## Thiopental : De l'Épilepsie à la Trichotillomanie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

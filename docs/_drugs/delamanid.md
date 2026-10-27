@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Delamanid : De la tuberculose multirésistante à la tuberculose bovine
+## Delamanid : De la tuberculose multirésistante à la tuberculose bovine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

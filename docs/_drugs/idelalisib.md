@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Idelalisib : Du Lymphome Folliculaire et de la Leucémie Lymphoïde Chronique au Lymphome à Cellules du Manteau
+## Idelalisib : Du Lymphome Folliculaire et de la Leucémie Lymphoïde Chronique au Lymphome à Cellules du Manteau
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

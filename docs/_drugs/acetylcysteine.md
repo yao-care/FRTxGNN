@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Acétylcystéine : De la bronchite et de l'intoxication au paracétamol à la maladie thrombotique
+## Acétylcystéine : De la bronchite et de l'intoxication au paracétamol à la maladie thrombotique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

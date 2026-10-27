@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Acyclovir : De l'infection herpétique à la verrue commune
+## Acyclovir : De l'infection herpétique à la verrue commune
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

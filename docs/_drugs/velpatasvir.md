@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Velpatasvir : De l'hépatite C chronique à l'hépatite B
+## Velpatasvir : De l'hépatite C chronique à l'hépatite B
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

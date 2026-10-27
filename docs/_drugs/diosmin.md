@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Diosmine : D'un Médicament Veinotonique à l'Aménorrhée
+## Diosmine : D'un Médicament Veinotonique à l'Aménorrhée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

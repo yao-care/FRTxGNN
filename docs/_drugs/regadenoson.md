@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-# Regadénoson : D'agent de stress pharmacologique pour l'imagerie myocardique à l'anaphylaxie
+## Regadénoson : D'agent de stress pharmacologique pour l'imagerie myocardique à l'anaphylaxie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

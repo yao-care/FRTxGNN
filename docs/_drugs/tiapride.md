@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Tiapride : De l'indication originale non renseignée à la migraine
+## Tiapride : De l'indication originale non renseignée à la migraine
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

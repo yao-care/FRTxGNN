@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **4**
 
 </div>
 
-# Épinéphrine : De l'asthme et de l'anaphylaxie à la maladie pulmonaire obstructive
+## Épinéphrine : De l'asthme et de l'anaphylaxie à la maladie pulmonaire obstructive
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

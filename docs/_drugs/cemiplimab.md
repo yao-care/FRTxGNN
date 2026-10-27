@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Cemiplimab : Du Carcinome Épidermoïde au Carcinome Adénosquameux de la Vésicule Biliaire
+## Cemiplimab : Du Carcinome Épidermoïde au Carcinome Adénosquameux de la Vésicule Biliaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

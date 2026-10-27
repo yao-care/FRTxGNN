@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Téprotumumab : De l'exophtalmie endocrinienne au syndrome de Turner (monosomie X)
+## Téprotumumab : De l'exophtalmie endocrinienne au syndrome de Turner (monosomie X)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

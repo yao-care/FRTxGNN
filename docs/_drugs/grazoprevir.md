@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Grazoprevir : De l'hépatite C chronique à l'infection par le VIH
+## Grazoprevir : De l'hépatite C chronique à l'infection par le VIH
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

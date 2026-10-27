@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Clomipramine : Du Trouble Obsessionnel Compulsif au Trouble Anxieux
+## Clomipramine : Du Trouble Obsessionnel Compulsif au Trouble Anxieux
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

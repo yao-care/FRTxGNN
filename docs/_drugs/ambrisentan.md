@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Ambrisentan : De l'Hypertension Artérielle Pulmonaire à l'Hypertension Artérielle Pulmonaire Associée aux Connectivites
+## Ambrisentan : De l'Hypertension Artérielle Pulmonaire à l'Hypertension Artérielle Pulmonaire Associée aux Connectivites
+{: .text-alpha }
 
 Note de méthode : la première prédiction du classement (malformation artério-veineuse pulmonaire) ne repose que sur un cas clinique isolé et son lien mécanistique est faible. Ce rapport présente donc l'indication prédite la mieux documentée dans les données compilées : l'**hypertension artérielle pulmonaire associée aux connectivites** (rang 6, score de 99,30 %). Les autres prédictions sont résumées dans le tableau comparatif ci-dessous.
 

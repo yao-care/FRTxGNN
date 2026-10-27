@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Lévétiracétam : De l'épilepsie partielle à l'état de mal épileptique
+## Lévétiracétam : De l'épilepsie partielle à l'état de mal épileptique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

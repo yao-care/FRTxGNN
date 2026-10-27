@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Pipobroman : D'un usage antineoplasique à la Cataracte diabétique
+## Pipobroman : D'un usage antineoplasique à la Cataracte diabétique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

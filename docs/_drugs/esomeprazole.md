@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Ésoméprazole : De l'Ulcère Peptique au Reflux Duodénogastrique
+## Ésoméprazole : De l'Ulcère Peptique au Reflux Duodénogastrique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Dihydrocodéine : De la rhinite allergique à la maladie de la cavité nasale
+## Dihydrocodéine : De la rhinite allergique à la maladie de la cavité nasale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

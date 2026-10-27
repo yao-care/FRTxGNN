@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Acide succinique : De l'anémie par carence en fer à l'anémie mégaloblastique constitutionnelle indépendante de la vitamine B12 et des folates
+## Acide succinique : De l'anémie par carence en fer à l'anémie mégaloblastique constitutionnelle indépendante de la vitamine B12 et des folates
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

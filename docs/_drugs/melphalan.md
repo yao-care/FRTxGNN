@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Melphalan : Du Cancer de l'Ovaire à la Tumeur Germinale Gonadique
+## Melphalan : Du Cancer de l'Ovaire à la Tumeur Germinale Gonadique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Natalizumab : De la maladie de Crohn à la bronchite
+## Natalizumab : De la maladie de Crohn à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

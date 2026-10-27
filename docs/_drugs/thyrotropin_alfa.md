@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Thyrotropine alfa : Du Diagnostic du Cancer Thyroïdien à la Migraine (prédiction non étayée)
+## Thyrotropine alfa : Du Diagnostic du Cancer Thyroïdien à la Migraine (prédiction non étayée)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

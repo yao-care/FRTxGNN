@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Lonafarnib : Du Syndrome de progéria à la Lèpre
+## Lonafarnib : Du Syndrome de progéria à la Lèpre
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

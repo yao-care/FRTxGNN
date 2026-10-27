@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Busulfan : De l'indication d'origine non renseignée au Syndrome Myélodysplasique
+## Busulfan : De l'indication d'origine non renseignée au Syndrome Myélodysplasique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

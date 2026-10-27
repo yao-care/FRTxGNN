@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Dolutegravir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+## Dolutegravir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

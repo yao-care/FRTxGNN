@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Colchicine : De la Goutte et de la Fièvre Méditerranéenne Familiale au Paludisme à *Plasmodium falciparum*
+## Colchicine : De la Goutte et de la Fièvre Méditerranéenne Familiale au Paludisme à *Plasmodium falciparum*
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

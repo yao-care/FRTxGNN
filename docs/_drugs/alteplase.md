@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Alteplase : De l'infarctus du myocarde à l'infarctus du myocarde postérolatéral
+## Alteplase : De l'infarctus du myocarde à l'infarctus du myocarde postérolatéral
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

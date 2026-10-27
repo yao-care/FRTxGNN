@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Brodalumab : De l'indication originale non documentée à la strongyloïdose
+## Brodalumab : De l'indication originale non documentée à la strongyloïdose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

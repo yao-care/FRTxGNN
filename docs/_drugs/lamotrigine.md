@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Lamotrigine : De l'Épilepsie au Néoplasme du Nerf Trijumeau
+## Lamotrigine : De l'Épilepsie au Néoplasme du Nerf Trijumeau
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Montelukast : De la rhinite allergique et de l'asthme à la bronchite
+## Montelukast : De la rhinite allergique et de l'asthme à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

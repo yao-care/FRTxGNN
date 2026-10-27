@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Raltitrexed : Du Cancer Colorectal au Cholangite Sclérosante
+## Raltitrexed : Du Cancer Colorectal au Cholangite Sclérosante
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

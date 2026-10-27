@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Eltrombopag : De la thrombopénie auto-immune à l'infection par le VIH
+## Eltrombopag : De la thrombopénie auto-immune à l'infection par le VIH
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

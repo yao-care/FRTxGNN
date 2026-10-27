@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-# Almitrine : De la bronchopneumopathie chronique obstructive à la bronchite
+## Almitrine : De la bronchopneumopathie chronique obstructive à la bronchite
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Triméthoprime : Des infections urinaires à la kératoconjonctivite ponctuée épithéliale
+## Triméthoprime : Des infections urinaires à la kératoconjonctivite ponctuée épithéliale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

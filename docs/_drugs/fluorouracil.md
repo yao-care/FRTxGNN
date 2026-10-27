@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Fluorouracile : Des Carcinomes Cutanés et Digestifs au Rhabdomyosarcome
+## Fluorouracile : Des Carcinomes Cutanés et Digestifs au Rhabdomyosarcome
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

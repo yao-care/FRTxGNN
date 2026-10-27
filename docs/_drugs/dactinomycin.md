@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Dactinomycine : Des sarcomes pédiatriques et tumeurs germinales à la sclérose en plaques récurrente-rémittente
+## Dactinomycine : Des sarcomes pédiatriques et tumeurs germinales à la sclérose en plaques récurrente-rémittente
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

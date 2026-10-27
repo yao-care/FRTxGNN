@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Tétrabénazine : De la maladie de Huntington à la maladie rénale polykystique de type 3 (avec ou sans maladie polykystique du foie)
+## Tétrabénazine : De la maladie de Huntington à la maladie rénale polykystique de type 3 (avec ou sans maladie polykystique du foie)
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

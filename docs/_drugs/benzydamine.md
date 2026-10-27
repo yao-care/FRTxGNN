@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Benzydamine : De l'Indication Non Renseignée à l'Hyperplasie Bénigne de la Prostate
+## Benzydamine : De l'Indication Non Renseignée à l'Hyperplasie Bénigne de la Prostate
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

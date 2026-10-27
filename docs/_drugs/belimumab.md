@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Bélimumab : Du Lupus Érythémateux Systémique au Trouble de la Libération Plaquettaire Primaire
+## Bélimumab : Du Lupus Érythémateux Systémique au Trouble de la Libération Plaquettaire Primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

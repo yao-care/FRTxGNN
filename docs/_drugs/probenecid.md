@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-# Probénécide : De la goutte à l'hypouricémie rénale
+## Probénécide : De la goutte à l'hypouricémie rénale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

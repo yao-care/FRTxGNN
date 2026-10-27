@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Ambroxol : De la Pharyngite à la Maladie de la Cavité Nasale
+## Ambroxol : De la Pharyngite à la Maladie de la Cavité Nasale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

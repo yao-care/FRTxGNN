@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Romiplostim : Du Purpura Thrombopénique Auto-immun au Trouble de Libération Plaquettaire Primaire
+## Romiplostim : Du Purpura Thrombopénique Auto-immun au Trouble de Libération Plaquettaire Primaire
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

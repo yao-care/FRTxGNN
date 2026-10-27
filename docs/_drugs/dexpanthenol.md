@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Dexpanthénol : De la dermatite et des affections cutanées à l'exanthème
+## Dexpanthénol : De la dermatite et des affections cutanées à l'exanthème
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

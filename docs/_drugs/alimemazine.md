@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Alimémazine : De l'urticaire et des affections allergiques à l'urticaire allergique
+## Alimémazine : De l'urticaire et des affections allergiques à l'urticaire allergique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

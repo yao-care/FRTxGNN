@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Voxilaprevir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+## Voxilaprevir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

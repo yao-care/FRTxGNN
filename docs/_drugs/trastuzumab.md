@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Trastuzumab : Du Cancer du Sein HER2-Positif au Cancer du Sein à Récepteur de la Progestérone Positif
+## Trastuzumab : Du Cancer du Sein HER2-Positif au Cancer du Sein à Récepteur de la Progestérone Positif
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

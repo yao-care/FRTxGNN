@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Ramipril : De l'Hypertension Artérielle à l'Hypertension Pulmonaire Liée à une Maladie Pulmonaire et/ou à l'Hypoxie
+## Ramipril : De l'Hypertension Artérielle à l'Hypertension Pulmonaire Liée à une Maladie Pulmonaire et/ou à l'Hypoxie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

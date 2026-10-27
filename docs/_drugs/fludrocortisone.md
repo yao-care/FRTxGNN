@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-# Fludrocortisone : De l'insuffisance surrénalienne à la maladie oculaire (« eye disease »)
+## Fludrocortisone : De l'insuffisance surrénalienne à la maladie oculaire (« eye disease »)
+{: .text-alpha }
 
 > Remarque : l'indication originale n'est pas renseignée dans les données d'AMM compilées. La prédiction n°1 du modèle (lymphome cutané primitif à cellules T) ne repose sur aucune preuve. La prédiction retenue pour cette évaluation est donc la première disposant d'éléments documentaires, à savoir « eye disease » (rang 6). L'indication d'origine mentionnée dans le titre découle de la connaissance générale de la classe pharmacologique, et non des données d'AMM.
 

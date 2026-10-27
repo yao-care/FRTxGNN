@@ -33,7 +33,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-# Diclofénac : De la kératose actinique à l'arthrite juvénile idiopathique
+## Diclofénac : De la kératose actinique à l'arthrite juvénile idiopathique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

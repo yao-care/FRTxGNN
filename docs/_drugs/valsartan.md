@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-# Valsartan : De l'Hypertension à l'Hypertension Maligne avec Atteinte Rénale
+## Valsartan : De l'Hypertension à l'Hypertension Maligne avec Atteinte Rénale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

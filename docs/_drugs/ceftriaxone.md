@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Ceftriaxone : Des Infections Bactériennes à l'Otite Moyenne Infectieuse
+## Ceftriaxone : Des Infections Bactériennes à l'Otite Moyenne Infectieuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Métronidazole : Des infections anaérobies et protozoaires à la pneumocystose
+## Métronidazole : Des infections anaérobies et protozoaires à la pneumocystose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

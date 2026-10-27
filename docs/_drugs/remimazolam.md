@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-# Remimazolam : De la sédation procédurale à l'insomnie
+## Remimazolam : De la sédation procédurale à l'insomnie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

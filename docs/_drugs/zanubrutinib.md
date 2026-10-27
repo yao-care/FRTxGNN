@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-# Zanubrutinib : Du Lymphome à Cellules du Manteau à la Leucémie Myéloïde
+## Zanubrutinib : Du Lymphome à Cellules du Manteau à la Leucémie Myéloïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

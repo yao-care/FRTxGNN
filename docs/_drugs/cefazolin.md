@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-# Céfazoline : Des infections bactériennes (pneumonie, endocardite, cholangite) à l'otite moyenne infectieuse
+## Céfazoline : Des infections bactériennes (pneumonie, endocardite, cholangite) à l'otite moyenne infectieuse
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

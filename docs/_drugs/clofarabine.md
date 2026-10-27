@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Clofarabine : De la leucémie lymphoblastique aiguë à la leucémie myéloïde
+## Clofarabine : De la leucémie lymphoblastique aiguë à la leucémie myéloïde
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

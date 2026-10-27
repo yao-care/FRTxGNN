@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Ethosuximide : De l'épilepsie-absence au syndrome néphrogénique d'antidiurèse inappropriée
+## Ethosuximide : De l'épilepsie-absence au syndrome néphrogénique d'antidiurèse inappropriée
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

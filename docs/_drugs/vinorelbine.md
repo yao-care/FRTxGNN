@@ -33,7 +33,8 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-# Vinorélbine : Du Cancer bronchique non à petites cellules au Sarcome d'Ewing
+## Vinorélbine : Du Cancer bronchique non à petites cellules au Sarcome d'Ewing
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

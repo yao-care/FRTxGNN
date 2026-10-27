@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-# Pravastatine : De l'hypertriglycéridémie et de l'athérosclérose à l'hypercholestérolémie familiale homozygote
+## Pravastatine : De l'hypertriglycéridémie et de l'athérosclérose à l'hypercholestérolémie familiale homozygote
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

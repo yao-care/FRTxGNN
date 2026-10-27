@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Finastéride : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Congénitale de type Ambras
+## Finastéride : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Congénitale de type Ambras
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

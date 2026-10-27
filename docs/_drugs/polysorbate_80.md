@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Polysorbate 80 : Du Syndrome de l'Œil Sec à l'Érythrodermie Ichtyosiforme Congénitale
+## Polysorbate 80 : Du Syndrome de l'Œil Sec à l'Érythrodermie Ichtyosiforme Congénitale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

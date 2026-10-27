@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Hémine : De la porphyrie aiguë intermittente à la purpura thrombopénique
+## Hémine : De la porphyrie aiguë intermittente à la purpura thrombopénique
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

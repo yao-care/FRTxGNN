@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Ravulizumab : De l'Hémoglobinurie Paroxystique Nocturne à la Neutropénie Congénitale Sévère par Déficit en G6PC3
+## Ravulizumab : De l'Hémoglobinurie Paroxystique Nocturne à la Neutropénie Congénitale Sévère par Déficit en G6PC3
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

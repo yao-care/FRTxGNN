@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-# Norfloxacine : D'une antibiothérapie anti-infectieuse à l'Hyperamylasémie
+## Norfloxacine : D'une antibiothérapie anti-infectieuse à l'Hyperamylasémie
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

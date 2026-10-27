@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-# Prétomanide : De l'indication d'origine non précisée à la candidose
+## Prétomanide : De l'indication d'origine non précisée à la candidose
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

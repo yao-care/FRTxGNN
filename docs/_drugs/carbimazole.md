@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-# Carbimazole : De l'Hyperthyroïdie à la Thyrotoxicose Néonatale
+## Carbimazole : De l'Hyperthyroïdie à la Thyrotoxicose Néonatale
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

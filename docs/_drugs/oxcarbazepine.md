@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Oxcarbazépine : De l'épilepsie partielle à l'épilepsie visuelle
+## Oxcarbazépine : De l'épilepsie partielle à l'épilepsie visuelle
+{: .text-alpha }
 
 ## Resume en Une Phrase
 

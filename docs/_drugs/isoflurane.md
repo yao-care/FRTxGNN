@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-# Isoflurane : De l'anesthésie générale à l'angor de Prinzmetal
+## Isoflurane : De l'anesthésie générale à l'angor de Prinzmetal
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

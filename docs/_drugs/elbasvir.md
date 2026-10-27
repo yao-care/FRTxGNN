@@ -33,7 +33,8 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-# Elbasvir : De l'hépatite C chronique à l'hépatite B
+## Elbasvir : De l'hépatite C chronique à l'hépatite B
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

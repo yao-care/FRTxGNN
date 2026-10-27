@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-# Paroxétine : De la dépression et des troubles anxieux au syndrome d'Ohdo et ses variants
+## Paroxétine : De la dépression et des troubles anxieux au syndrome d'Ohdo et ses variants
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-# Propranolol : De l'hypertension artérielle à la myopathie distale de type Tateyama
+## Propranolol : De l'hypertension artérielle à la myopathie distale de type Tateyama
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

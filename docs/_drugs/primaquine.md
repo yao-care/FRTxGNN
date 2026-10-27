@@ -33,7 +33,8 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-# Primaquine : Du paludisme à *Plasmodium vivax* à la myiase
+## Primaquine : Du paludisme à *Plasmodium vivax* à la myiase
+{: .text-alpha }
 
 ## Résumé en Une Phrase
 

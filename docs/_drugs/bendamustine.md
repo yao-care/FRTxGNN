@@ -33,7 +33,8 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-# Bendamustine : Du Lymphome Folliculaire au Lymphome du Manteau
+## Bendamustine : Du Lymphome Folliculaire au Lymphome du Manteau
+{: .text-alpha }
 
 ## Resume en Une Phrase
 
