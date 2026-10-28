@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "pentostatin"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma"]
 description: "Pentostatin : nouvelle indication prédite, Rhabdomyosarcome embryonnaire de type botryoïde du vagin (botryoid-type embryonal rhabdomyosarcoma of the vagina) (niveau de preuve L5). Indication d'origin…"
@@ -61,11 +61,11 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 Aucune donnée ne relie l'inhibition de l'ADA à la biologie du rhabdomyosarcome, un sarcome solide, principalement pédiatrique. Le score élevé (0.9954) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (d'autres sous-types de rhabdomyosarcome), et non une preuve biologique. La similarité avec l'indication originale n'a pas été évaluée.
 
 Les autres prédictions du modèle vont dans le même sens (score ≈ 0,9942–0,995, sans aucune preuve) :
-- rhabdomyosarcome embryonnaire paraméningé (99,52 %) ;
-- rhabdomyosarcome, terme général (99,51 %) ;
-- rhabdomyosarcome embryonnaire des voies biliaires extrahépatiques (99,51 %) et rhabdomyosarcome des voies biliaires extrahépatiques (99,50 %) ;
-- rhabdomyosarcome embryonnaire de la prostate (99,50 %) ;
-- sarcome du foie (99,42 %).
+- rhabdomyosarcome embryonnaire paraméningé (0.9952) ;
+- rhabdomyosarcome, terme général (0.9951) ;
+- rhabdomyosarcome embryonnaire des voies biliaires extrahépatiques (0.9951) et rhabdomyosarcome des voies biliaires extrahépatiques (0.9951) ;
+- rhabdomyosarcome embryonnaire de la prostate (0.9951) ;
+- sarcome du foie (0.9942).
 
 Ces entrées se recoupent largement et n'apportent pas de preuve indépendante.
 

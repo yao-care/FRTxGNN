@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'urticaire et l'angio-œdème figurent déjà parmi les indications d'origine de ce médicament.
 
-Les autres prédictions du modèle vont dans le même sens. La « maladie de la cavité nasale » (99,36 %) et la « laryngopharyngite aiguë » (99,34 %) reprennent des usages déjà connus. L'« urticaire au froid » (99,26 %) est plausible par effet de classe, mais les antihistaminiques de seconde génération non sédatifs, souvent à doses plus élevées, sont préférés par les recommandations en raison de leur meilleure tolérance.
+Les autres prédictions du modèle vont dans le même sens.
 
 ---
 

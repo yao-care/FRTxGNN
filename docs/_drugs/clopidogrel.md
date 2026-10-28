@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Clopidogrel : nouvelle indication prédite, Migraine (rang 1 : migraine avec aura du tronc cérébral, 99,44 % (niveau de preuve L5). Indication d'origine : Syndrome coronarien aigu (autres : infarctus …"
+last_modified_at: 2026-10-28
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
+description: "Clopidogrel : nouvelle indication prédite, Migraine with brainstem aura (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clopidogrel
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Clopidogrel : De l'Syndrome Coronarien Aigu à la migraine avec aura du tronc cérébral
+## Clopidogrel: Migraine with brainstem aura
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,9 +48,9 @@ Ce rapport retient la **migraine** (« migraine disorder », rang 2 de TxGNN) co
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome coronarien aigu (autres : infarctus du myocarde avec sus-décalage de ST, embolie intracrânienne) |
-| Nouvelle Indication Prédite | Migraine (rang 1 : migraine avec aura du tronc cérébral, 99,44 % ; rang 2 : migraine, 99,44 %) |
-| Score de Prédiction TxGNN | 0,9944 (migraine ; 0,9944 pour la migraine avec aura du tronc cérébral) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Migraine with brainstem aura |
+| Score de Prédiction TxGNN | 0.9944 |
 | Niveau de Preuve | L5 (migraine) ; L3 (migraine avec aura du tronc cérébral) |
 | Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
 | Nombre d'AMM | 5 (valides : 5) |

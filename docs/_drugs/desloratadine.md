@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -115,7 +115,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 - Compléter les données sur le mécanisme d'action via DrugBank
 - Définir un plan de sécurité pour l'escalade de dose (jusqu'à 4 fois la dose standard) et pour les populations à risque (insuffisance rénale ou hépatique, maladies cardiovasculaires)
 
-**Autres indications prédites (preuves insuffisantes, décision : Hold)** : maladie de la cavité nasale (99,87 %), laryngopharyngite aiguë (99,85 %), dermatite atopique récalcitrante (99,75 %), réactivité IgE atopique (99,64 %) et conjonctivite de la rosacée (99,40 %). Elles reposent uniquement sur la prédiction du modèle (L5), sans essai clinique et avec une littérature préclinique non spécifique à la desloratadine, ou sans aucune littérature.
+Elles reposent uniquement sur la prédiction du modèle (L5), sans essai clinique et avec une littérature préclinique non spécifique à la desloratadine, ou sans aucune littérature.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

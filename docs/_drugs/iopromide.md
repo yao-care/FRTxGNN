@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOPROMIDE"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-10-23
-description: "Iopromide : nouvelle indication prédite, Arthrose (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM compilées (texte d'indication vid…"
+last_modified_at: 2026-10-28
+description: "Iopromide : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Iopromide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Iopromide : D'un produit de contraste iodé à l'arthrose (prédiction non étayée)
+## Iopromide: Arthrose (osteoarthritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,9 +46,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données d'AMM compilées (texte d'indication vide) |
-| Nouvelle Indication Prédite | Arthrose |
-| Score de Prédiction TxGNN | 0,9953 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Arthrose (osteoarthritis) |
+| Score de Prédiction TxGNN | 0.9953 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le score élevé du modèle TxGNN (deep learning) (0,9953) provient du modèle et peut refléter des similarités apprises par le modèle entre maladies apparentées (maladies articulaires ou squelettiques), et non une justification biologique. L'usage du produit en arthrographie est un acte diagnostique, pas un effet thérapeutique.
 
-Il n'est donc pas possible, en l'état, d'établir un lien mécanistique entre l'usage d'origine et l'arthrose. Les autres prédictions du modèle présentent la même limite : polyarthrite rhumatoïde (99,37 %), brachyolmie (99,19 %), dysplasie acromésomélique de type Hunter-Thompson (99,14 %), syndrome brachyolmie-amélogenèse imparfaite (99,12 %), alopécie (99,11 %), myosclérose (99,09 %), hémoglobinopathie (99,08 %) et pseudoachondroplasie (99,06 %). Aucune n'a de mécanisme plausible ni de preuve clinique ou bibliographique.
+Il n'est donc pas possible, en l'état, d'établir un lien mécanistique entre l'usage d'origine et l'arthrose. Les autres prédictions du modèle présentent la même limite : polyarthrite rhumatoïde (0.9937), brachyolmie (0.9919), dysplasie acromésomélique de type Hunter-Thompson (0.9914), syndrome brachyolmie-amélogenèse imparfaite (0.9912), alopécie (0.9911), myosclérose (0.9909), hémoglobinopathie (0.9908) et pseudoachondroplasie (0.9906). Aucune n'a de mécanisme plausible ni de preuve clinique ou bibliographique.
 
 ## Preuves d'Essais Cliniques
 

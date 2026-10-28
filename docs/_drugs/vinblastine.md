@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 813
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcoma (disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -107,7 +107,7 @@ Pour les sous-types predits suivants, la litterature est tres limitee : le rhabd
 **Decision : Hold**
 
 **Justification :**
-- La prediction est tres bien classee par le modele (99.86%), mais les preuves restent de niveau L4 : aucun essai enregistre, uniquement des cas cliniques anciens ou recents en association, et des etudes precliniques.
+- La prediction est tres bien classee par le modele (0.9986), mais les preuves restent de niveau L4 : aucun essai enregistre, uniquement des cas cliniques anciens ou recents en association, et des etudes precliniques.
 - La seule AMM francaise est annulee, et les donnees de securite de la notice sont absentes, ce qui bloque le passage a un criblage de securite.
 
 **Pour avancer, les elements suivants sont necessaires :**

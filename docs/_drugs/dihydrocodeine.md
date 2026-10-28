@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
 description: "Dihydrocodeine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien est toutefois **faible et indirect**. Aucune donnée mécanistique ne permet d'expliquer en quoi un opioïde agirait sur une pathologie nasale. Le score élevé du modèle (0,9999) correspond vraisemblablement à la proximité avec les indications existantes, plutôt qu'à un véritable signal de repositionnement.
 
-Les autres prédictions du modèle sont du même ordre : laryngopharyngite aiguë (99,99 %, probablement un chevauchement avec les indications existantes), urticaire allergique, conjonctivite papillaire, diphtérie fauciale, discopathie cervicale dégénérative, céphalées (seule piste avec deux publications indirectes), urticaire au froid et céphalalgie trigémino-autonomique. Aucune ne dispose d'essai clinique. Pour les urticaires, la libération d'histamine induite par les opioïdes pourrait même aggraver la maladie.
+Les autres prédictions du modèle sont du même ordre : laryngopharyngite aiguë (0.9999, probablement un chevauchement avec les indications existantes), urticaire allergique, conjonctivite papillaire, diphtérie fauciale, discopathie cervicale dégénérative, céphalées (seule piste avec deux publications indirectes), urticaire au froid et céphalalgie trigémino-autonomique. Aucune ne dispose d'essai clinique. Pour les urticaires, la libération d'histamine induite par les opioïdes pourrait même aggraver la maladie.
 
 ---
 

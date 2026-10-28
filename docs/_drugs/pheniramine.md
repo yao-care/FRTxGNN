@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -58,7 +58,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'urticaire et l'angioedème figurent déjà parmi les indications d'origine du médicament. L'urticaire allergique est donc mécanistiquement cohérente avec le blocage H1 connu. Le score TxGNN élevé reflète surtout ce chevauchement avec des indications existantes, et non un véritable signal de repositionnement.
 
-Deux autres prédictions vont dans le même sens : « maladie de la cavité nasale » (99,28 %), catégorie très large qui recouvre les rhinites déjà connues, et « laryngopharyngite aiguë » (99,25 %), plausible pour un soulagement symptomatique (rhinorrhée, écoulement postérieur). Ces deux prédictions ne reposent sur aucun essai ni publication.
+Ces deux prédictions ne reposent sur aucun essai ni publication.
 
 ## Preuves d'Essais Cliniques
 

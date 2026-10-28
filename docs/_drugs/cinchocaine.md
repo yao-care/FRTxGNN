@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
 description: "Cinchocaine : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -61,7 +61,7 @@ Un lien théorique avec la bronchite serait la suppression de l'activité des fi
 
 Il faut également noter que l'usage systémique ou inhalé de la cinchocaïne pose un problème de sécurité, sa toxicité étant élevée par rapport à d'autres anesthésiques locaux. Le score élevé du modèle reflète une association computationnelle et ne constitue pas une preuve d'efficacité.
 
-D'autres indications prédites présentent le même niveau de preuve (L5, sans essai ni publication) : acrodermatite chronique atrophiante (99,76 %), dermatomyosite néonatale (99,72 %), pneumopathie interstitielle secondaire de l'enfant associée à une connectivite (99,72 %), acné chéloïdienne (99,67 %), hydroa vacciniforme familial (99,66 %) et dermatomyosite amyopathique (99,65 %). Pour la plupart, seul un soulagement symptomatique local serait concevable, sans mécanisme modifiant la maladie.
+D'autres indications prédites présentent le même niveau de preuve (L5, sans essai ni publication) : acrodermatite chronique atrophiante (0.9976), dermatomyosite néonatale (0.9972), pneumopathie interstitielle secondaire de l'enfant associée à une connectivite (0.9972), acné chéloïdienne (0.9967), hydroa vacciniforme familial (0.9966) et dermatomyosite amyopathique (0.9965). Pour la plupart, seul un soulagement symptomatique local serait concevable, sans mécanisme modifiant la maladie.
 
 ## Preuves d'Essais Cliniques
 

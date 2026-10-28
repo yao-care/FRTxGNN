@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 288
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Epirubicin : nouvelle indication prédite, Lymphome pulmonaire primitif (niveau de preuve L4). Indication d'origine : Carcinome du sein / néoplasme du sein (les textes d'indication des AM…"
+last_modified_at: 2026-10-28
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
+description: "Epirubicin : nouvelle indication prédite, Lymphome pulmonaire primitif (primary pulmonary lymphoma) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Epirubicin
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-## Épirubicine : Du Cancer du Sein au Lymphome Pulmonaire Primitif
+## Epirubicin: Lymphome pulmonaire primitif (primary pulmonary lymphoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,9 +47,9 @@ Parmi les autres indications prédites, deux disposent de preuves plus solides :
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome du sein / néoplasme du sein (les textes d'indication des AMM ne sont pas renseignés) |
-| Nouvelle Indication Prédite | Lymphome pulmonaire primitif |
-| Score de Prédiction TxGNN | 0,9971 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Lymphome pulmonaire primitif (primary pulmonary lymphoma) |
+| Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
@@ -121,7 +121,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Pour le lymphome pulmonaire primitif, la prédiction (99,71 %) n'est étayée par aucun essai clinique ni par aucune donnée spécifique à l'épirubicine (niveau L4). Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes.
+- Pour le lymphome pulmonaire primitif, la prédiction (0.9971) n'est étayée par aucun essai clinique ni par aucune donnée spécifique à l'épirubicine (niveau L4). Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes.
 - Pour information, deux autres indications prédites ont un niveau de preuve plus élevé (L1, statut « question de recherche ») : le carcinome pulmonaire à petites cellules et les néoplasmes des voies aérodigestives supérieures (essentiellement gastro-œsophagiens, via le schéma ECF de l'essai MAGIC). Elles reflètent surtout le rôle d'un schéma établi, aujourd'hui en partie supplanté (platine/étoposide avec immunothérapie, FLOT), plutôt qu'une réelle opportunité de repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "rutin"
 predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "vulvovaginal candidiasis", "breast abscess", "fat necrosis of breast", "vaginitis (disease)"]
 description: "Rutin : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Mécanistiquement, ces propriétés pourraient avoir un lien avec l'inflammation bénigne du tissu mammaire, mais aucune donnée directe ne vient étayer cette hypothèse. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
-Les autres prédictions du modèle vont dans le même sens : adénose apocrine du sein (99,64 %), adénose à canaux émoussés (99,64 %) et dysplasie mammaire bénigne (99,42 %). Elles concernent toutes des lésions mammaires bénignes et sont probablement redondantes entre elles. D'autres prédictions (candidose vulvovaginale, abcès du sein, cytostéatonécrose du sein, vaginite) ne disposent d'aucun appui mécanistique plausible dans les données fournies.
+Les autres prédictions du modèle vont dans le même sens : adénose apocrine du sein (0.9964), adénose à canaux émoussés (0.9964) et dysplasie mammaire bénigne (0.9942). Elles concernent toutes des lésions mammaires bénignes et sont probablement redondantes entre elles. D'autres prédictions (candidose vulvovaginale, abcès du sein, cytostéatonécrose du sein, vaginite) ne disposent d'aucun appui mécanistique plausible dans les données fournies.
 
 ## Preuves d'Essais Cliniques
 

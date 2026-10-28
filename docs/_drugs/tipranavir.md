@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 766
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Tipranavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
@@ -62,9 +62,8 @@ Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la protéas
 Le score élevé reflète probablement la proximité dans le réseau avec les indications VIH, plutôt qu'une preuve indépendante. Il s'agit en outre d'une indication vétérinaire, ce qui limite sa pertinence pour le repositionnement chez l'humain.
 
 Autres prédictions du modèle, toutes de niveau L5 et en statut Hold :
-- **Infection par le virus de l'immunodéficience simienne** (99,99 %) : protéase très homologue à celle du VIH-1, plausible, mais modèle animal et sans données.
-- **Complexe lié au SIDA** et **VIH congénital** (99,83 %) : reformulations de l'indication existante, sans véritable repositionnement.
-- **Hyperlipidémie combinée familiale (terme obsolète)** (99,93 %) : les inhibiteurs de protéase du VIH provoquent des dyslipidémies ; le tipranavir risquerait d'aggraver cette maladie. Prédiction probablement erronée et potentiellement nocive.
+- **Infection par le virus de l'immunodéficience simienne** (0.9999) : protéase très homologue à celle du VIH-1, plausible, mais modèle animal et sans données.
+- **Hyperlipidémie combinée familiale (terme obsolète)** (0.9993) : les inhibiteurs de protéase du VIH provoquent des dyslipidémies ; le tipranavir risquerait d'aggraver cette maladie. Prédiction probablement erronée et potentiellement nocive.
 
 ## Preuves d'Essais Cliniques
 

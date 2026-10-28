@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 541
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "NITRENDIPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 description: "Nitrendipine : nouvelle indication prédite, Migraine disorder (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -53,7 +53,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertension p
 | Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
-Remarque : les deux premières prédictions du modèle (migraine, score 0,9942 ; migraine avec aura du tronc cérébral, 0,9929) n'ont aucune preuve spécifique à la nitrendipine (niveau L5). L'hypertension pulmonaire (L3) et l'angor de Prinzmetal (99,10 %, L3) sont les mieux étayées.
+Remarque : les deux premières prédictions du modèle (migraine, score 0,9942 ; migraine avec aura du tronc cérébral, 0,9929) n'ont aucune preuve spécifique à la nitrendipine (niveau L5).
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "eftrenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
 description: "Eftrenonacog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -65,7 +65,7 @@ Le lien avec la nouvelle indication est faible. La pseudo-maladie de von Willebr
 
 Le score élevé du modèle (0,9948) reflète probablement une proximité dans le réseau des maladies hémorragiques, plutôt qu'une justification mécanistique. Cette prédiction doit donc être considérée avec une grande prudence.
 
-Deux autres prédictions du modèle présentent la même limite : le trouble primaire de la libération plaquettaire (99,42 %) et la thrombasthénie de Glanzmann (99,28 %). Dans les deux cas, le défaut est plaquettaire et se situe en dehors de la voie du facteur IX. Aucun essai ni publication ne les soutient.
+Deux autres prédictions du modèle présentent la même limite : le trouble primaire de la libération plaquettaire (0.9942) et la thrombasthénie de Glanzmann (0.9928). Dans les deux cas, le défaut est plaquettaire et se situe en dehors de la voie du facteur IX. Aucun essai ni publication ne les soutient.
 
 ---
 

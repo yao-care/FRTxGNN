@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Fosinopril : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
@@ -61,9 +61,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 Le lien biologique est plausible et très proche de l'indication d'origine. Toutefois, la maladie rénale hypertensive maligne recoupe largement l'hypertension déjà traitée : il s'agit probablement d'un sous-type de l'usage existant plutôt que d'une véritable opportunité de repositionnement.
 
 Les autres prédictions du modèle sont plus fragiles :
-- **Hypertension rénovasculaire maligne** (99,87 %) : plausible sur le plan mécanistique, mais à manier avec prudence en cas de sténose bilatérale des artères rénales, où les IEC peuvent provoquer une insuffisance rénale aiguë.
-- **Hypertension pulmonaire** (formes multifactorielle et liée à une maladie pulmonaire/hypoxie, 99,87 %) : rationnel hypothétique seulement, les IEC n'étant pas un traitement établi de cette maladie.
-- **Syndrome de Braddock** (99,81 %) : aucun lien mécanistique identifiable.
+- **Hypertension rénovasculaire maligne** (0.9987) : plausible sur le plan mécanistique, mais à manier avec prudence en cas de sténose bilatérale des artères rénales, où les IEC peuvent provoquer une insuffisance rénale aiguë.
+- **Hypertension pulmonaire** (formes multifactorielle et liée à une maladie pulmonaire/hypoxie, 0.9987) : rationnel hypothétique seulement, les IEC n'étant pas un traitement établi de cette maladie.
+- **Syndrome de Braddock** (0.9981) : aucun lien mécanistique identifiable.
 
 ## Preuves d'Essais Cliniques
 

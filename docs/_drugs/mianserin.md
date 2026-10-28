@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -65,10 +65,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 Le torticolis paroxystique bénin du nourrisson est un trouble pédiatrique de type canalopathie (souvent lié au gène CACNA1A), apparenté au spectre des migraines. Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente. De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nourrisson.
 
 Il faut donc considérer cette prédiction comme une hypothèse issue du modèle TxGNN (deep learning), dont le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. D'autres prédictions du même modèle sont nettement plus plausibles, car proches de l'indication d'origine :
-- **Mélancolie** (99,17 %, L4) et **dépression névrotique** (99,16 %, L4) : quasiment des indications d'origine, avec des revues propres à la mianserine et des méta-analyses sur les antidépresseurs.
-- **Trouble névrotique** (99,02 %, L3) : études comparatives propres à la mianserine (vs imipramine, vs clomipramine), mais anciennes et de petite taille.
-- **Agoraphobie** (99,40 %, L4) : une seule publication, portant sur les IMAO-A réversibles, donc très indirecte.
-- **Syndrome d'Ohdo et variants** (99,23 %, L5) : aucun lien mécanistique visible.
+- **Trouble névrotique** (0.9902, L3) : études comparatives propres à la mianserine (vs imipramine, vs clomipramine), mais anciennes et de petite taille.
+- **Agoraphobie** (0.9940, L4) : une seule publication, portant sur les IMAO-A réversibles, donc très indirecte.
+- **Syndrome d'Ohdo et variants** (0.9923, L5) : aucun lien mécanistique visible.
 
 ---
 

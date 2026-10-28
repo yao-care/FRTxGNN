@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -66,7 +66,7 @@ Le syndrome de brachydactylie-syndactylie est une malformation congénitale rare
 
 Le score élevé du modèle (0,9935) est donc une prédiction purement computationnelle. En l'état, aucun lien mécanistique n'est soutenu par les données disponibles.
 
-D'autres candidats prédits présentent le même profil (niveau L5, sans essai ni publication) : le syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (99,22 %), la dysplasie acromésomélique de type Hunter-Thompson (99,17 %) et le syndrome de brachyolmie-amélogenèse imparfaite (99,06 %).
+D'autres candidats prédits présentent le même profil (niveau L5, sans essai ni publication) : le syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (0.9922), la dysplasie acromésomélique de type Hunter-Thompson (0.9917) et le syndrome de brachyolmie-amélogenèse imparfaite (0.9906).
 
 ---
 

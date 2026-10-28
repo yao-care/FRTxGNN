@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée…"
@@ -63,12 +63,12 @@ Dans le cas présent, **aucun lien mécanistique n'est établi**. La dysplasie a
 Au mieux, l'ibuprofène pourrait apporter un soulagement symptomatique de la douleur, ce qui ne constitue pas une modification de la maladie.
 
 Autres candidats prédits (tous de niveau L5, sans essai ni publication, décision Hold) :
-- Syndrome brachyolmie-amélogenèse imparfaite (99,71 %)
-- Myosclérose (99,68 %)
-- Brachyolmie (99,67 %)
-- Syndrome brachydactylie-syndactylie (99,66 %), pour lequel l'exposition prénatale aux AMNS est plutôt un problème de sécurité
-- Pseudoachondroplasie (99,66 %), le candidat avec la justification symptomatique la plus plausible (douleurs articulaires précoces et arthrose), sans preuve directe
-- Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (99,60 %)
+- Syndrome brachyolmie-amélogenèse imparfaite (0.9971)
+- Myosclérose (0.9968)
+- Brachyolmie (0.9967)
+- Syndrome brachydactylie-syndactylie (0.9966), pour lequel l'exposition prénatale aux AMNS est plutôt un problème de sécurité
+- Pseudoachondroplasie (0.9966), le candidat avec la justification symptomatique la plus plausible (douleurs articulaires précoces et arthrose), sans preuve directe
+- Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (0.9960)
 
 ## Preuves d'Essais Cliniques
 

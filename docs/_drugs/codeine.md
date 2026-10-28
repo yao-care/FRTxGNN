@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 description: "Codeine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -107,9 +107,9 @@ Veuillez consulter la notice pour les mises en garde officielles.
 ### Note sur les autres prédictions du modèle
 
 Les trois autres prédictions n'appuient pas non plus un repositionnement :
-- **Laryngopharyngite aiguë** (99,92 %, L5) : aucun essai ni publication ; elle recoupe l'indication d'origine de pharyngite. Hold.
-- **Céphalée autonomique trigéminale** (99,43 %, L4) : les deux publications ne montrent aucun bénéfice de la codéine. Les opioïdes sont généralement déconseillés dans ces céphalées (efficacité limitée, céphalée par abus médicamenteux, dépendance). Hold.
-- **Urticaire allergique** (99,37 %, L4) : la littérature montre que la codéine **provoque** l'urticaire en libérant l'histamine des mastocytes, et sert de témoin positif dans les tests cutanés. Son usage dans cette indication est mécanistiquement contre-indiqué. Hold.
+- Hold.
+- **Céphalée autonomique trigéminale** (0.9943, L4) : les deux publications ne montrent aucun bénéfice de la codéine. Les opioïdes sont généralement déconseillés dans ces céphalées (efficacité limitée, céphalée par abus médicamenteux, dépendance). Hold.
+- **Urticaire allergique** (0.9937, L4) : la littérature montre que la codéine **provoque** l'urticaire en libérant l'histamine des mastocytes, et sert de témoin positif dans les tests cutanés. Son usage dans cette indication est mécanistiquement contre-indiqué. Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

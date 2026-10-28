@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib : nouvelle indication prédite, Hyperthyroidism (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -120,9 +120,9 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Étude exploratoire de phase 2 dans la polyarthrite rhumatoïde, avec évaluation du rapport bénéfice/risque (myélosuppression, thromboembolie)
 
 **Autres prédictions examinées :**
-- Hyperthyroïdie (rang 1, 99,44 %) : aucun essai ni publication, aucun lien mécanistique appuyé par les données ; niveau L5, Hold.
-- Maladie thrombotique (rang 3, 99,32 %) : la littérature indique plutôt un signal de risque thromboembolique ; l'effet pourrait être opposé à un bénéfice thérapeutique ; niveau L4, Hold.
-- Résistance aux hormones thyroïdiennes par mutation du récepteur bêta (rang 4, 99,30 %) : aucun essai ni publication ; niveau L5, Hold.
+- Hyperthyroïdie (rang 1, 0.9944) : aucun essai ni publication, aucun lien mécanistique appuyé par les données ; niveau L5, Hold.
+- Maladie thrombotique (rang 3, 0.9932) : la littérature indique plutôt un signal de risque thromboembolique ; l'effet pourrait être opposé à un bénéfice thérapeutique ; niveau L4, Hold.
+- Résistance aux hormones thyroïdiennes par mutation du récepteur bêta (rang 4, 0.9930) : aucun essai ni publication ; niveau L5, Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

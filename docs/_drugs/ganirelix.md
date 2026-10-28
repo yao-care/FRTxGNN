@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
-description: "Ganirelix : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ganirelix : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée da…"
 ---
 
 # Ganirelix
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ganirelix: Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease))
+## Ganirelix: Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,7 +46,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertrichos
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) |
+| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (hypertrichosis (disease)) |
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
@@ -61,8 +61,8 @@ Le lien avec l'hypertrichose reste **spéculatif**. Une baisse des androgènes p
 
 Les autres prédictions du top 10 sont aussi sans soutien clinique (toutes en L5). Trois méritent d'être notées comme questions de recherche, car mécanistiquement plus cohérentes :
 - **Puberté précoce centrale** (score 0,9975) : la modulation du récepteur GnRH est le principe thérapeutique établi, mais la formulation à courte durée d'action n'est pas adaptée à une suppression chronique.
-- **Puberté précoce familiale limitée au sexe masculin** (99,85 %) : la maladie est périphérique (mutation activatrice du récepteur LH), le ganirelix n'agirait que sur une éventuelle composante centrale secondaire.
-- **Syndrome d'excès d'aromatase** (99,80 %) : suppression hormonale adjuvante plausible, mais les inhibiteurs de l'aromatase sont l'approche directe.
+- **Puberté précoce familiale limitée au sexe masculin** (0.9985) : la maladie est périphérique (mutation activatrice du récepteur LH), le ganirelix n'agirait que sur une éventuelle composante centrale secondaire.
+- **Syndrome d'excès d'aromatase** (0.9980) : suppression hormonale adjuvante plausible, mais les inhibiteurs de l'aromatase sont l'approche directe.
 
 Les autres prédictions (syndrome d'Ambras, malformation de Dandy-Walker, anomalies de la tige pilaire, trichomégalie familiale, circulation fœtale persistante, etc.) n'ont pas de plausibilité mécanistique identifiée.
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 824
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (heparin cofactor 2 deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -62,8 +62,8 @@ Le déficit en cofacteur II de l'héparine est une thrombophilie héréditaire q
 Il faut toutefois rester prudent : les preuves se limitent à trois rapports de cas ou de famille (1990-2001), sans données comparatives. Il s'agit davantage d'un usage déjà existant en pratique pour la thrombose que d'un véritable repositionnement.
 
 Autres prédictions du modèle, à titre indicatif :
-- **Excès de facteur V avec thrombose spontanée** (99,84 %) et **déficit en antithrombine de type 2** (99,84 %) : plausibles mécanistiquement, mais soutenus par très peu de données (aucune publication, ou un seul rapport de cas).
-- **Thrombophilie** (99,75 %) : seule prédiction avec un essai de phase 3, mais il évalue une stratégie de durée guidée par les D-dimères, pas la warfarine spécifiquement.
+- **Excès de facteur V avec thrombose spontanée** (0.9984) et **déficit en antithrombine de type 2** (0.9984) : plausibles mécanistiquement, mais soutenus par très peu de données (aucune publication, ou un seul rapport de cas).
+- **Thrombophilie** (0.9975) : seule prédiction avec un essai de phase 3, mais il évalue une stratégie de durée guidée par les D-dimères, pas la warfarine spécifiquement.
 - **Polyarthrite rhumatoïde, maladie fibrokystique du sein, dysplasie mammaire bénigne** : aucun lien mécanistique plausible. Les essais liés à la polyarthrite sont des études d'interaction où la warfarine sert de substrat sonde ; ces scores élevés viennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies proches, non une preuve biologique.
 
 ## Preuves d'Essais Cliniques

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "lenograstim"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]
 description: "Lenograstim : nouvelle indication prédite, Trouble de libération plaquettaire primaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -64,9 +64,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 **La prédiction ne repose sur aucun lien mécanistique clair.** Les troubles de libération plaquettaire sont des défauts qualitatifs de la fonction plaquettaire (sécrétion des granules, signalisation altérée). Le G-CSF n'a pas d'effet établi sur la libération des granules ou sur la fonction plaquettaire. Le score élevé (0,9991) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les trois autres prédictions de même nature ne sont pas mieux soutenues :
-- **Thrombasthénie de Glanzmann** (99,89 %) : déficit de l'intégrine αIIbβ3, sans lien connu avec le G-CSF.
-- **Pseudo-maladie de von Willebrand** (99,88 %) : mutation gain de fonction de la GPIbα, sans voie reliant le médicament à l'interaction GPIb-VWF.
-- **Rétinopathie diabétique non proliférante sévère** (99,61 %) : lien seulement spéculatif (mobilisation de cellules progénitrices endothéliales, neuroprotection), avec un risque théorique de mobilisation de cellules pro-angiogéniques. Des traitements standards bien établis existent déjà.
+- **Thrombasthénie de Glanzmann** (0.9989) : déficit de l'intégrine αIIbβ3, sans lien connu avec le G-CSF.
+- **Pseudo-maladie de von Willebrand** (0.9989) : mutation gain de fonction de la GPIbα, sans voie reliant le médicament à l'interaction GPIb-VWF.
+- **Rétinopathie diabétique non proliférante sévère** (0.9961) : lien seulement spéculatif (mobilisation de cellules progénitrices endothéliales, neuroprotection), avec un risque théorique de mobilisation de cellules pro-angiogéniques. Des traitements standards bien établis existent déjà.
 
 ---
 
