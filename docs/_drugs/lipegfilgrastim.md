@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Lipegfilgrastim : D'un facteur de croissance des neutrophiles à un trouble de libération plaquettaire (prédiction non étayée)
+## Lipegfilgrastim : D'un facteur de croissance des neutrophiles à un défaut primaire de sécrétion plaquettaire (prédiction non étayée)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble primair
 |------|------|
 | Indication Originale | Non disponible dans les données compilées (texte d'indication vide pour les deux AMM) |
 | Nouvelle Indication Prédite | Trouble primaire de la libération plaquettaire (primary release disorder of platelets) |
-| Score de Prédiction TxGNN | 99,93 % |
+| Score de Prédiction TxGNN | 0,9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,16 +59,16 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La relation avec la nouvelle indication est **peu plausible sur le plan mécanistique**. Les troubles de la libération plaquettaire sont des défauts qualitatifs de la fonction plaquettaire (granules de sécrétion), et non un déficit en neutrophiles. Aucun lien connu n'existe entre la voie du G-CSF et ce type de défaut.
 
-Le score élevé du modèle (99,93 %) provient uniquement d'une prédiction fondée sur un graphe de connaissances. Il ne doit pas être interprété comme une preuve d'efficacité, d'autant que l'absence de données sur le mécanisme d'action d'origine limite l'interprétation de cette prédiction.
+Le score élevé du modèle (0,9993) provient uniquement d'une prédiction du modèle TxGNN (apprentissage profond). Il ne doit pas être interprété comme une preuve d'efficacité, d'autant que l'absence de données sur le mécanisme d'action d'origine limite l'interprétation de cette prédiction.
 
 ### Autres indications prédites (pour information)
 
 | Rang | Maladie prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |------|------|------|------|------|
-| 2 | Rétinopathie diabétique non proliférative sévère | 99,91 % | L5 | Lien théorique via la mobilisation de progéniteurs endothéliaux ; risque théorique de néovascularisation pathologique, sens de l'effet incertain |
-| 3 | Pseudo-maladie de von Willebrand | 99,91 % | L5 | Défaut de GPIbα plaquettaire ; aucun mécanisme plausible |
-| 4 | Thrombasthénie de Glanzmann | 99,91 % | L5 | Déficit en intégrine αIIbβ3 ; non adressé par la voie du G-CSF |
-| 5 | Rétinopathie diabétique | 99,75 % | L5 | Lien spéculatif ; préoccupation de sécurité en cas de maladie proliférative |
+| 2 | Rétinopathie diabétique non proliférative sévère | 0,9991 | L5 | Lien théorique via la mobilisation de progéniteurs endothéliaux ; risque théorique de néovascularisation pathologique, sens de l'effet incertain |
+| 3 | Pseudo-maladie de von Willebrand | 0,9991 | L5 | Défaut de GPIbα plaquettaire ; aucun mécanisme plausible |
+| 4 | Thrombasthénie de Glanzmann | 0,9991 | L5 | Déficit en intégrine αIIbβ3 ; non adressé par la voie du G-CSF |
+| 5 | Rétinopathie diabétique | 0,9975 | L5 | Lien spéculatif ; préoccupation de sécurité en cas de maladie proliférative |
 
 ## Preuves d'Essais Cliniques
 
@@ -82,8 +82,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 66910592 | LONQUEX 6 mg/0,6 mL, solution injectable | Solution injectable | Non renseignée | Annulée |
-| 64198267 | LONQUEX 6 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée | Annulée |
+| 66910592 | LONQUEX 6 mg/0,6 mL, solution injectable | Solution injectable | Non renseignée | Active |
+| 64198267 | LONQUEX 6 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée | Active |
 
 ## Considérations de Sécurité
 

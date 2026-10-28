@@ -6,9 +6,9 @@ nav_order: 368
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Glycerin : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Constipation"
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
+description: "Glycerin : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Glycerin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Glycérine : De la constipation au syndrome de la queue de cheval
+## Glycerin: Syndrome de la queue de cheval (cauda equina syndrome)
 {: .text-alpha }
 
 ## Résumé en une phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de l
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Constipation (source : graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle indication prédite | Syndrome de la queue de cheval |
-| Score de prédiction TxGNN | 99,60 % |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
+| Score de prédiction TxGNN | 0.9960 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Pour le syndrome de la queue de cheval (atteinte compressive ou inflammatoire des racines nerveuses lombo-sacrées), aucun mécanisme plausible n'est établi pour la glycérine administrée par voie orale ou rectale. La glycérine a été utilisée historiquement comme agent neurolytique intrathécal (par exemple dans la névralgie du trijumeau), mais cela ne constitue pas un lien thérapeutique avec cette pathologie.
 
-Le score élevé du modèle reflète donc une association dans le graphe de connaissances et non une justification pharmacologique. Cette prédiction doit être considérée comme une hypothèse non étayée.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Cette prédiction doit être considérée comme une hypothèse non étayée.
 
 ## Preuves d'essais cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée n'est disponible actuellement.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 61749306 | GLYCERINUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH (BOIRON) | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM annulée) |
+| 61749306 | GLYCERINUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH (BOIRON) | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM active) |
 
 ## Considérations de sécurité
 

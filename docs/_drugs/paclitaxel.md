@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Paclitaxel
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 570
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Paclitaxel : nouvelle indication prédite, Carcinome du sein féminin (niveau de preuve L1). Indication d'origine : Cancer de l'ovaire"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel : nouvelle indication prédite, Parameningeal embryonal rhabdomyosarcoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Paclitaxel : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le paclitaxel est un agent cytotoxique de la famille des taxanes, initialement utilisé pour le traitement du cancer de l'ovaire.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du sein féminin**, avec **41 essais cliniques** et **20 publications** recensés dans les données compilées pour cette indication. Il s'agit en pratique d'un usage déjà établi plutôt que d'un repositionnement au sens strict.
+Il s'agit en pratique d'un usage déjà établi plutôt que d'un repositionnement au sens strict.
 
 ---
 
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du se
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de l'ovaire (le texte d'indication des AMM françaises n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Carcinome du sein féminin |
-| Score de Prédiction TxGNN | 99,995 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 12 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Parameningeal embryonal rhabdomyosarcoma |
+| Score de Prédiction TxGNN | 0.9973 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -103,7 +103,7 @@ Parmi les 41 essais recensés, les plus pertinents sont listés ci-dessous (not�
 
 ## Informations de Marché en France
 
-Les 12 AMM recensées sont toutes **annulées** ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné dans les données.
+Le texte d'indication approuvée n'est pas renseigné dans les données.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -144,15 +144,8 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation |
 |------|------|------|------|
-| Cancer du sein ER-négatif | 99,91 % | L1 | Proceed with Guardrails |
-| Carcinome mammaire hormono-résistant | 99,91 % | L2 | Proceed with Guardrails |
-| Cancer du sein ER-positif | 99,91 % | L1 | Proceed with Guardrails |
-| Carcinome d'Ehrlich (modèle murin) | 99,91 % | L4 | Hold |
-| Carcinome mammaire bilatéral | 99,89 % | L4 | Hold |
-| Carcinome mammaire selon profil d'expression génique | 99,89 % | L3 | Research Question |
-| Carcinome du mamelon | 99,89 % | L4 | Hold |
-| Rhabdomyosarcome embryonnaire paraméningé | 99,73 % | L5 | Hold |
-| Rhabdomyosarcome embryonnaire botryoïde du vagin | 99,73 % | L5 | Hold |
+| Rhabdomyosarcome embryonnaire paraméningé | 0,9973 | L5 | Hold |
+| Rhabdomyosarcome embryonnaire botryoïde du vagin | 0,9973 | L5 | Hold |
 
 ---
 

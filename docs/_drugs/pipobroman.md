@@ -48,10 +48,10 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (usage historique : polyglobulie de Vaquez et thrombocytémie essentielle) |
 | Nouvelle Indication Prédite | Cataracte diabétique |
-| Score de Prédiction TxGNN | 99,01 % |
+| Score de Prédiction TxGNN | 0,9901 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien mécanistique n'est établi avec la cataracte diabétique. Cette dernière résulte principalement de l'activation de la voie des polyols (aldose réductase), de l'accumulation de sorbitol et d'un stress osmotique et oxydatif dans le cristallin. L'activité alkylante et myélosuppressive du pipobroman n'a pas de connexion reconnue avec ces processus.
 
-Le score élevé (0,990) est une sortie de modèle et peut refléter des artefacts de topologie du graphe de connaissances plutôt qu'une justification biologique. Tout lien proposé serait spéculatif et devrait être validé in vitro ou sur modèle animal avant toute autre considération.
+Le score élevé (0,9901) est une sortie du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique. Tout lien proposé serait spéculatif et devrait être validé in vitro ou sur modèle animal avant toute autre considération.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60195398 | VERCYTE 25 mg, comprimé (LABORATOIRES DELBERT) – annulée | Comprimé | Non renseignée |
+| 60195398 | VERCYTE 25 mg, comprimé (LABORATOIRES DELBERT) – active | Comprimé | Non renseignée |
 
 ## Considérations de Sécurité
 

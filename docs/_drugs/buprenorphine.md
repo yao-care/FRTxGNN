@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Buprenorphine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 124
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Buprenorphine : nouvelle indication prédite, Porphyrie aiguë intermittente (niveau de preuve L4). Indication d'origine : Dépendance aux opiacés"
 monitor_inn: "buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
+last_modified_at: 2026-10-27
+description: "Buprenorphine : nouvelle indication prédite, Porphyrie aiguë intermittente (acute intermittent porphyria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Buprenorphine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,78 +33,67 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Buprénorphine : De la dépendance aux opiacés à la porphyrie aiguë intermittente
+## Buprénorphine : agoniste partiel des récepteurs opioïdes → Porphyrie aiguë intermittente (acute intermittent porphyria)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La buprénorphine est un agoniste partiel des récepteurs opioïdes, initialement utilisé dans le traitement de la dépendance aux opiacés (et, sous forme de Temgesic, comme antalgique).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **porphyrie aiguë intermittente**, mais **aucun essai clinique** et **une seule publication** (un rapport de cas de prise en charge anesthésique, sans lien thérapeutique) soutiennent cette prédiction.
+La buprénorphine est un opioïde agoniste partiel, utilisé dans la prise en charge de la dépendance aux opioïdes et disponible en France sous plusieurs présentations (formes injectables à libération prolongée, solution injectable, comprimé sublingual).
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **porphyrie aiguë intermittente (acute intermittent porphyria)**.
+Aucun essai clinique n'est enregistré et **1 seule publication** (un rapport de cas sur la prise en charge anesthésique) est disponible : la prédiction repose donc essentiellement sur le modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dépendance aux opiacés (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Porphyrie aiguë intermittente |
-| Score de Prédiction TxGNN | 99,41 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Porphyrie aiguë intermittente (acute intermittent porphyria) |
+| Score de Prédiction TxGNN | 0,9941 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la buprénorphine est un agoniste partiel des récepteurs opioïdes mu et un antagoniste kappa. Son efficacité dans la dépendance aux opiacés est établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la buprénorphine est un agoniste partiel des récepteurs opioïdes mu, avec une activité antagoniste kappa.
 
-La porphyrie aiguë intermittente est un trouble neuroviscéral causé par un défaut de la biosynthèse de l'hème. Aucun lien mécanistique thérapeutique n'est établi : l'activité sur les récepteurs mu n'a pas de rôle connu dans la correction de cette voie métabolique. Au mieux, la buprénorphine pourrait servir d'antalgique lors des crises, ce qui reste symptomatique et ne modifie pas la maladie.
-
-Le score élevé (0,994) est donc une prédiction du modèle, non étayée par des données cliniques. La seule publication retrouvée (PMID 8301837, 1993) concerne la sécurité des médicaments en période périopératoire, et non le traitement de la maladie.
+Aucun mécanisme thérapeutique n'est établi pour la porphyrie aiguë intermittente, un trouble neuroviscéral aigu lié à un défaut de la biosynthèse de l'hème. L'activité sur les récepteurs mu n'a pas de rôle connu dans la correction de cette voie. Au mieux, la buprénorphine pourrait servir d'antalgique lors des crises, ce qui serait un effet symptomatique et non modificateur de la maladie. Le score élevé du modèle reste une prédiction, non étayée par des données cliniques.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Rapport de cas | Masui (Jpn J Anesthesiol) | Prise en charge anesthésique d'une patiente suspectée de porphyrie aiguë intermittente lors d'une hystérectomie pour tumeur ovarienne maligne ; concerne la sécurité périopératoire, pas un traitement de la maladie |
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Rapport de cas | Masui (Jpn J Anesthesiol) | Prise en charge anesthésique d'une patiente de 40 ans atteinte de porphyrie aiguë intermittente, opérée d'une tumeur ovarienne maligne. Le rapport traite de la sécurité des médicaments en période périopératoire, pas du traitement de la maladie. |
+
+Cette publication n'étudie pas l'effet de la buprénorphine sur la maladie ; elle ne constitue donc pas une preuve directe, ce qui place le niveau de preuve à L5.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62157859 | BUVIDAL 64 mg | Solution injectable à libération prolongée | Non disponible |
-| 65489051 | BUVIDAL 96 mg | Solution injectable à libération prolongée | Non disponible |
-| 61617482 | BUVIDAL 24 mg | Solution injectable à libération prolongée | Non disponible |
-| 65870700 | BUVIDAL 128 mg | Solution injectable à libération prolongée | Non disponible |
-| 62299972 | TEMGESIC 0,3 mg/ml | Solution injectable | Non disponible |
-
-Les 10 AMM recensées (dont 8 BUVIDAL et 2 TEMGESIC) sont toutes annulées ; aucune n'est actuellement valide.
+La buprénorphine est commercialisée en France. Les données locales recensent 10 autorisations, toutes pour des produits à substance unique : BUVIDAL (plusieurs dosages, solution injectable à libération prolongée, Camurus) et TEMGESIC (solution injectable et comprimé sublingual, Eumedica). Le texte d'indication n'est pas renseigné dans ces enregistrements.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : syndrome du QT long (y compris familial) et torsades de pointes ; hypotension orthostatique, atrophie multisystématisée et syndrome de tachycardie posturale ; bronchopneumopathie chronique obstructive et insuffisance respiratoire ; maladie hépatique et hépatites virales B/C chroniques ; occlusion intestinale et iléus paralytique ; hypothyroïdie et myxœdème ; insuffisance surrénalienne (maladie d'Addison) ; hypertension intracrânienne ; hyperplasie bénigne de la prostate et sténose urétrale ; maladie de la vésicule biliaire.
-- **Interactions médicamenteuses** : 264 interactions recensées. Parmi les principales de niveau majeur : morphine, bupropion, alvimopan, cisapride, dolasétron. De nombreuses interactions de niveau modéré existent également (famotidine, cimétidine, clarithromycine, atropine, dexaméthasone, lopéramide, etc.).
+- **Interactions médicamenteuses** : 264 interactions sont recensées. Parmi les interactions majeures figurent l'alvimopan, le bupropion, la morphine, le cisapride et le dolasétron. De nombreuses interactions modérées sont également signalées (famotidine, hyoscyamine, lopéramide, aprépitant, atropine, dexaméthasone, clarithromycine, cimétidine, entre autres).
+- **Pathologies associées à une contre-indication ou à une prudence** : les données compilées signalent notamment le syndrome du QT long et les torsades de pointes, la bronchopneumopathie chronique obstructive, l'insuffisance respiratoire, les maladies du foie et des voies biliaires, l'hépatite B et C chroniques, l'insuffisance surrénalienne, l'hypothyroïdie, l'iléus paralytique et l'occlusion intestinale, l'hypertrophie bénigne de la prostate, l'hypertension intracrânienne, l'hypotension orthostatique, la sténose urétrale. Ces éléments ne proviennent pas du texte de la notice et doivent être confirmés avec celle-ci.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique n'existe, la seule publication ne porte pas sur un effet thérapeutique, et aucun mécanisme plausible n'est établi. Le score TxGNN seul ne suffit pas. Par ailleurs, toutes les AMM françaises sont annulées.
+Aucun essai clinique ni étude portant directement sur l'effet de la buprénorphine dans la porphyrie aiguë intermittente n'est disponible. La seule publication est un rapport de cas anesthésique, sans lien avec un effet thérapeutique. Le score élevé (0,9941) repose uniquement sur le modèle.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, indispensables au criblage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Démontrer un lien mécanistique ou des données précliniques/cliniques spécifiques à la porphyrie aiguë intermittente
-- Évaluer la sécurité dans la porphyrie, notamment les interactions et la tolérance des opioïdes
-- Clarifier le statut réglementaire, toutes les AMM étant annulées
-
-Les autres indications prédites (dyskinésie linguo-faciale-buccale, trouble tic chronique, pointes-ondes continues du sommeil, secousses bénignes du nourrisson, maladies extrapyramidales) reposent également uniquement sur la prédiction du modèle ou sur de la littérature indirecte (niveaux L4 à L5) et sont toutes en statut Hold.
+- Données détaillées sur le mécanisme d'action de la buprénorphine
+- Analyse de sécurité spécifique à la porphyrie (les opioïdes sont à évaluer avec prudence dans cette maladie) à partir de la notice ANSM
+- Études précliniques ou cliniques évaluant directement la buprénorphine dans la porphyrie aiguë intermittente
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

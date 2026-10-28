@@ -6,9 +6,9 @@ nav_order: 386
 evidence_level: L1
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Icatibant : nouvelle indication prédite, Déficit en inhibiteur de la C1 (niveau de preuve L1). Indication d'origine : Angioedème héréditaire"
 monitor_inn: "icatibant"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant : nouvelle indication prédite, C1 inhibitor deficiency (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Icatibant
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **7**
 
 </div>
 
-## Icatibant : De l'Angioedème Héréditaire au Déficit en Inhibiteur de la C1 estérase
+## Icatibant: C1 inhibitor deficiency
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il convient de noter que cette prédiction recoupe en grande partie l'indication
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Angioedème héréditaire (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances TxGNN) |
-| Nouvelle Indication Prédite | Déficit en inhibiteur de la C1 |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | C1 inhibitor deficiency |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -106,13 +106,13 @@ L'extension à la forme acquise du déficit est cohérente sur le plan mécanist
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61680479 | FIRAZYR 30 mg (Takeda) | Solution injectable en seringue pré-remplie | Non renseignée (AMM annulée) |
-| 66169887 | ICATIBANT ACCORD 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
-| 68903664 | ICATIBANT PIRAMAL 30 mg | Solution injectable en seringue pré-remplie | Non renseignée (AMM annulée) |
-| 69800927 | ICATIBANT FRESENIUS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
-| 63030672 | ICATIBANT VIATRIS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM annulée) |
+| 61680479 | FIRAZYR 30 mg (Takeda) | Solution injectable en seringue pré-remplie | Non renseignée (AMM active) |
+| 66169887 | ICATIBANT ACCORD 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
+| 68903664 | ICATIBANT PIRAMAL 30 mg | Solution injectable en seringue pré-remplie | Non renseignée (AMM active) |
+| 69800927 | ICATIBANT FRESENIUS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
+| 63030672 | ICATIBANT VIATRIS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
 
-Au total, 7 AMM sont recensées, toutes annulées. Aucune AMM valide n'apparaît dans les données compilées.
+Au total, 7 AMM sont recensées, toutes annulées.
 
 ---
 
@@ -129,7 +129,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de phase 3, dont trois randomisés, soutiennent l'efficacité d'icatibant dans l'angioedème héréditaire avec déficit en C1-Inh, ce qui correspond à l'indication d'origine. Pour la forme acquise, les données se limitent à de petites séries observationnelles, et toutes les AMM françaises sont annulées.
+- Plusieurs essais de phase 3, dont trois randomisés, soutiennent l'efficacité d'icatibant dans l'angioedème héréditaire avec déficit en C1-Inh, ce qui correspond à l'indication d'origine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice de l'ANSM (lacune bloquante pour le dépistage de sécurité)
@@ -138,7 +138,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Clarification du statut réglementaire français (AMM toutes annulées) et du texte d'indication
 - Plan de gestion des interactions avec les IEC
 
-**Autres prédictions (niveau L5, décision : Hold) :** les six autres indications prédites (serpinopathie avec polymérisation toxique, pseudo-maladie de von Willebrand, trouble de la sécrétion plaquettaire, myopathie nécrosante à médiation immune, syndrome des antisynthétases, thrombasthénie de Glanzmann) ne reposent sur aucun essai ni publication. Aucun lien mécanistique avec le blocage du récepteur B2 n'est identifié, et ces prédictions résultent probablement de la proximité dans le graphe de connaissances.
+**Autres prédictions (niveau L5, décision : Hold) :** les six autres indications prédites (serpinopathie avec polymérisation toxique, pseudo-maladie de von Willebrand, trouble de la sécrétion plaquettaire, myopathie nécrosante à médiation immune, syndrome des antisynthétases, thrombasthénie de Glanzmann) ne reposent sur aucun essai ni publication.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

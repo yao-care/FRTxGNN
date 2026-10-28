@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Belimumab : nouvelle indication prédite, Trouble de la libération plaquettaire primaire (niveau de preuve L5). Indication d'origine : Lupus érythémateux systémique (y compris pédiatrique)"
 monitor_inn: "belimumab"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
+last_modified_at: 2026-10-27
+description: "Belimumab : nouvelle indication prédite, Trouble de la libération plaquettaire primaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Belimumab
@@ -33,107 +33,72 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Bélimumab : Du Lupus Érythémateux Systémique au Trouble de la Libération Plaquettaire Primaire
+## Belimumab : inhibiteur de BLyS (BAFF), anti-survie des lymphocytes B → trouble de la libération plaquettaire primaire (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le bélimumab est un anticorps ciblant BLyS (BAFF), un facteur de survie des lymphocytes B, initialement utilisé dans le traitement du lupus érythémateux systémique (y compris pédiatrique).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble de la libération plaquettaire primaire**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
-
----
+Belimumab est un anticorps monoclonal dirigé contre BLyS (BAFF), un facteur de survie des lymphocytes B.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble de la libération plaquettaire primaire (primary release disorder of platelets)**,
+mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lupus érythémateux systémique (y compris pédiatrique) |
-| Nouvelle Indication Prédite | Trouble de la libération plaquettaire primaire |
-| Score de Prédiction TxGNN | 99,96 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Trouble de la libération plaquettaire primaire (primary release disorder of platelets) |
+| Score de Prédiction TxGNN | 0,9996 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le bélimumab inhibe BLyS (BAFF), ce qui réduit la survie des lymphocytes B autoréactifs. Son efficacité dans le lupus érythémateux systémique repose sur ce mécanisme immunitaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le belimumab inhibe BLyS (BAFF) et réduit ainsi la survie des lymphocytes B.
 
-Les troubles de la libération plaquettaire primaires sont des défauts héréditaires ou intrinsèques de la fonction plaquettaire, et non des maladies médiées par les lymphocytes B. **Aucun lien mécanistique n'est étayé par les données compilées pour ce rapport.** Le score élevé du modèle (99,96 %) reflète probablement la proximité dans le graphe de connaissances avec des nœuds plaquettaires et auto-immuns, et non une plausibilité biologique démontrée.
+Les troubles de la libération plaquettaire sont des défauts héréditaires ou intrinsèques de la fonction des plaquettes, et ne sont pas médiés par les lymphocytes B. Aucun lien mécanistique n'est étayé par les données disponibles. Le score élevé (0,9996) reflète une prédiction du modèle, probablement liée à la proximité de nœuds plaquettaires et auto-immuns, et ne constitue pas une preuve d'efficacité.
 
-Cette prédiction doit donc être considérée comme une hypothèse purement computationnelle. Le champ du mécanisme d'action d'origine étant manquant, le lien n'a pas pu être vérifié de façon croisée.
-
-### Autres indications prédites (pour information)
-
-| Rang | Indication prédite | Score TxGNN | Plausibilité mécanistique |
-|------|------|------|------|
-| 2 | Pseudo-maladie de von Willebrand | 99,96 % | Aucun mécanisme plausible (variant gain de fonction de GP1BA) |
-| 3 | Thrombasthénie de Glanzmann | 99,88 % | Aucune action sur l'intégrine αIIbβ3 ; pertinence hypothétique et indirecte pour l'alloimmunisation post-transfusionnelle |
-| 4 | Thrombopénie alloimmune fœtale et néonatale | 99,59 % | La plus plausible biologiquement (alloanticorps maternels), mais effet limité sur les plasmocytes à longue durée de vie et préoccupations de sécurité pendant la grossesse |
-| 5 | Rétinopathie diabétique non proliférante sévère | 99,05 % | Aucun rôle établi de l'inhibition de BLyS ; lien spéculatif |
-| 6 | Macrothrombopénie autosomique dominante | 99,04 % | Trouble héréditaire de la mégacaryopoïèse, sans bénéfice mécanistique évident |
-
-Aucune de ces indications ne dispose d'essai clinique ni de publication dans les données compilées.
-
----
+Cette prédiction doit donc être considérée comme très spéculative. Le mécanisme d'action n'étant pas renseigné, ce lien n'a pas pu être recoupé.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
 
-Les trois AMM identifiées sont toutes annulées. Le texte des indications approuvées n'est pas renseigné dans les données compilées.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65592934 | BENLYSTA 120 mg | Poudre pour solution à diluer pour perfusion | Annulée |
-| 60205159 | BENLYSTA 200 mg | Solution injectable en stylo prérempli | Annulée |
-| 65600733 | BENLYSTA 400 mg | Poudre pour solution à diluer pour perfusion | Annulée |
-
-Titulaire : GlaxoSmithKline (Ireland).
-
----
+| 65592934 | BENLYSTA 120 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 60205159 | BENLYSTA 200 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée |
+| 65600733 | BENLYSTA 400 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée |
 
 ## Considérations de Sécurité
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
+- **Interactions Médicamenteuses** : 69 interactions recensées. Parmi les principales :
+  - Majeures : adalimumab, baricitinib, certolizumab pegol, vaccin BCG (souche Tice vivante)
+  - Modérées : roflumilast, azathioprine, anakinra, canakinumab, alemtuzumab, alefacept, anatoxine tétanique, vaccin contre l'anthrax, ainsi que d'autres vaccins vivants ou agents apparentés
+  - Mineures : sels de zinc (acétate, gluconate, sulfate, chlorure)
 
-- **Interactions médicamenteuses** : 69 interactions ont été recensées. Les principales sont :
-  - **Majeures** : adalimumab, baricitinib, certolizumab pegol, bacille de Calmette-Guérin (souche Tice, vivant)
-  - **Modérées** : roflumilast, azathioprine, anakinra, canakinumab, alemtuzumab, alefacept, ainsi que plusieurs vaccins (anatoxine tétanique, charbon, adénovirus de type 4, choléra vivant) et probiotiques/antigènes vivants
-  - **Mineures** : sels de zinc (acétate, gluconate, sulfate, chlorure)
-
-  Globalement, les interactions majeures concernent des associations avec d'autres immunosuppresseurs/biothérapies et des vaccins vivants, avec un risque accru d'infection.
-
-- **Contexte particulier** : une utilisation pendant la grossesse (thrombopénie alloimmune fœtale et néonatale) soulèverait des préoccupations de sécurité supplémentaires.
-
----
+Les mises en garde et contre-indications ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique plausible n'est identifié pour l'indication principale.
-- Le produit n'a plus d'AMM valide en France, et les données de sécurité de la notice sont manquantes (lacune bloquante).
+La prédiction repose uniquement sur le score du modèle, sans essai clinique, sans publication et sans lien mécanistique plausible entre l'inhibition de BLyS et un défaut intrinsèque de la fonction plaquettaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Réaliser une revue de la littérature préclinique et clinique pour les indications prédites
-- Si une piste est poursuivie, privilégier la thrombopénie alloimmune fœtale et néonatale (la plus plausible), avec une évaluation spécifique de la sécurité pendant la grossesse
-- Clarifier la situation réglementaire (raisons de l'annulation des AMM et voies d'accès possibles)
+- Mécanisme d'action détaillé et analyse d'un éventuel lien mécanistique avec le trouble plaquettaire
+- Mises en garde et contre-indications issues de la notice ANSM
+- Toute donnée préclinique ou clinique portant directement sur cette maladie
+- Évaluation de la compatibilité des voies d'administration et du profil de sécurité dans la population concernée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

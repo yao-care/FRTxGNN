@@ -4,17 +4,17 @@ title: Corifollitropin Alfa
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 198
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Corifollitropin Alfa : nouvelle indication prédite, Gastroduodénite (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (texte d'indication vide po…"
 monitor_inn: "corifollitropin alfa"
-predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
 ---
 
 # Corifollitropin Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ La corifollitropine alfa est un analogue recombinant de la FSH à longue durée 
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées (texte d'indication vide pour les AMM) |
 | Nouvelle Indication Prédite | Gastroduodénite |
-| Score de Prédiction TxGNN | 99,65 % |
+| Score de Prédiction TxGNN | 0,9965 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -62,13 +62,12 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 | Maladie prédite | Score TxGNN | Commentaire |
 |------|------|------|
-| Migraine | 99,63 % | Lien hormonal indirect et spéculatif ; la stimulation ovarienne pourrait aggraver une migraine hormono-sensible |
-| Ulcère peptique | 99,61 % | Aucun mécanisme identifié ; probable artefact du graphe |
-| Migraine avec aura du tronc cérébral | 99,59 % | Sous-type rare lié à des canalopathies ; aucun lien plausible |
-| Maladie de Raynaud | 99,59 % | Lien purement prédictif |
-| Hypertension pulmonaire | 99,44 % | Aucun mécanisme établi ; risques thromboemboliques et de déplacements liquidiens (SHSO) possibles |
-| Cardiopathie cyphoscoliotique | 99,36 % | Aucune justification biologique |
-| Susceptibilité à la migraine avec ou sans aura | 99,11 % | Redondante avec les autres prédictions de migraine |
+| Migraine | 0,9963 | Lien hormonal indirect et spéculatif ; la stimulation ovarienne pourrait aggraver une migraine hormono-sensible |
+| Ulcère peptique | 0,9961 | Aucun mécanisme identifié ; le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique |
+| Migraine avec aura du tronc cérébral | 0,9959 | Sous-type rare lié à des canalopathies ; aucun lien plausible |
+| Maladie de Raynaud | 0,9959 | Lien purement prédictif |
+| Hypertension pulmonaire | 0,9944 | Aucun mécanisme établi ; risques thromboemboliques et de déplacements liquidiens (SHSO) possibles |
+| Cardiopathie cyphoscoliotique | 0,9936 | Aucune justification biologique |
 
 ## Preuves d'Essais Cliniques
 
@@ -82,8 +81,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 64036190 | ELONVA 150 microgrammes, solution injectable | Solution injectable | Non renseignée | Annulée |
-| 66844562 | ELONVA 100 microgrammes, solution injectable | Solution injectable | Non renseignée | Annulée |
+| 64036190 | ELONVA 150 microgrammes, solution injectable | Solution injectable | Non renseignée | Active |
+| 66844562 | ELONVA 100 microgrammes, solution injectable | Solution injectable | Non renseignée | Active |
 
 Titulaire : ORGANON (Pays-Bas).
 

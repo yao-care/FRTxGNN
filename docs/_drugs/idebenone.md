@@ -6,9 +6,9 @@ nav_order: 387
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Idebenone : nouvelle indication prédite, Porphyrie hépatique (niveau de preuve L5). Indication d'origine : Neuropathie optique héréditaire de Leber"
 monitor_inn: "idebenone"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
+description: "Idebenone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Idebenone
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Idébénone : De la neuropathie optique héréditaire de Leber à la porphyrie hépatique
+## Idebenone: Porphyrie hépatique (hepatic porphyria)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **porphyrie hé
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Neuropathie optique héréditaire de Leber (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Porphyrie hépatique |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Porphyrie hépatique (hepatic porphyria) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,21 +63,21 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien avec la porphyrie hépatique reste spéculatif : le stress oxydant et le dysfonctionnement mitochondrial pourraient intervenir dans les troubles de la synthèse de l'hème. Cette hypothèse n'est étayée par aucune donnée compilée pour ce rapport.
 
-Le score élevé (99,92 %) doit être interprété avec prudence. Plusieurs autres maladies hépatiques et portales présentent des scores identiques ou quasi identiques, ce qui évoque un artefact de voisinage dans le graphe plutôt qu'un signal propre à la maladie.
+Le score élevé (0,9992) doit être interprété avec prudence. Il provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Plusieurs autres maladies hépatiques et portales présentent des scores identiques ou quasi identiques, ce qui ne suggère pas un signal propre à la maladie.
 
 **Autres indications prédites (toutes de niveau L5, sans essai ni publication, décision Hold) :**
 
 | Rang | Maladie | Score TxGNN |
 |------|------|------|
-| 2 | Thrombose portale primitive | 99,92 % |
-| 3 | Hypertension portale non cirrhotique familiale à début précoce | 99,92 % |
-| 4 | Cirrhose idiopathique associée au cuivre | 99,92 % |
-| 5 | Sclérose hépatoportale | 99,92 % |
-| 6 | Syndrome hépatopulmonaire | 99,92 % |
-| 7 | Myopathie nécrosante à médiation immunitaire | 99,76 % |
-| 8 | Syndrome ostéogenèse imparfaite-rétinopathie-convulsions-déficience intellectuelle | 99,75 % |
-| 9 | Syndrome des antisynthétases | 99,75 % |
-| 10 | Myosite focale | 99,74 % |
+| 2 | Thrombose portale primitive | 0,9992 |
+| 3 | Hypertension portale non cirrhotique familiale à début précoce | 0,9992 |
+| 4 | Cirrhose idiopathique associée au cuivre | 0,9992 |
+| 5 | Sclérose hépatoportale | 0,9992 |
+| 6 | Syndrome hépatopulmonaire | 0,9992 |
+| 7 | Myopathie nécrosante à médiation immunitaire | 0,9976 |
+| 8 | Syndrome ostéogenèse imparfaite-rétinopathie-convulsions-déficience intellectuelle | 0,9975 |
+| 9 | Syndrome des antisynthétases | 0,9975 |
+| 10 | Myosite focale | 0,9974 |
 
 ---
 
@@ -97,7 +97,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62612837 | RAXONE 150 mg, comprimé pelliculé (CHIESI FARMACEUTICI) | Comprimé pelliculé | Non renseignée ; AMM annulée |
+| 62612837 | RAXONE 150 mg, comprimé pelliculé (CHIESI FARMACEUTICI) | Comprimé pelliculé | Non renseignée ; AMM active |
 
 ---
 
@@ -119,7 +119,7 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Réaliser une recherche ciblée dans la littérature et les registres d'essais sur l'idébénone dans la porphyrie hépatique
-- Vérifier si les scores identiques observés pour plusieurs maladies hépatiques relèvent d'un artefact du graphe
+- Vérifier si les scores identiques observés pour plusieurs maladies hépatiques reflètent des similarités apprises par le modèle TxGNN (deep learning) entre maladies apparentées plutôt qu'une preuve biologique
 - Évaluer la faisabilité d'une voie d'administration, la compatibilité n'ayant pas été établie
 - Clarifier le statut réglementaire, l'AMM étant annulée
 ## Avertissement

@@ -6,9 +6,9 @@ nav_order: 545
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Norepinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L4). Indication d'origine : Asthme"
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Norepinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Norepinephrine
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Norépinéphrine : De l'asthme à la maladie pulmonaire obstructive
+## Norepinephrine: Maladie pulmonaire obstructive (obstructive lung disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie pulmo
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Asthme (texte d'indication des AMM non renseigné ; indications issues du graphe de connaissances : asthme, bronchite, emphysème, bronchectasies, troubles hypotensifs) |
-| Nouvelle Indication Prédite | Maladie pulmonaire obstructive |
-| Score de Prédiction TxGNN | 99,84 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie pulmonaire obstructive (obstructive lung disease) |
+| Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -86,11 +86,11 @@ Aucune étude clinique contrôlée n'a été retrouvée. Les publications les pl
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65104648 | NORADRENALINE VIATRIS 2 mg/ml SANS SULFITES | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 64234749 | NORADRENALINE (TARTRATE) AGUETTANT 2 mg/ml (SANS SULFITES) | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 60743407 | TANOREN 0,5 mg/mL | Solution à diluer pour injection ou pour perfusion | Non renseignée (AMM annulée) |
-| 60385077 | CRONOMIR 10 microgrammes/mL | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 64803855 | NORADRENALINE RENAUDIN 2 mg/mL SANS CONSERVATEUR | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 65104648 | NORADRENALINE VIATRIS 2 mg/ml SANS SULFITES | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 64234749 | NORADRENALINE (TARTRATE) AGUETTANT 2 mg/ml (SANS SULFITES) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 60743407 | TANOREN 0,5 mg/mL | Solution à diluer pour injection ou pour perfusion | Non renseignée (AMM active) |
+| 60385077 | CRONOMIR 10 microgrammes/mL | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
+| 64803855 | NORADRENALINE RENAUDIN 2 mg/mL SANS CONSERVATEUR | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 Au total, 7 AMM sont recensées, toutes annulées ; aucun produit n'est actuellement commercialisé sous ces AMM.
 
@@ -105,7 +105,7 @@ Au total, 7 AMM sont recensées, toutes annulées ; aucun produit n'est actuelle
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,84 %), mais il n'existe aucune preuve clinique : le seul essai retrouvé est indirect et les publications sont mécanistiques. Le profil hémodynamique de la molécule (effets alpha-1 et bêta-1 non sélectifs), l'absence de produit commercialisé en France et l'absence de données de sécurité issues de la notice rendent toute progression prématurée.
+- Le score TxGNN est très élevé (0,9984), mais il n'existe aucune preuve clinique : le seul essai retrouvé est indirect et les publications sont mécanistiques. Le profil hémodynamique de la molécule (effets alpha-1 et bêta-1 non sélectifs), l'absence de produit commercialisé en France et l'absence de données de sécurité issues de la notice rendent toute progression prématurée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (par exemple via DrugBank)

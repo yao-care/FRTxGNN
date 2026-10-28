@@ -6,9 +6,9 @@ nav_order: 732
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tasonermin : nouvelle indication prédite, Carcinome urothélial de l'urètre prostatique (niveau de preuve L5). Indication d'origine : Sarcome des tissus mous"
 monitor_inn: "tasonermin"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
+description: "Tasonermin : nouvelle indication prédite, Carcinome urothélial de l'urètre prostatique (prostatic urethra urothelial carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Tasonermin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tasonermin : Du Sarcome des Tissus Mous au Carcinome Urothélial de l'Urètre Prostatique
+## Tasonermin: Carcinome urothélial de l'urètre prostatique (prostatic urethra urothelial carcinoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,21 +45,21 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome uroth
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Sarcome des tissus mous (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Carcinome urothélial de l'urètre prostatique |
-| Score de Prédiction TxGNN | 99,81 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Carcinome urothélial de l'urètre prostatique (prostatic urethra urothelial carcinoma) |
+| Score de Prédiction TxGNN | 0.9981 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, tasonermin est une forme recombinante du TNF-alpha humain, utilisée avec la perfusion isolée de membre pour les sarcomes des tissus mous des membres. Une hypothèse plausible est que le TNF-alpha détruit la vascularisation tumorale et améliore la pénétration de la chimiothérapie.
 
-Rien dans les données compilées pour ce rapport ne relie ce mécanisme au carcinome urothélial de l'urètre prostatique. Le score élevé (99,81 %) reflète une proximité dans le graphe de connaissances et ne constitue pas une preuve de efficacité. Par ailleurs, l'usage approuvé est strictement limité à la perfusion régionale d'un membre, car le TNF-alpha administré par voie systémique présente une toxicité limitante. Cette voie d'administration n'est pas transposable telle quelle à une tumeur de l'urètre.
+Rien dans les données compilées pour ce rapport ne relie ce mécanisme au carcinome urothélial de l'urètre prostatique. Le score élevé (0,9981) provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique ni une preuve de efficacité. Par ailleurs, l'usage approuvé est strictement limité à la perfusion régionale d'un membre, car le TNF-alpha administré par voie systémique présente une toxicité limitante. Cette voie d'administration n'est pas transposable telle quelle à une tumeur de l'urètre.
 
-D'autres prédictions du modèle présentent des scores très proches (99,6 % à 99,8 %) : carcinome urothélial sarcomatoïde du bassinet du rein, variant sarcomatoïde du carcinome urothélial vésical infiltrant, carcinome urothélial papillaire du bassinet, carcinome mammaire HER2 positif, ainsi que plusieurs adénocarcinomes gynécologiques (ligament utérin, endocol). Les variants sarcomatoïdes partagent des caractéristiques histologiques avec les sarcomes, ce qui les rend un peu plus plausibles sur le plan biologique, mais aucune de ces prédictions n'est corroborée par des essais ou des publications.
+D'autres prédictions du modèle présentent des scores très proches (0,9960 à 0,9980) : carcinome urothélial sarcomatoïde du bassinet du rein, variant sarcomatoïde du carcinome urothélial vésical infiltrant, carcinome urothélial papillaire du bassinet, carcinome mammaire HER2 positif, ainsi que plusieurs adénocarcinomes gynécologiques (ligament utérin, endocol). Les variants sarcomatoïdes partagent des caractéristiques histologiques avec les sarcomes, ce qui les rend un peu plus plausibles sur le plan biologique, mais aucune de ces prédictions n'est corroborée par des essais ou des publications.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69328782 | BEROMUN 1 mg, poudre pour solution pour perfusion (BELPHARMA, Luxembourg) | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 69328782 | BEROMUN 1 mg, poudre pour solution pour perfusion (BELPHARMA, Luxembourg) | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

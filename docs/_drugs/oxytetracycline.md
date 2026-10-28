@@ -6,9 +6,9 @@ nav_order: 569
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Oxytetracycline : nouvelle indication prédite, Rhinosinusite chronique (niveau de preuve L5). Indication d'origine : Infections bactériennes diverses"
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+description: "Oxytetracycline : nouvelle indication prédite, Chronic rhinosinusitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Oxytetracycline
@@ -33,12 +33,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Oxytétracycline : Des infections bactériennes à la rhinosinusite chronique
+## Oxytetracycline: Chronic rhinosinusitis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-L'oxytétracycline est un antibiotique de la famille des tétracyclines. D'après le graphe de connaissances utilisé par le modèle, il traitait à l'origine diverses infections bactériennes (infections urinaires, bronchite, pharyngite, conjonctivite, pneumonie, etc.).
+L'oxytétracycline est un antibiotique de la famille des tétracyclines.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rhinosinusite chronique**,
 mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette prédiction.
 
@@ -46,19 +46,19 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections bactériennes diverses (infections urinaires, bronchite, pharyngite, conjonctivite, pneumonie, etc., selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Rhinosinusite chronique |
-| Score de Prédiction TxGNN | 99,61 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Chronic rhinosinusitis |
+| Score de Prédiction TxGNN | 0.9961 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'oxytétracycline fait partie de la classe des tétracyclines. Son efficacité antibactérienne est établie dans de nombreuses infections, et elle pourrait mécanistiquement être applicable à la rhinosinusite chronique.
 
-Les tétracyclines sont connues pour leur activité antibactérienne et, selon la littérature générale sur la classe, pour des propriétés anti-inflammatoires (inhibition des métalloprotéinases matricielles, MMP). Ces propriétés pourraient avoir un lien avec l'inflammation sinusienne chronique, et la doxycycline, une autre tétracycline, a été explorée dans ce contexte. Ce raisonnement reste toutefois une hypothèse : le score élevé reflète une proximité dans le graphe de connaissances, pas une démonstration clinique.
+Les tétracyclines sont connues pour leur activité antibactérienne et, selon la littérature générale sur la classe, pour des propriétés anti-inflammatoires (inhibition des métalloprotéinases matricielles, MMP). Ces propriétés pourraient avoir un lien avec l'inflammation sinusienne chronique, et la doxycycline, une autre tétracycline, a été explorée dans ce contexte.
 
 Aucun essai ni aucune publication n'ont été fournis pour l'oxytétracycline dans cette indication. Le lien est donc plausible mais non étayé.
 
@@ -70,14 +70,14 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement.
 
-> **Note complémentaire.** Parmi les autres indications prédites, l'**otite externe** (rang 10, score 99,27 %) dispose de publications : des comparaisons cliniques d'associations topiques contenant de l'oxytétracycline (avec polymyxine B et hydrocortisone), notamment un essai randomisé de 1985 (55 patients, 78 % de guérison, sans différence significative avec la framycétine/gramicidine) et une comparaison avec la ciprofloxacine (1993, 30 patients). Ces données sont anciennes, portent sur des associations et laissent la contribution propre de l'oxytétracycline incertaine. Cette piste, classée L3 (niveau conservateur), pourrait mériter une évaluation distincte.
+Ces données sont anciennes, portent sur des associations et laissent la contribution propre de l'oxytétracycline incertaine. Cette piste, classée L3 (niveau conservateur), pourrait mériter une évaluation distincte.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69497177 | STERDEX, pommade ophtalmique en récipient unidose (THEA) | Pommade | Non renseignée (AMM annulée) |
-| 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire (GRIMBERG) | Poudre et solvant pour suspension pour instillation | Non renseignée (AMM annulée) |
+| 69497177 | STERDEX, pommade ophtalmique en récipient unidose (THEA) | Pommade | Non renseignée (AMM active) |
+| 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire (GRIMBERG) | Poudre et solvant pour suspension pour instillation | Non renseignée (AMM active) |
 
 Les deux AMM sont annulées, et les formes disponibles sont à usage ophtalmique et auriculaire. Aucune n'est conçue pour une administration nasale ou sinusienne, ce qui soulève une question de voie d'administration pour la nouvelle indication.
 

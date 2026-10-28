@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **lèpre**, mais 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Lèpre |
-| Score de Prédiction TxGNN | 99,14 % |
+| Score de Prédiction TxGNN | 0,9914 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec la lèpre reste **spéculatif**. *Mycobacterium leprae* survit dans les macrophages et les cellules de Schwann de l'hôte. Or, les petites GTPases prénylées de l'hôte (Ras, Rho, Rab) interviennent dans la maturation des phagosomes, le trafic intracellulaire et la signalisation inflammatoire. Inhiber la prénylation pourrait, en théorie, modifier ces processus.
 
-Aucune donnée directe ou indirecte ne soutient ce lien. Le score TxGNN est très élevé (99,14 %), mais il s'agit d'une prédiction de modèle qui ne peut être validée ici, faute d'essais et de publications.
+Aucune donnée directe ou indirecte ne soutient ce lien. Le score TxGNN est très élevé (0,9914), mais il s'agit d'une prédiction de modèle qui ne peut être validée ici, faute d'essais et de publications.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,8 +73,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61837140 | ZOKINVY 75 mg, gélule (annulée) | Gélule | Non renseignée |
-| 66601425 | ZOKINVY 50 mg, gélule (annulée) | Gélule | Non renseignée |
+| 61837140 | ZOKINVY 75 mg, gélule (active) | Gélule | Non renseignée |
+| 66601425 | ZOKINVY 50 mg, gélule (active) | Gélule | Non renseignée |
 
 ## Cytotoxicité
 

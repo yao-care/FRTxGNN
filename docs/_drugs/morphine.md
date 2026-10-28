@@ -6,9 +6,9 @@ nav_order: 516
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Morphine : nouvelle indication prédite, Syndrome des jambes sans repos (niveau de preuve L3). Indication d'origine : Maladie diarrhéique"
 monitor_inn: "MORPHINE"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine : nouvelle indication prédite, Myofascial pain syndrome (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Morphine
@@ -33,26 +33,25 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Morphine : De la maladie diarrhéique au syndrome des jambes sans repos
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La morphine est un analgésique opioïde, associé dans le graphe de connaissances à la maladie diarrhéique comme indication d'origine.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome des jambes sans repos**, avec **1 essai clinique** (de phase 1, sans donnée d'efficacité) et **20 publications** soutenant actuellement cette direction, dont plusieurs registres et séries de cas.
 
-> Remarque : la prédiction au meilleur score de TxGNN est le syndrome myofascial douloureux (99,75 %). Cependant, les données compilées pour ce rapport indiquent que l'indication la mieux étayée par des preuves est le syndrome des jambes sans repos (rang 4 du modèle, 99,47 %). C'est donc celle-ci qui est retenue pour le titre et l'analyse ci-dessous.
+> Remarque : la prédiction au meilleur score de TxGNN est le syndrome myofascial douloureux (0,9975). Cependant, les données compilées pour ce rapport indiquent que l'indication la mieux étayée par des preuves est le syndrome des jambes sans repos (rang 4 du modèle, 0,9947). C'est donc celle-ci qui est retenue pour le titre et l'analyse ci-dessous.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie diarrhéique (selon le graphe de connaissances ; aucun texte d'indication dans les AMM françaises) |
-| Nouvelle Indication Prédite | Syndrome des jambes sans repos |
-| Score de Prédiction TxGNN | 99,47 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Myofascial pain syndrome |
+| Score de Prédiction TxGNN | 0.9975 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -88,10 +87,10 @@ Il s'agit donc d'un lien mécanistique plausible et appuyé par une pratique cli
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60576901 | MOSCONTIN 60 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM annulée) |
-| 60874417 | MOSCONTIN 100 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM annulée) |
-| 66828412 | MOSCONTIN 10 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM annulée) |
-| 66799334 | MOSCONTIN 30 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM annulée) |
+| 60576901 | MOSCONTIN 60 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
+| 60874417 | MOSCONTIN 100 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
+| 66828412 | MOSCONTIN 10 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
+| 66799334 | MOSCONTIN 30 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -106,7 +105,7 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Pour le syndrome des jambes sans repos, la littérature comprend plusieurs registres de cohortes à long terme, des séries de cas et des revues soutenant l'usage d'opioïdes à faible dose dans les formes réfractaires, y compris la morphine intrathécale. Cependant, aucun essai randomisé avec la morphine n'est disponible, et toutes les AMM françaises sont annulées. Les risques de dépendance et de dépression respiratoire imposent un cadre strict.
+Pour le syndrome des jambes sans repos, la littérature comprend plusieurs registres de cohortes à long terme, des séries de cas et des revues soutenant l'usage d'opioïdes à faible dose dans les formes réfractaires, y compris la morphine intrathécale. Les risques de dépendance et de dépression respiratoire imposent un cadre strict.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), l'absence de ces données bloquant l'évaluation de sécurité

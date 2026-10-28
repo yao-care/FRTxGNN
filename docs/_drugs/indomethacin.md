@@ -6,9 +6,9 @@ nav_order: 397
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Indomethacin : nouvelle indication prédite, Syndrome brachydactylie-syndactylie (niveau de preuve L5). Indication d'origine : Bursite, synovite, ténosynovite, polyarthrite rhumatoïde…"
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
+description: "Indomethacin : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Indomethacin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Indométacine : Des Rhumatismes Inflammatoires au Syndrome Brachydactylie-Syndactylie
+## Indomethacin: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome brac
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Bursite, synovite, ténosynovite, polyarthrite rhumatoïde, spondylarthrite ankylosante, goutte, arthrose, canal artériel persistant (texte d'indication des AMM non renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Syndrome brachydactylie-syndactylie |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Brachydactyly-syndactyly syndrome |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome brac
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'indométacine est un inhibiteur non sélectif des cyclooxygénases (COX-1 et COX-2) : elle réduit la synthèse des prostaglandines, médiateurs de l'inflammation, de la douleur et de la fièvre. Son efficacité dans les rhumatismes inflammatoires repose sur ce mécanisme.
 
-**Pour la prédiction principale, aucun lien mécanistique n'est établi.** Le syndrome brachydactylie-syndactylie est une malformation squelettique du développement des membres. Rien dans les données disponibles ne relie l'inhibition des prostaglandines à la physiopathologie de cette malformation. Le score très élevé (99,97 %) reflète probablement un artefact du graphe de connaissances (voisinage de phénotypes squelettiques ou de membres communs) plutôt qu'une raison pharmacologique plausible.
+**Pour la prédiction principale, aucun lien mécanistique n'est établi.** Le syndrome brachydactylie-syndactylie est une malformation squelettique du développement des membres. Rien dans les données disponibles ne relie l'inhibition des prostaglandines à la physiopathologie de cette malformation.
 
 Les autres prédictions du top 10 sont du même ordre : syndromes développementaux rares (colobomateuse-microphtalmie, dysplasie acromésomélique de type Hunter-Thompson, syndrome WHIM, brachyolmie, myosclérose) sans lien mécanistique démontré. À titre de comparaison, les prédictions les plus plausibles sont l'**arthrite juvénile idiopathique** (rang 8, niveau L3) et ses sous-types, qui prolongent l'usage connu des AMM dans les arthropathies inflammatoires. Elles relèvent toutefois davantage d'une extension de l'usage de la classe des AMM que d'un repositionnement véritablement nouveau.
 
@@ -93,13 +93,13 @@ Aucune littérature associée disponible actuellement pour le syndrome brachydac
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60921824 | INDOCOLLYRE 0,1 %, collyre en solution (annulée) | Collyre en solution | Non renseignée |
-| 68142440 | INDOCID 100 mg, suppositoire (annulée) | Suppositoire | Non renseignée |
-| 61914124 | INDOCOLLYRE 0,1 %, collyre unidose (annulée) | Collyre en solution | Non renseignée |
-| 66664685 | INDOCID 25 mg, gélule (annulée) | Gélule | Non renseignée |
-| 69829455 | CHRONO-INDOCID 75 mg, gélule (annulée) | Gélule | Non renseignée |
+| 60921824 | INDOCOLLYRE 0,1 %, collyre en solution (active) | Collyre en solution | Non renseignée |
+| 68142440 | INDOCID 100 mg, suppositoire (active) | Suppositoire | Non renseignée |
+| 61914124 | INDOCOLLYRE 0,1 %, collyre unidose (active) | Collyre en solution | Non renseignée |
+| 66664685 | INDOCID 25 mg, gélule (active) | Gélule | Non renseignée |
+| 69829455 | CHRONO-INDOCID 75 mg, gélule (active) | Gélule | Non renseignée |
 
-Une sixième AMM (69668450, INDOBIOTIC, collyre unidose) est également annulée. Aucune AMM n'est actuellement valide.
+Une sixième AMM (69668450, INDOBIOTIC, collyre unidose) est également annulée.
 
 ---
 
@@ -117,7 +117,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (syndrome brachydactylie-syndactylie) n'a ni essai, ni publication, ni lien mécanistique plausible : elle relève très probablement d'un artefact du modèle (niveau L5). De plus, toutes les AMM françaises sont annulées, ce qui limite tout développement pratique.
+- La prédiction principale (syndrome brachydactylie-syndactylie) n'a ni essai, ni publication, ni lien mécanistique plausible : elle relève très probablement d'un artefact du modèle (niveau L5).
 - L'arthrite juvénile idiopathique (niveau L3) est la piste la plus crédible, mais elle prolonge un usage ancien des AINS, désormais supplanté par les traitements de fond et les biothérapies.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

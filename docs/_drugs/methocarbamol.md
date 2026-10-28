@@ -46,10 +46,10 @@ Le méthocarbamol est un myorelaxant à action centrale, utilisé classiquement 
 |------|------|
 | Indication Originale | Non précisée dans les données d'AMM compilées (texte d'indication vide) |
 | Nouvelle Indication Prédite | Syndrome de la queue de cheval |
-| Score de Prédiction TxGNN | 99,98 % |
+| Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,8 +72,8 @@ Aucune littérature associée disponible actuellement pour le syndrome de la que
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60665015 | METHOCARBAMOL ARROW 500 mg, comprimé pelliculé (statut : annulée) | Comprimé pelliculé | Non précisée |
-| 67212035 | LUMIRELAX 500 mg, comprimé (statut : annulée) | Comprimé | Non précisée |
+| 60665015 | METHOCARBAMOL ARROW 500 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non précisée |
+| 67212035 | LUMIRELAX 500 mg, comprimé (statut : active) | Comprimé | Non précisée |
 
 ## Considérations de Sécurité
 
@@ -87,7 +87,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme plausible très faible. Par ailleurs, toutes les AMM françaises sont annulées et la notice de sécurité est manquante, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme plausible très faible. Par ailleurs, le médicament est commercialisé en France, avec 2 AMM valides sur 2, et la notice de sécurité est manquante, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (ANSM) : mises en garde et contre-indications

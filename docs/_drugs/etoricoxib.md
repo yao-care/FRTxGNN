@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etoricoxib
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 309
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Etoricoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "etoricoxib"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Etoricoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Etoricoxib
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Étoricoxib : Des affections inflammatoires douloureuses à la migraine
+## Etoricoxib: Migraine (migraine disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Le niveau de preuve est donc faible : la prédiction repose essentiellement sur 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM ; les données pharmacologiques mentionnent l'arthrose, la polyarthrite rhumatoïde, la lombalgie chronique, la spondylarthrite ankylosante, la douleur aiguë et la goutte |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
-| Score de Prédiction TxGNN | 99,90 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 14 (toutes annulées, aucune valide) |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
+| Nombre d'AMM | 14 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -90,15 +90,15 @@ Aucune publication ne teste directement l'étoricoxib dans la migraine. Les publ
 
 ## Informations de Marché en France
 
-Les 14 AMM recensées sont annulées. Aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
+Les 14 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66514714 | ETORICOXIB BIOGARAN 30 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65716563 | ETORICOXIB VIATRIS 30 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65646086 | ARCOXIA 30 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61350702 | ETORICOXIB KRKA 60 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65612340 | ETORICOXIB BIOGARAN 60 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 66514714 | ETORICOXIB BIOGARAN 30 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 65716563 | ETORICOXIB VIATRIS 30 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 65646086 | ARCOXIA 30 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61350702 | ETORICOXIB KRKA 60 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 65612340 | ETORICOXIB BIOGARAN 60 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

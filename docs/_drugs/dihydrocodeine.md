@@ -4,17 +4,17 @@ title: Dihydrocodeine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 243
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Dihydrocodeine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, rhinite…"
 monitor_inn: "dihydrocodeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
+description: "Dihydrocodeine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dihydrocodeine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Dihydrocodéine : De la rhinite allergique à la maladie de la cavité nasale
+## Dihydrocodeine: Maladie de la cavité nasale (nasal cavity disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction repose uniquement sur le calcul du modèle (niveau de preuve L
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, rhinite, nasopharyngite (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Maladie de la cavité nasale |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Cette prédiction repose uniquement sur le calcul du modèle (niveau de preuve L
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la dihydrocodéine est un opioïde à visée antalgique et antitussive. Les indications d'origine (rhinite, nasopharyngite, rhume) concernent des affections des voies respiratoires supérieures, et la maladie de la cavité nasale appartient à la même région anatomique.
 
-Le lien est toutefois **faible et indirect**. Aucune donnée mécanistique ne permet d'expliquer en quoi un opioïde agirait sur une pathologie nasale. Le score élevé du modèle (99,99 %) correspond vraisemblablement à la proximité avec les indications existantes, plutôt qu'à un véritable signal de repositionnement.
+Le lien est toutefois **faible et indirect**. Aucune donnée mécanistique ne permet d'expliquer en quoi un opioïde agirait sur une pathologie nasale. Le score élevé du modèle (0,9999) correspond vraisemblablement à la proximité avec les indications existantes, plutôt qu'à un véritable signal de repositionnement.
 
 Les autres prédictions du modèle sont du même ordre : laryngopharyngite aiguë (99,99 %, probablement un chevauchement avec les indications existantes), urticaire allergique, conjonctivite papillaire, diphtérie fauciale, discopathie cervicale dégénérative, céphalées (seule piste avec deux publications indirectes), urticaire au froid et céphalalgie trigémino-autonomique. Aucune ne dispose d'essai clinique. Pour les urticaires, la libération d'histamine induite par les opioïdes pourrait même aggraver la maladie.
 
@@ -91,7 +91,7 @@ Aucune littérature associée disponible actuellement pour la maladie de la cavi
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67482372 | DICODIN L.P. 60 mg, comprimé à libération prolongée | Comprimé à libération prolongée | Non renseignée (AMM annulée) |
+| 67482372 | DICODIN L.P. 60 mg, comprimé à libération prolongée | Comprimé à libération prolongée | Non renseignée (AMM active) |
 
 ---
 

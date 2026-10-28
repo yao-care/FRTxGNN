@@ -6,9 +6,9 @@ nav_order: 527
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Natalizumab : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Maladie de Crohn"
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Natalizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Natalizumab : De la maladie de Crohn à la bronchite
+## Natalizumab: Bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, ma
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Crohn (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,46 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 0.9946 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -73,9 +73,9 @@ Les trois AMM recensées sont toutes annulées ; le texte de l'indication approu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60779570 | TYRUKO 300 mg (Sandoz) | Solution à diluer pour perfusion | Annulée |
-| 61863110 | TYSABRI 150 mg (Biogen) | Solution injectable en seringue préremplie | Annulée |
-| 68722564 | TYSABRI 300 mg (Biogen) | Solution à diluer pour perfusion | Annulée |
+| 60779570 | TYRUKO 300 mg (Sandoz) | Solution à diluer pour perfusion | Active |
+| 61863110 | TYSABRI 150 mg (Biogen) | Solution injectable en seringue préremplie | Active |
+| 68722564 | TYSABRI 300 mg (Biogen) | Solution à diluer pour perfusion | Active |
 
 ## Considérations de Sécurité
 
@@ -91,7 +91,7 @@ Les trois AMM recensées sont toutes annulées ; le texte de l'indication approu
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la bronchite repose uniquement sur le modèle (L5), sans essai ni publication. Le risque d'infection respiratoire et de LEMP rend un bénéfice peu plausible. De plus, toutes les AMM françaises sont annulées.
+- La prédiction pour la bronchite repose uniquement sur le modèle (L5), sans essai ni publication. Le risque d'infection respiratoire et de LEMP rend un bénéfice peu plausible. Par ailleurs, le médicament est commercialisé en France (3 AMM valides sur 3).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice (ANSM), actuellement manquantes et bloquantes pour l'évaluation de sécurité
@@ -105,10 +105,10 @@ Les trois AMM recensées sont toutes annulées ; le texte de l'indication approu
 
 | Rang | Maladie | Score TxGNN | Niveau | Décision | Commentaire |
 |---|---|---|---|---|---|
-| 2 | Parapsoriasis | 99,37 % | L4 | Hold | Un seul cas clinique rapportant des effets indésirables dermatologiques (avec fingolimod) ; signal de sécurité, pas de bénéfice |
-| 3 | Psoriasis | 99,19 % | L4 | Hold | Données contradictoires : une série de 18 patients rapporte une amélioration, mais plusieurs cas décrivent un psoriasis induit ou aggravé ; aucun essai |
-| 4 | Rétinopathie diabétique non proliférante sévère | 99,18 % | L5 | Hold | Aucune donnée ; risque de LEMP en usage systémique |
-| 5 | Pityriasis lichénoïde aigu | 99,04 % | L4 | Hold | Même cas clinique que ci-dessus, confondu par l'exposition au fingolimod ; aucun soutien |
+| 2 | Parapsoriasis | 0,9937 | L4 | Hold | Un seul cas clinique rapportant des effets indésirables dermatologiques (avec fingolimod) ; signal de sécurité, pas de bénéfice |
+| 3 | Psoriasis | 0,9919 | L4 | Hold | Données contradictoires : une série de 18 patients rapporte une amélioration, mais plusieurs cas décrivent un psoriasis induit ou aggravé ; aucun essai |
+| 4 | Rétinopathie diabétique non proliférante sévère | 0,9918 | L5 | Hold | Aucune donnée ; risque de LEMP en usage systémique |
+| 5 | Pityriasis lichénoïde aigu | 0,9904 | L4 | Hold | Même cas clinique que ci-dessus, confondu par l'exposition au fingolimod ; aucun soutien |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

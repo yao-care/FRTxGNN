@@ -6,9 +6,9 @@ nav_order: 159
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Cetuximab : nouvelle indication prédite, Adénomes/carcinoïdes bronchiques de l'enfant (niveau de preuve L5). Indication d'origine : Cancer colorectal / néoplasme malin du côlon"
 monitor_inn: "cetuximab"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
+description: "Cetuximab : nouvelle indication prédite, Bronchial adenomas/carcinoids childhood (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cetuximab
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Cétuximab : Du Cancer du Côlon à la Tumeur Bronchique Carcinoïde de l'Enfant
+## Cetuximab: Bronchial adenomas/carcinoids childhood
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le cétuximab est un anticorps monoclonal dirigé contre le récepteur de l'EGFR, initialement utilisé pour le traitement du cancer colorectal et des carcinomes épidermoïdes de la tête et du cou.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour les **adénomes/carcinoïdes bronchiques de l'enfant**, avec un score très élevé (99,95 %).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour les **adénomes/carcinoïdes bronchiques de l'enfant**, avec un score très élevé (0,9995).
 En revanche, **aucun essai clinique ni aucune publication** ne soutient actuellement cette prédiction : il s'agit d'une prédiction purement computationnelle.
 
 ---
@@ -48,12 +48,12 @@ En revanche, **aucun essai clinique ni aucune publication** ne soutient actuelle
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer colorectal / néoplasme malin du côlon (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Adénomes/carcinoïdes bronchiques de l'enfant |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchial adenomas/carcinoids childhood |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ En revanche, **aucun essai clinique ni aucune publication** ne soutient actuelle
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le cétuximab est un anticorps qui bloque l'EGFR (récepteur du facteur de croissance épidermique). Son efficacité a été établie dans le cancer colorectal exprimant l'EGFR et dans les carcinomes épidermoïdes de la tête et du cou.
 
-Rien dans les données ne montre que la signalisation EGFR soit un moteur des carcinoïdes bronchiques pédiatriques. Le lien mécanistique n'est donc pas étayé, et la similarité avec l'indication d'origine n'a pas été évaluée. Le score élevé du modèle reflète une association statistique dans le graphe de connaissances, pas une preuve biologique ou clinique.
+Rien dans les données ne montre que la signalisation EGFR soit un moteur des carcinoïdes bronchiques pédiatriques. Le lien mécanistique n'est donc pas étayé, et la similarité avec l'indication d'origine n'a pas été évaluée.
 
 **Autres indications prédites (à titre de contexte)** : le modèle a produit plusieurs prédictions avec des scores quasi identiques. Deux d'entre elles disposent de preuves plus substantielles que la première et méritent d'être examinées en priorité :
 - **Néoplasme prémalin** (niveau L2) : un essai de phase 2 terminé (NCT00524017) évalue le cétuximab en monothérapie dans des lésions prémalignes des voies aéro-digestives supérieures, avec un rationnel de chimioprévention (surexpression de l'EGFR dans ces lésions).
@@ -106,7 +106,7 @@ Aucune littérature associée n'est disponible actuellement pour la nouvelle ind
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66843357 | ERBITUX 5 mg/ml, solution pour perfusion (MERCK KGAA, Allemagne) | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 66843357 | ERBITUX 5 mg/ml, solution pour perfusion (MERCK KGAA, Allemagne) | Solution pour perfusion | Non renseignée (AMM active) |
 
 ---
 

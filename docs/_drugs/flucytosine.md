@@ -48,10 +48,10 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Maladie osseuse de Paget (bone Paget disease) |
-| Score de Prédiction TxGNN | 99,04 % |
+| Score de Prédiction TxGNN | 0,9904 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La maladie osseuse de Paget est un trouble du remodelage osseux lié à une dérégulation de l'activité des ostéoclastes (souvent associée à des variants de SQSTM1). Les cellules humaines étant largement dépourvues de cytosine désaminase, **aucun lien mécanistique évident** n'apparaît entre le mode d'action de la flucytosine et cette maladie.
 
-Le score élevé du modèle (0,990) correspond à un lien purement computationnel issu d'un graphe de connaissances. Il pourrait refléter des artefacts de proximité dans le réseau plutôt qu'une véritable pharmacologie. Cette prédiction doit donc être considérée avec une grande prudence.
+Le score élevé du modèle TxGNN (deep learning), 0,9904, correspond à un lien purement computationnel. Il peut refléter des similarités apprises par le modèle entre maladies proches, et non une preuve biologique. Cette prédiction doit donc être considérée avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,8 +74,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67250203 | ANCOTIL 1 POUR CENT, solution pour perfusion (VIATRIS MEDICAL) – annulée | Solution pour perfusion | Non renseignée |
-| 68758674 | ANCOTIL 500 mg, comprimé (VIATRIS MEDICAL) – annulée | Comprimé | Non renseignée |
+| 67250203 | ANCOTIL 1 POUR CENT, solution pour perfusion (VIATRIS MEDICAL) – active | Solution pour perfusion | Non renseignée |
+| 68758674 | ANCOTIL 500 mg, comprimé (VIATRIS MEDICAL) – active | Comprimé | Non renseignée |
 
 ## Considérations de Sécurité
 

@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 685
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rufinamide : nouvelle indication prédite, Syndrome d'épilepsie lié à une infection fébrile (FIRES) (niveau de preuve L5). Indication d'origine : Syndrome de Lennox-Gastaut"
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide : nouvelle indication prédite, Perioral myoclonia with absences (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Rufinamide : Du Syndrome de Lennox-Gastaut au Syndrome d'épilepsie lié à une infection fébrile (FIRES)
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La rufinamide est un antiépileptique initialement utilisé pour le traitement du syndrome de Lennox-Gastaut.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'épilepsie lié à une infection fébrile (FIRES)**,
 mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction dans les données compilées pour ce rapport.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome de Lennox-Gastaut (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'épilepsie lié à une infection fébrile (FIRES) |
-| Score de Prédiction TxGNN | 99,57 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Perioral myoclonia with absences |
+| Score de Prédiction TxGNN | 0.9951 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Cependant, ce lien reste spéculatif. Le FIRES est un syndrome d'état de mal épileptique réfractaire d'origine largement neuro-inflammatoire, et le seul blocage des canaux sodiques ne suffit probablement pas à agir sur sa physiopathologie sous-jacente. Le score élevé de TxGNN reflète une prédiction fondée sur le réseau de connaissances, sans confirmation par des données cliniques directes.
 
-D'autres indications prédites (absences myocloniques péribuccales, spasmes épileptiques cryptogéniques tardifs, épilepsie occipitale photosensible, épilepsie atypique de l'enfant à pointes centrotemporales) présentent des scores similaires (99,4 % à 99,5 %) et sont également de niveau L5. Pour certaines d'entre elles, les bloqueurs des canaux sodiques peuvent aggraver les crises ou l'activité pointe-onde, ce qui appelle un avis d'expert.
+Pour certaines d'entre elles, les bloqueurs des canaux sodiques peuvent aggraver les crises ou l'activité pointe-onde, ce qui appelle un avis d'expert.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,10 +73,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67454800 | INOVELON 100 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 65037644 | INOVELON 200 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 62205873 | INOVELON 40 mg/ml, suspension buvable | Suspension buvable | Non renseignée (AMM annulée) |
-| 65869160 | INOVELON 400 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 67454800 | INOVELON 100 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 65037644 | INOVELON 200 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 62205873 | INOVELON 40 mg/ml, suspension buvable | Suspension buvable | Non renseignée (AMM active) |
+| 65869160 | INOVELON 400 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -91,7 +90,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est spéculatif pour le FIRES, et toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication.
 - Les données de sécurité issues de la notice sont manquantes, ce qui empêche de passer à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

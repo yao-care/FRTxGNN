@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **déficience en 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Déficience en antithrombine de type 2 |
-| Score de Prédiction TxGNN | 99,83 % |
+| Score de Prédiction TxGNN | 0,9983 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 16 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,18 +61,18 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **déficience en 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, l'exémestane est un inhibiteur stéroïdien irréversible de l'aromatase : il bloque la conversion des androgènes en œstrogènes et abaisse ainsi les taux d'œstradiol.
 
-La déficience en antithrombine de type 2 est un trouble héréditaire de la coagulation, lié à des variants du gène SERPINC1. **Aucun lien mécanistique n'a été identifié** : l'abaissement des œstrogènes n'est pas connu pour corriger la fonction de l'antithrombine. Le score élevé (0,998) reflète probablement une proximité dans le graphe de connaissances, et non un effet thérapeutique.
+La déficience en antithrombine de type 2 est un trouble héréditaire de la coagulation, lié à des variants du gène SERPINC1. **Aucun lien mécanistique n'a été identifié** : l'abaissement des œstrogènes n'est pas connu pour corriger la fonction de l'antithrombine. Le score élevé (0,9983) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du modèle se situent dans la même zone (coagulation et thrombophilie) ou concernent des pathologies sans lien démontré :
 
 | Rang | Maladie prédite | Score | Niveau de preuve | Commentaire |
 |---|---|---|---|---|
-| 2 | Aménorrhée | 99,82 % | L4 | Littérature indirecte (l'aménorrhée est un état lié au traitement du cancer du sein, pas une cible thérapeutique) |
-| 3 | Excès de facteur V avec thrombose spontanée | 99,82 % | L5 | Aucun rationnel mécanistique |
-| 4 | Déficit en cofacteur II de l'héparine | 99,82 % | L5 | Aucun lien identifié |
-| 5 | Thrombophilie | 99,67 % | L5 | Les inhibiteurs de l'aromatase comportent plutôt un risque thromboembolique |
-| 6 | Migraine | 99,02 % | L5 | Lien hormonal hypothétique, sens de l'effet incertain |
-| 7 | Migraine avec aura du tronc cérébral | 99,01 % | L5 | Spéculatif, sans données |
+| 2 | Aménorrhée | 0,9982 | L4 | Littérature indirecte (l'aménorrhée est un état lié au traitement du cancer du sein, pas une cible thérapeutique) |
+| 3 | Excès de facteur V avec thrombose spontanée | 0,9982 | L5 | Aucun rationnel mécanistique |
+| 4 | Déficit en cofacteur II de l'héparine | 0,9982 | L5 | Aucun lien identifié |
+| 5 | Thrombophilie | 0,9967 | L5 | Les inhibiteurs de l'aromatase comportent plutôt un risque thromboembolique |
+| 6 | Migraine | 0,9902 | L5 | Lien hormonal hypothétique, sens de l'effet incertain |
+| 7 | Migraine avec aura du tronc cérébral | 0,9901 | L5 | Spéculatif, sans données |
 
 ---
 
@@ -100,15 +100,15 @@ Aucune littérature associée disponible actuellement pour la déficience en ant
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; aucune n'est actuellement valide. Le texte d'indication n'est pas renseigné dans les données compilées. Principales AMM (5 sur 16) :
+Les 16 AMM sur 16 sont valides. Le texte d'indication n'est pas renseigné dans les données compilées. Principales AMM (5 sur 16) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66922032 | EXEMESTANE TEVA 25 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69225138 | AROMASINE 25 mg (Pfizer) | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 64144682 | EXEMESTANE ZENTIVA 25 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69233035 | AROMASINE 25 mg (Difarmed) | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 61396272 | EXEMESTANE ZYDUS FRANCE 25 mg | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 66922032 | EXEMESTANE TEVA 25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69225138 | AROMASINE 25 mg (Pfizer) | Comprimé enrobé | Non renseignée (AMM active) |
+| 64144682 | EXEMESTANE ZENTIVA 25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69233035 | AROMASINE 25 mg (Difarmed) | Comprimé enrobé | Non renseignée (AMM active) |
+| 61396272 | EXEMESTANE ZYDUS FRANCE 25 mg | Comprimé enrobé | Non renseignée (AMM active) |
 
 ---
 

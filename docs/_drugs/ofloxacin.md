@@ -6,9 +6,9 @@ nav_order: 554
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ofloxacin : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (niveau de preuve L5). Indication d'origine : Infections bactériennes (fièvre typhoïde, infections urinaires…"
 monitor_inn: "ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
+description: "Ofloxacin : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Ofloxacin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ofloxacine : Des Infections Bactériennes à la Peste Septicémique
+## Ofloxacin: Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,20 +47,20 @@ Le modèle TxGNN lui attribue un score très élevé pour plusieurs nouvelles in
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections bactériennes (fièvre typhoïde, infections urinaires, bronchite, pneumonie bactérienne, etc.) ; le texte d'indication des AMM françaises n'est pas renseigné |
-| Nouvelle Indication Prédite (rang 1 du modèle) | Syndrome d'hyperviscosité polyclonale |
-| Nouvelle Indication Retenue pour l'analyse | Peste septicémique (rang 8) |
-| Score de Prédiction TxGNN | 99,91 % (rang 1) ; 99,79 % (peste septicémique) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite (rang 1 du modèle) | Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome) |
+| Nouvelle Indication Retenue pour l'analyse | Polyclonal hyperviscosity syndrome |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 pour le rang 1 ; L4 pour la peste septicémique |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 19 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Hold (rang 1) ; question de recherche pour la peste septicémique |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'ofloxacine est une fluoroquinolone qui inhibe l'ADN gyrase et la topoisomérase IV bactériennes, ce qui bloque la réplication de l'ADN des bactéries sensibles.
 
-**Prédiction de rang 1 (hyperviscosité polyclonale).** Aucun lien mécanistique plausible n'existe : cette affection est due à un excès d'immunoglobulines, sur lequel l'ofloxacine n'a aucun effet connu. Le score élevé reflète uniquement une prédiction issue d'un graphe de connaissances. Il en va de même pour l'hyperamylasémie, l'analbuminémie congénitale, l'incompatibilité de groupe sanguin, les maladies hématologiques prémalignes ou congénitales et la gammapathie monoclonale. La neuropathie périphérique acquise associée à une maladie hématologique est même contraire au profil de l'ofloxacine, car les fluoroquinolones peuvent provoquer des neuropathies périphériques.
+**Prédiction de rang 1 (hyperviscosité polyclonale).** Aucun lien mécanistique plausible n'existe : cette affection est due à un excès d'immunoglobulines, sur lequel l'ofloxacine n'a aucun effet connu. Il en va de même pour l'hyperamylasémie, l'analbuminémie congénitale, l'incompatibilité de groupe sanguin, les maladies hématologiques prémalignes ou congénitales et la gammapathie monoclonale. La neuropathie périphérique acquise associée à une maladie hématologique est même contraire au profil de l'ofloxacine, car les fluoroquinolones peuvent provoquer des neuropathies périphériques.
 
 **Peste septicémique (rang 8).** Ici, le lien est biologiquement plausible : *Yersinia pestis* est sensible aux fluoroquinolones in vitro, et des modèles animaux (souris, primates) montrent une activité. Il s'agit toutefois d'une extension du spectre antibactérien existant de l'ofloxacine, plutôt que d'un véritable repositionnement mécanistique.
 
@@ -116,7 +116,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - Pour le rang 1 et la plupart des autres prédictions, le score élevé du modèle n'est étayé par aucun essai, aucune publication pertinente ni mécanisme plausible (niveau L5).
-- La peste septicémique (L4) repose sur des données in vitro et animales uniquement, sans essai humain, et correspond à une extension du spectre antibactérien connu. Toutes les AMM françaises étant annulées, aucune voie de mise sur le marché n'est actuellement disponible.
+- La peste septicémique (L4) repose sur des données in vitro et animales uniquement, sans essai humain, et correspond à une extension du spectre antibactérien connu.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).

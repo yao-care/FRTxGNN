@@ -46,17 +46,17 @@ Le thymol est un composé phénolique issu du thym, présent dans des produits �
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées pour ce rapport |
 | Nouvelle Indication Prédite | Anévrisme du septum interventriculaire |
-| Score de Prédiction TxGNN | 99,25 % |
+| Score de Prédiction TxGNN | 0,9925 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le thymol est un monoterpène phénolique doté de propriétés antimicrobiennes, antioxydantes et anti-inflammatoires. Il a été utilisé dans des préparations à usage local ou respiratoire (inhalation, pommade, bain de bouche).
 
-Aucun lien mécanistique n'a été identifié entre ces propriétés et l'anévrisme du septum interventriculaire, une anomalie cardiaque structurelle. Le score élevé reflète une proximité dans le graphe de connaissances, et non une preuve pharmacologique. Cette prédiction doit donc être considérée comme une simple hypothèse de modèle.
+Aucun lien mécanistique n'a été identifié entre ces propriétés et l'anévrisme du septum interventriculaire, une anomalie cardiaque structurelle. Le score élevé (0.9925) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Cette prédiction doit donc être considérée comme une simple hypothèse de modèle.
 
 D'autres indications prédites, bien classées par le modèle, sont également sans preuve : maladie de la valve pulmonaire, syndrome de Laubry-Pezzi, syndrome de Pierre Robin, fentes oro-faciales, délétions chromosomiques, etc. Pour ces candidats, la plausibilité mécanistique reste faible.
 
@@ -74,9 +74,9 @@ Pour information, des publications sur le thymol existent mais concernent d'autr
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64424727 | PERUBORE INHALATION | Capsule pour inhalation par vapeur | Non renseignée (AMM annulée) |
-| 64072763 | VICKS VAPORUB | Pommade | Non renseignée (AMM annulée) |
-| 61989408 | GLYCO-THYMOLINE 55 | Solution buccale | Non renseignée (AMM annulée) |
+| 64424727 | PERUBORE INHALATION | Capsule pour inhalation par vapeur | Non renseignée (AMM active) |
+| 64072763 | VICKS VAPORUB | Pommade | Non renseignée (AMM active) |
+| 61989408 | GLYCO-THYMOLINE 55 | Solution buccale | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -88,7 +88,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans littérature spécifique et sans lien mécanistique plausible avec une anomalie cardiaque structurelle.
-- Toutes les AMM françaises sont annulées, et les informations de sécurité sont indisponibles, ce qui empêche l'étape de sélection de sécurité.
+- 3 AMM françaises valides sur 3, le médicament est commercialisé, et les informations de sécurité sont indisponibles, ce qui empêche l'étape de sélection de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications) afin de réaliser le criblage de sécurité

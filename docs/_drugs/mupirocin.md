@@ -6,9 +6,9 @@ nav_order: 518
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Mupirocin : nouvelle indication prédite, Empyème pleural (niveau de preuve L5). Indication d'origine : Impétigo, impétigo bulleux"
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin : nouvelle indication prédite, Empyème pleural (pleural empyema (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Mupirocin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Mupirocine : De l'impétigo à l'empyème pleural
+## Mupirocin: Empyème pleural (pleural empyema (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**empyème pleur
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Impétigo, impétigo bulleux (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Empyème pleural |
-| Score de Prédiction TxGNN | 99,49 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Empyème pleural (pleural empyema (disease)) |
+| Score de Prédiction TxGNN | 0.9949 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec l'empyème pleural est lâche : cette infection est souvent causée par ces mêmes germes, d'où une certaine logique antibactérienne. Toutefois, la plausibilité pharmacocinétique est **très faible**. La mupirocine n'est approuvée que par voie topique, son exposition systémique est négligeable et elle est rapidement hydrolysée en acide monique inactif. Elle ne convient donc pas au traitement systémique ou intrapleural d'une infection profonde.
 
-Le score TxGNN très élevé (0,995) reflète une proximité dans le graphe de connaissances, et non une preuve d'efficacité.
+Le score TxGNN très élevé (0.9949) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,11 +73,11 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 66325311 | BACTROBAN 2 %, pommade nasale | Pommade | Non renseignée | Annulée |
-| 69265691 | MUPIDERM 2 %, pommade | Pommade | Non renseignée | Annulée |
-| 65777420 | MUPIROCINE VIATRIS 2 %, pommade | Pommade | Non renseignée | Annulée |
-| 64347960 | MUPIROCINE EG 2 %, pommade | Pommade | Non renseignée | Annulée |
-| 61059102 | MUPIROCINE ARROW 2 %, pommade | Pommade | Non renseignée | Annulée |
+| 66325311 | BACTROBAN 2 %, pommade nasale | Pommade | Non renseignée | Active |
+| 69265691 | MUPIDERM 2 %, pommade | Pommade | Non renseignée | Active |
+| 65777420 | MUPIROCINE VIATRIS 2 %, pommade | Pommade | Non renseignée | Active |
+| 64347960 | MUPIROCINE EG 2 %, pommade | Pommade | Non renseignée | Active |
+| 61059102 | MUPIROCINE ARROW 2 %, pommade | Pommade | Non renseignée | Active |
 
 ## Considérations de Sécurité
 
@@ -92,7 +92,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et la voie topique de la mupirocine est incompatible avec une infection pleurale profonde.
-- Toutes les AMM françaises sont annulées et les données de sécurité officielles sont absentes.
+- Le médicament est commercialisé en France : 7 AMM valides sur 7. Les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications), une lacune bloquante pour l'évaluation de sécurité
@@ -100,7 +100,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Démontrer une faisabilité pharmacocinétique (exposition locale ou systémique suffisante, voie d'administration compatible)
 - Rechercher des données précliniques ou cliniques sur l'empyème pleural
 
-**Note sur la seconde prédiction :** la kératoconjonctivite épithéliale ponctuée (score TxGNN 99,10 %, niveau L5, Hold) n'est étayée par aucune preuve directe. La pommade de mupirocine n'est ni formulée ni approuvée pour l'usage ophtalmique, et sa sécurité sur la surface oculaire n'est pas établie. Seul un sous-groupe d'origine staphylococcique pourrait présenter un lien antibactérien.
+**Note sur la seconde prédiction :** la kératoconjonctivite épithéliale ponctuée (score TxGNN 0,9910, niveau L5, Hold) n'est étayée par aucune preuve directe. La pommade de mupirocine n'est ni formulée ni approuvée pour l'usage ophtalmique, et sa sécurité sur la surface oculaire n'est pas établie. Seul un sous-groupe d'origine staphylococcique pourrait présenter un lien antibactérien.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

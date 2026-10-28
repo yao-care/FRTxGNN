@@ -6,9 +6,9 @@ nav_order: 703
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Silodosin : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie bénigne de la prostate"
 monitor_inn: "silodosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Silodosin : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) (niveau de preuve L5). Indication d'origine : Non rens…"
 ---
 
 # Silodosin
@@ -33,14 +33,14 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Silodosine : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Universelle Congénitale de type Ambras
+## Silodosin: Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La silodosine est un antagoniste sélectif des récepteurs alpha-1A adrénergiques, initialement utilisé pour le traitement de l'hyperplasie bénigne de la prostate.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertrichose universelle congénitale de type Ambras**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction.
-Il s'agit d'une prédiction issue uniquement d'un graphe de connaissances, sans fondement mécanistique établi.
+Il s'agit d'une prédiction issue du modèle TxGNN (apprentissage profond), dont le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; aucun fondement mécanistique n'est établi.
 
 ---
 
@@ -48,12 +48,12 @@ Il s'agit d'une prédiction issue uniquement d'un graphe de connaissances, sans 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hyperplasie bénigne de la prostate (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypertrichose universelle congénitale de type Ambras |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Nombre d'AMM | 20 (valides : 20) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,9 +62,9 @@ Il s'agit d'une prédiction issue uniquement d'un graphe de connaissances, sans 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la silodosine est un antagoniste sélectif des récepteurs alpha-1A adrénergiques, agissant principalement sur le bas appareil urinaire et la prostate. Son efficacité dans l'hyperplasie bénigne de la prostate repose sur ce mécanisme.
 
-La relation avec la nouvelle indication est très ténue. Le syndrome d'Ambras est d'origine génétique : il implique des remaniements chromosomiques en 8q22 qui affectent la régulation du gène TRPS1. Aucun lien plausible n'existe entre le blocage des récepteurs alpha-1A et cette cause. Le score élevé reflète probablement une proximité dans le réseau du graphe avec des phénotypes liés aux poils, et non une véritable relation thérapeutique.
+La relation avec la nouvelle indication est très ténue. Le syndrome d'Ambras est d'origine génétique : il implique des remaniements chromosomiques en 8q22 qui affectent la régulation du gène TRPS1. Aucun lien plausible n'existe entre le blocage des récepteurs alpha-1A et cette cause. Le score élevé (0.9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une véritable relation thérapeutique ni une preuve biologique.
 
-Les autres prédictions du modèle (hypertrichose, malformations avec composante dentaire ou parodontale, syndromes avec malformation de Dandy-Walker, anomalies génétiques isolées de la tige pilaire, trichomégalie familiale isolée) présentent le même profil : scores élevés (de 99,2 % à 99,99 %), aucune preuve clinique ou bibliographique, et aucun mécanisme crédible. Pour l'hypertrichose, le sens de l'effet recherché (réduire la pilosité) reste de plus incertain.
+Les autres prédictions du modèle (hypertrichose, malformations avec composante dentaire ou parodontale, syndromes avec malformation de Dandy-Walker, anomalies génétiques isolées de la tige pilaire, trichomégalie familiale isolée) présentent le même profil : scores élevés (de 0.9923 à 0.9999), aucune preuve clinique ou bibliographique, et aucun mécanisme crédible. Pour l'hypertrichose, le sens de l'effet recherché (réduire la pilosité) reste de plus incertain.
 
 ---
 
@@ -82,7 +82,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées, aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Voici les 5 premières :
+Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Voici les 5 premières :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible reliant le blocage alpha-1A à une maladie génétique de la pilosité. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible reliant le blocage alpha-1A à une maladie génétique de la pilosité. De plus, le médicament est commercialisé en France (20 AMM valides sur 20).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA) de la silodosine

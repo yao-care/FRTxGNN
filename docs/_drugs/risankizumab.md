@@ -6,9 +6,9 @@ nav_order: 671
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Risankizumab : nouvelle indication prédite, Dermatite (niveau de preuve L2). Indication d'origine : Psoriasis, parapsoriasis"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Risankizumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Risankizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Risankizumab : Du Psoriasis à la Dermatite
+## Risankizumab: Dermatite (dermatitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction repose sur des preuves modestes : le mécanisme n'est que part
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Psoriasis, parapsoriasis (texte d'indication des AMM non renseigné ; source : graphe de connaissances) |
-| Nouvelle Indication Prédite | Dermatite |
-| Score de Prédiction TxGNN | 99,98 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dermatite (dermatitis) |
+| Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ---
@@ -98,13 +98,13 @@ Le score TxGNN très élevé (0,9998) est une prédiction computationnelle et ne
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 69949390 | SKYRIZI 150 mg, seringue préremplie | Solution injectable | Non renseignée | Annulée |
-| 66047342 | SKYRIZI 150 mg, stylo prérempli | Solution injectable | Non renseignée | Annulée |
-| 61512595 | SKYRIZI 360 mg, cartouche | Solution injectable | Non renseignée | Annulée |
-| 64900681 | SKYRIZI 600 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée | Annulée |
-| 67060271 | SKYRIZI 75 mg, seringue préremplie | Solution injectable | Non renseignée | Annulée |
+| 69949390 | SKYRIZI 150 mg, seringue préremplie | Solution injectable | Non renseignée | Active |
+| 66047342 | SKYRIZI 150 mg, stylo prérempli | Solution injectable | Non renseignée | Active |
+| 61512595 | SKYRIZI 360 mg, cartouche | Solution injectable | Non renseignée | Active |
+| 64900681 | SKYRIZI 600 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée | Active |
+| 67060271 | SKYRIZI 75 mg, seringue préremplie | Solution injectable | Non renseignée | Active |
 
-Les 5 AMM (titulaire : AbbVie Deutschland, Allemagne) sont annulées ; aucune AMM valide n'est actuellement recensée.
+Les 5 AMM (titulaire : AbbVie Deutschland, Allemagne) sont valides ; le médicament est commercialisé.
 
 ---
 
@@ -125,7 +125,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - Un seul essai de Phase 2 randomisé dans la dermatite atopique existe (niveau L2), mais le mécanisme est partiellement inadapté (maladie dominée par Th2), aucun bénéfice clair n'est établi dans les données compilées, et des cas d'eczéma paradoxal sous inhibiteurs de l'IL-23 sont rapportés.
-- Sur le marché français, toutes les AMM sont annulées et les mises en garde ainsi que les contre-indications ne sont pas disponibles, ce qui bloque l'évaluation de sécurité.
+- Sur le marché français, le médicament est commercialisé (5 AMM valides sur 5) ; les mises en garde ainsi que les contre-indications ne sont pas disponibles, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Vérifier les résultats d'efficacité de l'essai NCT03706040 (publication PMID 36588137) ; l'absence de bénéfice clair irait contre la poursuite.

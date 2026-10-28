@@ -6,9 +6,9 @@ nav_order: 682
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Rotigotine : nouvelle indication prédite, Trouble du déficit de l'attention avec hyperactivité (TDAH) (niveau de preuve L5). Indication d'origine : Syndrome des jambes sans repos"
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
+description: "Rotigotine : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rotigotine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Rotigotine : De la maladie de Parkinson et du syndrome des jambes sans repos au trouble du déficit de l'attention avec hyperactivité (TDAH)
+## Rotigotine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble du déf
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome des jambes sans repos ; maladie de Parkinson (selon le graphe de connaissances, le texte d'indication des AMM n'étant pas disponible) |
-| Nouvelle Indication Prédite | Trouble du déficit de l'attention avec hyperactivité (TDAH) |
-| Score de Prédiction TxGNN | 99,997 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Attention deficit-hyperactivity disorder |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 (prédiction du modèle, aucune étude clinique ; la littérature disponible est de nature mécanistique ou de revue) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -77,10 +77,10 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66662951 | NEUPRO 4 mg/24 h, dispositif transdermique (annulée) | Dispositif | Non renseignée |
-| 61578613 | NEUPRO 8 mg/24 h, dispositif transdermique (annulée) | Dispositif | Non renseignée |
-| 69741731 | NEUPRO 2 mg/24 h, dispositif transdermique (annulée) | Dispositif | Non renseignée |
-| 60200500 | NEUPRO 6 mg/24 h, dispositif transdermique (annulée) | Dispositif | Non renseignée |
+| 66662951 | NEUPRO 4 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
+| 61578613 | NEUPRO 8 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
+| 69741731 | NEUPRO 2 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
+| 60200500 | NEUPRO 6 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -95,7 +95,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et une littérature limitée à des revues et à de la pharmacologie mécanistique. Toutes les AMM françaises sont annulées, et les données de sécurité de la notice manquent, ce qui bloque le dépistage de sécurité.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et une littérature limitée à des revues et à de la pharmacologie mécanistique. Les 4 AMM françaises sont valides (4 sur 4), mais les données de sécurité de la notice manquent, ce qui bloque le dépistage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ciprofloxacin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 173
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ciprofloxacin : nouvelle indication prédite, Sclérodermie diffuse (niveau de preuve L4). Indication d'origine : Fièvre typhoïde et autres infections bactériennes"
 monitor_inn: "ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+description: "Ciprofloxacin : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Ciprofloxacine : D'un antibiotique anti-infectieux à la sclérodermie diffuse
+## Ciprofloxacin: Sclérodermie diffuse (diffuse scleroderma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Les données compilées pour ce rapport ne contiennent **aucun essai clinique en
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Fièvre typhoïde et autres infections bactériennes (texte d'indication des AMM non renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Sclérodermie diffuse |
-| Score de Prédiction TxGNN | 99,87 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 10 (0 valide, 10 annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sclérodermie diffuse (diffuse scleroderma) |
+| Score de Prédiction TxGNN | 0.9987 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,15 +75,15 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné. Cinq des dix AMM sont listées.
+Les 10 AMM sur 10 sont valides. Le texte d'indication approuvée n'est pas renseigné. Cinq des dix AMM sont listées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69264461 | CIPROFLOXACINE AGUETTANT 400 mg/200 ml | Solution pour perfusion | Annulée |
-| 66255471 | CIPROFLOXACINE PANPHARMA 400 mg/200 mL | Solution pour perfusion | Annulée |
-| 64728922 | CIFLOX 500 mg/5 ml (Bayer Healthcare) | Granulés et solvant pour suspension buvable | Annulée |
-| 65126598 | CIFLOX 200 mg/100 mL (Bayer Healthcare) | Solution pour perfusion (IV) | Annulée |
-| 61904596 | CIPROFLOXACINE KABI 400 mg/200 ml | Solution pour perfusion en poche | Annulée |
+| 69264461 | CIPROFLOXACINE AGUETTANT 400 mg/200 ml | Solution pour perfusion | Active |
+| 66255471 | CIPROFLOXACINE PANPHARMA 400 mg/200 mL | Solution pour perfusion | Active |
+| 64728922 | CIFLOX 500 mg/5 ml (Bayer Healthcare) | Granulés et solvant pour suspension buvable | Active |
+| 65126598 | CIFLOX 200 mg/100 mL (Bayer Healthcare) | Solution pour perfusion (IV) | Active |
+| 61904596 | CIPROFLOXACINE KABI 400 mg/200 ml | Solution pour perfusion en poche | Active |
 
 ## Considérations de Sécurité
 
@@ -98,7 +98,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 **Justification :**
 - La prédiction pour la sclérodermie diffuse repose sur un score de modèle élevé et sur deux publications, l'une exploratoire et l'autre portant sur un symptôme digestif. Il n'existe aucun essai clinique enregistré, et le niveau de preuve est L4.
-- Aucune AMM n'est valide en France (10 sur 10 annulées), et les données de sécurité officielles manquent. Ces deux points empêchent d'aller plus loin pour l'instant.
+- Ces deux points empêchent d'aller plus loin pour l'instant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Lire les textes intégraux des publications (notamment PMID 20507401) pour confirmer la conception de l'étude, l'effectif et les résultats.

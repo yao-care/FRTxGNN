@@ -47,17 +47,17 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ésotropie**, ma
 |------|------|
 | Indication Originale | Trouble dégénératif des disques intervertébraux ; fracture du tibia (texte d'indication de l'AMM non disponible) |
 | Nouvelle Indication Prédite | Ésotropie |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, dibotermin alfa est une protéine morphogénétique osseuse de type 2 (BMP-2) recombinante. Elle agit sur les voies ostéoinductrices et stimule la formation osseuse lorsqu'elle est implantée localement sur une matrice.
 
-L'ésotropie est un trouble de l'alignement moteur oculaire. Aucun lien mécanistique plausible n'a été identifié entre une protéine ostéoinductrice et ce trouble. Le score élevé de TxGNN reflète une prédiction fondée sur le graphe de connaissances, sans élément clinique ou bibliographique à l'appui. Cette prédiction doit donc être considérée avec une grande prudence.
+L'ésotropie est un trouble de l'alignement moteur oculaire. Aucun lien mécanistique plausible n'a été identifié entre une protéine ostéoinductrice et ce trouble. Le score élevé de TxGNN reflète une prédiction du modèle TxGNN (apprentissage profond), sans élément clinique ou bibliographique à l'appui. Cette prédiction doit donc être considérée avec une grande prudence.
 
 Les autres indications prédites présentent la même fragilité : plusieurs cancers du sein (HER2 positif, luminal A/B, récepteurs de la progestérone positifs ou négatifs, sous-type de type mammaire normal), la malformation œsophagienne non syndromique, la choroïdite multifocale et la coarctation atypique de l'aorte. Pour les cancers du sein, l'utilisation d'un facteur de croissance ostéoinducteur soulève en outre une inquiétude théorique de promotion tumorale. Pour la coarctation, une activité BMP-2 ectopique en tissu vasculaire pourrait être nocive (calcification).
 
@@ -79,7 +79,7 @@ Aucune littérature associée n'est disponible actuellement pour l'ésotropie.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60897889 | INDUCTOS 1,5 mg/ml, poudre, solvant et matrice pour matrice implantable (Medtronic BioPharma, Pays-Bas) | Poudre, solvant et matrice pour matrice implantable | Non renseignée (AMM annulée) |
+| 60897889 | INDUCTOS 1,5 mg/ml, poudre, solvant et matrice pour matrice implantable (Medtronic BioPharma, Pays-Bas) | Poudre, solvant et matrice pour matrice implantable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

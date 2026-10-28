@@ -6,9 +6,9 @@ nav_order: 434
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lanadelumab : nouvelle indication prédite, Déficience en inhibiteur de C1 (niveau de preuve L1). Indication d'origine : Angio-œdème héréditaire (AOH) et AOH avec déficience en C1-INH"
 monitor_inn: "lanadelumab"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab : nouvelle indication prédite, Déficience en inhibiteur de C1 (C1 inhibitor deficiency) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lanadelumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Lanadélumab : De l'angio-œdème héréditaire à la déficience en inhibiteur de C1
+## Lanadelumab: Déficience en inhibiteur de C1 (C1 inhibitor deficiency)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il faut toutefois noter que cette indication prédite correspond en pratique à 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Angio-œdème héréditaire (AOH) et AOH avec déficience en C1-INH (source : graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Déficience en inhibiteur de C1 |
-| Score de Prédiction TxGNN | 99,996 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Déficience en inhibiteur de C1 (C1 inhibitor deficiency) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -101,11 +101,11 @@ Cette indication coïncide avec l'usage d'origine du médicament. La forte conco
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63473155 | TAKHZYRO 300 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 61988861 | TAKHZYRO 300 mg, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
-| 67650090 | TAKHZYRO 150 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
+| 63473155 | TAKHZYRO 300 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 61988861 | TAKHZYRO 300 mg, solution injectable | Solution injectable | Non renseignée (AMM active) |
+| 67650090 | TAKHZYRO 150 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
 
-Les trois AMM, détenues par Takeda Pharmaceuticals International (Irlande), sont au statut « annulé » : aucune AMM valide n'apparaît dans les données compilées pour ce rapport.
+Les trois AMM, détenues par Takeda Pharmaceuticals International (Irlande), sont valides : le médicament est commercialisé dans ce pays (3 AMM valides sur 3).
 
 ---
 

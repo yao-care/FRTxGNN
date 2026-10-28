@@ -6,9 +6,9 @@ nav_order: 546
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norethisterone : nouvelle indication prédite, Aménorrhée (niveau de preuve L4). Indication d'origine : Insuffisance ovarienne primaire, endométriose…"
 monitor_inn: "norethisterone"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Norethisterone
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Noréthistérone : De l'Insuffisance Ovarienne Primaire et de l'Endométriose à l'Aménorrhée
+## Norethisterone: Aménorrhée (amenorrhea (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré et la littérature disponible (20 publica
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Insuffisance ovarienne primaire, endométriose, ostéoporose post-ménopausique, atrophie vaginale post-ménopausique (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,60 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
+| Score de Prédiction TxGNN | 0.9960 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -108,14 +108,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction est plausible sur le plan pharmacologique, mais elle reste au niveau L4. Aucun essai clinique n'existe et la littérature est indirecte (contraception).
-- Les données de sécurité issues de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité. Toutes les AMM françaises sont par ailleurs annulées.
+- Les données de sécurité issues de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité. Le médicament est commercialisé en France, avec 4 AMM valides sur 5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice de l'ANSM (mises en garde et contre-indications).
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
 - Rechercher des études cliniques évaluant directement la noréthistérone dans l'aménorrhée primaire ou secondaire (test de retrait, association œstroprogestative).
 - Évaluer la compatibilité des voies d'administration et la similarité avec les indications d'origine.
-- Vérifier la disponibilité actuelle d'un produit à base de noréthistérone en France, puisque toutes les AMM sont annulées.
+- Vérifier la disponibilité actuelle d'un produit à base de noréthistérone en France : le médicament est commercialisé, avec 4 AMM valides sur 5.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

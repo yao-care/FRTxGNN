@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Cysteine
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 205
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cysteine : nouvelle indication prédite, Syndrome de l'œil sec (dry eye syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (texte d'indication vide pour t…"
@@ -14,7 +14,7 @@ predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavi
 # Cysteine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L4** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de l
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM (texte d'indication vide pour toutes les AMM). La base de connaissances indique : bronchite, intoxication au paracétamol, mucoviscidose, bronchectasies, amyloses |
 | Nouvelle Indication Prédite | Syndrome de l'œil sec (dry eye syndrome) |
-| Score de Prédiction TxGNN | 99,98 % |
+| Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L4 (études précliniques et de mécanisme uniquement, indirectes) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -87,11 +87,11 @@ Les autres publications retrouvées concernent le syndrome de Sjögren (généti
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 60208447 | NP100 PREMATURES AP-HP, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | Non renseignée (AMM active) |
+| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | Non renseignée (AMM active) |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
+| 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
+| 60208447 | NP100 PREMATURES AP-HP, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
 
 Au total, 8 AMM sont recensées, toutes annulées. Les 3 autres sont les émulsions NUMETAH G13 % E PREMATURES, G16 % E et G19 % E (Baxter).
 
@@ -107,7 +107,7 @@ Les mises en garde et contre-indications issues des notices officielles n'ont pa
 **Décision : Hold**
 
 **Justification :**
-- Le score de prédiction est très élevé (99,98 %), mais aucun essai clinique n'existe et les publications sont précliniques ou portent sur des dérivés et des formulations, pas sur la cystéine libre. Les données de sécurité de la notice sont manquantes, ce qui empêche le passage au criblage de sécurité. Les autres indications prédites (glaucome à angle fermé, maladie de la cavité nasale, laryngopharyngite aiguë, pharyngite, hyperthermie maligne d'effort) sont encore moins étayées, avec un niveau de preuve L4 à L5.
+- Le score de prédiction est très élevé (0,9998), mais aucun essai clinique n'existe et les publications sont précliniques ou portent sur des dérivés et des formulations, pas sur la cystéine libre. Les données de sécurité de la notice sont manquantes, ce qui empêche le passage au criblage de sécurité. Les autres indications prédites (glaucome à angle fermé, maladie de la cavité nasale, laryngopharyngite aiguë, pharyngite, hyperthermie maligne d'effort) sont encore moins étayées, avec un niveau de preuve L4 à L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice ANSM (mises en garde, contre-indications), actuellement manquante et bloquante

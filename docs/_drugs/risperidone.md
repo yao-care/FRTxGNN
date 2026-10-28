@@ -4,17 +4,17 @@ title: Risperidone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 673
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Risperidone : nouvelle indication prédite, Paralysie familiale du regard horizontal avec scoliose progressive (niveau de preuve L5). Indication d'origine : Schizophrénie, trouble bipolaire (manie)…"
 monitor_inn: "risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone : nouvelle indication prédite, Paralysie familiale du regard horizontal avec scoliose progressive (gaze palsy, familial horizontal… (niveau de preuve L5). Indication d'origine : Non rense…"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Rispéridone : De la schizophrénie à la paralysie familiale du regard horizontal avec scoliose progressive
+## Risperidone: Paralysie familiale du regard horizontal avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Schizophrénie, trouble bipolaire (manie), troubles du spectre autistique (les textes d'indication des AMM ne sont pas renseignés ; indications issues du graphe de connaissances TxGNN) |
-| Nouvelle Indication Prédite | Paralysie familiale du regard horizontal avec scoliose progressive |
-| Score de Prédiction TxGNN | 99,76 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Paralysie familiale du regard horizontal avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis) |
+| Score de Prédiction TxGNN | 0.9976 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Pour cette nouvelle indication, **aucun lien mécanistique identifiable n'existe**. La paralysie familiale du regard horizontal avec scoliose progressive est une maladie génétique rare, liée au gène ROBO3, qui touche le guidage des axones dans le tronc cérébral. L'antagonisme D2/5-HT2A de la rispéridone n'a aucune pertinence connue pour cette pathologie.
 
-Le score élevé de TxGNN (99,76 %) reflète une proximité dans le graphe de connaissances. Il ne constitue pas une preuve d'efficacité et doit être considéré avec une grande prudence.
+Le score élevé de TxGNN (0,9976) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il ne constitue pas une preuve d'efficacité et doit être considéré avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,17 +76,16 @@ Les données compilées contiennent d'autres indications prédites, mieux docume
 
 | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |------|------|------|------|
-| Syndrome d'Asperger (susceptibilité) | 99,74 % | L5 | Fait partie du spectre autistique, déjà couvert par l'indication d'origine ; prédiction redondante, sans essai ni publication |
-| Syndrome amélo-cérébro-hypohidrotique | 99,69 % | L5 | Aucun lien mécanistique crédible, aucune preuve |
-| Syndrome de Phelan-McDermid | 99,59 % | L4 | Une revue clinique et une étude préclinique sur le poisson-zèbre (shank3) ; aucun essai chez l'humain ; bénéfice éventuel uniquement symptomatique (irritabilité, agressivité) |
-| Trichotillomanie | 99,51 % | L4 | Plusieurs cas cliniques et petites séries (potentialisation des inhibiteurs de recapture de la sérotonine) ; aucun essai contrôlé |
-| Trouble affectif majeur | 99,11 % | L1 | Deux essais de Phase 3 terminés sur la rispéridone en appoint dans la dépression résistante : [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (630 patients) et [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (258 patients), ainsi que plusieurs méta-analyses ; décision *Proceed with Guardrails* |
+| Syndrome amélo-cérébro-hypohidrotique | 0,9969 | L5 | Aucun lien mécanistique crédible, aucune preuve |
+| Syndrome de Phelan-McDermid | 0,9959 | L4 | Une revue clinique et une étude préclinique sur le poisson-zèbre (shank3) ; aucun essai chez l'humain ; bénéfice éventuel uniquement symptomatique (irritabilité, agressivité) |
+| Trichotillomanie | 0,9951 | L4 | Plusieurs cas cliniques et petites séries (potentialisation des inhibiteurs de recapture de la sérotonine) ; aucun essai contrôlé |
+| Trouble affectif majeur | 0,9911 | L1 | Deux essais de Phase 3 terminés sur la rispéridone en appoint dans la dépression résistante : [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (630 patients) et [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (258 patients), ainsi que plusieurs méta-analyses ; décision *Proceed with Guardrails* |
 
 Pour le trouble affectif majeur, le bénéfice se limite à la dépression résistante, en appoint d'un antidépresseur. Il s'accompagne de risques métaboliques, extrapyramidaux, de somnolence et d'hyperprolactinémie. Les essais portant sur le trouble bipolaire chevauchent l'indication existante et ne constituent pas une nouvelle preuve de repositionnement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées. Aucune AMM n'est actuellement valide. Les textes d'indication approuvée ne sont pas renseignés. Voici cinq d'entre elles :
+Les 20 AMM recensées sont toutes annulées. Les textes d'indication approuvée ne sont pas renseignés. Voici cinq d'entre elles :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -109,7 +108,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 **Justification :**
 - La prédiction pour la paralysie familiale du regard horizontal avec scoliose progressive repose uniquement sur le score du modèle (L5). Elle n'est soutenue par aucun essai, aucune publication ni aucun mécanisme plausible.
-- Toutes les AMM françaises sont annulées, ce qui complique tout développement sans vérification préalable de la disponibilité.
+- Le médicament est commercialisé, avec 20 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM.

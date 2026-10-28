@@ -46,10 +46,10 @@ Le torémifène est un modulateur sélectif des récepteurs aux œstrogènes, co
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,41 % |
+| Score de Prédiction TxGNN | 0,9941 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,7 +74,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60433369 | FARESTON 60 mg, comprimé (ORION CORPORATION) – AMM annulée | Comprimé | Non renseignée |
+| 60433369 | FARESTON 60 mg, comprimé (ORION CORPORATION) – AMM active | Comprimé | Non renseignée |
 
 ## Cytotoxicité
 

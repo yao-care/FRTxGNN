@@ -47,9 +47,9 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cholangite 
 |------|------|
 | Indication originale | Non renseignée dans les données d'AMM (texte d'indication vide) |
 | Nouvelle indication prédite | Cholangite sclérosante |
-| Score de prédiction TxGNN | 99,82 % |
+| Score de prédiction TxGNN | 0,9982 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 20 annulées) |
 | Décision recommandée | Hold |
 
@@ -73,7 +73,7 @@ Aucun essai clinique associé n'est enregistré actuellement pour la cholangite 
 
 ## Informations de marché en France
 
-Toutes les AMM sont annulées. Le texte d'indication n'est pas renseigné dans les données.
+20 AMM valides en France, médicament commercialisé. Le texte d'indication n'est pas renseigné dans les données.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
@@ -96,8 +96,8 @@ Pour les mises en garde, les contre-indications officielles et les interactions 
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,82 %), mais il n'est soutenu par aucun essai ni aucune publication pertinente (niveau L5). Le lien mécanistique reste hypothétique.
-- Toutes les AMM françaises sont annulées, et les données de sécurité officielles sont absentes, ce qui bloque l'étape de sélection de sécurité.
+- Le score TxGNN est très élevé (0,9982), mais il n'est soutenu par aucun essai ni aucune publication pertinente (niveau L5). Le lien mécanistique reste hypothétique.
+- Le médicament est commercialisé en France (20 AMM valides), mais les données de sécurité officielles sont absentes, ce qui bloque l'étape de sélection de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).

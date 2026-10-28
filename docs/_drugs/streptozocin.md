@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **sclérose en 
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM disponible |
 | Nouvelle Indication Prédite | Sclérose en plaques récurrente-rémittente |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -69,15 +69,15 @@ Le score TxGNN élevé reflète donc une prédiction du modèle, sans soutien cl
 
 | Rang | Maladie prédite | Score TxGNN | Niveau de preuve | Remarque |
 |------|------|------|------|------|
-| 2 | Carcinome pulmonaire à petites cellules | 99,97 % | L4 | Lien indirect via la différenciation neuroendocrine ; 2 publications non spécifiques au CPPC |
-| 3 | Blastome pulmonaire | 99,97 % | L5 | Prédiction informatique seule |
-| 4 | Adénocarcinome fœtal bien différencié du poumon | 99,96 % | L5 | Variant très rare, aucune donnée |
-| 5 | Syndrome héréditaire de cancer du sein et de l'ovaire | 99,96 % | L5 | Syndrome de prédisposition, pas un type tumoral |
-| 6 | Lymphome pulmonaire primitif | 99,96 % | L5 | Rationnel de classe seulement |
-| 7 | Lymphosarcome | 99,95 % | L5 | Terme ancien pour lymphome non hodgkinien |
-| 8 | Rhabdomyosarcome | 99,95 % | L5 | Rationnel de classe (agents alkylants) |
-| 9 | Rhabdomyosarcome embryonnaire paraméningé | 99,95 % | L5 | Sous-type du rang 8 |
-| 10 | Rhabdomyosarcome embryonnaire des voies biliaires extrahépatiques | 99,94 % | L5 | Forme extrêmement rare |
+| 2 | Carcinome pulmonaire à petites cellules | 0,9997 | L5 | Lien indirect via la différenciation neuroendocrine ; 2 publications non spécifiques au CPPC |
+| 3 | Blastome pulmonaire | 0,9997 | L5 | Prédiction informatique seule |
+| 4 | Adénocarcinome fœtal bien différencié du poumon | 0,9996 | L5 | Variant très rare, aucune donnée |
+| 5 | Syndrome héréditaire de cancer du sein et de l'ovaire | 0,9996 | L5 | Syndrome de prédisposition, pas un type tumoral |
+| 6 | Lymphome pulmonaire primitif | 0,9996 | L5 | Rationnel de classe seulement |
+| 7 | Lymphosarcome | 0,9995 | L5 | Terme ancien pour lymphome non hodgkinien |
+| 8 | Rhabdomyosarcome | 0,9995 | L5 | Rationnel de classe (agents alkylants) |
+| 9 | Rhabdomyosarcome embryonnaire paraméningé | 0,9995 | L5 | Sous-type du rang 8 |
+| 10 | Rhabdomyosarcome embryonnaire des voies biliaires extrahépatiques | 0,9994 | L5 | Forme extrêmement rare |
 
 ---
 
@@ -104,7 +104,7 @@ Aucune littérature associée disponible actuellement pour la sclérose en plaqu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63371175 | ZANOSAR 1 g, poudre pour solution à diluer pour perfusion (ESTEVE PHARMACEUTICALS) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 63371175 | ZANOSAR 1 g, poudre pour solution à diluer pour perfusion (ESTEVE PHARMACEUTICALS) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Lenvatinib
 parent: Preuves élevées (L1-L2)
 nav_order: 444
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lenvatinib : nouvelle indication prédite, Liposarcome (niveau de preuve L2). Indication d'origine : Carcinome à cellules rénales et carcinome de la thyroïde"
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Lenvatinib : Du Carcinome Rénal et Thyroïdien au Liposarcome
+## Lenvatinib: Liposarcome (liposarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ avec **1 essai clinique** (phase Ib/II, à un seul bras) et **4 publications** (
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome à cellules rénales et carcinome de la thyroïde (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Liposarcome |
-| Score de Prédiction TxGNN | 99,51 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Liposarcome (liposarcoma) |
+| Score de Prédiction TxGNN | 0.9951 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -91,10 +91,10 @@ Il faut rester prudent : les preuves reposent sur une étude à un seul bras, de
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67913602 | KISPLYX 4 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 69503274 | KISPLYX 10 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 62093424 | LENVIMA 4 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 64456664 | LENVIMA 10 mg, gélule | Gélule | Non renseignée (AMM annulée) |
+| 67913602 | KISPLYX 4 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 69503274 | KISPLYX 10 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 62093424 | LENVIMA 4 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 64456664 | LENVIMA 10 mg, gélule | Gélule | Non renseignée (AMM active) |
 
 ---
 
@@ -139,7 +139,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ### Autres prédictions (information complémentaire)
 
-Parmi les autres indications prédites par le modèle, **le carcinome rénal** (score 99,37 %, niveau L1) est déjà une indication établie de lenvatinib (essais de phase 3 CLEAR, etc.) : il s'agit d'une confirmation d'un usage existant plutôt que d'un véritable repositionnement. Les formes **non à cellules claires / non classées** (niveau L2) disposent d'études de phase 2 à un bras (dont KEYNOTE-B61). Les autres prédictions (par exemple : angiolipome, pneumothorax spontané familial) n'ont aucune preuve clinique et sont au niveau L5, avec une recommandation **Hold**.
+Les prédictions du modèle (par exemple : angiolipome, pneumothorax spontané familial) n'ont aucune preuve clinique et sont au niveau L5, avec une recommandation **Hold**.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -4,17 +4,17 @@ title: Felodipine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 319
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Felodipine : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Hypertension artérielle (le texte d'indication des AMM n'est pas rens…"
 monitor_inn: "felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Felodipine : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Felodipine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,26 +33,25 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Félodipine : De l'Hypertension à l'Angor de Prinzmetal
+## Felodipine: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La félodipine est un inhibiteur calcique de type dihydropyridine, initialement utilisé pour traiter l'hypertension artérielle.
-Le modèle TxGNN la prédit comme potentiellement efficace pour l'**angor de Prinzmetal** (angor vasospastique), avec **0 essai clinique enregistré** mais **7 publications** (dont plusieurs études cliniques anciennes et petites) soutenant cette direction.
 
-Remarque : le premier résultat du modèle est l'hypertension pulmonaire d'origine multifactorielle peu claire. Cette indication ne repose que sur la prédiction du modèle (niveau L5). L'indication de l'angor de Prinzmetal est retenue ici dans le titre, car c'est la mieux documentée parmi les prédictions.
+Remarque : le premier résultat du modèle est l'hypertension pulmonaire d'origine multifactorielle peu claire. Cette indication ne repose que sur la prédiction du modèle (niveau L5).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Angor de Prinzmetal |
-| Score de Prédiction TxGNN | 99,07 % |
-| Niveau de Preuve | L2 (les études sont petites, anciennes, et non de phase 3 confirmée) |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucun produit commercialisé) |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pulmonary hypertension with unclear multifactorial mechanism |
+| Score de Prédiction TxGNN | 0.9991 |
+| Niveau de Preuve | L5 (les études sont petites, anciennes, et non de phase 3 confirmée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,10 +82,10 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67139288 | FELODIPINE ZENTIVA L.P. 5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM annulée) |
-| 69149683 | FLODIL L.P. 5 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM annulée) |
-| 69451322 | FELODIPINE SANDOZ L.P. 5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM annulée) |
-| 61950444 | LOGIMAX 5 mg/47,5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM annulée) |
+| 67139288 | FELODIPINE ZENTIVA L.P. 5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
+| 69149683 | FLODIL L.P. 5 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
+| 69451322 | FELODIPINE SANDOZ L.P. 5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
+| 61950444 | LOGIMAX 5 mg/47,5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -100,7 +99,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L2 : les études sur l'angor de Prinzmetal sont petites, anciennes (1989-1995), sans essai de phase 3 confirmé ni essai enregistré. Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice manquent (lacune bloquante pour le dépistage de sécurité).
+- Le niveau de preuve est L2 : les études sur l'angor de Prinzmetal sont petites, anciennes (1989-1995), sans essai de phase 3 confirmé ni essai enregistré.
 - Les autres indications prédites (hypertension pulmonaire, atteintes rénales hypertensives malignes, syndrome de Braddock, cœur pulmonaire chronique) reposent sur la seule prédiction du modèle ou sur des preuves indirectes ou précliniques (L4-L5), et ne justifient pas d'avancer.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -108,7 +107,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Lire les textes complets des études sur l'angor de Prinzmetal (tailles d'échantillon, critères de jugement) et comparer la félodipine aux autres inhibiteurs calciques
 - Évaluer la disponibilité pratique du produit, les AMM étant toutes annulées
-- Évaluer le risque lié à la coronaropathie et à l'infarctus du myocarde signalés dans le graphe de connaissances
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

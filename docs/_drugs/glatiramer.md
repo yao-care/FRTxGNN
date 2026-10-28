@@ -46,10 +46,10 @@ Glatiramer est un immunomodulateur utilisé dans la sclérose en plaques. Le mod
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (usage connu : sclérose en plaques) |
 | Nouvelle Indication Prédite | Hémoglobinopathie |
-| Score de Prédiction TxGNN | 99,03 % |
+| Score de Prédiction TxGNN | 0,9903 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -58,7 +58,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **Le lien mécanistique n'est pas établi.** Les hémoglobinopathies (drépanocytose, thalassémies) sont des maladies héréditaires de la structure ou de la synthèse de l'hémoglobine. Aucune voie connue ne relie l'action immunomodulatrice du glatiramer à la correction ou à l'amélioration de ces maladies.
 
-Le score élevé de TxGNN (0,990) est une prédiction issue du modèle seul. Il n'est étayé ici par aucune donnée clinique ou mécanistique, et cette prédiction doit être interprétée avec une grande prudence.
+Le score élevé de TxGNN (0,9903) est une prédiction issue du modèle seul. Il n'est étayé ici par aucune donnée clinique ou mécanistique, et cette prédiction doit être interprétée avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -92,7 +92,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5) : aucun essai clinique, aucun lien mécanistique crédible, et la seule publication retrouvée n'étudie pas le glatiramer dans cette indication. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le score du modèle (niveau L5) : aucun essai clinique, aucun lien mécanistique crédible, et la seule publication retrouvée n'étudie pas le glatiramer dans cette indication. De plus, le médicament est commercialisé en France, avec 4 AMM valides sur 4.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action du glatiramer et démonstration d'un lien plausible avec la physiopathologie des hémoglobinopathies

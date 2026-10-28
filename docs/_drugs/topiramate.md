@@ -4,17 +4,17 @@ title: Topiramate
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 773
 evidence_level: L5
-indication_count: 9
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Topiramate : nouvelle indication prédite, Néoplasme du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie avec crises généralisées tonico-cloniques…"
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Topiramate : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Topiramate
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Topiramate : De l'épilepsie à la tumeur du nerf trijumeau (prédiction du modèle)
+## Topiramate: Néoplasme du nerf trijumeau (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le topiramate est un médicament antiépileptique à large spectre, initialement utilisé pour traiter l'épilepsie généralisée tonico-clonique, l'épilepsie partielle et le syndrome de Lennox-Gastaut.
-Le modèle TxGNN prédit en tête de classement le **néoplasme du nerf trijumeau** (score très élevé, mais fondé uniquement sur le graphe de connaissances), sans **aucun essai clinique** ni **aucune publication** à l'appui pour cette indication.
+Le modèle TxGNN (apprentissage profond) prédit en tête de classement le **néoplasme du nerf trijumeau** (score très élevé). Ce score provient du modèle et peut refléter des similarités apprises entre maladies voisines, et non une preuve biologique ; il n'existe **aucun essai clinique** ni **aucune publication** à l'appui pour cette indication.
 Les autres prédictions du classement sont surtout des **épilepsies réflexes** (épilepsie visuelle, audiogène, de lecture, etc.), proches de l'indication d'origine, avec des preuves indirectes ou précliniques.
 
 ---
@@ -48,12 +48,12 @@ Les autres prédictions du classement sont surtout des **épilepsies réflexes**
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie avec crises généralisées tonico-cloniques, épilepsie partielle, syndrome de Lennox-Gastaut (données du graphe de connaissances ; le texte des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau |
-| Score de Prédiction TxGNN | 99,70 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) |
+| Score de Prédiction TxGNN | 0.9970 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations uniquement annulées (aucune AMM valide) |
-| Nombre d'AMM | 17 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Les autres prédictions du classement sont surtout des **épilepsies réflexes**
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le topiramate est un antiépileptique à large spectre dont les actions décrites comprennent le blocage des canaux sodiques, le renforcement de la transmission GABA-A, l'antagonisme des récepteurs AMPA/kaïnate et une inhibition faible de l'anhydrase carbonique.
 
-Pour la prédiction principale (néoplasme du nerf trijumeau), **aucun fondement mécanistique établi** n'existe : le topiramate n'a pas d'activité antitumorale reconnue. Le score élevé (99,70 %) provient uniquement du graphe de connaissances. Tout lien éventuel resterait spéculatif et relèverait plutôt du contrôle symptomatique (douleur neuropathique ou crises associées à la tumeur) que d'un effet sur la tumeur elle-même.
+Pour la prédiction principale (néoplasme du nerf trijumeau), **aucun fondement mécanistique établi** n'existe : le topiramate n'a pas d'activité antitumorale reconnue. Le score élevé (0,9970) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises entre maladies voisines, et non une preuve biologique. Tout lien éventuel resterait spéculatif et relèverait plutôt du contrôle symptomatique (douleur neuropathique ou crises associées à la tumeur) que d'un effet sur la tumeur elle-même.
 
 Les autres prédictions (épilepsie visuelle, épilepsie de la lecture, crises audiogènes, etc.) sont mécanistiquement plus plausibles, car ce sont des épilepsies réflexes relevant du spectre des épilepsies déjà traitées. Elles chevauchent toutefois les indications existantes et ne représentent pas un véritable signal de repositionnement.
 
@@ -98,11 +98,11 @@ Les 17 AMM recensées sont toutes annulées ; le texte d'indication approuvée n
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68906660 | TOPIRAMATE VIATRIS 200 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64696702 | TOPIRAMATE ARROW LAB 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61913385 | EPITOMAX 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68987922 | EPITOMAX 25 mg | Gélule | Non renseignée (AMM annulée) |
-| 63478939 | TOPIRAMATE BGR 50 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68906660 | TOPIRAMATE VIATRIS 200 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64696702 | TOPIRAMATE ARROW LAB 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61913385 | EPITOMAX 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 68987922 | EPITOMAX 25 mg | Gélule | Non renseignée (AMM active) |
+| 63478939 | TOPIRAMATE BGR 50 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -123,8 +123,7 @@ Les mises en garde officielles de la notice ne sont pas disponibles : veuillez c
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (néoplasme du nerf trijumeau) repose uniquement sur un score de graphe, sans essai, sans publication ni logique mécanistique antitumorale ; le niveau de preuve est L5.
-- Aucune AMM n'est actuellement valide en France, et les données de sécurité officielles manquent (lacune bloquante).
+- La prédiction principale (néoplasme du nerf trijumeau) repose uniquement sur un score du modèle TxGNN (apprentissage profond), pouvant refléter des similarités apprises entre maladies voisines et non une preuve biologique, sans essai, sans publication ni logique mécanistique antitumorale ; le niveau de preuve est L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).

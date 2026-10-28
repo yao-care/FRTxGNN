@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Warfarin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 824
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Warfarin : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (niveau de preuve L4). Indication d'origine : Embolie pulmonaire, maladie thrombotique, embolie intracrânienne"
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Warfarin : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (heparin cofactor 2 deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Warfarin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-## Warfarine : De l'embolie pulmonaire au déficit en cofacteur II de l'héparine
+## Warfarin: Déficit en cofacteur II de l'héparine (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour le **déficit en cofa
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Embolie pulmonaire, maladie thrombotique, embolie intracrânienne (le texte d'indication des AMM françaises n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Déficit en cofacteur II de l'héparine |
-| Score de Prédiction TxGNN | 99,87 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Déficit en cofacteur II de l'héparine (heparin cofactor 2 deficiency) |
+| Score de Prédiction TxGNN | 0.9987 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -64,7 +64,7 @@ Il faut toutefois rester prudent : les preuves se limitent à trois rapports de 
 Autres prédictions du modèle, à titre indicatif :
 - **Excès de facteur V avec thrombose spontanée** (99,84 %) et **déficit en antithrombine de type 2** (99,84 %) : plausibles mécanistiquement, mais soutenus par très peu de données (aucune publication, ou un seul rapport de cas).
 - **Thrombophilie** (99,75 %) : seule prédiction avec un essai de phase 3, mais il évalue une stratégie de durée guidée par les D-dimères, pas la warfarine spécifiquement.
-- **Polyarthrite rhumatoïde, maladie fibrokystique du sein, dysplasie mammaire bénigne** : aucun lien mécanistique plausible. Les essais liés à la polyarthrite sont des études d'interaction où la warfarine sert de substrat sonde ; ces scores élevés sont probablement des artefacts du graphe.
+- **Polyarthrite rhumatoïde, maladie fibrokystique du sein, dysplasie mammaire bénigne** : aucun lien mécanistique plausible. Les essais liés à la polyarthrite sont des études d'interaction où la warfarine sert de substrat sonde ; ces scores élevés viennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies proches, non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -92,9 +92,9 @@ Pour le contexte de la thrombophilie, une revue récente à citer : [39233011](h
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63245753 | COUMADINE 5 mg, comprimé sécable (TEOFARMA) | Comprimé sécable | Non renseignée (AMM annulée) |
-| 64631925 | COUMADINE 2 mg, comprimé sécable (TEOFARMA) | Comprimé sécable | Non renseignée (AMM annulée) |
-| 68364117 | COUMADINE 5 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 63245753 | COUMADINE 5 mg, comprimé sécable (TEOFARMA) | Comprimé sécable | Non renseignée (AMM active) |
+| 64631925 | COUMADINE 2 mg, comprimé sécable (TEOFARMA) | Comprimé sécable | Non renseignée (AMM active) |
+| 68364117 | COUMADINE 5 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

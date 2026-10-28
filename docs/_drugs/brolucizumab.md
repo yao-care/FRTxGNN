@@ -6,7 +6,7 @@ nav_order: 118
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Brolucizumab : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anoma… (niveau de preuve L5). Indication d'origine : Dégénérescence maculaire (texte d'indi…"
+description: "Brolucizumab : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (niveau de preuve L5). Indication d'origine : Dégénérescence maculaire (texte d'indi…"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices with bleeding", "esophageal varices without bleeding", "exocrine pancreatic insufficiency"]
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Brolucizumab : De la dégénérescence maculaire à un trouble de la phosphorylation oxydative mitochondriale (ADN nucléaire)
+## Brolucizumab : De la dégénérescence maculaire au trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,10 +48,10 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 |------|------|
 | Indication Originale | Dégénérescence maculaire (texte d'indication de l'AMM non renseigné) |
 | Nouvelle Indication Prédite | Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire |
-| Score de Prédiction TxGNN | 99,67 % |
+| Score de Prédiction TxGNN | 0,9967 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien mécanistique plausible n'est établi avec les défauts de phosphorylation oxydative d'origine nucléaire. Les maladies mitochondriales peuvent comporter une atteinte rétinienne et une signalisation VEGF liée à l'hypoxie, mais cette hypothèse reste spéculative.
 
-Le score élevé de TxGNN (0,997) provient d'une prédiction fondée sur le graphe de connaissances. Il n'est étayé par aucun essai clinique ni aucune publication dans les données compilées pour ce rapport, et doit donc être interprété avec une grande prudence.
+Le score élevé de TxGNN (0,9967) provient d'une prédiction du modèle TxGNN (apprentissage profond). Il n'est étayé par aucun essai clinique ni aucune publication dans les données compilées pour ce rapport, et doit donc être interprété avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65607585 | BEOVU 120 mg/ml, solution injectable en seringue préremplie (statut : annulée) | Solution injectable | Non renseignée |
+| 65607585 | BEOVU 120 mg/ml, solution injectable en seringue préremplie (statut : active) | Solution injectable | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -86,9 +86,9 @@ Pour les mises en garde, contre-indications officielles et interactions médicam
 
 | Rang | Indication Prédite | Score TxGNN | Niveau de Preuve | Commentaire |
 |------|------|------|------|------|
-| 2 | Varices œsophagiennes avec saignement | 99,12 % | L5 | Rationnel théorique (angiogenèse dépendante du VEGF, hypertension portale). Produit intravitréen, non conçu pour une voie systémique. Risque hémorragique et thromboembolique préoccupant en contexte de saignement actif. |
-| 3 | Varices œsophagiennes sans saignement | 99,12 % | L5 | Même rationnel et mêmes réserves. Score identique à la forme hémorragique, ce qui suggère des nœuds proches dans le graphe plutôt qu'une preuve indépendante. |
-| 4 | Insuffisance pancréatique exocrine | 99,07 % | L5 | Aucun lien mécanistique clair. Prise en charge par substitution enzymatique. Score probablement un artefact du graphe. |
+| 2 | Varices œsophagiennes avec saignement | 0,9912 | L5 | Rationnel théorique (angiogenèse dépendante du VEGF, hypertension portale). Produit intravitréen, non conçu pour une voie systémique. Risque hémorragique et thromboembolique préoccupant en contexte de saignement actif. |
+| 3 | Varices œsophagiennes sans saignement | 0,9912 | L5 | Même rationnel et mêmes réserves. Score identique à la forme hémorragique ; il provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique. |
+| 4 | Insuffisance pancréatique exocrine | 0,9907 | L5 | Aucun lien mécanistique clair. Prise en charge par substitution enzymatique. Le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique. |
 
 ## Conclusion et Prochaines Étapes
 

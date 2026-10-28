@@ -47,9 +47,9 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de l
 |------|------|
 | Indication Originale | Non disponible (aucun texte d'indication renseigné dans les AMM) |
 | Nouvelle Indication Prédite | Syndrome de la queue de cheval |
-| Score de Prédiction TxGNN | 99,77 % |
+| Score de Prédiction TxGNN | 0,9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulé uniquement |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de l
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la tyrosine est un acide aminé entrant dans la composition de solutions de nutrition parentérale et d'acides aminés. Elle est le précurseur de la dopamine et de la noradrénaline, ainsi que des hormones thyroïdiennes.
 
-Pour le syndrome de la queue de cheval, aucun lien mécanistique n'est établi. Il s'agit d'une atteinte compressive des racines nerveuses lombo-sacrées, pour laquelle aucun rôle plausible de la tyrosine n'apparaît. Le score très élevé du modèle (0,998) résulte probablement d'un artefact du graphe de connaissances plutôt que d'une logique biologique.
+Pour le syndrome de la queue de cheval, aucun lien mécanistique n'est établi. Il s'agit d'une atteinte compressive des racines nerveuses lombo-sacrées, pour laquelle aucun rôle plausible de la tyrosine n'apparaît. Le score très élevé (0,9977) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies voisines, non une preuve biologique.
 
 Parmi les autres prédictions, quelques-unes présentent un lien biologique théorique avec les voies de la tyrosine (thyroïde, système nerveux autonome). Aucune n'est étayée par des données cliniques solides (voir ci-dessous).
 
@@ -86,7 +86,7 @@ Pour information, les publications les plus pertinentes retrouvées pour d'autre
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées. Les textes d'indication ne sont pas renseignés. Voici les 5 premières AMM :
+19 AMM sont valides. Les textes d'indication ne sont pas renseignés. Voici les 5 premières AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -105,7 +105,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (syndrome de la queue de cheval) repose uniquement sur le score du modèle, sans essai ni publication, et sans lien mécanistique plausible. Les autres indications prédites n'ont pas de preuve convaincante. L'hyperthyroïdie bénéficie d'un lien biologique, mais l'apport de substrat ne devrait pas la traiter et pourrait même l'aggraver. De plus, toutes les AMM françaises sont annulées.
+- La prédiction principale (syndrome de la queue de cheval) repose uniquement sur le score du modèle TxGNN (apprentissage profond), sans essai ni publication, et sans lien mécanistique plausible. Les autres indications prédites n'ont pas de preuve convaincante. L'hyperthyroïdie bénéficie d'un lien biologique, mais l'apport de substrat ne devrait pas la traiter et pourrait même l'aggraver. Le médicament est commercialisé en France, avec 19 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues des notices ANSM, actuellement manquantes et bloquantes pour le criblage de sécurité

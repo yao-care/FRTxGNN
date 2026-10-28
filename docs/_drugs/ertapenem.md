@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ertapenem
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 296
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ertapenem : nouvelle indication prédite, Arthrite bactérienne (niveau de preuve L4). Indication d'origine : Pneumonie bactérienne"
 monitor_inn: "ertapenem"
 predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+description: "Ertapenem : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-## Ertapénème : De la pneumonie bactérienne à l'arthrite bactérienne
+## Ertapenem: Arthrite bactérienne (bacterial arthritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Une seconde prédiction, l'**infection à *Staphylococcus aureus***, est mieux �
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Pneumonie bactérienne (texte d'indication des AMM non disponible ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Arthrite bactérienne |
-| Score de Prédiction TxGNN | 99,72 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Arthrite bactérienne (bacterial arthritis) |
+| Score de Prédiction TxGNN | 0.9972 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Les infections ostéo-articulaires à entérobactéries sensibles et à anaérobies relèvent d'un spectre de pathogènes qui recoupe celui des indications d'origine. Le mécanisme est donc biologiquement plausible.
 
-Il faut toutefois rester prudent : l'arthrite bactérienne est déjà une cible antibactérienne conventionnelle, et non une véritable opportunité de repositionnement. Le score très élevé du modèle (0,997) est une prédiction computationnelle, non confirmée par des essais cliniques.
+Il faut toutefois rester prudent : l'arthrite bactérienne est déjà une cible antibactérienne conventionnelle, et non une véritable opportunité de repositionnement. Le score très élevé du modèle (0,9972) est une prédiction computationnelle, non confirmée par des essais cliniques.
 
 ## Preuves d'Essais Cliniques
 
@@ -95,13 +95,13 @@ Aucun essai randomisé n'est disponible. Pour l'infection à *S. aureus*, la lit
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69931556 | ERTAPENEM PANPHARMA 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM annulée) |
-| 65077051 | INVANZ 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM annulée) |
-| 68956656 | ERTAPENEM HIKMA 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM annulée) |
-| 62637897 | ERTAPENEM SUN 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM annulée) |
-| 66810994 | ERTAPENEM ARROW 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM annulée) |
+| 69931556 | ERTAPENEM PANPHARMA 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
+| 65077051 | INVANZ 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
+| 68956656 | ERTAPENEM HIKMA 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
+| 62637897 | ERTAPENEM SUN 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
+| 66810994 | ERTAPENEM ARROW 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
 
-Une sixième AMM (60926401, ERTAPENEM QILU 1 g) est également annulée. Les 6 AMM sont annulées ; aucune n'est actuellement valide.
+Une sixième AMM (60926401, ERTAPENEM QILU 1 g) est également annulée.
 
 ## Considérations de Sécurité
 
@@ -118,7 +118,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'arthrite bactérienne repose uniquement sur le modèle et sur des publications de faible niveau (cas cliniques, cohortes), sans aucun essai clinique. Il s'agit d'une indication antibactérienne conventionnelle plutôt que d'un vrai repositionnement. De plus, toutes les AMM françaises sont annulées.
+- La prédiction pour l'arthrite bactérienne repose uniquement sur le modèle et sur des publications de faible niveau (cas cliniques, cohortes), sans aucun essai clinique. Il s'agit d'une indication antibactérienne conventionnelle plutôt que d'un vrai repositionnement. De plus, le médicament est commercialisé en France, avec 6 AMM valides sur 6.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications), actuellement manquante et bloquante pour le criblage de sécurité

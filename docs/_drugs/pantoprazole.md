@@ -4,17 +4,17 @@ title: Pantoprazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 577
 evidence_level: L5
-indication_count: 6
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pantoprazole : nouvelle indication prédite, Ulcère peptique actif (niveau de preuve L5). Indication d'origine : Ulcère peptique, reflux gastro-œsophagien, œsophagite…"
 monitor_inn: "pantoprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Pantoprazole : De l'ulcère peptique à l'ulcère peptique actif (indication déjà couverte)
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Cette prédiction s'appuie sur **1 essai clinique** (Phase 3 terminé) et **19 p
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ulcère peptique, reflux gastro-œsophagien, œsophagite, syndrome de Zollinger-Ellison (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Ulcère peptique actif |
-| Score de Prédiction TxGNN | 99,69 % |
-| Niveau de Preuve | L1 (selon l'évaluation des données compilées ; voir réserve ci-dessous) |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Duodenal obstruction |
+| Score de Prédiction TxGNN | 0.9921 |
+| Niveau de Preuve | L5 (selon l'évaluation des données compilées ; voir réserve ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 Réserve : le niveau L1 suppose au moins deux essais de Phase 3 terminés. Pour l'ulcère peptique actif, un seul essai de Phase 3 terminé est listé (NCT02084420), et le rôle du pantoprazole (bras testé ou comparateur) reste à confirmer. Le niveau L1 attribué repose surtout sur l'ensemble des essais disponibles pour les ulcères duodénaux. Il doit donc être considéré comme provisoire.
@@ -108,19 +108,14 @@ Pour l'ulcère peptique actif (sélection des publications les plus pertinentes 
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Essais cliniques | Résumé des preuves | Recommandation |
 |------|------|------|------|------|------|------|
-| 2 | Ulcère gastro-jéjunal | 99,63 % | L4 | 0 | Littérature indirecte (prophylaxie des ulcères de stress en réanimation, hémorragie ulcéreuse), aucune étude sur les ulcères anastomotiques | Question de recherche |
-| 3 | Perforation d'ulcère peptique | 99,63 % | L3 | 0 | Une étude directe (PMID 38222001, pantoprazole après réparation de perforation, conception à vérifier), le reste est indirect | Question de recherche |
-| 4 | Reflux duodéno-gastrique | 99,27 % | L3 | 0 | Deux petites études physiologiques/cliniques (PMID 11552908, 19280541) ; le pantoprazole n'agit que sur la composante acide | Question de recherche |
-| 5 | Obstruction duodénale | 99,21 % | L5 | 0 | Aucun lien mécanistique clair ; une seule publication (cas clinique), sans rapport avec l'efficacité du pantoprazole | Hold |
-| 6 | Ulcère duodénal | 99,18 % | L1 | 15 | Plusieurs essais de Phases 3 et 4 impliquant le pantoprazole, indication essentiellement déjà établie | Proceed with Guardrails |
+| 5 | Obstruction duodénale | 0,9921 | L5 | 0 | Aucun lien mécanistique clair ; une seule publication (cas clinique), sans rapport avec l'efficacité du pantoprazole | Hold |
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68729174 | INIPOMP 40 mg, poudre pour solution injectable (IV) (TAKEDA FRANCE) | Poudre pour solution injectable | Non renseignée ; AMM annulée |
+| 68729174 | INIPOMP 40 mg, poudre pour solution injectable (IV) (TAKEDA FRANCE) | Poudre pour solution injectable | Non renseignée ; AMM active |
 
-Aucune AMM valide n'est actuellement recensée pour ce médicament dans les données compilées pour ce rapport.
 
 ## Considérations de Sécurité
 
@@ -147,7 +142,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Confirmer les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Vérifier le statut réglementaire et les formulations disponibles en France (AMM annulée) et selon les régions.
 - Établir un plan de gestion des interactions (notamment CYP2C19 / clopidogrel, atazanavir, acalabrutinib) et de surveillance des risques d'un traitement prolongé (ostéoporose, fractures, carence en vitamine B12).
-- Pour les autres indications prédites (ulcère gastro-jéjunal, perforation, reflux duodéno-gastrique), des études directes sont nécessaires avant toute évaluation ; l'obstruction duodénale doit rester en attente.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

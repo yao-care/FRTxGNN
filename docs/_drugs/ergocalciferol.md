@@ -4,17 +4,17 @@ title: Ergocalciferol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 294
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ergocalciferol : nouvelle indication prédite, Hypoparathyroïdie isolée familiale par altération de la sécrétion de… (niveau de preuve L5). Indication d'origine : Ostéoporose, ostéoporose post-ménopau…"
+indication_count: 6
 monitor_inn: "ergocalciferol"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome", "vitamin D-dependent rickets"]
+predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome"]
+last_modified_at: 2026-10-23
+description: "Ergocalciferol : nouvelle indication prédite, Dysplasie acromésomélique de type Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type) (niveau de preuve L5). Indication d'origine :…"
 ---
 
 # Ergocalciferol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,76 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ergocalciferol : De l'ostéoporose et des carences en vitamine D à l'hypoparathyroïdie isolée familiale (sécrétion de PTH altérée)
+## Ergocalciferol: Dysplasie acromésomélique de type Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-L'ergocalciférol (vitamine D2) est utilisé à l'origine pour traiter les carences en vitamine D et les maladies osseuses et minérales associées (ostéoporose, rachitisme, ostéomalacie, hypoparathyroïdie).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypoparathyroïdie isolée familiale par altération de la sécrétion de PTH**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction précise : elle repose uniquement sur le modèle.
-
----
+L'ergocalciferol (vitamine D2) est utilisé dans les carences en vitamine D et les maladies osseuses associées (rachitisme, ostéomalacie, ostéoporose). Le modèle TxGNN prédit qu'il pourrait être efficace dans la **dysplasie acromésomélique de type Campailla-Martinelli**, une maladie osseuse génétique rare. **Aucun essai clinique ni aucune publication** ne soutient actuellement cette prédiction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ostéoporose, ostéoporose post-ménopausique, carence en vitamine D, rachitisme, ostéomalacie, hypoparathyroïdie (texte d'indication des AMM non disponible) |
-| Nouvelle Indication Prédite | Hypoparathyroïdie isolée familiale par altération de la sécrétion de PTH |
-| Score de Prédiction TxGNN | 99,85 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type) |
+| Score de Prédiction TxGNN | 0.9983 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'ergocalciférol est une forme native de la vitamine D : elle est convertie dans le foie en 25-hydroxyvitamine D, puis dans le rein en forme active (1,25-dihydroxyvitamine D), qui favorise l'absorption intestinale du calcium et du phosphore.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, l'ergocalciferol est une forme de vitamine D. Il favorise l'absorption intestinale du calcium et du phosphate et intervient dans la minéralisation osseuse.
 
-L'hypoparathyroïdie figure déjà parmi les indications d'origine du médicament, ce qui rend le lien biologique plausible. Toutefois, dans les états de déficit en PTH, la conversion rénale de l'ergocalciférol en forme active (1-alpha-hydroxylation) dépend de la PTH. Les analogues déjà activés sont donc généralement préférés.
+La dysplasie acromésomélique de type Campailla-Martinelli est une dysplasie squelettique génétique rare. Aucun lien mécanistique n'a été identifié avec l'ergocalciferol. Un défaut génétique de la signalisation de la croissance du squelette a peu de chances d'être corrigé par une supplémentation en vitamine D2. Le score élevé du modèle semble provenir de la proximité, dans le réseau de connaissances, avec d'autres maladies osseuses, plutôt que d'un mécanisme défini.
 
-La prédiction n'est ainsi pas soutenue par des preuves directes pour cette forme familiale précise. Elle doit être considérée comme une hypothèse de travail.
-
----
+La prédiction doit donc être considérée comme une hypothèse purement computationnelle, sans fondement biologique ou clinique démontré à ce stade.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
 
-Les 7 AMM identifiées sont toutes annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
+L'ergocalciferol est commercialisé en France. Les textes d'indication approuvée ne sont pas disponibles dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69719090 | STEROGYL 15 "H" 600 000 UI/1,5 ml (DESMA PHARMA) | Solution injectable | Annulée |
-| 62457493 | STEROGYL 2 000 000 UI/100 ml (DESMA PHARMA) | Solution buvable en gouttes | Annulée |
-| 69443489 | STEROGYL 15 "A" 600 000 UI/1,5 ml (DESMA PHARMA) | Solution buvable | Annulée |
-| 64639110 | VITALIPIDE ADULTES (FRESENIUS KABI FRANCE) | Émulsion injectable pour perfusion | Annulée |
-| 64023481 | VITALIPIDE ENFANTS (FRESENIUS KABI FRANCE) | Émulsion injectable pour perfusion | Annulée |
+| 69719090 | STEROGYL 15 "H" 600 000 UI/1,5 ml | Solution injectable (IM) | Texte non disponible |
+| 62457493 | STEROGYL 2 000 000 UI/100 ml | Solution buvable en gouttes | Texte non disponible |
+| 69443489 | STEROGYL 15 "A" 600 000 UI/1,5 ml | Solution buvable en ampoule | Texte non disponible |
 
----
+Les quatre autres AMM concernent VITALIPIDE ADULTES, VITALIPIDE ENFANTS, UVESTEROL VITAMINE A.D.E.C. et HYDROSOL POLYVITAMINE. D'après leurs noms, ce sont des préparations polyvitaminiques. Elles ne sont pas détaillées ici et ne servent pas à décrire l'autorisation de l'ergocalciferol seul.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (associations médicament-maladie, et non texte de notice) : hypercalcémie, néphrocalcinose, hyperparathyroïdie, sarcoïdose, maladie rénale, maladie hépatique, hypertension, diabète, fibrillation auriculaire, troubles du métabolisme du phosphore, hyperoxalurie primaire, hémochromatose, maladie de Wilson, hyperlipidémie, cancer de la prostate et carcinome mammaire féminin, entre autres.
-- **Interactions médicamenteuses** (55 interactions recensées) :
-  - *Majeures* : cholécalciférol, calcifédiol, calcitriol, doxercalciférol (risque d'effet additif de la vitamine D et d'hypercalcémie).
-  - *Modérées* : diurétiques thiazidiques (hydrochlorothiazide, chlorothiazide, chlorthalidone), digoxine, barbituriques (amobarbital, butalbital), carbamazépine, rifabutine, résines chélatrices (cholestyramine, colesevelam, colestipol), sévélamer, oxyde de magnésium, formes topiques de calcipotriol et de calcitriol.
-  - *Mineure* : cimétidine.
+Les mises en garde et contre-indications issues des notices ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de securite complètes.
-
----
+- **Relations de contre-indication du graphe de connaissances** (elles ne proviennent pas du texte de la notice) : hypercalcémie, néphrocalcinose, hyperparathyroïdie, sarcoïdose, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, hypertension, fibrillation auriculaire, diabète et acidocétose diabétique, hyperoxalurie primaire, hémochromatose et autres troubles du métabolisme du fer, maladie de Wilson, hyperlipidémie, cancer du sein et cancer de la prostate, notamment.
+- **Interactions médicamenteuses** : 55 interactions sont répertoriées.
+  - Interactions majeures : autres dérivés de la vitamine D (cholécalciférol, calcifédiol, calcitriol, doxercalciférol), avec un risque de cumul d'effets et d'hypercalcémie.
+  - Interactions modérées, notamment : diurétiques thiazidiques (hydrochlorothiazide, chlorothiazide, chlortalidone), barbituriques (amobarbital, butalbital), carbamazépine, rifabutine, digoxine, résines chélatrices (cholestyramine, colestipol, colesevelam), sévélamer et oxyde de magnésium.
+  - Interaction mineure : cimétidine.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication spécifique. Le mécanisme est en outre contesté, car la conversion en forme active dépend de la PTH, alors que celle-ci est déficiente dans cette maladie. Par ailleurs, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes (lacune bloquante).
+- Aucun essai clinique ni aucune publication n'étudie l'ergocalciferol dans la dysplasie acromésomélique de type Campailla-Martinelli, et aucun mécanisme plausible n'a été identifié. Le score TxGNN élevé (0,9983) ne suffit pas à justifier une avancée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante pour le criblage de sécurité).
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Réaliser une revue ciblée de la littérature sur la vitamine D native dans l'hypoparathyroïdie familiale, et la comparer aux analogues activés (calcitriol, alfacalcidol).
-- Clarifier la disponibilité réelle d'une formulation commercialisée en France, puisque toutes les AMM sont annulées.
+- Données détaillées sur le mécanisme d'action de l'ergocalciferol.
+- Données de la notice (mises en garde, contre-indications) pour un criblage de sécurité.
+- Hypothèse biologique reliant la vitamine D2 à la voie génétique de cette dysplasie, avec des données précliniques.
 
----
-
-### Note sur les autres indications prédites
-
-Les autres prédictions du modèle ne sont pas non plus étayées par des preuves solides :
-
-| Rang | Indication prédite | Niveau de preuve | Remarque |
-|---|---|---|---|
-| 7 | Ostéodystrophie rénale | L3 | Un essai de phase 4 (NCT01799317, statut inconnu, 60 patients) et des études comparant l'ergocalciférol au calcitriol ; la piste la plus étayée. |
-| 8 | Rachitisme hypophosphatémique | L3 | Chevauche une indication d'origine ; pas un signal de repositionnement nouveau. |
-| 6 | Hypophosphatémie | L4 | Preuves indirectes (cas cliniques). |
-| 10 | Rachitisme vitamino-dépendant | L4 | Revues et cas anciens ; non recommandé en première ligne. |
-| 3 | Acidose tubulaire rénale | L4 | Deux cas cliniques, aucun ne teste l'ergocalciférol. |
-| 9 | Syndrome des buveurs de lait et d'alcalins | L5 | Probablement nocif (risque d'hypercalcémie). |
+**Remarque :** parmi les autres prédictions du modèle, l'ostéodystrophie rénale est la mieux étayée. Elle s'appuie sur un essai de phase 4 (NCT01799317, statut inconnu) et sur des études comparatives, dont un essai randomisé ergocalciferol versus calcitriol dans la maladie rénale chronique. Cette piste mérite une évaluation distincte.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

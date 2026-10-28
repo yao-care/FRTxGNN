@@ -4,7 +4,7 @@ title: Efmoroctocog Alfa
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 271
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Efmoroctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie (forme symptomatique de l'hémophilie chez les porteuses)"
 monitor_inn: "EFMOROCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La prédiction repose uniquement sur le modèle, et le lien mécanistique est ju
 |------|------|
 | Indication Originale | Hémophilie (forme symptomatique de l'hémophilie chez les porteuses) |
 | Nouvelle Indication Prédite | Pseudo-maladie de von Willebrand |
-| Score de Prédiction TxGNN | 99,997 % |
+| Score de Prédiction TxGNN | 1,0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations toutes annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,21 +64,20 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La pseudo-maladie de von Willebrand (de type plaquettaire) est causée par un gain de fonction du récepteur plaquettaire GPIbα, qui entraîne la perte des multimères de haut poids moléculaire du facteur von Willebrand (VWF). Le remplacement du facteur VIII ne corrige pas ce défaut du récepteur plaquettaire : le lien mécanistique est donc **faible**.
 
-Le score TxGNN élevé reflète très probablement la proximité dans le graphe de connaissances avec les troubles hémorragiques liés au VWF et au FVIII, plutôt qu'une véritable justification thérapeutique.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, telles que les troubles hémorragiques liés au VWF et au FVIII, et non une preuve biologique.
 
 ### Autres indications prédites (pour information)
 
 | Rang | Maladie | Score | Plausibilité mécanistique | Recommandation |
 |---|---|---|---|---|
-| 2 | Trouble de la libération plaquettaire primaire | 99,997 % | Absente (défaut de sécrétion des granules) | Hold |
-| 3 | Thrombasthénie de Glanzmann | 99,995 % | Absente (défaut de l'intégrine αIIbβ3) | Hold |
-| 4 | Syndrome de Scott | 99,969 % | Spéculative (défaut TMEM16F/ANO6) | Hold |
-| 5 | Déficit acquis en facteur de coagulation | 99,952 % | La plus plausible (ex. hémophilie acquise), limitée par les inhibiteurs | Research Question |
-| 6 | Diathèse hémorragique par défaut de récepteur du collagène | 99,921 % | Absente | Hold |
-| 7 | Trouble hémorragique par thrombopénie constitutionnelle | 99,917 % | Absente | Hold |
-| 8 | Thrombopénie alloimmune fœtale et néonatale | 99,845 % | Absente | Hold |
-| 9 | Hémophilie A avec anomalie vasculaire | 99,779 % | Partielle (extension de l'indication d'origine) | Research Question |
-| 10 | Purpura thrombotique thrombocytopénique | 99,724 % | Absente, risque théorique d'aggravation prothrombotique | Hold |
+| 2 | Trouble de la libération plaquettaire primaire | 1,0000 | Absente (défaut de sécrétion des granules) | Hold |
+| 3 | Thrombasthénie de Glanzmann | 1,0000 | Absente (défaut de l'intégrine αIIbβ3) | Hold |
+| 4 | Syndrome de Scott | 0,9997 | Spéculative (défaut TMEM16F/ANO6) | Hold |
+| 5 | Déficit acquis en facteur de coagulation | 0,9995 | La plus plausible (ex. hémophilie acquise), limitée par les inhibiteurs | Research Question |
+| 6 | Diathèse hémorragique par défaut de récepteur du collagène | 0,9992 | Absente | Hold |
+| 7 | Trouble hémorragique par thrombopénie constitutionnelle | 0,9992 | Absente | Hold |
+| 8 | Thrombopénie alloimmune fœtale et néonatale | 0,9984 | Absente | Hold |
+| 10 | Purpura thrombotique thrombocytopénique | 0,9972 | Absente, risque théorique d'aggravation prothrombotique | Hold |
 
 ---
 
@@ -96,15 +95,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 8 autorisations, toutes détenues par Swedish Orphan Biovitrum International (Suède), sont **annulées**. Aucune AMM valide n'est donc recensée. Le texte des indications approuvées n'est pas renseigné.
+Les 8 autorisations, toutes détenues par Swedish Orphan Biovitrum International (Suède), sont **valides**. Le texte des indications approuvées n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69349794 | ELOCTA 1500 UI | Poudre et solvant pour solution injectable | Annulée |
-| 60602449 | ELOCTA 750 UI | Poudre et solvant pour solution injectable | Annulée |
-| 68853909 | ELOCTA 2000 UI | Poudre et solvant pour solution injectable | Annulée |
-| 69009069 | ELOCTA 1000 UI | Poudre et solvant pour solution injectable | Annulée |
-| 64440763 | ELOCTA 250 UI | Poudre et solvant pour solution injectable | Annulée |
+| 69349794 | ELOCTA 1500 UI | Poudre et solvant pour solution injectable | Active |
+| 60602449 | ELOCTA 750 UI | Poudre et solvant pour solution injectable | Active |
+| 68853909 | ELOCTA 2000 UI | Poudre et solvant pour solution injectable | Active |
+| 69009069 | ELOCTA 1000 UI | Poudre et solvant pour solution injectable | Active |
+| 64440763 | ELOCTA 250 UI | Poudre et solvant pour solution injectable | Active |
 
 *Trois autres AMM (500, 3000 et 4000 UI) sont également annulées.*
 
@@ -124,7 +123,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 **Justification :**
 - La prédiction pour la pseudo-maladie de von Willebrand repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le mécanisme du facteur VIII ne répond pas au défaut plaquettaire en cause.
-- Toutes les AMM françaises sont annulées, ce qui constitue un frein supplémentaire à la faisabilité.
+- Les 8 AMM françaises sont valides et le médicament est commercialisé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)

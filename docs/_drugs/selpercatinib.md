@@ -46,17 +46,17 @@ Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisatio
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées (texte d'indication vide pour les 3 AMM) |
 | Nouvelle Indication Prédite | Hypertension pulmonaire |
-| Score de Prédiction TxGNN | 99,18 % |
+| Score de Prédiction TxGNN | 0,9918 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | AMM annulées uniquement |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Selon les informations connues, selpercatinib est un inhibiteur sélectif de la kinase RET. Les publications retrouvées le situent dans le cancer du poumon non à petites cellules avec fusion de RET et dans le carcinome médullaire de la thyroïde, mais l'indication d'origine n'est pas documentée dans les données d'AMM.
 
-Le score TxGNN est très élevé (0,992), mais il provient d'une inférence sur graphe de connaissances. Aucune voie biologique reliant l'inhibition de RET à l'hypertension pulmonaire n'a été identifiée. Le sens de l'effet est inconnu : certains inhibiteurs de kinases (par exemple le dasatinib) ont été associés à l'hypertension artérielle pulmonaire, de sorte qu'un inhibiteur de RET pourrait aussi bien aggraver la maladie que l'améliorer.
+Le score TxGNN est très élevé (0,9918), mais il provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Aucune voie biologique reliant l'inhibition de RET à l'hypertension pulmonaire n'a été identifiée. Le sens de l'effet est inconnu : certains inhibiteurs de kinases (par exemple le dasatinib) ont été associés à l'hypertension artérielle pulmonaire, de sorte qu'un inhibiteur de RET pourrait aussi bien aggraver la maladie que l'améliorer.
 
 Les autres prédictions (migraine, rang 2 ; migraine avec aura du tronc cérébral, rang 3) ne reposent pas non plus sur un lien mécanistique établi. La seconde est probablement corrélée à la première et ne constitue donc pas une preuve indépendante.
 
@@ -78,9 +78,9 @@ Les publications ci-dessous ont été retrouvées pour ce médicament, mais aucu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66580529 | RETSEVMO 40 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 65136400 | RETSEVMO 80 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61648467 | RETSEVMO 80 mg, gélule | Gélule | Non renseignée (AMM annulée) |
+| 66580529 | RETSEVMO 40 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 65136400 | RETSEVMO 80 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61648467 | RETSEVMO 80 mg, gélule | Gélule | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication sur l'hypertension pulmonaire, et sans lien mécanistique identifié. Un risque d'effet inverse (aggravation) ne peut pas être exclu. Toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication sur l'hypertension pulmonaire, et sans lien mécanistique identifié. Un risque d'effet inverse (aggravation) ne peut pas être exclu. Le médicament est commercialisé en France (3 AMM valides sur 3).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

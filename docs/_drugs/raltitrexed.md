@@ -47,27 +47,27 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cholangite scl�
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (usage clinique connu : cancer colorectal et mésothéliome malin) |
 | Nouvelle Indication Prédite | Cholangite sclérosante |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans l'AMM. Les données de pharmacologie compilées indiquent que le raltitrexed cible la thymidylate synthase (gène TYMS), enzyme clé de la synthèse de l'ADN. Son efficacité a été établie dans le cancer colorectal et le mésothéliome malin, des tumeurs à prolifération rapide.
 
-Pour la cholangite sclérosante, **aucun lien mécanistique clair** n'est étayé par les données. Cette maladie est une atteinte cholestatique et fibro-inflammatoire des voies biliaires, très éloignée de l'action anti-prolifératrice d'un antifolate. Le score élevé (99,97 %) résulte uniquement d'une prédiction du modèle, sans essai ni publication à l'appui. Cette prédiction doit donc être considérée comme une hypothèse très préliminaire.
+Pour la cholangite sclérosante, **aucun lien mécanistique clair** n'est étayé par les données. Cette maladie est une atteinte cholestatique et fibro-inflammatoire des voies biliaires, très éloignée de l'action anti-prolifératrice d'un antifolate. Le score élevé (0,9997) résulte uniquement d'une prédiction du modèle, sans essai ni publication à l'appui. Cette prédiction doit donc être considérée comme une hypothèse très préliminaire.
 
 ## Autres Indications Prédites
 
 | Rang | Maladie prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |------|------|------|------|------|
-| 2 | Syndrome myélodysplasique | 99,97 % | L5 | Hypothèse ciblant les cellules clonales prolifératives ; la myélosuppression connue des antifolates est préoccupante chez des patients déjà cytopéniques |
-| 3 à 7 | Syndromes drépanocytaires (variantes Hb D, Hb C, Hb E, bêta-thalassémie, persistance héréditaire de l'hémoglobine fœtale) | 99,96 % | L5 | Hypothèse d'induction de l'hémoglobine fœtale, non étayée ; scores identiques, ce qui suggère un signal commun du graphe ; justification particulièrement faible en cas de persistance de l'HbF |
-| 8 | Syndrome myélodysplasique non classé | 99,96 % | L5 | Même rationnel spéculatif et même préoccupation de myélosuppression |
-| 9 | Cytopénie réfractaire de l'enfant | 99,96 % | L5 | Plausibilité biologique faible : un antifolate myélosuppresseur risque d'aggraver les cytopénies |
-| 10 | Délétion partielle du bras long du chromosome 5 | 99,95 % | L5 | Aucun lien établi avec l'inhibition de la thymidylate synthase |
+| 2 | Syndrome myélodysplasique | 0,9997 | L5 | Hypothèse ciblant les cellules clonales prolifératives ; la myélosuppression connue des antifolates est préoccupante chez des patients déjà cytopéniques |
+| 3 à 7 | Syndromes drépanocytaires (variantes Hb D, Hb C, Hb E, bêta-thalassémie, persistance héréditaire de l'hémoglobine fœtale) | 0,9996 | L5 | Hypothèse d'induction de l'hémoglobine fœtale, non étayée ; scores identiques, ce qui suggère que le score du modèle TxGNN (deep learning) peut refléter des similarités apprises entre maladies apparentées, et non une preuve biologique ; justification particulièrement faible en cas de persistance de l'HbF |
+| 8 | Syndrome myélodysplasique non classé | 0,9996 | L5 | Même rationnel spéculatif et même préoccupation de myélosuppression |
+| 9 | Cytopénie réfractaire de l'enfant | 0,9996 | L5 | Plausibilité biologique faible : un antifolate myélosuppresseur risque d'aggraver les cytopénies |
+| 10 | Délétion partielle du bras long du chromosome 5 | 0,9995 | L5 | Aucun lien établi avec l'inhibition de la thymidylate synthase |
 
 Toutes ces prédictions sont classées « Hold », sans essai clinique ni publication.
 
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60985360 | TOMUDEX 2 mg, poudre pour solution pour perfusion (PFIZER HOLDING FRANCE) | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 60985360 | TOMUDEX 2 mg, poudre pour solution pour perfusion (PFIZER HOLDING FRANCE) | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

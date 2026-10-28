@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 281
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Emtricitabine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Emtricitabine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans l…"
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Emtricitabine : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Féline
+## Emtricitabine: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,92 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Retiré du marché (AMM annulées uniquement) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9992 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -62,8 +62,8 @@ Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la transcri
 Cette prédiction relève toutefois d'un usage vétérinaire, sans pertinence clinique directe pour l'humain. Le lien repose sur la classe pharmacologique, non sur des données mécanistiques détaillées.
 
 Deux autres prédictions figurent dans les données compilées :
-- **Infection par le virus de l'immunodéficience simienne (SIV)** : même score (99,92 %), preuves précliniques abondantes chez le macaque (prophylaxie pré-exposition avec emtricitabine associée au ténofovir), niveau L4. Il s'agit surtout d'un modèle translationnel de l'indication VIH déjà approuvée, non d'une véritable cible de repositionnement.
-- **Trouble neurodéveloppemental rare avec ataxie, absence de parole et diminution de la substance blanche corticale** : score de 99,92 %, mais aucun lien mécanistique évident, aucune donnée clinique ni littérature. Il s'agit très probablement d'un artefact du graphe de connaissances (niveau L5).
+- **Infection par le virus de l'immunodéficience simienne (SIV)** : même score (0,9992), preuves précliniques abondantes chez le macaque (prophylaxie pré-exposition avec emtricitabine associée au ténofovir), niveau L4. Il s'agit surtout d'un modèle translationnel de l'indication VIH déjà approuvée, non d'une véritable cible de repositionnement.
+- **Trouble neurodéveloppemental rare avec ataxie, absence de parole et diminution de la substance blanche corticale** : score de 0,9992, mais aucun lien mécanistique évident, aucune donnée clinique ni littérature.
 
 ## Preuves d'Essais Cliniques
 
@@ -77,15 +77,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; le texte d'indication approuvée n'est pas renseigné. Aperçu des 5 principales :
+Aperçu des 5 principales :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61294762 | EMTRIVA 200 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 66717579 | EMTRIVA 10 mg/ml, solution buvable | Solution buvable | Non renseignée (AMM annulée) |
-| 66325208 | DESCOVY 200 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69481664 | TRUVADA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64689693 | ODEFSEY 200 mg/25 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61294762 | EMTRIVA 200 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 66717579 | EMTRIVA 10 mg/ml, solution buvable | Solution buvable | Non renseignée (AMM active) |
+| 66325208 | DESCOVY 200 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69481664 | TRUVADA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64689693 | ODEFSEY 200 mg/25 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -103,7 +103,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Décision : Hold**
 
 **Justification :**
-- La seule preuve disponible est une étude vétérinaire unique portant sur une association d'antirétroviraux, sans essai clinique. La prédiction concerne une maladie animale sans pertinence pour un repositionnement humain, et toutes les AMM françaises sont annulées.
+- La seule preuve disponible est une étude vétérinaire unique portant sur une association d'antirétroviraux, sans essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Recueillir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le filtrage de sécurité)

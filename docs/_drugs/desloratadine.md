@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desloratadine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 225
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Desloratadine : nouvelle indication prédite, Urticaire au froid (niveau de preuve L1). Indication d'origine : Rhinite allergique"
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+description: "Desloratadine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-## Desloratadine : De la rhinite allergique à l'urticaire au froid
+## Desloratadine: Nasal cavity disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Desloratadine est un antihistaminique H1 de seconde génération, initialement utilisé pour la rhinite allergique, l'urticaire idiopathique et allergique, ainsi que d'autres affections allergiques ou rhinitiques.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire au froid**,
 avec **2 essais cliniques** et **6 publications** soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Urticaire au froid |
-| Score de Prédiction TxGNN | 99,94 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Nasal cavity disease |
+| Score de Prédiction TxGNN | 0.9987 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -84,7 +83,7 @@ Les deux essais sont de petite taille et classés en Phase 4, et non en Phase 3.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -109,12 +108,11 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Deux ECR (2009 et 2012) et deux essais de Phase 4 terminés soutiennent l'efficacité de la desloratadine, notamment à forte dose, dans l'urticaire au froid, avec un mécanisme H1 plausible. Les échantillons sont petits, les essais sont de Phase 4, et toutes les AMM françaises sont annulées.
+- Deux ECR (2009 et 2012) et deux essais de Phase 4 terminés soutiennent l'efficacité de la desloratadine, notamment à forte dose, dans l'urticaire au froid, avec un mécanisme H1 plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM, ce qui bloque actuellement l'étape de sécurité
 - Compléter les données sur le mécanisme d'action via DrugBank
-- Vérifier la disponibilité et la formulation du produit en France, puisque toutes les AMM sont annulées
 - Définir un plan de sécurité pour l'escalade de dose (jusqu'à 4 fois la dose standard) et pour les populations à risque (insuffisance rénale ou hépatique, maladies cardiovasculaires)
 
 **Autres indications prédites (preuves insuffisantes, décision : Hold)** : maladie de la cavité nasale (99,87 %), laryngopharyngite aiguë (99,85 %), dermatite atopique récalcitrante (99,75 %), réactivité IgE atopique (99,64 %) et conjonctivite de la rosacée (99,40 %). Elles reposent uniquement sur la prédiction du modèle (L5), sans essai clinique et avec une littérature préclinique non spécifique à la desloratadine, ou sans aucune littérature.

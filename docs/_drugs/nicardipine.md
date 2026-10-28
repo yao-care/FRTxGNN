@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nicardipine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 534
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nicardipine : nouvelle indication prédite, Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypox… (niveau de preuve L4). Indication d'origine : Hypertension artérielle"
 monitor_inn: "NICARDIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Nicardipine : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nicardipine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Nicardipine : De l'Hypertension Artérielle à l'Hypertension Pulmonaire Associée aux Maladies Pulmonaires et/ou à l'Hypoxie
+## Nicardipine: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** n'est enregistré et seules **quelques publication
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie |
-| Score de Prédiction TxGNN | 99,26 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 3 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pulmonary hypertension with unclear multifactorial mechanism |
+| Score de Prédiction TxGNN | 0.9926 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 *Remarque : la prédiction classée en tête (hypertension pulmonaire de mécanisme multifactoriel mal défini) a le même score mais ne repose sur aucune preuve (niveau L5). Nous avons retenu la deuxième, qui dispose de quelques éléments de preuve indirects (niveau L4).*
@@ -85,9 +85,9 @@ Aucune étude clinique directe n'a été retrouvée pour cette indication. Les p
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 65984700 | LOXEN 20 mg, comprimé sécable | Comprimé sécable | Non renseignée | Annulée |
-| 60718902 | LOXEN 10 mg/10 mL, solution injectable (I.V.) | Solution injectable | Non renseignée | Annulée |
-| 69198890 | LOXEN LP 50 mg, gélule à libération prolongée | Gélule à libération prolongée | Non renseignée | Annulée |
+| 65984700 | LOXEN 20 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
+| 60718902 | LOXEN 10 mg/10 mL, solution injectable (I.V.) | Solution injectable | Non renseignée | Active |
+| 69198890 | LOXEN LP 50 mg, gélule à libération prolongée | Gélule à libération prolongée | Non renseignée | Active |
 
 ## Considérations de Sécurité
 
@@ -102,14 +102,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- Le score du modèle est élevé (99,26 %), mais aucun essai clinique n'existe et les seules données sont indirectes ou précliniques. Les AMM françaises sont toutes annulées et le risque d'aggravation de l'hypoxémie n'est pas écarté.
+- Le score du modèle est élevé (0,9926), mais aucun essai clinique n'existe et les seules données sont indirectes ou précliniques. Les AMM françaises sont toutes annulées et le risque d'aggravation de l'hypoxémie n'est pas écarté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Compléter les données sur le mécanisme d'action
 - Réaliser une revue ciblée de la littérature clinique sur les inhibiteurs calciques dans l'hypertension pulmonaire des maladies pulmonaires/hypoxie
 - Évaluer l'effet sur l'oxygénation et l'appariement ventilation-perfusion avant toute étude clinique
-- Clarifier la faisabilité réglementaire et la voie d'administration, sachant qu'aucune AMM n'est valide en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

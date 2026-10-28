@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eplerenone
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 289
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Eplerenone : nouvelle indication prédite, Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypox… (niveau de preuve L4). Indication d'origine : Hypertension artérielle"
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Eplerenone : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Eplerenone
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Éplérénone : De l'hypertension artérielle à l'hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie
+## Eplerenone: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ mais **aucun essai clinique** n'est enregistré et les **13 publications** ident
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (source : graphe de connaissances TxGNN ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie |
-| Score de Prédiction TxGNN | 99,50 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| Score de Prédiction TxGNN | 0.9950 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
 
@@ -85,7 +85,7 @@ Les publications les plus pertinentes sont listées ci-dessous (priorité aux é
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné. Les cinq premières sont présentées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné. Les cinq premières sont présentées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -108,7 +108,7 @@ Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. 
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,50 %), mais il s'agit d'une prédiction computationnelle. Aucun essai clinique n'existe, et les publications sont surtout précliniques ou portent sur l'hypertension systémique, sans démonstration directe chez l'humain pour l'hypertension pulmonaire (niveau L4). De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- Le score TxGNN est très élevé (0,9950), mais il s'agit d'une prédiction computationnelle. Aucun essai clinique n'existe, et les publications sont surtout précliniques ou portent sur l'hypertension systémique, sans démonstration directe chez l'humain pour l'hypertension pulmonaire (niveau L4).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications) afin de lever le blocage de sécurité.
@@ -117,7 +117,7 @@ Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. 
 - Obtenir des preuves cliniques directes : essai pilote de phase 2 chez des patients atteints d'hypertension pulmonaire du groupe 3, avec surveillance de la kaliémie et de la fonction rénale.
 - Définir un plan de gestion du risque d'hyperkaliémie et des interactions majeures (suppléments potassiques, inhibiteurs puissants du CYP3A4).
 
-**Remarque sur les autres prédictions :** les quatre autres indications prédites (hypertension pulmonaire d'origine multifactorielle non claire, hypertension rénovasculaire maligne, atteinte rénale hypertensive maligne, syndrome de Braddock) n'ont ni essai ni publication associés (niveau L5, Hold). Le score élevé du syndrome de Braddock relève probablement d'un artefact du graphe.
+**Remarque sur les autres prédictions :** les quatre autres indications prédites (hypertension pulmonaire d'origine multifactorielle non claire, hypertension rénovasculaire maligne, atteinte rénale hypertensive maligne, syndrome de Braddock) n'ont ni essai ni publication associés (niveau L5, Hold).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

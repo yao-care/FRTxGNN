@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Lormetazepam
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 466
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lormetazepam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
@@ -14,7 +14,7 @@ predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "ha
 # Lormetazepam
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 ## Résumé en Une Phrase
 
 Le lormétazépam est une benzodiazépine hypnotique à courte durée d'action. Les données d'autorisation françaises compilées pour ce rapport ne mentionnent aucune indication approuvée explicite.
-Le modèle TxGNN prédit son efficacité dans l'**insomnie** (score de 99,98 %). Il s'agit en pratique d'un usage déjà établi plutôt que d'un véritable repositionnement.
+Le modèle TxGNN prédit son efficacité dans l'**insomnie** (score de 0,9998). Il s'agit en pratique d'un usage déjà établi plutôt que d'un véritable repositionnement.
 Cette prédiction est soutenue par **2 essais cliniques de Phase 3** et **3 publications** rattachées directement à l'insomnie.
 
 ---
@@ -50,10 +50,10 @@ Cette prédiction est soutenue par **2 essais cliniques de Phase 3** et **3 publ
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,98 % |
+| Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L1 (selon l'évaluation compilée : un seul essai de Phase 3 mené à terme ; voir la remarque ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 **Remarque sur le niveau de preuve :** selon les critères du rapport (≥2 ECR de Phase 3 menés à terme), un seul essai de Phase 3 est terminé (NCT00679900) ; le second (NCT00788515) a été arrêté prématurément avec 33 participants. Le niveau L1 attribué dans les données compilées est donc à interpréter avec prudence. Il est soutenu par l'ancienneté et la cohérence de la littérature sur l'usage hypnotique du lormétazépam.
@@ -102,8 +102,8 @@ Un essai de pharmacovigilance chez des patients gérontopsychiatriques (NCT02374
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64821401 | LORMETAZEPAM ARROW 1 mg, comprimé sécable (ARROW GÉNÉRIQUES) — annulée | Comprimé sécable | Non renseignée |
-| 60186584 | LORMETAZEPAM ARROW 2 mg, comprimé sécable (ARROW GÉNÉRIQUES) — annulée | Comprimé sécable | Non renseignée |
+| 64821401 | LORMETAZEPAM ARROW 1 mg, comprimé sécable (ARROW GÉNÉRIQUES) — active | Comprimé sécable | Non renseignée |
+| 60186584 | LORMETAZEPAM ARROW 2 mg, comprimé sécable (ARROW GÉNÉRIQUES) — active | Comprimé sécable | Non renseignée |
 
 ---
 

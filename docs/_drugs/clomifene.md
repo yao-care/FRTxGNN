@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clomifene
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 185
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clomifene : nouvelle indication prédite, Anovulation (niveau de preuve L1). Indication d'origine : Infertilité féminine"
 monitor_inn: "clomifene"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "anovulation"]
+description: "Clomifene : nouvelle indication prédite, 46,XY disorder of sex development due to testicular steroidogenesis defect (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Clomifene
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Clomifène : De l'infertilité féminine à l'anovulation
+## Clomifene: 46,XY disorder of sex development due to testicular steroidogenesis defect
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anovulation**, a
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infertilité féminine (selon le graphe de connaissances TxGNN ; aucun texte d'indication n'est renseigné dans l'AMM) |
-| Nouvelle Indication Prédite | Anovulation |
-| Score de Prédiction TxGNN | 99,52 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | 46,XY disorder of sex development due to testicular steroidogenesis defect |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 Remarque : l'anovulation a été retenue car c'est la seule indication prédite disposant de preuves cliniques. Les neuf autres prédictions les mieux classées (par exemple le trouble du développement sexuel 46,XY, les cloisons vaginales, les syndromes chromosomiques) n'ont aucun essai ni publication, sont de niveau L5 et restent en « Hold ».
@@ -100,7 +100,7 @@ Les 10 publications les plus pertinentes sont listées ci-dessous (revues et ess
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65338028 | CLOMID 50 mg, comprimé (LABORATOIRES FIDIA), AMM annulée | Comprimé | Non renseignée |
+| 65338028 | CLOMID 50 mg, comprimé (LABORATOIRES FIDIA), AMM active | Comprimé | Non renseignée |
 
 ---
 

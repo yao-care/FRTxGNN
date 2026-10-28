@@ -6,9 +6,9 @@ nav_order: 494
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Metronidazole : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Infections à bactéries anaérobies, giardiase, vaginose bactérienne…"
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+description: "Metronidazole : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Metronidazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Métronidazole : Des infections anaérobies et protozoaires à la pneumocystose
+## Metronidazole: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocysto
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Infections à bactéries anaérobies, giardiase, vaginose bactérienne, rosacée (liste issue du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Predite | Pneumocystose |
-| Score de Prediction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Pneumocystose (pneumocystosis) |
+| Score de Prediction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marche en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Decision Recommandee | Hold |
 
@@ -94,15 +94,15 @@ Ces publications mentionnent le métronidazole dans d'autres contextes ; aucune 
 
 ## Informations de Marche en France
 
-Toutes les AMM listées sont annulées ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
+Le médicament est commercialisé en France, avec 20 AMM valides ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 67119549 | ROZEX 0,75 %, émulsion pour application cutanée | Émulsion pour application | Non renseignée (AMM annulée) |
-| 60647323 | ROZEX 0,75 %, gel | Gel | Non renseignée (AMM annulée) |
-| 66962240 | METRONIDAZOLE SUBSTIPHARM 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63815096 | ROZAGEL, gel pour application locale | Gel | Non renseignée (AMM annulée) |
-| 66095383 | METRONIDAZOLE B BRAUN 0,5 % | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 67119549 | ROZEX 0,75 %, émulsion pour application cutanée | Émulsion pour application | Non renseignée (AMM active) |
+| 60647323 | ROZEX 0,75 %, gel | Gel | Non renseignée (AMM active) |
+| 66962240 | METRONIDAZOLE SUBSTIPHARM 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63815096 | ROZAGEL, gel pour application locale | Gel | Non renseignée (AMM active) |
+| 66095383 | METRONIDAZOLE B BRAUN 0,5 % | Solution pour perfusion | Non renseignée (AMM active) |
 
 Au total, 20 AMM sont recensées (comprimés, gels, crèmes, ovules, suspension buvable, solutions injectables et associations avec la spiramycine), toutes annulées.
 
@@ -123,7 +123,7 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, pas de lien mécanistique plausible (*Pneumocystis* est un champignon sans voie d'activation du métronidazole), et une littérature sans démonstration d'effet. Un traitement de référence efficace existe déjà.
-- Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice manquent (lacune bloquante).
+- Le médicament est commercialisé en France, avec 20 AMM valides, mais les données de sécurité issues de la notice manquent (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications

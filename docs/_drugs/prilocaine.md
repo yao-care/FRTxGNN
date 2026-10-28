@@ -50,10 +50,10 @@ Parmi les autres indications prédites, la **névralgie** (notamment post-zosté
 |------|------|
 | Indication Originale | Éjaculation précoce ; dyspareunie psychologique (le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Conjonctivite papillaire |
-| Score de Prédiction TxGNN | 99,78 % |
+| Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 12 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
+| Nombre d'AMM | 12 (valides : 11) |
 | Décision Recommandée | Hold |
 
 > **Remarque :** pour la conjonctivite papillaire, le niveau de preuve est L5 (prédiction du modèle uniquement). Parmi les 10 premières prédictions, la névralgie est la plus avancée (niveau L3, statut « question de recherche »). Elle est détaillée ci-dessous à titre de comparaison.
@@ -105,13 +105,13 @@ Aucune publication n'est disponible pour la conjonctivite papillaire. Les réfé
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63794766 | ANESDERM 5 %, crème | Crème | Non renseignée (AMM annulée) |
-| 63396602 | EMLA 5 POUR CENT, crème | Crème | Non renseignée (AMM annulée) |
-| 67458460 | EMLAPATCH 5 POUR CENT, pansement adhésif cutané | Pansement adhésif | Non renseignée (AMM annulée) |
-| 60355340 | ORAQIX, gel périodontal | Gel | Non renseignée (AMM annulée) |
-| 67099299 | FORTACIN 150 mg/ml / 50 mg/ml, spray cutané, solution | Solution pour pulvérisation | Non renseignée (AMM annulée) |
+| 63794766 | ANESDERM 5 %, crème | Crème | Non renseignée (AMM active) |
+| 63396602 | EMLA 5 POUR CENT, crème | Crème | Non renseignée (AMM active) |
+| 67458460 | EMLAPATCH 5 POUR CENT, pansement adhésif cutané | Pansement adhésif | Non renseignée (AMM active) |
+| 60355340 | ORAQIX, gel périodontal | Gel | Non renseignée (AMM active) |
+| 67099299 | FORTACIN 150 mg/ml / 50 mg/ml, spray cutané, solution | Solution pour pulvérisation | Non renseignée (AMM active) |
 
-> Au total, 12 AMM sont recensées, toutes annulées (génériques de lidocaïne/prilocaïne inclus). Aucune AMM valide n'est actuellement en vigueur.
+> Au total, 12 AMM sont recensées, dont 11 valides (génériques de lidocaïne/prilocaïne inclus).
 
 ---
 
@@ -130,7 +130,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la conjonctivite papillaire repose uniquement sur le modèle (L5), sans essai ni publication. De plus, toutes les AMM françaises sont annulées et le profil de sécurité (méthémoglobinémie, nombreuses interactions majeures) appelle à la prudence. Parmi les autres prédictions, seule la névralgie atteint le niveau L3, avec des données anciennes, petites et surtout non contrôlées sur une association lidocaïne/prilocaïne.
+- La prédiction pour la conjonctivite papillaire repose uniquement sur le modèle (L5), sans essai ni publication. De plus, 11 des 12 AMM françaises sont valides, et le profil de sécurité (méthémoglobinémie, nombreuses interactions majeures) appelle à la prudence. Parmi les autres prédictions, seule la névralgie atteint le niveau L3, avec des données anciennes, petites et surtout non contrôlées sur une association lidocaïne/prilocaïne.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), car cette absence bloque le passage à l'évaluation de sécurité.

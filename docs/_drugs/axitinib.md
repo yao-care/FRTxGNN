@@ -4,17 +4,17 @@ title: Axitinib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 85
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Axitinib : nouvelle indication prédite, Carcinome rénal associé aux translocations Xp11.2/fusions du gène TFE3 (niveau de preuve L5). Indication d'origine : Carcinome rénal à cellules claires / carci…"
+indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
+last_modified_at: 2026-10-27
+description: "Axitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Axitinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,92 +33,86 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Axitinib : Du Carcinome Rénal à Cellules Claires au Carcinome Rénal à Translocation Xp11.2/Fusion TFE3
+## Axitinib : inhibiteur de tyrosine kinases (VEGFR/PDGFR) → Liposarcome (liposarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Axitinib est un inhibiteur sélectif des récepteurs VEGFR-1, -2 et -3 (tyrosine kinase), initialement utilisé dans le traitement du carcinome rénal à cellules claires.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome rénal associé aux translocations Xp11.2/fusions du gène TFE3**, mais les preuves directes restent minimes : **1 essai clinique de phase 2** (15 patients, sans résultats publiés) et **aucune publication** spécifique à cette indication.
+L'axitinib est un inhibiteur de tyrosine kinases à visée antiangiogénique, utilisé en oncologie.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome (liposarcoma)**,
+avec **0 essai clinique** et **1 publication** préclinique soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome rénal à cellules claires / carcinome rénal (indication issue du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Carcinome rénal associé aux translocations Xp11.2/fusions du gène TFE3 |
-| Score de Prédiction TxGNN | 99,90 % |
-| Niveau de Preuve | L2 (essai randomisé de phase 2 en cours, très petit effectif ; preuve faible en pratique) |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Liposarcome (liposarcoma) |
+| Score de Prédiction TxGNN | 0,9987 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Nombre d'AMM | 20 (valides : 20) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'axitinib est un inhibiteur sélectif des VEGFR-1 à -3 qui bloque l'angiogenèse tumorale. Son efficacité dans le carcinome rénal avancé est établie par de grands essais de phase 3.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'axitinib appartient à la classe des inhibiteurs de tyrosine kinases ciblant les récepteurs VEGF et PDGF, des voies centrales de l'angiogenèse tumorale.
 
-Le carcinome rénal à translocation Xp11.2/TFE3 est un sous-type rare, porté par une fusion génique, qui présente une signalisation VEGF/MET accrue. L'activité anti-angiogénique de l'axitinib y est donc biologiquement plausible, et le score élevé du modèle reflète aussi la proximité de ce sous-type avec l'indication d'origine dans l'ontologie des maladies.
+Une étude préclinique (2016) rapporte une activité antiangiogénique et antitumorale de l'axitinib dans des modèles de liposarcome myxoïde, ce qui est cohérent avec cette inhibition. Un mécanisme antiangiogénique pourrait donc être pertinent pour cette tumeur des tissus mous.
 
-Il faut toutefois rester prudent : la seule preuve directe est un petit essai randomisé de phase 2 (axitinib + nivolumab contre nivolumab seul), encore en cours et sans résultats. L'association testée inclut un inhibiteur de point de contrôle immunitaire, ce qui ne permet pas d'isoler la contribution de l'axitinib.
+Il s'agit toutefois d'un raisonnement mécanistique issu de données non cliniques. Cette étude porte sur le liposarcome myxoïde, un sous-type, et aucune donnée clinique ne confirme la transposition aux patients. Le niveau de preuve est donc plafonné à L5 : aucune étude citée n'évalue directement l'efficacité clinique dans le liposarcome au sens large, et la prédiction reste essentiellement computationnelle.
 
 ## Preuves d'Essais Cliniques
 
-Essai directement lié à l'indication prédite :
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | Actif, hors recrutement | 15 | Axitinib + nivolumab contre nivolumab seul dans le carcinome rénal à translocation TFE (non résécable ou métastatique), tous âges ; aucun résultat publié |
-
-À titre de contexte, 40 essais sont recensés pour le carcinome rénal au sens large (prédiction de rang 6, qui correspond à l'indication d'origine) ; ils ne constituent pas des preuves pour le sous-type à translocation.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour le carcinome rénal à translocation Xp11.2/TFE3.
+| PMID | Année | Type | Revue | Résultats Principaux |
+|------|-----|------|------|---------|
+| [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | Préclinique (in vitro/in vivo) | Sarcoma | L'axitinib montre une activité antiangiogénique et antitumorale sur des lignées et modèles de liposarcome myxoïde, parmi plusieurs agents ciblant l'angiogenèse testés. |
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64662504 | AXITINIB TEVA 3 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69083347 | INLYTA 3 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69115535 | AXITINIB TEVA 5 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 67939209 | INLYTA 5 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62215554 | AXITINIB TEVA 7 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-
-Au total, 20 AMM sont recensées (INLYTA et génériques Teva, EG, Biogaran, Sandoz), toutes annulées ; seules les 5 premières sont listées ici.
+| 64662504 | AXITINIB TEVA 3 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+| 69083347 | INLYTA 3 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+| 69115535 | AXITINIB TEVA 5 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+| 67939209 | INLYTA 5 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+| 62215554 | AXITINIB TEVA 7 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase des VEGFR), non cytotoxique conventionnel |
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinases) |
 | Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
 | Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Veuillez consulter la notice ; une surveillance de la fonction thyroïdienne est évoquée dans la littérature disponible (hypothyroïdie sous inhibiteurs de tyrosine kinase) |
-| Protection de Manipulation | Veuillez consulter la notice |
+| Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
 ## Considérations de Sécurité
 
-- **Interactions médicamenteuses** : 100 interactions sont recensées dans les données compilées ; les principales sont :
-  - **Majeures** : clarithromycine, dexaméthasone
-  - **Modérées** : aprépitant, clotrimazole, miconazole, naltrexone
-  - **Mineures** : antiacides et antisécrétoires gastriques (famotidine, ranitidine, cimétidine, nizatidine, rabéprazole, ésoméprazole, lansoprazole, dexlansoprazole, hydroxyde d'aluminium, carbonate de calcium, sels de magnésium, magaldrate)
+**Interactions médicamenteuses** (100 interactions recensées ; principales ci-dessous) :
+- **Majeures** : clarithromycine, dexaméthasone
+- **Modérées** : aprépitant, clotrimazole, miconazole, naltrexone
+- **Mineures** : famotidine, ranitidine, rabéprazole, ésoméprazole, lansoprazole, cimétidine, antiacides (hydroxyde d'aluminium, carbonate de calcium, sels de magnésium), entre autres
 
-Veuillez consulter la notice pour les mises en garde et contre-indications.
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le mécanisme (inhibition des VEGFR) est plausible pour ce sous-type, mais la seule preuve directe est un essai de phase 2 de 15 patients, sans résultats, avec une association à un immunothérapeutique. De plus, aucune AMM française n'est actuellement valide, et les données de sécurité issues de la notice sont absentes.
+Seule une étude préclinique soutient cette prédiction, sans aucun essai clinique, et la prédiction du modèle ne suffit pas pour avancer. Les données de sécurité issues de la notice sont également absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Résultats de l'essai NCT03595124 (fin prévue en novembre 2026)
-- Mécanisme d'action détaillé (DrugBank)
-- Mises en garde et contre-indications de la notice ANSM
-- Vérification de la disponibilité des produits et du statut réglementaire en France
-- Données spécifiques au sous-type (séries de cas, études observationnelles)
+- Données cliniques (essais ou séries de cas) dans le liposarcome
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice (ANSM)
+- Évaluation du rapport bénéfice/risque et des interactions médicamenteuses majeures (clarithromycine, dexaméthasone)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

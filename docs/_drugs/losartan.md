@@ -4,17 +4,17 @@ title: Losartan
 parent: Preuves modérées (L3-L4)
 nav_order: 467
 evidence_level: L4
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Losartan : nouvelle indication prédite, Hypertension rénovasculaire maligne (niveau de preuve L4). Indication d'origine : Hypertension artérielle…"
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Losartan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **8** 
+Niveau de preuve: **L4** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-## Losartan : De l'hypertension artérielle à l'hypertension rénovasculaire maligne
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ mais **aucun essai clinique** n'est enregistré et seulement **2 publications** 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle, néphropathie diabétique (texte d'indication des AMM non disponible) |
-| Nouvelle Indication Prédite | Hypertension rénovasculaire maligne |
-| Score de Prédiction TxGNN | 99,73 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Malignant hypertensive renal disease |
+| Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
 
@@ -77,13 +77,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68896312 | LOSARTAN RANBAXY 50 mg | Comprimé pelliculé | Non disponible (AMM annulée) |
-| 66928996 | COZAAR 100 mg | Comprimé pelliculé | Non disponible (AMM annulée) |
-| 68656210 | LOSARTAN EG 50 mg | Comprimé pelliculé sécable | Non disponible (AMM annulée) |
-| 66042644 | LOSARTAN EVOLUGEN 100 mg | Comprimé pelliculé | Non disponible (AMM annulée) |
-| 68768818 | LOSARTAN ACCORD 50 mg | Comprimé pelliculé sécable | Non disponible (AMM annulée) |
+| 68896312 | LOSARTAN RANBAXY 50 mg | Comprimé pelliculé | Non disponible (AMM active) |
+| 66928996 | COZAAR 100 mg | Comprimé pelliculé | Non disponible (AMM active) |
+| 68656210 | LOSARTAN EG 50 mg | Comprimé pelliculé sécable | Non disponible (AMM active) |
+| 66042644 | LOSARTAN EVOLUGEN 100 mg | Comprimé pelliculé | Non disponible (AMM active) |
+| 68768818 | LOSARTAN ACCORD 50 mg | Comprimé pelliculé sécable | Non disponible (AMM active) |
 
-Au total, 20 AMM sont recensées, toutes annulées ; aucune n'est actuellement valide.
 
 ## Considérations de Sécurité
 
@@ -98,26 +97,25 @@ La notice officielle (mises en garde et contre-indications) n'a pas pu être exp
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé et le mécanisme est plausible, mais les preuves se limitent à un rapport de cas et à un article méthodologique préclinique (niveau L4), sans essai clinique. De plus, toutes les AMM françaises sont annulées et les données de sécurité officielles manquent.
+- Le score TxGNN est très élevé et le mécanisme est plausible, mais les preuves se limitent à un rapport de cas et à un article méthodologique préclinique (niveau L4), sans essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), ce qui bloque l'étape de criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des études cliniques (séries de cas, études observationnelles, essais contrôlés) dans l'hypertension rénovasculaire
 - Définir une stratégie de sécurité rénale (surveillance de la créatinine et de la kaliémie, exclusion de la sténose bilatérale)
-- Clarifier la situation réglementaire en France, puisqu'aucune AMM n'est valide
 
 ### Autres indications prédites (pour information)
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | Néphropathie hypertensive maligne | 99,73 % | L4 (préclinique uniquement) | Hold |
-| 3 | Hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie | 99,71 % | L4 (preuves indirectes et mitigées) | Hold |
-| 4 | Hypertension pulmonaire à mécanisme multifactoriel mal défini | 99,71 % | L5 | Hold |
-| 5 | Syndrome de Braddock | 99,61 % | L5 | Hold |
-| 6 | Angor de Prinzmetal | 99,45 % | L5 | Hold |
-| 7 | Syndrome familial autosomique dominant (hématurie, tortuosité des artérioles rétiniennes, contractures) | 99,39 % | L5 | Hold |
-| 8 | Maladie des petits vaisseaux cérébraux de type 1, avec ou sans anomalies oculaires | 99,37 % | L4 (preuves indirectes) | Question de recherche |
+| 2 | Néphropathie hypertensive maligne | 0,9973 | L4 (préclinique uniquement) | Hold |
+| 3 | Hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie | 0,9971 | L5 (preuves indirectes et mitigées) | Hold |
+| 4 | Hypertension pulmonaire à mécanisme multifactoriel mal défini | 0,9971 | L5 | Hold |
+| 5 | Syndrome de Braddock | 0,9961 | L5 | Hold |
+| 6 | Angor de Prinzmetal | 0,9945 | L5 | Hold |
+| 7 | Syndrome familial autosomique dominant (hématurie, tortuosité des artérioles rétiniennes, contractures) | 0,9939 | L5 | Hold |
+| 8 | Maladie des petits vaisseaux cérébraux de type 1, avec ou sans anomalies oculaires | 0,9937 | L5 (preuves indirectes) | Question de recherche |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

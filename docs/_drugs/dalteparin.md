@@ -6,9 +6,9 @@ nav_order: 210
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dalteparin : nouvelle indication prédite, Thrombophilie par déficit en protéine C, autosomique récessif (niveau de preuve L5). Indication d'origine : Embolie pulmonaire, coagulation intravasculaire d…"
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
+description: "Dalteparin : nouvelle indication prédite, Thrombophilie par déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency… (niveau de preuve L5). Indication d'origine : Non r…"
 ---
 
 # Dalteparin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Daltéparine : De l'embolie pulmonaire à la thrombophilie par déficit en protéine C
+## Dalteparin: Thrombophilie par déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Embolie pulmonaire, coagulation intravasculaire disséminée, purpura fulminans (indications issues du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Thrombophilie par déficit en protéine C, autosomique récessif |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Thrombophilie par déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency, autosomal recessive) |
+| Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -90,7 +90,6 @@ Aucune littérature associée disponible actuellement.
 | 67591667 | FRAGMINE 10 000 U.I. anti-Xa/0,4 mL | Solution injectable (seringue préremplie) | Non renseignée |
 | 62114270 | FRAGMINE 12 500 U.I. anti-Xa/0,5 mL | Solution injectable (seringue préremplie) | Non renseignée |
 
-Les 9 AMM (titulaire : Pfizer Holding France) sont annulées ; aucune n'est actuellement valide.
 
 ---
 
@@ -109,7 +108,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. De plus, toutes les AMM françaises sont annulées et les données de sécurité officielles sont absentes.
+- La prédiction repose uniquement sur le modèle TxGNN (apprentissage profond, niveau L5), sans essai ni publication. Le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le médicament est commercialisé en France (9 AMM valides sur 9) ; les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), préalable indispensable au criblage de sécurité

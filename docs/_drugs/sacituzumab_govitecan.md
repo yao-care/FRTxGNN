@@ -47,10 +47,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**ostéoporose
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Ostéoporose médicamenteuse |
-| Score de Prédiction TxGNN | 99,78 % |
+| Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,9 +59,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Les données compilées ne permettent d'établir **aucun lien mécanistique** avec l'ostéoporose médicamenteuse. Un agent cytotoxique de ce type n'a pas de mécanisme protecteur ou anabolique osseux connu. Au contraire, la myélosuppression et l'exposition aux corticoïdes de soutien pourraient plutôt aggraver la santé osseuse.
 
-Le score élevé (0,998) provient d'une prédiction fondée sur un graphe de connaissances et n'est étayé par aucune justification biologique dans les données fournies. Cette prédiction doit donc être considérée avec une grande prudence.
+Le score élevé (0,9978) provient d'une prédiction du modèle TxGNN (apprentissage profond) et n'est étayé par aucune justification biologique dans les données fournies. Cette prédiction doit donc être considérée avec une grande prudence.
 
-Les trois autres indications prédites sont la rétinopathie diabétique non proliférante sévère (99,69 %), la rétinopathie diabétique (99,60 %) et la cataracte diabétique (99,12 %). Elles regroupent des complications du diabète, ce qui évoque plutôt un artefact de voisinage dans le graphe qu'une véritable biologie médicament-maladie. Aucune n'est soutenue par des essais cliniques ou des publications, et toutes sont de niveau L5 avec une recommandation Hold.
+Les trois autres indications prédites sont la rétinopathie diabétique non proliférante sévère (0,9969), la rétinopathie diabétique (0,9960) et la cataracte diabétique (0,9912). Elles regroupent des complications du diabète : ces scores proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Aucune n'est soutenue par des essais cliniques ou des publications, et toutes sont de niveau L5 avec une recommandation Hold.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,7 +75,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67719704 | TRODELVY 200 mg, poudre pour solution à diluer pour perfusion (GILEAD SCIENCES IRELAND UC), AMM annulée | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 67719704 | TRODELVY 200 mg, poudre pour solution à diluer pour perfusion (GILEAD SCIENCES IRELAND UC), AMM active | Poudre pour solution à diluer pour perfusion | Non renseignée |
 
 ## Cytotoxicité
 

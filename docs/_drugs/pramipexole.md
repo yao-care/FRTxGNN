@@ -6,9 +6,9 @@ nav_order: 620
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pramipexole : nouvelle indication prédite, Trouble déficit de l'attention avec hyperactivité (TDAH) (niveau de preuve L4). Indication d'origine : Syndrome des jambes sans repos"
 monitor_inn: "PRAMIPEXOLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
+description: "Pramipexole : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pramipexole
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Pramipexole : De la Maladie de Parkinson au Trouble Déficit de l'Attention avec Hyperactivité (TDAH)
+## Pramipexole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble défici
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome des jambes sans repos ; maladie de Parkinson (les textes d'indication des AMM ne sont pas renseignés dans les données compilées) |
-| Nouvelle Indication Prédite | Trouble déficit de l'attention avec hyperactivité (TDAH) |
-| Score de Prédiction TxGNN | 99,998 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Attention deficit-hyperactivity disorder |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -89,15 +89,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 9 AMM recensées sont toutes **annulées** ; aucune n'est actuellement valide. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
+Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 67527910 | SIFROL 0,26 mg | Comprimé à libération prolongée | Annulée |
-| 60267171 | SIFROL 1,05 mg | Comprimé à libération prolongée | Annulée |
-| 67696401 | PRAMIPEXOLE ZENTIVA 0,18 mg | Comprimé sécable | Annulée |
-| 63005092 | PRAMIPEXOLE TEVA 0,18 mg | Comprimé | Annulée |
-| 66881233 | SIFROL 0,7 mg | Comprimé | Annulée |
+| 67527910 | SIFROL 0,26 mg | Comprimé à libération prolongée | Active |
+| 60267171 | SIFROL 1,05 mg | Comprimé à libération prolongée | Active |
+| 67696401 | PRAMIPEXOLE ZENTIVA 0,18 mg | Comprimé sécable | Active |
+| 63005092 | PRAMIPEXOLE TEVA 0,18 mg | Comprimé | Active |
+| 66881233 | SIFROL 0,7 mg | Comprimé | Active |
 
 ---
 
@@ -118,7 +118,7 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- Pour le TDAH, aucun essai n'est enregistré et aucune donnée d'efficacité directe n'existe ; le niveau de preuve est L4 malgré un score TxGNN très élevé. Par ailleurs, toutes les AMM françaises sont annulées.
+- Pour le TDAH, aucun essai n'est enregistré et aucune donnée d'efficacité directe n'existe ; le niveau de preuve est L4 malgré un score TxGNN très élevé (1.0000). Par ailleurs, les 9 AMM françaises sont toutes valides et le médicament est commercialisé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action

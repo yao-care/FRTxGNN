@@ -6,9 +6,9 @@ nav_order: 256
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Doravirine : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Doravirine : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L5). Indication d'origine : Non renseignée …"
 ---
 
 # Doravirine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Doravirine : Du VIH à l'Infection par le Virus de l'Immunodéficience Simienne
+## Doravirine: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
-| Score de Prédiction TxGNN | 99,93 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement ; aucune étude directe) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Cette plausibilité reste toutefois fragile. Les INNTI sont généralement inactifs contre le VIH-2 et de nombreuses souches de VIS, en raison de variations naturelles de la poche de liaison des INNTI sur la transcriptase inverse. L'activité de la doravirine contre le VIS devrait donc être confirmée expérimentalement (tests enzymatiques *in vitro* sur la transcriptase inverse du VIS, études chez le macaque). Le score élevé reflète très probablement une proximité dans le réseau plutôt qu'une preuve directe.
 
-Deux autres prédictions de même score élevé sont à signaler : le syndrome d'immunodéficience acquise féline (FIV), dont la transcriptase inverse diffère aussi de celle du VIH-1 et pour laquelle les INNTI sont peu actifs, sans essai ni publication ; et un trouble neurodéveloppemental rare, sans aucun lien mécanistique plausible, qui semble être un artefact du graphe.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,8 +74,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68914027 | PIFELTRO 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64419961 | DELSTRIGO 100 mg/300 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68914027 | PIFELTRO 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64419961 | DELSTRIGO 100 mg/300 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

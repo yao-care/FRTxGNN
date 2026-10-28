@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ceftolozane : nouvelle indication prédite, Urétrite à Ureaplasma (niveau de preuve L5). Indication d'origine : Infection des voies urinaires"
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
+last_modified_at: 2026-10-28
+description: "Ceftolozane : nouvelle indication prédite, Urétrite à Ureaplasma (Ureaplasma urethritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ceftolozane
@@ -33,87 +33,72 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ceftolozane : De l'infection urinaire à l'urétrite à Ureaplasma
+## Ceftolozane : bêta-lactamine de la famille des céphalosporines (inhibition de la synthèse de la paroi bactérienne) → Urétrite à Ureaplasma (Ureaplasma urethritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Ceftolozane est une céphalosporine injectable, initialement utilisée pour le traitement des infections urinaires.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urétrite à Ureaplasma**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction. Cette prédiction est très probablement un artefact du modèle (voir ci-dessous).
-
----
+Ceftolozane est une céphalosporine injectable à usage hospitalier, qui agit sur la paroi des bactéries.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urétrite à Ureaplasma (Ureaplasma urethritis)**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection des voies urinaires (selon les indications issues du graphe de connaissances ; le texte de l'AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Urétrite à Ureaplasma |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Urétrite à Ureaplasma (Ureaplasma urethritis) |
+| Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Retiré (AMM annulée uniquement) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, ceftolozane est une céphalosporine bêta-lactamine qui agit en inhibant les protéines de liaison à la pénicilline (PLP) et donc la synthèse de la paroi bactérienne. Elle est optimisée pour *Pseudomonas aeruginosa* et les entérobactéries à Gram négatif.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base utilisée. D'après les connaissances générales, le ceftolozane est une céphalosporine : elle bloque les protéines de liaison aux pénicillines (PLP) et empêche ainsi la construction de la paroi bactérienne. Son activité est optimisée contre *Pseudomonas aeruginosa* et les entérobactéries.
 
-**Cette prédiction n'est pas biologiquement plausible.** Les *Ureaplasma* n'ont pas de paroi cellulaire : les bêta-lactamines sont donc intrinsèquement inefficaces contre elles. Le score élevé s'explique vraisemblablement par la proximité dans le graphe de connaissances entre l'urétrite et l'infection des voies urinaires, sans lien pharmacologique réel.
+Sur le plan biologique, cette prédiction est peu plausible. Les *Ureaplasma* n'ont pas de paroi cellulaire, ce qui rend les bêta-lactamines naturellement inefficaces. Le score élevé s'explique très probablement par la proximité, dans le modèle, entre les infections urinaires et les infections de l'urètre, plutôt que par une logique pharmacologique.
 
----
+Cette prédiction ne doit donc pas être considérée comme une piste thérapeutique crédible en l'état.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
+
+Une AMM figure dans les données locales : elle est valide et le ceftolozane est commercialisé en France.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65166404 | ZERBAXA 1 g/0,5 g, poudre pour solution à diluer pour perfusion (MSD, Pays-Bas) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-
----
+| 65166404 | ZERBAXA 1 g/0,5 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée dans les données locales |
 
 ## Considérations de Sécurité
 
-- **Interactions Médicamenteuses** : 11 interactions de niveau modéré ont été identifiées, notamment avec :
-  - les aminoglycosides (kanamycine, néomycine, streptomycine, amikacine, amikacine liposomale, gentamicine) ;
-  - les anticoagulants (warfarine, dicoumarol) ;
-  - le chloramphénicol ;
-  - l'éthinylestradiol ;
-  - l'acide mycophénolique.
+**Interactions Médicamenteuses** : 11 interactions de niveau modéré ont été relevées :
+- Aminosides : kanamycine, néomycine, streptomycine, amikacine (y compris sa forme liposomale), gentamicine
+- Anticoagulants : warfarine, dicoumarol
+- Autres : chloramphénicol, éthinylestradiol, acide mycophénolique
 
-Pour les mises en garde et contre-indications, veuillez consulter la notice.
-
----
+Les mises en garde et contre-indications détaillées ne sont pas disponibles dans les données compilées pour ce rapport. Veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Elle est contredite par la biologie : les *Ureaplasma* n'ont pas de paroi et sont insensibles aux bêta-lactamines. L'AMM française est en outre annulée.
+La prédiction repose uniquement sur le modèle, sans aucune étude clinique ni publication. Elle est en outre contredite par la biologie : les *Ureaplasma* n'ont pas de paroi, donc les bêta-lactamines sont inefficaces.
 
 **Pour avancer, les éléments suivants seraient nécessaires :**
-- Données sur le mécanisme d'action (DrugBank) et sur les mises en garde et contre-indications (notice ANSM), actuellement manquantes
-- Données de sensibilité *in vitro* démontrant une activité sur *Ureaplasma* (peu probable)
-
-**Autres prédictions du classement :**
-- **Urétrite gonococcique** (99,89 %, L5, Hold) : une logique de classe existe pour certaines céphalosporines comme la ceftriaxone, mais aucune donnée ne soutient ceftolozane, et des alternatives efficaces sont établies.
-- **Maladie inflammatoire de l'utérus** (99,88 %, L5, Hold) : lien indirect plausible mais non étayé, car l'activité anaérobie de ceftolozane est limitée.
-- **Pyélonéphrite xanthogranulomateuse** (99,88 %, L4, question de recherche) : seul lien indirect plausible, via l'indication d'infection urinaire compliquée, mais la seule publication disponible est une revue générale sur les infections urinaires fébriles (PMID [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/), 2016), sans donnée spécifique à ce médicament.
-- Les six autres prédictions (syndrome d'hyperviscosité polyclonale, hyperamylasémie, tuberculose urogénitale, analbuminémie congénitale, incompatibilité de groupe sanguin, maladie hématologique prémaligne) sont considérées comme des artefacts du graphe, sans mécanisme plausible (L5, Hold).
+- Des données in vitro de sensibilité d'*Ureaplasma* au ceftolozane (très improbables au vu du mécanisme)
+- Les mises en garde et contre-indications issues de la notice officielle
+- Les données détaillées sur le mécanisme d'action
+- À défaut, privilégier les traitements établis de ces urétrites
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -4,17 +4,17 @@ title: Digoxin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 241
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Digoxin : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Fibrillation auriculaire"
 monitor_inn: "digoxin"
-predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
+description: "Digoxin : nouvelle indication prédite, Angor de Prinzmetal (Prinzmetal angina) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Digoxin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Digoxine : De la fibrillation auriculaire à l'angor de Prinzmetal
+## Digoxin: Angor de Prinzmetal (Prinzmetal angina)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Fibrillation auriculaire ; intoxication digitalique (selon le graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Angor de Prinzmetal |
-| Score de Prédiction TxGNN | 99,81 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Angor de Prinzmetal (Prinzmetal angina) |
+| Score de Prédiction TxGNN | 0.9981 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec l'angor de Prinzmetal est en revanche **spéculatif**. Cet angor est dû à un vasospasme coronarien, habituellement traité par des inhibiteurs calciques et des dérivés nitrés. L'augmentation du calcium intracellulaire induite par la digoxine n'est pas évidemment compatible avec cette indication, et un effet vasoconstricteur potentiel pourrait même être défavorable.
 
-Le score TxGNN très élevé (0,998) reflète une proximité dans le graphe de connaissances, et non une preuve clinique ou mécanistique. Les autres prédictions du modèle (obstruction duodénale, ulcère duodénal, reflux duodéno-gastrique, hypoalphalipoprotéinémie, ainsi qu'un terme obsolète de susceptibilité à l'AVC ischémique) ne présentent pas non plus de lien plausible identifié et ne sont pas développées ici.
+Le score TxGNN très élevé (0,9981) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve clinique ou biologique. Les autres prédictions du modèle (obstruction duodénale, ulcère duodénal, reflux duodéno-gastrique, hypoalphalipoprotéinémie) ne présentent pas non plus de lien plausible identifié et ne sont pas développées ici.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,12 +74,12 @@ Aucune littérature associée disponible actuellement pour l'angor de Prinzmetal
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65458013 | DIGOXINE NATIVELLE ADULTES 0,50 mg/2 ml, solution injectable IV (annulée) | Solution injectable | Non renseignée |
-| 63593820 | HEMIGOXINE NATIVELLE 0,125 mg, comprimé (annulée) | Comprimé | Non renseignée |
-| 61917063 | DIGOXINE NATIVELLE 5 microgrammes/0,1 ml, solution buvable en gouttes (annulée) | Solution buvable en gouttes | Non renseignée |
-| 67681303 | DIGOXINE NATIVELLE 0,25 mg, comprimé (annulée) | Comprimé | Non renseignée |
+| 65458013 | DIGOXINE NATIVELLE ADULTES 0,50 mg/2 ml, solution injectable IV (active) | Solution injectable | Non renseignée |
+| 63593820 | HEMIGOXINE NATIVELLE 0,125 mg, comprimé (active) | Comprimé | Non renseignée |
+| 61917063 | DIGOXINE NATIVELLE 5 microgrammes/0,1 ml, solution buvable en gouttes (active) | Solution buvable en gouttes | Non renseignée |
+| 67681303 | DIGOXINE NATIVELLE 0,25 mg, comprimé (active) | Comprimé | Non renseignée |
 
-Les quatre AMM, détenues par TEOFARMA, sont annulées ; aucune AMM valide n'est recensée.
+Les quatre AMM, détenues par TEOFARMA, sont valides ; le médicament est commercialisé.
 
 ## Considérations de Sécurité
 
@@ -93,14 +93,14 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un lien mécanistique peu plausible et un risque potentiel de vasoconstriction. Aucune AMM valide n'existe en France, et les données de sécurité issues de la notice sont manquantes, ce qui empêche l'évaluation de sécurité.
+La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai ni publication, avec un lien mécanistique peu plausible et un risque potentiel de vasoconstriction. Les 4 AMM sont valides en France, mais les données de sécurité issues de la notice sont manquantes, ce qui empêche l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Mener une revue de la littérature ciblée sur la digoxine et le vasospasme coronarien, et rechercher d'éventuels essais
 - Examiner la pertinence mécanistique au regard des traitements de référence (inhibiteurs calciques, dérivés nitrés)
-- Clarifier le statut réglementaire, toutes les AMM étant annulées
+- Vérifier le statut réglementaire (4 AMM valides sur 4)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

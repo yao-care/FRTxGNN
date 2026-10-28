@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolpidem
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 831
-evidence_level: L5
-indication_count: 3
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Zolpidem : nouvelle indication prédite, Trouble du sommeil (initiation et maintien du sommeil) (niveau de preuve L5). Indication d'origine : Insomnie"
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Zolpidem : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L1** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Zolpidem : De l'insomnie au trouble du sommeil (initiation et maintien du sommeil)
+## Zolpidem: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,12 +48,12 @@ Cette direction est soutenue par **18 publications** (dont 1 recommandation de p
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Insomnie (source : graphe de connaissances TxGNN ; le texte d'indication des AMM n'est pas renseigne) |
-| Nouvelle Indication Predite | Trouble du sommeil (initiation et maintien du sommeil) |
-| Score de Prediction TxGNN | 99.87% |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Benign paroxysmal torticollis of infancy |
+| Score de Prediction TxGNN | 0.9926 |
 | Niveau de Preuve | L1 (selon le classement des donnees compilees ; voir la remarque ci-dessous) |
-| Statut de Marche en France | Uniquement annule |
-| Nombre d'AMM | 11 (toutes annulees) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Decision Recommandee | Proceed with Guardrails |
 
 **Remarque sur le niveau de preuve :** aucun essai de phase 3 portant sur le zolpidem seul n'est enregistre dans les donnees compilees. Le niveau L1 repose sur des recommandations de pratique clinique, des meta-analyses en reseau et un essai de phase 3 avec comparateur actif. Il refletait surtout la solidite de l'usage historique dans l'indication d'origine, et non une preuve nouvelle de repositionnement.
@@ -68,7 +68,7 @@ La nouvelle indication predite (difficultes d'initiation et de maintien du somme
 
 La litterature confirme que le zolpidem est un traitement et un comparateur reconnu : l'essai de phase 3 sur le lemborexant utilise le zolpidem a liberation prolongee comme controle actif chez des adultes ages, et plusieurs recommandations le citent parmi les « Z-drugs ».
 
-Les deux autres predictions (torticolis paroxystique benin du nourrisson, score 99.26 % ; agoraphobie, score 99.25 %) ne reposent que sur le score du modele, sans essai ni publication. Elles ne presentent pas de justification mecanistique plausible : le torticolis paroxystique benin est un trouble pediatrique rare, pour lequel le zolpidem n'est pas adapte chez le nourrisson ; pour l'agoraphobie, l'activite anxiolytique du zolpidem est minime et les risques de dependance pesent contre son usage. Ces predictions sont classees L5 avec une decision « Hold ».
+Les deux autres predictions (torticolis paroxystique benin du nourrisson, score 0.9926 ; agoraphobie, score 0.9925) ne reposent que sur le score du modele, sans essai ni publication. Elles ne presentent pas de justification mecanistique plausible : le torticolis paroxystique benin est un trouble pediatrique rare, pour lequel le zolpidem n'est pas adapte chez le nourrisson ; pour l'agoraphobie, l'activite anxiolytique du zolpidem est minime et les risques de dependance pesent contre son usage. Ces predictions sont classees L5 avec une decision « Hold ».
 
 ---
 
@@ -97,15 +97,15 @@ Aucun essai clinique associe enregistre actuellement.
 
 ## Informations de Marche en France
 
-Les 11 AMM sont toutes annulees ; aucune n'est actuellement valide. Le texte de l'indication approuvee n'est pas renseigne.
+Le texte de l'indication approuvee n'est pas renseigne.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 61705683 | ZOLPIDEM ALMUS 10 mg (BIOGARAN) | Comprime pellicule secable | Annulee |
-| 62969974 | ZOLPIDEM BIOGARAN 10 mg | Comprime pellicule secable | Annulee |
-| 61843104 | ZOLPIDEM ZYDUS 10 mg | Comprime pellicule secable | Annulee |
-| 63179285 | STILNOX 10 mg (SANOFI WINTHROP) | Comprime pellicule secable | Annulee |
-| 69329603 | ZOLPIDEM CRISTERS 10 mg | Comprime pellicule secable | Annulee |
+| 61705683 | ZOLPIDEM ALMUS 10 mg (BIOGARAN) | Comprime pellicule secable | Active |
+| 62969974 | ZOLPIDEM BIOGARAN 10 mg | Comprime pellicule secable | Active |
+| 61843104 | ZOLPIDEM ZYDUS 10 mg | Comprime pellicule secable | Active |
+| 63179285 | STILNOX 10 mg (SANOFI WINTHROP) | Comprime pellicule secable | Active |
+| 69329603 | ZOLPIDEM CRISTERS 10 mg | Comprime pellicule secable | Active |
 
 ---
 

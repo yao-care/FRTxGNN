@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorambucil
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 160
-evidence_level: L3
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Chlorambucil : nouvelle indication prédite, Lymphome pulmonaire primitif (niveau de preuve L3). Indication d'origine : Lymphome de Hodgkin (autres indications d'origine : lymphome follicul…"
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+description: "Chlorambucil : nouvelle indication prédite, Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hy… (niveau de preuve L5). Indication …"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-## Chlorambucil : Du Lymphome de Hodgkin au Lymphome Pulmonaire Primitif
+## Chlorambucil: Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -42,18 +42,18 @@ Chlorambucil est un agent alkylant de l'ADN, initialement utilisé pour traiter 
 Le modèle TxGNN prédit qu'il pourrait être efficace pour le **lymphome pulmonaire primitif** (la prédiction de rang 4, retenue ici car c'est la seule à disposer d'un corpus de littérature substantiel et à avoir atteint l'étape S1).
 Cette direction est actuellement soutenue par **11 publications** (aucun essai clinique enregistré), dont la plupart sont anciennes, rétrospectives ou peu spécifiques.
 
-> Remarque : les prédictions de rang 1 et 2 ont des scores TxGNN légèrement supérieurs (99,72 %) mais ne disposent d'aucune preuve directe ou d'une seule référence indirecte. Le rang 4 a été retenu comme candidat principal en raison de la qualité relative de ses preuves.
+> Remarque : les prédictions de rang 1 et 2 ont des scores TxGNN légèrement supérieurs (0,9972) mais ne disposent d'aucune preuve directe ou d'une seule référence indirecte. Le rang 4 a été retenu comme candidat principal en raison de la qualité relative de ses preuves.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lymphome de Hodgkin (autres indications d'origine : lymphome folliculaire, leucémie lymphoblastique aiguë, syndrome de Richter) |
-| Nouvelle Indication Prédite | Lymphome pulmonaire primitif |
-| Score de Prédiction TxGNN | 99,42 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation |
+| Score de Prédiction TxGNN | 0.9972 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -88,7 +88,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66518292 | CHLORAMINOPHENE 2 mg, gélule (TECHNI-PHARMA) | Gélule | Non renseignée (AMM annulée) |
+| 66518292 | CHLORAMINOPHENE 2 mg, gélule (TECHNI-PHARMA) | Gélule | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

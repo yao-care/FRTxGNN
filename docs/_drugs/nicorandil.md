@@ -4,17 +4,17 @@ title: Nicorandil
 parent: Preuves modérées (L3-L4)
 nav_order: 535
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Nicorandil : nouvelle indication prédite, Hyperplasie bénigne de la prostate (niveau de preuve L4). Indication d'origine : Angor chronique stable (d'après les données pharmacologiques"
 monitor_inn: "NICORANDIL"
-predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis susceptibility", "osteoarthritis"]
+predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
 ---
 
 # Nicorandil
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **7** 
+Niveau de preuve: **L4** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hyperplasie bén
 |------|------|
 | Indication Originale | Angor chronique stable (d'après les données pharmacologiques ; le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
-| Score de Prédiction TxGNN | 99,71 % |
+| Score de Prédiction TxGNN | 0,9971 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 14 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
+| Nombre d'AMM | 14 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,15 +75,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM listées ci-dessous sont annulées ; le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
+Le médicament est commercialisé en France : 14 AMM valides sur 14 ; le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 64614712 | NICORANDIL EG 10 mg | Comprimé sécable | Annulée |
-| 66925249 | NICORANDIL ALMUS 10 mg | Comprimé sécable | Annulée |
-| 61503831 | NICORANDIL ZENTIVA 10 mg | Comprimé sécable | Annulée |
-| 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Annulée |
-| 61786176 | IKOREL 20 mg | Comprimé | Annulée |
+| 64614712 | NICORANDIL EG 10 mg | Comprimé sécable | Active |
+| 66925249 | NICORANDIL ALMUS 10 mg | Comprimé sécable | Active |
+| 61503831 | NICORANDIL ZENTIVA 10 mg | Comprimé sécable | Active |
+| 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Active |
+| 61786176 | IKOREL 20 mg | Comprimé | Active |
 
 Au total, 14 AMM figurent dans les données (toutes en monothérapie et toutes annulées).
 
@@ -98,7 +98,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- L'hypothèse repose uniquement sur une étude animale et deux revues, sans aucun essai clinique, et le médicament ne dispose plus d'aucune AMM valide en France. Le niveau de preuve (L4) ne permet pas d'aller plus loin pour l'instant.
+- L'hypothèse repose uniquement sur une étude animale et deux revues, sans aucun essai clinique, et le médicament est commercialisé en France (14 AMM valides sur 14). Le niveau de preuve (L4) ne permet pas d'aller plus loin pour l'instant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité)
@@ -112,12 +112,11 @@ Les autres prédictions n'ont aucune preuve clinique ni bibliographique dans les
 
 | Indication Prédite | Score TxGNN | Remarque |
 |------|------|------|
-| Alopécie | 99,61 % | Lien hypothétique avec les ouvreurs de canaux K-ATP (type minoxidil), non étayé |
-| Hypotrichose simple du cuir chevelu | 99,51 % | Maladie génétique rare, justification faible |
-| Hypotrichose congénitale avec milium | 99,51 % | Probable proximité dans le graphe de connaissances, mécanisme spéculatif |
-| Pelade diffuse | 99,48 % | Maladie auto-immune, mécanisme du nicorandil non adapté |
-| Susceptibilité à l'arthrose | 99,44 % | Aucun lien mécanistique identifiable |
-| Arthrose | 99,40 % | Lien spéculatif via les canaux K-ATP ou le NO, non étayé |
+| Alopécie | 0,9961 | Lien hypothétique avec les ouvreurs de canaux K-ATP (type minoxidil), non étayé |
+| Hypotrichose simple du cuir chevelu | 0,9951 | Maladie génétique rare, justification faible |
+| Hypotrichose congénitale avec milium | 0,9951 | Score issu du modèle TxGNN (deep learning), pouvant refléter des similarités apprises entre maladies proches, et non une preuve biologique |
+| Pelade diffuse | 0,9948 | Maladie auto-immune, mécanisme du nicorandil non adapté |
+| Arthrose | 0,9940 | Lien spéculatif via les canaux K-ATP ou le NO, non étayé |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

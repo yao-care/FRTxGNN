@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vaginite atroph
 |------|------|
 | Indication Originale | Giardiase, vaginose bactérienne, vaginite, vulvite, vulvovaginite, amibiase à *Entamoeba histolytica*, trichomonase (texte d'indication de l'AMM non renseigné) |
 | Nouvelle Indication Prédite | Vaginite atrophique post-ménopausique |
-| Score de Prédiction TxGNN | 99,93 % |
+| Score de Prédiction TxGNN | 0,9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vaginite atroph
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le tinidazole fait partie de la classe des 5-nitroimidazolés, dont l'efficacité contre les protozoaires et les bactéries anaérobies est établie, notamment dans les infections vaginales (vaginose bactérienne, trichomonase).
 
-Le score élevé reflète très probablement la proximité, dans le graphe de connaissances, entre la vaginite atrophique et les indications vaginales déjà reconnues. Or la vaginite atrophique résulte d'une carence en œstrogènes et non d'une infection microbienne : le mécanisme antimicrobien n'offre donc aucune justification thérapeutique claire.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Or la vaginite atrophique résulte d'une carence en œstrogènes et non d'une infection microbienne : le mécanisme antimicrobien n'offre donc aucune justification thérapeutique claire.
 
 Cette prédiction doit donc être considérée avec prudence. Elle relève d'une association anatomique plutôt que d'un lien mécanistique démontré.
 

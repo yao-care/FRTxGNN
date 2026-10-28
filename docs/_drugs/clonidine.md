@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clonidine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 188
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clonidine : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L3). Indication d'origine : Hypertension artérielle"
 monitor_inn: "CLONIDINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
+description: "Clonidine : nouvelle indication prédite, Faciodigitogenital syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clonidine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Clonidine : De l'hypertension au syndrome de Gilles de la Tourette
+## Clonidine: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette indication correspond toutefois davantage à un usage déjà établi dans 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (selon les indications du graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette |
-| Score de Prédiction TxGNN | 99,98 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Faciodigitogenital syndrome |
+| Score de Prédiction TxGNN | 1.0000 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 > Remarque : les prédictions classées aux rangs 1 à 4 (syndrome facio-digito-génital, trouble spécifique du développement, fibrome chondromyxoïde, trichotillomanie) ont des scores TxGNN plus élevés mais des preuves nulles ou très faibles (L4-L5). Le syndrome de Gilles de la Tourette, bien que classé 5e par score, est la prédiction la mieux étayée par les données ; il a donc été retenu comme indication principale de ce rapport.
@@ -64,7 +64,7 @@ Cette indication correspond toutefois davantage à un usage déjà établi dans 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, la clonidine est un agoniste des récepteurs alpha-2 adrénergiques : elle réduit l'activité noradrénergique centrale et la décharge sympathique, ce qui explique son effet antihypertenseur.
 
-Ce même mécanisme est pertinent dans les tics : la réduction de la transmission noradrénergique module les circuits cortico-striato-thalamo-corticaux impliqués dans le syndrome de Gilles de la Tourette. L'usage de la clonidine dans le TDAH (indication originale du graphe de connaissances) est également pertinent, car le TDAH est la comorbidité la plus fréquente du syndrome de Gilles de la Tourette. La clonidine figure comme option dans les lignes directrices européennes de 2022 pour les tics, en particulier en présence d'un TDAH associé.
+Ce même mécanisme est pertinent dans les tics : la réduction de la transmission noradrénergique module les circuits cortico-striato-thalamo-corticaux impliqués dans le syndrome de Gilles de la Tourette. La clonidine figure comme option dans les lignes directrices européennes de 2022 pour les tics, en particulier en présence d'un TDAH associé.
 
 Les effets observés restent modestes selon les méta-analyses. Cette indication est d'ailleurs plutôt un usage déjà établi qu'un repositionnement inédit.
 
@@ -100,7 +100,7 @@ Les effets observés restent modestes selon les méta-analyses. Cette indication
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64256681 | CATAPRESSAN 0,15 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
+| 64256681 | CATAPRESSAN 0,15 mg/ml | Solution injectable | Non renseignée (AMM active) |
 
 ---
 

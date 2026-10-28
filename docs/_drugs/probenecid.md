@@ -6,9 +6,9 @@ nav_order: 633
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Probenecid : nouvelle indication prédite, Hypouricémie rénale (niveau de preuve L5). Indication d'origine : Goutte, hyperuricémie"
 monitor_inn: "probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
+description: "Probenecid : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Probenecid
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Probénécide : De la goutte à l'hypouricémie rénale
+## Probenecid: Hypouricémie rénale (hypouricemia, renal)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré, et **20 publications** ont été retrouv
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Goutte, hyperuricémie (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypouricémie rénale |
-| Score de Prédiction TxGNN | 99,73 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypouricémie rénale (hypouricemia, renal) |
+| Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 (prédiction du modèle sans étude clinique ; le niveau L4 attribué dans les données compilées reflète des études mécanistiques et physiologiques) |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,7 +89,7 @@ Les publications ci-dessous sont les plus pertinentes parmi les 20 retrouvées. 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68335966 | SANTURIL 500 mg, comprimé sécable (LIPOMED, Allemagne) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 68335966 | SANTURIL 500 mg, comprimé sécable (LIPOMED, Allemagne) | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -6,9 +6,9 @@ nav_order: 761
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ticarcillin : nouvelle indication prédite, Maladie du péritoine (la première prédiction du classement est le myo… (niveau de preuve L5). Indication d'origine : Infections bactériennes (infection urin…"
 monitor_inn: "ticarcillin"
 predicted_indications: ["lymph node palisaded myofibroblastoma", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "sacrum chordoma", "disease of retroperitoneum", "urethral disease", "disease of uterine broad ligament", "disease of peritoneum", "pelvic varices"]
+description: "Ticarcillin : nouvelle indication prédite, Lymph node palisaded myofibroblastoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ticarcillin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ticarcilline : Des Infections Bactériennes à la Maladie du Péritoine
+## Ticarcillin: Lymph node palisaded myofibroblastoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour la **maladie du 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections bactériennes (infection urinaire, pneumonie bactérienne, infection à staphylocoque, etc.). Le texte d'indication des AMM n'est pas renseigné ; l'information provient de la base de connaissances du modèle |
-| Nouvelle Indication Prédite | Maladie du péritoine (la première prédiction du classement est le myofibroblastome palissadique ganglionnaire, sans aucune preuve ; voir ci-dessous) |
-| Score de Prédiction TxGNN | 99,81 % (maladie du péritoine) ; 99,82 % pour la première prédiction du classement |
-| Niveau de Preuve | L3 (maladie du péritoine) ; L5 pour les autres prédictions |
-| Statut de Marché en France | Uniquement annulé (AMM abrogées) |
-| Nombre d'AMM | 2 (0 valide, 2 annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Lymph node palisaded myofibroblastoma |
+| Score de Prédiction TxGNN | 0.9982 |
+| Niveau de Preuve | L5 (maladie du péritoine) ; L5 pour les autres prédictions |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold (maintenir en attente) ; piste de recherche pour la maladie du péritoine |
 
 **Remarque sur le choix de la prédiction :** les neuf premières prédictions (myofibroblastome palissadique ganglionnaire, lymphangiome kystique abdominal, syndrome de compression du tronc cœliaque, grossesse ectopique abdominale, chordome sacré, maladie du rétropéritoine, maladie de l'urètre, maladie du ligament large de l'utérus) ne disposent d'aucune preuve clinique ni bibliographique et n'ont pas de lien mécanistique plausible avec un antibiotique. La seule prédiction étayée par de la littérature est la **maladie du péritoine** (rang 9), qui fait l'objet de l'analyse détaillée ci-dessous.
@@ -102,8 +102,8 @@ Les deux AMM sont annulées. Le texte d'indication approuvée n'est pas renseign
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 67951898 | CLAVENTIN 3 g/200 mg | Poudre pour solution injectable (I.V.) | Annulée |
-| 67557120 | CLAVENTIN 5 g/200 mg | Poudre pour solution injectable (I.V.) | Annulée |
+| 67951898 | CLAVENTIN 3 g/200 mg | Poudre pour solution injectable (I.V.) | Active |
+| 67557120 | CLAVENTIN 5 g/200 mg | Poudre pour solution injectable (I.V.) | Active |
 
 Titulaire : Laboratoires Delbert.
 

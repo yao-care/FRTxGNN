@@ -4,17 +4,17 @@ title: Ziconotide
 parent: Preuves modérées (L3-L4)
 nav_order: 828
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ziconotide : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "ZICONOTIDE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "preeclampsia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 ---
 
 # Ziconotide
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (tro
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
-| Score de Prédiction TxGNN | 99,92 % |
+| Score de Prédiction TxGNN | 0,9992 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -87,7 +87,7 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66495139 | PRIALT 100 microgrammes/ml, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 66495139 | PRIALT 100 microgrammes/ml, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
 
 ---
 

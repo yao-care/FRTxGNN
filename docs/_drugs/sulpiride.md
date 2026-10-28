@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulpiride
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 723
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Sulpiride : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (niveau de preuve L4). Indication d'origine : Schizophrénie"
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
+description: "Sulpiride : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication d'orig…"
 ---
 
 # Sulpiride
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-## Sulpiride : De la Schizophrénie à la Dystrophie Rétinienne
+## Sulpiride: Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** n'est enregistré et seules **2 publications préc
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Schizophrénie (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
-| Score de Prédiction TxGNN | 99,95 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) |
+| Score de Prédiction TxGNN | 0.9995 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 6) |
+| Nombre d'AMM | 6 (valides : 5) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -79,11 +79,11 @@ Les six AMM sont annulées ; le texte d'indication approuvée n'est pas renseign
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 61055303 | SULPIRIDE TEVA 50 mg | Gélule | Annulée |
-| 64285722 | DOGMATIL 0,5 g/100 ml sans sucre | Solution buvable | Annulée |
-| 67208161 | DOGMATIL 200 mg | Comprimé sécable | Annulée |
-| 62344129 | DOGMATIL 50 mg | Gélule | Annulée |
-| 66241856 | SULPIRIDE TEVA 200 mg | Comprimé sécable | Annulée |
+| 61055303 | SULPIRIDE TEVA 50 mg | Gélule | Active |
+| 64285722 | DOGMATIL 0,5 g/100 ml sans sucre | Solution buvable | Active |
+| 67208161 | DOGMATIL 200 mg | Comprimé sécable | Active |
+| 62344129 | DOGMATIL 50 mg | Gélule | Active |
+| 66241856 | SULPIRIDE TEVA 200 mg | Comprimé sécable | Active |
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold (question de recherche)**
 
 **Justification :**
-- Seules deux études précliniques sur le rat, indirectes, soutiennent l'hypothèse ; aucune donnée clinique n'existe et l'effet sur la dégénérescence ou la vision est inconnu. Toutes les AMM françaises sont annulées.
+- Seules deux études précliniques sur le rat, indirectes, soutiennent l'hypothèse ; aucune donnée clinique n'existe et l'effet sur la dégénérescence ou la vision est inconnu. Le médicament est commercialisé en France : 5 AMM valides sur 6.
 - Les autres prédictions (hydranencéphalie, polymicrogyrie, Charcot-Marie-Tooth 1G, formes de myopie, anomalies de glycosylation, encéphalopathie à glycine atypique) n'ont aucune preuve ; pour les myopies, l'antagonisme D2 pourrait même être défavorable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

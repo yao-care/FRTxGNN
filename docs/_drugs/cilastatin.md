@@ -4,17 +4,17 @@ title: Cilastatin
 parent: Preuves modérées (L3-L4)
 nav_order: 169
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cilastatin : nouvelle indication prédite, Infection à Staphylococcus aureus (niveau de preuve L3). Indication d'origine : Pneumonie bactérienne, péritonite, endocardite, arthrite bactérienne…"
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
+description: "Cilastatin : nouvelle indication prédite, Infection à Staphylococcus aureus (staphylococcus aureus infection) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cilastatin
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Cilastatine : Des Infections Bactériennes à l'Infection à Staphylococcus aureus
+## Cilastatin: Infection à Staphylococcus aureus (staphylococcus aureus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Cependant, l'activité antibactérienne provient de l'imipénème et non de la c
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Pneumonie bactérienne, péritonite, endocardite, arthrite bactérienne, endométrite (texte d'indication ANSM non disponible) |
-| Nouvelle Indication Prédite | Infection à Staphylococcus aureus |
-| Score de Prédiction TxGNN | 99,94 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection à Staphylococcus aureus (staphylococcus aureus infection) |
+| Score de Prédiction TxGNN | 0.9994 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'association imipénème/cilastatine a une activité historique contre les *S. aureus* sensibles à la méticilline (SASM) et a été utilisée comme partenaire dans des cas de SARM réfractaire (par exemple avec la fosfomycine). Toute efficacité anti-staphylococcique est donc attribuable à l'imipénème.
 
-La prédiction est donc plutôt un effet de la proximité, dans le graphe de connaissances, entre la cilastatine et les infections bactériennes qu'un véritable repositionnement indépendant de la cilastatine.
+La prédiction provient du modèle TxGNN (apprentissage profond) et peut donc refléter plutôt des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, qu'un véritable repositionnement indépendant de la cilastatine.
 
 ## Preuves d'Essais Cliniques
 
@@ -90,11 +90,11 @@ Les neuf AMM recensées sont annulées ; le texte d'indication n'est pas disponi
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69426034 | IMIPENEM CILASTATINE VIATRIS 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 64326051 | IMIPENEM/CILASTATINE TAMRISA 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 62866789 | IMIPENEM/CILASTATINE ARROW 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 65336568 | IMIPENEM CILASTATINE PANPHARMA 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 65465495 | IMIPENEM/CILASTATINE SUN 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 69426034 | IMIPENEM CILASTATINE VIATRIS 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 64326051 | IMIPENEM/CILASTATINE TAMRISA 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 62866789 | IMIPENEM/CILASTATINE ARROW 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 65336568 | IMIPENEM CILASTATINE PANPHARMA 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 65465495 | IMIPENEM/CILASTATINE SUN 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

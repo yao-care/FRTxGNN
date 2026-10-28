@@ -6,9 +6,9 @@ nav_order: 307
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Etonogestrel : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées pour ce rapport (le texte d'i…"
 monitor_inn: "etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
+description: "Etonogestrel : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Etonogestrel
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Étonogestrel : De la contraception à l'aménorrhée (prédiction du modèle)
+## Etonogestrel: Aménorrhée (amenorrhea (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Cette prédiction repose donc uniquement sur le modèle, sans preuve réelle.
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données compilées pour ce rapport (le texte d'indication des AMM est vide) |
-| Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,84 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
+| Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 6 (dont 6 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -62,7 +62,7 @@ Cependant, l'aménorrhée est ici un **effet attendu, ou une modification du pro
 
 La prédiction est biologiquement plausible, mais elle reflète probablement un effet pharmacologique connu plutôt qu'une opportunité de repositionnement.
 
-Les autres indications prédites (maladie fibrokystique du ssein, adénose apocrine, adénose à canaux dilatés, dysplasie mammaire bénigne) présentent des scores compris entre 99,2 % et 99,6 %. Elles reposent sur l'hypothèse théorique d'un antagonisme progestatif de la prolifération épithéliale induite par les œstrogènes. Aucun essai ni publication n'a été retrouvé pour elles, et elles restent non validées.
+Les autres indications prédites (maladie fibrokystique du sein : 0.9961, adénose apocrine : 0.9929, adénose à canaux dilatés : 0.9929, dysplasie mammaire bénigne : 0.9921) sont issues du modèle TxGNN (apprentissage profond). Ces scores peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques. Elles reposent sur l'hypothèse théorique d'un antagonisme progestatif de la prolifération épithéliale induite par les œstrogènes. Aucun essai ni publication n'a été retrouvé pour elles, et elles restent non validées.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,7 +76,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont au statut « annulé » ; aucune n'est actuellement valide.
+Le médicament est commercialisé : 6 AMM valides sur 6.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -98,13 +98,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication pertinente. L'aménorrhée est un effet attendu de la contraception progestative plutôt qu'une maladie à traiter. De plus, aucune AMM n'est actuellement valide en France et les données de sécurité de la notice manquent.
+- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication pertinente. L'aménorrhée est un effet attendu de la contraception progestative plutôt qu'une maladie à traiter.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), ce qui bloque actuellement l'évaluation de sécurité
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Préciser si l'aménorrhée visée est une indication thérapeutique réelle (par exemple une aménorrhée pathologique) ou un simple effet de la contraception
-- Vérifier les indications d'origine et le statut réglementaire actuel des produits (toutes les AMM étant annulées)
+- Vérifier les indications d'origine et le statut réglementaire actuel des produits (6 AMM valides sur 6)
 - Rechercher des études spécifiques à l'étonogestrel dans l'aménorrhée et les pathologies bénignes du sein
 ## Avertissement
 

@@ -8,6 +8,7 @@ nav_order: 22
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Aciclovir
@@ -51,7 +52,7 @@ De plus, le médicament n'est **pas commercialisé en France** selon les donnée
 | Nouvelle Indication Prédite | Aucune — le modèle TxGNN n'a émis aucune prédiction |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | N/A (aucune prédiction à évaluer) |
-| Statut de Marché en France | ✗ Non commercialisé |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | **Hold** |
 

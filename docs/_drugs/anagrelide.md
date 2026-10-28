@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **thrombocytose r
 |------|------|
 | Indication Originale | Thrombocythémie, thrombocytose familiale (texte d'indication de l'AMM non disponible) |
 | Nouvelle Indication Prédite | Thrombocytose réactive |
-| Score de Prédiction TxGNN | 99,83 % |
+| Score de Prédiction TxGNN | 0,9983 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement, aucun essai clinique ni étude directe sur cette indication) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La thrombocytose réactive (secondaire) a une origine différente : elle est provoquée par des causes externes telles qu'une inflammation, une carence en fer ou une splénectomie. Elle se traite généralement en prenant en charge la cause sous-jacente, et le risque thrombotique y est habituellement faible. Le mécanisme de baisse des plaquettes est donc biologiquement plausible, mais l'intérêt clinique d'un agent cytoréducteur dans un contexte non clonal est faible.
 
-Le score TxGNN élevé (0,998) reflète très probablement la proximité de cette maladie avec l'indication approuvée (thrombocythémie) dans l'ontologie, plutôt qu'une preuve indépendante. Il doit être interprété avec prudence.
+Le score TxGNN élevé (0,9983) reflète très probablement la proximité de cette maladie avec l'indication approuvée (thrombocythémie) dans l'ontologie, plutôt qu'une preuve indépendante. Il doit être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -86,7 +86,7 @@ Aucune de ces publications n'évalue directement l'anagrélide dans la thrombocy
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64599534 | XAGRID 0,5 mg, gélule (Takeda Pharmaceuticals International, Irlande) | Gélule | Non renseignée (AMM annulée) |
+| 64599534 | XAGRID 0,5 mg, gélule (Takeda Pharmaceuticals International, Irlande) | Gélule | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -121,7 +121,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ---
 
-**Note sur la seconde prédiction (syndrome de Klippel-Trenaunay inverse)** : score TxGNN de 99,59 %, niveau de preuve L5, sans essai ni publication, et aucun lien mécanistique établi avec l'anagrélide. Décision : Hold.
+**Note sur la seconde prédiction (syndrome de Klippel-Trenaunay inverse)** : score TxGNN de 0,9959, niveau de preuve L5, sans essai ni publication, et aucun lien mécanistique établi avec l'anagrélide. Décision : Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

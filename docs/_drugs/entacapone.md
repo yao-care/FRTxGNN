@@ -6,9 +6,9 @@ nav_order: 284
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Entacapone : nouvelle indication prédite, Neurodégénérescence associée à PLA2G6 (niveau de preuve L5). Indication d'origine : Maladie de Parkinson"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
+description: "Entacapone : nouvelle indication prédite, Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loc…"
 ---
 
 # Entacapone
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Entacapone : De la maladie de Parkinson à la neurodégénérescence associée à PLA2G6
+## Entacapone: Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **neurodégé
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Parkinson (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Neurodégénérescence associée à PLA2G6 |
-| Score de Prédiction TxGNN | 99,76 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration) |
+| Score de Prédiction TxGNN | 0.9976 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -85,15 +85,15 @@ Aucune littérature associée disponible actuellement pour la neurodégénéresc
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées ; aucune n'est valide. Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65562898 | ENTACAPONE VIATRIS 200 mg | Comprimé pelliculé | Annulée |
-| 68826958 | COMTAN 200 mg | Comprimé pelliculé | Annulée |
-| 67403058 | ENTACAPONE ARROW 200 mg | Comprimé pelliculé | Annulée |
-| 68430364 | CORBILTA 50 mg/12,5 mg/200 mg | Comprimé pelliculé | Annulée |
-| 65927172 | STALEVO 100 mg/25 mg/200 mg | Comprimé pelliculé | Annulée |
+| 65562898 | ENTACAPONE VIATRIS 200 mg | Comprimé pelliculé | Active |
+| 68826958 | COMTAN 200 mg | Comprimé pelliculé | Active |
+| 67403058 | ENTACAPONE ARROW 200 mg | Comprimé pelliculé | Active |
+| 68430364 | CORBILTA 50 mg/12,5 mg/200 mg | Comprimé pelliculé | Active |
+| 65927172 | STALEVO 100 mg/25 mg/200 mg | Comprimé pelliculé | Active |
 
 ---
 
@@ -117,7 +117,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les mises en garde et contre-indications de la notice (blocage pour le criblage de sécurité), à obtenir sur le site de l'ANSM.
 - Les données sur le mécanisme d'action, à obtenir via DrugBank.
 - Une revue de la littérature et des données précliniques sur l'entacapone dans les phénotypes dystonie-parkinsonisme de la PLAN.
-- Une clarification du statut réglementaire en France, toutes les AMM étant annulées.
+- Une clarification du statut réglementaire en France, le médicament étant commercialisé avec 20 AMM valides.
 - À titre de comparaison, une priorisation éventuelle de la démence à corps de Lewy (niveau L4, soutien préclinique indirect) comme question de recherche.
 ## Avertissement
 

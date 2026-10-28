@@ -49,10 +49,10 @@ Parmi les autres indications prédites, deux disposent de preuves plus solides :
 |------|------|
 | Indication Originale | Carcinome du sein / néoplasme du sein (les textes d'indication des AMM ne sont pas renseignés) |
 | Nouvelle Indication Prédite | Lymphome pulmonaire primitif |
-| Score de Prédiction TxGNN | 99,71 % |
+| Score de Prédiction TxGNN | 0,9971 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -94,9 +94,9 @@ Ces publications sont toutes indirectes : aucune n'étudie l'épirubicine dans l
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69608841 | FARMORUBICINE 10 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 62362497 | FARMORUBICINE 50 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 64354517 | EPIRUBICINE VIATRIS 2 mg/ml, solution pour perfusion/solution intravésicale | Solution pour perfusion ou intravésicale | Non renseignée (AMM annulée) |
+| 69608841 | FARMORUBICINE 10 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 62362497 | FARMORUBICINE 50 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 64354517 | EPIRUBICINE VIATRIS 2 mg/ml, solution pour perfusion/solution intravésicale | Solution pour perfusion ou intravésicale | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

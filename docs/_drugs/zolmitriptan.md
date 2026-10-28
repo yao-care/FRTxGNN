@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolmitriptan
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 830
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Zolmitriptan : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Migraine (migraine avec ou sans aura)"
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Zolmitriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Zolmitriptan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,27 +33,26 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Zolmitriptan : De la migraine à la migraine avec aura du tronc cérébral
+## Zolmitriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Zolmitriptan est un agoniste des récepteurs 5-HT1B/1D (famille des triptans), initialement utilisé pour le traitement de la crise de migraine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais aucun essai clinique n'est enregistré et la littérature disponible (**20 publications**) porte surtout sur la migraine en général, sans étude spécifique de ce sous-type.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (migraine avec ou sans aura) |
-| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 20 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Atrophoderma vermiculata |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Nombre d'AMM | 20 (valides : 20) |
 | Décision Recommandée | Hold |
 
-Remarque : le texte d'indication approuvée n'est pas renseigné dans les AMM compilées. L'indication originale provient des relations d'indication du graphe de connaissances utilisé par TxGNN.
+Remarque : le texte d'indication approuvée n'est pas renseigné dans les AMM compilées.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -61,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La migraine avec aura du tronc cérébral est un sous-type de migraine. Elle partage avec l'indication d'origine une physiopathologie commune (activation trigémino-vasculaire, libération de CGRP, dépression corticale envahissante). Le lien biologique est donc plausible.
 
-Cette prédiction relève toutefois davantage d'une extension à un sous-type de l'indication existante que d'un véritable repositionnement. Le score très élevé (0,9999) reflète probablement la proximité ontologique avec la migraine, et non une preuve indépendante. Par ailleurs, les triptans sont traditionnellement employés avec prudence dans les migraines hémiplégiques et avec aura du tronc cérébral, en raison de craintes liées à la vasoconstriction.
+Cette prédiction relève toutefois davantage d'une extension à un sous-type de l'indication existante que d'un véritable repositionnement. Par ailleurs, les triptans sont traditionnellement employés avec prudence dans les migraines hémiplégiques et avec aura du tronc cérébral, en raison de craintes liées à la vasoconstriction.
 
 ## Preuves d'Essais Cliniques
 
@@ -86,15 +85,15 @@ Aucune des publications ci-dessous n'étudie spécifiquement la migraine avec au
 
 ## Informations de Marché en France
 
-Les 20 AMM compilées sont annulées. Aucune n'est actuellement valide. Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.
+Les 20 AMM compilées sont annulées. Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 67038894 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé orodispersible | Annulée |
-| 65339379 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé pelliculé | Annulée |
-| 62039483 | ZOLMITRIPTAN TEVA SANTE 2,5 mg | Comprimé orodispersible | Annulée |
-| 60294713 | ZOLMITRIPTAN ZYDUS FRANCE 2,5 mg | Comprimé orodispersible | Annulée |
-| 61180239 | ZOLMITRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Annulée |
+| 67038894 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé orodispersible | Active |
+| 65339379 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé pelliculé | Active |
+| 62039483 | ZOLMITRIPTAN TEVA SANTE 2,5 mg | Comprimé orodispersible | Active |
+| 60294713 | ZOLMITRIPTAN ZYDUS FRANCE 2,5 mg | Comprimé orodispersible | Active |
+| 61180239 | ZOLMITRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Active |
 
 ## Considérations de Sécurité
 
@@ -109,8 +108,8 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique est plausible, mais la prédiction correspond à un sous-type de l'indication existante. Aucun essai clinique ni étude spécifique à la migraine avec aura du tronc cérébral n'existe (niveau L4), et le score TxGNN élevé n'est pas une preuve indépendante.
-- Les signaux de sécurité vasculaire, la contre-indication liée à la migraine hémiplégique et l'absence de notice analysée empêchent d'avancer. Toutes les AMM françaises sont par ailleurs annulées.
+- Le lien mécanistique est plausible, mais la prédiction correspond à un sous-type de l'indication existante.
+- Les signaux de sécurité vasculaire, la contre-indication liée à la migraine hémiplégique et l'absence de notice analysée empêchent d'avancer.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, étape bloquante pour le dépistage de sécurité

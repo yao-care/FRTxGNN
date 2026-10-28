@@ -6,9 +6,9 @@ nav_order: 331
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fluconazole : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Candidoses (candidose buccale, vulvovaginale, œsophagienne…"
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Fluconazole : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
 ---
 
 # Fluconazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Fluconazole : Des Candidoses à la Kératoconjonctivite Épithéliale Ponctuée
+## Fluconazole: Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Candidoses (candidose buccale, vulvovaginale, œsophagienne, candidémie, candidose disséminée) et méningite à cryptocoque (d'après le graphe de connaissances ; le texte des AMM ne précise pas d'indication) |
-| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée |
-| Score de Prédiction TxGNN | 99,24 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) |
+| Score de Prédiction TxGNN | 0.9924 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -62,7 +62,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le fluconazole est un antifongique azolé qui inhibe la lanostérol 14-alpha-déméthylase fongique (CYP51), ce qui perturbe la synthèse de l'ergostérol, composant essentiel de la membrane des champignons. Son efficacité dans les infections à *Candida* et à *Cryptococcus* est établie.
 
-Le seul soutien à la prédiction est le score élevé du modèle (0,992). Un lien plausible, mais non vérifié, serait que le modèle associe les kératoconjonctivites d'origine fongique ou infectieuse à l'activité antifongique. Or la kératoconjonctivite épithéliale ponctuée est souvent d'origine virale (par exemple adénovirus) ou liée à une atteinte de la surface oculaire ; dans ces situations, un antifongique n'agirait pas sur la cause.
+Le seul soutien à la prédiction est le score élevé du modèle (0,9924). Un lien plausible, mais non vérifié, serait que le modèle associe les kératoconjonctivites d'origine fongique ou infectieuse à l'activité antifongique. Or la kératoconjonctivite épithéliale ponctuée est souvent d'origine virale (par exemple adénovirus) ou liée à une atteinte de la surface oculaire ; dans ces situations, un antifongique n'agirait pas sur la cause.
 
 La prédiction ne peut donc pas être considérée comme soutenue sur le plan mécanistique sans preuves supplémentaires. La similarité avec l'indication d'origine reste à évaluer, et la compatibilité des voies d'administration (les formes disponibles sont orales et perfusion, aucune forme ophtalmique) n'a pas été établie.
 
@@ -86,11 +86,11 @@ Les 20 AMM recensées sont toutes annulées. Les 5 premières sont listées ci-d
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60560861 | FLUCONAZOLE EVOLUGEN 50 mg | Gélule | Annulée |
-| 62033904 | FLUCONAZOLE SANDOZ 200 mg | Gélule | Annulée |
-| 63909389 | FLUCONAZOLE VIATRIS 50 mg | Gélule | Annulée |
-| 63206323 | FLUCONAZOLE PFIZER 150 mg | Gélule | Annulée |
-| 64080646 | TRIFLUCAN 50 mg | Gélule | Annulée |
+| 60560861 | FLUCONAZOLE EVOLUGEN 50 mg | Gélule | Active |
+| 62033904 | FLUCONAZOLE SANDOZ 200 mg | Gélule | Active |
+| 63909389 | FLUCONAZOLE VIATRIS 50 mg | Gélule | Active |
+| 63206323 | FLUCONAZOLE PFIZER 150 mg | Gélule | Active |
+| 64080646 | TRIFLUCAN 50 mg | Gélule | Active |
 
 Les autres formes concernées par des AMM annulées : poudre pour suspension buvable et solution pour perfusion.
 
@@ -113,14 +113,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et le lien mécanistique est peu plausible pour une kératoconjonctivite souvent virale. Aucune AMM n'est actuellement valide en France, et les données de sécurité de la notice manquent.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et le lien mécanistique est peu plausible pour une kératoconjonctivite souvent virale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM) pour permettre l'évaluation de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Rechercher des études cliniques ou précliniques du fluconazole dans la kératoconjonctivite épithéliale ponctuée et préciser l'étiologie ciblée (fongique ou autre).
 - Évaluer la voie d'administration adaptée (aucune forme ophtalmique disponible) et la compatibilité avec la pathologie.
-- Clarifier le statut réglementaire, toutes les AMM étant annulées.
+- Clarifier le statut réglementaire : le médicament est commercialisé et 20 AMM sont valides.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

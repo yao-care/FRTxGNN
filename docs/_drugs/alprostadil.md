@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alprostadil
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 47
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Alprostadil : nouvelle indication prédite, Malformation aortique (niveau de preuve L4). Indication d'origine : Dysfonction érectile"
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve agenesis", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
+last_modified_at: 2026-10-27
+description: "Alprostadil : nouvelle indication prédite, Malformation aortique (aortic malformation) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Alprostadil : De la dysfonction érectile à la malformation aortique
+## Alprostadil : prostaglandine E1, vasodilatateur maintenant la perméabilité du canal artériel → malformation aortique (aortic malformation)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Alprostadil (prostaglandine E1) était initialement utilisé pour le traitement de la dysfonction érectile et de certaines cardiopathies congénitales néonatales dépendantes du canal artériel (atrésie tricuspide, coarctation de l'aorte, tétralogie de Fallot).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **malformation aortique**,
-mais **aucun essai clinique** n'est enregistré et seules **8 publications** (essentiellement des cas cliniques et des études observationnelles) existent actuellement.
+Alprostadil est une prostaglandine E1 aux propriétés vasodilatatrices, utilisée notamment pour maintenir ouvert le canal artériel chez le nouveau-né atteint de cardiopathie congénitale.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **malformation aortique (aortic malformation)**,
+avec **0 essai clinique** et **8 publications** (études cliniques anciennes, séries et rapports de cas, une étude animale) en lien avec cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dysfonction érectile (selon le graphe de connaissances TxGNN ; le texte des indications des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Malformation aortique |
-| Score de Prédiction TxGNN | 99,98 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 7 (0 valide, 7 annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Malformation aortique (aortic malformation) |
+| Score de Prédiction TxGNN | 0,9998 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'alprostadil est la prostaglandine E1, un vasodilatateur qui relâche la musculature lisse. Chez le nouveau-né, il maintient le canal artériel ouvert, ce qui préserve la circulation pulmonaire ou systémique dans les cardiopathies dites « canal-dépendantes ».
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'alprostadil est la prostaglandine E1 : elle relâche le muscle lisse du canal artériel et le maintient ouvert, ce qui préserve la circulation pulmonaire ou systémique chez les nouveau-nés dont la survie dépend de ce canal.
 
-La coarctation de l'aorte et l'interruption de l'arc aortique figurent déjà parmi ses usages établis. La prédiction du modèle est donc cohérente avec son mécanisme vasodilatateur connu. Il s'agit toutefois d'une extension d'un usage existant plutôt que d'une véritable découverte de repositionnement.
+Cette propriété vasodilatatrice est cohérente avec la prédiction : certaines malformations de l'aorte, comme la coarctation ou l'interruption de l'arche aortique, sont des lésions « canal-dépendantes » pour lesquelles le maintien de la perméabilité du canal sert de pont avant la chirurgie. La prédiction apparaît donc plausible, mais elle correspond davantage à une extension d'un usage déjà connu qu'à une découverte de repositionnement nouvelle.
 
-Ce bénéfice ne vaut que pour les lésions où la circulation dépend du canal artériel. Pour des malformations aortiques sans dépendance ductale, rien ne le justifie.
+Il faut toutefois rester prudent : les publications disponibles concernent des cardiopathies congénitales en général, des cas isolés (arche aortique interrompue, fenêtre aorto-pulmonaire), une étude chez le rat et des travaux périopératoires sur l'inflammation après circulation extracorporelle. Aucune ne porte directement et spécifiquement sur la « malformation aortique » comme maladie étudiée.
 
 ## Preuves d'Essais Cliniques
 
@@ -70,51 +70,38 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Évaluation clinique / série de cas | Pharmacotherapy | La perfusion d'alprostadil dilate le canal artériel et augmente le flux sanguin pulmonaire chez les nouveau-nés porteurs de malformations cardiaques congénitales canal-dépendantes |
-| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Étude clinique | Zhonghua Yi Xue Za Zhi | Effets de l'alprostadil et de l'ulinastatine sur la réponse inflammatoire et la lésion pulmonaire après circulation extracorporelle chez l'enfant cardiaque congénital (ne porte pas sur la malformation elle-même) |
-| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Cas clinique | Kyobu Geka | Interruption de l'arc aortique de type B : alprostadil utilisé pour maintenir le canal ouvert, puis réparation en un temps avec hémodiafiltration continue |
-| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Cas clinique | Braz J Cardiovasc Surg | Réparation d'une fenêtre aorto-pulmonaire complexe ; milrinone et alprostadil utilisés avant la chirurgie contre l'hypertension pulmonaire |
-| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revue | Kyobu Geka | Stratégie de traitement de la transposition des gros vaisseaux ; l'alprostadil maintient le canal ouvert pour préserver la performance du ventricule gauche |
-| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Étude observationnelle | Zhonghua Fu Chan Ke Za Zhi | Mode et moment de l'accouchement dans 123 cas de cardiopathie congénitale fœtale complexe |
-| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Étude observationnelle rétrospective | BMC Pregnancy Childbirth | Prise en charge intégrée périnatale des cardiopathies congénitales fœtales complexes |
-| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Étude animale | Minerva Chir | Atténuation de la lésion d'ischémie-reperfusion du muscle squelettique du rat (peu pertinente pour l'indication) |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Évaluation clinique / série de cas | Pharmacotherapy | L'alprostadil dilate le canal artériel et augmente le débit pulmonaire chez les nouveau-nés porteurs de cardiopathies congénitales canal-dépendantes |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Rapport de cas | Kyobu Geka | Nouveau-né avec arche aortique interrompue de type B : alprostadil utilisé pour garder le canal ouvert, puis réparation en un temps et hémodiafiltration continue, avec survie |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Étude clinique | Zhonghua Yi Xue Za Zhi | Effets de l'alprostadil et de l'ulinastatine sur l'inflammation et la lésion pulmonaire après circulation extracorporelle chez l'enfant cardiopathe |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revue | Kyobu Geka | Stratégie de traitement de la transposition des gros vaisseaux ; alprostadil utilisé pour maintenir le canal ouvert avant la chirurgie de switch artériel |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Rapport de cas | Braz J Cardiovasc Surg | Réparation chirurgicale d'une fenêtre aorto-pulmonaire complexe ; milrinone et alprostadil utilisés avant l'opération contre l'hypertension pulmonaire |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Étude observationnelle préliminaire | Zhonghua Fu Chan Ke Za Zhi | Mode et moment de l'accouchement dans 123 cas de cardiopathie congénitale fœtale complexe |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Étude rétrospective préliminaire | BMC Pregnancy Childbirth | Prise en charge périnatale intégrée des cardiopathies congénitales fœtales complexes |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Étude animale | Minerva Chir | Atténuation de la lésion d'ischémie-reperfusion du muscle squelettique chez le rat |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65806466 | ALPROSTADIL INTSEL CHIMOS 0,5 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
-| 60731732 | VITAROS 300 microgrammes | Crème | Non renseignée (AMM annulée) |
-| 66297965 | EDEX 20 microgrammes/1 ml | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
-| 68594342 | CAVERJECT 20 microgrammes/1 ml | Lyophilisat et solution pour usage parentéral | Non renseignée (AMM annulée) |
-| 68103252 | PROSTINE VR 0,5 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
-
-Deux autres AMM annulées existent (EDEX 10 µg, n° 67015187, et CAVERJECT 10 µg, n° 65613168).
+Les données de licence locales ne comportent pas de texte d'indication approuvée pour les produits à base d'alprostadil.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : syndrome de détresse respiratoire néonatal et aigu, hypotension, troubles de la coagulation, drépanocytose et hémoglobinopathies, maladies pulmonaires, myélome, leucémies, polyglobulie, thrombocytose, sténose du pylore, priapisme, sténose urétrale, maladie de La Peyronie, balanite et balanoposthite, urétrite.
-- **Effets indésirables rapportés dans la littérature** : hyperplasie antrale et sténose hypertrophique du pylore lors d'un traitement prolongé (PMID 23521358) ; pseudo-syndrome de Bartter sous perfusion de prostaglandine (PMID 12811550).
-- **Interactions médicamenteuses** : 59 interactions recensées. Six sont de niveau modéré : canagliflozine, dapagliflozine, empagliflozine, ertugliflozine, lorcasérine et saproptérine. Les autres (par exemple morphine, métformine, oméprazole, prednisone, simvastatine, vancomycine, atropine) sont de niveau non précisé.
+- **Interactions Médicamenteuses** : 59 interactions recensées. Celles de niveau modéré concernent la canagliflozine, la dapagliflozine, l'empagliflozine, l'ertugliflozine, la lorcasérine et la saproptérine. D'autres interactions, de niveau non précisé, concernent notamment la pantoprazole, la morphine, la metformine, l'oméprazole, la rosiglitazone, le lansoprazole, la vancomycine, l'atropine, la prednisone, la simvastatine, l'amphotéricine B, le chlorure de potassium, la prednisolone et la ranitidine.
+- Des rapports de cas décrivent, lors de perfusions prolongées de prostaglandine E1 chez le nouveau-né, une hyperplasie fovéolaire antrale avec sténose hypertrophique du pylore, ainsi qu'un syndrome pseudo-Bartter.
 
-Les mises en garde et contre-indications issues de la notice française ne sont pas disponibles.
+Veuillez consulter la notice pour les mises en garde et contre-indications détaillées.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est surtout une extension d'un usage déjà établi, sans essai clinique enregistré. Les preuves se limitent à des cas cliniques, à des études observationnelles et à des données anciennes.
-- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice manquent. Cela bloque l'évaluation de sécurité.
+Aucune étude citée ne porte directement sur la malformation aortique en tant que telle (essais cliniques absents, publications indirectes ou anecdotales) : le niveau de preuve reste donc L5. Le score élevé du modèle (0,9998) est cohérent avec l'usage connu de l'alprostadil dans les cardiopathies canal-dépendantes, mais ne suffit pas à lui seul.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)
-- Obtenir les données sur le mécanisme d'action (DrugBank)
-- Préciser les sous-types de malformations aortiques canal-dépendantes et rechercher des études prospectives ou comparatives
-- Évaluer la disponibilité réelle d'une forme injectable pour usage néonatal en France, puisque les AMM sont annulées
-- Prévoir une surveillance spécifique des effets indésirables d'un traitement prolongé (apnée, atteinte gastro-intestinale, troubles électrolytiques)
-
-Les autres indications prédites (sténose tricuspide congénitale, dysplasie valvulaire congénitale, agénésie de la valve tricuspide, etc.) restent au niveau L5, sans aucune preuve, et sont en attente (Hold). Le goitre endémique et le prolapsus de la valve tricuspide n'ont pas de lien mécanistique plausible.
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice ANSM
+- Études cliniques ciblant spécifiquement les malformations aortiques canal-dépendantes (coarctation, interruption de l'arche)
+- Plan de surveillance de la sécurité en perfusion prolongée chez le nouveau-né
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

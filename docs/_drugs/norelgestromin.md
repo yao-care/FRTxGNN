@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**aménorrhée**
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM |
 | Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,51 % |
+| Score de Prédiction TxGNN | 0,9951 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Retiré (AMM annulée uniquement) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Les progestatifs sont utilisés pour provoquer un saignement de privation dans l'aménorrhée secondaire. L'effet progestatif sur l'endomètre constitue donc un lien mécanistique plausible avec cette indication.
 
-Cette plausibilité reste théorique. Le score de 0,995 est une prédiction purement computationnelle. De plus, la forme commercialisée est un patch transdermique associant l'éthinylestradiol, à visée contraceptive, qui modifie lui-même le profil des saignements menstruels. Un usage réel dans l'aménorrhée serait donc difficile à interpréter.
+Cette plausibilité reste théorique. Le score de 0,9951 est une prédiction purement computationnelle. De plus, la forme commercialisée est un patch transdermique associant l'éthinylestradiol, à visée contraceptive, qui modifie lui-même le profil des saignements menstruels. Un usage réel dans l'aménorrhée serait donc difficile à interpréter.
 
 ---
 
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 69729088 | EVRA 203 microgrammes/24 heures + 33,9 microgrammes/24 heures, dispositif transdermique (GEDEON RICHTER) | Dispositif transdermique | Non renseignée | Annulée |
+| 69729088 | EVRA 203 microgrammes/24 heures + 33,9 microgrammes/24 heures, dispositif transdermique (GEDEON RICHTER) | Dispositif transdermique | Non renseignée | Active |
 
 ---
 

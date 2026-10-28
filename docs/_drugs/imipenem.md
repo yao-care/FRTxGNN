@@ -6,9 +6,9 @@ nav_order: 393
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imipenem : nouvelle indication prédite, Sclérodermie diffuse (niveau de preuve L5). Indication d'origine : Non disponible dans les données d'AMM (texte d'indication vide)"
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
+description: "Imipenem : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Imipenem
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Imipenem : Des infections bactériennes graves à la sclérodermie diffuse
+## Imipenem: Sclérodermie diffuse (diffuse scleroderma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Parmi les dix indications prédites, les pistes les mieux documentées sont de n
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible dans les données d'AMM (texte d'indication vide) ; les indications d'origine du graphe de connaissances sont les infections bactériennes (pneumonie, péritonite, endocardite, arthrite bactérienne, endométrite) |
-| Nouvelle Indication Prédite | Sclérodermie diffuse |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sclérodermie diffuse (diffuse scleroderma) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -97,13 +97,13 @@ Ces travaux constituent des preuves indirectes (surveillance de la résistance, 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69426034 | Imipenem Cilastatine Viatris 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 64326051 | Imipenem/Cilastatine Tamrisa 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 62866789 | Imipenem/Cilastatine Arrow 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 65336568 | Imipenem Cilastatine Panpharma 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 65465495 | Imipenem/Cilastatine Sun 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 69426034 | Imipenem Cilastatine Viatris 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 64326051 | Imipenem/Cilastatine Tamrisa 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 62866789 | Imipenem/Cilastatine Arrow 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 65336568 | Imipenem Cilastatine Panpharma 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 65465495 | Imipenem/Cilastatine Sun 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
-Au total, 9 AMM sont recensées, toutes annulées (dont Recarbrio, association avec le relébactam). Aucune AMM valide n'est actuellement répertoriée.
+Au total, 9 AMM sont recensées, toutes valides (dont Recarbrio, association avec le relébactam). Le médicament est commercialisé.
 
 ## Considérations de Sécurité
 
@@ -119,7 +119,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (sclérodermie diffuse) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible. Toutes les AMM françaises sont annulées. Les pistes infectieuses (typhoïde, salmonellose, infection à *S. aureus* en association) sont plus crédibles mais restent au stade de questions de recherche (L3 à L4).
+- La prédiction principale (sclérodermie diffuse) repose uniquement sur le score du modèle TxGNN (apprentissage profond) (niveau L5), sans essai ni publication, et sans mécanisme plausible. Les 9 AMM françaises sont valides. Les pistes infectieuses (typhoïde, salmonellose, infection à *S. aureus* en association) sont plus crédibles mais restent au stade de questions de recherche (L3 à L4).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action et sur les mises en garde et contre-indications officielles de la notice (ANSM)

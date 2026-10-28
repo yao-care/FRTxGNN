@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Azathioprine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 86
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Azathioprine : nouvelle indication prédite, Maladie inflammatoire chronique de l'intestin (MICI) (niveau de preuve L1). Indication d'origine : Polyarthrite rhumatoïde"
+evidence_level: L5
+indication_count: 7
 monitor_inn: "AZATHIOPRINE"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+last_modified_at: 2026-10-27
+description: "Azathioprine : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndro… (niveau de preuve L5). Indication …"
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,128 +33,74 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Azathioprine : De la polyarthrite rhumatoïde à la maladie inflammatoire chronique de l'intestin (MICI)
+## Azathioprine : immunosuppresseur antimétabolite purique → syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Azathioprine est un immunosuppresseur (analogue des purines, promédicament de la 6-mercaptopurine), initialement associé au traitement de la polyarthrite rhumatoïde.
-Le modèle TxGNN classe en tête de ses prédictions exploitables la **maladie inflammatoire chronique de l'intestin (MICI)**. Cette prédiction s'appuie sur **25 essais cliniques** et **20 publications** pour la MICI. La rectocolite hémorragique, une forme de MICI, est également prédite, avec 15 essais et 20 publications.
-Il s'agit toutefois d'un usage déjà bien établi plutôt que d'un véritable repositionnement.
+L'azathioprine est un immunosuppresseur de la famille des antimétabolites puriques.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndrome)**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette prédiction.
 
-> **Remarque sur le classement :** les deux premières prédictions du modèle (syndrome de microphtalmie colobomateuse-dysplasie rhizomélique et syndrome de brachydactylie-syndactylie) ont des scores TxGNN très élevés, mais sans aucune preuve ni lien mécanistique plausible. Elles relèvent très probablement d'artefacts du graphe de connaissances. Ce rapport se concentre donc sur la première prédiction étayée par des données, la MICI (rang 5), complétée par la rectocolite hémorragique (rang 9).
+## Aperçu Rapide
 
----
-
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Predite | Maladie inflammatoire chronique de l'intestin (MICI) |
-| Score de Prediction TxGNN | 99,52 % |
-| Niveau de Preuve | L1 |
-| Statut de Marche en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 8 (8 annulées) |
-| Decision Recommandee | Proceed with Guardrails |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| Score de Prédiction TxGNN | 1,0000 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
+| Décision Recommandée | Hold |
 
----
+> Note : le score brut est de 0,99999428 ; arrondi à quatre décimales, il s'affiche 1,0000.
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de référence. D'après les analyses compilées pour ce rapport, l'azathioprine est un promédicament de la 6-mercaptopurine. Ses métabolites, les nucléotides de thioguanine, inhibent la synthèse des purines et induisent l'apoptose des lymphocytes T (via l'inhibition de Rac1). Cela atténue la réponse immunitaire muqueuse dérégulée observée dans les MICI.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'azathioprine est un immunosuppresseur antimétabolite purique, dont l'action repose sur la modulation de la prolifération des cellules immunitaires.
 
-La polyarthrite rhumatoïde et les MICI sont toutes deux des maladies inflammatoires à médiation immunitaire. Un immunomodulateur qui freine la prolifération lymphocytaire est donc mécanistiquement applicable aux deux. L'azathioprine est d'ailleurs un immunomodulateur établi pour le maintien de la rémission dans les MICI, et les revues Cochrane le soutiennent dans la rectocolite hémorragique. La prédiction est donc cohérente, mais elle reflète un usage clinique existant plutôt qu'une découverte nouvelle.
+Pour l'affection prédite, aucun lien mécanistique plausible n'a été identifié. Il s'agit d'un syndrome rare de malformation du développement, touchant le squelette et l'œil, sans composante immunitaire connue. L'action immunosuppressive de l'azathioprine n'a donc pas de pertinence évidente pour sa physiopathologie.
 
-À l'inverse, les autres prédictions à score élevé (dysplasies squelettiques, malformations des membres, ostéoarthrite, syndrome WHIM, granulomatoses chroniques) n'ont aucun lien mécanistique crédible, voire un rapport bénéfice-risque défavorable (par exemple, une myélosuppression dans le syndrome WHIM).
-
----
+Le score très élevé attribué par le modèle semble être un artefact de modélisation, sans soutien clinique. La prédiction doit être considérée comme une simple hypothèse computationnelle.
 
 ## Preuves d'Essais Cliniques
 
-Sélection des essais les plus pertinents pour la MICI (dont la rectocolite hémorragique) :
+Aucun essai clinique associé enregistré actuellement.
 
-| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
-|---------|------|------|------|---------|
-| [NCT00537316](https://clinicaltrials.gov/study/NCT00537316) | Phase 3 | Terminé (arrêt anticipé) | 242 | Infliximab seul ou associé à l'azathioprine versus azathioprine seule dans la rectocolite hémorragique modérée à sévère ; résultats non fournis |
-| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Phase 4 | En recrutement | 300 | Mirikizumab d'emblée versus traitement standard par azathioprine dans la rectocolite hémorragique récente ; résultats en attente |
-| [NCT02177071](https://clinicaltrials.gov/study/NCT02177071) | Phase 4 | Terminé | 211 | Association infliximab-antimétabolites versus monothérapies dans la maladie de Crohn en rémission sans corticoïdes |
-| [NCT02247258](https://clinicaltrials.gov/study/NCT02247258) | Phase 2 | Terminé prématurément | 63 | Azathioprine systématique versus guidée par l'endoscopie pour prévenir la récidive postopératoire de la maladie de Crohn iléale |
-| [NCT00976690](https://clinicaltrials.gov/study/NCT00976690) | Phase 3 | Terminé | 83 | Azathioprine versus mésalazine pour prévenir la récidive postopératoire de la maladie de Crohn |
-| [NCT00098111](https://clinicaltrials.gov/study/NCT00098111) | Phase 3 | Terminé prématurément | 31 | Étude de dose d'Imuran dans la maladie de Crohn active sous prednisone |
-| [NCT00984568](https://clinicaltrials.gov/study/NCT00984568) | Phase 3 | Terminé prématurément | 28 | Traitement conventionnel progressif (dont azathioprine) versus infliximab seul dans la rectocolite hémorragique ; très faible effectif |
-| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Phase 3 | Inconnu | 84 | Azathioprine à faible dose + allopurinol versus azathioprine seule dans la rectocolite hémorragique |
-| [NCT00521950](https://clinicaltrials.gov/study/NCT00521950) | Non applicable | Terminé | 853 | Dépistage du génotype TPMT avant traitement par thiopurines : soutient les mesures de sécurité plutôt que l'efficacité |
-| [NCT02425852](https://clinicaltrials.gov/study/NCT02425852) | Phase 4 | Terminé | 65 | Azathioprine + infliximab précoces versus corticoïdes + azathioprine dans la colite aiguë sévère |
+## Preuves de la Littérature
 
----
+Aucune littérature associée disponible actuellement.
 
-## Preuves de la Litterature
+## Informations de Marché en France
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
-|------|-----|------|------|---------|
-| [39586616](https://pubmed.ncbi.nlm.nih.gov/39586616/) | 2025 | ECR | Gut | Essai ACTIVE : infliximab + azathioprine d'emblée versus azathioprine seule dans la colite aiguë sévère répondant aux corticoïdes IV |
-| [40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) | 2025 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Mise à jour de l'efficacité de l'azathioprine et de la 6-mercaptopurine pour le maintien de la rémission dans la rectocolite hémorragique |
-| [27192092](https://pubmed.ncbi.nlm.nih.gov/27192092/) | 2016 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Version antérieure de la revue Cochrane sur le maintien de la rémission dans la rectocolite hémorragique |
-| [19392869](https://pubmed.ncbi.nlm.nih.gov/19392869/) | 2009 | Méta-analyse | Aliment Pharmacol Ther | Efficacité de l'azathioprine et de la mercaptopurine dans la rectocolite hémorragique |
-| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Revue clinique | J Crohns Colitis | Synthèse sur les thiopurines dans les MICI : maintien de la rémission sans corticoïdes |
-| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Revue | J Gastroenterol Hepatol | Pharmacogénétique et suivi des métabolites de l'azathioprine et de la 6-MP dans les MICI |
-| [15177535](https://pubmed.ncbi.nlm.nih.gov/15177535/) | 2004 | Revue | Gastroenterol Clin North Am | Revue critique de l'efficacité et de la toxicité de la 6-MP et de l'azathioprine |
-| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Préclinique/mécanistique | Cell Rep Med | Des bactéries commensales favorisent l'échec de l'azathioprine en réduisant la biodisponibilité de la 6-MP |
-| [35501287](https://pubmed.ncbi.nlm.nih.gov/35501287/) | 2022 | Cohorte | J Gastroenterol Hepatol | Risque minime de lymphome et de cancer cutané non mélanocytaire sous thiopurines au long cours (Inde du Nord) |
-| [34287682](https://pubmed.ncbi.nlm.nih.gov/34287682/) | 2021 | Revue | J Gastroenterol | Pharmacogénomique des thiopurines et grossesse dans les MICI (variant NUDT15) |
-
----
-
-## Informations de Marche en France
-
-Toutes les AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné.
-
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60211183 | Azathioprine Teva 50 mg | Comprimé pelliculé | Non renseignée |
-| 63935487 | Imurel 50 mg | Poudre pour solution injectable (IV) | Non renseignée |
-| 63479140 | Azathioprine Viatris 50 mg | Comprimé pelliculé sécable | Non renseignée |
-| 66685747 | Imurel 50 mg (BB Farma) | Comprimé pelliculé | Non renseignée |
-| 64841852 | Imurel 25 mg | Comprimé pelliculé | Non renseignée |
+| 60211183 | AZATHIOPRINE TEVA 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+| 63935487 | IMUREL 50 mg, poudre pour solution injectable (IV) | Poudre pour solution injectable | Non renseignée |
+| 63479140 | AZATHIOPRINE VIATRIS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
+| 66685747 | IMUREL 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+| 64841852 | IMUREL 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
 
----
+Seules cinq AMM sur les huit recensées sont présentées ici.
 
-## Cytotoxicite
+## Considérations de Sécurité
 
-| Element | Contenu |
-|------|------|
-| Classification de Cytotoxicite | Immunosuppresseur antimétabolite (analogue des purines) ; non classé comme antinéoplasique dans les données disponibles |
-| Risque de Myelosuppression | Élevé : anémie, thrombocytopénie et leucopénie figurent parmi les maladies associées en contre-indication dans le graphe de connaissances ; le risque est accru en cas de déficit en TPMT/NUDT15 |
-| Classification d'Emetogenicite | Données non disponibles |
-| Elements de Surveillance | NFS, fonction hépatique et rénale, génotypage TPMT/NUDT15, dosage des métabolites |
-| Protection de Manipulation | Consulter la notice et les recommandations locales de manipulation |
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées pour ce rapport ; veuillez consulter la notice pour les informations de sécurité.
 
----
+- **Affections à risque signalées dans les données compilées** (hors texte de notice) : pancréatite, thrombopénie, infections fongiques et dermatophytoses, anémie (dont macrocytaire), insuffisance rénale, maladies infectieuses, lymphomes (dont lymphome primitif du système nerveux central, lymphosarcome et lymphome hépatosplénique à cellules T), thrombose des veines hépatiques et syndrome de Budd-Chiari.
+- **Interactions médicamenteuses** : 100 interactions recensées. Les principales, de niveau modéré, concernent la mésalazine, le balsalazide, l'olsalazine et la sulfasalazine. Des interactions mineures sont signalées avec les sels de zinc (acétate, gluconate, sulfate). D'autres interactions, de niveau non déterminé, concernent notamment l'adrénaline, l'amphotéricine B, l'acide acétylsalicylique, la doxycycline, la metformine et l'oméprazole.
 
-## Considerations de Securite
+## Conclusion et Prochaines Étapes
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : pancréatite, thrombopénie, anémie (dont macrocytaire), insuffisance rénale, infections (dont mycoses et dermatophytoses), lymphomes (dont lymphome primitif du système nerveux central, lymphosarcome et lymphome T hépatosplénique), thrombose des veines hépatiques et syndrome de Budd-Chiari.
-- **Interactions médicamenteuses** (100 interactions recensées) : les principales de niveau modéré concernent les aminosalicylés (mésalazine, balsalazide, olsalazine, sulfasalazine). Des interactions mineures existent avec les sels de zinc. Plusieurs autres sont de niveau inconnu (par exemple amphotéricine B, acide acétylsalicylique, metformine, oméprazole). Une revue de la charge d'interactions est recommandée, notamment pour l'allopurinol et les autres myélosuppresseurs.
-
-Veuillez consulter la notice pour les mises en garde et contre-indications officielles, qui n'ont pas pu être obtenues.
-
----
-
-## Conclusion et Prochaines Etapes
-
-**Decision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Plusieurs essais de phase 3 et 4, deux revues Cochrane et un essai randomisé récent (ACTIVE, 2025) soutiennent l'usage de l'azathioprine dans les MICI. Il s'agit toutefois d'un usage déjà établi, et non d'un repositionnement nouveau.
-- Les autres prédictions à score élevé (rangs 1 à 4, 6, 8 et 10) sont sans support clinique ou mécanistique et sont maintenues en Hold. L'ostéoarthrite (rang 7) est également en Hold, avec un rapport bénéfice-risque défavorable.
+- Aucun essai clinique ni publication ne soutient cette prédiction, et aucun lien mécanistique plausible n'a été identifié. Le niveau de preuve est L5 (prédiction du modèle uniquement).
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Récupérer le texte officiel de la notice (mises en garde, contre-indications, indications) auprès de l'ANSM : donnée bloquante pour le dépistage de sécurité.
-- Compléter les données sur le mécanisme d'action depuis DrugBank.
-- Clarifier la situation réglementaire : les 8 AMM sont annulées, ce qui nécessite de vérifier la disponibilité réelle du produit en France.
-- Mettre en place le génotypage TPMT/NUDT15, le suivi des métabolites, la surveillance hématologique et hépatique, ainsi que la surveillance du risque de lymphome et d'infection.
-- Examiner l'interaction avec l'allopurinol et les autres myélosuppresseurs.
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Des données sur le mécanisme d'action de l'azathioprine et une justification biologique reliant le médicament à cette affection
+- Des études précliniques ou des cas cliniques documentés dans cette pathologie
+- Les mises en garde et contre-indications de la notice de l'ANSM pour une évaluation de sécurité
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

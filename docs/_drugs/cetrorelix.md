@@ -50,10 +50,10 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5).
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM (selon les données pharmacologiques : prévention des pics prématurés de LH lors de la stimulation ovarienne contrôlée) |
 | Nouvelle Indication Predite | Hypertrichose |
-| Score de Prediction TxGNN | 99,98 % |
+| Score de Prediction TxGNN | 0,9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 
 ---
@@ -62,7 +62,7 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5).
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base consultée. D'après les informations pharmacologiques connues, le cétrorélix est un peptide qui bloque le récepteur de la GnRH (gène GNRHR) au niveau hypophysaire. Il réduit ainsi la sécrétion de LH et de FSH, et par conséquent la production gonadique d'androgènes et d'œstrogènes.
 
-Le lien avec l'hypertrichose reste spéculatif. Une baisse de la signalisation androgénique pourrait théoriquement influencer la pousse des poils sensibles aux androgènes. Or, la plupart des formes d'hypertrichose (congénitale, médicamenteuse, génétique) ne dépendent pas des androgènes. Le score TxGNN élevé reflète une proximité dans le graphe de connaissances, et non une preuve clinique.
+Le lien avec l'hypertrichose reste spéculatif. Une baisse de la signalisation androgénique pourrait théoriquement influencer la pousse des poils sensibles aux androgènes. Or, la plupart des formes d'hypertrichose (congénitale, médicamenteuse, génétique) ne dépendent pas des androgènes. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du modèle appellent le même constat, car la plupart n'ont pas de justification mécanistique plausible :
 - **Hypertrichose universelle congénitale de type Ambras**, **syndromes malformatifs dentaires/parodontaux**, **syndrome avec malformation de Dandy-Walker**, **anomalie génétique isolée de la tige pilaire**, **syndrome de circulation fœtale persistante**, **trichomégalie familiale isolée** : ces affections sont génétiques ou développementales, sans lien plausible avec l'antagonisme de la GnRH.
@@ -87,8 +87,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee | Statut |
 |---------|------|------|-----------|------|
-| 65669398 | CEZIBOE 0,25 mg, solution injectable en seringue pré-remplie | Solution injectable | Non renseignée | Annulée |
-| 60650426 | CETROTIDE 0,25 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée | Annulée |
+| 65669398 | CEZIBOE 0,25 mg, solution injectable en seringue pré-remplie | Solution injectable | Non renseignée | Active |
+| 60650426 | CETROTIDE 0,25 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée | Active |
 
 ---
 

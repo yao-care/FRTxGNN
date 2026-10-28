@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Temozolomide
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 735
-evidence_level: L1
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Temozolomide : nouvelle indication prédite, Tumeur astrocytaire de l'adulte (niveau de preuve L1). Indication d'origine : Astrocytome anaplasique"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "temozolomide"
-predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
+predicted_indications: ["cauda equina neoplasm"]
+last_modified_at: 2026-10-23
+description: "Temozolomide : nouvelle indication prédite, Néoplasme de la queue de cheval (cauda equina neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,93 @@ Niveau de preuve: **L1** | Indications prédites: **2**
 
 </div>
 
-## Témozolomide : Des astrocytomes et du glioblastome à la tumeur astrocytaire de l'adulte
+## Temozolomide: Néoplasme de la queue de cheval (cauda equina neoplasm)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le témozolomide est un agent alkylant oral, initialement utilisé pour traiter l'astrocytome anaplasique, l'astrocytome (hors glioblastome) et le glioblastome cérébral.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **tumeur astrocytaire de l'adulte**, mais cette indication recoupe en grande partie les indications d'origine : il s'agit plus d'une confirmation que d'un véritable repositionnement.
-Les données compilées pour ce rapport comptent **2 essais cliniques** et **20 publications** pour cette indication.
+Le témozolomide est un agent alkylant oral, initialement utilisé pour traiter les tumeurs cérébrales gliales (astrocytome anaplasique, astrocytome hors glioblastome, glioblastome cérébral).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **néoplasme de la queue de cheval**, mais les preuves se limitent à **une seule publication pertinente (un rapport de cas)** et **aucun essai clinique**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Astrocytome anaplasique ; astrocytome (hors glioblastome) ; glioblastome cérébral (le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Tumeur astrocytaire de l'adulte |
-| Score de Prédiction TxGNN | 99,36 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 20 (dont 0 valide, 20 annulées) |
-| Décision Recommandée | Proceed with Guardrails |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néoplasme de la queue de cheval (cauda equina neoplasm) |
+| Score de Prédiction TxGNN | 0.9930 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | Au moins 20 (la liste peut être partielle) |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Selon les connaissances pharmacologiques générales, le témozolomide est un agent alkylant oral qui méthyle l'ADN (positions O6 et N7 de la guanine, N3 de l'adénine). Ces lésions sont cytotoxiques et entraînent l'apoptose des cellules tumorales.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, le témozolomide est un agent alkylant oral qui méthyle l'ADN (positions O6 et N7 de la guanine, N3 de l'adénine). Ces lésions sont cytotoxiques et entraînent l'apoptose des cellules tumorales, surtout lorsque l'expression de MGMT est faible. Il traverse la barrière hémato-encéphalique et diffuse dans le liquide céphalorachidien.
 
-L'efficacité est la plus marquée dans les tumeurs dont le promoteur du gène MGMT est méthylé, car leur capacité de réparation de l'ADN est réduite. Les tumeurs astrocytaires de l'adulte (astrocytome anaplasique et glioblastome) font déjà partie des indications d'origine du médicament. Le score élevé du modèle est donc cohérent avec une relation mécanisme-maladie bien établie.
+Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. La queue de cheval fait partie du système nerveux central bas, et certaines tumeurs de cette région, comme l'épendymome myxopapillaire, sont des tumeurs primitives du système nerveux central. Un effet sur ces tumeurs est donc plausible sur le plan biologique.
+
+Cette plausibilité reste toutefois théorique : le statut du promoteur de MGMT dans les tumeurs de la queue de cheval n'est pas établi dans les données disponibles, et le score élevé du modèle est une prédiction computationnelle.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Phase 3 | Terminé | 500 | Essai randomisé comparant le témozolomide au schéma PCV (procarbazine, lomustine, vincristine) dans les tumeurs astrocytaires récidivantes de grade III et IV de l'OMS. Teste directement le témozolomide dans la maladie cible. |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Phase 1 | Terminé | 26 | Détermination de la dose maximale tolérée du XL184 (cabozantinib) associé au témozolomide et à la radiothérapie dans le glioblastome en première ligne. Étude de sécurité d'un autre agent ; peu de valeur directe pour l'efficacité du témozolomide. |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | ECR | N Engl J Med | Radiothérapie avec témozolomide concomitant et adjuvant versus radiothérapie seule dans le glioblastome (essai fondateur) |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | ECR | Lancet Oncol | Analyse à 5 ans de l'essai de phase III EORTC-NCIC sur le témozolomide avec radiothérapie |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | ECR | Lancet Oncol | NOA-08 : témozolomide seul versus radiothérapie seule dans l'astrocytome malin du sujet âgé |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | ECR | Lancet | CeTeG/NOA-09 : association lomustine-témozolomide versus témozolomide standard dans le glioblastome à promoteur MGMT méthylé |
-| [29260225](https://pubmed.ncbi.nlm.nih.gov/29260225/) | 2017 | ECR | JAMA | Champs de traitement des tumeurs (TTFields) avec témozolomide d'entretien versus témozolomide seul |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | ECR | JAMA | TTFields avec témozolomide d'entretien versus témozolomide seul dans le glioblastome |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | ECR | N Engl J Med | Essai randomisé du bévacizumab dans le glioblastome nouvellement diagnostiqué, sur fond de traitement standard par témozolomide |
-| [39480453](https://pubmed.ncbi.nlm.nih.gov/39480453/) | 2024 | ECR | JAMA Oncol | Ajout du véliparib au témozolomide dans le glioblastome à MGMT méthylé |
-| [34898238](https://pubmed.ncbi.nlm.nih.gov/34898238/) | 2022 | Recommandations | J Clin Oncol | Recommandations ASCO-SNO sur le traitement des tumeurs astrocytaires et oligodendrogliales diffuses de l'adulte |
-| [17478095](https://pubmed.ncbi.nlm.nih.gov/17478095/) | 2007 | Revue | Crit Rev Oncol Hematol | Revue sur l'astrocytome anaplasique de l'adulte ; la chimiothérapie y a donné des résultats irréguliers selon les données randomisées |
+| [29270703](https://pubmed.ncbi.nlm.nih.gov/29270703/) | 2018 | Rapport de cas | Eur Spine J | Efficacité remarquable du témozolomide dans un épendymome myxopapillaire spinal en rechute, avec récidives multiples et dissémination dans le liquide céphalorachidien |
+| [42760727](https://pubmed.ncbi.nlm.nih.gov/42760727/) | 2026 | Rapport de cas | Medicine | Carcinome NUT nasal avec réponses répétées sous prise en charge multimodale incluant la radiothérapie (lien indirect avec la queue de cheval) |
+| [18706663](https://pubmed.ncbi.nlm.nih.gov/18706663/) | 2009 | Rapport de cas | Neuro-Chirurgie | Cryptococcose neuroméningée atypique chez un enfant traité pour un gliome pontique (lien indirect, non pertinent pour l'efficacité) |
+
+Seul le premier rapport de cas concerne une tumeur de la région de la queue de cheval. Il s'agit d'un cas isolé, de faible niveau de preuve.
 
 ## Informations de Marché en France
 
+Le témozolomide est commercialisé en France. Au moins 20 AMM valides sont recensées (liste possiblement partielle). Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Voici cinq AMM :
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60691017 | Temozolomide Accord 250 mg | Gélule | Non renseignée (AMM annulée) |
-| 66186993 | Temozolomide Viatris 140 mg | Gélule | Non renseignée (AMM annulée) |
-| 68196114 | Temodal 140 mg | Gélule | Non renseignée (AMM annulée) |
-| 61710965 | Temodal 2,5 mg/ml | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 65421470 | Temozolomide Sun 5 mg | Gélule | Non renseignée (AMM annulée) |
-
-Au total, 20 AMM sont enregistrées, toutes annulées ; seules les 5 premières sont listées ici.
+| 60691017 | TEMOZOLOMIDE ACCORD 250 mg | Gélule | Non renseignée |
+| 66186993 | TEMOZOLOMIDE VIATRIS 140 mg | Gélule | Non renseignée |
+| 68196114 | TEMODAL 140 mg | Gélule | Non renseignée |
+| 61710965 | TEMODAL 2,5 mg/ml | Poudre pour solution pour perfusion | Non renseignée |
+| 65421470 | TEMOZOLOMIDE SUN 5 mg | Gélule | Non renseignée |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant) |
-| Risque de Myélosuppression | Élevé : les contre-indications issues du graphe de connaissances incluent thrombocytopénie, neutropénie, agranulocytose, pancytopénie et anémie aplasique |
-| Classification d'Émétogénicité | Moyenne (selon la classe du médicament) |
-| Éléments de Surveillance | NFS avec formule (neutrophiles, plaquettes), fonction hépatique et rénale |
+| Risque de Myélosuppression | Élevé à moyen. Les relations recensées dans le graphe de connaissances signalent des contre-indications liées à des atteintes hématologiques (thrombopénie, neutropénie, pancytopénie, anémie aplasique, etc.) |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | NFS (avec différentielle), fonction hépatique et rénale |
 | Protection de Manipulation | Suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : insuffisance hépatique, thrombocytopénie, neutropénie, agranulocytose, anémie, anémie macrocytaire, pneumocystose, pancytopénie, lymphopénie, syndrome myélodysplasique, anémie aplasique idiopathique, anémie aplasique.
-- **Interactions médicamenteuses** : 320 interactions sont recensées. Parmi les principales, la naltrexone (modérée) et la lévofloxacine (mineure). Les autres interactions listées (par exemple oméprazole, prednisone, métformine, morphine) ont un niveau de gravité inconnu.
+- **Contre-indications recensées dans le graphe de connaissances** (relations du graphe, et non texte de la notice) : insuffisance hépatique, thrombopénie, neutropénie, agranulocytose, anémie (dont anémie macrocytaire), pneumocystose, pancytopénie, lymphopénie, syndrome myélodysplasique, anémie aplasique idiopathique, anémie aplasique.
+- **Interactions médicamenteuses** : 320 interactions recensées. Parmi les principales :
+  - Modérée : naltrexone
+  - Mineure : lévofloxacine
+  - Niveau non précisé : calcitriol, pantoprazole, doxycycline, clotrimazole, morphine, metformine, oméprazole, lansoprazole, prednisone, hydrocortisone, amphotéricine B, entre autres
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations.
+Les mises en garde et contre-indications issues de la notice ANSM ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Un essai randomisé de phase 3 terminé (NCT00052455) et plusieurs essais randomisés majeurs soutiennent le témozolomide dans les tumeurs astrocytaires. L'indication prédite recoupe les indications d'origine, donc l'enjeu est celui d'une confirmation et non d'un repositionnement.
-- Toutes les AMM françaises sont annulées et le profil hématologique impose une surveillance étroite.
+- La prédiction repose sur un score élevé du modèle et sur un seul rapport de cas, sans essai clinique. Aucune étude ne porte directement sur un néoplasme de la queue de cheval au sens large, d'où un niveau de preuve L5. Les données de sécurité de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications issues de la notice de l'ANSM (données bloquantes pour le criblage de sécurité)
-- Données détaillées sur le mécanisme d'action (MOA)
-- Clarification des raisons de l'annulation des AMM et de la disponibilité actuelle du produit en France
-- Statut MGMT des patients et plan de surveillance hématologique
-
----
-
-### Note sur la seconde indication prédite
-
-Le modèle propose aussi la **néoplasie de la queue de cheval** (score 99,30 %), mais avec un niveau de preuve **L4** (décision : question de recherche). Seul un rapport de cas isolé, portant sur un épendymome myxopapillaire spinal récidivant, est pertinent ; aucun essai clinique n'est enregistré. Cette piste n'est pas recommandée à ce stade.
+- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indications approuvées)
+- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
+- Réaliser une revue systématique de la littérature sur les tumeurs de la queue de cheval (épendymome myxopapillaire notamment)
+- Établir le statut du promoteur de MGMT dans ces tumeurs
+- Si pertinent, planifier une étude observationnelle ou un essai de phase 2
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

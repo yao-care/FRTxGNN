@@ -6,9 +6,9 @@ nav_order: 687
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ruxolitinib : nouvelle indication prédite, PEComa périvasculaire du corps utérin (niveau de preuve L5). Indication d'origine : Myélofibrose primitive, polyglobulie de Vaquez…"
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
+description: "Ruxolitinib : nouvelle indication prédite, Uterine corpus perivascular epithelioid cell tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ruxolitinib : De la myélofibrose primitive au PEComa périvasculaire du corps utérin
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **tumeur à cellu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Myélofibrose primitive, polyglobulie de Vaquez, néoplasme myéloprolifératif (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | PEComa périvasculaire du corps utérin |
-| Score de Prédiction TxGNN | 99,73 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Uterine corpus perivascular epithelioid cell tumor |
+| Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Pour le PEComa utérin, seule la prédiction du modèle soutient cette indication. Un lien possible passe par les interactions entre les voies mTOR et JAK-STAT dans les PEComas. Cette hypothèse reste spéculative, car aucune donnée fournie ne l'étaye. La physiopathologie classique des PEComas repose surtout sur l'hyperactivation de mTOR, et la ressemblance avec l'indication d'origine (néoplasmes hématologiques) n'a pas été évaluée.
 
-Le score élevé reflète probablement la proximité dans le graphe avec d'autres entités de la famille des PEComas (PEComa bénin, PEComa pulmonaire, lymphangiomyome, lymphangioléiomyomatose). Il ne constitue donc pas une preuve indépendante.
+Il ne constitue donc pas une preuve indépendante.
 
 ---
 
@@ -82,7 +82,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 6 AMM recensées sont annulées. Aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
+Les 6 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
 |---------|------|------|-----------|

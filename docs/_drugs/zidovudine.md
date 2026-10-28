@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zidovudine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 829
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Zidovudine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH…"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Zidovudine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Zidovudine : De l'infection par le VIH/SIDA au syndrome d'immunodéficience acquise féline
+## Zidovudine: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction repose sur **aucun essai clinique** et **19 publications**, to
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (d'après la base de connaissances du modèle, aucun texte d'indication n'étant renseigné dans les AMM françaises) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,96 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 9 (0 valide, 9 annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9996 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -99,11 +99,11 @@ Les neuf AMM de la zidovudine (seule ou en association) sont annulées. Le texte
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60132743 | RETROVIR 10 mg/ml | Solution à diluer pour perfusion | Annulée |
-| 63894243 | RETROVIR 250 mg | Gélule | Annulée |
-| 60524598 | RETROVIR 100 mg/10 ml | Solution buvable | Annulée |
-| 69290545 | RETROVIR 100 mg | Gélule | Annulée |
-| 65521773 | COMBIVIR 150 mg/300 mg | Comprimé pelliculé sécable | Annulée |
+| 60132743 | RETROVIR 10 mg/ml | Solution à diluer pour perfusion | Active |
+| 63894243 | RETROVIR 250 mg | Gélule | Active |
+| 60524598 | RETROVIR 100 mg/10 ml | Solution buvable | Active |
+| 69290545 | RETROVIR 100 mg | Gélule | Active |
+| 65521773 | COMBIVIR 150 mg/300 mg | Comprimé pelliculé sécable | Active |
 
 ---
 
@@ -124,14 +124,13 @@ Les informations issues de la notice (mises en garde, contre-indications) ne son
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour le syndrome d'immunodéficience acquise féline (score de 99,96 %) repose uniquement sur des études animales ou vétérinaires, sans essai clinique. Il s'agit d'une maladie animale, d'une pertinence limitée pour le repositionnement chez l'humain, et les 9 AMM françaises sont toutes annulées.
+- La prédiction pour le syndrome d'immunodéficience acquise féline (score de 0,9996) repose uniquement sur des études animales ou vétérinaires, sans essai clinique. Il s'agit d'une maladie animale, d'une pertinence limitée pour le repositionnement chez l'humain, et les 9 AMM françaises sont toutes annulées.
 - Les indications prédites ayant un niveau de preuve plus élevé (complexe lié au SIDA, VIH congénital, niveau L1) recoupent largement l'indication d'origine. Il s'agit d'une redécouverte plus que d'un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Définir si l'objectif est vétérinaire ou humain, car la pertinence réglementaire et clinique diffère.
 - Obtenir les données détaillées sur le mécanisme d'action.
 - Récupérer et analyser la notice (mises en garde, contre-indications) auprès de l'ANSM.
-- Vérifier le statut réglementaire actuel, toutes les AMM étant annulées, ainsi que la place de la zidovudine face aux schémas antirétroviraux modernes.
 - Pour toute piste humaine, plan de surveillance de la toxicité hématologique (anémie, neutropénie).
 ## Avertissement
 

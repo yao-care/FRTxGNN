@@ -6,9 +6,9 @@ nav_order: 395
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imiquimod : nouvelle indication prédite, Néoplasme prémalin (niveau de preuve L5). Indication d'origine : Verrue commune, infection anogénitale à HPV, kératose actinique…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
+description: "Imiquimod : nouvelle indication prédite, Néoplasme prémalin (pre-malignant neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Imiquimod
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Imiquimod : Des verrues cutanées et de la kératose actinique aux néoplasmes prémalins
+## Imiquimod: Néoplasme prémalin (pre-malignant neoplasm)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction recoupe en grande partie l'indication déjà connue de la kér
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Verrue commune, infection anogénitale à HPV, kératose actinique, carcinome basocellulaire superficiel multifocal (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas disponible) |
-| Nouvelle Indication Prédite | Néoplasme prémalin |
-| Score de Prédiction TxGNN | 99,92 % |
-| Niveau de Preuve | L1 (selon le classement des données compilées ; voir la réserve dans la conclusion) |
-| Statut de Marché en France | Uniquement annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néoplasme prémalin (pre-malignant neoplasm) |
+| Score de Prédiction TxGNN | 0.9992 |
+| Niveau de Preuve | L5 (selon le classement des données compilées ; voir la réserve dans la conclusion) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -97,8 +97,8 @@ Il faut toutefois être transparent : cette prédiction est en grande partie con
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69349666 | ZYCLARA 3,75 %, crème (statut : annulée) | Crème | Texte d'indication non disponible |
-| 66916232 | ALDARA 5 %, crème (statut : annulée) | Crème | Texte d'indication non disponible |
+| 69349666 | ZYCLARA 3,75 %, crème (statut : active) | Crème | Texte d'indication non disponible |
+| 66916232 | ALDARA 5 %, crème (statut : active) | Crème | Texte d'indication non disponible |
 
 ---
 

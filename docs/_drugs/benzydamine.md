@@ -48,7 +48,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées |
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
-| Score de Prédiction TxGNN | 99,26 % |
+| Score de Prédiction TxGNN | 0,9926 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Non commercialisé |
 | Nombre d'AMM | 0 |
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Une hypothèse plausible, mais non vérifiée, est que des effets anti-inflammatoires et stabilisateurs de membrane pourraient soulager des symptômes urinaires bas d'origine inflammatoire. Cette hypothèse n'a pas été testée dans les données disponibles et ne doit pas être considérée comme une preuve en faveur de l'hyperplasie bénigne de la prostate.
 
-Le seul élément de soutien est le score élevé de la prédiction du graphe de connaissances TxGNN (0,993). La similarité avec l'indication d'origine ne peut pas être évaluée à ce stade.
+Le seul élément de soutien est le score élevé de la prédiction du modèle TxGNN (apprentissage profond) TxGNN (0,9926). La similarité avec l'indication d'origine ne peut pas être évaluée à ce stade.
 
 ## Preuves d'Essais Cliniques
 

@@ -4,17 +4,17 @@ title: Lansoprazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 436
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lansoprazole : nouvelle indication prédite, Reflux duodéno-gastrique (niveau de preuve L5). Indication d'origine : Ulcère gastrique, ulcère peptique, reflux gastro-œsophagien…"
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Lansoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Lansoprazole : Du Reflux Gastro-Œsophagien au Reflux Duodéno-Gastrique
+## Lansoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Lansoprazole est un inhibiteur de la pompe à protons (IPP), initialement utilisé pour traiter les ulcères gastriques et duodénaux, le reflux gastro-œsophagien et l'œsophagite.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **reflux duodéno-gastrique**, mais **aucun essai clinique** n'est enregistré et **une seule publication** (une revue générale sur les IPP, non spécifique à cette indication) est disponible : la prédiction repose pour l'instant uniquement sur le modèle.
 
 ---
 
@@ -47,11 +46,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **reflux duodéno
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ulcère gastrique, ulcère peptique, reflux gastro-œsophagien, œsophagite, ulcère duodénal, syndrome de Zollinger-Ellison (source : graphe de connaissances, les textes d'indication des AMM sont vides) |
-| Nouvelle Indication Prédite | Reflux duodéno-gastrique |
-| Score de Prédiction TxGNN | 99,69 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Duodenal obstruction |
+| Score de Prédiction TxGNN | 0.9968 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement ; aucune étude spécifique à l'indication) |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -63,9 +62,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le reflux duodéno-gastrique (reflux biliaire) est proche des indications d'origine : la suppression acide peut atténuer les symptômes et les lésions de la muqueuse. Cependant, les IPP ne corrigent pas la cause sous-jacente (dysfonction pylorique, troubles de la motilité), de sorte que le lien mécanistique n'est qu'indirect.
 
-Le score TxGNN très élevé (0,997) reflète probablement la proximité dans le réseau avec les indications liées à l'acidité, plutôt qu'une preuve indépendante. Cette prédiction doit donc être considérée comme une question de recherche.
+Le score TxGNN très élevé (0,9968) reflète probablement la proximité dans le réseau avec les indications liées à l'acidité, plutôt qu'une preuve indépendante. Cette prédiction doit donc être considérée comme une question de recherche.
 
-La seconde prédiction du modèle, l'**obstruction duodénale** (score 99,68 %), n'est pas retenue : il s'agit d'une affection mécanique ou structurelle nécessitant une intervention endoscopique ou chirurgicale, sans lien mécanistique clair, sans essai ni publication à l'appui.
+La seconde prédiction du modèle, l'**obstruction duodénale** (score 0,9968), n'est pas retenue : il s'agit d'une affection mécanique ou structurelle nécessitant une intervention endoscopique ou chirurgicale, sans lien mécanistique clair, sans essai ni publication à l'appui.
 
 ---
 
@@ -85,15 +84,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Les textes d'indication approuvée ne sont pas renseignés. Principales AMM (5 sur 20) :
+Les textes d'indication approuvée ne sont pas renseignés. Principales AMM (5 sur 20) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69499833 | Lansoprazole Cristers 15 mg | Gélule gastro-résistante | Non renseignée (annulée) |
-| 67240910 | Lansoprazole EG 30 mg | Comprimé orodispersible | Non renseignée (annulée) |
-| 62911490 | Lansoprazole Arrow Lab 30 mg | Gélule gastro-résistante | Non renseignée (annulée) |
-| 68088245 | Ogastoro 30 mg (Takeda France) | Comprimé orodispersible | Non renseignée (annulée) |
-| 61527857 | Ogast 15 mg (Takeda France) | Gélule gastro-résistante | Non renseignée (annulée) |
+| 69499833 | Lansoprazole Cristers 15 mg | Gélule gastro-résistante | Non renseignée (active) |
+| 67240910 | Lansoprazole EG 30 mg | Comprimé orodispersible | Non renseignée (active) |
+| 62911490 | Lansoprazole Arrow Lab 30 mg | Gélule gastro-résistante | Non renseignée (active) |
+| 68088245 | Ogastoro 30 mg (Takeda France) | Comprimé orodispersible | Non renseignée (active) |
+| 61527857 | Ogast 15 mg (Takeda France) | Gélule gastro-résistante | Non renseignée (active) |
 
 ---
 
@@ -111,7 +110,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique et aucune publication spécifique au reflux duodéno-gastrique. Le lien mécanistique n'est qu'indirect, et toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice (ANSM), indispensables avant tout examen de sécurité

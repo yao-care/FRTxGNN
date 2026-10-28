@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Codeine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 195
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Codeine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L4). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume…"
 monitor_inn: "codeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+description: "Codeine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Codeine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-## Codéine : Des affections des voies respiratoires supérieures et des céphalées à la maladie de la cavité nasale
+## Codeine: Maladie de la cavité nasale (nasal cavity disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie de la
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, rhinopharyngite, céphalées (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Maladie de la cavité nasale |
-| Score de Prédiction TxGNN | 99,93 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
+| Score de Prédiction TxGNN | 0.9993 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie de la
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Il est toutefois connu que la codéine est une prodrogue agoniste des récepteurs opioïdes mu, transformée en morphine par le CYP2D6. Elle est utilisée pour soulager la toux et la douleur.
 
-Le score très élevé (99,93 %) reflète probablement la proximité, dans le réseau de connaissances, avec les indications d'origine (rhinite, rhinopharyngite, rhume). Ces indications sont symptomatiques (toux, congestion) et non modificatrices de la maladie.
+Le score très élevé (0,9993) reflète probablement la proximité, dans le réseau de connaissances, avec les indications d'origine (rhinite, rhinopharyngite, rhume). Ces indications sont symptomatiques (toux, congestion) et non modificatrices de la maladie.
 
 La seule publication retrouvée décrit une rhinolithiase causée par un corps étranger contenant de la codéine et de l'opium (un « opiome »). Il s'agit d'une forme pharmaceutique logée dans la cavité nasale, et non d'un effet thérapeutique. **Aucun mécanisme de repositionnement plausible n'est étayé.**
 
@@ -73,7 +73,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; le texte d'indication approuvée n'est pas disponible. Les 5 premières sont listées :
+19 AMM valides ; le texte d'indication approuvée n'est pas disponible. Les 5 premières sont listées :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -95,7 +95,7 @@ Veuillez consulter la notice pour les mises en garde officielles.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle, sans essai clinique, et la seule publication est un rapport de cas non thérapeutique. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle, sans essai clinique, et la seule publication est un rapport de cas non thérapeutique. Par ailleurs, le médicament est commercialisé en France (19 AMM valides).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action et sur les mises en garde et contre-indications officielles issues de la notice

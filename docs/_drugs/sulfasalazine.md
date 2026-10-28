@@ -4,17 +4,17 @@ title: Sulfasalazine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 721
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Sulfasalazine : nouvelle indication prédite, Arthrose (candidate la mieux étayée (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, rectocolite hémorragique…"
 monitor_inn: "SULFASALAZINE"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "spondyloarthropathy, susceptibility to", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+description: "Sulfasalazine : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Sulfasalazine : De la polyarthrite rhumatoïde à l'arthrose
+## Sulfasalazine: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré, mais **20 publications** ont été retro
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, rectocolite hémorragique, maladies inflammatoires chroniques de l'intestin, arthrite juvénile idiopathique, spondylarthropathie (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Arthrose (candidate la mieux étayée ; la première du classement TxGNN est le syndrome de brachydactylie-syndactylie, sans aucune preuve) |
-| Score de Prédiction TxGNN | 99,64 % (arthrose) ; 99,94 % pour le syndrome de brachydactylie-syndactylie |
-| Niveau de Preuve | L4 (arthrose) |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Brachydactyly-syndactyly syndrome |
+| Score de Prédiction TxGNN | 0.9994 |
+| Niveau de Preuve | L5 (arthrose) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold (l'arthrose reste une question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -62,7 +62,7 @@ La littérature préclinique décrit la sulfasalazine comme un inhibiteur de NF-
 
 Le lien avec l'indication d'origine est la composante inflammatoire commune aux affections articulaires. Il reste toutefois indirect : aucune donnée d'efficacité chez l'humain atteint d'arthrose n'a été retrouvée.
 
-Les autres candidates du classement (syndromes malformatifs rares, syndrome WHIM, dysplasies squelettiques, myosclérose, etc.) n'ont aucun essai ni publication et aucun lien mécanistique identifié. Leurs scores élevés reflètent probablement la topologie du graphe de connaissances plutôt qu'une logique biologique. La « spondylarthropathie, susceptibilité » correspond à une indication déjà existante, et non à un véritable repositionnement.
+Les autres candidates du classement (syndromes malformatifs rares, syndrome WHIM, dysplasies squelettiques, myosclérose, etc.) n'ont aucun essai ni publication et aucun lien mécanistique identifié. La « spondylarthropathie, susceptibilité » correspond à une indication déjà existante, et non à un véritable repositionnement.
 
 ## Preuves d'Essais Cliniques
 
@@ -88,7 +88,7 @@ Les autres publications retrouvées sont surtout des revues générales de rhuma
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67124724 | SALAZOPYRINE 500 mg, comprimé enrobé gastro-résistant (PFIZER HOLDING FRANCE) | Comprimé enrobé gastro-résistant | Non renseignée (AMM annulée) |
+| 67124724 | SALAZOPYRINE 500 mg, comprimé enrobé gastro-résistant (PFIZER HOLDING FRANCE) | Comprimé enrobé gastro-résistant | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

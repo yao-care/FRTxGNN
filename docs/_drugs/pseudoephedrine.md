@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 640
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Pseudoephedrine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L4). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rh…"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
+description: "Pseudoephedrine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Pseudoéphédrine : Des rhinites et du rhume à la maladie de la cavité nasale
+## Pseudoephedrine: Maladie de la cavité nasale (nasal cavity disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour les **maladies de 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique, rhinite vasomotrice, pharyngite, rhume (le texte d'indication de l'AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
-| Score de Prédiction TxGNN | 99,75 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 (0 valide, 1 annulée) |
+| Score de Prédiction TxGNN | 0.9975 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -123,8 +123,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ### Note sur les autres prédictions
 
-- **Laryngopharyngite aiguë** (score 99,73 %, niveau L5, Hold) : aucun essai ni publication. Le lien repose uniquement sur la prédiction du modèle et la plausibilité pharmacologique (vasoconstriction muqueuse), proche des indications pharyngite et nasopharyngite.
-- **Urticaire allergique** (score 99,14 %, niveau L5, Hold) : aucun lien mécanistique n'est soutenu. La pseudoéphédrine n'est pas un antihistaminique H1, et les publications retrouvées portent sur des antihistaminiques, pas sur la pseudoéphédrine.
+- **Urticaire allergique** (score 0,9914, niveau L5, Hold) : aucun lien mécanistique n'est soutenu. La pseudoéphédrine n'est pas un antihistaminique H1, et les publications retrouvées portent sur des antihistaminiques, pas sur la pseudoéphédrine.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

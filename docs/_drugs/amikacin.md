@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amikacin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 55
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Amikacin : nouvelle indication prédite, Fièvre paratyphoïde (niveau de preuve L4). Indication d'origine : Infections bactériennes (pneumonie bactérienne…"
 monitor_inn: "amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
+last_modified_at: 2026-10-27
+description: "Amikacin : nouvelle indication prédite, Fièvre paratyphoïde (paratyphoid fever) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Amikacin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,102 +33,82 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Amikacine : Des infections bactériennes à Gram négatif à la fièvre paratyphoïde
+## Amikacine : aminoside antibactérien → fièvre paratyphoïde (paratyphoid fever)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-L'amikacine est un antibiotique de la famille des aminosides, initialement utilisé pour traiter des infections bactériennes graves (pneumonies bactériennes, infections à *Pseudomonas aeruginosa*, méningites bactériennes, cholangites, infections à *Escherichia coli*, entre autres).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **fièvre paratyphoïde**, mais aucun essai clinique n'est enregistré et la littérature associée (8 publications) est essentiellement épidémiologique ou issue d'antibiogrammes.
-Il s'agit donc d'une prédiction du modèle, sans preuve clinique directe.
+L'amikacine est un antibiotique de la famille des aminosides, actif sur les bactéries à Gram négatif.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour la **fièvre paratyphoïde (paratyphoid fever)**,
+mais les données compilées ne contiennent **aucun essai clinique** et **8 publications**, toutes indirectes (surveillance, antibiogrammes, cas isolés).
 
----
+## Apercu Rapide
 
-## Aperçu Rapide
-
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Indication Originale | Infections bactériennes (pneumonie bactérienne, infection à *Pseudomonas aeruginosa*, méningite bactérienne, etc.), d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné |
-| Nouvelle Indication Prédite | Fièvre paratyphoïde |
-| Score de Prédiction TxGNN | 99,82 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
-| Décision Recommandée | Hold |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Fièvre paratyphoïde (paratyphoid fever) |
+| Score de Prediction TxGNN | 0,9982 |
+| Niveau de Preuve | L5 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
+| Decision Recommandee | Hold |
 
----
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'amikacine est un aminoside actif in vitro sur les entérobactéries à Gram négatif, dont Salmonella.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'amikacine fait partie de la classe des aminosides, dont l'efficacité contre les bacilles à Gram négatif, y compris les entérobactéries, est établie. Mécanistiquement, elle pourrait donc être applicable aux infections à *Salmonella*.
+Le lien mécanistique reste toutefois fragile. Salmonella Paratyphi est un pathogène à localisation intracellulaire, or les aminosides pénètrent mal dans les cellules. Ils ne sont pas recommandés comme traitement cliniquement efficace de la fièvre entérique. Le lien est donc plausible in vitro seulement.
 
-*Salmonella* Paratyphi, agent de la fièvre paratyphoïde, appartient aux entérobactéries : le lien avec l'activité antibactérienne de l'amikacine est donc plausible **in vitro**. Les antibiogrammes de la littérature rapportent d'ailleurs une sensibilité des souches de *Salmonella* aux aminosides.
-
-Ce lien reste cependant limité. *Salmonella* Paratyphi est un pathogène intracellulaire, et les aminosides pénètrent mal dans les cellules. Les aminosides ne sont pas recommandés comme traitement cliniquement efficace de la fièvre entérique. Les traitements de référence (fluoroquinolones, azithromycine, céphalosporines de troisième génération) sont préférés.
-
----
+Le score élevé du modèle traduit une proximité avec d'autres infections bactériennes à Gram négatif, mais il ne remplace pas une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la Litterature
 
-## Preuves de la Littérature
+Aucune des publications ci-dessous n'étudie directement l'efficacité de l'amikacine dans la fièvre paratyphoïde. Elles portent sur l'épidémiologie, la sensibilité aux antibiotiques ou des cas isolés. Le niveau de preuve est donc plafonné à L5.
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | Cas clinique | Pediatric Hematology and Oncology | Cholécystite alithiasique à *S.* Paratyphi B chez un enfant atteint de leucémie aiguë lymphoblastique, traitée avec succès par céfépime, amikacine et G-CSF (association, effet propre de l'amikacine non isolable) |
-| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | Observation clinique | Mikrobiyoloji Bülteni | Traitement et antibiogrammes de 48 patients atteints d'infection à paratyphi B résistante aux traitements classiques |
-| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | Cohorte prospective | J Indian Med Assoc | 145 cas d'hémoculture positive de fièvre entérique chez l'enfant ; profil clinique et sensibilité aux antibiotiques |
-| [8354556](https://pubmed.ncbi.nlm.nih.gov/8354556/) | 1993 | Surveillance | Indian J Pathol Microbiol | 280 souches de *S.* Typhi ; les souches multirésistantes restaient sensibles aux aminosides et à la ciprofloxacine |
-| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | Observationnelle (antibiogramme) | Med J Armed Forces India | Sensibilité de *S.* Typhi et Paratyphi A isolées de 45 cas de fièvre entérique ; retour de la sensibilité au chloramphénicol |
-| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | Épidémiologie | New Microbiologica | Survenue de *S.* Typhi et Paratyphi en Jordanie de 1988 à 2000 |
-| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Étude d'isolement microbiologique | Pak J Biol Sci | Isolement de *S.* Paratyphi chez des patients atteints de fièvre entérique à Quetta |
-| [26905550](https://pubmed.ncbi.nlm.nih.gov/26905550/) | 2014 | Surveillance (antibiogramme) | JNMA | Fréquence des isolats d'hémocultures et profil de sensibilité dans un hôpital universitaire |
+| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | Cohorte prospective | J Indian Med Assoc | 145 cas d'hémoculture positive chez l'enfant ; profil clinique et sensibilité de S. typhi et S. paratyphi |
+| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | Rapport de cas | Pediatr Hematol Oncol | Cholécystite alithiasique à S. paratyphi B chez un enfant leucémique, traitée avec céfépime, amikacine et G-CSF |
+| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | Observation clinique | Mikrobiyol Bul | 48 patients avec infection à paratyphi B résistante aux traitements classiques ; antibiogrammes et résultats |
+| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | Observationnel (antibiogramme) | Med J Armed Forces India | Sensibilité in vitro de S. typhi et S. paratyphi A, avec réapparition de la sensibilité au chloramphénicol |
+| [8354556](https://pubmed.ncbi.nlm.nih.gov/8354556/) | 1993 | Surveillance | Indian J Pathol Microbiol | Souches de S. typhi multirésistantes restant sensibles aux aminosides et à la ciprofloxacine |
+| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Étude d'isolement microbiologique | Pak J Biol Sci | Isolement de S. paratyphi chez des patients atteints de fièvre entérique à Quetta |
+| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | Épidémiologie | New Microbiol | Fréquence de S. typhi et S. paratyphi en Jordanie, 1988-2000 |
+| [26905550](https://pubmed.ncbi.nlm.nih.gov/26905550/) | 2014 | Surveillance (antibiogramme) | JNMA | Isolats d'hémocultures et profils de sensibilité dans un hôpital universitaire |
 
-Aucune de ces publications n'est un essai contrôlé randomisé. Un seul cas clinique décrit l'amikacine dans un traitement, en association.
+## Informations de Marche en France
 
----
-
-## Informations de Marché en France
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 63408093 | AMIKACINE PANPHARMA 250 mg/mL | Solution injectable | Non renseignée (AMM annulée) |
-| 68502148 | AMIKACINE VIATRIS 500 mg | Poudre pour solution injectable | Non renseignée (AMM annulée) |
-| 65156805 | ARIKAYCE LIPOSOMAL 590 mg | Dispersion pour inhalation par nébuliseur | Non renseignée (AMM annulée) |
-| 62000612 | AMIKACINE VIATRIS 50 mg/1 ml | Solution injectable | Non renseignée (AMM annulée) |
-| 62516778 | AMIKACINE VIATRIS 1 g | Poudre pour solution injectable en flacon | Non renseignée (AMM annulée) |
+| 63408093 | AMIKACINE PANPHARMA 250 mg/mL | Solution injectable | Non renseignée |
+| 68502148 | AMIKACINE VIATRIS 500 mg | Poudre pour solution injectable | Non renseignée |
+| 65156805 | ARIKAYCE LIPOSOMAL 590 mg | Dispersion pour inhalation par nébuliseur | Non renseignée |
+| 62000612 | AMIKACINE VIATRIS 50 mg/1 mL | Solution injectable | Non renseignée |
+| 62516778 | AMIKACINE VIATRIS 1 g | Poudre pour solution injectable en flacon | Non renseignée |
 
-Une sixième AMM annulée existe (AMIKACINE VIATRIS 250 mg, poudre pour solution injectable, n° 62048906).
+## Considerations de Securite
 
----
-
-## Considérations de Sécurité
-
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non le texte de la notice) : maladie rénale, pyo-uretère, hypercalcémie, néphrocalcinose, trouble du métabolisme du phosphore, vertige d'origine centrale, myasthénie grave (y compris de l'adulte), maladie de la jonction neuromusculaire, syndrome parkinsonien et maladie de Parkinson.
-- **Interactions médicamenteuses** : 212 interactions recensées. Parmi les principales :
-  - **Majeures** : sulfate de magnésium, mannitol.
-  - **Modérées** : amphotéricine B (et ses formes lipidiques/liposomales), kanamycine, néomycine, acide acétylsalicylique, mésalazine, balsalazide, olsalazine, exénatide, inhibiteurs de la pompe à protons (oméprazole, ésoméprazole, lansoprazole, dexlansoprazole, pantoprazole, rabéprazole).
-- Les risques connus des aminosides par voie systémique (toxicité rénale et auditive) imposent la prudence, d'autant que la notice officielle n'a pas pu être exploitée.
+- **Interactions médicamenteuses** : 212 interactions ont été recensées. Les plus sévères (niveau majeur) concernent le **sulfate de magnésium** et le **mannitol**. Des interactions de niveau modéré concernent notamment l'amphotéricine B (toutes formes), la kanamycine, la néomycine, l'acide acétylsalicylique, la mésalazine, l'exénatide et plusieurs inhibiteurs de la pompe à protons (oméprazole, ésoméprazole, lansoprazole, pantoprazole, rabéprazole).
 
 Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
 
----
+## Conclusion et Prochaines Etapes
 
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
+**Decision : Hold**
 
 **Justification :**
-- Le score TxGNN est élevé (99,82 %), mais aucun essai clinique n'existe et la littérature se limite à des antibiogrammes, des études épidémiologiques et un cas clinique en association. Le mécanisme est limité par la faible pénétration intracellulaire des aminosides, et des alternatives établies et recommandées existent. Toutes les AMM françaises sont annulées.
+Aucun essai clinique n'existe et la littérature disponible est indirecte (antibiogrammes, épidémiologie, cas isolés). Le mécanisme est limité par la faible pénétration intracellulaire des aminosides, et les traitements établis (fluoroquinolones, azithromycine, céphalosporines de 3e génération) sont préférés.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle (mises en garde et contre-indications), étape bloquante pour le criblage de sécurité.
-- Obtenir les données sur le mécanisme d'action depuis DrugBank.
-- Disposer de données cliniques comparatives (idéalement un essai contrôlé) face aux traitements de référence de la fièvre entérique.
-- Évaluer la pertinence et la faisabilité d'une voie d'administration dans cette indication, ainsi que le contexte réglementaire, l'ensemble des AMM étant annulées.
+**Pour avancer, les elements suivants sont necessaires :**
+- Des données cliniques comparatives directes sur l'amikacine dans la fièvre paratyphoïde
+- Les données sur le mécanisme d'action et le texte officiel de la notice (mises en garde, contre-indications)
+- Une évaluation du profil de sécurité (toxicité rénale et auditive) dans cette population
+- Une évaluation de la pertinence face aux traitements de référence
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

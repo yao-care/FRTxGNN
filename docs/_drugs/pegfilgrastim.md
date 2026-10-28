@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie d
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère (seconde prédiction : rétinopathie diabétique, terme plus général) |
-| Score de Prédiction TxGNN | 99,89 % (rétinopathie diabétique : 99,73 %) |
+| Score de Prédiction TxGNN | 0,9989 (rétinopathie diabétique : 0,9973) |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,11 +75,11 @@ Les 10 AMM recensées sont annulées. Le texte de l'indication approuvée n'est 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63655026 | GRASUSTEK 6 mg, seringue préremplie | Solution injectable | Annulée |
-| 60457929 | FULPHILA 6 mg, seringue préremplie | Solution injectable | Annulée |
-| 64847677 | PELGRAZ 6 mg, stylo injecteur prérempli | Solution injectable | Annulée |
-| 61553026 | PELGRAZ 6 mg, seringue préremplie | Solution injectable | Annulée |
-| 63626633 | ZIEXTENZO 6 mg, seringue préremplie | Solution injectable | Annulée |
+| 63655026 | GRASUSTEK 6 mg, seringue préremplie | Solution injectable | Active |
+| 60457929 | FULPHILA 6 mg, seringue préremplie | Solution injectable | Active |
+| 64847677 | PELGRAZ 6 mg, stylo injecteur prérempli | Solution injectable | Active |
+| 61553026 | PELGRAZ 6 mg, seringue préremplie | Solution injectable | Active |
+| 63626633 | ZIEXTENZO 6 mg, seringue préremplie | Solution injectable | Active |
 
 ## Considérations de Sécurité
 
@@ -93,7 +93,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le sens de l'effet est incertain, avec un risque théorique d'aggravation de la pathologie rétinienne.
-- Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice font défaut, ce qui bloque l'évaluation de sécurité.
+- Les 10 AMM françaises sont valides (10 sur 10) et le médicament est commercialisé, mais les données de sécurité issues de la notice font défaut, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)

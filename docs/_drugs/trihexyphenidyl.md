@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trihexyphenidyl
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 789
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Trihexyphenidyl : nouvelle indication prédite, Trouble déficitaire de l'attention avec hyperactivité (TDAH) (niveau de preuve L4). Indication d'origine : Maladie de Parkinson et syndromes parkinsonie…"
 monitor_inn: "trihexyphenidyl"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "myelitis", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
+description: "Trihexyphenidyl : nouvelle indication prédite, Trouble déficitaire de l'attention avec hyperactivité (attention deficit-hyperactivity disorder) (niveau de preuve L5). Indication d'origine : Non rense…"
 ---
 
 # Trihexyphenidyl
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Trihexyphénidyle : De la maladie de Parkinson au trouble déficitaire de l'attention avec hyperactivité (TDAH)
+## Trihexyphenidyl: Trouble déficitaire de l'attention avec hyperactivité (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **une seule publication indirecte** (une série
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Parkinson et syndromes parkinsoniens (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Trouble déficitaire de l'attention avec hyperactivité (TDAH) |
-| Score de Prédiction TxGNN | 99,92 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Trouble déficitaire de l'attention avec hyperactivité (attention deficit-hyperactivity disorder) |
+| Score de Prédiction TxGNN | 0.9992 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le TDAH implique une dérégulation des signaux dopaminergiques et cholinergiques dans les circuits fronto-striataux ; un lien théorique existe donc. Toutefois, il reste purement hypothétique : la seule publication retrouvée porte sur des tics associés à une dystonie, un phénotype voisin mais distinct, et ne fournit aucune preuve directe d'efficacité dans le TDAH.
 
-Il faut aussi souligner un argument défavorable : la charge anticholinergique (troubles cognitifs, inattention, agitation) pourrait aggraver les symptômes du TDAH. Le score élevé de TxGNN (0,999) reste une simple prédiction.
+Il faut aussi souligner un argument défavorable : la charge anticholinergique (troubles cognitifs, inattention, agitation) pourrait aggraver les symptômes du TDAH. Le score élevé de TxGNN (0,9992) reste une simple prédiction.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,9 +76,9 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68401010 | PARKINANE LP 2 mg, gélule à libération prolongée (annulée) | Gélule à libération prolongée | Non renseignée |
-| 69806741 | TRIHEXY 5 mg RICHARD, comprimé (annulée) | Comprimé | Non renseignée |
-| 66377201 | TRIHEXY 2 mg RICHARD, comprimé (annulée) | Comprimé | Non renseignée |
+| 68401010 | PARKINANE LP 2 mg, gélule à libération prolongée (active) | Gélule à libération prolongée | Non renseignée |
+| 69806741 | TRIHEXY 5 mg RICHARD, comprimé (active) | Comprimé | Non renseignée |
+| 66377201 | TRIHEXY 2 mg RICHARD, comprimé (active) | Comprimé | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - Aucune preuve clinique directe : zéro essai et une seule publication indirecte. La prédiction repose uniquement sur le modèle, et le profil cognitif des anticholinergiques va plutôt à l'encontre d'un bénéfice dans le TDAH.
-- Toutes les AMM françaises sont annulées, et les données de sécurité officielles sont manquantes (blocage pour le criblage de sécurité).
+- Les 3 AMM françaises sont valides (3 sur 3), et les données de sécurité officielles sont manquantes (blocage pour le criblage de sécurité).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle de l'ANSM (mises en garde et contre-indications).
@@ -104,7 +104,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Réaliser une recherche ciblée de la littérature sur le trihexyphénidyle dans le TDAH, puis des études précliniques ou pilotes si des signaux apparaissent.
 - Évaluer le risque cognitif anticholinergique, notamment chez l'enfant.
 
-**Note sur les autres candidats :** parmi les neuf autres indications prédites, la **neurodégénérescence associée à PLA2G6** (score 99,58 %, niveau L4) est la plus cohérente biologiquement, en raison de ses phénotypes de dystonie-parkinsonisme. Les preuves se limitent toutefois à un cas clinique et le bénéfice serait uniquement symptomatique ; elle relève d'une question de recherche. Les autres candidats (syndrome faciodigitogénital, TDAH de type inattentif, encéphalite de Rasmussen, déficit de glycosylation, polymicrogyrie, dystrophie rétinienne, myélite, maladie de Charcot-Marie-Tooth 1G) ne disposent d'aucune preuve directe ou plausible et restent en Hold.
+**Note sur les autres candidats :** parmi les neuf autres indications prédites, la **neurodégénérescence associée à PLA2G6** (score 0,9958, niveau L4) est la plus cohérente biologiquement, en raison de ses phénotypes de dystonie-parkinsonisme. Les preuves se limitent toutefois à un cas clinique et le bénéfice serait uniquement symptomatique ; elle relève d'une question de recherche. Les autres candidats (syndrome faciodigitogénital, TDAH de type inattentif, encéphalite de Rasmussen, déficit de glycosylation, polymicrogyrie, dystrophie rétinienne, myélite, maladie de Charcot-Marie-Tooth 1G) ne disposent d'aucune preuve directe ou plausible et restent en Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

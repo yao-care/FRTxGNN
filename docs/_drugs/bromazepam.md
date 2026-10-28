@@ -49,10 +49,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine**,
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Migraine |
-| Score de Prédiction TxGNN | 99,06 % |
+| Score de Prédiction TxGNN | 0,9906 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Sur le plan théorique, cette action pourrait réduire l'hyperexcitabilité corticale et la tension musculaire, et atténuer l'anxiété qui accompagne ou déclenche parfois les migraines. C'est le seul lien mécanistique plausible à ce stade.
 
-Il faut toutefois rester très prudent. Les benzodiazépines ne sont pas un traitement établi de la migraine, et les recommandations les déconseillent généralement en raison du risque de dépendance, de la sédation et du risque de céphalées par abus de médicaments. Le score élevé du modèle (0,99) ne repose sur aucune preuve clinique : ce lien doit être considéré comme une simple hypothèse.
+Il faut toutefois rester très prudent. Les benzodiazépines ne sont pas un traitement établi de la migraine, et les recommandations les déconseillent généralement en raison du risque de dépendance, de la sédation et du risque de céphalées par abus de médicaments. Le score élevé du modèle (0,9906) ne repose sur aucune preuve clinique : ce lien doit être considéré comme une simple hypothèse.
 
 ---
 
@@ -85,11 +85,11 @@ Les 10 AMM recensées sont toutes annulées. Les 5 premières sont listées ci-d
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 64416164 | Bromazepam Viatris 6 mg | Comprimé quadrisécable | Annulée |
-| 68528958 | Bromazepam Zentiva 6 mg | Comprimé quadrisécable | Annulée |
-| 63721729 | Bromazepam Teva 6 mg | Comprimé quadrisécable | Annulée |
-| 68876142 | Bromazepam Arrow 6 mg | Comprimé quadrisécable | Annulée |
-| 67851467 | Bromazepam EG 6 mg | Comprimé quadrisécable | Annulée |
+| 64416164 | Bromazepam Viatris 6 mg | Comprimé quadrisécable | Active |
+| 68528958 | Bromazepam Zentiva 6 mg | Comprimé quadrisécable | Active |
+| 63721729 | Bromazepam Teva 6 mg | Comprimé quadrisécable | Active |
+| 68876142 | Bromazepam Arrow 6 mg | Comprimé quadrisécable | Active |
+| 67851467 | Bromazepam EG 6 mg | Comprimé quadrisécable | Active |
 
 Le texte de l'indication approuvée n'est pas disponible pour ces AMM.
 
@@ -108,7 +108,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le profil de risque des benzodiazépines dans la migraine est défavorable, et toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le profil de risque des benzodiazépines dans la migraine est défavorable, et le médicament est commercialisé en France avec 10 AMM valides sur 10.
 - Les données de sécurité issues de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

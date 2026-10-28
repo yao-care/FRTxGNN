@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 208
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Dacarbazine : nouvelle indication prédite, Tumeur des voies aérodigestives supérieures (niveau de preuve L4). Indication d'origine : Mélanome métastatique, lymphome de Hodgkin"
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
+description: "Dacarbazine : nouvelle indication prédite, Tumeur des voies aérodigestives supérieures (upper aerodigestive tract neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les donné…"
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Dacarbazine : Du Mélanome Métastatique et du Lymphome de Hodgkin à la Tumeur des Voies Aérodigestives Supérieures
+## Dacarbazine: Tumeur des voies aérodigestives supérieures (upper aerodigestive tract neoplasm)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **tumeur des vo
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mélanome métastatique, lymphome de Hodgkin (texte d'indication des AMM non renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Tumeur des voies aérodigestives supérieures |
-| Score de Prédiction TxGNN | 99,26 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Tumeur des voies aérodigestives supérieures (upper aerodigestive tract neoplasm) |
+| Score de Prédiction TxGNN | 0.9926 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -86,9 +86,9 @@ Les publications ci-dessous sont les plus pertinentes parmi celles recueillies. 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64645120 | DETICENE 100 mg | Poudre et solvant pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 67366695 | DACARBAZINE LIPOMED 500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 60054376 | DACARBAZINE LIPOMED 1000 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 64645120 | DETICENE 100 mg | Poudre et solvant pour solution pour perfusion | Non renseignée (AMM active) |
+| 67366695 | DACARBAZINE LIPOMED 500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 60054376 | DACARBAZINE LIPOMED 1000 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

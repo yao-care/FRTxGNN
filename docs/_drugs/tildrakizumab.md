@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie d
 |------|------|
 | Indication Originale | Non disponible dans les données compilées |
 | Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère |
-| Score de Prédiction TxGNN | 99,63 % |
+| Score de Prédiction TxGNN | 0,9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,15 +59,15 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Une inflammation chronique de bas grade, dont la signalisation de l'axe IL-23/IL-17, pourrait contribuer aux lésions vasculaires rétiniennes de la rétinopathie diabétique. Ce lien reste toutefois **hypothétique**. Le traitement de référence cible le VEGF et la vascularisation rétinienne, et non l'IL-23.
 
-Le score élevé (0,996) est une prédiction purement computationnelle. En l'absence d'essais, de publications et de données sur le mécanisme d'origine, il ne suffit pas à justifier la poursuite du projet.
+Le score élevé (0,9963) est une prédiction purement computationnelle. En l'absence d'essais, de publications et de données sur le mécanisme d'origine, il ne suffit pas à justifier la poursuite du projet.
 
 ### Autres indications prédites (pour information)
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |---|---|---|---|---|
-| 2 | Rétinopathie diabétique | 99,53 % | L5 | Même raisonnement que ci-dessus : rôle inflammatoire secondaire de l'axe IL-23/Th17, spéculatif. L'immunosuppression systémique chez des patients diabétiques exigerait une évaluation attentive du risque infectieux. |
-| 3 | Cataracte diabétique | 99,21 % | L5 | Lien mécanistique faible (voie des polyols, stress osmotique et oxydatif). Un biomédicament serait peu plausible pour une affection traitée chirurgicalement. |
-| 4 | Ostéoporose d'origine médicamenteuse | 99,20 % | L5 | L'axe IL-23/IL-17 influence l'ostéoclastogenèse, d'où un lien indirect plausible. Aucun effet protecteur osseux démontré. C'est la prédiction biologiquement la plus plausible, mais elle reste computationnelle. |
+| 2 | Rétinopathie diabétique | 0,9953 | L5 | Même raisonnement que ci-dessus : rôle inflammatoire secondaire de l'axe IL-23/Th17, spéculatif. L'immunosuppression systémique chez des patients diabétiques exigerait une évaluation attentive du risque infectieux. |
+| 3 | Cataracte diabétique | 0,9921 | L5 | Lien mécanistique faible (voie des polyols, stress osmotique et oxydatif). Un biomédicament serait peu plausible pour une affection traitée chirurgicalement. |
+| 4 | Ostéoporose d'origine médicamenteuse | 0,9920 | L5 | L'axe IL-23/IL-17 influence l'ostéoclastogenèse, d'où un lien indirect plausible. Aucun effet protecteur osseux démontré. C'est la prédiction biologiquement la plus plausible, mais elle reste computationnelle. |
 
 ## Preuves d'Essais Cliniques
 
@@ -81,11 +81,11 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65992266 | ILUMETRI 200 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 69596271 | ILUMETRI 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 69150269 | ILUMETRI 100 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
+| 65992266 | ILUMETRI 200 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 69596271 | ILUMETRI 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 69150269 | ILUMETRI 100 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
-Les trois AMM (titulaire : ALMIRALL, Espagne) sont annulées ; aucune AMM valide n'est recensée.
+Les trois AMM (titulaire : ALMIRALL, Espagne) sont valides ; le médicament est commercialisé.
 
 ## Considérations de Sécurité
 

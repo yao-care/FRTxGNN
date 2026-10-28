@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Treprostinil
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 784
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Treprostinil : nouvelle indication prédite, HTAP associée aux cardiopathies congénitales (niveau de preuve L3). Indication d'origine : Hypertension artérielle pulmonaire"
 monitor_inn: "treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
+description: "Treprostinil : nouvelle indication prédite, Pulmonary arteriovenous malformation (disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Treprostinil
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Tréprostinil : De l'Hypertension Artérielle Pulmonaire à l'Hypertension Artérielle Pulmonaire Associée aux Cardiopathies Congénitales
+## Treprostinil: Pulmonary arteriovenous malformation (disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**HTAP associée a
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle pulmonaire (selon les données du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | HTAP associée aux cardiopathies congénitales |
-| Score de Prédiction TxGNN | 99,60 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 16 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pulmonary arteriovenous malformation (disease) |
+| Score de Prédiction TxGNN | 0.9970 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold (voir justification) |
 
 > Remarque : les données compilées classent cette indication au niveau L3 avec la mention « question de recherche ». Les prédictions de rang 1 (malformation artérioveineuse pulmonaire) et suivantes sont de niveau L5 ou L4, sans essai clinique. Ce rapport se concentre sur la prédiction ayant le soutien le plus large parmi les candidates de cardiopathies congénitales ; la prédiction « HTAP associée aux connectivites » (L2) est la mieux étayée, mais elle relève d'un sous-groupe de l'indication déjà couverte.
@@ -84,15 +84,15 @@ Sélection parmi les 20 publications retrouvées. Aucune n'est un ECR spécifiqu
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées (16) sont annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné. Principales AMM :
+Le texte de l'indication approuvée n'est pas renseigné. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68635974 | REMODULIN 1 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (annulée) |
-| 66923928 | REMODULIN 5 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (annulée) |
-| 65213010 | REMODULIN 10 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (annulée) |
-| 63853809 | TREPROSTINIL TILLOMED 2,5 mg/mL | Solution pour perfusion | Non renseignée (annulée) |
-| 65976536 | TREPROSTINIL REDDY PHARMA 10 mg/mL | Solution pour perfusion | Non renseignée (annulée) |
+| 68635974 | REMODULIN 1 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (active) |
+| 66923928 | REMODULIN 5 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (active) |
+| 65213010 | REMODULIN 10 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (active) |
+| 63853809 | TREPROSTINIL TILLOMED 2,5 mg/mL | Solution pour perfusion | Non renseignée (active) |
+| 65976536 | TREPROSTINIL REDDY PHARMA 10 mg/mL | Solution pour perfusion | Non renseignée (active) |
 
 ## Considérations de Sécurité
 
@@ -107,7 +107,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- Les preuves sont de niveau L3 : une cohorte observationnelle, des rapports de cas et des revues, sans essai clinique enregistré. Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'évaluation de sécurité. L'indication relevant déjà du champ général de l'HTAP, l'intérêt de repositionnement est faible.
+- Les preuves sont de niveau L3 : une cohorte observationnelle, des rapports de cas et des revues, sans essai clinique enregistré. L'indication relevant déjà du champ général de l'HTAP, l'intérêt de repositionnement est faible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, et clarifier la raison de l'annulation des AMM

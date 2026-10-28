@@ -6,9 +6,9 @@ nav_order: 764
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tioconazole : nouvelle indication prédite, Vulvovaginite (niveau de preuve L5). Indication d'origine : Candidose vulvovaginale"
 monitor_inn: "TIOCONAZOLE"
 predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
+description: "Tioconazole : nouvelle indication prédite, Vulvovaginite (vulvovaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tioconazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Tioconazole : De la candidose vulvovaginale à la vulvovaginite
+## Tioconazole: Vulvovaginite (vulvovaginitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré ; **20 publications** sont associées à 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Candidose vulvovaginale (source : graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Vulvovaginite |
-| Score de Prédiction TxGNN | 99,23 % |
-| Niveau de Preuve | L2 (selon l'évaluation compilée ; essais anciens, majoritairement ouverts) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Vulvovaginite (vulvovaginitis) |
+| Score de Prédiction TxGNN | 0.9923 |
+| Niveau de Preuve | L5 (selon l'évaluation compilée ; essais anciens, majoritairement ouverts) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -61,8 +61,8 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 La candidose vulvovaginale est une forme de vulvovaginite d'origine fongique. La prédiction est donc cohérente : l'efficacité est attendue dans les vulvovaginites fongiques, mais pas dans les formes bactériennes, à trichomonas ou non infectieuses.
 
 Deux autres prédictions de moindre rang sont à noter :
-- **Vulvite** (score 99,20 %, niveau L3) : plausible uniquement pour les formes associées à une infection à *Candida*. La littérature porte sur la candidose vaginale, pas sur la vulvite en tant qu'entité distincte ; les preuves sont donc indirectes.
-- **Vaginite atrophique post-ménopausique** (score 99,19 %, niveau L5) : cette pathologie découle d'une carence œstrogénique, sans lien mécanistique clair avec un antifongique. Le score élevé semble refléter la proximité dans le réseau avec d'autres vaginites plutôt qu'un vrai mécanisme thérapeutique.
+- **Vulvite** (score 0,9920, niveau L3) : plausible uniquement pour les formes associées à une infection à *Candida*. La littérature porte sur la candidose vaginale, pas sur la vulvite en tant qu'entité distincte ; les preuves sont donc indirectes.
+- **Vaginite atrophique post-ménopausique** (score 0,9919, niveau L5) : cette pathologie découle d'une carence œstrogénique, sans lien mécanistique clair avec un antifongique. Le score élevé semble refléter la proximité dans le réseau avec d'autres vaginites plutôt qu'un vrai mécanisme thérapeutique.
 
 ## Preuves d'Essais Cliniques
 
@@ -91,8 +91,8 @@ Les autres publications recensées sont des études de formulation, de résistan
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67466927 | GYNO TROSYD 300 mg, ovule (TEOFARMA) | Ovule | Non renseignée (AMM annulée) |
-| 69571802 | TROSYD, crème dermatologique (TEOFARMA) | Crème | Non renseignée (AMM annulée) |
+| 67466927 | GYNO TROSYD 300 mg, ovule (TEOFARMA) | Ovule | Non renseignée (AMM active) |
+| 69571802 | TROSYD, crème dermatologique (TEOFARMA) | Crème | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

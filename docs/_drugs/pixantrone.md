@@ -47,10 +47,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cataracte d
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM disponibles |
 | Nouvelle Indication Prédite | Cataracte diabétique |
-| Score de Prédiction TxGNN | 99,01 % |
+| Score de Prédiction TxGNN | 0,9901 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien mécanistique plausible avec la cataracte diabétique n'apparaît. Cette maladie fait intervenir l'activation de la voie des polyols, l'aldose réductase, le stress oxydatif et la glycation des protéines du cristallin. Un agent cytotoxique qui endommage l'ADN n'est pas biologiquement cohérent avec une atteinte chronique non maligne du cristallin.
 
-Le score élevé du modèle est donc probablement un artefact du graphe de connaissances, par exemple des associations partagées avec des nœuds liés au diabète ou au stress oxydatif. Pour une affection chronique oculaire ou métabolique, le rapport bénéfice-risque serait en outre défavorable, compte tenu de la cardiotoxicité et de la myélosuppression connues de cette classe.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, par exemple liées au diabète ou au stress oxydatif, et non une preuve biologique. Pour une affection chronique oculaire ou métabolique, le rapport bénéfice-risque serait en outre défavorable, compte tenu de la cardiotoxicité et de la myélosuppression connues de cette classe.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69454261 | PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion (LES LABORATOIRES SERVIER), statut : annulée | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 69454261 | PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion (LES LABORATOIRES SERVIER), statut : active | Poudre pour solution à diluer pour perfusion | Non renseignée |
 
 ## Cytotoxicité
 

@@ -6,9 +6,9 @@ nav_order: 506
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Mitomycin : nouvelle indication prédite, Carcinome pseudopapillaire solide du pancréas (niveau de preuve L5). Indication d'origine : Adénocarcinome pancréatique"
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+description: "Mitomycin : nouvelle indication prédite, Solid pseudopapillary carcinoma of pancreas (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Mitomycin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Mitomycine : De l'adénocarcinome pancréatique à la tumeur pseudopapillaire solide du pancréas
+## Mitomycin: Solid pseudopapillary carcinoma of pancreas
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette pr�
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Adénocarcinome pancréatique (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Carcinome pseudopapillaire solide du pancréas |
-| Score de Prédiction TxGNN | 99,86 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Solid pseudopapillary carcinoma of pancreas |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La tumeur pseudopapillaire solide est une tumeur pancréatique rare. Le raisonnement du modèle est une extrapolation à partir d'un cancer du même organe. Cette extrapolation est limitée : cette tumeur est généralement d'évolution lente et se traite le plus souvent par chirurgie, ce qui réduit l'intérêt présumé d'une chimiothérapie cytotoxique.
 
-Les autres prédictions du modèle concernent d'autres tumeurs pancréatiques rares ou des sous-types histologiques : ostéoclastique à cellules géantes, carcinome mixte, adénocarcinome à cellules en bague à chaton, carcinome indifférencié, néoplasme exocrine malin, néoplasmes intracanalaires papillaires et mucineux, cystadénocarcinome à cellules acineuses. Elles ont toutes un score proche (99,82 % à 99,86 %) et reposent sur la même logique d'extrapolation.
+Les autres prédictions du modèle concernent d'autres tumeurs pancréatiques rares ou des sous-types histologiques : ostéoclastique à cellules géantes, carcinome mixte, adénocarcinome à cellules en bague à chaton, carcinome indifférencié, néoplasme exocrine malin, néoplasmes intracanalaires papillaires et mucineux, cystadénocarcinome à cellules acineuses. Elles ont toutes un score proche (0,9982 à 0,9986) et reposent sur la même logique d'extrapolation.
 
 ## Preuves d'Essais Cliniques
 
@@ -81,10 +81,10 @@ Aucune publication n'est associée à la nouvelle indication principale (carcino
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65355771 | Mitomycine Accord 20 mg (Accord Healthcare France) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM annulée) |
-| 68956396 | Mitomycine Accord 10 mg (Accord Healthcare France) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM annulée) |
-| 69855350 | Mitomycine Medac 40 mg (Medac, Allemagne) | Poudre pour solution intravésicale | Non renseignée (AMM annulée) |
-| 63017696 | Mitomycine Substipharm 20 mg (Substipharm) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM annulée) |
+| 65355771 | Mitomycine Accord 20 mg (Accord Healthcare France) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM active) |
+| 68956396 | Mitomycine Accord 10 mg (Accord Healthcare France) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM active) |
+| 69855350 | Mitomycine Medac 40 mg (Medac, Allemagne) | Poudre pour solution intravésicale | Non renseignée (AMM active) |
+| 63017696 | Mitomycine Substipharm 20 mg (Substipharm) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications officielles de la notice n'étant pas d
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication directe, et toutes les AMM françaises sont annulées. Cette tumeur rare se traite en outre généralement par chirurgie.
+- Cette tumeur rare se traite en outre généralement par chirurgie.
 - Les données de sécurité officielles et le mécanisme d'action sont manquants, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

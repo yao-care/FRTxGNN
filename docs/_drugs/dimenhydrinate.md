@@ -6,9 +6,9 @@ nav_order: 246
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Dimenhydrinate : nouvelle indication prédite, Urticaire allergique (niveau de preuve L5). Indication d'origine : Vertige d'origine centrale"
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
+description: "Dimenhydrinate : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dimenhydrinate
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Dimenhydrinate : Du Vertige d'Origine Centrale à l'Urticaire Allergique
+## Dimenhydrinate: Urticaire allergique (allergic urticaria)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire allerg
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Vertige d'origine centrale ; mal des transports (selon le graphe de connaissances, l'indication autorisée n'étant pas renseignée dans les AMM) |
-| Nouvelle Indication Prédite | Urticaire allergique |
-| Score de Prédiction TxGNN | 99,74 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Urticaire allergique (allergic urticaria) |
+| Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L5 (prédiction du modèle, aucune étude d'efficacité réelle) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 > Remarque : le niveau L4 figurait dans l'évaluation initiale des données. Il est ramené ici à L5, car l'unique publication est une étude pharmacocinétique vétérinaire sans critère d'efficacité, et non une étude de mécanisme ou préclinique d'efficacité.
@@ -63,7 +63,7 @@ L'urticaire est une affection médiée par la libération d'histamine par les ma
 
 Il faut toutefois nuancer : les recommandations actuelles privilégient les antihistaminiques H1 de seconde génération, non sédatifs. Un agent sédatif de première génération apporte peu d'avantage, et le statut commercial (AMM toutes annulées) limite l'intérêt pratique d'un développement.
 
-La seconde prédiction, l'**urticaire au froid** (score 99,24 %), repose sur la même logique mécanistique mais ne dispose d'aucun essai ni d'aucune publication. Elle reste au niveau L5 avec une décision Hold.
+La seconde prédiction, l'**urticaire au froid** (score 0,9924), repose sur la même logique mécanistique mais ne dispose d'aucun essai ni d'aucune publication. Elle reste au niveau L5 avec une décision Hold.
 
 ## Preuves d'Essais Cliniques
 
@@ -79,10 +79,10 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69806008 | NAUSICALM 15,7 mg ENFANTS, sirop en sachet (BROTHIER) | Sirop | Non renseignée (AMM annulée) |
-| 63137902 | NAUSICALM, sirop (BROTHIER) | Sirop | Non renseignée (AMM annulée) |
-| 60173964 | NAUSICALM ADULTES 50 mg, gélule (BROTHIER) | Gélule | Non renseignée (AMM annulée) |
-| 68461541 | MERCALM, comprimé pelliculé sécable (LABORATOIRES MAJORELLE) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 69806008 | NAUSICALM 15,7 mg ENFANTS, sirop en sachet (BROTHIER) | Sirop | Non renseignée (AMM active) |
+| 63137902 | NAUSICALM, sirop (BROTHIER) | Sirop | Non renseignée (AMM active) |
+| 60173964 | NAUSICALM ADULTES 50 mg, gélule (BROTHIER) | Gélule | Non renseignée (AMM active) |
+| 68461541 | MERCALM, comprimé pelliculé sécable (LABORATOIRES MAJORELLE) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -98,7 +98,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Aucune preuve clinique directe ne soutient l'usage du dimenhydrinate dans l'urticaire : aucun essai, et une seule étude pharmacocinétique vétérinaire. Les alternatives de seconde génération sont préférées, et toutes les AMM françaises sont annulées.
+- Aucune preuve clinique directe ne soutient l'usage du dimenhydrinate dans l'urticaire : aucun essai, et une seule étude pharmacocinétique vétérinaire. Les alternatives de seconde génération sont préférées. Le médicament est commercialisé en France, avec 4 AMM valides sur 4.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice ANSM (information bloquante pour le criblage de sécurité)

@@ -4,17 +4,17 @@ title: Alfacalcidol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 34
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Alfacalcidol : nouvelle indication prédite, Hypoparathyroïdie isolée familiale due à un défaut de sécrétion de la… (niveau de preuve L5). Indication d'origine : Hyperparathyroïdie"
+indication_count: 3
 monitor_inn: "ALFACALCIDOL"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
+predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
+last_modified_at: 2026-10-23
+description: "Alfacalcidol : nouvelle indication prédite, Conodysplasie crânio-faciale (niveau de preuve L5). Indication d'origine : Hyperparathyroïdie, ostéite fibreuse, hypoparathyroïdie…"
 ---
 
 # Alfacalcidol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,84 +33,88 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Alfacalcidol : De l'hyperparathyroïdie à l'hypoparathyroïdie isolée familiale par défaut de sécrétion de la PTH
+## Alfacalcidol : De l'hyperparathyroïdie à la conodysplasie crânio-faciale
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Alfacalcidol est un analogue de la vitamine D (1-alpha-hydroxylé), initialement utilisé dans l'hyperparathyroïdie, l'ostéite fibreuse, l'hypoparathyroïdie et l'ostéodystrophie rénale.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypoparathyroïdie isolée familiale due à un défaut de sécrétion de la PTH**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction précise.
+Alfacalcidol est un analogue actif de la vitamine D. Le graphe de connaissances utilisé par le modèle enregistre pour lui des relations avec l'hyperparathyroïdie, l'ostéite fibreuse, l'hypoparathyroïdie et l'ostéodystrophie rénale.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **conodysplasie crânio-faciale**, une dysplasie squelettique rare.
+Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent cette direction : il s'agit d'une prédiction du modèle uniquement.
+
+---
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hyperparathyroïdie (indication issue du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypoparathyroïdie isolée familiale due à un défaut de sécrétion de la PTH |
-| Score de Prédiction TxGNN | 99,61 % |
+| Indication Originale | Hyperparathyroïdie, ostéite fibreuse, hypoparathyroïdie, ostéodystrophie rénale (relations enregistrées dans le graphe de connaissances ; les textes d'indication des AMM ne sont pas renseignés dans les données compilées) |
+| Nouvelle Indication Prédite | Conodysplasie crânio-faciale |
+| Score de Prédiction TxGNN | 0,9955 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 10 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
+
+---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'alfacalcidol est un analogue de la vitamine D déjà hydroxylé en position 1-alpha. Il contourne donc l'étape de la 1-alpha-hydroxylase rénale et n'a pas besoin de la stimulation par la PTH pour devenir actif. Il peut ainsi augmenter la calcémie dans les situations de carence en PTH.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Alfacalcidol est un analogue de la vitamine D hydroxylé en position 1-alpha, transformé dans le foie en calcitriol, la forme active de la vitamine D. Il intervient dans l'équilibre du calcium et du phosphate et dans la minéralisation osseuse.
 
-L'hypoparathyroïdie fait déjà partie des indications d'origine du médicament dans le graphe de connaissances. La forme prédite ici est un sous-type génétique de cette indication. Le score élevé du modèle (0,996) reflète probablement cette proximité plutôt qu'un véritable nouveau signal de repositionnement.
+Les relations enregistrées dans le graphe de connaissances (hyperparathyroïdie, ostéodystrophie rénale, etc.) concernent des troubles du métabolisme phosphocalcique et osseux. La conodysplasie crânio-faciale est une dysplasie squelettique. Le modèle a probablement établi le rapprochement à partir de phénotypes osseux communs.
 
-Aucun essai ni publication n'a été fourni pour ce sous-type précis. La plausibilité biologique est bonne, mais elle n'est pas démontrée directement.
+Cette hypothèse reste très spéculative. Aucune voie biologique précise reliant l'alfacalcidol à cette maladie n'est établie, et l'absence de données sur le mécanisme d'action empêche de vérifier la cohérence de la prédiction. Le score élevé du modèle ne suffit pas à lui seul à justifier un développement.
+
+---
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
+---
+
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour cette indication.
+Aucune littérature associée disponible actuellement.
 
-Pour information, les autres indications prédites (rang 2 à 5) sont brièvement résumées ci-dessous :
-
-| Indication prédite | Score TxGNN | Niveau de preuve | Observation |
-|------|------|------|------|
-| Syndrome de Dahlberg-Borer-Newcomer | 99,60 % | L5 | 20 publications récupérées, mais surtout indirectes (hypophosphatémie liée au FGF23) ou sans rapport ; correspondance du nom de la maladie à vérifier |
-| Conodysplasie craniofaciale | 99,55 % | L5 | Aucune donnée ; aucun lien mécanistique identifiable |
-| Dysplasie acromésomélique, type Campailla-Martinelli | 99,53 % | L5 | Aucune donnée ; aucun lien mécanistique clair |
-| Acidose tubulaire rénale | 99,27 % | L4 | 5 cas cliniques d'ostéomalacie secondaire (plusieurs liés au syndrome de Sjögren) améliorée sous traitement incluant de la vitamine D active ; le bénéfice vise la complication osseuse, et les co-traitements (alcalinisants, phosphate) brouillent l'attribution |
+---
 
 ## Informations de Marché en France
 
-Les 10 AMM sont annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
+Les 10 AMM compilées sont valides et concernent des spécialités à base d'alfacalcidol seul. Voici les 5 premières :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65401076 | UN-ALFA 0,10 microgramme, solution buvable en gouttes | Solution buvable en gouttes | Annulée |
-| 68578562 | UN-ALFA 1 microgramme/0,5 ml, solution injectable IV en ampoule | Solution injectable | Annulée |
-| 64661847 | ALFACALCIDOL THERAMEX 0,25 microgramme | Capsule molle | Annulée |
-| 62092176 | UN ALFA 1 microgramme | Capsule | Annulée |
-| 62626139 | ALFACALCIDOL THERAMEX 1 microgramme | Capsule molle | Annulée |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 65401076 | UN-ALFA 0,10 microgramme, solution buvable en gouttes | Solution buvable en gouttes |
+| 68578562 | UN-ALFA 1 microgramme/0,5 ml, solution injectable IV en ampoule | Solution injectable |
+| 64661847 | ALFACALCIDOL THERAMEX 0,25 microgramme, capsule molle | Capsule molle |
+| 62092176 | UN ALFA 1 microgramme, capsule orale | Capsule |
+| 62626139 | ALFACALCIDOL THERAMEX 1 microgramme, capsule molle | Capsule molle |
+
+---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées.
+Veuillez consulter la notice pour les informations de sécurité.
 
-À titre d'observation tirée de la littérature : l'association de vitamine D active et de calcium dans l'hypoparathyroïdie post-thyroïdectomie peut exposer à une hypercalcémie et à un syndrome des buveurs de lait (calcium-alcalins). Une surveillance de la calcémie est donc essentielle.
+---
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai ni publication ne concerne ce sous-type. Le score élevé reflète surtout la proximité avec l'indication d'hypoparathyroïdie déjà connue.
-- Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'étape d'évaluation de la sécurité.
+- La prédiction repose uniquement sur le score du modèle (L5), sans essai clinique ni publication portant sur la conodysplasie crânio-faciale, et sans lien mécanistique démontré.
+- Les données de sécurité de la notice et le mécanisme d'action manquent également.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM
-- Obtenir les données sur le mécanisme d'action depuis DrugBank
-- Rechercher des données cliniques ou des cas publiés spécifiques à l'hypoparathyroïdie familiale par défaut de sécrétion de la PTH
-- Clarifier la disponibilité commerciale actuelle du produit en France, puisque toutes les AMM sont annulées
-- Vérifier la correspondance du nom de maladie pour le syndrome de Dahlberg-Borer-Newcomer avant toute exploitation
-- Si une piste secondaire est envisagée, l'acidose tubulaire rénale (niveau L4) pourrait être traitée comme une question de recherche, en distinguant l'effet sur l'atteinte osseuse de celui des co-traitements
+- Données détaillées sur le mécanisme d'action (par exemple via DrugBank)
+- Récupération et analyse de la notice de l'ANSM (mises en garde et contre-indications)
+- Revue de la littérature sur la physiopathologie de la conodysplasie crânio-faciale, afin de déterminer si une voie liée à la vitamine D est plausible
+- Études précliniques ou de mécanisme si une piste biologique est identifiée
+
+**Remarque sur une autre prédiction :** pour l'**acidose tubulaire rénale** (3e prédiction, score de 0,9927), les données compilées contiennent 5 rapports de cas. Ils décrivent l'ostéomalacie associée à cette acidose, dans certains cas traitée avec un dérivé actif de la vitamine D. Ils ne portent pas sur une efficacité démontrée dans l'acidose tubulaire elle-même. L'alfacalcidol y agirait plutôt comme traitement adjuvant des complications osseuses. Cette piste pourrait être explorée séparément comme question de recherche.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

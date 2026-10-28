@@ -6,9 +6,9 @@ nav_order: 658
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Relebactam : nouvelle indication prédite, Hyperamylasémie (niveau de preuve L5). Indication d'origine : Infection urinaire, pyélonéphrite"
 monitor_inn: "relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Relebactam : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Relebactam
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Relebactam : Des Infections Urinaires à l'Hyperamylasémie
+## Relebactam: Hyperamylasémie (hyperamylasemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hyperamylasémie
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection urinaire, pyélonéphrite (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hyperamylasémie |
-| Score de Prédiction TxGNN | 99,22 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hyperamylasémie (hyperamylasemia) |
+| Score de Prédiction TxGNN | 0.9922 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **En réalité, cette prédiction n'est pas étayée mécanistiquement.** L'hyperamylasémie est une anomalie biologique, souvent liée à une atteinte pancréatique ou des glandes salivaires. Aucune voie plausible ne relie l'inhibition des bêta-lactamases bactériennes à son traitement.
 
-Le score élevé (0,992) provient du graphe de connaissances et ne s'appuie sur aucune preuve clinique ou bibliographique. Deux autres prédictions (syndrome d'hyperviscosité polyclonale, score identique de 99,22 %, et analbuminémie congénitale, 99,08 %) présentent le même profil. Le score identique des deux premières suggère un artefact de structure du graphe plutôt qu'un signal biologique.
+Deux autres prédictions (syndrome d'hyperviscosité polyclonale, score identique de 0,9922, et analbuminémie congénitale, 0,9908) présentent le même profil.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65172663 | RECARBRIO 500 mg/500 mg/250 mg, poudre pour solution pour perfusion (MERCK SHARP & DOHME, Pays-Bas) | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 65172663 | RECARBRIO 500 mg/500 mg/250 mg, poudre pour solution pour perfusion (MERCK SHARP & DOHME, Pays-Bas) | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

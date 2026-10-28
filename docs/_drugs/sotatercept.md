@@ -49,10 +49,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **leucémie l
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Leucémie lymphoblastique aiguë |
-| Score de Prédiction TxGNN | 99,78 % |
+| Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La signalisation de la famille activine/TGF-bêta a été évoquée dans la régulation de l'hématopoïèse. Toutefois, aucun lien direct et étayé avec la physiopathologie de la leucémie lymphoblastique aiguë n'est établi dans les données disponibles.
 
-Le score élevé (0,998) est donc une sortie purement computationnelle. Il doit être considéré comme une hypothèse à vérifier, et non comme une preuve d'efficacité.
+Le score élevé (0,9978) est donc une sortie purement computationnelle. Il doit être considéré comme une hypothèse à vérifier, et non comme une preuve d'efficacité.
 
 ---
 
@@ -83,8 +83,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61615894 | WINREVAIR 45 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
-| 61402622 | WINREVAIR 60 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
+| 61615894 | WINREVAIR 45 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+| 61402622 | WINREVAIR 60 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
 
 Titulaire : Merck Sharp & Dohme (Pays-Bas). Les deux autorisations sont au statut « annulée ».
 
@@ -96,12 +96,12 @@ Toutes les prédictions suivantes sont au niveau L5, sans essai clinique ni publ
 
 | Rang | Indication Prédite | Score TxGNN | Remarque |
 |------|------|------|------|
-| 2 | Rétinopathie diabétique non proliférante sévère | 99,77 % | Hypothèse sur le remodelage vasculaire rétinien, non étayée |
-| 3 | Rétinopathie diabétique | 99,72 % | Catégorie parente du rang 2, prédictions corrélées |
-| 4 | Ostéoporose d'origine médicamenteuse | 99,65 % | Piste la plus plausible : l'activine intervient dans le remodelage osseux, mais aucune donnée humaine fournie |
-| 5 | Cataracte diabétique | 99,49 % | Aucun lien mécanistique identifié, probable effet de proximité dans le graphe |
-| 6 | Carcinome mammaire HER2 positif | 99,43 % | Rôle contextuel du TGF-bêta, sans lien spécifique démontré |
-| 7 à 10 | Carcinomes urothéliaux (cellules transitionnelles, urètre prostatique, bassinet du rein sarcomatoïde, vessie sarcomatoïde) | 99,34 % à 99,39 % | Groupe de termes voisins dans l'ontologie, non indépendants |
+| 2 | Rétinopathie diabétique non proliférante sévère | 0,9977 | Hypothèse sur le remodelage vasculaire rétinien, non étayée |
+| 3 | Rétinopathie diabétique | 0,9972 | Catégorie parente du rang 2, prédictions corrélées |
+| 4 | Ostéoporose d'origine médicamenteuse | 0,9965 | Piste la plus plausible : l'activine intervient dans le remodelage osseux, mais aucune donnée humaine fournie |
+| 5 | Cataracte diabétique | 0,9949 | Aucun lien mécanistique identifié ; le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique |
+| 6 | Carcinome mammaire HER2 positif | 0,9943 | Rôle contextuel du TGF-bêta, sans lien spécifique démontré |
+| 7 à 10 | Carcinomes urothéliaux (cellules transitionnelles, urètre prostatique, bassinet du rein sarcomatoïde, vessie sarcomatoïde) | 0,9934 à 0,9939 | Groupe de termes voisins dans l'ontologie, non indépendants |
 
 ---
 

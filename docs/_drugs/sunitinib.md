@@ -4,17 +4,17 @@ title: Sunitinib
 parent: Preuves élevées (L1-L2)
 nav_order: 726
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sunitinib : nouvelle indication prédite, Liposarcome (niveau de preuve L2). Indication d'origine : Carcinome rénal à cellules rénales, tumeur stromale gastro-intestinale"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
+description: "Sunitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Sunitinib : Du Carcinome Rénal à Cellules Claires au Liposarcome
+## Sunitinib: Liposarcome (liposarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome**, 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome rénal à cellules rénales, tumeur stromale gastro-intestinale (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Liposarcome |
-| Score de Prédiction TxGNN | 99,87 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Liposarcome (liposarcoma) |
+| Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold (question de recherche à approfondir) |
 
@@ -83,15 +83,15 @@ Deux publications du jeu de données (PMID 38717131 sur le sarcome myofibroblast
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+20 AMM valides sont recensées en France et le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65674790 | SUNITINIB VIATRIS 50 mg | Gélule | Non renseignée (AMM annulée) |
-| 62927092 | SUNITINIB ACCORD 50 mg | Gélule | Non renseignée (AMM annulée) |
-| 67050252 | SUNITINIB BIOGARAN 12,5 mg | Gélule | Non renseignée (AMM annulée) |
-| 62416347 | SUNITINIB ZENTIVA 25 mg | Gélule | Non renseignée (AMM annulée) |
-| 62791429 | SUNITINIB ZENTIVA 50 mg | Gélule | Non renseignée (AMM annulée) |
+| 65674790 | SUNITINIB VIATRIS 50 mg | Gélule | Non renseignée (AMM active) |
+| 62927092 | SUNITINIB ACCORD 50 mg | Gélule | Non renseignée (AMM active) |
+| 67050252 | SUNITINIB BIOGARAN 12,5 mg | Gélule | Non renseignée (AMM active) |
+| 62416347 | SUNITINIB ZENTIVA 25 mg | Gélule | Non renseignée (AMM active) |
+| 62791429 | SUNITINIB ZENTIVA 50 mg | Gélule | Non renseignée (AMM active) |
 
 Au total, 20 AMM de médicaments génériques (Viatris, Accord, Biogaran, Zentiva, Teva, Sandoz, EG) sont recensées, toutes annulées.
 
@@ -127,7 +127,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Deux études de phase 2 sur les sarcomes non-GIST et une publication de phase 2 incluent des patients atteints de liposarcome, ce qui correspond au niveau L2. Ces études portent sur des populations mixtes, sans résultat d'efficacité spécifique du liposarcome dans les données disponibles.
-- Les données de sécurité de la notice sont manquantes (lacune bloquante), et toutes les AMM françaises sont annulées, ce qui empêche pour l'instant toute progression vers l'évaluation de sécurité.
+- Les données de sécurité de la notice sont manquantes (lacune bloquante), ce qui empêche pour l'instant toute progression vers l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice de l'ANSM (mises en garde et contre-indications)
@@ -140,15 +140,10 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Rang | Indication | Score TxGNN | Niveau de Preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | Liposarcome myxoïde de l'ovaire | 99,84 % | L4 | Hold |
-| 3 | Carcinome rénal associé aux translocations Xp11.2/fusions TFE3 | 99,78 % | L3 | Question de recherche |
-| 4 | Carcinome rénal non classé | 99,78 % | L2 | Proceed with Guardrails |
-| 5 | Carcinome rénal associé au neuroblastome | 99,78 % | L5 | Hold |
-| 6 | Dermatofibrosarcome protubérant | 99,73 % | L3 | Question de recherche |
-| 7 | Carcinome rénal de l'enfant | 99,72 % | L4 | Question de recherche |
-| 8 | Angiolipome | 99,67 % | L5 | Hold |
-| 9 | Carcinome rénal | 99,65 % | L1 | Proceed with Guardrails (indication d'origine, pas un véritable repositionnement) |
-| 10 | Fibrosarcome cardiaque | 99,63 % | L5 | Hold |
+| 2 | Liposarcome myxoïde de l'ovaire | 0,9984 | L5 | Hold |
+| 6 | Dermatofibrosarcome protubérant | 0,9973 | L3 | Question de recherche |
+| 8 | Angiolipome | 0,9967 | L5 | Hold |
+| 10 | Fibrosarcome cardiaque | 0,9963 | L5 | Hold |
 
 Parmi ces pistes, le carcinome rénal non classé (rang 4) est la mieux étayée sur le plan clinique : essai randomisé de phase 2 (NCT03541902) et plusieurs études de phase 2 dont ASPEN et ESPN, avec une efficacité du sunitinib plus faible que dans les formes à cellules claires. Elle reste proche de l'indication d'origine et ne constitue pas un repositionnement éloigné.
 ## Avertissement

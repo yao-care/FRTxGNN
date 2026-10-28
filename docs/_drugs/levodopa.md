@@ -6,9 +6,9 @@ nav_order: 449
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Levodopa : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (niveau de preuve L5). Indication d'origine : Maladie de Parkinson"
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
+description: "Levodopa : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Levodopa
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Levodopa : De la maladie de Parkinson à l'encéphalite de Rasmussen
+## Levodopa: Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Parkinson (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Encéphalite subaiguë de Rasmussen |
-| Score de Prédiction TxGNN | 99,06 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) |
+| Score de Prédiction TxGNN | 0.9906 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -82,15 +82,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont au statut **annulé** ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les 5 premières AMM sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les 5 premières AMM sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
 |---------|------|------|------|------|
-| 69606865 | SINEMET 100 mg/10 mg | Comprimé | Organon France | Annulée |
-| 60660790 | Levodopa/Bensérazide Teva 200 mg/50 mg | Gélule | Teva Santé | Annulée |
-| 64793585 | Levodopa Carbidopa Teva LP 100 mg/25 mg | Comprimé à libération prolongée | Teva Santé | Annulée |
-| 61721132 | Levodopa Carbidopa Teva 250 mg/25 mg | Comprimé sécable | Teva Santé | Annulée |
-| 66818261 | SINEMET LP 100 mg/25 mg | Comprimé à libération prolongée | Organon France | Annulée |
+| 69606865 | SINEMET 100 mg/10 mg | Comprimé | Organon France | Active |
+| 60660790 | Levodopa/Bensérazide Teva 200 mg/50 mg | Gélule | Teva Santé | Active |
+| 64793585 | Levodopa Carbidopa Teva LP 100 mg/25 mg | Comprimé à libération prolongée | Teva Santé | Active |
+| 61721132 | Levodopa Carbidopa Teva 250 mg/25 mg | Comprimé sécable | Teva Santé | Active |
+| 66818261 | SINEMET LP 100 mg/25 mg | Comprimé à libération prolongée | Organon France | Active |
 
 ---
 

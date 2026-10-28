@@ -4,17 +4,17 @@ title: Dextromethorphan
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 233
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dextromethorphan : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Rhinite allergique (source : base de connaissances TxGNN"
 monitor_inn: "dextromethorphan"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+description: "Dextromethorphan : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dextromethorphan
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Dextrométhorphane : De la rhinite allergique à la maladie de la cavité nasale
+## Dextromethorphan: Maladie de la cavité nasale (nasal cavity disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie de la c
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique (source : base de connaissances TxGNN ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Maladie de la cavité nasale |
-| Score de Prédiction TxGNN | 99,98 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
+| Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 7 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,17 +59,17 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Les indications originales incluent déjà la rhinite allergique, la rhinite vasomotrice, la rhinite et la rhinopharyngite. Le score très élevé reflète donc probablement un chevauchement avec ces indications des voies respiratoires hautes, plutôt qu'une véritable nouvelle opportunité de repositionnement.
 
-Il s'agit d'une prédiction issue d'un graphe de connaissances, sans preuve clinique à l'appui.
+Il s'agit d'une prédiction issue du modèle TxGNN (apprentissage profond), sans preuve clinique à l'appui ; le score peut refléter des similitudes apprises par le modèle entre maladies proches, et non une preuve biologique.
 
 ### Autres prédictions du modèle (à titre indicatif)
 
 | Maladie prédite | Score TxGNN | Évaluation |
 |------|------|------|
-| Laryngopharyngite aiguë | 99,98 % | Probablement proche d'indications existantes (pharyngite, rhume) ; soulagement symptomatique de la toux seulement |
-| Diphtérie faucale | 99,36 % | Aucune justification biologique (pas d'activité antibactérienne ni antitoxine) ; proximité avec la pharyngite dans le graphe |
-| Céphalée autonome trigéminale | 99,32 % | Lien spéculatif via l'antagonisme NMDA et la sensibilisation centrale ; plausibilité indirecte |
-| Dégénérescence discale cervicale | 99,30 % | Lien faible et indirect (douleur, pas la maladie elle-même) |
-| Urticaire allergique | 99,25 % | Aucun mécanisme antiallergique ; bénéfice non attendu |
+| Laryngopharyngite aiguë | 0,9998 | Probablement proche d'indications existantes (pharyngite, rhume) ; soulagement symptomatique de la toux seulement |
+| Diphtérie faucale | 0,9936 | Aucune justification biologique (pas d'activité antibactérienne ni antitoxine) ; le score du modèle TxGNN (apprentissage profond) peut refléter des similitudes apprises entre maladies proches, et non une preuve biologique |
+| Céphalée autonome trigéminale | 0,9932 | Lien spéculatif via l'antagonisme NMDA et la sensibilisation centrale ; plausibilité indirecte |
+| Dégénérescence discale cervicale | 0,9930 | Lien faible et indirect (douleur, pas la maladie elle-même) |
+| Urticaire allergique | 0,9925 | Aucun mécanisme antiallergique ; bénéfice non attendu |
 
 Toutes ces prédictions sont de niveau L5, sans essai clinique ni publication, avec une recommandation Hold.
 
@@ -83,15 +83,14 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 7 AMM sont annulées ; aucune n'est actuellement valide.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66819541 | TUSSIDANE 1,5 mg/ml SANS SUCRE, solution buvable | Solution buvable | Annulée |
-| 60940109 | TUSSIDANE 1,5 mg/ml, sirop | Sirop | Annulée |
-| 65799705 | DEXTROMETHORPHANE BIOGARAN 1,5 mg/mL SANS SUCRE | Solution buvable | Annulée |
-| 66078868 | PULMODEXANE 30 mg, comprimé pelliculé | Comprimé pelliculé | Annulée |
-| 66367100 | PULMODEXANE 300 mg/100 ml SANS SUCRE | Solution buvable | Annulée |
+| 66819541 | TUSSIDANE 1,5 mg/ml SANS SUCRE, solution buvable | Solution buvable | Active |
+| 60940109 | TUSSIDANE 1,5 mg/ml, sirop | Sirop | Active |
+| 65799705 | DEXTROMETHORPHANE BIOGARAN 1,5 mg/mL SANS SUCRE | Solution buvable | Active |
+| 66078868 | PULMODEXANE 30 mg, comprimé pelliculé | Comprimé pelliculé | Active |
+| 66367100 | PULMODEXANE 300 mg/100 ml SANS SUCRE | Solution buvable | Active |
 
 Deux autres AMM annulées existent (NODEX ADULTES, sirop unidose ; TUSSIDANE 30 mg, comprimé pelliculé sécable). Le texte des indications approuvées n'est pas renseigné.
 
@@ -107,7 +106,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Elle recoupe probablement des indications déjà existantes. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Elle recoupe probablement des indications déjà existantes. Par ailleurs, le médicament est commercialisé en France : 7 AMM valides sur 7.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) pour évaluer le lien mécanistique

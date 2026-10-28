@@ -6,9 +6,9 @@ nav_order: 262
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Droperidol : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "droperidol"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
+description: "Droperidol : nouvelle indication prédite, Syndrome de Gilles de la Tourette (Tourette syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Droperidol
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Dropéridol : De l'Indication Originale Non Renseignée au Syndrome de Gilles de la Tourette
+## Droperidol: Syndrome de Gilles de la Tourette (Tourette syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Parmi les autres prédictions, la **céphalée/migraine** (1 essai terminé pré
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette (Tourette syndrome) |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
 > **Note :** la prédiction classée n°1 par TxGNN n'est pas la mieux soutenue par les données. Les prédictions n°7 (céphalée) et n°3 (manie) sont étayées par la littérature ; elles sont présentées dans la section « Autres prédictions notables ».
@@ -70,12 +70,11 @@ Le syndrome de Gilles de la Tourette est traité par d'autres antagonistes D2 (h
 
 | Maladie prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |------|------|------|------|
-| Céphalée | 99,47 % | L3 | L'antagonisme D2 et l'effet antiémétique sont utiles dans la migraine aiguë. Soutien surtout par des revues, des recommandations et des études observationnelles. |
-| Trouble bipolaire maniaque | 99,82 % | L3 | Preuves principalement pour l'agitation et la psychose aiguës, pas pour la manie en tant que telle. |
-| Trichotillomanie | 99,89 % | L5 | Rationnel dopaminergique limité, aucune donnée clinique. |
-| TDAH (y compris type inattentif) | 99,54 % à 99,68 % | L5 | Lien spéculatif, antagonisme opposé à l'approche par stimulants. |
-| Syndrome néphrogénique d'antidiurèse inappropriée | 99,63 % | L5 | Aucun lien plausible, probablement un artefact du graphe. |
-| Rhume, hypertrichose, trouble spécifique du développement | 99,39 % à 99,46 % | L5 | Aucun mécanisme crédible ni donnée clinique. |
+| Céphalée | 0,9947 | L3 | L'antagonisme D2 et l'effet antiémétique sont utiles dans la migraine aiguë. Soutien surtout par des revues, des recommandations et des études observationnelles. |
+| Trouble bipolaire maniaque | 0,9982 | L5 | Preuves principalement pour l'agitation et la psychose aiguës, pas pour la manie en tant que telle. |
+| Trichotillomanie | 0,9989 | L5 | Rationnel dopaminergique limité, aucune donnée clinique. |
+| TDAH (y compris type inattentif) | 0,9954 à 0,9968 | L5 | Lien spéculatif, antagonisme opposé à l'approche par stimulants. |
+| Syndrome néphrogénique d'antidiurèse inappropriée | 0,9963 | L5 | Aucun lien plausible : le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises entre maladies proches, pas une preuve biologique. |
 
 ---
 
@@ -154,7 +153,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Pour le syndrome de Gilles de la Tourette, la prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et le risque d'allongement du QT est un frein majeur pour un usage chronique. Toutes les AMM françaises sont aujourd'hui annulées.
+- Pour le syndrome de Gilles de la Tourette, la prédiction repose uniquement sur le modèle TxGNN (apprentissage profond) (L5), sans essai ni publication, et le risque d'allongement du QT est un frein majeur pour un usage chronique. Le médicament est commercialisé en France : 9 AMM valides sur 10.
 - Si une piste doit être explorée, la **céphalée/migraine aiguë aux urgences** (L3, plusieurs ECR et revues publiés) est la plus solide. Elle relève d'une question de recherche plutôt que d'une décision d'engagement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

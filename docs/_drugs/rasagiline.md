@@ -6,9 +6,9 @@ nav_order: 653
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rasagiline : nouvelle indication prédite, Neurodégénérescence associée à PLA2G6 (niveau de preuve L5). Indication d'origine : Maladie de Parkinson"
 monitor_inn: "rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
+description: "Rasagiline : nouvelle indication prédite, Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loc…"
 ---
 
 # Rasagiline
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Rasagiline : De la maladie de Parkinson à la neurodégénérescence associée à PLA2G6
+## Rasagiline: Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Parkinson (indication issue du graphe de connaissances ; les textes d'indication des AMM sont vides) |
-| Nouvelle Indication Prédite | Neurodégénérescence associée à PLA2G6 |
-| Score de Prédiction TxGNN | 99,71 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration) |
+| Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 14 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
+| Nombre d'AMM | 14 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La neurodégénérescence associée à PLA2G6 (dont la dystrophie neuroaxonale infantile et la dystonie-parkinsonisme liée à PLA2G6) partage des traits parkinsoniens avec les indications d'origine. Un bénéfice symptomatique sur le syndrome parkinsonien est donc plausible.
 
-Cependant, cette maladie résulte surtout de défauts du métabolisme lipidique et du remodelage membranaire, d'une accumulation de fer et d'une pathologie de l'alpha-synucléine. L'inhibition de la MAO-B n'agit pas sur ces mécanismes : un effet modificateur de la maladie reste spéculatif. Le score élevé (0,997) reflète une proximité dans le graphe de connaissances, pas une preuve clinique.
+Cependant, cette maladie résulte surtout de défauts du métabolisme lipidique et du remodelage membranaire, d'une accumulation de fer et d'une pathologie de l'alpha-synucléine. L'inhibition de la MAO-B n'agit pas sur ces mécanismes : un effet modificateur de la maladie reste spéculatif. Le score élevé (0,9971) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, pas une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,11 +76,11 @@ Les 14 AMM recensées sont toutes annulées. Les 5 premières sont listées ci-d
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65462218 | RASAGILINE BIOGARAN 1 mg | Comprimé | Annulée |
-| 64201902 | RASAGILINE EG 1 mg | Comprimé | Annulée |
-| 63729327 | RASAGILINE SANDOZ 1 mg | Comprimé | Annulée |
-| 68885764 | RASAGILINE CRISTERS 1 mg | Comprimé | Annulée |
-| 62725468 | RASAGILINE ZYDUS 1 mg | Comprimé | Annulée |
+| 65462218 | RASAGILINE BIOGARAN 1 mg | Comprimé | Active |
+| 64201902 | RASAGILINE EG 1 mg | Comprimé | Active |
+| 63729327 | RASAGILINE SANDOZ 1 mg | Comprimé | Active |
+| 68885764 | RASAGILINE CRISTERS 1 mg | Comprimé | Active |
+| 62725468 | RASAGILINE ZYDUS 1 mg | Comprimé | Active |
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme de la MAO-B ne cible pas les causes de la maladie, et toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme de la MAO-B ne cible pas les causes de la maladie. Le médicament est commercialisé en France (14 AMM valides sur 14).
 - Les données de sécurité officielles manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

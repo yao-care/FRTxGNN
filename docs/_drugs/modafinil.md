@@ -6,9 +6,9 @@ nav_order: 510
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Modafinil : nouvelle indication prédite, Insomnie (niveau de preuve L3). Indication d'origine : Narcolepsie"
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
+description: "Modafinil : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Modafinil
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Modafinil : De la narcolepsie à l'insomnie
+## Modafinil: Insomnie (insomnia (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec seulement **2 essais cliniques** (dont un seul terminé, 40 participants) e
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Narcolepsie (source : graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,85 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
+| Score de Prédiction TxGNN | 0.9985 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec l'insomnie est **indirect et partiellement contre-intuitif**. L'insomnie est un trouble de l'endormissement ou du maintien du sommeil, alors que le modafinil favorise l'éveil. On s'attendrait donc plutôt à ce qu'il aggrave le sommeil nocturne qu'à ce qu'il l'améliore. Une pertinence plausible se limite à la somnolence diurne et aux perturbations veille-sommeil associées à des plaintes de type insomnie dans des contextes neurologiques ou de troubles primaires du sommeil (maladie de Parkinson, personnes âgées, trouble du travail posté).
 
-Le score TxGNN très élevé (0,998) est une prédiction computationnelle. Il ne doit pas être interprété comme une preuve que le modafinil traite l'insomnie elle-même.
+Le score TxGNN très élevé (0,9985) est une prédiction computationnelle. Il ne doit pas être interprété comme une preuve que le modafinil traite l'insomnie elle-même.
 
 ## Preuves d'Essais Cliniques
 
@@ -90,13 +90,13 @@ Aucune de ces publications ne montre que le modafinil améliore l'insomnie ; ell
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69277042 | MODAFINIL ZENTIVA 100 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 66805883 | MODIODAL 100 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 61697585 | MODAFINIL BIOGARAN 100 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 63676077 | MODAFINIL ARROW 100 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 69346054 | MODAFINIL EG 100 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 69277042 | MODAFINIL ZENTIVA 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 66805883 | MODIODAL 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 61697585 | MODAFINIL BIOGARAN 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 63676077 | MODAFINIL ARROW 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 69346054 | MODAFINIL EG 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
-Au total, 8 AMM figurent dans la base, toutes annulées ; aucune AMM valide n'est recensée.
+Au total, 8 AMM figurent dans la base, dont 8 valides ; le médicament est commercialisé en France.
 
 ## Considérations de Sécurité
 
@@ -110,7 +110,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le mécanisme d'action va à l'encontre d'un bénéfice dans l'insomnie, et les seules données directes sont un essai terminé de 40 participants sans résultats disponibles et un essai arrêté à 2 participants. Toutes les AMM françaises sont annulées et le profil de sécurité issu de la notice manque.
+- Le mécanisme d'action va à l'encontre d'un bénéfice dans l'insomnie, et les seules données directes sont un essai terminé de 40 participants sans résultats disponibles et un essai arrêté à 2 participants. Les 8 AMM françaises sont valides, mais le profil de sécurité issu de la notice manque.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

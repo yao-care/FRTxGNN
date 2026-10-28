@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Palbociclib
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 571
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Palbociclib : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées (palbociclib est conn…"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib : nouvelle indication prédite, Hyperthyroidism (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-## Palbociclib : Du Cancer du Sein à la Polyarthrite Rhumatoïde
+## Palbociclib: Hyperthyroidism
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Remarque : la prédiction de rang 1 (hyperthyroïdie) n'a aucune preuve associé
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM compilées (palbociclib est connu comme traitement du cancer du sein métastatique RH+/HER2-, d'après la littérature) |
-| Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,36 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hyperthyroidism |
+| Score de Prédiction TxGNN | 0.9944 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -79,9 +79,9 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68016146 | IBRANCE 100 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 67316379 | IBRANCE 75 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 60321676 | IBRANCE 125 mg, gélule | Gélule | Non renseignée (AMM annulée) |
+| 68016146 | IBRANCE 100 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 67316379 | IBRANCE 75 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 60321676 | IBRANCE 125 mg, gélule | Gélule | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

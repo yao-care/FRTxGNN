@@ -4,17 +4,17 @@ title: Irbesartan
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 412
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Irbesartan : nouvelle indication prédite, Hypertension rénovasculaire maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle, néphropathie diabétique"
 monitor_inn: "irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Irbesartan : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Irbésartan : De l'hypertension artérielle à la malignant renovascular hypertension (hypertension rénovasculaire maligne)
+## Irbesartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension ré
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle, néphropathie diabétique (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Hypertension rénovasculaire maligne |
-| Score de Prédiction TxGNN | 99,31 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Malignant hypertensive renal disease |
+| Score de Prédiction TxGNN | 0.9931 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -57,12 +57,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension ré
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'irbésartan est un antagoniste du récepteur AT1 de l'angiotensine II. Son efficacité dans l'hypertension et la néphropathie diabétique est établie.
 
-L'hypertension rénovasculaire est en grande partie liée à l'activation du système rénine-angiotensine. Le blocage du récepteur AT1 est donc biologiquement plausible. Cependant, les ARA II sont généralement contre-indiqués ou à utiliser avec grande prudence en cas de sténose bilatérale des artères rénales, en raison du risque d'insuffisance rénale aiguë. Le score élevé (0,993) reste une prédiction informatique, sans soutien clinique.
+L'hypertension rénovasculaire est en grande partie liée à l'activation du système rénine-angiotensine. Le blocage du récepteur AT1 est donc biologiquement plausible. Cependant, les ARA II sont généralement contre-indiqués ou à utiliser avec grande prudence en cas de sténose bilatérale des artères rénales, en raison du risque d'insuffisance rénale aiguë.
 
 **Autres indications prédites (également de niveau L5, sans essai) :**
-- Maladie rénale hypertensive maligne (score 99,31 %) : très proche des indications existantes ; elle relèverait plutôt d'une extension d'indication que d'un véritable repositionnement.
-- Hypertension pulmonaire d'origine multifactorielle incertaine (score 99,25 %) : rationnel théorique issu de modèles précliniques, mais les ARA II ne sont pas un traitement établi.
-- Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie (score 99,25 %) : 11 publications récupérées, uniquement précliniques ou hors sujet (niveau L4, voir ci-dessous).
+- Maladie rénale hypertensive maligne (score 0,9931) : très proche des indications existantes ; elle relèverait plutôt d'une extension d'indication que d'un véritable repositionnement.
+- Hypertension pulmonaire d'origine multifactorielle incertaine (score 0,9925) : rationnel théorique issu de modèles précliniques, mais les ARA II ne sont pas un traitement établi.
+- Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie (score 0,9925) : 11 publications récupérées, uniquement précliniques ou hors sujet (niveau L4, voir ci-dessous).
 
 ## Preuves d'Essais Cliniques
 
@@ -87,15 +87,15 @@ Ces travaux concernent l'hypoxie cardiaque ou systémique chez l'animal, et non 
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées ; aucune n'est actuellement valide. Principales AMM (5 sur 20) :
+Principales AMM (5 sur 20) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67229700 | IRBESARTAN EVOLUGEN 150 mg | comprimé pelliculé | Non disponible (annulée) |
-| 64933635 | APROVEL 75 mg | comprimé pelliculé | Non disponible (annulée) |
-| 66542998 | IFIRMASTA 75 mg | comprimé pelliculé | Non disponible (annulée) |
-| 69985835 | IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (annulée) |
-| 61200414 | IRBESARTAN ARROW 75 mg | comprimé | Non disponible (annulée) |
+| 67229700 | IRBESARTAN EVOLUGEN 150 mg | comprimé pelliculé | Non disponible (active) |
+| 64933635 | APROVEL 75 mg | comprimé pelliculé | Non disponible (active) |
+| 66542998 | IFIRMASTA 75 mg | comprimé pelliculé | Non disponible (active) |
+| 69985835 | IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (active) |
+| 61200414 | IRBESARTAN ARROW 75 mg | comprimé | Non disponible (active) |
 
 ## Considérations de Sécurité
 
@@ -109,13 +109,12 @@ La notice (mises en garde et contre-indications officielles) n'a pas pu être an
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, la contre-indication connue en cas de sténose des artères rénales va directement à l'encontre de l'indication proposée. Toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, la contre-indication connue en cas de sténose des artères rénales va directement à l'encontre de l'indication proposée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications), bloquante pour le dépistage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue systématique de la littérature clinique sur les ARA II dans l'hypertension rénovasculaire, avec évaluation du risque rénal
-- Clarification du statut réglementaire (toutes les AMM étant annulées) et de la disponibilité du produit en France
 - Pour l'hypertension pulmonaire liée à l'hypoxie : validation préclinique spécifique avant toute étude clinique (question de recherche, niveau L4)
 ## Avertissement
 

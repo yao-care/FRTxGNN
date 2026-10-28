@@ -6,9 +6,9 @@ nav_order: 318
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Felbamate : nouvelle indication prédite, Névralgie du trijumeau (niveau de preuve L4). Indication d'origine : Épilepsie"
 monitor_inn: "FELBAMATE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Felbamate : nouvelle indication prédite, Trigeminal nerve neoplasm (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Felbamate
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-## Felbamate : De l'Épilepsie à la Névralgie du Trijumeau
+## Felbamate: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -41,18 +41,18 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 Felbamate est un antiépileptique, initialement utilisé pour traiter l'épilepsie (y compris l'épilepsie partielle et le syndrome de Lennox-Gastaut).
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie du trijumeau**, avec **aucun essai clinique** et **4 publications** (dont un seul rapport de cas directement pertinent) à ce jour.
 
-Une première prédiction, le **néoplasme du nerf trijumeau** (score de 99,62 %), n'est étayée par aucune donnée et n'est pas retenue comme piste. Ce rapport se concentre donc sur la névralgie du trijumeau, seconde prédiction et seule à disposer d'un début de littérature.
+Une première prédiction, le **néoplasme du nerf trijumeau** (score de 0,9962), n'est étayée par aucune donnée et n'est pas retenue comme piste. Ce rapport se concentre donc sur la névralgie du trijumeau, seconde prédiction et seule à disposer d'un début de littérature.
 
 ## Apercu Rapide
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Épilepsie (indications issues du graphe de connaissances ; texte d'indication de l'AMM non disponible) |
-| Nouvelle Indication Predite | Névralgie du trijumeau |
-| Score de Prediction TxGNN | 99,18 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Trigeminal nerve neoplasm |
+| Score de Prediction TxGNN | 0.9962 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -80,8 +80,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 60223278 | TALOXA 600 mg, comprimé (ORGANON FRANCE) | Comprimé | Non renseignée (AMM annulée) |
-| 62313468 | TALOXA 600 mg/5 ml, suspension buvable (ORGANON FRANCE) | Suspension buvable | Non renseignée (AMM annulée) |
+| 60223278 | TALOXA 600 mg, comprimé (ORGANON FRANCE) | Comprimé | Non renseignée (AMM active) |
+| 62313468 | TALOXA 600 mg/5 ml, suspension buvable (ORGANON FRANCE) | Suspension buvable | Non renseignée (AMM active) |
 
 ## Considerations de Securite
 

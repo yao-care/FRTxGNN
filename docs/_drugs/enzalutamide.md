@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 286
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Enzalutamide : nouvelle indication prédite, Susceptibilité au cancer de la prostate / cancer du cerveau (rang 1) (niveau de preuve L5). Indication d'origine : Cancer de la prostate"
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Enzalutamide : nouvelle indication prédite, Prostate leiomyoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Enzalutamide : Du Cancer de la Prostate à la Catégorie « Cancer des Organes Reproducteurs Masculins »
+## Enzalutamide: Prostate leiomyoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit en premier rang une association avec la **susceptibilit
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de la prostate (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Susceptibilité au cancer de la prostate / cancer du cerveau (rang 1) ; la prédiction la mieux documentée est « cancer des organes reproducteurs masculins » (rang 6) |
-| Score de Prédiction TxGNN | 99,71 % (rang 1) ; 99,51 % (rang 6) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Prostate leiomyoma |
+| Score de Prédiction TxGNN | 0.9957 |
 | Niveau de Preuve | L5 (rang 1) ; L1 (rang 6, mais portant sur l'indication d'origine) |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, l'enzalutamide est un inhibiteur du récepteur des androgènes (AR) : il bloque la liaison du ligand, la translocation nucléaire du récepteur et sa fixation à l'ADN. Son efficacité dans le cancer de la prostate est établie.
 
-Les prédictions du modèle semblent essentiellement guidées par la proximité, dans le graphe de connaissances, avec le cancer de la prostate (association tissulaire ou catégories génériques de néoplasmes). Le rang 1 correspond à une catégorie de susceptibilité génétique, et non à une maladie traitable ; aucun lien mécanistique avec le cancer du cerveau n'a été identifié. Les tumeurs bénignes de la prostate (léiomyome, fibrome, tumeur phyllode) ainsi que la tumeur de Brenner (néoplasme ovarien) ne présentent pas de dépendance connue à la signalisation AR qui justifierait un antagonisme systémique.
+Le rang 1 correspond à une catégorie de susceptibilité génétique, et non à une maladie traitable ; aucun lien mécanistique avec le cancer du cerveau n'a été identifié. Les tumeurs bénignes de la prostate (léiomyome, fibrome, tumeur phyllode) ainsi que la tumeur de Brenner (néoplasme ovarien) ne présentent pas de dépendance connue à la signalisation AR qui justifierait un antagonisme systémique.
 
 Pour la catégorie « cancer des organes reproducteurs masculins », les preuves sont dominées par le cancer de la prostate, déjà indication de l'enzalutamide. D'autres cancers de cette catégorie (testicule, pénis) ne sont pas étayés par les données fournies.
 
@@ -103,7 +103,7 @@ Pour la catégorie « tumeur bénigne de l'appareil reproducteur » (rang 5), ci
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64093355 | XTANDI 40 mg, comprimé pelliculé (Astellas Pharma Europe, Pays-Bas) | Comprimé pelliculé | Non renseignée — AMM annulée |
+| 64093355 | XTANDI 40 mg, comprimé pelliculé (Astellas Pharma Europe, Pays-Bas) | Comprimé pelliculé | Non renseignée — AMM active |
 
 ## Cytotoxicité
 

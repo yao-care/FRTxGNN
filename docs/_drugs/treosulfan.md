@@ -46,10 +46,10 @@ Le tréosulfan est un agent alkylant, utilisé en conditionnement avant greffe d
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (usage connu : conditionnement avant greffe de cellules souches hématopoïétiques) |
 | Nouvelle Indication Prédite | Cataracte diabétique |
-| Score de Prédiction TxGNN | 99,01 % |
+| Score de Prédiction TxGNN | 0,9901 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -58,7 +58,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien biologique plausible avec la cataracte diabétique ne peut être établi à partir des données disponibles. Sa physiopathologie repose sur la voie des polyols (aldose réductase), le stress oxydatif, le stress osmotique du cristallin et les produits de glycation avancée, autant de mécanismes sans rapport avec l'action d'un alkylant cytotoxique et myélosuppresseur.
 
-Par ailleurs, les agents alkylants sont associés à une toxicité oculaire, y compris la formation de cataracte, dans le contexte de la greffe. La prédiction relève donc très probablement d'un artefact du graphe de connaissances et non d'un signal thérapeutique crédible.
+Par ailleurs, les agents alkylants sont associés à une toxicité oculaire, y compris la formation de cataracte, dans le contexte de la greffe. Le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; la prédiction ne constitue donc pas un signal thérapeutique crédible.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,8 +72,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68966390 | TRECONDI 1 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 69719293 | TRECONDI 5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 68966390 | TRECONDI 1 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 69719293 | TRECONDI 5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

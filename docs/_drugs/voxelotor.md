@@ -6,9 +6,9 @@ nav_order: 822
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Voxelotor : nouvelle indication prédite, Thrombopénie héréditaire avec plaquettes normales (niveau de preuve L5). Indication d'origine : Anémie falciforme"
 monitor_inn: "voxelotor"
 predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "acquired monoclonal Ig light chain-associated Fanconi syndrome", "primary release disorder of platelets"]
+description: "Voxelotor : nouvelle indication prédite, Hereditary thrombocytopenia with normal platelets (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Voxelotor
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Voxelotor : De l'Anémie Falciforme à la Thrombopénie Héréditaire avec Plaquettes Normales
+## Voxelotor: Hereditary thrombocytopenia with normal platelets
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,21 +46,21 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Anémie falciforme ; persistance héréditaire de l'hémoglobine fœtale (source : graphe de connaissances, et non texte d'AMM) |
-| Nouvelle Indication Prédite | Thrombopénie héréditaire avec plaquettes normales |
-| Score de Prédiction TxGNN | 99,58 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hereditary thrombocytopenia with normal platelets |
+| Score de Prédiction TxGNN | 0.9958 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, voxelotor est un inhibiteur de la polymérisation de l'hémoglobine S qui augmente l'affinité de l'hémoglobine pour l'oxygène. Son intérêt a été établi dans l'anémie falciforme, mais aucun lien mécanistique n'a pu être établi avec les troubles héréditaires du nombre de plaquettes.
 
-Les maladies prédites (thrombopénies héréditaires, déficit en granules denses, troubles de la sécrétion plaquettaire) relèvent de défauts des mégacaryocytes ou des plaquettes, sans rapport évident avec la polymérisation de l'hémoglobine. Le score élevé du modèle (0,996) reflète vraisemblablement la proximité entre nœuds de maladies hématologiques dans le graphe de connaissances, plutôt qu'une justification biologique.
+Les maladies prédites (thrombopénies héréditaires, déficit en granules denses, troubles de la sécrétion plaquettaire) relèvent de défauts des mégacaryocytes ou des plaquettes, sans rapport évident avec la polymérisation de l'hémoglobine.
 
-Les autres prédictions du modèle présentent la même faiblesse : thrombopénie macrocytaire avec insuffisance mitrale, maladie des granules denses, thrombopénie néonatale transitoire, thrombopénie (score 99,51 %), syndrome de Fanconi associé à une chaîne légère monoclonale acquise et trouble primaire de la libération plaquettaire. Pour aucune d'elles, un mécanisme plausible n'a été identifié.
+Les autres prédictions du modèle présentent la même faiblesse : thrombopénie macrocytaire avec insuffisance mitrale, maladie des granules denses, thrombopénie néonatale transitoire, thrombopénie (score 0,9951), syndrome de Fanconi associé à une chaîne légère monoclonale acquise et trouble primaire de la libération plaquettaire. Pour aucune d'elles, un mécanisme plausible n'a été identifié.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,7 +72,6 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Voxelotor n'est actuellement pas commercialisé en France et aucune AMM n'est enregistrée dans les données compilées pour ce rapport.
 
 ## Considérations de Sécurité
 
@@ -88,7 +87,7 @@ Ce profil évoque surtout des interactions métaboliques, notamment avec des ind
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible. Le médicament n'est en outre pas commercialisé en France, et les données de sécurité issues de la notice manquent.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (point bloquant pour le criblage de sécurité)

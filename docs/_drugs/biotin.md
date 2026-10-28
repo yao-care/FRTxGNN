@@ -47,19 +47,19 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dyspepsie**, 
 |------|------|
 | Indication Originale | Carence nutritionnelle en biotine |
 | Nouvelle Indication Prédite | Dyspepsie |
-| Score de Prédiction TxGNN | 99,43 % |
+| Score de Prédiction TxGNN | 0,9943 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la biotine est un cofacteur de carboxylases impliquées dans le métabolisme des acides gras, du glucose et des acides aminés. Son efficacité dans la carence en biotine est établie.
 
-Aucun lien mécanistique direct avec la dyspepsie n'est démontré. Une carence en biotine peut provoquer des symptômes digestifs (anorexie, nausées), ce qui permet d'imaginer un lien, mais uniquement dans un contexte de carence. Le score élevé de TxGNN (99,43 %) est une prédiction du modèle, sans confirmation clinique.
+Aucun lien mécanistique direct avec la dyspepsie n'est démontré. Une carence en biotine peut provoquer des symptômes digestifs (anorexie, nausées), ce qui permet d'imaginer un lien, mais uniquement dans un contexte de carence. Le score élevé de TxGNN (0,9943) est une prédiction du modèle, sans confirmation clinique.
 
-La seconde prédiction, la gastroparésie (score de 99,42 %), n'est étayée par aucun essai ni aucune publication. Aucun mécanisme plausible reliant la biotine à la motilité gastrique n'est documenté.
+La seconde prédiction, la gastroparésie (score de 0,9942), n'est étayée par aucun essai ni aucune publication. Aucun mécanisme plausible reliant la biotine à la motilité gastrique n'est documenté.
 
 ## Preuves d'Essais Cliniques
 
@@ -82,10 +82,10 @@ Ces publications sont indirectes : aucune n'évalue la biotine comme traitement 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61890004 | BIOTINE BAYER 0,5 %, solution injectable I.M. | Solution injectable | Non renseignée (AMM annulée) |
-| 66001124 | BIOTINE BAYER 5 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 67312509 | SOLUVIT, lyophilisat pour usage parentéral | Lyophilisat pour usage parentéral | Non renseignée (AMM annulée) |
-| 61001031 | CERNEVIT, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
+| 61890004 | BIOTINE BAYER 0,5 %, solution injectable I.M. | Solution injectable | Non renseignée (AMM active) |
+| 66001124 | BIOTINE BAYER 5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 67312509 | SOLUVIT, lyophilisat pour usage parentéral | Lyophilisat pour usage parentéral | Non renseignée (AMM active) |
+| 61001031 | CERNEVIT, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -99,7 +99,7 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication directe pour la dyspepsie. Toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont manquantes, ce qui empêche le passage à l'étape d'évaluation de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication directe pour la dyspepsie. Le médicament est commercialisé en France, avec 4 AMM valides sur 4, mais les données de sécurité de la notice sont manquantes, ce qui empêche le passage à l'étape d'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).

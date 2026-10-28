@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Asfotase Alfa : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anoma… (niveau de preuve L5). Indication d'origine : Hypophosphatasie"
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
+last_modified_at: 2026-10-27
+description: "Asfotase Alfa : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative p… (niveau de preuve L5). Indication…"
 ---
 
 # Asfotase Alfa
@@ -33,80 +33,65 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Asfotase alfa : De l'hypophosphatasie au trouble de la phosphorylation oxydative mitochondriale (ADN nucléaire)
+## Asfotase alfa : enzyme recombinante (phosphatase alcaline non spécifique des tissus) → trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)
 {: .text-alpha }
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Asfotase alfa est une enzyme recombinante (protéine de fusion de la phosphatase alcaline tissu-non spécifique, TNSALP), initialement utilisée pour le traitement de l'hypophosphatasie.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement algorithmique.
+L'asfotase alfa est une protéine de fusion recombinante de la phosphatase alcaline non spécifique des tissus (TNSALP).
+Le modèle TxGNN prédit qu'elle pourrait être utile pour le **trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Hypophosphatasie (source : graphe de connaissances TxGNN ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Predite | Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire |
-| Score de Prediction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies) |
+| Score de Prédiction TxGNN | 0,9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, asfotase alfa est une enzyme recombinante TNSALP qui dégrade des substrats extracellulaires tels que le pyrophosphate inorganique et le pyridoxal-5'-phosphate, ce qui rétablit la minéralisation osseuse dans l'hypophosphatasie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'asfotase alfa est une enzyme recombinante qui remplace la TNSALP et élimine des substrats extracellulaires tels que le pyrophosphate inorganique et le phosphate de pyridoxal-5'.
 
-**Aucun lien mécanistique n'est établi** avec la nouvelle indication. Les troubles de la phosphorylation oxydative liés à l'ADN nucléaire sont des déficits bioénergétiques intracellulaires, et une enzyme extracellulaire n'a pas de voie évidente pour les corriger. Le score élevé de TxGNN (99,95 %) reflète uniquement une association dans le graphe de connaissances et ne constitue pas une preuve de plausibilité biologique. La similarité avec l'indication d'origine reste à évaluer.
+Aucun lien mécanistique n'est établi avec la nouvelle indication. Les troubles de la phosphorylation oxydative liés à l'ADN nucléaire sont des défauts bioénergétiques intracellulaires, et une enzyme extracellulaire n'a pas de voie évidente pour les corriger. Le score élevé (0,9995) reflète uniquement une prédiction fondée sur le modèle, et non une preuve biologique ou clinique.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
-## Informations de Marche en France
+## Informations de Marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64450234 | STRENSIQ 40 mg/ml, solution injectable (ALEXION EUROPE) | Solution injectable | Non renseignée (AMM annulée) |
-| 69258437 | STRENSIQ 100 mg/ml, solution injectable (ALEXION EUROPE) | Solution injectable | Non renseignée (AMM annulée) |
+| 64450234 | STRENSIQ 40 mg/ml, solution injectable | Solution injectable | Non renseignée |
+| 69258437 | STRENSIQ 100 mg/ml, solution injectable | Solution injectable | Non renseignée |
 
-## Considerations de Securite
+L'asfotase alfa est commercialisée en France (laboratoire ALEXION EUROPE).
 
-Veuillez consulter la notice pour les informations de sécurité.
+## Considérations de Sécurité
 
-## Autres Predictions du Modele (Information)
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées.
 
-Les neuf prédictions suivantes présentent également un niveau de preuve L5, sans essai ni publication, et une recommandation Hold. Les mécanismes plausibles sont absents ou purement thématiques (remplacement enzymatique, atteinte squelettique).
+## Conclusion et Prochaines Étapes
 
-| Rang | Maladie predite | Score TxGNN | Remarque |
-|------|------|------|------|
-| 2 | Syndrome de Steel | 99,91 % | Lien indirect via la minéralisation osseuse, non étayé |
-| 3 | Insuffisance pancréatique exocrine | 99,89 % | Association générique « enzyme de remplacement » |
-| 4 | Syndrome de Scheie | 99,85 % | Traitement spécifique existant (laronidase) ; pas d'action sur l'IDUA |
-| 5 | Syndrome de Hurler | 99,75 % | Même constat que Scheie |
-| 6 | Maladie lysosomale avec atteinte squelettique | 99,73 % | Catégorie large ; bénéfice spéculatif |
-| 7 | Déficit familial en apolipoprotéine C-II | 99,71 % | Aucun rôle dans le métabolisme lipoprotéique |
-| 8 | Varices œsophagiennes avec saignement | 99,68 % | Probable artefact du graphe |
-| 9 | Varices œsophagiennes sans saignement | 99,68 % | Score identique au précédent : signal de graphe partagé |
-| 10 | Cystinose | 99,65 % | Lien superficiel ; pas d'action sur l'accumulation de cystine |
-
-## Conclusion et Prochaines Etapes
-
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans publication ni lien mécanistique plausible. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice font défaut, ce qui bloque l'étape de revue de sécurité.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible entre une enzyme extracellulaire et un défaut bioénergétique intracellulaire.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
-- Obtenir les données sur le mécanisme d'action depuis DrugBank
-- Démontrer un lien mécanistique entre l'activité TNSALP et les troubles de la phosphorylation oxydative (études précliniques)
-- Vérifier le statut de commercialisation actuel du produit en France (AMM annulées) et la compatibilité des voies d'administration
-- Rechercher d'éventuelles études publiées ou en cours, absentes des données actuelles
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice de l'ANSM
+- Données précliniques démontrant un effet sur la fonction mitochondriale
+- Toute étude (cas, observationnelle ou interventionnelle) portant directement sur cette maladie
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

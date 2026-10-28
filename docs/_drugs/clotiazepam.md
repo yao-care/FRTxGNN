@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Clotiazepam
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 190
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Clotiazepam : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
@@ -14,7 +14,7 @@ predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
 # Clotiazepam
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,19 @@ mais **aucun essai clinique** n'est enregistré et **1 publication** de portée 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,89 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Retiré (AMM annulées uniquement) |
-| Nombre d'AMM | 2 |
+| Score de Prédiction TxGNN | 0,9989 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le clotiazépam fait partie de la classe des benzodiazépines (thiénodiazépine) et agit comme modulateur allostérique positif des récepteurs GABA-A. Ce renforcement de l'inhibition GABAergique produit des effets sédatifs et hypnotiques, ce qui constitue un mécanisme biologiquement plausible pour l'insomnie.
 
-Cette lecture repose sur la connaissance de la classe pharmacologique et non sur le dossier propre au médicament. Le score TxGNN est très élevé (99,89 %), mais il s'agit d'une prédiction de modèle, et non d'une preuve clinique.
+Cette lecture repose sur la connaissance de la classe pharmacologique et non sur le dossier propre au médicament. Le score TxGNN est très élevé (0,9989), mais il s'agit d'une prédiction de modèle, et non d'une preuve clinique.
 
-Une seconde indication prédite, le **delirium de sevrage alcoolique** (score 99,33 %), est également plausible par effet de classe : les benzodiazépines compensent la perte de la potentialisation GABA-A induite par l'alcool. Elle ne repose toutefois sur aucune donnée spécifique au clotiazépam (niveau L5, aucun essai ni publication).
+Une seconde indication prédite, le **delirium de sevrage alcoolique** (score 0,9933), est également plausible par effet de classe : les benzodiazépines compensent la perte de la potentialisation GABA-A induite par l'alcool. Elle ne repose toutefois sur aucune donnée spécifique au clotiazépam (niveau L5, aucun essai ni publication).
 
 ## Preuves d'Essais Cliniques
 
@@ -76,8 +76,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65558647 | VERATRAN 5 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 68771419 | VERATRAN 10 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
+| 65558647 | VERATRAN 5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 68771419 | VERATRAN 10 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

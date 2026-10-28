@@ -6,9 +6,9 @@ nav_order: 543
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Nordazepam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM"
 monitor_inn: "nordazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "anxiety", "sleep disorder, initiating and maintaining sleep"]
+description: "Nordazepam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nordazepam
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Nordazépam : De l'indication d'origine non renseignée à l'insomnie
+## Nordazepam: Insomnie (insomnia (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,21 +45,21 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,94 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
+| Score de Prédiction TxGNN | 0.9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Non commercialisé (autorisations annulées : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le nordazépam fait partie de la classe des benzodiazépines : c'est un modulateur allostérique positif des récepteurs GABA-A, et un métabolite actif du diazépam et d'autres molécules de cette famille. Il produit des effets sédatifs, hypnotiques et anxiolytiques.
 
-Ce profil pharmacologique est cohérent avec le traitement de l'insomnie, car la potentialisation GABAergique favorise la sédation. Le score élevé du modèle (99,94 %) reflète probablement la similarité avec les benzodiazépines hypnotiques déjà approuvées, et non une preuve propre au nordazépam.
+Ce profil pharmacologique est cohérent avec le traitement de l'insomnie, car la potentialisation GABAergique favorise la sédation. Le score élevé du modèle (0,9994) reflète probablement la similarité avec les benzodiazépines hypnotiques déjà approuvées, et non une preuve propre au nordazépam.
 
-Les autres prédictions du modèle suivent la même logique de classe : trouble du sommeil (initiation et maintien), sevrage alcoolique avec delirium, abus de barbituriques et anxiété. Elles restent au niveau L5, sauf l'anxiété (L4, uniquement des données indirectes). Certaines prédictions, comme l'abus d'antidépresseurs, n'ont pas de justification mécanistique claire et reflètent probablement un regroupement de termes dans le graphe de connaissances.
+Les autres prédictions du modèle suivent la même logique de classe : trouble du sommeil (initiation et maintien), sevrage alcoolique avec delirium, abus de barbituriques et anxiété. Elles restent au niveau L5, sauf l'anxiété (L4, uniquement des données indirectes). Certaines prédictions, comme l'abus d'antidépresseurs, n'ont pas de justification mécanistique claire : leurs scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies voisines, et non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -89,7 +89,7 @@ Pour l'abus d'hallucinogènes (rang 3), la seule publication, [33882283](https:/
 | 67581406 | NORDAZ 7,5 mg, comprimé sécable (annulée) | Comprimé sécable | Non renseignée |
 | 61056483 | NORDAZ 15 mg, comprimé quadrisécable (annulée) | Comprimé quadrisécable | Non renseignée |
 
-Les deux AMM sont détenues par BOUCHARA-RECORDATI. Il n'existe actuellement aucune formulation commercialisée en France.
+Les deux AMM détenues par BOUCHARA-RECORDATI sont annulées.
 
 ## Considérations de Sécurité
 

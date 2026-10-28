@@ -6,9 +6,9 @@ nav_order: 425
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Ketorolac : nouvelle indication prédite, Trouble céphalalgique (céphalées) (niveau de preuve L1). Indication d'origine : Conjonctivite atopique, papillaire et printanière"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
+description: "Ketorolac : nouvelle indication prédite, Headache disorder (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ketorolac
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-## Kétorolac : De la conjonctivite atopique au trouble céphalalgique (céphalées)
+## Ketorolac: Headache disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **17 essais cliniques** et **19 publications** soutenant actuellement cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Conjonctivite atopique, papillaire et printanière (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trouble céphalalgique (céphalées) |
-| Score de Prédiction TxGNN | 99,43 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Headache disorder |
+| Score de Prédiction TxGNN | 0.9943 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | AMM annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -98,7 +98,7 @@ Parmi les 17 essais recensés, les plus pertinents sont listés ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63866361 | ACULAR 0,5 %, collyre en solution (ABBVIE) | Collyre en solution | Non renseignée (AMM annulée) |
+| 63866361 | ACULAR 0,5 %, collyre en solution (ABBVIE) | Collyre en solution | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -123,7 +123,7 @@ Parmi les 17 essais recensés, les plus pertinents sont listés ci-dessous.
 - Clarification de la voie d'administration : les preuves concernent les formes IV, IM et nasale, alors que la seule AMM française recensée est un collyre annulé.
 - Plan de surveillance pour les populations à risque (sujets âgés, insuffisants rénaux, patients sous lithium, anticoagulants ou autres AINS) et limitation de la durée de traitement.
 
-**Note sur les autres prédictions :** la conjonctivite rosacée (score 99,40 %) ne dispose d'aucun essai ni publication (niveau L5, décision Hold). La céphalalgie autonomique trigéminale (score 99,39 %) n'a qu'un essai retiré sans inclusion et une littérature indirecte (niveau L4, question de recherche).
+**Note sur les autres prédictions :** la conjonctivite rosacée (score 0,9940) ne dispose d'aucun essai ni publication (niveau L5, décision Hold). La céphalalgie autonomique trigéminale (score 0,9939) n'a qu'un essai retiré sans inclusion et une littérature indirecte (niveau L4, question de recherche).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

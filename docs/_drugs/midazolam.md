@@ -6,9 +6,9 @@ nav_order: 499
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Midazolam : nouvelle indication prédite, Insomnie (niveau de preuve L3). Indication d'origine : Anxiété"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
+description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Midazolam
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Midazolam : De l'Anxiété à l'Insomnie
+## Midazolam: Insomnie (insomnia (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ avec **2 essais cliniques** (tous deux indirects) et **10 publications** (dont 2
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Anxiété (selon le graphe de connaissances TxGNN ; le texte des indications des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,74 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
+| Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, le midazolam fait partie de la classe des benzodiazépines. Il module positivement les récepteurs GABA-A, ce qui produit des effets sédatifs, anxiolytiques et hypnotiques.
 
-L'anxiété et l'insomnie partagent une composante d'hyperéveil du système nerveux central. Un médicament qui renforce la neurotransmission inhibitrice GABAergique peut donc agir sur les deux. Ce mécanisme est commun à des hypnotiques benzodiazépiniques déjà utilisés, comme le flurazépam. Le score élevé du modèle (0,997) est cohérent avec cette pharmacologie.
+L'anxiété et l'insomnie partagent une composante d'hyperéveil du système nerveux central. Un médicament qui renforce la neurotransmission inhibitrice GABAergique peut donc agir sur les deux. Ce mécanisme est commun à des hypnotiques benzodiazépiniques déjà utilisés, comme le flurazépam. Le score élevé du modèle (0,9974) est cohérent avec cette pharmacologie.
 
 Le midazolam par voie orale a d'ailleurs été étudié et utilisé comme hypnotique dans plusieurs pays. Sa demi-vie courte pourrait faciliter l'endormissement, mais serait moins favorable au maintien du sommeil. Il comporte aussi des risques de tolérance, de dépendance, d'insomnie de rebond et d'altération des capacités le lendemain.
 
@@ -89,11 +89,11 @@ Les 8 AMM sont annulées. Le texte de l'indication approuvée n'est pas renseign
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63020895 | MIDAZOLAM AGUETTANT 5 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM annulée) |
-| 60703989 | MIDAZOLAM KALCEKS 1 mg/mL | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 66231933 | MIDAZOLAM AGUETTANT 1 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM annulée) |
-| 63680638 | MIDAZOLAM PANPHARMA 1 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
-| 63736019 | MIDAZOLAM VIATRIS 5 mg/ml | Solution injectable pour perfusion ou rectale | Non renseignée (AMM annulée) |
+| 63020895 | MIDAZOLAM AGUETTANT 5 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM active) |
+| 60703989 | MIDAZOLAM KALCEKS 1 mg/mL | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
+| 66231933 | MIDAZOLAM AGUETTANT 1 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM active) |
+| 63680638 | MIDAZOLAM PANPHARMA 1 mg/ml | Solution injectable | Non renseignée (AMM active) |
+| 63736019 | MIDAZOLAM VIATRIS 5 mg/ml | Solution injectable pour perfusion ou rectale | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -110,7 +110,7 @@ Les 8 AMM sont annulées. Le texte de l'indication approuvée n'est pas renseign
 
 **Justification :**
 - Le mécanisme est plausible et le score du modèle est très élevé. Cependant, les preuves directes sont anciennes (1981-1990), et les essais cliniques enregistrés sont indirects.
-- Toutes les AMM françaises sont annulées. Les données de sécurité de la notice sont absentes, ce qui bloque le dépistage de sécurité. Le profil de risque de la classe (dépendance, tolérance, insomnie de rebond, altération diurne) et les nombreuses interactions limitent l'intérêt pratique.
+- Le médicament est commercialisé en France : 8 AMM valides sur 8. Les données de sécurité de la notice sont absentes, ce qui bloque le dépistage de sécurité. Le profil de risque de la classe (dépendance, tolérance, insomnie de rebond, altération diurne) et les nombreuses interactions limitent l'intérêt pratique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.

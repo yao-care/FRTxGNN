@@ -6,9 +6,9 @@ nav_order: 385
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Ibuprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, céphalées, arthrose, arthropathies…"
 monitor_inn: "ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Ibuprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée…"
 ---
 
 # Ibuprofen
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Ibuprofène : De l'arthrose et de la polyarthrite rhumatoïde à la dysplasie acromésomélique de type Hunter-Thompson
+## Ibuprofen: Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acrom
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, céphalées, arthrose, arthropathies, arthrite juvénile idiopathique, spondyloarthropathies, persistance du canal artériel (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson |
-| Score de Prédiction TxGNN | 99,74 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -58,7 +58,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acrom
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'ibuprofène est un inhibiteur non sélectif des cyclooxygénases (COX) : il réduit la production de prostaglandines, ce qui explique ses effets anti-inflammatoire et antalgique dans les affections rhumatologiques.
 
-Dans le cas présent, **aucun lien mécanistique n'est établi**. La dysplasie acromésomélique de type Hunter-Thompson est due à des variants entraînant une perte de fonction de *CDMP1/GDF5*, qui altèrent la signalisation de croissance du cartilage et de l'os. L'inhibition des COX n'a pas de rapport connu avec cette voie. Le score élevé (0,997) reflète vraisemblablement une proximité dans le réseau de connaissances avec des maladies musculo-squelettiques et articulaires, plutôt qu'une justification biologique.
+Dans le cas présent, **aucun lien mécanistique n'est établi**. La dysplasie acromésomélique de type Hunter-Thompson est due à des variants entraînant une perte de fonction de *CDMP1/GDF5*, qui altèrent la signalisation de croissance du cartilage et de l'os. L'inhibition des COX n'a pas de rapport connu avec cette voie. Le score élevé (0,9974) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une justification biologique.
 
 Au mieux, l'ibuprofène pourrait apporter un soulagement symptomatique de la douleur, ce qui ne constitue pas une modification de la maladie.
 
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible. Le bénéfice potentiel se limiterait à un soulagement symptomatique de la douleur.
-- Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice font défaut.
+- Le médicament est commercialisé en France (20 AMM valides), et les données de sécurité issues de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action, afin d'analyser un éventuel lien mécanistique

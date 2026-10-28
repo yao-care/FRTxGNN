@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olanzapine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 555
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Olanzapine : nouvelle indication prédite, Agoraphobie (niveau de preuve L3). Indication d'origine : Schizophrénie, trouble bipolaire, dépression, troubles anxieux"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-## Olanzapine : De la schizophrénie et des troubles bipolaires à l'agoraphobie
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,15 +46,15 @@ Pour l'agoraphobie, les données compilées pour ce rapport recensent **aucun es
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Schizophrénie, trouble bipolaire, dépression, troubles anxieux (selon le graphe de connaissances ; aucun texte d'indication AMM disponible) |
-| Nouvelle Indication Prédite | Agoraphobie |
-| Score de Prédiction TxGNN | 99,47 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Autorisations annulées uniquement |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Benign paroxysmal torticollis of infancy |
+| Score de Prédiction TxGNN | 0.9954 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold (question de recherche) |
 
-> Remarque : la prédiction classée première (torticolis paroxystique bénin du nourrisson, score 99,54 %) est de niveau L5, sans aucune preuve, et est écartée (Hold). Ce rapport porte sur l'agoraphobie, la première prédiction disposant de preuves exploitables.
+> Remarque : la prédiction classée première (torticolis paroxystique bénin du nourrisson, score 0,9954) est de niveau L5, sans aucune preuve, et est écartée (Hold). Ce rapport porte sur l'agoraphobie, la première prédiction disposant de preuves exploitables.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -83,13 +83,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60841335 | ZYPREXA 10 mg, comprimé enrobé | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 65000788 | ZYPADHERA 300 mg, poudre et solvant pour suspension injectable à libération prolongée | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM annulée) |
-| 62113318 | OLANZAPINE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60217108 | OLANZAPINE ARROW 5 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 65448204 | OLANZAPINE SANDOZ 5 mg, comprimé orodispersible | Comprimé orodispersible | Non renseignée (AMM annulée) |
+| 60841335 | ZYPREXA 10 mg, comprimé enrobé | Comprimé enrobé | Non renseignée (AMM active) |
+| 65000788 | ZYPADHERA 300 mg, poudre et solvant pour suspension injectable à libération prolongée | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
+| 62113318 | OLANZAPINE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60217108 | OLANZAPINE ARROW 5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 65448204 | OLANZAPINE SANDOZ 5 mg, comprimé orodispersible | Comprimé orodispersible | Non renseignée (AMM active) |
 
-Sur les 20 AMM recensées, aucune n'est actuellement valide ; seules les 5 premières sont listées ici.
 
 ## Considérations de Sécurité
 
@@ -102,13 +101,12 @@ Sur les 20 AMM recensées, aucune n'est actuellement valide ; seules les 5 premi
 **Décision : Hold (question de recherche)**
 
 **Justification :**
-- Le score TxGNN est très élevé, mais les preuves cliniques se limitent à un petit essai ouvert, des rapports de cas et des revues, sans essai randomisé. Le profil de risque métabolique est défavorable face aux traitements de première intention, et aucune AMM française n'est actuellement valide.
+- Le score TxGNN est très élevé, mais les preuves cliniques se limitent à un petit essai ouvert, des rapports de cas et des revues, sans essai randomisé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (MOA) de l'olanzapine, actuellement manquantes
 - Mises en garde et contre-indications officielles de la notice (ANSM), éléments bloquants pour le criblage de sécurité
 - Essais randomisés contrôlés dans le trouble panique/agoraphobie résistant aux traitements
-- Clarification du statut réglementaire français (toutes les AMM recensées sont annulées)
 - Plan de surveillance métabolique et de la sédation pour une utilisation prolongée
 ## Avertissement
 

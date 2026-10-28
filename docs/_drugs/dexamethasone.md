@@ -6,9 +6,9 @@ nav_order: 229
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dexamethasone : nouvelle indication prédite, Alopécie areata (niveau de preuve L2). Indication d'origine : Non renseignée dans les AMM françaises (texte d'indication vide). Sel…"
 monitor_inn: "dexamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dexamethasone
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Dexaméthasone : Des maladies inflammatoires et endocriniennes à l'alopécie areata
+## Dexamethasone: Alopécie areata (alopecia areata)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**alopécie area
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM françaises (texte d'indication vide). Selon le graphe de connaissances : insuffisance surrénalienne, maladie de Crohn, leucémie aiguë lymphoblastique, hyperplasie congénitale des surrénales, etc. |
-| Nouvelle Indication Prédite | Alopécie areata |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Alopécie areata (alopecia areata) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -95,13 +95,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60833559 | AFLAVIS 1 mg/mL, collyre en solution | Collyre en solution | Non renseignée (AMM annulée) |
-| 68106914 | DEXOCOL 1 mg/mL, collyre en solution | Collyre en solution | Non renseignée (AMM annulée) |
-| 67392081 | OZURDEX 700 µg, implant intravitréen | Implant | Non renseignée (AMM annulée) |
-| 68973246 | DEXAMETHASONE PANPHARMA 4 mg/mL | Solution injectable | Non renseignée (AMM annulée) |
-| 62817482 | DECTANCYL 0,5 mg | Comprimé | Non renseignée (AMM annulée) |
+| 60833559 | AFLAVIS 1 mg/mL, collyre en solution | Collyre en solution | Non renseignée (AMM active) |
+| 68106914 | DEXOCOL 1 mg/mL, collyre en solution | Collyre en solution | Non renseignée (AMM active) |
+| 67392081 | OZURDEX 700 µg, implant intravitréen | Implant | Non renseignée (AMM active) |
+| 68973246 | DEXAMETHASONE PANPHARMA 4 mg/mL | Solution injectable | Non renseignée (AMM active) |
+| 62817482 | DECTANCYL 0,5 mg | Comprimé | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont enregistrées, toutes annulées ; aucune n'est actuellement valide.
 
 ---
 
@@ -120,12 +119,11 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- L'alopécie areata dispose d'un essai randomisé, d'une méta-analyse en réseau et de plusieurs cohortes appuyant les mini-pulses de dexaméthasone, avec un mécanisme immunosuppresseur cohérent. En revanche, aucun essai clinique enregistré n'existe, les données de sécurité officielles manquent et toutes les AMM françaises sont annulées.
+- L'alopécie areata dispose d'un essai randomisé, d'une méta-analyse en réseau et de plusieurs cohortes appuyant les mini-pulses de dexaméthasone, avec un mécanisme immunosuppresseur cohérent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles (notice ANSM), étape bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Définir la voie d'administration et le schéma posologique (mini-pulses oraux), et clarifier le statut réglementaire, aucune AMM valide n'étant en vigueur
 - Prévoir un plan de surveillance de la sécurité (glycémie, tension artérielle, exposition cumulée) et de la rechute
 - Idéalement, conduire un essai de phase 2/3 comparatif
 

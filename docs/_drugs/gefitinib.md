@@ -4,17 +4,17 @@ title: Gefitinib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 357
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Gefitinib : nouvelle indication prédite, Fibromatose gingivale (niveau de preuve L5). Indication d'origine : Cancer bronchique non à petites cellules"
 monitor_inn: "gefitinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
+description: "Gefitinib : nouvelle indication prédite, Fibromatose gingivale (fibromatosis, gingival) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Gefitinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Géfitinib : Du Cancer du Poumon Non à Petites Cellules à la Fibromatose Gingivale
+## Gefitinib: Fibromatose gingivale (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **fibromatose
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer bronchique non à petites cellules ; cancer du poumon (selon le graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Fibromatose gingivale |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Fibromatose gingivale (fibromatosis, gingival) |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 8) |
+| Nombre d'AMM | 8 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien hypothétique pourrait passer par la signalisation EGFR/ErbB dans la prolifération des fibroblastes, qui intervient dans la fibromatose gingivale. Ce lien reste toutefois **spéculatif** : aucune donnée ne l'étaye, et la parenté avec l'indication d'origine (une tumeur maligne du poumon) est faible.
 
-Le score élevé (99,89 %) reflète la proximité dans le graphe de connaissances et non une preuve biologique ou clinique. Il doit être interprété avec prudence.
+Le score élevé (0,9989) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre des maladies apparentées, et non une preuve biologique ou clinique. Il doit être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,10 +75,10 @@ Les 8 AMM suivantes sont toutes annulées ; le texte d'indication approuvée n'e
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65070509 | GEFITINIB EG 250 mg (EG LABO) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 66530743 | GEFITINIB SANDOZ 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61571533 | GEFITINIB TEVA 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 67522920 | GEFITINIB ZENTIVA 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 65070509 | GEFITINIB EG 250 mg (EG LABO) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 66530743 | GEFITINIB SANDOZ 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61571533 | GEFITINIB TEVA 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 67522920 | GEFITINIB ZENTIVA 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 68862107 | GEFITINIB ACCORD 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
 
 Trois autres AMM annulées existent (IRESSA 250 mg, GEFITINIB BIOGARAN 250 mg, GEFITINIB ARROW 250 mg).

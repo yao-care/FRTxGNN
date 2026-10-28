@@ -48,10 +48,10 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 |------|------|
 | Indication Originale | Non renseignée |
 | Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,31 % |
+| Score de Prédiction TxGNN | 0,9931 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Une hypothèse purement spéculative serait que les effets antioxydants de la vitamine E, ou l'amélioration de l'absorption des vitamines liposolubles et de certaines hormones, puissent jouer un rôle dans l'aménorrhée. Cette hypothèse n'est étayée par aucune des données fournies.
 
-Pour la seconde prédiction (acné, score de 99,03 %), le lien envisageable, mais non vérifié, serait l'activité antioxydante et anti-inflammatoire de la vitamine E dans les affections cutanées inflammatoires. Ces hypothèses nécessitent une validation indépendante avant toute affirmation.
+Pour la seconde prédiction (acné, score de 0,9903), le lien envisageable, mais non vérifié, serait l'activité antioxydante et anti-inflammatoire de la vitamine E dans les affections cutanées inflammatoires. Ces hypothèses nécessitent une validation indépendante avant toute affirmation.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66502733 | VEDROP 50 mg/ml, solution buvable (RECORDATI RARE DISEASES) | Solution buvable | Non renseignée (AMM annulée) |
+| 66502733 | VEDROP 50 mg/ml, solution buvable (RECORDATI RARE DISEASES) | Solution buvable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

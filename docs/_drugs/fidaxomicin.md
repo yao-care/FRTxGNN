@@ -6,9 +6,9 @@ nav_order: 325
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Fidaxomicin : nouvelle indication prédite, Syndrome de la peau ébouillantée staphylococcique (niveau de preuve L5). Indication d'origine : Colite à Clostridium difficile"
 monitor_inn: "fidaxomicin"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
+description: "Fidaxomicin : nouvelle indication prédite, Syndrome de la peau ébouillantée staphylococcique (staphylococcal scalded skin syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans l…"
 ---
 
 # Fidaxomicin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Fidaxomicine : De la colite à Clostridium difficile au syndrome de la peau ébouillantée staphylococcique
+## Fidaxomicin: Syndrome de la peau ébouillantée staphylococcique (staphylococcal scalded skin syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Colite à *Clostridium difficile* (d'après le graphe de connaissances, le texte d'indication des AMM n'étant pas disponible) |
-| Nouvelle Indication Prédite | Syndrome de la peau ébouillantée staphylococcique |
-| Score de Prédiction TxGNN | 99,71 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de la peau ébouillantée staphylococcique (staphylococcal scalded skin syndrome) |
+| Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -66,14 +66,14 @@ Le modèle propose également plusieurs autres indications, toutes au niveau de 
 
 | Rang | Indication prédite | Score TxGNN | Remarque principale |
 |------|------|------|------|
-| 2 | Impétigo bulleux | 99,70 % | Absorption faible, pas de forme topique |
-| 3 | Botulisme par inhalation | 99,69 % | Un antibiotique ne neutralise pas la toxine préformée |
-| 4 | Impétigo | 99,68 % | Pas de forme topique ; alternatives établies (ex. mupirocine) |
-| 5 | Botulisme infectieux à médiation toxinique | 99,66 % | Hypothèse purement théorique (portage digestif) |
-| 6 | Candidose vulvovaginale | 99,65 % | Pas d'activité antifongique reconnue |
-| 7 | Orgelet | 99,64 % | Pas de forme ophtalmique ; guérison spontanée fréquente |
-| 8 | Pneumonie à *Staphylococcus aureus* | 99,21 % | Exposition systémique insuffisante pour une infection pulmonaire |
-| 9 | Kératoconjonctivite épithéliale ponctuée | 99,02 % | Origine souvent virale ou inflammatoire |
+| 2 | Impétigo bulleux | 0,9970 | Absorption faible, pas de forme topique |
+| 3 | Botulisme par inhalation | 0,9969 | Un antibiotique ne neutralise pas la toxine préformée |
+| 4 | Impétigo | 0,9968 | Pas de forme topique ; alternatives établies (ex. mupirocine) |
+| 5 | Botulisme infectieux à médiation toxinique | 0,9966 | Hypothèse purement théorique (portage digestif) |
+| 6 | Candidose vulvovaginale | 0,9965 | Pas d'activité antifongique reconnue |
+| 7 | Orgelet | 0,9964 | Pas de forme ophtalmique ; guérison spontanée fréquente |
+| 8 | Pneumonie à *Staphylococcus aureus* | 0,9921 | Exposition systémique insuffisante pour une infection pulmonaire |
+| 9 | Kératoconjonctivite épithéliale ponctuée | 0,9902 | Origine souvent virale ou inflammatoire |
 
 ## Preuves d'Essais Cliniques
 
@@ -93,8 +93,8 @@ Pour information, une seule publication a été retrouvée pour une autre indica
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62629288 | DIFICLIR 40 mg/ml, granulés pour suspension buvable (statut : annulée) | Granulés pour suspension buvable | Non renseignée |
-| 61973350 | DIFICLIR 200 mg, comprimé pelliculé (statut : annulée) | Comprimé pelliculé | Non renseignée |
+| 62629288 | DIFICLIR 40 mg/ml, granulés pour suspension buvable (statut : active) | Granulés pour suspension buvable | Non renseignée |
+| 61973350 | DIFICLIR 200 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
 
 ## Considérations de Sécurité
 

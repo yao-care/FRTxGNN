@@ -6,9 +6,9 @@ nav_order: 693
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Scopolamine : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Maladie ulcéreuse gastroduodénale"
 monitor_inn: "SCOPOLAMINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
+description: "Scopolamine : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Scopolamine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Scopolamine : De la maladie ulcéreuse gastroduodénale au syndrome de la queue de cheval
+## Scopolamine: Syndrome de la queue de cheval (cauda equina syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie ulcéreuse gastroduodénale (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Syndrome de la queue de cheval |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,17 +60,17 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien plausible avec le syndrome de la queue de cheval concerne uniquement la prise en charge du dysfonctionnement vésical secondaire, par réduction de l'hyperactivité du détrusor. La scopolamine ne traiterait en aucun cas la cause sous-jacente (la compression nerveuse), qui nécessite une décompression chirurgicale.
 
-Le score TxGNN est très élevé (0,9999), mais il repose uniquement sur la proximité dans le graphe de connaissances. Aucune donnée clinique ou bibliographique ne le confirme.
+Le score TxGNN est très élevé (0,9999). Il provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Aucune donnée clinique ou bibliographique ne le confirme.
 
 ### Autres indications prédites (à titre indicatif)
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |------|------|------|------|------|
-| 2 | Vessie neurogène (entrée obsolète dans l'ontologie) | 99,98 % | L5 | Mécanisme plausible (antimuscarinique), mais effets centraux de la scopolamine ; des agents plus sélectifs existent |
-| 3 | Conjonctivite papillaire | 99,98 % | L5 | Pas de mécanisme clair contre les facteurs allergiques ou mécaniques |
-| 4 | Conjonctivite atopique | 99,80 % | L5 | Bénéfice probablement faible, risque d'aggravation de la sécheresse oculaire |
-| 5 | Conjonctivite de la rosacée | 99,40 % | L5 | Lien faible, potentiellement contre-productif (réduction de la sécrétion lacrymale) |
-| 6 | Conjonctivite vernale | 99,08 % | L5 | La seule utilité concevable serait un confort par cycloplégie |
+| 2 | Vessie neurogène (entrée obsolète dans l'ontologie) | 0,9998 | L5 | Mécanisme plausible (antimuscarinique), mais effets centraux de la scopolamine ; des agents plus sélectifs existent |
+| 3 | Conjonctivite papillaire | 0,9998 | L5 | Pas de mécanisme clair contre les facteurs allergiques ou mécaniques |
+| 4 | Conjonctivite atopique | 0,9980 | L5 | Bénéfice probablement faible, risque d'aggravation de la sécheresse oculaire |
+| 5 | Conjonctivite de la rosacée | 0,9940 | L5 | Lien faible, potentiellement contre-productif (réduction de la sécrétion lacrymale) |
+| 6 | Conjonctivite vernale | 0,9908 | L5 | La seule utilité concevable serait un confort par cycloplégie |
 
 ## Preuves d'Essais Cliniques
 
@@ -84,8 +84,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63958849 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (BAXTER) | Dispositif | Non renseignée (AMM annulée) |
-| 68731823 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (DIFARMED, Espagne) | Dispositif | Non renseignée (AMM annulée) |
+| 63958849 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (BAXTER) | Dispositif | Non renseignée (AMM active) |
+| 68731823 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (DIFARMED, Espagne) | Dispositif | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

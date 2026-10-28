@@ -4,17 +4,17 @@ title: Fosinopril
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 349
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Fosinopril : nouvelle indication prédite, Maladie rénale hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Fosinopril : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
 # Fosinopril
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Fosinopril : De l'Hypertension à l'Hypertension Rénale Maligne
+## Fosinopril: Maladie rénale hypertensive maligne (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne |
-| Score de Prédiction TxGNN | 99,87 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
+| Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,11 +84,11 @@ Aucune littérature soutenant l'indication principale (maladie rénale hypertens
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60095526 | Fosinopril Zentiva 10 mg | Comprimé sécable | Non renseignée (AMM annulée) |
-| 62518708 | Fosinopril Biogaran 10 mg | Comprimé sécable | Non renseignée (AMM annulée) |
-| 61520873 | Fosinopril Arrow Lab 10 mg | Comprimé sécable | Non renseignée (AMM annulée) |
-| 61248124 | Fosinopril Biogaran 20 mg | Comprimé | Non renseignée (AMM annulée) |
-| 60736761 | Fosinopril Arrow Lab 20 mg | Comprimé | Non renseignée (AMM annulée) |
+| 60095526 | Fosinopril Zentiva 10 mg | Comprimé sécable | Non renseignée (AMM active) |
+| 62518708 | Fosinopril Biogaran 10 mg | Comprimé sécable | Non renseignée (AMM active) |
+| 61520873 | Fosinopril Arrow Lab 10 mg | Comprimé sécable | Non renseignée (AMM active) |
+| 61248124 | Fosinopril Biogaran 20 mg | Comprimé | Non renseignée (AMM active) |
+| 60736761 | Fosinopril Arrow Lab 20 mg | Comprimé | Non renseignée (AMM active) |
 
 Au total, 10 AMM figurent dans la base, toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg).
 
@@ -105,7 +105,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication pour l'indication proposée, et elle recoupe largement l'hypertension déjà couverte. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication pour l'indication proposée, et elle recoupe largement l'hypertension déjà couverte.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

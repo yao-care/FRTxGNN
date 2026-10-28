@@ -6,9 +6,9 @@ nav_order: 432
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lamivudine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L5). Indication d'origine : Infection chronique par le virus de l'hépatite B…"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+description: "Lamivudine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
 ---
 
 # Lamivudine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Lamivudine : Du VIH/SIDA et de l'Hépatite B Chronique au Syndrome d'Immunodéficience Acquise Féline
+## Lamivudine: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Cette prédiction correspond essentiellement à une extension vétérinaire de l
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection chronique par le virus de l'hépatite B, infection par le VIH, SIDA (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,93 % |
-| Niveau de Preuve | L3 (études observationnelles/de cohorte, uniquement vétérinaires) |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9993 |
+| Niveau de Preuve | L5 (études observationnelles/de cohorte, uniquement vétérinaires) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -86,15 +86,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 68440383 | Lamivudine Arrow 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 68427877 | Zeffix 5 mg/ml | Solution buvable | Non renseignée (AMM annulée) |
-| 63439683 | Zeffix 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62715513 | Epivir 150 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 68440383 | Lamivudine Arrow 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 68427877 | Zeffix 5 mg/ml | Solution buvable | Non renseignée (AMM active) |
+| 63439683 | Zeffix 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62715513 | Epivir 150 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -115,18 +115,15 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose sur des études vétérinaires et précliniques uniquement, sans essai clinique, et reste une extension de l'indication VIH déjà existante. Elle n'apporte pas de nouvelle indication humaine.
-- Toutes les AMM françaises sont annulées et les données de sécurité issues de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (mises en garde et contre-indications) auprès de l'ANSM.
 - Données détaillées sur le mécanisme d'action (via DrugBank).
 - Clarification de l'intérêt de la prédiction : usage vétérinaire (hors périmètre d'un repositionnement humain) ou modèle de recherche sur le VIH.
-- Vérification du statut réglementaire actuel de la lamivudine en France, toutes les AMM recensées étant annulées.
 
 **Autres prédictions examinées (non retenues) :**
-- *Infection par le virus de l'immunodéficience simienne* (score 99,93 %, niveau L4, Hold) : preuves précliniques chez le macaque, utiles à la recherche sur le VIH mais sans nouvelle indication humaine.
-- *Hépatite C chronique* (score 99,11 %, niveau L4, Hold) : aucune activité établie de la lamivudine contre le VHC (virus à ARN), la littérature se limitant à des revues générales sur les hépatites virales ; les antiviraux à action directe sont la référence.
-- *Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale* (score 99,93 %, niveau L5, Hold) et *hyperlipidémie combinée familiale (terme obsolète)* (score 99,63 %, niveau L5, Hold) : aucune preuve ni lien mécanistique, probablement des artefacts du graphe de connaissances.
+- *Infection par le virus de l'immunodéficience simienne* (score 0,9993, niveau L4, Hold) : preuves précliniques chez le macaque, utiles à la recherche sur le VIH mais sans nouvelle indication humaine.
+- *Hépatite C chronique* (score 0,9911, niveau L4, Hold) : aucune activité établie de la lamivudine contre le VHC (virus à ARN), la littérature se limitant à des revues générales sur les hépatites virales ; les antiviraux à action directe sont la référence.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

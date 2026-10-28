@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 772
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tolvaptan : nouvelle indication prédite, Polykystose rénale de type 3 avec ou sans polykystose hépatique (niveau de preuve L5). Indication d'origine : Syndrome de sécrétion inappropriée d'ADH"
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan : nouvelle indication prédite, Renal-hepatic-pancreatic dysplasia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tolvaptan : Du Syndrome de Sécrétion Inappropriée d'ADH à la Polykystose Rénale de type 3 (avec ou sans polykystose hépatique)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **0 essai clinique** enregistré et **20 publications** associées (dont 2 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome de sécrétion inappropriée d'ADH ; syndrome néphrogénique d'antidiurèse inappropriée ; polykystose rénale (le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Polykystose rénale de type 3 avec ou sans polykystose hépatique |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L1 (selon l'évaluation du dossier ; les ECR proviennent de la PKD autosomique dominante en général, non spécifiquement du type 3) |
-| Statut de Marché en France | Uniquement annulées (aucune AMM valide) |
-| Nombre d'AMM | 17 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Renal-hepatic-pancreatic dysplasia |
+| Score de Prédiction TxGNN | 0.9998 |
+| Niveau de Preuve | L5 (selon l'évaluation du dossier ; les ECR proviennent de la PKD autosomique dominante en général, non spécifiquement du type 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,7 +83,6 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
 |---------|------|------|-----------|
@@ -116,7 +115,6 @@ Toutes les AMM sont annulées ; le texte d'indication approuvée n'est pas rense
 - Les données détaillées sur le mécanisme d'action (DrugBank).
 - Des données cliniques spécifiques à la polykystose de type 3 (GANAB).
 - Un plan de surveillance hépatique (bilan hépatique régulier).
-- La vérification de la disponibilité réelle en France, toutes les AMM étant annulées.
 
 **Autres indications prédites (non recommandées à ce stade) :** dysplasie rénale-hépatique-pancréatique, néphrite interstitielle caryomégalique, malformation thoracique, syndrome de Joubert avec atteinte rénale (question de recherche, niveau L4), syndrome néphronophtise-quadriparésie spastique de l'adulte, hypertrichose et autres syndromes malformatifs : preuves absentes ou très indirectes (niveaux L4-L5), décision **Hold**.
 ## Avertissement

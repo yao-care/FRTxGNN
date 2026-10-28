@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Syndrome de la queue de cheval |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0,9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,19 +61,19 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le cisatracurium est un bloqueur neuromusculaire non dépolarisant : il agit sur les récepteurs nicotiniques de l'acétylcholine de la jonction neuromusculaire et provoque une paralysie des muscles squelettiques.
 
-**Cette prédiction n'apparaît pas raisonnable sur le plan mécanistique.** Le syndrome de la queue de cheval est une urgence neurologique compressive, dont le traitement repose sur la décompression chirurgicale. La paralysie musculaire n'a aucun rôle plausible de modification de la maladie. Le score élevé semble être un artefact du graphe de connaissances, sans soutien clinique.
+**Cette prédiction n'apparaît pas raisonnable sur le plan mécanistique.** Le syndrome de la queue de cheval est une urgence neurologique compressive, dont le traitement repose sur la décompression chirurgicale. La paralysie musculaire n'a aucun rôle plausible de modification de la maladie. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique ; il ne repose sur aucun soutien clinique.
 
 Les autres prédictions du modèle, examinées dans les données compilées, présentent le même problème :
 
 | Maladie prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |------|------|------|------|
-| Prééclampsie | 99,99 % | L4 | Deux articles sur l'anesthésie pour césarienne : usage accessoire, pas un traitement de la maladie |
-| Maladie thrombotique | 99,97 % | L4 | Un article sur l'anesthésie en transplantation hépatique pédiatrique : pas de lien thérapeutique |
-| Vessie neurogène (terme obsolète) | 99,99 % | L5 | Aucune preuve ; le blocage systémique n'agit pas sur le contrôle nerveux |
-| Migraine (et migraine avec aura du tronc cérébral) | 99,98 % / 99,97 % | L5 | Aucune action sur les voies trigéminovasculaires et CGRP |
-| Syndrome de l'intestin irritable | 99,97 % | L5 | Aucune action utile sur le muscle lisse ou le système nerveux entérique |
-| Prééclampsie légère / sévère | 99,96 % / 99,95 % | L5 | Proximité ontologique avec le terme parent, sans rationnel thérapeutique |
-| Asthénie neurocirculatoire | 99,95 % | L5 | Aucune activité autonomique ou anxiolytique pertinente |
+| Prééclampsie | 0,9999 | L5 | Deux articles sur l'anesthésie pour césarienne : usage accessoire, pas un traitement de la maladie |
+| Maladie thrombotique | 0,9997 | L5 | Un article sur l'anesthésie en transplantation hépatique pédiatrique : pas de lien thérapeutique |
+| Vessie neurogène (terme obsolète) | 0,9999 | L5 | Aucune preuve ; le blocage systémique n'agit pas sur le contrôle nerveux |
+| Migraine (et migraine avec aura du tronc cérébral) | 0,9998 / 0,9997 | L5 | Aucune action sur les voies trigéminovasculaires et CGRP |
+| Syndrome de l'intestin irritable | 0,9997 | L5 | Aucune action utile sur le muscle lisse ou le système nerveux entérique |
+| Prééclampsie légère / sévère | 0,9996 / 0,9995 | L5 | Proximité ontologique avec le terme parent, sans rationnel thérapeutique |
+| Asthénie neurocirculatoire | 0,9995 | L5 | Aucune activité autonomique ou anxiolytique pertinente |
 
 ---
 
@@ -103,11 +103,11 @@ Les 10 AMM identifiées sont toutes annulées ; le texte d'indication approuvée
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 67403581 | Cisatracurium Accordpharma 5 mg/mL | Solution injectable ou pour perfusion | Annulée |
-| 62067536 | Cisatracurium Accordpharma 2 mg/mL | Solution injectable ou pour perfusion | Annulée |
-| 68123109 | Nimbex 2 mg/mL | Solution injectable ou pour perfusion | Annulée |
-| 68405756 | Cisatracurium Accord 5 mg/mL | Solution injectable ou pour perfusion | Annulée |
-| 63324453 | Cisatracurium Accord 2 mg/mL | Solution injectable ou pour perfusion | Annulée |
+| 67403581 | Cisatracurium Accordpharma 5 mg/mL | Solution injectable ou pour perfusion | Active |
+| 62067536 | Cisatracurium Accordpharma 2 mg/mL | Solution injectable ou pour perfusion | Active |
+| 68123109 | Nimbex 2 mg/mL | Solution injectable ou pour perfusion | Active |
+| 68405756 | Cisatracurium Accord 5 mg/mL | Solution injectable ou pour perfusion | Active |
+| 63324453 | Cisatracurium Accord 2 mg/mL | Solution injectable ou pour perfusion | Active |
 
 ---
 
@@ -131,7 +131,7 @@ Le sulfate de magnésium, utilisé dans la prééclampsie, potentialise les myor
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication directe, et sans lien mécanistique plausible entre le blocage neuromusculaire et le syndrome de la queue de cheval.
-- Le produit n'a plus aucune AMM valide en France, et les données de sécurité de la notice sont absentes.
+- Le produit est commercialisé en France (10 AMM valides sur 10), et les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants seraient nécessaires :**
 - Récupération des mises en garde et contre-indications dans la notice ANSM (lacune bloquante pour le criblage de sécurité).

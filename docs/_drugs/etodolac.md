@@ -4,17 +4,17 @@ title: Etodolac
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 306
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Etodolac : nouvelle indication prédite, Spondylarthrite ankylosante (candidate n° 6 du classement (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose, arthropathies…"
 monitor_inn: "etodolac"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+description: "Etodolac : nouvelle indication prédite, Acromesomelic dysplasia, Hunter-Thompson type (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Etodolac
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Étodolac : De la polyarthrite rhumatoïde à la spondylarthrite ankylosante
+## Etodolac: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 L'étodolac est un anti-inflammatoire non stéroïdien (AINS) utilisé à l'origine dans les maladies rhumatismales : polyarthrite rhumatoïde, arthrose et arthropathies.
-Le modèle TxGNN prédit qu'il pourrait être utile pour la **spondylarthrite ankylosante** (prédiction la plus pertinente cliniquement parmi les candidats), mais cette indication est très proche de ses usages déjà connus.
 Les données compilées font état de **0 essai clinique** enregistré et de **8 publications** (revues narratives, études ouvertes, surveillance post-commercialisation et une recommandation méthodologique) : le niveau de preuve reste faible.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, arthrose, arthropathies, arthrite juvénile idiopathique, spondylarthropathie (texte d'indication de l'AMM non disponible) |
-| Nouvelle Indication Prédite | Spondylarthrite ankylosante (candidate n° 6 du classement ; la candidate n° 1 du modèle est la dysplasie acromésomélique de type Hunter-Thompson) |
-| Score de Prédiction TxGNN | 99,93 % (spondylarthrite ankylosante) ; 99,97 % pour la dysplasie acromésomélique, jugée sans lien mécanistique plausible |
-| Niveau de Preuve | L4 (spondylarthrite ankylosante) ; L5 pour la plupart des autres candidates |
-| Statut de Marché en France | Uniquement AMM annulée |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acromesomelic dysplasia, Hunter-Thompson type |
+| Score de Prédiction TxGNN | 0.9997 |
+| Niveau de Preuve | L5 (spondylarthrite ankylosante) ; L5 pour la plupart des autres candidates |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold (maintien en attente) ; question de recherche pour la spondylarthrite ankylosante |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues et la littérature, l'étodolac est un AINS à sélectivité préférentielle pour la cyclo-oxygénase-2 (COX-2). Il réduit la production de prostaglandines, médiateurs de l'inflammation et de la douleur.
 
-Les AINS constituent le traitement de première intention de la spondylarthrite ankylosante : l'inhibition de la COX diminue la douleur lombaire inflammatoire et la raideur. L'étodolac est déjà associé à la spondylarthropathie parmi ses indications d'origine. Cette prédiction relève donc davantage d'une extension d'un usage de classe ou quasi-AMM que d'un véritable repositionnement.
 
-**Une mise en garde importante :** les scores TxGNN les plus élevés (dysplasie acromésomélique, syndrome brachyolmie-amélogenèse imparfaite, myosclérose, brachyolmie, pseudoachondroplasie) concernent des maladies génétiques rares du squelette ou du tissu conjonctif. Aucun lien mécanistique crédible n'a été identifié : l'inhibition de la COX ne corrige pas un défaut de signalisation de facteurs de croissance. Ces scores reflètent vraisemblablement la proximité dans le graphe de connaissances avec des phénotypes articulaires ou squelettiques, et non une relation pharmacologique réelle. La « spondylarthropathie, susceptibilité à » est un doublon ontologique de l'indication d'origine. La vascularite rhumatoïde et l'hypermobilité du coccyx n'offrent, au mieux, qu'un soulagement symptomatique générique, sans preuve spécifique.
+**Une mise en garde importante :** les scores TxGNN les plus élevés (dysplasie acromésomélique, syndrome brachyolmie-amélogenèse imparfaite, myosclérose, brachyolmie, pseudoachondroplasie) concernent des maladies génétiques rares du squelette ou du tissu conjonctif. Aucun lien mécanistique crédible n'a été identifié : l'inhibition de la COX ne corrige pas un défaut de signalisation de facteurs de croissance. Ces scores proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une relation pharmacologique réelle ni une preuve biologique. L'hypermobilité du coccyx n'offre, au mieux, qu'un soulagement symptomatique générique, sans preuve spécifique.
 
 ## Preuves d'Essais Cliniques
 
@@ -85,7 +83,7 @@ Ces publications portent sur la spondylarthrite ankylosante et la spondylopathie
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68645185 | LODINE 200 mg, comprimé pelliculé (Laboratoires Ethypharm) | Comprimé pelliculé | Non disponible (AMM annulée) |
+| 68645185 | LODINE 200 mg, comprimé pelliculé (Laboratoires Ethypharm) | Comprimé pelliculé | Non disponible (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -102,7 +100,7 @@ Veuillez consulter la notice pour les informations de sécurité (les mises en g
 **Décision : Hold**
 
 **Justification :**
-- Aucune des candidates ne dispose d'essai clinique enregistré. Les scores les plus élevés correspondent à des maladies génétiques rares sans lien mécanistique crédible (artefacts probables du graphe). La spondylarthrite ankylosante et la spondylopathie inflammatoire (niveau L4) restent des questions de recherche : elles s'inscrivent dans l'usage connu des AINS, avec des preuves indirectes ou de faible niveau. L'AMM française est annulée, ce qui limite la portée pratique.
+- Aucune des candidates ne dispose d'essai clinique enregistré. Les scores les plus élevés correspondent à des maladies génétiques rares sans lien mécanistique crédible : ils proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le médicament est commercialisé en France, avec 1 licence valide sur 1.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer le résumé des caractéristiques du produit (mises en garde, contre-indications) auprès de l'ANSM : donnée bloquante pour le dépistage de sécurité.

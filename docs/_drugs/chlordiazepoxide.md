@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlordiazepoxide
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 161
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Chlordiazepoxide : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Anxiété"
 monitor_inn: "chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
+description: "Chlordiazepoxide : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Chlordiazepoxide
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Chlordiazépoxide : Des troubles anxieux à l'insomnie
+## Chlordiazepoxide: Insomnie (insomnia (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**insomnie**. Au
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Anxiété (les textes d'indication des AMM ne sont pas renseignés ; indications d'origine issues du graphe de connaissances : ulcère gastroduodénal, sevrage alcoolique, syndrome du côlon irritable, anxiété, etc.) |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,998 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
+| Score de Prédiction TxGNN | 1.0000 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -79,8 +79,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67627992 | LIBRAX, comprimé enrobé (VIATRIS MEDICAL) | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 66803576 | LIBRAX, comprimé enrobé (DIFARMED, Espagne) | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 67627992 | LIBRAX, comprimé enrobé (VIATRIS MEDICAL) | Comprimé enrobé | Non renseignée (AMM active) |
+| 66803576 | LIBRAX, comprimé enrobé (DIFARMED, Espagne) | Comprimé enrobé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

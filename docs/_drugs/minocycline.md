@@ -6,9 +6,9 @@ nav_order: 502
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Minocycline : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Infections bactériennes (infection urinaire, bronchite, acné…"
 monitor_inn: "MINOCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
 ---
 
 # Minocycline
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Minocycline : Des Infections Bactériennes à la Kératoconjonctivite Épithéliale Ponctuée
+## Minocycline: Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections bactériennes (infection urinaire, bronchite, acné, gonorrhée, parodontite, etc.) d'après le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné |
-| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée |
-| Score de Prédiction TxGNN | 99,63 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) |
+| Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Les données détaillées sur le mécanisme d'action ne sont pas disponibles. Su
 
 Au-delà de son activité antibactérienne, la minocycline est décrite comme ayant des propriétés anti-inflammatoires, inhibitrices des métalloprotéinases matricielles (MMP) et anti-apoptotiques. Ces effets pourraient être pertinents pour l'inflammation de la surface oculaire. Par analogie, d'autres tétracyclines (comme la doxycycline) sont utilisées dans des atteintes de la surface oculaire telles que le dysfonctionnement des glandes de Meibomius et la blépharite.
 
-Ce lien est cependant **déduit et non démontré** par les données compilées pour ce rapport. Le mécanisme ne peut pas être recoupé avec la pharmacologie documentée du médicament. Une seconde prédiction du modèle, la **kératite d'exposition** (score de 99,20 %), repose sur le même raisonnement spéculatif (inhibition de MMP-9, effets anti-inflammatoires). Elle est également de niveau L5 avec une recommandation Hold, car sa prise en charge repose avant tout sur la lubrification et le traitement de la cause de l'exposition.
+Ce lien est cependant **déduit et non démontré** par les données compilées pour ce rapport. Le mécanisme ne peut pas être recoupé avec la pharmacologie documentée du médicament. Une seconde prédiction du modèle, la **kératite d'exposition** (score de 0,9920), repose sur le même raisonnement spéculatif (inhibition de MMP-9, effets anti-inflammatoires). Elle est également de niveau L5 avec une recommandation Hold, car sa prise en charge repose avant tout sur la lubrification et le traitement de la cause de l'exposition.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,7 +76,7 @@ Aucune littérature associée disponible actuellement.
 |---------|------|------|-----------|
 | 60929447 (annulée) | MYNOCINE 100 mg, gélule (LABORATOIRE XO) | Gélule | Non renseignée |
 
-Cette unique AMM étant annulée, le médicament n'a actuellement aucune AMM valide dans les données compilées, ce qui peut limiter sa disponibilité pratique. De plus, la forme disponible est une gélule orale : la compatibilité avec une voie d'administration oculaire n'a pas été évaluée.
+Le médicament est commercialisé et sa seule AMM est valide (1 AMM valide sur 1) dans les données compilées. En revanche, la forme disponible est une gélule orale : la compatibilité avec une voie d'administration oculaire n'a pas été évaluée.
 
 ## Considérations de Sécurité
 
@@ -93,7 +93,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (99,63 %), sans aucun essai clinique ni publication. Le niveau de preuve est L5.
+- La prédiction repose uniquement sur le score du modèle (0,9963), sans aucun essai clinique ni publication. Le niveau de preuve est L5.
 - Les données de sécurité issues de la notice sont manquantes (lacune bloquante), le mécanisme d'action n'est pas documenté, et la seule AMM française est annulée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

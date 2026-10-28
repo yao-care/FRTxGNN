@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 |------|------|
 | Indication Originale | Infection chronique par le virus de l'hépatite C (le texte de l'indication de l'AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
-| Score de Prédiction TxGNN | 99,91 % |
+| Score de Prédiction TxGNN | 0,9991 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM abrogées/annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

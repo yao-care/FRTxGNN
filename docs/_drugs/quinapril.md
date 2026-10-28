@@ -4,17 +4,17 @@ title: Quinapril
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 643
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Quinapril : nouvelle indication prédite, Hypertension rénovasculaire maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Quinapril : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Quinapril
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Quinapril : De l'Hypertension Artérielle à l'Hypertension Rénovasculaire Maligne
+## Quinapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension ré
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (les AMM françaises ne mentionnent aucun texte d'indication ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypertension rénovasculaire maligne |
-| Score de Prédiction TxGNN | 99,86 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Malignant hypertensive renal disease |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -73,10 +73,10 @@ Aucune littérature associée disponible actuellement pour l'hypertension rénov
 
 | Rang | Maladie Prédite | Score TxGNN | Niveau de Preuve | Recommandation |
 |------|------|------|------|------|
-| 2 | Néphropathie hypertensive maligne | 99,86 % | L5 | Hold |
-| 3 | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie | 99,85 % | L4 | Question de recherche |
-| 4 | Hypertension pulmonaire à mécanisme multifactoriel mal défini | 99,85 % | L5 | Hold |
-| 5 | Syndrome de Braddock | 99,79 % | L5 | Hold |
+| 2 | Néphropathie hypertensive maligne | 0,9986 | L5 | Hold |
+| 3 | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie | 0,9985 | L5 | Question de recherche |
+| 4 | Hypertension pulmonaire à mécanisme multifactoriel mal défini | 0,9985 | L5 | Hold |
+| 5 | Syndrome de Braddock | 0,9979 | L5 | Hold |
 
 Seule l'hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie dispose de données de littérature, exclusivement précliniques :
 
@@ -89,8 +89,8 @@ Seule l'hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62206135 | ACUITEL 5 mg, comprimé enrobé sécable (annulée) | Comprimé enrobé sécable | Non précisée |
-| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable (annulée) | Comprimé enrobé sécable | Non précisée |
+| 62206135 | ACUITEL 5 mg, comprimé enrobé sécable (active) | Comprimé enrobé sécable | Non précisée |
+| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable (active) | Comprimé enrobé sécable | Non précisée |
 
 ## Considérations de Sécurité
 

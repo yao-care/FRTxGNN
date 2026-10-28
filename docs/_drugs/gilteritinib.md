@@ -6,9 +6,9 @@ nav_order: 360
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Gilteritinib : nouvelle indication prédite, Poliomyélite bulbaire (niveau de preuve L5). Indication d'origine : Leucémie myéloïde aiguë"
 monitor_inn: "gilteritinib"
 predicted_indications: ["bulbar polio"]
+description: "Gilteritinib : nouvelle indication prédite, Poliomyélite bulbaire (bulbar polio) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Gilteritinib
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Gilteritinib : De la Leucémie Myéloïde Aiguë à la Poliomyélite Bulbaire
+## Gilteritinib: Poliomyélite bulbaire (bulbar polio)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **poliomyélite b
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie myéloïde aiguë (le texte d'indication de l'AMM française n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Poliomyélite bulbaire |
-| Score de Prédiction TxGNN | 99,10 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Poliomyélite bulbaire (bulbar polio) |
+| Score de Prédiction TxGNN | 0.9910 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien mécanistique crédible n'a été établi avec la poliomyélite bulbaire. Cette maladie est une infection virale des motoneurones du tronc cérébral causée par le poliovirus ; sa prévention repose sur la vaccination et sa prise en charge sur les soins de support. Aucune voie biologique identifiée (effet sur la réplication du poliovirus, l'entrée dans la cellule hôte ou la neuroprotection) ne justifie l'usage d'un inhibiteur de kinase.
 
-Le score élevé (0,991) résulte vraisemblablement de la connectivité du graphe de connaissances plutôt que d'un véritable signal thérapeutique. Par ailleurs, le potentiel immunosuppresseur ou myélosuppresseur d'un inhibiteur de kinase pourrait constituer un problème de sécurité dans un contexte infectieux.
+Le score élevé (0,9910) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Par ailleurs, le potentiel immunosuppresseur ou myélosuppresseur d'un inhibiteur de kinase pourrait constituer un problème de sécurité dans un contexte infectieux.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66204797 | XOSPATA 40 mg, comprimé pelliculé (ASTELLAS PHARMA EUROPE, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 66204797 | XOSPATA 40 mg, comprimé pelliculé (ASTELLAS PHARMA EUROPE, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

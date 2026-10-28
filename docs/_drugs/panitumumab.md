@@ -6,9 +6,9 @@ nav_order: 575
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Panitumumab : nouvelle indication prédite, Ostéoporose médicamenteuse (niveau de preuve L5). Indication d'origine : Néoplasme malin métastatique du côlon"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
+description: "Panitumumab : nouvelle indication prédite, Ostéoporose médicamenteuse (drug-induced osteoporosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Panitumumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Panitumumab : Du Cancer Colorectal Métastatique à l'Ostéoporose Médicamenteuse
+## Panitumumab: Ostéoporose médicamenteuse (drug-induced osteoporosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,23 +46,23 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Néoplasme malin métastatique du côlon (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Ostéoporose médicamenteuse |
-| Score de Prédiction TxGNN | 99,13 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ostéoporose médicamenteuse (drug-induced osteoporosis) |
+| Score de Prédiction TxGNN | 0.9913 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations générales connues, le panitumumab est un anticorps monoclonal dirigé contre le récepteur de l'EGFR, dont l'efficacité dans le cancer colorectal métastatique est établie. Les données compilées pour ce rapport ne permettent pas de construire un lien mécanistique avec l'ostéoporose médicamenteuse.
 
-La signalisation de l'EGFR a été évoquée dans la régulation du remodelage osseux (ostéoblastes et ostéoclastes), mais il s'agit d'un contexte général, non d'une preuve issue des données fournies. Le score élevé de TxGNN (0,991) reste une prédiction computationnelle.
+La signalisation de l'EGFR a été évoquée dans la régulation du remodelage osseux (ostéoblastes et ostéoclastes), mais il s'agit d'un contexte général, non d'une preuve issue des données fournies. Le score élevé du modèle TxGNN (apprentissage profond) pour l'ostéoporose médicamenteuse (0,9913) reste une prédiction computationnelle, qui peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Par ailleurs, l'inhibition de l'EGFR pourrait plutôt perturber l'homéostasie osseuse et minérale (l'hypomagnésémie et l'hypocalcémie sont des effets indésirables connus du panitumumab). Cela plaide pour la prudence en matière de sécurité plutôt que pour un bénéfice thérapeutique.
 
-**Seconde prédiction (pour information) :** la rétinopathie diabétique non proliférante sévère (score 99,05 %, niveau L5, décision Hold). Aucun lien mécanistique n'est étayé par les données. Un anticorps systémique à toxicité cutanée et électrolytique notable, sans AMM active en France, se heurterait à des obstacles pratiques pour une indication oculaire chronique, où des options établies existent déjà (anti-VEGF, laser, contrôle glycémique).
+**Seconde prédiction (pour information) :** la rétinopathie diabétique non proliférante sévère (score 0,9905, niveau L5, décision Hold). Aucun lien mécanistique n'est étayé par les données. Un anticorps systémique à toxicité cutanée et électrolytique notable, sans AMM active en France, se heurterait à des obstacles pratiques pour une indication oculaire chronique, où des options établies existent déjà (anti-VEGF, laser, contrôle glycémique).
 
 ## Preuves d'Essais Cliniques
 

@@ -6,9 +6,9 @@ nav_order: 654
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Rasburicase : nouvelle indication prédite, Hypouricémie rénale (niveau de preuve L5). Indication d'origine : Hyperuricémie"
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
+description: "Rasburicase : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rasburicase
@@ -33,31 +33,31 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Rasburicase : De l'hyperuricémie à l'hypouricémie rénale
+## Rasburicase: Hypouricémie rénale (hypouricemia, renal)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Rasburicase est une enzyme recombinante (urate oxydase), initialement utilisée pour le traitement de l'hyperuricémie.
-Le modèle TxGNN la prédit comme potentiellement efficace pour l'**hypouricémie rénale**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction. La prédiction est vraisemblablement un artefact du graphe de connaissances, voire une inversion de sens (contre-indication plutôt qu'indication).
+Le modèle TxGNN (apprentissage profond) la prédit comme potentiellement efficace pour l'**hypouricémie rénale**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction. Le score provient du modèle TxGNN et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; la prédiction pourrait même être une inversion de sens (contre-indication plutôt qu'indication).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hyperuricémie (source : graphe de connaissances TxGNN ; aucun texte d'indication dans l'AMM) |
-| Nouvelle Indication Prédite | Hypouricémie rénale |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypouricémie rénale (hypouricemia, renal) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la rasburicase est une urate oxydase recombinante qui convertit l'acide urique en allantoïne, ce qui abaisse l'uricémie. Son usage d'origine concerne donc les situations d'excès d'acide urique.
 
-La prédiction du modèle pose problème. L'hypouricémie rénale est un état de **faible** taux d'acide urique (perte de fonction de URAT1/GLUT9). Réduire davantage l'urate n'a aucune justification thérapeutique et pourrait être nocif (par exemple, insuffisance rénale aiguë après effort). Le score élevé reflète probablement un lien de proximité dans le graphe autour du métabolisme de l'acide urique. La prédiction est vraisemblablement inversée : il s'agirait plutôt d'une contre-indication que d'une indication.
+La prédiction du modèle pose problème. L'hypouricémie rénale est un état de **faible** taux d'acide urique (perte de fonction de URAT1/GLUT9). Réduire davantage l'urate n'a aucune justification thérapeutique et pourrait être nocif (par exemple, insuffisance rénale aiguë après effort). Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies liées au métabolisme de l'acide urique, et non une preuve biologique. La prédiction est vraisemblablement inversée : il s'agirait plutôt d'une contre-indication que d'une indication.
 
 ### Autres prédictions du modèle
 
@@ -65,15 +65,15 @@ Neuf autres indications prédites figurent dans les données compilées. Toutes 
 
 | Rang | Maladie prédite | Score TxGNN | Évaluation du lien mécanistique |
 |---|---|---|---|
-| 2 | Déficit partiel en hypoxanthine-guanine phosphoribosyltransférase | 99,97 % | Lien biologique faible avec l'hyperuricémie. Usage parentéral de courte durée, ne corrige pas le défaut de récupération des purines. Risques d'hémolyse (déficit en G6PD), de méthémoglobinémie et d'immunogénicité. |
-| 3 | Porphyrie hépatique | 99,97 % | Aucun lien mécanistique identifié ; artefact de proximité dans le réseau. |
-| 4 | Hypertension portale familiale non cirrhotique à début précoce | 99,97 % | Aucun lien ; scores identiques entre plusieurs entités voisines, ce qui suggère un chemin prédictif commun. |
-| 5 | Sclérose hépatoportale | 99,97 % | Aucun lien direct ; même artefact de graphe. |
-| 6 | Thrombose portale primitive | 99,97 % | Aucune activité anticoagulante ou thrombolytique. |
-| 7 | Syndrome hépatopulmonaire | 99,97 % | Aucun rôle reconnu ; le risque de méthémoglobinémie l'emporte sur tout bénéfice spéculatif. |
-| 8 | Cirrhose idiopathique associée au cuivre | 99,97 % | Aucun lien avec l'accumulation hépatique de cuivre. |
-| 9 | Acidose tubulaire rénale | 99,85 % | Pas d'action sur le transport acido-basique ; lien spéculatif ; risques liés au peroxyde d'hydrogène et à l'hémolyse. |
-| 10 | Trouble du métabolisme de la phénylalanine | 99,83 % | Aucun lien avec la voie de la phénylalanine hydroxylase ; artefact probable entre erreurs innées du métabolisme. |
+| 2 | Déficit partiel en hypoxanthine-guanine phosphoribosyltransférase | 0,9997 | Lien biologique faible avec l'hyperuricémie. Usage parentéral de courte durée, ne corrige pas le défaut de récupération des purines. Risques d'hémolyse (déficit en G6PD), de méthémoglobinémie et d'immunogénicité. |
+| 3 | Porphyrie hépatique | 0,9997 | Aucun lien mécanistique identifié ; artefact de proximité dans le réseau. |
+| 4 | Hypertension portale familiale non cirrhotique à début précoce | 0,9997 | Aucun lien ; scores identiques entre plusieurs entités voisines, ce qui suggère un chemin prédictif commun. |
+| 5 | Sclérose hépatoportale | 0,9997 | Aucun lien direct ; le score provient du modèle TxGNN et peut refléter des similarités apprises entre maladies apparentées, non une preuve biologique. |
+| 6 | Thrombose portale primitive | 0,9997 | Aucune activité anticoagulante ou thrombolytique. |
+| 7 | Syndrome hépatopulmonaire | 0,9997 | Aucun rôle reconnu ; le risque de méthémoglobinémie l'emporte sur tout bénéfice spéculatif. |
+| 8 | Cirrhose idiopathique associée au cuivre | 0,9997 | Aucun lien avec l'accumulation hépatique de cuivre. |
+| 9 | Acidose tubulaire rénale | 0,9985 | Pas d'action sur le transport acido-basique ; lien spéculatif ; risques liés au peroxyde d'hydrogène et à l'hémolyse. |
+| 10 | Trouble du métabolisme de la phénylalanine | 0,9983 | Aucun lien avec la voie de la phénylalanine hydroxylase ; artefact probable entre erreurs innées du métabolisme. |
 
 ## Preuves d'Essais Cliniques
 
@@ -87,7 +87,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69211156 | FASTURTEC 1,5 mg/ml, poudre et solvant pour solution à diluer pour perfusion (SANOFI WINTHROP INDUSTRIE) | Poudre et solvant pour solution à diluer pour perfusion | Non renseignée ; AMM annulée |
+| 69211156 | FASTURTEC 1,5 mg/ml, poudre et solvant pour solution à diluer pour perfusion (SANOFI WINTHROP INDUSTRIE) | Poudre et solvant pour solution à diluer pour perfusion | Non renseignée ; AMM active |
 
 ## Considérations de Sécurité
 

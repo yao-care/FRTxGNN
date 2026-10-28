@@ -4,17 +4,17 @@ title: Chlorthalidone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 165
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Chlorthalidone : nouvelle indication prédite, Glaucome héréditaire primaire (niveau de preuve L5). Indication d'origine : Hypertension artérielle, insuffisance cardiaque congestive"
 monitor_inn: "chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
+description: "Chlorthalidone : nouvelle indication prédite, Glaucome héréditaire primaire (primary hereditary glaucoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Chlorthalidone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Chlortalidone : De l'Hypertension au Glaucome Héréditaire Primaire
+## Chlorthalidone: Glaucome héréditaire primaire (primary hereditary glaucoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome hér
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle, insuffisance cardiaque congestive (le texte d'indication de l'AMM française n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Glaucome héréditaire primaire |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Glaucome héréditaire primaire (primary hereditary glaucoma) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62980497 | TENORETIC 50 mg/12,5 mg, comprimé pelliculé (ATNAHS PHARMA NETHERLANDS, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62980497 | TENORETIC 50 mg/12,5 mg, comprimé pelliculé (ATNAHS PHARMA NETHERLANDS, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

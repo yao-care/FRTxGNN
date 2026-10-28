@@ -47,17 +47,17 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **déficience e
 |------|------|
 | Indication Originale | Non précisée dans les données d'AMM ; la base de connaissances indique : lupus érythémateux systémique, lupus érythémateux systémique pédiatrique, dyspareunie psychologique |
 | Nouvelle Indication Prédite | Déficience en cofacteur II de l'héparine |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0,9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM en vigueur) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la prastérone est la forme pharmaceutique de la déhydroépiandrostérone (DHEA), un précurseur stéroïdien converti localement en androgènes et en œstrogènes. Elle a été utilisée dans la dyspareunie liée à l'atrophie vulvo-vaginale. Les données de pharmacologie compilées mentionnent aussi une interaction avec le récepteur de la glycine (tous sous-types).
 
-Aucun lien mécanistique établi ne relie la DHEA à la déficience en cofacteur II de l'héparine (SERPIND1), un défaut d'un inhibiteur de la coagulation de la famille des serpines. Tout lien serait spéculatif (par exemple, des effets indirects des androgènes et œstrogènes sur l'hémostase). Le score élevé du modèle est issu d'un graphe de connaissances et n'est corroboré par aucune donnée clinique.
+Aucun lien mécanistique établi ne relie la DHEA à la déficience en cofacteur II de l'héparine (SERPIND1), un défaut d'un inhibiteur de la coagulation de la famille des serpines. Tout lien serait spéculatif (par exemple, des effets indirects des androgènes et œstrogènes sur l'hémostase). Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique ; il n'est corroboré par aucune donnée clinique.
 
 Les autres prédictions les mieux classées (déficit en facteur V, déficit en antithrombine de type 2, thrombophilie, déficit en protéine S) relèvent également de troubles de la coagulation, sans mécanisme plausible identifié. Un lien indirect est évoqué pour la sclérodermie, en raison de l'activité immunomodulatrice de la DHEA dans les maladies auto-immunes, mais il reste une hypothèse, également de niveau L5.
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60073960 | INTRAROSA 6,5 mg, ovule (ENDOCEUTICS, Belgique) | Ovule | Non renseignée (AMM annulée) |
+| 60073960 | INTRAROSA 6,5 mg, ovule (ENDOCEUTICS, Belgique) | Ovule | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

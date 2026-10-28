@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Grazoprevir
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 372
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Grazoprevir : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "grazoprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Grazoprevir : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Grazoprevir
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Grazoprevir : De l'hépatite C chronique à l'infection par le VIH
+## Grazoprevir: Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection chronique par le virus de l'hépatite C (source : graphe de connaissances, le texte d'indication de l'AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,73 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L3 (au mieux ; aucune preuve directe d'activité anti-VIH) |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier compilé. Selon les informations connues, le grazoprevir est un inhibiteur de la protéase NS3/4A du VHC, utilisé en association à dose fixe avec l'elbasvir (inhibiteur de NS5A). Son efficacité dans l'hépatite C chronique de génotypes 1 et 4 est établie.
 
-Le grazoprevir n'a aucune activité directe connue contre la protéase du VIH ni contre d'autres cibles du VIH. Le score élevé du modèle reflète vraisemblablement la proximité, dans le graphe de connaissances, entre les antiviraux et les nœuds liés au VIH. Les données cliniques disponibles concernent la guérison de l'hépatite C et les interactions médicamenteuses avec les antirétroviraux chez les patients co-infectés VIH/VHC. Il s'agit d'une extension de population de l'indication d'origine, non d'un repositionnement au sens strict.
+Le grazoprevir n'a aucune activité directe connue contre la protéase du VIH ni contre d'autres cibles du VIH. Le score élevé vient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique. Les données cliniques disponibles concernent la guérison de l'hépatite C et les interactions médicamenteuses avec les antirétroviraux chez les patients co-infectés VIH/VHC. Il s'agit d'une extension de population de l'indication d'origine, non d'un repositionnement au sens strict.
 
 Parmi les autres prédictions, seules la fièvre hémorragique d'Omsk et la maladie de la forêt de Kyasanur (flavivirus possédant une protéase NS3) ont une justification structurale plausible au niveau de la classe virale. Elles ne reposent toutefois que sur une prédiction informatique et une étude in silico.
 
@@ -107,7 +107,7 @@ Tous les essais ci-dessous évaluent le traitement de l'hépatite C ; aucun n'a 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -125,7 +125,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 **Décision : Hold**
 
 **Justification :**
-- Aucune donnée ne montre d'activité du grazoprevir contre le VIH : les essais et publications concernent l'hépatite C chez des patients co-infectés. Le score TxGNN élevé reflète probablement un artefact du graphe. L'AMM française est de plus annulée.
+- Aucune donnée ne montre d'activité du grazoprevir contre le VIH : les essais et publications concernent l'hépatite C chez des patients co-infectés. Le score TxGNN élevé vient du modèle (deep learning) et peut refléter des similarités apprises entre maladies apparentées, non une preuve biologique. Le médicament est commercialisé en France (1 licence valide sur 1).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de mécanisme d'action détaillées (cibles du grazoprevir, éventuelle activité antivirale hors VHC)

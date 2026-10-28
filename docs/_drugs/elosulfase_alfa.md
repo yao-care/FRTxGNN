@@ -6,9 +6,9 @@ nav_order: 276
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Elosulfase Alfa : nouvelle indication prédite, Syndrome de Scheie (niveau de preuve L5). Indication d'origine : Mucopolysaccharidose"
 monitor_inn: "elosulfase alfa"
 predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+description: "Elosulfase Alfa : nouvelle indication prédite, Syndrome de Scheie (Scheie syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Elosulfase Alfa
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Elosulfase alfa : De la mucopolysaccharidose au syndrome de Scheie
+## Elosulfase Alfa: Syndrome de Scheie (Scheie syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Cette prédiction repose uniquement sur le modèle (niveau de preuve L5) et l'an
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mucopolysaccharidose (le texte d'indication de l'AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Syndrome de Scheie |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de Scheie (Scheie syndrome) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

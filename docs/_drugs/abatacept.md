@@ -3,18 +3,18 @@ layout: default
 title: Abatacept
 parent: Preuves modérées (L3-L4)
 nav_order: 12
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Abatacept : nouvelle indication prédite, Vascularite rhumatoïde (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde"
+evidence_level: L3
+indication_count: 7
 monitor_inn: "ABATACEPT"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "spondyloarthropathy, susceptibility to", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+last_modified_at: 2026-10-27
+description: "Abatacept : nouvelle indication prédite, Spondylarthrite ankylosante (ankylosing spondylitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Abatacept
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,80 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Abatacept : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
+## Abatacept : inhibiteur de la co-stimulation des lymphocytes T → spondylarthrite ankylosante (ankylosing spondylitis)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Resume en Une Phrase
 
-Abatacept est une protéine de fusion (CTLA-4 couplée à un fragment Fc d'IgG1), initialement utilisée pour traiter la polyarthrite rhumatoïde, l'arthrite juvénile idiopathique et les spondylarthropathies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vascularite rhumatoïde**, mais cette prédiction repose pour l'instant sur **des cas cliniques isolés** (dont certains contradictoires) et **aucun essai clinique dédié**.
+Abatacept est une proteine de fusion qui bloque la co-stimulation des lymphocytes T, utilisee dans des maladies inflammatoires articulaires auto-immunes.
+Le modele TxGNN predit qu'il pourrait etre efficace pour la **spondylarthrite ankylosante (ankylosing spondylitis)**,
+avec **1 essai clinique de Phase 2 directement pertinent** (pilote ouvert, 30 patients) et **1 etude pilote publiee** sur cette maladie, le reste de la litterature etant constitue de revues generales.
 
----
+## Apercu Rapide
 
-## Aperçu Rapide
-
-| Élément | Contenu |
+| Element | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde (les textes d'indication des AMM françaises ne sont pas renseignés ; indications issues du graphe de connaissances : polyarthrite rhumatoïde, arthrite juvénile idiopathique, spondylarthropathie) |
-| Nouvelle Indication Prédite | Vascularite rhumatoïde |
-| Score de Prédiction TxGNN | 99,91 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
-| Décision Recommandée | Hold |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Spondylarthrite ankylosante (ankylosing spondylitis) |
+| Score de Prediction TxGNN | 0.9991 |
+| Niveau de Preuve | L3 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
+| Decision Recommandee | Hold |
 
----
+## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Les donnees detaillees sur le mecanisme d'action ne sont pas disponibles dans les donnees compilees pour ce rapport. D'apres les connaissances generales, l'abatacept bloque la co-stimulation des lymphocytes T (voie CD80/CD86), ce qui reduit l'activation de ces cellules dans les maladies inflammatoires auto-immunes.
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'abatacept bloque la co-stimulation des lymphocytes T (voie CD28-CD80/86), ce qui limite leur activation. Son efficacité est établie dans la polyarthrite rhumatoïde.
-
-La vascularite rhumatoïde est une complication extra-articulaire de la polyarthrite rhumatoïde, liée à une inflammation vasculaire à médiation immunitaire. Sur le plan mécanistique, freiner l'activation des lymphocytes T pourrait atténuer cette inflammation, ce qui explique le signal du modèle.
-
-Toutefois, les données restent contradictoires : un cas rapporte une amélioration rapide sous abatacept (PMID 22124545, PMID 29930884), alors que d'autres décrivent l'apparition d'une vascularite pendant le traitement (PMID 27052429, PMID 30119075). Ces observations ne permettent pas de conclure.
-
----
+Sur le plan mecanistique, une implication des lymphocytes T dans les spondylarthropathies rend cette approche plausible. Cependant, les donnees cliniques restent faibles : le seul essai directement pertinent est un pilote ouvert de petite taille, sans groupe controle. Une revue de 2016 (Sieper) indique d'ailleurs que les biotherapies ciblant les lymphocytes T (abatacept) ne sont pas efficaces dans la spondylarthrite axiale, alors que les inhibiteurs du TNF et de l'IL-17 restent les options de reference.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | En recrutement | 80 | Gestion des immunosuppresseurs avant arthroplastie de l'épaule chez des patients de rhumatologie ; ne teste pas l'abatacept dans la vascularite (pertinence faible) |
+| [NCT00558506](https://clinicaltrials.gov/study/NCT00558506) | Phase 2 | Inconnu | 30 | Essai pilote ouvert evaluant l'efficacite et la tolerance de l'abatacept intraveineux dans la spondylarthrite ankylosante, sur 30 semaines |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | Non applicable | En recrutement | 10000 | Registre coreen de biotherapies, observationnel ; pas une etude d'efficacite specifique a l'abatacept |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | En recrutement | 80 | Gestion perioperatoire des immunosuppresseurs avant arthroplastie de l'epaule ; n'evalue pas l'abatacept dans cette maladie |
 
-Aucun essai clinique ne teste directement l'abatacept dans la vascularite rhumatoïde.
+## Preuves de la Litterature
 
----
-
-## Preuves de la Littérature
-
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Cas clinique | Modern Rheumatology | Vascularite rhumatoïde réfractaire (méthotrexate, anti-TNF, corticoïdes, anti-IL-6) avec amélioration rapide sous abatacept |
-| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Cas clinique / revue | Cureus | Abatacept comme option thérapeutique chez une patiente avec polyarthrite rhumatoïde et déficit immunitaire commun variable |
-| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Cas clinique | Joint Bone Spine | Vascularite rhumatoïde apparue sous abatacept, améliorée après rituximab |
-| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Cas clinique | Ophthalmic Plastic and Reconstructive Surgery | Vascularite orbitaire survenue sous abatacept chez une patiente atteinte de polyarthrite rhumatoïde |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Cas clinique | Internal Medicine | Néphrite associée aux ANCA survenue sous abatacept et adalimumab, atténuée par le tocilizumab |
-| [24840285](https://pubmed.ncbi.nlm.nih.gov/24840285/) | 2014 | Revue systématique et cohorte | Autoimmunity Reviews | Atteintes rénales auto-immunes induites par les biothérapies |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Revue | BMC Medicine | Mise à jour sur les biothérapies dans les maladies auto-immunes |
+| [21415053](https://pubmed.ncbi.nlm.nih.gov/21415053/) | 2011 | Etude pilote ouverte | Ann Rheum Dis | Etude prospective de 24 semaines explorant l'efficacite et la tolerance a court terme de l'abatacept dans la spondylarthrite ankylosante active |
+| [27856659](https://pubmed.ncbi.nlm.nih.gov/27856659/) | 2016 | Revue | Rheumatology (Oxford) | Les inhibiteurs du TNF sont tres efficaces dans la spondylarthrite axiale ; les biotherapies non anti-TNF, dont l'abatacept, ne sont pas efficaces |
+| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Revue | Best Pract Res Clin Rheumatol | Traitement de la spondylarthrite au-dela du blocage du TNF |
+| [31171316](https://pubmed.ncbi.nlm.nih.gov/31171316/) | 2018 | Revue | Best Pract Res Clin Rheumatol | Options emergentes dans la spondylarthrite ; les inhibiteurs du TNF puis de l'IL-17 sont les options etablies |
+| [28612180](https://pubmed.ncbi.nlm.nih.gov/28612180/) | 2017 | Revue systematique | BioDrugs | Immunogenicite des biotherapies dans les maladies inflammatoires chroniques |
+| [29278210](https://pubmed.ncbi.nlm.nih.gov/29278210/) | 2017 | Revue | Curr Pharm Biotechnol | Biotherapies dans les arthrites inflammatoires, dont la spondylarthrite |
 
----
+## Informations de Marche en France
 
-## Informations de Marché en France
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 61927584 | ORENCIA 125 mg, stylo prérempli (annulée) | Solution injectable | Non renseignée |
-| 60627865 | ORENCIA 250 mg, perfusion (annulée) | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 61070305 | ORENCIA 50 mg, seringue préremplie (annulée) | Solution injectable | Non renseignée |
-| 63044647 | ORENCIA 87,5 mg, seringue préremplie (annulée) | Solution injectable | Non renseignée |
-| 69256710 | ORENCIA 125 mg, seringue préremplie (annulée) | Solution injectable | Non renseignée |
+| 61927584 | ORENCIA 125 mg, solution injectable en stylo preremplie | Solution injectable | Non renseignee |
+| 60627865 | ORENCIA 250 mg, poudre pour solution a diluer pour perfusion | Poudre pour solution a diluer pour perfusion | Non renseignee |
+| 61070305 | ORENCIA 50 mg, solution injectable en seringue preremplie | Solution injectable | Non renseignee |
+| 63044647 | ORENCIA 87,5 mg, solution injectable en seringue preremplie | Solution injectable | Non renseignee |
+| 69256710 | ORENCIA 125 mg, solution injectable en seringue preremplie | Solution injectable | Non renseignee |
 
-Les cinq AMM sont au statut « annulée » ; aucune AMM valide n'est recensée dans les données compilées.
+## Considerations de Securite
 
----
+- **Interactions medicamenteuses** : 73 interactions sont recensees. Parmi celles listees, plusieurs sont de niveau majeur : adalimumab, baricitinib, certolizumab pegol et le vaccin BCG (souche Tice, vivant). Des interactions de niveau modere concernent notamment le roflumilast, l'alemtuzumab, l'anakinra, le canakinumab, l'azathioprine et plusieurs vaccins vivants. Les interactions avec les sels de zinc sont mineures.
+- Les mises en garde et contre-indications de la notice ne sont pas disponibles dans les donnees compilees : veuillez consulter la notice pour ces informations.
 
-## Considérations de Sécurité
+## Conclusion et Prochaines Etapes
 
-- **Interactions médicamenteuses** : 73 interactions sont recensées. Parmi celles listées :
-  - **Majeures** : adalimumab, baricitinib, certolizumab pegol, vaccin BCG (souche Tice, vivant)
-  - **Modérées** : roflumilast, alefacept, alemtuzumab, anakinra, azathioprine, canakinumab, vaccin contre l'anthrax, vaccin contre le choléra (vivant), vaccin adénovirus de type 4, *Candida albicans*, *Bifidobacterium longum infantis*
-  - **Mineures** : sels de zinc (acétate, gluconate, sulfate, chlorure)
-
-Les associations avec d'autres biothérapies immunosuppressives et les vaccins vivants appellent une vigilance particulière. Pour les mises en garde et contre-indications, veuillez consulter la notice.
-
----
-
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
+**Decision : Hold**
 
 **Justification :**
-- Le score du modèle est très élevé, mais les preuves se limitent à des cas cliniques contradictoires, sans essai dédié (niveau L4). Les données de sécurité issues de la notice sont absentes et les AMM françaises sont toutes annulées.
+La seule etude directement pertinente est un pilote ouvert de petite taille, sans resultat controle, et la litterature disponible indique que l'abatacept n'est pas efficace dans la spondylarthrite axiale, alors que les inhibiteurs du TNF et de l'IL-17 restent les traitements de reference. Le score eleve du modele ne suffit pas a justifier une avancee.
 
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante pour le criblage de sécurité)
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Réaliser une série de cas plus large ou une étude observationnelle comparative dans la vascularite rhumatoïde
-- Clarifier le statut réglementaire en France (AMM annulées) et la disponibilité réelle du produit
-
----
-
-### Note sur les autres indications prédites
-
-Les données compilées signalent d'autres pistes plus documentées, mais la recommandation du présent rapport porte sur la première indication prédite :
-
-- **Polyarthrite juvénile idiopathique polyarticulaire** (L1, Proceed with Guardrails) : plusieurs essais de phase 3 (par exemple NCT00095173, NCT01844518). Il s'agit toutefois d'une indication déjà connue, et non d'un véritable repositionnement.
-- **Spondylopathie inflammatoire** (L2) : essai de phase 3 positif dans le rhumatisme psoriasique (NCT01860976), mais données limitées dans la spondylarthrite ankylosante (petit essai pilote ouvert NCT00558506).
-- **Spondylarthrite ankylosante** (L3, Hold) : données faibles ; les anti-TNF et anti-IL-17 restent les références.
-- Plusieurs autres prédictions (hypermobilité du coccyx, maladie de Kümmell, syndrome brachydactylie-syndactylie, etc.) n'ont ni essai ni littérature, et sont probablement des artefacts du graphe.
+**Pour avancer, les elements suivants sont necessaires :**
+- Resultats publies et analyse detaillee des etudes pilotes (NCT00558506 et PMID 21415053)
+- Un essai randomise controle contre placebo dans la spondylarthrite ankylosante, si un rationnel mecanistique nouveau le justifie
+- Donnees detaillees sur le mecanisme d'action
+- Mises en garde et contre-indications issues de la notice
+- Plan de surveillance de securite, notamment du risque infectieux et des associations avec d'autres biotherapies
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

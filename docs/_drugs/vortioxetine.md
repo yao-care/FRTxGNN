@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vortioxetine
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 821
-evidence_level: L5
-indication_count: 5
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Vortioxetine : nouvelle indication prédite, Mélancolie (niveau de preuve L5). Indication d'origine : Dépression unipolaire, trouble dépressif majeur, trouble anxieux"
 monitor_inn: "vortioxetine"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
+description: "Vortioxetine : nouvelle indication prédite, Neurotic disorder (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L1** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Vortioxétine : De la dépression unipolaire à la mélancolie
+## Vortioxetine: Neurotic disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -42,7 +42,7 @@ La vortioxétine est un antidépresseur initialement utilisé pour le traitement
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **mélancolie**, indication la mieux documentée parmi les cinq prédictions examinées, avec **6 essais cliniques** (dont 3 essais de Phase 3 contrôlés contre placebo) et **20 publications** associées.
 Ces preuves portent toutefois sur le trouble dépressif majeur en général et non sur le sous-type mélancolique en particulier.
 
-> Remarque : la prédiction au rang 1 de TxGNN est le « trouble névrotique » (score 99,24 %), mais elle ne repose que sur une seule publication de faible niveau. Ce rapport retient la mélancolie, qui dispose du meilleur corpus de preuves.
+> Remarque : la prédiction au rang 1 de TxGNN est le « trouble névrotique » (score 0,9924), mais elle ne repose que sur une seule publication de faible niveau. Ce rapport retient la mélancolie, qui dispose du meilleur corpus de preuves.
 
 ---
 
@@ -50,12 +50,12 @@ Ces preuves portent toutefois sur le trouble dépressif majeur en général et n
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dépression unipolaire, trouble dépressif majeur, trouble anxieux (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Mélancolie |
-| Score de Prédiction TxGNN | 99,09 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Neurotic disorder |
+| Score de Prédiction TxGNN | 0.9924 |
 | Niveau de Preuve | L1 (essais de Phase 3 dans la maladie parente, non spécifiques au sous-type) |
-| Statut de Marché en France | ✗ Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ---
@@ -108,12 +108,11 @@ Aucune de ces publications ne porte spécifiquement sur la mélancolie : il s'ag
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60316362 | BRINTELLIX 20 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61439909 | BRINTELLIX 15 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62792157 | BRINTELLIX 5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68562572 | BRINTELLIX 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 60316362 | BRINTELLIX 20 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61439909 | BRINTELLIX 15 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62792157 | BRINTELLIX 5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 68562572 | BRINTELLIX 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
-Les quatre AMM, détenues par LUNDBECK (Danemark), sont annulées ; aucune n'est actuellement valide.
 
 ---
 

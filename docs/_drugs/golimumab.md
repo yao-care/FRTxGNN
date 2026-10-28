@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 370
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Golimumab : nouvelle indication prédite, Vascularite rhumatoïde (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde, rhumatisme psoriasique…"
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Golimumab : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace dans la **vascularite rhu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, rhumatisme psoriasique, spondylarthrite ankylosante, rectocolite hémorragique et maladies inflammatoires de l'intestin (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Vascularite rhumatoïde |
-| Score de Prédiction TxGNN | 99,73 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypermobility of coccyx |
+| Score de Prédiction TxGNN | 0.9967 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ---
@@ -93,12 +93,12 @@ Ce raisonnement reste toutefois théorique. Les données disponibles concernent 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 67700426 | SIMPONI 100 mg, solution injectable en seringue préremplie | Solution injectable | Annulée |
-| 60035714 | SIMPONI 50 mg, solution injectable en seringue préremplie | Solution injectable | Annulée |
-| 62534114 | SIMPONI 100 mg, solution injectable en stylo prérempli | Solution injectable | Annulée |
-| 62222050 | SIMPONI 50 mg, solution injectable en stylo pré-rempli | Solution injectable | Annulée |
+| 67700426 | SIMPONI 100 mg, solution injectable en seringue préremplie | Solution injectable | Active |
+| 60035714 | SIMPONI 50 mg, solution injectable en seringue préremplie | Solution injectable | Active |
+| 62534114 | SIMPONI 100 mg, solution injectable en stylo prérempli | Solution injectable | Active |
+| 62222050 | SIMPONI 50 mg, solution injectable en stylo pré-rempli | Solution injectable | Active |
 
-Les 4 AMM, détenues par JANSSEN CILAG INTERNATIONAL NV, sont annulées. Aucune AMM valide n'est actuellement recensée en France.
+Les 4 AMM, détenues par JANSSEN CILAG INTERNATIONAL NV, sont annulées.
 
 ---
 
@@ -123,7 +123,6 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,73 %) et le mécanisme anti-TNF est plausible, mais aucune preuve directe n'existe : l'unique essai enregistré n'est pas pertinent et la littérature se limite à des cas cliniques, des revues et des données sur la polyarthrite rhumatoïde (niveau L4).
 - Les signaux de sécurité des cas cliniques et l'absence d'AMM valide en France justifient d'attendre des données plus solides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

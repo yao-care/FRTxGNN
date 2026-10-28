@@ -4,17 +4,17 @@ title: Rocuronium
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 677
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Rocuronium : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non disponible dans les données compilées"
 monitor_inn: "ROCURONIUM"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
 ---
 
 # Rocuronium
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 |------|------|
 | Indication Originale | Non disponible dans les données compilées |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,90 % |
+| Score de Prédiction TxGNN | 0,9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | Hold |
 
@@ -57,9 +57,9 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base compilée. D'après les connaissances pharmacologiques générales, le rocuronium est un myorelaxant non dépolarisant : il agit comme antagoniste compétitif des récepteurs nicotiniques de l'acétylcholine à la jonction neuromusculaire.
 
-Aucun mécanisme établi ne relie cette action à la physiopathologie de la migraine (CGRP, activation trigémino-vasculaire, dépression corticale envahissante). Le score élevé du modèle est très probablement un artefact du graphe de connaissances. La toxine botulique, qui réduit aussi la transmission neuromusculaire et s'utilise dans la migraine chronique, agit par un autre mécanisme (inhibition de la libération présynaptique, modulation des nocicepteurs périphériques) : l'analogie est donc faible.
+Aucun mécanisme établi ne relie cette action à la physiopathologie de la migraine (CGRP, activation trigémino-vasculaire, dépression corticale envahissante). Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies voisines, non une preuve biologique. La toxine botulique, qui réduit aussi la transmission neuromusculaire et s'utilise dans la migraine chronique, agit par un autre mécanisme (inhibition de la libération présynaptique, modulation des nocicepteurs périphériques) : l'analogie est donc faible.
 
-Les autres prédictions du modèle (migraine avec aura du tronc cérébral, syndrome de la queue de cheval, susceptibilité génétique à la migraine, atrophodermie vermiculée, uléryhtème ophryogène, vessie neurogène « obsolète », syndrome de l'intestin irritable, neuropathie sciatique, céphalées) ne disposent d'aucune justification mécanistique ni d'aucune preuve clinique solide. La plupart découlent de la proximité de nœuds dans le graphe.
+Les autres prédictions du modèle (migraine avec aura du tronc cérébral, syndrome de la queue de cheval, atrophodermie vermiculée, ulérythème ophryogène, vessie neurogène « obsolète », syndrome de l'intestin irritable, neuropathie sciatique, céphalées) ne disposent d'aucune justification mécanistique ni d'aucune preuve clinique solide. Leurs scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises entre maladies voisines, non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -92,7 +92,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, non 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai pertinent, aucune publication, aucun mécanisme plausible. Le médicament n'est pas commercialisé en France (0 AMM). Un myorelaxant systémique entraînant une paralysie respiratoire est difficilement envisageable pour une pathologie chronique comme la migraine.
+- La prédiction repose uniquement sur le modèle TxGNN (deep learning, niveau L5) : aucun essai pertinent, aucune publication, aucun mécanisme plausible. Un myorelaxant systémique entraînant une paralysie respiratoire est difficilement envisageable pour une pathologie chronique comme la migraine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications), qui bloque actuellement le criblage de sécurité.

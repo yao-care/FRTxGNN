@@ -47,17 +47,17 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de
 |------|------|
 | Indication Originale | Non précisée dans les données compilées (antiseptique local pour la gorge, d'après les produits commercialisés) |
 | Nouvelle Indication Prédite | Syndrome de la queue de cheval |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0,9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 16 (0 valide, 16 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'amylmétacrésol est un antiseptique local présent dans des pastilles contre le mal de gorge, seul ou associé à l'alcool dichlorobenzylique et/ou à la lidocaïne.
 
-**La prédiction ne repose sur aucun lien mécanistique démontré.** Le syndrome de la queue de cheval est une urgence chirurgicale due à la compression des racines nerveuses. Un antiseptique de pastille n'a aucune pertinence pharmacologique plausible pour cette affection. Le score élevé (0,9999) est une sortie purement computationnelle du modèle, probablement liée à des proximités dans le graphe de connaissances.
+**La prédiction ne repose sur aucun lien mécanistique démontré.** Le syndrome de la queue de cheval est une urgence chirurgicale due à la compression des racines nerveuses. Un antiseptique de pastille n'a aucune pertinence pharmacologique plausible pour cette affection. Le score élevé (0,9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du modèle vont dans le même sens : syndrome de l'intestin irritable, vessie neurogène (terme obsolète), puis une série d'affections oculaires (uvéite, panuvéite, maladies de l'iris et du corps ciliaire, tumeurs du corps ciliaire). Aucune n'est étayée par un essai ou une publication. L'uvéite antérieure infectieuse est la plus plausible conceptuellement (propriété antimicrobienne), mais reste sans aucune donnée de formulation ophtalmique, de sécurité ou de pénétration intraoculaire. Pour le syndrome de l'intestin irritable, un effet de type anesthésique local est parfois évoqué pour des ingrédients voisins, mais cela reste spéculatif, sans exposition systémique ou digestive établie.
 

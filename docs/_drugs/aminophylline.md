@@ -4,17 +4,17 @@ title: Aminophylline
 parent: Preuves modérées (L3-L4)
 nav_order: 57
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Aminophylline : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "AMINOPHYLLINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 ---
 
 # Aminophylline
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*mi
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,88 % |
+| Score de Prédiction TxGNN | 0,9988 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Autorisation annulée uniquement |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -88,7 +88,7 @@ Aucun essai clinique associé enregistré actuellement pour la migraine.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69586398 | AMINOPHYLLINE RENAUDIN 250 mg/10 ml, solution pour perfusion (statut : annulée) | Solution pour perfusion | Non renseignée |
+| 69586398 | AMINOPHYLLINE RENAUDIN 250 mg/10 ml, solution pour perfusion (statut : active) | Solution pour perfusion | Non renseignée |
 
 ---
 
@@ -123,12 +123,11 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 
 | Maladie | Score TxGNN | Niveau de preuve | Recommandation |
 |------|------|------|------|
-| Hypertension pulmonaire | 99,23 % | L3 | Question de recherche : 1 essai de Phase 1 (sécurité avec l'ambrisentan, 18 volontaires sains) et des études hémodynamiques anciennes ou précliniques ; aucun essai d'efficacité de Phase 2/3 |
-| Migraine avec aura du tronc cérébral | 99,84 % | L5 | Hold : aucune preuve spécifique |
-| Migraine avec ou sans aura, susceptibilité | 99,82 % | L4 | Hold : doublon de la migraine, sans preuve indépendante |
-| Angor de Prinzmetal | 99,33 % | L4 | Hold : signal de sécurité plutôt que bénéfice |
-| Neuropathie sciatique | 99,07 % | L5 | Hold : étude préclinique unique |
-| Hyperthyroïdie | 99,06 % | L4 | Hold : risque de sécurité plus plausible qu'un bénéfice |
+| Hypertension pulmonaire | 0,9923 | L3 | Question de recherche : 1 essai de Phase 1 (sécurité avec l'ambrisentan, 18 volontaires sains) et des études hémodynamiques anciennes ou précliniques ; aucun essai d'efficacité de Phase 2/3 |
+| Migraine avec aura du tronc cérébral | 0,9984 | L5 | Hold : aucune preuve spécifique |
+| Angor de Prinzmetal | 0,9933 | L5 | Hold : signal de sécurité plutôt que bénéfice |
+| Neuropathie sciatique | 0,9907 | L5 | Hold : étude préclinique unique |
+| Hyperthyroïdie | 0,9906 | L4 | Hold : risque de sécurité plus plausible qu'un bénéfice |
 
 Les autres prédictions (atrophodermie vermiculée, ulérythème ophryogène, cardiopathie cyphoscoliotique) sont de niveau L5 (prédiction du modèle seule) et restent en Hold.
 ## Avertissement

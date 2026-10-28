@@ -4,17 +4,17 @@ title: Methylprednisolone
 parent: Preuves modérées (L3-L4)
 nav_order: 490
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Methylprednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L3). Indication d'origine : Maladie auto-immune"
 monitor_inn: "methylprednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Méthylprednisolone : Des maladies auto-immunes à la pelade (alopécie areata)
+## Methylprednisolone: Pelade (alopecia areata)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **1 essai clinique** et **20 publications** soutenant actuellement cette di
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie auto-immune (texte d'indication des AMM non disponible ; indications issues du graphe de connaissances : maladies auto-immunes, maladie de Crohn, insuffisance surrénalienne, leucémie aiguë lymphoblastique, etc.) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Pelade (alopecia areata) |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 11 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -87,7 +87,7 @@ Les publications ci-dessous sont les plus pertinentes parmi celles compilées ; 
 
 ## Informations de Marché en France
 
-Toutes les AMM compilées sont au statut « annulé » ; le texte des indications approuvées n'est pas disponible.
+Les 11 AMM compilées sont toutes valides (11 sur 11) ; le texte des indications approuvées n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -113,7 +113,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - La pelade est une maladie auto-immune pour laquelle la corticothérapie en pulses dispose d'un corpus clinique substantiel (un essai de phase 4 terminé et de nombreuses études ouvertes et rétrospectives), mais sans ECR de phase 3 ; le niveau de preuve reste donc L3. Les rechutes fréquentes et la toxicité des corticoïdes systémiques imposent des garde-fous.
-- Toutes les AMM françaises recensées sont annulées, ce qui limite la faisabilité réglementaire immédiate.
+- Les 11 AMM françaises recensées sont toutes valides (11 sur 11) ; le médicament est commercialisé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles de la notice (ANSM), étape bloquante pour le criblage de sécurité

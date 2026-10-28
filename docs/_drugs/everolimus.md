@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Everolimus
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 311
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Everolimus : nouvelle indication prédite, Liposarcome (niveau de preuve L5). Indication d'origine : Carcinome rénal à cellules claires"
 monitor_inn: "everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
+description: "Everolimus : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Everolimus
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Évérolimus : Du Carcinome Rénal à Cellules Claires au Liposarcome
+## Everolimus: Liposarcome (liposarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ avec **1 essai clinique** (phase II, en association) et **4 publications** (dont
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome rénal à cellules claires (les textes d'indication des AMM ne sont pas renseignés ; l'indication provient du graphe de connaissances) |
-| Nouvelle Indication Prédite | Liposarcome |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Liposarcome (liposarcoma) |
+| Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L2 (à interpréter avec prudence : phase II en association, à bras unique) |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
 
@@ -79,15 +79,15 @@ Cette hypothèse reste toutefois à confirmer : le seul soutien clinique est un 
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées, aucune n'est valide actuellement. Les textes d'indication approuvée ne sont pas renseignés. Principales AMM (5 sur 20) :
+Les textes d'indication approuvée ne sont pas renseignés. Principales AMM (5 sur 20) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 64444441 | EVEROLIMUS SANDOZ 10 mg, comprimé | Comprimé | Annulée |
-| 64201368 | AFINITOR 10 mg, comprimé | Comprimé | Annulée |
-| 66520037 | VOTUBIA 10 mg, comprimé | Comprimé | Annulée |
-| 60658711 | CERTICAN 0,5 mg, comprimé | Comprimé | Annulée |
-| 64945242 | VOTUBIA 3 mg, comprimé dispersible | Comprimé dispersible | Annulée |
+| 64444441 | EVEROLIMUS SANDOZ 10 mg, comprimé | Comprimé | Active |
+| 64201368 | AFINITOR 10 mg, comprimé | Comprimé | Active |
+| 66520037 | VOTUBIA 10 mg, comprimé | Comprimé | Active |
+| 60658711 | CERTICAN 0,5 mg, comprimé | Comprimé | Active |
+| 64945242 | VOTUBIA 3 mg, comprimé dispersible | Comprimé dispersible | Active |
 
 ## Cytotoxicité
 
@@ -114,7 +114,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 **Justification :**
 - Le seul soutien clinique est un essai de phase II à bras unique associant l'évérolimus au ribociclib, sans résultats d'efficacité confirmés, et la contribution de l'évérolimus ne peut être isolée.
-- Les données de sécurité officielles sont manquantes (bloquant pour le criblage de sécurité), et toutes les AMM françaises sont annulées.
+- Les données de sécurité officielles sont manquantes (bloquant pour le criblage de sécurité), et le médicament est commercialisé en France, avec 20 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats publiés d'efficacité de l'essai NCT03114527 (taux de réponse, survie sans progression), idéalement avec une comparaison permettant d'isoler l'effet de l'évérolimus

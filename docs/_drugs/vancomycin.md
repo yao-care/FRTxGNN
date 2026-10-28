@@ -6,9 +6,9 @@ nav_order: 804
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vancomycin : nouvelle indication prédite, Sclérodermie diffuse (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
+description: "Vancomycin : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vancomycin
@@ -33,14 +33,14 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Vancomycine : Des Infections à Gram positif à la Sclérodermie Diffuse
+## Vancomycin: Sclérodermie diffuse (diffuse scleroderma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La vancomycine est un antibiotique de la famille des glycopeptides, initialement utilisé pour traiter des infections à bactéries Gram positif (colite à *Clostridium difficile*, infections à staphylocoques, endocardites, etc.).
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **sclérodermie diffuse**, avec un score élevé, mais **aucun essai clinique** et **une seule publication** (un rapport de cas sans lien direct avec la sclérodermie) n'étayent cette prédiction.
-Cette prédiction relève très probablement d'un artefact du graphe de connaissances plutôt que d'une piste thérapeutique réelle.
+Cette prédiction relève très probablement de similarités apprises par le modèle TxGNN (apprentissage profond) entre maladies apparentées, et non d'une piste thérapeutique réelle.
 
 ---
 
@@ -48,12 +48,12 @@ Cette prédiction relève très probablement d'un artefact du graphe de connaiss
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données d'AMM ; les indications du graphe de connaissances incluent la colite à *Clostridium difficile*, les infections à *Staphylococcus aureus*, l'endocardite et la pneumonie staphylococcique |
-| Nouvelle Indication Prédite | Sclérodermie diffuse |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sclérodermie diffuse (diffuse scleroderma) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Cette prédiction relève très probablement d'un artefact du graphe de connaiss
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, la vancomycine est un antibiotique glycopeptidique qui inhibe la synthèse de la paroi cellulaire des bactéries Gram positif. Son efficacité est établie dans les infections à staphylocoques résistants, l'endocardite et la colite à *C. difficile* (par voie orale).
 
-**La prédiction ne paraît pas plausible sur le plan mécanistique.** La sclérodermie diffuse est une maladie auto-immune et fibrosante, sans cause bactérienne connue qu'un antibiotique ciblant la paroi bactérienne pourrait traiter. Le score élevé (99,92 %) semble provenir de la structure du graphe de connaissances et non d'un lien biologique réel.
+**La prédiction ne paraît pas plausible sur le plan mécanistique.** La sclérodermie diffuse est une maladie auto-immune et fibrosante, sans cause bactérienne connue qu'un antibiotique ciblant la paroi bactérienne pourrait traiter. Le score élevé (0,9992) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non un lien biologique réel.
 
 La seule publication associée porte sur un cas d'érythrodermie avec sepsis et éosinophilie. Elle ne concerne pas la sclérodermie et n'apporte aucune preuve d'efficacité.
 
@@ -86,7 +86,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64022454 | VANCOMYCINE SANDOZ 500 mg, poudre pour solution à diluer pour perfusion ou pour solution buvable (SANDOZ) – AMM annulée | Poudre pour solution à diluer pour perfusion ou buvable | Non renseignée |
+| 64022454 | VANCOMYCINE SANDOZ 500 mg, poudre pour solution à diluer pour perfusion ou pour solution buvable (SANDOZ) – AMM active | Poudre pour solution à diluer pour perfusion ou buvable | Non renseignée |
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Frovatriptan
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 352
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Frovatriptan : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Migraine (avec ou sans aura)"
 monitor_inn: "frovatriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Frovatriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Frovatriptan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Frovatriptan : De la migraine à la migraine avec aura du tronc cérébral
+## Frovatriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le frovatriptan est un triptan (agoniste des récepteurs sérotoninergiques 5-HT1B/1D), initialement utilisé pour le traitement de la migraine, avec ou sans aura.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais aucun essai clinique n'est enregistré pour cette indication précise ; **18 publications** portent sur le frovatriptan dans la migraine en général, dont aucune ne traite spécifiquement ce sous-type.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (avec ou sans aura) |
-| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
-| Score de Prédiction TxGNN | 99,98 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Atrophoderma vermiculata |
+| Score de Prédiction TxGNN | 0.9973 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -61,7 +60,6 @@ La migraine avec aura du tronc cérébral est un sous-type de la migraine avec a
 
 Cependant, le score élevé du modèle reflète surtout la proximité avec l'indication parente, et non une preuve nouvelle. Par prudence théorique (risque de vasoconstriction), les triptans sont habituellement évités ou utilisés avec précaution dans la migraine avec aura du tronc cérébral (anciennement migraine basilaire) et la migraine hémiplégique. Aucune donnée recueillie n'aborde ce sous-type.
 
-Les deux autres prédictions (atrophodermie vermiculée, uléryhtème ophryogène) n'ont aucun lien mécanistique plausible, ni essai, ni publication ; elles sont probablement des artefacts de proximité dans le graphe et ne sont pas retenues.
 
 ## Preuves d'Essais Cliniques
 
@@ -90,11 +88,11 @@ Les cinq AMM identifiées sont toutes annulées ; le texte des indications appro
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65235238 | FROVATRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Annulée |
-| 69591915 | ISIMIG 2,5 mg | Comprimé pelliculé | Annulée |
-| 60435263 | TIGREAT 2,5 mg | Comprimé pelliculé | Annulée |
-| 64046761 | FROVATRIPTAN TEVA 2,5 mg | Comprimé pelliculé | Annulée |
-| 66901771 | FROVATRIPTAN VIATRIS 2,5 mg | Comprimé pelliculé | Annulée |
+| 65235238 | FROVATRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Active |
+| 69591915 | ISIMIG 2,5 mg | Comprimé pelliculé | Active |
+| 60435263 | TIGREAT 2,5 mg | Comprimé pelliculé | Active |
+| 64046761 | FROVATRIPTAN TEVA 2,5 mg | Comprimé pelliculé | Active |
+| 66901771 | FROVATRIPTAN VIATRIS 2,5 mg | Comprimé pelliculé | Active |
 
 ## Considérations de Sécurité
 

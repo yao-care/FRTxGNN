@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 514
-evidence_level: L5
-indication_count: 5
+evidence_level: L2
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Montelukast : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice, asthme intrinsèque…"
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L2** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Montelukast : De la rhinite allergique et de l'asthme à la bronchite
+## Montelukast: Bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, av
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique, rhinite vasomotrice, asthme intrinsèque, asthme allergique (les textes d'indication des AMM ne sont pas renseignés ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L2 (selon l'évaluation compilée pour cette indication ; essai de phase 3 NCT00076973 sur la bronchiolite à RSV, sans résultats détaillés) |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -105,13 +105,12 @@ La prédiction doit donc être lue avec prudence : l'association entre l'étique
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69863646 | SINGULAIR 10 mg, comprimé pelliculé (ORGANON FRANCE) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68077576 | MONTELUKAST ACCORD HEALTHCARE 10 mg (ACCORD HEALTHCARE FRANCE) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63468069 | MONTELUKAST SANDOZ 10 mg (SANDOZ) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60069339 | MONTELUKAST TEVA 4 mg (TEVA SANTE) | Granulés | Non renseignée (AMM annulée) |
-| 61422735 | MONTELUKAST TEVA 5 mg (TEVA SANTE) | Comprimé à croquer | Non renseignée (AMM annulée) |
+| 69863646 | SINGULAIR 10 mg, comprimé pelliculé (ORGANON FRANCE) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 68077576 | MONTELUKAST ACCORD HEALTHCARE 10 mg (ACCORD HEALTHCARE FRANCE) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63468069 | MONTELUKAST SANDOZ 10 mg (SANDOZ) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60069339 | MONTELUKAST TEVA 4 mg (TEVA SANTE) | Granulés | Non renseignée (AMM active) |
+| 61422735 | MONTELUKAST TEVA 5 mg (TEVA SANTE) | Comprimé à croquer | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées, toutes annulées, aucune n'est valide actuellement.
 
 ---
 
@@ -130,7 +129,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- Les preuves concernent la bronchiolite et la bronchiolite oblitérante, pas la bronchite : la correspondance avec la prédiction est indirecte, et les essais à puissance suffisante (dont le phase 3 NCT00076973) n'ont pas de résultats détaillés dans les données compilées. Par ailleurs, toutes les AMM françaises sont annulées et les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- Les preuves concernent la bronchiolite et la bronchiolite oblitérante, pas la bronchite : la correspondance avec la prédiction est indirecte, et les essais à puissance suffisante (dont le phase 3 NCT00076973) n'ont pas de résultats détaillés dans les données compilées. Par ailleurs, le médicament est commercialisé avec 20 AMM valides, mais les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM
@@ -138,7 +137,6 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Clarifier la cible précise (bronchite chronique, bronchite éosinophilique, bronchiolite) et les résultats des essais pertinents, notamment NCT00076973 et NCT04613180
 - Élaborer un plan de surveillance neuropsychiatrique, en particulier pour les enfants
 - Examiner les interactions médicamenteuses compte tenu de leur nombre élevé
-- Clarifier la situation réglementaire en France, où aucune AMM n'est valide
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 330
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Flubendazole : nouvelle indication prédite, Carcinome de la vessie (urinary bladder carcinoma) (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (texte d'indicatio…"
 monitor_inn: "FLUBENDAZOLE"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
+description: "Flubendazole : nouvelle indication prédite, Carcinome de la vessie (urinary bladder carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Flubendazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Flubendazole : D'un antiparasitaire à usage humain au carcinome de la vessie
+## Flubendazole: Carcinome de la vessie (urinary bladder carcinoma)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,12 +48,12 @@ Aucun essai clinique n'est enregistré, et les deux seules publications liées �
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données compilées (texte d'indication vide pour les deux AMM) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Predite | Carcinome de la vessie (urinary bladder carcinoma) |
-| Score de Prediction TxGNN | 99,99 % |
+| Score de Prediction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement) |
-| Statut de Marche en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 
 Remarque : pour la tumeur de la vessie au sens large (« urinary bladder neoplasm », 2e prédiction), le niveau de preuve est L4 (deux études précliniques indirectes sur le fenbendazole), avec la mention « question de recherche ».
@@ -64,7 +64,7 @@ Remarque : pour la tumeur de la vessie au sens large (« urinary bladder neoplas
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le flubendazole fait partie des benzimidazoles antihelminthiques, qui se lient à la tubuline et perturbent la polymérisation des microtubules. Ce mécanisme est plausiblement pertinent pour la prolifération des cellules cancéreuses, car les microtubules sont indispensables à la division cellulaire.
 
-Le lien avec l'indication d'origine reste indirect : le flubendazole était utilisé contre les parasites intestinaux, et la prédiction vers un cancer relève d'un raisonnement de classe pharmacologique, non d'une preuve directe. Le score très élevé du modèle (99,99 %) est à interpréter avec prudence : de nombreuses tumeurs de la vessie, y compris des sous-types rares (adénocarcinome colloïde, urachal, papillome malpighien bénin), obtiennent des scores quasi identiques, ce qui suggère une propagation à partir du nœud général « cancer de la vessie » dans le graphe de connaissances plutôt qu'une biologie spécifique à chaque sous-type.
+Le lien avec l'indication d'origine reste indirect : le flubendazole était utilisé contre les parasites intestinaux, et la prédiction vers un cancer relève d'un raisonnement de classe pharmacologique, non d'une preuve directe. Le score très élevé du modèle TxGNN (apprentissage profond) (0,9999) est à interpréter avec prudence : de nombreuses tumeurs de la vessie, y compris des sous-types rares (adénocarcinome colloïde, urachal, papillome malpighien bénin), obtiennent des scores quasi identiques. Ce score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique spécifique à chaque sous-type.
 
 Les deux publications disponibles (2024 et 2026) concernent le fenbendazole, un benzimidazole structurellement proche : l'une associe l'induction de ferroptose à une photothérapie thermique et à une double immunothérapie, l'autre associe le fenbendazole en instillation intravésicale à CRISPR-Cas13a. Elles semblent précliniques d'après leur titre (résumés non examinés). Elles soutiennent une plausibilité de classe, mais pas une efficacité du flubendazole.
 
@@ -91,8 +91,8 @@ Aucune publication portant sur le flubendazole dans cette indication n'est dispo
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 68636624 | FLUVERMAL 2 POUR CENT, suspension buvable (KENVUE FRANCE) – annulée | Suspension buvable | Non renseignée |
-| 60968336 | FLUVERMAL, comprimé (KENVUE FRANCE) – annulée | Comprimé | Non renseignée |
+| 68636624 | FLUVERMAL 2 POUR CENT, suspension buvable (KENVUE FRANCE) – active | Suspension buvable | Non renseignée |
+| 60968336 | FLUVERMAL, comprimé (KENVUE FRANCE) – active | Comprimé | Non renseignée |
 
 ---
 
@@ -109,7 +109,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Decision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) pour le carcinome de la vessie ; aucun essai clinique n'existe et les seules publications concernent le fenbendazole, non le flubendazole. Les données de sécurité issues de la notice font défaut, ce qui bloque l'évaluation de sécurité, et aucune AMM n'est valide en France.
+- La prédiction repose uniquement sur le modèle (L5) pour le carcinome de la vessie ; aucun essai clinique n'existe et les seules publications concernent le fenbendazole, non le flubendazole.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications) afin de pouvoir réaliser le criblage de sécurité

@@ -6,9 +6,9 @@ nav_order: 457
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lomustine : nouvelle indication prédite, Lymphosarcome (niveau de preuve L2). Indication d'origine : Lymphome de Hodgkin et tumeurs cérébrales"
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
+description: "Lomustine : nouvelle indication prédite, Lymphosarcome (lymphosarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lomustine
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Lomustine : Du Lymphome de Hodgkin à la Lymphosarcome
+## Lomustine: Lymphosarcome (lymphosarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **10 essais cliniques** et **20 publications** soutenant actuellement cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lymphome de Hodgkin et tumeurs cérébrales (indications issues du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Lymphosarcome |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Lymphosarcome (lymphosarcoma) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Retiré (AMM annulées uniquement) |
-| Nombre d'AMM | 2 (0 valide, 2 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 2) |
+| Nombre d'AMM | 2 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -96,7 +96,7 @@ Les preuves actuelles se limitent à de petits essais de phase 2 portant sur des
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66274639 | LOMUSTINE MEDAC 40 mg, gélule (annulée) | Gélule | Non renseignée |
+| 66274639 | LOMUSTINE MEDAC 40 mg, gélule (active) | Gélule | Non renseignée |
 | 69651223 | BELUSTINE 40 mg, gélule (annulée) | Gélule | Non renseignée |
 
 ## Cytotoxicité

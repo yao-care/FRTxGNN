@@ -4,17 +4,17 @@ title: Nabumetone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 520
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Nabumetone : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose, arthropathie"
 monitor_inn: "nabumetone"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "rheumatoid nodulosis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis"]
+description: "Nabumetone : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseigné…"
 ---
 
 # Nabumetone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Nabumétone : De la polyarthrite rhumatoïde à la dysplasie acromésomélique de type Hunter-Thompson
+## Nabumetone: Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La nabumétone est un anti-inflammatoire non stéroïdien (AINS), initialement utilisé pour traiter la polyarthrite rhumatoïde, l'arthrose et les arthropathies.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dysplasie acromésomélique de type Hunter-Thompson**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction.
-Cette prédiction repose uniquement sur le modèle (niveau de preuve L5) et, selon l'analyse mécanistique, elle est probablement un artefact du graphe de connaissances.
+Cette prédiction repose uniquement sur le modèle TxGNN (apprentissage profond) (niveau de preuve L5) ; son score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, arthrose, arthropathie (source : graphe de connaissances, le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La dysplasie acromésomélique de type Hunter-Thompson est une maladie squelettique rare, due à des mutations avec perte de fonction de *CDMP1/GDF5* qui perturbent la formation du cartilage. L'inhibition des COX ne corrige pas ce défaut génétique. **Aucun lien mécanistique établi n'a été identifié.**
 
-Le score élevé du modèle reflète vraisemblablement la proximité, dans le graphe de connaissances, entre ce médicament et des phénotypes squelettiques ou articulaires, plutôt qu'un véritable lien pharmacologique. Cette prédiction doit donc être considérée avec une grande prudence.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Cette prédiction doit donc être considérée avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,8 +74,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 64224915 | NABUCOX 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée | Annulée |
-| 60774655 | NABUCOX 1 g, comprimé dispersible | Comprimé dispersible | Non renseignée | Annulée |
+| 64224915 | NABUCOX 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée | Active |
+| 60774655 | NABUCOX 1 g, comprimé dispersible | Comprimé dispersible | Non renseignée | Active |
 
 Les deux AMM, détenues par EXPANSCIENCE, sont annulées : il n'existe actuellement aucune présentation commercialisée en France.
 

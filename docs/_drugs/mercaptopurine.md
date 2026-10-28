@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 480
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Mercaptopurine : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L5). Indication d'origine : Leucémie aiguë lymphoblastique"
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Mercaptopurine : De la leucémie aiguë lymphoblastique à la leucémie myéloïde
+## Mercaptopurine: Leucémie myéloïde (myeloid leukemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **leucémie myélo
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie aiguë lymphoblastique (indication issue du graphe de connaissances, le texte d'indication de l'AMM française n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,94 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
+| Score de Prédiction TxGNN | 0.9994 |
 | Niveau de Preuve | L2 (voir la note ci-dessous) |
-| Statut de Marché en France | Autorisation annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (0 valide, 1 annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 *Note sur le niveau de preuve :* en application stricte des critères, six essais de phase 3 terminés sont listés, ce qui correspondrait à L1. Aucun ne teste toutefois la mercaptopurine comme variable étudiée : elle n'y figure qu'au sein de schémas de chimiothérapie ou de traitements d'entretien. J'ai donc retenu L2, plus prudent.
@@ -97,7 +97,7 @@ Il faut rester prudent : aucune des données ne permet d'attribuer un bénéfice
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63377491 | PURINETHOL 50 mg, comprimé | Comprimé | Non renseignée (AMM annulée, laboratoire ASPEN PHARMA TRADING, Irlande) |
+| 63377491 | PURINETHOL 50 mg, comprimé | Comprimé | Non renseignée (AMM active, laboratoire ASPEN PHARMA TRADING, Irlande) |
 
 ## Cytotoxicité
 
@@ -123,7 +123,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être consult
 
 **Justification :**
 - Les données sur la leucémie myéloïde sont indirectes : la mercaptopurine n'est jamais la variable testée dans les essais de phase 3 listés, et le seul essai ciblant le médicament (phase 1, 10 patients) est précoce.
-- Aucune AMM valide n'est disponible en France et les informations de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Le médicament est commercialisé en France (1 AMM valide sur 1), mais les informations de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM, et vérifier la disponibilité réelle d'une formulation commercialisée.

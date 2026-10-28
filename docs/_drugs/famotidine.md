@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Famotidine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 316
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Famotidine : nouvelle indication prédite, Maladie ulcéreuse peptique (peptic ulcer disease) (niveau de preuve L1). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "FAMOTIDINE"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
+description: "Famotidine : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Famotidine : Des Ulcères Gastroduodénaux à la Maladie Ulcéreuse Peptique (Prévention des Récidives)
+## Famotidine: Duodenal obstruction
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La famotidine est un antagoniste des récepteurs H2 de l'histamine, initialement utilisé pour traiter l'ulcère gastrique, l'ulcère duodénal, le reflux gastro-œsophagien et le syndrome de Zollinger-Ellison.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie ulcéreuse peptique** (prévention des récidives et des ulcères induits par des médicaments), avec **7 essais cliniques** et **20 publications** soutenant actuellement cette direction.
 Cette prédiction est toutefois très proche des indications d'origine : il s'agit davantage d'une extension d'usage que d'un véritable repositionnement.
 
 ---
@@ -48,15 +47,15 @@ Cette prédiction est toutefois très proche des indications d'origine : il s'ag
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données d'AMM (les indications connues du graphe de connaissances incluent l'ulcère gastrique, le reflux gastro-œsophagien et l'ulcère duodénal) |
-| Nouvelle Indication Prédite | Maladie ulcéreuse peptique (peptic ulcer disease) |
-| Score de Prédiction TxGNN | 99,72 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Duodenal obstruction |
+| Score de Prédiction TxGNN | 0.9999 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
-> Remarque : la prédiction la mieux classée par le modèle est le reflux duodéno-gastrique (score 99,99 %), mais elle repose sur peu de preuves (niveau L4, décision Hold). La maladie ulcéreuse peptique, classée 8ᵉ, est la mieux documentée et fait l'objet de ce rapport.
+> Remarque : la prédiction la mieux classée par le modèle est le reflux duodéno-gastrique (score 0,9999), mais elle repose sur peu de preuves (niveau L4, décision Hold). La maladie ulcéreuse peptique, classée 8ᵉ, est la mieux documentée et fait l'objet de ce rapport.
 
 ---
 
@@ -106,10 +105,10 @@ Point de vigilance : plusieurs essais suggèrent que la famotidine est **inféri
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67557907 | FAMOTIDINE EG 40 mg (annulée) | Comprimé pelliculé | Non renseignée |
-| 60005856 | FAMOTIDINE EG 20 mg (annulée) | Comprimé pelliculé | Non renseignée |
+| 67557907 | FAMOTIDINE EG 40 mg (active) | Comprimé pelliculé | Non renseignée |
+| 60005856 | FAMOTIDINE EG 20 mg (active) | Comprimé pelliculé | Non renseignée |
 
-Les deux AMM sont annulées (laboratoire EG Labo). Aucune AMM valide n'est actuellement recensée dans les données compilées.
+Les deux AMM sont annulées (laboratoire EG Labo).
 
 ---
 

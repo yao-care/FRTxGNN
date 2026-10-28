@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **lymphome T cuta
 |------|------|
 | Indication Originale | Non précisée dans les données compilées pour ce rapport |
 | Nouvelle Indication Prédite | Lymphome T cutané primitif |
-| Score de Prédiction TxGNN | 99,53 % |
+| Score de Prédiction TxGNN | 0,9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -61,7 +61,7 @@ Les corticoïdes topiques sont un traitement cutané dirigé reconnu par les rec
 
 Cette prédiction reste toutefois prudente : aucune donnée spécifique au tixocortol n'a été fournie. Le score élevé du modèle reflète probablement l'appartenance à la classe des corticoïdes plutôt qu'une preuve propre à ce médicament. Le pivalate de tixocortol est d'ailleurs surtout connu comme marqueur de dépistage des allergies de contact, plus que comme agent thérapeutique.
 
-**Seconde prédiction du modèle (non retenue comme indication principale) :** la leucémie aiguë lymphoblastique (score 99,21 %, niveau L5). Les glucocorticoïdes systémiques (prednisone, dexaméthasone) sont un pilier de son traitement, mais la pharmacologie du tixocortol (action locale, faible activité systémique) est mal adaptée à une hémopathie maligne systémique. Cette piste ne doit pas être poursuivie en l'état.
+**Seconde prédiction du modèle (non retenue comme indication principale) :** la leucémie aiguë lymphoblastique (score 0,9921, niveau L5). Les glucocorticoïdes systémiques (prednisone, dexaméthasone) sont un pilier de son traitement, mais la pharmacologie du tixocortol (action locale, faible activité systémique) est mal adaptée à une hémopathie maligne systémique. Cette piste ne doit pas être poursuivie en l'état.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,8 +75,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67515694 | TIXOCORTOL EG 1 %, suspension nasale (annulée) | Suspension | Non précisée |
-| 65832411 | PIVALONE 1 POUR CENT, suspension nasale (annulée) | Suspension | Non précisée |
+| 67515694 | TIXOCORTOL EG 1 %, suspension nasale (active) | Suspension | Non précisée |
+| 65832411 | PIVALONE 1 POUR CENT, suspension nasale (active) | Suspension | Non précisée |
 
 ## Considérations de Sécurité
 

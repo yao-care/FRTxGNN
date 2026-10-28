@@ -47,17 +47,17 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**anévrisme du 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM (antiseptique buccal local) |
 | Nouvelle Indication Prédite | Anévrisme du septum interventriculaire |
-| Score de Prédiction TxGNN | 99,16 % |
+| Score de Prédiction TxGNN | 0,9916 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 7) |
+| Nombre d'AMM | 7 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'hexétidine est un antiseptique/antimicrobien à usage local (bain de bouche, pâte dentifrice), destiné à l'hygiène buccale.
 
-**Cette prédiction n'apparaît pas plausible sur le plan biologique.** L'anévrisme du septum interventriculaire est une anomalie structurelle du cœur, alors que l'hexétidine agit localement dans la cavité buccale. Aucun lien mécanistique crédible n'a été identifié : le score élevé semble être un artefact de la prédiction fondée sur le graphe de connaissances.
+**Cette prédiction n'apparaît pas plausible sur le plan biologique.** L'anévrisme du septum interventriculaire est une anomalie structurelle du cœur, alors que l'hexétidine agit localement dans la cavité buccale. Aucun lien mécanistique crédible n'a été identifié : le score élevé semble être un artefact de la prédiction du modèle TxGNN (apprentissage profond).
 
 Les autres prédictions du modèle (valvulopathie pulmonaire, fente orofaciale, syndrome de Laubry-Pezzi, syndrome de Pierre Robin, délétions chromosomiques, etc.) présentent la même absence de justification pharmacologique. Elles sont toutes au niveau L5, sans essai clinique.
 
@@ -79,11 +79,11 @@ Aucune littérature associée disponible actuellement pour l'anévrisme du septu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62906059 | Hexetidine Biogaran Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM annulée) |
-| 67768847 | Hextril Menthe 0,1 pour cent | Solution pour bain de bouche | Non renseignée (AMM annulée) |
-| 61455112 | Hexetidine EG Labo Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM annulée) |
-| 67376038 | Hextril 0,1 pour cent | Bain de bouche, flacon | Non renseignée (AMM annulée) |
-| 66929112 | Hexetidine Viatris Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM annulée) |
+| 62906059 | Hexetidine Biogaran Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM active) |
+| 67768847 | Hextril Menthe 0,1 pour cent | Solution pour bain de bouche | Non renseignée (AMM active) |
+| 61455112 | Hexetidine EG Labo Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM active) |
+| 67376038 | Hextril 0,1 pour cent | Bain de bouche, flacon | Non renseignée (AMM active) |
+| 66929112 | Hexetidine Viatris Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM active) |
 
 Deux autres AMM annulées existent au total (7 au total), dont Hextril 0,1 pour cent en pâte dentifrice et Hexetidine Teva Conseil 0,1 %.
 
@@ -99,7 +99,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente, et sans lien mécanistique plausible entre un antiseptique buccal local et une anomalie structurelle cardiaque.
-- Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- 6 des 7 AMM françaises sont valides et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice de l'ANSM (mises en garde et contre-indications)

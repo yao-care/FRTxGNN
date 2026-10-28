@@ -4,17 +4,17 @@ title: Salmeterol
 parent: Preuves élevées (L1-L2)
 nav_order: 692
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Salmeterol : nouvelle indication prédite, Bronchite (niveau de preuve L1). Indication d'origine : Emphysème pulmonaire, asthme intrinsèque, asthme allergique"
 monitor_inn: "salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **7** 
+Niveau de preuve: **L1** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **7**
 
 </div>
 
-## Salmétérol : De l'emphysème pulmonaire et de l'asthme à la bronchite
+## Salmeterol: Bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Il s'agit toutefois d'une extension très proche des usages d'origine (bronchite
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Emphysème pulmonaire, asthme intrinsèque, asthme allergique (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -105,13 +105,13 @@ La bronchite chronique est un phénotype de la BPCO et partage sa physiopatholog
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69163238 | SEREVENT DISKUS 50 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM annulée) |
-| 67274478 | SEREVENT 25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM annulée) |
-| 67546191 | SERETIDE DISKUS 100/50 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM annulée) |
-| 69505268 | SERETIDE 125/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM annulée) |
-| 64587838 | SERETIDE 50/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM annulée) |
+| 69163238 | SEREVENT DISKUS 50 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM active) |
+| 67274478 | SEREVENT 25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
+| 67546191 | SERETIDE DISKUS 100/50 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM active) |
+| 69505268 | SERETIDE 125/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
+| 64587838 | SERETIDE 50/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées (monothérapie Serevent, Seretide et génériques de l'association propionate de fluticasone/salmétérol). Toutes sont annulées ; aucune n'est actuellement valide.
+Au total, 20 AMM sont recensées (monothérapie Serevent, Seretide et génériques de l'association propionate de fluticasone/salmétérol).
 
 ---
 
@@ -131,7 +131,6 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 
 **Justification :**
 - Plusieurs essais de phase 3 terminés et des études publiées soutiennent l'usage du salmétérol dans la BPCO avec bronchite chronique, ce qui correspond à un niveau de preuve L1. L'extension est proche des indications d'origine.
-- Aucune AMM n'est actuellement valide en France, et les données de sécurité de la notice manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle (ANSM) : mises en garde, contre-indications, indications autorisées. Cette lacune est bloquante pour le criblage de sécurité.

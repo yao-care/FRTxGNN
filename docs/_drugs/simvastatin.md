@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 706
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Simvastatin : nouvelle indication prédite, Hypercholestérolémie familiale (niveau de preuve L1). Indication d'origine : Hypertriglycéridémie, hyperlipoprotéinémie…"
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin : nouvelle indication prédite, Brain stem infarction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **8**
 
 </div>
 
-## Simvastatine : De l'hypertriglycéridémie et des maladies athéroscléreuses à l'hypercholestérolémie familiale
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Il s'agit toutefois d'une indication déjà proche de ses usages d'origine : l'h
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertriglycéridémie, hyperlipoprotéinémie, hypercholestérolémie familiale homozygote, athérosclérose, accident vasculaire cérébral (source : graphe de connaissances TxGNN ; aucun texte d'indication n'est disponible dans les AMM françaises) |
-| Nouvelle Indication Prédite | Hypercholestérolémie familiale |
-| Score de Prédiction TxGNN | 99,63 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Brain stem infarction |
+| Score de Prédiction TxGNN | 0.9941 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 0 valide et 20 annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -105,15 +105,15 @@ Les essais ci-dessous sont classés par pertinence. Dans la majorité des cas, l
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné.
+Le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67364616 | SIMVASTATINE BIOGARAN 10 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69094525 | SIMVASTATINE BIOGARAN 20 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 66399710 | SIMVASTATINE EG 40 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64607301 | ZOCOR 40 mg (Organon France) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 67037301 | ZOCOR 20 mg (Organon France) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 67364616 | SIMVASTATINE BIOGARAN 10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69094525 | SIMVASTATINE BIOGARAN 20 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 66399710 | SIMVASTATINE EG 40 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64607301 | ZOCOR 40 mg (Organon France) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 67037301 | ZOCOR 20 mg (Organon France) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -132,17 +132,15 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de phase 3 (dont ENHANCE et l'essai chez l'adolescent) et des revues systématiques soutiennent l'usage de la simvastatine dans l'hypercholestérolémie familiale. Toutefois, il s'agit d'un usage déjà établi plutôt que d'un repositionnement, et toutes les AMM françaises sont annulées.
+- Plusieurs essais de phase 3 (dont ENHANCE et l'essai chez l'adolescent) et des revues systématiques soutiennent l'usage de la simvastatine dans l'hypercholestérolémie familiale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, ce qui bloque actuellement le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier le statut réglementaire : toutes les AMM étant annulées, vérifier si des spécialités à base de simvastatine restent disponibles en France
 - Mettre en place des garde-fous sur les interactions majeures (amiodarone, amlodipine, fénofibrate, antirétroviraux boostés) et sur le risque musculaire
 
 **Autres indications prédites (à titre indicatif) :**
-- **Hypercholestérolémie autosomique dominante** (score 99,36 %, L1) : quasi identique à l'hypercholestérolémie familiale, avec soutien d'essais de phase 3 et de revues Cochrane pédiatriques ; décision Proceed with Guardrails.
-- **VIH** (score 99,22 %, L3) : le contexte pertinent est la prise en charge de la dyslipidémie associée au VIH et aux antirétroviraux, non le traitement de l'infection ; les essais de phase 1 sont des études d'interaction. Une étude in vitro n'a détecté aucune activité anti-VIH des statines. Il s'agit d'une question de recherche, avec un risque élevé d'interactions.
+- **VIH** (score 0,9922, L3) : le contexte pertinent est la prise en charge de la dyslipidémie associée au VIH et aux antirétroviraux, non le traitement de l'infection ; les essais de phase 1 sont des études d'interaction. Une étude in vitro n'a détecté aucune activité anti-VIH des statines. Il s'agit d'une question de recherche, avec un risque élevé d'interactions.
 - **Infarctus du tronc cérébral, déficit en CETP, hypercholestérolémie par déficit en cholestérol 7α-hydroxylase, amyloïdose ABri, trouble neurodéveloppemental rare** (L5) : prédictions du modèle sans essai ni littérature à l'appui ; décision Hold.
 ## Avertissement
 

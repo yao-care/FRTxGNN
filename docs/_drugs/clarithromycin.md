@@ -6,9 +6,9 @@ nav_order: 177
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Clarithromycin : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (niveau de preuve L5). Indication d'origine : Infections bactériennes (otite moyenne infectieuse, pneumonies…"
 monitor_inn: "clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
+description: "Clarithromycin : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données …"
 ---
 
 # Clarithromycin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Clarithromycine : Des Infections Bactériennes Respiratoires et ORL au Syndrome d'Hyperviscosité Polyclonale
+## Clarithromycin: Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'hy
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections bactériennes (otite moyenne infectieuse, pneumonies, sinusite maxillaire, infections à streptocoques et staphylocoques), d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné |
-| Nouvelle Indication Prédite | Syndrome d'hyperviscosité polyclonale |
-| Score de Prédiction TxGNN | 99,35 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome) |
+| Score de Prédiction TxGNN | 0.9935 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -57,9 +57,9 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'hy
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la clarithromycine est un antibiotique macrolide, dont l'efficacité dans les infections respiratoires et ORL est établie. Elle est également connue pour des effets immunomodulateurs (modulation de la production de cytokines et de l'activité des lymphocytes B et plasmocytes).
 
-Ces effets pourraient théoriquement être rapprochés d'un syndrome d'hyperviscosité lié à une production excessive d'immunoglobulines. Toutefois, aucune donnée compilée pour ce rapport ne relie la clarithromycine au syndrome d'hyperviscosité polyclonale. Le score élevé du modèle (99,35 %) reste une prédiction computationnelle, sans soutien clinique ou bibliographique. Le lien mécanistique est donc **non étayé** à ce stade.
+Ces effets pourraient théoriquement être rapprochés d'un syndrome d'hyperviscosité lié à une production excessive d'immunoglobulines. Toutefois, aucune donnée compilée pour ce rapport ne relie la clarithromycine au syndrome d'hyperviscosité polyclonale. Le score élevé du modèle (0,9935) reste une prédiction computationnelle, sans soutien clinique ou bibliographique. Le lien mécanistique est donc **non étayé** à ce stade.
 
-Pour information, les autres indications prédites sont l'hyperamylasémie (score 99,35 %), l'analbuminémie congénitale (99,21 %), la kératoconjonctivite épithéliale ponctuée (99,11 %) et l'incompatibilité de groupe sanguin (99,07 %). Parmi elles, seule la kératoconjonctivite épithéliale ponctuée présente un lien plausible, mais indirect : les macrolides ont des propriétés anti-inflammatoires utilisées dans les atteintes de la surface oculaire liées aux glandes de Meibomius, avec toutefois des données surtout pour l'azithromycine.
+Pour information, les autres indications prédites sont l'hyperamylasémie (score 0,9935), l'analbuminémie congénitale (0,9921), la kératoconjonctivite épithéliale ponctuée (0,9911) et l'incompatibilité de groupe sanguin (0,9907). Parmi elles, seule la kératoconjonctivite épithéliale ponctuée présente un lien plausible, mais indirect : les macrolides ont des propriétés anti-inflammatoires utilisées dans les atteintes de la surface oculaire liées aux glandes de Meibomius, avec toutefois des données surtout pour l'azithromycine.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,11 +75,11 @@ Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65880178 | CLARITHROMYCINE VIATRIS 25 mg/ml | Granulés pour suspension buvable | Non renseignée (AMM annulée) |
-| 69132627 | CLARITHROMYCINE SUN 500 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65040811 | CLARITHROMYCINE ARROW 50 mg/mL | Granulés pour suspension buvable | Non renseignée (AMM annulée) |
-| 67997205 | ZECLAR 500 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 67197409 | CLARITHROMYCINE VIATRIS 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 65880178 | CLARITHROMYCINE VIATRIS 25 mg/ml | Granulés pour suspension buvable | Non renseignée (AMM active) |
+| 69132627 | CLARITHROMYCINE SUN 500 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 65040811 | CLARITHROMYCINE ARROW 50 mg/mL | Granulés pour suspension buvable | Non renseignée (AMM active) |
+| 67997205 | ZECLAR 500 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 67197409 | CLARITHROMYCINE VIATRIS 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -93,7 +93,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour le syndrome d'hyperviscosité polyclonale repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique documenté. De plus, toutes les AMM françaises sont annulées, et les données de sécurité officielles sont manquantes.
+- La prédiction pour le syndrome d'hyperviscosité polyclonale repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique documenté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité

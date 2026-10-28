@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cholangite scl�
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM (texte d'indication vide) |
 | Nouvelle Indication Prédite | Cholangite sclérosante |
-| Score de Prédiction TxGNN | 99,28 % |
+| Score de Prédiction TxGNN | 0,9928 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien plausible, mais **non vérifié**, serait une modulation de l'alcool déshydrogénase et du stress oxydatif lié au CYP2E1, ainsi que du métabolisme des acides biliaires ou des aldéhydes dans les cholangiocytes. Aucune étude mécanistique, aucun modèle préclinique et aucune observation clinique n'a été fournie pour étayer ce lien.
 
-Le seul appui est donc le score TxGNN très élevé (0,993). Il s'agit d'une prédiction issue d'un graphe de connaissances, et non d'une preuve clinique. La similarité avec l'indication d'origine ne peut pas être évaluée, faute de données.
+Le seul appui est donc le score TxGNN très élevé (0,9928). Ce score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. La similarité avec l'indication d'origine ne peut pas être évaluée, faute de données.
 
 ---
 
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63945150 | FOMEPIZOLE AP-HP 5 mg/mL, solution à diluer pour perfusion (AP-HP) | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 63945150 | FOMEPIZOLE AP-HP 5 mg/mL, solution à diluer pour perfusion (AP-HP) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 

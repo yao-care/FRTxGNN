@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vincristine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 814
-evidence_level: L3
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Vincristine : nouvelle indication prédite, Ganglioneuroblastome (niveau de preuve L3). Indication d'origine : Leucémie lymphoblastique aiguë…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "vincristine"
-predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-10-23
+description: "Vincristine : nouvelle indication prédite, Anomalies vertébrales avec dysfonction endocrinienne et lymphocytaire T variable (niveau de preuve L5). Indication d'origine : Non précisée dans les textes d'AMM disp…"
 ---
 
 # Vincristine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,111 +33,91 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-## Vincristine : Des Leucémies et Lymphomes au Ganglioneuroblastome
+## Vincristine : Anomalies vertébrales avec dysfonction endocrinienne et lymphocytaire T variable
 {: .text-alpha }
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Vincristine est un alcaloïde de la pervenche (vinca-alcaloïde), utilisé à l'origine dans le traitement de la leucémie lymphoblastique aiguë, des lymphomes (hodgkiniens et non hodgkiniens) et de l'histiocytose à cellules de Langerhans.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Ganglioneuroblastome**, avec un score de 99,31 %.
-Les données compilées pour ce rapport ne mentionnent **aucun essai clinique** et **6 publications** (essentiellement des cas cliniques), ce qui correspond à un niveau de preuve limité.
+La vincristine est un alcaloïde de la pervenche (antimitotique). Le graphe de connaissances enregistre une relation avec la leucémie lymphoblastique aiguë et plusieurs lymphomes, mais les textes d'AMM disponibles ne précisent aucune indication.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le syndrome rare « **anomalies vertébrales avec dysfonction endocrinienne et lymphocytaire T variable** », avec un score très élevé.
+**Aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction, qui repose uniquement sur le modèle.
 
----
+## Aperçu Rapide
 
-## Apercu Rapide
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique aiguë, lymphomes de Hodgkin et non hodgkiniens, lymphome du manteau, histiocytose à cellules de Langerhans (indications issues du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Predite | Ganglioneuroblastome |
-| Score de Prediction TxGNN | 99,31 % |
-| Niveau de Preuve | L3 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
-| Decision Recommandee | Hold |
+| Indication Originale | Non précisée dans les textes d'AMM disponibles. Relations enregistrées dans le graphe de connaissances (et non indications approuvées) : leucémie lymphoblastique aiguë, lymphome de Hodgkin, lymphomes non hodgkiniens, lymphome à cellules du manteau, histiocytose à cellules de Langerhans |
+| Nouvelle Indication Prédite | Anomalies vertébrales avec dysfonction endocrinienne et lymphocytaire T variable |
+| Score de Prédiction TxGNN | 0,9924 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Les données détaillées sur le mécanisme d'action ne sont pas renseignées dans les données compilées pour ce rapport. D'après les connaissances générales sur la classe, la vincristine se lie à la tubuline et bloque la polymérisation des microtubules. Cela provoque un arrêt de la mitose dans les cellules à division rapide.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques établies, la vincristine est un vinca-alcaloïde qui se lie à la tubuline et bloque la polymérisation des microtubules, ce qui provoque un arrêt de la mitose des cellules à division rapide.
+Ce mécanisme explique son usage en onco-hématologie, mais aucun lien mécanistique avec la nouvelle indication n'est étayé. Ce syndrome congénital rare associe des anomalies du squelette vertébral à des atteintes endocriniennes et immunitaires. Il n'existe pas de justification évidente pour un agent cytotoxique antimitotique.
 
-Le ganglioneuroblastome appartient au spectre des tumeurs neuroblastiques (neuroblastome, ganglioneuroblastome, ganglioneurome). La vincristine est un composant courant des polychimiothérapies utilisées pour ces tumeurs, en association avec le cyclophosphamide, la doxorubicine, le cisplatine ou l'étoposide. Le lien mécanistique est donc plausible et cohérent avec la pratique oncologique.
-
-Il faut toutefois rester prudent : les preuves reposent surtout sur des cas cliniques et de petites séries, où la vincristine est toujours administrée en association, de sorte que sa contribution propre ne peut être isolée. Le score TxGNN élevé est cohérent avec la biologie, mais ne remplace pas des données cliniques spécifiques au médicament.
-
----
+Le score de 0,9924 est une prédiction du modèle TxGNN (apprentissage profond) seule. Il ne remplace pas une preuve biologique ou clinique et doit être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la Littérature
 
-## Preuves de la Litterature
+Aucune littérature associée disponible actuellement.
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
-|------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Essai clinique prospectif | Pediatric Blood & Cancer | Essai JN-L-10 : facteurs de risque définis par l'imagerie pour guider la chirurgie dans le neuroblastome de bas risque (ne porte pas sur l'efficacité de la vincristine) |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Cas clinique | Postgraduate Medical Journal | Ganglioneuroblastome spinal : rémission complète histologique sous chimiothérapie combinée (doxorubicine, vincristine, cyclophosphamide, étoposide, ifosfamide, cisplatine) |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Série de cas | J Thorac Cardiovasc Surg | 31 patients avec ganglioneuroblastome intrathoracique traités par chirurgie, radiothérapie ou chimiothérapie ; 27 survivants |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Cas clinique | J Pediatr Hematol Oncol | Ganglioneuroblastome avec ictère obstructif, traité par chimiothérapie incluant cisplatine, pirarubicine/doxorubicine, cyclophosphamide et vincristine |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Cas clinique | J Pediatr Hematol Oncol | Nourrisson avec ganglioneuroblastome multifocal de stade 4 et atteinte gastrique |
-| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Cas clinique | Hinyokika Kiyo | Ganglioneuroblastome surrénalien de l'adulte avec volumineuse métastase ganglionnaire, traitement multimodal |
+## Informations de Marché en France
 
----
+La vincristine est commercialisée en France. Les 3 AMM listées sont valides et concernent des spécialités à base de vincristine seule (aucune association).
 
-## Informations de Marche en France
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Indication Approuvée |
+|---------|------|------|------|-----------|
+| 63115133 | VINCRISTINE TEVA 1 mg/ml | Solution injectable | TEVA SANTE | Texte d'indication non renseigné |
+| 60219803 | VINCRISTINE HOSPIRA 2 mg/2 ml | Solution injectable | PFIZER HOLDING FRANCE | Texte d'indication non renseigné |
+| 60368099 | ONCOVIN 1 mg | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Texte d'indication non renseigné |
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 63115133 | VINCRISTINE TEVA 1 mg/ml (TEVA SANTE) | Solution injectable | Non renseignée (AMM annulée) |
-| 60219803 | VINCRISTINE HOSPIRA 2 mg/2 ml (PFIZER HOLDING FRANCE) | Solution injectable | Non renseignée (AMM annulée) |
-| 60368099 | ONCOVIN 1 mg (EG LABO - LABORATOIRES EUROGENERICS) | Solution injectable | Non renseignée (AMM annulée) |
+## Cytotoxicité
 
----
+Informations établies à partir de la classe pharmacologique (alcaloïde de la pervenche). Elles ne proviennent pas de données de toxicité compilées pour ce rapport.
 
-## Cytotoxicite
-
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicite | Cytotoxique conventionnel (vinca-alcaloïde, poison du fuseau mitotique) |
-| Risque de Myelosuppression | Veuillez consulter les mises en garde et précautions de la notice (la leucopénie figure parmi les contre-indications du graphe de connaissances) |
-| Classification d'Emetogenicite | Veuillez consulter les mises en garde et précautions de la notice |
-| Elements de Surveillance | NFS, fonction hépatique (bilirubine), examen neurologique (neuropathie périphérique) |
-| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques ; risque de lésion en cas d'extravasation |
+| Classification de Cytotoxicité | Cytotoxique conventionnel (poison du fuseau, alcaloïde de la pervenche) |
+| Risque de Myélosuppression | Faible à moyen (la toxicité limitante habituelle de la classe est plutôt neurologique) |
+| Classification d'Émétogénicité | Faible |
+| Éléments de Surveillance | NFS, fonction hépatique, examen neurologique périphérique |
+| Protection de Manipulation | Suivre la réglementation de manipulation des médicaments cytotoxiques. Consulter la notice pour la voie d'administration et les précautions |
 
----
+## Considérations de Sécurité
 
-## Considerations de Securite
+**Contre-indications issues du graphe de connaissances** (relations du graphe, et non texte de la notice) : insuffisance hépatique, cholestase (dont formes intrahépatiques familiales), hyperbilirubinémie (dont syndrome de Gilbert), leucopénie, néphropathie aiguë à urates, neuropathies périphériques et maladies neuromusculaires (dont maladie de Charcot-Marie-Tooth, neuropathie motrice, névrite), infections (dont mycoses et dermatophytoses).
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : insuffisance hépatique, cholestase (dont formes intrahépatiques familiales et récurrente bénigne), hyperbilirubinémie (dont syndrome de Gilbert), leucopénie, neuropathie périphérique et maladies neuromusculaires (dont maladie de Charcot-Marie-Tooth, neuropathie motrice, névrite), maladies infectieuses (dont infections fongiques et dermatophytose), néphropathie aiguë à l'acide urique et hyperuricémie.
-- **Interactions médicamenteuses** : 505 interactions recensées. Parmi les principales :
-  - **Majeure** : clarithromycine.
-  - **Modérées** : aprépitant, dexaméthasone, métronidazole, éliglustat, naltrexone, phénylbutyrate de glycérol, miconazole, rolapitant, rosuvastatine, simvastatine, tinidazole, troglitazone.
-  - **Mineure** : lévofloxacine.
+**Interactions médicamenteuses** : 505 interactions recensées. Parmi celles listées :
+- **Majeure** : clarithromycine.
+- **Modérée** : aprépitant, dexaméthasone, métronidazole, éliglustat, naltrexone, phénylbutyrate de glycérol, miconazole, rolapitant, rosuvastatine, simvastatine, tinidazole, troglitazone.
+- **Mineure** : lévofloxacine.
+- **Niveau inconnu** : calcitriol, pantoprazole, clotrimazole, morphine, metformine, oméprazole.
 
-Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont pas disponibles. Veuillez consulter la notice pour les informations de securite.
+Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour ces informations.
 
----
+## Conclusion et Prochaines Étapes
 
-## Conclusion et Prochaines Etapes
-
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique est plausible et la vincristine fait partie des schémas standard des tumeurs neuroblastiques, mais les preuves se limitent à des cas cliniques et à un essai non spécifique à la vincristine, sans essai enregistré. De plus, toutes les AMM françaises sont annulées et les données de sécurité issues de la notice manquent (lacune bloquante pour le criblage de sécurité).
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication sur cette maladie, et sans lien mécanistique plausible avec un antimitotique cytotoxique.
+- Le profil de toxicité de la vincristine rend peu justifiable un usage dans un syndrome congénital rare sans signal de preuve.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications)
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Examiner les protocoles de polychimiothérapie des tumeurs neuroblastiques pour préciser la contribution de la vincristine
-- Clarifier la situation réglementaire et la disponibilité du produit en France (AMM annulées)
-- Évaluer les données de toxicité (neurotoxicité, myélosuppression, extravasation) chez la population pédiatrique concernée
-
----
-
-*Note : les deux autres prédictions (« anomalies vertébrales avec dysfonction endocrinienne et des lymphocytes T variable », sans aucune preuve ni lien mécanistique, et « néoplasme rétropéritonéal », catégorie anatomique hétérogène à préciser par histologie) n'ont pas été retenues comme indication principale de ce rapport.*
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Données détaillées sur le mécanisme d'action (DrugBank).
+- Mises en garde et contre-indications officielles issues de la notice de l'ANSM.
+- Données précliniques ou mécanistiques reliant l'inhibition des microtubules à la physiopathologie de ce syndrome.
+- Toute étude publiée portant directement sur cette maladie.
+- À titre de piste alternative, la prédiction classée deuxième (néoplasme rétropéritonéal) s'appuie sur de la littérature indirecte : séries et cas de tumeurs apparentées, où la vincristine fait partie de polychimiothérapies. Elle nécessiterait une évaluation distincte.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

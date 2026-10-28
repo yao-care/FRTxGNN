@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Donepezil
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 255
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Donepezil : nouvelle indication prédite, Trouble de tics chronique (rang 2 (niveau de preuve L3). Indication d'origine : Maladie d'Alzheimer"
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
+description: "Donepezil : nouvelle indication prédite, Psychogenic movement disorders (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Donepezil
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-## Donépézil : De la maladie d'Alzheimer au trouble de tics chronique
+## Donepezil: Psychogenic movement disorders
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **0 essai clinique** et **5 publications** (dont une étude pédiatrique ou
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie d'Alzheimer (source : graphe de connaissances TxGNN ; aucune AMM française disponible) |
-| Nouvelle Indication Prédite | Trouble de tics chronique (rang 2 ; rang 1 : troubles du mouvement psychogènes, niveau L5) |
-| Score de Prédiction TxGNN | 99,19 % (rang 1 : 99,23 %) |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Non commercialisé (selon les données compilées) |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Psychogenic movement disorders |
+| Score de Prédiction TxGNN | 0.9923 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold (question de recherche, sécurité à évaluer en premier) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

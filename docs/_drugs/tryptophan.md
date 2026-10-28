@@ -6,9 +6,9 @@ nav_order: 794
 evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Tryptophan : nouvelle indication prédite, Syndrome des jambes sans repos (niveau de preuve L3). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
+description: "Tryptophan : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tryptophan
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-## Tryptophane : De l'indication non précisée au Syndrome des jambes sans repos
+## Tryptophan: Syndrome des jambes sans repos (restless legs syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans le **syndrome des jam
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Syndrome des jambes sans repos |
-| Score de Prédiction TxGNN | 99,72 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome des jambes sans repos (restless legs syndrome) |
+| Score de Prédiction TxGNN | 0.9972 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -116,7 +116,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le score de prédiction est élevé, mais les preuves se limitent à deux petites études cliniques des années 1980 et à des données indirectes, sans aucun essai enregistré. Le sens de l'effet est incertain, et le profil de sécurité (syndrome éosinophilie-myalgie, interactions sérotoninergiques) est préoccupant. De plus, aucune AMM n'est actuellement valide en France.
+- Le score de prédiction est élevé, mais les preuves se limitent à deux petites études cliniques des années 1980 et à des données indirectes, sans aucun essai enregistré. Le sens de l'effet est incertain, et le profil de sécurité (syndrome éosinophilie-myalgie, interactions sérotoninergiques) est préoccupant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour le criblage de sécurité)
@@ -131,13 +131,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Indication | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|
-| Insomnie | 99,47 % | L3 | Question de recherche (données cliniques anciennes : comparaison de 1983 avec flurazépam, sécobarbital et placebo ; étude de 1987 ; aucun essai enregistré) |
-| Glaucome à angle ouvert | 99,50 % | L4 | Hold (biomarqueurs associatifs uniquement) |
-| Glaucome héréditaire primaire | 99,57 % | L5 | Hold (prédiction seule) |
-| Méthémoglobinémie | 99,30 % | L4 | Hold (une seule étude animale indirecte) |
-| Méthémoglobinémie de type alpha | 99,18 % | L5 | Hold (prédiction seule) |
-| Déficit en méthémoglobine réductase | 99,08 % | L5 | Hold (prédiction seule) |
-| Déficit congénital en prothrombine | 99,01 % | L5 | Hold (prédiction seule, sans mécanisme plausible) |
+| Insomnie | 0,9947 | L3 | Question de recherche (données cliniques anciennes : comparaison de 1983 avec flurazépam, sécobarbital et placebo ; étude de 1987 ; aucun essai enregistré) |
+| Glaucome à angle ouvert | 0,9950 | L4 | Hold (biomarqueurs associatifs uniquement) |
+| Glaucome héréditaire primaire | 0,9957 | L5 | Hold (prédiction seule) |
+| Méthémoglobinémie | 0,9930 | L5 | Hold (une seule étude animale indirecte) |
+| Méthémoglobinémie de type alpha | 0,9918 | L5 | Hold (prédiction seule) |
+| Déficit en méthémoglobine réductase | 0,9908 | L5 | Hold (prédiction seule) |
+| Déficit congénital en prothrombine | 0,9901 | L5 | Hold (prédiction seule, sans mécanisme plausible) |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

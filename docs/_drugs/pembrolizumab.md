@@ -4,7 +4,7 @@ title: Pembrolizumab
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 584
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pembrolizumab : nouvelle indication prédite, Fibromatose gingivale (niveau de preuve L5). Indication d'origine : Cancer du poumon non à petites cellules, cancer du poumon…"
 monitor_inn: "PEMBROLIZUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 # Pembrolizumab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gin
 |------|------|
 | Indication Originale | Cancer du poumon non à petites cellules, cancer du poumon, mélanome métastatique (le texte d'indication de l'AMM française n'est pas renseigné) |
 | Nouvelle Indication Prédite | Fibromatose gingivale |
-| Score de Prédiction TxGNN | 99,40 % |
+| Score de Prédiction TxGNN | 0,9940 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gin
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier compilé. Les informations pharmacologiques connues indiquent que pembrolizumab est un anticorps dirigé contre le récepteur PD-1 (CD279, gène *PDCD1*). Il lève le frein immunitaire exercé sur les lymphocytes T et renforce ainsi la réponse antitumorale. Son efficacité est établie dans le cancer du poumon et le mélanome.
 
-**Cette prédiction n'est pas étayée mécanistiquement.** La fibromatose gingivale est une affection fibrotique bénigne, héréditaire ou médicamenteuse. Aucun lien n'est établi avec l'axe PD-1/PD-L1, et aucun essai ni aucune publication ne soutient un rôle du blocage de PD-1 dans cette maladie. Le score élevé reflète vraisemblablement des associations dans le graphe de connaissances plutôt qu'une biologie pertinente. Activer le système immunitaire dans une pathologie bénigne exposerait en outre à des effets indésirables immunologiques sans bénéfice démontré.
+**Cette prédiction n'est pas étayée mécanistiquement.** La fibromatose gingivale est une affection fibrotique bénigne, héréditaire ou médicamenteuse. Aucun lien n'est établi avec l'axe PD-1/PD-L1, et aucun essai ni aucune publication ne soutient un rôle du blocage de PD-1 dans cette maladie. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Activer le système immunitaire dans une pathologie bénigne exposerait en outre à des effets indésirables immunologiques sans bénéfice démontré.
 
 À titre de comparaison, parmi les autres prédictions de haut rang, seules les tumeurs pulmonaires malignes (carcinome du hile pulmonaire, tumeur de Pancoast) sont biologiquement plausibles. Elles relèvent toutefois de l'indication déjà approuvée et ne constituent pas un véritable repositionnement.
 
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement pour la fibromatose gingiv
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62689214 | KEYTRUDA 25 mg/mL (MERCK SHARP & DOHME, Pays-Bas) — **annulée** | Solution à diluer pour perfusion | Non renseignée |
+| 62689214 | KEYTRUDA 25 mg/mL (MERCK SHARP & DOHME, Pays-Bas) — **active** | Solution à diluer pour perfusion | Non renseignée |
 
 ---
 

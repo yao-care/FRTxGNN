@@ -6,9 +6,9 @@ nav_order: 297
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Erythromycin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Acné, otite moyenne infectieuse, infections à streptocoques…"
 monitor_inn: "erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+description: "Erythromycin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Erythromycin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Érythromycine : Des infections bactériennes (acné, otite, pneumonie…) à la kératoconjonctivite épithéliale ponctuée
+## Erythromycin: Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **kératoconjon
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acné, otite moyenne infectieuse, infections à streptocoques, pneumonie bactérienne, conjonctivite, etc. (indications issues du graphe de connaissances ; le texte des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -98,7 +98,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), avec une seule revue pédiatrique et aucun essai clinique.
-- Toutes les AMM françaises sont annulées et les données de sécurité issues de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- Les 8 AMM françaises sur 8 sont valides (médicament commercialisé), mais les données de sécurité issues de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (site de l'ANSM) pour le criblage de sécurité

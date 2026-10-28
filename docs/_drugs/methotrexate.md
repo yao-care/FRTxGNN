@@ -4,17 +4,17 @@ title: Methotrexate
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 487
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Methotrexate : nouvelle indication prédite, Blastome pulmonaire (niveau de preuve L5). Indication d'origine : Leucémie aiguë lymphoblastique, lymphomes, polyarthrite rhumatoïde…"
 monitor_inn: "methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate : nouvelle indication prédite, Pulmonary blastoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Méthotrexate : Des Leucémies Lymphoblastiques et Lymphomes au Blastome Pulmonaire
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Parmi les 10 indications prédites, seules quelques-unes disposent de données r
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie aiguë lymphoblastique, lymphomes, polyarthrite rhumatoïde, psoriasis (texte d'indication de l'AMM non disponible ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Blastome pulmonaire |
-| Score de Prédiction TxGNN | 99,45 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pulmonary blastoma |
+| Score de Prédiction TxGNN | 0.9945 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -112,7 +112,7 @@ Aucun de ces travaux ne concerne directement le blastome pulmonaire.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont **annulées** ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas disponible dans les données compilées.
+Le texte de l'indication approuvée n'est pas disponible dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -150,7 +150,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le blastome pulmonaire n'a aucune preuve clinique ou publiée (niveau L5) : la prédiction repose uniquement sur le modèle. De plus, aucune AMM n'est actuellement valide en France et les données de sécurité de la notice manquent, ce qui bloque le passage à l'évaluation de sécurité.
+- Le blastome pulmonaire n'a aucune preuve clinique ou publiée (niveau L5) : la prédiction repose uniquement sur le modèle.
 - Parmi les autres indications du classement, le rhabdomyosarcome (L2) et le lymphome de Hodgkin (L3) sont mieux étayés et pourraient constituer des questions de recherche prioritaires, mais leurs preuves restent indirectes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

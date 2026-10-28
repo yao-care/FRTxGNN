@@ -6,9 +6,9 @@ nav_order: 358
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Gemeprost : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non disponible"
 monitor_inn: "gemeprost"
 predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension"]
+description: "Gemeprost : nouvelle indication prédite, Atypical coarctation of aorta (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Gemeprost
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Gemeprost : D'un usage obstétrical à l'aménorrhée (contexte de l'interruption précoce de grossesse)
+## Gemeprost: Atypical coarctation of aorta
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,15 +45,15 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**aménorrhée
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible (aucune AMM enregistrée) |
-| Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,36 % |
-| Niveau de Preuve | L3 (attribué prudemment ; voir ci-dessous) |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Atypical coarctation of aorta |
+| Score de Prédiction TxGNN | 0.9953 |
+| Niveau de Preuve | L5 (attribué prudemment ; voir ci-dessous) |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold (question de recherche) |
 
-Remarque : d'autres prédictions (coarctation atypique de l'aorte, malformation œsophagienne non syndromique, malformation aortique, hypertension pulmonaire) ont des scores comparables (99,15 % à 99,53 %) mais n'ont aucune preuve clinique ni bibliographique (L5). L'aménorrhée est la seule prédiction disposant de littérature et fait donc l'objet de ce rapport.
+Remarque : d'autres prédictions (coarctation atypique de l'aorte, malformation œsophagienne non syndromique, malformation aortique, hypertension pulmonaire) ont des scores comparables (0,9915 à 0,9953) mais n'ont aucune preuve clinique ni bibliographique (L5). L'aménorrhée est la seule prédiction disposant de littérature et fait donc l'objet de ce rapport.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -82,7 +82,6 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Aucune AMM n'est enregistrée pour gemeprost en France dans les données compilées pour ce rapport ; le médicament n'est pas commercialisé.
 
 ## Considérations de Sécurité
 
@@ -95,7 +94,7 @@ Aucune donnée de sécurité exploitable n'est disponible : les mises en garde e
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est élevé (99,36 %), mais la littérature disponible concerne l'interruption médicale de grossesse précoce, et non le traitement de l'aménorrhée pathologique. Il s'agit d'un artefact d'appariement et non d'un repositionnement réel. Les quatre autres prédictions n'ont aucune preuve (L5) et leur plausibilité mécanistique est faible, hormis une certaine plausibilité biologique pour l'hypertension pulmonaire.
+- Le score TxGNN est élevé (0,9936), mais la littérature disponible concerne l'interruption médicale de grossesse précoce, et non le traitement de l'aménorrhée pathologique. Il s'agit d'un artefact d'appariement et non d'un repositionnement réel. Les quatre autres prédictions n'ont aucune preuve (L5) et leur plausibilité mécanistique est faible, hormis une certaine plausibilité biologique pour l'hypertension pulmonaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), une lacune bloquante pour le dépistage de sécurité

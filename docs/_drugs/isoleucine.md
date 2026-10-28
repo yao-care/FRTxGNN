@@ -49,9 +49,9 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour la **gastroparésie**
 |------|------|
 | Indication Originale | Non précisée dans les données compilées (texte d'indication vide pour toutes les AMM) |
 | Nouvelle Indication Prédite | Gastroparésie |
-| Score de Prédiction TxGNN | 99,32 % |
+| Score de Prédiction TxGNN | 0,9932 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien plausible, mais non vérifié, serait un soutien nutritionnel dans la gastroparésie, où la réduction des apports oraux et la dénutrition sont fréquentes. Il s'agirait alors d'un traitement de soutien, et non d'un traitement modifiant la maladie : il n'agirait ni sur le retard de vidange gastrique ni sur le dysfonctionnement neuromusculaire sous-jacent.
 
-Il faut rester prudent : un score élevé peut simplement refléter la forte connectivité d'un métabolite courant dans le graphe de connaissances, et non un véritable effet thérapeutique.
+Il faut rester prudent : un score élevé issu du modèle TxGNN (apprentissage profond) peut refléter des similitudes apprises par le modèle entre maladies proches, et non une preuve biologique ni un véritable effet thérapeutique.
 
 ---
 
@@ -107,7 +107,7 @@ Veuillez consulter la notice pour les informations de sécurité propres au prod
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur un score du modèle (niveau L5), sans essai clinique, sans publication et sans mécanisme documenté. De plus, toutes les AMM françaises sont annulées, et l'action possible serait au mieux un soutien nutritionnel, sans effet sur la maladie elle-même.
+- La prédiction repose uniquement sur un score du modèle TxGNN (apprentissage profond) (niveau L5), sans essai clinique, sans publication et sans mécanisme documenté. Le médicament est commercialisé en France, avec 19 AMM valides, et l'action possible serait au mieux un soutien nutritionnel, sans effet sur la maladie elle-même.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications des notices ANSM (lacune bloquante pour le criblage de sécurité)

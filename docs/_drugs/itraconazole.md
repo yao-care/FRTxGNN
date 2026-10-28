@@ -47,17 +47,17 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocysto
 |------|------|
 | Indication Originale | Mycoses systémiques (candidose œsophagienne, candidémie, histoplasmose, aspergillose, blastomycose, sporotrichose, etc.) |
 | Nouvelle Indication Prédite | Pneumocystose |
-| Score de Prédiction TxGNN | 99,34 % |
+| Score de Prédiction TxGNN | 0,9934 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, l'itraconazole inhibe l'enzyme fongique CYP51 (lanostérol 14-alpha-déméthylase), bloquant ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
 
-Le score élevé du modèle reflète probablement la proximité, dans le graphe de connaissances, entre la pneumocystose et d'autres infections fongiques opportunistes déjà traitées par l'itraconazole (histoplasmose, aspergillose). Il s'agit d'une association de réseau, et non d'un lien mécanistique démontré.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre la pneumocystose et d'autres infections fongiques opportunistes déjà traitées par l'itraconazole (histoplasmose, aspergillose). Il ne constitue pas une preuve biologique, ni un lien mécanistique démontré.
 
 Le lien mécanistique direct est en réalité peu plausible : *Pneumocystis jirovecii* ne contient que peu ou pas d'ergostérol et utilise principalement du cholestérol dans sa membrane. Une cible de type azole n'est donc pas un bon ajustement. Cette prédiction doit être considérée avec une grande prudence.
 
@@ -86,11 +86,11 @@ Remarque : plusieurs références (histoplasmose chez des patients atteints de S
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60738303 | ITRACONAZOLE VIATRIS 100 mg | Gélule | Annulée |
-| 69662344 | ITRACONAZOLE TEVA 100 mg | Gélule | Annulée |
-| 69998156 | SPORANOX 10 mg/mL | Solution buvable | Annulée |
-| 62469613 | SPORANOX 100 mg | Gélule | Annulée |
-| 66188581 | ITRACONAZOLE SANDOZ 100 mg | Gélule | Annulée |
+| 60738303 | ITRACONAZOLE VIATRIS 100 mg | Gélule | Active |
+| 69662344 | ITRACONAZOLE TEVA 100 mg | Gélule | Active |
+| 69998156 | SPORANOX 10 mg/mL | Solution buvable | Active |
+| 62469613 | SPORANOX 100 mg | Gélule | Active |
+| 66188581 | ITRACONAZOLE SANDOZ 100 mg | Gélule | Active |
 
 Le texte des indications approuvées n'est pas disponible dans les données compilées.
 
@@ -109,7 +109,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, et le mécanisme d'action de l'itraconazole est peu compatible avec la biologie de *Pneumocystis*. Le traitement de référence reste le cotrimoxazole. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, et le mécanisme d'action de l'itraconazole est peu compatible avec la biologie de *Pneumocystis*. Le traitement de référence reste le cotrimoxazole. Par ailleurs, le médicament est commercialisé en France, avec 5 AMM valides sur 5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice de l'ANSM (lacune bloquante pour l'évaluation de sécurité).

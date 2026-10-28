@@ -4,17 +4,17 @@ title: Etravirine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 310
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Etravirine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
+description: "Etravirine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
 ---
 
 # Etravirine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Étravirine : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Etravirine: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'im
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (les textes d'indication des AMM ne sont pas renseignés ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,98 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'étravirine fait partie de la classe des INNTI, active contre la transcriptase inverse du VIH-1, et son efficacité dans l'infection par le VIH est établie.
 
-Le virus de l'immunodéficience féline (FIV) est un lentivirus apparenté au VIH, ce qui explique en partie la proximité observée dans le graphe de connaissances. Toutefois, la transcriptase inverse du FIV est généralement peu sensible aux INNTI. Le score élevé reflète donc probablement une similarité de réseau avec le VIH/SIDA plutôt qu'une activité démontrée.
+Toutefois, la transcriptase inverse du FIV est généralement peu sensible aux INNTI. Le score élevé reflète donc probablement une similarité de réseau avec le VIH/SIDA plutôt qu'une activité démontrée.
 
 Cette prédiction doit donc être considérée comme une hypothèse de faible plausibilité mécanistique, sans donnée expérimentale pour la soutenir.
 
@@ -75,11 +75,10 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66595716 | INTELENCE 25 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 63514730 | INTELENCE 100 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 64044237 | INTELENCE 200 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 66595716 | INTELENCE 25 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 63514730 | INTELENCE 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 64044237 | INTELENCE 200 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
-Les trois AMM, détenues par Janssen-Cilag International NV, sont annulées : aucune AMM valide n'est actuellement recensée.
 
 ## Considérations de Sécurité
 
@@ -106,7 +105,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données de pharmacocinétique et de tolérance chez le chat, ainsi que l'évaluation de la voie d'administration
 - Clarification du cadre réglementaire (usage vétérinaire) et de l'intérêt de la prédiction
 
-*Remarque : parmi les autres prédictions, « complexe lié au SIDA » correspond à une indication existante sous une ancienne dénomination. « VIH congénital » (niveau L3, statut « question de recherche ») repose sur une série de cas observationnelle chez des femmes enceintes. Les prédictions relatives aux tumeurs bénignes, à l'hyperlipidémie obsolète et au trouble neurodéveloppemental rare ne présentent aucun lien plausible et semblent être des artefacts du graphe.*
+*Remarque : parmi les autres prédictions, « complexe lié au SIDA » correspond à une indication existante sous une ancienne dénomination. « VIH congénital » (niveau L3, statut « question de recherche ») repose sur une série de cas observationnelle chez des femmes enceintes.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

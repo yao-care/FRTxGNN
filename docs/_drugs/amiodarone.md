@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Amiodarone
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 58
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amiodarone : nouvelle indication prédite, Tachycardie ventriculaire polymorphe catécholaminergique (niveau de preuve L5). Indication d'origine : Fibrillation ventriculaire (le texte d'indication des …"
@@ -14,7 +14,7 @@ predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia",
 # Amiodarone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,21 +48,21 @@ Les données compilées pour ce rapport montrent que la tachycardie ventriculair
 |------|------|
 | Indication Originale | Fibrillation ventriculaire (le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Tachycardie ventriculaire polymorphe catécholaminergique |
-| Score de Prédiction TxGNN | 99,78 % |
+| Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L4 (pour cette indication) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold (pour la TVPC) |
 
 **Autres indications prédites, à titre de comparaison :**
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Décision |
 |------|------|------|------|------|
-| 2 | Tachycardie ventriculaire incessante du nourrisson | 99,65 % | L2 | Question de recherche |
-| 3 | Tachycardie ventriculaire | 99,64 % | L1 | Proceed with Guardrails |
-| 4 | Bloc de branche (libellé obsolète) | 99,58 % | L5 | Hold |
-| 5 | Polyarthrite rhumatoïde | 99,40 % | L5 | Hold |
-| 6 à 10 | Syndrome brachydactylie-syndactylie, déficit en cofacteur II de l'héparine, trichotillomanie, syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique, goutte | 99,19 % à 99,38 % | L5 | Hold |
+| 2 | Tachycardie ventriculaire incessante du nourrisson | 0,9965 | L5 | Question de recherche |
+| 3 | Tachycardie ventriculaire | 0,9964 | L1 | Proceed with Guardrails |
+| 4 | Bloc de branche (libellé obsolète) | 0,9958 | L5 | Hold |
+| 5 | Polyarthrite rhumatoïde | 0,9940 | L5 | Hold |
+| 6 à 10 | Syndrome brachydactylie-syndactylie, déficit en cofacteur II de l'héparine, trichotillomanie, syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique, goutte | 0,9919 à 0,9938 | L5 | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -121,12 +121,12 @@ Aucun essai clinique associé n'est enregistré actuellement pour la TVPC.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62305927 | CORDARONE 150 mg/3 ml, solution injectable en ampoule (IV) | Solution injectable | Non renseignée (AMM annulée) |
-| 64408662 | CORDARONE 200 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 68973926 | CORDARONE 200 mg, comprimé sécable (BB FARMA, Italie) | Comprimé sécable | Non renseignée (AMM annulée) |
-| 60662396 | CORDARONE 200 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 62305927 | CORDARONE 150 mg/3 ml, solution injectable en ampoule (IV) | Solution injectable | Non renseignée (AMM active) |
+| 64408662 | CORDARONE 200 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 68973926 | CORDARONE 200 mg, comprimé sécable (BB FARMA, Italie) | Comprimé sécable | Non renseignée (AMM active) |
+| 60662396 | CORDARONE 200 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM active) |
 
-Les quatre AMM recensées sont annulées : aucune AMM valide n'apparaît dans les données compilées.
+Les quatre AMM recensées sont valides : 4 AMM valides sur 4 apparaissent dans les données compilées.
 
 ## Cytotoxicité
 
@@ -161,7 +161,7 @@ Le texte officiel des mises en garde de la notice n'a pas pu être exploité. Ve
 - Mises en garde et contre-indications issues de la notice officielle (ANSM), indispensables avant tout dépistage de sécurité
 - Pour la tachycardie ventriculaire : surveillance pulmonaire, thyroïdienne, hépatique et de l'intervalle QT, ainsi qu'une gestion rigoureuse des interactions médicamenteuses
 - Pour la forme pédiatrique : évaluation de la sécurité (thyroïde, poumon, effets hémodynamiques) et données portant spécifiquement sur la tachycardie ventriculaire, la population de l'essai randomisé étant mixte (essentiellement supraventriculaire et jonctionnelle)
-- Clarification du statut réglementaire : toutes les AMM françaises recensées sont annulées
+- Clarification du statut réglementaire : toutes les AMM françaises recensées sont valides (4 sur 4)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

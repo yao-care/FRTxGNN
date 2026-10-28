@@ -6,9 +6,9 @@ nav_order: 405
 evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Iobenguane : nouvelle indication prédite, Trouble hypotensif (hypotension) (niveau de preuve L4). Indication d'origine : Non disponible dans les données compilées"
 monitor_inn: "IOBENGUANE"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
+description: "Iobenguane : nouvelle indication prédite, Hypotensive disorder (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Iobenguane
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-## Iobenguane : D'un produit diagnostique radiomarqué à l'hypotension (prédiction à visée essentiellement diagnostique)
+## Iobenguane: Hypotensive disorder
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -46,12 +46,12 @@ Ces publications ne montrent pas que l'iobenguane traite l'hypotension : tout r�
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Non disponible dans les données compilées |
-| Nouvelle Indication Predite | Trouble hypotensif (hypotension) |
-| Score de Prediction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Hypotensive disorder |
+| Score de Prediction TxGNN | 0.9990 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -66,9 +66,9 @@ Le score élevé (0,999) est une prédiction du modèle uniquement. Le rôle pla
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |---|---|---|---|---|
-| 2 | Atrophie multisystématisée | 99,90 % | L4 | Usage diagnostique établi : la fixation cardiaque du MIBG aide à distinguer la maladie de Parkinson (fixation réduite) de l'AMS (fixation typiquement préservée). Aucun essai ; une seule revue indirecte. |
-| 3 | Prionopathie variablement sensible à la protéase | 99,86 % | L5 | Aucun lien mécanistique plausible ; probable effet de voisinage dans le graphe de connaissances. |
-| 4 | Syndrome de tachycardie orthostatique posturale | 99,67 % | L5 | Lien hypothétique (dysautonomie, déficit du transporteur de la noradrénaline) ; rôle éventuel uniquement diagnostique. |
+| 2 | Atrophie multisystématisée | 0,9990 | L5 | Usage diagnostique établi : la fixation cardiaque du MIBG aide à distinguer la maladie de Parkinson (fixation réduite) de l'AMS (fixation typiquement préservée). Aucun essai ; une seule revue indirecte. |
+| 3 | Prionopathie variablement sensible à la protéase | 0,9986 | L5 | Aucun lien mécanistique plausible ; le score provient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, non des preuves biologiques. |
+| 4 | Syndrome de tachycardie orthostatique posturale | 0,9967 | L5 | Lien hypothétique (dysautonomie, déficit du transporteur de la noradrénaline) ; rôle éventuel uniquement diagnostique. |
 
 ## Preuves d'Essais Cliniques
 
@@ -85,7 +85,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 64886840 | MIBG [123 I] 74 MBq/mL solution injectable (CURIUM NETHERLANDS, Pays-Bas) — statut : annulée | Solution injectable | Non renseignée |
+| 64886840 | MIBG [123 I] 74 MBq/mL solution injectable (CURIUM NETHERLANDS, Pays-Bas) — statut : active | Solution injectable | Non renseignée |
 
 ## Considerations de Securite
 

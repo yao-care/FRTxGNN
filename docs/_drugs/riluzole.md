@@ -4,17 +4,17 @@ title: Riluzole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 669
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Riluzole : nouvelle indication prédite, Polymicrogyrie parasagittale pariéto-occipitale bilatérale (niveau de preuve L5). Indication d'origine : Sclérose latérale amyotrophique"
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole : nouvelle indication prédite, Bilateral parasagittal parieto-occipital polymicrogyria (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Riluzole : De la sclérose latérale amyotrophique à la polymicrogyrie parasagittale pariéto-occipitale bilatérale
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polymicrogyrie 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Sclérose latérale amyotrophique (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Polymicrogyrie parasagittale pariéto-occipitale bilatérale |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bilateral parasagittal parieto-occipital polymicrogyria |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature générale sur la SLA, le riluzole est associé à la modulation de la transmission glutamatergique et à la limitation de l'excitotoxicité. Il s'agit ici d'un contexte général, non d'une donnée propre à ce dossier.
 
-Le lien avec la nouvelle indication est très spéculatif. La polymicrogyrie est une malformation corticale pouvant s'accompagner de composantes épileptogènes ou neurodéveloppementales, où la signalisation glutamatergique pourrait jouer un rôle. Aucune donnée directe ne soutient cette hypothèse, et le score élevé du modèle reflète une prédiction par graphe, non une démonstration biologique.
+Le lien avec la nouvelle indication est très spéculatif. La polymicrogyrie est une malformation corticale pouvant s'accompagner de composantes épileptogènes ou neurodéveloppementales, où la signalisation glutamatergique pourrait jouer un rôle.
 
 Il convient de noter que d'autres prédictions du même médicament sont mécanistiquement plus plausibles, notamment les maladies du motoneurone (syndrome du motoneurone inférieur de l'adulte tardif, amyotrophie monomélique, syndrome de Mills, sous-types génétiques de SLA). Elles ne sont toutefois pas davantage étayées par des essais ou des publications spécifiques.
 
@@ -71,15 +71,14 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69481874 | EMYLIF 50 mg | Film orodispersible | Annulée |
-| 68413596 | TEGLUTIK 5 mg/ml | Suspension buvable | Annulée |
-| 63943758 | RILUZOLE EG 50 mg | Comprimé pelliculé | Annulée |
-| 66292199 | RILUTEK 50 mg | Comprimé pelliculé | Annulée |
-| 69597074 | RILUZOLE BIOGARAN 50 mg | Comprimé pelliculé | Annulée |
+| 69481874 | EMYLIF 50 mg | Film orodispersible | Active |
+| 68413596 | TEGLUTIK 5 mg/ml | Suspension buvable | Active |
+| 63943758 | RILUZOLE EG 50 mg | Comprimé pelliculé | Active |
+| 66292199 | RILUTEK 50 mg | Comprimé pelliculé | Active |
+| 69597074 | RILUZOLE BIOGARAN 50 mg | Comprimé pelliculé | Active |
 
 ## Considérations de Sécurité
 

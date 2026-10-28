@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie cardiaq
 |------|------|
 | Indication Originale | Non renseignée dans la licence (texte d'indication vide) |
 | Nouvelle Indication Prédite | Maladie cardiaque (heart disease) |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 (prédiction du modèle, essai associé non confirmé ; le dossier source indique L4) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Cette réduction de la post-charge explique un lien plausible avec des affections cardiaques comme le cœur hypertensif, l'insuffisance cardiaque ou l'hypertrophie ventriculaire. Plusieurs publications anciennes (1980-1985) ont d'ailleurs étudié son usage dans l'insuffisance cardiaque sévère, en France notamment sous le nom de Nepressol.
 
-Il faut toutefois rester prudent : la littérature concerne surtout l'usage antihypertenseur déjà connu, et non une véritable nouvelle indication. Le score TxGNN très élevé est une prédiction computationnelle, pas une preuve clinique. Les autres prédictions (syndrome de Pierre Robin, délétions chromosomiques, maladie valvulaire pulmonaire, etc.) n'ont aucune justification mécanistique plausible et relèvent probablement d'artefacts du graphe de connaissances.
+Il faut toutefois rester prudent : la littérature concerne surtout l'usage antihypertenseur déjà connu, et non une véritable nouvelle indication. Le score TxGNN très élevé est une prédiction computationnelle, pas une preuve clinique. Les autres prédictions (syndrome de Pierre Robin, délétions chromosomiques, maladie valvulaire pulmonaire, etc.) n'ont aucune justification mécanistique plausible ; leurs scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 

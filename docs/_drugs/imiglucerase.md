@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 392
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Imiglucerase : nouvelle indication prédite, Syndrome de Hurler (niveau de preuve L4). Indication d'origine : Maladie de Gaucher"
 monitor_inn: "imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase : nouvelle indication prédite, Syndrome de Hurler (Hurler syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Imiglucérase : De la maladie de Gaucher au syndrome de Hurler
+## Imiglucerase: Syndrome de Hurler (Hurler syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit d'une prédiction purement computationnelle, sans soutien clinique ré
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Gaucher (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome de Hurler |
-| Score de Prédiction TxGNN | 99,52 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de Hurler (Hurler syndrome) |
+| Score de Prédiction TxGNN | 0.9952 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome de Hurler (MPS I) est causé par un déficit en alpha-L-iduronidase, entraînant l'accumulation de glycosaminoglycanes (sulfate de dermatane et d'héparane). Il s'agit d'une enzyme et de substrats différents : une substitution enzymatique directe n'est donc **pas plausible mécanistiquement**. Une accumulation secondaire de glycolipides (gangliosides GM2/GM3) existe dans les MPS, mais rien n'indique que l'apport de glucocérébrosidase la corrige.
 
-Le score élevé (0,995) reflète vraisemblablement la proximité des deux maladies dans le réseau des maladies de surcharge lysosomale plutôt qu'un véritable lien fonctionnel. Le traitement spécifique approuvé est la laronidase.
+Le score élevé (0,9952) reflète vraisemblablement la proximité des deux maladies dans le réseau des maladies de surcharge lysosomale plutôt qu'un véritable lien fonctionnel. Le traitement spécifique approuvé est la laronidase.
 
 ---
 
@@ -86,7 +86,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62616337 | CEREZYME 400 U, poudre pour solution à diluer pour perfusion (SANOFI, Pays-Bas) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 62616337 | CEREZYME 400 U, poudre pour solution à diluer pour perfusion (SANOFI, Pays-Bas) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 523
 evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Naftidrofuryl : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). Indication d'origine : Trouble cérébrovasculaire"
 monitor_inn: "NAFTIDROFURYL"
 predicted_indications: ["stroke disorder"]
+description: "Naftidrofuryl : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Naftidrofuryl
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **1**
 
 </div>
 
-## Naftidrofuryl : Du Trouble Cérébrovasculaire à l'Accident Vasculaire Cérébral
+## Naftidrofuryl: Accident vasculaire cérébral (stroke disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Il n'existe **aucun essai clinique enregistré** dans les données compilées, m
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Trouble cérébrovasculaire (selon le graphe de connaissances ; aucun texte d'indication dans les AMM françaises) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Accident vasculaire cérébral (stroke disorder) |
-| Score de Prédiction TxGNN | 99,65 % |
+| Score de Prédiction TxGNN | 0.9965 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le « trouble cérébrovasculaire » (indication d'origine) et l'« AVC » (indication prédite) relèvent du même domaine thérapeutique. Il s'agit donc plus d'une **extension au sein d'une même aire thérapeutique** que d'un véritable repositionnement.
 
-Le score élevé du modèle (0,997) est cohérent avec l'indication d'origine, mais il reste une prédiction et non une preuve clinique. Le mécanisme est ici déduit de la littérature, et non confirmé par des données pharmacologiques détaillées.
+Le score élevé du modèle (0,9965) est cohérent avec l'indication d'origine, mais il reste une prédiction et non une preuve clinique. Le mécanisme est ici déduit de la littérature, et non confirmé par des données pharmacologiques détaillées.
 
 ## Preuves d'Essais Cliniques
 
@@ -87,8 +87,8 @@ Remarque : les études de 1978 à 1990 sont anciennes et de qualité méthodolog
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67195461 | NAFTIDROFURYL ZENTIVA 200 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
-| 61621776 | NAFTILUX 200 mg, gélule (annulée) | Gélule | Non renseignée |
+| 67195461 | NAFTIDROFURYL ZENTIVA 200 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+| 61621776 | NAFTILUX 200 mg, gélule (active) | Gélule | Non renseignée |
 
 ## Considérations de Sécurité
 

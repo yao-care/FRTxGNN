@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenoxicam
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 740
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tenoxicam : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L3). Indication d'origine : Maladie articulaire arthritique…"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "tenoxicam"
-predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
+last_modified_at: 2026-10-23
+description: "Tenoxicam : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tenoxicam
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Ténoxicam : De l'arthropathie inflammatoire à la polyarthrite rhumatoïde
+## Tenoxicam: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le ténoxicam est un anti-inflammatoire non stéroïdien (AINS) de la famille des oxicams, initialement utilisé dans les maladies articulaires arthritiques et les arthropathies.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rhumatoïde**, avec **aucun essai clinique** enregistré pour cette indication et **19 publications** associées, dont un essai randomisé comparatif.
-Il s'agit toutefois d'une indication déjà établie et proche de l'indication d'origine : ce n'est pas un véritable repositionnement.
+Le ténoxicam est un anti-inflammatoire non stéroïdien (AINS) dont l'usage d'origine, tel qu'enregistré dans le graphe de connaissances, concerne les maladies articulaires arthritiques et les arthropathies.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de brachydactylie-syndactylie**, une malformation congénitale des membres.
+**Aucun essai clinique et aucune publication** ne soutiennent actuellement cette prédiction, qui repose uniquement sur le modèle.
 
 ---
 
@@ -48,46 +48,35 @@ Il s'agit toutefois d'une indication déjà établie et proche de l'indication d
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie articulaire arthritique, arthropathie (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,90 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | AMM annulée uniquement (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Brachydactyly-syndactyly syndrome |
+| Score de Prédiction TxGNN | 0.9980 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le ténoxicam est un AINS de la classe des oxicams : il inhibe les cyclooxygénases (COX-1 et COX-2) et réduit ainsi l'inflammation et la douleur médiées par les prostaglandines. Sa demi-vie longue permet une prise unique quotidienne.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le ténoxicam fait partie de la classe des AINS, qui inhibent les cyclooxygénases (COX-1 et COX-2) et réduisent l'inflammation et la douleur médiées par les prostaglandines. Cette action explique son usage dans les atteintes articulaires inflammatoires.
 
-La polyarthrite rhumatoïde et les maladies articulaires arthritiques d'origine sont deux pathologies articulaires inflammatoires où le soulagement symptomatique par un AINS est pertinent. La prédiction est donc cohérente avec le mécanisme, mais elle ne représente pas une vraie nouveauté : la littérature décrit déjà l'usage du ténoxicam à 20 mg/jour dans la polyarthrite rhumatoïde. Les preuves portent sur le soulagement des symptômes, et non sur une modification de l'évolution de la maladie.
+En revanche, **aucun lien mécanistique plausible n'a été identifié** avec la nouvelle indication. Le syndrome de brachydactylie-syndactylie est une malformation congénitale des membres, d'origine génétique et développementale. L'inhibition des COX n'est pas censée modifier cette pathologie sous-jacente.
+
+Cette prédiction doit donc être considérée comme une simple hypothèse issue du modèle.
 
 ---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour la polyarthrite rhumatoïde.
-
-*À titre d'information, pour une autre indication prédite (céphalée/migraine aiguë), un essai est enregistré : [NCT06786650](https://clinicaltrials.gov/study/NCT06786650), Phase 4, actif non recrutant, 100 participants, comparant le ténoxicam intraveineux à l'ibuprofène intraveineux dans la crise migraineuse aiguë. Il ne concerne pas la polyarthrite rhumatoïde.*
+Aucun essai clinique associé enregistré actuellement.
 
 ---
 
 ## Preuves de la Littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | ECR | Clin Rheumatol | Aceclofénac vs ténoxicam dans la polyarthrite rhumatoïde : essai multicentrique en double aveugle, 292 patients, 3 mois, amélioration clinique dans les deux groupes |
-| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | Essai en double aveugle | Br J Clin Pract | Ténoxicam vs piroxicam chez 1 328 patients atteints d'arthrose ou de polyarthrite rhumatoïde ; effet global légèrement favorable au ténoxicam |
-| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | Essai comparatif | J Rheumatol | Ténoxicam 20 mg vs piroxicam 20 mg dans la polyarthrite rhumatoïde (102 patients) : pas de différence d'efficacité ni de tolérance globale |
-| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Essais cliniques en double aveugle | Eur J Rheumatol Inflamm | Ténoxicam au moins aussi efficace que le piroxicam dans l'arthrose, la polyarthrite rhumatoïde et la spondylarthrite ankylosante |
-| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | Étude multicentrique | J Int Med Res | 2 963 patients en médecine générale, ténoxicam 20 mg/jour dans l'arthrose ou la polyarthrite rhumatoïde |
-| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Revue | Drugs | Mise à jour : efficacité analgésique et anti-inflammatoire dans les maladies rhumatismales, bien toléré par rapport au piroxicam |
-| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Revue | Drugs | Ténoxicam 20 mg/jour aussi efficace que le piroxicam 20 mg/jour |
-| [3317800](https://pubmed.ncbi.nlm.nih.gov/3317800/) | 1987 | Revue | Scand J Rheumatol Suppl | 133 études cliniques ; dose optimale de 20 mg |
-| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Revue (pharmacocinétique) | Clin Pharmacokinet | Absorption orale complète, liaison aux protéines plasmatiques d'environ 99 % |
-| [41419140](https://pubmed.ncbi.nlm.nih.gov/41419140/) | 2026 | Étude préclinique | Eur J Pharm Sci | Gel topique à base de nanoéponges co-délivrant baricitinib et ténoxicam pour la polyarthrite rhumatoïde |
+Aucune littérature associée disponible actuellement.
 
 ---
 
@@ -95,15 +84,15 @@ Aucun essai clinique associé enregistré actuellement pour la polyarthrite rhum
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67841804 | TILCOTIL 20 mg, comprimé pelliculé sécable (VIATRIS MEDICAL) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 67841804 | TILCOTIL 20 mg, comprimé pelliculé sécable (VIATRIS MEDICAL) | Comprimé pelliculé sécable | Texte d'indication non renseigné dans les données compilées |
 
 ---
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité.
+- **Signal de sécurité de la littérature** : un rapport de cas de 1997 ([PMID 9303679](https://pubmed.ncbi.nlm.nih.gov/9303679/)) décrit une alopécie survenue sous ténoxicam, comme effet indésirable possible. Il s'agit d'un signal isolé, de faible niveau de preuve, mais à garder en mémoire.
 
-Un signal à noter : un cas d'alopécie a été rapporté comme possible effet indésirable du ténoxicam (rapport de cas, 1997).
+Pour les autres informations de sécurité (mises en garde, contre-indications, interactions médicamenteuses), veuillez consulter la notice.
 
 ---
 
@@ -112,15 +101,14 @@ Un signal à noter : un cas d'alopécie a été rapporté comme possible effet i
 **Décision : Hold**
 
 **Justification :**
-- La polyarthrite rhumatoïde est une indication déjà établie pour le ténoxicam, soutenue par des essais comparatifs anciens, mais il ne s'agit pas d'un véritable repositionnement. L'unique AMM française est annulée, et les données de sécurité de la notice sont manquantes, ce qui empêche de passer l'étape de criblage de sécurité.
-- Les autres indications prédites (syndromes malformatifs, alopécies, etc.) n'ont aucun support, et la migraine aiguë ne repose que sur un essai de Phase 4 en cours sans résultats.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible entre l'inhibition des COX et une malformation congénitale d'origine génétique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications issues de la notice ANSM
-- Données détaillées sur le mécanisme d'action
-- Clarification de la raison de l'annulation de l'AMM et de la pertinence d'une nouvelle mise sur le marché
-- Résultats de l'essai NCT06786650 si la migraine aiguë est retenue comme piste de repositionnement
-- Études récentes comparant le ténoxicam aux traitements actuels de la polyarthrite rhumatoïde
+- Des données sur le mécanisme d'action du ténoxicam et une justification biologique d'un effet sur cette malformation congénitale
+- Les mises en garde et contre-indications de la notice de l'AMM, ainsi que le texte d'indication approuvé
+- Toute étude, même préclinique, portant directement sur cette maladie
+
+**Remarque sur les autres candidats prédits :** parmi les indications prédites suivantes, seul le **trouble céphalalgique** (score 0,9968) dispose d'un essai clinique de phase 4 en cours ([NCT06786650](https://clinicaltrials.gov/study/NCT06786650), n = 100, ténoxicam IV contre ibuprofène IV dans la crise migraineuse aiguë, sans résultats publiés). Les publications associées portent sur les AINS en général, et non sur le ténoxicam seul. Cette piste reste plus plausible sur le plan biologique et mériterait d'être évaluée en priorité comme question de recherche. Les autres candidats (syndromes congénitaux, hypotrichoses, alopécie) n'ont aucune preuve de bénéfice.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

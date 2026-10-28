@@ -4,17 +4,17 @@ title: Valsartan
 parent: Preuves modérées (L3-L4)
 nav_order: 803
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Valsartan : nouvelle indication prédite, Maladie rénale hypertensive maligne (niveau de preuve L4). Indication d'origine : Hypertension artérielle"
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **7** 
+Niveau de preuve: **L4** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-## Valsartan : De l'Hypertension à l'Hypertension Maligne avec Atteinte Rénale
+## Valsartan: Maladie rénale hypertensive maligne (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie rénale
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -85,7 +85,7 @@ Aucun essai clinique associé n'est enregistré actuellement pour la maladie ré
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées. Le texte d'indication approuvée n'est pas disponible pour ces AMM. Voici les cinq premières :
+Le texte d'indication approuvée n'est pas disponible pour ces AMM. Voici les cinq premières :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -113,7 +113,6 @@ Les mises en garde de la notice n'ont pas pu être consultées ; veuillez consul
 
 **Justification :**
 - Aucun essai clinique n'est enregistré, et la seule publication retrouvée est un travail préclinique sur un autre médicament. Le niveau de preuve est L4 (mécanistique uniquement).
-- Toutes les AMM françaises du valsartan sont annulées, et les données de sécurité de la notice sont absentes (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) pour permettre l'évaluation de sécurité.

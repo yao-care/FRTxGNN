@@ -6,9 +6,9 @@ nav_order: 748
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tetrabenazine : nouvelle indication prédite, Maladie rénale polykystique de type 3 (avec ou sans maladie polykysti… (niveau de preuve L5). Indication d'origine : Maladie de Huntington"
 monitor_inn: "tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
+description: "Tetrabenazine : nouvelle indication prédite, Polycystic kidney disease 3 with or without polycystic liver disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tetrabenazine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tétrabénazine : De la maladie de Huntington à la maladie rénale polykystique de type 3 (avec ou sans maladie polykystique du foie)
+## Tetrabenazine: Polycystic kidney disease 3 with or without polycystic liver disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Huntington (et syndromes apparentés, selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Maladie rénale polykystique de type 3 (avec ou sans maladie polykystique du foie) |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Polycystic kidney disease 3 with or without polycystic liver disease |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La relation entre l'indication originale (trouble moteur neurologique) et la nouvelle indication (maladie rénale/hépatique kystique d'origine génétique, de type ciliopathie) n'est pas évidente. Aucun lien mécanistique plausible entre l'inhibition de VMAT2 et la physiopathologie de la polykystose rénale n'a été identifié.
 
-Le score élevé de TxGNN (99,90 %) reflète une proximité dans le graphe de connaissances, et non une preuve biologique ou clinique. Cette prédiction doit donc être considérée avec une grande prudence. Les autres prédictions du même classement (dysplasie rénale-hépatique-pancréatique, syndrome de Joubert avec atteinte rénale, néphrite interstitielle karyomégalique, etc.) présentent le même profil : niveau L5, sans essai ni publication pertinente.
+Le score élevé de TxGNN (0,9990) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique. Cette prédiction doit donc être considérée avec une grande prudence. Les autres prédictions du même classement (dysplasie rénale-hépatique-pancréatique, syndrome de Joubert avec atteinte rénale, néphrite interstitielle karyomégalique, etc.) présentent le même profil : niveau L5, sans essai ni publication pertinente.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,8 +74,8 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 64487229 | TETMODIS 25 mg, comprimé sécable | Comprimé sécable | Non renseignée | Annulée |
-| 62463044 | XENAZINE 25 mg, comprimé sécable | Comprimé sécable | Non renseignée | Annulée |
+| 64487229 | TETMODIS 25 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
+| 62463044 | XENAZINE 25 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
 
 ## Considérations de Sécurité
 

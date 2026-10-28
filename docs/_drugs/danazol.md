@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Danazol
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 212
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Danazol : nouvelle indication prédite, Aménorrhée (niveau de preuve L3). Indication d'origine : Endométriose"
 monitor_inn: "DANAZOL"
 predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+description: "Danazol : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Danazol
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Danazol : De l'endométriose à l'aménorrhée (suppression thérapeutique des règles)
+## Danazol: Aménorrhée (amenorrhea (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour l'**aménorrhée** (au 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Endométriose ; endométriose de l'utérus ; maladie fibrokystique du sein (source : graphe de connaissances, le texte d'indication de l'AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,9995 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
+| Score de Prédiction TxGNN | 1.0000 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,7 +84,7 @@ Sélection des publications les plus pertinentes pour l'aménorrhée (20 référ
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64906556 | DANATROL 200 mg, gélule (Laboratoires Fidia) | Gélule | Non renseignée (AMM annulée) |
+| 64906556 | DANATROL 200 mg, gélule (Laboratoires Fidia) | Gélule | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

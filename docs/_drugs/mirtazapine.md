@@ -6,9 +6,9 @@ nav_order: 504
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Mirtazapine : nouvelle indication prédite, Syndrome d'Ohdo et variantes (niveau de preuve L5). Indication d'origine : Dépression unipolaire, dépression endogène, trouble dépressif majeur…"
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine : nouvelle indication prédite, Syndrome d'Ohdo et variantes (Ohdo syndrome and variants) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Mirtazapine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Mirtazapine : De la dépression unipolaire au syndrome d'Ohdo et variantes
+## Mirtazapine: Syndrome d'Ohdo et variantes (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dépression unipolaire, dépression endogène, trouble dépressif majeur, trouble anxieux (source : graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'Ohdo et variantes |
-| Score de Prédiction TxGNN | 99,42 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'Ohdo et variantes (Ohdo syndrome and variants) |
+| Score de Prédiction TxGNN | 0.9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 15 (0 valide, 15 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
+| Nombre d'AMM | 15 (valides : 15) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome d'Ohdo est une maladie génétique rare (liée à KAT6B), associant notamment un blépharophimosis et une déficience intellectuelle. Aucun lien pharmacologique connu ne le rattache à l'activité de la mirtazapine. La similarité avec l'indication d'origine (dépression, anxiété) n'a pas pu être évaluée.
 
-Le score élevé (0,994) doit donc être considéré uniquement comme un signal générateur d'hypothèses. Deux autres prédictions de même nature figurent dans les données : la forme « blépharophimosis - déficience intellectuelle, type Ohdo » (99,11 %), très probablement non indépendante de la première car issue du même voisinage dans le graphe, et le torticolis paroxystique bénin du nourrisson (99,11 %), affection pédiatrique spontanément résolutive pour laquelle le rapport bénéfice/risque d'un antidépresseur sédatif paraît faible.
+Le score élevé (0,9942) doit donc être considéré uniquement comme un signal générateur d'hypothèses. Deux autres prédictions de même nature figurent dans les données : la forme « blépharophimosis - déficience intellectuelle, type Ohdo » (0,9911), très probablement non indépendante de la première, son score issu du modèle TxGNN (apprentissage profond) pouvant refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, et le torticolis paroxystique bénin du nourrisson (0,9911), affection pédiatrique spontanément résolutive pour laquelle le rapport bénéfice/risque d'un antidépresseur sédatif paraît faible.
 
 ---
 
@@ -86,11 +86,11 @@ Les 15 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69084246 | Mirtazapine Arrow Génériques 15 mg | Comprimé pelliculé sécable | Annulée |
-| 68022786 | Mirtazapine Teva 15 mg | Comprimé pelliculé | Annulée |
-| 66402996 | Mirtazapine Biogaran 15 mg | Comprimé orodispersible | Annulée |
-| 62485126 | Mirtazapine Arrow 15 mg | Comprimé orodispersible | Annulée |
-| 65124914 | Norset 15 mg (Organon France) | Comprimé pelliculé | Annulée |
+| 69084246 | Mirtazapine Arrow Génériques 15 mg | Comprimé pelliculé sécable | Active |
+| 68022786 | Mirtazapine Teva 15 mg | Comprimé pelliculé | Active |
+| 66402996 | Mirtazapine Biogaran 15 mg | Comprimé orodispersible | Active |
+| 62485126 | Mirtazapine Arrow 15 mg | Comprimé orodispersible | Active |
+| 65124914 | Norset 15 mg (Organon France) | Comprimé pelliculé | Active |
 
 ---
 

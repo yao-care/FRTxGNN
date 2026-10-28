@@ -4,17 +4,17 @@ title: Avapritinib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 82
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Avapritinib : nouvelle indication prédite, Dysplasie spondylométaphysaire axiale (niveau de preuve L5). Indication d'origine : Tumeur stromale gastro-intestinale"
+indication_count: 9
 monitor_inn: "AVAPRITINIB"
-predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrophic lateral sclerosis, susceptibility to", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
+predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
+last_modified_at: 2026-10-27
+description: "Avapritinib : nouvelle indication prédite, Dysplasie spondylométaphysaire axiale (axial spondylometaphyseal dysplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
 ---
 
 # Avapritinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Avapritinib : De la tumeur stromale gastro-intestinale à la dysplasie spondylométaphysaire axiale
+## Avapritinib : inhibiteur de kinases KIT/PDGFRA → dysplasie spondylométaphysaire axiale (axial spondylometaphyseal dysplasia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Avapritinib est un inhibiteur de kinases (KIT/PDGFRA), initialement utilisé pour le traitement de la tumeur stromale gastro-intestinale.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie spondylométaphysaire axiale**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+Avapritinib est un inhibiteur de kinases ciblant KIT et PDGFRA, utilisé en oncologie.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie spondylométaphysaire axiale (axial spondylometaphyseal dysplasia)**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tumeur stromale gastro-intestinale (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Dysplasie spondylométaphysaire axiale |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dysplasie spondylométaphysaire axiale (axial spondylometaphyseal dysplasia) |
+| Score de Prédiction TxGNN | 0,9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations toutes annulées |
-| Nombre d'AMM | 5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, avapritinib est un inhibiteur des kinases KIT et PDGFRA, dont l'efficacité dans la tumeur stromale gastro-intestinale est le fondement de son usage d'origine.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'avapritinib est un inhibiteur de kinases dirigé contre KIT et PDGFRA.
 
-Aucun lien mécanistique n'est étayé par les données compilées pour ce rapport. La dysplasie spondylométaphysaire axiale est une maladie osseuse rare, associée à une biologie de type ciliopathie (gène CFAP410), et rien ne la relie à la signalisation KIT/PDGFRA. Le score élevé (99,92 %) reflète une proximité dans le réseau du modèle, et non une preuve clinique ou biologique.
+Aucun lien mécanistique n'est étayé par les données entre cette inhibition et la dysplasie spondylométaphysaire axiale, une affection squelettique rare associée à la biologie des ciliopathies (gènes de type CFAP410). Le score élevé reflète une prédiction du modèle, non une démonstration biologique ou clinique.
 
-À titre d'information, les autres indications prédites les mieux classées concernent surtout le groupe de la sclérose latérale amyotrophique et des maladies du motoneurone. Pour celles-ci, un raisonnement spéculatif existe (modulation des mastocytes et de la microglie via KIT, comme explorée avec le masitinib), mais la pénétration du système nerveux central de l'avapritinib n'est pas établie et aucune donnée ne le soutient.
+La prédiction doit donc être considérée comme une hypothèse exploratoire, sans fondement mécanistique vérifié à ce stade.
 
 ## Preuves d'Essais Cliniques
 
@@ -71,48 +71,46 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63189920 | AYVAKYT 200 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63220091 | AYVAKYT 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65304816 | AYVAKYT 300 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68115906 | AYVAKYT 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64069767 | AYVAKYT 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+L'avapritinib est commercialisé en France sous le nom AYVAKYT (comprimé pelliculé), fabriqué par Blueprint Medicines (Pays-Bas). Les données compilées signalent 5 AMM, dont aucun texte d'indication n'est renseigné.
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
+|---------|------|------|
+| 63189920 | AYVAKYT 200 mg | Comprimé pelliculé |
+| 63220091 | AYVAKYT 50 mg | Comprimé pelliculé |
+| 65304816 | AYVAKYT 300 mg | Comprimé pelliculé |
+| 68115906 | AYVAKYT 25 mg | Comprimé pelliculé |
+| 64069767 | AYVAKYT 100 mg | Comprimé pelliculé |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase KIT/PDGFRA) |
-| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase) |
+| Risque de Myélosuppression | Non documenté dans les données compilées |
+| Classification d'Émétogénicité | Non documentée dans les données compilées |
 | Éléments de Surveillance | Veuillez consulter les mises en garde et précautions de la notice |
 | Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
 ## Considérations de Sécurité
 
-- **Interactions Médicamenteuses** : 100 interactions ont été identifiées dans les données compilées (extrait de 20 affichées). Parmi elles, les interactions de niveau **majeur** concernent notamment :
-  - aprépitant, clarithromycine, cobicistat, dexaméthasone (probablement liées au métabolisme par le CYP3A4, à confirmer) ;
-  - acide acétylsalicylique ;
-  - déférasirox, défériprone ;
-  - ibritumomab tiuxétan, tositumomab (I-131), samarium (153Sm) lexidronam.
-- Interactions de niveau **modéré** : cimétidine, clotrimazole, miconazole, dexfenfluramine, fenfluramine, glycérol phénylbutyrate, métréleptine, sibutramine, troglitazone, chlorure de strontium Sr-89.
+- **Interactions Médicamenteuses** : 100 interactions sont recensées dans les données compilées. Parmi celles présentées :
+  - **Majeures** : aprépitant, acide acétylsalicylique, clarithromycine, dexaméthasone, cobicistat, déférasirox, défériprone, ibritumomab tiuxétan, tositumomab (I-131), samarium (153Sm) lexidronam.
+  - **Modérées** : cimétidine, clotrimazole, dexfenfluramine, fenfluramine, phénylbutyrate de glycérol, métréleptine, miconazole, sibutramine, troglitazone, chlorure de strontium Sr-89.
 
-Les mises en garde et contre-indications de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations de sécurité.
+Les mises en garde et contre-indications de la notice ne sont pas disponibles dans les données compilées ; veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique démontré. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le score du modèle (0,9992), sans essai clinique, sans publication ni lien mécanistique démontré. Les données de sécurité de la notice sont également manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupération et analyse de la notice ANSM (mises en garde et contre-indications), point bloquant
-- Données détaillées sur le mécanisme d'action (requête DrugBank)
-- Démonstration d'un lien biologique entre KIT/PDGFRA et la dysplasie spondylométaphysaire axiale (études précliniques)
-- Clarification de la situation réglementaire en France (raison de l'annulation des AMM)
-- Évaluation de la pertinence des indications du groupe SLA/motoneurone, notamment la pénétration du système nerveux central
+- Données détaillées sur le mécanisme d'action de l'avapritinib
+- Preuves précliniques reliant l'inhibition de KIT/PDGFRA à cette dysplasie
+- Récupération et analyse de la notice (mises en garde, contre-indications)
+- Évaluation de la pertinence clinique et de la faisabilité pour cette maladie squelettique rare
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

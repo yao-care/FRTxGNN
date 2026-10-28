@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (*
 |------|------|
 | Indication Originale | Non renseignée dans les AMM disponibles |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,56 % |
+| Score de Prédiction TxGNN | 0,9956 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ---
@@ -66,9 +66,9 @@ La littérature préclinique relie la signalisation cholinergique à la physiopa
 - la stimulation du ganglion sphénopalatin parasympathique, qui provoque une extravasation de protéines plasmatiques dans la dure-mère (rat) ;
 - une implication cholinergique centrale dans l'antinociception.
 
-Le blocage muscarinique pourrait donc, en théorie, réduire l'inflammation neurogène d'origine parasympathique. Toutefois, aucune étude ne teste directement l'atropine chez des patients migraineux. Le score élevé de TxGNN (0,996) reste une prédiction computationnelle.
+Le blocage muscarinique pourrait donc, en théorie, réduire l'inflammation neurogène d'origine parasympathique. Toutefois, aucune étude ne teste directement l'atropine chez des patients migraineux. Le score élevé de TxGNN (0,9956) reste une prédiction computationnelle.
 
-**Point de vigilance :** pour la sous-forme « migraine avec aura du tronc cérébral » (score 99,42 %, niveau L5, Hold), une seule étude sur le néocortex de souris montre que l'activation cholinergique inhibe la dépression corticale envahissante. Un antagoniste muscarinique comme l'atropine pourrait donc ne pas aider, voire s'opposer à ce mécanisme protecteur.
+**Point de vigilance :** pour la sous-forme « migraine avec aura du tronc cérébral » (score 0,9942, niveau L5, Hold), une seule étude sur le néocortex de souris montre que l'activation cholinergique inhibe la dépression corticale envahissante. Un antagoniste muscarinique comme l'atropine pourrait donc ne pas aider, voire s'opposer à ce mécanisme protecteur.
 
 ---
 
@@ -99,11 +99,11 @@ Les publications restantes (cas de glaucome et de myopie liés au topiramate, ca
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63667263 | Atropine (sulfate) Lavoisier 0,25 mg/1 ml | Solution injectable | Non renseignée (AMM annulée) |
-| 61397901 | Atropine (sulfate) Lavoisier 0,50 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
-| 66063364 | Atropine (sulfate) Aguettant 1 mg/mL | Solution injectable | Non renseignée (AMM annulée) |
-| 69984085 | Atropine Alcon 1 pour cent | Collyre | Non renseignée (AMM annulée) |
-| 61883472 | Atropine (sulfate) Lavoisier 1 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
+| 63667263 | Atropine (sulfate) Lavoisier 0,25 mg/1 ml | Solution injectable | Non renseignée (AMM active) |
+| 61397901 | Atropine (sulfate) Lavoisier 0,50 mg/ml | Solution injectable | Non renseignée (AMM active) |
+| 66063364 | Atropine (sulfate) Aguettant 1 mg/mL | Solution injectable | Non renseignée (AMM active) |
+| 69984085 | Atropine Alcon 1 pour cent | Collyre | Non renseignée (AMM active) |
+| 61883472 | Atropine (sulfate) Lavoisier 1 mg/ml | Solution injectable | Non renseignée (AMM active) |
 
 Deux AMM supplémentaires, également annulées, existent (Atropine Alcon 0,5 % et 0,3 %, collyres).
 

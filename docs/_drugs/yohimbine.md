@@ -4,17 +4,17 @@ title: Yohimbine
 parent: Preuves modérées (L3-L4)
 nav_order: 825
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Yohimbine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "YOHIMBINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
 ---
 
 # Yohimbine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour la **migraine**,
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
-| Score de Prédiction TxGNN | 99,94 % |
+| Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,21 +84,20 @@ Aucune étude ne teste la yohimbine dans la migraine. Il s'agit surtout de trava
 
 | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation | Commentaire |
 |------|------|------|------|------|
-| Migraine avec aura du tronc cérébral | 99,93 % | L5 | Hold | Deux études chez le rongeur, partagées avec la migraine générale |
-| Trouble déficitaire de l'attention avec hyperactivité (TDAH) | 99,89 % | L4 | Research Question | Les agonistes alpha-2 sont les traitements ; la yohimbine induit de l'hyperactivité chez l'animal, effet probablement opposé au bénéfice |
-| Syndrome facio-digito-génital | 99,89 % | L5 | Hold | Aucune littérature ; aucun mécanisme plausible |
-| Migraine avec ou sans aura (susceptibilité) | 99,82 % | L4 | Research Question | Littérature préclinique ou générale, souvent sur des agonistes |
-| Glaucome héréditaire primaire | 99,72 % | L5 | Hold | Aucune preuve ; mécanisme défavorable (les agonistes alpha-2 abaissent la pression intraoculaire) |
-| Céphalée | 99,72 % | L4 | Research Question | Recoupe les données sur la migraine |
-| Accident ischémique transitoire | 99,71 % | L5 | Hold | Une seule étude, sur la clonidine (agoniste) ; risque hypertensif |
-| Rhume | 99,69 % | L5 | Hold | Littérature sans rapport |
-| Glaucome à angle ouvert | 99,69 % | L5 | Hold | Une étude de 1984 chez le lapin ; mécanisme défavorable |
+| Migraine avec aura du tronc cérébral | 0,9993 | L5 | Hold | Deux études chez le rongeur, partagées avec la migraine générale |
+| Trouble déficitaire de l'attention avec hyperactivité (TDAH) | 0,9989 | L4 | Research Question | Les agonistes alpha-2 sont les traitements ; la yohimbine induit de l'hyperactivité chez l'animal, effet probablement opposé au bénéfice |
+| Syndrome facio-digito-génital | 0,9989 | L5 | Hold | Aucune littérature ; aucun mécanisme plausible |
+| Glaucome héréditaire primaire | 0,9972 | L5 | Hold | Aucune preuve ; mécanisme défavorable (les agonistes alpha-2 abaissent la pression intraoculaire) |
+| Céphalée | 0,9972 | L5 | Research Question | Recoupe les données sur la migraine |
+| Accident ischémique transitoire | 0,9971 | L5 | Hold | Une seule étude, sur la clonidine (agoniste) ; risque hypertensif |
+| Rhume | 0,9969 | L5 | Hold | Littérature sans rapport |
+| Glaucome à angle ouvert | 0,9969 | L5 | Hold | Une étude de 1984 chez le lapin ; mécanisme défavorable |
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69816276 | YOCORAL 5 mg, comprimé (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Comprimé | Non renseignée (AMM annulée) |
+| 69816276 | YOCORAL 5 mg, comprimé (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Comprimé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

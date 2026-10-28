@@ -8,6 +8,7 @@ nav_order: 475
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Maribavir
@@ -51,8 +52,8 @@ L'évaluation de repositionnement ne peut être complétée sans données de pr�
 | Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | L5 (modèle sans prédiction — données insuffisantes) |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | **Hold** |
 
 ---

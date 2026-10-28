@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tobramycin
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 768
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tobramycin : nouvelle indication prédite, Kératite d'exposition (niveau de preuve L5). Indication d'origine : Infections oculaires bactériennes, notamment la conjonctivite"
 monitor_inn: "tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+description: "Tobramycin : nouvelle indication prédite, Kératite d'exposition (exposure keratitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tobramycin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tobramycine : Des Infections Oculaires Bactériennes à la Kératite d'Exposition
+## Tobramycin: Kératite d'exposition (exposure keratitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **kératite d'expo
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections oculaires bactériennes, notamment la conjonctivite (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Kératite d'exposition |
-| Score de Prédiction TxGNN | 99,93 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératite d'exposition (exposure keratitis) |
+| Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L4 (études précliniques uniquement ; aucune étude clinique directe) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 12 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ---
@@ -92,15 +92,15 @@ Aucune de ces publications n'étudie directement l'efficacité de la tobramycine
 
 ## Informations de Marché en France
 
-Toutes les AMM de la tobramycine sont annulées ; aucune n'est actuellement valide. Le texte des indications approuvées n'est pas disponible dans les données compilées.
+Les 12 AMM de la tobramycine sont valides (12 sur 12) et le médicament est commercialisé. Le texte des indications approuvées n'est pas disponible dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 61621356 | TOBREX 0,3 %, pommade ophtalmique | Pommade | Annulée |
-| 67299307 | TOBREX 0,3 %, collyre en solution | Collyre en solution | Annulée |
-| 69240211 | TOBRABACT 0,3 %, collyre en solution | Collyre en solution | Annulée |
-| 66302120 | TOBRADEX, collyre en suspension | Collyre en suspension | Annulée |
-| 66581684 | TODEXAL 3 mg/1 mg par ml, collyre en suspension | Collyre en suspension | Annulée |
+| 61621356 | TOBREX 0,3 %, pommade ophtalmique | Pommade | Active |
+| 67299307 | TOBREX 0,3 %, collyre en solution | Collyre en solution | Active |
+| 69240211 | TOBRABACT 0,3 %, collyre en solution | Collyre en solution | Active |
+| 66302120 | TOBRADEX, collyre en suspension | Collyre en suspension | Active |
+| 66581684 | TODEXAL 3 mg/1 mg par ml, collyre en suspension | Collyre en suspension | Active |
 
 Les 7 autres AMM annulées concernent des formes injectables (NEBCINE) et inhalées (TOBI, TOBI PODHALER, génériques Zentiva et Sun).
 
@@ -119,15 +119,14 @@ Les 7 autres AMM annulées concernent des formes injectables (NEBCINE) et inhal�
 **Décision : Hold**
 
 **Justification :**
-- Le score du modèle est très élevé (99,93 %), mais il n'existe aucun essai clinique, et la littérature disponible ne porte pas sur la kératite d'exposition. Elle suggère même un risque de toxicité épithéliale.
-- Les données de sécurité issues de la notice font défaut, ce qui bloque le passage à l'étape de sélection de sécurité. Toutes les AMM françaises sont par ailleurs annulées.
+- Le score du modèle est très élevé (0,9993), mais il n'existe aucun essai clinique, et la littérature disponible ne porte pas sur la kératite d'exposition. Elle suggère même un risque de toxicité épithéliale.
+- Les données de sécurité issues de la notice font défaut, ce qui bloque le passage à l'étape de sélection de sécurité. Les 12 AMM françaises sont par ailleurs valides (12 sur 12).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Évaluer la toxicité cornéenne de la tobramycine sur un modèle de cornée lésée ou exposée.
 - Réaliser une étude clinique ou observationnelle ciblée sur les kératites d'exposition surinfectées.
-- Confirmer la disponibilité d'une formulation ophtalmique commercialisée, puisque aucune AMM n'est actuellement valide.
 
 ---
 

@@ -8,6 +8,7 @@ nav_order: 13
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acalabrutinib
@@ -51,8 +52,8 @@ L'acalabrutinib (DB11703) est un inhibiteur sélectif de la tyrosine kinase de B
 | Nouvelle Indication Prédite | **Aucune prédiction disponible** |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | **L5** (Aucune preuve de repositionnement identifiée) |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | **Hold** |
 
 ## Pourquoi Cette Évaluation est-elle Limitée ?

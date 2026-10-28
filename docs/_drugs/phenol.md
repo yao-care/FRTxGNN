@@ -6,9 +6,9 @@ nav_order: 596
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Phenol : nouvelle indication prédite, Acrodermatite chronique atrophiante (niveau de preuve L5). Indication d'origine : Dermatite"
 monitor_inn: "phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
+description: "Phenol : nouvelle indication prédite, Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Phenol
@@ -33,12 +33,12 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-## Phénol : De la dermatite à la Acrodermatite chronique atrophiante
+## Phenol: Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le phénol est une substance chimique dont l'indication d'origine, selon le graphe de connaissances, est la dermatite.
+Le phénol est une substance chimique dont l'indication d'origine est la dermatite.
 Le modèle TxGNN prédit qu'il pourrait être utile pour l'**acrodermatite chronique atrophiante**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 Il s'agit d'une prédiction purement algorithmique (niveau de preuve L5).
 
@@ -46,19 +46,19 @@ Il s'agit d'une prédiction purement algorithmique (niveau de preuve L5).
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dermatite (selon le graphe de connaissances ; aucun texte d'indication n'est renseigné dans les AMM françaises) |
-| Nouvelle Indication Prédite | Acrodermatite chronique atrophiante |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le phénol est un agent chimique connu pour ses propriétés irritantes, protéino-dénaturantes et antiseptiques locales, mais les données compilées pour ce rapport ne permettent pas d'établir un lien mécanistique avec la nouvelle indication.
 
-L'acrodermatite chronique atrophiante est le stade cutané tardif de la borréliose de Lyme et se traite par antibiotiques. Le phénol n'a pas de rôle antimicrobien connu dans ce contexte. Le score très élevé du modèle reflète vraisemblablement la proximité du phénol avec des nœuds « dermatite » et « peau » dans le graphe de connaissances, plutôt qu'un véritable mécanisme.
+L'acrodermatite chronique atrophiante est le stade cutané tardif de la borréliose de Lyme et se traite par antibiotiques. Le phénol n'a pas de rôle antimicrobien connu dans ce contexte. Le score très élevé (0.9995) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies voisines, et non une preuve biologique.
 
 La prédiction doit donc être considérée comme une hypothèse de travail non étayée, et non comme une piste thérapeutique crédible en l'état.
 
@@ -79,9 +79,9 @@ Aucune littérature associée disponible actuellement pour l'acrodermatite chron
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65026434 | DILUANT H.S.A. 0,03 POUR CENT DES STALLERGENES, solution injectable (annulée) | Solution injectable | Non renseignée |
-| 63599951 | OTYLOL, solution pour instillation auriculaire (annulée) | Solution pour instillation | Non renseignée |
-| 67066573 | BRULEX, pommade (annulée) | Pommade | Non renseignée |
+| 65026434 | DILUANT H.S.A. 0,03 POUR CENT DES STALLERGENES, solution injectable (active) | Solution injectable | Non renseignée |
+| 63599951 | OTYLOL, solution pour instillation auriculaire (active) | Solution pour instillation | Non renseignée |
+| 67066573 | BRULEX, pommade (active) | Pommade | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,7 @@ Veuillez consulter la notice pour les mises en garde officielles, qui n'ont pas 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, sans mécanisme plausible, et avec des signaux de sécurité notables. Toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, sans mécanisme plausible, et avec des signaux de sécurité notables. Le médicament est commercialisé en France : 3 AMM valides sur 3.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération des mises en garde et contre-indications officielles (notice ANSM), lacune bloquante pour tout examen de sécurité

@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: Preuves élevées (L1-L2)
 nav_order: 442
 evidence_level: L2
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lenalidomide : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L2). Indication d'origine : Myélome plasmocytaire"
 monitor_inn: "lenalidomide"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **6** 
+Niveau de preuve: **L2** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 </div>
 
-## Lénalidomide : Du Myélome Multiple au Syndrome Myélodysplasique à Leucémie Myéloïde
+## Lenalidomide: Leucémie myéloïde (myeloid leukemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ avec **42 essais cliniques** et **19 publications** associés à cette direction
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Myélome plasmocytaire (texte d'indication de l'AMM non disponible ; indications issues du graphe de connaissances : myélome plasmocytaire, lymphome à cellules du manteau, néoplasme à cellules B, lymphosarcome, syndrome myélodysplasique) |
-| Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,49 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
+| Score de Prédiction TxGNN | 0.9949 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Toutes les AMM annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le myélome et les syndromes myélodysplasiques sont des hémopathies malignes où le médicament a déjà montré son utilité. La leucémie myéloïde aiguë (LAM) partage avec les SMD une origine dans le compartiment myéloïde et un risque de transformation fréquent, ce qui rend plausible l'extension du mécanisme.
 
-Le score élevé du modèle (0,995) est cohérent avec cette hypothèse, mais une prédiction n'est pas une preuve clinique. Les essais disponibles sont surtout de phase 1/2, à un seul bras et de petits effectifs.
+Le score élevé du modèle (0,9949) est cohérent avec cette hypothèse, mais une prédiction n'est pas une preuve clinique. Les essais disponibles sont surtout de phase 1/2, à un seul bras et de petits effectifs.
 
 ## Preuves d'Essais Cliniques
 
@@ -102,13 +102,13 @@ La littérature disponible est composée essentiellement de revues narratives ; 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60019813 | LENALIDOMIDE ARROW 2,5 mg | Gélule | Non disponible (AMM annulée) |
-| 63841924 | REVLIMID 7,5 mg | Gélule | Non disponible (AMM annulée) |
-| 69470867 | REVLIMID 20 mg | Gélule | Non disponible (AMM annulée) |
-| 66205899 | LENALIDOMIDE STRAGEN 10 mg | Gélule | Non disponible (AMM annulée) |
-| 65275154 | LENALIDOMIDE ACCORD 20 mg | Gélule | Non disponible (AMM annulée) |
+| 60019813 | LENALIDOMIDE ARROW 2,5 mg | Gélule | Non disponible (AMM active) |
+| 63841924 | REVLIMID 7,5 mg | Gélule | Non disponible (AMM active) |
+| 69470867 | REVLIMID 20 mg | Gélule | Non disponible (AMM active) |
+| 66205899 | LENALIDOMIDE STRAGEN 10 mg | Gélule | Non disponible (AMM active) |
+| 65275154 | LENALIDOMIDE ACCORD 20 mg | Gélule | Non disponible (AMM active) |
 
-Sur un total de 20 AMM (toutes pour des spécialités à substance unique), les 5 premières sont listées ici. Toutes sont annulées et aucune n'est valide actuellement.
+Sur un total de 20 AMM (toutes pour des spécialités à substance unique), les 5 premières sont listées ici.
 
 ## Cytotoxicité
 
@@ -133,7 +133,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - Le mécanisme est plausible et de nombreux essais précoces existent, mais ils sont de petite taille, non randomisés pour la plupart, sans essai de phase 3 terminé. Le niveau de preuve reste L2.
-- Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes (lacune bloquante), ce qui empêche de passer au criblage de sécurité.
+- Le médicament est commercialisé en France (20 AMM valides) et les données de sécurité de la notice sont absentes (lacune bloquante), ce qui empêche de passer au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) : mises en garde et contre-indications.

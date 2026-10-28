@@ -6,9 +6,9 @@ nav_order: 420
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ivermectin : nouvelle indication prédite, Candidose vulvovaginale (niveau de preuve L5). Indication d'origine : Strongyloïdose, onchocercose"
 monitor_inn: "ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+description: "Ivermectin : nouvelle indication prédite, Candidose vulvovaginale (vulvovaginal candidiasis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ivermectin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Ivermectine : De la strongyloïdose à la candidose vulvovaginale
+## Ivermectin: Candidose vulvovaginale (vulvovaginal candidiasis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **candidose vul
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Strongyloïdose, onchocercose (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Candidose vulvovaginale |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Candidose vulvovaginale (vulvovaginal candidiasis) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 13 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **candidose vul
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, l'ivermectine agit sur les canaux chlorure glutamate-dépendants des invertébrés, ce qui explique son efficacité dans les helminthiases comme la strongyloïdose et l'onchocercose.
 
-Aucun lien mécanistique n'est établi avec les champignons responsables de la candidose : les données compilées ne montrent pas d'équivalent de cette cible chez les pathogènes fongiques. Le score élevé du modèle (99,95 %) semble refléter une proximité dans le graphe de connaissances entre les nœuds liés aux candidoses, plutôt qu'une relation pharmacologique validée.
+Aucun lien mécanistique n'est établi avec les champignons responsables de la candidose : les données compilées ne montrent pas d'équivalent de cette cible chez les pathogènes fongiques. Le score élevé du modèle TxGNN (apprentissage profond) (0,9995) provient du modèle et peut refléter des similitudes apprises entre maladies apparentées, et non une preuve biologique.
 
 Cette prédiction doit donc être considérée comme une hypothèse à explorer, non comme un résultat étayé. Les autres indications prédites (candidose œsophagienne, infection anogénitale à papillomavirus, vulvovaginite, candidose néonatale, candidose invasive, etc.) présentent le même profil : niveau de preuve L5 et recommandation Hold.
 
@@ -110,7 +110,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle, sans essai clinique, sans publication pertinente ni lien mécanistique plausible. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le score du modèle TxGNN (apprentissage profond), sans essai clinique, sans publication pertinente ni lien mécanistique plausible. De plus, le médicament est commercialisé en France (13 AMM valides sur 13), mais les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM

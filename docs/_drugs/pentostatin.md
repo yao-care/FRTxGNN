@@ -6,9 +6,9 @@ nav_order: 589
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Pentostatin : nouvelle indication prédite, Rhabdomyosarcome embryonnaire de type botryoïde du vagin (niveau de preuve L5). Indication d'origine : Leucémie à tricholeucocytes et variante"
 monitor_inn: "pentostatin"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma"]
+description: "Pentostatin : nouvelle indication prédite, Rhabdomyosarcome embryonnaire de type botryoïde du vagin (botryoid-type embryonal rhabdomyosarcoma of the vagina) (niveau de preuve L5). Indication d'origin…"
 ---
 
 # Pentostatin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Pentostatine : De la leucémie à tricholeucocytes au rhabdomyosarcome embryonnaire du vagin (type botryoïde)
+## Pentostatin: Rhabdomyosarcome embryonnaire de type botryoïde du vagin (botryoid-type embryonal rhabdomyosarcoma of the vagina)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,21 +46,21 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie à tricholeucocytes et variante (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Rhabdomyosarcome embryonnaire de type botryoïde du vagin |
-| Score de Prédiction TxGNN | 99,54 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Rhabdomyosarcome embryonnaire de type botryoïde du vagin (botryoid-type embryonal rhabdomyosarcoma of the vagina) |
+| Score de Prédiction TxGNN | 0.9954 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la pentostatine inhibe l'adénosine désaminase, ce qui entraîne une déplétion lymphocytaire. Son efficacité est établie dans la leucémie à tricholeucocytes, une hémopathie lymphoïde.
 
-Aucune donnée ne relie l'inhibition de l'ADA à la biologie du rhabdomyosarcome, un sarcome solide, principalement pédiatrique. Le score élevé (0,995) reflète plus probablement la proximité dans le graphe de connaissances avec d'autres sous-types de rhabdomyosarcome qu'une preuve biologique directe. La similarité avec l'indication originale n'a pas été évaluée.
+Aucune donnée ne relie l'inhibition de l'ADA à la biologie du rhabdomyosarcome, un sarcome solide, principalement pédiatrique. Le score élevé (0.9954) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (d'autres sous-types de rhabdomyosarcome), et non une preuve biologique. La similarité avec l'indication originale n'a pas été évaluée.
 
-Les autres prédictions du modèle vont dans le même sens (score ≈ 0,994–0,995, sans aucune preuve) :
+Les autres prédictions du modèle vont dans le même sens (score ≈ 0,9942–0,995, sans aucune preuve) :
 - rhabdomyosarcome embryonnaire paraméningé (99,52 %) ;
 - rhabdomyosarcome, terme général (99,51 %) ;
 - rhabdomyosarcome embryonnaire des voies biliaires extrahépatiques (99,51 %) et rhabdomyosarcome des voies biliaires extrahépatiques (99,50 %) ;
@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67322542 | NIPENT 10 mg, poudre pour solution pour injection, poudre pour solution pour perfusion (Pfizer Holding France), statut : annulée | Poudre pour solution pour injection ou pour perfusion | Non renseignée |
+| 67322542 | NIPENT 10 mg, poudre pour solution pour injection, poudre pour solution pour perfusion (Pfizer Holding France), statut : active | Poudre pour solution pour injection ou pour perfusion | Non renseignée |
 
 ## Cytotoxicité
 

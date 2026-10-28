@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, ma
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (chélation des métaux lourds d'après les connaissances pharmacologiques établies) |
 | Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,54 % |
+| Score de Prédiction TxGNN | 0,9954 |
 | Niveau de Preuve | L5 (prédiction du modèle, seul un rapport de cas isolé et ancien est disponible) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le seul lien plausible avec la bronchite est indirect. Le rapport de cas de 1963 décrit une bronchite causée par l'inhalation aiguë de mercure. Dans ce contexte précis, chélater le mercure pourrait traiter la toxicité sous-jacente. Ce bénéfice potentiel serait donc limité aux bronchites d'origine toxique par métaux, et ne s'étendrait pas aux bronchites infectieuses, allergiques ou obstructives chroniques.
 
-Le score TxGNN très élevé (99,54 %) reflète probablement la proximité dans le réseau de connaissances entre le dimercaprol et les intoxications aux métaux lourds avec atteinte respiratoire. Il s'agit d'une prédiction de modèle et non d'une preuve clinique.
+Le score TxGNN très élevé (0,9954) reflète probablement la proximité dans le réseau de connaissances entre le dimercaprol et les intoxications aux métaux lourds avec atteinte respiratoire. Il s'agit d'une prédiction de modèle et non d'une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,7 +75,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62727889 | B.A.L., solution injectable I.M. (SERB), AMM annulée | Solution injectable | Non renseignée |
+| 62727889 | B.A.L., solution injectable I.M. (SERB), AMM active | Solution injectable | Non renseignée |
 
 ## Considérations de Sécurité
 

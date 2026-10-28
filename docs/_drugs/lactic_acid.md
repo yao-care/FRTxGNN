@@ -39,7 +39,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 ## Résumé en Une Phrase
 
 L'acide lactique est un métabolite endogène, commercialisé en France sous forme de préparations homéopathiques (Lacticum acidum Lehning et Boiron), dont les deux autorisations sont aujourd'hui annulées et sans indication approuvée renseignée.
-Le modèle TxGNN le prédit comme potentiellement efficace pour la **coarctation atypique de l'aorte**, avec un score élevé (99,59 %).
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **coarctation atypique de l'aorte**, avec un score élevé (0,9959).
 Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutient pour cette indication.
 
 ## Aperçu Rapide
@@ -48,17 +48,17 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 |------|------|
 | Indication Originale | Non renseignée dans les AMM (texte d'indication vide) |
 | Nouvelle Indication Prédite | Coarctation atypique de l'aorte |
-| Score de Prédiction TxGNN | 99,59 % |
+| Score de Prédiction TxGNN | 0,9959 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'acide lactique est un métabolite endogène du métabolisme énergétique, présent dans l'organisme, et les produits français concernés sont des préparations homéopathiques diluées, sans indication officielle renseignée.
 
-Les données compilées pour ce rapport ne permettent pas d'établir de lien mécanistique crédible entre l'acide lactique et la coarctation atypique de l'aorte. Il s'agit d'une malformation vasculaire congénitale, d'origine développementale. On ne connaît à l'acide lactique aucune action pharmacologique sur le développement structurel de l'aorte. Le score élevé du modèle (99,59 %) reflète une association dans le graphe de connaissances, et non une preuve biologique ou clinique.
+Les données compilées pour ce rapport ne permettent pas d'établir de lien mécanistique crédible entre l'acide lactique et la coarctation atypique de l'aorte. Il s'agit d'une malformation vasculaire congénitale, d'origine développementale. On ne connaît à l'acide lactique aucune action pharmacologique sur le développement structurel de l'aorte. Le score élevé (0,9959) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique.
 
 La similarité avec l'indication d'origine ne peut pas être évaluée, faute d'indication originale documentée.
 
@@ -76,8 +76,8 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 62740203 | LACTICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée | Annulée |
-| 61120110 | LACTICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée | Annulée |
+| 62740203 | LACTICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée | Active |
+| 61120110 | LACTICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée | Active |
 
 ## Considérations de Sécurité
 
@@ -105,10 +105,10 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | Malformation aortique | 99,35 % | L5 | Hold |
-| 3 | Malformation œsophagienne non syndromique | 99,23 % | L5 | Hold |
-| 4 | Aménorrhée | 99,16 % | L5 | Hold |
-| 5 | Syndrome de l'œil sec | 99,13 % | L4 | Question de recherche |
+| 2 | Malformation aortique | 0,9935 | L5 | Hold |
+| 3 | Malformation œsophagienne non syndromique | 0,9923 | L5 | Hold |
+| 4 | Aménorrhée | 0,9916 | L5 | Hold |
+| 5 | Syndrome de l'œil sec | 0,9913 | L4 | Question de recherche |
 
 Parmi elles, seul le syndrome de l'œil sec présente un indice indirect : l'acide lactique est un composant normal du film lacrymal et des altérations métaboliques sont décrites dans le syndrome de Sjögren. Les études disponibles portent cependant sur des probiotiques ou d'autres agents, et non sur l'acide lactique lui-même. Cette piste reste une hypothèse de recherche (pH ou osmolarité de la surface oculaire), sans soutien clinique.
 ## Avertissement

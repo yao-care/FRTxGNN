@@ -6,9 +6,9 @@ nav_order: 500
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Miglustat : nouvelle indication prédite, Maladie de Tay-Sachs (niveau de preuve L5). Indication d'origine : Maladie de Gaucher"
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
+description: "Miglustat : nouvelle indication prédite, Autosomal ichthyosis syndrome with fatal disease course (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Miglustat
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Miglustat : De la maladie de Gaucher à la maladie de Tay-Sachs
+## Miglustat: Autosomal ichthyosis syndrome with fatal disease course
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,15 +45,15 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie de Tay-
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Gaucher ; maladie de Niemann-Pick (selon le graphe de connaissances) |
-| Nouvelle Indication Prédite | Maladie de Tay-Sachs |
-| Score de Prédiction TxGNN | 99,75 % |
-| Niveau de Preuve | L1 (selon la grille du dossier ; à nuancer, voir ci-dessous) |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 7 (0 valide, 7 annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Autosomal ichthyosis syndrome with fatal disease course |
+| Score de Prédiction TxGNN | 0.9983 |
+| Niveau de Preuve | L5 (selon la grille du dossier ; à nuancer, voir ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
-> **Note sur le choix de l'indication :** la première indication prédite par le modèle (ichtyose autosomique, score 99,83 %) ne dispose d'aucune preuve clinique ni bibliographique. La maladie de Tay-Sachs, 7ᵉ du classement, est la seule candidate pour laquelle des données réelles existent ; elle est donc retenue pour ce rapport. Les autres prédictions sont résumées plus bas.
+> **Note sur le choix de l'indication :** la première indication prédite par le modèle (ichtyose autosomique, score 0,9983) ne dispose d'aucune preuve clinique ni bibliographique. La maladie de Tay-Sachs, 7ᵉ du classement, est la seule candidate pour laquelle des données réelles existent ; elle est donc retenue pour ce rapport. Les autres prédictions sont résumées plus bas.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -91,13 +91,13 @@ Les données disponibles tempèrent toutefois cet espoir. Une étude de cas de d
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65793983 | ZAVESCA 100 mg | Gélule | Non renseignée (AMM annulée) |
-| 61255179 | MIGLUSTAT GEN.ORPH 100 mg | Gélule | Non renseignée (AMM annulée) |
-| 64394668 | MIGLUSTAT BLUEFISH 100 mg | Gélule | Non renseignée (AMM annulée) |
-| 62931799 | MIGLUSTAT DIPHARMA 100 mg | Gélule | Non renseignée (AMM annulée) |
-| 66036869 | MIGLUSTAT ACCORD 100 mg | Gélule | Non renseignée (AMM annulée) |
+| 65793983 | ZAVESCA 100 mg | Gélule | Non renseignée (AMM active) |
+| 61255179 | MIGLUSTAT GEN.ORPH 100 mg | Gélule | Non renseignée (AMM active) |
+| 64394668 | MIGLUSTAT BLUEFISH 100 mg | Gélule | Non renseignée (AMM active) |
+| 62931799 | MIGLUSTAT DIPHARMA 100 mg | Gélule | Non renseignée (AMM active) |
+| 66036869 | MIGLUSTAT ACCORD 100 mg | Gélule | Non renseignée (AMM active) |
 
-Deux autres AMM annulées existent (OPFOLDA 65 mg, YARGESA 100 mg). Aucune AMM n'est actuellement valide.
+Deux autres AMM annulées existent (OPFOLDA 65 mg, YARGESA 100 mg).
 
 ## Considérations de Sécurité
 
@@ -113,15 +113,15 @@ Les neuf autres candidates n'ont ni essai clinique ni publication associés (niv
 
 | Maladie prédite | Score TxGNN | Plausibilité mécanistique |
 |------|------|------|
-| Ichtyose autosomique syndromique à évolution fatale | 99,83 % | Hypothétique (métabolisme des céramides épidermiques) |
-| Maladie de stockage des esters de cholestérol | 99,82 % | Faible (substrats non glycosphingolipidiques) |
-| Maladie de Krabbe | 99,78 % | Plausible (réduction de substrat) |
-| Leucodystrophie métachromatique | 99,77 % | Plausible (voie des glycosphingolipides) |
-| Maladie de Wolman | 99,76 % | Faible |
-| Encéphalopathie par déficit en prosaposine | 99,75 % | Plausible |
-| Tumeur bénigne de la surrénale | 99,74 % | Aucune justification claire |
-| Ichtyose récessive liée à l'X | 99,73 % | Indirecte et spéculative |
-| Neurodégénérescence associée à la FA2H | 99,72 % | Voie liée, sens du bénéfice incertain |
+| Ichtyose autosomique syndromique à évolution fatale | 0,9983 | Hypothétique (métabolisme des céramides épidermiques) |
+| Maladie de stockage des esters de cholestérol | 0,9982 | Faible (substrats non glycosphingolipidiques) |
+| Maladie de Krabbe | 0,9978 | Plausible (réduction de substrat) |
+| Leucodystrophie métachromatique | 0,9977 | Plausible (voie des glycosphingolipides) |
+| Maladie de Wolman | 0,9976 | Faible |
+| Encéphalopathie par déficit en prosaposine | 0,9975 | Plausible |
+| Tumeur bénigne de la surrénale | 0,9974 | Aucune justification claire |
+| Ichtyose récessive liée à l'X | 0,9973 | Indirecte et spéculative |
+| Neurodégénérescence associée à la FA2H | 0,9972 | Voie liée, sens du bénéfice incertain |
 
 ## Conclusion et Prochaines Étapes
 

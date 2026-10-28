@@ -4,17 +4,17 @@ title: Metoclopramide
 parent: Preuves modérées (L3-L4)
 nav_order: 491
 evidence_level: L4
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Metoclopramide : nouvelle indication prédite, Ulcère gastrique (niveau de preuve L4). Indication d'origine : Reflux gastro-œsophagien, œsophagite"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide : nouvelle indication prédite, Gastroduodenitis (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Métoclopramide : Du reflux gastro-œsophagien à l'ulcère gastrique
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**ulcère gastrique
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Reflux gastro-œsophagien, œsophagite (source : graphe de connaissances TxGNN ; aucune AMM française disponible) |
-| Nouvelle Indication Predite | Ulcère gastrique |
-| Score de Prediction TxGNN | 99,93 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Gastroduodenitis |
+| Score de Prediction TxGNN | 0.9990 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Non commercialisé (selon les données compilées) |
-| Nombre d'AMM | 0 |
+| Statut de Marche en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -94,7 +94,7 @@ Les mises en garde et contre-indications de la notice française ne sont pas dis
 **Decision : Hold**
 
 **Justification :**
-- La prédiction repose sur la proximité dans le réseau de connaissances. Le seul essai clinique porte sur la visualisation endoscopique, la littérature disponible est surtout composée de revues, et les études comparatives montrent que la métoclopramide apporte peu par rapport à la suppression acide. Le médicament n'est pas commercialisé en France d'après les données compilées.
+- Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le seul essai clinique porte sur la visualisation endoscopique, la littérature disponible est surtout composée de revues, et les études comparatives montrent que la métoclopramide apporte peu par rapport à la suppression acide. Le médicament n'est pas commercialisé en France (Not marketed).
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications), bloquant pour le criblage de sécurité

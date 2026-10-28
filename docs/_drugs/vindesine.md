@@ -4,17 +4,17 @@ title: Vindesine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 815
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (niveau de preuve L5). Indication d'origine : Leucémie lymphoblastique aiguë"
 monitor_inn: "vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
+description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (ganglioneuroblastoma (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vindesine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Vindésine : De la leucémie lymphoblastique aiguë au ganglioneuroblastome
+## Vindesine: Ganglioneuroblastome (ganglioneuroblastoma (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Pour la pathologie voisine, le **neuroblastome**, 6 essais cliniques de protocol
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique aiguë (indication issue du graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Ganglioneuroblastome |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ganglioneuroblastome (ganglioneuroblastoma (disease)) |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le ganglioneuroblastome appartient au spectre des tumeurs neuroblastiques, biologiquement apparenté au neuroblastome. La vincristine, proche de la vindésine, fait partie des schémas de chimiothérapie établis du neuroblastome. Le lien repose toutefois uniquement sur le score élevé du modèle et sur ce contexte : aucune donnée directe n'a été fournie pour le ganglioneuroblastome.
 
-Les autres prédictions classées par le modèle sont de moindre intérêt. Le syndrome malformatif avec anomalies vertébrales et dysfonction endocrinienne et T (rang 2) n'a aucun lien mécanistique plausible : il s'agit d'un syndrome congénital rare et non d'une tumeur proliférative, et son score semble être un artefact du graphe de connaissances. La **leucémie myéloïde** (rang 5) est la prédiction la mieux documentée (niveau L3), avec des études cliniques anciennes ; elle est présentée dans les sections suivantes à titre complémentaire.
+Les autres prédictions classées par le modèle sont de moindre intérêt. Le syndrome malformatif avec anomalies vertébrales et dysfonction endocrinienne et T (rang 2) n'a aucun lien mécanistique plausible : il s'agit d'un syndrome congénital rare et non d'une tumeur proliférative, et son score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies voisines, non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -81,7 +81,7 @@ Aucun essai clinique associé n'est enregistré pour le ganglioneuroblastome.
 
 Aucune publication n'est disponible pour le ganglioneuroblastome.
 
-Pour la **leucémie myéloïde** (rang 5), les principales publications portant sur la vindésine sont les suivantes :
+Pour la **leucémie myéloïde**, les principales publications portant sur la vindésine sont les suivantes :
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
@@ -102,7 +102,7 @@ Pour la **tumeur rétropéritonéale** (rang 4), seules deux observations de cas
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61886269 | ELDISINE 5 mg, poudre pour solution injectable (EG LABO - Laboratoires Eurogenerics) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+| 61886269 | ELDISINE 5 mg, poudre pour solution injectable (EG LABO - Laboratoires Eurogenerics) | Poudre pour solution injectable | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 80
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Atosiban : nouvelle indication prédite, Glaucome primitif héréditaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM compilées (usage tocolytique d'après les…"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
+last_modified_at: 2026-10-27
+description: "Atosiban : nouvelle indication prédite, Glaucome héréditaire primitif (primary hereditary glaucoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Atosiban
@@ -33,33 +33,32 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Atosiban : Du Traitement de la Menace d'Accouchement Prématuré au Glaucome Primitif Héréditaire
+## Atosiban : antagoniste des récepteurs de l'ocytocine et de la vasopressine V1A → glaucome héréditaire primitif (primary hereditary glaucoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Atosiban est un antagoniste peptidique des récepteurs de l'ocytocine et de la vasopressine, utilisé comme tocolytique pour retarder l'accouchement prématuré chez la femme adulte enceinte de 24 à 33 semaines.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **glaucome primitif héréditaire**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction.
+Atosiban est un antagoniste peptidique des récepteurs de l'ocytocine et de la vasopressine, utilisé comme tocolytique.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **glaucome héréditaire primitif (primary hereditary glaucoma)**,
+mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM compilées (usage tocolytique d'après les données pharmacologiques) |
-| Nouvelle Indication Prédite | Glaucome primitif héréditaire |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Glaucome héréditaire primitif (primary hereditary glaucoma) |
+| Score de Prédiction TxGNN | 0,9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques, atosiban se lie aux récepteurs V1A, V1B, V2 de la vasopressine et au récepteur de l'ocytocine, et est utilisé comme tocolytique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Les données compilées pour ce rapport indiquent qu'atosiban agit sur les récepteurs de l'ocytocine (OXTR) et sur les récepteurs de la vasopressine V1A, V1B et V2.
 
-Aucun lien mécanistique n'est établi entre ce profil et le glaucome primitif héréditaire. Le score élevé du modèle TxGNN repose sur une prédiction issue d'un graphe de connaissances, sans essai ni publication à l'appui. Pour le glaucome à angle ouvert (deuxième prédiction), seule une hypothèse spéculative a été formulée : un rôle de la signalisation ocytocine/vasopressine dans l'hémodynamique oculaire ou la dynamique de l'humeur aqueuse. Aucune donnée ne la soutient.
-
-Cette prédiction doit donc être considérée comme une piste exploratoire et non comme une indication plausible validée.
+Aucun lien mécanistique n'est établi dans les données entre ces récepteurs et le glaucome héréditaire primitif. Le score TxGNN reflète une prédiction computationnelle, sans étude clinique ni publication pour l'étayer. Cette prédiction doit donc être considérée comme une simple piste à explorer, et non comme une indication démontrée.
 
 ## Preuves d'Essais Cliniques
 
@@ -67,37 +66,33 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée disponible actuellement pour le glaucome primitif héréditaire.
-
-À titre contextuel, la prédiction classée en sixième position (maladie vasculaire) est accompagnée de publications, presque toutes précliniques et portant sur l'ocytocine ou d'autres agonistes, et non sur l'atosiban. La seule étude de cohorte (PMID 30646165) décrit une association entre l'exposition aux tocolytiques et l'hémorragie intraventriculaire chez le prématuré, ce qui constitue un signal de sécurité et non une preuve de bénéfice.
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62476853 | TRACTOCILE 6,75 mg/0,9 ml (annulée) | Solution injectable | Non renseignée |
-| 61710552 | TRACTOCILE 37,5 mg/5 ml (annulée) | Solution à diluer pour perfusion | Non renseignée |
+| 62476853 | TRACTOCILE 6,75 mg/0,9 ml, solution injectable | Solution injectable | Non renseignée |
+| 61710552 | TRACTOCILE 37,5 mg/5 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
 
 ## Considérations de Sécurité
 
-- **Interactions et cibles pharmacologiques** : atosiban agit sur les récepteurs V1A, V1B, V2 et de l'ocytocine. Aucune interaction médicamenteuse classique n'est documentée avec un niveau de gravité.
-- **Signal de sécurité observationnel** : une étude de cohorte chez le prématuré associe l'exposition aux tocolytiques à l'hémorragie intraventriculaire et au décès.
+- **Interactions médicamenteuses** : les données compilées ne signalent pas d'interaction médicamenteuse classique avec d'autres médicaments. Elles décrivent uniquement les cibles pharmacologiques d'atosiban : récepteurs de la vasopressine V1A, V1B et V2, et récepteur de l'ocytocine.
 
-Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
+Veuillez consulter la notice pour les autres informations de sécurité (mises en garde et contre-indications).
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ciblée et sans lien mécanistique démontré. Les AMM françaises sont toutes annulées, et la voie d'administration (injectable) n'a pas été évaluée pour une indication oculaire.
+La prédiction repose uniquement sur le score du modèle (0,9992), sans essai clinique ni publication portant sur le glaucome héréditaire primitif. Le niveau de preuve est donc L5 et aucun lien mécanistique n'est établi.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action
-- Texte de la notice (mises en garde et contre-indications) depuis le site de l'ANSM
-- Revue de la littérature sur la signalisation ocytocine/vasopressine dans la pression intraoculaire et la dynamique de l'humeur aqueuse
-- Études précliniques de l'atosiban dans des modèles de glaucome
-- Évaluation de la compatibilité des voies d'administration (injectable versus voie oculaire)
+- Des données détaillées sur le mécanisme d'action et une hypothèse biologique reliant les récepteurs de l'ocytocine et de la vasopressine au glaucome
+- Des études précliniques ciblant le glaucome héréditaire primitif
+- Les mises en garde et contre-indications issues de la notice ANSM
+- Une évaluation de la voie d'administration, la forme injectable actuelle étant peu adaptée à une atteinte oculaire chronique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

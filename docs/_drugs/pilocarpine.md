@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Pilocarpine
-parent: Prédiction du modèle uniquement (L5)
+parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 603
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Pilocarpine : nouvelle indication prédite, Glaucome héréditaire primaire (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert…"
+last_modified_at: 2026-10-23
+description: "Pilocarpine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Pilocarpine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **1** 
+Niveau de preuve: **N/A** | Indications prédites: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,48 +32,44 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Pilocarpine : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primaire
+<!-- known-uses-page -->
+<!-- description: Pilocarpine : usages connus et statut de commercialisation en France ; actuellement aucune nouvelle indication candidate -->
+## Pilocarpine
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé
+Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour la Pilocarpine correspondent tous à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour ce médicament. Les informations ci-dessous précisent l'usage connu retrouvé et le statut de commercialisation en France.
 
-La pilocarpine est un agoniste muscarinique, initialement utilisé pour le traitement du glaucome à angle ouvert et de l'hypertension oculaire.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome héréditaire primaire**.
-Cependant, **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement algorithmique.
-
-## Aperçu Rapide
-
+## Aperçu rapide
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Glaucome à angle ouvert, hypertension oculaire (le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Glaucome héréditaire primaire |
-| Score de Prédiction TxGNN | 99,83 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
-| Décision Recommandée | Hold |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
+| Usages connus parmi les candidats du modèle | 1 |
+| Statut commercial en France | Commercialisé (autorisations valides : 1 sur 1) |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Usages connus parmi les candidats du modèle
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la pilocarpine est un agoniste muscarinique (récepteur M3). Elle provoque la contraction du muscle ciliaire et augmente l'écoulement de l'humeur aqueuse par le trabéculum, ce qui abaisse la pression intraoculaire. C'est le mécanisme établi pour ses indications d'origine.
+### Approuvés (appuyés par une autorisation ou une notice)
+| Indication | Source |
+|------|------|
+| Glaucome héréditaire primaire (primary hereditary glaucoma) | Autorisation dans un autre pays ; indication approuvée : glaucoma |
 
-Le glaucome héréditaire primaire appartient à la même famille de maladies que le glaucome à angle ouvert, ce qui explique probablement le score TxGNN très élevé (proximité avec les indications existantes). Un abaissement de la pression intraoculaire est donc, en théorie, pertinent.
+### Liés à une indication approuvée (même catégorie de maladie)
+| Indication | Catégorie approuvée |
+|------|------|
+| Aucune | Aucune |
 
-Toutefois, les formes héréditaires (par exemple congénitales ou juvéniles, liées à des variants de CYP1B1 ou MYOC) impliquent souvent une anomalie structurelle du trabéculum ou de l'angle irido-cornéen. Les myotiques y sont probablement moins efficaces, et la chirurgie reste généralement le traitement de première intention. Cette analyse repose sur des connaissances générales et non sur les données fournies.
-
-## Preuves d'Essais Cliniques
-
-Aucun essai clinique associé enregistré actuellement.
-
-## Preuves de la Littérature
-
-Aucune littérature associée disponible actuellement.
+### Scores du modèle TxGNN (apprentissage profond) : ils peuvent refléter des similarités apprises entre maladies voisines, et non une preuve biologique (aucune approbation trouvée)
+| Indication |
+|------|
+| Aucune |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66997501 | ISOPTO PILOCARPINE 2 POUR CENT, collyre (NOVARTIS PHARMA) | Collyre en solution | Non renseignée ; AMM annulée |
+| AMM | Produit | Forme | Statut |
+|------|------|------|------|
+| 66997501 | PILOCARPINE (CHLORHYDRATE DE) | collyre en solution | Active |
 
 ## Considérations de Sécurité
 
@@ -81,19 +78,6 @@ Aucune littérature associée disponible actuellement.
 
 Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
 
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
-
-**Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est plausible, mais les formes héréditaires de glaucome relèvent souvent d'anomalies structurelles peu sensibles aux myotiques. Le seul produit français est en outre annulé, et les données de sécurité issues de la notice manquent.
-
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications officielles de la notice (ANSM), nécessaires au dépistage de sécurité
-- Les données détaillées sur le mécanisme d'action (DrugBank)
-- Une recherche bibliographique et d'essais cliniques ciblée sur la pilocarpine dans les glaucomes héréditaires, congénitaux et juvéniles
-- Une évaluation de la compatibilité de la voie d'administration (collyre) avec la population visée, notamment pédiatrique
-- Une clarification du statut réglementaire actuel, aucune AMM n'étant en vigueur en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

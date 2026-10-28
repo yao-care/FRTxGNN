@@ -6,9 +6,9 @@ nav_order: 604
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pimozide : nouvelle indication prédite, Trichotillomanie (niveau de preuve L3). Indication d'origine : Syndrome de Gilles de la Tourette"
 monitor_inn: "PIMOZIDE"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Pimozide : nouvelle indication prédite, Trichotillomanie (trichotillomania) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pimozide
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Pimozide : Du Syndrome de Gilles de la Tourette à la Trichotillomanie
+## Pimozide: Trichotillomanie (trichotillomania)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré, mais **9 publications** (essentiellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome de Gilles de la Tourette (selon les arêtes d'indication du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trichotillomanie |
-| Score de Prédiction TxGNN | 99,996 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Trichotillomanie (trichotillomania) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,8 +84,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62495939 | ORAP 1 mg, comprimé (statut : annulée) | Comprimé | Non renseignée |
-| 60625647 | ORAP 4 mg, comprimé (statut : annulée) | Comprimé | Non renseignée |
+| 62495939 | ORAP 1 mg, comprimé (statut : active) | Comprimé | Non renseignée |
+| 60625647 | ORAP 4 mg, comprimé (statut : active) | Comprimé | Non renseignée |
 
 ## Cytotoxicité
 
@@ -109,11 +109,10 @@ Les autres prédictions disposent de preuves plus faibles et sont toutes en stat
 
 | Indication Prédite | Score TxGNN | Niveau de Preuve | Commentaire |
 |------|------|------|------|
-| Trouble bipolaire maniaque | 99,993 % | L3 | Anciennes études (1970-1980) comparant le pimozide à la chlorpromazine dans la manie ; aucun essai enregistré ; alternatives modernes mieux tolérées |
-| Insomnie | 99,968 % | L5 | Aucune preuve directe ; signal probablement artefactuel |
-| Trouble affectif majeur | 99,960 % | L4 | Preuves indirectes et anciennes |
-| TDAH | 99,922 % | L4 | Littérature centrée sur le Tourette, preuve indirecte |
-| Autres (syndrome facio-digito-génital, syndrome de Malan, TDAH de type inattentif, agoraphobie, torticolis paroxystique bénin du nourrisson) | 99,6 à 99,9 % | L5 | Prédiction seule, sans preuve |
+| Trouble bipolaire maniaque | 1,0000 | L3 | Anciennes études (1970-1980) comparant le pimozide à la chlorpromazine dans la manie ; aucun essai enregistré ; alternatives modernes mieux tolérées |
+| Insomnie | 0,9997 | L5 | Aucune preuve directe ; signal probablement artefactuel |
+| Trouble affectif majeur | 0,9996 | L5 | Preuves indirectes et anciennes |
+| TDAH | 0,9992 | L4 | Littérature centrée sur le Tourette, preuve indirecte |
 
 ## Conclusion et Prochaines Étapes
 

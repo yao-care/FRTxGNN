@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 585
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pemetrexed : nouvelle indication prédite, Mésothéliome péritonéal malin (niveau de preuve L2). Indication d'origine : Cancer bronchique non à petites cellules, cancer du poumon…"
 monitor_inn: "pemetrexed"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed : nouvelle indication prédite, Pleural adenomatoid tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Pémétrexed : Du Cancer Bronchique Non à Petites Cellules et du Mésothéliome Pleural au Mésothéliome Péritonéal Malin
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **7 essais cliniques** et **20 publications** compilés dans les données d
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer bronchique non à petites cellules, cancer du poumon, mésothéliome pleural malin (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances TxGNN) |
-| Nouvelle Indication Prédite | Mésothéliome péritonéal malin |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 10 (dont 10 annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pleural adenomatoid tumor |
+| Score de Prédiction TxGNN | 0.9999 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -93,13 +93,12 @@ Il convient de noter que, pour les formes péritonéales, la chirurgie de cytor�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67323808 | ALIMTA 500 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 67713231 | ALIMTA 100 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 66335088 | PEMETREXED FRESENIUS KABI 500 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 62103459 | PEMETREXED FRESENIUS KABI 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 61543078 | PEMETREXED VIATRIS 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 67323808 | ALIMTA 500 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 67713231 | ALIMTA 100 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 66335088 | PEMETREXED FRESENIUS KABI 500 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 62103459 | PEMETREXED FRESENIUS KABI 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 61543078 | PEMETREXED VIATRIS 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-Au total, 10 AMM sont recensées, toutes annulées ; aucune n'est actuellement valide.
 
 ## Cytotoxicité
 

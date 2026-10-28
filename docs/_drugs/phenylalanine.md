@@ -47,9 +47,9 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour la **cholangite sclé
 |------|------|
 | Indication Originale | Non renseignée dans les AMM (texte d'indication vide) |
 | Nouvelle Indication Prédite | Cholangite sclérosante |
-| Score de Prédiction TxGNN | 99,43 % |
+| Score de Prédiction TxGNN | 0,9943 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le seul élément de rapprochement est indirect : une étude observationnelle relie la concentration plasmatique de tyrosine (métabolite de la phénylalanine) à la fatigue dans la cirrhose biliaire primitive et la cholangite sclérosante primitive. Cela suggère une altération du métabolisme phénylalanine-tyrosine dans les maladies hépatiques cholestatiques, mais il s'agit d'une association avec un symptôme, non d'une preuve d'effet sur l'évolution de la maladie.
 
-Le score TxGNN, très élevé, reflète une proximité dans le graphe de connaissances et non une justification biologique démontrée. Les variations des taux d'acides aminés pourraient simplement résulter de la maladie et non constituer une cible thérapeutique.
+Le score TxGNN, très élevé, provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Les variations des taux d'acides aminés pourraient simplement résulter de la maladie et non constituer une cible thérapeutique.
 
 ## Preuves d'Essais Cliniques
 
@@ -77,10 +77,10 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63363997 | REVITALOSE SANS SUCRE, solution buvable édulcorée au sorbitol | Solution buvable | Non renseignée (AMM annulée) |
-| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 63363997 | REVITALOSE SANS SUCRE, solution buvable édulcorée au sorbitol | Solution buvable | Non renseignée (AMM active) |
+| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
+| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
+| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
 | 61786735 | AMINOMIX 500, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
 
 Au total, 20 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
@@ -97,14 +97,14 @@ Veuillez consulter la notice pour les informations de securité complémentaires
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L4 au mieux) : aucun essai clinique, littérature seulement indirecte, mécanisme inconnu, et toutes les AMM françaises sont annulées.
-- La seconde indication prédite, le déficit congénital en prothrombine (score 99,26 %, niveau L5), ne dispose d'aucune preuve ni de mécanisme plausible et n'est pas non plus recommandée.
+- La prédiction repose uniquement sur le modèle (niveau L4 au mieux) : aucun essai clinique, littérature seulement indirecte, mécanisme inconnu ; le médicament est commercialisé en France avec 19 AMM valides.
+- La seconde indication prédite, le déficit congénital en prothrombine (score 0,9926, niveau L5), ne dispose d'aucune preuve ni de mécanisme plausible et n'est pas non plus recommandée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (via DrugBank) pour évaluer un lien mécanistique réel
 - Notice ANSM (mises en garde et contre-indications) pour permettre l'évaluation de sécurité
 - Études précliniques ou observationnelles ciblées montrant un effet de la phénylalanine sur la cholangite sclérosante
-- Clarification du statut réglementaire, toutes les AMM étant annulées
+- Clarification du statut réglementaire : le médicament est commercialisé, avec 19 AMM valides
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

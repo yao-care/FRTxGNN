@@ -6,9 +6,9 @@ nav_order: 713
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Spironolactone : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypertension artérielle, insuffisance cardiaque congestive…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Spironolactone : De l'hypertension artérielle à l'hypotrichose simple du cuir chevelu
+## Spironolactone: Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle, insuffisance cardiaque congestive, hyperaldostéronisme (les textes d'indication des AMM ne sont pas renseignés ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
-| Score de Prédiction TxGNN | 99,26 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
+| Score de Prédiction TxGNN | 0.9926 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -58,9 +58,9 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la spironolactone est un antagoniste des récepteurs minéralocorticoïdes, dont l'efficacité dans l'hypertension et l'insuffisance cardiaque est établie. Elle possède aussi une activité anti-androgénique (blocage du récepteur des androgènes, réduction de la synthèse androgénique), exploitée en pratique clinique dans l'alopécie féminine de type androgénique.
 
-Cependant, l'hypotrichose simple est un trouble héréditaire de la pousse des cheveux, lié à des variants de gènes tels que CDSN, APCDD1 et RPL21, et non à une cause androgénique. Le raisonnement anti-androgénique ne s'applique donc pas clairement. Le score élevé du modèle (0,993) reflète probablement une proximité dans le graphe de connaissances plutôt qu'un mécanisme validé.
+Cependant, l'hypotrichose simple est un trouble héréditaire de la pousse des cheveux, lié à des variants de gènes tels que CDSN, APCDD1 et RPL21, et non à une cause androgénique. Le raisonnement anti-androgénique ne s'applique donc pas clairement. Le score élevé du modèle TxGNN (apprentissage profond) (0,9926) peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
-Pour la seconde prédiction (hypotrichose congénitale avec milia, score 99,04 %), la situation est similaire : aucune preuve fournie et aucune pertinence établie de l'action anti-androgénique pour cette maladie congénitale rare. Le lien reste spéculatif.
+Pour la seconde prédiction (hypotrichose congénitale avec milia, score 0,9904), la situation est similaire : aucune preuve fournie et aucune pertinence établie de l'action anti-androgénique pour cette maladie congénitale rare. Le lien reste spéculatif.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est valide actuellement. Les textes d'indication approuvée ne sont pas renseignés. Principales AMM :
+Les textes d'indication approuvée ne sont pas renseignés. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

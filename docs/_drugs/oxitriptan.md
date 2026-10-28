@@ -48,10 +48,10 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 |------|------|
 | Indication Originale | Non renseignée (le texte d'indication de l'AMM est vide) |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,89 % |
+| Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62469022 | LEVOTONINE, gélule (PANPHARMA) | Gélule | Non renseignée (AMM annulée) |
+| 62469022 | LEVOTONINE, gélule (PANPHARMA) | Gélule | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -89,7 +89,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction (score de 99,89 %) n'est étayée par aucun essai clinique ni aucune publication (niveau L5). L'unique AMM française est annulée et ses indications sont vides, et les données de sécurité propres au produit sont manquantes alors que les interactions médicamenteuses sont nombreuses.
+- La prédiction (score de 0,9989) n'est étayée par aucun essai clinique ni aucune publication (niveau L5). L'unique AMM française est annulée et ses indications sont vides, et les données de sécurité propres au produit sont manquantes alors que les interactions médicamenteuses sont nombreuses.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

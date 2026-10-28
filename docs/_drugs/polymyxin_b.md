@@ -4,17 +4,17 @@ title: Polymyxin B
 parent: Preuves modérées (L3-L4)
 nav_order: 615
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Polymyxin B : nouvelle indication prédite, Bronchite (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
+description: "Polymyxin B : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Polymyxin B
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Polymyxine B : De l'usage antibactérien local à la bronchite
+## Polymyxin B: Bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **bronchite**, 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,87 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont radiées |
-| Nombre d'AMM | 9 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -94,7 +94,7 @@ Les publications ci-dessous sont celles qui concernent la bronchite ou les attei
 
 ## Informations de Marché en France
 
-Les 9 AMM sont radiées. Aucune AMM n'est actuellement valide et aucun texte d'indication n'est renseigné.
+Les 9 AMM sont radiées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -128,8 +128,7 @@ Les 9 AMM sont radiées. Aucune AMM n'est actuellement valide et aucun texte d'i
 
 ### Autres indications prédites (pour information)
 
-- **Laryngotrachéite** (score 99,62 %, niveau L5, Hold) : seule la prédiction du modèle la soutient, sans essai ni publication. Cette pathologie est surtout virale, donc l'intérêt d'un antibactérien actif sur les Gram négatifs est faible.
-- **Conjonctivite** (score 99,06 %, niveau L1 selon le classement automatique, « question de recherche ») : plusieurs essais randomisés comparent l'association polymyxine B/triméthoprime à la moxifloxacine ou au chloramphénicol dans la conjonctivite bactérienne. Ces données portent sur l'association et non sur la polymyxine B seule, et la phase des essais n'est pas confirmée. Il s'agit d'un usage topique déjà existant plutôt que d'un véritable repositionnement. Le statut « radiée » des AMM listées doit être vérifié par rapport aux associations ophtalmiques actuellement commercialisées.
+- **Laryngotrachéite** (score 0,9962, niveau L5, Hold) : seule la prédiction du modèle la soutient, sans essai ni publication. Cette pathologie est surtout virale, donc l'intérêt d'un antibactérien actif sur les Gram négatifs est faible.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

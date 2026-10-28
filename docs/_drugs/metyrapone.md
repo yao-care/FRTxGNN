@@ -4,17 +4,17 @@ title: Metyrapone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 495
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Metyrapone : nouvelle indication prédite, Hyperthermie maligne d'effort (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles (usage connu : test diagnosti…"
 monitor_inn: "metyrapone"
-predicted_indications: ["exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
+predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
 ---
 
 # Metyrapone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ La seule publication identifiée pour l'ensemble des indications prédites conce
 |------|------|
 | Indication Originale | Non renseignée dans les AMM disponibles (usage connu : test diagnostique de la fonction hypothalamo-hypophysaire, syndrome de Cushing) |
 | Nouvelle Indication Prédite | Hyperthermie maligne d'effort |
-| Score de Prédiction TxGNN | 99,95 % |
+| Score de Prédiction TxGNN | 0,9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Selon les informations pharmacologiques connues, le métyrapone inhibe la 11-bêta-hydroxylase (CYP11B1) et, dans une moindre mesure, CYP11B2, ce qui réduit la synthèse du cortisol.
 
-**Cette prédiction est mécanistiquement peu plausible.** L'hyperthermie maligne est principalement liée à des variants de RYR1 ou CACNA1S, qui provoquent une libération incontrôlée de calcium par le réticulum sarcoplasmique. L'inhibition de la stéroïdogenèse surrénalienne ne cible pas cette voie. Le score élevé reflète très probablement la proximité dans le graphe de connaissances avec des nœuds de myopathies et d'hyperthermie, et non une justification pharmacologique.
+**Cette prédiction est mécanistiquement peu plausible.** L'hyperthermie maligne est principalement liée à des variants de RYR1 ou CACNA1S, qui provoquent une libération incontrôlée de calcium par le réticulum sarcoplasmique. L'inhibition de la stéroïdogenèse surrénalienne ne cible pas cette voie. Le score élevé provient du modèle TxGNN (apprentissage profond) et reflète très probablement des similarités apprises par le modèle entre maladies apparentées (myopathies, hyperthermie), et non une preuve biologique ou une justification pharmacologique.
 
 Les autres indications prédites (hyperthermie maligne de susceptibilité, syndrome de King-Denborough, myopathies à cores, myopathie centronucléaire, acidose tubulaire rénale) relèvent du même constat : pas de lien mécanistique établi et aucune donnée clinique fournie.
 
@@ -80,7 +80,7 @@ Cette publication est ancienne, porte sur un seul patient et n'étudie pas le m�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68806037 | METYRAPONE ESTEVE 250 mg, capsule molle (ESTEVE PHARMACEUTICALS, Espagne) | Capsule molle | Non renseignée (AMM annulée) |
+| 68806037 | METYRAPONE ESTEVE 250 mg, capsule molle (ESTEVE PHARMACEUTICALS, Espagne) | Capsule molle | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

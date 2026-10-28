@@ -4,17 +4,17 @@ title: Progesterone
 parent: Preuves élevées (L1-L2)
 nav_order: 634
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Progesterone : nouvelle indication prédite, Aménorrhée (niveau de preuve L2). Indication d'origine : Endométriose"
 monitor_inn: "progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Progestérone : De l'endométriose à l'aménorrhée
+## Progesterone: Aménorrhée (amenorrhea (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **4 essais cliniques** (dont des essais de Phase 2/3 et de Phase 3 terminé
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Endométriose (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 18 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -98,7 +98,6 @@ Aucune des publications retenues n'est un essai randomisé ; il s'agit surtout d
 | 65015968 | CRINONE 80 mg/g, gel vaginal | Gel | Non renseignée |
 | 62684797 | PROGIRON 25 mg, solution injectable | Solution injectable | Non renseignée |
 
-Les 18 AMM de la progestérone sont annulées ; aucune n'est actuellement valide en tant que spécialité simple ou en association.
 
 ## Considérations de Sécurité
 
@@ -119,7 +118,7 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indications autorisées).
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Identifier ou conduire un essai ciblant directement la progestérone dans l'aménorrhée, avec critère principal de reprise des règles.
-- Évaluer la compatibilité des voies d'administration et la situation réglementaire, toutes les AMM françaises étant annulées.
+- Évaluer la compatibilité des voies d'administration et la situation réglementaire, les 18 AMM françaises étant valides sur 18.
 - Définir un plan de surveillance pour les populations à comorbidités (hypertension, diabète, atteinte hépatique, épilepsie).
 
 ## Autres Indications Prédites (Pour Information)
@@ -131,7 +130,6 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 | Endométriose du col utérin | L4 | Question de recherche | Extrapolation plausible depuis l'endométriose ; peu de données directes |
 | Endométriose de la cloison recto-vaginale et du vagin | L4 | Question de recherche | Une seule étude immunohistochimique |
 | Endométriose sur cicatrice cutanée | L4 | Question de recherche | Un seul cas clinique ; la chirurgie reste le traitement de première ligne |
-| Hypoplasie rénale (bilatérale ou non) | L5 | Hold | Aucun lien mécanistique crédible ; probable artefact du graphe |
 | Adénose à canaux obstrués du sein | L5 | Hold | Aucune littérature ni essai |
 | Adénose apocrine du sein | L5 | Hold | Lésions ER/PR faibles ou négatives, ce qui affaiblit la justification |
 ## Avertissement

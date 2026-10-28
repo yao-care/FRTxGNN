@@ -4,17 +4,17 @@ title: Fluindione
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 335
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Fluindione : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "FLUINDIONE"
-predicted_indications: ["rheumatoid arthritis", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["rheumatoid arthritis"]
 ---
 
 # Fluindione
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,21 +46,20 @@ Fluindione est un anticoagulant de la classe des indandiones (antivitamine K), c
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,34 % |
+| Score de Prédiction TxGNN | 0,9934 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la fluindione fait partie des indandiones, une classe d'antivitamines K qui inhibent la vitamine K époxyde réductase (VKORC1) et réduisent ainsi la synthèse des facteurs de coagulation dépendants de la vitamine K.
 
-Aucun lien mécanistique n'est étayé par les données disponibles entre cette action anticoagulante et la polyarthrite rhumatoïde. Une hypothèse purement spéculative pourrait relier la signalisation de la coagulation et de la thrombine à l'inflammation synoviale, mais aucun essai ni aucune publication ne la soutient. Le score élevé du modèle (99,34 %) reste une prédiction algorithmique.
+Aucun lien mécanistique n'est étayé par les données disponibles entre cette action anticoagulante et la polyarthrite rhumatoïde. Une hypothèse purement spéculative pourrait relier la signalisation de la coagulation et de la thrombine à l'inflammation synoviale, mais aucun essai ni aucune publication ne la soutient. Le score élevé du modèle (0,9934) reste une prédiction algorithmique.
 
 Il faut aussi noter que le médicament n'a plus d'AMM valide en France et que l'exposition chronique à un anticoagulant comporte un risque hémorragique et une marge thérapeutique étroite. Ces éléments plaident contre un repositionnement sans preuves solides.
 
-**Seconde prédiction du modèle :** la « susceptibilité génétique à la migraine avec ou sans aura » (score 99,23 %, niveau L5, Hold). Il s'agit d'un phénotype de prédisposition génétique plutôt que d'une maladie traitable, et aucune justification pharmacologique plausible n'apparaît pour un antivitamine K. Elle n'est pas développée davantage ici.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68133651 | PREVISCAN 20 mg, comprimé quadrisécable (MERCK SANTE), statut : annulée | Comprimé quadrisécable | Non renseignée |
+| 68133651 | PREVISCAN 20 mg, comprimé quadrisécable (MERCK SANTE), statut : active | Comprimé quadrisécable | Non renseignée |
 
 ## Considérations de Sécurité
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 738
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tenofovir Alafenamide : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L5). Indication d'origine : VIH / SIDA"
 monitor_inn: "tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non …"
 ---
 
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Ténofovir alafénamide : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+## Tenofovir Alafenamide: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **8 publications précliniques** (principalement des études chez le macaqu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | VIH / SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L4 (études précliniques uniquement) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,13 +85,13 @@ Toutes les publications sont précliniques (modèles animaux). Les résumés dis
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66325208 | DESCOVY 200 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69342796 | DESCOVY 200 mg/10 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62844771 | BIKTARVY 50 mg/200 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60246298 | BIKTARVY 30 mg/120 mg/15 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64689693 | ODEFSEY 200 mg/25 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 66325208 | DESCOVY 200 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69342796 | DESCOVY 200 mg/10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62844771 | BIKTARVY 50 mg/200 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60246298 | BIKTARVY 30 mg/120 mg/15 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64689693 | ODEFSEY 200 mg/25 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
-Une sixième AMM (GENVOYA 150 mg/150 mg/200 mg/10 mg, n° 65453475) est également annulée. Les six AMM sont annulées, aucune n'est actuellement valide.
+Une sixième AMM (GENVOYA 150 mg/150 mg/200 mg/10 mg, n° 65453475) est également annulée.
 
 ## Considérations de Sécurité
 
@@ -105,7 +105,7 @@ Une donnée pharmacologique signale une liaison du ténofovir alafénamide au r�
 
 **Justification :**
 - Les preuves se limitent à des études précliniques chez l'animal (L4). Le SIV/SHIV est un modèle du VIH et non une indication humaine distincte : ces données confortent l'usage existant plutôt qu'elles n'ouvrent une nouvelle indication. Aucun essai clinique n'est enregistré, et les six AMM françaises sont annulées.
-- Les deux autres prédictions (SIDA félin ; trouble neurodéveloppemental rare avec ataxie, absence de parole et réduction de la substance blanche corticale) relèvent respectivement du domaine vétérinaire et d'un artefact probable du graphe de connaissances. Elles sont au niveau L5 et ne justifient pas de poursuite.
+- Elles sont au niveau L5 et ne justifient pas de poursuite.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles auprès de l'ANSM (lacune bloquante pour le criblage de sécurité)

@@ -4,17 +4,17 @@ title: Sebelipase Alfa
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 694
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Sebelipase Alfa : nouvelle indication prédite, Syndrome de Scheie (niveau de preuve L5). Indication d'origine : Maladie de Wolman / déficit en lipase acide lysosomale"
 monitor_inn: "sebelipase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+description: "Sebelipase Alfa : nouvelle indication prédite, Syndrome de Scheie (Scheie syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sebelipase Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Sebelipase alfa : Du déficit en lipase acide lysosomale (maladie de Wolman) au syndrome de Scheie
+## Sebelipase Alfa: Syndrome de Scheie (Scheie syndrome)
 {: .text-alpha }
 
 ## Résumé en une phrase
@@ -46,12 +46,12 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Maladie de Wolman / déficit en lipase acide lysosomale (le texte d'indication de l'AMM n'est pas renseigné ; l'indication provient du graphe de connaissances) |
-| Nouvelle indication prédite | Syndrome de Scheie |
-| Score de prédiction TxGNN | 99,80 % (rang 4523) |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Syndrome de Scheie (Scheie syndrome) |
+| Score de prédiction TxGNN | 0.9980 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Uniquement annulée (AMM abrogée) |
-| Nombre d'AMM | 1 |
+| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
@@ -76,7 +76,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 68773758 | KANUMA 2 mg/ml, solution à diluer pour perfusion (ALEXION EUROPE) | Solution à diluer pour perfusion | Texte d'indication non disponible (AMM annulée) |
+| 68773758 | KANUMA 2 mg/ml, solution à diluer pour perfusion (ALEXION EUROPE) | Solution à diluer pour perfusion | Texte d'indication non disponible (AMM active) |
 
 ## Considérations de sécurité
 

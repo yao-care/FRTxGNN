@@ -4,7 +4,7 @@ title: Susoctocog Alfa
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 727
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Susoctocog Alfa : nouvelle indication prédite, Trouble de libération plaquettaire primaire (niveau de preuve L5). Indication d'origine : Hémophilie acquise (l'indication approuvée n'est pas renseigné…"
 monitor_inn: "SUSOCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 # Susoctocog Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Susoctocog alfa : De l'hémophilie acquise à l'hémophilie (forme congénitale avec inhibiteurs)
+## Susoctocog alfa : Défaut primaire de sécrétion plaquettaire
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -50,10 +50,10 @@ Le modèle TxGNN prédit en première position un effet potentiel sur le **troub
 | Indication Originale | Hémophilie acquise (l'indication approuvée n'est pas renseignée dans les données d'AMM) |
 | Nouvelle Indication Predite (rang 1) | Trouble de libération plaquettaire primaire |
 | Indication la mieux documentée | Hémophilie (rang 4) |
-| Score de Prédiction TxGNN | 99,94 % (rang 1) ; 99,74 % (hémophilie) |
+| Score de Prédiction TxGNN | 0,9994 (rang 1) |
 | Niveau de Preuve | L5 (rang 1) ; L3 (hémophilie) |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold (rang 1) ; Proceed with Guardrails pour le déficit acquis en facteur de coagulation, qui correspond en pratique à l'indication d'origine |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -93,7 +93,7 @@ Pour la prédiction n°1, aucune littérature associée n'est disponible actuell
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65982247 | OBIZUR 500 U, poudre et solvant pour solution injectable (BAXALTA INNOVATIONS, Autriche) | Poudre et solvant pour solution injectable | Non renseignée ; AMM annulée |
+| 65982247 | OBIZUR 500 U, poudre et solvant pour solution injectable (BAXALTA INNOVATIONS, Autriche) | Poudre et solvant pour solution injectable | Non renseignée ; AMM active |
 
 ## Considérations de Sécurité
 

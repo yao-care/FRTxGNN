@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Lèpre**, mais 
 |------|------|
 | Indication Originale | Mucoviscidose (fibrose kystique) |
 | Nouvelle Indication Prédite | Lèpre |
-| Score de Prédiction TxGNN | 99,44 % |
+| Score de Prédiction TxGNN | 0,9944 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La lèpre est une infection causée par *Mycobacterium leprae*. Sa physiopathologie repose sur la réponse immunitaire de l'hôte et l'invasion des cellules de Schwann, et non sur un dysfonctionnement de CFTR. **Aucun lien mécanistique établi** n'a été identifié entre les deux maladies.
 
-Le score élevé (0,994) provient uniquement du graphe de connaissances. Aucune justification biologique (effet antimycobactérien, immunomodulation de l'hôte, voie commune) n'est documentée ; tout lien serait spéculatif.
+Le score élevé (0,9944) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Aucune justification biologique (effet antimycobactérien, immunomodulation de l'hôte, voie commune) n'est documentée ; tout lien serait spéculatif.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,11 +75,11 @@ Les cinq autorisations, toutes détenues par Vertex Pharmaceuticals (Ireland), s
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66352529 | ORKAMBI 200 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | Annulée |
-| 66209488 | ORKAMBI 150 mg/188 mg, granulés en sachet | Granulés | Annulée |
-| 61962699 | ORKAMBI 100 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | Annulée |
-| 65639871 | ORKAMBI 100 mg/125 mg, granulés en sachet | Granulés | Annulée |
-| 64733894 | ORKAMBI 75 mg/94 mg, granulés en sachet | Granulés | Annulée |
+| 66352529 | ORKAMBI 200 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | Active |
+| 66209488 | ORKAMBI 150 mg/188 mg, granulés en sachet | Granulés | Active |
+| 61962699 | ORKAMBI 100 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | Active |
+| 65639871 | ORKAMBI 100 mg/125 mg, granulés en sachet | Granulés | Active |
+| 64733894 | ORKAMBI 75 mg/94 mg, granulés en sachet | Granulés | Active |
 
 ## Considérations de Sécurité
 

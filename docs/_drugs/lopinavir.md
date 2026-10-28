@@ -6,9 +6,9 @@ nav_order: 461
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Lopinavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Lopinavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Lopinavir
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Lopinavir : Du VIH/SIDA au Syndrome d'Immunodéficience Acquise Féline
+## Lopinavir: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Lopinavir est un inhibiteur de protéase du VIH-1, initialement utilisé dans le traitement de l'infection par le VIH et du SIDA.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immunodéficience acquise féline** (score de 99,90 %), mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette indication précise.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immunodéficience acquise féline** (score de 0,9990), mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette indication précise.
 Pour une indication voisine, l'infection par le virus de l'immunodéficience simienne, **3 publications précliniques** chez le macaque sont disponibles.
 
 ---
@@ -48,12 +48,12 @@ Pour une indication voisine, l'infection par le virus de l'immunodéficience sim
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,11 +64,11 @@ Les données détaillées sur le mécanisme d'action ne sont pas disponibles dan
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus apparenté au VIH, ce qui offre un argument mécanistique de départ. Toutefois, la protéase du FIV diffère de celle du VIH-1 par sa spécificité de substrat et sa sensibilité aux inhibiteurs, et plusieurs inhibiteurs de protéase du VIH montrent une activité réduite contre elle. Ce raisonnement repose sur la prédiction du modèle et sur la biologie générale des lentivirus, et non sur des données fournies.
 
-Le score très élevé (0,999) reflète probablement la proximité dans le graphe avec les indications d'origine (VIH/SIDA) plutôt qu'une preuve indépendante. Il faut donc l'interpréter avec prudence.
+Il faut donc l'interpréter avec prudence.
 
 **Autres prédictions du modèle :**
-- **Infection par le virus de l'immunodéficience simienne** (score 99,90 %, niveau L4) : lien mécanistique plausible, car la protéase du SIV est généralement sensible aux inhibiteurs de protéase du VIH. Il s'agit toutefois d'un modèle animal de recherche, et non d'une indication thérapeutique humaine.
-- **Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale** (score 99,90 %, niveau L5) : aucun lien mécanistique identifié. Il s'agit d'une maladie génétique rare sans rapport évident avec l'inhibition de la protéase du VIH, et la pénétration du lopinavir dans le système nerveux central est limitée. Cette prédiction est purement spéculative.
+- **Infection par le virus de l'immunodéficience simienne** (score 0,9990, niveau L4) : lien mécanistique plausible, car la protéase du SIV est généralement sensible aux inhibiteurs de protéase du VIH. Il s'agit toutefois d'un modèle animal de recherche, et non d'une indication thérapeutique humaine.
+- **Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale** (score 0,9990, niveau L5) : aucun lien mécanistique identifié. Il s'agit d'une maladie génétique rare sans rapport évident avec l'inhibition de la protéase du VIH, et la pénétration du lopinavir dans le système nerveux central est limitée. Cette prédiction est purement spéculative.
 
 ---
 
@@ -92,15 +92,15 @@ Aucune publication n'est disponible pour l'indication principale (syndrome d'imm
 
 ## Informations de Marché en France
 
-Toutes les AMM listées sont annulées. Le texte d'indication approuvée n'est pas renseigné.
+Le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69831794 | Lopinavir/Ritonavir Viatris 100 mg/25 mg | Comprimé pelliculé | Annulée |
-| 61708715 | Lopinavir/Ritonavir Viatris 200 mg/50 mg | Comprimé pelliculé | Annulée |
-| 69474926 | Kaletra (80 mg + 20 mg)/ml | Solution buvable | Annulée |
-| 67969992 | Kaletra 200 mg/50 mg | Comprimé pelliculé | Annulée |
-| 64629002 | Kaletra 100 mg/25 mg | Comprimé pelliculé | Annulée |
+| 69831794 | Lopinavir/Ritonavir Viatris 100 mg/25 mg | Comprimé pelliculé | Active |
+| 61708715 | Lopinavir/Ritonavir Viatris 200 mg/50 mg | Comprimé pelliculé | Active |
+| 69474926 | Kaletra (80 mg + 20 mg)/ml | Solution buvable | Active |
+| 67969992 | Kaletra 200 mg/50 mg | Comprimé pelliculé | Active |
+| 64629002 | Kaletra 100 mg/25 mg | Comprimé pelliculé | Active |
 
 ---
 
@@ -131,7 +131,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Réaliser une revue de la littérature spécifique sur l'activité du lopinavir contre la protéase du FIV.
 - Confirmer le rôle exact du lopinavir dans les trois études sur macaques.
 - Clarifier le cadre d'usage : les indications prédites relèvent surtout de la médecine vétérinaire ou de modèles animaux, et non d'une indication thérapeutique humaine.
-- Vérifier la disponibilité du produit, puisque toutes les AMM sont annulées.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

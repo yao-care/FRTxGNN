@@ -4,17 +4,17 @@ title: Nebivolol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 528
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nebivolol : nouvelle indication prédite, Maladie rénale hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Nebivolol : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Nebivolol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Nébivolol : De l'Hypertension Artérielle à l'Hypertension Rénale Maligne
+## Nebivolol: Maladie rénale hypertensive maligne (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte d'indication de l'AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne |
-| Score de Prédiction TxGNN | 99,42 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
+| Score de Prédiction TxGNN | 0.9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le nébivolol est un bêta-bloquant bêta-1 sélectif, dont l'effet vasodilatateur passe par la voie du monoxyde d'azote (NO). Son efficacité dans l'hypertension artérielle est établie.
 
-La maladie rénale hypertensive maligne est une atteinte rénale secondaire à une hypertension sévère. Sur le plan théorique, une baisse de la pression artérielle pourrait limiter les lésions rénales. Toutefois, le score élevé du modèle (99,4 %) reflète très probablement la proximité dans le graphe de connaissances avec l'indication originale d'hypertension, et non une preuve indépendante.
+La maladie rénale hypertensive maligne est une atteinte rénale secondaire à une hypertension sévère. Sur le plan théorique, une baisse de la pression artérielle pourrait limiter les lésions rénales.
 
 Les autres indications prédites relèvent de la même logique : hypertension rénovasculaire maligne (score identique, absence de preuves ; le blocage bêta pourrait réduire la libération de rénine), hypertension pulmonaire (deux entités prédites) et syndrome de Braddock (aucun lien mécanistique clair).
 
@@ -76,7 +76,7 @@ Aucune littérature associée n'est disponible actuellement pour la maladie rén
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66673481 | TEMERIT 5 mg, comprimé quadrisécable (DIFARMED, Espagne) | Comprimé quadrisécable | Non renseignée (AMM annulée) |
+| 66673481 | TEMERIT 5 mg, comprimé quadrisécable (DIFARMED, Espagne) | Comprimé quadrisécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

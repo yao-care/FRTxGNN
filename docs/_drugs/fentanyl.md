@@ -6,9 +6,9 @@ nav_order: 323
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Fentanyl : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
+description: "Fentanyl : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) (niveau de preuve L5). Indication d'origine : Non rensei…"
 ---
 
 # Fentanyl
@@ -33,23 +33,23 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Fentanyl : D'un analgésique opioïde au Syndrome néphrogénique d'antidiurèse inappropriée
+## Fentanyl: Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le fentanyl est un analgésique opioïde puissant, agoniste des récepteurs mu, commercialisé en France sous forme de dispositifs transdermiques et de comprimés buccogingivaux. L'indication originale n'est pas renseignée dans les données compilées pour ce report.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée** (score de 99,46 %), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction, qui reste purement algorithmique et biologiquement peu plausible.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphrogénique d'antidiurèse inappropriée** (score de 0,9946), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction, qui reste purement algorithmique et biologiquement peu plausible.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
-| Score de Prédiction TxGNN | 99,46 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) |
+| Score de Prédiction TxGNN | 0.9946 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -59,9 +59,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **La prédiction apparaît peu plausible.** Le syndrome néphrogénique d'antidiurèse inappropriée est dû à des mutations gain de fonction du récepteur V2 de la vasopressine (AVPR2), cible sur laquelle le fentanyl n'a aucune action connue. Par ailleurs, les opioïdes peuvent stimuler la libération d'ADH et provoquer une antidiurèse, ce qui aggraverait la maladie au lieu de la traiter.
 
-Le score TxGNN élevé (99,46 %) résulte uniquement d'une prédiction par graphe de connaissances. Sans données de mécanisme validées, elle ne peut pas être recoupée avec la pharmacologie établie. Un signal de contre-indication possible est en outre suspecté.
+Le score TxGNN élevé (0,9946) résulte uniquement d'une prédiction du modèle TxGNN (apprentissage profond). Sans données de mécanisme validées, elle ne peut pas être recoupée avec la pharmacologie établie. Un signal de contre-indication possible est en outre suspecté.
 
-**Seconde prédiction (pour information) :** le syndrome de Gilles de la Tourette (score de 99,05 %, niveau L5, Hold). Le lien est indirect et spéculatif (modulation de la dopamine striatale par le système opioïde endogène). Le risque de dépendance, de dépression respiratoire et d'abus du fentanyl rend un rapport bénéfice-risque favorable très improbable dans une affection neurodéveloppementale chronique.
+**Seconde prédiction (pour information) :** le syndrome de Gilles de la Tourette (score de 0,9905, niveau L5, Hold). Le lien est indirect et spéculatif (modulation de la dopamine striatale par le système opioïde endogène). Le risque de dépendance, de dépression respiratoire et d'abus du fentanyl rend un rapport bénéfice-risque favorable très improbable dans une affection neurodéveloppementale chronique.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est valide. Le texte d'indication approuvée n'est pas disponible. Principales AMM :
+Le texte d'indication approuvée n'est pas disponible. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -97,7 +97,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Elle est mécanistiquement contradictoire (les opioïdes favorisent l'antidiurèse) et le profil de sécurité est défavorable. Toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Elle est mécanistiquement contradictoire (les opioïdes favorisent l'antidiurèse) et le profil de sécurité est défavorable. Le médicament est commercialisé en France, avec 20 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (bloquant pour l'étape de sécurité), en téléchargeant et analysant la notice.

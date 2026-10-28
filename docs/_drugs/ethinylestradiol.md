@@ -6,9 +6,9 @@ nav_order: 304
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ethinylestradiol : nouvelle indication prédite, Élévation du zinc plasmatique (niveau de preuve L5). Indication d'origine : Acné, ostéoporose post-ménopausique, ostéoporose, atrophie vulvaire…"
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Ethinylestradiol : nouvelle indication prédite, Élévation du zinc plasmatique (zinc, elevated plasma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ethinylestradiol
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Éthinylestradiol : De l'acné et de l'ostéoporose post-ménopausique à l'élévation du zinc plasmatique
+## Ethinylestradiol: Élévation du zinc plasmatique (zinc, elevated plasma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour **l'élévation du z
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acné, ostéoporose post-ménopausique, ostéoporose, atrophie vulvaire, vaginite atrophique post-ménopausique (selon le graphe de connaissances ; aucun texte d'indication n'est disponible dans les AMM) |
-| Nouvelle Indication Prédite | Élévation du zinc plasmatique |
-| Score de Prédiction TxGNN | 99,63 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Élévation du zinc plasmatique (zinc, elevated plasma) |
+| Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -71,15 +71,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est valide. Le texte d'indication approuvée n'est pas disponible. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas disponible. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61997052 | ETHINYLOESTRADIOL EFFIK 50 microgrammes, comprimé | comprimé | Non disponible (AMM annulée) |
-| 68751765 | ETHINYLESTRADIOL/DROSPIRENONE CRISTERS 0,03 mg/3 mg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM annulée) |
-| 61171418 | LEVONORGESTREL/ETHINYLESTRADIOL BIOGARAN 100 µg/20 µg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM annulée) |
-| 69491847 | ETHINYLESTRADIOL/LEVONORGESTREL MAJORELLE 20 µg/100 µg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM annulée) |
-| 62079905 | DESOGESTREL/ETHINYLESTRADIOL BIOGARAN 150 µg/20 µg, comprimé enrobé | comprimé enrobé | Non disponible (AMM annulée) |
+| 61997052 | ETHINYLOESTRADIOL EFFIK 50 microgrammes, comprimé | comprimé | Non disponible (AMM active) |
+| 68751765 | ETHINYLESTRADIOL/DROSPIRENONE CRISTERS 0,03 mg/3 mg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM active) |
+| 61171418 | LEVONORGESTREL/ETHINYLESTRADIOL BIOGARAN 100 µg/20 µg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM active) |
+| 69491847 | ETHINYLESTRADIOL/LEVONORGESTREL MAJORELLE 20 µg/100 µg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM active) |
+| 62079905 | DESOGESTREL/ETHINYLESTRADIOL BIOGARAN 150 µg/20 µg, comprimé enrobé | comprimé enrobé | Non disponible (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -93,7 +93,7 @@ Les mises en garde et contre-indications issues des notices ne sont pas disponib
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. L'indication prédite est un paramètre biologique sans besoin thérapeutique clair, et toutes les AMM françaises sont annulées. Les données de notice (mises en garde, contre-indications) manquent, ce qui bloque l'évaluation de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. L'indication prédite est un paramètre biologique sans besoin thérapeutique clair, et le médicament est commercialisé en France avec 20 AMM valides. Les données de notice (mises en garde, contre-indications) manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser les notices officielles de l'ANSM (mises en garde, contre-indications).

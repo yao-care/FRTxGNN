@@ -4,17 +4,17 @@ title: Idelalisib
 parent: Preuves modérées (L3-L4)
 nav_order: 388
 evidence_level: L3
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Idelalisib : nouvelle indication prédite, Lymphome à cellules du manteau (niveau de preuve L3). Indication d'origine : Lymphome folliculaire…"
 monitor_inn: "idelalisib"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
+description: "Idelalisib : nouvelle indication prédite, Lymphome à cellules du manteau (mantle cell lymphoma) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Idelalisib
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Idelalisib : Du Lymphome Folliculaire et de la Leucémie Lymphoïde Chronique au Lymphome à Cellules du Manteau
+## Idelalisib: Lymphome à cellules du manteau (mantle cell lymphoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **lymphome à cel
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lymphome folliculaire, leucémie lymphoïde chronique/lymphome lymphocytique à petites cellules, autres néoplasmes à cellules B matures (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Lymphome à cellules du manteau |
-| Score de Prédiction TxGNN | 99,84 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Lymphome à cellules du manteau (mantle cell lymphoma) |
+| Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -102,8 +102,8 @@ Aucun essai randomisé contrôlé n'figure parmi les publications associées à 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68093737 | ZYDELIG 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69111017 | ZYDELIG 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68093737 | ZYDELIG 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69111017 | ZYDELIG 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 

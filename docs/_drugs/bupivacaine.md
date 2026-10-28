@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**acrodermatite 
 |------|------|
 | Indication Originale | Dermatite (selon la base de connaissances TxGNN ; aucun texte d'indication n'est renseigné dans les AMM) |
 | Nouvelle Indication Prédite | Acrodermatite chronique atrophiante |
-| Score de Prédiction TxGNN | 99,23 % |
+| Score de Prédiction TxGNN | 0,9923 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 6) |
+| Nombre d'AMM | 6 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**acrodermatite 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la bupivacaïne est un anesthésique local de type amide qui bloque les canaux sodiques voltage-dépendants et inhibe ainsi la conduction nerveuse.
 
-Cette prédiction est **difficile à justifier sur le plan mécanistique**. L'acrodermatite chronique atrophiante est une manifestation cutanée tardive de l'infection par *Borrelia*, traitée par antibiotiques. Un bloqueur des canaux sodiques n'a pas de rôle plausible de modification de la maladie. Le score élevé (0,992) reflète probablement la proximité dans le réseau de connaissances avec l'indication « dermatite », et non une efficacité réelle.
+Cette prédiction est **difficile à justifier sur le plan mécanistique**. L'acrodermatite chronique atrophiante est une manifestation cutanée tardive de l'infection par *Borrelia*, traitée par antibiotiques. Un bloqueur des canaux sodiques n'a pas de rôle plausible de modification de la maladie. Le score élevé (0,9923) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du modèle (dermatomyosite néonatale, dermatomyosite amyopathique, pneumopathie interstitielle de l'enfant associée à une maladie du tissu conjonctif) présentent le même constat : aucun lien mécanistique n'est étayé et aucune preuve clinique n'est disponible. Pour la dermatomyosite néonatale, la myotoxicité locale connue de la bupivacaïne constitue en outre une préoccupation de sécurité.
 
@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM ci-dessous sont annulées ; aucune n'est actuellement valide.
+Parmi les 6 AMM ci-dessous, 4 sont valides ; le médicament est commercialisé.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -109,7 +109,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec une infection tardive à *Borrelia*.
-- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont manquantes (lacune bloquante).
+- Sur les 6 AMM françaises, 4 sont valides, et les données de sécurité de la notice sont manquantes (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications) afin de permettre le criblage de sécurité

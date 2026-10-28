@@ -6,9 +6,9 @@ nav_order: 695
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Secnidazole : nouvelle indication prédite, Vaginite atrophique postménopausique (niveau de preuve L5). Indication d'origine : Vaginose bactérienne, trichomonase, giardiase, vaginite, vulvite…"
 monitor_inn: "SECNIDAZOLE"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "trichomonal vulvovaginitis", "leukoplakia of vagina", "vulvovaginal candidiasis"]
+description: "Secnidazole : nouvelle indication prédite, Vaginite atrophique postménopausique (postmenopausal atrophic vaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Secnidazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Sécnidazole : De la vaginose bactérienne à la vaginite atrophique postménopausique
+## Secnidazole: Vaginite atrophique postménopausique (postmenopausal atrophic vaginitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique ni aucune publication ne soutient toutefois cette prédicti
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Vaginose bactérienne, trichomonase, giardiase, vaginite, vulvite, vulvovaginite (indications issues du graphe de connaissances, le texte d'indication de l'AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Vaginite atrophique postménopausique |
-| Score de Prédiction TxGNN | 99,70 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Vaginite atrophique postménopausique (postmenopausal atrophic vaginitis) |
+| Score de Prédiction TxGNN | 0.9970 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | AMM annulée uniquement (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63820798 | SECNOL 2 g, granulés en sachet-dose (SUBSTIPHARM), AMM annulée | Granulés | Non renseignée dans les données compilées |
+| 63820798 | SECNOL 2 g, granulés en sachet-dose (SUBSTIPHARM), AMM active | Granulés | Non renseignée dans les données compilées |
 
 La seule AMM connue est annulée. La disponibilité du produit en France devrait donc être vérifiée avant toute réflexion sur un usage ultérieur.
 
@@ -96,7 +96,7 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Le score de prédiction est très élevé (99,70 %), mais il n'existe aucun essai clinique ni publication, et le lien mécanistique avec une maladie hormonale non infectieuse est inexistant (niveau de preuve L5).
+- Le score de prédiction est très élevé (0,9970), mais il n'existe aucun essai clinique ni publication, et le lien mécanistique avec une maladie hormonale non infectieuse est inexistant (niveau de preuve L5).
 - L'AMM française est annulée et les données de sécurité issues de la notice ne sont pas disponibles.
 
 À titre d'information, parmi les autres prédictions du modèle, le « pertes vaginales » est la mieux documentée (plusieurs essais de phase 3 et méta-analyses). Ces preuves reflètent surtout les indications déjà connues (vaginose bactérienne, trichomonase) et non une véritable nouvelle maladie. Elles ne soutiennent donc pas la prédiction retenue ici.

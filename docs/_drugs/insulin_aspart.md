@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 399
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Insulin Aspart : nouvelle indication prédite, Diabète de type 1 (niveau de preuve L1). Indication d'origine : Diabète sucré"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
+description: "Insulin Aspart : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Insuline asparte : Du diabète sucré au diabète de type 1
+## Insulin Aspart: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Il s'agit toutefois d'une indication déjà établie (sous-catégorie du diabèt
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Diabète sucré ; acidocétose diabétique (le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Diabète de type 1 |
-| Score de Prédiction TxGNN | 99,95 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 11 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Autoimmune oophoritis |
+| Score de Prédiction TxGNN | 0.9992 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -102,11 +102,11 @@ Les 11 AMM sont annulées ; le texte des indications approuvées n'est pas rense
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64366900 | FIASP PUMPCART 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM annulée) |
-| 65918860 | NOVORAPID PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM annulée) |
-| 68772407 | FIASP 100 unités/ml, flacon | Solution injectable | Non renseignée (AMM annulée) |
-| 61232223 | NOVORAPID FLEXPEN 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 60810891 | FIASP PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM annulée) |
+| 64366900 | FIASP PUMPCART 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
+| 65918860 | NOVORAPID PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
+| 68772407 | FIASP 100 unités/ml, flacon | Solution injectable | Non renseignée (AMM active) |
+| 61232223 | NOVORAPID FLEXPEN 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 60810891 | FIASP PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

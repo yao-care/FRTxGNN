@@ -6,9 +6,9 @@ nav_order: 178
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clidinium : nouvelle indication prédite, Syndrome de la queue de cheval (rang 1) (niveau de preuve L5). Indication d'origine : Syndrome de l'intestin irritable"
 monitor_inn: "CLIDINIUM"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
+description: "Clidinium : nouvelle indication prédite, Syndrome de la queue de cheval (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clidinium
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Clidinium : Des troubles gastro-intestinaux fonctionnels à l'ulcère peptique
+## Clidinium: Syndrome de la queue de cheval (rang 1) ; indication la mieux documentée : ulcère peptique (cauda equina syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ La prédiction la mieux étayée est l'**ulcère peptique** (rang 4), avec **6 p
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome de l'intestin irritable (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Syndrome de la queue de cheval (rang 1) ; indication la mieux documentée : ulcère peptique (rang 4) |
-| Score de Prédiction TxGNN | 99,93 % (syndrome de la queue de cheval) ; 99,83 % (ulcère peptique) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval (rang 1) ; indication la mieux documentée : ulcère peptique (cauda equina syndrome) |
+| Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 (syndrome de la queue de cheval) ; L3 (ulcère peptique) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold (syndrome de la queue de cheval) ; Research Question (ulcère peptique) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -93,8 +93,8 @@ La majorité de ces données concerne des associations avec le chlordiazépoxide
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66803576 | LIBRAX, comprimé enrobé (DIFARMED, Espagne) | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 67627992 | LIBRAX, comprimé enrobé (VIATRIS MEDICAL) | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 66803576 | LIBRAX, comprimé enrobé (DIFARMED, Espagne) | Comprimé enrobé | Non renseignée (AMM active) |
+| 67627992 | LIBRAX, comprimé enrobé (VIATRIS MEDICAL) | Comprimé enrobé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

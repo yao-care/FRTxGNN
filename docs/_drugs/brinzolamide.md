@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Prédiction du modèle uniquement (L5)
+parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 115
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Brinzolamide : nouvelle indication prédite, Glaucome héréditaire primaire (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert, hypertension oculaire"
+last_modified_at: 2026-10-23
+description: "Brinzolamide : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **1** 
+Niveau de preuve: **N/A** | Indications prédites: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,53 +32,56 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Brinzolamide : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primaire
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: usages connus et statut commercial en France; actuellement aucune nouvelle indication candidate -->
+## Brinzolamide
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé
+Les candidats proposés par le modèle TxGNN pour Brinzolamide correspondent tous à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour cette substance.
 
-Brinzolamide est un inhibiteur de l'anhydrase carbonique, initialement utilisé en collyre pour le traitement du glaucome à angle ouvert et de l'hypertension oculaire.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **glaucome héréditaire primaire**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
-
-## Aperçu Rapide
-
+## Aperçu rapide
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Glaucome à angle ouvert, hypertension oculaire (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Glaucome héréditaire primaire |
-| Score de Prédiction TxGNN | 99,48 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 13 (toutes annulées) |
-| Décision Recommandée | Hold |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
+| Usages connus parmi les candidats du modèle | 1 |
+| Statut commercial en France | Commercialisé (autorisations valides : 13 sur 13) |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Usages connus parmi les candidats du modèle
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le brinzolamide est un inhibiteur de l'anhydrase carbonique II. Il réduit la sécrétion d'humeur aqueuse et fait ainsi baisser la pression intraoculaire (PIO). Ce mécanisme n'a pas pu être vérifié par des données de cibles validées.
+### Approuvés (appuyés par une autorisation ou une notice)
+| Indication | Source |
+|------|------|
+| glaucome héréditaire primitif (primary hereditary glaucoma) | autorisation dans un autre pays ; indication approuvée : glaucoma |
 
-Le glaucome héréditaire primaire (par exemple le glaucome congénital primaire, souvent lié à des variants de CYP1B1 ou MYOC) se caractérise lui aussi par une PIO élevée. La voie ciblée est donc la même que pour les indications approuvées, ce qui explique le score élevé du modèle.
+### Apparentés à une indication approuvée (même catégorie de maladie)
+| Indication | Catégorie approuvée |
+|------|------|
+| Aucune | Aucune |
 
-Il faut toutefois nuancer : ces glaucomes résultent surtout d'une dysgénésie du trabéculum et des voies d'écoulement, et sont souvent traités chirurgicalement. Un suppresseur de l'humeur aqueuse comme le brinzolamide serait au mieux un traitement d'appoint ou temporaire. De plus, la nouvelle indication est très proche de l'indication d'origine : la nouveauté du repositionnement est limitée.
-
-## Preuves d'Essais Cliniques
-
-Aucun essai clinique associé enregistré actuellement.
-
-## Preuves de la Littérature
-
-Aucune littérature associée disponible actuellement.
+### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+| Indication |
+|------|
+| Aucune |
 
 ## Informations de Marché en France
 
-Les 13 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60868670 | AZOPT 10 mg/ml | Collyre en suspension | Non renseignée |
-| 68305211 | BRINZOLAMIDE ARROW 10 mg/mL | Collyre en suspension | Non renseignée |
-| 66126291 | BRINZOLAMIDE EG 10 mg/ml | Collyre en suspension | Non renseignée |
-| 64907754 | BRINZOLAMIDE SANDOZ 10 mg/mL | Collyre en suspension | Non renseignée |
-| 62196488 | BRINZOLAMIDE CRISTERS 10 mg/ml | Collyre en suspension | Non renseignée |
+| AMM | Produit | Forme | Statut |
+|------|------|------|------|
+| 60868670 | BRINZOLAMIDE | collyre en suspension | Active |
+| 68305211 | BRINZOLAMIDE | collyre en suspension | Active |
+| 66126291 | BRINZOLAMIDE | collyre en suspension | Active |
+| 64907754 | BRINZOLAMIDE | collyre en suspension | Active |
+| 62196488 | BRINZOLAMIDE | collyre en suspension | Active |
+| 67780625 | BRINZOLAMIDE | collyre en suspension | Active |
+| 67701396 | BRINZOLAMIDE | collyre en suspension | Active |
+| 68162770 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
+| 65711858 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
+| 65506814 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
+| 69889737 | BRINZOLAMIDE; TARTRATE DE BRIMONIDINE | collyre en suspension | Active |
+| 64880296 | BRINZOLAMIDE; TARTRATE DE BRIMONIDINE | collyre en suspension | Active |
+| 65832913 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
 
 ## Considérations de Sécurité
 
@@ -85,20 +89,6 @@ Les 13 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. 
 
 Veuillez consulter la notice pour les mises en garde et contre-indications, qui ne sont pas disponibles dans les données compilées.
 
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
-
-**Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. La nouveauté est limitée car l'indication est proche de l'indication d'origine, et les 13 AMM françaises sont toutes annulées. Les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
-
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice (ANSM) pour les mises en garde et contre-indications
-- Obtenir les données sur le mécanisme d'action (par exemple via DrugBank)
-- Rechercher des études cliniques ou observationnelles dans le glaucome héréditaire ou congénital
-- Clarifier les raisons de l'annulation des AMM et la disponibilité réelle du produit en France
-- Évaluer la place d'un traitement d'appoint par rapport à la chirurgie, et la pertinence en population pédiatrique
-- Qualifier le niveau de gravité des interactions médicamenteuses
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

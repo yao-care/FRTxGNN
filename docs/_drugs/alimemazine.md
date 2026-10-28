@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alimemazine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 38
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Alimemazine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L4). Indication d'origine : Angio-œdème"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "alimemazine"
-predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis", "acute laryngopharyngitis"]
+predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
+last_modified_at: 2026-10-27
+description: "Alimemazine : nouvelle indication prédite, Réactivité IgE atopique (IgE responsiveness, atopic) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Alimemazine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,68 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Alimémazine : De l'urticaire et des affections allergiques à l'urticaire allergique
+## Alimémazine : antihistaminique H1 phénothiazinique → Réactivité IgE atopique (IgE responsiveness, atopic)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-L'alimémazine (trimeprazine) est un antihistaminique H1 de première génération de la classe des phénothiazines, initialement utilisé dans l'urticaire, la rhinite allergique, l'angio-œdème et d'autres affections allergiques.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire allergique**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction dans les données compilées pour ce rapport.
-Il s'agit davantage d'une extension d'une indication déjà établie que d'un véritable repositionnement.
-
----
+L'alimémazine est un antihistaminique H1 sédatif de la famille des phénothiazines, aux propriétés anticholinergiques.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour la **réactivité IgE atopique (IgE responsiveness, atopic)**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Angio-œdème (indications d'origine issues du graphe de connaissances : angio-œdème, rhinite allergique, urticaire, conjonctivite atopique, etc.) |
-| Nouvelle Indication Prédite | Urticaire allergique |
-| Score de Prédiction TxGNN | 99,98 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisations uniquement annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Réactivité IgE atopique (IgE responsiveness, atopic) |
+| Score de Prédiction TxGNN | 0,9960 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
-
-*Remarque : le texte d'indication approuvée n'est renseigné dans aucune des AMM ; l'indication originale provient donc du graphe de connaissances TxGNN.*
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'alimémazine fait partie de la classe des phénothiazines et agit comme antihistaminique H1 de première génération. Son efficacité dans l'urticaire est établie, et mécanistiquement elle pourrait être applicable à l'urticaire allergique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'alimémazine appartient à la classe des antihistaminiques H1 de première génération (phénothiazines), avec des propriétés sédatives et anticholinergiques. Elle agit sur les symptômes médiés par l'histamine.
 
-Le blocage des récepteurs H1 réduit les papules et le prurit médiés par l'histamine. L'urticaire figure déjà parmi les indications d'origine de l'alimémazine : l'urticaire allergique en est essentiellement un sous-type. Le score élevé du modèle est donc cohérent avec cette logique pharmacologique.
+La réactivité IgE atopique est un trait immunologique sous-jacent plutôt qu'une maladie définie par ses symptômes. Les antihistaminiques H1 traitent les symptômes en aval liés à l'histamine, mais ne modifient ni la production d'IgE ni la prédisposition atopique elle-même. Le lien mécanistique est donc faible.
 
-Ce soutien reste cependant indirect : il repose sur la connaissance de la classe pharmacologique et non sur des données retrouvées pour ce médicament. L'urticaire allergique relève plutôt d'une extension d'usage établi que d'un repositionnement.
-
----
-
-## Autres Indications Prédites (pour information)
-
-| Rang | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation |
-|------|------|------|------|------|
-| 2 | Urticaire au froid | 99,96 % | L4 | Question de recherche |
-| 3 | Réactivité IgE atopique | 99,60 % | L5 | Hold |
-| 4 | Maladie de la cavité nasale | 99,60 % | L4 | Question de recherche |
-| 5 | Dermatite atopique récalcitrante | 99,59 % | L4 | Question de recherche |
-| 6 | Laryngopharyngite aiguë | 99,54 % | L4 | Hold |
-
-Aucune de ces indications ne dispose d'essais cliniques ou de publications dans les données compilées. Les antihistaminiques non sédatifs de nouvelle génération sont les options privilégiées par les recommandations dans l'urticaire au froid. La dermatite atopique n'est pas principalement pilotée par l'histamine, et le bénéfice serait surtout sédatif. Pour la laryngopharyngite aiguë, le rapport bénéfice-risque d'une phénothiazine sédative est défavorable.
-
----
+Le score élevé du modèle n'est étayé par aucune preuve clinique retrouvée. Il reflète probablement la proximité de cette entité avec des affections allergiques proches dans les données du modèle, et non un effet démontré.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
----
-
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 66801066 | THERALENE 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée | Annulée |
-| 67410412 | THERALENE 4 POUR CENT, solution buvable | Solution buvable | Non renseignée | Annulée |
-
-Les deux AMM sont détenues par le laboratoire XO et sont annulées. Aucune autorisation valide n'est actuellement recensée, ce qui réduit la faisabilité pratique.
-
----
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+|---------|------|------|-----------|
+| 66801066 | THERALENE 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
+| 67410412 | THERALENE 4 POUR CENT, solution buvable | Solution buvable | Non renseignée |
 
 ## Considérations de Sécurité
 
-**Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) :
+- **Contre-indications relevées pour cette classe de médicament (hors texte de notice)** : syndrome du QT long (y compris familial), torsades de pointes, arrêt cardiaque soudain, troubles de la conduction cardiaque, infarctus du myocarde, hypotension orthostatique, épilepsie, maladies hépatiques, neutropénie, agranulocytose, leucopénie, thrombocytopénie, anémie, hyperplasie bénigne de la prostate, abus de substances/dépendance, hyperglycémie, obésité, carcinome mammaire féminin, ainsi que d'autres affections neurologiques (atrophie multisystématisée, dystonie, blépharospasme, maladie des noyaux gris centraux).
+- **Interactions médicamenteuses** : 563 interactions recensées. Interactions majeures : bupropion, citrate de potassium. Interactions modérées, notamment : épinéphrine, atropine, hyoscyamine, glycopyrronium, morphine, clarithromycine, lopéramide, ainsi que plusieurs antidiabétiques (acarbose, alogliptine, canagliflozine, dapagliflozine, chlorpropamide, albiglutide).
 
-- **Cardiovasculaires** : syndrome du QT long (y compris familial), torsades de pointes, arrêt cardiaque soudain, maladie de la conduction cardiaque, infarctus du myocarde, thrombose coronaire, hypotension orthostatique, syndrome de tachycardie orthostatique posturale
-- **Neurologiques** : épilepsie, atrophie multisystématisée, maladie des noyaux gris centraux, dystonie focale de la main, blépharospasme
-- **Hématologiques** : neutropénie, agranulocytose, leucopénie, thrombocytopénie, anémie (y compris macrocytaire), hémoglobinopathie
-- **Hépatobiliaires** : maladie du foie, maladie de la vésicule biliaire
-- **Métaboliques** : hyperglycémie, obésité (y compris monogénique)
-- **Autres** : hyperplasie bénigne de la prostate, dépendance ou abus de substances, carcinome mammaire féminin
-
-**Interactions Médicamenteuses** : 563 interactions recensées. Parmi les principales :
-- **Majeures** : bupropion, citrate de potassium
-- **Modérées** : acarbose, famotidine, épinéphrine, albiglutide, alogliptine, hyoscyamine, lopéramide, morphine, atropine, lorcasérine, bisacodyl, glycopyrronium, canagliflozine, chlorpropamide, clarithromycine, acide picosulfurique, polyéthylène glycol, dapagliflozine
-
-Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour ces informations.
-
----
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,98 %), mais il repose sur une indication déjà établie (urticaire) et aucun essai ni publication n'a été retrouvé (niveau L4). Le profil de sécurité est préoccupant (QT long, atteintes hématologiques, effets sédatifs) et les AMM françaises sont toutes annulées ; les antihistaminiques non sédatifs sont préférés.
+- La prédiction repose uniquement sur le score du modèle (0,9960), sans essai ni publication, et le lien mécanistique est faible : l'alimémazine traite les symptômes histaminiques mais n'agit pas sur la réactivité IgE sous-jacente.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le dépistage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank
-- Réaliser une recherche bibliographique ciblée sur l'alimémazine dans l'urticaire allergique
-- Comparer avec les antihistaminiques de seconde génération pour juger de l'intérêt clinique réel
-- Clarifier la situation réglementaire (AMM annulées) et la compatibilité des voies d'administration
+- Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
+- Obtenir les données sur le mécanisme d'action
+- Identifier des études cliniques ou publications portant directement sur la réactivité IgE atopique
+- Préciser un critère d'évaluation clinique concret (par exemple, un symptôme ou une maladie atopique définie) avant toute évaluation ultérieure
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

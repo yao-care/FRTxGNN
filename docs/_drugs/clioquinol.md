@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clioquinol
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 180
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Clioquinol : nouvelle indication prédite, Candidose cutanée (niveau de preuve L4). Indication d'origine : Dermatophyties : pied d'athlète (tinea pedis), tinea corporis…"
 monitor_inn: "CLIOQUINOL"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+description: "Clioquinol : nouvelle indication prédite, Ectothrix infectious disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-## Clioquinol : Des Dermatophyties (Teignes) à la Candidose Cutanée
+## Clioquinol: Ectothrix infectious disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et seulement **1 publication**, ancienne et indire
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dermatophyties : pied d'athlète (tinea pedis), tinea corporis, dermatophytose de l'aine et de la région périanale (source : graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Candidose cutanée |
-| Score de Prédiction TxGNN | 99,84 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ectothrix infectious disease |
+| Score de Prédiction TxGNN | 0.9926 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -78,7 +78,7 @@ Pour une autre indication prédite, la mycose superficielle, une étude préclin
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch | Non renseignée (AMM annulée) |
+| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch | Non renseignée (AMM active) |
 
 Ce produit est un patch de test épicutané (diagnostic allergologique) fabriqué par SmartPractice Denmark, et non un antifongique thérapeutique.
 

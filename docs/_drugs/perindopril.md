@@ -4,17 +4,17 @@ title: Perindopril
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 592
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Perindopril : nouvelle indication prédite, Néphropathie hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Perindopril : nouvelle indication prédite, Néphropathie hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Perindopril
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Périndopril : De l'Hypertension à l'Hypertension Rénale Maligne
+## Perindopril: Néphropathie hypertensive maligne (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néphropathie h
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte d'indication des AMM n'est pas renseigné ; l'indication provient du graphe de connaissances) |
-| Nouvelle Indication Prédite | Néphropathie hypertensive maligne |
-| Score de Prédiction TxGNN | 99,77 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néphropathie hypertensive maligne (malignant hypertensive renal disease) |
+| Score de Prédiction TxGNN | 0.9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néphropathie h
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le périndopril appartient à la classe des IEC. Son efficacité dans l'hypertension est établie. Il réduit la production d'angiotensine II, ce qui abaisse la pression artérielle.
 
-L'activation du système rénine-angiotensine-aldostérone (SRAA) joue un rôle dans l'hypertension maligne et dans l'atteinte rénale qui l'accompagne. Un rationnel mécanistique existe donc. Cependant, la nouvelle indication est très proche de l'indication d'origine : le score élevé reflète probablement cette proximité dans le graphe de connaissances plutôt qu'un véritable signal de repositionnement.
+L'activation du système rénine-angiotensine-aldostérone (SRAA) joue un rôle dans l'hypertension maligne et dans l'atteinte rénale qui l'accompagne. Un rationnel mécanistique existe donc.
 
 Les autres prédictions du modèle sont encore plus fragiles : l'hypertension rénovasculaire maligne (même score, aucune donnée), l'hypertension pulmonaire (indices précliniques chez le rat uniquement) et le syndrome de Braddock (lien probablement artefactuel).
 
@@ -77,7 +77,7 @@ Pour information, parmi les autres indications prédites, seule une étude préc
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées ; aucune n'est actuellement valide. Le texte d'indication n'est pas renseigné. Principales AMM :
+Le texte d'indication n'est pas renseigné. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -100,14 +100,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à la prédiction du modèle (L5) : aucun essai clinique, et la seule publication liée est hors sujet. La nouvelle indication est très proche de l'indication d'origine, et toutes les AMM françaises sont annulées.
+- Les preuves se limitent à la prédiction du modèle (L5) : aucun essai clinique, et la seule publication liée est hors sujet.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (étape de sécurité actuellement bloquée)
 - Les données sur le mécanisme d'action (DrugBank)
 - Une recherche ciblée dans la littérature clinique sur les IEC dans la néphropathie hypertensive maligne
 - Une évaluation du risque rénal (sténose de l'artère rénale, hyperkaliémie) propre à cette population
-- Une clarification de la situation réglementaire, toutes les AMM étant annulées
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

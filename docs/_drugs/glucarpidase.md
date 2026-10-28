@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cataracte diab�
 |------|------|
 | Indication Originale | Non renseignée dans les données disponibles |
 | Nouvelle Indication Prédite | Cataracte diabétique |
-| Score de Prédiction TxGNN | 99,85 % |
+| Score de Prédiction TxGNN | 0,9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Retiré (AMM annulée uniquement) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **Cette prédiction n'est pas étayée sur le plan mécanistique.** Le glucarpidase n'a aucune action connue sur la voie des polyols, l'aldose réductase, la glycation ni l'opacification du cristallin. Sa taille (grosse enzyme) et sa voie systémique rendent par ailleurs une pénétration oculaire peu plausible.
 
-Le score élevé (99,85 %) est à interpréter avec prudence. Plusieurs sous-types de cataracte (mature, immature, tétanique, associée au diabète de type 2, etc.) reçoivent des scores quasi identiques (≈ 99,83 %), ce qui suggère un artefact de structure du graphe de connaissances plutôt qu'un signal spécifique à la maladie. Les autres prédictions du classement (rétinopathie diabétique, cataractes sénile, corticale, nucléaire, craniosténose avec cataracte) souffrent des mêmes limites : aucun lien mécanistique ni donnée clinique.
+Le score élevé (0,9985) est à interpréter avec prudence. Plusieurs sous-types de cataracte (mature, immature, tétanique, associée au diabète de type 2, etc.) reçoivent des scores quasi identiques (≈ 0,9983). Ces scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies proches, et non des preuves biologiques, plutôt qu'un signal spécifique à la maladie. Les autres prédictions du classement (rétinopathie diabétique, cataractes sénile, corticale, nucléaire, craniosténose avec cataracte) souffrent des mêmes limites : aucun lien mécanistique ni donnée clinique.
 
 ---
 
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60176597 | VORAXAZE 1000 unités, poudre pour solution injectable (SERB) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+| 60176597 | VORAXAZE 1000 unités, poudre pour solution injectable (SERB) | Poudre pour solution injectable | Non renseignée (AMM active) |
 
 ---
 

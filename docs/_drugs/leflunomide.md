@@ -6,9 +6,9 @@ nav_order: 441
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Leflunomide : nouvelle indication prédite, Syndrome brachydactylie-syndactylie (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, rhumatisme psoriasique"
 monitor_inn: "leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Leflunomide : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Leflunomide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Léflunomide : De la polyarthrite rhumatoïde et du rhumatisme psoriasique au syndrome brachydactylie-syndactylie
+## Leflunomide: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, rhumatisme psoriasique (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Syndrome brachydactylie-syndactylie |
-| Score de Prédiction TxGNN | 99,93 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Brachydactyly-syndactyly syndrome |
+| Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 13 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome brachydactylie-syndactylie est une malformation congénitale des membres, de nature développementale et non auto-immune. Aucun lien mécanistique avec l'indication originale ne peut être établi à partir des données disponibles. La similarité avec l'indication originale n'a pas été évaluée.
 
-Le score élevé (99,93 %, rang 578) est une sortie de calcul du modèle. Il ne constitue ni une validation clinique ni une validation mécanistique et doit être interprété avec une grande prudence.
+Le score élevé (0,9993, rang 578) est une sortie de calcul du modèle. Il ne constitue ni une validation clinique ni une validation mécanistique et doit être interprété avec une grande prudence.
 
 ---
 
@@ -86,11 +86,11 @@ Les 13 AMM recensées sont toutes annulées. Les cinq premières sont listées c
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66218213 | ARAVA 100 mg | Comprimé pelliculé | Annulée |
-| 65739590 | ARAVA 20 mg | Comprimé pelliculé | Annulée |
-| 62780055 | ARAVA 10 mg | Comprimé pelliculé | Annulée |
-| 64486561 | Léflunomide Biogaran 20 mg | Comprimé pelliculé | Annulée |
-| 64198541 | Léflunomide Biogaran 10 mg | Comprimé pelliculé | Annulée |
+| 66218213 | ARAVA 100 mg | Comprimé pelliculé | Active |
+| 65739590 | ARAVA 20 mg | Comprimé pelliculé | Active |
+| 62780055 | ARAVA 10 mg | Comprimé pelliculé | Active |
+| 64486561 | Léflunomide Biogaran 20 mg | Comprimé pelliculé | Active |
+| 64198541 | Léflunomide Biogaran 10 mg | Comprimé pelliculé | Active |
 
 ---
 
@@ -115,7 +115,6 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible avec une malformation congénitale des membres.
-- Le profil de risque est important (atteintes hépatique et hématologique, nombreuses interactions) et toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications), indispensable au criblage de sécurité.

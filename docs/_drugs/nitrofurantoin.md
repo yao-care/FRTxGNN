@@ -48,10 +48,10 @@ Les **9 publications** retrouvées décrivent surtout des effets indésirables (
 |------|------|
 | Indication Originale | Non renseignée dans les AMM compilées |
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,89 % |
+| Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -86,7 +86,7 @@ Aucune de ces publications ne démontre un bénéfice de la nitrofurantoïne dan
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62013296 | FURADANTINE 50 mg, gélule (TAMRISA ACCESS (FRANCE)) | Gélule | Non renseignée (AMM annulée) |
+| 62013296 | FURADANTINE 50 mg, gélule (TAMRISA ACCESS (FRANCE)) | Gélule | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

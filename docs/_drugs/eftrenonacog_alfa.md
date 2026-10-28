@@ -6,9 +6,9 @@ nav_order: 272
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Eftrenonacog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie"
 monitor_inn: "eftrenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
+description: "Eftrenonacog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Eftrenonacog Alfa
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Eftrenonacog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+## Eftrenonacog Alfa: Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **pseudo-maladie 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hémophilie (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Pseudo-maladie de von Willebrand |
-| Score de Prédiction TxGNN | 99,48 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) |
+| Score de Prédiction TxGNN | 0.9948 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec la nouvelle indication est faible. La pseudo-maladie de von Willebrand (de type plaquettaire) est due à des mutations avec gain de fonction de la GPIbα plaquettaire. Celles-ci augmentent la liaison des plaquettes au facteur von Willebrand, entraînent l'élimination des grands multimères de VWF et provoquent des saignements d'origine plaquettaire. Le défaut porte sur l'interaction plaquette-VWF, et non sur un déficit en facteur IX.
 
-Le score élevé du modèle (99,48 %) reflète probablement une proximité dans le réseau des maladies hémorragiques, plutôt qu'une justification mécanistique. Cette prédiction doit donc être considérée avec une grande prudence.
+Le score élevé du modèle (0,9948) reflète probablement une proximité dans le réseau des maladies hémorragiques, plutôt qu'une justification mécanistique. Cette prédiction doit donc être considérée avec une grande prudence.
 
 Deux autres prédictions du modèle présentent la même limite : le trouble primaire de la libération plaquettaire (99,42 %) et la thrombasthénie de Glanzmann (99,28 %). Dans les deux cas, le défaut est plaquettaire et se situe en dehors de la voie du facteur IX. Aucun essai ni publication ne les soutient.
 

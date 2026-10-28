@@ -4,7 +4,7 @@ title: Piribedil
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 610
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Piribedil : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (niveau de preuve L5). Indication d'origine : Maladie de Parkinson / syndrome parkinsonien (texte …"
 monitor_inn: "piribedil"
@@ -14,7 +14,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 # Piribedil
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Piribédil : De la maladie de Parkinson à la dystrophie rétinienne
+## Piribédil : De la maladie de Parkinson à la dystrophie rétinienne avec ou sans anomalies extraoculaires
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dystrophie rét
 |------|------|
 | Indication Originale | Maladie de Parkinson / syndrome parkinsonien (texte d'indication de l'AMM non renseigné dans les données compilées) |
 | Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
-| Score de Prédiction TxGNN | 99,34 % |
+| Score de Prédiction TxGNN | 0,9934 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 2) |
+| Nombre d'AMM | 2 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La signalisation dopaminergique intervient dans la physiologie rétinienne, ce qui rend plausible un lien lointain avec les maladies de la rétine. Toutefois, la seule publication retrouvée porte sur la prise en charge de la syncope dans le syndrome de Kearns-Sayre, une maladie mitochondriale comprenant une rétinopathie. Elle n'évalue pas le piribédil : le lien reste donc indirect au mieux.
 
-Le score élevé de TxGNN (99,34 %) est une prédiction computationnelle, sans donnée clinique à l'appui. Cette hypothèse doit être considérée comme exploratoire.
+Le score élevé de TxGNN (0,9934) est une prédiction computationnelle, sans donnée clinique à l'appui. Cette hypothèse doit être considérée comme exploratoire.
 
 ## Prédictions Complémentaires
 
@@ -67,10 +67,9 @@ D'autres indications prédites ont également été examinées. Aucune ne dispos
 
 | Rang | Indication Prédite | Score TxGNN | Niveau de Preuve | Commentaire |
 |------|------|------|------|------|
-| 2 | Parkinsonisme juvénile de Hunt | 99,34 % | L4 | Variante précoce de la maladie de Parkinson ; justification mécanistique solide (agonisme D2/D3), mais preuves indirectes |
-| 3 | Polymicrogyrie périsylvienne avec hypoplasie cérébelleuse et arthrogrypose | 99,12 % | L5 | Malformation congénitale ; aucun mécanisme plausible |
-| 4 | Neurodégénérescence associée à PLA2G6 | 99,07 % | L5 | Traitement symptomatique dopaminergique envisageable, sans modification de la maladie |
-| 5 | Maladie de Parkinson juvénile 19A | 99,01 % | L4 | Forme monogénique précoce ; réponse aux agonistes dopaminergiques variable |
+| 2 | Parkinsonisme juvénile de Hunt | 0,9934 | L5 | Variante précoce de la maladie de Parkinson ; justification mécanistique solide (agonisme D2/D3), mais preuves indirectes |
+| 3 | Polymicrogyrie périsylvienne avec hypoplasie cérébelleuse et arthrogrypose | 0,9912 | L5 | Malformation congénitale ; aucun mécanisme plausible |
+| 4 | Neurodégénérescence associée à PLA2G6 | 0,9907 | L5 | Traitement symptomatique dopaminergique envisageable, sans modification de la maladie |
 
 ## Preuves d'Essais Cliniques
 
@@ -87,7 +86,7 @@ Aucun essai clinique associé enregistré actuellement.
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 62551633 | TRIVASTAL 20 mg, comprimé enrobé (Laboratoires Servier) | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 61598530 | TRIVASTAL 50 mg L.P., comprimé enrobé à libération prolongée (Laboratoires Servier) | Comprimé enrobé à libération prolongée | Non renseignée (AMM annulée) |
+| 61598530 | TRIVASTAL 50 mg L.P., comprimé enrobé à libération prolongée (Laboratoires Servier) | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

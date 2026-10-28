@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Efavirenz
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 270
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Efavirenz : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Efavirenz : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Efavirenz : Du VIH/SIDA au Syndrome d'Immunodéficience Acquise Féline
+## Efavirenz: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,80 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 13 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9980 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -73,23 +73,22 @@ Aucun essai clinique associé enregistré actuellement.
 
 ### Note sur la deuxième prédiction (infection par le virus de l'immunodéficience simienne)
 
-Une deuxième prédiction (score identique, 99,80 %) concerne l'infection par le virus de l'immunodéficience simienne, avec 14 publications, essentiellement des études sur le macaque. Ces travaux utilisent le virus chimérique RT-SHIV, qui porte la transcriptase inverse du VIH-1, car le SIV sauvage est naturellement résistant aux INNTI. Il s'agit donc de preuves animales relevant de l'indication VIH d'origine, et non d'une indication nouvelle indépendante. Cette prédiction relève aussi du niveau L4 et de la décision Hold.
+Une deuxième prédiction (score identique, 0,9980) concerne l'infection par le virus de l'immunodéficience simienne, avec 14 publications, essentiellement des études sur le macaque. Ces travaux utilisent le virus chimérique RT-SHIV, qui porte la transcriptase inverse du VIH-1, car le SIV sauvage est naturellement résistant aux INNTI. Il s'agit donc de preuves animales relevant de l'indication VIH d'origine, et non d'une indication nouvelle indépendante. Cette prédiction relève aussi du niveau L4 et de la décision Hold.
 
 ### Note sur la troisième prédiction
 
-Un trouble neurodéveloppemental (ataxie, absence de parole, diminution de la substance blanche corticale) est prédit avec un score de 99,77 %, sans essai clinique ni littérature (niveau L5, Hold). Aucun lien mécanistique n'est établi dans les données compilées. Les effets indésirables neuropsychiatriques connus de l'efavirenz constituent une préoccupation supplémentaire en population pédiatrique.
+Un trouble neurodéveloppemental (ataxie, absence de parole, diminution de la substance blanche corticale) est prédit avec un score de 0,9977, sans essai clinique ni littérature (niveau L5, Hold). Aucun lien mécanistique n'est établi dans les données compilées. Les effets indésirables neuropsychiatriques connus de l'efavirenz constituent une préoccupation supplémentaire en population pédiatrique.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68039999 | EFAVIRENZ VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65716353 | EFAVIRENZ ARROW 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62728717 | EFAVIRENZ SANDOZ 600 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 62130958 | EFAVIRENZ TEVA 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61004700 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA 600 mg/200 mg/245 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68039999 | EFAVIRENZ VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 65716353 | EFAVIRENZ ARROW 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62728717 | EFAVIRENZ SANDOZ 600 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 62130958 | EFAVIRENZ TEVA 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61004700 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA 600 mg/200 mg/245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
-Au total, 13 AMM sont recensées, toutes annulées ; aucune AMM valide n'est actuellement répertoriée.
 
 ## Considérations de Sécurité
 

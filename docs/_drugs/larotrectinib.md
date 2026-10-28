@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Larotrectinib
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 438
-evidence_level: L3
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Larotrectinib : nouvelle indication prédite, Néoplasie endocrinienne multiple (niveau de preuve L3). Indication d'origine : Non disponible dans les données compilées pour ce rapport"
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
+description: "Larotrectinib : nouvelle indication prédite, Néoplasie endocrinienne multiple (multiple endocrine neoplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Larotrectinib
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **2**
 
 </div>
 
-## Larotrectinib : D'un traitement des tumeurs à fusion NTRK à la néoplasie endocrinienne multiple
+## Larotrectinib: Néoplasie endocrinienne multiple (multiple endocrine neoplasia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Larotrectinib est un inhibiteur sélectif des récepteurs TRK (NTRK1/2/3), comme
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible dans les données compilées pour ce rapport |
-| Nouvelle Indication Prédite | Néoplasie endocrinienne multiple |
-| Score de Prédiction TxGNN | 99,24 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 3 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néoplasie endocrinienne multiple (multiple endocrine neoplasia) |
+| Score de Prédiction TxGNN | 0.9924 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La néoplasie endocrinienne multiple de type 2 (NEM2) est due à des mutations germinales activatrices de **RET**. Ses tumeurs (carcinome médullaire de la thyroïde, phéochromocytome) dépendent de la voie RET et non de la voie TRK. Le lien mécanistique direct est donc **faible**.
 
-Deux pistes de pertinence restent plausibles mais limitées : (a) de rares tumeurs endocriniennes avec fusion NTRK, relevant d'une logique « tumeur-agnostique » sans rapport avec le génotype de la NEM ; (b) d'éventuels mécanismes de contournement ou de résistance hors-cible dans les cancers dépendants de RET, évoqués dans la littérature de 2024. Le score élevé de TxGNN (0,99) est une prédiction computationnelle qui ne remplace pas une validation biologique ou clinique.
+Deux pistes de pertinence restent plausibles mais limitées : (a) de rares tumeurs endocriniennes avec fusion NTRK, relevant d'une logique « tumeur-agnostique » sans rapport avec le génotype de la NEM ; (b) d'éventuels mécanismes de contournement ou de résistance hors-cible dans les cancers dépendants de RET, évoqués dans la littérature de 2024. Le score élevé de TxGNN (0,9924) est une prédiction computationnelle du modèle TxGNN (apprentissage profond), qui peut refléter des similarités apprises entre maladies apparentées et ne remplace pas une validation biologique ou clinique.
 
 ---
 
@@ -87,9 +87,9 @@ Deux pistes de pertinence restent plausibles mais limitées : (a) de rares tumeu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64373909 | VITRAKVI 100 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 67022406 | VITRAKVI 25 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 65942815 | VITRAKVI 20 mg/mL, solution buvable | Solution buvable | Non renseignée (AMM annulée) |
+| 64373909 | VITRAKVI 100 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 67022406 | VITRAKVI 25 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 65942815 | VITRAKVI 20 mg/mL, solution buvable | Solution buvable | Non renseignée (AMM active) |
 
 ---
 
@@ -121,7 +121,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 **Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique entre l'inhibition de TRK et la NEM (dépendante de RET) est faible, et la seule preuve clinique est un essai « panier » indirect. Le score TxGNN élevé n'est pas étayé par des données cliniques. De plus, aucune AMM française n'est actuellement valide.
+- Le lien mécanistique entre l'inhibition de TRK et la NEM (dépendante de RET) est faible, et la seule preuve clinique est un essai « panier » indirect. Le score TxGNN élevé n'est pas étayé par des données cliniques.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action et sur les indications d'origine

@@ -6,9 +6,9 @@ nav_order: 445
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Letermovir : nouvelle indication prédite, Candidose vulvovaginale (niveau de preuve L5). Indication d'origine : Infection à cytomégalovirus"
 monitor_inn: "letermovir"
 predicted_indications: ["vulvovaginal candidiasis"]
+description: "Letermovir : nouvelle indication prédite, Candidose vulvovaginale (vulvovaginal candidiasis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Letermovir
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Létermovir : De l'infection à cytomégalovirus à la candidose vulvovaginale
+## Letermovir: Candidose vulvovaginale (vulvovaginal candidiasis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **candidose vulvo
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection à cytomégalovirus (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Candidose vulvovaginale |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Candidose vulvovaginale (vulvovaginal candidiasis) |
+| Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Or, les *Candida* sont des champignons dépourvus de cible homologue à cette terminase. Aucune activité antifongique n'est donc attendue, et **aucun lien mécanistique crédible** n'a pu être établi entre l'indication originale et la candidose vulvovaginale.
 
-Le score très élevé (99,88 %) reflète une prédiction du graphe de connaissances, non étayée par des données mécanistiques, précliniques ou cliniques. Il s'explique probablement par des artefacts de connectivité du graphe (voisins communs, liens d'interactions médicamenteuses, etc.) plutôt que par une véritable biologie antifongique. La compatibilité des voies d'administration n'a pas non plus été évaluée.
+Le score très élevé (0,9988) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il n'est pas étayé par des données mécanistiques, précliniques ou cliniques. La compatibilité des voies d'administration n'a pas non plus été évaluée.
 
 ## Preuves d'Essais Cliniques
 
@@ -71,7 +71,6 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les quatre AMM recensées sont toutes annulées ; aucune n'est actuellement valide.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

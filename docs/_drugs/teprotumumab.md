@@ -6,9 +6,9 @@ nav_order: 741
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Teprotumumab : nouvelle indication prédite, Monosomie X (niveau de preuve L5). Indication d'origine : Exophtalmie endocrinienne"
 monitor_inn: "teprotumumab"
 predicted_indications: ["monosomy X", "esophageal varices with bleeding", "esophageal varices without bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
+description: "Teprotumumab : nouvelle indication prédite, Monosomie X (monosomy X) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Teprotumumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Téprotumumab : De l'exophtalmie endocrinienne au syndrome de Turner (monosomie X)
+## Teprotumumab: Monosomie X (monosomy X)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **monosomie X (sy
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Exophtalmie endocrinienne (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Monosomie X |
-| Score de Prédiction TxGNN | 99,79 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Monosomie X (monosomy X) |
+| Score de Prédiction TxGNN | 0.9979 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,11 +61,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **monosomie X (sy
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le téprotumumab est un anticorps monoclonal inhibiteur du récepteur du facteur de croissance analogue à l'insuline de type 1 (IGF-1R). Son efficacité dans l'exophtalmie endocrinienne repose sur ce blocage.
 
-Le lien avec la monosomie X (syndrome de Turner) provient uniquement d'une prédiction du graphe de connaissances. La signalisation de l'IGF-1 intervient dans la croissance, qui est altérée dans le syndrome de Turner. Toutefois, inhiber l'IGF-1R irait plutôt à l'encontre de l'objectif habituel de stimulation de la croissance. **Aucune justification thérapeutique plausible n'est étayée par les données disponibles.**
+Le lien avec la monosomie X (syndrome de Turner) provient uniquement d'une prédiction du modèle TxGNN (apprentissage profond). La signalisation de l'IGF-1 intervient dans la croissance, qui est altérée dans le syndrome de Turner. Toutefois, inhiber l'IGF-1R irait plutôt à l'encontre de l'objectif habituel de stimulation de la croissance. **Aucune justification thérapeutique plausible n'est étayée par les données disponibles.**
 
 Les autres prédictions du même classement appartiennent en grande partie à des groupes liés entre eux, ce qui indique qu'elles ne constituent pas des preuves indépendantes :
 - **Groupe Turner / chromosome X** : mosaïque monosomie X, syndrome de Turner par anomalies structurelles du chromosome X, anomalie du nombre de chromosomes X, trouble du développement sexuel d'origine chromosomique, dysgénésie gonadique mixte.
-- **Groupe varices** : varices œsophagiennes avec ou sans saignement, maladie variqueuse. Aucun lien mécanistique clair avec le blocage de l'IGF-1R ; le score reflète probablement des artefacts de topologie du graphe.
+- **Groupe varices** : varices œsophagiennes avec ou sans saignement, maladie variqueuse. Aucun lien mécanistique clair avec le blocage de l'IGF-1R ; le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 - **Maladie mitochondriale (anomalies de l'ADN nucléaire)** : lien indirect et spéculatif.
 
 ---
@@ -86,7 +86,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68452994 | TEPEZZA 500 mg, poudre pour solution à diluer pour perfusion (AMGEN EUROPE) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 68452994 | TEPEZZA 500 mg, poudre pour solution à diluer pour perfusion (AMGEN EUROPE) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 

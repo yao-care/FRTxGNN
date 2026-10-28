@@ -50,10 +50,10 @@ Ces preuves restent indirectes : aucune étude ne porte spécifiquement sur le l
 |------|------|
 | Indication Originale | Carcinome rénal à cellules claires, lymphome à cellules du manteau (texte d'indication de l'AMM française non renseigné) |
 | Nouvelle Indication Prédite | Liposarcome |
-| Score de Prédiction TxGNN | 99,54 % |
-| Niveau de Preuve | L4 (voir note ci-dessous) |
-| Statut de Marché en France | ✗ AMM abrogée/annulée uniquement |
-| Nombre d'AMM | 1 |
+| Score de Prédiction TxGNN | 0,9954 |
+| Niveau de Preuve | L5 (voir note ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 *Note sur le niveau de preuve : l'évaluation initiale attribuait L2, mais aucun essai de phase 2/3 terminé ne cible spécifiquement le liposarcome. Les deux essais sont de populations mixtes (sarcomes des tissus mous et des os, ou tumeurs solides pédiatriques) et la seule publication est une revue. D'après les règles de détermination, le niveau retenu ici est plutôt L4 (preuves précliniques/mécanistiques et essais indirects).*
@@ -66,7 +66,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La voie PI3K/AKT/mTOR est fréquemment activée dans les sarcomes des tissus mous. Dans les liposarcomes bien différenciés et dédifférenciés, amplifiés pour MDM2/CDK4, une dépendance aux signaux mTOR et IGF-1R a été évoquée. Cela fournit une justification mécanistique plausible, et l'association avec le cixutumumab (anti-IGF-1R) cible l'amont du même axe.
 
-Le score TxGNN élevé (0,995) est cohérent avec ce lien au niveau de la voie, mais il s'agit d'une prédiction computationnelle et non d'une preuve clinique. Les deux autres prédictions (liposarcome myxoïde ovarien, sarcome vulvaire) ne reposent sur aucune donnée clinique ni bibliographique et sont purement spéculatives. Le liposarcome myxoïde est en général porté par la fusion FUS-DDIT3, et sa dépendance à mTOR n'est pas établie.
+Le score TxGNN élevé (0,9954) est cohérent avec ce lien au niveau de la voie, mais il s'agit d'une prédiction computationnelle et non d'une preuve clinique. Les deux autres prédictions (liposarcome myxoïde ovarien, sarcome vulvaire) ne reposent sur aucune donnée clinique ni bibliographique et sont purement spéculatives. Le liposarcome myxoïde est en général porté par la fusion FUS-DDIT3, et sa dépendance à mTOR n'est pas établie.
 
 ---
 

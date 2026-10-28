@@ -4,7 +4,7 @@ title: Adefovir Dipivoxil
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 27
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Adefovir Dipivoxil : nouvelle indication prédite, Infection chronique par le virus de l'hépatite C (niveau de preuve L5). Indication d'origine : Infection chronique par le virus de l'hépatite B (aucu…"
 monitor_inn: "adefovir dipivoxil"
@@ -14,7 +14,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 # Adefovir Dipivoxil
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Adéfovir dipivoxil : De l'hépatite B chronique à l'infection par l'hépatite C chronique
+## Adéfovir dipivoxil : De l'hépatite B chronique à l'infection chronique par le virus de l'hépatite C
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -50,9 +50,9 @@ Les données compilées pour ce rapport montrent en revanche que d'autres indica
 |------|------|
 | Indication Originale | Infection chronique par le virus de l'hépatite B (aucun texte d'indication d'AMM disponible en France) |
 | Nouvelle Indication Prédite | Infection chronique par le virus de l'hépatite C |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
 | Nombre d'AMM | 0 |
 | Décision Recommandée | Hold |
 
@@ -62,7 +62,7 @@ Les données compilées pour ce rapport montrent en revanche que d'autres indica
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, l'adéfovir est un analogue nucléotidique acyclique : il est converti en diphosphate d'adéfovir, qui inhibe l'ADN polymérase / transcriptase inverse virale en entraînant l'arrêt de la chaîne d'élongation. C'est ce mécanisme qui sous-tend son efficacité dans l'hépatite B.
 
-Pour l'hépatite C, le lien mécanistique est **faible**. Le VHC est un virus à ARN dont la réplication dépend de l'ARN polymérase ARN-dépendante NS5B, une cible différente de celle de l'adéfovir. Le score élevé de TxGNN reflète une proximité dans le graphe de connaissances (les deux maladies sont des hépatites virales) et non une preuve biologique ou clinique. Par ailleurs, les antiviraux à action directe actuels rendent un repositionnement peu justifié.
+Pour l'hépatite C, le lien mécanistique est **faible**. Le VHC est un virus à ARN dont la réplication dépend de l'ARN polymérase ARN-dépendante NS5B, une cible différente de celle de l'adéfovir. Le score élevé de TxGNN (0.9997) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (les deux maladies sont des hépatites virales), et non une preuve biologique ou clinique. Par ailleurs, les antiviraux à action directe actuels rendent un repositionnement peu justifié.
 
 À noter : parmi les autres indications prédites, l'**infection par le VIH** (rang 2) est mécanistiquement plausible et dispose d'essais cliniques (niveau L2). Elle a toutefois été abandonnée en raison de la néphrotoxicité dose-limitante de l'adéfovir aux doses anti-VIH (120 mg), le ténofovir étant une alternative supérieure.
 

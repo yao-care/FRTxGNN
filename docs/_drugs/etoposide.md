@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etoposide
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 308
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
-description: "Etoposide : nouvelle indication prédite, Sarcome d'Ewing (indication la mieux étayée (niveau de preuve L1). Indication d'origine : Cancer bronchique à petites cellules, tumeurs germinales du testicul"
+description: "Etoposide : nouvelle indication prédite, Well-differentiated fetal adenocarcinoma of the lung (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Etoposide
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Étoposide : Du Cancer Bronchique à Petites Cellules au Sarcome d'Ewing
+## Etoposide: Well-differentiated fetal adenocarcinoma of the lung
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **33 essais cliniques** et **19 publications** soutenant actuellement cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer bronchique à petites cellules, tumeurs germinales du testicule (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Sarcome d'Ewing (indication la mieux étayée ; la première prédiction du classement, l'adénocarcinome fœtal bien différencié du poumon, ne repose que sur un cas clinique) |
-| Score de Prédiction TxGNN | 99,85 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Well-differentiated fetal adenocarcinoma of the lung |
+| Score de Prédiction TxGNN | 0.9994 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -96,15 +96,14 @@ Sélection parmi les 33 essais associés au sarcome d'Ewing (principaux essais d
 
 ## Informations de Marché en France
 
-Aucune AMM valide n'est enregistrée : les 8 AMM sont annulées et le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66338465 | ETOPOSIDE HIKMA 20 mg/mL | Solution à diluer pour perfusion | Annulée |
-| 61683518 | ETOPOSIDE TEVA 100 mg/5 ml | Solution pour perfusion | Annulée |
-| 61425560 | ETOPOSIDE TEVA 20 mg/ml | Solution à diluer pour perfusion | Annulée |
-| 60155667 | ETOPOSIDE TEVA 200 mg/10 ml | Solution injectable pour perfusion | Annulée |
-| 67802057 | CELLTOP 50 mg | Capsule molle (voie orale) | Annulée |
+| 66338465 | ETOPOSIDE HIKMA 20 mg/mL | Solution à diluer pour perfusion | Active |
+| 61683518 | ETOPOSIDE TEVA 100 mg/5 ml | Solution pour perfusion | Active |
+| 61425560 | ETOPOSIDE TEVA 20 mg/ml | Solution à diluer pour perfusion | Active |
+| 60155667 | ETOPOSIDE TEVA 200 mg/10 ml | Solution injectable pour perfusion | Active |
+| 67802057 | CELLTOP 50 mg | Capsule molle (voie orale) | Active |
 
 Trois autres AMM annulées existent (ETOPOSIDE ACCORD 20 mg/mL, ETOPOPHOS 100 mg, ETOPOSIDE VIATRIS 20 mg/ml).
 
@@ -113,7 +112,6 @@ Trois autres AMM annulées existent (ETOPOSIDE ACCORD 20 mg/mL, ETOPOPHOS 100 mg
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Cytotoxique conventionnel (inhibiteur de la topoisomérase II, épipodophyllotoxine) |
-| Risque de Myélosuppression | Élevé : le graphe de connaissances associe l'étoposide à la thrombopénie, la neutropénie, l'agranulocytose, la leucopénie et l'anémie |
 | Classification d'Émétogénicité | Faible à moyenne (selon la classe du médicament) |
 | Éléments de Surveillance | NFS avec formule, fonction hépatique et rénale ; surveillance du risque de leucémie secondaire |
 | Protection de Manipulation | Manipulation selon les règles applicables aux médicaments cytotoxiques |

@@ -6,9 +6,9 @@ nav_order: 818
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vitamin A : nouvelle indication prédite, Déficit congénital en prothrombine (niveau de preuve L5). Indication d'origine : Carence en vitamine A / carence vitaminique"
 monitor_inn: "vitamin a"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+description: "Vitamin A : nouvelle indication prédite, Déficit congénital en prothrombine (congenital prothrombin deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vitamin A
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Vitamine A : De la carence en vitamine A au déficit congénital en prothrombine
+## Vitamin A: Déficit congénital en prothrombine (congenital prothrombin deficiency)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **déficit cong
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carence en vitamine A / carence vitaminique (d'après le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Déficit congénital en prothrombine |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Déficit congénital en prothrombine (congenital prothrombin deficiency) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La vitamine A est un nutriment essentiel, dont l'efficacité dans la correction des carences en vitamine A est établie.
 
-Pour le déficit congénital en prothrombine, la prédiction paraît **peu plausible sur le plan mécanistique**. La synthèse de la prothrombine dépend de la gamma-carboxylation vitamine K-dépendante, et non de la vitamine A. Cette maladie est un défaut génétique du gène *F2*. Le score très élevé du modèle reflète probablement des associations « carence vitaminique » dans le graphe de connaissances, plutôt qu'un lien thérapeutique réel. Ce score doit donc être interprété avec une grande prudence.
+Pour le déficit congénital en prothrombine, le score de 0,9997 provient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il doit donc être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 |---------|------|------|-----------|
 | 60238376 | SOLACY PEDIATRIQUE | Comprimé pour suspension buvable | Non renseignée |
 
-Cette AMM (laboratoire GRIMBERG, spécialité à substance unique) est **annulée**. Aucune AMM valide n'existe actuellement pour ce médicament dans les données compilées.
+Ce médicament est commercialisé en France : 1 AMM valide sur 1.
 
 ## Considérations de Sécurité
 
@@ -100,7 +100,7 @@ Veuillez consulter la notice pour les mises en garde officielles.
 - Une revue de la notice de l'ANSM (mises en garde et contre-indications), actuellement manquante.
 - Une réévaluation du statut réglementaire, puisque l'AMM est annulée.
 
-**Remarque :** parmi les autres prédictions du modèle, la **maladie périnatale** (score de 99,63 %) est de loin la mieux étayée. Elle repose sur plusieurs méta-analyses Cochrane de la supplémentation en vitamine A chez les nourrissons de très faible poids de naissance, avec un bénéfice modeste sur la dysplasie bronchopulmonaire. Cette piste mériterait d'être évaluée en priorité, avec des garde-fous (voie d'administration, dosage, sécurité). L'indication « blessure » dispose également d'un essai randomisé de phase 1/2 (NCT01203488, 807 nourrissons), mais ses résultats portent sur la morbidité néonatale plutôt que sur les blessures en général.
+**Remarque :** parmi les autres prédictions du modèle, la **maladie périnatale** (score de 0,9963) est de loin la mieux étayée. Elle repose sur plusieurs méta-analyses Cochrane de la supplémentation en vitamine A chez les nourrissons de très faible poids de naissance, avec un bénéfice modeste sur la dysplasie bronchopulmonaire. Cette piste mériterait d'être évaluée en priorité, avec des garde-fous (voie d'administration, dosage, sécurité). L'indication « blessure » dispose également d'un essai randomisé de phase 1/2 (NCT01203488, 807 nourrissons), mais ses résultats portent sur la morbidité néonatale plutôt que sur les blessures en général.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

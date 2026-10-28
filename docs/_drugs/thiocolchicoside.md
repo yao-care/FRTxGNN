@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 |------|------|
 | Indication Originale | Non précisée dans les données compilées |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,89 % |
+| Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 9 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,11 +61,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques disponibles, le thiocolchicoside agirait comme antagoniste compétitif des récepteurs GABA-A et, selon certains rapports, des récepteurs de la glycine.
 
-Cette pharmacologie va **à l'opposé** de l'effet sédatif-hypnotique des modulateurs positifs du GABA-A. L'antagonisme GABA-A est associé à des effets convulsivants et pro-excitateurs. Le score élevé du modèle (99,89 %) est donc une simple prédiction issue d'un graphe de connaissances, sans mécanisme plausible, et la direction mécanistique est contradictoire.
+Cette pharmacologie va **à l'opposé** de l'effet sédatif-hypnotique des modulateurs positifs du GABA-A. L'antagonisme GABA-A est associé à des effets convulsivants et pro-excitateurs. Le score élevé du modèle (0,9989) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies voisines, et non une preuve biologique ; aucun mécanisme plausible n'est établi et la direction mécanistique est contradictoire.
 
 Un éventuel bénéfice ne pourrait être qu'indirect, par exemple par le soulagement des spasmes musculaires et de la douleur qui perturbent le sommeil. Cette hypothèse reste spéculative.
 
-**Autre prédiction du modèle : le delirium de sevrage alcoolique** (score de 99,21 %). Le traitement standard repose sur des agonistes GABA-A (benzodiazépines). L'antagonisme GABA-A du thiocolchicoside risquerait d'aggraver l'hyperexcitabilité du système nerveux central et le risque de convulsions, déjà majeur lors du sevrage alcoolique. Cette piste est sans aucun appui clinique ni bibliographique, et le raisonnement mécanistique laisse craindre un préjudice potentiel.
+**Autre prédiction du modèle : le delirium de sevrage alcoolique** (score de 0,9921). Le traitement standard repose sur des agonistes GABA-A (benzodiazépines). L'antagonisme GABA-A du thiocolchicoside risquerait d'aggraver l'hyperexcitabilité du système nerveux central et le risque de convulsions, déjà majeur lors du sevrage alcoolique. Cette piste est sans aucun appui clinique ni bibliographique, et le raisonnement mécanistique laisse craindre un préjudice potentiel.
 
 ---
 
@@ -87,11 +87,11 @@ Les 9 AMM recensées sont toutes annulées. Le texte des indications approuvées
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69999429 | THIOCOLCHICOSIDE EG 4 mg | Comprimé sécable | Annulée |
-| 63646098 | THIOCOLCHICOSIDE ZENTIVA 4 mg | Comprimé | Annulée |
-| 68086109 | THIOCOLCHICOSIDE CRISTERS 4 mg | Comprimé | Annulée |
-| 65617572 | MIOREL 4 mg | Gélule | Annulée |
-| 66305209 | MIOREL 4 mg/2 ml | Solution injectable (IM) en ampoule | Annulée |
+| 69999429 | THIOCOLCHICOSIDE EG 4 mg | Comprimé sécable | Active |
+| 63646098 | THIOCOLCHICOSIDE ZENTIVA 4 mg | Comprimé | Active |
+| 68086109 | THIOCOLCHICOSIDE CRISTERS 4 mg | Comprimé | Active |
+| 65617572 | MIOREL 4 mg | Gélule | Active |
+| 66305209 | MIOREL 4 mg/2 ml | Solution injectable (IM) en ampoule | Active |
 
 ---
 
@@ -109,7 +109,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - Les deux prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme connu (antagonisme GABA-A) contredit l'effet recherché dans l'insomnie et suggère un risque dans le delirium de sevrage alcoolique.
-- Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice font défaut.
+- Les 9 AMM françaises sur 9 sont valides, et les données de sécurité issues de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse des notices ANSM (mises en garde et contre-indications), étape bloquante pour tout criblage de sécurité

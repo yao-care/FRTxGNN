@@ -46,10 +46,10 @@ La méthylergométrine est un alcaloïde de l'ergot de seigle semi-synthétique,
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (usage utérotonique selon les connaissances pharmacologiques) |
 | Nouvelle Indication Prédite | Hypertrichose |
-| Score de Prédiction TxGNN | 99,87 % |
+| Score de Prédiction TxGNN | 0,9987 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

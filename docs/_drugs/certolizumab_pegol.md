@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Certolizumab Pegol
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 156
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Certolizumab Pegol : nouvelle indication prédite, Vascularite rhumatoïde (niveau de preuve L4). Indication d'origine : Maladie de Crohn, maladie inflammatoire de l'intestin…"
 monitor_inn: "certolizumab pegol"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Certolizumab Pegol : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Certolizumab Pegol
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Certolizumab pegol : De la maladie de Crohn et de la polyarthrite rhumatoïde à la vascularite rhumatoïde
+## Certolizumab Pegol: Hypermobility of coccyx
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Les données compilées pour ce rapport montrent aussi que les autres prédictio
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Crohn, maladie inflammatoire de l'intestin, rhumatisme psoriasique, polyarthrite rhumatoïde, spondylarthrite ankylosante (le texte d'indication des AMM françaises n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Vascularite rhumatoïde |
-| Score de Prédiction TxGNN | 99,78 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypermobility of coccyx |
+| Score de Prédiction TxGNN | 0.9975 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,8 +84,8 @@ Aucun essai clinique associé n'est actuellement enregistré pour la vascularite
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64386835 | CIMZIA 200 mg, solution injectable en stylo prérempli (UCB Pharma Belgique) | Solution injectable | Non renseignée (AMM annulée) |
-| 66661714 | CIMZIA 200 mg, solution pour injection en seringue préremplie (UCB Pharma Belgique) | Solution injectable | Non renseignée (AMM annulée) |
+| 64386835 | CIMZIA 200 mg, solution injectable en stylo prérempli (UCB Pharma Belgique) | Solution injectable | Non renseignée (AMM active) |
+| 66661714 | CIMZIA 200 mg, solution pour injection en seringue préremplie (UCB Pharma Belgique) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

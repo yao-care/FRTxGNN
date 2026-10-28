@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bezlotoxumab : nouvelle indication prédite, Péritonite pelvienne aiguë de la femme (niveau de preuve L5). Indication d'origine : Colite à Clostridium difficile"
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "pelvic varices"]
+last_modified_at: 2026-10-27
+description: "Bezlotoxumab : nouvelle indication prédite, Péritonite pelvienne aiguë de la femme (acute female pelvic peritonitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
 # Bezlotoxumab
@@ -33,33 +33,31 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Bezlotoxumab : De la colite à Clostridium difficile à la péritonite pelvienne aiguë de la femme
+## Bezlotoxumab : anticorps monoclonal neutralisant la toxine B de *C. difficile* → péritonite pelvienne aiguë de la femme (acute female pelvic peritonitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Bezlotoxumab est un anticorps monoclonal initialement utilisé pour traiter les infections à *Clostridium difficile* (colite à *C. difficile*).
-Le modèle TxGNN le prédit comme potentiellement efficace pour la **péritonite pelvienne aiguë de la femme**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+Bezlotoxumab est un anticorps monoclonal qui neutralise la toxine B de *Clostridium difficile*.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **péritonite pelvienne aiguë de la femme (acute female pelvic peritonitis)**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Colite à *Clostridium difficile* (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Péritonite pelvienne aiguë de la femme |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Péritonite pelvienne aiguë de la femme (acute female pelvic peritonitis) |
+| Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, bezlotoxumab est un anticorps monoclonal qui neutralise la toxine B de *C. difficile*. Son efficacité a été établie dans la prévention des récidives d'infection à *C. difficile*.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le bezlotoxumab est un anticorps monoclonal dirigé contre la toxine B de *C. difficile*.
 
-Aucun lien mécanistique clair avec la péritonite pelvienne n'a été identifié. Cette affection est généralement polymicrobienne et n'est pas médiée par la toxine B. Le score élevé (99,89 %) reflète vraisemblablement une proximité dans le graphe de connaissances plutôt qu'un fondement biologique.
-
-Les autres candidats prédits (kyste embryonnaire de la trompe, grossesse tubaire, sténose lombaire, varices pelviennes, etc.) présentent le même profil : scores très élevés, mais aucun mécanisme plausible et aucune preuve clinique. Cela suggère des artéfacts de voisinage dans le graphe, notamment parmi les maladies de l'appareil reproducteur féminin.
+Aucun lien mécanistique clair avec la péritonite pelvienne n'a été identifié. Cette affection est le plus souvent polymicrobienne et n'est pas médiée par la toxine B. Le score élevé (0,9989) est donc une prédiction de nature computationnelle, sans fondement biologique démontré. Cette prédiction doit être considérée avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69894104 | ZINPLAVA 25 mg/mL, solution à diluer pour perfusion (MERCK SHARP & DOHME, Pays-Bas) — annulée | Solution à diluer pour perfusion | Non renseignée |
+| 69894104 | ZINPLAVA 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée dans les données locales |
 
 ## Considérations de Sécurité
 
@@ -84,14 +82,13 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai, sans publication ni mécanisme plausible, et l'unique AMM française est annulée.
+La prédiction repose uniquement sur le score du modèle, sans essai clinique, sans publication et sans mécanisme plausible. Le niveau de preuve est L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action (par exemple via DrugBank)
-- Mises en garde et contre-indications issues de la notice ANSM, nécessaires au dépistage de sécurité
-- Preuve biologique d'un rôle de la toxine B (ou d'une cible apparentée) dans la péritonite pelvienne
-- Données précliniques ou cliniques préliminaires, absentes à ce jour
-- Vérification de la voie d'administration : la forme disponible est une perfusion intraveineuse, dont la compatibilité avec l'indication n'a pas été évaluée
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice de l'ANSM
+- Toute étude (précliniques ou cliniques) portant directement sur la péritonite pelvienne aiguë de la femme
+- Vérification de la cohérence du statut de commercialisation avec l'état des autorisations
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

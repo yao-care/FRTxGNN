@@ -4,17 +4,17 @@ title: Tacrolimus
 parent: Preuves élevées (L1-L2)
 nav_order: 728
 evidence_level: L2
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Tacrolimus : nouvelle indication prédite, Dermatite séborrhéique (niveau de preuve L2). Indication d'origine : Eczéma atopique (dermatite atopique)"
 monitor_inn: "tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus : nouvelle indication prédite, Dermatite séborrhéique (seborrheic dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **3** 
+Niveau de preuve: **L2** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **3**
 
 </div>
 
-## Tacrolimus : De l'eczéma atopique à la dermatite séborrhéique
+## Tacrolimus: Dermatite séborrhéique (seborrheic dermatitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ avec **2 essais cliniques** (dont un essai de phase 3 terminé) et **20 publicat
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Eczéma atopique (dermatite atopique) |
-| Nouvelle Indication Prédite | Dermatite séborrhéique |
-| Score de Prédiction TxGNN | 99,26 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dermatite séborrhéique (seborrheic dermatitis) |
+| Score de Prédiction TxGNN | 0.9926 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -94,15 +94,15 @@ Le mécanisme est donc plausible et les données cliniques le soutiennent. Les d
 
 ## Informations de Marché en France
 
-Les 5 premières AMM sont listées ci-dessous ; le texte des indications approuvées n'est pas disponible dans les données compilées. Toutes les AMM sont annulées.
+Les 5 premières AMM sont listées ci-dessous ; le texte des indications approuvées n'est pas disponible dans les données compilées. 20 AMM sont valides.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 61727612 | ADVAGRAF 5 mg | Gélule à libération prolongée | Annulée |
-| 63931834 | ADVAGRAF 0,5 mg | Gélule à libération prolongée | Annulée |
-| 61217812 | PROGRAF 1 mg | Gélule | Annulée |
-| 60876980 | CONFEROPORT 1 mg | Gélule à libération prolongée | Annulée |
-| 66927104 | ADOPORT 2 mg | Gélule | Annulée |
+| 61727612 | ADVAGRAF 5 mg | Gélule à libération prolongée | Active |
+| 63931834 | ADVAGRAF 0,5 mg | Gélule à libération prolongée | Active |
+| 61217812 | PROGRAF 1 mg | Gélule | Active |
+| 60876980 | CONFEROPORT 1 mg | Gélule à libération prolongée | Active |
+| 66927104 | ADOPORT 2 mg | Gélule | Active |
 
 Parmi les 20 AMM figurent également des formes topiques (pommade) : TAKROZEM 0,1 % et PROTOPIC 0,1 %.
 

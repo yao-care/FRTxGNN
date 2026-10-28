@@ -6,9 +6,9 @@ nav_order: 564
 evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Oxaliplatin : nouvelle indication prédite, Mésothéliome pleural malin (niveau de preuve L2). Indication d'origine : Métastases d'une tumeur maligne du côlon"
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
+description: "Oxaliplatin : nouvelle indication prédite, Mésothéliome pleural malin (malignant pleural mesothelioma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Oxaliplatin
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **4**
 
 </div>
 
-## Oxaliplatine : Du Cancer Colorectal Métastatique au Mésothéliome Pleural Malin
+## Oxaliplatin: Mésothéliome pleural malin (malignant pleural mesothelioma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **3 essais cliniques** (dont 2 directement pertinents) et **20 publications
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Métastases d'une tumeur maligne du côlon (selon le graphe de connaissances TxGNN ; aucun texte d'indication n'est disponible dans les AMM) |
-| Nouvelle Indication Prédite | Mésothéliome pleural malin |
-| Score de Prédiction TxGNN | 99,68 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Mésothéliome pleural malin (malignant pleural mesothelioma) |
+| Score de Prédiction TxGNN | 0.9968 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,11 +89,11 @@ Cependant, aucun essai de phase 3 ne confirme sa supériorité ou son équivalen
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67280335 | Oxaliplatine Hikma 5 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 67280335 | Oxaliplatine Hikma 5 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 | 64101179 | Oxaliplatine Hospira 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 69201646 | Oxaliplatine Sun 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 69634537 | Oxaliplatine Teva 5 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 61941057 | Eloxatine 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 69201646 | Oxaliplatine Sun 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 69634537 | Oxaliplatine Teva 5 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 61941057 | Eloxatine 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 Au total, 10 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
 
@@ -121,7 +121,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-Le signal est plausible (score TxGNN élevé, plusieurs phases II), mais les preuves restent limitées à de petites études de phase II sans confirmation de phase 3, avec un résultat négatif en seconde ligne et un standard établi (pemetrexed-platine). De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont manquantes, ce qui bloque le criblage de sécurité.
+Le signal est plausible (score TxGNN élevé, plusieurs phases II), mais les preuves restent limitées à de petites études de phase II sans confirmation de phase 3, avec un résultat négatif en seconde ligne et un standard établi (pemetrexed-platine). De plus, 9 des 10 AMM françaises sont valides (le médicament est commercialisé) et les données de sécurité de la notice sont manquantes, ce qui bloque le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications) pour le criblage de sécurité

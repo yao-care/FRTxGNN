@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Molsidomine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 512
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Molsidomine : nouvelle indication prédite, Maladie vasculaire (alternative de rang 1 : alopécie… (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM compilées (usage a…"
 monitor_inn: "MOLSIDOMINE"
 predicted_indications: ["alopecia", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection", "hypotrichosis simplex of the scalp", "visceral calciphylaxis", "neurogenic thoracic outlet syndrome", "hemangioendothelioma", "congenital hypotrichosis milia"]
+description: "Molsidomine : nouvelle indication prédite, Alopecia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Molsidomine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Molsidomine : De l'indication d'origine (non précisée) à la maladie vasculaire
+## Molsidomine: Alopecia
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -49,19 +49,19 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour la **maladie vas
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible dans les données d'AMM compilées (usage antiangineux connu dans la littérature) |
-| Nouvelle Indication Prédite | Maladie vasculaire (alternative de rang 1 : alopécie, sans aucune preuve) |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Alopecia |
+| Score de Prédiction TxGNN | 1.0000 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-La molsidomine est une prodrogue de la linsidomine (SIN-1), qui libère du monoxyde d'azote (NO). Le NO active la guanylate cyclase soluble, ce qui augmente le GMPc, provoque une vasodilatation et inhibe l'agrégation plaquettaire. Les données détaillées sur le mécanisme d'action ne figurent pas dans les informations compilées ; cette description provient de la littérature associée.
+La molsidomine est une prodrogue de la linsidomine (SIN-1), qui libère du monoxyde d'azote (NO). Les données détaillées sur le mécanisme d'action ne figurent pas dans les informations compilées ; cette description provient de la littérature associée.
 
 Ce mécanisme est directement pertinent pour les maladies vasculaires : dysfonction endothéliale, maladie coronarienne et ischémie. La littérature décrit des effets anti-ischémiques, antiplaquettaires et fibrinolytiques, et la molsidomine est utilisée dans l'angor dans plusieurs pays, ce qui soutient la plausibilité biologique.
 
@@ -101,13 +101,12 @@ Pour les autres prédictions (alopécie, hypotrichoses, syndromes du défilé th
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62439495 | MOLSIDOMINE EG 2 mg | Comprimé sécable | Non précisée (AMM annulée) |
-| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM annulée) |
-| 63967289 | MOLSIDOMINE ARROW 4 mg | Comprimé sécable | Non précisée (AMM annulée) |
-| 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non précisée (AMM annulée) |
-| 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non précisée (AMM annulée) |
+| 62439495 | MOLSIDOMINE EG 2 mg | Comprimé sécable | Non précisée (AMM active) |
+| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM active) |
+| 63967289 | MOLSIDOMINE ARROW 4 mg | Comprimé sécable | Non précisée (AMM active) |
+| 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non précisée (AMM active) |
+| 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non précisée (AMM active) |
 
-Au total, 8 AMM sont recensées (dont CORVASAL 2 mg et 4 mg), toutes annulées ; aucune n'est actuellement valide.
 
 ---
 
@@ -124,7 +123,7 @@ Les mises en garde, contre-indications et interactions médicamenteuses ne sont 
 **Décision : Hold**
 
 **Justification :**
-- La maladie vasculaire est la seule prédiction avec un soutien réel (un essai de phase 4 terminé et de la littérature pharmacologique et clinique), mais les preuves restent de niveau L3, souvent anciennes, et l'indication est trop large. Aucune donnée de sécurité n'est disponible, et toutes les AMM françaises sont annulées. La prédiction d'alopécie, bien que classée première, n'a aucun appui.
+- La maladie vasculaire est la seule prédiction avec un soutien réel (un essai de phase 4 terminé et de la littérature pharmacologique et clinique), mais les preuves restent de niveau L3, souvent anciennes, et l'indication est trop large. Aucune donnée de sécurité n'est disponible, et les 8 AMM françaises (sur 8) sont valides. La prédiction d'alopécie, bien que classée première, n'a aucun appui.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications, indication approuvée) afin de lever le blocage de sécurité

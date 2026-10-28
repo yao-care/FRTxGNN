@@ -47,22 +47,22 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **candidose**, 
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM française (tuberculose pharmacorésistante d'après la littérature) |
 | Nouvelle Indication Prédite | Candidose |
-| Score de Prédiction TxGNN | 99,69 % |
+| Score de Prédiction TxGNN | 0,9969 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la prétomanide est une prodrogue activée chez les mycobactéries par la nitroréductase dépendante de la déazaflavine (Ddn), qui requiert le cofacteur F420.
 
-**Cette prédiction est en réalité peu plausible sur le plan biologique.** Les champignons comme *Candida* ne possèdent pas cette voie d'activation. Aucun lien mécanistique n'est étayé par les données disponibles, et le score élevé du modèle (0,997) reflète une proximité dans le graphe de connaissances, pas une preuve pharmacologique.
+**Cette prédiction est en réalité peu plausible sur le plan biologique.** Les champignons comme *Candida* ne possèdent pas cette voie d'activation. Aucun lien mécanistique n'est étayé par les données disponibles, et le score élevé du modèle TxGNN (apprentissage profond) (0,9969) peut refléter des similitudes apprises par le modèle entre maladies apparentées, pas une preuve biologique.
 
 À titre de comparaison, d'autres prédictions du modèle sont examinées ci-dessous :
 
-- **Lèpre** (score 99,27 %) : *Mycobacterium leprae* est proche de *M. tuberculosis*, donc un rationnel existe en principe. Toutefois, son génome très réduit pourrait ne plus contenir la voie F420/Ddn, ce qui reste à vérifier. Les huit publications récupérées concernent toutes la tuberculose pharmacorésistante et aucune ne traite de la lèpre.
-- **Maladie coronarienne, ischémie myocardique, naissance anormale de l'artère coronaire gauche depuis l'artère pulmonaire** (scores 99,2 % à 99,1 %) : aucun lien pharmacologique, probablement des associations artéfactuelles du modèle.
+- **Lèpre** (score 0,9927) : *Mycobacterium leprae* est proche de *M. tuberculosis*, donc un rationnel existe en principe. Toutefois, son génome très réduit pourrait ne plus contenir la voie F420/Ddn, ce qui reste à vérifier. Les huit publications récupérées concernent toutes la tuberculose pharmacorésistante et aucune ne traite de la lèpre.
+- **Maladie coronarienne, ischémie myocardique, naissance anormale de l'artère coronaire gauche depuis l'artère pulmonaire** (scores 0,9925, 0,9917 et 0,9908) : aucun lien pharmacologique, probablement des associations artéfactuelles du modèle.
 
 ## Preuves d'Essais Cliniques
 
@@ -78,7 +78,7 @@ Pour information, les publications récupérées pour la lèpre (deuxième préd
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 63915869 | DOVPRELA 200 mg, comprimé | Comprimé | Non renseignée | Annulée |
+| 63915869 | DOVPRELA 200 mg, comprimé | Comprimé | Non renseignée | Active |
 
 Titulaire : Mylan Ireland Healthcare (Irlande). L'unique AMM est annulée : le médicament n'est actuellement pas commercialisé en France sous cette AMM.
 

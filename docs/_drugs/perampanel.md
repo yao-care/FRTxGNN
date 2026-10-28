@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Perampanel
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 591
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Perampanel : nouvelle indication prédite, Épilepsie visuelle (niveau de preuve L4). Indication d'origine : Épilepsie partielle, épilepsie motrice partielle"
 monitor_inn: "perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Perampanel : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Pérampanel : De l'épilepsie partielle à l'épilepsie visuelle
+## Perampanel: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**épilepsie visue
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie partielle, épilepsie motrice partielle (les textes d'indication des AMM ne sont pas renseignés ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Épilepsie visuelle |
-| Score de Prédiction TxGNN | 99,92 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | AMM uniquement annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Beta-ketothiolase deficiency |
+| Score de Prédiction TxGNN | 0.9979 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'épilepsie visuelle regroupe des crises déclenchées par des stimuli visuels (photosensibilité). Une hyperexcitabilité corticale médiée par le glutamate est plausible dans ce contexte, de sorte qu'un antagonisme AMPA pourrait théoriquement atténuer ces crises.
 
-Il faut toutefois rester prudent : le score TxGNN très élevé reflète probablement la proximité de l'épilepsie visuelle avec les autres épilepsies dans le graphe de connaissances, plutôt qu'une preuve spécifique. La littérature retrouvée (recommandations, revues, état de mal épileptique pédiatrique, grossesse) ne contient aucune donnée propre à l'épilepsie visuelle.
+La littérature retrouvée (recommandations, revues, état de mal épileptique pédiatrique, grossesse) ne contient aucune donnée propre à l'épilepsie visuelle.
 
 ---
 
@@ -94,11 +94,11 @@ Aucune publication ne traite spécifiquement de l'épilepsie visuelle. Les réf�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 64387360 | FYCOMPA 6 mg | Comprimé pelliculé | Non renseignée | Annulée |
-| 68328199 | FYCOMPA 2 mg | Comprimé pelliculé | Non renseignée | Annulée |
-| 64189396 | FYCOMPA 0,5 mg/mL | Suspension buvable | Non renseignée | Annulée |
-| 69856153 | FYCOMPA 10 mg | Comprimé pelliculé | Non renseignée | Annulée |
-| 61849146 | FYCOMPA 12 mg | Comprimé pelliculé | Non renseignée | Annulée |
+| 64387360 | FYCOMPA 6 mg | Comprimé pelliculé | Non renseignée | Active |
+| 68328199 | FYCOMPA 2 mg | Comprimé pelliculé | Non renseignée | Active |
+| 64189396 | FYCOMPA 0,5 mg/mL | Suspension buvable | Non renseignée | Active |
+| 69856153 | FYCOMPA 10 mg | Comprimé pelliculé | Non renseignée | Active |
+| 61849146 | FYCOMPA 12 mg | Comprimé pelliculé | Non renseignée | Active |
 
 (2 autres AMM annulées existent : FYCOMPA 8 mg et FYCOMPA 4 mg.)
 
@@ -124,7 +124,6 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L4) : aucun essai clinique ni publication spécifique à l'épilepsie visuelle, et le score élevé semble refléter la proximité dans le graphe de connaissances.
 - Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -139,12 +138,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation |
 |------|------|------|------|
-| État de mal épileptique | 99,77 % | L3 | Question de recherche |
-| Crises audiogéniques | 99,86 % | L4 | Question de recherche |
-| Crises de lecture | 99,83 % | L4 | Hold |
-| Crises liées à l'alimentation | 99,86 % | L4 | Hold |
-| Épilepsie de sursaut, crises de pensée, crises mictionnelles, crises orgasmiques | 99,86 % | L5 | Hold |
-| Déficit en bêta-cétothiolase | 99,79 % | L5 | Hold |
+| Déficit en bêta-cétothiolase | 0,9979 | L5 | Hold |
 
 Parmi ces candidates, l'**état de mal épileptique** dispose des preuves les plus solides (4 essais cliniques, dont un essai de phase 2 de prophylaxie post-arrêt cardiaque encore en recrutement, et des études rétrospectives), mais les deux essais de phase 3/4 ont été arrêtés après l'inclusion d'un seul patient chacun.
 ## Avertissement

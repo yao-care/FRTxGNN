@@ -6,9 +6,9 @@ nav_order: 813
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcome (niveau de preuve L4). Indication d'origine : Non precisee dans les donnees reglementaires francaises (texte d'indi…"
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcoma (disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Vinblastine : Du Lymphome de Hodgkin au Rhabdomyosarcome
+## Vinblastine: Rhabdomyosarcoma (disease)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,12 +45,12 @@ Le modele TxGNN predit qu'il pourrait etre efficace pour le **rhabdomyosarcome**
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Non precisee dans les donnees reglementaires francaises (texte d'indication vide). D'apres le graphe de connaissances : lymphome de Hodgkin, lymphomes non hodgkiniens, mycosis fongoide, histiocytose a cellules de Langerhans |
-| Nouvelle Indication Predite | Rhabdomyosarcome |
-| Score de Prediction TxGNN | 99.86% |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Rhabdomyosarcoma (disease) |
+| Score de Prediction TxGNN | 0.9986 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Autorisation annulee uniquement |
-| Nombre d'AMM | 1 (annulee) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -83,7 +83,7 @@ Pour les sous-types predits suivants, la litterature est tres limitee : le rhabd
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 68875332 | VELBE 10 mg, poudre pour solution injectable I.V. (EG LABO - Laboratoires Eurogenerics) | Poudre pour solution injectable | Non renseignee (AMM annulee) |
+| 68875332 | VELBE 10 mg, poudre pour solution injectable I.V. (EG LABO - Laboratoires Eurogenerics) | Poudre pour solution injectable | Non renseignee (AMM active) |
 
 ## Cytotoxicite
 

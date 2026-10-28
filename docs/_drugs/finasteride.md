@@ -6,9 +6,9 @@ nav_order: 327
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Finasteride : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie bénigne de la prostate"
 monitor_inn: "finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Finasteride : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) (niveau de preuve L5). Indication d'origine : Non re…"
 ---
 
 # Finasteride
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Finastéride : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Congénitale de type Ambras
+## Finasteride: Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertrichose 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hyperplasie bénigne de la prostate (source : graphe de connaissances TxGNN ; les textes d'indication des AMM françaises ne sont pas renseignés) |
-| Nouvelle Indication Prédite | Hypertrichose universelle congénitale de type Ambras |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées ; aucune valide) |
 | Décision Recommandée | Hold |
 
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec l'hypertrichose de type Ambras est **faible et spéculatif**. Ce syndrome est une hypertrichose congénitale d'origine génétique (remaniements du chromosome 8q affectant la régulation de TRPS1), sans dépendance androgénique clairement démontrée. Le score élevé du modèle ne repose sur aucune donnée clinique ou publiée.
 
-Les autres prédictions du modèle vont dans le même sens : l'hypertrichose acquise (non androgéno-dépendante, lien mécanistique faible), l'anomalie génétique isolée de la tige pilaire et la trichomégalie familiale isolée (liens spéculatifs), ainsi que des syndromes malformatifs (dentaires/parodontaux, syndrome de Dandy-Walker) pour lesquels aucun lien plausible n'apparaît et qui relèvent probablement d'artefacts du graphe. Dans les contextes développementaux, la finastéride appelle en outre à la prudence en raison de ses effets connus sur le développement génital du fœtus masculin.
+Les autres prédictions du modèle vont dans le même sens : l'hypertrichose acquise (non androgéno-dépendante, lien mécanistique faible), l'anomalie génétique isolée de la tige pilaire et la trichomégalie familiale isolée (liens spéculatifs), ainsi que des syndromes malformatifs (dentaires/parodontaux, syndrome de Dandy-Walker) pour lesquels aucun lien plausible n'apparaît et qui reflètent probablement des similarités apprises par le modèle TxGNN (apprentissage profond) entre maladies apparentées, et non une preuve biologique. Dans les contextes développementaux, la finastéride appelle en outre à la prudence en raison de ses effets connus sur le développement génital du fœtus masculin.
 
 ---
 
@@ -77,7 +77,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature directement associée à l'hypertrichose de type Ambras n'est disponible actuellement.
 
-Pour la deuxième prédiction (hypertrichose, score 99,99 %), quatre publications indirectes ont été retrouvées. Aucune ne rapporte d'étude contrôlée de la finastéride dans l'hypertrichose ; elles ne fournissent qu'un contexte général, et leurs résumés doivent être vérifiés avant toute conclusion.
+Pour la deuxième prédiction (hypertrichose, score 0,9999), quatre publications indirectes ont été retrouvées. Aucune ne rapporte d'étude contrôlée de la finastéride dans l'hypertrichose ; elles ne fournissent qu'un contexte général, et leurs résumés doivent être vérifiés avant toute conclusion.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
@@ -118,14 +118,14 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5) : aucun essai clinique, aucune publication, et un lien mécanistique spéculatif avec une maladie génétique non androgéno-dépendante. De plus, toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont manquantes (étape de criblage de sécurité bloquée).
+- La prédiction repose uniquement sur le score du modèle (niveau L5) : aucun essai clinique, aucune publication, et un lien mécanistique spéculatif avec une maladie génétique non androgéno-dépendante. De plus, le médicament est commercialisé en France (20 AMM valides), et les données de sécurité de la notice sont manquantes (étape de criblage de sécurité bloquée).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications) — élément bloquant
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des données précliniques ou des rapports de cas sur la finastéride dans les hypertrichoses congénitales, et vérifier les résumés des revues indirectes
 - Évaluer la faisabilité de la voie d'administration et les risques développementaux (effets sur le fœtus masculin)
-- Clarifier le statut réglementaire, toutes les AMM étant annulées
+- Clarifier le statut réglementaire (médicament commercialisé, 20 AMM valides)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

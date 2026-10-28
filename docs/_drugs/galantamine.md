@@ -6,9 +6,9 @@ nav_order: 354
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (niveau de preuve L5). Indication d'origine : Maladie d'Alzheimer"
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
+description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Galantamine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Galantamine : De la maladie d'Alzheimer aux troubles du mouvement psychogènes
+## Galantamine: Troubles du mouvement psychogènes (psychogenic movement disorders)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour les **troubles d
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie d'Alzheimer (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Troubles du mouvement psychogènes |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Troubles du mouvement psychogènes (psychogenic movement disorders) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 16 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,20 +61,20 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour les **troubles d
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la galantamine est un inhibiteur de la cholinestérase et un modulateur allostérique des récepteurs nicotiniques. Son efficacité symptomatique dans la maladie d'Alzheimer repose sur le renforcement de la transmission cholinergique.
 
-Le lien avec les troubles du mouvement psychogènes (fonctionnels) n'est pas établi : aucune donnée ne relie la modulation cholinergique à cette pathologie. Le score élevé du modèle TxGNN reflète une proximité dans le graphe de connaissances, pas une preuve biologique ou clinique.
+Le lien avec les troubles du mouvement psychogènes (fonctionnels) n'est pas établi : aucune donnée ne relie la modulation cholinergique à cette pathologie. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, pas une preuve biologique ou clinique.
 
 **Autres indications prédites (à titre indicatif, toutes en Hold) :**
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |---|---|---|---|---|
-| 2 | Tic chronique | 99,89 % | L5 | Hypothèse spéculative (interneurones cholinergiques striataux), sans données |
-| 3 | Tremblement orthostatique primaire | 99,89 % | L5 | Aucun lien mécanistique démontré |
-| 4 | Frissons bénins du nourrisson | 99,88 % | L5 | Affection bénigne, rapport bénéfice/risque défavorable |
-| 5 | Maladies extrapyramidales et du mouvement | 99,88 % | L4 | Littérature surtout sur des mouvements anormaux *induits* par les inhibiteurs de cholinestérase (signal de sécurité) |
-| 6 | Syndrome tremblement-nystagmus-ulcère duodénal | 99,88 % | L5 | Préoccupation théorique : risque ulcéreux gastro-intestinal |
-| 7 | Dyskinésie linguo-faciale-buccale | 99,88 % | L4 | Données spécifiques à la galantamine uniquement précliniques, sauf un essai croisé randomisé sur la dyskinésie tardive |
-| 8 | Élévation tonique paroxystique bénigne du regard avec ataxie | 99,88 % | L5 | Aucun mécanisme cholinergique connu |
-| 9 | Porphyrie aiguë intermittente | 99,71 % | L5 | Aucun lien plausible ; sécurité en porphyrie non évaluée |
+| 2 | Tic chronique | 0,9989 | L5 | Hypothèse spéculative (interneurones cholinergiques striataux), sans données |
+| 3 | Tremblement orthostatique primaire | 0,9989 | L5 | Aucun lien mécanistique démontré |
+| 4 | Frissons bénins du nourrisson | 0,9988 | L5 | Affection bénigne, rapport bénéfice/risque défavorable |
+| 5 | Maladies extrapyramidales et du mouvement | 0,9988 | L5 | Littérature surtout sur des mouvements anormaux *induits* par les inhibiteurs de cholinestérase (signal de sécurité) |
+| 6 | Syndrome tremblement-nystagmus-ulcère duodénal | 0,9988 | L5 | Préoccupation théorique : risque ulcéreux gastro-intestinal |
+| 7 | Dyskinésie linguo-faciale-buccale | 0,9988 | L5 | Données spécifiques à la galantamine uniquement précliniques, sauf un essai croisé randomisé sur la dyskinésie tardive |
+| 8 | Élévation tonique paroxystique bénigne du regard avec ataxie | 0,9988 | L5 | Aucun mécanisme cholinergique connu |
+| 9 | Porphyrie aiguë intermittente | 0,9971 | L5 | Aucun lien plausible ; sécurité en porphyrie non évaluée |
 
 ---
 
@@ -96,11 +96,11 @@ Les 16 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 62031593 | GALANTAMINE TEVA SANTE LP 8 mg | Gélule à libération prolongée | Annulée |
-| 63358402 | GALANTAMINE BIOGARAN LP 8 mg | Gélule à libération prolongée | Annulée |
-| 64679350 | GALANTAMINE KRKA LP 16 mg | Gélule à libération prolongée | Annulée |
-| 61601453 | REMINYL 4 mg/mL | Solution buvable | Annulée |
-| 61611472 | GALANTAMINE ZENTIVA LAB LP 24 mg | Gélule à libération prolongée | Annulée |
+| 62031593 | GALANTAMINE TEVA SANTE LP 8 mg | Gélule à libération prolongée | Active |
+| 63358402 | GALANTAMINE BIOGARAN LP 8 mg | Gélule à libération prolongée | Active |
+| 64679350 | GALANTAMINE KRKA LP 16 mg | Gélule à libération prolongée | Active |
+| 61601453 | REMINYL 4 mg/mL | Solution buvable | Active |
+| 61611472 | GALANTAMINE ZENTIVA LAB LP 24 mg | Gélule à libération prolongée | Active |
 
 ---
 
@@ -122,7 +122,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans lien mécanistique établi avec les troubles du mouvement psychogènes.
-- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- Le médicament est commercialisé en France (16 AMM valides sur 16), mais les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour le criblage de sécurité.

@@ -6,9 +6,9 @@ nav_order: 720
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulfamethoxazole : nouvelle indication prédite, Conjonctivite aiguë contagieuse (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
+description: "Sulfamethoxazole : nouvelle indication prédite, Conjonctivite aiguë contagieuse (acute contagious conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sulfamethoxazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Sulfaméthoxazole : Des infections bactériennes à la conjonctivite aiguë contagieuse
+## Sulfamethoxazole: Conjonctivite aiguë contagieuse (acute contagious conjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ Les preuves actuelles se limitent à **1 publication** (étude de cohorte) et **
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données d'AMM ; les indications d'origine proviennent du graphe de connaissances (otite moyenne infectieuse, nocardiose, toxoplasmose, pneumocystose, shigellose, conjonctivite, etc.) |
-| Nouvelle Indication Prédite | Conjonctivite aiguë contagieuse |
-| Score de Prédiction TxGNN | 99,63 % |
-| Niveau de Preuve | L4 (niveau attribué dans les données compilées ; une seule étude de cohorte observationnelle, aucun essai clinique) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Conjonctivite aiguë contagieuse (acute contagious conjunctivitis) |
+| Score de Prédiction TxGNN | 0.9963 |
+| Niveau de Preuve | L5 (niveau attribué dans les données compilées ; une seule étude de cohorte observationnelle, aucun essai clinique) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, le sulfaméthoxazole inhibe la dihydroptéroate synthase bactérienne et bloque ainsi la synthèse des folates, ce qui freine la croissance des bactéries. Cette inférence ne provient pas des données fournies.
 
-Ce mécanisme antibactérien est cohérent avec une conjonctivite d'origine bactérienne. Cependant, la conjonctivite figure déjà parmi les indications d'origine du médicament dans le graphe de connaissances. Le score élevé du modèle (99,63 %) reflète probablement cette association existante plutôt qu'une découverte nouvelle, et il reste une simple prédiction.
+Ce mécanisme antibactérien est cohérent avec une conjonctivite d'origine bactérienne. Cependant, la conjonctivite figure déjà parmi les indications d'origine du médicament dans le graphe de connaissances. Le score élevé du modèle (0,9963) reflète probablement cette association existante plutôt qu'une découverte nouvelle, et il reste une simple prédiction.
 
 ## Preuves d'Essais Cliniques
 
@@ -82,7 +82,7 @@ Cette étude décrit les profils de sensibilité aux antibiotiques ; le résumé
 | 64121235 | BACTRIM FORTE, comprimé sécable | Comprimé sécable | Non renseignée |
 | 65880598 | BACTRIM, suspension buvable | Suspension buvable | Non renseignée |
 
-Les 6 AMM sont annulées ; aucune n'est actuellement valide. Seules 5 sont listées ci-dessus (limite du format).
+Seules 5 sont listées ci-dessus (limite du format).
 
 ## Considérations de Sécurité
 
@@ -98,7 +98,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La conjonctivite figure déjà parmi les indications d'origine du médicament : il ne s'agit pas d'un vrai repositionnement. Les preuves se limitent à une étude de cohorte, sans essai clinique, et toutes les AMM françaises sont annulées. Les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- La conjonctivite figure déjà parmi les indications d'origine du médicament : il ne s'agit pas d'un vrai repositionnement. Les preuves se limitent à une étude de cohorte, sans essai clinique ; le médicament est commercialisé en France, avec 6 AMM valides sur 6. Les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)

@@ -49,9 +49,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 |------|------|
 | Indication Originale | Trouble anxieux, anxiété, trouble anxieux et dépressif mixte (texte d'indication des AMM non renseigné) |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,81 % |
+| Score de Prédiction TxGNN | 0,9981 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -94,13 +94,13 @@ Aucune publication ne teste directement l'alprazolam contre l'insomnie dans un e
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60647049 | XANAX 0,50 mg | comprimé sécable | Non renseignée (AMM annulée) |
-| 69847791 | XANAX 0,25 mg | comprimé sécable | Non renseignée (AMM annulée) |
-| 61736700 | ALPRAZOLAM BIOGARAN 0,25 mg | comprimé sécable | Non renseignée (AMM annulée) |
-| 63143645 | ALPRAZOLAM ZENTIVA 0,25 mg | comprimé sécable | Non renseignée (AMM annulée) |
-| 61200859 | ALPRAZOLAM VIATRIS 0,50 mg | comprimé sécable | Non renseignée (AMM annulée) |
+| 60647049 | XANAX 0,50 mg | comprimé sécable | Non renseignée (AMM active) |
+| 69847791 | XANAX 0,25 mg | comprimé sécable | Non renseignée (AMM active) |
+| 61736700 | ALPRAZOLAM BIOGARAN 0,25 mg | comprimé sécable | Non renseignée (AMM active) |
+| 63143645 | ALPRAZOLAM ZENTIVA 0,25 mg | comprimé sécable | Non renseignée (AMM active) |
+| 61200859 | ALPRAZOLAM VIATRIS 0,50 mg | comprimé sécable | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées, toutes annulées ; aucune AMM valide n'est disponible.
+Au total, 20 AMM valides sont recensées.
 
 ---
 
@@ -122,7 +122,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle et sur la pharmacologie de classe : aucun essai clinique n'est enregistré et la littérature est indirecte. Les risques connus des benzodiazépines pèsent contre cette indication, et toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle et sur la pharmacologie de classe : aucun essai clinique n'est enregistré et la littérature est indirecte. Les risques connus des benzodiazépines pèsent contre cette indication, et le médicament est commercialisé en France avec 20 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action (DrugBank).
@@ -131,8 +131,8 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 - Une évaluation du rapport bénéfice/risque (dépendance, sevrage, chutes, cognition) et de la situation réglementaire des produits (AMM annulées).
 
 **Note sur les autres indications prédites :**
-- **Agoraphobie** (score 99,56 %, niveau L3) : elle est soutenue par de nombreux essais anciens (1985-1997) portant sur l'alprazolam dans le trouble panique avec agoraphobie, et par une méta-analyse en réseau Cochrane de 2023. Elle recoupe cependant largement l'indication anxieuse d'origine et pourrait relever d'une extension sur étiquette plutôt que d'un véritable repositionnement. Les problèmes de sevrage et de dépendance, ainsi que la préférence actuelle pour les ISRS/IRSN et les TCC, limitent la recommandation. Elle reste une question de recherche.
-- **Torticolis paroxystique bénin du nourrisson** (score 99,61 %, niveau L5) : aucune donnée clinique, et l'usage des benzodiazépines chez le nourrisson soulève des préoccupations de sécurité majeures (dépression respiratoire, effets sur le neurodéveloppement). Hold.
+- **Agoraphobie** (score 0,9956, niveau L3) : elle est soutenue par de nombreux essais anciens (1985-1997) portant sur l'alprazolam dans le trouble panique avec agoraphobie, et par une méta-analyse en réseau Cochrane de 2023. Elle recoupe cependant largement l'indication anxieuse d'origine et pourrait relever d'une extension sur étiquette plutôt que d'un véritable repositionnement. Les problèmes de sevrage et de dépendance, ainsi que la préférence actuelle pour les ISRS/IRSN et les TCC, limitent la recommandation. Elle reste une question de recherche.
+- **Torticolis paroxystique bénin du nourrisson** (score 0,9961, niveau L5) : aucune donnée clinique, et l'usage des benzodiazépines chez le nourrisson soulève des préoccupations de sécurité majeures (dépression respiratoire, effets sur le neurodéveloppement). Hold.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

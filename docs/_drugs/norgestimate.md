@@ -6,9 +6,9 @@ nav_order: 548
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norgestimate : nouvelle indication prédite, Zinc plasmatique élevé (niveau de preuve L5). Indication d'origine : Acné"
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Norgestimate : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Norgestimate
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Norgestimate : De l'Acné à l'Élévation du Zinc Plasmatique
+## Norgestimate: Zinc plasmatique élevé (zinc, elevated plasma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,17 +45,17 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour **l'élévation du z
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acné (les autorisations françaises ne renseignent aucun texte d'indication ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Zinc plasmatique élevé |
-| Score de Prédiction TxGNN | 99,06 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Zinc plasmatique élevé (zinc, elevated plasma) |
+| Score de Prédiction TxGNN | 0.9906 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations toutes annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le norgestimate est un progestatif utilisé en association avec un estrogène dans les contraceptifs oraux. Son usage est établi pour la contraception, et le graphe de connaissances lui associe l'acné, l'ostéoporose et l'atrophie vulvo-vaginale.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le norgestimate est un progestatif utilisé en association avec un estrogène dans les contraceptifs oraux. Son usage est établi pour la contraception ; les prédictions du modèle TxGNN (apprentissage profond) peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.
 
 Le seul soutien à cette prédiction est un score élevé du modèle. Les produits contenant des estrogènes peuvent influencer les protéines circulantes qui lient le zinc et le cuivre, mais cette association est indirecte et spéculative. Elle ne démontre pas que le médicament traite ou corrige un excès de zinc plasmatique.
 
@@ -75,11 +75,11 @@ Les 7 autorisations recensées sont toutes annulées ; aucune n'est en cours de 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65464991 | NARAVELA 250 µg/35 µg, comprimé | Comprimé | Annulée |
-| 67592737 | TRINARA CONTINU, comprimé pelliculé | Comprimé | Annulée |
-| 68322762 | TRIAFEMI, comprimé | Comprimé (3 types) | Annulée |
-| 69274060 | TRINARA, comprimé pelliculé | Comprimé pelliculé (3 types) | Annulée |
-| 66449857 | OPTIKINZY 250 µg/35 µg, comprimé | Comprimé (2 types) | Annulée |
+| 65464991 | NARAVELA 250 µg/35 µg, comprimé | Comprimé | Active |
+| 67592737 | TRINARA CONTINU, comprimé pelliculé | Comprimé | Active |
+| 68322762 | TRIAFEMI, comprimé | Comprimé (3 types) | Active |
+| 69274060 | TRINARA, comprimé pelliculé | Comprimé pelliculé (3 types) | Active |
+| 66449857 | OPTIKINZY 250 µg/35 µg, comprimé | Comprimé (2 types) | Active |
 
 Deux autres autorisations, également annulées, ne sont pas détaillées ici : TRIAFEMI CONTINU (69090320) et FEMI (69140061).
 

@@ -6,9 +6,9 @@ nav_order: 179
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Clindamycin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Acné, infections à streptocoques et à staphylocoques…"
 monitor_inn: "clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
+description: "Clindamycin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
 ---
 
 # Clindamycin
@@ -33,24 +33,24 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Clindamycine : Des infections bactériennes et de l'acné à la kératoconjonctivite épithéliale ponctuée
+## Clindamycin: Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La clindamycine est un antibiotique de la famille des lincosamides, initialement utilisé contre l'acné, les infections à streptocoques et à staphylocoques, les infections à bactéries anaérobies et la vaginose bactérienne.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **kératoconjonctivite épithéliale ponctuée**, mais il s'agit d'une prédiction issue du graphe de connaissances uniquement : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
+Le modèle TxGNN (apprentissage profond) prédit qu'elle pourrait être efficace pour la **kératoconjonctivite épithéliale ponctuée**, mais il s'agit d'une prédiction issue du modèle uniquement, pouvant refléter des similarités apprises entre maladies apparentées et non des preuves biologiques : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acné, infections à streptocoques et à staphylocoques, infections à bactéries anaérobies, vaginose bactérienne (le texte d'indication des AMM n'est pas renseigné ; ces indications proviennent du graphe de connaissances) |
-| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec la nouvelle indication reste faible. La kératopathie épithéliale ponctuée est souvent non infectieuse (sécheresse oculaire, causes toxiques ou virales), et un antibactérien n'a alors pas de justification claire. Un bénéfice ne serait envisageable que pour une composante bactérienne, par exemple une blépharoconjonctivite staphylococcique, ce qui n'est pas établi ici.
 
-Le score élevé du modèle (99,97 %) repose sur la structure du graphe et non sur des preuves expérimentales ou cliniques. Il doit être interprété avec prudence.
+Le score élevé du modèle TxGNN (apprentissage profond) (0,9997) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques, expérimentales ou cliniques. Il doit être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,13 +75,13 @@ Aucune littérature associée n'est disponible actuellement pour cette indicatio
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68943331 | ZINDACLINE 1 %, gel | Gel | Non renseignée (AMM annulée) |
-| 60978355 | DALACINE 900 mg, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
-| 68147829 | CLINDAMYCINE KALCEKS 600 mg/4 mL | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 62286010 | DALACINE 75 mg | Gélule | Non renseignée (AMM annulée) |
-| 63185288 | CLINDAMYCINE KABI 600 mg/4 ml | Solution injectable | Non renseignée (AMM annulée) |
+| 68943331 | ZINDACLINE 1 %, gel | Gel | Non renseignée (AMM active) |
+| 60978355 | DALACINE 900 mg, solution injectable | Solution injectable | Non renseignée (AMM active) |
+| 68147829 | CLINDAMYCINE KALCEKS 600 mg/4 mL | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
+| 62286010 | DALACINE 75 mg | Gélule | Non renseignée (AMM active) |
+| 63185288 | CLINDAMYCINE KABI 600 mg/4 ml | Solution injectable | Non renseignée (AMM active) |
 
-Au total, 8 AMM sont recensées, toutes annulées ; aucune n'est actuellement valide. Seules les 5 premières sont listées ci-dessus.
+Seules les 5 premières sont listées ci-dessus.
 
 ## Considérations de Sécurité
 
@@ -96,14 +96,13 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le rationnel mécanistique est faible, car la pathologie est souvent non infectieuse. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le rationnel mécanistique est faible, car la pathologie est souvent non infectieuse. Par ailleurs, le médicament est commercialisé en France (8 AMM valides sur 8).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action, afin d'analyser le lien mécanistique.
 - Les mises en garde et contre-indications issues de la notice, qui bloquent l'étape de criblage de sécurité.
 - Des données précliniques ou cliniques de la clindamycine dans la kératoconjonctivite épithéliale ponctuée, notamment dans une composante bactérienne à staphylocoques.
 - Une évaluation de la compatibilité des voies d'administration (une formulation ophtalmique n'est pas disponible dans les AMM recensées).
-- Une clarification du statut réglementaire, puisque aucune AMM n'est valide.
 - Une analyse du risque de résistance (notamment SARM à résistance inductible à la clindamycine).
 ## Avertissement
 

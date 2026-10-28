@@ -4,17 +4,17 @@ title: Rilpivirine
 parent: Preuves modérées (L3-L4)
 nav_order: 668
 evidence_level: L4
-indication_count: 5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Rilpivirine : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Rilpivirine : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée…"
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Rilpivirine : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Simienne
+## Rilpivirine: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infection par 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'infection du macaque par le VIS ou le VIHS (virus chimérique portant la transcriptase inverse du VIH-1) est le modèle animal de référence de l'infection par le VIH. Les données précliniques (rilpivirine à action prolongée, seule ou avec le cabotégravir) sont donc pertinentes pour le VIH. En revanche, l'infection par le VIS n'est pas une indication humaine : cette prédiction conforte l'indication VIH existante plutôt qu'elle n'ouvre une nouvelle indication.
 
-Les autres prédictions du modèle appellent à la même prudence. L'« infection par le virus de l'immunodéficience féline » ne repose que sur une étude biochimique et structurale vétérinaire. Le « complexe lié au SIDA » est un ancien terme qui recoupe l'indication VIH existante. Un « trouble neurodéveloppemental avec démarche ataxique » obtient un score élevé sans aucune preuve ni lien mécanistique plausible, ce qui évoque un artefact du graphe de connaissances. Enfin, le « VIH congénital » est une question de recherche liée à la sécurité pendant la grossesse.
+Les autres prédictions du modèle appellent à la même prudence. L'« infection par le virus de l'immunodéficience féline » ne repose que sur une étude biochimique et structurale vétérinaire. Le « complexe lié au SIDA » est un ancien terme qui recoupe l'indication VIH existante. Enfin, le « VIH congénital » est une question de recherche liée à la sécurité pendant la grossesse.
 
 ---
 
@@ -89,8 +89,8 @@ Aucun essai clinique associé enregistré actuellement pour l'infection par le V
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60150638 | REKAMBYS 900 mg, suspension injectable à libération prolongée (AMM annulée) | Suspension injectable à libération prolongée | Non renseignée |
-| 63578537 | EVIPLERA 200 mg/25 mg/245 mg, comprimé pelliculé (AMM annulée) | Comprimé pelliculé | Non renseignée |
+| 60150638 | REKAMBYS 900 mg, suspension injectable à libération prolongée (AMM active) | Suspension injectable à libération prolongée | Non renseignée |
+| 63578537 | EVIPLERA 200 mg/25 mg/245 mg, comprimé pelliculé (AMM active) | Comprimé pelliculé | Non renseignée |
 
 ---
 

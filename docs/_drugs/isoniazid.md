@@ -6,9 +6,9 @@ nav_order: 416
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Isoniazid : nouvelle indication prédite, Conjonctivite (niveau de preuve L5). Indication d'origine : Tuberculose pulmonaire"
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
+description: "Isoniazid : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Isoniazid
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Isoniazide : De la tuberculose pulmonaire à la conjonctivite
+## Isoniazid: Conjonctivite (conjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tuberculose pulmonaire (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Conjonctivite |
-| Score de Prédiction TxGNN | 99,36 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Conjonctivite (conjunctivitis) |
+| Score de Prédiction TxGNN | 0.9936 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Ce mécanisme n'a pas de lien établi avec les causes usuelles de la conjonctivite (virales, bactériennes, allergiques). Un lien avec la tuberculose est concevable, par exemple la kératoconjonctivite phlycténulaire, une réaction d'hypersensibilité aux antigènes mycobactériens, mais il reste spéculatif et n'est étayé par aucune donnée disponible.
 
-La prédiction repose donc uniquement sur le score élevé de TxGNN (99,36 %), dont le raisonnement n'est pas interprétable ici. Il n'existe à ce stade aucun mécanisme plausible et documenté pour un repositionnement, par voie topique ou systémique, de l'isoniazide dans la conjonctivite.
+La prédiction repose donc uniquement sur le score élevé de TxGNN (0,9936), dont le raisonnement n'est pas interprétable ici. Il n'existe à ce stade aucun mécanisme plausible et documenté pour un repositionnement, par voie topique ou systémique, de l'isoniazide dans la conjonctivite.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,11 +76,11 @@ Les cinq AMM recensées sont annulées. Le texte d'indication approuvée n'est p
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63644987 | RIMIFON 50 mg, comprimé | Comprimé | Annulée |
-| 69515643 | RIMIFON 500 mg/5 ml | Solution injectable ou pour perfusion | Annulée |
-| 69568222 | RIMIFON 150 mg, comprimé | Comprimé | Annulée |
-| 63898512 | RIFINAH 300 mg/150 mg | Comprimé enrobé | Annulée |
-| 64208131 | RIFATER | Comprimé enrobé | Annulée |
+| 63644987 | RIMIFON 50 mg, comprimé | Comprimé | Active |
+| 69515643 | RIMIFON 500 mg/5 ml | Solution injectable ou pour perfusion | Active |
+| 69568222 | RIMIFON 150 mg, comprimé | Comprimé | Active |
+| 63898512 | RIFINAH 300 mg/150 mg | Comprimé enrobé | Active |
+| 64208131 | RIFATER | Comprimé enrobé | Active |
 
 ## Considérations de Sécurité
 
@@ -94,7 +94,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans mécanisme plausible. De plus, toutes les AMM françaises sont annulées et les données de sécurité officielles manquent, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans mécanisme plausible. De plus, le médicament est commercialisé en France (5 AMM valides sur 5), mais les données de sécurité officielles manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser les mises en garde et contre-indications de la notice officielle (site de l'ANSM), car il s'agit d'un point bloquant.

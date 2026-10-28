@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ostéoporose mé
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM |
 | Nouvelle Indication Prédite | Ostéoporose médicamenteuse (drug-induced osteoporosis) |
-| Score de Prédiction TxGNN | 99,95 % |
+| Score de Prédiction TxGNN | 0,9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ostéoporose mé
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le ginseng est une plante médicinale dont les principaux constituants actifs sont les ginsénosides. Aucune indication d'origine n'est documentée dans l'AMM française, ce qui empêche d'établir un lien direct entre l'usage initial et la nouvelle indication.
 
-Des travaux précliniques évoquent une influence des ginsénosides sur le métabolisme osseux. Cette piste reste une hypothèse : les données compilées pour ce rapport ne contiennent aucune étude qui la confirme pour l'ostéoporose médicamenteuse. La prédiction repose donc uniquement sur la proximité du médicament et de la maladie dans le graphe de connaissances du modèle.
+Des travaux précliniques évoquent une influence des ginsénosides sur le métabolisme osseux. Cette piste reste une hypothèse : les données compilées pour ce rapport ne contiennent aucune étude qui la confirme pour l'ostéoporose médicamenteuse. Le score de 0.9995 provient du modèle TxGNN (deep learning) et peut refléter des similarités que le modèle a apprises entre maladies voisines, et non une preuve biologique.
 
 Le produit commercialisé en France est une préparation homéopathique fortement diluée. La transposition de données obtenues avec des extraits de ginseng ou des ginsénosides à cette préparation est donc très incertaine.
 
@@ -85,7 +85,7 @@ Aucune littérature associée disponible actuellement.
 |---------|------|------|-----------|
 | 62760800 | GINSENG BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH (BOIRON) | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
 
-Cette AMM est annulée. Il n'existe aucune AMM en vigueur pour ce médicament en France.
+Ce médicament est commercialisé en France : 1 AMM valide sur 1.
 
 ---
 

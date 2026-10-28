@@ -4,17 +4,17 @@ title: Ranibizumab
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 651
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ranibizumab : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (niveau de preuve L5). Indication d'origine : Rétinopathie diabétique"
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab : nouvelle indication prédite, Immature cataract (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ranibizumab : De la rétinopathie diabétique à la rétinopathie diabétique non proliférante sévère
+## Ranibizumab: Immature cataract
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le ranibizumab est un fragment d'anticorps anti-VEGF, initialement utilisé pour traiter des maladies vasculaires de la rétine (rétinopathie diabétique, œdème maculaire diabétique, dégénérescence maculaire).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie diabétique non proliférante sévère**,
 avec **19 publications** soutenant actuellement cette direction, mais **aucun essai clinique enregistré** dans les données compilées pour cette indication.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rétinopathie diabétique (selon le graphe de connaissances ; texte d'indication de l'AMM non renseigné) |
-| Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L1 (à confirmer, voir ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Immature cataract |
+| Score de Prédiction TxGNN | 0.9999 |
+| Niveau de Preuve | L5 (à confirmer, voir ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,13 +84,13 @@ Aucun essai clinique associé enregistré actuellement pour cette indication.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68654266 | BYOOVIZ 10 mg/mL | Solution injectable | Non renseignée (AMM annulée) |
-| 64339586 | LUCENTIS 10 mg/ml, seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 68594506 | RANIVISIO 10 mg/mL, seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 64389258 | RANIVISIO 10 mg/mL | Solution injectable | Non renseignée (AMM annulée) |
-| 67026689 | XIMLUCI 10 mg/mL | Solution injectable | Non renseignée (AMM annulée) |
+| 68654266 | BYOOVIZ 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
+| 64339586 | LUCENTIS 10 mg/ml, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 68594506 | RANIVISIO 10 mg/mL, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 64389258 | RANIVISIO 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
+| 67026689 | XIMLUCI 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
 
-Une sixième AMM annulée existe (RIMMYRAH 10 mg/ml, solution injectable, n° 61190863). Aucune AMM n'est actuellement valide.
+Une sixième AMM annulée existe (RIMMYRAH 10 mg/ml, solution injectable, n° 61190863).
 
 ## Considérations de Sécurité
 
@@ -104,7 +103,7 @@ Pour le reste, veuillez consulter la notice pour les informations de sécurité.
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Le lien mécanistique est direct (anti-VEGF dans une rétinopathie VEGF-dépendante) et la littérature inclut des analyses d'essais de phase 3 (RIDE/RISE) et un ECR dans la RD non proliférante. Toutefois, aucun essai enregistré n'est fourni, le niveau L1 n'a pas été vérifié sur les résumés, et toutes les AMM françaises sont annulées.
+- Le lien mécanistique est direct (anti-VEGF dans une rétinopathie VEGF-dépendante) et la littérature inclut des analyses d'essais de phase 3 (RIDE/RISE) et un ECR dans la RD non proliférante.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Confirmer directement la conception, la phase et les résultats des essais (RIDE/RISE, PAVILION)
@@ -114,7 +113,7 @@ Pour le reste, veuillez consulter la notice pour les informations de sécurité.
 
 ## Autres indications prédites (non retenues)
 
-Les autres prédictions (cataractes de divers types, maladie hémorragique du nouveau-né) présentent des scores TxGNN élevés (jusqu'à 99,99 %) mais **aucune plausibilité biologique** : preuves indirectes ou absentes, probablement dues à la proximité dans le graphe de connaissances. Décision : **Hold**. À noter, un cas de syndrome de blocage capsulaire après injection de ranibizumab a été rapporté (effet indésirable, pas un bénéfice thérapeutique).
+Décision : **Hold**. À noter, un cas de syndrome de blocage capsulaire après injection de ranibizumab a été rapporté (effet indésirable, pas un bénéfice thérapeutique).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

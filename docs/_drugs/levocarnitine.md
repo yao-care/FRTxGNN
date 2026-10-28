@@ -6,9 +6,9 @@ nav_order: 448
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Levocarnitine : nouvelle indication prédite, Syndrome familial autosomique dominant d'hématurie… (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "levocarnitine"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
+description: "Levocarnitine : nouvelle indication prédite, Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dan…"
 ---
 
 # Levocarnitine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Lévocarnitine : De l'indication originale non documentée à l'insuffisance cardiaque congestive
+## Levocarnitine: Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,20 +47,20 @@ Le premier résultat du classement TxGNN (syndrome familial autosomique dominant
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Predite (rang 1 TxGNN) | Syndrome familial autosomique dominant d'hématurie, tortuosité artériolaire rétinienne et contractures |
-| Score de Prédiction TxGNN (rang 1) | 99,94 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite (rang 1 TxGNN) | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
+| Score de Prédiction TxGNN (rang 1) | 0.9994 |
 | Niveau de Preuve (rang 1) | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée (rang 1) | Hold |
-| Indication la mieux étayée | Insuffisance cardiaque congestive (score 99,47 %, niveau L2, « Research Question ») |
+| Indication la mieux étayée | Syndrome d'hématurie familiale autosomique dominante-tortuosité artériolaire rétinienne-contractures |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales et la littérature compilée, la lévocarnitine est nécessaire au transport des acides gras à chaîne longue dans les mitochondries pour la bêta-oxydation. Son efficacité dans l'indication originale n'a pas pu être vérifiée, faute d'indication dans les données d'AMM.
 
-**Rang 1 (hématurie familiale, tortuosité artériolaire rétinienne, contractures)** : il s'agit d'une maladie vasculaire rare liée à COL4A1, touchant la membrane basale. Aucun lien plausible avec le métabolisme de la carnitine n'est établi par les données fournies. Le score élevé reflète uniquement une prédiction par graphe de connaissances.
+**Rang 1 (hématurie familiale, tortuosité artériolaire rétinienne, contractures)** : il s'agit d'une maladie vasculaire rare liée à COL4A1, touchant la membrane basale. Aucun lien plausible avec le métabolisme de la carnitine n'est établi par les données fournies. Le score élevé reflète uniquement une prédiction du modèle TxGNN (apprentissage profond).
 
 **Insuffisance cardiaque congestive** : le myocarde dépend fortement de l'oxydation des acides gras, et une déplétion myocardique en carnitine est décrite dans l'insuffisance cardiaque. Une supplémentation pourrait améliorer le métabolisme énergétique du myocarde. C'est l'hypothèse la plus cohérente sur le plan mécanistique parmi les prédictions listées.
 

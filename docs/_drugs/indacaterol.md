@@ -6,9 +6,9 @@ nav_order: 396
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Indacaterol : nouvelle indication prédite, Maladie bronchique (bronchial disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "indacaterol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
+description: "Indacaterol : nouvelle indication prédite, Nephrogenic syndrome of inappropriate antidiuresis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Indacaterol
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Indacaterol : Des Maladies Respiratoires Obstructives à la Maladie Bronchique
+## Indacaterol: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **maladie bro
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données compilées |
-| Nouvelle Indication Prédite | Maladie bronchique (bronchial disease) |
-| Score de Prédiction TxGNN | 99,18 % |
-| Niveau de Preuve | L1 (selon les règles du système ; à interpréter avec prudence, voir ci-dessous) |
-| Statut de Marché en France | Uniquement annulé |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Nephrogenic syndrome of inappropriate antidiuresis |
+| Score de Prédiction TxGNN | 0.9954 |
+| Niveau de Preuve | L5 (selon les règles du système ; à interpréter avec prudence, voir ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 Remarque : le classement a été fait sur l'indication prédite la mieux étayée (rang 7 dans la liste TxGNN). Les six premières prédictions (syndrome néphrogénique d'antidiurèse inappropriée, céphalées, céphalalgie trigémino-autonomique, paraténonite, tendinite calcifiante, hypertrichose) n'ont aucun essai ni publication (niveau L5) et aucune plausibilité mécanistique ; elles sont considérées comme des artefacts de calcul.
@@ -109,11 +109,11 @@ Les sept AMM recensées sont toutes annulées ; aucune indication approuvée n'e
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62036213 | ONBREZ BREEZHALER 300 µg | Poudre pour inhalation en gélule | Non renseignée (annulée) |
-| 67084265 | ONBREZ BREEZHALER 150 µg | Poudre pour inhalation en gélule | Non renseignée (annulée) |
-| 62553246 | ULTIBRO BREEZHALER 85 µg/43 µg | Poudre pour inhalation en gélule | Non renseignée (annulée) |
-| 67100189 | ATECTURA BREEZHALER 125 µg/260 µg | Poudre pour inhalation en gélule | Non renseignée (annulée) |
-| 64670426 | ATECTURA BREEZHALER 125 µg/127,5 µg | Poudre pour inhalation en gélule | Non renseignée (annulée) |
+| 62036213 | ONBREZ BREEZHALER 300 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
+| 67084265 | ONBREZ BREEZHALER 150 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
+| 62553246 | ULTIBRO BREEZHALER 85 µg/43 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
+| 67100189 | ATECTURA BREEZHALER 125 µg/260 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
+| 64670426 | ATECTURA BREEZHALER 125 µg/127,5 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
 
 ---
 
@@ -133,7 +133,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Les preuves cliniques pour la maladie bronchique sont abondantes, mais elles relèvent du domaine respiratoire natif de l'indacaterol et non d'un véritable repositionnement. De plus, toutes les AMM françaises sont annulées, et les données d'indication d'origine et de mécanisme sont incomplètes. Les neuf autres prédictions n'ont aucune preuve et aucune plausibilité mécanistique.
+- Les preuves cliniques pour la maladie bronchique sont abondantes, mais elles relèvent du domaine respiratoire natif de l'indacaterol et non d'un véritable repositionnement. Les neuf autres prédictions n'ont aucune preuve et aucune plausibilité mécanistique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) sur le site de l'ANSM, afin de lever le blocage du criblage de sécurité.

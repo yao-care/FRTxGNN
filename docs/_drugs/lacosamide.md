@@ -6,9 +6,9 @@ nav_order: 429
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lacosamide : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM (texte d'indication vide)"
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
+description: "Lacosamide : nouvelle indication prédite, Manic bipolar affective disorder (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lacosamide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Lacosamide : De l'épilepsie au trouble migraineux
+## Lacosamide: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -41,17 +41,17 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 Lacosamide est un antiépileptique, dont les autorisations françaises recensées sont toutes annulées.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble migraineux** (migraine disorder), avec **4 essais cliniques** et **16 publications** soutenant actuellement cette direction.
 
-> Remarque : l'indication prédite en première position par TxGNN est le trouble bipolaire maniaque (score de 99,96 %), mais les preuves disponibles sont faibles (niveau L3, études observationnelles et cas isolés). Ce rapport se concentre sur la migraine, l'indication la mieux étayée parmi les dix prédictions, avec un score de 99,87 %.
+> Remarque : l'indication prédite en première position par TxGNN est le trouble bipolaire maniaque (score de 0,9996), mais les preuves disponibles sont faibles (niveau L3, études observationnelles et cas isolés). Ce rapport se concentre sur la migraine, l'indication la mieux étayée parmi les dix prédictions, avec un score de 0,9987.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données d'AMM (texte d'indication vide) ; lacosamide est connu comme antiépileptique |
-| Nouvelle Indication Prédite | Trouble migraineux (migraine disorder) |
-| Score de Prédiction TxGNN | 99,87 % |
-| Niveau de Preuve | L1 selon l'évaluation compilée, à nuancer (voir ci-dessous) |
-| Statut de Marché en France | Uniquement annulé |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Manic bipolar affective disorder |
+| Score de Prédiction TxGNN | 0.9996 |
+| Niveau de Preuve | L5 selon l'évaluation compilée, à nuancer (voir ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -89,11 +89,11 @@ Cette plausibilité mécanistique est cohérente avec la prédiction du modèle,
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62229123 | VIMPAT 150 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60137021 | LACOSAMIDE ACCORD 10 mg/mL | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 60788509 | LACOSAMIDE ACCORD 50 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60575525 | LACOSAMIDE EG 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61150979 | LACOSAMIDE ZENTIVA 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62229123 | VIMPAT 150 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60137021 | LACOSAMIDE ACCORD 10 mg/mL | Solution pour perfusion | Non renseignée (AMM active) |
+| 60788509 | LACOSAMIDE ACCORD 50 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60575525 | LACOSAMIDE EG 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61150979 | LACOSAMIDE ZENTIVA 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 Au total, 20 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
 
@@ -111,14 +111,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La migraine est l'indication la mieux étayée, avec des essais de phase 3 et un ECR publié en 2026 contre le propranolol. Les comparaisons actives ne montrent toutefois qu'une efficacité relative, sans confirmation contre placebo ni réplication indépendante.
-- Les signaux cardiaques du graphe de connaissances et les nombreuses interactions justifient des garde-fous.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Vérification des critères de jugement principaux et des résultats de NCT05851781, NCT06243692 et NCT00440518 (l'indication exacte de ce dernier est à confirmer).
 - Essai contrôlé par placebo et réplication indépendante.
 - Récupération des mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité).
 - Données sur le mécanisme d'action issues de DrugBank.
-- Clarification du statut réglementaire : toutes les AMM françaises sont annulées.
 - Évaluation du risque cardiaque (ECG, intervalle PR) et surveillance hématologique.
 
 **Autres prédictions (pour information) :**

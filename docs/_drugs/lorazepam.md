@@ -4,17 +4,17 @@ title: Lorazepam
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 464
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lorazepam : nouvelle indication prédite, Tumeur du nerf trijumeau (niveau de preuve L5). Indication d'origine : Anxiété, état de mal épileptique, épilepsie-absence…"
 monitor_inn: "lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Lorazepam : nouvelle indication prédite, Tumeur du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Lorazépam : De l'anxiété et de l'épilepsie à la tumeur du nerf trijumeau (prédiction principale du modèle)
+## Lorazepam: Tumeur du nerf trijumeau (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Résumé en une phrase
 
 Le lorazépam est une benzodiazépine, initialement utilisée dans l'anxiété, l'état de mal épileptique et plusieurs formes d'épilepsie.
-Le modèle TxGNN prédit en rang 1 qu'il pourrait être efficace pour la **tumeur du nerf trijumeau**, mais **aucun essai clinique ni publication** ne soutient cette prédiction, qui relève très probablement d'un artefact du graphe de connaissances.
-Les prédictions les mieux documentées concernent plutôt l'**insomnie** (17 publications, dont 2 études cliniques directes sur le lorazépam) et les **crises réflexes** (par exemple les crises de lecture).
+Le modèle TxGNN (apprentissage profond) prédit en rang 1 qu'il pourrait être efficace pour la **tumeur du nerf trijumeau**, mais **aucun essai clinique ni publication** ne soutient cette prédiction, qui reflète très probablement des similarités apprises par le modèle entre maladies voisines, et non une preuve biologique.
 
 ---
 
@@ -48,12 +47,12 @@ Les prédictions les mieux documentées concernent plutôt l'**insomnie** (17 pu
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Anxiété, état de mal épileptique, épilepsie-absence, syndrome de Lennox-Gastaut (indications issues du graphe de connaissances ; texte d'indication d'AMM non disponible) |
-| Nouvelle indication prédite | Tumeur du nerf trijumeau |
-| Score de prédiction TxGNN | 99,87 % |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Tumeur du nerf trijumeau (trigeminal nerve neoplasm) |
+| Score de prédiction TxGNN | 0.9987 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision recommandée | Hold |
 
 ---
@@ -62,7 +61,7 @@ Les prédictions les mieux documentées concernent plutôt l'**insomnie** (17 pu
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le lorazépam est un modulateur allostérique positif des récepteurs GABA-A : il renforce l'inhibition neuronale, d'où ses effets anxiolytique, sédatif, hypnotique et anticonvulsivant.
 
-Pour la tumeur du nerf trijumeau, **aucun lien mécanistique plausible** n'apparaît entre cette modulation et le contrôle tumoral. Un éventuel usage ne pourrait être que symptomatique (anxiété, nausées), et non modificateur de la maladie. Le score très élevé (0,9987) semble résulter de la proximité entre nœuds dans le graphe, sans fondement biologique ou clinique.
+Pour la tumeur du nerf trijumeau, **aucun lien mécanistique plausible** n'apparaît entre cette modulation et le contrôle tumoral. Un éventuel usage ne pourrait être que symptomatique (anxiété, nausées), et non modificateur de la maladie. Le score très élevé (0,9987) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies voisines, et non une preuve biologique ou clinique.
 
 À titre de comparaison, d'autres prédictions sont mieux étayées sur le plan mécanistique :
 - **Insomnie** : l'effet sédatif-hypnotique du lorazépam est cohérent avec cette indication, et des études cliniques anciennes existent.
@@ -80,7 +79,6 @@ Aucun essai clinique associé n'est enregistré actuellement pour la tumeur du n
 
 Aucune littérature associée n'est disponible actuellement pour la tumeur du nerf trijumeau.
 
-À titre d'information, voici les publications les plus pertinentes pour la deuxième indication prédite, l'**insomnie** (score TxGNN de 99,80 %, niveau de preuve L3, recommandation « Question de recherche ») :
 
 | PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
@@ -98,13 +96,13 @@ Les autres publications retrouvées pour l'insomnie sont indirectes (prescriptio
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 67917629 | TEMESTA 1 mg, comprimé sécable (annulée) | Comprimé sécable | Non renseignée |
-| 62505828 | LORAZEPAM VIATRIS 1 mg (annulée) | Comprimé pelliculé sécable | Non renseignée |
-| 67177709 | TEMESTA 2,5 mg, comprimé sécable (annulée) | Comprimé sécable | Non renseignée |
-| 66720276 | LORAZEPAM XILMAC 4 mg/mL (annulée) | Solution injectable | Non renseignée |
-| 63159891 | LORAZEPAM VIATRIS 2,5 mg (annulée) | Comprimé pelliculé sécable | Non renseignée |
+| 67917629 | TEMESTA 1 mg, comprimé sécable (active) | Comprimé sécable | Non renseignée |
+| 62505828 | LORAZEPAM VIATRIS 1 mg (active) | Comprimé pelliculé sécable | Non renseignée |
+| 67177709 | TEMESTA 2,5 mg, comprimé sécable (active) | Comprimé sécable | Non renseignée |
+| 66720276 | LORAZEPAM XILMAC 4 mg/mL (active) | Solution injectable | Non renseignée |
+| 63159891 | LORAZEPAM VIATRIS 2,5 mg (active) | Comprimé pelliculé sécable | Non renseignée |
 
-Les 5 AMM sont annulées : aucune AMM valide n'est recensée dans les données compilées.
+Les 5 AMM sur 5 sont valides : le médicament est commercialisé.
 
 ---
 
@@ -124,7 +122,6 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 
 **Justification :**
 - Pour la tumeur du nerf trijumeau, la prédiction repose uniquement sur le modèle (L5), sans essai, sans publication et sans lien mécanistique crédible. Le statut de marché (AMM toutes annulées) complique en outre toute voie de repositionnement.
-- L'insomnie (L3) et certaines épilepsies réflexes (par exemple les crises de lecture, L4) sont des pistes plus plausibles, mais à traiter comme des questions de recherche, non comme des candidats prêts à avancer.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), une lacune bloquante pour le criblage de sécurité

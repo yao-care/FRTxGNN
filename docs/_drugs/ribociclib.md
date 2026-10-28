@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ribociclib
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 664
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ribociclib : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L5). Indication d'origine : Non disponible dans les données d'AMM (texte d'indication vide)"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 # Ribociclib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **4** 
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myél
 |------|------|
 | Indication Originale | Non disponible dans les données d'AMM (texte d'indication vide) |
 | Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,35 % |
+| Score de Prédiction TxGNN | 0,9935 |
 | Niveau de Preuve | L4 (études précliniques uniquement) |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -76,7 +76,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68343525 | KISQALI 200 mg, comprimé pelliculé (NOVARTIS EUROPHARM, Irlande) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68343525 | KISQALI 200 mg, comprimé pelliculé (NOVARTIS EUROPHARM, Irlande) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -115,7 +115,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ### Note sur les autres prédictions
 
-Les autres indications prédites (thrombopénie, macrothrombopénie avec insuffisance mitrale, thrombopénie héréditaire à plaquettes normales) ne sont **pas recommandées** (Hold, niveau L5). La littérature décrit la thrombopénie comme un **effet indésirable** du ribociclib, et non comme un effet thérapeutique. Ces scores élevés reflètent probablement une association dans le graphe de connaissances (lien d'effet secondaire) et non un signal thérapeutique. Utiliser un médicament myélosuppresseur pour traiter un trouble plaquettaire serait mécanistiquement inapproprié.
+Les autres indications prédites (thrombopénie, macrothrombopénie avec insuffisance mitrale, thrombopénie héréditaire à plaquettes normales) ne sont **pas recommandées** (Hold, niveau L5). La littérature décrit la thrombopénie comme un **effet indésirable** du ribociclib, et non comme un effet thérapeutique. Ces scores élevés proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique. Utiliser un médicament myélosuppresseur pour traiter un trouble plaquettaire serait mécanistiquement inapproprié.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

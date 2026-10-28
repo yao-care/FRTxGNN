@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine**, mai
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées |
 | Nouvelle Indication Prédite | Migraine |
-| Score de Prédiction TxGNN | 99,02 % |
+| Score de Prédiction TxGNN | 0,9902 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine**, mai
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'apixaban est un inhibiteur direct du facteur Xa de la coagulation, utilisé comme anticoagulant. Son indication d'origine n'est pas renseignée dans les AMM listées.
 
-Le score TxGNN est très élevé (0,99), mais il provient d'une prédiction fondée sur un graphe de connaissances. Aucune voie biologique reliant l'apixaban à la migraine n'est établie. Une hypothèse théorique relierait la migraine avec aura au foramen ovale perméable (FOP), aux micro-emboles paradoxaux ou à un état prothrombotique (par exemple en présence d'anticorps antiphospholipides), où une anticoagulation pourrait réduire les déclencheurs micro-emboliques.
+Le score TxGNN est très élevé (0,9902), mais il provient d'une prédiction du modèle TxGNN (apprentissage profond). Aucune voie biologique reliant l'apixaban à la migraine n'est établie. Une hypothèse théorique relierait la migraine avec aura au foramen ovale perméable (FOP), aux micro-emboles paradoxaux ou à un état prothrombotique (par exemple en présence d'anticorps antiphospholipides), où une anticoagulation pourrait réduire les déclencheurs micro-emboliques.
 
 Les observations disponibles sont toutefois contradictoires. Un cas rapporte une migraine avec aura aggravée après l'instauration de l'apixaban. Un autre décrit une rémission sous warfarine, mais pas sous apixaban. Cela ne plaide pas pour un bénéfice de classe des anticoagulants et suggère que l'apixaban pourrait être inefficace, voire délétère, dans la migraine.
 
@@ -89,11 +89,11 @@ Les observations disponibles sont toutefois contradictoires. Un cas rapporte une
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62111096 | ELIQUIS 0,15 mg, granulés en gélule à ouvrir | Granulés en gélule | Non renseignée (AMM annulée) |
-| 61902218 | ELIQUIS 5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69340279 | ELIQUIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63078845 | ELIQUIS 0,5 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM annulée) |
-| 61425336 | ELIQUIS 2 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM annulée) |
+| 62111096 | ELIQUIS 0,15 mg, granulés en gélule à ouvrir | Granulés en gélule | Non renseignée (AMM active) |
+| 61902218 | ELIQUIS 5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69340279 | ELIQUIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63078845 | ELIQUIS 0,5 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
+| 61425336 | ELIQUIS 2 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
 
 Une sixième AMM (ELIQUIS 1,5 mg, granulés enrobés en sachet, n° 69815128) est également annulée. Les six AMM sont détenues par BRISTOL-MYERS SQUIBB / PFIZER EEIG (Irlande).
 
@@ -119,7 +119,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 **Justification :**
 - La prédiction repose sur un score de modèle élevé, mais les preuves réelles sont très faibles (L4) : un seul essai indirect et des cas cliniques contradictoires, dont deux suggèrent une absence de bénéfice, voire une aggravation, sous apixaban.
-- Les données de sécurité de l'étiquetage sont absentes et toutes les AMM françaises sont annulées, ce qui limite le contexte de repositionnement.
+- Les données de sécurité de l'étiquetage sont absentes ; 6 AMM françaises sur 6 sont valides et le médicament est commercialisé, ce qui précise le contexte de repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications), bloquant pour le criblage de sécurité

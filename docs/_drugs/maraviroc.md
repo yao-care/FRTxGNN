@@ -6,9 +6,9 @@ nav_order: 474
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Maraviroc : nouvelle indication prédite, Néoplasie endocrinienne multiple (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "MARAVIROC"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
+description: "Maraviroc : nouvelle indication prédite, Néoplasie endocrinienne multiple (multiple endocrine neoplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Maraviroc
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Maraviroc : De l'infection par le VIH à l'Néoplasie Endocrinienne Multiple
+## Maraviroc: Néoplasie endocrinienne multiple (multiple endocrine neoplasia)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endo
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM compilées |
-| Nouvelle Indication Predite | Néoplasie endocrinienne multiple |
-| Score de Prediction TxGNN | 99,82 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Néoplasie endocrinienne multiple (multiple endocrine neoplasia) |
+| Score de Prediction TxGNN | 0.9982 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Toutes les AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 7 (dont 7 annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Decision Recommandee | Hold |
 
 ---
@@ -61,21 +61,21 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endo
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, maraviroc est un antagoniste du récepteur de chimiokines CCR5. Son indication originale n'est pas renseignée dans les données compilées.
 
-Aucun lien mécanistique n'est étayé par les données fournies entre le blocage de CCR5 et les syndromes de néoplasie endocrinienne multiple. Le score élevé de TxGNN (0,998) correspond uniquement à une prédiction computationnelle.
+Aucun lien mécanistique n'est étayé par les données fournies entre le blocage de CCR5 et les syndromes de néoplasie endocrinienne multiple. Le score élevé de TxGNN (0,9982) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies voisines, non une preuve biologique.
 
 À titre d'information, les autres candidats prédits sont présentés ci-dessous. Tous restent au niveau L5 et en décision Hold :
 
 | Rang | Maladie prédite | Score TxGNN | Remarque |
 |------|------|------|------|
-| 2 | Acné | 99,76 % | Aucune preuve ; lien spéculatif via le recrutement de cellules inflammatoires |
-| 3 | Lymphome cutané primitif à cellules T | 99,72 % | Une seule revue sur ACKR1, un autre récepteur ; pas de preuve directe |
-| 4 | Lupus érythémateux systémique pédiatrique | 99,71 % | Aucune preuve ; lien spéculatif |
-| 5 | Lymphome cutané primitif non hodgkinien à cellules T | 99,50 % | Même famille que le rang 3, même limite |
-| 6 | Lymphome cutané primitif à cellules B | 99,38 % | Aucune preuve |
-| 7 | Candidose | 99,28 % | Revue sur les effets indésirables des antirétroviraux ; plutôt un contexte d'infection opportuniste liée au VIH |
-| 8 | Déficit en composant 4a du complément | 99,24 % | Aucune preuve ni mécanisme plausible |
-| 9 | Infection à cytomégalovirus | 99,23 % | Cohorte VIH sans démonstration d'efficacité |
-| 10 | Carcinome mammaire HER2 positif | 99,22 % | Étude préclinique plausible (axe CCL5-CCR5), la plus étayée sur le plan mécanistique |
+| 2 | Acné | 0,9976 | Aucune preuve ; lien spéculatif via le recrutement de cellules inflammatoires |
+| 3 | Lymphome cutané primitif à cellules T | 0,9972 | Une seule revue sur ACKR1, un autre récepteur ; pas de preuve directe |
+| 4 | Lupus érythémateux systémique pédiatrique | 0,9971 | Aucune preuve ; lien spéculatif |
+| 5 | Lymphome cutané primitif non hodgkinien à cellules T | 0,9950 | Même famille que le rang 3, même limite |
+| 6 | Lymphome cutané primitif à cellules B | 0,9938 | Aucune preuve |
+| 7 | Candidose | 0,9928 | Revue sur les effets indésirables des antirétroviraux ; plutôt un contexte d'infection opportuniste liée au VIH |
+| 8 | Déficit en composant 4a du complément | 0,9924 | Aucune preuve ni mécanisme plausible |
+| 9 | Infection à cytomégalovirus | 0,9923 | Cohorte VIH sans démonstration d'efficacité |
+| 10 | Carcinome mammaire HER2 positif | 0,9922 | Étude préclinique plausible (axe CCL5-CCR5), la plus étayée sur le plan mécanistique |
 
 ---
 
@@ -102,7 +102,7 @@ Pour information, des publications existent pour d'autres candidats, sans preuve
 
 ## Informations de Marche en France
 
-Toutes les AMM sont annulées ; aucune n'est actuellement valide. Les textes d'indication ne sont pas disponibles.
+Le médicament est commercialisé : 7 AMM valides sur 7. Les textes d'indication ne sont pas disponibles.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
@@ -128,7 +128,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Decision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, sans mécanisme étayé, et aucune AMM n'est actuellement valide en France.
 - Le signal préclinique CCL5-CCR5 dans le cancer du sein HER2 positif est la piste la plus plausible, mais elle relève d'une question de recherche et non d'une recommandation clinique.
 
 **Pour avancer, les elements suivants sont necessaires :**

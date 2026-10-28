@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 341
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Flurbiprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose, arthropathies"
 monitor_inn: "flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+description: "Flurbiprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseig…"
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Flurbiprofène : De la Polyarthrite Rhumatoïde à la Dysplasie Acromésomélique de type Hunter-Thompson
+## Flurbiprofen: Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, arthrose, arthropathies (d'après le graphe de connaissances, car aucun texte d'indication d'AMM n'est disponible) |
-| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Pour cette prédiction précise, **aucun lien mécanistique plausible n'a pu être établi**. La dysplasie acromésomélique de type Hunter-Thompson est une dysplasie squelettique génétique rare, liée à la voie CDMP1/GDF5. Le flurbiprofène n'a pas d'action connue sur la signalisation BMP/GDF5, et l'inhibition des COX ne corrige pas une anomalie du développement du squelette.
 
-Le score élevé du modèle reflète probablement un artefact du graphe de connaissances, dû à des annotations de phénotypes squelettiques et articulaires communes avec les indications d'origine. Il ne constitue pas une preuve d'efficacité.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, non une preuve biologique. Il ne constitue pas une preuve d'efficacité.
 
 **Note :** parmi les dix premières prédictions, la seule qui s'appuie sur de la littérature est la **spondylarthrite ankylosante** (rang 8, niveau L3). Elle correspond à une extension au sein de la même classe d'AINS, avec des essais comparatifs anciens (1974-1986) contre l'indométacine, la phénylbutazone et le naproxène, qui montrent une efficacité comparable. Elle mériterait une évaluation distincte.
 
@@ -88,11 +88,11 @@ Les sept AMM du flurbiprofène sont annulées. Les textes d'indication approuvé
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 64161831 | CEBUTID 50 mg, comprimé enrobé | Comprimé enrobé | Annulée |
-| 66565705 | OCUFEN 0,12 mg/0,4 ml, collyre en récipient unidose | Collyre | Annulée |
-| 61032482 | ANTADYS 100 mg, comprimé pelliculé | Comprimé pelliculé | Annulée |
-| 65407780 | STREFEN 8,75 mg, pastille | Pastille | Annulée |
-| 67184116 | CEBUTID 100 mg, comprimé enrobé | Comprimé enrobé | Annulée |
+| 64161831 | CEBUTID 50 mg, comprimé enrobé | Comprimé enrobé | Active |
+| 66565705 | OCUFEN 0,12 mg/0,4 ml, collyre en récipient unidose | Collyre | Active |
+| 61032482 | ANTADYS 100 mg, comprimé pelliculé | Comprimé pelliculé | Active |
+| 65407780 | STREFEN 8,75 mg, pastille | Pastille | Active |
+| 67184116 | CEBUTID 100 mg, comprimé enrobé | Comprimé enrobé | Active |
 
 Deux autres AMM annulées ne figurent pas dans ce tableau : STREFEN 8,75 mg orange sans sucre (pastille) et CEBUTID LP 200 mg (gélule à libération prolongée).
 
@@ -112,7 +112,7 @@ Les mises en garde du texte officiel de la notice n'étant pas disponibles, veui
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme plausible. Le score élevé semble être un artefact du graphe de connaissances.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme plausible. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises entre maladies apparentées, non une preuve biologique.
 - Les AMM françaises sont toutes annulées, et le profil de risque des AINS (digestif, rénal, cardiovasculaire) n'est pas justifié par un bénéfice attendu.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

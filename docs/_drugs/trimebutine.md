@@ -49,9 +49,9 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **migraine**, avec
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,64 % |
+| Score de Prédiction TxGNN | 0,9964 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Toutes les AMM sont abrogées/annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 17) |
 | Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
 
@@ -109,7 +109,7 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 
 **Justification :**
 - Les preuves se limitent à un seul essai randomisé ancien (2006) portant sur l'association avec le rizatriptan, sans essai enregistré, et l'effet antimigraineux propre de la trimébutine n'est pas établi.
-- Toutes les AMM françaises sont annulées et les données de sécurité sont absentes, ce qui empêche à ce stade un examen de sécurité.
+- Le médicament est commercialisé en France (17 AMM valides) et les données de sécurité sont absentes, ce qui empêche à ce stade un examen de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante

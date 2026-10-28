@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Flecainide
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 329
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Flecainide : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L5). Indication d'origine : Fibrillation atriale"
 monitor_inn: "flecainide"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Flecainide : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Flecainide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Flécaïnide : De la Fibrillation Atriale à l'Accident Vasculaire Cérébral
+## Flecainide: Accident vasculaire cérébral (stroke disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**accident vasculai
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Fibrillation atriale (selon le graphe de connaissances ; aucun texte d'indication n'est disponible dans les AMM) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Accident vasculaire cérébral (stroke disorder) |
-| Score de Prédiction TxGNN | 99,91 % |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L2 (plafonné : essai de Phase 3 sans résultats, critère de substitution) |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -92,7 +92,7 @@ Il faut toutefois rester prudent : la flécaïnide n'a pas démontré qu'elle pr
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées ; aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous (20 AMM au total).
+20 AMM valides sont recensées ; aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous (20 AMM au total).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -128,7 +128,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Les résultats de l'essai NCT05213104 (fin prévue en septembre 2026) et, idéalement, un essai avec un critère principal d'AVC ou d'événement cérébrovasculaire.
 - Les mises en garde et contre-indications officielles de la notice (ANSM).
 - Les données sur le mécanisme d'action (DrugBank).
-- La clarification du statut réglementaire en France (toutes les AMM sont annulées).
+- La clarification du statut réglementaire en France (médicament commercialisé, 20 AMM valides).
 - Un plan de surveillance de la sécurité cardiaque et un dépistage des cardiopathies structurelles avant toute utilisation.
 ## Avertissement
 

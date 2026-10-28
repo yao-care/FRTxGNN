@@ -6,9 +6,9 @@ nav_order: 277
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Eltrombopag : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Thrombopénie auto-immune"
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
+description: "Eltrombopag : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Eltrombopag
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Eltrombopag : De la thrombopénie auto-immune à l'infection par le VIH
+## Eltrombopag: Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Cette prédiction doit être interprétée avec prudence : elle concerne vraisem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Thrombopénie auto-immune (source : graphe de connaissances ; aucun texte d'indication AMM disponible) |
-| Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,26 % |
-| Niveau de Preuve | L1 selon le classement automatique (à relativiser, voir ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 0.9926 |
+| Niveau de Preuve | L5 selon le classement automatique (à relativiser, voir ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Dans l'infection par le VIH, la thrombopénie est une complication fréquente. Elle résulte d'une destruction plaquettaire immuno-médiée, d'une altération de la mégacaryopoïèse par effet viral direct sur les progéniteurs, et de comorbidités (atteinte hépatique liée au VHC, myélosuppression due aux traitements antiviraux). Comme le TPO-R agit sur le déficit de production quelle que soit la cause, le lien mécanistique est plausible pour la **thrombopénie associée au VIH**.
 
-Le score TxGNN très élevé (0,99) est un signal computationnel. Il ne traduit pas une activité antivirale de l'eltrombopag. Le lien mécanistique ci-dessus repose sur des connaissances générales de la classe, non sur des données de mécanisme vérifiées.
+Le score TxGNN très élevé (0,9926) est un signal computationnel. Il ne traduit pas une activité antivirale de l'eltrombopag. Le lien mécanistique ci-dessus repose sur des connaissances générales de la classe, non sur des données de mécanisme vérifiées.
 
 ---
 
@@ -89,7 +89,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune AMM valide n'est actuellement enregistrée. Aucun texte d'indication approuvée n'est disponible. Les 5 premières AMM sont listées ci-dessous.
+Les 20 AMM recensées sont valides ; le médicament est commercialisé. Aucun texte d'indication approuvée n'est disponible. Les 5 premières AMM sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -117,7 +117,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- Le niveau L1 attribué automatiquement repose sur un seul essai de Phase 3 arrêté prématurément, dont le lien avec le VIH n'est pas confirmé ; il n'existe aucune publication associée. Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes (lacune bloquante), ce qui empêche de poursuivre le criblage de sécurité.
+- Le niveau L1 attribué automatiquement repose sur un seul essai de Phase 3 arrêté prématurément, dont le lien avec le VIH n'est pas confirmé ; il n'existe aucune publication associée. Le médicament est commercialisé en France (20 AMM valides), mais les données de sécurité de la notice sont absentes (lacune bloquante), ce qui empêche de poursuivre le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).

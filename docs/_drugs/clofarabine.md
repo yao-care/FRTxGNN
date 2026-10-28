@@ -4,17 +4,17 @@ title: Clofarabine
 parent: Preuves élevées (L1-L2)
 nav_order: 183
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Clofarabine : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L1). Indication d'origine : Leucémie lymphoblastique aiguë"
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
+description: "Clofarabine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clofarabine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Clofarabine : De la leucémie lymphoblastique aiguë à la leucémie myéloïde
+## Clofarabine: Leucémie myéloïde (myeloid leukemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myél
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique aiguë (indication issue du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
+| Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -99,10 +99,10 @@ Le tableau présente les publications les plus pertinentes. Les types sont ceux 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65270506 | EVOLTRA 1 mg/ml (SANOFI, Pays-Bas) | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 61229953 | CLOFARABINE VIATRIS 1 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 68439477 | CLOFARABINE TILLOMED 1 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 63053030 | CLOFARABINE ACCORD 1 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 65270506 | EVOLTRA 1 mg/ml (SANOFI, Pays-Bas) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 61229953 | CLOFARABINE VIATRIS 1 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 68439477 | CLOFARABINE TILLOMED 1 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 63053030 | CLOFARABINE ACCORD 1 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -128,7 +128,7 @@ Les mises en garde et contre-indications officielles de la notice de l'ANSM n'on
 
 **Justification :**
 - Deux essais de Phase 3 terminés (NCT02085408 et NCT00317642) et de nombreux essais de Phase 2 soutiennent l'usage dans la leucémie myéloïde, avec un mécanisme cohérent avec l'indication d'origine.
-- Les garde-fous s'imposent : toxicité hématologique, hépatique et rénale marquée, et toutes les AMM françaises sont annulées, ce qui limite l'accès commercial.
+- Les garde-fous s'imposent : toxicité hématologique, hépatique et rénale marquée ; le médicament est commercialisé en France, avec 4 AMM valides sur 4.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats publiés des deux essais de Phase 3 (efficacité, survie globale, tolérance), non détaillés dans les données compilées
@@ -141,11 +141,9 @@ Les mises en garde et contre-indications officielles de la notice de l'ANSM n'on
 
 | Indication | Score TxGNN | Niveau de Preuve | Décision |
 |------|------|------|------|
-| Lymphome/leucémie lymphoblastique à précurseurs | 99,57 % | L2 | Proceed with Guardrails (surtout une reconfirmation de l'usage d'origine) |
-| Phase blastique de la leucémie myéloïde chronique BCR-ABL1 positive | 99,43 % | L2 | Question de recherche |
-| Leucémie lymphoblastique aiguë | 99,31 % | L2 | Proceed with Guardrails (indication d'origine) |
-| Neuroblastome | 99,52 % | L4 | Hold |
-| Ganglioneuroblastome ; syndrome malformatif vertébral avec dysfonction endocrinienne et des lymphocytes T ; néoplasme rétropéritonéal ; deux formes de LLC/lymphome lymphocytique | 99,26 % à 99,53 % | L5 | Hold (prédiction du modèle uniquement) |
+| Phase blastique de la leucémie myéloïde chronique BCR-ABL1 positive | 0,9943 | L5 | Question de recherche |
+| Neuroblastome | 0,9952 | L4 | Hold |
+| Ganglioneuroblastome ; syndrome malformatif vertébral avec dysfonction endocrinienne et des lymphocytes T ; néoplasme rétropéritonéal ; deux formes de LLC/lymphome lymphocytique | 0,9926 à 0,9953 | L5 | Hold (prédiction du modèle uniquement) |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

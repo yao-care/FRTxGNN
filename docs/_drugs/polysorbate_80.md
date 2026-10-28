@@ -6,9 +6,9 @@ nav_order: 616
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Polysorbate 80 : nouvelle indication prédite, Érythrodermie ichtyosiforme congénitale (niveau de preuve L5). Indication d'origine : Syndrome de l'œil sec / xérophtalmie"
 monitor_inn: "POLYSORBATE 80"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Polysorbate 80 : nouvelle indication prédite, Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les don…"
 ---
 
 # Polysorbate 80
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Polysorbate 80 : Du Syndrome de l'Œil Sec à l'Érythrodermie Ichtyosiforme Congénitale
+## Polysorbate 80: Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,21 +46,21 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome de l'œil sec / xérophtalmie (d'après le graphe de connaissances TxGNN ; aucun texte d'indication renseigné dans l'AMM française) |
-| Nouvelle Indication Prédite | Érythrodermie ichtyosiforme congénitale |
-| Score de Prédiction TxGNN | 99,43 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) |
+| Score de Prédiction TxGNN | 0.9943 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le polysorbate 80 est un tensioactif non ionique et un émulsifiant, utilisé notamment comme excipient. Son association avec l'œil sec provient du graphe de connaissances, et non d'un texte réglementaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le polysorbate 80 est un tensioactif non ionique et un émulsifiant, utilisé notamment comme excipient. Son association avec l'œil sec provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Un lien mécanistique est envisageable de façon spéculative : l'amélioration du mouillage, de l'émulsification ou de la solubilisation des lipides à la surface cutanée. L'érythrodermie ichtyosiforme congénitale se caractérise par une altération de la barrière épidermique et un métabolisme lipidique anormal. Ce rapprochement reste toutefois hypothétique et ne repose sur aucune donnée dans les informations compilées pour ce rapport.
 
-Le score élevé (99,43 %) est une prédiction informatique et ne remplace pas une preuve clinique ou mécanistique.
+Le score élevé (0,9943) est une prédiction informatique et ne remplace pas une preuve clinique ou mécanistique.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63520562 | PRORHINEL RHUME, solution nasale (HALEON FRANCE) | Solution | Non renseignée (AMM annulée) |
+| 63520562 | PRORHINEL RHUME, solution nasale (HALEON FRANCE) | Solution | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

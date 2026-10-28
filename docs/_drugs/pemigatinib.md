@@ -4,17 +4,17 @@ title: Pemigatinib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 586
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pemigatinib : nouvelle indication prédite, Néoplasie endocrinienne multiple (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "pemigatinib"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Pemigatinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ Aucun essai clinique et aucune publication ne soutiennent cette direction (**0 e
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM disponibles |
 | Nouvelle Indication Prédite | Néoplasie endocrinienne multiple |
-| Score de Prédiction TxGNN | 99,71 % |
+| Score de Prédiction TxGNN | 0,9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. D'après les informations connues, le pémigatinib est un inhibiteur sélectif des récepteurs FGFR1, FGFR2 et FGFR3, une classe de thérapies ciblées en oncologie.
 
-Les syndromes de néoplasie endocrinienne multiple (NEM) sont principalement liés à des altérations de *MEN1* et de *RET*. Aucun mécanisme dépendant de FGFR n'est établi pour ces syndromes. Le score élevé du modèle (99,71 %) reflète donc probablement un artefact de proximité dans le graphe de connaissances plutôt qu'un lien biologique démontré.
+Les syndromes de néoplasie endocrinienne multiple (NEM) sont principalement liés à des altérations de *MEN1* et de *RET*. Aucun mécanisme dépendant de FGFR n'est établi pour ces syndromes. Le score élevé (0,9971) provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 La prédiction doit être considérée comme une simple hypothèse, sans soutien mécanistique ni clinique à ce stade.
 
@@ -74,9 +74,9 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67695203 | PEMAZYRE 13,5 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 66412702 | PEMAZYRE 4,5 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 61156252 | PEMAZYRE 9 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 67695203 | PEMAZYRE 13,5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 66412702 | PEMAZYRE 4,5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 61156252 | PEMAZYRE 9 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
 Les trois AMM sont détenues par Incyte Biosciences Distribution (Pays-Bas).
 
@@ -106,15 +106,15 @@ Les autres indications prédites présentent toutes un niveau de preuve L5 et un
 
 | Rang | Indication prédite | Score TxGNN | Commentaire |
 |------|------|------|------|
-| 2 | Aménorrhée | 99,54 % | Symptôme multifactoriel, aucun mécanisme plausible |
-| 3 | Carcinome du sein HER2 positif | 99,49 % | Rationnel biologique faible (FGFR et résistance aux thérapies anti-HER2) ; une seule revue générale sur les inhibiteurs de kinases (PMID 33513356, 2021), non spécifique |
-| 4 | Infection à cytomégalovirus | 99,46 % | Aucun lien connu |
-| 5 | Rhinotrachéite infectieuse bovine | 99,43 % | Maladie vétérinaire |
-| 6 | Catarrhe malin | 99,43 % | Maladie vétérinaire |
-| 7 | Sclérose latérale amyotrophique | 99,41 % | Rôle de FGF/FGFR incertain, effet potentiellement délétère |
-| 8 | SLA de type 22 | 99,27 % | Redondant avec la SLA |
-| 9 | SLA, susceptibilité | 99,25 % | Redondant avec la SLA |
-| 10 | Dysplasie spondylométaphysaire axiale | 99,25 % | Aucun lien FGFR établi |
+| 2 | Aménorrhée | 0,9954 | Symptôme multifactoriel, aucun mécanisme plausible |
+| 3 | Carcinome du sein HER2 positif | 0,9949 | Rationnel biologique faible (FGFR et résistance aux thérapies anti-HER2) ; une seule revue générale sur les inhibiteurs de kinases (PMID 33513356, 2021), non spécifique |
+| 4 | Infection à cytomégalovirus | 0,9946 | Aucun lien connu |
+| 5 | Rhinotrachéite infectieuse bovine | 0,9943 | Maladie vétérinaire |
+| 6 | Catarrhe malin | 0,9943 | Maladie vétérinaire |
+| 7 | Sclérose latérale amyotrophique | 0,9941 | Rôle de FGF/FGFR incertain, effet potentiellement délétère |
+| 8 | SLA de type 22 | 0,9927 | Redondant avec la SLA |
+| 9 | SLA, susceptibilité | 0,9925 | Redondant avec la SLA |
+| 10 | Dysplasie spondylométaphysaire axiale | 0,9925 | Aucun lien FGFR établi |
 
 ## Conclusion et Prochaines Étapes
 
@@ -122,7 +122,7 @@ Les autres indications prédites présentent toutes un niveau de preuve L5 et un
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans mécanisme FGFR plausible pour la néoplasie endocrinienne multiple.
-- Toutes les AMM françaises sont annulées et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité.
+- Les 3 AMM françaises sur 3 sont valides et le médicament est commercialisé, mais les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (point bloquant).

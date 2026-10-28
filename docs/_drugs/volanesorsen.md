@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anémie mégalob
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Anémie mégaloblastique |
-| Score de Prédiction TxGNN | 99,997 % |
+| Score de Prédiction TxGNN | 1,0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,9 +61,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anémie mégalob
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues, volanesorsen est un oligonucléotide antisens dirigé contre l'ARNm de l'APOC3, dont l'effet attendu est la baisse des triglycérides. Son indication d'origine n'a pas pu être extraite de l'AMM française.
 
-Aucun lien mécanistique plausible n'a été identifié avec l'anémie mégaloblastique, qui est un trouble lié à une carence en vitamine B12 ou en folates. Le score élevé de TxGNN (99,997 %) est une prédiction du modèle seule : elle n'est étayée ni par des essais ni par de la littérature.
+Aucun lien mécanistique plausible n'a été identifié avec l'anémie mégaloblastique, qui est un trouble lié à une carence en vitamine B12 ou en folates. Le score élevé de TxGNN (1,0000) est une prédiction du modèle seule : elle n'est étayée ni par des essais ni par de la littérature.
 
-Les autres prédictions du classement (cholangite sclérosante, syndromes drépanocytaires, infection à méningocoque, hémoglobinurie paroxystique nocturne) souffrent des mêmes limites : absence de justification mécanistique et de preuves. Les syndromes drépanocytaires partagent des scores identiques, ce qui suggère un signal commun issu du graphe de connaissances plutôt que des preuves indépendantes.
+Les autres prédictions du classement (cholangite sclérosante, syndromes drépanocytaires, infection à méningocoque, hémoglobinurie paroxystique nocturne) souffrent des mêmes limites : absence de justification mécanistique et de preuves. Les syndromes drépanocytaires partagent des scores identiques (0.9999), ce qui suggère un signal commun issu du modèle TxGNN (deep learning), pouvant refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques indépendantes.
 
 ---
 

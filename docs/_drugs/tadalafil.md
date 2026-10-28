@@ -6,9 +6,9 @@ nav_order: 729
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Tadalafil : nouvelle indication prédite, Hypertrichose universelle congenitale de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie benigne de la prostate"
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil : nouvelle indication prédite, Ambras type hypertrichosis universalis congenita (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tadalafil
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-## Tadalafil : De l'Hyperplasie Benigne de la Prostate a l'Hypertrichose Congenitale de type Ambras
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,11 +45,11 @@ Le modele TxGNN predit qu'il pourrait etre efficace pour l'**hypertrichose unive
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Hyperplasie benigne de la prostate (le texte des indications des AMM n'est pas renseigne ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Predite | Hypertrichose universelle congenitale de type Ambras |
-| Score de Prediction TxGNN | 99,98 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Ambras type hypertrichosis universalis congenita |
+| Score de Prediction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Toutes les AMM sont annulees |
+| Statut de Marche en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 |
 | Decision Recommandee | Hold |
 
@@ -57,7 +57,7 @@ Le modele TxGNN predit qu'il pourrait etre efficace pour l'**hypertrichose unive
 
 Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles. Sur la base des informations connues, tadalafil est un inhibiteur de la PDE5 qui augmente le GMPc et favorise la vasodilatation. Son efficacite a ete etablie dans la dysfonction erectile, l'hyperplasie benigne de la prostate et l'hypertension pulmonaire.
 
-La prediction pour le syndrome d'Ambras est en realite **peu convaincante**. Cette maladie genetique rare, liee a des remaniements du chromosome 8q affectant la regulation de TRPS1, provoque une pilosite excessive. La voie PDE5 n'a aucun role connu dans ce trouble du follicule pilleux. Le score eleve reflete probablement des associations dans le graphe de connaissances avec d'autres hypertrichoses, et non une justification biologique.
+La prediction pour le syndrome d'Ambras est en realite **peu convaincante**. Cette maladie genetique rare, liee a des remaniements du chromosome 8q affectant la regulation de TRPS1, provoque une pilosite excessive. La voie PDE5 n'a aucun role connu dans ce trouble du follicule pilleux. Le score eleve provient du modele TxGNN (apprentissage profond) et peut refleter des similarites apprises par le modele entre maladies apparentees, et non une justification biologique.
 
 Les autres predictions du modele vont dans le meme sens : l'hypertrichose (rang 2), les syndromes malformatifs avec atteinte dentaire ou parodontale, les syndromes avec malformation de Dandy-Walker, les anomalies genetiques isolees de la tige pilaire et la trichomegalie familiale n'ont aucun lien mecanistique etabli. Pour l'hypertrichose, d'autres vasodilatateurs comme le minoxidil la provoquent : tadalafil pourrait donc plutot l'induire que la traiter. Une seule piste indirecte et faible existe, la cardiopathie cyphoscoliotique (rang 7), a cause de l'hypertension pulmonaire associee. Elle reste speculative, car les inhibiteurs de la PDE5 pourraient aggraver l'appariement ventilation-perfusion dans l'hypertension pulmonaire de groupe 3.
 
@@ -81,11 +81,11 @@ Les 20 AMM recensees sont toutes annulees. Le texte des indications approuvees n
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63324624 | TADALAFIL BIOGARAN 10 mg | Comprime pelllicule | Annulee |
-| 65834394 | CIALIS 10 mg | Comprime pelllicule | Annulee |
-| 64194023 | TADALAFIL ALMUS 20 mg | Comprime pelllicule | Annulee |
-| 64615675 | TADALAFIL EG LABO 20 mg | Comprime pelllicule secable | Annulee |
-| 65869623 | TADALAFIL ALMUS 5 mg | Comprime pelllicule | Annulee |
+| 63324624 | TADALAFIL BIOGARAN 10 mg | Comprime pelllicule | Active |
+| 65834394 | CIALIS 10 mg | Comprime pelllicule | Active |
+| 64194023 | TADALAFIL ALMUS 20 mg | Comprime pelllicule | Active |
+| 64615675 | TADALAFIL EG LABO 20 mg | Comprime pelllicule secable | Active |
+| 65869623 | TADALAFIL ALMUS 5 mg | Comprime pelllicule | Active |
 
 ## Considerations de Securite
 

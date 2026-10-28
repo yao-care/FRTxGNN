@@ -49,9 +49,9 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour la **gastroparé
 |------|------|
 | Indication Originale | Non précisée dans les données compilées (les textes d'indication des AMM sont vides) |
 | Nouvelle Indication Prédite | Gastroparésie |
-| Score de Prédiction TxGNN | 99,55 % |
+| Score de Prédiction TxGNN | 0,9955 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -83,7 +83,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM ci-dessous sont annulées. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées. Cinq AMM sur 20 sont listées.
+Le médicament est commercialisé en France, avec 19 AMM valides. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées. Cinq AMM sur 20 sont listées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -108,7 +108,7 @@ Aucune donnée d'interaction médicamenteuse n'a été trouvée. Pour les mises 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni mécanisme plausible. Les données de sécurité officielles manquent, et toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni mécanisme plausible. Les données de sécurité officielles manquent, et le médicament est commercialisé en France avec 19 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
@@ -120,7 +120,7 @@ Aucune donnée d'interaction médicamenteuse n'a été trouvée. Pour les mises 
 
 ## Piste Secondaire : Cholangite Sclérosante (Question de Recherche)
 
-La deuxième indication prédite, la **cholangite sclérosante** (score 99,27 %, niveau L4), est étayée par des études précliniques indirectes. L'histidine est le substrat de l'histidine décarboxylase, qui produit l'histamine. Or l'histamine dérivée des mastocytes favorise la prolifération biliaire et la fibrose dans les modèles murins (PMID 27351144, 35799467). La suppression de l'histidine décarboxylase (PMID 32054995) ou le blocage des récepteurs H1/H2 (PMID 29601088) réduit les lésions.
+La deuxième indication prédite, la **cholangite sclérosante** (score 0,9927, niveau L4), est étayée par des études précliniques indirectes. L'histidine est le substrat de l'histidine décarboxylase, qui produit l'histamine. Or l'histamine dérivée des mastocytes favorise la prolifération biliaire et la fibrose dans les modèles murins (PMID 27351144, 35799467). La suppression de l'histidine décarboxylase (PMID 32054995) ou le blocage des récepteurs H1/H2 (PMID 29601088) réduit les lésions.
 
 L'effet attendu d'un apport en histidine est donc **incertain, voire défavorable** : les données soutiennent l'inhibition de la voie de l'histamine, non l'administration d'histidine. Aucun essai clinique n'existe. Cette piste reste une question de recherche et non une recommandation de développement.
 ## Avertissement

@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 606
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Piperacillin : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "piperacillin"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,9 +46,9 @@ La pipéracilline est une pénicilline à large spectre (acyluréido-pénicillin
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,94 % |
+| Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -56,7 +56,7 @@ La pipéracilline est une pénicilline à large spectre (acyluréido-pénicillin
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, la pipéracilline est une bêta-lactamine qui inhibe la synthèse de la paroi cellulaire bactérienne. Elle est utilisée seule ou associée au tazobactam (inhibiteur de bêta-lactamases) dans les infections bactériennes.
 
-**Il n'existe pas de lien mécanistique crédible avec la polyarthrite rhumatoïde.** La pipéracilline n'a pas d'activité anti-inflammatoire ou immunomodulatrice connue pertinente pour cette maladie auto-immune. Le score élevé du modèle (0,999) provient d'une prédiction fondée sur le graphe de connaissances, sans donnée clinique à l'appui. Les publications retrouvées décrivent des patients atteints de polyarthrite rhumatoïde ayant développé des infections ou des toxicités (par ex. pancytopénie liée au méthotrexate, infection de prothèse articulaire) : cela reflète une co-occurrence, non un bénéfice thérapeutique.
+**Il n'existe pas de lien mécanistique crédible avec la polyarthrite rhumatoïde.** La pipéracilline n'a pas d'activité anti-inflammatoire ou immunomodulatrice connue pertinente pour cette maladie auto-immune. Le score élevé du modèle (0,9994) provient d'une prédiction du modèle TxGNN (apprentissage profond), sans donnée clinique à l'appui. Les publications retrouvées décrivent des patients atteints de polyarthrite rhumatoïde ayant développé des infections ou des toxicités (par ex. pancytopénie liée au méthotrexate, infection de prothèse articulaire) : cela reflète une co-occurrence, non un bénéfice thérapeutique.
 
 Les autres indications prédites (syndromes génétiques rares, cholangite sclérosante, arthrose, néphropathie diabétique, syndrome WHIM, etc.) ne présentent pas non plus de lien mécanistique identifiable ni de preuve clinique.
 
@@ -80,15 +80,15 @@ Aucune publication ne démontre un effet thérapeutique. Les références les pl
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont **annulées** ; aucune AMM valide n'est actuellement répertoriée. Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 20) :
+Le médicament est commercialisé et **20 AMM valides** sont recensées. Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 20) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60284142 | PIPERACILLINE PANPHARMA 4 g (I.M., I.V.) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
-| 60251352 | PIPERACILLINE PANPHARMA 1 g (I.M., I.V.) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
-| 60445784 | TAZOCILLINE 4 g/0,5 g | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 67873780 | TAZOCILLINE 2 g/0,25 g | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 63012514 | PIPERACILLINE/TAZOBACTAM PANPHARMA 4 g/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 60284142 | PIPERACILLINE PANPHARMA 4 g (I.M., I.V.) | Poudre pour solution injectable | Non renseignée (AMM active) |
+| 60251352 | PIPERACILLINE PANPHARMA 1 g (I.M., I.V.) | Poudre pour solution injectable | Non renseignée (AMM active) |
+| 60445784 | TAZOCILLINE 4 g/0,5 g | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 67873780 | TAZOCILLINE 2 g/0,25 g | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+| 63012514 | PIPERACILLINE/TAZOBACTAM PANPHARMA 4 g/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -106,7 +106,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication démontrant un bénéfice, et aucun lien mécanistique plausible entre un antibiotique bêta-lactamine et la polyarthrite rhumatoïde. Toutes les AMM françaises sont par ailleurs annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication démontrant un bénéfice, et aucun lien mécanistique plausible entre un antibiotique bêta-lactamine et la polyarthrite rhumatoïde.
 
 **Pour avancer, les éléments suivants seraient nécessaires :**
 - Mécanisme d'action détaillé (DrugBank) et démonstration d'un effet immunomodulateur pertinent

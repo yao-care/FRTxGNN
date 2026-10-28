@@ -6,9 +6,9 @@ nav_order: 552
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Octreotide : nouvelle indication prédite, Kératose inverse folliculaire vulvaire (niveau de preuve L5). Indication d'origine : Acromégalie, hyperpituitarisme, syndrome carcinoïde"
 monitor_inn: "octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
+description: "Octreotide : nouvelle indication prédite, Kératose inverse folliculaire vulvaire (vulvar inverted follicular keratosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données l…"
 ---
 
 # Octreotide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Octréotide : De l'acromégalie à la kératose inverse folliculaire vulvaire
+## Octreotide: Kératose inverse folliculaire vulvaire (vulvar inverted follicular keratosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,21 +45,21 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératose inver
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acromégalie, hyperpituitarisme, syndrome carcinoïde (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Kératose inverse folliculaire vulvaire |
-| Score de Prédiction TxGNN | 99,58 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératose inverse folliculaire vulvaire (vulvar inverted follicular keratosis) |
+| Score de Prédiction TxGNN | 0.9958 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 18 (0 valide, 18 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'octréotide est un analogue de la somatostatine qui agit sur les récepteurs de la somatostatine (SSTR2/SSTR5) et freine la sécrétion de l'hormone de croissance (GH), de l'IGF-1 et d'autres hormones. Cette action explique son usage dans l'acromégalie et les tumeurs neuroendocrines sécrétantes.
 
-Aucun lien pharmacologique plausible n'est établi entre ce mécanisme et une lésion épithéliale bénigne telle que la kératose inverse folliculaire. Une influence des voies de la somatostatine ou de l'IGF-1 sur la prolifération des kératinocytes peut être évoquée, mais elle reste spéculative. Le score élevé du modèle reflète probablement une proximité dans le réseau du graphe de connaissances plutôt qu'une relation pharmacologique réelle.
+Aucun lien pharmacologique plausible n'est établi entre ce mécanisme et une lésion épithéliale bénigne telle que la kératose inverse folliculaire. Une influence des voies de la somatostatine ou de l'IGF-1 sur la prolifération des kératinocytes peut être évoquée, mais elle reste spéculative. Le score élevé vient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
-Une seconde prédiction, la **kératose séborrhéique** (score 99,55 %), présente les mêmes limites. Elle est étroitement apparentée à la kératose inverse folliculaire, et les deux prédictions ne sont vraisemblablement pas indépendantes. Cette affection étant bénigne et généralement traitée par de simples gestes locaux, le rapport bénéfice/risque d'un peptide systémique est défavorable sans données à l'appui.
+Une seconde prédiction, la **kératose séborrhéique** (score 0,9955), présente les mêmes limites. Elle est étroitement apparentée à la kératose inverse folliculaire, et les deux prédictions ne sont vraisemblablement pas indépendantes. Cette affection étant bénigne et généralement traitée par de simples gestes locaux, le rapport bénéfice/risque d'un peptide systémique est défavorable sans données à l'appui.
 
 ## Preuves d'Essais Cliniques
 
@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 18 AMM recensées sont toutes annulées ; aucune n'est valide actuellement. Cinq exemples :
+Cinq exemples :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -98,7 +98,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec une lésion cutanée bénigne.
-- Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque le dépistage de sécurité.
+- Les 18 AMM françaises sur 18 sont valides et le médicament est commercialisé, mais les données de sécurité de la notice sont absentes, ce qui bloque le dépistage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (site de l'ANSM).

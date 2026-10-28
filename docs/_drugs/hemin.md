@@ -6,9 +6,9 @@ nav_order: 376
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Hemin : nouvelle indication prédite, Purpura thrombopénique (niveau de preuve L5). Indication d'origine : Porphyrie aiguë intermittente"
 monitor_inn: "hemin"
 predicted_indications: ["thrombocytopenic purpura", "hemophilia", "C1 inhibitor deficiency", "acquired coagulation factor deficiency", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "inherited thrombophilia", "symptomatic form of hemophilia in female carriers", "hereditary von Willebrand disease", "congenital factor XI deficiency"]
+description: "Hemin : nouvelle indication prédite, Purpura thrombopénique (thrombocytopenic purpura) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Hemin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Hémine : De la porphyrie aiguë intermittente à la purpura thrombopénique
+## Hemin: Purpura thrombopénique (thrombocytopenic purpura)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **purpura throm
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Porphyrie aiguë intermittente (d'après le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Purpura thrombopénique |
-| Score de Prédiction TxGNN | 99,79 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Purpura thrombopénique (thrombocytopenic purpura) |
+| Score de Prédiction TxGNN | 0.9979 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Retiré du marché (AMM annulée uniquement) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,7 +75,7 @@ Aucune littérature associée disponible actuellement pour le purpura thrombopé
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65109937 | NORMOSANG 25 mg/ml, solution à diluer pour perfusion (RECORDATI RARE DISEASES) | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 65109937 | NORMOSANG 25 mg/ml, solution à diluer pour perfusion (RECORDATI RARE DISEASES) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

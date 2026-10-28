@@ -49,10 +49,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de
 |------|------|
 | Indication Originale | Non disponible (texte d'indication non renseigné dans l'AMM) |
 | Nouvelle Indication Prédite | Syndrome de l'intestin irritable |
-| Score de Prédiction TxGNN | 99,24 % |
+| Score de Prédiction TxGNN | 0,9924 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement AMM annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -97,7 +97,7 @@ Il faut toutefois rester prudent : les essais et publications recensés concerne
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67972497 | BAQSIMI 3 mg, poudre nasale en récipient unidose (annulée) | Poudre | Non renseignée |
+| 67972497 | BAQSIMI 3 mg, poudre nasale en récipient unidose (active) | Poudre | Non renseignée |
 
 ---
 

@@ -48,10 +48,10 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 |------|------|
 | Indication Originale | Non renseignée dans les AMM disponibles |
 | Nouvelle Indication Prédite | Hyperthermie maligne induite par l'effort |
-| Score de Prédiction TxGNN | 99,40 % |
+| Score de Prédiction TxGNN | 0,9940 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'hyperthermie maligne est un trouble de la régulation calcique du muscle squelettique (par exemple, dysfonction de RYR1), déclenché par les anesthésiques volatils ou la succinylcholine. Aucun lien mécanistique n'est étayé par les données disponibles entre l'action osmotique du sorbitol et cette physiopathologie ; toute relation resterait spéculative et nécessiterait une validation biologique indépendante.
 
-Le score élevé (0,994) peut refléter une proximité dans le réseau de connaissances ou des voisins communs dans le graphe, plutôt qu'une véritable relation thérapeutique. Il ne doit pas être interprété comme une preuve clinique.
+Le score élevé (0,9940) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il ne doit pas être interprété comme une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -78,7 +78,7 @@ Aucune littérature associée disponible actuellement.
 | 64714196 | SORBITOL H2 PHARMA 5 g, poudre pour solution buvable en sachet (H2 PHARMA) | Poudre pour solution buvable | Non renseignée |
 | 67939789 | HEPARGITOL, poudre orale en sachet bipoche (ELERTE) | Poudre et poudre | Non renseignée |
 
-Les trois AMM sont au statut « annulée » : aucune autorisation valide n'est actuellement recensée.
+Les trois AMM sont valides : 3 autorisations valides sur 3 sont actuellement recensées et le médicament est commercialisé.
 
 ## Considérations de Sécurité
 
@@ -94,7 +94,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique démontré. Par ailleurs, toutes les AMM françaises sont annulées et les données de sécurité issues de la notice font défaut.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique démontré. Par ailleurs, les 3 AMM françaises sont valides (3 sur 3), mais les données de sécurité issues de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité

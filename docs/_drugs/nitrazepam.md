@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitrazepam
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 540
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nitrazepam : nouvelle indication prédite, Trouble du sommeil (difficulté d'initier et de maintenir le sommeil) (niveau de preuve L4). Indication d'origine : Insomnie"
 monitor_inn: "nitrazepam"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
+description: "Nitrazepam : nouvelle indication prédite, Wernicke-Korsakoff syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Nitrazépam : De l'insomnie à la difficulté d'initier et de maintenir le sommeil
+## Nitrazepam: Wernicke-Korsakoff syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le nitrazépam est une benzodiazépine, initialement utilisée pour le traitement de l'insomnie (et, selon le graphe de connaissances, de l'encéphalopathie myoclonique précoce).
 Le modèle TxGNN prédit qu'il pourrait être efficace pour les **troubles du sommeil (difficulté d'initier et de maintenir le sommeil)**, mais cette indication est pratiquement identique à l'indication d'origine : il ne s'agit pas d'un véritable repositionnement.
 Aucun essai clinique n'est enregistré ; **20 publications** (essentiellement des revues) sont associées à cette direction.
 
@@ -48,12 +47,12 @@ Aucun essai clinique n'est enregistré ; **20 publications** (essentiellement de
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Insomnie ; encéphalopathie myoclonique précoce (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trouble du sommeil (difficulté d'initier et de maintenir le sommeil) |
-| Score de Prédiction TxGNN | 99,89 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Wernicke-Korsakoff syndrome |
+| Score de Prédiction TxGNN | 0.9931 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,11 +61,11 @@ Aucun essai clinique n'est enregistré ; **20 publications** (essentiellement de
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances établies, le nitrazépam fait partie de la classe des benzodiazépines : il potentialise la signalisation GABA-A, ce qui produit des effets sédatifs et hypnotiques. Ce mécanisme est cohérent avec le traitement des difficultés d'endormissement et de maintien du sommeil.
 
-Il faut toutefois être clair : la nouvelle indication prédite recouvre presque entièrement l'indication d'origine (l'insomnie). Le score TxGNN très élevé (99,89 %) reflète très probablement ce chevauchement avec l'indication déjà connue, et non une découverte thérapeutique nouvelle.
+Il faut toutefois être clair : la nouvelle indication prédite recouvre presque entièrement l'indication d'origine (l'insomnie).
 
 Les deux autres prédictions du modèle sont nettement plus fragiles :
-- **Encéphalopathie aiguë avec convulsions biphasiques et diffusion réduite tardive** (score 99,59 %) : l'activité anticonvulsivante du nitrazépam offre un lien plausible mais indirect avec le contrôle des crises. Les benzodiazépines ne sont pas établies comme modificatrices de la maladie, et aucune preuve clinique ou bibliographique n'a été retrouvée.
-- **Syndrome de Wernicke-Korsakoff** (score 99,31 %) : aucun lien mécanistique clair, la maladie étant due à une carence en thiamine. Les benzodiazépines ne servent qu'au sevrage alcoolique associé, et leurs effets sédatifs et amnésiques pourraient aggraver les troubles cognitifs.
+- Les benzodiazépines ne sont pas établies comme modificatrices de la maladie, et aucune preuve clinique ou bibliographique n'a été retrouvée.
+- **Syndrome de Wernicke-Korsakoff** (score 0,9931) : aucun lien mécanistique clair, la maladie étant due à une carence en thiamine. Les benzodiazépines ne servent qu'au sevrage alcoolique associé, et leurs effets sédatifs et amnésiques pourraient aggraver les troubles cognitifs.
 
 ---
 
@@ -99,7 +98,7 @@ Les publications les plus pertinentes pour le nitrazépam dans l'insomnie sont l
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66205536 | MOGADON 5 mg, comprimé sécable (VIATRIS MEDICAL) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 66205536 | MOGADON 5 mg, comprimé sécable (VIATRIS MEDICAL) | Comprimé sécable | Non renseignée (AMM active) |
 
 ---
 

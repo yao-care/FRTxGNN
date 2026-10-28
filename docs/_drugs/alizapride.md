@@ -8,6 +8,7 @@ nav_order: 41
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alizapride
@@ -49,8 +50,8 @@ Alizapride (DB01425) est un benzamide substitué connu comme antiémétique anta
 | Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
 | Score de Prédiction TxGNN | — |
 | Niveau de Preuve | L5 (aucune étude réelle associée) |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | **Hold** |
 
 ---

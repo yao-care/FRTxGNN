@@ -6,9 +6,9 @@ nav_order: 305
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ethosuximide : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (NSIAD) (niveau de preuve L5). Indication d'origine : Épilepsie-absence"
 monitor_inn: "ethosuximide"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Ethosuximide : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) (niveau de preuve L5). Indication d'origine : Non re…"
 ---
 
 # Ethosuximide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Ethosuximide : De l'épilepsie-absence au syndrome néphrogénique d'antidiurèse inappropriée
+## Ethosuximide: Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie-absence (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (NSIAD) |
-| Score de Prédiction TxGNN | 99,91 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le NSIAD est causé par des mutations gain de fonction du récepteur V2 de la vasopressine (AVPR2, par exemple R137C/R137L). Ces mutations entraînent une activité constitutive du récepteur et une rétention d'eau indépendante de la vasopressine. Les canaux calciques de type T sont exprimés dans le tissu rénal, mais **aucun lien mécanistique établi** n'existe avec la signalisation constitutive du récepteur V2.
 
-Le score très élevé de TxGNN (0,999) reflète probablement une proximité dans le réseau du graphe de connaissances (par exemple des associations communes avec l'hyponatrémie ou le SIADH, certains antiépileptiques étant associés à l'hyponatrémie). Il ne doit **pas** être interprété comme une preuve d'efficacité. De plus, l'hyponatrémie/SIADH a été rapportée comme effet indésirable de certains anticonvulsivants, ce qui soulève un doute sur la plausibilité de la direction de l'effet. La similarité avec l'indication originale reste à évaluer.
+Le score très élevé de TxGNN (0.9991) provient du modèle TxGNN (deep learning) et peut refléter des similarités que le modèle a apprises entre maladies apparentées, et non une preuve biologique. Il ne doit **pas** être interprété comme une preuve d'efficacité. De plus, l'hyponatrémie/SIADH a été rapportée comme effet indésirable de certains anticonvulsivants, ce qui soulève un doute sur la plausibilité de la direction de l'effet. La similarité avec l'indication originale reste à évaluer.
 
 ---
 
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68481191 | ZARONTIN 250 mg/5 ml, sirop (ESSENTIAL PHARMA (M), Malte) | Sirop | Non renseignée (AMM annulée) |
+| 68481191 | ZARONTIN 250 mg/5 ml, sirop (ESSENTIAL PHARMA (M), Malte) | Sirop | Non renseignée (AMM active) |
 
 ---
 

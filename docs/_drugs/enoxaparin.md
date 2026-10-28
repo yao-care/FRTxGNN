@@ -6,9 +6,9 @@ nav_order: 283
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Enoxaparin : nouvelle indication prédite, Thrombophilie due à un déficit en protéine C, autosomique récessif (niveau de preuve L5). Indication d'origine : Embolie pulmonaire, coagulation intravascula…"
 monitor_inn: "enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+description: "Enoxaparin : nouvelle indication prédite, Thrombophilie due à un déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency… (niveau de preuve L5). Indication d'origine : …"
 ---
 
 # Enoxaparin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Énoxaparine : De l'embolie pulmonaire à la thrombophilie par déficit en protéine C (autosomique récessif)
+## Enoxaparin: Thrombophilie due à un déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Embolie pulmonaire, coagulation intravasculaire disséminée, purpura fulminans (indications issues du graphe de connaissances, le texte des indications de l'AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Thrombophilie due à un déficit en protéine C, autosomique récessif |
-| Score de Prédiction TxGNN | 99,58 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Thrombophilie due à un déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency, autosomal recessive) |
+| Score de Prédiction TxGNN | 0.9958 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Dans le déficit sévère congénital en protéine C, la perte de l'activité anticoagulante de cette protéine entraîne une génération incontrôlée de thrombine, source de thromboses et de purpura fulminans. Un anticoagulant agissant sur la cascade de coagulation pourrait donc, en théorie, compenser en partie ce déficit.
 
-Les indications d'origine (purpura fulminans, purpura fulminans acquis, CIVD, embolie pulmonaire) partagent une physiopathologie proche : défaillance de la voie de la protéine C et thrombose microvasculaire ou veineuse. Cela explique probablement le score élevé du modèle. Ce score reste toutefois une prédiction fondée sur le graphe, sans confirmation clinique.
+Les indications d'origine (purpura fulminans, purpura fulminans acquis, CIVD, embolie pulmonaire) partagent une physiopathologie proche : défaillance de la voie de la protéine C et thrombose microvasculaire ou veineuse. Cela explique probablement le score élevé du modèle. Ce score reste toutefois une prédiction du modèle TxGNN (apprentissage profond), qui peut refléter des similarités apprises entre maladies voisines et non une preuve biologique, sans confirmation clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte des indications approuvées n'est pas renseigné. Les 5 premières AMM sont listées ci-dessous.
+Le texte des indications approuvées n'est pas renseigné. Les 5 premières AMM sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -96,7 +96,7 @@ Le risque hémorragique inhérent à un anticoagulant, ainsi que ces contre-indi
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé et une plausibilité biologique existe, mais la prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche l'étape de criblage de sécurité.
+- Le score TxGNN est très élevé et une plausibilité biologique existe, mais la prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, le médicament est commercialisé en France (20 AMM valides) mais les données de sécurité de la notice sont absentes, ce qui empêche l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant.

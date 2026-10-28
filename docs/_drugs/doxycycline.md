@@ -6,9 +6,9 @@ nav_order: 259
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Doxycycline : nouvelle indication prédite, Gingivite chronique (prédiction de rang 10) (niveau de preuve L3). Indication d'origine : Bronchite, acné, pneumonie bactérienne, charbon, gonorrhée…"
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
+description: "Doxycycline : nouvelle indication prédite, Punctate epithelial keratoconjunctivitis (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Doxycycline
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Doxycycline : Des infections bactériennes à la gingivite chronique
+## Doxycycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -42,18 +42,18 @@ La doxycycline est un antibiotique de la famille des tétracyclines, initialemen
 Le modèle TxGNN la prédit comme potentiellement efficace pour plusieurs nouvelles indications ; parmi celles-ci, la **gingivite chronique** est la mieux étayée sur le plan opérationnel, avec **19 publications** associées (pour l'essentiel sur la parodontite) et aucun essai clinique enregistré.
 Les autres prédictions (kératoconjonctivite ponctuée, otite externe, vascularite post-infectieuse, etc.) reposent sur des preuves très limitées.
 
-> Remarque : la prédiction de rang 1 de TxGNN est la kératoconjonctivite épithéliale ponctuée (score 99,94 %). Elle n'est appuyée que par un cas clinique. Ce rapport met en avant la gingivite chronique, car c'est la seule prédiction dont le niveau de preuve permet d'envisager une suite ; les autres sont présentées dans la section dédiée.
+> Remarque : la prédiction de rang 1 de TxGNN est la kératoconjonctivite épithéliale ponctuée (score 0,9994). Elle n'est appuyée que par un cas clinique. Ce rapport met en avant la gingivite chronique, car c'est la seule prédiction dont le niveau de preuve permet d'envisager une suite ; les autres sont présentées dans la section dédiée.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Bronchite, acné, pneumonie bactérienne, charbon, gonorrhée, etc. (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Predite | Gingivite chronique (prédiction de rang 10) |
-| Score de Prédiction TxGNN | 99,77 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Punctate epithelial keratoconjunctivitis |
+| Score de Prédiction TxGNN | 0.9994 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -106,21 +106,21 @@ Les types d'études ont été déduits des titres ; les résumés n'ont pas tous
 
 | Rang | Indication | Score TxGNN | Niveau de preuve | Recommandation | Commentaire |
 |------|------------|------|------|------|------|
-| 1 | Kératoconjonctivite épithéliale ponctuée | 99,94 % | L4 | Hold | Un seul cas clinique (1992) après conjonctivite à Chlamydia ; aucune preuve d'efficacité directe |
-| 2 | Otite externe | 99,90 % | L4 | Hold | Littérature surtout vétérinaire (chiens) ; une étude in vitro signale une cytotoxicité des tétracyclines sur les fibroblastes du tympan humain |
-| 3 | Vascularite post-infectieuse | 99,89 % | L4 | Hold | Cas cliniques seulement ; la doxycycline traite l'infection causale, non la vascularite |
-| 4 | Trouble post-bactérien | 99,89 % | L1 | Research Question | Essais de prophylaxie des infections bactériennes ; correspondance avec l'intitulé de la maladie incertaine |
-| 5 | Syndrome post-infectieux | 99,89 % | L2 | Research Question | Correspondance indirecte ; un essai de phase 3 non encore en recrutement |
-| 6 | Rétrécissement urétral infectieux | 99,88 % | L4 | Hold | Une seule étude rétrospective sur la brucellose |
-| 7 | Cardiomyopathie de Chagas | 99,87 % | L4 | Hold | Étude animale sans bénéfice additionnel par rapport au benznidazole seul |
-| 8 | Syndrome hémolytique et urémique lié à une infection | 99,87 % | L5 | Hold | Aucune donnée ; les antibiotiques sont en général évités dans le SHU à STEC (risque de libération accrue de toxine Shiga) |
-| 9 | Kératite d'exposition | 99,79 % | L4 | Hold | Littérature hors sujet |
+| 1 | Kératoconjonctivite épithéliale ponctuée | 0,9994 | L5 | Hold | Un seul cas clinique (1992) après conjonctivite à Chlamydia ; aucune preuve d'efficacité directe |
+| 2 | Otite externe | 0,9990 | L4 | Hold | Littérature surtout vétérinaire (chiens) ; une étude in vitro signale une cytotoxicité des tétracyclines sur les fibroblastes du tympan humain |
+| 3 | Vascularite post-infectieuse | 0,9989 | L5 | Hold | Cas cliniques seulement ; la doxycycline traite l'infection causale, non la vascularite |
+| 4 | Trouble post-bactérien | 0,9989 | L5 | Research Question | Essais de prophylaxie des infections bactériennes ; correspondance avec l'intitulé de la maladie incertaine |
+| 5 | Syndrome post-infectieux | 0,9989 | L5 | Research Question | Correspondance indirecte ; un essai de phase 3 non encore en recrutement |
+| 6 | Rétrécissement urétral infectieux | 0,9988 | L5 | Hold | Une seule étude rétrospective sur la brucellose |
+| 7 | Cardiomyopathie de Chagas | 0,9987 | L5 | Hold | Étude animale sans bénéfice additionnel par rapport au benznidazole seul |
+| 8 | Syndrome hémolytique et urémique lié à une infection | 0,9987 | L5 | Hold | Aucune donnée ; les antibiotiques sont en général évités dans le SHU à STEC (risque de libération accrue de toxine Shiga) |
+| 9 | Kératite d'exposition | 0,9979 | L5 | Hold | Littérature hors sujet |
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60650789 | VIBRAVEINEUSE, solution injectable pour voie IV et perfusion (SERB) | Solution injectable pour perfusion | Non renseignée (AMM annulée) |
+| 60650789 | VIBRAVEINEUSE, solution injectable pour voie IV et perfusion (SERB) | Solution injectable pour perfusion | Non renseignée (AMM active) |
 
 La seule AMM recensée est annulée : aucune présentation de doxycycline n'est actuellement valide dans les données compilées pour ce rapport.
 
@@ -142,7 +142,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - La gingivite chronique dispose d'un corpus de publications cliniques et de revues systématiques sur la doxycycline en parodontologie, avec un mécanisme plausible (antimicrobien et inhibition des métalloprotéinases), mais ces données concernent surtout la parodontite et aucun essai enregistré n'a été retrouvé.
-- Aucune AMM française valide n'existe actuellement pour la doxycycline dans les données compilées, ce qui complique toute mise en œuvre.
 
 **Garde-fous :** usage en complément du traitement mécanique, prise en compte de la résistance antimicrobienne, confirmation que les résultats s'appliquent à la gingivite.
 

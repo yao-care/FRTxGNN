@@ -6,9 +6,9 @@ nav_order: 252
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (niveau de preuve L5). Indication d'origine : Constipation"
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
+description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (Plummer-Vinson syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Docusate
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Docusate : De la Constipation au Syndrome de Plummer-Vinson
+## Docusate: Syndrome de Plummer-Vinson (Plummer-Vinson syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,25 +47,25 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Plu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Constipation (les données réglementaires françaises ne fournissent pas de texte d'indication ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Syndrome de Plummer-Vinson |
-| Score de Prédiction TxGNN | 99,18 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de Plummer-Vinson (Plummer-Vinson syndrome) |
+| Score de Prédiction TxGNN | 0.9918 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le docusate est un tensioactif émollient des selles ; son usage dans la constipation est établi, et il figure aussi, dans le graphe de connaissances, associé à plusieurs anémies par carence (dont la carence en fer).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le docusate est un tensioactif émollient des selles ; son usage dans la constipation est établi.
 
-Le syndrome de Plummer-Vinson associe dysphagie, membranes œsophagiennes et anémie ferriprive. Le modèle a probablement établi le lien par la proximité avec les indications d'anémie ferriprive répertoriées pour le docusate. Cette proximité provient vraisemblablement d'annotations partagées entre maladies voisines dans le graphe, et non d'une relation pharmacologique démontrée.
+Le syndrome de Plummer-Vinson associe dysphagie, membranes œsophagiennes et anémie ferriprive. Le score provient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies voisines, et non une preuve biologique.
 
 Le docusate n'a aucun effet connu sur l'absorption du fer, les membranes œsophagiennes ou la dysphagie. Le traitement de ce syndrome repose sur la supplémentation en fer et, si nécessaire, la dilatation endoscopique des membranes. La plausibilité mécanistique est donc faible : la prédiction est à considérer comme un artefact probable du modèle.
 
-Une seconde prédiction du modèle, l'anémie mégaloblastique constitutionnelle indépendante de la vitamine B12 et des folates (score de 99,15 %), présente la même limite : aucune preuve clinique ni mécanisme connu dans l'hématopoïèse ou la synthèse de l'ADN.
+Une seconde prédiction du modèle, l'anémie mégaloblastique constitutionnelle indépendante de la vitamine B12 et des folates (score de 0,9915), présente la même limite : aucune preuve clinique ni mécanisme connu dans l'hématopoïèse ou la synthèse de l'ADN.
 
 ---
 
@@ -73,7 +73,7 @@ Une seconde prédiction du modèle, l'anémie mégaloblastique constitutionnelle
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69281980 | NORGALAX, gel rectal en récipient unidose (ESSENTIAL PHARMA, Malte) | Gel (voie rectale/topique) | Non renseignée — AMM annulée |
+| 69281980 | NORGALAX, gel rectal en récipient unidose (ESSENTIAL PHARMA, Malte) | Gel (voie rectale/topique) | Non renseignée — AMM active |
 
 ---
 

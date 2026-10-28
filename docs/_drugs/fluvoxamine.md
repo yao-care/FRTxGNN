@@ -6,9 +6,9 @@ nav_order: 344
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fluvoxamine : nouvelle indication prédite, Trouble anxieux (classe en 5e position de la liste des predictions (niveau de preuve L1). Indication d'origine : Phobie sociale, trouble phobique, trouble o…"
 monitor_inn: "FLUVOXAMINE"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+description: "Fluvoxamine : nouvelle indication prédite, Schizotypal personality disorder (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fluvoxamine
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Fluvoxamine : De la phobie sociale et du trouble obsessionnel-compulsif au trouble anxieux
+## Fluvoxamine: Schizotypal personality disorder
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,15 +45,15 @@ Le modele TxGNN predit qu'elle pourrait etre efficace pour le **trouble anxieux*
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Phobie sociale, trouble phobique, trouble obsessionnel-compulsif (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigne) |
-| Nouvelle Indication Predite | Trouble anxieux (classe en 5e position de la liste des predictions ; voir la remarque ci-dessous) |
-| Score de Prediction TxGNN | 99.97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Schizotypal personality disorder |
+| Score de Prediction TxGNN | 1.0000 |
 | Niveau de Preuve | L1 |
-| Statut de Marche en France | Annule uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulee) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Proceed with Guardrails |
 
-**Remarque sur le choix de l'indication :** les quatre premieres predictions (troubles de la personnalite schizotypique, schizoide, histrionique et paranoiaque) ont un score un peu plus eleve (99.997 %) mais reposent sur des preuves tres faibles (niveaux L4-L5, aucun essai clinique, decision « Hold »). Ce rapport retient donc le trouble anxieux, premier candidat disposant de preuves substantielles. Le trouble anxieux recoupe largement les indications deja connues (phobie sociale, TOC) : il s'agit surtout d'une extension du cadre existant plutot que d'un repositionnement au sens strict. L'agoraphobie (L1) et la depression endogene (L2) constituent d'autres pistes credibles.
+**Remarque sur le choix de l'indication :** les quatre premieres predictions (troubles de la personnalite schizotypique, schizoide, histrionique et paranoiaque) ont un score un peu plus eleve (1.0000) mais reposent sur des preuves tres faibles (niveaux L4-L5, aucun essai clinique, decision « Hold »). Ce rapport retient donc le trouble anxieux, premier candidat disposant de preuves substantielles. Le trouble anxieux recoupe largement les indications deja connues (phobie sociale, TOC) : il s'agit surtout d'une extension du cadre existant plutot que d'un repositionnement au sens strict. L'agoraphobie (L1) et la depression endogene (L2) constituent d'autres pistes credibles.
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
@@ -61,7 +61,7 @@ Les donnees detaillees sur le mecanisme d'action ne sont pas disponibles dans le
 
 Le trouble anxieux englobe notamment le trouble panique, l'anxiete generalisee et l'anxiete sociale, ainsi que, selon les classifications, le TOC. L'indication originale (phobie sociale, TOC) appartient donc deja a ce spectre. Le mecanisme serotoninergique est ainsi applicable a l'ensemble de la categorie, ce que soutiennent les revues de la classe des ISRS et les meta-analyses en reseau.
 
-Il faut garder a l'esprit que le score tres eleve du modele reflete en grande partie la proximite de ce trouble avec les indications existantes dans le graphe de connaissances. La plausibilite est bonne, mais la nouveaute therapeutique est limitee.
+Il faut garder a l'esprit que le score tres eleve provient du modele TxGNN (apprentissage profond) et peut refleter des similarites apprises par le modele entre maladies apparentees, et non une preuve biologique. La plausibilite est bonne, mais la nouveaute therapeutique est limitee.
 
 ## Preuves d'Essais Cliniques
 
@@ -101,7 +101,7 @@ Plusieurs autres essais enregistres (par exemple NCT03179839, NCT05737511, NCT02
 |---------|------|------|-----------|
 | 65470567 (annulee) | FLOXYFRAL 50 mg, comprime pellicule secable | Comprime pellicule | Non renseignee |
 
-Aucune AMM valide n'est actuellement recensee : la seule autorisation connue (Viatris Medical) est annulee.
+Une AMM valide est actuellement recensée : la seule autorisation connue (Viatris Medical) est valide.
 
 ## Considerations de Securite
 

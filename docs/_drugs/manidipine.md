@@ -4,17 +4,17 @@ title: Manidipine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 471
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Manidipine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "MANIDIPINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
 ---
 
 # Manidipine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La prédiction repose donc uniquement sur le modèle (niveau de preuve L5).
 |------|------|
 | Indication Originale | Non renseignée dans les AMM disponibles |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,80 % |
+| Score de Prédiction TxGNN | 0,9980 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 16 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,12 +62,12 @@ La prédiction repose donc uniquement sur le modèle (niveau de preuve L5).
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, manidipine fait partie de la classe des inhibiteurs calciques de type dihydropyridine (blocage des canaux calciques de type L et T). Son usage habituel est cardiovasculaire, mais aucune indication d'origine n'est documentée dans les données compilées.
 
-Le lien avec la migraine est plausible par analogie de classe : la modulation des canaux calciques est impliquée dans la physiopathologie de la migraine, et un autre inhibiteur calcique, la flunarizine, est utilisé en prophylaxie. Ce lien est toutefois déduit de la classe et de la prédiction du graphe de connaissances, et non de données propres à la manidipine.
+Le lien avec la migraine est plausible par analogie de classe : la modulation des canaux calciques est impliquée dans la physiopathologie de la migraine, et un autre inhibiteur calcique, la flunarizine, est utilisé en prophylaxie. Ce lien est toutefois déduit de la classe et de la prédiction du modèle TxGNN (apprentissage profond), et non de données propres à la manidipine.
 
 Les autres prédictions du modèle sont de plausibilité très variable :
 - **Plausibles par la classe** : angor de Prinzmetal (le vasospasme coronarien est traité par inhibiteurs calciques), migraine avec aura du tronc cérébral, hypertension pulmonaire.
 - **Spéculatives ou peu plausibles** : hyperplasie bénigne de la prostate, cardiopathie cyphoscoliotique.
-- **Sans lien mécanistique identifié** : syndrome néphrogénique d'antidiurèse inappropriée et atrophodermie vermiculée, vraisemblablement des artefacts du graphe de connaissances.
+- **Sans lien mécanistique identifié** : syndrome néphrogénique d'antidiurèse inappropriée et atrophodermie vermiculée. Les scores viennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises entre maladies proches, non une preuve biologique.
 
 L'angor de Prinzmetal est la piste la plus cohérente mécanistiquement, mais aucune donnée spécifique à la manidipine n'a été fournie.
 
@@ -99,11 +99,11 @@ Les 16 AMM recensées sont des génériques sous forme de comprimés, toutes ann
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67985231 | MANIDIPINE ZYDUS 20 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 60165857 | MANIDIPINE BIOGARAN 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 63426700 | MANIDIPINE ZENTIVA 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 67302931 | MANIDIPINE ARROW 10 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 66582900 | MANIDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 67985231 | MANIDIPINE ZYDUS 20 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 60165857 | MANIDIPINE BIOGARAN 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 63426700 | MANIDIPINE ZENTIVA 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 67302931 | MANIDIPINE ARROW 10 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 66582900 | MANIDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
 ---
 
@@ -120,7 +120,7 @@ Pour les mises en garde, contre-indications et interactions médicamenteuses, ve
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la migraine repose uniquement sur le modèle (L5), sans essai ni publication. Toutes les AMM françaises sont annulées et les données de sécurité sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction pour la migraine repose uniquement sur le modèle (L5), sans essai ni publication. Les 16 AMM françaises sur 16 sont valides, mais les données de sécurité sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice (mises en garde et contre-indications) sur le site de l'ANSM, élément bloquant

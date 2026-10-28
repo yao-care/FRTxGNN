@@ -6,9 +6,9 @@ nav_order: 176
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cladribine : nouvelle indication prédite, Rhabdomyosarcome embryonnaire paraméningé (niveau de preuve L5). Indication d'origine : Leucémie à tricholeucocytes…"
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
+description: "Cladribine : nouvelle indication prédite, Parameningeal embryonal rhabdomyosarcoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cladribine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Cladribine : De la leucémie à tricholeucocytes au rhabdomyosarcome embryonnaire paraméningé
+## Cladribine: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **rhabdomyosarcom
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie à tricholeucocytes, variante de la leucémie à tricholeucocytes, sclérose en plaques récurrente-rémittente (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas disponible) |
-| Nouvelle Indication Prédite | Rhabdomyosarcome embryonnaire paraméningé |
-| Score de Prédiction TxGNN | 99,77 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Parameningeal embryonal rhabdomyosarcoma |
+| Score de Prédiction TxGNN | 0.9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Ce rapport enzymatique est caractéristique des cellules lymphoïdes, ce qui explique son efficacité dans la leucémie à tricholeucocytes et son intérêt dans la sclérose en plaques. Il n'est pas caractéristique du rhabdomyosarcome, une tumeur solide mésenchymateuse. Le lien mécanistique est donc faible et non étayé par les données récupérées.
 
-Le score élevé du modèle reflète probablement la proximité des différents types de rhabdomyosarcome dans le graphe de connaissances (six prédictions très corrélées, qui ne sont pas des signaux indépendants) plutôt qu'une justification biologique spécifique. Avant toute considération clinique, il faudrait des données précliniques, par exemple la sensibilité de lignées cellulaires et l'expression de la désoxycytidine kinase. Les traitements standards du rhabdomyosarcome reposent sur la vincristine, l'actinomycine D et le cyclophosphamide ; aucune donnée sur la cladribine n'a été identifiée.
+Avant toute considération clinique, il faudrait des données précliniques, par exemple la sensibilité de lignées cellulaires et l'expression de la désoxycytidine kinase. Les traitements standards du rhabdomyosarcome reposent sur la vincristine, l'actinomycine D et le cyclophosphamide ; aucune donnée sur la cladribine n'a été identifiée.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,9 +75,9 @@ Aucune littérature associée disponible actuellement pour le rhabdomyosarcome e
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 60427957 | LITAK 2 mg/ml, solution injectable | Solution injectable | Non disponible | Annulée |
-| 65820786 | MAVENCLAD 10 mg, comprimé | Comprimé | Non disponible | Annulée |
-| 60522572 | LEUSTATINE 1 mg/ml, solution pour perfusion | Solution pour perfusion | Non disponible | Annulée |
+| 60427957 | LITAK 2 mg/ml, solution injectable | Solution injectable | Non disponible | Active |
+| 65820786 | MAVENCLAD 10 mg, comprimé | Comprimé | Non disponible | Active |
+| 60522572 | LEUSTATINE 1 mg/ml, solution pour perfusion | Solution pour perfusion | Non disponible | Active |
 
 ## Cytotoxicité
 
@@ -106,7 +106,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Le lien mécanistique est faible, car la sélectivité de la cladribine pour les cellules lymphoïdes ne s'applique pas clairement à ce sarcome. Le profil de myélosuppression est lourd et aucune AMM française n'est actuellement valide.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Le lien mécanistique est faible, car la sélectivité de la cladribine pour les cellules lymphoïdes ne s'applique pas clairement à ce sarcome.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).

@@ -4,17 +4,17 @@ title: Esomeprazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 299
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Esomeprazole : nouvelle indication prédite, Reflux duodénogastrique (niveau de preuve L5). Indication d'origine : Ulcère peptique, reflux gastro-œsophagien, œsophagite…"
 monitor_inn: "esomeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Esomeprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Ésoméprazole : De l'Ulcère Peptique au Reflux Duodénogastrique
+## Esomeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **reflux duodéno
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ulcère peptique, reflux gastro-œsophagien, œsophagite, syndrome de Zollinger-Ellison (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Reflux duodénogastrique |
-| Score de Prédiction TxGNN | 99,53 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Duodenal obstruction |
+| Score de Prédiction TxGNN | 0.9945 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Dans le reflux duodénogastrique, le contenu duodénal (bile, sécrétions pancréatiques) remonte dans l'estomac. En réduisant l'acidité, l'ésoméprazole pourrait diminuer la composante acide du liquide refluant et soulager l'irritation de la muqueuse et les symptômes.
 
-**Le lien reste toutefois indirect et, au mieux, symptomatique.** Ce reflux est principalement dû à la bile, aux sécrétions pancréatiques et à des troubles de la motricité, que la suppression acide ne traite pas directement. Le score TxGNN très élevé (99,53 %) reflète probablement le chevauchement du médicament avec des indications voisines (reflux, maladies acido-dépendantes) plutôt qu'une preuve directe.
+**Le lien reste toutefois indirect et, au mieux, symptomatique.** Ce reflux est principalement dû à la bile, aux sécrétions pancréatiques et à des troubles de la motricité, que la suppression acide ne traite pas directement.
 
 ---
 
@@ -87,11 +87,11 @@ Les 20 AMM recensées sont toutes annulées. Voici les 5 premières :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|------|
-| 62358997 | ESOMEPRAZOLE ARROW LAB 40 mg | Gélule gastro-résistante | Annulée |
-| 62824142 | INEXIUM 40 mg | Comprimé gastro-résistant | Annulée |
-| 67972216 | ESOMEPRAZOLE EG 40 mg | Gélule gastro-résistante | Annulée |
-| 66628995 | ESOMEPRAZOLE ZENTIVA 40 mg | Gélule gastro-résistante | Annulée |
-| 64359642 | ESOMEPRAZOLE ETHYPHARM 20 mg | Gélule gastro-résistante | Annulée |
+| 62358997 | ESOMEPRAZOLE ARROW LAB 40 mg | Gélule gastro-résistante | Active |
+| 62824142 | INEXIUM 40 mg | Comprimé gastro-résistant | Active |
+| 67972216 | ESOMEPRAZOLE EG 40 mg | Gélule gastro-résistante | Active |
+| 66628995 | ESOMEPRAZOLE ZENTIVA 40 mg | Gélule gastro-résistante | Active |
+| 64359642 | ESOMEPRAZOLE ETHYPHARM 20 mg | Gélule gastro-résistante | Active |
 
 Les autres formes recensées sont les granulés pour suspension buvable (INEXIUM 10 mg) et la poudre pour solution injectable ou pour perfusion.
 
@@ -113,15 +113,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Justification :**
 - Aucun essai clinique ni publication spécifique ne soutient l'usage de l'ésoméprazole dans le reflux duodénogastrique.
 - Le lien mécanistique est indirect, et le score élevé du modèle ne remplace pas des preuves réelles.
-- Toutes les AMM françaises recensées sont annulées.
 
-À titre de contexte, la prédiction « ulcère duodénal » (rang 3) est bien étayée par des essais de phase 3 et des études randomisées. Elle correspond toutefois à un usage déjà établi du médicament et ne constitue pas un véritable repositionnement.
+Elle correspond toutefois à un usage déjà établi du médicament et ne constitue pas un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données cliniques ou observationnelles spécifiques au reflux duodénogastrique (ou reflux biliaire) : essais contrôlés, études sur le soulagement des symptômes
 - Les données détaillées sur le mécanisme d'action
 - Les informations officielles de sécurité (mises en garde et contre-indications de la notice ANSM)
-- La clarification du statut réglementaire actuel en France, puisqu'aucune AMM n'est valide dans les données disponibles
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

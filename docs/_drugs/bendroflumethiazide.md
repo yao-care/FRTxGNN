@@ -4,17 +4,17 @@ title: Bendroflumethiazide
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 95
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Bendroflumethiazide : nouvelle indication prédite, Maladie rénale hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
+indication_count: 4
 monitor_inn: "bendroflumethiazide"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Bendroflumethiazide : nouvelle indication prédite, Néphropathie hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les donné…"
 ---
 
 # Bendroflumethiazide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,43 +33,33 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Bendrofluméthiazide : De l'hypertension à la maladie rénale hypertensive maligne
+## Bendroflumethiazide : diurétique thiazidique → Néphropathie hypertensive maligne (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La bendrofluméthiazide est un diurétique thiazidique, initialement utilisé pour le traitement de l'hypertension artérielle.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie rénale hypertensive maligne**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction issue du modèle uniquement.
+La bendroflumethiazide est un diurétique thiazidique utilisé dans la prise en charge de l'hypertension artérielle.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour la **néphropathie hypertensive maligne (malignant hypertensive renal disease)**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte d'indication de l'AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néphropathie hypertensive maligne (malignant hypertensive renal disease) |
+| Score de Prédiction TxGNN | 0,9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la bendrofluméthiazide fait partie de la classe des diurétiques thiazidiques, son efficacité dans l'hypertension est reconnue, et elle agit sur la pression artérielle par le contrôle du volume.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la bendroflumethiazide est un diurétique thiazidique : elle favorise l'élimination urinaire de sodium et d'eau, ce qui réduit le volume circulant et la pression artérielle.
 
-Un lien avec la maladie rénale hypertensive est biologiquement plausible, car la pression artérielle et le volume intravasculaire jouent un rôle dans l'atteinte rénale. Cependant, l'hypertension maligne est une urgence hypertensive, habituellement prise en charge par des médicaments d'action rapide par voie parentérale. Les thiazidiques ne constituent pas un traitement standard dans ce cadre.
+Un lien avec l'atteinte rénale d'origine hypertensive est plausible sur le plan biologique, par le biais du contrôle de la pression artérielle et du volume. Toutefois, l'hypertension maligne est une urgence hypertensive, habituellement prise en charge par des médicaments à action rapide administrés par voie parentérale ; les thiazidiques ne constituent pas un traitement standard dans ce contexte.
 
-Le score élevé (0,9988) reflète très probablement la proximité dans le graphe avec l'indication approuvée d'hypertension plutôt qu'une preuve indépendante. Aucun soutien au niveau du mécanisme ne peut être confirmé.
-
-**Autres prédictions du modèle (toutes de niveau L5, sans essai ni publication) :**
-
-| Maladie prédite | Score TxGNN | Commentaire |
-|------|------|------|
-| Hypertension rénovasculaire maligne | 99,88 % | Probablement héritée de l'indication hypertension ; la prise en charge repose sur le blocage du SRAA et la revascularisation, et les thiazidiques peuvent activer davantage le SRAA |
-| Hypertension pulmonaire d'origine multifactorielle peu claire | 99,87 % | Physiopathologie différente ; les diurétiques ne sont qu'un traitement de soutien de la surcharge volumique |
-| Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie | 99,87 % | Les diurétiques n'ont pas d'effet établi sur le processus vasculaire pulmonaire ; risque d'alcalose métabolique pouvant aggraver l'hypoventilation |
-| Syndrome de Braddock | 99,83 % | Aucun lien mécanistique plausible identifié ; probable artefact du modèle |
+Le score élevé du modèle reflète très probablement la proximité avec l'indication de l'hypertension dans les données d'apprentissage, plutôt qu'une preuve indépendante. Cette prédiction doit donc être considérée comme une hypothèse, sans appui mécanistique confirmé.
 
 ## Preuves d'Essais Cliniques
 
@@ -83,28 +73,26 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61977014 | TENSIONORME, comprimé sécable (ETHYX PHARMACEUTICALS) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 61977014 | TENSIONORME, comprimé sécable | Comprimé sécable | Non renseignée dans les données locales |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : anuria, maladie rénale, maladie hépatique, coma et encéphalopathie hépatiques, maladie de la vésicule biliaire, pancréatite, pyourétère, goutte, hyperuricémie, diabète et acidocétose diabétique, carence en potassium, hypercalcémie, néphrocalcinose, hyperparathyroïdie, ostéite fibreuse, troubles du métabolisme du phosphore, lupus érythémateux systémique (y compris pédiatrique), myasthénie grave et maladies de la jonction neuromusculaire, bloc auriculo-ventriculaire, emphysème pulmonaire, maladie bronchique, ictère néonatal, troubles anxieux, troubles névrotiques et dysthymie.
-- **Interactions médicamenteuses** : 168 interactions recensées. Parmi les principales, de niveau modéré : antidiabétiques (metformine, pioglitazone, alogliptine, albiglutide, acarbose), corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, béclométasone), amphotéricine B (y compris complexe lipidique), oméprazole, rabéprazole, cholécalciférol, bupropion et morphine. De niveau mineur : doxycycline, hyoscyamine et atropine.
+- **Interactions médicamenteuses** : 168 interactions ont été recensées. Parmi elles, des interactions de niveau modéré avec notamment l'acarbose, la metformine, la pioglitazone, l'alogliptine, l'albiglutide (antidiabétiques), l'hydrocortisone, la dexaméthasone, la bétaméthasone, la triamcinolone et la béclométasone (corticoïdes), l'amphotéricine B, le bupropion, la morphine, l'oméprazole, le rabéprazole et la cholécalciférol. Des interactions de niveau mineur sont signalées avec la doxycycline, l'hyoscyamine et l'atropine.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et l'hypertension maligne n'est pas une situation où les thiazidiques sont un traitement de référence.
-- La seule AMM française est annulée et les données de sécurité issues de la notice manquent, ce qui empêche de passer au criblage de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication portant sur cette maladie. L'hypertension maligne relève d'une prise en charge d'urgence pour laquelle les thiazidiques ne sont pas un traitement de référence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications).
-- Obtenir les données sur le mécanisme d'action (DrugBank).
-- Réaliser une recherche systématique d'essais cliniques et de publications sur l'usage des thiazidiques dans l'atteinte rénale hypertensive.
-- Évaluer la compatibilité des voies d'administration et la pertinence clinique par rapport aux traitements de référence.
+- Données sur le mécanisme d'action de la molécule
+- Mises en garde et contre-indications issues de la notice officielle
+- Études cliniques ou publications évaluant directement la bendroflumethiazide dans la néphropathie hypertensive maligne
+- Évaluation de la pertinence clinique face aux traitements parentéraux de référence
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

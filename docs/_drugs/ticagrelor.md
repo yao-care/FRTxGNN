@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ticagrelor
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 760
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ticagrelor : nouvelle indication prédite, Artériosclérose intracrânienne (niveau de preuve L2). Indication d'origine : Syndrome coronarien aigu"
 monitor_inn: "ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
+description: "Ticagrelor : nouvelle indication prédite, Artériosclérose intracrânienne (intracranial arteriosclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Ticagrélor : De l'Syndrome Coronarien Aigu à l'Artériosclérose Intracrânienne
+## Ticagrelor: Artériosclérose intracrânienne (intracranial arteriosclerosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **2 essais cliniques** (dont un essai de Phase 3 toujours en cours) et **2 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome coronarien aigu (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Artériosclérose intracrânienne |
-| Score de Prédiction TxGNN | 99,97 % |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | Annulée uniquement (toutes les AMM sont annulées) |
-| Nombre d'AMM | 11 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Artériosclérose intracrânienne (intracranial arteriosclerosis) |
+| Score de Prédiction TxGNN | 0.9997 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 > Remarque : le niveau L2 est celui attribué dans les données compilées pour ce rapport. Il reste fragile : l'essai de Phase 3 (CAPTIVA) est en cours, sans résultats, et le ticagrélor n'y est pas le seul bras expérimental.
@@ -80,7 +80,7 @@ Des données indirectes vont dans le même sens : l'essai CHANCE-2 (PMID 3470899
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; aucun produit n'est actuellement autorisé sous ce statut. Le texte des indications approuvées n'est pas renseigné.
+Le médicament est commercialisé : 11 AMM valides sur 11. Le texte des indications approuvées n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

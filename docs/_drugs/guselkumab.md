@@ -4,7 +4,7 @@ title: Guselkumab
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 374
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Guselkumab : nouvelle indication prédite, Ostéoporose médicamenteuse (première prédiction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (textes d'indication…"
 monitor_inn: "GUSELKUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 # Guselkumab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -41,7 +41,6 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 Guselkumab est un anticorps monoclonal inhibiteur de la sous-unité p19 de l'IL-23, commercialisé sous le nom de Tremfya. Les données réglementaires compilées pour ce rapport ne précisent pas son indication d'origine.
 Le modèle TxGNN place en tête de ses prédictions l'**ostéoporose médicamenteuse**, mais **aucun essai clinique ni aucune publication** ne soutient cette direction.
 
-Deux autres prédictions de la liste disposent en revanche de preuves solides : le **psoriasis** (30 essais cliniques, 20 publications) et la **rectocolite hémorragique** (10 essais cliniques, 20 publications). Elles correspondent très probablement à des indications déjà connues du produit. Elles sont traitées dans la section suivante, car elles changent la lecture du dossier.
 
 ---
 
@@ -51,18 +50,16 @@ Deux autres prédictions de la liste disposent en revanche de preuves solides : 
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées (textes d'indication vides) |
 | Nouvelle Indication Predite | Ostéoporose médicamenteuse (première prédiction) |
-| Score de Prediction TxGNN | 99,84 % |
+| Score de Prediction TxGNN | 0,9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 **Prédictions secondaires disposant de preuves (à vérifier avant d'y voir un repositionnement) :**
 
 | Indication prédite | Score TxGNN | Niveau de preuve | Décision |
 |------|------|------|------|
-| Psoriasis | 99,75 % | L1 | Proceed with Guardrails |
-| Rectocolite hémorragique | 99,70 % | L1 | Proceed with Guardrails |
 
 Les sept autres prédictions du classement (rétinopathie diabétique sévère non proliférante, rétinopathie diabétique, ostéodystrophie rénale, hypotrichose congénitale avec dystrophie maculaire juvénile, trouble de libération plaquettaire primaire, thrombasthénie de Glanzmann, hyperparathyroïdie secondaire non rénale) sont au niveau L5 avec la décision Hold.
 
@@ -74,7 +71,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **Ostéoporose médicamenteuse (première prédiction).** La voie IL-23/IL-17 a été évoquée dans la résorption osseuse. Toutefois, aucune donnée fournie ne soutient un lien entre guselkumab et l'ostéoporose médicamenteuse. Le score élevé du modèle est une prédiction purement computationnelle et ne suffit pas à justifier une décision.
 
-**Psoriasis et rectocolite hémorragique.** Ces deux prédictions s'appuient sur un mécanisme cohérent : le blocage de l'IL-23 réduit la signalisation Th17 pathogène dans la peau et la muqueuse intestinale. De nombreux essais de phase 3 le confirment. Comme le champ « indications d'origine » est vide et que le statut de marché est « annulé uniquement », il s'agit probablement d'un problème de complétude des données plutôt que d'un véritable repositionnement. Le statut réglementaire exact doit être vérifié avant de présenter ces résultats comme nouveaux.
 
 ---
 
@@ -142,10 +138,10 @@ Aucune littérature associée n'est disponible actuellement pour l'ostéoporose 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68372441 | TREMFYA 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 67296108 | TREMFYA 100 mg ONEPRESS, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
+| 68372441 | TREMFYA 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 67296108 | TREMFYA 100 mg ONEPRESS, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
-Les deux AMM sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont annulées. Aucune AMM valide n'apparaît dans les données compilées. Les essais enregistrés mentionnent pourtant une autorisation de mise sur le marché en France en 2018 pour le psoriasis en plaques, ce qui renforce l'hypothèse d'une source de données incomplète.
+Les deux AMM sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont valides (2 AMM valides sur 2). Le produit est commercialisé en France. Les essais enregistrés mentionnent une autorisation de mise sur le marché en France en 2018 pour le psoriasis en plaques.
 
 ---
 
@@ -166,7 +162,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 **Décision : Hold** (pour l'ostéoporose médicamenteuse, première prédiction)
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (99,84 %), sans essai ni publication, et aucun lien mécanistique n'est étayé par les données fournies. Le niveau de preuve est L5.
+- La prédiction repose uniquement sur le score du modèle (0,9984), sans essai ni publication, et aucun lien mécanistique n'est étayé par les données fournies. Le niveau de preuve est L5.
 - Le psoriasis et la rectocolite hémorragique (niveau L1, Proceed with Guardrails) correspondent probablement à des indications déjà connues du produit. Il s'agit sans doute d'une lacune de données et non d'un repositionnement réel.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

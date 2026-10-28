@@ -4,17 +4,17 @@ title: Venetoclax
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 808
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Venetoclax : nouvelle indication prédite, LLC/lymphome lymphocytique à petites cellules avec hypermutation soma… (niveau de preuve L5). Indication d'origine : Leucémie lymphoblastique/lymphocytaire a…"
 monitor_inn: "venetoclax"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax : nouvelle indication prédite, Hodgkins lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Vénétoclax : De la leucémie lymphoblastique aiguë / syndrome de Richter à la leucémie lymphoïde chronique (CLL/SLL) avec hypermutation somatique des gènes IGHV
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Cette prédiction reflète surtout une association déjà connue avec la LLC, et
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique/lymphocytaire aiguë ; syndrome de Richter (texte d'indication de l'AMM non disponible) |
-| Nouvelle Indication Prédite | LLC/lymphome lymphocytique à petites cellules avec hypermutation somatique d'IGHV |
-| Score de Prédiction TxGNN | 99,55 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hodgkins lymphoma |
+| Score de Prédiction TxGNN | 0.9951 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -76,9 +76,9 @@ Aucune littérature associée disponible actuellement pour cette indication pré
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64449755 | VENCLYXTO 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63696471 | VENCLYXTO 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62598280 | VENCLYXTO 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 64449755 | VENCLYXTO 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63696471 | VENCLYXTO 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62598280 | VENCLYXTO 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -116,17 +116,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 | Rang | Indication | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | LLC/SLL pré-germinale | 99,55 % | L5 | Hold |
-| 3 | Lymphome de Hodgkin | 99,51 % | L3 | Question de recherche |
-| 4 | Leucémie myéloïde | 99,47 % | L1 | Proceed with Guardrails |
-| 5 | LMC BCR-ABL1 positive | 99,36 % | L2 | Question de recherche |
-| 6 | Sarcome d'Ewing | 99,21 % | L4 | Hold |
-| 7 | Lymphome folliculaire | 99,15 % | L2 | Question de recherche |
-| 8 | Néoplasme métastatique | 99,14 % | L3 | Question de recherche |
-| 9 | Spiradénome malin | 99,12 % | L5 | Hold |
-| 10 | LAM avec t(8;21) | 99,08 % | L4 | Hold |
+| 3 | Lymphome de Hodgkin | 0,9951 | L5 | Question de recherche |
+| 5 | LMC BCR-ABL1 positive | 0,9936 | L5 | Question de recherche |
+| 6 | Sarcome d'Ewing | 0,9921 | L4 | Hold |
+| 7 | Lymphome folliculaire | 0,9915 | L2 | Question de recherche |
+| 8 | Néoplasme métastatique | 0,9914 | L5 | Question de recherche |
+| 9 | Spiradénome malin | 0,9912 | L5 | Hold |
 
-Parmi ces candidats, la **leucémie myéloïde** est la mieux étayée (plusieurs essais de phase 2/3, dont NCT06852222 et NCT04708054, et une littérature abondante). Il s'agit toutefois d'un usage déjà standard (vénétoclax + azacitidine chez les patients âgés ou inéligibles à la chimiothérapie intensive), donc non novateur. Les garde-fous seraient : interactions avec les inhibiteurs forts du CYP3A, surveillance du syndrome de lyse tumorale et de la myélosuppression, et vigilance face aux résistances.
+Il s'agit toutefois d'un usage déjà standard (vénétoclax + azacitidine chez les patients âgés ou inéligibles à la chimiothérapie intensive), donc non novateur. Les garde-fous seraient : interactions avec les inhibiteurs forts du CYP3A, surveillance du syndrome de lyse tumorale et de la myélosuppression, et vigilance face aux résistances.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

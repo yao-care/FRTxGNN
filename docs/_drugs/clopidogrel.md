@@ -4,17 +4,17 @@ title: Clopidogrel
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 189
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Clopidogrel : nouvelle indication prédite, Migraine (rang 1 : migraine avec aura du tronc cérébral, 99,44 % (niveau de preuve L5). Indication d'origine : Syndrome coronarien aigu (autres : infarctus …"
 monitor_inn: "CLOPIDOGREL"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "osteoarthritis susceptibility"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-## Clopidogrel : De l'Syndrome Coronarien Aigu à la Migraine
+## Clopidogrel : De l'Syndrome Coronarien Aigu à la migraine avec aura du tronc cérébral
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -50,10 +50,10 @@ Ce rapport retient la **migraine** (« migraine disorder », rang 2 de TxGNN) co
 |------|------|
 | Indication Originale | Syndrome coronarien aigu (autres : infarctus du myocarde avec sus-décalage de ST, embolie intracrânienne) |
 | Nouvelle Indication Prédite | Migraine (rang 1 : migraine avec aura du tronc cérébral, 99,44 % ; rang 2 : migraine, 99,44 %) |
-| Score de Prédiction TxGNN | 99,44 % (migraine ; 99,44 % pour la migraine avec aura du tronc cérébral) |
-| Niveau de Preuve | L2 (migraine) ; L3 (migraine avec aura du tronc cérébral) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Score de Prédiction TxGNN | 0,9944 (migraine ; 0,9944 pour la migraine avec aura du tronc cérébral) |
+| Niveau de Preuve | L5 (migraine) ; L3 (migraine avec aura du tronc cérébral) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -94,11 +94,11 @@ Ce lien reste toutefois indirect : l'indication originale est cardiovasculaire e
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61767507 | CLOPIDOGREL KRKA 75 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63564053 | PLAVIX 75 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68519902 | CLOPIDOGREL ZENTIVA 75 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60562855 | PLAVIX 300 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61952274 | DUOPLAVIN 75 mg/75 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61767507 | CLOPIDOGREL KRKA 75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63564053 | PLAVIX 75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 68519902 | CLOPIDOGREL ZENTIVA 75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60562855 | PLAVIX 300 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61952274 | DUOPLAVIN 75 mg/75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -116,7 +116,7 @@ Les mises en garde de la notice ne sont pas disponibles : veuillez consulter la 
 **Décision : Hold**
 
 **Justification :**
-- Plusieurs essais randomisés (CANOA, essai pilote, COMPETE) suggèrent un bénéfice, mais dans des contextes particuliers (FOP, fermeture septale), avec des résultats mitigés et sans essai de Phase 3 testant directement le clopidogrel dans la migraine. Les preuves pour la migraine avec aura du tronc cérébral sont indirectes et il n'existe aucun essai enregistré. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité.
+- Plusieurs essais randomisés (CANOA, essai pilote, COMPETE) suggèrent un bénéfice, mais dans des contextes particuliers (FOP, fermeture septale), avec des résultats mitigés et sans essai de Phase 3 testant directement le clopidogrel dans la migraine. Les preuves pour la migraine avec aura du tronc cérébral sont indirectes et il n'existe aucun essai enregistré. De plus, les 5 AMM françaises sur 5 sont valides, mais les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération des mises en garde et contre-indications de la notice (ANSM)

@@ -4,17 +4,17 @@ title: Ammonium Chloride
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 60
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Ammonium Chloride : nouvelle indication prédite, Laryngopharyngite aiguë (niveau de preuve L5). Indication d'origine : Pharyngite, rhume, rhinopharyngite"
+indication_count: 1
 monitor_inn: "Ammonium chloride"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-23
+description: "Ammonium Chloride : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Pharyngite, rhume, rhinopharyngite"
 ---
 
 # Ammonium Chloride
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Chlorure d'ammonium : De la pharyngite à la laryngopharyngite aiguë
+## Chlorure d'ammonium : Du rhume et de la pharyngite à la maladie de la cavité nasale
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le chlorure d'ammonium était initialement associé au traitement de la pharyngite, du rhume et de la rhinopharyngite.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **laryngopharyngite aiguë**,
-mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
+Le chlorure d'ammonium est une substance historiquement utilisée comme expectorant, dont les indications enregistrées dans le graphe de connaissances sont la pharyngite, le rhume et la rhinopharyngite.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **maladie de la cavité nasale**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Pharyngite, rhume, rhinopharyngite (selon le graphe de connaissances ; aucun texte d'indication n'est disponible dans les AMM) |
-| Nouvelle Indication Prédite | Laryngopharyngite aiguë |
-| Score de Prédiction TxGNN | 99,94 % |
+| Indication Originale | Pharyngite, rhume, rhinopharyngite (relations enregistrées dans le graphe de connaissances ; aucun texte d'indication dans les AMM françaises compilées) |
+| Nouvelle Indication Prédite | Maladie de la cavité nasale |
+| Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le chlorure d'ammonium est traditionnellement utilisé comme expectorant, ce qui pourrait fluidifier les sécrétions des voies respiratoires supérieures. Ce lien ne peut toutefois pas être vérifié avec les données compilées pour ce rapport.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le chlorure d'ammonium est connu comme un expectorant historique et un irritant muqueux léger, qui augmente les sécrétions fluides des voies respiratoires. Cette explication reste une hypothèse non vérifiée.
 
-La laryngopharyngite aiguë est très proche des indications d'origine (pharyngite, rhinopharyngite, rhume) : toutes sont des affections des voies aériennes supérieures. Le score élevé reflète probablement la proximité avec ces indications connues dans le graphe de connaissances plutôt qu'un véritable signal thérapeutique nouveau.
+Le score de 0.9994 pour la maladie de la cavité nasale provient du modèle TxGNN (deep learning) et peut refléter des similarités que le modèle a apprises entre des maladies apparentées (pharyngite, rhume, rhinopharyngite), et non une preuve biologique. La maladie de la cavité nasale est anatomiquement et symptomatiquement proche de ces affections, ce qui peut expliquer en partie ce score élevé. Il s'agirait plutôt d'une extension de l'usage respiratoire supérieur que d'un mécanisme nouveau.
 
-Il ne s'agit donc pas d'un vrai candidat au repositionnement : l'indication prédite recoupe les usages déjà connus. Une seconde prédiction, « maladie de la cavité nasale » (score 99,94 %), est également de niveau L5 ; il s'agit d'une catégorie anatomique très large, difficile à transformer en hypothèse clinique testable.
+Le score très élevé est une sortie de modèle uniquement. Aucune donnée ne montre un bénéfice dans la maladie de la cavité nasale. Cette catégorie est très large et devrait être précisée (rhinite, sinusite, polypes nasaux, etc.) avant toute évaluation.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les quatre AMM identifiées sont toutes annulées ; aucune n'est valide actuellement. Le texte de l'indication approuvée n'est pas renseigné.
+Les quatre AMM compilées sont des produits à substance unique, valides, sous forme de solutions pour perfusion. Aucun texte d'indication approuvée n'est disponible pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -81,28 +80,30 @@ Les quatre AMM identifiées sont toutes annulées ; aucune n'est valide actuelle
 | 67678175 | Pediaven AP-HP G20 | Solution pour perfusion | Non renseignée |
 | 62083608 | Pediaven AP-HP G25 | Solution pour perfusion | Non renseignée |
 
+Ces produits sont des formes pour perfusion et ne correspondent pas à un usage nasal ou respiratoire.
+
 ## Considérations de Sécurité
 
-- **Contre-indications (issues du graphe de connaissances, et non du texte de la notice)** : hypertension, insuffisance hépatique, insuffisance rénale et anurie, épilepsie, insomnie, insuffisance surrénalienne (maladie d'Addison), ulcère gastroduodénal, hyperplasie bénigne de la prostate, hypercalcémie, néphrocalcinose, troubles du métabolisme du phosphore, hypertension oculaire, glaucome à angle fermé, arrêt cardiaque soudain, troubles de la conduction cardiaque, hyperthyroïdie (maladie de Basedow, thyrotoxicose), obstruction du col vésical, œdème pulmonaire, ischémie myocardique, maladie coronarienne, troubles anxieux (agoraphobie, trouble obsessionnel compulsif), entérocolite nécrosante.
-- **Interactions Médicamenteuses** : 21 interactions connues.
-  - *Modérées* : amphétamine, dextroamphétamine, lisdexamfétamine, métamfétamine, benzphétamine.
-  - *Mineures* : éphédrine (y compris nasale), pseudoéphédrine, antidépresseurs tricycliques (amitriptyline, clomipramine, désipramine, doxépine y compris topique, imipramine, nortriptyline, protriptyline, trimipramine), méthadone, méxilétine, flécaïnide.
+- **Contre-indications (relations du graphe de connaissances, et non texte de notice)** : hypertension, insuffisance hépatique, épilepsie, insuffisance rénale ou anurie, insuffisance surrénalienne (maladie d'Addison), ulcère gastroduodénal, hypercalcémie, néphrocalcinose, glaucome à angle fermé, hyperthyroïdie, œdème pulmonaire, ischémie myocardique et maladie coronarienne, troubles de la conduction cardiaque, arrêt cardiaque, entérocolite nécrosante, ainsi que plusieurs troubles anxieux et psychiatriques. Cette liste n'est pas exhaustive.
+- **Interactions Médicamenteuses** : 21 interactions recensées.
+  - Modérées : amphétamine, dextroamphétamine, lisdexamfétamine, métamfétamine, benzphétamine.
+  - Mineures : éphédrine, pseudoéphédrine, antidépresseurs tricycliques (amitriptyline, clomipramine, désipramine, doxépine, imipramine, nortriptyline, protriptyline, trimipramine), méthadone, méxilétine, flécaïne.
 
-Les mises en garde de la notice officielle ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
+Les mises en garde issues des notices ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et recoupe les indications déjà connues. Le statut de marché (AMM toutes annulées) et la liste étendue de contre-indications du graphe de connaissances renforcent la prudence.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication portant sur la maladie de la cavité nasale. Les AMM françaises concernent des perfusions, sans lien avec une voie nasale ou respiratoire, et les données de sécurité issues des notices manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Mises en garde et contre-indications officielles de la notice ANSM (lacune bloquante pour le criblage de sécurité)
-- Données sur le mécanisme d'action (par exemple via DrugBank)
-- Définition d'une hypothèse clinique précise (sous-type de maladie plus étroit, voie d'administration compatible)
-- Recherche d'essais cliniques et de publications ciblés sur la laryngopharyngite aiguë
-- Examen de l'intérêt réel du repositionnement, vu le chevauchement avec les indications existantes
+- Récupérer les mises en garde et contre-indications des notices auprès de l'ANSM (lacune bloquante pour le criblage de sécurité)
+- Obtenir les données sur le mécanisme d'action
+- Préciser l'indication visée (rhinite, sinusite, polypes nasaux, etc.)
+- Rechercher des études cliniques ou publiées portant directement sur cette affection
+- Évaluer la compatibilité de la voie d'administration, aucune formulation adaptée n'étant identifiée dans les AMM compilées
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

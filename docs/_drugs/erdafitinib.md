@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pul
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées |
 | Nouvelle Indication Predite | Hypertension pulmonaire |
-| Score de Prediction TxGNN | 99,38 % |
+| Score de Prediction TxGNN | 0,9938 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -65,9 +65,9 @@ Ce lien repose uniquement sur le score de prédiction TxGNN. De plus, l'inhibiti
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 66039107 | BALVERSA 3 mg, comprimés pelliculés (annulée) | Comprimé pelliculé | Non renseignée |
-| 65760218 | BALVERSA 4 mg, comprimés pelliculés (annulée) | Comprimé pelliculé | Non renseignée |
-| 60039171 | BALVERSA 5 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
+| 66039107 | BALVERSA 3 mg, comprimés pelliculés (active) | Comprimé pelliculé | Non renseignée |
+| 65760218 | BALVERSA 4 mg, comprimés pelliculés (active) | Comprimé pelliculé | Non renseignée |
+| 60039171 | BALVERSA 5 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
 
 ## Cytotoxicite
 
@@ -109,11 +109,11 @@ Toutes ces prédictions sont de niveau L5 avec une décision **Hold**.
 
 | Rang | Indication prédite | Score TxGNN | Remarque |
 |------|------|------|------|
-| 2 | Cardiopathie cyphoscoliotique | 99,27 % | Aucun lien mécanistique identifiable ; association probablement liée au réseau (via l'hypertension pulmonaire) |
-| 3 | Aménorrhée | 99,26 % | Aucun lien mécanistique crédible ; l'hyperphosphatémie est un effet indésirable, non un rationnel thérapeutique |
-| 4 | Polyarthrite rhumatoïde | 99,25 % | Hypothèse plausible mais non validée (activation des fibroblastes synoviaux, angiogenèse) ; la seule publication (PMID [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/), revue générale de 2020 sur les inhibiteurs de kinases approuvés par la FDA) est un contexte indirect |
-| 5 | Sclérose latérale amyotrophique | 99,06 % | Sens de l'effet incertain, l'inhibition de FGFR pouvant être neutre ou délétère ; pénétration du SNC non caractérisée |
-| 6 | Syndrome brachydactylie-syndactylie | 99,03 % | Lien conceptuel avec le développement des membres ; questions de sécurité importantes (effets squelettiques, développementaux, grossesse) |
+| 2 | Cardiopathie cyphoscoliotique | 0,9927 | Aucun lien mécanistique identifiable ; association probablement liée au réseau (via l'hypertension pulmonaire) |
+| 3 | Aménorrhée | 0,9926 | Aucun lien mécanistique crédible ; l'hyperphosphatémie est un effet indésirable, non un rationnel thérapeutique |
+| 4 | Polyarthrite rhumatoïde | 0,9925 | Hypothèse plausible mais non validée (activation des fibroblastes synoviaux, angiogenèse) ; la seule publication (PMID [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/), revue générale de 2020 sur les inhibiteurs de kinases approuvés par la FDA) est un contexte indirect |
+| 5 | Sclérose latérale amyotrophique | 0,9906 | Sens de l'effet incertain, l'inhibition de FGFR pouvant être neutre ou délétère ; pénétration du SNC non caractérisée |
+| 6 | Syndrome brachydactylie-syndactylie | 0,9903 | Lien conceptuel avec le développement des membres ; questions de sécurité importantes (effets squelettiques, développementaux, grossesse) |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

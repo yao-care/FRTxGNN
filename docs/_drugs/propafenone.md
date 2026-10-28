@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Propafenone
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 635
-evidence_level: L3
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Propafenone : nouvelle indication prédite, Tachycardie ventriculaire polymorphe catécholergique (niveau de preuve L3). Indication d'origine : Fibrillation auriculaire…"
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
+description: "Propafenone : nouvelle indication prédite, Manic bipolar affective disorder (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Propafenone
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-## Propafénone : De la fibrillation auriculaire à la tachycardie ventriculaire polymorphe catécholergique
+## Propafenone: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **tachycardie v
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Fibrillation auriculaire, tachycardie ventriculaire (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Tachycardie ventriculaire polymorphe catécholergique |
-| Score de Prédiction TxGNN | 99,79 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Manic bipolar affective disorder |
+| Score de Prédiction TxGNN | 0.9980 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -123,13 +123,12 @@ Les données de la notice (mises en garde, contre-indications) ne sont pas dispo
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation |
 |------|------|------|------|------|
-| 1 | Manie (trouble bipolaire) | 99,80 % | L5 | Hold : la littérature décrit la propafénone comme cause de manie, donc un risque et non un bénéfice |
-| 3 | Paralysie périodique avec syndrome compartimental transitoire | 99,67 % | L5 | Hold : aucune donnée |
-| 4 | Angor de Prinzmetal | 99,45 % | L5 | Hold : aucun bénéfice établi, prudence en cardiopathie ischémique |
-| 5 | Tachycardie ventriculaire incessante du nourrisson | 99,44 % | L3 | Question de recherche : données anciennes, de petite taille, observationnelles ; évaluation de sécurité préalable |
-| 6 | Cardiomyopathie arythmogène du ventricule droit | 99,42 % | L4 | Hold : signaux de sécurité (proarythmie) |
-| 7 | Syndrome néphrogénique d'antidiurèse inappropriée | 99,23 % | L5 | Hold : aucune donnée |
-| 8 | Trichotillomanie | 99,17 % | L5 | Hold : aucune donnée |
+| 1 | Manie (trouble bipolaire) | 0,9980 | L5 | Hold : la littérature décrit la propafénone comme cause de manie, donc un risque et non un bénéfice |
+| 3 | Paralysie périodique avec syndrome compartimental transitoire | 0,9967 | L5 | Hold : aucune donnée |
+| 4 | Angor de Prinzmetal | 0,9945 | L5 | Hold : aucun bénéfice établi, prudence en cardiopathie ischémique |
+| 6 | Cardiomyopathie arythmogène du ventricule droit | 0,9942 | L4 | Hold : signaux de sécurité (proarythmie) |
+| 7 | Syndrome néphrogénique d'antidiurèse inappropriée | 0,9923 | L5 | Hold : aucune donnée |
+| 8 | Trichotillomanie | 0,9917 | L5 | Hold : aucune donnée |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

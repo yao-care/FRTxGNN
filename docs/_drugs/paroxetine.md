@@ -6,9 +6,9 @@ nav_order: 580
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Paroxetine : nouvelle indication prédite, Syndrome d'Ohdo et ses variants (niveau de preuve L5). Indication d'origine : Données non disponibles dans le texte réglementaire français"
 monitor_inn: "paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine : nouvelle indication prédite, Syndrome d'Ohdo et ses variants (Ohdo syndrome and variants) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Paroxetine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Paroxétine : De la dépression et des troubles anxieux au syndrome d'Ohdo et ses variants
+## Paroxetine: Syndrome d'Ohdo et ses variants (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Données non disponibles dans le texte réglementaire français (les indications connues dans le graphe de connaissances incluent la dépression majeure, le trouble anxieux, le TOC, le TSPT et la phobie sociale) |
-| Nouvelle Indication Prédite | Syndrome d'Ohdo et ses variants |
-| Score de Prédiction TxGNN | 99,11 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'Ohdo et ses variants (Ohdo syndrome and variants) |
+| Score de Prédiction TxGNN | 0.9911 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement AMM annulée (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome d'Ohdo (y compris la variante Say-Barber-Biesecker-Young-Simpson) est une maladie génétique rare, couramment associée à des mutations de *KAT6B*, caractérisée par une déficience intellectuelle, un blépharophimosis et une hypotonie. Sa physiopathologie relève de mécanismes épigénétiques et développementaux, sans lien évident avec la pharmacologie sérotoninergique de la paroxétine.
 
-Un lien éventuel serait indirect, par exemple le traitement symptomatique d'une anxiété, d'une dépression ou de troubles du comportement associés. Cette hypothèse reste spéculative. Le score élevé reflète probablement une proximité dans le graphe de connaissances (phénotypes neuropsychiatriques ou développementaux partagés) plutôt qu'un véritable mécanisme thérapeutique.
+Un lien éventuel serait indirect, par exemple le traitement symptomatique d'une anxiété, d'une dépression ou de troubles du comportement associés. Cette hypothèse reste spéculative. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées (phénotypes neuropsychiatriques ou développementaux partagés), et non une preuve biologique ni un véritable mécanisme thérapeutique.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68085224 | DIVARIUS 20 mg, comprimé pelliculé sécable (CHIESI) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 68085224 | DIVARIUS 20 mg, comprimé pelliculé sécable (CHIESI) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

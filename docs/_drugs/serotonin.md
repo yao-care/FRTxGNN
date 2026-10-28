@@ -4,17 +4,17 @@ title: Serotonin
 parent: Preuves modérées (L3-L4)
 nav_order: 700
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Serotonin : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
 monitor_inn: "serotonin"
-predicted_indications: ["insomnia (disease)", "anxiety disorder", "migraine disorder", "anxiety", "agoraphobia", "migraine with brainstem aura", "benign paroxysmal torticollis of infancy", "migraine with or without aura, susceptibility to", "manic bipolar affective disorder", "atrophoderma vermiculata"]
+predicted_indications: ["insomnia (disease)", "anxiety disorder", "migraine disorder", "anxiety", "agoraphobia", "migraine with brainstem aura", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "atrophoderma vermiculata"]
 ---
 
 # Serotonin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Le niveau de preuve est donc très faible (**L4**) : la prédiction repose sur u
 |------|------|
 | Indication Originale | Non renseignée (le texte d'indication de l'AMM est vide) |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,90 % |
+| Score de Prédiction TxGNN | 0,9990 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement pour l'insomnie.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63553427 | SEROTONINUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Granules | Non renseignée (AMM annulée) |
+| 63553427 | SEROTONINUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Granules | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

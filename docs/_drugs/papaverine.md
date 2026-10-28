@@ -6,9 +6,9 @@ nav_order: 578
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Papaverine : nouvelle indication prédite, Maladie ischémique (niveau de preuve L4). Indication d'origine : Maladie vasculaire périphérique"
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
+description: "Papaverine : nouvelle indication prédite, Maladie ischémique (ischemic disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Papaverine
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Papavérine : Des maladies vasculaires périphériques à la maladie ischémique
+## Papaverine: Maladie ischémique (ischemic disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais seulement **1 essai clinique** (un registre diagnostique, sans test thérap
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie vasculaire périphérique (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Maladie ischémique |
-| Score de Prédiction TxGNN | 99,91 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie ischémique (ischemic disease) |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -87,7 +87,7 @@ Cette cohérence mécanistique est réelle, mais elle reste théorique. La litt�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61774341 | ACTICARBINE, comprimé enrobé (ELERTE) | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 61774341 | ACTICARBINE, comprimé enrobé (ELERTE) | Comprimé enrobé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

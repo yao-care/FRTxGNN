@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 482
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Mesalazine : nouvelle indication prédite, Hypotrichose congénitale avec dystrophie maculaire juvénile (niveau de preuve L5). Indication d'origine : Rectocolite hémorragique…"
 monitor_inn: "mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+description: "Mesalazine : nouvelle indication prédite, Hypotrichose congénitale avec dystrophie maculaire juvénile (congenital hypotrichosis with juvenile macular dystrophy) (niveau de preuve L5). Indication d'or…"
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Mésalazine : De la rectocolite hémorragique à la dysplasie congénitale hypotrichose-maculopathie juvénile
+## Mesalazine: Hypotrichose congénitale avec dystrophie maculaire juvénile (congenital hypotrichosis with juvenile macular dystrophy)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La mésalazine (acide 5-aminosalicylique, 5-ASA) est un anti-inflammatoire intestinal utilisé à l'origine pour traiter la rectocolite hémorragique, les maladies inflammatoires chroniques de l'intestin et la rectosigmoïdite ulcéreuse.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypotrichose congénitale avec dystrophie maculaire juvénile** (score de 99,65 %), mais cette prédiction repose uniquement sur le graphe de connaissances : **aucun essai clinique** et **aucune publication** ne la soutiennent.
+Le modèle TxGNN (deep learning) prédit qu'elle pourrait être efficace pour l'**hypotrichose congénitale avec dystrophie maculaire juvénile** (score de 0,9965), mais ce score provient du modèle TxGNN et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique : **aucun essai clinique** et **aucune publication** ne la soutiennent.
 
 ---
 
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypotrichose c
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rectocolite hémorragique, maladie inflammatoire chronique de l'intestin, rectosigmoïdite ulcéreuse (source : graphe de connaissances, le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypotrichose congénitale avec dystrophie maculaire juvénile |
-| Score de Prédiction TxGNN | 99,65 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypotrichose congénitale avec dystrophie maculaire juvénile (congenital hypotrichosis with juvenile macular dystrophy) |
+| Score de Prédiction TxGNN | 0.9965 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 19 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypotrichose c
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la mésalazine est un aminosalicylé dont l'effet anti-inflammatoire repose sur l'inhibition des voies COX/LOX (moindre synthèse de prostaglandines et de leucotriènes), l'activation de PPAR-gamma et la modulation de NF-kB. Son efficacité dans les maladies inflammatoires de l'intestin est établie.
 
-**Le lien mécanistique avec la nouvelle indication n'est pas établi.** Cette maladie est un trouble génétique ultra-rare (mutation de CDH3) qui altère le développement du follicule pileux et de la rétine. Le défaut sous-jacent concerne la cadhérine, et l'action anti-inflammatoire de la mésalazine n'a aucun lien plausible avec lui. Le score élevé du modèle reflète une proximité dans le graphe de connaissances, et non une preuve biologique ou clinique.
+**Le lien mécanistique avec la nouvelle indication n'est pas établi.** Cette maladie est un trouble génétique ultra-rare (mutation de CDH3) qui altère le développement du follicule pileux et de la rétine. Le défaut sous-jacent concerne la cadhérine, et l'action anti-inflammatoire de la mésalazine n'a aucun lien plausible avec lui. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique.
 
 À titre de comparaison, les autres prédictions classées par TxGNN sont tout aussi peu étayées : arthrose (une seule étude computationnelle de 2024), polyarthrite rhumatoïde (littérature indirecte, sans démonstration d'efficacité), kératose séborrhéique, susceptibilité à l'arthrose, kératose folliculaire inversée vulvaire et pseudoachondroplasie (aucune preuve).
 

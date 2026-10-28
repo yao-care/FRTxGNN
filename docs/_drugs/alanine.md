@@ -50,9 +50,9 @@ Aucun essai clinique n'est enregistré, et les **3 publications** retrouvées ne
 |------|------|
 | Indication Originale | Non précisée dans les données d'AMM |
 | Nouvelle Indication Predite | Gastroparésie |
-| Score de Prediction TxGNN | 99,37 % |
+| Score de Prediction TxGNN | 0,9937 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Toutes les AMM sont annulées |
+| Statut de Marche en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 |
 | Decision Recommandee | Hold |
 
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien mécanistique entre l'alanine et la gastroparésie n'est établi dans les données compilées. Une piste purement spéculative passerait par les perturbations métaboliques et hépatiques liées au diabète, première cause de gastroparésie. Il s'agit d'une inférence qu'aucune étude fournie ne soutient.
 
-Le score élevé de TxGNN (0,994) est une prédiction computationnelle et non une preuve clinique. Il doit être considéré comme une simple hypothèse de départ.
+Le score élevé de TxGNN (0,9937) est une prédiction computationnelle et non une preuve clinique. Il doit être considéré comme une simple hypothèse de départ.
 
 ---
 
@@ -114,7 +114,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Decision : Hold**
 
 **Justification :**
-- La seule base est un score TxGNN élevé (niveau L5) : aucun essai clinique, aucune littérature directe et aucun lien mécanistique démontré. Toutes les AMM françaises sont annulées et les données de sécurité officielles manquent.
+- La seule base est un score TxGNN élevé (niveau L5) : aucun essai clinique, aucune littérature directe et aucun lien mécanistique démontré. Le score de 0.9937 pour la gastroparésie provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies voisines, non une preuve biologique. 19 AMM françaises sont valides (médicament commercialisé), mais les données de sécurité officielles manquent.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer les mises en garde et contre-indications officielles (notices ANSM), étape bloquante pour l'examen de sécurité

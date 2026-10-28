@@ -6,9 +6,9 @@ nav_order: 602
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pibrentasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L5). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "PIBRENTASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Pibrentasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (hepatitis B virus infection) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pibrentasvir
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Pibrentasvir : De l'Hépatite C Chronique à l'Infection par le Virus de l'Hépatite B
+## Pibrentasvir: Infection par le virus de l'hépatite B (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection chronique par le virus de l'hépatite C (source : graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
-| Score de Prédiction TxGNN | 99,84 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'hépatite B (hepatitis B virus infection) |
+| Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,8 +84,8 @@ Aucune des publications retrouvées ne teste pibrentasvir contre le VHB. Les plu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet (annulée) | Granulés enrobés | Non renseignée |
-| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
+| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet (active) | Granulés enrobés | Non renseignée |
+| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
 
 ## Considérations de Sécurité
 

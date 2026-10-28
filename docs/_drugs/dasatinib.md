@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dasatinib
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 218
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dasatinib : nouvelle indication prédite, Sarcome d'Ewing (niveau de preuve L5). Indication d'origine : Leucémie myéloïde chronique BCR-ABL1 positive"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
+description: "Dasatinib : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Dasatinib : De la leucémie myéloïde chronique BCR-ABL1 positive au sarcome d'Ewing
+## Dasatinib: Sarcome d'Ewing (Ewing sarcoma)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **sarcome d'Ewing
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Leucémie myéloïde chronique BCR-ABL1 positive (le texte d'indication des AMM n'est pas renseigné dans les données compilées ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Predite | Sarcome d'Ewing |
-| Score de Prediction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Sarcome d'Ewing (Ewing sarcoma) |
+| Score de Prediction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 (selon les données compilées ; voir la réserve ci-dessous) |
-| Statut de Marche en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marche en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Decision Recommandee | Hold |
 
@@ -99,11 +99,11 @@ Les 20 AMM recensées sont toutes annulées ; le texte d'indication approuvée n
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 60926629 | DASATINIB SANDOZ 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64498745 | DASATINIB KRKA 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61237544 | DASATINIB BIOGARAN 50 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 66031135 | DASATINIB VIATRIS 20 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63719525 | DASATINIB ZENTIVA 100 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 60926629 | DASATINIB SANDOZ 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64498745 | DASATINIB KRKA 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61237544 | DASATINIB BIOGARAN 50 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 66031135 | DASATINIB VIATRIS 20 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63719525 | DASATINIB ZENTIVA 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -136,7 +136,6 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 
 **Justification :**
 - Le mécanisme (inhibition de SRC) est plausible et appuyé par des données précliniques, mais l'efficacité clinique dans le sarcome d'Ewing n'est pas démontrée, et dasatinib en monothérapie a échoué dans un essai de Phase 2. Les seuls éléments cliniques sont un essai terminé prématurément (7 patients), un essai en population mixte de sarcomes et une série de cas.
-- Aucune AMM n'est actuellement valide en France pour ce médicament, ce qui complique toute perspective d'utilisation.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats de l'essai NCT00464620 propres au sous-groupe sarcome d'Ewing
@@ -147,7 +146,7 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 
 ---
 
-*Remarque complémentaire : parmi les autres indications prédites, la « leucémie myéloïde » (rang 2) correspond largement à l'indication d'origine (LMC BCR-ABL1 positive) et ne constitue donc pas un véritable repositionnement. Elle est soutenue par plusieurs essais de Phase 3 (par exemple DASISION). Les indications des rangs 3 à 10 reposent sur des preuves précliniques ou sur la seule prédiction du modèle.*
+*Les indications des rangs 3 à 10 reposent sur des preuves précliniques ou sur la seule prédiction du modèle.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

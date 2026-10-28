@@ -49,9 +49,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine**, ave
 |------|------|
 | Indication Originale | Non précisée dans les données compilées (les textes d'indication des AMM sont vides) |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,20 % |
+| Score de Prédiction TxGNN | 0,9920 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -63,9 +63,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien hypothétique existe : l'inflammation neurogène participe à la physiopathologie de la migraine, et un anti-inflammatoire pourrait théoriquement agir sur ce processus. Il s'agit toutefois d'une **hypothèse spéculative** : aucun mécanisme crédible n'est établi.
 
-La seule publication retrouvée porte sur les troubles neuropsychiatriques associés aux corticoïdes intranasaux. Elle concerne la sécurité, non l'efficacité, et suggère plutôt un risque d'effets indésirables neurologiques qu'un bénéfice. Le score élevé du modèle peut refléter une proximité dans le graphe de connaissances plutôt qu'une relation pharmacologique réelle.
+La seule publication retrouvée porte sur les troubles neuropsychiatriques associés aux corticoïdes intranasaux. Elle concerne la sécurité, non l'efficacité, et suggère plutôt un risque d'effets indésirables neurologiques qu'un bénéfice. Le score élevé vient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique.
 
-Deux autres prédictions de score comparable (angor de Prinzmetal, 99,19 % ; migraine avec aura du tronc cérébral, 99,09 %) ne reposent sur aucune étude. La seconde est un sous-type de la migraine et reflète probablement la même prédiction. Aucun lien plausible n'est établi pour l'angor de Prinzmetal.
+Deux autres prédictions de score comparable (angor de Prinzmetal, 0,9919 ; migraine avec aura du tronc cérébral, 0,9909) ne reposent sur aucune étude. La seconde est un sous-type de la migraine et reflète probablement la même prédiction. Aucun lien plausible n'est établi pour l'angor de Prinzmetal.
 
 ---
 
@@ -113,7 +113,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur un score du modèle (niveau L5), sans essai clinique ni preuve d'efficacité. La seule publication disponible évoque plutôt un risque neuropsychiatrique. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes (blocage pour le dépistage de sécurité).
+- La prédiction repose uniquement sur un score du modèle (niveau L5), sans essai clinique ni preuve d'efficacité. La seule publication disponible évoque plutôt un risque neuropsychiatrique. De plus, le médicament est commercialisé en France (20 AMM valides) et les données de sécurité de la notice sont absentes (blocage pour le dépistage de sécurité).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde, contre-indications, indications d'origine).

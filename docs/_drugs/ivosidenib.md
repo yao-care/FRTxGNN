@@ -4,17 +4,17 @@ title: Ivosidenib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 421
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ivosidenib : nouvelle indication prédite, Poliomyélite bulbaire (niveau de preuve L5). Indication d'origine : Leucémie myéloïde aiguë"
 monitor_inn: "ivosidenib"
 predicted_indications: ["bulbar polio"]
+description: "Ivosidenib : nouvelle indication prédite, Poliomyélite bulbaire (bulbar polio) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ivosidenib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Ivosidénib : De la leucémie myéloïde aiguë à la poliomyélite bulbaire (prédiction du modèle)
+## Ivosidenib: Poliomyélite bulbaire (bulbar polio)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Ivosidénib est un inhibiteur de l'enzyme IDH1 mutée, initialement utilisé dans le traitement de la leucémie myéloïde aiguë (LAM).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **poliomyélite bulbaire**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction. L'analyse mécanistique ne retient aucun lien biologique plausible : le score élevé semble plutôt refléter un artefact du graphe de connaissances.
+Le modèle TxGNN (apprentissage profond) prédit qu'il pourrait être efficace pour la **poliomyélite bulbaire**, mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction. L'analyse mécanistique ne retient aucun lien biologique plausible : le score élevé provient du modèle TxGNN et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ---
 
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **poliomyélite b
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie myéloïde aiguë (le texte d'indication de l'AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Poliomyélite bulbaire |
-| Score de Prédiction TxGNN | 99,31 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Poliomyélite bulbaire (bulbar polio) |
+| Score de Prédiction TxGNN | 0.9931 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,11 +61,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **poliomyélite b
 
 Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'ivosidénib inhibe l'isocitrate déshydrogénase 1 (IDH1) mutée. Il réduit l'oncométabolite 2-hydroxyglutarate (2-HG) et lève le blocage de différenciation observé dans les hémopathies myéloïdes porteuses d'une mutation IDH1.
 
-La poliomyélite bulbaire est une infection virale des motoneurones causée par le poliovirus. Elle ne dépend ni d'une mutation d'IDH1 ni de la signalisation par le 2-HG. **Aucun lien mécanistique plausible n'a été identifié** entre l'indication d'origine et cette nouvelle indication. Le score TxGNN très élevé (0,993) reflète très probablement un artefact du graphe de connaissances plutôt qu'une justification biologique.
+La poliomyélite bulbaire est une infection virale des motoneurones causée par le poliovirus. Elle ne dépend ni d'une mutation d'IDH1 ni de la signalisation par le 2-HG. **Aucun lien mécanistique plausible n'a été identifié** entre l'indication d'origine et cette nouvelle indication. Le score TxGNN très élevé (0,9931) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une justification biologique.
 
 ### Autres prédictions du modèle
 
-Deux autres prédictions de score très proche (0,9926) sont biologiquement plus plausibles :
+Deux autres prédictions de score très proche (0,9931) sont biologiquement plus plausibles :
 
 - **LAM et syndromes myélodysplasiques liés à la radiothérapie**
 - **LAM et syndromes myélodysplasiques liés aux agents alkylants**

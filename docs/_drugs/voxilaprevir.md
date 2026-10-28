@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Voxilaprevir
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 823
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Voxilaprevir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L5). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Voxilaprevir : nouvelle indication prédite, Infection par le virus de l'hépatite B (hepatitis B virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Voxilaprevir
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Voxilaprevir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
+## Voxilaprevir: Infection par le virus de l'hépatite B (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection chronique par le virus de l'hépatite C (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
-| Score de Prédiction TxGNN | 99,84 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'hépatite B (hepatitis B virus infection) |
+| Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L4 (selon l'évaluation compilée ; aucune étude ne teste le voxilaprevir contre le VHB, ce qui correspond en pratique à une prédiction seule) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,7 +85,7 @@ Les neuf publications retrouvées concernent l'hépatite C. Aucune ne teste le v
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé (GILEAD SCIENCES IRELAND UC, Irlande) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé (GILEAD SCIENCES IRELAND UC, Irlande) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -48,10 +48,10 @@ Toutefois, **aucun essai clinique** et **aucune publication** ne soutiennent act
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (médicament antiarythmique) |
 | Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette |
-| Score de Prédiction TxGNN | 99,86 % |
+| Score de Prédiction TxGNN | 0,9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **En réalité, aucun lien mécanistique établi ne relie le disopyramide au syndrome de Gilles de la Tourette.** Les tics impliquent un dysfonctionnement dopaminergique et des circuits cortico-striato-thalamo-corticaux, sans rapport avec la pharmacologie connue du médicament. Une hypothèse purement spéculative serait que son effet anticholinergique modifie la signalisation cholinergique striatale.
 
-Le score très élevé (0,9986) reflète vraisemblablement une proximité dans le graphe de connaissances avec des nœuds neuropsychiatriques, et non une preuve biologique ou clinique. Il doit être interprété avec une grande prudence.
+Le score très élevé (0,9986) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique. Il doit être interprété avec une grande prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,14 +72,14 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM listées sont annulées ; le texte d'indication n'est pas renseigné.
+Les 4 AMM sur 4 sont valides (médicament commercialisé) ; le texte d'indication n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66198796 | ISORYTHM L.P. 125 mg | Gélule à libération prolongée | Annulée |
-| 63063487 | RYTHMODAN 100 mg | Gélule | Annulée |
-| 66308461 | ISORYTHM L.P. 250 mg | Gélule à libération prolongée | Annulée |
-| 69235837 | RYTHMODAN 250 mg à libération prolongée | Comprimé enrobé | Annulée |
+| 66198796 | ISORYTHM L.P. 125 mg | Gélule à libération prolongée | Active |
+| 63063487 | RYTHMODAN 100 mg | Gélule | Active |
+| 66308461 | ISORYTHM L.P. 250 mg | Gélule à libération prolongée | Active |
+| 69235837 | RYTHMODAN 250 mg à libération prolongée | Comprimé enrobé | Active |
 
 ## Considérations de Sécurité
 

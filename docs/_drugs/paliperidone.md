@@ -4,17 +4,17 @@ title: Paliperidone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 572
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Paliperidone : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (niveau de preuve L5). Indication d'origine : Troubles psychotiques, schizophrénie, trouble sc…"
 monitor_inn: "paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication d'…"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Palipéridone : De la schizophrénie au rétrécissement des prédictions du modèle (dystrophie rétinienne)
+## Paliperidone: Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La palipéridone est un antipsychotique injectable à libération prolongée, initialement utilisé pour le traitement de la schizophrénie, des troubles schizo-affectifs et d'autres troubles psychotiques.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extra-oculaires** (score de 99,92 %), mais **aucun essai clinique ni aucune publication** ne soutient cette prédiction pour l'instant.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extra-oculaires** (score de 0,9992), mais **aucun essai clinique ni aucune publication** ne soutient cette prédiction pour l'instant.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Troubles psychotiques, schizophrénie, trouble schizo-affectif (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 17 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la palipéridone (9-hydroxyrispéridone) est un antagoniste des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A, dont l'efficacité dans la schizophrénie est établie.
 
-**Aucun lien mécanistique plausible n'a été identifié** entre ce profil pharmacologique et les voies impliquées dans les dystrophies rétiniennes héréditaires. Le score élevé du modèle (0,999) reflète une association dans le graphe de connaissances, et non une preuve biologique ou clinique. Cette prédiction doit donc être considérée comme purement exploratoire.
+**Aucun lien mécanistique plausible n'a été identifié** entre ce profil pharmacologique et les voies impliquées dans les dystrophies rétiniennes héréditaires. Le score élevé (0,9992) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique. Cette prédiction doit donc être considérée comme purement exploratoire.
 
-Les autres prédictions les mieux classées présentent le même problème : myopie liée à l'X, myopie syndromique, hydranencéphalie, anomalies congénitales de la glycosylation, polymicrogyrie, maladie de Charcot-Marie-Tooth de type 1G et encéphalopathie glycinique atypique. Aucune n'a d'essai clinique ni de publication associés. Seule la **schizophrénie résistante au traitement** (10e rang, score 99,80 %) dispose de quelques éléments, mais il s'agit d'une sous-population de l'indication d'origine et non d'un véritable repositionnement.
+Les autres prédictions les mieux classées présentent le même problème : myopie liée à l'X, myopie syndromique, hydranencéphalie, anomalies congénitales de la glycosylation, polymicrogyrie, maladie de Charcot-Marie-Tooth de type 1G et encéphalopathie glycinique atypique. Aucune n'a d'essai clinique ni de publication associés.
 
 ## Preuves d'Essais Cliniques
 
@@ -109,7 +109,7 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la dystrophie rétinienne repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible. De plus, toutes les AMM françaises sont annulées.
+- La prédiction pour la dystrophie rétinienne repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible. Par ailleurs, le médicament est commercialisé en France : 17 AMM valides sur 17.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (DrugBank)

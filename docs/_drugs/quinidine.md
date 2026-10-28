@@ -6,9 +6,9 @@ nav_order: 644
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Quinidine : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Fibrillation auriculaire"
 monitor_inn: "quinidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Quinidine : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) (niveau de preuve L5). Indication d'origine : Non rense…"
 ---
 
 # Quinidine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Quinidine : De la fibrillation auriculaire et du paludisme au syndrome néphrogénique d'antidiurèse inappropriée
+## Quinidine: Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Fibrillation auriculaire ; paludisme (selon le graphe de connaissances TxGNN, le texte d'indication de l'AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
-| Score de Prédiction TxGNN | 99,27 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) |
+| Score de Prédiction TxGNN | 0.9927 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le SNAI est causé par des mutations gain de fonction du récepteur V2 de la vasopressine (AVPR2), entraînant une rétention d'eau et une hyponatrémie indépendamment de la vasopressine. Aucune voie établie ne relie les actions pharmacologiques de la quinidine à la signalisation d'AVPR2 ou à la gestion rénale de l'eau. Le lien mécanistique reste donc purement spéculatif.
 
-Le score élevé (0,993) provient uniquement du graphe de connaissances. Il doit être considéré comme un signal générateur d'hypothèses et non comme une preuve d'efficacité.
+Le score élevé (0.9927) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre des maladies apparentées, et non une preuve biologique. Il doit être considéré comme un signal générateur d'hypothèses et non comme une preuve d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66182379 | QUINIMAX 500 mg/4 ml, solution injectable (SANOFI WINTHROP INDUSTRIE), statut : annulée | Solution injectable | Non renseignée |
+| 66182379 | QUINIMAX 500 mg/4 ml, solution injectable (SANOFI WINTHROP INDUSTRIE), statut : active | Solution injectable | Non renseignée |
 
 ## Considérations de Sécurité
 

@@ -6,9 +6,9 @@ nav_order: 375
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Haloperidol : nouvelle indication prédite, Trouble congénital de la glycosylation avec défaut de fucosylation (niveau de preuve L5). Indication d'origine : Troubles psychotiques, schizophrénie, troub…"
 monitor_inn: "haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Haloperidol : nouvelle indication prédite, Congenital disorder of glycosylation with defective fucosylation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Haloperidol
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Halopéridol : De la schizophrénie et des troubles psychotiques au trouble congénital de la glycosylation avec défaut de fucosylation
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Troubles psychotiques, schizophrénie, trouble schizophréniforme, trouble schizo-affectif, syndrome de Gilles de la Tourette (le texte d'indication des AMM françaises n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Trouble congénital de la glycosylation avec défaut de fucosylation |
-| Score de Prédiction TxGNN | 99,91 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Congenital disorder of glycosylation with defective fucosylation |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, le halopéridol est un antipsychotique typique (butyrophénone) qui agit principalement par antagonisme des récepteurs dopaminergiques D2, avec une liaison aux récepteurs sigma. Son efficacité dans la schizophrénie et les troubles psychotiques est établie.
 
-**Aucun lien mécanistique n'a pu être identifié** entre ce mécanisme et un défaut de fucosylation, c'est-à-dire un trouble métabolique rare de la glycosylation des protéines. Le score élevé (99,91 %) reflète la structure du graphe de connaissances, et non une raison biologique ou clinique démontrée. La similarité avec l'indication originale (maladie psychiatrique) n'est pas établie non plus.
+**Aucun lien mécanistique n'a pu être identifié** entre ce mécanisme et un défaut de fucosylation, c'est-à-dire un trouble métabolique rare de la glycosylation des protéines. La similarité avec l'indication originale (maladie psychiatrique) n'est pas établie non plus.
 
 Cette prédiction doit donc être considérée comme une simple hypothèse à tester, et non comme une piste thérapeutique étayée.
 
@@ -76,11 +76,11 @@ Les cinq AMM du halopéridol (laboratoire ESSENTIAL PHARMA (M), Malte) sont **an
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 61490049 | HALDOL 1 mg, comprimé | Comprimé | Annulée |
-| 61697400 | HALDOL 5 mg, comprimé | Comprimé | Annulée |
-| 61505095 | HALDOL DECANOAS 50 mg/ml, solution injectable | Solution injectable | Annulée |
-| 62237643 | HALDOL 2 mg/ml, solution buvable | Solution buvable | Annulée |
-| 65374654 | HALDOL 5 mg/ml, solution injectable en ampoule | Solution injectable | Annulée |
+| 61490049 | HALDOL 1 mg, comprimé | Comprimé | Active |
+| 61697400 | HALDOL 5 mg, comprimé | Comprimé | Active |
+| 61505095 | HALDOL DECANOAS 50 mg/ml, solution injectable | Solution injectable | Active |
+| 62237643 | HALDOL 2 mg/ml, solution buvable | Solution buvable | Active |
+| 65374654 | HALDOL 5 mg/ml, solution injectable en ampoule | Solution injectable | Active |
 
 ## Considérations de Sécurité
 
@@ -110,7 +110,6 @@ Les mentions de la notice (mises en garde et contre-indications officielles) ne 
 - Données détaillées sur le mécanisme d'action (MOA) et analyse d'un éventuel lien avec la voie de la fucosylation.
 - Données précliniques (modèles cellulaires ou animaux) justifiant une hypothèse biologique pour cette maladie.
 - Récupération et analyse de la notice officielle de l'ANSM (mises en garde, contre-indications) pour un examen de sécurité complet.
-- Clarification de la situation réglementaire en France, puisque toutes les AMM sont annulées.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

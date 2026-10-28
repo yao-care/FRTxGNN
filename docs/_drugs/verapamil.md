@@ -4,17 +4,17 @@ title: Verapamil
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 809
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Verapamil : nouvelle indication prédite, Bloc de branche (terme obsolète) (niveau de preuve L5). Indication d'origine : Hypertension, fibrillation auriculaire, syndrome coronarien aigu…"
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Vérapamil : Des troubles cardiovasculaires à l'Hypertension rénale maligne (prédiction principale : bloc de branche obsolète)
+## Verapamil: Bloc de branche (obsolete bundle branch block)
 {: .text-alpha }
 
 > Remarque : la prédiction au rang 1 (« obsolete bundle branch block ») correspond à un terme d'ontologie obsolète et est mécanistiquement douteuse. Le rapport suit néanmoins la prédiction de rang 1 telle que fournie dans les données compilées.
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **bloc de branche
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension, fibrillation auriculaire, syndrome coronarien aigu, angor de Prinzmetal, tachycardie ventriculaire (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Bloc de branche (terme obsolète) |
-| Score de Prédiction TxGNN | 99,62 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bloc de branche (obsolete bundle branch block) |
+| Score de Prédiction TxGNN | 0.9962 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -61,7 +61,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Pour le bloc de branche, le lien est faible. Il s'agit d'un trouble de conduction du système de His-Purkinje, pour lequel le blocage du nœud AV n'offre aucun bénéfice thérapeutique clair et pourrait aggraver la conduction. De plus, le terme « obsolete » indique probablement une entrée d'ontologie dépréciée. La prédiction est donc mécanistiquement douteuse.
 
-Parmi les autres prédictions, la plus plausible est l'**hypertension rénale maligne** (rang 2, score 99,27 %) et l'**hypertension rénovasculaire maligne** (rang 3) : elles prolongent l'usage antihypertenseur connu, mais sans preuve directe. Les prédictions suivantes (hypertension pulmonaire, syndrome de Braddock, paralysie périodique) sont spéculatives ; pour l'hypertension pulmonaire, l'effet inotrope négatif du vérapamil constitue en outre une préoccupation de sécurité.
+Parmi les autres prédictions, la plus plausible est l'**hypertension rénale maligne** (rang 2, score 0,9927) et l'**hypertension rénovasculaire maligne** (rang 3) : elles prolongent l'usage antihypertenseur connu, mais sans preuve directe. Les prédictions suivantes (hypertension pulmonaire, syndrome de Braddock, paralysie périodique) sont spéculatives ; pour l'hypertension pulmonaire, l'effet inotrope négatif du vérapamil constitue en outre une préoccupation de sécurité.
 
 ## Preuves d'Essais Cliniques
 
@@ -77,11 +77,11 @@ Pour information, les publications retrouvées pour les indications de rang inf�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69181930 | VERAPAMIL EG L.P. 240 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée (AMM annulée) |
-| 69865024 | ISOPTINE 40 mg | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 63803877 | ISOPTINE L.P. 240 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée (AMM annulée) |
-| 60614889 | ISOPTINE 5 mg/2 ml | Solution injectable | Non renseignée (AMM annulée) |
-| 66814925 | ISOPTINE 120 mg | Gélule | Non renseignée (AMM annulée) |
+| 69181930 | VERAPAMIL EG L.P. 240 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée (AMM active) |
+| 69865024 | ISOPTINE 40 mg | Comprimé enrobé | Non renseignée (AMM active) |
+| 63803877 | ISOPTINE L.P. 240 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée (AMM active) |
+| 60614889 | ISOPTINE 5 mg/2 ml | Solution injectable | Non renseignée (AMM active) |
+| 66814925 | ISOPTINE 120 mg | Gélule | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -102,7 +102,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Récupérer les mises en garde et contre-indications de la notice (site de l'ANSM), étape bloquante pour le dépistage de sécurité
 - Rechercher des études cliniques ou observationnelles spécifiques au vérapamil dans l'indication retenue
-- Clarifier le statut réglementaire, toutes les AMM étant annulées
+- Clarifier le statut réglementaire : le médicament est commercialisé, avec 5 AMM valides sur 5
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

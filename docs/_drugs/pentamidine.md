@@ -6,9 +6,9 @@ nav_order: 587
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Pentamidine : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (niveau de preuve L5). Indication d'origine : Pneumocystose, trypanosomiase humaine africaine, trypanosomiase"
 monitor_inn: "PENTAMIDINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "exposure keratitis", "non-human animal disease", "congenital analbuminemia"]
+description: "Pentamidine : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
 ---
 
 # Pentamidine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Pentamidine : De la pneumocystose à la kératoconjonctivite ponctuée épithéliale
+## Pentamidine: Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,21 +45,21 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératoconjonct
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Pneumocystose, trypanosomiase humaine africaine, trypanosomiase (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Kératoconjonctivite ponctuée épithéliale |
-| Score de Prédiction TxGNN | 99,73 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) |
+| Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la pentamidine est un agent antimicrobien dont l'efficacité a été établie dans la pneumocystose et les trypanosomiases. Sur le plan mécanistique, elle pourrait être applicable à une kératoconjonctivite d'origine infectieuse (par exemple adénovirale ou microsporidienne).
 
-Ce lien reste toutefois spéculatif. Aucune donnée compilée pour ce rapport ne le démontre, et le score élevé du modèle (0,997) repose uniquement sur le graphe de connaissances. La voie d'administration oculaire et la tolérance locale de la pentamidine ne sont pas établies, et la compatibilité des voies d'administration reste à évaluer (la seule forme connue est une poudre pour aérosol et usage parentéral).
+Ce lien reste toutefois spéculatif. Aucune donnée compilée pour ce rapport ne le démontre, et le score élevé du modèle (0,9973) provient du modèle TxGNN (apprentissage profond) : il peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. La voie d'administration oculaire et la tolérance locale de la pentamidine ne sont pas établies, et la compatibilité des voies d'administration reste à évaluer (la seule forme connue est une poudre pour aérosol et usage parentéral).
 
-Les autres prédictions du modèle sont encore moins soutenues : kératopathie neurotrophique (99,67 %), kératite d'exposition (99,36 %), « maladie animale non humaine » (99,13 %, catégorie non spécifique, sans portée clinique) et analbuminémie congénitale (99,09 %, sans mécanisme plausible). Elles sont probablement des artefacts du graphe de connaissances et ne justifient pas d'évaluation à ce stade.
+Les autres prédictions du modèle sont encore moins soutenues : kératopathie neurotrophique (0,9967), kératite d'exposition (0,9936), « maladie animale non humaine » (0,9913, catégorie non spécifique, sans portée clinique) et analbuminémie congénitale (0,9909, sans mécanisme plausible). Ces scores proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises entre maladies apparentées, et non une preuve biologique ; ils ne justifient pas d'évaluation à ce stade.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61423246 | PENTACARINAT 300 mg, poudre pour aérosol et pour usage parentéral (statut : annulée) | Poudre pour aérosol et pour usage parentéral | Non renseignée |
+| 61423246 | PENTACARINAT 300 mg, poudre pour aérosol et pour usage parentéral (statut : active) | Poudre pour aérosol et pour usage parentéral | Non renseignée |
 
 ## Considérations de Sécurité
 

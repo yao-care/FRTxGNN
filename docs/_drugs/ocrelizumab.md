@@ -6,9 +6,9 @@ nav_order: 551
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ocrelizumab : nouvelle indication prédite, Carcinome mammaire HER2 positif (niveau de preuve L5). Indication d'origine : Sclérose en plaques progressive"
 monitor_inn: "ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
+description: "Ocrelizumab : nouvelle indication prédite, Carcinome mammaire HER2 positif (HER2 positive breast carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ocrelizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Ocrelizumab : De la sclérose en plaques progressive au carcinome mammaire HER2 positif
+## Ocrelizumab: Carcinome mammaire HER2 positif (HER2 positive breast carcinoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,21 +45,21 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome mamma
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Sclérose en plaques progressive (indication issue du graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Carcinome mammaire HER2 positif |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Carcinome mammaire HER2 positif (HER2 positive breast carcinoma) |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'ocrelizumab est un anticorps monoclonal humanisé anti-CD20 qui déplète les lymphocytes B. Son efficacité a été démontrée dans la sclérose en plaques, notamment dans sa forme primaire progressive.
 
-Aucun lien mécanistique direct n'est établi entre la déplétion des lymphocytes B par ciblage du CD20 et la biologie tumorale dépendante de HER2. Le score élevé du modèle (0,999) est une prédiction issue du graphe de connaissances, sans soutien clinique ou bibliographique. Cette prédiction doit donc être considérée comme une simple hypothèse à explorer, et non comme un résultat étayé.
+Aucun lien mécanistique direct n'est établi entre la déplétion des lymphocytes B par ciblage du CD20 et la biologie tumorale dépendante de HER2. Le score élevé (0,9989) provient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il n'est soutenu par aucune donnée clinique ou bibliographique. Cette prédiction doit donc être considérée comme une simple hypothèse à explorer, et non comme un résultat étayé.
 
-D'autres sous-types de cancer du sein figurent parmi les prédictions (récepteurs de la progestérone positifs ou négatifs, sous-type de type « normal breast-like », tumeurs luminales A ou B), avec des scores similaires (environ 0,998) et la même absence de preuves. Des scores identiques pour plusieurs sous-types suggèrent que le modèle reflète un voisinage commun dans le graphe plutôt qu'une biologie propre à chaque sous-type.
+D'autres sous-types de cancer du sein figurent parmi les prédictions du modèle TxGNN (deep learning) (récepteurs de la progestérone positifs ou négatifs, sous-type de type « normal breast-like », tumeurs luminales A ou B), avec des scores similaires (0,9980 à 0,9981) et la même absence de preuves. Des scores quasi identiques pour plusieurs sous-types suggèrent que le modèle peut refléter des similitudes apprises entre maladies apparentées, et non une biologie propre à chaque sous-type.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,8 +75,8 @@ Aucune littérature associée à l'indication principale (carcinome mammaire HER
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66127361 | OCREVUS 300 mg, solution à diluer pour perfusion (annulée) | Solution à diluer pour perfusion | Non renseignée |
-| 62251899 | OCREVUS 920 mg, solution injectable (annulée) | Solution injectable | Non renseignée |
+| 66127361 | OCREVUS 300 mg, solution à diluer pour perfusion (active) | Solution à diluer pour perfusion | Non renseignée |
+| 62251899 | OCREVUS 920 mg, solution injectable (active) | Solution injectable | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -92,7 +92,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication pertinente et sans lien mécanistique plausible entre l'anti-CD20 et le cancer du sein HER2 positif. De plus, aucune AMM n'est actuellement valide en France.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication pertinente et sans lien mécanistique plausible entre l'anti-CD20 et le cancer du sein HER2 positif.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice de l'ANSM (lacune bloquante pour le dépistage de sécurité).

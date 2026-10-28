@@ -48,17 +48,17 @@ Il s'agit d'une prédiction du modèle seule, sans validation réelle.
 |------|------|
 | Indication Originale | Filariose lymphatique, éléphantiasis, loase, onchocercose (texte d'indication de l'AMM non renseigné) |
 | Nouvelle Indication Prédite | Lymphœdème syndromique |
-| Score de Prédiction TxGNN | 99,59 % |
+| Score de Prédiction TxGNN | 0,9959 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement pour l'indication ciblée ; le système source indiquait L4) |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, la diéthylcarbamazine est un microfilaricide : elle agit sur le système neuromusculaire des parasites et favorise la cytotoxicité à médiation immunitaire de l'hôte (voie de l'acide arachidonique notamment).
 
-Le score élevé reflète très probablement la proximité, dans le graphe de connaissances, entre le lymphœdème syndromique et les lymphœdèmes filariens, qui font déjà partie des indications d'origine. Il ne traduit pas un effet validé sur les lymphœdèmes d'origine génétique.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, comme le lymphœdème syndromique et les lymphœdèmes filariens, qui font déjà partie des indications d'origine. Il ne constitue pas une preuve biologique d'un effet validé sur les lymphœdèmes d'origine génétique.
 
 Le lymphœdème syndromique résulte de défauts de développement ou génétiques du système lymphatique (voies VEGFR3, FOXC2, GJC2, par exemple), alors que le médicament cible le parasite. Aucun lien mécanistique plausible avec la pathologie sous-jacente n'a été établi. Tout bénéfice serait indirect et spéculatif.
 
@@ -75,13 +75,13 @@ Deux publications ont été rattachées à l'indication prédite. Elles portent 
 | [1580599](https://pubmed.ncbi.nlm.nih.gov/1580599/) | 1992 | Revue | Annual Review of Medicine | Éosinophilie pulmonaire tropicale : hyperréactivité immunitaire aux filaires (*W. bancrofti*, *B. malayi*), avec toux nocturne, dyspnée et éosinophilie sanguine |
 | [24772754](https://pubmed.ncbi.nlm.nih.gov/24772754/) | 2013 | Rapport de cas | J Assoc Physicians India | Chylurie et protéinurie néphrotique secondaires à une filariose, traitées par sclérothérapie et diéthylcarbamazine ; patiente asymptomatique à 19 mois |
 
-Pour le lymphœdème primaire (2e prédiction, score 99,25 %), 19 publications ont été recueillies. Elles portent presque exclusivement sur la filariose lymphatique, l'onchocercose ou l'éosinophilie pulmonaire tropicale (épidémiologie, programmes d'élimination, revues sur les antifilariens, une méta-analyse en réseau de 2025 et un essai randomisé sur des associations à base de moxidectine en 2025). Elles soutiennent l'usage dans la maladie filarienne, pas dans le lymphœdème primaire.
+Pour le lymphœdème primaire (2e prédiction, score 0,9925), 19 publications ont été recueillies. Elles portent presque exclusivement sur la filariose lymphatique, l'onchocercose ou l'éosinophilie pulmonaire tropicale (épidémiologie, programmes d'élimination, revues sur les antifilariens, une méta-analyse en réseau de 2025 et un essai randomisé sur des associations à base de moxidectine en 2025). Elles soutiennent l'usage dans la maladie filarienne, pas dans le lymphœdème primaire.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63411794 | NOTEZINE 100 mg, comprimé sécable (SANOFI WINTHROP INDUSTRIE) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 63411794 | NOTEZINE 100 mg, comprimé sécable (SANOFI WINTHROP INDUSTRIE) | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

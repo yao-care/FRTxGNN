@@ -4,17 +4,17 @@ title: Eslicarbazepine
 parent: Preuves élevées (L1-L2)
 nav_order: 298
 evidence_level: L2
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Eslicarbazepine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les AMM compilées (classe antiépileptique)"
 monitor_inn: "eslicarbazepine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "insomnia (disease)", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Eslicarbazepine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Eslicarbazepine
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **6** 
+Niveau de preuve: **L2** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 </div>
 
-## Eslicarbazépine : De l'épilepsie à la migraine (prévention)
+## Eslicarbazepine: Migraine (migraine disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,21 +46,21 @@ avec **1 essai clinique** de phase 2 terminé et **aucune publication** portant 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM compilées (classe antiépileptique) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
-| Score de Prédiction TxGNN | 99,78 % |
+| Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'eslicarbazépine appartient à la classe des antiépileptiques bloqueurs des canaux sodiques voltage-dépendants : elle stabilise l'état inactivé du canal et réduit l'hyperexcitabilité neuronale. Ce lien est déduit de la classe pharmacologique et n'est pas documenté dans les données compilées.
 
-Une hyperexcitabilité corticale et la dépression corticale envahissante sont impliquées dans la physiopathologie de la migraine. D'autres antiépileptiques (topiramate, valproate) sont des traitements préventifs établis, ce qui rend l'hypothèse plausible. Le score TxGNN très élevé (0,998) est cohérent avec ce raisonnement de classe.
+Une hyperexcitabilité corticale et la dépression corticale envahissante sont impliquées dans la physiopathologie de la migraine. D'autres antiépileptiques (topiramate, valproate) sont des traitements préventifs établis, ce qui rend l'hypothèse plausible. Le score TxGNN très élevé (0,9978) est cohérent avec ce raisonnement de classe.
 
-Toutefois, il s'agit d'une inférence : l'eslicarbazépine n'est pas commercialisée dans la migraine, et l'absence de résultats publiés de l'essai de phase 2 pourrait suggérer un bénéfice insuffisant. Les résultats doivent être vérifiés avant toute recommandation.
+Les résultats doivent être vérifiés avant toute recommandation.
 
 ## Preuves d'Essais Cliniques
 
@@ -83,8 +83,8 @@ Aucune publication ne porte directement sur l'eslicarbazépine dans la migraine.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63927729 | ESLICARBAZEPINE ARROW 800 mg, comprimé sécable (ARROW GÉNÉRIQUES) | Comprimé sécable | Non renseignée (AMM annulée) |
-| 68829121 | ZEBINIX 800 mg, comprimé (BIAL - PORTELA & CA) | Comprimé | Non renseignée (AMM annulée) |
+| 63927729 | ESLICARBAZEPINE ARROW 800 mg, comprimé sécable (ARROW GÉNÉRIQUES) | Comprimé sécable | Non renseignée (AMM active) |
+| 68829121 | ZEBINIX 800 mg, comprimé (BIAL - PORTELA & CA) | Comprimé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -97,7 +97,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- Une seule étude directe existe (phase 2 terminée, 452 patients), sans résultats disponibles, et le médicament n'est pas commercialisé dans la migraine, ce qui laisse penser que le bénéfice n'a pas été démontré. Les autres indications prédites (sous-types de migraine, insomnie, affections dermatologiques rares) reposent sur le modèle seul ou sur des données indirectes. Pour l'insomnie, la seule publication suggère plutôt un effet indésirable sur le sommeil.
+- Les autres indications prédites (sous-types de migraine, insomnie, affections dermatologiques rares) reposent sur le modèle seul ou sur des données indirectes. Pour l'insomnie, la seule publication suggère plutôt un effet indésirable sur le sommeil.
 - Les AMM françaises sont toutes annulées et les données de sécurité de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

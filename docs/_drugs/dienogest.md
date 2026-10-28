@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dienogest
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 238
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dienogest : nouvelle indication prédite, Aménorrhée (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM françaises (texte d'indication vide)"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ La dienogest est un progestatif de synthèse (dérivé de la 19-nortestostérone
 |------|------|
 | Indication originale | Non renseignée dans les AMM françaises (texte d'indication vide) ; usage connu : endométriose |
 | Nouvelle indication prédite | Aménorrhée |
-| Score de prédiction TxGNN | 99,71 % |
-| Niveau de preuve | L4 |
-| Statut de marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 10 (0 valide, 10 annulées) |
+| Score de prédiction TxGNN | 0,9971 |
+| Niveau de preuve | L5 |
+| Statut de marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'aménorrhée est un effet pharmacologique bien connu de ce traitement dans l'endométriose : c'est un résultat attendu sur le profil de saignements, voire un effet indésirable, et non la preuve d'un bénéfice contre l'aménorrhée en tant que maladie. L'aménorrhée hypo-œstrogénique pourrait même être aggravée par la suppression hormonale.
 
-Le score élevé du modèle reflète donc probablement un lien dans le graphe de connaissances (effet du médicament) plutôt qu'une indication thérapeutique plausible. Cette prédiction doit être considérée comme une question de recherche, non comme une piste de repositionnement validée.
+Le score élevé du modèle TxGNN (apprentissage profond) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Cette prédiction doit être considérée comme une question de recherche, non comme une piste de repositionnement validée.
 
 ---
 
@@ -90,15 +90,15 @@ Les publications ci-dessous concernent surtout l'endométriose et la sécurité 
 
 ## Informations de marché en France
 
-Toutes les AMM sont annulées ; aucun produit n'est actuellement commercialisé sous AMM valide. Les textes d'indication ne sont pas renseignés.
+Le médicament est commercialisé en France : 10 AMM valides sur 10. Les textes d'indication ne sont pas renseignés.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63308748 | VISANNE 2 mg | Comprimé | Annulée |
-| 62271624 | ENDOVELA 2 mg | Comprimé | Annulée |
-| 69875342 | DIENOGEST LABORATOIRES MAJORELLE 2 mg | Comprimé | Annulée |
-| 66165262 | ERYNJA 2 mg | Comprimé | Annulée |
-| 69497597 | SAWIS 2 mg | Comprimé | Annulée |
+| 63308748 | VISANNE 2 mg | Comprimé | Active |
+| 62271624 | ENDOVELA 2 mg | Comprimé | Active |
+| 69875342 | DIENOGEST LABORATOIRES MAJORELLE 2 mg | Comprimé | Active |
+| 66165262 | ERYNJA 2 mg | Comprimé | Active |
+| 69497597 | SAWIS 2 mg | Comprimé | Active |
 
 ---
 
@@ -118,7 +118,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - La prédiction repose sur un effet pharmacologique connu (induction d'aménorrhée) et non sur un bénéfice thérapeutique ; il n'existe aucun essai clinique ni publication démontrant un intérêt dans cette indication (niveau L4).
-- Les données de sécurité officielles manquent et toutes les AMM françaises sont annulées.
+- Les données de sécurité officielles manquent ; les 10 AMM françaises sont toutes valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (bloquant pour le criblage de sécurité).

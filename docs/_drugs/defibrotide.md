@@ -6,9 +6,9 @@ nav_order: 221
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Defibrotide : nouvelle indication prédite, Pseudo-maladie de von Willebrand (rang 1) (niveau de preuve L5). Indication d'origine : Maladie veino-occlusive hépatique"
 monitor_inn: "defibrotide"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "thrombotic thrombocytopenic purpura", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor V deficiency", "fetal and neonatal alloimmune thrombocytopenia", "thrombocytopenic purpura"]
+description: "Defibrotide : nouvelle indication prédite, Pseudo-maladie de von Willebrand (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Defibrotide
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Défibrotide : De la maladie veino-occlusive hépatique au purpura thrombotique thrombocytopénique
+## Defibrotide: Pseudo-maladie de von Willebrand (rang 1) ; piste la mieux documentée : purpura thrombotique thrombocytopénique (pseudo-von Willebrand disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le défibrotide est un oligonucléotide à effet antithrombotique et profibrinolytique, initialement utilisé pour traiter la **maladie veino-occlusive hépatique** (y compris le syndrome de maladie veino-occlusive avec déficit immunitaire).
-Le modèle TxGNN prédit en premier rang la **pseudo-maladie de von Willebrand** (score de 99,91 %), mais cette prédiction ne repose sur aucune preuve. La piste la mieux étayée parmi les prédictions est le **purpura thrombotique thrombocytopénique (PTT)**, avec **8 publications** (aucun essai clinique), essentiellement des cas cliniques, des revues et une étude in vitro.
+Le modèle TxGNN prédit en premier rang la **pseudo-maladie de von Willebrand** (score de 0,9991), mais cette prédiction ne repose sur aucune preuve. La piste la mieux étayée parmi les prédictions est le **purpura thrombotique thrombocytopénique (PTT)**, avec **8 publications** (aucun essai clinique), essentiellement des cas cliniques, des revues et une étude in vitro.
 
 ---
 
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit en premier rang la **pseudo-maladie de von Willebrand**
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie veino-occlusive hépatique (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Pseudo-maladie de von Willebrand (rang 1) ; piste la mieux documentée : purpura thrombotique thrombocytopénique (rang 4) |
-| Score de Prédiction TxGNN | 99,91 % (rang 1) ; 99,71 % pour le PTT (rang 4) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pseudo-maladie de von Willebrand (rang 1) ; piste la mieux documentée : purpura thrombotique thrombocytopénique (pseudo-von Willebrand disease) |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 pour le rang 1 ; L4 pour le PTT |
-| Statut de Marché en France | ✗ Annulée uniquement |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold (rang 1) ; question de recherche pour le PTT / la microangiopathie thrombotique associée à la greffe |
 
 ---
@@ -94,7 +94,7 @@ Publications relatives au PTT (rang 4), classées par type :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69439245 | DEFITELIO 80 mg/mL solution à diluer pour perfusion (GENTIUM, Italie) | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 69439245 | DEFITELIO 80 mg/mL solution à diluer pour perfusion (GENTIUM, Italie) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 

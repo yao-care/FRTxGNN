@@ -4,17 +4,17 @@ title: Salbutamol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 690
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Salbutamol : nouvelle indication prédite, Conjonctivite papillaire (niveau de preuve L5). Indication d'origine : Asthme, maladie bronchique"
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+description: "Salbutamol : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Salbutamol : De l'asthme à la conjonctivite papillaire
+## Salbutamol: Conjonctivite papillaire (papillary conjunctivitis)
 {: .text-alpha }
 
 ## Résumé en une phrase
@@ -48,12 +48,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Asthme, maladie bronchique (d'après le graphe de connaissances, faute d'AMM française) |
-| Nouvelle indication prédite | Conjonctivite papillaire |
-| Score de prédiction TxGNN | 99,996 % (rang 141) |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Conjonctivite papillaire (papillary conjunctivitis) |
+| Score de prédiction TxGNN | 1.0000 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de marché en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision recommandée | Hold |
 
 ---
@@ -97,7 +97,6 @@ Les notices de l'ANSM n'ont pas pu être exploitées : les mises en garde et con
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni publication ne la soutient, et le produit n'est pas commercialisé en France.
 - Les données de sécurité officielles et le mécanisme d'action manquent, ce qui empêche toute évaluation de sécurité approfondie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

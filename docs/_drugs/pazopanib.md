@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Preuves modérées (L3-L4)
 nav_order: 581
 evidence_level: L3
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pazopanib : nouvelle indication prédite, Carcinome rénal non classé (niveau de preuve L3). Indication d'origine : Sarcome des tissus mous, carcinome rénal à cellules claires"
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib : nouvelle indication prédite, Liposarcoma (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Pazopanib : Du Carcinome Rénal à Cellules Claires au Carcinome Rénal Non Classé
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome réna
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Sarcome des tissus mous, carcinome rénal à cellules claires (indications issues du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas disponible) |
-| Nouvelle Indication Prédite | Carcinome rénal non classé |
-| Score de Prédiction TxGNN | 99,63 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Liposarcoma |
+| Score de Prédiction TxGNN | 0.9959 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -80,8 +80,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63803884 | VOTRIENT 400 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non précisée |
-| 62894653 | VOTRIENT 200 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non précisée |
+| 63803884 | VOTRIENT 400 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non précisée |
+| 62894653 | VOTRIENT 200 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non précisée |
 
 ## Cytotoxicité
 
@@ -118,10 +118,9 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Rang | Indication Prédite | Score TxGNN | Niveau de Preuve | Décision |
 |------|------|------|------|------|
-| 4 | Liposarcome | 99,59 % | L2 | Proceed with Guardrails |
-| 8 | Néoplasme fibroblastique | 99,35 % | L2 | Proceed with Guardrails |
-| 10 | Dermatofibrosarcome protubérant | 99,29 % | L2 | Proceed with Guardrails |
-| 2, 3, 5, 6, 7, 9 | Carcinome rénal associé au neuroblastome ; carcinome rénal à translocation Xp11.2/TFE3 ; carcinome rénal de l'enfant ; liposarcome myxoïde ovarien ; fibrosarcome cardiaque ; fibrosarcome rénal | 99,32 % à 99,63 % | L5 | Hold |
+| 4 | Liposarcome | 0,9959 | L2 | Proceed with Guardrails |
+| 8 | Néoplasme fibroblastique | 0,9935 | L5 | Proceed with Guardrails |
+| 10 | Dermatofibrosarcome protubérant | 0,9929 | L2 | Proceed with Guardrails |
 
 Pour les indications de niveau L2, les données compilées comprennent des essais de phase II dédiés (liposarcome : NCT01506596 ; dermatofibrosarcome : NCT01059656, terminé prématurément avec 23 patients, et étude de phase II publiée PMID 32956651). Les indications de niveau L5 ne disposent d'aucun essai ni d'aucune publication.
 ## Avertissement

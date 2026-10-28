@@ -6,9 +6,9 @@ nav_order: 240
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Difluprednate : nouvelle indication prédite, Hypoplasie surrénalienne familiale avec absence de LH hypophysaire (r… (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM française (…"
 monitor_inn: "DIFLUPREDNATE"
 predicted_indications: ["familial adrenal hypoplasia with absent pituitary luteinizing hormone", "seborrheic keratosis", "PAGOD syndrome", "vulvar inverted follicular keratosis", "adrenocortical insufficiency", "seborrheic dermatitis", "46,XY disorder of sex development", "necrobiosis lipoidica", "nephrotic syndrome", "iris disease"]
+description: "Difluprednate : nouvelle indication prédite, Familial adrenal hypoplasia with absent pituitary luteinizing hormone (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
 ---
 
 # Difluprednate
@@ -33,31 +33,31 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Difluprednate : De l'inflammation oculaire à l'atteinte de l'iris (maladie de l'iris)
+## Difluprednate: Familial adrenal hypoplasia with absent pituitary luteinizing hormone
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le difluprednate est un corticoïde de synthèse puissant, utilisé en ophtalmologie pour traiter l'inflammation et la douleur après chirurgie oculaire ainsi que l'uvéite antérieure. La seule AMM française recensée (une crème dermatologique) est aujourd'hui annulée et ne mentionne aucune indication.
-Le modèle TxGNN place en tête de classement la **forme familiale d'hypoplasie surrénalienne avec absence de LH hypophysaire** (score de 99,96 %), mais cette prédiction n'est soutenue par aucune donnée clinique. La piste la plus plausible sur le plan biologique est la **maladie de l'iris**, soutenue par **0 essai clinique** et **1 publication** préclinique.
+Le modèle TxGNN place en tête de classement la **forme familiale d'hypoplasie surrénalienne avec absence de LH hypophysaire** (score de 0,9996), mais cette prédiction n'est soutenue par aucune donnée clinique. La piste la plus plausible sur le plan biologique est la **maladie de l'iris**, soutenue par **0 essai clinique** et **1 publication** préclinique.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans l'AMM française (usage connu : inflammation oculaire postopératoire et uvéite antérieure) |
-| Nouvelle Indication Prédite | Hypoplasie surrénalienne familiale avec absence de LH hypophysaire (rang 1) ; piste la plus plausible : maladie de l'iris (rang 10) |
-| Score de Prédiction TxGNN | 99,96 % (rang 1) ; 99,16 % (maladie de l'iris) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Familial adrenal hypoplasia with absent pituitary luteinizing hormone |
+| Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 (rang 1) ; L4 (maladie de l'iris) |
-| Statut de Marché en France | Annulé uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold (rang 1) ; question de recherche pour la maladie de l'iris |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Le difluprednate est toutefois un agoniste du récepteur des glucocorticoïdes (NR3C1), avec une affinité très élevée rapportée (Ki de 0,78 nM). Son effet anti-inflammatoire de classe est bien établi.
 
-**Rang 1 (hypoplasie surrénalienne familiale).** Une logique de substitution en glucocorticoïdes pourrait être avancée. Elle est cependant faible : la maladie résulte d'un défaut congénital du développement (par exemple NR0B1/DAX-1) qu'un corticoïde topique ne corrige pas. Le difluprednate n'a aucun usage de substitution systémique établi. Le score élevé reflète probablement la proximité dans le graphe de connaissances, non une preuve.
+**Rang 1 (hypoplasie surrénalienne familiale).** Une logique de substitution en glucocorticoïdes pourrait être avancée. Elle est cependant faible : la maladie résulte d'un défaut congénital du développement (par exemple NR0B1/DAX-1) qu'un corticoïde topique ne corrige pas. Le difluprednate n'a aucun usage de substitution systémique établi.
 
 **Maladie de l'iris (rang 10).** C'est le lien le plus cohérent. Le difluprednate en émulsion ophtalmique est utilisé contre l'inflammation du segment antérieur (uvéite antérieure), étroitement liée aux atteintes de l'iris (iritis, iridocyclite). La seule publication disponible est une étude pharmacocinétique chez le lapin : elle soutient la plausibilité biologique, mais pas l'efficacité clinique. La définition de cette indication reste par ailleurs imprécise.
 
@@ -79,7 +79,7 @@ Cette publication concerne la maladie de l'iris (rang 10). Aucune littérature n
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63588061 | EPITOPIC 0,05 POUR CENT, crème (ETHYX PHARMACEUTICALS) | Crème | Non renseignée (AMM annulée) |
+| 63588061 | EPITOPIC 0,05 POUR CENT, crème (ETHYX PHARMACEUTICALS) | Crème | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bosentan
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 112
-evidence_level: L4
-indication_count: 9
-last_modified_at: 2026-10-14
-description: "Bosentan : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Hypertension pulmonaire / hypertension artérielle pulmonaire…"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
+last_modified_at: 2026-10-27
+description: "Bosentan : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Bosentan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,74 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-## Bosentan : De l'Hypertension Artérielle Pulmonaire à la Polyarthrite Rhumatoïde
+## Bosentan : antagoniste dual des récepteurs de l'endothéline → polyarthrite rhumatoïde (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le bosentan est un antagoniste dual des récepteurs de l'endothéline (ETA/ETB), initialement utilisé pour traiter l'hypertension artérielle pulmonaire et la sclérodermie systémique.
-Le modèle TxGNN le prédit comme potentiellement efficace dans la **polyarthrite rhumatoïde**, mais aucun essai clinique n'est enregistré et les données disponibles se limitent à des **modèles animaux** et à des revues sur l'hypertension pulmonaire associée aux connectivites.
+Le bosentan est un antagoniste dual des récepteurs de l'endothéline (ETA/ETB), utilisé dans le domaine de l'hypertension artérielle pulmonaire.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rhumatoïde (rheumatoid arthritis)**.
+Les données compilées pour ce rapport ne contiennent **aucun essai clinique** et **aucune publication** qui étudie directement cette maladie chez l'humain ; seules des études précliniques chez la souris (dont une avec le bosentan) et des revues sur l'hypertension pulmonaire associée aux connectivites sont disponibles.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension pulmonaire / hypertension artérielle pulmonaire, sclérodermie, sclérodermie systémique (selon le graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,80 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 13 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Polyarthrite rhumatoïde (rheumatoid arthritis) |
+| Score de Prédiction TxGNN | 0,9980 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, le bosentan est un antagoniste dual des récepteurs de l'endothéline de type A et B, dont l'efficacité dans l'hypertension artérielle pulmonaire est reconnue.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, le bosentan bloque les récepteurs ETA et ETB de l'endothéline-1, un peptide vasoconstricteur également impliqué dans l'inflammation.
 
-L'endothéline-1 contribue à l'inflammation synoviale, à l'angiogenèse et à la libération de cytokines (TNF-alpha, IL-17, LTB4). Chez la souris, le bosentan a atténué l'arthrite induite par le collagène via une voie liée au TNF-α (PMID 22249931). Les taux d'endothéline-1 sont également élevés dans le plasma et la membrane synoviale des patients atteints de polyarthrite rhumatoïde.
+L'endothéline-1 contribue à l'inflammation synoviale, à l'angiogenèse et à la libération de cytokines (TNF-alpha, IL-17, LTB4). Chez la souris, le bosentan a atténué l'arthrite induite par le collagène, via une voie liée au TNF-α (PMID 22249931). Une autre étude chez la souris montre aussi l'implication des endothélines dans l'arthrite induite par le zymosan (PMID 18515326).
 
-Il faut toutefois rester prudent : les preuves se limitent à des modèles animaux et à des revues sur l'hypertension artérielle pulmonaire associée aux connectivites. Aucune donnée ne démontre un bénéfice du bosentan dans le traitement de la polyarthrite rhumatoïde chez l'humain.
+Ces données restent toutefois limitées à des modèles animaux et à des revues sur l'hypertension pulmonaire associée aux connectivites. Aucune étude ne démontre un bénéfice du bosentan dans la polyarthrite rhumatoïde chez l'humain. Le lien mécanistique est plausible, mais hypothétique.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Préclinique (modèle animal) | Inflamm Res | Le bosentan atténue l'arthrite induite par le collagène chez la souris ; rôle du TNF-α dans l'induction des gènes du système endothéline |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Préclinique (modèle animal) | J Leukoc Biol | Les endothélines modulent la réaction inflammatoire dans l'arthrite induite par le zymosan (LTB4, TNF-α, CXCL-1) |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Revue | Rheum Dis Clin North Am | HTAP associée aux connectivites : pronostic sévère, options thérapeutiques croissantes |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Revue | Lupus | HTAP associée aux connectivites, dont la polyarthrite rhumatoïde à un moindre degré |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Revue | Rheumatology (Oxford) | Vasculopathie et HTAP dans le lupus, le syndrome de Sjögren et les vascularites |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Rapport de cas | Kardiol Pol | Syndrome d'Eisenmenger traité par bosentan chez une fillette ayant aussi une arthrite juvénile ; pas de lien thérapeutique avec l'arthrite |
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Préclinique (modèle animal) | Inflammation Research | Le bosentan atténue l'arthrite induite par le collagène chez la souris ; rôle du TNF-α dans l'induction des gènes du système endothéline |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Préclinique (modèle animal) | Journal of Leukocyte Biology | Les endothélines modulent la réaction inflammatoire dans l'arthrite induite par le zymosan (LTB4, TNF-α, CXCL-1) |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Préclinique (modèle animal) | PNAS | L'hypernociception induite par l'IL-15 passe par l'IFN-γ, l'endothéline et les prostaglandines |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Préclinique (modèle animal, sans bosentan) | Pain | Rôle de l'IL-17 dans l'hypernociception articulaire dans l'arthrite induite par antigène |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Revue | Rheum Dis Clin North Am | Revue de l'hypertension artérielle pulmonaire associée aux connectivites |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Revue | Lupus | HTAP associée aux connectivites, dont, plus rarement, la polyarthrite rhumatoïde |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Cas clinique | Kardiologia Polska | Fillette sous bosentan pour un syndrome d'Eisenmenger, chez qui une arthrite juvénile a été diagnostiquée ensuite ; pas d'effet démontré sur l'arthrite |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65100183 | TRACLEER 62,5 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61855918 | TRACLEER 125 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64186770 | TRACLEER 32 mg | Comprimé dispersible | Non renseignée (AMM annulée) |
-| 64664996 | BOSENTAN SUN 125 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64043587 | BOSENTAN ACCORD 125 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-
-Les 13 AMM recensées sont annulées ; aucune n'est actuellement valide. Seules cinq sont listées ici.
+Les données compilées indiquent 13 AMM pour des spécialités à base de bosentan (Tracleer, Bosentan Sun, Stragen, Accord, Arrow, Viatris), sous forme de comprimés pelliculés, pelliculés sécables et dispersibles. Les textes d'indication ne sont pas renseignés dans les données locales. Les données de statut disponibles sont incohérentes entre les champs (le statut de marché indique « commercialisé » alors que les licences sont décrites comme annulées) ; le statut de chaque AMM doit donc être vérifié auprès de l'ANSM.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (non issues de la notice) : insuffisance hépatique, maladie hépatique, atteinte hépatique d'origine médicamenteuse, maladie de la vésicule biliaire, thrombopénie, insuffisance cardiaque congestive, anémie (dont macrocytaire), hyperbilirubinémie (dont héréditaire), syndrome de Gilbert, œdème pulmonaire, maladie veino-occlusive pulmonaire.
-- **Interactions médicamenteuses** : 244 interactions recensées. Parmi les exemples de niveau modéré : hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, pioglitazone, aprépitant, métronidazole, clarithromycine, cimétidine, cisapride, canagliflozine, dapagliflozine, empagliflozine.
+- **Contre-indications possibles (relations de bases de données, hors texte de la notice)** : insuffisance hépatique, maladie hépatique, lésion hépatique d'origine médicamenteuse, maladie de la vésicule biliaire, thrombopénie, anémie, insuffisance cardiaque congestive, hyperbilirubinémie (dont syndrome de Gilbert), œdème pulmonaire, maladie veino-occlusive pulmonaire.
+- **Interactions Médicamenteuses** : 244 interactions recensées. Parmi celles de niveau modéré : hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, pioglitazone, aprépitant, métronidazole, cimétidine, clarithromycine, cisapride, clotrimazole, ainsi que plusieurs antidiabétiques (canagliflozine, dapagliflozine, empagliflozine, ertugliflozine, chlorpropamide, acétohexamide).
 
-Les informations issues de la notice (mises en garde, contre-indications) n'ont pas pu être obtenues ; veuillez consulter la notice pour les informations de sécurité complètes.
+Les mises en garde de la notice ne sont pas disponibles : veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score élevé du modèle, mais sans essai clinique ni donnée humaine dans la polyarthrite rhumatoïde ; seuls des modèles animaux soutiennent l'hypothèse (niveau L4).
-- Le profil de sécurité (toxicité hépatique, contre-indications) et l'absence d'AMM valide en France appellent à la prudence.
+Aucune étude ne porte directement sur l'effet du bosentan dans la polyarthrite rhumatoïde chez l'humain : les seules données sont précliniques ou concernent d'autres conditions. Le niveau de preuve est donc L5, malgré un score de prédiction élevé (0,9980).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action
-- Mises en garde et contre-indications issues de la notice de l'ANSM
-- Études précliniques supplémentaires, puis un essai clinique exploratoire de phase 2 dans la polyarthrite rhumatoïde
-- Évaluation du rapport bénéfice/risque hépatique dans cette population
-
-## Note sur les Autres Prédictions
-
-Parmi les autres indications prédites, la **sclérodermie systémique limitée** (score 99,65 %, niveau L3) correspond à une indication d'origine du médicament : il s'agit d'un signal d'indication déjà connue plutôt que d'un véritable repositionnement. Elle est soutenue par une revue systématique avec méta-analyse sur les ulcères digitaux (PMID 36974107) et des recommandations de pratique, mais aucun essai enregistré n'a été fourni. Les autres prédictions (goutte, hypertrichose, syndromes rares) ne disposent d'aucune preuve thérapeutique ; pour la goutte, la seule publication est une analyse de pharmacovigilance, qui suggère plutôt un événement indésirable.
+- Des études cliniques (au minimum de phase 2) dans la polyarthrite rhumatoïde
+- Des données détaillées sur le mécanisme d'action
+- Les mises en garde et contre-indications issues de la notice de l'ANSM
+- Une évaluation du profil de sécurité (notamment hépatique et hématologique) dans cette population
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

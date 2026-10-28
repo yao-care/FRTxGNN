@@ -6,9 +6,9 @@ nav_order: 562
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Oxacillin : nouvelle indication prédite, Épiglottite (niveau de preuve L5). Indication d'origine : Infections à Staphylococcus aureus et infections staphylococciques (p…"
 monitor_inn: "oxacillin"
 predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
+description: "Oxacillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Oxacillin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Oxacilline : Des Infections à Staphylocoque à l'Épiglottite
+## Oxacillin: Épiglottite (epiglottitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Pour information, l'indication classée en 3e position, l'arthrite bactérienne,
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections à *Staphylococcus aureus* et infections staphylococciques (pharyngite, pneumonie staphylococcique, sinusite) ; le texte d'indication des AMM n'est pas renseigné |
-| Nouvelle Indication Prédite | Épiglottite |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Épiglottite (epiglottitis) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,10 +74,10 @@ Aucune littérature associée disponible actuellement pour l'épiglottite.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 64323500 | OXACILLINE PANPHARMA 1 g, poudre pour solution injectable (IV) | Poudre pour solution injectable | Annulée |
-| 69443560 | ISTOPEN 1 g/5 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | Annulée |
+| 64323500 | OXACILLINE PANPHARMA 1 g, poudre pour solution injectable (IV) | Poudre pour solution injectable | Active |
+| 69443560 | ISTOPEN 1 g/5 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | Active |
 
-Le texte de l'indication approuvée n'est pas renseigné pour ces deux AMM. Aucune AMM n'est actuellement valide : la disponibilité du produit devra être vérifiée avant toute évaluation formelle.
+Le texte de l'indication approuvée n'est pas renseigné pour ces deux AMM.
 
 ## Considérations de Sécurité
 
@@ -99,7 +99,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Rechercher des données microbiologiques et cliniques sur l'épiglottite à *S. aureus*
 - Vérifier la disponibilité réelle du produit en France
-- Piste à approfondir : l'arthrite bactérienne (score 99,50 %, niveau L4), étroitement liée à l'indication staphylococcique existante, mérite d'être traitée comme question de recherche, tandis que la laryngite et l'infection urinaire (probabilité clinique limitée) restent en attente
+- Piste à approfondir : l'arthrite bactérienne (score 0,9950, niveau L4), étroitement liée à l'indication staphylococcique existante, mérite d'être traitée comme question de recherche, tandis que la laryngite et l'infection urinaire (probabilité clinique limitée) restent en attente
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

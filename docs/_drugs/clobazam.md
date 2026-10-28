@@ -6,9 +6,9 @@ nav_order: 181
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clobazam : nouvelle indication prédite, Syndrome d'épilepsie lié à une infection fébrile (FIRES) (niveau de preuve L5). Indication d'origine : Syndrome de Lennox-Gastaut"
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
+description: "Clobazam : nouvelle indication prédite, Febrile infection-related epilepsy syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clobazam
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Clobazam : Du Syndrome de Lennox-Gastaut au Syndrome d'épilepsie lié à une infection fébrile (FIRES)
+## Clobazam: Febrile infection-related epilepsy syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais cette prédiction ne repose que sur **2 publications** (séries et rapports
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome de Lennox-Gastaut (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'épilepsie lié à une infection fébrile (FIRES) |
-| Score de Prédiction TxGNN | 99,82 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Febrile infection-related epilepsy syndrome |
+| Score de Prédiction TxGNN | 0.9982 |
 | Niveau de Preuve | L5 selon la grille de ce rapport (aucun essai clinique ; seulement 2 cas/séries de cas n'évaluant pas le clobazam) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -77,10 +77,10 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 62905911 | URBANYL 10 mg, comprimé sécable | Comprimé sécable | Non renseignée | Annulée |
-| 65899602 | LIKOZAM 1 mg/ml, suspension buvable | Suspension buvable | Non renseignée | Annulée |
-| 64630403 | URBANYL 5 mg, gélule | Gélule | Non renseignée | Annulée |
-| 63470312 | URBANYL 20 mg, comprimé | Comprimé | Non renseignée | Annulée |
+| 62905911 | URBANYL 10 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
+| 65899602 | LIKOZAM 1 mg/ml, suspension buvable | Suspension buvable | Non renseignée | Active |
+| 64630403 | URBANYL 5 mg, gélule | Gélule | Non renseignée | Active |
+| 63470312 | URBANYL 20 mg, comprimé | Comprimé | Non renseignée | Active |
 
 ## Considérations de Sécurité
 
@@ -95,15 +95,15 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 | Rang | Maladie | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | Myoclonies périorales avec absences | 99,79 % | L5 | Hold |
-| 3 | Épilepsie photosensible du lobe occipital | 99,77 % | L4 | Hold |
-| 4 | Épilepsie atypique de l'enfant à pointes centrotemporales | 99,77 % | L4 | Question de recherche |
-| 5 | Spasmes épileptiques tardifs cryptogéniques | 99,77 % | L4 | Hold |
-| 6 | Encéphalopathie épileptique de l'enfant | 99,59 % | L3 | Question de recherche |
-| 7 | Épilepsie occipitale bénigne | 99,58 % | L4 | Question de recherche |
-| 8 | Encéphalopathie épileptique précoce liée à GRIN2A | 99,40 % | L5 | Hold |
-| 9 | Syndrome des jambes sans repos | 99,30 % | L5 | Hold |
-| 10 | Polymicrogyrie avec hypoplasie du nerf optique | 99,09 % | L5 | Hold |
+| 2 | Myoclonies périorales avec absences | 0,9979 | L5 | Hold |
+| 3 | Épilepsie photosensible du lobe occipital | 0,9977 | L5 | Hold |
+| 4 | Épilepsie atypique de l'enfant à pointes centrotemporales | 0,9977 | L5 | Question de recherche |
+| 5 | Spasmes épileptiques tardifs cryptogéniques | 0,9977 | L5 | Hold |
+| 6 | Encéphalopathie épileptique de l'enfant | 0,9959 | L5 | Question de recherche |
+| 7 | Épilepsie occipitale bénigne | 0,9958 | L5 | Question de recherche |
+| 8 | Encéphalopathie épileptique précoce liée à GRIN2A | 0,9940 | L5 | Hold |
+| 9 | Syndrome des jambes sans repos | 0,9930 | L5 | Hold |
+| 10 | Polymicrogyrie avec hypoplasie du nerf optique | 0,9909 | L5 | Hold |
 
 Ces niveaux sont ceux attribués dans les données compilées. L'encéphalopathie épileptique de l'enfant (rang 6) est la piste la plus proche de l'usage connu (guides et revues sur le syndrome de Lennox-Gastaut), mais elle repose sur des revues et recommandations, sans essai dédié.
 
@@ -113,7 +113,7 @@ Ces niveaux sont ceux attribués dans les données compilées. L'encéphalopathi
 
 **Justification :**
 - Pour le FIRES, la prédiction repose uniquement sur le score du modèle et sur un raisonnement de classe GABAergique. Les deux publications ne concernent pas le clobazam, et il n'existe aucun essai clinique.
-- Toutes les AMM françaises du clobazam sont annulées, et les données de sécurité issues de la notice sont absentes, ce qui bloque le passage au criblage de sécurité.
+- Les 4 AMM françaises du clobazam sur 4 sont valides, mais les données de sécurité issues de la notice sont absentes, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM

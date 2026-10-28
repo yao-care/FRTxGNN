@@ -47,17 +47,17 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **lèpre**, mais 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Lèpre |
-| Score de Prédiction TxGNN | 99,53 % |
+| Score de Prédiction TxGNN | 0,9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues, l'enfortumab vedotin est un conjugué anticorps-médicament dirigé contre la Nectine-4, qui libère la MMAE, un agent cytotoxique perturbant les microtubules, dans les cellules tumorales exprimant cette cible.
 
-Aucun lien mécanistique n'est établi entre ce mode d'action et l'infection par *Mycobacterium leprae*. Rien dans les données ne relie le ciblage de la Nectine-4 ou la délivrance d'une charge cytotoxique à la lèpre. Le score TxGNN élevé (0,995) reflète vraisemblablement des artefacts liés à la structure du réseau de connaissances plutôt qu'une plausibilité biologique.
+Aucun lien mécanistique n'est établi entre ce mode d'action et l'infection par *Mycobacterium leprae*. Rien dans les données ne relie le ciblage de la Nectine-4 ou la délivrance d'une charge cytotoxique à la lèpre. Le score TxGNN élevé (0,9953) reflète vraisemblablement des artefacts liés à la structure du réseau de connaissances plutôt qu'une plausibilité biologique.
 
 Les autres prédictions du modèle (néoplasie endocrinienne multiple, infection à cytomégalovirus, candidose, infarctus cérébral, infection par le VIH, hypercholestérolémie familiale homozygote, etc.) présentent le même constat : aucun essai clinique, aucun rationnel mécanistique, et le niveau de preuve reste L5 pour toutes.
 
@@ -80,8 +80,8 @@ Aucune littérature associée disponible actuellement pour la lèpre.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67032044 | PADCEV 20 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 67688034 | PADCEV 30 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 67032044 | PADCEV 20 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 67688034 | PADCEV 30 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

@@ -39,7 +39,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 ## Résumé en Une Phrase
 
 La mométasone est un corticoïde de synthèse, utilisé à l'origine par voie nasale ou inhalée (asthme, rhinite allergique, polypose nasale) et par voie cutanée dans les dermatoses allergiques.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **lymphome cutané primitif à cellules T**, avec un score élevé de 99,36 %.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **lymphome cutané primitif à cellules T**, avec un score élevé de 0,9936.
 Aucun essai clinique n'est enregistré et seules **2 publications** (deux cas cliniques) mentionnent le sujet : la prédiction repose pour l'instant uniquement sur le modèle.
 
 ---
@@ -50,10 +50,10 @@ Aucun essai clinique n'est enregistré et seules **2 publications** (deux cas cl
 |------|------|
 | Indication Originale | Non précisée dans les AMM compilées (usage connu : asthme, rhinite allergique, polypose nasale, dermatoses allergiques) |
 | Nouvelle Indication Prédite | Lymphome cutané primitif à cellules T |
-| Score de Prédiction TxGNN | 99,36 % |
+| Score de Prédiction TxGNN | 0,9936 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 17 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ---
@@ -112,7 +112,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, et seulement deux cas cliniques non probants. De plus, toutes les AMM françaises sont annulées et les données de sécurité issues de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, et seulement deux cas cliniques non probants. De plus, les 17 AMM françaises sur 17 sont valides (médicament commercialisé), mais les données de sécurité issues de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)

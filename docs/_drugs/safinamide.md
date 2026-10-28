@@ -6,9 +6,9 @@ nav_order: 689
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Safinamide : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (niveau de preuve L5). Indication d'origine : Maladie de Parkinson"
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
+description: "Safinamide : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Safinamide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Safinamide : De la maladie de Parkinson à l'encéphalite de Rasmussen
+## Safinamide: Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Parkinson (indication issue du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Encéphalite subaiguë de Rasmussen |
-| Score de Prédiction TxGNN | 99,63 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) |
+| Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM en vigueur) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien reste toutefois spéculatif. L'encéphalite de Rasmussen est principalement due à une destruction auto-immune médiée par les lymphocytes T, et aucun lien direct entre safinamide et ce processus n'a été démontré. La seule base de cette prédiction est le score élevé de TxGNN.
 
-À titre de comparaison, deux autres indications prédites présentent des liens encore plus faibles ou différents : la **myélite** (score 99,46 %), pour laquelle l'effet neuroprotecteur du médicament ne répond pas aux causes inflammatoires ou infectieuses sous-jacentes, et la **neurodégénérescence associée à PLA2G6** (score 99,22 %), la plus plausible biologiquement en raison de ses manifestations parkinsoniennes, mais seulement pour un bénéfice symptomatique moteur, sans effet sur le défaut sous-jacent. Aucune de ces trois prédictions ne dispose de preuves cliniques.
+À titre de comparaison, deux autres indications prédites présentent des liens encore plus faibles ou différents : la **myélite** (score 0,9946), pour laquelle l'effet neuroprotecteur du médicament ne répond pas aux causes inflammatoires ou infectieuses sous-jacentes, et la **neurodégénérescence associée à PLA2G6** (score 0,9922), la plus plausible biologiquement en raison de ses manifestations parkinsoniennes, mais seulement pour un bénéfice symptomatique moteur, sans effet sur le défaut sous-jacent. Aucune de ces trois prédictions ne dispose de preuves cliniques.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,8 +74,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61882445 | XADAGO 50 mg, comprimé pelliculé (ZAMBON, Italie) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 66932795 | XADAGO 100 mg, comprimé pelliculé (ZAMBON, Italie) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61882445 | XADAGO 50 mg, comprimé pelliculé (ZAMBON, Italie) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 66932795 | XADAGO 100 mg, comprimé pelliculé (ZAMBON, Italie) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

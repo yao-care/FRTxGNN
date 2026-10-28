@@ -6,9 +6,9 @@ nav_order: 530
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nelarabine : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (niveau de preuve L5). Indication d'origine : Leucémie aiguë lymphoblastique, leucémie à cellules T…"
 monitor_inn: "nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
+description: "Nelarabine : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les donn…"
 ---
 
 # Nelarabine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Nélarabine : De la leucémie aiguë lymphoblastique à la sclérose en plaques récurrente-rémittente
+## Nelarabine: Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie aiguë lymphoblastique, leucémie à cellules T, lymphome lymphoblastique T (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Sclérose en plaques récurrente-rémittente |
-| Score de Prédiction TxGNN | 99,43 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis) |
+| Score de Prédiction TxGNN | 0.9943 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien plausible, mais non vérifié, avec la sclérose en plaques récurrente-rémittente serait la déplétion sélective de lymphocytes pathogènes, comme pour la cladribine, un analogue de purine approuvé dans la SEP. Cette hypothèse n'est étayée par aucune donnée compilée.
 
-Un élément va fortement à l'encontre de cette piste : la nélarabine est connue pour sa neurotoxicité importante (somnolence sévère, neuropathies, démyélinisation, syndromes de type Guillain-Barré). Son usage dans une maladie démyélinisante du système nerveux central est donc très préoccupant. Le score TxGNN (0,994) est une prédiction computationnelle et ne constitue pas une preuve clinique.
+Un élément va fortement à l'encontre de cette piste : la nélarabine est connue pour sa neurotoxicité importante (somnolence sévère, neuropathies, démyélinisation, syndromes de type Guillain-Barré). Son usage dans une maladie démyélinisante du système nerveux central est donc très préoccupant. Le score TxGNN (0,9943) est une prédiction computationnelle et ne constitue pas une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66034512 | ATRIANCE 5 mg/ml, solution pour perfusion (SANDOZ PHARMACEUTICALS) | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 66034512 | ATRIANCE 5 mg/ml, solution pour perfusion (SANDOZ PHARMACEUTICALS) | Solution pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

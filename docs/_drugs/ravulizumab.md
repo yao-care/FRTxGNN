@@ -6,9 +6,9 @@ nav_order: 655
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ravulizumab : nouvelle indication prédite, Neutropénie congénitale sévère autosomique récessive par déficit en G… (niveau de preuve L5). Indication d'origine : Hémoglobinurie paroxystique nocturne"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
+description: "Ravulizumab : nouvelle indication prédite, Neutropénie congénitale sévère autosomique récessive par déficit en G6PC3 (autosomal recessive severe congenital neutro… (niveau de preuve L5). Indication d…"
 ---
 
 # Ravulizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ravulizumab : De l'Hémoglobinurie Paroxystique Nocturne à la Neutropénie Congénitale Sévère par Déficit en G6PC3
+## Ravulizumab: Neutropénie congénitale sévère autosomique récessive par déficit en G6PC3 (autosomal recessive severe congenital neutropenia due to G6PC3 deficiency)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hémoglobinurie paroxystique nocturne (texte d'indication des AMM non disponible ; source : graphe de connaissances) |
-| Nouvelle Indication Prédite | Neutropénie congénitale sévère autosomique récessive par déficit en G6PC3 |
-| Score de Prédiction TxGNN | 99,96 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Neutropénie congénitale sévère autosomique récessive par déficit en G6PC3 (autosomal recessive severe congenital neutropenia due to G6PC3 deficiency) |
+| Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (0 valide, 2 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, ravulizumab est un inhibiteur du composant C5 du complément à longue durée d'action. Son efficacité dans l'hémoglobinurie paroxystique nocturne, une maladie d'hémolyse médiée par le complément, est établie.
 
-Aucun lien mécanistique direct n'est établi avec la neutropénie par déficit en G6PC3. Cette maladie résulte d'un défaut de la sous-unité catalytique de la glucose-6-phosphatase, qui entraîne une apoptose des neutrophiles et un stress du réticulum endoplasmique. L'inhibition terminale du complément ne cible pas cette physiopathologie. Le score élevé du modèle est une inférence issue du graphe de connaissances, sans confirmation clinique ni bibliographique.
+Aucun lien mécanistique direct n'est établi avec la neutropénie par déficit en G6PC3. Cette maladie résulte d'un défaut de la sous-unité catalytique de la glucose-6-phosphatase, qui entraîne une apoptose des neutrophiles et un stress du réticulum endoplasmique. L'inhibition terminale du complément ne cible pas cette physiopathologie. Le score élevé (0.9996) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, sans confirmation clinique ni bibliographique.
 
 Les autres prédictions du modèle ne sont pas mieux étayées. Elles concernent d'autres neutropénies congénitales (dont les formes par déficit en CXCR2 et liées à l'X), l'hématopoïèse cyclique, l'hyperoxalurie primitive, la pseudo-maladie de von Willebrand, le déficit immunitaire par déficit en p14, un trouble de la libération plaquettaire et l'anémie mégaloblastique. Pour la plupart, aucun lien mécanistique avec l'inhibition de C5 n'est connu. Pour l'hyperoxalurie primitive, seul un lien indirect et spéculatif est évoqué.
 
@@ -74,8 +74,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64265627 | ULTOMIRIS 1100 mg/11 mL (ALEXION EUROPE), statut : annulée | Solution à diluer pour perfusion | Non renseignée |
-| 61808523 | ULTOMIRIS 300 mg/3 mL (ALEXION EUROPE), statut : annulée | Solution à diluer pour perfusion | Non renseignée |
+| 64265627 | ULTOMIRIS 1100 mg/11 mL (ALEXION EUROPE), statut : active | Solution à diluer pour perfusion | Non renseignée |
+| 61808523 | ULTOMIRIS 300 mg/3 mL (ALEXION EUROPE), statut : active | Solution à diluer pour perfusion | Non renseignée |
 
 ## Considérations de Sécurité
 

@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: Prédiction du modèle uniquement (L5)
+parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 550
-evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Obinutuzumab : nouvelle indication prédite, LLC / lymphome lymphocytique à petites cellules avec hypermutation so… (niveau de preuve L5). Indication d'origine : Leucémie lymphoblastique aiguë, syndro…"
+last_modified_at: 2026-10-23
+description: "Obinutuzumab : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **N/A** | Indications prédites: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,48 +32,45 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Obinutuzumab : De la leucémie lymphoblastique aiguë à la leucémie lymphoïde chronique / lymphome lymphocytique à petites cellules (sous-type avec hypermutation somatique IGHV)
+<!-- known-uses-page -->
+<!-- description: Obinutuzumab : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate -->
+## Obinutuzumab
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé
+Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidats pour Obinutuzumab, mais tous ceux dont la source peut être retracée correspondent à des usages déjà connus. Il n'y a donc actuellement aucune nouvelle indication prédite pour cette substance. Les deux candidats identifiés relèvent de la même catégorie de maladie qu'une indication approuvée.
 
-Obinutuzumab est un anticorps monoclonal anti-CD20. Selon le graphe de connaissances utilisé par le modèle, il est associé à la leucémie lymphoblastique aiguë et au syndrome de Richter.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie lymphoïde chronique / lymphome lymphocytique à petites cellules avec hypermutation somatique des gènes IGHV**.
-Pour ce sous-type précis, **aucun essai clinique ni publication** ne soutient actuellement la prédiction, qui repose uniquement sur le modèle.
-
-## Aperçu Rapide
-
+## Aperçu rapide
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique aiguë, syndrome de Richter (d'après le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | LLC / lymphome lymphocytique à petites cellules avec hypermutation somatique IGHV |
-| Score de Prédiction TxGNN | 99,21 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM abrogées (aucune AMM valide) |
-| Nombre d'AMM | 1 |
-| Décision Recommandée | Hold |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
+| Usages connus parmi les candidats du modèle | 2 |
+| Statut commercial en France | Commercialisé (autorisations valides : 1 sur 1) |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Usages connus parmi les candidats du modèle
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'obinutuzumab est un anticorps dirigé contre l'antigène CD20 des lymphocytes B. Les cellules de LLC et de lymphome lymphocytique à petites cellules expriment CD20, ce qui rend une activité mécanistiquement plausible.
+### Approuvés (appuyés par une autorisation ou une notice)
+| Indication | Source |
+|------|------|
+| Aucune | Aucune |
 
-Il faut toutefois nuancer. La LLC est une catégorie de maladie plus large, et le sous-type IGHV muté n'en est qu'une subdivision. Il ne s'agit donc pas vraiment d'une cible de repositionnement nouvelle. Le modèle attribue d'ailleurs exactement le même score (99,21 %) au sous-type « LLC/lymphome lymphocytique à petites cellules prégerminal ». Les deux nœuds de l'ontologie sont probablement très proches, voire dupliqués. Aucune donnée fournie ne permet d'affirmer une efficacité spécifique à un sous-type.
+### Liés à une indication approuvée (même catégorie de maladie)
+| Indication | Catégorie approuvée |
+|------|------|
+| leucémie lymphoïde chronique/lymphome lymphocytique à petites cellules avec hypermutation somatique des gènes de la région variable de la chaîne lourde des immunoglobulines (chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation) | cll |
+| leucémie lymphoïde chronique/lymphome lymphocytique à petites cellules pré-centre germinatif (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) | cll |
 
-Les données compilées contiennent aussi une prédiction pour le **lymphome folliculaire** (score 99,18 %), beaucoup mieux documentée. Elle est détaillée dans la conclusion.
-
-## Preuves d'Essais Cliniques
-
-Aucun essai clinique associé enregistré actuellement pour ce sous-type de LLC/lymphome lymphocytique à petites cellules.
-
-## Preuves de la Littérature
-
-Aucune littérature associée disponible actuellement pour ce sous-type.
+### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+| Indication |
+|------|
+| Aucune |
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61042996 | GAZYVARO 1000 mg (ROCHE REGISTRATION) | Solution à diluer pour perfusion | Non précisée ; AMM abrogée |
+| AMM | Produit | Forme | Statut |
+|------|------|------|------|
+| 61042996 | OBINUTUZUMAB | solution à diluer pour perfusion | Active |
 
 ## Cytotoxicité
 
@@ -95,20 +93,6 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 
 Veuillez consulter la notice pour les autres informations de sécurité.
 
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
-
-**Justification :**
-- Pour le sous-type IGHV muté de la LLC/lymphome lymphocytique à petites cellules, la prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication spécifique.
-- Le statut réglementaire français (AMM unique abrogée) et l'absence de données de notice limitent aussi toute décision.
-
-**Pour avancer, les éléments suivants sont nécessaires :**
-- **Lymphome folliculaire.** C'est la prédiction la mieux documentée dans les données compilées : niveau L1, recommandation « Proceed with Guardrails ». Elle s'appuie sur des essais randomisés de phase 3 (étude GALLIUM, publiée dans NEJM 2017, J Clin Oncol 2018 et HemaSphere 2023). Elle s'appuie aussi sur l'étude de phase 2 randomisée ROSEWOOD (zanubrutinib + obinutuzumab) et sur de nombreux essais en cours ou terminés. Il s'agit probablement d'une indication déjà établie plutôt que d'un vrai repositionnement. Cette prédiction devrait faire l'objet d'une évaluation distincte.
-- Vérifier l'incohérence apparente des données : indications d'origine (leucémie lymphoblastique aiguë, syndrome de Richter) et AMM abrogée, alors que l'usage dans le lymphome folliculaire et la LLC est connu. Le statut réglementaire actuel doit être confirmé auprès de l'ANSM.
-- Récupérer le texte de la notice (mises en garde, contre-indications) auprès de l'ANSM.
-- Compléter les données sur le mécanisme d'action.
-- Rechercher des données cliniques spécifiques au sous-type IGHV (mutation ou non) de la LLC.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

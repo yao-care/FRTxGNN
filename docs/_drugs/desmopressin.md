@@ -4,17 +4,17 @@ title: Desmopressin
 parent: Preuves modérées (L3-L4)
 nav_order: 226
 evidence_level: L3
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Desmopressin : nouvelle indication prédite, Défaut primaire de sécrétion plaquettaire (primary release disorder o… (niveau de preuve L3). Indication d'origine : Maladie de von Willebrand, hémophilie,…"
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
+description: "Desmopressin : nouvelle indication prédite, Congenital prothrombin deficiency (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Desmopressin
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **7** 
+Niveau de preuve: **L3** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **7**
 
 </div>
 
-## Desmopressine : Des troubles hémorragiques héréditaires aux troubles de la fonction plaquettaire (défaut de sécrétion plaquettaire primaire)
+## Desmopressin: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,15 +45,15 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour le **défaut pri
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Maladie de von Willebrand, hémophilie, énurésie nocturne (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Predite | Défaut primaire de sécrétion plaquettaire (*primary release disorder of platelets*) |
-| Score de Prediction TxGNN | 99,26 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Congenital prothrombin deficiency |
+| Score de Prediction TxGNN | 0.9970 |
 | Niveau de Preuve | L3 |
-| Statut de Marche en France | Uniquement des AMM annulées |
+| Statut de Marche en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Decision Recommandee | Proceed with Guardrails |
 
-> Remarque : la première prédiction du classement (déficit congénital en prothrombine, score 99,70 %) n'a pas été retenue comme candidate principale, car le lien mécanistique est faible et les preuves se limitent à une revue de 1993 (niveau L5, décision Hold). La candidate présentée ici est la mieux étayée parmi les six prédictions.
+> Remarque : la première prédiction du classement (déficit congénital en prothrombine, score 0,9970) n'a pas été retenue comme candidate principale, car le lien mécanistique est faible et les preuves se limitent à une revue de 1993 (niveau L5, décision Hold). La candidate présentée ici est la mieux étayée parmi les six prédictions.
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
@@ -83,15 +83,15 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marche en France
 
-Toutes les AMM de la desmopressine sont annulées ; aucune n'est valide actuellement (20 AMM au total). Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les cinq premières AMM sont listées ci-dessous.
+Il existe 20 AMM valides pour la desmopressine ; le médicament est commercialisé. Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les cinq premières AMM sont listées ci-dessous.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 69836880 | DESMOPRESSINE EG 60 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM annulée) |
-| 61596554 | DESMOPRESSINE SANDOZ 240 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM annulée) |
-| 64694815 | DESMOPRESSINE ZENTIVA 120 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM annulée) |
-| 62822682 | MINIRIN 0,1 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 68239932 | DESMOPRESSINE TEVA 120 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM annulée) |
+| 69836880 | DESMOPRESSINE EG 60 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
+| 61596554 | DESMOPRESSINE SANDOZ 240 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
+| 64694815 | DESMOPRESSINE ZENTIVA 120 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
+| 62822682 | MINIRIN 0,1 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 68239932 | DESMOPRESSINE TEVA 120 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
 
 Les formes recensées parmi les 20 AMM sont : comprimé sublingual, lyophilisat oral, spray nasal, solution et solution injectable.
 
@@ -115,7 +115,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Prévoir un test de réponse avant usage (temps de saignement ou PFA-100) et une surveillance de la natrémie.
 - Concevoir une étude prospective de petite taille avec critères de réponse définis.
-- Clarifier le statut réglementaire actuel des produits, toutes les AMM étant annulées.
+- Clarifier le statut réglementaire actuel des produits, 20 AMM étant valides.
 
 **Autres prédictions du classement :**
 - Le **déficit congénital en prothrombine**, la **thrombophilie héréditaire**, la **pseudo-maladie de von Willebrand**, le **syndrome de Scott** et le **« flood factor deficiency »** (libellé probablement erroné, à vérifier) sont en *Hold* : mécanisme faible ou absent, et pour deux d'entre eux (thrombophilie héréditaire, pseudo-maladie de von Willebrand) un risque de sécurité plutôt qu'une opportunité thérapeutique.

@@ -47,9 +47,9 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour la **gastroparésie**
 |------|------|
 | Indication Originale | Non précisée dans les données compilées |
 | Nouvelle Indication Prédite | Gastroparésie |
-| Score de Prédiction TxGNN | 99,32 % |
+| Score de Prédiction TxGNN | 0,9932 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -75,10 +75,10 @@ Les 20 AMM recensées sont annulées. Les 5 principales sont listées ci-dessous
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | Annulée |
-| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Annulée |
-| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Annulée |
-| 62947013 | AMINOPLASMAL 25 | Solution pour perfusion | Annulée |
+| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | Active |
+| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Active |
+| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Active |
+| 62947013 | AMINOPLASMAL 25 | Solution pour perfusion | Active |
 | 61786735 | AMINOMIX 500 | Solution et solution pour perfusion | Annulée |
 
 ## Considérations de Sécurité
@@ -93,7 +93,7 @@ Veuillez consulter la notice pour les autres informations de sécurité (mises e
 **Décision : Hold**
 
 **Justification :**
-- La seule preuve est un score de prédiction élevé (niveau L5), sans essai clinique, sans publication ni mécanisme documenté. De plus, toutes les AMM françaises sont annulées.
+- La seule preuve est un score de prédiction élevé (niveau L5), sans essai clinique, sans publication ni mécanisme documenté. De plus, le médicament est commercialisé en France, avec 19 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications), actuellement manquante et bloquante pour le criblage de sécurité

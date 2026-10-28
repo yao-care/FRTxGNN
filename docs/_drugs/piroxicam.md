@@ -6,9 +6,9 @@ nav_order: 611
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Piroxicam : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose"
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
+description: "Piroxicam : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndro… (niveau de preuve L5). Indication d'o…"
 ---
 
 # Piroxicam
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Piroxicam : De la polyarthrite rhumatoïde au syndrome de microphtalmie colobomateuse-dysplasie rhizomélique
+## Piroxicam: Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, arthrose (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique |
-| Score de Prédiction TxGNN | 99,996 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 13 (dont 13 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 13) |
+| Nombre d'AMM | 13 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, piroxicam fait partie de la classe des AMNS inhibiteurs de la cyclo-oxygénase (COX-1/COX-2). Son efficacité dans les maladies articulaires inflammatoires est établie. Il réduit la synthèse des prostaglandines, ce qui diminue l'inflammation et la douleur.
 
-Pour la nouvelle indication prédite, **aucun lien mécanistique plausible n'a été identifié**. Cette maladie est un syndrome génétique rare du développement, touchant le squelette et l'œil. L'inhibition de la COX n'a pas de rôle connu dans sa physiopathologie. Le score élevé reflète probablement des annotations musculo-squelettiques partagées dans le graphe de connaissances, plutôt qu'un véritable signal thérapeutique.
+Pour la nouvelle indication prédite, **aucun lien mécanistique plausible n'a été identifié**. Cette maladie est un syndrome génétique rare du développement, touchant le squelette et l'œil. L'inhibition de la COX n'a pas de rôle connu dans sa physiopathologie.
 
 Les autres prédictions les mieux classées vont dans le même sens. Il s'agit surtout de dysplasies squelettiques génétiques (brachydactylie-syndactylie, dysplasie acromésomélique de type Hunter-Thompson, brachyolmie, pseudoachondroplasie), sans preuve ni lien mécanistique.
 
@@ -102,9 +102,8 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (L5), sans essai clinique, sans publication ni lien mécanistique plausible avec l'inhibition de la COX.
-- Toutes les AMM françaises sont annulées, et le profil de risque cardiovasculaire, rénal, hépatique et digestif est défavorable.
 
-**Piste alternative à noter :** parmi les prédictions de rang inférieur, l'**arthrite juvénile idiopathique** (rang 10, score 99,93 %) est biologiquement cohérente avec l'indication d'origine. Son niveau de preuve est L3, avec 10 publications :
+**Piste alternative à noter :** parmi les prédictions de rang inférieur, l'**arthrite juvénile idiopathique** (rang 10, score 0,9993) est biologiquement cohérente avec l'indication d'origine. Son niveau de preuve est L3, avec 10 publications :
 - Deux méta-analyses en réseau sur les AINS (2021, 2024) qui comparent la classe sans être spécifiques au piroxicam.
 - Une étude de 1987 comparant piroxicam et naproxène chez 26 patients, avec attribution aléatoire.
 - Une étude multicentrique de 1986 comparant les deux produits chez 47 enfants.
@@ -115,7 +114,6 @@ Ces études sont anciennes, antérieures aux biothérapies. Cette piste relève 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de piroxicam.
 - Mises en garde et contre-indications officielles de la notice (ANSM).
-- Pour le syndrome prédit : une justification biologique indépendante du graphe (modèles précliniques) avant tout investissement clinique.
 - Pour l'arthrite juvénile idiopathique : une revue ciblée des données pédiatriques spécifiques au piroxicam, comparée aux alternatives actuelles.
 - Clarification du statut réglementaire, puisqu'aucune AMM n'est en vigueur en France.
 ## Avertissement

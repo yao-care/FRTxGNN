@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Preuves modérées (L3-L4)
 nav_order: 566
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Oxcarbazepine : nouvelle indication prédite, Épilepsie visuelle (niveau de preuve L4). Indication d'origine : Épilepsie partielle, épilepsie partielle motrice"
 monitor_inn: "oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine : nouvelle indication prédite, Restless legs syndrome (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Oxcarbazépine : De l'épilepsie partielle à l'épilepsie visuelle
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**épilepsie vis
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Épilepsie partielle, épilepsie partielle motrice (le texte d'indication des AMM n'est pas renseigné dans les données compilées ; l'indication provient du graphe de connaissances) |
-| Nouvelle Indication Predite | Épilepsie visuelle |
-| Score de Prediction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Restless legs syndrome |
+| Score de Prediction TxGNN | 0.9989 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -82,15 +82,15 @@ Aucune publication spécifique à l'épilepsie visuelle n'a été identifiée. L
 
 ## Informations de Marche en France
 
-Toutes les AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Le médicament est commercialisé en France : 10 AMM valides sur 10. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 66770635 | OXCARBAZEPINE VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64876757 | TRILEPTAL 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 66064587 | TRILEPTAL 60 mg/ml, suspension buvable | Suspension buvable | Non renseignée (AMM annulée) |
-| 64327694 | OXCARBAZEPINE SANDOZ 300 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63089749 | OXCARBAZEPINE SANDOZ 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 66770635 | OXCARBAZEPINE VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64876757 | TRILEPTAL 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 66064587 | TRILEPTAL 60 mg/ml, suspension buvable | Suspension buvable | Non renseignée (AMM active) |
+| 64327694 | OXCARBAZEPINE SANDOZ 300 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63089749 | OXCARBAZEPINE SANDOZ 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considerations de Securite
 
@@ -105,7 +105,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle et sur une extrapolation à partir de l'épilepsie focale : il n'existe ni essai clinique ni étude spécifique à l'épilepsie visuelle (niveau L4).
-- Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice ne sont pas disponibles, ce qui bloque le passage à l'évaluation de sécurité.
+- Le médicament est commercialisé en France (10 AMM valides sur 10), mais les données de sécurité issues de la notice ne sont pas disponibles, ce qui bloque le passage à l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle auprès de l'ANSM (mises en garde et contre-indications) ;

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 monitor_inn: "ROPINIROLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
-description: "Ropinirole : nouvelle indication prédite, Trouble du déficit de l'attention avec hyperactivité (TDAH) (niveau de preuve L3). Indication d'origine : Syndrome des jambes sans repos, maladie de Parkinso"
+description: "Ropinirole : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ropinirole
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Ropinirole : Du Syndrome des Jambes Sans Repos au Trouble du Déficit de l'Attention avec Hyperactivité
+## Ropinirole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique enregistré n'est disponible, mais **8 publications** ont �
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome des jambes sans repos, maladie de Parkinson (le texte d'indication de l'AMM française n'est pas renseigné ; ces indications proviennent du graphe de connaissances) |
-| Nouvelle Indication Prédite | Trouble du déficit de l'attention avec hyperactivité (TDAH) |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Attention deficit-hyperactivity disorder |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,7 +83,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68209070 | REQUIP 2 mg, comprimé pelliculé (GlaxoSmithKline) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68209070 | REQUIP 2 mg, comprimé pelliculé (GlaxoSmithKline) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

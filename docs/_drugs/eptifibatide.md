@@ -6,9 +6,9 @@ nav_order: 290
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Eptifibatide : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Syndrome coronarien aigu"
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
+description: "Eptifibatide : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Eptifibatide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Eptifibatide : Du Syndrome Coronarien Aigu à la Polyarthrite Rhumatoïde
+## Eptifibatide: Polyarthrite rhumatoïde (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rh
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome coronarien aigu (d'après le graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Polyarthrite rhumatoïde (rheumatoid arthritis) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM abrogées (non commercialisé) |
-| Nombre d'AMM | 2 (0 valide, 2 abrogées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -83,10 +83,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut | Indication Approuvée |
 |---------|------|------|------|-----------|
-| 67185951 | EPTIFIBATIDE ACCORD 2 mg/ml | Solution injectable | Abrogée | Non renseignée |
-| 61707499 | EPTIFIBATIDE ACCORD 0,75 mg/ml | Solution pour perfusion | Abrogée | Non renseignée |
+| 67185951 | EPTIFIBATIDE ACCORD 2 mg/ml | Solution injectable | Active | Non renseignée |
+| 61707499 | EPTIFIBATIDE ACCORD 0,75 mg/ml | Solution pour perfusion | Active | Non renseignée |
 
-Les deux AMM appartiennent à ACCORD HEALTHCARE (Espagne) et concernent des spécialités à base d'eptifibatide seul. Aucune n'est actuellement valide.
+Les deux AMM appartiennent à ACCORD HEALTHCARE (Espagne) et concernent des spécialités à base d'eptifibatide seul.
 
 ---
 

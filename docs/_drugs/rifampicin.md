@@ -6,9 +6,9 @@ nav_order: 666
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Rifampicin : nouvelle indication prédite, Conjonctivite (niveau de preuve L4). Indication d'origine : Tuberculose pulmonaire"
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Rifampicin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rifampicin
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Rifampicine : De la tuberculose pulmonaire à la conjonctivite
+## Rifampicin: Conjonctivite (conjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais aucun essai clinique n'est enregistré et les **20 publications** disponibl
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tuberculose pulmonaire (source : graphe de connaissances TxGNN ; aucun texte d'indication n'est renseigné dans les AMM) |
-| Nouvelle Indication Prédite | Conjonctivite |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Conjonctivite (conjunctivitis) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -87,15 +87,15 @@ Les publications les plus pertinentes sont listées ci-dessous (la majorité n'e
 
 ## Informations de Marché en France
 
-Toutes les AMM associées sont annulées ; le texte de l'indication approuvée n'est pas renseigné.
+Le médicament est commercialisé : les 6 AMM associées sont valides (6 sur 6) ; le texte de l'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63096551 | RIFADINE IV 600 mg | Poudre et solvant pour solution pour perfusion | Non renseignée (AMM annulée) |
-| 66404004 | RIMACTAN 300 mg | Gélule | Non renseignée (AMM annulée) |
-| 67876901 | RIFADINE 300 mg | Gélule | Non renseignée (AMM annulée) |
-| 64085981 | RIFADINE 2 POUR CENT | Suspension buvable | Non renseignée (AMM annulée) |
-| 63898512 | RIFINAH 300 mg/150 mg | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 63096551 | RIFADINE IV 600 mg | Poudre et solvant pour solution pour perfusion | Non renseignée (AMM active) |
+| 66404004 | RIMACTAN 300 mg | Gélule | Non renseignée (AMM active) |
+| 67876901 | RIFADINE 300 mg | Gélule | Non renseignée (AMM active) |
+| 64085981 | RIFADINE 2 POUR CENT | Suspension buvable | Non renseignée (AMM active) |
+| 63898512 | RIFINAH 300 mg/150 mg | Comprimé enrobé | Non renseignée (AMM active) |
 
 Une sixième AMM annulée (RIFATER, comprimé enrobé, n° 64208131) figure également dans les données.
 
@@ -110,7 +110,7 @@ Une sixième AMM annulée (RIFATER, comprimé enrobé, n° 64208131) figure éga
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la conjonctivite repose sur des preuves de niveau L4 : études anciennes (1970-1977), données de sensibilité et cas cliniques, sans aucun essai enregistré. La rifampicine n'est pas un traitement établi de la conjonctivite, et son usage large risquerait de favoriser des résistances au détriment de la tuberculose. De plus, toutes les AMM françaises sont annulées.
+- La prédiction pour la conjonctivite repose sur des preuves de niveau L4 : études anciennes (1970-1977), données de sensibilité et cas cliniques, sans aucun essai enregistré. La rifampicine n'est pas un traitement établi de la conjonctivite, et son usage large risquerait de favoriser des résistances au détriment de la tuberculose. Par ailleurs, les 6 AMM françaises sont valides (6 sur 6).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles issues de la notice ANSM (lacune bloquante pour l'évaluation de sécurité)

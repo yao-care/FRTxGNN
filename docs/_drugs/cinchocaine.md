@@ -6,9 +6,9 @@ nav_order: 171
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cinchocaine : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Dermatite"
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
+description: "Cinchocaine : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cinchocaine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Cinchocaïne : De la Dermatite à la Bronchite
+## Cinchocaine: Bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **bronchite**, 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dermatite (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,77 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 0.9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulé uniquement |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,10 +75,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65569519 | DELIPROCT, suppositoire (annulée) | Suppositoire | Non renseignée |
-| 63394747 | ULTRAPROCT, suppositoire (annulée) | Suppositoire | Non renseignée |
+| 65569519 | DELIPROCT, suppositoire (active) | Suppositoire | Non renseignée |
+| 63394747 | ULTRAPROCT, suppositoire (active) | Suppositoire | Non renseignée |
 
-Les deux AMM sont annulées (fabricant : KARO PHARMA, Suède) ; aucune AMM valide n'est actuellement recensée.
+Les deux AMM sont valides (fabricant : KARO PHARMA, Suède) ; le médicament est commercialisé.
 
 ## Considérations de Sécurité
 
@@ -98,7 +98,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni publication, mécanisme d'action non documenté, et aucune AMM valide en France. Les préoccupations de sécurité en cas d'usage inhalé ou systémique, ainsi que les données de sécurité manquantes (blocage au stade de dépistage), empêchent d'aller plus loin.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni publication, mécanisme d'action non documenté, alors que le médicament est commercialisé en France (2 AMM valides sur 2). Les préoccupations de sécurité en cas d'usage inhalé ou systémique, ainsi que les données de sécurité manquantes (blocage au stade de dépistage), empêchent d'aller plus loin.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice de l'ANSM (mises en garde et contre-indications)

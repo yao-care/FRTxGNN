@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Loxapine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 468
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Loxapine : nouvelle indication prédite, Trouble affectif bipolaire de type maniaque (niveau de preuve L3). Indication d'origine : Trouble bipolaire, trouble affectif majeur…"
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
+description: "Loxapine : nouvelle indication prédite, Retinal dystrophy with or without extraocular anomalies (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Loxapine : Du Trouble Bipolaire au Trouble Affectif Bipolaire de Type Maniaque
+## Loxapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit toutefois d'une indication proche de l'indication d'origine, et non d'
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Trouble bipolaire, trouble affectif majeur, schizophrénie (le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trouble affectif bipolaire de type maniaque |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 (0 valide, 1 annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Retinal dystrophy with or without extraocular anomalies |
+| Score de Prédiction TxGNN | 0.9995 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -97,7 +97,7 @@ Sélection des publications les plus pertinentes (toutes sont des revues ou des 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69700033 | LOXAPAC, solution buvable (CNX Therapeutics France) | Solution buvable | Non renseignée (AMM annulée) |
+| 69700033 | LOXAPAC, solution buvable (CNX Therapeutics France) | Solution buvable | Non renseignée (AMM active) |
 
 ---
 
@@ -117,7 +117,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- La manie bipolaire correspond à l'indication d'origine de la loxapine, et la littérature (revues, méta-analyse, analyse de deux ECR de phase 3 sur la forme inhalée) est cohérente avec cette direction. Elle porte surtout sur l'agitation aiguë et sur la forme inhalée, non commercialisée en France ici. La seule AMM française recensée est annulée, et aucun essai clinique n'est enregistré.
+- La manie bipolaire correspond à l'indication d'origine de la loxapine, et la littérature (revues, méta-analyse, analyse de deux ECR de phase 3 sur la forme inhalée) est cohérente avec cette direction. La seule AMM française recensée est annulée, et aucun essai clinique n'est enregistré.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le dépistage de sécurité.
@@ -126,7 +126,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Examiner les ECR primaires de la loxapine dans la manie aiguë, au-delà des revues.
 - Établir un plan de surveillance de sécurité (syndrome malin des neuroleptiques, dyskinésie tardive, effets cardiovasculaires, interactions anticholinergiques et dépresseurs du SNC).
 
-**Autres prédictions du modèle (rangs 2 à 10) :** dystrophie rétinienne, hydranencéphalie, myopies génétiques, trouble congénital de la glycosylation, maladie de Charcot-Marie-Tooth de type 1G, polymicrogyrie, encéphalopathie à glycine atypique. Elles ont un score élevé (≥ 99,89 %) mais n'ont ni essai ni publication à l'appui et aucun lien mécanistique plausible. Niveau de preuve L5, décision **Hold**.
+**Autres prédictions du modèle (rangs 2 à 10) :** dystrophie rétinienne, hydranencéphalie, myopies génétiques, trouble congénital de la glycosylation, maladie de Charcot-Marie-Tooth de type 1G, polymicrogyrie, encéphalopathie à glycine atypique. Niveau de preuve L5, décision **Hold**.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ifosfamide
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 389
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ifosfamide : nouvelle indication prédite, Rhabdomyosarcome (niveau de preuve L1). Indication d'origine : Non renseignée (le texte d'indication des AMM est vide)"
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Ifosfamide : nouvelle indication prédite, Female breast carcinoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ifosfamide
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Ifosfamide : Du Traitement Anticancéreux Historique au Rhabdomyosarcome
+## Ifosfamide: Female breast carcinoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ L'ifosfamide est un agent alkylant de la famille des oxazaphosphorines (analogue
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (le texte d'indication des AMM est vide) |
-| Nouvelle Indication Prédite | Rhabdomyosarcome |
-| Score de Prédiction TxGNN | 99,67 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Retiré (AMM annulées uniquement) |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Female breast carcinoma |
+| Score de Prédiction TxGNN | 0.9991 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -108,8 +108,8 @@ Sélection des essais les plus pertinents pour le rhabdomyosarcome et les sarcom
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61848140 | HOLOXAN 1000 mg (BAXTER) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
-| 69622218 | HOLOXAN 2000 mg (BAXTER) | Poudre pour usage parentéral | Non renseignée (AMM annulée) |
+| 61848140 | HOLOXAN 1000 mg (BAXTER) | Poudre pour solution injectable | Non renseignée (AMM active) |
+| 69622218 | HOLOXAN 2000 mg (BAXTER) | Poudre pour usage parentéral | Non renseignée (AMM active) |
 
 ---
 
@@ -139,11 +139,10 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Maladie prédite | Score TxGNN | Niveau de preuve | Recommandation | Commentaire |
 |------|------|------|------|------|
-| Carcinome mammaire féminin | 99,91 % | L2 | Question de recherche | Petits essais de phase 1/2, souvent combinés ; intérêt possible dans le cancer métaplasique et les tumeurs phyllodes |
-| Rhabdomyosarcome botryoïde embryonnaire du vagin | 99,57 % | L4 | Question de recherche | Extrapolation à partir du rhabdomyosarcome ; un seul rapport de cas |
-| Syndrome myélodysplasique (et formes apparentées) | 99,66 % à 99,71 % | L4-L5 | Hold | Signal de toxicité (cancer secondaire), non un effet thérapeutique |
-| Cytopénie réfractaire de l'enfant, anémies, leucémie monocytaire | 99,63 % à 99,70 % | L4-L5 | Hold | Association probablement artéfactuelle ; l'ifosfamide est myélosuppresseur |
-| Délétion partielle du bras long du chromosome 5 | 99,70 % | L5 | Hold | Anomalie cytogénétique, non une entité thérapeutique |
+| Carcinome mammaire féminin | 0,9991 | L5 | Question de recherche | Petits essais de phase 1/2, souvent combinés ; intérêt possible dans le cancer métaplasique et les tumeurs phyllodes |
+| Rhabdomyosarcome botryoïde embryonnaire du vagin | 0,9957 | L5 | Question de recherche | Extrapolation à partir du rhabdomyosarcome ; un seul rapport de cas |
+| Syndrome myélodysplasique (et formes apparentées) | 0,9966 à 0,9971 | L4-L5 | Hold | Signal de toxicité (cancer secondaire), non un effet thérapeutique |
+| Délétion partielle du bras long du chromosome 5 | 0,9970 | L5 | Hold | Anomalie cytogénétique, non une entité thérapeutique |
 
 ---
 
@@ -153,7 +152,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Plusieurs essais randomisés de phase 3 (sarcomes des tissus mous) et des études pédiatriques de l'Intergroup Rhabdomyosarcoma Study soutiennent l'activité de l'ifosfamide dans le rhabdomyosarcome. L'usage étant déjà établi, il ne s'agit pas d'un repositionnement nouveau, et les preuves spécifiques sont en partie indirectes.
-- Toutes les AMM françaises sont annulées et les données de notice sont absentes ; la sécurité ne peut donc pas être validée à ce stade.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM), qui constituent une lacune bloquante

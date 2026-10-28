@@ -4,17 +4,17 @@ title: Fosfomycin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 348
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Fosfomycin : nouvelle indication prédite, Urétrite gonococcique (niveau de preuve L5). Indication d'origine : Infection des voies urinaires"
+indication_count: 8
 monitor_inn: "fosfomycin"
-predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
+predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
+last_modified_at: 2026-10-23
+description: "Fosfomycin : nouvelle indication prédite, Uterine inflammatory disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fosfomycin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,96 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Fosfomycine : De l'infection urinaire à l'urétrite gonococcique
+## Fosfomycin: Uterine inflammatory disease
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-La fosfomycine est un antibiotique initialement utilisé pour traiter les infections urinaires.
-Le modèle TxGNN prédit qu'elle pourrait être efficace contre l'**urétrite gonococcique**.
-Les données compilées pour ce rapport ne contiennent **aucun essai clinique enregistré**. Elles comportent **6 publications**, dont 1 essai randomisé (2016) et une série clinique ancienne (1977).
+La fosfomycine est un antibiotique dont l'usage d'origine est le traitement de l'infection urinaire, relation enregistrée dans le graphe de connaissances du modèle.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **maladie inflammatoire de l'utérus**.
+Cette direction repose sur **2 essais cliniques** et **1 publication**, mais aucun de ces travaux n'étudie directement cette maladie : la prédiction reste donc essentiellement théorique.
 
-## Aperçu Rapide
+---
+
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection des voies urinaires (le texte d'indication des AMM françaises n'est pas renseigné ; indication tirée du graphe de connaissances) |
-| Nouvelle Indication Prédite | Urétrite gonococcique |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L3 (un essai randomisé ouvert dont la phase n'est pas confirmée, plus des séries cliniques ; critères L2 non démontrés) |
-| Statut de Marché en France | Uniquement des AMM abrogées (aucune commercialisée) |
-| Nombre d'AMM | 19 (toutes abrogées) |
-| Décision Recommandée | Hold |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Uterine inflammatory disease |
+| Score de prédiction TxGNN | 0.9998 |
+| Niveau de preuve | L5 |
+| Statut de marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+---
 
-Les données de mécanisme d'action issues de la base pharmacologique ne sont pas disponibles. D'après les connaissances générales, la fosfomycine inhibe l'enzyme MurA (UDP-N-acétylglucosamine énolpyruvyl transférase). Elle bloque ainsi la première étape de la synthèse du peptidoglycane de la paroi bactérienne et agit de façon bactéricide. *Neisseria gonorrhoeae* possède une paroi bactérienne, ce qui rend cette cible plausible.
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-L'urétrite gonococcique et l'infection urinaire sont toutes deux des infections bactériennes des voies génito-urinaires. La fosfomycine atteint de fortes concentrations urinaires, ce qui rapproche les deux indications. Cela explique en partie le score élevé du modèle.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales sur cet antibiotique, la fosfomycine inhibe MurA, une enzyme impliquée dans la synthèse de la paroi bactérienne. Elle est active sur de nombreuses bactéries à Gram négatif et à Gram positif. Ce mécanisme explique qu'elle soit utilisée contre les bactéries responsables d'infections urinaires.
 
-Deux travaux cliniques publiés vont dans le sens d'une activité. Une série de 1977 rapporte environ 86 à 92 % de guérisons, selon le schéma. Un essai randomisé de 2016 a évalué la fosfomycine trométamol par voie orale. Le contexte actuel limite toutefois l'intérêt de cette piste : les résistances et les schémas de référence à base de ceftriaxone réduisent le besoin non couvert.
+Une inflammation de l'utérus d'origine bactérienne (infection du tractus génital) pourrait théoriquement relever d'un antibiotique à large spectre. Le lien avec l'infection urinaire est donc plausible, car des germes communs peuvent être en cause. Il reste toutefois indirect.
 
-## Preuves d'Essais Cliniques
+Aucune des données disponibles ne montre que la fosfomycine a été évaluée dans l'inflammation utérine.
 
-Aucun essai clinique associé n'est enregistré actuellement.
+---
 
-## Preuves de la Littérature
+## Preuves d'essais cliniques
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
+|---------|------|------|------|---------|
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Terminé | 3520 | Étude pharmacocinétique pédiatrique de médicaments peu étudiés, administrés selon les soins courants. Non spécifique à la fosfomycine ni à la maladie prédite ; aucun signal d'efficacité. |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | En recrutement | 5000 | Plateforme pharmacocinétique, pharmacodynamique et de sécurité chez l'enfant et le jeune adulte. Non spécifique à une indication ; aucun signal d'efficacité. |
+
+---
+
+## Preuves de la littérature
+
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | ECR (ouvert) | Clin Microbiol Infect | 152 hommes inclus avec une urétrite gonococcique non compliquée, 126 ayant terminé l'étude ; fosfomycine trométamol 3 g par voie orale aux jours 1, 3 et 5 dans le groupe intervention (60 patients) |
-| [832528](https://pubmed.ncbi.nlm.nih.gov/832528/) | 1977 | Série clinique | Chemotherapy | 70 patients traités par fosfomycine intramusculaire ; 11 guérisons sur 12 (92 %) avec 4 g en doses fractionnées, 37 guérisons sur 43 (86 %) avec 4 g en dose unique |
-| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | Évaluation clinique/bactériologique | Chemotherapy | Évaluation de 959 patients dans des hôpitaux espagnols, dont des urétrites gonococciques ; large spectre in vitro |
-| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | Revue/clinique | Zhonghua Nan Ke Xue | Infections génito-urinaires masculines à *Neisseria* non gonococciques ; lien indirect |
-| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | Analyse secondaire | Sex Transm Infect | Clairance spontanée de *N. gonorrhoeae* asymptomatique (essai NABOGO) ; non spécifique à la fosfomycine |
-| [17878816](https://pubmed.ncbi.nlm.nih.gov/17878816/) | 2007 | Rapport de cas | J Fr Ophtalmol | Conjonctivite gonococcique compliquée chez un adulte, souche résistante aux pénicillines, tétracyclines et fluoroquinolones ; peu pertinent pour la fosfomycine |
+| [35653789](https://pubmed.ncbi.nlm.nih.gov/35653789/) | 2022 | Cohorte | J Obstet Gynaecol | Étude de la cystite liée au dienogest chez des femmes atteintes d'endométriose après chirurgie par laparoscopie. Elle ne porte pas sur l'inflammation utérine ni sur un traitement par fosfomycine. |
 
-## Informations de Marché en France
+---
 
-Les 19 AMM recensées sont abrogées. Les 5 premières sont listées ci-dessous (le texte d'indication approuvée n'est pas renseigné).
+## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 61935264 | Fosfomycine Viatris Adultes 3 g | Granulés pour solution buvable en sachet | Viatris Santé |
-| 66430643 | Fosfomycine Arrow 3 g | Granulés pour solution buvable en sachet | Arrow Génériques |
-| 65164104 | Fomicyt 4 g I.V. | Poudre pour solution à diluer pour perfusion | Infectopharm |
-| 62884890 | Fosfomycine Cristers Pharma Adultes 3 g | Granulés pour solution buvable en sachet | Cristers |
-| 61334559 | Fosfomycine Teva Santé Adultes 3 g | Granulés pour solution buvable en sachet | Teva Santé |
+La fosfomycine est commercialisée en France sous 19 AMM valides, toutes pour des produits mono-substance. Il s'agit surtout de granulés pour solution buvable en sachet (3 g), ainsi que de poudres pour perfusion ou injection. Le texte des indications approuvées n'est pas renseigné dans les données compilées. Les cinq AMM ci-dessous sont des exemples.
 
-## Considérations de Sécurité
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique |
+|---------|------|------|
+| 61935264 | Fosfomycine Viatris Adultes 3 g | Granulés pour solution buvable en sachet |
+| 66430643 | Fosfomycine Arrow 3 g | Granulés pour solution buvable en sachet |
+| 67951706 | Monuril 3 g (Zambon France) | Granulés pour solution buvable en sachet |
+| 65164104 | Fomicyt 4 g I.V. | Poudre pour solution à diluer pour perfusion |
+| 63322018 | Fosfomycine Panpharma 4 g | Poudre pour solution injectable |
 
-- **Contre-indications issues du graphe de connaissances** (associations du graphe, et non texte de notice) : maladie rénale, pyo-uretère, colite à *Clostridium difficile*, entérocolite nécrosante périnatale.
+---
+
+## Considérations de sécurité
+
+- **Contre-indications issues du graphe de connaissances** (relations du graphe, pas le texte de la notice) : maladie rénale, pyo-uretère, colite à *Clostridium difficile*, entérocolite nécrosante périnatale.
 - **Interactions médicamenteuses** (3 identifiées) :
-  - Balsalazide : modérée
-  - Acide picosulfurique : modérée
-  - Métoclopramide : mineure
+  - balsalazide : modérée ;
+  - acide picosulfurique : modérée ;
+  - métoclopramide : mineure.
 
-Les mises en garde et contre-indications officielles de la notice ne figurent pas dans les données compilées. Veuillez consulter la notice pour les informations de sécurité complètes.
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
 
-## Conclusion et Prochaines Étapes
+---
+
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à un essai randomisé ouvert de 2016, dont la phase n'est pas confirmée, et à des séries anciennes ; aucun essai n'est enregistré.
-- Les résistances, les schémas de référence à base de ceftriaxone et l'absence d'AMM en cours de validité limitent l'intérêt d'un développement.
-
-À titre de comparaison, la prédiction **pyélite** (infection urinaire haute) repose sur un signal bien plus solide. Elle s'appuie sur l'essai de phase 2/3 ZEUS (fosfomycine IV contre pipéracilline-tazobactam dans l'infection urinaire compliquée) et sur des revues récentes. Elle représente surtout une extension de l'indication d'origine vers la forme intraveineuse. Elle mérite une évaluation distincte, avec des garde-fous : forme IV nécessaire, charge sodée, surveillance de l'hypokaliémie, sensibilité locale.
+- Aucun essai ni aucune publication ne porte directement sur la maladie inflammatoire de l'utérus. Les deux essais sont des études pharmacocinétiques pédiatriques générales, et l'article concerne la cystite chez des femmes atteintes d'endométriose. Le niveau de preuve est donc L5, c'est-à-dire une prédiction du modèle seule.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Confirmer la phase, la méthodologie et les critères de jugement de l'essai randomisé de 2016, et analyser ses résultats complets.
-- Disposer de données récentes de sensibilité de *N. gonorrhoeae* à la fosfomycine et les comparer aux recommandations en vigueur.
-- Obtenir les mises en garde et contre-indications officielles de la notice et les données détaillées sur le mécanisme d'action.
-- Clarifier la disponibilité réelle d'un produit en France, toutes les AMM étant abrogées.
+- Des études cliniques ou microbiologiques évaluant la fosfomycine dans les infections utérines ou génitales hautes (germes en cause, sensibilité, pénétration tissulaire).
+- Des données détaillées sur le mécanisme d'action et sur les mises en garde et contre-indications de la notice.
+- Une évaluation de la voie d'administration adaptée (orale ou intraveineuse).
+- Une priorité à donner à des candidates mieux étayées pour ce médicament, comme la pyélite, plus proche de l'usage connu en infection urinaire et appuyée par des essais sur la fosfomycine injectable dans les infections urinaires compliquées.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

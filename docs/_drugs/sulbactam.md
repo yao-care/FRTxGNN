@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulbactam
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 718
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulbactam : nouvelle indication prédite, Arthrite bactérienne (niveau de preuve L3). Indication d'origine : Cholangite, infections à Staphylococcus aureus…"
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
+description: "Sulbactam : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sulbactam
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Sulbactam : Des infections à staphylocoques et à *E. coli* à l'arthrite bactérienne
+## Sulbactam: Arthrite bactérienne (bacterial arthritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrite bactér
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cholangite, infections à *Staphylococcus aureus*, infections à *Escherichia coli* (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Arthrite bactérienne |
-| Score de Prédiction TxGNN | 99,79 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Retiré du marché (AMM annulées uniquement) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Arthrite bactérienne (bacterial arthritis) |
+| Score de Prédiction TxGNN | 0.9979 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 2) |
+| Nombre d'AMM | 2 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,7 +85,7 @@ Les autres publications identifiées (cas cliniques d'arthrites à germes rares,
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69057530 | UNACIM INJECTABLE 0,5 g/1 g (annulée) | Poudre pour usage parentéral | Non renseignée |
+| 69057530 | UNACIM INJECTABLE 0,5 g/1 g (active) | Poudre pour usage parentéral | Non renseignée |
 | 64892672 | UNACIM INJECTABLE 1 g (annulée) | Poudre et solution pour usage parentéral | Non renseignée |
 
 ## Considérations de Sécurité

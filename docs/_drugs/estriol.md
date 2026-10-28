@@ -48,10 +48,10 @@ avec **0 essai clinique** enregistré et **6 publications** identifiées, dont s
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Predite | Aménorrhée |
-| Score de Prediction TxGNN | 99,18 % |
+| Score de Prediction TxGNN | 0,9918 |
 | Niveau de Preuve | L3 |
-| Statut de Marche en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 7 (0 valide, 7 annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -81,11 +81,11 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 66771751 | PHYSIOGINE 1 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 68174324 | PHYSIOGINE 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM annulée) |
-| 60747099 | GYDRELLE 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM annulée) |
-| 61797183 | BLISSEL 50 microgrammes/g, gel vaginal | Gel | Non renseignée (AMM annulée) |
-| 62263257 | TROPHICREME 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM annulée) |
+| 66771751 | PHYSIOGINE 1 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 68174324 | PHYSIOGINE 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM active) |
+| 60747099 | GYDRELLE 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM active) |
+| 61797183 | BLISSEL 50 microgrammes/g, gel vaginal | Gel | Non renseignée (AMM active) |
+| 62263257 | TROPHICREME 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM active) |
 
 Deux autres AMM annulées existent (PHYSIOGINE 0,5 mg ovule ; TROPHIGIL gélule vaginale).
 
@@ -101,7 +101,7 @@ Veuillez consulter la notice pour les informations de sécurité (mises en garde
 
 **Justification :**
 - Le niveau de preuve est L3 : une seule petite étude clinique directement pertinente (2012) et une revue (2023) soutiennent l'hypothèse, sans aucun essai enregistré.
-- Toutes les AMM françaises sont annulées, et les données de sécurité, l'indication originale et le mécanisme d'action sont manquants, ce qui limite la confiance translationnelle.
+- 7 AMM françaises sur 7 sont valides, mais les données de sécurité, l'indication originale et le mécanisme d'action sont manquants, ce qui limite la confiance translationnelle.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), qui bloque l'évaluation de sécurité

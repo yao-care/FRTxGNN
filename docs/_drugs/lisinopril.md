@@ -4,17 +4,17 @@ title: Lisinopril
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 455
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Lisinopril : nouvelle indication prédite, Infarctus du myocarde postéro-inférieur (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Lisinopril : De l'Hypertension Artérielle à l'Infarctus du Myocarde Postéro-inférieur
+## Lisinopril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infarctus du myo
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte d'indication des AMM françaises n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Infarctus du myocarde postéro-inférieur |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pulmonary hypertension with unclear multifactorial mechanism |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, lisinopril fait partie de la classe des IEC. Son efficacité dans l'hypertension et l'infarctus du myocarde est établie, et il agit par blocage du système rénine-angiotensine-aldostérone (SRAA), ce qui limite le remodelage ventriculaire après infarctus.
 
-L'infarctus du myocarde postéro-inférieur est un sous-type anatomique de l'infarctus du myocarde, indication déjà reconnue pour ce médicament. Il ne s'agit donc pas d'un véritable repositionnement : le score élevé (99,90 %) reflète surtout l'association avec la maladie parente. Aucune donnée propre à ce sous-type n'a été fournie.
+L'infarctus du myocarde postéro-inférieur est un sous-type anatomique de l'infarctus du myocarde, indication déjà reconnue pour ce médicament. Aucune donnée propre à ce sous-type n'a été fournie.
 
 Les autres prédictions du modèle vont dans le même sens : infarctus postéro-latéral et septal (sous-types de l'infarctus), hypertension rénovasculaire maligne et néphropathie hypertensive maligne (sous-types de l'hypertension). La seule piste réellement nouvelle avec des données de soutien est le **cœur pulmonaire chronique** (voir les remarques plus bas).
 
@@ -69,7 +69,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement pour l'infarctus du myocarde postéro-inférieur.
 
-À titre indicatif, la prédiction n°9 (cœur pulmonaire chronique, score 99,68 %, niveau L3) dispose des publications suivantes les plus pertinentes :
+À titre indicatif, la prédiction n°9 (cœur pulmonaire chronique, score 0,9968, niveau L3) dispose des publications suivantes les plus pertinentes :
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
@@ -83,7 +83,7 @@ Les autres publications retrouvées pour cette indication sont hors sujet (insuf
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62606357 | LISINOPRIL ZENTIVA 20 mg, comprimé sécable (ZENTIVA FRANCE) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 62606357 | LISINOPRIL ZENTIVA 20 mg, comprimé sécable (ZENTIVA FRANCE) | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

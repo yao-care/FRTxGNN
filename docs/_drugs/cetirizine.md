@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cetirizine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 157
-evidence_level: L2
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Cetirizine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L2). Indication d'origine : Rhinite allergique, rhinite vasomotrice, conjonctivites (atopique…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "cetirizine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+last_modified_at: 2026-10-27
+description: "Cetirizine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cetirizine
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,109 +33,78 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 </div>
 
-## Cétirizine : De la rhinite allergique à l'urticaire allergique
+## Cétirizine : antihistaminique H1 → Maladie de la cavité nasale (nasal cavity disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La cétirizine est un antihistaminique de deuxième génération (antagoniste des récepteurs H1), initialement utilisé pour la rhinite allergique, les conjonctivites allergiques et l'urticaire idiopathique.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**urticaire allergique**, avec **1 essai clinique** (pilote de phase 3, 36 patients) et **18 publications** recensés dans les données compilées pour ce rapport.
-Cette indication est toutefois très proche de l'usage déjà établi (urticaire idiopathique) : il s'agit davantage d'une extension au sein d'une même famille de maladies que d'un véritable repositionnement.
-
----
+La cétirizine est un antihistaminique anti-H1 utilisé dans les affections allergiques.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **maladie de la cavité nasale (nasal cavity disease)**, une catégorie très large, avec **aucun essai clinique** et **5 publications** (revues, études précliniques) dont aucune n'étudie directement cette catégorie avec la cétirizine.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique, rhinite vasomotrice, conjonctivites (atopique, papillaire, printanière), urticaire idiopathique, etc. (les textes d'indication des AMM françaises ne sont pas renseignés ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Urticaire allergique |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L2 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 3 (toutes annulées) |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
+| Score de Prédiction TxGNN | 0,9977 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la cétirizine est un antagoniste sélectif des récepteurs H1 de l'histamine, métabolite carboxylé de l'hydroxyzine. Son efficacité dans l'urticaire idiopathique et la rhinite allergique est établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la cétirizine appartient à la classe des antagonistes des récepteurs H1 de l'histamine, qui bloquent la liaison de l'histamine sur les terminaisons nerveuses, les muscles lisses et les cellules glandulaires.
 
-Dans l'urticaire, la libération d'histamine par les mastocytes provoque la formation de papules et l'érythème réflexe. Le blocage des récepteurs H1 agit donc directement sur la physiopathologie. L'urticaire allergique appartient à la même famille de maladies que l'urticaire idiopathique, déjà couverte par l'usage d'origine ; le score très élevé du modèle (0,9999) est cohérent avec ce rationnel biologique.
+La catégorie « maladie de la cavité nasale » est large et peu spécifique. Les revues citées (PMID 11291777) soutiennent un bénéfice des antihistaminiques dans la rhinite allergique, mais pour les autres affections nasales ou sinusiennes, le lien mécanistique reste indirect. Le score élevé reflète probablement un recoupement avec les usages allergiques déjà connus plutôt qu'une véritable nouvelle utilisation.
 
-Il convient de rester prudent : ce score reflète en partie la proximité avec une indication existante. Par ailleurs, la cétirizine ne s'applique pas de la même façon à toutes les prédictions du modèle (voir ci-dessous).
-
----
+Une sous-indication précise devrait être définie avant toute évaluation complémentaire.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Phase 3 (pilote) | Terminé | 36 | Étude pilote multicentrique, randomisée, en double aveugle, comparant la cétirizine injectable (10 mg, IV) à la diphénhydramine injectable (50 mg) dans l'urticaire aiguë aux urgences, en soins urgents et en cliniques d'allergologie. Vise à évaluer la faisabilité d'un essai de phase 3, et non à démontrer l'efficacité de façon définitive. |
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-La littérature associée à l'urticaire allergique est composée surtout de revues sur les antihistaminiques ; aucune n'est un essai randomisé contrôlé spécifique. Principales références :
+Aucune de ces publications n'étudie directement la cétirizine dans la maladie de la cavité nasale en général ; ce qui justifie le niveau L5.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Revue | Ann Pharmacother | Efficacité et sécurité des antihistaminiques de première et nouvelle génération dans la rhinite allergique et l'urticaire chronique idiopathique |
-| [7510611](https://pubmed.ncbi.nlm.nih.gov/7510611/) | 1993 | Revue | Drugs | Réévaluation de la cétirizine : traitement efficace et bien toléré de la rhinite saisonnière/perannuelle et de l'urticaire chronique idiopathique chez l'adulte |
-| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Revue | Drugs | Propriétés pharmacologiques et potentiel clinique de la cétirizine dans la rhinite allergique, l'asthme pollinique et l'urticaire chronique |
-| [7645679](https://pubmed.ncbi.nlm.nih.gov/7645679/) | 1995 | Revue | Allergy | Études cliniques de la cétirizine dans la rhinite allergique et l'urticaire chronique |
-| [7530629](https://pubmed.ncbi.nlm.nih.gov/7530629/) | 1994 | Revue | Drugs | Causes et traitement de l'urticaire ; les antihistaminiques non sédatifs sont le traitement de base de l'urticaire chronique idiopathique |
-| [17017922](https://pubmed.ncbi.nlm.nih.gov/17017922/) | 2006 | Revue | Curr Med Chem | Mise à jour sur la lévocétirizine, énantiomère R de la cétirizine |
-| [18201439](https://pubmed.ncbi.nlm.nih.gov/18201439/) | 2007 | Revue | Allergy Asthma Proc | Lévocétirizine dans la rhinite allergique et l'urticaire chronique idiopathique |
-| [11034010](https://pubmed.ncbi.nlm.nih.gov/11034010/) | 2000 | Rapport de cas | J Clin Gastroenterol | Cas de cholestase induite par la cétirizine (signal de sécurité hépatique) |
-
----
+| [11291777](https://pubmed.ncbi.nlm.nih.gov/11291777/) | 2000 | Revue | Allergy | Mécanisme des antihistaminiques H1 : antagonisme compétitif de l'histamine, avec effets antiallergiques possiblement complémentaires dans la rhinite allergique |
+| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Revue | Vestnik otorinolaringologii | Approche pathogénique des maladies inflammatoires du nez et des sinus (œdème, hyperhémie, mucus) |
+| [35818943](https://pubmed.ncbi.nlm.nih.gov/35818943/) | 2022 | Revue | Vestnik otorinolaringologii | Antihistaminiques H1 modernes chez les patients atteints de rhinite allergique avec infections respiratoires aiguës associées |
+| [36116201](https://pubmed.ncbi.nlm.nih.gov/36116201/) | 2022 | Préclinique (souris) | Phytomedicine | Capsule de médecine traditionnelle chinoise dans un modèle murin de rhinite allergique ; ne concerne pas la cétirizine |
+| [9301130](https://pubmed.ncbi.nlm.nih.gov/9301130/) | 1997 | Préclinique (animal) | Arerugi | Étude du bétotastine dans la rhinite allergique expérimentale ; la cétirizine y sert de comparateur et inhibe l'augmentation de la fuite de colorant |
 
 ## Informations de Marché en France
 
+La cétirizine est commercialisée en France. Les données compilées recensent 3 AMM pour des spécialités à base de cétirizine seule, sans texte d'indication renseigné.
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64939766 | REACTINE 10 mg (KENVUE FRANCE) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 62636293 | ZYRTECSET 10 mg (BB FARMA, Italie) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 64949486 | ZYRTECSET 10 mg (UCB PHARMA) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-
----
+| 64939766 | REACTINE 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée dans les données locales |
+| 62636293 | ZYRTECSET 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée dans les données locales |
+| 64949486 | ZYRTECSET 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée dans les données locales |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (associations médicament-maladie, et non le texte de la notice) : maladie hypertensive/hypertension, maladie rénale (dont insuffisance rénale chronique et terminale), maladie hépatique, maladie de la vésicule biliaire, diabète et acidocétose diabétique, hyperplasie bénigne de la prostate, maladie coronarienne et athérosclérose, glaucome (dont glaucome à angle fermé), hyperthyroïdie (maladie de Basedow, thyréotoxicose), pyourètre. Ces éléments sont à vérifier avec la notice officielle.
-- **Interactions médicamenteuses** : 570 interactions recensées. Parmi les principales, de niveau modéré : bupropion, dronabinol, lopéramide, métoclopramide, morphine (y compris liposomale), nabilone, opium, sibutramine, difénoxine, diphénoxylate (renforcement possible des effets sédatifs/dépresseurs du système nerveux central). D'autres interactions de niveau inconnu concernent notamment le calcitriol, la vitamine A, la phentermine, le pantoprazole, le glimépiride, la mésalazine, la doxycycline, le clotrimazole et l'acarbose.
-- **Signal hépatique** : un cas publié de cholestase induite par la cétirizine (PMID 11034010).
+**Interactions médicamenteuses** : 570 interactions sont recensées dans les données compilées. Les interactions de niveau modéré concernent notamment : bupropion, dronabinol, lopéramide, métoclopramide, morphine (y compris liposomale), nabilone, opium, sibutramine, difénoxine et diphénoxylate. Ces associations relèvent surtout d'un risque d'addition d'effets sédatifs ou sur le système nerveux central. D'autres interactions, de niveau non précisé, concernent par exemple le calcitriol, la vitamine A, la phentermine, le pantoprazole, le glimépiride, la mésalazine, la doxycycline, le clotrimazole et l'acarbose.
 
-Les mises en garde et contre-indications officielles de la notice n'ont pas pu être obtenues ; veuillez consulter la notice pour les informations de sécurité complètes.
-
----
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- L'urticaire allergique est proche de l'indication déjà établie (urticaire idiopathique), le mécanisme H1 est cohérent et un essai pilote de phase 3 achevé existe. Toutefois, cet essai est de petite taille (n = 36) et de faisabilité : le niveau de preuve est donc L2 et non L1.
-
-**Autres prédictions du modèle (pour information) :**
-
-| Maladie prédite | Score TxGNN | Niveau | Recommandation | Remarque |
-|------|------|------|------|------|
-| Urticaire au froid | 99,95 % | L3 | Proceed with Guardrails | Petites études et rapports de cas ; la cétirizine réduit les papules induites par le froid de ~50 % dans une étude (PMID 17225008) |
-| Maladie de la cavité nasale | 99,77 % | L4 | Research Question | Catégorie trop large ; définir une sous-indication précise |
-| Laryngopharyngite aiguë | 99,72 % | L5 | Hold | Aucune preuve ; maladie surtout infectieuse |
-| Conjonctivite de la rosacée | 99,41 % | L5 | Hold | Aucune preuve ; adéquation mécanistique faible |
-| Dermatite atopique récalcitrante | 99,19 % | L5 | Hold | Aucune preuve ; bénéfice limité des antihistaminiques attendu |
+- Aucune étude citée ne porte directement sur cette catégorie très large avec la cétirizine, et aucun essai clinique n'est enregistré ; seul le score du modèle (0,9977) soutient la prédiction.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir la notice officielle (mises en garde, contre-indications) auprès de l'ANSM : donnée bloquante pour le dépistage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (par ex. via DrugBank)
-- Clarifier la situation réglementaire : toutes les AMM françaises sont annulées, il faut vérifier la disponibilité réelle du produit (y compris sous d'autres noms commerciaux ou en vente libre)
-- Un essai randomisé de plus grande taille dans l'urticaire allergique (ou au froid), et la vérification des plans d'étude des articles cités
-- Un plan de surveillance de sécurité pour les populations à risque (insuffisance rénale ou hépatique, glaucome, hypertrophie prostatique) et pour l'association avec des dépresseurs du système nerveux central
+- Définir une sous-indication nasale ou sinusienne précise, distincte des usages allergiques déjà connus
+- Rechercher des essais cliniques ou publications ciblant cette sous-indication avec la cétirizine
+- Obtenir les données détaillées sur le mécanisme d'action
+- Récupérer les mises en garde et contre-indications de la notice officielle pour l'évaluation de sécurité
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

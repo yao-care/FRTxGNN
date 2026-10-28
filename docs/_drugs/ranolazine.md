@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées |
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
-| Score de Prédiction TxGNN | 99,65 % |
+| Score de Prédiction TxGNN | 0,9965 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 (0 valide, 2 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le NSIAD est causé par des mutations avec gain de fonction du récepteur V2 de la vasopressine (AVPR2, par exemple R137C/R137L) ou, dans certains cas, par une anomalie de signalisation liée à GNAS. Le récepteur est alors activé en permanence, ce qui provoque une rétention d'eau indépendante de la vasopressine.
 
-**Aucun lien mécanistique établi n'a été identifié.** La ranolazine n'a pas d'action connue sur le récepteur V2, sur la signalisation AMPc/aquaporine-2 ni sur la gestion rénale de l'eau. Le score très élevé du modèle découle probablement d'associations indirectes dans le graphe de connaissances (voisins communs liés au transport ionique ou aux voies rénales) plutôt que d'une biologie validée. La similarité avec l'indication originale reste à évaluer.
+**Aucun lien mécanistique établi n'a été identifié.** La ranolazine n'a pas d'action connue sur le récepteur V2, sur la signalisation AMPc/aquaporine-2 ni sur la gestion rénale de l'eau. Le score très élevé (0.9965) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. La similarité avec l'indication originale reste à évaluer.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,10 +73,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63170891 | RANEXA 375 mg, comprimé à libération prolongée (statut : annulée) | Comprimé à libération prolongée | Non renseignée |
-| 64679592 | RANEXA 500 mg, comprimé à libération prolongée (statut : annulée) | Comprimé à libération prolongée | Non renseignée |
+| 63170891 | RANEXA 375 mg, comprimé à libération prolongée (statut : active) | Comprimé à libération prolongée | Non renseignée |
+| 64679592 | RANEXA 500 mg, comprimé à libération prolongée (statut : active) | Comprimé à libération prolongée | Non renseignée |
 
-Les deux autorisations sont détenues par MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG et sont annulées ; aucune AMM valide n'est recensée.
+Les deux autorisations sont détenues par MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG et sont valides (2 AMM valides sur 2) ; le médicament est commercialisé.
 
 ## Considérations de Sécurité
 

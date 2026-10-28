@@ -6,9 +6,9 @@ nav_order: 650
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ramucirumab : nouvelle indication prédite, Adénocarcinome du ligament utérin (niveau de preuve L5). Indication d'origine : Cancer gastrique (adénocarcinome gastrique)…"
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+description: "Ramucirumab : nouvelle indication prédite, Adénocarcinome du ligament utérin (uterine ligament adenocarcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ramucirumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ramucirumab : Du Cancer Gastrique à l'Adénocarcinome du Ligament Utérin
+## Ramucirumab: Adénocarcinome du ligament utérin (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer gastrique (adénocarcinome gastrique), cancer bronchique non à petites cellules, carcinome hépatocellulaire (d'après le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Adénocarcinome du ligament utérin |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Adénocarcinome du ligament utérin (uterine ligament adenocarcinoma) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Les adénocarcinomes gynécologiques (ligament utérin, col de l'utérus) dépendent souvent aussi de l'angiogenèse. Le blocage de la voie VEGF/VEGFR-2 a d'ailleurs un rôle établi dans le cancer du col avancé, avec une autre molécule anti-angiogénique (le bévacizumab). Cela offre un raisonnement plausible, mais indirect, au niveau de la classe thérapeutique.
 
-Le score élevé de TxGNN (99,95 %) reflète vraisemblablement la proximité dans le graphe de connaissances avec d'autres adénocarcinomes et noeuds cervicaux, et non une validation biologique ou clinique. Les autres candidats prédits (carcinome endocervical, carcinome adénoïde kystique du col, adénocarcinomes séreux, endométrioïdes, à cellules claires ou mucineux du ligament utérin, variantes à cellules en bague à chaton ou de type intestinal du col) reposent sur le même raisonnement générique. Certaines analogies histologiques avec l'adénocarcinome gastrique (cellules en bague à chaton, type intestinal) restent lâches et n'établissent pas l'efficacité.
+Le score élevé de TxGNN (0,9995) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, comme d'autres adénocarcinomes et affections cervicales, et non une preuve biologique ou clinique. Les autres candidats prédits (carcinome endocervical, carcinome adénoïde kystique du col, adénocarcinomes séreux, endométrioïdes, à cellules claires ou mucineux du ligament utérin, variantes à cellules en bague à chaton ou de type intestinal du col) reposent sur le même raisonnement générique. Certaines analogies histologiques avec l'adénocarcinome gastrique (cellules en bague à chaton, type intestinal) restent lâches et n'établissent pas l'efficacité.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63848228 | CYRAMZA 10 mg/ml (Eli Lilly, Pays-Bas), statut : annulée | Solution à diluer pour perfusion | Non renseignée |
+| 63848228 | CYRAMZA 10 mg/ml (Eli Lilly, Pays-Bas), statut : active | Solution à diluer pour perfusion | Non renseignée |
 
 ## Cytotoxicité
 

@@ -48,10 +48,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**acné**, mai
 |------|------|
 | Indication Originale | Non précisée dans les données d'AMM compilées (le texte d'indication est vide) |
 | Nouvelle Indication Prédite | Acné |
-| Score de Prédiction TxGNN | 99,45 % |
+| Score de Prédiction TxGNN | 0,9945 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Il n'existe pas de lien évident entre la modulation de l'épissage de SMN2 et la physiopathologie de l'acné : production de sébum, hyperkératinisation folliculaire, colonisation par *Cutibacterium acnes* et inflammation. Un lien éventuel serait spéculatif, par exemple via des effets d'épissage hors cible sur des gènes de voies inflammatoires ou sébacées. Aucune donnée disponible ne l'étaye.
 
-Le score élevé du modèle pourrait refléter des artefacts de topologie du graphe de connaissances plutôt qu'une véritable relation mécanistique. Cette prédiction doit donc être considérée comme une hypothèse très préliminaire.
+Le score élevé du modèle (0.9945 pour l'acné) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Cette prédiction doit donc être considérée comme une hypothèse très préliminaire.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68009899 | EVRYSDI 0,75 mg/mL, poudre pour solution buvable (Roche Registration, Allemagne) – AMM annulée | Poudre pour solution buvable | Non renseignée |
+| 68009899 | EVRYSDI 0,75 mg/mL, poudre pour solution buvable (Roche Registration, Allemagne) – AMM active | Poudre pour solution buvable | Non renseignée |
 
 ## Considérations de Sécurité
 

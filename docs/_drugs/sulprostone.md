@@ -48,10 +48,10 @@ Cette prédiction repose donc uniquement sur le modèle.
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Cataracte tétanique (tetanic cataract) |
-| Score de Prédiction TxGNN | 99,86 % |
+| Score de Prédiction TxGNN | 0,9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,21 +60,21 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La cataracte tétanique est habituellement associée à l'hypocalcémie ou à l'hypoparathyroïdie. Aucun mécanisme documenté ne relie le sulprostone à cette affection, et le lien ne peut pas être évalué faute de données sur le mécanisme d'action d'origine.
 
-Le même score (99,86 %) est attribué à plusieurs sous-types de cataracte. Cela suggère un signal du graphe commun à la classe « cataracte » plutôt qu'un mécanisme propre à la cataracte tétanique. La prédiction doit donc être interprétée avec une grande prudence.
+Le même score (0,9986) est attribué à plusieurs sous-types de cataracte. Cela suggère que le score du modèle TxGNN (deep learning) peut refléter des similarités apprises entre maladies apparentées, et non une preuve biologique, plutôt qu'un mécanisme propre à la cataracte tétanique. La prédiction doit donc être interprétée avec une grande prudence.
 
 **Autres indications prédites (toutes de niveau L5, sans essai ni publication, décision Hold) :**
 
 | Rang | Indication prédite | Score TxGNN |
 |------|------|------|
-| 2 | Cataracte associée au diabète de type 2 | 99,86 % |
-| 3 | Cataracte immature | 99,86 % |
-| 4 | Cataracte avec craniosténose | 99,86 % |
-| 5 | Cataracte mature | 99,86 % |
-| 6 | Cataracte sénile nucléaire | 99,85 % |
-| 7 | Cataracte corticale | 99,85 % |
-| 8 | Cataracte sénile | 99,84 % |
-| 9 | Cataracte diabétique | 99,82 % |
-| 10 | Rétinopathie diabétique | 99,67 % |
+| 2 | Cataracte associée au diabète de type 2 | 0,9986 |
+| 3 | Cataracte immature | 0,9986 |
+| 4 | Cataracte avec craniosténose | 0,9986 |
+| 5 | Cataracte mature | 0,9986 |
+| 6 | Cataracte sénile nucléaire | 0,9985 |
+| 7 | Cataracte corticale | 0,9985 |
+| 8 | Cataracte sénile | 0,9984 |
+| 9 | Cataracte diabétique | 0,9982 |
+| 10 | Rétinopathie diabétique | 0,9967 |
 
 Pour la rétinopathie diabétique, un rationnel biologique est concevable (la signalisation de la PGE2 via les récepteurs EP intervient dans l'inflammation rétinienne et la perméabilité vasculaire). Cependant, l'agonisme EP1/EP3 pourrait aggraver la pathologie plutôt que l'améliorer. Pour la cataracte sénile, les analogues de prostaglandines utilisés en ophtalmologie (glaucome, surtout via le récepteur FP) ne soutiennent pas cette indication et ont été associés à d'autres effets oculaires indésirables, comme l'œdème maculaire cystoïde.
 
@@ -90,7 +90,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61722693 | NALADOR 500 microgrammes (TEOFARMA), AMM annulée | Lyophilisat pour usage parentéral | Non renseignée |
+| 61722693 | NALADOR 500 microgrammes (TEOFARMA), AMM active | Lyophilisat pour usage parentéral | Non renseignée |
 
 ## Considérations de Sécurité
 

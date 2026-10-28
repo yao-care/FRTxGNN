@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **néoplasie my
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées |
 | Nouvelle Indication Prédite | Néoplasie myéloproliférative |
-| Score de Prédiction TxGNN | 99,47 % |
+| Score de Prédiction TxGNN | 0,9947 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La seule publication associée est une étude de docking moléculaire *in silico* (2019) portant sur le domaine kinase de BCR-ABL dans la leucémie myéloïde chronique (LMC), une néoplasie myéloproliférative apparentée mais distincte. Elle suggère un possible effet inhibiteur de kinase, sans aucune validation expérimentale ou clinique.
 
-Il faut aussi relever une limite pharmacologique : l'hespéridine a une faible biodisponibilité orale, de sorte qu'atteindre des concentrations systémiques efficaces au niveau d'une cible kinase est incertain. Le score élevé de TxGNN (0,995) reste une prédiction de modèle, non corroborée par des preuves réelles.
+Il faut aussi relever une limite pharmacologique : l'hespéridine a une faible biodisponibilité orale, de sorte qu'atteindre des concentrations systémiques efficaces au niveau d'une cible kinase est incertain. Le score élevé de TxGNN (0,9947) reste une prédiction de modèle, non corroborée par des preuves réelles.
 
 ---
 
@@ -85,8 +85,8 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69840366 | FLAVONOIDES ZENTIVA CONSEIL 500 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
-| 66701450 | FLAVONOIDES ZENTIVA CONSEIL 1000 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
+| 69840366 | FLAVONOIDES ZENTIVA CONSEIL 500 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+| 66701450 | FLAVONOIDES ZENTIVA CONSEIL 1000 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
 
 ---
 

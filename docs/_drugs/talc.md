@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Talc
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 730
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Talc : nouvelle indication prédite, Maladie thrombotique (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis
 # Talc
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,8 +49,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **maladie thr
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Maladie thrombotique |
-| Score de Prédiction TxGNN | 99,85 % |
-| Niveau de Preuve | L4 |
+| Score de Prédiction TxGNN | 0,9985 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
 | Nombre d'AMM | 1 (annulée) |
 | Décision Recommandée | Hold |
@@ -61,7 +61,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **maladie thr
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le talc (silicate de magnésium) est connu comme excipient et comme agent à usage local ; son indication d'origine n'est pas documentée dans les données d'AMM disponibles.
 
-En réalité, la prédiction paraît **peu plausible** sur le plan mécanistique. Les publications retrouvées décrivent le talc injecté par voie intraveineuse (chez des usagers de drogues) comme responsable d'embolie pulmonaire, de granulomatose, d'hypertension pulmonaire angiothrombotique et de micro-embolies rétiniennes et cérébrales. Le score élevé (99,85 %) reflète vraisemblablement une association dans le réseau de connaissances avec la pathologie thrombotique, et non un effet thérapeutique.
+En réalité, la prédiction paraît **peu plausible** sur le plan mécanistique. Les publications retrouvées décrivent le talc injecté par voie intraveineuse (chez des usagers de drogues) comme responsable d'embolie pulmonaire, de granulomatose, d'hypertension pulmonaire angiothrombotique et de micro-embolies rétiniennes et cérébrales. Le score élevé (0,9985) reflète vraisemblablement une association dans le réseau de connaissances avec la pathologie thrombotique, et non un effet thérapeutique.
 
 Les autres indications prédites (exostose, polyarthrite rhumatoïde, bronchite, déficit en cofacteur II de l'héparine, excès de facteur V, déficit en antithrombine de type 2, maladie veineuse, fibromyalgie, myosite fibreuse) ne reposent pas non plus sur des preuves thérapeutiques : aucune littérature, ou seulement des cas et associations fortuites, et des données plutôt orientées vers un risque (par exemple bronchite professionnelle chez les travailleurs exposés au talc).
 

@@ -46,17 +46,17 @@ La fluorescéine est un colorant fluorescent à usage diagnostique, utilisé en 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM disponibles |
 | Nouvelle Indication Prédite | Angor de Prinzmetal |
-| Score de Prédiction TxGNN | 99,81 % |
+| Score de Prédiction TxGNN | 0,9981 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La fluorescéine est un colorant diagnostique fluorescent, utilisé pour visualiser la surface oculaire et la vascularisation rétinienne. Elle n'est pas connue pour avoir une action thérapeutique.
 
-Le lien mécanistique avec l'angor de Prinzmetal n'est **pas établi** : la fluorescéine n'a aucune action vasodilatatrice ou anti-vasospastique connue. Le score élevé du modèle reflète une proximité dans le graphe de connaissances, et non une plausibilité pharmacologique. Cette prédiction doit donc être considérée avec une grande prudence.
+Le lien mécanistique avec l'angor de Prinzmetal n'est **pas établi** : la fluorescéine n'a aucune action vasodilatatrice ou anti-vasospastique connue. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou une plausibilité pharmacologique. Cette prédiction doit donc être considérée avec une grande prudence.
 
 Les autres indications prédites (déficit en antithrombine de type 2, polyarthrite rhumatoïde, excès de facteur V, hémoglobinopathie, déficit en cofacteur II de l'héparine, thrombophilie, hyperthyroïdie, délétion partielle du bras court du chromosome 16, bêta-thalassémie) présentent le même constat : aucun lien pharmacologique plausible. Pour la polyarthrite rhumatoïde, l'hémoglobinopathie, la thrombophilie et l'hyperthyroïdie, la littérature retrouvée décrit uniquement l'usage diagnostique de la fluorescéine (coloration de la surface oculaire, angiographie) dans les manifestations oculaires de ces maladies, et non un effet thérapeutique.
 
@@ -72,9 +72,9 @@ Aucune littérature associée disponible actuellement pour l'angor de Prinzmetal
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 69497711 | Fluorescéine Faure 0,5 pour cent, collyre en solution en récipient unidose | Collyre en solution | Non renseignée | Annulée |
-| 63233249 | Fluocyne 10 %, solution injectable I.V. | Solution injectable | Non renseignée | Annulée |
-| 63485289 | Fluorescéine sodique Faure 10 pour cent, solution injectable | Solution injectable | Non renseignée | Annulée |
+| 69497711 | Fluorescéine Faure 0,5 pour cent, collyre en solution en récipient unidose | Collyre en solution | Non renseignée | Active |
+| 63233249 | Fluocyne 10 %, solution injectable I.V. | Solution injectable | Non renseignée | Active |
+| 63485289 | Fluorescéine sodique Faure 10 pour cent, solution injectable | Solution injectable | Non renseignée | Active |
 
 ## Considérations de Sécurité
 

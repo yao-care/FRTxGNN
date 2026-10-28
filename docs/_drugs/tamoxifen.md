@@ -4,17 +4,17 @@ title: Tamoxifen
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 731
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tamoxifen : nouvelle indication prédite, Carcinome mammaire in situ (rang 4 (niveau de preuve L5). Indication d'origine : Carcinome mammaire féminin"
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen : nouvelle indication prédite, Mammary Paget disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tamoxifène : Du Carcinome Mammaire Féminin au Carcinome Mammaire In Situ
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit toutefois d'une indication très proche de l'indication d'origine, et 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome mammaire féminin (le texte d'indication des AMM françaises n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Carcinome mammaire in situ (rang 4 ; rang 1 : maladie de Paget mammaire) |
-| Score de Prédiction TxGNN | 99,67 % (rang 1 : 99,69 %) |
-| Niveau de Preuve | L1 (rang 1 : L4) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 14 (toutes annulées ; 0 valide) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Mammary Paget disease |
+| Score de Prédiction TxGNN | 0.9969 |
+| Niveau de Preuve | L5 (rang 1 : L4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
+| Nombre d'AMM | 14 (valides : 14) |
 | Décision Recommandée | Proceed with Guardrails (rang 1 : Hold) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -62,7 +62,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le carcinome canalaire in situ (CCIS) RE-positif est un stade précoce de la même maladie. Le blocage de la signalisation du RE réduit les récidives ipsilatérales et controlatérales. Ce bénéfice est soutenu par l'essai NSABP B-24 et par l'essai randomisé contre placebo TAM-01 (tamoxifène à faible dose, 5 mg/jour pendant 3 ans). Le suivi à 10 ans de TAM-01 est publié, avec une analyse poolée de trois études (NCT06982313).
 
-Pour les autres prédictions, la plausibilité mécanistique varie. Elle est forte pour le carcinome tubulaire invasif et le cancer du sein RE-positif (indication déjà existante). Elle est faible ou contraire à la biologie connue pour le carcinome basal-like (majoritairement RE-négatif), le rhabdomyosarcome embryonnaire botryoïde du vagin (artefact probable du graphe) et le carcinome d'Ehrlich (modèle murin uniquement).
+Pour les autres prédictions, la plausibilité mécanistique varie. Elle est forte pour le carcinome tubulaire invasif et le cancer du sein RE-positif (indication déjà existante).
 
 ## Preuves d'Essais Cliniques
 
@@ -104,11 +104,11 @@ Les 14 AMM recensées sont annulées. Le texte de l'indication approuvée n'est 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61003801 | TAMOXIFENE SANDOZ 20 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69203907 | TAMOXIFENE BIOGARAN 10 mg | Comprimé | Non renseignée (AMM annulée) |
-| 61961476 | NOLVADEX 10 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60328432 | NOLVADEX 20 mg | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 69424909 | TAMOXIFENE SANDOZ 10 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61003801 | TAMOXIFENE SANDOZ 20 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69203907 | TAMOXIFENE BIOGARAN 10 mg | Comprimé | Non renseignée (AMM active) |
+| 61961476 | NOLVADEX 10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60328432 | NOLVADEX 20 mg | Comprimé enrobé | Non renseignée (AMM active) |
+| 69424909 | TAMOXIFENE SANDOZ 10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

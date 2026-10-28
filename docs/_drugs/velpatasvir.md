@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Velpatasvir : De l'hépatite C chronique à l'hépatite B
+## Velpatasvir : Infection par le virus de l'hépatite B
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 |------|------|
 | Indication Originale | Infection chronique par le virus de l'hépatite C (le texte d'indication des AMM n'est pas renseigné dans les données compilées) |
 | Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
-| Score de Prédiction TxGNN | 99,87 % |
+| Score de Prédiction TxGNN | 0,9987 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -90,11 +90,11 @@ Ces travaux évaluent le VHC ou la sécurité en cas de co-infection. Aucun ne d
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM annulée) |
-| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM annulée) |
-| 63434686 | EPCLUSA 400 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
+| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
+| 63434686 | EPCLUSA 400 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyzine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 383
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Hydroxyzine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L4). Indication d'origine : Eczéma atopique, rhinite allergique, conjonctivite atopique…"
 monitor_inn: "HYDROXYZINE"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Hydroxyzine : nouvelle indication prédite, Rosacea conjunctivitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Hydroxyzine : De la dermatite atopique et des rhinites allergiques à l'urticaire allergique
+## Hydroxyzine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 L'hydroxyzine est un antihistaminique H1 de première génération, initialement utilisé pour traiter l'eczéma atopique, la rhinite allergique, la conjonctivite atopique, l'urticaire et l'angioedème.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire allergique**, mais cette indication recoupe largement ses usages déjà connus : il s'agit davantage d'une extension d'indication que d'un véritable repositionnement.
 Aucun essai clinique n'est enregistré pour cette indication ; **19 publications** sont associées, surtout des revues générales sur les antihistaminiques H1 et peu d'études spécifiques à l'hydroxyzine.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Eczéma atopique, rhinite allergique, conjonctivite atopique, urticaire, angioedème (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Urticaire allergique |
-| Score de Prédiction TxGNN | 99,77 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Rosacea conjunctivitis |
+| Score de Prédiction TxGNN | 0.9970 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,8 +82,8 @@ Aucune étude contrôlée spécifique à l'hydroxyzine dans l'urticaire allergiq
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61162294 | ATARAX 2 mg/mL, sirop (annulée) | Sirop | Non renseignée |
-| 61519586 | ATARAX 25 mg, comprimé pelliculé sécable (annulée) | Comprimé pelliculé sécable | Non renseignée |
+| 61162294 | ATARAX 2 mg/mL, sirop (active) | Sirop | Non renseignée |
+| 61519586 | ATARAX 25 mg, comprimé pelliculé sécable (active) | Comprimé pelliculé sécable | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -108,16 +107,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Récupérer les mises en garde et contre-indications de la notice ANSM.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Rechercher des études spécifiques à l'hydroxyzine dans l'urticaire et la comparer aux antihistaminiques de nouvelle génération, aujourd'hui recommandés en première intention.
-- Clarifier le statut réglementaire en France, toutes les AMM étant annulées.
 
 ### Autres indications prédites (pour information)
 
 | Rang | Indication | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | Conjonctivite de la rosacée | 99,70 % | L5 | Hold : aucune étude ; lien antihistaminique faible |
-| 3 | Urticaire au froid | 99,66 % | L3 | Question de recherche : un essai comparatif en double aveugle de 1984 (PMID 6480953) a comparé l'hydroxyzine à d'autres agents ; ancien et de petite taille |
-| 4 | Dermatite atopique récalcitrante | 99,36 % | L5 | Hold : aucune étude ; les antihistaminiques ne modifient pas l'évolution de la maladie |
-| 5 | Réactivité IgE atopique | 99,27 % | L5 | Hold : phénotype et non maladie traitable |
+| 2 | Conjonctivite de la rosacée | 0,9970 | L5 | Hold : aucune étude ; lien antihistaminique faible |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

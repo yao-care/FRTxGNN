@@ -47,19 +47,19 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour l'**aménorrhée
 |------|------|
 | Indication Originale | Non précisée dans les données d'AMM ; les données de pharmacologie mentionnent l'eczéma chronique sévère des mains et le sarcome de Kaposi |
 | Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0,9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques connues, l'alitrétinoïne est un agoniste pan-récepteur qui active les récepteurs nucléaires RAR (α, β, γ) et RXR (α, β, γ). La signalisation des rétinoïdes influence la différenciation de nombreux tissus, y compris les tissus reproducteurs.
 
-Cependant, aucun mécanisme précis reliant l'alitrétinoïne à l'aménorrhée n'est étayé par les données. Les rétinoïdes sont tératogènes et peuvent perturber le cycle menstruel : un rôle thérapeutique est donc peu plausible. Le score très élevé de TxGNN (0,9999) reflète une association calculée dans le graphe de connaissances, et non une preuve de bénéfice clinique. La similarité avec l'indication originale n'a pas encore été évaluée.
+Cependant, aucun mécanisme précis reliant l'alitrétinoïne à l'aménorrhée n'est étayé par les données. Les rétinoïdes sont tératogènes et peuvent perturber le cycle menstruel : un rôle thérapeutique est donc peu plausible. Le score très élevé du modèle TxGNN (deep learning) (0,9999) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un bénéfice clinique. La similarité avec l'indication originale n'a pas encore été évaluée.
 
-Parmi les autres prédictions, seule l'**acné** (2ᵉ rang, score 99,92 %) repose sur un mécanisme biologiquement plausible (régulation de la différenciation des kératinocytes et de l'activité des sébocytes par RAR/RXR). Elle ne s'appuie toutefois que sur deux revues générales, sans données spécifiques à l'alitrétinoïne, et des rétinoïdes établis (isotrétinoïne, trétinoïne, adapalène) occupent déjà ce domaine. Les autres prédictions (coarctation atypique de l'aorte, ostéoporose, malformation aortique, dysplasie mammaire bénigne, syndrome de Worth, etc.) sont sans preuve et, pour plusieurs d'entre elles, pharmacologiquement peu crédibles.
+Parmi les autres prédictions, seule l'**acné** (2ᵉ rang, score 0,9992) repose sur un mécanisme biologiquement plausible (régulation de la différenciation des kératinocytes et de l'activité des sébocytes par RAR/RXR). Elle ne s'appuie toutefois que sur deux revues générales, sans données spécifiques à l'alitrétinoïne, et des rétinoïdes établis (isotrétinoïne, trétinoïne, adapalène) occupent déjà ce domaine. Les autres prédictions (coarctation atypique de l'aorte, ostéoporose, malformation aortique, dysplasie mammaire bénigne, syndrome de Worth, etc.) sont sans preuve et, pour plusieurs d'entre elles, pharmacologiquement peu crédibles.
 
 ## Preuves d'Essais Cliniques
 
@@ -80,10 +80,10 @@ Aucune littérature associée disponible actuellement pour l'aménorrhée.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63446165 | ALIZEM 10 mg, capsule molle (annulée) | Capsule molle | Non renseignée |
-| 65014058 | ALIZEM 30 mg, capsule molle (annulée) | Capsule molle | Non renseignée |
-| 64156738 | TOCTINO 10 mg, capsule molle (annulée) | Capsule molle | Non renseignée |
-| 69219167 | TOCTINO 30 mg, capsule molle (annulée) | Capsule molle | Non renseignée |
+| 63446165 | ALIZEM 10 mg, capsule molle (active) | Capsule molle | Non renseignée |
+| 65014058 | ALIZEM 30 mg, capsule molle (active) | Capsule molle | Non renseignée |
+| 64156738 | TOCTINO 10 mg, capsule molle (active) | Capsule molle | Non renseignée |
+| 69219167 | TOCTINO 30 mg, capsule molle (active) | Capsule molle | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -98,7 +98,7 @@ Veuillez consulter la notice pour les mises en garde détaillées.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'aménorrhée repose uniquement sur le score du modèle (niveau L5), sans essai ni publication. Le mécanisme est biologiquement peu plausible et le profil tératogène de la molécule est défavorable. Toutes les AMM françaises sont annulées.
+- La prédiction pour l'aménorrhée repose uniquement sur le score du modèle TxGNN (deep learning) (niveau L5), sans essai ni publication. Le mécanisme est biologiquement peu plausible et le profil tératogène de la molécule est défavorable. Le médicament est commercialisé en France : 4 AMM valides sur 4.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de mécanisme d'action détaillées (DrugBank) et analyse du lien mécanistique avec l'indication prédite

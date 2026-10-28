@@ -4,17 +4,17 @@ title: Cyclophosphamide
 parent: Preuves élevées (L1-L2)
 nav_order: 203
 evidence_level: L1
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Cyclophosphamide : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L1). Indication d'origine : Lymphomes (mycosis fongoïde, lymphome cutané à cellules T)…"
 monitor_inn: "CYCLOPHOSPHAMIDE"
-predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+description: "Cyclophosphamide : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **5** 
+Niveau de preuve: **L1** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **5**
 
 </div>
 
-## Cyclophosphamide : Des Lymphomes et Cancers du Sein à la Leucémie Myéloïde
+## Cyclophosphamide: Leucémie myéloïde (myeloid leukemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ avec **35 essais cliniques** et **20 publications** soutenant actuellement cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lymphomes (mycosis fongoïde, lymphome cutané à cellules T), myélome multiple, neuroblastome, cancer du sein, rétinoblastome (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,47 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
+| Score de Prédiction TxGNN | 0.9947 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -110,11 +110,11 @@ La plupart de ces essais testent le cyclophosphamide comme composant d'un régim
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62554177 | ENDOXAN 50 mg, comprimé enrobé (annulée) | Comprimé enrobé | Non renseignée |
-| 64635418 | ENDOXAN 500 mg, poudre pour solution injectable (annulée) | Poudre et solvant pour solution injectable | Non renseignée |
-| 69586327 | ENDOXAN 1000 mg, poudre pour solution injectable (annulée) | Poudre pour solution injectable | Non renseignée |
+| 62554177 | ENDOXAN 50 mg, comprimé enrobé (active) | Comprimé enrobé | Non renseignée |
+| 64635418 | ENDOXAN 500 mg, poudre pour solution injectable (active) | Poudre et solvant pour solution injectable | Non renseignée |
+| 69586327 | ENDOXAN 1000 mg, poudre pour solution injectable (active) | Poudre pour solution injectable | Non renseignée |
 
-Les trois AMM (titulaire : Baxter) sont annulées ; aucune AMM valide n'est actuellement recensée dans les données compilées.
+Les trois AMM (titulaire : Baxter) sont valides ; le médicament est commercialisé (3 AMM valides sur 3).
 
 ---
 

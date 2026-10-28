@@ -4,17 +4,17 @@ title: Colchicine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 196
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Colchicine : nouvelle indication prédite, Paludisme à Plasmodium falciparum (niveau de preuve L5). Indication d'origine : Goutte"
 monitor_inn: "COLCHICINE"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
+description: "Colchicine : nouvelle indication prédite, Plasmodium falciparum malaria (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Colchicine : De la Goutte et de la Fièvre Méditerranéenne Familiale au Paludisme à *Plasmodium falciparum*
+## Colchicine: Plasmodium falciparum malaria
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit donc d'une prédiction purement computationnelle, à ce stade.
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Goutte ; fièvre méditerranéenne familiale (le texte d'indication des AMM françaises n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Paludisme à *Plasmodium falciparum* |
-| Score de Prédiction TxGNN | 99,60 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Plasmodium falciparum malaria |
+| Score de Prédiction TxGNN | 0.9960 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (aucune en cours de validité) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -87,8 +87,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68066715 | COLCHICINE OPOCALCIUM 1 mg, comprimé sécable (annulée) | Comprimé sécable | Non renseignée |
-| 61331730 | COLCHIMAX, comprimé pelliculé sécable (annulée) | Comprimé pelliculé sécable | Non renseignée |
+| 68066715 | COLCHICINE OPOCALCIUM 1 mg, comprimé sécable (active) | Comprimé sécable | Non renseignée |
+| 61331730 | COLCHIMAX, comprimé pelliculé sécable (active) | Comprimé pelliculé sécable | Non renseignée |
 
 ---
 
@@ -107,8 +107,7 @@ Pour les mises en garde officielles, veuillez consulter la notice, car les donn�
 
 ## Autres Prédictions Examinées
 
-- **Fièvre méditerranéenne familiale, forme autosomique dominante** (score 99,38 % ; niveau L4) : la colchicine est déjà le traitement de première intention de la fièvre méditerranéenne familiale, qui est une indication d'origine. Il s'agit d'une variante d'une indication existante, donc d'une question de classification des indications et non d'un véritable repositionnement. Les 20 publications identifiées sont essentiellement des revues narratives, sans essai clinique ni données contrôlées spécifiques à ce sous-type.
-- **Dermatofibrosarcome protubérant** (score 99,37 % ; niveau L5 ; Hold) : aucune donnée clinique ni bibliographique. L'hypothèse antimitotique est spéculative, la maladie étant pilotée par la fusion COL1A1-PDGFB et traitée par chirurgie et imatinib. La toxicité de la colchicine limite son usage comme antinéoplasique.
+- **Dermatofibrosarcome protubérant** (score 0,9937 ; niveau L5 ; Hold) : aucune donnée clinique ni bibliographique. L'hypothèse antimitotique est spéculative, la maladie étant pilotée par la fusion COL1A1-PDGFB et traitée par chirurgie et imatinib. La toxicité de la colchicine limite son usage comme antinéoplasique.
 
 ---
 

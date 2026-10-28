@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Meropenem
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 481
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Meropenem : nouvelle indication prédite, Arthrite bactérienne (niveau de preuve L5). Indication d'origine : Infections à Pseudomonas aeruginosa, méningites (bactérienne…"
 monitor_inn: "meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
+description: "Meropenem : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Méropénem : Des méningites et infections à Pseudomonas à l'infection urinaire (disponible : arthrite bactérienne, première prédiction du modèle)
+## Meropenem: Arthrite bactérienne (bacterial arthritis)
 {: .text-alpha }
 
 > Remarque : la première indication prédite par le modèle est l'**arthrite bactérienne** (rang 1). C'est elle qui sert de référence pour le titre, le résumé et l'aperçu. La prédiction la mieux étayée par les preuves, l'**infection urinaire**, est présentée en complément dans la conclusion.
@@ -48,12 +48,12 @@ Parmi les autres prédictions, l'**infection urinaire** bénéficie de **9 essai
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections à *Pseudomonas aeruginosa*, méningites (bactérienne, à méningocoque, à pneumocoque, à streptocoque), péritonite (le texte d'indication des AMM n'est pas renseigné ; données issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Arthrite bactérienne |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Arthrite bactérienne (bacterial arthritis) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L4 (aucun essai ; littérature indirecte) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 18 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -112,7 +112,6 @@ Pour les mises en garde officielles, veuillez consulter la notice.
 
 **Justification :**
 - Pour l'arthrite bactérienne, il n'y a aucun essai clinique et la littérature est indirecte (niveau L4). Les informations de sécurité issues de la notice et le mécanisme d'action sont également manquants, ce qui bloque le passage à l'étape de sécurité.
-- À titre de comparaison, l'**infection urinaire** (rang 6, score 99,52 %) atteint le niveau L1, avec plusieurs essais de phase 3 et des essais randomisés (TANGO I, par exemple). Elle relève toutefois d'un usage déjà établi du méropénem plutôt que d'un véritable repositionnement, et mériterait la recommandation « Proceed with Guardrails » (bon usage, adaptation à la fonction rénale, risque convulsif).
 - Les autres prédictions (épiglottite, laryngite, urétrite à *Ureaplasma*, etc.) sont soit faiblement étayées, soit mécanistiquement non plausibles (*Ureaplasma* n'a pas de paroi bactérienne).
 
 **Pour avancer, les éléments suivants sont nécessaires :**

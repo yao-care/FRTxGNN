@@ -4,7 +4,7 @@ title: Entecavir
 parent: Preuves modérées (L3-L4)
 nav_order: 285
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Entecavir : nouvelle indication prédite, Infection chronique par le virus de l'hépatite C (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite B"
 monitor_inn: "entecavir"
@@ -14,7 +14,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 # Entecavir
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection chroni
 |------|------|
 | Indication Originale | Infection chronique par le virus de l'hépatite B |
 | Nouvelle Indication Prédite | Infection chronique par le virus de l'hépatite C |
-| Score de Prédiction TxGNN | 99,98 % |
+| Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -127,7 +127,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Données détaillées sur le mécanisme d'action
 - Texte des mises en garde et contre-indications de la notice (source ANSM)
 - Données précliniques démontrant une éventuelle activité anti-VHC (aucune n'est actuellement disponible)
-- Vérification de la disponibilité du produit en France, toutes les AMM étant annulées
+- Vérification de la disponibilité du produit en France, 20 AMM valides, médicament commercialisé
 
 **Remarque sur les autres indications prédites :** l'hépatite B (rang 2) est l'indication d'origine (niveau L1, Proceed with Guardrails ; surveillance de l'acidose lactique, de la thrombocytopénie, des poussées post-traitement, adaptation de la dose en cas d'insuffisance rénale). L'infection par le VIH (rang 3, L3) relève d'une question de recherche, l'entécavir ne devant pas être utilisé comme traitement du VIH en raison du risque de sélection de la mutation M184V. Les autres prédictions (hépatites A et E, modèles animaux, trouble neurodéveloppemental rare) sont de niveau L4-L5 et restent en Hold.
 ## Avertissement

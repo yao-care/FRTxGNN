@@ -4,17 +4,17 @@ title: Ceritinib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 154
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ceritinib : nouvelle indication prédite, Fibromatose gingivale (niveau de preuve L5). Indication d'origine : Cancer bronchique non à petites cellules"
 monitor_inn: "ceritinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "junctional epidermolysis bullosa"]
+description: "Ceritinib : nouvelle indication prédite, Fibromatose gingivale (fibromatosis, gingival) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ceritinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ceritinib : Du Cancer Bronchique Non à Petites Cellules à la Fibromatose Gingivale
+## Ceritinib: Fibromatose gingivale (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gin
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer bronchique non à petites cellules ; cancer du poumon (le texte d'indication de l'AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Fibromatose gingivale |
-| Score de Prédiction TxGNN | 99,86 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Fibromatose gingivale (fibromatosis, gingival) |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Retiré (AMM annulée uniquement) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, ceritinib est un inhibiteur de tyrosine kinase ciblant ALK (et, selon la littérature, également IGF-1R, FAK et ROS1). Son efficacité a été démontrée dans le CBNPC avec réarrangement ALK, notamment dans l'essai de phase 3 ASCEND-4.
 
-Pour la fibromatose gingivale, **aucun lien mécanistique n'est étayé par les données compilées**. Le score élevé du modèle (99,86 %) est une prédiction seule. La voie ALK n'a pas de rôle documenté dans cette maladie, qui est une affection gingivale héréditaire. La similarité avec l'indication d'origine n'a pas été évaluée.
+Pour la fibromatose gingivale, **aucun lien mécanistique n'est étayé par les données compilées**. Le score élevé du modèle (0,9986) est une prédiction seule. La voie ALK n'a pas de rôle documenté dans cette maladie, qui est une affection gingivale héréditaire. La similarité avec l'indication d'origine n'a pas été évaluée.
 
 À titre de comparaison, parmi les dix prédictions les mieux classées, plusieurs concernent des tumeurs pulmonaires (carcinome du hile pulmonaire, tumeur du sillon pulmonaire). Elles recoupent l'indication existante du CBNPC et ne constituent pas de véritables signaux de repositionnement. Une seule piste présente un soutien indirect : la tumeur germinale pulmonaire (niveau L4, « question de recherche »), pour laquelle la littérature montre l'activité de ceritinib sur des tumeurs ALK-altérées hors CBNPC (glioblastome, neuroblastome). Ce soutien ne concerne pas les tumeurs germinales elles-mêmes.
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement pour la fibromatose gingiv
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66958808 | ZYKADIA 150 mg, gélule (NOVARTIS EUROPHARM, Irlande) | Gélule | Non renseignée (AMM annulée) |
+| 66958808 | ZYKADIA 150 mg, gélule (NOVARTIS EUROPHARM, Irlande) | Gélule | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

@@ -46,10 +46,10 @@ Le fénotérol est un agoniste bêta-2 adrénergique à action courte, utilisé 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM (usage connu : bronchodilatateur) |
 | Nouvelle Indication Prédite | Atrophie multisystématisée |
-| Score de Prédiction TxGNN | 99,70 % |
+| Score de Prédiction TxGNN | 0,9970 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -58,7 +58,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien mécanistique possible est une modulation sympathique et une vasodilatation médiée par le récepteur bêta-2, pouvant influencer la dysautonomie de l'atrophie multisystématisée. Toutefois, cette vasodilatation pourrait aggraver l'hypotension orthostatique neurogène, symptôme central de cette maladie. La plausibilité biologique est donc faible et ambivalente.
 
-Les autres prédictions du modèle sont du même ordre et ne reposent sur aucune preuve : syndrome de tachycardie orthostatique posturale (mécanisme jugé incohérent, la stimulation bêta-2 risquant d'aggraver les symptômes), prionopathie sensible aux protéases de façon variable (aucun lien identifiable, probable artefact du graphe de connaissances), glaucome à angle ouvert et glaucome héréditaire primitif (lien de classe plausible via l'humeur aqueuse, mais sans donnée propre au fénotérol), maladie de Raynaud (vasodilatation périphérique plausible, mais effets cardiovasculaires limitants), ainsi que bloc sino-atrial et dysfonction sinusale (effet chronotrope théorique, mais risque pro-arythmique et alternatives bien supérieures).
+Les autres prédictions du modèle sont du même ordre et ne reposent sur aucune preuve : syndrome de tachycardie orthostatique posturale (mécanisme jugé incohérent, la stimulation bêta-2 risquant d'aggraver les symptômes), prionopathie sensible aux protéases de façon variable (aucun lien identifiable ; le score vient du modèle TxGNN (deep learning) et peut refléter des similarités apprises entre maladies voisines, non une preuve biologique), glaucome à angle ouvert et glaucome héréditaire primitif (lien de classe plausible via l'humeur aqueuse, mais sans donnée propre au fénotérol), maladie de Raynaud (vasodilatation périphérique plausible, mais effets cardiovasculaires limitants), ainsi que bloc sino-atrial et dysfonction sinusale (effet chronotrope théorique, mais risque pro-arythmique et alternatives bien supérieures).
 
 ## Preuves d'Essais Cliniques
 
@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62652340 | BRONCHODUAL 50 microgrammes/20 microgrammes/dose, solution pour inhalation en flacon pressurisé (Boehringer Ingelheim France) | Solution pour inhalation | Non renseignée (AMM annulée) |
+| 62652340 | BRONCHODUAL 50 microgrammes/20 microgrammes/dose, solution pour inhalation en flacon pressurisé (Boehringer Ingelheim France) | Solution pour inhalation | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Delamanid
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 223
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Delamanid : nouvelle indication prédite, Tuberculose bovine (niveau de preuve L4). Indication d'origine : Tuberculose multirésistante"
 monitor_inn: "delamanid"
 predicted_indications: ["allergic urticaria"]
+description: "Delamanid : nouvelle indication prédite, Allergic urticaria (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Delamanid
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-## Delamanid : De la tuberculose multirésistante à la tuberculose bovine
+## Delamanid: Allergic urticaria
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ La prédiction repose donc essentiellement sur le modèle.
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tuberculose multirésistante (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Tuberculose bovine |
-| Score de Prédiction TxGNN | 99,91 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Allergic urticaria |
+| Score de Prédiction TxGNN | 0.9956 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -76,8 +76,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64639797 | DELTYBA 50 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
-| 62314890 | DELTYBA 25 mg, comprimés dispersibles (annulée) | Comprimé dispersible | Non renseignée |
+| 64639797 | DELTYBA 50 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+| 62314890 | DELTYBA 25 mg, comprimés dispersibles (active) | Comprimé dispersible | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -105,12 +105,7 @@ Le même modèle a prédit d'autres indications, toutes sans preuve solide.
 
 | Indication prédite | Score TxGNN | Niveau de preuve | Décision | Commentaire |
 |------|------|------|------|------|
-| Tuberculome | 99,91 % | L4 | Hold | Pénétration dans le système nerveux central non établie ; seule une revue générale est disponible |
-| Ascite tuberculeuse | 99,91 % | L5 | Hold | Prédiction informatique uniquement |
-| Tuberculose inactive (latente) | 99,91 % | L3 | Question de recherche | L'essai de phase 2/3 CRUSH-TB (NCT05766267, 288 participants, actif non recrutant) porte sur la tuberculose pulmonaire active ; le rôle de delamanid dans ses schémas n'est pas confirmé ici ; littérature composée surtout de revues générales |
-| Tuberculose aviaire | 99,91 % | L5 | Hold | *M. avium* n'appartient pas au complexe *M. tuberculosis* ; activité douteuse |
-| Urticaire allergique | 99,56 % | L5 | Hold | Aucun lien mécanistique plausible ; probable artefact du modèle |
-| Tuberculose cutanée | 99,10 % | L4 | Hold | La littérature porte sur la toxicité des antituberculeux de première ligne, non sur l'efficacité |
+| Urticaire allergique | 0,9956 | L5 | Hold | Aucun lien mécanistique plausible ; probable artefact du modèle |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

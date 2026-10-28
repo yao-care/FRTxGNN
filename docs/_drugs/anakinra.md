@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Anakinra
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 66
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Anakinra : nouvelle indication prédite, Fièvre méditerranéenne familiale autosomique récessive (niveau de preuve L3). Indication d'origine : Polyarthrite rhumatoïde…"
+description: "Anakinra : nouvelle indication prédite, Mastocytome extracutané (niveau de preuve L3). Indication d'origine : Polyarthrite rhumatoïde…"
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aut
 # Anakinra
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Anakinra : De la polyarthrite rhumatoïde à la fièvre méditerranéenne familiale autosomique récessive
+## Anakinra : De la polyarthrite rhumatoïde au mastocytome extracutané
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -50,13 +50,13 @@ avec **0 essai clinique** enregistré et **20 publications** associées (princip
 |------|------|
 | Indication Originale | Polyarthrite rhumatoïde, syndromes périodiques associés à la cryopyrine (CAPS), syndrome CINCA |
 | Nouvelle Indication Prédite | Fièvre méditerranéenne familiale autosomique récessive |
-| Score de Prédiction TxGNN | 99,93 % (indication de rang 1 : mastocytome extracutané, 99,93 % ; fièvre méditerranéenne familiale retenue ici car mieux documentée, 99,89 %) |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Score de Prédiction TxGNN | 0,9993 (indication de rang 1 : mastocytome extracutané, 0,9993 ; fièvre méditerranéenne familiale retenue ici car mieux documentée, 0,9989) |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
-> Note : le score affiché ci-dessus pour la fièvre méditerranéenne familiale est de **99,89 %** ; la mention entre parenthèses précise que le candidat classé premier par TxGNN (mastocytome extracutané, 99,93 %) ne dispose d'aucune preuve et n'a donc pas été retenu.
+> Note : le score affiché ci-dessus pour la fièvre méditerranéenne familiale est de **0,9989** ; la mention entre parenthèses précise que le candidat classé premier par TxGNN (mastocytome extracutané, 0,9993) ne dispose d'aucune preuve et n'a donc pas été retenu.
 
 ---
 
@@ -99,7 +99,7 @@ Aucun essai randomisé n'est disponible. Les publications les plus pertinentes (
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60663231 | KINERET 100 mg/0,67 mL, solution injectable en seringue préremplie (statut : annulée) | Solution injectable | Non renseignée |
+| 60663231 | KINERET 100 mg/0,67 mL, solution injectable en seringue préremplie (statut : active) | Solution injectable | Non renseignée |
 
 ---
 

@@ -4,17 +4,17 @@ title: Phenobarbital
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 595
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Phenobarbital : nouvelle indication prédite, Tumeur du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie"
 monitor_inn: "phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenobarbital : nouvelle indication prédite, Tumeur du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Phenobarbital
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Phénobarbital : De l'épilepsie à la tumeur du nerf trijumeau (prédiction non étayée)
+## Phenobarbital: Tumeur du nerf trijumeau (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ Les données compilées pour ce rapport ne soutiennent donc cette prédiction qu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Tumeur du nerf trijumeau |
-| Score de Prédiction TxGNN | 99,96 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Tumeur du nerf trijumeau (trigeminal nerve neoplasm) |
+| Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 11 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, le phénobarbital est un modulateur allostérique positif des récepteurs GABA-A qui supprime les crises, et il n'a pas d'activité antitumorale connue.
 
-**La prédiction ne repose sur aucun lien mécanistique crédible.** Le score élevé reflète vraisemblablement la proximité du médicament avec des nœuds neurologiques et épileptiques dans le graphe de connaissances, et non un véritable signal thérapeutique. La seule publication retrouvée porte sur la prise en charge des crises dans le syndrome de Sturge-Weber, et non sur une tumeur du trijumeau.
+**La prédiction ne repose sur aucun lien mécanistique crédible.** Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises entre maladies voisines, et non une preuve biologique. La seule publication retrouvée porte sur la prise en charge des crises dans le syndrome de Sturge-Weber, et non sur une tumeur du trijumeau.
 
 **Autres prédictions du modèle (classées par score) :**
 
@@ -88,15 +88,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 11 AMM identifiées sont toutes annulées ; aucune AMM valide n'est recensée. Le texte d'indication approuvée n'est pas renseigné.
+Le médicament est commercialisé : 11 AMM valides sur 11 identifiées. Le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63019074 | PHENOBARBITALUM BOIRON (dilutions 4CH–30CH / 8DH–60DH) | Comprimé, solution, granules, poudre, pommade | Annulée |
-| 63707416 | GARDENAL 10 mg | Comprimé | Annulée |
-| 64933585 | GARDENAL 40 mg/2 ml | Poudre et solvant pour solution injectable | Annulée |
-| 60323481 | PHENOBARBITAL RICHARD 100 mg | Comprimé sécable | Annulée |
-| 61475588 | GARDENAL 100 mg | Comprimé | Annulée |
+| 63019074 | PHENOBARBITALUM BOIRON (dilutions 4CH–30CH / 8DH–60DH) | Comprimé, solution, granules, poudre, pommade | Active |
+| 63707416 | GARDENAL 10 mg | Comprimé | Active |
+| 64933585 | GARDENAL 40 mg/2 ml | Poudre et solvant pour solution injectable | Active |
+| 60323481 | PHENOBARBITAL RICHARD 100 mg | Comprimé sécable | Active |
+| 61475588 | GARDENAL 100 mg | Comprimé | Active |
 
 Six autres AMM annulées (Gardenal 200 mg/4 ml, Gardenal 50 mg, Alepsal 15, 50, 100 et 150 mg) ne sont pas détaillées ici.
 
@@ -113,7 +113,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (tumeur du nerf trijumeau) n'a ni essai clinique, ni littérature pertinente, ni lien mécanistique plausible ; elle relève très probablement d'un artefact du graphe de connaissances. Le médicament ne dispose en outre plus d'aucune AMM valide en France.
+- La prédiction principale (tumeur du nerf trijumeau) n'a ni essai clinique, ni littérature pertinente, ni lien mécanistique plausible ; son score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises entre maladies voisines, non une preuve biologique. Le médicament est par ailleurs commercialisé (11 AMM valides sur 11).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications officielles), ce qui bloque actuellement le criblage de sécurité

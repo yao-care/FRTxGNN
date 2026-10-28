@@ -47,10 +47,10 @@ Le modèle TxGNN la prédit comme potentiellement utile dans l'**infection par l
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM française |
 | Nouvelle Indication Prédite | Infection par le VIH (contexte des infections opportunistes) |
-| Score de Prédiction TxGNN | 99,88 % |
+| Score de Prédiction TxGNN | 0,9988 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -101,7 +101,7 @@ Parmi les 20 publications compilées, voici les plus pertinentes :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67699269 | ANSATIPINE 150 mg, gélule (SERB) | Gélule | Non renseignée (AMM annulée) |
+| 67699269 | ANSATIPINE 150 mg, gélule (SERB) | Gélule | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

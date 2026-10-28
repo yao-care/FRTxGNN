@@ -6,9 +6,9 @@ nav_order: 214
 evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Dapsone : nouvelle indication prédite, Pneumocystose (niveau de preuve L1). Indication d'origine : Dermatite herpétiforme, acné, lèpre"
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
+description: "Dapsone : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dapsone
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **1**
 
 </div>
 
-## Dapsone : De la dermatite herpétiforme à la pneumocystose
+## Dapsone: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **10 essais cliniques** et **20 publications** soutenant actuellement cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dermatite herpétiforme, acné, lèpre (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Pneumocystose |
-| Score de Prédiction TxGNN | 99,73 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pneumocystose (pneumocystosis) |
+| Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 *Pneumocystis jirovecii* dépend de cette voie métabolique. Cela explique l'activité de la dapsone en prophylaxie et, en association avec le triméthoprime, dans le traitement des pneumocystoses légères à modérées. La dapsone possède par ailleurs des effets antimicrobiens et anti-inflammatoires, ce qui est cohérent avec ses usages historiques dans la lèpre et les dermatoses neutrophiliques.
 
-Le score élevé de TxGNN (0,997) est donc compatible avec ce mécanisme connu. Ce lien est déduit de la pharmacologie générale et non du dossier fourni. La dapsone reste un traitement de seconde intention après l'association triméthoprime-sulfaméthoxazole, utilisée surtout chez les patients qui ne la tolèrent pas.
+Le score élevé de TxGNN (0,9973) est donc compatible avec ce mécanisme connu. Ce lien est déduit de la pharmacologie générale et non du dossier fourni. La dapsone reste un traitement de seconde intention après l'association triméthoprime-sulfaméthoxazole, utilisée surtout chez les patients qui ne la tolèrent pas.
 
 ## Preuves d'Essais Cliniques
 
@@ -96,7 +96,7 @@ Le score élevé de TxGNN (0,997) est donc compatible avec ce mécanisme connu. 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67654911 | DISULONE 100 mg/200 mg (SANOFI WINTHROP INDUSTRIE) ; AMM annulée | Comprimé sécable | Non renseignée |
+| 67654911 | DISULONE 100 mg/200 mg (SANOFI WINTHROP INDUSTRIE) ; AMM active | Comprimé sécable | Non renseignée |
 
 ## Considérations de Sécurité
 

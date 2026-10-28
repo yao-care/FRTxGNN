@@ -6,9 +6,9 @@ nav_order: 557
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Olmesartan : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (le texte d'indication des AM…"
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
+description: "Olmesartan : nouvelle indication prédite, Angor de Prinzmetal (Prinzmetal angina) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Olmesartan
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Olmésartan : De l'hypertension artérielle à l'angor de Prinzmetal
+## Olmesartan: Angor de Prinzmetal (Prinzmetal angina)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ L'olmésartan est un antagoniste des récepteurs de l'angiotensine II (type AT1)
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données compilées (le texte d'indication des AMM est vide) |
-| Nouvelle Indication Prédite | Angor de Prinzmetal |
-| Score de Prédiction TxGNN | 99,84 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Angor de Prinzmetal (Prinzmetal angina) |
+| Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Nombre d'AMM | 20 (valides : 20) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,16 +62,16 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Pour l'angor de Prinzmetal, l'angiotensine II contribue à la vasoconstriction et pourrait influencer le vasospasme coronarien. Ce raisonnement reste toutefois **spéculatif** : les inhibiteurs calciques et les dérivés nitrés restent la référence, et aucune donnée clinique n'a été fournie.
 
-Plusieurs autres prédictions à score élevé (hypotrichose, alopécie, alopécie areata) n'ont aucun lien mécanistique identifié avec le blocage AT1. Leur score élevé reflète probablement la proximité dans le graphe de connaissances plutôt qu'une justification biologique.
+Plusieurs autres prédictions à score élevé (hypotrichose, alopécie, alopécie areata) n'ont aucun lien mécanistique identifié avec le blocage AT1. Leur score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ### Autres pistes prédites
 
 | Maladie | Score TxGNN | Niveau de preuve | Données disponibles |
 |------|------|------|------|
-| Migraine | 99,64 % | L3 | 3 publications (2 études de 2006 chez des patients hypertendus, 1 revue systématique de 2019 sur IEC/ARA II) |
-| Hypertension pulmonaire | 99,61 % | L4 | 3 études précliniques chez le rongeur ; 1 essai COVID-19 non pertinent |
-| Glaucome à angle ouvert | 99,40 % | L4 | 1 revue générale, soutien indirect uniquement |
-| Alopécie, hypotrichose, alopécie areata, hypotrichose congénitale avec milia, migraine avec aura du tronc cérébral, cardiopathie cyphoscoliotique | 99,47 % à 99,57 % | L5 | Aucune |
+| Migraine | 0,9964 | L3 | 3 publications (2 études de 2006 chez des patients hypertendus, 1 revue systématique de 2019 sur IEC/ARA II) |
+| Hypertension pulmonaire | 0,9961 | L4 | 3 études précliniques chez le rongeur ; 1 essai COVID-19 non pertinent |
+| Glaucome à angle ouvert | 0,9940 | L5 | 1 revue générale, soutien indirect uniquement |
+| Alopécie, hypotrichose, alopécie areata, hypotrichose congénitale avec milia, migraine avec aura du tronc cérébral, cardiopathie cyphoscoliotique | 0,9947 à 0,9957 | L5 | Aucune |
 
 ---
 
@@ -99,7 +99,7 @@ Pour la piste la plus documentée (migraine) :
 
 ## Informations de Marché en France
 
-Les 20 AMM sont **annulées** ; aucune n'est valide. Le texte d'indication n'est pas renseigné. Principales AMM :
+Le texte d'indication n'est pas renseigné. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -127,7 +127,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction pour l'angor de Prinzmetal repose uniquement sur le modèle (L5), sans essai ni publication, et les traitements actuels (inhibiteurs calciques, dérivés nitrés) restent la référence.
-- Toutes les AMM françaises sont annulées, et les mises en garde et contre-indications ne sont pas disponibles, ce qui empêche l'étape de criblage de sécurité.
+- Le médicament est commercialisé en France (20 AMM valides sur 20), mais les mises en garde et contre-indications ne sont pas disponibles, ce qui empêche l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications, indications) : lacune bloquante.

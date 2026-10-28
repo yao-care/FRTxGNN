@@ -6,9 +6,9 @@ nav_order: 423
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ketoconazole : nouvelle indication prédite, Acné (niveau de preuve L4). Indication d'origine : Données d'indication non renseignées dans les AMM"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
+description: "Ketoconazole : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ketoconazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Kétoconazole : Des Mycoses Cutanées à l'Acné
+## Ketoconazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acné**, mais ce
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Données d'indication non renseignées dans les AMM ; le graphe de connaissances cite notamment la teigne du pied, la dermite séborrhéique, le pityriasis versicolor et les candidoses cutanées |
-| Nouvelle Indication Prédite | Acné |
-| Score de Prédiction TxGNN | 99,80 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acné (acne (disease)) |
+| Score de Prédiction TxGNN | 0.9980 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -85,13 +85,12 @@ Aucun essai randomisé ni revue systématique évaluant directement le kétocona
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60557096 | KETODERM 2 %, crème | Crème | Non renseignée (AMM annulée) |
-| 60347710 | KETOCONAZOLE VIATRIS 2 %, crème | Crème | Non renseignée (AMM annulée) |
-| 61393881 | KETOCONAZOLE ZYDUS 2 %, gel en sachet-dose | Gel | Non renseignée (AMM annulée) |
-| 60502840 | KETOCONAZOLE EG 2 %, gel en récipient-unidose | Gel | Non renseignée (AMM annulée) |
-| 69406163 | KETOCONAZOLE ESTEVE 200 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 60557096 | KETODERM 2 %, crème | Crème | Non renseignée (AMM active) |
+| 60347710 | KETOCONAZOLE VIATRIS 2 %, crème | Crème | Non renseignée (AMM active) |
+| 61393881 | KETOCONAZOLE ZYDUS 2 %, gel en sachet-dose | Gel | Non renseignée (AMM active) |
+| 60502840 | KETOCONAZOLE EG 2 %, gel en récipient-unidose | Gel | Non renseignée (AMM active) |
+| 69406163 | KETOCONAZOLE ESTEVE 200 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées, toutes annulées, aucune n'étant valide actuellement.
 
 ## Considérations de Sécurité
 
@@ -106,7 +105,7 @@ Les mises en garde et contre-indications issues des notices ANSM ne sont pas dis
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L4 : un seul essai de petite taille, sans résultats, et des données surtout in vitro ou indirectes. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche l'étape de dépistage de sécurité.
+- Le niveau de preuve est L4 : un seul essai de petite taille, sans résultats, et des données surtout in vitro ou indirectes. De plus, le médicament est commercialisé en France avec 20 AMM valides, mais les données de sécurité de la notice sont absentes, ce qui empêche l'étape de dépistage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats de l'essai NCT07237763 (efficacité et tolérance de la crème 2 % versus adapalène)

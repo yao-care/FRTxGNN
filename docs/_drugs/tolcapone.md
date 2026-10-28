@@ -6,9 +6,9 @@ nav_order: 771
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tolcapone : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (niveau de preuve L5). Indication d'origine : Maladie de Parkinson"
 monitor_inn: "TOLCAPONE"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
+description: "Tolcapone : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tolcapone
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tolcapone : De la maladie de Parkinson à l'encéphalite de Rasmussen
+## Tolcapone: Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**encéphalite sub
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de Parkinson (indication issue du graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Encéphalite subaiguë de Rasmussen |
-| Score de Prédiction TxGNN | 99,93 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) |
+| Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Retiré (AMM annulée uniquement) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -79,7 +79,7 @@ Aucune littérature associée disponible actuellement pour l'encéphalite de Ras
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67077388 | TASMAR 100 mg, comprimé pelliculé (VIATRIS HEALTHCARE, Irlande) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 67077388 | TASMAR 100 mg, comprimé pelliculé (VIATRIS HEALTHCARE, Irlande) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

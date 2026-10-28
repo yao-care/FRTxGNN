@@ -6,9 +6,9 @@ nav_order: 257
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Doxazosin : nouvelle indication prédite, Migraine (niveau de preuve L4). Indication d'origine : Hypertension artérielle et hyperplasie bénigne de la prostate"
 monitor_inn: "doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Doxazosin : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Doxazosin
@@ -33,24 +33,24 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-## Doxazosine : De l'Hypertension et de l'Hyperplasie Bénigne de la Prostate à la Migraine
+## Doxazosin: Migraine (migraine disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La doxazosine est un antagoniste des récepteurs alpha-1 adrénergiques, initialement utilisé pour traiter l'hypertension artérielle et l'hyperplasie bénigne de la prostate.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (score de 99,2 %), mais cette prédiction ne repose actuellement que sur **1 publication** (une petite série de 10 patients datant de 1997) et **aucun essai clinique**.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (score de 0,9920), mais cette prédiction ne repose actuellement que sur **1 publication** (une petite série de 10 patients datant de 1997) et **aucun essai clinique**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle et hyperplasie bénigne de la prostate (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Migraine |
-| Score de Prédiction TxGNN | 99,20 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Migraine (migraine disorder) |
+| Score de Prédiction TxGNN | 0.9920 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 6 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -61,7 +61,7 @@ Le lien possible avec la migraine passe par la modulation du tonus adrénergique
 
 Il faut toutefois rester prudent : le score TxGNN élevé est une prédiction computationnelle et non une preuve clinique. L'absence de données de mécanisme d'action validées empêche de recouper ce lien avec des informations curées sur les cibles du médicament.
 
-Une seconde prédiction, la **migraine avec aura du tronc cérébral** (score 99,19 %), est quasiment identique à celle de la migraine. Elle semble hériter du nœud « migraine » plus général, sans aucune preuve spécifique à ce sous-type (niveau L5).
+Une seconde prédiction, la **migraine avec aura du tronc cérébral** (score 0,9919), est quasiment identique à celle de la migraine. Elle semble hériter du nœud « migraine » plus général, sans aucune preuve spécifique à ce sous-type (niveau L5).
 
 ## Preuves d'Essais Cliniques
 
@@ -79,13 +79,13 @@ Cette publication est de faible niveau de preuve (petite série, sans groupe con
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66978789 | Doxazosine Substipharm LP 8 mg | Comprimé à libération prolongée | Annulée |
-| 65525280 | Doxazosine Arrow LP 8 mg | Comprimé à libération prolongée | Annulée |
-| 61689364 | Doxazosine Substipharm LP 4 mg | Comprimé à libération prolongée | Annulée |
-| 60562606 | Doxazosine Viatris L.P. 4 mg | Comprimé à libération prolongée | Annulée |
-| 67020316 | Doxazosine Viatris L.P. 8 mg | Comprimé à libération prolongée | Annulée |
+| 66978789 | Doxazosine Substipharm LP 8 mg | Comprimé à libération prolongée | Active |
+| 65525280 | Doxazosine Arrow LP 8 mg | Comprimé à libération prolongée | Active |
+| 61689364 | Doxazosine Substipharm LP 4 mg | Comprimé à libération prolongée | Active |
+| 60562606 | Doxazosine Viatris L.P. 4 mg | Comprimé à libération prolongée | Active |
+| 67020316 | Doxazosine Viatris L.P. 8 mg | Comprimé à libération prolongée | Active |
 
-Le texte d'indication approuvée n'est pas disponible pour ces AMM. Une sixième AMM (Doxazosine Teva LP 4 mg, n° 67970560) est également annulée. Aucune AMM n'est actuellement valide.
+Le texte d'indication approuvée n'est pas disponible pour ces AMM. Une sixième AMM (Doxazosine Teva LP 4 mg, n° 67970560) est également annulée.
 
 ## Considérations de Sécurité
 
@@ -100,7 +100,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 **Décision : Hold**
 
 **Justification :**
-- Le soutien repose sur une seule petite série de cas ancienne (1997) et sur un score de prédiction, sans essai clinique. De plus, aucune AMM n'est valide en France et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité.
+- Le soutien repose sur une seule petite série de cas ancienne (1997) et sur un score de prédiction, sans essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM

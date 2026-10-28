@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Valpromide
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 802
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Valpromide : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée (texte d'indication vide dans l'AMM)"
 monitor_inn: "VALPROMIDE"
 predicted_indications: ["insomnia (disease)"]
+description: "Valpromide : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Valpromide
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Valpromide : De l'indication originale non documentée à l'insomnie
+## Valpromide: Insomnie (insomnia (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (texte d'indication vide dans l'AMM) |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,79 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
+| Score de Prédiction TxGNN | 0.9979 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 *Remarque sur le niveau de preuve : selon la grille de lecture, une simple série de cas relèverait plutôt du niveau L3 (observationnel) ou L5 (prédiction seule). Le niveau L4 retenu dans les données compilées est conservé ici, par prudence, car la seule publication disponible est très limitée.*
@@ -61,7 +61,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Par analogie avec le valproate, deux mécanismes sont plausibles : le renforcement de la transmission GABAergique (inhibition de la GABA transaminase, augmentation de la disponibilité du GABA) et la modulation des canaux sodiques voltage-dépendants. Ces effets pourraient théoriquement réduire l'hyperexcitabilité neuronale et favoriser le sommeil.
 
-Ce lien est toutefois déduit d'un composé apparenté et n'a pas été démontré pour valpromide dans l'insomnie. Le score très élevé de TxGNN (0,998) est une prédiction informatique, et non une preuve clinique.
+Ce lien est toutefois déduit d'un composé apparenté et n'a pas été démontré pour valpromide dans l'insomnie. Le score très élevé de TxGNN (0,9979) est une prédiction informatique, et non une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -90,7 +90,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score de modèle élevé, mais les preuves réelles se limitent à une série de cas ancienne, indirecte et sans essai clinique. De plus, aucune AMM n'est valide en France et les données de sécurité sont absentes, ce qui empêche toute évaluation de sécurité.
+- La prédiction repose sur un score de modèle élevé, mais les preuves réelles se limitent à une série de cas ancienne, indirecte et sans essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)

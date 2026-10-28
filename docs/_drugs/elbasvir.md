@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Elbasvir : De l'hépatite C chronique à l'hépatite B
+## Elbasvir : De l'hépatite C chronique à l'infection par le virus de l'hépatite B
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -49,13 +49,13 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 |------|------|
 | Indication Originale | Infection chronique par le virus de l'hépatite C |
 | Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
-| Score de Prédiction TxGNN | 99,71 % |
+| Score de Prédiction TxGNN | 0,9971 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
-Remarque : le texte de l'indication approuvée n'est pas renseigné dans l'AMM française. L'indication originale provient donc des relations d'indication du graphe de connaissances de TxGNN.
+Remarque : le texte de l'indication approuvée n'est pas renseigné dans l'AMM française. L'indication originale n'est donc pas disponible sur cette page.
 
 ---
 
@@ -99,7 +99,7 @@ Aucune publication retenue ne teste elbasvir contre le virus de l'hépatite B. V
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 

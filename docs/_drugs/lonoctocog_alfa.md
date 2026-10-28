@@ -6,9 +6,9 @@ nav_order: 459
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lonoctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie"
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
+description: "Lonoctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lonoctocog Alfa
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Lonoctocog alfa : De l'hémophilie à la pseudo-maladie de von Willebrand
+## Lonoctocog Alfa: Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hémophilie (la base de données réglementaire française ne fournit pas de texte d'indication ; l'indication provient du graphe de connaissances TxGNN) |
-| Nouvelle Indication Prédite | Pseudo-maladie de von Willebrand |
-| Score de Prédiction TxGNN | 99,85 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) |
+| Score de Prédiction TxGNN | 0.9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ---
@@ -70,9 +70,9 @@ Cette hypothèse reste toutefois limitée : le FVIII ne corrige pas le défaut p
 
 | Maladie prédite | Score TxGNN | Commentaire |
 |------|------|------|
-| Trouble primaire de la libération plaquettaire | 99,84 % | Le médicament agit sur la cascade de coagulation, pas sur la sécrétion plaquettaire ; aucun fondement mécanistique clair |
-| Thrombasthénie de Glanzmann | 99,76 % | Déficit de l'intégrine αIIbβ3 ; le FVIII n'est pas déficient et ne corrige pas l'agrégation plaquettaire |
-| Syndrome de Scott | 99,44 % | Lien ténu (le FVIII est un cofacteur du complexe ténase), mais le défaut primaire est l'absence de surface phospholipidique procoagulante |
+| Trouble primaire de la libération plaquettaire | 0,9984 | Le médicament agit sur la cascade de coagulation, pas sur la sécrétion plaquettaire ; aucun fondement mécanistique clair |
+| Thrombasthénie de Glanzmann | 0,9976 | Déficit de l'intégrine αIIbβ3 ; le FVIII n'est pas déficient et ne corrige pas l'agrégation plaquettaire |
+| Syndrome de Scott | 0,9944 | Lien ténu (le FVIII est un cofacteur du complexe ténase), mais le défaut primaire est l'absence de surface phospholipidique procoagulante |
 
 ---
 
@@ -98,7 +98,7 @@ Aucune littérature associée disponible actuellement.
 | 60944716 | AFSTYLA 1500 UI | Poudre et solvant pour solution injectable | Non renseignée |
 | 66216027 | AFSTYLA 250 UI | Poudre et solvant pour solution injectable | Non renseignée |
 
-Les 7 AMM (titulaire : CSL Behring, Allemagne) sont annulées ; seules les 5 premières sont listées ici. Aucune AMM n'est actuellement valide en France.
+Les 7 AMM (titulaire : CSL Behring, Allemagne) sont annulées ; seules les 5 premières sont listées ici.
 
 ---
 
@@ -113,7 +113,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est peu plausible, car le FVIII ne corrige pas le défaut plaquettaire sous-jacent. De plus, aucune AMM n'est valide en France et les données de sécurité de la notice sont absentes.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est peu plausible, car le FVIII ne corrige pas le défaut plaquettaire sous-jacent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour pouvoir réaliser le premier criblage de sécurité (point bloquant)

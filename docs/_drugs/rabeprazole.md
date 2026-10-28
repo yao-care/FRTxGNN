@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Rabeprazole
-parent: Prédiction du modèle uniquement (L5)
+parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 645
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Rabeprazole : nouvelle indication prédite, Mastocytose systémique indolente (smouldering) (niveau de preuve L5). Indication d'origine : Maladie ulcéreuse gastroduodénale, reflux gastro-œsophagien…"
-monitor_inn: "rabeprazole"
-predicted_indications: ["lymphoadenopathic mastocytosis with eosinophilia"]
+last_modified_at: 2026-10-23
+description: "Rabeprazole : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Rabeprazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **N/A** | Indications prédites: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +32,66 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Rabéprazole : Des Maladies Acido-Peptiques à la Mastocytose Systémique Indolente (Smouldering)
+<!-- known-uses-page -->
+<!-- description: Rabeprazole : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate -->
+## Rabeprazole
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé
+Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Rabeprazole correspondent tous à des usages déjà connus. Il n'y a donc actuellement aucune nouvelle indication prédite pour ce médicament. Les deux usages connus retrouvés figurent uniquement sous forme de relations dans le graphe de connaissances.
 
-Le rabéprazole est un inhibiteur de la pompe à protons, initialement utilisé pour traiter l'ulcère gastroduodénal, le reflux gastro-œsophagien et le syndrome de Zollinger-Ellison.
-Le modèle TxGNN prédit qu'il pourrait être utile dans la **mastocytose systémique indolente (smouldering)**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette prédiction.
-Les données compilées pour ce rapport indiquent par ailleurs que la mastocytose figure déjà parmi les indications d'origine du médicament dans le graphe de connaissances.
-
----
-
-## Aperçu Rapide
-
+## Aperçu rapide
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie ulcéreuse gastroduodénale, reflux gastro-œsophagien, œsophagite, ulcère duodénal, syndrome de Zollinger-Ellison (selon le graphe de connaissances ; aucun texte d'indication n'est disponible dans les AMM) |
-| Nouvelle Indication Prédite | Mastocytose systémique indolente (smouldering) |
-| Score de Prédiction TxGNN | 99,44 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 20 (toutes annulées) |
-| Décision Recommandée | Hold |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Nombre d'AMM | au moins 20 |
+| Usages connus parmi les candidats du modèle | 2 |
+| Statut commercial en France | Commercialisé (autorisations valides : au moins 19) |
 
----
+## Usages connus parmi les candidats du modèle
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+### Approuvés (appuyés par une autorisation ou une notice)
+| Indication | Source |
+|------|------|
+| Aucune | Aucune |
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le rabéprazole appartient à la classe des inhibiteurs de la pompe à protons (IPP), qui réduisent la sécrétion d'acide gastrique. Son efficacité dans les pathologies acido-dépendantes est établie.
+### Liés à une indication approuvée (même catégorie de maladie)
+| Indication | Catégorie approuvée |
+|------|------|
+| Aucune | Aucune |
 
-Dans la mastocytose, les mastocytes libèrent de l'histamine, qui stimule les récepteurs H2 des cellules pariétales et peut provoquer une hypersécrétion acide et des symptômes digestifs. Un IPP pourrait donc soulager ces manifestations. Il s'agirait d'un contrôle symptomatique : on n'attend pas d'effet sur la charge mastocytaire, la prolifération liée à KIT ni la progression de la maladie.
-
-Point important : la mastocytose systémique et la mastocytose figurent déjà parmi les indications d'origine du rabéprazole dans le graphe de connaissances. La forme « smouldering » est vraisemblablement un sous-type d'une indication existante, et non une véritable nouvelle opportunité de repositionnement. Le score élevé reflète probablement la proximité dans le graphe.
-
-Une seconde prédiction, la mastocytose lymphadénopathique avec éosinophilie (score 99,35 %), repose sur le même raisonnement, mais sans mécanisme connu agissant sur la lymphadénopathie, l'éosinophilie ou le processus hématologique clonal sous-jacent. Elle est également de niveau L5 et en statut Hold.
-
----
-
-## Preuves d'Essais Cliniques
-
-Aucun essai clinique associé enregistré actuellement.
-
----
-
-## Preuves de la Littérature
-
-Aucune littérature associée disponible actuellement.
-
----
+### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+| Indication |
+|------|
+| Mastocytose systémique latente (Smouldering systemic mastocytosis) |
+| Mastocytose lymphadénopathique avec éosinophilie (lymphoadenopathic mastocytosis with eosinophilia) |
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées. Aucun texte d'indication approuvée n'est disponible. Principales AMM :
+| AMM | Produit | Forme | Statut |
+|------|------|------|------|
+| 64710550 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 62880365 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 66787677 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 64397778 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 61212982 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 64546663 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 63449026 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 61305034 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 66035518 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 66387117 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Annulée |
+| 65031278 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 62909137 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 61438974 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 62134839 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 64238676 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 61805185 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 64718440 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 67263364 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 68832021 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+| 63965740 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66035518 | PARIET 10 mg (Janssen Cilag) | Comprimé gastro-résistant | Non renseignée |
-| 62909137 | PARIET 20 mg (Janssen Cilag) | Comprimé gastro-résistant | Non renseignée |
-| 64710550 | RABEPRAZOLE KRKA 10 mg | Comprimé gastro-résistant | Non renseignée |
-| 64546663 | RABEPRAZOLE KRKA 20 mg | Comprimé gastro-résistant | Non renseignée |
-| 66787677 | RABEPRAZOLE VIATRIS 10 mg | Comprimé gastro-résistant | Non renseignée |
-
----
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
 
 ## Considérations de Sécurité
 
@@ -108,20 +105,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ---
 
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
-
-**Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le bénéfice plausible se limite à un contrôle symptomatique de l'hypersécrétion acide, et l'indication semble déjà couverte par les indications d'origine du graphe.
-- Les AMM françaises sont toutes annulées et les données de sécurité issues de la notice sont absentes (lacune bloquante).
-
-**Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM
-- Obtenir les données sur le mécanisme d'action via DrugBank
-- Rechercher des essais cliniques ou des publications sur les IPP dans la mastocytose
-- Vérifier si l'indication « smouldering » apporte une valeur au-delà de l'indication existante de mastocytose
-- Clarifier la situation réglementaire (annulation des AMM) et la disponibilité réelle du produit en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

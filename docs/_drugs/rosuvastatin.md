@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rosuvastatin
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 681
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rosuvastatin : nouvelle indication prédite, Hypercholestérolémie familiale (niveau de preuve L1). Indication d'origine : Hypertriglycéridémie, hyperlipoprotéinémie…"
 monitor_inn: "rosuvastatin"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin : nouvelle indication prédite, Cholesterol-ester transfer protein deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Rosuvastatine : Des Dyslipidémies et de l'Athérosclérose à l'Hypercholestérolémie Familiale
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,15 +48,15 @@ Il s'agit toutefois d'une indication très proche de l'indication d'origine : l'
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertriglycéridémie, hyperlipoprotéinémie, hypercholestérolémie familiale homozygote, athérosclérose, accident vasculaire cérébral (source : graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypercholestérolémie familiale |
-| Score de Prédiction TxGNN | 99,54 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Cholesterol-ester transfer protein deficiency |
+| Score de Prédiction TxGNN | 0.9954 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
-> **Remarque** : la première prédiction du classement (déficit en protéine de transfert des esters de cholestérol, score 99,54 %) ne repose sur aucun essai ni publication (niveau L5, Hold). L'hypercholestérolémie familiale, deuxième du classement avec un score quasi identique, est retenue ici car c'est la première prédiction réellement documentée.
+> **Remarque** : la première prédiction du classement (déficit en protéine de transfert des esters de cholestérol, score 0,9954) ne repose sur aucun essai ni publication (niveau L5, Hold). L'hypercholestérolémie familiale, deuxième du classement avec un score quasi identique, est retenue ici car c'est la première prédiction réellement documentée.
 
 ---
 
@@ -108,15 +108,15 @@ Sélection des essais les plus pertinents pour l'hypercholestérolémie familial
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 61543911 | ROSUVASTATINE BGR 20 mg | Comprimé pelliculé | Annulée |
-| 64675900 | ROSUVASTATINE CRISTERS 10 mg | Comprimé pelliculé | Annulée |
-| 61062358 | ROSUVASTATINE EVOLUGEN 20 mg | Comprimé pelliculé | Annulée |
-| 65148032 | ROSUVASTATINE CRISTERS 20 mg | Comprimé pelliculé | Annulée |
-| 65227063 | ROSUVASTATINE EG 10 mg | Comprimé pelliculé | Annulée |
+| 61543911 | ROSUVASTATINE BGR 20 mg | Comprimé pelliculé | Active |
+| 64675900 | ROSUVASTATINE CRISTERS 10 mg | Comprimé pelliculé | Active |
+| 61062358 | ROSUVASTATINE EVOLUGEN 20 mg | Comprimé pelliculé | Active |
+| 65148032 | ROSUVASTATINE CRISTERS 20 mg | Comprimé pelliculé | Active |
+| 65227063 | ROSUVASTATINE EG 10 mg | Comprimé pelliculé | Active |
 
 ---
 

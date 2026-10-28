@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Héparine : De l'embolie pulmonaire au déficit en protéine C (thrombophilie autosomique récessive)
+## Héparine : Thrombophilie par déficit en protéine C, autosomique récessif
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,10 +48,10 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 |------|------|
 | Indication Originale | Embolie pulmonaire, coagulation intravasculaire disséminée, purpura fulminans (texte d'indication des AMM non renseigné) |
 | Nouvelle Indication Prédite | Thrombophilie par déficit en protéine C, autosomique récessive |
-| Score de Prédiction TxGNN | 99,29 % |
+| Score de Prédiction TxGNN | 0,9929 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 11 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -70,19 +70,19 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement.
 
-*Remarque : une seconde indication prédite (trouble primaire de la libération plaquettaire, score de 99,06 %) est associée à 20 publications, mais celles-ci portent surtout sur la coagulation en général, la thrombopénie induite par l'héparine ou des sujets sans rapport. Aucune n'évalue l'héparine comme traitement de ce trouble. Le mécanisme est faible, voire contradictoire (l'héparine augmente le risque hémorragique), et cette piste n'est pas retenue.*
+*Remarque : une seconde indication prédite (trouble primaire de la libération plaquettaire, score de 0,9906) est associée à 20 publications, mais celles-ci portent surtout sur la coagulation en général, la thrombopénie induite par l'héparine ou des sujets sans rapport. Aucune n'évalue l'héparine comme traitement de ce trouble. Le mécanisme est faible, voire contradictoire (l'héparine augmente le risque hémorragique), et cette piste n'est pas retenue.*
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65476933 | HEPARINE CHOAY 25 000 UI/5 mL | Solution injectable | Non renseignée (AMM annulée) |
-| 63018531 | CALCIPARINE SOUS CUTANEE 25 000 UI/1 ml | Solution injectable | Non renseignée (AMM annulée) |
-| 65822577 | HEPARINE CHOAY 5 000 UI/1 mL | Solution injectable | Non renseignée (AMM annulée) |
-| 60852495 | CALCIPARINE SOUS CUTANEE 20 000 UI/0,8 ml | Solution injectable | Non renseignée (AMM annulée) |
-| 64395923 | HEPARINE SODIQUE PANPHARMA 5 000 UI/ml (I.V.) | Solution injectable | Non renseignée (AMM annulée) |
+| 65476933 | HEPARINE CHOAY 25 000 UI/5 mL | Solution injectable | Non renseignée (AMM active) |
+| 63018531 | CALCIPARINE SOUS CUTANEE 25 000 UI/1 ml | Solution injectable | Non renseignée (AMM active) |
+| 65822577 | HEPARINE CHOAY 5 000 UI/1 mL | Solution injectable | Non renseignée (AMM active) |
+| 60852495 | CALCIPARINE SOUS CUTANEE 20 000 UI/0,8 ml | Solution injectable | Non renseignée (AMM active) |
+| 64395923 | HEPARINE SODIQUE PANPHARMA 5 000 UI/ml (I.V.) | Solution injectable | Non renseignée (AMM active) |
 
-Au total, 11 AMM figurent dans les données, toutes annulées ; aucune AMM valide n'est recensée.
+Au total, 11 AMM figurent dans les données, dont 11 valides.
 
 ## Considérations de Sécurité
 
@@ -97,7 +97,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pour l'indication principale.
-- Toutes les AMM françaises sont annulées et les données de sécurité officielles sont absentes, ce qui bloque l'évaluation de sécurité.
+- Les 11 AMM françaises sont valides ; les données de sécurité officielles sont absentes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.

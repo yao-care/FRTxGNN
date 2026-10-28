@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dantrolene
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 213
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dantrolene : nouvelle indication prédite, Susceptibilité à l'hyperthermie maligne (niveau de preuve L3). Indication d'origine : Hyperthermie maligne de l'anesthésie"
 monitor_inn: "dantrolene"
-predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+description: "Dantrolene : nouvelle indication prédite, Moderate multiminicore disease with hand involvement (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dantrolene
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **9**
 
 </div>
 
-## Dantrolène : De l'hyperthermie maligne de l'anesthésie à la susceptibilité à l'hyperthermie maligne
+## Dantrolene: Moderate multiminicore disease with hand involvement
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré ; **18 publications** (revues, recommanda
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hyperthermie maligne de l'anesthésie ; hyperthermie maligne d'effort (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Susceptibilité à l'hyperthermie maligne |
-| Score de Prédiction TxGNN | 99,93 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM en vigueur) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Moderate multiminicore disease with hand involvement |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -111,7 +111,6 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Le lien mécanistique est direct et le dantrolène est le traitement de référence de l'hyperthermie maligne, soutenu par des recommandations et des revues. Le niveau L3 sous-estime probablement la certitude clinique, un essai randomisé étant impraticable. Cependant, la prédiction recoupe l'indication d'origine, aucune AMM n'est en vigueur en France et les données de sécurité officielles manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Vérifier la disponibilité réelle du produit en France (toutes les AMM sont annulées) et, le cas échéant, les alternatives ou importations autorisées.
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
 - Compléter les données sur le mécanisme d'action depuis DrugBank.
 - Évaluer les contre-indications liées au foie et aux muscles, en particulier pour un usage prolongé par voie orale.

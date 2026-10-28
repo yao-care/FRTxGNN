@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**angor de Prinzme
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Angor de Prinzmetal |
-| Score de Prédiction TxGNN | 99,67 % |
+| Score de Prédiction TxGNN | 0,9967 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -70,16 +70,16 @@ Aucun essai clinique associé enregistré actuellement.
 Aucune littérature associée disponible actuellement pour l'angor de Prinzmetal.
 
 *À titre indicatif, pour d'autres indications prédites (non retenues comme indication principale) :*
-- **Migraine** (score TxGNN 99,06 %, niveau L4, orientation « question de recherche ») : une étude préclinique de 1996 (PMID [8665587](https://pubmed.ncbi.nlm.nih.gov/8665587/)) rapporte que les anesthésiques inhalés inhibent la dépression corticale envahissante, corrélat de l'aura migraineuse. Deux publications de 2015 ([26323741](https://pubmed.ncbi.nlm.nih.gov/26323741/), [26363696](https://pubmed.ncbi.nlm.nih.gov/26363696/), doublon en langue non anglaise) décrivent un cas d'état de mal migraineux traité par anesthésie générale. Les preuves restent précliniques et au niveau de cas isolés.
-- **Trouble bipolaire maniaque** (score 99,57 %, niveau L4, Hold) : une étude ouverte de 1993 (PMID [8462536](https://pubmed.ncbi.nlm.nih.gov/8462536/)) a comparé l'anesthésie à l'isoflurane en burst-suppression à l'électroconvulsivothérapie chez 12 patients atteints de dépression sévère. Les preuves sont trop limitées et anciennes.
+- **Migraine** (score TxGNN 0,9906, niveau L4, orientation « question de recherche ») : une étude préclinique de 1996 (PMID [8665587](https://pubmed.ncbi.nlm.nih.gov/8665587/)) rapporte que les anesthésiques inhalés inhibent la dépression corticale envahissante, corrélat de l'aura migraineuse. Deux publications de 2015 ([26323741](https://pubmed.ncbi.nlm.nih.gov/26323741/), [26363696](https://pubmed.ncbi.nlm.nih.gov/26363696/), doublon en langue non anglaise) décrivent un cas d'état de mal migraineux traité par anesthésie générale. Les preuves restent précliniques et au niveau de cas isolés.
+- **Trouble bipolaire maniaque** (score 0,9957, niveau L4, Hold) : une étude ouverte de 1993 (PMID [8462536](https://pubmed.ncbi.nlm.nih.gov/8462536/)) a comparé l'anesthésie à l'isoflurane en burst-suppression à l'électroconvulsivothérapie chez 12 patients atteints de dépression sévère. Les preuves sont trop limitées et anciennes.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 61070419 | ISOFLURANE BELAMONT | Liquide pour inhalation par vapeur | Non renseignée | Annulée |
-| 63498500 | AERRANE | Liquide pour inhalation par vapeur | Non renseignée | Annulée |
-| 65849318 | CEDACONDA 100 % V/V | Liquide pour inhalation par vapeur | Non renseignée | Annulée |
+| 61070419 | ISOFLURANE BELAMONT | Liquide pour inhalation par vapeur | Non renseignée | Active |
+| 63498500 | AERRANE | Liquide pour inhalation par vapeur | Non renseignée | Active |
+| 65849318 | CEDACONDA 100 % V/V | Liquide pour inhalation par vapeur | Non renseignée | Active |
 
 ## Considérations de Sécurité
 

@@ -48,10 +48,10 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 |------|------|
 | Indication Originale | Acné |
 | Nouvelle Indication Prédite | Élévation du zinc plasmatique |
-| Score de Prédiction TxGNN | 99,40 % |
+| Score de Prédiction TxGNN | 0,9940 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,11 +60,11 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **Aucun lien mécanistique établi** n'existe avec l'élévation du zinc plasmatique. Il s'agit d'une anomalie biologique/métabolique et non d'une affection dermatologique pilotée par la signalisation des rétinoïdes. De plus, le trifarotène est très instable sur le plan métabolique, ce qui laisse supposer une exposition systémique limitée en usage topique ; un effet systémique sur le zinc plasmatique paraît donc peu plausible.
 
-Le score TxGNN élevé (99,40 %) reflète une association dans le graphe de connaissances, sans soutien mécanistique, clinique ou bibliographique dans les données disponibles.
+Le score TxGNN élevé (0,9940) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'y a pas de soutien mécanistique, clinique ou bibliographique dans les données disponibles.
 
 ### Seconde prédiction (pour information)
 
-Le syndrome PAPA (arthrite pyogène, pyoderma gangrenosum et acné ; score de 99,32 %) est également prédit. Son volet cutané acnéique chevauche l'indication d'origine, ce qui peut expliquer le score. Cependant, il s'agit d'une maladie auto-inflammatoire (mutations de PSTPIP1, activation de l'inflammasome pyrine, excès d'IL-1β) que le trifarotène topique ne traiterait pas. Au mieux, il pourrait être envisagé en appoint pour les lésions cutanées acnéiformes, sans aucun test à ce jour. Aucun essai ni publication n'est disponible.
+Le syndrome PAPA (arthrite pyogène, pyoderma gangrenosum et acné ; score de 0,9932) est également prédit. Son volet cutané acnéique chevauche l'indication d'origine, ce qui peut expliquer le score. Cependant, il s'agit d'une maladie auto-inflammatoire (mutations de PSTPIP1, activation de l'inflammasome pyrine, excès d'IL-1β) que le trifarotène topique ne traiterait pas. Au mieux, il pourrait être envisagé en appoint pour les lésions cutanées acnéiformes, sans aucun test à ce jour. Aucun essai ni publication n'est disponible.
 
 ## Preuves d'Essais Cliniques
 
@@ -78,7 +78,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63631908 | AKLIEF 50 microgrammes/g, crème (GALDERMA INTERNATIONAL) | Crème | Texte d'indication non disponible (AMM annulée) |
+| 63631908 | AKLIEF 50 microgrammes/g, crème (GALDERMA INTERNATIONAL) | Crème | Texte d'indication non disponible (AMM active) |
 
 ## Considérations de Sécurité
 

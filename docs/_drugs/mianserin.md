@@ -4,17 +4,17 @@ title: Mianserin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 496
 evidence_level: L5
-indication_count: 7
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Mianserin : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (niveau de preuve L5). Indication d'origine : Dépression unipolaire, dépression endogène, trouble dépressif majeur"
 monitor_inn: "mianserin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "neurotic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
+description: "Mianserin : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Mianserin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Mianserine : De la dépression unipolaire à la torticolis paroxystique bénigne du nourrisson
+## Mianserin: Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Pour des indications voisines de l'indication d'origine (dysthymie, mélancolie,
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dépression unipolaire, dépression endogène, trouble dépressif majeur, trouble anxieux (source : graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Torticolis paroxystique bénin du nourrisson |
-| Score de Prédiction TxGNN | 99,49 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) |
+| Score de Prédiction TxGNN | 0.9949 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,8 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le torticolis paroxystique bénin du nourrisson est un trouble pédiatrique de type canalopathie (souvent lié au gène CACNA1A), apparenté au spectre des migraines. Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente. De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nourrisson.
 
-Il faut donc considérer cette prédiction comme une hypothèse issue du graphe, non comme un résultat étayé. D'autres prédictions du même modèle sont nettement plus plausibles, car proches de l'indication d'origine :
-- **Dysthymie** (score 99,45 %, niveau L4) : trouble dépressif chronique de moindre intensité, très proche de la dépression ; une méta-analyse d'essais contrôlés sur les antidépresseurs (PMID 21527126) existe, mais elle porte sur la classe et non sur la mianserine.
+Il faut donc considérer cette prédiction comme une hypothèse issue du modèle TxGNN (deep learning), dont le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. D'autres prédictions du même modèle sont nettement plus plausibles, car proches de l'indication d'origine :
 - **Mélancolie** (99,17 %, L4) et **dépression névrotique** (99,16 %, L4) : quasiment des indications d'origine, avec des revues propres à la mianserine et des méta-analyses sur les antidépresseurs.
 - **Trouble névrotique** (99,02 %, L3) : études comparatives propres à la mianserine (vs imipramine, vs clomipramine), mais anciennes et de petite taille.
 - **Agoraphobie** (99,40 %, L4) : une seule publication, portant sur les IMAO-A réversibles, donc très indirecte.
@@ -102,7 +101,7 @@ Aucune littérature associée disponible actuellement pour le torticolis paroxys
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61179297 | MIANSERINE VIATRIS 10 mg, comprimé pelliculé (VIATRIS SANTE) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61179297 | MIANSERINE VIATRIS 10 mg, comprimé pelliculé (VIATRIS SANTE) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 

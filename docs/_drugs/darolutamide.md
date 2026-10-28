@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestéro
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote |
-| Score de Prédiction TxGNN | 99,11 % |
+| Score de Prédiction TxGNN | 0,9911 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestéro
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, darolutamide est un antagoniste non stéroïdien du récepteur des androgènes, utilisé dans les cancers de la prostate hormonodépendants. Son indication d'origine n'a toutefois pas pu être confirmée à partir du texte d'AMM disponible.
 
-Aucun lien mécanistique plausible n'apparaît entre l'antagonisme du récepteur des androgènes et le dysfonctionnement du récepteur du LDL, cause de l'hypercholestérolémie familiale homozygote. Le score élevé (0,991) est une prédiction purement computationnelle et pourrait refléter des artefacts du graphe de connaissances, par exemple des voisins communs liés aux récepteurs nucléaires ou au métabolisme lipidique.
+Aucun lien mécanistique plausible n'apparaît entre l'antagonisme du récepteur des androgènes et le dysfonctionnement du récepteur du LDL, cause de l'hypercholestérolémie familiale homozygote. Le score élevé (0,9911) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 La similarité avec l'indication d'origine n'a pas encore été évaluée. En l'absence d'essai ou de publication, cette prédiction doit être considérée comme hautement spéculative.
 
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62384935 | NUBEQA 300 mg, comprimé pelliculé (BAYER AG, Allemagne) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62384935 | NUBEQA 300 mg, comprimé pelliculé (BAYER AG, Allemagne) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -129,8 +129,8 @@ Pour les autres informations de sécurité (mises en garde, contre-indications),
 
 | Indication | Score TxGNN | Niveau de Preuve | Décision | Commentaire |
 |------|------|------|------|------|
-| Néoplasie endocrinienne multiple | 99,06 % | L4 | Hold | Deux essais retrouvés (NCT07795177, NCT03878524), en réalité centrés sur le cancer de la prostate et la médecine de précision en oncologie, associés par une terminologie large. Aucune donnée spécifique à cette indication. |
-| Infection par le VIH | 99,04 % | L5 | Hold | Prédiction purement computationnelle, sans lien mécanistique direct. Les nombreuses interactions médicamenteuses (CYP3A4/P-gp) poseraient un problème pratique avec les antirétroviraux. |
+| Néoplasie endocrinienne multiple | 0,9906 | L5 | Hold | Deux essais retrouvés (NCT07795177, NCT03878524), en réalité centrés sur le cancer de la prostate et la médecine de précision en oncologie, associés par une terminologie large. Aucune donnée spécifique à cette indication. |
+| Infection par le VIH | 0,9904 | L5 | Hold | Prédiction purement computationnelle, sans lien mécanistique direct. Les nombreuses interactions médicamenteuses (CYP3A4/P-gp) poseraient un problème pratique avec les antirétroviraux. |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

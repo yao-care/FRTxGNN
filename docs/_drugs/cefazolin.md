@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cefazolin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 146
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
-description: "Cefazolin : nouvelle indication prédite, Otite moyenne infectieuse (niveau de preuve L4). Indication d'origine : Pneumonie bactérienne, cholangite, endocardite, arthrite bactérienne"
 monitor_inn: "cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
+last_modified_at: 2026-10-27
+description: "Cefazolin : nouvelle indication prédite, Otite moyenne infectieuse (infectious otitis media) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cefazolin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-## Céfazoline : Des infections bactériennes (pneumonie, endocardite, cholangite) à l'otite moyenne infectieuse
+## Céfazoline : antibiotique céphalosporine de première génération → Otite moyenne infectieuse (infectious otitis media)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La céfazoline est une céphalosporine de première génération administrée par voie injectable, initialement utilisée contre des infections bactériennes comme les pneumonies (à streptocoques et à staphylocoques), les endocardites, les cholangites et les arthrites bactériennes.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**otite moyenne infectieuse**, mais **aucun essai clinique** n'est enregistré pour cette indication et seules **2 publications** (peu pertinentes) y sont rattachées.
+La céfazoline est une céphalosporine de première génération, antibiotique qui bloque la synthèse de la paroi des bactéries.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**otite moyenne infectieuse (infectious otitis media)**,
+mais aucun essai clinique n'est enregistré et les **2 publications** retrouvées sont indirectes (un rapport de cas pédiatrique d'association d'antibiotiques et une revue hors sujet).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Pneumonie bactérienne, cholangite, endocardite, arthrite bactérienne (d'après le graphe de connaissances ; aucun texte d'indication d'AMM disponible) |
-| Nouvelle Indication Prédite | Otite moyenne infectieuse |
-| Score de Prédiction TxGNN | 99,44 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Otite moyenne infectieuse (infectious otitis media) |
+| Score de Prédiction TxGNN | 0,9944 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la céfazoline est une céphalosporine de première génération qui inhibe la synthèse de la paroi bactérienne. Elle est active sur les cocci à Gram positif, notamment les streptocoques et les staphylocoques sensibles à la méticilline.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la céfazoline inhibe la synthèse de la paroi bactérienne et agit sur les bactéries à Gram positif, notamment les streptocoques et les staphylocoques sensibles à la méticilline. Ces germes peuvent être impliqués dans l'otite moyenne, ce qui rend le lien biologiquement plausible.
 
-Ces germes figurent parmi les pathogènes plausibles de l'otite moyenne, ce qui rend le lien biologiquement raisonnable. Les indications d'origine (pneumonies à streptocoques et staphylocoques, endocardite, arthrite bactérienne) reposent sur la même activité antibactérienne.
-
-Plusieurs limites sont toutefois à souligner : la céfazoline n'existe que sous forme injectable, et son activité est limitée contre *H. influenzae* et *M. catarrhalis*, deux agents majeurs de l'otite moyenne. La prédiction reste donc une hypothèse de recherche.
+Des limites importantes existent : la céfazoline s'administre uniquement par voie injectable et son activité est limitée contre *Haemophilus influenzae* et *Moraxella catarrhalis*, deux agents majeurs de l'otite moyenne. Le score élevé du modèle reflète une proximité statistique avec d'autres maladies infectieuses traitées par ce médicament, et non une démonstration clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -69,43 +68,41 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Rapport de cas | Ann Otol Rhinol Laryngol | Syndrome de Gradenigo pédiatrique (complication d'otite moyenne aiguë) traité par une association empirique ceftazidime-céfazoline ; la contribution propre de la céfazoline ne peut être isolée |
-| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Revue | Clin Pharm | Prise en charge du syndrome de Stevens-Johnson ; hors sujet pour cette indication |
+| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Rapport de cas | Annals of Otology, Rhinology, and Laryngology | Syndrome de Gradenigo pédiatrique (complication d'otite moyenne aiguë) traité empiriquement par l'association ceftazidime-céfazoline ; la contribution propre de la céfazoline ne peut pas être isolée |
+| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Revue | Clinical Pharmacy | Prise en charge du syndrome de Stevens-Johnson ; l'otite moyenne n'apparaît qu'en contexte, article hors sujet |
 
-Les deux références sont de faible pertinence : l'une est un cas isolé en association, l'autre ne concerne pas l'efficacité de la céfazoline dans l'otite moyenne.
+Aucune de ces publications n'étudie directement la céfazoline comme traitement de l'otite moyenne infectieuse : le niveau de preuve reste donc L5.
 
 ## Informations de Marché en France
 
+La céfazoline est commercialisée en France. Les données compilées pour ce rapport recensent 8 autorisations de mise sur le marché pour des produits à base de céfazoline seule, sous forme de poudre pour solution injectable ou pour perfusion (voies IM/IV).
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67948546 | CEFAZOLINE VIATRIS 2 g | Poudre pour solution injectable | Non renseignée (AMM annulée) |
-| 67504598 | CEFAZOLINE QILU 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 61876894 | CEFAZOLINE PANPHARMA 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 69312237 | CEFAZOLINE QILU 2 g | Poudre pour solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 60461151 | CEFAZOLINE PANPHARMA 2 g | Poudre pour solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-
-Au total, 8 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
+| 67948546 | CEFAZOLINE VIATRIS 2 g | Poudre pour solution injectable | Non renseignée dans les données locales |
+| 67504598 | CEFAZOLINE QILU 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
+| 61876894 | CEFAZOLINE PANPHARMA 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
+| 69312237 | CEFAZOLINE QILU 2 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
+| 60461151 | CEFAZOLINE PANPHARMA 2 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : troubles de la coagulation, colite à *Clostridium difficile*, entérocolite nécrosante périnatale, déficit congénital en prothrombine.
-- **Interactions médicamenteuses** : 112 interactions recensées. Les interactions de niveau modéré concernent les aminosides (kanamycine, néomycine, streptomycine) et l'acide picosulfurique. D'autres interactions, de niveau non classifié, concernent notamment l'amphotéricine B, l'acide acétylsalicylique, l'amoxicilline, la metformine et l'oméprazole.
+- **Interactions médicamenteuses** : 112 interactions sont répertoriées. Les interactions de niveau modéré concernent les aminosides (kanamycine, néomycine, streptomycine) et l'acide picosulfurique. D'autres interactions, de niveau non précisé, concernent par exemple l'amphotéricine B, l'acide acétylsalicylique, l'amoxicilline, la metformine et l'oméprazole.
 
-Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
+Veuillez consulter la notice pour les mises en garde et contre-indications détaillées.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose essentiellement sur le score du modèle : aucun essai clinique, et une littérature limitée à un cas en association et à un article hors sujet. Les AMM françaises sont toutes annulées et les données de sécurité officielles manquent.
-- Parmi les autres indications prédites, l'otite moyenne suppurée est le signal le plus solide (niveau L3, étude comparative de 1982 cefmétazole vs céfazoline), mais il reste faible et ancien.
+Aucun essai clinique n'est enregistré et aucune publication n'étudie directement la céfazoline dans l'otite moyenne infectieuse. Le seul élément récent est un rapport de cas où la céfazoline est associée à un autre antibiotique. La voie injectable seule et le spectre limité sur les germes principaux de l'otite moyenne affaiblissent encore l'intérêt.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Notice officielle de l'ANSM (mises en garde et contre-indications), actuellement bloquant pour le criblage de sécurité
-- Données détaillées sur le mécanisme d'action (DrugBank)
-- Études cliniques récentes sur la céfazoline dans l'otite moyenne, avec prise en compte des résistances actuelles et de la couverture d'*H. influenzae*
-- Évaluation de la compatibilité de la voie d'administration (injectable uniquement) avec cette indication
+- Des données sur le mécanisme d'action et le spectre d'activité face aux germes de l'otite moyenne
+- Des études cliniques comparatives ciblant l'otite moyenne infectieuse
+- Les mises en garde et contre-indications issues de la notice officielle
+- Une évaluation de la pertinence de la voie injectable pour cette indication
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

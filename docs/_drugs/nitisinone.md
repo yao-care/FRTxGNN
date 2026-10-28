@@ -6,9 +6,9 @@ nav_order: 539
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Nitisinone : nouvelle indication prédite, Acidose tubulaire rénale (niveau de preuve L5). Indication d'origine : Tyrosinémie"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
+description: "Nitisinone : nouvelle indication prédite, Acidose tubulaire rénale (renal tubular acidosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nitisinone
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Nitisinone : De la Tyrosinémie à l'Acidose Tubulaire Rénale
+## Nitisinone: Acidose tubulaire rénale (renal tubular acidosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acidose tubulair
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tyrosinémie (source : graphe de connaissances TxGNN, le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Acidose tubulaire rénale |
-| Score de Prédiction TxGNN | 99,96 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acidose tubulaire rénale (renal tubular acidosis) |
+| Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -85,13 +85,13 @@ Aucune littérature associée disponible actuellement pour l'acidose tubulaire r
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 66880925 | ORFADIN 4 mg/ml | Suspension buvable | Annulée |
-| 60459499 | ORFADIN 5 mg | Gélule | Annulée |
-| 64147632 | ORFADIN 10 mg | Gélule | Annulée |
-| 62524376 | NITISINONE DIPHARMA 5 mg | Gélule | Annulée |
-| 67123316 | NITISINONE DIPHARMA 2 mg | Gélule | Annulée |
+| 66880925 | ORFADIN 4 mg/ml | Suspension buvable | Active |
+| 60459499 | ORFADIN 5 mg | Gélule | Active |
+| 64147632 | ORFADIN 10 mg | Gélule | Active |
+| 62524376 | NITISINONE DIPHARMA 5 mg | Gélule | Active |
+| 67123316 | NITISINONE DIPHARMA 2 mg | Gélule | Active |
 
-Au total, 9 AMM sont recensées, toutes annulées. Aucune AMM valide n'apparaît dans les données compilées. Le texte des indications approuvées n'est pas renseigné.
+Au total, 9 AMM sont recensées, dont 9 valides. Le médicament est commercialisé. Le texte des indications approuvées n'est pas renseigné.
 
 ---
 

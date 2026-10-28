@@ -4,17 +4,17 @@ title: Vonicog Alfa
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 820
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Vonicog Alfa : nouvelle indication prédite, Trouble de la libération plaquettaire primaire (rang 1) (niveau de preuve L5). Indication d'origine : Maladie de von Willebrand héréditaire"
+indication_count: 8
 monitor_inn: "VONICOG ALFA"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+last_modified_at: 2026-10-23
+description: "Vonicog Alfa : nouvelle indication prédite, Primary release disorder of platelets (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vonicog Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,91 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Vonicog alfa : Du Syndrome de Willebrand à l'Hémophilie
+## Vonicog Alfa: Primary release disorder of platelets
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Vonicog alfa est un facteur de von Willebrand recombinant (rVWF), initialement utilisé pour le traitement de la **maladie de von Willebrand** (héréditaire ou acquise).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour plusieurs affections hémorragiques, dont l'**hémophilie** (seule prédiction étayée par de la littérature indirecte). La prédiction de rang 1 est le **trouble de la libération plaquettaire primaire**, sans aucun élément de preuve.
-Au total, **aucun essai clinique** et **4 publications indirectes** (toutes sur la maladie de von Willebrand, non sur l'hémophilie) sont disponibles.
+Vonicog alfa est un facteur von Willebrand recombinant, initialement utilisé pour traiter la maladie de von Willebrand (héréditaire ou acquise).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hémophilie** (3ᵉ prédiction du classement), mais **aucun essai clinique** et **aucune publication** ne porte directement sur l'hémophilie : seules 4 publications indirectes, centrées sur la maladie de von Willebrand, ont été retrouvées.
 
----
+Remarque : la première prédiction du modèle est le « trouble primaire de la libération plaquettaire » (score le plus élevé), mais elle ne dispose d'aucune preuve. Ce rapport se concentre sur l'hémophilie, seule indication prédite assortie de publications, et résume les autres prédictions plus bas.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de von Willebrand héréditaire (texte d'indication des AMM non disponible ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Trouble de la libération plaquettaire primaire (rang 1) ; hémophilie (rang 4, seule avec littérature indirecte) |
-| Score de Prédiction TxGNN | 99,98 % (rang 1) ; 99,95 % (hémophilie) |
-| Niveau de Preuve | L5 (rang 1) ; L4 (hémophilie) |
-| Statut de Marché en France | Uniquement annulé |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Primary release disorder of platelets |
+| Score de Prédiction TxGNN | 0.9998 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
----
+Le niveau L5 s'applique car aucune des publications retrouvées n'étudie directement l'hémophilie.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, vonicog alfa est du facteur de von Willebrand recombinant : il favorise l'adhésion et l'agrégation plaquettaires et transporte le facteur VIII, qu'il stabilise dans la circulation.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, vonicog alfa est un facteur von Willebrand (VWF) recombinant. Le VWF favorise l'adhésion et l'agrégation des plaquettes sur les sites de lésion vasculaire, via la liaison à la GPIb et au collagène, et il transporte le facteur VIII.
 
-Pour le **trouble de la libération plaquettaire primaire**, il s'agit d'un défaut intrinsèque des plaquettes (sécrétion des granules). Un apport de VWF ne pourrait offrir qu'un soutien hémostatique partiel et indirect. Le score élevé reste une prédiction purement computationnelle.
+Le lien avec l'hémophilie est indirect : le VWF stabilise le facteur VIII endogène et le protège de sa clairance, d'où un lien plausible avec l'hémophilie A. Cependant, le produit n'est pas conçu pour remplacer le facteur VIII et n'a pas de rôle établi dans l'hémophilie.
 
-Pour l'**hémophilie**, le lien est plausible mais indirect : le VWF stabilise le facteur VIII endogène, mais ne remplace pas le facteur VIII manquant. Les autres prédictions présentent des liens plus faibles : thrombasthénie de Glanzmann (défaut du récepteur GPIIb/IIIa, en aval du VWF), pseudo-maladie de von Willebrand (défaut du récepteur plaquettaire, où l'ajout de VWF pourrait aggraver l'agglutination), syndrome de Scott, défaut du récepteur du collagène et thrombopénie constitutionnelle. La « forme liée à l'X de la maladie de von Willebrand » est une variante ontologique très proche de l'indication d'origine, probablement un chevauchement de nomenclature plutôt qu'une réelle opportunité de repositionnement. Le terme « flood factor deficiency » semble être un artefact d'ontologie sans mécanisme défini.
-
----
+Le score élevé du modèle reflète probablement la proximité des deux maladies dans le réseau de l'hémostase plutôt qu'une véritable adéquation mécanistique. Cette prédiction relève donc de l'hypothèse de travail.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
-
----
+Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Publications retrouvées pour l'hémophilie (preuve indirecte uniquement, aucune ne porte sur l'hémophilie) :
+Les quatre publications suivantes concernent la maladie de von Willebrand ou l'hémostase en général. Elles sont **indirectes** et ne testent pas l'efficacité dans l'hémophilie. Les titres et résumés étant tronqués, leurs détails ne peuvent pas être vérifiés complètement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [35439298](https://pubmed.ncbi.nlm.nih.gov/35439298/) | 2022 | Essai clinique de phase 3 | Blood | Prophylaxie par rVWF chez des adultes atteints de maladie de von Willebrand sévère, visant à réduire les saignements spontanés traités |
-| [37332615](https://pubmed.ncbi.nlm.nih.gov/37332615/) | 2023 | Étude pharmacocinétique/pharmacodynamique | Journal of Blood Medicine | Comparaison du rVWF et du VWF d'origine plasmatique chez des patients atteints de maladie de von Willebrand de type 3 |
-| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Revue narrative | Current Pharmaceutical Design | Agents hémostatiques nouveaux et renouvelés : considérations anesthésiques périopératoires |
-| [37926687](https://pubmed.ncbi.nlm.nih.gov/37926687/) | 2024 | Étude de laboratoire in vitro et enquête | Haemophilia | Méthodes de dosage du VWF recombinant et plasmatique dans les laboratoires d'hémostase |
-
----
+| [35439298](https://pubmed.ncbi.nlm.nih.gov/35439298/) | 2022 | Essai clinique de phase 3 | Blood | Prophylaxie par VWF recombinant chez des adultes atteints de maladie de von Willebrand sévère, évaluant la réduction des saignements spontanés traités |
+| [37332615](https://pubmed.ncbi.nlm.nih.gov/37332615/) | 2023 | Étude PK/PD comparative | Journal of Blood Medicine | Comparaison pharmacocinétique/pharmacodynamique du VWF recombinant et plasmatique dans la maladie de von Willebrand de type 3 |
+| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Revue narrative | Current Pharmaceutical Design | Panorama des agents hémostatiques nouveaux et renouvelés en contexte périopératoire |
+| [37926687](https://pubmed.ncbi.nlm.nih.gov/37926687/) | 2024 | Étude de laboratoire / enquête | Haemophilia | Méthodes de dosage du VWF recombinant et plasmatique dans les laboratoires d'hémostase |
 
 ## Informations de Marché en France
 
+Vonicog alfa est commercialisé en France (2 AMM, toutes deux valides, sans texte d'indication renseigné dans les données compilées).
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65346733 | VEYVONDI 650 UI poudre et solvant pour solution injectable (statut : annulée) | Poudre et solvant pour solution injectable | Non renseignée |
-| 69749137 | VEYVONDI 1 300 UI poudre et solvant pour solution injectable (statut : annulée) | Poudre et solvant pour solution injectable | Non renseignée |
+| 65346733 | VEYVONDI 650 UI | Poudre et solvant pour solution injectable | Non renseignée |
+| 69749137 | VEYVONDI 1 300 UI | Poudre et solvant pour solution injectable | Non renseignée |
 
----
+## Autres Prédictions du Modèle
+
+| Rang | Maladie prédite | Score TxGNN | Preuves | Appréciation |
+|---|---|---|---|---|
+| 1 | Trouble primaire de la libération plaquettaire | 0,9998 | Aucune | Défaut plaquettaire intrinsèque, non corrigé par le VWF exogène |
+| 2 | Thrombasthénie de Glanzmann | 0,9998 | Aucune | Déficit du récepteur αIIbβ3, que le VWF ne peut pas remplacer |
+| 4 | Syndrome de Scott | 0,9995 | Aucune | Défaut de scramblase plaquettaire, non corrigé par le VWF |
+| 5 | Déficit acquis en facteur de coagulation | 0,9994 | Aucune | Catégorie large ; question de recherche à préciser par sous-type (par ex. maladie de von Willebrand acquise, hémophilie acquise) |
+| 6 | Diathèse hémorragique par défaut de récepteur du collagène | 0,9992 | Aucune | Défaut au niveau du récepteur, peu probablement contourné par le VWF |
+| 7 | Trouble hémorragique lié à une thrombopénie constitutionnelle | 0,9992 | Aucune | Le VWF n'agit ni sur le nombre ni sur la production des plaquettes |
+| 8 | « Flood factor deficiency » | 0,9990 | Aucune | Terme ne correspondant à aucune entité clinique reconnue ; probable artefact d'ontologie à vérifier |
 
 ## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées pour ce rapport, et aucune contre-indication n'est issue du graphe de connaissances.
-
----
+Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées, et les mises en garde et contre-indications de la notice n'ont pas pu être extraites.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les 10 prédictions reposent sur le seul modèle (L5), à l'exception de l'hémophilie (L4), dont les publications concernent la maladie de von Willebrand et non l'hémophilie. Aucun essai clinique n'est enregistré, les deux AMM françaises sont annulées et les données de sécurité de la notice sont manquantes (lacune bloquante).
+- La prédiction pour l'hémophilie repose uniquement sur le modèle : aucune étude retrouvée ne teste directement l'hémophilie, et le produit n'a pas de rôle établi dans cette maladie. Les autres prédictions n'ont ni preuve ni justification mécanistique solide.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) afin de pouvoir réaliser le premier criblage de sécurité
-- Obtenir les données sur le mécanisme d'action (par ex. via DrugBank)
-- Clarifier les raisons de l'annulation des AMM et la disponibilité actuelle du produit en France
-- Rechercher des données cliniques directes sur l'hémophilie (et, si pertinent, sur le trouble de la libération plaquettaire), ou un avis d'expert sur la pertinence biologique
-- Écarter les prédictions de faible plausibilité (« flood factor deficiency », forme liée à l'X redondante avec l'indication d'origine)
+- Extraire les mises en garde et contre-indications de la notice ANSM (point bloquant pour l'évaluation de sécurité)
+- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank
+- Rechercher des études spécifiques à l'hémophilie (en particulier l'hémophilie A) et définir un sous-type précis pour les déficits acquis en facteur de coagulation
+- Vérifier le terme « flood factor deficiency » dans l'ontologie source
+- Confirmer le texte d'indication des deux AMM auprès de l'ANSM
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

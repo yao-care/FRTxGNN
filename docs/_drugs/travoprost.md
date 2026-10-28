@@ -6,9 +6,9 @@ nav_order: 782
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Travoprost : nouvelle indication prédite, Calciphylaxie viscérale (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert…"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
+description: "Travoprost : nouvelle indication prédite, Visceral calciphylaxis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Travoprost
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Travoprost : Du Glaucome à Angle Ouvert à la Calciphylaxie Viscérale
+## Travoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **calciphylaxie v
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Glaucome à angle ouvert, hypertension oculaire (les textes d'indication des AMM ne sont pas renseignés) |
-| Nouvelle Indication Prédite | Calciphylaxie viscérale |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Visceral calciphylaxis |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -73,15 +73,15 @@ Aucune littérature associée à la calciphylaxie viscérale n'est disponible ac
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées. Principales AMM :
+Les textes d'indication approuvée ne sont pas renseignés dans les données compilées. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60670806 | TRAVATAN 40 µg/mL | Collyre en solution | Annulée |
-| 63633802 | DUOTRAV 40 µg/mL + 5 mg/mL | Collyre en solution | Annulée |
-| 67138300 | VIZITRAV 40 µg/mL | Collyre en solution | Annulée |
-| 62332319 | SINETRAV 40 µg/mL | Collyre en solution | Annulée |
-| 68058227 | TRAVOPROST ZENTIVA 40 µg/mL | Collyre en solution | Annulée |
+| 60670806 | TRAVATAN 40 µg/mL | Collyre en solution | Active |
+| 63633802 | DUOTRAV 40 µg/mL + 5 mg/mL | Collyre en solution | Active |
+| 67138300 | VIZITRAV 40 µg/mL | Collyre en solution | Active |
+| 62332319 | SINETRAV 40 µg/mL | Collyre en solution | Active |
+| 68058227 | TRAVOPROST ZENTIVA 40 µg/mL | Collyre en solution | Active |
 
 Les 15 autres AMM (génériques de travoprost seul ou associés au timolol) sont également annulées.
 
@@ -99,7 +99,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique spéculatif et une voie oculaire topique peu compatible avec une indication systémique. Par ailleurs, toutes les AMM françaises sont annulées.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique spéculatif et une voie oculaire topique peu compatible avec une indication systémique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action issues de DrugBank, afin d'analyser le lien mécanistique

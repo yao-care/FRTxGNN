@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lactulose
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 431
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Lactulose : nouvelle indication prédite, Ictère obstructif (prédiction classée n°3 (niveau de preuve L3). Indication d'origine : Encéphalopathie hépatique, coma hépatique…"
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
+description: "Lactulose : nouvelle indication prédite, Acute urate nephropathy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lactulose
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-## Lactulose : De l'encéphalopathie hépatique à l'ictère obstructif
+## Lactulose: Acute urate nephropathy
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,15 +45,15 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ictère obstruct
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Encéphalopathie hépatique, coma hépatique, constipation (les textes d'indication des AMM ne sont pas renseignés) |
-| Nouvelle Indication Prédite | Ictère obstructif (prédiction classée n°3 ; les deux premières, néphropathie urique aiguë et néphrolithiase, n'ont aucune preuve) |
-| Score de Prédiction TxGNN | 99,53 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acute urate nephropathy |
+| Score de Prédiction TxGNN | 0.9989 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
-> Remarque : les prédictions de rang 1 et 2 (néphropathie urique aiguë, score 99,89 % ; néphrolithiase, 99,78 %) sont de niveau L5, sans essai ni publication. L'ictère obstructif a été retenu car c'est la première prédiction accompagnée de preuves réelles.
+> Remarque : les prédictions de rang 1 et 2 (néphropathie urique aiguë, score 0,9989 ; néphrolithiase, 0,9978) sont de niveau L5, sans essai ni publication. L'ictère obstructif a été retenu car c'est la première prédiction accompagnée de preuves réelles.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -89,12 +89,11 @@ Sélection des publications les plus pertinentes pour l'ictère obstructif :
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 68014679 | LAXARON 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM annulée) |
-| 62729121 | DUPHALAC 66,5 POUR CENT, solution buvable en flacon | Solution buvable | Non renseignée (AMM annulée) |
-| 60155329 | DUPHALAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM annulée) |
-| 62608575 | LACTULOSE BIOGARAN 66,5 %, solution buvable | Solution buvable | Non renseignée (AMM annulée) |
-| 64834085 | LAEVOLAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM annulée) |
+| 62729121 | DUPHALAC 66,5 POUR CENT, solution buvable en flacon | Solution buvable | Non renseignée (AMM active) |
+| 60155329 | DUPHALAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM active) |
+| 62608575 | LACTULOSE BIOGARAN 66,5 %, solution buvable | Solution buvable | Non renseignée (AMM active) |
+| 64834085 | LAEVOLAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM active) |
 
-Au total, 10 AMM sont recensées, toutes annulées ; aucune n'est valide actuellement.
 
 ## Considérations de Sécurité
 
@@ -108,8 +107,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,53 %), mais les preuves restent de niveau L3 : quelques petites études cliniques anciennes et des travaux précliniques, sans essai enregistré. Le dossier est un axe de recherche, pas encore une base pour un développement.
-- Aucune AMM n'est valide en France et les informations de sécurité officielles sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Le score TxGNN est très élevé (0,9953), mais les preuves restent de niveau L3 : quelques petites études cliniques anciennes et des travaux précliniques, sans essai enregistré. Le dossier est un axe de recherche, pas encore une base pour un développement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications)
@@ -118,7 +116,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Clarifier le statut réglementaire (AMM annulées) et la faisabilité d'une voie d'accès
 - Évaluer un essai clinique contemporain sur la dysfonction rénale périopératoire dans l'ictère obstructif
 - Examiner les contre-indications du graphe de connaissances (diabète, galactosémie, etc.) dans la population cible
-- Les prédictions de rang 1, 2 et 7 (néphropathie urique aiguë, néphrolithiase, hyperthermie maligne d'effort), sans preuve ni justification biologique, sont probablement des artefacts du graphe et ne sont pas à privilégier
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -4,17 +4,17 @@ title: Lamotrigine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 433
 evidence_level: L5
-indication_count: 9
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Lamotrigine : nouvelle indication prédite, Néoplasme du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Lamotrigine : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lamotrigine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Lamotrigine : De l'Épilepsie au Néoplasme du Nerf Trijumeau
+## Lamotrigine: Néoplasme du nerf trijumeau (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour le **néoplasme 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie (d'après le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -62,7 +62,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour le **néoplasme 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques établies, la lamotrigine bloque les canaux sodiques voltage-dépendants et réduit la libération de glutamate. Son efficacité dans l'épilepsie est reconnue. Ce mécanisme peut soulager certaines douleurs neuropathiques.
 
-Le score élevé du modèle s'explique très probablement par la proximité, dans le graphe de connaissances, avec la **névralgie du trijumeau**, pour laquelle la lamotrigine est utilisée. Rien n'indique que le médicament agisse sur la tumeur elle-même. Le lien avec l'indication d'origine (épilepsie) est donc indirect et repose sur un symptôme neurologique voisin, non sur un effet antitumoral.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies voisines, notamment avec la **névralgie du trijumeau**, pour laquelle la lamotrigine est utilisée, et non une preuve biologique. Rien n'indique que le médicament agisse sur la tumeur elle-même. Le lien avec l'indication d'origine (épilepsie) est donc indirect et repose sur un symptôme neurologique voisin, non sur un effet antitumoral.
 
 À titre d'information, la prédiction classée en deuxième position, la **névralgie du trijumeau**, est bien mieux étayée (2 essais cliniques, niveau L2). Elle est plus plausible que le néoplasme.
 
@@ -120,7 +120,6 @@ Les mises en garde et contre-indications officielles de la notice ne figurent pa
 - Des données précoces (précliniques ou mécanistiques) montrant un effet antitumoral de la lamotrigine sur les tumeurs du nerf trijumeau, ou une confirmation que la prédiction reflète en réalité la névralgie du trijumeau
 - Les données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications de la notice officielle de l'ANSM
-- Une clarification du statut réglementaire en France, puisque aucune AMM n'est valide
 - Une réorientation de l'évaluation vers la **névralgie du trijumeau** (Phase 2/3 contre carbamazépine, 21 patients, niveau L2, « Proceed with Guardrails »), qui dispose de preuves nettement plus solides
 ## Avertissement
 

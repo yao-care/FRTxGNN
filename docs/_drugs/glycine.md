@@ -4,17 +4,17 @@ title: Glycine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 369
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Glycine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume…"
 monitor_inn: "GLYCINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Glycine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie de la
 |------|------|
 | Indication Originale | Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, rhinopharyngite (issues de la base de connaissances TxGNN ; aucun texte d'indication n'est disponible dans les AMM françaises) |
 | Nouvelle Indication Prédite | Maladie de la cavité nasale |
-| Score de Prédiction TxGNN | 99,85 % |
+| Score de Prédiction TxGNN | 0,9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -59,7 +59,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le seul élément en faveur de la prédiction est un recoupement de territoire thérapeutique : les indications historiques de la glycine (rhinite allergique, rhinite vasomotrice, rhinite, rhinopharyngite) concernent déjà la cavité nasale. Le score élevé du modèle reflète probablement ce voisinage avec l'usage antérieur. Il ne constitue pas une preuve indépendante d'efficacité.
 
-Une seconde prédiction, la **laryngopharyngite aiguë** (score de 99,84 %), suit la même logique, en cohérence avec les indications historiques de pharyngite, de rhume et de rhinopharyngite. Aucun essai clinique ni aucune publication ne la soutient.
 
 ## Preuves d'Essais Cliniques
 
@@ -103,7 +102,7 @@ Aucune donnée d'interaction médicamenteuse n'a été retrouvée.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique pertinent, aucune publication directement liée, et aucun mécanisme d'action documenté. De plus, toutes les AMM françaises sont annulées, et les données de sécurité réglementaires manquent.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique pertinent, aucune publication directement liée, et aucun mécanisme d'action documenté. Par ailleurs, le médicament est commercialisé en France avec 19 AMM valides, mais les données de sécurité réglementaires manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de la glycine (par exemple via DrugBank) afin d'évaluer un lien mécanistique avec la cavité nasale

@@ -6,9 +6,9 @@ nav_order: 263
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Duloxetine : nouvelle indication prédite, Trouble obsessionnel-compulsif (niveau de preuve L5). Indication d'origine : Dépression unipolaire / trouble dépressif majeur"
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+description: "Duloxetine : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Duloxetine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Duloxétine : De la dépression majeure au trouble obsessionnel-compulsif
+## Duloxetine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble obses
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dépression unipolaire / trouble dépressif majeur (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Trouble obsessionnel-compulsif |
-| Score de Prédiction TxGNN | 99,84 % |
-| Niveau de Preuve | L2 (attribution prudente) |
-| Statut de Marché en France | AMM annulées uniquement |
-| Nombre d'AMM | 2 (0 valide, 2 annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Benign paroxysmal torticollis of infancy |
+| Score de Prédiction TxGNN | 0.9985 |
+| Niveau de Preuve | L5 (attribution prudente) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,10 +89,9 @@ Il faut toutefois rester prudent : les preuves sont de petite taille et ne montr
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68263545 | CYMBALTA 60 mg, gélule gastro-résistante (annulée) | Gélule gastro-résistante | Non renseignée |
-| 66852477 | CYMBALTA 30 mg, gélule gastro-résistante (annulée) | Gélule gastro-résistante | Non renseignée |
+| 68263545 | CYMBALTA 60 mg, gélule gastro-résistante (active) | Gélule gastro-résistante | Non renseignée |
+| 66852477 | CYMBALTA 30 mg, gélule gastro-résistante (active) | Gélule gastro-résistante | Non renseignée |
 
-Les deux AMM, détenues par ELI LILLY NEDERLAND BV (Pays-Bas), sont annulées ; aucune AMM valide n'est recensée dans les données compilées.
 
 ## Considérations de Sécurité
 

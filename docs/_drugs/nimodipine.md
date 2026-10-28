@@ -6,9 +6,9 @@ nav_order: 537
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nimodipine : nouvelle indication prédite, Hypercholestérolémie familiale homozygote (niveau de preuve L5). Indication d'origine : Hémorragie sous-arachnoïdienne"
 monitor_inn: "NIMODIPINE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Nimodipine : nouvelle indication prédite, Hypercholestérolémie familiale homozygote (homozygous familial hypercholesterolemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
 ---
 
 # Nimodipine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Nimodipine : De l'Hémorragie Sous-Arachnoïdienne à l'Hypercholestérolémie Familiale Homozygote
+## Nimodipine: Hypercholestérolémie familiale homozygote (homozygous familial hypercholesterolemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestéro
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hémorragie sous-arachnoïdienne (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote |
-| Score de Prédiction TxGNN | 99,29 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote (homozygous familial hypercholesterolemia) |
+| Score de Prédiction TxGNN | 0.9929 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La relation avec la nouvelle indication reste très fragile. L'hypercholestérolémie familiale homozygote résulte d'un défaut d'élimination du LDL-cholestérol (dysfonction du récepteur du LDL, d'APOB, de PCSK9 ou de LDLRAP1). Aucun lien mécanistique établi n'existe avec le blocage des canaux calciques de type L. Un éventuel effet vasculaire ou antiathérosclérotique des inhibiteurs calciques serait spéculatif et ne corrigerait pas le défaut sous-jacent du métabolisme lipidique.
 
-Le score élevé de TxGNN (99,29 %) est une prédiction informatique, non corroborée par des données cliniques ou bibliographiques. À noter que la seconde prédiction du modèle (syndrome néphrogénique d'antidiurèse inappropriée, score de 99,05 %) n'est pas non plus étayée : elle relève d'un mécanisme (récepteur V2 de la vasopressine) sans lien démontré avec les canaux calciques.
+Le score élevé de TxGNN (0,9929) est une prédiction informatique, non corroborée par des données cliniques ou bibliographiques. À noter que la seconde prédiction du modèle (syndrome néphrogénique d'antidiurèse inappropriée, score de 0,9905) n'est pas non plus étayée : elle relève d'un mécanisme (récepteur V2 de la vasopressine) sans lien démontré avec les canaux calciques.
 
 ---
 
@@ -83,8 +83,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 65726536 | NIMOTOP 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée | Annulée |
-| 61339638 | NIMOTOP 10 mg/50 ml, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée | Annulée |
+| 65726536 | NIMOTOP 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée | Active |
+| 61339638 | NIMOTOP 10 mg/50 ml, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée | Active |
 
 ---
 

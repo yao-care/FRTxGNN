@@ -6,9 +6,9 @@ nav_order: 353
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fulvestrant : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (cancer du sein hormo…"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Fulvestrant : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fulvestrant
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Fulvestrant : Du Cancer du Sein à l'Infection par le VIH
+## Fulvestrant: Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais aucun essai clinique n'est enregistré et seules **2 publications** précli
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM compilées (cancer du sein hormonodépendant avancé selon les connaissances générales sur la substance) |
-| Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,91 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 10 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec le VIH reste une hypothèse. Le récepteur ERα est exprimé dans les lymphocytes T CD4+, et une étude de 2026 (PMID 42430506) examine l'effet de ligands du récepteur, dont le fulvestrant, et d'agents de réversion de la latence du VIH sur ERα. Bloquer ou dégrader ce récepteur pourrait théoriquement moduler la latence virale. Cette idée n'a été explorée qu'in vitro, et aucune donnée clinique n'existe.
 
-Le score très élevé du modèle (0,999) reflète une proximité dans le graphe de connaissances, et non une preuve clinique.
+Le score très élevé du modèle TxGNN (deep learning) (0,9991) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -83,7 +83,7 @@ Aucun essai clinique associé n'est enregistré actuellement pour l'infection pa
 | 63545028 | Faslodex 250 mg | Solution injectable | Non renseignée |
 | 62062457 | Fulvestrant Sandoz 250 mg | Solution injectable | Non renseignée |
 
-Les 10 AMM sont au statut « annulée ». Aucune n'est actuellement valide.
+Les 10 AMM sont au statut « annulée ».
 
 ## Cytotoxicité
 
@@ -107,7 +107,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle et sur une étude in vitro, sans essai clinique. Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité. Toutes les AMM françaises sont annulées.
+La prédiction repose uniquement sur le modèle et sur une étude in vitro, sans essai clinique. Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité. Les 10 AMM françaises sur 10 sont valides et le médicament est commercialisé.
 
 Les autres indications prédites ne sont pas plus solides :
 - **Neoplasie endocrinienne multiple** : les 13 essais retrouvés portent sur le cancer du sein HR+/HER2-, et non sur cette maladie. L'association vient probablement d'un mot-clé ou d'un appariement trop large.

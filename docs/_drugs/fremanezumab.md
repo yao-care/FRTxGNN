@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 351
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fremanezumab : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Migraine"
 monitor_inn: "fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-## Fremanézumab : De la migraine à la migraine avec aura du tronc cérébral
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le fremanézumab est un anticorps monoclonal humanisé dirigé contre le CGRP, initialement utilisé pour la prévention de la migraine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais **aucun essai clinique** n'est enregistré pour cette indication précise : seules des publications, pour la plupart sur la migraine en général ou la migraine avec aura, soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (aucun texte d'indication n'est renseigné dans l'AMM ; indication issue du graphe de connaissances : trouble migraineux, migraine avec ou sans aura) |
-| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
-| Score de Prédiction TxGNN | 99,94 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Atrophoderma vermiculata |
+| Score de Prédiction TxGNN | 0.9904 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -88,7 +87,7 @@ Aucune de ces publications ne porte spécifiquement sur la migraine avec aura du
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68696906 | AJOVY 225 mg, solution injectable en seringue préremplie (TEVA, Allemagne) | Solution injectable | Non renseignée (AMM annulée) |
+| 68696906 | AJOVY 225 mg, solution injectable en seringue préremplie (TEVA, Allemagne) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -110,7 +109,7 @@ Les données de sécurité issues de la notice (mises en garde, contre-indicatio
 - Rechercher des données cliniques spécifiques à la migraine avec aura du tronc cérébral (séries de cas, registres, essais)
 - Clarifier la situation réglementaire en France (AMM annulée)
 
-*Remarque : la seconde indication prédite, l'atrophodermie vermiculée (score 99,04 %), n'a ni essai clinique, ni publication, ni lien mécanistique plausible. Elle est classée niveau L5 avec une recommandation Hold et n'est pas retenue dans ce rapport.*
+*Remarque : la seconde indication prédite, l'atrophodermie vermiculée (score 0,9904), n'a ni essai clinique, ni publication, ni lien mécanistique plausible. Elle est classée niveau L5 avec une recommandation Hold et n'est pas retenue dans ce rapport.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

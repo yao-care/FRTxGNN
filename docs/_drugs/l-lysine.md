@@ -47,19 +47,19 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **gastroparési
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées |
 | Nouvelle Indication Prédite | Gastroparésie |
-| Score de Prédiction TxGNN | 99,77 % |
+| Score de Prédiction TxGNN | 0,9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la L-lysine est un acide aminé essentiel utilisé comme composant de solutions nutritionnelles (perfusion, dialyse péritonéale). Son usage dans ces produits relève d'un apport nutritionnel, et non du traitement d'une maladie digestive.
 
-Aucun lien mécanistique établi n'a été identifié entre la L-lysine et la gastroparésie. Le score élevé du modèle (0,998) est une prédiction informatique. La seule publication retrouvée porte sur l'administration de cellules souches mésenchymateuses via des hydrogels de gélatine-alginate dans l'estomac : elle n'évalue pas la L-lysine comme agent thérapeutique. Tout rapprochement (par exemple via les acides aminés de biomatériaux à base de gélatine) serait spéculatif.
+Aucun lien mécanistique établi n'a été identifié entre la L-lysine et la gastroparésie. Le score élevé du modèle (0,9977) est une prédiction informatique. La seule publication retrouvée porte sur l'administration de cellules souches mésenchymateuses via des hydrogels de gélatine-alginate dans l'estomac : elle n'évalue pas la L-lysine comme agent thérapeutique. Tout rapprochement (par exemple via les acides aminés de biomatériaux à base de gélatine) serait spéculatif.
 
-À titre d'information, deux autres prédictions de rang inférieur ont été examinées : la déficience congénitale en prothrombine (score 99,13 %) et la carence en vitamine D, terme obsolète dans l'ontologie (score 99,02 %). Aucune n'a d'essai ni de publication, ni de lien mécanistique démontré. Les analogues de la lysine (acide tranexamique, acide aminocaproïque) sont des antifibrinolytiques, mais cette pharmacologie ne peut pas être transposée à la L-lysine.
+À titre d'information, deux autres prédictions de rang inférieur ont été examinées : la déficience congénitale en prothrombine (score 0,9913) et la carence en vitamine D, terme obsolète dans l'ontologie (score 0,9902). Aucune n'a d'essai ni de publication, ni de lien mécanistique démontré. Les analogues de la lysine (acide tranexamique, acide aminocaproïque) sont des antifibrinolytiques, mais cette pharmacologie ne peut pas être transposée à la L-lysine.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,8 +75,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62789435 | PRIMENE 10 %, solution injectable pour perfusion (annulée) | Solution pour perfusion | Non renseignée |
-| 65461618 | NUTRINEAL PD4 À 1,1 % D'ACIDES AMINÉS, solution pour dialyse péritonéale (annulée) | Solution pour dialyse péritonéale | Non renseignée |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion (active) | Solution pour perfusion | Non renseignée |
+| 65461618 | NUTRINEAL PD4 À 1,1 % D'ACIDES AMINÉS, solution pour dialyse péritonéale (active) | Solution pour dialyse péritonéale | Non renseignée |
 
 ## Considérations de Sécurité
 

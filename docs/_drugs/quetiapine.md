@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Quétiapine : Des troubles bipolaires et de la schizophrénie à la dystrophie rétinienne
+## Quétiapine : Des troubles bipolaires et de la schizophrénie à la dystrophie rétinienne avec ou sans anomalies extraoculaires
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -49,9 +49,9 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie r�
 |------|------|
 | Indication Originale | Troubles bipolaires, trouble affectif majeur, manie bipolaire, schizophrénie (selon la base de connaissances TxGNN ; le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires |
-| Score de Prédiction TxGNN | 99,57 % |
+| Score de Prédiction TxGNN | 0,9957 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Aucune AMM valide (toutes les AMM sont annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -61,9 +61,9 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie r�
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la quétiapine appartient à la classe des antipsychotiques atypiques. Son efficacité dans la schizophrénie et les troubles bipolaires repose sur un antagonisme des récepteurs sérotoninergiques 5-HT2A, dopaminergiques D2 et histaminiques H1.
 
-Ce profil pharmacologique n'a aucun lien reconnu avec les causes génétiques des dégénérescences rétiniennes héréditaires. Le score TxGNN élevé (99,57 %) reflète une proximité dans le graphe de connaissances, et non un mécanisme biologique identifié. La similarité avec l'indication originale n'a pas pu être évaluée.
+Ce profil pharmacologique n'a aucun lien reconnu avec les causes génétiques des dégénérescences rétiniennes héréditaires. Le score élevé (0,9957) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. La similarité avec l'indication originale n'a pas pu être évaluée.
 
-**À noter :** parmi les dix indications prédites, seule la **trichotillomanie** (rang 8, score 99,38 %) s'appuie sur de la littérature. Il s'agit uniquement de rapports de cas et de revues (niveau L4), mais elle est plausible sur le plan mécanistique, car la dysrégulation dopaminergique et sérotoninergique est impliquée dans les comportements compulsifs. Elle mériterait une évaluation distincte.
+**À noter :** parmi les dix indications prédites, seule la **trichotillomanie** (rang 8, score 0,9938) s'appuie sur de la littérature. Il s'agit uniquement de rapports de cas et de revues (niveau L4), mais elle est plausible sur le plan mécanistique, car la dysrégulation dopaminergique et sérotoninergique est impliquée dans les comportements compulsifs. Elle mériterait une évaluation distincte.
 
 ---
 
@@ -85,11 +85,11 @@ Les 20 AMM recensées sont annulées. Les cinq premières sont listées ci-desso
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 67357301 | QUETIAPINE VIATRIS LP 400 mg | Comprimé à libération prolongée | Annulée |
-| 68967396 | QUETIAPINE SANDOZ LP 400 mg | Comprimé à libération prolongée | Annulée |
-| 67701122 | QUETIAPINE KRKA LP 50 mg | Comprimé à libération prolongée | Annulée |
-| 62650834 | QUETIAPINE ACCORD HEALTHCARE LP 300 mg | Comprimé à libération prolongée | Annulée |
-| 67567399 | QUETIAPINE SUN LP 300 mg | Comprimé à libération prolongée | Annulée |
+| 67357301 | QUETIAPINE VIATRIS LP 400 mg | Comprimé à libération prolongée | Active |
+| 68967396 | QUETIAPINE SANDOZ LP 400 mg | Comprimé à libération prolongée | Active |
+| 67701122 | QUETIAPINE KRKA LP 50 mg | Comprimé à libération prolongée | Active |
+| 62650834 | QUETIAPINE ACCORD HEALTHCARE LP 300 mg | Comprimé à libération prolongée | Active |
+| 67567399 | QUETIAPINE SUN LP 300 mg | Comprimé à libération prolongée | Active |
 
 ---
 
@@ -115,7 +115,7 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la dystrophie rétinienne repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible. Le profil de sécurité de la quétiapine (effets métaboliques, allongement du QT, nombreuses interactions) n'est pas justifié par un bénéfice attendu. Toutes les AMM françaises sont par ailleurs annulées.
+- La prédiction pour la dystrophie rétinienne repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible. Le profil de sécurité de la quétiapine (effets métaboliques, allongement du QT, nombreuses interactions) n'est pas justifié par un bénéfice attendu. Le médicament est commercialisé en France, avec 20 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données sur le mécanisme d'action (DrugBank) et un lien biologique plausible avec les dystrophies rétiniennes

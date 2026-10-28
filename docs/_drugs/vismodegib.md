@@ -4,17 +4,17 @@ title: Vismodegib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 817
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Vismodegib : nouvelle indication prédite, Médulloblastome avec nodularité extensive (niveau de preuve L5). Indication d'origine : Carcinome basocellulaire (et autres cancers cutanés ou annexiels)"
 monitor_inn: "vismodegib"
-predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "prostate cancer/brain cancer susceptibility", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Pour cette indication précise, **aucun essai clinique** et **aucune publication
 |------|------|
 | Indication Originale | Carcinome basocellulaire (et autres cancers cutanés ou annexiels) |
 | Nouvelle Indication Prédite | Médulloblastome avec nodularité extensive |
-| Score de Prédiction TxGNN | 99,93 % |
+| Score de Prédiction TxGNN | 0,9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Retiré (AMM annulée uniquement) |
-| Nombre d'AMM | 1 (0 valide, 1 annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -84,7 +84,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67507605 | ERIVEDGE 150 mg, gélule (ROCHE REGISTRATION, Allemagne) | Gélule | Non précisée dans les données (AMM annulée) |
+| 67507605 | ERIVEDGE 150 mg, gélule (ROCHE REGISTRATION, Allemagne) | Gélule | Non précisée dans les données (AMM active) |
 
 ---
 

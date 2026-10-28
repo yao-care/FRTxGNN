@@ -6,9 +6,9 @@ nav_order: 384
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Hymecromone : nouvelle indication prédite, Néphropathie diabétique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "hymecromone"
 predicted_indications: ["diabetic nephropathy", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "allergic asthma", "intrinsic asthma", "gout", "hemoglobinopathy", "type 1 diabetes mellitus", "bronchitis", "partial deletion of the short arm of chromosome 16"]
+description: "Hymecromone : nouvelle indication prédite, Diabetic nephropathy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Hymecromone
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Hymécromone : De l'indication originale non documentée à la néphropathie diabétique
+## Hymecromone: Diabetic nephropathy
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Néphropathie diabétique |
-| Score de Prédiction TxGNN | 99,85 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Diabetic nephropathy |
+| Score de Prédiction TxGNN | 0.9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'hypothèse mécanistique est que l'accumulation d'acide hyaluronique est impliquée, dans la littérature préclinique, dans la fibrose rénale et les lésions rénales diabétiques. Ce lien reste toutefois spéculatif : aucun essai ni publication n'a été fourni pour l'étayer.
 
-Le score élevé (99,85 %) reflète la proximité dans le graphe de connaissances et ne constitue pas une preuve d'efficacité.
 
 ### Autres prédictions du modèle
 
@@ -68,15 +67,14 @@ Les autres indications prédites sont toutes au niveau L5 (aucune preuve cliniqu
 
 | Rang | Maladie prédite | Score TxGNN | Plausibilité mécanistique |
 |---|---|---|---|
-| 2 | Maladie des petits vaisseaux cérébraux de type 1 (avec ou sans anomalies oculaires) | 99,85 % | Aucun lien clair (trouble monogénique rare lié à COL4A1) |
-| 3 | Syndrome familial autosomique dominant d'hématurie, tortuosité artériolaire rétinienne et contractures | 99,85 % | Aucun lien étayé (trouble COL4A1 de la membrane basale) |
-| 4 | Asthme allergique | 99,80 % | Hypothèse plausible mais non vérifiée (inflammation et remodelage des voies aériennes) |
-| 5 | Asthme intrinsèque | 99,79 % | Même hypothèse que l'asthme allergique, prédiction probablement corrélée |
-| 6 | Goutte | 99,73 % | Aucun lien évident |
-| 7 | Hémoglobinopathie | 99,57 % | Aucun mécanisme étayé |
-| 8 | Diabète de type 1 | 99,54 % | Données précliniques suggérant une modulation de l'auto-immunité des îlots, non étayées ici |
-| 9 | Bronchite | 99,46 % | Lien faible et spéculatif |
-| 10 | Délétion partielle du bras court du chromosome 16 | 99,44 % | Cible pharmacologique non plausible, probable artefact du graphe |
+| 2 | Maladie des petits vaisseaux cérébraux de type 1 (avec ou sans anomalies oculaires) | 0,9985 | Aucun lien clair (trouble monogénique rare lié à COL4A1) |
+| 3 | Syndrome familial autosomique dominant d'hématurie, tortuosité artériolaire rétinienne et contractures | 0,9985 | Aucun lien étayé (trouble COL4A1 de la membrane basale) |
+| 4 | Asthme allergique | 0,9980 | Hypothèse plausible mais non vérifiée (inflammation et remodelage des voies aériennes) |
+| 5 | Asthme intrinsèque | 0,9979 | Même hypothèse que l'asthme allergique, prédiction probablement corrélée |
+| 6 | Goutte | 0,9973 | Aucun lien évident |
+| 7 | Hémoglobinopathie | 0,9957 | Aucun mécanisme étayé |
+| 8 | Diabète de type 1 | 0,9954 | Données précliniques suggérant une modulation de l'auto-immunité des îlots, non étayées ici |
+| 9 | Bronchite | 0,9946 | Lien faible et spéculatif |
 
 ## Preuves d'Essais Cliniques
 
@@ -90,7 +88,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61974317 | CANTABILINE 400 mg, comprimé (DB PHARMA) | Comprimé | Non renseignée (AMM annulée) |
+| 61974317 | CANTABILINE 400 mg, comprimé (DB PHARMA) | Comprimé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

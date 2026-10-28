@@ -6,9 +6,9 @@ nav_order: 202
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Cyclopentolate : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Cycloplégie"
 monitor_inn: "CYCLOPENTOLATE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Cyclopentolate : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cyclopentolate
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Cyclopentolate : De la cycloplégie au syndrome de la queue de cheval
+## Cyclopentolate: Syndrome de la queue de cheval (cauda equina syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cycloplégie (source : graphe de connaissances TxGNN ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome de la queue de cheval |
-| Score de Prédiction TxGNN | 99,54 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
+| Score de Prédiction TxGNN | 0.9954 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,14 +60,14 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un raisonnement théorique est possible : le syndrome de la queue de cheval provoque souvent des troubles vésicaux, et le blocage des récepteurs muscariniques pourrait réduire l'hyperactivité du détrusor. Cependant, cette hypothèse reste fragile : le cyclopentolate est un agent ophtalmique sans usage systémique ou urologique établi, et il n'agit pas sur la pathologie sous-jacente, qui est une compression neurologique.
 
-Le score élevé (0,995) reflète une prédiction du modèle uniquement, sans aucune preuve clinique ou bibliographique.
+Le score élevé (0,9954) reflète une prédiction du modèle uniquement, sans aucune preuve clinique ou bibliographique.
 
 ### Autres indications prédites (pour information)
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
 |------|------|------|------|------|
-| 2 | Vessie neurogène (terme obsolète dans l'ontologie) | 99,40 % | L5 | Les antimuscariniques (oxybutynine, toltérodine) sont un traitement établi de l'hyperactivité neurogène du détrusor, d'où une plausibilité au niveau de la classe. Aucune donnée sur l'exposition systémique ou la sécurité du cyclopentolate. Le terme devrait être reclassé vers « hyperactivité neurogène du détrusor ». |
-| 3 | Syndrome de l'intestin irritable | 99,27 % | L5 | Les antispasmodiques anticholinergiques (dicyclomine, hyoscyamine) sont utilisés pour les douleurs abdominales. Aucun développement oral ou digestif du cyclopentolate ; effets anticholinergiques systémiques problématiques possibles (constipation, effets centraux). |
+| 2 | Vessie neurogène (terme obsolète dans l'ontologie) | 0,9940 | L5 | Les antimuscariniques (oxybutynine, toltérodine) sont un traitement établi de l'hyperactivité neurogène du détrusor, d'où une plausibilité au niveau de la classe. Aucune donnée sur l'exposition systémique ou la sécurité du cyclopentolate. Le terme devrait être reclassé vers « hyperactivité neurogène du détrusor ». |
+| 3 | Syndrome de l'intestin irritable | 0,9927 | L5 | Les antispasmodiques anticholinergiques (dicyclomine, hyoscyamine) sont utilisés pour les douleurs abdominales. Aucun développement oral ou digestif du cyclopentolate ; effets anticholinergiques systémiques problématiques possibles (constipation, effets centraux). |
 
 ## Preuves d'Essais Cliniques
 
@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69255195 | SKIACOL 0,5 POUR CENT, collyre (Laboratoires Alcon) | Collyre en solution | Non renseignée (AMM annulée) |
+| 69255195 | SKIACOL 0,5 POUR CENT, collyre (Laboratoires Alcon) | Collyre en solution | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -6,9 +6,9 @@ nav_order: 810
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Verteporfin : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anoma… (niveau de preuve L5). Indication d'origine : Dégénérescence maculaire"
 monitor_inn: "verteporfin"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
+description: "Verteporfin : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative p… (niveau de preuve L5). Indication d…"
 ---
 
 # Verteporfin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Vertéporfine : De la Dégénérescence Maculaire à un Trouble de la Phosphorylation Oxydative Mitochondriale d'Origine Nucléaire
+## Verteporfin: Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble de la
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dégénérescence maculaire (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire |
-| Score de Prédiction TxGNN | 99,49 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies) |
+| Score de Prédiction TxGNN | 0.9949 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64637807 | VISUDYNE 15 mg, poudre pour solution pour perfusion (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Poudre pour solution pour perfusion | Non renseignée (AMM annulée) |
+| 64637807 | VISUDYNE 15 mg, poudre pour solution pour perfusion (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 303
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Etanercept : nouvelle indication prédite, Vascularite rhumatoïde (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde, rhumatisme psoriasique…"
 monitor_inn: "etanercept"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Etanercept : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Étanercept : De la polyarthrite rhumatoïde à la vascularite rhumatoïde
+## Etanercept: Hypermobility of coccyx
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -50,12 +50,12 @@ Cette prédiction repose sur **1 essai clinique** (sans lien direct avec l'indic
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, rhumatisme psoriasique, spondylarthrite ankylosante, arthrite juvénile idiopathique (le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Vascularite rhumatoïde |
-| Score de Prédiction TxGNN | 99,71 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 17 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypermobility of coccyx |
+| Score de Prédiction TxGNN | 0.9963 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ---
@@ -101,13 +101,13 @@ La plupart de ces publications décrivent des vascularites **induites** par les 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63061721 | NEPEXTO 50 mg, seringue préremplie | Solution injectable | Non disponible (AMM annulée) |
-| 68672848 | ENBREL 50 mg, seringue préremplie | Solution injectable | Non disponible (AMM annulée) |
-| 63886766 | ENBREL 10 mg, usage pédiatrique | Poudre et solvant pour solution injectable | Non disponible (AMM annulée) |
-| 64784134 | ERELZI 50 mg, stylo prérempli | Solution injectable | Non disponible (AMM annulée) |
-| 64959320 | ENBREL 25 mg | Poudre et solvant pour solution injectable | Non disponible (AMM annulée) |
+| 63061721 | NEPEXTO 50 mg, seringue préremplie | Solution injectable | Non disponible (AMM active) |
+| 68672848 | ENBREL 50 mg, seringue préremplie | Solution injectable | Non disponible (AMM active) |
+| 63886766 | ENBREL 10 mg, usage pédiatrique | Poudre et solvant pour solution injectable | Non disponible (AMM active) |
+| 64784134 | ERELZI 50 mg, stylo prérempli | Solution injectable | Non disponible (AMM active) |
+| 64959320 | ENBREL 25 mg | Poudre et solvant pour solution injectable | Non disponible (AMM active) |
 
-Au total, 17 AMM sont recensées, toutes annulées (Enbrel, Benepali, Erelzi, Nepexto). Aucune AMM valide n'apparaît dans les données compilées.
+Au total, 17 AMM sont recensées, toutes annulées (Enbrel, Benepali, Erelzi, Nepexto).
 
 ---
 
@@ -131,17 +131,14 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 | Indication prédite | Score TxGNN | Niveau de preuve | Décision |
 |------|------|------|------|
-| Spondylopathie inflammatoire | 99,57 % | L1 | Proceed with Guardrails (essentiellement une indication déjà reconnue : spondylarthrite ankylosante et spondyloarthrite axiale) |
-| Arthrite juvénile rhumatoïde polyarticulaire | 99,50 % | L1 | Proceed with Guardrails (indication déjà reconnue : arthrite juvénile idiopathique) |
-| Maladie vertébrale | 99,16 % | L4 | Question de recherche (catégorie trop large, preuves indirectes) |
-| Hypermobilité du coccyx | 99,63 % | L5 | Hold (prédiction purement computationnelle) |
-| Maladie de Kümmell | 99,55 % | L5 | Hold (aucune preuve, aucun rationnel lié au TNF) |
+| Maladie vertébrale | 0,9916 | L5 | Question de recherche (catégorie trop large, preuves indirectes) |
+| Hypermobilité du coccyx | 0,9963 | L5 | Hold (prédiction purement computationnelle) |
+| Maladie de Kümmell | 0,9955 | L5 | Hold (aucune preuve, aucun rationnel lié au TNF) |
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action issues de DrugBank
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
 - Études cliniques directes de l'étanercept dans la vascularite rhumatoïde
-- Clarification du statut réglementaire en France, toutes les AMM étant annulées
 - Pour les indications déjà reconnues : mesures standard des anti-TNF (dépistage de la tuberculose et des infections, surveillance de l'uvéite et des maladies inflammatoires de l'intestin, suivi pédiatrique et vaccinal)
 ## Avertissement
 

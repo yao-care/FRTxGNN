@@ -6,9 +6,9 @@ nav_order: 365
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Glimepiride : nouvelle indication prédite, Syndrome de la personne raide classique (niveau de preuve L5). Indication d'origine : Diabète de type 2"
 monitor_inn: "glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Glimepiride : nouvelle indication prédite, Syndrome de la personne raide classique (classic stiff person syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
 ---
 
 # Glimepiride
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Glimépiride : Du diabète de type 2 au syndrome de la personne raide classique
+## Glimepiride: Syndrome de la personne raide classique (classic stiff person syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Diabète de type 2 (le texte d'indication des AMM n'est pas renseigné dans les données compilées ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Syndrome de la personne raide classique |
-| Score de Prédiction TxGNN | 99,75 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome de la personne raide classique (classic stiff person syndrome) |
+| Score de Prédiction TxGNN | 0.9975 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -59,7 +59,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome de la personne raide est une maladie auto-immune liée aux anticorps anti-GAD65, avec une altération de la signalisation GABAergique. **Aucun lien mécanistique n'est établi** avec le blocage des canaux K-ATP. Le seul rapprochement plausible est la fréquente association du syndrome avec le diabète de type 1 (auto-immunité GAD commune), ce qui ne justifie pas un rôle thérapeutique du glimépiride.
 
-Le score élevé (0,997) reflète donc une proximité dans le graphe de connaissances, et non une preuve clinique. La variante focale (syndrome du membre raide focal) obtient exactement le même score, ce qui suggère que celui-ci provient du voisinage commun dans le graphe plutôt que d'une preuve indépendante.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,11 +74,11 @@ Les 20 AMM recensées sont annulées. Les cinq premières sont listées ci-desso
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 67054585 | Glimépiride Arrow Génériques 2 mg | Comprimé sécable | Annulée |
-| 67447122 | Glimépiride Evolugen 3 mg | Comprimé | Annulée |
-| 63422748 | Glimépiride Arrow Génériques 3 mg | Comprimé sécable | Annulée |
-| 65604468 | Glimépiride Zentiva 2 mg | Comprimé | Annulée |
-| 66017203 | Glimépiride EG 2 mg | Comprimé | Annulée |
+| 67054585 | Glimépiride Arrow Génériques 2 mg | Comprimé sécable | Active |
+| 67447122 | Glimépiride Evolugen 3 mg | Comprimé | Active |
+| 63422748 | Glimépiride Arrow Génériques 3 mg | Comprimé sécable | Active |
+| 65604468 | Glimépiride Zentiva 2 mg | Comprimé | Active |
+| 66017203 | Glimépiride EG 2 mg | Comprimé | Active |
 
 ## Considérations de Sécurité
 

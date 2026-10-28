@@ -6,9 +6,9 @@ nav_order: 269
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Eculizumab : nouvelle indication prédite, Hematopoiese cyclique (niveau de preuve L5). Indication d'origine : Hemoglobinurie paroxystique nocturne…"
 monitor_inn: "eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
+description: "Eculizumab : nouvelle indication prédite, Cyclic hematopoiesis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Eculizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Eculizumab : De l'Hemoglobinurie Paroxystique Nocturne a l'Hematopoiese Cyclique
+## Eculizumab: Cyclic hematopoiesis
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit d'une prediction purement computationnelle (niveau de preuve L5).
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Hemoglobinurie paroxystique nocturne, neuromyelite optique (les textes d'indication des AMM ne sont pas renseignes) |
-| Nouvelle Indication Predite | Hematopoiese cyclique |
-| Score de Prediction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Cyclic hematopoiesis |
+| Score de Prediction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulees |
-| Nombre d'AMM | 3 (toutes annulees) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Hold |
 
 ---
@@ -62,7 +62,7 @@ Il s'agit d'une prediction purement computationnelle (niveau de preuve L5).
 
 Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles dans les donnees compilees pour ce rapport. Sur la base des informations connues, eculizumab est un anticorps monoclonal inhibiteur de la proteine C5 du complement. Son efficacite dans l'hemoglobinurie paroxystique nocturne, maladie ou l'activation incontrôlee du complement provoque une hemolyse, est etablie.
 
-La relation avec la nouvelle indication est **faible**. L'hematopoiese cyclique (neutropenie cyclique, liee a ELANE) est un trouble de la production des neutrophiles, et non une maladie mediee par le complement. Aucun lien mecanistique n'est etabli dans les donnees disponibles : le score eleve du modele provient uniquement de la structure du graphe de connaissances.
+La relation avec la nouvelle indication est **faible**. L'hematopoiese cyclique (neutropenie cyclique, liee a ELANE) est un trouble de la production des neutrophiles, et non une maladie mediee par le complement. Aucun lien mecanistique n'est etabli dans les donnees disponibles : le score eleve (0.9997) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres predictions du meme classement (neutropenies congenitales severes, neutropenie idiopathique de l'adulte, deficit en p14, etc.) presentent la meme limite : aucun role connu du complement terminal dans ces pathologies.
 
@@ -86,9 +86,9 @@ Remarque : des publications ont ete retrouvees pour d'autres predictions du mode
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee | Statut |
 |---------|------|------|-----------|------|
-| 61969188 | SOLIRIS 300 mg | Solution a diluer pour perfusion | Non renseignee | Annulee |
-| 67665594 | EPYSQLI 300 mg | Solution a diluer pour perfusion | Non renseignee | Annulee |
-| 63275561 | BEKEMV 300 mg | Solution a diluer pour perfusion | Non renseignee | Annulee |
+| 61969188 | SOLIRIS 300 mg | Solution a diluer pour perfusion | Non renseignee | Active |
+| 67665594 | EPYSQLI 300 mg | Solution a diluer pour perfusion | Non renseignee | Active |
+| 63275561 | BEKEMV 300 mg | Solution a diluer pour perfusion | Non renseignee | Active |
 
 ---
 

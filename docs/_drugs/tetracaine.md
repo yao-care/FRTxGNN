@@ -6,9 +6,9 @@ nav_order: 749
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tetracaine : nouvelle indication prédite, Acrodermatite chronique atrophiante (niveau de preuve L5). Indication d'origine : Dermatite"
 monitor_inn: "tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
+description: "Tetracaine : nouvelle indication prédite, Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Tetracaine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Tétracaïne : De la Dermatite à l'Acrodermatite chronique atrophiante
+## Tetracaine: Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour l'**acrodermatit
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dermatite (d'après le graphe de connaissances ; aucun texte d'indication n'est renseigné dans l'AMM française) |
-| Nouvelle Indication Prédite | Acrodermatite chronique atrophiante |
-| Score de Prédiction TxGNN | 99,93 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans) |
+| Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la tétracaïne est un anesthésique local de type ester, qui agit classiquement par blocage des canaux sodiques et inhibe ainsi la conduction nerveuse.
 
-L'acrodermatite chronique atrophiante est une manifestation cutanée tardive de l'infection par *Borrelia* (maladie de Lyme), traitée par antibiotiques. La tétracaïne n'a aucune activité antimicrobienne ni anti-atrophique. **Aucun mécanisme plausible n'a donc été identifié.** Le score élevé du modèle (0,999) provient très probablement de la proximité du médicament avec des termes dermatologiques dans le graphe de connaissances, et non d'un lien thérapeutique réel.
+L'acrodermatite chronique atrophiante est une manifestation cutanée tardive de l'infection par *Borrelia* (maladie de Lyme), traitée par antibiotiques. La tétracaïne n'a aucune activité antimicrobienne ni anti-atrophique. **Aucun mécanisme plausible n'a donc été identifié.** Le score élevé (0,9993) provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Ce constat vaut aussi pour les autres indications prédites (dermatomyosite néonatale, dermatomyosite amyopathique, bronchite, pneumopathie interstitielle de l'enfant associée à une connective, hydroa vacciniforme familial, syndrome de l'intestin irritable) : pour toutes, le score est élevé mais aucune donnée clinique ou bibliographique n'est disponible, et le niveau de preuve reste L5.
 
@@ -95,7 +95,7 @@ Ces travaux décrivent une relation **causale indésirable** (neurotoxicité) et
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61200510 | TETRACAINE 1 POUR CENT THEA, collyre en solution en récipient unidose (annulée) | Collyre en solution | Non renseignée |
+| 61200510 | TETRACAINE 1 POUR CENT THEA, collyre en solution en récipient unidose (active) | Collyre en solution | Non renseignée |
 
 ## Considérations de Sécurité
 

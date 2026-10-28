@@ -47,17 +47,17 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**ostéoporose
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Ostéoporose médicamenteuse |
-| Score de Prédiction TxGNN | 99,31 % |
+| Score de Prédiction TxGNN | 0,9931 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM non valide) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le trastuzumab déruxtécan est un anticorps-médicament conjugué dirigé contre HER2, portant une charge utile inhibitrice de la topoisomérase I (déruxtécan, dérivé de l'exatécan). Son usage concerne les cancers exprimant HER2.
 
-**Cette prédiction n'est pas étayée sur le plan biologique.** Les voies du métabolisme osseux (RANK/RANKL, Wnt/sclérostine, régulation des ostéoblastes et ostéoclastes) ne sont pas des cibles connues de ce médicament. Le score TxGNN très élevé (0,993) provient d'une prédiction de graphe de connaissances et reflète probablement une proximité dans le réseau ou des artefacts structurels plutôt qu'une réalité biologique.
+**Cette prédiction n'est pas étayée sur le plan biologique.** Les voies du métabolisme osseux (RANK/RANKL, Wnt/sclérostine, régulation des ostéoblastes et ostéoclastes) ne sont pas des cibles connues de ce médicament. Le score très élevé (0,9931) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 De plus, la charge utile cytotoxique et les toxicités connues du médicament (pneumopathie interstitielle, myélosuppression, nausées/vomissements) rendent un effet protecteur osseux peu plausible. Les traitements oncologiques associés (suppression ovarienne, corticoïdes) pourraient au contraire favoriser la perte osseuse. La similarité avec l'indication originale n'a pas pu être évaluée.
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63648081 | ENHERTU 100 mg, poudre pour solution à diluer pour perfusion (statut : annulée) | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 63648081 | ENHERTU 100 mg, poudre pour solution à diluer pour perfusion (statut : active) | Poudre pour solution à diluer pour perfusion | Non renseignée |
 
 ## Cytotoxicité
 
@@ -108,7 +108,7 @@ Beaucoup concernent des immunosuppresseurs ou des agents myélosuppresseurs, ave
 - Obtenir les données sur le mécanisme d'action et l'indication originale
 - Clarifier le statut réglementaire en France (AMM annulée)
 - Démontrer un lien biologique plausible avec le métabolisme osseux, par des études précliniques
-- Réexaminer la pertinence de cette prédiction, probablement un artefact du graphe de connaissances
+- Réexaminer la pertinence de cette prédiction, dont le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises entre maladies apparentées, non une preuve biologique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

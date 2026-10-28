@@ -6,9 +6,9 @@ nav_order: 184
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clofazimine : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Lèpre, lèpre multibacillaire, pyoderma gangrenosum"
 monitor_inn: "CLOFAZIMINE"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
+description: "Clofazimine : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clofazimine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Clofazimine : De la lèpre à la pneumocystose
+## Clofazimine: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lèpre, lèpre multibacillaire, pyoderma gangrenosum (indications issues du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Pneumocystose |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pneumocystose (pneumocystosis) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, la clofazimine est une riminophénazine dotée d'une activité antimycobactérienne et anti-inflammatoire. Son efficacité est reconnue dans la lèpre, et elle est également utilisée dans les schémas contre la tuberculose résistante à la rifampicine.
 
-Le lien avec la pneumocystose est en revanche **faible**. *Pneumocystis* est un organisme fongique : l'activité antimycobactérienne ne se transpose pas à ce type d'agent. Le score élevé de TxGNN (99,9 %) reste une prédiction informatique, sans soutien clinique dans les données compilées pour ce rapport.
+Le lien avec la pneumocystose est en revanche **faible**. *Pneumocystis* est un organisme fongique : l'activité antimycobactérienne ne se transpose pas à ce type d'agent. Le score élevé de TxGNN (0,9990) reste une prédiction informatique, sans soutien clinique dans les données compilées pour ce rapport.
 
 Les publications retrouvées concernent la prophylaxie de l'infection à *Mycobacterium avium complex* (MAC) chez des patients atteints du sida, ou des co-infections opportunistes. Ces patients avaient souvent un antécédent de pneumocystose, ce qui explique probablement l'association statistique, mais ces travaux n'évaluent pas la clofazimine comme traitement de la pneumocystose.
 
@@ -87,8 +87,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62768220 | LAMPRENE 50 mg, capsule molle (Novartis Pharma) | Capsule molle | Non renseignée (AMM annulée) |
-| 67132888 | LAMPRENE 100 mg, capsule molle (Novartis Pharma) | Capsule molle | Non renseignée (AMM annulée) |
+| 62768220 | LAMPRENE 50 mg, capsule molle (Novartis Pharma) | Capsule molle | Non renseignée (AMM active) |
+| 67132888 | LAMPRENE 100 mg, capsule molle (Novartis Pharma) | Capsule molle | Non renseignée (AMM active) |
 
 ---
 
@@ -117,8 +117,8 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Des données précliniques *in vitro* ou *in vivo* de la clofazimine contre *Pneumocystis*.
 
 **Autres pistes prédites par TxGNN (à titre informatif) :**
-- **Paludisme** (score 99,60 %, niveau L4, « question de recherche ») : une étude *in vitro* sur des analogues de la clofazimine suggère une activité antiplasmodiale. Les autres références retrouvées concernent surtout la tuberculose résistante ou d'autres composés, et ne constituent pas une preuve directe. Aucun essai clinique n'est enregistré.
-- **Anomalie de la sécrétion de gastrine** (score 99,57 %, niveau L5, Hold) : aucune preuve ni justification mécanistique.
+- **Paludisme** (score 0,9960, niveau L4, « question de recherche ») : une étude *in vitro* sur des analogues de la clofazimine suggère une activité antiplasmodiale. Les autres références retrouvées concernent surtout la tuberculose résistante ou d'autres composés, et ne constituent pas une preuve directe. Aucun essai clinique n'est enregistré.
+- **Anomalie de la sécrétion de gastrine** (score 0,9957, niveau L5, Hold) : aucune preuve ni justification mécanistique.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

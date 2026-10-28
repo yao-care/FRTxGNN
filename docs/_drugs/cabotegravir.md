@@ -46,19 +46,19 @@ Le cabotégravir est un inhibiteur de l'intégrase du VIH-1, connu en France sou
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,45 % |
+| Score de Prédiction TxGNN | 0,9945 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le cabotégravir est un inhibiteur de transfert de brin de l'intégrase (INSTI) du VIH-1. L'intégrase est une enzyme virale sans équivalent humain connu qui soit pertinent pour l'inflammation articulaire auto-immune.
 
-**Aucun lien mécanistique n'est établi** entre l'activité antivirale du cabotégravir et la polyarthrite rhumatoïde. Le score élevé (0,995) reflète vraisemblablement une prédiction issue du graphe de connaissances, non étayée par un essai ou une publication. La similarité avec l'indication originale reste à évaluer.
+**Aucun lien mécanistique n'est établi** entre l'activité antivirale du cabotégravir et la polyarthrite rhumatoïde. Le score élevé (0,9945) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'est étayé par aucun essai ni aucune publication. La similarité avec l'indication originale reste à évaluer.
 
-À titre indicatif, les autres prédictions du modèle (cholangite sclérosante, bronchite, syndrome de microphtalmie colobomateuse-dysplasie rhizomélique, rétinopathie diabétique non proliférante sévère) présentent également des scores supérieurs à 0,99, sans aucune preuve clinique ni bibliographique et sans lien mécanistique plausible.
+À titre indicatif, les autres prédictions du modèle (cholangite sclérosante, bronchite, syndrome de microphtalmie colobomateuse-dysplasie rhizomélique, rétinopathie diabétique non proliférante sévère) présentent également des scores supérieurs à 0,9903, sans aucune preuve clinique ni bibliographique et sans lien mécanistique plausible.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,8 +72,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60543082 | VOCABRIA 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 67129301 | VOCABRIA 600 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | Non renseignée (AMM annulée) |
+| 60543082 | VOCABRIA 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 67129301 | VOCABRIA 600 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

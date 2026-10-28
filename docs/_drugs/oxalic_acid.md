@@ -50,10 +50,10 @@ Les données compilées indiquent plutôt un signal de toxicité de l'oxalate po
 |------|------|
 | Indication Originale | Non renseignée dans les AMM |
 | Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère |
-| Score de Prédiction TxGNN | 99,73 % |
+| Score de Prédiction TxGNN | 0,9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulé uniquement |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,9 +62,9 @@ Les données compilées indiquent plutôt un signal de toxicité de l'oxalate po
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'acide oxalique est un acide dicarboxylique, produit terminal du métabolisme, toxique à forte concentration en raison du dépôt d'oxalate de calcium. Aucune indication d'origine n'est documentée dans les autorisations françaises.
 
-Aucun lien mécanistique n'a été identifié avec la rétinopathie diabétique. Le score élevé du modèle reflète une proximité dans le graphe de connaissances, et non une preuve pharmacologique. Un rôle thérapeutique dans la microangiopathie rétinienne est jugé peu plausible.
+Aucun lien mécanistique n'a été identifié avec la rétinopathie diabétique. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Un rôle thérapeutique dans la microangiopathie rétinienne est jugé peu plausible.
 
-Les autres prédictions du modèle ne sont pas non plus étayées. Les plus proches sont la rétinopathie diabétique (99,65 %), le déficit en antithrombine de type 2 (99,54 %), l'hémoglobinopathie (99,51 %) et la thrombophilie (99,40 %). Les déficits de la coagulation semblent résulter d'une proximité de nœuds dans le graphe (l'oxalate chélate le calcium in vitro), sans pertinence thérapeutique.
+Les autres prédictions du modèle TxGNN (deep learning) ne sont pas non plus étayées. Les plus proches sont la rétinopathie diabétique (0,9965), le déficit en antithrombine de type 2 (0,9954), l'hémoglobinopathie (0,9951) et la thrombophilie (0,9940). Les déficits de la coagulation semblent résulter de similarités apprises par le modèle entre maladies apparentées (l'oxalate chélate le calcium in vitro), sans pertinence thérapeutique.
 
 ---
 
@@ -92,9 +92,9 @@ Pour les autres indications prédites, les publications retrouvées (études mé
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64922966 | Oxalicum acidum Boiron, dilution 2CH à 30CH ou 4DH à 60DH | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM annulée) |
-| 62743726 | Oxalicum acidum Lehning, dilution 2CH à 30CH ou 4DH à 60DH | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM annulée) |
-| 62153864 | Berberis complexe n°83, solution buvable en gouttes | Solution buvable en gouttes | Non renseignée (AMM annulée) |
+| 64922966 | Oxalicum acidum Boiron, dilution 2CH à 30CH ou 4DH à 60DH | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM active) |
+| 62743726 | Oxalicum acidum Lehning, dilution 2CH à 30CH ou 4DH à 60DH | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM active) |
+| 62153864 | Berberis complexe n°83, solution buvable en gouttes | Solution buvable en gouttes | Non renseignée (AMM active) |
 
 ---
 

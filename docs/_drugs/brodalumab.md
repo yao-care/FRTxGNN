@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **strongyloïdose
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Strongyloïdose |
-| Score de Prédiction TxGNN | 99,84 % |
+| Score de Prédiction TxGNN | 0,9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **strongyloïdose
 
 Brodalumab bloque le récepteur IL-17RA, ce qui inhibe la signalisation de plusieurs cytokines de la famille IL-17. Cette voie participe à l'immunité des muqueuses et à la défense contre certains pathogènes, y compris les helminthes.
 
-Cependant, la prédiction paraît peu plausible sur le plan biologique. Le contrôle de *Strongyloides* repose surtout sur la réponse Th2 (IL-4, IL-5, IL-13, éosinophiles). Bloquer IL-17RA ne devrait pas traiter l'infection et pourrait même altérer modestement la défense de l'hôte. Le score élevé du modèle est une prédiction issue d'un graphe de connaissances, sans appui clinique ni bibliographique. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. La relation avec l'indication originale n'a pas pu être évaluée, celle-ci n'étant pas renseignée.
+Cependant, la prédiction paraît peu plausible sur le plan biologique. Le contrôle de *Strongyloides* repose surtout sur la réponse Th2 (IL-4, IL-5, IL-13, éosinophiles). Bloquer IL-17RA ne devrait pas traiter l'infection et pourrait même altérer modestement la défense de l'hôte. Le score élevé vient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'a aucun appui clinique ni bibliographique. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. La relation avec l'indication originale n'a pas pu être évaluée, celle-ci n'étant pas renseignée.
 
 ---
 
@@ -89,7 +89,7 @@ Aucune littérature associée disponible actuellement pour la strongyloïdose.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65620419 | KYNTHEUM 210 mg, solution injectable en seringue préremplie (LEO PHARMA A/S, Danemark) | Solution injectable | Non renseignée (AMM annulée) |
+| 65620419 | KYNTHEUM 210 mg, solution injectable en seringue préremplie (LEO PHARMA A/S, Danemark) | Solution injectable | Non renseignée (AMM active) |
 
 ---
 

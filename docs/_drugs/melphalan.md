@@ -4,17 +4,17 @@ title: Melphalan
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 478
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Melphalan : nouvelle indication prédite, Tumeur germinale gonadique (niveau de preuve L5). Indication d'origine : Cancer de l'ovaire"
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan : nouvelle indication prédite, Female breast carcinoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Melphalan : Du Cancer de l'Ovaire à la Tumeur Germinale Gonadique
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **7 essais cliniques** (dont 2 directement pertinents) et **1 publication**
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de l'ovaire (les textes d'indication des AMM françaises ne sont pas renseignés ; l'indication provient du graphe de connaissances) |
-| Nouvelle Indication Prédite | Tumeur germinale gonadique |
-| Score de Prédiction TxGNN | 99,77 % |
-| Niveau de Preuve | L2 (selon l'évaluation compilée ; essais de phase 2 achevés, mais mélphalan non confirmé comme composant du schéma principal) |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Female breast carcinoma |
+| Score de Prédiction TxGNN | 0.9967 |
+| Niveau de Preuve | L5 (selon l'évaluation compilée ; essais de phase 2 achevés, mais mélphalan non confirmé comme composant du schéma principal) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,8 +84,8 @@ Des schémas de chimiothérapie à haute dose contenant du melphalan, suivis d'u
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68262525 | ALKERAN 2 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
-| 68708664 | ALKERAN 50 mg/10 ml, lyophilisat et solution pour usage parentéral (I.V.) (annulée) | Lyophilisat et solution pour usage parentéral | Non renseignée |
+| 68262525 | ALKERAN 2 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+| 68708664 | ALKERAN 50 mg/10 ml, lyophilisat et solution pour usage parentéral (I.V.) (active) | Lyophilisat et solution pour usage parentéral | Non renseignée |
 
 ## Cytotoxicité
 

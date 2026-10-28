@@ -6,9 +6,9 @@ nav_order: 443
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lenograstim : nouvelle indication prédite, Trouble de libération plaquettaire primaire (primary release disorder… (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "lenograstim"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]
+description: "Lenograstim : nouvelle indication prédite, Trouble de libération plaquettaire primaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
 ---
 
 # Lenograstim
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Lénograstim : D'une indication d'origine non documentée au Trouble de libération plaquettaire primaire
+## Lenograstim: Trouble de libération plaquettaire primaire (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble de lib�
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Trouble de libération plaquettaire primaire (primary release disorder of platelets) |
-| Score de Prédiction TxGNN | 99,91 % |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble de lib�
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le lénograstim est un G-CSF recombinant qui se fixe au récepteur du G-CSF pour favoriser la prolifération et la différenciation des neutrophiles. Son action porte sur la lignée granulocytaire.
 
-**La prédiction ne repose sur aucun lien mécanistique clair.** Les troubles de libération plaquettaire sont des défauts qualitatifs de la fonction plaquettaire (sécrétion des granules, signalisation altérée). Le G-CSF n'a pas d'effet établi sur la libération des granules ou sur la fonction plaquettaire. Le score élevé (99,91 %) reflète probablement une proximité dans le graphe de connaissances plutôt qu'une plausibilité biologique.
+**La prédiction ne repose sur aucun lien mécanistique clair.** Les troubles de libération plaquettaire sont des défauts qualitatifs de la fonction plaquettaire (sécrétion des granules, signalisation altérée). Le G-CSF n'a pas d'effet établi sur la libération des granules ou sur la fonction plaquettaire. Le score élevé (0,9991) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les trois autres prédictions de même nature ne sont pas mieux soutenues :
 - **Thrombasthénie de Glanzmann** (99,89 %) : déficit de l'intégrine αIIbβ3, sans lien connu avec le G-CSF.
@@ -86,10 +86,9 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66807418 | GRANOCYTE 13 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM annulée) |
-| 65066667 | GRANOCYTE 34 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM annulée) |
+| 66807418 | GRANOCYTE 13 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM active) |
+| 65066667 | GRANOCYTE 34 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM active) |
 
-Les deux AMM, détenues par CHUGAI PHARMA FRANCE, sont annulées : aucune présentation n'est actuellement valide en France.
 
 ---
 

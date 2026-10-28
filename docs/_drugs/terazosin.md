@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Terazosine : De l'Hypertension à l'Alopécie
+## Terazosine : De l'Hypertension à l'Hypotrichose simple du cuir chevelu
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,17 +48,17 @@ Parmi les autres pistes prédites, la **maladie de Raynaud** est la mieux docume
 |------|------|
 | Indication Originale | Hypertension artérielle, hyperplasie bénigne de la prostate (texte d'indication de l'AMM non disponible) |
 | Nouvelle Indication Predite | Hypotrichose simple du cuir chevelu |
-| Score de Prediction TxGNN | 99,97 % |
+| Score de Prediction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la terazosine est un alpha-1 bloquant adrénergique à activité vasodilatatrice. Son efficacité dans l'hypertension et l'hyperplasie bénigne de la prostate est établie.
 
-Pour l'hypotrichose du cuir chevelu, le lien mécanistique reste très spéculatif : on pourrait imaginer un effet via la perfusion du follicule pileux, mais aucune donnée ne le soutient. Il s'agit d'une affection héréditaire, et le score élevé reflète probablement la proximité dans le graphe de connaissances avec d'autres termes liés aux cheveux.
+Pour l'hypotrichose du cuir chevelu, le lien mécanistique reste très spéculatif : on pourrait imaginer un effet via la perfusion du follicule pileux, mais aucune donnée ne le soutient. Il s'agit d'une affection héréditaire, et le score élevé provient du modèle TxGNN (deep learning) : il peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Parmi les autres prédictions, deux pistes ont un fondement plus plausible. La maladie de Raynaud : le blocage alpha-1 réduit la vasoconstriction sympathique, ce qui est biologiquement cohérent. La migraine : une modulation du tonus vasculaire adrénergique a été évoquée. Pour l'alopécie au sens large, une seule revue sur les effets extracardiaques des médicaments cardiovasculaires est disponible. Elle est indirecte et centrée sur le minoxidil, non sur la terazosine.
 
@@ -81,8 +81,8 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose simple
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 60376815 | HYTRINE 1 mg, comprimé (AMDIPHARM), annulée | Comprimé | Non disponible |
-| 66297890 | HYTRINE 5 mg, comprimé (AMDIPHARM), annulée | Comprimé | Non disponible |
+| 60376815 | HYTRINE 1 mg, comprimé (AMDIPHARM), active | Comprimé | Non disponible |
+| 66297890 | HYTRINE 5 mg, comprimé (AMDIPHARM), active | Comprimé | Non disponible |
 
 ## Considerations de Securite
 
@@ -106,7 +106,7 @@ Veuillez consulter la notice pour les mises en garde détaillées, qui ne sont p
 - Pour la maladie de Raynaud : vérifier la conception et l'effectif de l'étude de 1997 et rechercher des essais contrôlés plus récents
 - Pour la migraine : des données contrôlées modernes avant toute considération au-delà de la génération d'hypothèses
 - Une étude préclinique ou mécanistique sur les follicules pileux avant d'envisager une indication capillaire
-- Une clarification du statut réglementaire, puisque toutes les AMM françaises sont annulées
+- Une clarification du statut réglementaire, puisque les 2 AMM françaises sur 2 sont valides
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

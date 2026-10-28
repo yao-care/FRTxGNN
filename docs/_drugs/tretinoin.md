@@ -4,17 +4,17 @@ title: Tretinoin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 785
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tretinoin : nouvelle indication prédite, Nodulose rhumatoïde (niveau de preuve L5). Indication d'origine : Acné"
 monitor_inn: "tretinoin"
-predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "spondyloarthropathy, susceptibility to", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+description: "Tretinoin : nouvelle indication prédite, Nodulose rhumatoïde (rheumatoid nodulosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tretinoin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Trétinoïne : De l'acné à la nodulose rhumatoïde
+## Tretinoin: Nodulose rhumatoïde (rheumatoid nodulosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Pour cette prédiction, **aucun essai clinique** et **aucune publication** ne la
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acné (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Nodulose rhumatoïde |
-| Score de Prédiction TxGNN | 99,84 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Nodulose rhumatoïde (rheumatoid nodulosis) |
+| Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -76,11 +76,11 @@ Aucune littérature associée disponible actuellement pour la nodulose rhumatoï
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67020138 | EFFEDERM 0,05 %, crème | Crème | Non renseignée (AMM annulée) |
-| 68553865 | RETACNYL 0,05 %, crème | Crème | Non renseignée (AMM annulée) |
-| 60552619 | KETREL 0,050 %, crème | Crème | Non renseignée (AMM annulée) |
-| 62373038 | RETACNYL 0,025 %, crème | Crème | Non renseignée (AMM annulée) |
-| 65540866 | VESANOID 10 mg, capsule molle | Capsule molle | Non renseignée (AMM annulée) |
+| 67020138 | EFFEDERM 0,05 %, crème | Crème | Non renseignée (AMM active) |
+| 68553865 | RETACNYL 0,05 %, crème | Crème | Non renseignée (AMM active) |
+| 60552619 | KETREL 0,050 %, crème | Crème | Non renseignée (AMM active) |
+| 62373038 | RETACNYL 0,025 %, crème | Crème | Non renseignée (AMM active) |
+| 65540866 | VESANOID 10 mg, capsule molle | Capsule molle | Non renseignée (AMM active) |
 
 Deux autres AMM annulées existent (ERYLIK, gel ; ZANEA 10 mg/0,25 mg par g, gel), pour un total de 7 AMM, toutes annulées.
 
@@ -107,7 +107,7 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Toutes les AMM françaises sont annulées, et le profil de sécurité est incomplet.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Le médicament est commercialisé en France (7 AMM valides sur 7), et le profil de sécurité est incomplet.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), qui est un point bloquant pour l'évaluation de sécurité

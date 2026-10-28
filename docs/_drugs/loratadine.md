@@ -8,6 +8,7 @@ nav_order: 463
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Loratadine
@@ -53,8 +54,8 @@ Les lacunes critiques identifiées (MOA, données réglementaires, sécurité) d
 | Nouvelle Indication Prédite | Aucune prédiction disponible |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | L5 — aucune prédiction, aucune étude associée |
-| Statut de Marché en France | Non commercialisé (0 AMM dans les données reçues) |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | **Hold** |
 
 ---

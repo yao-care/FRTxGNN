@@ -6,9 +6,9 @@ nav_order: 833
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Zuclopenthixol : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (niveau de preuve L5). Indication d'origine : Schizophrénie"
 monitor_inn: "ZUCLOPENTHIXOL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Zuclopenthixol : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication …"
 ---
 
 # Zuclopenthixol
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Zuclopenthixol : De la Schizophrénie à la Dystrophie Rétinienne
+## Zuclopenthixol: Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Schizophrénie (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le zuclopenthixol fait partie des thioxanthènes, antipsychotiques antagonistes des récepteurs dopaminergiques D1/D2. Son efficacité dans la schizophrénie est établie, mais aucun élément fourni ne relie le blocage dopaminergique à la dystrophie rétinienne.
 
-La dystrophie rétinienne est un groupe de maladies génétiquement hétérogènes, dont la physiopathologie (dégénérescence des photorécepteurs ou de l'épithélium pigmentaire) n'a pas de lien démontré avec la neurotransmission dopaminergique ciblée par le médicament. Le score élevé de TxGNN (99,99 %) reflète une proximité dans le graphe de connaissances, pas une preuve biologique ou clinique.
+La dystrophie rétinienne est un groupe de maladies génétiquement hétérogènes, dont la physiopathologie (dégénérescence des photorécepteurs ou de l'épithélium pigmentaire) n'a pas de lien démontré avec la neurotransmission dopaminergique ciblée par le médicament. Le score élevé de TxGNN (0,9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, pas une preuve biologique ou clinique.
 
 En conséquence, la plausibilité mécanistique doit être considérée comme **non étayée** à ce stade. La prédiction reste une hypothèse à documenter avant toute poursuite.
 
@@ -72,15 +72,14 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les six AMM identifiées sont toutes annulées ; aucune n'est actuellement valide.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 68072846 | Clopixol Action Prolongée 200 mg/1 ml (BB Farma, Italie) | Solution injectable | Annulée |
-| 62788550 | Clopixol Action Prolongée 200 mg/1 ml (Lundbeck SAS) | Solution injectable | Annulée |
-| 61323662 | Clopixol 10 mg (Lundbeck SAS) | Comprimé pelliculé | Annulée |
-| 63744998 | Clopixol A Action Semi-Prolongée 50 mg/ml (Lundbeck SAS) | Solution injectable | Annulée |
-| 69974746 | Clopixol 25 mg (Lundbeck SAS) | Comprimé pelliculé | Annulée |
+| 68072846 | Clopixol Action Prolongée 200 mg/1 ml (BB Farma, Italie) | Solution injectable | Active |
+| 62788550 | Clopixol Action Prolongée 200 mg/1 ml (Lundbeck SAS) | Solution injectable | Active |
+| 61323662 | Clopixol 10 mg (Lundbeck SAS) | Comprimé pelliculé | Active |
+| 63744998 | Clopixol A Action Semi-Prolongée 50 mg/ml (Lundbeck SAS) | Solution injectable | Active |
+| 69974746 | Clopixol 25 mg (Lundbeck SAS) | Comprimé pelliculé | Active |
 
 Une sixième AMM annulée existe (n° 69902540, Clopixol Action Prolongée 200 mg/1 ml, Difarmed, Espagne). Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
@@ -95,7 +94,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non étayé. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non étayé. Le médicament est commercialisé en France (6 AMM valides sur 6), mais les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), élément bloquant

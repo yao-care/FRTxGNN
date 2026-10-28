@@ -4,17 +4,17 @@ title: Cefuroxime
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 151
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cefuroxime : nouvelle indication prédite, Infection urinaire (rang 6 (niveau de preuve L5). Indication d'origine : Infections bactériennes (otite moyenne infectieuse…"
 monitor_inn: "cefuroxime"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "suppurative otitis media", "hematological disease associated with an acquired peripheral neuropathy"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+description: "Cefuroxime : nouvelle indication prédite, Hyperamylasemia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cefuroxime
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Céfuroxime : Des infections bactériennes à l'infection urinaire (prédiction TxGNN)
+## Cefuroxime: Hyperamylasemia
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -41,17 +41,17 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 La céfuroxime est une céphalosporine de deuxième génération, utilisée à l'origine contre diverses infections bactériennes (otite moyenne, pneumonie, méningite, gonorrhée, maladie de Lyme, etc.).
 Le modèle TxGNN a placé en tête de liste l'**hyperamylasémie**, mais cette prédiction ne repose sur aucune preuve : c'est l'**infection urinaire**, première indication prédite appuyée par des données, qui est analysée en détail ci-dessous (**5 essais cliniques** et **20 publications**, sans essai de phase 3 démontrant l'efficacité de la céfuroxime).
 
-> **Remarque importante :** la prédiction de rang 1 (hyperamylasémie, score 99,76 %) n'est soutenue par aucun essai ni aucune publication, et aucun lien mécanistique plausible n'a été identifié. Pour que le rapport soit exploitable, l'analyse porte sur l'infection urinaire (rang 6), la première indication prédite qui dispose de preuves. Cette indication relève davantage d'une extension de l'usage antibactérien existant que d'un véritable repositionnement.
+> **Remarque importante :** la prédiction de rang 1 (hyperamylasémie, score 0,9976) n'est soutenue par aucun essai ni aucune publication, et aucun lien mécanistique plausible n'a été identifié. Pour que le rapport soit exploitable, l'analyse porte sur l'infection urinaire (rang 6), la première indication prédite qui dispose de preuves. Cette indication relève davantage d'une extension de l'usage antibactérien existant que d'un véritable repositionnement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections bactériennes (otite moyenne infectieuse, pneumonie bactérienne, méningite bactérienne, gonorrhée, maladie de Lyme, etc.) |
-| Nouvelle Indication Prédite | Infection urinaire (rang 6 ; rang 1 : hyperamylasémie, sans preuve) |
-| Score de Prédiction TxGNN | 99,62 % (infection urinaire) ; 99,76 % (hyperamylasémie) |
-| Niveau de Preuve | L3 (infection urinaire) ; L5 (hyperamylasémie) |
-| Statut de Marché en France | Retirée du marché (AMM toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hyperamylasemia |
+| Score de Prédiction TxGNN | 0.9976 |
+| Niveau de Preuve | L5 (infection urinaire) ; L5 (hyperamylasémie) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -61,7 +61,7 @@ Les données détaillées sur le mécanisme d'action ne sont pas disponibles dan
 
 Pour l'**infection urinaire**, le lien mécanistique est solide : la céfuroxime est active sur de nombreuses entérobactéries responsables d'infections urinaires et a été utilisée en clinique pour la pyélonéphrite. Il s'agit donc d'une confirmation ou d'une extension de l'usage antibactérien existant, et non d'un repositionnement au sens strict.
 
-Pour la **prédiction de rang 1 (hyperamylasémie)** et la plupart des autres prédictions de tête (syndrome d'hyperviscosité polyclonale, analbuminémie congénitale, maladies hématologiques prémalignes, etc.), aucun lien plausible n'a été identifié. Il s'agit de sorties du graphe de connaissances sans fondement pharmacologique ni clinique. Deux autres prédictions (otite moyenne suppurée, infection à *Peptostreptococcus*) sont mécanistiquement plausibles mais reposent sur des preuves indirectes ; la première recoupe d'ailleurs l'indication d'origine.
+Pour la **prédiction de rang 1 (hyperamylasémie)** et la plupart des autres prédictions de tête (syndrome d'hyperviscosité polyclonale, analbuminémie congénitale, maladies hématologiques prémalignes, etc.), aucun lien plausible n'a été identifié. Deux autres prédictions (otite moyenne suppurée, infection à *Peptostreptococcus*) sont mécanistiquement plausibles mais reposent sur des preuves indirectes ; la première recoupe d'ailleurs l'indication d'origine.
 
 ## Preuves d'Essais Cliniques
 
@@ -102,7 +102,6 @@ Les autres publications retrouvées sont surtout des études de sensibilité ou 
 | 67104586 | CEFUROXIME VIATRIS 250 mg | Comprimé enrobé | Non renseignée |
 | 64292072 | ZINNAT 1,5 g | Poudre pour solution pour perfusion | Non renseignée |
 
-Les 20 AMM recensées sont toutes annulées ; aucune n'est actuellement valide.
 
 ## Considérations de Sécurité
 
@@ -119,7 +118,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction de rang 1 (hyperamylasémie) et la plupart des prédictions de tête n'ont aucun support clinique ni mécanistique (niveau L5). L'infection urinaire (L3) est mécanistiquement cohérente mais relève d'une extension de l'usage antibactérien existant, sans essai de phase 3 spécifique à la céfuroxime ; de plus, toutes les AMM françaises sont annulées, ce qui limite tout développement pratique.
+- La prédiction de rang 1 (hyperamylasémie) et la plupart des prédictions de tête n'ont aucun support clinique ni mécanistique (niveau L5).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le passage à l'étape de criblage de sécurité.

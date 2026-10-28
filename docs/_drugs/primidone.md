@@ -4,17 +4,17 @@ title: Primidone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 631
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Primidone : nouvelle indication prédite, Néoplasme du nerf trijumeau (niveau de preuve L5). Indication d'origine : Épilepsie"
 monitor_inn: "PRIMIDONE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Primidone : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Primidone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Primidone : De l'Épilepsie au Néoplasme du Nerf Trijumeau
+## Primidone: Néoplasme du nerf trijumeau (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **néoplasme du n
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie (le texte d'indication de l'AMM n'est pas renseigné ; l'indication provient du graphe de connaissances) |
-| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (AMM non valide) |
-| Nombre d'AMM | 1 (0 valide, 1 annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **néoplasme du n
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, primidone est un anticonvulsivant métabolisé en phénobarbital et en PEMA, qui agit sur l'excitabilité neuronale. Son efficacité dans l'épilepsie est établie.
 
-En revanche, **aucune justification mécanistique n'apparaît pour un néoplasme du nerf trijumeau**. Primidone n'a pas d'activité antinéoplasique connue. Le score TxGNN élevé résulte vraisemblablement d'un artefact de proximité dans le graphe de connaissances, lié à des termes neurologiques associés au trijumeau (par exemple la névralgie du trijumeau), et non d'un lien biologique avec la tumeur.
+En revanche, **aucune justification mécanistique n'apparaît pour un néoplasme du nerf trijumeau**. Primidone n'a pas d'activité antinéoplasique connue. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées (par exemple la névralgie du trijumeau), et non une preuve biologique.
 
 Cette prédiction doit donc être considérée avec une grande prudence.
 
@@ -85,15 +85,15 @@ Les autres indications prédites sont présentées à titre de contexte. Elles c
 
 | Indication Prédite | Score TxGNN | Niveau de Preuve | Preuves Disponibles |
 |------|------|------|------|
-| Crises déclenchées par l'alimentation | 99,99 % | L4 | Une étude vétérinaire de 1974 chez le chien |
-| Crises induites par l'orgasme | 99,99 % | L5 | Aucune |
-| Crises induites par la miction | 99,99 % | L4 | 15 références générales (revues sur les antiépileptiques, interactions), aucune spécifique à cette affection |
-| Épilepsie de sursaut | 99,99 % | L4 | Un cas clinique de 1995, lien avec primidone non confirmé |
-| Crises induites par la pensée | 99,99 % | L4 | Une étude générale sur le choix des antiépileptiques chez le sujet âgé |
-| Crises audiogéniques | 99,99 % | L4 | Deux études animales (1964, 1976) |
-| Crises de lecture | 99,98 % | L4 | Cas cliniques anciens d'autres épilepsies réflexes, revue sur le myoclonus |
-| Névralgie du trijumeau | 99,98 % | L4 | Revues, surtout sur la carbamazépine ; une revue sur les antiépileptiques hors épilepsie (PMID 15246950) ; un modèle murin |
-| Déficit en bêta-cétothiolase | 99,96 % | L5 | Aucune ; probable artefact du réseau |
+| Crises déclenchées par l'alimentation | 0,9999 | L5 | Une étude vétérinaire de 1974 chez le chien |
+| Crises induites par l'orgasme | 0,9999 | L5 | Aucune |
+| Crises induites par la miction | 0,9999 | L5 | 15 références générales (revues sur les antiépileptiques, interactions), aucune spécifique à cette affection |
+| Épilepsie de sursaut | 0,9999 | L5 | Un cas clinique de 1995, lien avec primidone non confirmé |
+| Crises induites par la pensée | 0,9999 | L5 | Une étude générale sur le choix des antiépileptiques chez le sujet âgé |
+| Crises audiogéniques | 0,9999 | L5 | Deux études animales (1964, 1976) |
+| Crises de lecture | 0,9998 | L4 | Cas cliniques anciens d'autres épilepsies réflexes, revue sur le myoclonus |
+| Névralgie du trijumeau | 0,9998 | L4 | Revues, surtout sur la carbamazépine ; une revue sur les antiépileptiques hors épilepsie (PMID 15246950) ; un modèle murin |
+| Déficit en bêta-cétothiolase | 0,9996 | L5 | Aucune ; probable artefact du réseau |
 
 Parmi elles, la **névralgie du trijumeau** est la piste la plus plausible (classée comme question de recherche). Les anticonvulsivants bloquant les canaux sodiques, comme la carbamazépine, y sont efficaces, mais aucun essai spécifique à primidone n'a été trouvé.
 
@@ -103,7 +103,7 @@ Parmi elles, la **névralgie du trijumeau** est la piste la plus plausible (clas
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65201684 | MYSOLINE 250 mg, comprimé sécable (SERB) | Comprimé sécable | Non renseignée ; AMM annulée |
+| 65201684 | MYSOLINE 250 mg, comprimé sécable (SERB) | Comprimé sécable | Non renseignée ; AMM active |
 
 ---
 
@@ -132,7 +132,7 @@ Primidone est un inducteur enzymatique (via le phénobarbital), ce qui explique 
 **Décision : Hold**
 
 **Justification :**
-- Pour le néoplasme du nerf trijumeau, il n'existe ni essai, ni publication, ni logique mécanistique. Le score élevé est probablement un artefact du graphe de connaissances.
+- Pour le néoplasme du nerf trijumeau, il n'existe ni essai, ni publication, ni logique mécanistique. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 - L'AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

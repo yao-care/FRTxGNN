@@ -48,10 +48,10 @@ avec **3 essais cliniques** et **19 publications** soutenant actuellement cette 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées (usage anesthésique connu) |
 | Nouvelle Indication Prédite | Migraine (« migraine disorder ») |
-| Score de Prédiction TxGNN | 99,69 % |
+| Score de Prédiction TxGNN | 0,9969 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 11 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,11 +89,11 @@ L'usage reste cependant limité à un cadre surveillé (service d'urgences) en r
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63558577 | Propofol Baxter 10 mg/ml | Émulsion injectable pour perfusion | Non renseignée (AMM annulée) |
-| 62010414 | Diprivan 20 mg/mL (seringue préremplie) | Émulsion injectable | Non renseignée (AMM annulée) |
-| 66093051 | Propofol Baxter 20 mg/ml | Émulsion injectable pour perfusion | Non renseignée (AMM annulée) |
-| 66110981 | Propofol Kabi 10 mg/mL | Émulsion injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 66701952 | Propofol Lipuro 2 % (20 mg/ml) | Émulsion injectable ou pour perfusion | Non renseignée (AMM annulée) |
+| 63558577 | Propofol Baxter 10 mg/ml | Émulsion injectable pour perfusion | Non renseignée (AMM active) |
+| 62010414 | Diprivan 20 mg/mL (seringue préremplie) | Émulsion injectable | Non renseignée (AMM active) |
+| 66093051 | Propofol Baxter 20 mg/ml | Émulsion injectable pour perfusion | Non renseignée (AMM active) |
+| 66110981 | Propofol Kabi 10 mg/mL | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
+| 66701952 | Propofol Lipuro 2 % (20 mg/ml) | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
 
 Au total, 11 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
 
@@ -111,13 +111,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - Un essai de Phase 2/3 terminé et plusieurs ECR dans la migraine soutiennent la prédiction (niveau L2), mais aucun ECR de Phase 3 confirmatoire n'est disponible.
-- Toutes les AMM françaises sont annulées et les données de sécurité de la notice manquent, d'où la nécessité de garde-fous (usage hospitalier surveillé uniquement).
+- Les 11 AMM françaises sur 11 sont valides (médicament commercialisé), mais les données de sécurité de la notice manquent, d'où la nécessité de garde-fous (usage hospitalier surveillé uniquement).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles de la notice (ANSM)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Examiner les résultats publiés des essais NCT01604785 et NCT02485418, et vérifier le motif d'arrêt de NCT02492295
-- Confirmer le statut réglementaire actuel du propofol en France, toutes les AMM listées étant annulées
+- Confirmer le statut réglementaire actuel du propofol en France, 11 AMM listées sur 11 étant valides
 - Définir un protocole de dose sub-anesthésique, de surveillance cardiorespiratoire et de sélection des patients (exclusion de l'épilepsie, de l'hypotension, de l'insuffisance respiratoire)
 
 **Autres indications prédites (non recommandées à ce stade) :**

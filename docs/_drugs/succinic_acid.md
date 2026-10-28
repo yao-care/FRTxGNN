@@ -6,9 +6,9 @@ nav_order: 716
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Succinic Acid : nouvelle indication prédite, Anémie mégaloblastique constitutionnelle indépendante de la vitamine… (niveau de preuve L5). Indication d'origine : Non précisée dans le texte de l'AMM"
 monitor_inn: "succinic acid"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "vitamin deficiency disorder", "non-syndromic esophageal malformation"]
+description: "Succinic Acid : nouvelle indication prédite, Vitamin B12- and folate-independent constitutional megaloblastic anemia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
 # Succinic Acid
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Acide succinique : De l'anémie par carence en fer à l'anémie mégaloblastique constitutionnelle indépendante de la vitamine B12 et des folates
+## Succinic Acid: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,21 +46,21 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent directeme
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans le texte de l'AMM ; la base de connaissances associe le médicament à l'anémie par carence en fer, l'anémie hypochrome, l'anémie carentielle et l'anémie microcytaire |
-| Nouvelle Indication Prédite | Anémie mégaloblastique constitutionnelle indépendante de la vitamine B12 et des folates |
-| Score de Prédiction TxGNN | 99,86 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'acide succinique est un intermédiaire du cycle de Krebs (cycle de l'acide tricarboxylique). Ses indications d'origine dans la base de connaissances sont des anémies, mais aucune donnée fournie ne démontre qu'il corrige une carence en fer ou une anomalie de l'érythropoïèse.
 
-Le lien avec la nouvelle indication reste faible. Le score élevé (99,86 %) provient probablement de la proximité, dans le graphe de connaissances, entre les différentes étiquettes d'anémie, et non d'une preuve mécanistique. Le succinate n'a pas de rôle établi dans la correction d'une anémie mégaloblastique indépendante de la B12 et des folates.
+Le lien avec la nouvelle indication reste faible. Le succinate n'a pas de rôle établi dans la correction d'une anémie mégaloblastique indépendante de la B12 et des folates.
 
-Les autres prédictions du modèle présentent les mêmes limites : syndrome de Plummer-Vinson (score 99,86 %), maladie métabolique de la biotine (99,68 %), trouble carentiel vitaminique (99,54 %) et malformation œsophagienne non syndromique (99,19 %). Aucune n'est étayée par un essai clinique. Seul le trouble carentiel vitaminique dispose de publications, toutes indirectes (voir ci-dessous).
+Les autres prédictions du modèle présentent les mêmes limites : syndrome de Plummer-Vinson (score 0,9986), maladie métabolique de la biotine (0,9968), trouble carentiel vitaminique (0,9954) et malformation œsophagienne non syndromique (0,9919). Aucune n'est étayée par un essai clinique. Seul le trouble carentiel vitaminique dispose de publications, toutes indirectes (voir ci-dessous).
 
 ## Preuves d'Essais Cliniques
 
@@ -87,7 +87,7 @@ Aucune littérature associée n'est disponible actuellement pour l'indication pr
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62799283 | SUCCINICUM ACIDUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM annulée) |
+| 62799283 | SUCCINICUM ACIDUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -6,9 +6,9 @@ nav_order: 509
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Moclobemide : nouvelle indication prédite, Agoraphobie (niveau de preuve L2). Indication d'origine : Trouble anxieux, trouble névrotique, dysthymie"
 monitor_inn: "moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Moclobemide : nouvelle indication prédite, Agoraphobie (agoraphobia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Moclobemide
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **2**
 
 </div>
 
-## Moclobémide : De l'Anxiété et des Troubles Névrotiques à l'Agoraphobie
+## Moclobemide: Agoraphobie (agoraphobia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **0 essai clinique** enregistré et **10 publications** soutenant actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Trouble anxieux, trouble névrotique, dysthymie (d'après le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Agoraphobie |
-| Score de Prédiction TxGNN | 99,43 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Agoraphobie (agoraphobia) |
+| Score de Prédiction TxGNN | 0.9943 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,7 +85,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62439997 | MOCLAMINE 150 mg, comprimé pelliculé sécable (BIOCODEX) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 62439997 | MOCLAMINE 150 mg, comprimé pelliculé sécable (BIOCODEX) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -110,7 +110,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ### Note sur la deuxième prédiction
 
-La seconde prédiction du modèle, le **torticolis paroxystique bénin du nourrisson** (score 99,30 %), n'a ni essai clinique ni publication associés, et aucun lien mécanistique n'a été identifié. Le moclobémide n'est pas établi en usage pédiatrique. Il s'agit d'une prédiction purement computationnelle (niveau L5, décision Hold).
+La seconde prédiction du modèle, le **torticolis paroxystique bénin du nourrisson** (score 0,9930), n'a ni essai clinique ni publication associés, et aucun lien mécanistique n'a été identifié. Le moclobémide n'est pas établi en usage pédiatrique. Il s'agit d'une prédiction purement computationnelle (niveau L5, décision Hold).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

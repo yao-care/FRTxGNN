@@ -46,10 +46,10 @@ La varenicline (CHAMPIX) est un medicament d'aide au sevrage tabagique. Le model
 |------|------|
 | Indication Originale | Non renseignee dans les donnees d'AMM compilees (le texte d'indication est vide) |
 | Nouvelle Indication Predite | Trouble migraineux (migraine disorder) |
-| Score de Prediction TxGNN | 99,92 % |
+| Score de Prediction TxGNN | 0,9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulees |
-| Nombre d'AMM | 3 (toutes annulees) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?

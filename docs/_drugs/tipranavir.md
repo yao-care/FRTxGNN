@@ -4,17 +4,17 @@ title: Tipranavir
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 766
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Tipranavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Tipranavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
 ---
 
 # Tipranavir
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tipranavir : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Tipranavir: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -64,7 +64,6 @@ Le score élevé reflète probablement la proximité dans le réseau avec les in
 Autres prédictions du modèle, toutes de niveau L5 et en statut Hold :
 - **Infection par le virus de l'immunodéficience simienne** (99,99 %) : protéase très homologue à celle du VIH-1, plausible, mais modèle animal et sans données.
 - **Complexe lié au SIDA** et **VIH congénital** (99,83 %) : reformulations de l'indication existante, sans véritable repositionnement.
-- **Trouble neurodéveloppemental rare** (99,99 %), **fibrome de la prostate**, **tumeur de Brenner**, **néoplasme bénin de l'appareil reproducteur**, **tumeur phyllode bénigne de la prostate** (≈ 99,3–99,4 %) : aucun lien mécanistique identifié, probablement des artefacts du graphe.
 - **Hyperlipidémie combinée familiale (terme obsolète)** (99,93 %) : les inhibiteurs de protéase du VIH provoquent des dyslipidémies ; le tipranavir risquerait d'aggraver cette maladie. Prédiction probablement erronée et potentiellement nocive.
 
 ## Preuves d'Essais Cliniques
@@ -79,7 +78,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67219072 | APTIVUS 250 mg, capsule molle (Boehringer Ingelheim International ; statut : annulée) | Capsule molle | Non renseignée |
+| 67219072 | APTIVUS 250 mg, capsule molle (Boehringer Ingelheim International ; statut : active) | Capsule molle | Non renseignée |
 
 ## Considérations de Sécurité
 

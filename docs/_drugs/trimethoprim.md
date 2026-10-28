@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 791
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trimethoprim : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (niveau de preuve L5). Indication d'origine : Infection urinaire"
 monitor_inn: "trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Trimethoprim : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Triméthoprime : Des infections urinaires à la kératoconjonctivite ponctuée épithéliale
+## Trimethoprim: Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératoconjonct
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection urinaire (indication issue du graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Kératoconjonctivite ponctuée épithéliale |
-| Score de Prédiction TxGNN | 99,57 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) |
+| Score de Prédiction TxGNN | 0.9957 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le triméthoprime inhibe la dihydrofolate réductase bactérienne, ce qui bloque la synthèse des folates et donc la multiplication des bactéries. Il est déjà utilisé, notamment en association avec la polymyxine B, dans des collyres contre les conjonctivites bactériennes.
 
-La prédiction du modèle reflète probablement cette proximité dans le graphe de connaissances avec les atteintes de la surface oculaire. Toutefois, la kératoconjonctivite ponctuée épithéliale est souvent d'origine virale (par exemple adénovirale) ou non infectieuse. Un mécanisme antibactérien pourrait donc ne pas s'appliquer. Cette hypothèse n'a pas pu être vérifiée faute de données sur le mécanisme d'action.
+Le score de la prédiction provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, notamment avec les atteintes de la surface oculaire. Toutefois, la kératoconjonctivite ponctuée épithéliale est souvent d'origine virale (par exemple adénovirale) ou non infectieuse. Un mécanisme antibactérien pourrait donc ne pas s'appliquer. Cette hypothèse n'a pas pu être vérifiée faute de données sur le mécanisme d'action.
 
 Par ailleurs, les publications réunies pour une indication voisine, la conjonctivite, concernent surtout les conjonctivites bactériennes. Il ne s'agit pas d'un véritable repositionnement : la conjonctivite fait déjà partie des indications d'origine.
 
@@ -84,11 +84,11 @@ Aucune littérature associée n'est disponible actuellement pour la kératoconjo
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66142235 | DELPRIM 300 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 69464049 | BACTRIM 40 mg/mL + 8 mg/mL, suspension buvable | Suspension buvable | Non renseignée (AMM annulée) |
-| 67891013 | COTRIMOXAZOLE TEVA 800 mg/160 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
-| 69233327 | BACTRIM, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée (AMM annulée) |
-| 64121235 | BACTRIM FORTE, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
+| 66142235 | DELPRIM 300 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 69464049 | BACTRIM 40 mg/mL + 8 mg/mL, suspension buvable | Suspension buvable | Non renseignée (AMM active) |
+| 67891013 | COTRIMOXAZOLE TEVA 800 mg/160 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+| 69233327 | BACTRIM, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée (AMM active) |
+| 64121235 | BACTRIM FORTE, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -102,7 +102,7 @@ Les mises en garde officielles de la notice ne sont pas disponibles. Veuillez co
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (score élevé, niveau L5), sans essai ni publication pour la kératoconjonctivite ponctuée épithéliale. Toutes les AMM françaises sont annulées, et l'origine fréquemment virale de cette affection rend l'hypothèse antibactérienne peu étayée.
+- La prédiction repose uniquement sur le modèle TxGNN (apprentissage profond) (score élevé, niveau L5), sans essai ni publication pour la kératoconjonctivite ponctuée épithéliale. Le médicament est commercialisé en France (7 AMM valides sur 7), et l'origine fréquemment virale de cette affection rend l'hypothèse antibactérienne peu étayée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles issues de la notice de l'ANSM

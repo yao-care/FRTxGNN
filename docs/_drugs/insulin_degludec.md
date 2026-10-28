@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 400
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Insulin Degludec : nouvelle indication prédite, Diabète de type 1 (niveau de preuve L1). Indication d'origine : Diabète sucré (texte d'indication des AMM non disponible)"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+description: "Insulin Degludec : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-## Insuline dégludec : Du diabète sucré au diabète de type 1
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit en pratique d'une indication très proche de l'usage établi du médic
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Diabète sucré (texte d'indication des AMM non disponible) |
-| Nouvelle Indication Prédite | Diabète de type 1 |
-| Score de Prédiction TxGNN | 99,44 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Autoimmune oophoritis |
+| Score de Prédiction TxGNN | 0.9923 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -110,9 +110,9 @@ Les données compilées recensent au total 41 essais, majoritairement de phase 1
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60791754 | TRESIBA FLEXTOUCH 200 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 69786114 | TRESIBA PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM annulée) |
-| 60480810 | XULTOPHY 100 unités/ml + 3,6 mg/ml | Solution injectable | Non renseignée (AMM annulée) |
+| 60791754 | TRESIBA FLEXTOUCH 200 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 69786114 | TRESIBA PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
+| 60480810 | XULTOPHY 100 unités/ml + 3,6 mg/ml | Solution injectable | Non renseignée (AMM active) |
 
 ---
 
@@ -136,7 +136,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de phase 3 et des ECR publiés soutiennent l'usage de la dégludec dans le diabète de type 1, ce qui correspond au niveau de preuve L1. Toutefois, il s'agit de l'indication déjà établie du médicament, et la situation réglementaire française (toutes les AMM annulées) ainsi que l'absence de données de sécurité issues de la notice imposent des garde-fous.
+- Plusieurs essais de phase 3 et des ECR publiés soutiennent l'usage de la dégludec dans le diabète de type 1, ce qui correspond au niveau de preuve L1.
 - Les cinq autres indications prédites n'ont aucune preuve (niveau L5) et doivent rester en attente (Hold).
 
 **Pour avancer, les éléments suivants sont nécessaires :**

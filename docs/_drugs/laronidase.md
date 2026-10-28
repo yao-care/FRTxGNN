@@ -6,9 +6,9 @@ nav_order: 437
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Laronidase : nouvelle indication prédite, Maladie de surcharge lysosomale avec atteinte squelettique (niveau de preuve L4). Indication d'origine : Mucopolysaccharidose (syndromes de Hurler, Hurler-Sc…"
 monitor_inn: "LARONIDASE"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+description: "Laronidase : nouvelle indication prédite, Lysosomal storage disease with skeletal involvement (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Laronidase
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-## Laronidase : Du Mucopolysaccharidose de type I à la maladie de surcharge lysosomale avec atteinte squelettique
+## Laronidase: Lysosomal storage disease with skeletal involvement
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré pour cette indication, et **4 publication
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Mucopolysaccharidose (syndromes de Hurler, Hurler-Scheie et Scheie) ; le texte d'indication de l'AMM n'est pas renseigné dans les données compilées |
-| Nouvelle Indication Predite | Maladie de surcharge lysosomale avec atteinte squelettique |
-| Score de Prediction TxGNN | 99,31 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Lysosomal storage disease with skeletal involvement |
+| Score de Prediction TxGNN | 0.9931 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -106,7 +106,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ---
 
-## Laronidase : Du Mucopolysaccharidose de type I au syndrome de Sanfilippo
+## Laronidase : Du Mucopolysaccharidose de type I à la maladie de surcharge lysosomale avec atteinte squelettique
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -120,7 +120,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de S
 |------|------|
 | Indication Originale | Mucopolysaccharidose (syndromes de Hurler, Hurler-Scheie et Scheie) ; texte d'indication de l'AMM non renseigné |
 | Nouvelle Indication Predite | Syndrome de Sanfilippo |
-| Score de Prediction TxGNN | 99,22 % |
+| Score de Prediction TxGNN | 0,9922 |
 | Niveau de Preuve | L4 |
 | Statut de Marche en France | Annulée uniquement (aucune AMM valide) |
 | Nombre d'AMM | 1 (annulée) |

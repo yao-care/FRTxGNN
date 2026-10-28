@@ -3,18 +3,18 @@ layout: default
 title: Atorvastatin
 parent: Preuves élevées (L1-L2)
 nav_order: 79
-evidence_level: L1
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Atorvastatin : nouvelle indication prédite, Hypercholestérolémie familiale (niveau de preuve L1). Indication d'origine : Hypertriglycéridémie"
+evidence_level: L2
+indication_count: 4
 monitor_inn: "atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Atorvastatin : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Atorvastatin
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **6** 
+Niveau de preuve: **L2** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,133 +33,98 @@ Niveau de preuve: **L1** | Indications prédites: **6**
 
 </div>
 
-## Atorvastatine : De l'hypertriglycéridémie à l'hypercholestérolémie familiale
+## Atorvastatine : inhibiteur de l'HMG-CoA réductase (statine) → Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-L'atorvastatine est une statine initialement utilisée pour traiter les dyslipidémies (hypertriglycéridémie, hypercholestérolémie familiale homozygote) et pour la prévention des maladies cardiovasculaires et cérébrovasculaires.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypercholestérolémie familiale** (forme incluant notamment la forme hétérozygote et pédiatrique), avec **15 essais cliniques** et **20 publications** soutenant actuellement cette direction.
-Il s'agit d'une prédiction proche d'un usage déjà reconnu, puisque la forme homozygote figure déjà parmi les indications d'origine.
+L'atorvastatine est une statine, utilisée pour réduire les lipides sanguins et le risque cardiovasculaire.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**infection par le VIH (HIV infectious disease)**,
+avec **14 essais cliniques** et **20 publications** recensés. Ces études portent surtout sur les anomalies lipidiques, l'inflammation et le risque cardiovasculaire chez les personnes vivant avec le VIH, et non sur un effet antiviral.
 
----
-
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertriglycéridémie (les textes d'indication des AMM ne sont pas renseignés ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypercholestérolémie familiale |
-| Score de Prédiction TxGNN | 99,42 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 13 |
-| Décision Recommandée | Proceed with Guardrails |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Infection par le VIH (HIV infectious disease) |
+| Score de prédiction TxGNN | 0,9931 |
+| Niveau de preuve | L2 |
+| Statut de marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
+| Décision recommandée | Proceed with Guardrails |
 
----
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'atorvastatine appartient à la classe des statines, qui réduisent le cholestérol et ont aussi des effets anti-inflammatoires et immunomodulateurs.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'atorvastatine appartient à la classe des statines : elle inhibe l'HMG-CoA réductase, ce qui réduit la synthèse hépatique du cholestérol et augmente le nombre de récepteurs du LDL, donc la clairance du LDL-cholestérol.
+Deux pistes ressortent. La première est métabolique : les statines traitent les dyslipidémies associées aux inhibiteurs de protéase et réduisent le risque cardiovasculaire chez les personnes vivant avec le VIH, qui présentent une inflammation résiduelle et un risque d'athérosclérose accru. La seconde est immunomodulatrice : les statines diminuent l'activation des monocytes/macrophages et l'inflammation systémique, ce qui pourrait concerner les troubles neurocognitifs associés au VIH. Des données précliniques chez la souris suggèrent aussi un effet sur la fibrose cardiaque.
 
-L'hypercholestérolémie familiale homozygote figure déjà parmi les indications d'origine ; l'utilisation dans cette maladie est donc de fait sur l'indication ou très proche. Les formes hétérozygote et pédiatrique relèvent de la même physiopathologie, ce qui rend la prédiction cohérente.
+Aucune donnée ne démontre un effet antiviral direct sur le VIH. La prédiction repose donc sur un bénéfice indirect (métabolique, cardiovasculaire, inflammatoire) et non sur un traitement de l'infection elle-même.
 
-Une limite doit être notée : l'efficacité est atténuée chez les patients dont la fonction du récepteur du LDL est très réduite. C'est pourquoi des traitements complémentaires (ézétimibe, acide bempédoïque, évinacumab) sont utilisés en association.
+## Preuves d'essais cliniques
 
----
-
-## Preuves d'Essais Cliniques
-
-Parmi les 15 essais compilés, voici les 10 plus pertinents.
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
 |---------|------|------|------|---------|
-| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Phase 3 | Terminé | 272 | Étude ouverte de 3 ans : croissance, développement et réduction du cholestérol sous atorvastatine chez des enfants et adolescents atteints d'HF hétérozygote |
-| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Phase 3 | Terminé | 400 | Torcétrapib/atorvastatine versus atorvastatine seule, en double aveugle, dans l'HF hétérozygote (projet torcétrapib arrêté en 2006 pour raisons de sécurité) |
-| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Phase 3 | Terminé | 30 | Étude ouverte de la combinaison torcétrapib/atorvastatine dans l'HF homozygote |
-| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Phase 3 | Terminé | 800 | Évaluation échographique carotidienne de l'effet anti-athéroscléreux de la combinaison versus atorvastatine seule dans l'HF hétérozygote |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Terminé | 50 | Efficacité et sécurité de l'ézétimibe ajouté à l'atorvastatine ou à la simvastatine dans l'HF homozygote |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Terminé | 44 | Extension ouverte de 24 mois sur la sécurité à long terme de l'ézétimibe associé à l'atorvastatine ou à la simvastatine dans l'HF homozygote |
-| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Phase 1 | Terminé | 39 | Pharmacocinétique, pharmacodynamique et tolérance de l'atorvastatine sur 8 semaines chez des enfants et adolescents atteints d'HF hétérozygote |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | Terminé | 249 | Alirocumab versus placebo dans l'HF hétérozygote insuffisamment contrôlée par le traitement hypolipémiant |
-| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | Terminé | 153 | Alirocumab versus placebo chez l'enfant et l'adolescent atteints d'HF hétérozygote, sous statine |
-| [NCT01279590](https://clinicaltrials.gov/study/NCT01279590) | Phase 2 | Terminé | 282 | PPD10558 versus atorvastatine : incidence des myalgies liées aux statines chez des patients intolérants aux statines |
+| [NCT00367458](https://clinicaltrials.gov/study/NCT00367458) | Phase 2 | Terminé | 24 | Essai randomisé contre placebo chez des patients VIH+ sans traitement antirétroviral, évaluant la charge virale et les marqueurs d'activation immunitaire |
+| [NCT01766076](https://clinicaltrials.gov/study/NCT01766076) | Phase 3 | Terminé | 30 | Atorvastatine en appoint chez des patients faiblement répondeurs au traitement antirétroviral (activation immunitaire) |
+| [NCT03037372](https://clinicaltrials.gov/study/NCT03037372) | Phase 3 | Inconnu | 320 | Équivalence atorvastatine/rosuvastatine sur l'activation immunitaire et l'inflammation sous traitement antirétroviral |
+| [NCT02081638](https://clinicaltrials.gov/study/NCT02081638) | Phase 2 | Terminé | 53 | Statine versus aspirine chez des contrôleurs élites et patients VIH+ traités (inflammation, coagulation) |
+| [NCT00663234](https://clinicaltrials.gov/study/NCT00663234) | Phase 1/2 | Arrêté | 28 | Sécurité et efficacité de l'atorvastatine sur l'élévation du LDL liée aux inhibiteurs de protéase chez l'enfant et l'adolescent |
+| [NCT01600170](https://clinicaltrials.gov/study/NCT01600170) | Phase 4 | Terminé | 11 | Modulation de l'activation monocytes/macrophages pour les troubles neurocognitifs associés au VIH |
+| [NCT01263938](https://clinicaltrials.gov/study/NCT01263938) | Phase 4 | Terminé | 5 | Étude pilote sur l'activation monocytaire sous traitement antirétroviral |
+| [NCT00965185](https://clinicaltrials.gov/study/NCT00965185) | Non applicable | Terminé | 40 | Statine pour l'inflammation de la plaque et l'athérosclérose chez les patients VIH+ |
+| [NCT00355251](https://clinicaltrials.gov/study/NCT00355251) | Phase 4 | Arrêté | 5 | Influence sur la réplication virale avant interruption du traitement ; inexploitable (5 patients) |
+| [NCT00017758](https://clinicaltrials.gov/study/NCT00017758) | Phase 1 | Terminé | 56 | Interactions pharmacocinétiques avec éfavirenz et nelfinavir (gestion des interactions, pas d'efficacité) |
 
-Remarque : dans plusieurs essais, l'atorvastatine est le traitement de fond ou le comparateur et non le seul produit testé. Seuls les essais pédiatriques NCT00827606 et NCT00739999 évaluent l'atorvastatine seule.
+## Preuves de la littérature
 
----
-
-## Preuves de la Littérature
-
-Parmi les 20 publications compilées, voici les plus pertinentes.
-
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [25760954](https://pubmed.ncbi.nlm.nih.gov/25760954/) | 2015 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Efficacité de l'atorvastatine sur les lipides, en fonction de la dose |
-| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | Étude clinique | J Clin Lipidol | Étude de 3 ans sur l'atorvastatine chez l'enfant et l'adolescent atteints d'HF hétérozygote |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Étude comparative | Nutr Metab Cardiovasc Dis | Atorvastatine versus simvastatine dans l'HF hétérozygote : atteinte des objectifs de LDL-C et variables de coagulation |
-| [12883464](https://pubmed.ncbi.nlm.nih.gov/12883464/) | 2003 | Étude clinique | Med Sci Monit | L'atorvastatine réduit la microalbuminurie chez des patients atteints d'HF |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Recommandations | Endocr Pract | Recommandations AACE/ACE sur la prise en charge de la dyslipidémie |
-| [14604738](https://pubmed.ncbi.nlm.nih.gov/14604738/) | 2003 | Revue | Clin Ther | Ézétimibe, notamment en association avec la simvastatine ou l'atorvastatine dans l'HF homozygote |
-| [15199433](https://pubmed.ncbi.nlm.nih.gov/15199433/) | 2004 | Revue | Semin Vasc Med | Aspects diagnostiques, cliniques et thérapeutiques de l'HF chez l'enfant |
-| [10582478](https://pubmed.ncbi.nlm.nih.gov/10582478/) | 1999 | Revue | Rev Med Brux | Présentation de l'atorvastatine : inhibition de l'HMG-CoA réductase et réduction de la production d'apoB |
-| [40874855](https://pubmed.ncbi.nlm.nih.gov/40874855/) | 2026 | Étude en vie réelle | J Clin Res Pediatr Endocrinol | Aspects génétiques et thérapeutiques de l'HF hétérozygote pédiatrique en Turquie |
-| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | Préclinique | Toxicology | Myotoxicité des statines lipophiles et hydrophiles sur des cellules musculaires dérivées de patients atteints d'HF |
+| [26851703](https://pubmed.ncbi.nlm.nih.gov/26851703/) | 2016 | Méta-analyse | European Heart Journal | Efficacité et sécurité comparées des statines en prévention primaire chez les patients VIH+ (18 études, 736 patients) |
+| [25907504](https://pubmed.ncbi.nlm.nih.gov/25907504/) | 2015 | Revue systématique | American Journal of Cardiology | Utilité des statines chez les patients infectés par le VIH, à risque cardiovasculaire accru |
+| [37450602](https://pubmed.ncbi.nlm.nih.gov/37450602/) | 2023 | ECR ouvert | AIDS | Atorvastatine versus aspirine chez des contrôleurs élites et patients VIH+ traités, ciblant l'inflammation résiduelle |
+| [18991624](https://pubmed.ncbi.nlm.nih.gov/18991624/) | 2008 | Essai randomisé ouvert | Current HIV Research | Rosuvastatine, pravastatine et atorvastatine dans l'hypercholestérolémie sous inhibiteurs de protéase (94 patients) |
+| [29770749](https://pubmed.ncbi.nlm.nih.gov/29770749/) | 2018 | Cohorte | HIV Clinical Trials | Préservation de la fonction rénale sous rosuvastatine/atorvastatine chez des patients VIH+ avec maladie rénale chronique |
+| [26658651](https://pubmed.ncbi.nlm.nih.gov/26658651/) | 2016 | Revue | Current Opinion in Infectious Diseases | Les statines pour améliorer les résultats cardiovasculaires dans le VIH traité |
+| [29804227](https://pubmed.ncbi.nlm.nih.gov/29804227/) | 2018 | Revue | Current Infectious Disease Reports | Bénéfices et risques des statines chez la population infectée par le VIH |
+| [28364370](https://pubmed.ncbi.nlm.nih.gov/28364370/) | 2017 | Revue | American Journal of Cardiovascular Drugs | Recommandations pour gérer les interactions entre statines et médicaments antirétroviraux |
+| [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | Préclinique (souris) | JCI Insight | L'atorvastatine limite la fibrose cardiaque induite par le VIH/les antirétroviraux en bloquant la signalisation plaquettaire du TGF-β1 |
+| [31126301](https://pubmed.ncbi.nlm.nih.gov/31126301/) | 2019 | Cohorte/revue | AIDS Research and Therapy | Statines et aspirine en prévention cardiovasculaire chez les patients VIH+ |
 
----
+## Informations de marché en France
 
-## Informations de Marché en France
-
-Les 13 AMM recensées sont toutes annulées ; aucune AMM valide n'est actuellement répertoriée. Le texte d'indication n'est pas renseigné pour ces AMM. Voici 5 d'entre elles :
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 67059408 | ATORVASTATINE HCS 10 mg | Comprimé pelliculé | Non renseignée |
-| 63366057 | ATORVASTATINE SANDOZ 80 mg | Comprimé pelliculé sécable | Non renseignée |
-| 65168323 | ATORVASTATINE HCS 80 mg | Comprimé pelliculé | Non renseignée |
-| 64176801 | ATORVASTATINE HCS 20 mg | Comprimé pelliculé | Non renseignée |
-| 66331392 | ATORVASTATINE TEVA SANTE 20 mg | Comprimé pelliculé | Non renseignée |
+| 67059408 | ATORVASTATINE HCS 10 mg | comprimé pelliculé | Non renseignée |
+| 63366057 | ATORVASTATINE SANDOZ 80 mg | comprimé pelliculé sécable | Non renseignée |
+| 65168323 | ATORVASTATINE HCS 80 mg | comprimé pelliculé | Non renseignée |
+| 64176801 | ATORVASTATINE HCS 20 mg | comprimé pelliculé | Non renseignée |
+| 66331392 | ATORVASTATINE TEVA SANTE 20 mg | comprimé pelliculé | Non renseignée |
 
----
+## Considérations de sécurité
 
-## Considérations de Sécurité
+- **Contre-indications à vérifier (données de pharmacovigilance non issues de la notice)** : insuffisance hépatique et maladies du foie, maladie rénale, maladies de la vésicule biliaire, hypothyroïdie, myopathies et maladies musculaires, rhabdomyolyse, paralysie périodique familiale, troubles hypotensifs, abus de substances.
+- **Interactions médicamenteuses** : 301 interactions recensées. Parmi les principales :
+  - **Majeure** : clarithromycine.
+  - **Modérées** : aprépitant, oméprazole et autres inhibiteurs de la pompe à protons (ésoméprazole, lansoprazole, pantoprazole), cimétidine, clotrimazole, miconazole, dexaméthasone, métronidazole, naltrexone, éliglustat, éluxadoline, pectine, rosuvastatine, simvastatine.
+  - **Mineures** : hydroxyde d'aluminium, hydroxyde de magnésium, liraglutide.
+- **Point spécifique au VIH** : l'atorvastatine est un substrat du CYP3A4. Les interactions avec les inhibiteurs de protéase potentialisés et certains autres antirétroviraux imposent une limitation des doses.
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : insuffisance hépatique, maladie hépatique, maladie rénale, maladie de la vésicule biliaire, hypothyroïdie (dont myxœdème et hypothyroïdie congénitale), myopathie et maladies musculaires, rhabdomyolyse, paralysie périodique familiale, hypotension, abus ou dépendance à des substances, pyourétère, fasciite nodulaire, traumatisme.
-- **Interactions médicamenteuses** : 301 interactions recensées.
-  - Majeure : clarithromycine.
-  - Modérées (principales) : aprépitant, oméprazole, ésoméprazole, lansoprazole, pantoprazole, cimétidine, clotrimazole, miconazole, dexaméthasone, métronidazole, naltrexone, rosuvastatine, simvastatine, éliglustat, éluxadoline, pectine.
-  - Mineures : hydroxyde d'aluminium, hydroxyde de magnésium, liraglutide.
-- L'atorvastatine est un substrat du CYP3A4 ; une attention particulière est nécessaire avec les inhibiteurs de ce cytochrome.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées ; veuillez consulter la notice.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
-
----
-
-## Autres Indications Prédites (Pour Information)
-
-| Rang | Indication | Score | Niveau de Preuve | Recommandation |
-|---|---|---|---|---|
-| 2 | Infection par le VIH | 99,31 % | L2 | Question de recherche : intérêt surtout métabolique et cardiovasculaire, sans preuve d'effet antiviral |
-| 3 | Infarctus du tronc cérébral | 99,31 % | L4 | Hold : preuves indirectes, indication AVC déjà couverte |
-| 4 | Déficit en protéine de transfert des esters de cholestérol | 99,25 % | L4 | Hold : pas de cible thérapeutique claire |
-| 5 | Hypercholestérolémie par déficit en cholestérol 7α-hydroxylase | 99,20 % | L5 | Hold : réponse clinique probablement faible, données animales seulement |
-| 6 | Trouble neurodéveloppemental avec ataxie et absence de parole | 99,13 % | L5 | Hold : aucune donnée |
-
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de phase 3 (dont des études pédiatriques de longue durée) et des revues soutiennent l'efficacité de l'atorvastatine dans l'hypercholestérolémie familiale. Cependant, l'indication est proche d'un usage déjà établi, toutes les AMM françaises sont annulées et les données de sécurité issues de la notice manquent.
+Plusieurs essais de phases 2 à 4 et des revues systématiques soutiennent un intérêt de l'atorvastatine chez les personnes vivant avec le VIH, surtout pour le risque cardiovasculaire et l'inflammation. En revanche, aucun effet antiviral n'est démontré, les essais sont petits et plusieurs ont été arrêtés. L'exploration doit donc rester prudente et centrée sur ces objectifs.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice officielle (ANSM), absentes des données compilées et bloquantes pour l'évaluation de sécurité.
-- Les données détaillées sur le mécanisme d'action (DrugBank).
-- La vérification du statut réglementaire actuel en France, y compris les spécialités princeps, puisque les 13 AMM génériques répertoriées sont annulées.
-- Un plan de surveillance spécifique (fonction hépatique, symptômes musculaires, interactions CYP3A4) et des précisions sur les populations pédiatriques.
-- La confirmation des comparateurs et populations des essais dont les titres sont tronqués.
+- Les mises en garde et contre-indications de la notice officielle (ANSM)
+- Les données détaillées sur le mécanisme d'action
+- Des essais contrôlés de plus grande taille sur l'inflammation et les événements cardiovasculaires chez les personnes vivant avec le VIH
+- Un plan de gestion des interactions avec les antirétroviraux (inhibiteurs de protéase potentialisés notamment) et des limites de dose
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

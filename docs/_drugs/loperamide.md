@@ -6,9 +6,9 @@ nav_order: 460
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Loperamide : nouvelle indication prédite, Conjonctivite contagieuse aiguë (niveau de preuve L5). Indication d'origine : Maladies diarrhéiques, dysenterie"
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
+description: "Loperamide : nouvelle indication prédite, Acute contagious conjunctivitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Loperamide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Lopéramide : De la diarrhée et la dysenterie à la conjonctivite contagieuse aiguë
+## Loperamide: Acute contagious conjunctivitis
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,21 +45,21 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **conjonctivite c
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Maladies diarrhéiques, dysenterie (d'après le graphe de connaissances, les textes d'indication des AMM n'étant pas renseignés) |
-| Nouvelle Indication Predite | Conjonctivite contagieuse aiguë |
-| Score de Prediction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Acute contagious conjunctivitis |
+| Score de Prediction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 2) |
+| Nombre d'AMM | 2 (valides : 1) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, le lopéramide est un agoniste périphérique des récepteurs opioïdes mu, agissant sur les neurones du plexus myentérique de l'intestin pour ralentir le transit et réduire les sécrétions.
 
-Il n'existe **aucun lien mécanistique clair** avec la conjonctivite. Aucune activité oculaire ni anti-infectieuse n'est établie pour le lopéramide. Le score élevé (99,97 %) provient vraisemblablement de la proximité du médicament avec des nœuds de maladies infectieuses dans le graphe de connaissances, et non d'une preuve biologique ou clinique.
+Il n'existe **aucun lien mécanistique clair** avec la conjonctivite. Aucune activité oculaire ni anti-infectieuse n'est établie pour le lopéramide. Le score élevé (0,9997) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique.
 
-Les autres prédictions du modèle vont dans le même sens : plusieurs entités conjonctivales (conjonctivite, conjonctivite pseudomembraneuse, conjonctivite folliculaire chronique, folliculose conjonctivale, conjonctivite parasitaire, syndrome d'Angelucci) présentent des scores identiques ou très proches, signe d'un signal partagé par le graphe plutôt que d'une preuve propre à chaque maladie. La seule piste proche de l'indication d'origine est la dysenterie amibienne, mais elle soulève surtout un problème de sécurité (voir ci-dessous).
+Les autres prédictions du modèle vont dans le même sens : plusieurs entités conjonctivales (conjonctivite, conjonctivite pseudomembraneuse, conjonctivite folliculaire chronique, folliculose conjonctivale, conjonctivite parasitaire, syndrome d'Angelucci) présentent des scores identiques ou très proches, signe de similarités apprises par le modèle TxGNN (apprentissage profond) entre maladies apparentées plutôt que d'une preuve propre à chaque maladie. La seule piste proche de l'indication d'origine est la dysenterie amibienne, mais elle soulève surtout un problème de sécurité (voir ci-dessous).
 
 ## Preuves d'Essais Cliniques
 
@@ -98,7 +98,7 @@ Les mises en garde détaillées de la notice ne sont pas disponibles ; veuillez 
 **Décision : Hold**
 
 **Justification :**
-La prédiction pour la conjonctivite contagieuse aiguë repose uniquement sur le score du modèle (niveau L5), sans mécanisme plausible, essai ni publication. Les autres indications prédites sont également non étayées, et la piste la plus proche (dysenterie amibienne) soulève plutôt une alerte de sécurité. De plus, toutes les AMM françaises sont annulées.
+La prédiction pour la conjonctivite aiguë contagieuse repose uniquement sur le score du modèle (niveau L5), sans mécanisme plausible, essai ni publication. Les autres indications prédites sont également non étayées, et la piste la plus proche (dysenterie amibienne) soulève plutôt une alerte de sécurité. De plus, le médicament est commercialisé en France, avec 1 AMM valide sur 2.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité

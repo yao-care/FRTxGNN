@@ -48,10 +48,10 @@ avec **2 essais cliniques** et **3 publications** soutenant actuellement cette d
 |------|------|
 | Indication Originale | Non disponible (le texte de l'indication de l'AMM est vide) |
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
-| Score de Prédiction TxGNN | 99,65 % |
+| Score de Prédiction TxGNN | 0,9965 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | ✗ Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Sur le plan mécanistique, bloquer la transmission nociceptive au niveau du ganglion sphénopalatin, du ganglion stellaire, du nerf grand occipital ou de points gâchettes cervicaux et crâniens pourrait réduire les afférences périphériques et la sensibilisation trigémino-vasculaire impliquées dans la migraine. Ce mécanisme est plausible, mais il n'est pas validé directement par les données disponibles.
 
-Les autres prédictions (migraine avec aura du tronc cérébral, syndrome néphrogénique d'antidiurèse inappropriée, dysthymie) sont nettement moins étayées. La première découle probablement de la proximité avec le nœud « migraine » dans le graphe de connaissances. Pour le syndrome néphrogénique, aucun lien mécanistique plausible n'a été identifié et le score élevé est vraisemblablement un artefact du graphe. Pour la dysthymie, tout lien serait spéculatif. Aucune de ces trois prédictions n'a d'essai ni de publication.
+Les autres prédictions (migraine avec aura du tronc cérébral, syndrome néphrogénique d'antidiurèse inappropriée, dysthymie) sont nettement moins étayées. Le score de la première provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées à la migraine, et non une preuve biologique. Pour le syndrome néphrogénique, aucun lien mécanistique plausible n'a été identifié et le score élevé, produit par le modèle TxGNN (apprentissage profond), peut refléter des similarités apprises entre maladies apparentées, et non une preuve biologique. Pour la dysthymie, tout lien serait spéculatif. Aucune de ces trois prédictions n'a d'essai ni de publication.
 
 ## Preuves d'Essais Cliniques
 
@@ -81,7 +81,7 @@ Les autres prédictions (migraine avec aura du tronc cérébral, syndrome néphr
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63602269 | NAROPEINE 7,5 mg/ml, solution injectable en ampoule (SANDOZ) | Solution injectable | Non renseignée (AMM annulée) |
+| 63602269 | NAROPEINE 7,5 mg/ml, solution injectable en ampoule (SANDOZ) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

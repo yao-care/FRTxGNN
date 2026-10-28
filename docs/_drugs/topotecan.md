@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Topotecan
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 774
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Topotecan : nouvelle indication prédite, Carcinome du sein féminin (niveau de preuve L3). Indication d'origine : Cancer de l'ovaire"
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
+description: "Topotecan : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Topotecan
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Topotécan : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Topotecan: Carcinome du sein féminin (female breast carcinoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du se
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de l'ovaire (indication issue du graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Carcinome du sein féminin |
-| Score de Prédiction TxGNN | 99,92 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Carcinome du sein féminin (female breast carcinoma) |
+| Score de Prédiction TxGNN | 0.9992 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -88,10 +88,10 @@ Ces éléments restent mécanistiques ou de phase précoce. Aucune donnée de ph
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63901015 | HYCAMTIN 1 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 61126871 | HYCAMTIN 4 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 63093822 | HYCAMTIN 0,25 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 65275325 | TOPOTECAN HOSPIRA 4 mg/4 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 63901015 | HYCAMTIN 1 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 61126871 | HYCAMTIN 4 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 63093822 | HYCAMTIN 0,25 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 65275325 | TOPOTECAN HOSPIRA 4 mg/4 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -116,7 +116,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 
 **Justification :**
 - Le niveau de preuve pour le cancer du sein est L3 : les essais sont de phase précoce, terminés prématurément ou sans résultats d'efficacité, et aucune donnée randomisée ne confirme un bénéfice. La seule étude de phase 2 de perfusion continue n'a pas montré d'efficacité accrue.
-- Toutes les AMM françaises sont annulées, et les informations de sécurité issues de la notice sont manquantes, ce qui empêche de passer l'étape de criblage de sécurité.
+- Les 4 AMM françaises sont valides (médicament commercialisé), mais les informations de sécurité issues de la notice sont manquantes, ce qui empêche de passer l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications) ; cette lacune est bloquante.
@@ -125,7 +125,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 - Obtenir des données cliniques plus solides dans le cancer du sein, par exemple des essais de phase 2 ciblant les sous-types dépendants de MYC ou triple négatifs.
 - Définir un plan de surveillance hématologique et de sécurité, compte tenu du risque élevé de myélosuppression.
 
-**Autres indications prédites (pour information) :** la tumeur germinale de l'adulte (score 99,57 %, niveau L2, preuves surtout indirectes issues d'études pédiatriques) et plusieurs sous-types de tumeur du sac vitellin testiculaire (score 99,49 %, niveau L5, prédiction du modèle uniquement, sans essai ni publication, décision Hold).
+**Autres indications prédites (pour information) :** la tumeur germinale de l'adulte (score 0,9957, niveau L2, preuves surtout indirectes issues d'études pédiatriques).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

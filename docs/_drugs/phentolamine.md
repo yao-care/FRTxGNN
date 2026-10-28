@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phentolamine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 598
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Phentolamine : nouvelle indication prédite, Maladie vasculaire (niveau de preuve L3). Indication d'origine : Phéochromocytome (surrénalien), paragangliome sympathique…"
 monitor_inn: "phentolamine"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "blue toe syndrome", "angiodysplasia of stomach", "hemangioendothelioma", "atheroembolism of kidney", "idiopathic spontaneous coronary artery dissection"]
+description: "Phentolamine : nouvelle indication prédite, Visceral calciphylaxis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Phentolamine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Phentolamine : Du Phéochromocytome et des Maladies Vasculaires Périphériques à la Maladie Vasculaire (Prédiction TxGNN)
+## Phentolamine: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,15 +48,14 @@ Les données compilées pour ce rapport ne permettent pas de considérer ce sign
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Phéochromocytome (surrénalien), paragangliome sympathique, maladie vasculaire périphérique, ischémie cérébrale (source : graphe de connaissances ; aucune AMM française) |
-| Nouvelle Indication Prédite | Maladie vasculaire |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Visceral calciphylaxis |
+| Score de Prédiction TxGNN | 1.0000 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold (question de recherche à préciser) |
 
-*Remarque : les autres candidats (calciphylaxie viscérale, syndromes du défilé thoracique, syndrome de l'orteil bleu, angiodysplasie gastrique, hémangioendothéliome, athéroembolie rénale, dissection coronaire spontanée) ont des scores comparables (99,98 % à 99,99 %) mais restent au niveau L5, sans preuve réelle.*
 
 ---
 
@@ -106,7 +105,7 @@ Parmi les 20 publications recensées, aucune n'est un essai contrôlé randomis�
 
 ## Informations de Marché en France
 
-Aucune AMM n'est enregistrée en France pour la phentolamine (0 autorisation). Le médicament n'est pas commercialisé selon les données compilées.
+Aucune AMM n'est enregistrée en France pour la phentolamine (0 autorisation).
 
 ---
 

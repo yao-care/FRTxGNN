@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levetiracetam
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 447
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Levetiracetam : nouvelle indication prédite, État de mal épileptique (niveau de preuve L1). Indication d'origine : Épilepsie partielle"
 monitor_inn: "levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Lévétiracétam : De l'épilepsie partielle à l'état de mal épileptique
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -41,17 +41,17 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 Le lévétiracétam est un antiépileptique initialement utilisé pour le traitement de l'épilepsie partielle.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**état de mal épileptique** (rang 9 des prédictions du modèle, retenu ici car c'est l'indication la mieux soutenue par les preuves), avec **16 essais cliniques** et **20 publications** soutenant actuellement cette direction.
 
-*Remarque : la première prédiction du modèle (« épilepsie visuelle », score de 99,98 %) n'est soutenue par aucune preuve directe (niveau L4, décision « Hold »). Ce rapport porte donc sur l'état de mal épileptique, qui dispose des preuves les plus solides parmi les 10 indications prédites.*
+Ce rapport porte donc sur l'état de mal épileptique, qui dispose des preuves les plus solides parmi les 10 indications prédites.*
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie partielle |
-| Nouvelle Indication Prédite | État de mal épileptique |
-| Score de Prédiction TxGNN | 99,91 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Beta-ketothiolase deficiency |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ Sélection de 10 essais parmi les 16 enregistrés :
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucune AMM valide n'est actuellement enregistrée. Le texte des indications approuvées n'est pas renseigné. Cinq exemples :
+Le texte des indications approuvées n'est pas renseigné. Cinq exemples :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

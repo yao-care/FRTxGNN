@@ -4,17 +4,17 @@ title: Formoterol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 346
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Formoterol : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Emphysème pulmonaire, asthme intrinsèque…"
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+description: "Formoterol : nouvelle indication prédite, Respiratory malformation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Formoterol : De l'asthme et de l'emphysème pulmonaire à la bronchite
+## Formoterol: Respiratory malformation
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, av
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Emphysème pulmonaire, asthme intrinsèque, asthme allergique (texte d'indication des AMM non renseigné) |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,92 % |
-| Niveau de Preuve | L1 (essais de phase 3 terminés, mais indirects : BPCO et associations fixes) |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Respiratory malformation |
+| Score de Prédiction TxGNN | 0.9992 |
+| Niveau de Preuve | L5 (essais de phase 3 terminés, mais indirects : BPCO et associations fixes) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -109,11 +109,11 @@ Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64463420 | FORMOTEROL ZENTIVA 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM annulée) |
-| 67122869 | ASMELOR NOVOLIZER 12 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM annulée) |
-| 61018059 | FORMOTEROL EG 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM annulée) |
-| 61963153 | FORMOAIR 12 microgrammes/dose | Solution pour inhalation en flacon pressurisé | Non renseignée (AMM annulée) |
-| 66732677 | FORADIL 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM annulée) |
+| 64463420 | FORMOTEROL ZENTIVA 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM active) |
+| 67122869 | ASMELOR NOVOLIZER 12 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM active) |
+| 61018059 | FORMOTEROL EG 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM active) |
+| 61963153 | FORMOAIR 12 microgrammes/dose | Solution pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
+| 66732677 | FORADIL 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM active) |
 
 ---
 
@@ -133,14 +133,12 @@ Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas
 
 **Justification :**
 - Le score TxGNN est très élevé, mais les essais de phase 3 portent sur la BPCO et sur des associations fixes (aclidinium/formotérol, arformotérol), non sur la bronchite isolée. L'indication relève surtout d'une confirmation de l'usage existant dans la BPCO.
-- Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) ;
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank) ;
 - Définir précisément le phénotype de bronchite visé (chronique, aiguë ou éosinophilique) et rechercher des essais spécifiques ;
 - Vérifier la disponibilité commerciale d'un produit à base de formotérol en France, au vu du statut uniquement annulé ;
-- Évaluer le risque cardiovasculaire, en tenant compte du syndrome du QT long et de l'hypertension signalés dans le graphe de connaissances.
 
 **Autres indications prédites (pour information) :**
 - **Maladie pulmonaire obstructive** (L1, Proceed with Guardrails) et **asthme** (L1, Proceed with Guardrails) : bien étayées par de larges essais de phase 3 (ETHOS, SYGMA, Novel START), mais déjà proches des indications d'origine. À utiliser dans le cadre des indications validées, avec un corticoïde inhalé pour l'asthme.

@@ -4,17 +4,17 @@ title: Sertaconazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 701
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Sertaconazole : nouvelle indication prédite, Teigne du corps (tinea corporis) (niveau de preuve L5). Indication d'origine : Teigne du pied (tinea pedis)"
 monitor_inn: "sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "pityriasis versicolor"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
+description: "Sertaconazole : nouvelle indication prédite, Ectothrix infectious disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Sertaconazole : De la teigne du pied à la teigne du corps (tinea corporis)
+## Sertaconazole: Ectothrix infectious disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le sertaconazole est un antifongique imidazolé, initialement utilisé pour le traitement de la teigne du pied (tinea pedis).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **teigne du corps (tinea corporis)**, indication la mieux soutenue parmi les prédictions examinées,
 avec **0 essai clinique enregistré** et **20 publications** recensées actuellement, dont plusieurs études comparatives (sertaconazole contre terbinafine, clotrimazole, éberconazole, etc.).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Teigne du pied (tinea pedis) (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Teigne du corps (tinea corporis) |
-| Score de Prédiction TxGNN | 99,94 % |
-| Niveau de Preuve | L2 (attribution prudente : phase et conception des études non confirmées) |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 4 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ectothrix infectious disease |
+| Score de Prédiction TxGNN | 0.9959 |
+| Niveau de Preuve | L5 (attribution prudente : phase et conception des études non confirmées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Proceed with Guardrails |
 
 Remarque : la première indication prédite par rang TxGNN est la dermatophytose de l'aine et de la région périanale (niveau L4, Hold, aucune littérature spécifique). La teigne du corps a été retenue ici comme indication principale car elle est la mieux documentée.
@@ -91,10 +90,10 @@ Ces études sont pour la plupart de petite taille, ouvertes ou régionales ; leu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63090616 | CANDAZOL 300 mg, ovule (annulée) | Ovule | Non renseignée |
-| 66726382 | MONAZOL, ovule (annulée) | Ovule | Non renseignée |
-| 66910838 | MONAZOL 2 %, crème (annulée) | Crème | Non renseignée |
-| 65436593 | SERTACONAZOLE SUBSTIPHARM 300 mg, ovule (annulée) | Ovule | Non renseignée |
+| 63090616 | CANDAZOL 300 mg, ovule (active) | Ovule | Non renseignée |
+| 66726382 | MONAZOL, ovule (active) | Ovule | Non renseignée |
+| 66910838 | MONAZOL 2 %, crème (active) | Crème | Non renseignée |
+| 65436593 | SERTACONAZOLE SUBSTIPHARM 300 mg, ovule (active) | Ovule | Non renseignée |
 
 Les quatre AMM sont annulées ; aucun produit n'est actuellement autorisé en France.
 
@@ -107,14 +106,13 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- La teigne du corps est une extension étroite de l'indication dermatophytique d'origine, avec plusieurs études comparatives publiées et un mécanisme plausible. Toutefois, aucune AMM n'est valide en France, aucun essai n'est enregistré, et les données de sécurité et de mécanisme ne sont pas disponibles.
+- La teigne du corps est une extension étroite de l'indication dermatophytique d'origine, avec plusieurs études comparatives publiées et un mécanisme plausible.
 - Les autres indications prédites sont moins soutenues : la dermatophytose de l'aine et de la région périanale (L4), la teigne du cuir chevelu ou de la barbe (L4), le pityriasis versicolor (L3, étude de 1992) et les atteintes profondes ou pilaires (ectothrix, endothrix, granulome de Majocchi, tinea profunda : L5, prédiction seule) restent en Hold ou en question de recherche. Ces dernières nécessitent généralement un traitement systémique. La candidose cutanée et les mycoses superficielles (L2) sont en grande partie couvertes par l'indication d'origine et les entités déjà évaluées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice de l'ANSM (mises en garde et contre-indications), indispensable avant tout dépistage de sécurité
 - Données détaillées sur le mécanisme d'action
 - Confirmation de la phase et de la conception des études comparatives, avec lecture des textes complets
-- Clarification du statut réglementaire, puisque toutes les AMM françaises sont annulées, et de la voie d'administration (forme topique crème, les ovules étant destinés à la voie vaginale)
 - Données d'interactions médicamenteuses (aucune trouvée à ce jour)
 ## Avertissement
 

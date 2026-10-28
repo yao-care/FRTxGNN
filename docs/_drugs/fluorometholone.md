@@ -4,17 +4,17 @@ title: Fluorometholone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 338
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Fluorometholone : nouvelle indication prédite, Vascularite post-infectieuse (niveau de preuve L5). Indication d'origine : Uvéite, iridocyclite, conjonctivites allergiques (atopique…"
 monitor_inn: "fluorometholone"
-predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "lens-induced iridocyclitis", "glaucomatocyclitic crisis"]
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
+description: "Fluorometholone : nouvelle indication prédite, Postinfectious vasculitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fluorometholone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Fluorométholone : De l'uvéite à la kératoconjonctivite ponctuée épithéliale
+## Fluorometholone: Postinfectious vasculitis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,13 +47,13 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **postinfecti
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Uvéite, iridocyclite, conjonctivites allergiques (atopique, printanière, papillaire), ulcère de la cornée, etc. (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite (rang 1 TxGNN) | Vascularite post-infectieuse |
-| Nouvelle Indication Prédite la plus plausible (rang 6) | Kératoconjonctivite ponctuée épithéliale |
-| Score de Prédiction TxGNN | 99,91 % (rang 1) ; 99,89 % (rang 6) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite (rang 1 TxGNN) | Postinfectious vasculitis |
+| Nouvelle Indication Prédite la plus plausible (rang 6) | Postinfectious vasculitis |
+| Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 (rang 1) ; L4 (rang 6) |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold (rang 1) ; Research Question (rang 6) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,7 +85,7 @@ Aucune littérature associée disponible pour les autres indications prédites.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68728453 | FLUCON, collyre (IMMEDICA PHARMA, Suède) | Collyre | Non renseignée (AMM annulée) |
+| 68728453 | FLUCON, collyre (IMMEDICA PHARMA, Suède) | Collyre | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

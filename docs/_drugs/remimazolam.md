@@ -47,19 +47,19 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**insomnie**, ma
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,91 % |
+| Score de Prédiction TxGNN | 0,9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données consultée. Sur la base des connaissances pharmacologiques générales, le remimazolam est un modulateur allostérique positif du récepteur GABA-A, comme les benzodiazépines hypnotiques établies. Un lien mécanistique avec l'insomnie est donc plausible.
 
-Cependant, plusieurs éléments limitent cette plausibilité. Son hydrolyse très rapide par les estérases tissulaires (principalement la carboxylestérase 1) donne une durée d'action trop courte pour maintenir le sommeil. De plus, il n'existe que sous forme intraveineuse, destinée à la sédation procédurale et à l'anesthésie. Le score très élevé de TxGNN (99,91 %) reflète probablement une similarité de classe avec les hypnotiques GABAergiques plutôt qu'une preuve propre à ce médicament.
+Cependant, plusieurs éléments limitent cette plausibilité. Son hydrolyse très rapide par les estérases tissulaires (principalement la carboxylestérase 1) donne une durée d'action trop courte pour maintenir le sommeil. De plus, il n'existe que sous forme intraveineuse, destinée à la sédation procédurale et à l'anesthésie. Le score très élevé de TxGNN (0,9991) reflète probablement une similarité de classe avec les hypnotiques GABAergiques plutôt qu'une preuve propre à ce médicament.
 
-Une seconde indication prédite, le **delirium de sevrage alcoolique** (score 99,30 %), est également plausible sur le plan biologique : les benzodiazépines sont le traitement de référence du sevrage alcoolique. L'apparition et la disparition rapides de l'effet pourraient permettre une titration fine en réanimation, mais cela reste théorique. Ce syndrome nécessite souvent de fortes doses cumulées sur plusieurs jours, et une demi-vie très courte pourrait provoquer des symptômes de rupture. La population est en outre à risque (dépression respiratoire, instabilité hémodynamique). Cette prédiction est aussi classée L5, avec une décision Hold.
+Une seconde indication prédite, le **delirium de sevrage alcoolique** (score 0,9930), est également plausible sur le plan biologique : les benzodiazépines sont le traitement de référence du sevrage alcoolique. L'apparition et la disparition rapides de l'effet pourraient permettre une titration fine en réanimation, mais cela reste théorique. Ce syndrome nécessite souvent de fortes doses cumulées sur plusieurs jours, et une demi-vie très courte pourrait provoquer des symptômes de rupture. La population est en outre à risque (dépression respiratoire, instabilité hémodynamique). Cette prédiction est aussi classée L5, avec une décision Hold.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68722379 | BYFAVO 20 mg, poudre pour solution injectable (PAION PHARMA, Allemagne) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+| 68722379 | BYFAVO 20 mg, poudre pour solution injectable (PAION PHARMA, Allemagne) | Poudre pour solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

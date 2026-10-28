@@ -4,17 +4,17 @@ title: Cobimetinib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 194
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cobimetinib : nouvelle indication prédite, Sclérose latérale amyotrophique (niveau de preuve L5). Indication d'origine : Mélanome métastatique"
 monitor_inn: "cobimetinib"
-predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+description: "Cobimetinib : nouvelle indication prédite, Sclérose latérale amyotrophique (amyotrophic lateral sclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cobimetinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Cobimétinib : Du Mélanome Métastatique à la Sclérose Latérale Amyotrophique
+## Cobimetinib: Sclérose latérale amyotrophique (amyotrophic lateral sclerosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mélanome métastatique (source : graphe de connaissances TxGNN ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Sclérose latérale amyotrophique |
-| Score de Prédiction TxGNN | 99,73 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sclérose latérale amyotrophique (amyotrophic lateral sclerosis) |
+| Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le cobimétinib appartient à la classe des inhibiteurs de MEK1/2, qui bloquent la voie MAPK/ERK. Son efficacité dans le mélanome métastatique (généralement en association avec un inhibiteur de BRAF) relève de cette classe pharmacologique.
 
-L'activation de la voie MAPK/ERK a été évoquée dans la neuroinflammation et les réponses de stress des motoneurones dans la SLA. Un lien plausible existe donc, mais il n'est pas validé. Le score TxGNN est très élevé (0,997), sans aucun essai ni publication dans les données fournies.
+L'activation de la voie MAPK/ERK a été évoquée dans la neuroinflammation et les réponses de stress des motoneurones dans la SLA. Un lien plausible existe donc, mais il n'est pas validé. Le score TxGNN est très élevé (0,9973), sans aucun essai ni publication dans les données fournies.
 
 Un point affaiblit encore l'hypothèse : la pénétration du cobimétinib dans le système nerveux central est limitée (substrat de la P-gp). La prédiction doit être considérée comme une simple génération d'hypothèse.
 
@@ -80,7 +80,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65045274 | COTELLIC 20 mg, comprimé pelliculé (ROCHE REGISTRATION, Allemagne) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 65045274 | COTELLIC 20 mg, comprimé pelliculé (ROCHE REGISTRATION, Allemagne) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

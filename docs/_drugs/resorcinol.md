@@ -6,9 +6,9 @@ nav_order: 662
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Resorcinol : nouvelle indication prédite, Acné chéloïdienne (acne keloid) (niveau de preuve L5). Indication d'origine : Acné, dermatite, dermatite acnéiforme"
 monitor_inn: "resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
+description: "Resorcinol : nouvelle indication prédite, Acné chéloïdienne (acne keloid) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Resorcinol
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Résorcinol : De l'acné à la kéloïde de la nuque (acné chéloïdienne)
+## Resorcinol: Acné chéloïdienne (acne keloid)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acné, dermatite, dermatite acnéiforme (d'après le graphe de connaissances ; le texte des AMM françaises ne mentionne aucune indication) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Acné chéloïdienne (acne keloid) |
-| Score de Prédiction TxGNN | 99,83 % |
+| Score de Prédiction TxGNN | 0.9983 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'acné chéloïdienne est une affection inflammatoire folliculaire proche de l'acné. Un lien plausible existe donc, fondé sur la similarité des indications. Cependant, il repose uniquement sur le score du modèle TxGNN et sur cette proximité. Aucune donnée mécanistique, aucun essai ni aucune publication ne le confirment.
 
-Les cinq autres prédictions du modèle (dermatomyosite amyopathique, dermatomyosite néonatale, pneumopathie interstitielle de l'enfant associée à une connectivite, acrodermatite chronique atrophiante, hydroa vacciniforme familial) n'ont pas de lien mécanistique crédible avec un kératolytique topique. Elles reflètent probablement la proximité dans le graphe de connaissances (nœuds cutanés communs) plutôt qu'une justification pharmacologique. Pour la dermatomyosite néonatale, l'absorption systémique du résorcinol chez le nouveau-né (risque de méthémoglobinémie) constitue en outre une préoccupation de sécurité.
+Les cinq autres prédictions du modèle (dermatomyosite amyopathique, dermatomyosite néonatale, pneumopathie interstitielle de l'enfant associée à une connectivite, acrodermatite chronique atrophiante, hydroa vacciniforme familial) n'ont pas de lien mécanistique crédible avec un kératolytique topique. Leurs scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Pour la dermatomyosite néonatale, l'absorption systémique du résorcinol chez le nouveau-né (risque de méthémoglobinémie) constitue en outre une préoccupation de sécurité.
 
 ## Preuves d'Essais Cliniques
 
@@ -74,8 +74,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 62223316 | SYNTHOL, gel | Gel | Non renseignée | Annulée |
-| 67679220 | SYNTHOL, solution pour application cutanée | Solution pour application | Non renseignée | Annulée |
+| 62223316 | SYNTHOL, gel | Gel | Non renseignée | Active |
+| 67679220 | SYNTHOL, solution pour application cutanée | Solution pour application | Non renseignée | Active |
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données sur le mécanisme d'action (par ex. via DrugBank)
 - Réaliser une revue de la littérature et des registres d'essais sur le résorcinol dans l'acné chéloïdienne
 - Évaluer l'absorption systémique et le risque de méthémoglobinémie, en particulier pour les peaux lésées et les populations pédiatriques
-- Évaluer la compatibilité de la voie d'administration et la faisabilité réglementaire, puisqu'aucune AMM n'est actuellement valide
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

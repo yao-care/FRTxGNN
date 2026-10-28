@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 519
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Mycophenolate Mofetil : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
+description: "Mycophenolate Mofetil : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Mycophénolate mofétil : Du traitement immunosuppresseur à l'infection par le VIH
+## Mycophenolate Mofetil: Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Les preuves cliniques restent faibles : aucun bénéfice virologique n'est étab
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM disponibles |
-| Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,86 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L2 (niveau attribué dans les données compilées ; voir la réserve dans la conclusion) |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 13 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ---
@@ -98,7 +98,7 @@ Ce raisonnement reste toutefois hypothétique. Le bénéfice virologique n'est p
 
 ## Informations de Marché en France
 
-Les 13 AMM recensées sont annulées ; aucune n'est valide actuellement. Le texte d'indication n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
+Le texte d'indication n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -125,7 +125,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est élevé (99,86 %), mais les preuves cliniques directes sont minces : l'essai le plus pertinent a été retiré sans participant, et l'ECR publié (2004) ne démontre pas de bénéfice virologique établi. Le niveau L2 attribué dans les données compilées semble généreux au regard de ces éléments ; une réévaluation vers L3 serait plus prudente.
+- Le score TxGNN est élevé (0,9986), mais les preuves cliniques directes sont minces : l'essai le plus pertinent a été retiré sans participant, et l'ECR publié (2004) ne démontre pas de bénéfice virologique établi. Le niveau L2 attribué dans les données compilées semble généreux au regard de ces éléments ; une réévaluation vers L3 serait plus prudente.
 - Les 13 AMM françaises sont toutes annulées, et les données de sécurité officielles sont absentes. Il n'est donc pas possible de passer à l'étape de criblage de sécurité.
 - L'immunosuppression et la longue liste de contre-indications issues du graphe de connaissances appellent à la prudence dans cette population.
 
@@ -138,7 +138,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ---
 
-*Remarque : parmi les autres indications prédites, la **sclérose en plaques** (score 99,54 %, niveau L2) dispose de davantage de données cliniques directes (essais de phase 2 et 2/3, revue Cochrane). Elle pourrait faire l'objet d'un rapport distinct.*
+*Remarque : parmi les autres indications prédites, la **sclérose en plaques** (score 0,9954, niveau L2) dispose de davantage de données cliniques directes (essais de phase 2 et 2/3, revue Cochrane). Elle pourrait faire l'objet d'un rapport distinct.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

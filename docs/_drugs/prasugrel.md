@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Prasugrel
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 622
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Prasugrel : nouvelle indication prédite, Trouble migraineux (rang 2 (niveau de preuve L5). Indication d'origine : Syndrome coronarien aigu"
 monitor_inn: "PRASUGREL"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
+description: "Prasugrel : nouvelle indication prédite, Pulmonary hypertension (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Prasugrel : Du Syndrome Coronarien Aigu au Trouble Migraineux
+## Prasugrel: Pulmonary hypertension
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -50,12 +50,12 @@ Ce rapport retient donc comme piste la mieux documentee le **trouble migraineux*
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Syndrome coronarien aigu (source : graphe de connaissances ; les textes d'indication des AMM sont vides) |
-| Nouvelle Indication Predite | Trouble migraineux (rang 2 ; rang 1 : hypertension pulmonaire, niveau L5) |
-| Score de Prediction TxGNN | 99,88 % (hypertension pulmonaire : 99,88 %) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Pulmonary hypertension |
+| Score de Prediction TxGNN | 0.9988 |
 | Niveau de Preuve | L3 (migraine) |
-| Statut de Marche en France | Toutes les AMM sont annulees (aucune AMM valide) |
-| Nombre d'AMM | 4 (toutes annulees) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Decision Recommandee | Hold |
 
 ---
@@ -93,10 +93,10 @@ Cette hypothese reste a confirmer : les essais retrouves testent la fermeture du
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 63610757 | PRASUGREL KRKA 10 mg (annulee) | Comprime pellicule | Non renseignee |
-| 67461428 | PRASUGREL EG 10 mg (annulee) | Comprime pellicule | Non renseignee |
-| 64503651 | PRASUGREL BGR 10 mg (annulee) | Comprime pellicule | Non renseignee |
-| 65916489 | EFIENT 10 mg (annulee) | Comprime pellicule | Non renseignee |
+| 63610757 | PRASUGREL KRKA 10 mg (active) | Comprime pellicule | Non renseignee |
+| 67461428 | PRASUGREL EG 10 mg (active) | Comprime pellicule | Non renseignee |
+| 64503651 | PRASUGREL BGR 10 mg (active) | Comprime pellicule | Non renseignee |
+| 65916489 | EFIENT 10 mg (active) | Comprime pellicule | Non renseignee |
 
 ---
 

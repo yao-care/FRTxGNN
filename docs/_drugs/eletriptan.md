@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eletriptan
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 275
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Eletriptan : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Migraine (migraine avec ou sans aura)"
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
+description: "Eletriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Eletriptan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-## Életriptan : De la migraine à la migraine avec aura du tronc cérébral
+## Eletriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 L'életriptan est un agoniste sélectif des récepteurs 5-HT1B/1D (famille des triptans), initialement utilisé pour le traitement de la crise de migraine aiguë, avec ou sans aura.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais **aucun essai clinique** n'est enregistré pour cette indication précise. Les **17 publications** retrouvées portent sur la migraine en général (dont 3 essais randomisés) et ne constituent qu'une preuve indirecte.
+Les **17 publications** retrouvées portent sur la migraine en général (dont 3 essais randomisés) et ne constituent qu'une preuve indirecte.
 
 ---
 
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec a
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (migraine avec ou sans aura) |
-| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
-| Score de Prédiction TxGNN | 99,99 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 16 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Atrophoderma vermiculata |
+| Score de Prédiction TxGNN | 0.9994 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---
@@ -100,11 +100,11 @@ Les 16 AMM sont annulées, et aucune indication approuvée n'est renseignée dan
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69046879 | ELETRIPTAN BGR 40 mg (Biogaran) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63100697 | ELETRIPTAN EG 40 mg (EG Labo) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 61579850 | ELETRIPTAN QUIVER LAB 40 mg (Arrow Génériques) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 63476564 | RELPAX 40 mg (Viatris) | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64350636 | RELPAX 20 mg (Viatris) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 69046879 | ELETRIPTAN BGR 40 mg (Biogaran) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63100697 | ELETRIPTAN EG 40 mg (EG Labo) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 61579850 | ELETRIPTAN QUIVER LAB 40 mg (Arrow Génériques) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 63476564 | RELPAX 40 mg (Viatris) | Comprimé pelliculé | Non renseignée (AMM active) |
+| 64350636 | RELPAX 20 mg (Viatris) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -124,7 +124,6 @@ Les mises en garde et contre-indications issues de la notice officielle n'ont pa
 
 **Justification :**
 - Les preuves sont indirectes (niveau L4) : aucune étude ne porte sur la migraine avec aura du tronc cérébral, et la seule étude sur l'administration pendant l'aura est négative.
-- Le profil vasculaire de l'életriptan, la prudence habituelle des triptans dans ce sous-type et le fait que toutes les AMM françaises soient annulées justifient la suspension.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle (mises en garde et contre-indications), actuellement manquante et bloquante pour l'évaluation de sécurité

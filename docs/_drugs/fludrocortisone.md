@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fludrocortisone
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 334
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Fludrocortisone : nouvelle indication prédite, Maladie oculaire (« eye disease ») (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
+description: "Fludrocortisone : nouvelle indication prédite, Primary cutaneous T-cell lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fludrocortisone
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-## Fludrocortisone : De l'insuffisance surrénalienne à la maladie oculaire (« eye disease »)
+## Fludrocortisone: Primary cutaneous T-cell lymphoma
 {: .text-alpha }
 
 > Remarque : l'indication originale n'est pas renseignée dans les données d'AMM compilées. La prédiction n°1 du modèle (lymphome cutané primitif à cellules T) ne repose sur aucune preuve. La prédiction retenue pour cette évaluation est donc la première disposant d'éléments documentaires, à savoir « eye disease » (rang 6). L'indication d'origine mentionnée dans le titre découle de la connaissance générale de la classe pharmacologique, et non des données d'AMM.
@@ -47,12 +47,12 @@ Le modèle TxGNN le prédit comme potentiellement utile pour les **maladies ocul
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Maladie oculaire (« eye disease ») |
-| Score de Prédiction TxGNN | 99,14 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Primary cutaneous T-cell lymphoma |
+| Score de Prédiction TxGNN | 0.9958 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -88,11 +88,11 @@ Sélection des publications les plus pertinentes (20 retrouvées au total ; clas
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65705588 | FLUDROCORTISONE ACETATE ACCORD 0,1 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 61955498 | FLUCORTAC 100 microgrammes/mL, solution buvable | Solution buvable | Non renseignée (AMM annulée) |
-| 64199305 | FLUCORTAC 50 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 69866610 | FLUDROCORTISONE ACETLAB 50 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 68039248 | PANOTILE, solution pour instillation auriculaire | Solution pour instillation | Non renseignée (AMM annulée) |
+| 65705588 | FLUDROCORTISONE ACETATE ACCORD 0,1 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 61955498 | FLUCORTAC 100 microgrammes/mL, solution buvable | Solution buvable | Non renseignée (AMM active) |
+| 64199305 | FLUCORTAC 50 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 69866610 | FLUDROCORTISONE ACETLAB 50 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 68039248 | PANOTILE, solution pour instillation auriculaire | Solution pour instillation | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -105,7 +105,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à un niveau L4 : une étude préclinique et un essai de phase 1B de tolérance, sans essai clinique d'efficacité enregistré. Le score TxGNN élevé (99,14 %) reflète une prédiction du modèle, non une preuve clinique. Les autres prédictions (lymphome cutané à cellules T, tératome kystique, kystes dermoïdes, exostose, maladies de la région orbitaire) n'ont ni essai ni publication et paraissent relever d'artefacts du graphe de connaissances.
+- Les preuves se limitent à un niveau L4 : une étude préclinique et un essai de phase 1B de tolérance, sans essai clinique d'efficacité enregistré. Le score TxGNN élevé (0,9914) reflète une prédiction du modèle, non une preuve clinique.
 - Les cinq AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

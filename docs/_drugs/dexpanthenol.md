@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexpanthenol
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 232
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dexpanthenol : nouvelle indication prédite, Exanthème (niveau de preuve L4). Indication d'origine : Maladie de la peau, dermatite, eczéma atopique, iléus paralytique…"
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Dexpanthenol : nouvelle indication prédite, Anorectal stricture (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dexpanthenol
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-## Dexpanthénol : De la dermatite et des affections cutanées à l'exanthème
+## Dexpanthenol: Anorectal stricture
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour l'**exanthème**, l'ind
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie de la peau, dermatite, eczéma atopique, iléus paralytique, gastroparésie (indications issues du graphe de connaissances ; aucun texte d'indication n'est renseigné dans les AMM françaises) |
-| Nouvelle Indication Prédite | Exanthème |
-| Score de Prédiction TxGNN | 99,60 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 14 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Anorectal stricture |
+| Score de Prédiction TxGNN | 0.9972 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 14) |
+| Nombre d'AMM | 14 (valides : 13) |
 | Décision Recommandée | Hold |
 
 > Remarque : l'exanthème est la candidate au 6e rang du classement TxGNN, mais c'est la seule qui dispose d'une preuve clinique ; elle a donc été retenue comme indication principale de ce rapport. Les six autres candidates sont présentées plus bas.
@@ -89,11 +89,11 @@ Les 14 AMM recensées sont **annulées**. Aucun texte d'indication approuvée n'
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63272113 | DEXPANTHENOL CRISTERS 5 %, pommade | Pommade | Annulée |
-| 66172278 | DEXPANTHENOL ZENTIVA CONSEIL 5 %, pommade | Pommade | Annulée |
-| 66261549 | BEPANTHENE 250 mg/ml, solution injectable I.M. | Solution injectable | Annulée |
-| 61662513 | DEXPANTHENOL EG LABO CONSEIL 5 %, pommade | Pommade | Annulée |
-| 68370337 | DEXPANTHENOL VIATRIS 5 %, pommade | Pommade | Annulée |
+| 63272113 | DEXPANTHENOL CRISTERS 5 %, pommade | Pommade | Active |
+| 66172278 | DEXPANTHENOL ZENTIVA CONSEIL 5 %, pommade | Pommade | Active |
+| 66261549 | BEPANTHENE 250 mg/ml, solution injectable I.M. | Solution injectable | Active |
+| 61662513 | DEXPANTHENOL EG LABO CONSEIL 5 %, pommade | Pommade | Active |
+| 68370337 | DEXPANTHENOL VIATRIS 5 %, pommade | Pommade | Active |
 
 ---
 
@@ -101,12 +101,12 @@ Les 14 AMM recensées sont **annulées**. Aucun texte d'indication approuvée n'
 
 | Rang | Indication | Score TxGNN | Preuves | Niveau |
 |---|---|---|---|---|
-| 1 | Sténose anorectale | 99,72 % | Aucune | L5 |
-| 2 | Anus imperforé | 99,71 % | Aucune | L5 |
-| 3 | Polype anal | 99,62 % | Aucune | L5 |
-| 4 | Kératose folliculaire inversée de la vulve | 99,60 % | Aucune | L5 |
-| 5 | Proctite | 99,60 % | Aucune | L5 |
-| 7 | Kératoconjonctivite épithéliale ponctuée | 99,34 % | Aucune | L5 |
+| 1 | Sténose anorectale | 0,9972 | Aucune | L5 |
+| 2 | Anus imperforé | 0,9971 | Aucune | L5 |
+| 3 | Polype anal | 0,9962 | Aucune | L5 |
+| 4 | Kératose folliculaire inversée de la vulve | 0,9960 | Aucune | L5 |
+| 5 | Proctite | 0,9960 | Aucune | L5 |
+| 7 | Kératoconjonctivite épithéliale ponctuée | 0,9934 | Aucune | L5 |
 
 Pour la sténose anorectale et la proctite, un rôle dans la cicatrisation muqueuse est envisageable mais purement spéculatif. Pour l'anus imperforé (malformation congénitale chirurgicale) et le polype anal, aucun mécanisme plausible n'est identifié.
 
@@ -125,7 +125,7 @@ Veuillez consulter la notice pour les autres informations de sécurité. Aucune 
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à un essai de phase 3 indirect, sans résultats, et à aucune publication ; la prédiction repose donc essentiellement sur le modèle. Par ailleurs, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
+- Les preuves se limitent à un essai de phase 3 indirect, sans résultats, et à aucune publication ; la prédiction repose donc essentiellement sur le modèle.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications)

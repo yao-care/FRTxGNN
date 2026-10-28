@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **déficit en cof
 |------|------|
 | Indication Originale | Migraine (avec ou sans aura) |
 | Nouvelle Indication Prédite | Déficit en cofacteur II de l'héparine |
-| Score de Prédiction TxGNN | 99,50 % |
+| Score de Prédiction TxGNN | 0,9950 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **Cette prédiction n'est pas étayée sur le plan mécanistique.** Le déficit en cofacteur II de l'héparine est une thrombophilie héréditaire, liée à une inhibition réduite de la thrombine par le cofacteur II de l'héparine (SERPIND1). La signalisation du CGRP n'est pas connue pour réguler ce cofacteur ni la cascade de coagulation.
 
-Le score élevé (0,995) semble être un artefact du graphe de connaissances, probablement dû à la proximité de nœuds vasculaires ou liés à la coagulation, plutôt qu'à une justification biologique. Les deux autres prédictions les mieux classées (déficit en antithrombine de type 2, excès de facteur V avec thrombose spontanée) sont aussi des thrombophilies avec des scores quasi identiques (0,994). Cela suggère un artefact systématique de regroupement plutôt qu'un signal indépendant.
+Le score élevé (0,9950) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique. Les deux autres prédictions les mieux classées (déficit en antithrombine de type 2, excès de facteur V avec thrombose spontanée) sont aussi des thrombophilies avec des scores identiques (0,9941). Cela suggère un regroupement systématique de maladies apparentées plutôt qu'un signal indépendant.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69972332 | EMGALITY 120 mg, solution injectable en stylo prérempli (statut : annulée) | Solution injectable | Non renseignée |
+| 69972332 | EMGALITY 120 mg, solution injectable en stylo prérempli (statut : active) | Solution injectable | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -87,13 +87,13 @@ Remarque : les données compilées pour ce rapport n'incluent aucune interaction
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Aucun lien mécanistique crédible n'a été identifié entre le blocage du CGRP et la coagulation.
-- Le score élevé est vraisemblablement un artefact de graphe, et la seule AMM française est annulée.
+- Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises entre maladies apparentées, non une preuve biologique ; la seule AMM française est valide.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action, afin de confirmer l'absence de lien avec la voie de la coagulation
 - Les mises en garde et contre-indications de la notice de l'ANSM (données bloquantes pour le criblage de sécurité)
 - Une revue de la littérature et des registres d'essais, pour confirmer l'absence de signal
-- Une évaluation de l'artefact de regroupement des thrombophilies dans le graphe, avant d'envisager toute étude
+- Une évaluation des similarités apprises par le modèle TxGNN (deep learning) entre thrombophilies, qui peuvent refléter des maladies apparentées plutôt qu'une preuve biologique, avant d'envisager toute étude
 - Une réévaluation des indications prédites alternatives, ayant une plausibilité biologique plus forte
 ## Avertissement
 

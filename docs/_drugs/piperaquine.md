@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Piperaquine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 607
-evidence_level: L1
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Piperaquine : nouvelle indication prédite, Paludisme à Plasmodium vivax (niveau de preuve L1). Indication d'origine : Paludisme (le texte d'indication de l'AMM n'est pas renseigné)"
 monitor_inn: "piperaquine"
-predicted_indications: ["cystic echinococcosis", "Plasmodium vivax malaria", "echinococcus granulosus infectious disease"]
+predicted_indications: ["cystic echinococcosis", "echinococcus granulosus infectious disease"]
+description: "Piperaquine : nouvelle indication prédite, Cystic echinococcosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Piperaquine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-## Pipéraquine : Du Paludisme au Paludisme à Plasmodium vivax
+## Piperaquine: Cystic echinococcosis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette seconde indication relève toutefois de la même famille thérapeutique qu
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Paludisme (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Paludisme à Plasmodium vivax |
-| Score de Prédiction TxGNN | 99,52 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Cystic echinococcosis |
+| Score de Prédiction TxGNN | 0.9952 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -100,7 +100,7 @@ Parmi les 19 essais recensés, voici les 10 plus pertinents (priorité aux essai
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62434676 | EURARTESIM 320 mg/40 mg, comprimé pelliculé (ALFASIGMA, Italie) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62434676 | EURARTESIM 320 mg/40 mg, comprimé pelliculé (ALFASIGMA, Italie) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -116,8 +116,8 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 
 | Indication prédite | Score TxGNN | Niveau de Preuve | Décision |
 |------|------|------|------|
-| Échinococcose kystique | 99,52 % | L5 | Hold |
-| Maladie infectieuse à *Echinococcus granulosus* | 99,05 % | L5 | Hold |
+| Échinococcose kystique | 0,9952 | L5 | Hold |
+| Maladie infectieuse à *Echinococcus granulosus* | 0,9905 | L5 | Hold |
 
 Aucun mécanisme n'est établi pour la pipéraquine contre *Echinococcus granulosus*. La seule publication disponible est une revue générale sur les médicaments anti-infectieux oraux pour les maladies tropicales négligées, qui ne fournit pas de preuve directe. Les deux entrées désignent par ailleurs la même entité pathologique : la seconde ne constitue donc pas une confirmation indépendante.
 

@@ -6,9 +6,9 @@ nav_order: 217
 evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Darunavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Darunavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée d…"
 ---
 
 # Darunavir
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-## Darunavir : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Simienne
+## Darunavir: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (texte d'indication des AMM non renseigné ; source : graphe de connaissances) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 17 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ---
@@ -89,11 +89,11 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65199404 | DARUNAVIR BIOGARAN 800 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68220711 | DARUNAVIR TEVA 800 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 67422090 | DARUNAVIR EG 400 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63124787 | DARUNAVIR VIATRIS 600 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65602549 | DARUNAVIR VIATRIS 800 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
+| 65199404 | DARUNAVIR BIOGARAN 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 68220711 | DARUNAVIR TEVA 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 67422090 | DARUNAVIR EG 400 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 63124787 | DARUNAVIR VIATRIS 600 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 65602549 | DARUNAVIR VIATRIS 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
 
 Les 17 AMM recensées sont des génériques à base de darunavir seul, toutes au statut annulé.
 
@@ -115,8 +115,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- Les seules preuves sont quatre études précliniques chez le macaque, où la contribution du darunavir n'est pas isolée. L'indication est vétérinaire ou de modèle animal, sans pertinence thérapeutique humaine directe, et aucune AMM française n'est actuellement valide.
-- Les autres prédictions n'ont aucun soutien : le syndrome d'immunodéficience acquise félin (L5, protéase du FIV différente de celle du VIH-1), le trouble neurodéveloppemental avec démarche ataxique (L5, aucun lien mécanistique identifiable, probable artefact du graphe) et l'hyperlipidémie combinée familiale obsolète (L5, les inhibiteurs de protéase provoquent plutôt une dyslipidémie).
+- Les seules preuves sont quatre études précliniques chez le macaque, où la contribution du darunavir n'est pas isolée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA)

@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypotrichose sim
 |------|------|
 | Indication Originale | Non renseignée dans les AMM (usage connu : rougeur oculaire, décongestion) |
 | Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
-| Score de Prédiction TxGNN | 99,83 % |
+| Score de Prédiction TxGNN | 0,9983 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypotrichose sim
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la naphazoline agit sur les récepteurs alpha-adrénergiques (α1A, α2A, α2C) et provoque une vasoconstriction qui réduit la rougeur des yeux en resserrant les vaisseaux dilatés.
 
-La prédiction de TxGNN repose uniquement sur la proximité dans le graphe de connaissances. L'hypotrichose simple est une maladie génétique du développement du follicule pileux (variants de CDSN, APCDD1, RPL21, par exemple). Une vasoconstriction topique ne devrait pas corriger ce type de défaut, et aucune activité favorisant la croissance du follicule n'est documentée.
+Le score de la prédiction provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. L'hypotrichose simple est une maladie génétique du développement du follicule pileux (variants de CDSN, APCDD1, RPL21, par exemple). Une vasoconstriction topique ne devrait pas corriger ce type de défaut, et aucune activité favorisant la croissance du follicule n'est documentée.
 
 Les autres prédictions du classement présentent le même problème. Pour l'alopécie, les traitements établis (minoxidil, finastéride, inhibiteurs de JAK) agissent par vasodilatation, inhibition de la 5-alpha-réductase ou modulation immunitaire, un mécanisme opposé à la vasoconstriction de la naphazoline. Les prédictions pour les glaucomes (à angle ouvert et héréditaire primaire) ne sont pas non plus étayées. Une plausibilité très faible existe au niveau de la classe des agonistes alpha (brimonidine), mais la naphazoline n'est pas un hypotenseur oculaire établi.
 
@@ -83,9 +83,9 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 67338728 | COLLYRE BLEU LAITER, flacon | Collyre | Non renseignée | Annulée |
-| 62545178 | XYLOCAINE 5 POUR CENT A LA NAPHAZOLINE, solution pour application muqueuse | Solution pour application | Non renseignée | Annulée |
-| 69345098 | DERINOX, solution pour pulvérisation nasale | Solution pour pulvérisation | Non renseignée | Annulée |
+| 67338728 | COLLYRE BLEU LAITER, flacon | Collyre | Non renseignée | Active |
+| 62545178 | XYLOCAINE 5 POUR CENT A LA NAPHAZOLINE, solution pour application muqueuse | Solution pour application | Non renseignée | Active |
+| 69345098 | DERINOX, solution pour pulvérisation nasale | Solution pour pulvérisation | Non renseignée | Active |
 
 ---
 
@@ -105,7 +105,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme vasoconstricteur n'a pas de lien plausible avec les troubles du développement du follicule pileux, et il est même opposé à celui des traitements établis de l'alopécie.
-- Toutes les AMM françaises sont annulées, et les données de sécurité officielles sont absentes.
+- Les 3 AMM françaises sur 3 sont valides, et les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles issues des notices de l'ANSM (point bloquant)

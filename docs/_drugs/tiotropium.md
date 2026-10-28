@@ -4,17 +4,17 @@ title: Tiotropium
 parent: Preuves élevées (L1-L2)
 nav_order: 765
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tiotropium : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L1). Indication d'origine : Bronchite, asthme, asthme intrinsèque, asthme allergique…"
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Cette prédiction correspond toutefois à une catégorie parente de la BPCO, c'e
 |------|------|
 | Indication Originale | Bronchite, asthme, asthme intrinsèque, asthme allergique, emphysème pulmonaire (le texte de l'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Maladie pulmonaire obstructive |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0,9999 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -98,9 +98,9 @@ Parmi les 39 essais associés, voici les 10 plus pertinents (essais de phase 3 j
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60363967 | SPIRIVA 18 microgrammes, poudre pour inhalation en gélule (statut : annulée) | Poudre pour inhalation en gélule | Texte de l'indication non renseigné |
+| 60363967 | SPIRIVA 18 microgrammes, poudre pour inhalation en gélule (statut : active) | Poudre pour inhalation en gélule | Texte de l'indication non renseigné |
 
-Aucune AMM valide n'est enregistrée pour le tiotropium dans les données compilées. Le statut « annulée » concerne ce produit précis et doit être vérifié par rapport aux autorisations actuellement en vigueur.
+Une AMM valide est enregistrée pour le tiotropium dans les données compilées (1 licence valide sur 1), et le médicament est commercialisé dans ce pays. Ce statut doit être vérifié par rapport aux autorisations actuellement en vigueur.
 
 ## Considérations de Sécurité
 

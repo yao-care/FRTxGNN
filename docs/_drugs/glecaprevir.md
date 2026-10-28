@@ -6,9 +6,9 @@ nav_order: 364
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Glecaprevir : nouvelle indication prédite, Infection par le VIH (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Glecaprevir : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Glecaprevir
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Glecaprevir : De l'hépatite C chronique à l'infection par le VIH (prédiction non étayée)
+## Glecaprevir: Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit donc d'un signal du modèle sans preuve directe d'efficacité pour cet
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection chronique par le virus de l'hépatite C |
-| Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,87 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec le VIH est essentiellement indirect. La protéase du VIH est une protéase aspartique, distincte de la protéase à sérine NS3/4A du VHC, et aucune activité de glecaprevir contre le VIH n'est établie. Les essais listés ont inclus des patients co-infectés VIH/VHC et mesuraient la guérison de l'hépatite C (réponse virologique soutenue), pas le contrôle du VIH.
 
-Le score élevé du modèle reflète probablement la proximité, dans le graphe de connaissances, entre les antiviraux anti-VHC et anti-VIH, plutôt qu'un effet antiviral direct sur le VIH. Cette prédiction relève d'une indication VHC dans une population co-infectée, et non d'un véritable repositionnement.
+Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, plutôt qu'un effet antiviral direct sur le VIH. Cette prédiction relève d'une indication VHC dans une population co-infectée, et non d'un véritable repositionnement.
 
 ---
 
@@ -106,10 +106,9 @@ Toute la littérature concerne l'hépatite C, y compris chez les patients co-inf
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (AMM annulée) |
-| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (AMM annulée) |
+| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (AMM active) |
+| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (AMM active) |
 
-Les deux autorisations sont annulées : aucune AMM n'est actuellement valide en France pour ce médicament.
 
 ---
 

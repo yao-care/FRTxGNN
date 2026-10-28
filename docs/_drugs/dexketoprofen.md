@@ -6,9 +6,9 @@ nav_order: 231
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dexketoprofen : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
+description: "Dexketoprofen : nouvelle indication prédite, Tendinitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dexketoprofen
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Dexképrofène : De l'indication d'origine non documentée à la Migraine
+## Dexketoprofen: Tendinitis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,15 +45,15 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (r
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM disponibles |
-| Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,87 % |
-| Niveau de Preuve | L1 (selon le classement des données ; voir réserves ci-dessous) |
-| Statut de Marché en France | Uniquement annulé (toutes les AMM sont annulées) |
-| Nombre d'AMM | 5 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Tendinitis |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 (selon le classement des données ; voir réserves ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Proceed with Guardrails |
 
-**Remarque sur la sélection :** la première prédiction du classement (tendinite, score 99,90 %) ne repose que sur une étude de douleur musculo-squelettique non spécifique à la tendinite (niveau L4, Hold). La migraine est retenue ici car c'est l'indication prédite la mieux documentée.
+**Remarque sur la sélection :** la première prédiction du classement (tendinite, score 0,9990) ne repose que sur une étude de douleur musculo-squelettique non spécifique à la tendinite (niveau L4, Hold). La migraine est retenue ici car c'est l'indication prédite la mieux documentée.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -92,11 +92,11 @@ Cette action sur les prostaglandines et l'inflammation neurogène est impliquée
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64613432 | KETESSE 25 mg, granulés pour solution buvable | Granulés pour solution buvable | Non renseignée (AMM annulée) |
-| 63929235 | KETESSE 25 mg, solution buvable en sachet | Solution buvable | Non renseignée (AMM annulée) |
-| 62128284 | KETESSE 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60205458 | KETESSE 50 mg/2 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 60162494 | SKUDEXUM 75 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 64613432 | KETESSE 25 mg, granulés pour solution buvable | Granulés pour solution buvable | Non renseignée (AMM active) |
+| 63929235 | KETESSE 25 mg, solution buvable en sachet | Solution buvable | Non renseignée (AMM active) |
+| 62128284 | KETESSE 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60205458 | KETESSE 50 mg/2 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
+| 60162494 | SKUDEXUM 75 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

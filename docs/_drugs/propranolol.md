@@ -4,17 +4,17 @@ title: Propranolol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 637
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Propranolol : nouvelle indication prédite, Myopathie distale de type Tateyama (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM françaises"
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol : nouvelle indication prédite, Myopathie distale de type Tateyama (distal myopathy, Tateyama type) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Propranolol : De l'hypertension artérielle à la myopathie distale de type Tateyama
+## Propranolol: Myopathie distale de type Tateyama (distal myopathy, Tateyama type)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le propranolol est un bêtabloquant non sélectif, utilisé à l'origine pour traiter l'hypertension artérielle, les troubles du rythme et la cardiomyopathie hypertrophique.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **myopathie distale de type Tateyama** (score de 99,40 %), mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **myopathie distale de type Tateyama** (score de 0,9940), mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction.
 Les indications suivantes du classement disposent de peu de données : la **cardiomyopathie cirrhotique** (3 publications) et la **cardiomyopathie** en général (20 publications, surtout sur la cardiomyopathie hypertrophique, déjà une indication connue).
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM françaises ; les indications issues du graphe de connaissances incluent l'hypertension, la fibrillation atriale et la cardiomyopathie hypertrophique |
-| Nouvelle Indication Prédite | Myopathie distale de type Tateyama |
-| Score de Prédiction TxGNN | 99,40 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Myopathie distale de type Tateyama (distal myopathy, Tateyama type) |
+| Score de Prédiction TxGNN | 0.9940 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -61,8 +61,8 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 Pour la myopathie distale de type Tateyama, **aucun lien mécanistique n'est soutenu par les données compilées**. Cette maladie musculaire rare n'a pas de relation évidente avec le blocage bêta-adrénergique. Le score élevé du modèle reste donc une sortie algorithmique, sans étude de soutien. À noter aussi que le graphe de connaissances signale des maladies musculaires (myopathie, maladie du muscle squelettique) parmi les contre-indications du propranolol, ce qui appelle à la prudence.
 
 Parmi les autres prédictions, deux présentent un lien plus plausible :
-- **Cardiomyopathie cirrhotique** (score 99,12 %) : le propranolol est largement utilisé dans la cirrhose pour l'hypertension portale. Une publication de 2024 suggère qu'il pourrait corriger l'allongement de l'intervalle QT. D'autres travaux indiquent toutefois des effets cardiovasculaires atténués et une possible altération de la fonction circulatoire et rénale en cas d'ascite réfractaire. Le rapport bénéfice/risque est donc incertain.
-- **Cardiomyopathie** (score 99,12 %) : les études concernent surtout la cardiomyopathie hypertrophique, déjà couverte par l'usage établi, donc l'apport pour de nouveaux sous-types est indirect.
+- **Cardiomyopathie cirrhotique** (score 0,9912) : le propranolol est largement utilisé dans la cirrhose pour l'hypertension portale. Une publication de 2024 suggère qu'il pourrait corriger l'allongement de l'intervalle QT. D'autres travaux indiquent toutefois des effets cardiovasculaires atténués et une possible altération de la fonction circulatoire et rénale en cas d'ascite réfractaire. Le rapport bénéfice/risque est donc incertain.
+- **Cardiomyopathie** (score 0,9912) : les études concernent surtout la cardiomyopathie hypertrophique, déjà couverte par l'usage établi, donc l'apport pour de nouveaux sous-types est indirect.
 
 ## Preuves d'Essais Cliniques
 
@@ -88,9 +88,9 @@ Aucune littérature associée disponible actuellement pour la myopathie distale 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65667550 | Propranolol Teva L.P. 80 mg (annulée) | Gélule à libération prolongée | Non renseignée |
-| 66415335 | Propranolol EG 40 mg (annulée) | Comprimé | Non renseignée |
-| 63077978 | Propranolol Teva L.P. 160 mg (annulée) | Gélule à libération prolongée | Non renseignée |
+| 65667550 | Propranolol Teva L.P. 80 mg (active) | Gélule à libération prolongée | Non renseignée |
+| 66415335 | Propranolol EG 40 mg (active) | Comprimé | Non renseignée |
+| 63077978 | Propranolol Teva L.P. 160 mg (active) | Gélule à libération prolongée | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -107,7 +107,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la myopathie distale de type Tateyama repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans lien mécanistique plausible, et avec des maladies musculaires signalées parmi les contre-indications du propranolol. Toutes les AMM françaises sont par ailleurs annulées.
+- La prédiction pour la myopathie distale de type Tateyama repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans lien mécanistique plausible, et avec des maladies musculaires signalées parmi les contre-indications du propranolol. Le médicament est commercialisé en France, avec 3 AMM valides sur 3.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité de la notice officielle (ANSM), actuellement bloquantes pour le dépistage de sécurité.

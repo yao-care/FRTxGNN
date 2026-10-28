@@ -8,6 +8,7 @@ nav_order: 507
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Mitotane
@@ -53,8 +54,8 @@ Le Mitotane est un agent adrénocorticolytique utilisé dans le traitement du ca
 | Nouvelle Indication Prédite | Non disponible — prédictions TxGNN absentes |
 | Score de Prédiction TxGNN | Non disponible |
 | Niveau de Preuve | L5 — aucune prédiction ni étude disponible |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | **Hold** |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 503
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L3). Indication d'origine : Hypertension artérielle et alopécie"
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with schistosomiasis"]
+description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Minoxidil
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Minoxidil : De l'Hypertension et de l'Alopécie à l'Hypotrichose Simple du Cuir Chevelu
+## Minoxidil: Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré, mais **3 publications** (séries et rapp
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle et alopécie (le texte d'indication des AMM n'est pas renseigné ; source : graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 19 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -103,14 +103,14 @@ Pour les mises en garde et la notice officielle, veuillez consulter la notice : 
 
 **Justification :**
 - Le score TxGNN est très élevé et le mécanisme est plausible, mais les preuves se limitent à trois cas cliniques en association thérapeutique (niveau L3), sans essai enregistré.
-- Le profil de sécurité, en particulier cardiovasculaire en cas d'usage systémique, impose des précautions, et toutes les AMM françaises sont annulées.
+- Le profil de sécurité, en particulier cardiovasculaire en cas d'usage systémique, impose des précautions ; le médicament est commercialisé en France, avec 19 AMM valides sur 19.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de mécanisme d'action issues de DrugBank
 - Mises en garde et contre-indications de la notice ANSM
 - Études contrôlées isolant l'effet du minoxidil en monothérapie
 - Évaluation de la voie d'administration (topique ou orale à faible dose) et de la sécurité cardiovasculaire, notamment chez l'enfant
-- Clarification du statut réglementaire, toutes les AMM étant annulées
+- Clarification du statut réglementaire, le médicament étant commercialisé avec 19 AMM valides sur 19
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

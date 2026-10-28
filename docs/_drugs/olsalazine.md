@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome myélo
 |------|------|
 | Indication originale | Non précisée dans les AMM (texte d'indication vide) ; usage connu : rectocolite hémorragique |
 | Nouvelle indication prédite | Syndrome myélodysplasique |
-| Score de prédiction TxGNN | 99,91 % |
+| Score de prédiction TxGNN | 0,9991 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome myélo
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'olsalazine est un dimère de 5-ASA, majoritairement retenu dans le côlon avec une faible exposition systémique. Le 5-ASA a une activité anti-inflammatoire (modulation de NF-kB et de PPAR-gamma, notamment).
 
-Le lien avec une maladie clonale de la moelle osseuse comme le syndrome myélodysplasique reste **spéculatif**. Le score élevé (0,999) reflète vraisemblablement une proximité dans le graphe de connaissances plutôt qu'une justification mécanistique démontrée.
+Le lien avec une maladie clonale de la moelle osseuse comme le syndrome myélodysplasique reste **spéculatif**. Le score élevé (0,9991) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du classement posent les mêmes limites : syndrome myélodysplasique non classé, cytopénie réfractaire de l'enfant, délétion partielle du bras long du chromosome 5 (anomalie cytogénétique plutôt qu'indication thérapeutique) et anémies rares sont fortement corrélés au premier résultat et ne constituent pas des preuves indépendantes. Les prédictions pour l'hypotrichose, l'alopécie et l'alopécie areata sont également sans données à l'appui. Pour l'anémie arégénérative, une mise en garde s'impose : les médicaments de la classe sulfasalazine/5-ASA ont de rares signalements de suppression médullaire ou d'anémie aplasique, ce qui plaide contre un bénéfice.
 
@@ -83,8 +83,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée | Statut |
 |---------|------|------|-----------|------|
-| 64457645 | DIPENTUM 500 mg, comprimé | Comprimé | Non renseignée | Annulée |
-| 63634128 | DIPENTUM 250 mg, gélule | Gélule | Non renseignée | Annulée |
+| 64457645 | DIPENTUM 500 mg, comprimé | Comprimé | Non renseignée | Active |
+| 63634128 | DIPENTUM 250 mg, gélule | Gélule | Non renseignée | Active |
 
 Titulaire : ATNAHS PHARMA NETHERLANDS (Pays-Bas).
 

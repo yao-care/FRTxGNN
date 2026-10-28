@@ -6,9 +6,9 @@ nav_order: 394
 evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Imipramine : nouvelle indication prédite, Trouble déficit de l'attention avec hyperactivité (TDAH) (niveau de preuve L3). Indication d'origine : Troubles anxieux, troubles névrotiques, dysthymie, énu…"
 monitor_inn: "IMIPRAMINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
+description: "Imipramine : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Imipramine
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **7**
 
 </div>
 
-## Imipramine : Des Troubles Anxieux au Trouble Déficit de l'Attention avec Hyperactivité (TDAH)
+## Imipramine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais aucun essai clinique n'est enregistré et les **20 publications** disponibl
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Troubles anxieux, troubles névrotiques, dysthymie, énurésie nocturne (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trouble déficit de l'attention avec hyperactivité (TDAH) |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Attention deficit-hyperactivity disorder |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -87,8 +87,8 @@ Aucun essai contrôlé randomisé n'figure parmi ces publications.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 68574699 | TOFRANIL 10 mg, comprimé enrobé | Comprimé enrobé | Non renseignée | Annulée |
-| 67117128 | TOFRANIL 25 mg, comprimé enrobé | Comprimé enrobé | Non renseignée | Annulée |
+| 68574699 | TOFRANIL 10 mg, comprimé enrobé | Comprimé enrobé | Non renseignée | Active |
+| 67117128 | TOFRANIL 25 mg, comprimé enrobé | Comprimé enrobé | Non renseignée | Active |
 
 ## Considérations de Sécurité
 
@@ -110,7 +110,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue systématique des essais contrôlés sur les tricycliques dans le TDAH
 - Évaluation du risque cardiaque (ECG, QT) en population pédiatrique et plan de gestion des interactions
-- Clarification du statut réglementaire en France, toutes les AMM étant annulées
+- Clarification du statut réglementaire en France, les 2 AMM sur 2 étant valides
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 477
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Meloxicam : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, arthrose, arthropathie…"
 monitor_inn: "meloxicam"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Meloxicam : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée…"
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Méloxicam : Des Maladies Articulaires Inflammatoires à la Dysplasie Acromésomélique de type Hunter-Thompson
+## Meloxicam: Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **dysplasie a
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, arthrose, arthropathie, arthrite juvénile idiopathique, spondylarthropathie (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 12 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
+| Nombre d'AMM | 12 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **dysplasie a
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le méloxicam est un inhibiteur préférentiel de la COX-2 : il réduit la synthèse des prostaglandines impliquées dans l'inflammation et la douleur. Son utilité est établie dans les pathologies articulaires inflammatoires et dégénératives.
 
-La dysplasie acromésomélique de type Hunter-Thompson est une maladie squelettique rare, due à des variants de perte de fonction du gène GDF5 (voie de signalisation BMP). Le méloxicam n'agit pas sur cette voie. Le score élevé du modèle reflète vraisemblablement une proximité dans le graphe de connaissances avec les atteintes articulaires, et non une justification biologique.
+La dysplasie acromésomélique de type Hunter-Thompson est une maladie squelettique rare, due à des variants de perte de fonction du gène GDF5 (voie de signalisation BMP). Le méloxicam n'agit pas sur cette voie. Le score élevé du modèle TxGNN (deep learning) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Au mieux, un AINS pourrait soulager symptomatiquement les douleurs articulaires, sans modifier la dysplasie sous-jacente. La prédiction doit donc être considérée comme purement hypothétique.
 
@@ -81,15 +81,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 12 AMM recensées sont toutes annulées ; aucune n'est valide actuellement. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières AMM sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières AMM sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63922803 | MELOXICAM TEVA 15 mg, comprimé sécable | Comprimé sécable | Annulée |
-| 64115225 | MELOXICAM ZENTIVA 15 mg, comprimé sécable | Comprimé sécable | Annulée |
-| 65855762 | MELOXICAM ZENTIVA 7,5 mg, comprimé | Comprimé | Annulée |
-| 67044235 | MOBIC 7,5 mg, comprimé | Comprimé | Annulée |
-| 60330522 | MELOXICAM BIOGARAN 15 mg, comprimé sécable | Comprimé sécable | Annulée |
+| 63922803 | MELOXICAM TEVA 15 mg, comprimé sécable | Comprimé sécable | Active |
+| 64115225 | MELOXICAM ZENTIVA 15 mg, comprimé sécable | Comprimé sécable | Active |
+| 65855762 | MELOXICAM ZENTIVA 7,5 mg, comprimé | Comprimé | Active |
+| 67044235 | MOBIC 7,5 mg, comprimé | Comprimé | Active |
+| 60330522 | MELOXICAM BIOGARAN 15 mg, comprimé sécable | Comprimé sécable | Active |
 
 ---
 
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans lien mécanistique plausible entre l'inhibition de la COX-2 et la voie GDF5/BMP.
-- Toutes les AMM françaises sont annulées, et le profil de risque cardiovasculaire, rénal et digestif des AINS pèse sur toute extension.
+- Le médicament est commercialisé en France (11 AMM valides sur 12), et le profil de risque cardiovasculaire, rénal et digestif des AINS pèse sur toute extension.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action du méloxicam.

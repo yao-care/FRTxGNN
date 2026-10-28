@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**angor de Prinzme
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM (anesthésie générale par inhalation d'après la nature du produit) |
 | Nouvelle Indication Prédite | Angor de Prinzmetal |
-| Score de Prédiction TxGNN | 99,78 % |
+| Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM non valide) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -85,7 +85,7 @@ Aucune littérature associée n'est disponible actuellement pour l'angor de Prin
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 67329056 | SEVOFLURANE BAXTER 1 ml/ml, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | Non renseignée | Annulée |
+| 67329056 | SEVOFLURANE BAXTER 1 ml/ml, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | Non renseignée | Active |
 
 ---
 

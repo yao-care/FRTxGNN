@@ -47,17 +47,17 @@ Le modèle TxGNN prédit qu'ils pourraient être efficaces pour l'**hypotrichose
 |------|------|
 | Indication Originale | Non renseignée dans les données de l'AMM |
 | Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
-| Score de Prédiction TxGNN | 99,29 % |
+| Score de Prédiction TxGNN | 0,9929 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, les sennosides sont des glycosides d'anthraquinones dont le métabolite, la rhéinanthrone, stimule la motilité colique et la sécrétion de liquide dans le côlon. Ils sont très peu absorbés par voie systémique.
 
-**Aucun lien mécanistique plausible n'est établi** entre cette pharmacologie et la biologie du follicule pileux ou la base génétique de l'hypotrichose héréditaire. Le score élevé (0,993) reflète une prédiction du modèle fondée sur la proximité dans un graphe de connaissances, et non un mécanisme validé.
+**Aucun lien mécanistique plausible n'est établi** entre cette pharmacologie et la biologie du follicule pileux ou la base génétique de l'hypotrichose héréditaire. Le score élevé (0,9929) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du modèle vont dans le même sens et ne sont pas davantage étayées : hypotrichose congénitale avec milia, alopécie areata diffuse, alopécie, ainsi que glaucome à angle ouvert et glaucome héréditaire primaire. Pour l'alopécie areata (maladie auto-immune à médiation lymphocytaire T), aucune activité immunomodulatrice des sennosides n'est documentée. Pour les glaucomes, la physiopathologie (résistance à l'écoulement de l'humeur aqueuse, dégénérescence des cellules ganglionnaires) n'a aucun rapport avec le mécanisme des sennosides. Toutes ces prédictions sont de niveau L5, sans essai ni publication.
 
@@ -73,7 +73,7 @@ Aucune littérature associée n'est disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69149943 | PURSENNIDE 20 mg, comprimé enrobé (HALEON FRANCE) | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 69149943 | PURSENNIDE 20 mg, comprimé enrobé (HALEON FRANCE) | Comprimé enrobé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

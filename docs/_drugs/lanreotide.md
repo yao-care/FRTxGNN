@@ -6,9 +6,9 @@ nav_order: 435
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lanreotide : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Acromégalie"
 monitor_inn: "lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
+description: "Lanreotide : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lanreotide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Lanréotide : De l'Acromégalie à l'Hypertrichose
+## Lanreotide: Hypertrichose (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,30 +45,30 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertrichose*
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Acromégalie (texte d'indication des AMM non renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypertrichose |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 6 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la lanréotide fait partie des analogues de la somatostatine ; elle agit sur les récepteurs SSTR2 et SSTR5 pour freiner la sécrétion de l'hormone de croissance (GH) et de l'IGF-1, ce qui explique son efficacité dans l'acromégalie.
 
-Un lien spéculatif pourrait exister : une baisse de la signalisation GH/IGF-1 pourrait influencer la croissance du follicule pileux. Toutefois, cette hypothèse n'est étayée par aucune donnée compilée pour ce rapport. Il faut aussi noter que l'hypertrichose est un effet indésirable connu de certains médicaments : l'association prédite reflète peut-être la topologie du graphe de connaissances plutôt qu'un bénéfice thérapeutique réel.
+Un lien spéculatif pourrait exister : une baisse de la signalisation GH/IGF-1 pourrait influencer la croissance du follicule pileux. Toutefois, cette hypothèse n'est étayée par aucune donnée compilée pour ce rapport. Il faut aussi noter que l'hypertrichose est un effet indésirable connu de certains médicaments : le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un bénéfice thérapeutique réel.
 
 **Autres prédictions du modèle (toutes de niveau L5, sans aucune preuve clinique ni bibliographique) :**
 
 | Rang | Maladie prédite | Score TxGNN |
 |------|------|------|
-| 2 | Syndrome malformatif avec atteinte dentaire et/ou parodontale | 99,96 % |
-| 3 | Syndrome avec malformation de Dandy-Walker comme caractéristique majeure | 99,96 % |
-| 4 | Anomalie génétique isolée de la tige pilaire | 99,96 % |
-| 5 | Hypertrichose universelle congénitale de type Ambras | 99,96 % |
+| 2 | Syndrome malformatif avec atteinte dentaire et/ou parodontale | 0,9996 |
+| 3 | Syndrome avec malformation de Dandy-Walker comme caractéristique majeure | 0,9996 |
+| 4 | Anomalie génétique isolée de la tige pilaire | 0,9996 |
+| 5 | Hypertrichose universelle congénitale de type Ambras | 0,9996 |
 
-Pour ces prédictions, aucune voie mécanistique plausible n'a pu être établie à partir des données disponibles. Il s'agit probablement d'associations liées à des nœuds géniques ou phénotypiques partagés dans le graphe.
+Pour ces prédictions, aucune voie mécanistique plausible n'a pu être établie à partir des données disponibles. Les scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -80,7 +80,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 6 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
 |---------|------|------|-----------|
@@ -102,7 +102,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un mécanisme peu plausible. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un mécanisme peu plausible. De plus, le médicament est commercialisé en France (6 AMM valides sur 6), mais les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications)

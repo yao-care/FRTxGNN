@@ -6,9 +6,9 @@ nav_order: 639
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prucalopride : nouvelle indication prédite, Hypoalphalipoprotéinémie (niveau de preuve L5). Indication d'origine : Constipation"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
+description: "Prucalopride : nouvelle indication prédite, Hypoalphalipoprotéinémie (hypoalphalipoproteinemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Prucalopride
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Prucalopride : De la constipation à l'hypoalphalipoprotéinémie
+## Prucalopride: Hypoalphalipoprotéinémie (hypoalphalipoproteinemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypoalphalipop
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Constipation (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypoalphalipoprotéinémie |
-| Score de Prédiction TxGNN | 99,82 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypoalphalipoprotéinémie (hypoalphalipoproteinemia) |
+| Score de Prédiction TxGNN | 0.9982 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **Cette prédiction n'est pas étayée mécanistiquement.** Aucun lien crédible n'est identifié entre l'agonisme 5-HT4 et le métabolisme des HDL ou la régulation de l'ApoA-I. Le score élevé du modèle TxGNN est une prédiction purement computationnelle, sans essai ni publication à l'appui. La similarité avec l'indication d'origine n'a pas été évaluée.
 
-Pour information, les autres prédictions du modèle ne sont pas mieux soutenues. Les plus proches d'une logique symptomatique sont l'amylose (score 99,62 %) et l'amylose primaire (99,56 %), où une atteinte digestive peut provoquer une dysmotilité qu'un prokinétique pourrait théoriquement soulager. Il s'agirait d'un effet symptomatique et non d'une modification de la maladie ; ces pistes sont classées « question de recherche » (niveau L4). Les prédictions pour l'hypercholestérolémie familiale homozygote, l'ulcère duodénal, la candidose buccale, la strongyloïdose et l'infection par le VIH ne reposent sur aucun mécanisme plausible.
+Pour information, les autres prédictions du modèle ne sont pas mieux soutenues. Les plus proches d'une logique symptomatique sont l'amylose (score 0,9962) et l'amylose primaire (0,9956), où une atteinte digestive peut provoquer une dysmotilité qu'un prokinétique pourrait théoriquement soulager. Il s'agirait d'un effet symptomatique et non d'une modification de la maladie ; ces pistes sont classées « question de recherche » (niveau L4). Les prédictions pour l'hypercholestérolémie familiale homozygote, l'ulcère duodénal, la candidose buccale, la strongyloïdose et l'infection par le VIH ne reposent sur aucun mécanisme plausible.
 
 ## Preuves d'Essais Cliniques
 
@@ -80,10 +80,10 @@ Aucune littérature associée disponible actuellement pour l'hypoalphalipoproté
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69471136 | RESOLOR 1 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
-| 63947653 | RESOLOR 2 mg, comprimé pelliculé (annulée) | Comprimé pelliculé | Non renseignée |
+| 69471136 | RESOLOR 1 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+| 63947653 | RESOLOR 2 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
 
-Les deux AMM, détenues par Takeda Pharmaceuticals International (Irlande), sont annulées : il n'y a actuellement aucune AMM valide en France.
+Le médicament est commercialisé en France : les 2 AMM sont valides (2 sur 2).
 
 ## Considérations de Sécurité
 
@@ -97,7 +97,7 @@ Les mises en garde et contre-indications de la notice ANSM ne sont pas disponibl
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible entre l'agonisme 5-HT4 et le métabolisme des HDL. De plus, aucune AMM n'est actuellement valide en France.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible entre l'agonisme 5-HT4 et le métabolisme des HDL.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice ANSM (mises en garde et contre-indications), actuellement manquante et bloquante pour le dépistage de sécurité

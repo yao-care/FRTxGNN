@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 381
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Hydrocortisone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L5). Indication d'origine : Non précisée dans les textes d'AMM disponibles"
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Hydrocortisone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Hydrocortisone : De l'insuffisance surrénalienne et des maladies inflammatoires à la pelade (alopecia areata)
+## Hydrocortisone: Pelade (alopecia areata)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **pelade (alopecia a
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les textes d'AMM disponibles ; les indications d'origine issues du graphe de connaissances incluent l'insuffisance surrénalienne, la maladie d'Addison, la maladie de Crohn et les maladies auto-immunes |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Pelade (alopecia areata) |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L1 selon le classement automatique, à relativiser (voir ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 15 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
+| Nombre d'AMM | 15 (valides : 15) |
 | Décision Recommandée | Hold |
 
 **Remarque sur le niveau de preuve :** le niveau L1 affiché par le classement automatique repose sur un seul essai de phase 3 de petite taille (41 patients) dans lequel l'hydrocortisone 1 % était le **comparateur** à faible puissance face au clobétasol 0,05 %. Il ne démontre pas l'efficacité de l'hydrocortisone. Les critères stricts (au moins 2 essais de phase 3 menés à terme) ne sont pas remplis ; le niveau réel est plus proche de L3. La décision recommandée est donc prudente.
@@ -87,7 +87,7 @@ Plusieurs autres publications (injections intralésionnelles d'hydrocortisone de
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées. Les textes d'indication ne sont pas disponibles dans les données compilées.
+Le médicament est commercialisé : 15 AMM valides sur 15. Les textes d'indication ne sont pas disponibles dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -119,7 +119,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 - Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, ce qui est bloquant pour le criblage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Identifier ou conduire des essais comparant l'hydrocortisone à un placebo ou à un traitement actif dans la pelade, avec une formulation et une voie d'administration définies (topique ou intralésionnelle).
-- Clarifier la compatibilité de la voie d'administration et la situation réglementaire, toutes les AMM étant annulées.
+- Clarifier la compatibilité de la voie d'administration et la situation réglementaire (médicament commercialisé, 15 AMM valides sur 15).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

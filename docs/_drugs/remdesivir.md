@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Remdesivir
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 659
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Remdesivir : nouvelle indication prédite, Infection par le VIH (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "remdesivir"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
+description: "Remdesivir : nouvelle indication prédite, Multiple endocrine neoplasia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Remdesivir
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Remdesivir : De l'infection à SARS-CoV-2 à l'infection par le VIH (prédiction du modèle)
+## Remdesivir: Multiple endocrine neoplasia
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -42,7 +42,7 @@ Remdesivir est un antiviral analogue nucléotidique à large spectre, commercial
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le VIH** (deuxième prédiction du classement), avec **1 essai clinique** et **20 publications** associés, mais aucune de ces sources ne démontre une efficacité anti-VIH.
 Le niveau de preuve reste faible : les essais et publications concernent surtout la COVID-19.
 
-> Remarque : la prédiction classée en première position (néoplasie endocrinienne multiple, score de 99,50 %) ne dispose d'aucun essai ni d'aucune publication, et aucun lien mécanistique n'a été identifié. Ce rapport se concentre donc sur la prédiction de rang 2, la seule disposant d'éléments de preuve, même indirects.
+> Remarque : la prédiction classée en première position (néoplasie endocrinienne multiple, score de 0,9950) ne dispose d'aucun essai ni d'aucune publication, et aucun lien mécanistique n'a été identifié. Ce rapport se concentre donc sur la prédiction de rang 2, la seule disposant d'éléments de preuve, même indirects.
 
 ---
 
@@ -50,12 +50,12 @@ Le niveau de preuve reste faible : les essais et publications concernent surtout
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,32 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Multiple endocrine neoplasia |
+| Score de Prédiction TxGNN | 0.9950 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -124,7 +124,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,32 %), mais il repose sur un raisonnement par graphe. Le seul essai disponible est une étude pharmacocinétique chez des volontaires sains et la littérature porte sur la COVID-19 : il n'existe aucune preuve directe d'efficacité dans le VIH (niveau L4, au mieux des éléments mécanistiques indirects). L'AMM française est de plus annulée.
+- Le seul essai disponible est une étude pharmacocinétique chez des volontaires sains et la littérature porte sur la COVID-19 : il n'existe aucune preuve directe d'efficacité dans le VIH (niveau L4, au mieux des éléments mécanistiques indirects). L'AMM française est de plus annulée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications) afin de lever le blocage du criblage de sécurité

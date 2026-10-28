@@ -6,9 +6,9 @@ nav_order: 793
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tropicamide : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Cycloplégie"
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Tropicamide : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tropicamide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Tropicamide : De la cycloplégie au syndrome de la queue de cheval
+## Tropicamide: Syndrome de la queue de cheval (cauda equina syndrome)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Cycloplégie (selon le graphe de connaissances ; le texte des AMM ne précise aucune indication) |
-| Nouvelle Indication Predite | Syndrome de la queue de cheval |
-| Score de Prediction TxGNN | 99,53 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Syndrome de la queue de cheval (cauda equina syndrome) |
+| Score de Prediction TxGNN | 0.9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -60,8 +60,8 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 Le lien hypothétique serait une action antimuscarinique sur l'hyperactivité du détrusor, responsable des troubles vésicaux associés au syndrome de la queue de cheval. Ce raisonnement reste toutefois fragile. Le tropicamide n'existe qu'en formulation ophtalmique, avec une exposition systémique minimale, ce qui rend peu plausible un effet sur la vessie ou le tissu nerveux. De plus, le syndrome de la queue de cheval est avant tout une urgence chirurgicale (décompression) : un antimuscarinique ne pourrait au mieux traiter qu'un symptôme, pas la compression sous-jacente.
 
 Les deux autres prédictions du modèle vont dans le même sens, avec les mêmes limites :
-- **Vessie neurogène** (terme signalé comme obsolète dans l'ontologie, à reclasser vers un terme actuel) : score de 99,13 %. Des antimuscariniques établis (oxybutynine, toltérodine) existent déjà et sont bien plus plausibles que le tropicamide.
-- **Syndrome de l'intestin irritable** : score de 99,12 %. Des antispasmodiques approuvés (dicyclomine, hyoscyamine) couvrent déjà ce besoin.
+- **Vessie neurogène** (terme signalé comme obsolète dans l'ontologie, à reclasser vers un terme actuel) : score de 0,9913. Des antimuscariniques établis (oxybutynine, toltérodine) existent déjà et sont bien plus plausibles que le tropicamide.
+- **Syndrome de l'intestin irritable** : score de 0,9912. Des antispasmodiques approuvés (dicyclomine, hyoscyamine) couvrent déjà ce besoin.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,10 +75,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 62915154 | MYDRIATICUM 0,5 POUR CENT, collyre (THEA) | Collyre | Non renseignée (AMM annulée) |
-| 64029712 | MYDRIATICUM 2 mg/0,4 ml, collyre en récipient unidose (THEA) | Collyre | Non renseignée (AMM annulée) |
-| 67423452 | MYDRIASERT, insert ophtalmique (THEA) | Insert ophtalmique | Non renseignée (AMM annulée) |
-| 65082408 | MYDRANE 0,2 mg/ml + 3,1 mg/ml + 10 mg/ml, solution injectable (THEA) | Solution injectable | Non renseignée (AMM annulée) |
+| 62915154 | MYDRIATICUM 0,5 POUR CENT, collyre (THEA) | Collyre | Non renseignée (AMM active) |
+| 64029712 | MYDRIATICUM 2 mg/0,4 ml, collyre en récipient unidose (THEA) | Collyre | Non renseignée (AMM active) |
+| 67423452 | MYDRIASERT, insert ophtalmique (THEA) | Insert ophtalmique | Non renseignée (AMM active) |
+| 65082408 | MYDRANE 0,2 mg/ml + 3,1 mg/ml + 10 mg/ml, solution injectable (THEA) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considerations de Securite
 

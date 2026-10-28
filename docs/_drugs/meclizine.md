@@ -6,9 +6,9 @@ nav_order: 476
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Meclizine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L5). Indication d'origine : Vertige d'origine centrale"
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
+description: "Meclizine : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Meclizine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Méclozine : Du Vertige d'Origine Centrale à l'Urticaire Allergique
+## Meclizine: Urticaire allergique (allergic urticaria)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**urticaire allergi
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Vertige d'origine centrale ; mal des transports (selon le graphe de connaissances TxGNN, le texte de l'AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Urticaire allergique |
-| Score de Prédiction TxGNN | 99,67 % |
-| Niveau de Preuve | L4 (argument mécanistique indirect lié à la classe pharmacologique ; aucune étude spécifique à la méclozine) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Urticaire allergique (allergic urticaria) |
+| Score de Prédiction TxGNN | 0.9967 |
+| Niveau de Preuve | L5 (argument mécanistique indirect lié à la classe pharmacologique ; aucune étude spécifique à la méclozine) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la méclozine est un antihistaminique H1 de première génération doté d'une activité anticholinergique centrale. Son efficacité dans le vertige et le mal des transports repose sur cette action centrale.
 
-L'urticaire allergique est une affection médiée par l'histamine, et le blocage des récepteurs H1 est le mécanisme établi du soulagement symptomatique. La prédiction est donc plausible par effet de classe. Le même raisonnement s'applique à l'urticaire au froid, également prédite (score de 99,22 %), pour laquelle les antihistaminiques H1 sont le traitement de première intention.
+L'urticaire allergique est une affection médiée par l'histamine, et le blocage des récepteurs H1 est le mécanisme établi du soulagement symptomatique. La prédiction est donc plausible par effet de classe. Le même raisonnement s'applique à l'urticaire au froid, également prédite (score de 0,9922), pour laquelle les antihistaminiques H1 sont le traitement de première intention.
 
 Toutefois, cet appui est indirect : il est extrapolé d'autres antihistaminiques H1. Les antihistaminiques de seconde génération, recommandés par les lignes directrices, sont déjà disponibles et mieux tolérés (moins de sédation et d'effets anticholinergiques). Cela limite l'intérêt pratique de repositionner la méclozine.
 
@@ -65,11 +65,11 @@ Toutefois, cet appui est indirect : il est extrapolé d'autres antihistaminiques
 
 | Indication Prédite | Score TxGNN | Niveau de Preuve | Recommandation |
 |------|------|------|------|
-| Rhume | 99,49 % | L4 | Hold |
-| Maladie de la cavité nasale | 99,48 % | L5 | Hold |
-| Pharyngite | 99,45 % | L5 | Hold |
-| Laryngopharyngite aiguë | 99,37 % | L5 | Hold |
-| Urticaire au froid | 99,22 % | L4 | Research Question |
+| Rhume | 0,9949 | L5 | Hold |
+| Maladie de la cavité nasale | 0,9948 | L5 | Hold |
+| Pharyngite | 0,9945 | L5 | Hold |
+| Laryngopharyngite aiguë | 0,9937 | L5 | Hold |
+| Urticaire au froid | 0,9922 | L5 | Research Question |
 
 Pour le rhume, l'effet attendu est uniquement symptomatique et modeste (rhinorrhée, éternuements), et il est contrebalancé par la sédation et les effets anticholinergiques. Pour la pharyngite et la laryngopharyngite, l'assèchement des muqueuses pourrait être contre-productif. L'indication « maladie de la cavité nasale » est trop vague pour être évaluée.
 
@@ -85,7 +85,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60456535 | AGYRAX, comprimé sécable (GEN.ORPH) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 60456535 | AGYRAX, comprimé sécable (GEN.ORPH) | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

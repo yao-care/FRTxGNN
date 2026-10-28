@@ -6,9 +6,9 @@ nav_order: 746
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Terlipressin : nouvelle indication prédite, Hypertension pulmonaire (candidate présentant le plus de littérature… (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
+description: "Terlipressin : nouvelle indication prédite, Open-angle glaucoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Terlipressin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Terlipressine : D'une indication d'origine non renseignée à l'Hypertension Pulmonaire
+## Terlipressin: Open-angle glaucoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hypertension pulm
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM |
-| Nouvelle Indication Prédite | Hypertension pulmonaire (candidate présentant le plus de littérature parmi les 7 prédictions ; la première prédiction du modèle, le glaucome à angle ouvert, n'est étayée par aucune donnée) |
-| Score de Prédiction TxGNN | 99,56 % (hypertension pulmonaire) ; 99,78 % pour le glaucome à angle ouvert, classé en tête |
-| Niveau de Preuve | L4 (hypertension pulmonaire) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Open-angle glaucoma |
+| Score de Prédiction TxGNN | 0.9978 |
+| Niveau de Preuve | L5 (hypertension pulmonaire) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'hypothèse pour l'hypertension pulmonaire repose sur un effet potentiellement différentiel de la terlipressine sur les lits vasculaires pulmonaire et systémique. Chez des patients cirrhotiques atteints d'hypertension pulmonaire, de petites études physiologiques rapportent une pression pulmonaire améliorée ou neutre, alors que d'autres vasoconstricteurs peuvent l'aggraver. Cette piste reste hypothétique : aucun essai randomisé ne la confirme.
 
-À noter : les autres prédictions (glaucomes, ésotropie, cardiopathie cyphoscoliotique, céphalées) ne reposent sur aucun mécanisme plausible et ressemblent à des artefacts du graphe de connaissances. Pour le glaucome, la vasoconstriction pourrait même, en théorie, nuire à la perfusion oculaire.
+Pour le glaucome, la vasoconstriction pourrait même, en théorie, nuire à la perfusion oculaire.
 
 ## Preuves d'Essais Cliniques
 
@@ -83,14 +83,14 @@ Les publications les plus pertinentes pour l'hypertension pulmonaire sont listé
 
 ## Informations de Marché en France
 
-Les quatre AMM identifiées sont annulées ; aucune n'est actuellement valide. Le texte des indications approuvées n'est pas disponible.
+Le texte des indications approuvées n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69243168 | Acétate de terlipressine Ever Pharma 0,2 mg/ml | Solution injectable | Annulée |
-| 69541549 | Terlipressine SUN 1 mg/8,5 mL | Solution injectable | Annulée |
-| 61929560 | Glypressine 1 mg/5 mL (Ferring) | Poudre et solvant pour solution injectable (I.V.) | Annulée |
-| 68819052 | Terlipressine Altan 1 mg/8,5 mL | Solution injectable | Annulée |
+| 69243168 | Acétate de terlipressine Ever Pharma 0,2 mg/ml | Solution injectable | Active |
+| 69541549 | Terlipressine SUN 1 mg/8,5 mL | Solution injectable | Active |
+| 61929560 | Glypressine 1 mg/5 mL (Ferring) | Poudre et solvant pour solution injectable (I.V.) | Active |
+| 68819052 | Terlipressine Altan 1 mg/8,5 mL | Solution injectable | Active |
 
 ## Considérations de Sécurité
 
@@ -104,7 +104,6 @@ Les données de sécurité issues de la notice (mises en garde, contre-indicatio
 
 **Justification :**
 - Le niveau de preuve est L4 pour l'hypertension pulmonaire : uniquement de petites études physiologiques et des cas cliniques, sans essai enregistré ni essai randomisé. Les autres prédictions, dont celle du glaucome classée en tête, sont de niveau L5 (prédiction du modèle seule).
-- Les données de sécurité de la notice sont manquantes (lacune bloquante) et toutes les AMM françaises sont annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser les notices de l'ANSM (mises en garde et contre-indications) afin de lever la lacune bloquante de sécurité

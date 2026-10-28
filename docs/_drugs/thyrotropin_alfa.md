@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 757
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Thyrotropin Alfa : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "thyrotropin alfa"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 ## Résumé en Une Phrase
 
 La thyrotropine alfa (THYROGEN) est une forme recombinante de la TSH (hormone thyréotrope). Les données compilées pour ce rapport ne précisent pas son indication d'origine dans l'AMM française.
-Le modèle TxGNN la prédit comme potentiellement efficace pour la **migraine** (score de 99,98 %), mais **aucun essai clinique ni aucune publication** ne soutient cette direction.
+Le modèle TxGNN la prédit comme potentiellement efficace pour la **migraine** (score de 0,9998), mais **aucun essai clinique ni aucune publication** ne soutient cette direction.
 
 ## Aperçu Rapide
 
@@ -47,22 +47,22 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour la **migraine** 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM disponibles |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,98 % |
+| Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la thyrotropine alfa est une TSH recombinante qui agit sur le récepteur de la TSH (TSHR) du tissu thyroïdien. Elle est utilisée comme agent de stimulation en contexte de diagnostic et de suivi thyroïdien.
 
-**En l'état, la prédiction n'est pas plausible sur le plan biologique.** Aucun lien mécanistique établi n'existe entre la stimulation du récepteur de la TSH et la migraine. Le score élevé reflète vraisemblablement une proximité dans le graphe de connaissances (voisins communs via des nœuds thyroïdiens, vasculaires ou neuroendocriniens) plutôt qu'une preuve biologique. L'indication d'origine et le mécanisme n'étant pas documentés, la prédiction ne peut pas être vérifiée mécanistiquement.
+**En l'état, la prédiction n'est pas plausible sur le plan biologique.** Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. L'indication d'origine et le mécanisme n'étant pas documentés, la prédiction ne peut pas être vérifiée mécanistiquement.
 
 Les autres prédictions du modèle présentent le même problème :
 - **Sous-types de migraine** (migraine avec aura du tronc cérébral, susceptibilité génétique à la migraine) : prédictions corrélées à l'entrée principale, sans valeur de preuve indépendante.
 - **Maladie de Raynaud, hypertension pulmonaire, cardiopathie cyphoscoliotique** : pas de lien direct. Les associations avec les maladies thyroïdiennes sont épidémiologiques et n'impliquent pas d'effet thérapeutique.
-- **Atrophodermie vermiculée, ulérythème ophryogène** : aucun mécanisme identifiable, probable artefact du graphe.
+- **Atrophodermie vermiculée, ulérythème ophryogène** : aucun mécanisme identifiable ; le score du modèle TxGNN (apprentissage profond) peut refléter des similarités apprises entre maladies apparentées, et non une preuve biologique.
 - **Syndrome de tachycardie orthostatique posturale** : la stimulation thyroïdienne pourrait aggraver la tachycardie.
 - **Hyperthyroïdie** : biologiquement contradictoire, car la thyrotropine alfa augmente la production d'hormones thyroïdiennes et pourrait aggraver la maladie.
 

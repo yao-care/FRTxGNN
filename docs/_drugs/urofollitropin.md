@@ -4,17 +4,17 @@ title: Urofollitropin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 799
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Urofollitropin : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignee dans les AMM disponibles (usage connu : stimulation o…"
 monitor_inn: "urofollitropin"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "migraine with or without aura, susceptibility to", "Raynaud disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
 ---
 
 # Urofollitropin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,19 @@ Le modele TxGNN predit qu'elle pourrait etre efficace pour le **trouble migraine
 |------|------|
 | Indication Originale | Non renseignee dans les AMM disponibles (usage connu : stimulation ovarienne) |
 | Nouvelle Indication Predite | Trouble migraineux (migraine disorder) |
-| Score de Prediction TxGNN | 99,85 % |
+| Score de Prediction TxGNN | 0,9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Toutes les AMM sont annulees (aucune AMM valide) |
-| Nombre d'AMM | 4 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
 Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'urofollitropine est une FSH purifiee d'origine urinaire, utilisee pour stimuler la croissance folliculaire lors des traitements de l'infertilite. Son efficacite dans cette indication est etablie, mais aucune action antimigraineuse n'est connue pour la FSH.
 
-Un lien hormonal est concevable : les fluctuations des oestrogenes sont associees a la migraine menstruelle. Cette hypothese reste toutefois speculative. Le score eleve de TxGNN (99,85 %) reflete une proximite dans le graphe de connaissances, non une preuve biologique ou clinique.
+Un lien hormonal est concevable : les fluctuations des oestrogenes sont associees a la migraine menstruelle. Cette hypothese reste toutefois speculative. Le score eleve du modele TxGNN (deep learning) (0,9985) peut refleter des similarites apprises par le modele entre maladies proches, non une preuve biologique ou clinique.
 
-Les autres predictions du classement (migraine avec aura du tronc cerebral, syndrome de la queue de cheval, tachycardie hisienne, syndrome des jambes sans repos, syndrome de tachycardie orthostatique posturale, maladie de Raynaud, etc.) sont egalement sans soutien clinique. Plusieurs sont probablement des artefacts du graphe : doublons du signal migraineux, terme ontologique obsolete, entree de susceptibilite genetique. Dans le cas de la maladie de Raynaud, le risque thromboembolique des gonadotrophines plaide plutot contre l'usage.
+Les autres predictions du classement (migraine avec aura du tronc cerebral, syndrome de la queue de cheval, tachycardie hisienne, syndrome des jambes sans repos, syndrome de tachycardie orthostatique posturale, maladie de Raynaud, etc.) sont egalement sans soutien clinique. Plusieurs sont probablement des artefacts du modele TxGNN (deep learning), qui peut refleter des similarites apprises entre maladies proches : doublons du signal migraineux, terme ontologique obsolete. Dans le cas de la maladie de Raynaud, le risque thromboembolique des gonadotrophines plaide plutot contre l'usage.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,10 +73,10 @@ Aucune litterature associee disponible actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 61166549 | FOSTIMONKIT 75 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM annulee) |
-| 62712912 | FOSTIMONKIT 225 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM annulee) |
-| 69325035 | FOSTIMONKIT 300 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM annulee) |
-| 60549797 | FOSTIMONKIT 150 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM annulee) |
+| 61166549 | FOSTIMONKIT 75 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
+| 62712912 | FOSTIMONKIT 225 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
+| 69325035 | FOSTIMONKIT 300 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
+| 60549797 | FOSTIMONKIT 150 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
 
 ## Considerations de Securite
 

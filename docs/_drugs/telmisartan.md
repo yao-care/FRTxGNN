@@ -4,17 +4,17 @@ title: Telmisartan
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 734
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Telmisartan : nouvelle indication prédite, Occlusion des artères cérébrales (rang 4 de TxGNN) (niveau de preuve L5). Indication d'origine : Hypertension artérielle, accident vasculaire cérébral…"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+description: "Telmisartan : nouvelle indication prédite, Prinzmetal angina (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Telmisartan : De l'hypertension artérielle à l'occlusion des artères cérébrales
+## Telmisartan: Prinzmetal angina
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -41,17 +41,17 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 Telmisartan est un antagoniste des récepteurs de l'angiotensine II (sartan), initialement utilisé pour traiter l'hypertension artérielle et réduire le risque d'accident vasculaire cérébral.
 Le modèle TxGNN prédit en premier rang la **angine de Prinzmetal** (score le plus élevé), mais sans aucune preuve associée. Parmi les 10 indications prédites, la plus documentée sur le plan préclinique est l'**occlusion des artères cérébrales** (**3 essais cliniques**, **17 publications**, presque toutes précliniques) ; la plus solide sur le plan clinique est l'**hémorragie intracérébrale**, via l'essai de phase 3 TRIDENT (association de trois antihypertenseurs en une pilule).
 
-> **Remarque :** Le classement TxGNN place l'angine de Prinzmetal en tête (99,98 %), mais aucun essai ni publication n'a été retrouvé pour elle. Ce rapport présente donc l'ensemble des indications prédites, en détaillant celles qui disposent de preuves. L'occlusion des artères cérébrales a été retenue pour le titre car elle est la mieux documentée sur le plan préclinique, tout en restant une prédiction au niveau de preuve limité.
+> **Remarque :** Le classement TxGNN place l'angine de Prinzmetal en tête (0,9998), mais aucun essai ni publication n'a été retrouvé pour elle. Ce rapport présente donc l'ensemble des indications prédites, en détaillant celles qui disposent de preuves. L'occlusion des artères cérébrales a été retenue pour le titre car elle est la mieux documentée sur le plan préclinique, tout en restant une prédiction au niveau de preuve limité.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle, accident vasculaire cérébral, infarctus cérébral (le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Occlusion des artères cérébrales (rang 4 de TxGNN) |
-| Score de Prédiction TxGNN | 99,95 % |
-| Niveau de Preuve | L3 (preuves essentiellement précliniques, soutien clinique indirect) |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Prinzmetal angina |
+| Score de Prédiction TxGNN | 0.9998 |
+| Niveau de Preuve | L5 (preuves essentiellement précliniques, soutien clinique indirect) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -59,16 +59,16 @@ Le modèle TxGNN prédit en premier rang la **angine de Prinzmetal** (score le p
 
 | Rang | Indication prédite | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|---|
-| 1 | Angine de Prinzmetal | 99,98 % | L5 | Hold |
-| 2 | Infarctus du tronc cérébral | 99,98 % | L5 | Hold |
-| 3 | Amyloïdose ABri | 99,97 % | L5 | Hold |
-| 4 | Occlusion des artères cérébrales | 99,95 % | L3 | Question de recherche |
-| 5 | Hypertension pulmonaire d'origine multifactorielle peu claire | 99,93 % | L5 | Hold |
-| 6 | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie | 99,93 % | L4 | Hold |
-| 7 | Néphropathie hypertensive maligne | 99,93 % | L5 | Hold |
-| 8 | Hypertension rénovasculaire maligne | 99,93 % | L5 | Hold |
-| 9 | Hémorragie intracérébrale | 99,93 % | L2 | Question de recherche |
-| 10 | Syndrome de Braddock | 99,92 % | L5 | Hold |
+| 1 | Angine de Prinzmetal | 0,9998 | L5 | Hold |
+| 2 | Infarctus du tronc cérébral | 0,9998 | L5 | Hold |
+| 3 | Amyloïdose ABri | 0,9997 | L5 | Hold |
+| 4 | Occlusion des artères cérébrales | 0,9995 | L3 | Question de recherche |
+| 5 | Hypertension pulmonaire d'origine multifactorielle peu claire | 0,9993 | L5 | Hold |
+| 6 | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie | 0,9993 | L5 | Hold |
+| 7 | Néphropathie hypertensive maligne | 0,9993 | L5 | Hold |
+| 8 | Hypertension rénovasculaire maligne | 0,9993 | L5 | Hold |
+| 9 | Hémorragie intracérébrale | 0,9993 | L5 | Question de recherche |
+| 10 | Syndrome de Braddock | 0,9992 | L5 | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -129,13 +129,12 @@ Les publications retrouvées sont surtout précliniques (modèles murins d'hypox
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67169534 | TELMISARTAN TEVA SANTE 40 mg | comprimé | Non renseignée (AMM annulée) |
-| 69536527 | TELMISARTAN EG 80 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62260706 | TELMISARTAN VIATRIS 80 mg | comprimé | Non renseignée (AMM annulée) |
-| 65179106 | TELMISARTAN BIOGARAN 40 mg | comprimé | Non renseignée (AMM annulée) |
-| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM annulée) |
+| 67169534 | TELMISARTAN TEVA SANTE 40 mg | comprimé | Non renseignée (AMM active) |
+| 69536527 | TELMISARTAN EG 80 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 62260706 | TELMISARTAN VIATRIS 80 mg | comprimé | Non renseignée (AMM active) |
+| 65179106 | TELMISARTAN BIOGARAN 40 mg | comprimé | Non renseignée (AMM active) |
+| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées, toutes annulées ; aucune n'est actuellement valide.
 
 ## Considérations de Sécurité
 
@@ -152,7 +151,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Pour l'occlusion des artères cérébrales, les preuves sont presque exclusivement précliniques, sans essai humain spécifique ; pour l'hémorragie intracérébrale, l'essai TRIDENT est encourageant mais ne permet pas d'isoler l'effet de telmisartan. Les autres indications prédites n'ont aucune preuve (L5). De plus, toutes les AMM françaises sont annulées.
+- Pour l'occlusion des artères cérébrales, les preuves sont presque exclusivement précliniques, sans essai humain spécifique ; pour l'hémorragie intracérébrale, l'essai TRIDENT est encourageant mais ne permet pas d'isoler l'effet de telmisartan. Les autres indications prédites n'ont aucune preuve (L5).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice de l'ANSM (lacune bloquante pour le dépistage de sécurité)

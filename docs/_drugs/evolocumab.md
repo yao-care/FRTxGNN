@@ -6,9 +6,9 @@ nav_order: 312
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Evolocumab : nouvelle indication prédite, Forme symptomatique de l'hémophilie chez les porteuses (niveau de preuve L5). Indication d'origine : Hypercholestérolémie familiale homozygote"
 monitor_inn: "evolocumab"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
+description: "Evolocumab : nouvelle indication prédite, Forme symptomatique de l'hémophilie chez les porteuses (symptomatic form of hemophilia in female carriers) (niveau de preuve L5). Indication d'origine : Non …"
 ---
 
 # Evolocumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Evolocumab : De l'Hypercholestérolémie Familiale Homozygote à l'Hémophilie Symptomatique chez les Porteuses
+## Evolocumab: Forme symptomatique de l'hémophilie chez les porteuses (symptomatic form of hemophilia in female carriers)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **forme symptomat
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypercholestérolémie familiale homozygote ; dyslipidémie syndromique (le texte d'indication de l'AMM n'est pas renseigné ; les indications proviennent du graphe de connaissances) |
-| Nouvelle Indication Prédite | Forme symptomatique de l'hémophilie chez les porteuses |
-| Score de Prédiction TxGNN | 99,82 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Forme symptomatique de l'hémophilie chez les porteuses (symptomatic form of hemophilia in female carriers) |
+| Score de Prédiction TxGNN | 0.9982 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **forme symptomat
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, evolocumab est un anticorps monoclonal qui inhibe PCSK9, augmente la disponibilité des récepteurs du LDL et abaisse le LDL-cholestérol. Son efficacité dans l'hypercholestérolémie familiale est établie.
 
-**Le lien mécanistique avec la nouvelle indication est très faible, voire inexistant.** Les symptômes hémorragiques des porteuses d'hémophilie résultent d'une activité réduite du facteur VIII ou IX, liée à des variants portés par le chromosome X et à une inactivation biaisée de ce chromosome. L'inhibition de PCSK9 n'agit pas sur la cascade de coagulation. Le score élevé du modèle (0,998) reflète uniquement une proximité dans le graphe de connaissances, sans support clinique ou bibliographique.
+**Le lien mécanistique avec la nouvelle indication est très faible, voire inexistant.** Les symptômes hémorragiques des porteuses d'hémophilie résultent d'une activité réduite du facteur VIII ou IX, liée à des variants portés par le chromosome X et à une inactivation biaisée de ce chromosome. L'inhibition de PCSK9 n'agit pas sur la cascade de coagulation. Le score élevé du modèle TxGNN (deep learning) (0.9982) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, sans support clinique ou bibliographique.
 
 À titre de comparaison, les autres prédictions du modèle (déficit en apolipoprotéine C-II, purpura thrombopénique, déficit en facteur XI, hémophilie A avec anomalie vasculaire, « maladie de l'activité catalytique ») ne disposent pas non plus de preuves. Seul le déficit en apoC-II présente un lien indirect, limité au métabolisme lipidique en général.
 
@@ -83,7 +83,7 @@ Aucune littérature associée n'est disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60966449 | REPATHA 140 mg, solution injectable en stylo prérempli (AMGEN EUROPE) | Solution injectable | Non renseignée (AMM annulée) |
+| 60966449 | REPATHA 140 mg, solution injectable en stylo prérempli (AMGEN EUROPE) | Solution injectable | Non renseignée (AMM active) |
 
 ---
 

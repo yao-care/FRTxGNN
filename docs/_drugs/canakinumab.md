@@ -4,17 +4,17 @@ title: Canakinumab
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 133
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Canakinumab : nouvelle indication prédite, Infarctus hépatique (niveau de preuve L5). Indication d'origine : Syndromes périodiques associés à la cryopyrine…"
+indication_count: 9
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
+last_modified_at: 2026-10-27
+description: "Canakinumab : nouvelle indication prédite, Infarctus hépatique (hepatic infarction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Canakinumab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,68 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Canakinumab : Des syndromes périodiques associés à la cryopyrine à l'infarctus hépatique
+## Canakinumab : inhibiteur de l'interleukine-1β → infarctus hépatique (hepatic infarction)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Le canakinumab est un anticorps monoclonal anti-interleukine-1β, initialement utilisé dans les syndromes auto-inflammatoires périodiques (syndromes périodiques associés à la cryopyrine, arthrite juvénile idiopathique systémique, fièvre méditerranéenne familiale, déficit en mévalonate kinase) et la goutte.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infarctus hépatique**.
-À ce jour, **aucun essai clinique** et **aucune publication** ne soutiennent cette direction : il s'agit d'une prédiction du modèle uniquement.
+Le canakinumab est un anticorps monoclonal dirigé contre l'interleukine-1β (IL-1β), un médiateur central de l'inflammation.
+Le modèle TxGNN prédit qu'il pourrait être utile pour l'**infarctus hépatique (hepatic infarction)**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
----
-
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndromes périodiques associés à la cryopyrine, arthrite juvénile idiopathique (dont forme systémique), fièvre méditerranéenne familiale, déficit en mévalonate kinase, goutte (le texte d'indication de l'AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Infarctus hépatique |
-| Score de Prédiction TxGNN | 99,86 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ AMM annulée uniquement |
-| Nombre d'AMM | 1 |
-| Décision Recommandée | Hold |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Infarctus hépatique (hepatic infarction) |
+| Score de prédiction TxGNN | 0,9986 |
+| Niveau de preuve | L5 |
+| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
+| Décision recommandée | Hold |
 
----
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le canakinumab neutralise l'IL-1β, une cytokine pro-inflammatoire.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le canakinumab neutralise sélectivement l'IL-1β, une cytokine centrale de l'inflammation. Son efficacité est établie dans plusieurs maladies auto-inflammatoires.
+Une hypothèse purement spéculative serait que l'inflammation dépendante de l'IL-1β après une lésion ischémique contribue aux dégâts tissulaires hépatiques, et que son blocage pourrait en limiter l'ampleur. Aucune donnée fournie ne confirme ce lien.
 
-Une hypothèse purement spéculative serait que l'inflammation dépendante de l'IL-1β après une lésion ischémique du foie puisse être modulée par cet anticorps. Aucune donnée fournie ne la confirme. Le lien entre les indications d'origine (maladies auto-inflammatoires héréditaires) et l'infarctus hépatique (lésion vasculaire ischémique) reste à établir. Le score élevé du modèle (99,86 %) ne remplace pas une preuve clinique ou préclinique.
+La prédiction repose donc uniquement sur le score du modèle. Elle doit être considérée comme une piste de recherche à valider, et non comme un résultat étayé par des preuves cliniques ou mécanistiques.
 
----
-
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
-## Preuves de la Littérature
+## Preuves de la littérature
 
 Aucune littérature associée disponible actuellement.
 
----
+## Informations de marché en France
 
-## Informations de Marché en France
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 69541570 | ILARIS 150 mg/ml, solution injectable (NOVARTIS EUROPHARM, Irlande) | Solution injectable | Non renseignée (AMM annulée) |
+| 69541570 | ILARIS 150 mg/ml, solution injectable | Solution injectable | Non renseignée dans les données locales |
 
----
+## Considérations de sécurité
 
-## Considérations de Sécurité
+**Interactions médicamenteuses** (100 interactions recensées ; principales listées) :
+- **Modérées** : corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, bétaméthasone, budésonide, prednisolone, prednisone), simvastatine, apixaban, rivaroxaban, warfarine, dicoumarol, ibritumomab tiuxétan, tositumomab, iobenguane (I-131).
+- **Mineures** : sels de zinc (acétate, gluconate, sulfate).
 
-Les données de mises en garde et de contre-indications de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour ces informations.
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
-**Interactions Médicamenteuses** : 100 interactions sont recensées. Les principales, de niveau modéré, concernent :
-- les corticoïdes (hydrocortisone, prednisone, prednisolone, dexaméthasone, bétaméthasone, budésonide, triamcinolone) ;
-- la simvastatine ;
-- les anticoagulants (warfarine, apixaban, rivaroxaban, dicoumarol) ;
-- certains radiopharmaceutiques (ibritumomab tiuxétan, tositumomab, iobenguane I-131).
-
-Les sels de zinc (acétate, gluconate, sulfate) présentent des interactions de niveau mineur.
-
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'infarctus hépatique repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et le mécanisme n'est pas documenté.
-- L'AMM française est annulée, ce qui complique tout accès au produit.
+La prédiction pour l'infarctus hépatique n'est soutenue par aucun essai ni aucune publication (niveau L5), et aucun mécanisme documenté ne la corrobore.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données mécanistiques précises (MOA) et justification biologique du rôle de l'IL-1β dans l'infarctus hépatique.
-- Études précliniques ou observationnelles sur l'infarctus hépatique.
-- Mises en garde et contre-indications issues de la notice (ANSM), non disponibles actuellement.
-- Clarification du statut réglementaire et de l'accès au produit en France.
-
-**Remarque :** d'autres prédictions du même modèle sont mieux étayées. La fièvre méditerranéenne familiale autosomique dominante (niveau L1, mais déjà proche d'une indication d'origine) et le syndrome de Blau (niveau L3) méritent une évaluation distincte.
+- Données détaillées sur le mécanisme d'action (MOA) du canakinumab
+- Mises en garde et contre-indications issues de la notice ANSM
+- Données précliniques ou observationnelles reliant l'IL-1β à l'infarctus hépatique
+- Revue de la littérature ciblée sur l'ischémie hépatique et l'inhibition de l'IL-1
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pravastatin
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 623
-evidence_level: L5
-indication_count: 9
+evidence_level: L4
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pravastatin : nouvelle indication prédite, Hypercholestérolémie familiale homozygote (niveau de preuve L5). Indication d'origine : Hypertriglycéridémie, athérosclérose, accident vasculaire cérébral"
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin : nouvelle indication prédite, HIV infectious disease (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L4** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Pravastatine : De l'hypertriglycéridémie et de l'athérosclérose à l'hypercholestérolémie familiale homozygote
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La pravastatine est une statine (inhibiteur de l'HMG-CoA réductase), initialement utilisée pour traiter les dyslipidémies (hypertriglycéridémie, hyperlipoprotéinémie) et prévenir les maladies athéroscléreuses et cérébrovasculaires.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypercholestérolémie familiale homozygote**, mais cette prédiction repose sur des preuves indirectes : **1 essai clinique** et **12 publications** associés, dont aucun ne teste directement la pravastatine dans cette maladie.
 
 ---
 
@@ -47,11 +46,11 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypercholesté
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertriglycéridémie, athérosclérose, accident vasculaire cérébral (texte d'indication de l'AMM non disponible ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | HIV infectious disease |
+| Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L4 (preuves indirectes, aucune étude directe sur la pravastatine) |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -98,13 +97,12 @@ La littérature porte surtout sur d'autres agents hypolipémiants (ézétimibe, 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60097203 | PRAVASTATINE ARROW 10 mg | Comprimé sécable | Non disponible (AMM annulée) |
-| 60270452 | PRAVASTATINE ZENTIVA 40 mg | Comprimé | Non disponible (AMM annulée) |
-| 63964916 | PRAVASTATINE ZENTIVA 20 mg | Comprimé sécable | Non disponible (AMM annulée) |
-| 61624936 | PRAVASTATINE CRISTERS PHARMA 20 mg | Comprimé sécable | Non disponible (AMM annulée) |
-| 69922952 | PRAVASTATINE CRISTERS PHARMA 40 mg | Comprimé sécable | Non disponible (AMM annulée) |
+| 60097203 | PRAVASTATINE ARROW 10 mg | Comprimé sécable | Non disponible (AMM active) |
+| 60270452 | PRAVASTATINE ZENTIVA 40 mg | Comprimé | Non disponible (AMM active) |
+| 63964916 | PRAVASTATINE ZENTIVA 20 mg | Comprimé sécable | Non disponible (AMM active) |
+| 61624936 | PRAVASTATINE CRISTERS PHARMA 20 mg | Comprimé sécable | Non disponible (AMM active) |
+| 69922952 | PRAVASTATINE CRISTERS PHARMA 40 mg | Comprimé sécable | Non disponible (AMM active) |
 
-Au total, 20 AMM sont recensées, toutes annulées ; aucune n'est actuellement valide.
 
 ---
 

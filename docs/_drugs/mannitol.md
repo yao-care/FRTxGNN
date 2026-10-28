@@ -4,17 +4,17 @@ title: Mannitol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 472
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Mannitol : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Œdème cérébral, hypertension intracrânienne, hypertension ocula…"
 monitor_inn: "MANNITOL"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+description: "Mannitol : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) (niveau de preuve L5). Indication d'origine : Non rensei…"
 ---
 
 # Mannitol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Mannitol : Du Œdème Cérébral au Syndrome Néphrogénique d'Antidiurèse Inappropriée
+## Mannitol: Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome n�
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Œdème cérébral, hypertension intracrânienne, hypertension oculaire (données du graphe de connaissances ; aucun texte d'indication d'AMM disponible) |
-| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -85,11 +85,11 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62126714 | MANNITOL 10 % AGUETTANT | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 68274328 | MANNITOL B. BRAUN 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 66972245 | MANNITOL LAVOISIER 20 POUR CENT | Solution pour perfusion | Non renseignée (AMM annulée) |
-| 62093602 | MANNITOL 20 POUR CENT B. BRAUN | Solution injectable hypertonique pour perfusion | Non renseignée (AMM annulée) |
-| 69361469 | MANNITOL BIOSEDRA 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM annulée) |
+| 62126714 | MANNITOL 10 % AGUETTANT | Solution pour perfusion | Non renseignée (AMM active) |
+| 68274328 | MANNITOL B. BRAUN 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM active) |
+| 66972245 | MANNITOL LAVOISIER 20 POUR CENT | Solution pour perfusion | Non renseignée (AMM active) |
+| 62093602 | MANNITOL 20 POUR CENT B. BRAUN | Solution injectable hypertonique pour perfusion | Non renseignée (AMM active) |
+| 69361469 | MANNITOL BIOSEDRA 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM active) |
 
 Au total, 9 AMM sont recensées, toutes annulées ; seules les 5 premières sont présentées ici.
 
@@ -114,7 +114,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, une seule revue générale sans lien direct avec le mannitol, et un mécanisme d'action incompatible avec la physiopathologie (mutations activatrices d'AVPR2).
-- Toutes les AMM françaises sont annulées, et les données de sécurité officielles sont manquantes.
+- Les 9 AMM françaises sont valides (9 sur 9) et le médicament est commercialisé, mais les données de sécurité officielles sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA) du mannitol

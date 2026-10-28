@@ -48,21 +48,21 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5).
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Cholangite sclérosante |
-| Score de Prédiction TxGNN | 99,94 % |
+| Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le cidofovir est un analogue nucléotidique inhibiteur de l'ADN polymérase virale, actif contre des virus à ADN (CMV, adénovirus, HPV). Son indication d'origine n'étant pas renseignée dans les données d'AMM, la relation avec la nouvelle indication ne peut pas être établie à partir de ces données.
 
-Le lien mécanistique avec la cholangite sclérosante n'est pas étayé. Une connexion théorique ténue existe via les cholangiopathies associées au SIDA ou à une infection virale (CMV), mais elle n'est démontrée par aucune donnée fournie. Le score élevé (0,999) est une prédiction de modèle et doit être interprété avec prudence.
+Le lien mécanistique avec la cholangite sclérosante n'est pas étayé. Une connexion théorique ténue existe via les cholangiopathies associées au SIDA ou à une infection virale (CMV), mais elle n'est démontrée par aucune donnée fournie. Le score élevé (0,9994) est une prédiction de modèle et doit être interprété avec prudence.
 
 Les autres indications prédites sont encore moins soutenues :
-- **Polyarthrite rhumatoïde** (score 99,82 %) : 5 publications ont été retrouvées, mais elles concernent le léflunomide dans l'infection à CMV après greffe, la toxicité rétinienne des médicaments et des verrues virales. Elles résultent probablement d'une association par mots-clés et ne prouvent pas que le cidofovir traite la polyarthrite rhumatoïde.
-- **Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique** (99,62 %) et **syndrome de brachydactylie-syndactylie** (99,49 %) : aucune justification mécanistique ; il s'agit vraisemblablement d'artefacts du graphe de connaissances.
+- **Polyarthrite rhumatoïde** (score 0,9982) : 5 publications ont été retrouvées, mais elles concernent le léflunomide dans l'infection à CMV après greffe, la toxicité rétinienne des médicaments et des verrues virales. Elles résultent probablement d'une association par mots-clés et ne prouvent pas que le cidofovir traite la polyarthrite rhumatoïde.
+- **Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique** (0,9962) et **syndrome de brachydactylie-syndactylie** (0,9949) : aucune justification mécanistique ; ces scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -86,7 +86,7 @@ Pour la polyarthrite rhumatoïde (indication classée 2e), les publications retr
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67633828 | CIDOFOVIR TILLOMED 75 mg/mL solution à diluer pour perfusion (Tillomed Pharma, Allemagne) | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 67633828 | CIDOFOVIR TILLOMED 75 mg/mL solution à diluer pour perfusion (Tillomed Pharma, Allemagne) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

@@ -6,9 +6,9 @@ nav_order: 743
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Terbutaline : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L1). Indication d'origine : Asthme"
 monitor_inn: "TERBUTALINE"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Terbutaline
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-## Terbutaline : De l'asthme à la maladie pulmonaire obstructive
+## Terbutaline: Maladie pulmonaire obstructive (obstructive lung disease)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction recoupe toutefois largement les indications déjà connues du 
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Asthme (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Predite | Maladie pulmonaire obstructive |
-| Score de Prediction TxGNN | 99,96 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Maladie pulmonaire obstructive (obstructive lung disease) |
+| Score de Prediction TxGNN | 0.9996 |
 | Niveau de Preuve | L1 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Proceed with Guardrails |
 
 ---
@@ -62,9 +62,9 @@ Cette prédiction recoupe toutefois largement les indications déjà connues du 
 
 Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la terbutaline est un agoniste sélectif des récepteurs bêta-2 adrénergiques. Elle relâche le muscle lisse bronchique via la voie de l'AMPc et provoque ainsi une bronchodilatation.
 
-Ce mécanisme est directement pertinent pour les maladies obstructives des voies respiratoires. L'asthme, la bronchite et l'emphysème figurent déjà parmi les indications d'origine du médicament. Le score très élevé de TxGNN (99,96 %) est donc cohérent avec une pharmacologie déjà connue, et non avec une découverte inattendue.
+Ce mécanisme est directement pertinent pour les maladies obstructives des voies respiratoires. L'asthme, la bronchite et l'emphysème figurent déjà parmi les indications d'origine du médicament. Le score très élevé de TxGNN (0,9996) est donc cohérent avec une pharmacologie déjà connue, et non avec une découverte inattendue.
 
-Les autres prédictions du modèle sont beaucoup moins solides. La « malformation respiratoire » (score 99,5 %) ne repose sur aucun lien mécanistique clair : la bronchodilatation ne traite pas un défaut de développement structurel, et le score semble refléter la proximité du réseau avec l'asthme. Le « syndrome de Rienhoff » (99,4 %) n'a ni essai ni publication, et reste une prédiction purement computationnelle.
+Les autres prédictions du modèle TxGNN (apprentissage profond) sont beaucoup moins solides. La « malformation respiratoire » (score 0.9952) ne repose sur aucun lien mécanistique clair : la bronchodilatation ne traite pas un défaut de développement structurel, et le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le « syndrome de Rienhoff » (0.9938) n'a ni essai ni publication, et reste une prédiction purement computationnelle.
 
 ---
 
@@ -110,7 +110,7 @@ Un essai de phase 2/3 sur la relation exposition-réponse de la terbutaline ([NC
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 60961427 | BRICANYL TURBUHALER 500 microgrammes/dose, poudre pour inhalation (AstraZeneca) | Poudre pour inhalation | Non renseignée (AMM annulée) |
+| 60961427 | BRICANYL TURBUHALER 500 microgrammes/dose, poudre pour inhalation (AstraZeneca) | Poudre pour inhalation | Non renseignée (AMM active) |
 
 ---
 

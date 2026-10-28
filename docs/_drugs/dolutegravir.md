@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 253
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Dolutegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (SIV) (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "dolutegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Dolutegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseigné…"
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Dolutegravir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+## Dolutegravir: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Le SIV est un modèle animal du VIH et non une maladie humaine : cette prédicti
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances TxGNN ; aucun texte d'indication n'est renseigné dans les AMM) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (SIV) |
-| Score de Prédiction TxGNN | 99,85 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9985 |
 | Niveau de Preuve | L4 (études précliniques uniquement) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ---
@@ -99,11 +99,11 @@ Les 8 AMM associées au dolutégravir sont toutes annulées. Le texte de l'indic
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 64510425 | TIVICAY 10 mg | Comprimé pelliculé | Annulée |
-| 64955133 | TIVICAY 5 mg | Comprimé dispersible | Annulée |
-| 63679504 | TIVICAY 25 mg | Comprimé pelliculé | Annulée |
-| 62685155 | TIVICAY 50 mg | Comprimé pelliculé | Annulée |
-| 63504750 | JULUCA 50 mg/25 mg | Comprimé pelliculé | Annulée |
+| 64510425 | TIVICAY 10 mg | Comprimé pelliculé | Active |
+| 64955133 | TIVICAY 5 mg | Comprimé dispersible | Active |
+| 63679504 | TIVICAY 25 mg | Comprimé pelliculé | Active |
+| 62685155 | TIVICAY 50 mg | Comprimé pelliculé | Active |
+| 63504750 | JULUCA 50 mg/25 mg | Comprimé pelliculé | Active |
 
 ---
 
@@ -122,11 +122,11 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à des études précliniques et vétérinaires (niveau L4). Aucun essai clinique n'existe, et le SIV étant un modèle animal, la prédiction n'ouvre pas de nouvelle indication humaine. Par ailleurs, toutes les AMM françaises sont annulées.
+- Les preuves se limitent à des études précliniques et vétérinaires (niveau L4). Aucun essai clinique n'existe, et le SIV étant un modèle animal, la prédiction n'ouvre pas de nouvelle indication humaine.
 
 **Autres prédictions examinées :**
-- *Syndrome d'immunodéficience acquise féline (FIV)* : score de 99,85 %, niveau L4, Hold. Une seule étude (PMID 37112803, 2023) évalue une association antirétrovirale incluant le dolutégravir chez le chat, sans bénéfice clinique démontré ; indication vétérinaire sans pertinence humaine.
-- *Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale* : score de 99,80 %, niveau L5, Hold. Aucun lien mécanistique n'est identifiable, et il n'existe ni essai ni publication.
+- *Syndrome d'immunodéficience acquise féline (FIV)* : score de 0,9985, niveau L4, Hold. Une seule étude (PMID 37112803, 2023) évalue une association antirétrovirale incluant le dolutégravir chez le chat, sans bénéfice clinique démontré ; indication vétérinaire sans pertinence humaine.
+- *Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale* : score de 0,9980, niveau L5, Hold. Aucun lien mécanistique n'est identifiable, et il n'existe ni essai ni publication.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (DrugBank)

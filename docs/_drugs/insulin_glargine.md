@@ -6,9 +6,9 @@ nav_order: 402
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Insulin Glargine : nouvelle indication prédite, Ovarite auto-immune (niveau de preuve L5). Indication d'origine : Diabète de type 2, diabète de type 1, acidocétose diabétique"
 monitor_inn: "insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Insulin Glargine : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Insulin Glargine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Insuline glargine : Du diabète de type 1 et 2 à l'ovarite auto-immune
+## Insulin Glargine: Ovarite auto-immune (autoimmune oophoritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**ovarite auto-i
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Diabète de type 2, diabète de type 1, acidocétose diabétique (texte d'indication de l'AMM non disponible ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Ovarite auto-immune |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ovarite auto-immune (autoimmune oophoritis) |
+| Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -73,11 +73,11 @@ Aucune littérature associée disponible actuellement pour l'ovarite auto-immune
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61404477 | LANTUS 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM annulée) |
-| 62030744 | TOUJEO 300 unités/ml DoubleStar, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 68378405 | TOUJEO 300 unités/ml SoloStar, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 64332894 | ABASAGLAR 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 60408661 | SEMGLEE 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
+| 61404477 | LANTUS 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
+| 62030744 | TOUJEO 300 unités/ml DoubleStar, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 68378405 | TOUJEO 300 unités/ml SoloStar, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 64332894 | ABASAGLAR 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 60408661 | SEMGLEE 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
 Trois autres AMM annulées existent (LANTUS en flacon, LANTUS SOLOSTAR, ABASAGLAR en cartouche).
 
@@ -108,13 +108,13 @@ Les autres prédictions du modèle ne changent pas cette évaluation :
 **Décision : Hold**
 
 **Justification :**
-La prédiction pour l'ovarite auto-immune repose uniquement sur le score du modèle (L5), sans essai ni publication. Le lien plausible passe par un diabète auto-immun associé et non par un effet de l'insuline glargine sur la maladie. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes.
+La prédiction pour l'ovarite auto-immune repose uniquement sur le score du modèle TxGNN (deep learning) (L5), sans essai ni publication. Le lien plausible passe par un diabète auto-immun associé et non par un effet de l'insuline glargine sur la maladie. De plus, le médicament est commercialisé en France avec 8 AMM valides sur 8, mais les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de mécanisme d'action (DrugBank)
 - Les mises en garde et contre-indications de la notice (site de l'ANSM)
 - Une recherche ciblée de la littérature et des essais sur l'ovarite auto-immune
-- Une clarification du statut réglementaire actuel, toutes les AMM listées étant annulées
+- Une clarification du statut réglementaire actuel, les 8 AMM listées sur 8 étant valides
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

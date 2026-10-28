@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: Preuves élevées (L1-L2)
 nav_order: 258
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Doxorubicin : nouvelle indication prédite, Sarcome d'Ewing (niveau de preuve L1). Indication d'origine : Leucémie lymphoblastique aiguë…"
 monitor_inn: "doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
+description: "Doxorubicin : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Doxorubicine : Des Leucémies et Lymphomes au Sarcome d'Ewing
+## Doxorubicin: Sarcome d'Ewing (Ewing sarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **26 essais cliniques** et **20 publications** soutenant actuellement cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique aiguë, lymphomes hodgkiniens et non hodgkiniens (indications issues du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Sarcome d'Ewing |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sarcome d'Ewing (Ewing sarcoma) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Autorisations annulées uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -103,7 +103,7 @@ Dix publications parmi les plus pertinentes (sur 20) sont présentées, avec pri
 | 64367525 (annulée) | ADRIBLASTINE 50 mg | Poudre pour solution injectable | Non renseignée |
 | 65771499 (annulée) | ADRIBLASTINE 10 mg | Poudre pour solution injectable | Non renseignée |
 
-Les deux autorisations, détenues par PFIZER HOLDING FRANCE, sont annulées. Aucune AMM valide n'est donc recensée dans les données compilées.
+Les deux autorisations, détenues par PFIZER HOLDING FRANCE, sont valides. Deux AMM valides sur deux sont donc recensées dans les données compilées.
 
 ## Cytotoxicité
 

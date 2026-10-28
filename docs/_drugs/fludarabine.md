@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans le **myélome multipl
 |------|------|
 | Indication Originale | Non précisée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Myélome multiple (plasmocytome) |
-| Score de Prédiction TxGNN | 99,82 % |
+| Score de Prédiction TxGNN | 0,9982 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 > Remarque : le titre mentionne la leucémie lymphoïde chronique à titre de contexte pharmacologique connu de la fludarabine. Cette indication n'apparaît pas dans les textes d'AMM compilés, qui sont vides.
@@ -101,9 +101,9 @@ Aucun de ces essais ne teste la fludarabine en monothérapie dans le myélome.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62818883 | FLUDARABINE TEVA 25 mg/mL (annulée) | Solution à diluer injectable ou pour perfusion | Non renseignée |
-| 64281631 | FLUDARABINE ACCORD 25 mg/ml (annulée) | Solution à diluer pour solution injectable ou pour perfusion | Non renseignée |
-| 62751438 | FLUDARA 10 mg (annulée) | Comprimé pelliculé | Non renseignée |
+| 62818883 | FLUDARABINE TEVA 25 mg/mL (active) | Solution à diluer injectable ou pour perfusion | Non renseignée |
+| 64281631 | FLUDARABINE ACCORD 25 mg/ml (active) | Solution à diluer pour solution injectable ou pour perfusion | Non renseignée |
+| 62751438 | FLUDARA 10 mg (active) | Comprimé pelliculé | Non renseignée |
 
 ## Cytotoxicité
 
@@ -130,12 +130,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - De nombreux essais et études soutiennent l'utilisation de la fludarabine dans le myélome, mais uniquement comme composante de schémas de conditionnement ou de lymphodéplétion, pas comme traitement antimyélome autonome. Les essais en cause sont principalement de petite taille ou de phase 1/2, ou testent un autre agent.
-- Toutes les AMM françaises sont annulées et les informations de sécurité officielles ne sont pas disponibles, ce qui impose des garde-fous stricts.
+- Les 3 AMM françaises sur 3 sont valides et le médicament est commercialisé ; les informations de sécurité officielles ne sont pas disponibles, ce qui impose des garde-fous stricts.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice (mises en garde et contre-indications) auprès de l'ANSM, élément bloquant pour l'évaluation de sécurité
 - Données détaillées sur le mécanisme d'action
-- Clarification du statut réglementaire, puisque toutes les AMM sont annulées
+- Clarification du statut réglementaire, puisque les 3 AMM sur 3 sont valides et que le médicament est commercialisé
 - Essais comparatifs spécifiques au myélome pour isoler la contribution de la fludarabine
 - Plan de surveillance de la toxicité (myélosuppression, neurotoxicité, fonction rénale)
 

@@ -48,31 +48,31 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,42 % |
+| Score de Prédiction TxGNN | 0,9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 16 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la diosmine est un flavonoïde veinoactif, généralement associé à une amélioration du tonus veineux, à une réduction de la perméabilité capillaire et à un effet anti-inflammatoire.
 
-Aucun lien mécanistique ne peut être établi à partir des données compilées. Aucune indication originale n'est listée, et le seul appui est le score élevé du modèle TxGNN (0,994), qui relève d'une inférence par graphe de connaissances. Une hypothèse plausible mais non vérifiée est que des effets vasculaires ou anti-inflammatoires pourraient concerner la congestion pelvienne ou certains troubles menstruels.
+Aucun lien mécanistique ne peut être établi à partir des données compilées. Aucune indication originale n'est listée, et le seul appui est le score élevé du modèle TxGNN (deep learning) (0,9942), qui peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Une hypothèse plausible mais non vérifiée est que des effets vasculaires ou anti-inflammatoires pourraient concerner la congestion pelvienne ou certains troubles menstruels.
 
 Cette hypothèse n'est étayée par aucune donnée fournie, et l'aménorrhée est avant tout une affection endocrinienne ou structurelle. La prédiction doit donc être considérée avec prudence.
 
 ## Informations de Marché en France
 
-Les 16 AMM recensées sont toutes annulées ; aucune AMM valide n'existe actuellement. Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données).
+Les 16 AMM recensées sont toutes valides ; le médicament est commercialisé. Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60056815 | DIOSMINE SUN 600 mg | Comprimé pelliculé | Annulée |
-| 63280081 | VENACLAR 600 mg | Comprimé pelliculé | Annulée |
-| 60445204 | DIOVENOR 600 mg | Poudre pour suspension buvable en sachet-dose | Annulée |
-| 60711441 | MEDIVEINE 600 mg | Comprimé sécable | Annulée |
-| 69823317 | DIOSMINE EG LABO CONSEIL 600 mg | Comprimé pelliculé | Annulée |
+| 60056815 | DIOSMINE SUN 600 mg | Comprimé pelliculé | Active |
+| 63280081 | VENACLAR 600 mg | Comprimé pelliculé | Active |
+| 60445204 | DIOVENOR 600 mg | Poudre pour suspension buvable en sachet-dose | Active |
+| 60711441 | MEDIVEINE 600 mg | Comprimé sécable | Active |
+| 69823317 | DIOSMINE EG LABO CONSEIL 600 mg | Comprimé pelliculé | Active |
 
 ## Considérations de Sécurité
 
@@ -83,7 +83,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, les données de sécurité issues de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité, bien que les 16 AMM françaises soient valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (téléchargement et analyse du document)

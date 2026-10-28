@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Latanoprost
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 439
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Latanoprost : nouvelle indication prédite, Glaucome héréditaire primaire (niveau de preuve L4). Indication d'origine : Glaucome à angle ouvert, hypertension oculaire"
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost : nouvelle indication prédite, Visceral calciphylaxis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Latanoprost : Du Glaucome à Angle Ouvert au Glaucome Héréditaire Primaire
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Latanoprost est un analogue de la prostaglandine F2-alpha, initialement utilisé pour traiter le glaucome à angle ouvert et l'hypertension oculaire.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **glaucome héréditaire primaire**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : la prédiction repose uniquement sur le raisonnement mécanistique.
 
 ---
 
@@ -47,17 +46,16 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **glaucome héré
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Glaucome à angle ouvert, hypertension oculaire |
-| Nouvelle Indication Prédite | Glaucome héréditaire primaire |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Visceral calciphylaxis |
+| Score de Prédiction TxGNN | 0.9983 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement, aucune étude réelle) |
-| Statut de Marché en France | Toutes les AMM sont annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
 *Remarque : les données compilées classent cette piste en niveau L4 (question de recherche), en raison de la plausibilité mécanistique. En l'absence de toute étude de mécanisme, d'essai ou de publication fournie, le niveau L5 est retenu ici selon les règles de détermination.*
 
-*Note sur l'indication originale : le texte d'indication des AMM françaises n'est pas renseigné ; l'indication originale provient du graphe de connaissances TxGNN.*
 
 ---
 
@@ -85,15 +83,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Principales AMM (5 sur 20) :
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Principales AMM (5 sur 20) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60047271 | XALATAN 50 microgrammes/mL | Collyre en solution | Annulée |
-| 63781007 | XALACOM 50 µg/mL + 5 mg/mL (latanoprost/timolol) | Collyre en solution | Annulée |
-| 64928570 | LATANOPROST BIOGARAN 0,005 % | Collyre en solution | Annulée |
-| 60643442 | LATANOPROST ZENTIVA 0,005 % | Collyre en solution | Annulée |
-| 64224662 | ROCLANDA 50 µg/mL + 200 µg/mL (latanoprost/nétarsudil) | Collyre en solution | Annulée |
+| 60047271 | XALATAN 50 microgrammes/mL | Collyre en solution | Active |
+| 63781007 | XALACOM 50 µg/mL + 5 mg/mL (latanoprost/timolol) | Collyre en solution | Active |
+| 64928570 | LATANOPROST BIOGARAN 0,005 % | Collyre en solution | Active |
+| 60643442 | LATANOPROST ZENTIVA 0,005 % | Collyre en solution | Active |
+| 64224662 | ROCLANDA 50 µg/mL + 200 µg/mL (latanoprost/nétarsudil) | Collyre en solution | Active |
 
 ---
 
@@ -108,7 +106,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Autres Prédictions Examinées
 
-Les autres pistes prédites présentent des scores TxGNN élevés (99,67 % à 99,83 %) mais aucune preuve clinique :
+Les autres pistes prédites présentent des scores TxGNN élevés (0,9967 à 0,9983) mais aucune preuve clinique :
 
 | Indication Prédite | Niveau | Évaluation |
 |------|------|------|
@@ -127,14 +125,13 @@ Les autres pistes prédites présentent des scores TxGNN élevés (99,67 % à 99
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé, mais aucun essai ni aucune publication ne le soutient. La piste du glaucome héréditaire primaire est plausible mais reste proche de l'indication d'origine, et toutes les AMM françaises sont annulées.
+- Le score TxGNN est très élevé, mais aucun essai ni aucune publication ne le soutient.
 - Les données de sécurité de la notice (ANSM) manquent, ce qui bloque le passage à l'étape de dépistage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des essais cliniques et des publications sur le latanoprost dans le glaucome congénital/juvénile, notamment pédiatriques
-- Vérifier le statut commercial actuel du latanoprost en France, puisque toutes les AMM sont annulées
 - Évaluer la compatibilité des voies d'administration (analyse en attente)
 ## Avertissement
 

@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Syndrome Myélo
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Syndrome myélodysplasique |
-| Score de Prédiction TxGNN | 99,62 % |
+| Score de Prédiction TxGNN | 0,9962 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -107,10 +107,10 @@ Parmi les 41 essais associés au SMD, voici les plus pertinents (priorité aux e
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61787869 | BUSULFAN TILLOMED 6 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 61737211 | BUSULFAN FRESENIUS KABI 6 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 62722123 | BUSULFAN ACCORD 6 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 64700734 | MYLERAN 2 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 61787869 | BUSULFAN TILLOMED 6 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 61737211 | BUSULFAN FRESENIUS KABI 6 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 62722123 | BUSULFAN ACCORD 6 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 64700734 | MYLERAN 2 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 

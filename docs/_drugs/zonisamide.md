@@ -4,7 +4,7 @@ title: Zonisamide
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 832
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Zonisamide : nouvelle indication prédite, Syndrome de Gilles de la Tourette (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles (les textes d'indi…"
 monitor_inn: "ZONISAMIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobine
 # Zonisamide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en une phrase
 
-Zonisamide est un antiépileptique de la famille des sulfonamides. Le modèle TxGNN le prédit comme potentiellement efficace dans le **syndrome de Gilles de la Tourette** (score de 99,85 %), mais aucun essai clinique ni aucune publication ne soutient cette prédiction. Parmi les dix indications prédites, la mieux étayée est l'**épilepsie-absence** (niveau L3), avec 20 publications issues des données compilées pour ce rapport, principalement des séries de cas et des revues.
+Zonisamide est un antiépileptique de la famille des sulfonamides. Le modèle TxGNN le prédit comme potentiellement efficace dans le **syndrome de Gilles de la Tourette** (score de 0,9985), mais aucun essai clinique ni aucune publication ne soutient cette prédiction. Parmi les dix indications prédites, la mieux étayée est l'**épilepsie-absence** (niveau L3), avec 20 publications issues des données compilées pour ce rapport, principalement des séries de cas et des revues.
 
 ---
 
@@ -48,10 +48,10 @@ Zonisamide est un antiépileptique de la famille des sulfonamides. Le modèle Tx
 |------|------|
 | Indication originale | Non renseignée dans les données d'AMM disponibles (les textes d'indication sont vides) |
 | Nouvelle indication prédite | Syndrome de Gilles de la Tourette (rang 1) |
-| Score de prédiction TxGNN | 99,85 % |
+| Score de prédiction TxGNN | 0,9985 |
 | Niveau de preuve | L5 (prédiction du modèle uniquement) |
-| Statut de marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Statut de marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Nombre d'AMM | 20 (valides : 20) |
 | Décision recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucune donnée clinique ne confirme cette piste. Une revue (PMID 36005856) décrit au contraire des troubles obsessionnels compulsifs et des tics **induits** par les médicaments antiépileptiques. Elle constitue donc un signal de sécurité potentiel plutôt qu'un argument d'efficacité.
 
-Les autres prédictions à score élevé (méthémoglobinémie, déficit en méthémoglobine réductase, conjonctivite, trichotillomanie) n'ont ni données ni mécanisme plausible. Plusieurs sont probablement des artefacts du graphe de connaissances. Les indications dotées de données exploitables sont l'épilepsie-absence, le trouble bipolaire maniaque et la fibromyalgie, détaillées ci-dessous.
+Les autres prédictions à score élevé (méthémoglobinémie, déficit en méthémoglobine réductase, conjonctivite, trichotillomanie) n'ont ni données ni mécanisme plausible. Leurs scores proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies proches, non des preuves biologiques. Les indications dotées de données exploitables sont le trouble bipolaire maniaque et la fibromyalgie, détaillées ci-dessous.
 
 ---
 
@@ -124,7 +124,7 @@ Veuillez consulter la notice pour les mises en garde officielles, qui ne sont pa
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (syndrome de Gilles de la Tourette) repose uniquement sur le modèle (L5), sans essai ni publication, et la littérature disponible évoque plutôt un risque de tics induits. Toutes les AMM françaises sont annulées. Aucune donnée de sécurité issue de la notice n'est disponible.
+- La prédiction principale (syndrome de Gilles de la Tourette) repose uniquement sur le modèle (L5), sans essai ni publication, et la littérature disponible évoque plutôt un risque de tics induits. Le médicament est commercialisé en France, avec 20 AMM valides sur 20. Aucune donnée de sécurité issue de la notice n'est disponible.
 - L'épilepsie-absence (L3) reste une question de recherche, car des traitements de première intention (éthosuximide, valproate) sont mieux documentés.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

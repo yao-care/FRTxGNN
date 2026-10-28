@@ -4,17 +4,17 @@ title: Cimetidine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 170
 evidence_level: L5
-indication_count: 9
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Cimetidine : nouvelle indication prédite, Mastocytose systémique indolente (smouldering) (niveau de preuve L5). Indication d'origine : Ulcère gastrique, reflux gastro-œsophagien, ulcère duodénal…"
 monitor_inn: "cimetidine"
-predicted_indications: ["peptic ulcer perforation", "lymphoadenopathic mastocytosis with eosinophilia", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+description: "Cimetidine : nouvelle indication prédite, Peptic ulcer perforation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cimetidine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Cimétidine : Des Ulcères Gastroduodénaux à la Mastocytose Systémique Indolente (Smouldering)
+## Cimetidine: Peptic ulcer perforation
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **mastocytose syst
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ulcère gastrique, reflux gastro-œsophagien, ulcère duodénal, syndrome de Zollinger-Ellison, mastocytose systémique (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Mastocytose systémique indolente (smouldering) |
-| Score de Prédiction TxGNN | 99,80 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Peptic ulcer perforation |
+| Score de Prédiction TxGNN | 0.9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68053454 | CIMETIDINE ARROW 200 mg, comprimé effervescent (ARROW GENERIQUES) | Comprimé effervescent | Non renseignée (AMM annulée) |
+| 68053454 | CIMETIDINE ARROW 200 mg, comprimé effervescent (ARROW GENERIQUES) | Comprimé effervescent | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -86,14 +86,11 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Rang | Indication | Score TxGNN | Niveau de Preuve | Commentaire |
 |---|---|---|---|---|
-| 2 | Ulcère peptique actif | 99,79 % | L4 | Indication déjà reconnue, donc pas un repositionnement ; un ECR de 1981 (PMID 7034155) contre placebo ; cimétidine largement remplacée par les IPP |
-| 3 | Ulcère gastro-jéjunal | 99,77 % | L4 | Preuves indirectes extrapolées de l'ulcère peptique |
-| 4 | Perforation d'ulcère peptique | 99,77 % | L4 | Plusieurs cas de perforation sous cimétidine : signal défavorable |
-| 5 | Mastocytose lymphadénopathique avec éosinophilie | 99,76 % | L5 | Aucune donnée ; non adapté |
-| 6 | Reflux duodéno-gastrique | 99,49 % | L4 | Petites études physiologiques, sans bénéfice clinique démontré |
-| 7 | Obstruction duodénale | 99,44 % | L4 | Un cas isolé de 1978 (PMID 361048) ; preuve anecdotique |
-| 8 | Acné | 99,33 % | L4 | Activité antiandrogénique faible ; hypothèse à explorer (question de recherche) |
-| 9 | Anomalie de la sécrétion de glucagon | 99,14 % | L5 | Correspondance de mots-clés faussement positive |
+| 3 | Ulcère gastro-jéjunal | 0,9977 | L4 | Preuves indirectes extrapolées de l'ulcère peptique |
+| 4 | Perforation d'ulcère peptique | 0,9977 | L4 | Plusieurs cas de perforation sous cimétidine : signal défavorable |
+| 7 | Obstruction duodénale | 0,9944 | L4 | Un cas isolé de 1978 (PMID 361048) ; preuve anecdotique |
+| 8 | Acné | 0,9933 | L4 | Activité antiandrogénique faible ; hypothèse à explorer (question de recherche) |
+| 9 | Anomalie de la sécrétion de glucagon | 0,9914 | L5 | Correspondance de mots-clés faussement positive |
 
 ## Conclusion et Prochaines Étapes
 

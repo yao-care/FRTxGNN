@@ -6,9 +6,9 @@ nav_order: 493
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Metreleptin : nouvelle indication prédite, Lentiginose généralisée familiale (niveau de preuve L5). Indication d'origine : Lipodystrophie congénitale généralisée (Berardinelli-Seip)…"
 monitor_inn: "metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
+description: "Metreleptin : nouvelle indication prédite, Lentiginose généralisée familiale (familial generalized lentiginosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Metreleptin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Metreleptine : De la lipodystrophie congénitale à la lentiginose généralisée familiale
+## Metreleptin: Lentiginose généralisée familiale (familial generalized lentiginosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **lentiginose g
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lipodystrophie congénitale généralisée (Berardinelli-Seip), lipodystrophie (source : graphe de connaissances, le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Lentiginose généralisée familiale |
-| Score de Prédiction TxGNN | 99,71 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Lentiginose généralisée familiale (familial generalized lentiginosis) |
+| Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---
@@ -65,7 +65,7 @@ Le lien avec la lentiginose généralisée familiale, un trouble pigmentaire rar
 
 Il convient donc de considérer cette prédiction avec prudence : un score élevé ne remplace pas une preuve clinique ou mécanistique.
 
-Les autres indications prédites (rangs 2 à 10) présentent le même profil : score supérieur à 99,5 %, aucune preuve clinique, niveau L5 et recommandation Hold. Parmi elles, le **syndrome de leuconychie totale-lésions de type acanthosis nigricans** repose sur un argument phénotypique faible (résistance à l'insuline, commune aux lipodystrophies), qui reste spéculatif. Pour la **tumeur rhabdoïde**, la leptine ayant des effets pro-prolifératifs dans certains cancers, un risque de sécurité ne peut être exclu et nécessiterait un examen approfondi.
+Les autres indications prédites (rangs 2 à 10) présentent le même profil : score supérieur à 0,9950, aucune preuve clinique, niveau L5 et recommandation Hold. Parmi elles, le **syndrome de leuconychie totale-lésions de type acanthosis nigricans** repose sur un argument phénotypique faible (résistance à l'insuline, commune aux lipodystrophies), qui reste spéculatif. Pour la **tumeur rhabdoïde**, la leptine ayant des effets pro-prolifératifs dans certains cancers, un risque de sécurité ne peut être exclu et nécessiterait un examen approfondi.
 
 ---
 
@@ -85,11 +85,11 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 67974594 | MYALEPTA 5,8 mg | Poudre pour solution injectable | Non renseignée | Annulée |
-| 69994784 | MYALEPTA 11,3 mg | Poudre pour solution injectable | Non renseignée | Annulée |
-| 60446726 | MYALEPTA 3 mg | Poudre pour solution injectable | Non renseignée | Annulée |
+| 67974594 | MYALEPTA 5,8 mg | Poudre pour solution injectable | Non renseignée | Active |
+| 69994784 | MYALEPTA 11,3 mg | Poudre pour solution injectable | Non renseignée | Active |
+| 60446726 | MYALEPTA 3 mg | Poudre pour solution injectable | Non renseignée | Active |
 
-Titulaire : CHIESI FARMACEUTICI. Aucune AMM n'est actuellement valide en France.
+Titulaire : CHIESI FARMACEUTICI.
 
 ---
 
@@ -105,7 +105,7 @@ Titulaire : CHIESI FARMACEUTICI. Aucune AMM n'est actuellement valide en France.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible entre la leptine et la lentiginose généralisée familiale. Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible entre la leptine et la lentiginose généralisée familiale. Les 3 AMM françaises sur 3 sont valides (médicament commercialisé) et les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour le criblage de sécurité)

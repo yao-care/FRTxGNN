@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nevirapine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 533
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nevirapine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Nevirapine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Névirapine : Du VIH/SIDA au Syndrome d'immunodéficience acquise féline
+## Nevirapine: Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit d'une indication vétérinaire, sans pertinence directe pour un dével
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline |
-| Score de Prédiction TxGNN | 99,85 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 11 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
+| Score de Prédiction TxGNN | 0.9985 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Il s'agit d'une indication vétérinaire, sans pertinence directe pour un dével
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la névirapine appartient à la classe des INNTI, dont l'efficacité dans l'infection par le VIH-1 est établie. Elle se fixe sur une poche allostérique de la transcriptase inverse du VIH-1.
 
-Le virus de l'immunodéficience féline (FIV) est un lentivirus doté lui aussi d'une transcriptase inverse, ce qui fournit une base mécanistique théorique à la prédiction. Le score très élevé du modèle (0,998) reflète probablement surtout la proximité entre cette maladie et le VIH/SIDA dans le graphe de connaissances.
+Le virus de l'immunodéficience féline (FIV) est un lentivirus doté lui aussi d'une transcriptase inverse, ce qui fournit une base mécanistique théorique à la prédiction.
 
 Toutefois, les INNTI sont connus pour avoir une activité limitée sur les transcriptases inverses des lentivirus autres que le VIH-1, en raison de différences dans la poche de liaison. L'unique publication disponible (2023) compare, sur le plan biochimique et structural, plusieurs INNTI contre le FIV et le VIH, mais les données fournies ne permettent pas de confirmer si la névirapine est active ou inactive contre la transcriptase inverse du FIV.
 
@@ -86,11 +86,11 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|-----|
-| 61512136 | NEVIRAPINE SANDOZ 200 mg | Comprimé | Non renseignée | Annulée |
-| 60433166 | NEVIRAPINE SANDOZ LP 400 mg | Comprimé à libération prolongée | Non renseignée | Annulée |
-| 69410368 | VIRAMUNE 400 mg | Comprimé à libération prolongée | Non renseignée | Annulée |
-| 63791738 | VIRAMUNE 200 mg | Comprimé | Non renseignée | Annulée |
-| 65256474 | NEVIRAPINE VIATRIS 200 mg | Comprimé | Non renseignée | Annulée |
+| 61512136 | NEVIRAPINE SANDOZ 200 mg | Comprimé | Non renseignée | Active |
+| 60433166 | NEVIRAPINE SANDOZ LP 400 mg | Comprimé à libération prolongée | Non renseignée | Active |
+| 69410368 | VIRAMUNE 400 mg | Comprimé à libération prolongée | Non renseignée | Active |
+| 63791738 | VIRAMUNE 200 mg | Comprimé | Non renseignée | Active |
+| 65256474 | NEVIRAPINE VIATRIS 200 mg | Comprimé | Non renseignée | Active |
 
 Au total, 11 AMM sont répertoriées, toutes annulées ; seules les 5 principales sont listées ci-dessus.
 
@@ -129,8 +129,8 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 ### Note sur les autres prédictions
 
 Deux autres prédictions ont été examinées et ne justifient pas d'avancer :
-- **Infection par le virus de l'immunodéficience simienne** (score 99,85 %, niveau L4, Hold) : la littérature indique que le SIV est intrinsèquement résistant aux INNTI. Seules les chimères SHIV portant la transcriptase inverse du VIH-1 sont sensibles, ce qui les rend utiles comme modèles animaux. Plusieurs articles récupérés ne sont que faiblement liés au sujet.
-- **Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale** (score 99,82 %, niveau L5, Hold) : aucun lien mécanistique, aucun essai et aucune publication.
+- **Infection par le virus de l'immunodéficience simienne** (score 0,9985, niveau L4, Hold) : la littérature indique que le SIV est intrinsèquement résistant aux INNTI. Seules les chimères SHIV portant la transcriptase inverse du VIH-1 sont sensibles, ce qui les rend utiles comme modèles animaux. Plusieurs articles récupérés ne sont que faiblement liés au sujet.
+- **Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale** (score 0,9982, niveau L5, Hold) : aucun lien mécanistique, aucun essai et aucune publication.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

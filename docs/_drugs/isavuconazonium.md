@@ -6,9 +6,9 @@ nav_order: 413
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Isavuconazonium : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Aspergillose, piedra blanche, piedra noire, coccidioïdomycose…"
 monitor_inn: "isavuconazonium"
 predicted_indications: ["pneumocystosis", "mycetoma"]
+description: "Isavuconazonium : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Isavuconazonium
@@ -33,14 +33,14 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Isavuconazonium : Des mycoses systémiques à la pneumocystose
+## Isavuconazonium: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Résumé en une phrase
 
 L'isavuconazonium est un antifongique triazolé (promédicament de l'isavuconazole), initialement utilisé pour traiter l'aspergillose, la mucormycose (zygomycose), la coccidioïdomycose, l'histoplasmose et d'autres mycoses.
-Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocystose** (score de 99,56 %), mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction.
-Une seconde prédiction, le **mycétome** (score de 99,34 %), repose sur une seule revue indirecte. Elle est présentée en complément.
+Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocystose** (score de 0,9956), mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction.
+Une seconde prédiction, le **mycétome** (score de 0,9934), repose sur une seule revue indirecte. Elle est présentée en complément.
 
 ---
 
@@ -48,12 +48,12 @@ Une seconde prédiction, le **mycétome** (score de 99,34 %), repose sur une seu
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Aspergillose, piedra blanche, piedra noire, coccidioïdomycose, sporotrichose, histoplasmose, zygomycose (le texte d'indication des AMM n'est pas renseigné ; ces indications proviennent du graphe de connaissances) |
-| Nouvelle indication prédite | Pneumocystose |
-| Score de prédiction TxGNN | 99,56 % |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Pneumocystose (pneumocystosis) |
+| Score de prédiction TxGNN | 0.9956 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Une seconde prédiction, le **mycétome** (score de 99,34 %), repose sur une seu
 
 Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier compilé. D'après les connaissances générales, l'isavuconazonium est le promédicament de l'isavuconazole, un triazole qui inhibe la lanostérol 14-alpha-déméthylase (CYP51) et bloque ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
 
-Le lien de la prédiction avec la pneumocystose est **biologiquement faible**. *Pneumocystis jirovecii* ne possède pas d'ergostérol et utilise le cholestérol et d'autres stérols dans sa membrane : la cible des azolés n'est donc pas clairement présente. De plus, les azolés ne sont pas un traitement établi de la pneumonie à *Pneumocystis* (le cotrimoxazole, associant triméthoprime et sulfaméthoxazole, reste la référence). La prédiction provient vraisemblablement d'associations de classe antifongique dans le graphe de connaissances et n'est pas étayée par un raisonnement mécanistique solide.
+Le lien de la prédiction avec la pneumocystose est **biologiquement faible**. *Pneumocystis jirovecii* ne possède pas d'ergostérol et utilise le cholestérol et d'autres stérols dans sa membrane : la cible des azolés n'est donc pas clairement présente. De plus, les azolés ne sont pas un traitement établi de la pneumonie à *Pneumocystis* (le cotrimoxazole, associant triméthoprime et sulfaméthoxazole, reste la référence). Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'est pas étayé par un raisonnement mécanistique solide.
 
 À titre de comparaison, la seconde prédiction (le mycétome) est plus plausible. L'eumycétome est causé par des champignons filamenteux (par ex. *Madurella mycetomatis*), cibles plausibles d'un triazole à large spectre. D'autres azolés (itraconazole, fosravuconazole dans un essai récent de phase 2) ont montré une activité clinique. L'actinomycétome, d'origine bactérienne, ne répondrait pas à un azolé.
 
@@ -90,8 +90,8 @@ Pour la prédiction secondaire (mycétome) :
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 69181040 | CRESEMBA 100 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 60184590 | CRESEMBA 200 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 69181040 | CRESEMBA 100 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 60184590 | CRESEMBA 200 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 

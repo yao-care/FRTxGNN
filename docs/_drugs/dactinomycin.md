@@ -4,17 +4,17 @@ title: Dactinomycin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 209
 evidence_level: L5
-indication_count: 9
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Dactinomycin : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "dactinomycin"
-predicted_indications: ["relapsing-remitting multiple sclerosis", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "extrahepatic bile duct rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
+predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
+description: "Dactinomycin : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
 ---
 
 # Dactinomycin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Dactinomycine : Des sarcomes pédiatriques et tumeurs germinales à la sclérose en plaques récurrente-rémittente
+## Dactinomycin: Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Les autres prédictions, majoritairement des sous-types de rhabdomyosarcome, rel
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les données d'AMM ; les indications connues du graphe de connaissances incluent le sarcome d'Ewing, le rhabdomyosarcome, la tumeur de Wilms, les tumeurs germinales testiculaires et la tumeur trophoblastique gestationnelle |
-| Nouvelle Indication Prédite | Sclérose en plaques récurrente-rémittente |
-| Score de Prédiction TxGNN | 99,58 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis) |
+| Score de Prédiction TxGNN | 0.9958 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -90,7 +90,7 @@ Ces publications soutiennent l'usage de la dactinomycine dans les sarcomes pédi
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66507634 | COSMEGEN 0,5 mg, poudre pour solution injectable (RECORDATI RARE DISEASES) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+| 66507634 | COSMEGEN 0,5 mg, poudre pour solution injectable (RECORDATI RARE DISEASES) | Poudre pour solution injectable | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 

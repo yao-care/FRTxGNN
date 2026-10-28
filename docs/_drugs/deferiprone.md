@@ -4,17 +4,17 @@ title: Deferiprone
 parent: Preuves modérées (L3-L4)
 nav_order: 220
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Deferiprone : nouvelle indication prédite, Porphyrie hépatique (niveau de preuve L4). Indication d'origine : Hémosidérose, bêta-thalassémie et hémoglobinopathies apparentées"
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+description: "Deferiprone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **9** 
+Niveau de preuve: **L4** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-## Déferiprone : De l'hémosidérose et de la bêta-thalassémie à la porphyrie hépatique
+## Deferiprone: Porphyrie hépatique (hepatic porphyria)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **porphyrie hépat
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hémosidérose, bêta-thalassémie et hémoglobinopathies apparentées (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Porphyrie hépatique |
-| Score de Prédiction TxGNN | 99,20 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Porphyrie hépatique (hepatic porphyria) |
+| Score de Prédiction TxGNN | 0.9920 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 6 (0 valide, 6 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -76,11 +76,11 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61628308 | DEFERIPRONE ARROW 500 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 69438015 | DEFERIPRONE ARROW 1000 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 65987486 | FERRIPROX 500 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60508302 | FERRIPROX 1000 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69694018 | FERRIPROX 100 mg/ml | Solution buvable | Non renseignée (AMM annulée) |
+| 61628308 | DEFERIPRONE ARROW 500 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 69438015 | DEFERIPRONE ARROW 1000 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 65987486 | FERRIPROX 500 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60508302 | FERRIPROX 1000 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69694018 | FERRIPROX 100 mg/ml | Solution buvable | Non renseignée (AMM active) |
 
 Une sixième AMM annulée existe (66508896, DEFERIPRONE LIPOMED 500 mg, comprimé pelliculé).
 
@@ -95,7 +95,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle et sur deux études précliniques (niveau L4), sans essai clinique. Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'évaluation de sécurité.
+- La prédiction repose uniquement sur le modèle et sur deux études précliniques (niveau L4), sans essai clinique. Le médicament est commercialisé en France, avec 6 AMM valides sur 6, mais les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM

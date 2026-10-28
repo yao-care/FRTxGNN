@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 |------|------|
 | Indication Originale | Anxiété ; delirium de sevrage alcoolique (le texte d'indication des AMM françaises n'est pas renseigné) |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,86 % |
+| Score de Prédiction TxGNN | 0,9986 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 10 (10 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ---
@@ -89,15 +89,15 @@ Seules les publications pertinentes sont listées ; plusieurs références sont 
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; l'oxazépam n'est donc plus commercialisé en France sous ces autorisations. Le texte des indications approuvées n'est pas renseigné.
+Les 10 AMM sur 10 sont valides ; le médicament est commercialisé en France. Le texte des indications approuvées n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69891695 | OXAZEPAM BIOGARAN 10 mg, comprimé | Comprimé | Annulée |
-| 64895095 | OXAZEPAM SUBSTIPHARM 10 mg, comprimé | Comprimé | Annulée |
-| 68431270 | OXAZEPAM ARROW 25 mg, comprimé sécable | Comprimé sécable | Annulée |
-| 60351986 | SERESTA 50 mg, comprimé sécable | Comprimé sécable | Annulée |
-| 60809355 | OXAZEPAM ARROW 10 mg, comprimé sécable | Comprimé sécable | Annulée |
+| 69891695 | OXAZEPAM BIOGARAN 10 mg, comprimé | Comprimé | Active |
+| 64895095 | OXAZEPAM SUBSTIPHARM 10 mg, comprimé | Comprimé | Active |
+| 68431270 | OXAZEPAM ARROW 25 mg, comprimé sécable | Comprimé sécable | Active |
+| 60351986 | SERESTA 50 mg, comprimé sécable | Comprimé sécable | Active |
+| 60809355 | OXAZEPAM ARROW 10 mg, comprimé sécable | Comprimé sécable | Active |
 
 ---
 
@@ -116,7 +116,7 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- Le score de prédiction est très élevé, et deux études comparatives anciennes ou de petite taille vont dans le sens d'un effet sur le sommeil, mais aucun essai clinique n'est enregistré. Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice sont absentes (lacune bloquante pour le criblage de sécurité).
+- Le score de prédiction est très élevé, et deux études comparatives anciennes ou de petite taille vont dans le sens d'un effet sur le sommeil, mais aucun essai clinique n'est enregistré. Le médicament est commercialisé en France (10 AMM valides sur 10), et les données de sécurité issues de la notice sont absentes (lacune bloquante pour le criblage de sécurité).
 - La classe des benzodiazépines est déjà largement utilisée dans l'insomnie ; l'intérêt d'un repositionnement de l'oxazépam reste donc à démontrer par rapport aux options existantes, compte tenu des risques de dépendance, de sevrage et de dépression respiratoire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

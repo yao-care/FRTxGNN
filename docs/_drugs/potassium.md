@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Potassium
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 618
-evidence_level: L5
+evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Potassium : nouvelle indication prédite, Trouble hypertensif (hypertension artérielle) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
@@ -14,7 +14,7 @@ predicted_indications: ["hypertensive disorder", "pulmonary hypertension with un
 # Potassium
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L1** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Potassium : D'un usage électrolytique sans indication renseignée à l'Hypertension artérielle
+## Potassium : D'un usage électrolytique sans indication renseignée au Trouble hypertensif (hypertension artérielle)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,10 +48,10 @@ avec **23 essais cliniques** (dont seulement 2 testent directement le potassium 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Trouble hypertensif (hypertension artérielle) |
-| Score de Prédiction TxGNN | 99,16 % |
+| Score de Prédiction TxGNN | 0,9916 |
 | Niveau de Preuve | L1 (selon l'évaluation fournie ; voir réserve ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 19 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Proceed with Guardrails |
 
 > **Réserve sur le niveau de preuve :** le niveau L1 repose sur la présence d'essais de Phase 3 et de méta-analyses. Or, la plupart des essais de Phase 3 recensés concernent le losartan potassique, dans lequel le potassium n'est qu'un contre-ion. Seuls deux essais de Phase 3 (NCT00000509 et NCT03809884) testent réellement le potassium. L'un n'a pas d'effectif communiqué et l'autre ne comprend que 7 participants. Le niveau de preuve réel est donc plus proche de L3 (méta-analyses et revues) que d'un L1 strict.
@@ -99,11 +99,11 @@ Les 19 AMM recensées sont annulées. Aucune n'a de texte d'indication renseign�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63010506 | NATI-K 500 mg | Comprimé gastro-résistant | Non renseignée (AMM annulée) |
-| 61334096 | Chlorure de potassium Lavoisier 20 % | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 63382862 | Kaleorid LP 1000 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM annulée) |
-| 68081197 | Chlorure de potassium Lavoisier 7,46 % | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 68050732 | Potassium H2 Pharma 25 mg/mL | Sirop | Non renseignée (AMM annulée) |
+| 63010506 | NATI-K 500 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
+| 61334096 | Chlorure de potassium Lavoisier 20 % | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 63382862 | Kaleorid LP 1000 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
+| 68081197 | Chlorure de potassium Lavoisier 7,46 % | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 68050732 | Potassium H2 Pharma 25 mg/mL | Sirop | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -118,7 +118,7 @@ Les éléments suivants, issus de l'analyse des preuves, appellent une vigilance
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Des méta-analyses d'essais randomisés soutiennent un effet hypotenseur d'un apport accru en potassium, avec un mécanisme physiologique plausible. En revanche, les essais directement centrés sur le potassium sont rares et de petite taille, et la plupart des essais d'hypertension recensés concernent des sels potassiques d'autres médicaments. Toutes les AMM françaises sont annulées.
+- Des méta-analyses d'essais randomisés soutiennent un effet hypotenseur d'un apport accru en potassium, avec un mécanisme physiologique plausible. En revanche, les essais directement centrés sur le potassium sont rares et de petite taille, et la plupart des essais d'hypertension recensés concernent des sels potassiques d'autres médicaments. Les 19 AMM françaises sont toutes valides (19 sur 19) et le médicament est commercialisé.
 - Les autres indications prédites (hypertension pulmonaire, maladie rénale hypertensive maligne, hypertension rénovasculaire maligne) ne reposent que sur le score du modèle ou sur une littérature indirecte. Elles relèvent d'un statut **Hold**. La prudence est particulièrement de mise en cas d'atteinte rénale sévère, du fait du risque d'hyperkaliémie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -127,7 +127,7 @@ Les éléments suivants, issus de l'analyse des preuves, appellent une vigilance
 - Définir la forme de potassium visée (médicament, supplément, sel enrichi), la dose et la voie d'administration.
 - Confirmer l'efficacité par des essais contrôlés de plus grande taille centrés sur le potassium.
 - Établir un plan de surveillance de la kaliémie et de la fonction rénale, avec exclusion ou encadrement des patients sous inhibiteurs du SRAA ou diurétiques épargneurs de potassium.
-- Clarifier la situation réglementaire, puisque toutes les AMM sont annulées.
+- Tenir compte du fait que le médicament est commercialisé en France, avec 19 AMM valides sur 19.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

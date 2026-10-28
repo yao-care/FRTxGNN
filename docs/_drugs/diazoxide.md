@@ -4,17 +4,17 @@ title: Diazoxide
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 235
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Diazoxide : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypoglycémie hyperinsulinémique…"
 monitor_inn: "DIAZOXIDE"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "autosomal dominant hyperinsulinism due to Kir6.2 deficiency"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
+description: "Diazoxide : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Diazoxide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Diazoxide : De l'hyperinsulinisme à l'alopécie (prédiction à faible niveau de preuve)
+## Diazoxide: Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun **essai clinique** n'est enregistré pour ces indications ; la littératur
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypoglycémie hyperinsulinémique, insulinome et hyperinsulinisme congénital (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
-| Score de Prédiction TxGNN | 99,96 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
+| Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 (L4 pour l'alopécie) |
-| Statut de Marché en France | Retiré (AMM annulées uniquement) |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -91,8 +91,8 @@ Publications relatives à l'hypertrichose (indication prédite en rang 7), qui m
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62678246 | PROGLICEM 25 mg, gélule (MSD France) | Gélule | Non renseignée (AMM annulée) |
-| 66800719 | PROGLICEM 100 mg, gélule (MSD France) | Gélule | Non renseignée (AMM annulée) |
+| 62678246 | PROGLICEM 25 mg, gélule (MSD France) | Gélule | Non renseignée (AMM active) |
+| 66800719 | PROGLICEM 100 mg, gélule (MSD France) | Gélule | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

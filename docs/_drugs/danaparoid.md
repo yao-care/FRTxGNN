@@ -6,9 +6,9 @@ nav_order: 211
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Danaparoid : nouvelle indication prédite, Thrombasthénie de Glanzmann (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM disponible"
 monitor_inn: "danaparoid"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "Scott syndrome"]
+description: "Danaparoid : nouvelle indication prédite, Glanzmann thrombasthenia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Danaparoid
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Danaparoïde : D'un anticoagulant à la thrombasthénie de Glanzmann
+## Danaparoid: Glanzmann thrombasthenia
 {: .text-alpha }
 
 ## Résumé en une phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **thrombasth�
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Non renseignée dans l'AMM disponible |
-| Nouvelle indication prédite | Thrombasthénie de Glanzmann |
-| Score de prédiction TxGNN | 99,88 % |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Glanzmann thrombasthenia |
+| Score de prédiction TxGNN | 0.9988 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Autorisation annulée (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
@@ -59,15 +59,15 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La thrombasthénie de Glanzmann est une maladie hémorragique due à un déficit ou un dysfonctionnement de l'intégrine plaquettaire αIIbβ3. Un anticoagulant devrait aggraver le risque hémorragique, et non l'améliorer. Il n'existe donc pas de lien mécanistique plausible entre l'usage d'origine et cette nouvelle indication.
 
-Le score élevé (99,88 %) reflète vraisemblablement un artefact du graphe de connaissances, par exemple une association partagée avec des nœuds d'hémostase ou de coagulation. Il ne s'appuie sur aucun rationnel thérapeutique. Les cinq autres prédictions suivent la même logique, avec les mêmes réserves :
+Il ne s'appuie sur aucun rationnel thérapeutique. Les cinq autres prédictions suivent la même logique, avec les mêmes réserves :
 
 | Rang | Maladie prédite | Score TxGNN | Évaluation |
 |------|------|------|------|
-| 2 | Trouble primaire de la libération plaquettaire | 99,88 % | Défaut plaquettaire non corrigé par l'anticoagulation ; risque hémorragique accru |
-| 3 | Pseudo-maladie de von Willebrand | 99,83 % | Aucun effet correcteur sur l'interaction GPIbα-VWF ; risque hémorragique accru |
-| 4 | Diathèse hémorragique par défaut d'un récepteur du collagène | 99,30 % | Le médicament ne cible pas ces récepteurs ; aggravation attendue du saignement |
-| 5 | Trouble hémorragique lié à une thrombopénie constitutionnelle | 99,30 % | L'usage dans la thrombopénie induite par l'héparine (affection acquise et prothrombotique) ne se transpose pas |
-| 6 | Syndrome de Scott | 99,28 % | Aggrave le défaut d'activité procoagulante au lieu de le corriger |
+| 2 | Trouble primaire de la libération plaquettaire | 0,9988 | Défaut plaquettaire non corrigé par l'anticoagulation ; risque hémorragique accru |
+| 3 | Pseudo-maladie de von Willebrand | 0,9983 | Aucun effet correcteur sur l'interaction GPIbα-VWF ; risque hémorragique accru |
+| 4 | Diathèse hémorragique par défaut d'un récepteur du collagène | 0,9930 | Le médicament ne cible pas ces récepteurs ; aggravation attendue du saignement |
+| 5 | Trouble hémorragique lié à une thrombopénie constitutionnelle | 0,9930 | L'usage dans la thrombopénie induite par l'héparine (affection acquise et prothrombotique) ne se transpose pas |
+| 6 | Syndrome de Scott | 0,9928 | Aggrave le défaut d'activité procoagulante au lieu de le corriger |
 
 ## Preuves d'essais cliniques
 
@@ -81,7 +81,7 @@ Aucune littérature associée n'est disponible actuellement.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 69449143 | ORGARAN 750 U.I. anti Xa/0,6 ml, solution injectable en ampoule (VIATRIS SANTE) | Solution injectable | Non renseignée (AMM annulée) |
+| 69449143 | ORGARAN 750 U.I. anti Xa/0,6 ml, solution injectable en ampoule (VIATRIS SANTE) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de sécurité
 

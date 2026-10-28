@@ -4,17 +4,17 @@ title: Tramadol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 777
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tramadol : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (niveau de preuve L5). Indication d'origine : Arthrose, arthropathie"
 monitor_inn: "TRAMADOL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+description: "Tramadol : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée …"
 ---
 
 # Tramadol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Tramadol : De l'arthrose à la dysplasie acromésomélique de type Hunter-Thompson
+## Tramadol: Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette dir
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Arthrose, arthropathie (d'après le graphe de connaissances ; aucun texte d'indication n'est renseigné dans l'AMM) |
-| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le tramadol est un agoniste des récepteurs opioïdes mu, doté d'une inhibition de la recapture de la sérotonine et de la noradrénaline. Il agit comme analgésique et son usage dans les douleurs ostéo-articulaires est connu.
 
-L'analyse de la plausibilité ne identifie **aucun lien mécanistique** entre le tramadol et cette pathologie. La dysplasie acromésomélique de type Hunter-Thompson est une maladie génétique rare (perte de fonction de CDMP1/GDF5) qui altère la croissance des membres. Le tramadol n'a aucun effet modificateur de la maladie. Le score élevé semble refléter la proximité, dans le graphe de connaissances, avec des affections squelettiques et articulaires plutôt qu'une justification biologique. Tout au plus, un effet analgésique symptomatique pourrait être pertinent, ce qui ne constitue pas un repositionnement.
+L'analyse de la plausibilité ne identifie **aucun lien mécanistique** entre le tramadol et cette pathologie. La dysplasie acromésomélique de type Hunter-Thompson est une maladie génétique rare (perte de fonction de CDMP1/GDF5) qui altère la croissance des membres. Le tramadol n'a aucun effet modificateur de la maladie. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Tout au plus, un effet analgésique symptomatique pourrait être pertinent, ce qui ne constitue pas un repositionnement.
 
 Les autres prédictions les mieux classées vont dans le même sens : dysplasies squelettiques rares (syndrome brachyolmie-amélogenèse imparfaite, brachyolmie, pseudoachondroplasie), myosclérose, spondylarthropathie (susceptibilité), formes d'arthrite juvénile et nodulose rhumatoïde. Aucune ne dispose de preuves, et le tramadol n'y offrirait qu'un soulagement symptomatique de la douleur.
 
@@ -76,7 +76,7 @@ Pour information, une publication a été retrouvée pour une prédiction de ran
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66750351 | TRAMADOL TEVA L.P. 100 mg (TEVA SANTE) | Comprimé pelliculé à libération prolongée | Non renseignée ; AMM annulée |
+| 66750351 | TRAMADOL TEVA L.P. 100 mg (TEVA SANTE) | Comprimé pelliculé à libération prolongée | Non renseignée ; AMM active |
 
 ## Considérations de Sécurité
 

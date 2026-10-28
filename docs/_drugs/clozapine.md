@@ -6,9 +6,9 @@ nav_order: 192
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clozapine : nouvelle indication prédite, Trouble bipolaire de type maniaque (manic bipolar affective disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM françaises (te…"
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
+description: "Clozapine : nouvelle indication prédite, Trouble bipolaire de type maniaque (manic bipolar affective disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clozapine
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Clozapine : De la schizophrénie résistante au trouble bipolaire maniaque
+## Clozapine: Trouble bipolaire de type maniaque (manic bipolar affective disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La clozapine est un antipsychotique atypique, utilisé de longue date dans la schizophrénie résistante aux autres traitements.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble bipolaire de type maniaque** (score de 99,95 %), avec **1 essai clinique de Phase 2 terminé** pour cette indication précise et **20 publications** associées, dont une revue systématique avec méta-analyse. Pour le **trouble bipolaire** au sens large, les données compilées comptent aussi un essai de Phase 3 pédiatrique contre placebo.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble bipolaire de type maniaque** (score de 0,9995), avec **1 essai clinique de Phase 2 terminé** pour cette indication précise et **20 publications** associées, dont une revue systématique avec méta-analyse. Pour le **trouble bipolaire** au sens large, les données compilées comptent aussi un essai de Phase 3 pédiatrique contre placebo.
 
 ---
 
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble bipol
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM françaises (texte d'indication vide) ; usage établi : schizophrénie résistante |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Trouble bipolaire de type maniaque (manic bipolar affective disorder) |
-| Score de Prédiction TxGNN | 99,95 % |
-| Niveau de Preuve | L2 (1 essai de Phase 2 terminé ; L1 atteint pour le « trouble bipolaire » général, grâce à l'essai de Phase 3 pédiatrique et à la méta-analyse) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 18 (toutes annulées) |
+| Score de Prédiction TxGNN | 0.9995 |
+| Niveau de Preuve | L5 (1 essai de Phase 2 terminé ; L1 atteint pour le « trouble bipolaire » général, grâce à l'essai de Phase 3 pédiatrique et à la méta-analyse) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -106,13 +106,13 @@ Essais complémentaires, listés pour le trouble bipolaire au sens large :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62552920 | LEPONEX 100 mg | Comprimé sécable | Non renseignée (AMM annulée) |
-| 67513540 | LEPONEX 25 mg | Comprimé sécable | Non renseignée (AMM annulée) |
-| 61247556 | CLOZAPINE TEVA 100 mg | Comprimé sécable | Non renseignée (AMM annulée) |
-| 64814983 | CLOZAPINE VIATRIS 100 mg | Comprimé sécable | Non renseignée (AMM annulée) |
-| 68735825 | CLOZAPINE ACCORD 100 mg | Comprimé sécable | Non renseignée (AMM annulée) |
+| 62552920 | LEPONEX 100 mg | Comprimé sécable | Non renseignée (AMM active) |
+| 67513540 | LEPONEX 25 mg | Comprimé sécable | Non renseignée (AMM active) |
+| 61247556 | CLOZAPINE TEVA 100 mg | Comprimé sécable | Non renseignée (AMM active) |
+| 64814983 | CLOZAPINE VIATRIS 100 mg | Comprimé sécable | Non renseignée (AMM active) |
+| 68735825 | CLOZAPINE ACCORD 100 mg | Comprimé sécable | Non renseignée (AMM active) |
 
-Au total, les 18 AMM recensées sont annulées ; aucune AMM valide n'est enregistrée dans les données compilées.
+Au total, 18 AMM valides sur 18 recensées sont enregistrées dans les données compilées.
 
 ---
 
@@ -132,7 +132,6 @@ Les mises en garde et contre-indications de la notice française n'étant pas di
 
 **Justification :**
 - La clozapine bénéficie d'un essai de Phase 2 terminé dans la manie résistante, d'un essai de Phase 3 pédiatrique contre placebo et de méta-analyses dans le trouble bipolaire résistant. Les preuves sont cependant limitées par la petite taille des échantillons et l'absence de grand essai chez l'adulte. Le profil de risque (agranulocytose, effets cardiaques, convulsions, effets métaboliques) impose une surveillance stricte.
-- Aucune AMM n'est actuellement valide en France pour les présentations recensées, ce qui complique tout positionnement réglementaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice française (ANSM), actuellement manquantes

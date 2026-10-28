@@ -4,17 +4,17 @@ title: Docetaxel
 parent: Preuves élevées (L1-L2)
 nav_order: 251
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Docetaxel : nouvelle indication prédite, Carcinome mammaire féminin (niveau de preuve L2). Indication d'origine : Cancer du poumon non à petites cellules, cancer de la prostate…"
 monitor_inn: "docetaxel"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+description: "Docetaxel : nouvelle indication prédite, Ewing sarcoma (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Docétaxel : Du Cancer du Poumon Non à Petites Cellules au Carcinome Mammaire Féminin
+## Docetaxel: Ewing sarcoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le docétaxel est un taxane cytotoxique, initialement utilisé pour le traitement du cancer du poumon non à petites cellules, du cancer de la prostate, des cancers de la tête et du cou, du cancer gastrique et du cancer du sein.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome mammaire féminin**, avec **43 essais cliniques** et **20 publications** associés dans les données compilées pour ce rapport.
 Il faut toutefois noter que le cancer du sein figure déjà parmi les indications d'origine du docétaxel : il s'agit d'un usage déjà établi et non d'un repositionnement au sens strict.
 
 ---
@@ -48,12 +47,12 @@ Il faut toutefois noter que le cancer du sein figure déjà parmi les indication
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer du poumon non à petites cellules, cancer de la prostate, cancer de la tête et du cou, cancer gastrique, cancer du sein (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Carcinome mammaire féminin |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ewing sarcoma |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Retiré (AMM toutes annulées) |
-| Nombre d'AMM | 11 (0 valide, 11 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -108,15 +107,15 @@ Les essais de phase 3 listés testent le docétaxel dans des schémas combinés 
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées ; aucun produit n'est actuellement valide dans les données compilées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60385433 | TAXOTERE 20 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 60509781 | TAXOTERE 160 mg/8 ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 68257752 | TAXOTERE 80 mg/4 ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 61038713 | DOCETAXEL KABI 20 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 68408115 | DOCETAXEL ACCORD 160 mg/8 ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 60385433 | TAXOTERE 20 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 60509781 | TAXOTERE 160 mg/8 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 68257752 | TAXOTERE 80 mg/4 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 61038713 | DOCETAXEL KABI 20 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 68408115 | DOCETAXEL ACCORD 160 mg/8 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 
@@ -150,7 +149,6 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 **Justification :**
 - Le cancer du sein est déjà une indication établie du docétaxel, appuyée par de nombreux essais de phase 2 et plusieurs essais de phase 3. Le niveau de preuve attribué est toutefois L2, car les données fournies ne comportent pas d'essai de phase 3 testant le docétaxel comme seule variable.
-- Toutes les AMM françaises recensées sont annulées et les données de sécurité officielles sont manquantes, ce qui impose des garde-fous avant toute avancée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).

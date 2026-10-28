@@ -6,9 +6,9 @@ nav_order: 525
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Naproxen : nouvelle indication prédite, Syndrome de brachydactylie-syndactylie (niveau de preuve L5). Indication d'origine : Données non disponibles dans les AMM"
 monitor_inn: "naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Naproxen
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Naproxène : Des Pathologies Inflammatoires et Douloureuses au Syndrome de Brachydactylie-Syndactylie
+## Naproxen: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,12 +48,12 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette pr�
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Données non disponibles dans les AMM (le graphe de connaissances indique notamment bursite, polyarthrite rhumatoïde, spondylarthrite ankylosante, arthrose, goutte, migraine) |
-| Nouvelle Indication Predite | Syndrome de brachydactylie-syndactylie |
-| Score de Prediction TxGNN | 99,35 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Brachydactyly-syndactyly syndrome |
+| Score de Prediction TxGNN | 0.9935 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 12 (0 valide, 12 annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Decision Recommandee | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome de brachydactylie-syndactylie est une malformation congénitale rare des membres, d'origine vraisemblablement développementale et génétique. Les effets anti-inflammatoires et antalgiques de l'inhibition des COX n'ont pas de pertinence évidente pour sa physiopathologie. Le seul lien concevable, le soulagement symptomatique de douleurs musculo-squelettiques, ne modifierait pas l'évolution de la maladie et n'est pas étayé ici.
 
-Le score élevé du modèle (99,35 %) est donc une prédiction purement computationnelle. En l'état, aucun lien mécanistique n'est soutenu par les données disponibles.
+Le score élevé du modèle (0,9935) est donc une prédiction purement computationnelle. En l'état, aucun lien mécanistique n'est soutenu par les données disponibles.
 
 D'autres candidats prédits présentent le même profil (niveau L5, sans essai ni publication) : le syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (99,22 %), la dysplasie acromésomélique de type Hunter-Thompson (99,17 %) et le syndrome de brachyolmie-amélogenèse imparfaite (99,06 %).
 
@@ -88,11 +88,11 @@ Les 12 AMM du naproxène en France sont toutes annulées. Le texte des indicatio
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 61990606 | Naproxène sodique Arrow 550 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 62237910 | Alevetabs 220 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 69378155 | Naprosyne 250 mg | Comprimé | Non renseignée (AMM annulée) |
-| 67849644 | Apranax 275 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63738842 | Apranax 550 mg | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
+| 61990606 | Naproxène sodique Arrow 550 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 62237910 | Alevetabs 220 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 69378155 | Naprosyne 250 mg | Comprimé | Non renseignée (AMM active) |
+| 67849644 | Apranax 275 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 63738842 | Apranax 550 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 
 ---
 

@@ -48,29 +48,29 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 |------|------|
 | Indication Originale | Maladie de Castleman (source : base de connaissances TxGNN, le texte d'indication des AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Mastocytome extracutané |
-| Score de Prédiction TxGNN | 99,64 % |
+| Score de Prédiction TxGNN | 0,9964 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, siltuximab est un anticorps monoclonal dirigé contre l'interleukine-6 (IL-6). Son efficacité dans la maladie de Castleman, caractérisée par une forte production d'IL-6, est le fondement de son usage d'origine.
 
-Pour le mastocytome extracutané, aucun lien direct avec la biologie des mastocytes n'est établi dans les données compilées. L'IL-6 pourrait contribuer à la prolifération mastocytaire ou à la signalisation inflammatoire, mais cette hypothèse reste spéculative. Le score élevé de TxGNN est une prédiction issue du graphe de connaissances, sans corroboration clinique.
+Pour le mastocytome extracutané, aucun lien direct avec la biologie des mastocytes n'est établi dans les données compilées. L'IL-6 pourrait contribuer à la prolifération mastocytaire ou à la signalisation inflammatoire, mais cette hypothèse reste spéculative. Le score élevé de TxGNN est une prédiction du modèle TxGNN (apprentissage profond) ; il peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique, sans corroboration clinique.
 
 **Autres indications prédites (toutes sans essai clinique) :**
 
 | Rang | Maladie | Score TxGNN | Niveau | Commentaire |
 |------|------|------|------|------|
-| 2 | Infarctus hépatique | 99,44 % | L5 | Aucune justification pour une nécrose ischémique d'origine vasculaire |
-| 3 | Maladie veino-occlusive hépatique | 99,40 % | L5 | Lien hypothétique via l'inflammation endothéliale médiée par l'IL-6 |
-| 4 | Péliose hépatique | 99,29 % | L5 | Lien indirect plausible via la maladie de Castleman |
-| 5 | Sarcome de Kaposi | 99,28 % | L4 | Lien plausible via KSHV/HHV-8 et l'IL-6 (virale et humaine) ; une revue générale seulement |
-| 6 | Fièvre méditerranéenne familiale (récessive) | 99,22 % | L5 | Plausible via l'IL-6, mais les inhibiteurs de l'IL-1 sont l'alternative établie |
-| 7 | Mastocytose systémique agressive | 99,16 % | L5 | Maladie dominée par les mutations KIT ; rôle de l'IL-6 non établi |
-| 8 | Fièvre périodique familiale (dominante) | 99,05 % | L5 | Plausible (ex. TRAPS), sans donnée propre au siltuximab |
+| 2 | Infarctus hépatique | 0,9944 | L5 | Aucune justification pour une nécrose ischémique d'origine vasculaire |
+| 3 | Maladie veino-occlusive hépatique | 0,9940 | L5 | Lien hypothétique via l'inflammation endothéliale médiée par l'IL-6 |
+| 4 | Péliose hépatique | 0,9929 | L5 | Lien indirect plausible via la maladie de Castleman |
+| 5 | Sarcome de Kaposi | 0,9928 | L4 | Lien plausible via KSHV/HHV-8 et l'IL-6 (virale et humaine) ; une revue générale seulement |
+| 6 | Fièvre méditerranéenne familiale (récessive) | 0,9922 | L5 | Plausible via l'IL-6, mais les inhibiteurs de l'IL-1 sont l'alternative établie |
+| 7 | Mastocytose systémique agressive | 0,9916 | L5 | Maladie dominée par les mutations KIT ; rôle de l'IL-6 non établi |
+| 8 | Fièvre périodique familiale (dominante) | 0,9905 | L5 | Plausible (ex. TRAPS), sans donnée propre au siltuximab |
 
 Parmi elles, le sarcome de Kaposi est la piste la plus étayée sur le plan biologique (niveau L4, « question de recherche »).
 
@@ -90,10 +90,10 @@ Aucune publication ne concerne directement le mastocytome extracutané. La seule
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60622302 | SYLVANT 100 mg (annulée) | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 63846800 | SYLVANT 400 mg (annulée) | Poudre à diluer pour solution pour perfusion | Non renseignée |
+| 60622302 | SYLVANT 100 mg (active) | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 63846800 | SYLVANT 400 mg (active) | Poudre à diluer pour solution pour perfusion | Non renseignée |
 
-Les deux AMM, détenues par Recordati Netherlands, sont annulées ; il n'existe donc actuellement aucune AMM valide en France.
+Les deux AMM, détenues par Recordati Netherlands, sont valides ; le médicament est actuellement commercialisé en France.
 
 ## Considérations de Sécurité
 

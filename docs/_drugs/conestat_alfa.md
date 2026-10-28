@@ -4,17 +4,17 @@ title: Conestat Alfa
 parent: Preuves élevées (L1-L2)
 nav_order: 197
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Conestat Alfa : nouvelle indication prédite, Déficit en inhibiteur de C1 (niveau de preuve L1). Indication d'origine : Angioedème héréditaire"
 monitor_inn: "CONESTAT ALFA"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
+description: "Conestat Alfa : nouvelle indication prédite, C1 inhibitor deficiency (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Conestat Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Conestat alfa : De l'angioedème héréditaire au déficit en inhibiteur de la C1 estérase
+## Conestat Alfa: C1 inhibitor deficiency
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il faut toutefois noter que cette prédiction recoupe en pratique l'indication d
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Angioedème héréditaire (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Déficit en inhibiteur de C1 |
-| Score de Prédiction TxGNN | 99,999 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | C1 inhibitor deficiency |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le déficit en C1-INH est la cause même de l'angioedème héréditaire de type I et II. Conestat alfa remplace la protéine fonctionnelle manquante ou dysfonctionnelle. Il rétablit ainsi le contrôle des voies du complément, de contact et de la kallikréine-kinine, ce qui réduit la production de bradykinine, médiateur principal de l'œdème.
 
-La prédiction est donc cohérente sur le plan mécanistique, mais elle correspond à l'indication d'origine. Par ailleurs, le même modèle propose d'autres maladies (troubles plaquettaires, serpinopathies, etc.) pour lesquelles aucun lien mécanistique plausible ni aucune preuve clinique n'ont été identifiés ; elles relèvent très probablement d'artefacts du graphe et ne sont pas retenues ici.
+La prédiction est donc cohérente sur le plan mécanistique, mais elle correspond à l'indication d'origine.
 
 ---
 
@@ -99,8 +99,8 @@ La prédiction est donc cohérente sur le plan mécanistique, mais elle correspo
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61253153 | RUCONEST 2100 U, poudre et solvant pour solution injectable (annulée) | Poudre et solvant pour solution injectable | Non renseignée |
-| 60634703 | RUCONEST 2100 U, poudre pour solution injectable (annulée) | Poudre pour solution injectable | Non renseignée |
+| 61253153 | RUCONEST 2100 U, poudre et solvant pour solution injectable (active) | Poudre et solvant pour solution injectable | Non renseignée |
+| 60634703 | RUCONEST 2100 U, poudre pour solution injectable (active) | Poudre pour solution injectable | Non renseignée |
 
 ---
 
@@ -121,7 +121,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais randomisés contrôlés par placebo (dont un essai de phase 3 terminé) soutiennent l'efficacité dans l'angioedème héréditaire par déficit en C1-INH. Il s'agit toutefois de l'indication d'origine, non d'un véritable repositionnement, et toutes les AMM françaises sont annulées, ce qui limite la disponibilité pratique.
+- Plusieurs essais randomisés contrôlés par placebo (dont un essai de phase 3 terminé) soutiennent l'efficacité dans l'angioedème héréditaire par déficit en C1-INH.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice de l'ANSM (donnée bloquante pour le criblage de sécurité)

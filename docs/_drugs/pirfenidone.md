@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pirfenidone
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 609
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pirfenidone : nouvelle indication prédite, Néoplasie fibroblastique (niveau de preuve L4). Indication d'origine : Fibrose pulmonaire idiopathique"
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone : nouvelle indication prédite, Extracutaneous mastocytoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pirfenidone
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Pirfénidone : De la fibrose pulmonaire idiopathique à la néoplasie fibroblastique
+## Pirfenidone: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -41,18 +41,18 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 La pirfénidone est un agent antifibrosant oral, initialement utilisé pour le traitement de la fibrose pulmonaire idiopathique (et des pneumopathies interstitielles apparentées).
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **néoplasie fibroblastique** (rang 9 des prédictions, la seule disposant d'une littérature associée), mais **aucun essai clinique** n'est enregistré et seules **6 publications** indirectes (études in vitro, rapports de cas, une étude pilote) existent.
 
-> Remarque : l'indication prédite classée en premier par le score TxGNN est le mastocytome extracutané (99,71 %). Elle ne repose sur aucune preuve (niveau L5). La néoplasie fibroblastique, classée 9e, est retenue pour ce rapport car c'est la seule prédiction qui s'appuie sur des données indirectes.
+> Remarque : l'indication prédite classée en premier par le score TxGNN est le mastocytome extracutané (0,9971). Elle ne repose sur aucune preuve (niveau L5). La néoplasie fibroblastique, classée 9e, est retenue pour ce rapport car c'est la seule prédiction qui s'appuie sur des données indirectes.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Fibrose pulmonaire idiopathique (le texte d'indication des AMM n'est pas renseigné ; indications d'origine issues du graphe de connaissances : pneumopathie interstitielle aiguë, fibrose pulmonaire idiopathique, pneumopathie interstitielle idiopathique) |
-| Nouvelle Indication Prédite | Néoplasie fibroblastique |
-| Score de Prédiction TxGNN | 99,23 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement annulé (aucune AMM valide) |
-| Nombre d'AMM | 17 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Extracutaneous mastocytoma |
+| Score de Prédiction TxGNN | 0.9971 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Hold (question de recherche, pas de développement à ce stade) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -103,8 +103,6 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction repose sur un score de modèle élevé, mais aucun essai clinique n'existe et les preuves sont indirectes (in vitro sur une maladie bénigne, un pilote non concluant dans les données disponibles). Des signaux de sécurité de type néoplasique ou fibroprolifératif vont en sens inverse.
-- Aucune AMM n'est valide en France actuellement, et les données de sécurité de la notice sont manquantes.
-- Les autres prédictions les mieux classées (mastocytome extracutané, dermatofibrosarcome protubérant, mastocytose systémique agressive, fibrosarcomes) restent au niveau L5, sans aucune preuve ; leur score élevé est probablement un artefact du graphe de connaissances.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde, contre-indications), actuellement bloquante pour le criblage de sécurité

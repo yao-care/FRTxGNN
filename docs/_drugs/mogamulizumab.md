@@ -6,9 +6,9 @@ nav_order: 511
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Mogamulizumab : nouvelle indication prédite, Carcinome urothélial de l'urètre prostatique (niveau de preuve L5). Indication d'origine : Mycosis fongoïde et variantes"
 monitor_inn: "MOGAMULIZUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
+description: "Mogamulizumab : nouvelle indication prédite, Carcinome urothélial de l'urètre prostatique (prostatic urethra urothelial carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans le…"
 ---
 
 # Mogamulizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Mogamulizumab : Du Lymphome T Cutané au Carcinome Urothélial de l'Urètre Prostatique
+## Mogamulizumab: Carcinome urothélial de l'urètre prostatique (prostatic urethra urothelial carcinoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mycosis fongoïde et variantes ; lymphome T cutané primitif (selon le graphe de connaissances, le texte d'indication de l'AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Carcinome urothélial de l'urètre prostatique |
-| Score de Prédiction TxGNN | 99,44 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Carcinome urothélial de l'urètre prostatique (prostatic urethra urothelial carcinoma) |
+| Score de Prédiction TxGNN | 0.9944 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien théorique avec le carcinome urothélial serait la déplétion des Treg dans le microenvironnement tumoral, afin de renforcer l'immunité antitumorale. Ce raisonnement reste **spéculatif** : aucune donnée ne montre que CCR4 soit exprimé ou pertinent dans cette tumeur, et la similarité avec l'indication d'origine n'a pas été évaluée.
 
-Le score TxGNN élevé reflète une prédiction du graphe de connaissances et ne constitue pas une preuve d'efficacité. Les autres cibles prédites (carcinomes urothéliaux du bassinet et de la vessie, tumeurs liées à HHV-8, ectomésenchymome, tumeur cutanée à cellules granuleuses maligne) reposent sur le même type de raisonnement, sans aucune donnée de soutien.
+Le score TxGNN élevé reflète une prédiction du modèle TxGNN (apprentissage profond) et ne constitue pas une preuve d'efficacité. Les autres cibles prédites (carcinomes urothéliaux du bassinet et de la vessie, tumeurs liées à HHV-8, ectomésenchymome, tumeur cutanée à cellules granuleuses maligne) reposent sur le même type de raisonnement, sans aucune donnée de soutien.
 
 ---
 
@@ -84,7 +84,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62292771 | POTELIGEO 4 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 62292771 | POTELIGEO 4 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 ---
 

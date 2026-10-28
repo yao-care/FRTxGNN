@@ -6,9 +6,9 @@ nav_order: 646
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Raloxifene : nouvelle indication prédite, Ulcère duodénal (niveau de preuve L5). Indication d'origine : Ostéoporose postménopausique"
 monitor_inn: "raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
+description: "Raloxifene : nouvelle indication prédite, Ulcère duodénal (duodenal ulcer (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Raloxifene
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Raloxifène : De l'Ostéoporose Postménopausique à l'Ulcère Duodénal
+## Raloxifene: Ulcère duodénal (duodenal ulcer (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,21 +46,21 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ostéoporose postménopausique (issue du graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Ulcère duodénal |
-| Score de Prédiction TxGNN | 99,72 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ulcère duodénal (duodenal ulcer (disease)) |
+| Score de Prédiction TxGNN | 0.9972 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le raloxifène est un SERM : il exerce une activité agoniste œstrogénique sur l'os et une activité antagoniste dans le sein et l'utérus. Son efficacité dans l'ostéoporose postménopausique est établie.
 
-Aucun lien mécanistique n'est démontré entre cette action et l'ulcère duodénal. Une éventuelle implication de la signalisation des récepteurs des œstrogènes dans la protection de la muqueuse gastroduodénale reste purement spéculative et n'est pas appuyée par les données disponibles. Le score élevé (0,997) reflète une proximité dans le graphe de connaissances, et non un signal thérapeutique confirmé.
+Aucun lien mécanistique n'est démontré entre cette action et l'ulcère duodénal. Une éventuelle implication de la signalisation des récepteurs des œstrogènes dans la protection de la muqueuse gastroduodénale reste purement spéculative et n'est pas appuyée par les données disponibles. Le score élevé (0,9972) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un signal thérapeutique confirmé.
 
-Trois autres prédictions figurent dans les données, toutes de niveau L5 et sans essai ni publication : l'hypoalphalipoprotéinémie (score 99,65 %), l'obstruction duodénale (99,64 %, peu plausible car il s'agit d'une affection structurelle) et le reflux duodénogastrique (99,59 %). Ces pistes ne sont pas détaillées ici.
+Trois autres prédictions figurent dans les données, toutes de niveau L5 et sans essai ni publication : l'hypoalphalipoprotéinémie (score 0,9965), l'obstruction duodénale (0,9964, peu plausible car il s'agit d'une affection structurelle) et le reflux duodénogastrique (0,9959). Ces pistes ne sont pas détaillées ici.
 
 ## Preuves d'Essais Cliniques
 

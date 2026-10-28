@@ -47,28 +47,28 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **cholangite sclé
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Cholangite sclérosante |
-| Score de Prédiction TxGNN | 99,66 % |
+| Score de Prédiction TxGNN | 0,9966 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 4) |
+| Nombre d'AMM | 4 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la framycétine fait partie des aminosides, antibiotiques qui inhibent la synthèse protéique bactérienne (sous-unité ribosomale 30S) et sont actifs surtout contre les bactéries à Gram négatif. Elle est faiblement absorbée par voie orale et agit principalement dans la lumière intestinale ou localement.
 
-Le lien hypothétique avec la cholangite sclérosante passe par l'axe intestin-foie : moduler le microbiote intestinal pourrait influencer la maladie, comme cela a été exploré avec la vancomycine orale. Cependant, la classe des aminosides n'a pas de rôle établi dans cette maladie, et le score élevé (0,997) reste une simple prédiction du modèle.
+Le lien hypothétique avec la cholangite sclérosante passe par l'axe intestin-foie : moduler le microbiote intestinal pourrait influencer la maladie, comme cela a été exploré avec la vancomycine orale. Cependant, la classe des aminosides n'a pas de rôle établi dans cette maladie, et le score élevé (0,9966) reste une simple prédiction du modèle.
 
 ### Autres indications prédites (à titre d'information)
 
 | Indication prédite | Score TxGNN | Commentaire |
 |------|------|------|
-| Infection urinaire | 99,42 % | Plausible biologiquement (activité sur Gram négatif), mais exposition systémique limitée et alternatives mieux établies |
-| Déficit congénital en prothrombine | 99,41 % | Aucun lien mécanistique plausible ; probable faux positif |
-| Urétrite à Ureaplasma | 99,28 % | Adéquation faible : ces germes sont traités par tétracyclines, macrolides ou fluoroquinolones |
-| Urétrite gonococcique | 99,28 % | Plausibilité au niveau de la classe seulement ; molécules de référence disponibles (ex. ceftriaxone) |
-| Maladie inflammatoire de l'utérus | 99,18 % | Plausible au niveau de la classe uniquement ; non utilisée par voie systémique |
-| Pyélonéphrite xanthogranulomateuse | 99,18 % | Antibiotiques seuls peu probablement suffisants (prise en charge souvent chirurgicale) |
+| Infection urinaire | 0,9942 | Plausible biologiquement (activité sur Gram négatif), mais exposition systémique limitée et alternatives mieux établies |
+| Déficit congénital en prothrombine | 0,9941 | Aucun lien mécanistique plausible ; probable faux positif |
+| Urétrite à Ureaplasma | 0,9928 | Adéquation faible : ces germes sont traités par tétracyclines, macrolides ou fluoroquinolones |
+| Urétrite gonococcique | 0,9928 | Plausibilité au niveau de la classe seulement ; molécules de référence disponibles (ex. ceftriaxone) |
+| Maladie inflammatoire de l'utérus | 0,9918 | Plausible au niveau de la classe uniquement ; non utilisée par voie systémique |
+| Pyélonéphrite xanthogranulomateuse | 0,9918 | Antibiotiques seuls peu probablement suffisants (prise en charge souvent chirurgicale) |
 
 ## Preuves d'Essais Cliniques
 
@@ -83,9 +83,9 @@ Aucune littérature associée disponible actuellement.
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 67644148 | SEPTOMIXINE, pâte pour usage dentaire | Pâte pour usage dentaire | Non renseignée (AMM annulée) |
-| 65164218 | FRAKIDEX, pommade ophtalmique | Pommade | Non renseignée (AMM annulée) |
-| 60814943 | FRAKIDEX, collyre en solution | Collyre en solution | Non renseignée (AMM annulée) |
-| 66586731 | FRAMYXONE, solution pour instillation auriculaire | Solution pour instillation | Non renseignée (AMM annulée) |
+| 65164218 | FRAKIDEX, pommade ophtalmique | Pommade | Non renseignée (AMM active) |
+| 60814943 | FRAKIDEX, collyre en solution | Collyre en solution | Non renseignée (AMM active) |
+| 66586731 | FRAMYXONE, solution pour instillation auriculaire | Solution pour instillation | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est hypothétique, les formes commercialisées étaient locales (dentaire, ophtalmique, auriculaire) et toutes les AMM sont annulées.
+- La prédiction repose uniquement sur le modèle TxGNN (deep learning, niveau L5), sans essai clinique ni publication. Le mécanisme est hypothétique, les formes commercialisées étaient locales (dentaire, ophtalmique, auriculaire) et 3 des 4 AMM sont valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de la framycétine

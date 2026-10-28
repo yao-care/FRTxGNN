@@ -47,9 +47,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rh
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées |
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,57 % |
+| Score de Prédiction TxGNN | 0,9957 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Une hypothèse indirecte existe : l'inflammation auto-immune est associée à un état d'hypercoagulabilité et à une génération accrue de thrombine, qui pourrait être une cible de l'inhibition du facteur Xa. Une revue française de 2021 sur le test de génération de thrombine dans les maladies auto-immunes va dans ce sens, mais sans évaluer le rivaroxaban.
 
-Cette hypothèse ne suggère **aucune activité modificatrice de la maladie**. Le score élevé du modèle (0,996) n'est pas corroboré par des données cliniques.
+Cette hypothèse ne suggère **aucune activité modificatrice de la maladie**. Le score élevé du modèle (0,9957) n'est pas corroboré par des données cliniques.
 
 ## Preuves d'Essais Cliniques
 
@@ -107,13 +107,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,57 %), mais il n'existe ni essai clinique ni publication évaluant l'efficacité du rivaroxaban dans la polyarthrite rhumatoïde (niveau L5). Les données de sécurité officielles sont absentes et le médicament n'a plus d'AMM valide en France.
+- Le score TxGNN est très élevé (0,9957), mais il n'existe ni essai clinique ni publication évaluant l'efficacité du rivaroxaban dans la polyarthrite rhumatoïde (niveau L5). Les données de sécurité officielles sont absentes et le médicament n'a plus d'AMM valide en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications, indications) pour le dépistage de sécurité
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Mener des études précliniques ou observationnelles sur le lien entre génération de thrombine et activité de la polyarthrite
-- Clarifier le statut réglementaire en France, toutes les AMM étant annulées
+- Clarifier le statut réglementaire en France, 20 AMM valides étant recensées et le médicament étant commercialisé
 - Évaluer le rapport bénéfice/risque hémorragique chez des patients souvent sous corticoïdes ou AINS
 ## Avertissement
 

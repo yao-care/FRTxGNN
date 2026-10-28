@@ -6,9 +6,9 @@ nav_order: 187
 evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (niveau de preuve L3). Indication d'origine : Épilepsies (absences, Lennox-Gastaut…"
 monitor_inn: "clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
+description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clonazepam
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-## Clonazépam : Des Épilepsies et Troubles Anxieux au Syndrome des Jambes Sans Repos
+## Clonazepam: Syndrome des jambes sans repos (restless legs syndrome)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ avec **0 essai clinique** enregistré et **20 publications** identifiées (dont 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsies (absences, Lennox-Gastaut, encéphalopathie myoclonique précoce) et trouble anxieux (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Syndrome des jambes sans repos |
-| Score de Prédiction TxGNN | 99,65 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Syndrome des jambes sans repos (restless legs syndrome) |
+| Score de Prédiction TxGNN | 0.9965 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---
@@ -97,9 +97,9 @@ Sélection parmi les publications les plus pertinentes (la classification de per
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61496251 | RIVOTRIL 2,5 mg/ml, solution buvable en gouttes | Solution buvable gouttes | Non renseignée (AMM annulée) |
-| 68429141 | RIVOTRIL 2 mg, comprimé quadrisécable | Comprimé quadrisécable | Non renseignée (AMM annulée) |
-| 63523836 | RIVOTRIL 1 mg/1 ml, solution à diluer injectable en ampoules | Solution à diluer et solvant pour solution injectable | Non renseignée (AMM annulée) |
+| 61496251 | RIVOTRIL 2,5 mg/ml, solution buvable en gouttes | Solution buvable gouttes | Non renseignée (AMM active) |
+| 68429141 | RIVOTRIL 2 mg, comprimé quadrisécable | Comprimé quadrisécable | Non renseignée (AMM active) |
+| 63523836 | RIVOTRIL 1 mg/1 ml, solution à diluer injectable en ampoules | Solution à diluer et solvant pour solution injectable | Non renseignée (AMM active) |
 
 ---
 
@@ -120,7 +120,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le signal est cohérent (score TxGNN de 99,65 %, revue Cochrane, recommandation de l'AASM, petit ECR croisé ancien), mais aucun essai clinique n'est enregistré. Les preuves directes sont limitées à de petites études, et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité. Toutes les AMM françaises sont annulées.
+- Le signal est cohérent (score TxGNN de 0,9965, revue Cochrane, recommandation de l'AASM, petit ECR croisé ancien), mais aucun essai clinique n'est enregistré. Les preuves directes sont limitées à de petites études, et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité. Le médicament est commercialisé en France : 3 AMM valides sur 3.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM.
@@ -134,8 +134,8 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Rang | Indication | Score TxGNN | Niveau de Preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | Insomnie | 99,32 % | L4 | Hold : mécanisme plausible (modulation GABA-A), mais demi-vie longue (somnolence résiduelle) et absence de preuve directe dans les données fournies |
-| 3 | Tumeur du nerf trijumeau | 99,30 % | L5 | Hold : aucun lien mécanistique crédible ni aucune publication ; prédiction probablement liée à la proximité dans le graphe |
+| 2 | Insomnie | 0,9932 | L4 | Hold : mécanisme plausible (modulation GABA-A), mais demi-vie longue (somnolence résiduelle) et absence de preuve directe dans les données fournies |
+| 3 | Tumeur du nerf trijumeau | 0,9930 | L5 | Hold : aucun lien mécanistique crédible ni aucune publication ; le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

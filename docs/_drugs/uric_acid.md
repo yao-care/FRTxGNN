@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Uric Acid
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 798
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Uric Acid : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les autorisations françaises"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 # Uric Acid
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **4** 
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Les données compilées ne contiennent **aucun essai clinique** testant l'acide 
 |------|------|
 | Indication Originale | Non renseignée dans les autorisations françaises |
 | Nouvelle Indication Predite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,68 % |
+| Score de Prédiction TxGNN | 0,9968 |
 | Niveau de Preuve | L4 (selon l'évaluation compilée ; en pratique, la preuve thérapeutique directe est absente) |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,8 +89,8 @@ Aucune de ces publications n'évalue l'acide urique comme traitement de la polya
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61517329 | URICUM ACIDUM LEHNING (dilutions 3CH à 30CH ou 6DH à 60DH), annulée | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
-| 61992596 | URICUM ACIDUM BOIRON (dilutions 4CH à 30CH ou 8DH à 60DH), annulée | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
+| 61517329 | URICUM ACIDUM LEHNING (dilutions 3CH à 30CH ou 6DH à 60DH), active | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
+| 61992596 | URICUM ACIDUM BOIRON (dilutions 4CH à 30CH ou 8DH à 60DH), active | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
 
 ## Considérations de Sécurité
 

@@ -6,9 +6,9 @@ nav_order: 219
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Deferasirox : nouvelle indication prédite, Infection par le VIH (niveau de preuve L4). Indication d'origine : Bêta-thalassémie et hémoglobinopathies apparentées"
 monitor_inn: "deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
+description: "Deferasirox : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Deferasirox
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **5**
 
 </div>
 
-## Déférasirox : De la bêta-thalassémie au Virus de l'immunodéficience humaine (VIH)
+## Deferasirox: Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Il s'agit donc d'une hypothèse très préliminaire.
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Bêta-thalassémie et hémoglobinopathies apparentées (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le VIH |
-| Score de Prédiction TxGNN | 99,40 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 0.9940 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont abrogées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 0 valide, 20 abrogées) |
 | Décision Recommandée | Hold |
 
@@ -111,7 +111,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score de modèle élevé, mais sans aucun essai clinique et avec une seule étude préclinique dont le sens de l'effet d'une chélation du fer est incertain. De plus, toutes les AMM françaises sont abrogées et le profil de sécurité (atteintes hépatiques, rénales, cytopénies) appelle une grande prudence.
+- La prédiction repose sur un score de modèle élevé, mais sans aucun essai clinique et avec une seule étude préclinique dont le sens de l'effet d'une chélation du fer est incertain. De plus, le médicament est commercialisé en France (20 AMM valides) et le profil de sécurité (atteintes hépatiques, rénales, cytopénies) appelle une grande prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action du déférasirox (DrugBank)

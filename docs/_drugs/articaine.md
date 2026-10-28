@@ -47,19 +47,19 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **goutte**, mai
 |------|------|
 | Indication Originale | Non précisée dans les données compilées (anesthésie dentaire d'après la forme pharmaceutique « solution injectable à usage dentaire ») |
 | Nouvelle Indication Prédite | Goutte |
-| Score de Prédiction TxGNN | 99,58 % |
+| Score de Prédiction TxGNN | 0,9958 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'articaïne est un anesthésique local de type amide qui bloque les canaux sodiques et est utilisé pour l'anesthésie dentaire et par infiltration.
 
-Aucun lien mécanistique établi n'existe avec la goutte. L'articaïne n'a pas d'effet connu sur le métabolisme de l'acide urique, sur la xanthine oxydase ni sur l'inflammation liée aux cristaux d'urate (voie NLRP3). Le score élevé (0,996) reflète une prédiction par graphe de connaissances, sans support clinique ni bibliographique. Au mieux, un rationnel se limiterait à l'analgésie locale lors de crises aiguës, ce qui serait purement symptomatique et non modificateur de la maladie.
+Aucun lien mécanistique établi n'existe avec la goutte. L'articaïne n'a pas d'effet connu sur le métabolisme de l'acide urique, sur la xanthine oxydase ni sur l'inflammation liée aux cristaux d'urate (voie NLRP3). Le score élevé (0,9958) reflète une prédiction du modèle TxGNN (apprentissage profond), sans support clinique ni bibliographique. Au mieux, un rationnel se limiterait à l'analgésie locale lors de crises aiguës, ce qui serait purement symptomatique et non modificateur de la maladie.
 
-Les autres indications prédites présentent le même profil : exostose (rang 2, score 99,42 %), asthme allergique (rang 3, 99,38 %) et asthme intrinsèque (rang 4, 99,34 %). Toutes sont de niveau L5, sans lien mécanistique identifié.
+Les autres indications prédites présentent le même profil : exostose (rang 2, score 0,9942), asthme allergique (rang 3, 0,9938) et asthme intrinsèque (rang 4, 0,9934). Toutes sont de niveau L5, sans lien mécanistique identifié.
 
 ## Preuves d'Essais Cliniques
 
@@ -80,8 +80,8 @@ Aucune littérature associée disponible actuellement pour la goutte.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69602201 | ALPHACAINE SP, solution injectable à usage dentaire | Solution injectable pour usage dentaire | Non renseignée (AMM annulée) |
-| 66862795 | ALPHACAINE N, solution injectable à usage dentaire | Solution injectable pour usage dentaire | Non renseignée (AMM annulée) |
+| 69602201 | ALPHACAINE SP, solution injectable à usage dentaire | Solution injectable pour usage dentaire | Non renseignée (AMM active) |
+| 66862795 | ALPHACAINE N, solution injectable à usage dentaire | Solution injectable pour usage dentaire | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -99,7 +99,7 @@ Les mises en garde et contre-indications de la notice ANSM n'ont pas pu être ob
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5) : aucun essai, aucune publication pertinente et aucun lien mécanistique plausible avec la goutte. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le score du modèle (niveau L5) : aucun essai, aucune publication pertinente et aucun lien mécanistique plausible avec la goutte. De plus, le médicament est commercialisé en France, avec 2 AMM valides sur 2.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mécanisme d'action détaillé (interrogation de DrugBank)

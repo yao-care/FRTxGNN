@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pregabalin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 627
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pregabalin : nouvelle indication prédite, Tendinite (niveau de preuve L4). Indication d'origine : Trouble anxieux, fibromyalgie, syndrome douloureux myofascial…"
 monitor_inn: "pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin : nouvelle indication prédite, Tendinitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Prégabaline : De l'anxiété et des douleurs chroniques à la tendinite
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La prégabaline est un médicament dont les indications d'origine, selon le graphe de connaissances utilisé par le modèle, sont le trouble anxieux, la fibromyalgie, le syndrome douloureux myofascial et la névralgie post-zostérienne.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **tendinite**, mais **aucun essai clinique** et **aucune publication directement pertinente** ne soutiennent actuellement cette direction.
 La prédiction repose donc uniquement sur le modèle (les articles retrouvés concernent surtout l'analgésie après chirurgie de l'épaule, des cas de compression nerveuse et un effet indésirable d'un antibiotique).
 
@@ -48,11 +47,11 @@ La prédiction repose donc uniquement sur le modèle (les articles retrouvés co
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Trouble anxieux, fibromyalgie, syndrome douloureux myofascial, névralgie post-zostérienne (texte d'indication des AMM non renseigné) |
-| Nouvelle Indication Prédite | Tendinite |
-| Score de Prédiction TxGNN | 99,71 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Tendinitis |
+| Score de Prédiction TxGNN | 0.9971 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
 
@@ -96,11 +95,11 @@ Les 20 AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66368704 | PREGABALINE EVOLUGEN PHARMA 50 mg | Gélule | Non renseignée (AMM annulée) |
-| 63595091 | PREGABALINE HCS 100 mg | Gélule | Non renseignée (AMM annulée) |
-| 67326252 | PREGABALINE SANDOZ 50 mg | Gélule | Non renseignée (AMM annulée) |
-| 63096099 | LYRICA 75 mg | Gélule | Non renseignée (AMM annulée) |
-| 62285549 | PREGABALINE BIOGARAN 75 mg | Gélule | Non renseignée (AMM annulée) |
+| 66368704 | PREGABALINE EVOLUGEN PHARMA 50 mg | Gélule | Non renseignée (AMM active) |
+| 63595091 | PREGABALINE HCS 100 mg | Gélule | Non renseignée (AMM active) |
+| 67326252 | PREGABALINE SANDOZ 50 mg | Gélule | Non renseignée (AMM active) |
+| 63096099 | LYRICA 75 mg | Gélule | Non renseignée (AMM active) |
+| 62285549 | PREGABALINE BIOGARAN 75 mg | Gélule | Non renseignée (AMM active) |
 
 ---
 
@@ -122,8 +121,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique ni publication directe ne soutient l'usage dans la tendinite (niveau L4). Le score de 99,71 % est une prédiction seule.
-- Aucune AMM n'est valide en France, et les informations de sécurité issues de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Aucun essai clinique ni publication directe ne soutient l'usage dans la tendinite (niveau L4). Le score de 0,9971 est une prédiction seule.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
@@ -136,11 +134,11 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Indication | Score TxGNN | Niveau de preuve | Recommandation | Remarque |
 |------|------|------|------|------|
-| Migraine | 99,47 % | L2 | Question de recherche | Petits ECR pédiatriques (prégabaline vs propranolol et valproate) ; l'essai de phase 3 chez l'adulte (NCT00447369) a été retiré sans données |
-| Migraine avec aura du tronc cérébral | 99,43 % | L4 | Hold | Données précliniques sur la dépression corticale envahissante |
-| Myosite par fibrose | 99,71 % | L5 | Hold | Prédiction seule |
-| Myosite granulomateuse idiopathique | 99,71 % | L5 | Hold | Prédiction seule |
-| Myosite à inclusions | 99,52 % | L5 | Hold | Prédiction seule |
+| Migraine | 0,9947 | L2 | Question de recherche | Petits ECR pédiatriques (prégabaline vs propranolol et valproate) ; l'essai de phase 3 chez l'adulte (NCT00447369) a été retiré sans données |
+| Migraine avec aura du tronc cérébral | 0,9943 | L5 | Hold | Données précliniques sur la dépression corticale envahissante |
+| Myosite par fibrose | 0,9971 | L5 | Hold | Prédiction seule |
+| Myosite granulomateuse idiopathique | 0,9971 | L5 | Hold | Prédiction seule |
+| Myosite à inclusions | 0,9952 | L5 | Hold | Prédiction seule |
 
 La migraine est l'indication prédite la mieux étayée (L2). Elle mérite une évaluation distincte.
 ## Avertissement

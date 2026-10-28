@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Micafungine : Des Candidoses Systémiques à l'Infection Urinaire à Candida
+## Micafungine : Des Candidoses Systémiques à l'Infection des voies urinaires
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infection des 
 |------|------|
 | Indication Originale | Candidose œsophagienne, candidémie, candidose disséminée (les textes d'indication des AMM ne sont pas renseignés) |
 | Nouvelle Indication Prédite | Infection des voies urinaires (urinary tract infection) |
-| Score de Prédiction TxGNN | 99,03 % |
+| Score de Prédiction TxGNN | 0,9903 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -81,7 +81,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM ci-dessous sont annulées ; les textes d'indication ne sont pas renseignés.
+Les 8 AMM ci-dessous sont toutes valides ; les textes d'indication ne sont pas renseignés.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -103,7 +103,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Les preuves sont de niveau L3 (cohortes, séries et rapports de cas, sans essai clinique). Les recommandations déconseillent par ailleurs l'antifongique en cas de candidurie asymptomatique, et la faible excrétion urinaire de la forme active reste une réserve. De plus, toutes les AMM françaises sont annulées et les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Les preuves sont de niveau L3 (cohortes, séries et rapports de cas, sans essai clinique). Les recommandations déconseillent par ailleurs l'antifongique en cas de candidurie asymptomatique, et la faible excrétion urinaire de la forme active reste une réserve. De plus, la micafungine est commercialisée en France (8 AMM valides sur 8), mais les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM)

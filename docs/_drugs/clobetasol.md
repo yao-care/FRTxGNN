@@ -48,10 +48,10 @@ Actuellement, **aucun essai clinique** n'est enregistré, mais **15 publications
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Lymphome cutané primitif à cellules T |
-| Score de Prédiction TxGNN | 99,51 % |
+| Score de Prédiction TxGNN | 0,9951 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,7 +85,7 @@ Les études les plus pertinentes figurent ci-dessous (priorité aux cohortes, pu
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné.
+Les 9 AMM recensées sont toutes valides et le médicament est commercialisé. Le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -113,7 +113,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Extraction et analyse de la notice officielle (mises en garde, contre-indications) auprès de l'ANSM : cette lacune bloque la validation de sécurité.
 - Données détaillées sur le mécanisme d'action (DrugBank).
 - Essais contrôlés comparant le clobétasol à d'autres traitements topiques dirigés contre la peau.
-- Clarification du statut réglementaire : toutes les AMM étant annulées, vérifier la disponibilité actuelle des produits (autres spécialités à base de clobétasol).
+- Statut réglementaire : médicament commercialisé, avec 9 AMM valides sur 9 ; vérifier la disponibilité actuelle des spécialités concernées.
 - Plan de surveillance des effets locaux et systémiques lors d'un usage prolongé ou étendu (atrophie cutanée, axe corticotrope).
 ## Avertissement
 

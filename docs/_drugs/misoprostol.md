@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Misoprostol
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 505
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Misoprostol : nouvelle indication prédite, Aménorrhée (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 # Misoprostol
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**aménorrhée**, 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,64 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Retiré (AMM annulées uniquement) |
-| Nombre d'AMM | 3 |
+| Score de Prédiction TxGNN | 0,9964 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec l'aménorrhée n'est plausible que dans un sens restreint : régulation des menstruations, évacuation de produits de conception retenus ou interruption d'une grossesse très précoce. Il s'agirait alors d'une absence de règles d'origine gravidique, et non du traitement d'une aménorrhée primaire ou secondaire.
 
-Le score élevé de TxGNN (0,996) est une prédiction computationnelle, non étayée par des preuves cliniques directes dans l'aménorrhée. La littérature retrouvée porte sur l'avortement médicamenteux, l'avortement manqué et les saignements utérins : elle constitue au mieux une preuve indirecte.
+Le score élevé de TxGNN (0,9964) est une prédiction computationnelle, non étayée par des preuves cliniques directes dans l'aménorrhée. La littérature retrouvée porte sur l'avortement médicamenteux, l'avortement manqué et les saignements utérins : elle constitue au mieux une preuve indirecte.
 
 ## Preuves d'Essais Cliniques
 
@@ -81,9 +81,9 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61240145 | MISOONE 400 microgrammes (EXELGYN), annulée | Comprimé sécable | Non renseignée |
-| 69981979 | GYMISO 200 microgrammes (LINEPHARMA), annulée | Comprimé | Non renseignée |
-| 60213914 | ANGUSTA 25 microgrammes (NORGINE, Pays-Bas), annulée | Comprimé | Non renseignée |
+| 61240145 | MISOONE 400 microgrammes (EXELGYN), active | Comprimé sécable | Non renseignée |
+| 69981979 | GYMISO 200 microgrammes (LINEPHARMA), active | Comprimé | Non renseignée |
+| 60213914 | ANGUSTA 25 microgrammes (NORGINE, Pays-Bas), active | Comprimé | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -101,7 +101,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé, mais il n'y a aucun essai clinique et la littérature, indirecte, concerne l'interruption de grossesse et non le traitement de l'aménorrhée. Toutes les AMM françaises sont annulées, et les données de sécurité issues de la notice manquent (lacune bloquante).
+- Le score TxGNN est très élevé, mais il n'y a aucun essai clinique et la littérature, indirecte, concerne l'interruption de grossesse et non le traitement de l'aménorrhée. Les 3 AMM françaises sur 3 sont valides (médicament commercialisé), et les données de sécurité issues de la notice manquent (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
@@ -112,7 +112,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ---
 
-**Note complémentaire** : la 2ᵉ prédiction (coarctation atypique de l'aorte, score 99,30 %, niveau L5) ne dispose d'aucune preuve ni d'aucun lien mécanistique clair ; elle est classée **Hold** et n'est pas développée ici.
+**Note complémentaire** : la 2ᵉ prédiction (coarctation atypique de l'aorte, score 0,9930, niveau L5) ne dispose d'aucune preuve ni d'aucun lien mécanistique clair ; elle est classée **Hold** et n'est pas développée ici.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

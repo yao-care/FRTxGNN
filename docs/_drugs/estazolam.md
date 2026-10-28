@@ -4,17 +4,17 @@ title: Estazolam
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 300
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Estazolam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
 monitor_inn: "ESTAZOLAM"
 predicted_indications: ["visual epilepsy", "alcohol withdrawal delirium", "restless legs syndrome", "myofascial pain syndrome", "eating seizures", "orgasm-induced seizures", "audiogenic seizures", "startle epilepsy", "thinking seizures"]
+description: "Estazolam : nouvelle indication prédite, Visual epilepsy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Estazolam
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,23 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Estazolam : De l'indication d'origine non renseignée à l'insomnie
+## Estazolam: Visual epilepsy
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 L'estazolam est une benzodiazépine hypnotique. Les données compilées pour ce rapport ne précisent pas son indication d'origine en France.
-Le modèle TxGNN le prédit comme potentiellement efficace pour l'**insomnie**, avec **7 essais cliniques** et **19 publications** associés.
-Il faut toutefois noter que l'insomnie est vraisemblablement l'usage habituel (hors repositionnement) de ce médicament : cette prédiction correspond donc plutôt à une confirmation de l'indication classique qu'à un véritable repositionnement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée (le texte d'indication de l'AMM est vide) |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,48 % |
-| Niveau de Preuve | L1 (selon la grille d'évaluation des données compilées ; voir la réserve ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Visual epilepsy |
+| Score de Prédiction TxGNN | 0.9947 |
+| Niveau de Preuve | L5 (selon la grille d'évaluation des données compilées ; voir la réserve ci-dessous) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -97,7 +95,7 @@ La plupart des publications sont des études associant l'estazolam à l'acupunct
 |---------|------|------|-----------|
 | 69888457 (annulée) | NUCTALON 2 mg, comprimé | Comprimé | Non renseignée |
 
-Le titulaire est CHEPLAPHARM ARZNEIMITTEL (Allemagne). Aucune AMM valide n'est actuellement enregistrée.
+Le titulaire est CHEPLAPHARM ARZNEIMITTEL (Allemagne).
 
 ## Considérations de Sécurité
 

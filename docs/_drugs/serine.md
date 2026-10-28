@@ -4,17 +4,17 @@ title: Serine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 699
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Serine : nouvelle indication prédite, Myopathie viscérale familiale (niveau de preuve L5). Indication d'origine : Glaucome à angle ouvert, tuberculose pulmonaire"
 monitor_inn: "serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
+description: "Serine : nouvelle indication prédite, Myopathie viscérale familiale (familial visceral myopathy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Serine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Sérine : De le glaucome à angle ouvert à la myopathie viscérale familiale
+## Serine: Myopathie viscérale familiale (familial visceral myopathy)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La sérine est un acide aminé présent dans de nombreuses solutions de nutrition parentérale. Selon le graphe de connaissances utilisé par TxGNN, ses indications d'origine seraient le glaucome à angle ouvert et la tuberculose pulmonaire.
+La sérine est un acide aminé présent dans de nombreuses solutions de nutrition parentérale.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **myopathie viscérale familiale**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction. Elle repose uniquement sur le modèle.
 
 ---
@@ -47,11 +47,11 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **myopathie vis
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Glaucome à angle ouvert, tuberculose pulmonaire (selon le graphe de connaissances ; aucun texte d'indication n'est renseigné dans les AMM) |
-| Nouvelle Indication Prédite | Myopathie viscérale familiale |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Myopathie viscérale familiale (familial visceral myopathy) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -61,9 +61,9 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **myopathie vis
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La sérine est un acide aminé intégré à des solutions de nutrition parentérale (perfusions d'acides aminés, émulsions et poches multicompartiments), mais les données compilées ne décrivent pas de mécanisme pharmacologique précis.
 
-Aucun lien mécanistique n'est étayé par les données entre la sérine et la myopathie viscérale familiale. Cette maladie est un trouble génétique du muscle lisse (par exemple lié à *ACTG2*), et rien ne relie une supplémentation en sérine à sa physiopathologie. Le score élevé (99,99 %) est une prédiction issue du graphe uniquement. De plus, les indications d'origine du graphe (glaucome, tuberculose) sont très éloignées de l'usage nutritionnel des produits commercialisés, ce qui affaiblit toute inférence de similarité.
+Aucun lien mécanistique n'est étayé par les données entre la sérine et la myopathie viscérale familiale. Cette maladie est un trouble génétique du muscle lisse (par exemple lié à *ACTG2*), et rien ne relie une supplémentation en sérine à sa physiopathologie. Le score élevé (0,9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
-Les autres prédictions du modèle se regroupent autour de pathologies intestinales (pseudo-obstructions, obstruction intestinale) et du glaucome. Elles sont également sans soutien clinique, et plusieurs partagent des scores identiques, ce qui suggère un voisinage commun dans le graphe plutôt que des preuves indépendantes.
+Les autres prédictions du modèle se regroupent autour de pathologies intestinales (pseudo-obstructions, obstruction intestinale). Elles sont également sans soutien clinique, et plusieurs partagent des scores identiques, ce qui suggère des similarités apprises par le modèle TxGNN (apprentissage profond) entre maladies apparentées plutôt que des preuves indépendantes.
 
 ---
 
@@ -116,7 +116,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données sur le mécanisme d'action via DrugBank.
 - Établir un lien mécanistique plausible entre la sérine et la physiopathologie de la myopathie viscérale familiale.
 - Rechercher des études précliniques ou cliniques ciblées, puis évaluer la compatibilité des voies d'administration et de la formulation.
-- Clarifier le statut réglementaire, toutes les AMM étant annulées.
+- Vérifier le statut réglementaire : le médicament est commercialisé, avec 19 AMM valides.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

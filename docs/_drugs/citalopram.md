@@ -6,9 +6,9 @@ nav_order: 175
 evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (niveau de preuve L2). Indication d'origine : Trouble anxieux, dépression unipolaire, trouble dépressif majeur"
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
+description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (obsessive-compulsive disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Citalopram
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 </div>
 
-## Citalopram : De la dépression majeure au trouble obsessionnel-compulsif
+## Citalopram: Trouble obsessionnel-compulsif (obsessive-compulsive disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble obsessi
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Trouble anxieux, dépression unipolaire, trouble dépressif majeur (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trouble obsessionnel-compulsif |
-| Score de Prédiction TxGNN | 99,74 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Trouble obsessionnel-compulsif (obsessive-compulsive disorder) |
+| Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -99,7 +99,7 @@ Une réserve importante : les essais cliniques retrouvés ne testent pas le cita
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63303231 | CITALOPRAM EVOLUGEN 20 mg, comprimé pelliculé sécable (EVOLUPHARM) – annulée | Comprimé pelliculé sécable | Non renseignée |
+| 63303231 | CITALOPRAM EVOLUGEN 20 mg, comprimé pelliculé sécable (EVOLUPHARM) – active | Comprimé pelliculé sécable | Non renseignée |
 
 ---
 

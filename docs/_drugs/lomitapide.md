@@ -4,17 +4,17 @@ title: Lomitapide
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 456
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Lomitapide : nouvelle indication prédite, Macrothrombocytopénie avec insuffisance mitrale (niveau de preuve L5). Indication d'origine : Hypercholestérolémie familiale homozygote"
 monitor_inn: "lomitapide"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
+description: "Lomitapide : nouvelle indication prédite, Marcothrombocytopenia with mitral valve insufficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lomitapide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Lomitapide : De l'hypercholestérolémie familiale homozygote à la macrothrombocytopénie avec insuffisance mitrale
+## Lomitapide: Marcothrombocytopenia with mitral valve insufficiency
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le lomitapide est un inhibiteur de la protéine de transfert des triglycérides microsomiaux (MTP), initialement utilisé pour traiter l'hypercholestérolémie familiale homozygote.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **macrothrombocytopénie avec insuffisance mitrale**, avec un score très élevé (99,92 %).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **macrothrombocytopénie avec insuffisance mitrale**, avec un score très élevé (0,9992).
 Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
 
 ---
@@ -48,12 +48,12 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypercholestérolémie familiale homozygote (les textes d'indication des AMM ne sont pas renseignés ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Macrothrombocytopénie avec insuffisance mitrale |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Marcothrombocytopenia with mitral valve insufficiency |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,11 +62,11 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le lomitapide inhibe la MTP. Il réduit ainsi l'assemblage et la sécrétion des lipoprotéines contenant l'apoB (VLDL, chylomicrons), ce qui abaisse le LDL-cholestérol. Son efficacité est établie dans l'hypercholestérolémie familiale homozygote.
 
-**Aucun lien mécanistique plausible** n'a pu être établi entre l'inhibition de la MTP et la physiopathologie plaquettaire ou valvulaire de la maladie prédite. Les autres prédictions de haut rang pour ce médicament appartiennent au même groupe de troubles plaquettaires : thrombopénie héréditaire, maladie des granules denses, thrombasthénie de Glanzmann, déficit du pool de stockage plaquettaire, etc. Ce regroupement ressemble davantage à un artefact de l'embedding du graphe qu'à un signal biologiquement fondé.
+**Aucun lien mécanistique plausible** n'a pu être établi entre l'inhibition de la MTP et la physiopathologie plaquettaire ou valvulaire de la maladie prédite. Les autres prédictions de haut rang pour ce médicament appartiennent au même groupe de troubles plaquettaires : thrombopénie héréditaire, maladie des granules denses, thrombasthénie de Glanzmann, déficit du pool de stockage plaquettaire, etc.
 
 La similarité avec l'indication originale n'a pas pu être évaluée. La prédiction doit donc être considérée comme une hypothèse purement computationnelle.
 
-**Note sur une autre prédiction du même médicament :** l'**hyperlipoprotéinémie** (rang 9, score 99,74 %) est soutenue par plusieurs essais de phase 3 et des revues. Il s'agit toutefois essentiellement de l'indication d'origine (hypercholestérolémie familiale homozygote), et non d'un véritable repositionnement. Les essais de phase 3 y concernent des populations atteintes d'hypercholestérolémie sévère, et non l'hyperlipoprotéinémie au sens large.
+Il s'agit toutefois essentiellement de l'indication d'origine (hypercholestérolémie familiale homozygote), et non d'un véritable repositionnement. Les essais de phase 3 y concernent des populations atteintes d'hypercholestérolémie sévère, et non l'hyperlipoprotéinémie au sens large.
 
 ---
 
@@ -86,11 +86,11 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69243759 | LOJUXTA 10 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM annulée) |
-| 69565055 | LOJUXTA 20 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM annulée) |
-| 69851117 | LOJUXTA 5 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM annulée) |
+| 69243759 | LOJUXTA 10 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM active) |
+| 69565055 | LOJUXTA 20 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM active) |
+| 69851117 | LOJUXTA 5 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM active) |
 
-Les trois autorisations sont annulées et aucune n'est valide. La disponibilité réelle du produit en France doit donc être vérifiée.
+La disponibilité réelle du produit en France doit donc être vérifiée.
 
 ---
 

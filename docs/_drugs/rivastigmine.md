@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 676
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rivastigmine : nouvelle indication prédite, Glaucome (niveau de preuve L4). Indication d'origine : Maladie d'Alzheimer"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
+description: "Rivastigmine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Rivastigmine : De la maladie d'Alzheimer au glaucome
+## Rivastigmine: Glaucome (glaucoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome**, m
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladie d'Alzheimer (d'après les indications du graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Glaucome |
-| Score de Prédiction TxGNN | 99,27 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 11 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Glaucome (glaucoma) |
+| Score de Prédiction TxGNN | 0.9927 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Dans l'œil, une activité cholinergique accrue pourrait contribuer à abaisser la pression intraoculaire (PIO), en favorisant la contraction du muscle ciliaire et l'écoulement par le trabéculum. Ce mécanisme est comparable à celui des agents miotiques comme la pilocarpine et la physostigmine. Une étude chez le lapin normotendu a montré que la rivastigmine appliquée par voie topique réduisait la PIO, et une revue récente sur les agents cholinergiques et la PIO apporte un contexte mécanistique favorable.
 
-Le score TxGNN très élevé (0,993) reste une prédiction informatique et ne constitue pas une preuve clinique. Aucune donnée humaine dans le glaucome n'a été identifiée.
+Le score TxGNN très élevé (0,9927) reste une prédiction informatique et ne constitue pas une preuve clinique. Aucune donnée humaine dans le glaucome n'a été identifiée.
 
 ---
 
@@ -85,7 +85,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM listées sont annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Les 11 AMM listées sur 11 sont valides ; le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
 |---------|------|------|-----------|
@@ -115,7 +115,7 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score de modèle élevé et une seule étude animale (lapin), sans aucune donnée humaine dans le glaucome (niveau L4). De plus, le dépôt de sécurité issu de la notice est manquant, et toutes les AMM françaises sont annulées.
+- La prédiction repose sur un score élevé du modèle TxGNN (deep learning) et une seule étude animale (lapin), sans aucune donnée humaine dans le glaucome (niveau L4). De plus, le dépôt de sécurité issu de la notice est manquant ; les 11 AMM françaises sur 11 sont valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, étape bloquante pour le criblage de sécurité

@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Preuves modérées (L3-L4)
 nav_order: 769
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Tocilizumab : nouvelle indication prédite, Spondylarthrite ankylosante (niveau de preuve L3). Indication d'origine : Polyarthrite rhumatoïde"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab : nouvelle indication prédite, Spondylarthrite ankylosante (ankylosing spondylitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Tocilizumab : De la polyarthrite rhumatoïde à la spondylarthrite ankylosante
+## Tocilizumab: Spondylarthrite ankylosante (ankylosing spondylitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **spondylarthrite
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde (liste d'indications d'origine issue du graphe de connaissances ; le texte des indications des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Spondylarthrite ankylosante |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Spondylarthrite ankylosante (ankylosing spondylitis) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -98,13 +98,13 @@ Cette plausibilité biologique n'est cependant pas confirmée cliniquement. Les 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69107620 | ROACTEMRA 162 mg, seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 67121308 | ROACTEMRA 162 mg, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 69582503 | ROACTEMRA 20 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 66297328 | TYENNE 162 mg, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 62118347 | TYENNE 162 mg, seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
+| 69107620 | ROACTEMRA 162 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 67121308 | ROACTEMRA 162 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 69582503 | ROACTEMRA 20 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 66297328 | TYENNE 162 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 62118347 | TYENNE 162 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
 
-Au total, 9 AMM sont recensées (ROACTEMRA, TYENNE, AVTOZMA), toutes annulées : aucune AMM valide n'est actuellement répertoriée.
+Au total, 9 AMM sont recensées (ROACTEMRA, TYENNE, AVTOZMA), dont 9 valides sur 9.
 
 ---
 
@@ -136,7 +136,7 @@ Le tocilizumab est un anticorps monoclonal immunomodulateur et non un antinéopl
 - Les résultats complets des essais NCT01209689 et NCT01209702, ainsi que les motifs d'arrêt, et l'analyse des études BUILDER-1 et -2
 - Les données de mécanisme d'action détaillées
 - Les mises en garde et contre-indications issues de la notice de l'ANSM
-- La clarification du statut réglementaire en France (toutes les AMM listées étant annulées) et du texte des indications
+- La clarification du statut réglementaire en France (9 AMM valides sur 9 recensées) et du texte des indications
 
 ## Autres indications prédites (pour information)
 
@@ -145,7 +145,7 @@ Le tocilizumab est un anticorps monoclonal immunomodulateur et non un antinéopl
 - **Arthrite juvénile polyarticulaire à facteur rhumatoïde positif** (L3) : preuves indirectes issues de la forme polyarticulaire.
 - **Spondylopathie inflammatoire** (L3, Hold) : chevauche largement la spondylarthrite ankylosante.
 - **Syndrome de susceptibilité mendélienne aux mycobactéries (déficit complet en IL12B)** : probable faux positif, avec risque de préjudice (immunosuppression et risque infectieux).
-- **Hypermobilité du coccyx, maladie de Kümmell, maladie vertébrale, susceptibilité aux spondyloarthropathies** : prédictions sans preuve clinique, probablement des artefacts du graphe de connaissances.
+- **Hypermobilité du coccyx, maladie de Kümmell, maladie vertébrale** : prédictions du modèle TxGNN (deep learning) sans preuve clinique ; les scores peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Givosiran
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 362
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Givosiran : nouvelle indication prédite, Porphyrie par déficit en ALA déshydratase (ADP) (niveau de preuve L4). Indication d'origine : Porphyrie hépatique (le texte d'indication de l'AMM n'est pas re…"
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
+description: "Givosiran : nouvelle indication prédite, Hepatoportal sclerosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Givosiran
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Givosiran : De la porphyrie hépatique à la porphyrie par déficit en ALA déshydratase
+## Givosiran: Hepatoportal sclerosis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **porphyrie par d
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Porphyrie hépatique (le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Porphyrie par déficit en ALA déshydratase (ADP) |
-| Score de Prédiction TxGNN | 99,91 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hepatoportal sclerosis |
+| Score de Prédiction TxGNN | 1.0000 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -87,7 +87,7 @@ Les essais de phase 3 portent surtout sur la porphyrie aiguë intermittente. La 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68318874 | GIVLAARI 189 mg/mL, solution injectable (ALNYLAM NETHERLANDS, Pays-Bas) | Solution injectable | Non renseignée (AMM annulée) |
+| 68318874 | GIVLAARI 189 mg/mL, solution injectable (ALNYLAM NETHERLANDS, Pays-Bas) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

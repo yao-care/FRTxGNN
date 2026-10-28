@@ -47,17 +47,17 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**,
 |------|------|
 | Indication Originale | Non renseignée dans les données disponibles |
 | Nouvelle Indication Predite | Hypertrichose |
-| Score de Prediction TxGNN | 99,79 % |
+| Score de Prediction TxGNN | 0,9979 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'ivabradine inhibe le canal HCN (courant « funny » If) du nœud sinusal, ce qui ralentit la fréquence cardiaque.
 
-Aucun lien établi n'existe entre ce mécanisme et le cycle du follicule pilaire ou la régulation de la pousse des poils. Le score élevé de TxGNN est une prédiction issue du graphe de connaissances, probablement due à des voisins de réseau partagés (gènes de canaux ioniques ou cardiovasculaires). Elle n'est étayée par aucune donnée clinique ni bibliographique.
+Aucun lien établi n'existe entre ce mécanisme et le cycle du follicule pilaire ou la régulation de la pousse des poils. Le score élevé de TxGNN provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il n'est étayé par aucune donnée clinique ni bibliographique.
 
 Les autres prédictions du modèle (syndrome d'Ambras, syndromes malformatifs avec atteinte dentaire ou parodontale, syndromes avec malformation de Dandy-Walker, anomalie génétique isolée de la tige pilaire, syndrome néphrogénique d'antidiurèse inappropriée) sont également purement computationnelles, sans essai ni publication. La dernière est la seule présentant un lien physiologique un peu plus concevable (canaux ioniques rénaux), mais il reste spéculatif.
 
@@ -73,9 +73,9 @@ Aucune littérature associée disponible actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee | Statut |
 |---------|------|------|-----------|------|
-| 63501124 | PROCORALAN 7,5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Annulée |
-| 65486532 | IVABRADINE ALTER 7,5 mg, comprimé (Laboratoires Alter) | Comprimé | Non renseignée | Annulée |
-| 61952527 | PROCORALAN 5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Annulée |
+| 63501124 | PROCORALAN 7,5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Active |
+| 65486532 | IVABRADINE ALTER 7,5 mg, comprimé (Laboratoires Alter) | Comprimé | Non renseignée | Active |
+| 61952527 | PROCORALAN 5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Active |
 
 ## Considerations de Securite
 
@@ -92,7 +92,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible avec le blocage des canaux HCN.
-- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Les 3 AMM françaises sont valides (3 sur 3, médicament commercialisé), mais les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications) afin de lever le blocage de sécurité.

@@ -6,9 +6,9 @@ nav_order: 714
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Streptomycin : nouvelle indication prédite, Conjonctivite (niveau de preuve L4). Indication d'origine : Tuberculose pulmonaire"
 monitor_inn: "streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
+description: "Streptomycin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Streptomycin
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Streptomycine : De la tuberculose pulmonaire à la conjonctivite
+## Streptomycin: Conjonctivite (conjunctivitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **conjonctivite
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tuberculose pulmonaire (d'après les indications du graphe de connaissances ; aucun texte d'indication n'est renseigné pour l'AMM) |
-| Nouvelle Indication Prédite | Conjonctivite |
-| Score de Prédiction TxGNN | 99,87 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Conjonctivite (conjunctivitis) |
+| Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec la conjonctivite est **indirect et spécifique à certains pathogènes**. Certaines indications d'origine, comme la tularémie et la brucellose, peuvent provoquer des atteintes oculaires (syndrome oculoglandulaire de Parinaud, kératoconjonctivite à Brucella). La littérature rapporte aussi une conjonctivite tuberculeuse traitée par streptomycine, mais il s'agit de cas anciens. Il ne s'agit donc pas d'une indication générale de conjonctivite bactérienne.
 
-En pratique, les aminoglycosides topiques comme la tobramycine sont la référence en ophtalmologie. La prédiction reflète probablement la proximité de la streptomycine avec des maladies infectieuses dans le graphe de connaissances plutôt qu'un bénéfice démontré.
+En pratique, les aminoglycosides topiques comme la tobramycine sont la référence en ophtalmologie. Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un bénéfice démontré.
 
 ## Preuves d'Essais Cliniques
 
@@ -86,7 +86,7 @@ Sélection des publications les plus pertinentes (aucun ECR identifié) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68691827 | STREPTOMYCINUM BOIRON (dilution 4CH à 30CH ou 8DH à 60DH) | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM annulée) |
+| 68691827 | STREPTOMYCINUM BOIRON (dilution 4CH à 30CH ou 8DH à 60DH) | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM active) |
 
 Il s'agit d'une spécialité homéopathique, différente de la streptomycine antibiotique injectable.
 

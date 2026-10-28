@@ -48,9 +48,9 @@ La valine est un acide aminé à chaîne ramifiée (BCAA), présent dans de nomb
 |------|------|
 | Indication Originale | Non précisée dans les données compilées (texte d'indication vide pour toutes les AMM) |
 | Nouvelle Indication Prédite | Cholangite sclérosante |
-| Score de Prédiction TxGNN | 99,42 % |
+| Score de Prédiction TxGNN | 0,9942 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -62,7 +62,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec la cholangite sclérosante reste indirect. Une étude de cohorte a examiné les profils d'acides aminés plasmatiques et la fatigue dans la cholangite biliaire primitive et la cholangite sclérosante primitive (accent sur la tyrosine). Une étude de randomisation mendélienne a exploré l'effet causal de métabolites sanguins sur ces maladies cholestatiques. Ces travaux montrent que le métabolisme des acides aminés est perturbé dans ces maladies, mais **rien n'indique qu'une supplémentation en valine les traite**.
 
-Le score élevé du modèle doit donc être interprété avec prudence : il reflète une proximité dans le graphe de connaissances, non une efficacité démontrée.
+Le score élevé du modèle doit donc être interprété avec prudence : il provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique ni une efficacité démontrée.
 
 ---
 
@@ -83,7 +83,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas disponible. Principales AMM (5 sur 20) :
+Le médicament est commercialisé ; 19 AMM sont actuellement valides. Le texte d'indication approuvée n'est pas disponible. Principales AMM (5 sur 20) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

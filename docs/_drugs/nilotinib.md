@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nilotinib
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 536
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nilotinib : nouvelle indication prédite, Dermatofibrosarcome protubérant (niveau de preuve L4). Indication d'origine : Leucémie myéloïde chronique BCR-ABL1 positive"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Nilotinib : nouvelle indication prédite, Dermatofibrosarcome protubérant (dermatofibrosarcoma protuberans) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Nilotinib : De la leucémie myéloïde chronique BCR-ABL1 positive au dermatofibrosarcome protubérant
+## Nilotinib: Dermatofibrosarcome protubérant (dermatofibrosarcoma protuberans)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ mais les preuves actuelles se limitent à **1 publication** de type revue géné
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie myéloïde chronique BCR-ABL1 positive (selon les données du graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Dermatofibrosarcome protubérant |
-| Score de Prédiction TxGNN | 99,31 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dermatofibrosarcome protubérant (dermatofibrosarcoma protuberans) |
+| Score de Prédiction TxGNN | 0.9931 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le nilotinib est un inhibiteur de tyrosine kinase dont l'efficacité dans la leucémie myéloïde chronique BCR-ABL1 positive est établie. Il inhibe également PDGFR et KIT, en plus de BCR-ABL1.
 
-Le dermatofibrosarcome protubérant est caractérisé par la fusion COL1A1-PDGFB, qui entraîne une activation autocrine constitutive de PDGFRB. Un lien mécanistique plausible existe donc par le blocage de la voie PDGFR. Le score élevé de TxGNN (99,31 %) est cohérent avec cette biologie de cible partagée.
+Le dermatofibrosarcome protubérant est caractérisé par la fusion COL1A1-PDGFB, qui entraîne une activation autocrine constitutive de PDGFRB. Un lien mécanistique plausible existe donc par le blocage de la voie PDGFR. Le score élevé de TxGNN (0,9931) est cohérent avec cette biologie de cible partagée.
 
 Cependant, ce lien reste indirect : l'imatinib est l'inhibiteur de PDGFR le mieux établi dans cette tumeur, et la seule publication disponible est une revue générale sur les inhibiteurs de PDGFR, non spécifique au nilotinib.
 
@@ -76,11 +76,11 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66207619 | NILOTINIB ACCORD 150 mg | Gélule | Non renseignée (AMM annulée) |
-| 67016780 | NILOTINIB ZENTIVA 150 mg | Gélule | Non renseignée (AMM annulée) |
-| 60116714 | NILOTINIB ACCORD 200 mg | Gélule | Non renseignée (AMM annulée) |
-| 68546785 | NILOTINIB ZENTIVA 200 mg | Gélule | Non renseignée (AMM annulée) |
-| 66460565 | TASIGNA 200 mg | Gélule | Non renseignée (AMM annulée) |
+| 66207619 | NILOTINIB ACCORD 150 mg | Gélule | Non renseignée (AMM active) |
+| 67016780 | NILOTINIB ZENTIVA 150 mg | Gélule | Non renseignée (AMM active) |
+| 60116714 | NILOTINIB ACCORD 200 mg | Gélule | Non renseignée (AMM active) |
+| 68546785 | NILOTINIB ZENTIVA 200 mg | Gélule | Non renseignée (AMM active) |
+| 66460565 | TASIGNA 200 mg | Gélule | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -104,7 +104,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique via PDGFR est plausible, mais les preuves sont indirectes (niveau L4) : une seule revue générale et aucun essai clinique spécifique au nilotinib. L'imatinib reste la référence dans cette tumeur. De plus, toutes les AMM françaises sont annulées et le profil de sécurité (risque de QT long, nombreuses interactions) exige une évaluation approfondie.
+- Le lien mécanistique via PDGFR est plausible, mais les preuves sont indirectes (niveau L4) : une seule revue générale et aucun essai clinique spécifique au nilotinib. L'imatinib reste la référence dans cette tumeur. De plus, le médicament est commercialisé en France (5 AMM valides sur 5) et le profil de sécurité (risque de QT long, nombreuses interactions) exige une évaluation approfondie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice officielle (ANSM), étape bloquante pour le criblage de sécurité

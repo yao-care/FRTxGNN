@@ -6,9 +6,9 @@ nav_order: 619
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Povidone : nouvelle indication prédite, Érythrodermie ichtyosiforme congénitale (niveau de preuve L5). Indication d'origine : Syndrome de l'œil sec, xérophtalmie"
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Povidone : nouvelle indication prédite, Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données l…"
 ---
 
 # Povidone
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Povidone : Du Syndrome de l'Œil Sec à l'Érythrodermie Ichtyosiforme Congénitale
+## Povidone: Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Syndrome de l'œil sec, xérophtalmie (les textes d'indication des AMM ne sont pas renseignés ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Érythrodermie ichtyosiforme congénitale |
-| Score de Prédiction TxGNN | 99,11 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) |
+| Score de Prédiction TxGNN | 0.9911 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 7) |
+| Nombre d'AMM | 7 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,15 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM ci-dessous sont annulées. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
+Certaines AMM ci-dessous sont valides (6 sur 7). Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 69449741 | NUTRIVISC 5 POUR CENT, collyre en solution (Laboratoires Alcon) | Collyre en solution | Annulée |
-| 68403812 | DULCILARMES 1,5 %, collyre en solution en récipient unidose (Horus Pharma) | Collyre en solution | Annulée |
-| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en récipient unidose (Laboratoires Alcon) | Collyre en solution | Annulée |
+| 69449741 | NUTRIVISC 5 POUR CENT, collyre en solution (Laboratoires Alcon) | Collyre en solution | Active |
+| 68403812 | DULCILARMES 1,5 %, collyre en solution en récipient unidose (Horus Pharma) | Collyre en solution | Active |
+| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en récipient unidose (Laboratoires Alcon) | Collyre en solution | Active |
 | 65367581 | UNIFLUID 6 mg/0,4 ml, collyre en récipient unidose (Théa) | Collyre en solution | Annulée |
-| 63734630 | DULCILARMES 1,5 %, collyre en solution (Horus Pharma) | Collyre en solution | Annulée |
+| 63734630 | DULCILARMES 1,5 %, collyre en solution (Horus Pharma) | Collyre en solution | Active |
 
 Deux autres AMM annulées (FLUIDABAK 1,5 % et REFRESH) figurent également dans les données compilées.
 
@@ -95,14 +95,13 @@ Aucune interaction médicamenteuse n'a été retrouvée. Veuillez consulter la n
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau de preuve L5), sans essai clinique ni publication. Le mécanisme proposé est symptomatique et ne traite pas la cause génétique de la maladie. De plus, toutes les AMM françaises sont annulées et les données de sécurité officielles manquent.
+- La prédiction repose uniquement sur le score du modèle (niveau de preuve L5), sans essai clinique ni publication. Le mécanisme proposé est symptomatique et ne traite pas la cause génétique de la maladie. De plus, les données de sécurité officielles manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM, étape bloquante pour le dépistage de sécurité
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Rechercher des études précliniques ou des données de formulation topique cutanée pour la povidone dans l'ichtyose
 - Évaluer la compatibilité des voies d'administration, les formes actuelles étant uniquement ophtalmiques
-- Clarifier le statut réglementaire, aucune AMM n'étant valide actuellement
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

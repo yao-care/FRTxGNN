@@ -49,9 +49,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -85,11 +85,11 @@ Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65314130 | Aprepitant Evolugen 125 mg et 80 mg | Gélule | Annulée |
-| 60574505 | Emend 125 mg | Gélule | Annulée |
-| 66256064 | Emend 80 mg | Gélule | Annulée |
-| 64986762 | Aprepitant Viatris 125 mg | Gélule | Annulée |
-| 65652406 | Aprepitant Arrow 125 mg | Gélule | Annulée |
+| 65314130 | Aprepitant Evolugen 125 mg et 80 mg | Gélule | Active |
+| 60574505 | Emend 125 mg | Gélule | Active |
+| 66256064 | Emend 80 mg | Gélule | Active |
+| 64986762 | Aprepitant Viatris 125 mg | Gélule | Active |
+| 65652406 | Aprepitant Arrow 125 mg | Gélule | Active |
 
 ---
 
@@ -117,7 +117,7 @@ Les neuf autres prédictions du classement (hypertrichose, hypertension pulmonai
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le mécanisme du syndrome (mutation du récepteur V2) est incompatible avec un effet attendu d'un antagoniste NK1.
-- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont absentes.
+- 20 AMM françaises sont valides, et les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (point bloquant pour le criblage de sécurité).

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fenticonazole
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 324
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à Trichomonas (niveau de preuve L4). Indication d'origine : Candidose vulvovaginale"
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
+description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à Trichomonas (trichomonal vulvovaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fenticonazole
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Fenticonazole : De la candidose vulvovaginale à la vulvovaginite à Trichomonas
+## Fenticonazole: Vulvovaginite à Trichomonas (trichomonal vulvovaginitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Parmi les autres indications prédites, la **vulvovaginite** (non spécifiée) e
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Candidose vulvovaginale (source : graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Vulvovaginite à Trichomonas |
-| Score de Prédiction TxGNN | 99,50 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Vulvovaginite à Trichomonas (trichomonal vulvovaginitis) |
+| Score de Prédiction TxGNN | 0.9950 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---
@@ -91,9 +91,9 @@ Pour information, la vulvovaginite (non spécifiée, rang 3) dispose d'un corpus
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60010967 | TERLOMEXIN 200 mg, capsule molle vaginale | Capsule molle | Non renseignée (AMM annulée) |
-| 69960586 | LOMEXIN 600 mg, capsule molle vaginale | Capsule molle | Non renseignée (AMM annulée) |
-| 63987103 | LOMEXIN 2 %, crème | Crème | Non renseignée (AMM annulée) |
+| 60010967 | TERLOMEXIN 200 mg, capsule molle vaginale | Capsule molle | Non renseignée (AMM active) |
+| 69960586 | LOMEXIN 600 mg, capsule molle vaginale | Capsule molle | Non renseignée (AMM active) |
+| 63987103 | LOMEXIN 2 %, crème | Crème | Non renseignée (AMM active) |
 
 ---
 
@@ -110,7 +110,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la vulvovaginite à Trichomonas repose uniquement sur le modèle (niveau L4) : le mécanisme est indirect, il n'existe aucun essai enregistré et aucune donnée d'efficacité spécifique à *Trichomonas*. De plus, toutes les AMM françaises sont annulées, ce qui limite le développement pratique.
+- La prédiction pour la vulvovaginite à Trichomonas repose uniquement sur le modèle (niveau L4) : le mécanisme est indirect, il n'existe aucun essai enregistré et aucune donnée d'efficacité spécifique à *Trichomonas*. Par ailleurs, le médicament est commercialisé en France, avec 3 AMM valides sur 3.
 - Les autres prédictions ne sont pas plus favorables : atrophie vaginale postménopausique et vulvovaginite herpétique (niveau L5, sans mécanisme plausible), tandis que vulvovaginite, vulvite et vaginite (niveau L3, « question de recherche ») reposent surtout sur des données candidosiques, donc proches de l'usage d'origine plutôt que d'un vrai repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

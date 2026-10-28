@@ -4,17 +4,17 @@ title: Doxylamine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 260
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Doxylamine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L5). Indication d'origine : Rhinite allergique"
 monitor_inn: "doxylamine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Doxylamine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Doxylamine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Doxylamine : De la rhinite allergique à l'urticaire allergique
+## Doxylamine: Nasal cavity disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La doxylamine est un antihistaminique H1 de première génération (éthanolamine), initialement utilisé pour la rhinite allergique, le rhume, la conjonctivite allergique et l'urticaire.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**urticaire allergique**, mais cette prédiction recoupe en grande partie les indications déjà connues.
 Aucun essai clinique ni aucune publication ne soutient actuellement cette prédiction (**0 essai clinique**, **0 publication**).
 
 ---
@@ -48,12 +47,12 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique (les textes d'indication des AMM ne sont pas renseignés ; indications issues du graphe de connaissances : rhinite allergique, rhinite vasomotrice, pharyngite, rhume, conjonctivite, urticaire, angio-œdème) |
-| Nouvelle Indication Prédite | Urticaire allergique |
-| Score de Prédiction TxGNN | 99,85 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Nasal cavity disease |
+| Score de Prédiction TxGNN | 0.9936 |
 | Niveau de Preuve | L5 (aucune étude réelle disponible ; la classification de l'analyse initiale était L4) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +61,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, la doxylamine est un antagoniste des récepteurs H1 de première génération, doté également d'effets anticholinergiques et sédatifs. Dans l'urticaire allergique, la libération d'histamine par les mastocytes provoque la papule et l'érythème : le blocage des récepteurs H1 est donc mécanistiquement plausible.
 
-L'urticaire et l'angio-œdème figurent déjà parmi les indications d'origine de ce médicament. Il ne s'agit donc pas d'un véritable repositionnement : le score élevé (0,998) reflète très probablement ce chevauchement avec les indications existantes.
+L'urticaire et l'angio-œdème figurent déjà parmi les indications d'origine de ce médicament.
 
 Les autres prédictions du modèle vont dans le même sens. La « maladie de la cavité nasale » (99,36 %) et la « laryngopharyngite aiguë » (99,34 %) reprennent des usages déjà connus. L'« urticaire au froid » (99,26 %) est plausible par effet de classe, mais les antihistaminiques de seconde génération non sédatifs, souvent à doses plus élevées, sont préférés par les recommandations en raison de leur meilleure tolérance.
 
@@ -84,10 +83,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62382724 | DONORMYL 15 mg, comprimé pelliculé sécable (UPSA) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 67103299 | DONORMYL 15 mg, comprimé effervescent sécable (UPSA) | Comprimé effervescent sécable | Non renseignée (AMM annulée) |
-| 64881366 | LIDENE 15 mg, comprimé pelliculé sécable (COOPER) | Comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 61447165 | CARIBAN 10 mg/10 mg, gélule à libération modifiée (EFFIK) | Gélule à libération modifiée | Non renseignée (AMM annulée) |
+| 62382724 | DONORMYL 15 mg, comprimé pelliculé sécable (UPSA) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 67103299 | DONORMYL 15 mg, comprimé effervescent sécable (UPSA) | Comprimé effervescent sécable | Non renseignée (AMM active) |
+| 64881366 | LIDENE 15 mg, comprimé pelliculé sécable (COOPER) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 61447165 | CARIBAN 10 mg/10 mg, gélule à libération modifiée (EFFIK) | Gélule à libération modifiée | Non renseignée (AMM active) |
 
 ---
 
@@ -107,7 +106,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction recoupe largement les indications existantes (urticaire, angio-œdème), sans essai ni publication spécifiques. Toutes les AMM françaises sont annulées, ce qui limite le développement pratique. Les antihistaminiques de seconde génération sont préférés dans l'urticaire.
+- La prédiction recoupe largement les indications existantes (urticaire, angio-œdème), sans essai ni publication spécifiques. Les antihistaminiques de seconde génération sont préférés dans l'urticaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).

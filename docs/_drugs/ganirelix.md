@@ -6,9 +6,9 @@ nav_order: 356
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ganirelix : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Prévention de l'ovulation prématurée lors de la stimulation ovarienne…"
 monitor_inn: "ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
+description: "Ganirelix : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ganirelix
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ganirelix : De la prévention de l'ovulation prématurée à l'hypertrichose
+## Ganirelix: Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,22 +45,22 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertrichos
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Prévention de l'ovulation prématurée lors de la stimulation ovarienne (source : base pharmacologique ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypertrichose |
-| Score de Prédiction TxGNN | 99,98 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) |
+| Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le ganirelix est un antagoniste peptidique du récepteur GnRH1 (gène GNRHR). Il freine la sécrétion de LH et de FSH, donc la production des stéroïdes sexuels gonadiques.
 
-Le lien avec l'hypertrichose reste **spéculatif**. Une baisse des androgènes pourrait aider dans l'hirsutisme, mais l'hypertrichose vraie est en général indépendante des androgènes et non pilotée par l'axe hypophyso-gonadique. Le score très élevé de TxGNN reflète vraisemblablement une proximité dans le graphe de connaissances (nœuds de phénotypes pileux) plutôt qu'une connexion biologique démontrée.
+Le lien avec l'hypertrichose reste **spéculatif**. Une baisse des androgènes pourrait aider dans l'hirsutisme, mais l'hypertrichose vraie est en général indépendante des androgènes et non pilotée par l'axe hypophyso-gonadique. Le score très élevé de TxGNN provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du top 10 sont aussi sans soutien clinique (toutes en L5). Trois méritent d'être notées comme questions de recherche, car mécanistiquement plus cohérentes :
-- **Puberté précoce centrale** (score 99,75 %) : la modulation du récepteur GnRH est le principe thérapeutique établi, mais la formulation à courte durée d'action n'est pas adaptée à une suppression chronique.
+- **Puberté précoce centrale** (score 0,9975) : la modulation du récepteur GnRH est le principe thérapeutique établi, mais la formulation à courte durée d'action n'est pas adaptée à une suppression chronique.
 - **Puberté précoce familiale limitée au sexe masculin** (99,85 %) : la maladie est périphérique (mutation activatrice du récepteur LH), le ganirelix n'agirait que sur une éventuelle composante centrale secondaire.
 - **Syndrome d'excès d'aromatase** (99,80 %) : suppression hormonale adjuvante plausible, mais les inhibiteurs de l'aromatase sont l'approche directe.
 
@@ -78,10 +78,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61125958 | GANIRELIX EG 0,25 mg/0,5 mL, solution injectable en seringue préremplie (annulée) | Solution injectable | Non renseignée |
-| 62225235 | ORGALUTRAN 0,25 mg/0,5 mL, solution injectable (annulée) | Solution injectable | Non renseignée |
-| 61462270 | FYREMADEL 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie (annulée) | Solution injectable | Non renseignée |
-| 62428488 | GANIRELIX THERAMEX 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie (annulée) | Solution injectable | Non renseignée |
+| 61125958 | GANIRELIX EG 0,25 mg/0,5 mL, solution injectable en seringue préremplie (active) | Solution injectable | Non renseignée |
+| 62225235 | ORGALUTRAN 0,25 mg/0,5 mL, solution injectable (active) | Solution injectable | Non renseignée |
+| 61462270 | FYREMADEL 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie (active) | Solution injectable | Non renseignée |
+| 62428488 | GANIRELIX THERAMEX 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie (active) | Solution injectable | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -94,14 +94,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- L'hypertrichose repose uniquement sur une prédiction du modèle (L5), sans essai, sans publication, et avec un lien mécanistique jugé spéculatif. De plus, toutes les AMM françaises sont annulées.
+- L'hypertrichose repose uniquement sur une prédiction du modèle (L5), sans essai, sans publication, et avec un lien mécanistique jugé spéculatif. Par ailleurs, le médicament est commercialisé en France, avec 4 AMM valides sur 4.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications), indispensable avant tout examen de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action
 - Mener une revue de littérature ciblée et rechercher des essais, en priorité pour la puberté précoce centrale, qui est l'hypothèse la plus cohérente
 - Évaluer la compatibilité des voies d'administration et la pertinence d'une formulation à action prolongée pour une utilisation chronique
-- Clarifier la situation réglementaire, puisque aucune AMM n'est actuellement valide en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

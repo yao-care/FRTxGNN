@@ -6,9 +6,9 @@ nav_order: 340
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Flupentixol : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (niveau de preuve L5). Indication d'origine : Schizophrénie"
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Flupentixol : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication d'or…"
 ---
 
 # Flupentixol
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Flupentixol : De la Schizophrénie à la Dystrophie Rétinienne (avec ou sans anomalies extraoculaires)
+## Flupentixol: Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Schizophrénie (selon le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, flupentixol est un antipsychotique de type thioxanthène, dont l'efficacité dans la schizophrénie est établie. Les données pharmacologiques compilées indiquent qu'il se lie aux récepteurs dopaminergiques D1, D2, D3 et D5 (gènes DRD1, DRD2, DRD3, DRD5), avec un profil d'antagoniste dopaminergique.
 
-À ce jour, aucun lien mécanistique n'a été établi entre ce blocage dopaminergique et les voies impliquées dans les dégénérescences rétiniennes d'origine génétique. Le score élevé du modèle TxGNN (99,99 %) repose uniquement sur des relations calculées dans le graphe de connaissances ; il ne constitue pas une preuve d'efficacité. La similarité entre l'indication d'origine (trouble psychiatrique) et la nouvelle indication (maladie génétique de la rétine) reste à évaluer.
+À ce jour, aucun lien mécanistique n'a été établi entre ce blocage dopaminergique et les voies impliquées dans les dégénérescences rétiniennes d'origine génétique. Le score élevé du modèle TxGNN (deep learning) (0,9999) provient du modèle et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il ne constitue pas une preuve d'efficacité. La similarité entre l'indication d'origine (trouble psychiatrique) et la nouvelle indication (maladie génétique de la rétine) reste à évaluer.
 
 À titre d'information, les données compilées signalent une activité antivirale in vitro (anti-SARS-CoV-2) rapportée dans des criblages de repositionnement, probablement liée à une phospholipidose induite. Cette information n'a pas de lien avec la prédiction ci-dessus.
 
@@ -74,7 +74,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69804637 | FLUANXOL LP 100 mg/1 ml, solution injectable (IM) | Solution injectable | Non renseignée (AMM annulée, titulaire : LUNDBECK SAS) |
+| 69804637 | FLUANXOL LP 100 mg/1 ml, solution injectable (IM) | Solution injectable | Non renseignée (AMM active, titulaire : LUNDBECK SAS) |
 
 ## Considérations de Sécurité
 

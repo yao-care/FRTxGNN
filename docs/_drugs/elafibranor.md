@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**aménorrhée**, 
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM française (selon la littérature pharmacologique : CBP, après abandon de la NASH) |
 | Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,86 % |
+| Score de Prédiction TxGNN | 0,9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65387954 | IQIRVO 80 mg, comprimé pelliculé (IPSEN PHARMA) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 65387954 | IQIRVO 80 mg, comprimé pelliculé (IPSEN PHARMA) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

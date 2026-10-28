@@ -4,17 +4,17 @@ title: Palonosetron
 parent: Preuves modérées (L3-L4)
 nav_order: 574
 evidence_level: L4
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Palonosetron : nouvelle indication prédite, Migraine (« migraine disorder ») (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "palonosetron"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **5** 
+Niveau de preuve: **L4** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Migraine (« migraine disorder ») |
-| Score de Prédiction TxGNN | 99,74 % |
+| Score de Prédiction TxGNN | 0,9974 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,9 +61,9 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le palonosétron fait partie de la classe des antagonistes des récepteurs 5-HT3 (sétrons), utilisés comme antiémétiques, et son blocage de la sérotonine au niveau de ces récepteurs pourrait, sur le plan théorique, être lié à la physiopathologie de la migraine.
 
-Le lien est plausible mais non démontré. Les voies sérotoninergiques et trigémino-vasculaires interviennent dans la migraine, et les nausées et vomissements en sont une comorbidité fréquente. Cela peut expliquer la proximité du médicament et de la maladie dans le graphe de connaissances.
+Le lien est plausible mais non démontré. Les voies sérotoninergiques et trigémino-vasculaires interviennent dans la migraine, et les nausées et vomissements en sont une comorbidité fréquente. Le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
-Il faut cependant rester prudent. Le score TxGNN est très élevé (0,997), mais la seule publication spécifique rapporte une céphalée de type migraineux déclenchée par le palonosétron. Ce signal va dans le sens opposé à un bénéfice thérapeutique. Les autres prédictions (migraine avec aura du tronc cérébral, susceptibilité génétique à la migraine, atrophodermie vermiculée, ulérythème ophryogène) reposent sur la seule prédiction informatique, sans mécanisme plausible. Les deux dernières semblent être des artefacts du graphe.
+Il faut cependant rester prudent. Le score TxGNN est très élevé (0,9974), mais la seule publication spécifique rapporte une céphalée de type migraineux déclenchée par le palonosétron. Ce signal va dans le sens opposé à un bénéfice thérapeutique. Les autres prédictions (migraine avec aura du tronc cérébral, atrophodermie vermiculée, ulérythème ophryogène) reposent sur la seule prédiction informatique, sans mécanisme plausible. Les deux dernières semblent refléter des similarités apprises par le modèle TxGNN (apprentissage profond) entre maladies apparentées, et non des preuves biologiques.
 
 ---
 
@@ -87,8 +87,8 @@ Une revue de 2026 ([42748473](https://pubmed.ncbi.nlm.nih.gov/42748473/), *Europ
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61794949 | ALOXI 250 microgrammes, solution injectable (annulée) | Solution injectable | Non renseignée |
-| 67538668 | PALONOSETRON KALCEKS 250 microgrammes, solution injectable (annulée) | Solution injectable | Non renseignée |
+| 61794949 | ALOXI 250 microgrammes, solution injectable (active) | Solution injectable | Non renseignée |
+| 67538668 | PALONOSETRON KALCEKS 250 microgrammes, solution injectable (active) | Solution injectable | Non renseignée |
 
 ---
 

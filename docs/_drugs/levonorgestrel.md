@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Preuves modérées (L3-L4)
 nav_order: 450
 evidence_level: L4
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Levonorgestrel : nouvelle indication prédite, Acné (niveau de preuve L4). Indication d'origine : Ostéoporose post-ménopausique / ostéoporose"
 monitor_inn: "levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Levonorgestrel : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L4** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,23 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Lévonorgestrel : De l'Ostéoporose à l'Acné
+## Levonorgestrel: Acné (acne (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le lévonorgestrel est un progestatif de synthèse, utilisé principalement en contraception (contraception d'urgence, contraception hormonale orale et dispositifs intra-utérins). Dans le graphe de connaissances TxGNN, il est associé à l'ostéoporose et à l'ostéoporose post-ménopausique.
+Le lévonorgestrel est un progestatif de synthèse, utilisé principalement en contraception (contraception d'urgence, contraception hormonale orale et dispositifs intra-utérins).
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acné**, mais **aucun essai clinique** n'est enregistré et les **20 publications** recensées sont surtout des revues sur la contraception, dont une seule étude randomisée porte sur l'acné, avec l'association éthinylestradiol/lévonorgestrel et non le lévonorgestrel seul.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ostéoporose post-ménopausique / ostéoporose (selon le graphe de connaissances TxGNN ; aucun texte d'indication n'est renseigné dans les AMM françaises) |
-| Nouvelle Indication Prédite | Acné |
-| Score de Prédiction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acné (acne (disease)) |
+| Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acné**, mais **
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le lévonorgestrel est un progestatif dérivé de la 19-nortestostérone, utilisé comme contraceptif. Il agit notamment en inhibant l'ovulation et en modifiant la glaire cervicale et l'endomètre.
 
-Le lien entre l'indication d'origine (ostéoporose) et l'acné n'est pas évident. Le score élevé du modèle (99,88 %) ne s'appuie sur aucun mécanisme direct plausible. Le lévonorgestrel possède une activité androgénique intrinsèque (voir la revue « The androgenicity of progestins », PMID 7825629), ce qui est plutôt défavorable pour l'acné. Les bénéfices sur l'acné sont surtout décrits pour des contraceptifs oraux combinés contenant des progestatifs à effet antiandrogénique (par exemple l'acétate de chlormadinone), et non pour le lévonorgestrel seul. Dans les dispositifs intra-utérins et implants, l'acné est plutôt rapportée comme un effet indésirable possible.
+Le lien entre l'indication d'origine (ostéoporose) et l'acné n'est pas évident. Le score élevé du modèle (0,9988) ne s'appuie sur aucun mécanisme direct plausible. Le lévonorgestrel possède une activité androgénique intrinsèque (voir la revue « The androgenicity of progestins », PMID 7825629), ce qui est plutôt défavorable pour l'acné. Les bénéfices sur l'acné sont surtout décrits pour des contraceptifs oraux combinés contenant des progestatifs à effet antiandrogénique (par exemple l'acétate de chlormadinone), et non pour le lévonorgestrel seul. Dans les dispositifs intra-utérins et implants, l'acné est plutôt rapportée comme un effet indésirable possible.
 
 Un bénéfice ne pourrait être qu'indirect, par exemple par suppression de la production ovarienne d'androgènes via l'inhibition des gonadotrophines. Cet effet est faible avec une administration locale à faible dose. Cette prédiction doit donc être considérée comme une question de recherche, et non comme une piste thérapeutique étayée.
 
@@ -107,7 +107,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose essentiellement sur le score du modèle. Aucun essai clinique n'existe, la seule étude randomisée sur l'acné porte sur une association éthinylestradiol/lévonorgestrel, et le lévonorgestrel seul est androgénique, donc plutôt défavorable pour l'acné. Toutes les AMM françaises sont annulées. Les cinq autres indications prédites (syndrome de Worth, ostéoporose associée à la grossesse, vitréorétinopathie inflammatoire néovasculaire autosomique dominante, adénose apocrine et adénose à canaux dilatés du sein) sont de niveau L5, sans aucune preuve.
+La prédiction repose essentiellement sur le score du modèle. Aucun essai clinique n'existe, la seule étude randomisée sur l'acné porte sur une association éthinylestradiol/lévonorgestrel, et le lévonorgestrel seul est androgénique, donc plutôt défavorable pour l'acné. Le médicament est commercialisé en France, avec 19 AMM valides. Les quatre autres indications prédites (syndrome de Worth, vitréorétinopathie inflammatoire néovasculaire autosomique dominante, adénose apocrine et adénose à canaux dilatés du sein) sont de niveau L5, sans aucune preuve.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles issues de la notice de l'ANSM (lacune bloquante pour le criblage de sécurité)

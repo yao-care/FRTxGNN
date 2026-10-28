@@ -4,17 +4,17 @@ title: Neostigmine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 531
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Neostigmine : nouvelle indication prédite, Myasthénie grave avec hyperplasie du thymus (niveau de preuve L5). Indication d'origine : Myasthénie grave"
 monitor_inn: "neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
+description: "Neostigmine : nouvelle indication prédite, Autoimmune disease of peripheral nervous system (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Neostigmine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Néostigmine : De la myasthénie grave à la myasthénie grave avec hyperplasie du thymus
+## Neostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit donc d'une prédiction fondée uniquement sur le modèle, plus proche 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Myasthénie grave (indication issue du graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Myasthénie grave avec hyperplasie du thymus |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Autoimmune disease of peripheral nervous system |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement AMM annulée (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,7 +62,7 @@ Il s'agit donc d'une prédiction fondée uniquement sur le modèle, plus proche 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des connaissances pharmacologiques établies, la néostigmine inhibe l'acétylcholinestérase, ce qui augmente l'acétylcholine disponible au niveau de la jonction neuromusculaire. Cela compense en partie la réduction des récepteurs fonctionnels observée dans la myasthénie grave.
 
-L'hyperplasie du thymus est un sous-type fréquent de myasthénie grave. Le mécanisme symptomatique est donc le même que pour l'indication d'origine, et la prédiction est cohérente avec ce mécanisme. Le score élevé reflète toutefois la proximité dans le graphe de connaissances avec l'indication connue, et non une preuve clinique indépendante.
+L'hyperplasie du thymus est un sous-type fréquent de myasthénie grave. Le mécanisme symptomatique est donc le même que pour l'indication d'origine, et la prédiction est cohérente avec ce mécanisme.
 
 ---
 
@@ -84,7 +84,7 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61601542 | PROSTIGMINE 0,5 mg/1 ml, solution injectable (VIATRIS MEDICAL) | Solution injectable | Non renseignée (AMM annulée) |
+| 61601542 | PROSTIGMINE 0,5 mg/1 ml, solution injectable (VIATRIS MEDICAL) | Solution injectable | Non renseignée (AMM active) |
 
 ---
 

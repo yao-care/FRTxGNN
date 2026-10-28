@@ -47,10 +47,10 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome n�
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM disponibles |
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (SNAI) |
-| Score de Prédiction TxGNN | 99,51 % |
+| Score de Prédiction TxGNN | 0,9951 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **La prédiction ne repose sur aucun lien mécanistique plausible.** Le SNAI est causé par des mutations de gain de fonction du récepteur V2 de la vasopressine (AVPR2), qui entraînent une rétention d'eau malgré une vasopressine indétectable. Les opioïdes peuvent stimuler la libération de vasopressine et favoriser l'antidiurèse par des mécanismes centraux et rénaux. On s'attendrait donc plutôt à une aggravation de la rétention d'eau et de l'hyponatrémie qu'à une amélioration.
 
-Le score élevé de TxGNN (99,51 %) provient uniquement d'une prédiction par graphe de connaissances. Il n'est pas étayé par un raisonnement pharmacologique, et la similarité avec l'indication originale n'a pas pu être évaluée.
+Le score élevé de TxGNN (0,9951) provient uniquement d'une prédiction du modèle TxGNN (apprentissage profond). Il n'est pas étayé par un raisonnement pharmacologique, et la similarité avec l'indication originale n'a pas pu être évaluée.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,8 +73,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | Annulée |
-| 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | Annulée |
+| 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | Active |
+| 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | Active |
 
 Le texte des indications approuvées n'est pas renseigné pour ces deux AMM. Le titulaire est Piramal Critical Care (Pays-Bas).
 

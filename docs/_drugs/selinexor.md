@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ostéoporose mé
 |------|------|
 | Indication Originale | Non disponible (texte d'indication absent de l'AMM) |
 | Nouvelle Indication Prédite | Ostéoporose médicamenteuse |
-| Score de Prédiction TxGNN | 99,22 % |
+| Score de Prédiction TxGNN | 0,9922 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64317942 | NEXPOVIO 20 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 64317942 | NEXPOVIO 20 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 

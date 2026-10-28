@@ -6,7 +6,7 @@ nav_order: 163
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Chloroquine : nouvelle indication prédite, Arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde p… (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, lupus érythéma…"
+description: "Chloroquine : nouvelle indication prédite, Arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde positif (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, lupus érythéma…"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
 ---
@@ -50,7 +50,7 @@ mais **aucun essai clinique** n'est enregistré et une seule publication (une co
 |------|------|
 | Indication Originale | Polyarthrite rhumatoïde, lupus érythémateux systémique, paludisme (à *P. vivax*, *P. falciparum*, *P. ovale*, *P. malariae*), lupus discoïde et cutané chronique |
 | Nouvelle Indication Prédite | Arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde positif |
-| Score de Prédiction TxGNN | 99,41 % |
+| Score de Prédiction TxGNN | 0,9941 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Non commercialisé |
 | Nombre d'AMM | 0 |
@@ -102,7 +102,7 @@ Les mises en garde et contre-indications figurant dans la notice n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, et la seule publication associée concerne un autre médicament. Le médicament n'est pas commercialisé en France et les données de sécurité issues de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, et la seule publication associée concerne un autre médicament. Le médicament n'est pas commercialisé dans ce pays (non commercialisé) et les données de sécurité issues de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice de l'ANSM (mises en garde, contre-indications)

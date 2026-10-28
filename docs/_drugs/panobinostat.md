@@ -6,9 +6,9 @@ nav_order: 576
 evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Panobinostat : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L2). Indication d'origine : Myélome multiple (myélome à plasmocytes), lymphome cutané à cellules T"
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
+description: "Panobinostat : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Panobinostat
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **1**
 
 </div>
 
-## Panobinostat : Du Myélome Multiple à la Leucémie Myéloïde
+## Panobinostat: Leucémie myéloïde (myeloid leukemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **16 essais cliniques** et **20 publications** recensés actuellement, dont
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Myélome multiple (myélome à plasmocytes), lymphome cutané à cellules T (d'après le graphe de connaissances ; les textes d'indication des AMM ne sont pas renseignés) |
-| Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,70 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
+| Score de Prédiction TxGNN | 0.9970 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | AMM annulées uniquement |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -100,11 +100,10 @@ D'autres essais complètent ce tableau : étude pédiatrique de phase 1 sur les 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60937038 | FARYDAK 15 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 65638805 | FARYDAK 10 mg, gélule | Gélule | Non renseignée (AMM annulée) |
-| 62990388 | FARYDAK 20 mg, gélule | Gélule | Non renseignée (AMM annulée) |
+| 60937038 | FARYDAK 15 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 65638805 | FARYDAK 10 mg, gélule | Gélule | Non renseignée (AMM active) |
+| 62990388 | FARYDAK 20 mg, gélule | Gélule | Non renseignée (AMM active) |
 
-Les trois AMM, détenues par PHARMAAND (Autriche), sont annulées : aucune présentation n'est actuellement valide en France.
 
 ## Cytotoxicité
 

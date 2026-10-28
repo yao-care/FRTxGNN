@@ -47,17 +47,17 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertension
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Hypertension pulmonaire |
-| Score de Prédiction TxGNN | 99,03 % |
+| Score de Prédiction TxGNN | 0,9903 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. Sur la base des connaissances générales, l'alpélisib est un inhibiteur de la sous-unité alpha de la PI3K, et la voie PI3K/AKT/mTOR est impliquée dans la prolifération des cellules musculaires lisses et endothéliales ainsi que dans le remodelage vasculaire pulmonaire. Cela rend l'hypothèse mécanistique plausible.
 
-Ce lien reste toutefois **purement hypothétique** : aucune donnée fournie ne le confirme. Le score TxGNN est très élevé (0,990), mais il s'agit d'une prédiction de modèle uniquement, sans étude réelle à l'appui.
+Ce lien reste toutefois **purement hypothétique** : aucune donnée fournie ne le confirme. Le score TxGNN est très élevé (0,9903), mais il s'agit d'une prédiction de modèle uniquement, sans étude réelle à l'appui.
 
 Un point de vigilance important : la seule publication retrouvée rapporte une **pneumopathie interstitielle induite par l'alpélisib**. Ce signal de toxicité pulmonaire va à l'encontre de l'hypothèse de repositionnement tant qu'il n'est pas clarifié.
 
@@ -75,9 +75,9 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69009763 | PIQRAY 200 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62444026 | PIQRAY 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62801026 | PIQRAY 50 mg et 200 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 69009763 | PIQRAY 200 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62444026 | PIQRAY 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62801026 | PIQRAY 50 mg et 200 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -101,7 +101,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni preuve de bénéfice, et la seule publication disponible signale une toxicité pulmonaire. Toutes les AMM françaises sont par ailleurs annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni preuve de bénéfice, et la seule publication disponible signale une toxicité pulmonaire. Les 3 AMM françaises sur 3 sont par ailleurs valides et le médicament est commercialisé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

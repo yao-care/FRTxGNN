@@ -4,7 +4,7 @@ title: Ipilimumab
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 410
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ipilimumab : nouvelle indication prédite, Choroïdérémie (niveau de preuve L5). Indication d'origine : Mélanome métastatique (issue de la base de connaissances du modèle"
 monitor_inn: "IPILIMUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Ipilimumab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 |------|------|
 | Indication Originale | Mélanome métastatique (issue de la base de connaissances du modèle ; le texte d'indication de l'AMM française n'est pas renseigné) |
 | Nouvelle Indication Prédite | Choroïdérémie |
-| Score de Prédiction TxGNN | 99,06 % |
+| Score de Prédiction TxGNN | 0,9906 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 **En pratique, cette prédiction n'est pas étayée sur le plan mécanistique.** La choroïdérémie est une maladie monogénique liée à l'X, causée par la perte de fonction du gène *CHM* (REP1). Elle se caractérise par la dégénérescence progressive de l'épithélium pigmentaire rétinien, des photorécepteurs et de la choroïde. Aucun mécanisme dépendant des points de contrôle immunitaires n'est établi dans cette maladie.
 
-Le score élevé du modèle (99,06 %) est une prédiction issue d'un graphe de connaissances. Il n'est confirmé par aucune donnée clinique ou bibliographique. L'activation immunitaire systémique expose en outre à des événements indésirables d'origine immunitaire, notamment des inflammations oculaires comme l'uvéite, ce qui serait défavorable dans une rétine déjà en dégénérescence.
+Le score élevé du modèle (0,9906) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques. Il n'est confirmé par aucune donnée clinique ou bibliographique. L'activation immunitaire systémique expose en outre à des événements indésirables d'origine immunitaire, notamment des inflammations oculaires comme l'uvéite, ce qui serait défavorable dans une rétine déjà en dégénérescence.
 
 ---
 

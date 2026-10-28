@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 737
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Tenecteplase : nouvelle indication prédite, Infarctus du myocarde postéro-inférieur (niveau de preuve L5). Indication d'origine : Infarctus du myocarde"
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase : nouvelle indication prédite, Congenital coronary artery anomaly (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ténectéplase : De l'infarctus du myocarde à l'infarctus postéro-inférieur
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction correspond surtout à un sous-type anatomique de l'indication 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infarctus du myocarde (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Infarctus du myocarde postéro-inférieur |
-| Score de Prédiction TxGNN | 99,87 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Congenital coronary artery anomaly |
+| Score de Prédiction TxGNN | 0.9961 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Retiré (AMM annulées uniquement) |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'infarctus postéro-inférieur est un sous-type anatomique de l'infarctus du myocarde. Le score TxGNN élevé reflète donc probablement ce chevauchement avec l'indication d'origine, plutôt qu'une découverte nouvelle. Mécanistiquement, la thrombolyse s'applique de la même façon quelle que soit la paroi touchée.
 
-Il convient de noter que les autres prédictions du modèle (anomalie coronaire congénitale, délétion du bras court du chromosome 16, thalassémie bêta, déficits enzymatiques des globules rouges, pyropoïkilocytose héréditaire) ne reposent sur aucun lien mécanistique plausible et semblent être des artefacts du graphe. La mention « hémoglobinopathie » parmi les indications d'origine est elle-même discutable.
+La mention « hémoglobinopathie » parmi les indications d'origine est elle-même discutable.
 
 ---
 
@@ -86,8 +86,8 @@ Aucune littérature associée disponible actuellement pour l'infarctus postéro-
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65088998 | METALYSE 10 000 unités (50 mg) | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
-| 62750941 | METALYSE 5000 unités (25 mg) | Poudre pour solution injectable | Non renseignée (AMM annulée) |
+| 65088998 | METALYSE 10 000 unités (50 mg) | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+| 62750941 | METALYSE 5000 unités (25 mg) | Poudre pour solution injectable | Non renseignée (AMM active) |
 
 Les deux AMM, détenues par Boehringer Ingelheim International, sont annulées.
 

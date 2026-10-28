@@ -6,9 +6,9 @@ nav_order: 204
 evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cyclosporine : nouvelle indication prédite, Granulomatose septique chronique, autosomique récessive (niveau de preuve L4). Indication d'origine : Polyarthrite rhumatoïde, syndrome de l'œil sec, xérop…"
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
+description: "Cyclosporine : nouvelle indication prédite, Granulomatose septique chronique, autosomique récessive (granulomatous disease, chronic, autosomal recessive) (niveau de preuve L4). Indication d'origine :…"
 ---
 
 # Cyclosporine
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 </div>
 
-## Ciclosporine : Du Syndrome de Gougerot-Sjögren et de la Sécheresse Oculaire à la Granulomatose Septique Chronique
+## Cyclosporine: Granulomatose septique chronique, autosomique récessive (granulomatous disease, chronic, autosomal recessive)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais cette prédiction ne repose que sur **1 publication** (une cohorte sur la g
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Polyarthrite rhumatoïde, syndrome de l'œil sec, xérophtalmie, syndrome de Sjögren (selon le graphe de connaissances ; aucun texte d'indication n'est disponible dans les AMM françaises compilées) |
-| Nouvelle Indication Prédite | Granulomatose septique chronique, autosomique récessive |
-| Score de Prédiction TxGNN | 99,68 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Granulomatose septique chronique, autosomique récessive (granulomatous disease, chronic, autosomal recessive) |
+| Score de Prédiction TxGNN | 0.9968 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,15 +74,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; le texte des indications approuvées n'est pas disponible dans les données compilées.
+Dix AMM valides sur dix ; le texte des indications approuvées n'est pas disponible dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65922428 | NEORAL 100 mg/ml | Solution buvable | Non renseignée (AMM annulée) |
-| 64620722 | NEORAL 25 mg | Capsule molle | Non renseignée (AMM annulée) |
-| 65881230 | IKERVIS 1 mg/mL | Collyre en émulsion | Non renseignée (AMM annulée) |
-| 62935801 | SANDIMMUN 50 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 66421434 | VERKAZIA 1 mg/mL | Collyre en émulsion | Non renseignée (AMM annulée) |
+| 65922428 | NEORAL 100 mg/ml | Solution buvable | Non renseignée (AMM active) |
+| 64620722 | NEORAL 25 mg | Capsule molle | Non renseignée (AMM active) |
+| 65881230 | IKERVIS 1 mg/mL | Collyre en émulsion | Non renseignée (AMM active) |
+| 62935801 | SANDIMMUN 50 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 66421434 | VERKAZIA 1 mg/mL | Collyre en émulsion | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -101,7 +101,7 @@ Le contexte de la granulomatose septique chronique (risque infectieux déjà él
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score computationnel élevé, mais sans aucun essai clinique et avec une seule publication sans lien direct avec la ciclosporine ; le risque infectieux lié à l'immunosuppression est un frein majeur. Toutes les AMM françaises sont par ailleurs annulées.
+- La prédiction repose sur un score élevé du modèle TxGNN (deep learning), qui peut refléter des similarités apprises entre maladies apparentées et non une preuve biologique, sans aucun essai clinique et avec une seule publication sans lien direct avec la ciclosporine ; le risque infectieux lié à l'immunosuppression est un frein majeur. Le médicament est commercialisé en France (10 AMM valides sur 10).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec la granulomatose septique chronique
@@ -112,8 +112,8 @@ Le contexte de la granulomatose septique chronique (risque infectieux déjà él
 ### Note sur les autres prédictions
 
 Les autres indications prédites ont également une recommandation « Hold » :
-- **Anévrisme cérébral** (score 99,50 %, niveau L3) : la ciclosporine a été étudiée dans l'hémorragie sous-arachnoïdienne pour prévenir le vasospasme, mais il s'agit de petites études anciennes sur une complication et non sur l'anévrisme lui-même ; une étude préclinique de 2017 montre que la fonction des lymphocytes T n'est pas nécessaire à la formation de l'anévrisme.
-- **Syndrome colobomateux microphtalmie-dysplasie rhizomélique, érythrodermie ichtyosiforme congénitale, érythroblastose fœtale, syndrome brachydactylie-syndactylie, prolapsus de la glande lacrymale** (scores 99,08 % à 99,39 %, niveau L5) : aucune preuve clinique, extrapolations spéculatives uniquement.
+- **Anévrisme cérébral** (score 0,9950, niveau L3) : la ciclosporine a été étudiée dans l'hémorragie sous-arachnoïdienne pour prévenir le vasospasme, mais il s'agit de petites études anciennes sur une complication et non sur l'anévrisme lui-même ; une étude préclinique de 2017 montre que la fonction des lymphocytes T n'est pas nécessaire à la formation de l'anévrisme.
+- **Syndrome colobomateux microphtalmie-dysplasie rhizomélique, érythrodermie ichtyosiforme congénitale, érythroblastose fœtale, syndrome brachydactylie-syndactylie, prolapsus de la glande lacrymale** (scores 0,9908 à 0,9939, niveau L5) : aucune preuve clinique, extrapolations spéculatives uniquement.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

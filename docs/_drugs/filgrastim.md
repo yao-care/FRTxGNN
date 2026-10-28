@@ -6,9 +6,9 @@ nav_order: 326
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Filgrastim : nouvelle indication prédite, Primary release disorder of platelets (trouble primaire de la sécréti… (niveau de preuve L5). Indication d'origine : Neutropénie constitutionnelle / neutropé…"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
+description: "Filgrastim : nouvelle indication prédite, Primary release disorder of platelets (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Filgrastim
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Filgrastim : De la neutropénie congénitale sévère au trouble hémorragique de type plaquettaire
+## Filgrastim: Primary release disorder of platelets
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble hémorr
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Neutropénie constitutionnelle / neutropénie congénitale sévère (source : graphe de connaissances ; aucun texte d'indication n'est disponible dans les AMM) |
-| Nouvelle Indication Prédite | Primary release disorder of platelets (trouble primaire de la sécrétion plaquettaire), prédiction de rang 1 ; la prédiction de rang 10 (trouble hémorragique de type plaquettaire) est la seule à disposer d'essais associés |
-| Score de Prédiction TxGNN | 99,9976 % (rang rapporté : 107) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Primary release disorder of platelets |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 (rang 1) ; L4 pour le rang 10 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 16 (toutes annulées ; aucune valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -61,7 +61,7 @@ Pour les prédictions classées en tête, aucun lien mécanistique plausible n'e
 - **Trouble primaire de la sécrétion plaquettaire** : G-CSF n'a pas d'effet connu sur la sécrétion des granules ni sur la signalisation plaquettaire.
 - **Pseudo-maladie de von Willebrand** : trouble par gain de fonction de la GPIb-alpha ; G-CSF ne cible pas l'axe GPIb-IX-V/VWF.
 - **Thrombasthénie de Glanzmann** : défaut de l'intégrine αIIbβ3, non corrigé par G-CSF. Il peut seulement servir de soutien (mobilisation ou prise de greffe) lors d'une greffe de cellules souches, ce qui n'est pas un effet thérapeutique.
-- **Autres prédictions** (syndrome de Scott, défaut du récepteur du collagène, déficit en inhibiteur de C1, serpinopathies, thrombopénie néonatale alloimmune) : aucune relation pharmacologique identifiée ; les scores élevés reflètent probablement une proximité dans le graphe et non un lien biologique.
+- **Autres prédictions** (syndrome de Scott, défaut du récepteur du collagène, déficit en inhibiteur de C1, serpinopathies, thrombopénie néonatale alloimmune) : aucune relation pharmacologique identifiée ; les scores élevés proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non un lien biologique.
 
 Le score élevé du modèle est donc une prédiction purement computationnelle, sans appui expérimental ou clinique.
 
@@ -85,7 +85,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées. Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les 5 premières AMM sont listées ci-dessous (sur 16).
+Les 16 AMM sont valides (16 sur 16). Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les 5 premières AMM sont listées ci-dessous (sur 16).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
 |---------|------|------|-----------|
@@ -106,7 +106,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Les prédictions reposent uniquement sur le graphe (niveau L5 pour la plupart ; L4 pour le rang 10) : aucun lien mécanistique plausible, aucune publication, et des essais seulement indirects où le filgrastim est un soutien de greffe. De plus, les 16 AMM françaises sont annulées et les données de sécurité de la notice sont absentes (lacune bloquante).
+- Les prédictions proviennent uniquement du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises entre maladies apparentées, et non une preuve biologique (niveau L5 pour la plupart ; L4 pour le rang 10) : aucun lien mécanistique plausible, aucune publication, et des essais seulement indirects où le filgrastim est un soutien de greffe. Par ailleurs, les 16 AMM françaises sont valides (16 sur 16) et les données de sécurité de la notice sont absentes (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (site de l'ANSM) pour permettre le criblage de sécurité

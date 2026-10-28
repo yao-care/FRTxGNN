@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 670
-evidence_level: L3
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Rimegepant : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L3). Indication d'origine : Migraine (migraine avec ou sans aura)"
 monitor_inn: "rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L3** | Indications prédites: **6**
 
 </div>
 
-## Rimégépant : De la migraine à la migraine avec aura du tronc cérébral
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le rimégépant est un antagoniste du récepteur du CGRP (peptide lié au gène de la calcitonine), initialement utilisé pour le traitement de la migraine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, un sous-type de migraine. Il s'agit donc plutôt d'une extension au sein de la même classe d'indication que d'un repositionnement au sens strict.
+Il s'agit donc plutôt d'une extension au sein de la même classe d'indication que d'un repositionnement au sens strict.
 À ce jour, **aucun essai clinique** n'est enregistré pour cette indication précise, et **16 publications** portent sur le rimégépant dans la migraine en général, de façon indirecte pour ce sous-type.
 
 ---
@@ -48,12 +48,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec a
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (migraine avec ou sans aura) ; le texte d'indication de l'AMM n'est pas renseigné |
-| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
-| Score de Prédiction TxGNN | 99,94 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement annulé (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Atrophoderma vermiculata |
+| Score de Prédiction TxGNN | 0.9976 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -97,7 +97,7 @@ Les publications ci-dessous concernent le rimégépant dans la migraine en gén�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65899221 | VYDURA 75 mg, lyophilisat oral (PFIZER EUROPE MA EEIG, Belgique) | Lyophilisat | Non renseignée ; AMM annulée |
+| 65899221 | VYDURA 75 mg, lyophilisat oral (PFIZER EUROPE MA EEIG, Belgique) | Lyophilisat | Non renseignée ; AMM active |
 
 ---
 

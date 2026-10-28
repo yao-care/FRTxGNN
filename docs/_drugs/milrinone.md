@@ -4,7 +4,7 @@ title: Milrinone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 501
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Milrinone : nouvelle indication prédite, Alopécie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (les textes d'indication sont v…"
 monitor_inn: "MILRINONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 # Milrinone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 ## Résumé en une phrase
 
 Milrinone est un inhibiteur de la phosphodiestérase de type 3 (PDE3), utilisé en perfusion intraveineuse dans l'insuffisance cardiaque congestive.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**alopécie** (score de 99,91 %), mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**alopécie** (score de 0,9991), mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 Parmi les autres prédictions, seules l'**insuffisance cardiaque congestive** et la **cardiopathie pulmonaire aiguë** disposent de preuves cliniques réelles, mais elles relèvent de l'usage cardiovasculaire déjà connu du médicament et non d'un véritable repositionnement.
 
 ## Aperçu rapide
@@ -48,17 +48,17 @@ Parmi les autres prédictions, seules l'**insuffisance cardiaque congestive** et
 |------|------|
 | Indication originale | Non renseignée dans les données d'AMM (les textes d'indication sont vides) ; usage clinique connu : insuffisance cardiaque congestive |
 | Nouvelle indication prédite | Alopécie |
-| Score de prédiction TxGNN | 99,91 % |
+| Score de prédiction TxGNN | 0,9991 |
 | Niveau de preuve | L5 (prédiction du modèle uniquement) |
-| Statut de marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 4 (0 valide, 4 annulées) |
+| Statut de marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le jeu de données. D'après les informations pharmacologiques connues, milrinone inhibe la PDE3 (cibles PDE3A et PDE3B), ce qui élève l'AMPc intracellulaire. Il en résulte un effet inotrope positif et une vasodilatation (effet « inodilatateur »), d'où son usage dans l'insuffisance cardiaque décompensée.
 
-Pour l'alopécie, le lien mécanistique est **faible et spéculatif**. On pourrait invoquer une amélioration de la perfusion du cuir chevelu par vasodilatation, mais aucune donnée ne l'appuie. Le score élevé du modèle reflète vraisemblablement une proximité dans le graphe de connaissances plutôt qu'une plausibilité biologique démontrée. Les autres prédictions capillaires (hypotrichose simple du cuir chevelu, hypotrichose congénitale avec milia, alopécie areata diffuse) sont dans la même situation : pathologies génétiques ou auto-immunes (voie JAK/IFN-γ pour l'alopécie areata) sans lien PDE3 établi.
+Pour l'alopécie, le lien mécanistique est **faible et spéculatif**. On pourrait invoquer une amélioration de la perfusion du cuir chevelu par vasodilatation, mais aucune donnée ne l'appuie. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Les autres prédictions capillaires (hypotrichose simple du cuir chevelu, hypotrichose congénitale avec milia, alopécie areata diffuse) sont dans la même situation : pathologies génétiques ou auto-immunes (voie JAK/IFN-γ pour l'alopécie areata) sans lien PDE3 établi.
 
 Les prédictions les mieux étayées sont cardiovasculaires. Pour la **céphalée**, la littérature porte sur le syndrome de vasoconstriction cérébrale réversible (SVCR), où la milrinone, par voie intra-artérielle ou intraveineuse, a levé le vasospasme dans des cas isolés. L'extrapolation aux céphalées primaires reste indirecte. Pour la **migraine**, les vasodilatateurs sont plutôt des facteurs déclenchants.
 
@@ -100,10 +100,10 @@ Aucune publication n'est disponible pour l'alopécie. Les références ci-dessou
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
-| 61448776 | COROTROPE 10 mg/10 ml, solution injectable IV (SANOFI WINTHROP INDUSTRIE) | Solution injectable | Non renseignée (AMM annulée) |
-| 61412965 | MILRINONE TILLOMED 1 mg/mL (TILLOMED PHARMA) | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 65725263 | MILRINONE CARINOPHARM 1 mg/ml (CARINOPHARM) | Solution injectable ou pour perfusion | Non renseignée (AMM annulée) |
-| 64507226 | MILRINONE STRAGEN 1 mg/ml (STRAGEN-FRANCE) | Solution injectable | Non renseignée (AMM annulée) |
+| 61448776 | COROTROPE 10 mg/10 ml, solution injectable IV (SANOFI WINTHROP INDUSTRIE) | Solution injectable | Non renseignée (AMM active) |
+| 61412965 | MILRINONE TILLOMED 1 mg/mL (TILLOMED PHARMA) | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
+| 65725263 | MILRINONE CARINOPHARM 1 mg/ml (CARINOPHARM) | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
+| 64507226 | MILRINONE STRAGEN 1 mg/ml (STRAGEN-FRANCE) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de sécurité
 

@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anaphylaxie**, m
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM (usage connu : agent de stress pour l'imagerie de perfusion myocardique) |
 | Nouvelle Indication Prédite | Anaphylaxie |
-| Score de Prédiction TxGNN | 99,85 % |
+| Score de Prédiction TxGNN | 0,9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -65,9 +65,9 @@ Autres prédictions du modèle, toutes de niveau L5 et en statut « Hold » :
 
 | Rang | Indication prédite | Score TxGNN | Commentaire |
 |------|------|------|------|
-| 2 | Anaphylaxie d'effort dépendante de l'alimentation | 99,74 % | Même hypothèse mastocytaire ; bolus IV unique mal adapté à la prévention d'événements épisodiques ; risque hémodynamique à l'effort |
-| 3 | Ésotropie | 99,12 % | Aucun lien mécanistique identifié ; probable artefact du graphe de connaissances |
-| 4 | Pseudo-allergie | 99,12 % | Rationnel théorique uniquement ; le régadénoson peut lui-même provoquer des réactions de type hypersensibilité |
+| 2 | Anaphylaxie d'effort dépendante de l'alimentation | 0,9974 | Même hypothèse mastocytaire ; bolus IV unique mal adapté à la prévention d'événements épisodiques ; risque hémodynamique à l'effort |
+| 3 | Ésotropie | 0,9912 | Aucun lien mécanistique identifié ; le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique |
+| 4 | Pseudo-allergie | 0,9912 | Rationnel théorique uniquement ; le régadénoson peut lui-même provoquer des réactions de type hypersensibilité |
 
 ## Preuves d'Essais Cliniques
 
@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69075222 | RAPISCAN 400 microgrammes, solution injectable (GE Healthcare, Norvège) | Solution injectable | Non renseignée (AMM annulée) |
+| 69075222 | RAPISCAN 400 microgrammes, solution injectable (GE Healthcare, Norvège) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

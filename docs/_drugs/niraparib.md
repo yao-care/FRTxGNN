@@ -6,9 +6,9 @@ nav_order: 538
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Niraparib : nouvelle indication prédite, Néoplasme de l'épiglotte (niveau de preuve L5). Indication d'origine : Carcinome épithélial malin de l'ovaire et cancers du péritoine"
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib : nouvelle indication prédite, Epiglottis neoplasm (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Niraparib
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Niraparib : Du Cancer Épithélial de l'Ovaire et du Péritoine au Néoplasme de l'Épiglotte
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome épithélial malin de l'ovaire et cancers du péritoine (d'après le graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Néoplasme de l'épiglotte |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Epiglottis neoplasm |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 3 (aucune valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

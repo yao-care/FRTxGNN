@@ -4,17 +4,17 @@ title: Benazepril
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 93
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Benazepril : nouvelle indication prédite, Maladie rénale hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Benazepril : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
 # Benazepril
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Bénazépril : De l'Hypertension à la Maladie Rénale Hypertensive Maligne
+## Benazepril: Maladie rénale hypertensive maligne (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -46,12 +46,12 @@ Cependant, **aucun essai clinique** et **aucune publication pertinente** ne sout
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (selon le graphe de connaissances ; aucune AMM française disponible) |
-| Nouvelle Indication Predite | Maladie rénale hypertensive maligne |
-| Score de Prediction TxGNN | 99,65 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
+| Score de Prediction TxGNN | 0.9965 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marche en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -89,19 +89,19 @@ Veuillez consulter la notice pour les mises en garde officielles : elles ne sont
 
 | Rang | Indication | Score TxGNN | Niveau de Preuve | Recommandation |
 |---|---|---|---|---|
-| 2 | Hypertension rénovasculaire maligne | 99,65 % | L5 | Hold |
-| 3 | Hypertension pulmonaire à mécanisme multifactoriel mal défini | 99,60 % | L5 | Hold |
-| 4 | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie | 99,60 % | L5 | Hold |
-| 5 | Syndrome de Braddock | 99,44 % | L5 | Hold |
+| 2 | Hypertension rénovasculaire maligne | 0,9965 | L5 | Hold |
+| 3 | Hypertension pulmonaire à mécanisme multifactoriel mal défini | 0,9960 | L5 | Hold |
+| 4 | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie | 0,9960 | L5 | Hold |
+| 5 | Syndrome de Braddock | 0,9944 | L5 | Hold |
 
-Remarques : les scores identiques des rangs 1 et 2 (et 3 et 4) suggèrent un voisinage commun dans le graphe plutôt que des preuves indépendantes. Les IEC ne sont pas recommandés dans l'hypertension artérielle pulmonaire. Pour le rang 4, les trois publications retrouvées (médecine traditionnelle chinoise dans des modèles de fibrose rénale et myocardique) ne concernent ni le bénazépril ni l'hypertension pulmonaire et n'apportent aucune preuve utile. Pour le syndrome de Braddock, aucun lien mécanistique n'a pu être établi.
+Remarques : les scores identiques ou quasi identiques des rangs 1 et 2 (et 3 et 4) proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques. Les IEC ne sont pas recommandés dans l'hypertension artérielle pulmonaire. Pour le rang 4, les trois publications retrouvées (médecine traditionnelle chinoise dans des modèles de fibrose rénale et myocardique) ne concernent ni le bénazépril ni l'hypertension pulmonaire et n'apportent aucune preuve utile. Pour le syndrome de Braddock, aucun lien mécanistique n'a pu être établi.
 
 ## Conclusion et Prochaines Etapes
 
 **Decision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication pertinente, et prolonge surtout l'indication d'origine. Le médicament n'est pas commercialisé en France, et les données de sécurité officielles sont absentes, ce qui bloque la phase de revue de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication pertinente, et prolonge surtout l'indication d'origine.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice officielle de l'ANSM (mises en garde et contre-indications) ;

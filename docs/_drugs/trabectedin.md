@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trabectedin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 776
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trabectedin : nouvelle indication prédite, Carcinome du sein féminin (niveau de preuve L3). Indication d'origine : Cancer de l'ovaire"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
+description: "Trabectedin : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Trabectedin
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Trabectedine : Du Cancer de l'Ovaire au Carcinome du Sein Féminin
+## Trabectedin: Carcinome du sein féminin (female breast carcinoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **1 essai clinique** (non démonstratif d'efficacité) et **20 publications
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer de l'ovaire (texte d'indication de l'AMM non renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Carcinome du sein féminin |
-| Score de Prédiction TxGNN | 99,73 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Toutes les AMM annulées |
-| Nombre d'AMM | 10 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Carcinome du sein féminin (female breast carcinoma) |
+| Score de Prédiction TxGNN | 0.9973 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,11 +89,11 @@ Les résultats chiffrés d'efficacité des études de phase 2 ne figurent pas da
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68850090 | TRABECTEDINE EG 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 67470847 | TRABECTEDINE EVER PHARMA 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 66547080 | TRABECTEDINE TEVA 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 69228351 | TRABECTEDINE SUN 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 66602114 | YONDELIS 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM annulée) |
+| 68850090 | TRABECTEDINE EG 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 67470847 | TRABECTEDINE EVER PHARMA 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 66547080 | TRABECTEDINE TEVA 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 69228351 | TRABECTEDINE SUN 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+| 66602114 | YONDELIS 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
 Au total, 10 AMM sont recensées, toutes annulées.
 
@@ -120,7 +120,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 **Décision : Hold**
 
 **Justification :**
-- Le rationnel mécanistique (déficit de réparation de l'ADN, microenvironnement tumoral) est plausible et des études de phase 2 existent dans le cancer du sein, mais le seul essai enregistré n'évalue pas l'efficacité et les données de preuve restent de niveau L3. Toutes les AMM françaises sont annulées et les mises en garde de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité.
+- Le rationnel mécanistique (déficit de réparation de l'ADN, microenvironnement tumoral) est plausible et des études de phase 2 existent dans le cancer du sein, mais le seul essai enregistré n'évalue pas l'efficacité et les données de preuve restent de niveau L3. Les 10 AMM françaises sont valides (médicament commercialisé), mais les mises en garde de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante

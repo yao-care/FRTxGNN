@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Preuves modérées (L3-L4)
 nav_order: 638
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Propylthiouracil : nouvelle indication prédite, Résistance aux hormones thyroïdiennes due à une mutation du récepteur… (niveau de preuve L4). Indication d'origine : Hyperthyroïdie, maladie de Basedow…"
+description: "Propylthiouracil : nouvelle indication prédite, Résistance aux hormones thyroïdiennes due à une mutation du récepteur bêta des hormones thyroïdiennes (niveau de preuve L4). Indication d'origine : Hyperthyroïdie, maladie de Basedow…"
 monitor_inn: "propylthiouracil"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Propylthiouracile : De l'hyperthyroïdie à la résistance aux hormones thyroïdiennes (mutation du récepteur bêta)
+## Propylthiouracile : De l'hyperthyroïdie à la Résistance aux hormones thyroïdiennes due à une mutation du récepteur bêta des hormones thyroïdiennes
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **résistance aux
 |------|------|
 | Indication Originale | Hyperthyroïdie, maladie de Basedow, thyrotoxicose, crise thyrotoxique (le texte d'indication de l'AMM n'est pas renseigné) |
 | Nouvelle Indication Prédite | Résistance aux hormones thyroïdiennes due à une mutation du récepteur bêta des hormones thyroïdiennes |
-| Score de Prédiction TxGNN | 99,66 % |
+| Score de Prédiction TxGNN | 0,9966 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Dans la résistance aux hormones thyroïdiennes de type bêta, des mutations du gène THRB rendent les tissus peu sensibles aux hormones, avec une élévation compensatoire de la TSH, de la T4 et de la T3. Le lien mécanistique est donc **faible, voire potentiellement délétère** : abaisser les hormones peut augmenter encore la TSH, favoriser un goitre et induire une hypothyroïdie tissulaire.
 
-Le score très élevé du modèle reflète probablement une proximité dans le graphe de connaissances (gènes et phénotypes thyroïdiens communs) plutôt qu'un bénéfice thérapeutique réel. Cette prédiction doit être interprétée avec prudence.
+Le score très élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (gènes et phénotypes thyroïdiens communs), et non une preuve biologique ni un bénéfice thérapeutique réel. Cette prédiction doit être interprétée avec prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -80,7 +80,7 @@ Aucune de ces publications n'évalue le PTU comme traitement de cette affection 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61397883 | PROPYLEX 50 mg, comprimé (AP-HP) | Comprimé | Non renseignée (AMM annulée) |
+| 61397883 | PROPYLEX 50 mg, comprimé (AP-HP) | Comprimé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -113,8 +113,8 @@ La notice officielle n'a pas pu être exploitée : veuillez la consulter pour le
 
 ### Note sur les autres prédictions
 
-- **Thyrotoxicose néonatale** (score 99,40 %, niveau L4, « question de recherche ») : le mécanisme est cohérent avec l'indication d'origine, mais la littérature (revues et cohortes) porte sur l'usage maternel d'antithyroïdiens pendant la grossesse, soit une preuve indirecte. Aucun essai enregistré. Le PTU présente un avertissement d'hépatotoxicité sévère et, chez l'enfant, d'autres agents sont généralement préférés. Cela ne soutient pas un usage néonatal direct.
-- **Hyperthyroxinémie** (score 99,08 %, niveau L5, Hold) : prédiction purement computationnelle, sans essai ni publication. Le libellé est non spécifique et recouvre des situations où réduire la T4 serait inapproprié ; l'indication devrait être redéfinie selon l'étiologie.
+- **Thyrotoxicose néonatale** : le mécanisme est cohérent avec l'indication d'origine, mais la littérature (revues et cohortes) porte sur l'usage maternel d'antithyroïdiens pendant la grossesse, soit une preuve indirecte. Aucun essai enregistré. Le PTU présente un avertissement d'hépatotoxicité sévère et, chez l'enfant, d'autres agents sont généralement préférés. Cela ne soutient pas un usage néonatal direct.
+- **Hyperthyroxinémie** (score 0,9908, niveau L5, Hold) : prédiction purement computationnelle, sans essai ni publication. Le libellé est non spécifique et recouvre des situations où réduire la T4 serait inapproprié ; l'indication devrait être redéfinie selon l'étiologie.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

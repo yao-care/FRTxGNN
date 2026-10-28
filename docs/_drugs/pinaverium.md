@@ -46,10 +46,10 @@ Pinaverium (DICETEL 100 mg) est généralement décrit comme un antispasmodique 
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées pour ce rapport |
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
-| Score de Prédiction TxGNN | 99,22 % |
+| Score de Prédiction TxGNN | 0,9922 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -58,7 +58,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien plausible mais **non vérifié** avec l'hyperplasie bénigne de la prostate serait la relaxation du muscle lisse par blocage calcique, ce qui pourrait influencer le tonus musculaire lisse de la prostate ou du col vésical et, par conséquent, les symptômes urinaires bas. Ce raisonnement est hypothétique : il n'est étayé par aucun essai ni aucune publication dans les données compilées.
 
-Le score élevé de TxGNN (99,22 %) est une prédiction du modèle et ne constitue pas une preuve clinique. La similarité avec l'indication originale et la compatibilité des voies d'administration restent à évaluer.
+Le score élevé de TxGNN (0,9922) est une prédiction du modèle et ne constitue pas une preuve clinique. La similarité avec l'indication originale et la compatibilité des voies d'administration restent à évaluer.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66845027 | DICETEL 100 mg, comprimé pelliculé (VIATRIS MEDICAL) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 66845027 | DICETEL 100 mg, comprimé pelliculé (VIATRIS MEDICAL) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

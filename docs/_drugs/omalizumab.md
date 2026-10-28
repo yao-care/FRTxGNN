@@ -6,9 +6,9 @@ nav_order: 559
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Omalizumab : nouvelle indication prédite, Bronchite (niveau de preuve L3). Indication d'origine : Asthme, asthme intrinsèque, asthme allergique, urticaire idiopathique"
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Omalizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Omalizumab : De l'asthme à la bronchite
+## Omalizumab: Bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, ma
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Asthme, asthme intrinsèque, asthme allergique, urticaire idiopathique (source : graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,999 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -90,7 +90,7 @@ Les deux essais associés à la bronchite sont indirects : l'un est une étude d
 | 61971520 | XOLAIR 150 mg, seringue préremplie | Solution injectable | Non renseignée |
 | 61112487 | XOLAIR 75 mg, stylo prérempli | Solution injectable | Non renseignée |
 
-Les 10 AMM recensées (Novartis Europharm et Celltrion Healthcare Hungary) sont toutes au statut « annulée » ; aucune AMM valide n'apparaît dans les données compilées.
+Les 10 AMM recensées (Novartis Europharm et Celltrion Healthcare Hungary) sont toutes valides ; le médicament est commercialisé.
 
 ## Considérations de Sécurité
 
@@ -106,13 +106,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - Aucun essai ne cible directement la bronchite avec des résultats d'efficacité ; les deux essais associés sont indirects ou de très petite taille, et la littérature se limite à des revues centrées sur l'asthme (L3).
-- Les données de sécurité de la notice sont manquantes, ce qui bloque le passage au criblage de sécurité, et aucune AMM française valide n'est en vigueur.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Préciser le sous-type de bronchite visé (allergique, à éosinophiles, associée à l'asthme ou à la BPCO) et mener un essai ciblé.
-- Vérifier la situation réglementaire en France, toutes les AMM étant annulées.
+- Vérifier la situation réglementaire en France, les 10 AMM recensées étant valides.
 
 ## Autres Indications Prédites (pour information)
 

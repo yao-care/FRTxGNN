@@ -4,7 +4,7 @@ title: Sonidegib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 709
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Sonidegib : nouvelle indication prédite, Médulloblastome avec nodularité extensive (niveau de preuve L5). Indication d'origine : Carcinome basocellulaire (carcinome cutané)"
 monitor_inn: "sonidegib"
@@ -14,7 +14,7 @@ predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma 
 # Sonidegib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Pour cette indication, **aucun essai clinique** ni **aucune publication** n'est 
 |------|------|
 | Indication Originale | Carcinome basocellulaire (carcinome cutané) |
 | Nouvelle Indication Prédite | Médulloblastome avec nodularité extensive |
-| Score de Prédiction TxGNN | 99,90 % |
+| Score de Prédiction TxGNN | 0,9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM abrogées/annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pegaspargase
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 582
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Pegaspargase : nouvelle indication prédite, Lymphome/leucémie lymphoblastique à précurseurs (niveau de preuve L1). Indication d'origine : Leucémie lymphoblastique aiguë"
 monitor_inn: "pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+description: "Pegaspargase : nouvelle indication prédite, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Pegaspargase : De la leucémie lymphoblastique aiguë au lymphome/leucémie lymphoblastique à précurseurs
+## Pegaspargase: Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,19 +46,19 @@ Il s'agit en pratique d'une indication déjà établie ou très voisine, et non 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique aiguë (indication d'origine du graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Lymphome/leucémie lymphoblastique à précurseurs |
-| Score de Prédiction TxGNN | 99,96 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Retiré (AMM annulée uniquement) |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
+| Score de Prédiction TxGNN | 0.9995 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des informations connues, pegaspargase est une L-asparaginase d'*Escherichia coli* conjuguée au polyéthylène glycol. Elle dégrade l'asparagine circulante. Les lymphoblastes expriment peu d'asparagine synthétase et dépendent de l'asparagine extérieure : sa déplétion bloque la synthèse protéique et induit l'apoptose.
 
-C'est le même mécanisme que celui de l'indication d'origine (LAL). Le lymphome et la leucémie lymphoblastiques à précurseurs sont deux expressions d'une même maladie. Les protocoles de LAL sont d'ailleurs appliqués au lymphome lymphoblastique. Le score très élevé du modèle (0,9996) est cohérent avec les données cliniques existantes.
+C'est le même mécanisme que celui de l'indication d'origine (LAL). Le lymphome et la leucémie lymphoblastiques à précurseurs sont deux expressions d'une même maladie. Les protocoles de LAL sont d'ailleurs appliqués au lymphome lymphoblastique.
 
 ## Preuves d'Essais Cliniques
 
@@ -96,7 +96,7 @@ Les 35 essais sont rattachés à cette prédiction ; les plus pertinents sont li
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61861579 | ONCASPAR 750 U/ml, poudre pour solution injectable/pour perfusion (Laboratoires Servier) | Poudre pour solution injectable ou pour perfusion | Non renseignée ; AMM annulée |
+| 61861579 | ONCASPAR 750 U/ml, poudre pour solution injectable/pour perfusion (Laboratoires Servier) | Poudre pour solution injectable ou pour perfusion | Non renseignée ; AMM active |
 
 ## Cytotoxicité
 

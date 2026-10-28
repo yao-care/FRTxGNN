@@ -6,9 +6,9 @@ nav_order: 234
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diazepam : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Épilepsie"
 monitor_inn: "diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
+description: "Diazepam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Diazepam
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Diazépam : De l'épilepsie à l'insomnie
+## Diazepam: Insomnie (insomnia (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 10 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -86,11 +86,11 @@ Les 10 AMM identifiées sont toutes annulées. Le texte de l'indication approuv�
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 63196256 | VALIUM 1 POUR CENT | Solution buvable en gouttes | Annulée |
-| 66106869 | DIAZEPAM TEVA 2 mg | Comprimé | Annulée |
-| 61437096 | DIAZEPAM ARROW 10 mg | Comprimé sécable | Annulée |
-| 67959261 | VALIUM 10 mg/2 ml | Solution injectable | Annulée |
-| 69998003 | DIAZEPAM ACCORD 10 mg | Comprimé | Annulée |
+| 63196256 | VALIUM 1 POUR CENT | Solution buvable en gouttes | Active |
+| 66106869 | DIAZEPAM TEVA 2 mg | Comprimé | Active |
+| 61437096 | DIAZEPAM ARROW 10 mg | Comprimé sécable | Active |
+| 67959261 | VALIUM 10 mg/2 ml | Solution injectable | Active |
+| 69998003 | DIAZEPAM ACCORD 10 mg | Comprimé | Active |
 
 ## Considérations de Sécurité
 
@@ -105,7 +105,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être consult
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé, mais la prédiction repose sur un mécanisme plausible sans aucun essai clinique, et les données de sécurité de la notice sont manquantes. Toutes les AMM françaises sont annulées, et la tendance clinique est à la réduction des benzodiazépines dans l'insomnie. Les autres indications prédites (syndrome de la queue de cheval, TDAH, vessie neurogène, etc.) sont encore moins étayées.
+- Le score TxGNN est très élevé, mais la prédiction repose sur un mécanisme plausible sans aucun essai clinique, et les données de sécurité de la notice sont manquantes. Le médicament est commercialisé en France, avec 10 AMM valides sur 10, et la tendance clinique est à la réduction des benzodiazépines dans l'insomnie. Les autres indications prédites (syndrome de la queue de cheval, TDAH, vessie neurogène, etc.) sont encore moins étayées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

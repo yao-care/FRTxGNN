@@ -4,17 +4,17 @@ title: Moxonidine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 517
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Moxonidine : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "MOXONIDINE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "primary hereditary glaucoma"]
+description: "Moxonidine : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
 ---
 
 # Moxonidine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,31 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Moxonidine : De l'Hypertension à l'Alopécie (hypotrichose simple du cuir chevelu)
+## Moxonidine: Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Moxonidine est un antihypertenseur à action centrale, initialement utilisé pour le traitement de l'hypertension artérielle.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypotrichose simple du cuir chevelu**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette direction. Il s'agit d'une prédiction purement computationnelle, probablement un artefact du graphe de connaissances.
+Le modèle TxGNN (apprentissage profond) prédit qu'il pourrait être efficace pour l'**hypotrichose simple du cuir chevelu**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette direction. Il s'agit d'une prédiction purement computationnelle : le score provient du modèle TxGNN et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (non commercialisé) |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, moxonidine est un agoniste central des récepteurs imidazoliniques I1 et alpha-2 adrénergiques (les données compilées confirment une liaison aux récepteurs α2A, α2B et α2C). Il réduit le tonus sympathique et son efficacité dans l'hypertension est établie.
 
-**Pour l'hypotrichose simple du cuir chevelu, la prédiction ne paraît pas raisonnable.** Cette maladie est un trouble génétique du follicule pileux (variants de CDSN, APCDD1, RPL21, par exemple) et aucun lien pharmacologique avec une action sympatholytique n'est établi. Le score élevé semble être un artefact du graphe de connaissances, vraisemblablement dû à des voisins communs (gènes ou phénotypes liés à l'hypertension ou aux cheveux).
+**Pour l'hypotrichose simple du cuir chevelu, la prédiction ne paraît pas raisonnable.** Cette maladie est un trouble génétique du follicule pileux (variants de CDSN, APCDD1, RPL21, par exemple) et aucun lien pharmacologique avec une action sympatholytique n'est établi. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 D'autres prédictions classées parmi les premières relèvent de la même logique (hypotrichose congénitale avec milia, alopécie areata diffuse, alopécie). Parmi les dix candidats, deux restent biologiquement cohérents avec la pharmacologie connue : l'hypertension rénale maligne et l'hypertension rénovasculaire maligne (niveau L4, « question de recherche », par extrapolation de l'indication approuvée). Le glaucome héréditaire primitif présente un lien plausible au niveau de la classe des agonistes alpha-2 (brimonidine, apraclonidine), mais reste spéculatif pour la moxonidine.
 
@@ -79,11 +79,11 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose simple
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62425307 | MOXONIDINE TEVA SANTE 0,4 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 64771724 | MOXONIDINE BIOGARAN 0,2 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62036633 | MOXONIDINE BIOGARAN 0,4 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68782718 | PHYSIOTENS 0,4 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63708322 | MOXONIDINE TEVA SANTE 0,2 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
+| 62425307 | MOXONIDINE TEVA SANTE 0,4 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 64771724 | MOXONIDINE BIOGARAN 0,2 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 62036633 | MOXONIDINE BIOGARAN 0,4 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 68782718 | PHYSIOTENS 0,4 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 63708322 | MOXONIDINE TEVA SANTE 0,2 mg | comprimé pelliculé | Non renseignée (AMM active) |
 
 Cinq AMM sur dix sont affichées ; les dix sont annulées.
 
@@ -104,7 +104,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice : le
 - Données sur le mécanisme d'action (DrugBank) pour mieux analyser le lien mécanistique
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour tout examen de sécurité)
 - Réorientation vers les candidats plus cohérents (hypertension rénale ou rénovasculaire maligne, glaucome) pour une revue de littérature ciblée
-- Vérification de l'artefact du graphe de connaissances pour les prédictions dermatologiques
+- Vérification des similarités apprises par le modèle TxGNN (apprentissage profond) pour les prédictions dermatologiques
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

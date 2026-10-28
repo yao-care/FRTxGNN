@@ -6,9 +6,9 @@ nav_order: 597
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Phenoxymethylpenicillin : nouvelle indication prédite, Épiglottite (niveau de preuve L5). Indication d'origine : Infections streptococciques et des voies respiratoires (otite moyenne…"
 monitor_inn: "phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
+description: "Phenoxymethylpenicillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Phenoxymethylpenicillin
@@ -33,13 +33,13 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Phénoxyméthylpénicilline : Des infections streptococciques et des voies respiratoires à l'épiglottite
+## Phenoxymethylpenicillin: Épiglottite (epiglottitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La phénoxyméthylpénicilline (pénicilline V) est un antibiotique de la famille des bêta-lactamines, utilisé à l'origine dans les infections streptococciques et les infections des voies respiratoires (otite moyenne, pharyngite, érysipèle, scarlatine, etc.).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**épiglottite** (score de 99,90 %), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**épiglottite** (score de 0,9990), mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 Une seconde indication prédite, la laryngite, dispose d'une seule publication, qui porte sur l'érythromycine et non sur la pénicilline V.
 
 ---
@@ -48,12 +48,12 @@ Une seconde indication prédite, la laryngite, dispose d'une seule publication, 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infections streptococciques et des voies respiratoires (otite moyenne, pharyngite, érysipèle, scarlatine, etc.) d'après le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné |
-| Nouvelle Indication Prédite | Épiglottite |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Épiglottite (epiglottitis) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (AMM abrogée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -78,7 +78,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement pour l'épiglottite.
 
-Pour la seconde indication prédite (laryngite, score de 99,85 %), une seule publication a été retrouvée :
+Pour la seconde indication prédite (laryngite, score de 0,9985), une seule publication a été retrouvée :
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
@@ -90,7 +90,7 @@ Pour la seconde indication prédite (laryngite, score de 99,85 %), une seule pub
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67151899 | ORACILLINE 1 000 000 UI, comprimé sécable (TEOFARMA), statut : abrogée | Comprimé sécable | Non renseignée |
+| 67151899 | ORACILLINE 1 000 000 UI, comprimé sécable (TEOFARMA), statut : active | Comprimé sécable | Non renseignée |
 
 ---
 

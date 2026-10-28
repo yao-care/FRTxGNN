@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Roxithromycin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 684
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Roxithromycin : nouvelle indication prédite, Lèpre (niveau de preuve L3). Indication d'origine : Non renseignée dans les AMM compilées (usage anti-infectieux connu :…"
 monitor_inn: "roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
+description: "Roxithromycin : nouvelle indication prédite, Lèpre (leprosy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Roxithromycin
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 </div>
 
-## Roxithromycine : D'un antibiotique macrolide à la lèpre
+## Roxithromycin: Lèpre (leprosy)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais aucun essai clinique n'est enregistré : seules **5 publications** (études
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les AMM compilées (usage anti-infectieux connu : infections respiratoires, urinaires et des tissus mous) |
-| Nouvelle Indication Prédite | Lèpre |
-| Score de Prédiction TxGNN | 99,70 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune commercialisée) |
-| Nombre d'AMM | 10 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Lèpre (leprosy) |
+| Score de Prédiction TxGNN | 0.9970 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -80,11 +80,11 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64026666 | ROXITHROMYCINE SANDOZ 150 mg | comprimé pelliculé sécable | Non renseignée (AMM annulée) |
-| 68658161 | RULID 50 mg | comprimé sécable pour suspension buvable | Non renseignée (AMM annulée) |
-| 63086945 | ROXITHROMYCINE ZYDUS 150 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60526880 | ROXITHROMYCINE TEVA 150 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
-| 63659793 | ROXITHROMYCINE TEVA 100 mg | comprimé pelliculé | Non renseignée (AMM annulée) |
+| 64026666 | ROXITHROMYCINE SANDOZ 150 mg | comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 68658161 | RULID 50 mg | comprimé sécable pour suspension buvable | Non renseignée (AMM active) |
+| 63086945 | ROXITHROMYCINE ZYDUS 150 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 60526880 | ROXITHROMYCINE TEVA 150 mg | comprimé pelliculé | Non renseignée (AMM active) |
+| 63659793 | ROXITHROMYCINE TEVA 100 mg | comprimé pelliculé | Non renseignée (AMM active) |
 
 Au total, 10 AMM sont recensées, toutes annulées ; ce tableau en présente les 5 premières.
 
@@ -99,7 +99,7 @@ Les données de sécurité de la notice ANSM (mises en garde, contre-indications
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à des études précliniques (souris, in vitro) et à des revues ; aucun essai clinique n'existe. Le niveau de preuve reste faible, la clarithromycine apparaît supérieure, et toutes les AMM françaises sont annulées. Les autres indications prédites (hypertrichose, malformations, etc.) n'ont aucun lien mécanistique plausible ni aucune preuve.
+- Les preuves se limitent à des études précliniques (souris, in vitro) et à des revues ; aucun essai clinique n'existe. Le niveau de preuve reste faible, la clarithromycine apparaît supérieure, et le médicament est commercialisé en France (10 AMM valides sur 10). Les autres indications prédites (hypertrichose, malformations, etc.) n'ont aucun lien mécanistique plausible ni aucune preuve.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
@@ -107,7 +107,6 @@ Les données de sécurité de la notice ANSM (mises en garde, contre-indications
 - Comparaison directe avec la clarithromycine et les schémas antilépreux standard
 - Données de pharmacocinétique et de tissu cible pour la lèpre
 - Données cliniques humaines, ou à défaut un plan d'étude pilote
-- Clarification du statut réglementaire, puisqu'aucune AMM n'est actuellement valide en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Camphor
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 132
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Camphor : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "camphor"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---
 
 # Camphor
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Le niveau de preuve reste faible : une étude préclinique récente (2026) souti
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,85 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Score de Prédiction TxGNN | 0,9985 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -81,9 +81,9 @@ Les cas cliniques suggèrent plutôt un rôle déclenchant ou aggravant des huil
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66386652 | CAMPHORA LEHNING, degré de dilution compris entre 4CH à 30CH et 8DH à 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM annulée) |
-| 68197173 | CAMPHORA BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM annulée) |
-| 64991955 | RODULOS, solution buvable en gouttes | Solution en gouttes | Non renseignée (AMM annulée) |
+| 66386652 | CAMPHORA LEHNING, degré de dilution compris entre 4CH à 30CH et 8DH à 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM active) |
+| 68197173 | CAMPHORA BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM active) |
+| 64991955 | RODULOS, solution buvable en gouttes | Solution en gouttes | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

@@ -6,9 +6,9 @@ nav_order: 36
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Alfuzosin : nouvelle indication prédite, Hypertrichose congénitale universelle de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie bénigne de la prostate"
 monitor_inn: "alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Alfuzosin : nouvelle indication prédite, Ambras type hypertrichosis universalis congenita (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Alfuzosin
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Alfuzosine : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Congénitale Universelle de type Ambras
+## Alfuzosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose co
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hyperplasie bénigne de la prostate (d'après le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Hypertrichose congénitale universelle de type Ambras |
-| Score de Prédiction TxGNN | 99,999 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Ambras type hypertrichosis universalis congenita |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'alfuzosine est un antagoniste alpha-1 adrénergique, dont l'efficacité symptomatique dans l'hyperplasie bénigne de la prostate repose sur la relaxation du muscle lisse prostatique et cervical vésical.
 
-**Il n'existe pas de lien mécanistique établi** avec la nouvelle indication. Le syndrome d'Ambras est une maladie génétique rare, associée à des remaniements du chromosome 8q affectant la régulation de TRPS1, sans voie adrénergique connue. Le score élevé (99,999 %) reflète vraisemblablement la proximité, dans le graphe de connaissances, de maladies partageant un phénotype pileux, plutôt qu'une base biologique.
+**Il n'existe pas de lien mécanistique établi** avec la nouvelle indication. Le syndrome d'Ambras est une maladie génétique rare, associée à des remaniements du chromosome 8q affectant la régulation de TRPS1, sans voie adrénergique connue.
 
 Les autres prédictions du modèle vont dans le même sens : hypertrichose (direction de l'effet incertaine, certains vasodilatateurs comme le minoxidil *provoquant* une hypertrichose), anomalies de la tige pilaire, hypotrichoses, syndromes malformatifs (dentaires, Dandy-Walker). L'urticaire allergique est l'indication la plus plausible sur le plan biologique, mais reste sans aucune preuve, des traitements établis existant déjà (antihistaminiques anti-H1, omalizumab). Dans le syndrome de circulation fœtale persistante, l'hypotension systémique induite par un alpha-bloquant pourrait aggraver le shunt droite-gauche.
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64068708 | XATRAL 2,5 mg, comprimé pelliculé (SANOFI WINTHROP INDUSTRIE) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 64068708 | XATRAL 2,5 mg, comprimé pelliculé (SANOFI WINTHROP INDUSTRIE) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

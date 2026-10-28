@@ -4,17 +4,17 @@ title: Ribavirin
 parent: Preuves élevées (L1-L2)
 nav_order: 663
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ribavirin : nouvelle indication prédite, Infection chronique par le virus de l'hépatite B (niveau de preuve L2). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "ribavirin"
-predicted_indications: ["chronic hepatitis B virus infection", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related aortitis", "IgG4-related mediastinitis"]
+predicted_indications: ["chronic hepatitis B virus infection", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related aortitis", "IgG4-related mediastinitis"]
+description: "Ribavirin : nouvelle indication prédite, Infection chronique par le virus de l'hépatite B (chronic hepatitis B virus infection) (niveau de preuve L2). Indication d'origine : Non renseignée dans les d…"
 ---
 
 # Ribavirin
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Ribavirine : De l'hépatite C chronique à l'infection chronique par le virus de l'hépatite B
+## Ribavirin: Infection chronique par le virus de l'hépatite B (chronic hepatitis B virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infection chro
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection chronique par le virus de l'hépatite C ; infection par le virus de l'hépatite C ; infection à virus respiratoire syncytial (source : graphe de connaissances, aucun texte d'AMM disponible) |
-| Nouvelle Indication Prédite | Infection chronique par le virus de l'hépatite B |
-| Score de Prédiction TxGNN | 99,86 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection chronique par le virus de l'hépatite B (chronic hepatitis B virus infection) |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -117,7 +117,7 @@ Veuillez consulter la notice pour les informations de sécurité complètes.
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est limité (L2 selon la règle appliquée, mais reposant sur peu d'essais réellement centrés sur l'hépatite B, dont les résultats ne sont pas fournis). Le mécanisme est peu plausible pour un virus à ADN, et le score élevé reflète vraisemblablement une proximité de réseau avec l'hépatite C. Le médicament n'est pas commercialisé en France, et les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Le niveau de preuve est limité (L2 selon la règle appliquée, mais reposant sur peu d'essais réellement centrés sur l'hépatite B, dont les résultats ne sont pas fournis). Le mécanisme est peu plausible pour un virus à ADN, et le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées (par exemple l'hépatite C), et non une preuve biologique. Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (donnée bloquante)

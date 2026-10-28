@@ -6,9 +6,9 @@ nav_order: 206
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cytarabine : nouvelle indication prédite, Carcinome pulmonaire à petites cellules (niveau de preuve L4). Indication d'origine : Leucémie lymphoblastique aiguë et leucémies myéloïdes aiguës"
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
+description: "Cytarabine : nouvelle indication prédite, Small cell lung carcinoma (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cytarabine
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 </div>
 
-## Cytarabine : De la leucémie aiguë au carcinome pulmonaire à petites cellules
+## Cytarabine: Small cell lung carcinoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **carcinome pul
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Leucémie lymphoblastique aiguë et leucémies myéloïdes aiguës (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Carcinome pulmonaire à petites cellules |
-| Score de Prédiction TxGNN | 99,78 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Small cell lung carcinoma |
+| Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 11 (dont 11 annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 11) |
+| Nombre d'AMM | 11 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ---
@@ -128,7 +128,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à une prédiction du modèle, sans essai clinique ni donnée clinique spécifique au carcinome à petites cellules. Les données disponibles concernent le cancer non à petites cellules, avec des réponses modestes et une toxicité hématologique importante. De plus, toutes les AMM françaises sont annulées.
+- Les preuves se limitent à une prédiction du modèle, sans essai clinique ni donnée clinique spécifique au carcinome à petites cellules. Les données disponibles concernent le cancer non à petites cellules, avec des réponses modestes et une toxicité hématologique importante.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Examiner le résumé et les résultats de l'étude de 1987 sur la cytarabine à haute dose dans le cancer à petites cellules

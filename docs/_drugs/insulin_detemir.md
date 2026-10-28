@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 401
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Detemir : nouvelle indication prédite, Diabète de type 1 (niveau de preuve L1). Indication d'origine : Diabète sucré"
 monitor_inn: "insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Detemir : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Insuline détémir : Du diabète sucré au diabète de type 1
+## Insulin Detemir: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit toutefois d'une indication déjà établie : ce n'est pas un véritabl
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Diabète sucré ; acidocétose diabétique |
-| Nouvelle Indication Prédite | Diabète de type 1 |
-| Score de Prédiction TxGNN | 99,77 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Retiré du marché (toutes les AMM sont annulées) |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Autoimmune oophoritis |
+| Score de Prédiction TxGNN | 0.9967 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Dans le diabète de type 1, le pancréas ne produit plus assez d'insuline. L'insuline basale remplace cette insuline manquante en se fixant sur le récepteur de l'insuline. Le diabète de type 1 relève donc directement de l'indication d'origine (diabète sucré) : la prédiction du modèle reflète un usage déjà établi, et non une nouvelle piste thérapeutique.
 
-Les autres indications prédites (par exemple l'ovarite auto-immune, l'opsismodysplasie, le syndrome de la personne raide ou les lipodystrophies localisées) ne disposent d'aucun essai clinique ni d'aucune publication. Ce sont des associations issues du graphe de connaissances, sans justification mécanistique solide. Les lipodystrophies localisées correspondent en réalité à un effet indésirable connu des injections d'insuline, et non à un bénéfice thérapeutique.
+Les autres indications prédites (par exemple l'ovarite auto-immune, l'opsismodysplasie, le syndrome de la personne raide ou les lipodystrophies localisées) ne disposent d'aucun essai clinique ni d'aucune publication. Les lipodystrophies localisées correspondent en réalité à un effet indésirable connu des injections d'insuline, et non à un bénéfice thérapeutique.
 
 ---
 
@@ -110,9 +110,9 @@ Parmi les essais compilés, voici les plus pertinents (essais de phase 3 randomi
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66688750 | LEVEMIR PENFILL 100 Unités/mL, solution injectable en cartouche | Solution injectable | Non renseignée (AMM annulée) |
-| 66481292 | LEVEMIR INNOLET 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 64529525 | LEVEMIR FLEXPEN 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
+| 66688750 | LEVEMIR PENFILL 100 Unités/mL, solution injectable en cartouche | Solution injectable | Non renseignée (AMM active) |
+| 66481292 | LEVEMIR INNOLET 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 64529525 | LEVEMIR FLEXPEN 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
 Les trois AMM sont annulées, ce qui limite la disponibilité pratique du produit en France.
 
@@ -139,7 +139,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de phase 3 terminés et des méta-analyses soutiennent l'efficacité et la sécurité de l'insuline détémir dans le diabète de type 1. Il s'agit toutefois d'un usage déjà établi et non d'un repositionnement. La disponibilité est limitée, car toutes les AMM françaises sont annulées.
+- Plusieurs essais de phase 3 terminés et des méta-analyses soutiennent l'efficacité et la sécurité de l'insuline détémir dans le diabète de type 1. Il s'agit toutefois d'un usage déjà établi et non d'un repositionnement.
 - Les autres indications prédites (rangs 2 à 10) sont recommandées en « Hold » ou « Research Question » : aucune preuve clinique ni mécanistique. La prédiction de lipodystrophie correspond à un signal de sécurité, non à un bénéfice.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

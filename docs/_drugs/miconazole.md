@@ -6,9 +6,9 @@ nav_order: 498
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Miconazole : nouvelle indication prédite, Acné (niveau de preuve L3). Indication d'origine : Mycoses cutanées et muqueuses (pied d'athlète, teigne…"
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
+description: "Miconazole : nouvelle indication prédite, Acné (acne (disease)) (acne (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Miconazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Miconazole : Des Mycoses Cutanées et Muqueuses à l'Acné
+## Miconazole: Acné (acne (disease)) (acne (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour l'**acné**, mais cette
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mycoses cutanées et muqueuses (pied d'athlète, teigne, candidose cutanée, pityriasis versicolor, candidose vulvovaginale) |
-| Nouvelle Indication Prédite | Acné |
-| Score de Prédiction TxGNN | 99,54 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acné (acne (disease)) (acne (disease)) |
+| Score de Prédiction TxGNN | 0.9954 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -88,8 +88,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69184289 | DAKTARIN 2 %, gel buccal (KENVUE FRANCE) | Gel | Non renseignée (AMM annulée) |
-| 69980852 | LORAMYC 50 mg, comprimé buccogingival muco-adhésif (VECTANS PHARMA) | Comprimé muco-adhésif | Non renseignée (AMM annulée) |
+| 69184289 | DAKTARIN 2 %, gel buccal (KENVUE FRANCE) | Gel | Non renseignée (AMM active) |
+| 69980852 | LORAMYC 50 mg, comprimé buccogingival muco-adhésif (VECTANS PHARMA) | Comprimé muco-adhésif | Non renseignée (AMM active) |
 
 ---
 
@@ -116,7 +116,6 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - Les preuves se limitent à une revue, une petite étude clinique, une étude in vitro et une étude sur une affection voisine ; aucun essai clinique n'est enregistré. Le score TxGNN élevé ne suffit pas, et les données de sécurité issues de la notice manquent (lacune bloquante pour le dépistage de sécurité).
-- Aucune AMM n'est actuellement valide en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.

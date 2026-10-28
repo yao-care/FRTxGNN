@@ -4,17 +4,17 @@ title: Dronedarone
 parent: Preuves modérées (L3-L4)
 nav_order: 261
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (« stroke disorder ») (niveau de preuve L4). Indication d'origine : Fibrillation atriale"
 monitor_inn: "dronedarone"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Dronédarone : De la Fibrillation Atriale à l'Accident Vasculaire Cérébral
+## Dronedarone: Accident vasculaire cérébral (stroke disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** n'est enregistré et les **20 publications** retro
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Fibrillation atriale (d'après le graphe de connaissances ; le texte de l'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Accident vasculaire cérébral (« stroke disorder ») |
-| Score de Prédiction TxGNN | 99,97 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Accident vasculaire cérébral (stroke disorder) |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le lien avec l'AVC est surtout indirect. La fibrillation atriale est une cause majeure d'AVC cardio-embolique, et le maintien du rythme sinusal pourrait en théorie réduire ce risque. Une analyse post hoc de l'essai ATHENA a suggéré une baisse de l'incidence des AVC sous dronédarone. Des données précliniques évoquent aussi des effets protecteurs contre les lésions d'ischémie-reperfusion cardiaques et cérébrales, ainsi que des effets anticoagulants et antiplaquettaires indépendants de l'action antiarythmique.
 
-Ces éléments restent toutefois limités : l'AVC y est un critère secondaire ou post hoc, chez des patients atteints de fibrillation atriale. Dans l'essai PALLAS (fibrillation atriale permanente à haut risque), la dronédarone a été associée à une augmentation des événements vasculaires majeurs, dont les AVC. Le score TxGNN très élevé est une prédiction issue d'un graphe, et non une preuve clinique.
+Ces éléments restent toutefois limités : l'AVC y est un critère secondaire ou post hoc, chez des patients atteints de fibrillation atriale. Dans l'essai PALLAS (fibrillation atriale permanente à haut risque), la dronédarone a été associée à une augmentation des événements vasculaires majeurs, dont les AVC. Le score TxGNN très élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises entre maladies proches, et non une preuve biologique ou clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -89,7 +89,7 @@ Aucune de ces publications n'est un essai dédié à la prévention de l'AVC par
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69213011 | MULTAQ 400 mg, comprimé pelliculé (statut : annulée) | Comprimé pelliculé | Non renseignée |
+| 69213011 | MULTAQ 400 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
 
 ## Cytotoxicité
 
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-L'association avec l'AVC repose essentiellement sur une prédiction de graphe et sur des analyses post hoc chez des patients atteints de fibrillation atriale, sans essai dédié. Le profil de sécurité (insuffisance cardiaque, fibrillation atriale permanente, interactions) et l'AMM française annulée limitent encore la portée de ces signaux. À ce stade, il s'agit d'une question de recherche et non d'une recommandation de repositionnement.
+L'association avec l'AVC repose essentiellement sur une prédiction du modèle TxGNN (apprentissage profond), qui peut refléter des similitudes apprises entre maladies proches et non des preuves biologiques, ainsi que sur des analyses post hoc chez des patients atteints de fibrillation atriale, sans essai dédié. Le profil de sécurité (insuffisance cardiaque, fibrillation atriale permanente, interactions) limite encore la portée de ces signaux. À ce stade, il s'agit d'une question de recherche et non d'une recommandation de repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications), ce qui bloque l'étape de criblage de sécurité

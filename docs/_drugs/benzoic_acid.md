@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Benzoic Acid : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Aucune indication texte renseignée dans les AMM"
 monitor_inn: "benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
+last_modified_at: 2026-10-27
+description: "Benzoic Acid : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Benzoic Acid
@@ -33,79 +33,72 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Acide benzoïque : De la fibromatose et la sclérodermie à la bronchite
+## Acide benzoïque : principe actif à usage homéopathique → bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-L'acide benzoïque (présent ici sous forme de préparations homéopathiques) est associé, dans la base de connaissances utilisée par le modèle, à des maladies fibrosantes et auto-immunes de la peau et des tissus conjonctifs, comme la maladie de Lapeyronie, la sclérodermie et la dermatomyosite.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, avec un score très élevé.
-**Aucun essai clinique** et **aucune publication réellement pertinente** ne soutiennent cette prédiction : elle repose uniquement sur le modèle.
+L'acide benzoïque est un composé utilisé ici dans des préparations homéopathiques diluées commercialisées en France.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **bronchite (bronchitis)**,
+mais **aucun essai clinique** et **aucune publication pertinente** ne soutiennent actuellement cette direction : les deux articles retrouvés ne portent pas sur l'acide benzoïque.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Aucune indication texte renseignée dans les AMM ; indications issues du graphe de connaissances : pemphigus, maladie de Lapeyronie, fibromatose pénienne, sclérodermie, sclérodermie systémique, dermatomyosite |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,98 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'acide benzoïque est un composé simple, utilisé notamment comme conservateur pour son effet antimicrobien faible. En France, il figure ici dans des préparations homéopathiques diluées. Aucun mécanisme documenté ne relie ce composé à l'inflammation bronchique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'acide benzoïque est connu comme un composé au profil antimicrobien et conservateur modeste, mais rien n'indique un effet thérapeutique sur l'inflammation bronchique.
 
-Les indications originales issues du graphe de connaissances (maladie de Lapeyronie, fibromatose, sclérodermie, dermatomyosite) sont des maladies fibrosantes ou auto-immunes. Elles sont très éloignées de la bronchite, qui est le plus souvent une atteinte infectieuse ou inflammatoire des voies respiratoires. Le lien est donc faible.
+Le score du modèle est très élevé (0,9998), mais il ne repose sur aucune preuve clinique ou documentaire directe. Les deux publications retrouvées concernent d'autres substances : un examen du répaglinide dans le diabète de type 2 et un inhibiteur de l'époxyde hydrolase soluble dans la BPCO d'origine tabagique. Il s'agit très probablement d'artefacts de recherche.
 
-Le score élevé du modèle reflète probablement une proximité dans le graphe de connaissances plutôt qu'un lien biologique démontré. Les deux publications retrouvées ne concernent pas l'acide benzoïque, ce qui confirme que la prédiction n'est pas étayée à ce jour.
-
-À titre de comparaison, d'autres prédictions du même médicament paraissent biologiquement plus plausibles, notamment la **fibromatose palmaire** (maladie de Dupuytren) et la **maladie de Ledderhose**. Elles partagent une pathologie fibrosante avec la maladie de Lapeyronie et la fibromatose pénienne. Elles restent toutefois sans preuve directe et sont classées comme questions de recherche.
+À ce stade, la prédiction reste donc une hypothèse purement computationnelle, sans lien mécanistique crédible établi avec la bronchite.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [11577798](https://pubmed.ncbi.nlm.nih.gov/11577798/) | 2001 | Revue | Drugs | Revue du répaglinide (dérivé de l'acide benzoïque) dans le diabète de type 2 ; sans rapport avec la bronchite ni l'acide benzoïque lui-même |
-| [22180869](https://pubmed.ncbi.nlm.nih.gov/22180869/) | 2012 | Préclinique | Am J Respir Cell Mol Biol | Inhibiteur de l'époxyde hydrolase soluble dans la BPCO induite par le tabac ; composé sans rapport avec l'acide benzoïque |
+| [11577798](https://pubmed.ncbi.nlm.nih.gov/11577798/) | 2001 | Revue | Drugs | Revue du répaglinide (dérivé de l'acide benzoïque) dans le diabète de type 2 ; sans rapport avec la bronchite |
+| [22180869](https://pubmed.ncbi.nlm.nih.gov/22180869/) | 2012 | Préclinique | Am J Respir Cell Mol Biol | Inhibiteur de l'époxyde hydrolase soluble dans la BPCO induite par la fumée ; composé sans lien avec l'acide benzoïque |
 
-Ces deux publications ne soutiennent pas la prédiction. Elles proviennent vraisemblablement d'artefacts de recherche.
+Aucune de ces publications n'étudie l'acide benzoïque dans la bronchite.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69376909 | BENZOICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM annulée) |
-| 67434502 | BENZOICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM annulée) |
-| 69736225 | RHUS TOXICODENDRON COMPOSE | Granules et solution | Non renseignée (AMM annulée) |
+| 69376909 | BENZOICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | comprimé et solution(s) et granules et poudre et pommade | Non renseignée |
+| 67434502 | BENZOICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | comprimé et solution(s) et granules et poudre et pommade | Non renseignée |
+| 69736225 | RHUS TOXICODENDRON COMPOSE | granules et solution | Non renseignée |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie du modèle, et non texte de notice) : hypertension, insuffisance hépatique, maladie rénale, maladie de la vésicule biliaire, gastrite, diabète et acidocétose diabétique, hyperplasie bénigne de la prostate, troubles de la coagulation et hémophilie, maladie coronarienne, anémies, arrêt cardiaque soudain et troubles de la conduction cardiaque, déficit en G6PD, glycogénose, cystinurie, galactosémie, myasthénie et maladies de la jonction neuromusculaire, anorexie mentale, maladies cardiovasculaires, achalasie et mégaœsophage.
-- **Interactions médicamenteuses** : aucune interaction retrouvée dans les données compilées.
-
-Les mises en garde et contre-indications officielles de la notice n'ont pas pu être consultées. Veuillez consulter la notice pour les informations de sécurité.
+Veuillez consulter la notice pour les informations de sécurité.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5). Aucun essai clinique n'existe, la littérature retrouvée n'est pas pertinente, aucun mécanisme n'est établi et les trois AMM françaises sont annulées.
-- Parmi les autres prédictions, la fibromatose palmaire et la maladie de Ledderhose méritent d'être explorées comme questions de recherche, en raison de leur proximité avec les maladies fibrosantes d'origine.
+La prédiction repose uniquement sur le score du modèle. Aucun essai clinique ni publication ne porte sur l'acide benzoïque dans la bronchite, et aucun mécanisme plausible n'est documenté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données sur le mécanisme d'action (par exemple via DrugBank)
-- Notice officielle de l'ANSM avec mises en garde et contre-indications, indispensable avant tout examen de sécurité
-- Revue ciblée de la littérature sur l'acide benzoïque dans la bronchite, et sur les maladies fibrosantes pour les indications alternatives
-- Données précliniques de plausibilité biologique avant toute étude clinique
-- Clarification du statut réglementaire, puisque toutes les AMM sont annulées et que les produits sont homéopathiques
+- Données sur le mécanisme d'action de l'acide benzoïque
+- Notice de l'ANSM avec mises en garde et contre-indications
+- Études précliniques ou cliniques portant directement sur la bronchite
+- Évaluation de la compatibilité des voies d'administration avec les préparations homéopathiques existantes
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

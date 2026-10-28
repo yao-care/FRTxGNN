@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Diclofenac
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 237
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diclofenac : nouvelle indication prédite, Arthrite juvénile idiopathique (niveau de preuve L3). Indication d'origine : Kératose actinique, arthrose, polyarthrite rhumatoïde…"
 monitor_inn: "diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+description: "Diclofenac : nouvelle indication prédite, Hypotrichosis simplex of the scalp (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Diclofenac
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Diclofénac : De la kératose actinique à l'arthrite juvénile idiopathique
+## Diclofenac: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrite juvéni
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Kératose actinique, arthrose, polyarthrite rhumatoïde, spondylarthrite ankylosante (selon le graphe de connaissances ; aucun texte d'indication d'AMM disponible) |
-| Nouvelle Indication Prédite | Arthrite juvénile idiopathique |
-| Score de Prédiction TxGNN | 99,25 % |
-| Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypotrichosis simplex of the scalp |
+| Score de Prédiction TxGNN | 0.9969 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -93,7 +93,7 @@ Les autres publications recensées (nabumétone, naproxène, série de cas d'AJI
 
 ## Informations de Marché en France
 
-Toutes les AMM recensées sont annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné dans les données.
+Le texte d'indication approuvée n'est pas renseigné dans les données.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -116,7 +116,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur des études pédiatriques petites, anciennes (1978-1997) et surtout symptomatiques, sans essai clinique enregistré. Les AINS sont déjà d'usage établi dans l'AJI, ce qui limite l'intérêt d'un repositionnement. Toutes les AMM françaises sont annulées, et l'examen de sécurité à partir de la notice n'a pas pu être réalisé.
+- La prédiction repose sur des études pédiatriques petites, anciennes (1978-1997) et surtout symptomatiques, sans essai clinique enregistré. Les AINS sont déjà d'usage établi dans l'AJI, ce qui limite l'intérêt d'un repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'étape de sécurité)

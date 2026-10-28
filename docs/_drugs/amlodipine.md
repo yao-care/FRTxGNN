@@ -4,17 +4,17 @@ title: Amlodipine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 59
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Amlodipine : nouvelle indication prédite, Hémorragie intracérébrale (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
+indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
+last_modified_at: 2026-10-27
+description: "Amlodipine : nouvelle indication prédite, Infarctus du tronc cérébral (brain stem infarction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Amlodipine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,71 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Amlodipine : De l'Hypertension et des Accidents Vasculaires Cérébraux à l'Hémorragie Intracérébrale
+## Amlodipine : inhibiteur calcique (antagoniste des canaux calciques de type L) → infarctus du tronc cérébral (brain stem infarction)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Amlodipine est un inhibiteur calcique, initialement utilisé pour le traitement de l'hypertension artérielle, des maladies cérébrovasculaires (accident vasculaire cérébral, infarctus cérébral) et de l'angor de Prinzmetal.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Hémorragie intracérébrale** (indication retenue pour l'évaluation, car c'est celle qui dispose du plus grand nombre de preuves parmi les 10 prédictions), avec **4 essais cliniques** et **9 publications** actuellement associés, mais uniquement dans le cadre d'une association fixe de trois antihypertenseurs.
-
-> Remarque : la première prédiction du modèle, l'infarctus du tronc cérébral (score 99,94 %), ne dispose d'aucun essai ni d'aucune publication. L'hémorragie intracérébrale (rang 10) est présentée ici car elle est la seule à disposer d'un essai de phase 3 achevé.
-
----
+L'amlodipine est un inhibiteur calcique de la famille des dihydropyridines, utilisé comme antihypertenseur.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infarctus du tronc cérébral (brain stem infarction)**,
+mais **aucun essai clinique** ni **aucune publication** n'est actuellement associé à cette prédiction précise : elle repose uniquement sur le score du modèle.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (les textes d'indication des AMM ne sont pas renseignés ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hémorragie intracérébrale |
-| Score de Prédiction TxGNN | 99,79 % |
-| Niveau de Preuve | L1 (essai de phase 3 achevé, mais portant sur une association et non sur l'amlodipine seule : à interpréter avec prudence) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infarctus du tronc cérébral (brain stem infarction) |
+| Score de Prédiction TxGNN | 0,9994 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'amlodipine est un inhibiteur des canaux calciques de type L, qui provoque une relaxation du muscle lisse vasculaire et une baisse de la pression artérielle.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'amlodipine bloque les canaux calciques de type L et provoque une relaxation du muscle lisse vasculaire, ce qui abaisse la pression artérielle.
 
-Le contrôle de la pression artérielle est le principal facteur de risque modifiable de récidive après une hémorragie intracérébrale. L'amlodipine fait partie de la « Triple Pill » de l'essai TRIDENT, une association fixe à faibles doses (avec telmisartan et indapamide). La prédiction s'appuie donc sur le mécanisme antihypertenseur déjà connu, et non sur un mécanisme nouveau.
-
-Une limite importante : les preuves soutiennent la stratégie d'association, pas l'amlodipine seule. Son effet propre ne peut pas être isolé de celui de ses partenaires.
-
----
+Le modèle s'appuie probablement sur la proximité entre l'infarctus du tronc cérébral et d'autres atteintes cérébrovasculaires ischémiques pour lesquelles le contrôle tensionnel et la vasodilatation sont pertinents. Cette hypothèse reste théorique : aucune donnée directe ne soutient l'usage de l'amlodipine dans l'infarctus du tronc cérébral.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Terminé | 1671 | Triple pilule antihypertensive à faibles doses (incluant l'amlodipine) en plus des soins habituels, pour réduire la récidive d'AVC après hémorragie intracérébrale ; essai en double aveugle contre placebo |
-| [NCT07458880](https://clinicaltrials.gov/study/NCT07458880) | Non applicable | En recrutement | 140 | Triple traitement antihypertenseur après hémorragie intracérébrale avec le score TRICH ; résultats non disponibles |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | Non applicable | Arrêté | 4 | Sous-étude IRM de TRIDENT ; inscription trop faible pour être exploitable |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Arrêté | 1 | Sous-étude cognitive de TRIDENT ; un seul participant, non informative |
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [42019018](https://pubmed.ncbi.nlm.nih.gov/42019018/) | 2026 | ECR (résultats publiés) | N Engl J Med | Évaluation d'une pilule unique associant trois antihypertenseurs à faibles doses après hémorragie intracérébrale, pour réduire la pression artérielle et le risque de récidive d'AVC |
-| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Protocole d'essai | Int J Stroke | Justification, conception et avancement de l'essai TRIDENT |
-| [19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/) | 2009 | Rapport de cas | Ann Pharmacother | Angioedème probablement lié à l'amlodipine chez un patient ayant une hémorragie thalamique |
-| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Revue | Cardiovasc Drugs Ther | Usage et efficacité comparée des antagonistes calciques dans l'hypertension (contexte général) |
-
-Les autres références récupérées concernent d'autres médicaments (tizanidine, aténolol, bénidipine, candésartan) ou sont indirectes, et ne sont pas retenues.
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63566442 | AMLODIPINE ZYDUS 5 mg | Gélule | Non renseignée (AMM annulée) |
-| 62204255 | AMLODIPINE VIATRIS GENERIQUES 5 mg | Gélule | Non renseignée (AMM annulée) |
-| 63811710 | AMLODIPINE EG 5 mg | Gélule | Non renseignée (AMM annulée) |
-| 68500357 | AMLODIPINE ZYDUS 10 mg | Gélule | Non renseignée (AMM annulée) |
-| 63436445 | AMLODIPINE VIATRIS GENERIQUES 10 mg | Gélule | Non renseignée (AMM annulée) |
-
-Une sixième AMM, NATRIXAM 1,5 mg/5 mg (comprimé à libération modifiée, DIFARMED), est également annulée. Aucune AMM valide n'a été identifiée dans les données compilées.
-
----
+Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés. Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des autorisations marquées comme annulées, sans que le détail puisse être confirmé ici.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : insuffisance hépatique, maladie rénale, pancréatite, hypothyroïdie, angioedème (dont héréditaire et induit par les bloqueurs du système rénine-angiotensine), lupus érythémateux systémique, myopathie, diabète et acidocétose diabétique, neutropénie et agranulocytose, hypotension, hyperparathyroïdie.
-- **Interactions médicamenteuses** : 100 interactions recensées, au moins 20 de niveau modéré, notamment avec l'hydrocortisone, la bétaméthasone, la budésonide, la dexaméthasone, l'aprépitant, l'acide acétylsalicylique, le bupropion, la clarithromycine, le clotrimazole, la canagliflozine, la dapagliflozine et plusieurs sels de calcium.
-- **Signaux issus de la littérature** : un cas d'angioedème (PMID 19299323) et un risque d'hypotension, à surveiller chez les patients après hémorragie cérébrale.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité.
 
-Veuillez consulter la notice pour les mises en garde et contre-indications officielles, non disponibles dans les données compilées.
-
----
+**Interactions médicamenteuses** (niveau modéré, 100 interactions recensées ; principales) :
+- Corticoïdes : hydrocortisone, bétaméthasone, budésonide, dexaméthasone
+- Aprépitant
+- Acide acétylsalicylique
+- Bupropion
+- Clarithromycine
+- Clotrimazole
+- Sels de calcium (acétate, carbonate, chlorure, citrate, gluconate, lactate, phosphate, etc.)
+- Inhibiteurs du SGLT2 : canagliflozine, dapagliflozine
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le seul essai de phase 3 achevé (n=1671) porte sur une association fixe de trois médicaments, et l'effet de l'amlodipine seule ne peut pas être isolé ; de plus, l'indication reste dans le rôle antihypertenseur existant. Il n'existe aucune AMM valide en France et les données de sécurité officielles sont absentes.
-- Les neuf autres prédictions sont soit sans preuve (L5), soit soutenues par des données précliniques ou des cas isolés (L3-L4). L'occlusion de l'artère cérébrale (rang 6) n'est étayée que par des études animales.
+La prédiction repose uniquement sur le score du modèle (0,9994), sans essai clinique ni publication portant sur l'infarctus du tronc cérébral. Le niveau de preuve est donc L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice de l'ANSM (mises en garde et contre-indications) et les données de mécanisme d'action depuis DrugBank
-- Analyser les résultats détaillés de l'essai TRIDENT (publication NEJM 2026) pour estimer la contribution de chaque composant
-- Clarifier la situation réglementaire (AMM annulées) et la disponibilité d'une formulation commercialisée
-- Définir un plan de surveillance de la sécurité (hypotension, angioedème, interactions) chez les patients après hémorragie intracérébrale
+- Données détaillées sur le mécanisme d'action (MOA)
+- Mises en garde et contre-indications issues de la notice de l'ANSM
+- Études précliniques ou cliniques portant directement sur l'infarctus du tronc cérébral
+- Plan de surveillance de sécurité pour les populations ayant un accident vasculaire cérébral
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

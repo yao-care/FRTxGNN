@@ -6,9 +6,9 @@ nav_order: 267
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ebastine : nouvelle indication prédite, Maladie coronarienne (coronary artery disease) (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice, urticaire idiopathique"
 monitor_inn: "ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
+description: "Ebastine : nouvelle indication prédite, Maladie coronarienne (coronary artery disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ebastine
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Ebastine : De la rhinite allergique à la maladie coronarienne
+## Ebastine: Maladie coronarienne (coronary artery disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique, rhinite vasomotrice, urticaire idiopathique (issues du graphe de connaissances, le texte d'indication des AMM étant vide) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Maladie coronarienne (coronary artery disease) |
-| Score de Prédiction TxGNN | 99,18 % |
+| Score de Prédiction TxGNN | 0.9918 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées (aucune AMM valide) |
-| Nombre d'AMM | 16 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien hypothétique, non vérifié, pourrait être le rôle de l'histamine et des mastocytes dans le vasospasme coronarien, l'inflammation de l'athérosclérose et les lésions d'ischémie-reperfusion, que le blocage des récepteurs H1 pourrait moduler. Ce raisonnement est spéculatif et n'est étayé par aucune des données compilées pour ce rapport.
 
-La seconde prédiction, l'**ischémie myocardique** (score de 99,10 %), est très proche de la première. Les deux résultats proviennent probablement du même voisinage dans le graphe et ne constituent pas des signaux indépendants. Par ailleurs, l'ebastine et son métabolite actif, la carébastine, sont associés à des préoccupations d'allongement de l'intervalle QT à forte exposition, ce qui appelle à la prudence dans une population cardiaque.
+La seconde prédiction, l'**ischémie myocardique** (score de 0,9910), est très proche de la première. Les deux scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similitudes apprises entre maladies voisines, et non des preuves biologiques ; ils ne constituent donc pas des signaux indépendants. Par ailleurs, l'ebastine et son métabolite actif, la carébastine, sont associés à des préoccupations d'allongement de l'intervalle QT à forte exposition, ce qui appelle à la prudence dans une population cardiaque.
 
 ## Preuves d'Essais Cliniques
 
@@ -72,15 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 16 AMM recensées sont toutes annulées ; aucune n'est valide. Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées ci-dessous.
+Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 62338553 | EBASTINE ARROW 10 mg | Comprimé pelliculé | Annulée |
-| 64894972 | EBASTINE BIOGARAN 10 mg | Comprimé orodispersible | Annulée |
-| 69272860 | EBASTINE ZENTIVA 10 mg | Comprimé pelliculé | Annulée |
-| 63385125 | EBASTINE ARROW LAB 10 mg | Comprimé orodispersible | Annulée |
-| 61147189 | EBASTINE CRISTERS 10 mg | Comprimé orodispersible | Annulée |
+| 62338553 | EBASTINE ARROW 10 mg | Comprimé pelliculé | Active |
+| 64894972 | EBASTINE BIOGARAN 10 mg | Comprimé orodispersible | Active |
+| 69272860 | EBASTINE ZENTIVA 10 mg | Comprimé pelliculé | Active |
+| 63385125 | EBASTINE ARROW LAB 10 mg | Comprimé orodispersible | Active |
+| 61147189 | EBASTINE CRISTERS 10 mg | Comprimé orodispersible | Active |
 
 ## Considérations de Sécurité
 
@@ -93,14 +93,14 @@ Point d'attention lié à la nouvelle indication : l'allongement possible de l'i
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle TxGNN (niveau L5), sans essai clinique ni publication. Les deux indications cardiovasculaires prédites sont probablement corrélées, et le risque d'allongement du QT plaide pour la prudence. Toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le score du modèle TxGNN (deep learning, niveau L5), sans essai clinique ni publication. Les deux indications cardiovasculaires prédites sont probablement corrélées, et le risque d'allongement du QT plaide pour la prudence. Le médicament est commercialisé en France (16 AMM valides sur 16).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (consultation de DrugBank) et analyse du lien mécanistique avec la pathologie coronarienne
 - Notice officielle de l'ANSM (mises en garde et contre-indications), indispensable avant toute évaluation de sécurité
 - Revue de la littérature préclinique et clinique sur l'histamine, les mastocytes et la maladie coronarienne
 - Évaluation de la sécurité cardiaque (QT) de l'ebastine et de la carébastine
-- Clarification du statut réglementaire en France, toutes les AMM étant annulées
+- Clarification du statut réglementaire en France : médicament commercialisé, 16 AMM valides sur 16
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

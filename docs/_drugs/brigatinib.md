@@ -4,17 +4,17 @@ title: Brigatinib
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 114
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Brigatinib : nouvelle indication prédite, Fibromatose gingivale (niveau de preuve L5). Indication d'origine : Cancer bronchique non à petites cellules"
+indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+last_modified_at: 2026-10-27
+description: "Brigatinib : nouvelle indication prédite, Fibromatose gingivale (fibromatosis, gingival) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Brigatinib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,78 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Brigatinib : Du Cancer Bronchique Non à Petites Cellules à la Fibromatose Gingivale
+## Brigatinib : inhibiteur de tyrosine kinases (ALK, EGFR, ROS1, FAK) → fibromatose gingivale (fibromatosis, gingival)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Brigatinib est un inhibiteur de tyrosine kinase (notamment de l'ALK), initialement utilisé pour le traitement du cancer bronchique non à petites cellules (CBNPC) ALK-positif.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gingivale**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
+Le brigatinib est un inhibiteur de tyrosine kinases (notamment ALK, EGFR, ROS1 et FAK) utilisé en oncologie thoracique.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **fibromatose gingivale (fibromatosis, gingival)**, mais cette prédiction repose uniquement sur un calcul du modèle : **aucun essai clinique et aucune publication** ne la soutiennent actuellement.
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cancer bronchique non à petites cellules ; cancer du poumon (selon le graphe de connaissances, le texte d'indication des AMM françaises n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Fibromatose gingivale |
-| Score de Prédiction TxGNN | 99,89 % |
-| Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
-| Décision Recommandée | Hold |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Fibromatose gingivale (fibromatosis, gingival) |
+| Score de prédiction TxGNN | 0,9989 |
+| Niveau de preuve | L5 |
+| Statut de marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le brigatinib est un inhibiteur de kinases multiples (ALK, EGFR, ROS1, FAK). Son efficacité dans le CBNPC ALK-positif est établie par l'essai de phase 3 ALTA-1L.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données consultée. D'après les informations générales, le brigatinib est un inhibiteur de kinases qui cible notamment ALK, EGFR, ROS1 et FAK.
 
-Aucun lien mécanistique plausible n'a été établi entre cette inhibition de kinases et la fibromatose gingivale. Le score élevé du modèle (99,89 %) reflète un calcul sur le graphe de connaissances, et non une preuve biologique ou clinique. La similarité avec l'indication d'origine n'a pas été évaluée.
+Aucun lien plausible entre cette inhibition de kinases et la fibromatose gingivale n'a été établi. Le score élevé (0,9989) est une sortie de calcul du modèle, sans soutien clinique ni bibliographique. Toute hypothèse mécanistique reste donc spéculative, et la similarité avec l'indication d'origine n'a pas été évaluée.
 
-Ce score doit donc être interprété avec prudence : plusieurs autres prédictions du même médicament, également de score très élevé, sont tout aussi dépourvues de soutien (voir la conclusion).
-
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
 Aucune littérature associée disponible actuellement.
 
-## Informations de Marché en France
+## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 60648770 | ALUNBRIG 90 mg | Comprimé pelliculé | Non renseignée | Annulée |
-| 66949061 | ALUNBRIG 180 mg | Comprimé pelliculé | Non renseignée | Annulée |
-| 61066196 | ALUNBRIG 90 mg + 180 mg | Comprimé pelliculé | Non renseignée | Annulée |
-| 62626993 | ALUNBRIG 30 mg | Comprimé pelliculé | Non renseignée | Annulée |
+Les données compilées recensent 4 AMM pour des présentations d'ALUNBRIG (comprimé pelliculé, Takeda Pharma, Danemark). Le texte d'indication approuvée n'est pas renseigné dans ces enregistrements.
 
-Les quatre AMM (titulaire : Takeda Pharma, Danemark) sont annulées ; aucune AMM n'est actuellement valide dans les données compilées.
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
+|---------|------|------|-----------|
+| 60648770 | ALUNBRIG 90 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+| 66949061 | ALUNBRIG 180 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+| 61066196 | ALUNBRIG 90 mg + 180 mg, comprimé pelliculé | comprimé pelliculé et comprimé pelliculé | Non renseignée |
+| 62626993 | ALUNBRIG 30 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinase) |
-| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
-| Éléments de Surveillance | Veuillez consulter la notice ; un cas publié de syndrome de lyse tumorale fatal (PMID 34987411) dans un adénocarcinome pulmonaire justifie une vigilance |
-| Protection de Manipulation | Veuillez consulter la notice |
+| Classification de cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinases) |
+| Risque de myélosuppression | Données non disponibles ; veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'émétogénicité | Données non disponibles ; veuillez consulter la notice |
+| Éléments de surveillance | Veuillez consulter les mises en garde et précautions de la notice |
+| Protection de manipulation | Veuillez consulter la notice et les réglementations en vigueur |
 
-## Considérations de Sécurité
+## Considérations de sécurité
 
-- **Interactions Médicamenteuses** : 100 interactions ont été identifiées (base DDInter) ; les 20 premières sont décrites ici.
-  - **Majeures** : aprépitant, dexaméthasone, clarithromycine.
-  - **Modérées** : antidiabétiques (acarbose, alogliptine, albiglutide, metformine, pioglitazone, acétohexamide, canagliflozine, chlorpropamide, dapagliflozine), antiacides et inhibiteurs de la sécrétion gastrique (famotidine, ranitidine, rabéprazole, cimétidine), lopéramide, morphine, cisapride, clotrimazole.
-- **Signal de sécurité issu de la littérature** : cas de syndrome de lyse tumorale fatal sous brigatinib chez un patient atteint d'adénocarcinome pulmonaire ALK-réarrangé (PMID 34987411).
+- **Mises en garde principales et contre-indications** : les données de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité.
+- **Interactions médicamenteuses** : 100 interactions ont été recensées. Parmi les exemples classés **majeurs** : aprépitant, dexaméthasone, clarithromycine. Parmi les exemples classés **modérés** : famotidine, ranitidine, rabéprazole, métformine, pioglitazone, lopéramide, morphine, cimétidine, cisapride, clotrimazole, dapagliflozine, canagliflozine.
 
-Les mises en garde et contre-indications de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations.
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la fibromatose gingivale repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication, aucun lien mécanistique. Les AMM françaises sont toutes annulées et les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
-
-**Autres prédictions du même médicament (pour information) :**
-- **Syndrome de leucomélanodermie-infantilisme… (rang 10)** : les publications retrouvées concernent en réalité la schwannomatose liée à NF2 (étude clinique publiée dans le NEJM, PMID 38904277, et travaux précliniques, PMID 34264955). Il s'agit probablement d'un artefact de correspondance de maladie ; la piste, de niveau L3, mériterait d'être réorientée vers la schwannomatose NF2, comme question de recherche.
-- **Tumeur germinale du poumon (rang 8)** : indirectement, des cas rapportés et des données précliniques montrent une activité dans des tumeurs avec altération d'ALK (phéochromocytome, carcinome neuroendocrine à grandes cellules, neuroblastome) ; rien ne concerne les tumeurs germinales (niveau L4, question de recherche).
-- **Tumeur bénigne du poumon (rang 5)** : les 20 publications retrouvées concernent le CBNPC ALK-positif (l'indication d'origine), et non cette indication ; elles ne constituent pas une preuve de niveau L1 pour cette maladie.
+La prédiction repose uniquement sur le modèle, sans essai clinique ni publication portant sur la fibromatose gingivale, et sans lien mécanistique plausible. Le niveau de preuve est L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant pour la sécurité.
-- Obtenir les données sur le mécanisme d'action via DrugBank.
-- Pour la fibromatose gingivale : une hypothèse mécanistique documentée et des données précliniques avant toute évaluation clinique.
-- Pour la schwannomatose NF2 : réorienter l'évaluation vers cette indication et examiner les données cliniques disponibles.
-- Clarifier la situation réglementaire en France (AMM annulées) avant toute perspective d'utilisation.
+- Une hypothèse mécanistique explicite reliant l'inhibition des kinases à la fibromatose gingivale, appuyée par des données précliniques
+- Les données de mécanisme d'action détaillées du brigatinib
+- Les mises en garde et contre-indications de la notice ANSM
+- Une revue des interactions médicamenteuses majeures avant toute étude
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

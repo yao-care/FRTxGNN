@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Abacavir
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 11
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Abacavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L4). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "ABACAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Abacavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L5). Indication d'origine : Non renseignée da…"
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,34 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Abacavir : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Simienne
+## Abacavir : inhibiteur nucléosidique de la transcriptase inverse → infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Abacavir est un inhibiteur nucléosidique de la transcriptase inverse, initialement utilisé pour le traitement de l'infection par le VIH et du SIDA.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le virus de l'immunodéficience simienne (SIV)**, mais **aucun essai clinique** et seulement **1 publication** (étude in vitro) soutiennent actuellement cette direction.
+L'abacavir est un inhibiteur nucléosidique de la transcriptase inverse (INTI), utilisé contre le VIH.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)**,
+avec **aucun essai clinique** et **1 publication** (une étude in vitro) soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
-| Score de Prédiction TxGNN | 99,79 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9979 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, l'abacavir est un inhibiteur nucléosidique de la transcriptase inverse (INTI) : il est converti dans la cellule en carbovir triphosphate, qui interrompt l'élongation de l'ADN viral.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, l'abacavir est un INTI : il est converti dans la cellule en carbovir triphosphate, qui interrompt l'élongation de l'ADN viral.
 
-Le SIV est un lentivirus étroitement apparenté au VIH et utilise une transcriptase inverse homologue. La plausibilité mécanistique est donc élevée. Toutefois, il s'agit essentiellement d'une extension de l'indication antirétrovirale d'origine à un lentivirus non humain, et non d'une véritable nouvelle opportunité thérapeutique.
+Le virus de l'immunodéficience simienne (SIV) est un lentivirus proche du VIH, qui utilise une transcriptase inverse homologue. Sur le plan mécanistique, la plausibilité est donc élevée.
 
-Le score élevé du modèle (99,79 %) reflète vraisemblablement la proximité avec le VIH. La pertinence clinique pour un repositionnement chez l'humain est minimale, car l'infection par le SIV n'est pas une maladie humaine.
-
-### Autres prédictions du modèle
-
-| Rang | Maladie prédite | Score TxGNN | Niveau de preuve | Commentaire |
-|------|------|------|------|------|
-| 2 | Syndrome d'immunodéficience acquise féline (FIV) | 99,79 % | L4 | Indication vétérinaire ; une seule étude in vitro en association (zidovudine + lamivudine + abacavir), qui ne permet pas d'isoler la contribution de l'abacavir |
-| 3 | Trouble neurodéveloppemental avec démarche ataxique, absence de langage et diminution de la substance blanche corticale | 99,78 % | L5 | Aucun lien mécanistique établi ; possible artefact du graphe de connaissances ; hypothèses spéculatives |
+Il faut toutefois rester prudent : il s'agit essentiellement d'une extension de l'usage antirétroviral vers un lentivirus non humain. L'infection par le SIV n'est pas une maladie humaine, et la pertinence clinique pour un repositionnement est minime. Le score élevé reflète probablement la proximité avec le VIH plutôt qu'une réelle nouvelle opportunité thérapeutique.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,40 +70,36 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Étude de sensibilité in vitro | Antiviral Therapy | Évaluation de l'activité antivirale de 16 médicaments approuvés et d'un médicament expérimental (AMD3100) contre des souches de VIH-2, de SIV et de SHIV ; soutien préclinique indirect uniquement |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Étude de sensibilité in vitro | Antiviral Therapy | Évaluation de l'activité de 16 antiviraux approuvés et d'un composé expérimental (AMD3100) sur des isolats de VIH-2, de SIV et de SHIV : soutien préclinique indirect uniquement |
 
 ## Informations de Marché en France
 
-Toutes les AMM listées ci-dessous sont annulées ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
-
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63797011 | ABACAVIR SANDOZ 300 mg | Comprimé pelliculé sécable | Annulée |
-| 62070450 | ZIAGEN 20 mg/ml | Solution buvable | Annulée |
-| 62401060 | ABACAVIR VIATRIS 300 mg | Comprimé pelliculé sécable | Annulée |
-| 68556562 | ZIAGEN 300 mg | Comprimé pelliculé sécable | Annulée |
-| 69855489 | KIVEXA 600 mg/300 mg | Comprimé pelliculé | Annulée |
+| 63797011 | ABACAVIR SANDOZ 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
+| 62070450 | ZIAGEN 20 mg/ml, solution buvable | Solution buvable | Non renseignée |
+| 62401060 | ABACAVIR VIATRIS 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
+| 68556562 | ZIAGEN 300 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : insuffisance hépatique, maladie hépatique, stéatose hépatique et stéatohépatite non alcoolique, maladie rénale, pancréatite, maladie de la vésicule biliaire, myopathie et maladies musculaires (y compris myosite et dermatomyosite), paralysie périodique familiale, neutropénie, agranulocytose, anémie (dont macrocytaire), hypertriglycéridémie, obésité, acidose lactique.
-- **Hypersensibilité** : l'abacavir est connu pour le risque de réaction d'hypersensibilité associé à l'allèle HLA-B*57:01.
-- **Interactions médicamenteuses** : 93 interactions recensées. Les plus notables, de niveau modéré, concernent la naltrexone et l'orlistat. Les autres interactions listées (par exemple metformine, morphine, prednisone, oméprazole, vancomycine) ont un niveau de gravité non déterminé.
+- **Contre-indications ou maladies à surveiller (données de relations médicament-maladie, hors texte de notice)** : insuffisance hépatique, maladie hépatique, maladie rénale, pancréatite, maladie de la vésicule biliaire, myopathie et myosite, neutropénie, agranulocytose, anémie, hypertriglycéridémie, stéatose hépatique, acidose lactique.
+- **Interactions Médicamenteuses** : 93 interactions recensées. Parmi les principales, de niveau modéré : naltrexone et orlistat. Plusieurs autres (metformine, morphine, oméprazole, prednisone, vancomycine, etc.) sont de niveau non précisé.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle et sur une étude in vitro unique ; il n'existe aucun essai clinique, et l'indication visée (SIV) est une infection animale, sans intérêt thérapeutique humain direct. De plus, toutes les AMM françaises sont annulées.
+Seule une étude in vitro indirecte soutient cette prédiction, sans essai clinique. L'infection par le SIV n'est pas une maladie humaine, donc l'intérêt de repositionnement est très limité malgré le score élevé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice (ANSM), actuellement manquantes et bloquantes pour le criblage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Préciser si l'objectif est de valider le SIV/FIV comme modèle préclinique ou de rechercher une véritable indication humaine nouvelle
-- Pour la prédiction de trouble neurodéveloppemental rare : établir au préalable un lien mécanistique crédible avant toute étude, en tenant compte de la toxicité connue (hypersensibilité HLA-B*57:01) et du nombre élevé d'interactions
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice officielle
+- Définition d'un intérêt thérapeutique réel (humain ou vétérinaire) justifiant un développement
+- Études précliniques dédiées à l'abacavir seul contre le SIV
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

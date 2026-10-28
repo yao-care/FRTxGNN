@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 94
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bendamustine : nouvelle indication prédite, Lymphome du manteau (niveau de preuve L1). Indication d'origine : Lymphome folliculaire"
 monitor_inn: "BENDAMUSTINE"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
+last_modified_at: 2026-10-27
+description: "Bendamustine : nouvelle indication prédite, Lymphome à cellules du manteau (mantle cell lymphoma) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Bendamustine
@@ -33,112 +33,100 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Bendamustine : Du Lymphome Folliculaire au Lymphome du Manteau
+## Bendamustine : agent alkylant à activité sur les lymphomes B → Lymphome à cellules du manteau (mantle cell lymphoma)
 {: .text-alpha }
 
 ## Resume en Une Phrase
 
-Bendamustine est un agent alkylant initialement utilise pour traiter le lymphome folliculaire, les neoplasmes des cellules B matures, la leucemie lymphoblastique aigue et le syndrome de Richter.
-Le modele TxGNN predit qu'il pourrait etre efficace pour le **Lymphome du Manteau**,
-avec **39 essais cliniques** et **20 publications** soutenant actuellement cette direction, dont plusieurs essais randomises de Phase 3.
+La bendamustine est un agent alkylant doté de propriétés proches des analogues puriques, utilisé en hématologie dans les lymphomes à cellules B.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **lymphome à cellules du manteau (mantle cell lymphoma)**, avec **41 essais cliniques** et **20 publications** compilés pour cette direction.
 
 ## Apercu Rapide
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Lymphome folliculaire (les textes d'indication des AMM francaises ne sont pas renseignes ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Predite | Lymphome du manteau |
-| Score de Prediction TxGNN | 99,63 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Lymphome à cellules du manteau (mantle cell lymphoma) |
+| Score de Prediction TxGNN | 0,9963 |
 | Niveau de Preuve | L1 |
-| Statut de Marche en France | Annule uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulees) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Proceed with Guardrails |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas disponibles. Sur la base des informations connues, la bendamustine est un agent alkylant possedant aussi des proprietes proches des analogues puriques, actif contre les hemopathies malignes a cellules B.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la bendamustine est un agent alkylant avec des propriétés d'analogue purique, actif contre les hémopathies malignes à cellules B. Son action repose sur des lésions de l'ADN des cellules B malignes.
 
-Le lymphome du manteau est un neoplasme des cellules B matures, tres proche des indications d'origine (lymphome folliculaire, neoplasmes des cellules B matures). Le mecanisme commun, a savoir les lesions de l'ADN dans les cellules B malignes, est donc directement transposable.
-
-Cette plausibilite est renforcee par la litterature : l'association bendamustine-rituximab (BR) est un schema de reference, utilise comme base dans de nombreux essais recents associant des inhibiteurs de BTK (ibrutinib, acalabrutinib, orelabrutinib).
+Le lymphome à cellules du manteau est un lymphome B mature, proche des autres lymphomes B indolents traités par bendamustine. Le mécanisme de lésion de l'ADN est donc potentiellement transposable. L'association bendamustine-rituximab est un schéma de référence, et de récents essais la combinent à des inhibiteurs de BTK (ibrutinib, acalabrutinib, orelabrutinib).
 
 ## Preuves d'Essais Cliniques
 
-Le tableau presente les 10 essais les plus pertinents parmi ceux compiles. Plusieurs autres essais de Phase 2 completes existent, notamment NCT00891839 (BR en rechute/refractaire, n=45) et NCT01737177 (R2-B, n=42).
+Les essais les plus pertinents sont listés ci-dessous (sur 41 essais compilés).
 
 | Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00991211](https://clinicaltrials.gov/study/NCT00991211) | Phase 3 | Termine | 549 | BR vs R-CHOP en premiere ligne dans les lymphomes indolents et du manteau (non-inferiorite sur la survie sans progression) |
-| [NCT00877006](https://clinicaltrials.gov/study/NCT00877006) | Phase 3 | Termine | 447 | Etude BRIGHT : BR vs R-CVP ou R-CHOP en premiere ligne (lymphome indolent ou du manteau) |
-| [NCT01776840](https://clinicaltrials.gov/study/NCT01776840) | Phase 3 | Termine | 523 | Ibrutinib + BR vs placebo + BR chez les patients de 65 ans et plus nouvellement diagnostiques |
-| [NCT02972840](https://clinicaltrials.gov/study/NCT02972840) | Phase 3 | Actif, hors recrutement | 635 | Acalabrutinib + BR vs placebo + BR, lymphome du manteau non traite |
-| [NCT06363994](https://clinicaltrials.gov/study/NCT06363994) | Phase 3 | En recrutement | 476 | Orelabrutinib + BR vs BR, lymphome du manteau non traite |
-| [NCT06084936](https://clinicaltrials.gov/study/NCT06084936) | Phase 3 | En recrutement | 182 | Glofitamab vs choix de l'investigateur (dont BR) en rechute/refractaire |
-| [NCT01073163](https://clinicaltrials.gov/study/NCT01073163) | Phase 3 | Termine | 54 | Effet de BR sur l'intervalle QT |
-| [NCT00891839](https://clinicaltrials.gov/study/NCT00891839) | Phase 2 | Termine | 45 | BR en lymphome du manteau en rechute/refractaire |
-| [NCT04115631](https://clinicaltrials.gov/study/NCT04115631) | Phase 2 | Actif, hors recrutement | 360 | Trois schemas a base de BR, avec ou sans cytarabine a haute dose et acalabrutinib, chez les patients de 70 ans et moins |
-| [NCT03834688](https://clinicaltrials.gov/study/NCT03834688) | Phase 2 | Termine | 33 | Venetoclax + BR chez les patients de plus de 60 ans non traites |
+| [NCT00991211](https://clinicaltrials.gov/study/NCT00991211) | Phase 3 | Terminé | 549 | Bendamustine-rituximab versus R-CHOP en première ligne dans les lymphomes indolents et du manteau (non-infériorité sur la survie sans progression) |
+| [NCT00877006](https://clinicaltrials.gov/study/NCT00877006) | Phase 3 | Terminé | 447 | Étude BRIGHT : bendamustine-rituximab versus R-CVP ou R-CHOP en première ligne (lymphome indolent ou du manteau) |
+| [NCT01776840](https://clinicaltrials.gov/study/NCT01776840) | Phase 3 | Terminé | 523 | Ibrutinib versus placebo associé à bendamustine-rituximab, lymphome du manteau nouvellement diagnostiqué (≥ 65 ans) |
+| [NCT02972840](https://clinicaltrials.gov/study/NCT02972840) | Phase 3 | Actif, non en recrutement | 635 | Acalabrutinib versus placebo associé à bendamustine-rituximab, lymphome du manteau non traité |
+| [NCT06363994](https://clinicaltrials.gov/study/NCT06363994) | Phase 3 | En recrutement | 476 | Orélabrutinib + bendamustine-rituximab versus bendamustine-rituximab, lymphome du manteau non traité |
+| [NCT00891839](https://clinicaltrials.gov/study/NCT00891839) | Phase 2 | Terminé | 45 | Bendamustine + rituximab dans le lymphome du manteau en rechute ou réfractaire |
+| [NCT03834688](https://clinicaltrials.gov/study/NCT03834688) | Phase 2 | Terminé | 33 | Vénétoclax + bendamustine-rituximab chez les patients > 60 ans non traités |
+| [NCT01662050](https://clinicaltrials.gov/study/NCT01662050) | Phase 2 | Terminé | 57 | R-BAC (rituximab, bendamustine, cytarabine) chez les patients âgés |
+| [NCT01737177](https://clinicaltrials.gov/study/NCT01737177) | Phase 2 | Terminé | 42 | Bendamustine, lénalidomide et rituximab en deuxième ligne |
+| [NCT04115631](https://clinicaltrials.gov/study/NCT04115631) | Phase 2 | Actif, non en recrutement | 360 | Trois schémas à base de bendamustine-rituximab (± cytarabine, ± acalabrutinib) chez les patients ≤ 70 ans |
 
 ## Preuves de la Litterature
 
 | PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
-| [23433739](https://pubmed.ncbi.nlm.nih.gov/23433739/) | 2013 | ECR (Phase 3) | Lancet | BR comparee a R-CHOP en premiere ligne dans les lymphomes indolents et du manteau (non-inferiorite) |
-| [24591201](https://pubmed.ncbi.nlm.nih.gov/24591201/) | 2014 | ECR (Phase 3) | Blood | Etude BRIGHT : BR comparee a R-CHOP/R-CVP chez les patients naifs de traitement |
-| [30811293](https://pubmed.ncbi.nlm.nih.gov/30811293/) | 2019 | Cohorte | J Clin Oncol | Suivi a 5 ans de l'etude BRIGHT |
-| [35657079](https://pubmed.ncbi.nlm.nih.gov/35657079/) | 2022 | ECR | N Engl J Med | Ibrutinib + BR dans le lymphome du manteau non traite |
-| [40311141](https://pubmed.ncbi.nlm.nih.gov/40311141/) | 2025 | ECR | J Clin Oncol | Acalabrutinib + BR dans le lymphome du manteau non traite |
-| [41052510](https://pubmed.ncbi.nlm.nih.gov/41052510/) | 2025 | ECR (Phase 2/3) | Lancet | Etude ENRICH : ibrutinib-rituximab vs immunochimiotherapie (R-CHOP ou BR) chez les patients de 60 ans et plus |
-| [32126141](https://pubmed.ncbi.nlm.nih.gov/32126141/) | 2020 | Analyse groupee d'essais de Phase 2 | Blood Adv | Induction rituximab/bendamustine puis rituximab/cytarabine avant autogreffe |
-| [40975105](https://pubmed.ncbi.nlm.nih.gov/40975105/) | 2025 | Phase 2 mono-bras | Lancet Haematol | R-BAC puis venetoclax chez les patients ages a haut risque |
-| [41132246](https://pubmed.ncbi.nlm.nih.gov/41132246/) | 2025 | Recommandations | HemaSphere | Recommandations EHA-EU MCL network pour le diagnostic et le traitement |
-| [42034605](https://pubmed.ncbi.nlm.nih.gov/42034605/) | 2026 | Cohorte multicentrique (755 patients) | Blood Cancer J | Evolution apres BR en premiere ligne puis inhibiteur de BTK en deuxieme ligne |
+| [23433739](https://pubmed.ncbi.nlm.nih.gov/23433739/) | 2013 | ECR (phase 3) | Lancet | Bendamustine-rituximab versus R-CHOP en première ligne dans les lymphomes indolents et du manteau |
+| [35657079](https://pubmed.ncbi.nlm.nih.gov/35657079/) | 2022 | ECR | N Engl J Med | Ibrutinib + bendamustine-rituximab dans le lymphome du manteau non traité du sujet âgé |
+| [40311141](https://pubmed.ncbi.nlm.nih.gov/40311141/) | 2025 | ECR | J Clin Oncol | Acalabrutinib + bendamustine-rituximab dans le lymphome du manteau non traité |
+| [41052510](https://pubmed.ncbi.nlm.nih.gov/41052510/) | 2025 | ECR (phase 2/3) | Lancet | Étude ENRICH : ibrutinib-rituximab versus immunochimiothérapie (R-CHOP ou bendamustine-rituximab) chez les ≥ 60 ans |
+| [30811293](https://pubmed.ncbi.nlm.nih.gov/30811293/) | 2019 | Cohorte (suivi à 5 ans) | J Clin Oncol | Suivi à long terme de l'étude BRIGHT |
+| [24591201](https://pubmed.ncbi.nlm.nih.gov/24591201/) | 2014 | ECR (phase 3) | Blood | Étude BRIGHT : non-infériorité de la bendamustine-rituximab en première ligne |
+| [32126141](https://pubmed.ncbi.nlm.nih.gov/32126141/) | 2020 | Analyse poolée d'essais de phase 2 | Blood Adv | Induction rituximab/bendamustine puis rituximab/cytarabine avant autogreffe |
+| [40975105](https://pubmed.ncbi.nlm.nih.gov/40975105/) | 2025 | Phase 2 | Lancet Haematol | R-BAC suivi de vénétoclax chez les patients âgés à haut risque |
+| [41132246](https://pubmed.ncbi.nlm.nih.gov/41132246/) | 2025 | Recommandations | HemaSphere | Recommandations EHA-EU MCL pour le diagnostic et le traitement |
+| [26755518](https://pubmed.ncbi.nlm.nih.gov/26755518/) | 2016 | Revue | J Clin Oncol | Revue générale sur le lymphome du manteau |
 
 ## Informations de Marche en France
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 64457346 | BENDAMUSTINE MEDAC 2,5 mg/mL | Poudre pour solution a diluer pour perfusion | Non renseignee (AMM annulee) |
-| 61826343 | BENDAMUSTINE ARROW 2,5 mg/mL | Poudre pour solution a diluer pour perfusion | Non renseignee (AMM annulee) |
+| 64457346 | BENDAMUSTINE MEDAC 2,5 mg/mL | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 61826343 | BENDAMUSTINE ARROW 2,5 mg/mL | Poudre pour solution à diluer pour perfusion | Non renseignée |
 
 ## Cytotoxicite
 
 | Element | Contenu |
 |------|------|
 | Classification de Cytotoxicite | Cytotoxique conventionnel (agent alkylant) |
-| Risque de Myelosuppression | Eleve : les contre-indications du graphe de connaissances incluent thrombopenie, neutropenie, agranulocytose et anemie |
-| Classification d'Emetogenicite | Moyenne a faible (selon la classe ; a confirmer dans la notice) |
-| Elements de Surveillance | NFS avec formule (neutrophiles, plaquettes, hemoglobine), fonction hepatique et renale |
-| Protection de Manipulation | Doit suivre les reglementations de manipulation des medicaments cytotoxiques |
+| Risque de Myelosuppression | Élevé (les données compilées signalent neutropénie, thrombopénie, anémie et agranulocytose parmi les situations à risque) |
+| Classification d'Emetogenicite | Moyenne |
+| Elements de Surveillance | NFS avec différentielle, fonction hépatique et rénale |
+| Protection de Manipulation | Suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considerations de Securite
 
-- **Contre-indications issues du graphe de connaissances (non issues de la notice)** : insuffisance hepatique, maladie renale, pyoureter, maladie hepatique, maladie de la vesicule biliaire, thrombopenie, neutropenie, agranulocytose, anemie, anemie macrocytaire.
-- **Interactions medicamenteuses** : 100 interactions repertoriees. Les plus notables sont de niveau **majeur** : deferiprone et samarium (153Sm) lexidronam (risque probable de toxicite hematologique additive). Interactions de niveau modere, entre autres : omeprazole, esomeprazole, cimetidine, caffeine, deferasirox, mercaptopurine, ticlopidine, chloramphenicol, roflumilast, osilodrostat, acide obeticholique.
+- **Interactions Medicamenteuses** : 100 interactions recensées. Parmi elles, des interactions de niveau majeur avec la défériprone et le lexidronam de samarium (153Sm). Des interactions de niveau modéré concernent notamment l'oméprazole, l'ésoméprazole, la cimétidine, la caféine, le déférasirox, la ticlopidine, la mercaptopurine, le chloramphénicol et le roflumilast.
+- **Situations à risque signalées dans les données compilées** (pas de texte de notice) : insuffisance hépatique, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, thrombopénie, neutropénie, agranulocytose, anémie.
 
-Les mises en garde et contre-indications de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de securite.
+Les mises en garde et contre-indications de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Etapes
 
 **Decision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais randomises de Phase 3 completes (dont NCT00991211 et NCT00877006) et des publications de haut niveau (Lancet, NEJM, J Clin Oncol) soutiennent l'usage de la bendamustine associee au rituximab dans le lymphome du manteau. Le niveau de preuve est L1.
-- Cependant, aucune AMM francaise n'est actuellement valide, les donnees de securite issues de la notice sont absentes et le profil hematologique est a risque.
+Plusieurs essais de phase 3 randomisés terminés, dont BRIGHT et l'essai de première ligne du groupe StiL, ainsi que des publications de haut niveau, étudient directement la bendamustine dans le lymphome à cellules du manteau. Le niveau de preuve est L1. La toxicité hématologique et les interactions médicamenteuses justifient toutefois un encadrement.
 
 **Pour avancer, les elements suivants sont necessaires :**
-- Recuperer la notice de l'ANSM (mises en garde, contre-indications) pour lever le point bloquant de securite
-- Obtenir les donnees detaillees sur le mecanisme d'action (DrugBank)
-- Clarifier le statut reglementaire francais (AMM annulees, alternatives commercialisees)
-- Definir un plan de surveillance hematologique et des ajustements posologiques (insuffisance hepatique ou renale, personnes agees)
-
-### Autres indications predites (a titre informatif)
-
-- **Lymphome MALT** (99,21 %) : L2, Proceed with Guardrails ; Phase 2 dediee (NCT01015248, n=60) et series retrospectives, sans Phase 3 specifique.
-- **Lymphome de Hodgkin** (99,55 %) : L2, question de recherche ; donnees limitees a de petites etudes de Phase 1/2.
-- **Lymphome de Burkitt de l'intestin grele** et **lymphome MALT de l'intestin grele** : L3, question de recherche.
-- **Leucemie myeloide chronique BCR-ABL1 positive**, **lymphomes MALT thyroidien et mammaire**, **lymphome amygdalien** : L4 a L5, Hold.
-- **Sclerose en plaques remittente-recurrente** (99,21 %) : L5, Hold ; aucune donnee, profil de securite preoccupant.
+- Récupérer le texte de la notice de l'ANSM (mises en garde et contre-indications), actuellement manquant
+- Obtenir les données détaillées sur le mécanisme d'action
+- Vérifier le statut réglementaire des deux AMM et leurs indications approuvées
+- Définir un plan de surveillance hématologique, hépatique et rénale
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

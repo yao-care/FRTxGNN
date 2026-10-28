@@ -6,9 +6,9 @@ nav_order: 800
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ustekinumab : nouvelle indication prédite, Dermatite (niveau de preuve L2). Indication d'origine : Rhumatisme psoriasique, psoriasis, parapsoriasis"
 monitor_inn: "ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Ustekinumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ustekinumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Ustékinumab : Du Psoriasis à la Dermatite
+## Ustekinumab: Dermatite (dermatitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,11 +45,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dermatite**, av
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhumatisme psoriasique, psoriasis, parapsoriasis (selon le graphe de connaissances TxGNN ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Dermatite |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Dermatite (dermatitis) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 |
 | Décision Recommandée | Hold |
 
@@ -59,7 +59,7 @@ Les données détaillées sur le mécanisme d'action ne sont pas disponibles dan
 
 Ces mêmes voies contribuent à l'inflammation dans plusieurs sous-types de dermatite, notamment la dermatite atopique chronique. L'adéquation mécanistique reste toutefois **partielle** : la dermatite atopique est surtout dominée par la voie Th2 (IL-4/IL-13), ce qui pourrait expliquer l'efficacité limitée observée dans les essais.
 
-Il convient aussi de noter que le score TxGNN élevé est en grande partie lié au terme très large et peu spécifique de « dermatite » et à sa proximité avec le psoriasis dans le graphe de connaissances. Ce score doit donc être interprété avec prudence.
+Il convient aussi de noter que le score élevé du modèle TxGNN (apprentissage profond) est en grande partie lié au terme très large et peu spécifique de « dermatite ». Ce score peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il doit donc être interprété avec prudence.
 
 ## Preuves d'Essais Cliniques
 
@@ -76,11 +76,11 @@ Il convient aussi de noter que le score TxGNN élevé est en grande partie lié 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67522169 | STELARA 45 mg, solution injectable | Solution injectable | Non disponible (AMM annulée) |
-| 65283311 | STELARA 45 mg, solution injectable en seringue préremplie | Solution injectable | Non disponible (AMM annulée) |
-| 69661655 | STELARA 90 mg, solution injectable en stylo prérempli | Solution injectable | Non disponible (AMM annulée) |
-| 66170398 | STELARA 90 mg, solution injectable en seringue préremplie | Solution injectable | Non disponible (AMM annulée) |
-| 61145149 | OTULFI 130 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non disponible (AMM annulée) |
+| 67522169 | STELARA 45 mg, solution injectable | Solution injectable | Non disponible (AMM active) |
+| 65283311 | STELARA 45 mg, solution injectable en seringue préremplie | Solution injectable | Non disponible (AMM active) |
+| 69661655 | STELARA 90 mg, solution injectable en stylo prérempli | Solution injectable | Non disponible (AMM active) |
+| 66170398 | STELARA 90 mg, solution injectable en seringue préremplie | Solution injectable | Non disponible (AMM active) |
+| 61145149 | OTULFI 130 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non disponible (AMM active) |
 
 Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma), toutes au statut annulé.
 

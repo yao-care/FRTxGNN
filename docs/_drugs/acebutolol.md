@@ -4,17 +4,17 @@ title: Acebutolol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 15
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Acebutolol : nouvelle indication prédite, Maladie rénale hypertensive maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
+indication_count: 1
 monitor_inn: "acebutolol"
 predicted_indications: ["malignant hypertensive renal disease"]
+last_modified_at: 2026-10-27
+description: "Acebutolol : nouvelle indication prédite, Néphropathie hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
 ---
 
 # Acebutolol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,66 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Acébutolol : De l'Hypertension à l'Hypertension Rénale Maligne
+## Acebutolol : bêta-bloquant cardiosélectif à activité sympathomimétique intrinsèque → néphropathie hypertensive maligne (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-L'acébutolol est un bêta-bloquant cardiosélectif, initialement utilisé pour le traitement de l'hypertension artérielle.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie rénale hypertensive maligne** (et, en second rang, l'**hypertension rénovasculaire maligne**).
-Actuellement, **aucun essai clinique** et **une seule publication** indirecte (une étude de 1975 sur l'hypertension en général) soutiennent cette direction : la prédiction repose donc essentiellement sur le modèle.
-
----
+L'acebutolol est un bêta-bloquant cardiosélectif doté d'une activité sympathomimétique intrinsèque, utilisé dans la prise en charge de l'hypertension artérielle.
+Le modèle TxGNN prédit qu'il pourrait être utile dans la **néphropathie hypertensive maligne (malignant hypertensive renal disease)**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette piste : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte de l'indication de l'AMM française n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Maladie rénale hypertensive maligne |
-| Score de Prédiction TxGNN | 99,10 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Néphropathie hypertensive maligne (malignant hypertensive renal disease) |
+| Score de Prédiction TxGNN | 0.9910 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulé (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
-
----
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'acébutolol est un bêta-1 bloquant cardiosélectif doté d'une activité sympathomimétique intrinsèque. Son efficacité dans l'hypertension est établie, et mécanistiquement il pourrait être applicable à l'atteinte rénale hypertensive.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'acebutolol est un bêta-bloquant bêta-1 sélectif avec activité sympathomimétique intrinsèque. Le blocage bêta-adrénergique abaisse la pression artérielle et réduit la libération de rénine, un mécanisme plausiblement pertinent pour l'atteinte rénale d'origine hypertensive.
 
-Le blocage bêta-1 abaisse la pression artérielle et réduit la libération de rénine par l'appareil juxtaglomérulaire. Ce mécanisme est biologiquement plausible pour l'hypertension rénovasculaire, dans laquelle l'axe rénine-angiotensine joue un rôle central, ainsi que pour l'atteinte rénale liée à l'hypertension.
-
-Il faut toutefois rester prudent : l'hypertension maligne avec atteinte rénale est une urgence hypertensive, généralement prise en charge par des traitements parentéraux, et les bêta-bloquants oraux n'y sont pas un traitement de première intention. Les deux prédictions affichent exactement le même score (0,991), ce qui suggère une inférence issue du graphe plutôt qu'un soutien spécifique à chaque indication. Le lien reste donc théorique.
-
----
+Cependant, la néphropathie hypertensive maligne correspond à une urgence hypertensive, habituellement prise en charge par des médicaments administrés par voie parentérale ; les bêta-bloquants n'en sont pas le traitement de première intention. Le score de 0.9910 provient d'une inférence du modèle et ne remplace pas une preuve clinique. Le lien reste donc théorique.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
----
-
 ## Preuves de la Littérature
 
-Pour l'indication de rang 2 (hypertension rénovasculaire maligne), une seule publication a été retrouvée ; aucune pour l'indication principale.
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [768911](https://pubmed.ncbi.nlm.nih.gov/768911/) | 1975 | Étude clinique ouverte (indirecte) | La Nouvelle Presse Médicale | 50 patients hypertendus traités un an par acébutolol seul ou associé : résultats bons ou modérés chez 74 % des patients, échecs chez 26 %, très bonne tolérance. Étude portant sur l'hypertension en général, non spécifique de la forme maligne ou rénovasculaire. |
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61969626 | SECTRAL 40 mg/mL, solution buvable en flacon (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Solution buvable | Non renseignée (AMM annulée) |
+| 61969626 | SECTRAL 40 mg/mL, solution buvable en flacon | Solution buvable | Non renseignée |
 
----
+L'acebutolol est commercialisé en France ; la liste ci-dessus repose sur les données locales disponibles.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : asthme (y compris intrinsèque et allergique), emphysème pulmonaire, bloc auriculo-ventriculaire, maladie du sinus, maladies artérielles périphériques (claudication intermittente), phéochromocytome et paragangliome sympathique, myasthénie grave et maladies de la jonction neuromusculaire, diabète et acidocétose diabétique, insuffisance rénale, maladie hépatique et des voies biliaires, psoriasis, ainsi que troubles anxieux, névrotiques et dysthymiques. Ces éléments sont à confirmer par la notice officielle.
-- **Interactions médicamenteuses** : 230 interactions recensées. Parmi les principales, de niveau modéré : antidiabétiques (acétohexamide, chlorpropamide, canagliflozine, dapagliflozine), corticoïdes (bétaméthasone, budésonide), atropine, clidinium, bupropion, cimétidine et sels de calcium. De niveau mineur : hydroxyde d'aluminium, acide acétylsalicylique, attapulgite.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour ces informations.
 
-Les mises en garde et contre-indications officielles de la notice n'ont pas pu être consultées ; veuillez consulter la notice pour les informations de securité.
-
----
+**Interactions médicamenteuses** : 230 interactions sont recensées. Parmi celles notifiées, de niveau modéré : acétohexamide, atropine, bétaméthasone, budésonide, bupropion, sels de calcium (acétate, carbonate, citrate, gluconate, lactate, phosphate), canagliflozine, chlorpropamide, cimétidine, clidinium, dapagliflozine. De niveau mineur : hydroxyde d'aluminium, acide acétylsalicylique, attapulgite.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5 pour l'indication principale, L4 pour la seconde, avec une seule étude indirecte), sans essai clinique. L'AMM française est de plus annulée, ce qui limite le développement pratique.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication portant sur cette maladie, et les données de sécurité issues de la notice sont absentes. Par ailleurs, la prise en charge habituelle de cette urgence hypertensive repose sur d'autres médicaments.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Rechercher des études spécifiques à l'hypertension maligne et à l'atteinte rénale hypertensive
-- Évaluer la place d'un bêta-bloquant oral par rapport aux traitements standards de l'urgence hypertensive
-- Vérifier la compatibilité des voies d'administration (solution buvable uniquement, AMM annulée)
+- Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
+- Obtenir les données détaillées sur le mécanisme d'action
+- Rechercher des études cliniques ou publiées portant directement sur la néphropathie hypertensive maligne
+- Évaluer la compatibilité de la voie d'administration (solution buvable) avec une urgence hypertensive
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

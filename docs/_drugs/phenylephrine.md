@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Preuves modérées (L3-L4)
 nav_order: 600
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Phenylephrine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L4). Indication d'origine : Non précisée dans les AMM"
 monitor_inn: "phenylephrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Aucun essai clinique n'est enregistré, et **5 publications** (essentiellement d
 |------|------|
 | Indication Originale | Non précisée dans les AMM ; la base de connaissances mentionne notamment la rhinite allergique, la rhinopharyngite, le rhume et la conjonctivite |
 | Nouvelle Indication Prédite | Maladie de la cavité nasale |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -80,8 +80,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67554633 | NEOSYNEPHRINE 5 % FAURE, collyre en solution (EUROPHTA) | Collyre en solution | Non renseignée (AMM annulée) |
-| 67313123 | NEOSYNEPHRINE 10 POUR CENT FAURE, collyre en récipient unidose (EUROPHTA) | Collyre en solution | Non renseignée (AMM annulée) |
+| 67554633 | NEOSYNEPHRINE 5 % FAURE, collyre en solution (EUROPHTA) | Collyre en solution | Non renseignée (AMM active) |
+| 67313123 | NEOSYNEPHRINE 10 POUR CENT FAURE, collyre en récipient unidose (EUROPHTA) | Collyre en solution | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -108,8 +108,8 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 
 ### Autres prédictions examinées (à titre informatif)
 
-- **Laryngopharyngite aiguë** (score 99,97 %, niveau L5, Hold) : aucune preuve clinique ni bibliographique ; plausible seulement par analogie avec la pharyngite et la rhinopharyngite.
-- **Céphalée autonomique trigéminale** (score 99,30 %, niveau L4, Hold) : la littérature (1987-1996 et un cas en 2010) utilise la phényléphrine comme sonde pharmacologique de la fonction sympathique pupillaire dans la céphalée en grappe, l'hémicrânie paroxystique et le SUNCT. Elle n'apporte aucune preuve thérapeutique.
+- **Laryngopharyngite aiguë** (score 0,9997, niveau L5, Hold) : aucune preuve clinique ni bibliographique ; plausible seulement par analogie avec la pharyngite et la rhinopharyngite.
+- **Céphalée autonomique trigéminale** (score 0,9930, niveau L4, Hold) : la littérature (1987-1996 et un cas en 2010) utilise la phényléphrine comme sonde pharmacologique de la fonction sympathique pupillaire dans la céphalée en grappe, l'hémicrânie paroxystique et le SUNCT. Elle n'apporte aucune preuve thérapeutique.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

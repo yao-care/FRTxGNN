@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Naratriptan
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 526
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Naratriptan : nouvelle indication prédite, Migraine avec aura du tronc cérébral (niveau de preuve L4). Indication d'origine : Migraine (migraine avec ou sans aura)"
 monitor_inn: "NARATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Naratriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Naratriptan
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,27 +33,26 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Naratriptan : De la migraine à la migraine avec aura du tronc cérébral
+## Naratriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Naratriptan est un triptan (agoniste sélectif des récepteurs 5-HT1B/1D), initialement utilisé pour le traitement de la migraine aiguë.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine avec aura du tronc cérébral**, mais **aucun essai clinique** n'est enregistré et les **19 publications** identifiées portent surtout sur la migraine en général, et non sur ce sous-type précis.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Migraine (migraine avec ou sans aura) |
-| Nouvelle Indication Prédite | Migraine avec aura du tronc cérébral |
-| Score de Prédiction TxGNN | 99,98 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | AMM annulée uniquement |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Atrophoderma vermiculata |
+| Score de Prédiction TxGNN | 0.9974 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
-*Remarque : le texte d'indication de l'AMM n'étant pas renseigné, l'indication originale provient du graphe de connaissances utilisé par le modèle. Le niveau L4 correspond à celui attribué dans les données compilées ; il repose sur le raisonnement mécanistique, aucune étude réelle sur ce sous-type n'étant disponible.*
+Le niveau L4 correspond à celui attribué dans les données compilées ; il repose sur le raisonnement mécanistique, aucune étude réelle sur ce sous-type n'étant disponible.*
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -88,7 +87,7 @@ Les publications ci-dessous concernent la migraine en général ou ses formes me
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67586588 | NARAMIG 2,5 mg, comprimé pelliculé (GlaxoSmithKline) — annulée | Comprimé pelliculé | Non renseignée |
+| 67586588 | NARAMIG 2,5 mg, comprimé pelliculé (GlaxoSmithKline) — active | Comprimé pelliculé | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -115,7 +114,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Rechercher des études cliniques ou observationnelles ciblant spécifiquement la migraine avec aura du tronc cérébral.
 - Clarifier la situation réglementaire, l'AMM étant annulée.
 
-*Autres prédictions (niveau L5, Hold) : l'atrophodermie vermiculée (score 99,74 %) et l'ulérythème ophryogène (score 99,47 %) n'ont aucun essai, aucune publication et aucun lien mécanistique identifié ; elles relèvent d'une prédiction purement computationnelle.*
+*Autres prédictions (niveau L5, Hold) : l'atrophodermie vermiculée (score 0,9974) et l'ulérythème ophryogène (score 0,9947) n'ont aucun essai, aucune publication et aucun lien mécanistique identifié ; elles relèvent d'une prédiction purement computationnelle.*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

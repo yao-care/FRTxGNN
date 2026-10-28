@@ -6,9 +6,9 @@ nav_order: 674
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Ritonavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L4). Indication d'origine : Infection par le VIH / SIDA"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée d…"
 ---
 
 # Ritonavir
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Ritonavir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+## Ritonavir: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** n'est enregistré et seules **10 publications** (e
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH / SIDA ; hépatite C chronique (d'après le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 10 (dont 0 valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,15 +83,15 @@ Les données sont indirectes et proviennent de modèles animaux ou d'études in 
 
 ## Informations de Marché en France
 
-Toutes les AMM listées sont annulées ; aucune n'est actuellement valide. Le texte des indications approuvées n'est pas disponible.
+Le texte des indications approuvées n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 65102533 | NORVIR 100 mg, poudre pour suspension buvable | Poudre pour suspension buvable | Annulée |
-| 62148415 | RITONAVIR ARROW 100 mg | Comprimé pelliculé | Annulée |
-| 67851855 | NORVIR 100 mg | Comprimé pelliculé | Annulée |
-| 61578339 | RITONAVIR VIATRIS 100 mg | Comprimé pelliculé | Annulée |
-| 65579730 | PAXLOVID 150 mg + 100 mg | Comprimé pelliculé | Annulée |
+| 65102533 | NORVIR 100 mg, poudre pour suspension buvable | Poudre pour suspension buvable | Active |
+| 62148415 | RITONAVIR ARROW 100 mg | Comprimé pelliculé | Active |
+| 67851855 | NORVIR 100 mg | Comprimé pelliculé | Active |
+| 61578339 | RITONAVIR VIATRIS 100 mg | Comprimé pelliculé | Active |
+| 65579730 | PAXLOVID 150 mg + 100 mg | Comprimé pelliculé | Active |
 
 ## Considérations de Sécurité
 
@@ -105,7 +105,7 @@ Les mises en garde et contre-indications issues des notices ANSM ne sont pas dis
 **Décision : Hold**
 
 **Justification :**
-- L'indication prédite est un modèle animal de recherche et non une maladie humaine ; les preuves sont indirectes (in vitro et macaques) et il n'existe aucun essai clinique. Le score élevé du modèle ne constitue pas un signal de repositionnement indépendant. Par ailleurs, toutes les AMM françaises sont annulées et les données de sécurité de la notice sont manquantes.
+- L'indication prédite est un modèle animal de recherche et non une maladie humaine ; les preuves sont indirectes (in vitro et macaques) et il n'existe aucun essai clinique. Le score élevé du modèle ne constitue pas un signal de repositionnement indépendant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (DrugBank)

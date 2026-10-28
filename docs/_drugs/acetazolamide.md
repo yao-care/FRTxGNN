@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Acetazolamide : nouvelle indication prédite, Hyperthermie maligne d'effort (niveau de preuve L5). Indication d'origine : Épilepsie-absence, insuffisance cardiaque congestive, glaucome…"
 monitor_inn: "acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
+last_modified_at: 2026-10-27
+description: "Acetazolamide : nouvelle indication prédite, Hyperthermie maligne d'effort (exercise-induced malignant hyperthermia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
 # Acetazolamide
@@ -33,73 +33,71 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Acétazolamide : De l'épilepsie-absence et du glaucome à l'hyperthermie maligne d'effort
+## Acétazolamide : inhibiteur de l'anhydrase carbonique → hyperthermie maligne d'effort (exercise-induced malignant hyperthermia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-L'acétazolamide est un inhibiteur de l'anhydrase carbonique, initialement utilisé dans l'épilepsie-absence, l'insuffisance cardiaque congestive, le glaucome (à angle ouvert et à angle fermé) et le mal des montagnes.
-Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hyperthermie maligne d'effort**, mais cette prédiction repose uniquement sur le calcul : **aucun essai clinique** et **aucune publication** ne la soutiennent actuellement.
+L'acétazolamide est un inhibiteur de l'anhydrase carbonique, présenté en France sous le nom DIAMOX.
+Le modèle TxGNN prédit qu'il pourrait être utile pour l'**hyperthermie maligne d'effort (exercise-induced malignant hyperthermia)**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction purement computationnelle.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Épilepsie-absence, insuffisance cardiaque congestive, glaucome, mal des montagnes (source : graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Predite | Hyperthermie maligne d'effort |
-| Score de Prediction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hyperthermie maligne d'effort (exercise-induced malignant hyperthermia) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'acétazolamide appartient à la classe des inhibiteurs de l'anhydrase carbonique. Son efficacité a été établie dans plusieurs indications (glaucome, mal des montagnes, certaines formes d'épilepsie, œdème lié à l'insuffisance cardiaque).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'acétazolamide appartient à la classe des inhibiteurs de l'anhydrase carbonique, enzyme qui régule le pH et le transport des ions dans de nombreux tissus.
 
-Un lien plausible, mais **purement spéculatif**, passerait par la modification du pH et de la gestion des ions dans le muscle squelettique. Aucune donnée fournie ne confirme ce lien. Le score très élevé du modèle (99,95 %) reflète une proximité dans le graphe de connaissances, et non une preuve d'efficacité.
-
-À titre de comparaison, d'autres prédictions du même modèle portent sur la cardiomyopathie hypertrophique, la cardiomyopathie, l'occlusion intestinale, etc. Pour celles-ci, la littérature disponible est indirecte, voire signale un risque (par exemple des cas d'iléus adynamique sous acétazolamide). Elles ne modifient pas l'évaluation de l'indication principale.
+Un lien plausible serait une modification du pH et de la gestion des ions dans le muscle squelettique, ce qui pourrait théoriquement influencer une atteinte musculaire liée à l'effort. Cette hypothèse reste toutefois spéculative et n'est étayée par aucune donnée compilée pour ce rapport. Le score élevé du modèle (0.9995) ne constitue pas une preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
 Aucune littérature associée disponible actuellement.
 
-## Informations de Marche en France
+## Informations de Marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68693244 | DIAMOX 250 mg, comprimé sécable (annulée) | Comprimé sécable | Non renseignée |
-| 63463588 | DIAMOX 500 mg, poudre et solvant pour préparation injectable (annulée) | Poudre et solution pour préparation injectable | Non renseignée |
+| 68693244 | DIAMOX 250 mg, comprimé sécable | Comprimé sécable | Non renseignée dans les données locales |
+| 63463588 | DIAMOX 500 mg, poudre et solvant pour préparation injectable | Poudre et solution pour préparation injectable | Non renseignée dans les données locales |
 
-Les deux AMM, détenues par COOPER (Coopération Pharmaceutique Française), sont annulées : aucune AMM n'est actuellement valide en France.
+Les données locales comportent deux AMM, toutes deux pour des spécialités à base d'acétazolamide seule. Le statut de marché indiqué par les données est « commercialisé ».
 
-## Considerations de Securite
+## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : insuffisance hépatique et maladies du foie, maladies rénales, acidose tubulaire rénale, insuffisance respiratoire, maladies hématologiques, maladies de la vésicule biliaire, goutte, diabète de type 1 et de type 2, acidocétose diabétique, maladie d'Addison et insuffisances surrénaliennes (dont hyperplasie congénitale des surrénales).
-- **Interactions médicamenteuses** : 165 interactions recensées. Parmi les exemples consultés, des interactions **majeures** avec l'acide acétylsalicylique et le cisapride. Les interactions **modérées** concernent notamment les antidiabétiques (acarbose, alogliptine, canagliflozine, dapagliflozine, chlorpropamide, dulaglutide), les corticoïdes (bétaméthasone, dexaméthasone, béclométasone), l'amphotéricine B (et ses formulations) et certains laxatifs (bisacodyl, huile de ricin). Une interaction **mineure** est signalée avec la doxycycline.
-- **Signaux de sécurité issus de la littérature** : cas d'œdème pulmonaire non cardiogénique après acétazolamide intraveineuse, et cas d'iléus adynamique induit par l'acétazolamide. Chez le patient cirrhotique, un risque d'hyperammoniémie et d'encéphalopathie est à considérer.
+- **Interactions médicamenteuses** : 165 interactions sont recensées. Parmi les exemples disponibles :
+  - Majeures : acide acétylsalicylique, cisapride.
+  - Modérées : antidiabétiques (acarbose, acétohexamide, alogliptine, canagliflozine, chlorpropamide, dapagliflozine, dulaglutide, albiglutide), corticoïdes (bétaméthasone, dexaméthasone, béclométasone), amphotéricine B (plusieurs formes), bisacodyl, huile de ricin.
+  - Mineure : doxycycline.
+- **Signaux de sécurité issus de la littérature associée aux autres prédictions** : cas rapportés d'iléus adynamique sous acétazolamide et d'œdème pulmonaire non cardiogénique après administration intraveineuse. Ils ne concernent pas la prédiction principale mais sont à garder à l'esprit.
 
-Les mises en garde et contre-indications officielles de la notice ANSM n'ont pas pu être obtenues. Veuillez consulter la notice pour ces informations.
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles, qui n'ont pas pu être compilées dans les données de ce rapport.
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'hyperthermie maligne d'effort repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme démontré.
-- Aucune AMM valide n'existe en France, et les données de sécurité officielles sont absentes. Il n'est donc pas possible de passer à l'étape de dépistage de sécurité.
+La prédiction repose uniquement sur le score du modèle (0.9995), sans essai clinique ni publication portant sur l'hyperthermie maligne d'effort. Le niveau de preuve est L5 et aucun mécanisme n'est démontré.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM.
-- Obtenir les données détaillées sur le mécanisme d'action, par exemple via DrugBank.
-- Mener une recherche ciblée de la littérature et des essais sur l'hyperthermie maligne d'effort, afin de vérifier s'il existe un fondement biologique.
-- Clarifier le statut réglementaire (AMM annulées) et la disponibilité réelle du produit.
-- Évaluer les contre-indications issues du graphe de connaissances et les interactions majeures pour la population cible.
+- Données détaillées sur le mécanisme d'action de l'acétazolamide
+- Études précliniques ou observationnelles évaluant un effet sur l'hyperthermie maligne d'effort
+- Mises en garde et contre-indications extraites de la notice ANSM pour un dépistage de sécurité
+- Évaluation du profil de sécurité (interactions, troubles électrolytiques et acido-basiques) chez les patients concernés
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

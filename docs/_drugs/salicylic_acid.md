@@ -4,17 +4,17 @@ title: Salicylic Acid
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 691
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Salicylic Acid : nouvelle indication prédite, Conjonctivite papillaire (niveau de preuve L5). Indication d'origine : Teigne du pied (tinea pedis), synovite, polyarthrite rhumatoide, acne…"
 monitor_inn: "salicylic acid"
-predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
+description: "Salicylic Acid : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Salicylic Acid
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Acide salicylique : Des affections inflammatoires et dermatologiques a la conjonctivite papillaire
+## Salicylic Acid: Conjonctivite papillaire (papillary conjunctivitis)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,12 +48,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Teigne du pied (tinea pedis), synovite, polyarthrite rhumatoide, acne, dermatite seborrheique, rhinite allergique, rhume (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas renseigne) |
-| Nouvelle Indication Predite | Conjonctivite papillaire |
-| Score de Prediction TxGNN | 99,88 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Conjonctivite papillaire (papillary conjunctivitis) |
+| Score de Prediction TxGNN | 0.9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulees |
-| Nombre d'AMM | 2 (toutes deux annulees) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas dispo
 
 La conjonctivite papillaire comporte une composante allergique et inflammatoire. L'acide salicylique est deja associe a des affections inflammatoires ou allergiques (rhinite allergique, rhinite vasomotrice, acne, dermatite seborrheique). Un lien mecanistique lache est donc concevable.
 
-Ce lien reste toutefois non verifiable. L'application oculaire d'un agent irritant et keratolytique souleve en outre un reel probleme de securite. Le score eleve du modele refleterait surtout une proximite dans le graphe de connaissances plutot qu'une preuve therapeutique.
+Ce lien reste toutefois non vérifiable. L'application oculaire d'un agent irritant et kératolytique soulève en outre un réel problème de sécurité. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies proches, non une preuve biologique.
 
 ---
 
@@ -84,8 +84,8 @@ Aucune litterature associee disponible actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 65711534 | SALICYLICUM ACIDUM BOIRON, degre de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH (BOIRON) | Comprime, solution, granules, poudre et pommade | Non renseignee (AMM annulee) |
-| 64614242 | BILLEROL, comprime a croquer (LEHNING) | Comprime a croquer | Non renseignee (AMM annulee) |
+| 65711534 | SALICYLICUM ACIDUM BOIRON, degre de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH (BOIRON) | Comprime, solution, granules, poudre et pommade | Non renseignee (AMM active) |
+| 64614242 | BILLEROL, comprime a croquer (LEHNING) | Comprime a croquer | Non renseignee (AMM active) |
 
 ---
 

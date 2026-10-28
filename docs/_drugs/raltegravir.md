@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Raltegravir
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 647
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Raltegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (SIV) (niveau de preuve L5). Indication d'origine : Infection par le VIH, SIDA"
 monitor_inn: "raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L3). Indication d'origine : Non renseignée…"
 ---
 
 # Raltegravir
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L3** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Raltégravir : Du VIH/SIDA à l'Infection par le Virus de l'Immunodéficience Simienne
+## Raltegravir: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (selon le graphe de connaissances ; le texte d'indication des AMM n'est pas disponible) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (SIV) |
-| Score de Prédiction TxGNN | 99,78 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L3 (en pratique, preuves précliniques ; voir remarque ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 *Remarque : le niveau L3 est le plus proche parmi les niveaux définis pour des données non randomisées et non humaines. Strictement, les preuves sont précliniques (L4).*
@@ -88,13 +88,12 @@ Toutes les publications sont précliniques. Les plus pertinentes figurent ci-des
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63586968 | ISENTRESS 100 mg, comprimé à croquer | Comprimé à croquer | Non disponible (AMM annulée) |
-| 63588136 | ISENTRESS 400 mg, comprimé pelliculé | Comprimé pelliculé | Non disponible (AMM annulée) |
-| 67315206 | ISENTRESS 25 mg, comprimé à croquer | Comprimé à croquer | Non disponible (AMM annulée) |
-| 69260153 | ISENTRESS 100 mg, granulés pour suspension buvable | Granulés pour suspension buvable | Non disponible (AMM annulée) |
-| 64912032 | RALTEGRAVIR VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non disponible (AMM annulée) |
+| 63586968 | ISENTRESS 100 mg, comprimé à croquer | Comprimé à croquer | Non disponible (AMM active) |
+| 63588136 | ISENTRESS 400 mg, comprimé pelliculé | Comprimé pelliculé | Non disponible (AMM active) |
+| 67315206 | ISENTRESS 25 mg, comprimé à croquer | Comprimé à croquer | Non disponible (AMM active) |
+| 69260153 | ISENTRESS 100 mg, granulés pour suspension buvable | Granulés pour suspension buvable | Non disponible (AMM active) |
+| 64912032 | RALTEGRAVIR VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non disponible (AMM active) |
 
-Une sixième AMM annulée (ISENTRESS 600 mg, comprimé pelliculé, n° 62457041) existe également ; les 6 AMM sont annulées, aucune n'est valide actuellement.
 
 ## Considérations de Sécurité
 
@@ -111,14 +110,12 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est biologiquement plausible, mais elle concerne un modèle animal (SIV) et non une maladie humaine nouvelle ; les preuves sont exclusivement précliniques, sans aucun essai clinique, et toutes les AMM françaises sont annulées. Les données de sécurité de la notice ne sont pas disponibles, ce qui bloque le passage à l'étape de criblage de sécurité.
-- Les deux autres prédictions (syndrome d'immunodéficience acquise féline ; trouble neurodéveloppemental rare avec ataxie, absence de parole et diminution de la substance blanche corticale) n'ont aucune preuve (L5), et la seconde ne présente aucun lien mécanistique identifié ; elles sont probablement des artefacts du graphe de connaissances et ne doivent pas être poursuivies sans justification biologique indépendante.
+- Les données de sécurité de la notice ne sont pas disponibles, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), élément bloquant.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Clarifier la pertinence de l'indication SIV (usage en recherche vétérinaire/modèle animal vs. objectif thérapeutique humain) et définir si un intérêt translationnel existe.
-- Vérifier le statut réglementaire actuel, puisque toutes les AMM françaises sont annulées (éventuel relais par une procédure centralisée européenne ou d'autres spécialités).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

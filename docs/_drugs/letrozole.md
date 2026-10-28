@@ -4,17 +4,17 @@ title: Letrozole
 parent: Preuves élevées (L1-L2)
 nav_order: 446
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Letrozole : nouvelle indication prédite, Carcinome mammaire féminin (niveau de preuve L1). Indication d'origine : Non renseignée dans les données d'AMM (texte d'indication vide)"
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole : nouvelle indication prédite, Nipple carcinoma (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Létrozole : Du cancer du sein hormonodépendant au carcinome mammaire féminin
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## Résumé en une phrase
 
 Le létrozole est un inhibiteur non stéroïdien de l'aromatase, utilisé dans le traitement du cancer du sein hormonodépendant chez la femme ménopausée.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome mammaire féminin**, avec **41 essais cliniques** et **20 publications** rattachés à cette prédiction dans les données compilées pour ce rapport. Il s'agit toutefois d'une indication déjà établie : la prédiction valide l'usage existant plutôt qu'elle n'ouvre une nouvelle voie thérapeutique.
+Il s'agit toutefois d'une indication déjà établie : la prédiction valide l'usage existant plutôt qu'elle n'ouvre une nouvelle voie thérapeutique.
 
 ---
 
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome mamma
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Non renseignée dans les données d'AMM (texte d'indication vide) |
-| Nouvelle indication prédite | Carcinome mammaire féminin |
-| Score de prédiction TxGNN | 99,98 % |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Nipple carcinoma |
+| Score de prédiction TxGNN | 0.9976 |
 | Niveau de preuve | L1 |
-| Statut de marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 20 |
+| Statut de marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Nombre d'AMM | 20 (valides : 20) |
 | Décision recommandée | Proceed with Guardrails |
 
 ---

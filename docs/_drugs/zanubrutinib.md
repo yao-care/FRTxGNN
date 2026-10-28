@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 827
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Zanubrutinib : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L4). Indication d'origine : Lymphome à cellules du manteau, néoplasme à cellules B, lymphosarcome"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
+description: "Zanubrutinib : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **6**
 
 </div>
 
-## Zanubrutinib : Du Lymphome à Cellules du Manteau à la Leucémie Myéloïde
+## Zanubrutinib: Leucémie myéloïde (myeloid leukemia)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myél
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Lymphome à cellules du manteau, néoplasme à cellules B, lymphosarcome (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Leucémie myéloïde |
-| Score de Prédiction TxGNN | 99,65 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
+| Score de Prédiction TxGNN | 0.9965 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le rôle de cette voie dans la leucémie myéloïde est plausible mais non démontré : BTK est exprimée dans certains blastes myéloïdes et dans le microenvironnement myéloïde. Aucune donnée clinique directe ne soutient toutefois l'activité du zanubrutinib lui-même dans cette maladie.
 
-Le score élevé du modèle (0,996) reflète une proximité dans le graphe de connaissances, non une validation clinique. Les publications retrouvées concernent la LLC/lymphome lymphocytique, la macroglobulinémie de Waldenström et la sécurité des inhibiteurs de BTK, soit des maladies lymphoïdes et non myéloïdes : elles ne constituent qu'une preuve indirecte.
+Le score élevé du modèle TxGNN (apprentissage profond), 0.9965, peut refléter des similitudes que le modèle a apprises entre maladies apparentées, et non une preuve biologique ni une validation clinique. Les publications retrouvées concernent la LLC/lymphome lymphocytique, la macroglobulinémie de Waldenström et la sécurité des inhibiteurs de BTK, soit des maladies lymphoïdes et non myéloïdes : elles ne constituent qu'une preuve indirecte.
 
 ---
 
@@ -98,7 +98,7 @@ Aucune de ces publications ne démontre l'efficacité du zanubrutinib dans la le
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65919841 | BRUKINSA 80 mg, gélule (annulée) | Gélule | Non renseignée |
+| 65919841 | BRUKINSA 80 mg, gélule (active) | Gélule | Non renseignée |
 
 ---
 

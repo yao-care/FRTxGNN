@@ -48,10 +48,10 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 |------|------|
 | Indication Originale | Non précisée dans les données d'AMM (usage clinique connu : dyspepsie, nausées, vomissements) |
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
-| Score de Prédiction TxGNN | 99,08 % |
+| Score de Prédiction TxGNN | 0,9908 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 12 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 12) |
+| Nombre d'AMM | 12 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -60,7 +60,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le NSIAD est causé par des mutations gain de fonction du gène du récepteur V2 de la vasopressine (AVPR2). Ces mutations rendent le récepteur actif en permanence, avec rétention d'eau malgré une vasopressine indétectable. La dompéridone n'a aucune action directe connue sur le récepteur V2 ni sur la voie AMPc/aquaporine-2 en aval.
 
-Le lien reste donc **spéculatif**. Il pourrait passer par des effets indirects sur la sécrétion de vasopressine (la dopamine module la sécrétion d'AVP) ou sur la prolactine. Cependant, un antagonisme dopaminergique ne devrait pas contrecarrer un récepteur constitutivement actif indépendamment de son ligand. Le score élevé reflète probablement une proximité dans le graphe de connaissances plutôt qu'une relation biologique réelle.
+Le lien reste donc **spéculatif**. Il pourrait passer par des effets indirects sur la sécrétion de vasopressine (la dopamine module la sécrétion d'AVP) ou sur la prolactine. Cependant, un antagonisme dopaminergique ne devrait pas contrecarrer un récepteur constitutivement actif indépendamment de son ligand. Le score élevé (0.9908) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 ## Preuves d'Essais Cliniques
 
@@ -77,10 +77,10 @@ Les 12 AMM recensées sont toutes annulées ; le texte de l'indication approuvé
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 69742865 | MOTILIUM 1 mg/ml, suspension buvable (Janssen Cilag) | Suspension buvable | Annulée |
-| 63333858 | DOMPERIDONE BIOGARAN 10 mg (Biogaran) | Comprimé orodispersible | Annulée |
+| 63333858 | DOMPERIDONE BIOGARAN 10 mg (Biogaran) | Comprimé orodispersible | Active |
 | 63679194 | MOTILIUM 10 mg (Janssen Cilag) | Comprimé pelliculé | Annulée |
-| 62128302 | DOMPERIDONE ARROW 10 mg (Arrow Génériques) | Comprimé orodispersible | Annulée |
-| 63394334 | DOMPERIDONE BIOGARAN 10 mg (Biogaran) | Comprimé pelliculé | Annulée |
+| 62128302 | DOMPERIDONE ARROW 10 mg (Arrow Génériques) | Comprimé orodispersible | Active |
+| 63394334 | DOMPERIDONE BIOGARAN 10 mg (Biogaran) | Comprimé pelliculé | Active |
 
 ## Considérations de Sécurité
 

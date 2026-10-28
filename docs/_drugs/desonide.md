@@ -6,9 +6,9 @@ nav_order: 228
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Desonide : nouvelle indication prédite, Polype des cordes vocales (niveau de preuve L5). Indication d'origine : Dermatite atopique, dermatite de contact, dermatite seborrheique"
 monitor_inn: "desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
+description: "Desonide : nouvelle indication prédite, Polyp of vocal cord (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Desonide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Desonide : Des Dermatoses Inflammatoires au Polype des Cordes Vocales
+## Desonide: Polyp of vocal cord
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -48,12 +48,12 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Dermatite atopique, dermatite de contact, dermatite seborrheique (selon le graphe de connaissances ; le texte d'indication des AMM francaises n'est pas renseigne) |
-| Nouvelle Indication Predite | Polype des cordes vocales |
-| Score de Prediction TxGNN | 99,91 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Polyp of vocal cord |
+| Score de Prediction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Toutes les AMM sont annulees (aucune AMM valide) |
-| Nombre d'AMM | 3 (0 valide, 3 annulees) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les donnees detaillees sur le mecanisme d'action ne sont pas dispo
 
 Les polypes des cordes vocales sont souvent associes a une inflammation chronique et a un oedeme, ce qui rend un effet glucocorticoide concevable. Cependant, cette hypothese reste theorique : le medicament est une formulation dermatologique en creme, sans voie etablie d'administration laryngee, et aucune donnee ne soutient la prediction.
 
-Les autres predictions du modele (polypes de l'oreille moyenne, du conduit auditif externe, du sinus frontal, de l'uretere, de la vulve, polype fibroepithelial, polype neoplasique, epulis, polype uterin) presentent des scores similaires (99,89 % a 99,91 %), toutes au niveau de preuve L5 et sans aucune donnee clinique. Le conduit auditif externe, tapisse de peau, offre une plausibilite de voie d'administration un peu superieure. Pour le sinus frontal, la classe des corticoides est etablie dans la polypose nasosinusienne, mais avec des agents intranasaux et non desonide. Pour les polypes neoplasiques, aucune plausibilite biologique n'est identifiee.
+Les autres predictions du modele (polypes de l'oreille moyenne, du conduit auditif externe, du sinus frontal, de l'uretere, de la vulve, polype fibroepithelial, polype neoplasique, epulis, polype uterin) presentent des scores similaires (0,9990 a 0,9991), toutes au niveau de preuve L5 et sans aucune donnee clinique. Le conduit auditif externe, tapisse de peau, offre une plausibilite de voie d'administration un peu superieure. Pour le sinus frontal, la classe des corticoides est etablie dans la polypose nasosinusienne, mais avec des agents intranasaux et non desonide. Pour les polypes neoplasiques, aucune plausibilite biologique n'est identifiee.
 
 ---
 
@@ -84,9 +84,9 @@ Aucune litterature associee disponible actuellement.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 62294181 | LOCATOP 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM annulee) |
-| 61243216 | LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM annulee) |
-| 65055507 | TRIDESONIT 0,05 POUR CENT, creme (Alliance Pharma, Irlande) | Creme | Non renseignee (AMM annulee) |
+| 62294181 | LOCATOP 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active) |
+| 61243216 | LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active) |
+| 65055507 | TRIDESONIT 0,05 POUR CENT, creme (Alliance Pharma, Irlande) | Creme | Non renseignee (AMM active) |
 
 ---
 

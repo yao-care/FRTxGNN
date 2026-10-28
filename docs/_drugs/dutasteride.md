@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Dutasteride : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose Congénitale Universelle de type Ambras
+## Dutasteride : De l'Hyperplasie Bénigne de la Prostate à l'Hypertrichose universelle congénitale de type Ambras
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,9 +47,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose un
 |------|------|
 | Indication Originale | Hyperplasie bénigne de la prostate |
 | Nouvelle Indication Prédite | Hypertrichose universelle congénitale de type Ambras |
-| Score de Prédiction TxGNN | 99,998 % |
+| Score de Prédiction TxGNN | 1,0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose un
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, dutasteride est un inhibiteur double de la 5-alpha-réductase (types 1 et 2) qui diminue le taux de dihydrotestostérone (DHT). Son efficacité dans l'hyperplasie bénigne de la prostate repose sur cette réduction de la DHT.
 
-La relation avec la nouvelle indication est **faible**. Le syndrome d'Ambras est une hypertrichose congénitale liée à des remaniements génomiques touchant la régulation du gène TRPS1, et non à un excès d'androgènes. Une baisse de la DHT n'a donc pas de justification claire pour corriger cette pilosité d'origine génétique. Le score TxGNN reflète une proximité dans le graphe de connaissances, sans essai ni publication à l'appui.
+La relation avec la nouvelle indication est **faible**. Le syndrome d'Ambras est une hypertrichose congénitale liée à des remaniements génomiques touchant la régulation du gène TRPS1, et non à un excès d'androgènes. Une baisse de la DHT n'a donc pas de justification claire pour corriger cette pilosité d'origine génétique. Le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; aucun essai ni publication ne l'appuie.
 
 Les autres prédictions du modèle (hypertrichose, anomalies génétiques de la tige pilaire, hypotrichose, alopécie en aires diffuse, etc.) présentent le même profil : preuves absentes ou très indirectes et liens mécanistiques peu convaincants. Pour l'alopécie en aires diffuse, la seule publication retrouvée porte sur l'alopécie androgénétique de la femme, une maladie différente.
 
@@ -75,11 +75,11 @@ Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60051234 | AVODART 0,5 mg (GlaxoSmithKline) | Capsule molle | Annulée |
-| 60008724 | Dutasteride Viatris 0,5 mg | Capsule molle | Annulée |
-| 61398768 | Dutasteride Krka 0,5 mg | Capsule molle | Annulée |
-| 69552766 | Dutasteride/Tamsulosine Cristers 0,5 mg/0,4 mg | Gélule | Annulée |
-| 65218235 | Dutasteride/Tamsulosine Zentiva 0,5 mg/0,4 mg | Gélule | Annulée |
+| 60051234 | AVODART 0,5 mg (GlaxoSmithKline) | Capsule molle | Active |
+| 60008724 | Dutasteride Viatris 0,5 mg | Capsule molle | Active |
+| 61398768 | Dutasteride Krka 0,5 mg | Capsule molle | Active |
+| 69552766 | Dutasteride/Tamsulosine Cristers 0,5 mg/0,4 mg | Gélule | Active |
+| 65218235 | Dutasteride/Tamsulosine Zentiva 0,5 mg/0,4 mg | Gélule | Active |
 
 ## Considérations de Sécurité
 
@@ -94,7 +94,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le lien mécanistique avec une hypertrichose génétique est faible. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le lien mécanistique avec une hypertrichose génétique est faible. Par ailleurs, le médicament est commercialisé en France, avec 20 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) et analyse du lien mécanistique avec TRPS1

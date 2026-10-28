@@ -49,10 +49,10 @@ Le modele TxGNN predit qu'elle pourrait etre efficace pour le **syndrome de Sche
 |------|------|
 | Indication Originale | Mucopolysaccharidose (type VII) |
 | Nouvelle Indication Predite | Syndrome de Scheie |
-| Score de Prediction TxGNN | 99,90 % |
+| Score de Prediction TxGNN | 0,9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | AMM annulee uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 
 ---

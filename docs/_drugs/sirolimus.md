@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sirolimus
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 707
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Sirolimus : nouvelle indication prédite, Liposarcome (niveau de preuve L5). Indication d'origine : Carcinome rénal (carcinome à cellules claires…"
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+description: "Sirolimus : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Sirolimus : Du Carcinome Rénal à Cellules à la Lipo­sarcome
+## Sirolimus: Liposarcome (liposarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome**, 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome rénal (carcinome à cellules claires, non papillaire) et lymphangioléiomyomatose (le texte des indications des AMM n'est pas renseigné ; source : graphe de connaissances) |
-| Nouvelle Indication Prédite | Liposarcome |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Liposarcome (liposarcoma) |
+| Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L2 (selon le niveau attribué dans les données ; essai de phase 2 unique, à bras unique, sans groupe contrôle) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,10 +83,10 @@ Cette plausibilité reste toutefois indirecte. Le seul essai disponible associe 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61752409 | RAPAMUNE 1 mg/ml | Solution buvable | Non renseignée (AMM annulée) |
-| 64597615 | RAPAMUNE 1 mg | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 65164182 | RAPAMUNE 2 mg | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 69171174 | RAPAMUNE 0,5 mg | Comprimé enrobé | Non renseignée (AMM annulée) |
+| 61752409 | RAPAMUNE 1 mg/ml | Solution buvable | Non renseignée (AMM active) |
+| 64597615 | RAPAMUNE 1 mg | Comprimé enrobé | Non renseignée (AMM active) |
+| 65164182 | RAPAMUNE 2 mg | Comprimé enrobé | Non renseignée (AMM active) |
+| 69171174 | RAPAMUNE 0,5 mg | Comprimé enrobé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -113,7 +113,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Pour le liposarcome, la seule preuve clinique est un essai de phase 2 à bras unique en association, sans résultats détaillés ni contrôle. La littérature se compose surtout de revues et de données indirectes. Le niveau L2 attribué repose sur un essai de faible poids probant.
-- Les données de sécurité de la notice manquent (lacune bloquante), et toutes les AMM françaises sont annulées, ce qui empêche d'avancer vers un criblage de sécurité.
+- Les données de sécurité de la notice manquent (lacune bloquante), ce qui empêche d'avancer vers un criblage de sécurité ; le médicament est commercialisé, avec 4 AMM valides sur 4.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) et les données de mécanisme d'action depuis DrugBank.

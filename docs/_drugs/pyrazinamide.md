@@ -6,9 +6,9 @@ nav_order: 641
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pyrazinamide : nouvelle indication prédite, Otite moyenne infectieuse (niveau de preuve L5). Indication d'origine : Tuberculose pulmonaire"
 monitor_inn: "PYRAZINAMIDE"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
+description: "Pyrazinamide : nouvelle indication prédite, Otite moyenne infectieuse (infectious otitis media) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pyrazinamide
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Pyrazinamide : De la tuberculose pulmonaire à l'otite moyenne infectieuse
+## Pyrazinamide: Otite moyenne infectieuse (infectious otitis media)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,19 +45,19 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**otite moyenne in
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Tuberculose pulmonaire (les textes d'indication des AMM françaises ne sont pas renseignés ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Otite moyenne infectieuse |
-| Score de Prédiction TxGNN | 99,96 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Otite moyenne infectieuse (infectious otitis media) |
+| Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le pyrazinamide fait partie des schémas antituberculeux multimédicamenteux. Il est actif contre *Mycobacterium tuberculosis* : son efficacité repose sur un pH acide et sur sa conversion en acide pyrazinoïque par la pyrazinamidase mycobactérienne.
 
-Le lien avec l'otite moyenne est donc **limité** : il n'existe que pour la forme tuberculeuse, rare. Le pyrazinamide n'est pas actif contre les agents habituels de l'otite moyenne (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). Le score élevé du modèle semble refléter la proximité, dans le graphe de connaissances, entre la tuberculose et les maladies de l'oreille, plutôt qu'un mécanisme démontré.
+Le lien avec l'otite moyenne est donc **limité** : il n'existe que pour la forme tuberculeuse, rare. Le pyrazinamide n'est pas actif contre les agents habituels de l'otite moyenne (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Les autres prédictions du même groupe sont soit une extension de l'indication d'origine à un autre site anatomique (tuberculose de l'oreille moyenne ou otite tuberculeuse chronique), soit dépourvues de justification plausible (granulome cholestérolique, otite allergique, otite non suppurée).
 
@@ -83,8 +83,8 @@ Remarque : les publications sur la sacro-iliite et la tuberculose orbito-faciale
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66454982 | PIRILENE 500 mg, comprimé (AMM annulée) | Comprimé | Non renseignée |
-| 64208131 | RIFATER, comprimé enrobé (AMM annulée) | Comprimé enrobé | Non renseignée |
+| 66454982 | PIRILENE 500 mg, comprimé (AMM active) | Comprimé | Non renseignée |
+| 64208131 | RIFATER, comprimé enrobé (AMM active) | Comprimé enrobé | Non renseignée |
 
 ## Considérations de Sécurité
 
@@ -105,7 +105,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 - Les données de sécurité de la notice (mises en garde, contre-indications) auprès de l'ANSM, indispensables avant tout examen de sécurité
 - Les données détaillées sur le mécanisme d'action
 - Si la piste est poursuivie, la restreindre à l'otite moyenne tuberculeuse confirmée, avec une revue systématique des cas publiés
-- Une évaluation du statut réglementaire, puisque toutes les AMM françaises sont annulées
+- Une évaluation du statut réglementaire, sachant que le médicament est commercialisé en France avec 2 AMM valides sur 2
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

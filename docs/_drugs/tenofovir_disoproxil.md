@@ -6,9 +6,9 @@ nav_order: 739
 evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Tenofovir Disoproxil : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite …"
 monitor_inn: "tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Tenofovir Disoproxil : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non r…"
 ---
 
 # Tenofovir Disoproxil
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-## Ténofovir disoproxil : Du VIH et de l'hépatite B chronique à l'infection par le virus de l'immunodéficience simienne
+## Tenofovir Disoproxil: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ Cette prédiction correspond surtout à une redécouverte de l'indication VIH ex
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection chronique par le virus de l'hépatite B, infection par le VIH, sida (texte d'indication ANSM non renseigné dans les données compilées) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne |
-| Score de Prédiction TxGNN | 99,95 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -95,15 +95,15 @@ Les 10 publications les plus pertinentes (aucun ECR ; études animales de niveau
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Aucune n'est actuellement valide. Les 5 premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
+Les 20 AMM recensées sont annulées. Les 5 premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61425934 | Tenofovir disoproxil EG 245 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 66169524 | Tenofovir disoproxil Accord 245 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 60493359 | Viread 163 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65675166 | Tenofovir disoproxil Arrow 245 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 68718936 | Viread 33 mg/g | Granulés enrobés | Non renseignée (AMM annulée) |
+| 61425934 | Tenofovir disoproxil EG 245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 66169524 | Tenofovir disoproxil Accord 245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 60493359 | Viread 163 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 65675166 | Tenofovir disoproxil Arrow 245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+| 68718936 | Viread 33 mg/g | Granulés enrobés | Non renseignée (AMM active) |
 
 ---
 
@@ -120,7 +120,7 @@ Les mises en garde et contre-indications de la notice ainsi que les interactions
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur des études animales (macaques) sans aucun essai clinique. L'infection par le SIV n'est pas une indication humaine et la prédiction redécouvre essentiellement l'indication VIH déjà connue. De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur des études animales (macaques) sans aucun essai clinique. L'infection par le SIV n'est pas une indication humaine et la prédiction redécouvre essentiellement l'indication VIH déjà connue.
 - Les autres prédictions (SIDA félin, trouble neurodéveloppemental rare, hyperlipidémie familiale combinée obsolète) sont encore moins étayées : preuve vétérinaire indirecte ou absence totale de preuves et de lien mécanistique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

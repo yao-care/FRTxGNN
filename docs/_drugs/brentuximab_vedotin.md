@@ -49,10 +49,10 @@ Le modele TxGNN predit qu'il pourrait etre efficace pour le **lymphome follicula
 |------|------|
 | Indication Originale | Lymphome de Hodgkin (lymphome de Hodgkin classique) |
 | Nouvelle Indication Predite | Lymphome folliculaire |
-| Score de Prediction TxGNN | 99,89 % |
+| Score de Prediction TxGNN | 0,9989 |
 | Niveau de Preuve | L3 |
-| Statut de Marche en France | Autorisation annulee uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 
 ---
@@ -102,7 +102,7 @@ La litterature compilee porte surtout sur les lymphomes T peripheriques et ne so
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 68438457 | ADCETRIS 50 mg, poudre pour solution a diluer pour perfusion (TAKEDA PHARMA, Danemark) | Poudre pour solution a diluer pour perfusion | Texte d'indication non disponible (AMM annulee) |
+| 68438457 | ADCETRIS 50 mg, poudre pour solution a diluer pour perfusion (TAKEDA PHARMA, Danemark) | Poudre pour solution a diluer pour perfusion | Texte d'indication non disponible (AMM active) |
 
 ---
 
@@ -145,7 +145,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ### Note sur les autres indications predites
 
-Parmi les autres predictions, seule la **neoplasie a cellules B** (score 99,60 %, niveau L2) presente des preuves plus solides, avec des essais de phase 2 acheves (dont NCT01421667, n=176) et une recommandation « Proceed with Guardrails » conditionnee a l'expression de CD30. Elle merite une evaluation separee. Les autres predictions (leucemie myeloide, leucemie lymphoblastique aigue, LLC/lymphome lymphocytique, syndrome de Richter, lymphome du manteau, ganglioneuroblastome, syndrome rare a anomalies vertebrales) reposent sur des preuves indirectes ou uniquement sur le score du modele : recommandation « Hold » ou « Research Question ».
+Parmi les autres predictions, seule la **neoplasie a cellules B** (score 0,9960, niveau L2) presente des preuves plus solides, avec des essais de phase 2 acheves (dont NCT01421667, n=176) et une recommandation « Proceed with Guardrails » conditionnee a l'expression de CD30. Elle merite une evaluation separee. Les autres predictions (leucemie myeloide, leucemie lymphoblastique aigue, LLC/lymphome lymphocytique, syndrome de Richter, lymphome du manteau, ganglioneuroblastome, syndrome rare a anomalies vertebrales) reposent sur des preuves indirectes ou uniquement sur le score du modele : recommandation « Hold » ou « Research Question ».
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

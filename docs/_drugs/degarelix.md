@@ -47,19 +47,19 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertrichos
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM compilées |
 | Nouvelle Indication Prédite | Hypertrichose |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0,9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, le dégarélix bloque le récepteur de la GnRH et réduit la sécrétion de LH et de FSH, ce qui diminue la production d'androgènes par les gonades.
 
-Le lien avec l'hypertrichose est **faible et spéculatif**. Contrairement à l'hirsutisme, l'hypertrichose n'est généralement pas liée aux androgènes : freiner l'axe hormonal n'a donc pas de justification mécanistique claire. Le score très élevé du modèle (0,9999) repose uniquement sur la structure du graphe de connaissances, sans appui clinique ni bibliographique.
+Le lien avec l'hypertrichose est **faible et spéculatif**. Contrairement à l'hirsutisme, l'hypertrichose n'est généralement pas liée aux androgènes : freiner l'axe hormonal n'a donc pas de justification mécanistique claire. Le score très élevé (0,9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il ne s'appuie sur aucun appui clinique ni bibliographique.
 
-Les autres prédictions du modèle sont du même ordre : la plupart (hypertrichose d'Ambras, malformation de Dandy-Walker, anomalies de la tige pilaire, urticaires, etc.) n'ont pas de lien biologique plausible avec le mécanisme du médicament et relèvent probablement d'artefacts du graphe. Deux pistes, plus proches de l'axe hormonal, sont conservées comme simples questions de recherche :
+Les autres prédictions du modèle sont du même ordre : la plupart (hypertrichose d'Ambras, malformation de Dandy-Walker, anomalies de la tige pilaire, urticaires, etc.) n'ont pas de lien biologique plausible avec le mécanisme du médicament et peuvent refléter des similarités apprises par le modèle TxGNN (apprentissage profond) entre maladies apparentées, et non une preuve biologique. Deux pistes, plus proches de l'axe hormonal, sont conservées comme simples questions de recherche :
 - **Puberté précoce familiale limitée au sexe masculin** : la cause (mutations activatrices du récepteur LHCGR) se situe en aval de l'hypophyse, donc le blocage de la GnRH serait probablement inefficace.
 - **Puberté précoce centrale** : mécanisme plausible, mais le traitement de référence repose sur des agonistes de la GnRH bien établis, et le dégarélix n'est pas développé ni validé chez l'enfant.
 
@@ -75,10 +75,10 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69784330 | FIRMAGON 120 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
-| 64199102 | DEGARELIX ACCORD 120 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
-| 65505947 | DEGARELIX ACCORD 80 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
-| 63329030 | FIRMAGON 80 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
+| 69784330 | FIRMAGON 120 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+| 64199102 | DEGARELIX ACCORD 120 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+| 65505947 | DEGARELIX ACCORD 80 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+| 63329030 | FIRMAGON 80 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -99,7 +99,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le lien mécanistique avec l'hypertrichose est faible. Toutes les AMM françaises sont annulées, et les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le lien mécanistique avec l'hypertrichose est faible. Le médicament est commercialisé en France (4 AMM valides sur 4), mais les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM.

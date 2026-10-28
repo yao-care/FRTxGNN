@@ -50,10 +50,10 @@ Ces preuves concernent toutefois surtout l'**hidradénite suppurée (acné inver
 |------|------|
 | Indication Originale | Non disponible dans les données d'AMM |
 | Nouvelle Indication Predite | Acné (disease) |
-| Score de Prediction TxGNN | 99,94 % |
+| Score de Prediction TxGNN | 0,9994 |
 | Niveau de Preuve | L3 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 
 ---
@@ -99,8 +99,8 @@ Sélection des publications les plus pertinentes parmi celles compilées (aucun 
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 64225999 | SORIATANE 25 mg, gélule (annulée) | Gélule | Non renseignée |
-| 60292349 | SORIATANE 10 mg, gélule (annulée) | Gélule | Non renseignée |
+| 64225999 | SORIATANE 25 mg, gélule (active) | Gélule | Non renseignée |
+| 60292349 | SORIATANE 10 mg, gélule (active) | Gélule | Non renseignée |
 
 ---
 

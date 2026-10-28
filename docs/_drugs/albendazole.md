@@ -50,10 +50,10 @@ Il s'agit davantage d'une extension au sein d'une même classe de médicaments e
 |------|------|
 | Indication Originale | Échinococcose kystique, cysticercose, infection à *Echinococcus granulosus* (texte d'indication de l'AMM non renseigné dans les données compilées) |
 | Nouvelle Indication Prédite | Échinococcose alvéolaire |
-| Score de Prédiction TxGNN | 99,97 % |
+| Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -101,11 +101,11 @@ Les publications ci-dessous sont les plus pertinentes parmi celles compilées (p
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69731801 | ZENTEL 0,4 g/10 mL, suspension buvable (annulée) | Suspension buvable | Non renseignée |
-| 65565944 | ZENTEL 400 mg, comprimé (annulée) | Comprimé | Non renseignée |
-| 68879708 | ESKAZOLE 400 mg, comprimé (annulée) | Comprimé | Non renseignée |
+| 69731801 | ZENTEL 0,4 g/10 mL, suspension buvable (active) | Suspension buvable | Non renseignée |
+| 65565944 | ZENTEL 400 mg, comprimé (active) | Comprimé | Non renseignée |
+| 68879708 | ESKAZOLE 400 mg, comprimé (active) | Comprimé | Non renseignée |
 
-Les trois AMM (titulaire : GlaxoSmithKline) sont annulées ; aucune AMM valide n'est actuellement répertoriée.
+Les trois AMM (titulaire : GlaxoSmithKline) sont valides ; le médicament est actuellement commercialisé.
 
 ---
 
@@ -136,7 +136,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ### Note sur les autres indications prédites
 
-Deux autres prédictions figurent dans les données : la **coenurose** (score de 99,83 %) et les **infections à cestodes** (score de 99,74 %). Elles sont présentées comme L1 dans les données, mais cette classification repose sur des essais de phase 3 portant sur la neurocysticercose (indication déjà existante), et non sur la coenurose elle-même. La coenurose humaine est rare et ne dispose d'aucun essai randomisé dédié ; l'application est donc une extrapolation. La catégorie « infection à cestodes » est un parent des indications d'origine, et son score élevé reflète surtout la hiérarchie de l'ontologie, non un véritable repositionnement.
+Deux autres prédictions figurent dans les données : la **coenurose** (score de 0,9983) et les **infections à cestodes** (score de 0,9974). Elles sont présentées comme L1 dans les données, mais cette classification repose sur des essais de phase 3 portant sur la neurocysticercose (indication déjà existante), et non sur la coenurose elle-même. La coenurose humaine est rare et ne dispose d'aucun essai randomisé dédié ; l'application est donc une extrapolation. La catégorie « infection à cestodes » est un parent des indications d'origine, et son score élevé reflète surtout la hiérarchie de l'ontologie, non un véritable repositionnement.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

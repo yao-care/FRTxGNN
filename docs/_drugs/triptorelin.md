@@ -6,9 +6,9 @@ nav_order: 792
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Triptorelin : nouvelle indication prédite, Puberté précoce (niveau de preuve L1). Indication d'origine : Non renseignée dans les données compilées (aucun texte d'indication d…"
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+description: "Triptorelin : nouvelle indication prédite, Hypertrichosis (disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Triptorelin
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Triptoréline : De l'indication d'origine non renseignée à la puberté précoce
+## Triptorelin: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,15 +48,15 @@ Il s'agit toutefois d'une indication déjà établie pour ce médicament, et non
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données compilées (aucun texte d'indication dans les AMM) |
-| Nouvelle Indication Prédite | Puberté précoce |
-| Score de Prédiction TxGNN | 99,89 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypertrichosis (disease) |
+| Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 15 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
+| Nombre d'AMM | 15 (valides : 15) |
 | Décision Recommandée | Proceed with Guardrails |
 
-Remarque : la première prédiction du classement TxGNN est l'hypertrichose (score 99,997 %). Elle n'est soutenue par aucune preuve thérapeutique (niveau L4, décision Hold). Ce rapport se concentre sur la puberté précoce, qui est la prédiction la mieux documentée. Les autres prédictions sont résumées en fin de rapport.
+Remarque : la première prédiction du classement TxGNN est l'hypertrichose (score 1,0000). Elle n'est soutenue par aucune preuve thérapeutique (niveau L4, décision Hold). Ce rapport se concentre sur la puberté précoce, qui est la prédiction la mieux documentée. Les autres prédictions sont résumées en fin de rapport.
 
 ---
 
@@ -106,13 +106,13 @@ Cette prédiction correspond à une indication déjà établie de la triptoréli
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64849436 | DECAPEPTYL L.P. 11,25 mg (CRISTERS) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM annulée) |
-| 67699931 | DECAPEPTYL L.P. 3 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM annulée) |
-| 69278094 | DECAPEPTYL 0,1 mg (BB FARMA) | Poudre et solvant pour solution injectable | Non renseignée (AMM annulée) |
-| 65459503 | DECAPEPTYL LP 22,5 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM annulée) |
-| 69847994 | SALVACYL L.P. 11,25 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM annulée) |
+| 64849436 | DECAPEPTYL L.P. 11,25 mg (CRISTERS) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
+| 67699931 | DECAPEPTYL L.P. 3 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
+| 69278094 | DECAPEPTYL 0,1 mg (BB FARMA) | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+| 65459503 | DECAPEPTYL LP 22,5 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
+| 69847994 | SALVACYL L.P. 11,25 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 
-Au total, 15 AMM sont recensées, toutes annulées. Aucune n'est valide dans les données compilées.
+Au total, 15 AMM sont recensées, toutes annulées.
 
 ---
 
@@ -141,7 +141,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), lacune bloquante pour le criblage de sécurité
-- Vérifier si un produit à base de triptoréline est actuellement commercialisé en France dans cette indication, puisque toutes les AMM listées sont annulées
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Compléter l'indication d'origine, aujourd'hui vide
 - Préciser le plan de surveillance de la sécurité en population pédiatrique (métabolisme glucido-lipidique, densité osseuse)

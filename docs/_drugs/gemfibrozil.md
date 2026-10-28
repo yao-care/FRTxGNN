@@ -4,17 +4,17 @@ title: Gemfibrozil
 parent: Preuves modérées (L3-L4)
 nav_order: 359
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Gemfibrozil : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Hypertriglycéridémie"
 monitor_inn: "GEMFIBROZIL"
-predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "obsolete familial combined hyperlipidemia", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
+predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
+description: "Gemfibrozil : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Gemfibrozil
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Gemfibrozil : De l'Hypertriglycéridémie à la Polyarthrite Rhumatoïde
+## Gemfibrozil: Polyarthrite rhumatoïde (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rh
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertriglycéridémie (le texte d'indication de l'AMM française n'est pas renseigné ; indication issue du graphe de connaissances) |
-| Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
-| Score de Prédiction TxGNN | 99,90 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Polyarthrite rhumatoïde (rheumatoid arthritis) |
+| Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -78,7 +78,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68696386 | LIPUR 450 mg, comprimé pelliculé (PFIZER HOLDING FRANCE) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 68696386 | LIPUR 450 mg, comprimé pelliculé (PFIZER HOLDING FRANCE) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

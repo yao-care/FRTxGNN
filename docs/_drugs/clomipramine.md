@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clomipramine
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 186
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (niveau de preuve L5). Indication d'origine : Trouble obsessionnel compulsif"
 monitor_inn: "CLOMIPRAMINE"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
+description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clomipramine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L1** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Clomipramine : Du Trouble Obsessionnel Compulsif au Trouble Anxieux
+## Clomipramine: Trouble anxieux (anxiety disorder)
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -46,12 +46,12 @@ avec **8 essais cliniques** et **20 publications** retenus dans les donnees comp
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Trouble obsessionnel compulsif (source : graphe de connaissances ; le texte d'indication des AMM n'est pas renseigne) |
-| Nouvelle Indication Predite | Trouble anxieux |
-| Score de Prediction TxGNN | 99,93 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Trouble anxieux (anxiety disorder) |
+| Score de Prediction TxGNN | 0.9993 |
 | Niveau de Preuve | L1 (selon l'evaluation des donnees compilees ; a nuancer, voir ci-dessous) |
-| Statut de Marche en France | Toutes les AMM sont annulees (aucune AMM valide) |
-| Nombre d'AMM | 3 |
+| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Proceed with Guardrails |
 
 **Nuance sur le niveau de preuve :** le niveau L1 est attribue dans les donnees compilees, mais les essais listes sont majoritairement centres sur le TOC, et la plupart ne sont pas des essais directs dans les troubles anxieux. Le soutien le plus solide provient de meta-analyses et de recommandations portant sur le trouble panique. Une lecture prudente situerait la preuve directe entre L2 et L3.
@@ -98,9 +98,9 @@ Parmi les autres predictions, **l'agoraphobie** (niveau L2, etudes anciennes et 
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 69281119 | ANAFRANIL 25 mg/2 ml, solution injectable (ALFASIGMA FRANCE) | Solution injectable | Non renseignee (AMM annulee) |
-| 69273510 | ANAFRANIL 10 mg, comprime enrobe (ALFASIGMA FRANCE) | Comprime enrobe | Non renseignee (AMM annulee) |
-| 61426025 | ANAFRANIL 75 mg, comprime pelliculé secable (ALFASIGMA FRANCE) | Comprime pelliculé secable | Non renseignee (AMM annulee) |
+| 69281119 | ANAFRANIL 25 mg/2 ml, solution injectable (ALFASIGMA FRANCE) | Solution injectable | Non renseignee (AMM active) |
+| 69273510 | ANAFRANIL 10 mg, comprime enrobe (ALFASIGMA FRANCE) | Comprime enrobe | Non renseignee (AMM active) |
+| 61426025 | ANAFRANIL 75 mg, comprime pelliculé secable (ALFASIGMA FRANCE) | Comprime pelliculé secable | Non renseignee (AMM active) |
 
 ## Considerations de Securite
 

@@ -6,9 +6,9 @@ nav_order: 549
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Nystatin : nouvelle indication prédite, Vulvovaginite (niveau de preuve L4). Indication d'origine : Candidoses cutanées, buccales et vulvovaginales"
 monitor_inn: "nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin : nouvelle indication prédite, Vulvovaginite (vulvovaginitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nystatin
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Nystatine : Des candidoses cutanéo-muqueuses à la vulvovaginite
+## Nystatin: Vulvovaginite (vulvovaginitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Aucun essai clinique n'est associé à cette prédiction ; **20 publications** (
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Candidoses cutanées, buccales et vulvovaginales (d'après le graphe de connaissances ; aucun texte d'indication n'est disponible dans les AMM) |
-| Nouvelle Indication Prédite | Vulvovaginite |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Vulvovaginite (vulvovaginitis) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ---
@@ -95,7 +95,7 @@ Les publications ci-dessous sont les plus pertinentes ; il s'agit surtout de rev
 
 ## Informations de Marché en France
 
-Toutes les AMM sont annulées ; aucune n'est actuellement valide. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Les 5 AMM listées sont valides (5 sur 5). Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -121,13 +121,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est mécanistiquement plausible pour la vulvovaginite d'origine candidosique, mais elle correspond à un usage déjà connu, soutenu seulement par des revues, sans essai clinique. De plus, toutes les AMM françaises sont annulées et les données de sécurité officielles manquent, ce qui bloque l'évaluation de sécurité.
-- Les autres prédictions du modèle (région orbitaire, tératome kystique, kyste dermoïde médullaire, vaginite atrophique postménopausique, maladie métabolique de la biotine, fistule commissurale de la lèvre, ostéoradionécrose mandibulaire) n'ont aucun support clinique ni mécanistique crédible et semblent être des artefacts du graphe de connaissances. La vulvite repose sur la même littérature indirecte que la vulvovaginite.
+- La prédiction est mécanistiquement plausible pour la vulvovaginite d'origine candidosique, mais elle correspond à un usage déjà connu, soutenu seulement par des revues, sans essai clinique. Les 5 AMM françaises sont valides, mais les données de sécurité officielles manquent, ce qui bloque l'évaluation de sécurité.
+- Les autres prédictions du modèle TxGNN (deep learning) (région orbitaire, tératome kystique, kyste dermoïde médullaire, vaginite atrophique postménopausique, maladie métabolique de la biotine, fistule commissurale de la lèvre, ostéoradionécrose mandibulaire) n'ont aucun support clinique ni mécanistique crédible. Leurs scores proviennent du modèle et peuvent refléter des similarités apprises entre maladies proches, non une preuve biologique. La vulvite repose sur la même littérature indirecte que la vulvovaginite.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier le statut réglementaire actuel des produits à base de nystatine en France, toutes les AMM listées étant annulées
+- Clarifier le statut réglementaire actuel des produits à base de nystatine en France, les 5 AMM listées étant valides (5 sur 5)
 - Rechercher des essais contrôlés comparant la nystatine aux azolés dans la candidose vulvovaginale
 - Hiérarchiser les interactions médicamenteuses, dont le niveau de gravité n'est pas précisé
 ## Avertissement

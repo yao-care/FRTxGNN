@@ -4,17 +4,17 @@ title: Nadolol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 521
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nadolol : nouvelle indication prédite, Hypertension rénovasculaire maligne (niveau de preuve L5). Indication d'origine : Hypertension artérielle"
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Nadolol : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nadolol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 </div>
 
-## Nadolol : De l'Hypertension à l'Hypertension Rénovasculaire Maligne
+## Nadolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ mais **aucun essai clinique** et **aucune publication** spécifique ne soutienne
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte d'indication de l'AMM française n'est pas renseigné ; l'indication provient du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypertension rénovasculaire maligne |
-| Score de Prédiction TxGNN | 99,59 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Malignant hypertensive renal disease |
+| Score de Prédiction TxGNN | 0.9959 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Autorisation annulée uniquement |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -63,9 +63,9 @@ Cet effet est plausiblement pertinent dans l'hypertension rénovasculaire, où l
 Il faut aussi noter que la forme maligne (accélérée) est une urgence, généralement prise en charge par des médicaments intraveineux et la revascularisation. Un bêta-bloquant oral comme le nadolol ne serait donc pas un traitement de première intention.
 
 **Autres prédictions du modèle (toutes de niveau L5, sans essai clinique) :**
-- Néphropathie hypertensive maligne (score 99,59 %) : l'effet antihypertenseur pourrait théoriquement limiter l'atteinte rénale, mais le nadolol est éliminé par voie rénale et nécessiterait un ajustement posologique.
-- Hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie, et hypertension pulmonaire d'origine multifactorielle (score 99,53 %) : les bêta-bloquants sont en général évités dans ces situations (baisse du débit cardiaque, risque de bronchospasme). Les 12 publications retrouvées pour la première sont précliniques ou périphériques ; aucune n'étudie le nadolol dans cette indication.
-- Syndrome de Braddock (score 99,43 %) : aucun lien mécanistique évident ; à ne pas exploiter sans validation indépendante.
+- Néphropathie hypertensive maligne (score 0,9959) : l'effet antihypertenseur pourrait théoriquement limiter l'atteinte rénale, mais le nadolol est éliminé par voie rénale et nécessiterait un ajustement posologique.
+- Hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie, et hypertension pulmonaire d'origine multifactorielle (score 0,9953) : les bêta-bloquants sont en général évités dans ces situations (baisse du débit cardiaque, risque de bronchospasme). Les 12 publications retrouvées pour la première sont précliniques ou périphériques ; aucune n'étudie le nadolol dans cette indication.
+- Syndrome de Braddock (score 0,9943) : aucun lien mécanistique évident ; à ne pas exploiter sans validation indépendante.
 
 ## Preuves d'Essais Cliniques
 
@@ -88,7 +88,7 @@ Aucune littérature directement associée à l'hypertension rénovasculaire mali
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62092895 | CORGARD 80 mg, comprimé sécable (CHEPLAPHARM FRANCE) | Comprimé sécable | Non renseignée (AMM annulée) |
+| 62092895 | CORGARD 80 mg, comprimé sécable (CHEPLAPHARM FRANCE) | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

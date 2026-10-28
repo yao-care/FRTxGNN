@@ -48,10 +48,10 @@ avec **aucun essai clinique** et **8 publications** précliniques (modèles anim
 |------|------|
 | Indication Originale | Infection par le VIH, SIDA (texte d'indication d'AMM non disponible) |
 | Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (SIV) |
-| Score de Prédiction TxGNN | 99,89 % |
+| Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,8 +83,8 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65453475 | GENVOYA 150 mg/150 mg/200 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 65768058 | STRIBILD 150 mg/150 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 65453475 | GENVOYA 150 mg/150 mg/200 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 65768058 | STRIBILD 150 mg/150 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

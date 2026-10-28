@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vandetanib
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 805
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vandetanib : nouvelle indication prédite, Carcinome rénal à cellules (renal cell carcinoma) (niveau de preuve L5). Indication d'origine : Carcinome de la thyroïde"
 monitor_inn: "vandetanib"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
+description: "Vandetanib : nouvelle indication prédite, Renal cell carcinoma (disease) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Vandetanib : Du Carcinome de la Thyroïde au Carcinome Rénal
+## Vandetanib: Renal cell carcinoma (disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **4 essais cliniques** (de phase 1/2 et 2, petits ou arrêtés prématurém
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome de la thyroïde (source : graphe de connaissances TxGNN ; aucun texte d'indication n'est disponible dans les AMM) |
-| Nouvelle Indication Prédite | Carcinome rénal à cellules (renal cell carcinoma) |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Renal cell carcinoma (disease) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L2 (selon la grille de l'analyse ; voir la réserve ci-dessous) |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 Réserve sur le niveau de preuve : le niveau L2 correspond à la classification issue des données compilées. Strictement, aucun essai de phase 2/3 mené à terme avec résultats disponibles dans le carcinome rénal n'est documenté : seul un essai de phase 2 achevé (n=37, maladie de von Hippel-Lindau) existe, sans résultats fournis. Le niveau doit donc être interprété avec prudence, plutôt comme un niveau de preuve limité.
@@ -94,10 +94,10 @@ Aucune publication ne rapporte de résultats d'efficacité de vandetanib dans le
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65808531 | CAPRELSA 100 mg, comprimé pelliculé (statut : annulée) | Comprimé pelliculé | Texte d'indication non disponible |
-| 69269825 | CAPRELSA 300 mg, comprimé pelliculé (statut : annulée) | Comprimé pelliculé | Texte d'indication non disponible |
+| 65808531 | CAPRELSA 100 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Texte d'indication non disponible |
+| 69269825 | CAPRELSA 300 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Texte d'indication non disponible |
 
-Les deux AMM, détenues par Genzyme Europe (Pays-Bas), sont annulées : aucune AMM valide n'est actuellement recensée en France.
+Les deux AMM, détenues par Genzyme Europe (Pays-Bas), sont valides : le médicament est commercialisé en France.
 
 ## Cytotoxicité
 
@@ -132,7 +132,7 @@ Les mises en garde et contre-indications de la notice française n'ont pas pu ê
 
 **Justification :**
 - Le rationnel mécanistique (inhibition de VEGFR2 dans un cancer dépendant de l'angiogenèse) est plausible, mais les essais dans le carcinome rénal sont petits, arrêtés prématurément ou sans résultats disponibles, et aucune publication n'établit l'efficacité.
-- Le profil de sécurité est préoccupant (risque cardiaque lié au QT, nombreuses interactions majeures), les données de sécurité de la notice sont manquantes et aucune AMM française n'est valide. Le dépistage de sécurité ne peut donc pas être mené à bien à ce stade.
+- Le dépistage de sécurité ne peut donc pas être mené à bien à ce stade.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM.

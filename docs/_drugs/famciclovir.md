@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Famciclovir
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 315
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Famciclovir : nouvelle indication prédite, Névralgie post-infectieuse (niveau de preuve L4). Indication d'origine : Zona (herpès zoster)"
@@ -14,7 +14,7 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 # Famciclovir
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie post
 |------|------|
 | Indication Originale | Zona (herpès zoster) |
 | Nouvelle Indication Prédite | Névralgie post-infectieuse |
-| Score de Prédiction TxGNN | 99,75 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | ✗ Retiré (AMM annulées uniquement) |
-| Nombre d'AMM | 2 |
+| Score de Prédiction TxGNN | 0,9975 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -71,8 +71,8 @@ Il faut souligner que le seul essai retrouvé teste l'oxycodone et non le famcic
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69092403 | ORAVIR 125 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
-| 62801318 | ORAVIR 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 69092403 | ORAVIR 125 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| 62801318 | ORAVIR 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

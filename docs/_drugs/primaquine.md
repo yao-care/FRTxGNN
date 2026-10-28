@@ -4,7 +4,7 @@ title: Primaquine
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 630
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Primaquine : nouvelle indication prédite, Myiase (niveau de preuve L5). Indication d'origine : Paludisme à Plasmodium vivax"
 monitor_inn: "primaquine"
@@ -14,7 +14,7 @@ predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creep
 # Primaquine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 |------|------|
 | Indication Originale | Paludisme à *Plasmodium vivax* |
 | Nouvelle Indication Prédite | Myiase |
-| Score de Prédiction TxGNN | 99,76 % |
+| Score de Prédiction TxGNN | 0,9976 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM abrogées (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La myiase est une infestation par des larves de diptères, c'est-à-dire un ectoparasitisme. Elle est très éloignée du paludisme, qui est une infection à protozoaire. Aucune activité de la primaquine contre ces larves n'est étayée par les données compilées pour ce rapport.
 
-Le score élevé du modèle (99,76 %) semble donc refléter la proximité dans le graphe de connaissances avec d'autres indications antiparasitaires, et non un signal biologique ou clinique indépendant. Les sous-types de myiase (furonculeuse, des plaies, rampante) ont des scores quasi identiques (99,73 %). Cela suggère une propagation par l'ontologie à partir du terme parent plutôt que des signaux distincts. Cette prédiction doit être considérée comme une hypothèse purement computationnelle.
+Le score élevé attribué par le modèle TxGNN (deep learning) (0,9976) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique indépendante. Les sous-types de myiase (furonculeuse, des plaies, rampante) ont des scores quasi identiques (0,9973). Cela suggère une propagation à partir du terme parent plutôt que des signaux distincts. Cette prédiction doit être considérée comme une hypothèse purement computationnelle.
 
 ---
 
@@ -84,7 +84,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62907143 | PRIMAQUINE SANOFI 15 mg, comprimé pelliculé (SANOFI WINTHROP INDUSTRIE) | Comprimé | Texte d'indication non renseigné ; AMM abrogée |
+| 62907143 | PRIMAQUINE SANOFI 15 mg, comprimé pelliculé (SANOFI WINTHROP INDUSTRIE) | Comprimé | Texte d'indication non renseigné ; AMM active |
 
 ---
 

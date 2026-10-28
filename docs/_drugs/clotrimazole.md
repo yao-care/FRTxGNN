@@ -6,9 +6,9 @@ nav_order: 191
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clotrimazole : nouvelle indication prédite, Vulvovaginite (niveau de preuve L1). Indication d'origine : Mycoses cutanées (pied d'athlète, dermatophytoses)…"
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole : nouvelle indication prédite, Acne (disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clotrimazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 
 </div>
 
-## Clotrimazole : De la candidose cutanéo-muqueuse à la vulvovaginite
+## Clotrimazole: Acne (disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Il s'agit toutefois surtout de la confirmation d'un usage déjà établi (candid
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Mycoses cutanées (pied d'athlète, dermatophytoses), candidoses cutanées, orales et vulvovaginales (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Vulvovaginite |
-| Score de Prédiction TxGNN | 99,59 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Acne (disease) |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -96,11 +96,11 @@ Il faut noter que cette prédiction ne constitue pas un repositionnement au sens
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67301480 | MYCOHYDRALIN 200 mg, comprimé vaginal | Comprimé | Non renseignée (AMM annulée) |
-| 62633525 | CLOTRIMAZOLE EG LABO CONSEIL 1 %, crème | Crème | Non renseignée (AMM annulée) |
-| 67933494 | MYCOHYDRALIN 500 mg, comprimé vaginal | Comprimé | Non renseignée (AMM annulée) |
-| 67777579 | MYCOHYDRALIN, crème | Crème | Non renseignée (AMM annulée) |
-| 60070359 | MYCOHYDRALIN 500 mg, capsule vaginale | Capsule | Non renseignée (AMM annulée) |
+| 67301480 | MYCOHYDRALIN 200 mg, comprimé vaginal | Comprimé | Non renseignée (AMM active) |
+| 62633525 | CLOTRIMAZOLE EG LABO CONSEIL 1 %, crème | Crème | Non renseignée (AMM active) |
+| 67933494 | MYCOHYDRALIN 500 mg, comprimé vaginal | Comprimé | Non renseignée (AMM active) |
+| 67777579 | MYCOHYDRALIN, crème | Crème | Non renseignée (AMM active) |
+| 60070359 | MYCOHYDRALIN 500 mg, capsule vaginale | Capsule | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -127,8 +127,8 @@ Il faut noter que cette prédiction ne constitue pas un repositionnement au sens
 
 ## Autres Indications Prédites (à titre d'information)
 
-- **Acné** (score 99,86 %, niveau L4, décision **Hold**) : le seul essai disponible (NCT01244256, Phase 2/3, suspendu, 80 patients) teste une association fixe (bêclométasone + gentamicine + clotrimazole), ce qui empêche d'attribuer un effet au clotrimazole. Le lien mécanistique est indirect.
-- **Vaginite atrophique post-ménopausique** (score 99,46 %, niveau L5, décision **Hold**) : prédiction fondée uniquement sur le modèle. Cette affection est liée à une carence en œstrogènes et non à une infection fongique ; aucun essai ni publication ne la soutient.
+- **Acné** (score 0,9986, niveau L4, décision **Hold**) : le seul essai disponible (NCT01244256, Phase 2/3, suspendu, 80 patients) teste une association fixe (bêclométasone + gentamicine + clotrimazole), ce qui empêche d'attribuer un effet au clotrimazole. Le lien mécanistique est indirect.
+- **Vaginite atrophique post-ménopausique** (score 0,9946, niveau L5, décision **Hold**) : prédiction fondée uniquement sur le modèle. Cette affection est liée à une carence en œstrogènes et non à une infection fongique ; aucun essai ni publication ne la soutient.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

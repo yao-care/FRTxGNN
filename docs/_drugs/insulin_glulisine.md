@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 403
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Glulisine : nouvelle indication prédite, Diabète de type 1 (niveau de preuve L1). Indication d'origine : Diabète sucré"
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine : nouvelle indication prédite, Thiamine-responsive dysfunction syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Insuline glulisine : Du diabète sucré au diabète de type 1
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il faut noter qu'il s'agit ici moins d'un véritable repositionnement que de la 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Diabète sucré ; acidocétose diabétique (source : graphe de connaissances, le texte d'indication des AMM n'étant pas renseigné) |
-| Nouvelle Indication Prédite | Diabète de type 1 |
-| Score de Prédiction TxGNN | 99,55 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 3 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Thiamine-responsive dysfunction syndrome |
+| Score de Prédiction TxGNN | 0.9947 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le diabète de type 1 est caractérisé par une carence en insuline. Le remplacement par une insuline prandiale est donc le fondement du traitement. L'indication prédite est ainsi une sous-catégorie directe de l'indication d'origine (diabète sucré), ce qui explique le score très élevé du modèle.
 
-Un point pratique important : toutes les AMM françaises identifiées sont annulées. La disponibilité du produit constitue donc une contrainte pratique, et non une lacune de preuves.
+La disponibilité du produit constitue donc une contrainte pratique, et non une lacune de preuves.
 
 ---
 
@@ -108,9 +108,9 @@ Les 10 essais les plus pertinents sont présentés ci-dessous (sur 28 essais rec
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 64684582 | APIDRA SOLOSTAR 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée | Annulée |
-| 62679768 | APIDRA 100 Unités/ml, cartouche | Solution injectable | Non renseignée | Annulée |
-| 65554613 | APIDRA 100 Unités/ml, flacon | Solution injectable | Non renseignée | Annulée |
+| 64684582 | APIDRA SOLOSTAR 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée | Active |
+| 62679768 | APIDRA 100 Unités/ml, cartouche | Solution injectable | Non renseignée | Active |
+| 65554613 | APIDRA 100 Unités/ml, flacon | Solution injectable | Non renseignée | Active |
 
 Les trois AMM sont détenues par SANOFI AVENTIS (Allemagne).
 
@@ -135,7 +135,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Plusieurs essais de phase 3 comparant la glulisine au lispro ou à l'asparte dans le diabète de type 1, ainsi que des ECR publiés, soutiennent l'efficacité et la sécurité (niveau L1). Il s'agit toutefois d'une confirmation d'indication existante, non d'un véritable repositionnement.
-- Toutes les AMM françaises sont annulées, et les données de sécurité de la notice sont absentes ; ces points justifient des garde-fous.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM.
@@ -151,15 +150,14 @@ Les neuf autres indications prédites ne reposent sur aucun essai clinique ni pu
 
 | Rang | Indication | Score TxGNN | Niveau de Preuve | Commentaire |
 |------|------|------|------|------|
-| 2 | Syndrome de dysfonctionnement répondant à la thiamine | 99,47 % | L5 | Probable proximité avec des nœuds liés au diabète |
-| 3 | Opsismodysplasie | 99,46 % | L5 | Aucun mécanisme plausible ; probable artefact du graphe |
-| 4 | Syndrome de la personne raide classique | 99,46 % | L5 | Probable comorbidité auto-immune avec le diabète de type 1 (anticorps anti-GAD) |
-| 5 | Syndrome du membre raide focal | 99,46 % | L5 | Même origine probable que le précédent |
-| 6 | Ovarite auto-immune | 99,37 % | L5 | Association auto-immune avec le diabète de type 1 |
-| 7 | Agénésie du pancréas | 99,17 % | L4 | Substitution insulinique plausible pour le diabète qui en résulte, sans donnée spécifique à la glulisine |
-| 8 | Lipodystrophie localisée d'origine médicamenteuse | 99,15 % | L5 | L'insuline est une cause connue, non un traitement |
-| 9 | Lipodystrophie centrifuge | 99,11 % | L5 | Aucune justification thérapeutique |
-| 10 | Lipoatrophie localisée induite par la pression | 99,10 % | L5 | L'insuline peut provoquer la lipoatrophie, non la traiter |
+| 2 | Syndrome de dysfonctionnement répondant à la thiamine | 0,9947 | L5 | Probable proximité avec des nœuds liés au diabète |
+| 4 | Syndrome de la personne raide classique | 0,9946 | L5 | Probable comorbidité auto-immune avec le diabète de type 1 (anticorps anti-GAD) |
+| 5 | Syndrome du membre raide focal | 0,9946 | L5 | Même origine probable que le précédent |
+| 6 | Ovarite auto-immune | 0,9937 | L5 | Association auto-immune avec le diabète de type 1 |
+| 7 | Agénésie du pancréas | 0,9917 | L5 | Substitution insulinique plausible pour le diabète qui en résulte, sans donnée spécifique à la glulisine |
+| 8 | Lipodystrophie localisée d'origine médicamenteuse | 0,9915 | L5 | L'insuline est une cause connue, non un traitement |
+| 9 | Lipodystrophie centrifuge | 0,9911 | L5 | Aucune justification thérapeutique |
+| 10 | Lipoatrophie localisée induite par la pression | 0,9910 | L5 | L'insuline peut provoquer la lipoatrophie, non la traiter |
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

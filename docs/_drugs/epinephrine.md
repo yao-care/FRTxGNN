@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 287
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Epinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L1). Indication d'origine : Anaphylaxie, asthme, bronchite, emphysème pulmonaire, bronchectasie…"
 monitor_inn: "epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+description: "Epinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **4**
 
 </div>
 
-## Épinéphrine : De l'asthme et de l'anaphylaxie à la maladie pulmonaire obstructive
+## Epinephrine: Maladie pulmonaire obstructive (obstructive lung disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,11 +46,11 @@ Les données compilées pour ce rapport font état de **15 essais cliniques** (d
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Anaphylaxie, asthme, bronchite, emphysème pulmonaire, bronchectasie, troubles hypotensifs, glaucome à angle ouvert (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Maladie pulmonaire obstructive |
-| Score de Prédiction TxGNN | 99,71 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Maladie pulmonaire obstructive (obstructive lung disease) |
+| Score de Prédiction TxGNN | 0.9971 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Proceed with Guardrails |
 
@@ -58,7 +58,7 @@ Les données compilées pour ce rapport font état de **15 essais cliniques** (d
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des connaissances pharmacologiques établies, l'épinéphrine est un agoniste adrénergique non sélectif : l'activation des récepteurs bêta-2 relâche la musculature lisse bronchique, et l'activation alpha-1 réduit l'œdème de la muqueuse des voies respiratoires par vasoconstriction.
 
-Ce mécanisme est cohérent avec les indications d'origine (asthme, bronchite, emphysème, bronchectasie). La « maladie pulmonaire obstructive » regroupe notamment l'asthme et la BPCO ; la prédiction est donc en grande partie une extension d'usages déjà établis. Le score élevé (0,997) concorde avec les preuves cliniques existantes. L'incertitude de repositionnement concerne surtout la bronchiolite du nourrisson, pour laquelle les résultats sont plus hétérogènes.
+Ce mécanisme est cohérent avec les indications d'origine (asthme, bronchite, emphysème, bronchectasie). La « maladie pulmonaire obstructive » regroupe notamment l'asthme et la BPCO ; la prédiction est donc en grande partie une extension d'usages déjà établis. Le score élevé (0,9971) concorde avec les preuves cliniques existantes. L'incertitude de repositionnement concerne surtout la bronchiolite du nourrisson, pour laquelle les résultats sont plus hétérogènes.
 
 ## Preuves d'Essais Cliniques
 
@@ -94,7 +94,7 @@ Les autres essais compilés sont des études pharmacocinétiques chez des volont
 
 ## Informations de Marché en France
 
-Les 20 AMM compilées sont toutes annulées ; aucune n'est actuellement valide. Le texte d'indication approuvée n'est pas renseigné. Voici les 5 premières :
+Le texte d'indication approuvée n'est pas renseigné. Voici les 5 premières :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -121,7 +121,7 @@ Plusieurs essais de Phase 3 terminés (épinéphrine inhalée dans l'asthme chez
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, ce point bloquant empêchant le passage au dépistage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier le statut réglementaire en France, toutes les AMM étant annulées, et la voie d'administration visée (inhalée vs injectable)
+- Clarifier le statut réglementaire en France, le médicament étant commercialisé avec 20 AMM valides, et la voie d'administration visée (inhalée vs injectable)
 - Définir un plan de surveillance cardiovasculaire et de gestion des interactions (tricycliques, bêtabloquants)
 - Confirmer les résultats dans la bronchiolite et la BPCO, où les preuves restent hétérogènes
 ## Avertissement

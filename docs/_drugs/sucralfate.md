@@ -6,9 +6,9 @@ nav_order: 717
 evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Sucralfate : nouvelle indication prédite, Reflux duodéno-gastrique (niveau de preuve L3). Indication d'origine : Ulcère duodénal"
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+description: "Sucralfate : nouvelle indication prédite, Reflux duodéno-gastrique (duodenogastric reflux) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sucralfate
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **2**
 
 </div>
 
-## Sucralfate : De l'Ulcère Duodénal au Reflux Duodéno-Gastrique
+## Sucralfate: Reflux duodéno-gastrique (duodenogastric reflux)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Aucun essai clinique n'est enregistré, mais **10 publications** sont associées
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Ulcère duodénal (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
-| Nouvelle Indication Prédite | Reflux duodéno-gastrique |
-| Score de Prédiction TxGNN | 99,37 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Reflux duodéno-gastrique (duodenogastric reflux) |
+| Score de Prédiction TxGNN | 0.9937 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ---
@@ -93,10 +93,10 @@ Les résultats chiffrés des deux essais randomisés ne figurent pas dans les ex
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69428971 | KEAL 1 g, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 64577534 | ULCAR 1 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM annulée) |
-| 60602431 | KEAL 2 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM annulée) |
-| 68928009 | KEAL 1 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM annulée) |
+| 69428971 | KEAL 1 g, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 64577534 | ULCAR 1 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM active) |
+| 60602431 | KEAL 2 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM active) |
+| 68928009 | KEAL 1 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM active) |
 
 ---
 
@@ -118,7 +118,7 @@ Les informations de la notice n'ont pas pu être exploitées. Veuillez consulter
 
 **Justification :**
 - La prédiction repose sur des preuves de niveau L3 : deux petits essais randomisés anciens ou de faible effectif, sans essai clinique enregistré, et sans données de mécanisme ni de notice.
-- Toutes les AMM françaises sont annulées, et les données de sécurité officielles manquent (lacune bloquante).
+- Les 4 AMM françaises sont valides (4 sur 4) et le médicament est commercialisé, mais les données de sécurité officielles manquent (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM.

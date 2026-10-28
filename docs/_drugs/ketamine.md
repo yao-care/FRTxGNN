@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ketamine
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 422
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketamine : nouvelle indication prédite, Céphalée (headache disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
@@ -14,7 +14,7 @@ predicted_indications: ["headache disorder"]
 # Ketamine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **1** 
+Niveau de preuve: **L1** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ avec **8 essais cliniques** et **20 publications** associés, dont une partie se
 |------|------|
 | Indication Originale | Non renseignée dans les AMM disponibles |
 | Nouvelle Indication Prédite | Céphalée (headache disorder) |
-| Score de Prédiction TxGNN | 99,33 % |
+| Score de Prédiction TxGNN | 0,9933 |
 | Niveau de Preuve | L1 (selon les règles du modèle : un seul essai de Phase 3 terminé, THINK, et un essai de Phase 3 encore en recrutement ; niveau à interpréter avec prudence) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -94,8 +94,8 @@ Les autres publications retrouvées concernent surtout la dépression, l'abus d'
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62768665 | KETAMINE PANPHARMA 10 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | Non renseignée (AMM annulée) |
-| 69278297 | KETAMINE PANPHARMA 50 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | Non renseignée (AMM annulée) |
+| 62768665 | KETAMINE PANPHARMA 10 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | Non renseignée (AMM active) |
+| 69278297 | KETAMINE PANPHARMA 50 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

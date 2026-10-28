@@ -4,7 +4,7 @@ title: Vinorelbine
 parent: Preuves élevées (L1-L2)
 nav_order: 816
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Vinorelbine : nouvelle indication prédite, Sarcome d'Ewing (niveau de preuve L2). Indication d'origine : Cancer bronchique non à petites cellules"
 monitor_inn: "vinorelbine"
@@ -14,7 +14,7 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 # Vinorelbine
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ avec **3 essais cliniques** (dont un essai de phase 2 directement pertinent) et 
 |------|------|
 | Indication Originale | Cancer bronchique non à petites cellules ; cancer du poumon (les textes d'indication des AMM ne sont pas renseignés) |
 | Nouvelle Indication Prédite | Sarcome d'Ewing |
-| Score de Prédiction TxGNN | 99,999 % |
+| Score de Prédiction TxGNN | 1,0000 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 8 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,11 +85,11 @@ La relation avec l'indication d'origine est donc surtout mécanistique : le mêm
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63337924 | VINORELBINE ACCORD 20 mg | Capsule molle | Non renseignée (AMM annulée) |
-| 63396029 | VINORELBINE ACCORD 30 mg | Capsule molle | Non renseignée (AMM annulée) |
-| 69968704 | VINORELBINE MEDAC 20 mg | Capsule molle | Non renseignée (AMM annulée) |
-| 66621926 | VINORELBINE MEDAC 30 mg | Capsule molle | Non renseignée (AMM annulée) |
-| 69684369 | VINORELBINE SANDOZ 20 mg | Capsule molle | Non renseignée (AMM annulée) |
+| 63337924 | VINORELBINE ACCORD 20 mg | Capsule molle | Non renseignée (AMM active) |
+| 63396029 | VINORELBINE ACCORD 30 mg | Capsule molle | Non renseignée (AMM active) |
+| 69968704 | VINORELBINE MEDAC 20 mg | Capsule molle | Non renseignée (AMM active) |
+| 66621926 | VINORELBINE MEDAC 30 mg | Capsule molle | Non renseignée (AMM active) |
+| 69684369 | VINORELBINE SANDOZ 20 mg | Capsule molle | Non renseignée (AMM active) |
 
 Au total, 8 AMM sont recensées, toutes annulées : 6 capsules molles (voie orale) et 2 solutions à diluer pour perfusion (ARROW et ACCORD, 10 mg/mL).
 

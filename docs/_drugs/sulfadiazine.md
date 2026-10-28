@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 719
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Sulfadiazine : nouvelle indication prédite, Pneumocystose (niveau de preuve L4). Indication d'origine : Toxoplasmose"
 monitor_inn: "SULFADIAZINE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
+description: "Sulfadiazine : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sulfadiazine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **2**
 
 </div>
 
-## Sulfadiazine : De la toxoplasmose à la pneumocystose
+## Sulfadiazine: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Toxoplasmose (selon le graphe de connaissances ; le texte d'indication de l'AMM française n'est pas renseigné) |
-| Nouvelle Indication Prédite | Pneumocystose |
-| Score de Prédiction TxGNN | 99,39 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pneumocystose (pneumocystosis) |
+| Score de Prédiction TxGNN | 0.9939 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la sulfadiazine fait partie de la classe des sulfamides, qui inhibent la dihydroptéroate synthase, une enzyme de la voie de synthèse des folates. Son efficacité dans la toxoplasmose est établie, généralement en association avec la pyriméthamine.
 
-*Pneumocystis jirovecii* dépend de la même voie métabolique. Les sulfamides, notamment l'association triméthoprime-sulfaméthoxazole, constituent un traitement établi de la pneumocystose. Le lien biologique est donc plausible. Les indications d'origine de la sulfadiazine (toxoplasmose et ses atteintes oculaires, mais aussi rectocolite hémorragique et maladies inflammatoires de l'intestin selon le graphe de connaissances) montrent un profil surtout anti-infectieux et antiparasitaire.
+*Pneumocystis jirovecii* dépend de la même voie métabolique. Les sulfamides, notamment l'association triméthoprime-sulfaméthoxazole, constituent un traitement établi de la pneumocystose. Le lien biologique est donc plausible. Le score de 0.9939 provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 Cette plausibilité reste toutefois indirecte. Les données disponibles concernent essentiellement le sulfaméthoxazole, un autre sulfamide, et non la sulfadiazine. Une publication de 1989 évoque l'association pyriméthamine-sulfadiazine dans la pneumonie à *P. carinii* et la toxoplasmose au cours du sida, mais son résumé n'est pas disponible.
 
@@ -133,7 +133,7 @@ Les mises en garde détaillées de la notice ne sont pas disponibles ; veuillez 
 **Justification :**
 - Le lien mécanistique est plausible, mais aucune preuve directe n'existe pour la sulfadiazine dans la pneumocystose : la littérature est composée de revues générales, et les données portent surtout sur le sulfaméthoxazole. Le traitement de référence (triméthoprime-sulfaméthoxazole) est déjà établi.
 - L'unique AMM française est annulée, ce qui limite le développement pratique.
-- La deuxième prédiction (kératoconjonctivite ponctuée épithéliale, score 99,36 %) ne repose sur aucun essai ni publication (niveau L5). Elle est également en attente (Hold), sans lien antimicrobien plausible, car cette affection est souvent virale.
+- La deuxième prédiction (kératoconjonctivite ponctuée épithéliale, score 0,9936) ne repose sur aucun essai ni publication (niveau L5). Elle est également en attente (Hold), sans lien antimicrobien plausible, car cette affection est souvent virale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour le dépistage de sécurité)

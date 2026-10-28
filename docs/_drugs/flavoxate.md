@@ -6,9 +6,9 @@ nav_order: 328
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Flavoxate : nouvelle indication prédite, Attention deficit hyperactivity disorder… (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM (texte d'indication vide)"
 monitor_inn: "FLAVOXATE"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
+description: "Flavoxate : nouvelle indication prédite, Attention deficit hyperactivity disorder, inattentive type (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Flavoxate
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-## Flavoxate : D'une indication urologique non documentée au Syndrome de l'intestin irritable
+## Flavoxate: Attention deficit hyperactivity disorder, inattentive type
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de l'i
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans l'AMM (texte d'indication vide) |
-| Nouvelle Indication Prédite | Attention deficit hyperactivity disorder, inattentive type (prédiction de rang 1 du modèle) ; voir ci-dessous pour le syndrome de l'intestin irritable, hypothèse la plus plausible |
-| Score de Prédiction TxGNN | 99,75 % (rang 1) ; 99,74 % pour le syndrome de l'intestin irritable (rang 2) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Attention deficit hyperactivity disorder, inattentive type |
+| Score de Prédiction TxGNN | 0.9975 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 > Remarque : le titre du rapport retient le syndrome de l'intestin irritable, car c'est la prédiction la plus cohérente sur le plan mécanistique. La prédiction de rang 1 (TDAH, forme inattentive) n'a aucun lien mécanistique établi avec le flavoxate.
@@ -62,7 +62,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 Pour le **syndrome de l'intestin irritable**, le raisonnement est plausible : la relaxation spasmolytique et antimuscarinique du muscle lisse est la base de l'usage d'agents apparentés (hyoscine, dicyclomine) dans cette pathologie. Il s'agit toutefois d'une hypothèse, sans aucune donnée clinique propre au flavoxate.
 
 Les autres prédictions sont nettement plus fragiles :
-- **TDAH (deux formes) et trouble spécifique du développement** : aucun lien mécanistique établi ; le signal reflète probablement une proximité dans le graphe de connaissances plutôt qu'une pharmacologie réelle. Toute pertinence neurologique serait spéculative.
+- **TDAH (deux formes) et trouble spécifique du développement** : aucun lien mécanistique établi ; le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Toute pertinence neurologique serait spéculative.
 - **Vessie neurogène** : mécanisme plausible (effet sur le détrusor), mais le terme est marqué comme obsolète dans l'ontologie et devrait être remplacé par un terme actuel (ex. hyperactivité neurogène du détrusor).
 - **Ulcère peptique** : un rationnel de classe existe (antimuscariniques utilisés autrefois en appoint), mais ils ont été supplantés par les IPP et l'éradication d'*H. pylori*.
 - **Gastroduodénite** : lien faible ; l'action antispasmodique ne traite pas l'inflammation ni la composante acide.
@@ -80,7 +80,7 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63383409 | URISPAS 200 mg, comprimé pelliculé (BOUCHARA-RECORDATI) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 63383409 | URISPAS 200 mg, comprimé pelliculé (BOUCHARA-RECORDATI) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

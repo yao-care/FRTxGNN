@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Regorafenib
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 657
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Regorafenib : nouvelle indication prédite, Liposarcome (niveau de preuve L5). Indication d'origine : Métastases d'une tumeur maligne du côlon"
 monitor_inn: "regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
+description: "Regorafenib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **8** 
+Niveau de preuve: **L1** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 </div>
 
-## Regorafenib : Du Cancer Colorectal Métastatique au Liposarcome
+## Regorafenib: Liposarcome (liposarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,12 +45,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome**, 
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Métastases d'une tumeur maligne du côlon (indications issues du graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Liposarcome |
-| Score de Prédiction TxGNN | 99,76 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Liposarcome (liposarcoma) |
+| Score de Prédiction TxGNN | 0.9976 |
 | Niveau de Preuve | L1 (selon l'évaluation compilée ; voir réserve ci-dessous) |
-| Statut de Marché en France | Uniquement annulée |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails (avec réserves importantes, voir Conclusion) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,7 +85,7 @@ Le lien avec l'indication d'origine est plausible : regorafenib est déjà utili
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69548508 | STIVARGA 40 mg, comprimé pelliculé (BAYER AG, Allemagne) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 69548508 | STIVARGA 40 mg, comprimé pelliculé (BAYER AG, Allemagne) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ## Cytotoxicité
 
@@ -122,8 +122,8 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Clarification du statut réglementaire en France (AMM annulée)
 
 **Autres indications prédites (à titre d'information) :**
-- **Carcinome rénal à cellules claires** (score 99,47 %, niveau L2, « Research Question ») : phase 2 de regorafenib en première ligne (PMID 22959186) et étude de repositionnement préclinique (2026), mais le traitement de référence a évolué vers d'autres ITK et immunothérapies.
-- **Autres entités** (liposarcome myxoïde ovarien, carcinomes rénaux non classés, associés à des translocations Xp11.2/TFE3 ou au neuroblastome, carcinome rénal de l'enfant, sarcome de la vulve) : niveau L5, aucune donnée spécifique, **Hold**. Les scores élevés proviennent vraisemblablement de la proximité dans le graphe avec les nœuds parents.
+- **Carcinome rénal à cellules claires** (score 0,9947, niveau L2, « Research Question ») : phase 2 de regorafenib en première ligne (PMID 22959186) et étude de repositionnement préclinique (2026), mais le traitement de référence a évolué vers d'autres ITK et immunothérapies.
+- **Autres entités** (liposarcome myxoïde ovarien, carcinomes rénaux non classés, associés à des translocations Xp11.2/TFE3 ou au neuroblastome, carcinome rénal de l'enfant, sarcome de la vulve) : niveau L5, aucune donnée spécifique, **Hold**. Les scores élevés proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

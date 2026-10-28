@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Tezacaftor : De la Mucoviscidose au VIH (maladie infectieuse)
+## Tezacaftor : De la Mucoviscidose à l'infection par le VIH
 {: .text-alpha }
 
 ## Resume en Une Phrase
@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 |------|------|
 | Indication Originale | Mucoviscidose (fibrose kystique) |
 | Nouvelle Indication Predite | Infection par le VIH |
-| Score de Prediction TxGNN | 99,24 % |
+| Score de Prediction TxGNN | 0,9924 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 6 (toutes annulées) |
+| Statut de Marche en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -59,9 +59,9 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien mécanistique direct avec la physiopathologie du VIH ne peut être établi à partir des données fournies. Une hypothèse, par exemple une modulation du transport de protéines membranaires ou de facteurs de la cellule hôte, resterait purement spéculative et nécessiterait une validation préclinique.
 
-Le score TxGNN (0,992) provient d'une prédiction fondée sur un graphe de connaissances. En l'absence de preuves cliniques ou bibliographiques, il ne doit pas être interprété comme un signal d'efficacité.
+Le score TxGNN (0,9924) provient d'une prédiction du modèle TxGNN (apprentissage profond). En l'absence de preuves cliniques ou bibliographiques, il ne doit pas être interprété comme un signal d'efficacité.
 
-À titre indicatif, deux autres indications prédites présentent les mêmes limites (niveau L5, aucune preuve, décision Hold) : la **lèpre** (score 99,14 %) et les **néoplasies endocriniennes multiples** (score 99,06 %).
+À titre indicatif, deux autres indications prédites présentent les mêmes limites (niveau L5, aucune preuve, décision Hold) : la **lèpre** (score 0,9914) et les **néoplasies endocriniennes multiples** (score 0,9906).
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +73,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marche en France
 
-Toutes les autorisations ci-dessous sont au statut « annulé ».
+Les 6 autorisations ci-dessous sont au statut « valide ».
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|

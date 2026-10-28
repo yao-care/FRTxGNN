@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methoxsalen
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 488
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Methoxsalen : nouvelle indication prédite, Réticulose pagétoïde localisée (niveau de preuve L4). Indication d'origine : Lymphome cutané primitif à cellules T (non hodgkinien)"
 monitor_inn: "methoxsalen"
-predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "follicular lymphoma, susceptibility to, 1", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
+predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
 ---
 
 # Methoxsalen
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Cette indication appartient au même spectre que l'indication d'origine : il s'a
 |------|------|
 | Indication Originale | Lymphome cutané primitif à cellules T (non hodgkinien) ; vitiligo |
 | Nouvelle Indication Prédite | Réticulose pagétoïde localisée |
-| Score de Prédiction TxGNN | 99,97 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Score de Prédiction TxGNN | 0,9997 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ---
@@ -78,7 +78,6 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement pour la réticulose pagétoïde localisée.
 
-À titre indicatif, pour la deuxième prédiction (lymphome cutané à cellules T indolent, score 99,91 %), une seule publication a été identifiée :
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
@@ -90,11 +89,11 @@ Aucune littérature associée disponible actuellement pour la réticulose pagét
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 67527650 | MELADININE 0,75 POUR CENT, solution pour application locale | Solution pour application | Non renseignée | Annulée |
-| 60914559 | MELADININE 0,1 POUR CENT, solution pour application locale | Solution pour application | Non renseignée | Annulée |
-| 65406290 | MÉTHOXSALÈNE MACOPHARMA 20 µg/mL, solution pour la modification de la fraction sanguine | Solution | Non renseignée | Annulée |
-| 63866137 | UVADEX 20 µg/mL, solution pour la modification de la fraction sanguine | Solution | Non renseignée | Annulée |
-| 69898864 | MELADININE 10 mg, comprimé | Comprimé | Non renseignée | Annulée |
+| 67527650 | MELADININE 0,75 POUR CENT, solution pour application locale | Solution pour application | Non renseignée | Active |
+| 60914559 | MELADININE 0,1 POUR CENT, solution pour application locale | Solution pour application | Non renseignée | Active |
+| 65406290 | MÉTHOXSALÈNE MACOPHARMA 20 µg/mL, solution pour la modification de la fraction sanguine | Solution | Non renseignée | Active |
+| 63866137 | UVADEX 20 µg/mL, solution pour la modification de la fraction sanguine | Solution | Non renseignée | Active |
+| 69898864 | MELADININE 10 mg, comprimé | Comprimé | Non renseignée | Active |
 
 ---
 
@@ -125,7 +124,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est biologiquement plausible, car la maladie est une variante du lymphome cutané à cellules T déjà visé par le méthoxsalène. Elle repose toutefois uniquement sur le modèle (niveau L4), sans essai ni publication spécifique, et toutes les AMM françaises sont annulées. Les autres prédictions (lymphomes B, MALT, de Burkitt, lésion bénigne vulvaire) ne sont pas soutenues mécanistiquement, notamment du fait de l'impossibilité d'activer le médicament par UVA dans les tissus profonds.
+- La prédiction est biologiquement plausible, car la maladie est une variante du lymphome cutané à cellules T déjà visé par le méthoxsalène. Elle repose toutefois uniquement sur le modèle (niveau L4), sans essai ni publication spécifique, alors que le médicament est commercialisé en France (5 AMM valides sur 5). Les autres prédictions (lymphomes B, MALT, de Burkitt, lésion bénigne vulvaire) ne sont pas soutenues mécanistiquement, notamment du fait de l'impossibilité d'activer le médicament par UVA dans les tissus profonds.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Une recherche bibliographique ciblée sur la réticulose pagétoïde localisée et le PUVA (séries de cas, revues)

@@ -50,13 +50,13 @@ Les données compilées pour ce rapport ne contiennent que **1 publication** ass
 |------|------|
 | Indication Originale | Mastocytose systémique, tumeur stromale gastro-intestinale, leucémie myéloïde chronique BCR-ABL1 positive (autres indications : dermatofibrosarcome protubérant, syndrome hyperéosinophilique) |
 | Nouvelle Indication Prédite | Fibrosarcome cardiaque (heart fibrosarcoma) |
-| Score de Prédiction TxGNN | 99,94 % |
+| Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 (prédiction du modèle, sans étude directe ; le classement automatique indique L4) |
-| Statut de Marché en France | AMM annulées uniquement |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
-*Remarque : le texte des indications approuvées n'est pas renseigné dans les AMM françaises ; l'indication originale provient du graphe de connaissances.*
+*Remarque : le texte des indications approuvées n'est pas renseigné dans les AMM françaises ; les scores de prédiction proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.*
 
 ---
 
@@ -88,8 +88,8 @@ Aucun essai clinique associé n'est enregistré actuellement pour le fibrosarcom
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63485353 | GLIVEC 400 mg, comprimé pelliculé (statut : annulée) | Comprimé pelliculé | Non renseignée |
-| 64936439 | GLIVEC 100 mg, comprimé pelliculé (statut : annulée) | Comprimé pelliculé | Non renseignée |
+| 63485353 | GLIVEC 400 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
+| 64936439 | GLIVEC 100 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
 
 ---
 

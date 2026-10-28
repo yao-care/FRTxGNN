@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pheniramine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 594
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pheniramine : nouvelle indication prédite, Urticaire allergique (niveau de preuve L4). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, urticaire…"
 monitor_inn: "pheniramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Pheniramine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Pheniramine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Phéniramine : Du traitement des rhinites et états grippaux à l'urticaire allergique
+## Pheniramine: Nasal cavity disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La phéniramine est un antihistaminique H1 de première génération, initialement utilisé dans la rhinite allergique, la rhinite vasomotrice, la pharyngite, le rhume et l'urticaire.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**urticaire allergique**, mais **aucun essai clinique** n'est enregistré et les **4 publications** retrouvées (3 rapports de cas et 1 revue ancienne) ne fournissent pas de preuve d'efficacité.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Rhinite allergique, rhinite vasomotrice, pharyngite, rhume, urticaire, angioedème (d'après le graphe de connaissances ; aucun texte d'indication AMM disponible) |
-| Nouvelle Indication Prédite | Urticaire allergique |
-| Score de Prédiction TxGNN | 99,67 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 9 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Nasal cavity disease |
+| Score de Prédiction TxGNN | 0.9928 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -80,13 +79,13 @@ Ces publications ne documentent pas l'efficacité de la phéniramine dans l'urti
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60759678 | Paracétamol/Vitamine C/Phéniramine Viatris Conseil sans sucre 500 mg/200 mg/25 mg | Poudre pour solution buvable | Non précisée (AMM annulée) |
-| 69329731 | Fervex Adultes | Granulés pour solution buvable | Non précisée (AMM annulée) |
-| 69738404 | Fervex Adultes Framboise | Granulés pour solution buvable | Non précisée (AMM annulée) |
-| 66238760 | Rhinofébral sans sucre | Poudre pour solution buvable | Non précisée (AMM annulée) |
-| 61697350 | Humexlib État Grippal sans sucre | Poudre pour solution buvable | Non précisée (AMM annulée) |
+| 60759678 | Paracétamol/Vitamine C/Phéniramine Viatris Conseil sans sucre 500 mg/200 mg/25 mg | Poudre pour solution buvable | Non précisée (AMM active) |
+| 69329731 | Fervex Adultes | Granulés pour solution buvable | Non précisée (AMM active) |
+| 69738404 | Fervex Adultes Framboise | Granulés pour solution buvable | Non précisée (AMM active) |
+| 66238760 | Rhinofébral sans sucre | Poudre pour solution buvable | Non précisée (AMM active) |
+| 61697350 | Humexlib État Grippal sans sucre | Poudre pour solution buvable | Non précisée (AMM active) |
 
-Au total, 9 AMM sont recensées et toutes sont annulées. Il s'agit exclusivement d'associations fixes (paracétamol, vitamine C, phéniramine) destinées à l'état grippal. Aucune AMM en monothérapie n'est valide.
+Au total, 9 AMM sont recensées et toutes sont annulées. Il s'agit exclusivement d'associations fixes (paracétamol, vitamine C, phéniramine) destinées à l'état grippal.
 
 ## Considérations de Sécurité
 
@@ -102,7 +101,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - La prédiction est essentiellement redondante avec des indications existantes (urticaire, angioedème) et n'est étayée par aucun essai clinique ni publication d'efficacité (niveau L4 ; L5 pour les deux autres prédictions).
-- Toutes les AMM françaises sont annulées et les données de sécurité officielles sont manquantes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (analyse du PDF).

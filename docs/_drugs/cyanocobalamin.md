@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie méta
 |------|------|
 | Indication Originale | Carence en vitamine B12 et anémies carentielles (anémie pernicieuse, anémie par carence en folates, anémie ferriprive, etc.) |
 | Nouvelle Indication Prédite | Maladie métabolique de la biotine |
-| Score de Prédiction TxGNN | 99,60 % |
+| Score de Prédiction TxGNN | 0,9960 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | ✗ Toutes les AMM sont annulées |
-| Nombre d'AMM | 10 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Un lien biochimique est envisageable : la biotine est le cofacteur de carboxylases, dont la propionyl-CoA carboxylase, qui agit en amont du méthylmalonyl-CoA dans le métabolisme du propionate. Les deux vitamines interviennent donc dans des voies voisines (acides organiques, propionate).
 
-Ce lien reste toutefois **spéculatif** et aucune donnée fournie ne le confirme. Le score élevé peut refléter la proximité générale des vitamines et cofacteurs dans le graphe de connaissances plutôt qu'une relation thérapeutique réelle. Les maladies métaboliques de la biotine (déficit en biotinidase ou en holocarboxylase synthétase) sont traitées par supplémentation en biotine, et non par la vitamine B12.
+Ce lien reste toutefois **spéculatif** et aucune donnée fournie ne le confirme. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou une relation thérapeutique réelle. Les maladies métaboliques de la biotine (déficit en biotinidase ou en holocarboxylase synthétase) sont traitées par supplémentation en biotine, et non par la vitamine B12.
 
 ## Preuves d'Essais Cliniques
 
@@ -75,13 +75,13 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65647512 | VITAMINE B12 GERDA 1000 µg/4 ml, solution injectable (IM) et buvable | Solution injectable et buvable | Non précisée (AMM annulée) |
-| 61247741 | VITAMINE B12 GERDA 250 microgrammes, comprimé sécable | Comprimé sécable | Non précisée (AMM annulée) |
-| 60941894 | VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.) | Solution injectable | Non précisée (AMM annulée) |
-| 66166745 | VITAMINE B12 CHAUVIN 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM annulée) |
-| 64452203 | VITAMINE B12 HORUS PHARMA 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM annulée) |
+| 65647512 | VITAMINE B12 GERDA 1000 µg/4 ml, solution injectable (IM) et buvable | Solution injectable et buvable | Non précisée (AMM active) |
+| 61247741 | VITAMINE B12 GERDA 250 microgrammes, comprimé sécable | Comprimé sécable | Non précisée (AMM active) |
+| 60941894 | VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.) | Solution injectable | Non précisée (AMM active) |
+| 66166745 | VITAMINE B12 CHAUVIN 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
+| 64452203 | VITAMINE B12 HORUS PHARMA 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
 
-Seules 5 des 10 AMM sont listées. Les 10 AMM sont annulées, et aucune AMM valide n'est actuellement recensée.
+Seules 5 des 10 AMM sont listées. Les 10 AMM sont valides.
 
 ## Considérations de Sécurité
 

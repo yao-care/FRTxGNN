@@ -4,17 +4,17 @@ title: Prednisolone
 parent: Preuves élevées (L1-L2)
 nav_order: 625
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Prednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L2). Indication d'origine : Maladies auto-immunes"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+description: "Prednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L2** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Prednisolone : Des maladies auto-immunes à la pelade (alopecia areata)
+## Prednisolone: Pelade (alopecia areata)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ Aucun essai clinique n'est enregistré, mais **20 publications** soutiennent act
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladies auto-immunes (selon le graphe de connaissances ; le texte d'indication des AMM françaises n'est pas renseigné) |
+| Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Pelade (alopecia areata) |
-| Score de Prédiction TxGNN | 99,99 % |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Annulé uniquement (aucune AMM valide) |
-| Nombre d'AMM | 5 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,11 +85,11 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62743861 | PREDNISOLONE ZENTIVA 20 mg | Comprimé effervescent sécable | Non renseignée (AMM annulée) |
-| 69864424 | PREDNISOLONE SANDOZ 20 mg | Comprimé effervescent sécable | Non renseignée (AMM annulée) |
-| 67537107 | PREDNISOLONE VIATRIS 20 mg | Comprimé effervescent sécable | Non renseignée (AMM annulée) |
-| 65569519 | DELIPROCT | Suppositoire | Non renseignée (AMM annulée) |
-| 69345098 | DERINOX | Solution pour pulvérisation nasale | Non renseignée (AMM annulée) |
+| 62743861 | PREDNISOLONE ZENTIVA 20 mg | Comprimé effervescent sécable | Non renseignée (AMM active) |
+| 69864424 | PREDNISOLONE SANDOZ 20 mg | Comprimé effervescent sécable | Non renseignée (AMM active) |
+| 67537107 | PREDNISOLONE VIATRIS 20 mg | Comprimé effervescent sécable | Non renseignée (AMM active) |
+| 65569519 | DELIPROCT | Suppositoire | Non renseignée (AMM active) |
+| 69345098 | DERINOX | Solution pour pulvérisation nasale | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -112,7 +112,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle (ANSM) pour les mises en garde et contre-indications, indispensable avant tout dépistage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
-- Clarification du statut réglementaire : toutes les AMM françaises sont annulées, donc vérifier la disponibilité de présentations valides
+- Clarification du statut réglementaire : le médicament est commercialisé en France, avec 5 AMM valides sur 5, donc vérifier la disponibilité de présentations valides
 - Compatibilité des voies d'administration (orale, topique) pour l'indication visée
 - Protocole de surveillance de sécurité (tension, glycémie, croissance chez l'enfant) et stratégie d'épargne cortisonique
 
@@ -120,11 +120,9 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 | Maladie prédite | Score TxGNN | Niveau de preuve | Recommandation |
 |------|------|------|------|
-| Syndrome néphrotique idiopathique corticosensible | 99,86 % | L1 | Proceed with Guardrails |
-| Mucinose folliculaire (alopecia mucinosa) | 99,99 % | L4 | Hold |
-| Folliculite décalvante de Quinquaud | 99,98 % | L4 | Hold |
-| Effluvium télogène | 99,98 % | L5 | Hold |
-| Autres prédictions (hypotrichose héréditaire, déficit en anticorps avec alopécie, syndrome alopécie-déficience intellectuelle-hypogonadisme, atrichie avec lésions papuleuses, prolapsus de la glande lacrymale) | 99,93 % à 99,98 % | L5 | Hold |
+| Mucinose folliculaire (alopecia mucinosa) | 0,9999 | L5 | Hold |
+| Folliculite décalvante de Quinquaud | 0,9998 | L5 | Hold |
+| Effluvium télogène | 0,9998 | L5 | Hold |
 
 Le syndrome néphrotique corticosensible présente le niveau de preuve le plus élevé (L1), mais la littérature fournie porte surtout sur les formes corticorésistantes. Cette indication mérite une évaluation distincte.
 ## Avertissement

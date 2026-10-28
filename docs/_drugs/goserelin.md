@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Goserelin
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 371
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Goserelin : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Endométriose"
 monitor_inn: "goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
+description: "Goserelin : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Goserelin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L2** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Goséréline : De l'Endométriose à l'Aménorrhée
+## Goserelin: Aménorrhée (amenorrhea (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Les données compilées pour ce rapport comptent **1 essai clinique** (de pertin
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Endométriose (source : graphe de connaissances ; le texte d'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Aménorrhée |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L2 (selon l'évaluation des données ; preuve directe limitée, voir ci-dessous) |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -97,8 +97,8 @@ Il faut en revanche noter que la goséréline ne traiterait pas les aménorrhée
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66669173 | ZOLADEX 10,8 mg, implant en seringue préremplie pour voie sous-cutanée (AstraZeneca) | Implant | Non renseignée (AMM annulée) |
-| 67037162 | ZOLADEX 3,6 mg, implant en seringue préremplie pour voie sous-cutanée (AstraZeneca) | Implant | Non renseignée (AMM annulée) |
+| 66669173 | ZOLADEX 10,8 mg, implant en seringue préremplie pour voie sous-cutanée (AstraZeneca) | Implant | Non renseignée (AMM active) |
+| 67037162 | ZOLADEX 3,6 mg, implant en seringue préremplie pour voie sous-cutanée (AstraZeneca) | Implant | Non renseignée (AMM active) |
 
 ---
 
@@ -125,7 +125,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas ét�
 - Définir précisément l'usage visé (suppression menstruelle induite plutôt que traitement de l'aménorrhée) et chercher des essais directs sur ce point.
 - Clarifier le statut réglementaire en France (AMM annulées).
 
-**Remarque sur les autres prédictions :** l'atrophie rénale congénitale (hypoplasie rénale, unilatérale et bilatérale) a des scores TxGNN élevés (environ 99 %), mais sans essai ni publication, sans lien mécanistique plausible (niveau L5, Hold). Ces prédictions sont probablement des artefacts du réseau de connaissances.
+**Remarque sur les autres prédictions :** l'atrophie rénale congénitale (hypoplasie rénale, unilatérale et bilatérale) a des scores TxGNN élevés (0.9906), mais sans essai ni publication, sans lien mécanistique plausible (niveau L5, Hold). Ces scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies voisines, et non des preuves biologiques.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

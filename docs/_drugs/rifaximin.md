@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rifaximin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 667
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Rifaximin : nouvelle indication prédite, Candidose buccale (niveau de preuve L4). Indication d'origine : Encéphalopathie hépatique…"
@@ -14,7 +14,7 @@ predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteorad
 # Rifaximin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **candidose buc
 |------|------|
 | Indication Originale | Encéphalopathie hépatique, coma hépatique (texte d'indication de l'AMM non disponible) |
 | Nouvelle Indication Prédite | Candidose buccale |
-| Score de Prédiction TxGNN | 99,75 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 |
+| Score de Prédiction TxGNN | 0,9975 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -69,11 +69,11 @@ Les autres prédictions du modèle ne sont pas mieux étayées :
 
 | Maladie prédite | Score TxGNN | Niveau de preuve | Remarque |
 |------|------|------|------|
-| Fistule commissurale des lèvres | 99,64 % | L5 | Aucune étude ; pas de lien mécanistique identifiable |
-| Ostéoradionécrose de la mandibule | 99,64 % | L5 | Aucune étude ; l'absorption systémique minime rend l'atteinte de l'os irradié improbable |
-| Leucoedème buccal | 99,64 % | L5 | Aucune étude ; variante bénigne de la muqueuse, sans besoin thérapeutique |
-| Syndrome de la bouche brûlante | 99,64 % | L5 | Aucune étude ; mécanismes plutôt neuropathiques et hormonaux |
-| Candidose (générale) | 99,15 % | L4 | Deux études observationnelles indirectes, suggérant un risque et non un bénéfice |
+| Fistule commissurale des lèvres | 0,9964 | L5 | Aucune étude ; pas de lien mécanistique identifiable |
+| Ostéoradionécrose de la mandibule | 0,9964 | L5 | Aucune étude ; l'absorption systémique minime rend l'atteinte de l'os irradié improbable |
+| Leucoedème buccal | 0,9964 | L5 | Aucune étude ; variante bénigne de la muqueuse, sans besoin thérapeutique |
+| Syndrome de la bouche brûlante | 0,9964 | L5 | Aucune étude ; mécanismes plutôt neuropathiques et hormonaux |
+| Candidose (générale) | 0,9915 | L5 | Deux études observationnelles indirectes, suggérant un risque et non un bénéfice |
 
 ---
 
@@ -97,7 +97,7 @@ Pour la candidose en général, une étude cas-témoins supplémentaire ([323607
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63467355 | TIXTAR 550 mg, comprimé pelliculé (ALFASIGMA FRANCE) | Comprimé pelliculé | Non renseignée (AMM annulée) |
+| 63467355 | TIXTAR 550 mg, comprimé pelliculé (ALFASIGMA FRANCE) | Comprimé pelliculé | Non renseignée (AMM active) |
 
 ---
 
@@ -118,7 +118,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,75 %), mais il n'est soutenu par aucun essai clinique, et la seule publication directement liée évoque un risque d'infections à *Candida* plutôt qu'un bénéfice. Le niveau de preuve est L4 et le mécanisme antifongique est absent. Les autres indications prédites relèvent du niveau L5 (prédiction du modèle uniquement).
+- Le score TxGNN est très élevé (0,9975), mais il n'est soutenu par aucun essai clinique, et la seule publication directement liée évoque un risque d'infections à *Candida* plutôt qu'un bénéfice. Le niveau de preuve est L4 et le mécanisme antifongique est absent. Les autres indications prédites relèvent du niveau L5 (prédiction du modèle uniquement).
 - L'unique AMM française est annulée, et les données de sécurité de la notice sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

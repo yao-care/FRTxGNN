@@ -48,9 +48,9 @@ La carbocistéine est un mucolytique utilisé pour fluidifier les sécrétions b
 |------|------|
 | Indication Originale | Non renseignée dans les données compilées (les textes d'indication des AMM sont vides) |
 | Nouvelle Indication Prédite | Goutte |
-| Score de Prédiction TxGNN | 99,67 % |
+| Score de Prédiction TxGNN | 0,9967 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -106,7 +106,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score TxGNN (niveau L5), sans essai clinique, sans publication, sans mécanisme d'action documenté, et avec un lien biologique avec la goutte purement hypothétique. Toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le score TxGNN (modèle d'apprentissage profond, niveau L5), sans essai clinique, sans publication, sans mécanisme d'action documenté, et avec un lien biologique avec la goutte purement hypothétique. 18 AMM françaises sont valides et le médicament est commercialisé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer le mécanisme d'action de la carbocistéine (DrugBank)

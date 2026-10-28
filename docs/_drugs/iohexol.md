@@ -50,10 +50,10 @@ Une seconde prédiction, l'**anxiété**, est également signalée, avec 4 publi
 |------|------|
 | Indication Originale | Non renseignée dans les données d'AMM (produit de contraste radiologique iodé) |
 | Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 99,87 % |
+| Score de Prédiction TxGNN | 0,9987 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ---
@@ -62,9 +62,9 @@ Une seconde prédiction, l'**anxiété**, est également signalée, avec 4 publi
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, iohexol est un produit de contraste iodé non ionique, pharmacologiquement inerte et non métabolisé. Son rôle est d'opacifier les structures lors d'examens d'imagerie, et non d'agir sur une cible thérapeutique.
 
-**Il n'existe pas de lien mécanistique identifié** avec l'insomnie. Iohexol n'a pas d'activité connue sur les cibles de régulation du sommeil (récepteurs GABA, orexine, histamine, mélatonine). Le score TxGNN très élevé (99,87 %) est une prédiction issue d'un graphe de connaissances. Il reflète probablement des artefacts de réseau, comme le grand nombre de liens d'interactions médicamenteuses (100), plutôt qu'une plausibilité biologique.
+**Il n'existe pas de lien mécanistique identifié** avec l'insomnie. Iohexol n'a pas d'activité connue sur les cibles de régulation du sommeil (récepteurs GABA, orexine, histamine, mélatonine). Le score très élevé (0,9987) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, comme le grand nombre de liens d'interactions médicamenteuses (100), et non une preuve biologique.
 
-Pour l'anxiété (score de 99,25 %), la conclusion est la même : aucun effet anxiolytique pharmacologique n'est connu, et les publications retrouvées ne mentionnent l'anxiété que de façon incidentale.
+Pour l'anxiété (score de 0,9925), la conclusion est la même : aucun effet anxiolytique pharmacologique n'est connu, et les publications retrouvées ne mentionnent l'anxiété que de façon incidentale.
 
 ---
 
@@ -93,10 +93,10 @@ Aucune littérature associée à l'insomnie disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 65106581 | OMNIPAQUE 300 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
-| 63688752 | OMNIPAQUE 180 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
-| 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
-| 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
+| 65106581 | OMNIPAQUE 300 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
+| 63688752 | OMNIPAQUE 180 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
+| 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
+| 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
 
 Les quatre AMM sont détenues par GE Healthcare et sont toutes annulées.
 
@@ -131,7 +131,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupération et analyse de la notice de l'ANSM (mises en garde et contre-indications)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Justification biologique de tout lien avec le sommeil ou l'anxiété, avant d'envisager des études précliniques
-- Vérification que le score ne résulte pas d'un artefact du graphe (nombre élevé d'interactions médicamenteuses)
+- Vérification que le score du modèle TxGNN (deep learning) ne reflète pas uniquement des similarités apprises entre maladies apparentées (nombre élevé d'interactions médicamenteuses), sans preuve biologique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

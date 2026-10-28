@@ -6,9 +6,9 @@ nav_order: 317
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Febuxostat : nouvelle indication prédite, Hypouricémie rénale (niveau de preuve L4). Indication d'origine : Hyperuricémie"
 monitor_inn: "febuxostat"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
+description: "Febuxostat : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Febuxostat
@@ -33,14 +33,14 @@ Niveau de preuve: **L4** | Indications prédites: **3**
 
 </div>
 
-## Fébuxostat : De l'hyperuricémie à l'hypouricémie rénale
+## Febuxostat: Hypouricémie rénale (hypouricemia, renal)
 {: .text-alpha }
 
 ## Resume en Une Phrase
 
 Le fébuxostat est un inhibiteur sélectif non purique de la xanthine oxydase, initialement utilisé pour traiter l'hyperuricémie.
 Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypouricémie rénale**, mais cette prédiction repose sur **1 essai clinique** (peu pertinent, grade C) et **2 publications** (revues/cas, sans données directes d'efficacité).
-Cette prédiction est très probablement un artefact du graphe de connaissances et non un véritable lien thérapeutique.
+Ce score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises entre maladies apparentées, et non une preuve biologique.
 
 ---
 
@@ -48,11 +48,11 @@ Cette prédiction est très probablement un artefact du graphe de connaissances 
 
 | Element | Contenu |
 |------|------|
-| Indication Originale | Hyperuricémie (source : graphe de connaissances ; aucun texte d'indication n'est renseigné dans les AMM) |
-| Nouvelle Indication Predite | Hypouricémie rénale |
-| Score de Prediction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Predite | Hypouricémie rénale (hypouricemia, renal) |
+| Score de Prediction TxGNN | 0.9999 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Toutes les AMM sont annulées |
+| Statut de Marche en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Decision Recommandee | Hold |
 
@@ -62,7 +62,7 @@ Cette prédiction est très probablement un artefact du graphe de connaissances 
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le fébuxostat est un inhibiteur non purique sélectif de la xanthine oxydase : il réduit la production d'acide urique et abaisse l'uricémie. Son efficacité dans l'hyperuricémie est établie.
 
-L'hypouricémie rénale est cependant une situation inverse : l'uricémie est déjà basse en raison d'un défaut de réabsorption rénale de l'urate (perte de fonction de SLC22A12/URAT1 ou de SLC2A9). Abaisser davantage l'acide urique n'a pas de justification thérapeutique claire pour la maladie sous-jacente. Le score élevé du modèle reflète probablement l'association médicament–acide urique–maladie dans le graphe de connaissances plutôt qu'un lien thérapeutique réel.
+L'hypouricémie rénale est cependant une situation inverse : l'uricémie est déjà basse en raison d'un défaut de réabsorption rénale de l'urate (perte de fonction de SLC22A12/URAT1 ou de SLC2A9). Abaisser davantage l'acide urique n'a pas de justification thérapeutique claire pour la maladie sous-jacente. Le score élevé du modèle TxGNN (apprentissage profond) peut refléter des similarités apprises entre maladies apparentées, et non une preuve biologique.
 
 Une publication japonaise (2023) évoque un usage possible d'inhibiteurs de la xanthine oxydoréductase pour prévenir l'insuffisance rénale aiguë d'effort, complication de l'hypouricémie rénale, chez un footballeur de 16 ans. Il s'agit d'une piste spéculative, indirecte et mécanistiquement différente. Un abaissement supplémentaire de l'urate pourrait en outre aggraver le phénotype.
 
@@ -118,7 +118,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à la prédiction du modèle (L4) : un seul essai peu pertinent et deux publications sans données directes d'efficacité. Le rationnel mécanistique est contradictoire, car le fébuxostat abaisse l'acide urique alors que la maladie ciblée est déjà une hypouricémie. Toutes les AMM françaises sont annulées.
+- Les preuves se limitent à la prédiction du modèle (L4) : un seul essai peu pertinent et deux publications sans données directes d'efficacité. Le rationnel mécanistique est contradictoire, car le fébuxostat abaisse l'acide urique alors que la maladie ciblée est déjà une hypouricémie. Le médicament est commercialisé en France, avec 20 AMM valides.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice (ANSM)

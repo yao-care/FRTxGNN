@@ -6,9 +6,9 @@ nav_order: 561
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Orlistat : nouvelle indication prédite, Hypervitaminose (niveau de preuve L5). Indication d'origine : Obésité (obesity disorder), obésité monogénique"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
+description: "Orlistat : nouvelle indication prédite, Hypervitaminose (hypervitaminosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Orlistat
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Orlistat : De l'Obésité à l'Hypervitaminose
+## Orlistat: Hypervitaminose (hypervitaminosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,12 +47,12 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypervitaminose*
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Obésité (obesity disorder), obésité monogénique (le texte d'indication des AMM n'est pas renseigné ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Hypervitaminose |
-| Score de Prédiction TxGNN | 99,42 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Hypervitaminose (hypervitaminosis) |
+| Score de Prédiction TxGNN | 0.9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actuellement, les données détaillées sur le mécanisme d'action issues des ba
 
 Les vitamines liposolubles (A, D, E, K) sont absorbées avec les graisses alimentaires. En théorie, en diminuant cette absorption, l'orlistat pourrait réduire les taux de ces vitamines en cas d'hypervitaminose due à un excès d'apport. Ce lien est plausible, mais **spéculatif**.
 
-Cette propriété est aussi un effet indésirable connu de l'orlistat (carence en vitamines liposolubles). Toute utilisation dans cette optique exigerait donc une surveillance étroite. Le score élevé de TxGNN (0,994) reste une prédiction du modèle, sans appui clinique ni bibliographique, et le mécanisme n'a pas pu être recoupé avec des données curatées.
+Cette propriété est aussi un effet indésirable connu de l'orlistat (carence en vitamines liposolubles). Toute utilisation dans cette optique exigerait donc une surveillance étroite. Le score élevé de TxGNN (0,9942) reste une prédiction du modèle, sans appui clinique ni bibliographique, et le mécanisme n'a pas pu être recoupé avec des données curatées.
 
 ---
 
@@ -83,8 +83,8 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
 |---------|------|------|-----------|------|
-| 65715632 | XENICAL 120 mg, gélule | Gélule | Non renseignée | Annulée |
-| 65734134 | ORLISTAT EG 120 mg, gélule | Gélule | Non renseignée | Annulée |
+| 65715632 | XENICAL 120 mg, gélule | Gélule | Non renseignée | Active |
+| 65734134 | ORLISTAT EG 120 mg, gélule | Gélule | Non renseignée | Active |
 
 ---
 
@@ -104,14 +104,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme proposé est spéculatif et recoupe un effet indésirable connu de l'orlistat (carence en vitamines liposolubles). De plus, toutes les AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme proposé est spéculatif et recoupe un effet indésirable connu de l'orlistat (carence en vitamines liposolubles). De plus, le médicament est commercialisé en France, avec 2 AMM valides sur 2.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), car cette lacune bloque l'étape de criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Mener une revue de la littérature et des registres d'essais sur l'orlistat et l'hypervitaminose
 - Évaluer la pertinence clinique : type de vitamine concerné, alternatives existantes (arrêt de la supplémentation, traitements spécifiques) et rapport bénéfice/risque
-- Vérifier la compatibilité de la voie d'administration et la situation réglementaire, puisqu'aucune AMM n'est actuellement valide
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

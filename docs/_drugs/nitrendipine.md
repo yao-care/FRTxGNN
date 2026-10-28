@@ -4,17 +4,17 @@ title: Nitrendipine
 parent: Preuves modérées (L3-L4)
 nav_order: 541
 evidence_level: L3
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nitrendipine : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L3). Indication d'origine : Non précisée dans les AMM (texte d'indication vide)"
 monitor_inn: "NITRENDIPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
+description: "Nitrendipine : nouvelle indication prédite, Migraine disorder (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nitrendipine
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **4** 
+Niveau de preuve: **L3** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **4**
 
 </div>
 
-## Nitrendipine : De l'hypertension artérielle à l'hypertension pulmonaire
+## Nitrendipine: Migraine disorder
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,15 +45,15 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertension p
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les AMM (texte d'indication vide) ; usage connu : hypertension artérielle légère à modérée |
-| Nouvelle Indication Prédite | Hypertension pulmonaire |
-| Score de Prédiction TxGNN | 99,14 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Migraine disorder |
+| Score de Prédiction TxGNN | 0.9942 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
-Remarque : les deux premières prédictions du modèle (migraine, score 99,42 % ; migraine avec aura du tronc cérébral, 99,29 %) n'ont aucune preuve spécifique à la nitrendipine (niveau L5). L'hypertension pulmonaire (L3) et l'angor de Prinzmetal (99,10 %, L3) sont les mieux étayées.
+Remarque : les deux premières prédictions du modèle (migraine, score 0,9942 ; migraine avec aura du tronc cérébral, 0,9929) n'ont aucune preuve spécifique à la nitrendipine (niveau L5). L'hypertension pulmonaire (L3) et l'angor de Prinzmetal (99,10 %, L3) sont les mieux étayées.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -88,8 +88,8 @@ Ces données sont cependant anciennes (1986-1994), de petite taille et non rando
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68126062 | NITRENDIPINE VIATRIS 20 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 67688899 | NITRENDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM annulée) |
+| 68126062 | NITRENDIPINE VIATRIS 20 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 67688899 | NITRENDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 

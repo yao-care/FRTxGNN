@@ -4,17 +4,17 @@ title: Iodixanol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Iodixanol : nouvelle indication prédite, Susceptibilité à l'arthrose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (produit de contraste iodé)"
+indication_count: 2
 monitor_inn: "IODIXANOL"
-predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
+last_modified_at: 2026-10-23
+description: "Iodixanol : nouvelle indication prédite, Arthrose (niveau de preuve L5). Indication d'origine : Non renseignée dans les textes d'AMM compilés"
 ---
 
 # Iodixanol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,101 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Iodixanol : D'un produit de contraste radiologique à la susceptibilité à l'arthrose
+## Iodixanol : D'un produit de contraste radiographique à l'arthrose (prédiction du modèle)
 {: .text-alpha }
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Iodixanol est un produit de contraste iodé utilisé en imagerie radiologique (spécialité VISIPAQUE).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **susceptibilité à l'arthrose**, mais aucun essai clinique n'est enregistré et aucune publication ne soutient un effet thérapeutique : la prédiction repose uniquement sur le modèle.
+L'iodixanol est un produit de contraste iodé, non ionique et iso-osmolaire, utilisé en imagerie radiographique (spécialité VISIPAQUE).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais **aucun essai clinique** ne soutient cette piste et les 5 publications retrouvées décrivent uniquement un usage en imagerie, sans effet thérapeutique démontré.
 
-## Apercu Rapide
+---
 
-| Element | Contenu |
+## Aperçu Rapide
+
+| Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données compilées (produit de contraste iodé) |
-| Nouvelle Indication Predite | Susceptibilité à l'arthrose |
-| Score de Prediction TxGNN | 99,16 % |
+| Indication Originale | Non renseignée dans les textes d'AMM compilés |
+| Nouvelle Indication Prédite | Arthrose |
+| Score de Prédiction TxGNN | 0,9907 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Uniquement des AMM annulées |
-| Nombre d'AMM | 2 |
-| Decision Recommandee | Hold |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+---
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Iodixanol est un produit de contraste radiographique iodé : son rôle est de rendre opaques aux rayons X les structures où il est administré, et non d'agir sur une voie biologique de la maladie.
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-La prédiction est donc peu plausible sur le plan mécanistique. La « susceptibilité » à l'arthrose est un concept de risque génétique et non un état pathologique traitable, et iodixanol n'a aucune action pharmacologique connue sur ces déterminants. Le score élevé (99,16 %) est probablement un artefact du graphe de connaissances, qui associe le produit et la maladie parce qu'ils apparaissent ensemble dans la recherche en imagerie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'iodixanol est un produit de contraste iodé non ionique et iso-osmolaire, utilisé pour visualiser des structures en imagerie radiographique. Il n'a pas d'action connue modifiant l'évolution d'une maladie.
 
-Les deux autres prédictions les mieux classées sont l'**arthrose** (99,07 %) et la **polyarthrite rhumatoïde** (99,00 %). Elles ne sont pas non plus étayées par des preuves thérapeutiques (voir ci-dessous).
+La littérature retrouvée le montre uniquement comme outil d'imagerie : scanner du cartilage avec agents de contraste, modélisation du transport de solutés à travers l'interface os-cartilage, et vérification in vitro de sa compatibilité avec le plasma riche en plaquettes. Aucune de ces études n'évalue un effet thérapeutique sur l'arthrose.
+
+Le score élevé du modèle (0,9907) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un effet pharmacologique sur la maladie articulaire. La prédiction est donc peu étayée sur le plan mécanistique.
+
+Pour information, le modèle prédit aussi la **polyarthrite rhumatoïde** (score de 0,9900), sans lien mécanistique identifié et sans étude portant sur l'iodixanol : la seule publication retrouvée est un cas de désensibilisation à un autre produit de contraste (iohexol).
+
+---
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement.
+Aucun essai clinique associé n'est enregistré actuellement.
 
-## Preuves de la Litterature
+---
 
-Aucune publication n'est rattachée à la susceptibilité à l'arthrose. Les publications ci-dessous concernent la prédiction voisine « arthrose » et portent sur l'usage d'iodixanol comme agent d'imagerie, non comme traitement.
+## Preuves de la Littérature
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
+Aucune de ces publications n'évalue l'iodixanol comme traitement de l'arthrose : toutes concernent l'imagerie ou des modèles expérimentaux.
+
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Méthodologie d'imagerie | Annals of Biomedical Engineering | Imagerie de la fonction du cartilage par diffusion de nanoparticules en tomodensitométrie, avec modélisation par éléments finis |
-| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Modélisation computationnelle | Journal of Biomechanics | Transport de solutés neutres à travers l'interface os-cartilage, modèle par éléments finis |
-| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Méthodologie d'imagerie | Annals of Biomedical Engineering | Agent de contraste double en scanner à comptage de photons pour évaluer la santé du cartilage |
-| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Étude expérimentale | Journal of Biomechanics | Perméabilité de l'interface ostéochondrale mesurée avec iodixanol comme agent de contraste au scanner |
-| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | Étude in vitro | Journal of Experimental Orthopaedics | Les produits de contraste iodés n'altèrent pas la fonction du plasma riche en plaquettes à un stade précoce |
+| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Méthode d'imagerie/diagnostic | Annals of Biomedical Engineering | Imagerie de la fonction du cartilage par diffusion de nanoparticules en scanner, associée à une modélisation par éléments finis |
+| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Modèle computationnel | Journal of Biomechanics | Modélisation du transport de solutés neutres à travers l'interface os-cartilage (échantillons humains et équins) |
+| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Méthode d'imagerie/diagnostic | Annals of Biomedical Engineering | Agent de contraste double en scanner à comptage de photons pour évaluer la santé du cartilage articulaire |
+| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Modèle computationnel | Journal of Biomechanics | Utilisation de l'iodixanol comme agent de contraste diffusant pour étudier la perméabilité de l'interface ostéochondrale |
+| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | Étude in vitro | Journal of Experimental Orthopaedics | Les produits de contraste iodés n'altèrent pas la fonction du plasma riche en plaquettes à un stade précoce in vitro |
 
-Pour la polyarthrite rhumatoïde, la seule publication retrouvée ([36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/), 2022, *Cureus*) est un rapport de cas de désensibilisation à un autre produit de contraste (iohexol) et ne concerne pas un traitement par iodixanol.
+---
 
-## Informations de Marche en France
+## Informations de Marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60960777 | VISIPAQUE 270 mg d'I/mL, solution injectable (GE Healthcare) | Solution injectable | Non renseignée (AMM annulée) |
-| 60567418 | VISIPAQUE 320 mg d'I/mL, solution injectable (GE Healthcare) | Solution injectable | Non renseignée (AMM annulée) |
+| 60960777 | VISIPAQUE 270 mg d'I/mL, solution injectable | Solution injectable | Non renseignée |
+| 60567418 | VISIPAQUE 320 mg d'I/mL, solution injectable | Solution injectable | Non renseignée |
 
-## Considerations de Securite
+Les deux AMM (GE Healthcare) sont valides et concernent le médicament à substance unique.
 
-- **Interactions Medicamenteuses** : 100 interactions ont été recensées. Parmi les principales, de niveau **majeur** :
-  - metformine ;
-  - amphotéricine B (formes conventionnelle, complexe lipidique, sulfate de cholestéryle et liposomale) ;
-  - mésalazine, balsalazide, olsalazine et sulfasalazine ;
-  - vancomycine ;
-  - aminosides (kanamycine, néomycine, streptomycine) ;
-  - polymyxine B.
+---
 
-  Le mannitol est de niveau **modéré**. Plusieurs autres interactions (famotidine, acide acétylsalicylique, morphine, oméprazole, prednisone) sont de niveau inconnu.
+## Considérations de Sécurité
 
-Pour les mises en garde et contre-indications, veuillez consulter la notice.
+- **Interactions Médicamenteuses** : 100 interactions sont recensées. Parmi les principales, de niveau majeur :
+  - Metformine
+  - Amphotéricine B (y compris les formes lipidique, liposomale et sulfate de cholestéryle)
+  - Mésalazine, balsalazide, olsalazine et sulfasalazine
+  - Vancomycine
+  - Aminosides : kanamycine, néomycine, streptomycine
+  - Polymyxine B
 
-## Conclusion et Prochaines Etapes
+  L'interaction avec le mannitol est de niveau modéré. D'autres (famotidine, acide acétylsalicylique, morphine, oméprazole, prednisone) sont de niveau non précisé.
 
-**Decision : Hold**
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations.
+
+---
+
+## Conclusion et Prochaines Étapes
+
+**Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique n'est enregistré et la littérature ne montre aucun bénéfice thérapeutique. Elle décrit seulement l'usage d'iodixanol comme agent d'imagerie. La prédiction (niveau L5) est très probablement un artefact du graphe de connaissances, d'autant que la « susceptibilité » n'est pas une maladie traitable.
-- Les deux AMM françaises sont annulées, et les données de sécurité de la notice ne sont pas disponibles.
+- Aucun essai clinique ni étude ne teste l'iodixanol comme traitement de l'arthrose ; les publications ne concernent que l'imagerie. Le niveau de preuve est donc L5, et le score élevé du modèle semble dû à une association liée à l'imagerie plutôt qu'à un effet pharmacologique.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Les mises en garde et contre-indications de la notice ANSM (étape de sécurité bloquante)
-- Les données sur le mécanisme d'action, afin d'analyser un éventuel lien mécanistique
-- Des études précliniques ou cliniques évaluant un effet thérapeutique réel d'iodixanol dans l'arthrose, qui n'existent pas à ce jour
-- Une vérification de la compatibilité des voies d'administration (par exemple intra-articulaire), non évaluée à ce stade
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Des données sur le mécanisme d'action, afin d'établir un éventuel lien avec l'arthrose
+- Des études précliniques démontrant un effet thérapeutique articulaire
+- Les mises en garde et contre-indications de la notice, pour l'évaluation de sécurité
+- Les indications approuvées figurant dans les AMM
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

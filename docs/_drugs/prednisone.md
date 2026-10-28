@@ -6,9 +6,9 @@ nav_order: 626
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prednisone : nouvelle indication prédite, Alopécie areata (niveau de preuve L3). Indication d'origine : Maladies auto-immunes, insuffisance surrénalienne, maladie de Crohn…"
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+description: "Prednisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Prednisone
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Prednisone : De l'Autoimmunité et de l'Insuffisance Surrénalienne à l'Alopécie Areata
+## Prednisone: Alopécie areata (alopecia areata)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,12 +46,12 @@ avec **0 essai clinique** enregistré et **20 publications** associées dans les
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Maladies auto-immunes, insuffisance surrénalienne, maladie de Crohn, leucémie lymphoblastique aiguë (les textes d'indication des AMM françaises ne sont pas renseignés ; indications issues du graphe de connaissances) |
-| Nouvelle Indication Prédite | Alopécie areata |
-| Score de Prédiction TxGNN | 99,99 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Alopécie areata (alopecia areata) |
+| Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Toutes les AMM sont annulées (aucune AMM valide) |
-| Nombre d'AMM | 17 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -85,15 +85,15 @@ Sélection des publications les plus pertinentes parmi les 20 retrouvées :
 
 ## Informations de Marché en France
 
-Les 17 AMM recensées sont toutes annulées ; aucune n'est valide actuellement. Les textes d'indication approuvée ne sont pas disponibles. Principales AMM :
+Les textes d'indication approuvée ne sont pas disponibles. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
-| 60118715 | CORTANCYL 1 mg | comprimé | Annulée |
-| 60492702 | CORTANCYL 5 mg | comprimé sécable | Annulée |
-| 62390849 | CORTANCYL 20 mg | comprimé sécable | Annulée |
-| 68853282 | PREDNISONE VIATRIS 1 mg | comprimé | Annulée |
-| 64793934 | PREDNISONE BIOGARAN 20 mg | comprimé sécable | Annulée |
+| 60118715 | CORTANCYL 1 mg | comprimé | Active |
+| 60492702 | CORTANCYL 5 mg | comprimé sécable | Active |
+| 62390849 | CORTANCYL 20 mg | comprimé sécable | Active |
+| 68853282 | PREDNISONE VIATRIS 1 mg | comprimé | Active |
+| 64793934 | PREDNISONE BIOGARAN 20 mg | comprimé sécable | Active |
 
 ## Considérations de Sécurité
 
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- L'alopécie areata est une maladie auto-immune pour laquelle l'action immunosuppressive de la prednisone est plausible, avec une littérature clinique de niveau L3 (essais randomisés, séries de cas récentes). Aucun essai enregistré n'existe, les bénéfices à long terme sont limités par les rechutes et la toxicité des corticoïdes systémiques, et toutes les AMM françaises sont annulées.
+- L'alopécie areata est une maladie auto-immune pour laquelle l'action immunosuppressive de la prednisone est plausible, avec une littérature clinique de niveau L3 (essais randomisés, séries de cas récentes).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM), ce qui bloque actuellement l'étape de screening de sécurité

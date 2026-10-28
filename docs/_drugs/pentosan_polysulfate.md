@@ -6,9 +6,9 @@ nav_order: 588
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pentosan Polysulfate : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (niveau de preuve L5). Indication d'origine : Cystite interstitielle"
 monitor_inn: "pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
+description: "Pentosan Polysulfate : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée…"
 ---
 
 # Pentosan Polysulfate
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Pentosane polysulfate : De la cystite interstitielle au trouble de la sécrétion plaquettaire primaire
+## Pentosan Polysulfate: Trouble primaire de la libération plaquettaire (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Cystite interstitielle (d'après le graphe de connaissances ; le texte d'indication de l'AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Trouble primaire de la libération plaquettaire |
-| Score de Prédiction TxGNN | 99,71 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Trouble primaire de la libération plaquettaire (primary release disorder of platelets) |
+| Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Uniquement annulée (AMM annulée) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -65,8 +65,8 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 **La plausibilité biologique de cette prédiction est faible.** Un composé à action anticoagulante et antiplaquettaire devrait plutôt aggraver un défaut de sécrétion plaquettaire qu'en améliorer l'évolution. L'association retrouvée par le modèle reflète probablement une proximité dans le réseau de connaissances (nœuds communs de coagulation et de fonction plaquettaire) plutôt qu'une véritable relation thérapeutique.
 
 Le même constat s'applique aux deux autres prédictions les mieux classées, également sans aucune preuve clinique ni publication :
-- **Thrombasthénie de Glanzmann** (score 99,65 %) : liée à un déficit ou un dysfonctionnement de l'intégrine αIIbβ3 (GPIIb/IIIa). Un effet anticoagulant risquerait d'aggraver le phénotype hémorragique.
-- **Pseudo-maladie de von Willebrand** (score 99,62 %) : liée à un gain de fonction de la GPIbα plaquettaire. Une interaction du pentosane polysulfate avec le facteur von Willebrand ou les glycoprotéines plaquettaires est spéculative, et l'effet anticoagulant augmenterait le risque hémorragique.
+- **Thrombasthénie de Glanzmann** (score 0,9965) : liée à un déficit ou un dysfonctionnement de l'intégrine αIIbβ3 (GPIIb/IIIa). Un effet anticoagulant risquerait d'aggraver le phénotype hémorragique.
+- **Pseudo-maladie de von Willebrand** (score 0,9962) : liée à un gain de fonction de la GPIbα plaquettaire. Une interaction du pentosane polysulfate avec le facteur von Willebrand ou les glycoprotéines plaquettaires est spéculative, et l'effet anticoagulant augmenterait le risque hémorragique.
 
 ---
 
@@ -86,9 +86,9 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut | Indication Approuvée |
 |---------|------|------|------|-----------|
-| 60027685 | ELMIRON 100 mg, gélule | Gélule | Annulée | Non renseignée |
+| 60027685 | ELMIRON 100 mg, gélule | Gélule | Active | Non renseignée |
 
-Le produit est fabriqué par BENE-ARZNEIMITTEL (Allemagne). Aucune AMM valide n'est actuellement recensée.
+Le produit est fabriqué par BENE-ARZNEIMITTEL (Allemagne). Il est commercialisé, avec 1 AMM valide sur 1.
 
 ---
 

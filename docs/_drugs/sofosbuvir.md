@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 |------|------|
 | Indication Originale | Infection chronique par le virus de l'hépatite C |
 | Nouvelle Indication Prédite | Infection par le virus de l'hépatite B |
-| Score de Prédiction TxGNN | 99,77 % |
+| Score de Prédiction TxGNN | 0,9977 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Autorisations uniquement annulées |
-| Nombre d'AMM | 7 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ---
@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances établies, le sofosbuvir est un analogue nucléotidique qui inhibe l'ARN polymérase ARN-dépendante NS5B du virus de l'hépatite C. Son efficacité dans l'hépatite C est démontrée.
 
-Pour l'hépatite B, la plausibilité mécanistique est **faible**. Le VHB se réplique par une transcriptase inverse à partir d'une matrice d'ADN, et non par une ARN polymérase ARN-dépendante. Un effet antiviral direct est donc peu vraisemblable. Le score élevé du modèle reflète surtout les associations de co-infection VHC/VHB dans le graphe de connaissances.
+Pour l'hépatite B, la plausibilité mécanistique est **faible**. Le VHB se réplique par une transcriptase inverse à partir d'une matrice d'ADN, et non par une ARN polymérase ARN-dépendante. Un effet antiviral direct est donc peu vraisemblable. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (par exemple la co-infection VHC/VHB), et non une preuve biologique.
 
 Une observation rétrospective a toutefois montré une réduction modeste de l'HBsAg chez des patients co-infectés traités par lédipasvir/sofosbuvir. Cela a conduit à un essai pilote chez des patients mono-infectés par le VHB, dont les résultats restent à confirmer.
 
@@ -103,11 +103,11 @@ Les autres essais compilés (programmes de dépistage et de traitement du VHC, p
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 61206641 | SOVALDI 400 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (annulée) |
-| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (annulée) |
-| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (annulée) |
-| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (annulée) |
-| 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (annulée) |
+| 61206641 | SOVALDI 400 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (active) |
+| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (active) |
+| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (active) |
+| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (active) |
+| 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (active) |
 
 Au total, 7 AMM sont enregistrées, toutes annulées. Les deux autres sont EPCLUSA 400 mg/100 mg (63434686) et VOSEVI 400 mg/100 mg/100 mg (61932485).
 
@@ -131,7 +131,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 **Justification :**
 - Le mécanisme d'action du sofosbuvir (ARN polymérase) est peu compatible avec la réplication du VHB (ADN/transcriptase inverse). Les données cliniques portent presque entièrement sur la co-infection VHC/VHB, où le sofosbuvir traite le VHC, et la réactivation du VHB est un risque de sécurité connu. Le seul essai direct est petit (n = 21) et à un seul bras.
-- Toutes les AMM françaises sont annulées.
+- Les 7 AMM françaises sont valides (7 sur 7).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action et sur la plausibilité d'un effet anti-VHB

@@ -50,10 +50,10 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **lymphome cuta
 |------|------|
 | Indication Originale | Non renseignée dans l'AMM |
 | Nouvelle Indication Predite | Lymphome cutané primitif à cellules T |
-| Score de Prédiction TxGNN | 99,67 % |
+| Score de Prédiction TxGNN | 0,9967 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | AMM annulée uniquement (non commercialisé) |
-| Nombre d'AMM | 1 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -92,7 +92,7 @@ Il faut aussi relever que l'indication d'origine n'étant pas documentée, la re
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67948172 | CORTISONE BOIRON, dilution entre 3CH et 30CH ou entre 6DH et 60DH (statut : annulée) | Comprimé, solution, granules, poudre et pommade | Non renseignée |
+| 67948172 | CORTISONE BOIRON, dilution entre 3CH et 30CH ou entre 6DH et 60DH (statut : active) | Comprimé, solution, granules, poudre et pommade | Non renseignée |
 
 ---
 

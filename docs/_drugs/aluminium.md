@@ -8,6 +8,7 @@ nav_order: 50
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Aluminium
@@ -49,8 +50,8 @@ L'aluminium (DrugBank ID : DB01370) est un élément métallique répertorié da
 | Nouvelle Indication Prédite | Aucune prédiction générée |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | L5 — Aucune étude ni prédiction exploitable |
-| Statut de Marché en France | ✗ Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | **Hold** |
 
 ---

@@ -4,17 +4,17 @@ title: Dupilumab
 parent: Preuves modérées (L3-L4)
 nav_order: 264
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dupilumab : nouvelle indication prédite, Bronchite (niveau de preuve L3). Indication d'origine : Dermatite atopique (eczéma atopique)"
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+description: "Dupilumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 </div>
 
-## Dupilumab : De la dermatite atopique à la bronchite
+## Dupilumab: Bronchite (bronchitis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -47,15 +47,15 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, ma
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Dermatite atopique (eczéma atopique) |
-| Nouvelle Indication Prédite | Bronchite |
-| Score de Prédiction TxGNN | 99,92 % |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Bronchite (bronchitis) |
+| Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Autorisations annulées uniquement |
-| Nombre d'AMM | 4 (toutes annulées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
-> Remarque : le texte des indications approuvées n'est pas renseigné dans les AMM. L'indication originale provient des relations d'indication du graphe de connaissances utilisé par TxGNN.
+> Remarque : le texte des indications approuvées n'est pas renseigné dans les AMM. L'indication originale correspond à une relation d'indication connue, utilisée comme référence par TxGNN ; les scores de prédiction proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.
 
 ---
 
@@ -98,10 +98,10 @@ Il faut toutefois rester prudent : les données disponibles concernent l'asthme 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64039311 | DUPIXENT 300 mg, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
-| 64423080 | DUPIXENT 200 mg, seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 64627916 | DUPIXENT 300 mg, seringue préremplie | Solution injectable | Non renseignée (AMM annulée) |
-| 66004227 | DUPIXENT 200 mg, stylo prérempli | Solution injectable | Non renseignée (AMM annulée) |
+| 64039311 | DUPIXENT 300 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+| 64423080 | DUPIXENT 200 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 64627916 | DUPIXENT 300 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+| 66004227 | DUPIXENT 200 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
 ---
 
@@ -139,7 +139,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ### Note sur les autres prédictions
 
-La deuxième prédiction (dermatite, score 99,71 %, niveau L1, décision « Proceed with Guardrails ») recoupe l'indication d'origine (dermatite atopique) : ce n'est donc pas un véritable repositionnement. Les prédictions suivantes (chéloïde acnéique, exanthème, dermatomyosites, rétinopathie diabétique, etc.) présentent des preuves faibles ou nulles et sont classées en « Research Question » ou « Hold ».
+Les prédictions (chéloïde acnéique, exanthème, dermatomyosites, rétinopathie diabétique, etc.) présentent des preuves faibles ou nulles et sont classées en « Research Question » ou « Hold ».
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

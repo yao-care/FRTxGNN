@@ -6,9 +6,9 @@ nav_order: 279
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Emicizumab : nouvelle indication prédite, Déficit acquis en facteur de coagulation (niveau de preuve L5). Indication d'origine : Hémophilie"
 monitor_inn: "emicizumab"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
+description: "Emicizumab : nouvelle indication prédite, Pseudo-von Willebrand disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Emicizumab
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Emicizumab : De l'hémophilie à l'hémophilie acquise (déficit acquis en facteur de coagulation)
+## Emicizumab: Pseudo-von Willebrand disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -45,15 +45,15 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **déficit acquis
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hémophilie (texte d'indication réglementaire non disponible ; indication issue du graphe de connaissances : hémophilie, forme symptomatique chez les porteuses) |
-| Nouvelle Indication Prédite | Déficit acquis en facteur de coagulation |
-| Score de Prédiction TxGNN | 99,90 % |
-| Niveau de Preuve | L2 (plafonné : études à un seul bras, non randomisées) |
-| Statut de Marché en France | Uniquement annulées |
-| Nombre d'AMM | 2 (toutes deux annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pseudo-von Willebrand disease |
+| Score de Prédiction TxGNN | 0.9999 |
+| Niveau de Preuve | L5 (plafonné : études à un seul bras, non randomisées) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold (maintien en attente) ; étape de recherche à approfondir |
 
-*Remarque : le score le plus élevé du modèle (99,99 %) concerne la pseudo-maladie de von Willebrand, mais celle-ci n'est soutenue par aucune preuve (L5) et son lien mécanistique est faible. Ce rapport se concentre donc sur l'indication la mieux étayée, le déficit acquis en facteur de coagulation (classé 5e par le modèle).*
+*Remarque : le score le plus élevé du modèle (0,9999) concerne la pseudo-maladie de von Willebrand, mais celle-ci n'est soutenue par aucune preuve (L5) et son lien mécanistique est faible. Ce rapport se concentre donc sur l'indication la mieux étayée, le déficit acquis en facteur de coagulation (classé 5e par le modèle).*
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
@@ -88,10 +88,9 @@ Les dix autres publications récupérées (revues, avis d'experts, étude de dos
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62696479 | HEMLIBRA 30 mg/mL, solution injectable (annulée) | Solution injectable | Non renseignée |
-| 61529993 | HEMLIBRA 150 mg/mL, solution injectable (annulée) | Solution injectable | Non renseignée |
+| 62696479 | HEMLIBRA 30 mg/mL, solution injectable (active) | Solution injectable | Non renseignée |
+| 61529993 | HEMLIBRA 150 mg/mL, solution injectable (active) | Solution injectable | Non renseignée |
 
-Les deux AMM sont annulées ; aucune AMM valide n'est actuellement répertoriée dans les données compilées.
 
 ## Considérations de Sécurité
 
@@ -101,7 +100,7 @@ Les deux AMM sont annulées ; aucune AMM valide n'est actuellement répertoriée
 - Facteur VIIa recombinant humain : interaction modérée.
 - Interactions pharmacologiques avec les cibles facteur X et facteur IX (liaison de l'anticorps, sans niveau de gravité attribué).
 
-**Point d'attention lié aux prédictions** : pour le purpura thrombotique thrombocytopénique (score 99,61 %), un agent pro-hémostatique est mécanistiquement contre-indiqué. Cette prédiction est probablement un faux positif du graphe et relève d'une alerte de sécurité plutôt que d'une opportunité de repositionnement.
+**Point d'attention lié aux prédictions** : pour le purpura thrombotique thrombocytopénique (score 0,9961), un agent pro-hémostatique est mécanistiquement contre-indiqué.
 
 Veuillez consulter la notice pour les mises en garde et contre-indications, non disponibles dans les données compilées.
 

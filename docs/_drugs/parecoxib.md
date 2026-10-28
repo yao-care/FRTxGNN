@@ -4,17 +4,17 @@ title: Parecoxib
 parent: Preuves modérées (L3-L4)
 nav_order: 579
 evidence_level: L3
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Parecoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L3). Indication d'origine : Non renseignée (texte d'indication vide dans l'AMM)"
 monitor_inn: "parecoxib"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **4** 
+Niveau de preuve: **L3** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*mi
 |------|------|
 | Indication Originale | Non renseignée (texte d'indication vide dans l'AMM) |
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
-| Score de Prédiction TxGNN | 99,55 % |
+| Score de Prédiction TxGNN | 0,9955 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Retiré du marché (AMM annulée uniquement) |
-| Nombre d'AMM | 1 (0 valide, 1 annulée) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ---
@@ -95,7 +95,7 @@ Publications complémentaires (soutien mécanistique et indications voisines) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66278897 | DYNASTAT 40 mg, poudre pour solution injectable (PFIZER EUROPE MA EEIG, Belgique) | Poudre pour solution injectable | Non renseignée — AMM annulée |
+| 66278897 | DYNASTAT 40 mg, poudre pour solution injectable (PFIZER EUROPE MA EEIG, Belgique) | Poudre pour solution injectable | Non renseignée — AMM active |
 
 ---
 

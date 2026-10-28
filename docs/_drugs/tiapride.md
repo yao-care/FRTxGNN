@@ -47,10 +47,10 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine**, ave
 |------|------|
 | Indication Originale | Non disponible (texte d'indication vide dans les AMM) |
 | Nouvelle Indication Prédite | Migraine |
-| Score de Prédiction TxGNN | 99,18 % |
+| Score de Prédiction TxGNN | 0,9918 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Toutes les AMM sont annulées |
-| Nombre d'AMM | 4 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'hyperactivité dopaminergique est impliquée dans les phases prémonitoire, nauséeuse et autonomique de la migraine. Des antagonistes D2 comme le métoclopramide et la dompéridone sont déjà utilisés dans la prise en charge de la migraine. D'autres benzamides, comme le sulpiride, ont aussi été étudiés dans la prophylaxie de la migraine, ce qui soutient un mécanisme plausible à l'échelle de la classe.
 
-Le score TxGNN très élevé (0,99) est une prédiction computationnelle. Il ne remplace pas une preuve clinique. La relation précise entre l'indication originale et la migraine n'a pas pu être analysée, faute de données sur l'indication d'origine.
+Le score TxGNN très élevé (0,9918) est une prédiction computationnelle. Il ne remplace pas une preuve clinique. La relation précise entre l'indication originale et la migraine n'a pas pu être analysée, faute de données sur l'indication d'origine.
 
 ## Preuves d'Essais Cliniques
 
@@ -82,10 +82,10 @@ Aucun essai clinique associé enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 67890598 | TIAPRIDAL 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 68632565 | TIAPRIDAL 100 mg/2 ml, solution injectable | Solution injectable | Non renseignée (AMM annulée) |
-| 68912300 | TIAPRIDE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
-| 69497921 | TIAPRIDE SANDOZ 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM annulée) |
+| 67890598 | TIAPRIDAL 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 68632565 | TIAPRIDAL 100 mg/2 ml, solution injectable | Solution injectable | Non renseignée (AMM active) |
+| 68912300 | TIAPRIDE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+| 69497921 | TIAPRIDE SANDOZ 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune mise en
 **Décision : Hold**
 
 **Justification :**
-Les preuves en faveur de la migraine sont de niveau L3 : un seul essai randomisé récent (pilote), le reste étant constitué d'études anciennes (1979-1984) de qualité méthodologique limitée. Toutes les AMM françaises sont annulées et les données de sécurité sont absentes, ce qui empêche le passage à l'étape d'évaluation de la sécurité.
+Les preuves en faveur de la migraine sont de niveau L3 : un seul essai randomisé récent (pilote), le reste étant constitué d'études anciennes (1979-1984) de qualité méthodologique limitée. Le médicament est commercialisé en France (4 AMM valides sur 4) et les données de sécurité sont absentes, ce qui empêche le passage à l'étape d'évaluation de la sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice officielle (site de l'ANSM), point bloquant actuel

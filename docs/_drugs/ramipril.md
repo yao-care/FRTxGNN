@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ramipril
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 649
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ramipril : nouvelle indication prédite, Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypox… (niveau de preuve L4). Indication d'origine : Hypertension artérielle"
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
+description: "Ramipril : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ramipril
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Ramipril : De l'Hypertension Artérielle à l'Hypertension Pulmonaire Liée à une Maladie Pulmonaire et/ou à l'Hypoxie
+## Ramipril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,11 +48,11 @@ mais **aucun essai clinique** n'est enregistré et seule **1 étude animale anci
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Hypertension artérielle (le texte d'indication des AMM n'est pas renseigné ; indication issue du graphe de connaissances : hypertension, accident vasculaire cérébral, maladie cérébrovasculaire, infarctus cérébral) |
-| Nouvelle Indication Prédite | Hypertension pulmonaire liée à une maladie pulmonaire et/ou à l'hypoxie |
-| Score de Prédiction TxGNN | 99,93 % |
-| Niveau de Preuve | L4 |
-| Statut de Marché en France | Uniquement des AMM annulées |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| Score de Prédiction TxGNN | 0.9993 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Décision Recommandée | Hold |
 
@@ -118,14 +118,13 @@ Les mises en garde et contre-indications de la notice ANSM n'ont pas pu être ob
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (99,93 %), mais il s'agit d'une prédiction ; la seule étude pertinente est une étude animale de 1996, sans aucun essai clinique, d'où un niveau de preuve L4 au mieux.
-- Toutes les AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque une évaluation de sécurité complète. Les contre-indications du graphe (maladie rénale, obstruction de l'artère rénale, hypotension) sont par ailleurs fréquentes chez les patients concernés.
+- Le score TxGNN est très élevé (0,9993), mais il s'agit d'une prédiction ; la seule étude pertinente est une étude animale de 1996, sans aucun essai clinique, d'où un niveau de preuve L4 au mieux.
+- Les contre-indications du graphe (maladie rénale, obstruction de l'artère rénale, hypotension) sont par ailleurs fréquentes chez les patients concernés.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice ANSM (mises en garde et contre-indications) pour lever le blocage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Études précliniques récentes et confirmatoires sur l'hypertension pulmonaire hypoxique, puis des données humaines (étude pilote ou essai de phase 2)
-- Clarification du statut réglementaire actuel du ramipril en France, toutes les AMM recensées étant annulées
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

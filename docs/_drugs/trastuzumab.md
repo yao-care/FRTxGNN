@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 779
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Trastuzumab : nouvelle indication prédite, Cancer du sein à récepteur de la progestérone positif (niveau de preuve L1). Indication d'origine : Carcinome mammaire HER2-positif"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab : nouvelle indication prédite, Malignant cutaneous granular cell skin tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Trastuzumab : Du Cancer du Sein HER2-Positif au Cancer du Sein à Récepteur de la Progestérone Positif
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,12 +48,12 @@ Il s'agit toutefois surtout d'un sous-groupe défini par le statut hormonal au s
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Carcinome mammaire HER2-positif |
-| Nouvelle Indication Prédite | Cancer du sein à récepteur de la progestérone positif |
-| Score de Prédiction TxGNN | 99,90 % |
-| Niveau de Preuve | L1 |
-| Statut de Marché en France | Autorisations uniquement annulées |
-| Nombre d'AMM | 16 (toutes annulées) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Malignant cutaneous granular cell skin tumor |
+| Score de Prédiction TxGNN | 0.9948 |
+| Niveau de Preuve | L5 |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---
@@ -106,7 +106,7 @@ Sélection des essais les plus pertinents (14 essais recensés pour cette indica
 
 ## Informations de Marché en France
 
-Les 16 AMM recensées sont toutes annulées ; aucune n'est actuellement valide. Le texte des indications approuvées n'est pas renseigné dans les données.
+Le texte des indications approuvées n'est pas renseigné dans les données.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -159,8 +159,6 @@ Veuillez consulter la notice pour les mises en garde et les contre-indications, 
 
 ### Note sur les autres indications prédites
 
-- **Cancer du sein à récepteur de la progestérone négatif** (score 99,90 %, L1) : même logique de sous-groupe ; Proceed with Guardrails, sous réserve d'un statut HER2-positif.
-- **Tumeur mammaire luminale A ou B** (score 99,90 %, L1) : pas d'essai enregistré, mais des preuves randomisées dans la littérature ; seul le sous-groupe luminal B HER2-positif est concerné.
 - **Sous-type de type normal du carcinome mammaire** (L4, Hold) : pas de justification mécanistique claire, tumeur généralement HER2-négative.
 - **Tumeur cutanée granulaire maligne, ectomésenchymome, tumeur liée à l'HHV-8, tumeur neuroendocrine de l'oreille moyenne** (L5, Hold) : prédictions du modèle uniquement, sans preuve clinique ni bibliographique.
 - **Carcinome urothélial sarcomatoïde du bassinet rénal et carcinome urothélial de l'urètre prostatique** (L5, question de recherche) : hypothèse plausible en cas de surexpression de HER2, mais aucune donnée à l'appui.
