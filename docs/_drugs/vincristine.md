@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Vincristine : nouvelle indication prédite, Anomalies vertébrales avec dysfonction endocrinienne et lymphocytaire T variable (niveau de preuve L5). Indication d'origine : Non précisée dans les textes d'AMM disp…"
 ---
 

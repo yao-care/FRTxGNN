@@ -3,18 +3,18 @@ noindex: true
 sitemap: false
 layout: default
 title: Alizapride
-parent: Prédiction du modèle uniquement (L5)
+parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 41
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-17
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Alizapride
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **0** 
+Niveau de preuve: **N/A** | Indications prédites: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,19 @@ Niveau de preuve: **L5** | Indications prédites: **0**
 
 </div>
 
-## Alizapride : Rapport d'Évaluation Préliminaire
+## Alizapride
 {: .text-alpha }
-
-## Résumé en Une Phrase
-
-Alizapride (DB01425) est un benzamide substitué connu comme antiémétique antagoniste des récepteurs dopaminergiques D2, utilisé dans certains pays européens pour le traitement des nausées et vomissements. Cependant, **aucune nouvelle indication n'a été prédite** par le modèle TxGNN à ce stade, et le médicament ne dispose d'**aucune AMM en France** selon les données réglementaires disponibles. Le dossier présente des **lacunes de données critiques** (mécanisme d'action détaillé, mises en garde, contre-indications) qui empêchent une évaluation complète.
-
----
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans le dossier |
-| Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
-| Score de Prédiction TxGNN | — |
-| Niveau de Preuve | L5 (aucune étude réelle associée) |
+| Indication Originale | Non renseignée dans les données locales |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
-| Décision Recommandée | **Hold** |
 
 ---
 
-## Pourquoi Cette Évaluation est-elle Préliminaire ?
-
-Alizapride est un dérivé benzamide, structurellement apparenté au métoclopramide et au sulpiride. Il agit principalement comme **antagoniste des récepteurs dopaminergiques D2**, ce qui explique son activité antiémétique en bloquant la stimulation dopaminergique au niveau de la zone chémoréceptrice (area postrema). Ce mécanisme est bien établi dans la classe des benzamides prokinétiques.
-
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier fourni (identifié comme lacune de données DG002). Sur la base des informations connues, l'alizapride appartient à la classe des antagonistes dopaminergiques benzamides, dont l'efficacité antiémétique est bien documentée, mais aucune extrapolation vers de nouvelles indications n'a pu être réalisée par le modèle TxGNN.
-
-L'absence totale de prédictions TxGNN (`predicted_indications` vide) peut s'expliquer par plusieurs facteurs : une représentation insuffisante du médicament dans le graphe de connaissances thérapeutiques, un manque de données d'entraînement spécifiques, ou encore l'absence de signaux significatifs reliant ce composé à de nouvelles pathologies au-delà de son utilisation antiémétique établie.
-
----
-
-## Preuves d'Essais Cliniques
-
-Aucun essai clinique associé à une nouvelle indication n'est enregistré actuellement.
-
----
-
-## Preuves de la Littérature
-
-Aucune littérature associée à une nouvelle indication n'est disponible actuellement.
-
----
-
-## Informations de Marché en France
-
-Alizapride ne dispose d'**aucune AMM** recensée dans les données réglementaires fournies. Le statut de marché est « Non commercialisé ».
-
-> **Note :** L'alizapride a historiquement été commercialisé dans certains pays européens sous diverses dénominations commerciales (ex. Plitican®), mais aucune licence active n'a été identifiée dans le périmètre de cette évaluation.
-
----
-
-## Considérations de Sécurité
-
-Veuillez consulter la notice pour les informations de sécurité.
-
-> **Lacune de données critique (DG001)** : Les mises en garde, contre-indications et informations de la notice n'ont pas pu être récupérées. Cette lacune est classée comme **bloquante** et empêche l'entrée en phase d'évaluation initiale de sécurité (S1).
-
-> **Note générale sur la classe** : Les antagonistes dopaminergiques D2 (benzamides) sont associés à des risques connus incluant des effets extrapyramidaux, une hyperprolactinémie, et un allongement de l'intervalle QT. Ces risques de classe doivent être pris en compte dans toute évaluation future.
-
----
-
-## Conclusion et Prochaines Étapes
-
-**Décision : Hold**
-
-**Justification :**
-Le dossier d'alizapride présente des lacunes de données majeures à tous les niveaux : aucune prédiction TxGNN, aucune AMM active, aucune donnée de sécurité exploitable, et un mécanisme d'action non documenté dans le dossier. En l'état, il n'existe aucune base suffisante pour avancer vers un repositionnement.
-
-**Pour avancer, les éléments suivants sont nécessaires :**
-- ☐ **Résolution de DG001 (Bloquant)** : Récupérer les mises en garde et contre-indications depuis la notice officielle (source : ANSM / bases réglementaires)
-- ☐ **Résolution de DG002 (Haute priorité)** : Documenter le mécanisme d'action détaillé via l'API DrugBank
-- ☐ **Enrichissement du graphe de connaissances** : Vérifier la représentation d'alizapride dans le graphe TxGNN et relancer la prédiction si le nœud médicament est absent ou sous-connecté
-- ☐ **Recherche bibliographique élargie** : Explorer manuellement PubMed pour des signaux de repositionnement hors périmètre TxGNN (ex. propriétés anti-inflammatoires des benzamides, effets sur la motilité gastro-intestinale dans d'autres pathologies)
-- ☐ **Évaluation du statut réglementaire** : Confirmer si l'alizapride est toujours commercialisé dans d'autres juridictions (EMA, pays européens individuels)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

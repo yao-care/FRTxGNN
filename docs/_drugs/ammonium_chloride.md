@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ammonium Chloride : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Pharyngite, rhume, rhinopharyngite"
 ---
 

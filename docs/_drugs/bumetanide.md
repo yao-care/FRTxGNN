@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Bumetanide : nouvelle indication prédite, Cœur pulmonaire aigu (acute pulmonary heart disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 

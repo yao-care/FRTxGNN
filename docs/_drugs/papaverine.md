@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 578
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 description: "Papaverine : nouvelle indication prédite, Maladie ischémique (ischemic disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"

@@ -3,7 +3,7 @@ layout: default
 title: Prazepam
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 624
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Prazepam : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0

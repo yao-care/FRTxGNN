@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ESTAZOLAM"
 predicted_indications: ["visual epilepsy", "alcohol withdrawal delirium", "restless legs syndrome", "myofascial pain syndrome", "eating seizures", "orgasm-induced seizures", "audiogenic seizures", "startle epilepsy", "thinking seizures"]
 description: "Estazolam : nouvelle indication prédite, Visual epilepsy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"

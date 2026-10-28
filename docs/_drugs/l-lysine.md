@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "L-Lysine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "L-LYSINE"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]

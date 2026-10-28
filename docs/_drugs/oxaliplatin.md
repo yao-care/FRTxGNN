@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 564
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin : nouvelle indication prédite, Mésothéliome pleural malin (malignant pleural mesothelioma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"

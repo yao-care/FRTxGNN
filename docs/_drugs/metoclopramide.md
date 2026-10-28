@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 491
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide : nouvelle indication prédite, Gastroduodenitis (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"

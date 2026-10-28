@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ofatumumab : nouvelle indication prédite, Lymphome folliculaire (niveau de preuve L2). Indication d'origine : Leucémie lymphoblastique aiguë et syndrome de Richter"
 ---
 

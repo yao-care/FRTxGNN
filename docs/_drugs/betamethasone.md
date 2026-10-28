@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "betamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Betamethasone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 

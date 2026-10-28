@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 622
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 description: "Prasugrel : nouvelle indication prédite, Pulmonary hypertension (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"

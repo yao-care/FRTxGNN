@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 831
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"

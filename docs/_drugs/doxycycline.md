@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 259
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline : nouvelle indication prédite, Punctate epithelial keratoconjunctivitis (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"

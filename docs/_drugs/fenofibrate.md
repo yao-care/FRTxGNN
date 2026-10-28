@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fenofibrate : nouvelle indication prédite, Déficience en protéine de transfert des esters de cholestérol (cholesterol-ester transfer protein deficiency) (niveau de preuve L5). Indication d'origine : …"
 ---
 

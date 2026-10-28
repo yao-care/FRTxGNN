@@ -3,7 +3,7 @@ layout: default
 title: Betaxolol
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 102
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Betaxolol : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0

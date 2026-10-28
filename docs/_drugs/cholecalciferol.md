@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Cholecalciferol : nouvelle indication prédite, Dysplasie acromésomélique de type Campailla-Martinelli (niveau de preuve L5). Indication d'origine : Le texte d'indication n'est pas renseigné dans les …"
 ---
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 708
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sofosbuvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L3). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]

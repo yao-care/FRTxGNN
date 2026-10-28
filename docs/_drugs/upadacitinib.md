@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "upadacitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia s… (niveau de preuve L5). Indication …"

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 576
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
 description: "Panobinostat : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"

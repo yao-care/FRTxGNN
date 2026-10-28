@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 497
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Micafungin : nouvelle indication prédite, Infection des voies urinaires (urinary tract infection) (niveau de preuve L3). Indication d'origine : Candidose œsophagienne, candidémie…"
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]

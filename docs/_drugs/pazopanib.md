@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 581
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib : nouvelle indication prédite, Liposarcoma (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"

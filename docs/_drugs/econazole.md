@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Econazole : nouvelle indication prédite, Infection ectothrix (ectothrix infectious disease) (niveau de preuve L5). Indication d'origine : Aucun texte d'indication n'est disponible dans les AMM compil…"
 ---
 

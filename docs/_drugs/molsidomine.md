@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "MOLSIDOMINE"
 predicted_indications: ["alopecia", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection", "hypotrichosis simplex of the scalp", "visceral calciphylaxis", "neurogenic thoracic outlet syndrome", "hemangioendothelioma", "congenital hypotrichosis milia"]
 description: "Molsidomine : nouvelle indication prédite, Alopecia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"

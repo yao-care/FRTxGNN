@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 717
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate : nouvelle indication prédite, Reflux duodéno-gastrique (duodenogastric reflux) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"

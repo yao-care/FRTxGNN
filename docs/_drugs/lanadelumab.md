@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 434
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "lanadelumab"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 description: "Lanadelumab : nouvelle indication prédite, Déficience en inhibiteur de C1 (C1 inhibitor deficiency) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"

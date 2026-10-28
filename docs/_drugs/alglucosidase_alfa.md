@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Alglucosidase Alfa : nouvelle indication prédite, Maladie à corps de polyglucosanes de l'adulte (adult polyglucosan body disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les…"
 ---
 

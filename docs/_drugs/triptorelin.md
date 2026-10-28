@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 792
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin : nouvelle indication prédite, Hypertrichosis (disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"

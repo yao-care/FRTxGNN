@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CAPLACIZUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Caplacizumab : nouvelle indication prédite, Trouble de la libération primaire des plaquettes (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans …"
 ---
 

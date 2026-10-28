@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LIOTHYRONINE"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Liothyronine : nouvelle indication prédite, Hypoplasie/aplasie rénale (renal hypodysplasia/aplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 

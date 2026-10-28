@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Agomelatine : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les…"
 ---
 

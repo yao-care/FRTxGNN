@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 769
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab : nouvelle indication prédite, Spondylarthrite ankylosante (ankylosing spondylitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"

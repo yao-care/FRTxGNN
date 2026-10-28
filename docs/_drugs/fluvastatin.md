@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "fibroma of prostate"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fluvastatin : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Non précisée dans les textes d'AMM disponibles"
 ---
 

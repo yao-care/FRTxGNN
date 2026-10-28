@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Flucytosine : nouvelle indication prédite, Maladie osseuse de Paget (bone Paget disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "FLUCYTOSINE"
 predicted_indications: ["bone Paget disease"]

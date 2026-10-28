@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 716
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "succinic acid"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "vitamin deficiency disorder", "non-syndromic esophageal malformation"]
 description: "Succinic Acid : nouvelle indication prédite, Vitamin B12- and folate-independent constitutional megaloblastic anemia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"

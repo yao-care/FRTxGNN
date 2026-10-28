@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 278
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Elvitegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (SIV) (niveau de preuve L3). Indication d'origine : Infection par le VIH, SIDA (texte d'indication d'…"
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]

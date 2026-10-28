@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Artemether : nouvelle indication prédite, Angiœdème acquis (acquired angioedema) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 

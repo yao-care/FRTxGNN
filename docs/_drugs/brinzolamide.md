@@ -3,7 +3,7 @@ layout: default
 title: Brinzolamide
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 115
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Brinzolamide : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0

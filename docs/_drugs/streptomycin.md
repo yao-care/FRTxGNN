@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 714
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
 description: "Streptomycin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"

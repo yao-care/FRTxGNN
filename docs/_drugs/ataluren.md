@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATALUREN"
 predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn disorder of bilirubin metabolism", "hereditary North American Indian childhood cirrhosis", "familial intrahepatic cholestasis", "severe nonproliferative diabetic retinopathy", "bilirubin metabolism disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Ataluren : nouvelle indication prédite, Cholestase intrahépatique récurrente bénigne (benign recurrent intrahepatic cholestasis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
 ---
 

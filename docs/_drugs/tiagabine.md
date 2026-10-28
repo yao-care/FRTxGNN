@@ -3,7 +3,7 @@ layout: default
 title: Tiagabine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 758
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tiagabine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0

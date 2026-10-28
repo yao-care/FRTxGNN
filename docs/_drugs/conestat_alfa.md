@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 197
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CONESTAT ALFA"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
 description: "Conestat Alfa : nouvelle indication prédite, C1 inhibitor deficiency (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 203
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
 description: "Cyclophosphamide : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"

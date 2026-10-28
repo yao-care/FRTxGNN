@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sulprostone : nouvelle indication prédite, Cataracte tétanique (tetanic cataract) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "SULPROSTONE"
 predicted_indications: ["tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "diabetic retinopathy"]

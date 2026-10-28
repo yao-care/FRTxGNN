@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 599
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Phenylalanine : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM (texte d'indication vide)"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]

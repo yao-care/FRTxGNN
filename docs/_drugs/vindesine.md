@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (ganglioneuroblastoma (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"

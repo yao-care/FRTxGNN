@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 535
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Nicorandil : nouvelle indication prédite, Hyperplasie bénigne de la prostate (niveau de preuve L4). Indication d'origine : Angor chronique stable (d'après les données pharmacologiques"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
