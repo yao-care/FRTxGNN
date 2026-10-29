@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 503
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with schistosomiasis"]
 description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré, mais **3 publications** (séries et rapp
 | Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
-| Nombre d'AMM | 19 (valides : 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 19) |
+| Nombre d'AMM | 19 (valides : 17) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

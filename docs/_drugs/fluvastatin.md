@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "fibroma of prostate"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Fluvastatin : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Non précisée dans les textes d'AMM disponibles"
 ---
 
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**infection par le 
 | Nouvelle Indication Prédite | Infection par le VIH |
 | Score de Prédiction TxGNN | 0,9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 15) |
-| Nombre d'AMM | 15 (valides : 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 15) |
+| Nombre d'AMM | 15 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

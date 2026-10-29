@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Talc : nouvelle indication prédite, Maladie thrombotique (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "TALC"
 predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis", "bronchitis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "vein disease", "fibromyalgia", "myositis fibrosa"]
@@ -51,8 +51,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **maladie thr
 | Nouvelle Indication Prédite | Maladie thrombotique |
 | Score de Prédiction TxGNN | 0,9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Annulée uniquement (aucune AMM valide) |
-| Nombre d'AMM | 1 (annulée) |
+| Statut de Marché en France | Non commercialisé (autorisations annulées : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ---

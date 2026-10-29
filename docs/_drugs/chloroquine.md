@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Chloroquine : nouvelle indication prédite, Arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde positif (niveau de preuve L5). Indication d'origine : Polyarthrite rhumatoïde, lupus érythéma…"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -52,8 +52,8 @@ mais **aucun essai clinique** n'est enregistré et une seule publication (une co
 | Nouvelle Indication Prédite | Arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde positif |
 | Score de Prédiction TxGNN | 0,9941 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé |
-| Nombre d'AMM | 0 |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ---

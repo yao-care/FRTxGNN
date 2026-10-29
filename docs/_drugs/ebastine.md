@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
 description: "Ebastine : nouvelle indication prédite, Maladie coronarienne (coronary artery disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -50,8 +50,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 | Nouvelle Indication Prédite | Maladie coronarienne (coronary artery disease) |
 | Score de Prédiction TxGNN | 0.9918 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
-| Nombre d'AMM | 16 (valides : 16) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 16) |
+| Nombre d'AMM | 16 (valides : 15) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 792
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin : nouvelle indication prédite, Hypertrichosis (disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -52,8 +52,8 @@ Il s'agit toutefois d'une indication déjà établie pour ce médicament, et non
 | Nouvelle Indication Prédite | Hypertrichosis (disease) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
-| Nombre d'AMM | 15 (valides : 15) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 15) |
+| Nombre d'AMM | 15 (valides : 14) |
 | Décision Recommandée | Proceed with Guardrails |
 
 Remarque : la première prédiction du classement TxGNN est l'hypertrichose (score 1,0000). Elle n'est soutenue par aucune preuve thérapeutique (niveau L4, décision Hold). Ce rapport se concentre sur la puberté précoce, qui est la prédiction la mieux documentée. Les autres prédictions sont résumées en fin de rapport.

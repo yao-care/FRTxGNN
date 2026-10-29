@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Tertatolol : nouvelle indication prédite, Dyskinésie linguo-faciale-buccale (niveau de preuve L5). Indication d'origine : Non renseignée"
 monitor_inn: "TERTATOLOL"
 predicted_indications: ["lingual-facial-buccal dyskinesia", "chronic tic disorder", "psychogenic movement disorders", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia"]
@@ -53,7 +53,7 @@ mais cette prédiction ne repose que sur le score du modèle : **aucun essai cli
 | Score de Prédiction TxGNN | 0,9916 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
-| Nombre d'AMM | 0 |
+| Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 182
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Clobetasol : nouvelle indication prédite, Lymphome cutané primitif à cellules T (niveau de preuve L3). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -50,8 +50,8 @@ Actuellement, **aucun essai clinique** n'est enregistré, mais **15 publications
 | Nouvelle Indication Prédite | Lymphome cutané primitif à cellules T |
 | Score de Prédiction TxGNN | 0,9951 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
-| Nombre d'AMM | 9 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 9) |
+| Nombre d'AMM | 9 (valides : 8) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

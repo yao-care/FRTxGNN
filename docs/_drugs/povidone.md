@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Povidone : nouvelle indication prédite, Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données l…"
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) |
 | Score de Prédiction TxGNN | 0.9911 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 7) |
-| Nombre d'AMM | 7 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 7) |
+| Nombre d'AMM | 7 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -78,7 +78,7 @@ Certaines AMM ci-dessous sont valides (6 sur 7). Les textes d'indication approuv
 |---------|------|------|-----------|
 | 69449741 | NUTRIVISC 5 POUR CENT, collyre en solution (Laboratoires Alcon) | Collyre en solution | Active |
 | 68403812 | DULCILARMES 1,5 %, collyre en solution en récipient unidose (Horus Pharma) | Collyre en solution | Active |
-| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en récipient unidose (Laboratoires Alcon) | Collyre en solution | Active |
+| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en récipient unidose (Laboratoires Alcon) | Collyre en solution | Annulée |
 | 65367581 | UNIFLUID 6 mg/0,4 ml, collyre en récipient unidose (Théa) | Collyre en solution | Annulée |
 | 63734630 | DULCILARMES 1,5 %, collyre en solution (Horus Pharma) | Collyre en solution | Active |
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 546
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "norethisterone"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Norethisterone : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré et la littérature disponible (20 publica
 | Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
 | Score de Prédiction TxGNN | 0.9960 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
-| Nombre d'AMM | 5 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 5) |
+| Nombre d'AMM | 5 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

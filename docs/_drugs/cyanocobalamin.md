@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Cyanocobalamin : nouvelle indication prédite, Maladie métabolique de la biotine (niveau de preuve L5). Indication d'origine : Carence en vitamine B12 et anémies carentielles (anémie pernicieuse…"
 monitor_inn: "cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie méta
 | Nouvelle Indication Prédite | Maladie métabolique de la biotine |
 | Score de Prédiction TxGNN | 0,9960 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

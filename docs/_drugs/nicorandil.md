@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 535
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Nicorandil : nouvelle indication prédite, Hyperplasie bénigne de la prostate (niveau de preuve L4). Indication d'origine : Angor chronique stable (d'après les données pharmacologiques"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hyperplasie bén
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
 | Score de Prédiction TxGNN | 0,9971 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
-| Nombre d'AMM | 14 (valides : 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 14) |
+| Nombre d'AMM | 14 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,7 +83,7 @@ Le médicament est commercialisé en France : 14 AMM valides sur 14 ; le texte d
 | 66925249 | NICORANDIL ALMUS 10 mg | Comprimé sécable | Active |
 | 61503831 | NICORANDIL ZENTIVA 10 mg | Comprimé sécable | Active |
 | 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Active |
-| 61786176 | IKOREL 20 mg | Comprimé | Active |
+| 61786176 | IKOREL 20 mg | Comprimé | Annulée |
 
 Au total, 14 AMM figurent dans les données (toutes en monothérapie et toutes annulées).
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost : nouvelle indication prédite, Visceral calciphylaxis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -50,7 +50,7 @@ Latanoprost est un analogue de la prostaglandine F2-alpha, initialement utilisé
 | Nouvelle Indication Prédite | Visceral calciphylaxis |
 | Score de Prédiction TxGNN | 0.9983 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement, aucune étude réelle) |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Décision Recommandée | Hold |
 
@@ -89,7 +89,7 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 |---------|------|------|-----------|
 | 60047271 | XALATAN 50 microgrammes/mL | Collyre en solution | Active |
 | 63781007 | XALACOM 50 µg/mL + 5 mg/mL (latanoprost/timolol) | Collyre en solution | Active |
-| 64928570 | LATANOPROST BIOGARAN 0,005 % | Collyre en solution | Active |
+| 64928570 | LATANOPROST BIOGARAN 0,005 % | Collyre en solution | Annulée |
 | 60643442 | LATANOPROST ZENTIVA 0,005 % | Collyre en solution | Active |
 | 64224662 | ROCLANDA 50 µg/mL + 200 µg/mL (latanoprost/nétarsudil) | Collyre en solution | Active |
 

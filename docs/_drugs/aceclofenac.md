@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "aceclofenac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Aceclofenac : nouvelle indication prédite, Syndrome brachyolmie-amélogenèse imparfaite (brachyolmia-amelogenesis imperfecta syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans…"
 ---
 
@@ -50,8 +50,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 | Nouvelle Indication Prédite | Syndrome brachyolmie-amélogenèse imparfaite (brachyolmia-amelogenesis imperfecta syndrome) |
 | Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
-| Nombre d'AMM | 5 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
