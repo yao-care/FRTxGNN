@@ -31,6 +31,11 @@ description: "Tous les rapports de validation de médicaments et les statistique
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+Cette liste repose sur les données d'enregistrement ([ANSM](https://ansm.sante.fr/), France).
+
+<!-- local-home:end -->
+
 ## Répartition par niveau de preuve
 
 | Niveau de preuve | Médicaments | Description |
