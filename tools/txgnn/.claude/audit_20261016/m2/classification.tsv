@@ -1,0 +1,814 @@
+site	page	bundle	class	regen_type	evidence_level	cites_nct_pmid	shown_n	kept_n	shown_main	kept_main	note	release	fallback_regen
+FRTxGNN	abacavir	abacavir	keep		L4	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	abatacept	abatacept	regen	only_removed	L4	有	8	7	ankylosing spondylitis	ankylosing spondylitis		data-20261016	
+FRTxGNN	acarbose	acarbose	keep		L5	無	9	9	classic stiff person syndrome	classic stiff person syndrome		data-20261016	
+FRTxGNN	acebutolol	acebutolol	keep		L5	有	1	1	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	aceclofenac	aceclofenac	regen	only_removed	L5	有	8	7	brachyolmia-amelogenesis imperfecta syndrome	brachyolmia-amelogenesis imperfecta syndrome		data-20261016	
+FRTxGNN	acenocoumarol	acenocoumarol	keep		L5	無	3	3	heparin cofactor 2 deficiency	heparin cofactor 2 deficiency		data-20261016	
+FRTxGNN	acetaminophen	acetaminophen	known_use		L4	有	0	0				data-20261016	
+FRTxGNN	acetazolamide	acetazolamide	keep		L5	無	10	10	exercise-induced malignant hyperthermia	exercise-induced malignant hyperthermia		data-20261016	
+FRTxGNN	acetic_acid	acetic_acid	keep		L5	有	9	9	post-bacterial disorder	post-bacterial disorder		data-20261016	
+FRTxGNN	acetylcysteine	acetylcysteine	keep		L5	有	10	10	thrombotic disease	thrombotic disease		data-20261016	
+FRTxGNN	acitretin	acitretin	keep		L3	有	4	4	acne (disease)	acne (disease)		data-20261016	
+FRTxGNN	acyclovir	acyclovir	keep		L2	有	10	10	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	adalimumab	adalimumab	regen	only_removed	L4	有	4	3	hypermobility of coccyx	hypermobility of coccyx		data-20261016	
+FRTxGNN	adapalene	adapalene	keep		L5	無	1	1	zinc, elevated plasma	zinc, elevated plasma		data-20261016	
+FRTxGNN	adefovir_dipivoxil	adefovir_dipivoxil	keep		L5	有	9	9	chronic hepatitis C virus infection	chronic hepatitis C virus infection		data-20261016	
+FRTxGNN	adenosine	adenosine	keep		L5	有	1	1	obsolete bundle branch block	obsolete bundle branch block		data-20261016	
+FRTxGNN	aflibercept	aflibercept	keep		L5	無	1	1	esotropia	esotropia		data-20261016	
+FRTxGNN	agomelatine	agomelatine	regen	only_removed	L5	有	9	7	benign paroxysmal torticollis of infancy	benign paroxysmal torticollis of infancy		data-20261016	
+FRTxGNN	alanine	alanine	keep		L5	有	1	1	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+FRTxGNN	albendazole	albendazole	keep		L2	有	3	3	alveolar echinococcosis	alveolar echinococcosis		data-20261016	
+FRTxGNN	albutrepenonacog_alfa	albutrepenonacog_alfa	keep		L5	無	6	6	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+FRTxGNN	alfacalcidol	alfacalcidol	regen	main_changed	L5	無	5	3	familial isolated hypoparathyroidism due to impaired PTH secretion	craniofacial conodysplasia		data-20261016	
+FRTxGNN	alfentanil	alfentanil	keep		L5	無	1	1	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	alfuzosin	alfuzosin	keep		L5	無	10	10	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+FRTxGNN	alglucosidase_alfa	alglucosidase_alfa	keep		L5	無	8	8	adult polyglucosan body disease	adult polyglucosan body disease		data-20261016	
+FRTxGNN	alimemazine	alimemazine	regen	only_removed	L4	無	4	3	IgE responsiveness, atopic	IgE responsiveness, atopic		data-20261016	
+FRTxGNN	alirocumab	alirocumab	keep		L4	有	10	10	ichthyosis, X-linked, without steroid sulfatase deficiency	ichthyosis, X-linked, without steroid sulfatase deficiency		data-20261016	
+FRTxGNN	alitretinoin	alitretinoin	keep		L5	有	10	10	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	allopurinol	allopurinol	keep		L4	有	10	10	hepatic porphyria	hepatic porphyria		data-20261016	
+FRTxGNN	almitrine	almitrine	keep		L3	有	1	1	bronchitis	bronchitis		data-20261016	
+FRTxGNN	almotriptan	almotriptan	keep		L4	有	2	2	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+FRTxGNN	alpelisib	alpelisib	keep		L5	有	1	1	pulmonary hypertension	pulmonary hypertension		data-20261016	
+FRTxGNN	alprazolam	alprazolam	keep		L4	有	3	3	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	alprostadil	alprostadil	keep		L4	有	10	10	aortic malformation	aortic malformation		data-20261016	
+FRTxGNN	alteplase	alteplase	keep		L5	有	6	6	heparin cofactor 2 deficiency	heparin cofactor 2 deficiency		data-20261016	
+FRTxGNN	altretamine	altretamine	keep		L4	有	6	6	female breast carcinoma	female breast carcinoma		data-20261016	
+FRTxGNN	alverine	alverine	keep		L4	有	9	9	dysthymic disorder	dysthymic disorder		data-20261016	
+FRTxGNN	ambrisentan	ambrisentan	keep		L2	有	5	5	pulmonary arteriovenous malformation (disease)	pulmonary arteriovenous malformation (disease)		data-20261016	
+FRTxGNN	ambroxol	ambroxol	regen	only_removed	L5	有	5	4	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	amifampridine	amifampridine	keep		L5	無	2	2	glaucoma	glaucoma		data-20261016	
+FRTxGNN	amikacin	amikacin	keep		L4	有	10	10	paratyphoid fever	paratyphoid fever		data-20261016	
+FRTxGNN	amiloride	amiloride	keep		L5	有	5	5	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	aminophylline	aminophylline	regen	only_removed	L4	有	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	amiodarone	amiodarone	keep		L5	有	10	10	catecholaminergic polymorphic ventricular tachycardia	catecholaminergic polymorphic ventricular tachycardia		data-20261016	
+FRTxGNN	amlodipine	amlodipine	keep		L5	有	9	9	brain stem infarction	brain stem infarction		data-20261016	
+FRTxGNN	ammonium_chloride	ammonium_chloride	regen	main_changed	L5	無	2	1	acute laryngopharyngitis	nasal cavity disease		data-20261016	
+FRTxGNN	amoxicillin	amoxicillin	keep		L5	無	8	8	hyperamylasemia	hyperamylasemia		data-20261016	
+FRTxGNN	ampicillin	ampicillin	regen	only_removed	L4	有	10	9	laryngitis	laryngitis		data-20261016	
+FRTxGNN	amsacrine	amsacrine	keep		L3	有	5	5	hyperthyroidism	hyperthyroidism		data-20261016	
+FRTxGNN	amylmetacresol	amylmetacresol	keep		L5	無	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	anagrelide	anagrelide	keep		L5	有	2	2	reactive thrombocytosis	reactive thrombocytosis		data-20261016	
+FRTxGNN	anakinra	anakinra	keep		L3	有	10	10	extracutaneous mastocytoma	extracutaneous mastocytoma		data-20261016	
+FRTxGNN	anastrozole	anastrozole	keep		L1	有	5	5	neuroblastoma	neuroblastoma		data-20261016	
+FRTxGNN	apixaban	apixaban	keep		L4	有	1	1	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	aprepitant	aprepitant	keep		L5	有	10	10	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	arginine	arginine	keep		L4	有	1	1	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+FRTxGNN	aripiprazole	aripiprazole	regen	only_removed	L1	有	10	9	major affective disorder	major affective disorder		data-20261016	
+FRTxGNN	artemether	artemether	regen	only_removed	L1	有	9	8	acquired angioedema	acquired angioedema		data-20261016	
+FRTxGNN	articaine	articaine	keep		L5	有	4	4	gout	gout		data-20261016	
+FRTxGNN	asfotase_alfa	asfotase_alfa	keep		L5	無	10	10	mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies	mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies		data-20261016	
+FRTxGNN	ataluren	ataluren	keep		L5	無	6	6	benign recurrent intrahepatic cholestasis	benign recurrent intrahepatic cholestasis		data-20261016	
+FRTxGNN	atazanavir	atazanavir	keep		L5	有	4	4	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	atenolol	atenolol	regen	has_added	L5	有	4	5	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	atezolizumab	atezolizumab	regen	main_changed	L5	有	9	6	prostatic urethra urothelial carcinoma	uterine ligament adenocarcinoma		data-20261016	
+FRTxGNN	atorvastatin	atorvastatin	keep		L1	有	4	4	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	atosiban	atosiban	keep		L5	有	10	10	primary hereditary glaucoma	primary hereditary glaucoma		data-20261016	
+FRTxGNN	atropine	atropine	keep		L4	有	2	2	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	avapritinib	avapritinib	regen	only_removed	L5	無	10	9	axial spondylometaphyseal dysplasia	axial spondylometaphyseal dysplasia		data-20261016	
+FRTxGNN	avelumab	avelumab	regen	only_removed	L5	無	10	9	human herpesvirus 8-related tumor	human herpesvirus 8-related tumor		data-20261016	
+FRTxGNN	avibactam	avibactam	regen	main_changed	L5	無	5	4	influenza, severe, susceptibility to	ureter tuberculosis		data-20261016	
+FRTxGNN	axitinib	axitinib	keep		L5	有	4	4	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	azathioprine	azathioprine	regen	only_removed	L1	有	8	7	colobomatous microphthalmia-rhizomelic dysplasia syndrome	colobomatous microphthalmia-rhizomelic dysplasia syndrome		data-20261016	
+FRTxGNN	aztreonam	aztreonam	keep		L5	有	10	10	hyperamylasemia	hyperamylasemia		data-20261016	
+FRTxGNN	bacitracin	bacitracin	keep		L4	無	10	10	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	baclofen	baclofen	keep		L5	有	2	2	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+FRTxGNN	baricitinib	baricitinib	keep		L5	無	2	2	colobomatous microphthalmia-rhizomelic dysplasia syndrome	colobomatous microphthalmia-rhizomelic dysplasia syndrome		data-20261016	
+FRTxGNN	bedaquiline	bedaquiline	keep		L5	有	4	4	vulvovaginal candidiasis	vulvovaginal candidiasis		data-20261016	
+FRTxGNN	belimumab	belimumab	keep		L5	無	6	6	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	benazepril	benazepril	keep		L5	無	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	bendamustine	bendamustine	keep		L1	有	10	10	mantle cell lymphoma	mantle cell lymphoma		data-20261016	
+FRTxGNN	bendroflumethiazide	bendroflumethiazide	keep		L5	無	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	benralizumab	benralizumab	keep		L5	有	5	5	thrombocytopenia due to immune destruction	thrombocytopenia due to immune destruction		data-20261016	
+FRTxGNN	benzocaine	benzocaine	keep		L5	無	1	1	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+FRTxGNN	benzoic_acid	benzoic_acid	keep		L5	有	10	10	bronchitis	bronchitis		data-20261016	
+FRTxGNN	benzydamine	benzydamine	keep		L5	無	1	1	benign prostatic hyperplasia (disease)	benign prostatic hyperplasia (disease)		data-20261016	
+FRTxGNN	benzylpenicillin	benzylpenicillin	keep		L5	無	7	7	pericoronitis	pericoronitis		data-20261016	
+FRTxGNN	betamethasone	betamethasone	keep		L2	有	8	8	alopecia areata	alopecia areata		data-20261016	
+FRTxGNN	betaxolol	betaxolol	known_use		L5	無	0	0				data-20261016	
+FRTxGNN	bevacizumab	bevacizumab	keep		L5	有	10	10	epiglottis neoplasm	epiglottis neoplasm		data-20261016	
+FRTxGNN	bexarotene	bexarotene	keep		L5	有	3	3	primary cutaneous B-cell lymphoma	primary cutaneous B-cell lymphoma		data-20261016	
+FRTxGNN	bezlotoxumab	bezlotoxumab	keep		L5	無	10	10	acute female pelvic peritonitis	acute female pelvic peritonitis		data-20261016	
+FRTxGNN	bicalutamide	bicalutamide	keep		L5	有	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	bictegravir	bictegravir	keep		L4	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	bimatoprost	bimatoprost	keep		L2	有	10	10	malformation syndrome with odontal and/or periodontal component	malformation syndrome with odontal and/or periodontal component		data-20261016	
+FRTxGNN	biotin	biotin	keep		L5	有	2	2	dyspepsia	dyspepsia		data-20261016	
+FRTxGNN	bisoprolol	bisoprolol	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	bleomycin	bleomycin	keep		L5	有	6	6	cauda equina neoplasm	cauda equina neoplasm		data-20261016	
+FRTxGNN	bosentan	bosentan	keep		L4	有	8	8	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	brentuximab_vedotin	brentuximab_vedotin	keep		L3	有	10	10	follicular lymphoma	follicular lymphoma		data-20261016	
+FRTxGNN	brigatinib	brigatinib	keep		L5	有	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+FRTxGNN	brinzolamide	brinzolamide	known_use		L5	無	0	0				data-20261016	
+FRTxGNN	brivaracetam	brivaracetam	keep		L5	有	1	1	beta-ketothiolase deficiency	beta-ketothiolase deficiency		data-20261016	
+FRTxGNN	brodalumab	brodalumab	keep		L5	有	10	10	strongyloidiasis	strongyloidiasis		data-20261016	
+FRTxGNN	brolucizumab	brolucizumab	keep		L5	無	4	4	mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies	mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies		data-20261016	
+FRTxGNN	bromazepam	bromazepam	keep		L5	無	1	1	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	bromocriptine	bromocriptine	keep		L5	有	10	10	congenital disorder of glycosylation with defective fucosylation	congenital disorder of glycosylation with defective fucosylation		data-20261016	
+FRTxGNN	budesonide	budesonide	keep		L5	有	10	10	atopic eczema	atopic eczema		data-20261016	
+FRTxGNN	bumetanide	bumetanide	keep		L4	有	1	1	acute pulmonary heart disease	acute pulmonary heart disease		data-20261016	
+FRTxGNN	bupivacaine	bupivacaine	keep		L5	無	4	4	acrodermatitis chronica atrophicans	acrodermatitis chronica atrophicans		data-20261016	
+FRTxGNN	buprenorphine	buprenorphine	keep		L4	有	6	6	acute intermittent porphyria	acute intermittent porphyria		data-20261016	
+FRTxGNN	busulfan	busulfan	keep		L1	有	10	10	myelodysplastic syndrome	myelodysplastic syndrome		data-20261016	
+FRTxGNN	cabazitaxel	cabazitaxel	keep		L5	有	10	10	female breast carcinoma	female breast carcinoma		data-20261016	
+FRTxGNN	cabergoline	cabergoline	keep		L5	有	4	4	progeria-short stature-pigmented nevi syndrome	progeria-short stature-pigmented nevi syndrome		data-20261016	
+FRTxGNN	cabotegravir	cabotegravir	keep		L5	無	5	5	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	calcifediol	calcifediol	regen	only_removed	L5	有	4	2	obsolete vitamin D deficiency	obsolete vitamin D deficiency		data-20261016	
+FRTxGNN	calcipotriol	calcipotriol	keep		L3	有	10	10	seborrheic keratosis	seborrheic keratosis		data-20261016	
+FRTxGNN	calcitriol	calcitriol	regen	only_removed	L5	有	7	5	obsolete vitamin D deficiency	obsolete vitamin D deficiency		data-20261016	
+FRTxGNN	camphor	camphor	regen	only_removed	L4	有	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	canakinumab	canakinumab	keep		L5	無	9	9	hepatic infarction	hepatic infarction		data-20261016	
+FRTxGNN	candesartan_cilexetil	candesartan_cilexetil	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	capecitabine	capecitabine	regen	main_changed	L1	有	0	1		gastric adenocarcinoma and proximal polyposis of the stomach		data-20261016	
+FRTxGNN	caplacizumab	caplacizumab	keep		L5	有	9	9	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	captopril	captopril	keep		L4	有	3	3	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	carbamazepine	carbamazepine	keep		L4	有	3	3	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	carbetocin	carbetocin	keep		L5	無	2	2	isotretinoin-like syndrome	isotretinoin-like syndrome		data-20261016	
+FRTxGNN	carbimazole	carbimazole	regen	only_removed	L4	有	3	2	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta		data-20261016	
+FRTxGNN	carbocisteine	carbocisteine	keep		L5	無	1	1	gout	gout		data-20261016	
+FRTxGNN	carboplatin	carboplatin	keep		L1	有	9	9	rectum mucinous adenocarcinoma	rectum mucinous adenocarcinoma		data-20261016	
+FRTxGNN	carfilzomib	carfilzomib	keep		L5	有	5	5	CMM7	CMM7		data-20261016	
+FRTxGNN	carvedilol	carvedilol	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	caspofungin	caspofungin	keep		L5	無	1	1	gastrin secretion abnormality	gastrin secretion abnormality		data-20261016	
+FRTxGNN	cefazolin	cefazolin	keep		L4	有	8	8	infectious otitis media	infectious otitis media		data-20261016	
+FRTxGNN	cefoxitin	cefoxitin	regen	only_removed	L5	有	10	9	infectious otitis media	infectious otitis media		data-20261016	
+FRTxGNN	cefpodoxime	cefpodoxime	regen	main_changed	L5	無	3	2	osteoarthritis susceptibility	osteoarthritis		data-20261016	
+FRTxGNN	ceftolozane	ceftolozane	keep		L5	有	10	10	Ureaplasma urethritis	Ureaplasma urethritis		data-20261016	
+FRTxGNN	ceftriaxone	ceftriaxone	keep		L5	有	7	7	polyclonal hyperviscosity syndrome	polyclonal hyperviscosity syndrome		data-20261016	
+FRTxGNN	cefuroxime	cefuroxime	regen	only_removed	L5	有	10	9	hyperamylasemia	hyperamylasemia		data-20261016	
+FRTxGNN	celecoxib	celecoxib	regen	only_removed	L5	有	8	7	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	cemiplimab	cemiplimab	keep		L5	有	6	6	gallbladder adenosquamous carcinoma	gallbladder adenosquamous carcinoma		data-20261016	
+FRTxGNN	ceritinib	ceritinib	keep		L5	無	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+FRTxGNN	cerliponase_alfa	cerliponase_alfa	regen	only_removed	L5	無	10	9	Scheie syndrome	Scheie syndrome		data-20261016	
+FRTxGNN	certolizumab_pegol	certolizumab_pegol	regen	only_removed	L4	有	4	3	hypermobility of coccyx	hypermobility of coccyx		data-20261016	
+FRTxGNN	cetirizine	cetirizine	regen	only_removed	L2	有	4	3	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	cetrorelix	cetrorelix	keep		L5	無	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	cetuximab	cetuximab	keep		L5	有	10	10	bronchial adenomas/carcinoids childhood	bronchial adenomas/carcinoids childhood		data-20261016	
+FRTxGNN	chlorambucil	chlorambucil	keep		L3	有	7	7	chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation	chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation		data-20261016	
+FRTxGNN	chlordiazepoxide	chlordiazepoxide	keep		L4	有	10	10	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	chlorobutanol	chlorobutanol	regen	only_removed	L5	無	10	9	erectile dysfunction (disease)	erectile dysfunction (disease)		data-20261016	
+FRTxGNN	chloroquine	chloroquine	keep		L5	有	4	4	rheumatoid factor-positive polyarticular juvenile idiopathic arthritis	rheumatoid factor-positive polyarticular juvenile idiopathic arthritis		data-20261016	
+FRTxGNN	chlorpromazine	chlorpromazine	keep		L4	有	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+FRTxGNN	chlorthalidone	chlorthalidone	keep		L5	無	9	9	primary hereditary glaucoma	primary hereditary glaucoma		data-20261016	
+FRTxGNN	cholecalciferol	cholecalciferol	regen	main_changed	L2	有	7	4	familial isolated hypoparathyroidism due to impaired PTH secretion	acromesomelic dysplasia, Campailla Martinelli type		data-20261016	
+FRTxGNN	ciclesonide	ciclesonide	keep		L5	有	5	5	atopic eczema	atopic eczema		data-20261016	
+FRTxGNN	cidofovir	cidofovir	keep		L5	有	4	4	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+FRTxGNN	cilastatin	cilastatin	keep		L3	有	9	9	staphylococcus aureus infection	staphylococcus aureus infection		data-20261016	
+FRTxGNN	cimetidine	cimetidine	regen	only_removed	L5	有	5	4	peptic ulcer perforation	peptic ulcer perforation		data-20261016	
+FRTxGNN	cinchocaine	cinchocaine	keep		L5	無	7	7	bronchitis	bronchitis		data-20261016	
+FRTxGNN	ciprofibrate	ciprofibrate	regen	main_changed	L3	有	8	2	hyperlipoproteinemia	cholesterol-ester transfer protein deficiency		data-20261016	
+FRTxGNN	ciprofloxacin	ciprofloxacin	keep		L4	有	10	10	diffuse scleroderma	diffuse scleroderma		data-20261016	
+FRTxGNN	cisatracurium	cisatracurium	keep		L5	有	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	citalopram	citalopram	keep		L2	有	5	5	obsessive-compulsive disorder	obsessive-compulsive disorder		data-20261016	
+FRTxGNN	cladribine	cladribine	keep		L5	有	7	7	parameningeal embryonal rhabdomyosarcoma	parameningeal embryonal rhabdomyosarcoma		data-20261016	
+FRTxGNN	clarithromycin	clarithromycin	keep		L5	有	5	5	polyclonal hyperviscosity syndrome	polyclonal hyperviscosity syndrome		data-20261016	
+FRTxGNN	clidinium	clidinium	keep		L5	有	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	clindamycin	clindamycin	keep		L5	無	6	6	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	clioquinol	clioquinol	regen	only_removed	L4	有	3	2	ectothrix infectious disease	ectothrix infectious disease		data-20261016	
+FRTxGNN	clobazam	clobazam	keep		L5	有	10	10	febrile infection-related epilepsy syndrome	febrile infection-related epilepsy syndrome		data-20261016	
+FRTxGNN	clobetasol	clobetasol	keep		L3	有	1	1	primary cutaneous T-cell lymphoma	primary cutaneous T-cell lymphoma		data-20261016	
+FRTxGNN	clofarabine	clofarabine	keep		L1	有	8	8	myeloid leukemia	myeloid leukemia		data-20261016	
+FRTxGNN	clofazimine	clofazimine	keep		L5	有	3	3	pneumocystosis	pneumocystosis		data-20261016	
+FRTxGNN	clomifene	clomifene	keep		L1	有	10	10	46,XY disorder of sex development due to testicular steroidogenesis defect	46,XY disorder of sex development due to testicular steroidogenesis defect		data-20261016	
+FRTxGNN	clomipramine	clomipramine	keep		L5	有	8	8	anxiety disorder	anxiety disorder		data-20261016	
+FRTxGNN	clonazepam	clonazepam	keep		L3	有	3	3	restless legs syndrome	restless legs syndrome		data-20261016	
+FRTxGNN	clonidine	clonidine	keep		L3	有	10	10	faciodigitogenital syndrome	faciodigitogenital syndrome		data-20261016	
+FRTxGNN	clopidogrel	clopidogrel	regen	only_removed	L5	有	8	7	migraine with brainstem aura	migraine with brainstem aura		data-20261016	
+FRTxGNN	clotiazepam	clotiazepam	keep		L4	有	2	2	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	clotrimazole	clotrimazole	keep		L1	有	3	3	acne (disease)	acne (disease)		data-20261016	
+FRTxGNN	clozapine	clozapine	keep		L5	有	10	10	manic bipolar affective disorder	manic bipolar affective disorder		data-20261016	
+FRTxGNN	cobicistat	cobicistat	keep		L5	無	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	cobimetinib	cobimetinib	regen	only_removed	L5	無	10	9	amyotrophic lateral sclerosis	amyotrophic lateral sclerosis		data-20261016	
+FRTxGNN	codeine	codeine	regen	only_removed	L4	有	4	3	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	colchicine	colchicine	keep		L5	有	2	2	Plasmodium falciparum malaria	Plasmodium falciparum malaria		data-20261016	
+FRTxGNN	conestat_alfa	conestat_alfa	keep		L1	有	9	9	C1 inhibitor deficiency	C1 inhibitor deficiency		data-20261016	
+FRTxGNN	corifollitropin_alfa	corifollitropin_alfa	regen	only_removed	L5	無	8	7	gastroduodenitis	gastroduodenitis		data-20261016	
+FRTxGNN	cortisone	cortisone	keep		L4	有	9	9	primary cutaneous T-cell lymphoma	primary cutaneous T-cell lymphoma		data-20261016	
+FRTxGNN	crizotinib	crizotinib	keep		L5	無	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+FRTxGNN	cyanocobalamin	cyanocobalamin	keep		L5	有	1	1	biotin metabolic disease	biotin metabolic disease		data-20261016	
+FRTxGNN	cyclopentolate	cyclopentolate	keep		L5	無	3	3	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	cyclophosphamide	cyclophosphamide	regen	only_removed	L1	有	5	4	myeloid leukemia	myeloid leukemia		data-20261016	
+FRTxGNN	cyclosporine	cyclosporine	keep		L4	有	7	7	granulomatous disease, chronic, autosomal recessive	granulomatous disease, chronic, autosomal recessive		data-20261016	
+FRTxGNN	cysteine	cysteine	keep		L5	有	7	7	dry eye syndrome	dry eye syndrome		data-20261016	
+FRTxGNN	cytarabine	cytarabine	keep		L4	有	9	9	small cell lung carcinoma	small cell lung carcinoma		data-20261016	
+FRTxGNN	dabigatran_etexilate	dabigatran_etexilate	keep		L5	有	5	5	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+FRTxGNN	dacarbazine	dacarbazine	keep		L4	有	1	1	upper aerodigestive tract neoplasm	upper aerodigestive tract neoplasm		data-20261016	
+FRTxGNN	dactinomycin	dactinomycin	regen	only_removed	L5	有	9	4	relapsing-remitting multiple sclerosis	relapsing-remitting multiple sclerosis		data-20261016	
+FRTxGNN	dalteparin	dalteparin	keep		L5	無	5	5	thrombophilia due to protein C deficiency, autosomal recessive	thrombophilia due to protein C deficiency, autosomal recessive		data-20261016	
+FRTxGNN	danaparoid	danaparoid	keep		L5	無	6	6	Glanzmann thrombasthenia	Glanzmann thrombasthenia		data-20261016	
+FRTxGNN	danazol	danazol	keep		L3	有	10	10	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	dantrolene	dantrolene	regen	only_removed	L3	有	8	7	moderate multiminicore disease with hand involvement	moderate multiminicore disease with hand involvement		data-20261016	
+FRTxGNN	dapsone	dapsone	keep		L1	有	1	1	pneumocystosis	pneumocystosis		data-20261016	
+FRTxGNN	daptomycin	daptomycin	regen	only_removed	L4	有	10	9	osteoarthritis	osteoarthritis		data-20261016	
+FRTxGNN	darolutamide	darolutamide	keep		L5	有	3	3	homozygous familial hypercholesterolemia	homozygous familial hypercholesterolemia		data-20261016	
+FRTxGNN	darunavir	darunavir	keep		L4	有	4	4	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	dasatinib	dasatinib	keep		L5	有	9	9	Ewing sarcoma	Ewing sarcoma		data-20261016	
+FRTxGNN	deferasirox	deferasirox	keep		L4	有	5	5	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	deferiprone	deferiprone	keep		L4	有	8	8	hepatic porphyria	hepatic porphyria		data-20261016	
+FRTxGNN	defibrotide	defibrotide	keep		L5	有	10	10	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+FRTxGNN	degarelix	degarelix	keep		L5	無	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	delamanid	delamanid	keep		L4	有	1	1	allergic urticaria	allergic urticaria		data-20261016	
+FRTxGNN	denosumab	denosumab	keep		L5	無	2	2	severe nonproliferative diabetic retinopathy	severe nonproliferative diabetic retinopathy		data-20261016	
+FRTxGNN	desloratadine	desloratadine	regen	only_removed	L1	有	5	4	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	desmopressin	desmopressin	keep		L3	有	6	6	congenital prothrombin deficiency	congenital prothrombin deficiency		data-20261016	
+FRTxGNN	desogestrel	desogestrel	keep		L3	有	10	10	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	desonide	desonide	keep		L5	無	10	10	polyp of vocal cord	polyp of vocal cord		data-20261016	
+FRTxGNN	dexamethasone	dexamethasone	keep		L2	有	10	10	alopecia areata	alopecia areata		data-20261016	
+FRTxGNN	dexchlorpheniramine	dexchlorpheniramine	known_use		L4	有	0	0				data-20261016	
+FRTxGNN	dexketoprofen	dexketoprofen	keep		L5	有	10	10	tendinitis	tendinitis		data-20261016	
+FRTxGNN	dexpanthenol	dexpanthenol	keep		L4	有	7	7	anorectal stricture	anorectal stricture		data-20261016	
+FRTxGNN	dextromethorphan	dextromethorphan	regen	only_removed	L5	無	6	5	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	diazepam	diazepam	keep		L4	有	10	10	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	diazoxide	diazoxide	regen	only_removed	L5	有	10	9	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	dibotermin_alfa	dibotermin_alfa	keep		L5	有	9	9	esotropia	esotropia		data-20261016	
+FRTxGNN	diclofenac	diclofenac	keep		L3	有	10	10	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	dienogest	dienogest	keep		L4	有	10	10	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	diethylcarbamazine	diethylcarbamazine	keep		L5	有	2	2	syndromic lymphedema	syndromic lymphedema		data-20261016	
+FRTxGNN	difluprednate	difluprednate	keep		L5	有	10	10	familial adrenal hypoplasia with absent pituitary luteinizing hormone	familial adrenal hypoplasia with absent pituitary luteinizing hormone		data-20261016	
+FRTxGNN	digoxin	digoxin	regen	only_removed	L5	無	6	5	Prinzmetal angina	Prinzmetal angina		data-20261016	
+FRTxGNN	dihydralazine	dihydralazine	keep		L5	有	10	10	heart disease	heart disease		data-20261016	
+FRTxGNN	dihydrocodeine	dihydrocodeine	regen	only_removed	L5	有	9	8	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	dihydroergotamine	dihydroergotamine	known_use		L5	有	0	0				data-20261016	
+FRTxGNN	diltiazem	diltiazem	known_use		L5	無	1	0	obsolete susceptibility to ischemic stroke			data-20261016	
+FRTxGNN	dimenhydrinate	dimenhydrinate	keep		L5	有	2	2	allergic urticaria	allergic urticaria		data-20261016	
+FRTxGNN	dimercaprol	dimercaprol	keep		L5	有	1	1	bronchitis	bronchitis		data-20261016	
+FRTxGNN	diosmin	diosmin	keep		L5	無	1	1	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	dipyridamole	dipyridamole	regen	main_changed	L4	有	9	8	stroke disorder	thrombotic disease		data-20261016	
+FRTxGNN	disopyramide	disopyramide	keep		L5	無	10	10	Tourette syndrome	Tourette syndrome		data-20261016	
+FRTxGNN	docetaxel	docetaxel	regen	only_removed	L2	有	8	7	Ewing sarcoma	Ewing sarcoma		data-20261016	
+FRTxGNN	docusate	docusate	keep		L5	無	2	2	Plummer-Vinson syndrome	Plummer-Vinson syndrome		data-20261016	
+FRTxGNN	dolutegravir	dolutegravir	keep		L5	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	domperidone	domperidone	keep		L5	無	1	1	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	donepezil	donepezil	keep		L3	有	8	8	psychogenic movement disorders	psychogenic movement disorders		data-20261016	
+FRTxGNN	doravirine	doravirine	keep		L5	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	doxazosin	doxazosin	keep		L4	有	2	2	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	doxorubicin	doxorubicin	regen	only_removed	L1	有	9	8	Ewing sarcoma	Ewing sarcoma		data-20261016	
+FRTxGNN	doxycycline	doxycycline	keep		L3	有	10	10	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	doxylamine	doxylamine	regen	only_removed	L5	無	2	1	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	dronedarone	dronedarone	regen	only_removed	L4	有	10	9	stroke disorder	stroke disorder		data-20261016	
+FRTxGNN	droperidol	droperidol	keep		L5	有	10	10	Tourette syndrome	Tourette syndrome		data-20261016	
+FRTxGNN	duloxetine	duloxetine	keep		L5	有	10	10	benign paroxysmal torticollis of infancy	benign paroxysmal torticollis of infancy		data-20261016	
+FRTxGNN	dupilumab	dupilumab	keep		L3	有	9	9	bronchitis	bronchitis		data-20261016	
+FRTxGNN	durvalumab	durvalumab	regen	main_changed	L5	有	9	6	prostatic urethra urothelial carcinoma	uterine ligament adenocarcinoma		data-20261016	
+FRTxGNN	dutasteride	dutasteride	keep		L5	無	10	10	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+FRTxGNN	ebastine	ebastine	keep		L5	無	2	2	coronary artery disease	coronary artery disease		data-20261016	
+FRTxGNN	econazole	econazole	regen	main_changed	L5	有	3	2	Majocchi granuloma	ectothrix infectious disease		data-20261016	
+FRTxGNN	eculizumab	eculizumab	keep		L5	無	10	10	cyclic hematopoiesis	cyclic hematopoiesis		data-20261016	
+FRTxGNN	efavirenz	efavirenz	keep		L4	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	efmoroctocog_alfa	efmoroctocog_alfa	keep		L5	無	9	9	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+FRTxGNN	eftrenonacog_alfa	eftrenonacog_alfa	keep		L5	無	3	3	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+FRTxGNN	elafibranor	elafibranor	keep		L5	無	1	1	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	elbasvir	elbasvir	keep		L4	有	10	10	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+FRTxGNN	eletriptan	eletriptan	keep		L4	有	3	3	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+FRTxGNN	elosulfase_alfa	elosulfase_alfa	keep		L5	有	9	9	Scheie syndrome	Scheie syndrome		data-20261016	
+FRTxGNN	eltrombopag	eltrombopag	keep		L5	有	1	1	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	elvitegravir	elvitegravir	keep		L3	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	emicizumab	emicizumab	keep		L5	有	10	10	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+FRTxGNN	empagliflozin	empagliflozin	keep		L5	無	3	3	classic stiff person syndrome	classic stiff person syndrome		data-20261016	
+FRTxGNN	emtricitabine	emtricitabine	keep		L4	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	enfortumab_vedotin	enfortumab_vedotin	keep		L5	有	9	9	leprosy	leprosy		data-20261016	
+FRTxGNN	enoxaparin	enoxaparin	keep		L5	無	1	1	thrombophilia due to protein C deficiency, autosomal recessive	thrombophilia due to protein C deficiency, autosomal recessive		data-20261016	
+FRTxGNN	entacapone	entacapone	keep		L5	有	10	10	PLA2G6-associated neurodegeneration	PLA2G6-associated neurodegeneration		data-20261016	
+FRTxGNN	entecavir	entecavir	keep		L4	有	9	9	chronic hepatitis C virus infection	chronic hepatitis C virus infection		data-20261016	
+FRTxGNN	enzalutamide	enzalutamide	keep		L5	有	5	5	prostate leiomyoma	prostate leiomyoma		data-20261016	
+FRTxGNN	epinephrine	epinephrine	regen	only_removed	L1	有	4	3	obstructive lung disease	obstructive lung disease		data-20261016	
+FRTxGNN	epirubicin	epirubicin	keep		L4	有	7	7	primary pulmonary lymphoma	primary pulmonary lymphoma		data-20261016	
+FRTxGNN	eplerenone	eplerenone	keep		L4	有	4	4	pulmonary hypertension owing to lung disease and/or hypoxia	pulmonary hypertension owing to lung disease and/or hypoxia		data-20261016	
+FRTxGNN	eptifibatide	eptifibatide	keep		L5	有	10	10	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	eptinezumab	eptinezumab	known_use		L4	有	0	0				data-20261016	
+FRTxGNN	erdafitinib	erdafitinib	keep		L5	有	6	6	pulmonary hypertension	pulmonary hypertension		data-20261016	
+FRTxGNN	erenumab	erenumab	known_use		L4	有	0	0				data-20261016	
+FRTxGNN	ergocalciferol	ergocalciferol	regen	main_changed	L5	有	9	6	familial isolated hypoparathyroidism due to impaired PTH secretion	acromesomelic dysplasia, Campailla Martinelli type		data-20261016	
+FRTxGNN	eribulin	eribulin	regen	only_removed	L5	有	10	9	autosomal recessive familial Mediterranean fever	autosomal recessive familial Mediterranean fever		data-20261016	
+FRTxGNN	ertapenem	ertapenem	keep		L4	有	2	2	bacterial arthritis	bacterial arthritis		data-20261016	
+FRTxGNN	erythromycin	erythromycin	keep		L5	有	5	5	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	eslicarbazepine	eslicarbazepine	regen	only_removed	L2	有	6	5	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	esomeprazole	esomeprazole	keep		L5	有	1	1	duodenal obstruction	duodenal obstruction		data-20261016	
+FRTxGNN	estazolam	estazolam	keep		L5	有	9	9	visual epilepsy	visual epilepsy		data-20261016	
+FRTxGNN	estramustine	estramustine	keep		L5	有	8	8	fibroma of prostate	fibroma of prostate		data-20261016	
+FRTxGNN	estriol	estriol	keep		L3	有	1	1	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	etanercept	etanercept	regen	only_removed	L4	有	4	3	hypermobility of coccyx	hypermobility of coccyx		data-20261016	
+FRTxGNN	ethinylestradiol	ethinylestradiol	keep		L5	無	1	1	zinc, elevated plasma	zinc, elevated plasma		data-20261016	
+FRTxGNN	ethosuximide	ethosuximide	keep		L5	無	1	1	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	etodolac	etodolac	regen	only_removed	L5	有	9	6	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	etonogestrel	etonogestrel	keep		L5	有	5	5	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	etoposide	etoposide	keep		L1	有	10	10	well-differentiated fetal adenocarcinoma of the lung	well-differentiated fetal adenocarcinoma of the lung		data-20261016	
+FRTxGNN	etoricoxib	etoricoxib	regen	only_removed	L4	有	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	etravirine	etravirine	keep		L5	有	8	8	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	everolimus	everolimus	keep		L5	有	8	8	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	evolocumab	evolocumab	keep		L5	無	6	6	symptomatic form of hemophilia in female carriers	symptomatic form of hemophilia in female carriers		data-20261016	
+FRTxGNN	exemestane	exemestane	keep		L5	有	7	7	antithrombin deficiency type 2	antithrombin deficiency type 2		data-20261016	
+FRTxGNN	ezetimibe	ezetimibe	regen	main_changed	L1	有	2	1	hyperlipoproteinemia	cholesterol-ester transfer protein deficiency		data-20261016	
+FRTxGNN	famciclovir	famciclovir	keep		L4	有	9	9	post-infectious neuralgia	post-infectious neuralgia		data-20261016	
+FRTxGNN	famotidine	famotidine	regen	only_removed	L1	有	5	4	duodenal obstruction	duodenal obstruction		data-20261016	
+FRTxGNN	febuxostat	febuxostat	keep		L4	有	3	3	hypouricemia, renal	hypouricemia, renal		data-20261016	
+FRTxGNN	felbamate	felbamate	keep		L4	有	2	2	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	felodipine	felodipine	keep		L5	有	5	5	pulmonary hypertension with unclear multifactorial mechanism	pulmonary hypertension with unclear multifactorial mechanism		data-20261016	
+FRTxGNN	fenofibrate	fenofibrate	regen	main_changed	L4	有	6	1	homozygous familial hypercholesterolemia	cholesterol-ester transfer protein deficiency		data-20261016	
+FRTxGNN	fenoprofen	fenoprofen	regen	only_removed	L5	有	10	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	fenoterol	fenoterol	keep		L5	無	8	8	multiple system atrophy	multiple system atrophy		data-20261016	
+FRTxGNN	fentanyl	fentanyl	keep		L5	無	2	2	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	fenticonazole	fenticonazole	keep		L4	有	6	6	trichomonal vulvovaginitis	trichomonal vulvovaginitis		data-20261016	
+FRTxGNN	fidaxomicin	fidaxomicin	keep		L5	有	9	9	staphylococcal scalded skin syndrome	staphylococcal scalded skin syndrome		data-20261016	
+FRTxGNN	filgrastim	filgrastim	keep		L5	有	10	10	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	finasteride	finasteride	keep		L5	有	6	6	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+FRTxGNN	flavoxate	flavoxate	keep		L5	無	8	8	attention deficit hyperactivity disorder, inattentive type	attention deficit hyperactivity disorder, inattentive type		data-20261016	
+FRTxGNN	flecainide	flecainide	regen	only_removed	L5	有	10	9	stroke disorder	stroke disorder		data-20261016	
+FRTxGNN	flubendazole	flubendazole	keep		L5	有	10	10	urinary bladder carcinoma	urinary bladder carcinoma		data-20261016	
+FRTxGNN	fluconazole	fluconazole	keep		L5	無	1	1	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	flucytosine	flucytosine	keep		L5	無	1	1	bone Paget disease	bone Paget disease		data-20261016	
+FRTxGNN	fludarabine	fludarabine	keep		L2	有	10	10	plasma cell myeloma	plasma cell myeloma		data-20261016	
+FRTxGNN	fludrocortisone	fludrocortisone	keep		L4	有	8	8	primary cutaneous T-cell lymphoma	primary cutaneous T-cell lymphoma		data-20261016	
+FRTxGNN	fluindione	fluindione	regen	only_removed	L5	無	2	1	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	flunarizine	flunarizine	known_use		L5	有	0	0				data-20261016	
+FRTxGNN	fluorescein	fluorescein	keep		L5	無	10	10	Prinzmetal angina	Prinzmetal angina		data-20261016	
+FRTxGNN	fluorometholone	fluorometholone	regen	only_removed	L5	有	10	9	postinfectious vasculitis	postinfectious vasculitis		data-20261016	
+FRTxGNN	fluorouracil	fluorouracil	keep		L4	有	10	10	botryoid-type embryonal rhabdomyosarcoma of the vagina	botryoid-type embryonal rhabdomyosarcoma of the vagina		data-20261016	
+FRTxGNN	flupentixol	flupentixol	keep		L5	無	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+FRTxGNN	flurbiprofen	flurbiprofen	regen	only_removed	L5	無	10	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	fluticasone	fluticasone	keep		L5	有	3	3	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	fluvastatin	fluvastatin	regen	main_changed	L5	有	7	6	hyperlipoproteinemia	HIV infectious disease		data-20261016	
+FRTxGNN	fluvoxamine	fluvoxamine	keep		L1	有	10	10	schizotypal personality disorder	schizotypal personality disorder		data-20261016	
+FRTxGNN	fomepizole	fomepizole	keep		L5	無	1	1	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+FRTxGNN	formoterol	formoterol	keep		L5	有	3	3	respiratory malformation	respiratory malformation		data-20261016	
+FRTxGNN	fosamprenavir	fosamprenavir	keep		L4	無	7	7	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	fosfomycin	fosfomycin	regen	main_changed	L5	有	10	8	gonococcal urethritis	uterine inflammatory disease		data-20261016	
+FRTxGNN	fosinopril	fosinopril	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	framycetin	framycetin	keep		L5	無	7	7	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+FRTxGNN	fremanezumab	fremanezumab	keep		L4	有	1	1	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+FRTxGNN	frovatriptan	frovatriptan	keep		L4	有	2	2	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+FRTxGNN	fulvestrant	fulvestrant	keep		L5	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	galantamine	galantamine	keep		L5	無	9	9	psychogenic movement disorders	psychogenic movement disorders		data-20261016	
+FRTxGNN	galcanezumab	galcanezumab	keep		L5	無	3	3	heparin cofactor 2 deficiency	heparin cofactor 2 deficiency		data-20261016	
+FRTxGNN	ganirelix	ganirelix	keep		L5	無	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	gefitinib	gefitinib	keep		L5	無	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+FRTxGNN	gemeprost	gemeprost	keep		L5	有	5	5	atypical coarctation of aorta	atypical coarctation of aorta		data-20261016	
+FRTxGNN	gemfibrozil	gemfibrozil	regen	only_removed	L4	有	10	9	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	gilteritinib	gilteritinib	keep		L5	無	1	1	bulbar polio	bulbar polio		data-20261016	
+FRTxGNN	ginseng	ginseng	keep		L5	無	10	10	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+FRTxGNN	givosiran	givosiran	keep		L4	有	9	9	hepatoportal sclerosis	hepatoportal sclerosis		data-20261016	
+FRTxGNN	glatiramer	glatiramer	keep		L5	有	1	1	hemoglobinopathy	hemoglobinopathy		data-20261016	
+FRTxGNN	glecaprevir	glecaprevir	keep		L4	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	glimepiride	glimepiride	keep		L5	無	9	9	classic stiff person syndrome	classic stiff person syndrome		data-20261016	
+FRTxGNN	glucagon	glucagon	keep		L3	有	1	1	irritable bowel syndrome	irritable bowel syndrome		data-20261016	
+FRTxGNN	glucarpidase	glucarpidase	keep		L5	無	10	10	diabetic cataract	diabetic cataract		data-20261016	
+FRTxGNN	glycerin	glycerin	keep		L5	無	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	glycine	glycine	regen	only_removed	L5	有	2	1	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	golimumab	golimumab	regen	only_removed	L4	有	3	2	hypermobility of coccyx	hypermobility of coccyx		data-20261016	
+FRTxGNN	goserelin	goserelin	keep		L5	有	3	3	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	grazoprevir	grazoprevir	keep		L5	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	guaifenesin	guaifenesin	regen	only_removed	L4	有	5	4	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	guselkumab	guselkumab	keep		L5	有	8	8	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+FRTxGNN	haloperidol	haloperidol	keep		L5	有	10	10	congenital disorder of glycosylation with defective fucosylation	congenital disorder of glycosylation with defective fucosylation		data-20261016	
+FRTxGNN	hemin	hemin	keep		L5	無	10	10	thrombocytopenic purpura	thrombocytopenic purpura		data-20261016	
+FRTxGNN	heparin	heparin	keep		L5	無	2	2	thrombophilia due to protein C deficiency, autosomal recessive	thrombophilia due to protein C deficiency, autosomal recessive		data-20261016	
+FRTxGNN	hesperidin	hesperidin	keep		L5	有	5	5	myeloproliferative neoplasm	myeloproliferative neoplasm		data-20261016	
+FRTxGNN	hexetidine	hexetidine	keep		L5	有	10	10	interventricular septum aneurysm	interventricular septum aneurysm		data-20261016	
+FRTxGNN	histidine	histidine	keep		L5	有	2	2	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+FRTxGNN	hydrocortisone	hydrocortisone	keep		L5	有	9	9	alopecia areata	alopecia areata		data-20261016	
+FRTxGNN	hydroxocobalamin	hydroxocobalamin	keep		L5	無	2	2	esophageal varices without bleeding	esophageal varices without bleeding		data-20261016	
+FRTxGNN	hydroxyzine	hydroxyzine	keep		L4	有	1	1	rosacea conjunctivitis	rosacea conjunctivitis		data-20261016	
+FRTxGNN	hymecromone	hymecromone	keep		L5	無	10	10	diabetic nephropathy	diabetic nephropathy		data-20261016	
+FRTxGNN	ibuprofen	ibuprofen	keep		L5	無	7	7	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	icatibant	icatibant	keep		L1	有	7	7	C1 inhibitor deficiency	C1 inhibitor deficiency		data-20261016	
+FRTxGNN	idebenone	idebenone	keep		L5	無	10	10	hepatic porphyria	hepatic porphyria		data-20261016	
+FRTxGNN	idelalisib	idelalisib	keep		L3	有	6	6	mantle cell lymphoma	mantle cell lymphoma		data-20261016	
+FRTxGNN	ifosfamide	ifosfamide	keep		L1	有	10	10	female breast carcinoma	female breast carcinoma		data-20261016	
+FRTxGNN	iloprost	iloprost	keep		L5	有	4	4	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	imatinib	imatinib	keep		L5	有	10	10	heart fibrosarcoma	heart fibrosarcoma		data-20261016	
+FRTxGNN	imiglucerase	imiglucerase	keep		L4	有	5	5	Hurler syndrome	Hurler syndrome		data-20261016	
+FRTxGNN	imipenem	imipenem	keep		L5	有	10	10	diffuse scleroderma	diffuse scleroderma		data-20261016	
+FRTxGNN	imipramine	imipramine	keep		L3	有	7	7	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+FRTxGNN	imiquimod	imiquimod	keep		L5	有	10	10	pre-malignant neoplasm	pre-malignant neoplasm		data-20261016	
+FRTxGNN	indacaterol	indacaterol	keep		L5	有	10	10	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	indomethacin	indomethacin	keep		L5	有	10	10	brachydactyly-syndactyly syndrome	brachydactyly-syndactyly syndrome		data-20261016	
+FRTxGNN	inotersen	inotersen	keep		L4	有	10	10	acute intermittent porphyria	acute intermittent porphyria		data-20261016	
+FRTxGNN	insulin_aspart	insulin_aspart	keep		L1	有	8	8	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+FRTxGNN	insulin_degludec	insulin_degludec	keep		L1	有	5	5	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+FRTxGNN	insulin_detemir	insulin_detemir	keep		L1	有	9	9	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+FRTxGNN	insulin_glargine	insulin_glargine	keep		L5	無	10	10	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+FRTxGNN	insulin_glulisine	insulin_glulisine	keep		L1	有	9	9	thiamine-responsive dysfunction syndrome	thiamine-responsive dysfunction syndrome		data-20261016	
+FRTxGNN	insulin_lispro	insulin_lispro	keep		L5	有	9	9	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+FRTxGNN	iobenguane	iobenguane	keep		L4	有	4	4	hypotensive disorder	hypotensive disorder		data-20261016	
+FRTxGNN	iodixanol	iodixanol	regen	main_changed	L5	有	3	2	osteoarthritis susceptibility	osteoarthritis		data-20261016	
+FRTxGNN	iohexol	iohexol	keep		L5	有	2	2	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	iopromide	iopromide	regen	main_changed	L5	無	10	9	osteoarthritis susceptibility	osteoarthritis		data-20261016	
+FRTxGNN	ioversol	ioversol	regen	main_changed	L5	有	10	9	osteoarthritis susceptibility	osteoarthritis		data-20261016	
+FRTxGNN	ipilimumab	ipilimumab	keep		L5	無	1	1	choroideremia	choroideremia		data-20261016	
+FRTxGNN	ipratropium	ipratropium	keep		L1	有	9	9	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	irbesartan	irbesartan	keep		L5	有	3	3	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	isavuconazonium	isavuconazonium	keep		L5	有	2	2	pneumocystosis	pneumocystosis		data-20261016	
+FRTxGNN	isoflurane	isoflurane	keep		L5	有	7	7	Prinzmetal angina	Prinzmetal angina		data-20261016	
+FRTxGNN	isoleucine	isoleucine	keep		L5	無	1	1	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+FRTxGNN	isoniazid	isoniazid	keep		L5	無	1	1	conjunctivitis	conjunctivitis		data-20261016	
+FRTxGNN	isotretinoin	isotretinoin	keep		L5	無	1	1	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	itraconazole	itraconazole	keep		L5	有	1	1	pneumocystosis	pneumocystosis		data-20261016	
+FRTxGNN	ivabradine	ivabradine	keep		L5	無	6	6	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	ivermectin	ivermectin	keep		L5	有	9	9	vulvovaginal candidiasis	vulvovaginal candidiasis		data-20261016	
+FRTxGNN	ivosidenib	ivosidenib	keep		L5	無	1	1	bulbar polio	bulbar polio		data-20261016	
+FRTxGNN	ketamine	ketamine	keep		L5	有	1	1	headache disorder	headache disorder		data-20261016	
+FRTxGNN	ketoconazole	ketoconazole	keep		L4	有	1	1	acne (disease)	acne (disease)		data-20261016	
+FRTxGNN	ketoprofen	ketoprofen	regen	only_removed	L5	無	10	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	ketorolac	ketorolac	keep		L1	有	3	3	headache disorder	headache disorder		data-20261016	
+FRTxGNN	l-lysine	l-lysine	keep		L5	有	3	3	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+FRTxGNN	labetalol	labetalol	keep		L4	有	3	3	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	lacosamide	lacosamide	keep		L5	有	10	10	manic bipolar affective disorder	manic bipolar affective disorder		data-20261016	
+FRTxGNN	lactic_acid	lactic_acid	keep		L5	無	5	5	atypical coarctation of aorta	atypical coarctation of aorta		data-20261016	
+FRTxGNN	lactulose	lactulose	keep		L3	有	8	8	acute urate nephropathy	acute urate nephropathy		data-20261016	
+FRTxGNN	lamivudine	lamivudine	keep		L5	有	5	5	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	lamotrigine	lamotrigine	keep		L5	有	2	2	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	lanadelumab	lanadelumab	keep		L1	有	10	10	C1 inhibitor deficiency	C1 inhibitor deficiency		data-20261016	
+FRTxGNN	lanreotide	lanreotide	keep		L5	無	5	5	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	lansoprazole	lansoprazole	keep		L5	有	1	1	duodenal obstruction	duodenal obstruction		data-20261016	
+FRTxGNN	laronidase	laronidase	keep		L4	有	2	2	lysosomal storage disease with skeletal involvement	lysosomal storage disease with skeletal involvement		data-20261016	
+FRTxGNN	larotrectinib	larotrectinib	keep		L3	有	2	2	multiple endocrine neoplasia	multiple endocrine neoplasia		data-20261016	
+FRTxGNN	latanoprost	latanoprost	keep		L4	無	9	9	visceral calciphylaxis	visceral calciphylaxis		data-20261016	
+FRTxGNN	ledipasvir	ledipasvir	keep		L2	有	10	10	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+FRTxGNN	leflunomide	leflunomide	keep		L5	無	2	2	brachydactyly-syndactyly syndrome	brachydactyly-syndactyly syndrome		data-20261016	
+FRTxGNN	lenalidomide	lenalidomide	regen	only_removed	L2	有	5	4	myeloid leukemia	myeloid leukemia		data-20261016	
+FRTxGNN	lenograstim	lenograstim	keep		L5	無	4	4	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	lenvatinib	lenvatinib	keep		L2	有	5	5	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	letermovir	letermovir	keep		L5	無	1	1	vulvovaginal candidiasis	vulvovaginal candidiasis		data-20261016	
+FRTxGNN	letrozole	letrozole	keep		L1	有	4	4	nipple carcinoma	nipple carcinoma		data-20261016	
+FRTxGNN	levetiracetam	levetiracetam	keep		L1	有	1	1	beta-ketothiolase deficiency	beta-ketothiolase deficiency		data-20261016	
+FRTxGNN	levocarnitine	levocarnitine	keep		L5	有	10	10	autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome	autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome		data-20261016	
+FRTxGNN	levodopa	levodopa	keep		L5	無	1	1	Rasmussen subacute encephalitis	Rasmussen subacute encephalitis		data-20261016	
+FRTxGNN	levonorgestrel	levonorgestrel	keep		L4	有	5	5	acne (disease)	acne (disease)		data-20261016	
+FRTxGNN	levothyroxine	levothyroxine	regen	main_changed	L5	有	10	4	endemic goiter	renal hypodysplasia/aplasia		data-20261016	
+FRTxGNN	lidocaine	lidocaine	regen	has_added	L5	無	9	10	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	liothyronine	liothyronine	regen	only_removed	L5	有	10	9	renal hypodysplasia/aplasia	renal hypodysplasia/aplasia		data-20261016	
+FRTxGNN	lipegfilgrastim	lipegfilgrastim	keep		L5	無	5	5	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	lisinopril	lisinopril	keep		L5	有	6	6	pulmonary hypertension with unclear multifactorial mechanism	pulmonary hypertension with unclear multifactorial mechanism		data-20261016	
+FRTxGNN	lomitapide	lomitapide	regen	only_removed	L5	無	10	9	marcothrombocytopenia with mitral valve insufficiency	marcothrombocytopenia with mitral valve insufficiency		data-20261016	
+FRTxGNN	lomustine	lomustine	keep		L2	有	10	10	lymphosarcoma	lymphosarcoma		data-20261016	
+FRTxGNN	lonafarnib	lonafarnib	keep		L5	無	1	1	leprosy	leprosy		data-20261016	
+FRTxGNN	lonoctocog_alfa	lonoctocog_alfa	keep		L5	無	4	4	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+FRTxGNN	loperamide	loperamide	keep		L5	有	10	10	acute contagious conjunctivitis	acute contagious conjunctivitis		data-20261016	
+FRTxGNN	lopinavir	lopinavir	keep		L5	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	loprazolam	loprazolam	known_use		L3	有	0	0				data-20261016	
+FRTxGNN	lorazepam	lorazepam	keep		L5	有	1	1	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	lorlatinib	lorlatinib	keep		L5	有	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+FRTxGNN	lormetazepam	lormetazepam	keep		L5	有	10	10	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	losartan	losartan	keep		L4	有	7	7	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	loxapine	loxapine	keep		L3	有	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+FRTxGNN	lumacaftor	lumacaftor	keep		L5	無	1	1	leprosy	leprosy		data-20261016	
+FRTxGNN	manidipine	manidipine	regen	only_removed	L5	有	9	8	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	mannitol	mannitol	regen	only_removed	L5	有	10	9	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	maraviroc	maraviroc	keep		L5	有	10	10	multiple endocrine neoplasia	multiple endocrine neoplasia		data-20261016	
+FRTxGNN	meclizine	meclizine	keep		L5	無	6	6	allergic urticaria	allergic urticaria		data-20261016	
+FRTxGNN	meloxicam	meloxicam	regen	only_removed	L5	無	9	8	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	melphalan	melphalan	keep		L5	有	6	6	female breast carcinoma	female breast carcinoma		data-20261016	
+FRTxGNN	mepolizumab	mepolizumab	keep		L4	有	5	5	thrombocytopenia due to immune destruction	thrombocytopenia due to immune destruction		data-20261016	
+FRTxGNN	mercaptopurine	mercaptopurine	keep		L5	有	8	8	myeloid leukemia	myeloid leukemia		data-20261016	
+FRTxGNN	meropenem	meropenem	keep		L5	有	9	9	bacterial arthritis	bacterial arthritis		data-20261016	
+FRTxGNN	mesalazine	mesalazine	regen	only_removed	L5	有	7	6	congenital hypotrichosis with juvenile macular dystrophy	congenital hypotrichosis with juvenile macular dystrophy		data-20261016	
+FRTxGNN	metformin	metformin	keep		L5	無	5	5	focal stiff limb syndrome	focal stiff limb syndrome		data-20261016	
+FRTxGNN	methadone	methadone	keep		L4	有	7	7	Tourette syndrome	Tourette syndrome		data-20261016	
+FRTxGNN	methionine	methionine	regen	has_added	L5	有	9	10	acne (disease)	acne (disease)		data-20261016	
+FRTxGNN	methocarbamol	methocarbamol	keep		L5	無	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	methotrexate	methotrexate	keep		L5	有	7	7	pulmonary blastoma	pulmonary blastoma		data-20261016	
+FRTxGNN	methoxsalen	methoxsalen	regen	only_removed	L4	有	9	8	localized pagetoid reticulosis	localized pagetoid reticulosis		data-20261016	
+FRTxGNN	methylergometrine	methylergometrine	keep		L5	有	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	methylprednisolone	methylprednisolone	keep		L3	有	9	9	alopecia areata	alopecia areata		data-20261016	
+FRTxGNN	metoclopramide	metoclopramide	keep		L4	有	2	2	gastroduodenitis	gastroduodenitis		data-20261016	
+FRTxGNN	metoprolol	metoprolol	regen	has_added	L5	有	5	6	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	metreleptin	metreleptin	keep		L5	無	10	10	familial generalized lentiginosis	familial generalized lentiginosis		data-20261016	
+FRTxGNN	metronidazole	metronidazole	keep		L5	有	10	10	pneumocystosis	pneumocystosis		data-20261016	
+FRTxGNN	metyrapone	metyrapone	regen	only_removed	L5	有	10	9	exercise-induced malignant hyperthermia	exercise-induced malignant hyperthermia		data-20261016	
+FRTxGNN	mianserin	mianserin	regen	only_removed	L5	有	6	4	benign paroxysmal torticollis of infancy	benign paroxysmal torticollis of infancy		data-20261016	
+FRTxGNN	micafungin	micafungin	keep		L3	有	1	1	urinary tract infection (disease)	urinary tract infection (disease)		data-20261016	
+FRTxGNN	miconazole	miconazole	keep		L3	有	1	1	acne (disease)	acne (disease)		data-20261016	
+FRTxGNN	midazolam	midazolam	keep		L3	有	1	1	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	miglustat	miglustat	keep		L5	有	10	10	autosomal ichthyosis syndrome with fatal disease course	autosomal ichthyosis syndrome with fatal disease course		data-20261016	
+FRTxGNN	milrinone	milrinone	keep		L5	有	9	9	alopecia	alopecia		data-20261016	
+FRTxGNN	minocycline	minocycline	keep		L5	無	2	2	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	minoxidil	minoxidil	keep		L3	有	10	10	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	mirtazapine	mirtazapine	keep		L5	無	3	3	Ohdo syndrome and variants	Ohdo syndrome and variants		data-20261016	
+FRTxGNN	misoprostol	misoprostol	keep		L4	有	2	2	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	mitomycin	mitomycin	keep		L5	有	10	10	solid pseudopapillary carcinoma of pancreas	solid pseudopapillary carcinoma of pancreas		data-20261016	
+FRTxGNN	mizolastine	mizolastine	keep		L5	無	10	10	acute intermittent porphyria	acute intermittent porphyria		data-20261016	
+FRTxGNN	moclobemide	moclobemide	keep		L2	有	2	2	agoraphobia	agoraphobia		data-20261016	
+FRTxGNN	modafinil	modafinil	keep		L3	有	1	1	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	mogamulizumab	mogamulizumab	keep		L5	無	7	7	prostatic urethra urothelial carcinoma	prostatic urethra urothelial carcinoma		data-20261016	
+FRTxGNN	molsidomine	molsidomine	keep		L3	有	10	10	alopecia	alopecia		data-20261016	
+FRTxGNN	mometasone	mometasone	keep		L5	有	1	1	primary cutaneous T-cell lymphoma	primary cutaneous T-cell lymphoma		data-20261016	
+FRTxGNN	montelukast	montelukast	keep		L5	有	3	3	bronchitis	bronchitis		data-20261016	
+FRTxGNN	moroctocog_alfa	moroctocog_alfa	keep		L5	無	8	8	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	morphine	morphine	keep		L3	有	10	10	myofascial pain syndrome	myofascial pain syndrome		data-20261016	
+FRTxGNN	moxonidine	moxonidine	keep		L5	有	9	9	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	mupirocin	mupirocin	keep		L5	無	2	2	pleural empyema (disease)	pleural empyema (disease)		data-20261016	
+FRTxGNN	mycophenolate_mofetil	mycophenolate_mofetil	keep		L5	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	nabumetone	nabumetone	regen	only_removed	L5	無	10	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	nadolol	nadolol	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	nafarelin	nafarelin	keep		L5	無	9	9	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+FRTxGNN	naftidrofuryl	naftidrofuryl	keep		L2	有	1	1	stroke disorder	stroke disorder		data-20261016	
+FRTxGNN	naphazoline	naphazoline	keep		L5	無	10	10	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	naproxen	naproxen	keep		L5	無	4	4	brachydactyly-syndactyly syndrome	brachydactyly-syndactyly syndrome		data-20261016	
+FRTxGNN	naratriptan	naratriptan	keep		L4	有	2	2	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+FRTxGNN	natalizumab	natalizumab	keep		L5	無	5	5	bronchitis	bronchitis		data-20261016	
+FRTxGNN	nebivolol	nebivolol	keep		L5	無	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	nefopam	nefopam	keep		L5	無	10	10	craniostenosis cataract	craniostenosis cataract		data-20261016	
+FRTxGNN	nelarabine	nelarabine	keep		L5	無	1	1	relapsing-remitting multiple sclerosis	relapsing-remitting multiple sclerosis		data-20261016	
+FRTxGNN	neostigmine	neostigmine	keep		L5	有	7	7	autoimmune disease of peripheral nervous system	autoimmune disease of peripheral nervous system		data-20261016	
+FRTxGNN	netarsudil	netarsudil	known_use		L5	有	0	0				data-20261016	
+FRTxGNN	nevirapine	nevirapine	keep		L4	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	nicardipine	nicardipine	keep		L4	有	4	4	pulmonary hypertension with unclear multifactorial mechanism	pulmonary hypertension with unclear multifactorial mechanism		data-20261016	
+FRTxGNN	nicorandil	nicorandil	regen	only_removed	L4	有	7	6	benign prostatic hyperplasia (disease)	benign prostatic hyperplasia (disease)		data-20261016	
+FRTxGNN	nilotinib	nilotinib	keep		L4	有	1	1	dermatofibrosarcoma protuberans	dermatofibrosarcoma protuberans		data-20261016	
+FRTxGNN	nimodipine	nimodipine	keep		L5	無	2	2	homozygous familial hypercholesterolemia	homozygous familial hypercholesterolemia		data-20261016	
+FRTxGNN	niraparib	niraparib	keep		L5	有	10	10	epiglottis neoplasm	epiglottis neoplasm		data-20261016	
+FRTxGNN	nitisinone	nitisinone	keep		L5	無	10	10	renal tubular acidosis	renal tubular acidosis		data-20261016	
+FRTxGNN	nitrazepam	nitrazepam	keep		L4	有	1	1	Wernicke-Korsakoff syndrome	Wernicke-Korsakoff syndrome		data-20261016	
+FRTxGNN	nitrendipine	nitrendipine	keep		L3	有	3	3	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	nitrofurantoin	nitrofurantoin	keep		L5	有	10	10	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	nordazepam	nordazepam	keep		L5	有	7	7	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	norelgestromin	norelgestromin	keep		L5	無	1	1	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	norepinephrine	norepinephrine	keep		L4	有	3	3	obstructive lung disease	obstructive lung disease		data-20261016	
+FRTxGNN	norethisterone	norethisterone	keep		L4	有	1	1	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	norfloxacin	norfloxacin	keep		L5	無	10	10	hyperamylasemia	hyperamylasemia		data-20261016	
+FRTxGNN	norgestimate	norgestimate	keep		L5	無	1	1	zinc, elevated plasma	zinc, elevated plasma		data-20261016	
+FRTxGNN	nystatin	nystatin	keep		L4	有	10	10	vulvovaginitis	vulvovaginitis		data-20261016	
+FRTxGNN	obinutuzumab	obinutuzumab	known_use		L5	無	0	0				data-20261016	
+FRTxGNN	ocrelizumab	ocrelizumab	keep		L5	無	5	5	HER2 positive breast carcinoma	HER2 positive breast carcinoma		data-20261016	
+FRTxGNN	octreotide	octreotide	keep		L5	無	2	2	vulvar inverted follicular keratosis	vulvar inverted follicular keratosis		data-20261016	
+FRTxGNN	ofatumumab	ofatumumab	regen	main_changed	L2	有	7	4	chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation	follicular lymphoma		data-20261016	
+FRTxGNN	ofloxacin	ofloxacin	keep		L5	有	10	10	polyclonal hyperviscosity syndrome	polyclonal hyperviscosity syndrome		data-20261016	
+FRTxGNN	olanzapine	olanzapine	regen	only_removed	L3	有	3	2	benign paroxysmal torticollis of infancy	benign paroxysmal torticollis of infancy		data-20261016	
+FRTxGNN	olaparib	olaparib	known_use		L1	有	0	0				data-20261016	
+FRTxGNN	olmesartan	olmesartan	keep		L5	有	10	10	Prinzmetal angina	Prinzmetal angina		data-20261016	
+FRTxGNN	olsalazine	olsalazine	keep		L5	無	10	10	myelodysplastic syndrome	myelodysplastic syndrome		data-20261016	
+FRTxGNN	omalizumab	omalizumab	keep		L3	有	10	10	bronchitis	bronchitis		data-20261016	
+FRTxGNN	omeprazole	omeprazole	keep		L3	有	1	1	duodenal obstruction	duodenal obstruction		data-20261016	
+FRTxGNN	orlistat	orlistat	keep		L5	無	1	1	hypervitaminosis	hypervitaminosis		data-20261016	
+FRTxGNN	oxacillin	oxacillin	keep		L5	無	4	4	epiglottitis	epiglottitis		data-20261016	
+FRTxGNN	oxalic_acid	oxalic_acid	keep		L5	有	10	10	severe nonproliferative diabetic retinopathy	severe nonproliferative diabetic retinopathy		data-20261016	
+FRTxGNN	oxaliplatin	oxaliplatin	keep		L2	有	4	4	malignant pleural mesothelioma	malignant pleural mesothelioma		data-20261016	
+FRTxGNN	oxazepam	oxazepam	keep		L3	有	1	1	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	oxcarbazepine	oxcarbazepine	keep		L4	有	1	1	restless legs syndrome	restless legs syndrome		data-20261016	
+FRTxGNN	oxiconazole	oxiconazole	known_use		L3	有	0	0				data-20261016	
+FRTxGNN	oxitriptan	oxitriptan	keep		L5	無	1	1	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	oxytetracycline	oxytetracycline	keep		L5	無	10	10	chronic rhinosinusitis	chronic rhinosinusitis		data-20261016	
+FRTxGNN	paclitaxel	paclitaxel	keep		L1	有	2	2	parameningeal embryonal rhabdomyosarcoma	parameningeal embryonal rhabdomyosarcoma		data-20261016	
+FRTxGNN	palbociclib	palbociclib	keep		L4	有	4	4	hyperthyroidism	hyperthyroidism		data-20261016	
+FRTxGNN	paliperidone	paliperidone	keep		L5	有	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+FRTxGNN	palivizumab	palivizumab	keep		L5	無	10	10	benign neoplasm of tongue	benign neoplasm of tongue		data-20261016	
+FRTxGNN	palonosetron	palonosetron	regen	only_removed	L4	有	5	4	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	panitumumab	panitumumab	keep		L5	無	2	2	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+FRTxGNN	panobinostat	panobinostat	keep		L2	有	1	1	myeloid leukemia	myeloid leukemia		data-20261016	
+FRTxGNN	pantoprazole	pantoprazole	keep		L5	有	1	1	duodenal obstruction	duodenal obstruction		data-20261016	
+FRTxGNN	papaverine	papaverine	keep		L4	有	10	10	ischemic disease	ischemic disease		data-20261016	
+FRTxGNN	parecoxib	parecoxib	regen	only_removed	L3	有	4	3	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	paroxetine	paroxetine	keep		L5	無	1	1	Ohdo syndrome and variants	Ohdo syndrome and variants		data-20261016	
+FRTxGNN	pazopanib	pazopanib	keep		L3	有	6	6	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	pegaspargase	pegaspargase	keep		L1	有	7	7	pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma	pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma		data-20261016	
+FRTxGNN	pegfilgrastim	pegfilgrastim	keep		L5	無	2	2	severe nonproliferative diabetic retinopathy	severe nonproliferative diabetic retinopathy		data-20261016	
+FRTxGNN	pembrolizumab	pembrolizumab	keep		L5	無	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+FRTxGNN	pemetrexed	pemetrexed	regen	only_removed	L2	有	6	3	pleural adenomatoid tumor	pleural adenomatoid tumor		data-20261016	
+FRTxGNN	pemigatinib	pemigatinib	regen	only_removed	L5	有	10	9	multiple endocrine neoplasia	multiple endocrine neoplasia		data-20261016	
+FRTxGNN	pentamidine	pentamidine	keep		L5	無	5	5	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	pentosan_polysulfate	pentosan_polysulfate	keep		L5	無	3	3	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	pentostatin	pentostatin	keep		L5	無	7	7	botryoid-type embryonal rhabdomyosarcoma of the vagina	botryoid-type embryonal rhabdomyosarcoma of the vagina		data-20261016	
+FRTxGNN	pentoxyverine	pentoxyverine	regen	main_changed	L5	無	2	1	acute laryngopharyngitis	nasal cavity disease		data-20261016	
+FRTxGNN	perampanel	perampanel	keep		L4	有	1	1	beta-ketothiolase deficiency	beta-ketothiolase deficiency		data-20261016	
+FRTxGNN	perindopril	perindopril	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	pertuzumab	pertuzumab	keep		L1	有	6	6	ectomesenchymoma	ectomesenchymoma		data-20261016	
+FRTxGNN	pheniramine	pheniramine	regen	only_removed	L4	有	2	1	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	phenobarbital	phenobarbital	keep		L5	有	3	3	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	phenol	phenol	keep		L5	有	8	8	acrodermatitis chronica atrophicans	acrodermatitis chronica atrophicans		data-20261016	
+FRTxGNN	phenoxymethylpenicillin	phenoxymethylpenicillin	keep		L5	有	2	2	epiglottitis	epiglottitis		data-20261016	
+FRTxGNN	phentolamine	phentolamine	keep		L3	有	9	9	visceral calciphylaxis	visceral calciphylaxis		data-20261016	
+FRTxGNN	phenylalanine	phenylalanine	keep		L4	有	2	2	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+FRTxGNN	phenylephrine	phenylephrine	regen	only_removed	L4	有	3	2	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	phenytoin	phenytoin	keep		L5	有	3	3	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	pibrentasvir	pibrentasvir	keep		L5	有	10	10	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+FRTxGNN	pilocarpine	pilocarpine	known_use		L5	無	0	0				data-20261016	
+FRTxGNN	pimozide	pimozide	keep		L3	有	10	10	trichotillomania	trichotillomania		data-20261016	
+FRTxGNN	pinaverium	pinaverium	keep		L5	無	1	1	benign prostatic hyperplasia (disease)	benign prostatic hyperplasia (disease)		data-20261016	
+FRTxGNN	piperacillin	piperacillin	regen	only_removed	L5	有	9	8	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	piperaquine	piperaquine	regen	only_removed	L1	有	3	2	cystic echinococcosis	cystic echinococcosis		data-20261016	
+FRTxGNN	pipobroman	pipobroman	keep		L5	無	1	1	diabetic cataract	diabetic cataract		data-20261016	
+FRTxGNN	pirfenidone	pirfenidone	keep		L4	有	10	10	extracutaneous mastocytoma	extracutaneous mastocytoma		data-20261016	
+FRTxGNN	piribedil	piribedil	keep		L5	有	4	4	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+FRTxGNN	piroxicam	piroxicam	keep		L5	無	10	10	colobomatous microphthalmia-rhizomelic dysplasia syndrome	colobomatous microphthalmia-rhizomelic dysplasia syndrome		data-20261016	
+FRTxGNN	pitavastatin	pitavastatin	regen	main_changed	L4	有	6	4	hyperlipoproteinemia	cholesterol-ester transfer protein deficiency		data-20261016	
+FRTxGNN	pixantrone	pixantrone	keep		L5	無	1	1	diabetic cataract	diabetic cataract		data-20261016	
+FRTxGNN	plerixafor	plerixafor	keep		L5	無	6	6	CMM7	CMM7		data-20261016	
+FRTxGNN	polymyxin_b	polymyxin_b	keep		L4	有	2	2	bronchitis	bronchitis		data-20261016	
+FRTxGNN	polysorbate_80	polysorbate_80	keep		L5	無	1	1	congenital ichthyosiform erythroderma	congenital ichthyosiform erythroderma		data-20261016	
+FRTxGNN	posaconazole	posaconazole	keep		L5	有	1	1	pneumocystosis	pneumocystosis		data-20261016	
+FRTxGNN	potassium	potassium	keep		L5	有	5	5	hypertensive disorder	hypertensive disorder		data-20261016	
+FRTxGNN	povidone	povidone	keep		L5	無	1	1	congenital ichthyosiform erythroderma	congenital ichthyosiform erythroderma		data-20261016	
+FRTxGNN	pramipexole	pramipexole	keep		L4	有	10	10	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+FRTxGNN	prasterone	prasterone	keep		L5	無	10	10	heparin cofactor 2 deficiency	heparin cofactor 2 deficiency		data-20261016	
+FRTxGNN	prasugrel	prasugrel	regen	only_removed	L5	有	10	9	pulmonary hypertension	pulmonary hypertension		data-20261016	
+FRTxGNN	pravastatin	pravastatin	keep		L5	有	6	6	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	prazepam	prazepam	known_use		L4	有	0	0				data-20261016	
+FRTxGNN	prednisolone	prednisolone	keep		L2	有	9	9	alopecia areata	alopecia areata		data-20261016	
+FRTxGNN	prednisone	prednisone	keep		L3	有	10	10	alopecia areata	alopecia areata		data-20261016	
+FRTxGNN	pregabalin	pregabalin	keep		L4	有	6	6	tendinitis	tendinitis		data-20261016	
+FRTxGNN	pretomanid	pretomanid	keep		L5	無	5	5	candidiasis	candidiasis		data-20261016	
+FRTxGNN	prilocaine	prilocaine	keep		L5	有	10	10	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+FRTxGNN	primaquine	primaquine	keep		L5	有	7	7	myiasis	myiasis		data-20261016	
+FRTxGNN	primidone	primidone	keep		L5	有	3	3	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	pristinamycin	pristinamycin	keep		L5	有	10	10	disease of retroperitoneum	disease of retroperitoneum		data-20261016	
+FRTxGNN	probenecid	probenecid	keep		L5	有	3	3	hypouricemia, renal	hypouricemia, renal		data-20261016	
+FRTxGNN	progesterone	progesterone	regen	only_removed	L2	有	10	7	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	propafenone	propafenone	keep		L3	有	6	6	manic bipolar affective disorder	manic bipolar affective disorder		data-20261016	
+FRTxGNN	propofol	propofol	keep		L2	有	5	5	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	propranolol	propranolol	keep		L5	有	4	4	distal myopathy, Tateyama type	distal myopathy, Tateyama type		data-20261016	
+FRTxGNN	propylthiouracil	propylthiouracil	regen	only_removed	L4	有	3	2	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta		data-20261016	
+FRTxGNN	prucalopride	prucalopride	keep		L5	有	10	10	hypoalphalipoproteinemia	hypoalphalipoproteinemia		data-20261016	
+FRTxGNN	pseudoephedrine	pseudoephedrine	regen	only_removed	L4	有	3	2	nasal cavity disease	nasal cavity disease		data-20261016	
+FRTxGNN	pyrazinamide	pyrazinamide	keep		L5	有	10	10	infectious otitis media	infectious otitis media		data-20261016	
+FRTxGNN	quetiapine	quetiapine	keep		L5	無	10	10	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+FRTxGNN	quinapril	quinapril	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	quinidine	quinidine	keep		L5	無	1	1	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	rabeprazole	rabeprazole	known_use		L5	無	1	0	lymphoadenopathic mastocytosis with eosinophilia			data-20261016	
+FRTxGNN	raloxifene	raloxifene	keep		L5	無	4	4	duodenal ulcer (disease)	duodenal ulcer (disease)		data-20261016	
+FRTxGNN	raltegravir	raltegravir	keep		L5	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	raltitrexed	raltitrexed	keep		L5	無	10	10	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+FRTxGNN	ramipril	ramipril	keep		L4	有	9	9	pulmonary hypertension owing to lung disease and/or hypoxia	pulmonary hypertension owing to lung disease and/or hypoxia		data-20261016	
+FRTxGNN	ramucirumab	ramucirumab	keep		L5	無	10	10	uterine ligament adenocarcinoma	uterine ligament adenocarcinoma		data-20261016	
+FRTxGNN	ranibizumab	ranibizumab	keep		L5	有	9	9	immature cataract	immature cataract		data-20261016	
+FRTxGNN	ranolazine	ranolazine	keep		L5	無	1	1	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+FRTxGNN	rasagiline	rasagiline	keep		L5	無	6	6	PLA2G6-associated neurodegeneration	PLA2G6-associated neurodegeneration		data-20261016	
+FRTxGNN	rasburicase	rasburicase	keep		L5	無	10	10	hypouricemia, renal	hypouricemia, renal		data-20261016	
+FRTxGNN	ravulizumab	ravulizumab	keep		L5	無	10	10	autosomal recessive severe congenital neutropenia due to G6PC3 deficiency	autosomal recessive severe congenital neutropenia due to G6PC3 deficiency		data-20261016	
+FRTxGNN	regadenoson	regadenoson	keep		L5	無	4	4	anaphylaxis	anaphylaxis		data-20261016	
+FRTxGNN	regorafenib	regorafenib	keep		L5	有	8	8	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	relebactam	relebactam	keep		L5	無	3	3	hyperamylasemia	hyperamylasemia		data-20261016	
+FRTxGNN	remdesivir	remdesivir	keep		L4	有	6	6	multiple endocrine neoplasia	multiple endocrine neoplasia		data-20261016	
+FRTxGNN	remimazolam	remimazolam	keep		L5	無	2	2	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	reserpine	reserpine	known_use		L5	無	0	0				data-20261016	
+FRTxGNN	resorcinol	resorcinol	keep		L5	無	6	6	acne keloid	acne keloid		data-20261016	
+FRTxGNN	ribavirin	ribavirin	regen	only_removed	L2	有	10	9	chronic hepatitis B virus infection	chronic hepatitis B virus infection		data-20261016	
+FRTxGNN	ribociclib	ribociclib	keep		L5	有	4	4	myeloid leukemia	myeloid leukemia		data-20261016	
+FRTxGNN	rifabutin	rifabutin	keep		L1	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	rifampicin	rifampicin	keep		L4	有	10	10	conjunctivitis	conjunctivitis		data-20261016	
+FRTxGNN	rifaximin	rifaximin	keep		L4	有	6	6	oral candidiasis	oral candidiasis		data-20261016	
+FRTxGNN	rilpivirine	rilpivirine	keep		L4	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	riluzole	riluzole	keep		L5	無	9	9	bilateral parasagittal parieto-occipital polymicrogyria	bilateral parasagittal parieto-occipital polymicrogyria		data-20261016	
+FRTxGNN	rimegepant	rimegepant	keep		L3	有	5	5	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+FRTxGNN	risankizumab	risankizumab	keep		L2	有	10	10	dermatitis	dermatitis		data-20261016	
+FRTxGNN	risdiplam	risdiplam	keep		L5	無	1	1	acne (disease)	acne (disease)		data-20261016	
+FRTxGNN	risperidone	risperidone	regen	only_removed	L5	有	6	5	gaze palsy, familial horizontal, with progressive scoliosis	gaze palsy, familial horizontal, with progressive scoliosis		data-20261016	
+FRTxGNN	ritonavir	ritonavir	keep		L4	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	rivaroxaban	rivaroxaban	keep		L5	有	4	4	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	rivastigmine	rivastigmine	keep		L4	有	1	1	glaucoma	glaucoma		data-20261016	
+FRTxGNN	rocuronium	rocuronium	regen	only_removed	L5	有	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	romiplostim	romiplostim	keep		L4	有	10	10	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	ropinirole	ropinirole	keep		L3	有	10	10	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+FRTxGNN	ropivacaine	ropivacaine	keep		L3	有	4	4	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	rosuvastatin	rosuvastatin	regen	only_removed	L1	有	7	6	cholesterol-ester transfer protein deficiency	cholesterol-ester transfer protein deficiency		data-20261016	
+FRTxGNN	rotigotine	rotigotine	keep		L5	有	10	10	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+FRTxGNN	roxadustat	roxadustat	keep		L5	無	4	4	dry eye syndrome	dry eye syndrome		data-20261016	
+FRTxGNN	roxithromycin	roxithromycin	keep		L3	有	8	8	leprosy	leprosy		data-20261016	
+FRTxGNN	rufinamide	rufinamide	keep		L5	無	1	1	perioral myoclonia with absences	perioral myoclonia with absences		data-20261016	
+FRTxGNN	rutin	rutin	keep		L5	無	8	8	breast fibrocystic disease	breast fibrocystic disease		data-20261016	
+FRTxGNN	ruxolitinib	ruxolitinib	keep		L5	無	10	10	uterine corpus perivascular epithelioid cell tumor	uterine corpus perivascular epithelioid cell tumor		data-20261016	
+FRTxGNN	sacituzumab_govitecan	sacituzumab_govitecan	keep		L5	無	4	4	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+FRTxGNN	safinamide	safinamide	keep		L5	無	3	3	Rasmussen subacute encephalitis	Rasmussen subacute encephalitis		data-20261016	
+FRTxGNN	salbutamol	salbutamol	keep		L5	無	9	9	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+FRTxGNN	salicylic_acid	salicylic_acid	regen	only_removed	L5	無	10	9	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+FRTxGNN	salmeterol	salmeterol	keep		L1	有	5	5	bronchitis	bronchitis		data-20261016	
+FRTxGNN	scopolamine	scopolamine	keep		L5	無	6	6	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	sebelipase_alfa	sebelipase_alfa	keep		L5	無	9	9	Scheie syndrome	Scheie syndrome		data-20261016	
+FRTxGNN	secnidazole	secnidazole	keep		L5	無	7	7	postmenopausal atrophic vaginitis	postmenopausal atrophic vaginitis		data-20261016	
+FRTxGNN	selinexor	selinexor	keep		L5	無	1	1	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+FRTxGNN	selpercatinib	selpercatinib	keep		L5	有	3	3	pulmonary hypertension	pulmonary hypertension		data-20261016	
+FRTxGNN	sennosides	sennosides	keep		L5	無	6	6	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	serine	serine	keep		L5	無	8	8	familial visceral myopathy	familial visceral myopathy		data-20261016	
+FRTxGNN	serotonin	serotonin	regen	only_removed	L4	有	10	9	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	sertaconazole	sertaconazole	regen	only_removed	L5	有	4	3	ectothrix infectious disease	ectothrix infectious disease		data-20261016	
+FRTxGNN	sevoflurane	sevoflurane	keep		L5	無	10	10	Prinzmetal angina	Prinzmetal angina		data-20261016	
+FRTxGNN	silodosin	silodosin	keep		L5	無	6	6	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+FRTxGNN	siltuximab	siltuximab	keep		L5	有	8	8	extracutaneous mastocytoma	extracutaneous mastocytoma		data-20261016	
+FRTxGNN	simoctocog_alfa	simoctocog_alfa	keep		L5	無	9	9	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+FRTxGNN	simvastatin	simvastatin	keep		L1	有	5	5	brain stem infarction	brain stem infarction		data-20261016	
+FRTxGNN	sirolimus	sirolimus	keep		L5	有	7	7	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	sofosbuvir	sofosbuvir	keep		L3	有	8	8	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+FRTxGNN	sonidegib	sonidegib	keep		L5	有	9	9	medulloblastoma with extensive nodularity	medulloblastoma with extensive nodularity		data-20261016	
+FRTxGNN	sorbitol	sorbitol	keep		L5	無	1	1	exercise-induced malignant hyperthermia	exercise-induced malignant hyperthermia		data-20261016	
+FRTxGNN	sotalol	sotalol	regen	only_removed	L5	有	7	6	sick sinus syndrome 2, autosomal dominant	sick sinus syndrome 2, autosomal dominant		data-20261016	
+FRTxGNN	sotatercept	sotatercept	keep		L5	無	10	10	acute lymphoblastic leukemia (disease)	acute lymphoblastic leukemia (disease)		data-20261016	
+FRTxGNN	spironolactone	spironolactone	keep		L5	無	2	2	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	streptomycin	streptomycin	keep		L4	有	10	10	conjunctivitis	conjunctivitis		data-20261016	
+FRTxGNN	streptozocin	streptozocin	keep		L5	有	10	10	relapsing-remitting multiple sclerosis	relapsing-remitting multiple sclerosis		data-20261016	
+FRTxGNN	succinic_acid	succinic_acid	keep		L5	有	5	5	vitamin B12- and folate-independent constitutional megaloblastic anemia	vitamin B12- and folate-independent constitutional megaloblastic anemia		data-20261016	
+FRTxGNN	sucralfate	sucralfate	keep		L3	有	2	2	duodenogastric reflux	duodenogastric reflux		data-20261016	
+FRTxGNN	sulbactam	sulbactam	keep		L3	有	1	1	bacterial arthritis	bacterial arthritis		data-20261016	
+FRTxGNN	sulfadiazine	sulfadiazine	keep		L4	有	2	2	pneumocystosis	pneumocystosis		data-20261016	
+FRTxGNN	sulfamethoxazole	sulfamethoxazole	keep		L5	有	1	1	acute contagious conjunctivitis	acute contagious conjunctivitis		data-20261016	
+FRTxGNN	sulfasalazine	sulfasalazine	regen	only_removed	L5	有	10	8	brachydactyly-syndactyly syndrome	brachydactyly-syndactyly syndrome		data-20261016	
+FRTxGNN	sulindac	sulindac	keep		L5	無	9	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	sulpiride	sulpiride	keep		L4	有	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+FRTxGNN	sulprostone	sulprostone	keep		L5	無	10	10	tetanic cataract	tetanic cataract		data-20261016	
+FRTxGNN	sumatriptan	sumatriptan	known_use		L5	有	0	0				data-20261016	
+FRTxGNN	sunitinib	sunitinib	keep		L2	有	5	5	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	susoctocog_alfa	susoctocog_alfa	keep		L5	有	8	8	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	tacrolimus	tacrolimus	keep		L2	有	2	2	seborrheic dermatitis	seborrheic dermatitis		data-20261016	
+FRTxGNN	tadalafil	tadalafil	keep		L5	有	8	8	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+FRTxGNN	talc	talc	keep		L4	有	10	10	thrombotic disease	thrombotic disease		data-20261016	
+FRTxGNN	tamoxifen	tamoxifen	keep		L5	有	3	3	mammary Paget disease	mammary Paget disease		data-20261016	
+FRTxGNN	tasonermin	tasonermin	keep		L5	無	10	10	prostatic urethra urothelial carcinoma	prostatic urethra urothelial carcinoma		data-20261016	
+FRTxGNN	tazobactam	tazobactam	known_use		L1	有	0	0				data-20261016	
+FRTxGNN	telmisartan	telmisartan	keep		L5	有	9	9	Prinzmetal angina	Prinzmetal angina		data-20261016	
+FRTxGNN	temozolomide	temozolomide	regen	main_changed	L1	有	2	1	adult astrocytic tumour	cauda equina neoplasm		data-20261016	
+FRTxGNN	temsirolimus	temsirolimus	keep		L5	有	3	3	liposarcoma	liposarcoma		data-20261016	
+FRTxGNN	tenecteplase	tenecteplase	keep		L5	有	7	7	congenital coronary artery anomaly	congenital coronary artery anomaly		data-20261016	
+FRTxGNN	tenofovir_alafenamide	tenofovir_alafenamide	keep		L5	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	tenofovir_disoproxil	tenofovir_disoproxil	keep		L4	有	4	4	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+FRTxGNN	tenoxicam	tenoxicam	regen	main_changed	L3	有	10	8	rheumatoid arthritis	brachydactyly-syndactyly syndrome		data-20261016	
+FRTxGNN	teprotumumab	teprotumumab	keep		L5	無	10	10	monosomy X	monosomy X		data-20261016	
+FRTxGNN	terazosin	terazosin	keep		L5	有	10	10	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+FRTxGNN	terbutaline	terbutaline	keep		L1	有	3	3	obstructive lung disease	obstructive lung disease		data-20261016	
+FRTxGNN	teriflunomide	teriflunomide	known_use		L1	有	0	0				data-20261016	
+FRTxGNN	teriparatide	teriparatide	keep		L5	無	9	9	duodenal ulcer (disease)	duodenal ulcer (disease)		data-20261016	
+FRTxGNN	terlipressin	terlipressin	keep		L5	有	7	7	open-angle glaucoma	open-angle glaucoma		data-20261016	
+FRTxGNN	tertatolol	tertatolol	keep		L5	有	8	8	lingual-facial-buccal dyskinesia	lingual-facial-buccal dyskinesia		data-20261016	
+FRTxGNN	tetrabenazine	tetrabenazine	keep		L5	無	10	10	polycystic kidney disease 3 with or without polycystic liver disease	polycystic kidney disease 3 with or without polycystic liver disease		data-20261016	
+FRTxGNN	tetracaine	tetracaine	keep		L5	有	9	9	acrodermatitis chronica atrophicans	acrodermatitis chronica atrophicans		data-20261016	
+FRTxGNN	tezacaftor	tezacaftor	keep		L5	無	3	3	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	theophylline	theophylline	regen	has_added	L5	有	5	6	thrombotic disease	thrombotic disease		data-20261016	
+FRTxGNN	thiamine	thiamine	regen	has_added	L3	有	1	3	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta		data-20261016	
+FRTxGNN	thiocolchicoside	thiocolchicoside	keep		L5	無	2	2	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	thiopental	thiopental	keep		L5	有	8	8	trichotillomania	trichotillomania		data-20261016	
+FRTxGNN	threonine	threonine	keep		L5	無	1	1	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+FRTxGNN	thymol	thymol	keep		L5	有	10	10	interventricular septum aneurysm	interventricular septum aneurysm		data-20261016	
+FRTxGNN	thyrotropin_alfa	thyrotropin_alfa	regen	only_removed	L5	無	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	tiagabine	tiagabine	known_use		L5	有	0	0				data-20261016	
+FRTxGNN	tiapride	tiapride	keep		L3	有	1	1	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	ticagrelor	ticagrelor	keep		L2	有	9	9	intracranial arteriosclerosis	intracranial arteriosclerosis		data-20261016	
+FRTxGNN	ticarcillin	ticarcillin	keep		L5	有	10	10	lymph node palisaded myofibroblastoma	lymph node palisaded myofibroblastoma		data-20261016	
+FRTxGNN	tildrakizumab	tildrakizumab	keep		L5	無	4	4	severe nonproliferative diabetic retinopathy	severe nonproliferative diabetic retinopathy		data-20261016	
+FRTxGNN	tinidazole	tinidazole	keep		L5	無	10	10	postmenopausal atrophic vaginitis	postmenopausal atrophic vaginitis		data-20261016	
+FRTxGNN	tioconazole	tioconazole	keep		L5	有	3	3	vulvovaginitis	vulvovaginitis		data-20261016	
+FRTxGNN	tiotropium	tiotropium	regen	only_removed	L1	有	6	5	obstructive lung disease	obstructive lung disease		data-20261016	
+FRTxGNN	tipranavir	tipranavir	keep		L5	無	8	8	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	tixocortol	tixocortol	keep		L5	無	2	2	primary cutaneous T-cell lymphoma	primary cutaneous T-cell lymphoma		data-20261016	
+FRTxGNN	tobramycin	tobramycin	keep		L5	有	10	10	exposure keratitis	exposure keratitis		data-20261016	
+FRTxGNN	tocilizumab	tocilizumab	regen	only_removed	L3	有	7	5	ankylosing spondylitis	ankylosing spondylitis		data-20261016	
+FRTxGNN	tocofersolan	tocofersolan	keep		L5	無	2	2	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+FRTxGNN	tolcapone	tolcapone	keep		L5	有	10	10	Rasmussen subacute encephalitis	Rasmussen subacute encephalitis		data-20261016	
+FRTxGNN	tolvaptan	tolvaptan	keep		L5	有	9	9	renal-hepatic-pancreatic dysplasia	renal-hepatic-pancreatic dysplasia		data-20261016	
+FRTxGNN	topiramate	topiramate	keep		L5	有	1	1	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+FRTxGNN	topotecan	topotecan	keep		L3	有	2	2	female breast carcinoma	female breast carcinoma		data-20261016	
+FRTxGNN	toremifene	toremifene	keep		L5	有	1	1	HIV infectious disease	HIV infectious disease		data-20261016	
+FRTxGNN	trabectedin	trabectedin	keep		L3	有	1	1	female breast carcinoma	female breast carcinoma		data-20261016	
+FRTxGNN	tramadol	tramadol	regen	only_removed	L5	有	10	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+FRTxGNN	trandolapril	trandolapril	keep		L4	有	5	5	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	trastuzumab	trastuzumab	keep		L1	有	6	6	malignant cutaneous granular cell skin tumor	malignant cutaneous granular cell skin tumor		data-20261016	
+FRTxGNN	trastuzumab_deruxtecan	trastuzumab_deruxtecan	keep		L5	無	1	1	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+FRTxGNN	trastuzumab_emtansine	trastuzumab_emtansine	known_use		L4	有	0	0				data-20261016	
+FRTxGNN	travoprost	travoprost	keep		L5	有	10	10	visceral calciphylaxis	visceral calciphylaxis		data-20261016	
+FRTxGNN	treosulfan	treosulfan	keep		L5	無	1	1	diabetic cataract	diabetic cataract		data-20261016	
+FRTxGNN	treprostinil	treprostinil	keep		L3	有	5	5	pulmonary arteriovenous malformation (disease)	pulmonary arteriovenous malformation (disease)		data-20261016	
+FRTxGNN	tretinoin	tretinoin	regen	only_removed	L5	無	10	9	rheumatoid nodulosis	rheumatoid nodulosis		data-20261016	
+FRTxGNN	triamcinolone	triamcinolone	keep		L4	有	8	8	alopecia mucinosa	alopecia mucinosa		data-20261016	
+FRTxGNN	triamterene	triamterene	keep		L5	有	5	5	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	trifarotene	trifarotene	keep		L5	有	2	2	zinc, elevated plasma	zinc, elevated plasma		data-20261016	
+FRTxGNN	trihexyphenidyl	trihexyphenidyl	keep		L4	有	10	10	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+FRTxGNN	trimebutine	trimebutine	keep		L2	有	2	2	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	trimethoprim	trimethoprim	keep		L5	有	1	1	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+FRTxGNN	triptorelin	triptorelin	keep		L1	有	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+FRTxGNN	tropicamide	tropicamide	keep		L5	無	3	3	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	tryptophan	tryptophan	keep		L3	有	8	8	restless legs syndrome	restless legs syndrome		data-20261016	
+FRTxGNN	turoctocog_alfa	turoctocog_alfa	keep		L5	無	10	10	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	tyrosine	tyrosine	keep		L5	有	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+FRTxGNN	upadacitinib	upadacitinib	keep		L5	無	2	2	colobomatous microphthalmia-rhizomelic dysplasia syndrome	colobomatous microphthalmia-rhizomelic dysplasia syndrome		data-20261016	
+FRTxGNN	uric_acid	uric_acid	keep		L5	有	4	4	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+FRTxGNN	urofollitropin	urofollitropin	regen	only_removed	L5	無	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	ustekinumab	ustekinumab	keep		L2	有	10	10	dermatitis	dermatitis		data-20261016	
+FRTxGNN	valine	valine	keep		L4	有	10	10	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+FRTxGNN	valpromide	valpromide	keep		L4	有	1	1	insomnia (disease)	insomnia (disease)		data-20261016	
+FRTxGNN	valsartan	valsartan	keep		L4	有	6	6	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+FRTxGNN	vancomycin	vancomycin	keep		L5	有	10	10	diffuse scleroderma	diffuse scleroderma		data-20261016	
+FRTxGNN	vandetanib	vandetanib	keep		L5	有	10	10	renal cell carcinoma (disease)	renal cell carcinoma (disease)		data-20261016	
+FRTxGNN	varenicline	varenicline	keep		L5	有	10	10	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	velpatasvir	velpatasvir	keep		L4	有	10	10	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+FRTxGNN	venetoclax	venetoclax	keep		L5	有	6	6	Hodgkins lymphoma	Hodgkins lymphoma		data-20261016	
+FRTxGNN	verapamil	verapamil	keep		L5	無	6	6	obsolete bundle branch block	obsolete bundle branch block		data-20261016	
+FRTxGNN	verteporfin	verteporfin	keep		L5	無	1	1	mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies	mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies		data-20261016	
+FRTxGNN	vestronidase_alfa	vestronidase_alfa	keep		L5	有	9	9	Scheie syndrome	Scheie syndrome		data-20261016	
+FRTxGNN	vildagliptin	vildagliptin	keep		L5	無	9	9	classic stiff person syndrome	classic stiff person syndrome		data-20261016	
+FRTxGNN	vinblastine	vinblastine	keep		L4	有	10	10	rhabdomyosarcoma (disease)	rhabdomyosarcoma (disease)		data-20261016	
+FRTxGNN	vincristine	vincristine	regen	main_changed	L3	有	3	2	ganglioneuroblastoma (disease)	vertebral anomalies and variable endocrine and T-cell dysfunction		data-20261016	
+FRTxGNN	vindesine	vindesine	keep		L5	有	4	4	ganglioneuroblastoma (disease)	ganglioneuroblastoma (disease)		data-20261016	
+FRTxGNN	vinorelbine	vinorelbine	keep		L2	有	8	8	Ewing sarcoma	Ewing sarcoma		data-20261016	
+FRTxGNN	vismodegib	vismodegib	regen	only_removed	L5	無	9	8	medulloblastoma with extensive nodularity	medulloblastoma with extensive nodularity		data-20261016	
+FRTxGNN	vitamin_a	vitamin_a	keep		L5	有	10	10	congenital prothrombin deficiency	congenital prothrombin deficiency		data-20261016	
+FRTxGNN	volanesorsen	volanesorsen	keep		L5	無	10	10	megaloblastic anemia (disease)	megaloblastic anemia (disease)		data-20261016	
+FRTxGNN	vonicog_alfa	vonicog_alfa	regen	has_added	L5	有	7	8	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+FRTxGNN	vortioxetine	vortioxetine	regen	only_removed	L5	有	4	2	neurotic disorder	neurotic disorder		data-20261016	
+FRTxGNN	voxelotor	voxelotor	keep		L5	無	7	7	hereditary thrombocytopenia with normal platelets	hereditary thrombocytopenia with normal platelets		data-20261016	
+FRTxGNN	voxilaprevir	voxilaprevir	keep		L5	有	10	10	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+FRTxGNN	warfarin	warfarin	keep		L4	有	7	7	heparin cofactor 2 deficiency	heparin cofactor 2 deficiency		data-20261016	
+FRTxGNN	yohimbine	yohimbine	regen	only_removed	L4	有	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	zanamivir	zanamivir	keep		L5	無	2	2	pyelonephritis	pyelonephritis		data-20261016	
+FRTxGNN	zanubrutinib	zanubrutinib	keep		L4	有	6	6	myeloid leukemia	myeloid leukemia		data-20261016	
+FRTxGNN	ziconotide	ziconotide	regen	only_removed	L4	有	10	9	migraine disorder	migraine disorder		data-20261016	
+FRTxGNN	zidovudine	zidovudine	keep		L4	有	4	4	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+FRTxGNN	zolmitriptan	zolmitriptan	keep		L4	有	2	2	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+FRTxGNN	zolpidem	zolpidem	keep		L5	有	2	2	benign paroxysmal torticollis of infancy	benign paroxysmal torticollis of infancy		data-20261016	
+FRTxGNN	zonisamide	zonisamide	keep		L5	有	9	9	Tourette syndrome	Tourette syndrome		data-20261016	
+FRTxGNN	zuclopenthixol	zuclopenthixol	keep		L5	無	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
