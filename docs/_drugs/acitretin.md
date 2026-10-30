@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 23
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acitretin : nouvelle indication prédite, Acné (disease) (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM"
 monitor_inn: "acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -52,7 +52,7 @@ Ces preuves concernent toutefois surtout l'**hidradénite suppurée (acné inver
 | Nouvelle Indication Predite | Acné (disease) |
 | Score de Prediction TxGNN | 0,9994 |
 | Niveau de Preuve | L3 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 

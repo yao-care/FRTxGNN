@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette pr�
 | Nouvelle Indication Predite | Brachydactyly-syndactyly syndrome |
 | Score de Prediction TxGNN | 0.9935 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
 | Nombre d'AMM | 12 (valides : 12) |
 | Decision Recommandee | Hold |
 

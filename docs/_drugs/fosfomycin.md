@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fosfomycin : nouvelle indication prédite, Uterine inflammatory disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -52,7 +52,7 @@ Cette direction repose sur **2 essais cliniques** et **1 publication**, mais auc
 | Nouvelle indication prédite | Uterine inflammatory disease |
 | Score de prédiction TxGNN | 0.9998 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
 | Nombre d'AMM | 19 (valides : 19) |
 | Décision recommandée | Hold |
 

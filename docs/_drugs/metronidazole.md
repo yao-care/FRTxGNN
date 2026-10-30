@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocysto
 | Nouvelle Indication Predite | Pneumocystose (pneumocystosis) |
 | Score de Prediction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (toutes annulées) |
 | Decision Recommandee | Hold |
 

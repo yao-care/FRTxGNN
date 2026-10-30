@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de l
 | Nouvelle indication prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
 | Score de prédiction TxGNN | 0.9960 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Décision recommandée | Hold |
 

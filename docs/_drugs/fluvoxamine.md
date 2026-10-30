@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 344
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "FLUVOXAMINE"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
 description: "Fluvoxamine : nouvelle indication prédite, Schizotypal personality disorder (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -49,7 +49,7 @@ Le modele TxGNN predit qu'elle pourrait etre efficace pour le **trouble anxieux*
 | Nouvelle Indication Predite | Schizotypal personality disorder |
 | Score de Prediction TxGNN | 1.0000 |
 | Niveau de Preuve | L1 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Proceed with Guardrails |
 

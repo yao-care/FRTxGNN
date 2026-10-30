@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 742
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Terazosin : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypertension artérielle…"
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
@@ -50,7 +50,7 @@ Parmi les autres pistes prédites, la **maladie de Raynaud** est la mieux docume
 | Nouvelle Indication Predite | Hypotrichose simple du cuir chevelu |
 | Score de Prediction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 

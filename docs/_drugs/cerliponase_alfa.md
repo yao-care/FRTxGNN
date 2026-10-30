@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cerliponase Alfa : nouvelle indication prédite, Syndrome de Scheie (niveau de preuve L5). Indication d'origine : Lipofuscinose neuronale céroïde (dont la forme infantile)"
 monitor_inn: "CERLIPONASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
@@ -50,7 +50,7 @@ Cette prédiction repose uniquement sur le modèle, et son lien biologique est j
 | Nouvelle indication prédite | Syndrome de Scheie |
 | Score de prédiction TxGNN | 0,9998 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Décision recommandée | Hold |
 

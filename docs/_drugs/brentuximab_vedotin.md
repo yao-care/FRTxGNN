@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 113
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Brentuximab Vedotin : nouvelle indication prédite, Lymphome folliculaire (niveau de preuve L3). Indication d'origine : Lymphome de Hodgkin (lymphome de Hodgkin classique)"
 monitor_inn: "brentuximab vedotin"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -51,7 +51,7 @@ Le modele TxGNN predit qu'il pourrait etre efficace pour le **lymphome follicula
 | Nouvelle Indication Predite | Lymphome folliculaire |
 | Score de Prediction TxGNN | 0,9989 |
 | Niveau de Preuve | L3 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 

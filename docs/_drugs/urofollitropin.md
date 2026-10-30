@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 799
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Urofollitropin : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignee dans les AMM disponibles (usage connu : stimulation o…"
 monitor_inn: "urofollitropin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
@@ -49,7 +49,7 @@ Le modele TxGNN predit qu'elle pourrait etre efficace pour le **trouble migraine
 | Nouvelle Indication Predite | Trouble migraineux (migraine disorder) |
 | Score de Prediction TxGNN | 0,9985 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
 | Decision Recommandee | Hold |
 

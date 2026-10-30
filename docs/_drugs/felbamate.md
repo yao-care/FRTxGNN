@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 318
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "FELBAMATE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Felbamate : nouvelle indication prédite, Trigeminal nerve neoplasm (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ Une première prédiction, le **néoplasme du nerf trijumeau** (score de 0,9962)
 | Nouvelle Indication Predite | Trigeminal nerve neoplasm |
 | Score de Prediction TxGNN | 0.9962 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Hold |
 

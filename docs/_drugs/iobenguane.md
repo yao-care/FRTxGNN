@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 405
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "IOBENGUANE"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
 description: "Iobenguane : nouvelle indication prédite, Hypotensive disorder (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -50,7 +50,7 @@ Ces publications ne montrent pas que l'iobenguane traite l'hypotension : tout r�
 | Nouvelle Indication Predite | Hypotensive disorder |
 | Score de Prediction TxGNN | 0.9990 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 

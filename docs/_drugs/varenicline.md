@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Varenicline : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignee dans les donnees d'AMM compilees (le texte d'indicatio…"
 monitor_inn: "varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -48,7 +48,7 @@ La varenicline (CHAMPIX) est un medicament d'aide au sevrage tabagique. Le model
 | Nouvelle Indication Predite | Trouble migraineux (migraine disorder) |
 | Score de Prediction TxGNN | 0,9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Hold |
 

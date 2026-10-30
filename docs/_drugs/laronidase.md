@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 437
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "LARONIDASE"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 description: "Laronidase : nouvelle indication prédite, Lysosomal storage disease with skeletal involvement (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -50,7 +50,7 @@ Aucun essai clinique n'est enregistré pour cette indication, et **4 publication
 | Nouvelle Indication Predite | Lysosomal storage disease with skeletal involvement |
 | Score de Prediction TxGNN | 0.9931 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 

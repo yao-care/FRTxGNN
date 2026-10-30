@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 | Nouvelle Indication Predite | Syndrome de la queue de cheval (cauda equina syndrome) |
 | Score de Prediction TxGNN | 0.9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
 | Decision Recommandee | Hold |
 

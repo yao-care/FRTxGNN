@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 832
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Zonisamide : nouvelle indication prédite, Syndrome de Gilles de la Tourette (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles (les textes d'indi…"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -50,7 +50,7 @@ Zonisamide est un antiépileptique de la famille des sulfonamides. Le modèle Tx
 | Nouvelle indication prédite | Syndrome de Gilles de la Tourette (rang 1) |
 | Score de prédiction TxGNN | 0,9985 |
 | Niveau de preuve | L5 (prédiction du modèle uniquement) |
-| Statut de marché en France | Commercialisé (autorisations valides : 17 sur 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 20) |
 | Nombre d'AMM | 20 (valides : 17) |
 | Décision recommandée | Hold |
 

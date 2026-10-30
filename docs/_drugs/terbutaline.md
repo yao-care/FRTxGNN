@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 743
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TERBUTALINE"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Cette prédiction recoupe toutefois largement les indications déjà connues du 
 | Nouvelle Indication Predite | Maladie pulmonaire obstructive (obstructive lung disease) |
 | Score de Prediction TxGNN | 0.9996 |
 | Niveau de Preuve | L1 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Proceed with Guardrails |
 

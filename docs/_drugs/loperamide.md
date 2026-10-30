@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide : nouvelle indication prédite, Acute contagious conjunctivitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **conjonctivite c
 | Nouvelle Indication Predite | Acute contagious conjunctivitis |
 | Score de Prediction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 2) |
 | Nombre d'AMM | 2 (valides : 1) |
 | Decision Recommandee | Hold |
 

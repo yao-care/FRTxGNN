@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "isavuconazonium"
 predicted_indications: ["pneumocystosis", "mycetoma"]
 description: "Isavuconazonium : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Une seconde prédiction, le **mycétome** (score de 0,9934), repose sur une seul
 | Nouvelle indication prédite | Pneumocystose (pneumocystosis) |
 | Score de prédiction TxGNN | 0.9956 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Décision recommandée | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Canakinumab : nouvelle indication prédite, Infarctus hépatique (hepatic infarction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour l'**infarctus hépatiqu
 | Nouvelle indication prédite | Infarctus hépatique (hepatic infarction) |
 | Score de prédiction TxGNN | 0,9986 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Décision recommandée | Hold |
 

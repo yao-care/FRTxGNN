@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 302
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Estriol : nouvelle indication prédite, Aménorrhée (niveau de preuve L3). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -50,7 +50,7 @@ avec **0 essai clinique** enregistré et **6 publications** identifiées, dont s
 | Nouvelle Indication Predite | Aménorrhée |
 | Score de Prediction TxGNN | 0,9918 |
 | Niveau de Preuve | L3 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
 | Nombre d'AMM | 7 (valides : 7) |
 | Decision Recommandee | Hold |
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 491
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide : nouvelle indication prédite, Gastroduodenitis (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**ulcère gastrique
 | Nouvelle Indication Predite | Gastroduodenitis |
 | Score de Prediction TxGNN | 0.9990 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Non commercialisé (aucune autorisation enregistrée) |
+| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
 | Nombre d'AMM | 0 (valides : 0) |
 | Decision Recommandee | Hold |
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vestronidase Alfa : nouvelle indication prédite, Syndrome de Scheie (niveau de preuve L5). Indication d'origine : Mucopolysaccharidose (type VII)"
 monitor_inn: "VESTRONIDASE ALFA"
 predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
@@ -51,7 +51,7 @@ Le modele TxGNN predit qu'elle pourrait etre efficace pour le **syndrome de Sche
 | Nouvelle Indication Predite | Syndrome de Scheie |
 | Score de Prediction TxGNN | 0,9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 

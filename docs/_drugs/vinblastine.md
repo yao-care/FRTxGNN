@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 813
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcoma (disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -49,7 +49,7 @@ Le modele TxGNN predit qu'il pourrait etre efficace pour le **rhabdomyosarcome**
 | Nouvelle Indication Predite | Rhabdomyosarcoma (disease) |
 | Score de Prediction TxGNN | 0.9986 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 

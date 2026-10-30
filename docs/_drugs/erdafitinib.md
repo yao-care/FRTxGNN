@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Erdafitinib : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pul
 | Nouvelle Indication Predite | Hypertension pulmonaire |
 | Score de Prediction TxGNN | 0,9938 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Hold |
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "MARAVIROC"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
 description: "Maraviroc : nouvelle indication prédite, Néoplasie endocrinienne multiple (multiple endocrine neoplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endo
 | Nouvelle Indication Predite | Néoplasie endocrinienne multiple (multiple endocrine neoplasia) |
 | Score de Prediction TxGNN | 0.9982 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
 | Nombre d'AMM | 7 (valides : 7) |
 | Decision Recommandee | Hold |
 

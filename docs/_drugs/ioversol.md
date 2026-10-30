@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOVERSOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ioversol : nouvelle indication prédite, Arthrose (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (les textes d'indication des…"
 ---
 
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais
 | Nouvelle indication prédite | Arthrose |
 | Score de prédiction TxGNN | 0,9963 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
 | Décision recommandée | Hold |
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam : nouvelle indication prédite, Tumeur du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ Le modèle TxGNN (apprentissage profond) prédit en rang 1 qu'il pourrait être 
 | Nouvelle indication prédite | Tumeur du nerf trijumeau (trigeminal nerve neoplasm) |
 | Score de prédiction TxGNN | 0.9987 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
 | Nombre d'AMM | 5 (valides : 5) |
 | Décision recommandée | Hold |
 

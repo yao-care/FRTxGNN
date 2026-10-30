@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Brigatinib : nouvelle indication prédite, Fibromatose gingivale (fibromatosis, gingival) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour la **fibromatose gingiv
 | Nouvelle indication prédite | Fibromatose gingivale (fibromatosis, gingival) |
 | Score de prédiction TxGNN | 0,9989 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
 | Décision recommandée | Hold |
 

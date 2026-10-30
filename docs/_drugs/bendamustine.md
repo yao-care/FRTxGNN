@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "BENDAMUSTINE"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bendamustine : nouvelle indication prédite, Lymphome à cellules du manteau (mantle cell lymphoma) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **lymphome à c
 | Nouvelle Indication Predite | Lymphome à cellules du manteau (mantle cell lymphoma) |
 | Score de Prediction TxGNN | 0,9963 |
 | Niveau de Preuve | L1 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Decision Recommandee | Proceed with Guardrails |
 

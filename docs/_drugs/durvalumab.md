@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Durvalumab : nouvelle indication prédite, Adénocarcinome du ligament utérin (prédiction de rang 1) (niveau de preuve L5). Indication d'origine : Carcinome à cellules transitionnelles"
 ---
 
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome endoc
 | Nouvelle Indication Predite | Adénocarcinome du ligament utérin (prédiction de rang 1) ; carcinome endocervical (prédiction de rang 2, la seule avec des données de soutien) |
 | Score de Prediction TxGNN | 0,9992 (rang 1) ; 0,9991 (carcinome endocervical) |
 | Niveau de Preuve | L5 (aucune étude citée ne porte directement sur le carcinome endocervical lui-même ; l'unique essai concerne un cancer du col, du vagin ou de la vulve en association) |
-| Statut de Marche en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Decision Recommandee | Hold |
 

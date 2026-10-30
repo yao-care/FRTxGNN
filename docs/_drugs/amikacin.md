@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Amikacin : nouvelle indication prédite, Fièvre paratyphoïde (paratyphoid fever) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -50,7 +50,7 @@ mais les données compilées ne contiennent **aucun essai clinique** et **8 publ
 | Nouvelle Indication Predite | Fièvre paratyphoïde (paratyphoid fever) |
 | Score de Prediction TxGNN | 0,9982 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
 | Nombre d'AMM | 6 (valides : 6) |
 | Decision Recommandee | Hold |
 

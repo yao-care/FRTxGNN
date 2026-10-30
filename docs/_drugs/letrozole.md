@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 446
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole : nouvelle indication prédite, Nipple carcinoma (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ Il s'agit toutefois d'une indication déjà établie : la prédiction valide l'u
 | Nouvelle indication prédite | Nipple carcinoma |
 | Score de prédiction TxGNN | 0.9976 |
 | Niveau de preuve | L1 |
-| Statut de marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
 | Nombre d'AMM | 20 (valides : 20) |
 | Décision recommandée | Proceed with Guardrails |
 

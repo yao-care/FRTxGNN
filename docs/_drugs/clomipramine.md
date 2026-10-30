@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 186
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "CLOMIPRAMINE"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -50,7 +50,7 @@ avec **8 essais cliniques** et **20 publications** retenus dans les donnees comp
 | Nouvelle Indication Predite | Trouble anxieux (anxiety disorder) |
 | Score de Prediction TxGNN | 0.9993 |
 | Niveau de Preuve | L1 (selon l'evaluation des donnees compilees ; a nuancer, voir ci-dessous) |
-| Statut de Marche en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
 | Decision Recommandee | Proceed with Guardrails |
 

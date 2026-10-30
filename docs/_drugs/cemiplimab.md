@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "cemiplimab"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cemiplimab : nouvelle indication prédite, Carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
@@ -50,7 +50,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 | Nouvelle indication prédite | Carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma) |
 | Score de prédiction TxGNN | 0,9999 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Décision recommandée | Hold |
 

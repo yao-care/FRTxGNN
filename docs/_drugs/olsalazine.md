@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 558
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Olsalazine : nouvelle indication prédite, Syndrome myélodysplasique (niveau de preuve L5). Indication d'origine : Non précisée dans les AMM (texte d'indication vide)"
 monitor_inn: "olsalazine"
 predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -51,7 +51,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome myélo
 | Nouvelle indication prédite | Syndrome myélodysplasique |
 | Score de prédiction TxGNN | 0,9991 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Décision recommandée | Hold |
 

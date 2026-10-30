@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Atorvastatin : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -50,7 +50,7 @@ avec **14 essais cliniques** et **20 publications** recensés. Ces études porte
 | Nouvelle indication prédite | Infection par le VIH (HIV infectious disease) |
 | Score de prédiction TxGNN | 0,9931 |
 | Niveau de preuve | L2 |
-| Statut de marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
 | Nombre d'AMM | 13 (valides : 13) |
 | Décision recommandée | Proceed with Guardrails |
 

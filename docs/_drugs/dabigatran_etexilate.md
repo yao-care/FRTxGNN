@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dabigatran Etexilate : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (texte d'indication vide)"
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -49,7 +49,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cholangite 
 | Nouvelle indication prédite | Cholangite sclérosante |
 | Score de prédiction TxGNN | 0,9982 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (dont 20 annulées) |
 | Décision recommandée | Hold |
 

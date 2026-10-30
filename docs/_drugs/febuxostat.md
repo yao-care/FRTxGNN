@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 317
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "febuxostat"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Ce score provient du modèle TxGNN (apprentissage profond) et peut refléter des
 | Nouvelle Indication Predite | Hypouricémie rénale (hypouricemia, renal) |
 | Score de Prediction TxGNN | 0.9999 |
 | Niveau de Preuve | L4 |
-| Statut de Marche en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | 20 (0 valide, 20 annulées) |
 | Decision Recommandee | Hold |
 

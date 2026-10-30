@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alanine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "ALANINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -52,7 +52,7 @@ Aucun essai clinique n'est enregistré, et les **3 publications** retrouvées ne
 | Nouvelle Indication Predite | Gastroparésie |
 | Score de Prediction TxGNN | 0,9937 |
 | Niveau de Preuve | L5 |
-| Statut de Marche en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | 20 |
 | Decision Recommandee | Hold |
 

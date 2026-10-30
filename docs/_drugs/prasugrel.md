@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 622
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 description: "Prasugrel : nouvelle indication prédite, Pulmonary hypertension (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -54,7 +54,7 @@ Ce rapport retient donc comme piste la mieux documentee le **trouble migraineux*
 | Nouvelle Indication Predite | Pulmonary hypertension |
 | Score de Prediction TxGNN | 0.9988 |
 | Niveau de Preuve | L3 (migraine) |
-| Statut de Marche en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
 | Decision Recommandee | Hold |
 

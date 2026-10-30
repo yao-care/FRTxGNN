@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dienogest : nouvelle indication prédite, Aménorrhée (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM françaises (texte d'indication vide)"
 monitor_inn: "dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -50,7 +50,7 @@ La dienogest est un progestatif de synthèse (dérivé de la 19-nortestostérone
 | Nouvelle indication prédite | Aménorrhée |
 | Score de prédiction TxGNN | 0,9971 |
 | Niveau de preuve | L5 |
-| Statut de marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
 | Nombre d'AMM | 10 (valides : 10) |
 | Décision recommandée | Hold |
 
