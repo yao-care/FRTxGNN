@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Benazepril : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
@@ -50,8 +50,8 @@ Cependant, **aucun essai clinique** et **aucune publication pertinente** ne sout
 | Nouvelle Indication Predite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prediction TxGNN | 0.9965 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
-| Nombre d'AMM | 0 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 8) |
+| Nombre d'AMM | 8 (valides : 7) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marche en France
 
-Aucune AMM n'est enregistrée en France pour le bénazépril dans les données compilées : le médicament apparaît comme non commercialisé.
+Le bénazépril dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).
 
 ## Considerations de Securite
 

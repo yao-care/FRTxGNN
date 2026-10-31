@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -52,8 +52,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle indication prédite | Conjonctivite papillaire (papillary conjunctivitis) |
 | Score de prédiction TxGNN | 1.0000 |
 | Niveau de preuve | L5 |
-| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
-| Nombre d'AMM | 0 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 24 sur 26) |
+| Nombre d'AMM | 26 (valides : 24) |
 | Décision recommandée | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 499
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -117,7 +117,7 @@ Les 8 AMM sont annulées. Le texte de l'indication approuvée n'est pas renseign
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Comparer le midazolam aux hypnotiques actuellement disponibles, au regard de la balance bénéfice-risque.
 - Vérifier la compatibilité des voies d'administration avec l'usage hypnotique, les AMM annulées étant essentiellement injectables.
-- Évaluer, avec les données récentes, la pertinence d'un nouveau dossier réglementaire, compte tenu du statut « uniquement annulé ».
+- Évaluer, avec les données récentes, la pertinence d'un nouveau dossier réglementaire.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

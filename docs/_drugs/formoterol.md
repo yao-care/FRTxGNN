@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
 description: "Formoterol : nouvelle indication prédite, Respiratory malformation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -138,7 +138,7 @@ Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) ;
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank) ;
 - Définir précisément le phénotype de bronchite visé (chronique, aiguë ou éosinophilique) et rechercher des essais spécifiques ;
-- Vérifier la disponibilité commerciale d'un produit à base de formotérol en France, au vu du statut uniquement annulé ;
+- Vérifier la disponibilité commerciale d'un produit à base de formotérol en France, ;
 
 **Autres indications prédites (pour information) :**
 - **Maladie pulmonaire obstructive** (L1, Proceed with Guardrails) et **asthme** (L1, Proceed with Guardrails) : bien étayées par de larges essais de phase 3 (ETHOS, SYGMA, Novel START), mais déjà proches des indications d'origine. À utiliser dans le cadre des indications validées, avec un corticoïde inhalé pour l'asthme.

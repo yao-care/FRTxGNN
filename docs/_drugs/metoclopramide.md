@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 491
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide : nouvelle indication prédite, Gastroduodenitis (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**ulcère gastrique
 | Nouvelle Indication Predite | Gastroduodenitis |
 | Score de Prediction TxGNN | 0.9990 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
-| Nombre d'AMM | 0 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -94,7 +94,7 @@ Les mises en garde et contre-indications de la notice française ne sont pas dis
 **Decision : Hold**
 
 **Justification :**
-- Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le seul essai clinique porte sur la visualisation endoscopique, la littérature disponible est surtout composée de revues, et les études comparatives montrent que la métoclopramide apporte peu par rapport à la suppression acide. Le médicament n'est pas commercialisé en France (Not marketed).
+- Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le seul essai clinique porte sur la visualisation endoscopique, la littérature disponible est surtout composée de revues, et les études comparatives montrent que la métoclopramide apporte peu par rapport à la suppression acide.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications), bloquant pour le criblage de sécurité

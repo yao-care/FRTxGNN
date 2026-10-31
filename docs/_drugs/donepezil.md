@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil : nouvelle indication prédite, Psychogenic movement disorders (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -50,8 +50,8 @@ avec **0 essai clinique** et **5 publications** (dont une étude pédiatrique ou
 | Nouvelle Indication Prédite | Psychogenic movement disorders |
 | Score de Prédiction TxGNN | 0.9923 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé (aucune autorisation enregistrée) |
-| Nombre d'AMM | 0 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 24) |
+| Nombre d'AMM | 24 (valides : 20) |
 | Décision Recommandée | Hold (question de recherche, sécurité à évaluer en premier) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -78,7 +78,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Aucune AMM n'est enregistrée pour le donépézil dans les données compilées pour ce rapport (statut : non commercialisé, 0 AMM). Ce point est à vérifier auprès de l'ANSM, car le donépézil est habituellement disponible en France.
+Le donépézil dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).
 
 ## Considérations de Sécurité
 
