@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 226
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 description: "Desmopressin : nouvelle indication prédite, Congenital prothrombin deficiency (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -50,7 +50,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour le **défaut pri
 | Score de Prediction TxGNN | 0.9970 |
 | Niveau de Preuve | L3 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Decision Recommandee | Proceed with Guardrails |
 
 > Remarque : la première prédiction du classement (déficit congénital en prothrombine, score 0,9970) n'a pas été retenue comme candidate principale, car le lien mécanistique est faible et les preuves se limitent à une revue de 1993 (niveau L5, décision Hold). La candidate présentée ici est la mieux étayée parmi les six prédictions.

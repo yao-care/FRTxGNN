@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 46
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Alprazolam : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Trouble anxieux, anxiété…"
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -52,7 +52,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 | Score de Prédiction TxGNN | 0,9981 |
 | Niveau de Preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

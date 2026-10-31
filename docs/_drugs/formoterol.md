@@ -52,7 +52,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, av
 | Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 (essais de phase 3 terminés, mais indirects : BPCO et associations fixes) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

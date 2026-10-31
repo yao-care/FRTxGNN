@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide : nouvelle indication prédite, Manic bipolar affective disorder (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble migrain
 | Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 selon l'évaluation compilée, à nuancer (voir ci-dessous) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Proceed with Guardrails |
 
 Sur le niveau de preuve : trois essais de phase 3 sont recensés (NCT05632133, NCT05851781, NCT06243692), mais l'un porte sur un biomarqueur (CGRP), un autre a un statut inconnu, et aucun n'est contrôlé par placebo. Seul un essai de phase 3 est terminé avec une publication d'ECR correspondante. Le niveau L1 doit donc être interprété avec prudence.

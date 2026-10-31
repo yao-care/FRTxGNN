@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -53,7 +53,7 @@ Cette prédiction doit être interprétée avec prudence : elle concerne vraisem
 | Score de Prédiction TxGNN | 0.9926 |
 | Niveau de Preuve | L5 selon le classement automatique (à relativiser, voir ci-dessous) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

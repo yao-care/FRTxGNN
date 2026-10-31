@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 726
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -50,7 +50,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome**, 
 | Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L2 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold (question de recherche à approfondir) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

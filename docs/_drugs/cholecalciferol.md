@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Cholecalciferol : nouvelle indication prédite, Dysplasie acromésomélique de type Campailla-Martinelli (niveau de preuve L5). Indication d'origine : Le texte d'indication n'est pas renseigné dans les …"
 ---
 
@@ -52,7 +52,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **dysplasie acromés
 | Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | Au moins 20 AMM (la liste peut être partielle) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

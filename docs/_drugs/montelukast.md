@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 514
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, av
 | Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L2 (selon l'évaluation compilée pour cette indication ; essai de phase 3 NCT00076973 sur la bronchiolite à RSV, sans résultats détaillés) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

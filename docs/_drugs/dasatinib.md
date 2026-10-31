@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 218
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **sarcome d'Ewing
 | Score de Prediction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 (selon les données compilées ; voir la réserve ci-dessous) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Decision Recommandee | Hold |
 
 *Réserve sur le niveau de preuve : les données compilées attribuent L2, mais les deux essais disponibles ne sont ni des ECR de Phase 2/3 ni concluants. L'essai de Phase 2 (NCT00464620) est à un seul bras, et une revue indique que dasatinib a échoué en monothérapie dans le sarcome d'Ewing. Une lecture prudente situerait donc ce niveau plutôt entre L3 et L4.*

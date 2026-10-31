@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ Lansoprazole est un inhibiteur de la pompe à protons (IPP), initialement utilis
 | Score de Prédiction TxGNN | 0.9968 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement ; aucune étude spécifique à l'indication) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

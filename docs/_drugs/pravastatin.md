@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 623
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin : nouvelle indication prédite, HIV infectious disease (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ La pravastatine est une statine (inhibiteur de l'HMG-CoA réductase), initialeme
 | Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L4 (preuves indirectes, aucune étude directe sur la pravastatine) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

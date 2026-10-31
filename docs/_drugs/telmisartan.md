@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 734
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan : nouvelle indication prédite, Prinzmetal angina (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Le modèle TxGNN prédit en premier rang la **angine de Prinzmetal** (score le p
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 (preuves essentiellement précliniques, soutien clinique indirect) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 17) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ### Vue d'ensemble des 10 indications prédites

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Methionine : nouvelle indication prédite, Acné (niveau de preuve L5). Indication d'origine : Non renseignée dans les textes d'AMM compilés"
 ---
 
@@ -50,7 +50,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**acné**, mais **a
 | Score de Prédiction TxGNN | 1,0000 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
-| Nombre d'AMM | Au moins 20 (la liste peut être partielle) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

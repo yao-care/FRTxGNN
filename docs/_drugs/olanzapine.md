@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -51,7 +51,7 @@ Pour l'agoraphobie, les données compilées pour ce rapport recensent **aucun es
 | Score de Prédiction TxGNN | 0.9954 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold (question de recherche) |
 
 > Remarque : la prédiction classée première (torticolis paroxystique bénin du nourrisson, score 0,9954) est de niveau L5, sans aucune preuve, et est écartée (Hold). Ce rapport porte sur l'agoraphobie, la première prédiction disposant de preuves exploitables.

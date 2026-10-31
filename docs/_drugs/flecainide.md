@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -52,7 +52,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**accident vasculai
 | Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L2 (plafonné : essai de Phase 3 sans résultats, critère de substitution) |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

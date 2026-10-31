@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 599
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Phenylalanine : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM (texte d'indication vide)"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -50,7 +50,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour la **cholangite sclé
 | Score de Prédiction TxGNN | 0,9943 |
 | Niveau de Preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

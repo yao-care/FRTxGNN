@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 692
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -53,7 +53,7 @@ Il s'agit toutefois d'une extension très proche des usages d'origine (bronchite
 | Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L1 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

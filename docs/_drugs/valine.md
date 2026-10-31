@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 801
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Valine : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L4). Indication d'origine : Non précisée dans les données compilées (texte d'indication vide pour…"
 monitor_inn: "VALINE"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -51,7 +51,7 @@ La valine est un acide aminé à chaîne ramifiée (BCAA), présent dans de nomb
 | Score de Prédiction TxGNN | 0,9942 |
 | Niveau de Preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

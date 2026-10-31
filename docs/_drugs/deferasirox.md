@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 219
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 description: "Deferasirox : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -53,7 +53,7 @@ Il s'agit donc d'une hypothèse très préliminaire.
 | Score de Prédiction TxGNN | 0.9940 |
 | Niveau de Preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (dont 0 valide, 20 abrogées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

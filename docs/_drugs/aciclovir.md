@@ -5,7 +5,7 @@ layout: default
 title: Aciclovir
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 22
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,7 +42,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 0 |
+| Nombre d'AMM | au moins 20 |
 
 ---
 

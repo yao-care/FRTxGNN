@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac : nouvelle indication prédite, Hypotrichosis simplex of the scalp (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -50,7 +50,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrite juvéni
 | Score de Prédiction TxGNN | 0.9969 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | 20 (toutes annulées) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 **Remarque sur le choix de l'indication :** les neuf prédictions les mieux classées (score TxGNN plus élevé) sont des maladies génétiques rares (hypotrichose, dysplasies squelettiques, etc.) sans aucune preuve clinique ni lien mécanistique plausible (niveau L5). L'arthrite juvénile idiopathique est la première prédiction disposant de données de la littérature ; elle est donc retenue comme indication principale de ce rapport.
