@@ -3,7 +3,7 @@ layout: default
 title: Tazobactam
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 733
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Tazobactam : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour Tazobactam. Tous ceux dont la source peut être retracée correspondent à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour ce médicament.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
@@ -51,16 +52,19 @@ Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour Tazobactam. Tous 
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Pneumonie (pneumonia) | Autorisation dans un autre pays ; indication approuvée : hospital-acquired pneumonia (hap), including ventilator associated pneumonia (vap). consideration should be given to official guidance on the appropriate use of antibacterial agents |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Infection des voies urinaires (urinary tract infection (disease)) | urinary tract infection |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 527
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -109,6 +109,7 @@ Les trois AMM recensées sont toutes annulées ; le texte de l'indication approu
 | 3 | Psoriasis | 0,9919 | L4 | Hold | Données contradictoires : une série de 18 patients rapporte une amélioration, mais plusieurs cas décrivent un psoriasis induit ou aggravé ; aucun essai |
 | 4 | Rétinopathie diabétique non proliférante sévère | 0,9918 | L5 | Hold | Aucune donnée ; risque de LEMP en usage systémique |
 | 5 | Pityriasis lichénoïde aigu | 0,9904 | L4 | Hold | Même cas clinique que ci-dessus, confondu par l'exposition au fingolimod ; aucun soutien |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

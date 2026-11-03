@@ -3,7 +3,7 @@ layout: default
 title: Acetaminophen
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 18
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Acetaminophen : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour Acetaminophen. Tous ceux qui peuvent être rattachés à une source correspondent à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour cette substance.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
@@ -51,16 +52,19 @@ Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour Acetaminophen. To
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | Aucune |
 
 ### Apparentés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | Aucune |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

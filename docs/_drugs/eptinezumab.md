@@ -3,7 +3,7 @@ layout: default
 title: Eptinezumab
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 291
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Eptinezumab : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour Eptinezumab, mais tous ceux dont la source peut être retracée correspondent à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour ce médicament. Cette page présente les usages connus retrouvés parmi les candidats du modèle ainsi que le statut commercial en France.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
@@ -51,16 +52,19 @@ Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour Eptinezumab, mais
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvé (appuyé par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | Aucune |
 
 ### Lié à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | migraine avec aura du tronc cérébral (migraine with brainstem aura) | migraine |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

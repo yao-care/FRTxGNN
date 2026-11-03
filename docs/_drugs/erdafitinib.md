@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Erdafitinib : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -114,6 +114,7 @@ Toutes ces prédictions sont de niveau L5 avec une décision **Hold**.
 | 4 | Polyarthrite rhumatoïde | 0,9925 | Hypothèse plausible mais non validée (activation des fibroblastes synoviaux, angiogenèse) ; la seule publication (PMID [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/), revue générale de 2020 sur les inhibiteurs de kinases approuvés par la FDA) est un contexte indirect |
 | 5 | Sclérose latérale amyotrophique | 0,9906 | Sens de l'effet incertain, l'inhibition de FGFR pouvant être neutre ou délétère ; pénétration du SNC non caractérisée |
 | 6 | Syndrome brachydactylie-syndactylie | 0,9903 | Lien conceptuel avec le développement des membres ; questions de sécurité importantes (effets squelettiques, développementaux, grossesse) |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

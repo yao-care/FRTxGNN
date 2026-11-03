@@ -3,7 +3,7 @@ layout: default
 title: Dexchlorpheniramine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 230
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Dexchlorpheniramine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour Dexchlorpheniramine correspondent tous à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour cette molécule. Les scores proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies voisines, et non une preuve biologique.
 
 ## Vue d'ensemble
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
@@ -51,16 +52,19 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour Dexchlorphenir
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | Aucune |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | Aucune |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | urticaire allergique (allergic urticaria) |

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 792
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin : nouvelle indication prédite, Hypertrichosis (disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -154,6 +154,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 | Urticaire allergique | L5 | Hold | Association possiblement inverse (effet indésirable des agonistes de la GnRH) |
 | Syndrome d'excès d'aromatase | L5 | Hold | Rôle d'appoint seulement théorique, sans preuve |
 | Autres (syndrome d'Ambras, malformations dentaires/parodontales, syndrome de Dandy-Walker, anomalies génétiques de la tige pilaire, trichomégalie familiale) | L5 | Hold | Aucun lien mécanistique plausible ni preuve clinique |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

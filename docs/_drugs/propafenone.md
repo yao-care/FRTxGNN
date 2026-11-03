@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone : nouvelle indication prédite, Manic bipolar affective disorder (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -129,6 +129,7 @@ Les données de la notice (mises en garde, contre-indications) ne sont pas dispo
 | 6 | Cardiomyopathie arythmogène du ventricule droit | 0,9942 | L4 | Hold : signaux de sécurité (proarythmie) |
 | 7 | Syndrome néphrogénique d'antidiurèse inappropriée | 0,9923 | L5 | Hold : aucune donnée |
 | 8 | Trichotillomanie | 0,9917 | L5 | Hold : aucune donnée |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

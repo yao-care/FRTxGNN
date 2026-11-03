@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 183
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
 description: "Clofarabine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -144,6 +144,7 @@ Les mises en garde et contre-indications officielles de la notice de l'ANSM n'on
 | Phase blastique de la leucémie myéloïde chronique BCR-ABL1 positive | 0,9943 | L5 | Question de recherche |
 | Neuroblastome | 0,9952 | L4 | Hold |
 | Ganglioneuroblastome ; syndrome malformatif vertébral avec dysfonction endocrinienne et des lymphocytes T ; néoplasme rétropéritonéal ; deux formes de LLC/lymphome lymphocytique | 0,9926 à 0,9953 | L5 | Hold (prédiction du modèle uniquement) |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

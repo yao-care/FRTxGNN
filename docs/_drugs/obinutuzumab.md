@@ -3,7 +3,7 @@ layout: default
 title: Obinutuzumab
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 550
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Obinutuzumab : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidats pour Obinutuzumab, mais tous ceux dont la source peut être retracée correspondent à des usages déjà connus. Il n'y a donc actuellement aucune nouvelle indication prédite pour cette substance. Les deux candidats identifiés relèvent de la même catégorie de maladie qu'une indication approuvée.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
@@ -51,17 +52,20 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | Aucune |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | leucémie lymphoïde chronique/lymphome lymphocytique à petites cellules avec hypermutation somatique des gènes de la région variable de la chaîne lourde des immunoglobulines (chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation) | cll |
 | leucémie lymphoïde chronique/lymphome lymphocytique à petites cellules pré-centre germinatif (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) | cll |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

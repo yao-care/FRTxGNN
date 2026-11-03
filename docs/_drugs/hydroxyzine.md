@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "HYDROXYZINE"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine : nouvelle indication prédite, Rosacea conjunctivitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -113,6 +113,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 | Rang | Indication | Score TxGNN | Niveau de preuve | Recommandation |
 |---|---|---|---|---|
 | 2 | Conjonctivite de la rosacée | 0,9970 | L5 | Hold : aucune étude ; lien antihistaminique faible |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

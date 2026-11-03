@@ -3,7 +3,7 @@ layout: default
 title: Sumatriptan
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 725
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Sumatriptan : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Sumatriptan correspondent tous à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour ce médicament. Les usages connus identifiés sont détaillés ci-dessous.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
@@ -51,16 +52,19 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Sumatriptan
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | migraine avec aura du tronc cérébral (migraine with brainstem aura) | autorisation dans un autre pays ; indication approuvée : migraine |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | Aucune |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

@@ -3,7 +3,7 @@ layout: default
 title: Rabeprazole
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 645
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Rabeprazole : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Rabeprazole correspondent tous à des usages déjà connus. Il n'y a donc actuellement aucune nouvelle indication prédite pour ce médicament. Les deux usages connus retrouvés figurent uniquement sous forme de relations dans le graphe de connaissances.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
@@ -51,16 +52,19 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Rabeprazole
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | Aucune |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | Aucune |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Mastocytose systémique latente (Smouldering systemic mastocytosis) |

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 794
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 description: "Tryptophan : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -138,6 +138,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 | Méthémoglobinémie de type alpha | 0,9918 | L5 | Hold (prédiction seule) |
 | Déficit en méthémoglobine réductase | 0,9908 | L5 | Hold (prédiction seule) |
 | Déficit congénital en prothrombine | 0,9901 | L5 | Hold (prédiction seule, sans mécanisme plausible) |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

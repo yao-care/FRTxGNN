@@ -3,7 +3,7 @@ layout: default
 title: Prazepam
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 624
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Prazepam : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidats pour Prazepam. Tous ceux qui ont pu être rattachés à une source correspondent déjà à des usages connus. Il n'y a donc actuellement aucune nouvelle indication prédite pour ce médicament.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
@@ -51,16 +52,19 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvées (étayées par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | Aucune |
 
 ### Liées à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | Aucune |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

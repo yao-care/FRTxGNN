@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine : nouvelle indication prédite, Thiamine-responsive dysfunction syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -158,6 +158,7 @@ Les neuf autres indications prédites ne reposent sur aucun essai clinique ni pu
 | 8 | Lipodystrophie localisée d'origine médicamenteuse | 0,9915 | L5 | L'insuline est une cause connue, non un traitement |
 | 9 | Lipodystrophie centrifuge | 0,9911 | L5 | Aucune justification thérapeutique |
 | 10 | Lipoatrophie localisée induite par la pression | 0,9910 | L5 | L'insuline peut provoquer la lipoatrophie, non la traiter |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

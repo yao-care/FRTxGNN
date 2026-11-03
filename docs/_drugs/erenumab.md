@@ -3,7 +3,7 @@ layout: default
 title: Erenumab
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 293
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Erenumab : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour Erenumab correspondent tous à des usages déjà connus. Il n'existe donc, à ce jour, aucune nouvelle indication prédite pour ce médicament. La seule indication candidate, la migraine avec aura du tronc cérébral, relève de la même catégorie de maladies qu'une indication approuvée.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
@@ -51,16 +52,19 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour Erenumab corr
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvé (appuyé par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | Aucune |
 
 ### Lié à une indication approuvée (même catégorie de maladies)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | migraine avec aura du tronc cérébral (migraine with brainstem aura) | migraine |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

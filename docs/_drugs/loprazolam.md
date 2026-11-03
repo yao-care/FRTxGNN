@@ -3,7 +3,7 @@ layout: default
 title: Loprazolam
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 462
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Loprazolam : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour Loprazolam, lorsqu'ils peuvent être reliés à une source, correspondent tous à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour ce médicament.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
@@ -51,16 +52,19 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour Loprazolam, lo
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucune | — |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | — |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

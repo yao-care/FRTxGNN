@@ -3,7 +3,7 @@ layout: default
 title: Netarsudil
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 532
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Netarsudil : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidats pour Netarsudil, mais tous ceux dont la source est identifiable correspondent à des usages déjà connus. Il n'existe donc actuellement aucune nouvelle indication prédite pour ce médicament. Les usages connus sont détaillés ci-dessous.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
@@ -51,16 +52,19 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvé (appuyé par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | glaucome (glaucoma) | Autorisation dans un autre pays ; indication approuvée : open-angle glaucoma |
 
 ### Lié à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | glaucome héréditaire primaire (primary hereditary glaucoma) | glaucoma |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

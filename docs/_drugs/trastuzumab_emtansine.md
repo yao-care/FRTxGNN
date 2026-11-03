@@ -3,7 +3,7 @@ layout: default
 title: Trastuzumab Emtansine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 781
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Trastuzumab Emtansine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour ce médicament correspondent tous à des usages déjà connus. Il n'y a donc actuellement aucune nouvelle indication prédite. Les quatre usages ci-dessous relèvent de la même catégorie de maladie qu'une indication approuvée (cancer du sein).
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
@@ -51,11 +52,13 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour ce médicamen
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Aucun | Aucun |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Cancer du sein à récepteurs de la progestérone positifs (progesterone-receptor positive breast cancer) | cancer du sein (breast cancer) |
@@ -64,6 +67,7 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour ce médicamen
 | Tumeur du sein luminale A ou B (breast tumor luminal A or B) | cancer du sein (breast cancer) |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucun |

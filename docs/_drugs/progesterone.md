@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 634
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "progesterone"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -132,6 +132,7 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 | Endométriose sur cicatrice cutanée | L4 | Question de recherche | Un seul cas clinique ; la chirurgie reste le traitement de première ligne |
 | Adénose à canaux obstrués du sein | L5 | Hold | Aucune littérature ni essai |
 | Adénose apocrine du sein | L5 | Hold | Lésions ER/PR faibles ou négatives, ce qui affaiblit la justification |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

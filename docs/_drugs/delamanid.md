@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "delamanid"
 predicted_indications: ["allergic urticaria"]
 description: "Delamanid : nouvelle indication prédite, Allergic urticaria (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -106,6 +106,7 @@ Le même modèle a prédit d'autres indications, toutes sans preuve solide.
 | Indication prédite | Score TxGNN | Niveau de preuve | Décision | Commentaire |
 |------|------|------|------|------|
 | Urticaire allergique | 0,9956 | L5 | Hold | Aucun lien mécanistique plausible ; probable artefact du modèle |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

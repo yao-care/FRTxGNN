@@ -3,7 +3,7 @@ layout: default
 title: Diltiazem
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 245
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Diltiazem : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidats pour Diltiazem, mais tous ceux dont la source est traçable correspondent à des usages déjà connus. Il n'y a donc actuellement aucune nouvelle indication prédite pour ce médicament. Cette page présente les usages connus retrouvés parmi les candidats du modèle, ainsi que le statut commercial en France.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
@@ -51,16 +52,19 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvés (appuyés par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Angor de Prinzmetal (Prinzmetal angina) | Autorisation dans un autre pays ; indication approuvée : angina |
 
 ### Liés à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | Aucune |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

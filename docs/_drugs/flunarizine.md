@@ -3,7 +3,7 @@ layout: default
 title: Flunarizine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 336
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Flunarizine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidats pour Flunarizine. Tous ceux qui peuvent être rattachés à une source correspondent à un usage déjà connu. Il n'y a donc actuellement aucune nouvelle indication prédite pour ce médicament.
 
 ## Aperçu rapide
+
 | Élément | Contenu |
 |------|------|
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
@@ -51,16 +52,19 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 ## Usages connus parmi les candidats du modèle
 
 ### Approuvées (étayées par une autorisation ou une notice)
+
 | Indication | Source |
 |------|------|
 | Migraine (migraine disorder) | Notice officielle (base curée) ; indication approuvée : migraine |
 
 ### Liées à une indication approuvée (même catégorie de maladie)
+
 | Indication | Catégorie approuvée |
 |------|------|
 | Aucune | Aucune |
 
 ### Relations enregistrées dans le graphe de connaissances (aucune approbation trouvée)
+
 | Indication |
 |------|
 | Aucune |

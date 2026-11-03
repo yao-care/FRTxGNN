@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -116,6 +116,7 @@ La notice officielle (mises en garde et contre-indications) n'a pas pu être exp
 | 6 | Angor de Prinzmetal | 0,9945 | L5 | Hold |
 | 7 | Syndrome familial autosomique dominant (hématurie, tortuosité des artérioles rétiniennes, contractures) | 0,9939 | L5 | Hold |
 | 8 | Maladie des petits vaisseaux cérébraux de type 1, avec ou sans anomalies oculaires | 0,9937 | L5 (preuves indirectes) | Question de recherche |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

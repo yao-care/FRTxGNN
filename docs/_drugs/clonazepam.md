@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 187
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -136,6 +136,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 |---|---|---|---|---|
 | 2 | Insomnie | 0,9932 | L4 | Hold : mécanisme plausible (modulation GABA-A), mais demi-vie longue (somnolence résiduelle) et absence de preuve directe dans les données fournies |
 | 3 | Tumeur du nerf trijumeau | 0,9930 | L5 | Hold : aucun lien mécanistique crédible ni aucune publication ; le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique |
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
