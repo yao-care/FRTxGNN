@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 813,
   "level_counts": {
-    "L1": 19,
+    "L1": 18,
     "L2": 31,
     "L3": 40,
     "L4": 63,
-    "L5": 636
+    "L5": 637
   },
   "all_drugs": [
     {
@@ -4344,7 +4344,7 @@
     {
       "name": "Terbutaline",
       "slug": "terbutaline",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 2
     },
     {
