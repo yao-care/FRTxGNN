@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifabutin
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 665
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
-description: "Rifabutin : nouvelle indication prédite, Infection par le VIH (contexte des infections opportunistes) (niveau de preuve L1). Indication d'origine : Non renseignée dans l'AMM française"
+last_modified_at: 2026-11-03
 monitor_inn: "rifabutin"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+description: "Rifabutin : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Rifabutin
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,69 +33,63 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Rifabutine : D'une indication non documentée à l'infection par le VIH
+## Rifabutin: Infection par le VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La rifabutine est un antibiotique de la famille des rifamycines, utilisé contre les infections à mycobactéries. Les données compilées pour ce rapport ne précisent pas son indication originale, car le texte d'indication de l'AMM française est vide.
-Le modèle TxGNN la prédit comme potentiellement utile dans l'**infection par le VIH**, avec **34 essais cliniques** et **20 publications** associés. Il s'agit en pratique du contexte des infections opportunistes liées au VIH (complexe *Mycobacterium avium* et tuberculose), et non d'une activité antirétrovirale directe.
+La rifabutine est un antibiotique de la famille des rifamycines, utilisé contre les infections mycobactériennes.
+Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**infection par le VIH (HIV infectious disease)**, avec un score de 0.9988. Il faut toutefois être prudent : les études compilées portent sur la tuberculose et les infections à *Mycobacterium avium* chez des personnes vivant avec le VIH, ou sur des interactions avec les antirétroviraux, et aucune ne traite l'infection par le VIH elle-même. Les données comptent **34 essais cliniques** et **20 publications**, mais sans étude directe de cette indication.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans l'AMM française |
-| Nouvelle Indication Prédite | Infection par le VIH (contexte des infections opportunistes) |
-| Score de Prédiction TxGNN | 0,9988 |
-| Niveau de Preuve | L1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
+| Score de Prédiction TxGNN | 0.9988 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
-| Décision Recommandée | Proceed with Guardrails |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances établies, la rifabutine est une rifamycine qui inhibe l'ARN polymérase ADN-dépendante bactérienne (rpoB). Elle n'est pas un antirétroviral.
+La rifabutine inhibe l'ARN polymérase bactérienne ARN-dépendante de l'ADN (gène *rpoB*). Elle n'est pas un antirétroviral et n'a pas d'activité directe démontrée contre le VIH. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport ; cette description repose sur les connaissances pharmacologiques générales.
 
-Son intérêt chez les personnes vivant avec le VIH tient à la prévention et au traitement des infections mycobactériennes opportunistes (complexe *M. avium* et tuberculose). Comparée à la rifampicine, elle est un inducteur plus faible du CYP3A4. Elle est donc privilégiée lorsqu'elle est associée à des inhibiteurs de protéase.
+Le score élevé reflète probablement le contexte des infections opportunistes associées au VIH (complexe *Mycobacterium avium*, tuberculose), où la rifabutine est largement étudiée. Elle induit moins le CYP3A4 que la rifampicine, ce qui la rend préférable en association avec les inhibiteurs de protéase.
 
-Le score élevé du modèle reflète donc un contexte d'infections associées au VIH, et non une action directe sur le virus. Cette nuance est essentielle pour interpréter la prédiction.
+Il s'agit donc d'une association de contexte clinique et non d'un effet antiviral. Aucune étude citée ne démontre un bénéfice de la rifabutine sur l'infection par le VIH elle-même.
 
 ## Preuves d'Essais Cliniques
 
-Parmi les essais compilés, voici les plus pertinents (10 sur 34) :
+Aucun des essais ci-dessous ne traite l'infection par le VIH. Ils portent sur des infections mycobactériennes chez des personnes vivant avec le VIH, ou sur des interactions médicamenteuses. Sélection des plus pertinents :
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Phase 3 | Terminé | 400 | Quatre schémas (clarithromycine à deux doses + éthambutol, avec rifabutine ou clofazimine) dans le MAC disséminé du SIDA |
-| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Phase 3 | Terminé | 450 | Clarithromycine/éthambutol avec rifabutine (450 mg ou 300 mg) ou placebo dans la bactériémie à MAC |
-| [NCT00001995](https://clinicaltrials.gov/study/NCT00001995) | Non applicable | Terminé | 200 | Essai randomisé en double aveugle d'un schéma contenant de la rifabutine dans la bactériémie à MAC |
-| [NCT00001030](https://clinicaltrials.gov/study/NCT00001030) | Phase 3 | Terminé | 1100 | Clarithromycine vs rifabutine vs association pour prévenir le MAC (CD4 ≤ 100) |
-| [NCT00002122](https://clinicaltrials.gov/study/NCT00002122) | Phase 3 | Terminé | 720 | Azithromycine et rifabutine, seules ou associées, pour prévenir le MAC disséminé |
-| [NCT00002267](https://clinicaltrials.gov/study/NCT00002267) | Non applicable | Terminé | 750 | Rifabutine en monothérapie vs placebo pour prévenir la bactériémie à MAC (CD4 ≤ 200) |
-| [NCT00023361](https://clinicaltrials.gov/study/NCT00023361) | Non applicable | Terminé | 215 | Schéma intermittent à base de rifabutine dans la tuberculose liée au VIH |
-| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Phase 2 | Terminé | 47 | Pharmacocinétique de la rifabutine avec traitement antirétroviral, tuberculose/VIH (Vietnam) |
-| [NCT00640887](https://clinicaltrials.gov/study/NCT00640887) | Phase 2 | Terminé | 48 | Étude pharmacocinétique parallèle en Afrique du Sud |
-| [NCT01601626](https://clinicaltrials.gov/study/NCT01601626) | Phase 2 | Arrêté | 71 | Lopinavir/ritonavir à double dose avec rifampicine vs dose standard avec rifabutine, tuberculose/VIH |
-
-Une grande partie des autres essais sont des études d'interactions pharmacocinétiques avec des antirétroviraux. Les études de phase 3 sont anciennes (années 1990) et portent surtout sur les infections à MAC.
+| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Phase 3 | Terminé | 400 | Quatre schémas (clarithromycine, éthambutol, avec rifabutine ou clofazimine) pour le MAC disséminé au cours du sida |
+| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Phase 3 | Terminé | 450 | Clarithromycine/éthambutol avec rifabutine (deux doses) ou placebo dans la bactériémie à MAC |
+| [NCT00001030](https://clinicaltrials.gov/study/NCT00001030) | Phase 3 | Terminé | 1100 | Prévention du MAC : clarithromycine, rifabutine ou association chez des patients VIH+ |
+| [NCT00002122](https://clinicaltrials.gov/study/NCT00002122) | Phase 3 | Terminé | 720 | Azithromycine et rifabutine pour la prévention du MAC disséminé chez des patients VIH+ |
+| [NCT00001995](https://clinicaltrials.gov/study/NCT00001995) | NA | Terminé | 200 | Essai en double aveugle d'un schéma avec rifabutine dans la bactériémie à MAC au cours du sida |
+| [NCT00002267](https://clinicaltrials.gov/study/NCT00002267) | NA | Terminé | 750 | Rifabutine contre placebo pour prévenir la bactériémie à MAC |
+| [NCT00001058](https://clinicaltrials.gov/study/NCT00001058) | Phase 2 | Terminé | 246 | Clarithromycine avec rifabutine, éthambutol ou les deux dans le MAC disséminé |
+| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Phase 2 | Terminé | 47 | Pharmacocinétique de la rifabutine avec antirétroviraux chez des patients tuberculeux VIH+ (Vietnam) |
+| [NCT00640887](https://clinicaltrials.gov/study/NCT00640887) | Phase 2 | Terminé | 48 | Étude pharmacocinétique similaire en Afrique du Sud |
+| [NCT00023361](https://clinicaltrials.gov/study/NCT00023361) | NA | Terminé | 215 | Schéma intermittent à base de rifabutine pour la tuberculose liée au VIH |
 
 ## Preuves de la Littérature
 
-Parmi les 20 publications compilées, voici les plus pertinentes :
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | Cohorte | J Antimicrob Chemother | Pharmacocinétique et sécurité de la rifabutine chez des enfants co-infectés TB/VIH ; une étude antérieure avait été arrêtée pour neutropénie sévère |
-| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | Cohorte | J Antimicrob Chemother | Sécurité et efficacité chez les enfants sous lopinavir/ritonavir ; neutropénie limitant le traitement |
-| [36385424](https://pubmed.ncbi.nlm.nih.gov/36385424/) | 2023 | Modélisation PK | Br J Clin Pharmacol | Interaction rifabutine-dolutégravir |
-| [21819645](https://pubmed.ncbi.nlm.nih.gov/21819645/) | 2012 | Revue | Int J Tuberc Lung Dis | La rifabutine peut remplacer la rifampicine avec les inhibiteurs de protéase |
+| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | Cohorte | J Antimicrob Chemother | Pharmacocinétique et sécurité de la rifabutine chez des enfants co-infectés TB/VIH sous lopinavir/ritonavir ; neutropénie sévère rapportée dans une étude antérieure |
+| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | Cohorte | J Antimicrob Chemother | Sécurité et efficacité de la rifabutine chez des enfants co-infectés TB/VIH |
+| [21819645](https://pubmed.ncbi.nlm.nih.gov/21819645/) | 2012 | Revue | Int J Tuberc Lung Dis | La rifabutine comme alternative à la rifampicine avec les inhibiteurs de protéase |
 | [17181373](https://pubmed.ncbi.nlm.nih.gov/17181373/) | 2006 | Revue | Drugs | Approche thérapeutique pratique de la co-infection TB/VIH |
-| [28233512](https://pubmed.ncbi.nlm.nih.gov/28233512/) | 2017 | Revue | Microbiol Spectr | Tuberculose associée à l'infection par le VIH |
-| [10456381](https://pubmed.ncbi.nlm.nih.gov/10456381/) | 1999 | Revue | Drug Saf | Rapport bénéfice-risque des traitements des infections à MAC |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Revue | BMJ Clin Evid | Prophylaxie primaire et secondaire des infections opportunistes liées au VIH |
-| [11996607](https://pubmed.ncbi.nlm.nih.gov/11996607/) | 2002 | Revue | Arch Intern Med | Mise à jour des interactions de la rifampicine et de la rifabutine |
-| [39037240](https://pubmed.ncbi.nlm.nih.gov/39037240/) | 2024 | PK de population | Antimicrob Agents Chemother | Pharmacocinétique et optimisation de la dose chez l'enfant sous lopinavir/ritonavir |
+| [10456381](https://pubmed.ncbi.nlm.nih.gov/10456381/) | 1999 | Revue | Drug Saf | Bénéfices et risques des traitements des infections à MAC |
+| [9093233](https://pubmed.ncbi.nlm.nih.gov/9093233/) | 1997 | Revue | Med Clin North Am | Infections mycobactériennes non tuberculeuses, MAC dans le sida |
+| [36385424](https://pubmed.ncbi.nlm.nih.gov/36385424/) | 2023 | Modélisation PK | Br J Clin Pharmacol | Interaction rifabutine–dolutégravir |
+| [11996607](https://pubmed.ncbi.nlm.nih.gov/11996607/) | 2002 | Revue | Arch Intern Med | Mise à jour sur les interactions de la rifampicine et de la rifabutine |
 
 ## Informations de Marché en France
 
@@ -103,32 +97,28 @@ Parmi les 20 publications compilées, voici les plus pertinentes :
 |---------|------|------|-----------|
 | 67699269 | ANSATIPINE 150 mg, gélule (SERB) | Gélule | Non renseignée (AMM active) |
 
-## Cytotoxicité
-
-Cette section est omise : la rifabutine est un antibiotique et non un antinéoplasique.
+La rifabutine est commercialisée en France (une AMM valide).
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances (non issues de la notice)** : thrombopénie, neutropénie, agranulocytose, colite à *Clostridium difficile*, entérocolite nécrosante périnatale.
-- **Interactions médicamenteuses** : 163 interactions recensées. Parmi celles présentées, une est majeure (éliglustat). La plupart sont modérées : doxycycline, hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, clarithromycine, métronidazole, morphine, aprépitant, pioglitazone, saxagliptine, linagliptine, chlorpropamide, acétohexamide, cholécalciférol, calcifédiol, calcitriol et acide picosulfurique. Une est mineure (dolasétron). Un ajustement de dose est nécessaire avec de nombreux antirétroviraux.
-- **Points d'attention issus des données** : neutropénie sévère observée chez l'enfant avec les inhibiteurs de protéase, et risque d'uvéite, notamment en association avec la clarithromycine ou l'itraconazole.
+- **Interactions médicamenteuses** : 163 interactions sont recensées. Parmi elles, une interaction majeure (éliglustat) et de nombreuses interactions modérées (doxycycline, hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, pioglitazone, aprépitant, morphine, métronidazole, clarithromycine, saxagliptine, linagliptine, calcitriol, entre autres). La rifabutine est un inducteur enzymatique ; des ajustements de dose sont nécessaires avec de nombreux antirétroviraux.
+- **Signaux de tolérance** : la littérature compilée rapporte des cas de neutropénie sévère chez des enfants traités par rifabutine avec des inhibiteurs de protéase, et des uvéites en association avec la clarithromycine ou l'itraconazole.
 
-Les mises en garde et contre-indications de la notice n'ont pas pu être récupérées. Veuillez consulter la notice pour ces informations.
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Plusieurs essais randomisés de phase 3 soutiennent l'usage de la rifabutine dans les infections à MAC et la tuberculose chez les personnes vivant avec le VIH. L'indication est cependant à lire comme une prise en charge des infections opportunistes, sans effet antirétroviral. L'AMM française est annulée et les essais pivots sont anciens.
+Les études disponibles concernent la tuberculose et les infections à MAC chez des personnes vivant avec le VIH, ou des interactions avec les antirétroviraux ; aucune ne montre d'effet de la rifabutine sur l'infection par le VIH elle-même. Le niveau de preuve est donc L5, et la rifabutine n'a pas d'activité antirétrovirale établie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), ce qui bloque le criblage de sécurité.
-- Obtenir les données de mécanisme d'action détaillées depuis DrugBank.
-- Clarifier l'indication originale de la rifabutine et son statut réglementaire actuel en France.
-- Établir un plan de surveillance : numération formule sanguine (neutropénie), examen ophtalmologique (uvéite) et gestion des interactions avec les antirétroviraux, notamment chez l'enfant.
+- Des données mécanistiques ou précliniques montrant une activité sur le VIH, ou une définition claire de l'objectif (infections opportunistes associées au VIH plutôt qu'infection virale)
+- Des études cliniques évaluant directement cette indication
+- Les mises en garde et contre-indications de la notice officielle
+- Un plan de gestion des interactions avec les antirétroviraux et de surveillance hématologique (neutropénie)
 
-Les autres indications prédites (neoplasie endocrinienne multiple, cholangite sclérosante, trouble neurodéveloppemental rare, conjonctivite, endocardite, pneumocystose, SIDA félin, infection par le virus de l'immunodéficience simienne) relèvent de la décision Hold, avec un niveau de preuve L4-L5. La lèpre est classée comme question de recherche (L4), avec uniquement des données in vitro et animales.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

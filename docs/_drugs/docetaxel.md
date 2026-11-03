@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 251
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-description: "Docetaxel : nouvelle indication prédite, Ewing sarcoma (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Docetaxel : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Docetaxel
@@ -33,81 +33,63 @@ Niveau de preuve: **L2** | Indications prédites: **7**
 
 </div>
 
-## Docetaxel: Ewing sarcoma
+## Docetaxel: Sarcome d'Ewing (Ewing sarcoma)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le docétaxel est un taxane cytotoxique, initialement utilisé pour le traitement du cancer du poumon non à petites cellules, du cancer de la prostate, des cancers de la tête et du cou, du cancer gastrique et du cancer du sein.
-Il faut toutefois noter que le cancer du sein figure déjà parmi les indications d'origine du docétaxel : il s'agit d'un usage déjà établi et non d'un repositionnement au sens strict.
-
----
+Le docétaxel est un agent de chimiothérapie de la famille des taxanes, qui bloque la division des cellules tumorales en stabilisant leurs microtubules.
+Le modèle TxGNN prédit qu'il pourrait être utile dans le **Sarcome d'Ewing (Ewing sarcoma)**, avec **8 essais cliniques** et **20 publications** associés à cette direction, pour un niveau de preuve **L2**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Ewing sarcoma |
+| Nouvelle Indication Prédite | Sarcome d'Ewing (Ewing sarcoma) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
 | Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
----
-
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le docétaxel appartient à la classe des taxanes : il stabilise les microtubules, ce qui provoque un arrêt de la mitose dans les cellules tumorales à division rapide.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales sur les taxanes, le docétaxel stabilise les microtubules et provoque un arrêt de la mitose dans les cellules tumorales à division rapide.
 
-Le cancer du sein figure déjà parmi les indications d'origine du médicament. La prédiction du modèle TxGNN est donc cohérente avec l'usage établi, et il s'agit d'une utilisation déjà reconnue plutôt que d'un véritable repositionnement. Cette cohérence renforce la crédibilité du modèle, mais n'apporte pas de nouvelle indication.
-
-Les nombreux essais de phase 2 et de phase 3 recensés (docétaxel seul ou associé aux anthracyclines, au cyclophosphamide, au trastuzumab ou au bévacizumab) confirment la place du docétaxel dans la prise en charge du cancer du sein, en situation adjuvante, néoadjuvante et métastatique.
-
----
+Dans le sarcome d'Ewing, le docétaxel est utilisé principalement en association, soit avec la gemcitabine (séquentielle ou schéma GEMDOX), soit avec l'irinotécan, pour les formes récidivantes ou réfractaires. Plusieurs essais de phase 2 et des publications correspondantes existent. Les taux de réponse restent toutefois modestes et les cohortes mêlent souvent différents sarcomes pédiatriques : l'efficacité spécifique au sarcome d'Ewing reste donc incertaine.
 
 ## Preuves d'Essais Cliniques
 
-Les 10 essais les plus pertinents sont présentés ci-dessous (essais de phase 3 d'envergure et essais évalués comme directement pertinents).
-
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00003519](https://clinicaltrials.gov/study/NCT00003519) | Phase 3 | Terminé | 2778 | Adriamycine/docétaxel versus adriamycine/cyclophosphamide en adjuvant, cancer du sein avec atteinte ganglionnaire ou à haut risque |
-| [NCT00021255](https://clinicaltrials.gov/study/NCT00021255) | Phase 3 | Terminé | 3222 | AC-T versus AC-TH versus TCH en adjuvant, cancer du sein HER2 positif opérable |
-| [NCT00003782](https://clinicaltrials.gov/study/NCT00003782) | Phase 3 | Terminé | 5351 | Comparaison de trois schémas adjuvants (AC-T, AT, ATC) avec atteinte ganglionnaire |
-| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Phase 3 | Terminé | 2411 | AC préopératoire avec ou sans docétaxel (avant ou après chirurgie), cancer du sein stade II-III |
-| [NCT00333775](https://clinicaltrials.gov/study/NCT00333775) | Phase 3 | Terminé | 736 | Bévacizumab + docétaxel versus docétaxel + placebo en première ligne, cancer du sein métastatique HER2 négatif |
-| [NCT00887536](https://clinicaltrials.gov/study/NCT00887536) | Phase 3 | Terminé | 1613 | TC + bévacizumab versus TC seul versus TAC, cancer du sein HER2 négatif |
-| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Terminé | 652 | Chimiothérapie à base de taxane avec lapatinib ou trastuzumab, cancer du sein métastatique HER2 positif |
-| [NCT03588091](https://clinicaltrials.gov/study/NCT03588091) | Phase 3 | Terminé | 355 | Pyrotinib + trastuzumab + docétaxel en néoadjuvant versus placebo, cancer du sein HER2 positif |
-| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Phase 2 | Terminé | 148 | Carboplatine versus docétaxel, cancer du sein métastatique d'origine génétique (BRCA), essai randomisé |
-| [NCT00003352](https://clinicaltrials.gov/study/NCT00003352) | Phase 2 | Terminé | 89 | Association adriamycine, docétaxel et cyclophosphamide, cancer du sein métastatique ou localement avancé |
-
-Les essais de phase 3 listés testent le docétaxel dans des schémas combinés ; ils ne l'évaluent pas tous comme variable isolée.
-
----
+| [NCT00073983](https://clinicaltrials.gov/study/NCT00073983) | Phase 2 | Terminé | 54 | Gemcitabine puis docétaxel séquentiels dans les sarcomes d'Ewing, ostéosarcomes et chondrosarcomes récidivants (publié, PMID 22363068) |
+| [NCT02511132](https://clinicaltrials.gov/study/NCT02511132) | Phase 2 | Terminé | 22 | Vigil versus gemcitabine-docétaxel dans le sarcome d'Ewing métastatique |
+| [NCT03449901](https://clinicaltrials.gov/study/NCT03449901) | Phase 2 | Terminé | 98 | ADI-PEG 20 avec gemcitabine et docétaxel dans des sarcomes de types mixtes, dont le sarcome d'Ewing |
+| [NCT00002825](https://clinicaltrials.gov/study/NCT00002825) | Phase 2 | Terminé | 20 | Docétaxel seul chez l'enfant atteint de tumeurs solides récidivantes |
+| [NCT00014456](https://clinicaltrials.gov/study/NCT00014456) | Phase 1 | Terminé | 35 | Escalade de dose docétaxel, gemcitabine et filgrastim dans des tumeurs solides avancées |
+| [NCT00049296](https://clinicaltrials.gov/study/NCT00049296) | Phase 1 | Terminé | 26 | Étude pharmacocinétique thalidomide + docétaxel dans des cancers avancés |
+| [NCT05116800](https://clinicaltrials.gov/study/NCT05116800) | Phase 2 | Retiré | 0 | 9-ING-41 avec gemcitabine/docétaxel dans les sarcomes avancés ; aucune donnée |
+| [NCT04183062](https://clinicaltrials.gov/study/NCT04183062) | Phase 2 | Retiré | 0 | BIO-11006 avec gemcitabine/docétaxel, métastases pulmonaires d'ostéosarcome ou de sarcome d'Ewing ; aucune donnée |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | ECR | J Clin Oncol | Essais ABC : comparaison de TC (docétaxel + cyclophosphamide) avec des schémas à base d'anthracyclines et de taxane en adjuvant |
-| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Revue | Lancet | Mise à jour sur les taxanes : activité établie dans les cancers du sein, du poumon et de l'ovaire |
-| [9775340](https://pubmed.ncbi.nlm.nih.gov/9775340/) | 1998 | Revue | Am J Health Syst Pharm | Pharmacologie, pharmacocinétique, essais cliniques et effets indésirables du docétaxel dans le cancer du sein métastatique |
-| [12868800](https://pubmed.ncbi.nlm.nih.gov/12868800/) | 2003 | Revue | Breast Cancer Res Treat | Associations docétaxel-anthracyclines dans le cancer du sein métastatique |
-| [12868802](https://pubmed.ncbi.nlm.nih.gov/12868802/) | 2003 | Revue | Breast Cancer Res Treat | Docétaxel néoadjuvant dans le cancer du sein localement avancé |
-| [9364543](https://pubmed.ncbi.nlm.nih.gov/9364543/) | 1997 | Revue | Oncology (Williston Park) | Association docétaxel/vinorelbine dans le cancer du sein métastatique et le cancer du poumon non à petites cellules |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Étude de phase 2 | Cancer | Capécitabine + docétaxel + épirubicine en première ligne dans le cancer du sein avancé |
-| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Étude de phase 2 | Oncology | Docétaxel et gemcitabine hebdomadaires en première ligne, cancer du sein métastatique |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Étude rétrospective | Anti-Cancer Drugs | Association entre chimiothérapie adjuvante à base de docétaxel et lymphœdème lié au cancer du sein |
-| [18624687](https://pubmed.ncbi.nlm.nih.gov/18624687/) | 2008 | Revue | Expert Opin Drug Metab Toxicol | Enseignements tirés du développement du docétaxel |
-
----
+| [22363068](https://pubmed.ncbi.nlm.nih.gov/22363068/) | 2012 | Essai de phase 2 | The Oncologist | Gemcitabine suivie de docétaxel dans le sarcome d'Ewing, l'ostéosarcome et le chondrosarcome récidivants (étude SARC 003) |
+| [28787430](https://pubmed.ncbi.nlm.nih.gov/28787430/) | 2017 | Essai de phase 2 | British Journal of Cancer | Étude GEIS-21 : chimiothérapie intensive incluant gemcitabine et docétaxel dans le sarcome d'Ewing à haut risque nouvellement diagnostiqué |
+| [25164234](https://pubmed.ncbi.nlm.nih.gov/25164234/) | 2014 | Essai de phase 1/2 | BMC Cancer | Docétaxel et irinotécan chez l'enfant et le jeune adulte avec tumeurs de la famille du sarcome d'Ewing récidivantes ou réfractaires |
+| [18521364](https://pubmed.ncbi.nlm.nih.gov/18521364/) | 2003 | Essai de phase 2 | Sarcoma | Docétaxel dans les tumeurs d'Ewing en rechute ou réfractaires (14 patients) |
+| [18484657](https://pubmed.ncbi.nlm.nih.gov/18484657/) | 2008 | Cohorte | Cancer | Gemcitabine-docétaxel dans les sarcomes osseux réfractaires de l'enfant et du jeune adulte |
+| [22302783](https://pubmed.ncbi.nlm.nih.gov/22302783/) | 2012 | Cohorte | Pediatric Blood & Cancer | GEMDOX dans les sarcomes pédiatriques en rechute ou réfractaires |
+| [19727011](https://pubmed.ncbi.nlm.nih.gov/19727011/) | 2009 | Série de cas | J Pediatr Hematol Oncol | Gemcitabine-docétaxel dans les sarcomes pédiatriques en rechute ou réfractaires |
+| [15117993](https://pubmed.ncbi.nlm.nih.gov/15117993/) | 2004 | Préclinique/clinique | J Clin Oncol | Synergie cytotoxique de la gemcitabine suivie du docétaxel dans le sarcome |
+| [26154614](https://pubmed.ncbi.nlm.nih.gov/26154614/) | 2015 | Préclinique | Pediatr Blood Cancer | Comparaison cabazitaxel et docétaxel dans les modèles pédiatriques |
+| [20132000](https://pubmed.ncbi.nlm.nih.gov/20132000/) | 2010 | Revue | Expert Rev Anticancer Ther | Rôle de la chimiothérapie dans les sarcomes des tissus mous |
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Le docétaxel est commercialisé en France. Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion. Le texte d'indication n'est pas renseigné dans ces enregistrements.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -117,46 +99,35 @@ Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 | 61038713 | DOCETAXEL KABI 20 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 | 68408115 | DOCETAXEL ACCORD 160 mg/8 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
----
-
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (taxane, agent antimitotique stabilisant les microtubules) |
-| Risque de Myélosuppression | Élevé (le graphe de connaissances signale des contre-indications liées à la neutropénie, à la thrombopénie, à l'agranulocytose et à l'anémie) |
-| Classification d'Émétogénicité | Faible à moyenne (classification générale de la classe ; non précisée dans les données compilées) |
-| Éléments de Surveillance | NFS avec formule (neutrophiles, plaquettes, hémoglobine), fonction hépatique (bilirubine), neuropathie périphérique, rétention hydrique |
-| Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
-
----
+| Classification de Cytotoxicité | Cytotoxique conventionnel (taxane) |
+| Risque de Myélosuppression | Élevé (neutropénie, thrombopénie et anémie figurent parmi les risques recensés) |
+| Classification d'Émétogénicité | Moyenne à faible |
+| Éléments de Surveillance | NFS avec formule, fonction hépatique (bilirubine), fonction rénale, état neurologique périphérique |
+| Protection de Manipulation | Suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : maladie hépatique, maladie de la vésicule biliaire, thrombopénie, neutropénie, agranulocytose, neuropathie périphérique et névrite, anémie, hyperbilirubinémie (dont syndrome de Gilbert), maladie diarrhéique, œdème pulmonaire, stomatite, tamponnade cardiaque.
-- **Interactions médicamenteuses** : 569 interactions recensées. Parmi les principales :
-  - **Majeure** : clarithromycine.
-  - **Modérée** : aprépitant, métronidazole, cimétidine, éliglustat, miconazole, rolapitant, rosuvastatine, simvastatine, tinidazole, troglitazone.
-  - **Mineure** : dexaméthasone, lévofloxacine, prednisolone, prednisone.
+- **Maladies à prendre en compte avec prudence** : atteintes hépatiques et biliaires, thrombopénie, neutropénie, agranulocytose, anémie, neuropathie périphérique, hyperbilirubinémie (dont syndrome de Gilbert), maladies diarrhéiques, œdème pulmonaire, stomatite, névrite et tamponnade cardiaque.
+- **Interactions médicamenteuses** : 569 interactions recensées. Parmi elles, une interaction majeure avec la clarithromycine ; plusieurs interactions modérées (aprépitant, métronidazole, cimétidine, éliglustat, miconazole, rolapitant, rosuvastatine, simvastatine, tinidazole, troglitazone) ; et des interactions mineures (dexaméthasone, lévofloxacine, prednisolone, prednisone).
 
-Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
-
----
+Les mises en garde et contre-indications détaillées de la notice ne sont pas disponibles : veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Le cancer du sein est déjà une indication établie du docétaxel, appuyée par de nombreux essais de phase 2 et plusieurs essais de phase 3. Le niveau de preuve attribué est toutefois L2, car les données fournies ne comportent pas d'essai de phase 3 testant le docétaxel comme seule variable.
+Plusieurs essais de phase 2 achevés et des publications cliniques évaluent le docétaxel, surtout avec la gemcitabine ou l'irinotécan, dans le sarcome d'Ewing en rechute, ce qui correspond au niveau de preuve L2. Les réponses restent modestes, les cohortes sont mixtes et aucun essai de phase 3 n'est disponible : la poursuite doit rester encadrée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
-- Obtenir les données détaillées sur le mécanisme d'action (interrogation de DrugBank).
-- Clarifier le statut réglementaire actuel en France (raison de l'annulation des 11 AMM et disponibilité d'éventuelles spécialités commercialisées sous une autre procédure).
-- Définir un plan de surveillance hématologique, hépatique et neurologique.
+- Les mises en garde et contre-indications de la notice, ainsi que les données sur le mécanisme d'action
+- Des données d'efficacité spécifiques au sarcome d'Ewing, idéalement dans un essai comparatif
+- Un plan de surveillance hématologique, hépatique et neurologique, avec prise en compte des interactions majeures (notamment la clarithromycine)
 
-**Remarque sur les autres indications prédites :** les autres candidats du classement sont soit des extrapolations à partir d'indications déjà connues (cancer du poumon à petites cellules, dont les données portent en réalité sur le cancer non à petites cellules), soit des cas où les preuves sont très limitées ou absentes (lymphome pulmonaire primitif, rhabdomyosarcomes rares, blastome pulmonaire, adénocarcinome fœtal du poumon : recommandation « Hold »). Le sarcome d'Ewing et le rhabdomyosarcome disposent d'essais de phase 2 mais avec des cohortes mixtes et une efficacité modeste (statut « Research Question »).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

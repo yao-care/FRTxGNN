@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Letrozole
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 446
-evidence_level: L1
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-description: "Letrozole : nouvelle indication prédite, Nipple carcinoma (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+description: "Letrozole : nouvelle indication prédite, Carcinome du mamelon (nipple carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,81 +33,54 @@ Niveau de preuve: **L1** | Indications prédites: **4**
 
 </div>
 
-## Letrozole: Nipple carcinoma
+## Letrozole: Carcinome du mamelon (nipple carcinoma)
 {: .text-alpha }
 
-## Résumé en une phrase
+## Résumé en Une Phrase
 
-Le létrozole est un inhibiteur non stéroïdien de l'aromatase, utilisé dans le traitement du cancer du sein hormonodépendant chez la femme ménopausée.
-Il s'agit toutefois d'une indication déjà établie : la prédiction valide l'usage existant plutôt qu'elle n'ouvre une nouvelle voie thérapeutique.
+Le létrozole est un inhibiteur de l'aromatase, une classe de médicaments qui réduit la production d'œstrogènes.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du mamelon (nipple carcinoma)**, mais aucun essai clinique n'est enregistré et les 8 publications retrouvées sont des cas cliniques ou de courtes séries, sans étude du létrozole dans cette maladie. Le niveau de preuve est donc **L5**.
 
----
-
-## Aperçu rapide
+## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication originale | Non renseignée dans les données locales |
-| Nouvelle indication prédite | Nipple carcinoma |
-| Score de prédiction TxGNN | 0.9976 |
-| Niveau de preuve | L1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Carcinome du mamelon (nipple carcinoma) |
+| Score de Prédiction TxGNN | 0.9976 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
 | Nombre d'AMM | 20 (valides : 20) |
-| Décision recommandée | Proceed with Guardrails |
+| Décision Recommandée | Hold |
 
----
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi cette prédiction est-elle raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après ce que l'on sait de cette classe, le létrozole inhibe l'aromatase et diminue ainsi les œstrogènes circulants.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de référence. D'après la littérature compilée, le létrozole est un inhibiteur non stéroïdien de l'aromatase : il bloque la conversion des androgènes en œstrogènes, ce qui abaisse les œstrogènes circulants chez la femme ménopausée et prive les tumeurs hormonodépendantes de leur signal de croissance.
+Si la tumeur du mamelon exprime des récepteurs hormonaux, une inhibition de l'aromatase pourrait théoriquement s'appliquer, comme dans d'autres carcinomes mammaires. Cette hypothèse reste cependant un raisonnement par analogie : aucun document fourni ne montre une efficacité du létrozole dans cette maladie. Le score TxGNN est élevé, mais il s'agit d'une prédiction du modèle, pas d'une preuve clinique.
 
-Le cancer du sein à récepteurs hormonaux positifs dépend de ce signal œstrogénique. La prédiction du modèle est donc cohérente avec le mécanisme connu. Le létrozole est un traitement de référence dans les contextes adjuvant, néoadjuvant et métastatique, y compris en association aux inhibiteurs de CDK4/6 (palbociclib, ribociclib, abémaciclib).
+## Preuves d'Essais Cliniques
 
-Le champ d'indication d'origine est vide dans la base d'AMM, et le statut « annulé » concerne uniquement ces enregistrements. Il s'agit de lacunes de données, non d'un argument contre l'usage.
+Aucun essai clinique associé enregistré actuellement.
 
----
+## Preuves de la Littérature
 
-## Preuves d'essais cliniques
+Aucune de ces publications n'évalue le létrozole dans le carcinome du mamelon. Il s'agit de cas cliniques et d'une courte série sur des tumeurs mammaires diverses.
 
-Parmi les essais les plus pertinents (classés A/B par l'analyse de pertinence) :
-
-| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
-|---------|------|------|------|---------|
-| [NCT02941926](https://clinicaltrials.gov/study/NCT02941926) | Phase 3 | Terminé | 3246 | COMPLEEMENT-1 : ribociclib + létrozole dans le cancer du sein avancé HR+/HER2-, sans hormonothérapie préalable |
-| [NCT02600923](https://clinicaltrials.gov/study/NCT02600923) | Phase 3 | Terminé | 131 | Palbociclib + létrozole chez des femmes ménopausées HR+/HER2- |
-| [NCT01740427](https://clinicaltrials.gov/study/NCT01740427) | Phase 3 | Terminé | 666 | PALOMA-2 : palbociclib + létrozole versus placebo + létrozole en première ligne |
-| [NCT03425838](https://clinicaltrials.gov/study/NCT03425838) | Phase 3 | Actif, ne recrute plus | 1050 | SONIA : séquence inhibiteur de l'aromatase + CDK4/6 en première ou deuxième ligne |
-| [NCT00382070](https://clinicaltrials.gov/study/NCT00382070) | Phase 3 | Inconnu | 3966 | Létrozole 5 ans versus placebo après 5 ans d'hormonothérapie, en traitement adjuvant prolongé |
-| [NCT00908531](https://clinicaltrials.gov/study/NCT00908531) | Phase 3 | Arrêté | 123 | Létrozole préopératoire de 4 mois versus chirurgie première (essai DBCG) ; preuve limitée par l'arrêt précoce |
-| [NCT00433589](https://clinicaltrials.gov/study/NCT00433589) | Phase 3 | Terminé | 6600 | MINDACT : signature à 70 gènes pour guider la chimiothérapie ; le létrozole fait partie des traitements hormonaux |
-| [NCT04272801](https://clinicaltrials.gov/study/NCT04272801) | Phase 2 | Actif, ne recrute plus | 84 | Hormonothérapie préopératoire chez les femmes âgées pour éclairer la décision de radiothérapie |
-| [NCT01439711](https://clinicaltrials.gov/study/NCT01439711) | Phase 2 | Terminé | 108 | Létrozole néoadjuvant dans le carcinome canalaire in situ (CCIS) RE+ |
-| [NCT02712723](https://clinicaltrials.gov/study/NCT02712723) | Phase 2 | Actif, ne recrute plus | 121 | FELINE : létrozole + ribociclib ou placebo en traitement néoadjuvant |
-
-Dans la plupart de ces essais, le létrozole est le socle hormonal d'une association : sa contribution propre est donc indirecte.
-
----
-
-## Preuves de la littérature
-
-| PMID | Année | Type | Revue | Résultats principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [29718092](https://pubmed.ncbi.nlm.nih.gov/29718092/) | 2018 | ECR | Ann Oncol | MONALEESA-2 : résultats actualisés de ribociclib + létrozole en première ligne, HR+/HER2- |
-| [35263519](https://pubmed.ncbi.nlm.nih.gov/35263519/) | 2022 | ECR | N Engl J Med | Survie globale améliorée avec ribociclib + létrozole dans le cancer du sein avancé |
-| [30632023](https://pubmed.ncbi.nlm.nih.gov/30632023/) | 2019 | ECR | Breast Cancer Res Treat | PALOMA-2 : palbociclib + létrozole, suivi prolongé |
-| [31513453](https://pubmed.ncbi.nlm.nih.gov/31513453/) | 2019 | Cohorte | Future Oncol | NEOLETEXE : absence de résistance croisée entre létrozole et exémestane en néoadjuvant |
-| [36243120](https://pubmed.ncbi.nlm.nih.gov/36243120/) | 2022 | Revue | Life Sci | Pharmacologie, toxicité et effets thérapeutiques potentiels du létrozole |
-| [20095792](https://pubmed.ncbi.nlm.nih.gov/20095792/) | 2010 | Revue | Expert Opin Drug Metab Toxicol | Aspects pharmacodynamiques, pharmacocinétiques, efficacité et sécurité du létrozole |
-| [17912633](https://pubmed.ncbi.nlm.nih.gov/17912633/) | 2007 | Non classé | Breast Cancer Res Treat | Découverte et mécanisme d'action du létrozole |
-| [35464999](https://pubmed.ncbi.nlm.nih.gov/35464999/) | 2022 | Non classé | Comput Math Methods Med | Tamoxifène suivi du létrozole versus létrozole seul |
-| [34096894](https://pubmed.ncbi.nlm.nih.gov/34096894/) | 2021 | Cohorte | Pharmacogenet Genomics | Étude d'association pangénomique des concentrations plasmatiques de létrozole et du métabolisme par CYP2A6 |
-| [17544670](https://pubmed.ncbi.nlm.nih.gov/17544670/) | 2007 | Non classé | Breast | Prescription du létrozole adjuvant prolongé (essai MA-17) |
+| [33120755](https://pubmed.ncbi.nlm.nih.gov/33120755/) | 2020 | Cohorte / cas | Medicine | Traitement endocrinien néoadjuvant dans un carcinome neuroendocrine du sein peu différencié ; l'efficacité de cette approche reste incertaine |
+| [41607681](https://pubmed.ncbi.nlm.nih.gov/41607681/) | 2026 | Cas clinique | Clinical Case Reports | Carcinome papillaire solide in situ né du mamelon, entité très rare sans stratégie thérapeutique standardisée |
+| [40395253](https://pubmed.ncbi.nlm.nih.gov/40395253/) | 2025 | Cas clinique | Cureus | Récidive axillaire inhabituelle après un cancer du sein révélé par un écoulement mamelonnaire sanglant |
+| [39682607](https://pubmed.ncbi.nlm.nih.gov/39682607/) | 2024 | Cas clinique | Diagnostics (Basel) | Cancer métastatique d'un sein accessoire sous-mammaire, associé à un cancer du sein ipsilatéral |
+| [34495428](https://pubmed.ncbi.nlm.nih.gov/34495428/) | 2021 | Cas clinique | Surgical Case Reports | Cancer d'un sein accessoire de la région sous-mammaire, localisation extrêmement rare |
+| [42040393](https://pubmed.ncbi.nlm.nih.gov/42040393/) | 2026 | Cas clinique | Clinical Case Reports | Carcinome à cellules hautes du sein à polarité inversée, avec mutation IDH1 R132 |
+| [42305961](https://pubmed.ncbi.nlm.nih.gov/42305961/) | 2026 | Cas clinique | Frontiers in Medicine | Association rare d'un cancer du sein accessoire, d'un carcinome papillaire thyroïdien et d'un papillome nasal |
+| [42416948](https://pubmed.ncbi.nlm.nih.gov/42416948/) | 2026 | Cas clinique | Cureus | Carcinome lobulaire in situ floride : aspects échographiques décrits |
 
----
+## Informations de Marché en France
 
-## Informations de marché en France
-
-Les 20 AMM recensées sont toutes au statut « annulé », sans texte d'indication renseigné. Cinq d'entre elles, à titre d'illustration :
+Le létrozole est commercialisé en France sous forme de comprimés pelliculés. Les 20 AMM enregistrées sont valides ; voici les 5 principales :
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
@@ -117,51 +90,36 @@ Les 20 AMM recensées sont toutes au statut « annulé », sans texte d'indicati
 | 66935695 | LETROZOLE BIOGARAN 2,5 mg | Comprimé pelliculé | Non renseignée |
 | 65224722 | LETROZOLE SANDOZ 2,5 mg | Comprimé pelliculé | Non renseignée |
 
----
-
 ## Cytotoxicité
-
-Le létrozole est un traitement hormonal antinéoplasique.
 
 | Élément | Contenu |
 |------|------|
-| Classification de cytotoxicité | Hormonothérapie (inhibiteur non stéroïdien de l'aromatase) ; non cytotoxique conventionnel |
-| Risque de myélosuppression | Faible (aucune donnée de toxicité hématologique dans les données compilées) |
-| Classification d'émétogénicité | Faible |
-| Éléments de surveillance | Densité osseuse, bilan lipidique, fonction hépatique ; NFS selon le contexte clinique |
-| Protection de manipulation | Les mesures spécifiques de manipulation des cytotoxiques ne sont pas documentées dans les données compilées ; veuillez consulter les mises en garde et précautions de la notice |
+| Classification de Cytotoxicité | Hormonothérapie (inhibiteur de l'aromatase), non cytotoxique conventionnel |
+| Risque de Myélosuppression | Faible (aucune donnée de toxicité spécifique dans les données compilées) |
+| Classification d'Émétogénicité | Faible |
+| Éléments de Surveillance | Fonction hépatique, densité osseuse, bilan lipidique |
+| Protection de Manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
----
+## Considérations de Sécurité
 
-## Considérations de sécurité
+- **Contre-indications ou maladies à risque signalées par le modèle (non issues de la notice)** : insuffisance hépatique, cirrhose, ostéoporose (dont ostéoporose post-ménopausique), hyperbilirubinémie (dont formes héréditaires et syndrome de Gilbert), affection cérébrovasculaire.
+- **Interactions médicamenteuses** : 259 interactions recensées. Parmi elles, une interaction de niveau modéré avec l'aprépitant ; les autres, dont calcitriol, glimépiride, lansoprazole, dolasétron, granisétron, famotidine, acide acétylsalicylique, pantoprazole, morphine, metformine, oméprazole, rosiglitazone, lactulose, triamcinolone, prednisone, simvastatine, nystatine, chlorure de potassium et lopéramide, sont de niveau non précisé.
 
-- **Contre-indications issues du graphe de connaissances** (liens médicament-maladie, et non texte de notice) : insuffisance hépatique, cirrhose, ostéoporose (y compris post-ménopausique), hyperbilirubinémie (y compris héréditaire), syndrome de Gilbert, maladie cérébrovasculaire.
-- **Interactions médicamenteuses** : 259 interactions recensées. Une est de niveau modéré (aprépitant) ; les autres sont de niveau non précisé, par exemple le calcitriol, le glimépiride, la metformine, la simvastatine, la prednisone, l'oméprazole ou la morphine.
+Les mises en garde et contre-indications de la notice n'ont pas pu être intégrées : veuillez consulter la notice pour ces informations.
 
-Les mises en garde et contre-indications officielles de la notice n'ont pas pu être obtenues. Veuillez consulter la notice pour ces informations.
+## Conclusion et Prochaines Étapes
 
----
-
-## Conclusion et prochaines étapes
-
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Plusieurs essais de phase 3 terminés et des ECR publiés (MONALEESA-2, PALOMA-2) soutiennent l'usage du létrozole dans le cancer du sein HR+, ce qui correspond au niveau L1.
-- L'indication est déjà établie ; les principaux points de vigilance sont la sélection des patientes (récepteurs hormonaux positifs) et le profil de sécurité (os, foie), ainsi que l'absence de notice et de statut de marché actif dans les données françaises.
+La prédiction repose uniquement sur le score du modèle (0,9976), sans essai clinique et sans étude du létrozole dans le carcinome du mamelon ; le niveau de preuve est L5. Les publications disponibles sont des cas cliniques sans lien démontré avec le létrozole.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer le texte de la notice ANSM (mises en garde, contre-indications, indication approuvée) : lacune bloquante pour le dépistage de sécurité.
-- Obtenir les données détaillées de mécanisme d'action depuis DrugBank.
-- Vérifier le statut réglementaire réel : les 20 AMM annulées peuvent refléter des lacunes de base de données ou des transferts de produit.
-- Définir un plan de surveillance de la sécurité (densité osseuse, fonction hépatique) pour les populations à risque.
+- Données de mécanisme d'action détaillées
+- Mises en garde et contre-indications issues de la notice
+- Données montrant l'expression des récepteurs hormonaux dans le carcinome du mamelon
+- Études cliniques ou séries de cas évaluant le létrozole dans cette maladie
 
-**Autres indications prédites (à titre d'information) :**
-- **Cancer du sein à récepteurs œstrogéniques positifs** : même niveau L1, validé et non repositionné ; Proceed with Guardrails.
-- **Cancer du sein bilatéral** (L2) : Proceed with Guardrails ; les preuves directes sont surtout des cas cliniques.
-- **Cancer du sein hormonorésistant** (L2) et **cancer du sein défini par profil d'expression génique** (L2) : Research Question ; l'apport propre du létrozole n'est pas isolable.
-- **Cancer du mamelon, tumeur d'Ehrlich, dysplasie mammaire bénigne, maladie fibrokystique du sein** : Hold ; preuves limitées à des cas cliniques, du préclinique chez la souris, ou absentes.
-- **Cancer du sein à récepteurs œstrogéniques négatifs** : Hold ; une efficacité est mécanistiquement improbable, et les essais retrouvés concernent des tumeurs RE+, associés par chevauchement d'ontologie.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

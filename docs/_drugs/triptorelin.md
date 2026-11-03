@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Triptorelin : nouvelle indication prédite, hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Triptorelin
@@ -33,20 +33,21 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Triptorelin: Hypertrichose (hypertrichosis (disease))
+## Triptorelin: hypertrichose (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La triptoréline est un agoniste de la GnRH (hormone de libération des gonadotrophines), commercialisé en France sous plusieurs noms (Decapeptyl, Gonapeptyl, Salvacyl).
-Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hypertrichose (hypertrichosis)**, mais cette prédiction ne repose sur **aucun essai clinique** et sur **une seule publication**, un cas clinique qui ne démontre aucun bénéfice de la triptoréline.
+La triptoréline est un agoniste de la GnRH (hormone de libération des gonadotrophines), commercialisé en France sous plusieurs noms de marque (Decapeptyl, Gonapeptyl, Salvacyl).
+Le modèle TxGNN prédit qu'elle pourrait être utile dans l'**hypertrichose (hypertrichosis (disease))**, mais aucun essai clinique n'est recensé et la seule publication retrouvée est un rapport de cas, sans démonstration d'un bénéfice de la triptoréline.
+Le niveau de preuve est donc **L5** : prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) |
+| Nouvelle Indication Prédite | hypertrichose (hypertrichosis (disease)) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 15) |
@@ -55,11 +56,9 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hypertrichose (hy
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la triptoréline appartient à la classe des agonistes de la GnRH : en stimulation continue, elle désensibilise l'hypophyse et réduit la production des hormones sexuelles.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la triptoréline appartient à la classe des agonistes de la GnRH : elle réduit à terme la production des hormones sexuelles (androgènes et œstrogènes) par désensibilisation de l'hypophyse.
 
-Cette suppression androgénique pourrait en théorie atténuer un excès de pilosité dépendant des androgènes (hirsutisme). Or l'hypertrichose généralisée est un trouble distinct, qui n'est pas d'origine androgénique. Aucun lien mécanistique crédible n'est donc établi. Le score élevé du modèle semble refléter une proximité dans le réseau de données plutôt qu'une preuve thérapeutique.
-
-La seule publication retrouvée décrit une hypertrichose induite par la ciclosporine chez une femme transgenre qui recevait déjà de la triptoréline et de l'estradiol. Elle montre que l'hypertrichose est survenue malgré la suppression androgénique, et non que la triptoréline la traite.
+Ce mécanisme pourrait théoriquement réduire une pilosité dépendante des androgènes (hirsutisme). Toutefois, l'hypertrichose généralisée est un trouble distinct, qui n'est pas d'origine androgénique. Aucun lien mécanistique crédible n'est établi : le score élevé du modèle semble refléter une proximité dans le réseau de données plutôt qu'une preuve thérapeutique.
 
 ## Preuves d'Essais Cliniques
 
@@ -69,13 +68,9 @@ Aucun essai clinique associé enregistré actuellement.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Cas clinique | Cureus | Hypertrichose généralisée induite par la ciclosporine chez une femme transgenre de 25 ans, atteinte de psoriasis en plaques sévère, traitée par estradiol et triptoréline. Aucun effet bénéfique de la triptoréline n'est rapporté. |
-
-Cette publication ne porte pas sur l'efficacité de la triptoréline dans l'hypertrichose ; le niveau de preuve est donc plafonné à L5.
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Rapport de cas | Cureus | Hypertrichose généralisée induite par la ciclosporine chez une femme transgenre sous œstradiol et triptoréline. Le cas montre que la ciclosporine peut provoquer une hypertrichose malgré la suppression androgénique ; il ne démontre aucun bénéfice de la triptoréline. |
 
 ## Informations de Marché en France
-
-Sur les 15 AMM recensées, 14 sont valides et 1 est annulée. Aucun texte d'indication n'est enregistré dans les données locales. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -85,24 +80,26 @@ Sur les 15 AMM recensées, 14 sont valides et 1 est annulée. Aucun texte d'indi
 | 65459503 | DECAPEPTYL LP 22,5 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 | 69847994 | SALVACYL L.P. 11,25 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 
+La liste ci-dessus présente 5 des AMM recensées ; 14 AMM sont valides et 1 est annulée.
+
 ## Considérations de Sécurité
 
-- **Interactions médicamenteuses** : 262 interactions sont recensées. Une seule est de niveau majeur parmi les premières listées : la dolasétron. Les autres sont de niveau modéré, notamment les antidiabétiques (acarbose, metformine, pioglitazone, glimépiride, canagliflozine, dapagliflozine, empagliflozine, saxagliptine, alogliptine, albiglutide, dulaglutide, chlorpropamide), ainsi que la famotidine, le lopéramide, le bisacodyl, la clarithromycine, le palonosétron, l'acide picosulfurique et le polyéthylène glycol.
+- **Interactions Médicamenteuses** : 262 interactions sont recensées. Une interaction de niveau majeur est signalée avec la dolasétron. Plusieurs interactions de niveau modéré concernent notamment des antidiabétiques (metformine, pioglitazone, acarbose, glimépiride, inhibiteurs de SGLT2, inhibiteurs de DPP-4, agonistes du GLP-1), ainsi que la clarithromycine, le famotidine, le lopéramide, le bisacodyl et le palonosétron.
 
-Pour les mises en garde et contre-indications, veuillez consulter la notice.
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées pour ce rapport ; veuillez consulter la notice pour ces informations.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score du modèle. Il n'existe aucun essai clinique, la seule publication est un cas clinique sans lien thérapeutique démontré, et aucun mécanisme plausible n'est identifié.
+- Le niveau de preuve est L5 : aucun essai clinique, et la seule publication est un rapport de cas qui ne montre aucun bénéfice de la triptoréline. Aucun lien mécanistique crédible n'est identifié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Des données détaillées sur le mécanisme d'action
-- Une étude clinique ou une série de cas évaluant directement la triptoréline dans l'hypertrichose
-- Les mises en garde et contre-indications issues de la notice officielle
-- Une analyse de sécurité tenant compte des interactions, en particulier avec les antidiabétiques
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice ANSM, nécessaires au criblage de sécurité
+- Études cliniques ou observationnelles évaluant directement la triptoréline dans l'hypertrichose
+- Distinction claire entre hypertrichose et hirsutisme androgénodépendant pour définir la population d'intérêt
 
 ## Avertissement
 

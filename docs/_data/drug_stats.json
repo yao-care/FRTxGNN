@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 813,
   "level_counts": {
-    "L1": 16,
+    "L1": 12,
     "L2": 30,
-    "L3": 40,
+    "L3": 37,
     "L4": 60,
-    "L5": 643
+    "L5": 650
   },
   "all_drugs": [
     {
@@ -1476,7 +1476,7 @@
     {
       "name": "Doxycycline",
       "slug": "doxycycline",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -2592,7 +2592,7 @@
     {
       "name": "Letrozole",
       "slug": "letrozole",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 4
     },
     {
@@ -3132,7 +3132,7 @@
     {
       "name": "Nitrendipine",
       "slug": "nitrendipine",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 3
     },
     {
@@ -3618,7 +3618,7 @@
     {
       "name": "Prasugrel",
       "slug": "prasugrel",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -3876,7 +3876,7 @@
     {
       "name": "Rifabutin",
       "slug": "rifabutin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -4812,7 +4812,7 @@
     {
       "name": "Vortioxetine",
       "slug": "vortioxetine",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 2
     },
     {
@@ -4872,7 +4872,7 @@
     {
       "name": "Zolpidem",
       "slug": "zolpidem",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 2
     },
     {
