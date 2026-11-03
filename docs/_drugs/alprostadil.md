@@ -4,17 +4,17 @@ title: Alprostadil
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 47
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "ALPROSTADIL"
-predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve agenesis", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-10-28
+predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
+last_modified_at: 2026-11-03
 description: "Alprostadil : nouvelle indication prédite, Malformation aortique (aortic malformation) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,75 +33,83 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Alprostadil : prostaglandine E1, vasodilatateur maintenant la perméabilité du canal artériel → malformation aortique (aortic malformation)
+## Alprostadil: Malformation aortique (aortic malformation)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Alprostadil est une prostaglandine E1 aux propriétés vasodilatatrices, utilisée notamment pour maintenir ouvert le canal artériel chez le nouveau-né atteint de cardiopathie congénitale.
-Le modèle TxGNN prédit qu'il pourrait être utile pour la **malformation aortique (aortic malformation)**,
-avec **0 essai clinique** et **8 publications** (études cliniques anciennes, séries et rapports de cas, une étude animale) en lien avec cette direction.
+L'alprostadil est une prostaglandine E1 vasodilatatrice, qui maintient ouvert le canal artériel chez le nouveau-né et est également utilisée par voie locale ou intracaverneuse.
+Le modèle TxGNN prédit qu'il pourrait être utile dans la **malformation aortique (aortic malformation)**, avec un score de 0,9998.
+À ce jour, les données compilées pour ce rapport ne contiennent **aucun essai clinique** et **8 publications** (études cliniques anciennes, séries et cas rapportés, dont plusieurs ne portent pas directement sur cette maladie).
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Malformation aortique (aortic malformation) |
-| Score de Prédiction TxGNN | 0,9998 |
-| Niveau de Preuve | L5 |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Malformation aortique (aortic malformation) |
+| Score de prédiction TxGNN | 0.9998 |
+| Niveau de preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
 | Nombre d'AMM | 7 (valides : 7) |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'alprostadil est la prostaglandine E1 : elle relâche le muscle lisse du canal artériel et le maintient ouvert, ce qui préserve la circulation pulmonaire ou systémique chez les nouveau-nés dont la survie dépend de ce canal.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques établies, l'alprostadil (prostaglandine E1) relaxe le muscle lisse vasculaire, notamment celui du canal artériel. Chez les nouveau-nés porteurs de cardiopathies congénitales dépendantes du canal, cette action maintient la perméabilité du canal et préserve la circulation pulmonaire ou systémique jusqu'à la chirurgie.
 
-Cette propriété vasodilatatrice est cohérente avec la prédiction : certaines malformations de l'aorte, comme la coarctation ou l'interruption de l'arche aortique, sont des lésions « canal-dépendantes » pour lesquelles le maintien de la perméabilité du canal sert de pont avant la chirurgie. La prédiction apparaît donc plausible, mais elle correspond davantage à une extension d'un usage déjà connu qu'à une découverte de repositionnement nouvelle.
+Une malformation aortique, par exemple une coarctation ou une interruption de l'arche aortique, peut rendre la circulation systémique dépendante du canal. La prédiction est donc cohérente avec le mécanisme vasodilatateur connu. Elle prolonge toutefois un usage déjà établi plutôt qu'elle ne révèle une piste réellement nouvelle.
 
-Il faut toutefois rester prudent : les publications disponibles concernent des cardiopathies congénitales en général, des cas isolés (arche aortique interrompue, fenêtre aorto-pulmonaire), une étude chez le rat et des travaux périopératoires sur l'inflammation après circulation extracorporelle. Aucune ne porte directement et spécifiquement sur la « malformation aortique » comme maladie étudiée.
+Les publications disponibles sont indirectes : une évaluation ancienne de l'alprostadil dans les cardiopathies congénitales du nourrisson (PMID 6763200), un cas d'interruption de l'arche aortique de type B (PMID 19068708) et des études périopératoires sur l'inflammation après circulation extracorporelle. Aucune ne constitue un essai évaluant l'alprostadil spécifiquement dans la malformation aortique. Le niveau de preuve est donc plafonné à L5.
 
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Évaluation clinique / série de cas | Pharmacotherapy | L'alprostadil dilate le canal artériel et augmente le débit pulmonaire chez les nouveau-nés porteurs de cardiopathies congénitales canal-dépendantes |
-| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Rapport de cas | Kyobu Geka | Nouveau-né avec arche aortique interrompue de type B : alprostadil utilisé pour garder le canal ouvert, puis réparation en un temps et hémodiafiltration continue, avec survie |
-| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Étude clinique | Zhonghua Yi Xue Za Zhi | Effets de l'alprostadil et de l'ulinastatine sur l'inflammation et la lésion pulmonaire après circulation extracorporelle chez l'enfant cardiopathe |
-| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revue | Kyobu Geka | Stratégie de traitement de la transposition des gros vaisseaux ; alprostadil utilisé pour maintenir le canal ouvert avant la chirurgie de switch artériel |
-| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Rapport de cas | Braz J Cardiovasc Surg | Réparation chirurgicale d'une fenêtre aorto-pulmonaire complexe ; milrinone et alprostadil utilisés avant l'opération contre l'hypertension pulmonaire |
-| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Étude observationnelle préliminaire | Zhonghua Fu Chan Ke Za Zhi | Mode et moment de l'accouchement dans 123 cas de cardiopathie congénitale fœtale complexe |
-| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Étude rétrospective préliminaire | BMC Pregnancy Childbirth | Prise en charge périnatale intégrée des cardiopathies congénitales fœtales complexes |
-| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Étude animale | Minerva Chir | Atténuation de la lésion d'ischémie-reperfusion du muscle squelettique chez le rat |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Évaluation clinique / série de cas | Pharmacotherapy | L'alprostadil dilate le canal artériel et augmente le flux pulmonaire chez les nourrissons atteints de cardiopathies congénitales avec obstruction. |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Étude clinique | Zhonghua Yi Xue Za Zhi | Effets de l'alprostadil et de l'ulinastatine sur l'inflammation et la lésion pulmonaire après circulation extracorporelle chez l'enfant cardiaque congénital. |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Cas rapporté | Kyobu Geka | Nouveau-né avec interruption de l'arche aortique de type B : alprostadil pour maintenir le canal, puis réparation en un temps. |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revue | Kyobu Geka | Maintien du canal par l'alprostadil dans la transposition des gros vaisseaux avant la chirurgie de switch artériel. |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Cas rapporté | Braz J Cardiovasc Surg | Réparation d'une fenêtre aorto-pulmonaire complexe ; alprostadil et milrinone utilisés avant la chirurgie contre l'hypertension pulmonaire. |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Étude observationnelle | Zhonghua Fu Chan Ke Za Zhi | Mode et moment de l'accouchement pour des fœtus avec cardiopathie congénitale complexe. |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Étude observationnelle rétrospective | BMC Pregnancy Childbirth | Prise en charge périnatale intégrée de la cardiopathie congénitale fœtale complexe. |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Étude animale | Minerva Chirurgica | Atténuation de la lésion d'ischémie-reperfusion du muscle squelettique chez le rat. |
 
-## Informations de Marché en France
+## Informations de marché en France
 
-Les données de licence locales ne comportent pas de texte d'indication approuvée pour les produits à base d'alprostadil.
+L'alprostadil est commercialisé en France. Les AMM suivantes figurent dans les données locales ; aucun texte d'indication n'y est renseigné.
 
-## Considérations de Sécurité
+| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
+|---------|------|------|-----------|
+| 65806466 | Alprostadil Intsel Chimos 0,5 mg/ml | Solution injectable | Non renseignée |
+| 60731732 | Vitaros 300 microgrammes | Crème | Non renseignée |
+| 66297965 | Edex 20 microgrammes/1 ml | Poudre et solvant pour solution injectable | Non renseignée |
+| 68594342 | Caverject 20 microgrammes/1 ml | Lyophilisat et solution pour usage parentéral | Non renseignée |
+| 68103252 | Prostine VR 0,5 mg/ml | Solution injectable | Non renseignée |
 
-- **Interactions Médicamenteuses** : 59 interactions recensées. Celles de niveau modéré concernent la canagliflozine, la dapagliflozine, l'empagliflozine, l'ertugliflozine, la lorcasérine et la saproptérine. D'autres interactions, de niveau non précisé, concernent notamment la pantoprazole, la morphine, la metformine, l'oméprazole, la rosiglitazone, le lansoprazole, la vancomycine, l'atropine, la prednisone, la simvastatine, l'amphotéricine B, le chlorure de potassium, la prednisolone et la ranitidine.
-- Des rapports de cas décrivent, lors de perfusions prolongées de prostaglandine E1 chez le nouveau-né, une hyperplasie fovéolaire antrale avec sténose hypertrophique du pylore, ainsi qu'un syndrome pseudo-Bartter.
+## Considérations de sécurité
 
-Veuillez consulter la notice pour les mises en garde et contre-indications détaillées.
+- **Interactions médicamenteuses** : 59 interactions sont recensées. Les plus notables, de niveau modéré, concernent la canagliflozine, la dapagliflozine, l'empagliflozine, l'ertugliflozine, la lorcasérine et la saproptérine.
 
-## Conclusion et Prochaines Étapes
+Les mises en garde et contre-indications issues de la notice ne sont pas disponibles dans les données compilées : veuillez consulter la notice pour ces informations de sécurité.
+
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune étude citée ne porte directement sur la malformation aortique en tant que telle (essais cliniques absents, publications indirectes ou anecdotales) : le niveau de preuve reste donc L5. Le score élevé du modèle (0,9998) est cohérent avec l'usage connu de l'alprostadil dans les cardiopathies canal-dépendantes, mais ne suffit pas à lui seul.
+Aucune étude citée n'évalue directement l'alprostadil dans la malformation aortique : les publications sont anciennes, anecdotales ou indirectes. Le niveau de preuve reste donc L5, et la prédiction prolonge un usage néonatal déjà connu plutôt qu'elle ne propose une nouveauté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice ANSM
-- Études cliniques ciblant spécifiquement les malformations aortiques canal-dépendantes (coarctation, interruption de l'arche)
-- Plan de surveillance de la sécurité en perfusion prolongée chez le nouveau-né
+- Études ou essais cliniques portant directement sur la malformation aortique
+- Plan de surveillance de sécurité pour les nouveau-nés (apnée, fièvre, obstruction gastrique lors d'un traitement prolongé)
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
