@@ -36,6 +36,8 @@ Cette liste repose sur les données d'enregistrement ([ANSM](https://ansm.sante.
 
 <!-- local-home:end -->
 
+Sélection : [Médicaments en France avec des preuves d'essais cliniques pour une nouvelle indication]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, avec l'indication prédite et le nombre d'essais enregistrés cités).
+
 ## Répartition par niveau de preuve
 
 | Niveau de preuve | Médicaments | Description |
