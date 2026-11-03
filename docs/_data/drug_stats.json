@@ -5,8 +5,8 @@
     "L1": 19,
     "L2": 31,
     "L3": 40,
-    "L4": 62,
-    "L5": 637
+    "L4": 63,
+    "L5": 636
   },
   "all_drugs": [
     {
@@ -3690,7 +3690,7 @@
     {
       "name": "Progesterone",
       "slug": "progesterone",
-      "level": "L5",
+      "level": "L4",
       "indication_count": 6
     },
     {

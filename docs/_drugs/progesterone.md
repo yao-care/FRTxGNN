@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 634
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Progesterone : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L4** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 ## Résumé en Une Phrase
 
-La progestérone est une hormone stéroïdienne progestative naturelle, disponible en France sous de nombreuses formes (capsules, ovules, gel, solution injectable).
-Le modèle TxGNN prédit qu'elle pourrait être utile pour la **maladie fibrokystique du sein (breast fibrocystic disease)**,
-mais **aucun essai clinique** n'est enregistré et les **20 publications** recensées sont surtout des revues, des études physiopathologiques et des données observationnelles, pour la plupart anciennes.
+La progestérone est une hormone stéroïdienne féminine utilisée sous de nombreuses formes (capsules, ovules, gels, solutions injectables).
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **maladie fibrokystique du sein (breast fibrocystic disease)**,
+mais aucun essai clinique n'est enregistré et les **20 publications** recensées sont surtout des études endocrinologiques, mécanistiques ou descriptives ; le niveau de preuve est **L4**.
 
 ## Aperçu Rapide
 
@@ -49,20 +49,18 @@ mais **aucun essai clinique** n'est enregistré et les **20 publications** recen
 | Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Maladie fibrokystique du sein (breast fibrocystic disease) |
 | Score de Prédiction TxGNN | 0.9998 |
-| Niveau de Preuve | L5 |
+| Niveau de Preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
 | Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la progestérone est l'hormone naturelle qui, avec les estrogènes, régule la croissance et la maturation de la glande mammaire au cours du cycle menstruel.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la progestérone est l'hormone naturelle qui, avec les œstrogènes, régule la croissance et la maturation de la glande mammaire.
 
-L'hypothèse avancée dans la littérature est celle d'un déficit relatif en progestérone en phase lutéale (rapport estradiol/progestérone élevé), qui favoriserait la prolifération du tissu conjonctif et de l'épithélium mammaire ainsi que la mastalgie (PMID 31168213, 3511705). Cette hypothèse est plausible sur le plan biologique.
+L'hypothèse avancée dans la littérature est celle d'un déficit relatif en progestérone en phase lutéale (rapport œstradiol/progestérone élevé), qui favoriserait la prolifération du tissu conjonctif et épithélial et les douleurs mammaires (PMID 31168213, 3511705, 6481706). Cette hypothèse est biologiquement plausible.
 
-Cependant, les données sont de niveau hypothétique, épidémiologique et souvent anciennes. D'autres travaux soulèvent aussi des interrogations sur l'effet des progestatifs sur le tissu mammaire : le sens net de l'effet reste incertain.
-
-**Niveau de preuve :** malgré la présence de publications consacrées à cette maladie, aucune n'évalue la progestérone comme traitement ; l'étude contrôlée randomisée retrouvée concerne la metformine. Aucune étude citée ne teste donc directement un bénéfice de la progestérone, et le niveau est fixé à L5.
+Cependant, les preuves restent de niveau hypothèse : elles sont épidémiologiques, mécanistiques et souvent anciennes. Aucune étude ne teste la progestérone comme traitement de cette maladie, et certains travaux soulèvent des interrogations sur les effets des progestatifs sur le tissu mammaire. Le sens net de l'effet reste donc incertain.
 
 ## Preuves d'Essais Cliniques
 
@@ -70,22 +68,22 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
+Aucune de ces publications n'évalue la progestérone comme traitement de la maladie fibrokystique du sein.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [31168213](https://pubmed.ncbi.nlm.nih.gov/31168213/) | 2018 | Étude cas-témoins (classée « revue ») | Acta Clin Croat | Rôle du rapport estradiol/progestérone en phase lutéale tardive chez 50 femmes avec maladie fibrokystique et 40 témoins |
-| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Revue | Am J Obstet Gynecol | Physiopathologie liée à une prédominance estrogénique et un déficit en progestérone ; risque de cancer du sein multiplié par 2 à 4 |
-| [6481706](https://pubmed.ncbi.nlm.nih.gov/6481706/) | 1984 | Revue | J Reprod Med | Relation entre estrogènes, progestérone et pathologie mammaire |
-| [1936311](https://pubmed.ncbi.nlm.nih.gov/1936311/) | 1991 | Revue | Fertil Steril | Les contraceptifs oraux anciens protégeaient contre la plupart des maladies bénignes du sein ; incertitude pour les faibles doses de progestatif |
+| [31168213](https://pubmed.ncbi.nlm.nih.gov/31168213/) | 2018 | Étude cas-témoins hormonale | Acta Clin Croat | Rôle du rapport œstradiol/progestérone en phase lutéale tardive chez 50 femmes avec maladie fibrokystique et 40 témoins |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Revue | Am J Obstet Gynecol | Physiopathologie : prédominance œstrogénique et déficit en progestérone ; risque de cancer du sein multiplié par 2 à 4 |
+| [6481706](https://pubmed.ncbi.nlm.nih.gov/6481706/) | 1984 | Revue | J Reprod Med | Revue des effets des œstrogènes et de la progestérone sur les maladies du sein |
+| [1936311](https://pubmed.ncbi.nlm.nih.gov/1936311/) | 1991 | Revue | Fertil Steril | Les contraceptifs oraux anciens protégeaient contre la plupart des maladies bénignes du sein ; incertitude pour les faibles doses de progestatifs actuelles |
 | [3902125](https://pubmed.ncbi.nlm.nih.gov/3902125/) | 1985 | Revue | Breast Cancer Res Treat | Épidémiologie et endocrinologie des maladies bénignes du sein |
 | [41438397](https://pubmed.ncbi.nlm.nih.gov/41438397/) | 2025 | Transversale | Int J Reprod Biomed | Association entre maladie fibrokystique du sein et phénotypes du syndrome des ovaires polykystiques |
-| [34537861](https://pubmed.ncbi.nlm.nih.gov/34537861/) | 2022 | Revue | Virchows Arch | Lésions apocrines du sein, fréquentes et le plus souvent bénignes |
-| [7788004](https://pubmed.ncbi.nlm.nih.gov/7788004/) | 1995 | Cohorte | Eur J Endocrinol | Hormones thyroïdiennes dans le sérum et le liquide kystique chez des femmes atteintes |
-| [28598826](https://pubmed.ncbi.nlm.nih.gov/28598826/) | 2017 | Essai randomisé en double aveugle | Breast Dis | Effet de la metformine (et non de la progestérone) sur les modifications fibrokystiques |
-| [22103710](https://pubmed.ncbi.nlm.nih.gov/22103710/) | 2012 | Observationnelle | Gynecol Endocrinol | Taux de maladie fibrokystique selon les phénotypes du syndrome des ovaires polykystiques |
+| [7788004](https://pubmed.ncbi.nlm.nih.gov/7788004/) | 1995 | Cohorte | Eur J Endocrinol | Hormones thyroïdiennes dans le sérum et le liquide de kyste chez des femmes avec maladie fibrokystique |
+| [34537861](https://pubmed.ncbi.nlm.nih.gov/34537861/) | 2022 | Revue | Virchows Arch | Lésions apocrines du sein, bénignes, atypiques et malignes |
 
 ## Informations de Marché en France
 
-La progestérone est commercialisée en France. Les données compilées recensent 18 AMM valides, toutes pour des spécialités à base de progestérone seule. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
+La progestérone est commercialisée en France. Les données locales recensent 18 AMM, toutes valides. Les 5 principales sont :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -97,21 +95,23 @@ La progestérone est commercialisée en France. Les données compilées recensen
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues des relations de la base de données (non issues d'un texte de notice)** : hypertension, insuffisance ou maladie du foie, épilepsie, porphyries, maladie rénale, maladie de la vésicule biliaire, diabète et hyperglycémie, hypertriglycéridémie, asthme, hypothyroïdie, lupus érythémateux systémique, ostéoporose post-ménopausique, abus de substances. Ces éléments sont à vérifier dans la notice.
-- **Interactions médicamenteuses** : 163 interactions recensées, au moins celles de niveau modéré avec les antidiabétiques (acarbose, metformine, pioglitazone, glimépiride, répaglinide, inhibiteurs du SGLT2, analogues du GLP-1, insulines), ainsi qu'avec l'aprépitant et la clarithromycine. Une surveillance de la glycémie est à prévoir en cas d'association.
+- **Contre-indications évoquées pour des maladies associées au médicament** : hypertension, insuffisance hépatique, maladie hépatique, épilepsie, porphyrie, maladie rénale, maladie de la vésicule biliaire, diabète et hyperglycémie, asthme, lupus érythémateux systémique, hypothyroïdie, ostéoporose, hypertriglycéridémie, troubles anxieux, abus de substances. Ces éléments ne proviennent pas du texte de la notice et doivent être vérifiés.
+- **Interactions médicamenteuses** : 163 interactions sont recensées. Celles listées sont de niveau modéré et concernent surtout les antidiabétiques (acarbose, metformine, pioglitazone, canagliflozine, dapagliflozine, empagliflozine, glimépiride, répaglinide, sémaglutide, liraglutide, dulaglutide, insulines), ainsi que l'aprépitant et la clarithromycine.
+
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Le score du modèle est très élevé (0,9998), mais aucun essai clinique n'existe et aucune publication n'évalue la progestérone dans cette maladie. Le sens de l'effet sur le tissu mammaire reste incertain. Le niveau de preuve est L5.
+La prédiction repose sur une hypothèse hormonale plausible, mais aucun essai clinique ne la soutient et aucune étude ne teste la progestérone dans cette maladie ; le niveau de preuve est L4. Le sens de l'effet sur le tissu mammaire reste incertain.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Revue systématique de la littérature sur les progestatifs dans la mastopathie bénigne et la mastalgie
-- Données détaillées sur le mécanisme d'action
-- Récupération des mises en garde et contre-indications des notices ANSM
-- Si une étude est envisagée, évaluation de la voie d'administration (topique, orale ou vaginale) et de la sécurité mammaire
+- Des études cliniques (idéalement randomisées) évaluant la progestérone dans la maladie fibrokystique du sein
+- Des données détaillées sur le mécanisme d'action
+- Les mises en garde et contre-indications officielles issues de la notice de l'ANSM
+- Une évaluation de la sécurité mammaire des progestatifs dans cette population, ainsi que du choix de la voie d'administration
 
 ## Avertissement
 
