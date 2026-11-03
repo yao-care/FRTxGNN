@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 160
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-28
+indication_count: 5
+last_modified_at: 2026-11-03
 monitor_inn: "CHLORAMBUCIL"
-predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-description: "Chlorambucil : nouvelle indication prédite, Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (niveau de preuve L5)."
+predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+description: "Chlorambucil : nouvelle indication prédite, ALK-positive large B-cell lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 </div>
 
-## Chlorambucil: Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation
+## Chlorambucil: ALK-positive large B-cell lymphoma
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -42,15 +42,15 @@ Chlorambucil est un agent alkylant de l'ADN, initialement utilisé pour traiter 
 Le modèle TxGNN prédit qu'il pourrait être efficace pour le **lymphome pulmonaire primitif** (la prédiction de rang 4, retenue ici car c'est la seule à disposer d'un corpus de littérature substantiel et à avoir atteint l'étape S1).
 Cette direction est actuellement soutenue par **11 publications** (aucun essai clinique enregistré), dont la plupart sont anciennes, rétrospectives ou peu spécifiques.
 
-> Remarque : les prédictions de rang 1 et 2 ont des scores TxGNN légèrement supérieurs (0,9972) mais ne disposent d'aucune preuve directe ou d'une seule référence indirecte. Le rang 4 a été retenu comme candidat principal en raison de la qualité relative de ses preuves.
+Le rang 4 a été retenu comme candidat principal en raison de la qualité relative de ses preuves.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation |
-| Score de Prédiction TxGNN | 0.9972 |
+| Nouvelle Indication Prédite | ALK-positive large B-cell lymphoma |
+| Score de Prédiction TxGNN | 0.9961 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |

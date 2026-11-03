@@ -4,17 +4,17 @@ title: Progesterone
 parent: Preuves élevées (L1-L2)
 nav_order: 634
 evidence_level: L2
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone : nouvelle indication prédite, Breast fibrocystic disease (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **7** 
+Niveau de preuve: **L2** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Niveau de preuve: **L2** | Indications prédites: **7**
 
 </div>
 
-## Progesterone: Aménorrhée (amenorrhea (disease))
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La progestérone est une hormone stéroïdienne naturelle, utilisée à l'origine dans l'endométriose, le cancer de l'endomètre, l'ostéoporose post-ménopausique et la vaginite atrophique post-ménopausique.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**aménorrhée**,
-avec **4 essais cliniques** (dont des essais de Phase 2/3 et de Phase 3 terminés, mais où la progestérone n'est pas l'intervention principale) et **19 publications** soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
-| Score de Prédiction TxGNN | 1.0000 |
+| Nouvelle Indication Prédite | Breast fibrocystic disease |
+| Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L2 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
 | Nombre d'AMM | 18 (valides : 18) |

@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 341
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
-description: "Flurbiprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseig…"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+description: "Flurbiprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5)."
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -66,7 +66,7 @@ Pour cette prédiction précise, **aucun lien mécanistique plausible n'a pu êt
 
 Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, non une preuve biologique. Il ne constitue pas une preuve d'efficacité.
 
-**Note :** parmi les dix premières prédictions, la seule qui s'appuie sur de la littérature est la **spondylarthrite ankylosante** (rang 8, niveau L3). Elle correspond à une extension au sein de la même classe d'AINS, avec des essais comparatifs anciens (1974-1986) contre l'indométacine, la phénylbutazone et le naproxène, qui montrent une efficacité comparable. Elle mériterait une évaluation distincte.
+Elle correspond à une extension au sein de la même classe d'AINS, avec des essais comparatifs anciens (1974-1986) contre l'indométacine, la phénylbutazone et le naproxène, qui montrent une efficacité comparable. Elle mériterait une évaluation distincte.
 
 ---
 
@@ -119,7 +119,6 @@ Les mises en garde du texte officiel de la notice n'étant pas disponibles, veui
 - Des données sur le mécanisme d'action du flurbiprofène et sur un éventuel lien avec la voie GDF5/BMP.
 - Des données précliniques ou des cas cliniques étayant un effet dans cette dysplasie.
 - Les mises en garde et contre-indications officielles de la notice de l'ANSM.
-- Une évaluation séparée de la spondylarthrite ankylosante, indication la mieux étayée par la littérature parmi les prédictions.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -4,17 +4,17 @@ title: Formoterol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 346
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-31
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol : nouvelle indication prédite, Respiratory malformation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 ## Résumé en Une Phrase
 
 Le formotérol est un bêta-2-agoniste de longue durée d'action, initialement utilisé pour le traitement de l'asthme (intrinsèque et allergique) et de l'emphysème pulmonaire.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, avec **18 essais cliniques** et **20 publications** associés dans les données compilées pour ce rapport. Ces preuves portent toutefois surtout sur la BPCO et sur des associations fixes, et non sur la bronchite en tant qu'indication isolée.
+Ces preuves portent toutefois surtout sur la BPCO et sur des associations fixes, et non sur la bronchite en tant qu'indication isolée.
 
 ---
 
@@ -132,7 +132,7 @@ Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé, mais les essais de phase 3 portent sur la BPCO et sur des associations fixes (aclidinium/formotérol, arformotérol), non sur la bronchite isolée. L'indication relève surtout d'une confirmation de l'usage existant dans la BPCO.
+- L'indication relève surtout d'une confirmation de l'usage existant dans la BPCO.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) ;

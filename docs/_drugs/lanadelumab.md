@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 434
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "lanadelumab"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab : nouvelle indication prédite, Déficience en inhibiteur de C1 (C1 inhibitor deficiency) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab : nouvelle indication prédite, Serpinopathy with toxic serpin polymerization (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Lanadelumab: Déficience en inhibiteur de C1 (C1 inhibitor deficiency)
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Lanadélumab est un anticorps monoclonal humain dirigé contre la kallicréine plasmatique, initialement utilisé pour la prévention des crises d'angio-œdème héréditaire (AOH).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **déficience en inhibiteur de C1**, avec **5 essais cliniques** et **20 publications** soutenant actuellement cette direction.
 Il faut toutefois noter que cette indication prédite correspond en pratique à l'indication d'origine du médicament : il ne s'agit pas d'un repositionnement au sens strict, mais plutôt d'une validation de la prédiction du modèle.
 
 ---
@@ -49,9 +48,9 @@ Il faut toutefois noter que cette indication prédite correspond en pratique à 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Déficience en inhibiteur de C1 (C1 inhibitor deficiency) |
-| Score de Prédiction TxGNN | 1.0000 |
-| Niveau de Preuve | L1 |
+| Nouvelle Indication Prédite | Serpinopathy with toxic serpin polymerization |
+| Score de Prédiction TxGNN | 0.9999 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |

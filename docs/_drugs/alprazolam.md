@@ -4,17 +4,17 @@ title: Alprazolam
 parent: Preuves modérées (L3-L4)
 nav_order: 46
 evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-31
+indication_count: 2
+last_modified_at: 2026-11-03
 description: "Alprazolam : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Trouble anxieux, anxiété…"
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -131,7 +131,6 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 - Une évaluation du rapport bénéfice/risque (dépendance, sevrage, chutes, cognition) et de la situation réglementaire des produits (AMM annulées).
 
 **Note sur les autres indications prédites :**
-- **Agoraphobie** (score 0,9956, niveau L3) : elle est soutenue par de nombreux essais anciens (1985-1997) portant sur l'alprazolam dans le trouble panique avec agoraphobie, et par une méta-analyse en réseau Cochrane de 2023. Elle recoupe cependant largement l'indication anxieuse d'origine et pourrait relever d'une extension sur étiquette plutôt que d'un véritable repositionnement. Les problèmes de sevrage et de dépendance, ainsi que la préférence actuelle pour les ISRS/IRSN et les TCC, limitent la recommandation. Elle reste une question de recherche.
 - **Torticolis paroxystique bénin du nourrisson** (score 0,9961, niveau L5) : aucune donnée clinique, et l'usage des benzodiazépines chez le nourrisson soulève des préoccupations de sécurité majeures (dépression respiratoire, effets sur le neurodéveloppement). Hold.
 ## Avertissement
 

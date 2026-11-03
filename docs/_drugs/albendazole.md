@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 32
-evidence_level: L2
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Albendazole : nouvelle indication prédite, Échinococcose alvéolaire (niveau de preuve L2). Indication d'origine : Échinococcose kystique, cysticercose…"
+evidence_level: L5
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "ALBENDAZOLE"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
+predicted_indications: ["coenurosis"]
+description: "Albendazole : nouvelle indication prédite, Coenurosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L2** | Indications prédites: **3**
 
 </div>
 
-## Albendazole : De l'échinococcose kystique à l'échinococcose alvéolaire
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Albendazole est un antiparasitaire de la famille des benzimidazoles, initialement utilisé pour traiter l'échinococcose kystique, la cysticercose et l'infection à *Echinococcus granulosus*.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**échinococcose alvéolaire**, avec **3 essais cliniques** et **20 publications** soutenant actuellement cette direction.
 Il s'agit davantage d'une extension au sein d'une même classe de médicaments et d'un même genre de parasite que d'un repositionnement au sens strict.
 
 ---
@@ -48,10 +47,10 @@ Il s'agit davantage d'une extension au sein d'une même classe de médicaments e
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Échinococcose kystique, cysticercose, infection à *Echinococcus granulosus* (texte d'indication de l'AMM non renseigné dans les données compilées) |
-| Nouvelle Indication Prédite | Échinococcose alvéolaire |
-| Score de Prédiction TxGNN | 0,9997 |
-| Niveau de Preuve | L2 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Coenurosis |
+| Score de Prédiction TxGNN | 0.9983 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
@@ -136,7 +135,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ### Note sur les autres indications prédites
 
-Deux autres prédictions figurent dans les données : la **coenurose** (score de 0,9983) et les **infections à cestodes** (score de 0,9974). Elles sont présentées comme L1 dans les données, mais cette classification repose sur des essais de phase 3 portant sur la neurocysticercose (indication déjà existante), et non sur la coenurose elle-même. La coenurose humaine est rare et ne dispose d'aucun essai randomisé dédié ; l'application est donc une extrapolation. La catégorie « infection à cestodes » est un parent des indications d'origine, et son score élevé reflète surtout la hiérarchie de l'ontologie, non un véritable repositionnement.
+Elles sont présentées comme L1 dans les données, mais cette classification repose sur des essais de phase 3 portant sur la neurocysticercose (indication déjà existante), et non sur la coenurose elle-même. La coenurose humaine est rare et ne dispose d'aucun essai randomisé dédié ; l'application est donc une extrapolation. La catégorie « infection à cestodes » est un parent des indications d'origine, et son score élevé reflète surtout la hiérarchie de l'ontologie, non un véritable repositionnement.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

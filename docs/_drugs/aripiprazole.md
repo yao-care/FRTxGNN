@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 71
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-28
-description: "Aripiprazole : nouvelle indication prédite, Trouble affectif majeur (major affective disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-11-03
+description: "Aripiprazole : nouvelle indication prédite, Gaze palsy, familial horizontal, with progressive scoliosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Aripiprazole : antipsychotique agoniste partiel des récepteurs dopaminergiques D2/D3 et sérotoninergiques 5-HT1A → trouble affectif majeur (major affective disorder)
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 L'aripiprazole est un antipsychotique atypique, agoniste partiel des récepteurs dopaminergiques D2/D3 et sérotoninergiques 5-HT1A.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble affectif majeur (major affective disorder)**,
-avec **38 essais cliniques** et **18 publications** actuellement associés à cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Trouble affectif majeur (major affective disorder) |
-| Score de Prédiction TxGNN | 0,9962 |
+| Nouvelle Indication Prédite | Gaze palsy, familial horizontal, with progressive scoliosis |
+| Score de Prédiction TxGNN | 0.9960 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |

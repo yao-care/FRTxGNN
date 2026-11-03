@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 296
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---

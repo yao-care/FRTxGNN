@@ -4,17 +4,17 @@ title: Clomifene
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 185
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "clomifene"
-predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "anovulation"]
-description: "Clomifene : nouvelle indication prédite, 46,XY disorder of sex development due to testicular steroidogenesis defect (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
+predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12"]
+description: "Clomifene : nouvelle indication prédite, 46,XY disorder of sex development due to testicular steroidogenesis defect (niveau de preuve L5)."
 ---
 
 # Clomifene
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 ## Résumé en Une Phrase
 
 Le clomifène (CLOMID 50 mg, comprimé) est un modulateur sélectif des récepteurs aux estrogènes, initialement utilisé pour le traitement de l'infertilité féminine.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anovulation**, avec **3 essais cliniques** et **20 publications** associés. Il s'agit toutefois d'une indication très proche de l'indication d'origine, donc davantage d'un usage déjà établi que d'un véritable repositionnement.
+Il s'agit toutefois d'une indication très proche de l'indication d'origine, donc davantage d'un usage déjà établi que d'un véritable repositionnement.
 
 ---
 
@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anovulation**, a
 | Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
 
-Remarque : l'anovulation a été retenue car c'est la seule indication prédite disposant de preuves cliniques. Les neuf autres prédictions les mieux classées (par exemple le trouble du développement sexuel 46,XY, les cloisons vaginales, les syndromes chromosomiques) n'ont aucun essai ni publication, sont de niveau L5 et restent en « Hold ».
+Les neuf autres prédictions les mieux classées (par exemple le trouble du développement sexuel 46,XY, les cloisons vaginales, les syndromes chromosomiques) n'ont aucun essai ni publication, sont de niveau L5 et restent en « Hold ».
 
 ---
 

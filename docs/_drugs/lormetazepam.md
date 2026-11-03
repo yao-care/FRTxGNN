@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lormetazepam
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 466
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Lormetazepam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "lormetazepam"
-predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
+predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
+description: "Lormetazepam : nouvelle indication prédite, Alcohol withdrawal delirium (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Lormetazepam
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Lormétazépam : De l'insomnie à l'insomnie (indication déjà établie) — Évaluation de la prédiction TxGNN
+## Lormetazepam: Alcohol withdrawal delirium
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le lormétazépam est une benzodiazépine hypnotique à courte durée d'action. Les données d'autorisation françaises compilées pour ce rapport ne mentionnent aucune indication approuvée explicite.
-Le modèle TxGNN prédit son efficacité dans l'**insomnie** (score de 0,9998). Il s'agit en pratique d'un usage déjà établi plutôt que d'un véritable repositionnement.
-Cette prédiction est soutenue par **2 essais cliniques de Phase 3** et **3 publications** rattachées directement à l'insomnie.
+Il s'agit en pratique d'un usage déjà établi plutôt que d'un véritable repositionnement.
 
 ---
 
@@ -48,10 +47,10 @@ Cette prédiction est soutenue par **2 essais cliniques de Phase 3** et **3 publ
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données d'AMM compilées |
-| Nouvelle Indication Prédite | Insomnie |
-| Score de Prédiction TxGNN | 0,9998 |
-| Niveau de Preuve | L1 (selon l'évaluation compilée : un seul essai de Phase 3 mené à terme ; voir la remarque ci-dessous) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Alcohol withdrawal delirium |
+| Score de Prédiction TxGNN | 0.9993 |
+| Niveau de Preuve | L5 (selon l'évaluation compilée : un seul essai de Phase 3 mené à terme ; voir la remarque ci-dessous) |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |

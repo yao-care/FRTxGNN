@@ -4,17 +4,17 @@ title: Clotrimazole
 parent: Preuves élevées (L1-L2)
 nav_order: 191
 evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-28
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
-predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole : nouvelle indication prédite, Acne (disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **3** 
+Niveau de preuve: **L1** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ Niveau de preuve: **L1** | Indications prédites: **3**
 ## Résumé en Une Phrase
 
 Clotrimazole est un antifongique azolé, initialement utilisé pour traiter les mycoses cutanées (pied d'athlète, dermatophytoses) et les candidoses cutanées, orales et vulvovaginales.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vulvovaginite**, avec **12 essais cliniques** et **20 publications** soutenant actuellement cette direction.
 Il s'agit toutefois surtout de la confirmation d'un usage déjà établi (candidose vulvovaginale) plutôt que d'un véritable repositionnement.
 
 ## Aperçu Rapide

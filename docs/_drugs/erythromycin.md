@@ -4,17 +4,17 @@ title: Erythromycin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 297
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "erythromycin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-description: "Erythromycin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+description: "Erythromycin : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5)."
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---

@@ -4,17 +4,17 @@ title: Tioconazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 764
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "TIOCONAZOLE"
-predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
-description: "Tioconazole : nouvelle indication prédite, Vulvovaginite (vulvovaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
+description: "Tioconazole : nouvelle indication prédite, Vulvitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Tioconazole: Vulvovaginite (vulvovaginitis)
+## Tioconazole: Vulvitis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le tioconazole est un antifongique imidazolé à usage topique, initialement utilisé pour le traitement de la candidose vulvovaginale.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vulvovaginite**, mais cette indication est très proche de l'indication d'origine : il s'agit davantage d'un usage dans le cadre de l'indication connue que d'un véritable repositionnement.
 Aucun essai clinique n'est enregistré ; **20 publications** sont associées à cette prédiction, dont quelques essais comparatifs anciens (années 1980).
 
 ## Aperçu Rapide
@@ -47,8 +46,8 @@ Aucun essai clinique n'est enregistré ; **20 publications** sont associées à 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Vulvovaginite (vulvovaginitis) |
-| Score de Prédiction TxGNN | 0.9923 |
+| Nouvelle Indication Prédite | Vulvitis |
+| Score de Prédiction TxGNN | 0.9920 |
 | Niveau de Preuve | L5 (selon l'évaluation compilée ; essais anciens, majoritairement ouverts) |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |

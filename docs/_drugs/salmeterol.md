@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 692
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-31
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol : nouvelle indication prédite, Respiratory malformation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L1** | Indications prédites: **5**
 
 </div>
 
-## Salmeterol: Bronchite (bronchitis)
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le salmétérol est un bêta-2-agoniste de longue durée d'action, initialement utilisé pour le traitement de l'emphysème pulmonaire et de l'asthme (intrinsèque et allergique).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, avec **8 essais cliniques** et **20 publications** soutenant actuellement cette direction.
 Il s'agit toutefois d'une extension très proche des usages d'origine (bronchite chronique et BPCO) plutôt que d'un repositionnement éloigné.
 
 ---
@@ -49,9 +48,9 @@ Il s'agit toutefois d'une extension très proche des usages d'origine (bronchite
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Bronchite (bronchitis) |
-| Score de Prédiction TxGNN | 0.9992 |
-| Niveau de Preuve | L1 |
+| Nouvelle Indication Prédite | Respiratory malformation |
+| Score de Prédiction TxGNN | 0.9991 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Proceed with Guardrails |

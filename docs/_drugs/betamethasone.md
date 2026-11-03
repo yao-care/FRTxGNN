@@ -4,17 +4,17 @@ title: Betamethasone
 parent: Preuves élevées (L1-L2)
 nav_order: 101
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 monitor_inn: "betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-28
-description: "Betamethasone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+last_modified_at: 2026-11-03
+description: "Betamethasone : nouvelle indication prédite, Alopecia mucinosa (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **8** 
+Niveau de preuve: **L2** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Niveau de preuve: **L2** | Indications prédites: **8**
 
 </div>
 
-## Bétaméthasone : corticoïde glucocorticoïde → Alopécie areata (alopecia areata)
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La bétaméthasone est un corticoïde glucocorticoïde puissant, disponible en France sous de nombreuses formes (crème, pommade, lotion, comprimés, solution buvable, solution injectable).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**alopécie areata (alopecia areata)**,
-avec **6 essais cliniques** enregistrés (dont 5 portent directement sur cette maladie) et **20 publications** soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Alopécie areata (alopecia areata) |
-| Score de Prédiction TxGNN | 0,9997 |
+| Nouvelle Indication Prédite | Alopecia mucinosa |
+| Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L2 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
@@ -68,9 +66,7 @@ Cette hypothèse reste à nuancer : les preuves proviennent surtout de petits es
 |---------|------|------|------|---------|
 | [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | Terminé | 60 | Azathioprine hebdomadaire en pulse vs mini-pulse orale de bétaméthasone dans l'alopécie areata modérée à sévère |
 | [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | Terminé | 50 | Latanoprost topique vs corticoïde topique (bétaméthasone) dans l'alopécie areata localisée |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | Non précisée | Inconnu | 59 | Cétirizine topique 1 % vs bétaméthasone valérate 0,1 % dans l'alopécie areata localisée |
 | [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Phase 1 | Inconnu | 60 | Pentoxifylline et metformine topiques vs bétaméthasone valérate 0,1 % en crème |
-| [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | Non applicable | Pas encore en recrutement | 60 | Metformine 30 %, simvastatine 2 % et bétaméthasone valérate 0,1 % topiques dans l'alopécie areata en plaques |
 | [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | En recrutement | 250 | Alopécie cicatricielle centrale centrifuge (pathologie différente) ; pertinence indirecte uniquement |
 
 ## Preuves de la Littérature

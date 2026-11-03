@@ -4,17 +4,17 @@ title: Clidinium
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 178
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "CLIDINIUM"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
 description: "Clidinium : nouvelle indication prédite, Syndrome de la queue de cheval (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Clidinium
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---

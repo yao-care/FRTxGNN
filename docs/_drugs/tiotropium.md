@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tiotropium
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 765
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Tiotropium : nouvelle indication prédite, Maladie pulmonaire obstructive (niveau de preuve L1). Indication d'origine : Bronchite, asthme, asthme intrinsèque, asthme allergique…"
+evidence_level: L5
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium : nouvelle indication prédite, Respiratory malformation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Niveau de preuve: **L1** | Indications prédites: **5**
 
 </div>
 
-## Tiotropium : De la bronchite, de l'asthme et de l'emphysème pulmonaire à la maladie pulmonaire obstructive
+## Tiotropium: Respiratory malformation
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Tiotropium est un antagoniste muscarinique à longue durée d'action (LAMA), initialement utilisé dans la bronchite, l'asthme (y compris l'asthme intrinsèque et allergique) et l'emphysème pulmonaire.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie pulmonaire obstructive**, avec **39 essais cliniques** et **19 publications** associés à cette prédiction.
 Cette prédiction correspond toutefois à une catégorie parente de la BPCO, c'est-à-dire pour l'essentiel à un usage déjà établi plutôt qu'à un véritable repositionnement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Bronchite, asthme, asthme intrinsèque, asthme allergique, emphysème pulmonaire (le texte de l'indication des AMM n'est pas renseigné) |
-| Nouvelle Indication Prédite | Maladie pulmonaire obstructive |
-| Score de Prédiction TxGNN | 0,9999 |
-| Niveau de Preuve | L1 |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Respiratory malformation |
+| Score de Prédiction TxGNN | 0.9995 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Proceed with Guardrails |
@@ -58,7 +57,7 @@ Cette prédiction correspond toutefois à une catégorie parente de la BPCO, c'e
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le tiotropium est un antagoniste muscarinique à longue durée d'action. Il bloque les récepteurs M3 du muscle lisse bronchique, ce qui produit une bronchodilatation prolongée et réduit le tonus cholinergique dans les maladies obstructives des voies aériennes.
 
-Ce mécanisme recoupe directement les indications d'origine (asthme, bronchite, emphysème). La « maladie pulmonaire obstructive » est une catégorie parente de la BPCO : la prédiction relève donc d'un usage déjà reconnu et non d'une extension thérapeutique nouvelle.
+Ce mécanisme recoupe directement les indications d'origine (asthme, bronchite, emphysème).
 
 La littérature décrit une dissociation lente des récepteurs M3 et M1, qui explique la durée d'action de plus de 24 heures et permet une administration en une prise quotidienne.
 

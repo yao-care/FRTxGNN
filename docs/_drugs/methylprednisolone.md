@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 490
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "methylprednisolone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone : nouvelle indication prédite, Alopecia mucinosa (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Niveau de preuve: **L3** | Indications prédites: **9**
 
 </div>
 
-## Methylprednisolone: Pelade (alopecia areata)
+## Methylprednisolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La méthylprednisolone est un corticoïde de synthèse, utilisé à l'origine dans des maladies auto-immunes et inflammatoires (maladie de Crohn, insuffisance surrénalienne, leucémie aiguë lymphoblastique, etc.).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pelade (alopecia areata)**,
-avec **1 essai clinique** et **20 publications** soutenant actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Pelade (alopecia areata) |
+| Nouvelle Indication Prédite | Alopecia mucinosa |
 | Score de Prédiction TxGNN | 0.9999 |
-| Niveau de Preuve | L3 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
 | Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |

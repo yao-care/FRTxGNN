@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 375
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "haloperidol"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol : nouvelle indication prédite, Congenital disorder of glycosylation with defective fucosylation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -104,7 +104,6 @@ Les mentions de la notice (mises en garde et contre-indications officielles) ne 
 
 **Remarque sur les autres prédictions du modèle :**
 - *Dystrophie rétinienne* (L4) : deux études précliniques chez le rat (modèle de rétinite pigmentaire) montrent une modulation des réponses visuelles des cellules ganglionnaires rétiniennes. Ce résultat est indirect et ne démontre aucun effet modificateur de la maladie.
-- *Trouble bipolaire de type maniaque* (L1) : des essais de phase 3, dont un essai contrôlé par placebo et halopéridol (NCT00129220, olanzapine, n = 224), apportent des données randomisées directes. Le halopéridol y est toutefois un comparateur, et son usage dans la manie est déjà établi cliniquement. Ce n'est donc pas un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA) et analyse d'un éventuel lien avec la voie de la fucosylation.

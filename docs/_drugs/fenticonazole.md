@@ -4,17 +4,17 @@ title: Fenticonazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 324
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-28
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "fenticonazole"
-predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
+predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
 description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à Trichomonas (trichomonal vulvovaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fenticonazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 Le fenticonazole est un antifongique imidazolé à usage local, initialement utilisé pour le traitement de la candidose vulvovaginale.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vulvovaginite à Trichomonas**, mais aucun essai clinique ni aucune publication ne soutient directement cette indication : la prédiction repose uniquement sur le modèle.
-Parmi les autres indications prédites, la **vulvovaginite** (non spécifiée) est la mieux documentée, avec **18 publications** (dont plusieurs essais comparatifs), mais elle correspond en grande partie à l'usage déjà établi.
 
 ---
 
@@ -83,7 +82,6 @@ Publications associées à l'indication prédite principale (vulvovaginite à Tr
 | [15216954](https://pubmed.ncbi.nlm.nih.gov/15216954/) | 2004 | Essai clinique ouvert (pilote) | J Chemother | Ovules de fenticonazole 1 g aux jours 1 et 3 chez 101 femmes atteintes de vulvovaginite à infections simples ou mixtes (*Candida*, *Trichomonas*, *Gardnerella*) ; population principalement candidosique |
 | [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Revue | Drugs | Revue du rôle du fenticonazole topique en dermatologie et gynécologie : large spectre antimycosique, action antibactérienne |
 
-Pour information, la vulvovaginite (non spécifiée, rang 3) dispose d'un corpus plus large, essentiellement sur la candidose : essais comparatifs contre clotrimazole (PMID [2680285](https://pubmed.ncbi.nlm.nih.gov/2680285/), [2202548](https://pubmed.ncbi.nlm.nih.gov/2202548/)), miconazole ([12017948](https://pubmed.ncbi.nlm.nih.gov/12017948/)) et fluconazole ([22481619](https://pubmed.ncbi.nlm.nih.gov/22481619/)), ainsi qu'une étude de sensibilité in vitro (EUCAST/CLSI, 260 isolats, [19223627](https://pubmed.ncbi.nlm.nih.gov/19223627/)).
 
 ---
 
@@ -111,7 +109,6 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - La prédiction pour la vulvovaginite à Trichomonas repose uniquement sur le modèle (niveau L4) : le mécanisme est indirect, il n'existe aucun essai enregistré et aucune donnée d'efficacité spécifique à *Trichomonas*. Par ailleurs, le médicament est commercialisé en France, avec 3 AMM valides sur 3.
-- Les autres prédictions ne sont pas plus favorables : atrophie vaginale postménopausique et vulvovaginite herpétique (niveau L5, sans mécanisme plausible), tandis que vulvovaginite, vulvite et vaginite (niveau L3, « question de recherche ») reposent surtout sur des données candidosiques, donc proches de l'usage d'origine plutôt que d'un vrai repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de sécurité de la notice ANSM (mises en garde, contre-indications) : lacune bloquante pour tout passage à l'étape de criblage de sécurité

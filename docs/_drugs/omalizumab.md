@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Preuves modérées (L3-L4)
 nav_order: 559
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -116,7 +116,6 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 ## Autres Indications Prédites (pour information)
 
 - **Eczéma atopique / dermatite** (L2, recherche) : l'essai de phase 4 NCT02300701 (n = 62, eczéma pédiatrique sévère) est le plus direct. Les résultats cliniques sont mitigés et les recommandations placent l'omalizumab derrière d'autres biologiques.
-- **Maladie pulmonaire obstructive** (L1, Proceed with Guardrails) : recoupe largement l'indication asthmatique existante. La vraie question nouvelle est la BPCO avec sensibilisation allergique (essai de phase 2 NCT07059091, en recrutement).
 - **Rangs 5 à 10** (néoplasme bronchique, acné chéloïdienne, acrodermatite chronique atrophiante, hydroa vacciniforme, dermatomyosite néonatale, pneumopathie interstitielle de l'enfant) : prédictions sans preuve clinique ni justification mécanistique plausible (L5, Hold).
 ## Avertissement
 

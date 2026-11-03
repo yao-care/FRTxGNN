@@ -4,17 +4,17 @@ title: Salbutamol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 690
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "SALBUTAMOL"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -106,7 +106,6 @@ Les notices de l'ANSM n'ont pas pu être exploitées : les mises en garde et con
 - Évaluer la compatibilité des voies d'administration, car aucune forme oculaire n'est identifiée dans les données compilées.
 
 **Remarque :** d'autres indications prédites disposent de preuves plus solides que la conjonctivite papillaire :
-- la **bronchite** (niveau L2, essais de phase 2 mais bénéfice limité selon les revues Cochrane) ;
 - l'**anaphylaxie** et le **rhume** (niveau L3) ;
 - les **maladies pulmonaires obstructives** (niveau L1, mais cette indication recoupe l'indication originale et n'est pas un véritable repositionnement).
 ## Avertissement

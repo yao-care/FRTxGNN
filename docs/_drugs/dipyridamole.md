@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 249
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-10-28
-description: "Dipyridamole : nouvelle indication prédite, Maladie thrombotique (niveau de preuve L5). Indication d'origine : Non précisée dans les AMM (textes d'indication vides)"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole : nouvelle indication prédite, Sick sinus syndrome 2, autosomal dominant (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **8** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,22 @@ Niveau de preuve: **L4** | Indications prédites: **8**
 
 </div>
 
-## Dipyridamole : Maladie thrombotique
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le dipyridamole est un antiagrégant plaquettaire et vasodilatateur. Le graphe de connaissances TxGNN enregistre une relation avec la fibrillation atriale, mais les textes d'indication des AMM compilés pour ce rapport sont vides.
-Le modèle TxGNN prédit qu'il pourrait être utile dans la **maladie thrombotique**, avec **aucun essai clinique** et **20 publications** de portée surtout générale (revues sur les antiagrégants). Ces publications ne fournissent pas de preuve clinique directe.
+Ces publications ne fournissent pas de preuve clinique directe.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non précisée dans les AMM (textes d'indication vides) ; le graphe de connaissances enregistre une relation avec la fibrillation atriale |
-| Nouvelle Indication Prédite | Maladie thrombotique |
-| Score de Prédiction TxGNN | 0,9994 |
-| Niveau de Preuve | L4 (mécanisme et revues générales uniquement, sans essai) |
+| Indication Originale | Non renseignée dans les données locales |
+| Nouvelle Indication Prédite | Sick sinus syndrome 2, autosomal dominant |
+| Score de Prédiction TxGNN | 0.9989 |
+| Niveau de Preuve | L5 (mécanisme et revues générales uniquement, sans essai) |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **maladie thrombotiq
 
 Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base médicamenteuse. L'analyse compilée pour ce rapport décrit toutefois le dipyridamole comme un inhibiteur de la recapture de l'adénosine (ENT1) et des phosphodiestérases (PDE3, PDE5, PDE10). Ces actions augmentent l'AMP cyclique et le GMP cyclique dans les plaquettes, ce qui freine leur agrégation. Il s'agit d'un mécanisme antithrombotique plausible, cohérent avec son usage ancien comme antiagrégant d'appoint.
 
-La prédiction principale du modèle TxGNN (deep learning) pour le dipyridamole est la maladie thrombotique, avec un score de 0.9994. Ce score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
+Ce score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
 La littérature récupérée se compose surtout de revues générales et d'articles narratifs anciens, sans essai clinique dédié. Certains articles sont sans rapport, comme un essai sur le bévacizumab dans le mésothéliome. Le niveau L4 reflète donc un soutien mécanistique et des revues, non une preuve clinique.
 
@@ -103,7 +103,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Pour la maladie thrombotique, aucun essai clinique n'est enregistré. La littérature se limite à des revues générales et à quelques cas anciens, sans étude clinique directe.
-- Le score du modèle est élevé (0,9994), mais la catégorie est trop large pour une décision de développement.
+- Le score du modèle est élevé (0,9989), mais la catégorie est trop large pour une décision de développement.
 - À titre indicatif, la prédiction pour l'accident ischémique transitoire repose sur un essai de phase 4 (ESPRIT, 4 500 patients) et des méta-analyses. Il s'agit d'un usage déjà établi, non d'un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

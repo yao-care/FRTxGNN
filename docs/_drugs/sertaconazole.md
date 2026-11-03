@@ -4,17 +4,17 @@ title: Sertaconazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 701
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Sertaconazole : nouvelle indication prédite, Ectothrix infectious disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **3** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -73,7 +73,6 @@ Les publications les plus pertinentes pour la teigne du corps (priorité aux ét
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [24249898](https://pubmed.ncbi.nlm.nih.gov/24249898/) | 2013 | ECR comparatif | Indian J Dermatol | Terbinafine 1 % crème contre sertaconazole 2 % crème dans la teigne du corps et la teigne de l'aine |
 | [35068526](https://pubmed.ncbi.nlm.nih.gov/35068526/) | 2021 | ECR comparatif | Indian J Dermatol | Efficacité et sécurité de l'éberconazole contre le sertaconazole dans les teignes localisées |
 | [28066103](https://pubmed.ncbi.nlm.nih.gov/28066103/) | 2016 | Étude randomisée en aveugle observateur | Indian J Pharmacol | Sertaconazole contre terbinafine topique dans les dermatophytoses localisées (teigne du corps ou de l'aine) |
 | [30409926](https://pubmed.ncbi.nlm.nih.gov/30409926/) | 2019 | ECR en double aveugle | Indian J Dermatol Venereol Leprol | Amorolfine 0,25 % contre sertaconazole 2 % dans les dermatophytoses limitées |
@@ -81,7 +80,6 @@ Les publications les plus pertinentes pour la teigne du corps (priorité aux ét
 | [34760651](https://pubmed.ncbi.nlm.nih.gov/34760651/) | 2021 | Étude randomisée ouverte | Perspect Clin Res | Sertaconazole contre luliconazole en crème dans les dermatophytoses |
 | [23372210](https://pubmed.ncbi.nlm.nih.gov/23372210/) | 2013 | Étude pilote comparative | Indian J Dermatol | Sertaconazole, terbinafine et luliconazole en crème dans les dermatophytoses |
 | [25386455](https://pubmed.ncbi.nlm.nih.gov/25386455/) | 2014 | Étude observationnelle comparative | J Clin Diagn Res | Sertaconazole contre clotrimazole topiques dans la teigne du corps |
-| [18039020](https://pubmed.ncbi.nlm.nih.gov/18039020/) | 2007 | Étude clinique comparative | Am J Clin Dermatol | Solution contre crème de sertaconazole 2 % dans la teigne du corps, la teigne interdigitale du pied ou la candidose correspondante |
 | [19275277](https://pubmed.ncbi.nlm.nih.gov/19275277/) | 2009 | Revue | Drugs | Utilisation du sertaconazole dans les mycoses superficielles en dermatologie et gynécologie ; indications européennes incluant la teigne du corps |
 
 Ces études sont pour la plupart de petite taille, ouvertes ou régionales ; leur phase et leur conception ne peuvent être confirmées à partir des seuls titres.
@@ -107,7 +105,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - La teigne du corps est une extension étroite de l'indication dermatophytique d'origine, avec plusieurs études comparatives publiées et un mécanisme plausible.
-- Les autres indications prédites sont moins soutenues : la dermatophytose de l'aine et de la région périanale (L4), la teigne du cuir chevelu ou de la barbe (L4), le pityriasis versicolor (L3, étude de 1992) et les atteintes profondes ou pilaires (ectothrix, endothrix, granulome de Majocchi, tinea profunda : L5, prédiction seule) restent en Hold ou en question de recherche. Ces dernières nécessitent généralement un traitement systémique. La candidose cutanée et les mycoses superficielles (L2) sont en grande partie couvertes par l'indication d'origine et les entités déjà évaluées.
+- Ces dernières nécessitent généralement un traitement systémique. La candidose cutanée et les mycoses superficielles (L2) sont en grande partie couvertes par l'indication d'origine et les entités déjà évaluées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice de l'ANSM (mises en garde et contre-indications), indispensable avant tout dépistage de sécurité

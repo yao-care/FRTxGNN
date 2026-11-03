@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nystatin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 549
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "nystatin"
-predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin : nouvelle indication prédite, Vulvovaginite (vulvovaginitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin : nouvelle indication prédite, Disease of orbital region (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nystatin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Niveau de preuve: **L4** | Indications prédites: **10**
 
 </div>
 
-## Nystatin: Vulvovaginite (vulvovaginitis)
+## Nystatin: Disease of orbital region
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 La nystatine est un antifongique polyénique, initialement utilisé pour traiter les candidoses (cutanées, buccales et vulvovaginales).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **vulvovaginite**, mais il s'agit essentiellement d'un usage déjà connu (candidose vulvovaginale) plutôt que d'un véritable repositionnement.
 Aucun essai clinique n'est associé à cette prédiction ; **20 publications** (principalement des revues et des synthèses cliniques) la soutiennent indirectement.
 
 ---
@@ -49,9 +48,9 @@ Aucun essai clinique n'est associé à cette prédiction ; **20 publications** (
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Vulvovaginite (vulvovaginitis) |
-| Score de Prédiction TxGNN | 0.9992 |
-| Niveau de Preuve | L4 |
+| Nouvelle Indication Prédite | Disease of orbital region |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
 | Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
@@ -121,7 +120,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est mécanistiquement plausible pour la vulvovaginite d'origine candidosique, mais elle correspond à un usage déjà connu, soutenu seulement par des revues, sans essai clinique. Les 5 AMM françaises sont valides, mais les données de sécurité officielles manquent, ce qui bloque l'évaluation de sécurité.
+- Les 5 AMM françaises sont valides, mais les données de sécurité officielles manquent, ce qui bloque l'évaluation de sécurité.
 - Les autres prédictions du modèle TxGNN (deep learning) (région orbitaire, tératome kystique, kyste dermoïde médullaire, vaginite atrophique postménopausique, maladie métabolique de la biotine, fistule commissurale de la lèvre, ostéoradionécrose mandibulaire) n'ont aucun support clinique ni mécanistique crédible. Leurs scores proviennent du modèle et peuvent refléter des similarités apprises entre maladies proches, non une preuve biologique. La vulvite repose sur la même littérature indirecte que la vulvovaginite.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

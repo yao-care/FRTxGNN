@@ -4,17 +4,17 @@ title: Risperidone
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 673
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-31
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone : nouvelle indication prédite, Paralysie familiale du regard horizontal avec scoliose progressive (gaze palsy, familial horizontal… (niveau de preuve L5). Indication d'origine : Non rense…"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **5** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -79,7 +79,6 @@ Les données compilées contiennent d'autres indications prédites, mieux docume
 | Syndrome amélo-cérébro-hypohidrotique | 0,9969 | L5 | Aucun lien mécanistique crédible, aucune preuve |
 | Syndrome de Phelan-McDermid | 0,9959 | L4 | Une revue clinique et une étude préclinique sur le poisson-zèbre (shank3) ; aucun essai chez l'humain ; bénéfice éventuel uniquement symptomatique (irritabilité, agressivité) |
 | Trichotillomanie | 0,9951 | L4 | Plusieurs cas cliniques et petites séries (potentialisation des inhibiteurs de recapture de la sérotonine) ; aucun essai contrôlé |
-| Trouble affectif majeur | 0,9911 | L1 | Deux essais de Phase 3 terminés sur la rispéridone en appoint dans la dépression résistante : [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (630 patients) et [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (258 patients), ainsi que plusieurs méta-analyses ; décision *Proceed with Guardrails* |
 
 Pour le trouble affectif majeur, le bénéfice se limite à la dépression résistante, en appoint d'un antidépresseur. Il s'accompagne de risques métaboliques, extrapyramidaux, de somnolence et d'hyperprolactinémie. Les essais portant sur le trouble bipolaire chevauchent l'indication existante et ne constituent pas une nouvelle preuve de repositionnement.
 
@@ -113,7 +112,6 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM.
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank).
-- Si une réévaluation est souhaitée, privilégier le trouble affectif majeur (dépression résistante, en appoint), le mieux documenté, en vérifiant la disponibilité des formulations et en analysant les 362 interactions médicamenteuses.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

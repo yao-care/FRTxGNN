@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 203
-evidence_level: L1
-indication_count: 4
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "CYCLOPHOSPHAMIDE"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-description: "Cyclophosphamide : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+description: "Cyclophosphamide : nouvelle indication prédite, Vertebral anomalies and variable endocrine and T-cell dysfunction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Niveau de preuve: **L1** | Indications prédites: **4**
 
 </div>
 
-## Cyclophosphamide: Leucémie myéloïde (myeloid leukemia)
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le cyclophosphamide est un agent alkylant utilisé à l'origine dans le traitement de plusieurs cancers : lymphomes (dont le mycosis fongoïde), myélome multiple, neuroblastome, cancer du sein et rétinoblastome.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myéloïde**,
-avec **35 essais cliniques** et **20 publications** soutenant actuellement cette direction.
 
 ---
 
@@ -49,9 +47,9 @@ avec **35 essais cliniques** et **20 publications** soutenant actuellement cette
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
-| Score de Prédiction TxGNN | 0.9947 |
-| Niveau de Preuve | L1 |
+| Nouvelle Indication Prédite | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| Score de Prédiction TxGNN | 0.9938 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |

@@ -4,17 +4,17 @@ title: Calcifediol
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 129
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 monitor_inn: "calcifediol"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
-last_modified_at: 2026-10-28
-description: "Calcifediol : nouvelle indication prédite, Carence en vitamine D obsolète (obsolete vitamin D deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["renal tubular acidosis"]
+last_modified_at: 2026-11-03
+description: "Calcifediol : nouvelle indication prédite, Renal tubular acidosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **2** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 </div>
 
-## Calcifédiol : précurseur circulant de la vitamine D → carence en vitamine D obsolète (obsolete vitamin D deficiency)
+## Calcifediol: Renal tubular acidosis
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
 Le calcifédiol (25-hydroxyvitamine D3) est le précurseur circulant direct du calcitriol et le biomarqueur de référence du statut en vitamine D.
-Le modèle TxGNN le prédit comme potentiellement efficace pour la **carence en vitamine D obsolète (obsolete vitamin D deficiency)**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette prédiction dans les données compilées pour ce rapport.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Carence en vitamine D obsolète (obsolete vitamin D deficiency) |
-| Score de Prédiction TxGNN | 0,9999 |
+| Nouvelle Indication Prédite | Renal tubular acidosis |
+| Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
@@ -58,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le calcifédiol est la forme 25-hydroxylée de la vitamine D3, l'intermédiaire circulant qui est ensuite converti en calcitriol, la forme active. C'est aussi le marqueur biologique standard utilisé pour évaluer le statut en vitamine D.
 
-Cette position dans la voie métabolique rend le lien biologique avec une carence en vitamine D très plausible. Le score élevé du modèle (0,9999) reflète probablement la proximité avec les affections osseuses et minérales proches (rachitisme, ostéomalacie), mais il s'agit uniquement d'une prédiction.
+Cette position dans la voie métabolique rend le lien biologique avec une carence en vitamine D très plausible.
 
 Une réserve importante : le terme de maladie est signalé comme obsolète dans l'ontologie. Il faudrait le rattacher au terme actuel de carence en vitamine D avant toute évaluation approfondie.
 

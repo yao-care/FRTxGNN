@@ -4,17 +4,17 @@ title: Secnidazole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 695
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-28
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "SECNIDAZOLE"
-predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "trichomonal vulvovaginitis", "leukoplakia of vagina", "vulvovaginal candidiasis"]
+predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "leukoplakia of vagina", "vulvovaginal candidiasis"]
 description: "Secnidazole : nouvelle indication prédite, Vaginite atrophique postménopausique (postmenopausal atrophic vaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
 # Secnidazole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---

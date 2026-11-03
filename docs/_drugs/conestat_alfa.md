@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Conestat Alfa
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 197
-evidence_level: L1
-indication_count: 9
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "CONESTAT ALFA"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
-description: "Conestat Alfa : nouvelle indication prédite, C1 inhibitor deficiency (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
+description: "Conestat Alfa : nouvelle indication prédite, Serpinopathy with toxic serpin polymerization (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Conestat Alfa
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Niveau de preuve: **L1** | Indications prédites: **9**
 
 </div>
 
-## Conestat Alfa: C1 inhibitor deficiency
+## Conestat Alfa: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -49,9 +49,9 @@ Il faut toutefois noter que cette prédiction recoupe en pratique l'indication d
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | C1 inhibitor deficiency |
+| Nouvelle Indication Prédite | Serpinopathy with toxic serpin polymerization |
 | Score de Prédiction TxGNN | 1.0000 |
-| Niveau de Preuve | L1 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
