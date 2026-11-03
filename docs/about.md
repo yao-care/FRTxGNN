@@ -86,18 +86,8 @@ les maladies rares. »
 
 ## Sources de données
 
-<table class="comparison-table">
-<thead>
-<tr><th>Type</th><th>Source</th><th>Description</th></tr>
-</thead>
-<tbody>
-<tr><td>Prédiction par IA</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Réseau de neurones sur graphes de Harvard entraîné sur un graphe de connaissances</td></tr>
-<tr><td>Essais cliniques</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Registre mondial des essais cliniques</td></tr>
-<tr><td>Littérature</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Base de données de la littérature biomédicale</td></tr>
-<tr><td>Informations sur les médicaments</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Base de données des médicaments et de leurs cibles</td></tr>
-<tr><td>Données d'enregistrement</td><td><a href="https://ansm.sante.fr/">ANSM</a></td><td>Données d'autorisation des médicaments pour la France</td></tr>
-</tbody>
-</table>
+Les sources des prédictions, des preuves et des données sur les médicaments, avec leurs licences et
+leur fréquence de mise à jour, sont réunies sur la page <a href="{{ '/sources/' | relative_url }}">Sources de données</a>.
 
 ---
 
