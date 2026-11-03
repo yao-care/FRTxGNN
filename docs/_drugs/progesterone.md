@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 634
-evidence_level: L2
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone : nouvelle indication prédite, Breast fibrocystic disease (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Progesterone : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,60 +33,59 @@ Niveau de preuve: **L2** | Indications prédites: **6**
 
 </div>
 
-## Progesterone: Breast fibrocystic disease
+## Progesterone: Maladie fibrokystique du sein (breast fibrocystic disease)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La progestérone est une hormone stéroïdienne naturelle, utilisée à l'origine dans l'endométriose, le cancer de l'endomètre, l'ostéoporose post-ménopausique et la vaginite atrophique post-ménopausique.
+La progestérone est une hormone stéroïdienne progestative naturelle, disponible en France sous de nombreuses formes (capsules, ovules, gel, solution injectable).
+Le modèle TxGNN prédit qu'elle pourrait être utile pour la **maladie fibrokystique du sein (breast fibrocystic disease)**,
+mais **aucun essai clinique** n'est enregistré et les **20 publications** recensées sont surtout des revues, des études physiopathologiques et des données observationnelles, pour la plupart anciennes.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Breast fibrocystic disease |
+| Nouvelle Indication Prédite | Maladie fibrokystique du sein (breast fibrocystic disease) |
 | Score de Prédiction TxGNN | 0.9998 |
-| Niveau de Preuve | L2 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
 | Nombre d'AMM | 18 (valides : 18) |
-| Décision Recommandée | Proceed with Guardrails |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la progestérone est l'équivalent physiologique de l'œstrogène dans le cycle menstruel. Elle contrôle les modifications cycliques de l'endomètre (prolifération et décidualisation) et participe à la régulation de la sécrétion de LH et de FSH au niveau hypothalamique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la progestérone est l'hormone naturelle qui, avec les estrogènes, régule la croissance et la maturation de la glande mammaire au cours du cycle menstruel.
 
-Dans l'aménorrhée secondaire avec œstrogènes suffisants, un test de retrait de la progestérone provoque la desquamation de l'endomètre. Il est utilisé à des fins diagnostiques et thérapeutiques (revue sur la progestérone micronisée orale en endocrinologie, PMID 38652231). Dans les aménorrhées hypo-œstrogéniques (sportives, anorexie mentale), un progestatif cyclique est généralement associé à un œstrogène pour protéger l'endomètre.
+L'hypothèse avancée dans la littérature est celle d'un déficit relatif en progestérone en phase lutéale (rapport estradiol/progestérone élevé), qui favoriserait la prolifération du tissu conjonctif et de l'épithélium mammaire ainsi que la mastalgie (PMID 31168213, 3511705). Cette hypothèse est plausible sur le plan biologique.
 
-Il s'agit d'un usage clinique déjà établi plutôt que d'un mécanisme nouveau : le score TxGNN élevé est cohérent avec la pharmacologie connue. Les indications d'origine (endométriose, pathologies de l'endomètre) relèvent du même axe hormonal.
+Cependant, les données sont de niveau hypothétique, épidémiologique et souvent anciennes. D'autres travaux soulèvent aussi des interrogations sur l'effet des progestatifs sur le tissu mammaire : le sens net de l'effet reste incertain.
+
+**Niveau de preuve :** malgré la présence de publications consacrées à cette maladie, aucune n'évalue la progestérone comme traitement ; l'étude contrôlée randomisée retrouvée concerne la metformine. Aucune étude citée ne teste donc directement un bénéfice de la progestérone, et le niveau est fixé à L5.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Terminé | 121 | Œstrogène transdermique ou oral vs absence d'œstrogène chez des athlètes adolescentes aménorrhéiques : densité osseuse et fonction endocrine. Attribution à la progestérone indirecte |
-| [NCT00088153](https://clinicaltrials.gov/study/NCT00088153) | Phase 2/3 | Terminé | 110 | Effets de l'anorexie mentale sur le pic de masse osseuse et traitement hormonal substitutif chez l'adolescente. Critère principal : os, pas la résolution de l'aménorrhée |
-| [NCT03740204](https://clinicaltrials.gov/study/NCT03740204) | Phase 2 | Actif, hors recrutement | 120 | Estradiol transdermique avec progestérone cyclique vs placebo : flexibilité cognitive et récompense dans les troubles alimentaires. Lien tangentiel avec l'aménorrhée |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | Terminé | 29 | Athérosclérose et inflammation chez des jeunes femmes avec aménorrhée hypothalamique fonctionnelle. Critères cardiovasculaires et immunitaires |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune des publications retenues n'est un essai randomisé ; il s'agit surtout de revues et de documents descriptifs. Les 10 plus pertinentes sont listées.
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [38652231](https://pubmed.ncbi.nlm.nih.gov/38652231/) | 2024 | Revue | Rev Endocr Metab Disord | Usage diagnostique et thérapeutique de la progestérone micronisée orale en endocrinologie |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Revue | Rev Endocr Metab Disord | Bases endocriniennes des traitements hormonaux de l'endométriose (dépendance aux œstrogènes, résistance à la progestérone) |
-| [33716979](https://pubmed.ncbi.nlm.nih.gov/33716979/) | 2021 | Revue | Front Endocrinol | Étiologie, symptômes et traitements de l'insuffisance ovarienne prématurée |
-| [32233689](https://pubmed.ncbi.nlm.nih.gov/32233689/) | 2020 | Revue | Climacteric | Prise en charge des saignements vaginaux chez la femme ménopausée |
-| [36653588](https://pubmed.ncbi.nlm.nih.gov/36653588/) | 2023 | Revue | Reprod Sci | Méthodes de réparation et de régénération de l'endomètre lésé (synéchies, aménorrhée) |
-| [18756412](https://pubmed.ncbi.nlm.nih.gov/18756412/) | 2008 | Revue | Semin Reprod Med | Adhérences intra-utérines (syndrome d'Asherman), de l'aménorrhée à des règles normales |
-| [8629565](https://pubmed.ncbi.nlm.nih.gov/8629565/) | 1996 | Revue | Am Fam Physician | Démarche d'évaluation d'une aménorrhée |
-| [22283375](https://pubmed.ncbi.nlm.nih.gov/22283375/) | 2012 | Non classé | Gynecol Endocrinol | Contrôle neuroendocrinien de l'ovulation ; distinction entre atteinte hypothalamique et ovarienne |
-| [28257537](https://pubmed.ncbi.nlm.nih.gov/28257537/) | 2017 | Non classé | South Med J | Insuffisance ovarienne primitive et traitement hormonal substitutif |
-| [24157186](https://pubmed.ncbi.nlm.nih.gov/24157186/) | 2013 | Non classé | Presse Med | Insuffisance ovarienne prématurée : diagnostic et prise en charge |
+| [31168213](https://pubmed.ncbi.nlm.nih.gov/31168213/) | 2018 | Étude cas-témoins (classée « revue ») | Acta Clin Croat | Rôle du rapport estradiol/progestérone en phase lutéale tardive chez 50 femmes avec maladie fibrokystique et 40 témoins |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Revue | Am J Obstet Gynecol | Physiopathologie liée à une prédominance estrogénique et un déficit en progestérone ; risque de cancer du sein multiplié par 2 à 4 |
+| [6481706](https://pubmed.ncbi.nlm.nih.gov/6481706/) | 1984 | Revue | J Reprod Med | Relation entre estrogènes, progestérone et pathologie mammaire |
+| [1936311](https://pubmed.ncbi.nlm.nih.gov/1936311/) | 1991 | Revue | Fertil Steril | Les contraceptifs oraux anciens protégeaient contre la plupart des maladies bénignes du sein ; incertitude pour les faibles doses de progestatif |
+| [3902125](https://pubmed.ncbi.nlm.nih.gov/3902125/) | 1985 | Revue | Breast Cancer Res Treat | Épidémiologie et endocrinologie des maladies bénignes du sein |
+| [41438397](https://pubmed.ncbi.nlm.nih.gov/41438397/) | 2025 | Transversale | Int J Reprod Biomed | Association entre maladie fibrokystique du sein et phénotypes du syndrome des ovaires polykystiques |
+| [34537861](https://pubmed.ncbi.nlm.nih.gov/34537861/) | 2022 | Revue | Virchows Arch | Lésions apocrines du sein, fréquentes et le plus souvent bénignes |
+| [7788004](https://pubmed.ncbi.nlm.nih.gov/7788004/) | 1995 | Cohorte | Eur J Endocrinol | Hormones thyroïdiennes dans le sérum et le liquide kystique chez des femmes atteintes |
+| [28598826](https://pubmed.ncbi.nlm.nih.gov/28598826/) | 2017 | Essai randomisé en double aveugle | Breast Dis | Effet de la metformine (et non de la progestérone) sur les modifications fibrokystiques |
+| [22103710](https://pubmed.ncbi.nlm.nih.gov/22103710/) | 2012 | Observationnelle | Gynecol Endocrinol | Taux de maladie fibrokystique selon les phénotypes du syndrome des ovaires polykystiques |
 
 ## Informations de Marché en France
+
+La progestérone est commercialisée en France. Les données compilées recensent 18 AMM valides, toutes pour des spécialités à base de progestérone seule. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -96,40 +95,23 @@ Aucune des publications retenues n'est un essai randomisé ; il s'agit surtout d
 | 65015968 | CRINONE 80 mg/g, gel vaginal | Gel | Non renseignée |
 | 62684797 | PROGIRON 25 mg, solution injectable | Solution injectable | Non renseignée |
 
-
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : hypertension, insuffisance hépatique et maladies hépatiques, maladies de la vésicule biliaire, maladie rénale, épilepsie, porphyries, diabète et hyperglycémie, acidocétose diabétique, asthme, lupus érythémateux systémique, hypothyroïdie, hypertriglycéridémie, troubles anxieux et dysthymiques, abus de substances, ostéoporose.
-- **Interactions médicamenteuses** : 163 interactions recensées. Les exemples affichés sont tous de niveau modéré, principalement avec des antidiabétiques (acarbose, metformine, pioglitazone, glimepiride, répaglinide, insulines, inhibiteurs du SGLT2, inhibiteurs de la DPP-4, analogues du GLP-1) ainsi qu'avec l'aprépitant et la clarithromycine.
-
-Les mises en garde et contre-indications issues de la notice ANSM ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité officielles.
+- **Contre-indications issues des relations de la base de données (non issues d'un texte de notice)** : hypertension, insuffisance ou maladie du foie, épilepsie, porphyries, maladie rénale, maladie de la vésicule biliaire, diabète et hyperglycémie, hypertriglycéridémie, asthme, hypothyroïdie, lupus érythémateux systémique, ostéoporose post-ménopausique, abus de substances. Ces éléments sont à vérifier dans la notice.
+- **Interactions médicamenteuses** : 163 interactions recensées, au moins celles de niveau modéré avec les antidiabétiques (acarbose, metformine, pioglitazone, glimépiride, répaglinide, inhibiteurs du SGLT2, analogues du GLP-1, insulines), ainsi qu'avec l'aprépitant et la clarithromycine. Une surveillance de la glycémie est à prévoir en cas d'association.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- L'usage de la progestérone dans l'aménorrhée (test de retrait, association œstroprogestative cyclique) est cohérent avec la pharmacologie et la pratique établies. Toutefois, les essais retenus portent surtout sur les œstrogènes et sur des critères osseux ou cognitifs, sans essai évaluant directement la progestérone seule.
-- Les données de sécurité de la notice ne sont pas disponibles, ce qui constitue un point bloquant avant tout passage à l'étape de criblage de sécurité.
+Le score du modèle est très élevé (0,9998), mais aucun essai clinique n'existe et aucune publication n'évalue la progestérone dans cette maladie. Le sens de l'effet sur le tissu mammaire reste incertain. Le niveau de preuve est L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indications autorisées).
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Identifier ou conduire un essai ciblant directement la progestérone dans l'aménorrhée, avec critère principal de reprise des règles.
-- Évaluer la compatibilité des voies d'administration et la situation réglementaire, les 18 AMM françaises étant valides sur 18.
-- Définir un plan de surveillance pour les populations à comorbidités (hypertension, diabète, atteinte hépatique, épilepsie).
-
-## Autres Indications Prédites (Pour Information)
-
-| Indication prédite | Niveau de preuve | Recommandation | Remarque |
-|------|------|------|------|
-| Maladie fibrokystique du sein | L4 | Question de recherche | Hypothèse de déficit relatif en progestérone ; données anciennes, effet net incertain |
-| Dysplasie mammaire bénigne | L4 | Question de recherche | Même entité que ci-dessus ; preuves indirectes, dont des études vétérinaires |
-| Endométriose du col utérin | L4 | Question de recherche | Extrapolation plausible depuis l'endométriose ; peu de données directes |
-| Endométriose de la cloison recto-vaginale et du vagin | L4 | Question de recherche | Une seule étude immunohistochimique |
-| Endométriose sur cicatrice cutanée | L4 | Question de recherche | Un seul cas clinique ; la chirurgie reste le traitement de première ligne |
-| Adénose à canaux obstrués du sein | L5 | Hold | Aucune littérature ni essai |
-| Adénose apocrine du sein | L5 | Hold | Lésions ER/PR faibles ou négatives, ce qui affaiblit la justification |
+- Revue systématique de la littérature sur les progestatifs dans la mastopathie bénigne et la mastalgie
+- Données détaillées sur le mécanisme d'action
+- Récupération des mises en garde et contre-indications des notices ANSM
+- Si une étude est envisagée, évaluation de la voie d'administration (topique, orale ou vaginale) et de la sécurité mammaire
 
 ## Avertissement
 

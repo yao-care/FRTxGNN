@@ -38,8 +38,9 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 ## Résumé en Une Phrase
 
-L'érythromycine est un antibiotique de la famille des macrolides, initialement utilisé contre de nombreuses infections bactériennes (acné, otite moyenne infectieuse, pneumonies, infections à streptocoques et à staphylocoques, gonorrhée, coqueluche, urétrite, conjonctivite, etc.).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **kératoconjonctivite épithéliale ponctuée**, mais cette prédiction repose sur **aucun essai clinique** et **une seule publication** (une revue pédiatrique sur la blépharokératoconjonctivite chronique).
+L'érythromycine est un antibiotique de la famille des macrolides, à activité antibactérienne et anti-inflammatoire.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis)**,
+mais seule **1 publication** (une revue pédiatrique) est associée à cette direction, et **aucun essai clinique** n'est enregistré.
 
 ## Aperçu Rapide
 
@@ -55,11 +56,11 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **kératoconjon
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des connaissances générales, l'érythromycine est un macrolide qui inhibe la synthèse protéique bactérienne en se fixant à la sous-unité ribosomique 50S. Elle possède aussi une activité anti-inflammatoire reconnue pour cette classe.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'érythromycine appartient à la classe des macrolides, qui inhibent la synthèse protéique bactérienne et possèdent également des effets anti-inflammatoires.
 
-La kératoconjonctivite épithéliale ponctuée accompagne souvent la blépharokératoconjonctivite chronique, pour laquelle les macrolides sont employés afin d'agir sur le bord palpébral et la surface oculaire (effets antibactérien et anti-inflammatoire). L'érythromycine étant déjà associée à la conjonctivite, le lien est plausible.
+La kératoconjonctivite épithéliale ponctuée accompagne souvent la blépharokératoconjonctivite chronique, pour laquelle les macrolides sont utilisés afin d'agir sur le bord palpébral et la surface oculaire. Le lien est plausible sur le plan pharmacologique.
 
-Ce lien reste toutefois théorique : il ne s'appuie que sur un seul article de prise en charge pédiatrique et sur aucune donnée d'essai. Le score élevé du modèle est une simple prédiction.
+Il reste cependant fragile : il repose sur un seul article de prise en charge pédiatrique, sans données d'essai. Le score élevé du modèle est une prédiction et non une preuve. Le niveau de preuve est donc L5, puisqu'aucune étude citée n'évalue directement cette maladie avec l'érythromycine.
 
 ## Preuves d'Essais Cliniques
 
@@ -73,7 +74,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 8 AMM recensées sont toutes annulées ; le texte des indications approuvées n'est pas renseigné.
+L'érythromycine est commercialisée en France. Les 8 AMM recensées sont valides.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -83,30 +84,25 @@ Les 8 AMM recensées sont toutes annulées ; le texte des indications approuvée
 | 65256289 | ERYTHROGEL 4 %, gel pour application cutanée | Gel pour application | Non renseignée |
 | 61096983 | ERYFLUID, lotion | Solution | Non renseignée |
 
-Trois autres AMM annulées existent (ERYTHROMYCINE BAILLEUL 4 %, ERY ENFANTS 250 mg, ERYLIK), non détaillées ici.
-
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances (hors notice)** : syndrome du QT long (y compris familial) et torsades de pointes ; porphyries ; maladies rénales, hépatiques, de la vésicule biliaire et hématologiques ; colite à *Clostridium difficile* ; entérocolite nécrosante périnatale ; dermatite et dermatite exfoliative ; myasthénie et maladies de la jonction neuromusculaire ; anémie par carence en acide folique ; troubles de l'audition.
-- **Interactions médicamenteuses** : 755 interactions recensées. Parmi les principales, deux sont de niveau **majeur** : la **clarithromycine** et le **lopéramide**. De nombreuses interactions de niveau modéré concernent notamment les corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, budésonide, triamcinolone), la famotidine, la cimétidine, la pioglitazone, l'alosétron, l'aprépitant, le chlorpropamide et plusieurs laxatifs.
+- **Interactions médicamenteuses** : 755 interactions sont recensées. Parmi celles de niveau majeur figurent le **lopéramide** et la **clarithromycine**. De nombreuses interactions de niveau modéré concernent notamment les corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, triamcinolone, budésonide), la famotidine, la cimétidine, la pioglitazone, l'alosétron et l'aprépitant.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles ; veuillez consulter la notice pour ces informations.
+Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), avec une seule revue pédiatrique et aucun essai clinique.
-- Les 8 AMM françaises sur 8 sont valides (médicament commercialisé), mais les données de sécurité issues de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le score du modèle (0,9989) et sur une seule revue pédiatrique, sans essai clinique ni étude évaluant directement l'érythromycine dans cette maladie. Le niveau de preuve est L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice (site de l'ANSM) pour le criblage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Rechercher des études cliniques ou observationnelles de l'érythromycine (notamment ophtalmique) dans la kératoconjonctivite épithéliale ponctuée
-- Clarifier la disponibilité d'une formulation ophtalmique, les AMM actuelles étant toutes annulées
+- Études cliniques ou observationnelles évaluant l'érythromycine dans la kératoconjonctivite épithéliale ponctuée
+- Données sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice ANSM
+- Évaluation de la compatibilité des voies d'administration (ophtalmique) avec les formes disponibles
 
-**Autres indications prédites (pour information) :** la conjonctivite aiguë contagieuse (L4, Hold) est surtout une extension d'un usage existant, sans donnée directe ; la kératite d'exposition (L4, Hold) n'a qu'un soutien indirect ; la lymphogranulomatose vénérienne (L4) et la gingivite ulcéro-nécrotique (L4) restent au stade de question de recherche, avec des données surtout indirectes ou historiques.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

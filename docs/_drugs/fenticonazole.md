@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
-description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à Trichomonas (trichomonal vulvovaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à trichomonas (trichomonal vulvovaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Fenticonazole
@@ -33,59 +33,49 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Fenticonazole: Vulvovaginite à Trichomonas (trichomonal vulvovaginitis)
+## Fenticonazole: Vulvovaginite à trichomonas (trichomonal vulvovaginitis)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Le fenticonazole est un antifongique imidazolé à usage local, initialement utilisé pour le traitement de la candidose vulvovaginale.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **vulvovaginite à Trichomonas**, mais aucun essai clinique ni aucune publication ne soutient directement cette indication : la prédiction repose uniquement sur le modèle.
+Le fenticonazole est un antifongique de la famille des imidazolés, utilisé en application locale (voie vaginale et crème).
+Le modèle TxGNN prédit qu'il pourrait être utile dans la **vulvovaginite à trichomonas (trichomonal vulvovaginitis)**.
+Cette piste ne repose actuellement sur **aucun essai clinique enregistré** et sur **2 publications**, dont aucune ne fournit de données d'efficacité clairement spécifiques à *Trichomonas vaginalis*.
 
----
-
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Vulvovaginite à Trichomonas (trichomonal vulvovaginitis) |
-| Score de Prédiction TxGNN | 0.9950 |
-| Niveau de Preuve | L5 |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Vulvovaginite à trichomonas (trichomonal vulvovaginitis) |
+| Score de prédiction TxGNN | 0.9950 |
+| Niveau de preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
----
+## Pourquoi cette prédiction est-elle plus fragile qu'il n'y paraît ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+D'après la littérature disponible, le fenticonazole agit de trois façons : il inhibe la sécrétion de protéase acide par *Candida albicans*, il endommage la membrane cytoplasmique et il bloque les cytochrome-oxydases et les peroxydases. Il possède aussi une action antibactérienne décrite. Les données détaillées sur son mécanisme d'action ne sont pas renseignées dans les données compilées pour ce rapport.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de référence. D'après la littérature disponible (revue de 2008), le fenticonazole est un dérivé imidazolé à large spectre antimycosique. Il agirait de trois façons : inhibition de la sécrétion de protéase acide par *Candida albicans*, atteinte de la membrane cytoplasmique, et blocage des cytochrome-oxydases et peroxydases. Une activité antibactérienne, notamment sur les bactéries à Gram positif, a également été décrite.
+*Trichomonas vaginalis* est un protozoaire. Son traitement de référence repose sur les 5-nitroimidazoles (métronidazole, tinidazole), dont l'activité dépend de la réduction du groupe nitro. Le fenticonazole n'a pas ce groupe. Une activité antitrichomonas in vitro a été rapportée pour certains imidazolés topiques, mais le lien mécanistique reste indirect.
 
-Le lien avec la trichomonase est toutefois indirect. *Trichomonas vaginalis* est un protozoaire, et son traitement standard repose sur les 5-nitroimidazoles (métronidazole, tinidazole), dont l'activité dépend de la réduction du groupement nitro, absent du fenticonazole. Une activité antitrichomonas in vitro a été rapportée pour certains imidazolés topiques, mais elle n'est pas documentée ici pour le fenticonazole.
+Le score élevé du modèle (0,9950) est donc une prédiction informatique. Il ne remplace pas une démonstration clinique ou mécanistique.
 
-Les deux publications associées sont une revue générale et un essai ouvert sur la vulvovaginite (population surtout candidosique, 101 patientes, schéma de 1 g en 2 jours incluant des infections mixtes avec *T. vaginalis*). Aucune ne fournit de données d'efficacité clairement spécifiques à *Trichomonas*. Le score élevé du modèle (0,995) reste donc une simple prédiction.
+## Preuves d'essais cliniques
 
----
+Aucun essai clinique associé enregistré actuellement.
 
-## Preuves d'Essais Cliniques
+## Preuves de la littérature
 
-Aucun essai clinique associé n'est enregistré actuellement.
-
----
-
-## Preuves de la Littérature
-
-Publications associées à l'indication prédite principale (vulvovaginite à Trichomonas) :
-
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [15216954](https://pubmed.ncbi.nlm.nih.gov/15216954/) | 2004 | Essai clinique ouvert (pilote) | J Chemother | Ovules de fenticonazole 1 g aux jours 1 et 3 chez 101 femmes atteintes de vulvovaginite à infections simples ou mixtes (*Candida*, *Trichomonas*, *Gardnerella*) ; population principalement candidosique |
-| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Revue | Drugs | Revue du rôle du fenticonazole topique en dermatologie et gynécologie : large spectre antimycosique, action antibactérienne |
+| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Revue | Drugs | Revue du rôle du fenticonazole topique en dermatologie et en gynécologie : large spectre antimycosique, mécanisme d'action en trois volets et action antibactérienne. Pas de données d'efficacité spécifiques à *Trichomonas* dans le résumé disponible. |
+| [15216954](https://pubmed.ncbi.nlm.nih.gov/15216954/) | 2004 | Essai clinique ouvert, multicentrique (pilote) | Journal of Chemotherapy | 101 femmes présentant des infections vaginales simples ou mixtes à *Candida albicans*, *Trichomonas vaginalis* et/ou *Gardnerella vaginalis*. Ovules de 1 g, à J1 et J3. La population est majoritairement atteinte de candidose, et les résultats propres à *Trichomonas* ne sont pas isolés dans les données disponibles. |
 
+## Informations de marché en France
 
----
-
-## Informations de Marché en France
+Le fenticonazole est commercialisé en France. Les 3 AMM recensées sont valides. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -93,29 +83,23 @@ Publications associées à l'indication prédite principale (vulvovaginite à Tr
 | 69960586 | LOMEXIN 600 mg, capsule molle vaginale | Capsule molle | Non renseignée (AMM active) |
 | 63987103 | LOMEXIN 2 %, crème | Crème | Non renseignée (AMM active) |
 
----
-
-## Considérations de Sécurité
+## Considérations de sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
 
-À titre indicatif, une étude pharmacocinétique de 1991 (PMID [2019858](https://pubmed.ncbi.nlm.nih.gov/2019858/)) rapporte une absorption systémique minimale après administration vaginale de 1 g. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées.
-
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la vulvovaginite à Trichomonas repose uniquement sur le modèle (niveau L4) : le mécanisme est indirect, il n'existe aucun essai enregistré et aucune donnée d'efficacité spécifique à *Trichomonas*. Par ailleurs, le médicament est commercialisé en France, avec 3 AMM valides sur 3.
+Aucune étude citée n'évalue directement l'efficacité du fenticonazole contre *Trichomonas vaginalis*. Le mécanisme est indirect, et le traitement de référence repose sur une classe différente (les 5-nitroimidazoles). Le niveau de preuve est donc L5, et le score du modèle ne suffit pas pour avancer.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de sécurité de la notice ANSM (mises en garde, contre-indications) : lacune bloquante pour tout passage à l'étape de criblage de sécurité
-- Données détaillées sur le mécanisme d'action (DrugBank)
-- Données in vitro ou cliniques spécifiques à *Trichomonas vaginalis*, comparées au métronidazole
-- Pour la vulvovaginite mixte (bactérienne + fongique), des essais cliniques contrôlés confirmant l'activité antibactérienne observée in vitro
-- Clarification de la situation réglementaire (AMM annulées) et des voies d'administration disponibles
+- Des données in vitro de sensibilité de *Trichomonas vaginalis* au fenticonazole.
+- Des données cliniques isolant les patientes atteintes de trichomonase, par exemple une analyse en sous-groupe de l'essai pilote existant ou un nouvel essai comparatif avec un 5-nitroimidazole.
+- Les données de sécurité issues de la notice (mises en garde, contre-indications, interactions).
+- Des données détaillées sur le mécanisme d'action.
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

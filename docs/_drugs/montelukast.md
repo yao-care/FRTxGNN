@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Preuves élevées (L1-L2)
+parent: Preuves modérées (L3-L4)
 nav_order: 514
-evidence_level: L2
+evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **2** 
+Niveau de preuve: **L3** | Indications prédites: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,8 +38,9 @@ Niveau de preuve: **L2** | Indications prédites: **2**
 
 ## Résumé en Une Phrase
 
-Montelukast est un antagoniste des récepteurs des leucotriènes, initialement utilisé pour le traitement de la rhinite allergique et de l'asthme.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, avec **16 essais cliniques** et **20 publications** compilés pour cette direction. Ces données portent toutefois surtout sur la bronchiolite (virale, RSV, obliterante), et non sur la bronchite chronique : la correspondance avec le libellé « bronchitis » reste indirecte.
+Le montelukast est un antagoniste des récepteurs CysLT1 des cystéinyl-leucotriènes, médiateurs de l'inflammation des voies respiratoires.
+Le modèle TxGNN prédit qu'il pourrait être utile dans la **bronchite (bronchitis)**.
+Les données compilées pour ce rapport comptent **17 essais cliniques** et **20 publications**, mais la plupart portent sur des maladies voisines (bronchiolite, bronchiolite oblitérante) et seuls quelques travaux concernent directement la bronchite.
 
 ---
 
@@ -50,7 +51,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, av
 | Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Bronchite (bronchitis) |
 | Score de Prédiction TxGNN | 0.9995 |
-| Niveau de Preuve | L2 (selon l'évaluation compilée pour cette indication ; essai de phase 3 NCT00076973 sur la bronchiolite à RSV, sans résultats détaillés) |
+| Niveau de Preuve | L3 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
@@ -59,11 +60,11 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, av
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, montelukast est un antagoniste sélectif du récepteur CysLT1 des leucotriènes cystéinyliques. Son efficacité dans l'asthme et la rhinite allergique est établie, et mécanistiquement il pourrait être applicable à d'autres pathologies inflammatoires des voies respiratoires.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche du médicament. D'après les informations pharmacologiques connues, le montelukast bloque le récepteur CysLT1. Cela peut réduire l'inflammation des voies aériennes, la sécrétion de mucus et l'hyperréactivité bronchique.
 
-Le blocage du récepteur CysLT1 peut réduire l'inflammation des voies aériennes, la sécrétion de mucus et l'hyperréactivité bronchique. Ces mécanismes sont plausibles dans la bronchiolite virale du nourrisson, le sifflement post-bronchiolite et la bronchiolite oblitérante après greffe de cellules souches ou de poumon. Les essais compilés concernent ces situations, et non la bronchite chronique.
+Ces mécanismes peuvent concerner certaines formes d'atteinte bronchique. Ils sont notamment plausibles dans la bronchiolite virale du nourrisson et la respiration sifflante qui la suit. Dans la bronchiolite oblitérante après greffe, l'inflammation et la fibrose liées aux leucotriènes constituent aussi une cible plausible.
 
-La prédiction doit donc être lue avec prudence : l'association entre l'étiquette « bronchitis » du modèle et les preuves disponibles est indirecte. Les preuves les plus proches de la bronchite sont une étude sur la bronchite eosinophilique non asthmatique et une étude pédiatrique sur la bronchite obstructive récurrente.
+Il faut toutefois rester prudent. La plupart des essais disponibles portent sur la bronchiolite et la bronchiolite oblitérante, non sur la bronchite chronique. Le lien avec l'étiquette « bronchite » du modèle est donc indirect. Seuls deux essais de phase 4 portent directement sur des bronchites : l'une éosinophilique non asthmatique, l'autre récidivante chez l'enfant.
 
 ---
 
@@ -71,16 +72,16 @@ La prédiction doit donc être lue avec prudence : l'association entre l'étique
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00863317](https://clinicaltrials.gov/study/NCT00863317) | NA | Terminé | 141 | Essai randomisé en double aveugle contre placebo : montelukast quotidien dans la bronchiolite virale du nourrisson (durée de la maladie aiguë) |
-| [NCT01370187](https://clinicaltrials.gov/study/NCT01370187) | NA | Terminé | 146 | Essai randomisé : montelukast dans la bronchiolite aiguë et le sifflement post-bronchiolite, nourrissons de 3 à 12 mois |
-| [NCT00524693](https://clinicaltrials.gov/study/NCT00524693) | NA | Terminé | 51 | Essai en double aveugle contre placebo dans la bronchiolite aiguë à RSV ; évolution clinique et profil de cytokines |
-| [NCT00656058](https://clinicaltrials.gov/study/NCT00656058) | Phase 2 | Terminé | 25 | Étude à un seul bras : montelukast dans la bronchiolite oblitérante après greffe de cellules souches |
-| [NCT01307462](https://clinicaltrials.gov/study/NCT01307462) | Phase 2 | Terminé | 36 | Association fluticasone, azithromycine et montelukast dans la bronchiolite oblitérante post-greffe ; contribution propre du montelukast non isolable |
-| [NCT01211509](https://clinicaltrials.gov/study/NCT01211509) | Phase 4 | Terminé | 30 | Essai randomisé en double aveugle contre placebo : montelukast dans le syndrome de bronchiolite oblitérante après greffe pulmonaire |
-| [NCT00076973](https://clinicaltrials.gov/study/NCT00076973) | Phase 3 | Terminé | 1125 | Essai randomisé en double aveugle contre placebo : deux doses de MK0476 (montelukast) sur les symptômes respiratoires de la bronchiolite à RSV, enfants de 3 à 24 mois |
-| [NCT01121016](https://clinicaltrials.gov/study/NCT01121016) | Phase 4 | Inconnu | 63 | Montelukast ajouté au budésonide inhalé dans la bronchite éosinophilique non asthmatique (toux) |
-| [NCT04613180](https://clinicaltrials.gov/study/NCT04613180) | Phase 4 | Inconnu | 100 | Efficacité du montelukast dans la bronchite obstructive récurrente de l'enfant |
-| [NCT00394160](https://clinicaltrials.gov/study/NCT00394160) | Phase 2 | Terminé | 12 | Étude de sécurité, tolérance et pharmacocinétique, nourrissons de 1 à 3 mois atteints de bronchiolite |
+| [NCT01121016](https://clinicaltrials.gov/study/NCT01121016) | Phase 4 | Statut inconnu | 63 | Essai randomisé en double aveugle contre placebo : montelukast ajouté au budésonide inhalé dans la bronchite éosinophilique non asthmatique (critère principal : toux). Résultats non précisés dans les données. |
+| [NCT04613180](https://clinicaltrials.gov/study/NCT04613180) | Phase 4 | Statut inconnu | 100 | Efficacité du montelukast dans le traitement et la prévention de la bronchite récidivante chez l'enfant de 1 à 7 ans. Résultats non précisés dans les données. |
+| [NCT00076973](https://clinicaltrials.gov/study/NCT00076973) | Phase 3 | Terminé | 1125 | Deux doses de montelukast contre placebo sur les symptômes respiratoires de la bronchiolite à VRS chez l'enfant de 3 à 24 mois. Résultats non précisés dans les données. |
+| [NCT00863317](https://clinicaltrials.gov/study/NCT00863317) | NA | Terminé | 141 | Essai randomisé en double aveugle : montelukast quotidien sur la durée de la bronchiolite virale du nourrisson. |
+| [NCT01370187](https://clinicaltrials.gov/study/NCT01370187) | NA | Terminé | 146 | Montelukast dans la bronchiolite aiguë et la respiration sifflante post-bronchiolite chez le nourrisson de 3 à 12 mois. |
+| [NCT00524693](https://clinicaltrials.gov/study/NCT00524693) | NA | Terminé | 51 | Essai en double aveugle contre placebo dans la bronchiolite aiguë à VRS : évolution clinique et profil des cytokines. |
+| [NCT00656058](https://clinicaltrials.gov/study/NCT00656058) | Phase 2 | Terminé | 25 | Étude à un seul bras du montelukast dans la bronchiolite oblitérante après greffe de cellules souches. |
+| [NCT01211509](https://clinicaltrials.gov/study/NCT01211509) | Phase 4 | Terminé | 30 | Essai randomisé en double aveugle contre placebo : montelukast dans le syndrome de bronchiolite oblitérante après greffe pulmonaire. |
+| [NCT01307462](https://clinicaltrials.gov/study/NCT01307462) | Phase 2 | Terminé | 36 | Association fluticasone, azithromycine et montelukast dans la bronchiolite oblitérante après greffe de cellules souches. L'apport propre du montelukast ne peut pas être isolé. |
+| [NCT02479074](https://clinicaltrials.gov/study/NCT02479074) | Phase 4 | Terminé | 49 | Réponse de la toux chronique à la prednisolone ou au montelukast, selon la fraction de NO expiré. |
 
 ---
 
@@ -88,20 +89,22 @@ La prédiction doit donc être lue avec prudence : l'association entre l'étique
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [25773054](https://pubmed.ncbi.nlm.nih.gov/25773054/) | 2015 | Revue systématique (Cochrane) | Cochrane Database Syst Rev | Inhibiteurs des leucotriènes dans la bronchiolite du nourrisson et du jeune enfant |
-| [24118637](https://pubmed.ncbi.nlm.nih.gov/24118637/) | 2014 | Revue systématique | Pediatr Allergy Immunol | Efficacité du montelukast pour prévenir le sifflement post-bronchiolite |
-| [25563311](https://pubmed.ncbi.nlm.nih.gov/25563311/) | 2015 | Étude clinique | Chin Med J | Montelukast ajouté au budésonide dans la bronchite éosinophilique non asthmatique : effet sur l'inflammation, la toux et la qualité de vie |
-| [29704475](https://pubmed.ncbi.nlm.nih.gov/29704475/) | 2018 | Recommandations | Chest | Toux chronique après bronchiolite virale aiguë chez l'enfant |
-| [38485149](https://pubmed.ncbi.nlm.nih.gov/38485149/) | 2024 | Recommandations | Eur Respir J | Recommandations ERS/EBMT sur la GVHD chronique pulmonaire de l'adulte |
-| [38504551](https://pubmed.ncbi.nlm.nih.gov/38504551/) | 2024 | Revue | Ther Adv Respir Dis | Potentiel thérapeutique du montelukast dans le syndrome de bronchiolite oblitérante après greffe pulmonaire ou de cellules souches |
-| [28662986](https://pubmed.ncbi.nlm.nih.gov/28662986/) | 2017 | Revue systématique | J Heart Lung Transplant | Options thérapeutiques de la dysfonction chronique du greffon pulmonaire (BOS) |
-| [28545478](https://pubmed.ncbi.nlm.nih.gov/28545478/) | 2017 | Étude animale | J Cardiothorac Surg | LTB4 et montelukast dans la bronchiolite oblitérante post-greffe chez le rat |
-| [14766663](https://pubmed.ncbi.nlm.nih.gov/14766663/) | 2004 | Commentaire | Am J Respir Crit Care Med | Montelukast dans la bronchiolite à RSV |
-| [40926299](https://pubmed.ncbi.nlm.nih.gov/40926299/) | 2025 | Consensus | Br J Haematol | Consensus taïwanais sur la GVHD chronique pulmonaire |
+| [25563311](https://pubmed.ncbi.nlm.nih.gov/25563311/) | 2015 | Étude clinique | Chinese Medical Journal | Évalue le montelukast associé au budésonide contre le budésonide seul dans la bronchite éosinophilique non asthmatique : qualité de vie, éosinophiles des voies aériennes et rémission de la toux. |
+| [25773054](https://pubmed.ncbi.nlm.nih.gov/25773054/) | 2015 | Revue systématique (Cochrane) | Cochrane Database of Systematic Reviews | Évalue les inhibiteurs des leucotriènes dans la bronchiolite du nourrisson et du jeune enfant. |
+| [24118637](https://pubmed.ncbi.nlm.nih.gov/24118637/) | 2014 | Revue systématique | Pediatric Allergy and Immunology | Efficacité du montelukast pour prévenir la respiration sifflante après une bronchiolite. |
+| [38485149](https://pubmed.ncbi.nlm.nih.gov/38485149/) | 2024 | Recommandations | European Respiratory Journal | Recommandations ERS/EBMT sur le traitement de la maladie du greffon contre l'hôte pulmonaire chronique de l'adulte. |
+| [29704475](https://pubmed.ncbi.nlm.nih.gov/29704475/) | 2018 | Recommandations | Chest | Rapport d'experts sur la toux chronique après bronchiolite virale aiguë chez l'enfant. |
+| [38504551](https://pubmed.ncbi.nlm.nih.gov/38504551/) | 2024 | Revue | Therapeutic Advances in Respiratory Disease | Potentiel thérapeutique du montelukast dans le syndrome de bronchiolite oblitérante après greffe pulmonaire ou de cellules souches, et mécanismes possibles. |
+| [28662986](https://pubmed.ncbi.nlm.nih.gov/28662986/) | 2017 | Revue systématique | Journal of Heart and Lung Transplantation | Options thérapeutiques de la dysfonction chronique du greffon pulmonaire (syndrome de bronchiolite oblitérante) après l'immunosuppression de première ligne. |
+| [28545478](https://pubmed.ncbi.nlm.nih.gov/28545478/) | 2017 | Étude animale | Journal of Cardiothoracic Surgery | Rôle du LTB4 et du montelukast dans la bronchiolite oblitérante liée à la transplantation chez le rat. |
+| [40702225](https://pubmed.ncbi.nlm.nih.gov/40702225/) | 2025 | Article de recherche | Lung | Les mastocytes pourraient réguler l'hypersensibilité de la toux associée à la bronchite éosinophilique. |
+| [14766663](https://pubmed.ncbi.nlm.nih.gov/14766663/) | 2004 | Commentaire | American Journal of Respiratory and Critical Care Medicine | Commentaire sur le montelukast dans la bronchiolite à VRS (sans résumé disponible). |
 
 ---
 
 ## Informations de Marché en France
+
+Le montelukast est commercialisé en France. Les données locales recensent 20 AMM valides, mais la liste peut être partielle. Les cinq principales sont présentées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -111,16 +114,13 @@ La prédiction doit donc être lue avec prudence : l'association entre l'étique
 | 60069339 | MONTELUKAST TEVA 4 mg (TEVA SANTE) | Granulés | Non renseignée (AMM active) |
 | 61422735 | MONTELUKAST TEVA 5 mg (TEVA SANTE) | Comprimé à croquer | Non renseignée (AMM active) |
 
-
 ---
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : trouble anxieux, trouble névrotique, trouble dysthymique, anxiété, syndrome hyperéosinophilique, vascularite cutanée.
-- **Événements neuropsychiatriques** : la littérature compilée (revue systématique, études de cohorte, étude cas-témoins) signale des effets indésirables neuropsychiatriques ; la FDA a ajouté en 2020 un avertissement encadré sur ces risques. Une prudence particulière s'impose chez l'enfant.
-- **Interactions médicamenteuses** : 470 interactions recensées. Parmi les principales, de niveau modéré : dexaméthasone, métronidazole, miconazole, natéglinide, nitisinone, troglitazone. D'autres, de niveau inconnu : calcitriol, phentermine, pantoprazole, glimépiride, mésalazine, doxycycline, clotrimazole, acarbose, morphine, metformine, oméprazole, rosiglitazone, lansoprazole, sucralfate.
+- **Interactions médicamenteuses** : 470 interactions sont recensées. Les interactions de niveau modéré concernent notamment la dexaméthasone, le métronidazole, le miconazole, le natéglinide, la nitisinone et la troglitazone.
 
-Pour les mises en garde et contre-indications officielles, veuillez consulter la notice, dont le texte n'a pas pu être obtenu.
+Veuillez consulter la notice pour les mises en garde et les contre-indications.
 
 ---
 
@@ -129,18 +129,16 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- Les preuves concernent la bronchiolite et la bronchiolite oblitérante, pas la bronchite : la correspondance avec la prédiction est indirecte, et les essais à puissance suffisante (dont le phase 3 NCT00076973) n'ont pas de résultats détaillés dans les données compilées. Par ailleurs, le médicament est commercialisé avec 20 AMM valides, mais les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- Le score du modèle est élevé (0,9995), mais les preuves sont majoritairement indirectes : bronchiolite et bronchiolite oblitérante, sans résultat d'efficacité confirmé pour la bronchite. Les seuls essais directement liés à une bronchite sont de phase 4, de petite taille, de statut inconnu et sans résultats précisés.
+- Le niveau de preuve est donc plafonné à L3.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier la cible précise (bronchite chronique, bronchite éosinophilique, bronchiolite) et les résultats des essais pertinents, notamment NCT00076973 et NCT04613180
-- Élaborer un plan de surveillance neuropsychiatrique, en particulier pour les enfants
-- Examiner les interactions médicamenteuses compte tenu de leur nombre élevé
+- Les résultats publiés des essais NCT01121016 et NCT04613180 sur la bronchite.
+- Une définition précise du type de bronchite visé (aiguë, chronique, éosinophilique, de l'enfant).
+- Les données détaillées sur le mécanisme d'action.
+- Les mises en garde et contre-indications issues de la notice française.
+- Un essai randomisé contrôlé dédié à la bronchite, si les premières données sont encourageantes.
 
----
-
-*Remarque : parmi les autres indications prédites, l'asthme (niveau L1) correspond à une utilisation déjà approuvée à l'origine, et non à un véritable repositionnement. L'eczéma atopique (L1) montre des résultats cliniques incohérents. La maladie pulmonaire obstructive repose surtout sur des données d'asthme. Le libellé « asthma-related traits, susceptibility to » est un trait de susceptibilité génétique sans essai ni publication (L5, Hold).*
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
-description: "Risperidone : nouvelle indication prédite, Paralysie familiale du regard horizontal avec scoliose progressive (gaze palsy, familial horizontal… (niveau de preuve L5). Indication d'origine : Non rense…"
+description: "Risperidone : nouvelle indication prédite, Syndrome de paralysie du regard horizontal familial avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis) (niveau de preuve L5)."
 ---
 
 # Risperidone
@@ -33,21 +33,19 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Risperidone: Paralysie familiale du regard horizontal avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis)
+## Risperidone: Syndrome de paralysie du regard horizontal familial avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La rispéridone est un antipsychotique atypique, initialement utilisé pour la schizophrénie, les troubles bipolaires (manie) et les troubles du spectre autistique.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **paralysie familiale du regard horizontal avec scoliose progressive**, une maladie génétique rare.
-Aucun essai clinique ni aucune publication ne soutient actuellement cette prédiction, qui repose uniquement sur le modèle.
+La rispéridone est un antipsychotique atypique. Le modèle TxGNN prédit qu'elle pourrait être utile pour le **syndrome de paralysie du regard horizontal familial avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis)**, mais **aucun essai clinique et aucune publication** ne soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Paralysie familiale du regard horizontal avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis) |
+| Nouvelle Indication Prédite | Syndrome de paralysie du regard horizontal familial avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis) |
 | Score de Prédiction TxGNN | 0.9976 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
@@ -56,35 +54,21 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, la rispéridone est un antagoniste des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A. Son efficacité est établie dans la schizophrénie et la manie bipolaire.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la rispéridone est un antipsychotique atypique dont l'action repose sur l'antagonisme des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A.
 
-Pour cette nouvelle indication, **aucun lien mécanistique identifiable n'existe**. La paralysie familiale du regard horizontal avec scoliose progressive est une maladie génétique rare, liée au gène ROBO3, qui touche le guidage des axones dans le tronc cérébral. L'antagonisme D2/5-HT2A de la rispéridone n'a aucune pertinence connue pour cette pathologie.
-
-Le score élevé de TxGNN (0,9976) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il ne constitue pas une preuve d'efficacité et doit être considéré avec une grande prudence.
+Pour la maladie prédite, aucun lien mécanistique crédible n'est identifiable. Il s'agit d'un trouble génétique rare (lié à ROBO3) affectant le guidage des axones dans le tronc cérébral postérieur. L'antagonisme D2/5-HT2A n'a pas de pertinence connue pour cette pathologie. Le score élevé du modèle TxGNN reflète une prédiction algorithmique seule, sans étude clinique ni publication à l'appui. Cette prédiction doit donc être considérée comme très spéculative.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune littérature associée n'est disponible actuellement.
-
-## Autres Indications Prédites par le Modèle
-
-Les données compilées contiennent d'autres indications prédites, mieux documentées que la première. Elles sont résumées ici à titre d'information.
-
-| Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
-|------|------|------|------|
-| Syndrome amélo-cérébro-hypohidrotique | 0,9969 | L5 | Aucun lien mécanistique crédible, aucune preuve |
-| Syndrome de Phelan-McDermid | 0,9959 | L4 | Une revue clinique et une étude préclinique sur le poisson-zèbre (shank3) ; aucun essai chez l'humain ; bénéfice éventuel uniquement symptomatique (irritabilité, agressivité) |
-| Trichotillomanie | 0,9951 | L4 | Plusieurs cas cliniques et petites séries (potentialisation des inhibiteurs de recapture de la sérotonine) ; aucun essai contrôlé |
-
-Pour le trouble affectif majeur, le bénéfice se limite à la dépression résistante, en appoint d'un antidépresseur. Il s'accompagne de risques métaboliques, extrapyramidaux, de somnolence et d'hyperprolactinémie. Les essais portant sur le trouble bipolaire chevauchent l'indication existante et ne constituent pas une nouvelle preuve de repositionnement.
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées. Les textes d'indication approuvée ne sont pas renseignés. Voici cinq d'entre elles :
+La rispéridone est commercialisée en France. Les données compilées recensent 20 AMM valides ; la liste ci-dessous présente les cinq premières.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -96,22 +80,27 @@ Les 20 AMM recensées sont toutes annulées. Les textes d'indication approuvée 
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (elles ne proviennent pas du texte de la notice) : hypotension orthostatique et atrophie multisystématisée, insuffisance et maladies hépatiques, épilepsie, diabète, hyperglycémie et acidocétose diabétique, neutropénie et agranulocytose, hyperlipidémie, obésité, accident vasculaire cérébral et maladies cérébrovasculaires, infarctus du myocarde, arrêt cardiaque soudain, troubles de la conduction cardiaque et maladies cardiovasculaires, maladies de la vésicule biliaire, carcinome mammaire chez la femme, hémoglobinopathies.
-- **Interactions médicamenteuses** : 362 interactions sont recensées. Parmi les exemples rapportés, deux sont de niveau majeur : le **bupropion** et la **morphine**. Plusieurs sont de niveau modéré, notamment la metformine, l'acarbose, l'épinéphrine, l'hydrocortisone, l'atropine, le glycopyrronium et l'amphotéricine B.
+Les mises en garde et contre-indications issues de la notice ne figurent pas dans les données compilées ; veuillez consulter la notice pour ces informations.
 
-Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
+**Interactions médicamenteuses** : 362 interactions sont recensées. Parmi celles de niveau majeur :
+- Bupropion (majeure)
+- Morphine (majeure)
+
+Des interactions de niveau modéré sont également signalées, notamment avec la metformine, l'acarbose, l'alogliptine, la famotidine, l'épinéphrine, l'hydrocortisone, l'atropine, l'amphotéricine B et le lopéramide.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la paralysie familiale du regard horizontal avec scoliose progressive repose uniquement sur le score du modèle (L5). Elle n'est soutenue par aucun essai, aucune publication ni aucun mécanisme plausible.
-- Le médicament est commercialisé, avec 20 AMM valides.
+La prédiction repose uniquement sur le score du modèle (0,9976), sans essai clinique, sans publication ni lien mécanistique plausible. Les preuves sont insuffisantes pour justifier un développement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM.
-- Obtenir les données sur le mécanisme d'action (par exemple via DrugBank).
+- Un rationnel biologique reliant l'action D2/5-HT2A à la physiopathologie de cette maladie rare
+- Des données précliniques ou des observations cliniques dans cette maladie
+- Les données de mécanisme d'action détaillées
+- Les mises en garde et contre-indications issues de la notice
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium : nouvelle indication prédite, Respiratory malformation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Tiotropium : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Tiotropium
@@ -33,65 +33,54 @@ Niveau de preuve: **L5** | Indications prédites: **4**
 
 </div>
 
-## Tiotropium: Respiratory malformation
+## Tiotropium: Malformation respiratoire (respiratory malformation)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Tiotropium est un antagoniste muscarinique à longue durée d'action (LAMA), initialement utilisé dans la bronchite, l'asthme (y compris l'asthme intrinsèque et allergique) et l'emphysème pulmonaire.
-Cette prédiction correspond toutefois à une catégorie parente de la BPCO, c'est-à-dire pour l'essentiel à un usage déjà établi plutôt qu'à un véritable repositionnement.
+Le tiotropium est un bronchodilatateur anticholinergique de longue durée d'action, administré par inhalation.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **malformation respiratoire (respiratory malformation)**.
+Les **3 essais cliniques** et **5 publications** compilés pour ce rapport ne portent pas directement sur cette maladie : les essais concernent la mucoviscidose, et la littérature est indirecte.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Respiratory malformation |
+| Nouvelle Indication Prédite | Malformation respiratoire (respiratory malformation) |
 | Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
-| Décision Recommandée | Proceed with Guardrails |
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le tiotropium est un antagoniste muscarinique à longue durée d'action. Il bloque les récepteurs M3 du muscle lisse bronchique, ce qui produit une bronchodilatation prolongée et réduit le tonus cholinergique dans les maladies obstructives des voies aériennes.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le tiotropium est un anticholinergique (antagoniste muscarinique) à action prolongée, qui détend la musculature bronchique. Son effet est donc symptomatique, sur le calibre des voies aériennes.
 
-Ce mécanisme recoupe directement les indications d'origine (asthme, bronchite, emphysème).
+Une malformation respiratoire est un défaut structurel des voies aériennes ou du poumon. Un bronchodilatateur ne corrige pas ce défaut. Il pourrait au mieux soulager une composante de rétrécissement bronchique réversible associée.
 
-La littérature décrit une dissociation lente des récepteurs M3 et M1, qui explique la durée d'action de plus de 24 heures et permet une administration en une prise quotidienne.
+Le score TxGNN est très élevé (0,9995), mais il s'agit d'un résultat de calcul. Aucune étude citée ne teste le tiotropium dans la malformation respiratoire elle-même. Le lien mécanistique reste donc une hypothèse non démontrée.
 
 ## Preuves d'Essais Cliniques
 
-Parmi les 39 essais associés, voici les 10 plus pertinents (essais de phase 3 jugés les plus directs, puis phase 2).
+Les trois essais ci-dessous portent sur des patients atteints de mucoviscidose, et non sur des malformations respiratoires. Leur pertinence pour la prédiction est faible.
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00240435](https://clinicaltrials.gov/study/NCT00240435) | Phase 3 | Terminé | 491 | Deux doses de tiotropium Respimat vs placebo et ipratropium dans la BPCO : comparaison de l'efficacité bronchodilatatrice et de la sécurité |
-| [NCT01431274](https://clinicaltrials.gov/study/NCT01431274) | Phase 3 | Terminé | 2624 | Tiotropium + olodatérol sur 52 semaines vs composants seuls dans la BPCO (TOnado 1) |
-| [NCT00877383](https://clinicaltrials.gov/study/NCT00877383) | Phase 3 | Terminé | 1142 | Indacatérol + tiotropium vs tiotropium seul sur 12 semaines dans la BPCO modérée à sévère |
-| [NCT00900731](https://clinicaltrials.gov/study/NCT00900731) | Phase 3 | Terminé | 1598 | Indacatérol vs tiotropium sur 12 semaines dans la BPCO modérée à sévère |
-| [NCT01854645](https://clinicaltrials.gov/study/NCT01854645) | Phase 3 | Terminé | 2103 | PT003, PT005 et PT001 vs placebo et tiotropium en comparateur actif sur 24 semaines |
-| [NCT00157235](https://clinicaltrials.gov/study/NCT00157235) | Phase 3 | Terminé | 234 | Tiotropium vs placebo sur la tolérance à l'effort pendant 8 semaines de réhabilitation respiratoire |
-| [NCT02172443](https://clinicaltrials.gov/study/NCT02172443) | Phase 3 | Terminé | 50 | Capsules de tiotropium 18 µg vs ipratropium (Atrovent) en double aveugle ; petit effectif |
-| [NCT01316380](https://clinicaltrials.gov/study/NCT01316380) | Phase 3 | Terminé | 465 | Tiotropium Respimat vs placebo sur 12 semaines dans l'asthme persistant léger |
-| [NCT00772538](https://clinicaltrials.gov/study/NCT00772538) | Phase 3 | Terminé | 459 | Tiotropium 5 µg sur 48 semaines en traitement additionnel dans l'asthme persistant sévère |
-| [NCT04780984](https://clinicaltrials.gov/study/NCT04780984) | Phase 2 | Terminé | 116 | Étude de dose sur la pharmacodynamie et la biodisponibilité du tiotropium en solution pour inhalation dans la BPCO |
+| [NCT01179347](https://clinicaltrials.gov/study/NCT01179347) | Phase 3 | Terminé | 464 | Tiotropium 5 µg une fois par jour (Respimat®) contre placebo pendant 12 semaines dans la mucoviscidose : efficacité et sécurité |
+| [NCT00737100](https://clinicaltrials.gov/study/NCT00737100) | Phase 2 | Terminé | 510 | Deux doses de tiotropium (2,5 et 5 µg) contre placebo pendant 12 semaines dans la mucoviscidose : effet sur la fonction pulmonaire, choix de la dose |
+| [NCT02172534](https://clinicaltrials.gov/study/NCT02172534) | Phase 1 | Terminé | 113 | Sécurité, tolérance et pharmacocinétique de doses uniques et répétées (28 jours) chez l'enfant et l'adulte atteints de mucoviscidose |
 
 ## Preuves de la Littérature
 
+Aucune de ces publications n'étudie directement l'effet du tiotropium sur les malformations respiratoires.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | ECR | N Engl J Med | Tiotropium au long cours dans la BPCO légère à modérée : effet sur la fonction pulmonaire et le déclin de celle-ci |
-| [29779416](https://pubmed.ncbi.nlm.nih.gov/29779416/) | 2018 | ECR | Am J Respir Crit Care Med | Désescalade d'une trithérapie vers indacatérol/glycopyrronium dans la BPCO (SUNSET) |
-| [16844726](https://pubmed.ncbi.nlm.nih.gov/16844726/) | 2006 | Méta-analyse | Thorax | Efficacité du tiotropium dans la BPCO stable sur les événements cliniques, les symptômes et la fonction pulmonaire |
-| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | Revue systématique | Cochrane Database Syst Rev | Tiotropium vs placebo dans la BPCO, y compris l'inhalateur à brouillard doux |
-| [23728670](https://pubmed.ncbi.nlm.nih.gov/23728670/) | 2013 | Revue systématique | Cochrane Database Syst Rev | Association corticoïde inhalé/bêta-2 agoniste longue durée vs tiotropium dans la BPCO |
-| [19402836](https://pubmed.ncbi.nlm.nih.gov/19402836/) | 2009 | Méta-analyse | Respirology | Efficacité et sécurité du tiotropium chez des patients chinois atteints de BPCO stable |
-| [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Revue | Respir Res | Revue du développement clinique du tiotropium dans la BPCO ; les LAMA sont recommandés en traitement initial |
-| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Revue | Curr Med Res Opin | Association tiotropium + olodatérol et réduction des exacerbations de BPCO |
-| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Revue | Ann Pharmacother | Utilisation concomitante d'ipratropium et de tiotropium dans la BPCO |
-| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | Revue | Life Sci | Considérations mécanistiques et profil clinique du tiotropium dans les maladies pulmonaires obstructives |
+| [31522031](https://pubmed.ncbi.nlm.nih.gov/31522031/) | 2019 | Étude de physiologie clinique | Respiratory Medicine | Effets de la déflation pulmonaire induite par tiotropium/olodatérol sur les réponses cardiocirculatoires à l'effort |
+| [33787023](https://pubmed.ncbi.nlm.nih.gov/33787023/) | 2021 | Rapport de cas | Rev Fac Cien Med (Córdoba) | Infection COVID-19 chez un jeune patient avec pectus excavatum (déformation thoracique) : évolution potentiellement grave |
+| [40850565](https://pubmed.ncbi.nlm.nih.gov/40850565/) | 2025 | Préclinique / mécanistique | Chemico-Biological Interactions | Mécanismes du dysfonctionnement ventilatoire chez la souris exposée à un agent neurotoxique organophosphoré (dérégulation cholinergique) |
 
 ## Informations de Marché en France
 
@@ -99,32 +88,33 @@ Parmi les 39 essais associés, voici les 10 plus pertinents (essais de phase 3 j
 |---------|------|------|-----------|
 | 60363967 | SPIRIVA 18 microgrammes, poudre pour inhalation en gélule (statut : active) | Poudre pour inhalation en gélule | Texte de l'indication non renseigné |
 
-Une AMM valide est enregistrée pour le tiotropium dans les données compilées (1 licence valide sur 1), et le médicament est commercialisé dans ce pays. Ce statut doit être vérifié par rapport aux autorisations actuellement en vigueur.
-
 ## Considérations de Sécurité
 
-- **Contre-indications (relations du graphe de connaissances, non issues de la notice)** : hyperplasie bénigne de la prostate, insuffisance rénale, glaucome à angle fermé, obstruction du col vésical.
-- **Interactions Médicamenteuses** : 100 interactions recensées. Les principales sont de niveau modéré et concernent d'autres anticholinergiques, avec un risque d'effets anticholinergiques cumulés : hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, scopolamine, méthscopolamine, propanthéline, mépenzolate. D'autres interactions modérées concernent l'éluxadoline, la prucalopride et l'insuline humaine inhalée. La cimétidine est une interaction mineure.
-- Une étude (NCT06525051) a examiné l'effet du tiotropium sur les paramètres de la chambre antérieure de l'œil et la pression intraoculaire, ce qui rejoint le signal du glaucome à angle fermé.
+Les mises en garde et les contre-indications de la notice ne figurent pas dans les données compilées pour ce rapport. Veuillez consulter la notice pour ces informations.
 
-Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
+**Interactions médicamenteuses** : 100 interactions sont recensées. Les principales sont de niveau modéré et concernent d'autres médicaments à action anticholinergique, avec un risque de cumul des effets :
+- Hyoscyamine, atropine, scopolamine
+- Glycopyrronium (y compris la forme topique), clidinium, dicyclomine
+- Trospium, mépenzolate, méthscopolamine, propanthéline
+- Élubroxadoline (éluxadoline) et prucalopride, également de niveau modéré
+- Insuline humaine inhalée à action rapide, de niveau modéré
+
+La cimétidine est de niveau mineur. Plusieurs autres associations (calcitriol, pantoprazole, glimépiride, mésalazine, doxycycline) sont de niveau inconnu.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Les preuves pour la maladie pulmonaire obstructive sont abondantes (plusieurs essais de phase 3 complets, méta-analyses, ECR publié dans le NEJM), mais il s'agit d'un usage déjà établi du tiotropium, pas d'un repositionnement nouveau.
+- Le score TxGNN est très élevé (0,9995), mais aucun essai ni aucune publication ne porte directement sur la malformation respiratoire. Le niveau de preuve est donc L5.
+- Le tiotropium agit sur le tonus bronchique et ne peut pas corriger un défaut structurel.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications officielles), actuellement manquante et bloquante pour le criblage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action via DrugBank
-- Vérifier le statut réglementaire actuel en France, l'unique AMM répertoriée étant annulée
-- Plan de surveillance pour les populations à risque (glaucome à angle fermé, hyperplasie bénigne de la prostate, obstruction du col vésical, insuffisance rénale)
+- Des études ciblant directement les patients atteints de malformation respiratoire, avec une population et un critère de jugement clairement définis.
+- Les données sur le mécanisme d'action, afin d'analyser le lien mécanistique.
+- Les mises en garde et contre-indications de la notice, pour l'évaluation de sécurité.
+- Une vérification de la compatibilité de la voie d'administration (inhalation) avec la population visée, notamment les jeunes enfants.
 
-**Autres indications prédites (non recommandées en l'état) :**
-- Les autres prédictions sont à maintenir en attente (Hold) : malformation respiratoire (essais portant sur la mucoviscidose, population non spécifique), syndrome de Rienhoff, emphysème compensatoire, emphysème interstitiel, sténose trachéale, hyperclarté pulmonaire et susceptibilité aux infections respiratoires liée à une mutation de la chaîne CD8alpha. Elles ne disposent d'aucune preuve directe ou d'aucun lien mécanistique plausible.
-- La BPCO sévère à début précoce reste une question de recherche (niveau L3), avec une seule étude de cohorte comparative.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

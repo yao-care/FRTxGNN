@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol : nouvelle indication prédite, Respiratory malformation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Salmeterol : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Salmeterol
@@ -33,74 +33,52 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 </div>
 
-## Salmeterol: Respiratory malformation
+## Salmeterol: Malformation respiratoire (respiratory malformation)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le salmétérol est un bêta-2-agoniste de longue durée d'action, initialement utilisé pour le traitement de l'emphysème pulmonaire et de l'asthme (intrinsèque et allergique).
-Il s'agit toutefois d'une extension très proche des usages d'origine (bronchite chronique et BPCO) plutôt que d'un repositionnement éloigné.
-
----
+Le salmétérol est un bêta-2-agoniste inhalé de longue durée d'action, utilisé comme bronchodilatateur.
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **malformation respiratoire (respiratory malformation)**.
+Cette piste repose sur **2 essais cliniques** et quelques publications, mais aucune de ces études ne porte directement sur cette maladie.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Respiratory malformation |
+| Nouvelle Indication Prédite | Malformation respiratoire (respiratory malformation) |
 | Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base. Sur la base des informations connues, le salmétérol est un agoniste des récepteurs bêta-2-adrénergiques à action prolongée. Il induit une bronchodilatation durable par relaxation du muscle lisse bronchique, via l'AMP cyclique.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après ce que l'on sait de cette classe, le salmétérol stimule les récepteurs bêta-2 adrénergiques des voies respiratoires. Il provoque ainsi une bronchodilatation prolongée et peut favoriser le dégagement mucociliaire.
 
-Il favorise aussi la clairance muco-ciliaire, ce qui est pertinent dans la bronchite chronique. Une étude clinique a d'ailleurs évalué son effet aigu sur la clairance muco-ciliaire et la toux chez des patients atteints de bronchite chronique.
+Le lien avec la malformation respiratoire reste hypothétique. Un bénéfice ne serait plausible que dans les situations où l'obstruction des voies aériennes ou une anomalie ciliaire aggrave la fonction respiratoire, comme la mucoviscidose ou la dyskinésie ciliaire primitive. La « malformation respiratoire » est une catégorie structurelle hétérogène, et aucun mécanisme précis expliquant un bénéfice du salmétérol n'a été démontré.
 
-La bronchite chronique est un phénotype de la BPCO et partage sa physiopathologie avec l'emphysème et l'asthme, indications d'origine. La prédiction est donc mécanistiquement cohérente : c'est une extension proche, non un repositionnement distant.
-
----
+Le score élevé du modèle (0,9991) est donc un signal à confirmer. Il ne constitue pas une preuve d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Phase 3 | Terminé | 130 | Salmétérol/fluticasone 50/500 µg vs placebo sur l'inflammation bronchique dans la BPCO (13 semaines) |
-| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Phase 3 | Terminé | 584 | Tiotropium vs salmétérol en aérosol vs placebo dans la BPCO (6 mois) |
-| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Phase 3 | Terminé | 122 | Étude de tolérance à long terme (56 semaines) de salmétérol/fluticasone dans la BPCO (bronchite chronique, emphysème) |
-| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Phase 3 | Terminé | 741 | Arformotérol vs placebo et comparateur actif dans la BPCO (12 semaines) ; le salmétérol est vraisemblablement le comparateur |
-| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | Terminé | 799 | Sécurité à 12 mois de l'arformotérol dans la BPCO ; données indirectes pour le salmétérol |
-| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Phase 3 | Terminé | 150 | Comparaison de deux médicaments dans la BPCO (18 semaines) ; lien avec le salmétérol plausible mais non vérifié |
-| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Phase 2 | Terminé | 457 | Recherche de dose fluticasone/formotérol par rapport à Advair Diskus (salmétérol) dans la BPCO |
-| [NCT01361984](https://clinicaltrials.gov/study/NCT01361984) | Phase 4 | Inconnu | 20 | Arformotérol nébulisé vs salmétérol en poudre sèche (Serevent) dans la BPCO ; petit effectif |
-| [NCT00233051](https://clinicaltrials.gov/study/NCT00233051) | Non applicable | Arrêté | 20 | Biomarqueurs inflammatoires dans les expectorations induites dans la BPCO ; exploratoire |
-
----
+| [NCT00005110](https://clinicaltrials.gov/study/NCT00005110) | Non applicable | Suspendu | Non renseignée | Effet à long terme du salmétérol comparé à l'albutérol ou au placebo dans la mucoviscidose, avec deux inhalations par jour pendant 6 mois. La mucoviscidose n'est pas une malformation structurelle. |
+| [NCT01681979](https://clinicaltrials.gov/study/NCT01681979) | Non précisée | Terminé | 1 | Étude sur les issues de grossesse défavorables chez des femmes asthmatiques traitées. Elle ne concerne pas le traitement d'une malformation respiratoire. |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [17557771](https://pubmed.ncbi.nlm.nih.gov/17557771/) | 2007 | ECR | Thorax | Effet de salmétérol/fluticasone sur l'inflammation des voies aériennes dans la BPCO |
-| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | Étude clinique | Chest | Efficacité et sécurité de fluticasone 250 µg/salmétérol 50 µg (Diskus) vs placebo et composants seuls dans la BPCO |
-| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | Méta-analyse | Respir Res | Résultats améliorés dans la BPCO sous salmétérol 50 µg deux fois par jour vs placebo/traitement habituel |
-| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | Étude clinique | Pulm Pharmacol Ther | Effet aigu du salmétérol sur la clairance muco-ciliaire et de la toux dans la bronchite chronique (n = 14) |
-| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | Étude clinique | Ther Adv Respir Dis | Sécurité et tolérance à un an de l'arformotérol et du salmétérol dans la BPCO |
-| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | Cohorte (base de remboursements) | Curr Med Res Opin | Recours aux soins et coûts chez les patients atteints de bronchite chronique initiant fluticasone/salmétérol vs autres traitements inhalés |
-| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Revue | Drugs | Revue de l'usage de salmétérol/fluticasone dans la BPCO |
-| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | Étude ouverte | Clin Ther | Salmétérol inhalé vs théophylline orale dans la BPCO légère à modérée |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Recommandations | Basic Clin Pharmacol Toxicol | Recommandations finlandaises sur la BPCO stable |
-| [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Revue | Br J Clin Pharmacol | Antagonisme de l'effet des bêta-2-agonistes de longue durée d'action |
-
----
+| [34902004](https://pubmed.ncbi.nlm.nih.gov/34902004/) | 2022 | ECR | JAMA Pediatrics | Corticoïdes inhalés seuls ou associés à un bêta-2-agoniste de longue durée d'action chez des enfants nés prématurés avec une fonction pulmonaire réduite. Cette étude est proche du sujet, mais ne porte pas sur les malformations respiratoires. |
+| [20703071](https://pubmed.ncbi.nlm.nih.gov/20703071/) | 2010 | Rapport de cas | Arerugi | Cas d'une jeune fille atteinte de dyskinésie ciliaire primitive, longtemps traitée à tort comme un asthme. Le salmétérol n'est pas étudié. |
 
 ## Informations de Marché en France
+
+Le salmétérol est commercialisé en France. Les AMM compilées sont toutes valides, mais la liste peut être partielle. Les AMM du salmétérol seul sont les suivantes. Aucun texte d'indication n'est enregistré dans les données locales.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -110,38 +88,30 @@ La bronchite chronique est un phénotype de la BPCO et partage sa physiopatholog
 | 69505268 | SERETIDE 125/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
 | 64587838 | SERETIDE 50/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées (monothérapie Serevent, Seretide et génériques de l'association propionate de fluticasone/salmétérol).
-
----
+Les autres AMM concernent des associations fluticasone/salmétérol. Elles ne décrivent pas le statut du salmétérol seul et ne sont pas détaillées ici.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : hypertension, syndrome du QT long (dont forme familiale), épilepsie, hyperglycémie, kératite herpétique, déficits hypophysaires (dont déficit en hormone de croissance et hypogonadisme hypogonadotrope), syndrome de Kallmann, syndrome de Sheehan, maladies du thymus et ostéoporose.
-- **Interactions médicamenteuses** : 600 interactions recensées. La plus importante est **majeure** avec la clarithromycine. Des interactions modérées concernent notamment l'épinéphrine, la famotidine, l'isométheptène, la dolasétron, la diéthylpropion, ainsi que des antidiabétiques (acarbose, alogliptine, canagliflozine, chlorpropamide, dapagliflozine, empagliflozine, albiglutide, dulaglutide). Des interactions mineures concernent les corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, béclométasone, bétaméthasone, budésonide).
-- **Point d'attention clé (asthme)** : les revues Cochrane signalent un risque d'événements indésirables graves avec les bêta-2-agonistes de longue durée d'action ; leur usage dans l'asthme doit se faire en association avec un corticoïde inhalé.
+Aucune mise en garde ni contre-indication issue de la notice n'est disponible dans les données compilées. Veuillez consulter la notice pour ces informations.
 
-Les mises en garde et contre-indications issues de la notice française n'ont pas pu être obtenues ; veuillez consulter la notice.
-
----
+**Interactions médicamenteuses** : 600 interactions sont recensées. Parmi les principales :
+- **Majeure** : clarithromycine.
+- **Modérées** : épinéphrine, famotidine, isométheptène, diéthylpropion, dolasétron. Les antidiabétiques acarbose, alogliptine, canagliflozine, chlorpropamide, dapagliflozine, empagliflozine, albiglutide et dulaglutide sont aussi concernés.
+- **Mineures** : corticoïdes tels que l'hydrocortisone, la triamcinolone, la dexaméthasone, la bétaméthasone, la budésonide et le dipropionate de béclométasone.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Plusieurs essais de phase 3 terminés et des études publiées soutiennent l'usage du salmétérol dans la BPCO avec bronchite chronique, ce qui correspond à un niveau de preuve L1. L'extension est proche des indications d'origine.
+Aucune étude citée ne porte directement sur la malformation respiratoire, ce qui place la prédiction au niveau de preuve L5. Le mécanisme est incertain, et les seuls essais associés concernent d'autres situations : mucoviscidose et asthme pendant la grossesse.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir et analyser la notice officielle (ANSM) : mises en garde, contre-indications, indications autorisées. Cette lacune est bloquante pour le criblage de sécurité.
-- Compléter les données sur le mécanisme d'action (DrugBank).
-- Clarifier la situation réglementaire : vérifier si des spécialités à base de salmétérol (notamment les associations) sont encore disponibles en France.
-- Définir des garde-fous : association à un corticoïde inhalé dans l'asthme, surveillance cardiovasculaire (QT, tension) et gestion de l'interaction majeure avec la clarithromycine.
-- Distinguer, dans les essais, les données propres au salmétérol de celles où il n'est que comparateur ou fait partie d'une association.
+- Des données détaillées sur le mécanisme d'action du salmétérol.
+- Une définition précise du type de malformation respiratoire visé, avec une justification physiopathologique.
+- Des études précliniques ou cliniques portant directement sur cette population.
+- Les mises en garde et contre-indications de la notice ANSM pour évaluer la sécurité.
 
-**Autres indications prédites (non retenues à ce stade) :**
-- Obstructive lung disease (maladie pulmonaire obstructive) : niveau L1, mais il s'agit d'un usage déjà couvert par les indications d'origine.
-- Asthme : niveau L1, avec les garde-fous ci-dessus.
-- Malformation respiratoire, syndrome de Rienhoff, asthme (traits de susceptibilité) et eczéma atopique : Hold, preuves absentes ou insuffisantes (L4 à L5).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

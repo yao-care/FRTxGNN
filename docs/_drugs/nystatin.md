@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin : nouvelle indication prédite, Disease of orbital region (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Nystatin : nouvelle indication prédite, Maladie de la région orbitaire (disease of orbital region) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Nystatin
@@ -33,68 +33,46 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Nystatin: Disease of orbital region
+## Nystatin: Maladie de la région orbitaire (disease of orbital region)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La nystatine est un antifongique polyénique, initialement utilisé pour traiter les candidoses (cutanées, buccales et vulvovaginales).
-Aucun essai clinique n'est associé à cette prédiction ; **20 publications** (principalement des revues et des synthèses cliniques) la soutiennent indirectement.
-
----
+La nystatine est un antifongique de la famille des polyènes, commercialisé en France sous plusieurs formes (suspension buvable, capsules et comprimés vaginaux, poudre pour instillation auriculaire).
+Le modèle TxGNN la prédit comme potentiellement utile pour la **maladie de la région orbitaire (disease of orbital region)**.
+Cette prédiction repose sur **1 essai clinique** enregistré, qui ne concerne ni la nystatine ni cette maladie, et sur **aucune publication**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Disease of orbital region |
+| Nouvelle Indication Prédite | Maladie de la région orbitaire (disease of orbital region) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
 | Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
----
-
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques établies, la nystatine est un antifongique polyénique : elle se fixe sur l'ergostérol de la membrane des cellules fongiques et y forme des pores, ce qui provoque une fuite du contenu cellulaire et la mort du champignon.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations générales connues, la nystatine fait partie des antifongiques polyènes, qui agissent en se liant à l'ergostérol de la membrane des champignons. Son activité est donc dirigée contre les infections fungiques, en particulier à *Candida*.
 
-La vulvovaginite est très souvent causée par des *Candida*. La prédiction est donc cohérente avec l'activité antifongique du médicament et avec ses indications d'origine, notamment la candidose vulvovaginale. Il s'agit davantage d'une confirmation d'un usage existant que d'une découverte.
-
-Cette logique ne vaut que pour les formes d'origine fongique. Les vulvovaginites bactériennes, à trichomonas ou atrophiques ne devraient pas répondre à la nystatine.
-
----
+Les données compilées pour ce rapport ne montrent aucun lien mécanistique plausible entre cette activité antifongique et une maladie de la région orbitaire. Une infection fungique de l'orbite reste une hypothèse théorique, mais aucune donnée ne la soutient. Le seul essai associé à cette prédiction porte sur un autre médicament (ASP7317) dans une autre maladie, l'atrophie géographique de la dégénérescence maculaire liée à l'âge, qui est une atteinte rétinienne et non orbitaire. L'association semble donc fortuite, et le score élevé du modèle ne s'appuie sur aucune preuve clinique.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement pour la vulvovaginite.
-
----
+| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Phase 1 | En recrutement | 42 | Étude de sécurité et de tolérance d'ASP7317 dans l'atrophie géographique secondaire à la DMLA. Elle ne concerne pas la nystatine ni une maladie orbitaire (pertinence jugée faible). |
 
 ## Preuves de la Littérature
 
-Les publications ci-dessous sont les plus pertinentes ; il s'agit surtout de revues et de synthèses cliniques, sans essai randomisé propre à la nystatine dans ces données.
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Revue | J Womens Health | Acide borique dans la candidose vulvovaginale récidivante ; les espèces non-albicans sont plus résistantes aux azolés |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Revue | BMJ Clin Evid | Candidose vulvovaginale : deuxième cause de vaginite ; *C. albicans* dans 85 à 90 % des cas |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Revue | Pharmaceutics | Prise en charge de la candidose vulvovaginale résistante au fluconazole ; la nystatine figure parmi les alternatives |
-| [18729533](https://pubmed.ncbi.nlm.nih.gov/18729533/) | 2008 | Revue | Drugs | Traitement local de la candidose vulvovaginale ; efficacité comparable aux traitements oraux dans les formes non compliquées |
-| [10796183](https://pubmed.ncbi.nlm.nih.gov/10796183/) | 2000 | Revue Cochrane | Cochrane Database Syst Rev | Traitements topiques de la candidose vaginale pendant la grossesse |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Étude clinique et microbiologique | Mycoses | Sensibilité in vitro au fluconazole et à la nystatine corrélée à l'évolution clinique dans 283 cas de candidose vulvovaginale compliquée |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Revue | Obstet Gynecol Clin North Am | La nystatine, introduite dans les années 1950, a été supplantée par les imidazolés et triazolés en première intention |
-| [36588489](https://pubmed.ncbi.nlm.nih.gov/36588489/) | 2022 | Étude clinique et morphopathologique | Rom J Morphol Embryol | Aspects cliniques et histologiques de la candidose vulvovaginale avant traitement local par nystatine |
-| [41745294](https://pubmed.ncbi.nlm.nih.gov/41745294/) | 2026 | Revue | J Fungi | Agents antifongiques actuels et émergents ; les polyènes restent un pilier du traitement |
-| [4919155](https://pubmed.ncbi.nlm.nih.gov/4919155/) | 1970 | Revue | Med Clin North Am | Revue générale sur la nystatine |
-
----
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 5 AMM listées sont valides (5 sur 5). Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+La nystatine est commercialisée en France. Cinq autorisations de mise sur le marché sont valides.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -104,31 +82,25 @@ Les 5 AMM listées sont valides (5 sur 5). Le texte de l'indication approuvée n
 | 68802779 | TERGYNAN, comprimé vaginal | Comprimé | Non renseignée |
 | 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire | Poudre et solvant pour suspension pour instillation | Non renseignée |
 
----
-
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : insuffisance corticosurrénale, maladie d'Addison, atrophie cutanée, télangiectasies, maladie capillaire, maladie de Rendu-Osler.
-- **Interactions médicamenteuses** : 347 interactions sont répertoriées, toutes de niveau de gravité non précisé. Parmi elles : ciclosporine, octréotide, fluconazole, érythromycine, azithromycine, tramadol, lorazépam, bortézomib, sildénafil, pravastatine, valsartan, ramipril.
+- **Interactions médicamenteuses** : 347 interactions sont recensées, mais leur niveau de gravité n'est pas classé (« inconnu »). Parmi les médicaments concernés figurent la ciclosporine, l'octréotide, le fluconazole, l'érythromycine, l'azithromycine, le tramadol, le lorazépam, le bortézomib, la pravastatine, le valsartan, le ramipril et le sildénafil. Ces données ne permettent pas d'évaluer la portée clinique de chaque interaction.
 
-Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
-
----
+Les mises en garde et contre-indications de la notice ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les 5 AMM françaises sont valides, mais les données de sécurité officielles manquent, ce qui bloque l'évaluation de sécurité.
-- Les autres prédictions du modèle TxGNN (deep learning) (région orbitaire, tératome kystique, kyste dermoïde médullaire, vaginite atrophique postménopausique, maladie métabolique de la biotine, fistule commissurale de la lèvre, ostéoradionécrose mandibulaire) n'ont aucun support clinique ni mécanistique crédible. Leurs scores proviennent du modèle et peuvent refléter des similarités apprises entre maladies proches, non une preuve biologique. La vulvite repose sur la même littérature indirecte que la vulvovaginite.
+La prédiction repose uniquement sur le modèle (niveau L5). Aucune étude ne porte sur la nystatine dans une maladie de la région orbitaire. Le seul essai associé concerne un autre médicament dans une maladie rétinienne, et aucun lien mécanistique plausible n'a été identifié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier le statut réglementaire actuel des produits à base de nystatine en France, les 5 AMM listées étant valides (5 sur 5)
-- Rechercher des essais contrôlés comparant la nystatine aux azolés dans la candidose vulvovaginale
-- Hiérarchiser les interactions médicamenteuses, dont le niveau de gravité n'est pas précisé
+- Des données sur le mécanisme d'action de la nystatine, afin d'analyser un éventuel lien avec la pathologie orbitaire
+- Des études ou observations cliniques portant directement sur la nystatine dans une maladie de la région orbitaire (par exemple une infection fungique documentée de l'orbite)
+- Les mises en garde et contre-indications de la notice, pour pouvoir engager une évaluation de sécurité
+- Une classification de la gravité des interactions médicamenteuses recensées
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

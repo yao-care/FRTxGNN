@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Laronidase
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 437
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
-description: "Laronidase : nouvelle indication prédite, Sanfilippo syndrome (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Laronidase : nouvelle indication prédite, Syndrome de Sanfilippo (Sanfilippo syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,82 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Laronidase: Sanfilippo syndrome
+## Laronidase: Syndrome de Sanfilippo (Sanfilippo syndrome)
 {: .text-alpha }
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-Laronidase est une enzyme recombinante (alpha-L-iduronidase), initialement utilisée dans le traitement des mucopolysaccharidoses (syndromes de Hurler, Hurler-Scheie et Scheie).
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie de surcharge lysosomale avec atteinte squelettique**, mais cette indication correspond surtout à une manifestation de l'indication déjà connue.
-Aucun essai clinique n'est enregistré pour cette indication, et **4 publications** (revues, étude in vitro, cas clinique) la soutiennent indirectement.
+La laronidase est une enzyme recombinante de remplacement (alpha-L-iduronidase), utilisée dans les mucopolysaccharidoses de type I.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de Sanfilippo (Sanfilippo syndrome)**, avec un score de 0,9922.
+**Aucun essai clinique** et **aucune publication** ne portent directement sur cette maladie : les 8 publications disponibles concernent surtout la MPS I.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Predite | Sanfilippo syndrome |
-| Score de Prediction TxGNN | 0.9922 |
-| Niveau de Preuve | L4 |
+| Nouvelle Indication Prédite | Syndrome de Sanfilippo (Sanfilippo syndrome) |
+| Score de Prédiction TxGNN | 0.9922 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
-| Decision Recommandee | Hold |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues, la laronidase est une alpha-L-iduronidase recombinante qui dégrade les glycosaminoglycanes (sulfate de dermatane et sulfate d'héparane). Son efficacité dans la mucopolysaccharidose de type I est établie par un essai randomisé contre placebo.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la laronidase est une alpha-L-iduronidase recombinante qui remplace l'enzyme déficiente dans la MPS I, en dégradant les glycosaminoglycanes (héparane sulfate et dermatane sulfate).
 
-L'atteinte squelettique (dysostose multiple) de la MPS I résulte de l'accumulation de ces glycosaminoglycanes dans l'os, le cartilage et les ostéoblastes. Une étude in vitro (PMID 18758061) montre que la laronidase est captée par des fibroblastes et des ostéoblastes en culture, ce qui soutient un mécanisme cellulaire plausible.
+Le syndrome de Sanfilippo (MPS III) est dû au déficit d'une des enzymes de dégradation de l'héparane sulfate (sulfamidase, N-acétyl-alpha-glucosaminidase, acétyl-CoA:alpha-glucosaminide acétyltransférase ou N-acétylglucosamine-6-sulfatase). La laronidase agit sur une étape située en amont (retrait des résidus d'acide iduronique) : elle ne remplace donc pas l'enzyme déficiente dans la MPS III. Les deux maladies partagent une accumulation d'héparane sulfate, ce qui n'offre qu'une justification faible et indirecte.
 
-Il faut toutefois rester prudent : cette « nouvelle » indication est en réalité une catégorie de manifestations de l'indication déjà approuvée, et non une maladie distincte. La réponse osseuse à l'enzymothérapie intraveineuse est connue pour être limitée, en raison de la faible pénétration dans le cartilage avasculaire et l'os. Le score élevé de TxGNN reflète donc surtout le chevauchement avec l'indication existante, et non une preuve indépendante de repositionnement.
+La charge principale de la MPS III est neurologique, et la laronidase administrée par voie intraveineuse ne traverse pas de façon significative la barrière hémato-encéphalique. Le score élevé semble refléter la proximité du syndrome de Sanfilippo avec la MPS I dans le réseau du modèle plutôt qu'une preuve d'efficacité.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
+Aucune de ces publications n'étudie directement le syndrome de Sanfilippo. Elles concernent la MPS I ou des données précliniques.
+
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Revue | Pediatric Endocrinology Reviews | Présentation de la MPS I (déficit en alpha-L-iduronidase, accumulation de GAG) et de son spectre, de Hurler à Scheie ; diagnostic par GAG urinaires et dosage enzymatique |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Revue | BioDrugs | Développement de la laronidase en enzymothérapie substitutive de la MPS I ; désignation de médicament orphelin aux États-Unis et en Europe |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Étude in vitro | Biological & Pharmaceutical Bulletin | Captation dose-dépendante de la laronidase par des fibroblastes et ostéoblastes en culture, principalement via les récepteurs du mannose-6-phosphate, puis transport vers les lysosomes |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Cas clinique | Pediatric Neurology | Suivi de 6,5 ans d'un garçon atteint du syndrome de Scheie sous enzymothérapie ; déclin de l'état général et progression de la maladie malgré le traitement |
+| [15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/) | 2004 | ECR (MPS I, contrôlé par placebo) | J Pediatr | Étude pivot confirmant l'efficacité et la sécurité de la laronidase dans la MPS I ; non transposable à Sanfilippo |
+| [40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/) | 2025 | ECR (MPS I) | Sci Rep | Comparaison d'une laronidase biosimilaire à la référence sur les GAG urinaires dans la MPS I |
+| [31020996](https://pubmed.ncbi.nlm.nih.gov/31020996/) | 2019 | Revue systématique | J Inherit Metab Dis | Données limitées sur l'efficacité en vie réelle du traitement enzymatique substitutif dans la MPS I |
+| [32340185](https://pubmed.ncbi.nlm.nih.gov/32340185/) | 2020 | Revue | Int J Mol Sci | Efficacité et limites des traitements enzymatiques intraveineux dans plusieurs MPS |
+| [15794739](https://pubmed.ncbi.nlm.nih.gov/15794739/) | 2005 | Revue d'expérience clinique | Expert Opin Pharmacother | Cinq premières années d'expérience clinique avec la laronidase dans la MPS I |
+| [33139350](https://pubmed.ncbi.nlm.nih.gov/33139350/) | 2021 | Cohorte | Arch Dis Child | Amélioration du délai de mise sous traitement, mais pas du délai de diagnostic, dans la MPS I |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Revue | BioDrugs | Présentation du développement de la laronidase dans la MPS I |
+| [23251908](https://pubmed.ncbi.nlm.nih.gov/23251908/) | 2012 | Étude préclinique in vitro | Acta Biochim Pol | Comparaison siRNA et traitement enzymatique en culture cellulaire ; n'établit pas d'efficacité dans Sanfilippo |
 
-## Informations de Marche en France
+## Informations de Marché en France
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 66328396 (annulée) | ALDURAZYME 100 U/ml, solution à diluer pour perfusion (SANOFI, Pays-Bas) | Solution à diluer pour perfusion | Non renseignée |
+| 66328396 | ALDURAZYME 100 U/ml, solution à diluer pour perfusion (SANOFI, Pays-Bas) | Solution à diluer pour perfusion | Non renseignée |
 
-## Considerations de Securite
+La laronidase est commercialisée en France (1 AMM valide).
 
-**Interactions Medicamenteuses** : 2 interactions de niveau mineur recensées :
+## Considérations de Sécurité
+
+**Interactions Médicamenteuses** (2 interactions mineures) :
 - Chloroquine (mineure)
 - Procaïne (mineure)
 
-Pour les mises en garde et contre-indications, veuillez consulter la notice.
+Veuillez consulter la notice pour les autres informations de sécurité (mises en garde et contre-indications).
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L4 : aucun essai clinique n'existe pour cette indication, et les publications sont des revues, une étude in vitro et un cas clinique. Le score TxGNN élevé reflète surtout la proximité avec l'indication MPS I déjà connue, et la réponse osseuse à l'enzymothérapie intraveineuse est limitée.
-- La seule AMM française est annulée, et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+Aucune étude ne porte directement sur le syndrome de Sanfilippo, la laronidase ne remplace pas l'enzyme déficiente dans cette maladie et elle ne franchit pas la barrière hémato-encéphalique. Le score élevé ne suffit pas à justifier une progression.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier si l'atteinte squelettique constitue une indication distincte ou relève de l'indication MPS I existante
-- Rassembler des données cliniques spécifiques à la réponse squelettique sous enzymothérapie
-- Vérifier le statut réglementaire actuel du produit en France (AMM annulée)
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Données précliniques démontrant un effet de la laronidase sur l'accumulation d'héparane sulfate et sur le système nerveux central dans des modèles de MPS III
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice officielle (ANSM)
+- Stratégie d'administration permettant d'atteindre le système nerveux central
 
 ---
 

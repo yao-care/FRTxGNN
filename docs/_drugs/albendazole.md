@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "ALBENDAZOLE"
 predicted_indications: ["coenurosis"]
-description: "Albendazole : nouvelle indication prédite, Coenurosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Albendazole : nouvelle indication prédite, Cénurose (coenurosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Albendazole
@@ -33,68 +33,50 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 </div>
 
-## Albendazole: Coenurosis
+## Albendazole: Cénurose (coenurosis)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Albendazole est un antiparasitaire de la famille des benzimidazoles, initialement utilisé pour traiter l'échinococcose kystique, la cysticercose et l'infection à *Echinococcus granulosus*.
-Il s'agit davantage d'une extension au sein d'une même classe de médicaments et d'un même genre de parasite que d'un repositionnement au sens strict.
-
----
+L'albendazole est un antiparasitaire de la classe des benzimidazolés, qui agit sur les vers et leurs larves.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cénurose (coenurosis)**, avec un score de 0.9983.
+Les données compilées pour ce rapport comptent **9 essais cliniques**, mais ils portent presque tous sur la neurocysticercose, une maladie voisine : aucun ne porte directement sur la cénurose, et aucune publication n'est disponible.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Coenurosis |
+| Nouvelle Indication Prédite | Cénurose (coenurosis) |
 | Score de Prédiction TxGNN | 0.9983 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
-| Décision Recommandée | Proceed with Guardrails |
-
----
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-L'albendazole est un antihelminthique de la famille des benzimidazoles. Les données détaillées sur le mécanisme d'action ne figurent pas dans les données compilées pour ce rapport. Selon les connaissances pharmacologiques établies, il se lie à la bêta-tubuline du parasite et inhibe la polymérisation des microtubules, ce qui perturbe l'absorption du glucose et le métabolisme énergétique des helminthes.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'albendazole fait partie des benzimidazolés, dont l'effet attendu repose sur l'inhibition de la bêta-tubuline des parasites.
 
-*Echinococcus multilocularis*, agent de l'échinococcose alvéolaire, est très proche d'*Echinococcus granulosus*, responsable de l'échinococcose kystique (indication d'origine). Le mécanisme est donc directement transférable d'une espèce à l'autre.
+La cénurose est causée par le stade larvaire de *Taenia multiceps* (et d'espèces voisines du genre *Taenia*). Ces larves de ténia sont proches de celles de *Taenia solium*, contre lesquelles l'albendazole est étudié dans la neurocysticercose. Le mécanisme pourrait donc être transposable.
 
-L'albendazole est d'ailleurs déjà le traitement chimiothérapique recommandé par les consensus d'experts pour l'échinococcose alvéolaire. Son action est parasitostatique, et le traitement est prolongé ou administré après chirurgie. Le score TxGNN très élevé est cohérent avec cette situation.
-
----
+Il s'agit toutefois d'une extrapolation. La cénurose humaine est rare, et aucun essai randomisé dédié n'apparaît dans les données compilées. Les essais disponibles étudient une maladie voisine. Aucun n'étudie directement la cénurose, d'où le niveau de preuve L5.
 
 ## Preuves d'Essais Cliniques
 
+Ces essais portent sur la neurocysticercose et sont donc indirects pour la cénurose.
+
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | Terminé | 194 | Essai de traitement par albendazole dans l'échinococcose alvéolaire à un stade précoce (foyer détecté au Kirghizistan par dépistage échographique). Correspondance directe, mais plan de randomisation non précisé et résultats non fournis |
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | NA | Terminé | 50 | Étude prospective (EchinoVISTA) sur la viabilité du parasite et des marqueurs de suivi chez des patients traités par albendazole. Soutient la surveillance de la réponse plutôt que l'efficacité |
-| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | NA | Inconnu | 24 | Essai randomisé de l'albendazole adjuvant après résection d'un kyste hydatique pulmonaire, versus placebo. Concerne la forme kystique, donc indirect ; effectif faible |
-
----
-
-## Preuves de la Littérature
-
-Les publications ci-dessous sont les plus pertinentes parmi celles compilées (principalement des revues et des études observationnelles ; aucun ECR n'est répertorié).
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Revue (consensus d'experts) | Acta Tropica | Recommandations de consensus pour le diagnostic, le traitement et le suivi des échinococcoses kystique et alvéolaire |
-| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Revue | Clin Microbiol Rev | Avancées du XXIe siècle sur l'échinococcose, y compris les techniques de traitement |
-| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Revue | Semin Liver Dis | Synthèse sur l'échinococcose alvéolaire hépatique |
-| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Revue | Tidsskr Nor Legeforen | Prise en charge : résection chirurgicale étendue associée à un traitement prolongé |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Revue | World J Gastroenterol | Prise en charge actuelle de l'échinococcose hépatique ; la chirurgie reste la pierre angulaire |
-| [34432154](https://pubmed.ncbi.nlm.nih.gov/34432154/) | 2021 | Observationnelle (rétrospective) | Parasitol Res | Tolérance clinique et efficacité de l'albendazole chez 117 patients, suivi à long terme |
-| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Observationnelle | J Antimicrob Chemother | Comparaison albendazole/mébendazole chez 35 patients, suivi moyen de 39 mois |
-| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Revue | Zhongguo Xue Xi Chong Bing Fang Zhi Za Zhi | Progrès sur l'albendazole : il peut retarder la progression chez les patients non opérables |
-| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Revue | Parasitology | Le traitement repose exclusivement sur l'albendazole, non parasiticide, avec des effets indésirables parfois sévères ; la pyronaridine est évoquée comme alternative |
-| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Revue | Parasite | Albendazole et mébendazole : options thérapeutiques et pistes nouvelles |
-
----
+| [NCT02243644](https://clinicaltrials.gov/study/NCT02243644) | Phase 3 | Terminé | 97 | Comparaison de deux durées d'albendazole dans la neurocysticercose cérébrale (≤ 5 lésions) |
+| [NCT00441285](https://clinicaltrials.gov/study/NCT00441285) | Phase 2/3 | Terminé | 156 | Association praziquantel + albendazole dans la neurocysticercose : sécurité et efficacité |
+| [NCT00283699](https://clinicaltrials.gov/study/NCT00283699) | Phase 3 | Terminé | 178 | Étude pilote : albendazole contre traitement symptomatique dans la neurocysticercose |
+| [NCT00290823](https://clinicaltrials.gov/study/NCT00290823) | Phase 3 | Terminé | 110 | Corticoïdes à dose augmentée et fréquence des crises dans la neurocysticercose intraparenchymateuse |
+| [NCT02947581](https://clinicaltrials.gov/study/NCT02947581) | Phase 3 | Arrêté prématurément | 107 | Albendazole + praziquantel dans la neurocysticercose sous-arachnoïdienne ; l'arrêt précoce limite l'interprétation |
+| [NCT00004403](https://clinicaltrials.gov/study/NCT00004403) | Non applicable | Terminé | 120 | Albendazole dans l'épilepsie due à la neurocysticercose |
+| [NCT06376396](https://clinicaltrials.gov/study/NCT06376396) | Phase 4 | Pas encore en recrutement | 300 (prévus) | Praziquantel + albendazole contre albendazole seul dans la neurocysticercose parenchymateuse ; pas de résultats |
+| [NCT00133458](https://clinicaltrials.gov/study/NCT00133458) | Phase 3 | Retiré | 0 | Un mois contre deux mois d'albendazole dans la neurocysticercose sous-arachnoïdienne ; aucun participant inclus |
+| [NCT06565507](https://clinicaltrials.gov/study/NCT06565507) | Phase 2/3 | Pas encore en recrutement | 544 (prévus) | Oxfendazole (et non albendazole) dans la neurocysticercose parenchymateuse légère ; peu pertinent |
 
 ## Informations de Marché en France
 
@@ -104,38 +86,28 @@ Les publications ci-dessous sont les plus pertinentes parmi celles compilées (p
 | 65565944 | ZENTEL 400 mg, comprimé (active) | Comprimé | Non renseignée |
 | 68879708 | ESKAZOLE 400 mg, comprimé (active) | Comprimé | Non renseignée |
 
-Les trois AMM (titulaire : GlaxoSmithKline) sont valides ; le médicament est actuellement commercialisé.
-
----
+L'albendazole est commercialisé en France ; les 3 AMM listées sont valides.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances (non issues de la notice)** : maladie hépatique, maladie de la vésicule biliaire, neutropénie, agranulocytose, anémie (dont anémie macrocytaire), pancytopénie, anémie aplasique idiopathique et anémie aplasique.
-- **Interactions médicamenteuses** : 96 interactions répertoriées. Parmi celles listées, la plupart sont de niveau modéré, notamment : aprépitant, cobicistat, déférasirox, iodure I-123 et I-131, fostamatinib, abamétapir (topique), alemtuzumab, amprénavir, anagrélide, apalutamide, bendamustine, bexarotène, binimétinib, bocéprévir et bosentan. Les interactions de niveau mineur concernent la cimétidine, la dexaméthasone, la lidocaïne et l'armodafinil.
+- **Interactions médicamenteuses** : 96 interactions sont recensées. Parmi les premières listées, plusieurs sont de niveau modéré : aprépitant, cobicistat, défératirox, iodure I-123, iodure I-131, fostamatinib, alemtuzumab, amprénavir, anagrélide, apalutamide, bendamustine, bexarotène, binimétinib, bocéprévir et bosentan. Les interactions de niveau mineur incluent la cimétidine, la dexaméthasone, la lidocaïne et l'armodafinil.
+- **Pathologies à surveiller** : les données compilées signalent des contre-indications possibles ou des précautions en cas de maladie hépatique, de maladie de la vésicule biliaire et d'atteintes hématologiques (neutropénie, agranulocytose, anémie, pancytopénie, aplasie médullaire). Ces éléments ne proviennent pas du texte de la notice et doivent être confirmés.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations. L'accent sur l'hématotoxicité et l'hépatotoxicité suggère une surveillance de la NFS et des tests hépatiques.
-
----
+Veuillez consulter la notice pour les informations de sécurité détaillées.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- L'albendazole est déjà le traitement de référence recommandé pour l'échinococcose alvéolaire, et un essai de phase 2 terminé (194 participants) porte directement sur cette indication, ce qui correspond à un niveau de preuve L2. Les AMM françaises étant toutes annulées et les données de sécurité issues de la notice manquantes, la prudence s'impose.
+Aucun essai ni aucune publication ne porte directement sur la cénurose : les essais disponibles concernent la neurocysticercose et ne soutiennent la prédiction que par extrapolation. Les informations de sécurité issues de la notice manquent aussi.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice officielle (mises en garde, contre-indications), étape bloquante pour le dépistage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank
-- Obtenir les résultats publiés de l'essai NCT07182305 (plan randomisé, critères d'évaluation)
-- Clarifier la situation réglementaire en France (AMM annulées, disponibilité effective du produit)
-- Définir un plan de surveillance hématologique et hépatique et examiner les interactions médicamenteuses pertinentes
+- Rapports de cas, séries de cas ou études publiés sur l'albendazole dans la cénurose humaine
+- Données détaillées sur le mécanisme d'action
+- Avertissements et contre-indications issus de la notice de l'ANSM
+- Évaluation de la sécurité hématologique et hépatique pour un traitement prolongé, ainsi que des interactions médicamenteuses
 
----
-
-### Note sur les autres indications prédites
-
-Elles sont présentées comme L1 dans les données, mais cette classification repose sur des essais de phase 3 portant sur la neurocysticercose (indication déjà existante), et non sur la coenurose elle-même. La coenurose humaine est rare et ne dispose d'aucun essai randomisé dédié ; l'application est donc une extrapolation. La catégorie « infection à cestodes » est un parent des indications d'origine, et son score élevé reflète surtout la hiérarchie de l'ontologie, non un véritable repositionnement.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
