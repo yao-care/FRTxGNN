@@ -4,17 +4,17 @@ title: Riluzole
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 669
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "RILUZOLE"
-predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
-description: "Riluzole : nouvelle indication prédite, Bilateral parasagittal parieto-occipital polymicrogyria (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
+description: "Riluzole : nouvelle indication prédite, Polymicrogyrie parasagittale pariéto-occipitale bilatérale (bilateral parasagittal parieto-occipital polymicrogyria) (niveau de preuve L5)."
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,21 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
+## Riluzole: Polymicrogyrie parasagittale pariéto-occipitale bilatérale (bilateral parasagittal parieto-occipital polymicrogyria)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Le riluzole est un médicament initialement utilisé pour le traitement de la sclérose latérale amyotrophique (SLA).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polymicrogyrie parasagittale pariéto-occipitale bilatérale**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction : il s'agit d'une prédiction issue du modèle uniquement.
+Le riluzole est un médicament neurologique commercialisé en France sous plusieurs formes (comprimé, suspension buvable, film orodispersible).
+Le modèle TxGNN prédit qu'il pourrait être utile pour la **polymicrogyrie parasagittale pariéto-occipitale bilatérale (bilateral parasagittal parieto-occipital polymicrogyria)**, avec un score de 0.9999.
+Aucun essai clinique ni aucune publication ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Bilateral parasagittal parieto-occipital polymicrogyria |
+| Nouvelle Indication Prédite | Polymicrogyrie parasagittale pariéto-occipitale bilatérale (bilateral parasagittal parieto-occipital polymicrogyria) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
@@ -55,11 +56,9 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polymicrogyrie 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature générale sur la SLA, le riluzole est associé à la modulation de la transmission glutamatergique et à la limitation de l'excitotoxicité. Il s'agit ici d'un contexte général, non d'une donnée propre à ce dossier.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le riluzole module la signalisation glutamatergique et agit sur les canaux sodiques.
 
-Le lien avec la nouvelle indication est très spéculatif. La polymicrogyrie est une malformation corticale pouvant s'accompagner de composantes épileptogènes ou neurodéveloppementales, où la signalisation glutamatergique pourrait jouer un rôle.
-
-Il convient de noter que d'autres prédictions du même médicament sont mécanistiquement plus plausibles, notamment les maladies du motoneurone (syndrome du motoneurone inférieur de l'adulte tardif, amyotrophie monomélique, syndrome de Mills, sous-types génétiques de SLA). Elles ne sont toutefois pas davantage étayées par des essais ou des publications spécifiques.
+Une hypothèse purement spéculative est que cette modulation du glutamate pourrait avoir un intérêt dans une malformation corticale accompagnée de composantes épileptogènes ou neurodéveloppementales. Aucune donnée directe ne vient étayer ce lien, et le score élevé du modèle reflète une prédiction fondée sur un réseau de relations, non une démonstration biologique ou clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -71,6 +70,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
+Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, toutes valides ; ce sont des spécialités à base de riluzole seul.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -82,25 +82,23 @@ Aucune littérature associée disponible actuellement.
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : neutropénie, agranulocytose, abus/dépendance aux substances, hyperbilirubinémie (y compris héréditaire), syndrome de Gilbert, pneumopathie interstitielle, atteinte hépatique d'origine médicamenteuse.
-- **Interactions médicamenteuses** : 44 interactions recensées. Parmi celles listées, les niveaux **modérés** concernent l'acide obéticholique, la naltrexone, le déférasirox, l'osilodrostat, l'anagrélide, l'asparaginase, le brentuximab védotin, la clofarabine, le méthotrexate et l'épirubicine. Des interactions mineures sont décrites avec l'oméprazole, la caféine, la théophylline et l'aminophylline. Certaines (metformine, simvastatine, ranitidine, etc.) sont de niveau inconnu.
+Les mises en garde et contre-indications issues de la notice ne figurent pas dans les données compilées ; veuillez consulter la notice pour ces informations.
 
-Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu être obtenues. Veuillez consulter la notice pour ces informations.
+- **Interactions médicamenteuses** : 44 interactions sont recensées. Parmi celles listées, plusieurs sont de niveau modéré : acide obéticholique, naltrexone, déférasirox, osilodrostat, anagrélide, asparaginase, brentuximab védotine, clofarabine, méthotrexate, épirubicine. Des interactions mineures sont signalées avec l'oméprazole, la caféine, la théophylline et l'aminophylline.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le mécanisme n'est pas documenté, et le profil de risque hépatique et hématologique appelle la prudence.
-- Les AMM françaises sont toutes annulées, ce qui limite la faisabilité d'un repositionnement local.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et le lien mécanistique reste purement spéculatif. Les données de sécurité de la notice sont également absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).
-- Compléter les données sur le mécanisme d'action (via DrugBank).
-- Réaliser une revue de la littérature précliniques et cliniques ciblée sur la polymicrogyrie et la signalisation glutamatergique.
-- Envisager de prioriser les prédictions voisines de la SLA (maladies du motoneurone), mécanistiquement plus plausibles.
-- Clarifier la situation réglementaire (raisons des annulations d'AMM) et la disponibilité de la voie d'administration.
+- Données détaillées sur le mécanisme d'action du riluzole
+- Récupération des mises en garde et contre-indications de la notice (ANSM)
+- Revue de la littérature sur le rôle de la signalisation glutamatergique dans les malformations corticales
+- Études précliniques ou cliniques ciblant directement cette malformation
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

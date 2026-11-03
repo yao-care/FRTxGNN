@@ -12,6 +12,8 @@ description: "Candidats au repositionnement de médicaments de niveau L1-L2 dans
 Candidats pouvant être évalués en priorité sur le plan clinique
 </p>
 
+Lesquels de ces médicaments ont des preuves d'essais pour leur nouvelle indication prédite, et combien d'essais enregistrés sont cités ? Voir [Médicaments en France avec des preuves d'essais cliniques pour une nouvelle indication]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Critères

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
-description: "Ganirelix : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée da…"
+description: "Ganirelix : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée da…"
 ---
 
 # Ganirelix
@@ -33,7 +33,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Ganirelix: Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (hypertrichosis (disease))
+## Ganirelix: Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -46,7 +46,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertrichos
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) (hypertrichosis (disease)) |
+| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) (hypertrichosis (disease)) |
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |

@@ -4,17 +4,17 @@ title: Cemiplimab
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 153
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 monitor_inn: "cemiplimab"
-predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-10-30
-description: "Cemiplimab : nouvelle indication prédite, Carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
+predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
+last_modified_at: 2026-11-03
+description: "Cemiplimab : nouvelle indication prédite, Carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma) (niveau de preuve L5)."
 ---
 
 # Cemiplimab
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 </div>
 
-## Cémiplimab : anticorps anti-PD-1 → carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma)
+## Cemiplimab: Carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma)
 {: .text-alpha }
 
 ## Résumé en une phrase
 
-Le cémiplimab est un anticorps bloquant le récepteur PD-1 (PDCD1), utilisé en oncologie.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma)**,
-mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
+Le cémiplimab est un anticorps bloquant la protéine PD-1, utilisé en oncologie.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma)**, avec un score de 0,9999.
+Aucun essai clinique ni aucune publication ne soutiennent actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu rapide
 
@@ -48,7 +48,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 |------|------|
 | Indication originale | Non renseignée dans les données locales |
 | Nouvelle indication prédite | Carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma) |
-| Score de prédiction TxGNN | 0,9999 |
+| Score de prédiction TxGNN | 0.9999 |
 | Niveau de preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
@@ -56,48 +56,56 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Le cémiplimab bloque l'interaction entre PD-1 et son ligand PD-L1 (concentration inhibitrice 50 % inférieure à 1 nM in vitro). En levant ce frein immunitaire, il permet aux lymphocytes T d'attaquer les cellules tumorales. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées, mais la cible (PDCD1) est bien documentée.
+Les données détaillées sur le mécanisme d'action ne figurent pas dans les données compilées pour ce rapport. D'après les informations pharmacologiques disponibles, le cémiplimab est un anticorps qui se fixe sur le récepteur PD-1 (gène *PDCD1*) et bloque son interaction avec PD-L1, avec une IC50 inférieure à 1 nM en test ELISA. Ce blocage lève le frein exercé sur les lymphocytes T et permet à la réponse immunitaire antitumorale de s'exprimer.
 
-La prédiction repose sur la composante épidermoïde (squameuse) de cette tumeur, qui pourrait partager une biologie de l'axe PD-1/PD-L1 avec les carcinomes épidermoïdes déjà traités par le cémiplimab. Ce lien reste purement hypothétique : aucune donnée n'a été fournie pour le confirmer.
+La composante épidermoïde (squameuse) de ce rare carcinome pourrait partager une biologie de l'axe PD-1/PD-L1 avec les tumeurs squameuses sur lesquelles le cémiplimab a montré une activité. Ce lien reste toutefois purement hypothétique : aucun essai ni aucune publication n'a été fourni, et l'expression de PD-L1 ainsi que le statut MSI/TMB de cette tumeur sont inconnus.
 
-Il s'agit d'une tumeur rare, dont l'expression de PD-L1 et le statut MSI/TMB sont inconnus, ce qui limite davantage l'évaluation.
+## Preuves d'essais cliniques
+
+Aucun essai clinique associé enregistré actuellement.
+
+## Preuves de la littérature
+
+Aucune littérature associée disponible actuellement.
 
 ## Informations de marché en France
+
+Le cémiplimab est commercialisé en France. Une AMM valide est recensée.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
 | 61660291 | LIBTAYO 350 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
 
+## Cytotoxicité
+
+| Élément | Contenu |
+|------|------|
+| Classification de cytotoxicité | Immunothérapie (anticorps anti-PD-1) |
+| Risque de myélosuppression | Données de toxicité non disponibles ; veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'émétogénicité | Données non disponibles ; veuillez consulter la notice |
+| Éléments de surveillance | Veuillez consulter la notice (suivi habituel des immunothérapies : fonction hépatique, rénale, thyroïdienne et glycémie) |
+| Protection de manipulation | Veuillez consulter la notice pour les consignes de manipulation |
+
 ## Considérations de sécurité
 
-**Interactions médicamenteuses** (niveau modéré, 9 corticoïdes) :
-- Hydrocortisone
-- Triamcinolone
-- Dexaméthasone
-- Bétaméthasone
-- Budésonide
-- Prednisolone
-- Prednisone
-- Méthylprednisolone
-- Déflazacort
+**Interactions médicamenteuses** (niveau modéré) : des interactions sont recensées avec des corticoïdes, notamment l'hydrocortisone, la triamcinolone, la dexaméthasone, la bétaméthasone, le budésonide, la prednisolone, la prednisone, la méthylprednisolone et le déflazacort. Les corticoïdes pouvant atténuer l'effet d'une immunothérapie, leur usage doit être évalué au cas par cas.
 
-Ces interactions sont de niveau modéré : les corticoïdes peuvent atténuer l'effet immunitaire attendu d'un inhibiteur de PD-1.
-
-Veuillez consulter la notice pour les mises en garde et contre-indications.
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score du modèle (0,9999), sans essai clinique ni publication portant sur cette maladie. Le niveau de preuve est L5.
+La prédiction repose uniquement sur le score du modèle (0,9999), sans essai clinique ni publication portant sur cette maladie. Le niveau de preuve est donc L5, et le rationnel mécanistique reste non vérifié pour une tumeur rare.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Revue de la littérature et des essais sur les carcinomes adénosquameux des voies biliaires sous inhibiteurs de PD-1
-- Évaluation de l'expression de PD-L1 et du statut MSI/TMB dans cette tumeur
-- Données détaillées sur le mécanisme d'action
-- Mises en garde et contre-indications issues de la notice ANSM
-- Vérification de la compatibilité de la voie d'administration (perfusion) avec cette indication
+- Les mises en garde et contre-indications issues de la notice officielle (ANSM), indispensables au criblage de sécurité
+- Des données détaillées sur le mécanisme d'action
+- Une revue de la littérature (séries de cas, études précliniques) sur l'immunothérapie anti-PD-1 dans le carcinome adénosquameux biliaire
+- Le profil d'expression de PD-L1 et le statut MSI/TMB de cette tumeur
+- Si ces éléments sont favorables, une étude exploratoire de phase 2 ciblée
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

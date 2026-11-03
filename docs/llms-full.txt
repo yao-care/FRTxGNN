@@ -15,6 +15,7 @@ Les niveaux de preuve vont de L1 (preuves cliniques plus solides) à L5 (prédic
 - `/` Prédictions de Repositionnement de Médicaments — Prédictions de repositionnement de médicaments par IA pour la France. Analyse fondée sur les preuves des nouvelles indications thérapeutiques possibles des médicaments autorisés.
 - `/drugs/` Tous les médicaments — Tous les rapports de validation de médicaments et les statistiques par niveau de preuve dans FRTxGNN.
 - `/evidence-high/` Preuves élevées (L1-L2) — Candidats au repositionnement de médicaments de niveau L1-L2 dans FRTxGNN, appuyés par des essais cliniques ou des revues systématiques.
+- `/clinical-trial-evidence/` Médicaments en France : essais pour une nouvelle indication — Médicaments de la BDPM (ANSM) dont la nouvelle indication prédite par TxGNN a des preuves d'essais cliniques (L1-L2) : indication, niveau, essais.
 - `/evidence-medium/` Preuves modérées (L3-L4) — Candidats au repositionnement de médicaments de niveau L3-L4 dans FRTxGNN, appuyés par des données observationnelles ou précliniques.
 - `/evidence-low/` Prédiction du modèle uniquement (L5) — Candidats de niveau L5 dans FRTxGNN : prédiction du modèle uniquement, sans preuve clinique ni littérature à ce jour.
 - `/methodology/` Méthodologie — Comment FRTxGNN produit et valide ses prédictions : prédiction par le modèle TxGNN (apprentissage profond), collecte de preuves, gradation L1-L5 et recommandations de décision.

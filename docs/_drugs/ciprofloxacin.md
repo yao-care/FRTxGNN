@@ -4,17 +4,17 @@ title: Ciprofloxacin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 173
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "ciprofloxacin"
-predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-La ciprofloxacine est un antibiotique de la famille des fluoroquinolones, utilisé à l'origine contre des infections bactériennes (fièvre typhoïde, salmonellose, pneumonie bactérienne, infections à *Pseudomonas aeruginosa*, charbon, dysenterie, etc.).
-Le modèle TxGNN prédit qu'elle pourrait être utile dans la **sclérodermie diffuse**.
-Les données compilées pour ce rapport ne contiennent **aucun essai clinique enregistré** et **2 publications** seulement, de portée limitée ou exploratoire.
+La ciprofloxacine est un antibiotique de la famille des fluoroquinolones.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **sclérodermie diffuse (diffuse scleroderma)**,
+mais les preuves restent minces : **aucun essai clinique enregistré** et **2 publications** seulement, de portée exploratoire ou indirecte.
 
 ## Aperçu Rapide
 
@@ -56,26 +56,26 @@ Les données compilées pour ce rapport ne contiennent **aucun essai clinique en
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la ciprofloxacine fait partie des fluoroquinolones, son efficacité antibactérienne est établie, et elle pourrait être applicable à la sclérodermie diffuse par deux voies hypothétiques, aucune n'étant démontrée comme modifiant la maladie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la ciprofloxacine appartient à la classe des fluoroquinolones, antibiotiques actifs sur de nombreuses bactéries.
 
-La première est un effet **antifibrotique** possible sur la peau, par modulation de la synthèse du collagène ou de l'activité des fibroblastes. Une publication de 2010 a évalué cette hypothèse chez des patients atteints de sclérodermie. La seconde est **indirecte** : la ciprofloxacine peut traiter la prolifération bactérienne de l'intestin grêle, fréquente dans la sclérodermie systémique et responsable de diarrhée chronique et de perte de poids. Dans ce cas, elle soulage un symptôme digestif sans agir sur la maladie elle-même.
+Deux pistes sont évoquées dans la littérature. La première est un effet antifibrosant sur la peau (PMID 20507401), peut-être par modulation de la synthèse du collagène ou de l'activité des fibroblastes. La seconde est indirecte : traiter la prolifération bactérienne de l'intestin grêle, fréquente dans la sclérodermie systémique (PMID 7728404), surtout chez les patients souffrant de diarrhée chronique et de perte de poids.
 
-L'indication originale (infections bactériennes) et la sclérodermie (maladie auto-immune fibrosante) sont très éloignées sur le plan thérapeutique. Le score élevé du modèle s'appuie donc surtout sur des associations dans le réseau de connaissances. Il ne constitue pas une preuve clinique.
+Aucune de ces deux pistes n'est établie comme modifiant l'évolution de la maladie. Les publications disponibles sont de petite taille ou exploratoires.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Étude exploratoire (le résumé évoque un essai randomisé contrôlé en double aveugle ; la conception n'a pas pu être confirmée) | The Journal of Dermatology | Évaluation de la ciprofloxacine orale comme antifibrotique cutané dans la sclérodermie. Les résultats chiffrés ne figurent pas dans les données disponibles. |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Étude transversale / diagnostique | British Journal of Rheumatology | 24 patients atteints de sclérodermie systémique avec symptômes de malabsorption, étudiés pour la prolifération bactérienne de l'intestin grêle (détection et résultat du traitement). |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Étude exploratoire ; l'extrait décrit un essai contrôlé randomisé en double aveugle | The Journal of Dermatology | Évaluation de la ciprofloxacine orale comme antifibrosant cutané : réduit-elle la sévérité de la sclérodermie ? Les résultats chiffrés ne figurent pas dans l'extrait disponible. |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Étude transversale / diagnostique | British Journal of Rheumatology | 24 patients atteints de sclérodermie systémique avec symptômes de malabsorption, recherche d'une prolifération bactérienne de l'intestin grêle et résultats du traitement. |
 
 ## Informations de Marché en France
 
-Les 10 AMM sur 10 sont valides. Le texte d'indication approuvée n'est pas renseigné. Cinq des dix AMM sont listées.
+La ciprofloxacine est commercialisée en France. Les dix autorisations recensées sont des spécialités à base de ciprofloxacine seule, toutes valides.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -87,27 +87,23 @@ Les 10 AMM sur 10 sont valides. Le texte d'indication approuvée n'est pas rense
 
 ## Considérations de Sécurité
 
-- **Maladies ou situations à risque** (issues du graphe de connaissances, et non du texte de la notice) : syndrome du QT long (y compris familial) et torsades de pointes, épilepsie, maladie rénale, hypokaliémie, tendinite et atteintes tendineuses ou articulaires (périarthrite, bursite achilléenne, épine calcanéenne, exostose), neuropathie périphérique, colite à *Clostridium difficile*, entérocolite nécrosante périnatale, myasthénie (y compris de l'adulte) et maladies de la jonction neuromusculaire, surinfection.
-- **Interactions médicamenteuses** : 417 interactions sont recensées. Les interactions de niveau **majeur** les plus notables concernent les corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, bétaméthasone) et le bupropion. Des interactions de niveau modéré touchent notamment des antidiabétiques (metformine, pioglitazone, acarbose, alogliptine, albiglutide), le famotidine, l'aspirine, le lopéramide, l'alosétron et l'aprépitant. Les corticoïdes sont souvent utilisés chez les patients sclérodermiques, ce qui appelle une vigilance particulière.
+- **Interactions médicamenteuses** : 417 interactions sont recensées. Parmi celles de niveau majeur figurent l'hydrocortisone, le bupropion, la triamcinolone, la dexaméthasone et la bétaméthasone. Des interactions de niveau modéré existent notamment avec l'acarbose, la famotidine, la metformine, la pioglitazone, l'alosétron, le lopéramide, l'aprépitant et l'acide acétylsalicylique.
 
-Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles. Veuillez consulter la notice pour ces informations.
+Les mises en garde et contre-indications de la notice ne sont pas disponibles dans les données compilées pour ce rapport ; veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la sclérodermie diffuse repose sur un score de modèle élevé et sur deux publications, l'une exploratoire et l'autre portant sur un symptôme digestif. Il n'existe aucun essai clinique enregistré, et le niveau de preuve est L4.
-- Ces deux points empêchent d'aller plus loin pour l'instant.
+Les deux publications portent sur la sclérodermie, mais l'une est exploratoire, sans résultats chiffrés disponibles, et l'autre concerne la prolifération bactérienne intestinale plutôt qu'un effet sur la maladie elle-même. Aucun essai clinique n'est enregistré, et les données de sécurité de la notice manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Lire les textes intégraux des publications (notamment PMID 20507401) pour confirmer la conception de l'étude, l'effectif et les résultats.
-- Récupérer la notice officielle auprès de l'ANSM pour obtenir les mises en garde et contre-indications.
-- Obtenir les données détaillées sur le mécanisme d'action et sur un effet antifibrotique éventuel.
-- Mener des études confirmatoires (essai randomisé contrôlé de phase 2 au minimum) avant toute décision de développement.
-- Évaluer le profil de sécurité (tendons, neuropathie, QT, interactions avec les corticoïdes) dans la population sclérodermique.
+- Les résultats complets de l'essai randomisé de 2010 (PMID 20507401) et leur confirmation par une étude indépendante, plus large
+- Des données sur le mécanisme d'action de la molécule
+- Les mises en garde et contre-indications de la notice, notamment sur les tendinopathies, les neuropathies périphériques et l'allongement de l'intervalle QT
+- Un plan de surveillance des interactions, en particulier avec les corticoïdes
 
-À titre d'information, parmi les autres indications prédites, la **peste septicémique** (rang 10) présente un niveau de preuve plus élevé (L2), avec des essais randomisés sur la peste bubonique. Il s'agit toutefois d'une extension au sein de la classe des anti-infectieux, et non d'un repositionnement au sens strict.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
