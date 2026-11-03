@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triptorelin
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 792
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "triptorelin"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin : nouvelle indication prédite, Hypertrichosis (disease) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+description: "Triptorelin : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,49 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Triptorelin: Hypertrichosis (disease)
+## Triptorelin: Hypertrichose (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La triptoréline est un agoniste de la GnRH commercialisé en France sous les noms Decapeptyl, Gonapeptyl et Salvacyl. Les données compilées pour ce rapport ne renseignent pas son indication d'origine.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **puberté précoce**, avec **8 essais cliniques** et **20 publications** soutenant actuellement cette direction.
-Il s'agit toutefois d'une indication déjà établie pour ce médicament, et non d'un véritable repositionnement.
-
----
+La triptoréline est un agoniste de la GnRH (hormone de libération des gonadotrophines), commercialisé en France sous plusieurs noms (Decapeptyl, Gonapeptyl, Salvacyl).
+Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hypertrichose (hypertrichosis)**, mais cette prédiction ne repose sur **aucun essai clinique** et sur **une seule publication**, un cas clinique qui ne démontre aucun bénéfice de la triptoréline.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Hypertrichosis (disease) |
+| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) |
 | Score de Prédiction TxGNN | 1.0000 |
-| Niveau de Preuve | L1 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 15) |
 | Nombre d'AMM | 15 (valides : 14) |
-| Décision Recommandée | Proceed with Guardrails |
-
-Remarque : la première prédiction du classement TxGNN est l'hypertrichose (score 1,0000). Elle n'est soutenue par aucune preuve thérapeutique (niveau L4, décision Hold). Ce rapport se concentre sur la puberté précoce, qui est la prédiction la mieux documentée. Les autres prédictions sont résumées en fin de rapport.
-
----
+| Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la triptoréline est un agoniste de la GnRH. Une stimulation continue (non pulsatile) désensibilise les récepteurs hypophysaires de la GnRH. Cela freine la libération de LH et de FSH, puis la production des stéroïdes sexuels par les gonades.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la triptoréline appartient à la classe des agonistes de la GnRH : en stimulation continue, elle désensibilise l'hypophyse et réduit la production des hormones sexuelles.
 
-Dans la puberté précoce centrale, l'axe hypothalamo-hypophyso-gonadique s'active trop tôt. Freiner cet axe répond donc directement à la cause du trouble. Les agonistes de la GnRH sont d'ailleurs le traitement de référence de cette maladie, comme le rappellent plusieurs publications du corpus.
+Cette suppression androgénique pourrait en théorie atténuer un excès de pilosité dépendant des androgènes (hirsutisme). Or l'hypertrichose généralisée est un trouble distinct, qui n'est pas d'origine androgénique. Aucun lien mécanistique crédible n'est donc établi. Le score élevé du modèle semble refléter une proximité dans le réseau de données plutôt qu'une preuve thérapeutique.
 
-Cette prédiction correspond à une indication déjà établie de la triptoréline. Le champ « indications d'origine » est vide à cause d'un manque de données, non parce que le médicament n'aurait pas cette indication.
-
----
+La seule publication retrouvée décrit une hypertrichose induite par la ciclosporine chez une femme transgenre qui recevait déjà de la triptoréline et de l'estradiol. Elle montre que l'hypertrichose est survenue malgré la suppression androgénique, et non que la triptoréline la traite.
 
 ## Preuves d'Essais Cliniques
 
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT04736602](https://clinicaltrials.gov/study/NCT04736602) | Phase 3 | Terminé | 32 | Étude ouverte à bras unique de la formulation 3 mois chez des enfants chinois atteints de puberté précoce centrale (efficacité et sécurité) |
-| [NCT00564850](https://clinicaltrials.gov/study/NCT00564850) | Phase 3 | Terminé | 37 | Étude multicentrique non comparative du pamoate de triptoréline 11,25 mg : proportion d'enfants avec réponse de la LH freinée à 3 mois |
-| [NCT00909844](https://clinicaltrials.gov/study/NCT00909844) | Phase 3 | Terminé | 35 | Suivi à long terme de l'étude précédente : maintien de la régression ou de la stabilisation de la maturation sexuelle |
-| [NCT01467882](https://clinicaltrials.gov/study/NCT01467882) | Phase 3 | Terminé | 44 | Formulation 22,5 mg sur 6 mois : efficacité, sécurité et pharmacocinétique |
-| [NCT05029622](https://clinicaltrials.gov/study/NCT05029622) | Phase 3 | Terminé | 66 | Formulation 6 mois chez des enfants chinois : suppression de la LH à un pic ≤ 5 UI/L à 6 mois |
-| [NCT01278290](https://clinicaltrials.gov/study/NCT01278290) | Phase 3 | Terminé | 46 | Test à la triptoréline pour le diagnostic précoce de la puberté précoce centrale chez la fille (usage diagnostique, preuve indirecte) |
-| [NCT06487143](https://clinicaltrials.gov/study/NCT06487143) | Phase 4 | Pas encore en recrutement | 134 | Comparaison des formulations 3 mois et 1 mois : efficacité, métabolisme glucido-lipidique, densité osseuse |
-| [NCT00438217](https://clinicaltrials.gov/study/NCT00438217) | Phase 4 | Inconnu | 100 | Facteurs génétiques et environnementaux influençant la croissance (pas un essai d'efficacité direct) |
-
----
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [39412628](https://pubmed.ncbi.nlm.nih.gov/39412628/) | 2024 | Essai de phase 3 à bras unique | Advances in Therapy | Efficacité et sécurité de la formulation 6 mois chez des enfants chinois atteints de puberté précoce centrale |
-| [37584898](https://pubmed.ncbi.nlm.nih.gov/37584898/) | 2023 | Essai de phase 3 à bras unique | Advances in Therapy | Efficacité et sécurité de la formulation 3 mois chez des enfants chinois |
-| [37266535](https://pubmed.ncbi.nlm.nih.gov/37266535/) | 2023 | Étude comparative / méta-analyse | Frontiers in Pediatrics | Comparaison d'efficacité et de tolérance entre léuprolide et triptoréline dans la puberté précoce centrale idiopathique |
-| [29957076](https://pubmed.ncbi.nlm.nih.gov/29957076/) | 2018 | Revue | Expert Review of Clinical Pharmacology | Mise à jour sur la triptoréline retard : taille adulte, formulations 3 et 6 mois, sécurité |
-| [27191050](https://pubmed.ncbi.nlm.nih.gov/27191050/) | 2016 | Revue | Archives of Endocrinology and Metabolism | Diagnostic et prise en charge thérapeutique de la puberté précoce centrale |
-| [40988204](https://pubmed.ncbi.nlm.nih.gov/40988204/) | 2025 | Étude clinique | Medicine | Soins infirmiers en grappe associés à la triptoréline : efficacité clinique et qualité de vie chez 110 enfants |
-| [40916129](https://pubmed.ncbi.nlm.nih.gov/40916129/) | 2025 | Cohorte comparative | Annals of Pediatric Endocrinology & Metabolism | Léuprolide versus triptoréline chez des filles en surpoids ou obèses |
-| [41384863](https://pubmed.ncbi.nlm.nih.gov/41384863/) | 2025 | Étude de précision diagnostique | Endocrine Connections | Test de stimulation à la triptoréline sous-cutanée comparé à la gonadoréline intraveineuse |
-| [34826116](https://pubmed.ncbi.nlm.nih.gov/34826116/) | 2022 | Étude diagnostique | Endocrine | LH stimulée par la triptoréline comme outil diagnostique de la puberté précoce centrale |
-| [26887034](https://pubmed.ncbi.nlm.nih.gov/26887034/) | 2016 | Étude clinique | Journal of Pediatric Endocrinology & Metabolism | Première étude de la formulation 22,5 mg sur 6 mois dans la puberté précoce centrale |
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Cas clinique | Cureus | Hypertrichose généralisée induite par la ciclosporine chez une femme transgenre de 25 ans, atteinte de psoriasis en plaques sévère, traitée par estradiol et triptoréline. Aucun effet bénéfique de la triptoréline n'est rapporté. |
 
----
+Cette publication ne porte pas sur l'efficacité de la triptoréline dans l'hypertrichose ; le niveau de preuve est donc plafonné à L5.
 
 ## Informations de Marché en France
+
+Sur les 15 AMM recensées, 14 sont valides et 1 est annulée. Aucun texte d'indication n'est enregistré dans les données locales. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -112,48 +85,24 @@ Cette prédiction correspond à une indication déjà établie de la triptoréli
 | 65459503 | DECAPEPTYL LP 22,5 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 | 69847994 | SALVACYL L.P. 11,25 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 
-Au total, 15 AMM sont recensées, toutes annulées.
-
----
-
-## Cytotoxicité
-
-La triptoréline est un analogue hormonal. Elle n'est pas un antinéoplasique cytotoxique conventionnel dans le cadre de la présente évaluation, et les données compilées ne contiennent aucune indication oncologique. Cette section est donc omise.
-
----
-
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances (associations de type réseau, non extraites d'une notice)** : hypertension, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, hyperglycémie, diabète, acidocétose diabétique, obésité (y compris monogénique), pyo-uretère, obstruction des voies urinaires, maladie de la moelle épinière.
-- **Interactions médicamenteuses** : 262 interactions sont recensées. La plupart sont de niveau modéré, notamment avec les antidiabétiques (acarbose, metformine, pioglitazone, gliptines, gliflozines, glimépiride, chlorpropamide, dulaglutide, albiglutide), la famotidine, le lopéramide, le bisacodyl, la clarithromycine, le palonosétron et certains laxatifs de préparation colique. Une interaction **majeure** est signalée avec le **dolasétron**.
+- **Interactions médicamenteuses** : 262 interactions sont recensées. Une seule est de niveau majeur parmi les premières listées : la dolasétron. Les autres sont de niveau modéré, notamment les antidiabétiques (acarbose, metformine, pioglitazone, glimépiride, canagliflozine, dapagliflozine, empagliflozine, saxagliptine, alogliptine, albiglutide, dulaglutide, chlorpropamide), ainsi que la famotidine, le lopéramide, le bisacodyl, la clarithromycine, le palonosétron, l'acide picosulfurique et le polyéthylène glycol.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
-
----
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
-**Décision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Plusieurs essais de phase 3 terminés (formulations 1, 3 et 6 mois) et des publications de niveau 1 soutiennent l'efficacité de la triptoréline dans la puberté précoce centrale. Il s'agit d'une indication établie, et non d'un repositionnement nouveau.
-- Les 15 AMM françaises sont toutes annulées et les mises en garde de la notice sont indisponibles. Ces lacunes justifient des garde-fous avant toute avancée.
+La prédiction repose uniquement sur le score du modèle. Il n'existe aucun essai clinique, la seule publication est un cas clinique sans lien thérapeutique démontré, et aucun mécanisme plausible n'est identifié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice ANSM (mises en garde et contre-indications), lacune bloquante pour le criblage de sécurité
-- Obtenir les données sur le mécanisme d'action via DrugBank
-- Compléter l'indication d'origine, aujourd'hui vide
-- Préciser le plan de surveillance de la sécurité en population pédiatrique (métabolisme glucido-lipidique, densité osseuse)
-
-**Autres prédictions du modèle (toutes en Hold ou Research Question) :**
-
-| Maladie prédite | Niveau de preuve | Décision | Commentaire |
-|------|------|------|------|
-| Hypertrichose | L4 | Hold | Seul un cas clinique lié à la ciclosporine existe, sans bénéfice démontré de la triptoréline |
-| Puberté précoce familiale limitée au garçon (testotoxicose) | L4 | Research Question | Mécanisme indépendant des gonadotrophines : la triptoréline seule n'est pas attendue efficace, la littérature décrit surtout le kétoconazole et le létrozole |
-| Urticaire allergique | L5 | Hold | Association possiblement inverse (effet indésirable des agonistes de la GnRH) |
-| Syndrome d'excès d'aromatase | L5 | Hold | Rôle d'appoint seulement théorique, sans preuve |
-| Autres (syndrome d'Ambras, malformations dentaires/parodontales, syndrome de Dandy-Walker, anomalies génétiques de la tige pilaire, trichomégalie familiale) | L5 | Hold | Aucun lien mécanistique plausible ni preuve clinique |
+- Des données détaillées sur le mécanisme d'action
+- Une étude clinique ou une série de cas évaluant directement la triptoréline dans l'hypertrichose
+- Les mises en garde et contre-indications issues de la notice officielle
+- Une analyse de sécurité tenant compte des interactions, en particulier avec les antidiabétiques
 
 ## Avertissement
 

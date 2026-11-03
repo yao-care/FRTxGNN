@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 498
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole : nouvelle indication prédite, Acné (acne (disease)) (acne (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Miconazole : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Miconazole
@@ -33,7 +33,7 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Miconazole: Acné (acne (disease)) (acne (disease))
+## Miconazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
@@ -48,7 +48,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour l'**acné**, mais cette
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Acné (acne (disease)) (acne (disease)) |
+| Nouvelle Indication Prédite | Acné (acne (disease)) |
 | Score de Prédiction TxGNN | 0.9954 |
 | Niveau de Preuve | L3 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |

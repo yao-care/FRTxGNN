@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fluvoxamine
-parent: Preuves élevées (L1-L2)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 344
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "FLUVOXAMINE"
-predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
-description: "Fluvoxamine : nouvelle indication prédite, Schizotypal personality disorder (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Fluvoxamine : nouvelle indication prédite, Trouble de la personnalité schizotypique (schizotypal personality disorder) (niveau de preuve L5)."
 ---
 
 # Fluvoxamine
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,76 @@ Niveau de preuve: **L1** | Indications prédites: **10**
 
 </div>
 
-## Fluvoxamine: Schizotypal personality disorder
+## Fluvoxamine: Trouble de la personnalité schizotypique (schizotypal personality disorder)
 {: .text-alpha }
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-La fluvoxamine est un inhibiteur selectif de la recapture de la serotonine (ISRS), initialement utilise pour traiter la phobie sociale, les troubles phobiques et le trouble obsessionnel-compulsif (TOC).
-Le modele TxGNN predit qu'elle pourrait etre efficace pour le **trouble anxieux** (indication la mieux documentee parmi les 10 candidates), avec **13 essais cliniques** et **20 publications** soutenant actuellement cette direction.
+La fluvoxamine est un antidépresseur de la classe des inhibiteurs sélectifs de la recapture de la sérotonine.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble de la personnalité schizotypique (schizotypal personality disorder)**, mais les données compilées pour ce rapport ne contiennent **aucun essai clinique** et seulement **5 publications** indirectes (séries et rapports de cas), qui portent sur le TOC avec traits schizotypiques et non sur ce trouble lui-même.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Predite | Schizotypal personality disorder |
-| Score de Prediction TxGNN | 1.0000 |
-| Niveau de Preuve | L1 |
+| Nouvelle Indication Prédite | Trouble de la personnalité schizotypique (schizotypal personality disorder) |
+| Score de Prédiction TxGNN | 1.0000 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
-| Decision Recommandee | Proceed with Guardrails |
+| Décision Recommandée | Hold |
 
-**Remarque sur le choix de l'indication :** les quatre premieres predictions (troubles de la personnalite schizotypique, schizoide, histrionique et paranoiaque) ont un score un peu plus eleve (1.0000) mais reposent sur des preuves tres faibles (niveaux L4-L5, aucun essai clinique, decision « Hold »). Ce rapport retient donc le trouble anxieux, premier candidat disposant de preuves substantielles. Le trouble anxieux recoupe largement les indications deja connues (phobie sociale, TOC) : il s'agit surtout d'une extension du cadre existant plutot que d'un repositionnement au sens strict. L'agoraphobie (L1) et la depression endogene (L2) constituent d'autres pistes credibles.
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la fluvoxamine appartient à la classe des ISRS, et sa modulation de la transmission sérotoninergique pourrait, en théorie, être pertinente pour des troubles psychiatriques impliquant des circuits de l'anxiété et des comportements compulsifs.
 
-Les donnees detaillees sur le mecanisme d'action ne sont pas disponibles dans les informations compilees pour ce rapport. D'apres les connaissances etablies, la fluvoxamine est un ISRS qui est aussi un agoniste puissant du recepteur sigma-1. La modulation serotoninergique des circuits de la peur et de l'anxiete explique son efficacite dans la phobie sociale et le TOC.
+Le lien avec le trouble de la personnalité schizotypique reste toutefois indirect. Les publications retrouvées décrivent l'ajout d'un neuroleptique chez des patients atteints de TOC résistant à la fluvoxamine, où la présence de traits schizotypiques était associée à la réponse, ainsi que quelques cas cliniques. Elles ne testent pas la fluvoxamine dans le trouble schizotypique lui-même. Le score très élevé du modèle semble refléter une proximité dans le réseau avec le TOC et la classe des ISRS plutôt qu'une preuve clinique.
 
-Le trouble anxieux englobe notamment le trouble panique, l'anxiete generalisee et l'anxiete sociale, ainsi que, selon les classifications, le TOC. L'indication originale (phobie sociale, TOC) appartient donc deja a ce spectre. Le mecanisme serotoninergique est ainsi applicable a l'ensemble de la categorie, ce que soutiennent les revues de la classe des ISRS et les meta-analyses en reseau.
-
-Il faut garder a l'esprit que le score tres eleve provient du modele TxGNN (apprentissage profond) et peut refleter des similarites apprises par le modele entre maladies apparentees, et non une preuve biologique. La plausibilite est bonne, mais la nouveaute therapeutique est limitee.
+Aucune étude citée n'étudiant directement cette maladie, le niveau de preuve est plafonné à L5 : la prédiction repose uniquement sur le modèle.
 
 ## Preuves d'Essais Cliniques
 
-| Numero d'Essai | Phase | Statut | Inscription | Resultats Principaux |
-|---------|------|------|------|---------|
-| [NCT01933919](https://clinicaltrials.gov/study/NCT01933919) | Phase 3 | Termine | 38 | Fluvoxamine (SME3110) vs placebo dans le TOC pediatrique/adolescent ; efficacite et securite a long terme |
-| [NCT00000389](https://clinicaltrials.gov/study/NCT00000389) | Phase 3 | Termine | Non renseigne | Etude RUPP : fluvoxamine dans les troubles anxieux de l'enfant |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Termine | 124 | TCC associee aux inhibiteurs de la recapture de la serotonine dans le TOC pediatrique (reponse partielle) ; non specifique a la fluvoxamine |
-| [NCT00352768](https://clinicaltrials.gov/study/NCT00352768) | Phase 4 | Arrete | 20 | Etude post-commercialisation de SME3110 dans le TOC de l'enfant et de l'adolescent ; limitee par la petite taille et l'arret precoce |
-| [NCT02022709](https://clinicaltrials.gov/study/NCT02022709) | Phase 4 | Termine | 78 | Exposition avec prevention de la reponse (ERP) et ISRS dans le TOC ; non specifique a la fluvoxamine |
-| [NCT00012584](https://clinicaltrials.gov/study/NCT00012584) | Non applicable | Termine | 120 | Stimulant seul ou avec fluvoxamine chez des jeunes avec TDAH et troubles anxieux comorbides |
-| [NCT02194075](https://clinicaltrials.gov/study/NCT02194075) | Phase 4 | Termine | 60 | Methylphenidate a liberation prolongee en appoint a la fluvoxamine dans le TOC |
-| [NCT04539951](https://clinicaltrials.gov/study/NCT04539951) | Phase 2 | En recrutement | 1600 | Strategies de changement ou d'augmentation apres echec du traitement initial du TOC |
-| [NCT02285699](https://clinicaltrials.gov/study/NCT02285699) | Non applicable | Termine | 43 | Microbiote intestinal dans le TOC avant et apres 12 semaines d'ISRS ; n'evalue pas l'efficacite de la fluvoxamine |
-| [NCT02374567](https://clinicaltrials.gov/study/NCT02374567) | Phase 3 | Arrete | 407 | Pharmacovigilance des traitements psychotropes chez des patients gerontopsychiatriques |
+Aucun essai clinique associé enregistré actuellement.
 
-Plusieurs autres essais enregistres (par exemple NCT03179839, NCT05737511, NCT02739061, NCT07025590) concernent des interventions non medicamenteuses ou d'autres molecules et sont peu pertinents pour la fluvoxamine.
+## Preuves de la Littérature
 
-## Preuves de la Litterature
-
-| PMID | Annee | Type | Revue | Resultats Principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [40143130](https://pubmed.ncbi.nlm.nih.gov/40143130/) | 2025 | Synthese de revues systematiques et meta-analyses | Pharmaceuticals | Efficacite de la fluvoxamine dans le trouble anxieux generalise, l'anxiete sociale, le trouble panique et le TOC |
-| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Meta-analyse en reseau | Cochrane Database Syst Rev | Traitements pharmacologiques du trouble panique chez l'adulte |
-| [27318812](https://pubmed.ncbi.nlm.nih.gov/27318812/) | 2016 | Revue systematique / meta-analyse en reseau | Lancet Psychiatry | Comparaison des interventions medicamenteuses et psychotherapeutiques dans le TOC de l'adulte |
-| [32039743](https://pubmed.ncbi.nlm.nih.gov/32039743/) | 2020 | Revue systematique / meta-analyse en reseau | Acta Neuropsychiatrica | Traitements pharmacologiques de l'anxiete sociale chez l'adulte |
-| [29995828](https://pubmed.ncbi.nlm.nih.gov/29995828/) | 2018 | Meta-analyse | Medicine | Efficacite et tolerance de la fluvoxamine dans l'anxiete sociale de l'adulte |
-| [18408531](https://pubmed.ncbi.nlm.nih.gov/18408531/) | 2008 | Revue systematique / meta-analyse | Int Clin Psychopharmacol | Efficacite et tolerance des antidepresseurs de seconde generation dans l'anxiete sociale |
-| [37032427](https://pubmed.ncbi.nlm.nih.gov/37032427/) | 2023 | Recommandation (CPIC) | Clin Pharmacol Ther | Dosage guide par la pharmacogenetique (CYP2D6, CYP2C19) pour les antidepresseurs serotoninergiques |
-| [24923349](https://pubmed.ncbi.nlm.nih.gov/24923349/) | 2014 | Revue | CNS Neurol Disord Drug Targets | Efficacite etablie de plusieurs ISRS, dont la fluvoxamine, dans le trouble panique |
-| [19198698](https://pubmed.ncbi.nlm.nih.gov/19198698/) | 2008 | Revue | Drugs Today | Fluvoxamine a liberation controlee dans le TOC et la phobie sociale (trois etudes controlees de 12 semaines) |
-| [11825104](https://pubmed.ncbi.nlm.nih.gov/11825104/) | 2002 | Revue | CNS Drugs | Fluvoxamine dans les troubles anxieux de l'enfant et de l'adolescent |
+| [1970224](https://pubmed.ncbi.nlm.nih.gov/1970224/) | 1990 | Série de cas | Am J Psychiatry | Chez 17 patients avec TOC résistant à la fluvoxamine, 9 ont répondu à l'ajout d'un neuroleptique ; la présence de tics ou d'un trouble schizotypique était associée à la réponse |
+| [11063782](https://pubmed.ncbi.nlm.nih.gov/11063782/) | 2000 | Essai ouvert | Psychiatry Res | Ajout d'olanzapine pendant 12 semaines dans le TOC résistant à la fluvoxamine ; évaluation du rôle des tics et du trouble schizotypique comme facteurs de réponse |
+| [14999178](https://pubmed.ncbi.nlm.nih.gov/14999178/) | 2004 | Rapport de cas | CNS Spectrums | Patient avec syllogomanie, TDAH et trouble schizotypique, traité par fluvoxamine, amphétamines et rispéridone avec thérapie comportementale |
+| [16146185](https://pubmed.ncbi.nlm.nih.gov/16146185/) | 2005 | Rapport de cas | Seishin Shinkeigaku Zasshi | TOC avec syndrome déficitaire induit par les neuroleptiques, amélioré après arrêt des neuroleptiques puis introduction de fluvoxamine |
+| [8473723](https://pubmed.ncbi.nlm.nih.gov/8473723/) | 1993 | Rapport de cas | Int Clin Psychopharmacol | Crises convulsives lors de l'association lévomépromazine-fluvoxamine (signal de sécurité) |
 
-## Informations de Marche en France
+## Informations de Marché en France
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
-| 65470567 (annulee) | FLOXYFRAL 50 mg, comprime pellicule secable | Comprime pellicule | Non renseignee |
+| 65470567 | FLOXYFRAL 50 mg, comprime pellicule secable | Comprime pellicule | Non renseignee |
 
-Une AMM valide est actuellement recensée : la seule autorisation connue (Viatris Medical) est valide.
+La fluvoxamine est commercialisée en France (1 AMM valide dans les données compilées).
 
-## Considerations de Securite
+## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (relations medicament-maladie, et non texte de la notice) : epilepsie, trouble bipolaire, trouble affectif majeur, maladie hepatique, maladie de la vesicule biliaire, trouble de la coagulation, syndrome malin des neuroleptiques, syndrome de secretion inappropriee d'ADH (y compris sa forme nephrogenique) et syndrome serotoninergique.
-- **Interactions medicamenteuses** : 100 interactions recensees. Parmi celles listees, les interactions de niveau **majeur** concernent l'alosetron, la diethylpropion, le dolasetron et le bupropion. Des interactions de niveau modere sont notees, entre autres, avec l'acide acetylsalicylique, la clarithromycine, la morphine, la pioglitazone, l'aprepitant, la dexamethasone, l'hydrocortisone et le chlorpropamide.
-- **Points d'attention issus de la litterature** : inhibition forte du CYP1A2 et du CYP2C19, variabilite pharmacogenetique (CYP2D6/CYP2C19), risque de convulsions en association avec certaines phenothiazines, suicidalite chez l'enfant et l'adolescent, sudation, effets digestifs et dysfonctions sexuelles.
+- **Contre-indications ou situations à risque à examiner** (relations de contre-indication recensées dans les données compilées, ne provenant pas du texte de la notice) : épilepsie, trouble bipolaire, trouble affectif majeur, maladie du foie, maladie de la vésicule biliaire, trouble de la coagulation, syndrome malin des neuroleptiques, syndrome de sécrétion inappropriée d'ADH, syndrome néphrogénique d'antidiurèse inappropriée, syndrome sérotoninergique.
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les interactions majeures : alosétron, diéthylpropione, dolasétron, bupropion. Parmi les interactions modérées : rabéprazole, hydrocortisone, aprépitant, acide acétylsalicylique, clarithromycine, morphine, dexaméthasone, pioglitazone, entre autres.
+- Un cas de crises convulsives a été rapporté avec l'association à une phénothiazine (lévomépromazine), ce qui est pertinent car les neuroleptiques sont souvent associés dans les situations cliniques étudiées.
 
-Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles : veuillez consulter la notice pour les informations de securite completes.
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
 
-## Conclusion et Prochaines Etapes
+## Conclusion et Prochaines Étapes
 
-**Decision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- Le trouble anxieux est soutenu par des essais de Phase 3 termines (TOC pediatrique, troubles anxieux de l'enfant) et par de nombreuses meta-analyses, mais il recoupe largement les indications deja connues ; il s'agit d'une extension plus que d'un veritable repositionnement.
-- Le statut de marche (AMM annulee uniquement) limite la disponibilite, et les donnees de securite officielles sont manquantes.
+La prédiction repose uniquement sur le modèle : aucun essai clinique et aucune étude ne testent la fluvoxamine dans le trouble de la personnalité schizotypique lui-même. Les publications disponibles concernent le TOC avec traits schizotypiques.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Recuperer la notice officielle (mises en garde, contre-indications) aupres de l'ANSM, etape bloquante pour le criblage de securite.
-- Obtenir les donnees detaillees sur le mecanisme d'action (DrugBank).
-- Clarifier la disponibilite en France (autres specialites ou importation) compte tenu de l'AMM annulee.
-- Mettre en place un dosage guide par le genotype (CYP2D6/CYP2C19) et un criblage systematique des interactions.
-- Verifier les resultats d'essais recents ; les Phases 3 identifiees portent surtout sur des populations pediatriques.
-- Pour les autres candidates : agoraphobie (L1) et depression endogene (L2, essai NCT04160377 de statut inconnu) meritent un suivi ; les troubles de la personnalite et la torticolis paroxystique benin du nourrisson restent en « Hold » faute de preuves.
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Données détaillées sur le mécanisme d'action et sur les mises en garde et contre-indications de la notice
+- Études cliniques contrôlées de la fluvoxamine spécifiquement dans le trouble de la personnalité schizotypique
+- Évaluation du profil d'interactions (CYP1A2, CYP2C19) et de la sécurité chez les patients recevant des neuroleptiques
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

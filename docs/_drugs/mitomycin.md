@@ -4,17 +4,17 @@ title: Mitomycin
 parent: Prédiction du modèle uniquement (L5)
 nav_order: 506
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "mitomycin"
-predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-description: "Mitomycin : nouvelle indication prédite, Solid pseudopapillary carcinoma of pancreas (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+description: "Mitomycin : nouvelle indication prédite, Carcinome pseudopapillaire solide du pancréas (solid pseudopapillary carcinoma of pancreas) (niveau de preuve L5)."
 ---
 
 # Mitomycin
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Mitomycin: Solid pseudopapillary carcinoma of pancreas
+## Mitomycin: Carcinome pseudopapillaire solide du pancréas (solid pseudopapillary carcinoma of pancreas)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La mitomycine est un agent cytotoxique alkylant, initialement utilisé dans le traitement de l'adénocarcinome pancréatique.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **carcinome pseudopapillaire solide du pancréas**.
-Aucun essai clinique et aucune publication ne soutiennent actuellement cette prédiction précise : elle repose uniquement sur le modèle.
+La mitomycine est un agent cytotoxique alkylant qui réticule l'ADN, utilisé en oncologie.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **carcinome pseudopapillaire solide du pancréas (solid pseudopapillary carcinoma of pancreas)**, avec un score de 0,9986.
+Aucun essai clinique ni aucune publication ne soutient actuellement cette direction : il s'agit d'une prédiction du modèle uniquement.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Solid pseudopapillary carcinoma of pancreas |
+| Nouvelle Indication Prédite | Carcinome pseudopapillaire solide du pancréas (solid pseudopapillary carcinoma of pancreas) |
 | Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
@@ -56,28 +56,23 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette pr�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la mitomycine est un agent alkylant qui crée des pontages dans l'ADN et bloque ainsi la division des cellules tumorales. Son usage dans l'adénocarcinome pancréatique est documenté.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la mitomycine est un agent alkylant qui crée des ponts covalents entre les brins d'ADN, bloquant la réplication des cellules à division rapide. Ce principe cytotoxique pourrait, en théorie, s'appliquer aux tumeurs pancréatiques.
 
-La tumeur pseudopapillaire solide est une tumeur pancréatique rare. Le raisonnement du modèle est une extrapolation à partir d'un cancer du même organe. Cette extrapolation est limitée : cette tumeur est généralement d'évolution lente et se traite le plus souvent par chirurgie, ce qui réduit l'intérêt présumé d'une chimiothérapie cytotoxique.
+Le carcinome pseudopapillaire solide du pancréas est une tumeur rare, généralement d'évolution lente, dont la prise en charge est habituellement chirurgicale. L'argument en faveur de la prédiction repose donc sur une extrapolation à partir de l'activité cytotoxique générale, et non sur des données cliniques propres à cette tumeur.
 
-Les autres prédictions du modèle concernent d'autres tumeurs pancréatiques rares ou des sous-types histologiques : ostéoclastique à cellules géantes, carcinome mixte, adénocarcinome à cellules en bague à chaton, carcinome indifférencié, néoplasme exocrine malin, néoplasmes intracanalaires papillaires et mucineux, cystadénocarcinome à cellules acineuses. Elles ont toutes un score proche (0,9982 à 0,9986) et reposent sur la même logique d'extrapolation.
+Il faut donc considérer cette prédiction comme une hypothèse à vérifier, sans élément clinique ou bibliographique pour l'étayer à ce stade.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Aucune publication n'est associée à la nouvelle indication principale (carcinome pseudopapillaire solide). Pour les autres indications prédites, seules des publications indirectes existent :
-
-| PMID | Année | Type | Revue | Résultats Principaux |
-|------|-----|------|------|---------|
-| [15983445](https://pubmed.ncbi.nlm.nih.gov/15983445/) | 2005 | Rapport de cas | Pancreatology | Pseudomyxome péritonéal associé à un néoplasme intracanalaire papillaire et mucineux du pancréas, pris en charge par chimioperfusion intrapéritonéale hyperthermique ; ne porte pas sur l'efficacité de la mitomycine |
-| [10897253](https://pubmed.ncbi.nlm.nih.gov/10897253/) | 2000 | Revue | Strahlentherapie und Onkologie | Radiochimiothérapie adjuvante et néoadjuvante dans le carcinome pancréatique canalaire ; non spécifique à la mitomycine |
-| [8361472](https://pubmed.ncbi.nlm.nih.gov/8361472/) | 1993 | Étude clinique (traitement adjuvant, détails non vérifiés) | Nihon Geka Gakkai Zasshi | Tamoxifène ajouté à une immuno-chimiothérapie (tégafur, mitomycine, Krestin, OK-432) après résection d'un carcinome pancréatique ; le rôle propre de la mitomycine n'est pas établi |
-| [2695183](https://pubmed.ncbi.nlm.nih.gov/2695183/) | 1989 | Revue | Bulletin du Cancer | Diagnostic et traitement des tumeurs d'origine inconnue ; ancienne et non spécifique |
+Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
+
+Les données locales recensent 4 autorisations de mise sur le marché, toutes valides, pour des spécialités à base de mitomycine seule :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -91,32 +86,31 @@ Aucune publication n'est associée à la nouvelle indication principale (carcino
 | Élément | Contenu |
 |------|------|
 | Classification de Cytotoxicité | Cytotoxique conventionnel (agent alkylant, antibiotique antitumoral) |
-| Risque de Myélosuppression | Élevé (les maladies sanguines figurent parmi les contre-indications du graphe de connaissances : thrombocytopénie, leucopénie, anémie, troubles de la coagulation) |
-| Classification d'Émétogénicité | Moyenne (selon la catégorie du médicament) |
-| Éléments de Surveillance | NFS avec plaquettes, fonction rénale (risque de syndrome hémolytique et urémique), fonction cardiaque, muqueuses buccales |
+| Risque de Myélosuppression | Élevé (thrombopénie et leucopénie fréquemment décrites avec cette classe) |
+| Classification d'Émétogénicité | Moyenne |
+| Éléments de Surveillance | NFS avec plaquettes, fonction rénale, fonction hépatique, signes d'atteinte cardiaque |
 | Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : maladie rénale, pyo-uretère, thrombocytopénie, troubles de la coagulation, anémie (dont macrocytaire), leucopénie, syndrome hémolytique et urémique (dont forme typique), insuffisance cardiaque (dont congestive), stomatite.
-- **Interactions médicamenteuses** : 193 interactions répertoriées. Parmi celles analysées, les plus notables sont de niveau majeur (déférilone, lexidronam de samarium-153) ou modéré (palifermine, chlorure de strontium-89, fostamatinib). La majorité des autres sont de niveau inconnu, et une seule (lévofloxacine) est mineure.
+- **Interactions Médicamenteuses** : 193 interactions sont recensées. Parmi celles listées, les plus importantes sont de niveau majeur avec la défériprone et le samarium (153Sm) lexidronam, et de niveau modéré avec la palifermine, le chlorure de strontium Sr-89 et le fostamatinib. Plusieurs autres (pantoprazole, morphine, warfarine, dexaméthasone, etc.) sont de niveau non précisé.
+- **Affections à risque signalées dans les données compilées** : maladie rénale, thrombopénie, troubles de la coagulation, anémie, leucopénie, syndrome hémolytique et urémique, insuffisance cardiaque, stomatite. Il s'agit de relations issues des données de modélisation, et non du texte de la notice.
 
-Les mises en garde et contre-indications officielles de la notice n'étant pas disponibles, veuillez consulter la notice pour les informations de sécurité complètes.
+Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Cette tumeur rare se traite en outre généralement par chirurgie.
-- Les données de sécurité officielles et le mécanisme d'action sont manquants, ce qui bloque l'évaluation de sécurité.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication portant sur cette tumeur rare, habituellement traitée par chirurgie. Le profil de toxicité hématologique de la mitomycine impose en outre une évaluation prudente du rapport bénéfice/risque.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)
-- Obtenir les données de mécanisme d'action via DrugBank
-- Rechercher des séries de cas ou des données précliniques sur la mitomycine dans les tumeurs pancréatiques rares
-- Clarifier le statut réglementaire actuel (AMM annulées) et la disponibilité réelle du produit en France
-- Évaluer la place d'une chimiothérapie par rapport à la chirurgie pour cette tumeur
+- Données détaillées sur le mécanisme d'action
+- Revue de la notice ANSM (mises en garde et contre-indications)
+- Recherche de séries de cas ou d'études précliniques spécifiques à cette tumeur
+- Avis d'experts en oncologie pancréatique sur la pertinence d'un traitement systémique
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
