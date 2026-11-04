@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desmopressin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 226
-evidence_level: L3
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-04
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-description: "Desmopressin : nouvelle indication prédite, Congenital prothrombin deficiency (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Desmopressin : nouvelle indication prédite, Déficit congénital en prothrombine (congenital prothrombin deficiency) (niveau de preuve L5)."
 ---
 
 # Desmopressin
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **6** 
+Niveau de preuve: **L5** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +33,47 @@ Niveau de preuve: **L3** | Indications prédites: **6**
 
 </div>
 
-## Desmopressin: Congenital prothrombin deficiency
+## Desmopressin: Déficit congénital en prothrombine (congenital prothrombin deficiency)
 {: .text-alpha }
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-La desmopressine est un analogue synthétique de la vasopressine, initialement utilisée pour la maladie de von Willebrand, l'hémophilie et l'énurésie nocturne.
-Le modèle TxGNN la prédit comme potentiellement efficace pour le **défaut primaire de sécrétion plaquettaire**, avec **0 essai clinique** et **9 publications** (essentiellement des revues et de petites études) soutenant actuellement cette direction.
+La desmopressine est un analogue synthétique de la vasopressine, utilisé en France sous plusieurs formes (comprimés sublinguaux, lyophilisat oral, spray nasal, solution injectable).
+Le modèle TxGNN prédit qu'elle pourrait être utile pour le **déficit congénital en prothrombine (congenital prothrombin deficiency)**, mais le niveau de preuve est **L5** : aucun essai clinique et aucune publication ne portent directement sur cette association. La seule référence disponible est une revue générale de 1993 sur les maladies hémorragiques congénitales.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Predite | Congenital prothrombin deficiency |
-| Score de Prediction TxGNN | 0.9970 |
-| Niveau de Preuve | L3 |
+| Nouvelle Indication Prédite | Déficit congénital en prothrombine (congenital prothrombin deficiency) |
+| Score de Prédiction TxGNN | 0.9970 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
-| Decision Recommandee | Proceed with Guardrails |
+| Décision Recommandée | Hold |
 
-> Remarque : la première prédiction du classement (déficit congénital en prothrombine, score 0,9970) n'a pas été retenue comme candidate principale, car le lien mécanistique est faible et les preuves se limitent à une revue de 1993 (niveau L5, décision Hold). La candidate présentée ici est la mieux étayée parmi les six prédictions.
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la desmopressine active le récepteur V2 et provoque la libération du facteur VIII et du facteur de von Willebrand depuis les réserves endothéliales.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, la desmopressine active le récepteur V2 et provoque la libération du facteur von Willebrand (vWF) et du facteur VIII depuis les réserves endothéliales. Cela augmente leurs taux plasmatiques, favorise l'adhésion plaquettaire et raccourcit le temps de saignement.
+Ce mécanisme ne concerne pas la prothrombine (facteur II). Il n'existe aucun effet direct connu de la desmopressine sur son taux. Le lien mécanistique est donc faible.
 
-Les indications d'origine (maladie de von Willebrand, hémophilie A légère) relèvent de l'hémostase primaire et de la coagulation. Les troubles de la fonction plaquettaire, dont les défauts de sécrétion, partagent avec la maladie de von Willebrand une anomalie de l'adhésion plaquettaire et du saignement muqueux. Une revue de 2023 indique que la desmopressine peut raccourcir le temps de saignement et contrôler les saignements dans plusieurs troubles hémorragiques. Une étude pédiatrique de 2011 a évalué son effet sur l'hémostase primaire dans le défaut de type « aspirin-like ». Un cas de syndrome de Hermansky-Pudlak avec ménorragie réfractaire est également rapporté.
-
-Les preuves restent hétérogènes, avec une réponse variable selon les patients. Un effet bénéfique n'est donc pas garanti et doit être vérifié individuellement.
+Le score élevé du modèle reflète probablement une proximité dans le réseau de relations avec d'autres maladies hémorragiques, et non une preuve biologique ou clinique propre au déficit en prothrombine. Cette prédiction doit être considérée comme une hypothèse de recherche.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [36656570](https://pubmed.ncbi.nlm.nih.gov/36656570/) | 2023 | Revue | Eur J Haematol | La desmopressine libère le vWF et le FVIII, améliore l'adhésion plaquettaire et raccourcit le temps de saignement. Elle est utile dans l'hémophilie A légère, certains sous-types de maladie de von Willebrand, l'urémie et les hépatopathies. Risques : hyponatrémie et, rarement, événements thrombotiques artériels |
-| [21509710](https://pubmed.ncbi.nlm.nih.gov/21509710/) | 2011 | Cohorte | Klin Padiatr | Évaluation de l'effet de la desmopressine sur l'hémostase primaire chez des enfants présentant un défaut de type « aspirin-like » |
-| [23051555](https://pubmed.ncbi.nlm.nih.gov/23051555/) | 2013 | Cohorte | Haemophilia | Après perfusion de desmopressine, une quantité accrue de vWF est liée aux microparticules, ce qui pourrait expliquer l'effet dans les troubles plaquettaires |
-| [22726100](https://pubmed.ncbi.nlm.nih.gov/22726100/) | 2012 | Revue | Haemophilia | Vue d'ensemble des maladies plaquettaires héréditaires |
-| [18278172](https://pubmed.ncbi.nlm.nih.gov/18278172/) | 2008 | Revue | Thromb Haemost | Troubles congénitaux associés à un dysfonctionnement plaquettaire |
-| [16580053](https://pubmed.ncbi.nlm.nih.gov/16580053/) | 2006 | Revue | Thromb Res | Prophylaxie dans la maladie de von Willebrand, où la desmopressine est le traitement de base pour la majorité des patients |
-| [22057877](https://pubmed.ncbi.nlm.nih.gov/22057877/) | 2011 | Rapport de cas | Hamostaseologie | Ménorragie réfractaire révélatrice d'un syndrome de Hermansky-Pudlak (défaut de sécrétion des granules plaquettaires) |
-| [30986390](https://pubmed.ncbi.nlm.nih.gov/30986390/) | 2019 | Recommandation/Revue | Gastroenterology | Mise à jour sur la coagulation dans la cirrhose (lien indirect) |
-| [34818873](https://pubmed.ncbi.nlm.nih.gov/34818873/) | 2022 | Étude clinique | Haematologica | Essai chez l'humain d'un aptamère augmentant le vWF et le FVIII (lien indirect, sans desmopressine) |
+| [7684674](https://pubmed.ncbi.nlm.nih.gov/7684674/) | 1993 | Revue | Drugs | Revue générale des options de traitement rationnelles dans les maladies hémorragiques congénitales courantes (hémophilie A, maladie de von Willebrand). Elle ne démontre pas d'effet de la desmopressine dans le déficit en prothrombine. |
 
-## Informations de Marche en France
+## Informations de Marché en France
 
-Il existe 20 AMM valides pour la desmopressine ; le médicament est commercialisé. Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les cinq premières AMM sont listées ci-dessous.
+Au moins 20 AMM figurent dans les données compilées (la liste peut être partielle). La desmopressine est commercialisée en France ; toutes ces AMM sont valides.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
@@ -93,33 +83,25 @@ Il existe 20 AMM valides pour la desmopressine ; le médicament est commercialis
 | 62822682 | MINIRIN 0,1 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 | 68239932 | DESMOPRESSINE TEVA 120 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
 
-Les formes recensées parmi les 20 AMM sont : comprimé sublingual, lyophilisat oral, spray nasal, solution et solution injectable.
+## Considérations de Sécurité
 
-## Considerations de Securite
+- **Contre-indications ou maladies à risque signalées dans les données compilées** : hypertension, cardiopathie coronarienne, insuffisance rénale, mucoviscidose, polydipsie, intoxication par l'eau, diabète insipide dipsogène, rhinite allergique ou vasomotrice, pharyngite, rhume et infections respiratoires. Ces éléments ne proviennent pas du texte d'une notice et doivent être vérifiés.
+- **Interactions médicamenteuses** : 172 interactions sont recensées. Plusieurs sont de niveau majeur, notamment avec les corticoïdes (hydrocortisone, dexaméthasone, prednisolone, prednisone, triamcinolone, bétaméthasone, budésonide, béclométasone). Des interactions modérées existent avec l'épinéphrine, le lopéramide, la morphine, l'opium et le chlorpropamide.
+- Les mises en garde de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
 
-- **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : hypertension, coronaropathie, insuffisance rénale, rhinite allergique ou vasomotrice, pharyngite, rhume, mucoviscidose, infections respiratoires, maladie de von Willebrand (certains types), diabète insipide dipsogène, polydipsie, intoxication par l'eau.
-- **Interactions médicamenteuses** : 172 interactions recensées. Les interactions de niveau **majeur** concernent les corticoïdes : hydrocortisone, triamcinolone, dexaméthasone, béclométasone, bétaméthasone, budésonide, prednisolone et prednisone. Des interactions de niveau modéré concernent l'épinéphrine, le lopéramide, la morphine (y compris liposomale), l'opium et le chlorpropamide. L'acide acétylsalicylique présente une interaction mineure.
-- **Risques propres à l'indication visée** : surveillance de l'hyponatrémie (rappelée dans la revue de 2023) et risque rare d'événements thrombotiques artériels.
+## Conclusion et Prochaines Étapes
 
-Les mises en garde et contre-indications de la notice n'ont pas pu être obtenues. Veuillez consulter la notice pour les informations de securite complètes.
-
-## Conclusion et Prochaines Etapes
-
-**Decision : Proceed with Guardrails**
+**Décision : Hold**
 
 **Justification :**
-- La desmopressine a un mécanisme plausible sur l'hémostase primaire, et de petites études cliniques, des revues et des cas soutiennent un bénéfice dans les défauts de sécrétion plaquettaire. En revanche, aucun essai n'est enregistré, les preuves sont hétérogènes et les AMM françaises sont toutes annulées. Un avancement n'est envisageable qu'avec des garde-fous.
+- Aucune étude ne porte sur l'usage de la desmopressine dans le déficit congénital en prothrombine (niveau L5), et le mécanisme connu (libération du facteur VIII et du facteur de von Willebrand) n'agit pas sur la prothrombine. Le score élevé du modèle ne suffit pas à justifier une évaluation clinique.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Obtenir la notice (mises en garde, contre-indications) auprès de l'ANSM : cette lacune bloque le criblage de sécurité.
-- Compléter les données sur le mécanisme d'action via DrugBank.
-- Prévoir un test de réponse avant usage (temps de saignement ou PFA-100) et une surveillance de la natrémie.
-- Concevoir une étude prospective de petite taille avec critères de réponse définis.
-- Clarifier le statut réglementaire actuel des produits, 20 AMM étant valides.
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Données détaillées sur le mécanisme d'action et démonstration d'un effet biologique sur le taux de prothrombine
+- Recherche d'études précliniques ou de cas cliniques spécifiques à cette maladie
+- Mises en garde et contre-indications issues de la notice
+- Évaluation de la sécurité, notamment du risque d'hyponatrémie et des événements thrombotiques
 
-**Autres prédictions du classement :**
-- Le **déficit congénital en prothrombine**, la **thrombophilie héréditaire**, la **pseudo-maladie de von Willebrand**, le **syndrome de Scott** et le **« flood factor deficiency »** (libellé probablement erroné, à vérifier) sont en *Hold* : mécanisme faible ou absent, et pour deux d'entre eux (thrombophilie héréditaire, pseudo-maladie de von Willebrand) un risque de sécurité plutôt qu'une opportunité thérapeutique.
-- La **thrombasthénie de Glanzmann** reste une question de recherche (niveau L4) : la desmopressine ne corrige pas le défaut du récepteur αIIbβ3 et ne pourrait être qu'un adjuvant limité aux saignements mineurs.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

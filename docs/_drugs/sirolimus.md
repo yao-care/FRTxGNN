@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sirolimus
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 707
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
-description: "Sirolimus : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Sirolimus : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **6** 
+Niveau de preuve: **L3** | Indications prédites: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,8 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 ## Résumé en une phrase
 
-Le sirolimus est un inhibiteur de la voie mTOR (cible mécanistique de la rapamycine), utilisé en France sous la marque Rapamune.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome (liposarcoma)**,
-avec **1 essai clinique** et **7 publications** retrouvés pour cette direction, ce qui reste un signal préliminaire.
+Le sirolimus est un inhibiteur de la voie mTOR, utilisé notamment en transplantation rénale.
+Le modèle TxGNN prédit qu'il pourrait être utile dans le **liposarcome (liposarcoma)**, avec **1 essai clinique** (phase 2, à bras unique, associant sirolimus et cyclophosphamide) et **7 publications** retrouvées, dont la plupart sont des revues générales sur les sarcomes ou des travaux indirects. Le niveau de preuve retenu est **L3**.
 
 ## Aperçu rapide
 
@@ -49,38 +48,38 @@ avec **1 essai clinique** et **7 publications** retrouvés pour cette direction,
 | Indication originale | Non renseignée dans les données locales |
 | Nouvelle indication prédite | Liposarcome (liposarcoma) |
 | Score de prédiction TxGNN | 0.9989 |
-| Niveau de preuve | L5 |
+| Niveau de preuve | L3 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
 | Nombre d'AMM | 4 (valides : 4) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le sirolimus inhibe le complexe mTORC1, un régulateur central de la croissance et de la prolifération cellulaires.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le sirolimus inhibe le complexe mTORC1. L'activation de la voie PI3K/AKT/mTOR est décrite dans les sarcomes des tissus mous, dont le liposarcome. Bloquer cette voie pourrait donc freiner la croissance tumorale, ce qui est cohérent avec les données précliniques évoquées dans la littérature.
 
-L'activation de la voie PI3K/AKT/mTOR est décrite dans les sarcomes des tissus mous, dont le liposarcome. Cela donne une base biologique plausible à l'inhibition de mTOR dans cette tumeur, mais il s'agit d'une extrapolation : aucune étude retrouvée n'a testé le sirolimus seul dans le liposarcome.
-
-Les articles de cohortes de transplantés rénaux (PMID 16434506, 26093731) suggèrent un risque de cancer réduit sous sirolimus, ce qui ne constitue qu'un appui indirect.
+Le soutien clinique reste limité. Il repose sur un seul essai de phase 2 à bras unique qui évalue une association (sirolimus + cyclophosphamide) dans le liposarcome myxoïde et le chondrosarcome. Sans bras comparateur, la contribution propre du sirolimus ne peut pas être isolée. Les articles sur des patients transplantés rénaux suggèrent un risque de cancer moindre sous sirolimus, mais il s'agit d'un argument indirect.
 
 ## Preuves d'essais cliniques
 
 | Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Terminé | 70 | Essai à bras unique associant sirolimus et cyclophosphamide dans le liposarcome myxoïde et le chondrosarcome métastatiques ou non résécables. Pas de bras témoin : l'effet propre du sirolimus ne peut pas être isolé, et les résultats détaillés restent à vérifier. |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Terminé | 70 | Essai à bras unique de l'association sirolimus + cyclophosphamide dans le liposarcome myxoïde et le chondrosarcome métastatiques ou non résécables. Les résultats d'efficacité ne sont pas détaillés dans les données disponibles. |
 
 ## Preuves de la littérature
 
 | PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | ECR (analyse secondaire) | J Am Soc Nephrol | Chez des transplantés rénaux, le sirolimus après arrêt précoce de la ciclosporine réduit le risque de cancer. Appui indirect uniquement. |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Revue | Cancers | Panorama des nouveaux traitements des sarcomes des tissus mous. |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Revue | Curr Opin Oncol | Justification et résultats d'essais récents de thérapies ciblées dans les sarcomes avancés. |
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Revue | Bull Cancer | Traitements ciblés des tumeurs conjonctives rares et des sarcomes. |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Revue | Transplant Proc | Dépistage des cancers chez des transplantés rénaux sous immunosuppresseurs au long cours. |
-| [42753013](https://pubmed.ncbi.nlm.nih.gov/42753013/) | 2026 | Cohorte | Fam Cancer | Spectre clinique du syndrome PTEN hamartome (étude rétrospective). |
-| [32711543](https://pubmed.ncbi.nlm.nih.gov/32711543/) | 2020 | Cas cliniques | Diagn Pathol | Anomalie vasculaire fibro-adipeuse et voie mTOR (trois cas). |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Revue | Cancers | Panorama des nouvelles thérapies dans les sarcomes des tissus mous |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Revue | Current Opinion in Oncology | Essais récents d'agents ciblés dans les sarcomes avancés |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Revue | Bulletin du Cancer | Traitements ciblés des tumeurs rares du tissu conjonctif et des sarcomes |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | ECR (analyse secondaire) | J Am Soc Nephrol | Moindre risque de cancer sous sirolimus après sevrage précoce de la ciclosporine en transplantation rénale (soutien indirect) |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Revue | Transplantation Proceedings | Dépistage des cancers chez des transplantés rénaux sous immunosuppresseurs au long cours |
+| [42753013](https://pubmed.ncbi.nlm.nih.gov/42753013/) | 2026 | Cohorte | Familial Cancer | Spectre clinique du syndrome PTEN hamartome tumoral (lien indirect) |
+| [32711543](https://pubmed.ncbi.nlm.nih.gov/32711543/) | 2020 | Cas cliniques | Diagnostic Pathology | Anomalie vasculaire fibro-adipeuse et voie mTOR (lien indirect) |
 
 ## Informations de marché en France
+
+Le sirolimus est commercialisé en France (4 AMM valides, spécialité RAPAMUNE, Pfizer Europe MA EEIG).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -89,36 +88,28 @@ Les articles de cohortes de transplantés rénaux (PMID 16434506, 26093731) sugg
 | 65164182 | RAPAMUNE 2 mg | Comprimé enrobé | Non renseignée (AMM active) |
 | 69171174 | RAPAMUNE 0,5 mg | Comprimé enrobé | Non renseignée (AMM active) |
 
-Le sirolimus est commercialisé en France ; les 4 AMM listées sont valides.
-
-## Cytotoxicité
-
-| Élément | Contenu |
-|------|------|
-| Classification de cytotoxicité | Inhibiteur de mTOR (thérapie ciblée) ; données détaillées non disponibles |
-| Risque de myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'émétogénicité | Veuillez consulter la notice |
-| Éléments de surveillance | Veuillez consulter la notice |
-| Protection de manipulation | Veuillez consulter la notice |
-
 ## Considérations de sécurité
 
-- **Interactions médicamenteuses** : 100 interactions sont recensées. Parmi celles listées, les interactions de niveau majeur concernent l'amphotéricine B (y compris la forme complexe lipidique), la mésalazine, la balsalazide et la clarithromycine. Des interactions de niveau modéré concernent notamment des antidiabétiques (acarbose, metformine, pioglitazone, alogliptine, canagliflozine, chlorpropamide, albiglutide), des corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, budésonide, triamcinolone), l'aprépitant, la cimétidine et la dapagliflozine.
+- **Maladies à prendre en compte** (relations de contre-indication recensées dans les données compilées, ne provenant pas du texte de la notice) : hypertension, maladie rénale, maladie hépatique, hyperglycémie et diabète, hyperlipidémie et hypertriglycéridémie, maladie pulmonaire interstitielle, maladies cérébrovasculaires, infections (pneumocystose, infection à cytomégalovirus), épanchement péricardique, leucoencéphalopathie multifocale progressive.
+- **Interactions médicamenteuses** (100 interactions recensées ; extraits) :
+  - Majeures : amphotéricine B (y compris complexe lipidique), mésalazine, balsalazide, clarithromycine.
+  - Modérées : antidiabétiques (acarbose, metformine, pioglitazone, alogliptine, albiglutide, canagliflozine, dapagliflozine, chlorpropamide), corticoïdes (hydrocortisone, dexaméthasone, bétaméthasone, budésonide, triamcinolone), aprépitant, cimétidine.
 
-Pour les mises en garde et contre-indications, veuillez consulter la notice.
+Les mises en garde et contre-indications de la notice ne sont pas disponibles ; veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucune étude retrouvée ne teste le sirolimus seul dans le liposarcome : le seul essai est un essai de phase 2 à bras unique en association avec le cyclophosphamide, et les publications sont surtout des revues ou des appuis indirects. Le niveau de preuve reste donc L5, malgré un score TxGNN élevé (0,9989).
+Le niveau de preuve est L3 : un seul essai de phase 2 à bras unique testant une association, sans essai randomisé, et le reste de la littérature est indirect. Le score TxGNN est élevé (0,9989), mais il ne suffit pas à lui seul pour avancer.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Résultats détaillés de l'essai NCT02821507 et contribution propre du sirolimus
-- Données sur le mécanisme d'action et sur l'activation de mTOR dans les sous-types de liposarcome
-- Informations de sécurité issues de la notice (mises en garde, contre-indications)
-- Étude contrôlée ou comparative dans le liposarcome
+- Résultats publiés de l'essai NCT02821507, avec analyse par sous-type de sarcome
+- Données permettant d'isoler la contribution du sirolimus (essai comparatif ou randomisé)
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice française
+- Plan de surveillance de sécurité (fonction rénale et hépatique, lipides, glycémie, infections, interactions médicamenteuses)
 
 ## Avertissement
 

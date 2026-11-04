@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Apixaban
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 68
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Apixaban : nouvelle indication prédite, Migraine (niveau de preuve L4). Indication d'origine : Non renseignée dans les données compilées"
+last_modified_at: 2026-11-04
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
+description: "Apixaban : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +33,51 @@ Niveau de preuve: **L4** | Indications prédites: **1**
 
 </div>
 
-## Apixaban : De l'anticoagulation à la migraine
+## Apixaban: Trouble migraineux (migraine disorder)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Apixaban est un anticoagulant oral direct, inhibiteur du facteur Xa, commercialisé sous le nom d'Eliquis.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine**, mais cette prédiction repose presque uniquement sur le modèle : **1 essai clinique** indirect et **3 publications** (dont deux cas cliniques contradictoires) sont actuellement disponibles.
+L'apixaban est un anticoagulant oral, inhibiteur direct du facteur Xa.
+Le modèle TxGNN le prédit comme potentiellement efficace pour le **trouble migraineux (migraine disorder)**, mais le niveau de preuve est **L5** : aucune étude ne soutient cette direction. Les données compilées pour ce rapport contiennent **1 essai clinique** (sur la prévention des récidives d'AVC, indirect) et **3 publications**, dont deux cas cliniques décrivant une migraine avec aura aggravée ou non résolue sous apixaban.
 
----
-
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données compilées |
-| Nouvelle Indication Prédite | Migraine |
-| Score de Prédiction TxGNN | 0,9902 |
-| Niveau de Preuve | L4 |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Trouble migraineux (migraine disorder) |
+| Score de prédiction TxGNN | 0.9902 |
+| Niveau de preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
 | Nombre d'AMM | 6 (valides : 6) |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
----
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'apixaban est un inhibiteur direct du facteur Xa de la coagulation.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'apixaban est un inhibiteur direct du facteur Xa de la coagulation, utilisé comme anticoagulant. Son indication d'origine n'est pas renseignée dans les AMM listées.
+Une hypothèse théorique relierait la migraine avec aura au foramen ovale perméable, aux micro-embolies paradoxales ou à un état prothrombotique (par exemple en présence d'anticorps antiphospholipides) : une anticoagulation pourrait alors réduire les déclencheurs micro-emboliques. Il s'agit toutefois d'une hypothèse, sans voie biologique établie.
 
-Le score TxGNN est très élevé (0,9902), mais il provient d'une prédiction du modèle TxGNN (apprentissage profond). Aucune voie biologique reliant l'apixaban à la migraine n'est établie. Une hypothèse théorique relierait la migraine avec aura au foramen ovale perméable (FOP), aux micro-emboles paradoxaux ou à un état prothrombotique (par exemple en présence d'anticorps antiphospholipides), où une anticoagulation pourrait réduire les déclencheurs micro-emboliques.
+Les données disponibles ne la confortent pas. Un cas rapporte une migraine avec aura aggravée après l'instauration de l'apixaban ; un autre décrit une rémission sous warfarine, mais pas sous apixaban. Cela ne plaide pas pour un bénéfice de classe des anticoagulants et suggère que l'apixaban pourrait être inefficace, voire délétère. Le score élevé du modèle reflète une prédiction fondée sur des relations statistiques, pas une démonstration biologique.
 
-Les observations disponibles sont toutefois contradictoires. Un cas rapporte une migraine avec aura aggravée après l'instauration de l'apixaban. Un autre décrit une rémission sous warfarine, mais pas sous apixaban. Cela ne plaide pas pour un bénéfice de classe des anticoagulants et suggère que l'apixaban pourrait être inefficace, voire délétère, dans la migraine.
+## Preuves d'essais cliniques
 
----
-
-## Preuves d'Essais Cliniques
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
 |---------|------|------|------|---------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Terminé | 664 | Fermeture du FOP ou anticoagulants versus antiplaquettaires pour prévenir la récidive d'AVC. Le critère principal concerne l'AVC cryptogénique, pas la migraine. Les données migraineuses seraient au mieux secondaires. Pertinence jugée indirecte (grade C), l'apixaban n'étant pas clairement l'agent évalué. |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Terminé | 664 | Fermeture du foramen ovale perméable ou anticoagulants versus antiagrégants pour prévenir la récidive d'AVC. Population et critère principal portent sur l'AVC cryptogénique, pas sur la migraine ; preuve indirecte. |
 
----
+## Preuves de la littérature
 
-## Preuves de la Littérature
-
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Étude rétrospective (75 patients) | Lupus | Réponse au traitement antithrombotique dans la migraine réfractaire avec anticorps antiphospholipides. Les données spécifiques à l'apixaban restent à vérifier. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Cas clinique | Headache | Patiente de 55 ans : migraine avec aura en rémission pendant 12 ans sous warfarine, réapparue en 3 semaines après passage à l'apixaban, puis résolue à la reprise de la warfarine. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Cas clinique et revue | The Neurologist | Migraine avec aura aggravée après l'initiation de l'apixaban. L'effet des anticoagulants oraux directs sur la migraine reste peu clair, avec une littérature rare et controversée. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Cas clinique / revue | The Neurologist | Migraine avec aura aggravée après l'initiation de l'apixaban ; l'effet des anticoagulants oraux directs sur la migraine reste peu clair, la littérature étant rare et controversée. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Cas clinique | Headache | Patiente dont la migraine avec aura était en rémission sous warfarine ; les symptômes sont revenus en 3 semaines sous apixaban et ont disparu après la reprise de la warfarine. |
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Étude rétrospective (75 patients) | Lupus | Réponse au traitement antithrombotique chez des patients atteints de migraine réfractaire avec anticorps antiphospholipides ; données spécifiques à l'apixaban non vérifiées. |
 
----
+## Informations de marché en France
 
-## Informations de Marché en France
+L'apixaban est commercialisé en France (6 AMM valides, spécialité ELIQUIS, Bristol-Myers Squibb / Pfizer EEIG).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -95,38 +87,25 @@ Les observations disponibles sont toutefois contradictoires. Un cas rapporte une
 | 63078845 | ELIQUIS 0,5 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
 | 61425336 | ELIQUIS 2 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
 
-Une sixième AMM (ELIQUIS 1,5 mg, granulés enrobés en sachet, n° 69815128) est également annulée. Les six AMM sont détenues par BRISTOL-MYERS SQUIBB / PFIZER EEIG (Irlande).
+## Considérations de sécurité
 
----
+- **Interactions médicamenteuses** : 100 interactions sont recensées dans les données compilées ; parmi les principales, de niveau **majeur** : acide acétylsalicylique, cobicistat, déférasirox, ibritumomab tiuxétan, tositumomab (y compris marqué à l'iode 131). Interactions de niveau **modéré** : aprépitant, clarithromycine, clotrimazole, dexaméthasone, miconazole, rolapitant, fenfluramine, dexfenfluramine, sibutramine, éliglustat, troglitazone, sugammadex, iodure I-123 et I-131.
 
-## Considérations de Sécurité
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
-- **Interactions médicamenteuses** : 100 interactions ont été recensées. Parmi celles listées, les principales de niveau **majeur** sont :
-  - Acide acétylsalicylique
-  - Cobicistat
-  - Déférasirox
-  - Ibritumomab tiuxétan
-  - Tositumomab (et tositumomab I-131)
-- Des interactions de niveau **modéré** concernent notamment l'aprépitant, la clarithromycine, le clotrimazole, la dexaméthasone, le miconazole, le rolapitant, l'éliglustat, la fenfluramine, la dexfenfluramine, la sibutramine, la troglitazone, le sugammadex et les iodures I-123/I-131.
-
-Veuillez consulter la notice pour les mises en garde et contre-indications, qui ne sont pas disponibles dans les données compilées. Il faut garder à l'esprit que le risque hémorragique est inhérent à tout anticoagulant.
-
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score de modèle élevé, mais les preuves réelles sont très faibles (L4) : un seul essai indirect et des cas cliniques contradictoires, dont deux suggèrent une absence de bénéfice, voire une aggravation, sous apixaban.
-- Les données de sécurité de l'étiquetage sont absentes ; 6 AMM françaises sur 6 sont valides et le médicament est commercialisé, ce qui précise le contexte de repositionnement.
+- Le niveau de preuve est L5 : aucune étude ne soutient l'apixaban dans la migraine, et les deux cas cliniques disponibles décrivent une aggravation ou une absence de résolution sous apixaban. Le score TxGNN élevé (0,9902) ne suffit pas à justifier une avancée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice ANSM (mises en garde et contre-indications), bloquant pour le criblage de sécurité
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Vérifier si l'essai NCT00562289 contient des données secondaires sur la migraine et si l'étude rétrospective de 2021 comporte des données spécifiques à l'apixaban
-- Établir un lien biologique plausible entre l'inhibition du facteur Xa et la migraine, par exemple dans des sous-groupes avec FOP ou anticorps antiphospholipides
-- Clarifier le statut réglementaire actuel de l'apixaban en France (AMM annulées)
+- Données détaillées sur le mécanisme d'action et sur un lien biologique plausible avec la migraine
+- Mises en garde et contre-indications issues de la notice
+- Études cliniques évaluant directement l'apixaban dans la migraine (notamment avec aura ou associée à un foramen ovale perméable), avec une attention particulière à un éventuel effet délétère
+- Analyse du rapport bénéfice/risque hémorragique dans cette population
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -3,18 +3,18 @@ layout: default
 title: Hydrocortisone
 parent: Preuves élevées (L1-L2)
 nav_order: 381
-evidence_level: L1
+evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Hydrocortisone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+description: "Hydrocortisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Niveau de preuve: **L1** | Indications prédites: **9** 
+Niveau de preuve: **L2** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,61 +33,54 @@ Niveau de preuve: **L1** | Indications prédites: **9**
 
 </div>
 
-## Hydrocortisone: Pelade (alopecia areata)
+## Hydrocortisone: Alopécie areata (alopecia areata)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-L'hydrocortisone est un corticostéroïde utilisé à l'origine dans l'insuffisance surrénalienne, les maladies auto-immunes et inflammatoires (maladie de Crohn, maladies inflammatoires de l'intestin) ainsi que dans certaines affections cutanées.
-Le modèle TxGNN prédit qu'il pourrait être utile dans la **pelade (alopecia areata)**, mais les preuves directes restent faibles : **1 essai clinique** (où l'hydrocortisone sert de comparateur) et **une vingtaine de publications**, dont une seule est un essai randomisé et la plupart sont anciennes ou hors sujet.
+L'hydrocortisone est un corticostéroïde utilisé depuis longtemps pour ses effets anti-inflammatoires et immunosuppresseurs.
+Le modèle TxGNN prédit qu'il pourrait être utile dans l'**alopécie areata (alopecia areata)**,
+avec **1 essai clinique** (où l'hydrocortisone sert de comparateur) et plusieurs publications, dont un essai randomisé pédiatrique, soutenant actuellement cette direction. Le niveau de preuve retenu est L2.
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Pelade (alopecia areata) |
+| Nouvelle Indication Prédite | Alopécie areata (alopecia areata) |
 | Score de Prédiction TxGNN | 0.9997 |
-| Niveau de Preuve | L1 selon le classement automatique, à relativiser (voir ci-dessous) |
+| Niveau de Preuve | L2 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
 | Nombre d'AMM | 15 (valides : 15) |
-| Décision Recommandée | Hold |
+| Décision Recommandée | Proceed with Guardrails |
 
-**Remarque sur le niveau de preuve :** le niveau L1 affiché par le classement automatique repose sur un seul essai de phase 3 de petite taille (41 patients) dans lequel l'hydrocortisone 1 % était le **comparateur** à faible puissance face au clobétasol 0,05 %. Il ne démontre pas l'efficacité de l'hydrocortisone. Les critères stricts (au moins 2 essais de phase 3 menés à terme) ne sont pas remplis ; le niveau réel est plus proche de L3. La décision recommandée est donc prudente.
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'hydrocortisone est un corticostéroïde de faible puissance qui freine l'activité immunitaire locale et l'inflammation.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'hydrocortisone est un corticostéroïde qui freine l'activité immunitaire et l'inflammation locales ou systémiques. Son efficacité est établie dans l'insuffisance surrénalienne (traitement substitutif) et dans plusieurs maladies inflammatoires et auto-immunes.
+L'alopécie areata est une maladie auto-immune, médiée par les lymphocytes T, qui touche le follicule pileux. Les corticostéroïdes, par leur action immunosuppressive, constituent donc une piste cohérente sur le plan mécanistique.
 
-La pelade est une maladie auto-immune à médiation par les lymphocytes T, qui attaque le follicule pileux. Un corticostéroïde peut donc, sur le plan théorique, réduire cette agression immunitaire. C'est probablement ce lien avec les maladies auto-immunes qui explique le score élevé du modèle.
+Il faut toutefois rester prudent : dans le seul essai randomisé disponible, l'hydrocortisone à 1 % servait de comparateur à un corticostéroïde puissant (clobétasol). Cet essai ne démontre donc pas, à lui seul, l'efficacité propre de l'hydrocortisone. D'anciennes séries de cas rapportent aussi des injections intralésionnelles d'hydrocortisone, mais leur qualité méthodologique est limitée.
 
-Cependant, l'hydrocortisone est un corticostéroïde de **faible puissance**. Dans l'unique essai randomisé identifié, elle a servi de référence face à un corticoïde puissant (clobétasol). Ce lien mécanistique reste donc plausible, mais non démontré pour l'hydrocortisone elle-même.
-
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Terminé | 41 | Clobétasol 0,05 % crème versus hydrocortisone 1 % crème chez l'enfant atteint de pelade ; l'hydrocortisone est le comparateur de faible puissance, d'où un soutien indirect seulement |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Terminé | 41 | Essai randomisé chez l'enfant atteint d'alopécie areata comparant la crème de clobétasol propionate 0,05 % à la crème d'hydrocortisone 1 % ; l'hydrocortisone est le comparateur de faible puissance. Petit effectif. |
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | ECR | JAMA Dermatology | Clobétasol 0,05 % versus hydrocortisone 1 % dans la pelade de l'enfant |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Série de cas historique | Medical Times | Traitement de la pelade par cortisone, hydrocortisone et analogues |
-| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Rapport clinique historique | Der Hautarzt | Repousse des cheveux après injection intradermique d'hydrocortisone |
-| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Rapports de cas | J Am Acad Dermatol | Quatre cas de pelade congénitale, traités notamment par minoxidil et corticoïdes topiques |
-| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Revue clinique | J Med Soc New Jersey | Aperçu de la pelade et d'autres problèmes du cuir chevelu |
-| [24326563](https://pubmed.ncbi.nlm.nih.gov/24326563/) | 2013 | Préclinique (souris) | J Investig Dermatol Symp Proc | Agonistes et antagonistes de la PTH dans un modèle murin de pelade, sans rapport direct avec l'hydrocortisone |
-| [19289325](https://pubmed.ncbi.nlm.nih.gov/19289325/) | 2009 | Rapport de cas | Endocr Pract | Syndrome polyglandulaire auto-immun de type 3 avec alopécie universelle |
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | ECR | JAMA Dermatology | Clobétasol 0,05 % versus hydrocortisone 1 % dans l'alopécie areata de l'enfant |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Série de cas | Medical Times | Traitement de l'alopécie areata par cortisone, hydrocortisone et analogues |
+| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Rapport clinique historique | Der Hautarzt | Repousse des cheveux après injection intracutanée d'hydrocortisone |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Cas cliniques | J Am Acad Dermatol | Quatre cas d'alopécie areata congénitale traités par divers topiques |
+| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Revue | J Med Soc New Jersey | Aperçu clinique de l'alopécie areata et d'autres problèmes du cuir chevelu |
 
-Plusieurs autres publications (injections intralésionnelles d'hydrocortisone des années 1955 à 1973, enquête sur l'automédication, cas vétérinaire) sont très anciennes, sans résumé ou hors sujet ; elles n'apportent pas de preuve exploitable.
+## Informations de marché en France
 
-**Autres indications prédites (preuves insuffisantes) :** mucinose folliculaire (alopecia mucinosa), effluvium télogène, folliculite décalvante de Quinquaud, syndrome néphrotique idiopathique stéroïdosensible et plusieurs syndromes génétiques rares. Aucune ne dispose d'essai clinique ni de littérature directement pertinente. Le seul article indirect sur le syndrome néphrotique (1982) concerne la réponse surrénalienne et non l'efficacité de l'hydrocortisone. Toutes sont classées Hold.
-
-## Informations de Marché en France
-
-Le médicament est commercialisé : 15 AMM valides sur 15. Les textes d'indication ne sont pas disponibles dans les données compilées.
+L'hydrocortisone est commercialisée en France ; les 15 AMM recensées sont valides. Les textes d'indication ne sont pas renseignés dans les données locales.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -97,29 +90,27 @@ Le médicament est commercialisé : 15 AMM valides sur 15. Les textes d'indicati
 | 67369944 | LOCOID, crème épaisse | Crème épaisse pour application | Non renseignée |
 | 66841235 | LOCOID 0,1 %, crème | Crème | Non renseignée |
 
-## Considérations de Sécurité
+La liste est limitée aux 5 premières AMM.
 
-- **Contre-indications issues du graphe de connaissances** (relations déduites, non extraites d'une notice) : hypertension, épilepsie, ulcère gastrique, maladie rénale, maladie hépatique, maladie de la vésicule biliaire, hyperglycémie, infections virales (rougeole, verrues, papillomavirus anogénital, kératite herpétique) et déficits en hormones hypophysaires.
-- **Interactions médicamenteuses** (100 interactions recensées, extrait des principales) :
-  - **Majeure :** adalimumab.
-  - **Modérées :** zidovudine, isotrétinoïne, acarbose, acétazolamide, kétorolac, nifédipine, ibuprofène, éthinylestradiol, aldesleukine, alemtuzumab, albiglutide, certains vaccins.
-  - **Mineures :** formotérol, salbutamol.
+## Considérations de sécurité
 
-Les mises en garde et contre-indications issues de la notice officielle ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
+- **Interactions médicamenteuses** : 100 interactions sont recensées. Parmi les exemples : adalimumab (niveau majeur) ; ibuprofène, kétorolac, nifédipine, éthinylestradiol, isotrétinoïne, zidovudine et acétazolamide (niveau modéré) ; salbutamol et formotérol (niveau mineur).
 
-## Conclusion et Prochaines Étapes
+Veuillez consulter la notice pour les mises en garde et contre-indications détaillées.
 
-**Décision : Hold**
+## Conclusion et prochaines étapes
+
+**Décision : Proceed with Guardrails**
 
 **Justification :**
-- La seule preuve clinique directe est un essai pédiatrique de petite taille où l'hydrocortisone est le comparateur faible, ce qui n'établit pas son efficacité dans la pelade. Le niveau L1 automatique est trompeur.
-- Les données de sécurité issues de la notice et le mécanisme d'action manquent, et aucune AMM n'est en vigueur en France.
+Un essai randomisé de phase 3 chez l'enfant, directement centré sur l'alopécie areata, et d'anciennes séries de cas d'injections intralésionnelles soutiennent un intérêt pour l'hydrocortisone (niveau L2). Mais l'hydrocortisone y est le comparateur de faible puissance, et l'essai est petit : l'efficacité propre de l'hydrocortisone n'est pas démontrée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, ce qui est bloquant pour le criblage de sécurité.
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Identifier ou conduire des essais comparant l'hydrocortisone à un placebo ou à un traitement actif dans la pelade, avec une formulation et une voie d'administration définies (topique ou intralésionnelle).
-- Clarifier la compatibilité de la voie d'administration et la situation réglementaire (médicament commercialisé, 15 AMM valides sur 15).
+- Un essai comparatif contrôlé (par exemple contre placebo) évaluant l'hydrocortisone elle-même dans l'alopécie areata
+- Les données détaillées sur le mécanisme d'action
+- Les mises en garde et contre-indications issues des notices
+- Le choix de la voie d'administration (topique ou intralésionnelle) et de la population cible
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

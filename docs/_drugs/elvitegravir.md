@@ -3,18 +3,18 @@ layout: default
 title: Elvitegravir
 parent: Preuves modérées (L3-L4)
 nav_order: 278
-evidence_level: L3
+evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
-description: "Elvitegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (SIV) (niveau de preuve L3). Indication d'origine : Infection par le VIH, SIDA (texte d'indication d'…"
+last_modified_at: 2026-11-04
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Elvitegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4)."
 ---
 
 # Elvitegravir
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **3** 
+Niveau de preuve: **L4** | Indications prédites: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,83 +33,82 @@ Niveau de preuve: **L3** | Indications prédites: **3**
 
 </div>
 
-## Elvitegravir : Du VIH/SIDA à l'infection par le virus de l'immunodéficience simienne
+## Elvitegravir: Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Elvitegravir est un inhibiteur de l'intégrase du VIH-1, initialement utilisé dans le traitement de l'infection par le VIH et du SIDA (notamment dans les associations Genvoya et Stribild).
-Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par le virus de l'immunodéficience simienne (SIV)**,
-avec **aucun essai clinique** et **8 publications** précliniques (modèles animaux et études in vitro) soutenant actuellement cette direction.
+Elvitegravir est un inhibiteur de l'intégrase du VIH-1 (inhibiteur de transfert de brin, INSTI), utilisé dans des associations antirétrovirales.
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection)**,
+avec **0 essai clinique** et **8 publications** précliniques (modèles animaux et études in vitro) à l'appui, soit un niveau de preuve **L4**.
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Infection par le VIH, SIDA (texte d'indication d'AMM non disponible) |
-| Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (SIV) |
-| Score de Prédiction TxGNN | 0,9989 |
-| Niveau de Preuve | L3 |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
+| Score de prédiction TxGNN | 0.9989 |
+| Niveau de preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, elvitegravir est un inhibiteur de transfert de brin de l'intégrase (INSTI) du VIH-1. Il bloque l'intégration de l'ADNc viral dans le génome de la cellule hôte, étape indispensable à la réplication du virus.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, elvitegravir est un inhibiteur de l'intégrase du VIH-1 : il bloque l'étape de transfert de brin qui permet l'intégration de l'ADN viral dans le génome de la cellule hôte.
 
-Les intégrases du VIH-1 et du SIV sont très proches, ce qui explique une activité croisée des INSTI. La littérature préclinique montre une activité d'elvitegravir sur le SIVmac239, une caractérisation des profils de résistance aux INSTI chez le SIV, ainsi que l'usage de modèles de VIH à tropisme simien et de souris humanisées pour tester des stratégies antivirales.
+Les intégrases du VIH-1 et du virus de l'immunodéficience simienne (SIV) sont proches, ce qui explique une activité croisée des INSTI. Les travaux précliniques montrent une sensibilité du SIVmac239 aux inhibiteurs d'intégrase, y compris l'elvitegravir, et des profils de résistance comparables à ceux du VIH.
 
-Il faut toutefois nuancer : il s'agit d'un contexte de recherche vétérinaire et préclinique, et non d'une indication thérapeutique humaine. Ces données soutiennent le mécanisme et l'intérêt translationnel, mais ne démontrent pas d'efficacité clinique chez l'humain. L'indication originale (VIH) reste la référence cliniquement pertinente.
+Il faut toutefois rester prudent : l'infection par le SIV est un modèle de recherche animal, et non une indication thérapeutique humaine. Ces données soutiennent le mécanisme et l'usage translationnel, mais n'établissent pas d'efficacité clinique.
 
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Étude animale préclinique (macaques) | J Infect Dis | Des inserts vaginaux de ténofovir alafénamide (20 mg) et elvitegravir (16 mg) protègent contre des expositions répétées au SHIV, administrés 4 h avant ou après l'exposition (93 % et 100 %) ; protection post-exposition prolongée étudiée |
-| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Étude animale préclinique (macaques) | J Infect Dis | Inserts topiques TAF/elvitegravir par voie rectale : protection post-exposition partielle (82,9 %) dans un modèle SHIV |
-| [17977962](https://pubmed.ncbi.nlm.nih.gov/17977962/) | 2008 | In vitro | J Virol | Large activité antirétrovirale d'elvitegravir (inhibition du transfert de brin) sur différents sous-types de VIH-1 ; profil de résistance décrit |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Modèle murin humanisé préclinique | Front Immunol | Modèle de souris à double usage pour tester des stratégies antivirales contre le SIV et le VIH |
-| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | In vitro | Antimicrob Agents Chemother | VIH à tropisme simien comme modèle d'étude de la résistance aux inhibiteurs de l'intégrase |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Étude animale préclinique | J Infect Dis | Inserts vaginaux ténofovir alafénamide/elvitegravir : protection prolongée après exposition au SHIV chez le macaque |
+| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Étude animale préclinique | J Infect Dis | Inserts topiques en voie rectale : protection partielle après exposition (environ 82,9 %) dans un modèle macaque de SHIV |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Modèle préclinique (souris humanisée) | Front Immunol | Modèle murin à double usage pour tester des stratégies antivirales contre le SIV et le VIH |
+| [17977962](https://pubmed.ncbi.nlm.nih.gov/17977962/) | 2008 | In vitro | J Virol | Large activité antirétrovirale de l'elvitegravir et profil de résistance |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | In vitro | J Virol | Profils de résistance des INSTI dans le SIVmac239 |
+| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | In vitro | Antimicrob Agents Chemother | VIH à tropisme simien comme modèle d'étude de la résistance aux INSTI |
 | [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | In vitro | J Virol | Effet des mutations de résistance de l'intégrase du VIH-1 introduites dans le SIVmac239 sur la sensibilité aux INSTI |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | In vitro | J Virol | Profils de résistance aux INSTI chez le SIVmac239, comparables à ceux observés chez le VIH |
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro | Antimicrob Agents Chemother | Activité du bictégravir et du cabotégravir sur le SIVmac239 et le VIH-1 résistants aux INSTI (elvitegravir cité en comparaison) |
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro | Antimicrob Agents Chemother | Activité du bictégravir et du cabotégravir sur le SIVmac239 et le VIH-1 résistants aux INSTI |
 
-## Informations de Marché en France
+## Informations de marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 65453475 | GENVOYA 150 mg/150 mg/200 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 | 65768058 | STRIBILD 150 mg/150 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
-## Considérations de Sécurité
+Les deux AMM sont valides, et le médicament est commercialisé en France.
 
-**Interactions Médicamenteuses** : 27 interactions ont été recensées ; les principales sont listées ci-dessous.
+## Considérations de sécurité
 
-- **Majeures** : sels de zinc (acétate, gluconate, sulfate, chlorure), lumacaftor, apalutamide
-- **Modérées** : antiacides et sels minéraux (oxyde, carbonate et hydroxyde de magnésium, hydroxyde d'aluminium, carbonate de calcium, magaldrate, citrate et bicarbonate de sodium), dexaméthasone, orlistat, diclofénac, elagolix, somatropine, éthinylestradiol
+**Interactions médicamenteuses** : 27 interactions sont recensées dans les données compilées. Parmi celles analysées :
+- **Majeures** : sels de zinc (acétate, gluconate, sulfate, chlorure), lumacaftor, apalutamide.
+- **Modérées** : antiacides et sels minéraux (oxyde et hydroxyde de magnésium, carbonate de magnésium, hydroxyde d'aluminium, carbonate de calcium, magaldrate, citrate et bicarbonate de sodium), dexaméthasone, orlistat, diclofénac, élagolix, somatropine, éthinylestradiol.
 
-Veuillez consulter la notice pour les mises en garde et contre-indications, qui ne sont pas disponibles dans les données compilées.
+Veuillez consulter la notice pour les mises en garde et contre-indications.
 
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les preuves sont exclusivement précliniques (modèles de macaques, études in vitro) pour une indication vétérinaire/de recherche, sans essai clinique ni indication humaine distincte de celle du VIH.
-- Les AMM françaises sont toutes annulées et les données de sécurité de la notice manquent, ce qui bloque le passage au criblage de sécurité.
+Les preuves se limitent à des études précliniques (modèles de macaque SHIV et études in vitro sur le SIV), soit un niveau L4. Le SIV est un modèle de recherche animal et non une indication thérapeutique humaine : aucune efficacité clinique n'est établie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications)
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Définir si l'objectif est une application humaine (par exemple la prophylaxie topique du VIH) ou un usage de recherche, avec une question de recherche claire
-- Valider la compatibilité des voies d'administration (les inserts topiques ne correspondent pas à la forme comprimé commercialisée)
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice (ANSM)
+- Définition d'une question de recherche translationnelle claire, car aucune indication humaine ne correspond à cette cible
+- Évaluation de la pertinence des modèles animaux (macaque, souris humanisée) par rapport à l'objectif visé
 
-**Remarque sur les autres prédictions :** les prédictions pour le syndrome d'immunodéficience acquise féline (niveau L5) et pour un trouble neurodéveloppemental rare (niveau L5) ne reposent que sur le modèle, sans aucune preuve ni lien mécanistique plausible ; elles sont maintenues en « Hold ».
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

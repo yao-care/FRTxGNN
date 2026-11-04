@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vandetanib
-parent: Preuves élevées (L1-L2)
+parent: Preuves modérées (L3-L4)
 nav_order: 805
-evidence_level: L2
+evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "vandetanib"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
-description: "Vandetanib : nouvelle indication prédite, Renal cell carcinoma (disease) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Vandetanib : nouvelle indication prédite, Carcinome à cellules rénales (renal cell carcinoma (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-Niveau de preuve: **L2** | Indications prédites: **10** 
+Niveau de preuve: **L3** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +33,52 @@ Niveau de preuve: **L2** | Indications prédites: **10**
 
 </div>
 
-## Vandetanib: Renal cell carcinoma (disease)
+## Vandetanib: Carcinome à cellules rénales (renal cell carcinoma (disease))
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-Vandetanib est un inhibiteur de tyrosine kinase, initialement utilisé pour le traitement du carcinome de la thyroïde (cancer médullaire de la thyroïde avancé).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome rénal à cellules claires et le carcinome rénal en général**,
-avec **4 essais cliniques** (de phase 1/2 et 2, petits ou arrêtés prématurément) et **plusieurs publications** surtout de nature générale ou centrées sur la sécurité des inhibiteurs de tyrosine kinase.
+Le vandétanib est un inhibiteur de tyrosine kinases ciblant notamment VEGFR2, EGFR et RET.
+Le modèle TxGNN prédit qu'il pourrait être utile dans le **carcinome à cellules rénales (renal cell carcinoma (disease))**, avec **4 essais cliniques** de phase 1/2 ou 2 (dont deux terminés prématurément avec très peu de patients) et **5 publications** associées, qui n'étudient pas directement l'efficacité du vandétanib dans cette maladie. Le niveau de preuve retenu est **L3**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Renal cell carcinoma (disease) |
+| Nouvelle Indication Prédite | Carcinome à cellules rénales (renal cell carcinoma (disease)) |
 | Score de Prédiction TxGNN | 0.9992 |
-| Niveau de Preuve | L2 (selon la grille de l'analyse ; voir la réserve ci-dessous) |
+| Niveau de Preuve | L3 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
-Réserve sur le niveau de preuve : le niveau L2 correspond à la classification issue des données compilées. Strictement, aucun essai de phase 2/3 mené à terme avec résultats disponibles dans le carcinome rénal n'est documenté : seul un essai de phase 2 achevé (n=37, maladie de von Hippel-Lindau) existe, sans résultats fournis. Le niveau doit donc être interprété avec prudence, plutôt comme un niveau de preuve limité.
-
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, vandetanib inhibe plusieurs récepteurs à activité tyrosine kinase : VEGFR2, EGFR et RET. Son efficacité dans le cancer médullaire de la thyroïde, où RET est activé de façon constitutive, est établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la pharmacologie connue du vandétanib, il inhibe VEGFR2, EGFR et RET.
 
-Le carcinome rénal à cellules claires est caractérisé par la perte de VHL, qui active la voie HIF/VEGF et rend la tumeur fortement dépendante de l'angiogenèse. L'inhibition de VEGFR2 est une cible validée dans ce cancer, comme le montre l'usage d'autres inhibiteurs de tyrosine kinase anti-VEGFR. Cela offre une base mécanistique plausible à la prédiction.
+Dans le carcinome à cellules rénales, l'angiogenèse dépendante de la voie VEGF est une cible validée : des inhibiteurs de tyrosine kinases ciblant VEGFR sont utilisés dans cette maladie. Dans la forme à cellules claires, la perte de VHL active la voie HIF/VEGF, ce qui rend l'inhibition de VEGFR2 plausible.
 
-Cette base reste toutefois inférée et non démontrée pour vandetanib : les études disponibles sont petites ou interrompues et aucun résultat d'efficacité n'est fourni. Les autres sous-types prédits (carcinome rénal associé à une translocation Xp11.2/TFE3, carcinome rénal non classé, carcinome rénal de l'enfant, carcinome du bassinet rénal) ne reposent que sur le score du modèle ou sur des données indirectes.
+Ce raisonnement reste une extrapolation mécanistique. Aucun résultat d'efficacité n'est fourni pour les essais listés ci-dessous, et la littérature disponible porte surtout sur la toxicité de la classe des inhibiteurs de VEGFR.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Phase 2 | Terminé | 37 | Vandetanib dans la maladie de von Hippel-Lindau avec tumeurs rénales ; essai le plus informatif, mais aucun résultat fourni |
-| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Phase 2 | Terminé | 82 | Carboplatine + gemcitabine ± vandetanib dans le cancer urothélial avancé (patients non éligibles au cisplatine) ; lien indirect avec le carcinome rénal, aucun résultat fourni |
-| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Phase 1/2 | Arrêté | 7 | Vandetanib + metformine dans les cancers du rein HLRCC/SDH ou carcinome papillaire sporadique ; arrêté avec 7 patients, non concluant |
-| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Phase 2 | Arrêté | 3 | Vandetanib dans le carcinome rénal à cellules claires avancé ; arrêté avec 3 patients, non informatif |
+| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Phase 2 | Terminé | 37 | Vandétanib chez des patients atteints de la maladie de von Hippel-Lindau avec tumeurs rénales ; essai le plus informatif, sans résultats fournis |
+| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Phase 2 | Arrêté prématurément | 3 | Vandétanib dans le carcinome rénal à cellules claires avancé ; trop peu de patients pour conclure |
+| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Phase 1/2 | Arrêté prématurément | 7 | Vandétanib + metformine dans les cancers rénaux HLRCC/SDH ou papillaires sporadiques ; données insuffisantes |
+| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Phase 2 | Terminé | 82 | Carboplatine et gemcitabine ± vandétanib dans le cancer urothélial avancé ; lien indirect avec le carcinome rénal |
 
 ## Preuves de la Littérature
 
-Aucune publication ne rapporte de résultats d'efficacité de vandetanib dans le carcinome rénal. La littérature disponible est composée de revues générales, de données de sécurité de classe et d'études précliniques.
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Revue | Clin Exp Metastasis | Carcinome rénal déficient en fumarate hydratase : absence de traitement standard, plusieurs essais de phase 2 de thérapies ciblées en cours |
-| [32691271](https://pubmed.ncbi.nlm.nih.gov/32691271/) | 2021 | Suivi à long terme | Endocrine | Suivi à long terme et sécurité de vandetanib dans le cancer médullaire de la thyroïde avancé (indication d'origine) |
-| [23981115](https://pubmed.ncbi.nlm.nih.gov/23981115/) | 2014 | Méta-analyse (sécurité) | Br J Clin Pharmacol | Incidence et risque de toxicité hépatique des inhibiteurs de tyrosine kinase anti-angiogéniques |
-| [22651902](https://pubmed.ncbi.nlm.nih.gov/22651902/) | 2012 | Méta-analyse (sécurité) | Cancer Treat Rev | Mortalité liée au traitement avec les inhibiteurs de tyrosine kinase anti-VEGFR dans les tumeurs solides avancées |
-| [32105149](https://pubmed.ncbi.nlm.nih.gov/32105149/) | 2020 | Méta-analyse (sécurité) | Expert Rev Clin Pharmacol | Incidence et risque de protéinurie sous inhibiteurs de VEGFR, dont vandetanib |
-| [42107510](https://pubmed.ncbi.nlm.nih.gov/42107510/) | 2026 | Revue | Pharmacol Res | Inhibiteurs de RET approuvés dans les cancers de la thyroïde et du poumon pilotés par RET |
-| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Revue | OncoTargets Ther | Profil du nintedanib ; mention des antiangiogéniques dont vandetanib |
-| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Revue | ASCO Educ Book | Approches systémiques des cancers avancés de la thyroïde ; place de vandetanib dans le cancer médullaire |
-| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Préclinique (modèle murin) | Mol Cancer Res | Modèle murin du carcinome rénal à translocation TFE3 ; cibles thérapeutiques potentielles |
-| [23185843](https://pubmed.ncbi.nlm.nih.gov/23185843/) | 2012 | Commentaire | Prescrire Int | « Vandetanib : trop dangereux dans le cancer médullaire de la thyroïde » ; critique du rapport bénéfice-risque |
+| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Revue | Clinical & Experimental Metastasis | Approches ciblées dans le carcinome rénal déficient en fumarate hydratase métastatique |
+| [42107510](https://pubmed.ncbi.nlm.nih.gov/42107510/) | 2026 | Revue | Pharmacological Research | Inhibiteurs de RET dans les cancers thyroïdiens et pulmonaires pilotés par RET |
+| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Revue | OncoTargets and Therapy | Profil des agents antiangiogéniques dans les tumeurs solides, dont le vandétanib |
+| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Revue | ASCO Educational Book | Traitements systémiques des cancers thyroïdiens avancés |
+| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Étude préclinique (modèle murin) | Molecular Cancer Research | Modèle murin du carcinome rénal avec translocation TFE3 et nouvelles cibles thérapeutiques |
 
 ## Informations de Marché en France
 
@@ -97,50 +87,39 @@ Aucune publication ne rapporte de résultats d'efficacité de vandetanib dans le
 | 65808531 | CAPRELSA 100 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Texte d'indication non disponible |
 | 69269825 | CAPRELSA 300 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Texte d'indication non disponible |
 
-Les deux AMM, détenues par Genzyme Europe (Pays-Bas), sont valides : le médicament est commercialisé en France.
+Le vandétanib est commercialisé en France ; les deux AMM listées sont valides.
 
 ## Cytotoxicité
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur multikinase : VEGFR2, EGFR, RET) |
-| Risque de Myélosuppression | Non documenté dans les données compilées ; veuillez consulter les mises en garde et précautions de la notice |
-| Classification d'Émétogénicité | Non documentée dans les données compilées ; veuillez consulter la notice |
-| Éléments de Surveillance | Compte tenu des signaux de sécurité de la classe : ECG et QT, électrolytes (potassium, calcium, magnésium), fonction thyroïdienne, fonction hépatique et rénale (protéinurie), tension artérielle |
-| Protection de Manipulation | Veuillez consulter la notice pour les précautions de manipulation des médicaments antinéoplasiques |
+| Classification de Cytotoxicité | Thérapie ciblée (inhibiteur de tyrosine kinases) |
+| Risque de Myélosuppression | Veuillez consulter les mises en garde et précautions de la notice |
+| Classification d'Émétogénicité | Veuillez consulter les mises en garde et précautions de la notice |
+| Éléments de Surveillance | Selon la littérature de classe : fonction hépatique, protéinurie/fonction rénale ; ECG et électrolytes en raison du risque de QT long (voir ci-dessous) |
+| Protection de Manipulation | Veuillez consulter la notice |
 
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (associations médicament-maladie, et non texte de notice) : hypertension, syndrome du QT long (y compris familial) et torsades de pointes, hypothyroïdie (myxœdème, hypothyroïdie congénitale), carence en potassium, hypercalcémie, néphrocalcinose, troubles du métabolisme du phosphore, insuffisance rénale, pneumopathie interstitielle, insuffisance cardiaque (congestive), ischémie cérébrale et accident ischémique transitoire, syndrome de leucoencéphalopathie postérieure.
-- **Interactions médicamenteuses** : 296 interactions recensées. Les interactions de niveau majeur incluent notamment :
-  - clarithromycine,
-  - lévofloxacine,
-  - dolasétron,
-  - palonosétron,
-  - acide picosulfurique,
-  - polyéthylène glycol (3350 avec électrolytes),
-  - sulfate de sodium.
+- **Contre-indications ou pathologies à risque signalées dans les données compilées** (ne provenant pas du texte de la notice) : hypertension, syndrome du QT long (y compris familial) et torsades de pointes, hypothyroïdie, carence en potassium, hypercalcémie, troubles du métabolisme du phosphore, insuffisance rénale, pneumopathie interstitielle, insuffisance cardiaque, ischémie cérébrale/accident ischémique transitoire, syndrome de leucoencéphalopathie postérieure.
+- **Interactions médicamenteuses** : 296 interactions recensées. Interactions majeures notamment avec la clarithromycine, la lévofloxacine, le dolasétron, le palonosétron, l'acide picosulfurique, le sulfate de sodium et le polyéthylène glycol avec électrolytes. Interactions modérées avec la famotidine, la metformine, le lopéramide, la dexaméthasone, le bisacodyl et le lactitol.
+- **Toxicités de classe rapportées dans la littérature** : toxicité hépatique, protéinurie, mortalité liée au traitement, photosensibilité (inhibiteurs de VEGFR).
 
-  Plusieurs interactions modérées concernent la famotidine, la metformine, le lopéramide, la dexaméthasone, le bisacodyl et le lactitol. Les interactions mineures concernent notamment la ranitidine, l'oméprazole, le lansoprazole, le dexlansoprazole, le rabéprazole, le métronidazole et le naloxégol. Plusieurs interactions majeures sont probablement liées au risque d'allongement du QT, cohérent avec les contre-indications ci-dessus.
-- **Données de sécurité de classe** : la littérature signale une toxicité hépatique, une protéinurie, une mortalité liée au traitement et des réactions de photosensibilité avec les inhibiteurs de tyrosine kinase anti-VEGFR, dont vandetanib. Un commentaire critique de 2012 (Prescrire) jugeait vandetanib trop dangereux dans le cancer médullaire de la thyroïde.
-
-Les mises en garde et contre-indications de la notice française n'ont pas pu être obtenues ; veuillez consulter la notice pour les informations de sécurité officielles.
+Pour les mises en garde officielles, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le rationnel mécanistique (inhibition de VEGFR2 dans un cancer dépendant de l'angiogenèse) est plausible, mais les essais dans le carcinome rénal sont petits, arrêtés prématurément ou sans résultats disponibles, et aucune publication n'établit l'efficacité.
-- Le dépistage de sécurité ne peut donc pas être mené à bien à ce stade.
+Le niveau de preuve est L3 : l'essai de phase 2 dans la maladie de von Hippel-Lindau avec tumeurs rénales (NCT00566995) est informatif, mais sans résultats fournis, et les autres essais rénaux ont été arrêtés prématurément avec très peu de patients. Le profil de sécurité (risque cardiaque lié au QT, interactions nombreuses) impose la prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM.
-- Compléter les données sur le mécanisme d'action depuis DrugBank.
-- Récupérer les résultats publiés de l'essai de phase 2 NCT00566995 (maladie de von Hippel-Lindau) et des autres essais.
-- Comparer vandetanib aux inhibiteurs de tyrosine kinase déjà établis dans le carcinome rénal à cellules claires pour juger de l'intérêt d'un développement.
-- Définir un plan de gestion du risque cardiaque (QT, électrolytes) et des interactions médicamenteuses avant toute étude chez l'humain.
-- Clarifier le statut réglementaire en France, les deux AMM étant annulées.
+- Résultats publiés de l'essai NCT00566995 et des autres essais rénaux
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice
+- Évaluation du rapport bénéfice/risque cardiovasculaire dans une population rénale
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

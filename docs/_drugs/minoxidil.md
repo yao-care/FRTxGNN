@@ -3,18 +3,18 @@ layout: default
 title: Minoxidil
 parent: Preuves modérées (L3-L4)
 nav_order: 503
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-04
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with schistosomiasis"]
-description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Minoxidil
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,8 @@ Niveau de preuve: **L3** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Minoxidil est un vasodilatateur ouvreur des canaux potassiques, initialement utilisé pour traiter l'hypertension artérielle (par voie orale) et l'alopécie (par voie cutanée).
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypotrichose simple du cuir chevelu**, une maladie génétique rare.
-Aucun essai clinique n'est enregistré, mais **3 publications** (séries et rapports de cas) soutiennent actuellement cette direction.
+Le minoxidil est un vasodilatateur ouvreur des canaux potassiques, utilisé en France sous forme de solution ou de mousse cutanée et de comprimés.
+Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp)**, avec un niveau de preuve **L4**, soutenu par **3 publications** (rapports de cas ou séries de cas) et aucun essai clinique enregistré.
 
 ## Aperçu Rapide
 
@@ -49,34 +48,34 @@ Aucun essai clinique n'est enregistré, mais **3 publications** (séries et rapp
 | Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
 | Score de Prédiction TxGNN | 1.0000 |
-| Niveau de Preuve | L3 |
+| Niveau de Preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 19) |
 | Nombre d'AMM | 19 (valides : 17) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, le minoxidil ouvre les canaux potassiques sensibles à l'ATP et prolonge la phase anagène du follicule pileux. Il favorise aussi la vasodilatation et la prolifération folliculaire, ce qui est cohérent avec son usage dans l'alopécie.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances publiées, le minoxidil ouvre les canaux potassiques sensibles à l'ATP, provoque une vasodilatation et prolonge la phase anagène du follicule pileux. Il favorise aussi la prolifération folliculaire.
 
-L'hypotrichose simple héréditaire est un trouble non cicatriciel de raréfaction pilaire, lié notamment à des variants du gène *CDSN* (cornéodesmosine). Son mécanisme est donc proche de celui des alopécies non cicatricielles déjà traitées par le minoxidil, et l'effet stimulant sur la croissance du cheveu pourrait s'y appliquer.
+L'hypotrichose simple héréditaire du cuir chevelu est une raréfaction capillaire non cicatricielle, d'origine génétique (variants du gène CDSN dans l'un des cas rapportés). Un médicament qui stimule la croissance du follicule pourrait donc, en théorie, être pertinent.
 
-Une réserve importante : dans les trois publications identifiées, le minoxidil (oral ou topique) était associé à des facteurs de croissance, à des extraits botaniques ou à du plasma riche en plaquettes (PRP). Sa contribution propre ne peut donc pas être isolée.
+Les trois publications identifiées associent toutefois le minoxidil (oral ou topique) à d'autres traitements : facteurs de croissance, extraits botaniques ou plasma riche en plaquettes. Sa contribution propre ne peut pas être isolée. Le niveau de preuve reste donc limité à des rapports de cas.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé n'est enregistré actuellement.
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Série de cas | Dermatologic Therapy | Traitement de l'hypotrichose simple héréditaire du cuir chevelu par minoxidil oral et facteurs de croissance (résumé non disponible) |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Cas clinique | Frontiers in Genetics | Cas familial d'un garçon de 8 ans porteur d'une mutation de *CDSN*, traité par extraits botaniques et minoxidil |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Cas clinique | Journal of Dermatological Treatment | Patient de 14 ans traité avec succès par injection de PRP associée au minoxidil topique à 2 % |
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Série de cas | Dermatologic Therapy | Traitement de l'hypotrichose simple héréditaire du cuir chevelu par minoxidil oral associé à des facteurs de croissance |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Cas clinique | Frontiers in Genetics | Garçon de 8 ans porteur d'une mutation du gène CDSN, traité par extraits botaniques associés au minoxidil |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Cas clinique | Journal of Dermatological Treatment | Patient de 14 ans traité par injections de plasma riche en plaquettes associées à du minoxidil topique 2 % ; résultat décrit comme favorable |
 
 ## Informations de Marché en France
 
-Les 19 AMM recensées sont annulées. Les cinq premières sont présentées ci-dessous ; le texte d'indication n'est pas renseigné dans les données.
+Le minoxidil est commercialisé en France. Sur les 19 AMM recensées, 17 sont valides et 2 sont annulées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -88,29 +87,23 @@ Les 19 AMM recensées sont annulées. Les cinq premières sont présentées ci-d
 
 ## Considérations de Sécurité
 
-**Contre-indications issues du graphe de connaissances** (ce ne sont pas des données de notice) : hypotension orthostatique, atrophie multisystématisée, syndrome de tachycardie orthostatique posturale, maladie rénale, accident vasculaire cérébral et maladies cérébrovasculaires, infarctus du myocarde, maladies cardiovasculaires, phéochromocytome et paragangliome, péricardite, épanchement péricardique et tamponnade, hémoglobinopathie, ainsi que dermatose du cuir chevelu.
+- **Interactions médicamenteuses** : 100 interactions sont recensées. Les principales, de niveau modéré, concernent les corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, bétaméthasone, budésonide, prednisolone, prednisone), le bupropion, la morphine et l'opium, les inhibiteurs du SGLT2 (canagliflozine, dapagliflozine, empagliflozine, ertugliflozine), le dronabinol, la nabilone et la saproptérine.
 
-**Interactions médicamenteuses** (100 interactions recensées, dont les principales sont de niveau modéré) :
-- Corticoïdes : hydrocortisone, prednisone, prednisolone, dexaméthasone, bétaméthasone, budésonide, triamcinolone
-- Inhibiteurs du SGLT2 : canagliflozine, dapagliflozine, empagliflozine, ertugliflozine
-- Autres : bupropion, morphine, opium, dronabinol, nabilone, saproptérine
-
-Pour les mises en garde et la notice officielle, veuillez consulter la notice : les données de l'ANSM n'ont pas pu être exploitées.
+Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Le score TxGNN est très élevé et le mécanisme est plausible, mais les preuves se limitent à trois cas cliniques en association thérapeutique (niveau L3), sans essai enregistré.
-- Le profil de sécurité, en particulier cardiovasculaire en cas d'usage systémique, impose des précautions ; le médicament est commercialisé en France, avec 19 AMM valides sur 19.
+Les preuves se limitent toutefois à trois rapports de cas où le minoxidil est associé à d'autres traitements (niveau L4), sans essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données de mécanisme d'action issues de DrugBank
-- Mises en garde et contre-indications de la notice ANSM
-- Études contrôlées isolant l'effet du minoxidil en monothérapie
-- Évaluation de la voie d'administration (topique ou orale à faible dose) et de la sécurité cardiovasculaire, notamment chez l'enfant
-- Clarification du statut réglementaire, le médicament étant commercialisé avec 19 AMM valides sur 19
+- Études contrôlées évaluant le minoxidil seul dans l'hypotrichose simple du cuir chevelu
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice, en particulier pour la forme orale chez l'enfant et l'adolescent
+- Plan de surveillance de la sécurité cardiovasculaire en cas d'usage oral
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

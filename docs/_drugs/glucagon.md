@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glucagon
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 366
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Glucagon : nouvelle indication prédite, Syndrome de l'intestin irritable (niveau de preuve L3). Indication d'origine : Non disponible (texte d'indication non renseigné dans l'AMM)"
+last_modified_at: 2026-11-04
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
+description: "Glucagon : nouvelle indication prédite, Syndrome de l'intestin irritable (irritable bowel syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,94 +33,79 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 </div>
 
-## Glucagon : D'un usage non précisé au Syndrome de l'intestin irritable
+## Glucagon: Syndrome de l'intestin irritable (irritable bowel syndrome)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Les données compilées pour ce rapport ne précisent pas l'indication d'origine du glucagon. Ce médicament est connu comme hormone peptidique dérivée du proglucagon.
-Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de l'intestin irritable**, avec **2 essais cliniques** et **20 publications** associés. Cependant, ces preuves portent presque exclusivement sur des analogues du GLP-1 (et non sur le glucagon lui-même), ce qui rend le lien indirect.
+Le glucagon est une hormone peptidique dérivée du proglucagon. Le modèle TxGNN prédit qu'il pourrait être utile pour le **syndrome de l'intestin irritable (irritable bowel syndrome)**. Aucune étude ne teste le glucagon lui-même dans cette maladie : les 2 essais cliniques et les publications recensés portent sur le GLP-1 et ses analogues, qui sont des médicaments différents. Le niveau de preuve est donc **L5**.
 
----
-
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non disponible (texte d'indication non renseigné dans l'AMM) |
-| Nouvelle Indication Prédite | Syndrome de l'intestin irritable |
-| Score de Prédiction TxGNN | 0,9924 |
-| Niveau de Preuve | L3 |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Syndrome de l'intestin irritable (irritable bowel syndrome) |
+| Score de prédiction TxGNN | 0.9924 |
+| Niveau de preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
----
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le glucagon est une hormone dérivée du proglucagon, comme le GLP-1. Il est également connu comme relaxant du muscle lisse intestinal, utilisé en imagerie digestive et en endoscopie.
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le glucagon est un peptide dérivé du proglucagon, comme le GLP-1. C'est un relaxant bien connu du muscle lisse intestinal, utilisé comme antispasmodique lors d'examens d'imagerie digestive et d'endoscopies.
+Une réduction de la motricité et des spasmes viscéraux est un mécanisme plausible pour soulager les symptômes du syndrome de l'intestin irritable. Le lien reste toutefois indirect : il repose sur une biologie commune des peptides dérivés du proglucagon et sur les effets du GLP-1 sur la motricité digestive, non sur des données obtenues avec le glucagon.
 
-Cette propriété rend plausible un effet sur la motilité et les spasmes viscéraux, deux composantes des symptômes du syndrome de l'intestin irritable. Les analogues du GLP-1 (GLP-1 natif, ROSE-010) inhibent la motricité antro-duodéno-jéjunale et ralentissent le transit digestif, ce qui suggère une voie biologique voisine.
+Le score élevé du modèle (0,9924) est une prédiction computationnelle. Il ne constitue pas une preuve clinique.
 
-Il faut toutefois rester prudent : les essais et publications recensés concernent les agonistes du GLP-1, pas le glucagon. Le lien est donc indirect. Le score très élevé de TxGNN est une prédiction informatique et ne constitue pas une preuve clinique. Les données du médicament sont par ailleurs limitées (indication d'origine vide, AMM annulée), ce qui restreint l'interprétation.
+## Preuves d'essais cliniques
 
----
-
-## Preuves d'Essais Cliniques
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
 |---------|------|------|------|---------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Terminé | 52 | Effet de ROSE-010 (analogue du GLP-1) sur la motricité digestive chez des femmes atteintes de SII à constipation prédominante. Population pertinente, mais molécule différente du glucagon. |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Terminé | 12 | Effet inhibiteur du GLP-1 natif sur la motricité antro-duodéno-jéjunale postprandiale chez l'humain. Ne concerne pas des patients atteints de SII ; soutien mécanistique indirect. |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Terminé | 12 | Effet inhibiteur du GLP-1 natif sur la motricité antro-duodéno-jéjunale après repas, comparé à l'analogue ROSE-010 ; participants sans syndrome de l'intestin irritable, médicament testé différent du glucagon |
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Terminé | 52 | Effet de ROSE-010 (analogue du GLP-1) sur la motricité digestive chez des femmes atteintes d'un syndrome de l'intestin irritable à constipation prédominante ; preuve de classe adjacente, non directe pour le glucagon |
 
----
+## Preuves de la littérature
 
-## Preuves de la Littérature
-
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Revue systématique / méta-analyse | Front Endocrinol | Amélioration du SII avec les agonistes du récepteur du GLP-1 ; effet sur la motilité intestinale |
-| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Revue systématique | J Headache Pain | Rôle du GLP-1 dans les céphalées et les douleurs (pertinence indirecte) |
-| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohorte | Ann Gastroenterol | Prescription et arrêt des agonistes du GLP-1 chez des patients atteints de SII |
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Analyse croisée d'études cliniques | Scand J Gastroenterol | Soulagement de la douleur du SII avec ROSE-010 selon les caractéristiques des patients |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Revue | Exp Physiol | Rôle du GLP-1 dans la physiopathologie du SII |
-| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Revue | Adv Exp Med Biol | GLP-1 en aérosol pour le diabète et le SII |
-| [32319618](https://pubmed.ncbi.nlm.nih.gov/32319618/) | 2020 | Étude préclinique | Mol Med Rep | L'exendine-4 module l'expression du transporteur de la sérotonine dans les cellules épithéliales intestinales |
-| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Observationnelle | Front Nutr | Augmentation du GLP-1 circulant après un régime pauvre en FODMAP dans le SII |
-| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Revue | Cell Mol Gastroenterol Hepatol | Axe cerveau-intestin-microbiote |
-| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Revue | Expert Opin Investig Drugs | Nouveaux médicaments en développement pour le SII à constipation prédominante |
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Revue systématique | Front Endocrinol | Méta-analyse sur l'amélioration du syndrome de l'intestin irritable avec les agonistes du récepteur du GLP-1 (et non le glucagon) |
+| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Revue systématique | J Headache Pain | Rôle du GLP-1 dans les céphalées et les douleurs ; relation indirecte |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Analyse croisée d'étude clinique | Scand J Gastroenterol | Soulagement de la douleur avec l'agoniste du GLP-1 ROSE-010 dans le syndrome de l'intestin irritable |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohorte | Ann Gastroenterol | Schémas de prescription et d'arrêt des agonistes du GLP-1 chez les patients atteints du syndrome de l'intestin irritable |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Revue | Exp Physiol | Rôle possible du GLP-1 dans la physiopathologie du syndrome de l'intestin irritable |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Revue | Adv Exp Med Biol | GLP-1 en aérosol pour le diabète et le syndrome de l'intestin irritable |
+| [32319618](https://pubmed.ncbi.nlm.nih.gov/32319618/) | 2020 | Étude in vitro | Mol Med Rep | L'exendine-4 (analogue du GLP-1) module l'expression du transporteur de la sérotonine dans les cellules épithéliales intestinales |
 
----
-
-## Informations de Marché en France
+## Informations de marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 67972497 | BAQSIMI 3 mg, poudre nasale en récipient unidose (active) | Poudre | Non renseignée |
 
----
+Le glucagon est commercialisé en France ; l'AMM recensée est valide.
 
-## Considérations de Sécurité
+## Considérations de sécurité
 
-- **Interactions Médicamenteuses** : 25 interactions sont répertoriées, toutes de niveau **mineur**. Les principales concernent la warfarine et de nombreux bêtabloquants (acébutolol, aténolol, bétaxolol, bisoprolol, carvédilol, labétalol, métoprolol, nadolol, pindolol, propranolol, sotalol, timolol, esmolol, carteolol, et leurs formes ophtalmiques).
+- **Interactions médicamenteuses** : 25 interactions sont recensées, toutes de niveau mineur dans les données consultées. Elles concernent la warfarine et de nombreux bêta-bloquants (acébutolol, aténolol, bétaxolol, bisoprolol, carvédilol, nadolol, labétalol, métoprolol, pindolol, propranolol, sotalol, timolol, esmolol, carteolol, lévobunolol, métipranolol, y compris des formes ophtalmiques).
 
 Veuillez consulter la notice pour les mises en garde et contre-indications.
 
----
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Les preuves disponibles portent sur des analogues du GLP-1 et non sur le glucagon. Le score TxGNN élevé est purement computationnel. Le médicament n'a plus d'AMM active en France et les données de base (indication, mécanisme, mises en garde) sont incomplètes. La question reste au stade de l'hypothèse de recherche.
+- Aucune étude ne teste le glucagon dans le syndrome de l'intestin irritable. Les essais et publications concernent le GLP-1 et ses analogues, des médicaments différents, de sorte que le niveau de preuve est L5. Le score élevé du modèle ne suffit pas à justifier une avancée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données détaillées sur le mécanisme d'action du glucagon (par exemple via DrugBank)
-- Mises en garde et contre-indications issues de la notice ANSM
-- Études ciblant directement le glucagon dans le syndrome de l'intestin irritable
-- Évaluation de la faisabilité de la voie d'administration et de la situation réglementaire (AMM annulée)
+- Des données sur le mécanisme d'action du glucagon.
+- Les mises en garde et contre-indications de la notice.
+- Des études dédiées testant le glucagon chez des patients atteints du syndrome de l'intestin irritable.
+- Une évaluation de la compatibilité de la voie d'administration (la poudre nasale est la seule forme recensée).
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

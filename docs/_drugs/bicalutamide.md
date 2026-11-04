@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bicalutamide
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves modérées (L3-L4)
 nav_order: 106
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-10-28
-description: "Bicalutamide : nouvelle indication prédite, Hypertrichose (hypertrichosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+last_modified_at: 2026-11-04
+description: "Bicalutamide : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **10** 
+Niveau de preuve: **L4** | Indications prédites: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,47 +33,46 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 </div>
 
-## Bicalutamide : antagoniste du récepteur des androgènes → Hypertrichose (hypertrichosis)
+## Bicalutamide: Hypertrichose (hypertrichosis (disease))
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Le bicalutamide est un antagoniste non stéroïdien du récepteur des androgènes.
-Le modèle TxGNN prédit qu'il pourrait être utile pour l'**hypertrichose (hypertrichosis)**, avec un score de 0,9969. Les preuves restent très minces : **aucun essai clinique** et **1 publication** (un commentaire, donc une source indirecte).
+Le bicalutamide est un antagoniste non stéroïdien du récepteur des androgènes, qui bloque l'action des hormones masculines sur leurs cellules cibles.
+Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypertrichose (hypertrichosis)**, avec un score de 0,9969.
+Les preuves restent très limitées : **aucun essai clinique** et **une seule publication**, une lettre de commentaire sur une revue rétrospective de 35 patientes (niveau de preuve **L4**).
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Hypertrichose (hypertrichosis) |
-| Score de Prédiction TxGNN | 0,9969 |
-| Niveau de Preuve | L5 |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Hypertrichose (hypertrichosis (disease)) |
+| Score de prédiction TxGNN | 0.9969 |
+| Niveau de preuve | L4 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 14) |
 | Nombre d'AMM | 14 (valides : 13) |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le bicalutamide bloque le récepteur des androgènes. Or la signalisation androgénique influence le comportement du follicule pileux, de sorte qu'un blocage de ce récepteur est biologiquement plausible dans certains troubles de la pousse des poils.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances pharmacologiques générales, le bicalutamide est un antagoniste non stéroïdien du récepteur des androgènes (AR).
 
-La seule publication retrouvée est un commentaire sur une étude du bicalutamide dans l'hypertrichose induite par le minoxidil chez des femmes atteintes d'alopécie androgénétique. Ce commentaire n'a pas de résumé disponible et ne permet pas de confirmer le plan de l'étude ni de conclure à une efficacité. Il ne constitue pas une étude directe de l'hypertrichose en tant que maladie. Pour cette raison, le niveau de preuve est plafonné à L5 : la prédiction repose essentiellement sur le modèle.
+La signalisation androgénique influence le comportement des follicules pileux. Bloquer l'AR est donc biologiquement plausible dans certains troubles de la pilosité, en particulier ceux liés aux androgènes.
 
-Il faut aussi noter que les formes congénitales d'hypertrichose ne sont en général pas d'origine androgénique, ce qui rend le lien mécanistique plus faible pour elles.
+Le lien reste toutefois indirect. La seule publication disponible commente une étude rétrospective portant sur le bicalutamide dans l'hypertrichose induite par le minoxidil chez des femmes atteintes d'alopécie androgénétique. Cette étude n'est pas elle-même dans les données compilées, et son schéma ne peut pas être confirmé. Les hypertrichoses congénitales ne sont en général pas dépendantes des androgènes, ce qui affaiblit le lien pour ces formes.
 
-## Preuves d'Essais Cliniques
+## Preuves d'essais cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Commentaire / lettre | Journal of the American Academy of Dermatology | Commentaire sur une étude rétrospective de 35 patientes portant sur le bicalutamide dans l'hypertrichose induite par le minoxidil ; pas de résumé disponible, donc pas de résultat exploitable |
+| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Commentaire / lettre | Journal of the American Academy of Dermatology | Commentaire sur une revue rétrospective de 35 patientes chez lesquelles le bicalutamide a amélioré l'hypertrichose induite par le minoxidil dans l'alopécie féminine de type androgénétique. Pas de résumé disponible. |
 
-## Informations de Marché en France
-
-Les données compilées font état de 14 AMM pour des spécialités à base de bicalutamide seul (50 mg, comprimé pelliculé ou enrobé). Les statuts de ces autorisations ne sont pas cohérents entre les différentes données : la liste détaillée les indique comme annulées, tandis que le décompte global mentionne 13 AMM valides. Le médicament est globalement commercialisé en France. Le texte d'indication n'est pas renseigné dans ces enregistrements.
+## Informations de marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -83,25 +82,39 @@ Les données compilées font état de 14 AMM pour des spécialités à base de b
 | 67949737 | CASODEX 50 mg | Comprimé enrobé |
 | 64069322 | BICALUTAMIDE EG 50 mg | Comprimé pelliculé |
 
-## Considérations de Sécurité
+Le bicalutamide est commercialisé en France : 13 AMM sur 14 sont valides et 1 est annulée. Seules 5 AMM sont listées ici.
 
-- **Interactions médicamenteuses** : 100 interactions ont été recensées. Parmi celles listées, deux sont de niveau majeur : le **cisapride** et la **dolasétron**. La plupart des autres sont de niveau modéré, par exemple la famotidine, le lopéramide, l'aprépitant, la clarithromycine, la lévofloxacine, le granisétron et le budésonide. Le métronidazole est de niveau mineur.
+## Cytotoxicité
 
-Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
+| Élément | Contenu |
+|------|------|
+| Classification de cytotoxicité | Hormonothérapie (anti-androgène non stéroïdien), non cytotoxique conventionnel |
+| Risque de myélosuppression | Faible (anémie signalée parmi les contre-indications relationnelles ; surveillance recommandée) |
+| Classification d'émétogénicité | Faible |
+| Éléments de surveillance | Fonction hépatique, NFS, glycémie |
+| Protection de manipulation | Veuillez consulter les mises en garde et précautions de la notice |
 
-## Conclusion et Prochaines Étapes
+## Considérations de sécurité
+
+- **Interactions médicamenteuses** : 100 interactions recensées. Parmi celles listées, deux sont de niveau majeur : le **cisapride** et la **dolasétron**. La plupart des autres sont de niveau modéré, notamment famotidine, lopéramide, aprépitant, clarithromycine, lévofloxacine, granisétron, budésonide et éliglustat. Le métronidazole est de niveau mineur.
+- **Terrains à risque signalés dans les données de relations médicament-maladie** (hors texte de la notice) : maladie du foie, maladie de la vésicule biliaire, hyperglycémie, diabète, acidocétose diabétique, anémie, pneumopathie interstitielle et atteinte hépatique d'origine médicamenteuse.
+
+Les mises en garde et contre-indications de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations.
+
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucun essai clinique ne porte sur l'hypertrichose, et la seule publication est un commentaire indirect. Le score élevé du modèle (0,9969) ne suffit pas à lui seul pour avancer.
+Le niveau de preuve est L4. La seule référence est une lettre de commentaire sur une revue rétrospective de 35 patientes, sans essai clinique. Le lien mécanistique est plausible pour les formes androgéno-dépendantes, mais reste indirect et non confirmé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Obtenir l'étude originale sur le bicalutamide dans l'hypertrichose induite par le minoxidil et en évaluer le plan et les résultats
-- Préciser quel type d'hypertrichose est visé (acquise ou congénitale, d'origine androgénique ou non)
+- Accéder à la revue rétrospective commentée et en évaluer le schéma et les résultats
+- Obtenir des études prospectives ou des essais contrôlés dans l'hypertrichose, en distinguant les formes androgéno-dépendantes des formes congénitales
 - Compléter les données sur le mécanisme d'action
-- Récupérer les mises en garde et contre-indications de la notice officielle
-- Vérifier la cohérence du statut des AMM auprès de l'ANSM
+- Récupérer les mises en garde et contre-indications de la notice ANSM
+- Évaluer la sécurité dans la population visée (notamment femmes, fonction hépatique)
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

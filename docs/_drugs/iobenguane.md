@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Iobenguane
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 405
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-04
 monitor_inn: "IOBENGUANE"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
-description: "Iobenguane : nouvelle indication prédite, Hypotensive disorder (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Iobenguane : nouvelle indication prédite, Trouble hypotensif (hypotensive disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Iobenguane
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **4** 
+Niveau de preuve: **L5** | Indications prédites: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,80 +33,68 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 </div>
 
-## Iobenguane: Hypotensive disorder
+## Iobenguane: Trouble hypotensif (hypotensive disorder)
 {: .text-alpha }
 
-## Resume en Une Phrase
+## Résumé en Une Phrase
 
-L'iobenguane (MIBG) est un analogue de la noradrénaline, commercialisé en France sous forme de solution injectable marquée à l'iode 123 ; son AMM est aujourd'hui annulée et le texte de l'indication approuvée n'est pas disponible.
-Le modèle TxGNN prédit qu'il pourrait être pertinent pour le **trouble hypotensif**, avec **0 essai clinique** et **2 publications** indirectement liées (revues).
-Ces publications ne montrent pas que l'iobenguane traite l'hypotension : tout rôle réaliste serait diagnostique (scintigraphie au MIBG) et non thérapeutique.
+L'iobenguane (MIBG) est un analogue de la noradrénaline, marqué à l'iode radioactif, capté par le transporteur de la noradrénaline dans les neurones sympathiques et les cellules chromaffines.
+Le modèle TxGNN prédit qu'il pourrait être pertinent pour le **trouble hypotensif (hypotensive disorder)**, mais aucun essai clinique n'a été retrouvé et seules **2 publications** indirectes sont disponibles. Le niveau de preuve est **L5** : aucune étude ne porte directement sur l'iobenguane dans cette maladie.
 
-## Apercu Rapide
+## Aperçu Rapide
 
-| Element | Contenu |
+| Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Predite | Hypotensive disorder |
-| Score de Prediction TxGNN | 0.9990 |
-| Niveau de Preuve | L4 |
+| Nouvelle Indication Prédite | Trouble hypotensif (hypotensive disorder) |
+| Score de Prédiction TxGNN | 0.9990 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
 | Nombre d'AMM | 1 (valides : 1) |
-| Decision Recommandee | Hold |
+| Décision Recommandée | Hold |
 
-## Pourquoi Cette Prediction est-elle Raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'iobenguane est un analogue de la noradrénaline, capté par le transporteur de la noradrénaline dans les neurones sympathiques et les cellules chromaffines. Il permet donc d'explorer l'intégrité sympathique cardiaque et périphérique.
+L'iobenguane est pris en charge par le transporteur de la noradrénaline et s'accumule dans les neurones sympathiques et les cellules chromaffines. Cette propriété en fait une sonde plausible de l'intégrité sympathique cardiaque et périphérique dans les défaillances autonomes et l'hypotension orthostatique.
 
-Ce lien explique la proximité avec l'hypotension orthostatique et les défaillances autonomes. La revue sur l'hypotension orthostatique dans la maladie de Parkinson éclaire la physiopathologie de l'hypotension neurogène, et l'article sur la chirurgie du phéochromocytome concerne les perturbations tensionnelles liées aux catécholamines. Aucun des deux ne démontre un effet thérapeutique de l'iobenguane.
+Les deux publications retrouvées ne fournissent qu'un lien indirect : une revue sur l'hypotension orthostatique dans la maladie de Parkinson (physiopathologie de l'hypotension neurogène) et un article sur la chirurgie du phéochromocytome (perturbations tensionnelles liées aux catécholamines). Aucune ne montre que l'iobenguane traite l'hypotension.
 
-Le score élevé (0,999) est une prédiction du modèle uniquement. Le rôle plausible est diagnostique (scintigraphie au MIBG marqué), pas thérapeutique.
-
-### Autres indications prédites (à titre informatif)
-
-| Rang | Indication prédite | Score TxGNN | Niveau de preuve | Commentaire |
-|---|---|---|---|---|
-| 2 | Atrophie multisystématisée | 0,9990 | L5 | Usage diagnostique établi : la fixation cardiaque du MIBG aide à distinguer la maladie de Parkinson (fixation réduite) de l'AMS (fixation typiquement préservée). Aucun essai ; une seule revue indirecte. |
-| 3 | Prionopathie variablement sensible à la protéase | 0,9986 | L5 | Aucun lien mécanistique plausible ; le score provient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, non des preuves biologiques. |
-| 4 | Syndrome de tachycardie orthostatique posturale | 0,9967 | L5 | Lien hypothétique (dysautonomie, déficit du transporteur de la noradrénaline) ; rôle éventuel uniquement diagnostique. |
+Tout rôle réaliste serait diagnostique (scintigraphie au MIBG) et non thérapeutique. Le score élevé du modèle reste une simple prédiction, sans validation clinique.
 
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la Litterature
+## Preuves de la Littérature
 
-| PMID | Annee | Type | Revue | Resultats Principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [11482743](https://pubmed.ncbi.nlm.nih.gov/11482743/) | 2001 | Revue | Drugs & Aging | Physiopathologie et prise en charge de l'hypotension orthostatique dans la maladie de Parkinson : prévalence symptomatique pouvant atteindre 20 %, liée aux médicaments dopaminergiques et à la dysautonomie primaire. |
-| [2666677](https://pubmed.ncbi.nlm.nih.gov/2666677/) | 1989 | Revue | Journal of the National Medical Association | Avancées de la prise en charge chirurgicale du phéochromocytome : dosages biochimiques, imagerie, surveillance périopératoire et bloqueurs adrénergiques. |
+| [11482743](https://pubmed.ncbi.nlm.nih.gov/11482743/) | 2001 | Revue | Drugs & Aging | Physiopathologie et prise en charge de l'hypotension orthostatique dans la maladie de Parkinson, dont la prévalence symptomatique peut atteindre 20 % ; contexte indirect, sans étude de l'iobenguane |
+| [2666677](https://pubmed.ncbi.nlm.nih.gov/2666677/) | 1989 | Revue | Journal of the National Medical Association | Avancées de la prise en charge chirurgicale du phéochromocytome (dosages, imagerie, bloqueurs adrénergiques) ; contexte indirect, sans étude de l'iobenguane |
 
-## Informations de Marche en France
+## Informations de Marché en France
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 64886840 | MIBG [123 I] 74 MBq/mL solution injectable (CURIUM NETHERLANDS, Pays-Bas) — statut : active | Solution injectable | Non renseignée |
 
-## Considerations de Securite
+## Considérations de Sécurité
 
-Veuillez consulter la notice pour les informations de securite.
+Veuillez consulter la notice pour les informations de sécurité.
 
-Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées.
+## Conclusion et Prochaines Étapes
 
-## Conclusion et Prochaines Etapes
-
-**Decision : Hold**
+**Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique n'a été retrouvé et les deux publications sont des revues indirectes, sans démonstration d'un bénéfice thérapeutique de l'iobenguane dans l'hypotension. Le score TxGNN élevé reflète une prédiction du modèle, non une preuve.
-- La seule AMM française est annulée, et les données de sécurité et de mécanisme d'action sont manquantes, ce qui empêche toute évaluation de sécurité.
+Aucune étude ne porte sur l'iobenguane dans le trouble hypotensif ; le niveau de preuve est L5 et le signal repose uniquement sur le modèle. Les données de sécurité et de mécanisme d'action sont par ailleurs incomplètes.
 
-**Pour avancer, les elements suivants sont necessaires :**
-- Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'évaluation de sécurité).
-- Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
-- Préciser si l'objectif est diagnostique (scintigraphie MIBG dans l'AMS, la maladie de Parkinson, le POTS) ou thérapeutique ; une hypothèse thérapeutique n'est pas soutenue à ce jour.
-- Clarifier le statut réglementaire actuel du produit en France (AMM annulée) et la disponibilité d'autres spécialités.
-- Rechercher des études cliniques ou observationnelles ciblées sur l'usage diagnostique.
+**Pour avancer, les éléments suivants sont nécessaires :**
+- Études cliniques ou précliniques évaluant directement l'iobenguane dans le trouble hypotensif
+- Données détaillées sur le mécanisme d'action
+- Informations de sécurité issues de la notice (mises en garde, contre-indications)
+- Clarification du rôle éventuel (diagnostique ou thérapeutique), sachant que l'usage plausible est diagnostique
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

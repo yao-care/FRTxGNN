@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "AMIODARONE"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone : nouvelle indication prédite, Tachycardie ventriculaire polymorphe catécholaminergique (catecholaminergic polymorphic ventricular tachycardia) (niveau de preuve L5)."
@@ -38,8 +38,9 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 ## Résumé en Une Phrase
 
-L'amiodarone est un antiarythmique qui agit en bloquant plusieurs canaux ioniques cardiaques.
-Le modèle TxGNN prédit qu'elle pourrait être utile dans la **tachycardie ventriculaire polymorphe catécholaminergique (catecholaminergic polymorphic ventricular tachycardia)**, mais aucun essai clinique ni étude directe de l'amiodarone dans cette maladie ne figure dans les données compilées pour ce rapport ; seules **9 publications** portant sur la maladie elle-même ou son contexte sont disponibles.
+L'amiodarone est un antiarythmique qui agit sur plusieurs canaux ioniques cardiaques (potassium, sodium, calcium) et possède un effet bêtabloquant.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **tachycardie ventriculaire polymorphe catécholaminergique (catecholaminergic polymorphic ventricular tachycardia)**.
+Aucun essai clinique n'est enregistré et aucune étude ne teste l'amiodarone dans cette maladie : le niveau de preuve est **L5** (prédiction du modèle uniquement).
 
 ## Aperçu Rapide
 
@@ -55,9 +56,11 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **tachycardie vent
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'amiodarone bloque plusieurs canaux (potassium, sodium, calcium) et exerce un effet antagoniste bêta-adrénergique. Ces propriétés pourraient en théorie être pertinentes pour une arythmie déclenchée par les catécholamines, liée à des anomalies de la gestion du calcium (notamment le gène RYR2).
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'amiodarone bloque plusieurs canaux (potassium, sodium, calcium) et exerce un effet antagoniste bêta-adrénergique.
 
-Cependant, la littérature décrit l'amiodarone surtout comme peu efficace ou comme traitement d'appoint dans les cas réfractaires, tandis que les bêtabloquants et la flécaïnide sont les traitements de référence. Le score très élevé du modèle n'est pas soutenu par des données d'efficacité clinique.
+Ces propriétés, en particulier l'effet bêtabloquant et l'action sur la gestion du calcium, pourraient théoriquement concerner une arythmie déclenchée par les catécholamines et liée à des anomalies du récepteur RYR2. C'est la seule base du lien mécanistique proposé.
+
+Cependant, la littérature rassemblée décrit l'amiodarone surtout comme peu efficace ou comme traitement d'appoint dans les cas réfractaires, alors que les bêtabloquants et la flécaïnide sont les traitements de référence. Le score très élevé n'est pas soutenu par des données d'efficacité clinique.
 
 ## Preuves d'Essais Cliniques
 
@@ -65,17 +68,19 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
+Les publications ci-dessous portent sur la maladie prédite ou sur des sujets voisins. Aucune ne teste l'amiodarone dans cette maladie.
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revue systématique | Life (Basel) | Caractéristiques cliniques, génétiques et évolution rythmique de patients chinois atteints de cette maladie |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revue systématique | Life (Basel) | Caractéristiques cliniques, génétiques et évolution rythmique des patients chinois atteints de cette maladie |
 | [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte rétrospective | Rev Cardiovasc Med | Caractéristiques cliniques, bases génétiques, recours aux soins et coûts dans une ville chinoise |
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revue | Expert Opin Pharmacother | Avancées du traitement médicamenteux des arythmies ventriculaires |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Cas clinique | PACE | Flécaïnide supprimant les orages rythmiques induits par le défibrillateur (mutation de la calséquestrine-2) |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Cas clinique | Turk Pediatri Ars | Cause rare d'arrêt cardiaque soudain chez un enfant de 2 ans |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Cas clinique | Medicine | Diagnostic retardé de 6 ans chez un enfant de 9 ans (mutation RYR2) |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Cas clinique | Front Cardiovasc Med | Résolution après dénervation sympathique cardiaque droite chez un adolescent déjà opéré à gauche |
-
-Ces publications décrivent la maladie et ses traitements établis ; aucune n'évalue directement l'efficacité de l'amiodarone dans cette indication.
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revue | Expert Opin Pharmacother | Avancées du traitement médicamenteux des arythmies ventriculaires en général |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Cas clinique | PACE | Flécaïnide supprimant l'orage rythmique induit par le défibrillateur chez un adolescent |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Cas clinique | Turk Pediatri Arsivi | Arrêt cardiaque chez un enfant de 2 ans, cause rare |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Cas clinique | Medicine | Diagnostic retardé de 6 ans chez un enfant porteur d'une mutation RYR2 |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Cas clinique | Front Cardiovasc Med | Dénervation sympathique cardiaque droite après dénervation gauche chez un adolescent |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Cas clinique | BMJ Case Rep | Arrêt cardiaque chez un jeune enfant, dilemme diagnostique |
+| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Cas clinique | Anesth Analg | Nouveau-né atteint d'un syndrome du QT long, arythmies réfractaires et toxicité de la lidocaïne ; amiodarone utilisée dans le traitement multimodal |
 
 ## Informations de Marché en France
 
@@ -86,24 +91,28 @@ Ces publications décrivent la maladie et ses traitements établis ; aucune n'é
 | 68973926 | CORDARONE 200 mg, comprimé sécable (BB FARMA, Italie) | Comprimé sécable | Non renseignée (AMM active) |
 | 60662396 | CORDARONE 200 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM active) |
 
+L'amiodarone est commercialisée en France : les 4 AMM listées sont valides.
+
 ## Considérations de Sécurité
 
-- **Interactions médicamenteuses** (100 interactions recensées ; principales de niveau majeur) : amphotéricine B (et ses formes lipidiques/liposomales), hydrocortisone, dexaméthasone, cisapride, clarithromycine, clotrimazole, dolasétron, élig lustat, agalsidase bêta.
-- Des interactions de niveau modéré concernent notamment la famotidine, la cimétidine, l'aprépitant, le bisacodyl et le budésonide.
+**Interactions médicamenteuses** (100 interactions recensées ; extrait des principales) :
+- Niveau majeur : agalsidase bêta, hydrocortisone, dexaméthasone, amphotéricine B (y compris formes lipidiques et liposomale), cisapride, clarithromycine, clotrimazole, dolasétron, éliglustat
+- Niveau modéré : famotidine, aprépitant, bisacodyl, budésonide, huile de ricin, cimétidine
 
-Pour les mises en garde et contre-indications détaillées, veuillez consulter la notice.
+Autres signaux de sécurité décrits dans la littérature pour l'amiodarone : toxicité pulmonaire, atteinte thyroïdienne, troubles de la conduction et allongement du QT. Veuillez consulter la notice pour les mises en garde et contre-indications officielles.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-Aucun essai clinique ni étude directe ne soutient l'amiodarone dans cette maladie ; les traitements de référence sont déjà établis et le score élevé du modèle n'est pas corroboré par des données d'efficacité.
+Aucun essai ni aucune étude ne teste l'amiodarone dans cette maladie, et la littérature la présente comme peu efficace ou d'appoint face aux traitements établis. Le score élevé (0,9978) reste une prédiction du modèle (niveau L5).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Données cliniques comparant directement l'amiodarone aux traitements de référence dans cette maladie
-- Données sur le mécanisme d'action
-- Mises en garde et contre-indications issues de la notice de l'ANSM
+- Données d'efficacité propres à cette maladie (études précliniques ou cliniques directes)
+- Comparaison avec les bêtabloquants et la flécaïnide
+- Données détaillées sur le mécanisme d'action
+- Mises en garde et contre-indications issues de la notice officielle
 
 ## Avertissement
 

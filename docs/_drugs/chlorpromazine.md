@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorpromazine
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 164
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-04
 monitor_inn: "CHLORPROMAZINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-description: "Chlorpromazine : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L4). Indication d…"
+description: "Chlorpromazine : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5)."
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,74 +36,79 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 ## Chlorpromazine: Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
-## Résumé en une phrase
+## Résumé en Une Phrase
 
-La chlorpromazine est un antipsychotique de la famille des phénothiazines, initialement utilisé pour traiter la schizophrénie et d'autres troubles psychotiques.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie rétinienne avec ou sans anomalies extraoculaires**, mais **aucun essai clinique** n'est enregistré et **une seule publication** est disponible. Celle-ci décrit une toxicité (réactions phototoxiques) et non un bénéfice thérapeutique.
+La chlorpromazine est un neuroleptique de la famille des phénothiazines.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans la **dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies)**, mais cette prédiction repose uniquement sur le modèle : aucun essai clinique n'est enregistré et la seule publication disponible décrit des réactions de phototoxicité, non un bénéfice thérapeutique. Le niveau de preuve est **L5**.
 
-## Aperçu rapide
+## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Predite | Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) |
-| Score de Prediction TxGNN | 0.9995 |
-| Niveau de Preuve | L4 |
+| Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) |
+| Score de Prédiction TxGNN | 0.9995 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
 | Nombre d'AMM | 2 (valides : 2) |
-| Decision Recommandee | Hold |
+| Décision Recommandée | Hold |
 
-## Pourquoi cette prédiction est-elle raisonnable ?
+## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la chlorpromazine est un antagoniste des récepteurs dopaminergiques D2, dont l'efficacité dans la schizophrénie et les troubles psychotiques est établie.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la chlorpromazine est un antagoniste des récepteurs dopaminergiques D2 appartenant à la classe des phénothiazines.
 
-Pour la dystrophie rétinienne avec ou sans anomalies extraoculaires, la prédiction semble peu soutenue sur le plan mécanistique. La seule publication disponible (JAMA, 1967) décrit des réactions phototoxiques induites par de fortes doses de chlorpromazine et de thioridazine, c'est-à-dire un effet indésirable. Le score élevé (0.9995) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il paraît plus cohérent avec une toxicité médicamenteuse qu'avec un potentiel thérapeutique.
+Aucun mécanisme thérapeutique plausible ne relie clairement ce médicament à la dystrophie rétinienne. Le score élevé du modèle reflète probablement une association statistique avec la pathologie rétinienne. Or, la seule publication disponible décrit un effet indésirable (phototoxicité) induit par de fortes doses de chlorpromazine, ce qui évoque davantage une toxicité qu'un potentiel de traitement. Cette prédiction doit donc être considérée comme très spéculative.
 
-Aucun mécanisme thérapeutique plausible n'est actuellement étayé. Cette prédiction doit donc être considérée comme un signal du modèle, et non comme une piste de repositionnement crédible en l'état.
-
-## Preuves d'essais cliniques
+## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
 
-## Preuves de la littérature
+## Preuves de la Littérature
 
-| PMID | Année | Type | Revue | Résultats principaux |
+| PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Rapport de cas / observationnel (toxicité) | JAMA | Réactions phototoxiques induites par de fortes doses de chlorpromazine et de thioridazine ; effet indésirable, pas de bénéfice thérapeutique (résumé non disponible) |
+| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Rapport de cas / observationnel (toxicité) | JAMA | Réactions phototoxiques induites par de fortes doses de chlorpromazine et de thioridazine ; il s'agit d'un effet indésirable, sans bénéfice thérapeutique démontré. Aucun résumé disponible. |
 
-## Informations de marché en France
+Aucune étude ne teste la chlorpromazine dans la dystrophie rétinienne.
+
+## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 62184888 | LARGACTIL 25 mg/5 ml, solution injectable en ampoule (active) | Solution injectable | Non renseignée |
 | 68513504 | LARGACTIL 4 POUR CENT, solution buvable en gouttes (active) | Solution buvable en gouttes | Non renseignée |
 
-## Considérations de sécurité
+Les deux AMM sont valides. La chlorpromazine est commercialisée en France (titulaire : NEURAXPHARM FRANCE).
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : hypotension orthostatique, syndrome du QT long (y compris familial), torsades de pointes, arrêt cardiaque soudain, maladies de la conduction cardiaque, infarctus du myocarde, épilepsie, maladies des noyaux gris centraux, dystonie focale de la main, blépharospasme, maladie hépatique, maladie de la vésicule biliaire, thrombopénie, neutropénie, agranulocytose, leucopénie, anémie, hémoglobinopathie, hyperglycémie, hypertrophie bénigne de la prostate, obésité, carcinome mammaire féminin, abus/dépendance de substances, atrophie multisystématisée, syndrome de tachycardie orthostatique posturale.
-- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales, deux sont de niveau **majeur** (bupropion, morphine). Les autres, de niveau modéré, concernent notamment des antidiabétiques (metformine, pioglitazone, alogliptine, canagliflozine, chlorpropamide, acarbose, albiglutide), des anticholinergiques (atropine, hyoscyamine, glycopyrronium), la loperamide, l'épinéphrine, l'hydrocortisone, l'amphotéricine B, la famotidine, la lorcaserine et le bisacodyl.
+## Cytotoxicité
 
-Les mises en garde de la notice ne sont pas disponibles dans les données compilées ; veuillez consulter la notice pour les informations de sécurité complètes.
+Non applicable : la chlorpromazine n'est pas un médicament antinéoplasique.
 
-## Conclusion et prochaines étapes
+## Considérations de Sécurité
+
+Les données de la notice (mises en garde, contre-indications) ne sont pas disponibles dans les données compilées. Veuillez consulter la notice pour les informations de sécurité.
+
+**Interactions médicamenteuses** (100 interactions recensées ; principales, de niveau majeur) :
+- **Bupropion** : majeure
+- **Morphine** : majeure
+
+Parmi les interactions de niveau modéré figurent notamment : acarbose, famotidine, épinéphrine, hydrocortisone, metformine, pioglitazone, amphotéricine B, hyoscyamine, lopéramide, atropine, glycopyrronium, canagliflozine et chlorpropamide.
+
+**Situations à risque (données de référence pharmacologiques, hors texte de notice)** : allongement de l'intervalle QT et torsades de pointes, hypotension orthostatique, épilepsie, atteinte hépatique, neutropénie, agranulocytose, leucopénie, thrombocytopénie, hyperglycémie, hypertrophie bénigne de la prostate, infarctus du myocarde et troubles de la conduction cardiaque.
+
+## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le score du modèle est très élevé, mais la seule publication décrit une toxicité (phototoxicité) et non un bénéfice. Aucun essai clinique n'existe et aucun mécanisme thérapeutique plausible n'est identifié.
-- Le profil de sécurité (cardiaque, hématologique, neurologique) et l'annulation des deux AMM françaises s'ajoutent aux réserves.
+La prédiction repose uniquement sur le modèle (niveau de preuve L5). Aucun essai clinique n'existe et la seule publication décrit une phototoxicité, c'est-à-dire un risque plutôt qu'un bénéfice. Aucun mécanisme plausible ne soutient cette direction.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications officielles de la notice (ANSM), actuellement manquantes et bloquantes pour l'étape de sécurité
-- Des données détaillées sur le mécanisme d'action (DrugBank)
-- Des données précliniques ou mécanistiques démontrant un effet bénéfique, et non toxique, dans les dystrophies rétiniennes
-- Une évaluation de la voie d'administration compatible avec une atteinte rétinienne
+- Données détaillées sur le mécanisme d'action
+- Études précliniques ou cliniques évaluant directement la chlorpromazine dans la dystrophie rétinienne
+- Évaluation de la toxicité rétinienne et de la phototoxicité à des doses thérapeutiques
+- Mises en garde et contre-indications issues de la notice ANSM
 
----
-
-### Note complémentaire : autre indication prédite pertinente
-
-Les huit autres prédictions (glycosylation, myopies, hydranencéphalie, polymicrogyrie, Charcot-Marie-Tooth 1G, encéphalopathie glycinique atypique) reposent uniquement sur le modèle, sans preuve, et restent en **Hold**.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

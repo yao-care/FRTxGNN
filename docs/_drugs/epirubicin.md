@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epirubicin
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 288
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-description: "Epirubicin : nouvelle indication prédite, Lymphome pulmonaire primitif (primary pulmonary lymphoma) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Epirubicin : nouvelle indication prédite, Lymphome pulmonaire primitif (primary pulmonary lymphoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Epirubicin
 {: .fs-9 }
 
-Niveau de preuve: **L4** | Indications prédites: **7** 
+Niveau de preuve: **L5** | Indications prédites: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,10 +38,9 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 ## Résumé en Une Phrase
 
-L'épirubicine est une anthracycline (cytotoxique), initialement utilisée dans le traitement du cancer du sein.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **lymphome pulmonaire primitif**, mais **aucun essai clinique** ne soutient cette direction et la littérature retrouvée est indirecte (6 publications, dont aucune ne relie spécifiquement l'épirubicine à cette maladie).
-
-Parmi les autres indications prédites, deux disposent de preuves plus solides : le **carcinome pulmonaire à petites cellules** (5 essais cliniques dont 2 de phase 3 sur l'épirubicine ou des schémas la contenant) et les **néoplasmes des voies aérodigestives supérieures** (essai de phase 3 MAGIC, schéma ECF).
+L'épirubicine est une anthracycline cytotoxique, inhibiteur de la topoisomérase II et agent intercalant de l'ADN.
+Le modèle TxGNN prédit qu'elle pourrait être utile dans le **lymphome pulmonaire primitif (primary pulmonary lymphoma)**.
+Aucun essai clinique n'est enregistré et aucune étude ne teste l'épirubicine dans cette maladie : seule une revue générale sur l'épirubicine est liée à cette prédiction, ce qui correspond à un niveau de preuve **L5**.
 
 ## Aperçu Rapide
 
@@ -50,47 +49,39 @@ Parmi les autres indications prédites, deux disposent de preuves plus solides :
 | Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Lymphome pulmonaire primitif (primary pulmonary lymphoma) |
 | Score de Prédiction TxGNN | 0.9971 |
-| Niveau de Preuve | L4 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
 | Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'épirubicine est une anthracycline, inhibiteur de la topoisomérase II et agent intercalant de l'ADN. Son efficacité dans le cancer du sein est établie et elle entre dans la composition de schémas utilisés dans les hémopathies lymphoïdes (type CHOP ou VEBEP).
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'épirubicine est une anthracycline, épimère de la doxorubicine, qui inhibe la topoisomérase II et s'intercale dans l'ADN. Elle agit surtout sur les cellules en prolifération.
 
-L'activité dans les tumeurs lymphoïdes est donc mécanistiquement plausible. Toutefois, la littérature retrouvée est indirecte : une revue générale sur l'épirubicine, des cas de lymphomes pulmonaires ou pleuraux, et des études sur le LDGCB utilisant des schémas à base de doxorubicine (R-CHP). Aucune donnée ne lie l'épirubicine spécifiquement au lymphome pulmonaire primitif.
+Les anthracyclines entrent dans la composition de schémas thérapeutiques utilisés dans les lymphomes (de type CHOP, ou VEBEP dans la maladie de Hodgkin). Une activité dans les hémopathies lymphoïdes est donc plausible sur le plan mécanistique.
+
+Toutefois, la littérature retrouvée est indirecte : une revue générale sur l'épirubicine, des cas ou séries de lymphomes pulmonaires ou pleuraux, et des études sur le lymphome diffus à grandes cellules B utilisant des schémas à base de doxorubicine. Aucune donnée ne relie l'épirubicine elle-même au lymphome pulmonaire primitif.
 
 ## Preuves d'Essais Cliniques
 
-Aucun essai clinique associé enregistré actuellement pour le lymphome pulmonaire primitif.
-
-À titre de comparaison, voici les essais retrouvés pour l'autre indication prédite la mieux documentée (carcinome pulmonaire à petites cellules) :
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
-|---------|------|------|------|---------|
-| [NCT00003606](https://clinicaltrials.gov/study/NCT00003606) | Phase 3 | Terminé | 216 | Cisplatine/étoposide avec ou sans épirubicine et cyclophosphamide dans le CPPC de stade étendu (test direct de l'apport de l'épirubicine) |
-| [NCT00011921](https://clinicaltrials.gov/study/NCT00011921) | Phase 3 | Inconnu | 430 | Chimiothérapie séquentielle à haute dose versus standard dans le CPPC (contribution propre de l'épirubicine non isolable) |
-| [NCT00658580](https://clinicaltrials.gov/study/NCT00658580) | Phase 3 | Terminé | 361 | Cisplatine-étoposide versus schéma à base d'étoposide sans platine dans le CPPC étendu (épirubicine non visible dans le titre) |
-| [NCT03755115](https://clinicaltrials.gov/study/NCT03755115) | Phase 2 | Inconnu | 40 | Anti-PD-1 SHR-1210 + épirubicine après échec de première ligne dans le CPPC étendu |
-| [NCT00154739](https://clinicaltrials.gov/study/NCT00154739) | Phase 2 | Terminé | 86 | Gemcitabine/cisplatine versus gemcitabine/épirubicine dans le cancer bronchique du stade IIIB/IV (plutôt non à petites cellules, pertinence limitée) |
+Aucun essai clinique associé enregistré actuellement.
 
 ## Preuves de la Littérature
 
-Pour le lymphome pulmonaire primitif :
+Aucune de ces publications n'étudie l'épirubicine dans le lymphome pulmonaire primitif.
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [7686469](https://pubmed.ncbi.nlm.nih.gov/7686469/) | 1993 | Revue | Drugs | Revue générale de l'épirubicine : efficacité équivalente à la doxorubicine dans plusieurs cancers |
-| [39192408](https://pubmed.ncbi.nlm.nih.gov/39192408/) | 2024 | Cohorte | Zhongguo Shi Yan Xue Ye Xue Za Zhi | LDGCB extraganglionnaire primitif à l'ère du rituximab (analyse rétrospective monocentrique) |
-| [40728626](https://pubmed.ncbi.nlm.nih.gov/40728626/) | 2025 | Cohorte | Annals of Hematology | Pola-R-CHP en première ligne dans le LDGCB (schéma à base de doxorubicine) |
-| [10526668](https://pubmed.ncbi.nlm.nih.gov/10526668/) | 1999 | Cohorte | Cancer Journal | Schéma VEBEP plus radiothérapie dans la maladie de Hodgkin avancée |
-| [36237246](https://pubmed.ncbi.nlm.nih.gov/36237246/) | 2022 | Rapport de cas | Translational Cancer Research | Lymphome MALT primitif de la plèvre, erreur diagnostique |
-| [1866500](https://pubmed.ncbi.nlm.nih.gov/1866500/) | 1991 | Rapport de cas | Revista de Investigación Clínica | Lymphome non hodgkinien primitif du poumon |
-
-Ces publications sont toutes indirectes : aucune n'étudie l'épirubicine dans le lymphome pulmonaire primitif.
+| [7686469](https://pubmed.ncbi.nlm.nih.gov/7686469/) | 1993 | Revue | Drugs | Revue générale des propriétés pharmacologiques et de l'usage de l'épirubicine en chimiothérapie : efficacité comparable à la doxorubicine dans plusieurs cancers, sans donnée sur le lymphome pulmonaire |
+| [39192408](https://pubmed.ncbi.nlm.nih.gov/39192408/) | 2024 | Cohorte | Zhongguo shi yan xue ye xue za zhi | Analyse rétrospective monocentrique du lymphome diffus à grandes cellules B extraganglionnaire primitif à l'ère du rituximab |
+| [40728626](https://pubmed.ncbi.nlm.nih.gov/40728626/) | 2025 | Cohorte | Annals of Hematology | Pola-R-CHP (schéma à base de doxorubicine) en première ligne chez 117 patients atteints de lymphome diffus à grandes cellules B |
+| [10526668](https://pubmed.ncbi.nlm.nih.gov/10526668/) | 1999 | Cohorte | The Cancer Journal from Scientific American | Étude pilote du schéma VEBEP associé à la radiothérapie dans la maladie de Hodgkin avancée |
+| [1866500](https://pubmed.ncbi.nlm.nih.gov/1866500/) | 1991 | Cas clinique | Rev Invest Clin | Cas de lymphome non hodgkinien primitif du poumon |
+| [36237246](https://pubmed.ncbi.nlm.nih.gov/36237246/) | 2022 | Cas clinique | Translational Cancer Research | Lymphome MALT primitif de la plèvre, mal diagnostiqué : premier cas rapporté en Chine |
 
 ## Informations de Marché en France
+
+L'épirubicine est commercialisée en France. Les données compilées recensent 3 AMM valides, dont le texte d'indication n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -102,35 +93,33 @@ Ces publications sont toutes indirectes : aucune n'étudie l'épirubicine dans l
 
 | Élément | Contenu |
 |------|------|
-| Classification de Cytotoxicité | Cytotoxique conventionnel (anthracycline, inhibiteur de la topoisomérase II) |
-| Risque de Myélosuppression | Élevé (les antécédents de neutropénie et de thrombocytopénie figurent parmi les contre-indications issues du graphe de connaissances) |
-| Classification d'Émétogénicité | Moyenne à élevée (selon la classe des anthracyclines) |
-| Éléments de Surveillance | NFS avec différentielle, fonction hépatique et rénale, fonction cardiaque (FEVG), dose cumulée |
+| Classification de Cytotoxicité | Cytotoxique conventionnel (anthracycline) |
+| Risque de Myélosuppression | Élevé : neutropénie et thrombocytopénie figurent parmi les contre-indications relevées dans les données compilées |
+| Classification d'Émétogénicité | Moyenne à élevée (classe des anthracyclines) |
+| Éléments de Surveillance | NFS avec formule, fonction hépatique et rénale, fonction cardiaque (FEVG) |
 | Protection de Manipulation | Doit suivre les réglementations de manipulation des médicaments cytotoxiques |
 
 ## Considérations de Sécurité
 
-- **Contre-indications (issues du graphe de connaissances, et non du texte de la notice)** : insuffisance hépatique, maladie hépatique, maladie rénale, maladie de la vésicule biliaire, thrombocytopénie, neutropénie, agranulocytose, infarctus du myocarde, thrombose coronaire, arrêt cardiaque soudain, maladie de la conduction cardiaque, cardiomyopathie (dont hypertrophique), fibrose endomyocardique, atteintes du myocarde, hémoglobinopathie, pyo-uretère, stomatite.
-- **Interactions Médicamenteuses** : 487 interactions recensées. Parmi les principales, de niveau majeur : cimétidine, dolasétron. De niveau modéré : acarbose, famotidine, pioglitazone, lopéramide, bupropion, clarithromycine, lévofloxacine, palonosétron, naltrexone, minocycline, entre autres. Une revue complète des interactions est nécessaire avant toute utilisation.
-- **Signaux issus de la littérature** : cardiotoxicité cumulative des anthracyclines et risque de leucémie aiguë myéloïde ou de syndrome myélodysplasique secondaires après épirubicine adjuvante.
+- **Contre-indications relevées dans les données compilées** (issues de relations médicament-maladie, et non du texte de la notice) : insuffisance hépatique et maladie du foie, maladie rénale, maladie de la vésicule biliaire, thrombopénie, neutropénie, agranulocytose, infarctus du myocarde et thrombose coronaire, cardiomyopathies (dont hypertrophique), fibrose endomyocardique, troubles de la conduction cardiaque, arrêt cardiaque soudain, hémoglobinopathie, pyo-uretère, stomatite.
+- **Interactions médicamenteuses** : 487 interactions recensées. Parmi les principales, de niveau majeur : la cimétidine et la dolasétron. De niveau modéré : l'acarbose, la famotidine, la pioglitazone, le lopéramide, le bupropion, la clarithromycine, la lévofloxacine, la minocycline, la naltrexone, le palonosétron, entre autres. Le métronidazole est de niveau mineur.
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles : veuillez consulter la notice pour ces informations.
+Pour les mises en garde détaillées, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Pour le lymphome pulmonaire primitif, la prédiction (0.9971) n'est étayée par aucun essai clinique ni par aucune donnée spécifique à l'épirubicine (niveau L4). Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes.
-- Pour information, deux autres indications prédites ont un niveau de preuve plus élevé (L1, statut « question de recherche ») : le carcinome pulmonaire à petites cellules et les néoplasmes des voies aérodigestives supérieures (essentiellement gastro-œsophagiens, via le schéma ECF de l'essai MAGIC). Elles reflètent surtout le rôle d'un schéma établi, aujourd'hui en partie supplanté (platine/étoposide avec immunothérapie, FLOT), plutôt qu'une réelle opportunité de repositionnement.
+- Le niveau de preuve est L5 : aucun essai ni aucune étude ne teste l'épirubicine dans le lymphome pulmonaire primitif, et la seule base est le score de prédiction (0,9971) et une plausibilité mécanistique générale.
+- Le profil de sécurité (cardiotoxicité, myélosuppression, 487 interactions) impose des garde-fous qui ne se justifient pas sans signal d'efficacité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer les mises en garde et contre-indications de la notice ANSM (bloquant pour le criblage de sécurité)
-- Obtenir les données détaillées sur le mécanisme d'action
-- Réaliser une revue ciblée de la littérature sur l'épirubicine dans les lymphomes pulmonaires primitifs, et rechercher des essais enregistrés
-- Comparer l'intérêt de l'épirubicine aux schémas à base de doxorubicine (R-CHOP) déjà établis
-- Si une voie est poursuivie : plan de surveillance cardiaque (FEVG, dose cumulée), surveillance hématologique et revue des interactions médicamenteuses
-- Clarifier la disponibilité réelle du produit en France, les AMM étant toutes annulées
+- Des données cliniques, même observationnelles, sur des schémas contenant de l'épirubicine dans le lymphome pulmonaire primitif
+- Des données détaillées sur le mécanisme d'action
+- Les mises en garde et contre-indications issues de la notice
+- Une comparaison avec les schémas standard à base de doxorubicine
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
