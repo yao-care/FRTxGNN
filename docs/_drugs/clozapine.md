@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clozapine
-parent: Prédiction du modèle uniquement (L5)
+parent: Preuves élevées (L1-L2)
 nav_order: 192
-evidence_level: L5
+evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
-description: "Clozapine : nouvelle indication prédite, Trouble bipolaire de type maniaque (manic bipolar affective disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Clozapine : nouvelle indication prédite, Trouble affectif bipolaire de type maniaque (manic bipolar affective disorder) (niveau de preuve L2)."
 ---
 
 # Clozapine
 {: .fs-9 }
 
-Niveau de preuve: **L5** | Indications prédites: **9** 
+Niveau de preuve: **L2** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,55 +33,57 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 </div>
 
-## Clozapine: Trouble bipolaire de type maniaque (manic bipolar affective disorder)
+## Clozapine: Trouble affectif bipolaire de type maniaque (manic bipolar affective disorder)
 {: .text-alpha }
 
 ## Résumé en Une Phrase
 
-La clozapine est un antipsychotique atypique, commercialisé en France sous forme de comprimés sécables.
-Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble bipolaire de type maniaque (manic bipolar affective disorder)**, avec **1 essai clinique** de phase 2 dédié aux manies résistantes au traitement et **plusieurs publications** (dont une revue systématique avec méta-analyse sur la clozapine dans le trouble bipolaire) soutenant actuellement cette direction.
+La clozapine est un antipsychotique atypique disponible en France sous forme de comprimés sécables.
+Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble affectif bipolaire de type maniaque (manic bipolar affective disorder)**,
+avec **1 essai clinique** de phase 2 et **20 publications** associées, dont une revue systématique avec méta-analyse. Le niveau de preuve retenu est **L2**.
 
 ## Aperçu Rapide
 
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Trouble bipolaire de type maniaque (manic bipolar affective disorder) |
+| Nouvelle Indication Prédite | Trouble affectif bipolaire de type maniaque (manic bipolar affective disorder) |
 | Score de Prédiction TxGNN | 0.9995 |
-| Niveau de Preuve | L5 |
+| Niveau de Preuve | L2 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
 | Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la clozapine est un antipsychotique atypique dont le profil pharmacologique large associe un antagonisme des récepteurs dopaminergiques et sérotoninergiques à des effets sur d'autres récepteurs (muscariniques, adrénergiques, histaminergiques).
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, la clozapine est un antipsychotique atypique à large profil récepteur : antagonisme dopaminergique D2 et sérotoninergique 5-HT2A, avec des effets muscariniques, adrénergiques et histaminergiques.
 
-Ce profil est cohérent avec une activité antimaniaque. Les données disponibles concernent surtout les manies résistantes aux traitements usuels : un essai de phase 2 en double aveugle, ainsi que des revues et méta-analyses consacrées à la clozapine dans le trouble bipolaire.
+Ce profil est compatible avec une activité antimaniaque. La littérature disponible porte surtout sur la manie résistante aux traitements habituels : une revue systématique avec méta-analyse de petites études comparatives a trouvé la clozapine comparable aux autres antipsychotiques dans les épisodes maniaques et supérieure dans le trouble bipolaire résistant au traitement.
 
-Cette piste reste toutefois fondée sur un petit essai (42 patients) et sur de la littérature de synthèse : elle ne remplace pas des essais de phase 3 spécifiquement menés dans la manie.
+Ces éléments restent limités par la petite taille des études et l'absence d'essai de phase 3 sur la manie de l'adulte.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | Terminé | 42 | Étude en double aveugle évaluant la sécurité et l'efficacité de la clozapine dans la phase maniaque du trouble bipolaire résistant au traitement ; échantillon réduit |
+| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | Terminé | 42 | Étude en double aveugle évaluant la sécurité et l'efficacité de la clozapine dans la manie résistante au traitement ; échantillon réduit |
 
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Revue systématique / méta-analyse | Journal of Psychiatric Research | Évaluation de l'efficacité clinique de la clozapine dans le trouble bipolaire et de son profil d'effets indésirables |
-| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Revue systématique | Bipolar Disorders | Efficacité et sécurité de la clozapine dans le trouble bipolaire résistant au traitement |
-| [41192460](https://pubmed.ncbi.nlm.nih.gov/41192460/) | 2025 | Cohorte / étude d'efficacité | The Lancet Psychiatry | Efficacité et sécurité transdiagnostiques de la clozapine, comparée à d'autres antipsychotiques, dans plusieurs troubles psychiatriques |
-| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Revue | Bipolar Disorders | Synthèse des connaissances sur la clozapine dans le trouble bipolaire et des perspectives de recherche |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Revue | Acta Psychiatrica Scandinavica | Options thérapeutiques fondées sur les preuves pour la manie bipolaire, dont le choix du thymorégulateur et de l'antipsychotique |
-| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Revue | Molecular Psychiatry | Prise en charge du trouble bipolaire résistant, réponse insuffisante en phase maniaque ou dépressive |
-| [41262335](https://pubmed.ncbi.nlm.nih.gov/41262335/) | 2025 | Étude de modélisation | Drug Design, Development and Therapy | Interactions médicamenteuses de la clozapine et dosage individualisé dans le trouble bipolaire |
+| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Revue systématique / méta-analyse | J Psychiatr Res | Évaluation de l'efficacité clinique de la clozapine dans le trouble bipolaire et de son profil d'effets indésirables |
+| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Revue systématique | Bipolar Disord | Efficacité et sécurité de la clozapine dans le trouble bipolaire résistant au traitement |
+| [41192460](https://pubmed.ncbi.nlm.nih.gov/41192460/) | 2025 | Étude de cohorte / méta-analyse | Lancet Psychiatry | Efficacité et sécurité transdiagnostiques de la clozapine comparée à d'autres antipsychotiques |
+| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Revue | Bipolar Disord | Synthèse des connaissances sur la clozapine dans le trouble bipolaire et perspectives |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Revue | Acta Psychiatr Scand | Options thérapeutiques fondées sur les preuves pour la manie bipolaire |
+| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Revue | Mol Psychiatry | Prise en charge du trouble bipolaire résistant au traitement |
+| [41262335](https://pubmed.ncbi.nlm.nih.gov/41262335/) | 2025 | Étude de modélisation | Drug Des Devel Ther | Interactions médicamenteuses de la clozapine et dosage individualisé dans le trouble bipolaire |
+| [9448668](https://pubmed.ncbi.nlm.nih.gov/9448668/) | 1998 | Revue | J Clin Psychiatry | Rôle des antipsychotiques, dont la clozapine, dans le traitement du trouble bipolaire |
 
 ## Informations de Marché en France
 
-La clozapine est commercialisée en France. Les 18 AMM recensées dans les données compilées sont toutes valides ; le texte d'indication n'est pas renseigné dans les données locales.
+Les 18 AMM listées sont toutes valides ; il s'agit de spécialités à base de clozapine seule, en comprimés sécables. Le texte d'indication n'est pas renseigné dans les données locales. Les cinq premières :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -91,26 +93,30 @@ La clozapine est commercialisée en France. Les 18 AMM recensées dans les donn�
 | 64814983 | CLOZAPINE VIATRIS 100 mg | Comprimé sécable | Non renseignée (AMM active) |
 | 68735825 | CLOZAPINE ACCORD 100 mg | Comprimé sécable | Non renseignée (AMM active) |
 
+## Cytotoxicité
+
+Non applicable : la clozapine n'est pas un médicament antinéoplasique.
+
 ## Considérations de Sécurité
 
-Les données de la notice (mises en garde, contre-indications) ne sont pas disponibles dans les données compilées ; veuillez consulter la notice pour les informations de sécurité.
+- **Contre-indications à prendre en compte** (relations de contre-indication issues des données de modélisation, et non du texte de la notice) : neutropénie, agranulocytose, leucopénie, épilepsie, maladie hépatique, diabète et acidocétose diabétique, hyperglycémie, hypotension orthostatique, maladie coronarienne, accident vasculaire cérébral, embolie pulmonaire, arrêt cardiaque, troubles de la conduction cardiaque, insuffisance respiratoire, glaucome à angle fermé, hyperplasie bénigne de la prostate, iléus paralytique, hyperlipidémie, obésité.
+- **Interactions médicamenteuses** : 100 interactions recensées. Les interactions de niveau majeur incluent le bupropion, la morphine et le citrate de potassium. Les interactions de niveau modéré incluent notamment les antidiabétiques (metformine, pioglitazone, acarbose, canagliflozine), la cimétidine, l'oméprazole, la famotidine et les anticholinergiques (atropine, hyoscyamine, glycopyrronium).
+- **Risques décrits dans la littérature** : métaboliques, cardiaques (myocardite), convulsions et agranulocytose, nécessitant une surveillance.
 
-- **Pathologies pour lesquelles des relations de contre-indication sont décrites** : épilepsie, atteinte hépatique, diabète et acidocétose diabétique, neutropénie, agranulocytose et leucopénie, hypotension orthostatique, maladie coronarienne, accident vasculaire cérébral, embolie pulmonaire, arrêt cardiaque, troubles de la conduction cardiaque, insuffisance respiratoire, glaucome à angle fermé, iléus paralytique, hyperplasie bénigne de la prostate, hyperlipidémie et obésité.
-- **Interactions médicamenteuses** : 100 interactions recensées. Parmi les principales, des interactions de niveau **majeur** avec le bupropion, la morphine et le citrate de potassium ; de niveau modéré avec notamment la metformine, le pioglitazone, l'oméprazole, la cimétidine, la famotidine, l'atropine et l'épinéphrine.
-- Les publications consultées signalent aussi des risques métaboliques, cardiaques (myocardite), convulsifs et hématologiques (agranulocytose) nécessitant une surveillance.
+Les mises en garde officielles de la notice ne figurent pas dans les données compilées ; veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Un essai de phase 2 en double aveugle terminé dans la manie résistante et une revue systématique avec méta-analyse soutiennent la piste, mais l'échantillon est petit et le profil de risque de la clozapine est lourd. Un cadre de surveillance strict est indispensable.
+Un essai de phase 2 en double aveugle terminé dans la manie résistante et une revue systématique avec méta-analyse soutiennent la plausibilité de l'effet (niveau L2). L'absence d'essai de phase 3 et le profil de risque connu de la clozapine imposent un encadrement strict.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
+- Essais contrôlés de plus grande taille, idéalement de phase 3, dans la manie résistante de l'adulte
 - Données détaillées sur le mécanisme d'action
-- Texte complet de la notice (mises en garde et contre-indications)
-- Essais contrôlés de plus grande taille, ciblant spécifiquement la manie
-- Plan de surveillance hématologique, cardiaque, métabolique et neurologique (crises convulsives)
+- Mises en garde et contre-indications issues de la notice française
+- Plan de surveillance : numération formule sanguine (neutrophiles), bilan métabolique, surveillance cardiaque et risque de convulsions
 
 ## Avertissement
 
