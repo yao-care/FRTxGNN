@@ -1,6 +1,6 @@
 {
   "total": 789,
-  "generated_at": "2026-11-04T05:58:25.370929",
+  "generated_at": "2026-11-04T19:39:21.116591",
   "drugs": [
     {
       "name": "Abacavir",
@@ -2767,7 +2767,7 @@
     {
       "name": "Clozapine",
       "file": "clozapine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 9,
       "predicted_indication": "",
       "inn": "CLOZAPINE",
@@ -7620,7 +7620,7 @@
     {
       "name": "Modafinil",
       "file": "modafinil.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "MODAFINIL",
@@ -8319,7 +8319,7 @@
     {
       "name": "Omalizumab",
       "file": "omalizumab.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 9,
       "predicted_indication": "",
       "inn": "OMALIZUMAB",
@@ -10538,7 +10538,7 @@
     {
       "name": "Sirolimus",
       "file": "sirolimus.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 6,
       "predicted_indication": "",
       "inn": "SIROLIMUS",
