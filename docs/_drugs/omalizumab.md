@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omalizumab
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 559
-evidence_level: L3
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-description: "Omalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Omalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **9** 
+Niveau de preuve: **L5** | Indications prédites: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,51 +36,52 @@ Niveau de preuve: **L3** | Indications prédites: **9**
 ## Omalizumab: Bronchite (bronchitis)
 {: .text-alpha }
 
-## Résumé en Une Phrase
+## Résumé en une phrase
 
-Omalizumab est un anticorps monoclonal anti-IgE, initialement utilisé pour traiter l'asthme (allergique et intrinsèque) et l'urticaire idiopathique.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, mais les preuves directes sont faibles : **2 essais cliniques** étiquetés sous cette indication (de pertinence limitée) et **7 publications**, essentiellement des revues centrées sur l'asthme.
+L'omalizumab est un anticorps monoclonal qui neutralise les IgE libres. Le modèle TxGNN prédit qu'il pourrait être utile dans la **bronchite (bronchitis)**, mais aucune étude publiée ne soutient cette direction : les **2 essais cliniques** associés et les publications retrouvées concernent l'asthme, le chevauchement asthme-BPCO ou d'autres sujets, et non la bronchite elle-même.
 
-## Aperçu Rapide
+## Aperçu rapide
 
 | Élément | Contenu |
 |------|------|
-| Indication Originale | Non renseignée dans les données locales |
-| Nouvelle Indication Prédite | Bronchite (bronchitis) |
-| Score de Prédiction TxGNN | 1.0000 |
-| Niveau de Preuve | L3 |
+| Indication originale | Non renseignée dans les données locales |
+| Nouvelle indication prédite | Bronchite (bronchitis) |
+| Score de prédiction TxGNN | 1.0000 |
+| Niveau de preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
 | Nombre d'AMM | 10 (valides : 10) |
-| Décision Recommandée | Hold |
+| Décision recommandée | Hold |
 
-## Pourquoi Cette Prédiction est-elle Raisonnable ?
+## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'omalizumab se lie aux IgE libres et réduit l'expression du récepteur FcεRI sur les mastocytes et les basophiles, ce qui atténue l'inflammation allergique des voies aériennes. Cette cible (IGHE, chaîne lourde epsilon) est confirmée par les données pharmacologiques.
+Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'omalizumab se lie aux IgE libres, ce qui réduit l'expression du récepteur FcεRI sur les mastocytes et les basophiles et atténue l'inflammation allergique des voies respiratoires. La cible identifiée est la chaîne lourde epsilon de l'immunoglobuline (IGHE).
 
-La bronchite et l'asthme touchent tous deux les voies respiratoires inférieures. Un lien est plausible pour les bronchites d'origine allergique ou associées à l'asthme, et pour le chevauchement asthme-BPCO. Il n'est pas établi pour les bronchites infectieuses ou chroniques sans composante allergique.
+Ce mécanisme pourrait avoir un sens pour une bronchite d'origine allergique ou associée à l'asthme, ou pour le chevauchement asthme-BPCO. Il n'est en revanche pas établi pour les bronchites infectieuses ou chroniques sans composante allergique. Le lien avec la bronchite elle-même reste donc indirect et hypothétique.
 
-Les deux essais associés à la bronchite sont indirects : l'un est une étude de réduction de corticoïdes chez des patients asthmatiques avec bronchite à éosinophiles, l'autre porte sur l'urticaire chronique spontanée. Le score élevé du modèle doit donc être interprété avec prudence.
+## Preuves d'essais cliniques
 
-## Preuves d'Essais Cliniques
-
-| Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
+| Numéro d'essai | Phase | Statut | Inscription | Résultats principaux |
 |---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Terminé | 11 | Essai contre placebo sur l'effet d'épargne des corticoïdes (prednisone) chez des patients avec asthme et bronchite à éosinophiles persistante ; effectif trop faible pour conclure |
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Terminé | 382 | Étude de recherche de dose (QGE031) dans l'urticaire chronique spontanée ; lien avec la bronchite peu clair |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Terminé | 11 | Effet d'épargne de corticoïdes de l'omalizumab (contre placebo) chez des patients asthmatiques avec bronchite éosinophilique persistante ; échantillon très réduit, population relevant de l'asthme sévère avec éosinophilie des expectorations, et efficacité possiblement insuffisante |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Terminé | 382 | Étude de détermination de dose (QGE031) dans l'urticaire chronique spontanée ; sans rapport direct avec la bronchite |
 
-## Preuves de la Littérature
+## Preuves de la littérature
 
-| PMID | Année | Type | Revue | Résultats Principaux |
+| PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohorte | Postepy Dermatol Alergol | Omalizumab chez des patients d'âge moyen ou âgés avec chevauchement asthme allergique sévère-BPCO |
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Analyse de sécurité groupée | Curr Med Res Opin | Sécurité et tolérance de l'omalizumab chez l'enfant avec asthme allergique |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Revue | Clin Rev Allergy Immunol | Efficacité de l'omalizumab dans l'asthme persistant modéré à sévère et expérience post-approbation |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revue | Expert Opin Pharmacother | Prise en charge de l'asthme associé aux maladies des voies aériennes liées au tabac (bronchite chronique, emphysème) |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Revue | Masui | Prise en charge préopératoire de l'asthme ou de la bronchite chronique ; mention de l'omalizumab |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Revue | Allergol Immunopathol | Anticorps monoclonaux en pédiatrie, dont les maladies allergiques |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Analyse de sécurité groupée | Curr Med Res Opin | Sécurité de l'omalizumab chez l'enfant atteint d'asthme allergique |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohorte | Postepy Dermatol Alergol | Omalizumab chez des patients d'âge moyen ou âgés avec asthme allergique sévère et chevauchement BPCO |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Revue | Clin Rev Allergy Immunol | Approbation et expérience post-commercialisation de l'omalizumab dans l'asthme |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revue | Expert Opin Pharmacother | Prise en charge de l'asthme associé aux maladies des voies aériennes liées au tabac (dont bronchite chronique) |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Revue | Masui | Prise en charge préopératoire des patients asthmatiques ou atteints de bronchite chronique |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Revue | Allergol Immunopathol | Anticorps monoclonaux en pédiatrie |
 | [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Rapport de cas | J Investig Allergol Clin Immunol | Cas rare de bronchite plastique après thermoplastie bronchique |
 
-## Informations de Marché en France
+Aucune de ces publications n'étudie l'omalizumab dans le traitement de la bronchite.
+
+## Informations de marché en France
+
+L'omalizumab est commercialisé en France. Les données compilées recensent 10 autorisations, toutes sous forme de solution injectable (seringue préremplie ou stylo prérempli), sans texte d'indication renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -90,33 +91,24 @@ Les deux essais associés à la bronchite sont indirects : l'un est une étude d
 | 61971520 | XOLAIR 150 mg, seringue préremplie | Solution injectable | Non renseignée |
 | 61112487 | XOLAIR 75 mg, stylo prérempli | Solution injectable | Non renseignée |
 
-Les 10 AMM recensées (Novartis Europharm et Celltrion Healthcare Hungary) sont toutes valides ; le médicament est commercialisé.
+## Considérations de sécurité
 
-## Considérations de Sécurité
+- **Interactions médicamenteuses** : 8 interactions ont été recensées. L'une est de niveau modéré (omacétaxine mépésuccinate). Les autres sont de niveau mineur (sulfate, acétate, gluconate et chlorure de zinc, échinacée, vitamine E), ainsi que la liaison à sa cible, la chaîne lourde epsilon de l'immunoglobuline.
 
-- **Interactions médicamenteuses** : 8 interactions recensées.
-  - Modérée : omacétaxine mépésuccinate.
-  - Mineures : sulfate de zinc, acétate de zinc, gluconate de zinc, chlorure de zinc, échinacée, vitamine E.
+Veuillez consulter la notice pour les mises en garde et contre-indications, qui ne sont pas disponibles dans les données compilées.
 
-Pour les mises en garde et contre-indications, veuillez consulter la notice.
-
-## Conclusion et Prochaines Étapes
+## Conclusion et prochaines étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai ne cible directement la bronchite avec des résultats d'efficacité ; les deux essais associés sont indirects ou de très petite taille, et la littérature se limite à des revues centrées sur l'asthme (L3).
+Aucune étude publiée ne démontre l'intérêt de l'omalizumab dans la bronchite : l'essai le plus proche porte sur l'asthme sévère avec éosinophilie persistante, sur 11 patients seulement, et suggère une efficacité possiblement insuffisante. La prédiction repose donc uniquement sur le modèle (niveau L5).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).
-- Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Préciser le sous-type de bronchite visé (allergique, à éosinophiles, associée à l'asthme ou à la BPCO) et mener un essai ciblé.
-- Vérifier la situation réglementaire en France, les 10 AMM recensées étant valides.
+- Des études cliniques ciblant spécifiquement un phénotype de bronchite (par exemple allergique ou éosinophilique)
+- Des données détaillées sur le mécanisme d'action
+- Les mises en garde et contre-indications issues de la notice officielle (ANSM)
 
-## Autres Indications Prédites (pour information)
-
-- **Eczéma atopique / dermatite** (L2, recherche) : l'essai de phase 4 NCT02300701 (n = 62, eczéma pédiatrique sévère) est le plus direct. Les résultats cliniques sont mitigés et les recommandations placent l'omalizumab derrière d'autres biologiques.
-- **Rangs 5 à 10** (néoplasme bronchique, acné chéloïdienne, acrodermatite chronique atrophiante, hydroa vacciniforme, dermatomyosite néonatale, pneumopathie interstitielle de l'enfant) : prédictions sans preuve clinique ni justification mécanistique plausible (L5, Hold).
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

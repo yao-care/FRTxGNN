@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Modafinil
-parent: Preuves modérées (L3-L4)
+parent: Prédiction du modèle uniquement (L5)
 nav_order: 510
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
-description: "Modafinil : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Modafinil : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Niveau de preuve: **L3** | Indications prédites: **1** 
+Niveau de preuve: **L5** | Indications prédites: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,8 @@ Niveau de preuve: **L3** | Indications prédites: **1**
 
 ## Résumé en Une Phrase
 
-Modafinil est un médicament qui favorise l'éveil, initialement utilisé pour traiter la narcolepsie et d'autres affections neurologiques associées à la somnolence.
-Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais cette prédiction repose sur un lien mécanistique indirect et même contre-intuitif,
-avec seulement **2 essais cliniques** (dont un seul terminé, 40 participants) et **18 publications** dont aucune ne démontre directement un bénéfice dans l'insomnie.
+Le modafinil est un médicament promoteur de l'éveil, commercialisé en France sous forme de comprimés.
+Le modèle TxGNN le prédit comme potentiellement utile pour l'**insomnie (insomnia (disease))**, mais cette prédiction repose surtout sur un calcul informatique : **2 essais cliniques** liés au sommeil sont enregistrés, dont aucun ne fournit de résultats exploitables sur l'insomnie, et la littérature disponible porte surtout sur la somnolence diurne et la fatigue. Le niveau de preuve est **L5**.
 
 ## Aperçu Rapide
 
@@ -49,44 +48,43 @@ avec seulement **2 essais cliniques** (dont un seul terminé, 40 participants) e
 | Indication Originale | Non renseignée dans les données locales |
 | Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
 | Score de Prédiction TxGNN | 0.9985 |
-| Niveau de Preuve | L3 |
+| Niveau de Preuve | L5 |
 | Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
 | Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le modafinil est un agent promoteur de l'éveil, pharmacologiquement distinct des stimulants classiques. Son efficacité dans la narcolepsie est reconnue, et on considère généralement qu'il agit sur les voies dopaminergiques et d'autres voies de l'éveil.
+Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le modafinil est un agent éveillant dont l'action passerait par les voies dopaminergiques et d'autres voies de l'éveil, et il est pharmacologiquement distinct des stimulants classiques.
 
-Le lien avec l'insomnie est **indirect et partiellement contre-intuitif**. L'insomnie est un trouble de l'endormissement ou du maintien du sommeil, alors que le modafinil favorise l'éveil. On s'attendrait donc plutôt à ce qu'il aggrave le sommeil nocturne qu'à ce qu'il l'améliore. Une pertinence plausible se limite à la somnolence diurne et aux perturbations veille-sommeil associées à des plaintes de type insomnie dans des contextes neurologiques ou de troubles primaires du sommeil (maladie de Parkinson, personnes âgées, trouble du travail posté).
+Le lien avec l'insomnie est indirect et même contre-intuitif : l'insomnie est une difficulté à initier ou maintenir le sommeil, alors que le modafinil favorise l'éveil. On pourrait s'attendre à ce qu'il aggrave l'endormissement ou le maintien du sommeil plutôt qu'à l'améliorer. La pertinence plausible se limite aux troubles de l'éveil et du sommeil associés à d'autres affections (maladie de Parkinson, personnes âgées, travail posté).
 
-Le score TxGNN très élevé (0,9985) est une prédiction computationnelle. Il ne doit pas être interprété comme une preuve que le modafinil traite l'insomnie elle-même.
+Le score très élevé (0,9985) est une sortie de modèle informatique. Il ne doit pas être lu comme une preuve que le modafinil traite l'insomnie elle-même, et une indication directe n'est pas soutenue par le mécanisme.
 
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
-| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Phase 4 | Terminé | 40 | Effets du modafinil sur le fonctionnement diurne et le sommeil chez des personnes atteintes d'insomnie primaire, seul ou associé à une thérapie cognitivo-comportementale ; résultats non fournis, population ne correspondant pas clairement à l'insomnie primaire |
-| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Phase 4 | Arrêté | 2 | Troubles veille-sommeil chez les personnes âgées ; arrêté avec 2 participants, aucune donnée exploitable |
+| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Phase 4 | Terminé | 40 | Effets du modafinil, seul ou associé à la thérapie cognitivo-comportementale de l'insomnie, sur le fonctionnement diurne et la sévérité de l'insomnie ; aucun résultat publié ou déposé |
+| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Phase 4 | Arrêté prématurément | 2 | Troubles veille/sommeil chez les personnes âgées ; seulement 2 participants, aucune donnée interprétable |
 
 ## Preuves de la Littérature
 
+Aucune publication ne porte directement sur le modafinil dans l'insomnie. Les références ci-dessous concernent des sujets voisins (somnolence diurne, fatigue, troubles du sommeil associés).
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
-| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Revue systématique / méta-analyse | PLoS One | Efficacité et sécurité du modafinil sur la fatigue et la somnolence diurne associées aux troubles neurologiques ; résultats antérieurs hétérogènes |
-| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Revue systématique / méta-analyse | Parkinsonism Relat Disord | Interventions pharmacologiques pour la somnolence diurne et les troubles du sommeil dans la maladie de Parkinson |
-| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revue systématique | Mov Disord | Revue fondée sur les preuves des traitements des symptômes non moteurs de la maladie de Parkinson |
-| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revue | Drugs | Usages approuvés et expérimentaux du modafinil, d'après des essais randomisés contrôlés contre placebo |
-| [24272458](https://pubmed.ncbi.nlm.nih.gov/24272458/) | 2014 | Revue | Neurotherapeutics | Traitement des troubles du sommeil dans la maladie de Parkinson ; traitements optimaux de l'insomnie non déterminés |
-| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Revue | Expert Opin Pharmacother | Prise en charge pharmacologique et non pharmacologique des troubles du sommeil dans la maladie de Parkinson |
-| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revue | Drugs | Fardeau et prise en charge du trouble du travail posté |
-| [24138359](https://pubmed.ncbi.nlm.nih.gov/24138359/) | 2013 | Revue | Med J Aust | Privation de sommeil et perturbation circadienne chez les travailleurs postés |
-| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Série de cas | Am J Hosp Palliat Care | Réduction de la fatigue par le modafinil dans la maladie de Charcot-Marie-Tooth de type 1A |
-| [41820035](https://pubmed.ncbi.nlm.nih.gov/41820035/) | 2026 | Recommandations | Zhonghua Jie He He Hu Xi Za Zhi | Recommandations pour le diagnostic et le traitement de l'apnée obstructive du sommeil chez l'adulte (2025) |
-
-Aucune de ces publications ne montre que le modafinil améliore l'insomnie ; elles concernent surtout la somnolence diurne, la fatigue et les troubles du sommeil dans des contextes neurologiques.
+| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Revue systématique/méta-analyse | PloS one | Efficacité et sécurité du modafinil sur la fatigue et la somnolence diurne associées aux troubles neurologiques |
+| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Revue systématique/méta-analyse | Parkinsonism & Related Disorders | Interventions pharmacologiques pour la somnolence diurne et les troubles du sommeil dans la maladie de Parkinson |
+| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revue systématique | Movement Disorders | Mise à jour des traitements des symptômes non moteurs de la maladie de Parkinson |
+| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revue | Drugs | Usages approuvés et expérimentaux du modafinil, fondés sur les essais contrôlés randomisés |
+| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Revue | Expert Opinion on Pharmacotherapy | Prise en charge des troubles du sommeil dans la maladie de Parkinson |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revue | Drugs | Charge et prise en charge du trouble du sommeil lié au travail posté |
+| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Série de cas | American Journal of Hospice & Palliative Care | Réduction de la fatigue par le modafinil dans la maladie de Charcot-Marie-Tooth de type 1A |
 
 ## Informations de Marché en France
+
+Le modafinil est commercialisé en France ; les 8 AMM enregistrées dans les données locales sont valides. Les produits sont des comprimés dosés à 100 mg.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -96,28 +94,25 @@ Aucune de ces publications ne montre que le modafinil améliore l'insomnie ; ell
 | 63676077 | MODAFINIL ARROW 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 | 69346054 | MODAFINIL EG 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
-Au total, 8 AMM figurent dans la base, dont 8 valides ; le médicament est commercialisé en France.
-
 ## Considérations de Sécurité
 
-- **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : hypertension, insuffisance hépatique, troubles anxieux, troubles psychotiques et autres troubles mentaux (dont schizophrénie et trouble schizo-affectif), abus ou dépendance aux substances, maladies cardiovasculaires (syndrome coronarien aigu, infarctus du myocarde, ischémie myocardique, maladie coronarienne), prolapsus de la valve mitrale, syndrome de tachycardie orthostatique posturale, hémoglobinopathies.
-- **Interactions médicamenteuses** : 100 interactions recensées. Les interactions de niveau modéré portent notamment sur le rabéprazole, l'oméprazole, l'ésoméprazole, la dexaméthasone, l'éliglustat, la linagliptine et le cisapride. Plusieurs interactions mineures concernent notamment l'hydrocortisone, la pioglitazone, l'aprépitant, la clarithromycine et le miconazole.
+- **Interactions médicamenteuses** : 100 interactions sont recensées ; parmi les premières, plusieurs sont de niveau modéré : oméprazole, ésoméprazole, rabéprazole, dexaméthasone, éliglustat, linagliptine et cisapride. D'autres sont de niveau mineur (hydrocortisone, pioglitazone, aprépitant, clarithromycine, cimétidine, etc.).
 
-Les mises en garde et contre-indications issues de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
+Pour les mises en garde et contre-indications officielles, veuillez consulter la notice.
 
 ## Conclusion et Prochaines Étapes
 
 **Décision : Hold**
 
 **Justification :**
-- Le mécanisme d'action va à l'encontre d'un bénéfice dans l'insomnie, et les seules données directes sont un essai terminé de 40 participants sans résultats disponibles et un essai arrêté à 2 participants. Les 8 AMM françaises sont valides, mais le profil de sécurité issu de la notice manque.
+La prédiction repose uniquement sur le modèle (niveau L5) : aucune étude publiée n'évalue directement le modafinil dans l'insomnie, le seul essai pertinent (NCT00124384) n'a pas de résultats disponibles, et le mécanisme d'action laisse plutôt craindre une aggravation de l'insomnie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
-- Les données détaillées sur le mécanisme d'action (DrugBank)
-- Les résultats publiés de l'essai NCT00124384 et la confirmation de la population étudiée
-- Des essais contrôlés ciblant des populations précises (somnolence diurne avec insomnie dans la maladie de Parkinson, chez les personnes âgées ou dans le trouble du travail posté), plutôt que l'insomnie primaire
-- Des éclaircissements sur les raisons de l'annulation des AMM en France
+- Obtenir les résultats de l'essai NCT00124384 ou mener un essai contrôlé randomisé dans l'insomnie
+- Disposer des données détaillées sur le mécanisme d'action
+- Récupérer les mises en garde et contre-indications de la notice ANSM
+- Évaluer le risque de détérioration du sommeil nocturne chez les patients concernés
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
