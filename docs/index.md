@@ -19,7 +19,20 @@ Ce projet utilise le modèle TxGNN (apprentissage profond) pour prédire de nouv
 
 Ce site publie des rapports sur **{{ site.data.drug_stats.total_drugs }}** médicaments figurant dans les données d'enregistrement ([ANSM](https://ansm.sante.fr/), France).
 
-Rapports par niveau de preuve : L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+Jeu de données : [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) ; il est téléchargé et comparé automatiquement chaque semaine (le lundi). Détails : [Sources de données]({{ '/sources/' | relative_url }}).
+
+Rapports par niveau de preuve :
+
+| Niveau de preuve | Rapports | Part |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+31 paires médicament–maladie prédites sur ce site n'apparaissent sur aucun autre des 30 sites TxGNN.
 
 ### Médicaments ayant le niveau de preuve le plus élevé sur ce site
 
@@ -28,13 +41,13 @@ Rapports par niveau de preuve : L1 {{ site.data.drug_stats.level_counts.L1 }} ·
 | [Acetylcysteine](/drugs/acetylcysteine/) | L1 |
 | [Bendamustine](/drugs/bendamustine/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
-| [Fluvoxamine](/drugs/fluvoxamine/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
-| [Lormetazepam](/drugs/lormetazepam/) | L1 |
-| [Rifabutin](/drugs/rifabutin/) | L1 |
-| [Triptorelin](/drugs/triptorelin/) | L1 |
-| [Conestat Alfa](/drugs/conestat-alfa/) | L1 |
-| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Potassium](/drugs/potassium/) | L1 |
+| [Ketorolac](/drugs/ketorolac/) | L1 |
+| [Dapsone](/drugs/dapsone/) | L1 |
+| [Ketamine](/drugs/ketamine/) | L1 |
 
 ### Médicaments couverts uniquement par ce site parmi les 30 sites TxGNN
 
@@ -54,15 +67,6 @@ Rapports par niveau de preuve : L1 {{ site.data.drug_stats.level_counts.L1 }} ·
 
 ## À propos du développeur
 
-Cette plateforme est développée et exploitée par **藥提醒科技有限公司** (yao.care, numéro d'enregistrement
-de société 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-FRTxGNN est le site France de la gamme de produits « TxGNN Drug Repurposing » de la société.
-Le même système est déployé dans 30 pays et régions, chacun nommé `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, etc.) à l'adresse `{cc}txgnn.yao.care`.
-Présentation du produit : <https://www.yao.care/medical/txgnn/>.
-
-Le modèle TxGNN lui-même a été développé par le Zitnik Lab de Harvard Medical School et publié
-dans *Nature Medicine*. Cette plateforme est le système de production que 藥提醒科技有限公司 a bâti sur ce
-modèle : intégration des données nationales d'enregistrement des médicaments, prédiction par apprentissage profond excluant les usages déjà enregistrés dans le graphe de connaissances, gradation des preuves PubMed / ClinicalTrials, et intégration
-au dossier médical électronique via SMART on FHIR.
+Cette plateforme est développée et exploitée par **藥提醒科技有限公司** (yao.care). Les informations sur
+l'entreprise, le contexte du modèle TxGNN et la liste complète des sites de la gamme figurent sur la page
+<a href="{{ '/about/' | relative_url }}">À propos</a>.
