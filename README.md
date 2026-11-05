@@ -23,7 +23,7 @@ Predictions de repositionnement de medicaments pour les medicaments approuves pa
 | **Predictions totales** | 7,046,174 |
 | **Medicaments uniques** | 455 |
 | **Indications uniques** | 17,041 |
-| **Donnees DDI** | 302,516 |
+| **Donnees DDI** | 160,235 |
 | **Donnees DFI** | 857 |
 | **Donnees DHI** | 35 |
 | **Donnees DDSI** | 8,359 |
@@ -219,7 +219,7 @@ PYTHONPATH=src python -m frtxgnn.predict.txgnn_model
 | **Donnees medicamenteuses** | ANSM | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/) | France |
 | **Graphe de connaissances** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Base de donnees de medicaments** | DrugBank | [DrugBank](https://go.drugbank.com/) | Mappage d'ingredients medicamenteux |
-| **Interactions medicamenteuses** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | Paires DDI |
+| **Interactions medicamenteuses** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | Paires DDI |
 | **Interactions medicamenteuses** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Interactions medicamenteuses approuvees |
 | **Essais cliniques** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Registre d'essais cliniques |
 | **Essais cliniques** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | Plateforme internationale d'essais cliniques |
