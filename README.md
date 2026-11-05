@@ -20,27 +20,28 @@ Predictions de repositionnement de medicaments pour les medicaments approuves pa
 | Element | Nombre |
 |------|------|
 | **Rapports de medicaments** | 813 |
-| **Predictions totales** | 7,046,174 |
-| **Medicaments uniques** | 455 |
+| **Predictions totales** | 19,482,538 |
+| **Medicaments uniques** | 1,141 |
 | **Indications uniques** | 17,041 |
 | **Donnees DDI** | 160,235 |
-| **Ressources FHIR** | 315 MK / 1,928 CUD |
+| **Ressources FHIR** | 891 MK / 4,898 CUD |
 
 ### Distribution des niveaux de preuve
 
 | Niveau de preuve | Nombre de rapports | Description |
 |---------|-------|------|
-| **L1** | 0 | Plusieurs ECR de Phase 3 |
-| **L2** | 0 | ECR unique ou plusieurs Phase 2 |
-| **L3** | 0 | Etudes observationnelles |
-| **L4** | 0 | Etudes precliniques / mecanistiques |
-| **L5** | 315 | Prediction computationnelle uniquement |
+| **L1** | 10 | Plusieurs ECR de Phase 3 |
+| **L2** | 31 | ECR unique ou plusieurs Phase 2 |
+| **L3** | 31 | Etudes observationnelles |
+| **L4** | 57 | Etudes precliniques / mecanistiques |
+| **L5** | 660 | Prediction computationnelle uniquement |
+| **N/A** | 24 | Usages connus uniquement (aucune nouvelle prédiction) |
 
 ### Par source
 
 | Source | Predictions |
 |------|------|
-| DL | 7,044,246 |
+| DL | 19,480,610 |
 | KG + DL | 1,698 |
 | KG | 230 |
 
@@ -49,9 +50,9 @@ Predictions de repositionnement de medicaments pour les medicaments approuves pa
 | Confiance | Predictions |
 |------|------|
 | very_high | 1,307 |
-| high | 397,364 |
-| medium | 858,626 |
-| low | 5,788,877 |
+| high | 1,005,592 |
+| medium | 1,969,413 |
+| low | 16,506,226 |
 
 ---
 
@@ -71,7 +72,7 @@ uv run python scripts/run_kg_prediction.py
 | Metrique | Valeur |
 |------|------|
 | ANSM Total des medicaments | 20,856 |
-| Mappes a DrugBank | 4,011 (19.2%) |
+| Mappes a DrugBank | 11,826 (56.7%) |
 | Candidats au repositionnement | 1,928 |
 
 ### Methode d'apprentissage profond
@@ -83,8 +84,8 @@ PYTHONPATH=src python -m frtxgnn.predict.txgnn_model
 
 | Metrique | Valeur |
 |------|------|
-| Predictions DL totales | 964,428 |
-| Medicaments uniques | 455 |
+| Predictions DL totales | 2,391,153 |
+| Medicaments uniques | 1,141 |
 | Indications uniques | 17,041 |
 
 ### Interpretation des scores
