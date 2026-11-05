@@ -32,8 +32,10 @@ politiques :
 | Service | Finalité | Politique de confidentialité |
 |---------|---------|----------------|
 | GitHub Pages | Hébergement du site | [Déclaration de confidentialité de GitHub](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| cdn.jsdelivr.net | Bibliothèque de graphiques | CDN de ressources statiques |
-| giscus | Commentaires (là où ils sont activés) | [giscus](https://giscus.app/) |
+| Google Analytics 4 (www.googletagmanager.com, google-analytics.com) | Statistiques de visite (pages consultées, provenance) ; utilise des cookies de mesure d’audience. Les termes recherchés, le contenu des formulaires et les paramètres d’URL ne sont pas transmis. | [Règles de confidentialité de Google](https://policies.google.com/privacy) |
+| cdn.jsdelivr.net | Bibliothèques de scripts : graphiques d3 sur toutes les pages ; Fuse.js pour la correspondance des noms et le client SMART on FHIR sur les pages SMART | [Politique de confidentialité de jsDelivr](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net) |
+| clinicaltrials.gov | Recherche d’essais cliniques sur les pages SMART : uniquement lorsque vous la demandez, les noms du médicament et de l’indication sont envoyés à l’API de ClinicalTrials.gov | [Politiques web de la NLM](https://www.nlm.nih.gov/web_policies.html) |
+| rxnav.nlm.nih.gov | Application SMART : les codes RxNorm des médicaments lus dans votre dossier patient informatisé sont envoyés à l’API RxNav de la NLM pour retrouver le nom de la substance active (aucun identifiant de patient) | [Politiques web de la NLM](https://www.nlm.nih.gov/web_policies.html) |
 
 Lorsque vous lancez volontairement l'application SMART on FHIR, celle-ci demande des données de traitement à votre système
 de dossier médical électronique. Ces données sont <strong>traitées entièrement dans votre navigateur</strong> ; elles ne sont
