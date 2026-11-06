@@ -2179,7 +2179,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Sténose anorectale",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dexpanthenol/"
     },
@@ -6149,7 +6149,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Manie (trouble bipolaire)",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/propafenone/"
     },
@@ -7139,7 +7139,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Angine de Prinzmetal",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/telmisartan/"
     },
@@ -7999,7 +7999,7 @@
       "evidence_level": "L5",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "Trouble primaire de la libération plaquettaire",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/vonicog-alfa/"
     },
