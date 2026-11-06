@@ -117,7 +117,7 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 - Obtenir la notice de l'ANSM (mises en garde et contre-indications), dont l'absence bloque le criblage de sécurité.
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank) pour analyser un éventuel lien mécanistique.
 - Pour la myiase, disposer d'au moins des données précliniques ou de séries de cas avant d'envisager une évaluation. Il serait plus pertinent de prioriser la pneumocystose.
-- Vérifier la disponibilité réelle du produit en France, l'AMM étant abrogée.
+- Vérifier la disponibilité réelle du produit en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

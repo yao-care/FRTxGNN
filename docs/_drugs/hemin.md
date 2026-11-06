@@ -93,7 +93,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique ni publication pertinente, et aucun mécanisme plausible. Les effets connus de l'hémine sur la coagulation suggèrent plutôt un risque qu'un bénéfice.
-- L'AMM française est annulée et les données de sécurité issues de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
+- Les données de sécurité issues de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications).

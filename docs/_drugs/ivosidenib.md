@@ -135,7 +135,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la poliomyélite bulbaire repose uniquement sur le modèle (niveau L5). Elle n'a aucun essai ni publication à l'appui et aucun lien mécanistique plausible. L'AMM française est de plus annulée.
+- La prédiction pour la poliomyélite bulbaire repose uniquement sur le modèle (niveau L5). Elle n'a aucun essai ni publication à l'appui et aucun lien mécanistique plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'évaluation de sécurité)

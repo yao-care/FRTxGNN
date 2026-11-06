@@ -76,7 +76,7 @@ Aucune littérature associée disponible actuellement.
 |---------|------|------|-----------|
 | 63820798 | SECNOL 2 g, granulés en sachet-dose (SUBSTIPHARM), AMM active | Granulés | Non renseignée dans les données compilées |
 
-La seule AMM connue est annulée. La disponibilité du produit en France devrait donc être vérifiée avant toute réflexion sur un usage ultérieur.
+La disponibilité du produit en France devrait donc être vérifiée avant toute réflexion sur un usage ultérieur.
 
 ## Considérations de Sécurité
 
@@ -97,7 +97,7 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - Le score de prédiction est très élevé (0,9970), mais il n'existe aucun essai clinique ni publication, et le lien mécanistique avec une maladie hormonale non infectieuse est inexistant (niveau de preuve L5).
-- L'AMM française est annulée et les données de sécurité issues de la notice ne sont pas disponibles.
+- Les données de sécurité issues de la notice ne sont pas disponibles.
 
 À titre d'information, parmi les autres prédictions du modèle, le « pertes vaginales » est la mieux documentée (plusieurs essais de phase 3 et méta-analyses). Ces preuves reflètent surtout les indications déjà connues (vaginose bactérienne, trichomonase) et non une véritable nouvelle maladie. Elles ne soutiennent donc pas la prédiction retenue ici.
 
@@ -105,7 +105,6 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 - Obtenir et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM ;
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank) ;
 - Rechercher d'éventuelles preuves précliniques ou cliniques spécifiques à la vaginite atrophique, en l'absence desquelles l'hypothèse ne devrait pas être poursuivie ;
-- Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation de l'AMM.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

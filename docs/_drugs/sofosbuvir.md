@@ -109,7 +109,7 @@ Les autres essais compilés (programmes de dépistage et de traitement du VHC, p
 | 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (active) |
 | 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (active) |
 
-Au total, 7 AMM sont enregistrées, toutes annulées. Les deux autres sont EPCLUSA 400 mg/100 mg (63434686) et VOSEVI 400 mg/100 mg/100 mg (61932485).
+Au total, 7 AMM sont enregistrées. Les deux autres sont EPCLUSA 400 mg/100 mg (63434686) et VOSEVI 400 mg/100 mg/100 mg (61932485).
 
 ---
 
@@ -137,7 +137,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 - Données détaillées sur le mécanisme d'action et sur la plausibilité d'un effet anti-VHB
 - Résultats confirmatoires contrôlés chez des patients mono-infectés par le VHB, avec un critère d'efficacité clair (HBsAg, ADN du VHB)
 - Mises en garde et contre-indications issues de la notice de l'ANSM, actuellement manquantes
-- Clarification de la situation réglementaire en France (AMM annulées)
+- Clarification de la situation réglementaire en France
 
 **Note sur les autres indications prédites :** parmi les autres pistes, l'**hépatite E** présente les preuves les plus directes (essai pilote de phase 2 NCT03282474, 10 patients, avec baisse initiale de la charge virale mais sans réponse virologique soutenue, et émergence de variants associés à la résistance). Elle mériterait une évaluation distincte. Les autres pistes (hépatite A, fièvre hémorragique d'Omsk, maladie de la forêt de Kyasanur, VIH) reposent sur des données précliniques, une simple prédiction ou des études de co-infection, et sont à mettre en attente.
 ## Avertissement

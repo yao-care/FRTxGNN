@@ -94,7 +94,7 @@ Ces publications soutiennent l'efficacité générale du topiramate dans l'épil
 
 ## Informations de Marché en France
 
-Les 17 AMM recensées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
+Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

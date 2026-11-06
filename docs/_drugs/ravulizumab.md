@@ -92,14 +92,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai ni publication ne la soutient, et aucun lien mécanistique plausible n'est établi.
 - Le risque infectieux lié à l'inhibition de C5 est défavorable dans un contexte de neutropénie.
-- Les AMM françaises sont toutes annulées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une justification mécanistique ou des données précliniques reliant l'inhibition de C5 à la maladie ciblée
 - Une revue de la littérature et des registres d'essais pour confirmer l'absence ou l'existence de preuves
-- La clarification du statut réglementaire en France (AMM annulées) et de la compatibilité des voies d'administration
+- La clarification du statut réglementaire en France et de la compatibilité des voies d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -38,7 +38,6 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Lacosamide est un antiépileptique, dont les autorisations françaises recensées sont toutes annulées.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble migraineux** (migraine disorder), avec **4 essais cliniques** et **16 publications** soutenant actuellement cette direction.
 
 > Remarque : l'indication prédite en première position par TxGNN est le trouble bipolaire maniaque (score de 0,9996), mais les preuves disponibles sont faibles (niveau L3, études observationnelles et cas isolés). Ce rapport se concentre sur la migraine, l'indication la mieux étayée parmi les dix prédictions, avec un score de 0,9987.
@@ -95,7 +94,7 @@ Cette plausibilité mécanistique est cohérente avec la prédiction du modèle,
 | 60575525 | LACOSAMIDE EG 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 61150979 | LACOSAMIDE ZENTIVA 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
+Au total, 20 AMM sont recensées; seules les 5 premières sont listées ici.
 
 ## Considérations de Sécurité
 

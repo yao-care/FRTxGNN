@@ -80,7 +80,7 @@ Pour information, les publications récupérées pour la lèpre (deuxième préd
 |---------|------|------|-----------|------|
 | 63915869 | DOVPRELA 200 mg, comprimé | Comprimé | Non renseignée | Active |
 
-Titulaire : Mylan Ireland Healthcare (Irlande). L'unique AMM est annulée : le médicament n'est actuellement pas commercialisé en France sous cette AMM.
+Titulaire : Mylan Ireland Healthcare (Irlande).
 
 ## Considérations de Sécurité
 
@@ -99,14 +99,14 @@ Plusieurs interactions majeures concernent des inducteurs enzymatiques ou des m�
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme d'action de la prétomanide, spécifique des mycobactéries, rend une activité antifongique biologiquement improbable.
-- Les données de sécurité de la notice manquent (lacune bloquante) et l'AMM française est annulée.
+- Les données de sécurité de la notice manquent (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank)
 - Réaliser des tests précliniques *in vitro* d'activité antifongique contre *Candida* avant tout autre investissement
 - Si l'on souhaite explorer une piste plus plausible, vérifier la présence de la voie F420/Ddn chez *M. leprae* avant d'envisager la lèpre
-- Clarifier la situation réglementaire (AMM annulée) et l'indication d'origine
+- Clarifier la situation réglementaire et l'indication d'origine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

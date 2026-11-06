@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Inotersen est un oligonucléotide antisens ciblant l'ARN messager de la transthyrétine (TTR). Dans les données compilées pour ce report, aucune indication d'origine n'est renseignée dans l'AMM française, et la spécialité (TEGSEDI) n'y figure plus qu'à l'état d'AMM annulée.
+Inotersen est un oligonucléotide antisens ciblant l'ARN messager de la transthyrétine (TTR). Dans les données compilées pour ce report, aucune indication d'origine n'est renseignée dans l'AMM française.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Porphyrie Aiguë Intermittente**, mais **aucun essai clinique** n'est enregistré et **une seule publication** (une revue générale) y est associée : la prédiction repose essentiellement sur le modèle.
 
 ## Aperçu Rapide
@@ -96,7 +96,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle, sans essai clinique ni donnée directe, avec un lien mécanistique non établi. L'AMM française est annulée et les données de sécurité officielles manquent, ce qui bloque l'évaluation de sécurité.
+- La prédiction repose uniquement sur le modèle, sans essai clinique ni donnée directe, avec un lien mécanistique non établi. Les données de sécurité officielles manquent, ce qui bloque l'évaluation de sécurité.
 - Les neuf autres indications prédites (appendicite, méningites, péritonite, atteintes liées aux IgG4, etc.) sont de niveau L5 et également en Hold.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -104,7 +104,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Démontrer un lien biologique plausible entre la réduction de la TTR et la porphyrie (études précliniques)
 - Évaluer le profil de risque (thrombopénie, glomérulonéphrite) au regard de l'indication visée
-- Clarifier le statut réglementaire de l'AMM annulée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

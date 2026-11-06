@@ -108,8 +108,6 @@ Point de vigilance : plusieurs essais suggèrent que la famotidine est **inféri
 | 67557907 | FAMOTIDINE EG 40 mg (active) | Comprimé pelliculé | Non renseignée |
 | 60005856 | FAMOTIDINE EG 20 mg (active) | Comprimé pelliculé | Non renseignée |
 
-Les deux AMM sont annulées (laboratoire EG Labo).
-
 ---
 
 ## Considérations de Sécurité
@@ -131,7 +129,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle de l'ANSM (mises en garde, contre-indications), un manque bloquant pour le dépistage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
-- Vérifier la disponibilité réelle et les formulations en France, puisque les deux AMM sont annulées.
+- Vérifier la disponibilité réelle et les formulations en France.
 - Comparer systématiquement la famotidine aux IPP dans les populations visées (aspirine, thiénopyridines, prophylaxie de stress).
 - Pour les autres prédictions (reflux duodéno-gastrique, ulcère gastro-jéjunal, gastroduodénite), niveau de preuve faible à modéré : à conserver en « Hold » ou « question de recherche ». Les prédictions « obstruction duodénale », « anomalie de la sécrétion de glucagon » et « acné » ne reposent que sur le score du modèle.
 ## Avertissement

@@ -102,7 +102,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Aucun lien mécanistique n'est établi, et la direction de l'effet est douteuse, certains antiépileptiques étant associés à l'hyponatrémie/SIADH.
-- L'unique AMM française est annulée, et les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'évaluation de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante.

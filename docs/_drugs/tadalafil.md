@@ -77,7 +77,7 @@ A titre d'information, pour une autre prediction (migraine avec aura du tronc ce
 
 ## Informations de Marche en France
 
-Les 20 AMM recensees sont toutes annulees. Le texte des indications approuvees n'est pas renseigne. Les cinq premieres sont listees ci-dessous.
+Le texte des indications approuvees n'est pas renseigne. Les cinq premieres sont listees ci-dessous.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -99,7 +99,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Decision : Hold**
 
 **Justification :**
-- La prediction repose uniquement sur le modele (L5), sans essai ni publication, et sans lien mecanistique plausible entre l'inhibition de la PDE5 et l'hypertrichose d'Ambras. Le statut reglementaire en France (toutes les AMM annulees) complique encore toute perspective de developpement.
+- La prediction repose uniquement sur le modele (L5), sans essai ni publication, et sans lien mecanistique plausible entre l'inhibition de la PDE5 et l'hypertrichose d'Ambras. Le statut reglementaire en France complique encore toute perspective de developpement.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Donnees sur le mecanisme d'action issues de DrugBank

@@ -110,7 +110,7 @@ Ces interactions suggèrent une vigilance particulière vis-à-vis des médicame
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, les AMM françaises sont toutes annulées et les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM

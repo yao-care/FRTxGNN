@@ -104,7 +104,7 @@ Le dossier d'évaluation est insuffisant pour émettre toute recommandation de r
 - Récupérer les données MOA depuis DrugBank (DG002 — Sévérité : High) via l'API DrugBank
 - Télécharger et analyser la notice ANSM pour les mises en garde, contre-indications et précautions d'emploi (DG001 — Sévérité : Blocking)
 - Relancer la collecte des interactions médicamenteuses (DDI — résultat : not_found lors de la requête du 2026-03-29)
-- Vérifier le statut réglementaire en France (0 AMM enregistrée) et documenter si une procédure d'autorisation temporaire d'utilisation (ATU/AAP) est applicable
+- Vérifier le statut réglementaire en France et documenter si une procédure d'autorisation temporaire d'utilisation (ATU/AAP) est applicable
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

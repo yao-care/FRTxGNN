@@ -105,7 +105,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Decision : Hold**
 
 **Justification :**
-- La prediction repose uniquement sur le modele (L5), sans essai ni publication, et sans lien mecanistique plausible avec une inhibition de C5. De plus, les trois AMM francaises sont annulees.
+- La prediction repose uniquement sur le modele (L5), sans essai ni publication, et sans lien mecanistique plausible avec une inhibition de C5.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Donnees detaillees sur le mecanisme d'action (MOA)

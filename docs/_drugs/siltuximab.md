@@ -111,14 +111,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour le mastocytome extracutané repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le lien mécanistique avec l'IL-6 est spéculatif. De plus, les AMM françaises sont toutes annulées.
+- La prédiction pour le mastocytome extracutané repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le lien mécanistique avec l'IL-6 est spéculatif.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue de la littérature sur le rôle de l'IL-6 dans les néoplasmes mastocytaires
 - Exploration prioritaire de la piste du sarcome de Kaposi / syndrome inflammatoire à cytokines associé à KSHV, biologiquement plus plausible
-- Clarification du statut réglementaire (annulation des AMM) et de la disponibilité du produit
+- Clarification du statut réglementaire et de la disponibilité du produit
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

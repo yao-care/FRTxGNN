@@ -71,7 +71,6 @@ Aucune littérature associée disponible actuellement pour l'hyperamylasémie.
 
 ## Informations de Marché en France
 
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 65616470 | NORFLOXACINE CRISTERS 400 mg | Comprimé pelliculé | Annulée |
@@ -110,7 +109,7 @@ La peste septicémique est la seule piste biologiquement plausible (Yersinia pes
 **Décision : Hold**
 
 **Justification :**
-La prédiction d'hyperamylasémie ne repose que sur le score du modèle (L5), sans essai, sans publication ni mécanisme plausible. De plus, toutes les AMM françaises de la norfloxacine sont annulées, et le profil de sécurité comporte de nombreuses contre-indications et interactions majeures.
+La prédiction d'hyperamylasémie ne repose que sur le score du modèle (L5), sans essai, sans publication ni mécanisme plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice ANSM (lacune bloquante pour tout criblage de sécurité)

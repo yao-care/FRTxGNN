@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 ## Résumé en Une Phrase
 
-Valpromide est un dérivé amide de l'acide valproïque, commercialisé en France sous le nom de Depamide (autorisation aujourd'hui annulée). Son indication d'origine n'est pas renseignée dans les données compilées pour ce rapport.
+Valpromide est un dérivé amide de l'acide valproïque, commercialisé en France sous le nom de Depamide. Son indication d'origine n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais seule **1 publication** (une série de cas de 1999) et **aucun essai clinique** soutiennent actuellement cette direction.
 
 ## Aperçu Rapide
@@ -95,7 +95,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
 - Obtenir les données sur le mécanisme d'action de valpromide (par exemple via DrugBank)
-- Clarifier l'indication d'origine historique de Depamide et les raisons de l'annulation de l'AMM
+- Clarifier l'indication d'origine historique de Depamide
 - Rechercher des études cliniques spécifiques à l'insomnie (essais contrôlés, polysomnographie)
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine
 ## Avertissement

@@ -90,13 +90,13 @@ Les mises en garde et contre-indications de la notice n'étant pas disponibles, 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique spéculatif. De plus, le médicament n'a plus d'AMM en vigueur en France et les données de sécurité de la notice sont manquantes.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique spéculatif. De plus, les données de sécurité de la notice sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), préalable indispensable à toute évaluation de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par ex. via DrugBank)
 - Réaliser une revue de la littérature préclinique sur safinamide dans l'encéphalite de Rasmussen
-- Clarifier la situation réglementaire (AMM annulées) et la faisabilité d'une voie d'accès au médicament
+- Clarifier la situation réglementaire et la faisabilité d'une voie d'accès au médicament
 - Si une piste est poursuivie, envisager en priorité la neurodégénérescence associée à PLA2G6 pour un usage symptomatique, la plus plausible biologiquement
 ## Avertissement
 

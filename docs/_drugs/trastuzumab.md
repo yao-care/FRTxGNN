@@ -146,13 +146,13 @@ Veuillez consulter la notice pour les mises en garde et les contre-indications, 
 
 **Justification :**
 - Des preuves randomisées solides (dont un essai de phase 3 de 3270 patients et plusieurs ECR publiés) soutiennent le trastuzumab dans le cancer du sein HER2-positif, y compris les tumeurs à récepteurs hormonaux positifs. Il s'agit cependant d'un sous-groupe de l'indication d'origine plutôt que d'un véritable repositionnement.
-- Le bénéfice est limité aux tumeurs HER2-positives. Les autorisations françaises recensées sont toutes annulées, et les données de sécurité de la notice sont absentes.
+- Le bénéfice est limité aux tumeurs HER2-positives. Les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Confirmation obligatoire du statut HER2 avant tout traitement (garde-fou principal)
 - Récupération et analyse de la notice (mises en garde et contre-indications), qui bloque l'évaluation de sécurité
 - Données détaillées sur le mécanisme d'action
-- Clarification du statut réglementaire en France (AMM annulées, produits éventuellement autorisés par procédure centralisée européenne)
+- Clarification du statut réglementaire en France
 - Plan de surveillance cardiaque (FEVG) avant et pendant le traitement
 
 ---

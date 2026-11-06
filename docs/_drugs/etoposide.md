@@ -96,7 +96,6 @@ Sélection parmi les 33 essais associés au sarcome d'Ewing (principaux essais d
 
 ## Informations de Marché en France
 
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 66338465 | ETOPOSIDE HIKMA 20 mg/mL | Solution à diluer pour perfusion | Active |
@@ -104,8 +103,6 @@ Sélection parmi les 33 essais associés au sarcome d'Ewing (principaux essais d
 | 61425560 | ETOPOSIDE TEVA 20 mg/ml | Solution à diluer pour perfusion | Active |
 | 60155667 | ETOPOSIDE TEVA 200 mg/10 ml | Solution injectable pour perfusion | Active |
 | 67802057 | CELLTOP 50 mg | Capsule molle (voie orale) | Active |
-
-Trois autres AMM annulées existent (ETOPOSIDE ACCORD 20 mg/mL, ETOPOPHOS 100 mg, ETOPOSIDE VIATRIS 20 mg/ml).
 
 ## Cytotoxicité
 
@@ -139,7 +136,6 @@ Veuillez consulter les mises en garde et précautions de la notice pour les dét
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle (mises en garde et contre-indications) auprès de l'ANSM : ces données manquent actuellement et bloquent l'évaluation de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
-- Clarifier le statut réglementaire : les 8 AMM sont annulées, il faut vérifier la disponibilité réelle du produit en France (autres circuits, autorisations en vigueur).
 - Préciser la contribution propre de l'étoposide au sein des polychimiothérapies.
 - Établir un plan de surveillance de la sécurité (hématologique, hépatique, rénale, pulmonaire, interactions médicamenteuses) pour les populations pédiatriques et adultes concernées.
 ## Avertissement

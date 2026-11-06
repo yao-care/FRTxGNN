@@ -98,7 +98,7 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur des preuves indirectes (niveau L4), sans essai clinique enregistré. Elle recoupe largement des indications déjà connues, et les deux AMM françaises sont annulées. Les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'étape de dépistage de sécurité.
+- La prédiction repose sur des preuves indirectes (niveau L4), sans essai clinique enregistré. Elle recoupe largement des indications déjà connues. Les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'étape de dépistage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications).

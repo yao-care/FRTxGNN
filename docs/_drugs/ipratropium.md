@@ -134,7 +134,6 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle (mises en garde et contre-indications) auprès de l'ANSM ; cette lacune est bloquante pour le criblage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Clarifier les raisons de l'annulation des AMM et le statut de commercialisation actuel en France.
 - Mettre en place une surveillance particulière pour les patients présentant les contre-indications relevées (glaucome à angle fermé, rétention urinaire/hyperplasie prostatique, troubles du rythme cardiaque).
 
 **Autres pistes prédites (non recommandées à ce stade) :**

@@ -91,7 +91,7 @@ Une étude préclinique chez le rat sur un extrait végétal (PMID 39703364) a a
 
 ## Informations de Marché en France
 
-Les 20 AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné. Cinq exemples :
+Le texte d'indication approuvée n'est pas renseigné. Cinq exemples :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

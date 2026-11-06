@@ -108,7 +108,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'ostéoporose médicamenteuse repose uniquement sur le score du modèle (niveau L5), sans essai ni publication. Le produit n'a plus d'AMM en vigueur et son indication d'origine n'est pas documentée.
+- La prédiction pour l'ostéoporose médicamenteuse repose uniquement sur le score du modèle (niveau L5), sans essai ni publication. Son indication d'origine n'est pas documentée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les informations de sécurité de la notice ANSM (mises en garde, contre-indications), actuellement manquantes et bloquantes pour l'étape de screening de sécurité.

@@ -123,7 +123,7 @@ Les mises en garde de la notice ne sont pas disponibles : veuillez consulter la 
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Essai de Phase 3 ciblant les patients migraineux avec FOP ou shunt droite-gauche
 - Évaluation du rapport bénéfice/risque hémorragique et des interactions (notamment inhibiteurs de la pompe à protons)
-- Clarification du statut réglementaire en France (AMM annulées)
+- Clarification du statut réglementaire en France
 
 **Autres prédictions (preuves faibles, Hold) :** arthrose (L4, seule une étude observationnelle suggère que le clopidogrel est un comparateur moins favorable que le ticagrelor), polyarthrite rhumatoïde (L4, signaux de sécurité), tendinite, myosite fibreuse, myosite granulomateuse idiopathique et susceptibilité à l'arthrose (L5, prédiction du modèle seule).
 ## Avertissement

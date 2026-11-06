@@ -72,7 +72,6 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 68072846 | Clopixol Action Prolongée 200 mg/1 ml (BB Farma, Italie) | Solution injectable | Active |
@@ -81,7 +80,7 @@ Aucune littérature associée disponible actuellement.
 | 63744998 | Clopixol A Action Semi-Prolongée 50 mg/ml (Lundbeck SAS) | Solution injectable | Active |
 | 69974746 | Clopixol 25 mg (Lundbeck SAS) | Comprimé pelliculé | Active |
 
-Une sixième AMM annulée existe (n° 69902540, Clopixol Action Prolongée 200 mg/1 ml, Difarmed, Espagne). Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 ## Considérations de Sécurité
 

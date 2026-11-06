@@ -95,7 +95,7 @@ Aucun essai randomisé n'est disponible. Les publications les plus pertinentes s
 
 ## Informations de Marché en France
 
-Les neuf AMM de la zidovudine (seule ou en association) sont annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -124,7 +124,7 @@ Les informations issues de la notice (mises en garde, contre-indications) ne son
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour le syndrome d'immunodéficience acquise féline (score de 0,9996) repose uniquement sur des études animales ou vétérinaires, sans essai clinique. Il s'agit d'une maladie animale, d'une pertinence limitée pour le repositionnement chez l'humain, et les 9 AMM françaises sont toutes annulées.
+- La prédiction pour le syndrome d'immunodéficience acquise féline (score de 0,9996) repose uniquement sur des études animales ou vétérinaires, sans essai clinique. Il s'agit d'une maladie animale, d'une pertinence limitée pour le repositionnement chez l'humain.
 - Les indications prédites ayant un niveau de preuve plus élevé (complexe lié au SIDA, VIH congénital, niveau L1) recoupent largement l'indication d'origine. Il s'agit d'une redécouverte plus que d'un véritable repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

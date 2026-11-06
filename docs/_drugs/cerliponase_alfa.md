@@ -88,7 +88,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre la TPP1 et le déficit en alpha-L-iduronidase.
-- Le seul produit autorisé en France (Brineura) a une AMM annulée, et les données de sécurité de la notice ne sont pas disponibles.
+- Les données de sécurité de la notice ne sont pas disponibles.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) afin de permettre une évaluation de sécurité

@@ -110,14 +110,14 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle, sans essai clinique ni étude directe ; le rationnel clinique d'un cytoréducteur dans la thrombocytose réactive, généralement bénigne et traitée par sa cause, est faible. Le profil de sécurité (nombreuses contre-indications cardiovasculaires dans le graphe, interactions majeures) et l'AMM française annulée renforcent cette prudence.
+- La prédiction repose uniquement sur le modèle, sans essai clinique ni étude directe ; le rationnel clinique d'un cytoréducteur dans la thrombocytose réactive, généralement bénigne et traitée par sa cause, est faible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Études cliniques ou observationnelles évaluant l'anagrélide spécifiquement dans la thrombocytose réactive
 - Justification clinique d'une population cible présentant un risque thrombotique significatif
-- Éclaircissement du statut réglementaire en France (AMM annulée)
+- Éclaircissement du statut réglementaire en France
 
 ---
 

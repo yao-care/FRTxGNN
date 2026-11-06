@@ -107,7 +107,6 @@ Pour les autres prédictions (alopécie, hypotrichoses, syndromes du défilé th
 | 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non précisée (AMM active) |
 | 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non précisée (AMM active) |
 
-
 ---
 
 ## Considérations de Sécurité
@@ -130,7 +129,6 @@ Les mises en garde, contre-indications et interactions médicamenteuses ne sont 
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Obtenir les résultats publiés de l'essai NCT01363661 (fonction endothéliale)
 - Définir une indication vasculaire précise (par exemple dysfonction endothéliale, angor après intervention coronarienne) plutôt qu'une catégorie générale
-- Clarifier les raisons de l'annulation des AMM (réglementaires, commerciales ou de sécurité)
 - Évaluer la compatibilité de la voie d'administration avec l'indication visée
 ## Avertissement
 

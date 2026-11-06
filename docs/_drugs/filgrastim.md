@@ -113,7 +113,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Réaliser une revue de la littérature ciblée sur les troubles plaquettaires et le G-CSF
 - Établir un rationnel biologique ou des données précliniques avant tout essai clinique
-- Vérifier la disponibilité actuelle du filgrastim en France (statut des AMM annulées, voies d'administration)
+- Vérifier la disponibilité actuelle du filgrastim en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

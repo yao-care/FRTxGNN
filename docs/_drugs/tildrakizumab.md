@@ -110,7 +110,7 @@ Chez des patients diabétiques, une immunosuppression systémique nécessiterait
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Mener une revue de la littérature préclinique sur le rôle de l'IL-23/IL-17 dans la rétinopathie diabétique
 - Évaluer la compatibilité des voies d'administration (injectable systémique vs voies oculaires) et le profil de sécurité infectieuse chez les patients diabétiques
-- Clarifier la situation réglementaire en France (AMM annulées)
+- Clarifier la situation réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

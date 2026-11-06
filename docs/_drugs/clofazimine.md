@@ -109,7 +109,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L5 : aucun essai clinique, et la littérature retrouvée ne porte pas sur le traitement de la pneumocystose. Le mécanisme n'offre pas de lien plausible, et les AMM françaises sont toutes annulées.
+- Le niveau de preuve est L5 : aucun essai clinique, et la littérature retrouvée ne porte pas sur le traitement de la pneumocystose. Le mécanisme n'offre pas de lien plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action (DrugBank).

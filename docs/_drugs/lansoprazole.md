@@ -116,7 +116,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une revue de la littérature ciblée sur les IPP dans le reflux biliaire/duodéno-gastrique
 - Des études cliniques ou observationnelles spécifiques à cette indication
-- La clarification de la situation réglementaire (AMM toutes annulées) et de la disponibilité du produit en France
+- La clarification de la situation réglementaire et de la disponibilité du produit en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

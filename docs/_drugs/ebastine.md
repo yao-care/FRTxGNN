@@ -93,14 +93,14 @@ Point d'attention lié à la nouvelle indication : l'allongement possible de l'i
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle TxGNN (deep learning, niveau L5), sans essai clinique ni publication. Les deux indications cardiovasculaires prédites sont probablement corrélées, et le risque d'allongement du QT plaide pour la prudence. Le médicament est commercialisé en France (16 AMM valides sur 16).
+- La prédiction repose uniquement sur le score du modèle TxGNN (deep learning, niveau L5), sans essai clinique ni publication. Les deux indications cardiovasculaires prédites sont probablement corrélées, et le risque d'allongement du QT plaide pour la prudence. Le médicament est commercialisé en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (consultation de DrugBank) et analyse du lien mécanistique avec la pathologie coronarienne
 - Notice officielle de l'ANSM (mises en garde et contre-indications), indispensable avant toute évaluation de sécurité
 - Revue de la littérature préclinique et clinique sur l'histamine, les mastocytes et la maladie coronarienne
 - Évaluation de la sécurité cardiaque (QT) de l'ebastine et de la carébastine
-- Clarification du statut réglementaire en France : médicament commercialisé, 16 AMM valides sur 16
+- Clarification du statut réglementaire en France : médicament commercialisé
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

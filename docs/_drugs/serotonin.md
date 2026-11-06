@@ -38,7 +38,7 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 ## Résumé en Une Phrase
 
-La sérotonine (préparation homéopathique SEROTONINUM BOIRON, granules) ne dispose d'aucune indication officielle renseignée dans les données compilées pour ce rapport, et son unique AMM française est annulée.
+La sérotonine (préparation homéopathique SEROTONINUM BOIRON, granules) ne dispose d'aucune indication officielle renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'elle pourrait être utile dans l'**insomnie**, mais aucun des essais cliniques retrouvés ne teste la sérotonine elle-même et aucune publication n'a été retrouvée pour cette indication.
 Le niveau de preuve est donc très faible (**L4**) : la prédiction repose sur un raisonnement mécanistique indirect, et la décision recommandée est **Hold**.
 
@@ -94,7 +94,7 @@ Les données de sécurité issues de la notice (mises en garde, contre-indicatio
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle et un raisonnement mécanistique indirect. Aucun essai ne teste la sérotonine, aucune publication n'a été retrouvée pour l'insomnie, et l'unique AMM est annulée.
+- La prédiction repose uniquement sur le modèle et un raisonnement mécanistique indirect. Aucun essai ne teste la sérotonine, aucune publication n'a été retrouvée pour l'insomnie.
 - La sérotonine exogène ne franchit pas la barrière hémato-encéphalique, ce qui limite fortement sa plausibilité comme hypnotique. Les données de sécurité de la notice sont également absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

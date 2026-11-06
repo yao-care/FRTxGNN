@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 17 AMM sont annulées. Les 5 premières listées dans les données compilées :
+Les 5 premières listées dans les données compilées :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -80,8 +80,6 @@ Les 17 AMM sont annulées. Les 5 premières listées dans les données compilée
 | 67682298 | PROCUTA 40 mg | Capsule molle | Non renseignée |
 | 62872308 | ISOTRETINOINE ACNETRAIT 40 mg | Capsule molle | Non renseignée |
 | 67952249 | PROCUTA 20 mg | Capsule molle | Non renseignée |
-
-Une formulation topique (ROACCUTANE 0,05 %, gel pour application locale, SERP, AMM 66296030) figure également parmi les AMM annulées.
 
 ## Considérations de Sécurité
 
@@ -105,7 +103,7 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), actuellement bloquant pour le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (requête DrugBank)
 - Disposer de données précliniques ou cliniques, ou d'une revue de la littérature, soutenant un lien entre rétinoïdes et hypertension rénovasculaire
-- Évaluer la faisabilité de la voie d'administration et l'intérêt réglementaire, vu l'annulation de toutes les AMM
+- Évaluer la faisabilité de la voie d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

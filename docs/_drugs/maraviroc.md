@@ -134,7 +134,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupérer la notice ANSM (mises en garde et contre-indications) pour permettre le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action et sur l'indication originale
 - Mener des études précliniques ou cliniques testant directement maraviroc, en priorité dans le cancer du sein HER2 positif
-- Clarifier la situation réglementaire (AMM annulées) et la disponibilité des voies d'administration
+- Clarifier la situation réglementaire et la disponibilité des voies d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

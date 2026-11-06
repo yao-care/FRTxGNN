@@ -102,7 +102,6 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - Aucune cible commune plausible n'existe entre la protéase NS3/4A du VHC et le VHB, et aucun essai ni aucune publication ne teste le voxilaprevir contre l'hépatite B. Le score élevé de TxGNN reflète vraisemblablement une proximité dans le réseau de connaissances.
-- La seule AMM française est annulée, ce qui limite aussi la faisabilité d'un repositionnement en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action du voxilaprevir

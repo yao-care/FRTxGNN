@@ -102,7 +102,7 @@ La notice officielle n'a pas pu être exploitée : veuillez la consulter pour le
 
 **Justification :**
 - Le niveau de preuve est L4 (modèles précliniques et cas isolés), sans essai clinique, et le mécanisme suggère un risque d'aggravation plutôt qu'un bénéfice dans cette affection.
-- Le produit n'est plus commercialisé en France (AMM annulée) et le profil de sécurité (hépatotoxicité, atteintes hématologiques) est défavorable.
+- Le profil de sécurité (hépatotoxicité, atteintes hématologiques) est défavorable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (mises en garde et contre-indications) auprès de l'ANSM

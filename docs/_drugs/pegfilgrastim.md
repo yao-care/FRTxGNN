@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 10 AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas disponible pour ces AMM.
+Le texte de l'indication approuvée n'est pas disponible pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|

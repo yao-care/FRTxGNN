@@ -100,13 +100,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la fibromatose gingivale repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible. De plus, les AMM françaises sont toutes annulées et les données de sécurité officielles sont absentes.
+- La prédiction pour la fibromatose gingivale repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de la notice (mises en garde et contre-indications) via le site de l'ANSM : lacune bloquante pour le dépistage de sécurité
 - Données détaillées sur le mécanisme d'action (MOA), par exemple via DrugBank
 - Démonstration d'un lien biologique entre la voie ALK/ROS1 et la fibromatose gingivale, par des études précliniques
-- Clarification du statut réglementaire en France (AMM annulées)
+- Clarification du statut réglementaire en France
 - Si une piste de repositionnement est recherchée, étudier en priorité les tumeurs pilotées par ALK (par exemple le neuroblastome), pour lesquelles des données cliniques de phase 1 existent
 ## Avertissement
 

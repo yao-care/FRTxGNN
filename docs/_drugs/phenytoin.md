@@ -111,7 +111,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication spécifique, et semble résulter de la proximité avec la névralgie du trijumeau plutôt que d'un effet sur la tumeur.
-- Les AMM françaises sont toutes annulées et le profil de sécurité est lourd (nombreuses contre-indications et interactions).
+- Le profil de sécurité est lourd (nombreuses contre-indications et interactions).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données mécanistiques ou précliniques montrant une activité antitumorale de la phénytoïne sur les tumeurs du nerf trijumeau.

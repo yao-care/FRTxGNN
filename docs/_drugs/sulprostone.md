@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Sulprostone est un agoniste sélectif des récepteurs EP1/EP3 de la prostaglandine E2, dont l'indication d'origine n'est pas documentée dans les données compilées pour ce rapport (son autorisation française est aujourd'hui annulée).
+Sulprostone est un agoniste sélectif des récepteurs EP1/EP3 de la prostaglandine E2, dont l'indication d'origine n'est pas documentée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cataracte tétanique**, avec un score élevé mais **aucun essai clinique** et **aucune publication** à l'appui.
 Cette prédiction repose donc uniquement sur le modèle.
 
@@ -101,7 +101,7 @@ Veuillez consulter la notice pour les informations de sécurité. Les données c
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non plausible en l'état. Le produit n'est plus commercialisé en France (AMM annulée) et n'a aucun historique de développement ophtalmologique.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non plausible en l'état.
 - L'absence de données de sécurité issues de la notice constitue un point bloquant pour toute évaluation ultérieure.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

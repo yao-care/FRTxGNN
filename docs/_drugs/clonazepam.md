@@ -126,7 +126,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Examiner le contenu de la recommandation de l'AASM 2025 et de la revue Cochrane pour déterminer la place réelle du clonazépam par rapport aux agonistes dopaminergiques.
-- Évaluer le rapport bénéfice/risque (dépendance, sédation diurne, dépression respiratoire) et la disponibilité d'une forme commercialisée en France, puisque les trois AMM sont annulées.
+- Évaluer le rapport bénéfice/risque (dépendance, sédation diurne, dépression respiratoire) et la disponibilité d'une forme commercialisée en France.
 
 ---
 

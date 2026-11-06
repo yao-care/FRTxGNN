@@ -126,14 +126,14 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - Aucune preuve directe n'existe pour la bronchite : l'unique essai concerne la rhinosinusite chronique sans polypes, et la littérature porte sur l'asthme et la BPCO. La plausibilité biologique est réelle, mais le niveau de preuve ne justifie pas d'avancer.
-- Les AMM françaises sont toutes annulées, et les informations de sécurité de la notice (mises en garde, contre-indications) manquent.
+- Les informations de sécurité de la notice (mises en garde, contre-indications) manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
 - Compléter les données sur le mécanisme d'action (DrugBank)
 - Définir précisément le phénotype visé (bronchite éosinophilique, BPCO de type 2 à phénotype bronchite chronique) plutôt que la bronchite générique
 - Obtenir des essais contrôlés ciblant ce phénotype
-- Clarifier le statut réglementaire en France (AMM annulées)
+- Clarifier le statut réglementaire en France
 
 ---
 

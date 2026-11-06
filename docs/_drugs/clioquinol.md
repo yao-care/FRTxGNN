@@ -94,13 +94,13 @@ Veuillez consulter la notice pour les informations de sécurité complètes : le
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est mécanistiquement plausible, mais elle ne repose que sur le modèle et sur une publication ancienne et indirecte, sans essai clinique. De plus, l'autorisation française est annulée et les données de sécurité officielles sont absentes.
+- La prédiction est mécanistiquement plausible, mais elle ne repose que sur le modèle et sur une publication ancienne et indirecte, sans essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Générer des données *in vitro* directes sur les espèces de *Candida*, puis des données précliniques cutanées
-- Vérifier la compatibilité de la voie d'administration (topique) et la faisabilité réglementaire, l'AMM étant annulée
+- Vérifier la compatibilité de la voie d'administration (topique) et la faisabilité réglementaire
 - Évaluer le risque de neurotoxicité et d'absorption systémique pour une formulation topique
 ## Avertissement
 

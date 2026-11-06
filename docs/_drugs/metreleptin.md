@@ -111,7 +111,7 @@ Titulaire : CHIESI FARMACEUTICI.
 - Les mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Une hypothèse biologique justifiant le lien avec la nouvelle indication, puis des études précliniques ou des cas cliniques
-- Une clarification du statut réglementaire en France (AMM annulées)
+- Une clarification du statut réglementaire en France
 - Une évaluation spécifique du risque pro-prolifératif avant toute considération en oncologie
 ## Avertissement
 

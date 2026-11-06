@@ -85,7 +85,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Les textes d'indication ne sont pas renseignés. Les cinq premières sont listées ci-dessous.
+Les textes d'indication ne sont pas renseignés. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

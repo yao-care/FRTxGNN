@@ -85,7 +85,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, publication ni mécanisme documenté. De plus, les informations de sécurité de la notice sont manquantes, ce qui empêche toute évaluation de sécurité, et la seule AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, publication ni mécanisme documenté. De plus, les informations de sécurité de la notice sont manquantes, ce qui empêche toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM

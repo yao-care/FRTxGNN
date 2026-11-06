@@ -105,13 +105,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - Aucune preuve clinique directe : pas d'essai enregistré et pas d'ECR de la chlordiazépoxide seule dans l'insomnie. Le niveau de preuve est L4 et la littérature est indirecte ou ancienne.
-- Les AMM françaises sont toutes annulées, et les risques (dépendance, chutes, troubles cognitifs) ainsi que les nombreuses contre-indications et interactions pèsent contre cet usage.
+- Les risques (dépendance, chutes, troubles cognitifs) ainsi que les nombreuses contre-indications et interactions pèsent contre cet usage.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir la notice officielle de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le criblage de sécurité
 - Compléter les données sur le mécanisme d'action (DrugBank)
 - Réaliser une revue systématique ou un essai randomisé spécifique à la chlordiazépoxide dans l'insomnie, par rapport aux hypnotiques actuels
-- Évaluer la pertinence d'une réintroduction sur le marché, compte tenu de l'annulation des AMM et de l'existence d'alternatives mieux documentées
 
 **Autres prédictions (sans preuve clinique suffisante, toutes en Hold) :** trouble du sommeil (initiation et maintien), syndrome de la queue de cheval, vessie neurogène (terme obsolète), TDAH de type inattentif, trouble spécifique du développement, abus de barbituriques, de hallucinogènes et d'antidépresseurs, syndrome myofascial douloureux. Pour le trouble spécifique du développement, la seule étude retrouvée est préclinique et évoque un signal de risque neurodéveloppemental plutôt qu'un bénéfice.
 ## Avertissement

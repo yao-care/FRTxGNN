@@ -104,7 +104,7 @@ Les informations de la notice (mises en garde, contre-indications) ne sont pas d
 **Decision : Hold**
 
 **Justification :**
-- La prediction repose uniquement sur le modele (L5), sans essai clinique ni publication. Il n'existe pas de voie d'administration etablie pour une creme topique vers le larynx, et toutes les AMM francaises sont annulees.
+- La prediction repose uniquement sur le modele (L5), sans essai clinique ni publication. Il n'existe pas de voie d'administration etablie pour une creme topique vers le larynx.
 - Les donnees de securite de la notice sont manquantes, ce qui empeche de passer a l'etape de criblage de securite.
 
 **Pour avancer, les elements suivants sont necessaires :**
@@ -112,7 +112,6 @@ Les informations de la notice (mises en garde, contre-indications) ne sont pas d
 - Obtenir les donnees sur le mecanisme d'action aupres de DrugBank
 - Realiser une revue de la litterature sur les corticoides dans les polypes des cordes vocales et d'autres polypes de sites cutanes ou cutaneo-muqueux
 - Evaluer la faisabilite de la voie d'administration (formulation adaptee au site cible), en priorite pour le conduit auditif externe
-- Examiner l'interet reel d'une relance, compte tenu de l'annulation de toutes les AMM
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

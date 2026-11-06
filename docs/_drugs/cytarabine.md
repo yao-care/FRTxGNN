@@ -98,8 +98,6 @@ Sélection des publications les plus pertinentes parmi celles recensées (aucune
 | 61517592 | ARACYTINE 100 mg | Poudre et solvant pour solution injectable | Non renseignée |
 | 60375001 | ARACYTINE 1 g | Poudre pour solution pour perfusion | Non renseignée |
 
-Ces 5 AMM sont annulées, comme les 6 autres (11 au total, y compris VYXEOS LIPOSOMAL, CYTARABINE KABI, CYTARABINE ACCORD 100 mg/ml, ARACYTINE 2 g et deux autres présentations CYTARABINE SANDOZ).
-
 ---
 
 ## Cytotoxicité

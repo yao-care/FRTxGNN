@@ -114,7 +114,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données détaillées sur le mécanisme d'action du méloxicam.
 - Mises en garde et contre-indications officielles issues de la notice de l'ANSM (lacune bloquante pour le criblage de sécurité).
 - Justification biologique reliant le médicament à la physiopathologie de la dysplasie, ou données précliniques.
-- Clarification du statut réglementaire en France (AMM toutes annulées).
+- Clarification du statut réglementaire en France.
 
 **Remarque sur les autres candidats prédits :** les autres prédictions du classement sont également pour la plupart sans preuve (L5). Les entrées « spondylarthropathie, susceptibilité », « nodulose rhumatoïde » et « arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde positif » sont des variantes d'indications déjà existantes et ne constituent pas de véritables repositionnements. Pour cette dernière, la seule publication disponible (registre de phase 4, 2014) porte sur la sécurité du célécoxib et des AINS non sélectifs dans l'AJI, sans être spécifique au méloxicam.
 ## Avertissement

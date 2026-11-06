@@ -102,14 +102,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un mécanisme spéculatif.
-- L'AMM française est annulée et les mises en garde et contre-indications de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité.
+- Les mises en garde et contre-indications de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour permettre le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Vérifier l'expression de CCR4 et la présence de Treg dans les tumeurs urothéliales (études précliniques)
 - Rechercher des études publiées ou en cours sur l'anti-CCR4 dans les cancers urothéliaux
-- Clarifier le statut réglementaire actuel du produit en France (AMM annulée)
+- Clarifier le statut réglementaire actuel du produit en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

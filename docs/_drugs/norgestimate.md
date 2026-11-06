@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 7 autorisations recensées sont toutes annulées ; aucune n'est en cours de validité. Le texte d'indication approuvée n'est pas renseigné.
+Le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -80,8 +80,6 @@ Les 7 autorisations recensées sont toutes annulées ; aucune n'est en cours de 
 | 68322762 | TRIAFEMI, comprimé | Comprimé (3 types) | Active |
 | 69274060 | TRINARA, comprimé pelliculé | Comprimé pelliculé (3 types) | Active |
 | 66449857 | OPTIKINZY 250 µg/35 µg, comprimé | Comprimé (2 types) | Active |
-
-Deux autres autorisations, également annulées, ne sont pas détaillées ici : TRIAFEMI CONTINU (69090320) et FEMI (69140061).
 
 ## Considérations de Sécurité
 

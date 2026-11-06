@@ -97,7 +97,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-La prédiction pour la mastocytose systémique indolente repose uniquement sur le modèle (L5), sans essai ni publication, avec un bénéfice au mieux symptomatique. De plus, la cimétidine n'a plus qu'une AMM annulée en France.
+La prédiction pour la mastocytose systémique indolente repose uniquement sur le modèle (L5), sans essai ni publication, avec un bénéfice au mieux symptomatique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de sécurité issues de la notice (mises en garde et contre-indications), actuellement manquantes

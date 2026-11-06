@@ -87,7 +87,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication spécifiques au tixocortol. Les deux AMM françaises sont annulées, et les données de sécurité de la notice sont manquantes, ce qui bloque toute évaluation de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication spécifiques au tixocortol. Les données de sécurité de la notice sont manquantes, ce qui bloque toute évaluation de sécurité.
 - La piste de la leucémie aiguë lymphoblastique est pharmacologiquement peu crédible pour un corticoïde à action locale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -95,7 +95,6 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue de la littérature sur le pivalate de tixocortol dans le lymphome T cutané, et comparaison avec les corticoïdes topiques déjà établis
 - Évaluation de la compatibilité de la voie d'administration (formulation nasale actuelle contre besoin d'une application cutanée)
-- Justification de l'intérêt d'un médicament dont les AMM sont annulées par rapport aux alternatives disponibles
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

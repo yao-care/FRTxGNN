@@ -110,7 +110,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme anticoagulant du médicament va à l'encontre d'un bénéfice dans des troubles plaquettaires hémorragiques, et les contre-indications du graphe incluent déjà les troubles de la coagulation et la thrombopénie. L'AMM française est en outre annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme anticoagulant du médicament va à l'encontre d'un bénéfice dans des troubles plaquettaires hémorragiques, et les contre-indications du graphe incluent déjà les troubles de la coagulation et la thrombopénie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle (mises en garde et contre-indications) auprès de l'ANSM : lacune bloquante pour tout examen de sécurité

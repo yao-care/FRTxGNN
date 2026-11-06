@@ -91,8 +91,6 @@ La relation avec l'indication d'origine est donc surtout mécanistique : le mêm
 | 66621926 | VINORELBINE MEDAC 30 mg | Capsule molle | Non renseignée (AMM active) |
 | 69684369 | VINORELBINE SANDOZ 20 mg | Capsule molle | Non renseignée (AMM active) |
 
-Au total, 8 AMM sont recensées, toutes annulées : 6 capsules molles (voie orale) et 2 solutions à diluer pour perfusion (ARROW et ACCORD, 10 mg/mL).
-
 ## Cytotoxicité
 
 | Élément | Contenu |
@@ -116,13 +114,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Un essai de phase 2 de vinorélbine + cyclophosphamide inclut explicitement les tumeurs d'Ewing, et la littérature (essai de phase 2 pédiatrique, revue de 2026 sur l'essai INTER-EWING-1) soutient ce schéma. Les preuves restent toutefois indirectes (populations mixtes, résultats de l'essai principal non disponibles), d'où le niveau L2 et la nécessité de garde-fous.
-- Toutes les AMM françaises de vinorélbine sont annulées, ce qui complique l'accès local.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice (ANSM) : lacune bloquante pour le dépistage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Résultats publiés de l'essai NCT00180947 ou données spécifiques au sarcome d'Ewing
-- Clarification du statut réglementaire en France (AMM annulées) et des voies d'administration disponibles
+- Clarification du statut réglementaire en France et des voies d'administration disponibles
 - Plan de surveillance hématologique et gestion des interactions (notamment inhibiteurs du CYP3A4 comme la clarithromycine)
 
 **Note sur les autres indications prédites :** le cancer bronchique à petites cellules (L1, Proceed with Guardrails) repose sur des essais portant surtout sur le cancer bronchique non à petites cellules, donc sur l'indication d'origine. Le néoplasme du sillon pulmonaire et la tumeur germinale du poumon relèvent de questions de recherche (L3). Les autres prédictions (fibromatose gingivale, fibrome, hamartome et néoplasme bénin du poumon, carcinome du hile, blastome pulmonaire) sont à mettre en attente (Hold), faute de preuves ou de justification thérapeutique.

@@ -83,7 +83,7 @@ Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 9 AMM recensées sont toutes annulées. Le texte des indications approuvées n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
+Le texte des indications approuvées n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -114,7 +114,6 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse des notices ANSM (mises en garde et contre-indications), étape bloquante pour tout criblage de sécurité
 - Données détaillées sur le mécanisme d'action (via DrugBank)
-- Clarification de l'indication d'origine et des raisons de l'annulation des AMM
 - Études précliniques ou cliniques justifiant un bénéfice réel dans l'insomnie, avec évaluation du risque convulsivant
 - Aucune poursuite n'est recommandée pour le delirium de sevrage alcoolique en l'état, compte tenu du risque mécanistique
 ## Avertissement

@@ -95,8 +95,6 @@ Les 11 AMM listées sur 11 sont valides ; le médicament est commercialisé. Le 
 | 61148412 | Rivastigmine Viatris 4,6 mg/24 h | Dispositif transdermique | Viatris Santé |
 | 61322336 | Rivastigmine Biogaran 4,6 mg/24 h | Dispositif transdermique | Biogaran |
 
-(5 AMM présentées sur 11, toutes annulées.)
-
 ---
 
 ## Considérations de Sécurité

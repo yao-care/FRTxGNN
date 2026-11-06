@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **7**
 
 ## Résumé en Une Phrase
 
-La framycétine est un antibiotique de la famille des aminosides, commercialisé en France sous forme de pâte dentaire, de pommade et collyre ophtalmiques et de solution auriculaire (toutes ces autorisations sont aujourd'hui annulées).
+La framycétine est un antibiotique de la famille des aminosides, commercialisé en France sous forme de pâte dentaire, de pommade et collyre ophtalmiques et de solution auriculaire.
 Le modèle TxGNN prédit qu'elle pourrait être utile dans la **cholangite sclérosante**, mais **aucun essai clinique ni aucune publication** ne soutient actuellement cette hypothèse : il s'agit d'une prédiction purement computationnelle.
 
 ## Aperçu Rapide

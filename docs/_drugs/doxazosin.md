@@ -85,7 +85,7 @@ Cette publication est de faible niveau de preuve (petite série, sans groupe con
 | 60562606 | Doxazosine Viatris L.P. 4 mg | Comprimé à libération prolongée | Active |
 | 67020316 | Doxazosine Viatris L.P. 8 mg | Comprimé à libération prolongée | Active |
 
-Le texte d'indication approuvée n'est pas disponible pour ces AMM. Une sixième AMM (Doxazosine Teva LP 4 mg, n° 67970560) est également annulée.
+Le texte d'indication approuvée n'est pas disponible pour ces AMM.
 
 ## Considérations de Sécurité
 
@@ -106,7 +106,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des essais contrôlés randomisés ou des études observationnelles plus robustes sur les alpha-1 bloquants dans la prophylaxie de la migraine
-- Clarifier la situation réglementaire (AMM annulées) et la disponibilité d'une formulation adaptée
+- Clarifier la situation réglementaire et la disponibilité d'une formulation adaptée
 - Évaluer la tolérance (hypotension orthostatique notamment) chez des patients migraineux, souvent jeunes et normotendus
 ## Avertissement
 

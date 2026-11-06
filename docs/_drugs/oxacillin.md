@@ -92,7 +92,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'épiglottite repose uniquement sur le modèle (L5), sans essai ni publication. Le spectre de l'oxacilline couvre mal les principaux agents de cette infection, et les AMM françaises sont toutes annulées.
+- La prédiction pour l'épiglottite repose uniquement sur le modèle (L5), sans essai ni publication. Le spectre de l'oxacilline couvre mal les principaux agents de cette infection.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM, un point bloquant pour le criblage de sécurité

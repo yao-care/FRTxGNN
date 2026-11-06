@@ -119,7 +119,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction pour la sclérose en plaques récurrente-rémittente repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le profil de toxicité de la dactinomycine est défavorable pour une maladie chronique où des alternatives plus sûres existent.
-- L'AMM française est annulée et les informations de sécurité issues de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
+- Les informations de sécurité issues de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM

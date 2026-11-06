@@ -108,7 +108,7 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle, sans essai clinique ni publication directe, et sans mécanisme établi ; l'AMM française est annulée.
+- La prédiction repose uniquement sur le score du modèle, sans essai clinique ni publication directe, et sans mécanisme établi.
 - Un anesthésique volatil est impraticable pour un traitement chronique, et plusieurs contre-indications issues du graphe (dont l'hypotension) sont préoccupantes dans un contexte cardiovasculaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -116,7 +116,7 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 - Obtenir les données sur le mécanisme d'action (via DrugBank)
 - Études précliniques ou de mécanisme sur le vasospasme coronarien
 - Évaluer la compatibilité de la voie d'administration avec l'indication visée
-- Clarifier le statut réglementaire (AMM annulée) et l'indication d'origine
+- Clarifier le statut réglementaire et l'indication d'origine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

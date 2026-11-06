@@ -99,8 +99,6 @@ Aucune littérature associée disponible actuellement pour le syndrome brachydac
 | 66664685 | INDOCID 25 mg, gélule (active) | Gélule | Non renseignée |
 | 69829455 | CHRONO-INDOCID 75 mg, gélule (active) | Gélule | Non renseignée |
 
-Une sixième AMM (69668450, INDOBIOTIC, collyre unidose) est également annulée.
-
 ---
 
 ## Considérations de Sécurité
@@ -124,7 +122,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Un lien biologique plausible entre l'inhibition des COX et la physiopathologie du syndrome ciblé, avant toute étude précliniques
-- Si la piste de l'arthrite juvénile est retenue : une revue comparative avec les traitements actuels, et une clarification du statut réglementaire (AMM annulées)
+- Si la piste de l'arthrite juvénile est retenue: une revue comparative avec les traitements actuels, et une clarification du statut réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -92,7 +92,7 @@ Aucune étude clinique contrôlée n'a été retrouvée. Les publications les pl
 | 60385077 | CRONOMIR 10 microgrammes/mL | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
 | 64803855 | NORADRENALINE RENAUDIN 2 mg/mL SANS CONSERVATEUR | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-Au total, 7 AMM sont recensées, toutes annulées ; aucun produit n'est actuellement commercialisé sous ces AMM.
+Au total, 7 AMM sont recensées; aucun produit n'est actuellement commercialisé sous ces AMM.
 
 ## Considérations de Sécurité
 
@@ -112,7 +112,7 @@ Au total, 7 AMM sont recensées, toutes annulées ; aucun produit n'est actuelle
 - Notice de l'ANSM (mises en garde et contre-indications) pour le dépistage de sécurité, point bloquant
 - Études précliniques ou cliniques évaluant directement la norépinéphrine dans la maladie pulmonaire obstructive
 - Analyse de la compatibilité des voies d'administration (seules des formes pour perfusion/injection existent) et du rapport bénéfice/risque cardiovasculaire
-- Clarification du statut réglementaire (AMM annulées)
+- Clarification du statut réglementaire
 
 **Remarque sur les autres prédictions :** la « malformation respiratoire » (niveau L5) ne repose que sur un lien indirect avec le contrôle central de la respiration et ne relève pas d'une correction pharmacologique plausible ; le « syndrome de Rienhoff » (niveau L5) ne dispose d'aucun essai ni publication. Les deux sont en Hold.
 ## Avertissement

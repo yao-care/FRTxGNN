@@ -133,13 +133,13 @@ Primidone est un inducteur enzymatique (via le phénobarbital), ce qui explique 
 
 **Justification :**
 - Pour le néoplasme du nerf trijumeau, il n'existe ni essai, ni publication, ni logique mécanistique. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
-- L'AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le passage au criblage de sécurité.
+- Les données de sécurité de la notice manquent, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Si une piste doit être explorée, privilégier la névralgie du trijumeau ou les épilepsies réflexes, plus cohérentes avec le profil du médicament, en recherchant des données spécifiques à primidone
-- Confirmer le statut réglementaire actuel du médicament en France (AMM annulée) et la faisabilité d'un accès
+- Confirmer le statut réglementaire actuel du médicament en France et la faisabilité d'un accès
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

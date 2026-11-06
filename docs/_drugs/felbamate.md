@@ -96,14 +96,13 @@ Les mises en garde et contre-indications de la notice française n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé, mais les preuves se limitent à un rapport de cas de 1995 et à du contexte indirect, sans aucun essai clinique (niveau L4). Le profil de risque du felbamate (anémie aplasique, hépatotoxicité) est défavorable alors que des alternatives plus sûres existent, et toutes ses AMM françaises sont annulées. La prédiction « néoplasme du nerf trijumeau » n'a aucune base et ne doit pas être poursuivie.
+- Le score TxGNN est très élevé, mais les preuves se limitent à un rapport de cas de 1995 et à du contexte indirect, sans aucun essai clinique (niveau L4). Le profil de risque du felbamate (anémie aplasique, hépatotoxicité) est défavorable alors que des alternatives plus sûres existent. La prédiction « néoplasme du nerf trijumeau » n'a aucune base et ne doit pas être poursuivie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM
 - Compléter les données de mécanisme d'action via DrugBank
 - Lire le texte intégral du rapport de 1995 et mener une revue systématique de la littérature
 - Réaliser une analyse bénéfice-risque, limitée aux cas réfractaires avec surveillance hématologique et hépatique stricte
-- Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

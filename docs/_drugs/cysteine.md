@@ -93,7 +93,7 @@ Les autres publications retrouvées concernent le syndrome de Sjögren (généti
 | 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
 | 60208447 | NP100 PREMATURES AP-HP, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
 
-Au total, 8 AMM sont recensées, toutes annulées. Les 3 autres sont les émulsions NUMETAH G13 % E PREMATURES, G16 % E et G19 % E (Baxter).
+Au total, 8 AMM sont recensées. Les 3 autres sont les émulsions NUMETAH G13 % E PREMATURES, G16 % E et G19 % E (Baxter).
 
 ## Considérations de Sécurité
 
@@ -114,7 +114,7 @@ Les mises en garde et contre-indications issues des notices officielles n'ont pa
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Évaluer la faisabilité d'une voie d'administration oculaire topique, la compatibilité avec les formes injectables existantes n'ayant pas été établie
 - Mener des études précliniques directes de la cystéine (et non de ses dérivés) dans un modèle d'œil sec
-- Clarifier les indications d'origine, les AMM étant toutes annulées et sans texte d'indication
+- Clarifier les indications d'origine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

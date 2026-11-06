@@ -38,7 +38,6 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 ## Résumé en Une Phrase
 
-L'eslicarbazépine est un antiépileptique (anticonvulsivant) dont les autorisations françaises sont aujourd'hui toutes annulées, et dont le texte d'indication d'origine n'est pas renseigné dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine (traitement préventif)**,
 avec **1 essai clinique** de phase 2 terminé et **aucune publication** portant directement sur l'eslicarbazépine dans la migraine.
 
@@ -98,13 +97,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 
 **Justification :**
 - Les autres indications prédites (sous-types de migraine, insomnie, affections dermatologiques rares) reposent sur le modèle seul ou sur des données indirectes. Pour l'insomnie, la seule publication suggère plutôt un effet indésirable sur le sommeil.
-- Les AMM françaises sont toutes annulées et les données de sécurité de la notice font défaut.
+- Les données de sécurité de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Retrouver les résultats publiés ou enregistrés de l'essai NCT01820559 (efficacité et tolérance)
 - Obtenir la notice (mises en garde, contre-indications) auprès de l'ANSM
 - Compléter les données sur le mécanisme d'action
-- Clarifier les raisons de l'annulation des AMM et le statut de marché actuel
 - Regrouper les entrées de migraine apparentées (sous-types, terme de susceptibilité génétique) sous une seule indication
 ## Avertissement
 

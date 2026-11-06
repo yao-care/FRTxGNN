@@ -114,14 +114,14 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 **Justification :**
 - Le rang 1 et la majorité des prédictions n'ont aucune preuve (L5) et présentent une incohérence mécanistique avec un risque hémorragique. La piste PTT/MAT ne repose que sur de petits cas cliniques anciens, des revues et une étude in vitro, avec un signal de sécurité et sans essai enregistré.
-- L'AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Cibler la MAT associée à la greffe plutôt que le PTT classique, avec une revue systématique de la littérature
 - Concevoir une étude prospective ou un essai exploratoire, avec évaluation du risque hémorragique
-- Clarifier le statut réglementaire en France (AMM annulée)
+- Clarifier le statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

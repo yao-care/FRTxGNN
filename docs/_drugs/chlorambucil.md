@@ -116,14 +116,14 @@ Pour les mises en garde officielles, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Les preuves pour le lymphome pulmonaire primitif (L3) sont anciennes, rétrospectives et indirectes, sans essai clinique enregistré. Le chlorambucil n'a plus d'AMM valide en France et est largement remplacé par des thérapies ciblées. Les données de sécurité de la notice sont manquantes, ce qui bloque le passage au criblage de sécurité.
+- Les preuves pour le lymphome pulmonaire primitif (L3) sont anciennes, rétrospectives et indirectes, sans essai clinique enregistré. Le chlorambucil est largement remplacé par des thérapies ciblées. Les données de sécurité de la notice sont manquantes, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles issues de la notice de l'ANSM
 - Données détaillées sur le mécanisme d'action (MOA)
 - Données cliniques récentes et spécifiques au lymphome MALT pulmonaire (essais prospectifs ou séries contemporaines) comparant le chlorambucil aux standards actuels
 - Évaluation du risque de seconds cancers et plan de surveillance hématologique
-- Clarification du statut réglementaire, l'AMM unique étant annulée
+- Clarification du statut réglementaire
 
 **Note sur les autres prédictions :** les prédictions de rang 1 et 2 (LLC/LL avec hypermutation somatique IGHV et LLC/LL pré-centre germinatif) sont de proche parenté avec les indications d'origine mais sans preuve spécifique (niveau L4, Hold). Le lymphome B à grand cellules ALK-positif, l'adénocarcinome fœtal pulmonaire bien différencié et le blastome pulmonaire (niveau L5) reposent uniquement sur la prédiction du modèle. La leucémie lymphoblastique aiguë est déjà une indication d'origine. Le carcinome pulmonaire à petites cellules (L3, Hold) repose sur des données anciennes et précliniques sans rôle évident dans la pratique actuelle.
 ## Avertissement

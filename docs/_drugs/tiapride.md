@@ -101,7 +101,7 @@ Les preuves en faveur de la migraine sont de niveau L3 : un seul essai randomis�
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice officielle (site de l'ANSM), point bloquant actuel
 - Obtenir les données sur le mécanisme d'action (DrugBank)
-- Clarifier l'indication originale et les raisons de l'annulation des AMM
+- Clarifier l'indication originale
 - Lire en texte intégral l'essai tiapride vs topiramate (2022) et vérifier sa pertinence
 - Envisager un essai randomisé de plus grande taille et de conception moderne
 - Évaluer la compatibilité des voies d'administration pour la nouvelle indication

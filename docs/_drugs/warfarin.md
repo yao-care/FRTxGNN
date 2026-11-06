@@ -110,7 +110,7 @@ Pour le contexte de la thrombophilie, une revue récente à citer : [39233011](h
 **Décision : Hold**
 
 **Justification :**
-- Les preuves pour le déficit en cofacteur II de l'héparine se limitent à trois rapports de cas anciens (niveau L4), sans essai clinique. Toutes les AMM françaises de la warfarine (Coumadine) sont annulées, et les données de sécurité de la notice font défaut.
+- Les preuves pour le déficit en cofacteur II de l'héparine se limitent à trois rapports de cas anciens (niveau L4), sans essai clinique. Les données de sécurité de la notice font défaut.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), préalable bloquant au criblage de sécurité.

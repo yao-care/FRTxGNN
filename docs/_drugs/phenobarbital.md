@@ -98,8 +98,6 @@ Le médicament est commercialisé : 11 AMM valides sur 11 identifiées. Le texte
 | 60323481 | PHENOBARBITAL RICHARD 100 mg | Comprimé sécable | Active |
 | 61475588 | GARDENAL 100 mg | Comprimé | Active |
 
-Six autres AMM annulées (Gardenal 200 mg/4 ml, Gardenal 50 mg, Alepsal 15, 50, 100 et 150 mg) ne sont pas détaillées ici.
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : hypertension, insuffisance et maladies hépatiques, porphyries, maladies rénales, BPCO, insomnie, troubles anxieux et névrotiques, troubles psychotiques et mentaux, ulcère gastrique et gastrite, maladies de la vésicule biliaire, thrombocytopénie, hyperglycémie, hypothyroïdie et myxœdème, lupus érythémateux systémique.
@@ -120,7 +118,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Démontrer un rationnel biologique pour une activité antitumorale, avant toute étude
 - Pour les épilepsies réflexes (rangs 2 à 8) et la névralgie du trijumeau, réaliser une revue ciblée de la littérature, qui relèvent davantage de questions de recherche que de véritables repositionnements
-- Clarifier le statut réglementaire (AMM annulées) avant toute perspective de développement
+- Clarifier le statut réglementaire avant toute perspective de développement
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

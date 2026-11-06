@@ -124,7 +124,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - Les données compilées classent le niveau de preuve en L1 pour le néoplasme prémalin, mais ce classement est fragile : seuls 2 essais de phase 3 existent (l'un terminé, ouvert, n = 20 ; l'autre arrêté, n = 9), et ils ne constituent pas deux essais randomisés complets et concluants. L'indication recoupe surtout la kératose actinique déjà connue. Il est donc raisonnable d'avancer avec prudence, sans conclure à un repositionnement nouveau.
-- Les deux AMM françaises sont annulées : aucune spécialité n'est actuellement commercialisée en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mécanisme d'action détaillé (DrugBank) et texte officiel des mises en garde et contre-indications (notice ANSM)

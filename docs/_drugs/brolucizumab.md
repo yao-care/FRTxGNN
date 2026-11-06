@@ -96,14 +96,14 @@ Pour les mises en garde, contre-indications officielles et interactions médicam
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique établi.
-- L'AMM française est annulée, et les données de sécurité officielles sont absentes. Il n'est pas possible de passer à l'étape de criblage de sécurité.
+- Les données de sécurité officielles sont absentes. Il n'est pas possible de passer à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (analyse du PDF de la notice).
 - Obtenir les données sur le mécanisme d'action via DrugBank.
 - Mener une revue de la littérature et des registres d'essais sur les maladies mitochondriales et le VEGF.
 - Évaluer la compatibilité de la voie d'administration (produit intravitréen) avec l'indication visée.
-- Clarifier la situation réglementaire de la spécialité (AMM annulée).
+- Clarifier la situation réglementaire de la spécialité.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

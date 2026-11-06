@@ -83,7 +83,7 @@ Remarque : les seules publications rattachées aux autres indications prédites 
 
 ## Informations de Marché en France
 
-Les 13 AMM recensées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont présentées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont présentées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -117,7 +117,6 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Démontrer une activité antifongique par des études précliniques (in vitro, modèles animaux)
 - Vérifier la compatibilité des voies d'administration (orale ou topique) avec une candidose vulvovaginale
-- Clarifier le statut réglementaire actuel du médicament en France, au vu de l'annulation de toutes les AMM
 - Rechercher la littérature de façon ciblée, les résultats actuels étant hors sujet
 ## Avertissement
 

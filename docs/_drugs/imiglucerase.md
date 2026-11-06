@@ -103,7 +103,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (score élevé) sans essai clinique ni donnée spécifique ; l'imiglucérase et le syndrome de Hurler impliquent des enzymes et des substrats différents, et un traitement spécifique (laronidase) existe déjà. De plus, l'unique AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (score élevé) sans essai clinique ni donnée spécifique ; l'imiglucérase et le syndrome de Hurler impliquent des enzymes et des substrats différents, et un traitement spécifique (laronidase) existe déjà.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (bloquant pour le criblage de sécurité)

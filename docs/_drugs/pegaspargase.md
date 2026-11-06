@@ -125,12 +125,10 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - Les essais de phase 3 menés dans la LAL, avec des schémas contenant de l'asparaginase, et la littérature clinique abondante soutiennent cette indication. Elle est cependant déjà établie, et non un repositionnement nouveau.
 - Le profil de toxicité exige un encadrement strict.
-- L'AMM française est annulée, ce qui limite l'accès commercial local.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles de la notice (source ANSM), actuellement manquantes et bloquantes pour l'évaluation de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
-- Clarification du statut réglementaire en France et de la disponibilité du produit après l'annulation de l'AMM
 - Plan de surveillance de la sécurité pour les populations à risque (adultes de plus de 40 ans, patients obèses)
 
 **Remarque sur les autres prédictions :** les autres indications prédites sont, pour la plupart, soit l'indication d'origine (LAL, L1), soit sans preuve (leucémie lymphoïde chronique, lymphome folliculaire, déficit en méthylcobalamine cblE : L5, Hold). Le lymphome lymphoïde au sens large et le lymphome de Hodgkin (L3) reposent surtout sur des données de lymphomes NK/T extranodaux, ce qui ne soutient pas directement ces prédictions.

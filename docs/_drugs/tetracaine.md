@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 ## Résumé en Une Phrase
 
-La tétracaïne est un anesthésique local de type ester, présent en France sous forme de collyre (AMM aujourd'hui annulée). Dans la base de connaissances utilisée par le modèle, elle est associée à la dermatite.
+La tétracaïne est un anesthésique local de type ester, présent en France sous forme de collyre. Dans la base de connaissances utilisée par le modèle, elle est associée à la dermatite.
 Le modèle TxGNN la prédit comme potentiellement efficace pour l'**acrodermatite chronique atrophiante**, mais **aucun essai clinique ni aucune publication** ne soutient cette prédiction : elle repose uniquement sur le calcul du modèle.
 
 ## Aperçu Rapide
@@ -115,7 +115,7 @@ Veuillez consulter la notice pour les informations de sécurité officielles : l
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible. La seule AMM française est annulée, et les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible. Les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.

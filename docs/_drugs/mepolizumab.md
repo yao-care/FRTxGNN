@@ -105,7 +105,7 @@ La prédiction repose sur un score computationnel élevé et sur un seul rapport
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Études précliniques ou observationnelles sur le rôle de l'IL-5 et des éosinophiles dans la thrombopénie immunitaire
-- Clarification du statut réglementaire actuel du produit en France (AMM annulées)
+- Clarification du statut réglementaire actuel du produit en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

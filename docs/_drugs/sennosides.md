@@ -85,14 +85,14 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 **Justification :**
 - Les prédictions reposent uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible.
-- La seule AMM française est annulée, et les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
+- Les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Identifier une hypothèse biologique plausible reliant les sennosides à la biologie du follicule pileux, avec des données précliniques à l'appui.
 - Évaluer la compatibilité des voies d'administration (voie orale actuelle vs voie topique ou autre nécessaire pour les indications envisagées).
-- Vérifier le statut réglementaire actuel des sennosides en France (AMM annulée uniquement).
+- Vérifier le statut réglementaire actuel des sennosides en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

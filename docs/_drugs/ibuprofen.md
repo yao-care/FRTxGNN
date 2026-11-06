@@ -80,7 +80,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées).
+Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

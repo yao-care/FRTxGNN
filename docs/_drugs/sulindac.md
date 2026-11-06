@@ -91,7 +91,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre l'inhibition de la COX et la voie GDF5/BMP. De plus, le profil de contre-indications est lourd et il n'existe plus d'AMM active en France.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre l'inhibition de la COX et la voie GDF5/BMP.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données détaillées sur le mécanisme d'action du sulindac.

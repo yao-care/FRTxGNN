@@ -100,7 +100,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun mécanisme plausible reliant l'inhibition de PCSK9 à l'hémophilie des porteuses. De plus, la seule AMM française recensée est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun mécanisme plausible reliant l'inhibition de PCSK9 à l'hémophilie des porteuses.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (étape bloquante pour le criblage de sécurité)

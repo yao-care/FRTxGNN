@@ -89,7 +89,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Les données de sécurité officielles sont absentes et les deux AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle de l'ANSM (mises en garde et contre-indications) afin de permettre le criblage de sécurité

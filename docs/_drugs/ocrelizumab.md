@@ -99,7 +99,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 - Les données sur le mécanisme d'action, à obtenir via DrugBank.
 - Une justification biologique d'un rôle du CD20 ou des lymphocytes B dans le cancer du sein HER2 positif.
 - Des données précliniques ou cliniques spécifiques à cette indication.
-- Le statut réglementaire actuel du produit en France (AMM annulées).
+- Le statut réglementaire actuel du produit en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

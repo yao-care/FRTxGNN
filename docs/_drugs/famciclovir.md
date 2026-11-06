@@ -86,7 +86,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-Le lien mécanistique est plausible, mais aucune preuve directe n'existe : le seul essai associé n'évalue pas le famciclovir et aucune publication n'est disponible. De plus, les deux AMM françaises sont annulées, ce qui limite toute avancée pratique.
+Le lien mécanistique est plausible, mais aucune preuve directe n'existe : le seul essai associé n'évalue pas le famciclovir et aucune publication n'est disponible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank)

@@ -91,7 +91,7 @@ Pour les autres prédictions, les seules références retrouvées sont sans pert
 
 ## Informations de Marché en France
 
-Les 19 AMM recensées sont annulées. Les 5 premières sont listées ci-dessous ; le texte d'indication n'est pas renseigné.
+Les 5 premières sont listées ci-dessous ; le texte d'indication n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

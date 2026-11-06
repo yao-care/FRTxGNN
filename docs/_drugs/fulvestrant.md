@@ -83,8 +83,6 @@ Aucun essai clinique associé n'est enregistré actuellement pour l'infection pa
 | 63545028 | Faslodex 250 mg | Solution injectable | Non renseignée |
 | 62062457 | Fulvestrant Sandoz 250 mg | Solution injectable | Non renseignée |
 
-Les 10 AMM sont au statut « annulée ».
-
 ## Cytotoxicité
 
 | Élément | Contenu |
@@ -117,7 +115,6 @@ Les autres indications prédites ne sont pas plus solides :
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante)
 - Données détaillées sur le mécanisme d'action (à obtenir via DrugBank)
-- Indications approuvées des AMM, et clarification de la situation réglementaire des produits annulés
 - Études précliniques supplémentaires sur la modulation de ERα dans la latence du VIH, avant d'envisager un essai clinique
 - Évaluation du rapport bénéfice/risque d'une hormonothérapie anti-œstrogène dans une population atteinte du VIH
 ## Avertissement

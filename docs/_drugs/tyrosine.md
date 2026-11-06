@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-La tyrosine est un acide aminé, précurseur des catécholamines et des hormones thyroïdiennes. Elle est présente dans des spécialités de nutrition parentérale et d'acides aminés, aujourd'hui toutes annulées en France.
+La tyrosine est un acide aminé, précurseur des catécholamines et des hormones thyroïdiennes. Elle est présente dans des spécialités de nutrition parentérale et d'acides aminés.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de la queue de cheval**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette prédiction. Le niveau de preuve est le plus faible (L5).
 
 ## Aperçu Rapide

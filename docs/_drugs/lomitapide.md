@@ -111,13 +111,12 @@ Les mises en garde et contre-indications détaillées de l'ANSM ne sont pas disp
 
 **Justification :**
 - La prédiction est de niveau L5 : elle repose uniquement sur le score du modèle, sans essai clinique, sans publication et sans lien mécanistique plausible. Le score élevé ne suffit pas à justifier une poursuite.
-- Le profil de sécurité est contraignant (toxicité hépatique, nombreuses interactions) et les AMM françaises sont toutes annulées.
+- Le profil de sécurité est contraignant (toxicité hépatique, nombreuses interactions).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de mécanisme d'action (MOA) du médicament, pour analyser un éventuel lien avec la pathologie plaquettaire ou valvulaire.
 - Les mises en garde et contre-indications de la notice ANSM, nécessaires pour tout dépistage de sécurité.
 - Des preuves précliniques ou cliniques reliant l'inhibition de la MTP à la macrothrombocytopénie, ou le choix d'une autre indication prédite mieux étayée.
-- La confirmation de la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

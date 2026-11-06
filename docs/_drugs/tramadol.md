@@ -93,7 +93,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication directe ni lien mécanistique plausible. Le profil de sécurité est par ailleurs chargé, et la seule AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication directe ni lien mécanistique plausible. Le profil de sécurité est par ailleurs chargé.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice de l'ANSM (lacune bloquante pour le criblage de sécurité)

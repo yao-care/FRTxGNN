@@ -100,7 +100,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme ne couvrirait au mieux qu'un traitement symptomatique des troubles vésicaux, pas la maladie elle-même.
-- Les AMM françaises sont toutes annulées, et les données de sécurité issues de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Les données de sécurité issues de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (ANSM) pour les mises en garde et contre-indications

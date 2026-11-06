@@ -101,12 +101,12 @@ Beaucoup concernent des immunosuppresseurs ou des agents myélosuppresseurs, ave
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique crédible n'existe entre ce médicament cytotoxique et l'ostéoporose. L'AMM française est de plus annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique crédible n'existe entre ce médicament cytotoxique et l'ostéoporose.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications), bloquant pour l'étape de sécurité
 - Obtenir les données sur le mécanisme d'action et l'indication originale
-- Clarifier le statut réglementaire en France (AMM annulée)
+- Clarifier le statut réglementaire en France
 - Démontrer un lien biologique plausible avec le métabolisme osseux, par des études précliniques
 - Réexaminer la pertinence de cette prédiction, dont le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises entre maladies apparentées, non une preuve biologique
 ## Avertissement

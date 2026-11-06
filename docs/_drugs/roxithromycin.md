@@ -86,7 +86,7 @@ Aucun essai clinique associé enregistré actuellement.
 | 60526880 | ROXITHROMYCINE TEVA 150 mg | comprimé pelliculé | Non renseignée (AMM active) |
 | 63659793 | ROXITHROMYCINE TEVA 100 mg | comprimé pelliculé | Non renseignée (AMM active) |
 
-Au total, 10 AMM sont recensées, toutes annulées ; ce tableau en présente les 5 premières.
+Au total, 10 AMM sont recensées; ce tableau en présente les 5 premières.
 
 ## Considérations de Sécurité
 

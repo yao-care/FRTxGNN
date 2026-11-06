@@ -123,7 +123,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Des données précliniques ou mécanistiques justifiant l'implication de la voie CTLA-4 dans la choroïdérémie.
 - Les données détaillées sur le mécanisme d'action et les informations de sécurité issues de la notice (mises en garde et contre-indications).
 - Une évaluation du risque d'uvéite et d'effets oculaires immuno-induits dans un contexte de dégénérescence rétinienne.
-- La confirmation du statut réglementaire en France, l'AMM étant annulée.
+- La confirmation du statut réglementaire en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

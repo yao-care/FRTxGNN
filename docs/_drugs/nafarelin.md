@@ -90,7 +90,7 @@ Veuillez consulter la notice pour les informations de sécurité complètes (mis
 **Décision : Hold**
 
 **Justification :**
-- La prédiction est de niveau L5 : aucun essai clinique, aucune publication, et aucun mécanisme plausible pour une maladie génétique congénitale. De plus, l'AMM française est annulée.
+- La prédiction est de niveau L5 : aucun essai clinique, aucune publication, et aucun mécanisme plausible pour une maladie génétique congénitale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données du mécanisme d'action détaillé (DrugBank)

@@ -72,7 +72,7 @@ Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 13 AMM de piroxicam sont annulées. Les 5 premières sont listées ci-dessous. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
+Les 5 premières sont listées ci-dessous. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -115,7 +115,6 @@ Ces études sont anciennes, antérieures aux biothérapies. Cette piste relève 
 - Données sur le mécanisme d'action de piroxicam.
 - Mises en garde et contre-indications officielles de la notice (ANSM).
 - Pour l'arthrite juvénile idiopathique : une revue ciblée des données pédiatriques spécifiques au piroxicam, comparée aux alternatives actuelles.
-- Clarification du statut réglementaire, puisqu'aucune AMM n'est en vigueur en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -86,7 +86,7 @@ Aucune littérature associée disponible actuellement.
 | 61615894 | WINREVAIR 45 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
 | 61402622 | WINREVAIR 60 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
 
-Titulaire : Merck Sharp & Dohme (Pays-Bas). Les deux autorisations sont au statut « annulée ».
+Titulaire : Merck Sharp & Dohme (Pays-Bas).
 
 ---
 
@@ -119,12 +119,12 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai clinique, sans publication et sans mécanisme d'action documenté.
-- Les données de sécurité sont absentes et les deux AMM françaises sont annulées, ce qui bloque l'évaluation de sécurité.
+- Les données de sécurité sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Télécharger et analyser la notice officielle sur le site de l'ANSM (mises en garde et contre-indications)
 - Obtenir les données sur le mécanisme d'action via DrugBank
-- Clarifier l'indication originale et les raisons de l'annulation des AMM
+- Clarifier l'indication originale
 - Rechercher des études précliniques ou cliniques reliant la signalisation activine/GDF/BMP à la leucémie lymphoblastique aiguë
 - Évaluer en priorité l'ostéoporose d'origine médicamenteuse, mécanistiquement plus plausible, avant d'engager des ressources sur d'autres indications
 ## Avertissement

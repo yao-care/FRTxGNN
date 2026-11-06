@@ -82,8 +82,6 @@ Aucun essai clinique associé enregistré actuellement.
 | 60508302 | FERRIPROX 1000 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 69694018 | FERRIPROX 100 mg/ml | Solution buvable | Non renseignée (AMM active) |
 
-Une sixième AMM annulée existe (66508896, DEFERIPRONE LIPOMED 500 mg, comprimé pelliculé).
-
 ## Considérations de Sécurité
 
 - **Interactions Médicamenteuses** : 246 interactions ont été identifiées. Parmi les principales, toutes de niveau modéré, figurent les sels de calcium (phosphate, acétate, carbonate, citrate, gluconate, lactate), les sels de magnésium (oxyde, carbonate, chlorure, citrate, gluconate, hydroxyde, sulfate), l'hydroxyde d'aluminium, le magaldrate, l'attapulgite, le kaolin, le sucralfate et le fer. Il s'agit surtout de cations polyvalents et d'antiacides qui peuvent se lier à la déferiprone.
@@ -101,7 +99,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 - Récupérer les mises en garde et contre-indications de la notice ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Mener une revue de littérature ciblée sur la chélation du fer dans les porphyries, notamment la porphyrie cutanée tardive
-- Clarifier les raisons de l'annulation des AMM en France et les voies d'accès possibles au médicament
 - Évaluer la faisabilité d'une étude clinique exploratoire si les données précliniques sont confirmées
 ## Avertissement
 

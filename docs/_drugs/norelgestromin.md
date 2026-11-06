@@ -106,7 +106,7 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication.
-- L'AMM française est annulée, et la seule forme connue est un patch contraceptif combiné, ce qui limite toute voie de développement.
+- La seule forme connue est un patch contraceptif combiné, ce qui limite toute voie de développement.
 - Les données de sécurité de la notice, nécessaires au criblage de sécurité, sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

@@ -121,7 +121,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Résultats publiés de l'essai ERASING (NCT03840772) : taux de réponse, survie sans progression, tolérance
 - Revue ciblée de la littérature sur l'éribuline dans la tumeur fibreuse solitaire et le fibrosarcome
-- Clarification du statut réglementaire actuel de l'éribuline en France (AMM annulées vs. produits commercialisés)
+- Clarification du statut réglementaire actuel de l'éribuline en France
 - Plan de surveillance de sécurité (hématologique, cardiaque/QT, neurologique) et gestion des interactions majeures
 ## Avertissement
 

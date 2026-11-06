@@ -123,7 +123,7 @@ Pour les mises en garde officielles, veuillez consulter la notice, car les donn�
 - Mises en garde et contre-indications officielles issues de la notice ANSM (données bloquantes pour le criblage de sécurité)
 - Études in vitro et précliniques directes de la colchicine sur *P. falciparum*, avec marge de sécurité entre concentrations antiparasitaires et toxicité chez l'hôte
 - Évaluation des interactions avec les antipaludiques, notamment la chloroquine
-- Clarification du statut réglementaire (AMM annulées) et de la voie d'administration requise
+- Clarification du statut réglementaire et de la voie d'administration requise
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -100,7 +100,7 @@ Publication préclinique la plus pertinente, pour la polyarthrite rhumatoïde :
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes **annulées** ; le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

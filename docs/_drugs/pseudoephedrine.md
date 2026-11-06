@@ -110,7 +110,6 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction pour la maladie de la cavité nasale correspond à une extension des indications déjà connues de la pseudoéphédrine. Elle n'est appuyée que par des données indirectes ou précliniques (L4), sans essai clinique.
-- L'unique AMM française est annulée, et le profil de sécurité (nombreuses contre-indications cardiovasculaires) impose la prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle de l'ANSM (mises en garde et contre-indications), actuellement manquante et bloquante pour l'évaluation de sécurité

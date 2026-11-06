@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 
 ## Résumé en Une Phrase
 
-Manidipine est un inhibiteur calcique de la famille des dihydropyridines, dont l'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport (les AMM françaises sont toutes annulées et sans texte d'indication).
+Manidipine est un inhibiteur calcique de la famille des dihydropyridines, dont l'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*migraine disorder*), mais **aucun essai clinique** et **aucune publication** ne soutiennent directement cette direction.
 La prédiction repose donc uniquement sur le modèle (niveau de preuve L5).
 
@@ -95,7 +95,7 @@ Aucune littérature associée à la migraine disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 16 AMM recensées sont des génériques sous forme de comprimés, toutes annulées. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous.
+Les 16 AMM recensées sont des génériques sous forme de comprimés. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -126,7 +126,6 @@ Pour les mises en garde, contre-indications et interactions médicamenteuses, ve
 - Récupérer la notice (mises en garde et contre-indications) sur le site de l'ANSM, élément bloquant
 - Obtenir les données de mécanisme d'action détaillées (DrugBank)
 - Lancer une recherche bibliographique ciblée sur la manidipine dans la migraine, et dans l'angor de Prinzmetal, la piste mécanistiquement la plus cohérente
-- Clarifier les raisons de l'annulation des AMM françaises et l'indication d'origine
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine (actuellement en attente)
 ## Avertissement
 

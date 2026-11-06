@@ -90,7 +90,6 @@ Aucune littérature associée disponible actuellement.
 | 67591667 | FRAGMINE 10 000 U.I. anti-Xa/0,4 mL | Solution injectable (seringue préremplie) | Non renseignée |
 | 62114270 | FRAGMINE 12 500 U.I. anti-Xa/0,5 mL | Solution injectable (seringue préremplie) | Non renseignée |
 
-
 ---
 
 ## Considérations de Sécurité
@@ -114,7 +113,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), préalable indispensable au criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Réaliser une revue de la littérature sur l'héparine de bas poids moléculaire dans le déficit en protéine C et le purpura fulminans
-- Clarifier le statut réglementaire (AMM annulées) et la disponibilité réelle du produit en France
+- Clarifier le statut réglementaire et la disponibilité réelle du produit en France
 - Évaluer la compatibilité des voies d'administration et la place éventuelle en traitement complémentaire du remplacement de la protéine C
 ## Avertissement
 

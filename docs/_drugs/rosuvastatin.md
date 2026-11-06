@@ -144,7 +144,7 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité de la notice ANSM (mises en garde, contre-indications), actuellement manquantes et bloquantes pour le criblage de sécurité.
 - Les données détaillées sur le mécanisme d'action.
-- La vérification de la disponibilité réelle des produits, les 20 AMM étant toutes annulées.
+- La vérification de la disponibilité réelle des produits.
 - Un plan de surveillance : CPK, transaminases, fonction rénale, gestion des interactions (notamment fénofibrate et atazanavir), et posologie adaptée à l'enfant.
 ## Avertissement
 

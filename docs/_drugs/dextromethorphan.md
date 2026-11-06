@@ -83,7 +83,6 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 66819541 | TUSSIDANE 1,5 mg/ml SANS SUCRE, solution buvable | Solution buvable | Active |
@@ -92,7 +91,7 @@ Aucune littérature associée disponible actuellement.
 | 66078868 | PULMODEXANE 30 mg, comprimé pelliculé | Comprimé pelliculé | Active |
 | 66367100 | PULMODEXANE 300 mg/100 ml SANS SUCRE | Solution buvable | Active |
 
-Deux autres AMM annulées existent (NODEX ADULTES, sirop unidose ; TUSSIDANE 30 mg, comprimé pelliculé sécable). Le texte des indications approuvées n'est pas renseigné.
+Le texte des indications approuvées n'est pas renseigné.
 
 ## Considérations de Sécurité
 
@@ -106,7 +105,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Elle recoupe probablement des indications déjà existantes. Par ailleurs, le médicament est commercialisé en France : 7 AMM valides sur 7.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Elle recoupe probablement des indications déjà existantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) pour évaluer le lien mécanistique

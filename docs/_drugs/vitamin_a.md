@@ -98,7 +98,7 @@ Veuillez consulter la notice pour les mises en garde officielles.
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Une justification mécanistique plausible, avec des données sur le mécanisme d'action de la vitamine A.
 - Une revue de la notice de l'ANSM (mises en garde et contre-indications), actuellement manquante.
-- Une réévaluation du statut réglementaire, puisque l'AMM est annulée.
+- Une réévaluation du statut réglementaire.
 
 **Remarque :** parmi les autres prédictions du modèle, la **maladie périnatale** (score de 0,9963) est de loin la mieux étayée. Elle repose sur plusieurs méta-analyses Cochrane de la supplémentation en vitamine A chez les nourrissons de très faible poids de naissance, avec un bénéfice modeste sur la dysplasie bronchopulmonaire. Cette piste mériterait d'être évaluée en priorité, avec des garde-fous (voie d'administration, dosage, sécurité). L'indication « blessure » dispose également d'un essai randomisé de phase 1/2 (NCT01203488, 807 nourrissons), mais ses résultats portent sur la morbidité néonatale plutôt que sur les blessures en général.
 ## Avertissement

@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement pour le syndrome d'hypervi
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

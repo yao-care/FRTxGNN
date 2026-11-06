@@ -94,7 +94,7 @@ Veuillez consulter la notice pour les informations de sécurité. La recherche d
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur un score de modèle élevé (niveau L5), sans essai ni publication. Aucun lien mécanistique plausible n'existe, et la toxicité oculaire connue des alkylants, y compris le risque de cataracte, va à l'encontre de cette indication. Les deux AMM françaises sont en outre annulées.
+- La prédiction repose uniquement sur un score de modèle élevé (niveau L5), sans essai ni publication. Aucun lien mécanistique plausible n'existe, et la toxicité oculaire connue des alkylants, y compris le risque de cataracte, va à l'encontre de cette indication.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), point bloquant pour le criblage de sécurité

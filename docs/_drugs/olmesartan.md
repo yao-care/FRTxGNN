@@ -134,7 +134,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Rechercher des données précliniques ou cliniques sur l'olmésartan dans le vasospasme coronarien.
 - Piste alternative à approfondir : la **migraine** (L3). Analyser en détail les études de 2006 et la revue de 2019, en tenant compte du biais lié à la baisse de la pression artérielle. Le candésartan dispose d'un meilleur soutien par essais randomisés dans cette classe.
-- Clarifier le statut réglementaire actuel (raisons de l'annulation des AMM et disponibilité éventuelle de génériques).
+- Clarifier le statut réglementaire actuel.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

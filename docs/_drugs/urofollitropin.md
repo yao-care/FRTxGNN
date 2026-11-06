@@ -89,14 +89,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Decision : Hold**
 
 **Justification :**
-- La prediction repose uniquement sur le modele (niveau L5), sans essai clinique, sans publication et sans lien mecanistique etabli. De plus, toutes les AMM francaises sont annulees.
+- La prediction repose uniquement sur le modele (niveau L5), sans essai clinique, sans publication et sans lien mecanistique etabli.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Donnees sur le mecanisme d'action de l'urofollitropine, afin d'evaluer un eventuel lien avec la migraine (notamment menstruelle)
 - Mises en garde et contre-indications issues de la notice ANSM, indispensables avant tout depistage de securite
 - Revue de la litterature sur les gonadotrophines, les hormones sexuelles et la migraine
 - Evaluation de la compatibilite des voies d'administration et de la similarite avec l'indication d'origine
-- Clarification du statut reglementaire (AMM annulees) et de l'indication d'origine
+- Clarification du statut reglementaire et de l'indication d'origine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

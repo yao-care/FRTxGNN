@@ -59,7 +59,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome d'immunodéficience acquise féline est causé par le virus de l'immunodéficience féline (FIV), un lentivirus apparenté au VIH. Le score élevé (0,9992) reflète vraisemblablement la proximité dans le réseau de connaissances avec les indications VIH/SIDA d'origine, plutôt qu'un mécanisme distinct.
 
-Tout bénéfice dépendrait de la co-administration avec un antirétroviral actif contre le FIV, et aucune association de ce type n'est étayée par les données disponibles. Le statut commercial (AMM annulées) et les 100 interactions médicamenteuses recensées compliquent en outre tout usage vétérinaire.
+Tout bénéfice dépendrait de la co-administration avec un antirétroviral actif contre le FIV, et aucune association de ce type n'est étayée par les données disponibles. Le statut commercial et les 100 interactions médicamenteuses recensées compliquent en outre tout usage vétérinaire.
 
 **Autres prédictions du modèle (même niveau de preuve L5) :**
 - **Infection par le virus de l'immunodéficience simienne** (score 0,9992) : le SIV est un modèle primate non humain du VIH. Le cobicistat n'aurait d'intérêt que comme composant d'un schéma combiné, et seulement comme piste de recherche préclinique pharmacocinétique.
@@ -95,7 +95,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le cobicistat n'a pas d'activité antivirale propre, et ses AMM françaises sont toutes annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le cobicistat n'a pas d'activité antivirale propre.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action, à compléter via DrugBank.

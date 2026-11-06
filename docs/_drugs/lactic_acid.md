@@ -38,7 +38,6 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 ## Résumé en Une Phrase
 
-L'acide lactique est un métabolite endogène, commercialisé en France sous forme de préparations homéopathiques (Lacticum acidum Lehning et Boiron), dont les deux autorisations sont aujourd'hui annulées et sans indication approuvée renseignée.
 Le modèle TxGNN le prédit comme potentiellement efficace pour la **coarctation atypique de l'aorte**, avec un score élevé (0,9959).
 Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutient pour cette indication.
 
@@ -93,7 +92,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Aucun lien mécanistique plausible n'est identifié entre l'acide lactique et une malformation aortique congénitale. Les deux AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Aucun lien mécanistique plausible n'est identifié entre l'acide lactique et une malformation aortique congénitale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de l'acide lactique, afin d'analyser un éventuel lien mécanistique.

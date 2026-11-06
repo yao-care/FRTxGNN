@@ -84,7 +84,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les sept AMM du flurbiprofène sont annulées. Les textes d'indication approuvée ne sont pas disponibles pour ces AMM.
+Les textes d'indication approuvée ne sont pas disponibles pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -93,8 +93,6 @@ Les sept AMM du flurbiprofène sont annulées. Les textes d'indication approuvé
 | 61032482 | ANTADYS 100 mg, comprimé pelliculé | Comprimé pelliculé | Active |
 | 65407780 | STREFEN 8,75 mg, pastille | Pastille | Active |
 | 67184116 | CEBUTID 100 mg, comprimé enrobé | Comprimé enrobé | Active |
-
-Deux autres AMM annulées ne figurent pas dans ce tableau : STREFEN 8,75 mg orange sans sucre (pastille) et CEBUTID LP 200 mg (gélule à libération prolongée).
 
 ---
 
@@ -113,7 +111,7 @@ Les mises en garde du texte officiel de la notice n'étant pas disponibles, veui
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme plausible. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises entre maladies apparentées, non une preuve biologique.
-- Les AMM françaises sont toutes annulées, et le profil de risque des AINS (digestif, rénal, cardiovasculaire) n'est pas justifié par un bénéfice attendu.
+- Le profil de risque des AINS (digestif, rénal, cardiovasculaire) n'est pas justifié par un bénéfice attendu.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données sur le mécanisme d'action du flurbiprofène et sur un éventuel lien avec la voie GDF5/BMP.

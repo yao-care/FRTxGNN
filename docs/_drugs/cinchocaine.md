@@ -105,7 +105,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 - Données détaillées sur le mécanisme d'action (via DrugBank)
 - Revue de la littérature préclinique sur les anesthésiques locaux dans la toux et les maladies des voies aériennes
 - Évaluation de la compatibilité des voies d'administration (suppositoire vs voie respiratoire) et du profil de toxicité
-- Clarification du statut réglementaire (AMM annulées)
+- Clarification du statut réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

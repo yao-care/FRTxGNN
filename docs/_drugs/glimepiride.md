@@ -59,7 +59,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le syndrome de la personne raide est une maladie auto-immune liée aux anticorps anti-GAD65, avec une altération de la signalisation GABAergique. **Aucun lien mécanistique n'est établi** avec le blocage des canaux K-ATP. Le seul rapprochement plausible est la fréquente association du syndrome avec le diabète de type 1 (auto-immunité GAD commune), ce qui ne justifie pas un rôle thérapeutique du glimépiride.
 
-
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
@@ -70,7 +69,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné.
+Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -92,7 +91,7 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique plausible n'est identifié. De plus, toutes les AMM françaises du glimépiride sont annulées et les données de sécurité de la notice sont manquantes, ce qui empêche l'étape de dépistage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique plausible n'est identifié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice de l'ANSM (mises en garde et contre-indications).

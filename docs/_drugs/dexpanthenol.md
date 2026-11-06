@@ -85,7 +85,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 14 AMM recensées sont **annulées**. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées :
+Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -133,7 +133,6 @@ Veuillez consulter la notice pour les autres informations de sécurité. Aucune 
 - Obtenir les résultats de l'essai NCT01136005 et vérifier précisément la condition étudiée
 - Rechercher de la littérature directement liée à l'exanthème
 - Clarifier la compatibilité des voies d'administration (topique, injectable, orale)
-- Examiner la signification des 14 AMM annulées (raisons commerciales ou réglementaires)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

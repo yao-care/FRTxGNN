@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Les cinq premières sont listées ci-dessous (toutes en comprimé à libération prolongée, sans texte d'indication renseigné).
+Les cinq premières sont listées ci-dessous (toutes en comprimé à libération prolongée, sans texte d'indication renseigné).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -121,7 +121,7 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - Des données sur le mécanisme d'action (DrugBank) et un lien biologique plausible avec les dystrophies rétiniennes
 - Des données de sécurité issues de la notice ANSM (mises en garde, contre-indications)
 - Des études précliniques (modèles de dégénérescence rétinienne) avant toute étude clinique
-- Une clarification du statut réglementaire en France (annulation de toutes les AMM)
+- Une clarification du statut réglementaire en France
 - Une évaluation séparée de la **trichotillomanie**, seule indication prédite disposant de littérature, qui nécessiterait au minimum un essai pilote ou contrôlé
 ## Avertissement
 

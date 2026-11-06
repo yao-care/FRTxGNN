@@ -134,7 +134,6 @@ Plusieurs essais randomisés (dont un essai de phase 3 terminé et l'essai WSG T
 - Confirmation du statut HER2 positif avant toute utilisation (exclure les tumeurs PR positives/HER2 négatives).
 - Données de mécanisme d'action issues de DrugBank.
 - Mises en garde et contre-indications issues de la notice ANSM (non disponibles actuellement, point bloquant pour l'évaluation de sécurité).
-- Clarification du statut réglementaire en France : les 3 AMM sont annulées et leurs indications ne sont pas renseignées.
 - Résultats stratifiés par statut des récepteurs hormonaux pour les essais de biosimilaires.
 - Surveillance cardiaque et plan de sécurité pour les populations particulières.
 ## Avertissement

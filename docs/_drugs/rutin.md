@@ -90,13 +90,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. De plus, la seule AMM française est annulée et les données de sécurité officielles sont absentes.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour tout examen de sécurité
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Mener une revue de la littérature ciblée sur la rutine/flavonoïdes dans les affections mammaires bénignes
-- Évaluer la faisabilité de la voie d'administration et de la formulation, l'AMM étant annulée
+- Évaluer la faisabilité de la voie d'administration et de la formulation
 - Examiner les contre-indications issues du graphe (troubles du métabolisme du fer, drépanocytose, etc.) dans la population cible
 ## Avertissement
 

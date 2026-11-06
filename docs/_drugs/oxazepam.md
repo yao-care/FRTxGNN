@@ -122,7 +122,6 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier la raison de l'annulation des AMM et le statut réglementaire actuel
 - Réaliser une revue systématique ciblée de l'oxazépam dans l'insomnie, ou un essai contrôlé récent, avec comparaison aux hypnotiques actuels
 - Évaluer la compatibilité de la voie d'administration et la sécurité chez les populations à risque (personnes âgées, insuffisance respiratoire, hépatique ou rénale)
 ## Avertissement

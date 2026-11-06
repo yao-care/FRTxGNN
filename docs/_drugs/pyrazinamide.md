@@ -99,7 +99,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5) pour l'otite moyenne infectieuse : aucun essai, aucune littérature, et un mécanisme non applicable aux pathogènes habituels. Les seules données concernent des cas de tuberculose de l'oreille, où le pyrazinamide fait déjà partie du traitement standard, ce qui ne constitue pas une nouvelle indication.
-- Le médicament n'a plus d'AMM valide en France (2 AMM annulées), et les données de sécurité de la notice sont manquantes.
+- Les données de sécurité de la notice sont manquantes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité de la notice (mises en garde, contre-indications) auprès de l'ANSM, indispensables avant tout examen de sécurité

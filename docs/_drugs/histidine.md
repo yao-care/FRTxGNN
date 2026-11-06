@@ -38,7 +38,6 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 
 ## Résumé en Une Phrase
 
-L'histidine est un acide aminé présent dans de nombreuses solutions de nutrition parentérale et de conservation d'organes, dont les autorisations françaises sont aujourd'hui toutes annulées.
 Le modèle TxGNN la prédit comme potentiellement efficace pour la **gastroparésie**, mais **aucun essai clinique** et **une seule publication** (sans lien direct avec l'histidine) soutiennent cette piste.
 
 ---

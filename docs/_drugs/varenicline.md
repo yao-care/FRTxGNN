@@ -76,7 +76,7 @@ Pour la categorie voisine « trouble cephalalgique » (13 publications), les art
 
 ## Informations de Marche en France
 
-Les 3 AMM listees ci-dessous sont toutes **annulees**. Le texte d'indication approuvee n'est pas renseigne.
+Le texte d'indication approuvee n'est pas renseigne.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
@@ -97,14 +97,14 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Decision : Hold**
 
 **Justification :**
-- La prediction est au niveau L5 (modele seul) : aucun essai clinique, aucune etude therapeutique, et un profil d'effets indesirables (cephalees) allant a l'encontre d'un benefice. Les AMM francaises sont toutes annulees, et les donnees de securite de la notice sont absentes.
+- La prediction est au niveau L5 (modele seul) : aucun essai clinique, aucune etude therapeutique, et un profil d'effets indesirables (cephalees) allant a l'encontre d'un benefice. Les donnees de securite de la notice sont absentes.
 - Les autres indications predites (alopecie, glaucome, hypertension pulmonaire, etc.) sont egalement au niveau L5 sans preuve.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Recuperer les mises en garde et contre-indications de la notice aupres de l'ANSM (point bloquant pour le criblage de securite)
 - Obtenir les donnees de mecanisme d'action detaillees (DrugBank)
 - Obtenir des donnees precliniques ou cliniques specifiques a la migraine
-- Clarifier le statut reglementaire (AMM annulees) et l'indication originale
+- Clarifier le statut reglementaire et l'indication originale
 - Evaluer la contre-indication potentielle liee aux troubles psychiatriques et cardiovasculaires dans la population migraineuse
 ## Avertissement
 

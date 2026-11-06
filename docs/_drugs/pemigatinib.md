@@ -38,7 +38,6 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 ## Résumé en Une Phrase
 
-Le pémigatinib est un inhibiteur sélectif des récepteurs FGFR1 à 3, dont les autorisations de mise sur le marché françaises (AMM) sont aujourd'hui toutes annulées et dont l'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endocrinienne multiple**, mais il s'agit d'une prédiction pure du modèle.
 Aucun essai clinique et aucune publication ne soutiennent cette direction (**0 essai clinique**, **0 publication**).
 
@@ -127,7 +126,7 @@ Les autres indications prédites présentent toutes un niveau de preuve L5 et un
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (point bloquant).
 - Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
-- Clarifier l'indication d'origine et les raisons de l'annulation des AMM.
+- Clarifier l'indication d'origine.
 - Rechercher des preuves précliniques ou cliniques spécifiques reliant la signalisation FGFR à la néoplasie endocrinienne multiple, ou réorienter l'évaluation vers des indications oncologiques à rationnel biologique plus solide.
 ## Avertissement
 

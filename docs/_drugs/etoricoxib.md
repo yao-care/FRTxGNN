@@ -90,7 +90,7 @@ Aucune publication ne teste directement l'étoricoxib dans la migraine. Les publ
 
 ## Informations de Marché en France
 
-Les 14 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -115,13 +115,13 @@ Les mises en garde et contre-indications officielles ne sont pas disponibles dan
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique ne soutient la migraine, la preuve se limite à une prédiction du modèle, à des données précliniques et à une revue indirecte (niveau L4). Les produits n'ont plus d'AMM valide en France, et les données de sécurité officielles sont absentes, ce qui bloque le passage à l'évaluation de sécurité.
+- Aucun essai clinique ne soutient la migraine, la preuve se limite à une prédiction du modèle, à des données précliniques et à une revue indirecte (niveau L4). Les données de sécurité officielles sont absentes, ce qui bloque le passage à l'évaluation de sécurité.
 - Le signal le plus solide concerne des phénotypes de céphalées spécifiques (céphalée poignardante, céphalée de toux, céphalées sensibles à l'indométacine), mais uniquement sous forme de cas cliniques.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), ce qui constitue un point bloquant.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
-- Élucider les raisons de l'annulation des 14 AMM, et vérifier si l'étoricoxib reste disponible par un autre circuit.
+- Vérifier si l'étoricoxib reste disponible par un autre circuit.
 - Mener une revue systématique ou un essai randomisé ciblant la migraine ou les céphalées sensibles aux AINS.
 - Établir un plan d'évaluation du risque cardiovasculaire, rénal (hyperkaliémie) et cérébrovasculaire avant toute évaluation clinique.
 ## Avertissement

@@ -91,7 +91,6 @@ Les dix autres publications récupérées (revues, avis d'experts, étude de dos
 | 62696479 | HEMLIBRA 30 mg/mL, solution injectable (active) | Solution injectable | Non renseignée |
 | 61529993 | HEMLIBRA 150 mg/mL, solution injectable (active) | Solution injectable | Non renseignée |
 
-
 ## Considérations de Sécurité
 
 **Interactions médicamenteuses** (5 interactions identifiées) :
@@ -110,13 +109,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, non 
 
 **Justification :**
 - Pour l'hémophilie A acquise, les preuves sont substantielles (études prospectives de phases II/III à un seul bras, cohortes, consensus), mais elles sont non randomisées et ne couvrent pas l'ensemble des déficits acquis en facteurs de coagulation. L'ensemble des autres prédictions repose uniquement sur le modèle (L5) ou sur un lien indirect (L4).
-- Les données de sécurité de la notice (ANSM) sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité, et les deux AMM françaises sont annulées.
+- Les données de sécurité de la notice (ANSM) sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Télécharger et analyser la notice ANSM (mises en garde et contre-indications)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Vérifier les identifiants d'essais enregistrés (NCT) pour les études sur l'hémophilie A acquise
-- Préciser le statut réglementaire actuel d'emicizumab en France (AMM annulées)
+- Préciser le statut réglementaire actuel d'emicizumab en France
 - Redéfinir l'indication cible comme « hémophilie A acquise » plutôt que « déficit acquis en facteur de coagulation »
 - Vérifier le terme « flood factor deficiency » dans l'ontologie source, probablement une erreur de données
 ## Avertissement

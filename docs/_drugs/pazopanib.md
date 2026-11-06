@@ -103,13 +103,13 @@ Aucun essai clinique associé enregistré actuellement.
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Les preuves (une phase II prospective à bras unique et plusieurs cohortes rétrospectives) soutiennent une activité du pazopanib dans les carcinomes rénaux non à cellules claires, sans essai randomisé ni essai enregistré. Le niveau L3 et l'hétérogénéité histologique imposent la prudence. Les AMM françaises étant toutes annulées, l'accès en France est limité.
+- Les preuves (une phase II prospective à bras unique et plusieurs cohortes rétrospectives) soutiennent une activité du pazopanib dans les carcinomes rénaux non à cellules claires, sans essai randomisé ni essai enregistré. Le niveau L3 et l'hétérogénéité histologique imposent la prudence. L'accès en France est limité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice de l'ANSM (données bloquantes pour le dépistage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Essais prospectifs ou randomisés spécifiques au carcinome rénal non classé
-- Clarification du statut réglementaire et de l'accessibilité du pazopanib en France (AMM annulées, génériques éventuels)
+- Clarification du statut réglementaire et de l'accessibilité du pazopanib en France
 - Plan de surveillance de la sécurité (hépatique, cardiovasculaire, tension artérielle) et revue des interactions, notamment avec les antiacides et inhibiteurs de la pompe à protons
 
 ---

@@ -58,8 +58,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Aucun lien mécanistique n'est étayé par les données disponibles entre cette action anticoagulante et la polyarthrite rhumatoïde. Une hypothèse purement spéculative pourrait relier la signalisation de la coagulation et de la thrombine à l'inflammation synoviale, mais aucun essai ni aucune publication ne la soutient. Le score élevé du modèle (0,9934) reste une prédiction algorithmique.
 
-Il faut aussi noter que le médicament n'a plus d'AMM valide en France et que l'exposition chronique à un anticoagulant comporte un risque hémorragique et une marge thérapeutique étroite. Ces éléments plaident contre un repositionnement sans preuves solides.
-
+Il faut aussi noter que l'exposition chronique à un anticoagulant comporte un risque hémorragique et une marge thérapeutique étroite. Ces éléments plaident contre un repositionnement sans preuves solides.
 
 ## Preuves d'Essais Cliniques
 
@@ -86,7 +85,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme n'est pas documenté, l'AMM est annulée et le profil de risque hémorragique est défavorable.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme n'est pas documenté et le profil de risque hémorragique est défavorable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (par exemple via DrugBank)

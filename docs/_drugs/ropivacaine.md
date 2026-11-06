@@ -95,7 +95,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à des études observationnelles et à deux petits essais de pertinence moyenne (niveau L3). Aucun essai de phase 3 n'étaye la migraine. De plus, la seule AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque le passage au criblage de sécurité.
+- Les preuves se limitent à des études observationnelles et à deux petits essais de pertinence moyenne (niveau L3). Aucun essai de phase 3 n'étaye la migraine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications), lacune bloquante

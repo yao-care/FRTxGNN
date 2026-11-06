@@ -94,13 +94,13 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Décision : Hold**
 
 **Justification :**
-- Le score élevé du modèle semble refléter la proximité avec les lymphœdèmes filariens déjà connus, sans effet démontré sur les lymphœdèmes syndromiques ou primaires d'origine génétique. Aucun essai clinique n'existe, aucun lien mécanistique n'est établi, et l'AMM française est annulée.
+- Le score élevé du modèle semble refléter la proximité avec les lymphœdèmes filariens déjà connus, sans effet démontré sur les lymphœdèmes syndromiques ou primaires d'origine génétique. Aucun essai clinique n'existe, aucun lien mécanistique n'est établi.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) et analyse d'un éventuel lien avec les voies lymphatiques génétiques
 - Mises en garde et contre-indications de la notice ANSM (bloquant pour l'évaluation de sécurité)
 - Données précliniques ou études observationnelles sur le lymphœdème non filarien
-- Clarification du statut réglementaire, l'AMM étant annulée et sans indication renseignée
+- Clarification du statut réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -116,13 +116,12 @@ Les mises en garde et contre-indications de la notice n'étant pas disponibles, 
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5) : aucun essai, aucune publication, aucun lien mécanistique pour la fibromatose gingivale, maladie bénigne pour laquelle le risque immunologique dépasse tout bénéfice spéculatif.
-- Le produit n'a plus d'AMM valide en France (une seule AMM, annulée).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mécanisme d'action détaillé (DrugBank) et analyse d'un éventuel lien PD-1/fibrose gingivale
 - Données de la notice ANSM (mises en garde et contre-indications), actuellement bloquantes pour le criblage de sécurité
 - Données précliniques démontrant une pertinence biologique avant toute étude clinique
-- Clarification du statut réglementaire en France (AMM annulée)
+- Clarification du statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -92,7 +92,7 @@ Ce lien repose uniquement sur le score de prédiction TxGNN. De plus, l'inhibiti
 **Decision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score TxGNN (niveau de preuve L5), sans essai clinique ni publication spécifique. Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le score TxGNN (niveau de preuve L5), sans essai clinique ni publication spécifique. Les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) depuis le site de l'ANSM

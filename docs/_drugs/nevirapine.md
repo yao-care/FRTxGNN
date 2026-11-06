@@ -92,7 +92,7 @@ Aucun essai clinique associé enregistré actuellement.
 | 63791738 | VIRAMUNE 200 mg | Comprimé | Non renseignée | Active |
 | 65256474 | NEVIRAPINE VIATRIS 200 mg | Comprimé | Non renseignée | Active |
 
-Au total, 11 AMM sont répertoriées, toutes annulées ; seules les 5 principales sont listées ci-dessus.
+Au total, 11 AMM sont répertoriées; seules les 5 principales sont listées ci-dessus.
 
 ---
 
@@ -116,7 +116,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle et sur une étude préclinique unique dont le résultat pour la névirapine n'est pas confirmé. Il s'agit d'une indication vétérinaire, sans pertinence pour un développement clinique chez l'humain. Le médicament n'a plus d'AMM valide en France et présente un profil de sécurité préoccupant (hépatotoxicité, réactions cutanées sévères).
+- La prédiction repose uniquement sur le modèle et sur une étude préclinique unique dont le résultat pour la névirapine n'est pas confirmé. Il s'agit d'une indication vétérinaire, sans pertinence pour un développement clinique chez l'humain. Le médicament présente un profil de sécurité préoccupant (hépatotoxicité, réactions cutanées sévères).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Consulter le texte complet de la publication 38031646 afin de déterminer l'activité réelle de la névirapine sur la transcriptase inverse du FIV

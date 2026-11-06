@@ -104,7 +104,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
-- Confirmer l'indication d'origine et les raisons de l'annulation des AMM.
+- Confirmer l'indication d'origine.
 - Réaliser une revue de la littérature ciblée ; si l'on souhaite explorer les pistes hormonales (puberté précoce), évaluer formellement la justification mécanistique et la sécurité pédiatrique.
 - Étudier la sécurité cardiaque (risque d'allongement du QT) au vu des contre-indications du graphe et des interactions majeures.
 ## Avertissement

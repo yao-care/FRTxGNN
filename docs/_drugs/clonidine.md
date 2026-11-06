@@ -120,12 +120,11 @@ Veuillez consulter la notice pour les mises en garde officielles, car les donné
 
 **Justification :**
 - Les lignes directrices européennes et une méta-analyse en réseau soutiennent l'usage de la clonidine dans les tics, notamment avec TDAH associé, mais les deux essais de phase 4 sont petits et aucun essai de phase 3 n'est fourni ; le niveau de preuve est donc plafonné à L3.
-- Le statut réglementaire français est défavorable : la seule AMM, celle d'une forme injectable, est annulée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications officielles), actuellement manquante et bloquante pour l'évaluation de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Confirmer la disponibilité d'une formulation adaptée en France (voie orale ou transdermique), la seule AMM recensée étant une solution injectable annulée.
+- Confirmer la disponibilité d'une formulation adaptée en France (voie orale ou transdermique).
 - Disposer d'au moins un essai randomisé de phase 3 de bonne qualité ou d'une méta-analyse centrée sur la clonidine.
 - Établir un plan de surveillance (tension artérielle, fréquence cardiaque, sédation) et vérifier l'absence des contre-indications cardiovasculaires et métaboliques listées.
 

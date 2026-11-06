@@ -59,7 +59,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le seul élément en faveur de la prédiction est un recoupement de territoire thérapeutique : les indications historiques de la glycine (rhinite allergique, rhinite vasomotrice, rhinite, rhinopharyngite) concernent déjà la cavité nasale. Le score élevé du modèle reflète probablement ce voisinage avec l'usage antérieur. Il ne constitue pas une preuve indépendante d'efficacité.
 
-
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
@@ -75,7 +74,7 @@ Le seul élément en faveur de la prédiction est un recoupement de territoire t
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées. Aucune ne comporte de texte d'indication. Les cinq premières sont listées ci-dessous.
+Aucune ne comporte de texte d'indication. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

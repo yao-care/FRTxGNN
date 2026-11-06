@@ -108,7 +108,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à des études précliniques chez le macaque, surtout sur des combinaisons, sans essai clinique. L'infection par le VIS n'est pas une indication humaine, et les AMM françaises sont toutes annulées.
+- Les preuves se limitent à des études précliniques chez le macaque, surtout sur des combinaisons, sans essai clinique. L'infection par le VIS n'est pas une indication humaine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (le criblage de sécurité ne peut pas être effectué sans elles)

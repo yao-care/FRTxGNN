@@ -103,7 +103,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Mener une revue ciblée de la littérature sur l'héparine dans le déficit en protéine C (cas cliniques, séries, recommandations).
-- Clarifier le statut réglementaire actuel de l'héparine en France, les AMM étant toutes annulées.
+- Clarifier le statut réglementaire actuel de l'héparine en France.
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine, aujourd'hui non évaluées.
 ## Avertissement
 

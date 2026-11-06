@@ -103,14 +103,14 @@ Veuillez consulter la notice pour les informations de sécurité complètes.
 **Décision : Hold**
 
 **Justification :**
-- L'effet de classe des antihistaminiques H1 rend la prédiction pour l'urticaire allergique plausible, mais aucune donnée spécifique à la méclozine n'existe. Le profil de tolérance (sédation, effets anticholinergiques) est défavorable face aux alternatives de seconde génération. De plus, la seule AMM française est annulée, ce qui limite toute voie réglementaire immédiate.
+- L'effet de classe des antihistaminiques H1 rend la prédiction pour l'urticaire allergique plausible, mais aucune donnée spécifique à la méclozine n'existe. Le profil de tolérance (sédation, effets anticholinergiques) est défavorable face aux alternatives de seconde génération.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), lacune bloquante pour tout dépistage de sécurité
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Rechercher des études spécifiques à la méclozine dans l'urticaire (essais, séries de cas)
 - Démontrer un avantage potentiel par rapport aux antihistaminiques de seconde génération
-- Clarifier la situation réglementaire (AMM annulée) et la compatibilité des voies d'administration
+- Clarifier la situation réglementaire et la compatibilité des voies d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

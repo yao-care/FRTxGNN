@@ -132,7 +132,6 @@ Les mises en garde détaillées de la notice ne sont pas disponibles ; veuillez 
 
 **Justification :**
 - Le lien mécanistique est plausible, mais aucune preuve directe n'existe pour la sulfadiazine dans la pneumocystose : la littérature est composée de revues générales, et les données portent surtout sur le sulfaméthoxazole. Le traitement de référence (triméthoprime-sulfaméthoxazole) est déjà établi.
-- L'unique AMM française est annulée, ce qui limite le développement pratique.
 - La deuxième prédiction (kératoconjonctivite ponctuée épithéliale, score 0,9936) ne repose sur aucun essai ni publication (niveau L5). Elle est également en attente (Hold), sans lien antimicrobien plausible, car cette affection est souvent virale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

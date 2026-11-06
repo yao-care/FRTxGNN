@@ -98,7 +98,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les données détaillées sur le mécanisme d'action (MOA), par exemple via DrugBank
 - Réaliser une revue systématique de la littérature et des registres d'essais sur la rufinamide dans le FIRES et les épilepsies apparentées
 - Obtenir un avis d'experts en épileptologie, notamment sur le risque d'aggravation des crises avec les bloqueurs des canaux sodiques
-- Clarifier les raisons de l'annulation des AMM et les voies d'accès actuelles au médicament en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

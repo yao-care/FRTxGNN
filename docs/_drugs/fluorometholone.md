@@ -100,14 +100,14 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold** (vascularite post-infectieuse et autres prédictions systémiques ou non spécifiques) ; **Research Question** pour la kératoconjonctivite ponctuée épithéliale, l'iridocyclite induite par le cristallin et la crise glaucomato-cyclitique.
 
 **Justification :**
-- Les prédictions de rang 1 à 5 et 7 à 8 reposent uniquement sur le score du modèle, sans essai ni publication, et plusieurs sont peu crédibles pour un collyre à faible exposition systémique. Les pistes ophtalmiques sont plus plausibles mais ne disposent que de preuves indirectes. De plus, l'unique AMM française est annulée.
+- Les prédictions de rang 1 à 5 et 7 à 8 reposent uniquement sur le score du modèle, sans essai ni publication, et plusieurs sont peu crédibles pour un collyre à faible exposition systémique. Les pistes ophtalmiques sont plus plausibles mais ne disposent que de preuves indirectes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles issues de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Études spécifiques au fluorométholone dans la kératoconjonctivite (essais ou séries comparatives)
 - Évaluation de la compatibilité de voie d'administration et de formulation pour chaque indication envisagée
-- Clarification du statut réglementaire (AMM annulée) et de la disponibilité du produit en France
+- Clarification du statut réglementaire et de la disponibilité du produit en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

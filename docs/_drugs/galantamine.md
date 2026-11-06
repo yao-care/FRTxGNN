@@ -92,7 +92,7 @@ Aucune littérature associée disponible actuellement pour l'indication principa
 
 ## Informations de Marché en France
 
-Les 16 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas disponible dans les données compilées. Principales AMM :
+Le texte d'indication approuvée n'est pas disponible dans les données compilées. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -122,7 +122,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans lien mécanistique établi avec les troubles du mouvement psychogènes.
-- Le médicament est commercialisé en France (16 AMM valides sur 16), mais les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- Le médicament est commercialisé en France, mais les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour le criblage de sécurité.

@@ -57,7 +57,6 @@ Les données compilées font état de **0 essai clinique** enregistré et de **8
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues et la littérature, l'étodolac est un AINS à sélectivité préférentielle pour la cyclo-oxygénase-2 (COX-2). Il réduit la production de prostaglandines, médiateurs de l'inflammation et de la douleur.
 
-
 **Une mise en garde importante :** les scores TxGNN les plus élevés (dysplasie acromésomélique, syndrome brachyolmie-amélogenèse imparfaite, myosclérose, brachyolmie, pseudoachondroplasie) concernent des maladies génétiques rares du squelette ou du tissu conjonctif. Aucun lien mécanistique crédible n'a été identifié : l'inhibition de la COX ne corrige pas un défaut de signalisation de facteurs de croissance. Ces scores proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une relation pharmacologique réelle ni une preuve biologique. L'hypermobilité du coccyx n'offre, au mieux, qu'un soulagement symptomatique générique, sans preuve spécifique.
 
 ## Preuves d'Essais Cliniques
@@ -105,7 +104,7 @@ Veuillez consulter la notice pour les informations de sécurité (les mises en g
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer le résumé des caractéristiques du produit (mises en garde, contre-indications) auprès de l'ANSM : donnée bloquante pour le dépistage de sécurité.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
-- Vérifier la disponibilité actuelle de l'étodolac en France (AMM annulée) ou dans d'autres juridictions.
+- Vérifier la disponibilité actuelle de l'étodolac en France ou dans d'autres juridictions.
 - Rechercher des essais contrôlés randomisés spécifiques à l'étodolac dans la spondylarthrite ankylosante, ou comparer à d'autres AINS déjà recommandés.
 - Écarter formellement les candidates génétiques rares sans fondement mécanistique, sauf nouvelle preuve indépendante.
 ## Avertissement

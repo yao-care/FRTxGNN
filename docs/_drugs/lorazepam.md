@@ -79,7 +79,6 @@ Aucun essai clinique associé n'est enregistré actuellement pour la tumeur du n
 
 Aucune littérature associée n'est disponible actuellement pour la tumeur du nerf trijumeau.
 
-
 | PMID | Année | Type | Revue | Résultats principaux |
 |------|-----|------|------|---------|
 | [10220122](https://pubmed.ncbi.nlm.nih.gov/10220122/) | 1999 | Étude clinique | Int Clin Psychopharmacol | Lorazépam 0,5 mg 3 fois/jour (traitement sur 24 h) comparé à 1,5 mg au coucher dans l'insomnie chronique primaire |
@@ -121,12 +120,12 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 **Décision : Hold**
 
 **Justification :**
-- Pour la tumeur du nerf trijumeau, la prédiction repose uniquement sur le modèle (L5), sans essai, sans publication et sans lien mécanistique crédible. Le statut de marché (AMM toutes annulées) complique en outre toute voie de repositionnement.
+- Pour la tumeur du nerf trijumeau, la prédiction repose uniquement sur le modèle (L5), sans essai, sans publication et sans lien mécanistique crédible. Le statut de marché complique en outre toute voie de repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), une lacune bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
-- Clarifier la situation réglementaire (AMM annulées, raisons et possibilités de réactivation)
+- Clarifier la situation réglementaire
 - Pour l'insomnie : évaluer le rapport bénéfice/risque (dépendance, interactions) par rapport aux alternatives actuelles, et rechercher des essais récents
 - Pour la tumeur du nerf trijumeau : ne pas poursuivre, sauf apparition d'une justification biologique indépendante
 ## Avertissement

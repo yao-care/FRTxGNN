@@ -81,7 +81,7 @@ Aucun essai clinique associé enregistré actuellement.
 | 66166745 | VITAMINE B12 CHAUVIN 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
 | 64452203 | VITAMINE B12 HORUS PHARMA 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
 
-Seules 5 des 10 AMM sont listées. Les 10 AMM sont valides.
+Seules 5 des 10 AMM sont listées.
 
 ## Considérations de Sécurité
 
@@ -97,7 +97,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5). Aucun essai clinique ni publication pertinente ne la soutient, et le lien mécanistique reste spéculatif.
-- Le traitement de référence des maladies métaboliques de la biotine est la biotine. De plus, toutes les AMM françaises de la cyanocobalamine sont annulées.
+- Le traitement de référence des maladies métaboliques de la biotine est la biotine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA) de la cyanocobalamine

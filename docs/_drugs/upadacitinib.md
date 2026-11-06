@@ -101,7 +101,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 - Données détaillées sur le mécanisme d'action (MOA), à compléter via DrugBank
 - Mises en garde et contre-indications issues de la notice ANSM, indispensables avant tout examen de sécurité
 - Preuves précliniques ou mécanistiques reliant la signalisation JAK-STAT à la physiopathologie du syndrome
-- Clarification du statut réglementaire en France (AMM annulées)
+- Clarification du statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

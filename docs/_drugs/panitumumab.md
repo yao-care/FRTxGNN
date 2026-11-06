@@ -101,7 +101,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, sans données de mécanisme d'action, et avec un signal de sécurité plausible (troubles du magnésium et du calcium) allant à l'encontre d'un bénéfice osseux. L'AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, sans données de mécanisme d'action, et avec un signal de sécurité plausible (troubles du magnésium et du calcium) allant à l'encontre d'un bénéfice osseux.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

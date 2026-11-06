@@ -72,7 +72,7 @@ En l'absence de prédictions TxGNN et de données de mécanisme d'action formali
 
 Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour la Maprotiline en France selon les données disponibles.
 
-> **Note :** Des AMM historiques ont pu exister et avoir été retirées ou expirées. Une vérification auprès de la base de données publique de l'ANSM est recommandée pour confirmer le statut réglementaire actuel.
+> Une vérification auprès de la base de données publique de l'ANSM est recommandée pour confirmer le statut réglementaire actuel.
 
 ---
 
@@ -93,8 +93,8 @@ L'absence totale de prédictions TxGNN combinée aux lacunes critiques dans les 
 
 - **Compléter les prédictions TxGNN** pour la Maprotiline (DB00934) afin d'identifier des indications candidates
 - **Récupérer les données MOA depuis DrugBank** (API DrugBank — DB00934) pour formaliser le mécanisme d'action
-- **Analyser la notice ANSM/TFDA** pour extraire les avertissements, contre-indications et interactions médicamenteuses
-- **Vérifier le statut réglementaire historique** en France via la base transparence ANSM (AMM potentiellement retirées ou expirées)
+- **Analyser la notice ANSM** pour extraire les avertissements, contre-indications et interactions médicamenteuses
+- **Vérifier le statut réglementaire historique** en France via la base transparence ANSM
 - **Relancer le pipeline d'evidence gathering** une fois les données de base complétées (Phase 5 — collecte d'essais cliniques et de littérature)
 ## Avertissement
 

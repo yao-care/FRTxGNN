@@ -38,7 +38,6 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 ## Résumé en Une Phrase
 
-Le camphre est présent en France dans des spécialités homéopathiques (Camphora Lehning, Camphora Boiron, Rodulos), dont les trois AMM sont aujourd'hui annulées et pour lesquelles aucune indication approuvée n'est renseignée.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*migraine disorder*), mais aucun essai clinique n'est enregistré, et les **3 publications** associées sont des cas cliniques ou des analyses indirectes.
 Le niveau de preuve reste faible : une étude préclinique récente (2026) soutient le lien avec la migraine, sans données humaines.
 
@@ -96,7 +95,7 @@ Les données compilées pour ce rapport n'incluent ni mises en garde, ni contre-
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la migraine repose sur un score de modèle élevé et une seule étude préclinique directe. Il n'existe aucun essai clinique, les AMM françaises sont toutes annulées, et les données de sécurité sont absentes. Les autres indications prédites (par exemple l'hypertension pulmonaire, dont les publications portent sur un questionnaire de qualité de vie homonyme, sans rapport avec le médicament) ne sont pas étayées. Elles restent à ce stade des hypothèses sans valeur clinique.
+- La prédiction pour la migraine repose sur un score de modèle élevé et une seule étude préclinique directe. Il n'existe aucun essai clinique, et les données de sécurité sont absentes. Les autres indications prédites (par exemple l'hypertension pulmonaire, dont les publications portent sur un questionnaire de qualité de vie homonyme, sans rapport avec le médicament) ne sont pas étayées. Elles restent à ce stade des hypothèses sans valeur clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour l'évaluation de sécurité)

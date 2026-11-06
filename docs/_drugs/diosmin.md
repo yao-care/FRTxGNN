@@ -89,7 +89,6 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Récupérer les mises en garde et contre-indications de la notice ANSM (téléchargement et analyse du document)
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank) afin d'analyser un éventuel lien mécanistique avec l'aménorrhée
 - Rechercher des études précliniques, observationnelles ou cliniques sur la diosmine dans l'aménorrhée ou les troubles menstruels
-- Clarifier les raisons de l'annulation des AMM et l'indication originale approuvée
 - Évaluer la compatibilité des voies d'administration (actuellement non déterminée)
 ## Avertissement
 

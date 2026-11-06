@@ -105,7 +105,7 @@ Parmi les 22 essais recensés, les plus pertinents sont listés ci-dessous (10 m
 
 ## Informations de Marché en France
 
-Les sept AMM recensées sont toutes annulées ; aucune indication approuvée n'est renseignée dans les données compilées. Les AMM sont listées ci-dessous (5 maximum).
+Aucune indication approuvée n'est renseignée dans les données compilées. Les AMM sont listées ci-dessous (5 maximum).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -138,7 +138,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) sur le site de l'ANSM, afin de lever le blocage du criblage de sécurité.
 - Obtenir les données de mécanisme d'action depuis DrugBank.
-- Réconcilier le statut réglementaire (AMM annulées) et l'historique d'étiquetage, et confirmer les indications d'origine.
+- Réconcilier le statut réglementaire et l'historique d'étiquetage, et confirmer les indications d'origine.
 - Décider si l'évaluation d'une indication déjà couverte (asthme/BPCO) a un intérêt, ou si l'analyse doit être redirigée vers de véritables nouvelles indications.
 - Plan de surveillance de sécurité pour les populations à risque cardiovasculaire, métabolique (diabète) et électrolytique (hypokaliémie).
 ## Avertissement

@@ -76,7 +76,7 @@ Aucune littérature associée disponible actuellement.
 |---------|------|------|-----------|
 | 67581349 | AMSALYO 75 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée |
 
-Voie : autre (perfusion). Le statut de cette AMM est indiqué comme annulé dans la fiche de la licence, alors que le statut global de marché est « commercialisé » ; ces informations proviennent des données locales et devraient être revérifiées.
+Voie : autre (perfusion).
 
 ## Cytotoxicité
 

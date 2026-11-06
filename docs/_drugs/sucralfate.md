@@ -124,7 +124,7 @@ Les informations de la notice n'ont pas pu être exploitées. Veuillez consulter
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Lire en texte intégral les deux essais randomisés (PMID 3839973 et 12923369) pour confirmer l'effet sur les symptômes, l'endoscopie et l'histologie.
-- Clarifier la situation réglementaire en France (AMM annulées) et la disponibilité actuelle d'une formulation.
+- Clarifier la situation réglementaire en France et la disponibilité actuelle d'une formulation.
 - Évaluer le risque lié aux interactions (notamment dolutégravir, bictégravir, tétracyclines) et à l'insuffisance rénale.
 
 **Note sur la seconde prédiction (obstruction duodénale) :** elle repose uniquement sur le modèle (niveau L5), sans lien mécanistique clair ; le sucralfate ne soulage pas une obstruction mécanique. Décision : Hold.

@@ -101,7 +101,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L4 : la prédiction est très plausible mécanistiquement, mais elle recoupe une indication existante, aucun essai n'est enregistré et la littérature concerne surtout la classe pharmacologique. Les deux AMM françaises sont annulées et les données de sécurité officielles manquent, ce qui bloque le passage à l'évaluation de sécurité.
+- Le niveau de preuve est L4 : la prédiction est très plausible mécanistiquement, mais elle recoupe une indication existante, aucun essai n'est enregistré et la littérature concerne surtout la classe pharmacologique. Les données de sécurité officielles manquent, ce qui bloque le passage à l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM.

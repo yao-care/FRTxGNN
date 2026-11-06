@@ -117,14 +117,14 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Le TOC répond de façon établie aux ISRS, et plusieurs études spécifiques au citalopram (essais ouverts, études préliminaires) vont dans le même sens. Toutefois, aucun essai contrôlé de phase 2/3 ne teste le citalopram directement, et la seule AMM française est annulée ; la prudence s'impose.
+- Le TOC répond de façon établie aux ISRS, et plusieurs études spécifiques au citalopram (essais ouverts, études préliminaires) vont dans le même sens. Toutefois, aucun essai contrôlé de phase 2/3 ne teste le citalopram directement; la prudence s'impose.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles issues de la notice (étape bloquante pour le criblage de sécurité)
 - Données détaillées sur le mécanisme d'action
 - Essai contrôlé randomisé testant spécifiquement le citalopram dans le TOC
 - Évaluation du risque d'allongement du QT et des interactions majeures, en particulier chez les patients cardiaques
-- Clarification du statut réglementaire (AMM annulée) et des alternatives commercialisées
+- Clarification du statut réglementaire et des alternatives commercialisées
 
 **Autres prédictions (niveau de preuve faible, décision : Hold) :** trouble de la personnalité paranoïaque (L4), schizotypique, schizoïde et histrionique (L5). Pour ces indications, seule la prédiction du modèle existe, sans essai clinique ni lien mécanistique démontré.
 ## Avertissement

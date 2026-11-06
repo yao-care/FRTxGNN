@@ -97,8 +97,6 @@ Les données disponibles tempèrent toutefois cet espoir. Une étude de cas de d
 | 62931799 | MIGLUSTAT DIPHARMA 100 mg | Gélule | Non renseignée (AMM active) |
 | 66036869 | MIGLUSTAT ACCORD 100 mg | Gélule | Non renseignée (AMM active) |
 
-Deux autres AMM annulées existent (OPFOLDA 65 mg, YARGESA 100 mg).
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : maladie du système nerveux périphérique, neuropathie périphérique, insuffisance rénale.
@@ -129,7 +127,7 @@ Les neuf autres candidates n'ont ni essai clinique ni publication associés (niv
 
 **Justification :**
 - Pour la maladie de Tay-Sachs, la justification mécanistique est solide et un programme clinique existe. Toutefois, les essais sont petits (5 à 30 patients), centrés sur la pharmacocinétique et la tolérance, ou arrêtés précocement. Les données de cas disponibles ne montrent pas d'arrêt de la progression neurologique. Le niveau L1 attribué par la grille repose sur la présence d'un essai de phase 3 terminé, mais cet essai n'est pas confirmatoire ; le niveau de preuve réel est inférieur.
-- Les 7 AMM françaises sont toutes annulées, et la sécurité n'a pas pu être évaluée à partir de la notice (lacune bloquante).
+- La sécurité n'a pas pu être évaluée à partir de la notice (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération des mises en garde et contre-indications officielles (notice ANSM)

@@ -85,7 +85,7 @@ Ces publications ne documentent pas l'efficacité de la phéniramine dans l'urti
 | 66238760 | Rhinofébral sans sucre | Poudre pour solution buvable | Non précisée (AMM active) |
 | 61697350 | Humexlib État Grippal sans sucre | Poudre pour solution buvable | Non précisée (AMM active) |
 
-Au total, 9 AMM sont recensées et toutes sont annulées. Il s'agit exclusivement d'associations fixes (paracétamol, vitamine C, phéniramine) destinées à l'état grippal.
+Au total, 9 AMM sont recensées. Il s'agit exclusivement d'associations fixes (paracétamol, vitamine C, phéniramine) destinées à l'état grippal.
 
 ## Considérations de Sécurité
 
@@ -106,7 +106,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Récupérer les mises en garde et contre-indications de la notice ANSM (analyse du PDF).
 - Obtenir les données de mécanisme d'action (par exemple via DrugBank).
 - Rechercher des essais contrôlés ou des revues systématiques de la phéniramine dans l'urticaire allergique.
-- Clarifier les raisons de l'annulation des AMM et vérifier la disponibilité de formes (notamment injectables ou orales en monothérapie) compatibles avec l'usage visé.
 - Évaluer si l'indication présente un intérêt réel au-delà des indications déjà connues.
 ## Avertissement
 

@@ -124,7 +124,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le seul essai disponible est une étude pharmacocinétique chez des volontaires sains et la littérature porte sur la COVID-19 : il n'existe aucune preuve directe d'efficacité dans le VIH (niveau L4, au mieux des éléments mécanistiques indirects). L'AMM française est de plus annulée.
+- Le seul essai disponible est une étude pharmacocinétique chez des volontaires sains et la littérature porte sur la COVID-19 : il n'existe aucune preuve directe d'efficacité dans le VIH (niveau L4, au mieux des éléments mécanistiques indirects).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications) afin de lever le blocage du criblage de sécurité

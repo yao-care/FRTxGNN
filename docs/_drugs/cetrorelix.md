@@ -67,7 +67,7 @@ Le lien avec l'hypertrichose reste spéculatif. Une baisse de la signalisation a
 Les autres prédictions du modèle appellent le même constat, car la plupart n'ont pas de justification mécanistique plausible :
 - **Hypertrichose universelle congénitale de type Ambras**, **syndromes malformatifs dentaires/parodontaux**, **syndrome avec malformation de Dandy-Walker**, **anomalie génétique isolée de la tige pilaire**, **syndrome de circulation fœtale persistante**, **trichomégalie familiale isolée** : ces affections sont génétiques ou développementales, sans lien plausible avec l'antagonisme de la GnRH.
 - **Syndrome d'excès d'aromatase** : le défaut primaire est l'aromatisation périphérique, pour laquelle les inhibiteurs de l'aromatase constituent le traitement mécanistiquement direct.
-- **Puberté précoce centrale** et **puberté précoce familiale limitée au sexe masculin** : ce sont les prédictions les plus plausibles biologiquement (niveau L4, « question de recherche »). Pour la puberté précoce centrale, le blocage du récepteur de la GnRH est cohérent, mais le traitement de référence repose sur les agonistes. Pour la forme familiale masculine (mutations activatrices de LHCGR), un antagoniste de la GnRH ne bloquerait pas l'activité constitutive du récepteur. Dans les deux cas, la demi-vie courte, les administrations fréquentes, le manque de données pédiatriques et l'annulation des AMM limitent l'intérêt pratique.
+- **Puberté précoce centrale** et **puberté précoce familiale limitée au sexe masculin** : ce sont les prédictions les plus plausibles biologiquement (niveau L4, « question de recherche »). Pour la puberté précoce centrale, le blocage du récepteur de la GnRH est cohérent, mais le traitement de référence repose sur les agonistes. Pour la forme familiale masculine (mutations activatrices de LHCGR), un antagoniste de la GnRH ne bloquerait pas l'activité constitutive du récepteur. Dans les deux cas, la demi-vie courte, les administrations fréquentes, le manque de données pédiatriques.
 
 ---
 
@@ -105,7 +105,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Decision : Hold**
 
 **Justification :**
-- Toutes les prédictions reposent uniquement sur le modèle (L5), ou sur un raisonnement mécanistique indirect (L4 pour les deux formes de puberté précoce), sans essai ni publication. Le mécanisme est faible ou absent pour l'hypertrichose, et les AMM françaises sont toutes annulées.
+- Toutes les prédictions reposent uniquement sur le modèle (L5), ou sur un raisonnement mécanistique indirect (L4 pour les deux formes de puberté précoce), sans essai ni publication. Le mécanisme est faible ou absent pour l'hypertrichose.
 - Les données de sécurité issues de la notice manquent, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les elements suivants sont necessaires :**

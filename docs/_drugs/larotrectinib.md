@@ -127,7 +127,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 - Données sur le mécanisme d'action et sur les indications d'origine
 - Mises en garde et contre-indications de la notice ANSM (étape bloquante pour le dépistage de sécurité)
 - Données précliniques ou cliniques spécifiques à la NEM, ou identification de patients NEM porteurs d'une fusion NTRK
-- Clarification du statut réglementaire en France (AMM annulées)
+- Clarification du statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -77,8 +77,6 @@ Aucune littérature associée disponible actuellement.
 | 64224915 | NABUCOX 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée | Active |
 | 60774655 | NABUCOX 1 g, comprimé dispersible | Comprimé dispersible | Non renseignée | Active |
 
-Les deux AMM, détenues par EXPANSCIENCE, sont annulées : il n'existe actuellement aucune présentation commercialisée en France.
-
 ## Considérations de Sécurité
 
 Les textes de mises en garde et de contre-indications de la notice n'ont pas pu être récupérés. Veuillez consulter la notice pour les informations de sécurité officielles.
@@ -94,7 +92,7 @@ Les textes de mises en garde et de contre-indications de la notice n'ont pas pu 
 
 **Justification :**
 - Aucune preuve clinique ou publiée ne soutient cette prédiction, et aucun lien mécanistique plausible n'existe : la COX n'intervient pas dans le défaut génétique de *GDF5*.
-- Le médicament n'a plus d'AMM valide en France, et le profil de sécurité (risques cardiovasculaires, rénaux, hépatiques et gastro-intestinaux) est peu favorable pour une maladie génétique rare du développement.
+- Le profil de sécurité (risques cardiovasculaires, rénaux, hépatiques et gastro-intestinaux) est peu favorable pour une maladie génétique rare du développement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (DrugBank).

@@ -97,7 +97,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai ni publication. De plus, l'AMM française est annulée et son indication d'origine n'est pas documentée.
+- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai ni publication.
 - Le syndrome de l'intestin irritable est l'hypothèse la plus cohérente, mais elle reste à confirmer. Les prédictions neuropsychiatriques (TDAH) ne sont pas étayées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

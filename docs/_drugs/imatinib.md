@@ -123,7 +123,7 @@ La notice officielle (mises en garde et contre-indications) n'a pas pu être exp
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle : aucun essai, aucune donnée clinique pour le fibrosarcome cardiaque, et l'extrapolation depuis le DFSP reste indirecte.
-- Les AMM françaises sont toutes annulées, et les données de sécurité de la notice manquent.
+- Les données de sécurité de la notice manquent.
 
 **Autres prédictions à noter (pour orientation) :**
 - **Liposarcome** : preuve la plus avancée (3 essais de phase 1/2 et 2 sur sarcomes, niveau L2), mais non spécifiques à cette histologie ; question de recherche.
@@ -132,7 +132,7 @@ La notice officielle (mises en garde et contre-indications) n'a pas pu être exp
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) et analyse du lien avec le fibrosarcome cardiaque (statut PDGFB/PDGFR/KIT des tumeurs)
-- Notice officielle de l'ANSM (mises en garde, contre-indications), et clarification du statut des AMM annulées
+- Notice officielle de l'ANSM (mises en garde, contre-indications)
 - Séries de cas ou données précliniques sur l'imatinib dans les sarcomes cardiaques
 - Évaluation spécifique du risque cardiaque (insuffisance cardiaque, épanchement péricardique) avant toute étude
 ## Avertissement

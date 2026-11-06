@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les cinq autorisations, toutes détenues par Vertex Pharmaceuticals (Ireland), sont annulées. Le texte des indications approuvées n'est pas disponible.
+Le texte des indications approuvées n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -95,7 +95,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique plausible avec la lèpre.
-- Les autorisations françaises sont toutes annulées, et les données de sécurité issues de la notice sont absentes, ce qui empêche de passer à l'évaluation de sécurité.
+- Les données de sécurité issues de la notice sont absentes, ce qui empêche de passer à l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications).

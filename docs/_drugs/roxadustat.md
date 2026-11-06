@@ -79,7 +79,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 5 AMM du produit EVRENZO (Astellas Pharma Europe, Pays-Bas) sont toutes annulées. Le texte des indications approuvées n'est pas disponible.
+Le texte des indications approuvées n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|

@@ -80,7 +80,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 17 AMM sont au statut **annulé**. Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
+Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -110,7 +110,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Résultats publiés de l'étude pilote sur les tumeurs desmoïdes (PMID 12907346)
 - Études précliniques sur des lignées de tumeurs fibroblastiques malignes
 - Évaluation approfondie des signaux de sécurité (sarcome pléomorphe indifférencié, dermatofibromes)
-- Clarification du statut réglementaire en France (raisons de l'annulation des 17 AMM)
+- Clarification du statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

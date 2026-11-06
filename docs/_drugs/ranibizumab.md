@@ -90,8 +90,6 @@ Aucun essai clinique associé enregistré actuellement pour cette indication.
 | 64389258 | RANIVISIO 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
 | 67026689 | XIMLUCI 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
 
-Une sixième AMM annulée existe (RIMMYRAH 10 mg/ml, solution injectable, n° 61190863).
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : infection oculaire, conjonctivite.
@@ -107,7 +105,7 @@ Pour le reste, veuillez consulter la notice pour les informations de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Confirmer directement la conception, la phase et les résultats des essais (RIDE/RISE, PAVILION)
-- Vérifier la disponibilité et le statut réglementaire actuels en France (AMM annulées ; autres procédures éventuelles)
+- Vérifier la disponibilité et le statut réglementaire actuels en France
 - Obtenir la notice (mises en garde, contre-indications) auprès de l'ANSM
 - Obtenir les données sur le mécanisme d'action
 

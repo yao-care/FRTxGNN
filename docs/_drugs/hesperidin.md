@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 ## Résumé en Une Phrase
 
-L'hespéridine est un flavonoïde (flavanone glycosylée) commercialisé en France sous forme de comprimés pelliculés (FLAVONOIDES ZENTIVA CONSEIL). Les données compilées ne précisent aucune indication d'origine, et ces autorisations sont aujourd'hui annulées.
+L'hespéridine est un flavonoïde (flavanone glycosylée) commercialisé en France sous forme de comprimés pelliculés (FLAVONOIDES ZENTIVA CONSEIL). Les données compilées ne précisent aucune indication d'origine.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **néoplasie myéloproliférative**, mais **aucun essai clinique** et **une seule publication** (étude in silico) soutiennent actuellement cette direction.
 
 ---
@@ -101,14 +101,14 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle TxGNN (niveau L5) et sur une seule étude in silico, sans essai clinique. Les autorisations françaises sont annulées et les informations de sécurité sont absentes, ce qui empêche de passer au criblage de sécurité.
+La prédiction repose uniquement sur le modèle TxGNN (niveau L5) et sur une seule étude in silico, sans essai clinique. Les informations de sécurité sont absentes, ce qui empêche de passer au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Obtenir une validation expérimentale *in vitro* sur des modèles de néoplasie myéloproliférative
 - Évaluer la biodisponibilité et la faisabilité d'atteindre des concentrations efficaces par voie orale
-- Clarifier l'indication d'origine et la raison de l'annulation des AMM
+- Clarifier l'indication d'origine
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

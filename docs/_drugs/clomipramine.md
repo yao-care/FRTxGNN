@@ -115,13 +115,13 @@ Les informations de la notice (mises en garde, contre-indications) ne sont pas d
 **Decision : Proceed with Guardrails**
 
 **Justification :**
-- Les meta-analyses et recommandations dans le trouble panique, ainsi que plusieurs etudes cliniques anciennes dans le trouble panique et l'agoraphobie, soutiennent un benefice plausible. Toutefois, les essais enregistres sont centres sur le TOC, et les AMM francaises sont toutes annulees. Le niveau L1 est donc a interpreter avec prudence.
+- Les meta-analyses et recommandations dans le trouble panique, ainsi que plusieurs etudes cliniques anciennes dans le trouble panique et l'agoraphobie, soutiennent un benefice plausible. Toutefois, les essais enregistres sont centres sur le TOC. Le niveau L1 est donc a interpreter avec prudence.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Les mises en garde et contre-indications officielles de la notice ANSM (lacune bloquante pour le criblage de securite)
 - Les donnees detaillees sur le mecanisme d'action (DrugBank)
 - Des essais controles contemporains de la clomipramine dans les troubles anxieux (trouble panique), versus ISRS
-- Verification du statut reglementaire en France, toutes les AMM etant annulees, y compris la voie d'acces possible
+- Verification du statut reglementaire en France
 - Un plan de surveillance cardiaque, hematologique et du risque suicidaire, avec precaution pour les patients presentant les contre-indications listees
 ## Avertissement
 

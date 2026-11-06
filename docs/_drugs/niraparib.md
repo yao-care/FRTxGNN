@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les trois AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces autorisations.
+Le texte d'indication approuvée n'est pas renseigné pour ces autorisations.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -107,14 +107,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction pour le néoplasme de l'épiglotte repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme documenté.
-- Les AMM françaises sont toutes annulées.
 - Les mises en garde et contre-indications de la notice ne sont pas disponibles : le dépistage de sécurité ne peut donc pas être mené.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Mener une revue ciblée de la littérature sur les inhibiteurs de PARP dans les cancers de la tête et du cou, avec recherche de biomarqueurs de déficience de réparation de l'ADN (HRD).
-- Clarifier la situation réglementaire : les AMM sont annulées.
 
 **Remarque :** parmi les autres prédictions, la « tumeur kystique » (2ᵉ rang, niveau L2) dispose de données plus solides. Elle est soutenue par un essai de phase 2 en recrutement (NCT04716686, niraparib en monothérapie dans le carcinome séreux de l'endomètre). Il s'agit toutefois surtout d'une extension des indications ovariennes existantes plutôt que d'une indication réellement nouvelle. Elle pourrait être évaluée séparément.
 ## Avertissement

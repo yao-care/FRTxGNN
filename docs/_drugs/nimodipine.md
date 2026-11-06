@@ -105,13 +105,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec la physiopathologie de l'hypercholestérolémie familiale homozygote.
-- Les AMM françaises sont toutes annulées et les données de sécurité officielles sont manquantes, ce qui empêche à ce stade tout examen de sécurité.
+- Les données de sécurité officielles sont manquantes, ce qui empêche à ce stade tout examen de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante).
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Mener une revue de la littérature et des données précliniques sur un éventuel effet de la nimodipine sur le métabolisme lipidique ou l'athérosclérose.
-- Clarifier le statut réglementaire en France (AMM annulées) et la faisabilité de la voie d'administration.
+- Clarifier le statut réglementaire en France et la faisabilité de la voie d'administration.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

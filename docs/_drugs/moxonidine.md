@@ -98,7 +98,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice : le
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et sans lien mécanistique plausible. Le statut de marché (toutes AMM annulées) limite aussi la faisabilité pratique.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et sans lien mécanistique plausible. Le statut de marché limite aussi la faisabilité pratique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) pour mieux analyser le lien mécanistique

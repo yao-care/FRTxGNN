@@ -132,14 +132,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - Le rationnel mecanistique est limite (le lymphome folliculaire est le plus souvent CD30 faible ou negatif), la plupart des essais ont ete retires ou arretes avec tres peu de patients, et la litterature ne soutient pas directement cette indication. Le seul essai direct (NCT04587687, n=23) est en cours, sans resultats.
-- L'AMM francaise est annulee et les donnees de securite de la notice sont manquantes, ce qui empeche une evaluation de securite complete.
+- Les donnees de securite de la notice sont manquantes, ce qui empeche une evaluation de securite complete.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Resultats de l'essai NCT04587687 (brentuximab vedotin + bendamustine dans le lymphome folliculaire en rechute/refractaire)
 - Donnees d'expression de CD30 dans le lymphome folliculaire pour definir une population cible
 - Mises en garde et contre-indications issues de la notice ANSM
 - Donnees detaillees sur le mecanisme d'action
-- Clarification du statut reglementaire en France (AMM annulee)
+- Clarification du statut reglementaire en France
 
 ---
 

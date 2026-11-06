@@ -125,7 +125,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Récupérer les mises en garde et contre-indications officielles de la notice (ANSM), actuellement manquantes et bloquantes pour le criblage de sécurité
 - Obtenir les données de mécanisme d'action (DrugBank) pour évaluer tout lien avec les pathologies capillaires
 - Des données précliniques (perfusion du cuir chevelu, follicule pileux) avant toute étude clinique dans l'alopécie
-- Clarifier l'indication originale réelle et le statut des AMM, toutes annulées en France
+- Clarifier l'indication originale réelle et le statut des AMM
 - Pour les indications cardiovasculaires : un essai randomisé de phase 3 pour atteindre le niveau L1, et un plan de surveillance de l'hypotension, des arythmies et de la fonction rénale
 ## Avertissement
 

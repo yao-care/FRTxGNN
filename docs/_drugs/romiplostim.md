@@ -98,7 +98,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Données détaillées sur le mécanisme d'action et sa pertinence pour un défaut fonctionnel plaquettaire.
 - Notice de l'ANSM (mises en garde et contre-indications), indispensable avant toute évaluation de sécurité.
 - Données précliniques ou cliniques spécifiques au trouble de libération plaquettaire.
-- Clarification de la situation réglementaire (AMM annulées) et de la disponibilité du produit en France.
+- Clarification de la situation réglementaire et de la disponibilité du produit en France.
 
 **Note complémentaire :** parmi les autres indications prédites, la thrombopénie alloimmune fœto-néonatale (niveau L4, « question de recherche »), les thrombopénies constitutionnelles et les macrothrombopénies autosomiques dominantes sont mécanistiquement plus plausibles, car il s'agit de déficits quantitatifs en plaquettes. Les preuves restent toutefois indirectes (principalement issues du PTI) ou inexistantes, et la sécurité pendant la grossesse reste à établir.
 ## Avertissement

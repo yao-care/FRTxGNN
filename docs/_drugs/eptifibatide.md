@@ -108,7 +108,6 @@ Le risque hémorragique inhérent à tout antiagrégant doit être pris en compt
 
 **Justification :**
 - La prédiction pour la polyarthrite rhumatoïde repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le profil de risque hémorragique, et les contre-indications relevées dans le graphe de connaissances, pèsent contre une avancée sans données solides.
-- L'eptifibatide n'a plus d'AMM valide en France, ce qui complique tout développement local.
 - L'hémoglobinopathie (drépanocytose) est la piste la mieux étayée, avec un essai de phase 1/2 randomisé (NCT00834899, arrêté prématurément après 13 patients) et trois études pilotes ou de phase I. L'efficacité n'y est pas démontrée, et aucune donnée de phase 3 n'existe. Elle mérite d'être traitée comme une question de recherche à part entière.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

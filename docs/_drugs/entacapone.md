@@ -111,7 +111,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Malgré un score TxGNN très élevé, aucune preuve clinique ou bibliographique ne soutient cette indication (niveau L5). L'effet attendu serait au mieux symptomatique, et les AMM françaises sont toutes annulées.
+- Malgré un score TxGNN très élevé, aucune preuve clinique ou bibliographique ne soutient cette indication (niveau L5). L'effet attendu serait au mieux symptomatique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice (blocage pour le criblage de sécurité), à obtenir sur le site de l'ANSM.

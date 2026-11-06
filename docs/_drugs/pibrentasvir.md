@@ -96,13 +96,12 @@ Veuillez consulter la notice pour les informations de sécurité. Les données d
 **Décision : Hold**
 
 **Justification :**
-La prédiction pour l'hépatite B repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication la soutenant. Le mécanisme d'action de pibrentasvir, un inhibiteur de NS5A sans cible équivalente chez le VHB, ne plaide pas en faveur du repositionnement. De plus, les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité.
+La prédiction pour l'hépatite B repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication la soutenant. Le mécanisme d'action de pibrentasvir, un inhibiteur de NS5A sans cible équivalente chez le VHB, ne plaide pas en faveur du repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), actuellement bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Réaliser des études précliniques *in vitro* testant l'activité de pibrentasvir contre le VHB
-- Clarifier les raisons de l'annulation des AMM françaises
 
 ### Remarque sur les autres indications prédites
 

@@ -88,14 +88,14 @@ Les informations sur les mises en garde et contre-indications de la notice ne so
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication. L'AMM française est annulée, et la durée d'action ultra-courte ainsi que la voie exclusivement intraveineuse rendent l'usage dans l'insomnie peu réaliste. Les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication. La durée d'action ultra-courte ainsi que la voie exclusivement intraveineuse rendent l'usage dans l'insomnie peu réaliste. Les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante).
 - Compléter les données sur le mécanisme d'action (DrugBank).
 - Rechercher des études précliniques ou cliniques sur l'insomnie et le delirium de sevrage alcoolique.
 - Évaluer la compatibilité de la voie d'administration (intraveineuse uniquement) et de la pharmacocinétique avec ces indications.
-- Clarifier le statut réglementaire en France (AMM annulée) et l'indication d'origine.
+- Clarifier le statut réglementaire en France et l'indication d'origine.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

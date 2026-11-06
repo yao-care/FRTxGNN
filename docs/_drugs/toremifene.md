@@ -98,14 +98,14 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5). La seule publication est préclinique, concerne la cryptococcose et non le VIH, et aucun essai clinique n'existe. Les données de sécurité officielles sont absentes, et l'AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5). La seule publication est préclinique, concerne la cryptococcose et non le VIH, et aucun essai clinique n'existe. Les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) afin de réaliser le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (DrugBank) et la ou les indications d'origine
 - Générer des preuves directes d'activité anti-VIH (études in vitro sur la réplication virale), ou reformuler l'hypothèse vers la cryptococcose associée au VIH
 - Évaluer le risque de QT et les interactions chez les patients VIH polymédiqués
-- Clarifier la faisabilité d'approvisionnement, l'AMM française étant annulée
+- Clarifier la faisabilité d'approvisionnement
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

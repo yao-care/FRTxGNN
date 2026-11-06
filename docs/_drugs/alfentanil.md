@@ -93,7 +93,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme connu des opioïdes (stimulation de la libération de vasopressine) irait plutôt à l'encontre de l'effet recherché dans le SNAI.
-- Les AMM françaises sont toutes annulées et le profil d'interactions est chargé (100 interactions), ce qui limite la faisabilité pratique.
+- Le profil d'interactions est chargé (100 interactions), ce qui limite la faisabilité pratique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).

@@ -80,7 +80,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont des spécialités à base de carbocistéine seule, toutes annulées. Les textes d'indication approuvée ne sont pas disponibles. Les 5 premières :
+Les 20 AMM recensées sont des spécialités à base de carbocistéine seule. Les textes d'indication approuvée ne sont pas disponibles. Les 5 premières :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -113,7 +113,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Clarifier l'indication d'origine, absente des AMM
 - Réaliser une revue de littérature et des études précliniques pour tester l'hypothèse antioxydante/anti-inflammatoire dans la goutte
-- Évaluer la compatibilité des voies d'administration (voie orale uniquement connue) et la pertinence d'une réintroduction, étant donné le statut annulé des AMM
+- Évaluer la compatibilité des voies d'administration (voie orale uniquement connue)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

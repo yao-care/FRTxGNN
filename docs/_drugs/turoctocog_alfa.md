@@ -79,7 +79,7 @@ Aucune littérature associée disponible actuellement.
 | 66990599 | NOVOEIGHT 250 UI | Poudre et solvant pour solution injectable | Non renseignée | Active |
 | 62333524 | NOVOEIGHT 2000 UI | Poudre et solvant pour solution injectable | Non renseignée | Active |
 
-Une sixième AMM (68274043, NOVOEIGHT 500 UI) est également annulée. Le titulaire est NOVO NORDISK (Danemark) pour l'ensemble des AMM.
+Le titulaire est NOVO NORDISK (Danemark) pour l'ensemble des AMM.
 
 ## Considérations de Sécurité
 
@@ -97,7 +97,6 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une revue ciblée de la littérature et des registres d'essais pour le déficit acquis en facteur de coagulation, seule piste plausible
 - La clarification de l'entité « flood factor deficiency » et une évaluation du risque thrombotique
-- La confirmation de la disponibilité du produit, compte tenu du statut « annulé uniquement »
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

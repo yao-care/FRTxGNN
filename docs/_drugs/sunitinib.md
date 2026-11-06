@@ -93,7 +93,7 @@ Deux publications du jeu de données (PMID 38717131 sur le sarcome myofibroblast
 | 62416347 | SUNITINIB ZENTIVA 25 mg | Gélule | Non renseignée (AMM active) |
 | 62791429 | SUNITINIB ZENTIVA 50 mg | Gélule | Non renseignée (AMM active) |
 
-Au total, 20 AMM de médicaments génériques (Viatris, Accord, Biogaran, Zentiva, Teva, Sandoz, EG) sont recensées, toutes annulées.
+Au total, 20 AMM de médicaments génériques (Viatris, Accord, Biogaran, Zentiva, Teva, Sandoz, EG) sont recensées.
 
 ## Cytotoxicité
 
@@ -133,7 +133,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir et analyser la notice de l'ANSM (mises en garde et contre-indications)
 - Compléter les données sur le mécanisme d'action via DrugBank
 - Extraire les résultats spécifiques au liposarcome des études NCT00400569 et PMID 21154746 (taux de réponse, survie sans progression)
-- Vérifier la disponibilité réelle du sunitinib en France, compte tenu de l'annulation de toutes les AMM
 - Définir un plan de surveillance cardiaque, hépatique et hématologique
 
 ## Autres Indications Prédites (Pour Information)

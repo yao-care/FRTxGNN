@@ -115,7 +115,7 @@ L'association avec l'AVC repose essentiellement sur une prédiction du modèle T
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Évaluer, dans des cohortes de fibrillation atriale paroxystique ou persistante, l'effet de la dronédarone sur l'AVC comme critère principal
 - Définir les populations exclues (fibrillation atriale permanente, insuffisance cardiaque) et un plan de gestion des interactions, notamment avec les anticoagulants oraux directs
-- Clarifier la situation réglementaire en France, l'AMM étant annulée
+- Clarifier la situation réglementaire en France
 
 Les autres indications prédites (par exemple les amyloses, la sarcoglycanopathie, le syndrome de Wildervanck, l'obstruction duodénale) n'ont ni essai ni publication ni lien mécanistique plausible : elles restent en Hold. Le syndrome du sinus malade de type 2 soulève de plus un risque d'aggravation de la bradycardie.
 ## Avertissement

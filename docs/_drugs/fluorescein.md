@@ -86,7 +86,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible entre un colorant diagnostique et l'angor de Prinzmetal.
-- Les trois AMM françaises sont annulées, et les données de sécurité de la notice ne sont pas disponibles.
+- Les données de sécurité de la notice ne sont pas disponibles.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération des mises en garde et contre-indications de la notice (ANSM)

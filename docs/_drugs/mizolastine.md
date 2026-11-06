@@ -87,13 +87,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, aucun lien mécanistique plausible. De plus, les deux AMM françaises sont annulées et les données de sécurité de la notice sont manquantes.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, aucun lien mécanistique plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM) : élément bloquant pour tout examen de sécurité
 - Obtenir les données sur le mécanisme d'action (DrugBank) afin d'analyser d'éventuels liens mécanistiques
 - Mener une revue de littérature et des études précliniques ciblées pour déterminer si une hypothèse biologique crédible existe pour la porphyrie aiguë intermittente
-- Clarifier la disponibilité du produit en France, les AMM étant toutes annulées
+- Clarifier la disponibilité du produit en France
 - Évaluer, parmi les autres indications prédites, s'il en existe une avec un fondement mécanistique plus solide
 ## Avertissement
 

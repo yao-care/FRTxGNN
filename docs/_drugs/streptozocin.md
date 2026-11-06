@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-La streptozocine est un agent alkylant de la famille des nitrosourées. Elle est commercialisée en France sous le nom ZANOSAR, et son autorisation de mise sur le marché (AMM) y est aujourd'hui annulée. Le texte de l'indication approuvée n'est pas disponible dans les données compilées pour ce rapport.
+La streptozocine est un agent alkylant de la famille des nitrosourées. Elle est commercialisée en France sous le nom ZANOSAR. Le texte de l'indication approuvée n'est pas disponible dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **sclérose en plaques récurrente-rémittente**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction.
 
 ---
@@ -138,7 +138,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est peu plausible et le profil de toxicité (néphrotoxicité, effet diabétogène, nombreuses contre-indications) est défavorable.
-- Le blocage sur les données de sécurité de la notice empêche de passer au criblage de sécurité. L'AMM française est de plus annulée.
+- Le blocage sur les données de sécurité de la notice empêche de passer au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice (ANSM)

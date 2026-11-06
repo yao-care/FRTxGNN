@@ -86,7 +86,7 @@ Aucune littérature associée n'est disponible actuellement pour la dystrophie r
 
 ## Informations de Marché en France
 
-Les 17 AMM recensées sont toutes annulées. Le texte des indications approuvées n'est pas renseigné. Principales AMM :
+Le texte des indications approuvées n'est pas renseigné. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

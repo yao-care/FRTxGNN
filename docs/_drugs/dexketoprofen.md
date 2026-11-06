@@ -61,7 +61,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Cette action sur les prostaglandines et l'inflammation neurogène est impliquée dans la douleur migraineuse. La dexkétoprofène, déjà utilisée comme antalgique, peut donc raisonnablement s'appliquer à la crise de migraine aiguë. Plusieurs essais randomisés, dont un essai de phase 4 contrôlé contre placebo, et une méta-analyse d'essais randomisés ont évalué ce médicament dans cette situation.
 
-**Réserves :** les essais sont de phase 4 (post-commercialisation) et non de phase 3 ; plusieurs sont des comparaisons avec un traitement actif aux urgences ; et le statut de marché « annulé » impose de vérifier le contexte réglementaire et la disponibilité. L'étape de décision est limitée à S2 car aucune indication autorisée et actuellement commercialisée n'est établie.
+L'étape de décision est limitée à S2 car aucune indication autorisée et actuellement commercialisée n'est établie.
 
 ## Preuves d'Essais Cliniques
 
@@ -107,12 +107,11 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais randomisés (dont un essai de phase 4 contrôlé contre placebo) et une méta-analyse soutiennent l'usage de la dexkétoprofène dans la crise de migraine aiguë. Toutefois, il s'agit d'essais de phase 4, souvent contre comparateur actif, les AMM françaises sont toutes annulées et les données de sécurité de la notice manquent. La prudence s'impose.
+- Plusieurs essais randomisés (dont un essai de phase 4 contrôlé contre placebo) et une méta-analyse soutiennent l'usage de la dexkétoprofène dans la crise de migraine aiguë. Toutefois, il s'agit d'essais de phase 4, souvent contre comparateur actif et les données de sécurité de la notice manquent. La prudence s'impose.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice ANSM (mises en garde, contre-indications), une lacune bloquante pour l'évaluation de sécurité
 - Compléter les données sur le mécanisme d'action (DrugBank)
-- Vérifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France
 - Confirmer l'efficacité par un essai de phase 3 ou une analyse critique de la méta-analyse, dont les conclusions sont décrites comme controversées
 - Définir la voie d'administration adaptée (la compatibilité des voies n'est pas encore évaluée)
 ## Avertissement

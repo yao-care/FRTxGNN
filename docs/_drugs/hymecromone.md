@@ -60,7 +60,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'hypothèse mécanistique est que l'accumulation d'acide hyaluronique est impliquée, dans la littérature préclinique, dans la fibrose rénale et les lésions rénales diabétiques. Ce lien reste toutefois spéculatif : aucun essai ni publication n'a été fourni pour l'étayer.
 
-
 ### Autres prédictions du modèle
 
 Les autres indications prédites sont toutes au niveau L5 (aucune preuve clinique), avec une recommandation Hold :
@@ -99,12 +98,12 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication. L'AMM française est annulée et les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
+- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant
 - Obtenir les données sur le mécanisme d'action via DrugBank
-- Clarifier l'indication d'origine du médicament et les raisons de l'annulation de l'AMM
+- Clarifier l'indication d'origine du médicament
 - Mener une revue de la littérature préclinique sur l'inhibition de l'acide hyaluronique dans la néphropathie diabétique
 - Évaluer la compatibilité des voies d'administration (actuellement en attente)
 ## Avertissement

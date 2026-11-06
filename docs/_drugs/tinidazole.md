@@ -103,14 +103,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Par ailleurs, la vaginite atrophique est d'origine hormonale, et le mécanisme antimicrobien du tinidazole n'y apporte pas de justification plausible. La seule AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Par ailleurs, la vaginite atrophique est d'origine hormonale, et le mécanisme antimicrobien du tinidazole n'y apporte pas de justification plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA)
 - Mises en garde et contre-indications issues de la notice ANSM (étape bloquante pour le criblage de sécurité)
 - Rationnel biologique démontrant un rôle infectieux ou microbiote-dépendant dans la vaginite atrophique
 - Études précliniques ou cliniques pilotes, si un rationnel est établi
-- Vérification de la situation réglementaire, l'AMM étant annulée
+- Vérification de la situation réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

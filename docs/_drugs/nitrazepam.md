@@ -117,12 +117,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- L'indication prédite principale est essentiellement identique à l'indication d'origine (insomnie) : ce n'est pas un vrai repositionnement. Les deux autres prédictions ne reposent que sur le modèle (niveau L5), sans essai ni littérature, et celle du syndrome de Wernicke-Korsakoff est mécanistiquement peu cohérente. De plus, l'unique AMM française est annulée et les données de sécurité officielles manquent.
+- L'indication prédite principale est essentiellement identique à l'indication d'origine (insomnie) : ce n'est pas un vrai repositionnement. Les deux autres prédictions ne reposent que sur le modèle (niveau L5), sans essai ni littérature, et celle du syndrome de Wernicke-Korsakoff est mécanistiquement peu cohérente.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), indispensable avant tout dépistage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier le statut réglementaire (motif de l'annulation de l'AMM) et le texte de l'indication approuvée
+- Clarifier le statut réglementaire et le texte de l'indication approuvée
 - Réorienter l'évaluation vers une indication réellement distincte de l'insomnie, avec des preuves cliniques ciblées (par exemple pour l'encéphalopathie à convulsions biphasiques)
 - Évaluer les risques propres aux benzodiazépines (dépendance, chutes, effets résiduels) pour les populations âgées ou fragiles
 ## Avertissement

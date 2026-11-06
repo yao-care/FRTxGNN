@@ -59,7 +59,6 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Cette plausibilité reste toutefois fragile. Les INNTI sont généralement inactifs contre le VIH-2 et de nombreuses souches de VIS, en raison de variations naturelles de la poche de liaison des INNTI sur la transcriptase inverse. L'activité de la doravirine contre le VIS devrait donc être confirmée expérimentalement (tests enzymatiques *in vitro* sur la transcriptase inverse du VIS, études chez le macaque). Le score élevé reflète très probablement une proximité dans le réseau plutôt qu'une preuve directe.
 
-
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
@@ -91,7 +90,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et la seule publication liée porte sur un autre médicament. Les INNTI sont en outre généralement peu actifs contre le VIS, et le médicament n'a plus d'AMM valide en France. Le VIS est par ailleurs un modèle animal plutôt qu'une indication humaine.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et la seule publication liée porte sur un autre médicament. Les INNTI sont en outre généralement peu actifs contre le VIS. Le VIS est par ailleurs un modèle animal plutôt qu'une indication humaine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Tests *in vitro* de l'activité de la doravirine sur la transcriptase inverse du VIS, puis éventuellement des études chez le macaque

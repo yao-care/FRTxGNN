@@ -105,7 +105,7 @@ Veuillez consulter la notice pour les informations de sécurité (mises en garde
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (téléchargement et analyse du PDF)
 - Obtenir le mécanisme d'action détaillé (via DrugBank)
-- Vérifier le statut réglementaire : l'unique AMM identifiée est annulée, et le texte d'indication n'est pas renseigné
+- Le texte d'indication n'est pas renseigné
 - Réorienter l'évaluation vers les indications réellement nouvelles, en priorité le **cœur pulmonaire chronique** (niveau L3), en recherchant des essais contrôlés randomisés, les études disponibles étant petites et de faible rigueur méthodologique
 - Prévoir un suivi de la fonction rénale, de la kaliémie et de la tension artérielle pour toute population ciblée
 ## Avertissement

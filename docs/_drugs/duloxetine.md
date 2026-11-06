@@ -92,7 +92,6 @@ Il faut toutefois rester prudent : les preuves sont de petite taille et ne montr
 | 68263545 | CYMBALTA 60 mg, gélule gastro-résistante (active) | Gélule gastro-résistante | Non renseignée |
 | 66852477 | CYMBALTA 30 mg, gélule gastro-résistante (active) | Gélule gastro-résistante | Non renseignée |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : hypertension, atrophie multisystématisée, syndrome de tachycardie orthostatique posturale, hypotension orthostatique, épilepsie, trouble bipolaire, maladie hépatique (cirrhose, stéatose, hépatite), maladie de la vésicule biliaire, hyperglycémie, abus ou dépendance aux substances, troubles de la coagulation, glaucome à angle fermé, syndrome malin des neuroleptiques, syndrome de sécrétion inappropriée d'ADH, syndrome sérotoninergique.
@@ -105,13 +104,13 @@ Il faut toutefois rester prudent : les preuves sont de petite taille et ne montr
 
 **Justification :**
 - Les preuves pour le TOC sont encourageantes mais limitées (un petit ECR en augmentation, un essai de phase 4 de 20 patients, études ouvertes et cas), sans phase 3, ni démonstration de supériorité sur les ISRS.
-- Les AMM françaises sont toutes annulées et les données de sécurité de la notice manquent, ce qui bloque le passage à l'étape de dépistage de sécurité.
+- Les données de sécurité de la notice manquent, ce qui bloque le passage à l'étape de dépistage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Vérifier la conception et la phase de l'ECR de 2016 (PMID 27811556) pour confirmer le niveau de preuve
-- Clarifier la situation réglementaire en France (AMM annulées)
+- Clarifier la situation réglementaire en France
 - Envisager un essai contrôlé de plus grande taille comparant la duloxétine aux ISRS dans le TOC
 ## Avertissement
 

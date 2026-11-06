@@ -113,13 +113,11 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - Le score TxGNN est très élevé, mais il ne repose sur aucun mécanisme plausible (absence de NS5A chez le VHB) ni sur aucune étude testant velpatasvir contre le VHB. Les preuves se limitent à des données VHC et de co-infection (L4).
-- Les 5 AMM françaises sont toutes annulées, ce qui limite aussi la faisabilité réglementaire locale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de velpatasvir, et analyse de son éventuelle activité sur le VHB
 - Études précliniques in vitro sur des modèles d'infection par le VHB
 - Notice officielle de l'ANSM (mises en garde et contre-indications)
-- Clarification du statut des AMM annulées et de la disponibilité actuelle du produit en France
 
 **Autres prédictions du modèle :** les prédictions suivantes sont toutes de niveau L4 ou L5, sans soutien mécanistique ni clinique, et également en « Hold » : hépatite E, hépatite A, hépatite virale animale, fièvre hémorragique d'Omsk, maladie de la forêt de Kyasanur, infection par le VIH, infection par le virus de l'immunodéficience simienne, syndrome d'immunodéficience acquise féline et un trouble neurodéveloppemental génétique. Pour le VIH, les données portent uniquement sur le traitement du VHC chez des personnes vivant avec le VIH.
 ## Avertissement

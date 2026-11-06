@@ -112,7 +112,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5 pour l'indication principale), sans essai ni publication. Le profil de risque est défavorable (hyperkaliémie, atteinte rénale) dans une urgence hypertensive. La seule AMM française est annulée, et les données de sécurité de la notice sont absentes.
+- La prédiction repose uniquement sur le modèle (L5 pour l'indication principale), sans essai ni publication. Le profil de risque est défavorable (hyperkaliémie, atteinte rénale) dans une urgence hypertensive. Les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde, contre-indications), lacune bloquante pour le screening de sécurité

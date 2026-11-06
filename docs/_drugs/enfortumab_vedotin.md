@@ -104,12 +104,11 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la lèpre repose uniquement sur le score du modèle, sans essai, sans publication ni lien mécanistique. Le niveau de preuve est L5, et les AMM françaises sont toutes annulées.
+- La prédiction pour la lèpre repose uniquement sur le score du modèle, sans essai, sans publication ni lien mécanistique. Le niveau de preuve est L5.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) et analyse d'un éventuel lien Nectine-4 / infection mycobactérienne
 - Mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour le criblage de sécurité)
-- Indications originales approuvées et clarification du statut des AMM annulées
 - Données précliniques ou études de mécanisme justifiant la plausibilité biologique avant tout essai clinique
 ## Avertissement
 

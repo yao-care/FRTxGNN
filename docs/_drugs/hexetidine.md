@@ -85,8 +85,6 @@ Aucune littérature associée disponible actuellement pour l'anévrisme du septu
 | 67376038 | Hextril 0,1 pour cent | Bain de bouche, flacon | Non renseignée (AMM active) |
 | 66929112 | Hexetidine Viatris Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM active) |
 
-Deux autres AMM annulées existent au total (7 au total), dont Hextril 0,1 pour cent en pâte dentifrice et Hexetidine Teva Conseil 0,1 %.
-
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.

@@ -100,7 +100,7 @@ Pour la maladie de Paget mammaire (rang 1), le seul essai associé (NCT00002920,
 
 ## Informations de Marché en France
 
-Les 14 AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Cinq AMM sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Cinq AMM sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -135,12 +135,11 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - Le tamoxifène dispose de plusieurs essais de phase 3 et d'un essai randomisé contre placebo (TAM-01, suivi à 10 ans) dans le CCIS RE-positif. Il s'agit toutefois d'un usage oncologique établi, proche de l'indication d'origine.
 - Les autres prédictions sont soit sans données (carcinome cribriforme intracanalaire, carcinome mammaire sébacé), soit fondées sur des cas isolés (Paget), soit contraires à la biologie (basal-like, rhabdomyosarcome), soit précliniques (Ehrlich).
-- Les 14 AMM françaises sont toutes annulées, ce qui constitue un frein réglementaire important.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir la notice ANSM (mises en garde, contre-indications, indications approuvées) : lacune bloquante pour le criblage de sécurité.
 - Compléter les données sur le mécanisme d'action (via DrugBank).
-- Clarifier la situation réglementaire en France (raisons de l'annulation des AMM, éventuelles autres présentations disponibles).
+- Clarifier la situation réglementaire en France.
 - Limiter l'usage aux maladies RE-positives et définir un plan de surveillance des risques thromboemboliques et endométriens, avec prise en compte du statut CYP2D6 et de la charge d'interactions.
 - Pour la maladie de Paget mammaire, disposer d'études spécifiques avant toute décision.
 ## Avertissement

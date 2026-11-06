@@ -111,7 +111,6 @@ Les mises en garde et contre-indications issues des notices ANSM ne sont pas dis
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Notices ANSM (mises en garde et contre-indications) pour l'évaluation de sécurité
 - Définition d'une finalité réaliste (par exemple usage comme modèle de recherche préclinique) plutôt qu'un développement clinique humain
-- Vérification du statut réglementaire actuel du ritonavir en France, compte tenu de l'annulation de toutes les AMM
 
 Les deux autres prédictions de rang inférieur (SIDA félin et un trouble neurodéveloppemental rare avec ataxie) reposent uniquement sur le modèle (niveau L5), sans essai ni publication, et ne présentent pas de lien mécanistique plausible avec la pharmacologie connue du ritonavir ; elles restent en **Hold**.
 ## Avertissement

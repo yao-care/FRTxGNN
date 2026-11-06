@@ -94,7 +94,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (0,9963), sans aucun essai clinique ni publication. Le niveau de preuve est L5.
-- Les données de sécurité issues de la notice sont manquantes (lacune bloquante), le mécanisme d'action n'est pas documenté, et la seule AMM française est annulée.
+- Les données de sécurité issues de la notice sont manquantes (lacune bloquante), le mécanisme d'action n'est pas documenté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) pour permettre le dépistage de sécurité.

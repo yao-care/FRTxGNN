@@ -54,7 +54,6 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 | Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
-
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, l'empagliflozine est un inhibiteur du SGLT2 qui abaisse la glycémie en bloquant la réabsorption rénale du glucose, indépendamment de l'insuline. Son efficacité dans le diabète de type 2 est établie.
@@ -80,7 +79,6 @@ Aucune littérature associée disponible actuellement.
 | 64866745 | SYNJARDY 12,5 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 | 60901946 | SYNJARDY 5 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 
-
 ## Considérations de Sécurité
 
 - **Interactions Médicamenteuses** : 369 interactions sont recensées. Parmi les premières listées, la plupart sont de niveau **modéré** : phényléphrine, acébutolol, acétazolamide, formotérol, pseudoéphédrine, nifédipine, épinéphrine, éthinylestradiol, hydrocortisone, salbutamol, éthanol, fosamprénavir, fosinopril, fosphénytoïne, fostamatinib, fostémsavir, furosémide, géméfloxacine. Deux sont de niveau **mineur** : hydrocortisone (topique) et alclométasone (topique). Cette liste est partielle et ne reflète pas l'ensemble des 369 interactions.
@@ -98,7 +96,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Récupérer les mises en garde et contre-indications de la notice ANSM (donnée bloquante)
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank)
 - Rechercher des études précliniques ou des cas rapportés reliant l'inhibition du SGLT2 au syndrome de la personne raide
-- Vérifier le statut réglementaire actuel de l'empagliflozine en France (les AMM compilées sont toutes annulées)
+- Vérifier le statut réglementaire actuel de l'empagliflozine en France
 - Confirmer la prédiction de manière indépendante avant toute évaluation clinique
 ## Avertissement
 

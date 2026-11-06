@@ -98,7 +98,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans lien mécanistique plausible, et le produit n'est plus commercialisé en France (AMM annulée) avec un risque hépatique connu.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans lien mécanistique plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), qui bloque actuellement le criblage de sécurité.

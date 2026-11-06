@@ -90,7 +90,7 @@ Aucune littérature soutenant l'indication principale (maladie rénale hypertens
 | 61248124 | Fosinopril Biogaran 20 mg | Comprimé | Non renseignée (AMM active) |
 | 60736761 | Fosinopril Arrow Lab 20 mg | Comprimé | Non renseignée (AMM active) |
 
-Au total, 10 AMM figurent dans la base, toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg).
+Au total, 10 AMM figurent dans la base.
 
 ## Considérations de Sécurité
 
@@ -112,7 +112,6 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une recherche ciblée d'essais cliniques et de littérature sur l'atteinte rénale de l'hypertension maligne
 - Une clarification : cette indication est-elle un véritable repositionnement ou un sous-type de l'hypertension déjà traitée ?
-- Une évaluation de la faisabilité réglementaire, compte tenu de l'annulation de toutes les AMM
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

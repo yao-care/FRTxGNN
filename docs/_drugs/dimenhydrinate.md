@@ -61,7 +61,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 L'urticaire est une affection médiée par la libération d'histamine par les mastocytes. Le blocage des récepteurs H1 par la fraction diphénhydramine est donc un mécanisme plausible et bien connu, et les antihistaminiques de première génération ont été employés cliniquement dans cette situation. Le score TxGNN très élevé est cohérent avec ce raisonnement fondé sur la classe pharmacologique, mais il reste une prédiction.
 
-Il faut toutefois nuancer : les recommandations actuelles privilégient les antihistaminiques H1 de seconde génération, non sédatifs. Un agent sédatif de première génération apporte peu d'avantage, et le statut commercial (AMM toutes annulées) limite l'intérêt pratique d'un développement.
+Il faut toutefois nuancer : les recommandations actuelles privilégient les antihistaminiques H1 de seconde génération, non sédatifs. Un agent sédatif de première génération apporte peu d'avantage, et le statut commercial limite l'intérêt pratique d'un développement.
 
 La seconde prédiction, l'**urticaire au froid** (score 0,9924), repose sur la même logique mécanistique mais ne dispose d'aucun essai ni d'aucune publication. Elle reste au niveau L5 avec une décision Hold.
 

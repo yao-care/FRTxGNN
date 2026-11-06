@@ -116,14 +116,14 @@ Pour les mises en garde et contre-indications détaillées, veuillez consulter l
 **Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique (inhibition de SMO dans un médulloblastome dépendant de Hedgehog) est plausible. Mais l'indication repose uniquement sur le score du modèle, sans essai ni publication, et l'unique AMM française est annulée.
+- Le lien mécanistique (inhibition de SMO dans un médulloblastome dépendant de Hedgehog) est plausible. Mais l'indication repose uniquement sur le score du modèle, sans essai ni publication.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Une recherche ciblée de données précliniques et cliniques sur le médulloblastome du sous-groupe SHH traité par inhibiteurs de SMO.
 - Les données détaillées sur le mécanisme d'action.
 - Les mises en garde et contre-indications officielles de la notice.
 - Une évaluation de la sécurité pédiatrique (tératogénicité, effets sur la croissance).
-- Une clarification du statut réglementaire en France, l'AMM étant annulée.
+- Une clarification du statut réglementaire en France.
 
 À titre d'orientation complémentaire, parmi les autres indications prédites, le **xeroderma pigmentosum** est la mieux documentée (trois publications, dont deux cas cliniques de traitement par vismodégib de carcinomes basocellulaires associés). L'effet est cependant indirect : il traite la complication tumorale et non le défaut de réparation de l'ADN.
 ## Avertissement

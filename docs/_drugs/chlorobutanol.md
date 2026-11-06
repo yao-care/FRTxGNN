@@ -112,7 +112,6 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Notice de l'ANSM (mises en garde, contre-indications) pour pouvoir réaliser un criblage de sécurité
 - Recherche systématique d'études précliniques ou cliniques pertinentes
 - Évaluation de la compatibilité des voies d'administration (aucune voie systémique ou adaptée n'est disponible)
-- Clarification du statut réglementaire après l'annulation des AMM
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

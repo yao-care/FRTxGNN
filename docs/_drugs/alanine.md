@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 
 ## Resume en Une Phrase
 
-L'alanine est un acide aminé non essentiel, présent dans de nombreux produits de nutrition parentérale et de dialyse péritonéale commercialisés en France (aujourd'hui tous annulés).
+L'alanine est un acide aminé non essentiel, présent dans de nombreux produits de nutrition parentérale et de dialyse péritonéale commercialisés en France.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **gastroparésie**, mais cette prédiction repose uniquement sur un score informatique.
 Aucun essai clinique n'est enregistré, et les **3 publications** retrouvées ne traitent ni de l'alanine comme traitement ni de la gastroparésie comme critère de résultat.
 
@@ -88,7 +88,7 @@ Ces publications sont indirectes : aucune n'étudie l'alanine comme traitement d
 
 ## Informations de Marche en France
 
-Les 20 AMM sont annulées. Les textes d'indication ne sont pas disponibles. Voici les 5 premières :
+Les textes d'indication ne sont pas disponibles. Voici les 5 premières :
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|

@@ -117,12 +117,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- La manie bipolaire correspond à l'indication d'origine de la loxapine, et la littérature (revues, méta-analyse, analyse de deux ECR de phase 3 sur la forme inhalée) est cohérente avec cette direction. La seule AMM française recensée est annulée, et aucun essai clinique n'est enregistré.
+- La manie bipolaire correspond à l'indication d'origine de la loxapine, et la littérature (revues, méta-analyse, analyse de deux ECR de phase 3 sur la forme inhalée) est cohérente avec cette direction. Aucun essai clinique n'est enregistré.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le dépistage de sécurité.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
-- Clarifier le statut réglementaire actuel (AMM annulée) et la formulation visée (orale, injectable ou inhalée).
+- Clarifier le statut réglementaire actuel et la formulation visée (orale, injectable ou inhalée).
 - Examiner les ECR primaires de la loxapine dans la manie aiguë, au-delà des revues.
 - Établir un plan de surveillance de sécurité (syndrome malin des neuroleptiques, dyskinésie tardive, effets cardiovasculaires, interactions anticholinergiques et dépresseurs du SNC).
 

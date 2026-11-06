@@ -108,14 +108,14 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 
 **Justification :**
 - La prédiction est plausible mais prolonge largement l'indication hypertensive déjà connue, sans aucun essai ni publication spécifique. Le niveau de preuve est L5.
-- Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes, ce qui bloque une évaluation de sécurité complète.
+- Les données de sécurité de la notice sont absentes, ce qui bloque une évaluation de sécurité complète.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Rechercher des études cliniques ou observationnelles sur l'hypertension rénovasculaire maligne.
 - Évaluer le risque rénal chez les patients atteints de sténose bilatérale des artères rénales.
-- Clarifier la disponibilité du produit en France, puisque seules des AMM annulées sont recensées.
+- Clarifier la disponibilité du produit en France.
 - Si une piste alternative est envisagée, l'hypertension pulmonaire liée à l'hypoxie (L4) pourrait constituer une question de recherche, à valider d'abord par des études chez l'humain.
 ## Avertissement
 

@@ -94,7 +94,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le profil de sécurité soulève des signaux défavorables (vol coronarien, hypotension, interaction majeure avec l'épinéphrine), et l'usage d'un anesthésique général inhalé est peu réaliste pour un angor chronique. Les AMM françaises sont toutes annulées.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le profil de sécurité soulève des signaux défavorables (vol coronarien, hypotension, interaction majeure avec l'épinéphrine), et l'usage d'un anesthésique général inhalé est peu réaliste pour un angor chronique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle (mises en garde et contre-indications) via le site de l'ANSM, qui constitue actuellement un point bloquant pour le criblage de sécurité

@@ -79,7 +79,7 @@ Ces données sont anciennes, portent sur des associations et laissent la contrib
 | 69497177 | STERDEX, pommade ophtalmique en récipient unidose (THEA) | Pommade | Non renseignée (AMM active) |
 | 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire (GRIMBERG) | Poudre et solvant pour suspension pour instillation | Non renseignée (AMM active) |
 
-Les deux AMM sont annulées, et les formes disponibles sont à usage ophtalmique et auriculaire. Aucune n'est conçue pour une administration nasale ou sinusienne, ce qui soulève une question de voie d'administration pour la nouvelle indication.
+Les formes disponibles sont à usage ophtalmique et auriculaire. Aucune n'est conçue pour une administration nasale ou sinusienne, ce qui soulève une question de voie d'administration pour la nouvelle indication.
 
 ## Considérations de Sécurité
 
@@ -96,7 +96,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni aucune publication ne la soutiennent, le mécanisme d'action n'est pas documenté et le médicament n'a plus d'AMM valide en France.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni aucune publication ne la soutiennent, le mécanisme d'action n'est pas documenté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action (DrugBank) pour analyser le lien mécanistique.

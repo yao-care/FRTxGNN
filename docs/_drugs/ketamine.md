@@ -109,14 +109,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Les essais dans les céphalées sont nombreux mais de petite taille, hétérogènes (sous-types, voies d'administration, comparateurs) et l'essai de Phase 3 en cours n'a pas encore de résultats. De plus, les AMM françaises sont toutes annulées et les données de sécurité issues de la notice manquent (lacune bloquante), ce qui empêche de passer à l'évaluation de sécurité.
+- Les essais dans les céphalées sont nombreux mais de petite taille, hétérogènes (sous-types, voies d'administration, comparateurs) et l'essai de Phase 3 en cours n'a pas encore de résultats.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM
 - Compléter les données sur le mécanisme d'action via DrugBank
 - Obtenir les résultats de l'essai KetHead (NCT05306899) et ceux publiés de l'essai THINK (NCT03081416)
 - Préciser le sous-type de céphalée visé (aiguë aux urgences ou chronique réfractaire) et la voie d'administration
-- Clarifier la situation réglementaire (AMM annulées) et la faisabilité d'une voie d'administration adaptée
+- Clarifier la situation réglementaire et la faisabilité d'une voie d'administration adaptée
 - Évaluer le profil de risque cardiovasculaire, cérébrovasculaire et d'abus potentiel dans la population cible
 ## Avertissement
 

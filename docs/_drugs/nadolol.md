@@ -102,7 +102,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication clinique. Les scores élevés reflètent surtout la proximité avec l'indication hypertension. Les prédictions d'hypertension pulmonaire soulèvent en outre une préoccupation de sécurité, et la seule AMM française est annulée.
+- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication clinique. Les scores élevés reflètent surtout la proximité avec l'indication hypertension. Les prédictions d'hypertension pulmonaire soulèvent en outre une préoccupation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

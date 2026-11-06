@@ -105,14 +105,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle et sur un raisonnement par classe pharmacologique, sans essai clinique ni étude directe sur ce sous-type. Les triptans sont de plus traditionnellement déconseillés dans la migraine avec aura du tronc cérébral, et l'AMM française est annulée. Le dossier de sécurité (données de notice absentes) est bloquant à ce stade.
+- La prédiction repose uniquement sur le modèle et sur un raisonnement par classe pharmacologique, sans essai clinique ni étude directe sur ce sous-type. Les triptans sont de plus traditionnellement déconseillés dans la migraine avec aura du tronc cérébral. Le dossier de sécurité (données de notice absentes) est bloquant à ce stade.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice (ANSM).
 - Compléter les données sur le mécanisme d'action.
 - Analyser en détail le risque vasculaire (circulation postérieure) et les contre-indications du graphe, notamment la migraine hémiplégique et l'insuffisance vertébrobasilaire.
 - Rechercher des études cliniques ou observationnelles ciblant spécifiquement la migraine avec aura du tronc cérébral.
-- Clarifier la situation réglementaire, l'AMM étant annulée.
+- Clarifier la situation réglementaire.
 
 *Autres prédictions (niveau L5, Hold) : l'atrophodermie vermiculée (score 0,9974) et l'ulérythème ophryogène (score 0,9947) n'ont aucun essai, aucune publication et aucun lien mécanistique identifié ; elles relèvent d'une prédiction purement computationnelle.*
 ## Avertissement

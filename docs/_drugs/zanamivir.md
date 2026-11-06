@@ -92,7 +92,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai ni publication pertinente, et aucun mécanisme plausible reliant un inhibiteur de neuraminidase virale à une infection bactérienne.
-- L'AMM française est annulée et les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- Les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).

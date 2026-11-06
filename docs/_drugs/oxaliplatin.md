@@ -95,7 +95,7 @@ Cependant, aucun essai de phase 3 ne confirme sa supériorité ou son équivalen
 | 69634537 | Oxaliplatine Teva 5 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 | 61941057 | Eloxatine 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-Au total, 10 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
+Au total, 10 AMM sont recensées; seules les 5 premières sont listées ici.
 
 ## Cytotoxicité
 
@@ -128,7 +128,7 @@ Le signal est plausible (score TxGNN élevé, plusieurs phases II), mais les pre
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Résultats publiés de NCT00859469 et NCT00996385
 - Un essai randomisé comparant l'oxaliplatine au standard pemetrexed-platine
-- Clarification du statut réglementaire (AMM toutes annulées) et de la disponibilité du produit en France
+- Clarification du statut réglementaire et de la disponibilité du produit en France
 - Pour les sous-types (épithélioïde, sarcomatoïde) et la tumeur de la plèvre viscérale, les preuves sont indirectes (niveaux L3-L4) ; ils ne justifient pas d'avancer en l'état
 ## Avertissement
 

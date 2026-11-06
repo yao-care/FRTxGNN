@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Le difluprednate est un corticoïde de synthèse puissant, utilisé en ophtalmologie pour traiter l'inflammation et la douleur après chirurgie oculaire ainsi que l'uvéite antérieure. La seule AMM française recensée (une crème dermatologique) est aujourd'hui annulée et ne mentionne aucune indication.
+Le difluprednate est un corticoïde de synthèse puissant, utilisé en ophtalmologie pour traiter l'inflammation et la douleur après chirurgie oculaire ainsi que l'uvéite antérieure.
 Le modèle TxGNN place en tête de classement la **forme familiale d'hypoplasie surrénalienne avec absence de LH hypophysaire** (score de 0,9996), mais cette prédiction n'est soutenue par aucune donnée clinique. La piste la plus plausible sur le plan biologique est la **maladie de l'iris**, soutenue par **0 essai clinique** et **1 publication** préclinique.
 
 ## Aperçu Rapide
@@ -93,7 +93,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Décision : Hold** (pour l'ensemble des indications prédites ; la maladie de l'iris peut être retenue comme question de recherche)
 
 **Justification :**
-- Toutes les prédictions reposent sur le score du modèle seul (L5), sauf la maladie de l'iris (L4) qui ne dispose que d'une étude préclinique chez l'animal. Aucun essai clinique n'existe, et le produit n'est plus commercialisé en France (AMM annulée).
+- Toutes les prédictions reposent sur le score du modèle seul (L5), sauf la maladie de l'iris (L4) qui ne dispose que d'une étude préclinique chez l'animal. Aucun essai clinique n'existe.
 - Les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

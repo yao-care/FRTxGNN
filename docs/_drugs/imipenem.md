@@ -126,7 +126,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Pour la sclérodermie diffuse : preuves précliniques démontrant un effet antifibrosant ou immunomodulateur, sinon abandon de cette piste
 - Pour les infections à *Salmonella* résistantes : études cliniques comparatives spécifiques à l'imipénème, face au méropénème et à l'azithromycine
 - Pour l'infection à SARM : publication des résultats de l'essai NCT00871104
-- Clarification du statut réglementaire en France (AMM annulées) et de la disponibilité réelle du produit
+- Clarification du statut réglementaire en France et de la disponibilité réelle du produit
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

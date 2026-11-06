@@ -79,8 +79,6 @@ Aucun essai clinique associé enregistré actuellement.
 | 61853027 | GLATIRAMER VIATRIS 20 mg/ml, solution injectable en seringue préremplie | Solution injectable | Non renseignée |
 | 69849244 | GLATIRAMER VIATRIS 40 mg/ml, solution injectable en seringue préremplie | Solution injectable | Non renseignée |
 
-Les quatre AMM ont le statut « annulée ».
-
 ## Considérations de Sécurité
 
 - **Interactions Médicamenteuses** : une interaction de niveau **majeur** est rapportée avec le **natalizumab** (source : DDInter).
@@ -98,7 +96,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Données sur le mécanisme d'action du glatiramer et démonstration d'un lien plausible avec la physiopathologie des hémoglobinopathies
 - Données précliniques ou observationnelles pertinentes
 - Mises en garde et contre-indications issues de la notice officielle (ANSM), nécessaires avant toute évaluation de sécurité
-- Clarification du statut réglementaire en France (AMM annulées) et de la compatibilité de la voie d'administration avec l'indication visée
+- Clarification du statut réglementaire en France et de la compatibilité de la voie d'administration avec l'indication visée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

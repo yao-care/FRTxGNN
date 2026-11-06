@@ -85,7 +85,7 @@ Les publications directement pertinentes sont anciennes (1981-1990). Les autres 
 
 ## Informations de Marché en France
 
-Les 8 AMM sont annulées. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
+Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -116,7 +116,7 @@ Les 8 AMM sont annulées. Le texte de l'indication approuvée n'est pas renseign
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Comparer le midazolam aux hypnotiques actuellement disponibles, au regard de la balance bénéfice-risque.
-- Vérifier la compatibilité des voies d'administration avec l'usage hypnotique, les AMM annulées étant essentiellement injectables.
+- Vérifier la compatibilité des voies d'administration avec l'usage hypnotique.
 - Évaluer, avec les données récentes, la pertinence d'un nouveau dossier réglementaire.
 ## Avertissement
 

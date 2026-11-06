@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 10 AMM recensées sont toutes annulées. Les 5 premières sont listées ci-dessous.
+Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -115,7 +115,6 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Mener une revue de la littérature sur les benzodiazépines dans la migraine.
-- Clarifier les raisons de l'annulation des AMM et l'indication originale approuvée.
 - Évaluer la compatibilité de la voie d'administration et la similarité avec l'indication d'origine.
 ## Avertissement
 

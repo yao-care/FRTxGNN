@@ -110,7 +110,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données sur le mécanisme d'action (MOA) pour analyser un éventuel lien mécanistique.
 - Mises en garde et contre-indications issues de la notice de l'ANSM (données bloquantes pour le criblage de sécurité).
 - Études précliniques démontrant un rôle d'ALK, ROS1 ou MET dans la fibromatose gingivale.
-- Clarification du statut réglementaire en France (AMM annulées).
+- Clarification du statut réglementaire en France.
 - Si un repositionnement oncologique est visé, privilégier les pistes plus documentées (carcinome du hile pulmonaire, tumeurs avec altération ALK/ROS1/MET dans des essais de type panier).
 ## Avertissement
 

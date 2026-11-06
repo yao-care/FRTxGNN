@@ -110,13 +110,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme (inhibition de l'IGF-1R) semble en contradiction avec les objectifs thérapeutiques du syndrome de Turner. De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme (inhibition de l'IGF-1R) semble en contradiction avec les objectifs thérapeutiques du syndrome de Turner.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice sur le site de l'ANSM (donnée bloquante).
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Établir un argumentaire biologique plausible pour l'inhibition de l'IGF-1R dans le syndrome de Turner, ou envisager une indication candidate alternative plus cohérente.
-- Clarifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel.
 - Rechercher des études précliniques ou observationnelles avant tout développement clinique.
 ## Avertissement
 

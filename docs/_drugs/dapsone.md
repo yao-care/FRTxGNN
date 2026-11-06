@@ -112,7 +112,6 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 
 **Justification :**
 - Plusieurs essais de phase 3 terminés (prophylaxie et traitement de la pneumocystose) et des méta-analyses en réseau récentes soutiennent l'usage de la dapsone dans cette indication, ce qui correspond au niveau de preuve L1. Le profil de risque (hémolyse, méthémoglobinémie, déficit en G6PD) impose toutefois des garde-fous, et la dapsone reste un traitement de seconde intention après le TMP-SMX.
-- Le statut réglementaire français est défavorable : la seule AMM identifiée est annulée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications officielles), ce qui bloque actuellement le criblage de sécurité.

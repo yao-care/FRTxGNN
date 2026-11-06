@@ -100,8 +100,6 @@ Aucune publication ne traite spécifiquement de l'épilepsie visuelle. Les réf�
 | 69856153 | FYCOMPA 10 mg | Comprimé pelliculé | Non renseignée | Active |
 | 61849146 | FYCOMPA 12 mg | Comprimé pelliculé | Non renseignée | Active |
 
-(2 autres AMM annulées existent : FYCOMPA 8 mg et FYCOMPA 4 mg.)
-
 ---
 
 ## Considérations de Sécurité
@@ -124,13 +122,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
+- Les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications) pour l'évaluation de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action.
 - Rechercher des données spécifiques à l'épilepsie photosensible/visuelle (modèles précliniques, séries de cas).
-- Clarifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France.
 
 ---
 

@@ -103,7 +103,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)
 - Obtenir les données sur le mécanisme d'action via DrugBank
-- Clarifier la pertinence d'une évaluation, compte tenu de l'indication déjà existante et du statut annulé des AMM
 - Vérifier si la formulation (notamment ophtalmique) est compatible avec l'indication, aucune donnée de voie d'administration n'étant disponible
 ## Avertissement
 

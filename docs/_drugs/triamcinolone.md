@@ -92,7 +92,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à deux rapports de cas, dont aucun ne documente l'usage du triamcinolone dans cette indication, sans aucun essai clinique. De plus, les deux AMM françaises sont annulées, ce qui réduit l'intérêt pratique.
+- Les preuves se limitent à deux rapports de cas, dont aucun ne documente l'usage du triamcinolone dans cette indication, sans aucun essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité)

@@ -87,8 +87,6 @@ Aucun essai clinique associé enregistré actuellement.
 | 61797183 | BLISSEL 50 microgrammes/g, gel vaginal | Gel | Non renseignée (AMM active) |
 | 62263257 | TROPHICREME 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM active) |
 
-Deux autres AMM annulées existent (PHYSIOGINE 0,5 mg ovule ; TROPHIGIL gélule vaginale).
-
 ## Considerations de Securite
 
 **Interactions Medicamenteuses / Pharmacologie :** les données disponibles décrivent uniquement les cibles pharmacologiques de l'estriol (récepteurs aux œstrogènes alpha et bêta), sans interaction médicamenteuse cliniquement classée.
@@ -106,7 +104,7 @@ Veuillez consulter la notice pour les informations de sécurité (mises en garde
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), qui bloque l'évaluation de sécurité
 - Compléter les données de mécanisme d'action (par ex. via DrugBank)
-- Clarifier l'indication originale et les raisons de l'annulation des AMM
+- Clarifier l'indication originale
 - Examiner en détail l'étude de 2012 et la revue de 2023, puis évaluer la faisabilité d'un essai clinique contrôlé dans l'AHF
 - Vérifier la compatibilité des voies d'administration (vaginale/orale) avec l'indication visée
 ## Avertissement

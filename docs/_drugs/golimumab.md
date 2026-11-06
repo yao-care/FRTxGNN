@@ -98,8 +98,6 @@ Ce raisonnement reste toutefois théorique. Les données disponibles concernent 
 | 62534114 | SIMPONI 100 mg, solution injectable en stylo prérempli | Solution injectable | Active |
 | 62222050 | SIMPONI 50 mg, solution injectable en stylo pré-rempli | Solution injectable | Active |
 
-Les 4 AMM, détenues par JANSSEN CILAG INTERNATIONAL NV, sont annulées.
-
 ---
 
 ## Considérations de Sécurité
@@ -129,7 +127,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Des données cliniques directes sur le golimumab (ou d'autres anti-TNF) dans la vascularite rhumatoïde : séries de cas, études observationnelles, puis essai contrôlé.
 - Les données de mécanisme d'action détaillées, afin de mieux analyser le lien mécanistique.
 - Les mises en garde et contre-indications officielles issues de la notice, pour mener l'évaluation de sécurité.
-- Une clarification du statut réglementaire en France (AMM annulées) et des voies d'accès possibles.
+- Une clarification du statut réglementaire en France et des voies d'accès possibles.
 - Une évaluation de l'artérite de Takayasu et des autres vascularites apparues sous anti-TNF, afin de mesurer le risque dans cette population.
 ## Avertissement
 

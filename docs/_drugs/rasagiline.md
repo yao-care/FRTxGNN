@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 14 AMM recensées sont toutes annulées. Les 5 premières sont listées ci-dessous (le texte d'indication approuvée n'est pas renseigné).
+Les 5 premières sont listées ci-dessous (le texte d'indication approuvée n'est pas renseigné).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -104,7 +104,6 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Rechercher des études précliniques ou des séries de cas sur la rasagiline dans la neurodégénérescence associée à PLA2G6.
 - Évaluer l'indication voisine du parkinsonisme juvénile de Hunt, dont le lien mécanistique est le plus fort (niveau L4, « question de recherche »), avec des données pédiatriques et de sécurité spécifiques.
-- Clarifier la disponibilité réelle du produit en France, compte tenu des AMM annulées.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

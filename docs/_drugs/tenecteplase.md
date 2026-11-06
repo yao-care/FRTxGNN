@@ -89,8 +89,6 @@ Aucune littérature associée disponible actuellement pour l'infarctus postéro-
 | 65088998 | METALYSE 10 000 unités (50 mg) | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
 | 62750941 | METALYSE 5000 unités (25 mg) | Poudre pour solution injectable | Non renseignée (AMM active) |
 
-Les deux AMM, détenues par Boehringer Ingelheim International, sont annulées.
-
 ---
 
 ## Considérations de Sécurité
@@ -110,7 +108,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction ne repose sur aucune preuve spécifique (L5) et reprend l'indication de l'infarctus du myocarde, déjà connue. De plus, les deux AMM françaises sont annulées.
+- La prédiction ne repose sur aucune preuve spécifique (L5) et reprend l'indication de l'infarctus du myocarde, déjà connue.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice ANSM (données bloquantes pour l'évaluation de sécurité)

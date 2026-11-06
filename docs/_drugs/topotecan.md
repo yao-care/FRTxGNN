@@ -121,7 +121,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications) ; cette lacune est bloquante.
 - Compléter les données sur le mécanisme d'action via DrugBank.
-- Clarifier la situation réglementaire (AMM annulées) et la disponibilité réelle d'une formulation en France.
+- Clarifier la situation réglementaire et la disponibilité réelle d'une formulation en France.
 - Obtenir des données cliniques plus solides dans le cancer du sein, par exemple des essais de phase 2 ciblant les sous-types dépendants de MYC ou triple négatifs.
 - Définir un plan de surveillance hématologique et de sécurité, compte tenu du risque élevé de myélosuppression.
 

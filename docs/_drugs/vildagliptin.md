@@ -69,7 +69,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de marché en France
 
-Les 18 AMM recensées sont toutes annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Titulaire | Statut |
 |---------|------|------|------|------|
@@ -89,7 +89,6 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5). Aucun essai clinique ni publication ne la soutient, et aucun lien mécanistique plausible n'a pu être établi.
-- Le médicament n'a plus d'AMM valide en France, ce qui limite aussi sa disponibilité pratique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données mécanistiques détaillées, et notamment une hypothèse biologique crédible reliant l'inhibition de la DPP-4 à la physiopathologie du syndrome de la personne raide.

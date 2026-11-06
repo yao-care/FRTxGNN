@@ -104,14 +104,13 @@ Les mises en garde et contre-indications officielles ne sont pas disponibles ; v
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication. La pénétration limitée dans le SNC et le profil de toxicité des inhibiteurs de MEK affaiblissent le rapport bénéfice/risque. De plus, l'AMM française est annulée, et les données de sécurité de la notice manquent (point bloquant).
+- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication. La pénétration limitée dans le SNC et le profil de toxicité des inhibiteurs de MEK affaiblissent le rapport bénéfice/risque.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications) afin de permettre le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Études précliniques de la voie MAPK/ERK dans des modèles de SLA, avec évaluation de l'exposition cérébrale du cobimétinib
 - Revue systématique de la littérature et des registres d'essais sur les inhibiteurs de MEK dans les maladies du motoneurone
-- Clarifier la pertinence de l'AMM annulée (disponibilité du produit en France)
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

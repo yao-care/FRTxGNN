@@ -106,7 +106,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - Les preuves se limitent à un niveau L4 : une étude préclinique et un essai de phase 1B de tolérance, sans essai clinique d'efficacité enregistré. Le score TxGNN élevé (0,9914) reflète une prédiction du modèle, non une preuve clinique.
-- Les cinq AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes.
+- Les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).

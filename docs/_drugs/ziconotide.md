@@ -111,12 +111,11 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La preuve se limite à un rapport de cas et à des revues, sans aucun essai clinique. Le produit n'a plus d'AMM valide en France (autorisation annulée) et la voie intrathécale invasive présente un rapport bénéfice-risque défavorable pour la migraine. Les données de sécurité officielles sont absentes, ce qui bloque le passage au criblage de sécurité.
+- La preuve se limite à un rapport de cas et à des revues, sans aucun essai clinique. La voie intrathécale invasive présente un rapport bénéfice-risque défavorable pour la migraine. Les données de sécurité officielles sont absentes, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), donnée bloquante.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Confirmer l'indication originale de l'AMM annulée.
 - Réaliser une étude prospective ou une série de cas plus large chez des patients migraineux réfractaires, avec un plan de surveillance neuropsychiatrique.
 - Comparer le ziconotide aux alternatives non invasives (anti-CGRP, par exemple) pour justifier l'intérêt clinique.
 ## Avertissement

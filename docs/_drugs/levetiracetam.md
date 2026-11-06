@@ -120,7 +120,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Deux essais de phase 3 terminés (NCT01960075, NCT01150331) et un ECR publié dans le NEJM soutiennent l'usage du lévétiracétam dans l'état de mal épileptique. Les comparaisons n'établissent toutefois pas de supériorité sur les alternatives, et le statut réglementaire français (AMM toutes annulées) reste à clarifier.
+- Deux essais de phase 3 terminés (NCT01960075, NCT01150331) et un ECR publié dans le NEJM soutiennent l'usage du lévétiracétam dans l'état de mal épileptique. Les comparaisons n'établissent toutefois pas de supériorité sur les alternatives, et le statut réglementaire français reste à clarifier.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Clarifier le statut des AMM annulées et l'indication autorisée en France

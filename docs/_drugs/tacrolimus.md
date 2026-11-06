@@ -124,7 +124,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - Un essai de phase 3 terminé (n = 120) et un essai de phase 4 terminé (n = 104) portent directement sur la pommade de tacrolimus dans la dermatite séborrhéique, avec une étude clinique publiée à l'appui. Le niveau de preuve est donc L2 selon la grille (un seul essai de phase 3 : le niveau L1 n'est pas atteint). Le mécanisme est plausible.
-- Toutes les AMM françaises du tacrolimus sont annulées, et les données de sécurité officielles sont absentes.
+- Les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser les notices de l'ANSM (mises en garde et contre-indications), bloquant pour le criblage de sécurité

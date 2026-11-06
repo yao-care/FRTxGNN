@@ -95,7 +95,7 @@ Parmi les essais recensés, seuls ceux dont l'intervention est le potassium lui-
 
 ## Informations de Marché en France
 
-Les 19 AMM recensées sont annulées. Aucune n'a de texte d'indication renseigné. Les cinq premières sont listées ci-dessous.
+Aucune n'a de texte d'indication renseigné. Les cinq premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

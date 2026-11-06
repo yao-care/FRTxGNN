@@ -94,7 +94,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (hypertrichose) repose uniquement sur le modèle (niveau L5), sans mécanisme plausible, essai ni publication. Le profil de sécurité vasculaire de la classe et la seule AMM française annulée renforcent la recommandation de ne pas poursuivre. La migraine (niveau L4) peut au mieux constituer une question de recherche, mais elle est désavantagée par le risque cardiovasculaire et par l'existence d'alternatives approuvées.
+- La prédiction principale (hypertrichose) repose uniquement sur le modèle (niveau L5), sans mécanisme plausible, essai ni publication. La migraine (niveau L4) peut au mieux constituer une question de recherche, mais elle est désavantagée par le risque cardiovasculaire et par l'existence d'alternatives approuvées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mécanisme d'action détaillé (DrugBank)

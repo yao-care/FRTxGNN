@@ -95,7 +95,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre un cytotoxique et la cataracte diabétique.
-- L'autorisation française est annulée, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité initiale.
+- Les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité initiale.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice ANSM (mises en garde et contre-indications)

@@ -46,7 +46,7 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 
 ## Informations de Marché en France
 
-Les 5 AMM sont annulées. Le texte des indications approuvées n'est pas renseigné.
+Le texte des indications approuvées n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

@@ -98,7 +98,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L3 : un cas clinique, des revues et une publication de 2026 qui semble être un essai randomisé, mais dont le design et les résultats ne sont pas vérifiés. Aucun essai enregistré n'existe, et les données de sécurité officielles manquent, ce qui bloque le passage au criblage de sécurité. Le produit n'a plus d'AMM valide en France.
+- Le niveau de preuve est L3 : un cas clinique, des revues et une publication de 2026 qui semble être un essai randomisé, mais dont le design et les résultats ne sont pas vérifiés. Aucun essai enregistré n'existe, et les données de sécurité officielles manquent, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM
@@ -106,7 +106,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Vérifier le texte intégral de la publication PMID 42640474 (design, effectif, critères de jugement, résultats, événements indésirables)
 - Rechercher ou enregistrer des essais cliniques de ropinirole dans le TDAH
 - Évaluer la sécurité en population pédiatrique, notamment les risques psychiatriques et de troubles du contrôle des impulsions
-- Clarifier la situation réglementaire (AMM annulée) et la voie d'administration
+- Clarifier la situation réglementaire et la voie d'administration
 
 ### Autres prédictions (information complémentaire)
 

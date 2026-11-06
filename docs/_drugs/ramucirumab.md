@@ -102,14 +102,14 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Les données de sécurité de la notice et le mécanisme d'action sont manquants, et la seule AMM française est annulée.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Les données de sécurité de la notice et le mécanisme d'action sont manquants.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Réaliser une revue systématique de la littérature et des registres d'essais sur le ramucirumab dans les cancers gynécologiques
 - Hiérarchiser les entités prédites (par exemple le carcinome endocervical, mieux étayé par le rationnel anti-angiogénique) et évaluer leur plausibilité biologique
-- Clarifier le statut réglementaire en France (AMM annulée) et la disponibilité réelle du produit
+- Clarifier le statut réglementaire en France et la disponibilité réelle du produit
 - Évaluer le risque hémorragique avec les médicaments antithrombotiques dans une population cible précise
 ## Avertissement
 

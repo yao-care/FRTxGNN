@@ -93,7 +93,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible entre la BMP-2 et l'ésotropie.
-- L'unique AMM française est annulée, et les informations de sécurité (mises en garde, contre-indications) sont absentes, ce qui bloque toute évaluation de sécurité.
+- Les informations de sécurité (mises en garde, contre-indications) sont absentes, ce qui bloque toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)

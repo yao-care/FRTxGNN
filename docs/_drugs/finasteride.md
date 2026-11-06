@@ -90,7 +90,7 @@ Pour la deuxième prédiction (hypertrichose, score 0,9999), quatre publications
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes **annulées** (voici les 5 premières). Le texte d'indication n'est pas renseigné.
+Le texte d'indication n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

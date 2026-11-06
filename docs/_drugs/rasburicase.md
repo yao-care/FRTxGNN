@@ -103,7 +103,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (hypouricémie rénale) est mécanistiquement contradictoire avec l'action de la rasburicase et pourrait être nocive. Aucune des dix prédictions n'est étayée par un essai ou une publication (niveau L5). La seule AMM française est annulée.
+- La prédiction principale (hypouricémie rénale) est mécanistiquement contradictoire avec l'action de la rasburicase et pourrait être nocive. Aucune des dix prédictions n'est étayée par un essai ou une publication (niveau L5).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice de l'ANSM, indispensables pour le criblage de sécurité initial

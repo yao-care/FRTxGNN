@@ -105,8 +105,6 @@ Les publications restantes (cas de glaucome et de myopie liés au topiramate, ca
 | 69984085 | Atropine Alcon 1 pour cent | Collyre | Non renseignée (AMM active) |
 | 61883472 | Atropine (sulfate) Lavoisier 1 mg/ml | Solution injectable | Non renseignée (AMM active) |
 
-Deux AMM supplémentaires, également annulées, existent (Atropine Alcon 0,5 % et 0,3 %, collyres).
-
 ---
 
 ## Considérations de Sécurité
@@ -125,7 +123,7 @@ Ces interactions reflètent surtout des effets anticholinergiques additifs et un
 
 **Justification :**
 - La prédiction repose uniquement sur un score computationnel et des données précliniques indirectes, sans essai clinique ni étude chez les patients migraineux.
-- Les AMM françaises sont toutes annulées et les informations de sécurité officielles sont absentes.
+- Les informations de sécurité officielles sont absentes.
 - Pour la migraine avec aura du tronc cérébral, le mécanisme suggère même un possible effet défavorable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

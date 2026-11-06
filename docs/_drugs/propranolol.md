@@ -114,7 +114,7 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 - Les données détaillées sur le mécanisme d'action (DrugBank).
 - Une justification biologique reliant le blocage bêta-adrénergique à la myopathie distale de type Tateyama, ou des données précliniques.
 - Pour la cardiomyopathie cirrhotique, qui est la piste la plus étayée (question de recherche, niveau L4), des études contrôlées précisant le rapport bénéfice/risque selon la gravité de la cirrhose.
-- Une clarification du statut commercial en France, puisque seules des AMM annulées sont recensées.
+- Une clarification du statut commercial en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -80,7 +80,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les données compilées indiquent 13 AMM pour des spécialités à base de bosentan (Tracleer, Bosentan Sun, Stragen, Accord, Arrow, Viatris), sous forme de comprimés pelliculés, pelliculés sécables et dispersibles. Les textes d'indication ne sont pas renseignés dans les données locales. Les données de statut disponibles sont incohérentes entre les champs (le statut de marché indique « commercialisé » alors que les licences sont décrites comme annulées) ; le statut de chaque AMM doit donc être vérifié auprès de l'ANSM.
+Les données compilées indiquent 13 AMM pour des spécialités à base de bosentan (Tracleer, Bosentan Sun, Stragen, Accord, Arrow, Viatris), sous forme de comprimés pelliculés, pelliculés sécables et dispersibles. Les textes d'indication ne sont pas renseignés dans les données locales. Les données de statut disponibles sont incohérentes entre les champs; le statut de chaque AMM doit donc être vérifié auprès de l'ANSM.
 
 ## Considérations de Sécurité
 

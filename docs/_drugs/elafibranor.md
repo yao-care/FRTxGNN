@@ -87,13 +87,13 @@ Remarque : les données de sécurité de l'ANSM manquent et constituent une lacu
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score TxGNN (niveau L5), sans essai clinique, sans publication et sans mécanisme spécifique établi. L'AMM française est annulée et les données de sécurité de la notice sont absentes.
+- La prédiction repose uniquement sur le score TxGNN (niveau L5), sans essai clinique, sans publication et sans mécanisme spécifique établi. Les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), lacune bloquante
 - Obtenir les données détaillées sur le mécanisme d'action (MOA) via DrugBank
 - Rechercher des études précliniques ou observationnelles reliant la modulation PPARα/δ à l'aménorrhée
-- Clarifier le statut réglementaire en France (AMM annulée) et l'indication d'origine
+- Clarifier le statut réglementaire en France et l'indication d'origine
 - Évaluer la compatibilité de la voie d'administration et la similarité avec l'indication d'origine
 ## Avertissement
 

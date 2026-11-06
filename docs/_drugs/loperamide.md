@@ -83,8 +83,6 @@ Aucune littérature associée disponible actuellement pour la conjonctivite cont
 | 69522794 | IMODIUM 0,2 mg/ml ENFANTS | Solution buvable | Non renseignée |
 | 61203061 | IMODIUMCAPS 2 mg | Gélule | Non renseignée |
 
-Les deux AMM sont annulées : aucune présentation n'est actuellement commercialisée sous ces autorisations.
-
 ## Considerations de Securite
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : maladie hépatique, maladie de la vésicule biliaire, iléus paralytique, occlusion intestinale, myopathie viscérale familiale, dysenterie, maladies diarrhéiques, diarrhées infectieuses, maladies infectieuses intestinales.

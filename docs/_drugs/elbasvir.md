@@ -125,7 +125,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour l'hépatite B repose uniquement sur le modèle : les essais et publications concernent l'hépatite C, et aucun lien mécanistique crédible n'existe (pas d'homologue de NS5A chez le VHB). De plus, l'AMM française est annulée.
+- La prédiction pour l'hépatite B repose uniquement sur le modèle : les essais et publications concernent l'hépatite C, et aucun lien mécanistique crédible n'existe (pas d'homologue de NS5A chez le VHB).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité de la notice (mises en garde et contre-indications), qui bloquent l'étape de criblage de sécurité

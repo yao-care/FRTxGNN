@@ -114,7 +114,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle, sans essai clinique ni publication, et le mécanisme du facteur VIII ne correspond pas aux défauts plaquettaires visés. Aucune AMM n'est en vigueur en France et les données de sécurité sont absentes.
+- La prédiction repose uniquement sur le score du modèle, sans essai clinique ni publication, et le mécanisme du facteur VIII ne correspond pas aux défauts plaquettaires visés. Les données de sécurité sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice de l'ANSM (lacune bloquante pour tout examen de sécurité)

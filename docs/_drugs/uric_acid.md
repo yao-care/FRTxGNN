@@ -38,7 +38,7 @@ Niveau de preuve: **L4** | Indications prédites: **4**
 
 ## Résumé en Une Phrase
 
-L'acide urique est un métabolite purique endogène. En France, il n'est présent que dans des médicaments homéopathiques (Uricum acidum), dont les autorisations sont aujourd'hui annulées et dont aucune indication officielle n'est renseignée.
+L'acide urique est un métabolite purique endogène.
 Le modèle TxGNN le prédit comme potentiellement efficace pour la **polyarthrite rhumatoïde**.
 Les données compilées ne contiennent **aucun essai clinique** testant l'acide urique dans cette maladie. Les **20 publications** retrouvées portent surtout sur l'acide urique comme biomarqueur ou facteur de risque, pas comme traitement.
 
@@ -105,7 +105,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Justification :**
 - Aucun essai clinique ne teste l'acide urique dans la polyarthrite rhumatoïde. La littérature le présente comme marqueur ou facteur de risque, et non comme traitement.
 - Le score TxGNN élevé semble refléter une proximité dans le réseau de connaissances. Le sens de l'hypothèse est contestable, car un apport d'acide urique risquerait d'aggraver la charge en urate.
-- Les autorisations françaises sont annulées et aucune donnée de sécurité n'est disponible.
+- Aucune donnée de sécurité n'est disponible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le premier filtrage de sécurité.

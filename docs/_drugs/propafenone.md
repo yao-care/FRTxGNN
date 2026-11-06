@@ -111,13 +111,13 @@ Les données de la notice (mises en garde, contre-indications) ne sont pas dispo
 
 **Justification :**
 - La TVPC est la prédiction la mieux soutenue : mécanisme plausible via l'inhibition de RyR2, études précliniques concordantes et un cas de traitement prolongé efficace. Le niveau de preuve reste toutefois L3, sans essai enregistré, et la flécaïnide demeure la référence.
-- La propafénone n'est plus commercialisée en France (AMM annulée), et les données de sécurité officielles sont absentes. Cela justifie de n'avancer que dans un cadre strictement encadré, au stade de question de recherche.
+- Les données de sécurité officielles sont absentes. Cela justifie de n'avancer que dans un cadre strictement encadré, au stade de question de recherche.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM, car l'étape de criblage de sécurité ne peut être franchie sans elle.
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
 - Comparer à la flécaïnide (efficacité et tolérance) et rechercher ou concevoir des études cliniques prospectives dans la TVPC.
-- Évaluer le risque proarythmique et les contre-indications cardiaques (QT long, cardiopathie structurelle, cardiopathie ischémique), ainsi que la faisabilité d'un accès au médicament malgré l'AMM annulée.
+- Évaluer le risque proarythmique.
 
 ## Autres prédictions du modèle (non retenues)
 

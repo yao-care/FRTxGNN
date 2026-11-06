@@ -38,7 +38,6 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-L'acide oxalique est présent en France dans des préparations homéopathiques (Oxalicum acidum Boiron et Lehning, Berberis complexe n°83), dont les trois autorisations sont aujourd'hui annulées et ne mentionnent aucune indication approuvée.
 Le modèle TxGNN le prédit comme potentiellement efficace pour la **rétinopathie diabétique non proliférante sévère**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette direction.
 Les données compilées indiquent plutôt un signal de toxicité de l'oxalate pour la rétine.
 
@@ -113,7 +112,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est élevé, mais il n'est soutenu par aucun essai clinique, aucune publication pertinente ni aucun mécanisme plausible. Les données disponibles suggèrent plutôt une toxicité rétinienne de l'oxalate. Les trois AMM françaises sont annulées.
+- Le score TxGNN est élevé, mais il n'est soutenu par aucun essai clinique, aucune publication pertinente ni aucun mécanisme plausible. Les données disponibles suggèrent plutôt une toxicité rétinienne de l'oxalate.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'étape de criblage de sécurité)

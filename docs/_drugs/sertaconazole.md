@@ -93,7 +93,7 @@ Ces études sont pour la plupart de petite taille, ouvertes ou régionales ; leu
 | 66910838 | MONAZOL 2 %, crème (active) | Crème | Non renseignée |
 | 65436593 | SERTACONAZOLE SUBSTIPHARM 300 mg, ovule (active) | Ovule | Non renseignée |
 
-Les quatre AMM sont annulées ; aucun produit n'est actuellement autorisé en France.
+Aucun produit n'est actuellement autorisé en France.
 
 ## Considérations de Sécurité
 

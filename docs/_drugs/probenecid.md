@@ -111,7 +111,7 @@ Pour la contre-indication rénale, le risque est particulièrement pertinent ici
 **Décision : Hold**
 
 **Justification :**
-- Le mécanisme uricosurique du probénécide aggraverait l'hypouricémie rénale au lieu de la corriger. La prédiction est probablement un faux positif, sans essai clinique, et l'AMM française est annulée.
+- Le mécanisme uricosurique du probénécide aggraverait l'hypouricémie rénale au lieu de la corriger. La prédiction est probablement un faux positif, sans essai clinique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les avertissements et contre-indications de la notice officielle de l'ANSM (données bloquantes pour le criblage de sécurité)

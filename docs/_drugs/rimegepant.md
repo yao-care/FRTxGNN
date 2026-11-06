@@ -118,14 +118,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - Le rationnel du CGRP est solide pour un sous-type de migraine, mais les preuves sont indirectes (revues, méta-analyse, études ouvertes de sécurité et pharmacocinétiques), sans essai propre à l'aura du tronc cérébral.
-- Les données réglementaires sont lacunaires : l'AMM française est annulée et le texte de la notice (mises en garde, contre-indications) n'est pas disponible, ce qui bloque l'étape de criblage de sécurité.
+- Le texte de la notice (mises en garde, contre-indications) n'est pas disponible, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde, contre-indications).
 - Compléter les données sur le mécanisme d'action (DrugBank).
 - Examiner les essais pivots de phase 3 et rechercher des données spécifiques à l'aura du tronc cérébral et à la migraine hémiplégique.
 - Obtenir des données de sécurité vasculaire pour ce sous-type.
-- Clarifier la situation réglementaire (AMM annulée) et la disponibilité du produit en France.
+- Clarifier la situation réglementaire et la disponibilité du produit en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

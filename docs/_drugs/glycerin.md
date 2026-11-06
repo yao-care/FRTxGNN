@@ -86,7 +86,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans mécanisme plausible pour la voie d'administration usuelle. Le seul produit autorisé en France est une AMM annulée.
+- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans mécanisme plausible pour la voie d'administration usuelle.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de la glycérine, afin d'analyser tout lien mécanistique

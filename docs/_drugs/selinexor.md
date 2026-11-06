@@ -115,14 +115,14 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur un score de modèle (niveau L5), sans essai clinique ni publication. La direction de l'effet (protecteur ou délétère) est incertaine, et l'AMM française est annulée.
+- La prédiction repose uniquement sur un score de modèle (niveau L5), sans essai clinique ni publication. La direction de l'effet (protecteur ou délétère) est incertaine.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le criblage de sécurité
 - Données sur le mécanisme d'action issues de DrugBank
 - Revue de la littérature préclinique et clinique sur XPO1 et le métabolisme osseux
 - Clarification du sens de l'effet (bénéfique ou délétère) pour l'ostéoporose médicamenteuse
-- Confirmation de l'indication d'origine et de la situation réglementaire (AMM annulée)
+- Confirmation de l'indication d'origine et de la situation réglementaire
 - Évaluation de la compatibilité des voies d'administration
 ## Avertissement
 

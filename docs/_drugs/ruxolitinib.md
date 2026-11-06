@@ -82,7 +82,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 6 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
 |---------|------|------|-----------|
@@ -91,8 +91,6 @@ Les 6 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas 
 | 60672974 | JAKAVI 15 mg, comprimé | Comprimé | Novartis Europharm (Irlande) |
 | 68379069 | JAKAVI 5 mg/mL, solution buvable | Solution buvable | Novartis Europharm (Irlande) |
 | 68279528 | OPZELURA 15 mg/g, crème | Crème | Incyte Biosciences Distribution (Pays-Bas) |
-
-Une sixième AMM (JAKAVI 10 mg, comprimé, n° 65584250) est également annulée.
 
 ---
 
@@ -124,7 +122,6 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être intégr
 
 **Justification :**
 - L'indication prédite (PEComa utérin) repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication.
-- Toutes les AMM françaises du ruxolitinib sont annulées.
 - Les données de sécurité de la notice ne sont pas disponibles.
 
 À titre de comparaison, parmi les autres candidats prédits :
@@ -135,7 +132,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être intégr
 - Données de mécanisme d'action (DrugBank) et analyse du lien mécanistique entre JAK-STAT et mTOR dans les PEComas.
 - Revue de la littérature ciblée sur le ruxolitinib dans les PEComas et les tumeurs apparentées, avec des données précliniques ou cliniques.
 - Mises en garde et contre-indications de la notice ANSM, obtenues en téléchargeant et analysant le PDF de la notice.
-- Clarification du statut réglementaire en France (AMM annulées) et de la voie d'administration requise.
+- Clarification du statut réglementaire en France et de la voie d'administration requise.
 - Comparaison avec le traitement de référence (inhibiteurs de mTOR) avant toute décision de développement.
 ## Avertissement
 

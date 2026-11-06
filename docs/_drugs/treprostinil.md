@@ -110,7 +110,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Les preuves sont de niveau L3 : une cohorte observationnelle, des rapports de cas et des revues, sans essai clinique enregistré. L'indication relevant déjà du champ général de l'HTAP, l'intérêt de repositionnement est faible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, et clarifier la raison de l'annulation des AMM
+- Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Évaluer spécifiquement le risque de shunt droite-gauche dans l'HTAP-CC et obtenir des données comparatives plus robustes
 - Pour les autres prédictions : celle des connectivites (L2, « Proceed with Guardrails ») pourrait être avancée avec une revue d'efficacité par sous-groupe ; les prédictions de L5 (malformation artérioveineuse pulmonaire, hypotrichoses, hypertrichose, syndromes malformatifs dentaires) sont probablement des artefacts du réseau et ne justifient pas de poursuite en l'état.

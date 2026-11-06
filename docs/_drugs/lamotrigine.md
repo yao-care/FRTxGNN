@@ -87,7 +87,7 @@ Ces deux publications portent sur la névralgie du trijumeau et ne constituent p
 
 ## Informations de Marché en France
 
-Sur les 20 AMM recensées, 5 sont présentées ci-dessous. Toutes sont annulées et aucune n'a de texte d'indication renseigné.
+Sur les 20 AMM recensées, 5 sont présentées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -114,7 +114,6 @@ Les mises en garde et contre-indications officielles de la notice ne figurent pa
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5). Aucun essai clinique n'existe et la littérature retrouvée concerne la névralgie du trijumeau, non le néoplasme.
-- Toutes les AMM françaises de la lamotrigine sont annulées, ce qui limite aussi la faisabilité réglementaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données précoces (précliniques ou mécanistiques) montrant un effet antitumoral de la lamotrigine sur les tumeurs du nerf trijumeau, ou une confirmation que la prédiction reflète en réalité la névralgie du trijumeau

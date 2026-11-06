@@ -86,7 +86,7 @@ Aucun ECR n'est disponible pour cette indication ; les publications les plus per
 
 ## Informations de Marché en France
 
-Les neuf AMM recensées sont annulées ; le texte d'indication n'est pas disponible pour ces autorisations.
+Le texte d'indication n'est pas disponible pour ces autorisations.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -110,13 +110,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être consult
 
 **Justification :**
 - L'activité anti-staphylococcique documentée est celle de l'imipénème ; la cilastatine n'a aucun effet antibactérien propre. Il s'agit d'un artéfact de co-formulation et non d'un véritable repositionnement.
-- Les preuves sont de niveau L3 (études observationnelles, cas cliniques, données précliniques), sans ECR dédié, et les neuf AMM françaises sont annulées.
+- Les preuves sont de niveau L3 (études observationnelles, cas cliniques, données précliniques), sans ECR dédié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action
 - Des preuves cliniques distinguant la contribution de la cilastatine de celle de l'imipénème, ou la reformulation de la question en repositionnement de l'association imipénème/cilastatine
-- Une clarification du statut réglementaire actuel en France (AMM annulées)
+- Une clarification du statut réglementaire actuel en France
 
 **Note sur les autres prédictions :** Parmi les neuf autres prédictions, la **pneumonie** dispose du soutien le plus solide (niveau L1, plusieurs ECR de phase 3 dont RESTORE-IMI 2), mais elle recoupe les indications d'origine, et l'efficacité est attribuable à l'imipénème. La bronchite et la salmonellose sont de niveau L3 (Hold) ; la sinusite est de niveau L4 (Hold). Les autres prédictions (rhinosinusite chronique, sinusite ethmoïdale chronique, néoplasme des sinus paranasaux, fièvre paratyphoïde, sclérodermie diffuse) reposent uniquement sur le modèle (L5, Hold), sans plausibilité mécanistique.
 ## Avertissement

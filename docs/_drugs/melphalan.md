@@ -113,13 +113,13 @@ Les mises en garde et contre-indications issues de la notice française ne sont 
 
 **Justification :**
 - Les essais sont de petite taille ou à population hétérogène, et le melphalan est le plus souvent administré en association à haute dose, sans démonstration de sa contribution propre. Aucun essai de phase 3 n'est disponible.
-- Les deux AMM françaises sont annulées et les données de sécurité issues de la notice manquent. L'étape de dépistage de sécurité ne peut donc pas être franchie.
+- Les données de sécurité issues de la notice manquent. L'étape de dépistage de sécurité ne peut donc pas être franchie.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice (mises en garde et contre-indications) auprès de l'ANSM.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Publier ou analyser les résultats de l'essai NCT00936936 pour isoler la contribution du melphalan.
-- Disposer de données spécifiques aux tumeurs germinales gonadiques (phase 2/3), et clarifier le statut réglementaire et la voie d'administration, étant donné l'annulation des AMM.
+- Disposer de données spécifiques aux tumeurs germinales gonadiques (phase 2/3), et clarifier le statut réglementaire.
 - Établir un plan de surveillance de la myélosuppression et de la toxicité organique.
 
 **Autres indications prédites :** la tumeur germinale primitive de l'ovaire (L3) et le carcinome mammaire féminin (L2) disposent de preuves limitées, avec une toxicité importante pour les schémas à haute dose. Le choriocarcinome de l'ovaire, la tumeur ovarienne non épithéliale maligne et les adénocarcinomes mucineux (rectum, côlon, vésicule biliaire, col de l'utérus, endomètre) reposent uniquement sur la prédiction du modèle (L5) et restent en attente (Hold).

@@ -87,7 +87,7 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose congé
 
 ## Informations de Marché en France
 
-Les 19 AMM recensées sont toutes annulées ; le texte des indications approuvées n'est pas renseigné. Principales AMM :
+Le texte des indications approuvées n'est pas renseigné. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -118,7 +118,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau de preuve L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec un défaut génétique de la cadhérine (CDH3).
-- Les AMM françaises sont toutes annulées et les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- Les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM.

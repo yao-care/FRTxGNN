@@ -109,7 +109,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L4 : aucun essai clinique n'est enregistré pour la migraine, la littérature est indirecte, et la seule AMM française est annulée. La donnée de sécurité de la notice, bloquante, manque également.
+- Le niveau de preuve est L4 : aucun essai clinique n'est enregistré pour la migraine, la littérature est indirecte. La donnée de sécurité de la notice, bloquante, manque également.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indication d'origine), donnée bloquante pour le dépistage de sécurité.

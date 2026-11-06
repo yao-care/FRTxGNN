@@ -103,7 +103,7 @@ Les mises en garde et contre-indications issues de la notice française ne sont 
 
 **Justification :**
 - Pour l'arthrose, les preuves se limitent à des études précliniques (niveau L4), sans essai clinique ni donnée d'efficacité chez l'humain. Les neuf autres candidates n'ont aucune preuve (L5) ou correspondent à une indication déjà existante.
-- La notice française n'est pas disponible, ce qui bloque l'évaluation de sécurité, et la seule AMM française est annulée.
+- La notice française n'est pas disponible, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications)

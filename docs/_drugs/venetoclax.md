@@ -102,13 +102,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Aucune donnée clinique ou bibliographique spécifique à ce sous-type, et le score élevé reflète l'indication déjà connue dans la LLC plutôt qu'un repositionnement nouveau. Le statut français (AMM toutes annulées) et l'absence de données de sécurité issues de la notice (lacune bloquante) empêchent aussi d'avancer.
+- Aucune donnée clinique ou bibliographique spécifique à ce sous-type, et le score élevé reflète l'indication déjà connue dans la LLC plutôt qu'un repositionnement nouveau. Le statut français et l'absence de données de sécurité issues de la notice (lacune bloquante) empêchent aussi d'avancer.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle de l'ANSM (mises en garde et contre-indications) pour la revue de sécurité
 - Données détaillées sur le mécanisme d'action
 - Données cliniques spécifiques aux sous-types IGHV de la LLC/SLL
-- Clarification du statut réglementaire actuel en France (AMM annulées)
+- Clarification du statut réglementaire actuel en France
 
 ---
 

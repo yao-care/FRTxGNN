@@ -138,7 +138,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (L5), sans essai clinique, sans publication et sans lien mécanistique plausible. Les AMM françaises sont toutes annulées, et le profil de risque thromboembolique des inhibiteurs de l'aromatase va à l'encontre d'un usage dans les troubles de la coagulation.
+- La prédiction repose uniquement sur le score du modèle (L5), sans essai clinique, sans publication et sans lien mécanistique plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de mécanisme d'action (MOA) détaillées

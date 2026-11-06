@@ -97,7 +97,7 @@ Les mises en garde et contre-indications issues de la notice officielle n'ont pa
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme anti-androgénique ne correspond pas à l'origine héréditaire de l'hypotrichose simple, et les AMM françaises sont toutes annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme anti-androgénique ne correspond pas à l'origine héréditaire de l'hypotrichose simple.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, ce qui bloque actuellement l'évaluation de sécurité

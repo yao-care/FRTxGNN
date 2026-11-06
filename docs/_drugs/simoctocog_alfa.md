@@ -94,8 +94,6 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées.
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 66102792 | NUWIQ 1000 UI | Poudre et solvant pour solution injectable | Non renseignée |

@@ -110,7 +110,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme biologiquement douteux. De plus, l'AMM française est annulée et le profil de sécurité n'est pas documenté.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme biologiquement douteux.
 - Les autres prédictions du top 10 (maladie oculaire, névrites optiques, épisclérites, etc.) sont également en Hold : preuves absentes ou très faibles, certaines suggérant même un signal de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

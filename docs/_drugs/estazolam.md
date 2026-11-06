@@ -119,7 +119,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 
 **Justification :**
 - L'insomnie correspond à l'usage hypnotique classique de l'estazolam, soutenu par des essais cliniques et une revue ancienne. Il ne s'agit donc pas d'un repositionnement au sens strict.
-- Les preuves récentes sont surtout indirectes (estazolam comme comparateur ou traitement de fond), et le produit n'a plus d'AMM valide en France.
+- Les preuves récentes sont surtout indirectes (estazolam comme comparateur ou traitement de fond).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)

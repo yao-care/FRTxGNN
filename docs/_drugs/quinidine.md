@@ -88,7 +88,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible avec la physiopathologie du SNAI. De plus, la seule AMM française est annulée et le profil de sécurité (risque de QT long, nombreuses interactions majeures) est préoccupant.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible avec la physiopathologie du SNAI.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (par ex. via DrugBank)

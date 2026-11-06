@@ -105,13 +105,13 @@ Une étude de phase 2 chez des patients monoinfectés par le VHB (publication de
 
 **Justification :**
 - Les preuves directes se limitent à de petites études de phase 2 (n = 21) sans ECR de phase 3. Le mécanisme d'action du lédipasvir (inhibition de NS5A, spécifique du VHC) n'explique pas un effet anti-VHB, et le principal signal de sécurité est la réactivation du VHB.
-- Le produit n'a plus d'AMM active en France. Les autres indications prédites (hépatite E, hépatite A, VIH, flavivirus, etc.) reposent sur des preuves encore plus faibles (L4-L5) et ne constituent pas de véritables pistes de repositionnement.
+- Les autres indications prédites (hépatite E, hépatite A, VIH, flavivirus, etc.) reposent sur des preuves encore plus faibles (L4-L5) et ne constituent pas de véritables pistes de repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action et les mises en garde/contre-indications de la notice ANSM, actuellement absentes.
 - Des résultats détaillés de l'étude de phase 2 (NCT03312023 / PMID 36045503), notamment la baisse de l'HBsAg et de l'ADN du VHB, avec distinction entre effet direct et effet lié à l'élimination du VHC.
 - Un essai contrôlé de plus grande taille chez des patients monoinfectés par le VHB, avec un plan de surveillance de la réactivation et de prophylaxie du VHB.
-- Une clarification du statut réglementaire en France, puisque l'unique AMM est abrogée.
+- Une clarification du statut réglementaire en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

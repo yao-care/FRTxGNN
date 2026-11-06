@@ -127,7 +127,7 @@ Aucun mécanisme n'est établi pour la pipéraquine contre *Echinococcus granulo
 
 **Justification :**
 - Plusieurs essais de phase 3 terminés et des méta-analyses soutiennent l'efficacité de l'association dihydroartémisinine-pipéraquine sur les formes sanguines de *P. vivax*. Il s'agit toutefois d'un usage antipaludique classique, et non d'un repositionnement inédit.
-- L'unique AMM française est annulée et les données de sécurité de la notice sont manquantes, ce qui impose des garde-fous.
+- Les données de sécurité de la notice sont manquantes, ce qui impose des garde-fous.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération des mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le dépistage de sécurité)

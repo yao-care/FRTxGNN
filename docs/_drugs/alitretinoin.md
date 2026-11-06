@@ -103,7 +103,6 @@ Veuillez consulter la notice pour les mises en garde détaillées.
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de mécanisme d'action détaillées (DrugBank) et analyse du lien mécanistique avec l'indication prédite
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
-- Texte des indications approuvées des AMM annulées et raisons de l'annulation
 - Si une piste doit être explorée, privilégier l'acné (niveau L4, « question de recherche ») avec une recherche bibliographique ciblée sur l'alitrétinoïne, en démontrant une valeur ajoutée par rapport aux rétinoïdes établis
 - Évaluation de la compatibilité de voie d'administration et de la similarité avec l'indication originale (actuellement en attente)
 ## Avertissement

@@ -83,8 +83,6 @@ Les 6 autorisations ci-dessous sont au statut « valide ».
 | 69275098 | KAFTRIO 37,5 mg/25 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
 | 62104529 | KAFTRIO 60 mg/40 mg/80 mg, granulés en sachet | Granulés | Non renseignée |
 
-Une sixième autorisation annulée existe (KAFTRIO 75 mg/50 mg/100 mg, comprimé pelliculé, n° 67875361).
-
 ## Considerations de Securite
 
 Veuillez consulter la notice pour les informations de sécurité.
@@ -96,13 +94,13 @@ Les données compilées ne contiennent ni mises en garde, ni contre-indications.
 **Decision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication et aucun lien mécanistique plausible avec le VIH. De plus, les autorisations françaises sont toutes annulées et les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication et aucun lien mécanistique plausible avec le VIH.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer les mises en garde et contre-indications de la notice officielle (site de l'ANSM)
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Mener des études précliniques *in vitro* pour tester une éventuelle activité anti-VIH ou un effet sur des facteurs de l'hôte
-- Clarifier le statut réglementaire en France (motifs d'annulation des AMM)
+- Clarifier le statut réglementaire en France
 - Réaliser une revue systématique de la littérature sur CFTR et le VIH avant tout investissement supplémentaire
 ## Avertissement
 

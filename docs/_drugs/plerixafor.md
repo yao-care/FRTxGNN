@@ -63,7 +63,7 @@ Ce lien repose cependant uniquement sur la prédiction du modèle. Aucun essai c
 
 ## Informations de Marché en France
 
-Les 7 AMM associées au plerixafor (solution injectable) sont annulées. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
 |---------|------|------|------|------|
@@ -92,7 +92,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Une recherche ciblée d'études précliniques ou cliniques sur le plerixafor dans le myélome indolent ou smoldering.
 - Les données de mécanisme d'action détaillées (DrugBank).
 - Les mises en garde et contre-indications officielles de la notice ANSM.
-- La clarification du statut réglementaire actuel du plerixafor en France (AMM annulées) et de la disponibilité du produit.
+- La clarification du statut réglementaire actuel du plerixafor en France et de la disponibilité du produit.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

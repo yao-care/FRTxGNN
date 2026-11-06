@@ -108,7 +108,7 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications)
 - Données détaillées sur le mécanisme d'action (via DrugBank)
 - Recherche ciblée d'études précliniques ou de cas cliniques sur la lanréotide et l'hypertrichose
-- Clarification du statut réglementaire en France (AMM annulées) et de la disponibilité du produit
+- Clarification du statut réglementaire en France et de la disponibilité du produit
 - Évaluation de la compatibilité des voies d'administration pour la nouvelle indication
 ## Avertissement
 

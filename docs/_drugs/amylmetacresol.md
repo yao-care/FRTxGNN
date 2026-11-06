@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 16 AMM recensées sont toutes annulées. Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées).
+Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées).
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -90,7 +90,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) : aucun essai, aucune publication, aucun mécanisme plausible. Le produit est utilisé par voie locale oropharyngée et toutes ses AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai, aucune publication, aucun mécanisme plausible. Le produit est utilisé par voie locale oropharyngée.
 - Les données de sécurité des notices manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

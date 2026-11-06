@@ -91,13 +91,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible. De plus, les AMM françaises sont toutes annulées et le profil hématologique, rénal et hépatique du médicament appelle à la prudence.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) et hypothèse biologique reliant la flucytosine à la maladie de Paget
 - Notice officielle de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
 - Études précliniques ou revue de la littérature apportant un premier signal d'efficacité
-- Clarification de l'indication d'origine et de la situation réglementaire actuelle (AMM annulées)
+- Clarification de l'indication d'origine et de la situation réglementaire actuelle
 - Évaluation de la compatibilité des voies d'administration pour la nouvelle indication
 ## Avertissement
 

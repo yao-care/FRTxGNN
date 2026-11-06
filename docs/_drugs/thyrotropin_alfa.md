@@ -104,7 +104,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible. Certaines (hyperthyroïdie, tachycardie orthostatique, hypertension pulmonaire) soulèvent des inquiétudes de sécurité. De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité.
+- Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible. Certaines (hyperthyroïdie, tachycardie orthostatique, hypertension pulmonaire) soulèvent des inquiétudes de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée)

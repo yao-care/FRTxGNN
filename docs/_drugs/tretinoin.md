@@ -82,8 +82,6 @@ Aucune littérature associée disponible actuellement pour la nodulose rhumatoï
 | 62373038 | RETACNYL 0,025 %, crème | Crème | Non renseignée (AMM active) |
 | 65540866 | VESANOID 10 mg, capsule molle | Capsule molle | Non renseignée (AMM active) |
 
-Deux autres AMM annulées existent (ERYLIK, gel ; ZANEA 10 mg/0,25 mg par g, gel), pour un total de 7 AMM, toutes annulées.
-
 ## Cytotoxicité
 
 | Élément | Contenu |

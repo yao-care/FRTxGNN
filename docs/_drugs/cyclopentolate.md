@@ -95,7 +95,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication, et le produit n'est plus commercialisé en France (AMM annulée). Le rationnel mécanistique reste théorique pour un collyre sans usage systémique, et les contre-indications du graphe sont nombreuses.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication. Le rationnel mécanistique reste théorique pour un collyre sans usage systémique, et les contre-indications du graphe sont nombreuses.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

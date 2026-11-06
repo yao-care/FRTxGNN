@@ -82,7 +82,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 15 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné. Cinq AMM sont présentées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné. Cinq AMM sont présentées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -108,13 +108,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique démontré. De plus, les 15 AMM françaises sont annulées, et les données de sécurité officielles sont manquantes.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique démontré.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer le texte de la notice (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action pour évaluer un éventuel lien avec le syndrome d'Ohdo
 - Réaliser une revue de la littérature et des registres d'essais afin de vérifier l'existence de toute preuve préclinique ou clinique
-- Clarifier le statut réglementaire en France (AMM annulées) et la compatibilité des voies d'administration
+- Clarifier le statut réglementaire en France et la compatibilité des voies d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

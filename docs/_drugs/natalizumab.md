@@ -69,7 +69,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les trois AMM recensées sont toutes annulées ; le texte de l'indication approuvée n'est pas renseigné.
+Le texte de l'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -97,7 +97,7 @@ Les trois AMM recensées sont toutes annulées ; le texte de l'indication approu
 - Les mises en garde et contre-indications officielles de la notice (ANSM), actuellement manquantes et bloquantes pour l'évaluation de sécurité
 - Les données détaillées sur le mécanisme d'action
 - Des données précliniques ou cliniques sur natalizumab dans la bronchite
-- Une clarification du statut réglementaire en France (AMM annulées)
+- Une clarification du statut réglementaire en France
 
 ---
 

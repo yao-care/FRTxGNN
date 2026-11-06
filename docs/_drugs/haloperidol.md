@@ -72,7 +72,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les cinq AMM du halopéridol (laboratoire ESSENTIAL PHARMA (M), Malte) sont **annulées** ; aucune n'est actuellement en vigueur. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -100,7 +100,7 @@ Les mentions de la notice (mises en garde et contre-indications officielles) ne 
 
 **Justification :**
 - La prédiction pour le trouble congénital de la glycosylation avec défaut de fucosylation repose uniquement sur le score du modèle (niveau L5). Il n'existe aucun essai, aucune publication ni lien mécanistique plausible.
-- Le profil de sécurité du halopéridol est notable (risque cardiaque, hématologique, neurologique), et toutes ses AMM françaises sont annulées.
+- Le profil de sécurité du halopéridol est notable (risque cardiaque, hématologique, neurologique).
 
 **Remarque sur les autres prédictions du modèle :**
 - *Dystrophie rétinienne* (L4) : deux études précliniques chez le rat (modèle de rétinite pigmentaire) montrent une modulation des réponses visuelles des cellules ganglionnaires rétiniennes. Ce résultat est indirect et ne démontre aucun effet modificateur de la maladie.

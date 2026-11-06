@@ -84,12 +84,12 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5). Il n'y a ni essai clinique, ni publication, ni mécanisme plausible reliant le néfopam à cette maladie rare.
-- L'unique AMM française est abrogée, et les informations de sécurité issues de la notice sont indisponibles.
+- Les informations de sécurité issues de la notice sont indisponibles.
 
 **Piste alternative à noter :** parmi les prédictions moins bien classées, la **sténose lombaire** (score 0,9997) est la seule qui dispose de publications (4 références, niveau L3). Il s'agit d'études sur le néfopam périopératoire : douleur postopératoire, dysesthésies et épargne des opioïdes en chirurgie du rachis. Elles concernent le contrôle des symptômes et non la modification de la maladie. Une étude randomisée en double aveugle de 2023 (73 patients) pourrait justifier un niveau L2 si son design est confirmé. Un cas de **crises convulsives / état de mal épileptique** attribué au néfopam impose une évaluation attentive de la sécurité. Cette piste, davantage plausible sur le plan pharmacologique, mérite d'être évaluée séparément.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, et clarifier le statut réglementaire de l'AMM abrogée.
+- Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank) pour analyser un éventuel lien mécanistique.
 - Pour la cataracte avec craniosténose : une justification biologique préclinique avant tout investissement clinique.
 - Pour la sténose lombaire : confirmer le design des études (essai randomisé ou non), puis réaliser une revue de sécurité centrée sur le risque convulsif.

@@ -106,12 +106,12 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 **Justification :**
 - La prédiction n°1 (trouble de libération plaquettaire primaire), comme la plupart des autres prédictions, repose uniquement sur le modèle (L5) et n'a pas de plausibilité mécanistique : ces maladies sont des défauts plaquettaires ou d'autres voies, sans lien avec le FVIII.
 - Le déficit acquis en facteur de coagulation (Proceed with Guardrails, L3) correspond en pratique à l'indication d'origine, et non à un véritable repositionnement. L'hémophilie (L3, Research Question) ne dispose que d'une étude de surveillance post-commercialisation et de publications surtout centrées sur la forme acquise.
-- La seule AMM française est annulée, et les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications) : lacune bloquante.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Confirmer la disponibilité du produit en France, l'AMM étant annulée.
+- Confirmer la disponibilité du produit en France.
 - Pour toute piste dans l'hémophilie congénitale avec inhibiteurs, évaluer les données de phase 3 existantes. Garde-fous : suivi de l'activité FVIII, surveillance des événements thrombotiques et dosage des anticorps anti-porcins.
 - Abandonner ou déprioriser les prédictions plaquettaires et non coagulantes, faute de justification mécanistique.
 ## Avertissement

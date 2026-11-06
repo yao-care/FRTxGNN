@@ -95,7 +95,7 @@ Les publications les plus pertinentes sont listées ci-dessous (10 sur 13). Aucu
 
 ## Informations de Marché en France
 
-Les 8 AMM associées au dolutégravir sont toutes annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -131,7 +131,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Mises en garde et contre-indications issues de la notice ANSM (étape bloquante pour le criblage de sécurité)
-- Clarification du statut réglementaire en France (AMM annulées) et de la disponibilité actuelle du produit
+- Clarification du statut réglementaire en France et de la disponibilité actuelle du produit
 - Reformulation de la question de recherche : le SIV et le FIV étant des modèles animaux, il est préférable de les utiliser comme outils de recherche plutôt que comme cibles d'un repositionnement
 ## Avertissement
 

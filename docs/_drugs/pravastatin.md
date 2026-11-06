@@ -103,7 +103,6 @@ La littérature porte surtout sur d'autres agents hypolipémiants (ézétimibe, 
 | 61624936 | PRAVASTATINE CRISTERS PHARMA 20 mg | Comprimé sécable | Non disponible (AMM active) |
 | 69922952 | PRAVASTATINE CRISTERS PHARMA 40 mg | Comprimé sécable | Non disponible (AMM active) |
 
-
 ---
 
 ## Considérations de Sécurité
@@ -120,7 +119,7 @@ Les mises en garde issues de la notice ne sont pas disponibles : veuillez consul
 **Décision : Hold**
 
 **Justification :**
-- Aucune étude ne teste directement la pravastatine dans la HFHo, et la physiopathologie de cette maladie (récepteurs du LDL peu ou pas fonctionnels) laisse prévoir une efficacité limitée. Les AMM françaises sont toutes annulées.
+- Aucune étude ne teste directement la pravastatine dans la HFHo, et la physiopathologie de cette maladie (récepteurs du LDL peu ou pas fonctionnels) laisse prévoir une efficacité limitée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de mécanisme d'action détaillées (DrugBank)

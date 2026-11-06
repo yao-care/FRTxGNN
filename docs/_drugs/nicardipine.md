@@ -102,7 +102,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- Le score du modèle est élevé (0,9926), mais aucun essai clinique n'existe et les seules données sont indirectes ou précliniques. Les AMM françaises sont toutes annulées et le risque d'aggravation de l'hypoxémie n'est pas écarté.
+- Le score du modèle est élevé (0,9926), mais aucun essai clinique n'existe et les seules données sont indirectes ou précliniques. Le risque d'aggravation de l'hypoxémie n'est pas écarté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM

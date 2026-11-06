@@ -107,7 +107,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Compléter les données de mécanisme d'action (DrugBank).
 - Si une piste doit être poursuivie, réorienter l'évaluation vers l'épilepsie du lobe frontal ou les états de mal épileptique réfractaires (niveau L4, mécanisme plausible), en tant que question de recherche.
 - Établir un lien mécanistique et des données précliniques pour la trichotillomanie avant toute étude clinique.
-- Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation de toutes les AMM.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

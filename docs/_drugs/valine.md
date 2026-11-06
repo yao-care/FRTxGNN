@@ -108,7 +108,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur le modèle et sur des associations métaboliques indirectes (cohorte, génétique). Aucun essai clinique ni preuve thérapeutique n'existe, et le produit n'a plus d'AMM valide en France.
+- La prédiction repose sur le modèle et sur des associations métaboliques indirectes (cohorte, génétique). Aucun essai clinique ni preuve thérapeutique n'existe.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de la valine et son lien plausible avec la physiopathologie de la cholangite sclérosante

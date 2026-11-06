@@ -121,7 +121,7 @@ Aucune littérature associée n'est disponible actuellement pour le syndrome de 
 
 ## Informations de Marché en France
 
-Les 10 AMM identifiées sont toutes annulées. Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées.
+Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

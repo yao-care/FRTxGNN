@@ -112,7 +112,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 **Justification :**
 - La prédiction pour la pneumocystose repose uniquement sur le score du modèle (L5), sans essai ni publication, et son fondement biologique est faible (absence d'ergostérol chez *Pneumocystis*, traitement de référence différent).
-- En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant.

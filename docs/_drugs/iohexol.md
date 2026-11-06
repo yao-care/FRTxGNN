@@ -98,8 +98,6 @@ Aucune littérature associée à l'insomnie disponible actuellement.
 | 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
 | 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
 
-Les quatre AMM sont détenues par GE Healthcare et sont toutes annulées.
-
 ---
 
 ## Considérations de Sécurité
@@ -125,7 +123,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Iohexol est un produit de contraste inerte, sans mécanisme plausible dans l'insomnie ni l'anxiété. Le score TxGNN élevé ne s'appuie sur aucun essai clinique ni aucune publication pertinente (niveau L5).
-- Les quatre AMM sont annulées, et les données de sécurité de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Les données de sécurité de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice de l'ANSM (mises en garde et contre-indications)

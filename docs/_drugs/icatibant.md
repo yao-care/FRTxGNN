@@ -112,7 +112,7 @@ L'extension à la forme acquise du déficit est cohérente sur le plan mécanist
 | 69800927 | ICATIBANT FRESENIUS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
 | 63030672 | ICATIBANT VIATRIS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
 
-Au total, 7 AMM sont recensées, toutes annulées.
+Au total, 7 AMM sont recensées.
 
 ---
 
@@ -135,7 +135,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Mises en garde et contre-indications issues de la notice de l'ANSM (lacune bloquante pour le dépistage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Études prospectives ou contrôlées dans le déficit acquis en inhibiteur de la C1
-- Clarification du statut réglementaire français (AMM toutes annulées) et du texte d'indication
+- Clarification du statut réglementaire français et du texte d'indication
 - Plan de gestion des interactions avec les IEC
 
 **Autres prédictions (niveau L5, décision : Hold) :** les six autres indications prédites (serpinopathie avec polymérisation toxique, pseudo-maladie de von Willebrand, trouble de la sécrétion plaquettaire, myopathie nécrosante à médiation immune, syndrome des antisynthétases, thrombasthénie de Glanzmann) ne reposent sur aucun essai ni publication.

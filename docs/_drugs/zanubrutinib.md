@@ -127,13 +127,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la leucémie myéloïde repose uniquement sur le modèle (niveau L4) : le seul essai associé est indirect et la littérature concerne des maladies lymphoïdes. De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes.
+- La prédiction pour la leucémie myéloïde repose uniquement sur le modèle (niveau L4) : le seul essai associé est indirect et la littérature concerne des maladies lymphoïdes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec la leucémie myéloïde
 - Données précliniques ou cliniques directes du zanubrutinib dans la leucémie myéloïde
 - Mises en garde et contre-indications issues de la notice ANSM
-- Évaluation de l'impact du statut annulé de l'AMM en France
 - Évaluation des interactions majeures pour un éventuel usage en association
 ## Avertissement
 

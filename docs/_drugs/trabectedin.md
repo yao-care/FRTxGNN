@@ -95,7 +95,7 @@ Les résultats chiffrés d'efficacité des études de phase 2 ne figurent pas da
 | 69228351 | TRABECTEDINE SUN 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 | 66602114 | YONDELIS 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-Au total, 10 AMM sont recensées, toutes annulées.
+Au total, 10 AMM sont recensées.
 
 ## Cytotoxicité
 
@@ -126,7 +126,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante
 - Compléter les données sur le mécanisme d'action (DrugBank)
 - Examiner les résultats complets des phases 2 (NCT, PMID 25239225, 24692579, 27266804) et leur taux de réponse
-- Vérifier la raison de l'annulation des AMM et le statut commercial réel en France
 - Cibler les sous-populations d'intérêt (BRCA1/2 mutées, triple négatif) et définir un plan de surveillance hématologique et hépatique
 - Confirmer la compatibilité des voies d'administration et la similarité avec l'indication d'origine
 ## Avertissement

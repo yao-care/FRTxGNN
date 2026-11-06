@@ -131,7 +131,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupérer la notice ANSM (mises en garde et contre-indications) : lacune bloquante.
 - Compléter les données sur le mécanisme d'action (DrugBank).
 - Rechercher des études cliniques ou observationnelles chez l'humain sur l'hypertension rénovasculaire et rénale maligne.
-- Clarifier la pertinence du repositionnement, vu le chevauchement avec l'indication d'origine, ainsi que la situation réglementaire (AMM annulées).
+- Clarifier la pertinence du repositionnement, vu le chevauchement avec l'indication d'origine, ainsi que la situation réglementaire.
 - Évaluer le risque rénal (sténose bilatérale des artères rénales) et l'hyperkaliémie avant toute progression.
 ## Avertissement
 

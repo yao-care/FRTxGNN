@@ -85,7 +85,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont abrogées. Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas disponible.
+Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -117,7 +117,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données sur le mécanisme d'action du déférasirox (DrugBank)
 - Mises en garde et contre-indications officielles de la notice (site de l'ANSM), indispensables avant toute évaluation de sécurité
 - Études précliniques supplémentaires déterminant si la chélation du fer favorise ou freine la réplication du VIH
-- Clarification du statut réglementaire en France (AMM toutes abrogées)
+- Clarification du statut réglementaire en France
 
 **Remarque sur les autres prédictions :** les quatre autres indications prédites (hépatite C chronique, trouble neurodéveloppemental rare, hyperlipidémie familiale combinée obsolète, dermatofibrosarcome protubérant) ont un niveau de preuve L5 et une décision Hold. Elles ne disposent d'aucun essai clinique, et au plus d'une publication méthodologique indirecte (hépatite C).
 ## Avertissement

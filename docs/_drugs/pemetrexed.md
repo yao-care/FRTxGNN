@@ -99,7 +99,6 @@ Il convient de noter que, pour les formes péritonéales, la chirurgie de cytor�
 | 62103459 | PEMETREXED FRESENIUS KABI 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 | 61543078 | PEMETREXED VIATRIS 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-
 ## Cytotoxicité
 
 | Élément | Contenu |
@@ -123,12 +122,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Le pémétrexed-platine est déjà la référence du mésothéliome pleural (essai de phase 3), et plusieurs séries et essais de phase 2 incluent la forme péritonéale. Toutefois, aucun essai de phase 3 spécifique au péritoine n'existe, et l'évidence repose sur des études de phase 2, rétrospectives et sur une extrapolation.
-- Toutes les AMM françaises du pémétrexed sont annulées, et les données de sécurité issues de la notice sont absentes.
+- Les données de sécurité issues de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) sur le site de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action auprès de DrugBank
-- Clarifier le statut réglementaire actuel en France (AMM annulées) et la disponibilité réelle du produit
+- Clarifier le statut réglementaire actuel en France et la disponibilité réelle du produit
 - Suivre les résultats des essais randomisés de phase 2 en cours (NCT05001880, NCT03875144) ainsi que ceux d'ICARuS II
 - Définir un plan de surveillance hématologique et rénale, avec supplémentation en acide folique et vitamine B12 selon la pratique habituelle
 - Réserver la chimiothérapie systémique aux formes non résécables ou avancées, la chirurgie de cytoréduction avec CHIP restant privilégiée chez les patients éligibles

@@ -83,13 +83,13 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Rechercher des études précliniques ou cliniques sur le pinavérium dans l'hyperplasie bénigne de la prostate
-- Confirmer l'indication originale et clarifier la situation réglementaire (AMM annulée)
+- Confirmer l'indication originale et clarifier la situation réglementaire
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine
 ## Avertissement
 

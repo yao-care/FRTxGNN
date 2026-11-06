@@ -140,7 +140,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les cinq autres indications prédites n'ont aucune preuve (niveau L5) et doivent rester en attente (Hold).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Vérifier le statut réglementaire actuel en France (le statut « annulé » peut refléter un problème de qualité des données ou un changement d'AMM) auprès de l'ANSM.
+- Vérifier le statut réglementaire actuel en France auprès de l'ANSM.
 - Récupérer les mises en garde et contre-indications de la notice officielle.
 - Obtenir les données détaillées sur le mécanisme d'action (via DrugBank).
 - Confirmer le rôle de la dégludec (traitement évalué ou simple traitement de fond) dans les essais dont les titres sont tronqués ou indirects.

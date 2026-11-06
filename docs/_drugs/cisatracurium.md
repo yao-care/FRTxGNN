@@ -99,7 +99,7 @@ Aucune littérature associée disponible actuellement pour le syndrome de la que
 
 ## Informations de Marché en France
 
-Les 10 AMM identifiées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné.
+Le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|

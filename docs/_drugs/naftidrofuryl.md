@@ -99,13 +99,12 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-Les preuves cliniques existent (plusieurs essais contrôlés anciens et une revue Cochrane), mais elles sont anciennes et non concluantes. Les deux AMM françaises sont annulées, et les données de sécurité (mises en garde, contre-indications) sont manquantes, ce qui bloque l'étape de criblage de sécurité.
+Les preuves cliniques existent (plusieurs essais contrôlés anciens et une revue Cochrane), mais elles sont anciennes et non concluantes. Les données de sécurité (mises en garde, contre-indications) sont manquantes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Lire en détail la revue Cochrane et les ECR pour confirmer l'ampleur et la cohérence de l'effet
-- Comprendre les raisons de l'annulation des AMM (sécurité, balance bénéfice/risque ou raisons commerciales)
 - Vérifier l'existence d'essais récents (aucun essai enregistré à ce jour) et la compatibilité des voies d'administration
 ## Avertissement
 

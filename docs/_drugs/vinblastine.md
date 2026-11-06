@@ -108,13 +108,12 @@ Pour les sous-types predits suivants, la litterature est tres limitee : le rhabd
 
 **Justification :**
 - La prediction est tres bien classee par le modele (0.9986), mais les preuves restent de niveau L4 : aucun essai enregistre, uniquement des cas cliniques anciens ou recents en association, et des etudes precliniques.
-- La seule AMM francaise est annulee, et les donnees de securite de la notice sont absentes, ce qui bloque le passage a un criblage de securite.
+- Les donnees de securite de la notice sont absentes, ce qui bloque le passage a un criblage de securite.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Recuperer et analyser la notice (mises en garde et contre-indications) aupres de l'ANSM
 - Obtenir les donnees detaillees sur le mecanisme d'action (DrugBank)
 - Rechercher des essais cliniques pertinents (rhabdomyosarcome, y compris pediatriques) et des donnees comparant la vinblastine a la vincristine, deja etablie dans cette indication
-- Evaluer la disponibilite actuelle du produit en France, compte tenu de l'annulation de l'AMM
 - Etablir un plan de surveillance hematologique, hepatique et neurologique
 - Pour les autres predictions (sous-types de rhabdomyosarcome, foie, leucemie monocytaire, neuroblastome), les preuves sont insuffisantes ou indirectes ; la leucemie monocytaire (niveau L3) repose sur des series anciennes des annees 1970 et ne justifie, a ce stade, qu'une question de recherche.
 ## Avertissement

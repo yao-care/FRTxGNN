@@ -88,14 +88,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun lien mécanistique plausible avec la dystrophie rétinienne.
-- L'AMM française est annulée et les données de sécurité de la notice sont manquantes, ce qui empêche toute évaluation de sécurité.
+- Les données de sécurité de la notice sont manquantes, ce qui empêche toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), étape bloquante pour l'évaluation de sécurité
 - Compléter les données sur le mécanisme d'action (par exemple via l'API DrugBank)
 - Établir une hypothèse mécanistique reliant le blocage dopaminergique à la physiopathologie des dystrophies rétiniennes
 - Mener des études précliniques (modèles de dégénérescence rétinienne) avant toute envisagée clinique
-- Clarifier la voie d'administration et la faisabilité de la formulation, au vu de l'AMM annulée
+- Clarifier la voie d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

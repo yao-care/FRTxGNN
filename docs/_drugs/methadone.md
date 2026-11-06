@@ -38,7 +38,7 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 ## Résumé en Une Phrase
 
-La méthadone est un agoniste opioïde puissant, commercialisé en France sous forme de sirop et de gélules par l'AP-HP. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées pour ce rapport, et les deux AMM sont aujourd'hui annulées.
+La méthadone est un agoniste opioïde puissant, commercialisé en France sous forme de sirop et de gélules par l'AP-HP. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées pour ce rapport.
 Le modèle TxGNN la prédit comme potentiellement efficace pour le **Syndrome de Gilles de la Tourette**, mais **aucun essai clinique** n'est enregistré et seule **une publication ancienne (1992)** décrit directement cet usage.
 
 ## Aperçu Rapide
@@ -92,7 +92,7 @@ Aucun essai clinique associé enregistré actuellement.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un seul rapport ancien (1992) sans essai clinique enregistré (niveau L4). Les deux AMM françaises sont annulées, et le profil de sécurité (risque cardiaque lié à l'allongement du QT, dépression respiratoire, nombreuses interactions) est exigeant pour une indication neuropsychiatrique non validée.
+- La prédiction repose sur un seul rapport ancien (1992) sans essai clinique enregistré (niveau L4). Le profil de sécurité (risque cardiaque lié à l'allongement du QT, dépression respiratoire, nombreuses interactions) est exigeant pour une indication neuropsychiatrique non validée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), étape bloquante pour le criblage de sécurité

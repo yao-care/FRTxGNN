@@ -95,7 +95,7 @@ Ce lien est plausible, mais il n'a pas été confirmé en clinique. Une revue de
 
 ## Informations de Marche en France
 
-Les 20 AMM recensées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|

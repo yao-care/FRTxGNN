@@ -65,7 +65,7 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 La relation avec la nouvelle indication est de nature **infectieuse** et non pas un véritable changement de mécanisme. Les péritonites et les infections intra-abdominales sont causées principalement par des entérobactéries (*E. coli*) et des anaérobies (*Bacteroides*), que l'association ticarcilline/clavulanate couvre. La prédiction reflète donc probablement la proximité de cette indication avec des infections déjà connues (infections pelviennes, salpingite, etc.) plutôt qu'un signal nouveau.
 
-À noter : ce rationnel est une extension de l'usage antibactérien existant. Les recommandations modernes privilégient d'autres agents, et l'association n'est plus commercialisée en France.
+À noter : ce rationnel est une extension de l'usage antibactérien existant. Les recommandations modernes privilégient d'autres agents.
 
 ---
 
@@ -98,7 +98,7 @@ Aucun essai randomisé n'figure parmi ces publications. Il s'agit surtout d'étu
 
 ## Informations de Marché en France
 
-Les deux AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné.
+Le texte d'indication approuvée n'est pas renseigné.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -129,13 +129,12 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 **Justification :**
 - La prédiction pour la maladie du péritoine correspond à une extension de l'usage antibactérien existant (péritonite et infections intra-abdominales) et non à un repositionnement nouveau. Les preuves se limitent à des études anciennes (1978-1991) non randomisées, sans essai enregistré.
-- Le produit n'est plus commercialisé en France (AMM annulées) et les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité. Les autres prédictions du classement n'ont aucune preuve (niveau L5).
+- Les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité. Les autres prédictions du classement n'ont aucune preuve (niveau L5).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications)
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Examiner les textes complets des études sur la péritonite et comparer avec les antibiotiques actuellement recommandés
-- Vérifier la pertinence d'un développement pour un produit dont l'AMM est annulée, y compris la disponibilité d'une formulation
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

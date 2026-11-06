@@ -126,7 +126,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Données précliniques et cliniques sur le médulloblastome SHH, en particulier le sous-type à nodularité extensive.
 - Évaluation de la sécurité pédiatrique, notamment sur la croissance osseuse, et mesures de contraception.
 - Mises en garde et contre-indications officielles de l'ANSM (notice non exploitée à ce jour).
-- Vérification du statut de commercialisation en France, la seule AMM étant abrogée.
+- Vérification du statut de commercialisation en France.
 - Données détaillées sur le mécanisme d'action issues de DrugBank.
 ## Avertissement
 

@@ -84,7 +84,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marche en France
 
-Les 12 AMM du naproxène en France sont toutes annulées. Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées ci-dessous.
+Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
@@ -117,7 +117,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les données sur le mécanisme d'action issues de DrugBank
 - Une justification biologique reliant l'inhibition des COX à la physiopathologie du syndrome ciblé
 - Des données précliniques ou cliniques, ou une revue de la littérature, pour dépasser le niveau L5
-- Une évaluation de la compatibilité des voies d'administration et de la situation réglementaire (AMM annulées)
+- Une évaluation de la compatibilité des voies d'administration et de la situation réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

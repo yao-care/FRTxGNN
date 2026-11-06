@@ -97,7 +97,7 @@ Aucune littérature associée n'est disponible pour le syndrome de Gilles de la 
 
 ## Informations de marché en France
 
-Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont :
+Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont :
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
@@ -124,7 +124,7 @@ Veuillez consulter la notice pour les mises en garde officielles, qui ne sont pa
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (syndrome de Gilles de la Tourette) repose uniquement sur le modèle (L5), sans essai ni publication, et la littérature disponible évoque plutôt un risque de tics induits. Le médicament est commercialisé en France, avec 20 AMM valides sur 20. Aucune donnée de sécurité issue de la notice n'est disponible.
+- La prédiction principale (syndrome de Gilles de la Tourette) repose uniquement sur le modèle (L5), sans essai ni publication, et la littérature disponible évoque plutôt un risque de tics induits. Aucune donnée de sécurité issue de la notice n'est disponible.
 - L'épilepsie-absence (L3) reste une question de recherche, car des traitements de première intention (éthosuximide, valproate) sont mieux documentés.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

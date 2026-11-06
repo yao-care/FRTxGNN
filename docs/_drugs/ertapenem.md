@@ -101,8 +101,6 @@ Aucun essai randomisé n'est disponible. Pour l'infection à *S. aureus*, la lit
 | 62637897 | ERTAPENEM SUN 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
 | 66810994 | ERTAPENEM ARROW 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
 
-Une sixième AMM (60926401, ERTAPENEM QILU 1 g) est également annulée.
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : épilepsie, maladie rénale, pyo-uretère, colite à *Clostridium difficile*, entérocolite nécrosante périnatale.
@@ -123,7 +121,6 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications), actuellement manquante et bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier la raison de l'annulation des AMM et la disponibilité réelle de l'ertapénème en France
 - Disposer d'études comparatives ou d'essais prospectifs dans les infections ostéo-articulaires
 - Suivre les résultats des essais NCT04886284 et NCT07148960 : l'indication *S. aureus* (en association avec la céfazoline, niveau L3) constitue une piste de recherche plus solide à examiner séparément
 ## Avertissement

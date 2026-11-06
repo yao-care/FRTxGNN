@@ -104,7 +104,7 @@ Le médicament est commercialisé en France, avec 20 AMM valides ; le texte d'in
 | 63815096 | ROZAGEL, gel pour application locale | Gel | Non renseignée (AMM active) |
 | 66095383 | METRONIDAZOLE B BRAUN 0,5 % | Solution pour perfusion | Non renseignée (AMM active) |
 
-Au total, 20 AMM sont recensées (comprimés, gels, crèmes, ovules, suspension buvable, solutions injectables et associations avec la spiramycine), toutes annulées.
+Au total, 20 AMM sont recensées (comprimés, gels, crèmes, ovules, suspension buvable, solutions injectables et associations avec la spiramycine).
 
 ---
 

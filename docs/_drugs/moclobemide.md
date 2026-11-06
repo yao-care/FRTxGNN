@@ -98,12 +98,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Deux ECR (1999) soutiennent l'usage du moclobémide dans le trouble panique avec agoraphobie, mais aucun essai clinique n'est enregistré et le produit n'a plus qu'une AMM annulée en France. Les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Deux ECR (1999) soutiennent l'usage du moclobémide dans le trouble panique avec agoraphobie, mais aucun essai clinique n'est enregistré. Les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
 - Compléter les données sur le mécanisme d'action via DrugBank
-- Clarifier le statut réglementaire (AMM annulée) et la disponibilité d'une formulation commercialisée
+- Clarifier le statut réglementaire et la disponibilité d'une formulation commercialisée
 - Évaluer la pertinence actuelle des ECR de 1999 et envisager de nouveaux essais spécifiques à l'agoraphobie
 
 ---

@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 ## Resume en Une Phrase
 
-L'ivabradine est un médicament dont l'indication originale n'est pas renseignée dans les données compilées pour ce rapport (les trois AMM françaises recensées sont toutes annulées).
+L'ivabradine est un médicament dont l'indication originale n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
 
 ## Apercu Rapide

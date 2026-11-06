@@ -96,14 +96,14 @@ Aucune interaction médicamenteuse n'a été identifiée dans les données compi
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme n'est pas documenté, la voie d'administration approuvée (perfusion isolée de membre) n'est pas adaptée à l'urètre, et l'AMM française est annulée.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme n'est pas documenté, la voie d'administration approuvée (perfusion isolée de membre) n'est pas adaptée à l'urètre.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Informations de sécurité issues de la notice ANSM (mises en garde, contre-indications), actuellement manquantes et bloquantes pour tout examen de sécurité
 - Données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Recherche d'études précliniques ou observationnelles sur le TNF-alpha dans les carcinomes urothéliaux
 - Évaluation de la faisabilité d'une voie d'administration régionale adaptée (par exemple intravésicale), avec un profil de toxicité acceptable
-- Clarification du statut réglementaire, l'AMM étant annulée
+- Clarification du statut réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

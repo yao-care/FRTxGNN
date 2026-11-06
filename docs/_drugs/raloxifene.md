@@ -88,14 +88,14 @@ Les mises en garde et contre-indications de la notice ANSM n'ont pas pu être ex
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans publication ni lien mécanistique établi. De plus, la seule AMM française est annulée et le profil de sécurité (risques thromboemboliques et cardiovasculaires notamment) n'a pas pu être vérifié à partir de la notice.
+La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans publication ni lien mécanistique établi.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications), étape bloquante pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue de la littérature et des registres d'essais sur le raloxifène dans l'ulcère duodénal
 - Études précliniques permettant d'évaluer la plausibilité biologique
-- Clarification du statut réglementaire, l'AMM étant annulée
+- Clarification du statut réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

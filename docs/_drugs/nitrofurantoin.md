@@ -103,7 +103,7 @@ Pour toute information de sécurité faisant foi, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni preuve de bénéfice, alors que la littérature signale surtout des risques pulmonaires, hépatiques et hématologiques chez les patients atteints de polyarthrite. L'AMM française est de plus annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni preuve de bénéfice, alors que la littérature signale surtout des risques pulmonaires, hépatiques et hématologiques chez les patients atteints de polyarthrite.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action et justification mécanistique d'un effet dans la polyarthrite rhumatoïde

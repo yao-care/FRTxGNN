@@ -104,7 +104,6 @@ D'autres essais complètent ce tableau : étude pédiatrique de phase 1 sur les 
 | 65638805 | FARYDAK 10 mg, gélule | Gélule | Non renseignée (AMM active) |
 | 62990388 | FARYDAK 20 mg, gélule | Gélule | Non renseignée (AMM active) |
 
-
 ## Cytotoxicité
 
 | Élément | Contenu |
@@ -131,7 +130,7 @@ Veuillez consulter la notice pour les autres informations de sécurité (mises e
 **Décision : Hold**
 
 **Justification :**
-- Les preuves cliniques se limitent à des essais de phase 1 et 2, dont un essai de phase 2 randomisé ouvert (L2) ; l'unique essai de phase 3 a été arrêté sans résultats d'efficacité. Par ailleurs, les trois AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
+- Les preuves cliniques se limitent à des essais de phase 1 et 2, dont un essai de phase 2 randomisé ouvert (L2) ; l'unique essai de phase 3 a été arrêté sans résultats d'efficacité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM

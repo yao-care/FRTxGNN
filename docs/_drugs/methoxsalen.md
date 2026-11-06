@@ -78,7 +78,6 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement pour la réticulose pagétoïde localisée.
 
-
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
 | [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) | 2006 | Revue (évaluation des technologies de santé) | Ontario Health Technology Assessment Series | Évaluation de l'efficacité, de la sécurité et du rapport coût-efficacité de la photophérèse extracorporelle dans le lymphome cutané à cellules T érythrodermique réfractaire et la maladie du greffon contre l'hôte chronique |
@@ -130,7 +129,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Une recherche bibliographique ciblée sur la réticulose pagétoïde localisée et le PUVA (séries de cas, revues)
 - Les données sur le mécanisme d'action (DrugBank)
 - Le texte de la notice de l'ANSM (mises en garde, contre-indications), bloquant pour l'évaluation de sécurité
-- La clarification des indications autorisées pour les AMM annulées et de l'existence d'une présentation disponible en France
 - Un plan de surveillance du risque de cancers cutanés et de photosensibilité, ainsi qu'une revue des interactions médicamenteuses
 ## Avertissement
 

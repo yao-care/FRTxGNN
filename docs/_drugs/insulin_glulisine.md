@@ -139,7 +139,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM.
 - Compléter les données sur le mécanisme d'action via DrugBank.
-- Clarifier les raisons de l'annulation des AMM et la disponibilité réelle du produit en France.
 - Définir un plan de surveillance de l'hypoglycémie et des interactions médicamenteuses pertinentes.
 
 ---

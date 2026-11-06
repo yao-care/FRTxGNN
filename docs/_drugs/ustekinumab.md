@@ -82,7 +82,7 @@ Il convient aussi de noter que le score élevé du modèle TxGNN (apprentissage 
 | 66170398 | STELARA 90 mg, solution injectable en seringue préremplie | Solution injectable | Non disponible (AMM active) |
 | 61145149 | OTULFI 130 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non disponible (AMM active) |
 
-Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma), toutes au statut annulé.
+Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma).
 
 ## Considérations de Sécurité
 
@@ -95,7 +95,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-Deux essais de phase 2 testent directement ustékinumab dans la dermatite atopique, mais ils sont de petite taille et l'adéquation mécanistique est partielle (voie Th2 dominante). Le score TxGNN est gonflé par un terme très général, les AMM françaises sont toutes annulées et les données de sécurité de la notice manquent.
+Deux essais de phase 2 testent directement ustékinumab dans la dermatite atopique, mais ils sont de petite taille et l'adéquation mécanistique est partielle (voie Th2 dominante). Le score TxGNN est gonflé par un terme très général et les données de sécurité de la notice manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats détaillés des essais NCT01945086 et NCT01806662 (efficacité et sécurité)

@@ -103,7 +103,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la leucémie myéloïde repose sur un score computationnel élevé et une seule étude préclinique, sans aucun essai clinique. Le profil myélosuppresseur du ribociclib est en outre une préoccupation majeure dans une hémopathie maligne. L'AMM française est annulée.
+- La prédiction pour la leucémie myéloïde repose sur un score computationnel élevé et une seule étude préclinique, sans aucun essai clinique. Le profil myélosuppresseur du ribociclib est en outre une préoccupation majeure dans une hémopathie maligne.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action

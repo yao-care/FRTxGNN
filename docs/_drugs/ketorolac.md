@@ -120,7 +120,7 @@ Parmi les 17 essais recensés, les plus pertinents sont listés ci-dessous.
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle (mises en garde et contre-indications) : ces données sont manquantes et bloquent l'évaluation de sécurité.
 - Données détaillées sur le mécanisme d'action issues de DrugBank.
-- Clarification de la voie d'administration : les preuves concernent les formes IV, IM et nasale, alors que la seule AMM française recensée est un collyre annulé.
+- Clarification de la voie d'administration : les preuves concernent les formes IV, IM et nasale.
 - Plan de surveillance pour les populations à risque (sujets âgés, insuffisants rénaux, patients sous lithium, anticoagulants ou autres AINS) et limitation de la durée de traitement.
 
 **Note sur les autres prédictions :** la conjonctivite rosacée (score 0,9940) ne dispose d'aucun essai ni publication (niveau L5, décision Hold). La céphalalgie autonomique trigéminale (score 0,9939) n'a qu'un essai retiré sans inclusion et une littérature indirecte (niveau L4, question de recherche).

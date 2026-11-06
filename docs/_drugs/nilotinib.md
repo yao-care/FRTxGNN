@@ -111,7 +111,6 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des données précliniques et cliniques spécifiques au nilotinib dans le DFSP, y compris des cas rapportés ou des études de phase 2
 - Comparer le nilotinib à l'imatinib dans cette indication
-- Clarifier la disponibilité réelle du produit en France, compte tenu des AMM annulées
 - Établir un plan de surveillance cardiaque (ECG, QT) et de gestion des interactions
 ## Avertissement
 

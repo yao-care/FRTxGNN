@@ -125,7 +125,7 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 - Notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Études précliniques ou essais pilotes directement dans le TDAH
 - Évaluation séparée de la schizophrénie (niveau L1) : résultats publiés de NCT01320982 et de l'ECR PMID 35921506, avec vigilance sur le risque d'aggravation psychotique
-- Clarification du statut réglementaire en France (AMM annulées)
+- Clarification du statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

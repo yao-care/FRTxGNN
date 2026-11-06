@@ -91,13 +91,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pour la maladie rénale hypertensive maligne. De plus, les données de sécurité officielles sont absentes et l'AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pour la maladie rénale hypertensive maligne. De plus, les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, lacune bloquante pour le dépistage de sécurité
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank)
 - Réaliser une revue de la littérature ciblée sur les bêta-bloquants et le nébivolol dans l'atteinte rénale hypertensive maligne
-- Clarifier le statut réglementaire en France (AMM annulée, absence de produit valide)
+- Clarifier le statut réglementaire en France
 - Évaluer la sécurité dans les populations à risque (insuffisance rénale, hépatique, maladie vasculaire périphérique, diabète)
 ## Avertissement
 

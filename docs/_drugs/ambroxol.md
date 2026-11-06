@@ -78,8 +78,6 @@ Aucun essai clinique associé enregistré actuellement.
 |---------|------|------|-----------|
 | 61641907 | MUXOL, solution buvable | Solution buvable | Non renseignée |
 
-Les données compilées pour ce rapport comptent une seule AMM, enregistrée comme annulée.
-
 ## Considérations de Sécurité
 
 **Interactions Médicamenteuses :**

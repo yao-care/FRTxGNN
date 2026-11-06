@@ -87,7 +87,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans mécanisme plausible, et avec un risque thrombotique potentiel. Le produit n'a plus d'AMM en vigueur en France.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans mécanisme plausible, et avec un risque thrombotique potentiel.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank), pour analyser un éventuel lien avec la voie de la coagulation

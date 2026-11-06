@@ -90,13 +90,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose sur un seul rapport de cas de 1963, sans essai clinique, et le bénéfice plausible se limiterait aux bronchites d'origine toxique par métaux lourds.
-- Le produit n'a plus d'AMM valide en France et les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Définir précisément la population cible (bronchite d'origine toxique par métaux lourds) et rechercher des études complémentaires
-- Clarifier le statut réglementaire et la disponibilité du produit en France après l'annulation de l'AMM
+- Clarifier le statut réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

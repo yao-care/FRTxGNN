@@ -113,14 +113,14 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 
 **Justification :**
 - Le score TxGNN est élevé, mais la prédiction repose sur aucun essai clinique et sur un seul rapport de cas indiquant un possible effet délétère (niveau de preuve L4). Les autres indications prédites sont de niveau L5.
-- Les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
+- Les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indication autorisée).
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank).
 - Examiner la littérature sur les antagonistes 5-HT3 dans la migraine pour déterminer si l'effet est protecteur ou aggravant.
 - Évaluer le risque d'allongement du QT et des interactions majeures chez les patients migraineux, notamment avec les triptans.
-- Clarifier la situation réglementaire (AMM annulées) et la compatibilité de la voie d'administration (injectable) avec un usage dans la migraine.
+- Clarifier la situation réglementaire et la compatibilité de la voie d'administration (injectable) avec un usage dans la migraine.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

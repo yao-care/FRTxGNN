@@ -102,7 +102,6 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - La cohérence mécanistique est plausible et le score TxGNN est élevé, mais aucun essai contrôlé ne teste la papavérine comme traitement de la maladie ischémique. Le seul essai enregistré est un registre diagnostique, et la littérature se compose surtout de revues, d'usages procéduraux et d'études précliniques (niveau L4).
-- La seule AMM française est annulée, et le profil de sécurité (nombreuses contre-indications cardiovasculaires, dont la maladie coronarienne et l'infarctus du myocarde, alors même que l'indication visée est ischémique) appelle une grande prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité officielles de la notice ANSM (mises en garde et contre-indications), actuellement manquantes

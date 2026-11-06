@@ -98,7 +98,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 **Justification :**
 - La prédiction pour la gastroduodénite repose uniquement sur le modèle (L5), sans essai clinique, sans publication ni lien mécanistique plausible.
-- Les deux AMM françaises sont annulées et les informations de sécurité de la notice ne sont pas disponibles.
+- Les informations de sécurité de la notice ne sont pas disponibles.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice de l'ANSM (mises en garde et contre-indications), point bloquant pour toute évaluation de sécurité

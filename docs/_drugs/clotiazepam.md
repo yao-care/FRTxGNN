@@ -89,13 +89,12 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - Le soutien repose essentiellement sur la prédiction du modèle et sur l'effet de classe des benzodiazépines : aucun essai clinique et une seule revue générale sont disponibles (niveau L4).
-- Les deux AMM françaises sont annulées et les données de sécurité sont absentes, ce qui empêche toute évaluation de sécurité préalable.
+- Les données de sécurité sont absentes, ce qui empêche toute évaluation de sécurité préalable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications), élément bloquant pour l'évaluation de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Rechercher des études cliniques ou observationnelles spécifiques au clotiazépam dans l'insomnie
-- Clarifier les raisons de l'annulation des AMM et l'indication originale autorisée
 - Évaluer les risques propres à la classe des benzodiazépines (dépendance, sédation, usage prolongé) et la compatibilité des voies d'administration
 ## Avertissement
 

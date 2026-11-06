@@ -100,7 +100,7 @@ Aucune interaction médicamenteuse n'a été retrouvée. Pour les mises en garde
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication thérapeutique. Le mécanisme d'action est inconnu, et l'AMM française est annulée.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication thérapeutique. Le mécanisme d'action est inconnu.
 - Les publications disponibles pour les indications voisines concernent des biomarqueurs diagnostiques et n'apportent aucune preuve d'efficacité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

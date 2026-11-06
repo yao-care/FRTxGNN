@@ -106,7 +106,7 @@ Pour les mises en garde détaillées, veuillez consulter la notice.
 
 **Justification :**
 - L'hypothèse mécanistique est cohérente et un essai de Phase 3 de grande taille est en cours, mais sans résultats ; le ticagrélor n'est pas l'unique agent testé et les données directes restent limitées.
-- Le statut réglementaire français (toutes AMM annulées) et le risque hémorragique, notamment intracrânien, imposent la prudence.
+- Le statut réglementaire français et le risque hémorragique, notamment intracrânien, imposent la prudence.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats de CAPTIVA (fin prévue en janvier 2027), en particulier le bras ticagrélor.

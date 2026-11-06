@@ -90,7 +90,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible ; le profil de sécurité (hypotension, allongement du QT) est défavorable pour des indications bénignes ou génétiques. Le produit n'est en outre plus commercialisé en France (AMM annulée).
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible ; le profil de sécurité (hypotension, allongement du QT) est défavorable pour des indications bénignes ou génétiques.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mise à disposition des mises en garde et contre-indications de la notice (ANSM), actuellement bloquante pour l'évaluation de sécurité

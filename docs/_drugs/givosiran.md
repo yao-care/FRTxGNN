@@ -100,14 +100,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- Le rationnel mécanistique est cohérent, mais les preuves directes se limitent à deux rapports de cas contradictoires. Il n'existe aucun essai clinique dans cette indication, et le niveau de preuve est L4. L'AMM française est par ailleurs annulée.
+- Le rationnel mécanistique est cohérent, mais les preuves directes se limitent à deux rapports de cas contradictoires. Il n'existe aucun essai clinique dans cette indication, et le niveau de preuve est L4.
 - Les neuf autres prédictions (sclérose hépatoportale, cirrhose associée au cuivre, hypertension portale familiale non cirrhotique, thrombose portale primitive, syndrome hépatopulmonaire, hépatites C et B chroniques, déficit hépatique en glycogène synthase, trouble du métabolisme de la phénylalanine) sont de niveau L5, sans preuve et sans lien mécanistique plausible. Elles restent en **Hold**.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (données bloquantes pour le dépistage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Analyse systématique des cas ADP traités par givosiran, avec dosage de l'ALA et du PBG, pour préciser la contribution érythroïde
-- Clarification du statut réglementaire en France (motif de l'annulation de l'AMM et accès actuel au produit)
+- Clarification du statut réglementaire en France
 - Évaluation de l'interaction majeure avec l'éliglustat avant toute utilisation envisagée
 ## Avertissement
 

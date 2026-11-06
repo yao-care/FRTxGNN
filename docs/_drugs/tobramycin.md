@@ -102,8 +102,6 @@ Les 12 AMM de la tobramycine sont valides (12 sur 12) et le médicament est comm
 | 66302120 | TOBRADEX, collyre en suspension | Collyre en suspension | Active |
 | 66581684 | TODEXAL 3 mg/1 mg par ml, collyre en suspension | Collyre en suspension | Active |
 
-Les 7 autres AMM annulées concernent des formes injectables (NEBCINE) et inhalées (TOBI, TOBI PODHALER, génériques Zentiva et Sun).
-
 ---
 
 ## Considérations de Sécurité

@@ -89,7 +89,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - La prédiction repose sur le score du modèle et sur une seule étude génomique indirecte, sans essai clinique ni donnée de sensibilité à delamanid.
-- Les deux AMM françaises sont annulées et les données de sécurité de la notice ne sont pas disponibles.
+- Les données de sécurité de la notice ne sont pas disponibles.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de sensibilité *in vitro* de *M. bovis* à delamanid (CMI)

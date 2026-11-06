@@ -97,8 +97,6 @@ Le médicament est commercialisé : les 6 AMM associées sont valides (6 sur 6) 
 | 64085981 | RIFADINE 2 POUR CENT | Suspension buvable | Non renseignée (AMM active) |
 | 63898512 | RIFINAH 300 mg/150 mg | Comprimé enrobé | Non renseignée (AMM active) |
 
-Une sixième AMM annulée (RIFATER, comprimé enrobé, n° 64208131) figure également dans les données.
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : insuffisance hépatique et hépatopathies (dont hépatite et insuffisance hépatique aiguë), porphyries, maladies de la vésicule biliaire, thrombocytopénie, neutropénie, agranulocytose, pancytopénie, anémies (dont aplasique et macrocytaire), diabète et acidocétose diabétique, goutte, neuropathies périphériques, abus ou dépendance à une substance, acétylation lente, troubles anxieux, névrotiques et dysthymiques, méningite non infectieuse.

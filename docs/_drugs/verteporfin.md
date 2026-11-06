@@ -92,7 +92,7 @@ Aucune littérature associée disponible actuellement.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est incertain et potentiellement défavorable, et il n'existe plus d'AMM valide en France.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est incertain et potentiellement défavorable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice (ANSM), élément bloquant pour le criblage de sécurité.

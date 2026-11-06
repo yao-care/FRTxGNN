@@ -91,8 +91,6 @@ Aucune littérature associée disponible actuellement.
 | 60256036 | ALPROLIX 3000 UI | Poudre et solvant pour solution injectable | Non renseignée |
 | 64832013 | ALPROLIX 2000 UI | Poudre et solvant pour solution injectable | Non renseignée |
 
-Les cinq AMM, détenues par Swedish Orphan Biovitrum (Suède), sont annulées.
-
 ---
 
 ## Considérations de Sécurité
@@ -113,7 +111,7 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 - Récupérer la notice ANSM (mises en garde et contre-indications) pour le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Rechercher des données précliniques ou cliniques pertinentes pour la pseudo-maladie de von Willebrand
-- Clarifier le statut réglementaire du produit en France (AMM annulées) et la voie d'administration
+- Clarifier le statut réglementaire du produit en France et la voie d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

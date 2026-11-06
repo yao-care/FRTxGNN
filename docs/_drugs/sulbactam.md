@@ -99,7 +99,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Décision : Hold**
 
 **Justification :**
-- Aucun essai clinique n'est enregistré et les données publiées sont anciennes, de petite taille et portent sur l'association ampicilline/sulbactam, et non sur le sulbactam seul. Le produit n'est plus commercialisé en France (AMM annulées), et les données de sécurité issues de la notice ainsi que le mécanisme d'action sont manquants, ce qui bloque l'évaluation de sécurité.
+- Aucun essai clinique n'est enregistré et les données publiées sont anciennes, de petite taille et portent sur l'association ampicilline/sulbactam, et non sur le sulbactam seul. Les données de sécurité issues de la notice ainsi que le mécanisme d'action sont manquants, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM

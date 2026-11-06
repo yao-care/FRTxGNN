@@ -71,7 +71,6 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 67601314 | PREVYMIS 480 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
@@ -93,14 +92,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le mécanisme d'action du létermovir (inhibition de la terminase virale) n'a pas de cible plausible chez les champignons.
-- Les AMM françaises sont toutes annulées, et les données de sécurité issues de la notice sont manquantes, ce qui empêche l'étape de criblage de sécurité.
+- Les données de sécurité issues de la notice sont manquantes, ce qui empêche l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice ANSM (mises en garde et contre-indications) pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action
 - Données précliniques *in vitro* démontrant une éventuelle activité antifongique sur *Candida*
 - Évaluation de la compatibilité des voies d'administration pour une indication vulvovaginale
-- Clarification du statut réglementaire en France (AMM annulées)
+- Clarification du statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -112,7 +112,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication directe. L'épiglottite est une urgence nécessitant un traitement parentéral à large spectre, ce qui s'accorde mal avec une pénicilline orale à spectre étroit.
-- L'AMM française est abrogée et les données de sécurité de la notice manquent. Cette lacune bloque l'étape de criblage de sécurité.
+- Les données de sécurité de la notice manquent. Cette lacune bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.

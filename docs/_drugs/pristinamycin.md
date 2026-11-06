@@ -84,7 +84,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai, sans publication et sans lien mécanistique plausible. Les AMM françaises sont par ailleurs toutes annulées.
+- La prédiction repose uniquement sur le modèle (L5), sans essai, sans publication et sans lien mécanistique plausible.
 
 **Note sur une autre prédiction du même médicament :** parmi les dix indications prédites, seule l'**atteinte de l'urètre (urétrite infectieuse)** s'appuie sur une littérature indirecte (niveau L4, score TxGNN de 0,9915) :
 - Directive européenne 2021 sur *Mycoplasma genitalium* (PMID [35182080](https://pubmed.ncbi.nlm.nih.gov/35182080/), 2022).
@@ -98,7 +98,7 @@ Ces données restent indirectes (recommandations, sensibilité *in vitro*, séri
 - Les mises en garde et contre-indications officielles, à extraire de la notice ANSM (lacune bloquante pour le criblage de sécurité).
 - Les données sur le mécanisme d'action, à interroger dans DrugBank.
 - Une hypothèse étiologique précise pour la maladie du rétropéritoine (par exemple une infection documentée), faute de quoi la piste ne se justifie pas.
-- Pour la piste urétrale : une revue systématique, puis des essais cliniques, ainsi que la disponibilité actuelle du produit en France, puisque les AMM sont annulées.
+- Pour la piste urétrale : une revue systématique, puis des essais cliniques, ainsi que la disponibilité actuelle du produit en France.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

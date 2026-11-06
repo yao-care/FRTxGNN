@@ -112,14 +112,14 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L4) : aucun essai clinique, et une littérature indirecte portant sur d'autres tumeurs. De plus, les trois AMM françaises sont annulées et les données de sécurité de la notice sont absentes.
+- La prédiction repose uniquement sur le modèle (niveau L4) : aucun essai clinique, et une littérature indirecte portant sur d'autres tumeurs.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des données précliniques ou cliniques spécifiques aux néoplasmes des voies aérodigestives supérieures
 - Préciser la signification clinique du terme « tumeur des voies aérodigestives supérieures » (histologies visées) et la compatibilité des voies d'administration
-- Clarifier la disponibilité actuelle du produit en France, puisque aucune AMM n'est en vigueur
+- Clarifier la disponibilité actuelle du produit en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

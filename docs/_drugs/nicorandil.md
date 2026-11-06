@@ -75,7 +75,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le médicament est commercialisé en France : 14 AMM valides sur 14 ; le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
+Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -85,7 +85,7 @@ Le médicament est commercialisé en France : 14 AMM valides sur 14 ; le texte d
 | 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Active |
 | 61786176 | IKOREL 20 mg | Comprimé | Annulée |
 
-Au total, 14 AMM figurent dans les données (toutes en monothérapie et toutes annulées).
+Au total, 14 AMM figurent dans les données.
 
 ## Considérations de Sécurité
 
@@ -98,7 +98,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- L'hypothèse repose uniquement sur une étude animale et deux revues, sans aucun essai clinique, et le médicament est commercialisé en France (14 AMM valides sur 14). Le niveau de preuve (L4) ne permet pas d'aller plus loin pour l'instant.
+- L'hypothèse repose uniquement sur une étude animale et deux revues, sans aucun essai clinique, et le médicament est commercialisé en France. Le niveau de preuve (L4) ne permet pas d'aller plus loin pour l'instant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité)

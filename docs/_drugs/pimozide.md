@@ -119,14 +119,14 @@ Les autres prédictions disposent de preuves plus faibles et sont toutes en stat
 **Décision : Hold**
 
 **Justification :**
-- Les preuves en faveur de la trichotillomanie se limitent à une petite étude de 1992 et à des revues, sans essai enregistré (niveau L3). Le profil de risque (QT, nombreuses interactions) et le retrait du marché français (AMM annulées) pèsent contre un repositionnement immédiat.
+- Les preuves en faveur de la trichotillomanie se limitent à une petite étude de 1992 et à des revues, sans essai enregistré (niveau L3). Le profil de risque (QT, nombreuses interactions) et le retrait du marché français pèsent contre un repositionnement immédiat.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de sécurité officielles de l'ANSM (mises en garde et contre-indications de la notice), actuellement manquantes
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Essai contrôlé randomisé dans la trichotillomanie, avec comparaison aux options établies
 - Plan de surveillance cardiaque (ECG, QT, kaliémie) et gestion des interactions CYP3A4/CYP2D6
-- Clarification du statut réglementaire en France (AMM annulées, disponibilité du produit)
+- Clarification du statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

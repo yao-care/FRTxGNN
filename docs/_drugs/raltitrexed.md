@@ -106,7 +106,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la cholangite sclérosante repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique démontré. De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque toute évaluation de sécurité.
+- La prédiction pour la cholangite sclérosante repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni lien mécanistique démontré.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (ANSM) pour les mises en garde et contre-indications

@@ -98,8 +98,6 @@ Ces références ne permettent pas de distinguer l'effet du fluorouracile de cel
 | 63350430 | TOLAK 40 mg/g, crème | Crème | Non renseignée (AMM active) |
 | 64590923 | FLUOROURACILE PFIZER 50 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-Une sixième AMM (FLUOROURACILE ACCORD 50 mg/mL, solution à diluer pour perfusion, n° 65502207) est également annulée.
-
 ---
 
 ## Cytotoxicité
@@ -134,7 +132,7 @@ Les mises en garde et contre-indications officielles de la notice n'étant pas d
 - Mises en garde et contre-indications officielles de la notice (ANSM), actuellement manquantes et bloquantes pour l'évaluation de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Études précliniques ou cliniques spécifiques au fluorouracile dans le rhabdomyosarcome, permettant d'isoler son effet de celui des protocoles standards
-- Clarification du statut réglementaire (AMM annulées) et de la disponibilité de la voie d'administration requise
+- Clarification du statut réglementaire et de la disponibilité de la voie d'administration requise
 - Comparaison avec les protocoles de référence (VAC) pour justifier tout intérêt additionnel
 ## Avertissement
 

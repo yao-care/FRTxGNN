@@ -156,7 +156,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM), qui constituent une lacune bloquante
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier la situation réglementaire en France (AMM annulées, produits de substitution éventuels) et les voies d'administration disponibles
+- Clarifier la situation réglementaire en France et les voies d'administration disponibles
 - Confirmer les preuves spécifiques au rhabdomyosarcome (essais ou séries dédiés)
 - Mettre en place un plan de surveillance : uroprotection par mesna, toxicités rénale, neurologique et hématologique, et risque de cancer secondaire (SMD/LAM)
 ## Avertissement

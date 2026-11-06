@@ -107,7 +107,7 @@ La plupart de ces publications décrivent des vascularites **induites** par les 
 | 64784134 | ERELZI 50 mg, stylo prérempli | Solution injectable | Non disponible (AMM active) |
 | 64959320 | ENBREL 25 mg | Poudre et solvant pour solution injectable | Non disponible (AMM active) |
 
-Au total, 17 AMM sont recensées, toutes annulées (Enbrel, Benepali, Erelzi, Nepexto).
+Au total, 17 AMM sont recensées.
 
 ---
 

@@ -110,7 +110,7 @@ Les mises en garde et contre-indications officielles issues de la notice ne sont
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score élevé du modèle, mais sans essai clinique et avec une littérature indirecte, ancienne ou vétérinaire (niveau L4). Les alternatives topiques sont la norme en ophtalmologie, et l'AMM disponible est annulée et homéopathique.
+- La prédiction repose sur un score élevé du modèle, mais sans essai clinique et avec une littérature indirecte, ancienne ou vétérinaire (niveau L4). Les alternatives topiques sont la norme en ophtalmologie.
 - Les autres indications prédites ne sont pas plus solides : otite externe (L3, données historiques de 1947 et risque d'ototoxicité), uréthrale infectieuse et maladie de Lyme (L4, preuves indirectes), et plusieurs prédictions sans aucune preuve (L5). Pour l'otite interne infectieuse, les données montrent plutôt une toxicité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

@@ -119,7 +119,7 @@ Ces niveaux sont ceux attribués dans les données compilées. L'encéphalopathi
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Rechercher des données spécifiques au clobazam dans le FIRES/NORSE (séries de cas, registres)
-- Vérifier le statut réglementaire actuel du clobazam en France (AMM annulées) et la disponibilité d'autres présentations
+- Vérifier le statut réglementaire actuel du clobazam en France et la disponibilité d'autres présentations
 - Examiner en priorité la piste « encéphalopathie épileptique de l'enfant », la plus proche de l'indication d'origine
 ## Avertissement
 

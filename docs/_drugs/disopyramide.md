@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Résumé en Une Phrase
 
-Disopyramide est un antiarythmique de classe Ia (bloqueur des canaux sodiques à activité anticholinergique), dont les spécialités françaises sont aujourd'hui toutes annulées.
+Disopyramide est un antiarythmique de classe Ia (bloqueur des canaux sodiques à activité anticholinergique).
 Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Gilles de la Tourette**, avec un score très élevé.
 Toutefois, **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction : il s'agit d'une prédiction du modèle uniquement.
 
@@ -97,14 +97,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible, et le médicament n'a plus d'AMM valide en France. Le profil de sécurité (cardiaque et anticholinergique) est défavorable pour cette indication.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible. Le profil de sécurité (cardiaque et anticholinergique) est défavorable pour cette indication.
 - Les autres prédictions du même médicament présentent le même manque de preuves (TDAH, trichotillomanie, etc.). Les seules plus plausibles au niveau de la classe pharmacologique (flutter auriculaire néonatal, tachycardie auriculaire multifocale) restent indirectes (niveau L4) et sans données dédiées.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice (mises en garde, contre-indications), actuellement bloquante pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action (par ex. via DrugBank)
 - Études précliniques démontrant un effet sur les circuits cholinergiques ou dopaminergiques impliqués dans les tics
-- Clarification du statut réglementaire, les AMM étant toutes annulées
+- Clarification du statut réglementaire
 - Évaluation du rapport bénéfice/risque cardiaque pour une population jeune
 ## Avertissement
 

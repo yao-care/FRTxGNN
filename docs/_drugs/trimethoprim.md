@@ -108,7 +108,7 @@ Les mises en garde officielles de la notice ne sont pas disponibles. Veuillez co
 - Les mises en garde et contre-indications officielles issues de la notice de l'ANSM
 - Les données sur le mécanisme d'action et son lien avec l'étiologie de la kératoconjonctivite ponctuée épithéliale
 - Des données cliniques ou précliniques spécifiques à cette indication
-- La confirmation de la disponibilité actuelle d'une formulation ophtalmique, puisque aucune AMM n'est en vigueur en France
+- La confirmation de la disponibilité actuelle d'une formulation ophtalmique
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

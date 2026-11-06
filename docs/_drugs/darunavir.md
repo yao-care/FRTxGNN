@@ -95,7 +95,7 @@ Aucun essai clinique associé n'est enregistré actuellement.
 | 63124787 | DARUNAVIR VIATRIS 600 mg | comprimé pelliculé | Non renseignée (AMM active) |
 | 65602549 | DARUNAVIR VIATRIS 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
 
-Les 17 AMM recensées sont des génériques à base de darunavir seul, toutes au statut annulé.
+Les 17 AMM recensées sont des génériques à base de darunavir seul.
 
 ---
 

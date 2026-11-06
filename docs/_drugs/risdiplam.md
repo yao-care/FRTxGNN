@@ -90,7 +90,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication ni justification mécanistique plausible.
-- L'AMM française est annulée, et les données de sécurité de la notice sont absentes.
+- Les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le criblage de sécurité

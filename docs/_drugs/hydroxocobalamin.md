@@ -89,7 +89,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et le mécanisme d'action est inconnu dans les données disponibles.
-- Les deux AMM françaises sont annulées, et une contre-indication hypertensive est signalée, ce qui est un point de vigilance dans l'hypertension portale et les contextes hémorragiques.
+- Une contre-indication hypertensive est signalée, ce qui est un point de vigilance dans l'hypertension portale et les contextes hémorragiques.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, élément bloquant pour le criblage de sécurité.

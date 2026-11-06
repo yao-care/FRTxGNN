@@ -126,13 +126,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - Le score TxGNN est élevé (0,9986), mais les preuves cliniques directes sont minces : l'essai le plus pertinent a été retiré sans participant, et l'ECR publié (2004) ne démontre pas de bénéfice virologique établi. Le niveau L2 attribué dans les données compilées semble généreux au regard de ces éléments ; une réévaluation vers L3 serait plus prudente.
-- Les 13 AMM françaises sont toutes annulées, et les données de sécurité officielles sont absentes. Il n'est donc pas possible de passer à l'étape de criblage de sécurité.
+- Les données de sécurité officielles sont absentes. Il n'est donc pas possible de passer à l'étape de criblage de sécurité.
 - L'immunosuppression et la longue liste de contre-indications issues du graphe de connaissances appellent à la prudence dans cette population.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) depuis le site de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (via l'API DrugBank)
-- Clarifier l'indication d'origine et la situation réglementaire actuelle (AMM toutes annulées)
+- Clarifier l'indication d'origine et la situation réglementaire actuelle
 - Examiner de façon critique les ECR et études PK/PD existants (notamment 15353978 et 15871638) pour juger de l'effet virologique réel
 - Définir un plan de surveillance de la sécurité (infections opportunistes, hémogramme) pour les patients VIH+
 

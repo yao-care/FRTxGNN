@@ -98,7 +98,7 @@ Aucune littérature associée disponible actuellement.
 | 60944716 | AFSTYLA 1500 UI | Poudre et solvant pour solution injectable | Non renseignée |
 | 66216027 | AFSTYLA 250 UI | Poudre et solvant pour solution injectable | Non renseignée |
 
-Les 7 AMM (titulaire : CSL Behring, Allemagne) sont annulées ; seules les 5 premières sont listées ici.
+Seules les 5 premières sont listées ici.
 
 ---
 
@@ -119,7 +119,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour pouvoir réaliser le premier criblage de sécurité (point bloquant)
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via l'API DrugBank)
 - Rechercher activement des cas cliniques, études observationnelles ou données précliniques sur le FVIII dans la pseudo-maladie de von Willebrand
-- Clarifier la situation réglementaire du produit (raisons de l'annulation des AMM, disponibilité éventuelle sous un autre statut)
+- Clarifier la situation réglementaire du produit
 - Évaluer la compatibilité des voies d'administration, aujourd'hui non analysée
 ## Avertissement
 

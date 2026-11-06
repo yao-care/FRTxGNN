@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 ## Résumé en Une Phrase
 
-Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisations françaises (RETSEVMO) sont aujourd'hui toutes annulées. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent directement (les 3 publications retrouvées portent sur d'autres sujets).
+Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent directement (les 3 publications retrouvées portent sur d'autres sujets).
 
 ## Aperçu Rapide
 

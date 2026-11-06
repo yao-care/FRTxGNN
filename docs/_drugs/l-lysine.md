@@ -38,7 +38,7 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 ## Résumé en Une Phrase
 
-La L-lysine est un acide aminé essentiel, présent dans des solutions de nutrition parentérale et de dialyse péritonéale. Les deux autorisations françaises recensées sont aujourd'hui annulées et ne mentionnent aucune indication.
+La L-lysine est un acide aminé essentiel, présent dans des solutions de nutrition parentérale et de dialyse péritonéale.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **gastroparésie**, mais cette prédiction repose uniquement sur le calcul : **aucun essai clinique** et **1 publication** non pertinente (une étude préclinique sur des cellules souches) sont disponibles.
 
 ## Aperçu Rapide
@@ -93,7 +93,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication pertinente, aucun lien mécanistique démontré. De plus, les deux autorisations françaises sont annulées et les données de sécurité des notices manquent (lacune bloquante).
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication pertinente, aucun lien mécanistique démontré.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser les notices (mises en garde, contre-indications) auprès de l'ANSM

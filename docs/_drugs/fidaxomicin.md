@@ -110,7 +110,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Par ailleurs, la faible absorption systémique de la fidaxomicine rend peu plausible une efficacité dans une affection toxinique d'origine cutanée. De plus, les deux AMM françaises sont annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Par ailleurs, la faible absorption systémique de la fidaxomicine rend peu plausible une efficacité dans une affection toxinique d'origine cutanée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA)

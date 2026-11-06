@@ -60,7 +60,6 @@ La migraine avec aura du tronc cérébral est un sous-type de la migraine avec a
 
 Cependant, le score élevé du modèle reflète surtout la proximité avec l'indication parente, et non une preuve nouvelle. Par prudence théorique (risque de vasoconstriction), les triptans sont habituellement évités ou utilisés avec précaution dans la migraine avec aura du tronc cérébral (anciennement migraine basilaire) et la migraine hémiplégique. Aucune donnée recueillie n'aborde ce sous-type.
 
-
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
@@ -84,7 +83,7 @@ Aucune de ces publications ne traite spécifiquement de la migraine avec aura du
 
 ## Informations de Marché en France
 
-Les cinq AMM identifiées sont toutes annulées ; le texte des indications approuvées n'est pas disponible.
+Le texte des indications approuvées n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -106,13 +105,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le niveau de preuve est L4 : aucun essai clinique, et aucune publication ne traite directement de la migraine avec aura du tronc cérébral. Le score TxGNN élevé reflète surtout la proximité avec la migraine. De plus, les contre-indications théoriques (vasoconstriction, insuffisance vertébro-basilaire) et l'annulation de toutes les AMM françaises appellent à la prudence.
+- Le niveau de preuve est L4 : aucun essai clinique, et aucune publication ne traite directement de la migraine avec aura du tronc cérébral. Le score TxGNN élevé reflète surtout la proximité avec la migraine. De plus, les contre-indications théoriques (vasoconstriction, insuffisance vertébro-basilaire).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications), l'absence de ces données bloquant l'examen de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Revue de la littérature ciblée sur l'usage des triptans dans la migraine avec aura du tronc cérébral et son profil de risque vasculaire
-- Clarifier les raisons de l'annulation des AMM et la disponibilité actuelle du produit en France
 - Si le projet se poursuit, envisager une étude exploratoire avec des critères d'exclusion cardiovasculaires et cérébrovasculaires stricts
 ## Avertissement
 

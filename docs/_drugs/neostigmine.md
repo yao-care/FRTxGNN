@@ -108,13 +108,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication spécifiques au sous-type. Elle concerne une indication déjà couverte par l'usage existant de la néostigmine.
-- L'unique AMM française est annulée et les données de sécurité de la notice sont absentes (lacune bloquante pour la sélection de sécurité).
+- Les données de sécurité de la notice sont absentes (lacune bloquante pour la sélection de sécurité).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications officielles).
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Vérifier si la myasthénie grave avec hyperplasie du thymus constitue réellement une nouvelle indication ou un simple sous-type de l'indication existante.
-- Clarifier la situation réglementaire actuelle (AMM annulée, disponibilité d'autres présentations).
+- Clarifier la situation réglementaire actuelle.
 - Pour la suite de l'évaluation, les autres candidats ayant un niveau de preuve plus avancé (par exemple la myasthénie néonatale, L4, au stade « question de recherche ») nécessiteraient une évaluation dédiée de la posologie et de la sécurité chez le nouveau-né.
 - Ne pas poursuivre les prédictions jugées probablement fausses (par exemple la myasthénie congénitale réfractaire aux inhibiteurs de l'acétylcholinestérase, l'hypersplénisme, le syndrome hémolytique et urémique atypique).
 ## Avertissement

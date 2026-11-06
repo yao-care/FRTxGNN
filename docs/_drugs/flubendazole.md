@@ -38,7 +38,6 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 ## Resume en Une Phrase
 
-Flubendazole est un antihelminthique de la famille des benzimidazoles, commercialisé en France sous les noms FLUVERMAL (comprimé et suspension buvable), dont les deux AMM sont aujourd'hui annulées.
 Le modèle TxGNN le prédit comme potentiellement efficace pour le **carcinome de la vessie** (urinary bladder carcinoma).
 Aucun essai clinique n'est enregistré, et les deux seules publications liées à la tumeur de la vessie portent sur le fenbendazole (un composé voisin), et non sur le flubendazole : la prédiction repose donc essentiellement sur le modèle.
 
@@ -116,7 +115,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 - Obtenir les données de mécanisme d'action depuis DrugBank
 - Rechercher des études précliniques spécifiques au flubendazole dans le cancer de la vessie (lignées cellulaires, modèles animaux)
 - Vérifier la faisabilité d'une voie intravésicale ou autre, la compatibilité de voie d'administration n'étant pas évaluée
-- Clarifier l'indication d'origine et le statut réglementaire (AMM annulées)
+- Clarifier l'indication d'origine et le statut réglementaire
 - Prioriser le carcinome urothélial et la tumeur de la vessie au sens large plutôt que les sous-types rares ou bénins, dont les scores semblent artefactuels
 ## Avertissement
 

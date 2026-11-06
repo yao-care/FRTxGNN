@@ -146,12 +146,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Deux essais de phase 3 terminés (NCT00005866, NCT00822393) et plusieurs essais de phase 2/3 soutiennent l'usage du busulfan dans le conditionnement du SMD, ce qui correspond au niveau L1. Il s'agit toutefois d'un rôle de conditionnement et non d'un traitement en monothérapie, avec un profil de toxicité important.
-- Les quatre AMM françaises sont toutes annulées et l'indication d'origine n'est pas documentée : la situation réglementaire reste à clarifier.
+- L'indication d'origine n'est pas documentée : la situation réglementaire reste à clarifier.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice de l'ANSM (données bloquantes pour le criblage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
-- Clarification du statut réglementaire en France (AMM annulées) et de l'indication d'origine
+- Clarification du statut réglementaire en France et de l'indication d'origine
 - Protocole de surveillance pharmacocinétique et de prévention de la maladie veino-occlusive et des crises convulsives
 - Évaluation de la compatibilité des voies d'administration (non renseignée)
 

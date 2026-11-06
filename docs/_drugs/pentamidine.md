@@ -92,7 +92,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme d'action est inconnu, la seule AMM française est annulée, et le profil de risque (cardiaque, rénal, glycémique, hématologique) est préoccupant.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme d'action est inconnu, et le profil de risque (cardiaque, rénal, glycémique, hématologique) est préoccupant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante pour le criblage de sécurité).

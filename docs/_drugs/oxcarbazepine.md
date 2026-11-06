@@ -111,7 +111,6 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Récupérer la notice officielle auprès de l'ANSM (mises en garde et contre-indications) ;
 - Compléter les données sur le mécanisme d'action (DrugBank) ;
 - Rechercher des données cliniques spécifiques à l'épilepsie visuelle ou photosensible (séries de cas, études observationnelles) ;
-- Clarifier les raisons de l'annulation des AMM en France et la disponibilité actuelle du médicament ;
 - Évaluer le risque d'hyponatrémie et le profil d'interactions (248 interactions connues) avant toute étude.
 ## Avertissement
 

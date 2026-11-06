@@ -113,7 +113,7 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec une plausibilité mécanistique faible à spéculative.
-- La seule AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications)
@@ -121,7 +121,7 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 - Réaliser une recherche ciblée dans la littérature et les registres d'essais sur l'idébénone dans la porphyrie hépatique
 - Vérifier si les scores identiques observés pour plusieurs maladies hépatiques reflètent des similarités apprises par le modèle TxGNN (deep learning) entre maladies apparentées plutôt qu'une preuve biologique
 - Évaluer la faisabilité d'une voie d'administration, la compatibilité n'ayant pas été établie
-- Clarifier le statut réglementaire, l'AMM étant annulée
+- Clarifier le statut réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

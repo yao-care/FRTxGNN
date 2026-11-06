@@ -129,7 +129,6 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Vérifier les résultats d'efficacité de l'essai NCT03706040 (publication PMID 36588137) ; l'absence de bénéfice clair irait contre la poursuite.
-- Obtenir les mises en garde et contre-indications de la notice ANSM (donnée bloquante) et clarifier la situation réglementaire des AMM annulées.
 - Compléter les données sur le mécanisme d'action (via DrugBank).
 - Préciser le sous-type de dermatite visé (atopique, de contact, etc.).
 - Pour les autres indications prédites (par ex. pityriasis lichénoïde et pityriasis lichénoïde aigu, plausibles par proximité avec le parapsoriasis), des preuves cliniques restent à produire : à ce stade, il s'agit uniquement de prédictions (niveau L5, Hold).

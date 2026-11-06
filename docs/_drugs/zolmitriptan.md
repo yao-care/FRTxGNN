@@ -85,7 +85,7 @@ Aucune des publications ci-dessous n'étudie spécifiquement la migraine avec au
 
 ## Informations de Marché en France
 
-Les 20 AMM compilées sont annulées. Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.
+Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -116,7 +116,6 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Réaliser une revue ciblée de la littérature sur les triptans dans la migraine avec aura du tronc cérébral
 - Évaluer spécifiquement le risque vasculaire (vasoconstriction) dans ce sous-type, avec avis neurologique et cardiovasculaire
-- Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France
 
 Les deux autres prédictions (atrophodermie vermiculée et uléryhème ophryogène) ne reposent sur aucun lien mécanistique ni preuve clinique ; elles sont à maintenir en statut Hold (niveau L5).
 ## Avertissement

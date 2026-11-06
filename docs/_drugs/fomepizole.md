@@ -101,14 +101,14 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur un score de modèle (niveau L5), sans essai, publication ni donnée mécanistique. De plus, l'unique AMM française est annulée et les données de sécurité officielles sont absentes, ce qui bloque l'évaluation de sécurité.
+- La prédiction repose uniquement sur un score de modèle (niveau L5), sans essai, publication ni donnée mécanistique.
 - Les contre-indications du graphe de connaissances (maladies hépatique et biliaire) appellent une vigilance particulière pour une indication hépatobiliaire.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles de la notice sur le site de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Réaliser une revue de la littérature et des études précliniques sur le lien entre l'inhibition de l'alcool déshydrogénase et la cholangite sclérosante
-- Clarifier la situation réglementaire (AMM annulée) et la faisabilité de la voie d'administration (perfusion) pour cette indication
+- Clarifier la situation réglementaire et la faisabilité de la voie d'administration (perfusion) pour cette indication
 - Évaluer la sécurité du fomépizole chez les patients atteints d'une atteinte hépatique ou biliaire
 ## Avertissement
 

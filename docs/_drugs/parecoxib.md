@@ -112,13 +112,13 @@ Le parécoxib étant un inhibiteur de la COX-2, un déséquilibre de la balance 
 **Décision : Hold**
 
 **Justification :**
-- La seule publication clinique (étude pilote, schéma non confirmé) et l'absence d'essai enregistré donnent un niveau de preuve L3. Le profil de sécurité est inconnu faute de notice, et l'AMM annulée avec une forme uniquement injectable limite la faisabilité pratique. À ce stade, il s'agit d'une question de recherche plutôt que d'une candidature prête à avancer.
+- La seule publication clinique (étude pilote, schéma non confirmé) et l'absence d'essai enregistré donnent un niveau de preuve L3. Le profil de sécurité est inconnu faute de notice. À ce stade, il s'agit d'une question de recherche plutôt que d'une candidature prête à avancer.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) : lacune bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Confirmer le schéma, la phase et les résultats de l'étude PMID 21996647 (taille d'échantillon, critères de jugement, comparateurs)
-- Clarifier l'indication d'origine du parécoxib et la raison de l'annulation de l'AMM
+- Clarifier l'indication d'origine du parécoxib
 - Évaluer la compatibilité de la voie d'administration (injectable uniquement) avec la prise en charge des crises de migraine
 - Rechercher des essais contrôlés randomisés supplémentaires et évaluer le risque cardiovasculaire de la COX-2
 ## Avertissement

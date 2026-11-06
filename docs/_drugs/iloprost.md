@@ -91,7 +91,6 @@ Aucun essai de phase 3 n'est identifié dans les données compilées pour ces so
 | 64341103 | ILOPROST ZENTIVA 100 microgrammes/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 | 62386427 | ILOMEDINE 0,1 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : insuffisance hépatique, bronchopneumopathie chronique obstructive (dont forme sévère à début précoce), troubles hypotenseurs, œdème pulmonaire, maladie bronchique.
@@ -110,7 +109,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle de l'ANSM (mises en garde, contre-indications), un manque bloquant pour toute évaluation de sécurité.
 - Obtenir les données sur le mécanisme d'action (DrugBank).
-- Vérifier le statut réglementaire, car les 3 AMM françaises sont annulées.
+- Vérifier le statut réglementaire.
 - Pour l'HTAP associée aux cardiopathies congénitales ou aux connectivites : examiner la littérature en texte intégral et définir un protocole d'essai de phase 2/3.
 - Évaluer la compatibilité des voies d'administration (perfusion disponible en France ; voie inhalée ou topique non documentée).
 ## Avertissement

@@ -119,7 +119,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Le score TxGNN est très élevé (0,9975), mais il n'est soutenu par aucun essai clinique, et la seule publication directement liée évoque un risque d'infections à *Candida* plutôt qu'un bénéfice. Le niveau de preuve est L4 et le mécanisme antifongique est absent. Les autres indications prédites relèvent du niveau L5 (prédiction du modèle uniquement).
-- L'unique AMM française est annulée, et les données de sécurité de la notice sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Les données de sécurité de la notice sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), donnée bloquante.

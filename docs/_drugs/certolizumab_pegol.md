@@ -105,13 +105,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la vascularite rhumatoïde repose sur un score élevé du modèle, sans essai clinique, avec un seul cas clinique favorable et plusieurs cas de vascularite induite par le médicament. Le niveau de preuve est L4 et le statut réglementaire en France est « annulé » pour les deux AMM.
+- La prédiction pour la vascularite rhumatoïde repose sur un score élevé du modèle, sans essai clinique, avec un seul cas clinique favorable et plusieurs cas de vascularite induite par le médicament. Le niveau de preuve est L4.
 - Parmi les autres prédictions : la spondylopathie inflammatoire (L1, « Proceed with Guardrails ») correspond surtout à des indications déjà existantes et ne constitue pas un véritable repositionnement ; l'arthrite juvénile polyarticulaire (L3) repose sur un essai de phase 3 en ouvert, sans bras contrôle ; les autres prédictions (hypermobilité du coccyx, maladie de Kümmell, maladie vertébrale) n'ont aucune preuve et aucun mécanisme TNF plausible.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action.
 - Mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
-- Vérification du statut réglementaire et de la disponibilité du produit en France (AMM annulées).
+- Vérification du statut réglementaire et de la disponibilité du produit en France.
 - Revue systématique des cas de vascularite sous anti-TNF pour distinguer bénéfice et effet paradoxal, puis, si pertinent, une étude exploratoire contrôlée.
 - Revue des 354 interactions médicamenteuses, en priorité celles avec les corticoïdes.
 ## Avertissement

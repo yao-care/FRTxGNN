@@ -129,14 +129,14 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - Pour le rang 1 (prédiction principale), il n'existe aucun essai ni publication (niveau L5) et aucun lien mécanistique plausible.
-- L'indication la mieux soutenue, l'insuffisance cardiaque congestive (niveau L2), reste au stade de « question de recherche » : les résultats de l'essai de phase 2/3 n'ont pas été fournis et l'AMM française est annulée. Les données de sécurité officielles manquent également.
+- L'indication la mieux soutenue, l'insuffisance cardiaque congestive (niveau L2), reste au stade de « question de recherche » : les résultats de l'essai de phase 2/3 n'ont pas été fournis. Les données de sécurité officielles manquent également.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) ; cette lacune bloque le criblage de sécurité
 - Confirmer l'indication originale et le mécanisme d'action (DrugBank)
 - Obtenir les résultats de NCT01580553 et vérifier si la composante de phase 3 constitue un essai pivot
 - Évaluer les contre-indications issues du graphe (maladies rénale et hépatique, épilepsie) au regard des populations cibles, notamment cardio-rénales
-- Clarifier le statut réglementaire en France (AMM annulée) et la voie d'administration (injectable vs orale)
+- Clarifier le statut réglementaire en France et la voie d'administration (injectable vs orale)
 - Pour la néphropathie diabétique et la polyarthrite rhumatoïde, des études contrôlées séparant l'effet de la lévocarnitine sont nécessaires
 ## Avertissement
 

@@ -126,7 +126,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique via mTOR est plausible, mais aucun essai ne cible spécifiquement le liposarcome, et la seule publication est une revue générale. La seule AMM française est abrogée et les données de sécurité issues de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Le lien mécanistique via mTOR est plausible, mais aucun essai ne cible spécifiquement le liposarcome, et la seule publication est une revue générale. Les données de sécurité issues de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice (mises en garde et contre-indications) depuis le site de l'ANSM

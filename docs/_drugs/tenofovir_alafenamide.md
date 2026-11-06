@@ -91,8 +91,6 @@ Toutes les publications sont précliniques (modèles animaux). Les résumés dis
 | 60246298 | BIKTARVY 30 mg/120 mg/15 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 64689693 | ODEFSEY 200 mg/25 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
-Une sixième AMM (GENVOYA 150 mg/150 mg/200 mg/10 mg, n° 65453475) est également annulée.
-
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité. Les mises en garde et contre-indications du résumé des caractéristiques du produit n'ont pas pu être récupérées pour ce rapport.
@@ -104,13 +102,13 @@ Une donnée pharmacologique signale une liaison du ténofovir alafénamide au r�
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à des études précliniques chez l'animal (L4). Le SIV/SHIV est un modèle du VIH et non une indication humaine distincte : ces données confortent l'usage existant plutôt qu'elles n'ouvrent une nouvelle indication. Aucun essai clinique n'est enregistré, et les six AMM françaises sont annulées.
+- Les preuves se limitent à des études précliniques chez l'animal (L4). Le SIV/SHIV est un modèle du VIH et non une indication humaine distincte : ces données confortent l'usage existant plutôt qu'elles n'ouvrent une nouvelle indication. Aucun essai clinique n'est enregistré.
 - Elles sont au niveau L5 et ne justifient pas de poursuite.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles auprès de l'ANSM (lacune bloquante pour le criblage de sécurité)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Confirmer le statut réglementaire actuel du produit en France, les AMM étant toutes annulées
+- Confirmer le statut réglementaire actuel du produit en France
 - Réévaluer l'intérêt du SIV comme indication distincte ; sinon, orienter l'analyse vers de véritables nouvelles indications humaines
 ## Avertissement
 

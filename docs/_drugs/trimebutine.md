@@ -85,7 +85,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes au statut « abrogé/annulé ». Le texte des indications approuvées n'est pas renseigné. Cinq AMM sont présentées ci-dessous à titre d'illustration.
+Le texte des indications approuvées n'est pas renseigné. Cinq AMM sont présentées ci-dessous à titre d'illustration.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

@@ -96,7 +96,7 @@ Aucune de ces publications ne porte spécifiquement sur la migraine avec aura du
 
 ## Informations de Marché en France
 
-Les 16 AMM sont annulées, et aucune indication approuvée n'est renseignée dans les données compilées. Principales AMM :
+Aucune indication approuvée n'est renseignée dans les données compilées. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -129,7 +129,6 @@ Les mises en garde et contre-indications issues de la notice officielle n'ont pa
 - Obtenir et analyser la notice officielle (mises en garde et contre-indications), actuellement manquante et bloquante pour l'évaluation de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Examiner les données de sécurité des triptans dans la migraine avec aura du tronc cérébral (risque vasculaire)
-- Clarifier les raisons de l'annulation des AMM françaises et la disponibilité réelle du produit
 - Mener, si pertinent, une étude spécifique à ce sous-type de migraine avant toute décision de développement
 ## Avertissement
 

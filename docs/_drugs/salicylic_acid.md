@@ -103,7 +103,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Decision : Hold**
 
 **Justification :**
-- La prediction repose uniquement sur le modele (niveau L5), sans essai ni publication, et les deux AMM francaises sont annulees.
+- La prediction repose uniquement sur le modele (niveau L5), sans essai ni publication.
 - Le risque d'irritation et de lesion keratolytique oculaire n'est pas evalue, et le mecanisme d'action n'est pas documente.
 
 **Pour avancer, les elements suivants sont necessaires :**

@@ -115,7 +115,7 @@ Pour les autres informations de sécurité (mises en garde, contre-indications),
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et aucun lien mécanistique plausible n'est identifié. De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent.
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et aucun lien mécanistique plausible n'est identifié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité

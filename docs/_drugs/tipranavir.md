@@ -92,7 +92,7 @@ Aucune littérature associée disponible actuellement.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. L'indication est vétérinaire, l'AMM française est annulée et le profil de sécurité est lourd (hépatotoxicité, hémorragie intracrânienne, nombreuses interactions). Les autres prédictions sont soit des reformulations de l'indication existante, soit des artefacts probables du modèle.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. L'indication est vétérinaire et le profil de sécurité est lourd (hépatotoxicité, hémorragie intracrânienne, nombreuses interactions). Les autres prédictions sont soit des reformulations de l'indication existante, soit des artefacts probables du modèle.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant pour le criblage de sécurité

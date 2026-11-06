@@ -106,7 +106,7 @@ Publications relatives à l'hypertrichose (indication prédite en rang 7), qui m
 **Décision : Hold**
 
 **Justification :**
-- Les prédictions sont à fort score mais reposent surtout sur une association de phénotype (l'hypertrichose, effet indésirable). Aucun essai clinique n'existe ; le seul signal favorable est préclinique (macaque, alopécie, niveau L4). Pour l'hypertrichose et le syndrome d'Ambras, la prédiction est contradictoire et représente plutôt un signal de sécurité. Le profil de sécurité systémique est défavorable et les AMM françaises sont annulées.
+- Les prédictions sont à fort score mais reposent surtout sur une association de phénotype (l'hypertrichose, effet indésirable). Aucun essai clinique n'existe ; le seul signal favorable est préclinique (macaque, alopécie, niveau L4). Pour l'hypertrichose et le syndrome d'Ambras, la prédiction est contradictoire et représente plutôt un signal de sécurité. Le profil de sécurité systémique est défavorable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'examen de sécurité)

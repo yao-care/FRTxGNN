@@ -96,7 +96,7 @@ Pour information, une seule publication a été identifiée pour une autre préd
 | 67759549 | HUMALOG 200 UI/ml KWIKPEN, stylo prérempli | Solution injectable | Non renseignée | Active |
 | 62000441 | LYUMJEV 100 unités/mL, Junior KwikPen, stylo prérempli | Solution injectable | Non renseignée | Active |
 
-Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée. Les six AMM sont détenues par ELI LILLY NEDERLAND BV.
+Les six AMM sont détenues par ELI LILLY NEDERLAND BV.
 
 ## Considérations de Sécurité
 
@@ -122,7 +122,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Données sur le mécanisme d'action issues de DrugBank
 - Recherche ciblée de littérature et d'essais pour l'ovarite auto-immune, en vérifiant si le signal vient d'une simple comorbidité
 - Pour l'agénésie pancréatique, des données spécifiques à l'insuline lispro (cette indication relève d'une substitution hormonale et non d'un repositionnement)
-- Vérification de la situation réglementaire actuelle (raisons de l'annulation des AMM) et de la compatibilité de voie d'administration
+- Vérification de la situation réglementaire actuelle et de la compatibilité de voie d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

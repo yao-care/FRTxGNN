@@ -102,7 +102,6 @@ Le risque hémorragique inhérent à un anticoagulant, ainsi que ces contre-indi
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant.
 - Obtenir les données détaillées du mécanisme d'action (DrugBank).
 - Réaliser une revue systématique de la littérature (séries de cas, recommandations sur le déficit congénital en protéine C et le purpura fulminans néonatal).
-- Vérifier la situation réglementaire : l'annulation des 20 AMM et l'éventuelle disponibilité de l'énoxaparine sous d'autres autorisations.
 - Évaluer la compatibilité des voies d'administration et la similarité avec les indications d'origine (actuellement en attente).
 - Définir un plan de surveillance hémorragique et plaquettaire pour cette population.
 ## Avertissement

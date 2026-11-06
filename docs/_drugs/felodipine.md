@@ -106,7 +106,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Lire les textes complets des études sur l'angor de Prinzmetal (tailles d'échantillon, critères de jugement) et comparer la félodipine aux autres inhibiteurs calciques
-- Évaluer la disponibilité pratique du produit, les AMM étant toutes annulées
+- Évaluer la disponibilité pratique du produit
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

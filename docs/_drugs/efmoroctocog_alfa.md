@@ -105,8 +105,6 @@ Les 8 autorisations, toutes détenues par Swedish Orphan Biovitrum International
 | 69009069 | ELOCTA 1000 UI | Poudre et solvant pour solution injectable | Active |
 | 64440763 | ELOCTA 250 UI | Poudre et solvant pour solution injectable | Active |
 
-*Trois autres AMM (500, 3000 et 4000 UI) sont également annulées.*
-
 ---
 
 ## Considérations de Sécurité
@@ -129,7 +127,7 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
 - Les données détaillées sur le mécanisme d'action (via DrugBank)
 - Une revue de la littérature et des registres d'essais pour les indications les plus plausibles (déficit acquis en facteur de coagulation, hémophilie A avec anomalie vasculaire)
-- Une clarification de la situation réglementaire (raisons de l'annulation des AMM, disponibilité éventuelle du produit)
+- Une clarification de la situation réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

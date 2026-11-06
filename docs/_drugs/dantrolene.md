@@ -85,7 +85,7 @@ Sélection des publications les plus pertinentes pour l'indication prédite (rec
 
 ## Informations de Marché en France
 
-Les trois AMM suivantes sont toutes annulées ; le texte d'indication approuvée n'est pas disponible.
+Le texte d'indication approuvée n'est pas disponible.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -108,7 +108,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Le lien mécanistique est direct et le dantrolène est le traitement de référence de l'hyperthermie maligne, soutenu par des recommandations et des revues. Le niveau L3 sous-estime probablement la certitude clinique, un essai randomisé étant impraticable. Cependant, la prédiction recoupe l'indication d'origine, aucune AMM n'est en vigueur en France et les données de sécurité officielles manquent.
+- Le lien mécanistique est direct et le dantrolène est le traitement de référence de l'hyperthermie maligne, soutenu par des recommandations et des revues. Le niveau L3 sous-estime probablement la certitude clinique, un essai randomisé étant impraticable. Cependant, la prédiction recoupe l'indication d'origine et les données de sécurité officielles manquent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).

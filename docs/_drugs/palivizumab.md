@@ -101,7 +101,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible entre un anticorps anti-protéine F du VRS et une tumeur bénigne de la langue. De plus, les deux AMM françaises sont annulées et les informations de sécurité issues de la notice manquent.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible entre un anticorps anti-protéine F du VRS et une tumeur bénigne de la langue.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité

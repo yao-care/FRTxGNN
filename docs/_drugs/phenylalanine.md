@@ -83,7 +83,7 @@ Aucun essai clinique associé enregistré actuellement.
 | 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
 | 61786735 | AMINOMIX 500, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM annulée) |
 
-Au total, 20 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
+Au total, 20 AMM sont recensées; seules les 5 premières sont listées ici.
 
 ## Considérations de Sécurité
 

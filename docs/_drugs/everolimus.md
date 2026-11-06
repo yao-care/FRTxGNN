@@ -120,7 +120,6 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Résultats publiés d'efficacité de l'essai NCT03114527 (taux de réponse, survie sans progression), idéalement avec une comparaison permettant d'isoler l'effet de l'évérolimus
 - Mises en garde et contre-indications de la notice ANSM
 - Données détaillées sur le mécanisme d'action (DrugBank)
-- Clarification de la disponibilité commerciale en France, compte tenu de l'annulation de toutes les AMM
 - Plan de surveillance de sécurité (hématologique, métabolique, hépatique, rénal, pulmonaire) et gestion des interactions, notamment avec les inhibiteurs du CYP3A4
 
 **Autres indications prédites (à titre informatif) :** le rhabdomyosarcome (rang 7) présente un niveau L2, avec deux essais pédiatriques précoces en population mixte, sans efficacité spécifique démontrée. Le dermatofibrosarcome protubérant relève du niveau L4 (littérature préclinique non spécifique à l'évérolimus). Les autres prédictions (sous-types rares de liposarcome et de rhabdomyosarcome, carcinomes rénaux rares) relèvent du niveau L5, sans essai ni publication, et sont à maintenir en Hold.

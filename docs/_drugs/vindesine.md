@@ -123,7 +123,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- Pour le ganglioneuroblastome, la prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. La seule AMM française est annulée, et les données de sécurité de la notice sont absentes, ce qui empêche le passage au criblage de sécurité.
+- Pour le ganglioneuroblastome, la prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Les données de sécurité de la notice sont absentes, ce qui empêche le passage au criblage de sécurité.
 - Les pistes les plus étayées sont le neuroblastome (L4, essais de protocoles non spécifiques à la vindésine) et la leucémie myéloïde (L3, études anciennes et de petite taille, largement supplantées par les inhibiteurs de tyrosine kinase). Elles relèvent au mieux de questions de recherche.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -131,7 +131,7 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Vérifier, dans les protocoles de neuroblastome, si la vindésine figure réellement dans un bras de traitement
 - Rechercher des données précliniques ou cliniques spécifiques au ganglioneuroblastome
-- Évaluer la faisabilité d'une voie d'administration et d'un approvisionnement, la compatibilité de voie n'étant pas évaluée et le produit n'étant plus commercialisé en France
+- Évaluer la faisabilité d'une voie d'administration et d'un approvisionnement, la compatibilité de voie n'étant pas évaluée
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

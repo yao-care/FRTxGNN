@@ -70,7 +70,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés. Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des autorisations marquées comme annulées, sans que le détail puisse être confirmé ici.
+Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés.
 
 ## Considérations de Sécurité
 

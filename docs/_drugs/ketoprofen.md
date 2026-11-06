@@ -75,7 +75,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -102,7 +102,7 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 **Justification :**
 - Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai ni publication. Pour la plupart d'entre elles, aucun mécanisme plausible n'est identifié.
-- Les AMM françaises sont toutes annulées, ce qui limite la pertinence pratique. La spondylarthropathie et l'arthrite juvénile liée à LACC1 sont à traiter comme des questions de recherche.
+- La spondylarthropathie et l'arthrite juvénile liée à LACC1 sont à traiter comme des questions de recherche.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Recherche ciblée d'essais et de publications sur le kétoprofène dans la spondylarthrite (et l'arthrite juvénile) pouvant faire évoluer le niveau de preuve

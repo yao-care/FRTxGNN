@@ -75,7 +75,7 @@ Aucune littérature associée disponible actuellement pour cette indication.
 |---------|------|------|-----------|
 | 69081937 | EUTHYRAL 100 microgrammes/20 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée |
 
-Cette AMM correspond à un produit associant deux principes actifs (100 µg/20 µg) ; elle ne décrit pas l'autorisation de la liothyronine seule. Le statut de cette AMM est enregistré comme annulé dans les données locales.
+Cette AMM correspond à un produit associant deux principes actifs (100 µg/20 µg) ; elle ne décrit pas l'autorisation de la liothyronine seule.
 
 ## Considérations de Sécurité
 

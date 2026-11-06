@@ -83,7 +83,6 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
 |---------|------|------|-----------|
 | 60108831 | Tolvaptan Sandoz 15 mg + 45 mg | Comprimé | Sandoz |
@@ -91,8 +90,6 @@ Aucun essai clinique associé enregistré actuellement.
 | 66056341 | Jinarc 30 mg | Comprimé | Otsuka Pharmaceutical Netherlands |
 | 68174566 | Jinarc 30 mg + 60 mg | Comprimé | Otsuka Pharmaceutical Netherlands |
 | 68053529 | Tolvaptan Sandoz 30 mg + 90 mg | Comprimé | Sandoz |
-
-(5 AMM présentées sur 17 au total, toutes annulées.)
 
 ## Considérations de Sécurité
 

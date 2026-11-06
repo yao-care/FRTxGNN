@@ -38,7 +38,7 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 ## Résumé en Une Phrase
 
-La tryptophane est un acide aminé essentiel, précurseur de la sérotonine et de la mélatonine. En France, elle entre dans la composition de produits de nutrition parentérale et de solutions de conservation d'organes, dont les autorisations sont aujourd'hui toutes annulées.
+La tryptophane est un acide aminé essentiel, précurseur de la sérotonine et de la mélatonine.
 Le modèle TxGNN prédit qu'elle pourrait être utile dans le **syndrome des jambes sans repos**, mais **aucun essai clinique** n'est enregistré et seules **6 publications** (anciennes, indirectes ou de petite taille) existent à ce jour.
 
 ---
@@ -88,7 +88,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM sont annulées. Aucun texte d'indication approuvée n'est disponible. Les 5 premières sont présentées ci-dessous.
+Aucun texte d'indication approuvée n'est disponible. Les 5 premières sont présentées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

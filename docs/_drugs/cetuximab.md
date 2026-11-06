@@ -138,14 +138,14 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (adénomes/carcinoïdes bronchiques de l'enfant) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans lien mécanistique démontré. Par ailleurs, la seule AMM française recensée est annulée.
+- La prédiction principale (adénomes/carcinoïdes bronchiques de l'enfant) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans lien mécanistique démontré.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le criblage de sécurité.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Établir un lien biologique entre l'EGFR et les carcinoïdes bronchiques pédiatriques (expression de l'EGFR, études précliniques).
 - Envisager de prioriser les indications mieux documentées (lésions prémalignes des voies aéro-digestives supérieures, tumeurs des glandes salivaires/carcinome adénoïde kystique), en obtenant les résultats d'efficacité des essais NCT00524017 et NCT01192087.
-- Clarifier la situation réglementaire en France (AMM annulée) et la disponibilité réelle du produit.
+- Clarifier la situation réglementaire en France et la disponibilité réelle du produit.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

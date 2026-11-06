@@ -107,7 +107,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication pertinente, et sans lien mécanistique plausible entre un antibiotique ciblant la paroi bactérienne et une maladie fibrosante auto-immune.
-- L'AMM française est annulée, et les données de sécurité officielles (mises en garde, contre-indications) sont manquantes, ce qui empêche toute évaluation de sécurité.
+- Les données de sécurité officielles (mises en garde, contre-indications) sont manquantes, ce qui empêche toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle auprès de l'ANSM (mises en garde, contre-indications) pour permettre l'évaluation de sécurité

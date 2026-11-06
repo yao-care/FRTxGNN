@@ -100,14 +100,14 @@ Les données de sécurité issues de la notice (mises en garde, contre-indicatio
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose surtout sur la proximité des indications dans l'ontologie des maladies. Il n'existe aucun essai clinique pour la migraine avec aura du tronc cérébral, le niveau de preuve est L4, l'AMM française est annulée et les données de sécurité de la notice sont absentes (lacune bloquante pour le criblage de sécurité).
+- La prédiction repose surtout sur la proximité des indications dans l'ontologie des maladies. Il n'existe aucun essai clinique pour la migraine avec aura du tronc cérébral, le niveau de preuve est L4 et les données de sécurité de la notice sont absentes (lacune bloquante pour le criblage de sécurité).
 - Une donnée préclinique suggère un effet limité sur les mécanismes de l'aura.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des données cliniques spécifiques à la migraine avec aura du tronc cérébral (séries de cas, registres, essais)
-- Clarifier la situation réglementaire en France (AMM annulée)
+- Clarifier la situation réglementaire en France
 
 *Remarque : la seconde indication prédite, l'atrophodermie vermiculée (score 0,9904), n'a ni essai clinique, ni publication, ni lien mécanistique plausible. Elle est classée niveau L5 avec une recommandation Hold et n'est pas retenue dans ce rapport.*
 ## Avertissement

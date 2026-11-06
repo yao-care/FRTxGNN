@@ -90,7 +90,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Le soutien se limite à un score de prédiction informatique, sans essai ni publication. Le mécanisme est spéculatif et l'AMM française est annulée.
+- Le soutien se limite à un score de prédiction informatique, sans essai ni publication. Le mécanisme est spéculatif.
 - Les autres indications prédites ne sont pas plus solides : la plupart sont également au niveau L5. Seule la cardiopathie pulmonaire chronique atteint le niveau L4, avec un rapport de 1967 peu fiable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

@@ -100,13 +100,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible. Le profil bénéfice-risque d'un agent cytotoxique systémique est défavorable pour une affection non maligne.
-- L'AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
 - Données détaillées sur le mécanisme d'action (via DrugBank)
 - Données précliniques ou mécanistiques justifiant un rôle dans l'ostéoporose médicamenteuse
-- Clarification de l'indication d'origine et des raisons de l'annulation de l'AMM
 - Évaluation de la compatibilité des voies d'administration et de la similarité avec l'indication d'origine
 ## Avertissement
 

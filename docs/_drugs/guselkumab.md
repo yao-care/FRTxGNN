@@ -41,7 +41,6 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 Guselkumab est un anticorps monoclonal inhibiteur de la sous-unité p19 de l'IL-23, commercialisé sous le nom de Tremfya. Les données réglementaires compilées pour ce rapport ne précisent pas son indication d'origine.
 Le modèle TxGNN place en tête de ses prédictions l'**ostéoporose médicamenteuse**, mais **aucun essai clinique ni aucune publication** ne soutient cette direction.
 
-
 ---
 
 ## Apercu Rapide
@@ -70,7 +69,6 @@ Les sept autres prédictions du classement (rétinopathie diabétique sévère n
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, guselkumab se lie à la sous-unité p19 de l'IL-23 et bloque l'axe IL-23/Th17, central dans plusieurs maladies inflammatoires à médiation immunitaire.
 
 **Ostéoporose médicamenteuse (première prédiction).** La voie IL-23/IL-17 a été évoquée dans la résorption osseuse. Toutefois, aucune donnée fournie ne soutient un lien entre guselkumab et l'ostéoporose médicamenteuse. Le score élevé du modèle est une prédiction purement computationnelle et ne suffit pas à justifier une décision.
-
 
 ---
 
@@ -167,7 +165,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les notices ANSM (indications, mises en garde, contre-indications), car cette lacune bloque le criblage de sécurité.
-- Vérifier le statut réglementaire réel de Tremfya en France, les AMM disponibles étant toutes annulées.
+- Vérifier le statut réglementaire réel de Tremfya en France.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Pour l'ostéoporose médicamenteuse : mener une revue de littérature préclinique sur l'axe IL-23/IL-17 et le remodelage osseux avant toute étude clinique.
 - Pour la rectocolite hémorragique et le psoriasis : confirmer s'il s'agit d'indications déjà approuvées afin de les écarter du périmètre du repositionnement.

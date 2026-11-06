@@ -98,7 +98,7 @@ Veuillez consulter la notice pour les informations de sécurité détaillées (m
 - Données sur le mécanisme d'action (MOA) détaillé, afin d'évaluer un éventuel lien mécanistique
 - Mises en garde et contre-indications officielles issues de la notice de l'ANSM
 - Données précliniques (modèles de ciliopathie ou de polykystose) justifiant un intérêt biologique
-- Clarification du statut réglementaire (AMM annulées) et de la voie d'accès éventuelle
+- Clarification du statut réglementaire et de la voie d'accès éventuelle
 - Évaluation du rapport bénéfice/risque dans une population à atteinte rénale et/ou hépatique
 ## Avertissement
 

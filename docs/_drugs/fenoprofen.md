@@ -92,7 +92,7 @@ Parmi les 10 indications prédites, une seule dispose de preuves publiées : la 
 | [324748](https://pubmed.ncbi.nlm.nih.gov/324748/) | 1977 | Revue | Drugs | Revue des propriétés pharmacologiques et de l'efficacité du fénoprofène dans les maladies rhumatismales, dont la spondylarthrite ankylosante |
 | [300118](https://pubmed.ncbi.nlm.nih.gov/300118/) | 1977 | Revue | JAMA | Le fénoprofène pourrait être utile dans la spondylarthrite ankylosante, mais les données étaient jugées insuffisantes pour établir efficacité et posologies |
 
-Ces essais sont petits, anciens et de conception croisée, d'où le niveau L3. Aucun essai de phase 3 de grande taille n'est disponible. De plus, le fénoprofène n'est plus commercialisé en France, et de nombreux AINS mieux documentés restent disponibles, ce qui limite l'intérêt d'un repositionnement.
+Ces essais sont petits, anciens et de conception croisée, d'où le niveau L3. Aucun essai de phase 3 de grande taille n'est disponible.
 
 ---
 
@@ -127,7 +127,7 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale (dysplasie acromésomélique de type Hunter-Thompson) repose uniquement sur le score du modèle, sans essai, sans publication et sans lien mécanistique plausible. Le fénoprofène n'est plus commercialisé en France.
+- La prédiction principale (dysplasie acromésomélique de type Hunter-Thompson) repose uniquement sur le score du modèle, sans essai, sans publication et sans lien mécanistique plausible.
 - Les neuf autres prédictions sont également au niveau L5 (aucune étude), à l'exception de la spondylarthrite ankylosante (L3). Pour celle-ci, le gain potentiel reste limité par l'ancienneté des données et la disponibilité d'AINS mieux documentés.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

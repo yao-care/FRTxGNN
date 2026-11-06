@@ -107,7 +107,7 @@ Le contexte de la granulomatose septique chronique (risque infectieux déjà él
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec la granulomatose septique chronique
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Études précliniques ou cliniques évaluant directement la ciclosporine dans cette maladie
-- Clarification du statut réglementaire (AMM toutes annulées) et de la voie d'administration envisagée
+- Clarification du statut réglementaire et de la voie d'administration envisagée
 
 ### Note sur les autres prédictions
 

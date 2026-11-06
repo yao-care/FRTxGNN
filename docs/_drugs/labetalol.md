@@ -95,13 +95,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être consult
 **Décision : Hold**
 
 **Justification :**
-- La prédiction principale est une extension proche de l'indication hypertension déjà connue, sans essai clinique et avec un seul cas clinique ancien. L'AMM française est annulée, et les données de sécurité issues de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité. Pour l'hypertension pulmonaire, la prédiction n'est pas soutenue par les preuves et pose un problème de sécurité.
+- La prédiction principale est une extension proche de l'indication hypertension déjà connue, sans essai clinique et avec un seul cas clinique ancien. Les données de sécurité issues de la notice manquent, ce qui bloque le passage à l'étape de criblage de sécurité. Pour l'hypertension pulmonaire, la prédiction n'est pas soutenue par les preuves et pose un problème de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Rechercher des études cliniques ou observationnelles ciblant l'hypertension rénovasculaire maligne et la maladie rénale hypertensive maligne
-- Clarifier la disponibilité d'une formulation commercialisée en France, l'AMM étant annulée
+- Clarifier la disponibilité d'une formulation commercialisée en France
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine (actuellement en attente)
 ## Avertissement
 

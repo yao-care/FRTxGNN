@@ -95,7 +95,7 @@ L'usage reste cependant limité à un cadre surveillé (service d'urgences) en r
 | 66110981 | Propofol Kabi 10 mg/mL | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
 | 66701952 | Propofol Lipuro 2 % (20 mg/ml) | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
 
-Au total, 11 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.
+Au total, 11 AMM sont recensées; seules les 5 premières sont listées ici.
 
 ## Considérations de Sécurité
 

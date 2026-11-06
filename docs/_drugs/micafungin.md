@@ -109,7 +109,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupérer les mises en garde et contre-indications de la notice (ANSM)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Disposer d'essais comparatifs ou d'études pharmacocinétiques urinaires plus robustes
-- Clarifier la situation réglementaire en France (AMM annulées, indications non renseignées)
+- Clarifier la situation réglementaire en France
 - Évaluer le risque chez les patients ayant une atteinte rénale ou des voies urinaires
 ## Avertissement
 

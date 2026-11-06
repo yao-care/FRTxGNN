@@ -92,7 +92,7 @@ Veuillez consulter la notice pour les informations complètes de sécurité (mis
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication et aucun lien mécanistique plausible ne la soutiennent. L'usage topique avec exposition systémique minimale rend un effet sur le zinc plasmatique improbable, et l'AMM française est annulée.
+La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication et aucun lien mécanistique plausible ne la soutiennent. L'usage topique avec exposition systémique minimale rend un effet sur le zinc plasmatique improbable.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir la notice de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
@@ -100,7 +100,7 @@ La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucun
 - Démontrer un lien biologique plausible entre la signalisation RAR et le métabolisme du zinc
 - Rechercher des données précliniques ou observationnelles étayant l'indication prédite
 - Évaluer la compatibilité de la voie d'administration (topique) avec l'indication visée
-- Clarifier le statut réglementaire en France (AMM annulée)
+- Clarifier le statut réglementaire en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

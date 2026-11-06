@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM (5 sur 20) :
+Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM (5 sur 20) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|

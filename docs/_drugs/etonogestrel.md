@@ -76,8 +76,6 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le médicament est commercialisé : 6 AMM valides sur 6.
-
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 66845924 | NEXPLANON 68 mg, implant pour usage sous-cutané | Implant | Non renseignée |
@@ -104,7 +102,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), ce qui bloque actuellement l'évaluation de sécurité
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Préciser si l'aménorrhée visée est une indication thérapeutique réelle (par exemple une aménorrhée pathologique) ou un simple effet de la contraception
-- Vérifier les indications d'origine et le statut réglementaire actuel des produits (6 AMM valides sur 6)
+- Vérifier les indications d'origine et le statut réglementaire actuel des produits
 - Rechercher des études spécifiques à l'étonogestrel dans l'aménorrhée et les pathologies bénignes du sein
 ## Avertissement
 

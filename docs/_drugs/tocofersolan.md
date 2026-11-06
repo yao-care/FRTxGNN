@@ -85,12 +85,12 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. L'AMM unique est annulée, l'indication d'origine et le mécanisme d'action sont inconnus, et les informations de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour permettre le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank)
-- Clarifier l'indication d'origine du produit et les raisons de l'annulation de l'AMM
+- Clarifier l'indication d'origine du produit
 - Réaliser une revue systématique de la littérature sur la vitamine E / TPGS dans l'aménorrhée et l'acné
 - Évaluer la compatibilité des voies d'administration pour les indications envisagées
 ## Avertissement

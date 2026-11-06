@@ -89,7 +89,6 @@ Aucune littérature associée disponible actuellement.
 | 66807418 | GRANOCYTE 13 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM active) |
 | 65066667 | GRANOCYTE 34 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM active) |
 
-
 ---
 
 ## Considérations de Sécurité
@@ -106,13 +105,13 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre un G-CSF et les troubles de la fonction plaquettaire.
-- Le médicament n'a plus d'AMM valide en France, et les données de sécurité de la notice sont absentes, ce qui bloque toute évaluation de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde, contre-indications, indications d'origine).
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Réaliser une recherche bibliographique ciblée pour identifier d'éventuelles données précliniques ou cliniques sur le G-CSF et la fonction plaquettaire.
-- Clarifier la situation réglementaire (AMM annulées) et la faisabilité d'un développement ou d'un accès au produit.
+- Clarifier la situation réglementaire et la faisabilité d'un développement ou d'un accès au produit.
 - Si une piste est poursuivie, privilégier des études de mécanisme avant toute étude clinique.
 ## Avertissement
 

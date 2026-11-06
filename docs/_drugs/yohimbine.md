@@ -38,7 +38,7 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 ## Résumé en Une Phrase
 
-La yohimbine est un antagoniste des récepteurs alpha-2 adrénergiques. Elle a été commercialisée en France sous le nom YOCORAL 5 mg, mais l'indication approuvée n'est pas renseignée dans les données compilées pour ce rapport, et l'autorisation est aujourd'hui annulée.
+La yohimbine est un antagoniste des récepteurs alpha-2 adrénergiques. Elle a été commercialisée en France sous le nom YOCORAL 5 mg, mais l'indication approuvée n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN la prédit comme potentiellement efficace pour la **migraine**, avec un score élevé, mais **aucun essai clinique** et **8 publications exclusivement précliniques ou générales** (sans étude clinique d'efficacité) soutiennent cette direction.
 
 ## Aperçu Rapide

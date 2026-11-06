@@ -122,7 +122,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - La prédiction principale (syndrome d'immunodéficience acquise féline) repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le score élevé reflète probablement la proximité avec les indications VIH/SIDA d'origine.
-- Les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes (lacune bloquante). Les contre-indications du graphe de connaissances, notamment cardiaques et hépatiques, ainsi que les 65 interactions, appellent à la prudence.
+- Les données de sécurité de la notice sont absentes (lacune bloquante). Les contre-indications du graphe de connaissances, notamment cardiaques et hépatiques, ainsi que les 65 interactions, appellent à la prudence.
 - La prédiction relative au SIV peut être considérée comme une question de recherche (niveau L4). Celle relative au trouble neurodéveloppemental n'a aucun fondement mécanistique identifié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**

@@ -78,7 +78,7 @@ Aucune de ces publications n'évalue le rivaroxaban comme traitement de la polya
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées ; aucun texte d'indication n'est disponible. Les 5 premières sont listées ci-dessous.
+Aucun texte d'indication n'est disponible. Les 5 premières sont listées ci-dessous.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -107,7 +107,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (0,9957), mais il n'existe ni essai clinique ni publication évaluant l'efficacité du rivaroxaban dans la polyarthrite rhumatoïde (niveau L5). Les données de sécurité officielles sont absentes et le médicament n'a plus d'AMM valide en France.
+- Le score TxGNN est très élevé (0,9957), mais il n'existe ni essai clinique ni publication évaluant l'efficacité du rivaroxaban dans la polyarthrite rhumatoïde (niveau L5). Les données de sécurité officielles sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications, indications) pour le dépistage de sécurité

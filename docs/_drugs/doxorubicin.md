@@ -128,12 +128,12 @@ Les données de mises en garde et de contre-indications issues de la notice ne s
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-Plusieurs essais randomisés de phase 3 et de grandes publications incluent la doxorubicine dans le traitement standard du sarcome d'Ewing, ce qui soutient fortement la prédiction (niveau L1). Toutefois, la doxorubicine y est administrée en association, son rôle propre n'est pas isolé, les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes.
+Plusieurs essais randomisés de phase 3 et de grandes publications incluent la doxorubicine dans le traitement standard du sarcome d'Ewing, ce qui soutient fortement la prédiction (niveau L1). Toutefois, la doxorubicine y est administrée en association, son rôle propre n'est pas isolé et les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde, contre-indications) auprès de l'ANSM, lacune bloquante pour le dépistage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
-- Clarifier le statut réglementaire en France (AMM annulées) et identifier une présentation disponible, par exemple une autre spécialité de doxorubicine
+- Clarifier le statut réglementaire en France et identifier une présentation disponible, par exemple une autre spécialité de doxorubicine
 - Confirmer la contribution propre de la doxorubicine dans les schémas VDC/IE à partir des résultats des essais de phase 3
 - Établir un plan de surveillance cardiaque (limite de dose cumulée, évaluation de la FEVG, cardioprotection) et de la myélosuppression, notamment en pédiatrie
 

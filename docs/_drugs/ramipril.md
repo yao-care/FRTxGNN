@@ -90,7 +90,7 @@ Seules les publications présentant un lien avec l'indication ou le mécanisme s
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées :
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

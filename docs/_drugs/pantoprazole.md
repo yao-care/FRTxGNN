@@ -116,7 +116,6 @@ Pour l'ulcère peptique actif (sélection des publications les plus pertinentes 
 |---------|------|------|-----------|
 | 68729174 | INIPOMP 40 mg, poudre pour solution injectable (IV) (TAKEDA FRANCE) | Poudre pour solution injectable | Non renseignée ; AMM active |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, ne provenant pas du texte de la notice) : ostéoporose, ostéoporose post-ménopausique, fracture osseuse, anémie pernicieuse.
@@ -134,13 +133,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Le pantoprazole agit sur un mécanisme bien établi (inhibition de la pompe à protons) et l'ulcère peptique actif correspond à son usage d'origine ; plusieurs essais de Phases 3 et 4 soutiennent son usage dans les ulcères. Ce n'est donc pas un repositionnement au sens strict.
-- L'unique AMM française est annulée, et les données de sécurité issues de la notice sont absentes, d'où la nécessité de garde-fous.
+- Les données de sécurité issues de la notice sont absentes, d'où la nécessité de garde-fous.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Confirmer le rôle du pantoprazole (bras testé ou comparateur) dans l'essai NCT02084420.
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Confirmer les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
-- Vérifier le statut réglementaire et les formulations disponibles en France (AMM annulée) et selon les régions.
+- Vérifier le statut réglementaire et les formulations disponibles en France et selon les régions.
 - Établir un plan de gestion des interactions (notamment CYP2C19 / clopidogrel, atazanavir, acalabrutinib) et de surveillance des risques d'un traitement prolongé (ostéoporose, fractures, carence en vitamine B12).
 ## Avertissement
 

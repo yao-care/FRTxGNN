@@ -112,7 +112,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank).
 - Rechercher des essais cliniques et des publications sur l'urticaire allergique et l'urticaire au froid avec la doxylamine.
-- Clarifier la valeur ajoutée par rapport aux antihistaminiques de seconde génération et la faisabilité réglementaire, compte tenu du statut « annulé » des AMM.
+- Clarifier la valeur ajoutée par rapport aux antihistaminiques de seconde génération.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

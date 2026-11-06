@@ -93,7 +93,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupération et analyse de la notice officielle (ANSM) : mises en garde et contre-indications
 - Données détaillées sur le mécanisme d'action (par ex. via DrugBank)
 - Revue de la littérature ciblée sur le méthocarbamol et les atteintes radiculaires ou spasmes associés à la queue de cheval
-- Clarification de l'indication d'origine et de la situation réglementaire (AMM annulées)
+- Clarification de l'indication d'origine et de la situation réglementaire
 - Si une piste est retenue, étude préclinique ou pilote avant tout essai clinique
 ## Avertissement
 

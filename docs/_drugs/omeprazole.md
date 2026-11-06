@@ -106,7 +106,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 
 **Justification :**
 - Les preuves se limitent à de petites études cliniques et à des études animales, sans essai randomisé évaluant l'oméprazole dans le reflux duodéno-gastrique ; le mécanisme ne cible pas la cause du reflux biliaire, et un signal de cancérogenèse chez l'animal est préoccupant. Le seul essai clinique recensé est diagnostique.
-- Le statut réglementaire français (toutes AMM annulées) et l'absence de données de notice empêchent aussi de passer à l'étape de criblage de sécurité.
+- Le statut réglementaire français et l'absence de données de notice empêchent aussi de passer à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) sur le site de l'ANSM

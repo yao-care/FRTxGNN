@@ -87,7 +87,7 @@ Ces deux publications sont des cas isolés, de faible niveau de preuve ; aucune 
 
 ## Informations de Marché en France
 
-Les 17 AMM compilées sont toutes annulées. Les 5 premières sont présentées ci-dessous ; le texte d'indication n'est pas renseigné dans les données.
+Les 5 premières sont présentées ci-dessous ; le texte d'indication n'est pas renseigné dans les données.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

@@ -113,12 +113,12 @@ Ces interactions évoquent surtout un risque additif de néphrotoxicité, point 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication pertinente. Le lien mécanistique est non démontré, les données de sécurité de la notice sont manquantes (lacune bloquante) et la seule AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication pertinente. Le lien mécanistique est non démontré, les données de sécurité de la notice sont manquantes (lacune bloquante).
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Clarifier l'indication originale et la raison de l'annulation de l'AMM
+- Clarifier l'indication originale
 - Rechercher des études précliniques ou observationnelles reliant le cidofovir à la cholangite sclérosante (par ex. cholangiopathie virale/CMV)
 - Évaluer la compatibilité de la voie d'administration et le risque de néphrotoxicité, compte tenu des contre-indications rénales issues du graphe de connaissances
 ## Avertissement

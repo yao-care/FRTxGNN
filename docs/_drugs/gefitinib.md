@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 8 AMM suivantes sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -80,8 +80,6 @@ Les 8 AMM suivantes sont toutes annulées ; le texte d'indication approuvée n'e
 | 61571533 | GEFITINIB TEVA 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 67522920 | GEFITINIB ZENTIVA 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 68862107 | GEFITINIB ACCORD 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
-
-Trois autres AMM annulées existent (IRESSA 250 mg, GEFITINIB BIOGARAN 250 mg, GEFITINIB ARROW 250 mg).
 
 ## Cytotoxicité
 

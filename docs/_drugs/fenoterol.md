@@ -86,7 +86,7 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est ambivalent, voire défavorable : la vasodilatation bêta-2 pourrait aggraver l'hypotension orthostatique. L'AMM française est annulée, ce qui limite la faisabilité pratique.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est ambivalent, voire défavorable : la vasodilatation bêta-2 pourrait aggraver l'hypotension orthostatique.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles issues de la notice de l'ANSM (données actuellement manquantes, bloquant l'étape de criblage de sécurité)

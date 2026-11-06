@@ -62,7 +62,7 @@ Pour des indications voisines de l'indication d'origine (dysthymie, mélancolie,
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations pharmacologiques compilées, la mianserine se lie à plusieurs récepteurs sérotoninergiques (5-HT1B, 5-HT2A, 5-HT2B, 5-HT2C, 5-HT6, 5-HT7), aux récepteurs adrénergiques α1 (A, B, D), au récepteur LPA1 et au transporteur de la noradrénaline (NET). Elle agit donc sur les systèmes sérotoninergique et noradrénergique.
 
-Le torticolis paroxystique bénin du nourrisson est un trouble pédiatrique de type canalopathie (souvent lié au gène CACNA1A), apparenté au spectre des migraines. Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente. De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nourrisson.
+Le torticolis paroxystique bénin du nourrisson est un trouble pédiatrique de type canalopathie (souvent lié au gène CACNA1A), apparenté au spectre des migraines. Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente.
 
 Il faut donc considérer cette prédiction comme une hypothèse issue du modèle TxGNN (deep learning), dont le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. D'autres prédictions du même modèle sont nettement plus plausibles, car proches de l'indication d'origine :
 - **Trouble névrotique** (0.9902, L3) : études comparatives propres à la mianserine (vs imipramine, vs clomipramine), mais anciennes et de petite taille.
@@ -119,13 +119,11 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour le torticolis paroxystique bénin du nourrisson repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, avec un lien mécanistique spéculatif, une population nourrisson sans données de sécurité et une AMM annulée.
 - Les indications voisines (dysthymie, mélancolie, dépression névrotique) relèvent plutôt d'une extension de l'indication d'origine que d'un véritable repositionnement ; elles pourraient faire l'objet de questions de recherche (niveau L3-L4), mais avec des preuves indirectes ou anciennes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer le texte de la notice (mises en garde, contre-indications) auprès de l'ANSM : ce point est bloquant pour tout dépistage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
-- Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel.
 - Pour le torticolis du nourrisson : établir un lien mécanistique documenté (par exemple avec CACNA1A et la physiopathologie migraineuse) et disposer de données de sécurité pédiatriques avant toute évaluation.
 - Pour les indications dépressives voisines : rechercher des essais contrôlés spécifiques à la mianserine, plus récents que les études actuelles.
 ## Avertissement

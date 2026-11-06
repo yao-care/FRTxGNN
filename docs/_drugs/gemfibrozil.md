@@ -94,7 +94,7 @@ Les mises en garde et contre-indications de la notice française n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score de modèle élevé, mais les preuves se limitent à des études précliniques, dont une seule sur le gemfibrozil. Il n'y a ni essai clinique ni donnée humaine contrôlée, et la seule AMM française est annulée.
+- La prédiction repose sur un score de modèle élevé, mais les preuves se limitent à des études précliniques, dont une seule sur le gemfibrozil. Il n'y a ni essai clinique ni donnée humaine contrôlée.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), donnée bloquante pour le criblage de sécurité

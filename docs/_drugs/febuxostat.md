@@ -89,7 +89,7 @@ Deux autres prédictions de rang inférieur sont à titre informatif : le défic
 
 ## Informations de Marche en France
 
-Les 20 AMM sont annulées et aucun texte d'indication n'est renseigné. Les 5 premières sont listées ci-dessous.
+Aucun texte d'indication n'est renseigné. Les 5 premières sont listées ci-dessous.
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|

@@ -117,13 +117,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas ét�
 
 **Justification :**
 - L'aménorrhée est un effet pharmacodynamique attendu de la goséréline, et non une indication thérapeutique démontrée. Le seul essai clinique est indirect (critère oncologique) et aucune preuve directe n'étaye un traitement de l'aménorrhée pathologique.
-- Les deux AMM françaises sont annulées et les données de sécurité officielles sont absentes, ce qui bloque le passage au criblage de sécurité.
+- Les données de sécurité officielles sont absentes, ce qui bloque le passage au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice de l'ANSM (mises en garde, contre-indications).
 - Compléter les données sur le mécanisme d'action (DrugBank).
 - Définir précisément l'usage visé (suppression menstruelle induite plutôt que traitement de l'aménorrhée) et chercher des essais directs sur ce point.
-- Clarifier le statut réglementaire en France (AMM annulées).
+- Clarifier le statut réglementaire en France.
 
 **Remarque sur les autres prédictions :** l'atrophie rénale congénitale (hypoplasie rénale, unilatérale et bilatérale) a des scores TxGNN élevés (0.9906), mais sans essai ni publication, sans lien mécanistique plausible (niveau L5, Hold). Ces scores proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies voisines, et non des preuves biologiques.
 ## Avertissement

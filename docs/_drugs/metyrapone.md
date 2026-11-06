@@ -102,14 +102,14 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec la physiopathologie de l'hyperthermie maligne (RYR1).
-- Le produit n'a plus d'AMM valide en France, et les données de sécurité de la notice sont absentes.
+- Les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice ANSM (mises en garde, contre-indications), un manque bloquant pour toute étape de sécurité.
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Démontrer un lien biologique entre l'inhibition de CYP11B1 et la voie RYR1/calcium, par exemple par des études précliniques.
 - Réexaminer les autres indications prédites ; la paralysie périodique familiale (L4) est la seule disposant d'un signal bibliographique, mais indirect et ancien.
-- Clarifier le statut réglementaire (AMM annulée) et la disponibilité d'autres spécialités à base de métyrapone.
+- Clarifier le statut réglementaire et la disponibilité d'autres spécialités à base de métyrapone.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

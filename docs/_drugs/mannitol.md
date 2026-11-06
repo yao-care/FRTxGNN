@@ -91,7 +91,7 @@ Aucun essai clinique associé enregistré actuellement.
 | 62093602 | MANNITOL 20 POUR CENT B. BRAUN | Solution injectable hypertonique pour perfusion | Non renseignée (AMM active) |
 | 69361469 | MANNITOL BIOSEDRA 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM active) |
 
-Au total, 9 AMM sont recensées, toutes annulées ; seules les 5 premières sont présentées ici.
+Au total, 9 AMM sont recensées; seules les 5 premières sont présentées ici.
 
 ---
 

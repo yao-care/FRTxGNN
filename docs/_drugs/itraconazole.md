@@ -115,7 +115,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Les mises en garde et contre-indications officielles de la notice de l'ANSM (lacune bloquante pour l'évaluation de sécurité).
 - Les données curées sur le mécanisme d'action (DrugBank).
 - Des données précliniques ou cliniques spécifiques montrant une activité de l'itraconazole contre *Pneumocystis*.
-- Une clarification de la situation réglementaire en France (AMM toutes annulées) et de la disponibilité des voies d'administration.
+- Une clarification de la situation réglementaire en France et de la disponibilité des voies d'administration.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

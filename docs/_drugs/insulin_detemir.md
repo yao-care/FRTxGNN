@@ -114,8 +114,6 @@ Parmi les essais compilés, voici les plus pertinents (essais de phase 3 randomi
 | 66481292 | LEVEMIR INNOLET 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 | 64529525 | LEVEMIR FLEXPEN 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
-Les trois AMM sont annulées, ce qui limite la disponibilité pratique du produit en France.
-
 ---
 
 ## Considérations de Sécurité

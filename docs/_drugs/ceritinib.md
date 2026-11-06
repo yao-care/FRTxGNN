@@ -97,13 +97,13 @@ Les mises en garde et contre-indications officielles n'ont pas pu être récupé
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la fibromatose gingivale repose uniquement sur le modèle (L5), sans essai clinique, sans littérature et sans lien mécanistique documenté. De plus, l'AMM française est annulée et le profil d'interactions est lourd, ce qui rend difficile de justifier un traitement systémique par inhibiteur de kinase sans données à l'appui.
+- La prédiction pour la fibromatose gingivale repose uniquement sur le modèle (L5), sans essai clinique, sans littérature et sans lien mécanistique documenté.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de ceritinib (DrugBank) et analyse du lien éventuel entre la voie ALK et la fibromatose gingivale
 - Mises en garde et contre-indications officielles (notice de l'ANSM), indispensables avant tout examen de sécurité
 - Recherche ciblée d'études précliniques ou de cas cliniques dans cette indication
-- Évaluation de la faisabilité de la voie d'administration et de la situation réglementaire (AMM annulée)
+- Évaluation de la faisabilité de la voie d'administration et de la situation réglementaire
 - Piste alternative à explorer en priorité : vérifier si certaines tumeurs germinales pulmonaires portent des altérations d'ALK
 ## Avertissement
 

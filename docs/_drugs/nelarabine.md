@@ -98,7 +98,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. La neurotoxicité démyélinisante connue de la nélarabine est contraire à l'usage dans la sclérose en plaques, et l'AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. La neurotoxicité démyélinisante connue de la nélarabine est contraire à l'usage dans la sclérose en plaques.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, élément bloquant pour l'évaluation de sécurité

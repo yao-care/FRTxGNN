@@ -83,7 +83,7 @@ Aucune littérature associée disponible actuellement pour la myopathie viscéra
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont toutes annulées. Aucun texte d'indication approuvée n'est renseigné. Cinq exemples :
+Aucun texte d'indication approuvée n'est renseigné. Cinq exemples :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|

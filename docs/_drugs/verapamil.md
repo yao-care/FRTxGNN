@@ -95,7 +95,7 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme est douteux (le bloc de branche est un trouble de conduction infranodal, et le terme est obsolète). Le vérapamil n'a par ailleurs plus d'AMM valide en France (5 AMM annulées).
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme est douteux (le bloc de branche est un trouble de conduction infranodal, et le terme est obsolète). Le vérapamil n'a par ailleurs plus d'AMM valide en France.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Vérifier la validité du terme d'ontologie et envisager de privilégier les prédictions plus plausibles (hypertension maligne avec atteinte rénale)

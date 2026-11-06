@@ -108,14 +108,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme anticoagulant est opposé au besoin thérapeutique (risque d'aggraver les saignements), et l'AMM française est annulée.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le mécanisme anticoagulant est opposé au besoin thérapeutique (risque d'aggraver les saignements).
 - Les lacunes de données sur les mises en garde de la notice (bloquantes) et sur le mécanisme d'action empêchent de passer au criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Disposer d'un rationnel biologique crédible expliquant comment un anticoagulant pourrait être bénéfique dans un trouble hémorragique plaquettaire. En l'absence d'un tel rationnel, il est recommandé de ne pas poursuivre cette piste.
-- Clarifier l'indication d'origine de l'AMM annulée.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

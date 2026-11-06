@@ -79,7 +79,6 @@ Aucune littérature associée disponible actuellement pour cette indication.
 | 63514730 | INTELENCE 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 | 64044237 | INTELENCE 200 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : infection chronique par le virus de l'hépatite C, infection par le virus de l'hépatite C, infection chronique par le virus de l'hépatite B, maladie du système nerveux périphérique, neuropathie périphérique.
@@ -96,7 +95,7 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Aucune donnée clinique ni publication ne soutient cette indication (niveau L5). La plausibilité mécanistique est faible, car la transcriptase inverse du FIV est peu sensible aux INNTI. Les AMM françaises sont toutes annulées.
+- Aucune donnée clinique ni publication ne soutient cette indication (niveau L5). La plausibilité mécanistique est faible, car la transcriptase inverse du FIV est peu sensible aux INNTI.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données in vitro d'activité de l'étravirine sur la transcriptase inverse du FIV et sur des cellules félines infectées

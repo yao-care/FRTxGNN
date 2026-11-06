@@ -93,7 +93,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun lien mécanistique plausible entre un inhibiteur de l'intégrase du VIH-1 et la polyarthrite rhumatoïde. Les deux AMM françaises sont par ailleurs annulées.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun lien mécanistique plausible entre un inhibiteur de l'intégrase du VIH-1 et la polyarthrite rhumatoïde.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

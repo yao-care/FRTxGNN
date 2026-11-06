@@ -129,7 +129,7 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 **Justification :**
 - Le niveau de preuve est L3, fondé sur un seul essai de phase 4 comparant l'acitrétine à un autre traitement dans l'hidradénite suppurée (sans résultats disponibles) et sur des revues ou rapports de cas. Aucune preuve directe ne concerne l'acné vulgaire.
-- Le profil de sécurité est lourd (tératogénicité, toxicité hépatique, osseuse et lipidique), les AMM françaises sont toutes annulées, et la notice n'a pas pu être exploitée, ce qui bloque le passage à l'étape de sécurité.
+- Le profil de sécurité est lourd (tératogénicité, toxicité hépatique, osseuse et lipidique), et la notice n'a pas pu être exploitée, ce qui bloque le passage à l'étape de sécurité.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Obtenir et analyser la notice ANSM (mises en garde, contre-indications), élément bloquant.

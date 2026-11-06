@@ -98,7 +98,7 @@ Priorité donnée aux ECR, puis aux revues systématiques ; liste limitée à 10
 
 ## Informations de Marché en France
 
-Les 11 AMM sont annulées ; le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées.
+Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -120,11 +120,11 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 **Justification :**
 - Plusieurs essais de phase 3 terminés, directement centrés sur l'insuline asparte dans le diabète de type 1, ainsi que des ECR et revues systématiques, soutiennent l'usage (niveau de preuve L1). Il s'agit d'une indication établie et non d'un véritable repositionnement.
-- Les données de sécurité de la notice sont absentes et les 11 AMM françaises sont toutes annulées : la validation réglementaire et de sécurité doit précéder toute avancée.
+- Les données de sécurité de la notice sont absentes.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
-- Vérifier le statut réglementaire actuel en France, les AMM annulées ne couvrant plus aucun produit commercialisé
+- Vérifier le statut réglementaire actuel en France
 - Compléter les données sur le mécanisme d'action (DrugBank)
 - Tenir compte du fait que les autres indications prédites (rangs 2 à 10) reposent sur des preuves très faibles (L4-L5) : les affections auto-immunes, les dysplasies osseuses et les lipodystrophies ne sont pas soutenues, et la lipodystrophie localisée est un effet indésirable connu de l'insuline, non une indication
 ## Avertissement

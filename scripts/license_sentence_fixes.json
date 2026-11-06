@@ -1,0 +1,51 @@
+{
+ "maprotiline": [
+  {
+   "sentence": "**Analyser la notice ANSM/TFDA**",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留（台灣食藥署）；只刪「/TFDA」，分析 ANSM 仿單的待辦保留（2026-11-06）",
+   "cut": "/TFDA"
+  }
+ ],
+ "disopyramide": [
+  {
+   "sentence": ", dont les spécialités françaises sont aujourd'hui toutes annulées",
+   "reason": "事實：BDPM 有效 AMM 4 張、沒有註銷；只刪「, dont les spécialités françaises sont aujourd'hui toutes annulées」，藥理描述保留（2026-11-06）",
+   "cut": ", dont les spécialités françaises sont aujourd'hui toutes annulées"
+  }
+ ],
+ "tyrosine": [
+  {
+   "sentence": ", aujourd'hui toutes annulées en France",
+   "reason": "事實：BDPM 有有效 AMM、沒有註銷；只刪「, aujourd'hui toutes annulées en France」（2026-11-06）",
+   "cut": ", aujourd'hui toutes annulées en France"
+  }
+ ],
+ "nevirapine": [
+  {
+   "sentence": "Le médicament n'a plus d'AMM valide en France et présente un profil de sécurité préoccupant",
+   "reason": "事實：BDPM 有效 AMM、沒有註銷；只刪「n'a plus d'AMM valide en France et 」，安全性內容保留（2026-11-06）",
+   "cut": "n'a plus d'AMM valide en France et "
+  }
+ ],
+ "chlorambucil": [
+  {
+   "sentence": "Le chlorambucil n'a plus d'AMM valide en France et est largement remplacé par des thérapies ciblées.",
+   "reason": "事實：BDPM 有效 AMM、沒有註銷；只刪「n'a plus d'AMM valide en France et 」（2026-11-06）",
+   "cut": "n'a plus d'AMM valide en France et "
+  }
+ ],
+ "fluindione": [
+  {
+   "sentence": "Il faut aussi noter que le médicament n'a plus d'AMM valide en France et que l'exposition chronique",
+   "reason": "事實：BDPM 有效 AMM、沒有註銷；只刪「le médicament n'a plus d'AMM valide en France et que 」，出血風險內容保留（2026-11-06）",
+   "cut": "le médicament n'a plus d'AMM valide en France et que "
+  }
+ ],
+ "safinamide": [
+  {
+   "sentence": "De plus, le médicament n'a plus d'AMM en vigueur en France et les données de sécurité de la notice sont manquantes.",
+   "reason": "事實：BDPM 有效 AMM、沒有註銷；只刪「le médicament n'a plus d'AMM en vigueur en France et 」（2026-11-06）",
+   "cut": "le médicament n'a plus d'AMM en vigueur en France et "
+  }
+ ]
+}

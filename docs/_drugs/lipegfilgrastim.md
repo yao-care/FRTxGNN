@@ -95,7 +95,7 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et le lien mécanistique avec les troubles plaquettaires n'est pas plausible.
-- Les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque toute évaluation de sécurité.
+- Les données de sécurité de la notice sont absentes, ce qui bloque toute évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (téléchargement et analyse du document PDF)

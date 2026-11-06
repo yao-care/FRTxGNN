@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement pour l'indication principa
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM :
+Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|

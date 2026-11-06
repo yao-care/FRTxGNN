@@ -110,7 +110,7 @@ L'usage chez le nouveau-né (myasthénie néonatale) et chez les patients attein
 **Décision : Hold** (syndrome de la queue de cheval et autres prédictions de niveau L5) ; **Research Question** pour l'ulcère peptique (L3)
 
 **Justification :**
-- Le syndrome de la queue de cheval, malgré un score TxGNN élevé, n'est soutenu par aucun essai ni publication, et le rationnel n'est que symptomatique. Pour l'ulcère peptique, les preuves sont favorables mais confondues (associations, anciennes, sans conception contrôlée moderne), le traitement de référence actuel est différent et les AMM françaises sont toutes annulées.
+- Le syndrome de la queue de cheval, malgré un score TxGNN élevé, n'est soutenu par aucun essai ni publication, et le rationnel n'est que symptomatique. Pour l'ulcère peptique, les preuves sont favorables mais confondues (associations, anciennes, sans conception contrôlée moderne), le traitement de référence actuel est différent.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité de la notice (mises en garde, contre-indications) : lacune bloquante pour le criblage de sécurité
@@ -118,7 +118,7 @@ L'usage chez le nouveau-né (myasthénie néonatale) et chez les patients attein
 - La vérification du schéma de l'étude de 2016 (possiblement un ECR) avant toute réévaluation du niveau de preuve à L2
 - Des études contrôlées modernes testant le clidinium seul, plutôt qu'en association avec le chlordiazépoxide
 - L'abandon ou une réévaluation approfondie des prédictions sans lien mécanistique (myasthénies, maladies auto-immunes périphériques, catégories génériques)
-- La clarification de la situation réglementaire, les deux AMM étant annulées
+- La clarification de la situation réglementaire
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

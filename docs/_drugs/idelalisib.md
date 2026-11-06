@@ -135,7 +135,7 @@ Les mises en garde et contre-indications officielles ne sont pas disponibles dan
 **Décision : Hold**
 
 **Justification :**
-- Le mécanisme est plausible et le score TxGNN élevé, mais les preuves cliniques se limitent à des essais de phase 1/2, dont certains arrêtés, sans résultat d'efficacité établi dans le lymphome du manteau. Une résistance intrinsèque est décrite, le profil de sécurité est contraignant et les deux AMM françaises sont annulées.
+- Le mécanisme est plausible et le score TxGNN élevé, mais les preuves cliniques se limitent à des essais de phase 1/2, dont certains arrêtés, sans résultat d'efficacité établi dans le lymphome du manteau. Une résistance intrinsèque est décrite, le profil de sécurité est contraignant.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles (notice ANSM), actuellement manquantes et bloquantes pour l'évaluation de sécurité

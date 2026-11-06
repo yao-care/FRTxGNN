@@ -126,14 +126,14 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction de rang 1 correspond à une catégorie de susceptibilité génétique, non traitable, sans lien mécanistique avec le cancer du cerveau ; les autres prédictions (tumeurs bénignes de la prostate, tumeur de Brenner) n'ont aucune preuve (L5). Le niveau L1 du rang 6 provient des essais de phase 3 dans le cancer de la prostate, indication déjà établie : il ne démontre aucune nouvelle opportunité de repositionnement. De plus, la seule AMM française est annulée.
+- La prédiction de rang 1 correspond à une catégorie de susceptibilité génétique, non traitable, sans lien mécanistique avec le cancer du cerveau ; les autres prédictions (tumeurs bénignes de la prostate, tumeur de Brenner) n'ont aucune preuve (L5). Le niveau L1 du rang 6 provient des essais de phase 3 dans le cancer de la prostate, indication déjà établie : il ne démontre aucune nouvelle opportunité de repositionnement.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications), lacune bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Identifier une indication réellement nouvelle et traitable, avec une justification biologique de la dépendance à la voie AR (par exemple, cancers non prostatiques exprimant l'AR)
 - Compléter l'analyse des 36 essais et 20 publications (seule une partie a été examinée)
-- Clarifier le statut réglementaire en France (AMM annulée) et la compatibilité des voies d'administration
+- Clarifier le statut réglementaire en France et la compatibilité des voies d'administration
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

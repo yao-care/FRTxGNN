@@ -79,8 +79,6 @@ Aucune littérature associée disponible actuellement pour l'ovarite auto-immune
 | 64332894 | ABASAGLAR 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 | 60408661 | SEMGLEE 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
-Trois autres AMM annulées existent (LANTUS en flacon, LANTUS SOLOSTAR, ABASAGLAR en cartouche).
-
 ## Considérations de Sécurité
 
 - **Interactions médicamenteuses** : 352 interactions recensées. Les principales, de niveau modéré, concernent :

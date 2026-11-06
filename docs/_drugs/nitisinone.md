@@ -109,14 +109,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le lien mécanistique est indirect, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité. Par ailleurs, les 9 AMM françaises sont annulées.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le lien mécanistique est indirect, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
 - Confirmer le mécanisme d'action via DrugBank
 - Réaliser une revue ciblée de la littérature sur l'atteinte tubulaire rénale sous nitisinone, et sur l'acidose tubulaire rénale primaire
 - Examiner les contre-indications issues du graphe (maladie rénale, hypophosphatémie), potentiellement pertinentes pour une indication rénale
-- Clarifier la situation réglementaire (AMM annulées) et la disponibilité du médicament en France
+- Clarifier la situation réglementaire et la disponibilité du médicament en France
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

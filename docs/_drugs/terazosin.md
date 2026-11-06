@@ -97,7 +97,7 @@ Veuillez consulter la notice pour les mises en garde détaillées, qui ne sont p
 **Decision : Hold**
 
 **Justification :**
-- L'indication principale prédite (hypotrichose simple du cuir chevelu) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible. Les produits français sont en outre tous annulés.
+- L'indication principale prédite (hypotrichose simple du cuir chevelu) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible.
 - Les pistes les plus intéressantes sont la maladie de Raynaud (niveau L3, « Research Question ») et la migraine (niveau L4, « Research Question »), mais les preuves sont anciennes et de faible qualité.
 
 **Pour avancer, les elements suivants sont necessaires :**

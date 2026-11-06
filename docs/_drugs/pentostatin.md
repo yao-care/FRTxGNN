@@ -109,7 +109,7 @@ Les mises en garde et contre-indications du texte de la notice ANSM n'ont pas pu
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et aucun lien mécanistique plausible n'est étayé par les données.
-- Le médicament n'a plus d'AMM valide en France, et le profil de sécurité (myélosuppression, interactions nombreuses) est préoccupant.
+- Le profil de sécurité (myélosuppression, interactions nombreuses) est préoccupant.
 - Les données de sécurité de la notice sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -117,7 +117,7 @@ Les mises en garde et contre-indications du texte de la notice ANSM n'ont pas pu
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
 - Réaliser une validation préclinique indépendante, comme des tests de sensibilité in vitro sur des lignées cellulaires de rhabdomyosarcome.
 - Mener une revue de la littérature pour confirmer l'absence ou l'existence de données sur la pentostatine dans les sarcomes.
-- Évaluer la situation réglementaire (AMM annulée) et la voie d'administration (injectable) si le projet se poursuit.
+- Évaluer la situation réglementaire et la voie d'administration (injectable) si le projet se poursuit.
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

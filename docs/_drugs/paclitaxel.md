@@ -154,10 +154,10 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Proceed with Guardrails**
 
 **Justification :**
-- Plusieurs essais de phase 3 terminés (par exemple NCT00667251, NCT00006459, NCT00553358, NCT01822314) et de nombreuses études de phase 2 soutiennent le paclitaxel dans le cancer du sein, ce qui correspond à un niveau de preuve L1. Toutefois, il s'agit d'un usage déjà établi, et les 12 AMM françaises sont toutes annulées, ce qui impose des garde-fous réglementaires.
+- Plusieurs essais de phase 3 terminés (par exemple NCT00667251, NCT00006459, NCT00553358, NCT01822314) et de nombreuses études de phase 2 soutiennent le paclitaxel dans le cancer du sein, ce qui correspond à un niveau de preuve L1. Toutefois, il s'agit d'un usage déjà établi.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
-- Vérifier la situation réglementaire actuelle en France (raisons de l'annulation des AMM, éventuelles autorisations par d'autres procédures) et récupérer les indications approuvées.
+- Vérifier la situation réglementaire actuelle en France et récupérer les indications approuvées.
 - Obtenir les mises en garde et contre-indications de la notice (ANSM), actuellement manquantes et bloquantes pour le criblage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Définir un plan de surveillance hématologique, neurologique et d'hypersensibilité, ainsi qu'un examen des interactions médicamenteuses.

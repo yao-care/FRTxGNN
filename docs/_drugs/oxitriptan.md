@@ -89,7 +89,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction (score de 0,9989) n'est étayée par aucun essai clinique ni aucune publication (niveau L5). L'unique AMM française est annulée et ses indications sont vides, et les données de sécurité propres au produit sont manquantes alors que les interactions médicamenteuses sont nombreuses.
+- La prédiction (score de 0,9989) n'est étayée par aucun essai clinique ni aucune publication (niveau L5). Ses indications sont vides, et les données de sécurité propres au produit sont manquantes alors que les interactions médicamenteuses sont nombreuses.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)

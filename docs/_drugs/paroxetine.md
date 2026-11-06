@@ -88,7 +88,7 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans mécanisme plausible clairement identifié. De plus, l'AMM française est annulée et les données de sécurité de la notice manquent.
+- La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans mécanisme plausible clairement identifié.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), qui est une lacune bloquante pour le criblage de sécurité
