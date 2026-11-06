@@ -22,7 +22,7 @@ Candidats reposant uniquement sur la prédiction du modèle, sans preuve chez l'
 
 ---
 
-{% assign l5_drugs = site.drugs | where: "evidence_level", "L5" | sort: "title" %}
+{% assign l5_drugs = site.drugs | where: "evidence_level", "L5" | where_exp: "d", "d.noindex != true" | sort: "title" %}
 
 ### L5 ({{ l5_drugs.size }} médicaments)
 
