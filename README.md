@@ -24,7 +24,7 @@ Predictions de repositionnement de medicaments pour les medicaments approuves pa
 | **Medicaments uniques** | 1,141 |
 | **Indications uniques** | 17,041 |
 | **Donnees DDI** | 160,235 |
-| **Ressources FHIR** | 891 MK / 4,898 CUD |
+| **Ressources FHIR** | 888 MK / 4,898 CUD |
 
 ### Distribution des niveaux de preuve
 

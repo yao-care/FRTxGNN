@@ -6,7 +6,7 @@ nav_order: 215
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-31
-description: "Daptomycin : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées (les textes d'indicat…"
+description: "Daptomycin : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (les textes d'indicat…"
 monitor_inn: "daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---

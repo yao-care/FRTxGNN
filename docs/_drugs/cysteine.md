@@ -6,7 +6,7 @@ nav_order: 205
 evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-28
-description: "Cysteine : nouvelle indication prédite, Syndrome de l'œil sec (dry eye syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (texte d'indication vide pour t…"
+description: "Cysteine : nouvelle indication prédite, Syndrome de l'œil sec (dry eye syndrome) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM (texte d'indication vide pour t…"
 monitor_inn: "cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
 ---

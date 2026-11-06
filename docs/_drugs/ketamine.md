@@ -6,7 +6,7 @@ nav_order: 422
 evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-28
-description: "Ketamine : nouvelle indication prédite, Céphalée (headache disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
+description: "Ketamine : nouvelle indication prédite, Céphalée (headache disorder) (niveau de preuve L1). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
 ---

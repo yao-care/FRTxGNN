@@ -6,7 +6,7 @@ nav_order: 488
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-28
-description: "Methoxsalen : nouvelle indication prédite, Réticulose pagétoïde localisée (niveau de preuve L4). Indication d'origine : Lymphome cutané primitif à cellules T (non hodgkinien)"
+description: "Methoxsalen : nouvelle indication prédite, Réticulose pagétoïde localisée (niveau de preuve L5). Indication d'origine : Lymphome cutané primitif à cellules T (non hodgkinien)"
 monitor_inn: "methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
 ---
