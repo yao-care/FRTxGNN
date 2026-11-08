@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-07T20:45:40.629446+00:00",
+  "fetched_at": "2026-11-08T00:21:25.830497+00:00",
   "source": "Google News Health RSS",
-  "count": 88,
+  "count": 87,
   "articles": [
     {
       "id": "0cfdf26aa651",
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "5a51e5ebc620",
-      "title": "Ces médicaments contre l’obésité pourraient aussi protéger le cœur de personnes qui ne sont pas obèses - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQR0M3WFdjeUpmbWZzQ0ZrN3JvZDZKLV85Sy1qUnVUbG5SYlB3MTZQRlNQeWtma3EyNm4tUXNEU0NtRjR4UGRiQ0pBc0p0TzJTd0pFdHFia2tiUWV4Y0hzeHpPVHBhcEFLcWlHemxIdG1NRXFRN3JfN1FmcjBiTGRyMTdkV210VE9yVGJoRzFZa0VndU9mcXRySnN4dzdpT1Nacm1OUm5HakluRFIxbHhGYVJ4MkhkN3dyQ0FjcTJoRWlTaUV0ZENwdTJRXzQwX181MHl5NUdRNFh4TG82WXBmRzVKLURINmNneExLalg4bw?oc=5",
-      "published": "2026-11-04T17:00:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
-      }
-    },
-    {
       "id": "e17c8d918ef8",
       "title": "Percée contre l’hépatite B chronique : ce nouveau traitement promet une « guérison fonctionnelle » en six mois - Science et vie",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONHctOXpobE9zSm5DMzVDRDVLMVZMdURhallJY2hndGVKOHEzc1FtdlVfcENVT0JvdXV6bWZJTVZyZmNXeWJINjdyNFNmU0VfTVpSU2hpUDRGY3RVeWc3TDN3aktQcmtPM2tiWm1oQUxZcW95Mmd5bnNCZl9qbXRDQTVRY2x4bnZRTWZYRjZnaTFHQXl0YVRIYkNhMl9LSHhqNE5WYWtqTHhKUlAyR2xXZlZfTkJrbkhxaXBydjVQQmkwbWFSSVQ4NV9VXzl6ckNyVFpXZWRmWHh4d29jYUxPZW9yS2VEUERUSEs5cjJsTUU3QQ?oc=5",
@@ -91,16 +81,6 @@
       "source": {
         "name": "Science et vie",
         "url": "https://www.science-et-vie.com"
-      }
-    },
-    {
-      "id": "24671c1e634a",
-      "title": "VIH : le générique du lénacapavir, un médicament qui promet de révolutionner la lutte contre le virus du sida, prêt à être commercialisé - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOd0FUbThtbWFvVEx2TTh0c0MtMlRBRGo4OE9COFZGUG5JaHV5VllmZWk1RFhaeWV4UENma2E3akhJV0VVMXAzX0tPeEdlM2I5ZW1xUVJmd2VyZE9xYzZQTHpxVlJYTkRaVl9MNl9ieGE4RzVpbXFGM21WcG9fOUluTHUxb1Bna1FtSUxmT0VmdGVPNEtQU2ZlS2JnZi1OWEtWSDFvbF9zdkFwRzZJQ1VuSWFBbFlyZmpQLW9hSFNRdFZvelppWjE1Z0hMWGhyV3d5cXVqQl96Q3BUcjZjVl9LU0FhT081Y1NYZ2pNdHNJaUFzTGdicmxNT0FwVFo5aFo1UTdTRnBXVjVsb29Wd1ZJTTJRUVotZHV1RUhlcWhPMWY5ZU80ZDVz?oc=5",
-      "published": "2026-11-07T13:00:02+00:00",
-      "source": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
       }
     },
     {
@@ -124,6 +104,16 @@
       }
     },
     {
+      "id": "24671c1e634a",
+      "title": "VIH : le générique du lénacapavir, un médicament qui promet de révolutionner la lutte contre le virus du sida, prêt à être commercialisé - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOd0FUbThtbWFvVEx2TTh0c0MtMlRBRGo4OE9COFZGUG5JaHV5VllmZWk1RFhaeWV4UENma2E3akhJV0VVMXAzX0tPeEdlM2I5ZW1xUVJmd2VyZE9xYzZQTHpxVlJYTkRaVl9MNl9ieGE4RzVpbXFGM21WcG9fOUluTHUxb1Bna1FtSUxmT0VmdGVPNEtQU2ZlS2JnZi1OWEtWSDFvbF9zdkFwRzZJQ1VuSWFBbFlyZmpQLW9hSFNRdFZvelppWjE1Z0hMWGhyV3d5cXVqQl96Q3BUcjZjVl9LU0FhT081Y1NYZ2pNdHNJaUFzTGdicmxNT0FwVFo5aFo1UTdTRnBXVjVsb29Wd1ZJTTJRUVotZHV1RUhlcWhPMWY5ZU80ZDVz?oc=5",
+      "published": "2026-11-06T23:30:41+00:00",
+      "source": {
+        "name": "Le Monde.fr",
+        "url": "https://www.lemonde.fr"
+      }
+    },
+    {
       "id": "e34e8d3c81b1",
       "title": "Actifed, Dolirhume, Humex Rhume ont disparu des pharmacies : l'ordonnance imposée en décembre 2024 a eu raison de 8 anti-rhume - JeChange",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOUVKNlBPdVNZRWhWRFN2YmxiTnJwOHM1aEJ6M3ZQd0VJeEdyUENkT21PdVlvWTlsNkNiMGlIbmY2U0w2eTlZdnFpUmFGb29oV0ZHakFwekMxQkVqOUYtcDdsY1VUa3ZrRnJSaEY5bS1oMmFRdkN4ZC0xMmI4ZVVGQ1RIUExOR19ib1EwdlJmT2xvc2M0QzJqZzVfOWQwT0JxcUs3RExlLW9FZV9xclRIVllSODlsenJXdExJTjl5bkZDdWdoNG53eHV0d1R2VkF1NDE4azdwcUc?oc=5",
@@ -131,16 +121,6 @@
       "source": {
         "name": "JeChange",
         "url": "https://www.jechange.fr"
-      }
-    },
-    {
-      "id": "c697580257da",
-      "title": "Médicaments : déclarez les effets secondaires indésirables au lieu de les ignorer, \"les notifications des citoyens jouent un rôle crucial\" - La Libre.be",
-      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOREVtU3VDcVRUczNobl9HZk9lWVQycVhUSVQzWVJfanA5WHUwUGhRcFgtWm92WmZwMzFVU1QzS3d2Y3RULWRpUFlJY2hxS2xkbzd6NWNXUXJObndrcDYwMUk5di1IWHhTcHlKWHR6aGJhZkdpVkhkRVBWdzJId2cySmNZcVYwb1J3RmxoZnk2Ukl5SUw2cms5NXh3dmlVMUFMTi1oZGJ5eVl3d0RsWnE1ZjhUUlQ4eFBpRWY0Q2VmN0FfWEpvenlVM1dhbVhDNjBxT1poME5Eb25yeXd2WGlNQjdLZ2xGMnRtQzVtbE9fNUk0ZE9mZGRHNTcxRUtfeVNsRTROVVUyN1VTYkxYWGJGQk5YbDktX1JJeE9wVUlNR3hOOS14NnJNcVQ1U25Ga2pTelo0?oc=5",
-      "published": "2026-11-04T09:09:00+00:00",
-      "source": {
-        "name": "La Libre.be",
-        "url": "https://www.lalibre.be"
       }
     },
     {
@@ -164,16 +144,6 @@
       }
     },
     {
-      "id": "592979837b92",
-      "title": "Santé. Acheter une boîte de Doliprane en pharmacie pourrait bientôt coûter plus cher : voici pourquoi - lecourrierdelamayenne.fr",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQU1NUd1dRSnFuaU1KWGhzSERoazg0U1BLeEloM2dUcVFIcTVHSTFvVENDZTVrNkFMbGdUYmNyMHZDc0VKZVFCbnd0Um02WFlxNzQySEQ1bnJxSldnMF9zVlJaTUI2Tm5tY3ZkN3JBaS1ETDNKX0tIM2RxLXRaMzh6VVRtVW5QYW9zNEJES0JPMWttY05pLWtRQlZ0UUJUb2F6bDJkZ0ZNQi1FMkdHMTVnNDhBU2lJWEhpejV4ekQzWU5oRmFfbkZUTHFibjRFak8yLU9oNVdrbGlIU216cVJ2NkY2VFpCQQ?oc=5",
-      "published": "2026-11-06T11:00:00+00:00",
-      "source": {
-        "name": "lecourrierdelamayenne.fr",
-        "url": "https://www.lecourrierdelamayenne.fr"
-      }
-    },
-    {
       "id": "2a5a90d96eb9",
       "title": "Actualité - L’ANSM active le plan 2026-2027 de suivi des médicaments et des dispositifs médicaux de l’hiver - ANSM",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUHRxVWwyQUk5OTNwVVRSZ2JTcWVfSjdQUFk1TmxGOU5WNHhHZnVVRDJFQng1ZTVYc1hjV2ZCaFo3NkxRVG1Oemw1dm54OW50SHNlZ0lkMklFSkFKZ0tIbjdQUmk2Rmp4cG9nd1ItdWotNncyWUNJQUJ0SjQ2MnVMVDRjNExTU3czUmxYdGdKMWNNakNPd2dhR190N3lfVlFDd1pwOExIdzBKZHRaM3BRUlJNdE5VdDNWNm5QTTZIaVljQzdU?oc=5",
@@ -181,46 +151,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "f74f0cdbb623",
-      "title": "Swissmedic alerte: Le miel aphrodisiaque qui fait le buzz peut être dangereux - Le Matin",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb0lEbFRnWjU0QV9YTDZEY25yZ2NvOUMxUmVNN3k1OUE4a2F5TllLQ3Z4a1l6X1ZoLUZYY1FBS1NXLXk2OXRVOTNwX2s3YXZSODdTRzZyc1NXTEtCUXV4d2FWUHdJWUdPb2VJaVM0clZZWnY5Q2Q4TTRDdlQ3ODd6ZE9oeGcyR1ZqNDlrMlM1RDZFejE1Y2FIaHdFUldOQlFWLWN2Y1R2Rko2c1BtbWRjTmIyWWcxZw?oc=5",
-      "published": "2026-11-07T14:57:12+00:00",
-      "source": {
-        "name": "Le Matin",
-        "url": "https://www.lematin.ch"
-      }
-    },
-    {
-      "id": "f3847b324eae",
-      "title": "Les antibiotiques, c’est vraiment pas automatique » : cette nouvelle campagne de la Sécu nous rappelle quelque chose - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPUDhQUE5wVm5URlduV1F1QllWWnVETjVsa0xDSEt3dk9iQi1CTUV0Q2RUaVRsSVB6NkNaVnNnT2RYanBZX0h5aEc5S1g5X1BtOEtBeVlkWHE0a1Jvb0xxOHpYT2JCYkFSOWM0dklSbExVRjFSWmZybEE0QmlaaXlua3B6RC1scU5oRlliVGhJaFZNM0lwa2tXSk9PX2NrRmc0ZXl3NjJkdVFvUUxRR3BUVWZOWGJsek43MFZZel9wRUxETHBRS01jQko5Y3BCRGZaSEJ5QmFPRXFRUEFnQUJnamg5cEZ2WkZteWthLWVoWTIzMm9YZ09hRGxsUUVyRlRpRHlfSDhQQ3J3RC1fcGlMTWVlM0h6WDA?oc=5",
-      "published": "2026-11-05T15:59:47+00:00",
-      "source": {
-        "name": "Ouest-France",
-        "url": "https://sante.ouest-france.fr"
-      }
-    },
-    {
-      "id": "2fa0a7976414",
-      "title": "« Attention, ces injections ne sont pas des régimes à coups de piqûres », Jean-Baptiste Cazauran, médecin nutritionniste à propos du Wegovy et de la rétatrutide - Science et vie",
-      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNMzBYU1FobHJIVUFfWGg3VDY4RG9UUllIdEdDNGgteHFjQXlFOFpid3BWQmxjYmNkT2dpQ3BDT1lySXhUdkNhTldfVEVEejhqc3BNeVoyUGhyc3dIM0gzU0UtdUVHZGloS0FzWFFzSXFmRGNlTHFzeEpTdE8zOWQyYk9DNVBMa0k5dVUycnpoSF83Q2NsOGJpX2MxNExzWGVsQ3dxbWFvVnVremRfQ1F3NjU4UV9Nd20tbHpZSkx5LXdvUTJlMklyTVhrVkVpOHRpMHd1bEQtbmdnVDBTUmlVS1VsWVFWVUJYVzlHZGhsMXZJbm1HdjMzM0s2OFpubkFpcTJSSVJQQ19xTmhmbHN3allHMEJXUENwbmI0OHFUZm5oSlFQUTQ4NkxtaUNxNVcxTDM2cl9B?oc=5",
-      "published": "2026-11-07T18:59:54+00:00",
-      "source": {
-        "name": "Science et vie",
-        "url": "https://www.science-et-vie.com"
-      }
-    },
-    {
-      "id": "ccd91514dcdb",
-      "title": "Intoxication aux infox - VIDAL",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40bWJxQjJIbmhfdkxpZnZUem51V2ZjejRjOVF4WUZhV004aWIwSW5SNi1CTHNaZmswN1NzeDRyYm42Zl9iZzBydnMweER4ZHQ4b3FLSThHZTdvaFlheEMyXzhWY2QxZjVpYXQ0dnlPaFc4YlE?oc=5",
-      "published": "2026-11-05T13:04:07+00:00",
-      "source": {
-        "name": "VIDAL",
-        "url": "https://www.vidal.fr"
       }
     },
     {
@@ -234,6 +164,16 @@
       }
     },
     {
+      "id": "f3847b324eae",
+      "title": "Les antibiotiques, c’est vraiment pas automatique » : cette nouvelle campagne de la Sécu nous rappelle quelque chose - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPUDhQUE5wVm5URlduV1F1QllWWnVETjVsa0xDSEt3dk9iQi1CTUV0Q2RUaVRsSVB6NkNaVnNnT2RYanBZX0h5aEc5S1g5X1BtOEtBeVlkWHE0a1Jvb0xxOHpYT2JCYkFSOWM0dklSbExVRjFSWmZybEE0QmlaaXlua3B6RC1scU5oRlliVGhJaFZNM0lwa2tXSk9PX2NrRmc0ZXl3NjJkdVFvUUxRR3BUVWZOWGJsek43MFZZel9wRUxETHBRS01jQko5Y3BCRGZaSEJ5QmFPRXFRUEFnQUJnamg5cEZ2WkZteWthLWVoWTIzMm9YZ09hRGxsUUVyRlRpRHlfSDhQQ3J3RC1fcGlMTWVlM0h6WDA?oc=5",
+      "published": "2026-11-05T15:59:47+00:00",
+      "source": {
+        "name": "Ouest-France",
+        "url": "https://sante.ouest-france.fr"
+      }
+    },
+    {
       "id": "286a1cca7767",
       "title": "Amyotrophie spinale : 9 tumeurs signalées chez des jeunes patients traités par la thérapie génique de Novartis - Whatsupdoc-lemag.fr",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdVJMX2JwbnAtTWFoNGN0LUpIQUxVOVI5cDdDNGhla1lWbzhmWUQ0YzRNYnZaaHBrSTc2REtxTzlUXy04OHNyeFVmejBKTVlXS1FoNkNHN0xDWkVGQzludFduWWxXVGZheWFhVjkzWmhueXdfbldSMldrY1VzOEx3dW5Td3dvNlI3ZEM4Smd2b2R4OHU5STdxWlNhNHhOeFBEQTZfN1J3VFNEaFFoZFp6WEZ4ZnFrLWhzNDNqWmFYS0ZxX1Vrd2Q4?oc=5",
@@ -244,23 +184,33 @@
       }
     },
     {
-      "id": "2b394d6f6b22",
-      "title": "« Je ne pouvais plus marcher, j’étais en obésité lourde » : Frédéric a perdu 47 kg grâce à ce traitement, mais il craint d’en perdre le remboursement - RTL Info",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSmNPbHB2UEwxTTFQbFprSjJpOXctTlhGWTVWTlBqSDc2anJXMWU4N3IxOWtMTngwTjJibllmblNvNUk4TkM1TV9TNzJLNG9IMFYwZ2dGLXV5ZHczRl9JU09rd2Nqbk52MUh6eFpIdC1rN1JCNkhxNUh5MGJxZV81M2ZkeWduUzRkX3BuMDBwa2NSanZSaXp5UmhCRS1WYVVSQzNVTWtMb1BpZWo1SWpOZUJ6REMyaFhJWTNTV2VRMVk1Z3M2NTRMal92RW1MejM0WkltM0paWlNTX29q?oc=5",
-      "published": "2026-11-07T04:00:00+00:00",
+      "id": "f74f0cdbb623",
+      "title": "Swissmedic alerte: Le miel aphrodisiaque qui fait le buzz peut être dangereux - Le Matin",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb0lEbFRnWjU0QV9YTDZEY25yZ2NvOUMxUmVNN3k1OUE4a2F5TllLQ3Z4a1l6X1ZoLUZYY1FBS1NXLXk2OXRVOTNwX2s3YXZSODdTRzZyc1NXTEtCUXV4d2FWUHdJWUdPb2VJaVM0clZZWnY5Q2Q4TTRDdlQ3ODd6ZE9oeGcyR1ZqNDlrMlM1RDZFejE1Y2FIaHdFUldOQlFWLWN2Y1R2Rko2c1BtbWRjTmIyWWcxZw?oc=5",
+      "published": "2026-11-07T14:57:12+00:00",
       "source": {
-        "name": "RTL Info",
-        "url": "https://www.rtl.be"
+        "name": "Le Matin",
+        "url": "https://www.lematin.ch"
       }
     },
     {
-      "id": "b4a1df698163",
-      "title": "Alzheimer : et si un matelas vibrant pouvait éloigner la maladie ? - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNakxQSm0yLTBmS1ZoV3V5TjR6SUZ2UHhBaks1dDhJQ2ZNaDBPMTlPUUZWR3N1emFoendrRXpQTC1BOGZiR2pTcHRERGhrcUt5YVNvVndocnRzUi12VU1uN3lPbHJyYWJSY3YzVUZMV3NMQm1FWU54SFViN2tOVFhtNE96d19UYW5UeDhlYkd5NXhrN25ieE5YaThYaGxlZDJCZkVfdmM5anQxLTh4ZHZkanBR?oc=5",
-      "published": "2026-11-07T16:25:00+00:00",
+      "id": "2fa0a7976414",
+      "title": "« Attention, ces injections ne sont pas des régimes à coups de piqûres », Jean-Baptiste Cazauran, médecin nutritionniste à propos du Wegovy et de la rétatrutide - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNMzBYU1FobHJIVUFfWGg3VDY4RG9UUllIdEdDNGgteHFjQXlFOFpid3BWQmxjYmNkT2dpQ3BDT1lySXhUdkNhTldfVEVEejhqc3BNeVoyUGhyc3dIM0gzU0UtdUVHZGloS0FzWFFzSXFmRGNlTHFzeEpTdE8zOWQyYk9DNVBMa0k5dVUycnpoSF83Q2NsOGJpX2MxNExzWGVsQ3dxbWFvVnVremRfQ1F3NjU4UV9Nd20tbHpZSkx5LXdvUTJlMklyTVhrVkVpOHRpMHd1bEQtbmdnVDBTUmlVS1VsWVFWVUJYVzlHZGhsMXZJbm1HdjMzM0s2OFpubkFpcTJSSVJQQ19xTmhmbHN3allHMEJXUENwbmI0OHFUZm5oSlFQUTQ4NkxtaUNxNVcxTDM2cl9B?oc=5",
+      "published": "2026-11-07T18:59:54+00:00",
       "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
+        "name": "Science et vie",
+        "url": "https://www.science-et-vie.com"
+      }
+    },
+    {
+      "id": "5a51e5ebc620",
+      "title": "Ces médicaments contre l’obésité pourraient aussi protéger le cœur de personnes qui ne sont pas obèses - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQR0M3WFdjeUpmbWZzQ0ZrN3JvZDZKLV85Sy1qUnVUbG5SYlB3MTZQRlNQeWtma3EyNm4tUXNEU0NtRjR4UGRiQ0pBc0p0TzJTd0pFdHFia2tiUWV4Y0hzeHpPVHBhcEFLcWlHemxIdG1NRXFRN3JfN1FmcjBiTGRyMTdkV210VE9yVGJoRzFZa0VndU9mcXRySnN4dzdpT1Nacm1OUm5HakluRFIxbHhGYVJ4MkhkN3dyQ0FjcTJoRWlTaUV0ZENwdTJRXzQwX181MHl5NUdRNFh4TG82WXBmRzVKLURINmNneExLalg4bw?oc=5",
+      "published": "2026-11-04T17:00:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
       }
     },
     {
@@ -284,6 +234,26 @@
       }
     },
     {
+      "id": "2b394d6f6b22",
+      "title": "« Je ne pouvais plus marcher, j’étais en obésité lourde » : Frédéric a perdu 47 kg grâce à ce traitement, mais il craint d’en perdre le remboursement - RTL Info",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSmNPbHB2UEwxTTFQbFprSjJpOXctTlhGWTVWTlBqSDc2anJXMWU4N3IxOWtMTngwTjJibllmblNvNUk4TkM1TV9TNzJLNG9IMFYwZ2dGLXV5ZHczRl9JU09rd2Nqbk52MUh6eFpIdC1rN1JCNkhxNUh5MGJxZV81M2ZkeWduUzRkX3BuMDBwa2NSanZSaXp5UmhCRS1WYVVSQzNVTWtMb1BpZWo1SWpOZUJ6REMyaFhJWTNTV2VRMVk1Z3M2NTRMal92RW1MejM0WkltM0paWlNTX29q?oc=5",
+      "published": "2026-11-07T04:00:00+00:00",
+      "source": {
+        "name": "RTL Info",
+        "url": "https://www.rtl.be"
+      }
+    },
+    {
+      "id": "b4a1df698163",
+      "title": "Alzheimer : et si un matelas vibrant pouvait éloigner la maladie ? - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNakxQSm0yLTBmS1ZoV3V5TjR6SUZ2UHhBaks1dDhJQ2ZNaDBPMTlPUUZWR3N1emFoendrRXpQTC1BOGZiR2pTcHRERGhrcUt5YVNvVndocnRzUi12VU1uN3lPbHJyYWJSY3YzVUZMV3NMQm1FWU54SFViN2tOVFhtNE96d19UYW5UeDhlYkd5NXhrN25ieE5YaThYaGxlZDJCZkVfdmM5anQxLTh4ZHZkanBR?oc=5",
+      "published": "2026-11-07T16:25:00+00:00",
+      "source": {
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
+      }
+    },
+    {
       "id": "a27a0fc68af4",
       "title": "Trois enseignements tirés des essais « négatifs » ZEUS et HORIZON - Medscape",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNalNNaHhPUkJkb1BxMXVZS1prcHNwQkJ5WXBwNHFwYU9zQUNrY1lqd0NoSzZ0SUpOQ09QR2FLdUJpaXV3UFFfajluVl9lcHVPRHljcDRtTXdtZFUwa0l3ZjEzTGI5VnU3UlV4eU1PLWJBY0dscmRSSDY5OXNHd0dTRzc2Ul9HM25UYmxla1MySFREM0FzRnMybmVmRHNFOGx1a1B5N05oLTF3YjNMYnRoaWo3OXRVUQ?oc=5",
@@ -301,6 +271,26 @@
       "source": {
         "name": "Libnanews",
         "url": "https://libnanews.com"
+      }
+    },
+    {
+      "id": "19dff1e08a5b",
+      "title": "À 31 ans, une Américaine est morte après avoir réduit son traitement contre l'épilepsie : sa famille accuse ChatGPT de l'avoir conseillée - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPaGp6N1Vzd2s0bFR1SlZUTlBuTzdGQUhacWZNRE1NYm9VOXhTdWFabHRXc29lWXVCbnpxbmZjOHpRQXRFdm9xQjZsV1I3Y0hvNF9ZTnZaTU0wcE1NS1N4YlI5SnQ3aHpSTjh6MFh6cUVGdUJiTkRjVkxRZDJrWUpkbE5mZkJvcUhvRlZUU2lRYUdwRjhFWUM5Wi1RTHZzYWtLNVBKc1k4SWRFZ1BSdkcwa0Z3RTNHeXRNR1JPMm1HT1I0R0Radk1xT2VWcXJtM0MzX2ZlSW9VSEZWSzVIZ2JUNWRNdVo2b2YxNTNlNTBzZHJGZEtNMHhpbkk5c1VNSjFOU1c2a2hGU3pGQXhFSWtpZzU2ckN1SHhaMHc?oc=5",
+      "published": "2026-11-04T13:00:55+00:00",
+      "source": {
+        "name": "Science et vie",
+        "url": "https://www.science-et-vie.com"
+      }
+    },
+    {
+      "id": "148f04c3a77d",
+      "title": "Traitement du TDAH : près de 282 € par an à votre charge malgré le remboursement du 3 novembre - Selectra",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRDNPZ3hwYlpWUllmZFJsLWVlZnpBbFZibDZmVEtzcG9EdkFsOHlrM0IxVHdwUDNaVnJ6QnZmV055cUoyc1pEQUE4Ri1CelRtalBsb0RqN3JYenh6YTFGRFJDbmlFeFBEUndzQ3lsYUpTM09tQy1CR0NpUmxERHYzNDc5Y3lTN1RzSXNSZGpfNERpS3liQXNPeWF3TnQyRHM?oc=5",
+      "published": "2026-11-03T11:20:21+00:00",
+      "source": {
+        "name": "Selectra",
+        "url": "https://selectra.info"
       }
     },
     {
@@ -344,6 +334,16 @@
       }
     },
     {
+      "id": "c2b7a84e3b40",
+      "title": "VIDÉO. Traitement contre le VIH : le générique du Lénacapavir désormais autorisé - tv5monde",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeTg0QVBZUS1CNWtCVFJxRkFnWW1TaTlQblFZVGNuVURRNU9TcERaU09nMDEyanlLSzJod3lXVlpCVWdjbnd4bnUwVWk0djNsbnZSbzBzeWJGQnVhQjNfZEVSZUlTVHR0R2xBc2ZoRWRnd1p3LXB0YnVKb3VVWFEwRHZLb2syeFJMWnJxM2d0TXNnU0lqMlVnZjFEUWF3bTRhbTZoZ0djRWF5YnBHbEtaYXVmeGRMdG54NlpMTlA5NTRFeDZtSk95QXNJWUw?oc=5",
+      "published": "2026-11-06T18:18:00+00:00",
+      "source": {
+        "name": "tv5monde",
+        "url": "https://information.tv5monde.com"
+      }
+    },
+    {
       "id": "139c55bff9e3",
       "title": "Actualité - Tensions en collyres : bien les prescrire pour préserver les stocks disponibles - ANSM",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnRCcVltOXNsZ1ZESHphU0F3b3gzNVVxNlUzNnNNWHFXWV9laUZ6YjBPbG5RTExMd3NfUWhhNjRPRXRVTjhSNmg2Smp5SzdyZVVfVUFKd1hYOXM5NGJnOWtlRVZWVElvN2tjWUwwWWFkRmpJV3B1YW9IM1g2ZmJOek5MNVRpU3VZM3gyb0ltU3puQ2RkTHUtT0VDX25GdE00S3A4NlZ2OWJEQWRJSlJB?oc=5",
@@ -351,16 +351,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "638b79947f6d",
-      "title": "Faux médicaments: 7 réflexes pour éviter les dangers - Afriquinfos",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdUZuLVFKVm1mYXVRZ2h5THdhX2JTeTI0aGNNa1RwakRSSWtsZFVZZmxHY1VZN0YxTHRBNnpKM2VtVDJ3WWU0SUxwMmN1Qy1kTGl4TVhZdElGYnBsMEI5V2lrQ2g1d3RDRmZmSUhuWkc5UWlYOVk4ZXhuSl96NmI1V1JLLTJaNDFDcWxF?oc=5",
-      "published": "2026-11-06T14:28:00+00:00",
-      "source": {
-        "name": "Afriquinfos",
-        "url": "https://afriquinfos.com"
       }
     },
     {
@@ -374,13 +364,13 @@
       }
     },
     {
-      "id": "745701a2e431",
-      "title": "Deux nouvelles plateformes pour signaler les effets indésirables des médicaments et produits de santé - Quid.ma",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSmhLSU9hQjhHOXJQdDJEX0hSZzlJcEtxbnB3SzBjX2FJdldjbWlWU0V6VWRnRFNjZ18yNGpQVTVlTnZwVlVfNzJoRFhoTWtoVjR1UmFCZ1kxdHRKZVNLeTJSd3plVE16ckROSXdoa0ZoZG5MU0U0eHp4Y29UME5SejNDVldLR3lMa2ZRci1kbE0xcnFzRzVUVEEyVjMzZUN6RHFXLXZCVDdWaXV0SjA3Y0JoOG1fWWJxa3hYVE54bzRfQQ?oc=5",
-      "published": "2026-11-05T15:45:00+00:00",
+      "id": "638b79947f6d",
+      "title": "Faux médicaments: 7 réflexes pour éviter les dangers - Afriquinfos",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdUZuLVFKVm1mYXVRZ2h5THdhX2JTeTI0aGNNa1RwakRSSWtsZFVZZmxHY1VZN0YxTHRBNnpKM2VtVDJ3WWU0SUxwMmN1Qy1kTGl4TVhZdElGYnBsMEI5V2lrQ2g1d3RDRmZmSUhuWkc5UWlYOVk4ZXhuSl96NmI1V1JLLTJaNDFDcWxF?oc=5",
+      "published": "2026-11-06T14:28:00+00:00",
       "source": {
-        "name": "Quid.ma",
-        "url": "https://quid.ma"
+        "name": "Afriquinfos",
+        "url": "https://afriquinfos.com"
       }
     },
     {
@@ -404,16 +394,6 @@
       }
     },
     {
-      "id": "43eaee7a01cc",
-      "title": "Médicaments et vaccins : l’AMMPS lance deux plateformes de signalement des effets indésirables - Le Matin.ma",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcTgxTGRBN0g3RUVtMVpVV20yVi1nQlNuWlVHNVQ5UE40YkZXZnNCdEJLNWNLMHY5TEpldVhLdzk3Y191SE5uUGVmUzZsVExEN3F4ZVpxd3pHUW55dlVxakZ5T1Z3enZaaVpjTG54Q0ZxRkVtU2ZQdXpwcS1tZjBnSlpOcGRjeWd1VnZlTHlaWGg0aEtWUkUwczVHYWZwZ1dhS0xLQVNLQzJ2Z9IBrwFBVV95cUxPemVGOFdLcVBSREJRODNqWDFHeG1nRzV1UDMwM1FpZUpPbUhKczExaUNLQXlsWFdjT1NSX1l4RGtlelVsQUhXaEJocnRnMXNZT0lvejI2S3lUR1h6TXI5dEtVSEFKUmJnY2kzMEIzMjA1NEZaZGVWS0JOdFpjbnNRSjUta0pzb1VUUnE0NmVsbDhKOGNRSlQ4UG1KR0VLWklhel9pbm02TTZLU05tRm1n?oc=5",
-      "published": "2026-11-05T10:20:00+00:00",
-      "source": {
-        "name": "Le Matin.ma",
-        "url": "https://lematin.ma"
-      }
-    },
-    {
       "id": "e6a7762edca6",
       "title": "Actualité - Téralithe et quétiapine : point sur la disponibilité et l’évolution des mesures d’accompagnement - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3lIcUIxZFRjR3RJNjAycWd6dE5TRDN4TmxselotUmFJamFPZEstWmFuY3AzVVZvcnl1Vjh4TDRZZDdUUkVEOHpnNzd1UWtBRHhZNDFTRm51dTh4SmFMS2ZWak0ybmtFbHV2M2RqLUtMVm5tN2hlVU5acGpNc3hWeFA1Nk1fdGtZTG5FdjBVUkFNSzd2MEQ4TWo4WG9tdGdPVmhyeW90bGR6ZTRrT0s3cG94QWtJZlNBQjJDY2xWMUFYQ28?oc=5",
@@ -424,16 +404,6 @@
       }
     },
     {
-      "id": "4ca5df10873e",
-      "title": "Pharmacovigilance : l’AMMPS lance deux plateformes numériques de signalement des effets indésirables - Le Desk",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUE01MkE0THpKbXJzbzlDQjZtQTZKb00tcFVpWkxjZlNnYWxuRjFLb2IwSnpxMnFKdTZjNlM1ZmxIR3kyc3FOZG05Q19pWWduRnZ2OHZ1LWh5MFRZSTVUREtvY3pLYXM0UDU1cFFGVDVCRnZmUTNHVFZuTlZWSnc3Z1BEekF2dUx1S0lwemlvNlFMVnZkNndwcU1Jb0pMUDM2REZueDNKbW9mdnZLb0tLRk1IOU5ZNTZMUWhibEc1Q2VPc2w5?oc=5",
-      "published": "2026-11-05T08:06:00+00:00",
-      "source": {
-        "name": "Le Desk",
-        "url": "https://ledesk.ma"
-      }
-    },
-    {
       "id": "6bdac53bbbc9",
       "title": "Cette idée reçue sur les antibiotiques est partagée par la moitié des Français : le célèbre slogan relancé pour la combattre - Magicmaman",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQlh5T01JWUJieDRsSDZtM1ZPallyRXI1bXRlMjRpNDR0SFlvNnJmWVVzSzhTWGFjVkN1TlRmYjV0Z3hsZUtYLXdYZElMb1M5bVhDdk5mTXpkMGhQRVlTbUVra0ZWblJKMGFKWi1JbUtHVnczQnZmSE9oYnVuWWF3VThmX2tTc05iSjBhak9GZmZyUDlHNE1iYVZrQVB4Y1JtcGxpLXdmaUhPWkZQaVZlS2RlV0tpam15bkxjMmEwU090d1JKQjYyck5GQ2Z2ZDdBNTlQZ0JVZUcwLVkwLW5ETnpBRUV4ZGptTUxsYThlRzJzd2c?oc=5",
@@ -441,6 +411,16 @@
       "source": {
         "name": "Magicmaman",
         "url": "https://www.magicmaman.com"
+      }
+    },
+    {
+      "id": "cf5cd392c08b",
+      "title": "L’Egypte intègre l’Alliance internationale des autorités de réglementation pharmaceutique - Santé - Santé - Ahraminfo",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mekV0ZDdlRFdBQ1JxZE00LVNWZXU1aDI1R29XRlVTQVVyLTFMMHluUGpjdzVuc2d1N1pCb1IxWUtvUl9iX2RkZC1zZFJDd1k0NWh4a1VB?oc=5",
+      "published": "2026-11-05T15:52:11+00:00",
+      "source": {
+        "name": "Ahraminfo",
+        "url": "https://french.ahram.org.eg"
       }
     },
     {
@@ -464,23 +444,13 @@
       }
     },
     {
-      "id": "d61b24becf62",
-      "title": "Près de 500 habitants de la commune de Mo Vang ont bénéficié d'examens médicaux et de médicaments gratuits. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWlU0VkxrTENCQ0lrd3ozeWRTQ0NuazdmNkdIS2wweTZGMllRLTVBT1VEVVlieGFRY1F4b1JuS3JibUNzS05FYTRGUmxqX3JheFAwMjIzMXBKcjZNU0tqX2RrZnpsMmxoQXVNa0NydmduaUhaSzhYRWRNOE42S2R5b2QyREZfNFVXUEE2VjlXR0JMZw?oc=5",
-      "published": "2026-11-07T10:13:49+00:00",
+      "id": "a4514ccdf0fc",
+      "title": "Alzheimer : ce matelas vibrant pourrait-il aider le cerveau à évacuer les protéines toxiques ? - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPakJORHpod3FTMGRjb2FWQVh4eUdqRFlrVk9PemZZM1owRlhKOUhsN1otcXRZOEVhLXhvUEZJWXR0ZFBmR2pZQkVJNml4N01tZkk5emttYVFoZE14a2JGUzlta2pqRmNDUWptck5FeXI1QXlhT2RHTXQzUVYtSzB6cDlXQThxZlZnSGY4dHhGVHhteGNCYkJsZHY1ZTRvd2Q2a2c1QkZLcXpxUmZLZTNYRHVJTHhCOWQ1LWxIYlVNU1gtOWpQejZCSEtBcW5pSFNfWjI3R3dqU2pQUWE4?oc=5",
+      "published": "2026-11-05T17:01:27+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "3f08bee1248e",
-      "title": "Les médicaments courants contre l’hyperactivité vésicale pourraient ne pas augmenter le risque de démence - Ma Clinique",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEljcUlTMTFZVVUyeXotdjZSTnlsdnoxbWctY29ha01NRFBHeExrLW5oMFNRT1RqR19lS2NEdEJ1TW5KcWZTLVFQWWJqekdEZV91Q2lQZmhYYjZ2Q1QwenBEdXNydUhqR043RGFBaFp4bzF2NWd1S0tKandlYmhNaUttREhnZ2NRSEdiVm5wSjlmQlJyUHFBTzBrRHlRQVVoWUE1c1VqbklsSHZZLThtZWNCckhsdlcxZEFSZHZrT3NDeHVWVkE?oc=5",
-      "published": "2026-11-07T05:20:19+00:00",
-      "source": {
-        "name": "Ma Clinique",
-        "url": "https://ma-clinique.fr"
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -494,23 +464,13 @@
       }
     },
     {
-      "id": "66bd9c6fc5f9",
-      "title": "Actualité - Plan hivernal 2025-2026 : l’approvisionnement en produits de santé liés aux pathologies hivernales demeure satisfaisant - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTDlVUGowRXZ3UG1VNU9zY2dPMUcyYURCQVFnV2FVbHV1VTdrNTZGVE5aeVNRQXdxUWk4dGxMUnRBOXdNWndrUGRtTHRNRTdfdElVMU9YUFBwVHpZSEk3Y3M5T1UyMXYzYm4yOU5QOXFJQ3BmSUFBdWxwVkpYSnA4U2tGc3AxOXBZQlhWRTA2OEdaMWh5VmpvakRkUzhvYmNZdUUyN1N1MlJqd01VS3JfZVctM0NmelZWbGVFZ1FpRVBXczJpdmRZY3pQS2lZWlI1MGJVczZPYjNIS2RlcC1jWkZGTQ?oc=5",
-      "published": "2026-01-19T08:00:00+00:00",
+      "id": "d61b24becf62",
+      "title": "Près de 500 habitants de la commune de Mo Vang ont bénéficié d'examens médicaux et de médicaments gratuits. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWlU0VkxrTENCQ0lrd3ozeWRTQ0NuazdmNkdIS2wweTZGMllRLTVBT1VEVVlieGFRY1F4b1JuS3JibUNzS05FYTRGUmxqX3JheFAwMjIzMXBKcjZNU0tqX2RrZnpsMmxoQXVNa0NydmduaUhaSzhYRWRNOE42S2R5b2QyREZfNFVXUEE2VjlXR0JMZw?oc=5",
+      "published": "2026-11-07T10:13:49+00:00",
       "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "852313e54156",
-      "title": "«Ce n’est pas acceptable»: 36 Québécois victimes d’erreurs de médicaments fatales - Le Journal de Montréal",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcW8tbWZ0bld3UmdncXhaWmlaWUk4ZWc1Mm5hbldqRUNhZ1A4NWFEUTQ3XzBOMk5TLWdLRlZHbTZoeFJqdXZDU0dVeFZVTVp6R1lpaWRWMDJiUkVFVzE2WXhHQ0N1U0xUaDZvZDdhUDRHTWNBQ0Flb1cxV2lIbEh5eFpXXy05OG5zX2ZWNVlwNXNxQWZwTE9FbWd3QkJNWUpmYlU0NEUtVzh1dVB5bFJkRl9pWEd5N3IxeUhSMkZIMA?oc=5",
-      "published": "2026-11-03T05:00:00+00:00",
-      "source": {
-        "name": "Le Journal de Montréal",
-        "url": "https://www.journaldemontreal.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -524,6 +484,46 @@
       }
     },
     {
+      "id": "66bd9c6fc5f9",
+      "title": "Actualité - Plan hivernal 2025-2026 : l’approvisionnement en produits de santé liés aux pathologies hivernales demeure satisfaisant - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTDlVUGowRXZ3UG1VNU9zY2dPMUcyYURCQVFnV2FVbHV1VTdrNTZGVE5aeVNRQXdxUWk4dGxMUnRBOXdNWndrUGRtTHRNRTdfdElVMU9YUFBwVHpZSEk3Y3M5T1UyMXYzYm4yOU5QOXFJQ3BmSUFBdWxwVkpYSnA4U2tGc3AxOXBZQlhWRTA2OEdaMWh5VmpvakRkUzhvYmNZdUUyN1N1MlJqd01VS3JfZVctM0NmelZWbGVFZ1FpRVBXczJpdmRZY3pQS2lZWlI1MGJVczZPYjNIS2RlcC1jWkZGTQ?oc=5",
+      "published": "2026-01-19T08:00:00+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "3f08bee1248e",
+      "title": "Les médicaments courants contre l’hyperactivité vésicale pourraient ne pas augmenter le risque de démence - Ma Clinique",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEljcUlTMTFZVVUyeXotdjZSTnlsdnoxbWctY29ha01NRFBHeExrLW5oMFNRT1RqR19lS2NEdEJ1TW5KcWZTLVFQWWJqekdEZV91Q2lQZmhYYjZ2Q1QwenBEdXNydUhqR043RGFBaFp4bzF2NWd1S0tKandlYmhNaUttREhnZ2NRSEdiVm5wSjlmQlJyUHFBTzBrRHlRQVVoWUE1c1VqbklsSHZZLThtZWNCckhsdlcxZEFSZHZrT3NDeHVWVkE?oc=5",
+      "published": "2026-11-07T05:20:19+00:00",
+      "source": {
+        "name": "Ma Clinique",
+        "url": "https://ma-clinique.fr"
+      }
+    },
+    {
+      "id": "043e84d29ebf",
+      "title": "Contrôler les prix des offres et garantir la transparence dans l'acquisition de médicaments et de matériel médical. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ2xNRlFkcEk3alloWF9NdnBWcUFoV2h3T0xtTmx4TXZhVkJZRFFBWV80OGZnM0huX1pTdDB0WHRzWlg1S2J5TXNtY29JdHAzX2dmU003ZVdoTzVGMWVjbHFIaVgwNXRnblE5eTBCSGpTTHFuUXRhZ3dXclVER3ZIWUJGZHVkdDktQ3FyeXJpWl9NMkRBRFh0YVdraGVIdWF2enMyMmpn?oc=5",
+      "published": "2026-11-06T06:34:02+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "852313e54156",
+      "title": "«Ce n’est pas acceptable»: 36 Québécois victimes d’erreurs de médicaments fatales - Le Journal de Montréal",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcW8tbWZ0bld3UmdncXhaWmlaWUk4ZWc1Mm5hbldqRUNhZ1A4NWFEUTQ3XzBOMk5TLWdLRlZHbTZoeFJqdXZDU0dVeFZVTVp6R1lpaWRWMDJiUkVFVzE2WXhHQ0N1U0xUaDZvZDdhUDRHTWNBQ0Flb1cxV2lIbEh5eFpXXy05OG5zX2ZWNVlwNXNxQWZwTE9FbWd3QkJNWUpmYlU0NEUtVzh1dVB5bFJkRl9pWEd5N3IxeUhSMkZIMA?oc=5",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source": {
+        "name": "Le Journal de Montréal",
+        "url": "https://www.journaldemontreal.com"
+      }
+    },
+    {
       "id": "4a22357f1770",
       "title": "Actualité - Plan hivernal 2025-2026 : point sur l’approvisionnement en médicaments - ANSM",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWJiS2hBUFozOEFWY2dlQ3VlOEYxVUl0ZFZnbUJSSi1tb0ZLVHV4Q2FxeXJINE1KQXNHaENhRTNFWFlKQnZ4bFk1LVpHRFRmTHQ4Rm5oWldpMzBjem5DVmZtMThiVTg3aGhRa3FuUHo2TG1ZdUl0OHJaNndRcEhPSnhWcmhFYmRPSGJkSlpsd1duRk1VNHJSRGtsaXJfOEhtT3c?oc=5",
@@ -531,16 +531,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "8d1079b7649d",
-      "title": "Actualités médicales du 7 novembre : Cancer de l’œsophage à un stade avancé : L’immunothérapie ouvre de nouvelles perspectives de traitement. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdjkwYTJDSUxlMEptVnhpeGxwSVhOUTk4SUMxQ2NNMnlleWR6NHhXVFBCM3NGNmtYVGw5ZzU4THducXJnQTdieTdOQU52TmZWUHRJQXlob3FMMi13cF9MT25kakpLQjljaUZYQmw0RENUZ1dyQnpJYWNvOVJsUVBrRjUyX2tUenZoLWVvbjJRb0NCN291OTNkTTI3UlZjUUJja1pDdDRDLXhJbEtCelR3eVh1LWw1VFZBNWluQWNtbWJPMjQ?oc=5",
-      "published": "2026-11-07T03:08:32+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -574,13 +564,13 @@
       }
     },
     {
-      "id": "63ae2f801128",
-      "title": "Les médecins généralistes réclament une approche globale de la douleur chronique et reléguer les médicaments comme option initiale - Demócrata",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdS12OFMya1dYWmVwckROUXd4cXlOaDhweTRoT3pjeWV2OXhGT1NnWl9VLVVKTnlrUk1mQ0xoa1g0b0d4bUlQMEtieGE0dXBzR2FxcGhYODRDcEJxbEFZWTc2dDJhMVB0ZXZxaFJsSVFyYlg2ajQxcE9PZGV5azJTcnMtZkFFZzZZcVRpTkpxVkZmdW5XSDR4ZTBEYU1jR3NoUFFPNE96dU5KdkpQdDM0ZURrSThnY2NCMDNGVGFQQkRZWWdueVNWLWVtZ0ZnVFlJdV8xSmJFWUx1RXpBYXlWWFNuMERIbl9HOWpuenU2SWRFMGVOQldyTNIB_gFBVV95cUxQQVowUllpZHFkNmZOWndhcXFTUkdHOHZoZ3JYQlVzQlhnckM3SHRBbFR4anliZWNnT0VGTWJzMlhYRjZnaVpCQ1RNWHc2Y3kzR2dLanBPS1pjMmUycEF5TTN2R3lvNVhxWnM0WHRBbE16MjVuMmZiY19YQjhmN2FXVnpYb0RCVlMzbjExa1lubTJmay04Z0VpaThlVzF0NnBfbF9EWmplbkgtSUJPNW9hTWlxcUp0T2xfbnRGRFk2M21obG5HY3RhQmxuMUhiSk82aEludFhDeWxjRHZPTDdwbHhKX2t6aTJYR042TmVrRWFZMzJKWnV0Nmk0dm9kdw?oc=5",
-      "published": "2026-11-06T18:02:30+00:00",
+      "id": "8d1079b7649d",
+      "title": "Actualités médicales du 7 novembre : Cancer de l’œsophage à un stade avancé : L’immunothérapie ouvre de nouvelles perspectives de traitement. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdjkwYTJDSUxlMEptVnhpeGxwSVhOUTk4SUMxQ2NNMnlleWR6NHhXVFBCM3NGNmtYVGw5ZzU4THducXJnQTdieTdOQU52TmZWUHRJQXlob3FMMi13cF9MT25kakpLQjljaUZYQmw0RENUZ1dyQnpJYWNvOVJsUVBrRjUyX2tUenZoLWVvbjJRb0NCN291OTNkTTI3UlZjUUJja1pDdDRDLXhJbEtCelR3eVh1LWw1VFZBNWluQWNtbWJPMjQ?oc=5",
+      "published": "2026-11-07T03:08:32+00:00",
       "source": {
-        "name": "Demócrata",
-        "url": "https://www.democrata.es"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -591,16 +581,6 @@
       "source": {
         "name": "Laodong.vn",
         "url": "https://fr.laodong.vn"
-      }
-    },
-    {
-      "id": "7a7f65c23d52",
-      "title": "Supprimer les obstacles aux appels d'offres pour l'achat de médicaments dans les hôpitaux publics. - Báo Nghệ An",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUVBGZEd3MDVzcVN2T290WEZvdXJKdnhXbTZNY1llUVJjc0FjbDB6UzIxcjBoYUtFNVB3U0ZyNUlZeFVBbVZ2MFNtM2tjQ0xXbEJoYlpKTndvNkhPd1A0X1ZJU3pqRGRGSERBRmN3dWVKbDJZei1UNHh4aGZaLU01LVAzNVB0MllMclRLYzZHXy1JM0pJLS1V?oc=5",
-      "published": "2026-11-07T05:44:01+00:00",
-      "source": {
-        "name": "Báo Nghệ An",
-        "url": "https://baonghean.vn"
       }
     },
     {
@@ -631,6 +611,16 @@
       "source": {
         "name": "Demócrata",
         "url": "https://www.democrata.es"
+      }
+    },
+    {
+      "id": "7a7f65c23d52",
+      "title": "Supprimer les obstacles aux appels d'offres pour l'achat de médicaments dans les hôpitaux publics. - Báo Nghệ An",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUVBGZEd3MDVzcVN2T290WEZvdXJKdnhXbTZNY1llUVJjc0FjbDB6UzIxcjBoYUtFNVB3U0ZyNUlZeFVBbVZ2MFNtM2tjQ0xXbEJoYlpKTndvNkhPd1A0X1ZJU3pqRGRGSERBRmN3dWVKbDJZei1UNHh4aGZaLU01LVAzNVB0MllMclRLYzZHXy1JM0pJLS1V?oc=5",
+      "published": "2026-11-07T05:44:01+00:00",
+      "source": {
+        "name": "Báo Nghệ An",
+        "url": "https://baonghean.vn"
       }
     },
     {
@@ -854,16 +844,6 @@
       }
     },
     {
-      "id": "f1785eb0c2b5",
-      "title": "Justice Libanaise : Enquête sur les médicaments génériques - Daily Beirut",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOHdKX1g3OFNRZlI1T2RtLXA3dlNyaEE0d0NZbklmdmh3VkoyWDUzMXF2OGg4NDBjVElYLWd0aGlRcTh4UFRzcnRKYmQ1eTJacGNaS3VWM2hTanpkY1RSbF9maWdFclFfVVFRT0YyLUE4TFJqWVhFNjAtajJmbE4wSGZrOHFlM0taQi1uT3B0ZkxuSW9DRlNWRE84UDJjLWkwcVJpeEhkeHU2VU5YX043cm5kWEE2MUJPX0Q2WlQzT2hzSE0?oc=5",
-      "published": "2026-11-07T17:23:18+00:00",
-      "source": {
-        "name": "Daily Beirut",
-        "url": "https://dailybeirut.com"
-      }
-    },
-    {
       "id": "ff1ca8390d53",
       "title": "Le ministère de la Santé élabore une nouvelle stratégie pharmaceutique avec l'aide d'experts européens - Free Press - Слободен печат",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNU5Yc1FWMU9YbTZ6bldRRUJBeERfaEpsLWUyUy1wcThHem9BbXRJXzQ2RnpzdXFuSmthS1FrU0JzRWFvVTIwWXI2d1ZZeU5GcmE5MVpJLVVSZVYyT21FWWE4cHdzYWNLQm1mRXFkdTB5UDd6NGQzZ0VfdFNNaHRqc1N2R2tobFd5NlZJYmRtR1M1U3c0ZDFzRG94b1pLSi1PR1Ytc09aRHJmdEJDWV9uN05UQkpVWktDZDAyMWhzYTlseVNxY3c?oc=5",
@@ -871,6 +851,16 @@
       "source": {
         "name": "Слободен печат",
         "url": "https://www.slobodenpecat.mk"
+      }
+    },
+    {
+      "id": "f1785eb0c2b5",
+      "title": "Justice Libanaise : Enquête sur les médicaments génériques - Daily Beirut",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOHdKX1g3OFNRZlI1T2RtLXA3dlNyaEE0d0NZbklmdmh3VkoyWDUzMXF2OGg4NDBjVElYLWd0aGlRcTh4UFRzcnRKYmQ1eTJacGNaS3VWM2hTanpkY1RSbF9maWdFclFfVVFRT0YyLUE4TFJqWVhFNjAtajJmbE4wSGZrOHFlM0taQi1uT3B0ZkxuSW9DRlNWRE84UDJjLWkwcVJpeEhkeHU2VU5YX043cm5kWEE2MUJPX0Q2WlQzT2hzSE0?oc=5",
+      "published": "2026-11-07T17:23:18+00:00",
+      "source": {
+        "name": "Daily Beirut",
+        "url": "https://dailybeirut.com"
       }
     },
     {
