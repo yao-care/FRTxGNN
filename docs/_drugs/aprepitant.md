@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-09
 description: "Aprepitant : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "aprepitant"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -51,7 +51,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
 | Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
@@ -88,7 +88,7 @@ Aucun texte d'indication approuvée n'est disponible dans les données compilée
 | 65314130 | Aprepitant Evolugen 125 mg et 80 mg | Gélule | Active |
 | 60574505 | Emend 125 mg | Gélule | Active |
 | 66256064 | Emend 80 mg | Gélule | Active |
-| 64986762 | Aprepitant Viatris 125 mg | Gélule | Active |
+| 64986762 | Aprepitant Viatris 125 mg | Gélule | Annulée |
 | 65652406 | Aprepitant Arrow 125 mg | Gélule | Active |
 
 ---

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-09
 description: "Diosmin : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -50,8 +50,8 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 | Nouvelle Indication Prédite | Aménorrhée |
 | Score de Prédiction TxGNN | 0,9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
-| Nombre d'AMM | 16 (valides : 16) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 16) |
+| Nombre d'AMM | 16 (valides : 15) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -69,7 +69,7 @@ Les 16 AMM recensées sont toutes valides ; le médicament est commercialisé. L
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 60056815 | DIOSMINE SUN 600 mg | Comprimé pelliculé | Active |
-| 63280081 | VENACLAR 600 mg | Comprimé pelliculé | Active |
+| 63280081 | VENACLAR 600 mg | Comprimé pelliculé | Annulée |
 | 60445204 | DIOVENOR 600 mg | Poudre pour suspension buvable en sachet-dose | Active |
 | 60711441 | MEDIVEINE 600 mg | Comprimé sécable | Active |
 | 69823317 | DIOSMINE EG LABO CONSEIL 600 mg | Comprimé pelliculé | Active |

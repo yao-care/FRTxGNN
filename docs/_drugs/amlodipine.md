@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-09
 description: "Amlodipine : nouvelle indication prédite, Infarctus du tronc cérébral (brain stem infarction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** n'est actuellement assoc
 | Nouvelle Indication Prédite | Infarctus du tronc cérébral (brain stem infarction) |
 | Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
-| Nombre d'AMM | 6 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 6) |
+| Nombre d'AMM | 6 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

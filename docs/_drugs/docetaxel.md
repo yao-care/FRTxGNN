@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 251
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-09
 monitor_inn: "docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans le **Sarcome d'Ewing (E
 | Nouvelle Indication Prédite | Sarcome d'Ewing (Ewing sarcoma) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
-| Nombre d'AMM | 11 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 11) |
+| Nombre d'AMM | 11 (valides : 10) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-09
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel : nouvelle indication prédite, Parameningeal embryonal rhabdomyosarcoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -51,8 +51,8 @@ Il s'agit en pratique d'un usage déjà établi plutôt que d'un repositionnemen
 | Nouvelle Indication Prédite | Parameningeal embryonal rhabdomyosarcoma |
 | Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
-| Nombre d'AMM | 12 (valides : 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
+| Nombre d'AMM | 12 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

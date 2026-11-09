@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-09
 description: "Pixantrone : nouvelle indication prédite, Cataracte diabétique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "PIXANTRONE"
 predicted_indications: ["diabetic cataract"]
@@ -49,8 +49,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cataracte d
 | Nouvelle Indication Prédite | Cataracte diabétique |
 | Score de Prédiction TxGNN | 0,9901 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Non commercialisé (autorisations annulées : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

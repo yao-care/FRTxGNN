@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ANASTROZOLE"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-09
 description: "Anastrozole : nouvelle indication prédite, Neuroblastome (neuroblastoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Neuroblastome (neuroblastoma) |
 | Score de Prédiction TxGNN | 0,9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
-| Nombre d'AMM | 18 (valides : 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 18) |
+| Nombre d'AMM | 18 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "pelvic varices"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-09
 description: "Bezlotoxumab : nouvelle indication prédite, Péritonite pelvienne aiguë de la femme (acute female pelvic peritonitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour la **péritonite pelvie
 | Nouvelle Indication Prédite | Péritonite pelvienne aiguë de la femme (acute female pelvic peritonitis) |
 | Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Non commercialisé (autorisations annulées : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
