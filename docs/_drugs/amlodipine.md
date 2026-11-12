@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** n'est actuellement assoc
 | Nouvelle Indication Prédite | Infarctus du tronc cérébral (brain stem infarction) |
 | Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 6) |
-| Nombre d'AMM | 6 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

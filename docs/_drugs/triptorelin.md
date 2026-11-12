@@ -50,8 +50,8 @@ Le niveau de preuve est donc **L5** : prédiction du modèle uniquement.
 | Nouvelle Indication Prédite | hypertrichose (hypertrichosis (disease)) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 15) |
-| Nombre d'AMM | 15 (valides : 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
+| Nombre d'AMM | 15 (valides : 15) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -80,7 +80,13 @@ Aucun essai clinique associé enregistré actuellement.
 | 65459503 | DECAPEPTYL LP 22,5 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 | 69847994 | SALVACYL L.P. 11,25 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 
-La liste ci-dessus présente 5 des AMM recensées ; 14 AMM sont valides et 1 est annulée.
+La liste ci-dessus présente 5 des AMM recensées ; les 15 AMM sont valides.
+
+<!-- review:begin fr-lic-20261113-triptorelin-1 -->
+
+> **Correction de vérification (2026-11-13)**: Texte initial : « 14 AMM sont valides et 1 est annulée. » d'après la BDPM (données du 2026-11-13), les 15 AMM de triptoréline sont actives. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261113-triptorelin-1 -->
 
 ## Considérations de Sécurité
 
@@ -100,6 +106,18 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Mises en garde et contre-indications issues de la notice ANSM, nécessaires au criblage de sécurité
 - Études cliniques ou observationnelles évaluant directement la triptoréline dans l'hypertrichose
 - Distinction claire entre hypertrichose et hirsutisme androgénodépendant pour définir la population d'intérêt
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-13 | AMM valides : 14 → 15 (aucune annulée) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

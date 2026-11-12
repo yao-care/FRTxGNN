@@ -49,7 +49,7 @@ Le modele TxGNN predit qu'il pourrait etre efficace pour l'**hypertrichose unive
 | Nouvelle Indication Predite | Ambras type hypertrichosis universalis congenita |
 | Score de Prediction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | au moins 20 |
 | Decision Recommandee | Hold |
 

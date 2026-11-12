@@ -50,7 +50,7 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette dir
 | Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prédiction TxGNN | 0,9955 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

@@ -50,7 +50,7 @@ mais seules **2 publications** indirectes (une hypothèse théorique et une étu
 | Nouvelle Indication Prédite | Porphyrie hépatique (hepatic porphyria) |
 | Score de Prédiction TxGNN | 0,9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

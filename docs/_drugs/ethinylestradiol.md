@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour **l'élévation du z
 | Nouvelle Indication Prédite | Élévation du zinc plasmatique (zinc, elevated plasma) |
 | Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

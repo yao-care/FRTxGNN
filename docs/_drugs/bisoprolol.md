@@ -50,8 +50,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 | Nouvelle Indication Prédite | Néphropathie hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
-| Nombre d'AMM | 12 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

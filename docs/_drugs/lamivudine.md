@@ -52,7 +52,7 @@ Cette prédiction correspond essentiellement à une extension vétérinaire de l
 | Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
 | Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 (études observationnelles/de cohorte, uniquement vétérinaires) |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
@@ -90,17 +90,11 @@ Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM abrogée) |
+| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 | 68440383 | Lamivudine Arrow 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 | 68427877 | Zeffix 5 mg/ml | Solution buvable | Non renseignée (AMM active) |
 | 63439683 | Zeffix 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 62715513 | Epivir 150 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-
-<!-- review:begin fr-row-20261112-lamivudine-1 -->
-
-> **Correction de vérification (2026-11-12)**: Texte initial : « Lamivudine Sandoz 150 mg / Comprimé pelliculé sécable / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-09), l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
-
-<!-- review:end fr-row-20261112-lamivudine-1 -->
 
 ---
 
@@ -139,7 +133,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

@@ -44,7 +44,7 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Rabeprazole
 
 | Élément | Contenu |
 |------|------|
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Usages connus parmi les candidats du modèle | 2 |
 | Statut commercial en France | Commercialisé (autorisations valides : au moins 19) |
@@ -83,7 +83,7 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Rabeprazole
 | 63449026 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 61305034 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 66035518 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 66387117 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Annulée |
+| 66387117 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 65031278 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 62909137 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 61438974 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
@@ -92,7 +92,7 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Rabeprazole
 | 61805185 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 64718440 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 67263364 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 68832021 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Annulée |
+| 68832021 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 | 63965740 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
 
 Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.

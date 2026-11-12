@@ -50,8 +50,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais
 | Nouvelle Indication Prédite | Arthrose (osteoarthritis) |
 | Score de Prédiction TxGNN | 0.9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 4) |
-| Nombre d'AMM | 4 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Ulcère duodénal (duodenal ulcer (disease)) |
 | Score de Prédiction TxGNN | 0.9972 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé (autorisations annulées : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,7 +74,13 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69445593 (annulée) | OPTRUMA 60 mg, comprimé pelliculé (ELI LILLY NEDERLAND BV, Pays-Bas) | Comprimé pelliculé | Non renseignée |
+| 69445593 | OPTRUMA 60 mg, comprimé pelliculé (ELI LILLY NEDERLAND BV, Pays-Bas) | Comprimé pelliculé | Non renseignée |
+
+<!-- review:begin fr-lic-20261113-raloxifene-1 -->
+
+> **Correction de vérification (2026-11-13)**: Texte initial : « 69445593 (annulée) » d'après la BDPM (données du 2026-11-13), l'AMM 69445593 (OPTRUMA 60 mg) a le statut « Autorisation active ». Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261113-raloxifene-1 -->
 
 ## Considérations de Sécurité
 
@@ -119,6 +125,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et le profil de sécurité (risques thromboemboliques et cardiovasculaires notamment) n'a pas pu ê » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | Tableau : l'AMM 69445593 (OPTRUMA) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

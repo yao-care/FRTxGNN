@@ -50,8 +50,8 @@ Cette prédiction repose donc uniquement sur le modèle, sans preuve réelle.
 | Nouvelle Indication Prédite | Aménorrhée (amenorrhea (disease)) |
 | Score de Prédiction TxGNN | 0.9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 6) |
-| Nombre d'AMM | 6 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

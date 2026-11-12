@@ -52,8 +52,8 @@ Parmi les autres indications prédites, la **névralgie** (notamment post-zosté
 | Nouvelle Indication Prédite | Conjonctivite papillaire |
 | Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
-| Nombre d'AMM | 12 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 > **Remarque :** pour la conjonctivite papillaire, le niveau de preuve est L5 (prédiction du modèle uniquement). Parmi les 10 premières prédictions, la névralgie est la plus avancée (niveau L3, statut « question de recherche »). Elle est détaillée ci-dessous à titre de comparaison.

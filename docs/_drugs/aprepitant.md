@@ -51,7 +51,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
 | Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
@@ -94,7 +94,7 @@ Aucun texte d'indication approuvée n'est disponible dans les données compilée
 | 65314130 | Aprepitant Evolugen 125 mg et 80 mg | Gélule | Active |
 | 60574505 | Emend 125 mg | Gélule | Active |
 | 66256064 | Emend 80 mg | Gélule | Active |
-| 64986762 | Aprepitant Viatris 125 mg | Gélule | Annulée |
+| 64986762 | Aprepitant Viatris 125 mg | Gélule | Active |
 | 65652406 | Aprepitant Arrow 125 mg | Gélule | Active |
 
 ---

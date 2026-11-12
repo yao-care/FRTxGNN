@@ -50,8 +50,8 @@ Actuellement, **aucun essai clinique** n'est enregistré, mais **15 publications
 | Nouvelle Indication Prédite | Lymphome cutané primitif à cellules T |
 | Score de Prédiction TxGNN | 0,9951 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 9) |
-| Nombre d'AMM | 9 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

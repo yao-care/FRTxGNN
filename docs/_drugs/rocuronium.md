@@ -49,8 +49,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
 | Score de Prédiction TxGNN | 0,9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 9) |
-| Nombre d'AMM | 9 (valides : 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 9) |
+| Nombre d'AMM | 9 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

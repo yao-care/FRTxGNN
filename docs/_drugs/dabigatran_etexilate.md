@@ -49,7 +49,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cholangite 
 | Nouvelle indication prédite | Cholangite sclérosante |
 | Score de prédiction TxGNN | 0,9982 |
 | Niveau de preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision recommandée | Hold |
 

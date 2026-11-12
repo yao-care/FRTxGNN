@@ -52,8 +52,8 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 | Nouvelle Indication Prédite | Thrombophilie par déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency, autosomal recessive) |
 | Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 9) |
-| Nombre d'AMM | 9 (valides : 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---

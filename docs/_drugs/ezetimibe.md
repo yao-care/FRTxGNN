@@ -50,7 +50,7 @@ mais **aucun essai clinique** et **aucune publication** ne l'étudie directement
 | Nouvelle Indication Prédite | Déficit en protéine de transfert des esters de cholestérol |
 | Score de Prédiction TxGNN | 0,9909 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

@@ -50,8 +50,8 @@ mais les données compilées pour ce rapport ne contiennent **aucun essai cliniq
 | Nouvelle Indication Prédite | Carcinome du sein chez la femme (female breast carcinoma) |
 | Score de Prédiction TxGNN | 0,9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 6) |
-| Nombre d'AMM | 6 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

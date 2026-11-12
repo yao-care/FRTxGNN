@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**infection par le 
 | Nouvelle Indication Prédite | Infection par le VIH |
 | Score de Prédiction TxGNN | 0,9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 15) |
-| Nombre d'AMM | 15 (valides : 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 15) |
+| Nombre d'AMM | 15 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

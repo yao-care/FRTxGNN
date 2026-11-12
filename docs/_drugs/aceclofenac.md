@@ -50,8 +50,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 | Nouvelle Indication Prédite | Syndrome brachyolmie-amélogenèse imparfaite (brachyolmia-amelogenesis imperfecta syndrome) |
 | Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
-| Nombre d'AMM | 5 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

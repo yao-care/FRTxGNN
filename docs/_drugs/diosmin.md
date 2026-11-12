@@ -50,8 +50,8 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 | Nouvelle Indication Prédite | Aménorrhée |
 | Score de Prédiction TxGNN | 0,9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 16) |
-| Nombre d'AMM | 16 (valides : 15) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,7 +75,7 @@ Le médicament est commercialisé. Les 5 principales sont listées ci-dessous (l
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 60056815 | DIOSMINE SUN 600 mg | Comprimé pelliculé | Active |
-| 63280081 | VENACLAR 600 mg | Comprimé pelliculé | Annulée |
+| 63280081 | VENACLAR 600 mg | Comprimé pelliculé | Active |
 | 60445204 | DIOVENOR 600 mg | Poudre pour suspension buvable en sachet-dose | Active |
 | 60711441 | MEDIVEINE 600 mg | Comprimé sécable | Active |
 | 69823317 | DIOSMINE EG LABO CONSEIL 600 mg | Comprimé pelliculé | Active |

@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) |
 | Score de Prédiction TxGNN | 0.9911 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 7) |
-| Nombre d'AMM | 7 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 7) |
+| Nombre d'AMM | 7 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,23 +72,23 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Certaines AMM ci-dessous sont valides (5 sur 7 ; les 2 autres sont archivées). Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
-
-<!-- review:begin fr-lic-20261112-povidone-1 -->
-
-> **Correction de vérification (2026-11-12)**: Texte initial : « (6 sur 7) » D'après la BDPM (données du 2026-11-09), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
-
-<!-- review:end fr-lic-20261112-povidone-1 -->
+Certaines AMM ci-dessous sont valides (6 sur 7). Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 69449741 | NUTRIVISC 5 POUR CENT, collyre en solution (Laboratoires Alcon) | Collyre en solution | Active |
 | 68403812 | DULCILARMES 1,5 %, collyre en solution en récipient unidose (Horus Pharma) | Collyre en solution | Active |
-| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en récipient unidose (Laboratoires Alcon) | Collyre en solution | Annulée |
+| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en récipient unidose (Laboratoires Alcon) | Collyre en solution | Active |
 | 65367581 | UNIFLUID 6 mg/0,4 ml, collyre en récipient unidose (Théa) | Collyre en solution | Annulée |
 | 63734630 | DULCILARMES 1,5 %, collyre en solution (Horus Pharma) | Collyre en solution | Active |
 
-Deux autres AMM annulées (FLUIDABAK 1,5 % et REFRESH) figurent également dans les données compilées.
+Deux autres AMM actives (FLUIDABAK 1,5 % et REFRESH) figurent également dans les données compilées.
+
+<!-- review:begin fr-lic-20261113-povidone-1 -->
+
+> **Correction de vérification (2026-11-13)**: Texte initial : « Deux autres AMM annulées (FLUIDABAK 1,5 % et REFRESH) figurent également dans les données compilées. » d'après la BDPM (données du 2026-11-13), les AMM FLUIDABAK 1,5 % (68597477) et REFRESH (61389541) sont « Autorisation active » ; seule UNIFLUID (65367581) est archivée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261113-povidone-1 -->
 
 ## Considérations de Sécurité
 
@@ -117,7 +117,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | AMM valides : 6 → 5 sur 7 | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | AMM valides : 6 → 5 sur 7 | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | FLUIDABAK 1,5 % et REFRESH : annulées → actives | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

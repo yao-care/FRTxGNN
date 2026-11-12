@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans le **Sarcome d'Ewing (E
 | Nouvelle Indication Prédite | Sarcome d'Ewing (Ewing sarcoma) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 11) |
-| Nombre d'AMM | 11 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

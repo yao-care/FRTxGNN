@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 10) |
-| Nombre d'AMM | 10 (valides : 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -84,17 +84,11 @@ Aucune littérature soutenant l'indication principale (maladie rénale hypertens
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60095526 | Fosinopril Zentiva 10 mg | Comprimé sécable | Non renseignée (AMM abrogée) |
+| 60095526 | Fosinopril Zentiva 10 mg | Comprimé sécable | Non renseignée (AMM active) |
 | 62518708 | Fosinopril Biogaran 10 mg | Comprimé sécable | Non renseignée (AMM active) |
 | 61520873 | Fosinopril Arrow Lab 10 mg | Comprimé sécable | Non renseignée (AMM active) |
 | 61248124 | Fosinopril Biogaran 20 mg | Comprimé | Non renseignée (AMM active) |
 | 60736761 | Fosinopril Arrow Lab 20 mg | Comprimé | Non renseignée (AMM active) |
-
-<!-- review:begin fr-row-20261112-fosinopril-1 -->
-
-> **Correction de vérification (2026-11-12)**: Texte initial : « Fosinopril Zentiva 10 mg / Comprimé sécable / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-09), l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg, comprimé sécable) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
-
-<!-- review:end fr-row-20261112-fosinopril-1 -->
 
 Au total, 10 AMM figurent dans la base.
 
@@ -141,7 +135,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Une évaluation de la faisabilité réglementaire, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

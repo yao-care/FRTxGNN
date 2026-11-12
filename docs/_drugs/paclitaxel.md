@@ -51,8 +51,8 @@ Il s'agit en pratique d'un usage déjà établi plutôt que d'un repositionnemen
 | Nouvelle Indication Prédite | Parameningeal embryonal rhabdomyosarcoma |
 | Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
-| Nombre d'AMM | 12 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

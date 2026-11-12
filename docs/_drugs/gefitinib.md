@@ -49,8 +49,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **fibromatose
 | Nouvelle Indication Prédite | Fibromatose gingivale (fibromatosis, gingival) |
 | Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 8) |
-| Nombre d'AMM | 8 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 8) |
+| Nombre d'AMM | 8 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

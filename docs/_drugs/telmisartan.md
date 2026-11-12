@@ -51,7 +51,7 @@ Le modèle TxGNN prédit en premier rang la **angine de Prinzmetal** (score le p
 | Nouvelle Indication Prédite | Prinzmetal angina |
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 (preuves essentiellement précliniques, soutien clinique indirect) |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
@@ -133,13 +133,7 @@ Les publications retrouvées sont surtout précliniques (modèles murins d'hypox
 | 69536527 | TELMISARTAN EG 80 mg | comprimé pelliculé | Non renseignée (AMM active) |
 | 62260706 | TELMISARTAN VIATRIS 80 mg | comprimé | Non renseignée (AMM active) |
 | 65179106 | TELMISARTAN BIOGARAN 40 mg | comprimé | Non renseignée (AMM active) |
-| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM abrogée) |
-
-<!-- review:begin fr-row-20261112-telmisartan-1 -->
-
-> **Correction de vérification (2026-11-12)**: Texte initial : « PRITOR 20 mg / comprimé / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-09), l’AMM 68369993 (PRITOR 20 mg, comprimé) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
-
-<!-- review:end fr-row-20261112-telmisartan-1 -->
+| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM active) |
 
 ## Considérations de Sécurité
 
@@ -173,7 +167,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

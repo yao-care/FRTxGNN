@@ -50,8 +50,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 | Nouvelle Indication Prédite | Polymicrogyrie parasagittale pariéto-occipitale bilatérale (bilateral parasagittal parieto-occipital polymicrogyria) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
-| Nombre d'AMM | 10 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -70,13 +70,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, dont 9 valides et 1 abrogée (62414855) ; ce sont des spécialités à base de riluzole seul.
-
-<!-- review:begin fr-lic-20261112-riluzole-1 -->
-
-> **Correction de vérification (2026-11-12)**: Texte initial : « recensent 10 AMM, toutes valides ; » D'après la BDPM (données du 2026-11-09), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
-
-<!-- review:end fr-lic-20261112-riluzole-1 -->
+Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, toutes valides ; ce sont des spécialités à base de riluzole seul.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -113,7 +107,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | AMM valides : 10 → 9 (1 abrogée) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | AMM valides : 10 → 9 (1 abrogée) | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

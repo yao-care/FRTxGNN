@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hyperplasie bén
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
 | Score de Prédiction TxGNN | 0,9971 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 14) |
-| Nombre d'AMM | 14 (valides : 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
+| Nombre d'AMM | 14 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,7 +89,7 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 | 66925249 | NICORANDIL ALMUS 10 mg | Comprimé sécable | Active |
 | 61503831 | NICORANDIL ZENTIVA 10 mg | Comprimé sécable | Active |
 | 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Active |
-| 61786176 | IKOREL 20 mg | Comprimé | Annulée |
+| 61786176 | IKOREL 20 mg | Comprimé | Active |
 
 Au total, 14 AMM figurent dans les données.
 
@@ -122,7 +122,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action
 - Des données cliniques chez l'humain sur la perfusion prostatique ou les SBAU
-- Une clarification de la raison de l'annulation des AMM et de la faisabilité d'une remise sur le marché
+
+<!-- review:begin fr-lic-20261113-nicorandil-1 -->
+
+> **Correction de vérification (2026-11-13)**: Texte initial : « Une clarification de la raison de l'annulation des AMM et de la faisabilité d'une remise sur le marché » d'après la BDPM (données du 2026-11-13), les 14 AMM de nicorandil sont actives ; l'étape fondée sur leur annulation est supprimée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261113-nicorandil-1 -->
 
 ## Autres Indications Prédites (pour information)
 
@@ -147,6 +152,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « e médicament est commercialisé en France : 14 AMM valides sur 14 ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (toutes en monothérapie et toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (14 AMM valides sur 14) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | Supprimé : étape fondée sur une annulation des AMM | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

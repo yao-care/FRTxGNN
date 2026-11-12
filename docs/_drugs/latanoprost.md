@@ -50,7 +50,7 @@ Latanoprost est un analogue de la prostaglandine F2-alpha, initialement utilisé
 | Nouvelle Indication Prédite | Visceral calciphylaxis |
 | Score de Prédiction TxGNN | 0.9983 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement, aucune étude réelle) |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
@@ -89,7 +89,7 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 |---------|------|------|-----------|
 | 60047271 | XALATAN 50 microgrammes/mL | Collyre en solution | Active |
 | 63781007 | XALACOM 50 µg/mL + 5 mg/mL (latanoprost/timolol) | Collyre en solution | Active |
-| 64928570 | LATANOPROST BIOGARAN 0,005 % | Collyre en solution | Annulée |
+| 64928570 | LATANOPROST BIOGARAN 0,005 % | Collyre en solution | Active |
 | 60643442 | LATANOPROST ZENTIVA 0,005 % | Collyre en solution | Active |
 | 64224662 | ROCLANDA 50 µg/mL + 200 µg/mL (latanoprost/nétarsudil) | Collyre en solution | Active |
 

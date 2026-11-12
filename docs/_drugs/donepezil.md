@@ -50,8 +50,8 @@ avec **0 essai clinique** et **5 publications** (dont une étude pédiatrique ou
 | Nouvelle Indication Prédite | Psychogenic movement disorders |
 | Score de Prédiction TxGNN | 0.9923 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 24) |
-| Nombre d'AMM | 24 (valides : 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 21 sur 24) |
+| Nombre d'AMM | 24 (valides : 21) |
 | Décision Recommandée | Hold (question de recherche, sécurité à évaluer en premier) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

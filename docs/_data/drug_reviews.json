@@ -1702,7 +1702,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-lic-20261106-cyclopentolate-1",
@@ -2284,7 +2288,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-lic-20261106-dexketoprofen-1",
@@ -4896,7 +4904,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-lic-20261106-framycetin-1",
@@ -5098,6 +5110,27 @@
    "checked": "2026-11-06",
    "summary": "Supprimé : « (16 AMM valides sur 16) »",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+  },
+  {
+   "id": "fr-lic-20261113-galantamine-1",
+   "drug": "galantamine",
+   "file": "galantamine.md",
+   "action": "correct",
+   "claim": "\n- Clarifier les raisons de l'annulation des AMM et la possibilité de disposer d'une formulation commercialisée.",
+   "replacement": "",
+   "summary": "Supprimé : étape fondée sur une annulation des AMM",
+   "note": "d'après la BDPM (données du 2026-11-13), les 16 AMM de galantamine sont actives ; l'étape fondée sur leur annulation est supprimée.",
+   "finding": "下一步以「AMM 註銷」為前提；BDPM 16 張全 active，刪除該條",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
+   "anchor": "- Si l'axe « troubles du mouvement » est poursuivi, évaluer d'abord le signal de sécurité des inhibiteurs de cholinestérase (aggravation de mouvements anormaux)."
   },
   {
    "id": "fr-lic-20261106-gefitinib-1",
@@ -9255,6 +9288,27 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
   },
   {
+   "id": "fr-lic-20261113-nicorandil-1",
+   "drug": "nicorandil",
+   "file": "nicorandil.md",
+   "action": "correct",
+   "claim": "\n- Une clarification de la raison de l'annulation des AMM et de la faisabilité d'une remise sur le marché",
+   "replacement": "",
+   "summary": "Supprimé : étape fondée sur une annulation des AMM",
+   "note": "d'après la BDPM (données du 2026-11-13), les 14 AMM de nicorandil sont actives ; l'étape fondée sur leur annulation est supprimée.",
+   "finding": "下一步以「AMM 註銷」為前提；BDPM 14 張全 active，刪除該條",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
+   "anchor": "- Des données cliniques chez l'humain sur la perfusion prostatique ou les SBAU"
+  },
+  {
    "id": "fr-lic-20261106-nilotinib-1",
    "drug": "nilotinib",
    "file": "nilotinib.md",
@@ -11055,7 +11109,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-lic-20261106-plerixafor-1",
@@ -11695,7 +11753,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-row-20261112-quinapril-2",
@@ -11715,7 +11777,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-lic-20261106-quinidine-1",
@@ -11776,6 +11842,26 @@
    "checked": "2026-11-06",
    "summary": "Supprimé : « l'AMM étant annulée »",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+  },
+  {
+   "id": "fr-lic-20261113-raloxifene-1",
+   "drug": "raloxifene",
+   "file": "raloxifene.md",
+   "action": "correct",
+   "claim": "| 69445593 (annulée) |",
+   "replacement": "| 69445593 |",
+   "summary": "Tableau : l'AMM 69445593 (OPTRUMA) est active, non annulée",
+   "note": "d'après la BDPM (données du 2026-11-13), l'AMM 69445593 (OPTRUMA 60 mg) a le statut « Autorisation active ».",
+   "finding": "表格列把 69445593（OPTRUMA）標 annulée；BDPM 改為 active",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
   },
   {
    "id": "fr-lic-20261106-raltitrexed-1",
@@ -16175,6 +16261,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
   },
   {
+   "id": "fr-lic-20261113-zonisamide-1",
+   "drug": "zonisamide",
+   "file": "zonisamide.md",
+   "action": "correct",
+   "claim": "- Clarifier les raisons de l'annulation des AMM et le statut réglementaire actuel du produit.",
+   "replacement": "- Clarifier le statut réglementaire actuel du produit.",
+   "summary": "Supprimé : « les raisons de l'annulation des AMM »",
+   "note": "d'après la BDPM (données du 2026-11-13), les 20 AMM de zonisamide sont actives ; la mention de leur annulation est supprimée.",
+   "finding": "下一步以「AMM 註銷」為前提；BDPM 20 張全 active，只刪前提子句",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+  },
+  {
    "id": "fr-lic-20261106-zuclopenthixol-1",
    "drug": "zuclopenthixol",
    "file": "zuclopenthixol.md",
@@ -16292,7 +16398,11 @@
    ],
    "checked": "2026-11-12",
    "summary": "Supprimé : « et les 8 AMM françaises (sur 8) sont valides »",
-   "method": "2026-11-12 依 checker M3（排程 2026-11-09 後的新事實）人工核對，只刪矛盾子句"
+   "method": "2026-11-12 依 checker M3（排程 2026-11-09 後的新事實）人工核對，只刪矛盾子句",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-row-20261112-molsidomine-1",
@@ -16312,7 +16422,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-lic-20261112-fluvastatin-1",
@@ -16352,7 +16466,31 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+  },
+  {
+   "id": "fr-lic-20261113-povidone-1",
+   "drug": "povidone",
+   "file": "povidone.md",
+   "action": "correct",
+   "claim": "Deux autres AMM annulées (FLUIDABAK 1,5 % et REFRESH) figurent également dans les données compilées.",
+   "replacement": "Deux autres AMM actives (FLUIDABAK 1,5 % et REFRESH) figurent également dans les données compilées.",
+   "summary": "FLUIDABAK 1,5 % et REFRESH : annulées → actives",
+   "note": "d'après la BDPM (données du 2026-11-13), les AMM FLUIDABAK 1,5 % (68597477) et REFRESH (61389541) sont « Autorisation active » ; seule UNIFLUID (65367581) est archivée.",
+   "finding": "正文寫 FLUIDABAK、REFRESH 已註銷；BDPM 兩張皆 active（7 張中 6 有效，UNIFLUID archivée）",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
   },
   {
    "id": "fr-lic-20261112-travoprost-1",
@@ -16392,7 +16530,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-lic-20261112-ezetimibe-1",
@@ -16432,7 +16574,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-row-20261112-lamivudine-1",
@@ -16452,7 +16598,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
   },
   {
    "id": "fr-row-20261112-telmisartan-1",
@@ -16472,7 +16622,71 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-13",
+   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+  },
+  {
+   "id": "fr-lic-20261113-efavirenz-1",
+   "drug": "efavirenz",
+   "file": "efavirenz.md",
+   "action": "correct",
+   "claim": "- Clarification du statut réglementaire (AMM annulées)",
+   "replacement": "- Clarification du statut réglementaire",
+   "summary": "Supprimé : « (AMM annulées) »",
+   "note": "d'après la BDPM (données du 2026-11-13), les 13 AMM d'éfavirenz sont actives ; la mention « AMM annulées » est supprimée.",
+   "finding": "下一步寫「(AMM annulées)」；BDPM 13 張全 active",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+  },
+  {
+   "id": "fr-lic-20261113-minoxidil-1",
+   "drug": "minoxidil",
+   "file": "minoxidil.md",
+   "action": "correct",
+   "claim": "Sur les 19 AMM recensées, 17 sont valides et 2 sont annulées.",
+   "replacement": "Les 19 AMM recensées sont toutes valides.",
+   "summary": "AMM valides : 17 → 19 (aucune annulée)",
+   "note": "d'après la BDPM (données du 2026-11-13), les 19 AMM de minoxidil sont actives.",
+   "finding": "正文寫 17 有效、2 註銷；BDPM 19 張全 active",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+  },
+  {
+   "id": "fr-lic-20261113-triptorelin-1",
+   "drug": "triptorelin",
+   "file": "triptorelin.md",
+   "action": "correct",
+   "claim": "14 AMM sont valides et 1 est annulée.",
+   "replacement": "les 15 AMM sont valides.",
+   "summary": "AMM valides : 14 → 15 (aucune annulée)",
+   "note": "d'après la BDPM (données du 2026-11-13), les 15 AMM de triptoréline sont actives.",
+   "finding": "正文寫 14 有效、1 註銷；BDPM 15 張全 active",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "checked": "2026-11-13",
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
   }
  ]
 }

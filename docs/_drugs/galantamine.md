@@ -51,8 +51,8 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour les **troubles d
 | Nouvelle Indication Prédite | Troubles du mouvement psychogènes (psychogenic movement disorders) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 16) |
-| Nombre d'AMM | 16 (valides : 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---
@@ -141,7 +141,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Établir un lien mécanistique ou des données précliniques/cliniques pour l'indication ciblée.
 - Si l'axe « troubles du mouvement » est poursuivi, évaluer d'abord le signal de sécurité des inhibiteurs de cholinestérase (aggravation de mouvements anormaux).
-- Clarifier les raisons de l'annulation des AMM et la possibilité de disposer d'une formulation commercialisée.
+
+<!-- review:begin fr-lic-20261113-galantamine-1 -->
+
+> **Correction de vérification (2026-11-13)**: Texte initial : « Clarifier les raisons de l'annulation des AMM et la possibilité de disposer d'une formulation commercialisée. » d'après la BDPM (données du 2026-11-13), les 16 AMM de galantamine sont actives ; l'étape fondée sur leur annulation est supprimée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261113-galantamine-1 -->
 
 <!-- review:begin log -->
 
@@ -153,6 +158,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 16 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (16 AMM valides sur 16) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | Supprimé : étape fondée sur une annulation des AMM | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

@@ -51,7 +51,7 @@ Ce rapport porte donc sur l'état de mal épileptique, qui dispose des preuves l
 | Nouvelle Indication Prédite | Beta-ketothiolase deficiency |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Proceed with Guardrails |
 

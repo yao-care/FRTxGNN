@@ -52,8 +52,8 @@ Cette prédiction repose sur **aucun essai clinique** et **19 publications**, to
 | Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
 | Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 9) |
-| Nombre d'AMM | 9 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---

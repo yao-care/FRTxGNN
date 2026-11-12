@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 | Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
 | Score de Prédiction TxGNN | 0.9980 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 13) |
-| Nombre d'AMM | 13 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,7 +89,6 @@ Un trouble neurodéveloppemental (ataxie, absence de parole, diminution de la su
 | 62130958 | EFAVIRENZ TEVA 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
 | 61004700 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA 600 mg/200 mg/245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : insuffisance hépatique, maladie hépatique, stéatose hépatique et stéatohépatite non alcoolique, hépatites virales B et C chroniques, épilepsie, troubles anxieux, troubles névrotiques, trouble dysthymique, trouble délirant, schizophrénie paranoïde, maladie rénale, syndrome de Fanconi, acidose lactique, hypertriglycéridémie, obésité, hypophosphatémie, ostéomalacie, rachitisme, maladie de la vésicule biliaire.
@@ -108,7 +107,26 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec le FIV
 - Mises en garde et contre-indications officielles issues de la notice (ANSM)
 - Études in vivo chez le chat et évaluation de la pertinence vétérinaire par rapport à l'objectif de repositionnement
-- Clarification du statut réglementaire (AMM annulées)
+- Clarification du statut réglementaire
+
+<!-- review:begin fr-lic-20261113-efavirenz-1 -->
+
+> **Correction de vérification (2026-11-13)**: Texte initial : « Clarification du statut réglementaire (AMM annulées) » d'après la BDPM (données du 2026-11-13), les 13 AMM d'éfavirenz sont actives ; la mention « AMM annulées » est supprimée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261113-efavirenz-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-13 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

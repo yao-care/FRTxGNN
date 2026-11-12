@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **calciphylaxie v
 | Nouvelle Indication Prédite | Visceral calciphylaxis |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

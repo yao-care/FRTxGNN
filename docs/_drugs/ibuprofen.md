@@ -50,7 +50,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acrom
 | Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
 | Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

@@ -50,7 +50,7 @@ avec **42 essais cliniques** et **19 publications** associés à cette direction
 | Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
 | Score de Prédiction TxGNN | 0.9949 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

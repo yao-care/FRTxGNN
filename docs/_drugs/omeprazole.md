@@ -48,7 +48,7 @@ L'oméprazole est un inhibiteur de la pompe à protons, initialement utilisé po
 | Nouvelle Indication Prédite | Duodenal obstruction |
 | Score de Prédiction TxGNN | 0.9964 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

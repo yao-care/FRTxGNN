@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Neuroblastome (neuroblastoma) |
 | Score de Prédiction TxGNN | 0,9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 18) |
-| Nombre d'AMM | 18 (valides : 16) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

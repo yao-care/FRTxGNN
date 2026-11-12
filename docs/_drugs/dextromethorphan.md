@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie de la c
 | Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 7) |
-| Nombre d'AMM | 7 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour le **syndrome de la per
 | Nouvelle Indication Prédite | Syndrome de la personne raide classique (classic stiff person syndrome) |
 | Score de Prédiction TxGNN | 0,9965 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 13) |
-| Nombre d'AMM | 13 (valides : 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

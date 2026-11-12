@@ -50,7 +50,7 @@ Le modèle TxGNN la prédit comme potentiellement utile dans l'**alopécie mucin
 | Nouvelle Indication Prédite | Alopécie mucineuse (alopecia mucinosa) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

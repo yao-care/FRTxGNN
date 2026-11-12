@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour la **péritonite pelvie
 | Nouvelle Indication Prédite | Péritonite pelvienne aiguë de la femme (acute female pelvic peritonitis) |
 | Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé (autorisations annulées : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

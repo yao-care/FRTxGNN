@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypotrichose simple
 | Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 19) |
-| Nombre d'AMM | 19 (valides : 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,7 +75,13 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le minoxidil est commercialisé en France. Sur les 19 AMM recensées, 17 sont valides et 2 sont annulées.
+Le minoxidil est commercialisé en France. Les 19 AMM recensées sont toutes valides.
+
+<!-- review:begin fr-lic-20261113-minoxidil-1 -->
+
+> **Correction de vérification (2026-11-13)**: Texte initial : « Sur les 19 AMM recensées, 17 sont valides et 2 sont annulées. » d'après la BDPM (données du 2026-11-13), les 19 AMM de minoxidil sont actives. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261113-minoxidil-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -103,6 +109,18 @@ Les preuves se limitent toutefois à trois rapports de cas où le minoxidil est 
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice, en particulier pour la forme orale chez l'enfant et l'adolescent
 - Plan de surveillance de la sécurité cardiovasculaire en cas d'usage oral
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-13 | AMM valides : 17 → 19 (aucune annulée) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -50,7 +50,7 @@ avec **6 essais cliniques** et **20 publications** actuellement associés à cet
 | Nouvelle Indication Prédite | Maladie thrombotique (thrombotic disease) |
 | Score de Prédiction TxGNN | 0,9996 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Proceed with Guardrails |
 
