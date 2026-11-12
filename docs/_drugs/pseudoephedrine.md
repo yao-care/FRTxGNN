@@ -91,7 +91,13 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69445376 (annulée) | RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE | Comprimé enrobé | Non renseignée |
+| 69445376 | RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE | Comprimé enrobé | Non renseignée |
+
+<!-- review:begin fr-row-20261112-pseudoephedrine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 69445376 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 69445376 (RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE, comprimé enrobé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-pseudoephedrine-1 -->
 
 ---
 
@@ -139,6 +145,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'unique AMM française est annulée, et le profil de sécurité (nombreuses contre-indications cardiovasculaires) impose la prudence » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 69445376 (RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

@@ -88,7 +88,13 @@ Une étude de phase 2 chez des patients monoinfectés par le VHB (publication de
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64426906 (abrogée) | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | Texte de l'indication non renseigné |
+| 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | Texte de l'indication non renseigné |
+
+<!-- review:begin fr-row-20261112-ledipasvir-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 64426906 (abrogée) » Selon la BDPM (données du 2026-11-09), l’AMM 64426906 (HARVONI 90 mg/400 mg, comprimé pelliculé) a le statut « Autorisation active » ; la mention « abrogée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-ledipasvir-1 -->
 
 ## Considérations de Sécurité
 
@@ -135,6 +141,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM active en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « puisque l'unique AMM est abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 64426906 (HARVONI 90 mg/400 mg) est active, non abrogée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

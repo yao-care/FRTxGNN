@@ -90,11 +90,17 @@ Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM abrogée) |
 | 68440383 | Lamivudine Arrow 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
 | 68427877 | Zeffix 5 mg/ml | Solution buvable | Non renseignée (AMM active) |
 | 63439683 | Zeffix 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
 | 62715513 | Epivir 150 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+
+<!-- review:begin fr-row-20261112-lamivudine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « Lamivudine Sandoz 150 mg / Comprimé pelliculé sécable / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-09), l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-lamivudine-1 -->
 
 ---
 
@@ -124,6 +130,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Autres prédictions examinées (non retenues) :**
 - *Infection par le virus de l'immunodéficience simienne* (score 0,9993, niveau L4, Hold) : preuves précliniques chez le macaque, utiles à la recherche sur le VIH mais sans nouvelle indication humaine.
 - *Hépatite C chronique* (score 0,9911, niveau L4, Hold) : aucune activité établie de la lamivudine contre le VHC (virus à ARN), la littérature se limitant à des revues générales sur les hépatites virales ; les antiviraux à action directe sont la référence.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

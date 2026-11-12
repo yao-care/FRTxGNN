@@ -97,7 +97,13 @@ Les publications ci-dessous sont les plus pertinentes parmi celles compilées (r
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66265330 (annulée) | ADIAZINE 500 mg, comprimé (BOUCHARA-RECORDATI) | Comprimé | Non renseignée |
+| 66265330 | ADIAZINE 500 mg, comprimé (BOUCHARA-RECORDATI) | Comprimé | Non renseignée |
+
+<!-- review:begin fr-row-20261112-sulfadiazine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 66265330 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 66265330 (ADIAZINE 500 mg, comprimé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-sulfadiazine-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'unique AMM française est annulée, ce qui limite le développement pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 66265330 (ADIAZINE 500 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

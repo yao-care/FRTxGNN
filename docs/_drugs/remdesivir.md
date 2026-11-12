@@ -103,7 +103,13 @@ Toutes ces publications concernent la COVID-19 ou des aspects généraux de l'an
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69284439 (annulée) | VEKLURY 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 69284439 | VEKLURY 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée |
+
+<!-- review:begin fr-row-20261112-remdesivir-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 69284439 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 69284439 (VEKLURY 100 mg, poudre pour solution à diluer pour perfusion) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-remdesivir-1 -->
 
 ---
 
@@ -148,6 +154,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 69284439 (VEKLURY 100 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

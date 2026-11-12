@@ -78,7 +78,13 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 68937442 (annulée) | THYROGEN 0,9 mg, poudre pour solution injectable | Poudre pour solution injectable | Non renseignée |
+| 68937442 | THYROGEN 0,9 mg, poudre pour solution injectable | Poudre pour solution injectable | Non renseignée |
+
+<!-- review:begin fr-row-20261112-thyrotropin_alfa-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 68937442 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 68937442 (THYROGEN 0,9 mg, poudre pour solution injectable) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-thyrotropin_alfa-1 -->
 
 Titulaire : SANOFI WINTHROP INDUSTRIE.
 
@@ -128,6 +134,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 68937442 (THYROGEN 0) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

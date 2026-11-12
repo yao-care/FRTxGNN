@@ -85,7 +85,13 @@ Aucune littérature associée disponible actuellement pour la vaginite atrophiqu
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66090799 (annulée) | FASIGYNE 500 mg, comprimé enrobé (TEOFARMA) | Comprimé enrobé | Non renseignée |
+| 66090799 | FASIGYNE 500 mg, comprimé enrobé (TEOFARMA) | Comprimé enrobé | Non renseignée |
+
+<!-- review:begin fr-row-20261112-tinidazole-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 66090799 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 66090799 (FASIGYNE 500 mg, comprimé enrobé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-tinidazole-1 -->
 
 ---
 
@@ -134,6 +140,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 66090799 (FASIGYNE 500 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

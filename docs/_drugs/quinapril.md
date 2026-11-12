@@ -89,8 +89,20 @@ Seule l'hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 62206135 | ACUITEL 5 mg, comprimé enrobé sécable (active) | Comprimé enrobé sécable | Non précisée |
-| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable (active) | Comprimé enrobé sécable | Non précisée |
+| 62206135 | ACUITEL 5 mg, comprimé enrobé sécable (archivée) | Comprimé enrobé sécable | Non précisée |
+| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable (archivée) | Comprimé enrobé sécable | Non précisée |
+
+<!-- review:begin fr-row-20261112-quinapril-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « ACUITEL 5 mg, comprimé enrobé sécable (active) » Selon la BDPM (données du 2026-11-09), l’AMM 62206135 (ACUITEL 5 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-quinapril-1 -->
+
+<!-- review:begin fr-row-20261112-quinapril-2 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « ACUITEL 20 mg, comprimé enrobé sécable (active) » Selon la BDPM (données du 2026-11-09), l’AMM 62927128 (ACUITEL 20 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-quinapril-2 -->
 
 ## Considérations de Sécurité
 
@@ -140,6 +152,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « puisque seules des AMM annulées sont recensées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 62206135 (ACUITEL 5 mg) est archivée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

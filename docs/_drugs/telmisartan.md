@@ -133,8 +133,13 @@ Les publications retrouvées sont surtout précliniques (modèles murins d'hypox
 | 69536527 | TELMISARTAN EG 80 mg | comprimé pelliculé | Non renseignée (AMM active) |
 | 62260706 | TELMISARTAN VIATRIS 80 mg | comprimé | Non renseignée (AMM active) |
 | 65179106 | TELMISARTAN BIOGARAN 40 mg | comprimé | Non renseignée (AMM active) |
-| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM active) |
+| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM abrogée) |
 
+<!-- review:begin fr-row-20261112-telmisartan-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « PRITOR 20 mg / comprimé / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-09), l’AMM 68369993 (PRITOR 20 mg, comprimé) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-telmisartan-1 -->
 
 ## Considérations de Sécurité
 
@@ -159,6 +164,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Examen des résultats détaillés de TRIDENT pour évaluer la contribution propre de telmisartan
 - Essais cliniques humains ciblant directement l'indication retenue
 - Clarification du statut réglementaire (AMM annulées) et de la disponibilité commerciale du médicament en France
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

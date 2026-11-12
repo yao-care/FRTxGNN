@@ -85,8 +85,14 @@ Aucune litterature associee disponible actuellement.
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 62294181 | LOCATOP 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active) |
-| 61243216 | LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active) |
+| 61243216 | LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM archivée) |
 | 65055507 | TRIDESONIT 0,05 POUR CENT, creme (Alliance Pharma, Irlande) | Creme | Non renseignee (AMM active) |
+
+<!-- review:begin fr-row-20261112-desonide-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) / Creme / Non renseignee (AMM active) » Selon la BDPM (données du 2026-11-09), l’AMM 61243216 (LOCAPRED 0,1 %, crème) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-desonide-1 -->
 
 ---
 
@@ -135,6 +141,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et toutes les AMM francaises sont annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Examiner l'interet reel d'une relance, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

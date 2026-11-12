@@ -93,7 +93,13 @@ La plupart des publications sont des études associant l'estazolam à l'acupunct
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69888457 (annulée) | NUCTALON 2 mg, comprimé | Comprimé | Non renseignée |
+| 69888457 | NUCTALON 2 mg, comprimé | Comprimé | Non renseignée |
+
+<!-- review:begin fr-row-20261112-estazolam-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 69888457 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 69888457 (NUCTALON 2 mg, comprimé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-estazolam-1 -->
 
 Le titulaire est CHEPLAPHARM ARZNEIMITTEL (Allemagne).
 
@@ -144,6 +150,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et le produit n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 69888457 (NUCTALON 2 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

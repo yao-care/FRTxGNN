@@ -90,7 +90,13 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63239234 (annulée) | TIBSOVO 250 mg, comprimé pelliculé (LES LABORATOIRES SERVIER) | Comprimé pelliculé | Non renseignée |
+| 63239234 | TIBSOVO 250 mg, comprimé pelliculé (LES LABORATOIRES SERVIER) | Comprimé pelliculé | Non renseignée |
+
+<!-- review:begin fr-row-20261112-ivosidenib-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 63239234 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 63239234 (TIBSOVO 250 mg,  comprimé pelliculé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-ivosidenib-1 -->
 
 ---
 
@@ -158,6 +164,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 63239234 (TIBSOVO 250 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

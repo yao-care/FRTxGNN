@@ -74,7 +74,13 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60929447 (annulée) | MYNOCINE 100 mg, gélule (LABORATOIRE XO) | Gélule | Non renseignée |
+| 60929447 | MYNOCINE 100 mg, gélule (LABORATOIRE XO) | Gélule | Non renseignée |
+
+<!-- review:begin fr-row-20261112-minocycline-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 60929447 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 60929447 (MYNOCINE 100 mg, gélule) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-minocycline-1 -->
 
 Le médicament est commercialisé et sa seule AMM est valide (1 AMM valide sur 1) dans les données compilées. En revanche, la forme disponible est une gélule orale : la compatibilité avec une voie d'administration oculaire n'a pas été évaluée.
 
@@ -118,6 +124,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 60929447 (MYNOCINE 100 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

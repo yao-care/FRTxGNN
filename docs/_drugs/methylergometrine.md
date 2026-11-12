@@ -79,7 +79,13 @@ Aucune littérature disponible pour l'hypertrichose. Pour la migraine (prédicti
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 66417119 (annulée) | METHERGIN 0,20 mg/1 ml, solution injectable, ampoule | Solution injectable | Non renseignée |
+| 66417119 | METHERGIN 0,20 mg/1 ml, solution injectable, ampoule | Solution injectable | Non renseignée |
+
+<!-- review:begin fr-row-20261112-methylergometrine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 66417119 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 66417119 (METHERGIN 0,20 mg/1 ml, solution injectable, ampoule) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-methylergometrine-1 -->
 
 ## Considérations de Sécurité
 
@@ -117,6 +123,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le profil de sécurité vasculaire de la classe et la seule AMM française annulée renforcent la recommandation de ne pas poursuivre » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 66417119 (METHERGIN 0) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

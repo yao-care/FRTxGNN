@@ -91,7 +91,13 @@ Le score TxGNN élevé (0,9954) est cohérent avec ce lien au niveau de la voie,
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60443413 (abrogée) | TORISEL 30 mg, solution à diluer et solvant pour solution pour perfusion | Solution à diluer et solvant pour solution pour perfusion | Non renseignée |
+| 60443413 | TORISEL 30 mg, solution à diluer et solvant pour solution pour perfusion | Solution à diluer et solvant pour solution pour perfusion | Non renseignée |
+
+<!-- review:begin fr-row-20261112-temsirolimus-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 60443413 (abrogée) » Selon la BDPM (données du 2026-11-09), l’AMM 60443413 (TORISEL 30 mg, solution à diluer et solvant pour solution pour perfusion) a le statut « Autorisation active » ; la mention « abrogée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-temsirolimus-1 -->
 
 ---
 
@@ -151,6 +157,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a seule AMM française est abrogée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 60443413 (TORISEL 30 mg) est active, non abrogée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

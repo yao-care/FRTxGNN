@@ -100,8 +100,20 @@ Dix publications parmi les plus pertinentes (sur 20) sont présentées, avec pri
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 64367525 (annulée) | ADRIBLASTINE 50 mg | Poudre pour solution injectable | Non renseignée |
-| 65771499 (annulée) | ADRIBLASTINE 10 mg | Poudre pour solution injectable | Non renseignée |
+| 64367525 | ADRIBLASTINE 50 mg | Poudre pour solution injectable | Non renseignée |
+| 65771499 | ADRIBLASTINE 10 mg | Poudre pour solution injectable | Non renseignée |
+
+<!-- review:begin fr-row-20261112-doxorubicin-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 64367525 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 64367525 (ADRIBLASTINE 50 mg, poudre pour solution injectable en flacon) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-doxorubicin-1 -->
+
+<!-- review:begin fr-row-20261112-doxorubicin-2 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 65771499 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 65771499 (ADRIBLASTINE 10 mg, poudre pour solution injectable en flacon) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-doxorubicin-2 -->
 
 Les deux autorisations, détenues par PFIZER HOLDING FRANCE, sont valides. Deux AMM valides sur deux sont donc recensées dans les données compilées.
 
@@ -161,6 +173,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 64367525 (ADRIBLASTINE 50 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 65771499 (ADRIBLASTINE 10 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

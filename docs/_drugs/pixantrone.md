@@ -73,7 +73,13 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69454261 | PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion (LES LABORATOIRES SERVIER), statut : active | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 69454261 | PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion (LES LABORATOIRES SERVIER), statut : archivée | Poudre pour solution à diluer pour perfusion | Non renseignée |
+
+<!-- review:begin fr-row-20261112-pixantrone-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « statut : active » Selon la BDPM (données du 2026-11-09), l’AMM 69454261 (PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-pixantrone-1 -->
 
 ## Cytotoxicité
 
@@ -119,6 +125,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'autorisation française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

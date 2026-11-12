@@ -94,8 +94,14 @@ Principales AMM (5 sur 20) :
 | 67229700 | IRBESARTAN EVOLUGEN 150 mg | comprimé pelliculé | Non disponible (active) |
 | 64933635 | APROVEL 75 mg | comprimé pelliculé | Non disponible (active) |
 | 66542998 | IFIRMASTA 75 mg | comprimé pelliculé | Non disponible (active) |
-| 69985835 | IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (active) |
+| 69985835 | IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (archivée) |
 | 61200414 | IRBESARTAN ARROW 75 mg | comprimé | Non disponible (active) |
+
+<!-- review:begin fr-row-20261112-irbesartan-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « IRBESARTAN CRISTERS 75 mg / comprimé pelliculé / Non disponible (active) » Selon la BDPM (données du 2026-11-09), l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg, comprimé pelliculé) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-irbesartan-1 -->
 
 ## Considérations de Sécurité
 
@@ -116,6 +122,19 @@ La notice (mises en garde et contre-indications officielles) n'a pas pu être an
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue systématique de la littérature clinique sur les ARA II dans l'hypertension rénovasculaire, avec évaluation du risque rénal
 - Pour l'hypertension pulmonaire liée à l'hypoxie : validation préclinique spécifique avant toute étude clinique (question de recherche, niveau L4)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

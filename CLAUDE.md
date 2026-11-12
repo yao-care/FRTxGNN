@@ -34,3 +34,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 其中 2 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 另外 2026-11-09 每週排程後 BDPM 有許可轉為註銷、正文仍寫「全部有效」的 5 頁（dalteparin、diosmin、docetaxel、letrozole、molsidomine），2026-11-12 以 5 筆 correct 紀錄（id fr-lic-20261112-*）只刪矛盾子句。
 2026-11-12 正文許可證張數／狀態對事實層與證據包的掃描，以 10 筆 `fr-lic-20261112-*` 更正：fluvastatin、povidone、riluzole、ezetimibe（有效張數）、moxonidine（寫全註銷，實為全有效）、travoprost、simoctocog_alfa、finasteride（11-06 刪句後留下「也已註銷」的殘句）、primaquine（寫已無有效 AMM）、panobinostat（下一步的「(AMM annulées)」）。證據包只收前 20 張（partial）的頁在「下一步」寫「(AMM annulées)」的約 15 頁，前 20 張全 active、其餘未收，無法證明錯，未改。
+2026-11-12 許可證表格列狀態對事實層（母目錄 check_drug_page.py --row-status）：20 列 BDPM「Autorisation active」的號碼格標成「(annulée)／(abrogée)」（拿掉標註）、10 列寫 active 但 BDPM 為「Autorisation archivée／abrogée」（改成原文 archivée／abrogée），以 30 筆 `fr-row-20261112-*` correct 紀錄更正（依證據包原始狀態逐列確認）。

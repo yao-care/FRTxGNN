@@ -85,7 +85,13 @@ Cette publication porte sur l'agitation et les troubles du comportement dans la 
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 63737879 (annulée) | DEPAMIDE 300 mg, comprimé pelliculé gastro-résistant (SANOFI WINTHROP INDUSTRIE) | Comprimé pelliculé gastro-résistant | Non renseignée |
+| 63737879 | DEPAMIDE 300 mg, comprimé pelliculé gastro-résistant (SANOFI WINTHROP INDUSTRIE) | Comprimé pelliculé gastro-résistant | Non renseignée |
+
+<!-- review:begin fr-row-20261112-valpromide-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 63737879 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 63737879 (DEPAMIDE 300 mg, comprimé pelliculé gastro-résistant) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-valpromide-1 -->
 
 ## Considérations de Sécurité
 
@@ -121,6 +127,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (autorisation aujourd'hui annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 63737879 (DEPAMIDE 300 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

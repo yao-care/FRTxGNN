@@ -107,7 +107,13 @@ Pour la néphropathie diabétique (rang 3) :
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 60016589 (annulée) | LEVOCARNIL 1 g/5 ml, solution injectable en ampoule | Solution injectable | Non renseignée |
+| 60016589 | LEVOCARNIL 1 g/5 ml, solution injectable en ampoule | Solution injectable | Non renseignée |
+
+<!-- review:begin fr-row-20261112-levocarnitine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 60016589 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 60016589 (LEVOCARNIL 1 g/5 ml, solution injectable en ampoule) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-levocarnitine-1 -->
 
 Titulaire : ALFASIGMA FRANCE.
 
@@ -161,6 +167,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 60016589 (LEVOCARNIL 1 g/5 ml) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

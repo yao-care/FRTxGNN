@@ -102,10 +102,16 @@ Pour les autres prédictions (alopécie, hypotrichoses, syndromes du défilé th
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 62439495 | MOLSIDOMINE EG 2 mg | Comprimé sécable | Non précisée (AMM active) |
-| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM active) |
+| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM archivée) |
 | 63967289 | MOLSIDOMINE ARROW 4 mg | Comprimé sécable | Non précisée (AMM active) |
 | 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non précisée (AMM active) |
 | 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non précisée (AMM active) |
+
+<!-- review:begin fr-row-20261112-molsidomine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « MOLSIDOMINE ARROW 2 mg / Comprimé sécable / Non précisée (AMM active) » Selon la BDPM (données du 2026-11-09), l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg, comprimé sécable) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+
+<!-- review:end fr-row-20261112-molsidomine-1 -->
 
 ---
 
@@ -153,6 +159,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM (réglementaires, commerciales ou de sécurité) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Supprimé : « et les 8 AMM françaises (sur 8) sont valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 
