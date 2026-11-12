@@ -85,7 +85,13 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose simple
 | 68782718 | PHYSIOTENS 0,4 mg | comprimé pelliculé | Non renseignée (AMM active) |
 | 63708322 | MOXONIDINE TEVA SANTE 0,2 mg | comprimé pelliculé | Non renseignée (AMM active) |
 
-Cinq AMM sur dix sont affichées ; les dix sont annulées.
+Cinq AMM sur dix sont affichées ; les dix sont actives.
+
+<!-- review:begin fr-lic-20261112-moxonidine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « les dix sont annulées » D'après la BDPM (données du 2026-11-09), les 10 AMM de moxonidine sont toutes actives. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-moxonidine-1 -->
 
 ## Considérations de Sécurité
 
@@ -121,6 +127,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | AMM : les 10 sont actives, non annulées | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

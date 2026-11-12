@@ -72,7 +72,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Certaines AMM ci-dessous sont valides (6 sur 7). Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
+Certaines AMM ci-dessous sont valides (5 sur 7 ; les 2 autres sont archivées). Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
+
+<!-- review:begin fr-lic-20261112-povidone-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « (6 sur 7) » D'après la BDPM (données du 2026-11-09), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-povidone-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -102,6 +108,19 @@ Aucune interaction médicamenteuse n'a été retrouvée. Veuillez consulter la n
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Rechercher des études précliniques ou des données de formulation topique cutanée pour la povidone dans l'ichtyose
 - Évaluer la compatibilité des voies d'administration, les formes actuelles étant uniquement ophtalmiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | AMM valides : 6 → 5 sur 7 | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

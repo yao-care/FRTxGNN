@@ -4254,6 +4254,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
   },
   {
+   "id": "fr-lic-20261112-finasteride-1",
+   "drug": "finasteride",
+   "file": "finasteride.md",
+   "action": "correct",
+   "claim": "solution pour pulvérisation cutanée), également annulée.",
+   "replacement": "solution pour pulvérisation cutanée), dont l'AMM est active.",
+   "summary": "FINCREZO : AMM active, non annulée",
+   "note": "D'après la BDPM (données du 2026-11-09), l'AMM de FINCREZO 2,275 mg/mL (61798869) est active.",
+   "finding": "11-06 刪掉「全部註銷」後留下「FINCREZO 也已註銷」的殘句；證據包 BDPM 61798869：Autorisation active",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
    "id": "fr-lic-20261106-flavoxate-1",
    "drug": "flavoxate",
    "file": "flavoxate.md",
@@ -8434,6 +8454,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
   },
   {
+   "id": "fr-lic-20261112-moxonidine-1",
+   "drug": "moxonidine",
+   "file": "moxonidine.md",
+   "action": "correct",
+   "claim": "les dix sont annulées",
+   "replacement": "les dix sont actives",
+   "summary": "AMM : les 10 sont actives, non annulées",
+   "note": "D'après la BDPM (données du 2026-11-09), les 10 AMM de moxonidine sont toutes actives.",
+   "finding": "正文寫 10 張全註銷；證據包 BDPM 10 張全 Autorisation active（事實層 valid 10、cancelled 0）",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
    "id": "fr-lic-20261106-mycophenolate_mofetil-1",
    "drug": "mycophenolate_mofetil",
    "file": "mycophenolate_mofetil.md",
@@ -9796,6 +9836,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
   },
   {
+   "id": "fr-lic-20261112-panobinostat-1",
+   "drug": "panobinostat",
+   "file": "panobinostat.md",
+   "action": "correct",
+   "claim": " en France (AMM annulées)",
+   "replacement": " en France",
+   "summary": "Supprimé : « (AMM annulées) »",
+   "note": "Supprimé : d'après la BDPM (données du 2026-11-09), les 3 AMM de panobinostat sont actives ; aucune n'est annulée.",
+   "finding": "「下一步」把 AMM 當成已註銷（舊事實的殘留前提）；證據包 BDPM 3 張全 Autorisation active。只刪括號，建議本身不動",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
    "id": "fr-lic-20261106-pantoprazole-1",
    "drug": "pantoprazole",
    "file": "pantoprazole.md",
@@ -10956,6 +11016,26 @@
    "checked": "2026-11-06",
    "summary": "Supprimé : « l'AMM étant abrogée »",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+  },
+  {
+   "id": "fr-lic-20261112-primaquine-1",
+   "drug": "primaquine",
+   "file": "primaquine.md",
+   "action": "correct",
+   "claim": "la primaquine n'a actuellement plus d'AMM valide en France et présente",
+   "replacement": "la primaquine, qui dispose d'une AMM active en France (62907143), présente",
+   "summary": "La primaquine a une AMM active en France",
+   "note": "D'après la BDPM (données du 2026-11-09), la primaquine dispose d'une AMM active (62907143, phosphate de primaquine).",
+   "finding": "正文說已無有效 AMM；證據包與事實層：1 張 Autorisation active。只改這個事實，決策與其他理由不動",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
   },
   {
    "id": "fr-lic-20261106-primidone-1",
@@ -12640,7 +12720,52 @@
    "checked": "2026-11-06",
    "summary": "Supprimé : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées »",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
-   "anchor": "Trois autres AMM annulées existent (NUWIQ 2500, 3000 et 2000 UI) et ne sont pas détaillées ici."
+   "anchor": "(NUWIQ 2500, 3000 et 2000 UI) et ne sont pas détaillées ici.",
+   "history": [
+    {
+     "id": "fr-lic-20261106-simoctocog_alfa-1",
+     "drug": "simoctocog_alfa",
+     "file": "simoctocog_alfa.md",
+     "action": "correct",
+     "claim": "Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées.",
+     "replacement": "",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Supprimé : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées »",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "anchor": "Trois autres AMM annulées existent (NUWIQ 2500, 3000 et 2000 UI) et ne sont pas détaillées ici.",
+     "retired": "2026-11-12",
+     "reason": "錨點那句由 fr-lic-20261112-simoctocog_alfa-1 依事實層更正；錨點改成句中不受更正影響的片段，框的位置不變"
+    }
+   ]
+  },
+  {
+   "id": "fr-lic-20261112-simoctocog_alfa-1",
+   "drug": "simoctocog_alfa",
+   "file": "simoctocog_alfa.md",
+   "action": "correct",
+   "claim": "Trois autres AMM annulées existent",
+   "replacement": "Trois autres AMM actives existent",
+   "summary": "Les 3 autres AMM NUWIQ sont actives, non annulées",
+   "note": "D'après la BDPM (données du 2026-11-09), les 8 AMM de simoctocog alfa (gamme NUWIQ) sont toutes actives.",
+   "finding": "11-06 刪掉「8 張全註銷」後，「另 3 張已註銷」這句沒刪；證據包 BDPM 8 張全 Autorisation active",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
   },
   {
    "id": "fr-lic-20261106-sofosbuvir-1",
@@ -15648,6 +15773,106 @@
    "checked": "2026-11-12",
    "summary": "Supprimé : « et les 8 AMM françaises (sur 8) sont valides »",
    "method": "2026-11-12 依 checker M3（排程 2026-11-09 後的新事實）人工核對，只刪矛盾子句"
+  },
+  {
+   "id": "fr-lic-20261112-fluvastatin-1",
+   "drug": "fluvastatin",
+   "file": "fluvastatin.md",
+   "action": "correct",
+   "claim": "14 sont valides et 1 est annulée",
+   "replacement": "12 sont valides et 3 ne le sont plus (2 abrogées, 1 archivée)",
+   "summary": "AMM valides : 14 → 12 (3 abrogées ou archivées)",
+   "note": "D'après la BDPM (données du 2026-11-09), sur les 15 AMM de fluvastatine, 12 sont actives, 2 abrogées (62912304, 60958826) et 1 archivée (60679068).",
+   "finding": "正文寫 14 有效 1 註銷；證據包 BDPM：active 12、abrogée 2、archivée 1（事實層 valid 12、cancelled 3）",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
+   "id": "fr-lic-20261112-povidone-1",
+   "drug": "povidone",
+   "file": "povidone.md",
+   "action": "correct",
+   "claim": "(6 sur 7)",
+   "replacement": "(5 sur 7 ; les 2 autres sont archivées)",
+   "summary": "AMM valides : 6 → 5 sur 7",
+   "note": "D'après la BDPM (données du 2026-11-09), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581).",
+   "finding": "正文寫 7 張中 6 張有效；證據包 BDPM：active 5、archivée 2",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
+   "id": "fr-lic-20261112-travoprost-1",
+   "drug": "travoprost",
+   "file": "travoprost.md",
+   "action": "correct",
+   "claim": "Les 15 autres AMM (génériques de travoprost seul ou associés au timolol) sont également annulées.",
+   "replacement": "Parmi les 15 autres AMM (génériques de travoprost seul ou associés au timolol), 14 sont actives et 1 est abrogée (66811249).",
+   "summary": "Les 15 autres AMM ne sont pas toutes annulées : 14 actives, 1 abrogée",
+   "note": "D'après la BDPM (données du 2026-11-09), parmi les 20 AMM compilées pour ce rapport, 19 sont actives et 1 est abrogée (66811249) ; les 15 AMM non détaillées dans le tableau comprennent 14 actives et 1 abrogée.",
+   "finding": "11-06 刪掉「全部註銷」後留下「另 15 張也都註銷」的殘句；證據包 BDPM 前 20 張（表列 5＋其餘 15）：active 19、abrogée 1。total_matches 21，第 21 張不在證據包，句子講的是這 15 張",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
+   "id": "fr-lic-20261112-riluzole-1",
+   "drug": "riluzole",
+   "file": "riluzole.md",
+   "action": "correct",
+   "claim": "recensent 10 AMM, toutes valides ;",
+   "replacement": "recensent 10 AMM, dont 9 valides et 1 abrogée (62414855) ;",
+   "summary": "AMM valides : 10 → 9 (1 abrogée)",
+   "note": "D'après la BDPM (données du 2026-11-09), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855).",
+   "finding": "正文寫 10 張全有效；證據包 BDPM：active 9、abrogée 1",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
+   "id": "fr-lic-20261112-ezetimibe-1",
+   "drug": "ezetimibe",
+   "file": "ezetimibe.md",
+   "action": "correct",
+   "claim": "recensent au moins 20 AMM, toutes valides,",
+   "replacement": "recensent au moins 20 AMM, dont 19 valides et 1 archivée (69062997) parmi les 20 compilées,",
+   "summary": "AMM compilées : 19 valides et 1 archivée, pas toutes valides",
+   "note": "D'après la BDPM (données du 2026-11-09), parmi les 20 AMM compilées pour ce rapport, 19 sont actives et 1 est archivée (69062997).",
+   "finding": "正文寫至少 20 張全有效；證據包 BDPM 收的 20 張：active 19、archivée 1（total_matches 118，其餘未收進證據包，這裡只講收進來的 20 張）",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
   }
  ]
 }

@@ -54,6 +54,12 @@ avec **16 essais cliniques** et **20 publications** recensés actuellement, dont
 | Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
+<!-- review:begin fr-lic-20261112-panobinostat-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « en France (AMM annulées) » Supprimé : d'après la BDPM (données du 2026-11-09), les 3 AMM de panobinostat sont actives ; aucune n'est annulée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-panobinostat-1 -->
+
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
 Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des connaissances établies, le panobinostat est un inhibiteur pan-HDAC (de large spectre), dont l'efficacité dans le myélome multiple a été démontrée, et qui pourrait mécanistiquement s'appliquer à la leucémie myéloïde.
@@ -143,7 +149,7 @@ Veuillez consulter la notice pour les autres informations de sécurité (mises e
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Examiner les taux de réponse et de survie des essais NCT00946647, NCT00880269 et NCT00840346
 - Préciser la population cible (LAM, SMD, LMC) et vérifier la spécificité de la maladie des essais classés B/C
-- Clarifier les raisons de l'arrêt de NCT04326764 et évaluer les possibilités d'accès au médicament en France (AMM annulées)
+- Clarifier les raisons de l'arrêt de NCT04326764 et évaluer les possibilités d'accès au médicament en France
 - Établir un plan de surveillance de la sécurité, notamment cardiaque (QT) et hématologique
 
 <!-- review:begin log -->
@@ -155,6 +161,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Par ailleurs, les trois AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui bloque le criblage de séc » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

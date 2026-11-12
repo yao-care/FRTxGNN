@@ -83,7 +83,13 @@ Les textes d'indication approuvée ne sont pas renseignés dans les données com
 | 62332319 | SINETRAV 40 µg/mL | Collyre en solution | Active |
 | 68058227 | TRAVOPROST ZENTIVA 40 µg/mL | Collyre en solution | Active |
 
-Les 15 autres AMM (génériques de travoprost seul ou associés au timolol) sont également annulées.
+Parmi les 15 autres AMM (génériques de travoprost seul ou associés au timolol), 14 sont actives et 1 est abrogée (66811249).
+
+<!-- review:begin fr-lic-20261112-travoprost-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « Les 15 autres AMM (génériques de travoprost seul ou associés au timolol) sont également annulées. » D'après la BDPM (données du 2026-11-09), parmi les 20 AMM compilées pour ce rapport, 19 sont actives et 1 est abrogée (66811249) ; les 15 AMM non détaillées dans le tableau comprennent 14 actives et 1 abrogée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-travoprost-1 -->
 
 ## Considérations de Sécurité
 
@@ -107,6 +113,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Données précliniques ou mécanistiques reliant l'agonisme du récepteur FP à la calciphylaxie
 - Évaluation de la faisabilité d'une voie d'administration permettant une exposition systémique pertinente
 - Clarification du statut réglementaire en France (annulation des AMM)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Les 15 autres AMM ne sont pas toutes annulées : 14 actives, 1 abrogée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

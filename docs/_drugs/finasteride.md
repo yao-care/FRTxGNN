@@ -106,7 +106,13 @@ Le texte d'indication n'est pas renseigné.
 | 63127452 | FINASTERIDE ALMUS 5 mg | Comprimé pelliculé | Non renseignée |
 | 60123363 | FINASTERIDE ACCORD 5 mg | Comprimé pelliculé | Non renseignée |
 
-Parmi l'ensemble des AMM figure aussi une présentation topique (FINCREZO 2,275 mg/mL, solution pour pulvérisation cutanée), également annulée.
+Parmi l'ensemble des AMM figure aussi une présentation topique (FINCREZO 2,275 mg/mL, solution pour pulvérisation cutanée), dont l'AMM est active.
+
+<!-- review:begin fr-lic-20261112-finasteride-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « solution pour pulvérisation cutanée), également annulée. » D'après la BDPM (données du 2026-11-09), l'AMM de FINCREZO 2,275 mg/mL (61798869) est active. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-finasteride-1 -->
 
 ---
 
@@ -142,6 +148,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes **annulées** (voici les 5 premières) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | FINCREZO : AMM active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

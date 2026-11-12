@@ -82,7 +82,13 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-La fluvastatine est commercialisée en France. Les textes d'indication ne sont pas renseignés dans les données compilées pour ces AMM. Sur les 15 AMM, 14 sont valides et 1 est annulée.
+La fluvastatine est commercialisée en France. Les textes d'indication ne sont pas renseignés dans les données compilées pour ces AMM. Sur les 15 AMM, 12 sont valides et 3 ne le sont plus (2 abrogées, 1 archivée).
+
+<!-- review:begin fr-lic-20261112-fluvastatin-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « 14 sont valides et 1 est annulée » D'après la BDPM (données du 2026-11-09), sur les 15 AMM de fluvastatine, 12 sont actives, 2 abrogées (62912304, 60958826) et 1 archivée (60679068). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-fluvastatin-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -110,6 +116,19 @@ La fluvastatine est commercialisée en France. Les textes d'indication ne sont p
 - Études précliniques démontrant une activité antivirale ou immunomodulatrice pertinente dans le VIH
 - Essais cliniques dont le critère principal porte sur la maladie VIH (réservoir viral, activation immunitaire, événements cliniques)
 - Évaluation des interactions avec les antirétroviraux
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | AMM valides : 14 → 12 (3 abrogées ou archivées) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

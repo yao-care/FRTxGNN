@@ -105,7 +105,13 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la myiase est de niveau L5 : aucun essai clinique, aucune publication, aucun mécanisme plausible, et un score vraisemblablement hérité de l'ontologie. De plus, la primaquine n'a actuellement plus d'AMM valide en France et présente un profil de sécurité exigeant (hémolyse, G6PD).
+- La prédiction pour la myiase est de niveau L5 : aucun essai clinique, aucune publication, aucun mécanisme plausible, et un score vraisemblablement hérité de l'ontologie. De plus, la primaquine, qui dispose d'une AMM active en France (62907143), présente un profil de sécurité exigeant (hémolyse, G6PD).
+
+<!-- review:begin fr-lic-20261112-primaquine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « la primaquine n'a actuellement plus d'AMM valide en France et présente » D'après la BDPM (données du 2026-11-09), la primaquine dispose d'une AMM active (62907143, phosphate de primaquine). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-primaquine-1 -->
 
 **Autres prédictions du modèle, à titre d'information :**
 - **Pneumocystose** : l'association clindamycine/primaquine est une option de seconde ligne dans la pneumonie à *Pneumocystis jirovecii* légère à modérée. Elle s'appuie sur un essai de phase 3 (NCT00000640, 290 patients) et sur des revues et recommandations. Elle serait de niveau L1 avec la mention « Proceed with Guardrails » (dépistage G6PD obligatoire, usage en association, seconde ligne uniquement). Un essai de phase 4 (NCT07357103) n'a pas encore commencé à recruter.
@@ -134,6 +140,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « l'AMM étant abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | La primaquine a une AMM active en France | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

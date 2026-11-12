@@ -77,7 +77,13 @@ Les deux publications recensées ne portent pas directement sur l'ézétimibe da
 
 ## Informations de Marché en France
 
-L'ézétimibe est commercialisé en France. Les données compilées recensent au moins 20 AMM, toutes valides, et la liste peut être partielle. Les textes d'indication approuvée ne sont pas renseignés. Plusieurs produits listés sont des associations (par exemple avec la rosuvastatine) ; leurs AMM ne décrivent pas l'usage de l'ézétimibe seul.
+L'ézétimibe est commercialisé en France. Les données compilées recensent au moins 20 AMM, dont 19 valides et 1 archivée (69062997) parmi les 20 compilées, et la liste peut être partielle. Les textes d'indication approuvée ne sont pas renseignés. Plusieurs produits listés sont des associations (par exemple avec la rosuvastatine) ; leurs AMM ne décrivent pas l'usage de l'ézétimibe seul.
+
+<!-- review:begin fr-lic-20261112-ezetimibe-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « recensent au moins 20 AMM, toutes valides, » D'après la BDPM (données du 2026-11-09), parmi les 20 AMM compilées pour ce rapport, 19 sont actives et 1 est archivée (69062997). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-ezetimibe-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -106,6 +112,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publi
 - Éléments de preuve directs (études mécanistiques ou cliniques) sur l'ézétimibe dans le déficit en CETP
 - Démonstration d'un bénéfice clinique d'un traitement hypolipémiant dans cette maladie
 - Mises en garde et contre-indications issues de la notice officielle de l'ANSM
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | AMM compilées : 19 valides et 1 archivée, pas toutes valides | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

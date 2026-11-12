@@ -102,13 +102,19 @@ Aucune littérature associée disponible actuellement.
 | 63383804 | NUWIQ 1500 UI | Poudre et solvant pour solution injectable | Non renseignée |
 | 67351693 | NUWIQ 500 UI | Poudre et solvant pour solution injectable | Non renseignée |
 
-Trois autres AMM annulées existent (NUWIQ 2500, 3000 et 2000 UI) et ne sont pas détaillées ici.
+Trois autres AMM actives existent (NUWIQ 2500, 3000 et 2000 UI) et ne sont pas détaillées ici.
 
 <!-- review:begin fr-lic-20261106-simoctocog_alfa-1 -->
 
 > **Correction de vérification (2026-11-06)**: Texte initial : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-simoctocog_alfa-1 -->
+
+<!-- review:begin fr-lic-20261112-simoctocog_alfa-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « Trois autres AMM annulées existent » D'après la BDPM (données du 2026-11-09), les 8 AMM de simoctocog alfa (gamme NUWIQ) sont toutes actives. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-simoctocog_alfa-1 -->
 
 ---
 
@@ -142,7 +148,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées » | Corrigé (révisé le 2026-11-12 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Les 3 autres AMM NUWIQ sont actives, non annulées | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

@@ -70,7 +70,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, toutes valides ; ce sont des spécialités à base de riluzole seul.
+Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, dont 9 valides et 1 abrogée (62414855) ; ce sont des spécialités à base de riluzole seul.
+
+<!-- review:begin fr-lic-20261112-riluzole-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « recensent 10 AMM, toutes valides ; » D'après la BDPM (données du 2026-11-09), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-riluzole-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -98,6 +104,18 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Récupération des mises en garde et contre-indications de la notice (ANSM)
 - Revue de la littérature sur le rôle de la signalisation glutamatergique dans les malformations corticales
 - Études précliniques ou cliniques ciblant directement cette malformation
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | AMM valides : 10 → 9 (1 abrogée) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 
